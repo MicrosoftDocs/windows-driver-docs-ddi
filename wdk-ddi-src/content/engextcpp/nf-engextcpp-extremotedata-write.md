@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Write
-title: ExtRemoteData::Write
+title: ExtRemoteData::Write (engextcpp.h)
 description: The Write method writes the data cached by the ExtRemoteData object to the region of memory on the target, represented by this object.
 old-location: debugger\extremotedata_write.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.Write
+- ExtRemoteData.Write
 product:
 - Windows
 targetos: Windows

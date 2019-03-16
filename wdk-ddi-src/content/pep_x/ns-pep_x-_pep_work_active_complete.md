@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_ACTIVE_COMPLETE
-title: "_PEP_WORK_ACTIVE_COMPLETE"
+title: _PEP_WORK_ACTIVE_COMPLETE (pep_x.h)
 description: The PEP_WORK_ACTIVE_COMPLETE structure identifies a component that is now in the active condition.
 old-location: kernel\pep_work_active_complete.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_WORK_ACTIVE_COMPLETE
+- PEP_WORK_ACTIVE_COMPLETE
 product:
 - Windows
 targetos: Windows

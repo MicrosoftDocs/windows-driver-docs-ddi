@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-title: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+title: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\evt_wdf_task_queue_task_execute_sync.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+- EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 product:
 - Windows
 targetos: Windows

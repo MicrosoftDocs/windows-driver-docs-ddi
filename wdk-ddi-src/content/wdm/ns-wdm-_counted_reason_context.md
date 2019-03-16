@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._COUNTED_REASON_CONTEXT
-title: "_COUNTED_REASON_CONTEXT"
+title: _COUNTED_REASON_CONTEXT (wdm.h)
 description: The COUNTED_REASON_CONTEXT structure contains one or more strings that give reasons for a power request.
 old-location: kernel\counted_reason_context.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	COUNTED_REASON_CONTEXT
+- COUNTED_REASON_CONTEXT
 product:
 - Windows
 targetos: Windows

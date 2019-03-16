@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagDELETE_OBJECT_OPTIONS
-title: tagDELETE_OBJECT_OPTIONS
+title: DELETE_OBJECT_OPTIONS (portabledevice.h)
 description: The DELETE_OBJECT_OPTIONS enumeration type describes options that are supported by a device when deleting an object.
 old-location: wpddk\delete_object_options.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	DELETE_OBJECT_OPTIONS
+- DELETE_OBJECT_OPTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: DELETE_OBJECT_OPTIONS
 ms.custom: RS5

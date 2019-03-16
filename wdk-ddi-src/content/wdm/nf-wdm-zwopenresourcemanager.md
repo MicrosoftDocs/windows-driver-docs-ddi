@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenResourceManager
-title: ZwOpenResourceManager function
+title: ZwOpenResourceManager function (wdm.h)
 description: The ZwOpenResourceManager routine returns a handle to an existing resource manager object.
 old-location: kernel\zwopenresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenResourceManager
--	NtOpenResourceManager
+- ZwOpenResourceManager
+- NtOpenResourceManager
 product:
 - Windows
 targetos: Windows

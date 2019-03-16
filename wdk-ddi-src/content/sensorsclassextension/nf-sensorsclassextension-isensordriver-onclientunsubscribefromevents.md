@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientUnsubscribeFromEvents
-title: ISensorDriver::OnClientUnsubscribeFromEvents
+title: ISensorDriver::OnClientUnsubscribeFromEvents (sensorsclassextension.h)
 description: The ISensorDriver::OnClientUnsubscribeFromEvents method notifies the sensor driver that a client application no longer requests event notifications.
 old-location: sensors\isensordriver_onclientunsubscribefromevents.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnClientUnsubscribeFromEvents
+- OnClientUnsubscribeFromEvents
 product:
 - Windows
 targetos: Windows

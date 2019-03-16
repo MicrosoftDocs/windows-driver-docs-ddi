@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueFindRequest
-title: WdfIoQueueFindRequest function
+title: WdfIoQueueFindRequest function (wdfio.h)
 description: The WdfIoQueueFindRequest method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant ownership of the request to the driver.
 old-location: wdf\wdfioqueuefindrequest.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueFindRequest
+- WdfIoQueueFindRequest
 product:
 - Windows
 targetos: Windows

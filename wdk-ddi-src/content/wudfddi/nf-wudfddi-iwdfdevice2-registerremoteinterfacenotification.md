@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.RegisterRemoteInterfaceNotification
-title: IWDFDevice2::RegisterRemoteInterfaceNotification
+title: IWDFDevice2::RegisterRemoteInterfaceNotification (wudfddi.h)
 description: The RegisterRemoteInterfaceNotification method registers a driver to receive a notification when a specified device interface becomes available.
 old-location: wdf\iwdfdevice2_registerremoteinterfacenotification.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.RegisterRemoteInterfaceNotification
+- IWDFDevice2.RegisterRemoteInterfaceNotification
 product:
 - Windows
 targetos: Windows

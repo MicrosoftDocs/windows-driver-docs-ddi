@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_PROCESS_ONEX_PACKET
-title: DOT11EXT_PROCESS_ONEX_PACKET
+title: DOT11EXT_PROCESS_ONEX_PACKET (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extprocessonexpacket.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtProcessOneXPacket
+- Dot11ExtProcessOneXPacket
 product:
 - Windows
 targetos: Windows

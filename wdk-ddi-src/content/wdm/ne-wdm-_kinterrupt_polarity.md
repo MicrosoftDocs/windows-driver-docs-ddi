@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KINTERRUPT_POLARITY
-title: "_KINTERRUPT_POLARITY"
+title: _KINTERRUPT_POLARITY (wdm.h)
 description: The KINTERRUPT_POLARITY enumeration indicates how a device signals an interrupt request on an interrupt line.
 old-location: kernel\kinterrupt_polarity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KINTERRUPT_POLARITY
+- KINTERRUPT_POLARITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_PRESENT_0001
-title: D3D12DDIARG_PRESENT_0001
+title: D3D12DDIARG_PRESENT_0001 (d3d12umddi.h)
 description: Describes a resource to display.
 ms.assetid: 25bbfe02-c536-4b74-b9b1-ee7a585db027
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_PRESENT_0001
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_PRESENT_0001
+- D3D12DDIARG_PRESENT_0001
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

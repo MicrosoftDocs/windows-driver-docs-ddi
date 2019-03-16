@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessUpTime
-title: IDebugSystemObjects4::GetCurrentProcessUpTime
+title: IDebugSystemObjects4::GetCurrentProcessUpTime (dbgeng.h)
 description: The GetCurrentProcessUpTime method returns the length of time the current process has been running.
 old-location: debugger\getcurrentprocessuptime.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects2.GetCurrentProcessUpTime
--	IDebugSystemObjects3.GetCurrentProcessUpTime
--	IDebugSystemObjects4.GetCurrentProcessUpTime
+- IDebugSystemObjects2.GetCurrentProcessUpTime
+- IDebugSystemObjects3.GetCurrentProcessUpTime
+- IDebugSystemObjects4.GetCurrentProcessUpTime
 product:
 - Windows
 targetos: Windows

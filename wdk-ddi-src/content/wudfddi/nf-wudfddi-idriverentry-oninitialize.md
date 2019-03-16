@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IDriverEntry.OnInitialize
-title: IDriverEntry::OnInitialize
+title: IDriverEntry::OnInitialize (wudfddi.h)
 description: The OnInitialize method performs any operations that are necessary to initialize a driver.
 old-location: wdf\idriverentry_oninitialize.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IDriverEntry.OnInitialize
+- IDriverEntry.OnInitialize
 product:
 - Windows
 targetos: Windows

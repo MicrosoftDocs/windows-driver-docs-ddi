@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SERIAL_NUMBER
-title: "_AACS_SERIAL_NUMBER"
+title: _AACS_SERIAL_NUMBER (ntddcdvd.h)
 description: The AACS_SERIAL_NUMBER structure contains an Advanced Access Content System (AACS) serial number and corresponding message authentication code (MAC).
 old-location: storage\aacs_serial_number.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_SERIAL_NUMBER
+- AACS_SERIAL_NUMBER
 product:
 - Windows
 targetos: Windows

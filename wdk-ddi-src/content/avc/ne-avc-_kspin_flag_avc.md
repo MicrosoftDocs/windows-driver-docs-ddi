@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._KSPIN_FLAG_AVC
-title: "_KSPIN_FLAG_AVC"
+title: _KSPIN_FLAG_AVC (avc.h)
 description: The KSPIN_FLAG_AVC enumeration type is used for connection management and in the AVC_FUNCTION_GET_CONNECTINFO function code.
 old-location: stream\kspin_flag_avc.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	KSPIN_FLAG_AVC
+- KSPIN_FLAG_AVC
 product:
 - Windows
 targetos: Windows

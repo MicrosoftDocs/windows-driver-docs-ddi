@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorHistoryRetrievalCompleted
-title: SensorsCxSensorHistoryRetrievalCompleted function
+title: SensorsCxSensorHistoryRetrievalCompleted function (sensorscx.h)
 description: The SensorsCxSensorHistoryRetrievalCompleted function indicates that the history retrieval has completed.
 ms.assetid: 69ce718d-117d-45cb-b6fe-7c5ae7c17265
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SensorsCxSensorHistoryRetrievalCompleted
+- SensorsCxSensorHistoryRetrievalCompleted
 product: 
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATERESOURCE
-title: PFND3DDDI_CREATERESOURCE
+title: PFND3DDDI_CREATERESOURCE (d3dumddi.h)
 description: The CreateResource function creates a resource.
 old-location: display\createresource.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CreateResource
+- CreateResource
 product:
 - Windows
 targetos: Windows

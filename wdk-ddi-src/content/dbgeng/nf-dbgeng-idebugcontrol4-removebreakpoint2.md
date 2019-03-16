@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.RemoveBreakpoint2
-title: IDebugControl4::RemoveBreakpoint2
+title: IDebugControl4::RemoveBreakpoint2 (dbgeng.h)
 description: The RemoveBreakpoint2 method removes a breakpoint.
 old-location: debugger\removebreakpoint2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.RemoveBreakpoint2
+- IDebugControl4.RemoveBreakpoint2
 product:
 - Windows
 targetos: Windows

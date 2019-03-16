@@ -1,6 +1,6 @@
 ---
 UID: NC:srb.PHW_TIMER
-title: PHW_TIMER
+title: PHW_TIMER (srb.h)
 description: The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine.
 old-location: storage\phw_timer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	srb.h
+- srb.h
 api_name:
--	(*PHW_TIMER)
+- (*PHW_TIMER)
 product:
 - Windows
 targetos: Windows

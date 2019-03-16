@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetTunneledName
-title: FltGetTunneledName function
+title: FltGetTunneledName function (fltkernel.h)
 description: The FltGetTunneledName routine retrieves the tunneled name for a file, given the normalized name returned for the file by a previous call to FltGetFileNameInformation, FltGetFileNameInformationUnsafe, or FltGetDestinationFileNameInformation.
 old-location: ifsk\fltgettunneledname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetTunneledName
+- FltGetTunneledName
 product:
 - Windows
 targetos: Windows

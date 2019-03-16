@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_STATE
-title: "_D3DKMT_DEVICEPRESENT_STATE"
+title: _D3DKMT_DEVICEPRESENT_STATE (d3dkmthk.h)
 description: The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device.
 old-location: display\d3dkmt_devicepresent_state.htm
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DEVICEPRESENT_STATE
+- D3DKMT_DEVICEPRESENT_STATE
 product:
 - Windows
 targetos: Windows

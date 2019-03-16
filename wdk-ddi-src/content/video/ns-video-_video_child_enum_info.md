@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_ENUM_INFO
-title: "_VIDEO_CHILD_ENUM_INFO"
+title: _VIDEO_CHILD_ENUM_INFO (video.h)
 description: Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 old-location: display\video_child_enum_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_CHILD_ENUM_INFO
+- VIDEO_CHILD_ENUM_INFO
 product:
 - Windows
 targetos: Windows

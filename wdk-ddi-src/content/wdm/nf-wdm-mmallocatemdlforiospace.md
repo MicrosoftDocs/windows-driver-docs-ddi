@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateMdlForIoSpace
-title: MmAllocateMdlForIoSpace function
+title: MmAllocateMdlForIoSpace function (wdm.h)
 description: The MmAllocateMdlForIoSpace routine allocates an MDL and initializes this MDL to describe a set of physical address ranges in I/O address space.
 old-location: kernel\mmallocatemdlforiospace.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateMdlForIoSpace
+- MmAllocateMdlForIoSpace
 product:
 - Windows
 targetos: Windows

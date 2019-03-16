@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveQueueDpc
-title: KeRemoveQueueDpc function
+title: KeRemoveQueueDpc function (wdm.h)
 description: The KeRemoveQueueDpc routine removes the specified DPC object from the system DPC queue.
 old-location: kernel\keremovequeuedpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRemoveQueueDpc
+- KeRemoveQueueDpc
 product:
 - Windows
 targetos: Windows

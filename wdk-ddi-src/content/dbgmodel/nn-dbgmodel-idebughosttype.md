@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostType
-title: IDebugHostType
+title: IDebugHostType (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a particular type.
 ms.assetid: f4fb5043-a364-45f6-9d87-43850ac0f140
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType
-product: Windows
+- IDebugHostType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

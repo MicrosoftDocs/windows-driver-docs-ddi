@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PMINIPORT_SYNCHRONIZE_ROUTINE
-title: PMINIPORT_SYNCHRONIZE_ROUTINE
+title: PMINIPORT_SYNCHRONIZE_ROUTINE (video.h)
 description: HwVidSynchronizeExecutionCallback is an optional miniport driver function, passed in calls to VideoPortSynchronizeExecution.
 old-location: display\hwvidsynchronizeexecutioncallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidSynchronizeExecutionCallback
+- HwVidSynchronizeExecutionCallback
 product:
 - Windows
 targetos: Windows

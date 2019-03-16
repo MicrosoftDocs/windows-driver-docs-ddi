@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRemoveItemFromObjectBag
-title: KsRemoveItemFromObjectBag function
+title: KsRemoveItemFromObjectBag function (ks.h)
 description: The KsRemoveItemFromObjectBag function removes an item from an object bag.
 old-location: stream\ksremoveitemfromobjectbag.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRemoveItemFromObjectBag
+- KsRemoveItemFromObjectBag
 product:
 - Windows
 targetos: Windows

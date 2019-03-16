@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PATH_UPDATE
-title: "_DXGK_PATH_UPDATE"
+title: _DXGK_PATH_UPDATE (d3dkmddi.h)
 description: Enum which indicates how this path has been modified since the previous successful call to SetTimingsFromVidPn.
 old-location: display\dxgk_path_update.htm
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PATH_UPDATE
+- DXGK_PATH_UPDATE
 product:
 - Windows
 targetos: Windows

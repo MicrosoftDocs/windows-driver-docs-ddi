@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveAssemblyOptions
-title: IDebugControl3::RemoveAssemblyOptions
+title: IDebugControl3::RemoveAssemblyOptions (dbgeng.h)
 description: The RemoveAssemblyOptions method turns off some of the assembly and disassembly options.
 old-location: debugger\removeassemblyoptions.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.RemoveAssemblyOptions
+- IDebugControl3.RemoveAssemblyOptions
 product:
 - Windows
 targetos: Windows

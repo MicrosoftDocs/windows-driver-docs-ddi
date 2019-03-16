@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.POFXCALLBACKPROCESSORHALT
-title: POFXCALLBACKPROCESSORHALT
+title: POFXCALLBACKPROCESSORHALT (pepfx.h)
 description: The ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	ProcessorHalt
+- ProcessorHalt
 product:
 - Windows
 targetos: Windows

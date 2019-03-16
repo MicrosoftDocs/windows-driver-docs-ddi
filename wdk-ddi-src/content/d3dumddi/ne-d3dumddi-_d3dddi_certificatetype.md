@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_CERTIFICATETYPE
-title: "_D3DDDI_CERTIFICATETYPE"
+title: _D3DDDI_CERTIFICATETYPE (d3dumddi.h)
 description: The D3DDDI_CERTIFICATETYPE enumeration contains values that identify certificate types.
 old-location: display\d3dddi_certificatetype.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_CERTIFICATETYPE
+- D3DDDI_CERTIFICATETYPE
 product:
 - Windows
 targetos: Windows

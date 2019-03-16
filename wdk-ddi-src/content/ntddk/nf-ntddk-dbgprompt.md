@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.DbgPrompt
-title: DbgPrompt function
+title: DbgPrompt function (ntddk.h)
 description: The DbgPrompt routine displays a caller-specified user prompt string on the kernel debugger's display device and obtains a user response string.
 old-location: devtest\dbgprompt.htm
 tech.root: devtest
@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	DbgPrompt
+- DbgPrompt
 product:
 - Windows
 targetos: Windows

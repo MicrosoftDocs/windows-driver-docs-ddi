@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort2.ForwardContentToDeviceObject
-title: IDrmPort2::ForwardContentToDeviceObject
+title: IDrmPort2::ForwardContentToDeviceObject (portcls.h)
 description: The ForwardContentToDeviceObject method accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\idrmport2_forwardcontenttodeviceobject.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IDrmPort2.ForwardContentToDeviceObject
+- IDrmPort2.ForwardContentToDeviceObject
 product:
 - Windows
 targetos: Windows

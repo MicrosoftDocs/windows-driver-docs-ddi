@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetContent
-title: IDataModelScriptTemplate::GetContent
+title: IDataModelScriptTemplate::GetContent (dbgmodel.h)
 description: The GetContent method returns the content (or code) of the template. 
 ms.assetid: 6c374069-2f98-4283-a01f-b65bcab8cd3a
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplate.GetContent
-product: Windows
+- IDataModelScriptTemplate.GetContent
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

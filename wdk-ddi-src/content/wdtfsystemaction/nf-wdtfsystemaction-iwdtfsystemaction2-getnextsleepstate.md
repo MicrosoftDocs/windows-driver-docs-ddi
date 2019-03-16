@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.GetNextSleepState
-title: IWDTFSystemAction2::GetNextSleepState
+title: IWDTFSystemAction2::GetNextSleepState (wdtfsystemaction.h)
 description: Returns the next supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getnextsleepstate.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.GetNextSleepState
+- IWDTFSystemAction2.GetNextSleepState
 product:
 - Windows
 targetos: Windows

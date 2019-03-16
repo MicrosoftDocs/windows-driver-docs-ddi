@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_PATCH_CODE_INFO
-title: "_WIA_PATCH_CODE_INFO"
+title: _WIA_PATCH_CODE_INFO (wiadef.h)
 description: The WIA_PATCH_CODE_INFO structure stores information for one decoded patch code.
 old-location: image\wia_patch_code_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadef.h
+- wiadef.h
 api_name:
--	WIA_PATCH_CODE_INFO
+- WIA_PATCH_CODE_INFO
 product:
 - Windows
 targetos: Windows

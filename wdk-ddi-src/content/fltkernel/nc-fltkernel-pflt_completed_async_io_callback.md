@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_COMPLETED_ASYNC_IO_CALLBACK
-title: PFLT_COMPLETED_ASYNC_IO_CALLBACK
+title: PFLT_COMPLETED_ASYNC_IO_CALLBACK (fltkernel.h)
 description: A minifilter driver that initiates an asynchronous I/O operation can specify a routine of type PFLT_COMPLETED_ASYNC_IO_CALLBACK routine to be called when the operation is completed.
 old-location: ifsk\pflt_completed_async_io_callback.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	PFLT_COMPLETED_ASYNC_IO_CALLBACK
+- PFLT_COMPLETED_ASYNC_IO_CALLBACK
 product:
 - Windows
 targetos: Windows

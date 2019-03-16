@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_X86_REGISTER_STATE
-title: "_WHEA_X86_REGISTER_STATE"
+title: _WHEA_X86_REGISTER_STATE (ntddk.h)
 description: The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
 old-location: whea\whea_x86_register_state.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_X86_REGISTER_STATE
+- WHEA_X86_REGISTER_STATE
 product:
 - Windows
 targetos: Windows

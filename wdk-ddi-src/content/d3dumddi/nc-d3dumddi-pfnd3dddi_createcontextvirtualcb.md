@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATECONTEXTVIRTUALCB
-title: PFND3DDDI_CREATECONTEXTVIRTUALCB
+title: PFND3DDDI_CREATECONTEXTVIRTUALCB (d3dumddi.h)
 description: pfnCreateContextVirtualCb should be used with contexts that support virtual addressing.
 old-location: display\pfncreatecontextvirtualcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnCreateContextVirtualCb
+- pfnCreateContextVirtualCb
 product:
 - Windows
 targetos: Windows

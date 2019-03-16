@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SRQ_RECEIVE
-title: NDK_FN_SRQ_RECEIVE
+title: NDK_FN_SRQ_RECEIVE (ndkpi.h)
 description: The NdkSrqReceive (NDK_FN_SRQ_RECEIVE) function posts a receive request on an NDK shared receive queue (SRQ).
 old-location: netvista\ndk_fn_srq_receive.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkSrqReceive
+- NdkSrqReceive
 product:
 - Windows
 targetos: Windows

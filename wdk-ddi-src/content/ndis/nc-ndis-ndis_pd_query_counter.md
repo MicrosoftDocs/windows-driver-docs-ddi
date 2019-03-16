@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_QUERY_COUNTER
-title: NDIS_PD_QUERY_COUNTER
+title: NDIS_PD_QUERY_COUNTER (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDQueryCounter function to query the current values stored in a counter object.
 old-location: netvista\ndispdquerycounter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NdisPDQueryCounter
+- NdisPDQueryCounter
 product:
 - Windows
 targetos: Windows

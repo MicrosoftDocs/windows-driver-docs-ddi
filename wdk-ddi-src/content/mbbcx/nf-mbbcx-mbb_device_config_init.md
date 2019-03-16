@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MBB_DEVICE_CONFIG_INIT
-title: MBB_DEVICE_CONFIG_INIT function
+title: MBB_DEVICE_CONFIG_INIT function (mbbcx.h)
 description: The MBB_DEVICE_CONFIG_INIT method initializes the MBB_DEVICE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 4ee1d631-e2b2-4080-bec2-8be7c1c9a166
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MBB_DEVICE_CONFIG_INIT
+- MBB_DEVICE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

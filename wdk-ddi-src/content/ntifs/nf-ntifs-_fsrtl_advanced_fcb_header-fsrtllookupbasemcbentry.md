@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupBaseMcbEntry
-title: FsRtlLookupBaseMcbEntry function
+title: FsRtlLookupBaseMcbEntry function (ntifs.h)
 description: The FsRtlLookupBaseMcbEntry routine retrieves the mapping of a Vbn to an Lbn from an Mcb. It indicates if the mapping exists and the size of the run.
 ms.assetid: b997ada6-cfa2-4e3a-ae39-7f9a8c2b3234
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlLookupBaseMcbEntry
+- FsRtlLookupBaseMcbEntry
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

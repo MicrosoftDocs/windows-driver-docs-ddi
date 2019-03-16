@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REMOVABLE_MEDIUM
-title: "_FEATURE_DATA_REMOVABLE_MEDIUM"
+title: _FEATURE_DATA_REMOVABLE_MEDIUM (ntddmmc.h)
 description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
 old-location: storage\feature_data_removable_medium.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_REMOVABLE_MEDIUM
+- FEATURE_DATA_REMOVABLE_MEDIUM
 product:
 - Windows
 targetos: Windows

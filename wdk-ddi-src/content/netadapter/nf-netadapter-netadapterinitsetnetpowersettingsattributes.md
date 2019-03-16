@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterInitSetNetPowerSettingsAttributes
-title: NetAdapterInitSetNetPowerSettingsAttributes function
+title: NetAdapterInitSetNetPowerSettingsAttributes function (netadapter.h)
 description: The NetAdapterInitSetNetPowerSettingsAttributes method sets the attributes of a net adapter's NETPOWERSETTINGS object that is created by NetAdapterCx.
 tech.root: netvista
 ms.assetid: d5761ef2-3e9b-4fb5-86df-4db9563e2e65
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NetAdapterInitSetNetPowerSettingsAttributes
+- NetAdapterInitSetNetPowerSettingsAttributes
 product:
 - Windows
 targetos: Windows

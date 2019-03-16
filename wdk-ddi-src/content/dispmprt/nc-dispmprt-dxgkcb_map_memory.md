@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MAP_MEMORY
-title: DXGKCB_MAP_MEMORY
+title: DXGKCB_MAP_MEMORY (dispmprt.h)
 description: The DxgkCbMapMemory function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
 old-location: display\dxgkcbmapmemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbMapMemory
+- DxgkCbMapMemory
 product:
 - Windows
 targetos: Windows

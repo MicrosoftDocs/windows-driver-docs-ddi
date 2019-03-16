@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_MAP_GPADL
-title: FN_VMB_CHANNEL_MAP_GPADL
+title: FN_VMB_CHANNEL_MAP_GPADL (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelMapGpadl function maps a client-side buffer into server-side physical address space by using a Guest Physical Address Descriptor List (GPADL) number.
 tech.root: netvista
 ms.assetid: b71b9fbe-ab6c-41a6-8288-b98ebfc240dc
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_MAP_GPADL
+- FN_VMB_CHANNEL_MAP_GPADL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

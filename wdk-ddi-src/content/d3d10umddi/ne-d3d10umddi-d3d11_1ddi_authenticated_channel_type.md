@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
-title: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
+title: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE (d3d10umddi.h)
 description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: display\d3d11_1ddi_authenticated_channel_type.htm
 ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
+- D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 product:
 - Windows
 targetos: Windows

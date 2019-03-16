@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_RANDOM_NUMBER
-title: "_DXGKMDT_OPM_RANDOM_NUMBER"
+title: _DXGKMDT_OPM_RANDOM_NUMBER (d3dkmdt.h)
 description: The DXGKMDT_OPM_RANDOM_NUMBER structure contains a 128-bit cryptographically secure random number.
 old-location: display\dxgkmdt_opm_random_number.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_RANDOM_NUMBER
+- DXGKMDT_OPM_RANDOM_NUMBER
 product:
 - Windows
 targetos: Windows

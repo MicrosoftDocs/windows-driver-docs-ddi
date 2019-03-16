@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_READ_UCHAR
-title: UART_HARDWARE_READ_UCHAR
+title: UART_HARDWARE_READ_UCHAR (uart.h)
 description: Reads a byte from the specified port or register.
 tech.root: serports
 ms.assetid: 1760bbfd-3995-4d32-81cc-c30c190aa465
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_HARDWARE_READ_UCHAR
+- UART_HARDWARE_READ_UCHAR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

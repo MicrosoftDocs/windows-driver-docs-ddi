@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_MESSAGE_HEADER
-title: "_FILTER_MESSAGE_HEADER"
+title: _FILTER_MESSAGE_HEADER (fltuserstructures.h)
 description: The FILTER_MESSAGE_HEADER structure contains message header information.
 old-location: ifsk\filter_message_header.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	FILTER_MESSAGE_HEADER
+- FILTER_MESSAGE_HEADER
 product:
 - Windows
 targetos: Windows

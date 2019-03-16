@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_SET_DATA_INTERVAL
-title: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL
+title: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL (sensorscx.h)
 description: This callback function sets the data interval for a specified sensor.
 old-location: sensors\evtsensorsetdatainterval.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorSetDataInterval
+- EvtSensorSetDataInterval
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsProbeStreamIrp
-title: KsProbeStreamIrp function
+title: KsProbeStreamIrp function (ks.h)
 description: The KsProbeStreamIrp function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header.
 old-location: stream\ksprobestreamirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsProbeStreamIrp
+- KsProbeStreamIrp
 product:
 - Windows
 targetos: Windows

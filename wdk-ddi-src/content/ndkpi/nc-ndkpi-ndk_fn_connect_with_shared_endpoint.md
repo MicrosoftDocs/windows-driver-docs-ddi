@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CONNECT_WITH_SHARED_ENDPOINT
-title: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT
+title: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT (ndkpi.h)
 description: The NdkConnectWithSharedEndpoint (NDK_FN_CONNECT_WITH_SHARED_ENDPOINT) function initiates an NDK connect request from a shared local address to a remote address.
 old-location: netvista\ndk_fn_connect_with_shared_endpoint.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkConnectWithSharedEndpoint
+- NdkConnectWithSharedEndpoint
 product:
 - Windows
 targetos: Windows

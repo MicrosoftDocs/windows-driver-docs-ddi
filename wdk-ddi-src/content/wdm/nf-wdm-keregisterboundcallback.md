@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterBoundCallback
-title: KeRegisterBoundCallback function
+title: KeRegisterBoundCallback function (wdm.h)
 description: The KeRegisterBoundCallback routine registers a routine to be called whenever a user-mode bound exception occurs.
 old-location: kernel\keregisterboundcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRegisterBoundCallback
+- KeRegisterBoundCallback
 product:
 - Windows
 targetos: Windows

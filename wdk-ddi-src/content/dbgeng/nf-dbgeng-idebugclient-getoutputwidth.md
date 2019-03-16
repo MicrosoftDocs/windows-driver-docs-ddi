@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputWidth
-title: IDebugClient::GetOutputWidth
+title: IDebugClient::GetOutputWidth (dbgeng.h)
 description: Gets the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_getoutputwidth.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetOutputWidth
+- IDebugClient.GetOutputWidth
 product:
 - Windows
 targetos: Windows

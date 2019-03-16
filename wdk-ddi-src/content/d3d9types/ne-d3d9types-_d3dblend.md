@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DBLEND
-title: _D3DBLEND
+title: _D3DBLEND (d3d9types.h)
 description: 
 ms.assetid: 87c71a13-c8f7-402f-bb70-1ad29a4cc221
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DBLEND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DBLEND
+- _D3DBLEND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

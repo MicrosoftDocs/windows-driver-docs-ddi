@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
-title: "_NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS"
+title: _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS (ndischimney.h)
 description: The NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure specifies a protocol driver's generic chimney offload entry points.
 old-location: netvista\ndis_client_chimney_offload_generic_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
+- NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

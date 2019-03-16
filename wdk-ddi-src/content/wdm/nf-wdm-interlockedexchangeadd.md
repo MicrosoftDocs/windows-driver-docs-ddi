@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedExchangeAdd
-title: InterlockedExchangeAdd function
+title: InterlockedExchangeAdd function (wdm.h)
 description: The InterlockedExchangeAdd routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
 old-location: kernel\interlockedexchangeadd.htm
 tech.root: kernel
@@ -26,19 +26,19 @@ req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	OneCoreUAP.lib
--	OneCoreUAP.dll
--	API-MS-Win-Core-Interlocked-l1-1-0.dll
--	API-MS-Win-Core-Interlocked-l1-2-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
+- OneCoreUAP.lib
+- OneCoreUAP.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
--	InterlockedExchangeAdd
+- InterlockedExchangeAdd
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
-title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
+title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function inserts a signal for the specified synchronization objects in the specified context stream.
 ms.assetid: 2e5592f8-96bc-4ec8-961a-38fc2dbc9dfe
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
+- PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

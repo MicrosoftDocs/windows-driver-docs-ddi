@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SendTargets_IN
-title: "_SendTargets_IN"
+title: _SendTargets_IN (iscsiop.h)
 description: The SendTargets_IN structure holds the input data for the SendTargets method.
 old-location: storage\sendtargets_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SendTargets_IN
+- SendTargets_IN
 product:
 - Windows
 targetos: Windows

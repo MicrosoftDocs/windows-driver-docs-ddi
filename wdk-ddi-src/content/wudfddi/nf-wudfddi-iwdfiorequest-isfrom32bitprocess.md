@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.IsFrom32BitProcess
-title: IWDFIoRequest::IsFrom32BitProcess
+title: IWDFIoRequest::IsFrom32BitProcess (wudfddi.h)
 description: The IsFrom32BitProcess method determines whether a request originated from a 32-bit process.
 old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.IsFrom32BitProcess
+- IWDFIoRequest.IsFrom32BitProcess
 product:
 - Windows
 targetos: Windows

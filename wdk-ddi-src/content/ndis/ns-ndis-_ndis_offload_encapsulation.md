@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OFFLOAD_ENCAPSULATION
-title: "_NDIS_OFFLOAD_ENCAPSULATION"
+title: _NDIS_OFFLOAD_ENCAPSULATION (ndis.h)
 description: The NDIS_OFFLOAD_ENCAPSULATION structure specifies encapsulation settings when it is used with the OID_OFFLOAD_ENCAPSULATION OID.
 old-location: netvista\ndis_offload_encapsulation.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_OFFLOAD_ENCAPSULATION
+- NDIS_OFFLOAD_ENCAPSULATION
 product:
 - Windows
 targetos: Windows

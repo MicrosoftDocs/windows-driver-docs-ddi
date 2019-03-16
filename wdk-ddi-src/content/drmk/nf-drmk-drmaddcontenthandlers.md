@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmAddContentHandlers
-title: DrmAddContentHandlers function
+title: DrmAddContentHandlers function (drmk.h)
 description: The DrmAddContentHandlers function provides the system with a list of functions that handle protected content.
 old-location: audio\drmaddcontenthandlers.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Drmk.lib
--	Drmk.dll
+- Drmk.lib
+- Drmk.dll
 api_name:
--	DrmAddContentHandlers
+- DrmAddContentHandlers
 product:
 - Windows
 targetos: Windows

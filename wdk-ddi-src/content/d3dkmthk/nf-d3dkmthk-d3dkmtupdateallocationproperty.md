@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUpdateAllocationProperty
-title: D3DKMTUpdateAllocationProperty function
+title: D3DKMTUpdateAllocationProperty function (d3dkmthk.h)
 description: Updates allocation property of a context.
 ms.assetid: 598aaa26-150f-470d-aa48-76af546e98e1
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTUpdateAllocationProperty
+- D3DKMTUpdateAllocationProperty
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

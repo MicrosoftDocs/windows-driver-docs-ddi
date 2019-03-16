@@ -1,6 +1,6 @@
 ---
 UID: NF:pwmutil.PwmParsePinPath
-title: PwmParsePinPath function
+title: PwmParsePinPath function (pwmutil.h)
 description: Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to validate its format and extract the pin number.
 old-location: kernel\pwmparsepinpath.htm
 tech.root: spb
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PwmParsePinPath
+- PwmParsePinPath
 product:
 - Windows
 targetos: Windows

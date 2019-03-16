@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxclient._UFX_ENDPOINT_CALLBACKS
-title: "_UFX_ENDPOINT_CALLBACKS"
+title: _UFX_ENDPOINT_CALLBACKS (ufxclient.h)
 description: The UFX_ENDPOINT_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_endpoint_callbacks.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UFX_ENDPOINT_CALLBACKS
+- UFX_ENDPOINT_CALLBACKS
 product:
 - Windows
 targetos: Windows

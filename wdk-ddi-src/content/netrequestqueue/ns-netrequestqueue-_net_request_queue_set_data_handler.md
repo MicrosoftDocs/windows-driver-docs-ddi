@@ -1,6 +1,6 @@
 ---
 UID: NS:netrequestqueue._NET_REQUEST_QUEUE_SET_DATA_HANDLER
-title: _NET_REQUEST_QUEUE_SET_DATA_HANDLER
+title: _NET_REQUEST_QUEUE_SET_DATA_HANDLER (netrequestqueue.h)
 description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER to add a caller-provided handler for a specific OID set request.
 tech.root: netvista
 ms.assetid: c5af08b7-0733-481d-a6ba-32a21dd7990f
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_REQUEST_QUEUE_SET_DATA_HANDLER, *PNET_REQUEST_QUEUE_SET_DATA_HANDLER
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_SET_DATA_HANDLER
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_SET_DATA_HANDLER
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

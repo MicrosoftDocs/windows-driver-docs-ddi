@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAcquireClassifyHandle0
-title: FwpsAcquireClassifyHandle0 function
+title: FwpsAcquireClassifyHandle0 function (fwpsk.h)
 description: The FwpsAcquireClassifyHandle0 function generates a classification handle that is used to identify asynchronous classification operations and requests for writable layer data.Note  FwpsAcquireClassifyHandle0 is a specific version of FwpsAcquireClassifyHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsacquireclassifyhandle0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAcquireClassifyHandle0
+- FwpsAcquireClassifyHandle0
 product:
 - Windows
 targetos: Windows

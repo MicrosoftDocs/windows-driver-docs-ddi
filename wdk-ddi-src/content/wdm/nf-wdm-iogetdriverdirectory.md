@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDriverDirectory
-title: IoGetDriverDirectory function
+title: IoGetDriverDirectory function (wdm.h)
 description: Returns a handle to a directory on disk from which the driver can read and write files. The files in that directory apply to a specific driver object.
 ms.assetid: ff2a6c2a-e402-4e8a-920a-c9baa9aa237e
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	IoGetDriverDirectory
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- IoGetDriverDirectory
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

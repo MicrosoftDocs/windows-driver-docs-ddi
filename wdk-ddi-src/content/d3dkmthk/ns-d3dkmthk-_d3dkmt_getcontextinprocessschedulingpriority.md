@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
-title: "_D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY"
+title: _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY (d3dkmthk.h)
 description: Describes information that is required for an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmt_getcontextinprocessschedulingpriority.htm
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
+- D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 product:
 - Windows
 targetos: Windows

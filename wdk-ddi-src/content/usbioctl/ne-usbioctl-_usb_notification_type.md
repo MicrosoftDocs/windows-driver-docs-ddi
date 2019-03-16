@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_NOTIFICATION_TYPE
-title: _USB_NOTIFICATION_TYPE
+title: _USB_NOTIFICATION_TYPE (usbioctl.h)
 description: 
 ms.assetid: cb5eaa01-dec9-4028-b0b1-7a1f240c02ae
 ms.date: 10/19/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USB_NOTIFICATION_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbioctl.h
+- usbioctl.h
 api_name: 
--	_USB_NOTIFICATION_TYPE
-product: Windows
+- _USB_NOTIFICATION_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

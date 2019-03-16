@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_INITIALIZE_FAST_REGISTER_MR
-title: NDK_FN_INITIALIZE_FAST_REGISTER_MR
+title: NDK_FN_INITIALIZE_FAST_REGISTER_MR (ndkpi.h)
 description: The NdkInitializeFastRegisterMr (NDK_FN_INITIALIZE_FAST_REGISTER_MR) function initializes an NDK memory region (MR) for fast registration.
 old-location: netvista\ndk_fn_initialize_fast_register_mr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkInitializeFastRegisterMr
+- NdkInitializeFastRegisterMr
 product:
 - Windows
 targetos: Windows

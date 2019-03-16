@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._SYSENV_VALUE
-title: "_SYSENV_VALUE"
+title: _SYSENV_VALUE (ntddsysenv.h)
 description: Stores the value of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_GET_VARIABLE request.
 old-location: kernel\sysenv_value.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddsysenv.h
+- Ntddsysenv.h
 api_name:
--	SYSENV_VALUE
+- SYSENV_VALUE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetKey
-title: IModelObject::SetKey
+title: IModelObject::SetKey (dbgmodel.h)
 description: The SetKey method is the method a client will turn to in order to create a key on an object (and potentially associate metadata with the created key). 
 ms.assetid: 068f6bfc-403c-4f0c-a6ce-f782da26b0f4
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.SetKey
-product: Windows
+- IModelObject.SetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

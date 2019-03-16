@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_ACQUIREHANDLEDATA
-title: DXGKCB_ACQUIREHANDLEDATA
+title: DXGKCB_ACQUIREHANDLEDATA (d3dkmddi.h)
 description: Acquires a resource handle.
 ms.assetid: e4ac45bd-29c0-4114-a68c-a43978c37b89
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKCB_ACQUIREHANDLEDATA
+- DXGKCB_ACQUIREHANDLEDATA
 product:
 - Windows
 targetos: Windows

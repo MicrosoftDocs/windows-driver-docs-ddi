@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.RetrieveContext
-title: IWDFObject::RetrieveContext
+title: IWDFObject::RetrieveContext (wudfddi.h)
 description: The RetrieveContext method retrieves a context that was previously registered through the IWDFObject::AssignContext method.
 old-location: wdf\iwdfobject_retrievecontext.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFObject.RetrieveContext
+- IWDFObject.RetrieveContext
 product:
 - Windows
 targetos: Windows

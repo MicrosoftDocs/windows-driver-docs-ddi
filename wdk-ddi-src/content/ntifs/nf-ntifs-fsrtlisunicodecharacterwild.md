@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsUnicodeCharacterWild
-title: FsRtlIsUnicodeCharacterWild macro
+title: FsRtlIsUnicodeCharacterWild macro (ntifs.h)
 description: The FsRtlIsUnicodeCharacterWild macro determines whether a Unicode character is a wildcard character.
 old-location: ifsk\fsrtlisunicodecharacterwild.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsUnicodeCharacterWild
+- FsRtlIsUnicodeCharacterWild
 product:
 - Windows
 targetos: Windows

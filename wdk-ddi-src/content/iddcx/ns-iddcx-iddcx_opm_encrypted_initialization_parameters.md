@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-title: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+title: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (iddcx.h)
 description: Gives information about the OPM encrypted initialization parameters.
 old-location: display\iddcx_opm_encrypted_initialization_parameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+- IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

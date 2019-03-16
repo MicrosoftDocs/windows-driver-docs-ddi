@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptDebugEvent
-title: ScriptDebugEvent
+title: ScriptDebugEvent (dbgmodel.h)
 description: Defines what debug event occurred.
 ms.assetid: 79741ba7-a920-4f0e-a953-9ff6a0a8ee85
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptDebugEvent
-product: Windows
+- ScriptDebugEvent
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

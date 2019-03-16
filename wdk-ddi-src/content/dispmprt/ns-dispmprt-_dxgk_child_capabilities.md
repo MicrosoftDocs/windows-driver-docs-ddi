@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_CAPABILITIES
-title: "_DXGK_CHILD_CAPABILITIES"
+title: _DXGK_CHILD_CAPABILITIES (dispmprt.h)
 description: The DXGK_CHILD_CAPABILITIES structure contains information about the capabilities of an individual child device of a display adapter.
 old-location: display\dxgk_child_capabilities.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_CHILD_CAPABILITIES
+- DXGK_CHILD_CAPABILITIES
 product:
 - Windows
 targetos: Windows

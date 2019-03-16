@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PDEVICE_RESET_HANDLER
-title: PDEVICE_RESET_HANDLER
+title: PDEVICE_RESET_HANDLER (wdm.h)
 description: The DeviceReset routine is used to reset and recover a malfunctioning device.
 old-location: kernel\devicereset.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ResetDevice
+- ResetDevice
 product:
 - Windows
 targetos: Windows

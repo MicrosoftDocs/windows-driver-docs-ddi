@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_22
-title: KSP_TIMEFORMAT
+title: KSP_TIMEFORMAT (ks.h)
 description: The KSP_TIMEFORMAT structure corresponds to KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT.
 old-location: stream\ksp_timeformat.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSP_TIMEFORMAT
+- KSP_TIMEFORMAT
 product:
 - Windows
 targetos: Windows

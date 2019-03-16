@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_DATA_LENGTH
-title: NET_BUFFER_DATA_LENGTH macro
+title: NET_BUFFER_DATA_LENGTH macro (ndis.h)
 description: NET_BUFFER_DATA_LENGTH is a macro that NDIS drivers use to get the amount of used data space in a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: becba604-f2cd-49f4-bf64-ec8055047669
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_DATA_LENGTH
+- NET_BUFFER_DATA_LENGTH
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

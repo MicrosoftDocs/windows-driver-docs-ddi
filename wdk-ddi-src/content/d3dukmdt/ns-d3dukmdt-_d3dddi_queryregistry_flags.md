@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_FLAGS
-title: _D3DDDI_QUERYREGISTRY_FLAGS
+title: _D3DDDI_QUERYREGISTRY_FLAGS (d3dukmdt.h)
 description: Contains information to query for registry flags.
 ms.assetid: 9dabfa1e-4574-4a82-a7c9-f44d5012dcbb
 ms.date: 11/21/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	_D3DDDI_QUERYREGISTRY_FLAGS
+- _D3DDDI_QUERYREGISTRY_FLAGS
 product: 
 - Windows
 targetos: Windows

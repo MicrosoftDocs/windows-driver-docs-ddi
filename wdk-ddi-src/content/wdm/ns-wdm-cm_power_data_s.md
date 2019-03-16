@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm.CM_Power_Data_s
-title: CM_Power_Data_s
+title: CM_Power_Data_s (wdm.h)
 description: The CM_POWER_DATA structure contains information about a device's power management state and capabilities.
 old-location: kernel\cm_power_data.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CM_POWER_DATA
+- CM_POWER_DATA
 product:
 - Windows
 targetos: Windows

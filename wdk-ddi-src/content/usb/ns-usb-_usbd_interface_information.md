@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_INTERFACE_INFORMATION
-title: "_USBD_INTERFACE_INFORMATION"
+title: _USBD_INTERFACE_INFORMATION (usb.h)
 description: The USBD_INTERFACE_INFORMATION structure holds information about an interface for a configuration on a USB device.
 old-location: buses\usbd_interface_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	USBD_INTERFACE_INFORMATION
+- USBD_INTERFACE_INFORMATION
 product:
 - Windows
 targetos: Windows

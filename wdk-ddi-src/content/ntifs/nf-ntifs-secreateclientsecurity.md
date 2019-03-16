@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeCreateClientSecurity
-title: SeCreateClientSecurity function
+title: SeCreateClientSecurity function (ntifs.h)
 description: The SeCreateClientSecurity routine initializes a security client context structure with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurity.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeCreateClientSecurity
+- SeCreateClientSecurity
 product:
 - Windows
 targetos: Windows

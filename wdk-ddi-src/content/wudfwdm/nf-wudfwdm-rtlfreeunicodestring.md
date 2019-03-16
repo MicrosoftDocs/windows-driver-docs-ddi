@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlFreeUnicodeString
-title: RtlFreeUnicodeString function
+title: RtlFreeUnicodeString function (wudfwdm.h)
 description: The RtlFreeUnicodeString routine releases storage that was allocated by RtlAnsiStringToUnicodeString or RtlUpcaseUnicodeString.
 old-location: kernel\rtlfreeunicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFreeUnicodeString
+- RtlFreeUnicodeString
 product:
 - Windows
 targetos: Windows

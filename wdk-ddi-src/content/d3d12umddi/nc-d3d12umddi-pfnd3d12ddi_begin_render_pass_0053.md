@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_RENDER_PASS_0053
-title: PFND3D12DDI_BEGIN_RENDER_PASS_0053
+title: PFND3D12DDI_BEGIN_RENDER_PASS_0053 (d3d12umddi.h)
 description: Implemented by the client driver to start the Render Pass. 
 ms.assetid: 8d08ba4b-1869-45e6-aed2-267bb3db4bf5
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_BEGIN_RENDER_PASS_0053
+- PFND3D12DDI_BEGIN_RENDER_PASS_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

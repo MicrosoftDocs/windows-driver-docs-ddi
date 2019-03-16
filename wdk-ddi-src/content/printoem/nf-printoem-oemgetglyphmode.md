@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMGetGlyphMode
-title: OEMGetGlyphMode function
+title: OEMGetGlyphMode function (printoem.h)
 description: The OEMGetGlyphMode function informs the GDI how to cache glyph information.
 old-location: print\oemgetglyphmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMGetGlyphMode
+- OEMGetGlyphMode
 product:
 - Windows
 targetos: Windows

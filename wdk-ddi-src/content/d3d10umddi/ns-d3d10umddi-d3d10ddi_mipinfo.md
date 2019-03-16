@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_MIPINFO
-title: D3D10DDI_MIPINFO
+title: D3D10DDI_MIPINFO (d3d10umddi.h)
 description: The D3D10DDI_MIPINFO structure describes the MIP-level texture and physical coordinates of a surface.
 old-location: display\d3d10ddi_mipinfo.htm
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDI_MIPINFO
+- D3D10DDI_MIPINFO
 product:
 - Windows
 targetos: Windows

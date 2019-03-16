@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.FilterGraphics
-title: IPrintOemUni::FilterGraphics
+title: IPrintOemUni::FilterGraphics (prcomoem.h)
 description: The IPrintOemUni::FilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.
 old-location: print\iprintoemuni_filtergraphics.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.FilterGraphics
+- IPrintOemUni.FilterGraphics
 product:
 - Windows
 targetos: Windows

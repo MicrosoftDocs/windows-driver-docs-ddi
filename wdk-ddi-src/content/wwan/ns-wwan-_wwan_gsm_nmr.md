@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_NMR
-title: "_WWAN_GSM_NMR"
+title: _WWAN_GSM_NMR (wwan.h)
 description: The WWAN_GSM_NMR structure represents the network measurement report (NMR) of neighboring GSM cells.
 old-location: netvista\wwan_gsm_nmr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_GSM_NMR
+- WWAN_GSM_NMR
 product:
 - Windows
 targetos: Windows

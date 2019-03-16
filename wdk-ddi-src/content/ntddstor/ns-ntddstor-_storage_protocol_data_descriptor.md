@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROTOCOL_DATA_DESCRIPTOR
-title: "_STORAGE_PROTOCOL_DATA_DESCRIPTOR"
+title: _STORAGE_PROTOCOL_DATA_DESCRIPTOR (ntddstor.h)
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: storage\storage_protocol_data_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PROTOCOL_DATA_DESCRIPTOR
+- STORAGE_PROTOCOL_DATA_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

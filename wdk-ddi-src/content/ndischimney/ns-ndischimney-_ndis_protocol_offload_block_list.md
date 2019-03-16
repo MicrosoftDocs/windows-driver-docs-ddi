@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
-title: "_NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST"
+title: _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST (ndischimney.h)
 description: The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 old-location: netvista\ndis_protocol_offload_block_list.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
+- NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 product:
 - Windows
 targetos: Windows

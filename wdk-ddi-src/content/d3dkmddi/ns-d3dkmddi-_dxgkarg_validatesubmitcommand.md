@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATESUBMITCOMMAND
-title: _DXGKARG_VALIDATESUBMITCOMMAND
+title: _DXGKARG_VALIDATESUBMITCOMMAND (d3dkmddi.h)
 description: Arguments used in the call to DXGKDDI_VALIDATESUBMITCOMMAND.
 ms.assetid: c1d647f6-1b10-4a58-b3af-33e45f0a19ce
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_VALIDATESUBMITCOMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGKARG_VALIDATESUBMITCOMMAND
+- _DXGKARG_VALIDATESUBMITCOMMAND
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

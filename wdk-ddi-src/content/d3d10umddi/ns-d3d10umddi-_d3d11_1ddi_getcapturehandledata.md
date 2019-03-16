@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi._D3D11_1DDI_GETCAPTUREHANDLEDATA
-title: "_D3D11_1DDI_GETCAPTUREHANDLEDATA"
+title: _D3D11_1DDI_GETCAPTUREHANDLEDATA (d3d10umddi.h)
 description: Defines a resource allocation in a call to the GetCaptureHandle function.
 old-location: display\d3d11_1ddi_getcapturehandledata.htm
 ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_GETCAPTUREHANDLEDATA
+- D3D11_1DDI_GETCAPTUREHANDLEDATA
 product:
 - Windows
 targetos: Windows

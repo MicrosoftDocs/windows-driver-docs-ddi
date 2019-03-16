@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DEVICE_POWER_CAP_UNITS
-title: "_STORAGE_DEVICE_POWER_CAP_UNITS"
+title: _STORAGE_DEVICE_POWER_CAP_UNITS (ntddstor.h)
 description: The units of the maximum power threshold.
 old-location: storage\storage_device_power_cap_units.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DEVICE_POWER_CAP_UNITS
+- STORAGE_DEVICE_POWER_CAP_UNITS
 product:
 - Windows
 targetos: Windows

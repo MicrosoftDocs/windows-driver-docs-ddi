@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_POWER_SAVE_LEVEL
-title: "_WDI_POWER_SAVE_LEVEL"
+title: _WDI_POWER_SAVE_LEVEL (wditypes.h)
 description: The WDI_POWER_SAVE_LEVEL enumeration defines the power save levels.
 old-location: netvista\wdi_power_save_level.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_POWER_SAVE_LEVEL
+- WDI_POWER_SAVE_LEVEL
 product:
 - Windows
 targetos: Windows

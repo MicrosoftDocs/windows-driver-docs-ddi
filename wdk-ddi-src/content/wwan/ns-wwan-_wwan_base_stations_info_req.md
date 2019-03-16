@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_BASE_STATIONS_INFO_REQ
-title: "_WWAN_BASE_STATIONS_INFO_REQ"
+title: _WWAN_BASE_STATIONS_INFO_REQ (wwan.h)
 description: The WWAN_BASE_STATIONS_INFO_REQ structure represents the aspects of cellular base stations information that are requested in a base stations information query.
 old-location: netvista\wwan_base_stations_info_req.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_BASE_STATIONS_INFO_REQ
+- WWAN_BASE_STATIONS_INFO_REQ
 product:
 - Windows
 targetos: Windows

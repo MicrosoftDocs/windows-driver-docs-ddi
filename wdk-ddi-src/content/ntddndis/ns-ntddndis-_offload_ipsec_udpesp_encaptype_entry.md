@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
-title: "_OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
+title: _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY (ntddndis.h)
 description: The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure specifies the UDP-ESP encapsulation type and destination port of a parser entry.
 old-location: netvista\offload_ipsec_udpesp_encaptype_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
+- OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 product:
 - Windows
 targetos: Windows

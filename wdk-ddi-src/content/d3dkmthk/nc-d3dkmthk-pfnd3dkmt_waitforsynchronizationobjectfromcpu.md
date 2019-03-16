@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU (d3dkmthk.h)
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU callback function waits for a monitored fence to reach a certain value.
 ms.assetid: f83db141-f319-4cc3-9544-b0d98f0ce76a
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+- PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA_FLAGS
-title: _DXGK_NODEMETADATA_FLAGS
+title: _DXGK_NODEMETADATA_FLAGS (d3dkmdt.h)
 description: Defines node metadata flags for a context.
 ms.assetid: 1c350249-da27-4a7c-bf05-38ff484fcfc2
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_NODEMETADATA_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmdt.h
+- d3dkmdt.h
 api_name: 
--	_DXGK_NODEMETADATA_FLAGS
+- _DXGK_NODEMETADATA_FLAGS
 product:
 - Windows
 targetos: Windows

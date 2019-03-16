@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortPoFxSetComponentLatency
-title: StorPortPoFxSetComponentLatency function
+title: StorPortPoFxSetComponentLatency function (storport.h)
 description: The StorPortPoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified storage device component.
 old-location: storage\storportpofxsetcomponentlatency.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortPoFxSetComponentLatency
+- StorPortPoFxSetComponentLatency
 product:
 - Windows
 targetos: Windows

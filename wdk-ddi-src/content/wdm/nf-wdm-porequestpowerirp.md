@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoRequestPowerIrp
-title: PoRequestPowerIrp function
+title: PoRequestPowerIrp function (wdm.h)
 description: The PoRequestPowerIrp routine allocates a power IRP and sends it to the top driver in the device stack for the specified device.
 old-location: kernel\porequestpowerirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoRequestPowerIrp
+- PoRequestPowerIrp
 product:
 - Windows
 targetos: Windows

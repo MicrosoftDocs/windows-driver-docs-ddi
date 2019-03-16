@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RECOMMENDFUNCTIONALVIDPN
-title: "_DXGKARG_RECOMMENDFUNCTIONALVIDPN"
+title: _DXGKARG_RECOMMENDFUNCTIONALVIDPN (d3dkmddi.h)
 description: The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments for the DxgkDdiRecommendFunctionalVidPn function.
 old-location: display\dxgkarg_recommendfunctionalvidpn.htm
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_RECOMMENDFUNCTIONALVIDPN
+- DXGKARG_RECOMMENDFUNCTIONALVIDPN
 product:
 - Windows
 targetos: Windows

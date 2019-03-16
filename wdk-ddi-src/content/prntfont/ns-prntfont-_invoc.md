@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._INVOC
-title: "_INVOC"
+title: _INVOC (prntfont.h)
 description: The INVOC structure is used for describing printer command strings in Unidrv font metrics files (.ufm files) and glyph translation table files (.gtt files).
 old-location: print\invoc.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	INVOC
+- INVOC
 product:
 - Windows
 targetos: Windows

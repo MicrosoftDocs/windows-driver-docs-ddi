@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
-title: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+title: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: Identifies a flip present-history token.
 ms.assetid: 4622a5f0-905e-4ed6-9d78-54329bf5b2f7
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
+- _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 product: 
 - Windows
 targetos: Windows

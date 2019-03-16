@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlProcessFileLock(PFILE_LOCK,PIRP,PVOID)
-title: FsRtlProcessFileLock function
+title: FsRtlProcessFileLock function (ntifs.h)
 description: The FsRtlProcessFileLock routine processes and completes an IRP for a file lock operation.
 old-location: ifsk\fsrtlprocessfilelock.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlProcessFileLock
+- FsRtlProcessFileLock
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ms.custom: RS5

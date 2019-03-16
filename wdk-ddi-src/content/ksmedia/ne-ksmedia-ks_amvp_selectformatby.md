@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_109
-title: KS_AMVP_SELECTFORMATBY
+title: KS_AMVP_SELECTFORMATBY (ksmedia.h)
 description: The KS_AMVP_SELECTFORMATBY enumeration specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 old-location: stream\ks_amvp_selectformatby.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMVP_SELECTFORMATBY
+- KS_AMVP_SELECTFORMATBY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_TIER
-title: D3D12DDI_RAYTRACING_TIER
+title: D3D12DDI_RAYTRACING_TIER (d3d12umddi.h)
 description: Specifies the ray tracing tier.
 ms.assetid: 3bf1c7c9-6c13-4111-a185-71c5ddaf1067
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RAYTRACING_TIER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RAYTRACING_TIER
+- D3D12DDI_RAYTRACING_TIER
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

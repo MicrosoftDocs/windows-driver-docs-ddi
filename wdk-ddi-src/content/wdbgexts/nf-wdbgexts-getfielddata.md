@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetFieldData
-title: GetFieldData function
+title: GetFieldData function (wdbgexts.h)
 description: The GetFieldData function returns the value of a member in a structure.
 old-location: debugger\getfielddata.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetFieldData
+- GetFieldData
 product:
 - Windows
 targetos: Windows

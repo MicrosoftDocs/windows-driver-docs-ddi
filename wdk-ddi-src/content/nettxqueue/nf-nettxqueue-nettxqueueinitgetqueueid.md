@@ -1,6 +1,6 @@
 ---
 UID: NF:nettxqueue.NetTxQueueInitGetQueueId
-title: NetTxQueueInitGetQueueId function
+title: NetTxQueueInitGetQueueId function (nettxqueue.h)
 description: Retrieves the identifier associated with a transmit queue.
 tech.root: netvista
 ms.assetid: 2d76830e-d5eb-4573-bd5a-c4f90a8e0bf1
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	nettxqueue.h
-apiname: 
--	NetTxQueueInitGetQueueId
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- nettxqueue.h
+api_name: 
+- NetTxQueueInitGetQueueId
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAvcResponseCode
-title: "_tagAvcResponseCode"
+title: _tagAvcResponseCode (avc.h)
 description: The AvcResponseCode enumeration type is used to indicate the type of response received by a subunit driver from its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_SEND_RESPONSE function codes.
 old-location: stream\avcresponsecode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AvcResponseCode
+- AvcResponseCode
 product:
 - Windows
 targetos: Windows

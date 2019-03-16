@@ -1,6 +1,6 @@
 ---
 UID: NE:irb.__unnamed_enum_2
-title: IDE_CONTROL_ACTION
+title: IDE_CONTROL_ACTION (irb.h)
 description: The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_control_action.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_CONTROL_ACTION
+- IDE_CONTROL_ACTION
 product:
 - Windows
 targetos: Windows

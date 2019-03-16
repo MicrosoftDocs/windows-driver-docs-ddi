@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIs32bitProcess
-title: FltIs32bitProcess function
+title: FltIs32bitProcess function (fltkernel.h)
 description: The FltIs32bitProcess routine checks whether the originator of the current I/O operation is a 32-bit user-mode application.
 old-location: ifsk\fltis32bitprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltIs32bitProcess
+- FltIs32bitProcess
 product:
 - Windows
 targetos: Windows

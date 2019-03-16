@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_PER_FILE_CONTEXT
-title: "_FSRTL_PER_FILE_CONTEXT"
+title: _FSRTL_PER_FILE_CONTEXT (ntifs.h)
 description: A legacy file system filter driver can use a FSRTL_PER_FILE_CONTEXT structure to associate driver-specific context information to an open file.
 old-location: ifsk\fsrtl_per_file_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSRTL_PER_FILE_CONTEXT
+- FSRTL_PER_FILE_CONTEXT
 product:
 - Windows
 targetos: Windows

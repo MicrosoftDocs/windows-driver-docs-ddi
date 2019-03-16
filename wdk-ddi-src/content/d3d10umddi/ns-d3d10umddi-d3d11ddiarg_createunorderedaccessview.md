@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
-title: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
+title: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW (d3d10umddi.h)
 description: The D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure describes the unordered access view to create.
 old-location: display\d3d11ddiarg_createunorderedaccessview.htm
 ms.assetid: 3c977fe6-d0f9-4edc-abeb-0725d68a482d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
+- D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
 product:
 - Windows
 targetos: Windows

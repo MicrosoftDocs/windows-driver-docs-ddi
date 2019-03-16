@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_VENDOR_PATTERN
-title: "_BTH_VENDOR_PATTERN"
+title: _BTH_VENDOR_PATTERN (bthioctl.h)
 description: The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
 old-location: bltooth\bth_vendor_pattern.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_VENDOR_PATTERN
+- BTH_VENDOR_PATTERN
 product:
 - Windows
 targetos: Windows

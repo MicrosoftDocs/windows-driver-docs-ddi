@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_START_HANDLER
-title: DMA_START_HANDLER
+title: DMA_START_HANDLER (netdma.h)
 description: The ProviderStartDma function starts a DMA transfer on the specified DMA channel.
 old-location: netvista\providerstartdma.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderStartDma
+- ProviderStartDma
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_DEFAULT_METHOD
-title: EVT_NET_REQUEST_DEFAULT_METHOD
+title: EVT_NET_REQUEST_DEFAULT_METHOD (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for method object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: b9b871b2-b92a-47f1-9b68-ccfbca6eeeea
@@ -25,16 +25,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	EVT_NET_REQUEST_DEFAULT_METHOD
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netrequestqueue.h
+api_name: 
+- EVT_NET_REQUEST_DEFAULT_METHOD
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

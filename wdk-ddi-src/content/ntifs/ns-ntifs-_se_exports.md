@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SE_EXPORTS
-title: "_SE_EXPORTS"
+title: _SE_EXPORTS (ntifs.h)
 description: The SeExports structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 old-location: ifsk\seexports.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SE_EXPORTS
+- SE_EXPORTS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_TYPE
-title: D3D12DDI_STATE_OBJECT_TYPE
+title: D3D12DDI_STATE_OBJECT_TYPE (d3d12umddi.h)
 description: The state object types.
 ms.assetid: 2ae86b8b-5dbd-49a8-89a2-7991506060e2
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_STATE_OBJECT_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_STATE_OBJECT_TYPE
+- D3D12DDI_STATE_OBJECT_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

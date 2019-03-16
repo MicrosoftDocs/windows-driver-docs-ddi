@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_I2C_RECEIVE
-title: IDARG_IN_I2C_RECEIVE
+title: IDARG_IN_I2C_RECEIVE (iddcx.h)
 description: Gives information about I2C data being received by the OS.
 old-location: display\idarg_in_i2c_receive.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_I2C_RECEIVE
+- IDARG_IN_I2C_RECEIVE
 product:
 - Windows
 targetos: Windows

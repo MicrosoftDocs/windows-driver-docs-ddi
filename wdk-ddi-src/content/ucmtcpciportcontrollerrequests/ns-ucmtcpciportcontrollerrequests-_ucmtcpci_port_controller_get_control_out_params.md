@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
-title: "_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
+title: _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS (ucmtcpciportcontrollerrequests.h)
 description: Stores the values of all control registers of the port controller retrieved by the IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL request.
 old-location: buses\ucmtcpci_port_controller_get_control_out_params.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtcpciportcontrollerrequests.h
+- Ucmtcpciportcontrollerrequests.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
+- UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
 product:
 - Windows
 targetos: Windows

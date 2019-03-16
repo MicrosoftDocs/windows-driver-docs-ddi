@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ENDPOINT_INFO
-title: "_SECURE_ELEMENT_ENDPOINT_INFO"
+title: _SECURE_ELEMENT_ENDPOINT_INFO (nfcsedev.h)
 description: SECURE_ELEMENT_ENDPOINT_INFO is a member of SECURE_ELEMENT_ENDPOINT_LIST.
 old-location: nfpdrivers\_secure_element_endpoint_info.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_ENDPOINT_INFO
+- SECURE_ELEMENT_ENDPOINT_INFO
 product:
 - Windows
 targetos: Windows

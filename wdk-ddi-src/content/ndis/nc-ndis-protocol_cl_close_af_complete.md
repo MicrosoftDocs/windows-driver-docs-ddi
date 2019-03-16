@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_CLOSE_AF_COMPLETE
-title: PROTOCOL_CL_CLOSE_AF_COMPLETE
+title: PROTOCOL_CL_CLOSE_AF_COMPLETE (ndis.h)
 description: The ProtocolClCloseAfComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclcloseafcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClCloseAfComplete
+- ProtocolClCloseAfComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMTransparentBlt
-title: OEMTransparentBlt function
+title: OEMTransparentBlt function (printoem.h)
 description: The OEMTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: print\oemtransparentblt.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMTransparentBlt
+- OEMTransparentBlt
 product:
 - Windows
 targetos: Windows

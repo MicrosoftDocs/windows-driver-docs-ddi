@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_CONNECTION_STATUS
-title: "_DXGK_CONNECTION_STATUS"
+title: _DXGK_CONNECTION_STATUS (d3dkmddi.h)
 description: Enumeration indicating the connection status values which can be reported.
 old-location: display\dxgk_connection_status.htm
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CONNECTION_STATUS
+- DXGK_CONNECTION_STATUS
 product:
 - Windows
 targetos: Windows

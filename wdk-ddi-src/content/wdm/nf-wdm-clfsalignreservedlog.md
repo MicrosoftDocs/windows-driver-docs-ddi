@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsAlignReservedLog
-title: ClfsAlignReservedLog function
+title: ClfsAlignReservedLog function (wdm.h)
 description: The ClfsAlignReservedLog routine calculates the size of the space that must be reserved for a specified set of records. The size calculation includes the space required for headers and the space required for sector alignment.
 old-location: kernel\clfsalignreservedlog.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsAlignReservedLog
+- ClfsAlignReservedLog
 product:
 - Windows
 targetos: Windows

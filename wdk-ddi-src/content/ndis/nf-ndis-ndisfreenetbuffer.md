@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeNetBuffer
-title: NdisFreeNetBuffer function
+title: NdisFreeNetBuffer function (ndis.h)
 description: Call the NdisFreeNetBuffer function to free a NET_BUFFER structure that was previously allocated from a NET_BUFFER structure pool with the NdisAllocateNetBuffer function.
 old-location: netvista\ndisfreenetbuffer.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeNetBuffer
+- NdisFreeNetBuffer
 product:
 - Windows
 targetos: Windows

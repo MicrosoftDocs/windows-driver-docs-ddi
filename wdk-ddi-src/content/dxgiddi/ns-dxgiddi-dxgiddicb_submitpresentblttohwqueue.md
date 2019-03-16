@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
-title: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
+title: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE (dxgiddi.h)
 description:
 ms.assetid: 23ad4e9d-d5eb-4cd9-80bd-194a6a276e63
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
+- DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product: 
 - Windows
 targetos: Windows

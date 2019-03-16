@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8ToUIntPtr
-title: RtlInt8ToUIntPtr function
+title: RtlInt8ToUIntPtr function (ntintsafe.h)
 description: Converts a value of type INT8 to a value of type UINT_PTR.
 old-location: kernel\rtlint8touintptr.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlInt8ToUIntPtr
+- RtlInt8ToUIntPtr
 product:
 - Windows
 targetos: Windows

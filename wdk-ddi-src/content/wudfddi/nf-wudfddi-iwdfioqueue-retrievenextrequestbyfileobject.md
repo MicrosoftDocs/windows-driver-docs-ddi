@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.RetrieveNextRequestByFileObject
-title: IWDFIoQueue::RetrieveNextRequestByFileObject
+title: IWDFIoQueue::RetrieveNextRequestByFileObject (wudfddi.h)
 description: The RetrieveNextRequestByFileObject method retrieves from an I/O queue the next I/O request whose file object matches the specified file object.
 old-location: wdf\iwdfioqueue_retrievenextrequestbyfileobject.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.RetrieveNextRequestByFileObject
+- IWDFIoQueue.RetrieveNextRequestByFileObject
 product:
 - Windows
 targetos: Windows

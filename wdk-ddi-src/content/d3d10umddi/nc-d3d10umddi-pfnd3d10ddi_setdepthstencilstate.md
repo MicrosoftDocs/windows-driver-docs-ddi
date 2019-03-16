@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETDEPTHSTENCILSTATE
-title: PFND3D10DDI_SETDEPTHSTENCILSTATE
+title: PFND3D10DDI_SETDEPTHSTENCILSTATE (d3d10umddi.h)
 description: The SetDepthStencilState function sets a depth-stencil state.
 old-location: display\setdepthstencilstate.htm
 ms.assetid: 379f8113-b07c-4984-ba37-a06d6c21b9e9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetDepthStencilState
+- SetDepthStencilState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
-title: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
+title: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT (parallel.h)
 description: The IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT request frees a parallel device's parent parallel port.
 old-location: parports\ioctl_internal_unlock_port_no_deselect.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
+- IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
 product:
 - Windows
 targetos: Windows

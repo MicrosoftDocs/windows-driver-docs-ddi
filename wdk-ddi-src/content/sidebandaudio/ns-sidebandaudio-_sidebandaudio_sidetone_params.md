@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_PARAMS
-title: _SIDEBANDAUDIO_SIDETONE_PARAMS
+title: _SIDEBANDAUDIO_SIDETONE_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and sidetone value.
 ms.assetid: baeba68b-d15f-469f-97f8-bd53e38fe1ea
 ms.date: 09/06/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_SIDETONE_PARAMS
-product: Windows
+- _SIDEBANDAUDIO_SIDETONE_PARAMS
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

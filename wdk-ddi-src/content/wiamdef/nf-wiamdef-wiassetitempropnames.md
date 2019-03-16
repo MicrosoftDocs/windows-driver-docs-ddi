@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetItemPropNames
-title: wiasSetItemPropNames function
+title: wiasSetItemPropNames function (wiamdef.h)
 description: The wiasSetItemPropNames function writes property names to item properties.
 old-location: image\wiassetitempropnames.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetItemPropNames
+- wiasSetItemPropNames
 product:
 - Windows
 targetos: Windows

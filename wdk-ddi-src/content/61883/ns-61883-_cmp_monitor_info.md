@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_MONITOR_INFO
-title: "_CMP_MONITOR_INFO"
+title: _CMP_MONITOR_INFO (61883.h)
 description: The CMP_MONITOR_INFO structure is used in conjunction with the Av61883_MonitorPlugs request to allow a driver to monitor access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_info.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_MONITOR_INFO
+- CMP_MONITOR_INFO
 product:
 - Windows
 targetos: Windows

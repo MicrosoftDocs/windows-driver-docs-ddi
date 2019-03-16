@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND
-title: PFN_WSK_SEND
+title: PFN_WSK_SEND (wsk.h)
 description: The WskSend function sends data over a connection-oriented or stream socket to a remote transport address.
 old-location: netvista\wsksend.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskSend
+- WskSend
 product:
 - Windows
 targetos: Windows

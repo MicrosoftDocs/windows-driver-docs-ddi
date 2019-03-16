@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingSupport_OUT
-title: "_GetBindingSupport_OUT"
+title: _GetBindingSupport_OUT (hbapiwmi.h)
 description: The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingSupport WMI method to the WMI client.
 old-location: storage\getbindingsupport_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetBindingSupport_OUT
+- GetBindingSupport_OUT
 product:
 - Windows
 targetos: Windows

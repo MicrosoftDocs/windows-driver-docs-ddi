@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAcquireRWLockRead
-title: NdisAcquireRWLockRead function
+title: NdisAcquireRWLockRead function (ndis.h)
 description: The NdisAcquireRWLockRead function obtains a read lock that the caller uses for read access to resources that are shared among driver threads.
 old-location: netvista\ndisacquirerwlockread.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAcquireRWLockRead
+- NdisAcquireRWLockRead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_AER_CAPABILITY
-title: "_PCI_EXPRESS_AER_CAPABILITY"
+title: _PCI_EXPRESS_AER_CAPABILITY (miniport.h)
 description: The PCI_EXPRESS_AER_CAPABILITY structure describes a PCI Express (PCIe) advanced error reporting capability structure.
 old-location: pci\pci_express_aer_capability.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_AER_CAPABILITY
+- PCI_EXPRESS_AER_CAPABILITY
 product:
 - Windows
 targetos: Windows

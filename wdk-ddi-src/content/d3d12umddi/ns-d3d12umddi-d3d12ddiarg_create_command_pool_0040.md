@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_POOL_0040
-title: D3D12DDIARG_CREATE_COMMAND_POOL_0040
+title: D3D12DDIARG_CREATE_COMMAND_POOL_0040 (d3d12umddi.h)
 description: Used to create a command pool.
 ms.assetid: 55d2cbcb-1024-4e8d-a797-e269fb92b665
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATE_COMMAND_POOL_0040
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_COMMAND_POOL_0040
+- D3D12DDIARG_CREATE_COMMAND_POOL_0040
 product: 
 - Windows
 targetos: Windows

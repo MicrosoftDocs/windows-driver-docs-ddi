@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetEaFile
-title: ZwSetEaFile function
+title: ZwSetEaFile function (ntifs.h)
 description: The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
 old-location: kernel\zwseteafile.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetEaFile
+- ZwSetEaFile
 product:
 - Windows
 targetos: Windows

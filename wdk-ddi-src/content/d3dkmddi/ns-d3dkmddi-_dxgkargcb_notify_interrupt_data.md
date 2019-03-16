@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_NOTIFY_INTERRUPT_DATA
-title: "_DXGKARGCB_NOTIFY_INTERRUPT_DATA"
+title: _DXGKARGCB_NOTIFY_INTERRUPT_DATA (d3dkmddi.h)
 description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information.
 old-location: display\dxgkargcb_notify_interrupt_data.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_NOTIFY_INTERRUPT_DATA
+- DXGKARGCB_NOTIFY_INTERRUPT_DATA
 product:
 - Windows
 targetos: Windows

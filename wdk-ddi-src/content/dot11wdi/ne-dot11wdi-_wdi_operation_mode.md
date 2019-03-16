@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_OPERATION_MODE
-title: "_WDI_OPERATION_MODE"
+title: _WDI_OPERATION_MODE (dot11wdi.h)
 description: The WDI_OPERATION_MODE enumeration defines operation modes.
 old-location: netvista\wdi_operation_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_OPERATION_MODE
+- WDI_OPERATION_MODE
 product:
 - Windows
 targetos: Windows

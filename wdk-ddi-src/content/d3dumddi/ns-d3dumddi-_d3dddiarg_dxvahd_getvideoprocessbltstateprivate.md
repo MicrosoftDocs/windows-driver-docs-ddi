@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
-title: "_D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE"
+title: _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure describes the private bit-block transfer (bitblt) state of the video processor to retrieve.
 old-location: display\d3dddiarg_dxvahd_getvideoprocessbltstateprivate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
+- D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 product:
 - Windows
 targetos: Windows

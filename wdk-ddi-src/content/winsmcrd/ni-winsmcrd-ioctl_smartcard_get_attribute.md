@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_GET_ATTRIBUTE
-title: IOCTL_SMARTCARD_GET_ATTRIBUTE
+title: IOCTL_SMARTCARD_GET_ATTRIBUTE (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_ATTRIBUTE control code queries for smart card attribues.
 old-location: nfpdrivers\ioctl_smartcard_get_attribute.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsmcrd.h
+- winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_GET_ATTRIBUTE
+- IOCTL_SMARTCARD_GET_ATTRIBUTE
 product:
 - Windows
 targetos: Windows

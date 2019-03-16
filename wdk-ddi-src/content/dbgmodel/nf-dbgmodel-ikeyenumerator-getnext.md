@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.GetNext
-title: IKeyEnumerator::GetNext
+title: IKeyEnumerator::GetNext (dbgmodel.h)
 description:  Moves the iterator forward and fetches the name of the next key and, optionally, its value (or a reference to it) and associated metadata.
 ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
 ms.date: 12/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyEnumerator.GetNext
-product: Windows
+- IKeyEnumerator.GetNext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

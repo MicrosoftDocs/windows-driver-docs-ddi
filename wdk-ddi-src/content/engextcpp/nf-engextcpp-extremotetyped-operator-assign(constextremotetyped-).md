@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-assign(const ExtRemoteTyped &)
-title: ExtRemoteTyped::operator=(const ExtRemoteTyped &)
+title: ExtRemoteTyped::operator=(const ExtRemoteTyped &) (engextcpp.h)
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_extremotetyped.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.operator=
+- ExtRemoteTyped.operator=
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ---

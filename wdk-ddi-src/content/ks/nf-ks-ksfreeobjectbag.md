@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectBag
-title: KsFreeObjectBag function
+title: KsFreeObjectBag function (ks.h)
 description: The KsFreeObjectBag function empties and frees an object bag.
 old-location: stream\ksfreeobjectbag.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFreeObjectBag
+- KsFreeObjectBag
 product:
 - Windows
 targetos: Windows

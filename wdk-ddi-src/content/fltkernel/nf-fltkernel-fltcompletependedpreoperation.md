@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCompletePendedPreOperation
-title: FltCompletePendedPreOperation function
+title: FltCompletePendedPreOperation function (fltkernel.h)
 description: FltCompletePendedPreOperation resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback (PFLT_PRE_OPERATION_CALLBACK) routine.
 old-location: ifsk\fltcompletependedpreoperation.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCompletePendedPreOperation
+- FltCompletePendedPreOperation
 product:
 - Windows
 targetos: Windows

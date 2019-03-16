@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.GetState
-title: IWDFRemoteTarget::GetState
+title: IWDFRemoteTarget::GetState (wudfddi.h)
 description: The GetState method returns the current state of a remote I/O target.
 old-location: wdf\iwdfremotetarget_getstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteTarget.GetState
+- IWDFRemoteTarget.GetState
 product:
 - Windows
 targetos: Windows

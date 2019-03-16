@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._SET_BAND_SECURITY_PARAMETERS
-title: "_SET_BAND_SECURITY_PARAMETERS"
+title: _SET_BAND_SECURITY_PARAMETERS (ehstorbandmgmt.h)
 description: The parameters to set security properties for a band on a storage device for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY request are specified in a SET_BAND_SECURITY_PARAMETERS structure.
 old-location: storage\set_band_security_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	SET_BAND_SECURITY_PARAMETERS
+- SET_BAND_SECURITY_PARAMETERS
 product:
 - Windows
 targetos: Windows

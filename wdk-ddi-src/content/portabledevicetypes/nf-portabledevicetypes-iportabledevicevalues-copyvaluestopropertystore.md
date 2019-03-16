@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.CopyValuesToPropertyStore
-title: IPortableDeviceValues::CopyValuesToPropertyStore
+title: IPortableDeviceValues::CopyValuesToPropertyStore (portabledevicetypes.h)
 description: Copies all the values from a collection into an IPropertyStore interface.
 old-location: wpddk\iportabledevicevalues_copyvaluestopropertystore.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.CopyValuesToPropertyStore
+- IPortableDeviceValues.CopyValuesToPropertyStore
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

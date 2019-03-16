@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsRestricted
-title: SeTokenIsRestricted function
+title: SeTokenIsRestricted function (ntifs.h)
 description: The SeTokenIsRestricted routine determines whether a token contains a list of restricting security identifiers (SID).
 old-location: ifsk\setokenisrestricted.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeTokenIsRestricted
+- SeTokenIsRestricted
 product:
 - Windows
 targetos: Windows

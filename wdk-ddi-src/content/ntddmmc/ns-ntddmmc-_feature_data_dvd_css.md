@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_CSS
-title: "_FEATURE_DATA_DVD_CSS"
+title: _FEATURE_DATA_DVD_CSS (ntddmmc.h)
 description: The FEATURE_DATA_DVD_CSS structure holds information about the DVD Content Scrambling System (CSS) feature.
 old-location: storage\feature_data_dvd_css.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_DVD_CSS
+- FEATURE_DATA_DVD_CSS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldOffsetWide
-title: IDebugSymbols3::GetFieldOffsetWide
+title: IDebugSymbols3::GetFieldOffsetWide (dbgeng.h)
 description: The GetFieldOffsetWide method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffsetwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetFieldOffsetWide
+- IDebugSymbols3.GetFieldOffsetWide
 product:
 - Windows
 targetos: Windows

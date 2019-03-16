@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetMixFormat
-title: IMiniportAudioEngineNode::GetMixFormat
+title: IMiniportAudioEngineNode::GetMixFormat (portcls.h)
 description: Gets the audio data format for the audio engine mixer.
 old-location: audio\iminiportaudioenginenode_getmixformat.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetMixFormat
+- IMiniportAudioEngineNode.GetMixFormat
 product:
 - Windows
 targetos: Windows

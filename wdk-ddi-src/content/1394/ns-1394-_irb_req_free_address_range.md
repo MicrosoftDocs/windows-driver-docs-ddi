@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_FREE_ADDRESS_RANGE
-title: "_IRB_REQ_FREE_ADDRESS_RANGE"
+title: _IRB_REQ_FREE_ADDRESS_RANGE (1394.h)
 description: This structure contains the fields necessary for the 1394 stack to carry out a free address range reqeust.
 old-location: ieee\irb_req_free_address_range.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_FREE_ADDRESS_RANGE
+- IRB_REQ_FREE_ADDRESS_RANGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSendNetBufferLists
-title: NdisSendNetBufferLists function
+title: NdisSendNetBufferLists function (ndis.h)
 description: Protocol drivers call the NdisSendNetBufferLists function to send network data that is contained in a list of NET_BUFFER_LIST structures.
 old-location: netvista\ndissendnetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisSendNetBufferLists
+- NdisSendNetBufferLists
 product:
 - Windows
 targetos: Windows

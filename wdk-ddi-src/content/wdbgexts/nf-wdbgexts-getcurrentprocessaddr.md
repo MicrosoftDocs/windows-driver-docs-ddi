@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetCurrentProcessAddr
-title: GetCurrentProcessAddr function
+title: GetCurrentProcessAddr function (wdbgexts.h)
 description: The GetCurrentProcessAddr function returns the location of the system data that describes the current process.
 old-location: debugger\getcurrentprocessaddr.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetCurrentProcessAddr
+- GetCurrentProcessAddr
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciglobals._UCMTCPCI_DRIVER_GLOBALS
-title: "_UCMTCPCI_DRIVER_GLOBALS"
+title: _UCMTCPCI_DRIVER_GLOBALS (ucmtcpciglobals.h)
 description: The global structure for the USB Type-C Port Controller Interface framework extension (UcmTcpciCx).
 old-location: buses\ucmtcpci_driver_globals.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtcpciglobals.h
+- Ucmtcpciglobals.h
 api_name:
--	UCMTCPCI_DRIVER_GLOBALS
+- UCMTCPCI_DRIVER_GLOBALS
 product:
 - Windows
 targetos: Windows

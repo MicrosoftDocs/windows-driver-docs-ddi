@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryVolumeInformationFile
-title: FltQueryVolumeInformationFile function
+title: FltQueryVolumeInformationFile function (fltkernel.h)
 description: FltQueryVolumeInformationFile retrieves volume information for a given file, directory, storage device, or volume.
 old-location: ifsk\fltqueryvolumeinformationfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueryVolumeInformationFile
+- FltQueryVolumeInformationFile
 product:
 - Windows
 targetos: Windows

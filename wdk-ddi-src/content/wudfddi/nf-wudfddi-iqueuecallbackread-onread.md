@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackRead.OnRead
-title: IQueueCallbackRead::OnRead
+title: IQueueCallbackRead::OnRead (wudfddi.h)
 description: The OnRead method is called to handle a read request when an application reads information from a device through the Microsoft Win32 ReadFile or ReadFileEx function.
 old-location: wdf\iqueuecallbackread_onread.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IQueueCallbackRead.OnRead
+- IQueueCallbackRead.OnRead
 product:
 - Windows
 targetos: Windows

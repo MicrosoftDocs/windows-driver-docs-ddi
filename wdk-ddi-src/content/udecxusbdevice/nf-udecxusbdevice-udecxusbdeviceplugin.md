@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDevicePlugIn
-title: UdecxUsbDevicePlugIn function
+title: UdecxUsbDevicePlugIn function (udecxusbdevice.h)
 description: Notifies the USB device emulation class extension (UdeCx) that the USB device has been plugged in the specified port.
 old-location: buses\udecxusbdeviceplugin.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDevicePlugIn
+- UdecxUsbDevicePlugIn
 product:
 - Windows
 targetos: Windows

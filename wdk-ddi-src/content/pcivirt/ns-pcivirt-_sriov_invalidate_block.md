@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_INVALIDATE_BLOCK
-title: "_SRIOV_INVALIDATE_BLOCK"
+title: _SRIOV_INVALIDATE_BLOCK (pcivirt.h)
 description: Contains the configuration block information. This structure is used in a IOCTL_SRIOV_INVALIDATE_BLOCK request.
 old-location: pci\sriov_invalidate_block.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_INVALIDATE_BLOCK
+- SRIOV_INVALIDATE_BLOCK
 product:
 - Windows
 targetos: Windows

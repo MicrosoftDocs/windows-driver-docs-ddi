@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_MAKE_NET_LUID
-title: NDIS_MAKE_NET_LUID macro
+title: NDIS_MAKE_NET_LUID macro (ntddndis.h)
 description: The NDIS_MAKE_NET_LUID macro builds a NET_LUID value from an interface type and a NET_LUID index.
 tech.root: netvista
 ms.assetid: e8f14ed7-53ed-4bef-af8c-a7f818437d98
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_MAKE_NET_LUID
+- NDIS_MAKE_NET_LUID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueueGenericWorkItem
-title: FltQueueGenericWorkItem function
+title: FltQueueGenericWorkItem function (fltkernel.h)
 description: FltQueueGenericWorkItem posts a work item that is not associated with a specific I/O operation to a work queue.
 old-location: ifsk\fltqueuegenericworkitem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueueGenericWorkItem
+- FltQueueGenericWorkItem
 product:
 - Windows
 targetos: Windows

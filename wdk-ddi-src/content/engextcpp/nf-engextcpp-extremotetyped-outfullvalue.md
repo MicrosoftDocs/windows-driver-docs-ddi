@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.OutFullValue
-title: ExtRemoteTyped::OutFullValue
+title: ExtRemoteTyped::OutFullValue (engextcpp.h)
 description: The OutFullValue method prints the type and value of the typed data represented by this object.
 old-location: debugger\extremotetyped_outfullvalue.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.OutFullValue
+- ExtRemoteTyped.OutFullValue
 product:
 - Windows
 targetos: Windows

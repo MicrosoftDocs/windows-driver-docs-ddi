@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisOpenConfigurationKeyByName
-title: NdisOpenConfigurationKeyByName function
+title: NdisOpenConfigurationKeyByName function (ndis.h)
 description: The NdisOpenConfigurationKeyByName function opens a named subkey of a given open registry key that is designated by a caller-supplied handle.
 old-location: netvista\ndisopenconfigurationkeybyname.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisOpenConfigurationKeyByName
+- NdisOpenConfigurationKeyByName
 product:
 - Windows
 targetos: Windows

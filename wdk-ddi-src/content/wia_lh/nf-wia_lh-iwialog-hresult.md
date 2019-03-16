@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaLog.hResult
-title: IWiaLog::hResult
+title: IWiaLog::hResult (wia_lh.h)
 description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported.
 old-location: image\iwialog_hresult.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaLog.hResult
+- IWiaLog.hResult
 product:
 - Windows
 targetos: Windows

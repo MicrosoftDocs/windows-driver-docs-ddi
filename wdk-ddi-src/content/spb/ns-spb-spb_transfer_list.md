@@ -1,6 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_LIST
-title: SPB_TRANSFER_LIST
+title: SPB_TRANSFER_LIST (spb.h)
 description: The SPB_TRANSFER_LIST structure describes an I/O transfer sequence.
 old-location: spb\spb_transfer_list.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST
+- SPB_TRANSFER_LIST
 product:
 - Windows
 targetos: Windows

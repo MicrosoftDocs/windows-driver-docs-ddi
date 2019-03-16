@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCompressBuffer
-title: RtlCompressBuffer function
+title: RtlCompressBuffer function (ntifs.h)
 description: The RtlCompressBuffer function compresses a buffer and can be used by a file system driver to facilitate the implementation of file compression.
 old-location: ifsk\rtlcompressbuffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCompressBuffer
+- RtlCompressBuffer
 product:
 - Windows
 targetos: Windows

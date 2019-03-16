@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPDEVCAPS
-title: "_DXVAHDDDI_VPDEVCAPS"
+title: _DXVAHDDDI_VPDEVCAPS (d3dumddi.h)
 description: The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities that the decode device supports.
 old-location: display\dxvahdddi_vpdevcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_VPDEVCAPS
+- DXVAHDDDI_VPDEVCAPS
 product:
 - Windows
 targetos: Windows

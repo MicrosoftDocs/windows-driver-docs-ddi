@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMMAND_POOL_FLAGS
-title: D3D12DDI_COMMAND_POOL_FLAGS
+title: D3D12DDI_COMMAND_POOL_FLAGS (d3d12umddi.h)
 description: The usage behavior for the command pool.
 ms.assetid: 50f93261-6167-4537-b792-4c179e2da396
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_COMMAND_POOL_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_COMMAND_POOL_FLAGS
+- D3D12DDI_COMMAND_POOL_FLAGS
 product: 
 - Windows
 targetos: Windows

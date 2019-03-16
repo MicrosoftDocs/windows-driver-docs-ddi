@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
-title: PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
+title: PFND3DKMT_SETVIDPNSOURCEHWPROTECTION (d3dkmthk.h)
 description: The PFND3DKMT_SETVIDPNSOURCEHWPROTECTION callback function sets VidPn source hardware protection.
 ms.assetid: 344b5493-91fd-4c43-b8ba-ee7d918cb9c6
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
+- PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PRECONNECT_INFO
-title: "_AVC_PRECONNECT_INFO"
+title: _AVC_PRECONNECT_INFO (avc.h)
 description: The AVC_PRECONNECT_INFO structure specifies the preconnection information for the specified pin ID (zero-based offset) on an AV/C subunit device.
 old-location: stream\avc_preconnect_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_PRECONNECT_INFO
+- AVC_PRECONNECT_INFO
 product:
 - Windows
 targetos: Windows

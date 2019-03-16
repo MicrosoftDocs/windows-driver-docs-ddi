@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaFeature
-title: IPrintSchemaFeature
+title: IPrintSchemaFeature (printerextension.h)
 description: Exposes a Print Schema Feature element.
 old-location: print\iprintschemafeature_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaFeature
+- IPrintSchemaFeature
 product:
 - Windows
 targetos: Windows

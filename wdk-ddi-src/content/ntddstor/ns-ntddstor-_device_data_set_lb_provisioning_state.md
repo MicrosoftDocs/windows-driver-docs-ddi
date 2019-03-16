@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_LB_PROVISIONING_STATE
-title: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+title: _DEVICE_DATA_SET_LB_PROVISIONING_STATE (ntddstor.h)
 description: The DEVICE_DATA_SET_LB_PROVISIONING_STATE structure is returned by an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request when requesting logical block provisioning information for a data set range.
 old-location: storage\device_data_set_lb_provisioning_state.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_DATA_SET_LB_PROVISIONING_STATE
+- DEVICE_DATA_SET_LB_PROVISIONING_STATE
 product:
 - Windows
 targetos: Windows

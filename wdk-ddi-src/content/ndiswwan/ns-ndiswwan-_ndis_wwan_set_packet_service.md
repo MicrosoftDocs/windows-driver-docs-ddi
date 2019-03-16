@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PACKET_SERVICE
-title: "_NDIS_WWAN_SET_PACKET_SERVICE"
+title: _NDIS_WWAN_SET_PACKET_SERVICE (ndiswwan.h)
 description: The NDIS_WWAN_SET_PACKET_SERVICE structure represents the packet service state of the MB device.
 old-location: netvista\ndis_wwan_set_packet_service.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SET_PACKET_SERVICE
+- NDIS_WWAN_SET_PACKET_SERVICE
 product:
 - Windows
 targetos: Windows

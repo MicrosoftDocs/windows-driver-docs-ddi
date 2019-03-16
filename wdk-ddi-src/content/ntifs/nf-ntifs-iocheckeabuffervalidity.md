@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckEaBufferValidity
-title: IoCheckEaBufferValidity function
+title: IoCheckEaBufferValidity function (ntifs.h)
 description: The IoCheckEaBufferValidity routine checks whether the specified extended attribute (EA) buffer is valid.
 old-location: ifsk\iocheckeabuffervalidity.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCheckEaBufferValidity
+- IoCheckEaBufferValidity
 product:
 - Windows
 targetos: Windows

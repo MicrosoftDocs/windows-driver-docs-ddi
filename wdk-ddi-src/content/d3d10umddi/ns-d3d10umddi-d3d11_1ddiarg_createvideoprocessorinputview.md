@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
-title: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+title: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW (d3d10umddi.h)
 description: Describes the video processor's input view.
 old-location: display\d3d11_1ddiarg_createvideoprocessorinputview.htm
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
+- D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 product:
 - Windows
 targetos: Windows

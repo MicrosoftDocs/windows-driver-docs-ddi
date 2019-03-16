@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
-title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
+title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION (d3dkmthk.h)
 description: Used to change the video memory management reservation.
 ms.assetid: e0af83c8-8fce-45ba-9449-ac45a638d287
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CHANGEVIDEOMEMORYRESERVATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
+- _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_IF_INFORMATION
-title: "_NET_IF_INFORMATION"
+title: _NET_IF_INFORMATION (ndis.h)
 description: The NET_IF_INFORMATION structure provides NDIS with information about a registered network interface.
 old-location: netvista\net_if_information.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_IF_INFORMATION
+- NET_IF_INFORMATION
 product:
 - Windows
 targetos: Windows

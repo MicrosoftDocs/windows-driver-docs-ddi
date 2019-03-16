@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetActivityIdCallbackData
-title: FltSetActivityIdCallbackData function
+title: FltSetActivityIdCallbackData function (fltkernel.h)
 description: The FltSetActivityIdCallbackData routine sets the a activity ID for an IRP in a minifilter's callback data.
 old-location: ifsk\fltsetactivityidcallbackdata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetActivityIdCallbackData
+- FltSetActivityIdCallbackData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAVC_FUNCTION
-title: "_tagAVC_FUNCTION"
+title: _tagAVC_FUNCTION (avc.h)
 description: The AVC_FUNCTION enumeration type is used to specify AV/C subunit functions.
 old-location: stream\avc_function.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_FUNCTION
+- AVC_FUNCTION
 product:
 - Windows
 targetos: Windows

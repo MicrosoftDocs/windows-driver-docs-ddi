@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKRNL_INTERFACE
-title: "_DXGKRNL_INTERFACE"
+title: _DXGKRNL_INTERFACE (dispmprt.h)
 description: The DXGKRNL_INTERFACE structure contains a handle to a display adapter and a set of function pointers.
 old-location: display\dxgkrnl_interface2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DXGKRNL_INTERFACE
+- DXGKRNL_INTERFACE
 product:
 - Windows
 targetos: Windows

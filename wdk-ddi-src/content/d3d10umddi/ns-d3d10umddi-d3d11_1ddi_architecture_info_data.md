@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_ARCHITECTURE_INFO_DATA
-title: D3D11_1DDI_ARCHITECTURE_INFO_DATA
+title: D3D11_1DDI_ARCHITECTURE_INFO_DATA (d3d10umddi.h)
 description: Describes information about display adapter architecture.
 old-location: display\d3d11_1ddi_architecture_info_data.htm
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11_1DDI_ARCHITECTURE_INFO_DATA
+- D3D11_1DDI_ARCHITECTURE_INFO_DATA
 product:
 - Windows
 targetos: Windows

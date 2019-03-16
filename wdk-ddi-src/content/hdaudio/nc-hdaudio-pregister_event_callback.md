@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PREGISTER_EVENT_CALLBACK
-title: PREGISTER_EVENT_CALLBACK
+title: PREGISTER_EVENT_CALLBACK (hdaudio.h)
 description: The RegisterEventCallback routine registers a callback routine for an unsolicited response from a codec or codecs.The function pointer type for a RegisterEventCallback routine is defined as follows.
 old-location: audio\registereventcallback.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	RegisterEventCallback
+- RegisterEventCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT
-title: NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT function
+title: NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT function (netrequestqueue.h)
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_SET_DATA_HANDLER structure.
 tech.root: netvista
 ms.assetid: 0b9803b4-438b-459e-849c-5e08fa9f58e5
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_SET_DATA_HANDLER_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

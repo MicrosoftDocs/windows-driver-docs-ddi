@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeUInt64
-title: SdpCreateNodeUInt64 function
+title: SdpCreateNodeUInt64 function (sdplib.h)
 description: The Bluetooth SdpCreateNodeUInt64 function is used to allocate and initialize an SDP_NODE structure to an unsigned 64-bit integer type.
 old-location: bltooth\sdpcreatenodeuint64.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpCreateNodeUInt64
+- SdpCreateNodeUInt64
 product:
 - Windows
 targetos: Windows

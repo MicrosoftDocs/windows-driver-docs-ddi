@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_USER
-title: "_TOKEN_USER"
+title: _TOKEN_USER (ntifs.h)
 description: TOKEN_USER identifies the user associated with an access token.
 old-location: ifsk\token_user.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_USER
+- TOKEN_USER
 product:
 - Windows
 targetos: Windows

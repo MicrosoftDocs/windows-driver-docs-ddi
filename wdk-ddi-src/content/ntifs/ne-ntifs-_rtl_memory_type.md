@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._RTL_MEMORY_TYPE
-title: _RTL_MEMORY_TYPE
+title: _RTL_MEMORY_TYPE (ntifs.h)
 description: Defines the memory type the heap is supposed to use.
 ms.assetid: ba671026-62dc-4e7e-aef4-bd2507d58ecb
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: RTL_MEMORY_TYPE, *PRTL_MEMORY_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_RTL_MEMORY_TYPE
+- _RTL_MEMORY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

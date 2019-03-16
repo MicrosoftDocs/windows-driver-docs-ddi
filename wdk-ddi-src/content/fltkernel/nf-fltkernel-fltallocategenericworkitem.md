@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateGenericWorkItem
-title: FltAllocateGenericWorkItem function
+title: FltAllocateGenericWorkItem function (fltkernel.h)
 description: FltAllocateGenericWorkItem allocates a generic work item.
 old-location: ifsk\fltallocategenericworkitem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltAllocateGenericWorkItem
+- FltAllocateGenericWorkItem
 product:
 - Windows
 targetos: Windows

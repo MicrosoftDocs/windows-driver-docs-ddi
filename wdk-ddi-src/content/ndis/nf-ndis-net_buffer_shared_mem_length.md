@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_SHARED_MEM_LENGTH
-title: NET_BUFFER_SHARED_MEM_LENGTH macro
+title: NET_BUFFER_SHARED_MEM_LENGTH macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_LENGTH macro gets the shared memory length from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
 ms.assetid: e6b22dc4-658d-4609-9020-1b0349de13fe
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_SHARED_MEM_LENGTH
+- NET_BUFFER_SHARED_MEM_LENGTH
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

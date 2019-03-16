@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_1DDI_CREATESHADERRESOURCEVIEW
-title: PFND3D10_1DDI_CREATESHADERRESOURCEVIEW
+title: PFND3D10_1DDI_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
 description: The CreateShaderResourceView(D3D10_1) function creates a shader resource view.
 old-location: display\createshaderresourceview_d3d10_1_.htm
 ms.assetid: 7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateShaderResourceView_d3d10_1_
+- CreateShaderResourceView_d3d10_1_
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDiscard
-title: KsDiscard macro
+title: KsDiscard macro (ks.h)
 description: The KsDiscard macro removes a given item from an object bag.
 old-location: stream\ksdiscard.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDiscard
+- KsDiscard
 product:
 - Windows
 targetos: Windows

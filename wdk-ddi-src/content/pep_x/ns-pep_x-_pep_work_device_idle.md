@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_DEVICE_IDLE
-title: "_PEP_WORK_DEVICE_IDLE"
+title: _PEP_WORK_DEVICE_IDLE (pep_x.h)
 description: The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the idle time-out for the specified device.
 old-location: kernel\pep_work_device_idle.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_WORK_DEVICE_IDLE
+- PEP_WORK_DEVICE_IDLE
 product:
 - Windows
 targetos: Windows

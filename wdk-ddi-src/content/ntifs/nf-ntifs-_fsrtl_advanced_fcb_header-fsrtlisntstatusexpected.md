@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsNtstatusExpected
-title: FsRtlIsNtstatusExpected function
+title: FsRtlIsNtstatusExpected function (ntifs.h)
 description: The FsRtlIsNtstatusExpected routine determines whether the specified exception is handled by the exception filter.
 old-location: ifsk\fsrtlisntstatusexpected.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsNtstatusExpected
+- FsRtlIsNtstatusExpected
 product:
 - Windows
 targetos: Windows

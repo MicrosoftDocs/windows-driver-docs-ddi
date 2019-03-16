@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_CONNECTION_DISPATCH
-title: "_WSK_PROVIDER_CONNECTION_DISPATCH"
+title: _WSK_PROVIDER_CONNECTION_DISPATCH (wsk.h)
 description: The WSK_PROVIDER_CONNECTION_DISPATCH structure specifies the WSK subsystem's table of functions for a connection-oriented socket.
 old-location: netvista\wsk_provider_connection_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_PROVIDER_CONNECTION_DISPATCH
+- WSK_PROVIDER_CONNECTION_DISPATCH
 product:
 - Windows
 targetos: Windows

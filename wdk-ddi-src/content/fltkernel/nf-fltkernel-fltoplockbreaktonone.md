@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockBreakToNone
-title: FltOplockBreakToNone function
+title: FltOplockBreakToNone function (fltkernel.h)
 description: The FltOplockBreakToNone routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fltoplockbreaktonone.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltOplockBreakToNone
+- FltOplockBreakToNone
 product:
 - Windows
 targetos: Windows

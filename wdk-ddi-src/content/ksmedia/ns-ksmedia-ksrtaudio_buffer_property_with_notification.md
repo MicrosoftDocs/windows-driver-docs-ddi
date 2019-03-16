@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_23
-title: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
+title: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION (ksmedia.h)
 description: The KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure appends a buffer base address, a requested buffer size, and a notification count to a KSPROPERTY structure.
 old-location: audio\ksrtaudio_buffer_property_with_notification.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
+- KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 product:
 - Windows
 targetos: Windows

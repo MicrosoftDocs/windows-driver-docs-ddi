@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._BBRT_TABLE
-title: "_BBRT_TABLE"
+title: _BBRT_TABLE (acpitabl.h)
 description: Defines a Boot Background Resource Table.
 old-location: acpi\bbrt_table.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	BBRT_TABLE
+- BBRT_TABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: BBRT_TABLE, *PBBRT_TABLE
 ---

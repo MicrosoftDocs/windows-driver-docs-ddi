@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_GET_REQUEST
-title: "_FCP_GET_REQUEST"
+title: _FCP_GET_REQUEST (61883.h)
 description: This structure is used for a get request.
 old-location: ieee\fcp_get_request.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	FCP_GET_REQUEST
+- FCP_GET_REQUEST
 product:
 - Windows
 targetos: Windows

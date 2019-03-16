@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisDeregisterDeviceEx
-title: NdisDeregisterDeviceEx function
+title: NdisDeregisterDeviceEx function (ndis.h)
 description: The NdisDeregisterDeviceEx function removes, from the system, a device object that was created by the NdisRegisterDeviceEx function.
 old-location: netvista\ndisderegisterdeviceex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisDeregisterDeviceEx
+- NdisDeregisterDeviceEx
 product:
 - Windows
 targetos: Windows

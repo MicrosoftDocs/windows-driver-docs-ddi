@@ -1,6 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_CREATE_TXQUEUE
-title: EVT_NET_ADAPTER_CREATE_TXQUEUE
+title: EVT_NET_ADAPTER_CREATE_TXQUEUE (netadapter.h)
 description: The client driver's implementation of the *EvtNetAdapterCreateTxQueue* event callback function that sets up a transmit (Tx) queue.
 tech.root: netvista
 ms.assetid: 50d681dc-8d45-45d4-aef6-149ee53c1284
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netadapter.h
-apiname: 
--	EVT_NET_ADAPTER_CREATE_TXQUEUE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netadapter.h
+api_name: 
+- EVT_NET_ADAPTER_CREATE_TXQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSymbolModule
-title: IDebugSymbols::GetSymbolModule
+title: IDebugSymbols::GetSymbolModule (dbgeng.h)
 description: The GetSymbolModule method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodule.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetSymbolModule
--	IDebugSymbols2.GetSymbolModule
--	IDebugSymbols3.GetSymbolModule
+- IDebugSymbols.GetSymbolModule
+- IDebugSymbols2.GetSymbolModule
+- IDebugSymbols3.GetSymbolModule
 product:
 - Windows
 targetos: Windows

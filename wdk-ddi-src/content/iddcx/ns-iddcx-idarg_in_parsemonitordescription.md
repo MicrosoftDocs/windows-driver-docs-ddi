@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_PARSEMONITORDESCRIPTION
-title: IDARG_IN_PARSEMONITORDESCRIPTION
+title: IDARG_IN_PARSEMONITORDESCRIPTION (iddcx.h)
 description: Gives information about the monitor description.
 old-location: display\idarg_in_parsemonitordescription.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_PARSEMONITORDESCRIPTION
+- IDARG_IN_PARSEMONITORDESCRIPTION
 product:
 - Windows
 targetos: Windows

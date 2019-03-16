@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEPIXELSHADER
-title: "_D3DDDIARG_CREATEPIXELSHADER"
+title: _D3DDDIARG_CREATEPIXELSHADER (d3dumddi.h)
 description: The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate with pixel shader code.
 old-location: display\d3dddiarg_createpixelshader.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_CREATEPIXELSHADER
+- D3DDDIARG_CREATEPIXELSHADER
 product:
 - Windows
 targetos: Windows

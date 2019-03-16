@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_MULTIPLANEOVERLAYDISABLED
-title: DXGKCB_MULTIPLANEOVERLAYDISABLED
+title: DXGKCB_MULTIPLANEOVERLAYDISABLED (d3dkmddi.h)
 description: This callback allows the kernel mode driver to indicate that the current multiplane overlay configuration is no longer supported on the specified VidPnSourceId.
 old-location: display\dxgkcb_multiplaneoverlaydisabled.htm
 ms.assetid: EA9FAB26-1EAF-4E67-B240-094BC2B03DEF
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: requires_max_(PASSIVE_LEVEL)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_MULTIPLANEOVERLAYDISABLED
+- DXGKCB_MULTIPLANEOVERLAYDISABLED
 product:
 - Windows
 targetos: Windows

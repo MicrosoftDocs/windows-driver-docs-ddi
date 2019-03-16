@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdPrint
-title: KdPrint macro
+title: KdPrint macro (wdm.h)
 description: The KdPrint macro sends a message to the kernel debugger.
 old-location: devtest\kdprint.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib (See DbgPrint.)
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KdPrint
+- KdPrint
 product:
 - Windows
 targetos: Windows

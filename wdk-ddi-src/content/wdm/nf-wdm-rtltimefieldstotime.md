@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlTimeFieldsToTime
-title: RtlTimeFieldsToTime function
+title: RtlTimeFieldsToTime function (wdm.h)
 description: The RtlTimeFieldsToTime routine converts TIME_FIELDS information to a system time value.
 old-location: kernel\rtltimefieldstotime.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlTimeFieldsToTime
+- RtlTimeFieldsToTime
 product:
 - Windows
 targetos: Windows

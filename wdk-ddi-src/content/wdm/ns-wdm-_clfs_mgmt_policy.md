@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_MGMT_POLICY
-title: "_CLFS_MGMT_POLICY"
+title: _CLFS_MGMT_POLICY (wdm.h)
 description: The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log.
 old-location: kernel\clfs_mgmt_policy.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CLFS_MGMT_POLICY
+- CLFS_MGMT_POLICY
 product:
 - Windows
 targetos: Windows

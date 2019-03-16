@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortalGroup2
-title: "_ISCSI_DiscoveredTargetPortalGroup2"
+title: _ISCSI_DiscoveredTargetPortalGroup2 (iscsifnd.h)
 description: The ISCSI_DiscoveredTargetPortalGroup2 structure contains information about a discovered target portal group.
 old-location: storage\iscsi_discoveredtargetportalgroup2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsifnd.h
+- iscsifnd.h
 api_name:
--	ISCSI_DiscoveredTargetPortalGroup2
+- ISCSI_DiscoveredTargetPortalGroup2
 product:
 - Windows
 targetos: Windows

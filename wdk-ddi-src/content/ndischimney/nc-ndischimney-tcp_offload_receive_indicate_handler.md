@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER
-title: TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER
+title: TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolTcpOffloadReceiveIndicate function to deliver received data that is being indicated by an underlying driver or offload target.
 old-location: netvista\protocoltcpoffloadreceiveindicate.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolTcpOffloadReceiveIndicate
+- ProtocolTcpOffloadReceiveIndicate
 product:
 - Windows
 targetos: Windows

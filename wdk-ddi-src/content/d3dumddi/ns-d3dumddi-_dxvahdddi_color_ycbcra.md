@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR_YCbCrA
-title: "_DXVAHDDDI_COLOR_YCbCrA"
+title: _DXVAHDDDI_COLOR_YCbCrA (d3dumddi.h)
 description: The DXVAHDDDI_COLOR_YCbCrA structure describes color in YCbCr terms.
 old-location: display\dxvahdddi_color_ycbcra.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_COLOR_YCbCrA
+- DXVAHDDDI_COLOR_YCbCrA
 product:
 - Windows
 targetos: Windows

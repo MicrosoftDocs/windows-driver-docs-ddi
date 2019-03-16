@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeQueryInformation
-title: RxCeQueryInformation function
+title: RxCeQueryInformation function (rxce.h)
 description: RxCeQueryInformation queries information about a connection in a caller-allocated buffer.
 old-location: ifsk\rxcequeryinformation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeQueryInformation
+- RxCeQueryInformation
 product:
 - Windows
 targetos: Windows

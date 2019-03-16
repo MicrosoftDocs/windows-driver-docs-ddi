@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeUnregisterLogonSessionTerminatedRoutine
-title: SeUnregisterLogonSessionTerminatedRoutine function
+title: SeUnregisterLogonSessionTerminatedRoutine function (ntifs.h)
 description: The SeUnregisterLogonSessionTerminatedRoutine routine unregisters a callback routine that was registered by an earlier call to SeRegisterLogonSessionTerminatedRoutine.
 old-location: ifsk\seunregisterlogonsessionterminatedroutine.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeUnregisterLogonSessionTerminatedRoutine
+- SeUnregisterLogonSessionTerminatedRoutine
 product:
 - Windows
 targetos: Windows

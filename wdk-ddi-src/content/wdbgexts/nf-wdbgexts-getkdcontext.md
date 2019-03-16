@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetKdContext
-title: GetKdContext macro
+title: GetKdContext macro (wdbgexts.h)
 description: The GetKdContext function returns the total number of processors and the number of the current processor in the structure ppi points to.
 old-location: debugger\getkdcontext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetKdContext
+- GetKdContext
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFreeAnsiString
-title: RtlFreeAnsiString function
+title: RtlFreeAnsiString function (wdm.h)
 description: The RtlFreeAnsiString routine releases storage that was allocated by RtlUnicodeStringToAnsiString.
 old-location: kernel\rtlfreeansistring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFreeAnsiString
+- RtlFreeAnsiString
 product:
 - Windows
 targetos: Windows

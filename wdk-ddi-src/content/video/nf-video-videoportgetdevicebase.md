@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetDeviceBase
-title: VideoPortGetDeviceBase function
+title: VideoPortGetDeviceBase function (video.h)
 description: The VideoPortGetDeviceBase function maps a range of bus-relative device memory or I/O addresses into system space.
 old-location: display\videoportgetdevicebase.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetDeviceBase
+- VideoPortGetDeviceBase
 product:
 - Windows
 targetos: Windows

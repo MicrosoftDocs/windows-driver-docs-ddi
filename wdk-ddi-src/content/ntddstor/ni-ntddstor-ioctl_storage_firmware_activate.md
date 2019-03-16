@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIRMWARE_ACTIVATE
-title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
+title: IOCTL_STORAGE_FIRMWARE_ACTIVATE (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_FIRMWARE_ACTIVATE to activate a firmware image on a storage device.
 old-location: storage\ioctl_storage_firmware_activate.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_FIRMWARE_ACTIVATE
+- IOCTL_STORAGE_FIRMWARE_ACTIVATE
 product:
 - Windows
 targetos: Windows

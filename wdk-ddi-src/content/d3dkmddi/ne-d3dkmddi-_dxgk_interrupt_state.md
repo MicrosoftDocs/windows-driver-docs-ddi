@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_INTERRUPT_STATE
-title: "_DXGK_INTERRUPT_STATE"
+title: _DXGK_INTERRUPT_STATE (d3dkmddi.h)
 description: Provides additional information for DxgkDdi_ControlInterrupt2 when VSYNC is not being utilized.
 old-location: display\dxgk_interrupt_state.htm
 ms.assetid: C72DF96B-5D12-4AC0-8FBB-904E087807DB
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_INTERRUPT_STATE
+- DXGK_INTERRUPT_STATE
 product:
 - Windows
 targetos: Windows

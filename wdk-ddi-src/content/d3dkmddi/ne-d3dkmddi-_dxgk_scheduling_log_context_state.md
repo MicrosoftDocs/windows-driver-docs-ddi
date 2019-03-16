@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_SCHEDULING_LOG_CONTEXT_STATE
-title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE
+title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE (d3dkmddi.h)
 description: Describes that event to log when a context transitions between one of its execution states.
 ms.assetid: ec661384-328c-479c-9f9e-dd6b955ff3bb
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_LOG_CONTEXT_STATE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_LOG_CONTEXT_STATE
+- _DXGK_SCHEDULING_LOG_CONTEXT_STATE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

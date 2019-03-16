@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsNullDriverUnload
-title: KsNullDriverUnload function
+title: KsNullDriverUnload function (ks.h)
 description: The KsNullDriverUnload function is a default function a driver can use when it has no other tasks to do in its unload function, but must still allow the device to be unloaded by its presence.
 old-location: stream\ksnulldriverunload.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsNullDriverUnload
+- KsNullDriverUnload
 product:
 - Windows
 targetos: Windows

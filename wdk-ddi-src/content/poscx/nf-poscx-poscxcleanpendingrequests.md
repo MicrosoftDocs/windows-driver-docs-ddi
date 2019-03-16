@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxCleanPendingRequests
-title: PosCxCleanPendingRequests function
+title: PosCxCleanPendingRequests function (poscx.h)
 description: PosCxCleanPendingRequests is called to cancel all pending requests for a given caller, identified by the open instance.
 old-location: pos\poscxcleanpendingrequests.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxCleanPendingRequests
+- PosCxCleanPendingRequests
 product:
 - Windows
 targetos: Windows

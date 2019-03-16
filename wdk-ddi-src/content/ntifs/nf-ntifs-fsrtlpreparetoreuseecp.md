@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlPrepareToReuseEcp
-title: FsRtlPrepareToReuseEcp function
+title: FsRtlPrepareToReuseEcp function (ntifs.h)
 description: The FsRtlPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fsrtlpreparetoreuseecp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlPrepareToReuseEcp
+- FsRtlPrepareToReuseEcp
 product:
 - Windows
 targetos: Windows

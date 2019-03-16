@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxIndicateChangeOfBufferingStateForSrvOpen
-title: RxIndicateChangeOfBufferingStateForSrvOpen function
+title: RxIndicateChangeOfBufferingStateForSrvOpen function (rxprocs.h)
 description: RxIndicateChangeOfBufferingStateForSrvOpen is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further.
 old-location: ifsk\rxindicatechangeofbufferingstateforsrvopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxIndicateChangeOfBufferingStateForSrvOpen
+- RxIndicateChangeOfBufferingStateForSrvOpen
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_STATE_ROUTINE
-title: PCAM_STATE_ROUTINE
+title: PCAM_STATE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
 old-location: stream\camrestorestate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	MyCamState
+- MyCamState
 product:
 - Windows
 targetos: Windows

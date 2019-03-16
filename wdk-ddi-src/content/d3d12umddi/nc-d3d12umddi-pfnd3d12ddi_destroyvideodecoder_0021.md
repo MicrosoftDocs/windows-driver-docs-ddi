@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEODECODER_0021
-title: PFND3D12DDI_DESTROYVIDEODECODER_0021
+title: PFND3D12DDI_DESTROYVIDEODECODER_0021 (d3d12umddi.h)
 description: Destroys the video decoder.
 old-location: display\pfnd3d12ddi_destroyvideodecoder_.htm
 ms.assetid: 97028FEB-A3C2-4C2F-B64E-07024BC3C382
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	PFND3D12DDI_DESTROYVIDEODECODER_0021
+- PFND3D12DDI_DESTROYVIDEODECODER_0021
 product:
 - Windows
 targetos: Windows

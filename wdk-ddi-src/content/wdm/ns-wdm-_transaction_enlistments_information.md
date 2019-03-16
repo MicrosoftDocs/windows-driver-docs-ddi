@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_ENLISTMENTS_INFORMATION
-title: "_TRANSACTION_ENLISTMENTS_INFORMATION"
+title: _TRANSACTION_ENLISTMENTS_INFORMATION (wdm.h)
 description: The TRANSACTION_ENLISTMENTS_INFORMATION structure contains information about the enlistments that are associated with a transaction object.
 old-location: kernel\transaction_enlistments_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRANSACTION_ENLISTMENTS_INFORMATION
+- TRANSACTION_ENLISTMENTS_INFORMATION
 product:
 - Windows
 targetos: Windows

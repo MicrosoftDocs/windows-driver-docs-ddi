@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
-title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
+title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer (portcls.h)
 description: Sets the current cursor position in the last audio data stream that was written to the audio buffer.
 old-location: audio\iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
+- IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
 product:
 - Windows
 targetos: Windows

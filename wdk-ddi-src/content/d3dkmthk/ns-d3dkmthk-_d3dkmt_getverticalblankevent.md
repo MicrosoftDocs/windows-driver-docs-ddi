@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETVERTICALBLANKEVENT
-title: _D3DKMT_GETVERTICALBLANKEVENT
+title: _D3DKMT_GETVERTICALBLANKEVENT (d3dkmthk.h)
 description: Used to get vertical blank events.
 ms.assetid: 938531c9-d8e4-47fb-81f6-7c5448ff3fb4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GETVERTICALBLANKEVENT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GETVERTICALBLANKEVENT
+- _D3DKMT_GETVERTICALBLANKEVENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

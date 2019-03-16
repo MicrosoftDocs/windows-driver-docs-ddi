@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReleaseSpinLock
-title: StorPortReleaseSpinLock function
+title: StorPortReleaseSpinLock function (storport.h)
 description: The StorPortReleaseSpinLock routine releases a spinlock acquired by StorPortAcquireSpinLock.
 old-location: storage\storportreleasespinlock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortReleaseSpinLock
+- StorPortReleaseSpinLock
 product:
 - Windows
 targetos: Windows

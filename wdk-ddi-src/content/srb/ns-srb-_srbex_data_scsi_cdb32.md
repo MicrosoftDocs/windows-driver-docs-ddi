@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_SCSI_CDB32
-title: "_SRBEX_DATA_SCSI_CDB32"
+title: _SRBEX_DATA_SCSI_CDB32 (srb.h)
 description: The SRBEX_DATA_SCSI_CDB32 structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb32.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA_SCSI_CDB32
+- SRBEX_DATA_SCSI_CDB32
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.SetupDeviceParameters
-title: IStillImageW::SetupDeviceParameters
+title: IStillImageW::SetupDeviceParameters (sti.h)
 description: The IStillImage::SetupDeviceParameters method allows clients of the IStillImage COM interface to modify a still image device's stored characteristics, if the device's bus type is unknown.
 old-location: image\istillimage_setupdeviceparameters.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.SetupDeviceParameters
+- IStillImageW.SetupDeviceParameters
 product:
 - Windows
 targetos: Windows

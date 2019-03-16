@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelineProgressReport
-title: IPrintPipelineProgressReport
+title: IPrintPipelineProgressReport (filterpipeline.h)
 description: A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.
 old-location: print\iprintpipelineprogressreport.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelineProgressReport
+- IPrintPipelineProgressReport
 product:
 - Windows
 targetos: Windows

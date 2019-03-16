@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsidef.__unnamed_enum_2
-title: ISCSI_AUTH_TYPES
+title: ISCSI_AUTH_TYPES (iscsidef.h)
 description: The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection.
 old-location: storage\iscsi_auth_types.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_AUTH_TYPES
+- ISCSI_AUTH_TYPES
 product:
 - Windows
 targetos: Windows

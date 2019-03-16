@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_INTEGRATEDDISPLAYFLAGS
-title: "_DXGK_INTEGRATEDDISPLAYFLAGS"
+title: _DXGK_INTEGRATEDDISPLAYFLAGS (d3dkmddi.h)
 description: Flags which describe simple properties of an integrated display.
 old-location: display\dxgk_integrateddisplayflags.htm
 ms.assetid: 4671B6C1-358A-4CC2-A6FC-0FBA0F26DB07
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_INTEGRATEDDISPLAYFLAGS
+- DXGK_INTEGRATEDDISPLAYFLAGS
 product:
 - Windows
 targetos: Windows

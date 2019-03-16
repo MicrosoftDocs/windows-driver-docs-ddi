@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_INFO
-title: "_STORAGE_TEMPERATURE_INFO"
+title: _STORAGE_TEMPERATURE_INFO (ntddstor.h)
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_temperature_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_TEMPERATURE_INFO
+- STORAGE_TEMPERATURE_INFO
 product:
 - Windows
 targetos: Windows

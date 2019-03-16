@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateKey
-title: ZwEnumerateKey function
+title: ZwEnumerateKey function (wdm.h)
 description: The ZwEnumerateKey routine returns information about a subkey of an open registry key.
 old-location: kernel\zwenumeratekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwEnumerateKey
--	NtEnumerateKey
+- ZwEnumerateKey
+- NtEnumerateKey
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.CreateInstanceOfMSXMLObject
-title: IPrintCoreHelper::CreateInstanceOfMSXMLObject
+title: IPrintCoreHelper::CreateInstanceOfMSXMLObject (prcomoem.h)
 description: The IPrintCoreHelper::CreateInstanceOfMSXMLObject method creates an instance of an MSXML 6.0 object by using the correct MSXML DLL.
 old-location: print\iprintcorehelper_createinstanceofmsxmlobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelper.CreateInstanceOfMSXMLObject
+- IPrintCoreHelper.CreateInstanceOfMSXMLObject
 product:
 - Windows
 targetos: Windows

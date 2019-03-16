@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedFlushSList
-title: StorPortInterlockedFlushSList function
+title: StorPortInterlockedFlushSList function (storport.h)
 description: Removes all items from a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: storage\storportinterlockedflushslist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInterlockedFlushSList
+- StorPortInterlockedFlushSList
 product:
 - Windows
 targetos: Windows

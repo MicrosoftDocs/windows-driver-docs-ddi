@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
-title: "_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
+title: _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR (ntddstor.h)
 description: The output buffer for the StorageDeviceIoCapabilityProperty as defined in STORAGE_PROPERTY_ID.
 old-location: storage\storage_device_io_capability_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
+- STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

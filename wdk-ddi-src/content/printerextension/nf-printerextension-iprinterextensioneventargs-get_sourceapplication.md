@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_SourceApplication
-title: IPrinterExtensionEventArgs::get_SourceApplication
+title: IPrinterExtensionEventArgs::get_SourceApplication (printerextension.h)
 description: Gets the name of the application that invoked the printer extension.
 old-location: print\iprinterextensioneventargs_sourceapplication.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEventArgs.SourceApplication
--	IPrinterExtensionEventArgs.get_SourceApplication
+- IPrinterExtensionEventArgs.SourceApplication
+- IPrinterExtensionEventArgs.get_SourceApplication
 product:
 - Windows
 targetos: Windows

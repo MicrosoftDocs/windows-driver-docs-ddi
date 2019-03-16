@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.GetDimensionality
-title: IIndexableConcept::GetDimensionality
+title: IIndexableConcept::GetDimensionality (dbgmodel.h)
 description: The GetDimensionality method returns the number of dimensions that the object is indexed in.
 ms.assetid: 6ae1e5d9-4b46-4129-a78a-aab2c60ba49c
 ms.date: 09/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IIndexableConcept.GetDimensionality
-product: Windows
+- IIndexableConcept.GetDimensionality
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

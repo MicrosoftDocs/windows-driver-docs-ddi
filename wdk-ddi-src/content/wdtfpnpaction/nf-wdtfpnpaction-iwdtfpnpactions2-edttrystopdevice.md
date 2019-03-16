@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDevice
-title: IWDTFPNPActions2::EDTTryStopDevice
+title: IWDTFPNPActions2::EDTTryStopDevice (wdtfpnpaction.h)
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfpnpaction.h
+- wdtfpnpaction.h
 api_name:
--	IWDTFPNPActions2.EDTTryStopDevice
+- IWDTFPNPActions2.EDTTryStopDevice
 product:
 - Windows
 targetos: Windows

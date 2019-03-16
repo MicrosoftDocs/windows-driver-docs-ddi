@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Drain
-title: IWDFIoQueue::Drain
+title: IWDFIoQueue::Drain (wudfddi.h)
 description: The Drain method directs the queue to reject new incoming I/O requests and allow already-queued requests to be delivered to the driver for processing.
 old-location: wdf\iwdfioqueue_drain.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.Drain
+- IWDFIoQueue.Drain
 product:
 - Windows
 targetos: Windows

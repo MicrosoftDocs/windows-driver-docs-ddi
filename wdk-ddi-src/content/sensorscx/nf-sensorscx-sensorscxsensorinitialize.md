@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorInitialize
-title: SensorsCxSensorInitialize function
+title: SensorsCxSensorInitialize function (sensorscx.h)
 description: This function sets the enumeration properties of a sensor.
 old-location: sensors\sensorscxsensorinitialize.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	SensorsCxSensorInitialize
+- SensorsCxSensorInitialize
 product:
 - Windows
 targetos: Windows

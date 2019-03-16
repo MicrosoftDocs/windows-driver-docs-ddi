@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromGdiDisplayName
-title: D3DKMTOpenAdapterFromGdiDisplayName function
+title: D3DKMTOpenAdapterFromGdiDisplayName function (d3dkmthk.h)
 description: The D3DKMTOpenAdapterFromGdiDisplayName function maps a GDI device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromgdidisplayname.htm
 ms.assetid: 56656fc2-785c-4021-9864-e4c152551973
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-DX-D3DKmt-l1-1-0.dll
--	API-MS-Win-DX-D3DKmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-DX-D3DKmt-l1-1-0.dll
+- API-MS-Win-DX-D3DKmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenAdapterFromGdiDisplayName
+- D3DKMTOpenAdapterFromGdiDisplayName
 product:
 - Windows
 targetos: Windows

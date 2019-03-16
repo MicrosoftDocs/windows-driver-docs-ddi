@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PERF_SET_STATE
-title: "_PEP_PPM_PERF_SET_STATE"
+title: _PEP_PPM_PERF_SET_STATE (pepfx.h)
 description: Used in the PEP_NOTIFY_PPM_PERF_SET notification at runtime to set the current operating performance of the processor.  .
 old-location: kernel\pep_ppm_perf_set_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pepfx.h
+- Pepfx.h
 api_name:
--	PEP_PPM_PERF_SET_STATE
+- PEP_PPM_PERF_SET_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR
-title: "_WINBIO_BIR"
+title: _WINBIO_BIR (winbio_types.h)
 description: The WINBIO_BIR structure is the root of the BIR (Biometric Information Record). It contains the size and offset of any other data elements in the BIR.
 old-location: biometric\winbio_bir.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_types.h
+- winbio_types.h
 api_name:
--	WINBIO_BIR
+- WINBIO_BIR
 product:
 - Windows
 targetos: Windows

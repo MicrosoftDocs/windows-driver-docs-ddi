@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.WRITE_PORT_USHORT
-title: WRITE_PORT_USHORT function
+title: WRITE_PORT_USHORT function (miniport.h)
 description: The WRITE_PORT_USHORT routine writes a USHORT value to the specified port address.
 old-location: kernel\write_port_ushort.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	WRITE_PORT_USHORT
+- WRITE_PORT_USHORT
 product:
 - Windows
 targetos: Windows

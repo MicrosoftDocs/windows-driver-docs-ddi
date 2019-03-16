@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
-title: "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT"
+title: _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT (ntifs.h)
 description: The FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure specifies the Non-Uniform Memory Architecture (NUMA) node the volume resides on.
 old-location: ifsk\fsctl_query_volume_numa_info_output_.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
+- FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxwdfdevice._UDECX_WDF_DEVICE_CONFIG
-title: "_UDECX_WDF_DEVICE_CONFIG"
+title: _UDECX_WDF_DEVICE_CONFIG (udecxwdfdevice.h)
 description: Contains pointers to event callback functions implemented by the UDE client driver for a USB host controller. Initialize this structure by calling UDECX_WDF_DEVICE_CONFIG_INIT.
 old-location: buses\udecx_wdf_device_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	udecxwdfdevice.h
+- udecxwdfdevice.h
 api_name:
--	UDECX_WDF_DEVICE_CONFIG
+- UDECX_WDF_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

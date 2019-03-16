@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetSystemPortNumber
-title: StorPortGetSystemPortNumber function
+title: StorPortGetSystemPortNumber function (storport.h)
 description: The StorPortGetSystemPortNumber routine retrieves the system assigned port number for a storage adapter.
 old-location: storage\storportgetsystemportnumber.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetSystemPortNumber
+- StorPortGetSystemPortNumber
 product:
 - Windows
 targetos: Windows

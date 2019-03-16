@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.IsStatusSuccess
-title: IWDTFAction2::IsStatusSuccess
+title: IWDTFAction2::IsStatusSuccess (wdtf.h)
 description: Gets a value that indicates whether the last operation was successful.
 old-location: dtf\iwdtfaction2_isstatussuccess.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFAction2.IsStatusSuccess
+- IWDTFAction2.IsStatusSuccess
 product:
 - Windows
 targetos: Windows

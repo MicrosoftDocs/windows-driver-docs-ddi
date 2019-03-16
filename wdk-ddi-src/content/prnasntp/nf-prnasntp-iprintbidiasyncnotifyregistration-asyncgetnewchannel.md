@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
-title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
+title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel (prnasntp.h)
 description: 
 old-location: print\iprintbidiasyncnotifyregistration_asyncgetnewchannel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
+- IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_AdapterEvent
-title: "_MSFC_AdapterEvent"
+title: _MSFC_AdapterEvent (hbapiwmi.h)
 description: The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the T11 committee's Fibre Channel HBA API specification to report adapter events to WMI clients that have registered to be notified of these events.
 old-location: storage\msfc_adapterevent.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_AdapterEvent
+- MSFC_AdapterEvent
 product:
 - Windows
 targetos: Windows

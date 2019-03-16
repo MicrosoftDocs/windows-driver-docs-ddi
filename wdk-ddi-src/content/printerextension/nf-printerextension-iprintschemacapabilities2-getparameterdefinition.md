@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
-title: IPrintSchemaCapabilities2::GetParameterDefinition
+title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities2.GetParameterDefinition
+- IPrintSchemaCapabilities2.GetParameterDefinition
 product:
 - Windows
 targetos: Windows

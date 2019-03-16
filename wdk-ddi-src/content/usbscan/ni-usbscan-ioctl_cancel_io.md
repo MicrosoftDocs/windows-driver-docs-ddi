@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_CANCEL_IO
-title: IOCTL_CANCEL_IO
+title: IOCTL_CANCEL_IO (usbscan.h)
 description: Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_cancel_io.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_CANCEL_IO
+- IOCTL_CANCEL_IO
 product:
 - Windows
 targetos: Windows

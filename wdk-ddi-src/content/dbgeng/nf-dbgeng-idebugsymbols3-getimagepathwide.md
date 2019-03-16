@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetImagePathWide
-title: IDebugSymbols3::GetImagePathWide
+title: IDebugSymbols3::GetImagePathWide (dbgeng.h)
 description: The GetImagePathWide method returns the executable image path.
 old-location: debugger\getimagepathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetImagePathWide
+- IDebugSymbols3.GetImagePathWide
 product:
 - Windows
 targetos: Windows

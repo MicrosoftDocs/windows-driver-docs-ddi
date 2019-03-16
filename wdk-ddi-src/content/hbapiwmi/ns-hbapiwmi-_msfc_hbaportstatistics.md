@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_HBAPortStatistics
-title: "_MSFC_HBAPortStatistics"
+title: _MSFC_HBAPortStatistics (hbapiwmi.h)
 description: The MSFC_HBAPortStatistics structure contains statistics information about a port.
 old-location: storage\msfc_hbaportstatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_HBAPortStatistics
+- MSFC_HBAPortStatistics
 product:
 - Windows
 targetos: Windows

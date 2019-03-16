@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
-title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
+title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030 (d3d12umddi.h)
 description: The crypto session transform operations.
 old-location: display\d3d12ddi-crypto-session-transform-operation-0030.htm
 ms.assetid: 20d49b34-436a-4bc3-9b32-25f03478c90a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
+- D3D12DDI_CRYPTO_SESSION_TRANSFORM_OPERATION_0030
 product:
 - Windows
 targetos: Windows

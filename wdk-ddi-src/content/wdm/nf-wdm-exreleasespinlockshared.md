@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseSpinLockShared
-title: ExReleaseSpinLockShared function
+title: ExReleaseSpinLockShared function (wdm.h)
 description: The ExReleaseSpinLockShared routine releases ownership of a spin lock that the caller previously acquired for shared access, and restores the IRQL to its original value.
 old-location: kernel\exreleasespinlockshared_.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DISPATCH_LEVEL (See Remarks.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ExReleaseSpinLockShared
+- ExReleaseSpinLockShared
 product:
 - Windows
 targetos: Windows

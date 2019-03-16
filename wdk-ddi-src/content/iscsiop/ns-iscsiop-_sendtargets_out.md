@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SendTargets_OUT
-title: "_SendTargets_OUT"
+title: _SendTargets_OUT (iscsiop.h)
 description: The SendTargets_OUT structure holds the output data for the SendTargets method.
 old-location: storage\sendtargets_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SendTargets_OUT
+- SendTargets_OUT
 product:
 - Windows
 targetos: Windows

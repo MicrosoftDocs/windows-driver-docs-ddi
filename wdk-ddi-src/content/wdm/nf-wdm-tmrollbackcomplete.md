@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRollbackComplete
-title: TmRollbackComplete function
+title: TmRollbackComplete function (wdm.h)
 description: The TmRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\tmrollbackcomplete.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmRollbackComplete
+- TmRollbackComplete
 product:
 - Windows
 targetos: Windows

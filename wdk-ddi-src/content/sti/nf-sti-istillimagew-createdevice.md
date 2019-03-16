@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.CreateDevice
-title: IStillImageW::CreateDevice
+title: IStillImageW::CreateDevice (sti.h)
 description: The IStillImage::CreateDevice method creates an instance of the COM object that defines the IStiDevice COM Interface, and returns a pointer to the interface.
 old-location: image\istillimage_createdevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.CreateDevice
+- IStillImageW.CreateDevice
 product:
 - Windows
 targetos: Windows

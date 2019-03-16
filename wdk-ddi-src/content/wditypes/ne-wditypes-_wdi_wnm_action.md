@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_WNM_ACTION
-title: "_WDI_WNM_ACTION"
+title: _WDI_WNM_ACTION (wditypes.h)
 description: The WDI_WNM_ACTION enumeration defines the message type for 802.11v BSS Transition Management action frames.
 old-location: netvista\wdi_wnm_action.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_WNM_ACTION
+- WDI_WNM_ACTION
 product:
 - Windows
 targetos: Windows

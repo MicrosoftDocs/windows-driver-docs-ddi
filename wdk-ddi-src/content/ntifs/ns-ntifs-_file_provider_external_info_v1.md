@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PROVIDER_EXTERNAL_INFO_V1
-title: "_FILE_PROVIDER_EXTERNAL_INFO_V1"
+title: _FILE_PROVIDER_EXTERNAL_INFO_V1 (ntifs.h)
 description: The FILE_PROVIDER_EXTERNAL_INFO_V1 structure defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: ifsk\file_provider_external_info_v1.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_PROVIDER_EXTERNAL_INFO_V1
+- FILE_PROVIDER_EXTERNAL_INFO_V1
 product:
 - Windows
 targetos: Windows

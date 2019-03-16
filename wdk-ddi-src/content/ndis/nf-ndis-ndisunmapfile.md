@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisUnmapFile
-title: NdisUnmapFile function
+title: NdisUnmapFile function (ndis.h)
 description: The NdisUnmapFile function releases a virtual address mapping of a file previously set up with the NdisMapFile function.
 old-location: netvista\ndisunmapfile.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisUnmapFile
+- NdisUnmapFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_13
-title: KSDS3D_BUFFER_ALL
+title: KSDS3D_BUFFER_ALL (ksmedia.h)
 description: The KSDS3D_BUFFER_ALL structure specifies all the 3D characteristics of a DirectSound 3D buffer.
 old-location: audio\ksds3d_buffer_all.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDS3D_BUFFER_ALL
+- KSDS3D_BUFFER_ALL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIEWPORTINFO
-title: "_D3DDDIARG_VIEWPORTINFO"
+title: _D3DDDIARG_VIEWPORTINFO (d3dumddi.h)
 description: The D3DDDIARG_VIEWPORTINFO structure describes the location and size of a view-clipping rectangle.
 old-location: display\d3dddiarg_viewportinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_VIEWPORTINFO
+- D3DDDIARG_VIEWPORTINFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:npivwmi._MSFC_NPIVLUNMappingInformation
-title: "_MSFC_NPIVLUNMappingInformation"
+title: _MSFC_NPIVLUNMappingInformation (npivwmi.h)
 description: The MSFC_NPIVLUNMappingInformation structure contains the Logical Unit Number (LUN) to virtual port mapping information.
 old-location: storage\msfc_npivlunmappinginformation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	npivwmi.h
+- npivwmi.h
 api_name:
--	MSFC_NPIVLUNMappingInformation
+- MSFC_NPIVLUNMappingInformation
 product:
 - Windows
 targetos: Windows

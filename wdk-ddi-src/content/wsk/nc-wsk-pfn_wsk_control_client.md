@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONTROL_CLIENT
-title: PFN_WSK_CONTROL_CLIENT
+title: PFN_WSK_CONTROL_CLIENT (wsk.h)
 description: The WskControlClient function performs control operations on a WSK client object.
 old-location: netvista\wskcontrolclient.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskControlClient
+- WskControlClient
 product:
 - Windows
 targetos: Windows

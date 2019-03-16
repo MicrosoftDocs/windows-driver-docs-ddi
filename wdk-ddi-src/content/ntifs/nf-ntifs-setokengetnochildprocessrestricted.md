@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenGetNoChildProcessRestricted
-title: SeTokenGetNoChildProcessRestricted function
+title: SeTokenGetNoChildProcessRestricted function (ntifs.h)
 description: The SeTokenGetNoChildProcessRestricted routine determines the state of the no child process mitigation. It is not possible to be enforced and audit-only at the same time.
 old-location: ifsk\setokengetnochildprocessrestricted.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeTokenGetNoChildProcessRestricted
+- SeTokenGetNoChildProcessRestricted
 product:
 - Windows
 targetos: Windows

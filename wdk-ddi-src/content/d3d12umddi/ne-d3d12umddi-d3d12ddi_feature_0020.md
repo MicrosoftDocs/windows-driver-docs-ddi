@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_FEATURE_0020
-title: D3D12DDI_FEATURE_0020
+title: D3D12DDI_FEATURE_0020 (d3d12umddi.h)
 description: Contains available features.
 old-location: display\d3d12ddi_feature_0020.htm
 ms.assetid: 93192DAD-D81E-4A2E-A74B-66F7F5BA0B2D
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_FEATURE_0020
+- D3D12DDI_FEATURE_0020
 product:
 - Windows
 targetos: Windows

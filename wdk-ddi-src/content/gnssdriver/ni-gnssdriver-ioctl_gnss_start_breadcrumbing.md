@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_START_BREADCRUMBING
-title: IOCTL_GNSS_START_BREADCRUMBING
+title: IOCTL_GNSS_START_BREADCRUMBING (gnssdriver.h)
 description: The IOCTL_GNSS_START_BREADCRUMBING control code is used to start and configure breadcrumbing.
 old-location: gnss\ioctl_gnss_start_breadcrumbing.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	IOCTL_GNSS_START_BREADCRUMBING
+- IOCTL_GNSS_START_BREADCRUMBING
 product:
 - Windows
 targetos: Windows

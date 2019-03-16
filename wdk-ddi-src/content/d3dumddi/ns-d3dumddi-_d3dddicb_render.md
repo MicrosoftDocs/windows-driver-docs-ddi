@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RENDER
-title: "_D3DDDICB_RENDER"
+title: _D3DDDICB_RENDER (d3dumddi.h)
 description: The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dddicb_render.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_RENDER
+- D3DDDICB_RENDER
 product:
 - Windows
 targetos: Windows

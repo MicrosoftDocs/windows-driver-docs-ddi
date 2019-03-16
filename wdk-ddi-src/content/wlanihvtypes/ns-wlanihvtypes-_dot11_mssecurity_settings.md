@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihvtypes._DOT11_MSSECURITY_SETTINGS
-title: "_DOT11_MSSECURITY_SETTINGS"
+title: _DOT11_MSSECURITY_SETTINGS (wlanihvtypes.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_mssecurity_settings.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihvtypes.h
+- wlanihvtypes.h
 api_name:
--	DOT11_MSSECURITY_SETTINGS
+- DOT11_MSSECURITY_SETTINGS
 product:
 - Windows
 targetos: Windows

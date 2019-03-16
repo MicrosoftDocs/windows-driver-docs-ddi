@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetPebAddress
-title: GetPebAddress function
+title: GetPebAddress function (wdbgexts.h)
 description: The GetPebAddress function returns the address of the process environment block (PEB) for a system process.
 old-location: debugger\getpebaddress.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetPebAddress
+- GetPebAddress
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GLITCH_DURATION
-title: "_DXGK_GLITCH_DURATION"
+title: _DXGK_GLITCH_DURATION (d3dkmddi.h)
 description: Enumeration that describes the duration of a user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_duration.htm
 ms.assetid: 8B6597A7-D652-4143-9320-7FB8E98FE8EC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GLITCH_DURATION
+- DXGK_GLITCH_DURATION
 product:
 - Windows
 targetos: Windows

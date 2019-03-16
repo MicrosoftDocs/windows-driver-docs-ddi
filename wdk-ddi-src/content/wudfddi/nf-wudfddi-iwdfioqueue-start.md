@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Start
-title: IWDFIoQueue::Start
+title: IWDFIoQueue::Start (wudfddi.h)
 description: The Start method enables an I/O queue to start receiving new I/O requests and delivering them to a driver.
 old-location: wdf\iwdfioqueue_start.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.Start
+- IWDFIoQueue.Start
 product:
 - Windows
 targetos: Windows

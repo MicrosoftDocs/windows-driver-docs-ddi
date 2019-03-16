@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE
-title: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE
+title: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE (dot11wdi.h)
 description: The MiniportWdiAdapterHangDiagnose handler function is used to collect hardware control register states and optionally full firmware state.
 old-location: netvista\miniportwdiadapterhangdiagnose.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiAdapterHangDiagnose
+- MiniportWdiAdapterHangDiagnose
 product:
 - Windows
 targetos: Windows

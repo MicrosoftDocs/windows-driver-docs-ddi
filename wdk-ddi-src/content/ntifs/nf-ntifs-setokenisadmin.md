@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsAdmin
-title: SeTokenIsAdmin function
+title: SeTokenIsAdmin function (ntifs.h)
 description: The SeTokenIsAdmin routine determines whether a token contains the local administrators group.
 old-location: ifsk\setokenisadmin.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeTokenIsAdmin
+- SeTokenIsAdmin
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEnumAdapters
-title: D3DKMTEnumAdapters function
+title: D3DKMTEnumAdapters function (d3dkmthk.h)
 description: Enumerates all graphics adapters on the system.
 old-location: display\d3dkmtenumadapters.htm
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTEnumAdapters
+- D3DKMTEnumAdapters
 product:
 - Windows
 targetos: Windows

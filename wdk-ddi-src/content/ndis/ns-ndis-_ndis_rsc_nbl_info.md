@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RSC_NBL_INFO
-title: "_NDIS_RSC_NBL_INFO"
+title: _NDIS_RSC_NBL_INFO (ndis.h)
 description: The NDIS_RSC_NBL_INFO union specifies receive segment coalescing (RSC) counter information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_rsc_nbl_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_RSC_NBL_INFO
+- NDIS_RSC_NBL_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
-title: PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED
+title: PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED (usbbusif.h)
 description: The USB_BUSIFFN_IS_DEVICE_HIGH_SPEED routine returns TRUE if the device is operating at high speed.
 old-location: buses\isdevicehighspeed.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	IsDeviceHighSpeed
+- IsDeviceHighSpeed
 product:
 - Windows
 targetos: Windows

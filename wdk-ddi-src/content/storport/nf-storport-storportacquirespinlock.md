@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAcquireSpinLock
-title: StorPortAcquireSpinLock function
+title: StorPortAcquireSpinLock function (storport.h)
 description: The StorPortAcquireSpinLock routine acquires the specified spin lock.
 old-location: storage\storportacquirespinlock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAcquireSpinLock
+- StorPortAcquireSpinLock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetBusData
-title: ScsiPortGetBusData function
+title: ScsiPortGetBusData function (srb.h)
 description: The ScsiPortGetBusData routine returns bus-type-specific configuration information that a miniport driver's HwScsiFindAdapter routine might use to determine whether it supports a particular adapter on a particular I/O bus, and to configure the HBA if it does.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetbusdata.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortGetBusData
+- ScsiPortGetBusData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.SetActivityId
-title: IWDFIoRequest3::SetActivityId
+title: IWDFIoRequest3::SetActivityId (wudfddi.h)
 description: The SetActivityId method associates an activity identifier with an I/O request.
 old-location: wdf\iwdfiorequest3_setactivityid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest3.SetActivityId
+- IWDFIoRequest3.SetActivityId
 product:
 - Windows
 targetos: Windows

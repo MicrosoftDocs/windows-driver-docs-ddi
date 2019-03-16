@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_FLAGS_0030
-title: D3D12DDI_CRYPTO_SESSION_FLAGS_0030
+title: D3D12DDI_CRYPTO_SESSION_FLAGS_0030 (d3d12umddi.h)
 description: The crypto session flags.
 old-location: display\d3d12ddi-crypto-session-flags-0030.htm
 ms.assetid: 0a799227-9b37-45f6-bded-e56c439e465f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_CRYPTO_SESSION_FLAGS_0030
+- D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_MAPPING_FLAGS
-title: D3D12DDI_RESOURCE_MAPPING_FLAGS
+title: D3D12DDI_RESOURCE_MAPPING_FLAGS (d3d12umddi.h)
 description: Specifies the resource mapping flags.
 ms.assetid: 2fe66683-3710-4ac6-9e98-3927c563d463
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RESOURCE_MAPPING_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RESOURCE_MAPPING_FLAGS
+- D3D12DDI_RESOURCE_MAPPING_FLAGS
 product:
 - Windows
 targetos: Windows

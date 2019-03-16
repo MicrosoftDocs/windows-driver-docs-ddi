@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
-title: "_L2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
+title: _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL (bthddi.h)
 description: The L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure describes configuration parameters for enhanced retransmission mode and streaming mode.
 old-location: bltooth\l2cap_retransmission_and_flow_control.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthddi.h
+- Bthddi.h
 api_name:
--	L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
+- L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 product:
 - Windows
 targetos: Windows

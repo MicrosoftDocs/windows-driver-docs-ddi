@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject2
-title: D3DKMTWaitForSynchronizationObject2 function
+title: D3DKMTWaitForSynchronizationObject2 function (d3dkmthk.h)
 description: The D3DKMTWaitForSynchronizationObject2 function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject2.htm
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTWaitForSynchronizationObject2
+- D3DKMTWaitForSynchronizationObject2
 product:
 - Windows
 targetos: Windows

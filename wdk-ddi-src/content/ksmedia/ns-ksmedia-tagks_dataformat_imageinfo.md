@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_IMAGEINFO
-title: tagKS_DATAFORMAT_IMAGEINFO
+title: tagKS_DATAFORMAT_IMAGEINFO (ksmedia.h)
 description: Specifies an image data format that is used for an independent image pin (or stream).
 old-location: stream\ks_dataformat_imageinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KS_DATAFORMAT_IMAGEINFO
+- KS_DATAFORMAT_IMAGEINFO
 product:
 - Windows
 targetos: Windows

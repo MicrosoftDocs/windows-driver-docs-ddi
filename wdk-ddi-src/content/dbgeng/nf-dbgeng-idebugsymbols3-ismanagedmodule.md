@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.IsManagedModule
-title: IDebugSymbols3::IsManagedModule
+title: IDebugSymbols3::IsManagedModule (dbgeng.h)
 description: Checks whether the engine is using managed debugging support when it retrieves information for a module.
 old-location: debugger\idebugsymbols3_ismanagedmodule.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.IsManagedModule
+- IDebugSymbols3.IsManagedModule
 product:
 - Windows
 targetos: Windows

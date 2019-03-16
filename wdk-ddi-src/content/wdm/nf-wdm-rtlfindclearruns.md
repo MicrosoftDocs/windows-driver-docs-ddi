@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearRuns
-title: RtlFindClearRuns function
+title: RtlFindClearRuns function (wdm.h)
 description: The RtlFindClearRuns routine finds the specified number of runs of clear bits within a given bitmap.
 old-location: kernel\rtlfindclearruns.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindClearRuns
+- RtlFindClearRuns
 product:
 - Windows
 targetos: Windows

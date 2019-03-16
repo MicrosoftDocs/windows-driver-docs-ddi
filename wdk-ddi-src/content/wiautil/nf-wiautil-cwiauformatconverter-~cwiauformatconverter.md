@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.~CWiauFormatConverter
-title: CWiauFormatConverter::~CWiauFormatConverter
+title: CWiauFormatConverter::~CWiauFormatConverter (wiautil.h)
 description: The CWiauFormatConverter::~CWiauFormatConverter method is the destructor for the CWiauFormatConverter class.
 old-location: image\cwiauformatconverter__cwiauformatconverter.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauFormatConverter.~CWiauFormatConverter
+- CWiauFormatConverter.~CWiauFormatConverter
 product:
 - Windows
 targetos: Windows

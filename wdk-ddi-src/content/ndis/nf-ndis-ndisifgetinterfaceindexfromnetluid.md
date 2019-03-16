@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfGetInterfaceIndexFromNetLuid
-title: NdisIfGetInterfaceIndexFromNetLuid function
+title: NdisIfGetInterfaceIndexFromNetLuid function (ndis.h)
 description: The NdisIfGetInterfaceIndexFromNetLuid function gets the network interface index that is associated with a NET_LUID value.
 old-location: netvista\ndisifgetinterfaceindexfromnetluid.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfGetInterfaceIndexFromNetLuid
+- NdisIfGetInterfaceIndexFromNetLuid
 product:
 - Windows
 targetos: Windows

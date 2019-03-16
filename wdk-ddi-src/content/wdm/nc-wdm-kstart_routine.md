@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KSTART_ROUTINE
-title: KSTART_ROUTINE
+title: KSTART_ROUTINE (wdm.h)
 description: The ThreadStart routine provides an entry point for a driver-created system thread.
 old-location: kernel\threadstart.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ThreadStart
+- ThreadStart
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.TTDownloadMethod
-title: IPrintOemUni::TTDownloadMethod
+title: IPrintOemUni::TTDownloadMethod (prcomoem.h)
 description: The IPrintOemUni::TTDownloadMethod method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.
 old-location: print\iprintoemuni_ttdownloadmethod.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.TTDownloadMethod
+- IPrintOemUni.TTDownloadMethod
 product:
 - Windows
 targetos: Windows

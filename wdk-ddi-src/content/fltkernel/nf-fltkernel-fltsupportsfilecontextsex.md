@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsFileContextsEx
-title: FltSupportsFileContextsEx function
+title: FltSupportsFileContextsEx function (fltkernel.h)
 description: The FltSupportsFileContextsEx routine determines whether the file system or the filter manager support file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontextsex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSupportsFileContextsEx
+- FltSupportsFileContextsEx
 product:
 - Windows
 targetos: Windows

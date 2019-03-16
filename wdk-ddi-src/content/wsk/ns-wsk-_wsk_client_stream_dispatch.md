@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_STREAM_DISPATCH
-title: "_WSK_CLIENT_STREAM_DISPATCH"
+title: _WSK_CLIENT_STREAM_DISPATCH (wsk.h)
 description: The WSK_CLIENT_STREAM_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a stream socket.
 old-location: netvista\wsk_client_stream_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_CLIENT_STREAM_DISPATCH
+- WSK_CLIENT_STREAM_DISPATCH
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterBufferUlong
-title: VideoPortWriteRegisterBufferUlong function
+title: VideoPortWriteRegisterBufferUlong function (video.h)
 description: The VideoPortWriteRegisterBufferUlong function writes a number of ULONG values to a mapped register.
 old-location: display\videoportwriteregisterbufferulong.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWriteRegisterBufferUlong
+- VideoPortWriteRegisterBufferUlong
 product:
 - Windows
 targetos: Windows

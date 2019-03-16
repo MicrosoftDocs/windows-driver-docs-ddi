@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUSPENDCONTEXT
-title: _DXGKARG_SUSPENDCONTEXT
+title: _DXGKARG_SUSPENDCONTEXT (d3dkmddi.h)
 description: Arguments used in the DxgkddiSuspendContext callback function.
 ms.assetid: 3ca4dc90-55b2-4b5d-8f58-0967e817a26d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SUSPENDCONTEXT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_SUSPENDCONTEXT
+- _DXGKARG_SUSPENDCONTEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

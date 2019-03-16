@@ -1,6 +1,6 @@
 ---
 UID: NS:lamp.LAMP_INTENSITY_COLOR
-title: LAMP_INTENSITY_COLOR
+title: LAMP_INTENSITY_COLOR (lamp.h)
 description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_COLOR and IOCTL_LAMP_SET_INTENSITY_COLOR.
 old-location: stream\lamp_intensity_color.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	LAMP_INTENSITY_COLOR
+- LAMP_INTENSITY_COLOR
 product:
 - Windows
 targetos: Windows

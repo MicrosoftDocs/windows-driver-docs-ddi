@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NEIGHBOR_OFFLOAD_STATE_DELEGATED
-title: "_NEIGHBOR_OFFLOAD_STATE_DELEGATED"
+title: _NEIGHBOR_OFFLOAD_STATE_DELEGATED (ndischimney.h)
 description: The NEIGHBOR_OFFLOAD_STATE_DELGATED structure contains the delegated variable of a neighbor state object.
 old-location: netvista\neighbor_offload_state_delegated.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NEIGHBOR_OFFLOAD_STATE_DELEGATED
+- NEIGHBOR_OFFLOAD_STATE_DELEGATED
 product:
 - Windows
 targetos: Windows

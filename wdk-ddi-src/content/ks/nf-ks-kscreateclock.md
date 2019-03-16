@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateClock
-title: KsCreateClock function
+title: KsCreateClock function (ks.h)
 description: The KsCreateClock function creates a handle to a clock instance.
 old-location: stream\kscreateclock.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsCreateClock
+- KsCreateClock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
-title: PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
+title: PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS (d3d12umddi.h)
 description: Implemented by the client driver to check multi-sample quality levels.
 ms.assetid: 50197de3-654f-47d1-9213-d10ac78c0299
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
+- PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS
 product: 
 - Windows
 targetos: Windows

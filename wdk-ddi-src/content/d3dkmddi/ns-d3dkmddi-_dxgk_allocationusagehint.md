@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONUSAGEHINT
-title: "_DXGK_ALLOCATIONUSAGEHINT"
+title: _DXGK_ALLOCATIONUSAGEHINT (d3dkmddi.h)
 description: The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage and version information that is used as a hint about how to use an allocation.
 old-location: display\dxgk_allocationusagehint.htm
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_ALLOCATIONUSAGEHINT
+- DXGK_ALLOCATIONUSAGEHINT
 product:
 - Windows
 targetos: Windows

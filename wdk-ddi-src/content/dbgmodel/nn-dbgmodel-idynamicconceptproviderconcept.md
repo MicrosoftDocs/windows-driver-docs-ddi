@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDynamicConceptProviderConcept
-title: IDynamicConceptProviderConcept
+title: IDynamicConceptProviderConcept (dbgmodel.h)
 description: If a client wants to take over the storage of keys and values for an object, it can implement this concept interface.
 ms.assetid: b3cb8b59-ea20-4db7-badc-25dac000bcaa
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDynamicConceptProviderConcept
-product: Windows
+- IDynamicConceptProviderConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

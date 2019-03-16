@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._UCX_ROOTHUB_CONFIG
-title: "_UCX_ROOTHUB_CONFIG"
+title: _UCX_ROOTHUB_CONFIG (ucxroothub.h)
 description: Contains pointers to event callback functions for creating the root hub by calling UcxRootHubCreate. Initialize this structure by calling UCX_ROOTHUB_CONFIG_INIT initialization function (see Ucxclass.h).
 old-location: buses\_ucx_roothub_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	UCX_ROOTHUB_CONFIG
+- UCX_ROOTHUB_CONFIG
 product:
 - Windows
 targetos: Windows

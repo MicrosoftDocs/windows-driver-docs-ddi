@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlWriteRegistryValue
-title: RtlWriteRegistryValue function
+title: RtlWriteRegistryValue function (wdm.h)
 description: The RtlWriteRegistryValue routine writes caller-supplied data into the registry along the specified relative path at the given value name.
 old-location: kernel\rtlwriteregistryvalue.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlWriteRegistryValue
+- RtlWriteRegistryValue
 product:
 - Windows
 targetos: Windows

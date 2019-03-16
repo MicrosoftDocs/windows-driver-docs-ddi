@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaDeregisterProvider
-title: NetDmaDeregisterProvider function
+title: NetDmaDeregisterProvider function (netdma.h)
 description: The NetDmaDeregisterProvider function deregisters a DMA provider.
 old-location: netvista\netdmaderegisterprovider.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaDeregisterProvider
+- NetDmaDeregisterProvider
 product:
 - Windows
 targetos: Windows

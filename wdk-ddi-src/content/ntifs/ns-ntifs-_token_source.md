@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_SOURCE
-title: "_TOKEN_SOURCE"
+title: _TOKEN_SOURCE (ntifs.h)
 description: TOKEN_SOURCE identifies the source of an access token.
 old-location: ifsk\token_source.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_SOURCE
+- TOKEN_SOURCE
 product:
 - Windows
 targetos: Windows

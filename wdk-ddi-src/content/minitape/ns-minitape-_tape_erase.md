@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_ERASE
-title: "_TAPE_ERASE"
+title: _TAPE_ERASE (minitape.h)
 description: The TAPE_ERASE structure is used in conjunction with the IOCTL_TAPE_ERASE request to erase the current tape partition.
 old-location: storage\tape_erase.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddtape.h
+- ntddtape.h
 api_name:
--	TAPE_ERASE
+- TAPE_ERASE
 product:
 - Windows
 targetos: Windows

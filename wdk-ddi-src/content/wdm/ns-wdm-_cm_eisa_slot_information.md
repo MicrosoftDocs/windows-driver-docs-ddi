@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_EISA_SLOT_INFORMATION
-title: "_CM_EISA_SLOT_INFORMATION"
+title: _CM_EISA_SLOT_INFORMATION (wdm.h)
 description: The CM_EISA_SLOT_INFORMATION structure defines EISA configuration header information returned by HalGetBusData for the input BusDataType = EisaConfiguration, or by HalGetBusDataByOffset for the inputs BusDataType = EisaConfiguration and Offset = 0, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_slot_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CM_EISA_SLOT_INFORMATION
+- CM_EISA_SLOT_INFORMATION
 product:
 - Windows
 targetos: Windows

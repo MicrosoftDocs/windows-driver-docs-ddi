@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoSetSystemWake
-title: PoSetSystemWake function
+title: PoSetSystemWake function (wdm.h)
 description: The PoSetSystemWake routine marks the specified IRP as one that contributed to waking the system from a sleep state.
 old-location: kernel\posetsystemwake.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoSetSystemWake
+- PoSetSystemWake
 product:
 - Windows
 targetos: Windows

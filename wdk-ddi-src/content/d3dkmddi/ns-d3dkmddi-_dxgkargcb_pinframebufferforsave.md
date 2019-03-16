@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_PINFRAMEBUFFERFORSAVE
-title: _DXGKARGCB_PINFRAMEBUFFERFORSAVE
+title: _DXGKARGCB_PINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: Arguments used by the DxgkcbPinFrameBufferForSave callback function, to pin frame buffer for save.
 ms.assetid: 7c151074-7ac1-42b2-84ae-78ae67087b44
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_PINFRAMEBUFFERFORSAVE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_PINFRAMEBUFFERFORSAVE
+- _DXGKARGCB_PINFRAMEBUFFERFORSAVE
 product: 
 - Windows
 targetos: Windows

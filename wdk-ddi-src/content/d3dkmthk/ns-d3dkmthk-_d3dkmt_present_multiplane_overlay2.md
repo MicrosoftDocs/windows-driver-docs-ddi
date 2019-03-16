@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_MULTIPLANE_OVERLAY2
-title: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY2
+title: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY2 (d3dkmthk.h)
 description: Contains present multiplane overlay information.
 ms.assetid: f0dbe6dc-d060-4322-9b5a-1756b1f59f0c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PRESENT_MULTIPLANE_OVERLAY2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PRESENT_MULTIPLANE_OVERLAY2
+- _D3DKMT_PRESENT_MULTIPLANE_OVERLAY2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

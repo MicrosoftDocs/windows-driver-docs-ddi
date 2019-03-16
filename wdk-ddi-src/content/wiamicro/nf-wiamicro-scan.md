@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamicro.Scan
-title: Scan function
+title: Scan function (wiamicro.h)
 description: The Scan function reads data from the device and returns the data to the WIA Flatbed driver.
 old-location: image\scan.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	Scan
+- Scan
 product:
 - Windows
 targetos: Windows

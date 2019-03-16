@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MMIORANGEINFO
-title: _DXGK_MMIORANGEINFO
+title: _DXGK_MMIORANGEINFO (dispmprt.h)
 description: The memory management input output range info.
 ms.assetid: 7b745a8e-fdf6-4940-b62e-48886801fc8b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_MMIORANGEINFO, *PDXGK_MMIORANGEINFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGK_MMIORANGEINFO
+- _DXGK_MMIORANGEINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

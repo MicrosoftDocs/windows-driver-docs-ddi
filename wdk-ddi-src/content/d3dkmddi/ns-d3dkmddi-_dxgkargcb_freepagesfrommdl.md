@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_FREEPAGESFROMMDL
-title: _DXGKARGCB_FREEPAGESFROMMDL
+title: _DXGKARGCB_FREEPAGESFROMMDL (d3dkmddi.h)
 description:
 ms.assetid: 035d5d7f-7f55-4c4e-ab08-97095a67b930
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_FREEPAGESFROMMDL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_FREEPAGESFROMMDL
+- _DXGKARGCB_FREEPAGESFROMMDL
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETPRIORITY
-title: "_D3DDDICB_SETPRIORITY"
+title: _D3DDDICB_SETPRIORITY (d3dumddi.h)
 description: The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations.
 old-location: display\d3dddicb_setpriority.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_SETPRIORITY
+- D3DDDICB_SETPRIORITY
 product:
 - Windows
 targetos: Windows

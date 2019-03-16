@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._INDICATION_CODE
-title: "_INDICATION_CODE"
+title: _INDICATION_CODE (bthddi.h)
 description: The INDICATION_CODE enumeration type indicates to a profile driver what type of L2CAP event has occurred.
 old-location: bltooth\indication_code.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	INDICATION_CODE
+- INDICATION_CODE
 product:
 - Windows
 targetos: Windows

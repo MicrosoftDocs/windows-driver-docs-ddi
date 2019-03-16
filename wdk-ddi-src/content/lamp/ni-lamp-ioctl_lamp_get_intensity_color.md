@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_INTENSITY_COLOR
-title: IOCTL_LAMP_GET_INTENSITY_COLOR
+title: IOCTL_LAMP_GET_INTENSITY_COLOR (lamp.h)
 description: The IOCTL_LAMP_GET_INTENSITY_COLOR control code queries the light intensity when the lamp is configured to emit color light.
 old-location: stream\ioctl_lamp_get_intensity_color.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	IOCTL_LAMP_GET_INTENSITY_COLOR
+- IOCTL_LAMP_GET_INTENSITY_COLOR
 product:
 - Windows
 targetos: Windows

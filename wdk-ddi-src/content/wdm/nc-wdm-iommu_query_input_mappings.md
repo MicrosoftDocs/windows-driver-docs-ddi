@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_QUERY_INPUT_MAPPINGS
-title: IOMMU_QUERY_INPUT_MAPPINGS
+title: IOMMU_QUERY_INPUT_MAPPINGS (wdm.h)
 description: Attempts to find input mapping IDs which are valid for the given device and populate the provied buffer with those IDs.
 ms.assetid: 5664ad95-31b2-4457-9aab-ecf3768eec69
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_QUERY_INPUT_MAPPINGS
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_QUERY_INPUT_MAPPINGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

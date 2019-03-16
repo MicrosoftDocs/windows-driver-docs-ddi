@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_STATUS
-title: "_DXGK_CHILD_STATUS"
+title: _DXGK_CHILD_STATUS (dispmprt.h)
 description: The DXGK_CHILD_STATUS structure contains members that indicate the status of a child device of the display adapter.
 old-location: display\dxgk_child_status.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_CHILD_STATUS
+- DXGK_CHILD_STATUS
 product:
 - Windows
 targetos: Windows

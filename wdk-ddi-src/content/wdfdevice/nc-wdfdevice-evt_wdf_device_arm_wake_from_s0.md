@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_ARM_WAKE_FROM_S0
-title: EVT_WDF_DEVICE_ARM_WAKE_FROM_S0
+title: EVT_WDF_DEVICE_ARM_WAKE_FROM_S0 (wdfdevice.h)
 description: A driver's EvtDeviceArmWakeFromS0 event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\evtdevicearmwakefroms0.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceArmWakeFromS0
+- EvtDeviceArmWakeFromS0
 product:
 - Windows
 targetos: Windows

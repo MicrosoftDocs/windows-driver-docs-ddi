@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbRetrieveBuffer
-title: UdecxUrbRetrieveBuffer function
+title: UdecxUrbRetrieveBuffer function (udecxurb.h)
 description: Retrieves the transfer buffer of an URB from the specified framework request object sent to the endpoint queue.
 old-location: buses\udecxurbretrievebuffer.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUrbRetrieveBuffer
+- UdecxUrbRetrieveBuffer
 product:
 - Windows
 targetos: Windows

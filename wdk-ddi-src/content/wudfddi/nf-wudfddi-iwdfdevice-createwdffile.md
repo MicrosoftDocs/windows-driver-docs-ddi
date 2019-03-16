@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateWdfFile
-title: IWDFDevice::CreateWdfFile
+title: IWDFDevice::CreateWdfFile (wudfddi.h)
 description: The CreateWdfFile method creates a file object for a driver to use.
 old-location: wdf\iwdfdevice_createwdffile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.CreateWdfFile
+- IWDFDevice.CreateWdfFile
 product:
 - Windows
 targetos: Windows

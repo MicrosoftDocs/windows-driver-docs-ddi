@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EVICT_CB
-title: PFND3D12DDI_EVICT_CB
+title: PFND3D12DDI_EVICT_CB (d3d12umddi.h)
 description: PFND3D12DDI_EVICT_CB instructs the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 ms.assetid: 49898202-2cc1-49dc-8bce-bf045064d2a3
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_EVICT_CB
+- PFND3D12DDI_EVICT_CB
 product:
 - Windows
 targetos: Windows

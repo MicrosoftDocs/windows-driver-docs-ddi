@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_FLAGS
-title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS
+title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS (d3dkmthk.h)
 description: Multiplane overlay flags.
 ms.assetid: 015949bd-aa42-462a-b9d8-8579bd32c34b
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MULTIPLANE_OVERLAY_FLAGS
+- D3DKMT_MULTIPLANE_OVERLAY_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

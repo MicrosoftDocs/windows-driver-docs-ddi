@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOfferAllocations
-title: D3DKMTOfferAllocations function
+title: D3DKMTOfferAllocations function (d3dkmthk.h)
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTOfferAllocations
+- D3DKMTOfferAllocations
 product:
 - Windows
 targetos: Windows

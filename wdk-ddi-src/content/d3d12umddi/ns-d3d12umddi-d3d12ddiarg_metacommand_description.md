@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_DESCRIPTION
-title: D3D12DDIARG_METACOMMAND_DESCRIPTION
+title: D3D12DDIARG_METACOMMAND_DESCRIPTION (d3d12umddi.h)
 description: Contains information about a meta-command.
 ms.assetid: b86863d7-2880-4c3d-94c8-f85fde93cf83
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_METACOMMAND_DESCRIPTION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_METACOMMAND_DESCRIPTION
+- D3D12DDIARG_METACOMMAND_DESCRIPTION
 product: 
 - Windows
 targetos: Windows

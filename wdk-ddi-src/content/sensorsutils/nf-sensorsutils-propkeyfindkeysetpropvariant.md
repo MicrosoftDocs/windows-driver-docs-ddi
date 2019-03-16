@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeySetPropVariant
-title: PropKeyFindKeySetPropVariant function
+title: PropKeyFindKeySetPropVariant function (sensorsutils.h)
 description: This routine finds and sets the PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: cb29c615-728a-46d7-82f7-7ca5ea59276e
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeySetPropVariant
+- PropKeyFindKeySetPropVariant
 product:
  - Windows
 targetos: Windows

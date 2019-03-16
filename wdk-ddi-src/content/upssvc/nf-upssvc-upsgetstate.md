@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSGetState
-title: UPSGetState function
+title: UPSGetState function (upssvc.h)
 description: The UPSGetState function returns the operational state of the UPS.
 old-location: battery\upsgetstate.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Upssvc.h
+- Upssvc.h
 api_name:
--	UPSGetState
+- UPSGetState
 product:
 - Windows
 targetos: Windows

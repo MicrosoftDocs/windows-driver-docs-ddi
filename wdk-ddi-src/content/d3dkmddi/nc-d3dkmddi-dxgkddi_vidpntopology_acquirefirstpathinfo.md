@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
-title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
+title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO (d3dkmddi.h)
 description: The pfnAcquireFirstPathInfo structure returns a descriptor of the first path in a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirefirstpathinfo.htm
 ms.assetid: b5dc35dc-f4fb-4209-9a4d-50dc11f16216
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireFirstPathInfo
+- pfnAcquireFirstPathInfo
 product:
 - Windows
 targetos: Windows

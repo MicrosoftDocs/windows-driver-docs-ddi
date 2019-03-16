@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V0
-title: "_USB_BUS_INTERFACE_USBDI_V0"
+title: _USB_BUS_INTERFACE_USBDI_V0 (usbbusif.h)
 description: The USB_BUS_INTERFACE_USBDI_V0 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v0.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	USB_BUS_INTERFACE_USBDI_V0
+- USB_BUS_INTERFACE_USBDI_V0
 product:
 - Windows
 targetos: Windows

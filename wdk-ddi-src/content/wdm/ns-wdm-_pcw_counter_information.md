@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_COUNTER_INFORMATION
-title: "_PCW_COUNTER_INFORMATION"
+title: _PCW_COUNTER_INFORMATION (wdm.h)
 description: The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set.
 old-location: devtest\pcw_counter_information.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_COUNTER_INFORMATION
+- PCW_COUNTER_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._PingIPAddress_OUT
-title: "_PingIPAddress_OUT"
+title: _PingIPAddress_OUT (iscsimgt.h)
 description: The PingIPAddress_OUT structure holds the output data for the PingIPAddress method.
 old-location: storage\pingipaddress_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	PingIPAddress_OUT
+- PingIPAddress_OUT
 product:
 - Windows
 targetos: Windows

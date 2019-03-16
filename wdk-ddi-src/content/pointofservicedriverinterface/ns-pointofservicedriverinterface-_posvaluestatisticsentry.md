@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosValueStatisticsEntry
-title: "_PosValueStatisticsEntry"
+title: _PosValueStatisticsEntry (pointofservicedriverinterface.h)
 description: This structure contains the value of a statistic.
 old-location: pos\posvaluestatisticsentry.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosValueStatisticsEntry
+- PosValueStatisticsEntry
 product:
 - Windows
 targetos: Windows

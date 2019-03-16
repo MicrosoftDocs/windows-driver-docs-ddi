@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_FLOWSPEC
-title: "_L2CAP_FLOWSPEC"
+title: _L2CAP_FLOWSPEC (bthddi.h)
 description: This structure reserved for future use.
 old-location: bltooth\l2cap_flowspec.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	L2CAP_FLOWSPEC
+- L2CAP_FLOWSPEC
 product:
 - Windows
 targetos: Windows

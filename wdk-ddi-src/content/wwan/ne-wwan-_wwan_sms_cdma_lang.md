@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_CDMA_LANG
-title: "_WWAN_SMS_CDMA_LANG"
+title: _WWAN_SMS_CDMA_LANG (wwan.h)
 description: The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that are supported by the MB device.
 old-location: netvista\wwan_sms_cdma_lang.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_CDMA_LANG
+- WWAN_SMS_CDMA_LANG
 product:
 - Windows
 targetos: Windows

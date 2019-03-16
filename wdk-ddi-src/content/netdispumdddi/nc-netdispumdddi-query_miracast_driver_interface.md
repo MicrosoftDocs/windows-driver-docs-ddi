@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.QUERY_MIRACAST_DRIVER_INTERFACE
-title: QUERY_MIRACAST_DRIVER_INTERFACE
+title: QUERY_MIRACAST_DRIVER_INTERFACE (netdispumdddi.h)
 description: Called by the operating system to query the Miracast user-mode driver interface, MIRACAST_DRIVER_INTERFACE.
 old-location: display\querymiracastdriverinterface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	QueryMiracastDriverInterface
+- QueryMiracastDriverInterface
 product:
 - Windows
 targetos: Windows

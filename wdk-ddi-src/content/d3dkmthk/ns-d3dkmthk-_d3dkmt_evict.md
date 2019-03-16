@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_EVICT
-title: "_D3DKMT_EVICT"
+title: _D3DKMT_EVICT (d3dkmthk.h)
 description: D3DKMT_EVICT is used with D3DKMTEvict to subtract one from the residency reference count.
 old-location: display\d3dkmt_evict.htm
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_EVICT
+- D3DKMT_EVICT
 product:
 - Windows
 targetos: Windows

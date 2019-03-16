@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateDirectoryObject
-title: ZwCreateDirectoryObject function
+title: ZwCreateDirectoryObject function (wdm.h)
 description: The ZwCreateDirectoryObject routine creates or opens an object-directory object.
 old-location: kernel\zwcreatedirectoryobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateDirectoryObject
--	NtCreateDirectoryObject
+- ZwCreateDirectoryObject
+- NtCreateDirectoryObject
 product:
 - Windows
 targetos: Windows

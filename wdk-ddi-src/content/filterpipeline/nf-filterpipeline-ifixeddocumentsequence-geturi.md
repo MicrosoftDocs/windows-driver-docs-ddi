@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.GetUri
-title: IFixedDocumentSequence::GetUri
+title: IFixedDocumentSequence::GetUri (filterpipeline.h)
 description: The GetUri method gets the URI of the fixed document sequence.
 old-location: print\ifixeddocumentsequence_geturi.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedDocumentSequence.GetUri
+- IFixedDocumentSequence.GetUri
 product:
 - Windows
 targetos: Windows

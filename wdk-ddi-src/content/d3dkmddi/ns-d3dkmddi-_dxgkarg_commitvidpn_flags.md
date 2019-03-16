@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COMMITVIDPN_FLAGS
-title: "_DXGKARG_COMMITVIDPN_FLAGS"
+title: _DXGKARG_COMMITVIDPN_FLAGS (d3dkmddi.h)
 description: The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the DxgkDdiCommitVidPn function.
 old-location: display\dxgkarg_commitvidpn_flags.htm
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_COMMITVIDPN_FLAGS
+- DXGKARG_COMMITVIDPN_FLAGS
 product:
 - Windows
 targetos: Windows

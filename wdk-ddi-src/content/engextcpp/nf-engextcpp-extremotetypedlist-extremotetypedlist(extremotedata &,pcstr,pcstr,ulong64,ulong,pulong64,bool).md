@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
-title: ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
+title: ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool) (engextcpp.h)
 description: The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list.
 old-location: debugger\extremotetypedlist_extremotetypedlist_extremotedata.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTypedList.ExtRemoteTypedList
+- ExtRemoteTypedList.ExtRemoteTypedList
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

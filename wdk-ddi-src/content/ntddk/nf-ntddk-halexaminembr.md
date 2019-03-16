@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.HalExamineMBR
-title: HalExamineMBR function
+title: HalExamineMBR function (ntddk.h)
 description: The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller.
 old-location: kernel\halexaminembr.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	HalExamineMBR
+- HalExamineMBR
 product:
 - Windows
 targetos: Windows

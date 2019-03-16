@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._BarcodeSymbology
-title: "_BarcodeSymbology"
+title: _BarcodeSymbology (pointofservicecommontypes.h)
 description: This enumeration defines the barcode symbologies.
 old-location: pos\barcodesymbology.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	BarcodeSymbology
+- BarcodeSymbology
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_PTM_CONTROL_REGISTER
-title: _PCI_EXPRESS_PTM_CONTROL_REGISTER
+title: _PCI_EXPRESS_PTM_CONTROL_REGISTER (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: e7cf1582-8dbd-4f6f-827e-ae5fa6f3810a
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_PTM_CONTROL_REGISTER, *PPCI_EXPRESS_PTM_CONTROL_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_PCI_EXPRESS_PTM_CONTROL_REGISTER
-product: Windows
+- _PCI_EXPRESS_PTM_CONTROL_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

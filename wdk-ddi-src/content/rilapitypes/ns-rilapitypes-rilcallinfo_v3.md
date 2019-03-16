@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCALLINFO_V3
-title: RILCALLINFO_V3
+title: RILCALLINFO_V3 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfo_v3.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILCALLINFO_V3
+- RILCALLINFO_V3
 product:
 - Windows
 targetos: Windows

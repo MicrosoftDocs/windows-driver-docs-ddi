@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_LISTENER
-title: NDK_FN_CREATE_LISTENER
+title: NDK_FN_CREATE_LISTENER (ndkpi.h)
 description: The NdkCreateListener (NDK_FN_CREATE_LISTENER) function creates an NDK listener object.
 old-location: netvista\ndk_fn_create_listener.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreateListener
+- NdkCreateListener
 product:
 - Windows
 targetos: Windows

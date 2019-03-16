@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelManager2
-title: IDataModelManager2
+title: IDataModelManager2 (dbgmodel.h)
 description: The second version of the interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. 
 ms.assetid: 3cdf03e0-7682-4b98-906c-b4fcacc844a4
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2
-product: Windows
+- IDataModelManager2
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BEGINEXCLUSIVEACCESS
-title: _DXGKARG_BEGINEXCLUSIVEACCESS
+title: _DXGKARG_BEGINEXCLUSIVEACCESS (d3dkmddi.h)
 description: Arguments used to begin exclusive access.
 ms.assetid: 71b37743-0426-4abe-a789-511237b7a969
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_BEGINEXCLUSIVEACCESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_BEGINEXCLUSIVEACCESS
+- _DXGKARG_BEGINEXCLUSIVEACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

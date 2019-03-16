@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoRaiseHardError
-title: IoRaiseHardError function
+title: IoRaiseHardError function (ntddk.h)
 description: The IoRaiseHardError routine causes a dialog box to appears that warns the user that a device I/O error has occurred, which might indicate that a physical device is failing.
 old-location: kernel\ioraiseharderror.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRaiseHardError
+- IoRaiseHardError
 product:
 - Windows
 targetos: Windows

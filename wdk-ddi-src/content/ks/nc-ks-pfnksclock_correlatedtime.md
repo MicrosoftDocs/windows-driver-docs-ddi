@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSCLOCK_CORRELATEDTIME
-title: PFNKSCLOCK_CORRELATEDTIME
+title: PFNKSCLOCK_CORRELATEDTIME (ks.h)
 description: The routine is a system-supplied routine that retrieves and the following:KStrClockGetCorrelatedTime is a system-supplied routine that retrieves both the current system time and the corresponding clock tick count since boot.KStrClockGetCorrelatedPhysicalTime is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.
 old-location: stream\kstrclockgetcorrelatedtime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	SystemCorrelatedTime
+- SystemCorrelatedTime
 product:
 - Windows
 targetos: Windows

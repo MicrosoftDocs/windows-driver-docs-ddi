@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetNextSiblingFilter
-title: KsFilterGetNextSiblingFilter function
+title: KsFilterGetNextSiblingFilter function (ks.h)
 description: The KsFilterGetNextSiblingFilter function returns the next instantiated filter belonging to the parent filter factory of Filter.
 old-location: stream\ksfiltergetnextsiblingfilter.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsFilterGetNextSiblingFilter
+- KsFilterGetNextSiblingFilter
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Query
-title: IWDTFTargets2::Query
+title: IWDTFTargets2::Query (wdtf.h)
 description: Returns a subset of the items in the collection.
 old-location: dtf\iwdtftargets2_query.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Query
+- IWDTFTargets2.Query
 product:
 - Windows
 targetos: Windows

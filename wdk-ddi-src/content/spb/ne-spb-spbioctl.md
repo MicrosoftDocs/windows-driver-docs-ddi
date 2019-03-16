@@ -1,6 +1,6 @@
 ---
 UID: NE:spb.SpbIoctl
-title: SpbIoctl
+title: SpbIoctl (spb.h)
 description: Defines values to indicate the type I/O control request.
 old-location: spb\spbioctl.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SpbIoctl
+- SpbIoctl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.QueryInterface
-title: IDataModelManager2::QueryInterface
+title: IDataModelManager2::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 505b6f76-5b31-473e-8eb9-6c2dd150e732
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2.QueryInterface
-product: Windows
+- IDataModelManager2.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

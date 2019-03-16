@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_FIXED32
-title: "_DXVADDI_FIXED32"
+title: _DXVADDI_FIXED32 (d3dumddi.h)
 description: The DXVADDI_FIXED32 structure describes a floating-point number from a 16.16 fixed-point number.
 old-location: display\dxvaddi_fixed32.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_FIXED32
+- DXVADDI_FIXED32
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetSourcePath
-title: IDebugSymbols2::SetSourcePath
+title: IDebugSymbols2::SetSourcePath (dbgeng.h)
 description: The SetSourcePath method sets the source path.
 old-location: debugger\setsourcepath.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.SetSourcePath
--	IDebugSymbols2.SetSourcePath
--	IDebugSymbols3.SetSourcePath
+- IDebugSymbols.SetSourcePath
+- IDebugSymbols2.SetSourcePath
+- IDebugSymbols3.SetSourcePath
 product:
 - Windows
 targetos: Windows

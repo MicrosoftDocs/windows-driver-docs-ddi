@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlChangeBackingFileObject
-title: FsRtlChangeBackingFileObject function
+title: FsRtlChangeBackingFileObject function (ntifs.h)
 description: The FsRtlChangeBackingFileObject routine replaces the current file object with a new file object.
 old-location: ifsk\fsrtlchangebackingfileobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlChangeBackingFileObject
+- FsRtlChangeBackingFileObject
 product:
 - Windows
 targetos: Windows

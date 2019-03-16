@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_NOTIFY_INFO
-title: "_CIP_NOTIFY_INFO"
+title: _CIP_NOTIFY_INFO (61883.h)
 description: The CIP_NOTIFY_INFO structure contains information about the frame.
 old-location: ieee\cip_notify_info.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CIP_NOTIFY_INFO
+- CIP_NOTIFY_INFO
 product:
 - Windows
 targetos: Windows

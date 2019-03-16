@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.CancelDelayedService
-title: IServiceGroup::CancelDelayedService
+title: IServiceGroup::CancelDelayedService (portcls.h)
 description: The CancelDelayedService method cancels the previously requested delayed service.
 old-location: audio\iservicegroup_canceldelayedservice.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup.CancelDelayedService
+- IServiceGroup.CancelDelayedService
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetFactory.CreateUsbTargetDevice
-title: IWDFUsbTargetFactory::CreateUsbTargetDevice
+title: IWDFUsbTargetFactory::CreateUsbTargetDevice (wudfusb.h)
 description: The CreateUsbTargetDevice method creates a USB device object that is also an I/O target.
 old-location: wdf\iwdfusbtargetfactory_createusbtargetdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetFactory.CreateUsbTargetDevice
+- IWDFUsbTargetFactory.CreateUsbTargetDevice
 product:
 - Windows
 targetos: Windows

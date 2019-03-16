@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_53
-title: KSDATARANGE_MUSIC
+title: KSDATARANGE_MUSIC (ksmedia.h)
 description: The KSDATARANGE_MUSIC structure specifies a range of DirectMusic MIDI formats.
 old-location: audio\ksdatarange_music.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDATARANGE_MUSIC
+- KSDATARANGE_MUSIC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETQUEUEDLIMIT
-title: "_D3DKMT_SETQUEUEDLIMIT"
+title: _D3DKMT_SETQUEUEDLIMIT (d3dkmthk.h)
 description: The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device.
 old-location: display\d3dkmt_setqueuedlimit.htm
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SETQUEUEDLIMIT
+- D3DKMT_SETQUEUEDLIMIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_DATAGRAM_INDICATION
-title: "_WSK_DATAGRAM_INDICATION"
+title: _WSK_DATAGRAM_INDICATION (wsk.h)
 description: The WSK_DATAGRAM_INDICATION structure describes a datagram that has been received on a datagram socket.
 old-location: netvista\wsk_datagram_indication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_DATAGRAM_INDICATION
+- WSK_DATAGRAM_INDICATION
 product:
 - Windows
 targetos: Windows

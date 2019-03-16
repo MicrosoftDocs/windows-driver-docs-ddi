@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionDmaCompletedWithLength
-title: WdfDmaTransactionDmaCompletedWithLength function
+title: WdfDmaTransactionDmaCompletedWithLength function (wdfdmatransaction.h)
 description: The WdfDmaTransactionDmaCompletedWithLength method notifies the framework that a device's DMA transfer operation is complete and supplies the length of the completed transfer.
 old-location: wdf\wdfdmatransactiondmacompletedwithlength.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionDmaCompletedWithLength
+- WdfDmaTransactionDmaCompletedWithLength
 product:
 - Windows
 targetos: Windows

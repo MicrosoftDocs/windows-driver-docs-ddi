@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoRaiseInformationalHardError
-title: IoRaiseInformationalHardError function
+title: IoRaiseInformationalHardError function (ntddk.h)
 description: The IoRaiseInformationalHardError routine sends a dialog box to the user, warning about a device I/O error that indicates why a user I/O request failed.
 old-location: kernel\ioraiseinformationalharderror.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRaiseInformationalHardError
+- IoRaiseInformationalHardError
 product:
 - Windows
 targetos: Windows

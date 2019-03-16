@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetReadParameters
-title: IWDFIoRequest::GetReadParameters
+title: IWDFIoRequest::GetReadParameters (wudfddi.h)
 description: The GetReadParameters method retrieves the request parameters for a read-type request.
 old-location: wdf\iwdfiorequest_getreadparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetReadParameters
+- IWDFIoRequest.GetReadParameters
 product:
 - Windows
 targetos: Windows

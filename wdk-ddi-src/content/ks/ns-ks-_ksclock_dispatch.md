@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSCLOCK_DISPATCH
-title: "_KSCLOCK_DISPATCH"
+title: _KSCLOCK_DISPATCH (ks.h)
 description: The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to implement a clock object.
 old-location: stream\ksclock_dispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSCLOCK_DISPATCH
+- KSCLOCK_DISPATCH
 product:
 - Windows
 targetos: Windows

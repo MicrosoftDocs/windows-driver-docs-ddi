@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsRemoveLoadImageNotifyRoutine
-title: PsRemoveLoadImageNotifyRoutine function
+title: PsRemoveLoadImageNotifyRoutine function (ntddk.h)
 description: The PsRemoveLoadImageNotifyRoutine routine removes a callback routine that was registered by the PsSetLoadImageNotifyRoutine routine.
 old-location: kernel\psremoveloadimagenotifyroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsRemoveLoadImageNotifyRoutine
+- PsRemoveLoadImageNotifyRoutine
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICEFUNCS
-title: "_D3DDDI_DEVICEFUNCS"
+title: _D3DDDI_DEVICEFUNCS (d3dumddi.h)
 description: The D3DDDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3dddi_devicefuncs.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_DEVICEFUNCS
+- D3DDDI_DEVICEFUNCS
 product:
 - Windows
 targetos: Windows

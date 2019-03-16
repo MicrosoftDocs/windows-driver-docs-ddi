@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.EnumerateArguments
-title: IDataModelScriptDebugStackFrame::EnumerateArguments
+title: IDataModelScriptDebugStackFrame::EnumerateArguments (dbgmodel.h)
 description: Enumerates arguments to the function in this frame.
 ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
 ms.date: 10/03/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugStackFrame.EnumerateArguments
-product: Windows
+- IDataModelScriptDebugStackFrame.EnumerateArguments
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

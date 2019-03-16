@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfwmi.EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL
-title: EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL
+title: EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL (wdfwmi.h)
 description: A driver's EvtWmiProviderFunctionControl callback function enables and disables the driver's support for collecting data and sending events for a specified WMI data provider.
 old-location: wdf\evtwmiproviderfunctioncontrol.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfWMI.h
+- WdfWMI.h
 api_name:
--	EvtWmiProviderFunctionControl
+- EvtWmiProviderFunctionControl
 product:
 - Windows
 targetos: Windows

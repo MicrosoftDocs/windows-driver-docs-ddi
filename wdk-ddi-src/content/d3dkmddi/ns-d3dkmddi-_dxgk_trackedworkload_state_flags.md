@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_TRACKEDWORKLOAD_STATE_FLAGS
-title: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+title: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS (d3dkmddi.h)
 description: Indicates GPU configurations, including the appropriate frequencies and power level, for a context.
 ms.assetid: 0b6f3ccf-c4c8-4787-87dc-8397385e1374
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_TRACKEDWORKLOAD_STATE_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGK_TRACKEDWORKLOAD_STATE_FLAGS
+- _DXGK_TRACKEDWORKLOAD_STATE_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNLOCK
-title: "_D3DKMT_UNLOCK"
+title: _D3DKMT_UNLOCK (d3dkmthk.h)
 description: The D3DKMT_UNLOCK structure describes allocations to unlock.
 old-location: display\d3dkmt_unlock.htm
 ms.assetid: 397d2ab0-89a0-42a8-a665-ca7e1ed5d8f3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_UNLOCK
+- D3DKMT_UNLOCK
 product:
 - Windows
 targetos: Windows

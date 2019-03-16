@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION_EX
-title: "_DRIVE_LAYOUT_INFORMATION_EX"
+title: _DRIVE_LAYOUT_INFORMATION_EX (ntdddisk.h)
 description: The DRIVE_LAYOUT_INFORMATION_EX structure is used to report information about the driver layout.
 old-location: storage\drive_layout_information_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DRIVE_LAYOUT_INFORMATION_EX
+- DRIVE_LAYOUT_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

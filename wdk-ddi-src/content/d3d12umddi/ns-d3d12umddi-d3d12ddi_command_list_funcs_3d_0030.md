@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
-title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
+title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0030 (d3d12umddi.h)
 description: The command list functions for 3D.
 old-location: display\d3d12ddi-command-list-funcs-3d-0030.htm
 ms.assetid: ec09b652-a809-48e2-9f34-507df5fd9036
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
+- D3D12DDI_COMMAND_LIST_FUNCS_3D_0030
 product:
 - Windows
 targetos: Windows

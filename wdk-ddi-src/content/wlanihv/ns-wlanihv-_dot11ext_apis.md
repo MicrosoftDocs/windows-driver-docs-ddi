@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11EXT_APIS
-title: "_DOT11EXT_APIS"
+title: _DOT11EXT_APIS (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_apis.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	DOT11EXT_APIS
+- DOT11EXT_APIS
 product:
 - Windows
 targetos: Windows

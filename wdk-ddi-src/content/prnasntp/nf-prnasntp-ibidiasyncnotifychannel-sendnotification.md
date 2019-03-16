@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.SendNotification
-title: IBidiAsyncNotifyChannel::SendNotification
+title: IBidiAsyncNotifyChannel::SendNotification (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IBidiAsyncNotifyChannel.SendNotification
+- IBidiAsyncNotifyChannel.SendNotification
 product:
 - Windows
 targetos: Windows

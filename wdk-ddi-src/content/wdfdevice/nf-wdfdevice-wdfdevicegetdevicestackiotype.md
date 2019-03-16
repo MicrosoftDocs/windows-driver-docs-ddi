@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDeviceStackIoType
-title: WdfDeviceGetDeviceStackIoType function
+title: WdfDeviceGetDeviceStackIoType function (wdfdevice.h)
 description: The WdfDeviceGetDeviceStackIoType method retrieves the buffer access methods that the framework is using for a device.
 old-location: wdf\wdfdevicegetdevicestackiotype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDeviceGetDeviceStackIoType
+- WdfDeviceGetDeviceStackIoType
 product:
 - Windows
 targetos: Windows

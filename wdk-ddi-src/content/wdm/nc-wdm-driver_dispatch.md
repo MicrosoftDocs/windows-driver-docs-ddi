@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_DISPATCH
-title: DRIVER_DISPATCH
+title: DRIVER_DISPATCH (wdm.h)
 description: The callback routine services various IRPs. For a list of function codes, see Remarks.
 old-location: kernel\dispatchcleanup.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MyDispatch
+- MyDispatch
 product:
 - Windows
 targetos: Windows

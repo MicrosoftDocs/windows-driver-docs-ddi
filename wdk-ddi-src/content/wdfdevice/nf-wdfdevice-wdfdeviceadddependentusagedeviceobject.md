@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAddDependentUsageDeviceObject
-title: WdfDeviceAddDependentUsageDeviceObject function
+title: WdfDeviceAddDependentUsageDeviceObject function (wdfdevice.h)
 description: The WdfDeviceAddDependentUsageDeviceObject method indicates that a specified device depends on another device when the specified device is used to store special files.
 old-location: wdf\wdfdeviceadddependentusagedeviceobject.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceAddDependentUsageDeviceObject
+- WdfDeviceAddDependentUsageDeviceObject
 product:
 - Windows
 targetos: Windows

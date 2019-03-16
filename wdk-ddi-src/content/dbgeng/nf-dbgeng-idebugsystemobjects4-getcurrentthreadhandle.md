@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentThreadHandle
-title: IDebugSystemObjects4::GetCurrentThreadHandle
+title: IDebugSystemObjects4::GetCurrentThreadHandle (dbgeng.h)
 description: The GetCurrentThreadHandle method returns the system handle for the current thread.
 old-location: debugger\getcurrentthreadhandle.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetCurrentThreadHandle
--	IDebugSystemObjects2.GetCurrentThreadHandle
--	IDebugSystemObjects3.GetCurrentThreadHandle
--	IDebugSystemObjects4.GetCurrentThreadHandle
+- IDebugSystemObjects.GetCurrentThreadHandle
+- IDebugSystemObjects2.GetCurrentThreadHandle
+- IDebugSystemObjects3.GetCurrentThreadHandle
+- IDebugSystemObjects4.GetCurrentThreadHandle
 product:
 - Windows
 targetos: Windows

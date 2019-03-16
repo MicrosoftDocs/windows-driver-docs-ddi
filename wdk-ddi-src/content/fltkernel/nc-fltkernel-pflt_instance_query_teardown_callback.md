@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK
-title: PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK
+title: PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK as the minifilter driver's InstanceQueryTeardownCallback routine.
 old-location: ifsk\pflt_instance_query_teardown_callback.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	InstanceQueryTeardownCallback
+- InstanceQueryTeardownCallback
 product:
 - Windows
 targetos: Windows

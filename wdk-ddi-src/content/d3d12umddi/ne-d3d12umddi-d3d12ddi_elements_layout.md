@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_ELEMENTS_LAYOUT
-title: D3D12DDI_ELEMENTS_LAYOUT
+title: D3D12DDI_ELEMENTS_LAYOUT (d3d12umddi.h)
 description: Describes how instances or geometries are laid out.
 ms.assetid: c886ddab-ba16-4d7f-abbd-3e57b7cc8dc5
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_ELEMENTS_LAYOUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_ELEMENTS_LAYOUT
+- D3D12DDI_ELEMENTS_LAYOUT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_XON
-title: IOCTL_SERIAL_SET_XON
+title: IOCTL_SERIAL_SET_XON (ntddser.h)
 description: The IOCTL_SERIAL_SET_XON request emulates the reception of a XON (transmit on) character, which restarts reception of data.
 old-location: serports\ioctl_serial_set_xon.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_SET_XON
+- IOCTL_SERIAL_SET_XON
 product:
 - Windows
 targetos: Windows

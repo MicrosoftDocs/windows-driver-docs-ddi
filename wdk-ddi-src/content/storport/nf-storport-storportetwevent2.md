@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortEtwEvent2
-title: StorPortEtwEvent2 function
+title: StorPortEtwEvent2 function (storport.h)
 description: The StorPortEtwEvent2 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log two general purpose ETW parameters. The ETW parameters are expressed as two name-value pairs.
 old-location: storage\storportetwevent2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortEtwEvent2
+- StorPortEtwEvent2
 product:
 - Windows
 targetos: Windows

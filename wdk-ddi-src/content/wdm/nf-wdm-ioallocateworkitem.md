@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateWorkItem
-title: IoAllocateWorkItem function
+title: IoAllocateWorkItem function (wdm.h)
 description: The IoAllocateWorkItem routine allocates a work item.
 old-location: kernel\ioallocateworkitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAllocateWorkItem
+- IoAllocateWorkItem
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSUBSCRIBERINFO
-title: RILSUBSCRIBERINFO
+title: RILSUBSCRIBERINFO (ntddrilapitypes.h)
 description: This structure represents RILSUBSCRIBERINFO.
 old-location: netvista\rilsubscriberinfo.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSUBSCRIBERINFO
+- RILSUBSCRIBERINFO
 product:
 - Windows
 targetos: Windows

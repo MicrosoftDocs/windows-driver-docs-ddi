@@ -1,6 +1,6 @@
 ---
 UID: NS:engextcpp.ExtKnownStruct
-title: ExtKnownStruct
+title: ExtKnownStruct (engextcpp.h)
 description: The ExtKnownStruct structure is used to specify how a target's structure can be formatted for output.
 old-location: debugger\extknownstruct.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtKnownStruct
+- ExtKnownStruct
 product:
 - Windows
 targetos: Windows

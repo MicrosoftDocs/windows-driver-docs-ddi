@@ -1,6 +1,6 @@
 ---
 UID: NE:bthhfpddi._HFP_BYPASS_CODEC_ID_VERSION
-title: "_HFP_BYPASS_CODEC_ID_VERSION"
+title: _HFP_BYPASS_CODEC_ID_VERSION (bthhfpddi.h)
 description: The HFP_BYPASS_CODEC_ID_VERSION enumeration defines the codec ID structure versions that are supported by the HFP service.
 old-location: audio\hfp_bypass_codec_id_version.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	HFP_BYPASS_CODEC_ID_VERSION
+- HFP_BYPASS_CODEC_ID_VERSION
 product:
 - Windows
 targetos: Windows

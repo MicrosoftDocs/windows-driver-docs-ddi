@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PopOutputLinePrefix
-title: IDebugClient5::PopOutputLinePrefix
+title: IDebugClient5::PopOutputLinePrefix (dbgeng.h)
 description: Restores a previously saved output line prefix.
 old-location: debugger\idebugclient5_popoutputlineprefix.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.PopOutputLinePrefix
+- IDebugClient5.PopOutputLinePrefix
 product:
 - Windows
 targetos: Windows

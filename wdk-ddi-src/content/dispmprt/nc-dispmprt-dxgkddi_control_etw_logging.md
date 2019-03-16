@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_CONTROL_ETW_LOGGING
-title: DXGKDDI_CONTROL_ETW_LOGGING
+title: DXGKDDI_CONTROL_ETW_LOGGING (dispmprt.h)
 description: The DxgkDdiControlEtwLogging function enables or disables Event Tracing for Windows (ETW) event logging.
 old-location: display\dxgkddicontroletwlogging.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiControlEtwLogging
+- DxgkDdiControlEtwLogging
 product:
 - Windows
 targetos: Windows

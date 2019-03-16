@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.FreePrintPropertyValue
-title: FreePrintPropertyValue function
+title: FreePrintPropertyValue function (winspool.h)
 description: Frees the value that is retrieved using GetJobNamedPropertyValue function.
 old-location: print\freeprintpropertyvalue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	spoolss.dll
--	WinSpool.drv
+- spoolss.dll
+- WinSpool.drv
 api_name:
--	FreePrintPropertyValue
+- FreePrintPropertyValue
 product:
 - Windows
 targetos: Windows

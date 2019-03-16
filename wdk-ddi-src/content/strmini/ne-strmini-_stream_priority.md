@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini._STREAM_PRIORITY
-title: "_STREAM_PRIORITY"
+title: _STREAM_PRIORITY (strmini.h)
 description: _STREAM_PRIORITY enumerates available priority levels for the stream.
 old-location: stream\stream_priority.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Strmini.h
+- Strmini.h
 api_name:
--	STREAM_PRIORITY
+- STREAM_PRIORITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GEOMETRY
-title: "_DISK_GEOMETRY"
+title: _DISK_GEOMETRY (ntdddisk.h)
 description: The DISK_GEOMETRY structure is obsolete and provided only to support existing drivers.
 old-location: storage\disk_geometry.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_GEOMETRY
+- DISK_GEOMETRY
 product:
 - Windows
 targetos: Windows

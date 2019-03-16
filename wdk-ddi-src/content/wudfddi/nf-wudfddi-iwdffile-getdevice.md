@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile.GetDevice
-title: IWDFFile::GetDevice
+title: IWDFFile::GetDevice (wudfddi.h)
 description: The GetDevice method returns the interface to the device object that a file object is associated with.
 old-location: wdf\iwdffile_getdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFile.GetDevice
+- IWDFFile.GetDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.Request
-title: IDebugAdvanced2::Request
+title: IDebugAdvanced2::Request (dbgeng.h)
 description: The Request method performs a variety of different operations.
 old-location: debugger\request.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugAdvanced2.Request
--	IDebugAdvanced3.Request
+- IDebugAdvanced2.Request
+- IDebugAdvanced3.Request
 product:
 - Windows
 targetos: Windows

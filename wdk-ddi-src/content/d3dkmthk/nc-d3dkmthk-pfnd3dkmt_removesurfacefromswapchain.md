@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN
-title: PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN
+title: PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN (d3dkmthk.h)
 description: Implemented by the client driver to remove a surface from the swap chain.
 ms.assetid: ef478dff-62fd-4bcf-905a-b82e58dae8aa
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN
+- PFND3DKMT_REMOVESURFACEFROMSWAPCHAIN
 product: 
 - Windows
 targetos: Windows

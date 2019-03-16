@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.GetTargetFile
-title: IWDFIoTarget::GetTargetFile
+title: IWDFIoTarget::GetTargetFile (wudfddi.h)
 description: The GetTargetFile method retrieves the framework file object that is associated with the I/O target object.
 old-location: wdf\iwdfiotarget_gettargetfile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget.GetTargetFile
+- IWDFIoTarget.GetTargetFile
 product:
 - Windows
 targetos: Windows

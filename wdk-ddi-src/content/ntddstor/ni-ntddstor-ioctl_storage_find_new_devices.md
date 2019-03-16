@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIND_NEW_DEVICES
-title: IOCTL_STORAGE_FIND_NEW_DEVICES
+title: IOCTL_STORAGE_FIND_NEW_DEVICES (ntddstor.h)
 description: Determines whether another device that the driver supports has been connected to the I/O bus, either since the system was booted or since the driver last processed this request.
 old-location: storage\ioctl_storage_find_new_devices.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_FIND_NEW_DEVICES
+- IOCTL_STORAGE_FIND_NEW_DEVICES
 product:
 - Windows
 targetos: Windows

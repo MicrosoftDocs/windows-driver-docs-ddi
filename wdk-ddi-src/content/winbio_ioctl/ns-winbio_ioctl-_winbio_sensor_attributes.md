@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SENSOR_ATTRIBUTES
-title: "_WINBIO_SENSOR_ATTRIBUTES"
+title: _WINBIO_SENSOR_ATTRIBUTES (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 old-location: biometric\winbio_sensor_attributes.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_SENSOR_ATTRIBUTES
+- WINBIO_SENSOR_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PCHANGE_BANDWIDTH_ALLOCATION
-title: PCHANGE_BANDWIDTH_ALLOCATION
+title: PCHANGE_BANDWIDTH_ALLOCATION (hdaudio.h)
 description: The ChangeBandwidthAllocation routine changes a DMA engine's bandwidth allocation on the HD Audio Link.The function pointer type for a ChangeBandwidthAllocation routine is defined as follows.
 old-location: audio\changebandwidthallocation.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	ChangeBandwidthAllocation
+- ChangeBandwidthAllocation
 product:
 - Windows
 targetos: Windows

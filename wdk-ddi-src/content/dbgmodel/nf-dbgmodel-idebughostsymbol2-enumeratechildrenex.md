@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol2.EnumerateChildrenEx
-title: IDebugHostSymbol2::EnumerateChildrenEx
+title: IDebugHostSymbol2::EnumerateChildrenEx (dbgmodel.h)
 description: Enumerates all child symbols of the given type, name, and extended information which is present.
 ms.assetid: 8479d24b-be5f-4c21-adea-699af64adeb2
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbol2.EnumerateChildrenEx
-product: Windows
+- IDebugHostSymbol2.EnumerateChildrenEx
+product:
+- Windows
 targetos: Windows
 
 

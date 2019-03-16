@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
-title: "_D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING"
+title: _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING (d3dukmdt.h)
 description: The D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration is used to indicate the scan line ordering of a video output signal.
 old-location: display\d3dddi_video_signal_scanline_ordering.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
+- D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
 product:
 - Windows
 targetos: Windows

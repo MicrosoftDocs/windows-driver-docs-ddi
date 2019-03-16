@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
-title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO"
+title: _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO (d3dkmdt.h)
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO enumeration indicates the display device's aspect ratio, defined as width by height (width x height).
 old-location: display\displayid_detailed_timing_type_i_aspect_ratio.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
+- _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 product:
 - Windows
 targetos: Windows

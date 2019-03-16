@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN
-title: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN
+title: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN (d3dkmddi.h)
 description: DxgkCbHardwareContentProtectionTeardown is used to indicate when a hardware content protection event occurs.
 old-location: display\dxgkcbhardwarecontentprotectionteardown.htm
 ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbHardwareContentProtectionTeardown
+- DxgkCbHardwareContentProtectionTeardown
 product:
 - Windows
 targetos: Windows

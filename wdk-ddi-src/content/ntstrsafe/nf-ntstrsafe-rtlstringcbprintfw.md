@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbPrintfW
-title: RtlStringCbPrintfW function
+title: RtlStringCbPrintfW function (ntstrsafe.h)
 description: The RtlStringCbPrintfW and RtlStringCbPrintfA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbprintf.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCbPrintfW
--	RtlStringCbPrintfA
--	RtlStringCbPrintfW
+- RtlStringCbPrintfW
+- RtlStringCbPrintfA
+- RtlStringCbPrintfW
 product:
 - Windows
 targetos: Windows

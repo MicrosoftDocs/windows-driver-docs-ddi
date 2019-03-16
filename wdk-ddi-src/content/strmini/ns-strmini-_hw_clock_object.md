@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_CLOCK_OBJECT
-title: "_HW_CLOCK_OBJECT"
+title: _HW_CLOCK_OBJECT (strmini.h)
 description: The HW_CLOCK_OBJECT structure describes the clock associated with a stream.
 old-location: stream\hw_clock_object.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	HW_CLOCK_OBJECT
+- HW_CLOCK_OBJECT
 product:
 - Windows
 targetos: Windows

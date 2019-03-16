@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteFileContext
-title: FltDeleteFileContext function
+title: FltDeleteFileContext function (fltkernel.h)
 description: The FltDeleteFileContext routine retrieves and deletes a file context that a given minifilter driver has set for a given file.
 old-location: ifsk\fltdeletefilecontext.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltDeleteFileContext
+- FltDeleteFileContext
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetFSEBlock
-title: D3DKMTSetFSEBlock function
+title: D3DKMTSetFSEBlock function (d3dkmthk.h)
 description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSetFSEBlock
+- D3DKMTSetFSEBlock
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

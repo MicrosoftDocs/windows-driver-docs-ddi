@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BARRIER_TYPE
-title: D3D12DDI_RESOURCE_BARRIER_TYPE
+title: D3D12DDI_RESOURCE_BARRIER_TYPE (d3d12umddi.h)
 description: Specifies the type of resource barrier.
 old-location: display\d3d12ddi_resource_barrier_type.htm
 ms.assetid: 3865DB8A-A920-42AC-B802-E5A3FB02014C
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_BARRIER_TYPE
+- D3D12DDI_RESOURCE_BARRIER_TYPE
 product:
 - Windows
 targetos: Windows

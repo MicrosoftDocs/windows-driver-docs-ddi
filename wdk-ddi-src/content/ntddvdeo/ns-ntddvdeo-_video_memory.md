@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MEMORY
-title: "_VIDEO_MEMORY"
+title: _VIDEO_MEMORY (ntddvdeo.h)
 description: The VIDEO_MEMORY structure holds the address of a requested block of kernel-mode video memory.
 old-location: display\video_memory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_MEMORY
+- VIDEO_MEMORY
 product:
 - Windows
 targetos: Windows

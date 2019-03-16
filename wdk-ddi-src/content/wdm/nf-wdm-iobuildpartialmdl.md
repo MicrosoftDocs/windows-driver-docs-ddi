@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoBuildPartialMdl
-title: IoBuildPartialMdl function
+title: IoBuildPartialMdl function (wdm.h)
 description: The IoBuildPartialMdl routine builds a new memory descriptor list (MDL) that represents part of a buffer that is described by an existing MDL.
 old-location: kernel\iobuildpartialmdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoBuildPartialMdl
+- IoBuildPartialMdl
 product:
 - Windows
 targetos: Windows

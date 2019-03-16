@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_POWER_FRAMEWORK_SETTINGS
-title: "_WDF_POWER_FRAMEWORK_SETTINGS"
+title: _WDF_POWER_FRAMEWORK_SETTINGS (wdfdevice.h)
 description: The WDF_POWER_FRAMEWORK_SETTINGS structure describes power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdf_power_framework_settings.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_POWER_FRAMEWORK_SETTINGS
+- WDF_POWER_FRAMEWORK_SETTINGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dukmdt.MAKEFOURCC
-title: MAKEFOURCC macro
+title: MAKEFOURCC macro (d3dukmdt.h)
 description: A macro to format and load texture.
 ms.assetid: c87722a0-3f6d-4d67-a303-d5fef4405daf
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	MAKEFOURCC
+- MAKEFOURCC
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

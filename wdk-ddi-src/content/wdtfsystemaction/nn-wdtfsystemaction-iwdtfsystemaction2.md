@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfsystemaction.IWDTFSystemAction2
-title: IWDTFSystemAction2
+title: IWDTFSystemAction2 (wdtfsystemaction.h)
 description: Defines operations and properties that support driver testing.
 old-location: dtf\iwdtfsystemaction2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2
+- IWDTFSystemAction2
 product:
 - Windows
 targetos: Windows
@@ -179,7 +179,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that indicates whether the the system power state is critical.
+Gets or sets a value that indicates whether the system power state is critical.
 
 </td>
 </tr>

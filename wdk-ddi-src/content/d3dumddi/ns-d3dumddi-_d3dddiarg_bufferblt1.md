@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_BUFFERBLT1
-title: "_D3DDDIARG_BUFFERBLT1"
+title: _D3DDDIARG_BUFFERBLT1 (d3dumddi.h)
 description: Describes the parameters of a buffer bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_bufferblt1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIARG_BUFFERBLT1
+- D3DDDIARG_BUFFERBLT1
 product:
 - Windows
 targetos: Windows

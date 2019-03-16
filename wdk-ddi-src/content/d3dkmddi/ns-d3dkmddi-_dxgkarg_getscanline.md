@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_GETSCANLINE
-title: "_DXGKARG_GETSCANLINE"
+title: _DXGKARG_GETSCANLINE (d3dkmddi.h)
 description: The DXGKARG_GETSCANLINE structure contains information about a video present target's vertical blanking status.
 old-location: display\dxgkarg_getscanline.htm
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_GETSCANLINE
+- DXGKARG_GETSCANLINE
 product:
 - Windows
 targetos: Windows

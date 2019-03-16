@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
-title: PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW
+title: PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW (d3d10umddi.h)
 description: Creates a resource view for a video processor. This view defines the output sample for the video processing operation.
 old-location: display\createvideoprocessoroutputview.htm
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CreateVideoProcessorOutputView
+- CreateVideoProcessorOutputView
 product:
 - Windows
 targetos: Windows

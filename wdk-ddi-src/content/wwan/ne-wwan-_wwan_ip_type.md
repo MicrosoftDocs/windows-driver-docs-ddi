@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_IP_TYPE
-title: "_WWAN_IP_TYPE"
+title: _WWAN_IP_TYPE (wwan.h)
 description: The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
 old-location: netvista\wwan_ip_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_IP_TYPE
+- WWAN_IP_TYPE
 product:
 - Windows
 targetos: Windows

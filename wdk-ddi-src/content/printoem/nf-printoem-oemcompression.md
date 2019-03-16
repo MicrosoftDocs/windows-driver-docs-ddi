@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCompression
-title: OEMCompression function
+title: OEMCompression function (printoem.h)
 description: OEMCompression function
 old-location: print\oemcompression.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMCompression
+- OEMCompression
 product:
 - Windows
 targetos: Windows

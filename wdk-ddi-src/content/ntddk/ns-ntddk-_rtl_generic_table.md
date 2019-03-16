@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._RTL_GENERIC_TABLE
-title: "_RTL_GENERIC_TABLE"
+title: _RTL_GENERIC_TABLE (ntddk.h)
 description: The RTL_GENERIC_TABLE structure contains file system-specific data for a splay tree.
 old-location: ifsk\rtl_generic_table.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RTL_GENERIC_TABLE
+- RTL_GENERIC_TABLE
 product:
 - Windows
 targetos: Windows

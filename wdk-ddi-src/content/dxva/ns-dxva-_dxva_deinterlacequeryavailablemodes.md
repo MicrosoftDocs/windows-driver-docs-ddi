@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceQueryAvailableModes
-title: "_DXVA_DeinterlaceQueryAvailableModes"
+title: _DXVA_DeinterlaceQueryAvailableModes (dxva.h)
 description: The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
 old-location: display\dxva_deinterlacequeryavailablemodes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceQueryAvailableModes
+- DXVA_DeinterlaceQueryAvailableModes
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetScope
-title: IDebugSymbols::GetScope
+title: IDebugSymbols::GetScope (dbgeng.h)
 description: The GetScope method returns information about the current scope.
 old-location: debugger\getscope.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetScope
--	IDebugSymbols2.GetScope
--	IDebugSymbols3.GetScope
+- IDebugSymbols.GetScope
+- IDebugSymbols2.GetScope
+- IDebugSymbols3.GetScope
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
-title: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
+title: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO (d3d12umddi.h)
 author: mimisasouvanh
 description: 
 ms.assetid: 09830007-9bad-4247-b468-074a69f8f8c0
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
+- D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

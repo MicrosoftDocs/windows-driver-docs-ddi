@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdPrintEx
-title: KdPrintEx macro
+title: KdPrintEx macro (wdm.h)
 description: The KdPrintEx macro sends a string to the kernel debugger if the conditions you specify are met.A call to KdPrintEx requires double parentheses.
 old-location: devtest\kdprintex.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib (See DbgPrintEx.)
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KdPrintEx
+- KdPrintEx
 product:
 - Windows
 targetos: Windows

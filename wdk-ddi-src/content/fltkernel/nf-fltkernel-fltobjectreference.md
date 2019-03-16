@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltObjectReference
-title: FltObjectReference function
+title: FltObjectReference function (fltkernel.h)
 description: The FltObjectReference routine adds a rundown reference to an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectreference.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltObjectReference
+- FltObjectReference
 product:
 - Windows
 targetos: Windows

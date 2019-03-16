@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TEXBLT
-title: "_D3DHAL_DP2TEXBLT"
+title: _D3DHAL_DP2TEXBLT (d3dhal.h)
 description: The D3DHAL_DP2TEXBLT structure is used for texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_TEXBLT command token.
 old-location: display\d3dhal_dp2texblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2TEXBLT
+- D3DHAL_DP2TEXBLT
 product:
 - Windows
 targetos: Windows

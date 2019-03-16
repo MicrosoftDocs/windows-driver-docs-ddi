@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsEcpFromUserMode
-title: FsRtlIsEcpFromUserMode function
+title: FsRtlIsEcpFromUserMode function (ntifs.h)
 description: The FsRtlIsEcpFromUserMode routine determines whether an extra create parameter (ECP) context structure originated from user mode.
 old-location: ifsk\fsrtlisecpfromusermode.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsEcpFromUserMode
+- FsRtlIsEcpFromUserMode
 product:
 - Windows
 targetos: Windows

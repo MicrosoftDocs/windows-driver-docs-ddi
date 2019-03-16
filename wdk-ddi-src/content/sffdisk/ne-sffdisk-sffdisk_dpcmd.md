@@ -1,6 +1,6 @@
 ---
 UID: NE:sffdisk.__unnamed_enum_1
-title: SFFDISK_DPCMD
+title: SFFDISK_DPCMD (sffdisk.h)
 description: The SFFDISK_DPCMD enumeration lists the operations performed by an IOCTL_SFFDISK_DEVICE_PASSWORD request.
 old-location: sd\sffdisk_dpcmd.htm
 tech.root: SD
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sffdisk.h
+- sffdisk.h
 api_name:
--	SFFDISK_DPCMD
+- SFFDISK_DPCMD
 product:
 - Windows
 targetos: Windows

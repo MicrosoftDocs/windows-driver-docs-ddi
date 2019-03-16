@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
-title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore
+title: IWDFUnifiedPropertyStoreFactory::RetrieveUnifiedDevicePropertyStore (wudfddi.h)
 description: The RetrieveUnifiedDevicePropertyStore method retrieves a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory_retrieveunifieddevicepropertystore.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
+- IWDFUnifiedPropertyStoreFactory.RetrieveUnifiedDevicePropertyStore
 product:
 - Windows
 targetos: Windows

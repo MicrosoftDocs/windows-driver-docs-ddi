@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoIs32bitProcess
-title: IoIs32bitProcess function
+title: IoIs32bitProcess function (wdm.h)
 description: The IoIs32bitProcess routine checks whether the originator of the current I/O request is a 32-bit user-mode application.
 old-location: kernel\iois32bitprocess.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIs32bitProcess
+- IoIs32bitProcess
 product:
 - Windows
 targetos: Windows

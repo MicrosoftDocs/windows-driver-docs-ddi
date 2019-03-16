@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_SNAPSHOT
-title: "_D3DKMT_OUTPUTDUPL_SNAPSHOT"
+title: _D3DKMT_OUTPUTDUPL_SNAPSHOT (d3dkmthk.h)
 description: Provides information on the current processes in which output duplication is occurring.
 old-location: display\d3dkmt_outputdupl_snapshot.htm
 ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_OUTPUTDUPL_SNAPSHOT
+- D3DKMT_OUTPUTDUPL_SNAPSHOT
 product:
 - Windows
 targetos: Windows

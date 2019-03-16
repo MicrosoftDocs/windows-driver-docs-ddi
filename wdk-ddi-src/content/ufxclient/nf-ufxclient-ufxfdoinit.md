@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxFdoInit
-title: UfxFdoInit function
+title: UfxFdoInit function (ufxclient.h)
 description: Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls WdfDeviceCreate.
 old-location: buses\ufxfdoinit.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxFdoInit
+- UfxFdoInit
 product:
 - Windows
 targetos: Windows

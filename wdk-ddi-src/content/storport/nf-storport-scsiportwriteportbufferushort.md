@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWritePortBufferUshort
-title: ScsiPortWritePortBufferUshort macro
+title: ScsiPortWritePortBufferUshort macro (storport.h)
 description: The ScsiPortWritePortBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportbufferushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortWritePortBufferUshort
+- ScsiPortWritePortBufferUshort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_ENABLE
-title: EVT_WDF_INTERRUPT_ENABLE
+title: EVT_WDF_INTERRUPT_ENABLE (wdfinterrupt.h)
 description: A driver's EvtInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\evtinterruptenable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfinterrupt.h
+- Wdfinterrupt.h
 api_name:
--	EvtInterruptEnable
+- EvtInterruptEnable
 product:
 - Windows
 targetos: Windows

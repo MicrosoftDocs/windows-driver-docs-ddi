@@ -1,6 +1,6 @@
 ---
 UID: NL:wiautil.CWiauPropertyList
-title: CWiauPropertyList
+title: CWiauPropertyList (wiautil.h)
 description: The CWiauPropertyList class can be used to create and maintain a list of properties for a device.
 old-location: image\cwiaupropertylist_class.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	CWiauPropertyList
+- CWiauPropertyList
 product:
 - Windows
 targetos: Windows

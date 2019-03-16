@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_STARTSESSIONKEYREFRESH
-title: PFND3D11_1DDI_STARTSESSIONKEYREFRESH
+title: PFND3D11_1DDI_STARTSESSIONKEYREFRESH (d3d10umddi.h)
 description: Gets a random number that can be used to refresh the session key.
 old-location: display\startsessionkeyrefresh1.htm
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnStartSessionKeyRefresh
+- pfnStartSessionKeyRefresh
 product:
 - Windows
 targetos: Windows

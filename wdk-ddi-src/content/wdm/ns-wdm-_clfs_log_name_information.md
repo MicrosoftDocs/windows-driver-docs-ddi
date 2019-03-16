@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_LOG_NAME_INFORMATION
-title: "_CLFS_LOG_NAME_INFORMATION"
+title: _CLFS_LOG_NAME_INFORMATION (wdm.h)
 description: The CLFS_LOG_NAME_INFORMATION structure holds the name of a Common Log File System (CLFS) stream or log.
 old-location: kernel\clfs_log_name_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CLFS_LOG_NAME_INFORMATION
+- CLFS_LOG_NAME_INFORMATION
 product:
 - Windows
 targetos: Windows

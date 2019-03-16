@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
-title: "_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG"
+title: _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG (sercx.h)
 description: The SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-transmit-transaction object.
 old-location: serports\sercx2_custom_transmit_transaction_config.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
+- SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
 product:
 - Windows
 targetos: Windows

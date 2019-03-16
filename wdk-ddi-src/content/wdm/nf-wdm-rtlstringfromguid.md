@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlStringFromGUID
-title: RtlStringFromGUID function
+title: RtlStringFromGUID function (wdm.h)
 description: The RtlStringFromGUID routine converts a given GUID from binary format into a Unicode string.
 old-location: kernel\rtlstringfromguid.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlStringFromGUID
+- RtlStringFromGUID
 product:
 - Windows
 targetos: Windows

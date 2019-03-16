@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_START
-title: "_BDA_SCAN_START"
+title: _BDA_SCAN_START (bdatypes.h)
 description: 
 old-location: stream\bda_scan_start.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_SCAN_START
+- BDA_SCAN_START
 product:
 - Windows
 targetos: Windows

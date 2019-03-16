@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_PRE_D0_ENTRY
-title: EVT_WDF_COMPANION_PRE_D0_ENTRY
+title: EVT_WDF_COMPANION_PRE_D0_ENTRY (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_pre_d0_entry.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	EVT_WDF_COMPANION_PRE_D0_ENTRY
+- EVT_WDF_COMPANION_PRE_D0_ENTRY
 product:
 - Windows
 targetos: Windows

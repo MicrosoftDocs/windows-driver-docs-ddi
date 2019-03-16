@@ -1,6 +1,6 @@
 ---
 UID: NF:netrxqueue.NetRxQueueGetDatapathDescriptor
-title: NetRxQueueGetDatapathDescriptor function
+title: NetRxQueueGetDatapathDescriptor function (netrxqueue.h)
 description: The NetRxQueueGetDatapathDescriptor method retrieves the NET_DATAPATH_DESCRIPTOR structure for a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: 18ae9b71-b6a3-4a6f-ab70-74332b852338
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetRxQueueGetDatapathDescriptor
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetRxQueueGetDatapathDescriptor
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

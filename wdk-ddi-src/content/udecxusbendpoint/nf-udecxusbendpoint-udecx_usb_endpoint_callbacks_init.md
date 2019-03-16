@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UDECX_USB_ENDPOINT_CALLBACKS_INIT
-title: UDECX_USB_ENDPOINT_CALLBACKS_INIT function
+title: UDECX_USB_ENDPOINT_CALLBACKS_INIT function (udecxusbendpoint.h)
 description: Initializes a UDECX_USB_ENDPOINT_CALLBACKS structure before a UdecxUsbEndpointCreate call.
 old-location: buses\udecx_usb_endpoint_callbacks_init.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UDECX_USB_ENDPOINT_CALLBACKS_INIT
+- UDECX_USB_ENDPOINT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

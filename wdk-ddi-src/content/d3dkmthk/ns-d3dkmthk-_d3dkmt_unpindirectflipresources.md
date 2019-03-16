@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNPINDIRECTFLIPRESOURCES
-title: _D3DKMT_UNPINDIRECTFLIPRESOURCES
+title: _D3DKMT_UNPINDIRECTFLIPRESOURCES (d3dkmthk.h)
 description: Arguments used to unpin direct flip resources.
 ms.assetid: 90139b21-7e55-404b-9c14-34d8946a9709
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_UNPINDIRECTFLIPRESOURCES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_UNPINDIRECTFLIPRESOURCES
+- _D3DKMT_UNPINDIRECTFLIPRESOURCES
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

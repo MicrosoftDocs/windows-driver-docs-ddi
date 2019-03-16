@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.GetOption
-title: IPrintSchemaFeature::GetOption
+title: IPrintSchemaFeature::GetOption (printerextension.h)
 description: Gets the option with the given name.
 old-location: print\iprintschemafeature_getoption.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaFeature.GetOption
+- IPrintSchemaFeature.GetOption
 product:
 - Windows
 targetos: Windows

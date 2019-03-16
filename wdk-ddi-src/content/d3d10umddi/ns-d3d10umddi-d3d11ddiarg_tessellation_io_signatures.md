@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_TESSELLATION_IO_SIGNATURES
-title: D3D11DDIARG_TESSELLATION_IO_SIGNATURES
+title: D3D11DDIARG_TESSELLATION_IO_SIGNATURES (d3d10umddi.h)
 description: The D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure describes a tessellation I/O signature.
 old-location: display\d3d11ddiarg_tessellation_io_signatures.htm
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_TESSELLATION_IO_SIGNATURES
+- D3D11DDIARG_TESSELLATION_IO_SIGNATURES
 product:
 - Windows
 targetos: Windows

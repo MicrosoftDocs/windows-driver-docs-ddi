@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_UNLOCK
-title: EVT_SPB_CONTROLLER_UNLOCK
+title: EVT_SPB_CONTROLLER_UNLOCK (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerUnlock event callback function unlocks the SPB controller, which was locked by a previous call to the EvtSpbControllerLock event callback function.
 old-location: spb\evtspbcontrollerunlock.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	EvtSpbControllerUnlock
+- EvtSpbControllerUnlock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
-title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
+title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 (d3d12umddi.h)
 description: Used to process a video frame.
 old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
+- PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.DisassembleWide
-title: IDebugControl4::DisassembleWide
+title: IDebugControl4::DisassembleWide (dbgeng.h)
 description: The DisassembleWide method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemblewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.DisassembleWide
+- IDebugControl4.DisassembleWide
 product:
 - Windows
 targetos: Windows

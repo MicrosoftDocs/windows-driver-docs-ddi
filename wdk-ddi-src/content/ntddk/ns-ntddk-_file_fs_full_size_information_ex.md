@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_FS_FULL_SIZE_INFORMATION_EX
-title: _FILE_FS_FULL_SIZE_INFORMATION_EX
+title: _FILE_FS_FULL_SIZE_INFORMATION_EX (ntddk.h)
 description: Used in a request to query sector size information for a file system volume.
 tech.root: ifsk
 ms.assetid: a7d7b036-3f47-4e6d-87df-1578300e095c
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_FILE_FS_FULL_SIZE_INFORMATION_EX
-product: Windows
+- _FILE_FS_FULL_SIZE_INFORMATION_EX
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

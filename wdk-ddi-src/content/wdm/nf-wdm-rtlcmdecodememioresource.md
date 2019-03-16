@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCmDecodeMemIoResource
-title: RtlCmDecodeMemIoResource function
+title: RtlCmDecodeMemIoResource function (wdm.h)
 description: The RtlCmDecodeMemIoResource routine provides the starting address and length of a CM_PARTIAL_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtlcmdecodememioresource.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCmDecodeMemIoResource
+- RtlCmDecodeMemIoResource
 product:
 - Windows
 targetos: Windows

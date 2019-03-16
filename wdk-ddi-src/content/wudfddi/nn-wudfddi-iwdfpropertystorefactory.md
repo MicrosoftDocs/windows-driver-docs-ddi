@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFPropertyStoreFactory
-title: IWDFPropertyStoreFactory
+title: IWDFPropertyStoreFactory (wudfddi.h)
 description: The IWDFPropertyStoreFactory interface is a factory interface that is used to create a property store interface.
 old-location: wdf\iwdfpropertystorefactory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFPropertyStoreFactory
+- IWDFPropertyStoreFactory
 product:
 - Windows
 targetos: Windows

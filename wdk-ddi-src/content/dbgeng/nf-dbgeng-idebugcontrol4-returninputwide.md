@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ReturnInputWide
-title: IDebugControl4::ReturnInputWide
+title: IDebugControl4::ReturnInputWide (dbgeng.h)
 description: The ReturnInputWide method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninputwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.ReturnInputWide
+- IDebugControl4.ReturnInputWide
 product:
 - Windows
 targetos: Windows

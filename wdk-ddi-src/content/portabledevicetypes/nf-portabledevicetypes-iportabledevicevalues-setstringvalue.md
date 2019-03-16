@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetStringValue
-title: IPortableDeviceValues::SetStringValue
+title: IPortableDeviceValues::SetStringValue (portabledevicetypes.h)
 description: Adds a new string value (type VT_LPWSTR) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setstringvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetStringValue
+- IPortableDeviceValues.SetStringValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

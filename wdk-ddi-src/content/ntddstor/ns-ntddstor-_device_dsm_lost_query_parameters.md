@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_PARAMETERS
-title: _DEVICE_DSM_LOST_QUERY_PARAMETERS
+title: _DEVICE_DSM_LOST_QUERY_PARAMETERS (ntddstor.h)
 description: 
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_DSM_LOST_QUERY_PARAMETERS, *PDEVICE_DSM_LOST_QUERY_PARAMETERS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_DEVICE_DSM_LOST_QUERY_PARAMETERS
+- _DEVICE_DSM_LOST_QUERY_PARAMETERS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

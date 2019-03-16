@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetHardwareRegisterMappedAddress
-title: WdfDeviceGetHardwareRegisterMappedAddress function
+title: WdfDeviceGetHardwareRegisterMappedAddress function (wdfdevice.h)
 description: A driver calls WdfDeviceGetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it mapped previously using WdfDeviceMapIoSpace.
 old-location: wdf\wdfdevicegethardwareregistermappedaddress.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDeviceGetHardwareRegisterMappedAddress
+- WdfDeviceGetHardwareRegisterMappedAddress
 product:
 - Windows
 targetos: Windows

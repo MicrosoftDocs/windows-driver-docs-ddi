@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_ADDMODE
-title: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE
+title: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE (d3dkmddi.h)
 description: The pfnAddMode function adds a VidPN source mode to a specified VidPN source mode set object.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnaddmode.htm
 ms.assetid: 754078c2-f79b-4237-a14c-96903856f3a5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAddMode
+- pfnAddMode
 product:
 - Windows
 targetos: Windows

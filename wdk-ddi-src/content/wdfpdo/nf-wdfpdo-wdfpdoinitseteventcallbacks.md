@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitSetEventCallbacks
-title: WdfPdoInitSetEventCallbacks function
+title: WdfPdoInitSetEventCallbacks function (wdfpdo.h)
 description: The WdfPdoInitSetEventCallbacks method registers a bus driver's event callback functions.
 old-location: wdf\wdfpdoinitseteventcallbacks.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoInitSetEventCallbacks
+- WdfPdoInitSetEventCallbacks
 product:
 - Windows
 targetos: Windows

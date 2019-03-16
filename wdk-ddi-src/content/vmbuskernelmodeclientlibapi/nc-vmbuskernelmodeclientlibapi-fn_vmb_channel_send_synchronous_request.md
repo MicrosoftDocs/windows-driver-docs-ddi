@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
-title: FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
+title: FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSendSynchronousRequest function sends a packet to the opposite endpoint and waits for a response.
 tech.root: netvista
 ms.assetid: 353b996b-0678-4ce6-aaeb-3835ae05ee3e
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
+- FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

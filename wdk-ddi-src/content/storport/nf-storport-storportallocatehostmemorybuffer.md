@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateHostMemoryBuffer
-title: StorPortAllocateHostMemoryBuffer function
+title: StorPortAllocateHostMemoryBuffer function (storport.h)
 description: This function allocates one or more ranges of physically contiguous memory to be used as a Host Memory Buffer (HMB).
 old-location: storage\storportallocatehostmemorybuffer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAllocateHostMemoryBuffer
+- StorPortAllocateHostMemoryBuffer
 product:
 - Windows
 targetos: Windows

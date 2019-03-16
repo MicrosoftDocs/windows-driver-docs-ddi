@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiDebugPrint
-title: ScsiDebugPrint function
+title: ScsiDebugPrint function (srb.h)
 description: The ScsiDebugPrint routine prints debug information with a level of verbosity based on global values set in the kernel debugger or set in the registry and initialized when the system boots.
 old-location: storage\scsidebugprint.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiDebugPrint
+- ScsiDebugPrint
 product:
 - Windows
 targetos: Windows

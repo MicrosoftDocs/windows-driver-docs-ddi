@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbDeviceReceiveDeviceServiceSessionData
-title: MbbDeviceReceiveDeviceServiceSessionData function
+title: MbbDeviceReceiveDeviceServiceSessionData function (mbbcx.h)
 description: Client drivers call the MbbDeviceReceiveServiceSessionData method to pass received device service session data up to an application through the MBBCx framework.
 tech.root: netvista
 ms.assetid: 691429b7-4abd-4a79-80bb-9dade10fda86
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MbbDeviceReceiveDeviceServiceSessionData
+- MbbDeviceReceiveDeviceServiceSessionData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:extsfns._DEBUG_FAILURE_TYPE
-title: "_DEBUG_FAILURE_TYPE"
+title: _DEBUG_FAILURE_TYPE (extsfns.h)
 description: The values in the DEBUG_FAILURE_TYPE enumeration indicate the type of a failure.
 old-location: debugger\debug_failure_type.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	DEBUG_FAILURE_TYPE
+- DEBUG_FAILURE_TYPE
 product:
 - Windows
 targetos: Windows

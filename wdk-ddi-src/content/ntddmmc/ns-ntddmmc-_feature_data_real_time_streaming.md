@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REAL_TIME_STREAMING
-title: "_FEATURE_DATA_REAL_TIME_STREAMING"
+title: _FEATURE_DATA_REAL_TIME_STREAMING (ntddmmc.h)
 description: The FEATURE_DATA_REAL_TIME_STREAMING structure holds information about the Real Time Streaming feature.
 old-location: storage\feature_data_real_time_streaming.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_REAL_TIME_STREAMING
+- FEATURE_DATA_REAL_TIME_STREAMING
 product:
 - Windows
 targetos: Windows

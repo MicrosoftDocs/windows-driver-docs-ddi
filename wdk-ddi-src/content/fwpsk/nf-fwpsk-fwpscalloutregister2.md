@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutRegister2
-title: FwpsCalloutRegister2 function
+title: FwpsCalloutRegister2 function (fwpsk.h)
 description: The FwpsCalloutRegister2 function registers a callout with the filter engine.Note  FwpsCalloutRegister2 is the specific version of FwpsCalloutRegister used in Windows 8 and later.
 old-location: netvista\fwpscalloutregister2.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpsCalloutRegister2
+- FwpsCalloutRegister2
 product:
 - Windows
 targetos: Windows

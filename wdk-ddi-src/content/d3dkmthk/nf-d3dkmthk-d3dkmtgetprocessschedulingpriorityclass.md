@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessSchedulingPriorityClass
-title: D3DKMTGetProcessSchedulingPriorityClass function
+title: D3DKMTGetProcessSchedulingPriorityClass function (d3dkmthk.h)
 description: The D3DKMTGetProcessSchedulingPriorityClass function retrieves the scheduling priority for a process.
 old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetProcessSchedulingPriorityClass
+- D3DKMTGetProcessSchedulingPriorityClass
 product:
 - Windows
 targetos: Windows

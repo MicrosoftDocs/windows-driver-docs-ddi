@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_DISCONNECT_DEVICE
-title: IOCTL_BTH_DISCONNECT_DEVICE
+title: IOCTL_BTH_DISCONNECT_DEVICE (bthioctl.h)
 description: Profile drivers use IOCTL_BTH_DISCONNECT_DEVICE to request the operating system to disconnect the specified remote device.
 old-location: bltooth\ioctl_bth_disconnect_device.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_DISCONNECT_DEVICE
+- IOCTL_BTH_DISCONNECT_DEVICE
 product:
 - Windows
 targetos: Windows

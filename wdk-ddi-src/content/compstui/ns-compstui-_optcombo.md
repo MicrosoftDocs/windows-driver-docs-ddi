@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTCOMBO
-title: "_OPTCOMBO"
+title: _OPTCOMBO (compstui.h)
 description: 
 old-location: print\optcombo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Compstui.h
+- Compstui.h
 api_name:
--	OPTCOMBO
+- OPTCOMBO
 product:
 - Windows
 targetos: Windows

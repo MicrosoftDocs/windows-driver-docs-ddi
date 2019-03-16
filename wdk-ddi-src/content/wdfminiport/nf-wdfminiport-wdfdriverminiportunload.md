@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfminiport.WdfDriverMiniportUnload
-title: WdfDriverMiniportUnload function
+title: WdfDriverMiniportUnload function (wdfminiport.h)
 description: The WdfDriverMiniportUnload method deletes a specified miniport driver's framework driver object.
 old-location: wdf\wdfdriverminiportunload.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDriverMiniportUnload
+- WdfDriverMiniportUnload
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisOffloadTcpDisconnect
-title: NdisOffloadTcpDisconnect function
+title: NdisOffloadTcpDisconnect function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisOffloadTcpDisconnect function to close the send half of an offloaded TCP connection.
 old-location: netvista\ndisoffloadtcpdisconnect.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisOffloadTcpDisconnect
+- NdisOffloadTcpDisconnect
 product:
 - Windows
 targetos: Windows

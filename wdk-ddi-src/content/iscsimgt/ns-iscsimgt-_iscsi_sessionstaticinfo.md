@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_SessionStaticInfo
-title: "_ISCSI_SessionStaticInfo"
+title: _ISCSI_SessionStaticInfo (iscsimgt.h)
 description: The ISCSI_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
 old-location: storage\iscsi_sessionstaticinfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	ISCSI_SessionStaticInfo
+- ISCSI_SessionStaticInfo
 product:
 - Windows
 targetos: Windows

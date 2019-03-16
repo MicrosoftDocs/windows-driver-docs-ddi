@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEAUDIOINFO
-title: tagKS_MPEAUDIOINFO
+title: tagKS_MPEAUDIOINFO (ksmedia.h)
 description: The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
 old-location: stream\ks_mpegaudioinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_MPEGAUDIOINFO
+- KS_MPEGAUDIOINFO
 product:
 - Windows
 targetos: Windows

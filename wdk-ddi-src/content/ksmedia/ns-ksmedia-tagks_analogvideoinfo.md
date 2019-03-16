@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AnalogVideoInfo
-title: tagKS_AnalogVideoInfo
+title: tagKS_AnalogVideoInfo (ksmedia.h)
 description: The KS_ANALOGVIDEOINFO structure describes an analog video stream.
 old-location: stream\ks_analogvideoinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_ANALOGVIDEOINFO
+- KS_ANALOGVIDEOINFO
 product:
 - Windows
 targetos: Windows

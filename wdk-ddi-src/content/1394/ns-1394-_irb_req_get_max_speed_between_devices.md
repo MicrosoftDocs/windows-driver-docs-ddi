@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
-title: "_IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES"
+title: _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES (1394.h)
 description: This structure contains the fields necessary in order for the Bus driver to carry out a GetMaxSpeedBetweenDevices request.
 old-location: ieee\irb_req_get_max_speed_between_devices.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
+- IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION
-title: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION
+title: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION (dispmprt.h)
 description: Called by the Microsoft DirectX graphics kernel subsystem to set the level of optimization that the display miniport driver uses to control the brightness of an integrated display panel.
 old-location: display\dxgkddisetbacklightoptimization.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiSetBacklightOptimization
+- DxgkDdiSetBacklightOptimization
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_SET_PLUG
-title: "_CMP_SET_PLUG"
+title: _CMP_SET_PLUG (61883.h)
 description: This structure is used to assign settings to a plug.
 old-location: ieee\cmp_set_plug.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_SET_PLUG
+- CMP_SET_PLUG
 product:
 - Windows
 targetos: Windows

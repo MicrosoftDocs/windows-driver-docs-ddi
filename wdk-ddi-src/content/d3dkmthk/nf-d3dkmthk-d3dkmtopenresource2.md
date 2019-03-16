@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResource2
-title: D3DKMTOpenResource2 function
+title: D3DKMTOpenResource2 function (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtopenresource2.htm
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenResource2
+- D3DKMTOpenResource2
 product:
 - Windows
 targetos: Windows

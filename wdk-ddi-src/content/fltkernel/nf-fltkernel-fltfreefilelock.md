@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeFileLock
-title: FltFreeFileLock function
+title: FltFreeFileLock function (fltkernel.h)
 description: The FltFreeFileLock routine uninitializes and frees an initialized FILE_LOCK structure.
 old-location: ifsk\fltfreefilelock.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltFreeFileLock
+- FltFreeFileLock
 product:
 - Windows
 targetos: Windows

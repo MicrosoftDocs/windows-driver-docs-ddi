@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT
-title: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT
+title: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT (d3d10umddi.h)
 description: Queries the number of buffer types that the display miniport driver requires to perform a specified decode operation.
 old-location: display\getvideodecoderbuffertypecount.htm
 ms.assetid: 3528ac03-55cf-4e02-ae42-69b736684147
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetVideoDecoderBufferTypeCount
+- pfnGetVideoDecoderBufferTypeCount
 product:
 - Windows
 targetos: Windows

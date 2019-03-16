@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WDF_IO_QUEUE_PURGED
-title: WDF_IO_QUEUE_PURGED function
+title: WDF_IO_QUEUE_PURGED function (wdfio.h)
 description: The WDF_IO_QUEUE_PURGED function returns TRUE if an I/O queue's state indicates that the queue is drained.
 old-location: wdf\wdf_io_queue_purged.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any IRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_IO_QUEUE_PURGED
+- WDF_IO_QUEUE_PURGED
 product:
 - Windows
 targetos: Windows

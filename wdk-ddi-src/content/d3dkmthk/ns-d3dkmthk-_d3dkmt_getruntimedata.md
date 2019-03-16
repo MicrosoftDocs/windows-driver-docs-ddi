@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETRUNTIMEDATA
-title: _D3DKMT_GETRUNTIMEDATA
+title: _D3DKMT_GETRUNTIMEDATA (d3dkmthk.h)
 description: Used to get runtime data.
 ms.assetid: cbd30292-94ee-4be6-a4b4-e0a22c2022ee
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GETRUNTIMEDATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GETRUNTIMEDATA
+- _D3DKMT_GETRUNTIMEDATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

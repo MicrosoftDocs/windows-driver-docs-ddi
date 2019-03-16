@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_EXPOSURE_PROGRAM_MODES
-title: tagWPD_EXPOSURE_PROGRAM_MODES
+title: WPD_EXPOSURE_PROGRAM_MODES (portabledevice.h)
 description: The WPD_EXPOSURE_PROGRAM_MODES enumeration type describes an exposure mode to use when capturing images with a device.
 old-location: wpddk\wpd_exposure_program_modes.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_EXPOSURE_PROGRAM_MODES
+- WPD_EXPOSURE_PROGRAM_MODES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_EXPOSURE_PROGRAM_MODES
 ms.custom: RS5
@@ -102,7 +102,7 @@ An automated exposure mode that specifies a relatively shallow depth of field.
 
 
 
-Indicates the exposure program mode of the device. This enumeration is used by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_EXPOSURE_PROGRAM_MODE</a> property.
+Indicates the exposure program mode of the device. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_EXPOSURE_PROGRAM_MODE</a> property.
 
 
 

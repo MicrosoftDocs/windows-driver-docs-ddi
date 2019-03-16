@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
-title: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE
+title: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE (d3d10umddi.h)
 description: The ResourceResolveSubresource function resolves multiple samples to one pixel.
 old-location: display\resourceresolvesubresource.htm
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceResolveSubresource
+- ResourceResolveSubresource
 product:
 - Windows
 targetos: Windows

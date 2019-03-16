@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.ForwardToIoQueue
-title: IWDFIoRequest::ForwardToIoQueue
+title: IWDFIoRequest::ForwardToIoQueue (wudfddi.h)
 description: The ForwardToIoQueue method forwards (that is, requeues) an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\iwdfiorequest_forwardtoioqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.ForwardToIoQueue
+- IWDFIoRequest.ForwardToIoQueue
 product:
 - Windows
 targetos: Windows

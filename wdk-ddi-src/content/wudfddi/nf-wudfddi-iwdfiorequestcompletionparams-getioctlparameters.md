@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetIoctlParameters
-title: IWDFIoRequestCompletionParams::GetIoctlParameters
+title: IWDFIoRequestCompletionParams::GetIoctlParameters (wudfddi.h)
 description: The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequestCompletionParams.GetIoctlParameters
+- IWDFIoRequestCompletionParams.GetIoctlParameters
 product:
 - Windows
 targetos: Windows

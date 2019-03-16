@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_ATA_DATA_TYPE
-title: "_STORAGE_PROTOCOL_ATA_DATA_TYPE"
+title: _STORAGE_PROTOCOL_ATA_DATA_TYPE (ntddstor.h)
 description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PROTOCOL_ATA_DATA_TYPE
+- STORAGE_PROTOCOL_ATA_DATA_TYPE
 product:
 - Windows
 targetos: Windows

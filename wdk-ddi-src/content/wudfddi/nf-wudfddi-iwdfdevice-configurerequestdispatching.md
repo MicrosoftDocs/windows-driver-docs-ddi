@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.ConfigureRequestDispatching
-title: IWDFDevice::ConfigureRequestDispatching
+title: IWDFDevice::ConfigureRequestDispatching (wudfddi.h)
 description: The ConfigureRequestDispatching method configures the queuing of I/O requests of the specified type to the specified I/O queue.
 old-location: wdf\iwdfdevice_configurerequestdispatching.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.ConfigureRequestDispatching
+- IWDFDevice.ConfigureRequestDispatching
 product:
 - Windows
 targetos: Windows

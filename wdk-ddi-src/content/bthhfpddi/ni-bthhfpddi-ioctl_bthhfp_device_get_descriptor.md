@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
-title: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
+title: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR (bthhfpddi.h)
 description: The audio driver issues the IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code to get information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface.
 old-location: audio\ioctl_bthhfp_device_get_descriptor.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
+- IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

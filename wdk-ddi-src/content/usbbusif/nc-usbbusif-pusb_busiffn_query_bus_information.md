@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_INFORMATION
-title: PUSB_BUSIFFN_QUERY_BUS_INFORMATION
+title: PUSB_BUSIFFN_QUERY_BUS_INFORMATION (usbbusif.h)
 description: The QueryBusInformation routine gets information about the bus.
 old-location: buses\querybusinformation.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	QueryBusInformation
+- QueryBusInformation
 product:
 - Windows
 targetos: Windows

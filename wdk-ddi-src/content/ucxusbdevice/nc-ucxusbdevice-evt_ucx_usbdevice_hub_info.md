@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_HUB_INFO
-title: EVT_UCX_USBDEVICE_HUB_INFO
+title: EVT_UCX_USBDEVICE_HUB_INFO (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to retrieve hub properties.
 old-location: buses\evt_ucx_usbdevice_hub_info.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_HUB_INFO
+- PEVT_UCX_USBDEVICE_HUB_INFO
 product:
 - Windows
 targetos: Windows

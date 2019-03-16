@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.TRFUNC
-title: TRFUNC
+title: TRFUNC (trustedruntimeclx.h)
 description: 
 ms.assetid: 8e25c958-8de1-4ae5-ace9-91184e90a1bd
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	TRFUNC
+- TRFUNC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

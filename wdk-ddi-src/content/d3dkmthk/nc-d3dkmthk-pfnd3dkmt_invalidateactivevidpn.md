@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_INVALIDATEACTIVEVIDPN
-title: PFND3DKMT_INVALIDATEACTIVEVIDPN
+title: PFND3DKMT_INVALIDATEACTIVEVIDPN (d3dkmthk.h)
 description: Pfnd3dkmtInvalidateactivevidpn invalidates the active video present network (VidPN) currently in use.
 ms.assetid: 9f286769-6655-46ef-93bc-5b9e0337c724
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_INVALIDATEACTIVEVIDPN
+- PFND3DKMT_INVALIDATEACTIVEVIDPN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

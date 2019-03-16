@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateFragmentNetBufferList
-title: NdisAllocateFragmentNetBufferList function
+title: NdisAllocateFragmentNetBufferList function (ndis.h)
 description: Call the NdisAllocateFragmentNetBufferList function to create a new fragmented NET_BUFFER_LIST structure based upon the data in an existing NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatefragmentnetbufferlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateFragmentNetBufferList
+- NdisAllocateFragmentNetBufferList
 product:
 - Windows
 targetos: Windows

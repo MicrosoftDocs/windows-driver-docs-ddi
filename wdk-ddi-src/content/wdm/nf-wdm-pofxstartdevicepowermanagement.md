@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxStartDevicePowerManagement
-title: PoFxStartDevicePowerManagement function
+title: PoFxStartDevicePowerManagement function (wdm.h)
 description: The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 old-location: kernel\pofxstartdevicepowermanagement.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxStartDevicePowerManagement
+- PoFxStartDevicePowerManagement
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
-title: "_D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
+title: _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE (d3dkmthk.h)
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmt-openprotectedsessionfromnthandle.htm
 ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
+- D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE
 product:
 - Windows
 targetos: Windows

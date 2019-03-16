@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtQueryPolicy
-title: ClfsMgmtQueryPolicy function
+title: ClfsMgmtQueryPolicy function (wdm.h)
 description: The ClfsMgmtQueryPolicy routine retrieves a specific CLFS_MGMT_POLICY structure for a log.
 old-location: kernel\clfsmgmtquerypolicy.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsMgmtQueryPolicy
+- ClfsMgmtQueryPolicy
 product:
 - Windows
 targetos: Windows

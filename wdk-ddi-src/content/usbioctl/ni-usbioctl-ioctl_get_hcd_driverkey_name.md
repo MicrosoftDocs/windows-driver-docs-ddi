@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_GET_HCD_DRIVERKEY_NAME
-title: IOCTL_GET_HCD_DRIVERKEY_NAME
+title: IOCTL_GET_HCD_DRIVERKEY_NAME (usbioctl.h)
 description: The IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request retrieves the driver key name in the registry for a USB host controller driver.
 old-location: buses\ioctl_get_hcd_driverkey_name.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_GET_HCD_DRIVERKEY_NAME
+- IOCTL_GET_HCD_DRIVERKEY_NAME
 product:
 - Windows
 targetos: Windows

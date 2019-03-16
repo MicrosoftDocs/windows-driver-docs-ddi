@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_EXECUTE_CWTEST
-title: IOCTL_GNSS_EXECUTE_CWTEST
+title: IOCTL_GNSS_EXECUTE_CWTEST (gnssdriver.h)
 description: The IOCTL_GNSS_EXECUTE_CWTEST control code is used by the GNSS manufacturing test application to start a carrier wave test and get the measurement. The test application must wait for the result before starting another iteration of the measurement.
 old-location: gnss\ioctl_gnss_execute_cwtest.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	IOCTL_GNSS_EXECUTE_CWTEST
+- IOCTL_GNSS_EXECUTE_CWTEST
 product:
 - Windows
 targetos: Windows

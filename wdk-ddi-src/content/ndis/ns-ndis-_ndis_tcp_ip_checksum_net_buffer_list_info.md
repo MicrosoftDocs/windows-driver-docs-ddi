@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
-title: "_NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO"
+title: _NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO structure specifies information used in offloading checksum tasks from the TCP/IP transport to a NIC.
 old-location: netvista\ndis_tcp_ip_checksum_net_buffer_list_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
+- NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO
 product:
 - Windows
 targetos: Windows

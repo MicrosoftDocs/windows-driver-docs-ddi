@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_STATES
-title: D3D12DDI_RESOURCE_STATES
+title: D3D12DDI_RESOURCE_STATES (d3d12umddi.h)
 description: Contains resource states.
 old-location: display\d3d12ddi_resource_states.htm
 ms.assetid: E5DB8AF3-A6ED-4CD7-9723-78ACD57F1723
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_STATES
+- D3D12DDI_RESOURCE_STATES
 product:
 - Windows
 targetos: Windows

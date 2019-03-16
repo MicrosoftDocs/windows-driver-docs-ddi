@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_UPDATE_FIRMWARE
-title: IOCTL_BIOMETRIC_UPDATE_FIRMWARE
+title: IOCTL_BIOMETRIC_UPDATE_FIRMWARE (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL tells the driver to update the firmware for the device with the given firmware image. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_update_firmware.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winbio_ioctl.h
+- Winbio_ioctl.h
 api_name:
--	IOCTL_BIOMETRIC_UPDATE_FIRMWARE
+- IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 product:
 - Windows
 targetos: Windows

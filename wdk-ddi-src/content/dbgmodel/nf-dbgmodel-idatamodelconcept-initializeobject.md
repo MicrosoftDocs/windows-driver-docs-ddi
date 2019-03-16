@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.InitializeObject
-title: IDataModelConcept::InitializeObject
+title: IDataModelConcept::InitializeObject (dbgmodel.h)
 description: A data model can be registered as the canonical visualizer or as an extension for a given native type through the data model manager's RegisterModelForTypeSignature or RegisterExtensionForTypeSignature methods.
 ms.assetid: 39dd2497-1650-4bf4-9aa1-71ed154182ba
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelConcept.InitializeObject
-product: Windows
+- IDataModelConcept.InitializeObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

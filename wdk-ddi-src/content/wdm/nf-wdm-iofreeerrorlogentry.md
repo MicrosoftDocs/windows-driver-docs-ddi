@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeErrorLogEntry
-title: IoFreeErrorLogEntry function
+title: IoFreeErrorLogEntry function (wdm.h)
 description: The IoFreeErrorLogEntry routine frees an unused error log entry.
 old-location: kernel\iofreeerrorlogentry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoFreeErrorLogEntry
+- IoFreeErrorLogEntry
 product:
 - Windows
 targetos: Windows

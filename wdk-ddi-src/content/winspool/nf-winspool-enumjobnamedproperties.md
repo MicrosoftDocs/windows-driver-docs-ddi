@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.EnumJobNamedProperties
-title: EnumJobNamedProperties function
+title: EnumJobNamedProperties function (winspool.h)
 description: 
 old-location: print\enumjobnamedproperties.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winspool.h
+- Winspool.h
 api_name:
--	EnumJobNamedProperties
+- EnumJobNamedProperties
 product:
 - Windows
 targetos: Windows

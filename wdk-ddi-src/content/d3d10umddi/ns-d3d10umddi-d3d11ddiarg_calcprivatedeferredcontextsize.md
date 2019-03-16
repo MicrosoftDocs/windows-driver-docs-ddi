@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
-title: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
+title: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE (d3d10umddi.h)
 description: The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data.
 old-location: display\d3d11ddiarg_calcprivatedeferredcontextsize.htm
 ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
+- D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 product:
 - Windows
 targetos: Windows

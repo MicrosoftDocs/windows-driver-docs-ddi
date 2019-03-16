@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GDIROP_COLORFILL
-title: "_DXGK_GDIROP_COLORFILL"
+title: _DXGK_GDIROP_COLORFILL (d3dkmddi.h)
 description: The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
 old-location: display\dxgk_gdirop_colorfill.htm
 ms.assetid: 1ef99bb0-855a-46d1-9702-5fc3eba5e68e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GDIROP_COLORFILL
+- DXGK_GDIROP_COLORFILL
 product:
 - Windows
 targetos: Windows

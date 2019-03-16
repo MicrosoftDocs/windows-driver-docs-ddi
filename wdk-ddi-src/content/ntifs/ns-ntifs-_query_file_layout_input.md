@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._QUERY_FILE_LAYOUT_INPUT
-title: "_QUERY_FILE_LAYOUT_INPUT"
+title: _QUERY_FILE_LAYOUT_INPUT (ntifs.h)
 description: The QUERY_FILE_LAYOUT_INPUT structure selects which file layout entries are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_input.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	QUERY_FILE_LAYOUT_INPUT
+- QUERY_FILE_LAYOUT_INPUT
 product:
 - Windows
 targetos: Windows

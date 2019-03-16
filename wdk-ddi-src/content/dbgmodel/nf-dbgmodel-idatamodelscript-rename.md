@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Rename
-title: IDataModelScript::Rename
+title: IDataModelScript::Rename (dbgmodel.h)
 description: The Rename method assigns a new name to the script. 
 ms.assetid: b6bb9297-1c8a-4f4c-a5c7-dfa62408be9d
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScript.Rename
-product: Windows
+- IDataModelScript.Rename
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

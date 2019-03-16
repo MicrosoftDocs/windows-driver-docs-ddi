@@ -1,6 +1,6 @@
 ---
 UID: NS:bthhfpddi._BTHHFP_AUDIO_DEVICE_CAPABILTIES
-title: "_BTHHFP_AUDIO_DEVICE_CAPABILTIES"
+title: _BTHHFP_AUDIO_DEVICE_CAPABILTIES (bthhfpddi.h)
 description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure describes the capabilities of a Bluetooth HFP device, including the version and whether it supports 16 kHz sampling.
 old-location: audio\bthhfp_audio_device_capabilties.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthhfpddi.h
+- bthhfpddi.h
 api_name:
--	BTHHFP_AUDIO_DEVICE_CAPABILTIES
+- BTHHFP_AUDIO_DEVICE_CAPABILTIES
 product:
 - Windows
 targetos: Windows

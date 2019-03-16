@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFileSystemType
-title: FltGetFileSystemType function
+title: FltGetFileSystemType function (fltkernel.h)
 description: The FltGetFileSystemType function takes a volume or instance object and provides the file system type of the volume.
 old-location: ifsk\fltgetfilesystemtype.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltGetFileSystemType
+- FltGetFileSystemType
 product:
 - Windows
 targetos: Windows

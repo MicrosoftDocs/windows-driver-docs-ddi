@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
-title: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
+title: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS (pointofservicedriverinterface.h)
 description: This I/O control function returns unified point of service (UPOS) standard information about a device such as its category, manufacturer, and firmware revision number.
 old-location: pos\ioctl_point_of_service_retrieve_statistics.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
+- IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
 product:
 - Windows
 targetos: Windows

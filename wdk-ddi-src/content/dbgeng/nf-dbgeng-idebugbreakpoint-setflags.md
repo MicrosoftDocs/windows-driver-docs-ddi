@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetFlags
-title: IDebugBreakpoint::SetFlags
+title: IDebugBreakpoint::SetFlags (dbgeng.h)
 description: The SetFlags method sets the flags for a breakpoint.
 old-location: debugger\setflags.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.SetFlags
--	IDebugBreakpoint2.SetFlags
+- IDebugBreakpoint.SetFlags
+- IDebugBreakpoint2.SetFlags
 product:
 - Windows
 targetos: Windows

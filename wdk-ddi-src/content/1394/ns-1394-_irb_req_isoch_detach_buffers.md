@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_DETACH_BUFFERS
-title: "_IRB_REQ_ISOCH_DETACH_BUFFERS"
+title: _IRB_REQ_ISOCH_DETACH_BUFFERS (1394.h)
 description: This structure contains the fields required to carry out a IsochDetachBuffers request.
 old-location: ieee\irb_req_isoch_detach_buffers.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_ISOCH_DETACH_BUFFERS
+- IRB_REQ_ISOCH_DETACH_BUFFERS
 product:
 - Windows
 targetos: Windows

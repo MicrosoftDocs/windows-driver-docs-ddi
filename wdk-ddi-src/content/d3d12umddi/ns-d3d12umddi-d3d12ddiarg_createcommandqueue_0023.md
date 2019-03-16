@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATECOMMANDQUEUE_0023
-title: D3D12DDIARG_CREATECOMMANDQUEUE_0023
+title: D3D12DDIARG_CREATECOMMANDQUEUE_0023 (d3d12umddi.h)
 description: Contains arguments used to create a command queue.
 old-location: display\d3d12ddiarg_createcommandqueue_0023.htm
 ms.assetid: F8194BA0-325F-48B8-994F-FA2EA80C70D9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATECOMMANDQUEUE_0023
+- D3D12DDIARG_CREATECOMMANDQUEUE_0023
 product:
 - Windows
 targetos: Windows

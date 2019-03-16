@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PERF_INFO
-title: "_PEP_COMPONENT_PERF_INFO"
+title: _PEP_COMPONENT_PERF_INFO (pepfx.h)
 description: The PEP_COMPONENT_PERF_INFO structure describes the performance states (P-states) of a component.
 old-location: kernel\pep_component_perf_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_COMPONENT_PERF_INFO
+- PEP_COMPONENT_PERF_INFO
 product:
 - Windows
 targetos: Windows

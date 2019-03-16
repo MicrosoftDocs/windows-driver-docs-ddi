@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_NOTIFICATION
-title: "_USBFN_NOTIFICATION"
+title: _USBFN_NOTIFICATION (usbfnbase.h)
 description: Describes information about a Universal Serial Bus (USB) event notification that was received by using IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION.
 old-location: buses\usbfn_notification.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_NOTIFICATION
+- USBFN_NOTIFICATION
 product:
 - Windows
 targetos: Windows

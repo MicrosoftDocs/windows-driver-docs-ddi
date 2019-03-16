@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
-title: "_DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS"
+title: _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS (d3dkmdt.h)
 description: The DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure contains parameters to set the version of a High-bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) for a protected output.
 old-location: display\dxgkmdt_opm_set_hdcp_srm_parameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
+- DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
 product:
 - Windows
 targetos: Windows

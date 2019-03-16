@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._MESSAGE_INTERRUPT_INFORMATION
-title: "_MESSAGE_INTERRUPT_INFORMATION"
+title: _MESSAGE_INTERRUPT_INFORMATION (storport.h)
 description: The MESSAGE_INTERRUPT_INFORMATION structure describes a message signaled interrupt (MSI).
 old-location: storage\message_interrupt_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	MESSAGE_INTERRUPT_INFORMATION
+- MESSAGE_INTERRUPT_INFORMATION
 product:
 - Windows
 targetos: Windows

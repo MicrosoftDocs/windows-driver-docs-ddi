@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDropPartyComplete
-title: NdisMCmDropPartyComplete macro
+title: NdisMCmDropPartyComplete macro (ndis.h)
 description: NdisMCmDropPartyComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to remove a party from a multipoint VC.
 old-location: netvista\ndismcmdroppartycomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmDropPartyComplete
+- NdisMCmDropPartyComplete
 product:
 - Windows
 targetos: Windows

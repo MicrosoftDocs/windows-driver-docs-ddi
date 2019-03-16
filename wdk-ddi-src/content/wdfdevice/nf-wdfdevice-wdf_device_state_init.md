@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_DEVICE_STATE_INIT
-title: WDF_DEVICE_STATE_INIT function
+title: WDF_DEVICE_STATE_INIT function (wdfdevice.h)
 description: The WDF_DEVICE_STATE_INIT function initializes a driver's WDF_DEVICE_STATE structure.
 old-location: wdf\wdf_device_state_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DEVICE_STATE_INIT
+- WDF_DEVICE_STATE_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassDebugPrint
-title: ChangerClassDebugPrint function
+title: ChangerClassDebugPrint function (mcd.h)
 description: The ChangerClassDebugPrint function prints debugging information.
 old-location: storage\changerclassdebugprint.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Mcd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mcd.lib
--	Mcd.dll
+- Mcd.lib
+- Mcd.dll
 api_name:
--	ChangerClassDebugPrint
+- ChangerClassDebugPrint
 product:
 - Windows
 targetos: Windows

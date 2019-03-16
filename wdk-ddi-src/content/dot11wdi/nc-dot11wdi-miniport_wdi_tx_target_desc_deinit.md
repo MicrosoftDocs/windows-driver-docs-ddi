@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_TARGET_DESC_DEINIT
-title: MINIPORT_WDI_TX_TARGET_DESC_DEINIT
+title: MINIPORT_WDI_TX_TARGET_DESC_DEINIT (dot11wdi.h)
 description: The MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback function informs the TxEngine that the target TX descriptors associated with the NET_BUFFER_LIST (NBLs) in the NBL chain are no longer needed and can be freed.
 old-location: netvista\miniportwditxtargetdescdeinit.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTxTargetDescDeInit
+- MiniportWdiTxTargetDescDeInit
 product:
 - Windows
 targetos: Windows

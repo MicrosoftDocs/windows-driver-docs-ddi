@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_CAPABILITIES_REGISTER
-title: "_PCI_EXPRESS_CAPABILITIES_REGISTER"
+title: _PCI_EXPRESS_CAPABILITIES_REGISTER (ntddk.h)
 description: The PCI_EXPRESS_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_capabilities_register.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PCI_EXPRESS_CAPABILITIES_REGISTER
+- PCI_EXPRESS_CAPABILITIES_REGISTER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DRIVER_OBJECT
-title: "_DRIVER_OBJECT"
+title: _DRIVER_OBJECT (wdm.h)
 description: Each driver object represents the image of a loaded kernel-mode driver.
 old-location: kernel\driver_object.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DRIVER_OBJECT
+- DRIVER_OBJECT
 product:
 - Windows
 targetos: Windows

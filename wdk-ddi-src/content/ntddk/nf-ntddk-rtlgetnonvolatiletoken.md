@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetNonVolatileToken
-title: RtlGetNonVolatileToken function
+title: RtlGetNonVolatileToken function (ntddk.h)
 description: The routine, RtlGetNonVolatileToken, gets various properties about a non-volatile memory buffer and stores them in the variable NvToken.
 old-location: ifsk\rtlgetnonvolatiletoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlGetNonVolatileToken
+- RtlGetNonVolatileToken
 product:
 - Windows
 targetos: Windows

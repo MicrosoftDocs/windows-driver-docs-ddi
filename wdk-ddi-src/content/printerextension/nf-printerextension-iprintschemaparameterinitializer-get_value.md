@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterInitializer.get_Value
-title: IPrintSchemaParameterInitializer::get_Value
+title: IPrintSchemaParameterInitializer::get_Value (printerextension.h)
 description: The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_getvalue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterInitializer.Value
--	IPrintSchemaParameterInitializer.get_Value
+- IPrintSchemaParameterInitializer.Value
+- IPrintSchemaParameterInitializer.get_Value
 product:
 - Windows
 targetos: Windows

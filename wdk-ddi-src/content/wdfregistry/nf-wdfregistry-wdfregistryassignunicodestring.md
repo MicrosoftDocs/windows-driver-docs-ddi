@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignUnicodeString
-title: WdfRegistryAssignUnicodeString function
+title: WdfRegistryAssignUnicodeString function (wdfregistry.h)
 description: The WdfRegistryAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
 old-location: wdf\wdfregistryassignunicodestring.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRegistryAssignUnicodeString
+- WdfRegistryAssignUnicodeString
 product:
 - Windows
 targetos: Windows

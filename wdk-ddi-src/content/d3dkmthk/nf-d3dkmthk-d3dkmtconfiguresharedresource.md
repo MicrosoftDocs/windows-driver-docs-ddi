@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTConfigureSharedResource
-title: D3DKMTConfigureSharedResource function
+title: D3DKMTConfigureSharedResource function (d3dkmthk.h)
 description: The D3DKMTConfigureSharedResource function configures a shared resource.
 old-location: display\d3dkmtconfiguresharedresource.htm
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTConfigureSharedResource
+- D3DKMTConfigureSharedResource
 product:
 - Windows
 targetos: Windows

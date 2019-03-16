@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDeviceIoControl.OnDeviceIoControl
-title: IQueueCallbackDeviceIoControl::OnDeviceIoControl
+title: IQueueCallbackDeviceIoControl::OnDeviceIoControl (wudfddi.h)
 description: The OnDeviceIoControl method is called to handle a device I/O control request when an application performs a specific operation on a device through the Microsoft Win32 OnDeviceIoControl function.
 old-location: wdf\iqueuecallbackdeviceiocontrol_ondeviceiocontrol.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IQueueCallbackDeviceIoControl.OnDeviceIoControl
+- IQueueCallbackDeviceIoControl.OnDeviceIoControl
 product:
 - Windows
 targetos: Windows

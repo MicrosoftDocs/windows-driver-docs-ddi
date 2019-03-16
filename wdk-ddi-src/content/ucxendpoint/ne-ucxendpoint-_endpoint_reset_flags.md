@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxendpoint._ENDPOINT_RESET_FLAGS
-title: "_ENDPOINT_RESET_FLAGS"
+title: _ENDPOINT_RESET_FLAGS (ucxendpoint.h)
 description: Defines parameters for a request to reset an endpoint.
 old-location: buses\endpoint_reset_flags.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	ENDPOINT_RESET_FLAGS
+- ENDPOINT_RESET_FLAGS
 product:
 - Windows
 targetos: Windows

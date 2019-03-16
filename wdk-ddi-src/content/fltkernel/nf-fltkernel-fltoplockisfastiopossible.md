@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockIsFastIoPossible
-title: FltOplockIsFastIoPossible function
+title: FltOplockIsFastIoPossible function (fltkernel.h)
 description: The FltOplockIsFastIoPossible routine checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 old-location: ifsk\fltoplockisfastiopossible.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltOplockIsFastIoPossible
+- FltOplockIsFastIoPossible
 product:
 - Windows
 targetos: Windows

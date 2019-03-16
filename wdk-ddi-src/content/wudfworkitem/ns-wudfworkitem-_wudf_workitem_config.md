@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfworkitem._WUDF_WORKITEM_CONFIG
-title: "_WUDF_WORKITEM_CONFIG"
+title: _WUDF_WORKITEM_CONFIG (wudfworkitem.h)
 description: The WUDF_WORKITEM_CONFIG structure contains information that is associated with a work item.
 old-location: wdf\wudf_workitem_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfworkitem.h
+- wudfworkitem.h
 api_name:
--	WUDF_WORKITEM_CONFIG
+- WUDF_WORKITEM_CONFIG
 product:
 - Windows
 targetos: Windows

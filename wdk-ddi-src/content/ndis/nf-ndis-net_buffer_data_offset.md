@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_DATA_OFFSET
-title: NET_BUFFER_DATA_OFFSET macro
+title: NET_BUFFER_DATA_OFFSET macro (ndis.h)
 description: NET_BUFFER_DATA_OFFSET is a macro that NDIS drivers use to get the current offset from the beginning of the data space to the start of the used data space in a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: 8de2a456-0b0e-47f1-895b-eee5de319283
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_DATA_OFFSET
+- NET_BUFFER_DATA_OFFSET
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

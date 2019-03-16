@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetCurrentIrpStackLocation
-title: IoGetCurrentIrpStackLocation function
+title: IoGetCurrentIrpStackLocation function (wdm.h)
 description: The IoGetCurrentIrpStackLocation routine returns a pointer to the caller's I/O stack location in the specified IRP.
 old-location: kernel\iogetcurrentirpstacklocation.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoGetCurrentIrpStackLocation
+- IoGetCurrentIrpStackLocation
 product:
 - Windows
 targetos: Windows

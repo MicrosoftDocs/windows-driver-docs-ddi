@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_MARKERTYPE
-title: D3DDDI_MARKERTYPE
+title: D3DDDI_MARKERTYPE (d3dumddi.h)
 description: Indicates the type of Event Tracing for Windows (ETW) marker event that the user-mode display driver supports.
 old-location: display\d3dddi_markertype.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_MARKERTYPE
+- D3DDDI_MARKERTYPE
 product:
 - Windows
 targetos: Windows

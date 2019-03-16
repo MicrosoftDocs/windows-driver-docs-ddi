@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio.__unnamed_union_0
-title: SIDEBANDAUDIO_IO_PARAM_HEADER
+title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: Describes the size and type of parameter.
 ms.assetid: e2f0fc99-4a73-44de-97f3-24f3a3d13b18
 ms.date: 09/07/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	SIDEBANDAUDIO_IO_PARAM_HEADER
-product: Windows
+- SIDEBANDAUDIO_IO_PARAM_HEADER
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

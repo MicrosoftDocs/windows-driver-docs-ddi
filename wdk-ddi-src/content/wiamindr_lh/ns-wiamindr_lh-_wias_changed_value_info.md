@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_CHANGED_VALUE_INFO
-title: "_WIAS_CHANGED_VALUE_INFO"
+title: _WIAS_CHANGED_VALUE_INFO (wiamindr_lh.h)
 description: The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
 old-location: image\wias_changed_value_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIAS_CHANGED_VALUE_INFO
+- WIAS_CHANGED_VALUE_INFO
 product:
 - Windows
 targetos: Windows

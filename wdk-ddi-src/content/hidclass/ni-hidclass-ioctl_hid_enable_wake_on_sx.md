@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_ENABLE_WAKE_ON_SX
-title: IOCTL_HID_ENABLE_WAKE_ON_SX
+title: IOCTL_HID_ENABLE_WAKE_ON_SX (hidclass.h)
 description: The IOCTL_HID_ENABLE_WAKE_ON_SX request is used to indicate the requirement for a device to be able to wake from system sleep.
 old-location: hid\ioctl_hid_enable_wake_on_sx.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_ENABLE_WAKE_ON_SX
+- IOCTL_HID_ENABLE_WAKE_ON_SX
 product:
 - Windows
 targetos: Windows

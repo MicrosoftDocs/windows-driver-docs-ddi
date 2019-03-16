@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_EXTENDED_POLICY
-title: "_WDF_INTERRUPT_EXTENDED_POLICY"
+title: _WDF_INTERRUPT_EXTENDED_POLICY (wdfinterrupt.h)
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinterrupt.h
+- wdfinterrupt.h
 api_name:
--	WDF_INTERRUPT_EXTENDED_POLICY
+- WDF_INTERRUPT_EXTENDED_POLICY
 product:
 - Windows
 targetos: Windows

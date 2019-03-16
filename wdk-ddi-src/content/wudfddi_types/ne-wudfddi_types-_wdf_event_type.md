@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_EVENT_TYPE
-title: "_WDF_EVENT_TYPE"
+title: _WDF_EVENT_TYPE (wudfddi_types.h)
 description: The WDF_EVENT_TYPE enumeration specifies.
 old-location: wdf\wdf_event_type.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_EVENT_TYPE
+- WDF_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

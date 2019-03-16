@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_GET_THREAD_CONTEXT_ROUTINE
-title: PWINDBG_GET_THREAD_CONTEXT_ROUTINE
+title: PWINDBG_GET_THREAD_CONTEXT_ROUTINE (wdbgexts.h)
 description: The PWINDBG_GET_THREAD_CONTEXT_ROUTINE (GetContext) function implements the functionality that is similar to the Microsoft Win32 GetThreadContext routine. It returns the context of the process being debugged.
 old-location: debugger\getcontext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetContext
+- GetContext
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._ENUM_PDO_RESULTS
-title: "_ENUM_PDO_RESULTS"
+title: _ENUM_PDO_RESULTS (ehstorioctl.h)
 description: This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_results.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	ENUM_PDO_RESULTS
+- ENUM_PDO_RESULTS
 product:
 - Windows
 targetos: Windows

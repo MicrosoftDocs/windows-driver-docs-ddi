@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfqueryinterface.WdfDeviceInterfaceReferenceNoOp
-title: WdfDeviceInterfaceReferenceNoOp function
+title: WdfDeviceInterfaceReferenceNoOp function (wdfqueryinterface.h)
 description: The WdfDeviceInterfaceReferenceNoOp method can be used for driver-defined interfaces that do not require reference counts.
 old-location: wdf\wdfdeviceinterfacereferencenoop.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInterfaceReferenceNoOp
+- WdfDeviceInterfaceReferenceNoOp
 product:
 - Windows
 targetos: Windows

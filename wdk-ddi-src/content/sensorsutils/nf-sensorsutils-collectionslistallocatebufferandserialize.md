@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListAllocateBufferAndSerialize
-title: CollectionsListAllocateBufferAndSerialize function
+title: CollectionsListAllocateBufferAndSerialize function (sensorsutils.h)
 description: This routine allocates a buffer and then serializes a sensor collection list to it.
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
 ms.date: 08/07/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	CollectionsListAllocateBufferAndSerialize
+- CollectionsListAllocateBufferAndSerialize
 product:
  - Windows
 targetos: Windows

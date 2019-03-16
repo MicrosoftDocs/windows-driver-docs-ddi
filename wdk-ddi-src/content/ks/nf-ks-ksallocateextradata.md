@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateExtraData
-title: KsAllocateExtraData function
+title: KsAllocateExtraData function (ks.h)
 description: The KsAllocateExtraData function is used with streaming IRPs to allocate a buffer to contain additional header data. A pointer to the allocated buffer is returned, and the buffer must eventually be freed by the caller.
 old-location: stream\ksallocateextradata.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAllocateExtraData
+- KsAllocateExtraData
 product:
 - Windows
 targetos: Windows

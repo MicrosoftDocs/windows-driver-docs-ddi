@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessDeviceLostSupport
-title: D3DKMTGetProcessDeviceLostSupport function
+title: D3DKMTGetProcessDeviceLostSupport function (d3dkmthk.h)
 description: Used to get the indicated process.
 old-location: display\d3dkmtgetprocessdevicelostsupport.htm
 ms.assetid: 7127b6ff-164b-4645-a602-3969f87a47d0
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTGetProcessDeviceLostSupport
+- D3DKMTGetProcessDeviceLostSupport
 product:
 - Windows
 targetos: Windows

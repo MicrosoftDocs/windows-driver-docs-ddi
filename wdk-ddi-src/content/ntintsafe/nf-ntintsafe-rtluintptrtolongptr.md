@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToLongPtr
-title: RtlUIntPtrToLongPtr function
+title: RtlUIntPtrToLongPtr function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type LONG_PTR.
 old-location: kernel\rtluintptrtolongptr.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntPtrToLongPtr
+- RtlUIntPtrToLongPtr
 product:
 - Windows
 targetos: Windows

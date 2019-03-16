@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeNetBufferListPool
-title: NdisFreeNetBufferListPool function
+title: NdisFreeNetBufferListPool function (ndis.h)
 description: Call the NdisFreeNetBufferListPool function to free a NET_BUFFER_LIST structure pool.
 old-location: netvista\ndisfreenetbufferlistpool.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ndis.sys
+- ndis.sys
 api_name:
--	NdisFreeNetBufferListPool
+- NdisFreeNetBufferListPool
 product:
 - Windows
 targetos: Windows

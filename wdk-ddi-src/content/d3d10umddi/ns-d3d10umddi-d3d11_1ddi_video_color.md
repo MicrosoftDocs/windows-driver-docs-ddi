@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_COLOR
-title: D3D11_1DDI_VIDEO_COLOR
+title: D3D11_1DDI_VIDEO_COLOR (d3d10umddi.h)
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: display\d3d11_1ddi_video_color.htm
 ms.assetid: 200ca1d5-cbfd-4ad8-aa41-8238ea7ea5cf
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_COLOR
+- D3D11_1DDI_VIDEO_COLOR
 product:
 - Windows
 targetos: Windows

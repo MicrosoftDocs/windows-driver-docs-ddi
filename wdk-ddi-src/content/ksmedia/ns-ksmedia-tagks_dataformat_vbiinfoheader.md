@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_VBIINFOHEADER
-title: tagKS_DATAFORMAT_VBIINFOHEADER
+title: tagKS_DATAFORMAT_VBIINFOHEADER (ksmedia.h)
 description: The KS_DATAFORMAT_VBIINFOHEADER structure describes a vertical blanking interval (VBI) stream.
 old-location: stream\ks_dataformat_vbiinfoheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATAFORMAT_VBIINFOHEADER
+- KS_DATAFORMAT_VBIINFOHEADER
 product:
 - Windows
 targetos: Windows

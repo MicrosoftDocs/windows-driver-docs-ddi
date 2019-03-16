@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST
-title: PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST
+title: PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST (wsk.h)
 description: The WskRelease function releases a linked list of WSK_DATAGRAM_INDICATION structures that was previously retained by a WSK application.
 old-location: netvista\pfn_wsk_release_datagram_indication_list.htm
 tech.root: netvista
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wsk.h
+- Wsk.h
 api_name:
--	WskReleaseDatagramIndicationList
+- WskReleaseDatagramIndicationList
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

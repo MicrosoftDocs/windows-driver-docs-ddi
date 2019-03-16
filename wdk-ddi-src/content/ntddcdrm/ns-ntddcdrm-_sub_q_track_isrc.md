@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._SUB_Q_TRACK_ISRC
-title: "_SUB_Q_TRACK_ISRC"
+title: _SUB_Q_TRACK_ISRC (ntddcdrm.h)
 description: The SUB_Q_TRACK_ISC contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_track_isrc.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	SUB_Q_TRACK_ISRC
+- SUB_Q_TRACK_ISRC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerGetParameters
-title: ChangerGetParameters function
+title: ChangerGetParameters function (mcd.h)
 description: ChangerGetParameters handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PARAMETERS.
 old-location: storage\changergetparameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerGetParameters
+- ChangerGetParameters
 product:
 - Windows
 targetos: Windows

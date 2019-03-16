@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini.__unnamed_struct_0
-title: KSSCATTER_GATHER
+title: KSSCATTER_GATHER (strmini.h)
 description: 
 old-location: stream\ksscatter_gather.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Strmini.h
+- Strmini.h
 api_name:
--	KSSCATTER_GATHER
+- KSSCATTER_GATHER
 product:
 - Windows
 targetos: Windows

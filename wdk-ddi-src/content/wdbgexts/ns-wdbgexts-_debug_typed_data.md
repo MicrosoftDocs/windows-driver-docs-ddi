@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._DEBUG_TYPED_DATA
-title: "_DEBUG_TYPED_DATA"
+title: _DEBUG_TYPED_DATA (wdbgexts.h)
 description: The DEBUG_TYPED_DATA structure describes typed data in the memory of the target.
 old-location: debugger\debug_typed_data.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	WdbgExts.h
+- WdbgExts.h
 api_name:
--	DEBUG_TYPED_DATA
+- DEBUG_TYPED_DATA
 product:
 - Windows
 targetos: Windows

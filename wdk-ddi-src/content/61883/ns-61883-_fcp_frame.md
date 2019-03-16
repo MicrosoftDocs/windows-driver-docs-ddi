@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_FRAME
-title: "_FCP_FRAME"
+title: _FCP_FRAME (61883.h)
 description: The FCP_FRAME structure describes a function control protocol (FCP) request.
 old-location: ieee\fcp_frame.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	FCP_FRAME
+- FCP_FRAME
 product:
 - Windows
 targetos: Windows

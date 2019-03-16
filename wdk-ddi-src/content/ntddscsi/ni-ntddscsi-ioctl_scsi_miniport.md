@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_MINIPORT
-title: IOCTL_SCSI_MINIPORT
+title: IOCTL_SCSI_MINIPORT (ntddscsi.h)
 description: Sends a special control function to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	IOCTL_SCSI_MINIPORT
+- IOCTL_SCSI_MINIPORT
 product:
 - Windows
 targetos: Windows

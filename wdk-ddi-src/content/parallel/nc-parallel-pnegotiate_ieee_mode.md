@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PNEGOTIATE_IEEE_MODE
-title: PNEGOTIATE_IEEE_MODE
+title: PNEGOTIATE_IEEE_MODE (parallel.h)
 description: The PNEGOTIATE_IEEE_MODE-typed callback routine selects the fastest forward and reverse protocols that the system-supplied bus driver for parallel ports supports from among those specified by the caller.
 old-location: parports\pnegotiate_ieee_mode.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PNEGOTIATE_IEEE_MODE
+- PNEGOTIATE_IEEE_MODE
 product:
 - Windows
 targetos: Windows

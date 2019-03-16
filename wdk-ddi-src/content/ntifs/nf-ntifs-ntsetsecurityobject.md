@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtSetSecurityObject
-title: NtSetSecurityObject function
+title: NtSetSecurityObject function (ntifs.h)
 description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetSecurityObject
--	NtSetSecurityObject
+- ZwSetSecurityObject
+- NtSetSecurityObject
 product:
 - Windows
 targetos: Windows

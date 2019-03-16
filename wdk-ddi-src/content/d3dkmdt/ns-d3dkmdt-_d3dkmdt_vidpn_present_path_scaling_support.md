@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT"
+title: _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure is used to indicate the types of scaling (and centering) that are supported by a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_scaling_support.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
+- D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
 product:
 - Windows
 targetos: Windows

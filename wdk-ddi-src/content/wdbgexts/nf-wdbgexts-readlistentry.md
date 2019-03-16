@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadListEntry
-title: ReadListEntry function
+title: ReadListEntry function (wdbgexts.h)
 description: The ReadListEntry function reads a doubly-linked list entry from the target's memory.
 old-location: debugger\readlistentry.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReadListEntry
+- ReadListEntry
 product:
 - Windows
 targetos: Windows

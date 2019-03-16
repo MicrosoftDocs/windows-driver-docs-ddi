@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
-title: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1"
+title: _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 (acpiioct.h)
 description: The ACPI_EVAL_INPUT_BUFFER_COMPLEX structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method and an input array of ACPI_METHOD_ARGUMENT structures.
 old-location: acpi\acpi_eval_input_buffer_complex.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
+- ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
 product:
 - Windows
 targetos: Windows

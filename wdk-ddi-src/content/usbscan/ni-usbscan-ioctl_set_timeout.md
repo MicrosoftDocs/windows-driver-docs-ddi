@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_SET_TIMEOUT
-title: IOCTL_SET_TIMEOUT
+title: IOCTL_SET_TIMEOUT (usbscan.h)
 description: Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
 old-location: image\ioctl_set_timeout.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_SET_TIMEOUT
+- IOCTL_SET_TIMEOUT
 product:
 - Windows
 targetos: Windows

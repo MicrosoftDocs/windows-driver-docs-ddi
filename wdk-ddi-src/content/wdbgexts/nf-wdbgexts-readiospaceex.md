@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpaceEx
-title: ReadIoSpaceEx function
+title: ReadIoSpaceEx function (wdbgexts.h)
 description: The ReadIoSpaceEx function is an extended version of ReadIoSpace.
 old-location: debugger\readiospaceex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReadIoSpaceEx
+- ReadIoSpaceEx
 product:
 - Windows
 targetos: Windows

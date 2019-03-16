@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObjectFromGpu2
-title: D3DKMTSignalSynchronizationObjectFromGpu2 function
+title: D3DKMTSignalSynchronizationObjectFromGpu2 function (d3dkmthk.h)
 description: D3DKMTSignalSynchronizationObjectFromGpu2 is used to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu2.htm
 ms.assetid: 813193DC-8066-4B98-BC24-7688630AAC1C
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSignalSynchronizationObjectFromGpu2
+- D3DKMTSignalSynchronizationObjectFromGpu2
 product:
 - Windows
 targetos: Windows

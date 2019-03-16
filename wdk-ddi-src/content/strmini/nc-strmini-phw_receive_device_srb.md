@@ -1,6 +1,6 @@
 ---
 UID: NC:strmini.PHW_RECEIVE_DEVICE_SRB
-title: PHW_RECEIVE_DEVICE_SRB
+title: PHW_RECEIVE_DEVICE_SRB (strmini.h)
 description: The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device.
 old-location: stream\strminireceivedevicepacket.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	StrMiniReceiveDevicePacket
+- StrMiniReceiveDevicePacket
 product:
 - Windows
 targetos: Windows

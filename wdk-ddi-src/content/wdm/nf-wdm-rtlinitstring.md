@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlInitString
-title: RtlInitString function
+title: RtlInitString function (wdm.h)
 description: The RtlInitString routine initializes a counted string of 8-bit characters.
 old-location: kernel\rtlinitstring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitString
+- RtlInitString
 product:
 - Windows
 targetos: Windows

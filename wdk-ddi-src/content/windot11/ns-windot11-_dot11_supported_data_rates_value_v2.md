@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_DATA_RATES_VALUE_V2
-title: "_DOT11_SUPPORTED_DATA_RATES_VALUE_V2"
+title: _DOT11_SUPPORTED_DATA_RATES_VALUE_V2 (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_data_rates_value_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_SUPPORTED_DATA_RATES_VALUE_V2
+- DOT11_SUPPORTED_DATA_RATES_VALUE_V2
 product:
 - Windows
 targetos: Windows

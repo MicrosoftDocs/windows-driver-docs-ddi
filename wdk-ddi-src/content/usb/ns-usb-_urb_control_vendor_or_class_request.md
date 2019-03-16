@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_VENDOR_OR_CLASS_REQUEST
-title: "_URB_CONTROL_VENDOR_OR_CLASS_REQUEST"
+title: _URB_CONTROL_VENDOR_OR_CLASS_REQUEST (usb.h)
 description: The _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure is used by USB client drivers to issue a vendor or class-specific command to a device, interface, endpoint, or other device-defined target.
 old-location: buses\_urb_control_vendor_or_class_request.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
+- _URB_CONTROL_VENDOR_OR_CLASS_REQUEST
 product:
 - Windows
 targetos: Windows

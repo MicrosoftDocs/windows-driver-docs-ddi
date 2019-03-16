@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionValues
-title: IDebugControl4::GetSystemVersionValues
+title: IDebugControl4::GetSystemVersionValues (dbgeng.h)
 description: The GetSystemVersionValues method returns version number information for the current target.
 old-location: debugger\getsystemversionvalues.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetSystemVersionValues
+- IDebugControl4.GetSystemVersionValues
 product:
 - Windows
 targetos: Windows

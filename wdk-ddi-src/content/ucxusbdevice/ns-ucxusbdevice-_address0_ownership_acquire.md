@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._ADDRESS0_OWNERSHIP_ACQUIRE
-title: "_ADDRESS0_OWNERSHIP_ACQUIRE"
+title: _ADDRESS0_OWNERSHIP_ACQUIRE (ucxusbdevice.h)
 description: Contains parameters for configuring the device.
 old-location: buses\_address0_ownership_acquire.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	ADDRESS0_OWNERSHIP_ACQUIRE
+- ADDRESS0_OWNERSHIP_ACQUIRE
 product:
 - Windows
 targetos: Windows

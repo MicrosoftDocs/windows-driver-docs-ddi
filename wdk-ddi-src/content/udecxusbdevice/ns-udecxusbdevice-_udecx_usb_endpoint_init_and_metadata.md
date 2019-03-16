@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_ENDPOINT_INIT_AND_METADATA
-title: "_UDECX_USB_ENDPOINT_INIT_AND_METADATA"
+title: _UDECX_USB_ENDPOINT_INIT_AND_METADATA (udecxusbdevice.h)
 description: Contains the descriptors supported by an endpoint of a virtual USB device.
 old-location: buses\udecx_usb_endpoint_init_and_metadata.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_USB_ENDPOINT_INIT_AND_METADATA
+- UDECX_USB_ENDPOINT_INIT_AND_METADATA
 product:
 - Windows
 targetos: Windows

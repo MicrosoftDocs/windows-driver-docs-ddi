@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToUInt8
-title: RtlULongToUInt8 function
+title: RtlULongToUInt8 function (ntintsafe.h)
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: kernel\rtlulongtouint8.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlULongToUInt8
+- RtlULongToUInt8
 product:
 - Windows
 targetos: Windows

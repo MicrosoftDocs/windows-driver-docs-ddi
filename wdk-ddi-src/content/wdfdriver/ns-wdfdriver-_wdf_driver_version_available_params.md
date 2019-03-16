@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdriver._WDF_DRIVER_VERSION_AVAILABLE_PARAMS
-title: "_WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+title: _WDF_DRIVER_VERSION_AVAILABLE_PARAMS (wdfdriver.h)
 description: The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure specifies major and minor version numbers for the Kernel-Mode Driver Framework's library.
 old-location: wdf\wdf_driver_version_available_params.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdriver.h
+- wdfdriver.h
 api_name:
--	WDF_DRIVER_VERSION_AVAILABLE_PARAMS
+- WDF_DRIVER_VERSION_AVAILABLE_PARAMS
 product:
 - Windows
 targetos: Windows

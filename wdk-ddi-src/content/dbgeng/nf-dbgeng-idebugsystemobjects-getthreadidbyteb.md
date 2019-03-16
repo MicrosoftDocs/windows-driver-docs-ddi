@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetThreadIdByTeb
-title: IDebugSystemObjects::GetThreadIdByTeb
+title: IDebugSystemObjects::GetThreadIdByTeb (dbgeng.h)
 description: The GetThreadIdByTeb method returns the engine thread ID of the specified thread. The thread is specified by its thread environment block (TEB).
 old-location: debugger\getthreadidbyteb.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetThreadIdByTeb
--	IDebugSystemObjects2.GetThreadIdByTeb
--	IDebugSystemObjects3.GetThreadIdByTeb
--	IDebugSystemObjects4.GetThreadIdByTeb
+- IDebugSystemObjects.GetThreadIdByTeb
+- IDebugSystemObjects2.GetThreadIdByTeb
+- IDebugSystemObjects3.GetThreadIdByTeb
+- IDebugSystemObjects4.GetThreadIdByTeb
 product:
 - Windows
 targetos: Windows

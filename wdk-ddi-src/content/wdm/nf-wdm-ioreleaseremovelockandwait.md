@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReleaseRemoveLockAndWait
-title: IoReleaseRemoveLockAndWait macro
+title: IoReleaseRemoveLockAndWait macro (wdm.h)
 description: The IoReleaseRemoveLockAndWait routine releases a remove lock that the driver acquired in a previous call to IoAcquireRemoveLock, and waits until all acquisitions of the lock have been released.
 old-location: kernel\ioreleaseremovelockandwait.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReleaseRemoveLockAndWait
+- IoReleaseRemoveLockAndWait
 product:
 - Windows
 targetos: Windows

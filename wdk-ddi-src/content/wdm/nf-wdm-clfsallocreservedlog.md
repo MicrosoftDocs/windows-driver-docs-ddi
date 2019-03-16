@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsAllocReservedLog
-title: ClfsAllocReservedLog function
+title: ClfsAllocReservedLog function (wdm.h)
 description: The ClfsAllocReservedLog routine reserves space in a marshalling area for a set of records.
 old-location: kernel\clfsallocreservedlog.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsAllocReservedLog
+- ClfsAllocReservedLog
 product:
 - Windows
 targetos: Windows

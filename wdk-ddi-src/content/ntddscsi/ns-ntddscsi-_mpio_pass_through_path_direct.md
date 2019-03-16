@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._MPIO_PASS_THROUGH_PATH_DIRECT
-title: "_MPIO_PASS_THROUGH_PATH_DIRECT"
+title: _MPIO_PASS_THROUGH_PATH_DIRECT (ntddscsi.h)
 description: The MPIO_PASS_THROUGH_PATH_DIRECT structure is used together with an IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\mpio_pass_through_path_direct.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	MPIO_PASS_THROUGH_PATH_DIRECT
+- MPIO_PASS_THROUGH_PATH_DIRECT
 product:
 - Windows
 targetos: Windows

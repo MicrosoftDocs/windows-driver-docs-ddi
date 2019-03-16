@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_INFO
-title: tagKSCAMERA_EXTENDEDPROP_ROI_INFO
+title: tagKSCAMERA_EXTENDEDPROP_ROI_INFO (ksmedia.h)
 description: This structure contains information about an ROI.
 old-location: stream\kscamera_extendedprop_roi_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_INFO
+- KSCAMERA_EXTENDEDPROP_ROI_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProtectedSessionInfoFromNtHandle
-title: D3DKMTQueryProtectedSessionInfoFromNtHandle function
+title: D3DKMTQueryProtectedSessionInfoFromNtHandle function (d3dkmthk.h)
 description: Used to get information on the protected session.
 old-location: display\d3dkmtqueryprotectedsessioninfofromnthandle.htm
 ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTQueryProtectedSessionInfoFromNtHandle
+- D3DKMTQueryProtectedSessionInfoFromNtHandle
 product:
 - Windows
 targetos: Windows

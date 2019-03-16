@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START
-title: EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START
+title: EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_START (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerSelfManagedIoStart event callback function starts a DMA device's self-managed I/O operations.
 old-location: wdf\evtdmaenablerselfmanagediostart.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaEnabler.h
+- WdfDmaEnabler.h
 api_name:
--	EvtDmaEnablerSelfManagedIoStart
+- EvtDmaEnablerSelfManagedIoStart
 product:
 - Windows
 targetos: Windows

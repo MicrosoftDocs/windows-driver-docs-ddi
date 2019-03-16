@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeStallExecutionProcessor
-title: KeStallExecutionProcessor function
+title: KeStallExecutionProcessor function (wdm.h)
 description: The KeStallExecutionProcessor routine stalls the caller on the current processor for a specified time interval.
 old-location: kernel\kestallexecutionprocessor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	KeStallExecutionProcessor
+- KeStallExecutionProcessor
 product:
 - Windows
 targetos: Windows

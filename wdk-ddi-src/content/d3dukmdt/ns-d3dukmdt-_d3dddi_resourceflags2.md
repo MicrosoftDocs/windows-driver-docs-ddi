@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RESOURCEFLAGS2
-title: "_D3DDDI_RESOURCEFLAGS2"
+title: _D3DDDI_RESOURCEFLAGS2 (d3dukmdt.h)
 description: Identifies the type of resource to create in a call to the driver's CreateResource2 function.
 old-location: display\d3dddi_resourceflags2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dukmdt.h
+- D3dukmdt.h
 api_name:
--	D3DDDI_RESOURCEFLAGS2
+- D3DDDI_RESOURCEFLAGS2
 product:
 - Windows
 targetos: Windows

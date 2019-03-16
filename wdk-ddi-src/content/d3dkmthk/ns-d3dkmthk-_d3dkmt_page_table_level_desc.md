@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PAGE_TABLE_LEVEL_DESC
-title: _D3DKMT_PAGE_TABLE_LEVEL_DESC
+title: _D3DKMT_PAGE_TABLE_LEVEL_DESC (d3dkmthk.h)
 description: Structure that describes page table level info.
 ms.assetid: c6b49b09-71b6-46be-b881-ed6c3e52c218
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PAGE_TABLE_LEVEL_DESC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PAGE_TABLE_LEVEL_DESC
+- _D3DKMT_PAGE_TABLE_LEVEL_DESC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

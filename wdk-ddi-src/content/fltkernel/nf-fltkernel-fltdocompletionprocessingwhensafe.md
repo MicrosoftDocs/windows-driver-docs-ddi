@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDoCompletionProcessingWhenSafe
-title: FltDoCompletionProcessingWhenSafe function
+title: FltDoCompletionProcessingWhenSafe function (fltkernel.h)
 description: If it is safe to do so, the FltDoCompletionProcessingWhenSafe function executes a minifilter driver postoperation callback routine.
 old-location: ifsk\fltdocompletionprocessingwhensafe.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: Any.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltDoCompletionProcessingWhenSafe
+- FltDoCompletionProcessingWhenSafe
 product:
 - Windows
 targetos: Windows

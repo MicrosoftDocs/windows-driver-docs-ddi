@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetIoPriorityHintFromFileObject
-title: FltGetIoPriorityHintFromFileObject function
+title: FltGetIoPriorityHintFromFileObject function (fltkernel.h)
 description: The FltGetIoPriorityHintFromFileObject routine is used by a minifilter driver to get IO priority information from a file object.
 old-location: ifsk\fltgetiopriorityhintfromfileobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetIoPriorityHintFromFileObject
+- FltGetIoPriorityHintFromFileObject
 product:
 - Windows
 targetos: Windows

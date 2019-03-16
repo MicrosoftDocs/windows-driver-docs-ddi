@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SWITCH_DUALVIEW
-title: IOCTL_VIDEO_SWITCH_DUALVIEW
+title: IOCTL_VIDEO_SWITCH_DUALVIEW (ntddvdeo.h)
 description: Notifies the video miniport that a secondary view is about to be enabled or disabled.
 old-location: display\ioctl_video_switch_dualview.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_SWITCH_DUALVIEW
+- IOCTL_VIDEO_SWITCH_DUALVIEW
 product:
 - Windows
 targetos: Windows

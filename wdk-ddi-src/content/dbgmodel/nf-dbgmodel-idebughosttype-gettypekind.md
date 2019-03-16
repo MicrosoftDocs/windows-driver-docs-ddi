@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetTypeKind
-title: IDebugHostType::GetTypeKind
+title: IDebugHostType::GetTypeKind (dbgmodel.h)
 description: The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. 
 ms.assetid: e91dc827-48b6-4295-abe8-78ff7bb25b29
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetTypeKind
-product: Windows
+- IDebugHostType.GetTypeKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

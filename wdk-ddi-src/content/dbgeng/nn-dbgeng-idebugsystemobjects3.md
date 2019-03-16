@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects3
-title: IDebugSystemObjects3
+title: IDebugSystemObjects3 (dbgeng.h)
 description: IDebugSystemObjects3 interface
 old-location: debugger\idebugsystemobjects3.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects3
--	IDebugSystemObjects3.GetCurrentSystemServer
--	IDebugSystemObjects3.GetSystemByServer
--	IDebugSystemObjects3.GetCurrentSystemServerName
+- IDebugSystemObjects3
+- IDebugSystemObjects3.GetCurrentSystemServer
+- IDebugSystemObjects3.GetSystemByServer
+- IDebugSystemObjects3.GetCurrentSystemServerName
 product:
 - Windows
 targetos: Windows

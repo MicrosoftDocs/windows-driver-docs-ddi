@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_EVAL_METHOD_V2
-title: IOCTL_ACPI_EVAL_METHOD_V2
+title: IOCTL_ACPI_EVAL_METHOD_V2 (acpiioct.h)
 description: The IOCTL_ACPI_EVAL_METHOD_V2 control code synchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_eval_method_v2.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_EVAL_METHOD_V2
+- IOCTL_ACPI_EVAL_METHOD_V2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_TCP_OFFLOAD_RECEIVE_HANDLER
-title: W_TCP_OFFLOAD_RECEIVE_HANDLER
+title: W_TCP_OFFLOAD_RECEIVE_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadReceive function to post receive requests (receive buffers) on an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloadreceive.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	MiniportTcpOffloadReceive
+- MiniportTcpOffloadReceive
 product:
 - Windows
 targetos: Windows

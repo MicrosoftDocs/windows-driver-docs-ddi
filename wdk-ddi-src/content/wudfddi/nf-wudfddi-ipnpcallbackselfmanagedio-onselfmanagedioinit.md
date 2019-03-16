@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoInit
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoInit (wudfddi.h)
 description: The OnSelfManagedIoInit method initializes a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioinit.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackSelfManagedIo.OnSelfManagedIoInit
+- IPnpCallbackSelfManagedIo.OnSelfManagedIoInit
 product:
 - Windows
 targetos: Windows

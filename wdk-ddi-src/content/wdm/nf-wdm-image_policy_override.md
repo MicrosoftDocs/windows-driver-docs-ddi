@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IMAGE_POLICY_OVERRIDE
-title: IMAGE_POLICY_OVERRIDE macro
+title: IMAGE_POLICY_OVERRIDE macro (wdm.h)
 description: Reserved.
 ms.assetid: 6cf5ea63-61f3-4680-82bc-157b3db4bcb9
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	IMAGE_POLICY_OVERRIDE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- IMAGE_POLICY_OVERRIDE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

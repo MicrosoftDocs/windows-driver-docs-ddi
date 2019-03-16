@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
-title: "_DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
+title: _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT (d3dkmddi.h)
 description: Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
+- DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 product:
 - Windows
 targetos: Windows

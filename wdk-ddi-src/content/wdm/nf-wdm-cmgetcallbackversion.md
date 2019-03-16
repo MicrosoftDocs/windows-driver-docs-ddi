@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmGetCallbackVersion
-title: CmGetCallbackVersion function
+title: CmGetCallbackVersion function (wdm.h)
 description: The CmGetCallbackVersion routine retrieves the major and minor version numbers for the current version of the configuration manager's registry callback feature.
 old-location: kernel\cmgetcallbackversion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmGetCallbackVersion
+- CmGetCallbackVersion
 product:
 - Windows
 targetos: Windows

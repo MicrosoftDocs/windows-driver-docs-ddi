@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsReadPreviousRestartArea
-title: ClfsReadPreviousRestartArea function
+title: ClfsReadPreviousRestartArea function (wdm.h)
 description: The ClfsReadPreviousRestartArea routine reads the previous restart record relative to the current record in a read context.
 old-location: kernel\clfsreadpreviousrestartarea.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsReadPreviousRestartArea
+- ClfsReadPreviousRestartArea
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
-title: IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
+title: IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS (usbioctl.h)
 description: The client driver sends this request to retrieve the transport characteristics.
 old-location: buses\ioctl_usb_get_transport_characteristics.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
+- IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

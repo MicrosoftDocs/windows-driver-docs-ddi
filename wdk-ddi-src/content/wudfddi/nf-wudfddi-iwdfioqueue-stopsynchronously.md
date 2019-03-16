@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.StopSynchronously
-title: IWDFIoQueue::StopSynchronously
+title: IWDFIoQueue::StopSynchronously (wudfddi.h)
 description: The StopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\iwdfioqueue_stopsynchronously.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.StopSynchronously
+- IWDFIoQueue.StopSynchronously
 product:
 - Windows
 targetos: Windows

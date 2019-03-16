@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackIoStop
-title: IQueueCallbackIoStop
+title: IQueueCallbackIoStop (wudfddi.h)
 description: The IQueueCallbackIoStop interface contains a method that stops the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackiostop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfddi.h
+- wudfddi.h
 api_name:
--	IQueueCallbackIoStop
+- IQueueCallbackIoStop
 product:
 - Windows
 targetos: Windows

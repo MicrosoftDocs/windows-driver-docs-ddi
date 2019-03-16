@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsSoftBoot
-title: ExIsSoftBoot function
+title: ExIsSoftBoot function (wdm.h)
 description: Determines whether the system has gone through a soft restart.
 old-location: kernel\exissoftboot.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExIsSoftBoot
+- ExIsSoftBoot
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOptionCollection.GetAt
-title: IPrintSchemaOptionCollection::GetAt
+title: IPrintSchemaOptionCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintSchemaOption object.
 old-location: print\iprintschemaoptioncollection_getat.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaOptionCollection.GetAt
+- IPrintSchemaOptionCollection.GetAt
 product:
 - Windows
 targetos: Windows

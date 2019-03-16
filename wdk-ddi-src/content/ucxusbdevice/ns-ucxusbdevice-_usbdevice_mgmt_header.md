@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_MGMT_HEADER
-title: "_USBDEVICE_MGMT_HEADER"
+title: _USBDEVICE_MGMT_HEADER (ucxusbdevice.h)
 description: This structure provides a handle for the Universal Serial Bus (USB) hub or device physically connected to the bus.
 old-location: buses\_usbdevice_mgmt_header.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	USBDEVICE_MGMT_HEADER
+- USBDEVICE_MGMT_HEADER
 product:
 - Windows
 targetos: Windows

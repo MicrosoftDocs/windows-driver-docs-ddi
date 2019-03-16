@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_GET_DESCRIPTOR
-title: "_MPIO_GET_DESCRIPTOR"
+title: _MPIO_GET_DESCRIPTOR (mpiodisk.h)
 description: The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths.
 old-location: storage\mpio_get_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	MPIO_GET_DESCRIPTOR
+- MPIO_GET_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

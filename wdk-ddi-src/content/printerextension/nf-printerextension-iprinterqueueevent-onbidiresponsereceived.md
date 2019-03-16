@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueEvent.OnBidiResponseReceived
-title: IPrinterQueueEvent::OnBidiResponseReceived
+title: IPrinterQueueEvent::OnBidiResponseReceived (printerextension.h)
 description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueueEvent.OnBidiResponseReceived
+- IPrinterQueueEvent.OnBidiResponseReceived
 product:
 - Windows
 targetos: Windows

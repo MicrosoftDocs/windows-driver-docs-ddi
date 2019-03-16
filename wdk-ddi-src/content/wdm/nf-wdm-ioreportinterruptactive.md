@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReportInterruptActive
-title: IoReportInterruptActive function
+title: IoReportInterruptActive function (wdm.h)
 description: The IoReportInterruptActive routine informs the operating system that a registered interrupt service routine (ISR) is active and ready to handle interrupt requests.
 old-location: kernel\ioreportinterruptactive.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportInterruptActive
+- IoReportInterruptActive
 product:
 - Windows
 targetos: Windows

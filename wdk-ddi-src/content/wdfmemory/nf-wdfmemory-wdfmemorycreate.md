@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreate
-title: WdfMemoryCreate function
+title: WdfMemoryCreate function (wdfmemory.h)
 description: The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size.
 old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfMemoryCreate
+- WdfMemoryCreate
 product:
 - Windows
 targetos: Windows

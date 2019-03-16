@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAddHardwareID
-title: WdfPdoInitAddHardwareID function
+title: WdfPdoInitAddHardwareID function (wdfpdo.h)
 description: The WdfPdoInitAddHardwareID method adds a hardware ID to the list of hardware IDs for a child device.
 old-location: wdf\wdfpdoinitaddhardwareid.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoInitAddHardwareID
+- WdfPdoInitAddHardwareID
 product:
 - Windows
 targetos: Windows

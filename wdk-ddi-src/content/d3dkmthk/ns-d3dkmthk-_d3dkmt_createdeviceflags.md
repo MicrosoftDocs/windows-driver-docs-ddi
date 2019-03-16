@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEDEVICEFLAGS
-title: "_D3DKMT_CREATEDEVICEFLAGS"
+title: _D3DKMT_CREATEDEVICEFLAGS (d3dkmthk.h)
 description: The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the D3DKMTCreateDevice function.
 old-location: display\d3dkmt_createdeviceflags.htm
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEDEVICEFLAGS
+- D3DKMT_CREATEDEVICEFLAGS
 product:
 - Windows
 targetos: Windows

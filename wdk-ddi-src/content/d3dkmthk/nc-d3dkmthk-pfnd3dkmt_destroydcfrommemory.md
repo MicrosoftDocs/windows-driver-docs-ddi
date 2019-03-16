@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYDCFROMMEMORY
-title: PFND3DKMT_DESTROYDCFROMMEMORY
+title: PFND3DKMT_DESTROYDCFROMMEMORY (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYDCFROMMEMORY callback function destroys a device context from memory.
 ms.assetid: bd569dac-e7ff-4782-833a-227eb7ccdd82
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_DESTROYDCFROMMEMORY
+- PFND3DKMT_DESTROYDCFROMMEMORY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

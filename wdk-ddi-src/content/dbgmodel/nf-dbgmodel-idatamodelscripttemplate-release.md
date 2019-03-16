@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.Release
-title: IDataModelScriptTemplate::Release
+title: IDataModelScriptTemplate::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 0dac786e-aeb2-4032-a4a3-2895b0adad95
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplate.Release
-product: Windows
+- IDataModelScriptTemplate.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

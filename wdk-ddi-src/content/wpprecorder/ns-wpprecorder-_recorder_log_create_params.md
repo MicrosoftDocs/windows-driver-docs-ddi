@@ -1,6 +1,6 @@
 ---
 UID: NS:wpprecorder._RECORDER_LOG_CREATE_PARAMS
-title: "_RECORDER_LOG_CREATE_PARAMS"
+title: _RECORDER_LOG_CREATE_PARAMS (wpprecorder.h)
 description: The RECORDER_LOG_CREATE_PARAMS structure is an input parameter to the WppRecorderLogCreate method.
 old-location: devtest\recorder_log_create_params.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	RECORDER_LOG_CREATE_PARAMS
+- RECORDER_LOG_CREATE_PARAMS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
-title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT"
+title: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the D3DKMTWaitForSynchronizationObject function waits for to occur.
 old-location: display\d3dkmt_waitforsynchronizationobject.htm
 ms.assetid: 47d0330e-5413-4729-b103-c1a4d6c648e1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+- D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 product:
 - Windows
 targetos: Windows

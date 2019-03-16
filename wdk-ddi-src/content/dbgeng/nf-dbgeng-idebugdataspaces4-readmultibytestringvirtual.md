@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadMultiByteStringVirtual
-title: IDebugDataSpaces4::ReadMultiByteStringVirtual
+title: IDebugDataSpaces4::ReadMultiByteStringVirtual (dbgeng.h)
 description: The ReadMultiByteStringVirtual method reads a null-terminated, multibyte string from the target.
 old-location: debugger\readmultibytestringvirtual.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces4.ReadMultiByteStringVirtual
+- IDebugDataSpaces4.ReadMultiByteStringVirtual
 product:
 - Windows
 targetos: Windows

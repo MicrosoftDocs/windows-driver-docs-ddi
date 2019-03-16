@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetIoTarget
-title: WdfDeviceGetIoTarget function
+title: WdfDeviceGetIoTarget function (wdfdevice.h)
 description: The WdfDeviceGetIoTarget method returns a handle to a function or filter driver's local I/O target, for a specified device.
 old-location: wdf\wdfdevicegetiotarget.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceGetIoTarget
+- WdfDeviceGetIoTarget
 product:
 - Windows
 targetos: Windows

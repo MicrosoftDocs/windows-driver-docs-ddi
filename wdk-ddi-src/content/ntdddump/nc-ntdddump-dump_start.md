@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_START
-title: DUMP_START
+title: DUMP_START (ntdddump.h)
 description: The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process.
 old-location: storage\dump_start.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	Dump_Start
+- Dump_Start
 product:
 - Windows
 targetos: Windows

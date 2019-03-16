@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_9
-title: KSAUDIO_MICROPHONE_COORDINATES
+title: KSAUDIO_MICROPHONE_COORDINATES (ksmedia.h)
 description: The KSAUDIO_MICROPHONE_COORDINATES structure specifies the type and the coordinates of a single microphone in the microphone array.
 old-location: audio\ksaudio_microphone_coordinates.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSAUDIO_MICROPHONE_COORDINATES
+- KSAUDIO_MICROPHONE_COORDINATES
 product:
 - Windows
 targetos: Windows

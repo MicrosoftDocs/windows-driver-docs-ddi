@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_POWER_OPERATION_MODE
-title: _UCSI_POWER_OPERATION_MODE
+title: _UCSI_POWER_OPERATION_MODE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the  GET_CONNECTOR_STATUS command. See Table 4-42, Offset 16.
 ms.assetid: 8daaa5ac-195a-431d-8735-1752b7c282ad
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_POWER_OPERATION_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_POWER_OPERATION_MODE
-product: Windows
+- _UCSI_POWER_OPERATION_MODE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

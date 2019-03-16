@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_CACHE_INFORMATION
-title: "_DISK_CACHE_INFORMATION"
+title: _DISK_CACHE_INFORMATION (ntdddisk.h)
 description: The DISK_CACHE_INFORMATION structure is used with the IOCTL_DISK_GET_CACHE_INFORMATION request to retrieve cache information.
 old-location: storage\disk_cache_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_CACHE_INFORMATION
+- DISK_CACHE_INFORMATION
 product:
 - Windows
 targetos: Windows

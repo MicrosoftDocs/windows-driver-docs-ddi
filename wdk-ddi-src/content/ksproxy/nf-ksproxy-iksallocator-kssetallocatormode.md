@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsSetAllocatorMode
-title: IKsAllocator::KsSetAllocatorMode
+title: IKsAllocator::KsSetAllocatorMode (ksproxy.h)
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsAllocator.KsSetAllocatorMode
+- IKsAllocator.KsSetAllocatorMode
 product:
 - Windows
 targetos: Windows

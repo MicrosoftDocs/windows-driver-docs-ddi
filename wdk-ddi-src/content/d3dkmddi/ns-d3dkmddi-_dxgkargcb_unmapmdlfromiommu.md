@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UNMAPMDLFROMIOMMU
-title: _DXGKARGCB_UNMAPMDLFROMIOMMU
+title: _DXGKARGCB_UNMAPMDLFROMIOMMU (d3dkmddi.h)
 description: Arguments used by the DxgkcbUnmapmdlFromIommu callback function to release the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
 ms.assetid: 39dc2658-d3dc-43fa-a29d-806db351d4d7
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_UNMAPMDLFROMIOMMU
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_UNMAPMDLFROMIOMMU
+- _DXGKARGCB_UNMAPMDLFROMIOMMU
 product: 
 - Windows
 targetos: Windows

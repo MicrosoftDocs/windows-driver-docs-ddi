@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_QUEUE_STATE
-title: "_D3DKMT_DEVICEPRESENT_QUEUE_STATE"
+title: _D3DKMT_DEVICEPRESENT_QUEUE_STATE (d3dkmthk.h)
 description: A structure that holds information on the queue state of a hardware device.
 old-location: display\d3dkmt_devicepresent_queue_state.htm
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DEVICEPRESENT_QUEUE_STATE
+- D3DKMT_DEVICEPRESENT_QUEUE_STATE
 product:
 - Windows
 targetos: Windows

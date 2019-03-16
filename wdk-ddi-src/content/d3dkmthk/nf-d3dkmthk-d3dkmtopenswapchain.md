@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSwapChain
-title: D3DKMTOpenSwapChain function
+title: D3DKMTOpenSwapChain function (d3dkmthk.h)
 description: Opens a swap chain.
 ms.assetid: 9c22ba58-1f78-42ea-a320-8e5ce0cf1943
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTOpenSwapChain
+- D3DKMTOpenSwapChain
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

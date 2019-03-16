@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_SESSION_NOTIFICATION_FUNCTION
-title: IO_SESSION_NOTIFICATION_FUNCTION
+title: IO_SESSION_NOTIFICATION_FUNCTION (wdm.h)
 description: The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in.
 old-location: kernel\io_session_notification_function.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_SESSION_NOTIFICATION_FUNCTION
+- IO_SESSION_NOTIFICATION_FUNCTION
 product:
 - Windows
 targetos: Windows

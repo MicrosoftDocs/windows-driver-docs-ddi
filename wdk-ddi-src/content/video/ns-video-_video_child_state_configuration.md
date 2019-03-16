@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_STATE_CONFIGURATION
-title: "_VIDEO_CHILD_STATE_CONFIGURATION"
+title: _VIDEO_CHILD_STATE_CONFIGURATION (video.h)
 description: The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of VIDEO_CHILD_STATE structures, each holding the state of a particular child device.
 old-location: display\video_child_state_configuration.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_CHILD_STATE_CONFIGURATION
+- VIDEO_CHILD_STATE_CONFIGURATION
 product:
 - Windows
 targetos: Windows

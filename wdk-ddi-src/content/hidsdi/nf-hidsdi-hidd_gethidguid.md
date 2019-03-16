@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetHidGuid
-title: HidD_GetHidGuid function
+title: HidD_GetHidGuid function (hidsdi.h)
 description: The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices.
 old-location: hid\hidd_gethidguid.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetHidGuid
+- HidD_GetHidGuid
 product:
 - Windows
 targetos: Windows

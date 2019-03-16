@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetDirtyPinnedData
-title: CcSetDirtyPinnedData function
+title: CcSetDirtyPinnedData function (ntifs.h)
 description: The CcSetDirtyPinnedData routine marks as dirty the buffer control block (BCB) for a pinned buffer whose contents have been modified.
 old-location: ifsk\ccsetdirtypinneddata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetDirtyPinnedData
+- CcSetDirtyPinnedData
 product:
 - Windows
 targetos: Windows

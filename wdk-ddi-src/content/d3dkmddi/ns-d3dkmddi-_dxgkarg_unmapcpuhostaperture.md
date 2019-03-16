@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UNMAPCPUHOSTAPERTURE
-title: "_DXGKARG_UNMAPCPUHOSTAPERTURE"
+title: _DXGKARG_UNMAPCPUHOSTAPERTURE (d3dkmddi.h)
 description: The DXGKARG_UNMAPCPUHOSTAPERTURE structure is used to unmap a previously mapped range of the CPU host aperture.
 old-location: display\dxgkarg_unmapcpuhostaperture.htm
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_UNMAPCPUHOSTAPERTURE
+- DXGKARG_UNMAPCPUHOSTAPERTURE
 product:
 - Windows
 targetos: Windows

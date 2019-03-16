@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorNodeFailureEvent
-title: "_MSiSCSI_InitiatorNodeFailureEvent"
+title: _MSiSCSI_InitiatorNodeFailureEvent (iscsimgt.h)
 description: The MSiSCSI_InitiatorNodeFailureEvent structure is used to report an event when a node failure occurs.
 old-location: storage\msiscsi_initiatornodefailureevent.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_InitiatorNodeFailureEvent
+- MSiSCSI_InitiatorNodeFailureEvent
 product:
 - Windows
 targetos: Windows

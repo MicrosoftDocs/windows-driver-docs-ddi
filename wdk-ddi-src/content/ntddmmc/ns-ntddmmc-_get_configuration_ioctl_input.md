@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._GET_CONFIGURATION_IOCTL_INPUT
-title: "_GET_CONFIGURATION_IOCTL_INPUT"
+title: _GET_CONFIGURATION_IOCTL_INPUT (ntddmmc.h)
 description: The GET_CONFIGURATION_IOCTL_INPUT structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to specify the sort of feature data that the request retrieves.
 old-location: storage\get_configuration_ioctl_input.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	GET_CONFIGURATION_IOCTL_INPUT
+- GET_CONFIGURATION_IOCTL_INPUT
 product:
 - Windows
 targetos: Windows

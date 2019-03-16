@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_PortalInfo
-title: "_ISCSI_PortalInfo"
+title: _ISCSI_PortalInfo (iscsimgt.h)
 description: The ISCSI_PortalInfo structure contains information about an iSCSI portal.
 old-location: storage\iscsi_portalinfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	ISCSI_PortalInfo
+- ISCSI_PortalInfo
 product:
 - Windows
 targetos: Windows

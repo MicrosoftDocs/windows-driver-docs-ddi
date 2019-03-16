@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_ADAPTER_PERFDATACAPS
-title: _DXGK_ADAPTER_PERFDATACAPS
+title: _DXGK_ADAPTER_PERFDATACAPS (d3dkmdt.h)
 description: The physical adapter index in a LDA chain.
 ms.assetid: 4193f977-8617-4c1a-965b-040633d29eb3
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_ADAPTER_PERFDATACAPS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_ADAPTER_PERFDATACAPS
+- _DXGK_ADAPTER_PERFDATACAPS
 product: 
 - Windows
 targetos: Windows

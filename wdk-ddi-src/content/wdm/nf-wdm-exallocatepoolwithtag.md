@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithTag
-title: ExAllocatePoolWithTag function
+title: ExAllocatePoolWithTag function (wdm.h)
 description: The ExAllocatePoolWithTag routine allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepoolwithtag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocatePoolWithTag
+- ExAllocatePoolWithTag
 product:
 - Windows
 targetos: Windows

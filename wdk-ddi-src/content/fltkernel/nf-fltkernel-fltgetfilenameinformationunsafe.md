@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFileNameInformationUnsafe
-title: FltGetFileNameInformationUnsafe function
+title: FltGetFileNameInformationUnsafe function (fltkernel.h)
 description: The FltGetFileNameInformationUnsafe routine returns name information for an open file or directory.
 old-location: ifsk\fltgetfilenameinformationunsafe.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetFileNameInformationUnsafe
+- FltGetFileNameInformationUnsafe
 product:
 - Windows
 targetos: Windows

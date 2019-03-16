@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmCommitTransaction
-title: TmCommitTransaction function
+title: TmCommitTransaction function (wdm.h)
 description: The TmCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\tmcommittransaction.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmCommitTransaction
+- TmCommitTransaction
 product:
 - Windows
 targetos: Windows

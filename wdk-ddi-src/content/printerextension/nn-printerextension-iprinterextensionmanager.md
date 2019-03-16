@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionManager
-title: IPrinterExtensionManager
+title: IPrinterExtensionManager (printerextension.h)
 description: The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.
 old-location: print\iprinterextensionmanager_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrinterExtensionManager
+- IPrinterExtensionManager
 product:
 - Windows
 targetos: Windows

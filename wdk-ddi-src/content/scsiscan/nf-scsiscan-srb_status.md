@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiscan.SRB_STATUS
-title: SRB_STATUS macro
+title: SRB_STATUS macro (scsiscan.h)
 description: 
 ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsiscan.h
+- scsiscan.h
 api_name: 
--	SRB_STATUS
+- SRB_STATUS
 product: 
 -   Windows
 targetos: Windows

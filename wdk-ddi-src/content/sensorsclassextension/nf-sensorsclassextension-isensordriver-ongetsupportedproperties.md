@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedProperties
-title: ISensorDriver::OnGetSupportedProperties
+title: ISensorDriver::OnGetSupportedProperties (sensorsclassextension.h)
 description: The ISensorDriver::OnGetSupportedProperties method retrieves the list of properties that the specified sensor provides.
 old-location: sensors\isensordriver_ongetsupportedproperties.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetSupportedProperties
+- OnGetSupportedProperties
 product:
 - Windows
 targetos: Windows

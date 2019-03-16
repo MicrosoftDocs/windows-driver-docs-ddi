@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PTM_RM_NOTIFICATION
-title: PTM_RM_NOTIFICATION
+title: PTM_RM_NOTIFICATION (wdm.h)
 description: A resource manager's ResourceManagerNotification callback routine receives and handles transaction notifications.
 old-location: kernel\resourcemanagernotification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	(*PTM_RM_NOTIFICATION)
+- (*PTM_RM_NOTIFICATION)
 product:
 - Windows
 targetos: Windows

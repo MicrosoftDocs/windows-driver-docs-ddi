@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
-title: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+title: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 (dispmprt.h)
 description: Arguments used in the DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function.
 ms.assetid: 5d6faac0-b479-4a4b-8d10-6607607fa5d5
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+- _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

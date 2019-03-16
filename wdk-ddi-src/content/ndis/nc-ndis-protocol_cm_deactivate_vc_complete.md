@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DEACTIVATE_VC_COMPLETE
-title: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE
+title: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE (ndis.h)
 description: The ProtocolCmDeactivateVcComplete function is a required function.
 old-location: netvista\protocolcmdeactivatevccomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmDeactivateVcComplete
+- ProtocolCmDeactivateVcComplete
 product:
 - Windows
 targetos: Windows

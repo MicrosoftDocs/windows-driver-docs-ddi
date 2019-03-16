@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioSignalProcessing.GetModes
-title: IMiniportAudioSignalProcessing::GetModes
+title: IMiniportAudioSignalProcessing::GetModes (portcls.h)
 description: The GetModes method, Gets the audio signal processing modes supported by an audio pin.
 old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioSignalProcessing.GetModes
+- IMiniportAudioSignalProcessing.GetModes
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWPRIMITIVE
-title: PFND3DDDI_DRAWPRIMITIVE
+title: PFND3DDDI_DRAWPRIMITIVE (d3dumddi.h)
 description: The DrawPrimitive function draws nonindexed primitives in which the Microsoft Direct3D runtime has not transformed the vertex data.
 old-location: display\drawprimitive.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	DrawPrimitive
+- DrawPrimitive
 product:
 - Windows
 targetos: Windows

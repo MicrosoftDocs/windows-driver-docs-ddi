@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmLockPagableSectionByHandle
-title: MmLockPagableSectionByHandle function
+title: MmLockPagableSectionByHandle function (ntddk.h)
 description: The MmLockPagableSectionByHandle routine locks a pageable code or data section into system memory by incrementing the reference count on the handle to the section.
 old-location: kernel\mmlockpagablesectionbyhandle.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmLockPagableSectionByHandle
+- MmLockPagableSectionByHandle
 product:
 - Windows
 targetos: Windows

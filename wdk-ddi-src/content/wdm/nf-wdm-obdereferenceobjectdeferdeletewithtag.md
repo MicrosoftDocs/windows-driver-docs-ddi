@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectDeferDeleteWithTag
-title: ObDereferenceObjectDeferDeleteWithTag function
+title: ObDereferenceObjectDeferDeleteWithTag function (wdm.h)
 description: The ObDereferenceObjectDeferDeleteWithTag routine decrements the reference count for the specified object, defers deletion of the object to avoid deadlocks, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obdereferenceobjectdeferdeletewithtag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObDereferenceObjectDeferDeleteWithTag
+- ObDereferenceObjectDeferDeleteWithTag
 product:
 - Windows
 targetos: Windows

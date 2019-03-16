@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptHostContext
-title: IDataModelScriptHostContext
+title: IDataModelScriptHostContext (dbgmodel.h)
 description: Implemented by the underlying host debugger, represents information about where the debug host is bridging the script.
 ms.assetid: 89bc0f92-c13d-4516-b7b4-9105a2c2d479
 ms.date: 10/05/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptHostContext
-product: Windows
+- IDataModelScriptHostContext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

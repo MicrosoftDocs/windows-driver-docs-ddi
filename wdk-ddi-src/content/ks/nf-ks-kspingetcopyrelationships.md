@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetCopyRelationships
-title: KsPinGetCopyRelationships function
+title: KsPinGetCopyRelationships function (ks.h)
 description: The KsPinGetCopyRelationships function returns copy relationship information for a pin that is contained within a pin-centric filter.
 old-location: stream\kspingetcopyrelationships.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetCopyRelationships
+- KsPinGetCopyRelationships
 product:
 - Windows
 targetos: Windows

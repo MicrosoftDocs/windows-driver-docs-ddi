@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_BASE_STATIONS_INFO
-title: "_WWAN_BASE_STATIONS_INFO"
+title: _WWAN_BASE_STATIONS_INFO (wwan.h)
 description: The WWAN_BASE_STATIONS_INFO structure represents information about both serving and neighboring base stations.
 old-location: netvista\wwan_base_stations_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_BASE_STATIONS_INFO
+- WWAN_BASE_STATIONS_INFO
 product:
 - Windows
 targetos: Windows

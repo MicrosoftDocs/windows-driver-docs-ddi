@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxCreateNetFobx
-title: RxCreateNetFobx function
+title: RxCreateNetFobx function (fcb.h)
 description: RxCreateNetFobx allocates, initializes, and inserts a new file object extension (FOBX) structure into the in-memory data structures for a FCB that this FOBX is being opened on.
 old-location: ifsk\rxcreatenetfobx.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxCreateNetFobx
+- RxCreateNetFobx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsplp.__unnamed_enum_0
-title: EBranchOfficeJobEventType
+title: EBranchOfficeJobEventType (winsplp.h)
 description: 
 ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: EBranchOfficeJobEventType
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winsplp.h
+- winsplp.h
 api_name: 
--	EBranchOfficeJobEventType
+- EBranchOfficeJobEventType
 product: 
 -   Windows
 targetos: Windows

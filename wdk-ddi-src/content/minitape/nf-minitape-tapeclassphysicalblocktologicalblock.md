@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassPhysicalBlockToLogicalBlock
-title: TapeClassPhysicalBlockToLogicalBlock function
+title: TapeClassPhysicalBlockToLogicalBlock function (minitape.h)
 description: The TapeClassPhysicalBlockToLogicalBlock routine translates a physical block address to a pseudological block address. This routine is for SCSI-1 devices.
 old-location: storage\tapeclassphysicalblocktologicalblock.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeClassPhysicalBlockToLogicalBlock
+- TapeClassPhysicalBlockToLogicalBlock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionReturnType
-title: IDebugHostType2::GetFunctionReturnType
+title: IDebugHostType2::GetFunctionReturnType (dbgmodel.h)
 description: The GetFunctionReturnType method returns the return type of the function. 
 ms.assetid: 5372dfd6-015f-41d8-ba2a-ee6f283ebab7
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetFunctionReturnType
-product: Windows
+- IDebugHostType2.GetFunctionReturnType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

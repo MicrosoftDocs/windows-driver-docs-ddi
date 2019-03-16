@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocatePoolWithQuotaTag
-title: FsRtlAllocatePoolWithQuotaTag macro
+title: FsRtlAllocatePoolWithQuotaTag macro (ntifs.h)
 description: The FsRtlAllocatePoolWithQuotaTag routine allocates pool memory, charging quota against the current process.
 old-location: ifsk\fsrtlallocatepoolwithquotatag.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAllocatePoolWithQuotaTag
+- FsRtlAllocatePoolWithQuotaTag
 product:
 - Windows
 targetos: Windows

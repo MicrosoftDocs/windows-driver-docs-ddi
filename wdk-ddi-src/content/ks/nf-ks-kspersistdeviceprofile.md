@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPersistDeviceProfile
-title: KsPersistDeviceProfile function
+title: KsPersistDeviceProfile function (ks.h)
 description: The KsPersistDeviceProfile API commits the profile information to the persistent store.
 old-location: stream\kspersistdeviceprofile.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsPersistDeviceProfile
+- KsPersistDeviceProfile
 product:
 - Windows
 targetos: Windows

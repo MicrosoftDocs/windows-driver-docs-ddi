@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_USSD_STRING
-title: "_WWAN_USSD_STRING"
+title: _WWAN_USSD_STRING (wwan.h)
 description: The WWAN_USSD_STRING structure describes an Unstructured Supplementary Service Data (USSD) string.
 old-location: netvista\wwan_ussd_string.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_USSD_STRING
+- WWAN_USSD_STRING
 product:
 - Windows
 targetos: Windows

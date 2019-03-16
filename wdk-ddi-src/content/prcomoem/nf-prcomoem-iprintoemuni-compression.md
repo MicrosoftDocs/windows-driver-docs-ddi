@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.Compression
-title: IPrintOemUni::Compression
+title: IPrintOemUni::Compression (prcomoem.h)
 description: The IPrintOemUni::Compression method can be used with Unidrv-supported printers to provide a customized bitmap compression method.
 old-location: print\iprintoemuni_compression.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.Compression
+- IPrintOemUni.Compression
 product:
 - Windows
 targetos: Windows

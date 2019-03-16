@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_RPC_EP_ADD_
-title: FWPS_FIELDS_RPC_EP_ADD_
+title: FWPS_FIELDS_RPC_EP_ADD_ (fwpsk.h)
 description: The FWPS_FIELDS_RPC_EP_ADD enumeration type specifies the data field identifiers for the FWPS_LAYER_RPC_EP_ADD run-time filtering layer.
 old-location: netvista\fwps_fields_rpc_ep_add.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_RPC_EP_ADD
+- FWPS_FIELDS_RPC_EP_ADD
 product:
 - Windows
 targetos: Windows

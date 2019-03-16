@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYOVERLAY
-title: "_D3DKMT_DESTROYOVERLAY"
+title: _D3DKMT_DESTROYOVERLAY (d3dkmthk.h)
 description: The D3DKMT_DESTROYOVERLAY structure contains the handle to the overlay to destroy.
 old-location: display\d3dkmt_destroyoverlay.htm
 ms.assetid: b1b8554f-8d6b-4c2e-b6b8-fcbfc97f5dd9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYOVERLAY
+- D3DKMT_DESTROYOVERLAY
 product:
 - Windows
 targetos: Windows

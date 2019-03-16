@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
-title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT
+title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMCreateProtectedOutput function creates a new protected output object with Certified Output Protection Protocol (COPP) or OPM semantics.
 old-location: display\dxgkddiopmcreateprotectedoutput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMCreateProtectedOutput
+- DxgkDdiOPMCreateProtectedOutput
 product:
 - Windows
 targetos: Windows

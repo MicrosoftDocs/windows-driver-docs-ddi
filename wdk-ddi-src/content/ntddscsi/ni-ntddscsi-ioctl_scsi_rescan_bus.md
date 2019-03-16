@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_RESCAN_BUS
-title: IOCTL_SCSI_RESCAN_BUS
+title: IOCTL_SCSI_RESCAN_BUS (ntddscsi.h)
 description: Rescans the LUNs on the bus(es).
 old-location: storage\ioctl_scsi_rescan_bus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	IOCTL_SCSI_RESCAN_BUS
+- IOCTL_SCSI_RESCAN_BUS
 product:
 - Windows
 targetos: Windows

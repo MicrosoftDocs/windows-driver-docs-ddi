@@ -1,6 +1,6 @@
 ---
 UID: NS:treeinlinecryptoservice._INLINE_CRYPTO_PROGRAM_KEY_IN
-title: _INLINE_CRYPTO_PROGRAM_KEY_IN
+title: _INLINE_CRYPTO_PROGRAM_KEY_IN (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 4ad9010e-b774-45c0-984e-024d049c569b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: INLINE_CRYPTO_PROGRAM_KEY_IN, *PINLINE_CRYPTO_PROGRAM_KEY_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treeinlinecryptoservice.h
+- treeinlinecryptoservice.h
 api_name: 
--	_INLINE_CRYPTO_PROGRAM_KEY_IN
+- _INLINE_CRYPTO_PROGRAM_KEY_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

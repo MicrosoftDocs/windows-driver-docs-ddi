@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetPinFromFileObject
-title: KsGetPinFromFileObject function
+title: KsGetPinFromFileObject function (ks.h)
 description: The KsGetPinFromFileObject function returns the AVStream pin object associated with FileObject.
 old-location: stream\ksgetpinfromfileobject.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGetPinFromFileObject
+- KsGetPinFromFileObject
 product:
 - Windows
 targetos: Windows

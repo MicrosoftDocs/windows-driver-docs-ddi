@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._PDOSCSI_ADDR
-title: "_PDOSCSI_ADDR"
+title: _PDOSCSI_ADDR (mpiodisk.h)
 description: The PDOSCSI_ADDR structure is used to represent a SCSI address.
 old-location: storage\pdoscsi_addr.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	PDOSCSI_ADDR
+- PDOSCSI_ADDR
 product:
 - Windows
 targetos: Windows

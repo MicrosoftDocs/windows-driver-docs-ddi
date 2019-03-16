@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderGetCounterHandle
-title: imp_WppRecorderGetCounterHandle function
+title: imp_WppRecorderGetCounterHandle function (wpprecorder.h)
 description: The WppRecorderGetCounterHandle method.
 old-location: devtest\wpprecordergetcounterhandle.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wpprecorder.h
+- wpprecorder.h
 api_name:
--	imp_WppRecorderGetCounterHandle
+- imp_WppRecorderGetCounterHandle
 product:
 - Windows
 targetos: Windows

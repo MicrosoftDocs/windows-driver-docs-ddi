@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeInitiateVCDisconnect
-title: RxCeInitiateVCDisconnect function
+title: RxCeInitiateVCDisconnect function (rxce.h)
 description: RxCeInitiateVCDisconnect initiates a disconnect on the virtual circuit.
 old-location: ifsk\rxceinitiatevcdisconnect.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeInitiateVCDisconnect
+- RxCeInitiateVCDisconnect
 product:
 - Windows
 targetos: Windows

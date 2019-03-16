@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_EXTRACT_NETROOT_NAME
-title: PMRX_EXTRACT_NETROOT_NAME
+title: PMRX_EXTRACT_NETROOT_NAME (mrx.h)
 description: The MRxExtractNetRootName routine is called by RDBSS to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
 old-location: ifsk\mrxextractnetrootname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxExtractNetRootName
+- MRxExtractNetRootName
 product:
 - Windows
 targetos: Windows

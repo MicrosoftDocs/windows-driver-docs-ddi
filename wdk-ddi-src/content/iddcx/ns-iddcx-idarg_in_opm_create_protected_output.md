@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
-title: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
+title: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT (iddcx.h)
 description: Gives information about the video output semantics for the OPM context that will be created.
 old-location: display\idarg_in_opm_create_protected_output.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
+- IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
 product:
 - Windows
 targetos: Windows

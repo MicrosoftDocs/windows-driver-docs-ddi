@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeatureByKeyName
-title: IPrintSchemaCapabilities::GetFeatureByKeyName
+title: IPrintSchemaCapabilities::GetFeatureByKeyName (printerextension.h)
 description: Gets a feature from the PrintCapabilities based on a given key name.
 old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities.GetFeatureByKeyName
+- IPrintSchemaCapabilities.GetFeatureByKeyName
 product:
 - Windows
 targetos: Windows

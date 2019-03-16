@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SLOT_INFO
-title: "_WWAN_SLOT_INFO"
+title: _WWAN_SLOT_INFO (wwan.h)
 description: The WWAN_SLOT_INFO structure represents the status of a specific SIM card slot on the modem.
 old-location: netvista\wwan_slot_info_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SLOT_INFO
+- WWAN_SLOT_INFO
 product:
 - Windows
 targetos: Windows

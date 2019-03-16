@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCINFO
-title: "_WHEA_XPF_PROCINFO"
+title: _WHEA_XPF_PROCINFO (ntddk.h)
 description: The WHEA_XPF_PROCINFO structure describes processor error information that is specific to the x86 and x64 processor architectures.
 old-location: whea\whea_xpf_procinfo.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_PROCINFO
+- WHEA_XPF_PROCINFO
 product:
 - Windows
 targetos: Windows

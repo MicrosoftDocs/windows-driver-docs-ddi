@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlDelete
-title: RtlDelete function
+title: RtlDelete function (ntddk.h)
 description: The RtlDelete routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldelete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDelete
+- RtlDelete
 product:
 - Windows
 targetos: Windows

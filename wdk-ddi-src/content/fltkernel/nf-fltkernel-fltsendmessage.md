@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSendMessage
-title: FltSendMessage function
+title: FltSendMessage function (fltkernel.h)
 description: FltSendMessage sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance.
 old-location: ifsk\fltsendmessage.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSendMessage
+- FltSendMessage
 product:
 - Windows
 targetos: Windows

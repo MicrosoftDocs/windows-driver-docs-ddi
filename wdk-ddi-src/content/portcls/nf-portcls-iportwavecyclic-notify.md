@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveCyclic.Notify
-title: IPortWaveCyclic::Notify
+title: IPortWaveCyclic::Notify (portcls.h)
 description: The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
 old-location: audio\iportwavecyclic_notify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWaveCyclic.Notify
+- IPortWaveCyclic.Notify
 product:
 - Windows
 targetos: Windows

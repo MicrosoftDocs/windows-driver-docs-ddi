@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.Initialize
-title: IStiUSD::Initialize
+title: IStiUSD::Initialize (stiusd.h)
 description: A still image minidriver's IStiUSD::Initialize method initializes an instance of the COM object that defines the IStiUSD interface.
 old-location: image\istiusd_initialize.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.Initialize
+- IStiUSD.Initialize
 product:
 - Windows
 targetos: Windows

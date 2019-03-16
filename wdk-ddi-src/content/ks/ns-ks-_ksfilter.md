@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTER
-title: "_KSFILTER"
+title: _KSFILTER (ks.h)
 description: The KSFILTER structure describes an instantiated filter.
 old-location: stream\ksfilter.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSFILTER
+- KSFILTER
 product:
 - Windows
 targetos: Windows

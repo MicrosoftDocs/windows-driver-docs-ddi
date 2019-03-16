@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_FULL_INFORMATION
-title: "_INSTANCE_FULL_INFORMATION"
+title: _INSTANCE_FULL_INFORMATION (fltuserstructures.h)
 description: The INSTANCE_FULL_INFORMATION structure contains full information for a minifilter instance.
 old-location: ifsk\instance_full_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	INSTANCE_FULL_INFORMATION
+- INSTANCE_FULL_INFORMATION
 product:
 - Windows
 targetos: Windows

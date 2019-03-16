@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETINFO
-title: PFND3DDDI_GETINFO
+title: PFND3DDDI_GETINFO (d3dumddi.h)
 description: The GetInfo function retrieves information about the specified display device.
 old-location: display\getinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	GetInfo
+- GetInfo
 product:
 - Windows
 targetos: Windows

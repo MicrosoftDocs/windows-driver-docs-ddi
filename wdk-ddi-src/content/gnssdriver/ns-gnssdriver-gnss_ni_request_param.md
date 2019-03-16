@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_32
-title: GNSS_NI_REQUEST_PARAM
+title: GNSS_NI_REQUEST_PARAM (gnssdriver.h)
 description: This structure contains the NI request parameters.
 old-location: gnss\gnss_ni_request_param.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_NI_REQUEST_PARAM
+- GNSS_NI_REQUEST_PARAM
 product:
 - Windows
 targetos: Windows

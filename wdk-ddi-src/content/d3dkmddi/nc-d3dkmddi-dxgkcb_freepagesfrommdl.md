@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_FREEPAGESFROMMDL
-title: DXGKCB_FREEPAGESFROMMDL
+title: DXGKCB_FREEPAGESFROMMDL (d3dkmddi.h)
 description: Implemented by the client driver to frees all the physical pages that are described by an MDL and was created by the DXGKCB_ALLOCATEPAGESFORMDL routine.
 ms.assetid: 8d18ed12-1cbd-4908-ba06-d87e83fc175d
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_FREEPAGESFROMMDL
+- DXGKCB_FREEPAGESFROMMDL
 product: 
 - Windows
 targetos: Windows

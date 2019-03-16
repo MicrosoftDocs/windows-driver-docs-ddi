@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRequestPowerStateChange
-title: AtaPortRequestPowerStateChange function
+title: AtaPortRequestPowerStateChange function (irb.h)
 description: The AtaPortRequestPowerStateChange routine requests a power state transition for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestpowerstatechange.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Irb.h
+- Irb.h
 api_name:
--	AtaPortRequestPowerStateChange
+- AtaPortRequestPowerStateChange
 product:
 - Windows
 targetos: Windows

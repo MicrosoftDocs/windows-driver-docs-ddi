@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_IPSEC_KM_DEMUX_V4_
-title: FWPS_FIELDS_IPSEC_KM_DEMUX_V4_
+title: FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_IPSEC_KM_DEMUX_V4 run-time filtering layer.
 old-location: netvista\fwps_fields_ipsec_km_demux_v4.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_IPSEC_KM_DEMUX_V4
+- FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 product:
 - Windows
 targetos: Windows

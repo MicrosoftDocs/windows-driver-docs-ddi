@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsiop.__unnamed_enum_0
-title: LOGINSESSIONTYPE
+title: LOGINSESSIONTYPE (iscsiop.h)
 description: The LOGINSESSIONTYPE enumeration indicates the type of logon session.
 old-location: storage\loginsessiontype.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	LOGINSESSIONTYPE
+- LOGINSESSIONTYPE
 product:
 - Windows
 targetos: Windows

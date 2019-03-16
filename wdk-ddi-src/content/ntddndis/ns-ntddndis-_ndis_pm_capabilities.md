@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_CAPABILITIES
-title: "_NDIS_PM_CAPABILITIES"
+title: _NDIS_PM_CAPABILITIES (ntddndis.h)
 description: The NDIS_PM_CAPABILITIES structure specifies power management capabilities of a network adapter.
 old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_PM_CAPABILITIES
+- NDIS_PM_CAPABILITIES
 product:
 - Windows
 targetos: Windows

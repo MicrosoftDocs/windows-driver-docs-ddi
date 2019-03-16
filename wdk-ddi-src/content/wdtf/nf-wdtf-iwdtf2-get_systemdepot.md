@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTF2.get_SystemDepot
-title: IWDTF2::get_SystemDepot
+title: IWDTF2::get_SystemDepot (wdtf.h)
 description: Gets the SystemDepot object.
 old-location: dtf\iwdtf2_systemdepot.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTF2.SystemDepot
--	IWDTF2.get_SystemDepot
+- IWDTF2.SystemDepot
+- IWDTF2.get_SystemDepot
 product:
 - Windows
 targetos: Windows

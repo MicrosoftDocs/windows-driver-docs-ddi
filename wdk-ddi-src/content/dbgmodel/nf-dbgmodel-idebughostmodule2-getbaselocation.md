@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetBaseLocation
-title: IDebugHostModule2::GetBaseLocation
+title: IDebugHostModule2::GetBaseLocation (dbgmodel.h)
 description: The GetBaseLocation method returns the base load address of the module as a location structure.
 ms.assetid: e45bc4d7-b8a9-45ff-b366-fad50c82e55a
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostModule2.GetBaseLocation
-product: Windows
+- IDebugHostModule2.GetBaseLocation
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

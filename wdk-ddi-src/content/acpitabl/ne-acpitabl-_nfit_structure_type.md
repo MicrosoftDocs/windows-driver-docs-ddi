@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._NFIT_STRUCTURE_TYPE
-title: _NFIT_STRUCTURE_TYPE enumeration
+title: _NFIT_STRUCTURE_TYPE enumeration (acpitabl.h)
 description: Describes NVDIMM Firmware Interface Table (NFIT) structure types.
 ms.assetid: a9645635-eb52-45a3-9deb-32a278337646
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_NFIT_STRUCTURE_TYPE
+- _NFIT_STRUCTURE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

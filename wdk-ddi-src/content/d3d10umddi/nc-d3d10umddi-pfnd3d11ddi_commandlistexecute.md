@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_COMMANDLISTEXECUTE
-title: PFND3D11DDI_COMMANDLISTEXECUTE
+title: PFND3D11DDI_COMMANDLISTEXECUTE (d3d10umddi.h)
 description: The CommandListExecute function runs a command list.
 old-location: display\commandlistexecute.htm
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CommandListExecute
+- CommandListExecute
 product:
 - Windows
 targetos: Windows

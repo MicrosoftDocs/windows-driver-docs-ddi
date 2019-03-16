@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DPC_ROUTINE
-title: DXGKDDI_DPC_ROUTINE
+title: DXGKDDI_DPC_ROUTINE (dispmprt.h)
 description: The DxgkDdiDpcRoutine function is called back at IRQL DISPATCH_LEVEL after the display miniport driver calls DxgkCbQueueDpc.
 old-location: display\dxgkddidpcroutine.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiDpcRoutine
+- DxgkDdiDpcRoutine
 product:
 - Windows
 targetos: Windows

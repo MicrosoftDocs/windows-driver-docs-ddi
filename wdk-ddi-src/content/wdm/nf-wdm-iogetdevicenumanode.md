@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceNumaNode
-title: IoGetDeviceNumaNode function
+title: IoGetDeviceNumaNode function (wdm.h)
 description: The IoGetDeviceNumaNode routine gets the node number of a device.
 old-location: kernel\iogetdevicenumanode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceNumaNode
+- IoGetDeviceNumaNode
 product:
 - Windows
 targetos: Windows

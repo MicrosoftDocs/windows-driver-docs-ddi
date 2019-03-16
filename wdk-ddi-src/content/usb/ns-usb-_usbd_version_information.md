@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_VERSION_INFORMATION
-title: "_USBD_VERSION_INFORMATION"
+title: _USBD_VERSION_INFORMATION (usb.h)
 description: The USBD_VERSION_INFORMATION structure is used by the GetUSBDIVersion function to report its output data.
 old-location: buses\usbd_version_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	USBD_VERSION_INFORMATION
+- USBD_VERSION_INFORMATION
 product:
 - Windows
 targetos: Windows

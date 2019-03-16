@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmSinglePhaseReject
-title: TmSinglePhaseReject function
+title: TmSinglePhaseReject function (wdm.h)
 description: The TmSinglePhaseReject routine informs KTM that the calling resource manager will not support a single-phase commit operation for a specified enlistment.
 old-location: kernel\tmsinglephasereject.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmSinglePhaseReject
+- TmSinglePhaseReject
 product:
 - Windows
 targetos: Windows

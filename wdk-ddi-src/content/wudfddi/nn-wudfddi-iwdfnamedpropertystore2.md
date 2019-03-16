@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFNamedPropertyStore2
-title: IWDFNamedPropertyStore2
+title: IWDFNamedPropertyStore2 (wudfddi.h)
 description: Drivers obtain the IWDFNamedPropertyStore2 interface by calling IWDFPropertyStoreFactory::RetrieveDevicePropertyStore.
 old-location: wdf\iwdfnamedpropertystore2.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore2
+- IWDFNamedPropertyStore2
 product:
 - Windows
 targetos: Windows

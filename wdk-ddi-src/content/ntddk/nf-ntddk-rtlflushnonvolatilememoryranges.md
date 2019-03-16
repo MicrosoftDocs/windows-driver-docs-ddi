@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlFlushNonVolatileMemoryRanges
-title: RtlFlushNonVolatileMemoryRanges function
+title: RtlFlushNonVolatileMemoryRanges function (ntddk.h)
 description: The routine RtlFlushNonVolatileMemoryRanges optimally flushes the given non-volatile memory regions.
 old-location: ifsk\rtlflushnonvolatilememoryranges.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlFlushNonVolatileMemoryRanges
+- RtlFlushNonVolatileMemoryRanges
 product:
 - Windows
 targetos: Windows

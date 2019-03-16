@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_I2C_INTERFACE
-title: "_DXGK_I2C_INTERFACE"
+title: _DXGK_I2C_INTERFACE (dispmprt.h)
 description: The DXGK_I2C_INTERFACE structure contains pointers to functions in the I2C interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_i2c_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_I2C_INTERFACE
+- DXGK_I2C_INTERFACE
 product:
 - Windows
 targetos: Windows

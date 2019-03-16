@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortCheckForDeviceExistence
-title: VideoPortCheckForDeviceExistence function
+title: VideoPortCheckForDeviceExistence function (video.h)
 description: The VideoPortCheckForDeviceExistence function determines whether the specified PCI device exists in the system.
 old-location: display\videoportcheckfordeviceexistence.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortCheckForDeviceExistence
+- VideoPortCheckForDeviceExistence
 product:
 - Windows
 targetos: Windows

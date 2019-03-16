@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
-title: _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+title: _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE (wwan.h)
 description: The **WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE** enumeration specifies whether Specific Absorption Rate (SAR) transmission status notifications are disabled or enabled for a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: aa81d0f3-42dd-4e65-a311-ffbb7b2864a1
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, *PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
+- _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE
 product:
 - Windows
 targetos: Windows

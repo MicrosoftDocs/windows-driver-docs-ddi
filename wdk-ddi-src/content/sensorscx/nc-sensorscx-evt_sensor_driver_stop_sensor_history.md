@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
-title: EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
+title: EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY (sensorscx.h)
 description: Stops recording history in the sensor.
 ms.assetid: 6275f6dc-9c05-4fb1-a66e-60abd6052654
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
+- EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY
 product:
 - Windows
 targetos: Windows

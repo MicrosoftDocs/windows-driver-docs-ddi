@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_HEADER
-title: _DXGK_SCHEDULING_LOG_HEADER
+title: _DXGK_SCHEDULING_LOG_HEADER (d3dkmddi.h)
 description: Contains information about a scheduling log header.
 ms.assetid: 94dcf45e-2c79-426b-88d3-5bb5d9dfddc4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_LOG_HEADER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_LOG_HEADER
+- _DXGK_SCHEDULING_LOG_HEADER
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

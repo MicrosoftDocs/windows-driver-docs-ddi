@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_SelectConfigUrbAllocateAndBuild
-title: USBD_SelectConfigUrbAllocateAndBuild function
+title: USBD_SelectConfigUrbAllocateAndBuild function (usbdlib.h)
 description: The USBD_SelectConfigUrbAllocateAndBuild routine allocates and formats a URB structure that is required to select a configuration for a USB device.
 old-location: buses\usbd_selectconfigurballocateandbuild.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_SelectConfigUrbAllocateAndBuild
+- USBD_SelectConfigUrbAllocateAndBuild
 product:
 - Windows
 targetos: Windows

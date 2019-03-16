@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgHelper2
-title: wiauDbgHelper2 function
+title: wiauDbgHelper2 function (wiautil.h)
 description: The wiauDbgHelper2 function writes a message to a log file, or debugger, or both.
 old-location: image\wiaudbghelper2.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgHelper2
+- wiauDbgHelper2
 product:
 - Windows
 targetos: Windows

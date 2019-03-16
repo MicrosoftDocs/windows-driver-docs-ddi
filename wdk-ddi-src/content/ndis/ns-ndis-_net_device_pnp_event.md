@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_DEVICE_PNP_EVENT
-title: "_NET_DEVICE_PNP_EVENT"
+title: _NET_DEVICE_PNP_EVENT (ndis.h)
 description: The NET_DEVICE_PNP_EVENT structure defines device plug and play (PnP) events for miniport adapters.
 old-location: netvista\net_device_pnp_event.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_DEVICE_PNP_EVENT
+- NET_DEVICE_PNP_EVENT
 product:
 - Windows
 targetos: Windows

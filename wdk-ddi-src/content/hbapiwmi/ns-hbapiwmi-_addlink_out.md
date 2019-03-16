@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddLink_OUT
-title: "_AddLink_OUT"
+title: _AddLink_OUT (hbapiwmi.h)
 description: The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the AddLink WMI method.
 old-location: storage\addlink_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	AddLink_OUT
+- AddLink_OUT
 product:
 - Windows
 targetos: Windows

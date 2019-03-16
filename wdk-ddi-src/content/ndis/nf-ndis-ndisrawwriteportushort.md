@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortUshort
-title: NdisRawWritePortUshort macro
+title: NdisRawWritePortUshort macro (ndis.h)
 description: NdisRawWritePortUshort writes a USHORT value to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportushort.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawWritePortUshort
+- NdisRawWritePortUshort
 product:
 - Windows
 targetos: Windows

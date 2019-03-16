@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_RETURN_NET_BUFFER_LISTS
-title: MINIPORT_RETURN_NET_BUFFER_LISTS
+title: MINIPORT_RETURN_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the MiniportReturnNetBufferLists function to return ownership of NET_BUFFER_LIST structures, associated NET_BUFFER structures, and any attached MDLs to a miniport driver.
 old-location: netvista\miniportreturnnetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportReturnNetBufferLists
+- MiniportReturnNetBufferLists
 product:
 - Windows
 targetos: Windows

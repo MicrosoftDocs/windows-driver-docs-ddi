@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_REGISTERTRIMNOTIFICATION
-title: PFND3DKMT_REGISTERTRIMNOTIFICATION
+title: PFND3DKMT_REGISTERTRIMNOTIFICATION (d3dkmthk.h)
 description: The PFND3DKMT_REGISTERTRIMNOTIFICATION callback function registers trim notifications.
 ms.assetid: 149ad603-b237-4f6b-b185-be4a0a9590d2
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_REGISTERTRIMNOTIFICATION
+- PFND3DKMT_REGISTERTRIMNOTIFICATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

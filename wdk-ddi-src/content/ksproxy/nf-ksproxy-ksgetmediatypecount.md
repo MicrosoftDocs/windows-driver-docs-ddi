@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsGetMediaTypeCount
-title: KsGetMediaTypeCount function
+title: KsGetMediaTypeCount function (ksproxy.h)
 description: The KsGetMediaTypeCount function returns the number of available media types on a pin factory identifier.
 old-location: stream\ksgetmediatypecount.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsGetMediaTypeCount
+- KsGetMediaTypeCount
 product:
 - Windows
 targetos: Windows

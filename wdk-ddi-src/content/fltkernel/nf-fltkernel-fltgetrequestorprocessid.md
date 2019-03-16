@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorProcessId
-title: FltGetRequestorProcessId function
+title: FltGetRequestorProcessId function (fltkernel.h)
 description: The FltGetRequestorProcessId routine returns the unique 32-bit process ID for the process associated with the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocessid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetRequestorProcessId
+- FltGetRequestorProcessId
 product:
 - Windows
 targetos: Windows

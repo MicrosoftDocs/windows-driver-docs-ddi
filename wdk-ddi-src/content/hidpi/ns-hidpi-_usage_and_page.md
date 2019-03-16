@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._USAGE_AND_PAGE
-title: "_USAGE_AND_PAGE"
+title: _USAGE_AND_PAGE (hidpi.h)
 description: The USAGE_AND_PAGE structure specifies the usage page and usage ID of a HID control.
 old-location: hid\usage_and_page.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	USAGE_AND_PAGE
+- USAGE_AND_PAGE
 product:
 - Windows
 targetos: Windows

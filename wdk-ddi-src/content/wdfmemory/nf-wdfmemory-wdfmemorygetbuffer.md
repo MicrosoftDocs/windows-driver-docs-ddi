@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryGetBuffer
-title: WdfMemoryGetBuffer function
+title: WdfMemoryGetBuffer function (wdfmemory.h)
 description: The WdfMemoryGetBuffer method returns a pointer to the buffer that is associated with a specified memory object.
 old-location: wdf\wdfmemorygetbuffer.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfMemoryGetBuffer
+- WdfMemoryGetBuffer
 product:
 - Windows
 targetos: Windows

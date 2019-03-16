@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDeviceBase
-title: StorPortGetDeviceBase function
+title: StorPortGetDeviceBase function (storport.h)
 description: The StorPortGetDeviceBase routine maps an I/O address to system address space.
 old-location: storage\storportgetdevicebase.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetDeviceBase
+- StorPortGetDeviceBase
 product:
 - Windows
 targetos: Windows

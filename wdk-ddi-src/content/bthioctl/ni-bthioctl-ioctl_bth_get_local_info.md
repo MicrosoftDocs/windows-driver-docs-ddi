@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_GET_LOCAL_INFO
-title: IOCTL_BTH_GET_LOCAL_INFO
+title: IOCTL_BTH_GET_LOCAL_INFO (bthioctl.h)
 description: The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and radio.
 old-location: bltooth\ioctl_bth_get_local_info.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_GET_LOCAL_INFO
+- IOCTL_BTH_GET_LOCAL_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
-title: D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
+title: D3D12DDI_LOCAL_ROOT_SIGNATURE_0054 (d3d12umddi.h)
 description: Describes a local root signature.
 ms.assetid: 90e65fc6-8bec-4144-a9a4-d517d7714eb2
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
+- D3D12DDI_LOCAL_ROOT_SIGNATURE_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

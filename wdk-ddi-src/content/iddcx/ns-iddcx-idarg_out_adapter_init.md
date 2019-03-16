@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_ADAPTER_INIT
-title: IDARG_OUT_ADAPTER_INIT
+title: IDARG_OUT_ADAPTER_INIT (iddcx.h)
 description: Gives information about the initialized adapter that can be used by the OS to call functions.
 old-location: display\idarg_out_adapter_init.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_ADAPTER_INIT
+- IDARG_OUT_ADAPTER_INIT
 product:
 - Windows
 targetos: Windows

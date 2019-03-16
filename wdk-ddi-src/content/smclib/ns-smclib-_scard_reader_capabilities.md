@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SCARD_READER_CAPABILITIES
-title: "_SCARD_READER_CAPABILITIES"
+title: _SCARD_READER_CAPABILITIES (smclib.h)
 description: The SCARD_READER_CAPABILITIES structure holds state information about the smart card reader.
 old-location: smartcrd\scard_reader_capabilities.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	SCARD_READER_CAPABILITIES
+- SCARD_READER_CAPABILITIES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.CancelSentRequestsForFile
-title: IWDFIoTarget::CancelSentRequestsForFile
+title: IWDFIoTarget::CancelSentRequestsForFile (wudfddi.h)
 description: The CancelSentRequestsForFile method cancels all I/O requests that have been sent on behalf of the specified file object.
 old-location: wdf\iwdfiotarget_cancelsentrequestsforfile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget.CancelSentRequestsForFile
+- IWDFIoTarget.CancelSentRequestsForFile
 product:
 - Windows
 targetos: Windows

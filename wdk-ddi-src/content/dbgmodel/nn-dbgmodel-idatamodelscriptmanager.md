@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptManager
-title: IDataModelScriptManager
+title: IDataModelScriptManager (dbgmodel.h)
 description: The core interface to the script management capabilities of the data model manager.  Queried from the data model manager.
 ms.assetid: 456082be-779f-4504-a068-4c625759cc54
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptManager
-product: Windows
+- IDataModelScriptManager
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetOptions
-title: IPrintCorePS2::GetOptions
+title: IPrintCorePS2::GetOptions (prcomoem.h)
 description: The IPrintCorePS2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreps2_getoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCorePS2.GetOptions
+- IPrintCorePS2.GetOptions
 product:
 - Windows
 targetos: Windows

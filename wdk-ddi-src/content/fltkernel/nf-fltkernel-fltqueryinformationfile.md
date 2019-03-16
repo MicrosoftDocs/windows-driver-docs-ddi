@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryInformationFile
-title: FltQueryInformationFile function
+title: FltQueryInformationFile function (fltkernel.h)
 description: FltQueryInformationFile retrieves information for a given file.
 old-location: ifsk\fltqueryinformationfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueryInformationFile
+- FltQueryInformationFile
 product:
 - Windows
 targetos: Windows

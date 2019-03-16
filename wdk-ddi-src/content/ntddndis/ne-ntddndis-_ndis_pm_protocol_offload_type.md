@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PM_PROTOCOL_OFFLOAD_TYPE
-title: "_NDIS_PM_PROTOCOL_OFFLOAD_TYPE"
+title: _NDIS_PM_PROTOCOL_OFFLOAD_TYPE (ntddndis.h)
 description: The NDIS_PM_PROTOCOL_OFFLOAD_TYPE enumeration identifies the type of a protocol offload for NDIS network adapter power management.
 old-location: netvista\ndis_pm_protocol_offload_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PM_PROTOCOL_OFFLOAD_TYPE
+- NDIS_PM_PROTOCOL_OFFLOAD_TYPE
 product:
 - Windows
 targetos: Windows

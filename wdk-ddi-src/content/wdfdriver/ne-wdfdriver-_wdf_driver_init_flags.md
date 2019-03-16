@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdriver._WDF_DRIVER_INIT_FLAGS
-title: "_WDF_DRIVER_INIT_FLAGS"
+title: _WDF_DRIVER_INIT_FLAGS (wdfdriver.h)
 description: The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 old-location: wdf\wdf_driver_init_flags.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdriver.h
+- wdfdriver.h
 api_name:
--	WDF_DRIVER_INIT_FLAGS
+- WDF_DRIVER_INIT_FLAGS
 product:
 - Windows
 targetos: Windows

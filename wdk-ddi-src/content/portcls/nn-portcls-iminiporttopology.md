@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportTopology
-title: IMiniportTopology
+title: IMiniportTopology (portcls.h)
 description: The IMiniportTopology interface is the primary interface of a Topology miniport driver.
 old-location: audio\iminiporttopology.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportTopology
+- IMiniportTopology
 product:
 - Windows
 targetos: Windows

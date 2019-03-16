@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetConnectedPin
-title: IKsPinPipe::KsGetConnectedPin
+title: IKsPinPipe::KsGetConnectedPin (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetconnectedpin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPinPipe.KsGetConnectedPin
+- IKsPinPipe.KsGetConnectedPin
 product:
 - Windows
 targetos: Windows

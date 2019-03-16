@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SCATTER_GATHER_LIST
-title: "_SCATTER_GATHER_LIST"
+title: _SCATTER_GATHER_LIST (wdm.h)
 description: The SCATTER_GATHER_LIST structure describes the scatter/gather list for a DMA operation.
 old-location: kernel\scatter_gather_list.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SCATTER_GATHER_LIST
+- SCATTER_GATHER_LIST
 product:
 - Windows
 targetos: Windows

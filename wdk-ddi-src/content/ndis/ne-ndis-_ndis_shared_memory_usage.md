@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._NDIS_SHARED_MEMORY_USAGE
-title: "_NDIS_SHARED_MEMORY_USAGE"
+title: _NDIS_SHARED_MEMORY_USAGE (ndis.h)
 description: The NDIS_SHARED_MEMORY_USAGE enumeration specifies how shared memory is used.
 old-location: netvista\ndis_shared_memory_usage.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_SHARED_MEMORY_USAGE
+- NDIS_SHARED_MEMORY_USAGE
 product:
 - Windows
 targetos: Windows

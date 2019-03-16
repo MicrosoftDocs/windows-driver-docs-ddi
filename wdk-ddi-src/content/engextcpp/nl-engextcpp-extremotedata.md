@@ -1,6 +1,6 @@
 ---
 UID: NL:engextcpp.ExtRemoteData
-title: ExtRemoteData
+title: ExtRemoteData (engextcpp.h)
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData
+- ExtRemoteData
 product:
 - Windows
 targetos: Windows

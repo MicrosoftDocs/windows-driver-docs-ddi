@@ -1,6 +1,6 @@
 ---
 UID: NS:trustedruntimeclx._TR_SECURE_SERVICE_EXTENSION_V1
-title: _TR_SECURE_SERVICE_EXTENSION_V1
+title: _TR_SECURE_SERVICE_EXTENSION_V1 (trustedruntimeclx.h)
 description: 
 ms.assetid: 15613a31-bd74-4304-b621-3a8b226e63d0
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TR_SECURE_SERVICE_EXTENSION_V1, *PTR_SECURE_SERVICE_EXTENSION_V1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	_TR_SECURE_SERVICE_EXTENSION_V1
+- _TR_SECURE_SERVICE_EXTENSION_V1
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

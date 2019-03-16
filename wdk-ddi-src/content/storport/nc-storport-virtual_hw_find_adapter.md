@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.VIRTUAL_HW_FIND_ADAPTER
-title: VIRTUAL_HW_FIND_ADAPTER
+title: VIRTUAL_HW_FIND_ADAPTER (storport.h)
 description: The Storport virtual miniport uses configuration information supplied to the VirtualHwStorFindAdapter routine to further initialize itself.
 old-location: storage\virtualhwstorfindadapter.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	VirtualHwStorFindAdapter
+- VirtualHwStorFindAdapter
 product:
 - Windows
 targetos: Windows

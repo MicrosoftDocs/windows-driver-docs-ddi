@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortMidi
-title: IPortMidi
+title: IPortMidi (portcls.h)
 description: The IPortMidi interface is the MIDI port driver's primary interface.
 old-location: audio\iportmidi.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortMidi
+- IPortMidi
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourceFileLineOffsets
-title: IDebugSymbols2::GetSourceFileLineOffsets
+title: IDebugSymbols2::GetSourceFileLineOffsets (dbgeng.h)
 description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsets.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetSourceFileLineOffsets
--	IDebugSymbols2.GetSourceFileLineOffsets
--	IDebugSymbols3.GetSourceFileLineOffsets
+- IDebugSymbols.GetSourceFileLineOffsets
+- IDebugSymbols2.GetSourceFileLineOffsets
+- IDebugSymbols3.GetSourceFileLineOffsets
 product:
 - Windows
 targetos: Windows

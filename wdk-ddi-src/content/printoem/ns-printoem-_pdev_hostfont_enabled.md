@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_HOSTFONT_ENABLED
-title: "_PDEV_HOSTFONT_ENABLED"
+title: _PDEV_HOSTFONT_ENABLED (printoem.h)
 description: The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
 old-location: print\pdev_hostfont_enabled.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	PDEV_HOSTFONT_ENABLED
+- PDEV_HOSTFONT_ENABLED
 product:
 - Windows
 targetos: Windows

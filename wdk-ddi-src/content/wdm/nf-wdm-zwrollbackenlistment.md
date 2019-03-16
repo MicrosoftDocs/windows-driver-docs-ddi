@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwRollbackEnlistment
-title: ZwRollbackEnlistment function
+title: ZwRollbackEnlistment function (wdm.h)
 description: The ZwRollbackEnlistment routine rolls back the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrollbackenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwRollbackEnlistment
--	NtRollbackEnlistment
+- ZwRollbackEnlistment
+- NtRollbackEnlistment
 product:
 - Windows
 targetos: Windows

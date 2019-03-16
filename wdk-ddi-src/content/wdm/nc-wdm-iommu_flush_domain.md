@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_FLUSH_DOMAIN
-title: IOMMU_FLUSH_DOMAIN
+title: IOMMU_FLUSH_DOMAIN (wdm.h)
 description: Flushes the TLB for all entries which match this domain.
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_FLUSH_DOMAIN
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_FLUSH_DOMAIN
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

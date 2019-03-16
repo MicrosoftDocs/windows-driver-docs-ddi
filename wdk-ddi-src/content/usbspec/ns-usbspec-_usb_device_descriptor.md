@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_DESCRIPTOR
-title: "_USB_DEVICE_DESCRIPTOR"
+title: _USB_DEVICE_DESCRIPTOR (usbspec.h)
 description: The USB_DEVICE_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device descriptor.
 old-location: buses\usb_device_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_DEVICE_DESCRIPTOR
+- USB_DEVICE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ req.typenames: USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR
 
 
 The <b>USB_DEVICE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined device descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.1.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.1.
 
 ## -struct-fields
 

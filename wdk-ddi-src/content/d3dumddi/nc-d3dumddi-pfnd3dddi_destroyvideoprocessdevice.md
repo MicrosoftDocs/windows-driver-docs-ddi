@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYVIDEOPROCESSDEVICE
-title: PFND3DDDI_DESTROYVIDEOPROCESSDEVICE
+title: PFND3DDDI_DESTROYVIDEOPROCESSDEVICE (d3dumddi.h)
 description: The DestroyVideoProcessDevice function releases resources for a Microsoft DirectX Video Acceleration (VA) video processing device.
 old-location: display\destroyvideoprocessdevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DestroyVideoProcessDevice
+- DestroyVideoProcessDevice
 product:
 - Windows
 targetos: Windows

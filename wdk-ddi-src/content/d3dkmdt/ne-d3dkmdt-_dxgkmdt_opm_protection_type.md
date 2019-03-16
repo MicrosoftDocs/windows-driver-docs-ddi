@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_PROTECTION_TYPE
-title: "_DXGKMDT_OPM_PROTECTION_TYPE"
+title: _DXGKMDT_OPM_PROTECTION_TYPE (d3dkmdt.h)
 description: The DXGKMDT_OPM_PROTECTION_TYPE enumeration indicates the type of protections that a video output supports.
 old-location: display\dxgkmdt_opm_protection_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_PROTECTION_TYPE
+- DXGKMDT_OPM_PROTECTION_TYPE
 product:
 - Windows
 targetos: Windows

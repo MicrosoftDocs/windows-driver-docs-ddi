@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_1_DDI_BLEND_DESC
-title: D3D10_1_DDI_BLEND_DESC
+title: D3D10_1_DDI_BLEND_DESC (d3d10umddi.h)
 description: The D3D10_1_DDI_BLEND_DESC structure describes a blend state.
 old-location: display\d3d10_1_ddi_blend_desc.htm
 ms.assetid: e398b1a3-60bf-4a4a-b5c2-1dc11cf3dae1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_1_DDI_BLEND_DESC
+- D3D10_1_DDI_BLEND_DESC
 product:
 - Windows
 targetos: Windows

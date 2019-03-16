@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetDefaultClockState
-title: KsGetDefaultClockState function
+title: KsGetDefaultClockState function (ks.h)
 description: The KsGetDefaultClockState function gets the current state of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclockstate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetDefaultClockState
+- KsGetDefaultClockState
 product:
 - Windows
 targetos: Windows

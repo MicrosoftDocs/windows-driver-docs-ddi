@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_FLAGS
-title: FN_VMB_CHANNEL_INIT_SET_FLAGS
+title: FN_VMB_CHANNEL_INIT_SET_FLAGS (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelInitSetFlags function sets flags common to server or client channel endpoints.
 tech.root: netvista
 ms.assetid: 52b07c01-e194-436c-8c93-1d88d9a34499
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_INIT_SET_FLAGS
+- FN_VMB_CHANNEL_INIT_SET_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

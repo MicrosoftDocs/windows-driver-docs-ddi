@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SURPRISE_REMOVAL
-title: EVT_WDF_DEVICE_SURPRISE_REMOVAL
+title: EVT_WDF_DEVICE_SURPRISE_REMOVAL (wdfdevice.h)
 description: A driver's EvtDeviceSurpriseRemoval event callback function performs any operations that are needed after a device has been unexpectedly removed from the system or after a driver reports that the device has failed.
 old-location: wdf\evtdevicesurpriseremoval.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceSurpriseRemoval
+- EvtDeviceSurpriseRemoval
 product:
 - Windows
 targetos: Windows

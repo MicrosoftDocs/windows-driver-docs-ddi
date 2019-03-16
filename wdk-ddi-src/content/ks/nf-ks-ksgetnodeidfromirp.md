@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetNodeIdFromIrp
-title: KsGetNodeIdFromIrp function
+title: KsGetNodeIdFromIrp function (ks.h)
 description: The KsGetNodeIdFromIrp function returns the node ID of the node to which Irp was submitted.
 old-location: stream\ksgetnodeidfromirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetNodeIdFromIrp
+- KsGetNodeIdFromIrp
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_REVERT
-title: IOCTL_EHSTOR_BANDMGMT_REVERT
+title: IOCTL_EHSTOR_BANDMGMT_REVERT (ehstorbandmgmt.h)
 description: This IOCTL_EHSTOR_BANDMGMT_REVERT request is sent to deactivate the security features and band management on a storage device. The request includes revert options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_revert.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_REVERT
+- IOCTL_EHSTOR_BANDMGMT_REVERT
 product:
 - Windows
 targetos: Windows

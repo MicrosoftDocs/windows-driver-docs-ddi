@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SPECIFIC_FILTER_PARAMETERS
-title: "_DEBUG_SPECIFIC_FILTER_PARAMETERS"
+title: _DEBUG_SPECIFIC_FILTER_PARAMETERS (dbgeng.h)
 description: The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a specific event filter.
 old-location: debugger\debug_specific_filter_parameters.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_SPECIFIC_FILTER_PARAMETERS
+- DEBUG_SPECIFIC_FILTER_PARAMETERS
 product:
 - Windows
 targetos: Windows

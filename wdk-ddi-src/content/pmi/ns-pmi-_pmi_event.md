@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_EVENT
-title: "_PMI_EVENT"
+title: _PMI_EVENT (pmi.h)
 description: The PMI_EVENT structure contains information about a power metering and budgeting event that is signaled through the Power Meter Interface (PMI).
 old-location: powermeter\pmi_event.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_EVENT
+- PMI_EVENT
 product:
 - Windows
 targetos: Windows

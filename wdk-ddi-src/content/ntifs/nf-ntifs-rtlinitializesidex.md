@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitializeSidEx
-title: RtlInitializeSidEx function
+title: RtlInitializeSidEx function (ntifs.h)
 description: The RtlInitializeSidEx routine initializes a pre-allocated security identifier (SID) structure.
 old-location: ifsk\rtlinitializesidex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitializeSidEx
+- RtlInitializeSidEx
 product:
 - Windows
 targetos: Windows

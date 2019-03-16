@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvDriverEvent
-title: DrvDriverEvent function
+title: DrvDriverEvent function (winddiui.h)
 description: The print spooler calls a printer interface DLL's DrvDriverEvent function when the spooler processes driver-specific events that might require action by the printer driver.
 old-location: print\drvdriverevent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvDriverEvent
+- DrvDriverEvent
 product:
 - Windows
 targetos: Windows

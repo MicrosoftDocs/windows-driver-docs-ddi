@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListAppendDescriptor
-title: WdfCmResourceListAppendDescriptor function
+title: WdfCmResourceListAppendDescriptor function (wdfresource.h)
 description: The WdfCmResourceListAppendDescriptor method adds a resource descriptor to the end of a specified resource list.
 old-location: wdf\wdfcmresourcelistappenddescriptor.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCmResourceListAppendDescriptor
+- WdfCmResourceListAppendDescriptor
 product:
 - Windows
 targetos: Windows

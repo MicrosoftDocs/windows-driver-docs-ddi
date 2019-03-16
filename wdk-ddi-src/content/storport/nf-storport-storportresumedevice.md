@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortResumeDevice
-title: StorPortResumeDevice function
+title: StorPortResumeDevice function (storport.h)
 description: The StorPortResumeDevice routine resumes a previously paused logical unit.
 old-location: storage\storportresumedevice.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortResumeDevice
+- StorPortResumeDevice
 product:
 - Windows
 targetos: Windows

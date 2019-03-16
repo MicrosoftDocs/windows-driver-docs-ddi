@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReleaseObjectSecurity
-title: ObReleaseObjectSecurity function
+title: ObReleaseObjectSecurity function (wdm.h)
 description: The ObReleaseObjectSecurity routine is the reciprocal to ObGetObjectSecurity.
 old-location: kernel\obreleaseobjectsecurity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReleaseObjectSecurity
+- ObReleaseObjectSecurity
 product:
 - Windows
 targetos: Windows

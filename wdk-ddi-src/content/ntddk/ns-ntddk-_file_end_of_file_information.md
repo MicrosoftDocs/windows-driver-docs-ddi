@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_END_OF_FILE_INFORMATION
-title: "_FILE_END_OF_FILE_INFORMATION"
+title: _FILE_END_OF_FILE_INFORMATION (ntddk.h)
 description: The FILE_END_OF_FILE_INFORMATION structure is used as an argument to the ZwSetInformationFile routine.
 old-location: kernel\file_end_of_file_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_END_OF_FILE_INFORMATION
+- FILE_END_OF_FILE_INFORMATION
 product:
 - Windows
 targetos: Windows

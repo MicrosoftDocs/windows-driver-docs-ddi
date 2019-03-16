@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.AddRef
-title: IEquatableConcept::AddRef
+title: IEquatableConcept::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. 
 ms.assetid: 604b2019-00c7-4ce6-8971-daaf0a564b92
 ms.date: 09/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IEquatableConcept.AddRef
-product: Windows
+- IEquatableConcept.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

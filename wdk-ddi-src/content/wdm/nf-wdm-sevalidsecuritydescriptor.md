@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeValidSecurityDescriptor
-title: SeValidSecurityDescriptor function
+title: SeValidSecurityDescriptor function (wdm.h)
 description: The SeValidSecurityDescriptor routine returns whether a given security descriptor is structurally valid.
 old-location: kernel\sevalidsecuritydescriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeValidSecurityDescriptor
+- SeValidSecurityDescriptor
 product:
 - Windows
 targetos: Windows

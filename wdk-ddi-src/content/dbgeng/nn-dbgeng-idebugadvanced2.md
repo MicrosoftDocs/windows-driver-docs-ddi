@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugAdvanced2
-title: IDebugAdvanced2
+title: IDebugAdvanced2 (dbgeng.h)
 description: IDebugAdvanced2 interface
 old-location: debugger\idebugadvanced2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugAdvanced2
+- IDebugAdvanced2
 product:
 - Windows
 targetos: Windows

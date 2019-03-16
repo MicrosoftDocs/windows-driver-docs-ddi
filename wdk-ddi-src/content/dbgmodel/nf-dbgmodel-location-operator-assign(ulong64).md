@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-assign(ULONG64)
-title: operator= function
+title: operator= function (dbgmodel.h)
 description: The assignment operator for the location function.
 ms.assetid: bb0ccc46-390f-4bab-b6fb-0050375e1fc4
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	
+- HeaderDef
 api_location: 
--	
+- dbgmodel.h
 api_name: 
--	operator=
-product: Windows
+- operator=
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

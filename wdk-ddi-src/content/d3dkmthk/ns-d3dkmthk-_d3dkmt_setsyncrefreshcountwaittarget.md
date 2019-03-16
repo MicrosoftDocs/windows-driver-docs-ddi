@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
-title: _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
+title: _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET (d3dkmthk.h)
 description: Used to set sync refresh count for wait target.
 ms.assetid: 834d26e5-2c55-4716-8603-e0f7327f7937
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
+- _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

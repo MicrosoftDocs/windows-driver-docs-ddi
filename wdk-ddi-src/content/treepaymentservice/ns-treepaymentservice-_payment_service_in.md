@@ -1,6 +1,6 @@
 ---
 UID: NS:treepaymentservice._PAYMENT_SERVICE_IN
-title: _PAYMENT_SERVICE_IN structure
+title: _PAYMENT_SERVICE_IN structure (treepaymentservice.h)
 description: Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 ms.assetid: 69ab7349-5e68-4da5-bbfb-4300140aeac5
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treepaymentservice.h
+- treepaymentservice.h
 api_name: 
--	_PAYMENT_SERVICE_IN
+- _PAYMENT_SERVICE_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

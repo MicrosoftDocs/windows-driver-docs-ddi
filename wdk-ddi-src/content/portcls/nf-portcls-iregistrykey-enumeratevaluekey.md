@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.EnumerateValueKey
-title: IRegistryKey::EnumerateValueKey
+title: IRegistryKey::EnumerateValueKey (portcls.h)
 description: The EnumerateValueKey method returns information about a registry entry that contains a value key.
 old-location: audio\iregistrykey_enumeratevaluekey.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IRegistryKey.EnumerateValueKey
+- IRegistryKey.EnumerateValueKey
 product:
 - Windows
 targetos: Windows

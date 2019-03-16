@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_LB_PROVISIONING_DESCRIPTOR
-title: "_DEVICE_LB_PROVISIONING_DESCRIPTOR"
+title: _DEVICE_LB_PROVISIONING_DESCRIPTOR (ntddstor.h)
 description: The DEVICE_LB_PROVISIONING_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request. This structure contains the thin provisioning capabilities for a storage device.
 old-location: storage\device_lb_provisioning_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_LB_PROVISIONING_DESCRIPTOR
+- DEVICE_LB_PROVISIONING_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

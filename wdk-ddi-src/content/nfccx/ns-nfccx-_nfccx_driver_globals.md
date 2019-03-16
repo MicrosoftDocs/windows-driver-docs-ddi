@@ -1,6 +1,6 @@
 ---
 UID: NS:nfccx._NFCCX_DRIVER_GLOBALS
-title: "_NFCCX_DRIVER_GLOBALS"
+title: _NFCCX_DRIVER_GLOBALS (nfccx.h)
 description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	NFCCX_DRIVER_GLOBALS
+- NFCCX_DRIVER_GLOBALS
 product:
 - Windows
 targetos: Windows

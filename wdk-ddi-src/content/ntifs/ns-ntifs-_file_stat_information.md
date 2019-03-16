@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STAT_INFORMATION
-title: _FILE_STAT_INFORMATION
+title: _FILE_STAT_INFORMATION (ntifs.h)
 description: Contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STAT_INFORMATION
-product: Windows
+- _FILE_STAT_INFORMATION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

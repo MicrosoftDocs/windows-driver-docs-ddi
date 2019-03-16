@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCopyLuid
-title: RtlCopyLuid function
+title: RtlCopyLuid function (ntifs.h)
 description: The RtlCopyLuid routine copies a locally unique identifier (LUID) to a buffer.
 old-location: ifsk\rtlcopyluid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCopyLuid
+- RtlCopyLuid
 product:
 - Windows
 targetos: Windows

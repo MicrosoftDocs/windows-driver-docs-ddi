@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetAvailableByteCount
-title: KsPinGetAvailableByteCount function
+title: KsPinGetAvailableByteCount function (ks.h)
 description: The KsPinGetAvailableByteCount routine outputs the number of bytes of input data ahead of the leading edge and the number of bytes of output buffer ahead of the leading edge, both for the queue of a caller-specified pin.
 old-location: stream\kspingetavailablebytecount.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetAvailableByteCount
+- KsPinGetAvailableByteCount
 product:
 - Windows
 targetos: Windows

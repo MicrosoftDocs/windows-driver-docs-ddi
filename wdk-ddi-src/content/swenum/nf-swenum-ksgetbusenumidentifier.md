@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsGetBusEnumIdentifier
-title: KsGetBusEnumIdentifier function
+title: KsGetBusEnumIdentifier function (swenum.h)
 description: The KsGetBusEnumIdentifier function retrieves the software bus enumerator identifier for the bus device associated with the given IRP.
 old-location: stream\ksgetbusenumidentifier.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetBusEnumIdentifier
+- KsGetBusEnumIdentifier
 product:
 - Windows
 targetos: Windows

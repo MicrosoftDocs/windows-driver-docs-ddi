@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDevStateNormalize
-title: WdfDevStateNormalize function
+title: WdfDevStateNormalize function (wdfdevice.h)
 description: The WdfDevStateNormalize method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 old-location: wdf\wdfdevstatenormalize.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDevStateNormalize
+- WdfDevStateNormalize
 product:
 - Windows
 targetos: Windows

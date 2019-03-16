@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_SET_DEVICE_DATA
-title: GET_SET_DEVICE_DATA
+title: GET_SET_DEVICE_DATA (wdm.h)
 description: The GetBusData routine reads data from the device's configuration space.
 old-location: kernel\getbusdata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	GetBusData
+- GetBusData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeReleaseSubjectContext
-title: SeReleaseSubjectContext function
+title: SeReleaseSubjectContext function (ntifs.h)
 description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeReleaseSubjectContext
+- SeReleaseSubjectContext
 product:
 - Windows
 targetos: Windows

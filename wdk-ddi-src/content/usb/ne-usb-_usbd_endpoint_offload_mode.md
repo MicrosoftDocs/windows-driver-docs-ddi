@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USBD_ENDPOINT_OFFLOAD_MODE
-title: "_USBD_ENDPOINT_OFFLOAD_MODE"
+title: _USBD_ENDPOINT_OFFLOAD_MODE (usb.h)
 description: Defines values for endpoint offloading options in the USB device or host controller.
 old-location: buses\usbd_endpoint_offload_mode.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	USBD_ENDPOINT_OFFLOAD_MODE
+- USBD_ENDPOINT_OFFLOAD_MODE
 product:
 - Windows
 targetos: Windows

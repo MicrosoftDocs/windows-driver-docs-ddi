@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_ROOT_HUB_NAME
-title: IOCTL_USB_GET_ROOT_HUB_NAME
+title: IOCTL_USB_GET_ROOT_HUB_NAME (usbioctl.h)
 description: The IOCTL_USB_GET_ROOT_HUB_NAME I/O control request is used with the USB_ROOT_HUB_NAME structure to retrieve the symbolic link name of the root hub.IOCTL_USB_GET_ROOT_HUB_NAME is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_root_hub_name.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_ROOT_HUB_NAME
+- IOCTL_USB_GET_ROOT_HUB_NAME
 product:
 - Windows
 targetos: Windows

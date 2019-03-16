@@ -1,6 +1,6 @@
 ---
 UID: NE:portcls.__unnamed_enum_5
-title: eChannelTargetType
+title: eChannelTargetType (portcls.h)
 description: The eChannelTargetType enumeration defines constants that specify a type of node (target) in a given channel.
 old-location: audio\echanneltargettype.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	eChannelTargetType
+- eChannelTargetType
 product:
 - Windows
 targetos: Windows

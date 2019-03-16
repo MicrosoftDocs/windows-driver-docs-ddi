@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTarget
-title: IWDFIoTarget
+title: IWDFIoTarget (wudfddi.h)
 description: The IWDFIoTarget interface exposes the I/O target object that typically represents a lower driver in the stack.
 old-location: wdf\iwdfiotarget.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget
+- IWDFIoTarget
 product:
 - Windows
 targetos: Windows

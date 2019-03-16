@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForInternalIoctlOthers
-title: WdfIoTargetFormatRequestForInternalIoctlOthers function
+title: WdfIoTargetFormatRequestForInternalIoctlOthers function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForInternalIoctlOthers method builds a non-standard internal device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforinternalioctlothers.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoTargetFormatRequestForInternalIoctlOthers
+- WdfIoTargetFormatRequestForInternalIoctlOthers
 product:
 - Windows
 targetos: Windows

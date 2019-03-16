@@ -1,6 +1,6 @@
 ---
 UID: NE:usbscan._RAW_PIPE_TYPE
-title: "_RAW_PIPE_TYPE"
+title: _RAW_PIPE_TYPE (usbscan.h)
 description: The RAW_PIPE_TYPE data type is used to specify the type of a USB pipe.
 old-location: image\raw_pipe_type.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	RAW_PIPE_TYPE
+- RAW_PIPE_TYPE
 product:
 - Windows
 targetos: Windows

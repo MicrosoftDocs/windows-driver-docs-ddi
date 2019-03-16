@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_CONNECT
-title: IOCTL_BTH_SDP_CONNECT
+title: IOCTL_BTH_SDP_CONNECT (bthioctl.h)
 description: The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a remote Bluetooth device.
 old-location: bltooth\ioctl_bth_sdp_connect.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_SDP_CONNECT
+- IOCTL_BTH_SDP_CONNECT
 product:
 - Windows
 targetos: Windows

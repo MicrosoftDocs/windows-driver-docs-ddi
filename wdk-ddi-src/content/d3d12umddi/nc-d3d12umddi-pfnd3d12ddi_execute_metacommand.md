@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_METACOMMAND
-title: PFND3D12DDI_EXECUTE_METACOMMAND
+title: PFND3D12DDI_EXECUTE_METACOMMAND (d3d12umddi.h)
 description: Implemented by the client driver to execute the meta-command.
 ms.assetid: 0ba97840-c316-4905-b65b-f103da9d5fe4
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_EXECUTE_METACOMMAND
+- PFND3D12DDI_EXECUTE_METACOMMAND
 product: 
 - Windows
 targetos: Windows

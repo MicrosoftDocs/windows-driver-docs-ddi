@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.D3COLD_REQUEST_PERST_DELAY
-title: D3COLD_REQUEST_PERST_DELAY
+title: D3COLD_REQUEST_PERST_DELAY (wdm.h)
 description: Enables the function device object (FDO) to convey its requirement for a fixed delay time. 
 ms.assetid: c81274ad-e9e9-4ad2-a6e0-fac03e792071
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	D3COLD_REQUEST_PERST_DELAY
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- D3COLD_REQUEST_PERST_DELAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

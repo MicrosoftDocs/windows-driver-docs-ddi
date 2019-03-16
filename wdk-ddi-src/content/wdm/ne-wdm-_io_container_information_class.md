@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_CONTAINER_INFORMATION_CLASS
-title: "_IO_CONTAINER_INFORMATION_CLASS"
+title: _IO_CONTAINER_INFORMATION_CLASS (wdm.h)
 description: The IO_CONTAINER_INFORMATION_CLASS enumeration contains constants that indicate the classes of system information that a kernel-mode driver can request.
 old-location: kernel\io_container_information_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IO_CONTAINER_INFORMATION_CLASS
+- IO_CONTAINER_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

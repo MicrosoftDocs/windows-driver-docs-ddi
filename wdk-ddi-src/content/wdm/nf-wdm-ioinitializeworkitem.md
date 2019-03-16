@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeWorkItem
-title: IoInitializeWorkItem function
+title: IoInitializeWorkItem function (wdm.h)
 description: The IoInitializeWorkItem routine initializes a work item that the caller has already allocated.
 old-location: kernel\ioinitializeworkitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInitializeWorkItem
+- IoInitializeWorkItem
 product:
 - Windows
 targetos: Windows

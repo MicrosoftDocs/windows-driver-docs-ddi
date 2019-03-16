@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS (d3d10umddi.h)
 description: Specifies the automatic image processing capabilities of the video processor.
 old-location: display\d3d11_1ddi_video_processor_auto_stream_caps.htm
 ms.assetid: 00334dec-b84a-49d4-bd09-440eb7a1b79d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
+- D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
 product:
 - Windows
 targetos: Windows

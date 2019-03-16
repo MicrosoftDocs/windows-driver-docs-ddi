@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoFreeController
-title: IoFreeController function
+title: IoFreeController function (ntddk.h)
 description: The IoFreeController routine releases a previously allocated controller object when the driver has completed an I/O request.
 old-location: kernel\iofreecontroller.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoFreeController
+- IoFreeController
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_PRODUCT_DATA
-title: "_CHANGER_PRODUCT_DATA"
+title: _CHANGER_PRODUCT_DATA (ntddchgr.h)
 description: The CHANGER_PRODUCT_DATA structure is used in conjunction with the IOCTL_CHANGER_GET_PRODUCT_DATA request to retrieve product data for a device.
 old-location: storage\changer_product_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_PRODUCT_DATA
+- CHANGER_PRODUCT_DATA
 product:
 - Windows
 targetos: Windows

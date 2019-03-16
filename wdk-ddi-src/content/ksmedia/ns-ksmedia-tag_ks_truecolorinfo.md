@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tag_KS_TRUECOLORINFO
-title: tag_KS_TRUECOLORINFO
+title: tag_KS_TRUECOLORINFO (ksmedia.h)
 description: The KS_TRUECOLORINFO structure describes color palette and bitmask information for video images that also contain a palette.
 old-location: stream\ks_truecolorinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_TRUECOLORINFO
+- KS_TRUECOLORINFO
 product:
 - Windows
 targetos: Windows

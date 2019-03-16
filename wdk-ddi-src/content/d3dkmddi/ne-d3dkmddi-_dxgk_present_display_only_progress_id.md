@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
-title: "_DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID"
+title: _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID (d3dkmddi.h)
 description: Indicates the status of the current present operation.
 old-location: display\dxgk_present_display_only_progress_id.htm
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
+- DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 product:
 - Windows
 targetos: Windows

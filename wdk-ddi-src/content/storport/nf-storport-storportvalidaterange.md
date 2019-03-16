@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortValidateRange
-title: StorPortValidateRange function
+title: StorPortValidateRange function (storport.h)
 description: The StorPortValidateRange routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems.
 old-location: storage\storportvalidaterange.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortValidateRange
+- StorPortValidateRange
 product:
 - Windows
 targetos: Windows

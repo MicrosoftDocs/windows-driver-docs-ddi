@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRT
-title: IMiniportWaveRT
+title: IMiniportWaveRT (portcls.h)
 description: The IMiniportWaveRT interface is the primary interface that is exposed by the miniport driver for a WaveRT audio device.
 old-location: audio\iminiportwavert.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRT
+- IMiniportWaveRT
 product:
 - Windows
 targetos: Windows

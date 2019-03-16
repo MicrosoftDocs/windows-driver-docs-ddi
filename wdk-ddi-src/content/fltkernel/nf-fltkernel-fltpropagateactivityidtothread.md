@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltPropagateActivityIdToThread
-title: FltPropagateActivityIdToThread function
+title: FltPropagateActivityIdToThread function (fltkernel.h)
 description: The FltPropagateActivityIdToThread routine associates the activity ID from the IRP in the minifilter's callback data with the current thread.
 old-location: ifsk\fltpropagateactivityidtothread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltPropagateActivityIdToThread
+- FltPropagateActivityIdToThread
 product:
 - Windows
 targetos: Windows

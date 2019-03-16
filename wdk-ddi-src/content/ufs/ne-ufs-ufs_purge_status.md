@@ -1,6 +1,6 @@
 ---
 UID: NE:ufs.__unnamed_enum_2
-title: UFS_PURGE_STATUS
+title: UFS_PURGE_STATUS (ufs.h)
 description: Specifies the current status of a purge operation.
 old-location: storage\ufs_purge_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_PURGE_STATUS
+- UFS_PURGE_STATUS
 product:
 - Windows
 targetos: Windows

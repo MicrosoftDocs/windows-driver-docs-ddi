@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SWITCH_PORT_DESTINATION
-title: "_NDIS_SWITCH_PORT_DESTINATION"
+title: _NDIS_SWITCH_PORT_DESTINATION (ndis.h)
 description: The NDIS_SWITCH_PORT_DESTINATION structure specifies the Hyper-V extensible switch destination port to which a packet will be delivered.
 old-location: netvista\ndis_switch_port_destination.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_SWITCH_PORT_DESTINATION
+- NDIS_SWITCH_PORT_DESTINATION
 product:
 - Windows
 targetos: Windows

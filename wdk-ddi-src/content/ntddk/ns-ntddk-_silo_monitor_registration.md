@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._SILO_MONITOR_REGISTRATION
-title: "_SILO_MONITOR_REGISTRATION"
+title: _SILO_MONITOR_REGISTRATION (ntddk.h)
 description: This structure specifies a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\silo_monitor_registration.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	SILO_MONITOR_REGISTRATION
+- SILO_MONITOR_REGISTRATION
 product:
 - Windows
 targetos: Windows

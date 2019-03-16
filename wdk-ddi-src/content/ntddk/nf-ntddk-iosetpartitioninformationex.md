@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetPartitionInformationEx
-title: IoSetPartitionInformationEx function
+title: IoSetPartitionInformationEx function (ntddk.h)
 description: For the disk represented by DeviceObject, the IoSetPartitionInformationEx routine initializes a partition table entry with the information specified in the SET_PARTITION_INFORMATION_EX structure.
 old-location: storage\iosetpartitioninformationex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetPartitionInformationEx
+- IoSetPartitionInformationEx
 product:
 - Windows
 targetos: Windows

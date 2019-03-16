@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS
-title: "_USB_TRANSPORT_CHARACTERISTICS"
+title: _USB_TRANSPORT_CHARACTERISTICS (usbioctl.h)
 description: Stores the transport characteristics at relevant points in time. This structure is used in the IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS request.
 old-location: buses\usb_transport_characteristics.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_TRANSPORT_CHARACTERISTICS
+- USB_TRANSPORT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCNOTIFICATION_BUFFER
-title: "_PCNOTIFICATION_BUFFER"
+title: _PCNOTIFICATION_BUFFER (portcls.h)
 description: The notification buffer used by IPortClsNotifications.
 old-location: audio\pcnotification_buffer.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	PCNOTIFICATION_BUFFER
+- PCNOTIFICATION_BUFFER
 product:
 - Windows
 targetos: Windows

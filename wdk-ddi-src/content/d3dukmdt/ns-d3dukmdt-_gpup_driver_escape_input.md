@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._GPUP_DRIVER_ESCAPE_INPUT
-title: _GPUP_DRIVER_ESCAPE_INPUT
+title: _GPUP_DRIVER_ESCAPE_INPUT (d3dukmdt.h)
 description: The GPU partition driver escape input.
 ms.assetid: 9f1fe3e5-781b-434c-8e62-affc54a72891
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: GPUP_DRIVER_ESCAPE_INPUT, *PGPUP_DRIVER_ESCAPE_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	_GPUP_DRIVER_ESCAPE_INPUT
+- _GPUP_DRIVER_ESCAPE_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

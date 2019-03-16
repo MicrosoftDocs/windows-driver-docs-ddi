@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020
-title: PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020
+title: PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020 (d3d12umddi.h)
 description: The pfnGetDecodeProfileCount callback function retrieves the number of decode profiles supported by the driver.
 old-location: display\pfnd3d12ddi_video_get_decode_profile_count.htm
 ms.assetid: 81B31232-5207-46AF-952C-252E2512521F
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnGetDecodeProfileCount
+- pfnGetDecodeProfileCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetPagingIoPriority
-title: IoGetPagingIoPriority function
+title: IoGetPagingIoPriority function (ntddk.h)
 description: The IoGetPagingIoPriority routine indicates the priority level of a paging I/O request.
 old-location: kernel\iogetpagingiopriority.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetPagingIoPriority
+- IoGetPagingIoPriority
 product:
 - Windows
 targetos: Windows

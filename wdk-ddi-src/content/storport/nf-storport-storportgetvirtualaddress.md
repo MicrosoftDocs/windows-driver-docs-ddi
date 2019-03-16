@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetVirtualAddress
-title: StorPortGetVirtualAddress function
+title: StorPortGetVirtualAddress function (storport.h)
 description: The StorPortGetVirtualAddress routine obtains a virtual address that maps to the indicated physical address.
 old-location: storage\storportgetvirtualaddress.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetVirtualAddress
+- StorPortGetVirtualAddress
 product:
 - Windows
 targetos: Windows

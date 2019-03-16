@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_ADAPTER_COMMIT_MODES
-title: EVT_IDD_CX_ADAPTER_COMMIT_MODES
+title: EVT_IDD_CX_ADAPTER_COMMIT_MODES (iddcx.h)
 description: EVT_IDD_CX_ADAPTER_COMMIT_MODES is called by the OS to inform the driver of a mode change for monitors on the adapter.
 old-location: display\evt_idd_cx_adapter_commit_modes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_ADAPTER_COMMIT_MODES
+- PFN_IDD_CX_ADAPTER_COMMIT_MODES
 product:
 - Windows
 targetos: Windows

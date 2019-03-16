@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_PRESENT_0051
-title: D3D12DDI_PRESENT_0051
+title: D3D12DDI_PRESENT_0051 (d3d12umddi.h)
 description: Arguments that describe allocations that content is copied to and from.
 ms.assetid: 517113ed-c43c-4041-9714-5c0d8e89d276
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_PRESENT_0051
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_PRESENT_0051
+- D3D12DDI_PRESENT_0051
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

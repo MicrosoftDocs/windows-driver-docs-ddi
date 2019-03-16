@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_PROPERTY_INFO
-title: "_WIA_PROPERTY_INFO"
+title: _WIA_PROPERTY_INFO (wiamindr_lh.h)
 description: The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
 old-location: image\wia_property_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIA_PROPERTY_INFO
+- WIA_PROPERTY_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_2DDI_GETCAPS
-title: PFND3D10_2DDI_GETCAPS
+title: PFND3D10_2DDI_GETCAPS (d3d10umddi.h)
 description: The GetCaps(D3D10_2) function queries for capabilities of the graphics adapter.
 old-location: display\getcaps_d3d10_2_.htm
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	GetCaps
+- GetCaps
 product:
 - Windows
 targetos: Windows

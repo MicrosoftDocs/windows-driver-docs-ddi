@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
-title: "_D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE"
+title: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE (d3dkmthk.h)
 description: Indicates an escape type that is to be activated or deactivated.
 old-location: display\d3dkmt_activate_specific_diag_escape.htm
 ms.assetid: e3c61b33-2e10-42cf-b9e8-fe70a43573e8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
+- D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSyncObjectFromNtHandle2
-title: D3DKMTOpenSyncObjectFromNtHandle2 function
+title: D3DKMTOpenSyncObjectFromNtHandle2 function (d3dkmthk.h)
 description: D3DKMTOpenSyncObjectFromNtHandle2 opens a monitored fence object from an NT handle previously created by D3DKMTShareObjects.
 old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenSyncObjectFromNtHandle2
+- D3DKMTOpenSyncObjectFromNtHandle2
 product:
 - Windows
 targetos: Windows

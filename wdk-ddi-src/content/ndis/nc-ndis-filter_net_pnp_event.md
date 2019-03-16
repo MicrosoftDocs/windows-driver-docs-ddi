@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_NET_PNP_EVENT
-title: FILTER_NET_PNP_EVENT
+title: FILTER_NET_PNP_EVENT (ndis.h)
 description: NDIS calls a filter driver's FilterNetPnPEvent function to notify the driver of network Plug and Play (PnP) and Power Management events.Note  You must declare the function by using the FILTER_NET_PNP_EVENT type.
 old-location: netvista\filternetpnpevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	FilterNetPnPEvent
+- FilterNetPnPEvent
 product:
 - Windows
 targetos: Windows

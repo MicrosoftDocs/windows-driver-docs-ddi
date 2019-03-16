@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetItemType
-title: wiasGetItemType function
+title: wiasGetItemType function (wiamdef.h)
 description: The wiasGetItemType function indicates the item type.
 old-location: image\wiasgetitemtype.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetItemType
+- wiasGetItemType
 product:
 - Windows
 targetos: Windows

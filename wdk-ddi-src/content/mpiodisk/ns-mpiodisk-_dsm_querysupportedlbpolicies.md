@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_QuerySupportedLBPolicies
-title: "_DSM_QuerySupportedLBPolicies"
+title: _DSM_QuerySupportedLBPolicies (mpiodisk.h)
 description: The DSM_QuerySupportedLBPolicies structure is used to query the list of load balance policies that are supported on the LUN.
 old-location: storage\dsm_querysupportedlbpolicies.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	DSM_QuerySupportedLBPolicies
+- DSM_QuerySupportedLBPolicies
 product:
 - Windows
 targetos: Windows

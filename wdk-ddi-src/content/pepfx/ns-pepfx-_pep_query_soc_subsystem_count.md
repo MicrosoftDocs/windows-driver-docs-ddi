@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_QUERY_SOC_SUBSYSTEM_COUNT
-title: "_PEP_QUERY_SOC_SUBSYSTEM_COUNT"
+title: _PEP_QUERY_SOC_SUBSYSTEM_COUNT (pepfx.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM_COUNT structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state.
 old-location: kernel\pep_query_soc_subsystem_count.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_QUERY_SOC_SUBSYSTEM_COUNT
+- PEP_QUERY_SOC_SUBSYSTEM_COUNT
 product:
 - Windows
 targetos: Windows

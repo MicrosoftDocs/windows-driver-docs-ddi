@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNumberOfRunsInMcb
-title: FsRtlNumberOfRunsInMcb function
+title: FsRtlNumberOfRunsInMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlnumberofrunsinmcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlNumberOfRunsInMcb
+- FsRtlNumberOfRunsInMcb
 product:
 - Windows
 targetos: Windows

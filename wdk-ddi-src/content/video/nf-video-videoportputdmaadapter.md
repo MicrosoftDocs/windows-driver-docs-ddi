@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortPutDmaAdapter
-title: VideoPortPutDmaAdapter function
+title: VideoPortPutDmaAdapter function (video.h)
 description: The VideoPortPutDmaAdapter function frees a VP_DMA_ADAPTER structure that was previously allocated by a call to VideoPortGetDmaAdapter.
 old-location: display\videoportputdmaadapter.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortPutDmaAdapter
+- VideoPortPutDmaAdapter
 product:
 - Windows
 targetos: Windows

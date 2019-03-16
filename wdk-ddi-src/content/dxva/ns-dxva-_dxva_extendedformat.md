@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ExtendedFormat
-title: "_DXVA_ExtendedFormat"
+title: _DXVA_ExtendedFormat (dxva.h)
 description: The DXVA_ExtendedFormat structure describes the extended format of the video frame.
 old-location: display\dxva_extendedformat.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ExtendedFormat
+- DXVA_ExtendedFormat
 product:
 - Windows
 targetos: Windows

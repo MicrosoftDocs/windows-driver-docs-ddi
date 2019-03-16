@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdsByIndex
-title: IDebugSystemObjects3::GetThreadIdsByIndex
+title: IDebugSystemObjects3::GetThreadIdsByIndex (dbgeng.h)
 description: The GetThreadIdsByIndex method returns the engine and system thread IDs for the specified threads in the current process.
 old-location: debugger\getthreadidsbyindex.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetThreadIdsByIndex
--	IDebugSystemObjects2.GetThreadIdsByIndex
--	IDebugSystemObjects3.GetThreadIdsByIndex
--	IDebugSystemObjects4.GetThreadIdsByIndex
+- IDebugSystemObjects.GetThreadIdsByIndex
+- IDebugSystemObjects2.GetThreadIdsByIndex
+- IDebugSystemObjects3.GetThreadIdsByIndex
+- IDebugSystemObjects4.GetThreadIdsByIndex
 product:
 - Windows
 targetos: Windows

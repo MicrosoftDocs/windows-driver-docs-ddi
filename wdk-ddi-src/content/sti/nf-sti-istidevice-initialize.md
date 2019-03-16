@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Initialize
-title: IStiDevice::Initialize
+title: IStiDevice::Initialize (sti.h)
 description: The IStiDevice::Initialize method initializes an instance of the COM object that defines the IStiDevice interface. This method is for internal use only.
 old-location: image\istidevice_initialize.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.Initialize
+- IStiDevice.Initialize
 product:
 - Windows
 targetos: Windows

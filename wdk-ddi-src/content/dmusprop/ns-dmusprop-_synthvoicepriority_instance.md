@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHVOICEPRIORITY_INSTANCE
-title: "_SYNTHVOICEPRIORITY_INSTANCE"
+title: _SYNTHVOICEPRIORITY_INSTANCE (dmusprop.h)
 description: The SYNTHVOICEPRIORITY_INSTANCE structure identifies a voice in a MIDI synthesizer by specifying the voice's channel group (set of 16 MIDI channels) and its channel number within that group.
 old-location: audio\synthvoicepriority_instance.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusprop.h
+- dmusprop.h
 api_name:
--	SYNTHVOICEPRIORITY_INSTANCE
+- SYNTHVOICEPRIORITY_INSTANCE
 product:
 - Windows
 targetos: Windows

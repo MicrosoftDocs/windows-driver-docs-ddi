@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCopyReceiveNetBufferListInfo
-title: NdisCopyReceiveNetBufferListInfo function
+title: NdisCopyReceiveNetBufferListInfo function (ndis.h)
 description: Intermediate drivers call the NdisCopyReceiveNetBufferListInfo function to copy the NET_BUFFER_LIST information in a received NET_BUFFER_LIST structure.
 old-location: netvista\ndiscopyreceivenetbufferlistinfo.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCopyReceiveNetBufferListInfo
+- NdisCopyReceiveNetBufferListInfo
 product:
 - Windows
 targetos: Windows

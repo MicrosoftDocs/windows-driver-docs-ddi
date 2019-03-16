@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortFreeDeviceBase
-title: VideoPortFreeDeviceBase function
+title: VideoPortFreeDeviceBase function (video.h)
 description: The VideoPortFreeDeviceBase function frees a range of bus-relative device I/O ports or memory addresses previously mapped into the system address space. It does this by calling VideoPortGetDeviceBase.
 old-location: display\videoportfreedevicebase.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortFreeDeviceBase
+- VideoPortFreeDeviceBase
 product:
 - Windows
 targetos: Windows

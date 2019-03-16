@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
-title: "_USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
+title: _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION (usbioctl.h)
 description: The input buffer for the IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC request.
 old-location: buses\usb_stop_tracking_for_time_sync_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
+- USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 product:
 - Windows
 targetos: Windows

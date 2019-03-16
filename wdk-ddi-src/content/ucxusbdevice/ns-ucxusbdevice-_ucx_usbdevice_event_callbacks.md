@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_EVENT_CALLBACKS
-title: "_UCX_USBDEVICE_EVENT_CALLBACKS"
+title: _UCX_USBDEVICE_EVENT_CALLBACKS (ucxusbdevice.h)
 description: This structure provides a list of UCX USB device event callback functions.
 old-location: buses\_ucx_usbdevice_event_callbacks.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UCX_USBDEVICE_EVENT_CALLBACKS
+- UCX_USBDEVICE_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

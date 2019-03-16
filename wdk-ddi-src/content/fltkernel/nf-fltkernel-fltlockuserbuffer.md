@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltLockUserBuffer
-title: FltLockUserBuffer function
+title: FltLockUserBuffer function (fltkernel.h)
 description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
 old-location: ifsk\fltlockuserbuffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltLockUserBuffer
+- FltLockUserBuffer
 product:
 - Windows
 targetos: Windows

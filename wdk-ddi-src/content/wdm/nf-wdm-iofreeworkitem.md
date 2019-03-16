@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeWorkItem
-title: IoFreeWorkItem function
+title: IoFreeWorkItem function (wdm.h)
 description: The IoFreeWorkItem routine frees a work item that was allocated by IoAllocateWorkItem.
 old-location: kernel\iofreeworkitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoFreeWorkItem
+- IoFreeWorkItem
 product:
 - Windows
 targetos: Windows

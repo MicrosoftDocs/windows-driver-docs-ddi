@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INFORMATION_LEVEL_1
-title: "_USB_BUS_INFORMATION_LEVEL_1"
+title: _USB_BUS_INFORMATION_LEVEL_1 (usbbusif.h)
 description: The USB_BUS_INFORMATION_LEVEL_1 structure is used in conjunction with the QueryBusInformation interface routine to report information about the bus.
 old-location: buses\usb_bus_information_level_1.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	USB_BUS_INFORMATION_LEVEL_1
+- USB_BUS_INFORMATION_LEVEL_1
 product:
 - Windows
 targetos: Windows

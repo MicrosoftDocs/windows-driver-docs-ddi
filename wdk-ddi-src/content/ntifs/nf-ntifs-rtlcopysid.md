@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCopySid
-title: RtlCopySid function
+title: RtlCopySid function (ntifs.h)
 description: The RtlCopySid routine copies the value of a security identifier (SID) to a buffer.
 old-location: ifsk\rtlcopysid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCopySid
+- RtlCopySid
 product:
 - Windows
 targetos: Windows

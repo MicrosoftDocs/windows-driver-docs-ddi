@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_CURRENT
-title: _USBC_CURRENT
+title: _USBC_CURRENT (usbctypes.h)
 description: Defines different Type-C current levels, as defined in the Type-C specification.
 ms.assetid: 6c185578-e418-4f66-a2d4-c50dea27beaf
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_CURRENT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_CURRENT
-product: Windows
+- _USBC_CURRENT
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

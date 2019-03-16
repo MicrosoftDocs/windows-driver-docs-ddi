@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled (wudfddi.h)
 description: A UMDF-based driver's OnRemoteTargetRemoveCanceled event callback function performs operations that are necessary when the operating system cancels the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecanceled.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
+- IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled
 product:
 - Windows
 targetos: Windows

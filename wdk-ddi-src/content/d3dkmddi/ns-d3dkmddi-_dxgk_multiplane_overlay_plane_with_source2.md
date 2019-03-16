@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
-title: "_DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2"
+title: _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 (d3dkmddi.h)
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
 old-location: display\dxgk_multiplane_overlay_plane_with_source2.htm
 ms.assetid: A9508EBF-0B33-48D7-AD57-31E38D77F5DA
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
+- DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2
 product:
 - Windows
 targetos: Windows

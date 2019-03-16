@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_STOP
-title: PI2C_STOP
+title: PI2C_STOP (video.h)
 description: The I2CStop function ends I2C communication.
 old-location: display\i2cstop.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	I2CStop
+- I2CStop
 product:
 - Windows
 targetos: Windows

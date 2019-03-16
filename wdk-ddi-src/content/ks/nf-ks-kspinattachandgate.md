@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAttachAndGate
-title: KsPinAttachAndGate function
+title: KsPinAttachAndGate function (ks.h)
 description: The KsPinAttachAndGate function connects Pin as an input to a previously initialized AND gate, and connects AndGate as an input to the relevant filter's AND gate.
 old-location: stream\kspinattachandgate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinAttachAndGate
+- KsPinAttachAndGate
 product:
 - Windows
 targetos: Windows

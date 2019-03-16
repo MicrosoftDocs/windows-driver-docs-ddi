@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetInformation
-title: IWDFIoRequest::SetInformation
+title: IWDFIoRequest::SetInformation (wudfddi.h)
 description: The SetInformation method sets the size of information for a request.
 old-location: wdf\iwdfiorequest_setinformation.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.SetInformation
+- IWDFIoRequest.SetInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC4Statistics_OUT
-title: "_GetFC4Statistics_OUT"
+title: _GetFC4Statistics_OUT (hbapiwmi.h)
 description: The GetFC4Statistics_OUT structure is used to report the output parameter data of the GetFC4Statistics WMI method to the WMI client.
 old-location: storage\getfc4statistics_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetFC4Statistics_OUT
+- GetFC4Statistics_OUT
 product:
 - Windows
 targetos: Windows

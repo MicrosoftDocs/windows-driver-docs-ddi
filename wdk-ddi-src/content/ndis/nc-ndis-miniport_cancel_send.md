@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CANCEL_SEND
-title: MINIPORT_CANCEL_SEND
+title: MINIPORT_CANCEL_SEND (ndis.h)
 description: NDIS calls a miniport driver's MiniportCancelSend function to cancel the transmission of all NET_BUFFER_LIST structures that are marked with a specified cancellation identifier.
 old-location: netvista\miniportcancelsend.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCancelSend
+- MiniportCancelSend
 product:
 - Windows
 targetos: Windows

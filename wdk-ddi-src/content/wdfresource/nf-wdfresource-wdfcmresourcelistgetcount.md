@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListGetCount
-title: WdfCmResourceListGetCount function
+title: WdfCmResourceListGetCount function (wdfresource.h)
 description: The WdfCmResourceListGetCount method returns the number of resource descriptors that are contained in a specified resource list.
 old-location: wdf\wdfcmresourcelistgetcount.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfCmResourceListGetCount
+- WdfCmResourceListGetCount
 product:
 - Windows
 targetos: Windows

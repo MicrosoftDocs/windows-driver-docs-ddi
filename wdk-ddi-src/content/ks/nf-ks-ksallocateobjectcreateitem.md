@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectCreateItem
-title: KsAllocateObjectCreateItem function
+title: KsAllocateObjectCreateItem function (ks.h)
 description: The KsAllocateObjectCreateItem function allocates a slot for the specified create item, optionally allocating space for and copying the create item data as well.
 old-location: stream\ksallocateobjectcreateitem.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAllocateObjectCreateItem
+- KsAllocateObjectCreateItem
 product:
 - Windows
 targetos: Windows

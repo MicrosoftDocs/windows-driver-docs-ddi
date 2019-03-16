@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDIGAMMACAPS
-title: "_DDIGAMMACAPS"
+title: _DDIGAMMACAPS (d3dumddi.h)
 description: The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode display driver supports.
 old-location: display\ddigammacaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DDIGAMMACAPS
+- DDIGAMMACAPS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_PROPERTY
-title: IOCTL_KS_PROPERTY
+title: IOCTL_KS_PROPERTY (ks.h)
 description: An application can use IOCTL_KS_PROPERTY to get or set properties, or to determine the properties supported by a KS object. The application passes IOCTL_KS_PROPERTY with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_property.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IOCTL_KS_PROPERTY
+- IOCTL_KS_PROPERTY
 product:
 - Windows
 targetos: Windows

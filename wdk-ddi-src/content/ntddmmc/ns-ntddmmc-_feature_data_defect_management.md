@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DEFECT_MANAGEMENT
-title: "_FEATURE_DATA_DEFECT_MANAGEMENT"
+title: _FEATURE_DATA_DEFECT_MANAGEMENT (ntddmmc.h)
 description: The FEATURE_DATA_DEFECT_MANAGEMENT structure contains information for the Defect Management feature.
 old-location: storage\feature_data_defect_management.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_DEFECT_MANAGEMENT
+- FEATURE_DATA_DEFECT_MANAGEMENT
 product:
 - Windows
 targetos: Windows

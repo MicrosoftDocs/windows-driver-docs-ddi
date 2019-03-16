@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PEER_DO_LOCATOR
-title: "_AVC_PEER_DO_LOCATOR"
+title: _AVC_PEER_DO_LOCATOR (avc.h)
 description: The AVC_PEER_DO_LOCATOR describes nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_locator.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_PEER_DO_LOCATOR
+- AVC_PEER_DO_LOCATOR
 product:
 - Windows
 targetos: Windows

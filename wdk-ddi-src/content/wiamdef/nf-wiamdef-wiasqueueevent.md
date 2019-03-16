@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasQueueEvent
-title: wiasQueueEvent function
+title: wiasQueueEvent function (wiamdef.h)
 description: The wiasQueueEvent function informs the service that the device generated an event.
 old-location: image\wiasqueueevent.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasQueueEvent
+- wiasQueueEvent
 product:
 - Windows
 targetos: Windows

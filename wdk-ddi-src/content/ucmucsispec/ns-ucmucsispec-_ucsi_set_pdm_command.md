@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_PDM_COMMAND
-title: _UCSI_SET_PDM_COMMAND
+title: _UCSI_SET_PDM_COMMAND (ucmucsispec.h)
 description: Obsolete.
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_PDM_COMMAND, *PUCSI_SET_PDM_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_PDM_COMMAND
-product: Windows
+- _UCSI_SET_PDM_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

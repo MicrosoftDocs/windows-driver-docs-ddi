@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintClassObjectFactory
-title: IPrintClassObjectFactory
+title: IPrintClassObjectFactory (filterpipeline.h)
 description: TheIPrintClassObjectFactory interface creates print filter-related interfaces.
 old-location: print\iprintclassobjectfactory.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintClassObjectFactory
+- IPrintClassObjectFactory
 product:
 - Windows
 targetos: Windows

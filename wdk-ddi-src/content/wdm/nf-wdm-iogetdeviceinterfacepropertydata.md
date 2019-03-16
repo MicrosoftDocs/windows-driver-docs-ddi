@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceInterfacePropertyData
-title: IoGetDeviceInterfacePropertyData function
+title: IoGetDeviceInterfacePropertyData function (wdm.h)
 description: The IoGetDeviceInterfacePropertyData routine retrieves the current value of a device interface property.
 old-location: kernel\iogetdeviceinterfacepropertydata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceInterfacePropertyData
+- IoGetDeviceInterfacePropertyData
 product:
 - Windows
 targetos: Windows

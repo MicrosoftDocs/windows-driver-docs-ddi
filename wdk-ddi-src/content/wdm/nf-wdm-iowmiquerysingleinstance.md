@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQuerySingleInstance
-title: IoWMIQuerySingleInstance function
+title: IoWMIQuerySingleInstance function (wdm.h)
 description: The IoWMIQuerySingleInstance routine returns the specified instance of a WMI data block.
 old-location: kernel\iowmiquerysingleinstance.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIQuerySingleInstance
+- IoWMIQuerySingleInstance
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dhal.LPD3DHAL_DRAWPRIMITIVES2CB
-title: LPD3DHAL_DRAWPRIMITIVES2CB
+title: LPD3DHAL_DRAWPRIMITIVES2CB (d3dhal.h)
 description: The D3dDrawPrimitives2 function renders primitives and returns the updated render state.
 old-location: display\d3ddrawprimitives2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3dDrawPrimitives2
+- D3dDrawPrimitives2
 product:
 - Windows
 targetos: Windows

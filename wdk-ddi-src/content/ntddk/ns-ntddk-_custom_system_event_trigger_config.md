@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
-title: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
+title: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG (ntddk.h)
 description: Contains information about a custom system event trigger.
 ms.assetid: 08c4b025-930e-4348-9fc2-a41fcfa33c0d
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, *PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

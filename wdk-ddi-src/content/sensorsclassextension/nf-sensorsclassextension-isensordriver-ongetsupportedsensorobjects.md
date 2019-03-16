@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedSensorObjects
-title: ISensorDriver::OnGetSupportedSensorObjects
+title: ISensorDriver::OnGetSupportedSensorObjects (sensorsclassextension.h)
 description: The ISensorDriver::OnGetSupportedSensorObjects method retrieves the list of sensors that the driver provides.
 old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetSupportedSensorObjects
+- OnGetSupportedSensorObjects
 product:
 - Windows
 targetos: Windows

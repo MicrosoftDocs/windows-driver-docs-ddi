@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyOutputDupl
-title: D3DKMTDestroyOutputDupl function
+title: D3DKMTDestroyOutputDupl function (d3dkmthk.h)
 description: Destroys output duplicate.
 ms.assetid: a648d054-10d2-44d3-a2e2-ea4855480453
 ms.date: 10/19/2018
@@ -24,18 +24,18 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
 - Gdi32.dll
 - API-MS-Win-dx-d3dkmt-l1-1-0.dll
 - API-MS-Win-dx-d3dkmt-l1-1-1.dll
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
--	D3DKMTDestroyOutputDupl
+- D3DKMTDestroyOutputDupl
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

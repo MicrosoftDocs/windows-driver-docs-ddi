@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.CreateGDLSnapshot
-title: IPrintCoreHelperUni::CreateGDLSnapshot
+title: IPrintCoreHelperUni::CreateGDLSnapshot (prcomoem.h)
 description: The IPrintCoreHelperUni::CreateGDLSnapshot method creates a GDL snapshot of the driver configuration file based on the current configuration.
 old-location: print\iprintcorehelperuni_creategdlsnapshot.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelperUni.CreateGDLSnapshot
+- IPrintCoreHelperUni.CreateGDLSnapshot
 product:
 - Windows
 targetos: Windows

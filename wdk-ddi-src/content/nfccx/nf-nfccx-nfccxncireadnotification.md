@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxNciReadNotification
-title: NfcCxNciReadNotification function
+title: NfcCxNciReadNotification function (nfccx.h)
 description: Called by the client driver when a read packet is available.
 old-location: nfpdrivers\_nfccxncireadnotification.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxNciReadNotification
+- NfcCxNciReadNotification
 product:
 - Windows
 targetos: Windows

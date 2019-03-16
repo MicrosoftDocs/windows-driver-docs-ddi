@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INFORMATION_PACKET_EX
-title: "_USBFN_CLASS_INFORMATION_PACKET_EX"
+title: _USBFN_CLASS_INFORMATION_PACKET_EX (usbfnbase.h)
 description: Describes device interface class information associated with a USB interface. This structure can be used to describe single and multi-interface functions.
 old-location: buses\usbfn_class_information_packet_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_CLASS_INFORMATION_PACKET_EX
+- USBFN_CLASS_INFORMATION_PACKET_EX
 product:
 - Windows
 targetos: Windows

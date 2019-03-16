@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue
-title: IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue
+title: IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue (portabledevicetypes.h)
 description: Adds a new IPortableDeviceValuesCollection value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicevaluescollectionvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue
+- IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

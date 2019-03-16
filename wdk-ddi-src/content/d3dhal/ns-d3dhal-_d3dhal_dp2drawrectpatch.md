@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWRECTPATCH
-title: "_D3DHAL_DP2DRAWRECTPATCH"
+title: _D3DHAL_DP2DRAWRECTPATCH (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawrectpatch.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2DRAWRECTPATCH
+- D3DHAL_DP2DRAWRECTPATCH
 product:
 - Windows
 targetos: Windows

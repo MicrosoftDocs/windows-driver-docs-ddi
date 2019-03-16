@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectDereferenceActual
-title: WdfObjectDereferenceActual function
+title: WdfObjectDereferenceActual function (wdfobject.h)
 description: The WdfObjectDereferenceActual method decrements the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 old-location: wdf\wdfobjectdereferenceactual.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfObjectDereferenceActual
+- WdfObjectDereferenceActual
 product:
 - Windows
 targetos: Windows

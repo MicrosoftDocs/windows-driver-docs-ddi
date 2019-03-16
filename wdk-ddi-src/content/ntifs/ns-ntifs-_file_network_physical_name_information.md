@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_NETWORK_PHYSICAL_NAME_INFORMATION
-title: "_FILE_NETWORK_PHYSICAL_NAME_INFORMATION"
+title: _FILE_NETWORK_PHYSICAL_NAME_INFORMATION (ntifs.h)
 description: Contains the full UNC physical pathname for a file or directory on a remote file share.
 old-location: ifsk\file_network_physical_name_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_NETWORK_PHYSICAL_NAME_INFORMATION
+- FILE_NETWORK_PHYSICAL_NAME_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_PageImageableSize
-title: IPrintSchemaCapabilities::get_PageImageableSize
+title: IPrintSchemaCapabilities::get_PageImageableSize (printerextension.h)
 description: Gets the imageable area information of the printer.
 old-location: print\iprintschemacapabilities_pageimageablesize.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities.PageImageableSize
--	IPrintSchemaCapabilities.get_PageImageableSize
+- IPrintSchemaCapabilities.PageImageableSize
+- IPrintSchemaCapabilities.get_PageImageableSize
 product:
 - Windows
 targetos: Windows

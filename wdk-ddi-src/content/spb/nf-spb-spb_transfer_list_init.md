@@ -1,6 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_INIT
-title: SPB_TRANSFER_LIST_INIT function
+title: SPB_TRANSFER_LIST_INIT function (spb.h)
 description: The SPB_TRANSFER_LIST_INIT function initializes an SPB_TRANSFER_LIST structure.
 old-location: spb\spb_transfer_list_init.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_INIT
+- SPB_TRANSFER_LIST_INIT
 product:
 - Windows
 targetos: Windows

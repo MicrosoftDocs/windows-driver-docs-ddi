@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMWriteConfigBlock
-title: NdisMWriteConfigBlock function
+title: NdisMWriteConfigBlock function (ndis.h)
 description: A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the NdisMWriteConfigBlock function to write data to a VF configuration block.
 old-location: netvista\ndismwriteconfigblock.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMWriteConfigBlock
+- NdisMWriteConfigBlock
 product:
 - Windows
 targetos: Windows

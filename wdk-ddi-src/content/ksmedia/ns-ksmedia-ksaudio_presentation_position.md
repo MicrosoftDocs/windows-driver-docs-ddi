@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_8
-title: KSAUDIO_PRESENTATION_POSITION
+title: KSAUDIO_PRESENTATION_POSITION (ksmedia.h)
 description: The KSAUDIO_PRESENTATION_POSITION structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.
 old-location: audio\ksaudio_presentation_position.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIO_PRESENTATION_POSITION
+- KSAUDIO_PRESENTATION_POSITION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeRegisterLogonSessionTerminatedRoutine
-title: SeRegisterLogonSessionTerminatedRoutine function
+title: SeRegisterLogonSessionTerminatedRoutine function (ntifs.h)
 description: The SeRegisterLogonSessionTerminatedRoutine routine registers a callback routine to be called when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 old-location: ifsk\seregisterlogonsessionterminatedroutine.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeRegisterLogonSessionTerminatedRoutine
+- SeRegisterLogonSessionTerminatedRoutine
 product:
 - Windows
 targetos: Windows

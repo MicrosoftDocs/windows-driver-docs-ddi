@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_PARAMETERS
-title: IOCTL_CHANGER_GET_PARAMETERS
+title: IOCTL_CHANGER_GET_PARAMETERS (ntddchgr.h)
 description: Returns the parameters of the device.
 old-location: storage\ioctl_changer_get_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddchgr.h
+- Ntddchgr.h
 api_name:
--	IOCTL_CHANGER_GET_PARAMETERS
+- IOCTL_CHANGER_GET_PARAMETERS
 product:
 - Windows
 targetos: Windows

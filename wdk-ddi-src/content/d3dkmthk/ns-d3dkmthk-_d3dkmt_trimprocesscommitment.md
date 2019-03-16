@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRIMPROCESSCOMMITMENT
-title: _D3DKMT_TRIMPROCESSCOMMITMENT
+title: _D3DKMT_TRIMPROCESSCOMMITMENT (d3dkmthk.h)
 description: Contains info about the trim process commitment.
 ms.assetid: 5fa87236-7631-4426-83d1-3785c9cb7d6a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_TRIMPROCESSCOMMITMENT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRIMPROCESSCOMMITMENT
+- _D3DKMT_TRIMPROCESSCOMMITMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

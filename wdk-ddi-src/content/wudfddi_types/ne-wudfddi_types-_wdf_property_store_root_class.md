@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_ROOT_CLASS
-title: "_WDF_PROPERTY_STORE_ROOT_CLASS"
+title: _WDF_PROPERTY_STORE_ROOT_CLASS (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_ROOT_CLASS enumeration identifies the registry keys that UMDF property stores represent.
 old-location: wdf\wdf_property_store_root_class.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_PROPERTY_STORE_ROOT_CLASS
+- WDF_PROPERTY_STORE_ROOT_CLASS
 product:
 - Windows
 targetos: Windows

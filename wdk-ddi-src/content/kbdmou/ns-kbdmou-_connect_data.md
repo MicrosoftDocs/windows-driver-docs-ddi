@@ -1,6 +1,6 @@
 ---
 UID: NS:kbdmou._CONNECT_DATA
-title: "_CONNECT_DATA"
+title: _CONNECT_DATA (kbdmou.h)
 description: CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
 old-location: hid\connect_data__kbdclass_.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	kbdmou.h
+- kbdmou.h
 api_name:
--	CONNECT_DATA
+- CONNECT_DATA
 product:
 - Windows
 targetos: Windows

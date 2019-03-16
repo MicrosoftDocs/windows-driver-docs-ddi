@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM1_3DDI_TILE_RANGE_FLAG
-title: D3DWDDM1_3DDI_TILE_RANGE_FLAG
+title: D3DWDDM1_3DDI_TILE_RANGE_FLAG (d3d10umddi.h)
 description: Specifies a range of tile mappings to use with the UpdateTileMappings function.
 old-location: display\d3dwddm1_3ddi_tile_range_flag.htm
 ms.assetid: 7D8B55F1-00BD-414B-9E78-DABCEBEF949F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_TILE_RANGE_FLAG
+- D3DWDDM1_3DDI_TILE_RANGE_FLAG
 product:
 - Windows
 targetos: Windows

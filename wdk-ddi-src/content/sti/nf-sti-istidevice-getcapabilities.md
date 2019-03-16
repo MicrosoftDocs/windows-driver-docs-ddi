@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetCapabilities
-title: IStiDevice::GetCapabilities
+title: IStiDevice::GetCapabilities (sti.h)
 description: The IStiDevice::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istidevice_getcapabilities.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.GetCapabilities
+- IStiDevice.GetCapabilities
 product:
 - Windows
 targetos: Windows

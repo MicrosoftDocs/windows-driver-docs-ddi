@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_EFFECT_MODES
-title: tagWPD_EFFECT_MODES
+title: WPD_EFFECT_MODES (portabledevice.h)
 description: The WPD_EFFECT_MODES enumeration type describes various visual effects that can be applied to an image.
 old-location: wpddk\wpd_effect_modes.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_EFFECT_MODES
+- WPD_EFFECT_MODES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_EFFECT_MODES
 ms.custom: RS5
@@ -82,7 +82,7 @@ The image should be sepia.
 
 
 
-This enumeration is used by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_EFFECT_MODE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_EFFECT_MODE</a> property.
 
 
 

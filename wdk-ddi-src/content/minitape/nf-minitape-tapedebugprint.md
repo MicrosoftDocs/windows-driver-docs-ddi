@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeDebugPrint
-title: TapeDebugPrint function
+title: TapeDebugPrint function (minitape.h)
 description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeDebugPrint
+- TapeDebugPrint
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForCyclePort
-title: WdfUsbTargetDeviceFormatRequestForCyclePort function
+title: WdfUsbTargetDeviceFormatRequestForCyclePort function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a power-cycle request for the port to which a specified device is attached, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforcycleport.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfUsbTargetDeviceFormatRequestForCyclePort
+- WdfUsbTargetDeviceFormatRequestForCyclePort
 product:
 - Windows
 targetos: Windows

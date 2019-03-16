@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_REASSIGN_BLOCKS_EX
-title: IOCTL_DISK_REASSIGN_BLOCKS_EX
+title: IOCTL_DISK_REASSIGN_BLOCKS_EX (ntdddisk.h)
 description: Maps defective blocks to a new location on disk. This request instructs the device to reassign the bad block address to a good block from its spare-block pool.
 old-location: storage\ioctl_disk_reassign_blocks_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_REASSIGN_BLOCKS_EX
+- IOCTL_DISK_REASSIGN_BLOCKS_EX
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCyclePortSynchronously
-title: WdfUsbTargetDeviceCyclePortSynchronously function
+title: WdfUsbTargetDeviceCyclePortSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceCyclePortSynchronously method power-cycles the USB port to which a specified device is attached.
 old-location: wdf\wdfusbtargetdevicecycleportsynchronously.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfUsbTargetDeviceCyclePortSynchronously
+- WdfUsbTargetDeviceCyclePortSynchronously
 product:
 - Windows
 targetos: Windows

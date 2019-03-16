@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RequestEjectDevice
-title: IWDTFPNPAction2::RequestEjectDevice
+title: IWDTFPNPAction2::RequestEjectDevice (wdtfpnpaction.h)
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpaction2_requestejectdevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.RequestEjectDevice
+- IWDTFPNPAction2.RequestEjectDevice
 product:
 - Windows
 targetos: Windows

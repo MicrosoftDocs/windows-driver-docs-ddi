@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.AssignS0IdleSettings
-title: IWDFDevice2::AssignS0IdleSettings
+title: IWDFDevice2::AssignS0IdleSettings (wudfddi.h)
 description: The AssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\iwdfdevice2_assigns0idlesettings.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.AssignS0IdleSettings
+- IWDFDevice2.AssignS0IdleSettings
 product:
 - Windows
 targetos: Windows

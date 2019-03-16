@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HISTORY_BUFFER_STATUS
-title: _D3DKMT_HISTORY_BUFFER_STATUS
+title: _D3DKMT_HISTORY_BUFFER_STATUS (d3dkmthk.h)
 description: Contains history buffer status.
 ms.assetid: 4c8c2589-85e5-4238-a69f-40fd23f70a28
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_HISTORY_BUFFER_STATUS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_HISTORY_BUFFER_STATUS
+- _D3DKMT_HISTORY_BUFFER_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

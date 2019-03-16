@@ -1,6 +1,6 @@
 ---
 UID: NS:bthsdpddi._BTHDDI_SDP_PARSE_INTERFACE
-title: "_BTHDDI_SDP_PARSE_INTERFACE"
+title: _BTHDDI_SDP_PARSE_INTERFACE (bthsdpddi.h)
 description: The BTHDDI_SDP_PARSE_INTERFACE structure provides functions for parsing SDP records.
 old-location: bltooth\bthddi_sdp_parse_interface.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthsdpddi.h
+- bthsdpddi.h
 api_name:
--	BTHDDI_SDP_PARSE_INTERFACE
+- BTHDDI_SDP_PARSE_INTERFACE
 product:
 - Windows
 targetos: Windows

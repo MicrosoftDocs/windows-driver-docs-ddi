@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
-title: "_WDI_ETHERTYPE_ENCAPSULATION_ENTRY"
+title: _WDI_ETHERTYPE_ENCAPSULATION_ENTRY (wditypes.h)
 description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure defines an EtherType encapsulation entry.
 old-location: netvista\wdi_ethertype_encapsulation_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_ETHERTYPE_ENCAPSULATION_ENTRY
+- WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 product:
 - Windows
 targetos: Windows

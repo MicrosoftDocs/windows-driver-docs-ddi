@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_READ
-title: "_IRB_REQ_ASYNC_READ"
+title: _IRB_REQ_ASYNC_READ (1394.h)
 description: This structure contains the fields necessary for the 1394 stack to carry out an asynchronous read request.
 old-location: ieee\irb_req_async_read.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_ASYNC_READ
+- IRB_REQ_ASYNC_READ
 product:
 - Windows
 targetos: Windows

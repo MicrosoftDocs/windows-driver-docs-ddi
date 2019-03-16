@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFRAMEFORMAT (d3d10umddi.h)
 description: Specifies whether an input stream on the video processor contains interlaced or progressive frames.
 old-location: display\videoprocessorsetstreamframeformat.htm
 ms.assetid: 49310ddf-403a-4fb4-98bb-9ef00ef28310
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamFrameFormat
+- pfnVideoProcessorSetStreamFrameFormat
 product:
 - Windows
 targetos: Windows

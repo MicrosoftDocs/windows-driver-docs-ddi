@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEALLOCATION2
-title: PFND3DKMT_CREATEALLOCATION2
+title: PFND3DKMT_CREATEALLOCATION2 (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTCreateAllocation2
+- D3DKMTCreateAllocation2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_PROVIDERCHANGE
-title: "_tagKSTELEPHONY_PROVIDERCHANGE"
+title: _tagKSTELEPHONY_PROVIDERCHANGE (ksmedia.h)
 description: The KSTELEPHONY_PROVIDERCHANGE structure specifies the phone call type and provider change operation to use for the KSPROPERTY_TELEPHONY_PROVIDERCHANGE property.
 old-location: audio\kstelephony_providerchange.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSTELEPHONY_PROVIDERCHANGE
+- KSTELEPHONY_PROVIDERCHANGE
 product:
 - Windows
 targetos: Windows

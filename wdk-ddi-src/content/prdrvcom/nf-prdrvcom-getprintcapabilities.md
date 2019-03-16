@@ -1,6 +1,6 @@
 ---
 UID: NF:prdrvcom.GetPrintCapabilities
-title: GetPrintCapabilities function
+title: GetPrintCapabilities function (prdrvcom.h)
 description: The IPrintTicketProvider::GetPrintCapabilities method queries the provider for a complete print capabilities document that describes the printer's features and parameters.
 old-location: print\iprintticketprovider_getprintcapabilities.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prdrvcom.h
+- prdrvcom.h
 api_name:
--	IPrintTicketProvider.GetPrintCapabilities
+- IPrintTicketProvider.GetPrintCapabilities
 product:
 - Windows
 targetos: Windows

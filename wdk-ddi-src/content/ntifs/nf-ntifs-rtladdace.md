@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAce
-title: RtlAddAce function
+title: RtlAddAce function (ntifs.h)
 description: The RtlAddAce routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: ifsk\rtladdace.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlAddAce
+- RtlAddAce
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfsync.PFN_WDFOBJECTRELEASELOCK
-title: PFN_WDFOBJECTRELEASELOCK
+title: PFN_WDFOBJECTRELEASELOCK (wdfsync.h)
 description: The WdfObjectReleaseLock method releases an object's synchronization lock.
 old-location: wdf\wdfobjectreleaselock.htm
 tech.root: wdf
@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: "<=DISPATCH_LEVEL"
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	UserDefined
-apilocation:
--	wdfsync.h
-apiname:
--	WdfObjectReleaseLock
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- wdfsync.h
+api_name:
+- WdfObjectReleaseLock
 product:
 - Windows
 targetos: Windows

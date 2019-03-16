@@ -1,6 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTH_REUSE_BRB
-title: PFNBTH_REUSE_BRB
+title: PFNBTH_REUSE_BRB (bthddi.h)
 description: The BthReuseBrb function reinitializes a Bluetooth request block (BRB) to be reused.
 old-location: bltooth\bthreusebrb.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	BthReuseBrb
+- BthReuseBrb
 product:
 - Windows
 targetos: Windows

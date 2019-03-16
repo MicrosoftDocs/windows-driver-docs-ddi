@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010
-title: PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010
+title: PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010 (d3d12umddi.h)
 description: Calculates serialized library size.
 ms.assetid: 40e47e56-5a99-431d-b821-a610a8c66601
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010
+- PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010
 product: 
 - Windows
 targetos: Windows

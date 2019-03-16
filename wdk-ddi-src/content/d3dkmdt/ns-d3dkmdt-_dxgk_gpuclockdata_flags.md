@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_GPUCLOCKDATA_FLAGS
-title: _DXGK_GPUCLOCKDATA_FLAGS
+title: _DXGK_GPUCLOCKDATA_FLAGS (d3dkmdt.h)
 description: Contains information about the GPU clock data flags.
 ms.assetid: 24796b6b-4381-48a7-93af-e8e5273bd07a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GPUCLOCKDATA_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_GPUCLOCKDATA_FLAGS
+- _DXGK_GPUCLOCKDATA_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

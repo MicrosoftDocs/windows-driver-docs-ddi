@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFSystemDepot2
-title: IWDTFSystemDepot2
+title: IWDTFSystemDepot2 (wdtf.h)
 description: Defines operations and properties for the SystemDepot - the object that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFSystemDepot2
+- IWDTFSystemDepot2
 product:
 - Windows
 targetos: Windows

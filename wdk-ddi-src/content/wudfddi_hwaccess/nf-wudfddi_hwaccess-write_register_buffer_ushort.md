@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_BUFFER_USHORT
-title: WRITE_REGISTER_BUFFER_USHORT function
+title: WRITE_REGISTER_BUFFER_USHORT function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register.
 old-location: wdf\write_register_buffer_ushort.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_REGISTER_BUFFER_USHORT
+- WRITE_REGISTER_BUFFER_USHORT
 product:
 - Windows
 targetos: Windows

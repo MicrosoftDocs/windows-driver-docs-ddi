@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetEventFilterCommandWide
-title: IDebugControl4::SetEventFilterCommandWide
+title: IDebugControl4::SetEventFilterCommandWide (dbgeng.h)
 description: The SetEventFilterCommandWide method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommandwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetEventFilterCommandWide
+- IDebugControl4.SetEventFilterCommandWide
 product:
 - Windows
 targetos: Windows

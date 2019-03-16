@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CAM_SUPPORTED_IN
-title: _UCSI_GET_CAM_SUPPORTED_IN
+title: _UCSI_GET_CAM_SUPPORTED_IN (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_CAM_SUPPORTED command. See Table 4-27.
 ms.assetid: 45493c52-9170-477d-b7da-3fb7ee31ab42
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CAM_SUPPORTED_IN, *PUCSI_GET_CAM_SUPPORTED_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CAM_SUPPORTED_IN
-product: Windows
+- _UCSI_GET_CAM_SUPPORTED_IN
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

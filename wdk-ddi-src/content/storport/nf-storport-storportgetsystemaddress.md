@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetSystemAddress
-title: StorPortGetSystemAddress function
+title: StorPortGetSystemAddress function (storport.h)
 description: The StorPortGetSystemAddress routine returns a virtual address in system space for the data buffer of the specified SCSI request block (SRB).
 old-location: storage\storportgetsystemaddress.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetSystemAddress
+- StorPortGetSystemAddress
 product:
 - Windows
 targetos: Windows

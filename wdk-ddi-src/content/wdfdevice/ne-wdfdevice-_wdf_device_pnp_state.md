@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_PNP_STATE
-title: "_WDF_DEVICE_PNP_STATE"
+title: _WDF_DEVICE_PNP_STATE (wdfdevice.h)
 description: The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 old-location: wdf\wdf_device_pnp_state.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DEVICE_PNP_STATE
+- WDF_DEVICE_PNP_STATE
 product:
 - Windows
 targetos: Windows

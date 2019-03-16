@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2POINTS
-title: "_D3DHAL_DP2POINTS"
+title: _D3DHAL_DP2POINTS (d3dhal.h)
 description: One or more D3DHAL_DP2POINTS structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_POINTS, and are used to render the specified points.
 old-location: display\d3dhal_dp2points.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2POINTS
+- D3DHAL_DP2POINTS
 product:
 - Windows
 targetos: Windows

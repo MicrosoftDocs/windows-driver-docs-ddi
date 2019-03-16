@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_44
-title: KSAUDIO_MIXCAP_TABLE
+title: KSAUDIO_MIXCAP_TABLE (ksmedia.h)
 description: The KSAUDIO_MIXCAP_TABLE structure specifies the mixing capabilities of a supermixer node (KSNODETYPE_SUPERMIX). This structure is used to get or set the data value for the KSPROPERTY_AUDIO_MIX_LEVEL_CAPS property.
 old-location: audio\ksaudio_mixcap_table.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSAUDIO_MIXCAP_TABLE
+- KSAUDIO_MIXCAP_TABLE
 product:
 - Windows
 targetos: Windows

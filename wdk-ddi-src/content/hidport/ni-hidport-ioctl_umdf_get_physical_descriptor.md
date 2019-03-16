@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
-title: IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
+title: IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR (hidport.h)
 description: The IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR control code obtains the physical descriptor of a HIDClass device.
 old-location: hid\ioctl_umdf_get_physical_descriptor.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidport.h
+- Hidport.h
 api_name:
--	IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
+- IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

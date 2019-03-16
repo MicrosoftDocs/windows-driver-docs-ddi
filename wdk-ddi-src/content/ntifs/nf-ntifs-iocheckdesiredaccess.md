@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckDesiredAccess
-title: IoCheckDesiredAccess function
+title: IoCheckDesiredAccess function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckdesiredaccess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IoCheckDesiredAccess
+- IoCheckDesiredAccess
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.GetRootNamespace
-title: IDataModelManager::GetRootNamespace
+title: IDataModelManager::GetRootNamespace (dbgmodel.h)
 description: The GetRootNamespace method returns the data model's root namespace.
 ms.assetid: d32bbeda-15ce-48b1-abaf-1ac21f497e98
 ms.date: 07/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.GetRootNamespace
-product: Windows
+- IDataModelManager.GetRootNamespace
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

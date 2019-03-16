@@ -1,6 +1,6 @@
 ---
 UID: NC:compstui.PFNCOMPROPSHEET
-title: PFNCOMPROPSHEET
+title: PFNCOMPROPSHEET (compstui.h)
 description: The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages.
 old-location: print\compropsheet.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	ComPropSheet
+- ComPropSheet
 product:
 - Windows
 targetos: Windows

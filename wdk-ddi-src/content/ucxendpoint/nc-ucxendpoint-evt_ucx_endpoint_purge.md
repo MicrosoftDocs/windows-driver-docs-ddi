@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_PURGE
-title: EVT_UCX_ENDPOINT_PURGE
+title: EVT_UCX_ENDPOINT_PURGE (ucxendpoint.h)
 description: The client driver's implementation that completes all outstanding I/O requests on the endpoint.
 old-location: buses\evt_ucx_endpoint_purge.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_PURGE
+- PEVT_UCX_ENDPOINT_PURGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdd8042._INTERNAL_I8042_HOOK_KEYBOARD
-title: "_INTERNAL_I8042_HOOK_KEYBOARD"
+title: _INTERNAL_I8042_HOOK_KEYBOARD (ntdd8042.h)
 description: INTERNAL_I8042_HOOK_KEYBOARD is used by I8042prt to connect optional callback routines that supplement keyboard initialization and the keyboard ISR. The callbacks can be supplied by an optional, vendor-supplied, upper-level filter driver.
 old-location: hid\internal_i8042_hook_keyboard.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	INTERNAL_I8042_HOOK_KEYBOARD
+- INTERNAL_I8042_HOOK_KEYBOARD
 product:
 - Windows
 targetos: Windows

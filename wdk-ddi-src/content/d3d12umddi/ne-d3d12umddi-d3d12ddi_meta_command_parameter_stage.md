@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_META_COMMAND_PARAMETER_STAGE
-title: D3D12DDI_META_COMMAND_PARAMETER_STAGE
+title: D3D12DDI_META_COMMAND_PARAMETER_STAGE (d3d12umddi.h)
 description: Indicates the stage of the meta-command.
 ms.assetid: 44b28355-8021-45be-bcde-e8bf33d216f9
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_META_COMMAND_PARAMETER_STAGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_META_COMMAND_PARAMETER_STAGE
+- D3D12DDI_META_COMMAND_PARAMETER_STAGE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

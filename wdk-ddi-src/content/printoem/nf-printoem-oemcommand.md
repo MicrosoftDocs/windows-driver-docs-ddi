@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCommand
-title: OEMCommand function
+title: OEMCommand function (printoem.h)
 description: OEMCommand function
 old-location: print\oemcommand.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMCommand
+- OEMCommand
 product:
 - Windows
 targetos: Windows

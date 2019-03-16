@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceCaps
-title: "_DXVA_DeinterlaceCaps"
+title: _DXVA_DeinterlaceCaps (dxva.h)
 description: The DXVA_DeinterlaceCaps structure describes the driver capabilities for a deinterlace mode.
 old-location: display\dxva_deinterlacecaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceCaps
+- DXVA_DeinterlaceCaps
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROTOCOL_COMMAND
-title: "_STORAGE_PROTOCOL_COMMAND"
+title: _STORAGE_PROTOCOL_COMMAND (ntddstor.h)
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: storage\storage_protocol_command.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PROTOCOL_COMMAND
+- STORAGE_PROTOCOL_COMMAND
 product:
 - Windows
 targetos: Windows

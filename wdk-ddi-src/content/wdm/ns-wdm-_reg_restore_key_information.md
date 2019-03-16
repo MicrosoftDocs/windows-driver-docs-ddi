@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_RESTORE_KEY_INFORMATION
-title: "_REG_RESTORE_KEY_INFORMATION"
+title: _REG_RESTORE_KEY_INFORMATION (wdm.h)
 description: The REG_RESTORE_KEY_INFORMATION structure contains the information for a registry key that is about to be restored.
 old-location: kernel\reg_restore_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_RESTORE_KEY_INFORMATION
+- REG_RESTORE_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_GET_CHANNEL_INFO
-title: "_BRB_SCO_GET_CHANNEL_INFO"
+title: _BRB_SCO_GET_CHANNEL_INFO (bthddi.h)
 description: The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of a SCO channel.
 old-location: bltooth\_brb_sco_get_channel_info.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_SCO_GET_CHANNEL_INFO
+- _BRB_SCO_GET_CHANNEL_INFO
 product:
 - Windows
 targetos: Windows

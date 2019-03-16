@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_PACKET_PATTERN
-title: "_NDIS_PM_PACKET_PATTERN"
+title: _NDIS_PM_PACKET_PATTERN (ntddndis.h)
 description: The NDIS_PM_PACKET_PATTERN structure specifies a wake-up pattern, which, when detected by a network adapter that has pattern-match enabled, causes the network adapter to signal a power-management wake-up event.
 old-location: netvista\ndis_pm_packet_pattern.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PM_PACKET_PATTERN
+- NDIS_PM_PACKET_PATTERN
 product:
 - Windows
 targetos: Windows

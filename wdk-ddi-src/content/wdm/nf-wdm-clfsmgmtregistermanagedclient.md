@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtRegisterManagedClient
-title: ClfsMgmtRegisterManagedClient function
+title: ClfsMgmtRegisterManagedClient function (wdm.h)
 description: The ClfsMgmtRegisterManagedClient routine creates a client that will manage a CLFS log.
 old-location: kernel\clfsmgmtregistermanagedclient.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsMgmtRegisterManagedClient
+- ClfsMgmtRegisterManagedClient
 product:
 - Windows
 targetos: Windows

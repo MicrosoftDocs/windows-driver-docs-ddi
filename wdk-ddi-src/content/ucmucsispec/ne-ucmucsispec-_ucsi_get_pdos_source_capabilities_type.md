@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
-title: _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
+title: _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_PDOS command. See Table 4-34, Offset 35.
 ms.assetid: 5c224f73-f834-41c3-95a0-75afbbbbded7
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
-product: Windows
+- _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

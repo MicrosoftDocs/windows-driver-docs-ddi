@@ -1,6 +1,6 @@
 ---
 UID: NE:scsiwmi.__unnamed_enum_0
-title: SCSIWMI_ENABLE_DISABLE_CONTROL
+title: SCSIWMI_ENABLE_DISABLE_CONTROL (scsiwmi.h)
 description: The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable.
 old-location: storage\scsiwmi_enable_disable_control.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	SCSIWMI_ENABLE_DISABLE_CONTROL
+- SCSIWMI_ENABLE_DISABLE_CONTROL
 product:
 - Windows
 targetos: Windows

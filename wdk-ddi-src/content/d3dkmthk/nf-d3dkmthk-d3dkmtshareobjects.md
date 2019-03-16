@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTShareObjects
-title: D3DKMTShareObjects function
+title: D3DKMTShareObjects function (d3dkmthk.h)
 description: Shares resource objects that were created with the D3DKMTCreateAllocation, D3DKMTCreateKeyedMutex2, and D3DKMTCreateSynchronizationObject2 functions.
 old-location: display\d3dkmtshareobjects.htm
 ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- GDI32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTShareObjects
+- D3DKMTShareObjects
 product:
 - Windows
 targetos: Windows

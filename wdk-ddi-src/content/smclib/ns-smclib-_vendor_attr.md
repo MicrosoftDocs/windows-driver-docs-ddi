@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._VENDOR_ATTR
-title: "_VENDOR_ATTR"
+title: _VENDOR_ATTR (smclib.h)
 description: The VENDOR_ATTR structure defines the data that is stored in the VendorAttr member of the SMARTCARD_EXTENSION structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number.
 old-location: smartcrd\vendor_attr.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	smclib.h
+- smclib.h
 api_name:
--	VENDOR_ATTR
+- VENDOR_ATTR
 product:
 - Windows
 targetos: Windows

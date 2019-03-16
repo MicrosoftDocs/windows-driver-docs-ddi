@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetPowerCapabilities
-title: NetAdapterSetPowerCapabilities function
+title: NetAdapterSetPowerCapabilities function (netadapter.h)
 description: Sets the power capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: a9a9bfd8-9c90-4b6f-8790-ad61f5af4073
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetPowerCapabilities
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterSetPowerCapabilities
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterSetPowerCapabilities
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.GetPhysicalPagesCount
-title: IPortWaveRTStream::GetPhysicalPagesCount
+title: IPortWaveRTStream::GetPhysicalPagesCount (portcls.h)
 description: The GetPhysicalPagesCount method returns the count of the physical pages in a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_getphysicalpagescount.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.GetPhysicalPagesCount
+- IPortWaveRTStream.GetPhysicalPagesCount
 product:
 - Windows
 targetos: Windows

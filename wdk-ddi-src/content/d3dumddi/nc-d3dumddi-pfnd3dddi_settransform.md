@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTRANSFORM
-title: PFND3DDDI_SETTRANSFORM
+title: PFND3DDDI_SETTRANSFORM (d3dumddi.h)
 description: The SetTransform function sets up a transform.
 old-location: display\settransform.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetTransform
+- SetTransform
 product:
 - Windows
 targetos: Windows

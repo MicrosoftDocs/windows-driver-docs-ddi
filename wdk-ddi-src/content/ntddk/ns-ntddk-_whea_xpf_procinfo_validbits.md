@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCINFO_VALIDBITS
-title: "_WHEA_XPF_PROCINFO_VALIDBITS"
+title: _WHEA_XPF_PROCINFO_VALIDBITS (ntddk.h)
 description: The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a WHEA_XPF_PROCINFO structure contain valid data.
 old-location: whea\whea_xpf_procinfo_validbits.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_PROCINFO_VALIDBITS
+- WHEA_XPF_PROCINFO_VALIDBITS
 product:
 - Windows
 targetos: Windows

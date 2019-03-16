@@ -1,6 +1,6 @@
 ---
 UID: NL:dbgeng.DebugBaseEventCallbacks
-title: DebugBaseEventCallbacks
+title: DebugBaseEventCallbacks (dbgeng.h)
 description: The DebugBaseEventCallbacks class provides a base implementation of the IDebugEventCallbacks interface.
 old-location: debugger\debugbaseeventcallbacks.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	DebugBaseEventCallbacks
+- DebugBaseEventCallbacks
 product:
 - Windows
 targetos: Windows

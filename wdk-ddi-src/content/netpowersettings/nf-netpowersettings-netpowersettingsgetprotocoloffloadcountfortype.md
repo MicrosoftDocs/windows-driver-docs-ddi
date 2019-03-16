@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetProtocolOffloadCountForType
-title: NetPowerSettingsGetProtocolOffloadCountForType function
+title: NetPowerSettingsGetProtocolOffloadCountForType function (netpowersettings.h)
 description: Retrieves the number of protocol offload structures in the NETPOWERSETTINGS object for the particular offload type.
 tech.root: netvista
 ms.assetid: 9d7db442-522c-4079-97b2-24619a845da6
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetProtocolOffloadCountForType
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetProtocolOffloadCountForType
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

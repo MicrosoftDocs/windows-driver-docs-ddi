@@ -1,6 +1,6 @@
 ---
 UID: NF:wmilib.WmiFireEvent
-title: WmiFireEvent function
+title: WmiFireEvent function (wmilib.h)
 description: The WmiFireEvent routine sends an event to WMI for delivery to data consumers that have requested notification of the event.
 old-location: kernel\wmifireevent.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Wmilib.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wmilib.lib
--	Wmilib.dll
+- Wmilib.lib
+- Wmilib.dll
 api_name:
--	WmiFireEvent
+- WmiFireEvent
 product:
 - Windows
 targetos: Windows

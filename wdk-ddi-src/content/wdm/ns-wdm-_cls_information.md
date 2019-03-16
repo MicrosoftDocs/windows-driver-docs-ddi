@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_INFORMATION
-title: "_CLS_INFORMATION"
+title: _CLS_INFORMATION (wdm.h)
 description: The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log.
 old-location: kernel\clfs_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CLS_INFORMATION
+- CLS_INFORMATION
 product:
 - Windows
 targetos: Windows

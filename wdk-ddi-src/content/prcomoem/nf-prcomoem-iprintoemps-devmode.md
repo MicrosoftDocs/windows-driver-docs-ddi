@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.DevMode
-title: IPrintOemPS::DevMode
+title: IPrintOemPS::DevMode (prcomoem.h)
 description: The IPrintOemPS::DevMode method, provided by rendering plug-ins for Pscript5, performs operations on private DEVMODEW members.
 old-location: print\iprintoemps_devmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemPS.DevMode
+- IPrintOemPS.DevMode
 product:
 - Windows
 targetos: Windows

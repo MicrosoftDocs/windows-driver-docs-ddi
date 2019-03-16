@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_COUNTER_INFO
-title: D3D10DDI_COUNTER_INFO
+title: D3D10DDI_COUNTER_INFO (d3d10umddi.h)
 description: The D3D10DDI_COUNTER_INFO structure describes information to manipulate counters.
 old-location: display\d3d10ddi_counter_info.htm
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDI_COUNTER_INFO
+- D3D10DDI_COUNTER_INFO
 product:
 - Windows
 targetos: Windows

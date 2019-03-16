@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeAcquireSpinLockAtDpcLevel
-title: KeAcquireSpinLockAtDpcLevel macro
+title: KeAcquireSpinLockAtDpcLevel macro (wdm.h)
 description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL &gt;= DISPATCH_LEVEL.
 old-location: kernel\keacquirespinlockatdpclevel.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeAcquireSpinLockAtDpcLevel
--	KefAcquireSpinLockAtDpcLevel
+- KeAcquireSpinLockAtDpcLevel
+- KefAcquireSpinLockAtDpcLevel
 product:
 - Windows
 targetos: Windows

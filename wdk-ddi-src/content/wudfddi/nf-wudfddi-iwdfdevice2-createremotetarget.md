@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateRemoteTarget
-title: IWDFDevice2::CreateRemoteTarget
+title: IWDFDevice2::CreateRemoteTarget (wudfddi.h)
 description: The CreateRemoteTarget method creates a remote target object that represents a remote I/O target.
 old-location: wdf\iwdfdevice2_createremotetarget.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.CreateRemoteTarget
+- IWDFDevice2.CreateRemoteTarget
 product:
 - Windows
 targetos: Windows

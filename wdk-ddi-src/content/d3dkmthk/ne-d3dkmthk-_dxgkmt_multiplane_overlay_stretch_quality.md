@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY (d3dkmthk.h)
 description: Multiplane overlay stretch quality.
 ms.assetid: 3591496e-cc49-43b1-b048-1f37e96159fd
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+- _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

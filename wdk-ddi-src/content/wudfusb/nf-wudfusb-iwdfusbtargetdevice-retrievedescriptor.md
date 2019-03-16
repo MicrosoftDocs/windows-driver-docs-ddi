@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDescriptor
-title: IWDFUsbTargetDevice::RetrieveDescriptor
+title: IWDFUsbTargetDevice::RetrieveDescriptor (wudfusb.h)
 description: The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string.
 old-location: wdf\iwdfusbtargetdevice_retrievedescriptor.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.RetrieveDescriptor
+- IWDFUsbTargetDevice.RetrieveDescriptor
 product:
 - Windows
 targetos: Windows

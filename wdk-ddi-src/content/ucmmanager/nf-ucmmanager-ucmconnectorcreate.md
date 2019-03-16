@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorCreate
-title: UcmConnectorCreate function
+title: UcmConnectorCreate function (ucmmanager.h)
 description: Creates a connector object.
 old-location: buses\ucmconnectorcreate.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	UcmCxstub.lib
--	UcmCxstub.dll
+- UcmCxstub.lib
+- UcmCxstub.dll
 api_name:
--	UcmConnectorCreate
+- UcmConnectorCreate
 product:
 - Windows
 targetos: Windows

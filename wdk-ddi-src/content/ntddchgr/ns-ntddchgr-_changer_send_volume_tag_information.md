@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_SEND_VOLUME_TAG_INFORMATION
-title: "_CHANGER_SEND_VOLUME_TAG_INFORMATION"
+title: _CHANGER_SEND_VOLUME_TAG_INFORMATION (ntddchgr.h)
 description: This structure is passed to the ChangerQueryVolumeTags routine and is used to specify a search criterion for retrieving changer elements.
 old-location: storage\changer_send_volume_tag_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_SEND_VOLUME_TAG_INFORMATION
+- CHANGER_SEND_VOLUME_TAG_INFORMATION
 product:
 - Windows
 targetos: Windows

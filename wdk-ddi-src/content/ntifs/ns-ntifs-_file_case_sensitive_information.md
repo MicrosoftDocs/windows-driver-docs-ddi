@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_CASE_SENSITIVE_INFORMATION
-title: _FILE_CASE_SENSITIVE_INFORMATION
+title: _FILE_CASE_SENSITIVE_INFORMATION (ntifs.h)
 description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or set per-directory case-sensitive information.
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_CASE_SENSITIVE_INFORMATION
+- _FILE_CASE_SENSITIVE_INFORMATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

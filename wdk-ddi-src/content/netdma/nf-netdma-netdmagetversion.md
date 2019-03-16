@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaGetVersion
-title: NetDmaGetVersion function
+title: NetDmaGetVersion function (netdma.h)
 description: Note  The NetDMA interface is not supported in Windows 8 and later. The NetDmaGetVersion function returns the version of the NetDMA interface that the local computer supports.
 old-location: netvista\netdmagetversion.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaGetVersion
+- NetDmaGetVersion
 product:
 - Windows
 targetos: Windows

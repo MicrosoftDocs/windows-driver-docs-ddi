@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoBuildDeviceIoControlRequest
-title: IoBuildDeviceIoControlRequest function
+title: IoBuildDeviceIoControlRequest function (wdm.h)
 description: The IoBuildDeviceIoControlRequest routine allocates and sets up an IRP for a synchronously processed device control request.
 old-location: kernel\iobuilddeviceiocontrolrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoBuildDeviceIoControlRequest
+- IoBuildDeviceIoControlRequest
 product:
 - Windows
 targetos: Windows

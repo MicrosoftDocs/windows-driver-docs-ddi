@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessHandle
-title: IDebugSystemObjects4::GetCurrentProcessHandle
+title: IDebugSystemObjects4::GetCurrentProcessHandle (dbgeng.h)
 description: The GetCurrentProcessHandle method returns the system handle for the current process.
 old-location: debugger\getcurrentprocesshandle2.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetCurrentProcessHandle
--	IDebugSystemObjects2.GetCurrentProcessHandle
--	IDebugSystemObjects3.GetCurrentProcessHandle
--	IDebugSystemObjects4.GetCurrentProcessHandle
+- IDebugSystemObjects.GetCurrentProcessHandle
+- IDebugSystemObjects2.GetCurrentProcessHandle
+- IDebugSystemObjects3.GetCurrentProcessHandle
+- IDebugSystemObjects4.GetCurrentProcessHandle
 product:
 - Windows
 targetos: Windows

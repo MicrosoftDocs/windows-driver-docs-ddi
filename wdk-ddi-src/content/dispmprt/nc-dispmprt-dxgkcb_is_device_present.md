@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_IS_DEVICE_PRESENT
-title: DXGKCB_IS_DEVICE_PRESENT
+title: DXGKCB_IS_DEVICE_PRESENT (dispmprt.h)
 description: The DxgkCbIsDevicePresent function determines whether a specified PCI device is present.
 old-location: display\dxgkcbisdevicepresent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbIsDevicePresent
+- DxgkCbIsDevicePresent
 product:
 - Windows
 targetos: Windows

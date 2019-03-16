@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_DIRECTORY_TYPE
-title: _DEVICE_DIRECTORY_TYPE
+title: _DEVICE_DIRECTORY_TYPE (wdm.h)
 description: The directory from which the driver is loaded. 
 ms.assetid: d49e913a-dadb-4669-b3a4-e08a60b2a767
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DEVICE_DIRECTORY_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DEVICE_DIRECTORY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

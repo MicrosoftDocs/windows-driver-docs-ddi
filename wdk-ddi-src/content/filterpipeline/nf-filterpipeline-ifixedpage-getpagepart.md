@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetPagePart
-title: IFixedPage::GetPagePart
+title: IFixedPage::GetPagePart (filterpipeline.h)
 description: The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI.
 old-location: print\ifixedpage_getpagepart.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage.GetPagePart
+- IFixedPage.GetPagePart
 product:
 - Windows
 targetos: Windows

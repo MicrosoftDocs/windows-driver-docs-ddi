@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_122
-title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
+title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S (ksmedia.h)
 description: Describes region of interest (ROI) control properties in the PROPSETID_VIDCAP_CAMERACONTROL_REGION_OF_INTEREST camera control property set.
 old-location: stream\ksproperty_cameracontrol_region_of_interest_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
+- KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 product:
 - Windows
 targetos: Windows

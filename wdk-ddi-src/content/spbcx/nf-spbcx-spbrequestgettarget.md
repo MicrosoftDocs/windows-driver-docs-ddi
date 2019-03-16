@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetTarget
-title: SpbRequestGetTarget function
+title: SpbRequestGetTarget function (spbcx.h)
 description: The SpbRequestGetTarget method retrieves the SPBTARGET handle from the specified I/O request.
 old-location: spb\spbrequestgettarget.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbRequestGetTarget
+- SpbRequestGetTarget
 product:
 - Windows
 targetos: Windows

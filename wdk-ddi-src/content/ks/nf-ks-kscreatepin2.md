@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreatePin2
-title: KsCreatePin2 function
+title: KsCreatePin2 function (ks.h)
 description: Passes a connection request to a device, creating a pin instance.
 old-location: stream\kscreatepin2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KsCreatePin2
+- KsCreatePin2
 product:
 - Windows
 targetos: Windows

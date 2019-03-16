@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_TIMESTAMP
-title: _NET_BUFFER_LIST_TIMESTAMP
+title: _NET_BUFFER_LIST_TIMESTAMP (ndis.h)
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	_NET_BUFFER_LIST_TIMESTAMP
+- _NET_BUFFER_LIST_TIMESTAMP
 product:
 - Windows
 targetos: Windows

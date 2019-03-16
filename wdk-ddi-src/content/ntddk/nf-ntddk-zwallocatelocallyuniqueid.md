@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwAllocateLocallyUniqueId
-title: ZwAllocateLocallyUniqueId function
+title: ZwAllocateLocallyUniqueId function (ntddk.h)
 description: The ZwAllocateLocallyUniqueId routine allocates a locally unique identifier (LUID).
 old-location: kernel\zwallocatelocallyuniqueid.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwAllocateLocallyUniqueId
--	NtAllocateLocallyUniqueId
+- ZwAllocateLocallyUniqueId
+- NtAllocateLocallyUniqueId
 product:
 - Windows
 targetos: Windows

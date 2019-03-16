@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.ARGUMENT_PRESENT
-title: ARGUMENT_PRESENT macro
+title: ARGUMENT_PRESENT macro (wudfwdm.h)
 description: The ARGUMENT_PRESENT macro takes an argument pointer and returns FALSE if the pointer is NULL. Otherwise, it returns TRUE.
 old-location: kernel\argument_present.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfwdm.h
+- wudfwdm.h
 api_name:
--	ARGUMENT_PRESENT
+- ARGUMENT_PRESENT
 product:
 - Windows
 targetos: Windows

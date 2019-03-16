@@ -1,6 +1,6 @@
 ---
 UID: NI:gpio.IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
-title: IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
+title: IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION (gpio.h)
 description: The IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION I/O control code enables a client of the general-purpose I/O (GPIO) controller to request a controller-specific device-control operation.
 old-location: gpio\ioctl_gpio_controller_specific_function.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpio.h
+- Gpio.h
 api_name:
--	IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
+- IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 product:
 - Windows
 targetos: Windows

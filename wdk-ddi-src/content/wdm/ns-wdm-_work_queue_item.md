@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._WORK_QUEUE_ITEM
-title: "_WORK_QUEUE_ITEM"
+title: _WORK_QUEUE_ITEM (wdm.h)
 description: The WORK_QUEUE_ITEM structure is used to post a work items to a system work queue.
 old-location: ifsk\work_queue_item.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	WORK_QUEUE_ITEM
+- WORK_QUEUE_ITEM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnPrinterQueuesEnumerated
-title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated
+title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated (printerextension.h)
 description: Called when printer queues are enumerated.
 old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEvent.OnPrinterQueuesEnumerated
+- IPrinterExtensionEvent.OnPrinterQueuesEnumerated
 product:
 - Windows
 targetos: Windows

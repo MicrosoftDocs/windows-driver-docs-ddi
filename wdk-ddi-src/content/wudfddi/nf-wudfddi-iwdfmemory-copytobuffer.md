@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyToBuffer
-title: IWDFMemory::CopyToBuffer
+title: IWDFMemory::CopyToBuffer (wudfddi.h)
 description: The CopyToBuffer method safely copies data from a memory object to the specified target buffer.
 old-location: wdf\iwdfmemory_copytobuffer.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFMemory.CopyToBuffer
+- IWDFMemory.CopyToBuffer
 product:
 - Windows
 targetos: Windows

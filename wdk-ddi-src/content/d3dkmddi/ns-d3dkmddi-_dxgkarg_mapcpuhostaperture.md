@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_MAPCPUHOSTAPERTURE
-title: "_DXGKARG_MAPCPUHOSTAPERTURE"
+title: _DXGKARG_MAPCPUHOSTAPERTURE (d3dkmddi.h)
 description: The DXGKARG_MAPCPUHOSTAPERTURE structure is used to map an allocation, resident in a local memory segment, into the CPU host aperture in order to make it visible to the CPU.
 old-location: display\dxgkarg_mapcpuhostaperture.htm
 ms.assetid: ACC0C800-B6E3-4EF2-846C-63BF4564D0FD
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_MAPCPUHOSTAPERTURE
+- DXGKARG_MAPCPUHOSTAPERTURE
 product:
 - Windows
 targetos: Windows

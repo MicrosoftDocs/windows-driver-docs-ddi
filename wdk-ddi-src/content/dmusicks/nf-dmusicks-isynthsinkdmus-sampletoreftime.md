@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.ISynthSinkDMus.SampleToRefTime
-title: ISynthSinkDMus::SampleToRefTime
+title: ISynthSinkDMus::SampleToRefTime (dmusicks.h)
 description: The SampleToRefTime method converts a sample time to a reference time.
 old-location: audio\isynthsinkdmus_sampletoreftime.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	ISynthSinkDMus.SampleToRefTime
+- ISynthSinkDMus.SampleToRefTime
 product:
 - Windows
 targetos: Windows

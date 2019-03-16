@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERCONFIG
-title: PFND3D11_1DDI_GETVIDEODECODERCONFIG
+title: PFND3D11_1DDI_GETVIDEODECODERCONFIG (d3d10umddi.h)
 description: Queries the video decoder configuration for a specified video operation.
 old-location: display\getvideodecoderconfig.htm
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetVideoDecoderConfig
+- pfnGetVideoDecoderConfig
 product:
 - Windows
 targetos: Windows

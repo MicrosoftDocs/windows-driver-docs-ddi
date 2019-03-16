@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_CREATE_MIRACAST_CONTEXT
-title: PFN_CREATE_MIRACAST_CONTEXT
+title: PFN_CREATE_MIRACAST_CONTEXT (netdispumdddi.h)
 description: Called by the operating system to create a user-mode Miracast context.
 old-location: display\createmiracastcontext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	CreateMiracastContext
+- CreateMiracastContext
 product:
 - Windows
 targetos: Windows

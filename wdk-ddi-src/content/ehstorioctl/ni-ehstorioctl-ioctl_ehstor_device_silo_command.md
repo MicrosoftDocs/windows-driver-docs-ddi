@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DEVICE_SILO_COMMAND
-title: IOCTL_EHSTOR_DEVICE_SILO_COMMAND
+title: IOCTL_EHSTOR_DEVICE_SILO_COMMAND (ehstorioctl.h)
 description: This IOCTL issues a silo command to the targeted silo on the device. Both input and output data are structured according to the definition of silo commands, as found in the IEEE 1667 specification document.
 old-location: storage\ioctl_ehstor_device_silo_command.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	IOCTL_EHSTOR_DEVICE_SILO_COMMAND
+- IOCTL_EHSTOR_DEVICE_SILO_COMMAND
 product:
 - Windows
 targetos: Windows

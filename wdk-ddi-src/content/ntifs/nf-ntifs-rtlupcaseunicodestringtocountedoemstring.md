@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeStringToCountedOemString
-title: RtlUpcaseUnicodeStringToCountedOemString function
+title: RtlUpcaseUnicodeStringToCountedOemString function (ntifs.h)
 description: The RtlUpcaseUnicodeStringToCountedOemString routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtocountedoemstring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUpcaseUnicodeStringToCountedOemString
+- RtlUpcaseUnicodeStringToCountedOemString
 product:
 - Windows
 targetos: Windows

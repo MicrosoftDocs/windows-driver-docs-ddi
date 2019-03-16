@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
-title: "_UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS"
+title: _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS (ucmmanager.h)
 description: Describes the parameters for PD connection changed event.
 old-location: buses\ucm_connector_pd_conn_state_changed_params.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
+- UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 product:
 - Windows
 targetos: Windows

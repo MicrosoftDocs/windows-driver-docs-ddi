@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDANODE_DESCRIPTOR
-title: "_BDANODE_DESCRIPTOR"
+title: _BDANODE_DESCRIPTOR (bdatypes.h)
 description: The BDANODE_DESCRIPTOR structure describes a BDA node.
 old-location: stream\bdanode_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDANODE_DESCRIPTOR
+- BDANODE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

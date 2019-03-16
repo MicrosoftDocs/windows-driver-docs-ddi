@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_65
-title: KSPROPERTY_VALUES
+title: KSPROPERTY_VALUES (ks.h)
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
 old-location: stream\ksproperty_values.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_VALUES
+- KSPROPERTY_VALUES
 product:
 - Windows
 targetos: Windows

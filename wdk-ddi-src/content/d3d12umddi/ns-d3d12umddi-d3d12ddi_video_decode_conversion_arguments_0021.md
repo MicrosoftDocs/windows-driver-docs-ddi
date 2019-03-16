@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
-title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
+title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 (d3d12umddi.h)
 description: Specifies the arguments for decode output conversion.
 old-location: display\d3d12ddi_video_decode_conversion_arguments.htm
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
+- D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021
 product:
 - Windows
 targetos: Windows

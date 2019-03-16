@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.GetProperty
-title: IPrintPipelinePropertyBag::GetProperty
+title: IPrintPipelinePropertyBag::GetProperty (filterpipeline.h)
 description: The GetProperty method gets a property from a property bag.
 old-location: print\iprintpipelinepropertybag_getproperty.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelinePropertyBag.GetProperty
+- IPrintPipelinePropertyBag.GetProperty
 product:
 - Windows
 targetos: Windows

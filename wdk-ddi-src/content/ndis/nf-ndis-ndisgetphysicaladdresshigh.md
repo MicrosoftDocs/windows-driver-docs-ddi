@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetPhysicalAddressHigh
-title: NdisGetPhysicalAddressHigh macro
+title: NdisGetPhysicalAddressHigh macro (ndis.h)
 description: NdisGetPhysicalAddressHigh returns the high-order part of a given physical address.
 old-location: netvista\ndisgetphysicaladdresshigh.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisGetPhysicalAddressHigh
+- NdisGetPhysicalAddressHigh
 product:
 - Windows
 targetos: Windows

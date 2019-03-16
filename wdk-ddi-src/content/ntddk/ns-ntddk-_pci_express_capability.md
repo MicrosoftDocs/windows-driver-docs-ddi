@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_CAPABILITY
-title: "_PCI_EXPRESS_CAPABILITY"
+title: _PCI_EXPRESS_CAPABILITY (ntddk.h)
 description: The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
 old-location: pci\pci_express_capability.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PCI_EXPRESS_CAPABILITY
+- PCI_EXPRESS_CAPABILITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateAllocatorFramingEx
-title: KsValidateAllocatorFramingEx function
+title: KsValidateAllocatorFramingEx function (ks.h)
 description: For system use only.
 old-location: stream\ksvalidateallocatorframingex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsValidateAllocatorFramingEx
+- KsValidateAllocatorFramingEx
 product:
 - Windows
 targetos: Windows

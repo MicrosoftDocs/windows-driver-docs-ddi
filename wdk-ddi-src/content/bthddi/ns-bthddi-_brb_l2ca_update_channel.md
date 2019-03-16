@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_UPDATE_CHANNEL
-title: "_BRB_L2CA_UPDATE_CHANNEL"
+title: _BRB_L2CA_UPDATE_CHANNEL (bthddi.h)
 description: The _BRB_L2CA_UPDATE_CHANNEL structure describes an update to the link characteristics of an open L2CAP channel to a remote device or to ascertain when certain channel attributes have changed.
 old-location: bltooth\_brb_l2ca_update_channel.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_L2CA_UPDATE_CHANNEL
+- _BRB_L2CA_UPDATE_CHANNEL
 product:
 - Windows
 targetos: Windows

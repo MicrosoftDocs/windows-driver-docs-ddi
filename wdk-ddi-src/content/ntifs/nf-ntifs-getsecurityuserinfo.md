@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.GetSecurityUserInfo
-title: GetSecurityUserInfo function
+title: GetSecurityUserInfo function (ntifs.h)
 description: The GetSecurityUserInfo function retrieves information about a logon session.
 old-location: ifsk\getsecurityuserinfo.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ksecdd.lib
--	ksecdd.dll
+- ksecdd.lib
+- ksecdd.dll
 api_name:
--	GetSecurityUserInfo
+- GetSecurityUserInfo
 product:
 - Windows
 targetos: Windows

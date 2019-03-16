@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_RADIUSConfig
-title: "_MSiSCSI_RADIUSConfig"
+title: _MSiSCSI_RADIUSConfig (iscsicfg.h)
 description: The MSiSCSI_RADIUSConfig structure provides information that the initiator requires to use the remote authentication dial-in user service (RADIUS).
 old-location: storage\msiscsi_radiusconfig.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsicfg.h
+- iscsicfg.h
 api_name:
--	MSiSCSI_RADIUSConfig
+- MSiSCSI_RADIUSConfig
 product:
 - Windows
 targetos: Windows

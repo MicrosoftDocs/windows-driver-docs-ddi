@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
-title: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
+title: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS (ntddstor.h)
 description: The IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code queries for and returns the physical element status from a device.
 old-location: storage\ioctl_storage_get_physical_element_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
+- IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 product:
 - Windows
 targetos: Windows

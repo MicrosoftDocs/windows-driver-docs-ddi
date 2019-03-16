@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UPDATECONTEXTALLOCATION
-title: "_DXGKARGCB_UPDATECONTEXTALLOCATION"
+title: _DXGKARGCB_UPDATECONTEXTALLOCATION (d3dkmddi.h)
 description: DXGKARGCB_UPDATECONTEXTALLOCATION contains the data used to call DxgkCbUpdateContextAllocation.
 old-location: display\dxgkargcb_updatecontextallocation.htm
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_UPDATECONTEXTALLOCATION
+- DXGKARGCB_UPDATECONTEXTALLOCATION
 product:
 - Windows
 targetos: Windows

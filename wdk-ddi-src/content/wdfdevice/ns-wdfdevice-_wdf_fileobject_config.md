@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_FILEOBJECT_CONFIG
-title: "_WDF_FILEOBJECT_CONFIG"
+title: _WDF_FILEOBJECT_CONFIG (wdfdevice.h)
 description: The WDF_FILEOBJECT_CONFIG structure contains configuration information of a driver's framework file objects.
 old-location: wdf\wdf_fileobject_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_FILEOBJECT_CONFIG
+- WDF_FILEOBJECT_CONFIG
 product:
 - Windows
 targetos: Windows

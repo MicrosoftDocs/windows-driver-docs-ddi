@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveCyclicStream
-title: IMiniportWaveCyclicStream
+title: IMiniportWaveCyclicStream (portcls.h)
 description: The IMiniportWaveCyclicStream interface represents the wave stream that flows through a pin on a WaveCyclic filter.
 old-location: audio\iminiportwavecyclicstream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveCyclicStream
+- IMiniportWaveCyclicStream
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIOpenBlock
-title: IoWMIOpenBlock function
+title: IoWMIOpenBlock function (wdm.h)
 description: The IoWMIOpenBlock routine opens the WMI data block object for the specified WMI class.
 old-location: kernel\iowmiopenblock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIOpenBlock
+- IoWMIOpenBlock
 product:
 - Windows
 targetos: Windows

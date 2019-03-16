@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_GET_BYTE
-title: UART_GET_BYTE
+title: UART_GET_BYTE (uart.h)
 description: Reads a data byte from the UART device.
 tech.root: serports
 ms.assetid: d0b97aa3-4e93-498d-8afc-44588fd21388
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_GET_BYTE
+- UART_GET_BYTE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

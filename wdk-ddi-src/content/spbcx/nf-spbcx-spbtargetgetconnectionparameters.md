@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbTargetGetConnectionParameters
-title: SpbTargetGetConnectionParameters function
+title: SpbTargetGetConnectionParameters function (spbcx.h)
 description: The SpbTargetGetConnectionParameters method retrieves the connection parameters for a target device on the bus.
 old-location: spb\spbtargetgetconnectionparameters.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbTargetGetConnectionParameters
+- SpbTargetGetConnectionParameters
 product:
 - Windows
 targetos: Windows

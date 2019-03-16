@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_QUERY_REMOVE
-title: EVT_WDF_DEVICE_QUERY_REMOVE
+title: EVT_WDF_DEVICE_QUERY_REMOVE (wdfdevice.h)
 description: A driver's EvtDeviceQueryRemove event callback function determines whether a specified device can be stopped and removed.
 old-location: wdf\evtdevicequeryremove.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceQueryRemove
+- EvtDeviceQueryRemove
 product:
 - Windows
 targetos: Windows

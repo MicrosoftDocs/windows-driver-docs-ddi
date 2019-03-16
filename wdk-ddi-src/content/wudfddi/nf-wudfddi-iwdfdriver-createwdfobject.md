@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreateWdfObject
-title: IWDFDriver::CreateWdfObject
+title: IWDFDriver::CreateWdfObject (wudfddi.h)
 description: The CreateWdfObject method creates a custom (or user) WDF object from a parent WDF object.
 old-location: wdf\iwdfdriver_createwdfobject.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDriver.CreateWdfObject
+- IWDFDriver.CreateWdfObject
 product:
 - Windows
 targetos: Windows

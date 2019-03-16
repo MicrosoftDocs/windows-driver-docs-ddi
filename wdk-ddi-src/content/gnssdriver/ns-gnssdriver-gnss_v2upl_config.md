@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_41
-title: GNSS_V2UPL_CONFIG
+title: GNSS_V2UPL_CONFIG (gnssdriver.h)
 description: This structure contains V2UPL configuration information.
 old-location: gnss\gnss_v2upl_config.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_V2UPL_CONFIG
+- GNSS_V2UPL_CONFIG
 product:
 - Windows
 targetos: Windows

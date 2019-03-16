@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_121
-title: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+title: KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S (ksmedia.h)
 description: Describes video stabilization control properties in the PROPSETID_VIDCAP_CAMERACONTROL_VIDEO_STABILIZATION camera control property set. This structure specifies property values that are used in requests to the camera driver.
 old-location: stream\ksproperty_cameracontrol_videostabilization_mode_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
+- KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S
 product:
 - Windows
 targetos: Windows

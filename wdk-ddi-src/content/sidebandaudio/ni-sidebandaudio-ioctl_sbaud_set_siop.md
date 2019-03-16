@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIOP
-title: IOCTL_SBAUD_SET_SIOP
+title: IOCTL_SBAUD_SET_SIOP (sidebandaudio.h)
 description: 
 ms.assetid: 64a9ef57-a054-45de-b6e3-284617747d51
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_SET_SIOP
-product: Windows
+- IOCTL_SBAUD_SET_SIOP
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

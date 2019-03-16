@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETTRANSFORM
-title: "_D3DDDIARG_SETTRANSFORM"
+title: _D3DDDIARG_SETTRANSFORM (d3dumddi.h)
 description: The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 old-location: display\d3dddiarg_settransform.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETTRANSFORM
+- D3DDDIARG_SETTRANSFORM
 product:
 - Windows
 targetos: Windows

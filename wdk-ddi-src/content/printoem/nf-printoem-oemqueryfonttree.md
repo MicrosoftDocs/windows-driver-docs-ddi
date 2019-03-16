@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryFontTree
-title: OEMQueryFontTree function
+title: OEMQueryFontTree function (printoem.h)
 description: The OEMQueryFontTree function provides GDI with a pointer to a structure that defines one of the following.
 old-location: print\oemqueryfonttree.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMQueryFontTree
+- OEMQueryFontTree
 product:
 - Windows
 targetos: Windows

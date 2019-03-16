@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_DEREFERENCE_SWITCH_PORT
-title: NDIS_SWITCH_DEREFERENCE_SWITCH_PORT
+title: NDIS_SWITCH_DEREFERENCE_SWITCH_PORT (ndis.h)
 description: The DereferenceSwitchPort function decrements the Hyper-V extensible switch reference counter for an extensible switch port. The reference counter was incremented through a previous call to ReferenceSwitchPort.
 old-location: netvista\DereferenceSwitchPort.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	DereferenceSwitchPort
+- DereferenceSwitchPort
 product:
 - Windows
 targetos: Windows

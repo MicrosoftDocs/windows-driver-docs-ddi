@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_80
-title: KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
+title: KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY (ksmedia.h)
 description: This enumeration contains extended camera controls.
 old-location: stream\ksproperty_cameracontrol_extended_property.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
+- KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
 product:
 - Windows
 targetos: Windows

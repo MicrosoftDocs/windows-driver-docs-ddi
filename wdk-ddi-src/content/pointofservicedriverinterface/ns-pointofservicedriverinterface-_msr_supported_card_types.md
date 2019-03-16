@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_SUPPORTED_CARD_TYPES
-title: "_MSR_SUPPORTED_CARD_TYPES"
+title: _MSR_SUPPORTED_CARD_TYPES (pointofservicedriverinterface.h)
 description: This structure defines the types of magnetic stripe cards supported by the reader.
 old-location: pos\msr_supported_card_types.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_SUPPORTED_CARD_TYPES
+- MSR_SUPPORTED_CARD_TYPES
 product:
 - Windows
 targetos: Windows

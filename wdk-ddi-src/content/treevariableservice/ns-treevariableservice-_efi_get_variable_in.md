@@ -1,6 +1,6 @@
 ---
 UID: NS:treevariableservice._EFI_GET_VARIABLE_IN
-title: _EFI_GET_VARIABLE_IN
+title: _EFI_GET_VARIABLE_IN (treevariableservice.h)
 description: 
 ms.assetid: d46c400b-6fa3-459b-96f4-5075269881fa
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: EFI_GET_VARIABLE_IN, *PEFI_GET_VARIABLE_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	_EFI_GET_VARIABLE_IN
+- _EFI_GET_VARIABLE_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

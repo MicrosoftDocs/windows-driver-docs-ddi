@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetEnabledExtendedFeatures
-title: RtlGetEnabledExtendedFeatures function
+title: RtlGetEnabledExtendedFeatures function (ntddk.h)
 description: The RtlGetEnabledExtendedFeatures routine returns a mask of extended processor features that are enabled by the system.
 old-location: kernel\rtlgetenabledextendedfeatures.htm
 tech.root: kernel
@@ -26,18 +26,18 @@ req.lib: Ntdll.lib (user mode); NtosKrnl.lib (kernel mode); OneCoreUAP.lib on Wi
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
--	API-MS-Win-Core-XState-l1-1-0.dll
--	API-MS-Win-Core-XState-l1-1-1.dll
--	API-MS-Win-Core-XState-L1-1-2.dll
+- NtDll.dll
+- NtosKrnl.exe
+- API-MS-Win-Core-XState-l1-1-0.dll
+- API-MS-Win-Core-XState-l1-1-1.dll
+- API-MS-Win-Core-XState-L1-1-2.dll
 api_name:
--	RtlGetEnabledExtendedFeatures
+- RtlGetEnabledExtendedFeatures
 product:
 - Windows
 targetos: Windows

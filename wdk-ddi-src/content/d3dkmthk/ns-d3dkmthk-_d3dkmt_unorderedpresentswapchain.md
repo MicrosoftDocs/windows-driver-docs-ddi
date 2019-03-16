@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNORDEREDPRESENTSWAPCHAIN
-title: "_D3DKMT_UNORDEREDPRESENTSWAPCHAIN"
+title: _D3DKMT_UNORDEREDPRESENTSWAPCHAIN (d3dkmthk.h)
 description: Used to store information about the swapchain being presented.
 old-location: display\d3dkmt-unorderedpresentswapchain.htm
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_UNORDEREDPRESENTSWAPCHAIN
+- D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 product:
 - Windows
 targetos: Windows

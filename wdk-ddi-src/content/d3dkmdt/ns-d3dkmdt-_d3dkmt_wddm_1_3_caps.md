@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_WDDM_1_3_CAPS
-title: _D3DKMT_WDDM_1_3_CAPS
+title: _D3DKMT_WDDM_1_3_CAPS (d3dkmdt.h)
 description: Indicates the capabilities for Windows Display Driver Model v1.3.
 ms.assetid: d0b0e38a-4f43-4c20-8eb6-0dd3be95e6b0
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_WDDM_1_3_CAPS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_D3DKMT_WDDM_1_3_CAPS
+- _D3DKMT_WDDM_1_3_CAPS
 product: 
 - Windows
 targetos: Windows

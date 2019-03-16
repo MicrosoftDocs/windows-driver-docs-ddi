@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExCreateCallback
-title: ExCreateCallback function
+title: ExCreateCallback function (wdm.h)
 description: The ExCreateCallback routine either creates a new callback object or opens an existing callback object on behalf of the caller.
 old-location: kernel\excreatecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExCreateCallback
+- ExCreateCallback
 product:
 - Windows
 targetos: Windows

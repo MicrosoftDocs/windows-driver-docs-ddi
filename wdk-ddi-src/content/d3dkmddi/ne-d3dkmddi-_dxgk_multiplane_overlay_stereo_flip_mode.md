@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-title: "_DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE"
+title: _DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (d3dkmddi.h)
 description: Identifies the overlay plane's stereo flip mode. Only the DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE value is supported.
 old-location: display\dxgk_multiplane_overlay_stereo_flip_mode.htm
 ms.assetid: f226f276-c5d3-460d-9f52-c66ccfd3393f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+- DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 product:
 - Windows
 targetos: Windows

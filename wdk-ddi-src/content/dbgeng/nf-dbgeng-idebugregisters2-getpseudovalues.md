@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoValues
-title: IDebugRegisters2::GetPseudoValues
+title: IDebugRegisters2::GetPseudoValues (dbgeng.h)
 description: The GetPseudoValues method returns the values of a number of pseudo-registers.
 old-location: debugger\getpseudovalues.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetPseudoValues
+- IDebugRegisters2.GetPseudoValues
 product:
 - Windows
 targetos: Windows

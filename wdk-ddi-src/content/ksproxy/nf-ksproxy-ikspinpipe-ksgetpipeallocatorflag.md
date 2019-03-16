@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipeAllocatorFlag
-title: IKsPinPipe::KsGetPipeAllocatorFlag
+title: IKsPinPipe::KsGetPipeAllocatorFlag (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipeallocatorflag.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPinPipe.KsGetPipeAllocatorFlag
+- IKsPinPipe.KsGetPipeAllocatorFlag
 product:
 - Windows
 targetos: Windows

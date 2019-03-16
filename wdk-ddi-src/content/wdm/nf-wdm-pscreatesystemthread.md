@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsCreateSystemThread
-title: PsCreateSystemThread function
+title: PsCreateSystemThread function (wdm.h)
 description: The PsCreateSystemThread routine creates a system thread that executes in kernel mode and returns a handle for the thread.
 old-location: kernel\pscreatesystemthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsCreateSystemThread
+- PsCreateSystemThread
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAvcSubunitType
-title: "_tagAvcSubunitType"
+title: _tagAvcSubunitType (avc.h)
 description: The AvcSubunitType enumeration type is used to indicate the type of AV/C subunit.
 old-location: stream\avcsubunittype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AvcSubunitType
+- AvcSubunitType
 product:
 - Windows
 targetos: Windows

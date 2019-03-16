@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectForwardAsync0
-title: FwpsInjectForwardAsync0 function
+title: FwpsInjectForwardAsync0 function (fwpsk.h)
 description: The FwpsInjectForwardAsync0 function injects packet data into the forwarding data path.Note  FwpsInjectForwardAsync0 is a specific version of FwpsInjectForwardAsync.
 old-location: netvista\fwpsinjectforwardasync0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectForwardAsync0
+- FwpsInjectForwardAsync0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESUMECONTEXT
-title: _DXGKARG_RESUMECONTEXT
+title: _DXGKARG_RESUMECONTEXT (d3dkmddi.h)
 description: Arguments used to resume a context.
 ms.assetid: 08bf3268-16b0-4716-a687-4074c1618e78
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_RESUMECONTEXT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_RESUMECONTEXT
+- _DXGKARG_RESUMECONTEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

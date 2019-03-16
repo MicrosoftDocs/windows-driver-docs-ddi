@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateSemaphore
-title: KeReadStateSemaphore function
+title: KeReadStateSemaphore function (wdm.h)
 description: The KeReadStateSemaphore routine returns the current state, signaled or not-signaled, of the specified semaphore object.
 old-location: kernel\kereadstatesemaphore.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReadStateSemaphore
+- KeReadStateSemaphore
 product:
 - Windows
 targetos: Windows

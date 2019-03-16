@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._REPORT_ZONES_DATA
-title: "_REPORT_ZONES_DATA"
+title: _REPORT_ZONES_DATA (minitape.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	REPORT_ZONES_DATA
+- REPORT_ZONES_DATA
 product:
 - Windows
 targetos: Windows

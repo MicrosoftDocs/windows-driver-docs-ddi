@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._VPD_EXTENDED_INQUIRY_DATA_PAGE
-title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
+title: _VPD_EXTENDED_INQUIRY_DATA_PAGE (storport.h)
 description: 
 ms.assetid: d5b25cbf-a20a-48fe-92b5-a54d0f1e5561
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_VPD_EXTENDED_INQUIRY_DATA_PAGE
+- _VPD_EXTENDED_INQUIRY_DATA_PAGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

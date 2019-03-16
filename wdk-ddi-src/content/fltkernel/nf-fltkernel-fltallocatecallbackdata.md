@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateCallbackData
-title: FltAllocateCallbackData function
+title: FltAllocateCallbackData function (fltkernel.h)
 description: FltAllocateCallbackData allocates a callback data structure that a minifilter driver can use to initiate an I/O request.
 old-location: ifsk\fltallocatecallbackdata.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAllocateCallbackData
+- FltAllocateCallbackData
 product:
 - Windows
 targetos: Windows

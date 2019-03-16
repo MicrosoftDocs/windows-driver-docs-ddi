@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmFreeNonCachedMemory
-title: MmFreeNonCachedMemory function
+title: MmFreeNonCachedMemory function (ntddk.h)
 description: The MmFreeNonCachedMemory routine releases a range of noncached memory that was allocated by the MmAllocateNonCachedMemory routine.
 old-location: kernel\mmfreenoncachedmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFreeNonCachedMemory
+- MmFreeNonCachedMemory
 product:
 - Windows
 targetos: Windows

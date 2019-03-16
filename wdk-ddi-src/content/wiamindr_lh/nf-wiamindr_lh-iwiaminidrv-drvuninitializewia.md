@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvUnInitializeWia
-title: IWiaMiniDrv::drvUnInitializeWia
+title: IWiaMiniDrv::drvUnInitializeWia (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvUnInitializeWia method releases resources held by the minidriver.
 old-location: image\iwiaminidrv_drvuninitializewia.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvUnInitializeWia
+- IWiaMiniDrv.drvUnInitializeWia
 product:
 - Windows
 targetos: Windows

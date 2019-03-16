@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateMappingAddress
-title: MmAllocateMappingAddress function
+title: MmAllocateMappingAddress function (wdm.h)
 description: The MmAllocateMappingAddress routine reserves a range of system virtual address space of the specified size.
 old-location: kernel\mmallocatemappingaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateMappingAddress
+- MmAllocateMappingAddress
 product:
 - Windows
 targetos: Windows

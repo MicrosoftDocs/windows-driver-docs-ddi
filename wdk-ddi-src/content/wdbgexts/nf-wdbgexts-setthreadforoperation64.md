@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.SetThreadForOperation64
-title: SetThreadForOperation64 function
+title: SetThreadForOperation64 function (wdbgexts.h)
 description: The SetThreadForOperation64 function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	SetThreadForOperation64
+- SetThreadForOperation64
 product:
 - Windows
 targetos: Windows

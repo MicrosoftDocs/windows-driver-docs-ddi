@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_REASON
-title: "_WWAN_MODEM_CONFIG_REASON"
+title: _WWAN_MODEM_CONFIG_REASON (wwan.h)
 description: The WWAN_MODEM_CONFIG_REASON enumeration lists definitions for reasons why a modem's configuration state change was triggered.
 old-location: netvista\wwan_modem_config_reason.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_MODEM_CONFIG_REASON
+- WWAN_MODEM_CONFIG_REASON
 product:
 - Windows
 targetos: Windows

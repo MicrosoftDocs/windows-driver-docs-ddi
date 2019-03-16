@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_SERIAL_NUMBER
-title: IOCTL_AACS_READ_SERIAL_NUMBER
+title: IOCTL_AACS_READ_SERIAL_NUMBER (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS)-specific prerecorded media serial number.
 old-location: storage\ioctl_aacs_read_serial_number.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_READ_SERIAL_NUMBER
+- IOCTL_AACS_READ_SERIAL_NUMBER
 product:
 - Windows
 targetos: Windows

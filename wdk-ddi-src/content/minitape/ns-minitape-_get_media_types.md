@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._GET_MEDIA_TYPES
-title: "_GET_MEDIA_TYPES"
+title: _GET_MEDIA_TYPES (minitape.h)
 description: The GET_MEDIA_TYPES structure is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to retrieve information about the types of media supported by a device.
 old-location: storage\get_media_types.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	GET_MEDIA_TYPES
+- GET_MEDIA_TYPES
 product:
 - Windows
 targetos: Windows

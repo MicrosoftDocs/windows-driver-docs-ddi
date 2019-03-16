@@ -1,6 +1,6 @@
 ---
 UID: NS:mountdev._MOUNTDEV_SUGGESTED_LINK_NAME
-title: "_MOUNTDEV_SUGGESTED_LINK_NAME"
+title: _MOUNTDEV_SUGGESTED_LINK_NAME (mountdev.h)
 description: Mount manager clients that are able to keep track of their drive letters use this structure to request that the mount manager assign them a particular link name.
 old-location: storage\mountdev_suggested_link_name.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountdev.h
+- mountdev.h
 api_name:
--	MOUNTDEV_SUGGESTED_LINK_NAME
+- MOUNTDEV_SUGGESTED_LINK_NAME
 product:
 - Windows
 targetos: Windows

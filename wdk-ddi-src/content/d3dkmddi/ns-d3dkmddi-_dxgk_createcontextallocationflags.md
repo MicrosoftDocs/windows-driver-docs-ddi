@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATECONTEXTALLOCATIONFLAGS
-title: "_DXGK_CREATECONTEXTALLOCATIONFLAGS"
+title: _DXGK_CREATECONTEXTALLOCATIONFLAGS (d3dkmddi.h)
 description: Specifies the properties of the context to be allocated.
 old-location: display\dxgk_createcontextallocationflags.htm
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_CREATECONTEXTALLOCATIONFLAGS
+- DXGK_CREATECONTEXTALLOCATIONFLAGS
 product:
 - Windows
 targetos: Windows

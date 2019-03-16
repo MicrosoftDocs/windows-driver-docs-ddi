@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetDodIndirectSwapchain
-title: D3DKMTSetDodIndirectSwapchain function
+title: D3DKMTSetDodIndirectSwapchain function (d3dkmthk.h)
 description: Sets indirect swap chain resources.
 ms.assetid: 56978aab-ffe8-4f72-b702-1106de3698e7
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSetDodIndirectSwapchain
+- D3DKMTSetDodIndirectSwapchain
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

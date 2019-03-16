@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_IsInterfaceVersionSupported
-title: USBD_IsInterfaceVersionSupported function
+title: USBD_IsInterfaceVersionSupported function (usbdlib.h)
 description: The USBD_IsInterfaceVersionSupported routine is called by a USB client driver to check whether the underlying USB driver stack supports a particular USBD interface version.
 old-location: buses\usbd_isusbdinterfaceversionsupported.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_IsInterfaceVersionSupported
+- USBD_IsInterfaceVersionSupported
 product:
 - Windows
 targetos: Windows

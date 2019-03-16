@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAcquireKeyedMutex
-title: D3DKMTAcquireKeyedMutex function
+title: D3DKMTAcquireKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object.
 old-location: display\d3dkmtacquirekeyedmutex.htm
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTAcquireKeyedMutex
+- D3DKMTAcquireKeyedMutex
 product:
 - Windows
 targetos: Windows

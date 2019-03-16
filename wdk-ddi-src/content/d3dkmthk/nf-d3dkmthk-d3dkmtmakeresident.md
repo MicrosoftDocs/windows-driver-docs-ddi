@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTMakeResident
-title: D3DKMTMakeResident function
+title: D3DKMTMakeResident function (d3dkmthk.h)
 description: D3DKMTMakeResident is used to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\d3dkmtmakeresident.htm
 ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTMakeResident
+- D3DKMTMakeResident
 product:
 - Windows
 targetos: Windows

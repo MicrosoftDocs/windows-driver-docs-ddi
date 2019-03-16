@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICE_IDS
-title: _D3DKMT_DEVICE_IDS
+title: _D3DKMT_DEVICE_IDS (d3dkmthk.h)
 description: Contains device ID information.
 ms.assetid: ae19e476-9262-4d73-b454-caee9322ed83
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DEVICE_IDS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEVICE_IDS
+- _D3DKMT_DEVICE_IDS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

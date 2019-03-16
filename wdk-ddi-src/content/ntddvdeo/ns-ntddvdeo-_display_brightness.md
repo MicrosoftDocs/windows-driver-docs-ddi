@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._DISPLAY_BRIGHTNESS
-title: "_DISPLAY_BRIGHTNESS"
+title: _DISPLAY_BRIGHTNESS (ntddvdeo.h)
 description: The DISPLAY_BRIGHTNESS structure is reserved for system use.
 old-location: display\display_brightness.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	DISPLAY_BRIGHTNESS
+- DISPLAY_BRIGHTNESS
 product:
 - Windows
 targetos: Windows

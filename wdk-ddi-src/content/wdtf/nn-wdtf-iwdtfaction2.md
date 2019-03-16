@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFAction2
-title: IWDTFAction2
+title: IWDTFAction2 (wdtf.h)
 description: Defines operations and properties that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iwdtfaction2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFAction2
+- IWDTFAction2
 product:
 - Windows
 targetos: Windows

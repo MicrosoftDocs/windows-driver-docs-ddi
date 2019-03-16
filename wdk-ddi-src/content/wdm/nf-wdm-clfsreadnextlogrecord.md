@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsReadNextLogRecord
-title: ClfsReadNextLogRecord function
+title: ClfsReadNextLogRecord function (wdm.h)
 description: The ClfsReadNextLogRecord routine reads the next record in a sequence, relative to the current record in a read context.
 old-location: kernel\clfsreadnextlogrecord.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsReadNextLogRecord
+- ClfsReadNextLogRecord
 product:
 - Windows
 targetos: Windows

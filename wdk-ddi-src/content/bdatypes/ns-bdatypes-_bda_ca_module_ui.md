@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CA_MODULE_UI
-title: "_BDA_CA_MODULE_UI"
+title: _BDA_CA_MODULE_UI (bdatypes.h)
 description: The BDA_CA_MODULE_UI structure describes the user interface (UI) that conditional access (CA) plugins can display.
 old-location: stream\bda_ca_module_ui.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDA_CA_MODULE_UI
+- BDA_CA_MODULE_UI
 product:
 - Windows
 targetos: Windows

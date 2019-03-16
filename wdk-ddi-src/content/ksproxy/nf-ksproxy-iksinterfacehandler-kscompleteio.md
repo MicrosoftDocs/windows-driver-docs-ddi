@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsInterfaceHandler.KsCompleteIo
-title: IKsInterfaceHandler::KsCompleteIo
+title: IKsInterfaceHandler::KsCompleteIo (ksproxy.h)
 description: The KsCompleteIo method cleans up extended headers and releases media samples after input and output (I/O) complete.
 old-location: stream\iksinterfacehandler_kscompleteio.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsInterfaceHandler.KsCompleteIo
+- IKsInterfaceHandler.KsCompleteIo
 product:
 - Windows
 targetos: Windows

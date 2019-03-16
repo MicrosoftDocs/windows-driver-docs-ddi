@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_WAIT_ON_DEVICE_EVENT
-title: IOCTL_WAIT_ON_DEVICE_EVENT
+title: IOCTL_WAIT_ON_DEVICE_EVENT (usbscan.h)
 description: Returns information about an event occurring on a USB interrupt pipe.
 old-location: image\ioctl_wait_on_device_event.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_WAIT_ON_DEVICE_EVENT
+- IOCTL_WAIT_ON_DEVICE_EVENT
 product:
 - Windows
 targetos: Windows

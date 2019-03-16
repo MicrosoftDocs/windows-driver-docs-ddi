@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusData
-title: "_DXVA_COPPStatusData"
+title: _DXVA_COPPStatusData (dxva.h)
 description: The DXVA_COPPStatusData structure contains the status information returned from a query on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_COPPStatusData
+- DXVA_COPPStatusData
 product:
 - Windows
 targetos: Windows

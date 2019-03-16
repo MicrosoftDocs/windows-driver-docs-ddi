@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyWriteEx
-title: CcCopyWriteEx function
+title: CcCopyWriteEx function (ntifs.h)
 description: The CcCopyWriteEx routine copies data from a user buffer to a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\cccopywriteex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcCopyWriteEx
+- CcCopyWriteEx
 product:
 - Windows
 targetos: Windows

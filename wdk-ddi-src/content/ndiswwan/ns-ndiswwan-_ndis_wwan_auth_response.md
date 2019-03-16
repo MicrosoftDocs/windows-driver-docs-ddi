@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_AUTH_RESPONSE
-title: "_NDIS_WWAN_AUTH_RESPONSE"
+title: _NDIS_WWAN_AUTH_RESPONSE (ndiswwan.h)
 description: The NDIS_WWAN_AUTH_RESPONSE structure represents a response from one of the authentication methods.
 old-location: netvista\ndis_wwan_auth_response.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_AUTH_RESPONSE
+- NDIS_WWAN_AUTH_RESPONSE
 product:
 - Windows
 targetos: Windows

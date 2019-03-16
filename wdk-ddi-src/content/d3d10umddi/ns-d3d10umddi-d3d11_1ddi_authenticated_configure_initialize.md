@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE (d3d10umddi.h)
 description: Contains input data for a call to the ConfigureAuthenticatedChannel(D3D11_1) function when D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureType has a GUID value of D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE.
 old-location: display\d3d11_1ddi_authenticated_configure_initialize.htm
 ms.assetid: 7a087c7b-3ce7-4054-9880-9940ce589fa4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
+- D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE
 product:
 - Windows
 targetos: Windows

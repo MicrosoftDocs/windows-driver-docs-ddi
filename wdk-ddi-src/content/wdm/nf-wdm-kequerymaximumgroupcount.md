@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryMaximumGroupCount
-title: KeQueryMaximumGroupCount function
+title: KeQueryMaximumGroupCount function (wdm.h)
 description: The KeQueryMaximumGroupCount routine returns the maximum number of groups in a multiprocessor system.
 old-location: kernel\kequerymaximumgroupcount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryMaximumGroupCount
+- KeQueryMaximumGroupCount
 product:
 - Windows
 targetos: Windows

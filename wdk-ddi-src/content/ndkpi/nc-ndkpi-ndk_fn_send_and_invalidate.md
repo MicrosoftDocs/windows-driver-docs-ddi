@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SEND_AND_INVALIDATE
-title: NDK_FN_SEND_AND_INVALIDATE
+title: NDK_FN_SEND_AND_INVALIDATE (ndkpi.h)
 description: The NdkSendAndInvalidate (NDK_FN_SEND_AND_INVALIDATE) function posts a send request on an NDK queue pair (QP) and supplies a token to be invalidated at the remote peer upon receive completion.
 old-location: netvista\ndk_fn_send_and_invalidate.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_FN_SEND_AND_INVALIDATE
+- NDK_FN_SEND_AND_INVALIDATE
 product:
 - Windows
 targetos: Windows

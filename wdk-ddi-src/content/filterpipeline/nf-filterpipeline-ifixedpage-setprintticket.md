@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.SetPrintTicket
-title: IFixedPage::SetPrintTicket
+title: IFixedPage::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method associates a print ticket with the page.
 old-location: print\ifixedpage_setprintticket.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage.SetPrintTicket
+- IFixedPage.SetPrintTicket
 product:
 - Windows
 targetos: Windows

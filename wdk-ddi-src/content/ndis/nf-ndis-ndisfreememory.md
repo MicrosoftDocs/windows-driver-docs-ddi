@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMemory
-title: NdisFreeMemory function
+title: NdisFreeMemory function (ndis.h)
 description: The NdisFreeMemory function releases a block of memory that was previously allocated with the NdisAllocateMemoryWithTagPriority function.
 old-location: netvista\ndisfreememory.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeMemory
+- NdisFreeMemory
 product:
 - Windows
 targetos: Windows

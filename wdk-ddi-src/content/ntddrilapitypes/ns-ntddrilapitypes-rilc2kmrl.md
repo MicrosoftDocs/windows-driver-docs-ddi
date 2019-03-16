@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILC2KMRL
-title: RILC2KMRL
+title: RILC2KMRL (ntddrilapitypes.h)
 description: This structure represents a RILC2KMRL.
 old-location: netvista\rilc2kmrl.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILC2KMRL
+- RILC2KMRL
 product:
 - Windows
 targetos: Windows

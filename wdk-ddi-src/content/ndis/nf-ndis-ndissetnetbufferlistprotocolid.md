@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetNetBufferListProtocolId
-title: NdisSetNetBufferListProtocolId macro
+title: NdisSetNetBufferListProtocolId macro (ndis.h)
 description: The NdisSetNetBufferListProtocolId macro sets the protocol identifier in the NetBufferListInfo member of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: e2af0fa5-6f94-4406-a5c9-20f114316d6d
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NdisSetNetBufferListProtocolId
+- NdisSetNetBufferListProtocolId
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

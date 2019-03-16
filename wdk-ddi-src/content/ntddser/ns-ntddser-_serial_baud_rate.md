@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_BAUD_RATE
-title: "_SERIAL_BAUD_RATE"
+title: _SERIAL_BAUD_RATE (ntddser.h)
 description: The SERIAL_BAUD_RATE structure specifies the baud rate at which a serial port is currently configured to transmit and receive data.
 old-location: serports\serial_baud_rate.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	SERIAL_BAUD_RATE
+- SERIAL_BAUD_RATE
 product:
 - Windows
 targetos: Windows

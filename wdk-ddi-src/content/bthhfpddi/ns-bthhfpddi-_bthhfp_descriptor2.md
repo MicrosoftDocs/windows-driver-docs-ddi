@@ -1,6 +1,6 @@
 ---
 UID: NS:bthhfpddi._BTHHFP_DESCRIPTOR2
-title: "_BTHHFP_DESCRIPTOR2"
+title: _BTHHFP_DESCRIPTOR2 (bthhfpddi.h)
 description: The BTHHFP_DESCRIPTOR2 data structure stores information describing a paired Handsfree profile (HFP) device.
 old-location: audio\bthhfp_descriptor2.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	BTHHFP_DESCRIPTOR2
+- BTHHFP_DESCRIPTOR2
 product:
 - Windows
 targetos: Windows

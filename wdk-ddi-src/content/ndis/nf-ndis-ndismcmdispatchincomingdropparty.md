@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchIncomingDropParty
-title: NdisMCmDispatchIncomingDropParty macro
+title: NdisMCmDispatchIncomingDropParty macro (ndis.h)
 description: NdisMCmDispatchIncomingDropParty notifies a client that it should remove a particular party on a multipoint VC.
 old-location: netvista\ndismcmdispatchincomingdropparty.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmDispatchIncomingDropParty
+- NdisMCmDispatchIncomingDropParty
 product:
 - Windows
 targetos: Windows

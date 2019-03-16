@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO8
-title: "_GET_LOCAL_HOST_INFO8"
+title: _GET_LOCAL_HOST_INFO8 (1394.h)
 description: The GET_LOCAL_HOST_INFO8 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request with u.GetLocalHostInformation.nLevel set to GET_HOST_DDI_VERSION.
 old-location: ieee\get_local_host_info8.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	GET_LOCAL_HOST_INFO8
+- GET_LOCAL_HOST_INFO8
 product:
 - Windows
 targetos: Windows

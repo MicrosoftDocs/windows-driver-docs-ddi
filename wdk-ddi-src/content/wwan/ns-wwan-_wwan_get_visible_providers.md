@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GET_VISIBLE_PROVIDERS
-title: "_WWAN_GET_VISIBLE_PROVIDERS"
+title: _WWAN_GET_VISIBLE_PROVIDERS (wwan.h)
 description: The WWAN_GET_VISIBLE_PROVIDERS structure provides information about the type of visible providers to return.
 old-location: netvista\wwan_get_visible_providers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_GET_VISIBLE_PROVIDERS
+- WWAN_GET_VISIBLE_PROVIDERS
 product:
 - Windows
 targetos: Windows

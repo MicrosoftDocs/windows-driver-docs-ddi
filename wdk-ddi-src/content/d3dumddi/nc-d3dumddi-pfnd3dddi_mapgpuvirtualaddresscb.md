@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAPGPUVIRTUALADDRESSCB
-title: PFND3DDDI_MAPGPUVIRTUALADDRESSCB
+title: PFND3DDDI_MAPGPUVIRTUALADDRESSCB (d3dumddi.h)
 description: pfnMapGpuVirtualAddressCb maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 old-location: display\pfnmapgpuvirtualaddresscb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnMapGpuVirtualAddressCb
+- pfnMapGpuVirtualAddressCb
 product:
 - Windows
 targetos: Windows

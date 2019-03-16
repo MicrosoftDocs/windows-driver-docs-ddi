@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintJobCollection
-title: IPrintJobCollection
+title: IPrintJobCollection (printerextension.h)
 description: This interfaces provides an enumeration of the jobs in the print queue.
 old-location: print\iprintjobcollection.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJobCollection
+- IPrintJobCollection
 product:
 - Windows
 targetos: Windows

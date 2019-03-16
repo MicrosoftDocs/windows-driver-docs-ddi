@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_FLUSH
-title: NDK_FN_FLUSH
+title: NDK_FN_FLUSH (ndkpi.h)
 description: The NdkFlush (NDK_FN_FLUSH) function initiates cancelling of the receive and the initiator queue requests that are currently pending on an NDK queue pair (QP) object.
 old-location: netvista\ndk_fn_flush.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkFlush
+- NdkFlush
 product:
 - Windows
 targetos: Windows

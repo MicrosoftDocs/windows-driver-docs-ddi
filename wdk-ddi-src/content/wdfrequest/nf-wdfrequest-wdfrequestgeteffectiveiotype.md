@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetEffectiveIoType
-title: WdfRequestGetEffectiveIoType function
+title: WdfRequestGetEffectiveIoType function (wdfrequest.h)
 description: The WdfRequestGetEffectiveIoType method returns the buffer access method that UMDF is using for the data buffers of the specified I/O request.
 old-location: wdf\wdfrequestgeteffectiveiotype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfRequestGetEffectiveIoType
+- WdfRequestGetEffectiveIoType
 product:
 - Windows
 targetos: Windows

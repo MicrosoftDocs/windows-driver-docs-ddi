@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.WheaGetErrPacketFromErrRecord
-title: WheaGetErrPacketFromErrRecord function
+title: WheaGetErrPacketFromErrRecord function (ntddk.h)
 description: The WheaGetErrPacketFromErrRecord function returns a pointer to the hardware error packet that is contained within a WHEA error record. The hardware error packet is formatted as a WHEA_ERROR_PACKET structure.
 old-location: whea\wheageterrpacketfromerrrecord.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WheaGetErrPacketFromErrRecord
+- WheaGetErrPacketFromErrRecord
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_OTHER
-title: EVT_SPB_CONTROLLER_OTHER
+title: EVT_SPB_CONTROLLER_OTHER (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoOther event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
 old-location: spb\evtspbcontrollerioother.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	EvtSpbControllerIoOther
+- EvtSpbControllerIoOther
 product:
 - Windows
 targetos: Windows

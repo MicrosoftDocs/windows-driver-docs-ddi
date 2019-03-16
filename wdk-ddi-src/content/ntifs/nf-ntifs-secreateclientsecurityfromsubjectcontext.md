@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeCreateClientSecurityFromSubjectContext
-title: SeCreateClientSecurityFromSubjectContext function
+title: SeCreateClientSecurityFromSubjectContext function (ntifs.h)
 description: The SeCreateClientSecurityFromSubjectContext routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurityfromsubjectcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeCreateClientSecurityFromSubjectContext
+- SeCreateClientSecurityFromSubjectContext
 product:
 - Windows
 targetos: Windows

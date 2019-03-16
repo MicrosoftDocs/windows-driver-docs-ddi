@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_0
-title: GNSS_DRIVERCOMMAND_TYPE
+title: GNSS_DRIVERCOMMAND_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the GNSS_DRIVERCOMMAND_PARAM structure.
 old-location: gnss\gnss_drivercommand_type.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_DRIVERCOMMAND_TYPE
+- GNSS_DRIVERCOMMAND_TYPE
 product:
 - Windows
 targetos: Windows

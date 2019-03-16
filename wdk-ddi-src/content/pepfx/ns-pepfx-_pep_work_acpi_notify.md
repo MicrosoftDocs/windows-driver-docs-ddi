@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_WORK_ACPI_NOTIFY
-title: "_PEP_WORK_ACPI_NOTIFY"
+title: _PEP_WORK_ACPI_NOTIFY (pepfx.h)
 description: The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event.
 old-location: kernel\pep_work_acpi_notify.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_WORK_ACPI_NOTIFY
+- PEP_WORK_ACPI_NOTIFY
 product:
 - Windows
 targetos: Windows

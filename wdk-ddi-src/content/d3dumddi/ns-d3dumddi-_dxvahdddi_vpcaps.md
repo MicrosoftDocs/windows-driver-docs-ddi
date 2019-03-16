@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPCAPS
-title: "_DXVAHDDDI_VPCAPS"
+title: _DXVAHDDDI_VPCAPS (d3dumddi.h)
 description: Describes a video processor and its capabilities.
 old-location: display\dxvahdddi_vpcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_VPCAPS
+- DXVAHDDDI_VPCAPS
 product:
 - Windows
 targetos: Windows

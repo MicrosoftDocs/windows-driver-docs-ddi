@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_3
-title: KSP_NODE
+title: KSP_NODE (ks.h)
 description: Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
 old-location: stream\ksp_node.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSP_NODE
+- KSP_NODE
 product:
 - Windows
 targetos: Windows

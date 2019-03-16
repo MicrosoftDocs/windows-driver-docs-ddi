@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetTransferParameters
-title: SpbRequestGetTransferParameters function
+title: SpbRequestGetTransferParameters function (spbcx.h)
 description: The SpbRequestGetTransferParameters method retrieves the transfer parameters for an individual transfer in an I/O transfer sequence.
 old-location: spb\spbrequestgettransferparameters.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbRequestGetTransferParameters
+- SpbRequestGetTransferParameters
 product:
 - Windows
 targetos: Windows

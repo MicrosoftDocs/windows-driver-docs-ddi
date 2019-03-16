@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeFlushQueuedDpcs
-title: KeFlushQueuedDpcs function
+title: KeFlushQueuedDpcs function (wdm.h)
 description: The KeFlushQueuedDpcs routine returns after all queued DPCs on all processors have executed.
 old-location: kernel\keflushqueueddpcs.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeFlushQueuedDpcs
+- KeFlushQueuedDpcs
 product:
 - Windows
 targetos: Windows

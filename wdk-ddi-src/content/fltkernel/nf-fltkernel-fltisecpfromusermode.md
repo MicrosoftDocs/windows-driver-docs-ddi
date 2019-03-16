@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsEcpFromUserMode
-title: FltIsEcpFromUserMode function
+title: FltIsEcpFromUserMode function (fltkernel.h)
 description: The FltIsEcpFromUserMode routine is used to determine if an extra create parameter context structure (ECP) originated from user mode.
 old-location: ifsk\fltisecpfromusermode.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltIsEcpFromUserMode
+- FltIsEcpFromUserMode
 product:
 - Windows
 targetos: Windows

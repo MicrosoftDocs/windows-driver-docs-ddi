@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoRegisterBootDriverCallback
-title: IoRegisterBootDriverCallback function
+title: IoRegisterBootDriverCallback function (ntddk.h)
 description: The IoRegisterBootDriverCallback routine registers a BOOT_DRIVER_CALLBACK_FUNCTION routine to be called during the initialization of a boot-start driver and its dependent DLLs.
 old-location: kernel\ioregisterbootdrivercallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterBootDriverCallback
+- IoRegisterBootDriverCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmucsippmrequests.IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
-title: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
+title: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK (ucmucsippmrequests.h)
 tech.root: usbref
 description: 
 ms.assetid: 8572406b-0348-4b9b-bd82-6f3d88b733ed
@@ -19,14 +19,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
-product: Windows
+- IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

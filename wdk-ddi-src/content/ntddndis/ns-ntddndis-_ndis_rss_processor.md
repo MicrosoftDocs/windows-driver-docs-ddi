@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_PROCESSOR
-title: "_NDIS_RSS_PROCESSOR"
+title: _NDIS_RSS_PROCESSOR (ntddndis.h)
 description: The NDIS_RSS_PROCESSOR structure specifies information about a processor in the local computer for receive side scaling (RSS).
 old-location: netvista\ndis_rss_processor.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_RSS_PROCESSOR
+- NDIS_RSS_PROCESSOR
 product:
 - Windows
 targetos: Windows

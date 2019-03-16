@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME
-title: PUSB_BUSIFFN_QUERY_BUS_TIME
+title: PUSB_BUSIFFN_QUERY_BUS_TIME (usbbusif.h)
 description: The QueryBusTime function gets the current 32-bit USB frame number.
 old-location: buses\querybustime.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	QueryBusTime
+- QueryBusTime
 product:
 - Windows
 targetos: Windows

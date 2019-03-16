@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
-title: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+title: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES (d3dkmddi.h)
 description: Arguments used to set up or modify the scheduling properties for a device context.
 ms.assetid: 907e8775-b899-406f-b104-7b5308f7f177
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
+- _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

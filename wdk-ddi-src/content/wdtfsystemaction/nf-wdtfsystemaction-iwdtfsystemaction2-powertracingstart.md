@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.PowerTracingStart
-title: IWDTFSystemAction2::PowerTracingStart
+title: IWDTFSystemAction2::PowerTracingStart (wdtfsystemaction.h)
 description: Starts a trace session for power state transitions and saves the trace message file (Wdtfpwr.etl) in the current working directory. This method is available starting with Windows 8.
 old-location: dtf\iwdtfsystemaction2_powertracingstart.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.PowerTracingStart
+- IWDTFSystemAction2.PowerTracingStart
 product:
 - Windows
 targetos: Windows

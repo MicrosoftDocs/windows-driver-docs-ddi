@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLogCcFlushError
-title: FsRtlLogCcFlushError function
+title: FsRtlLogCcFlushError function (ntifs.h)
 description: The FsRtlLogCcFlushError routine logs a lost delayed-write error and displays a dialog box to the user.
 old-location: ifsk\fsrtllogccflusherror.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlLogCcFlushError
+- FsRtlLogCcFlushError
 product:
 - Windows
 targetos: Windows

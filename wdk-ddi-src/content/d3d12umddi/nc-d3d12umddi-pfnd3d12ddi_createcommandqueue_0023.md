@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECOMMANDQUEUE_0023
-title: PFND3D12DDI_CREATECOMMANDQUEUE_0023
+title: PFND3D12DDI_CREATECOMMANDQUEUE_0023 (d3d12umddi.h)
 description: The pfnCreateCommandQueue callback function is used to create command queue.
 old-location: display\pfnd3d12ddi_createcommandqueue_0023.htm
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnCreateCommandQueue
+- pfnCreateCommandQueue
 product:
 - Windows
 targetos: Windows

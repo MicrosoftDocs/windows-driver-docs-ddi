@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY
-title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY
+title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY (d3d10umddi.h)
 description: Describes the video capabilities to query.
 old-location: display\d3dwddm2_0ddi_video_capability_query.htm
 ms.assetid: A8BA3FF9-A821-43ED-91CB-EECD0ABA0954
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY
+- D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY
 product:
 - Windows
 targetos: Windows

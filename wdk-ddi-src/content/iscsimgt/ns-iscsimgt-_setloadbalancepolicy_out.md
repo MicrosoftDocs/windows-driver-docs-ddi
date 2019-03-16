@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._SetLoadBalancePolicy_OUT
-title: "_SetLoadBalancePolicy_OUT"
+title: _SetLoadBalancePolicy_OUT (iscsimgt.h)
 description: The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	SetLoadBalancePolicy_OUT
+- SetLoadBalancePolicy_OUT
 product:
 - Windows
 targetos: Windows

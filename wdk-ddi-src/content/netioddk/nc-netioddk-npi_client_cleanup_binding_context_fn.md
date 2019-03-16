@@ -1,6 +1,6 @@
 ---
 UID: NC:netioddk.NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
-title: NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
+title: NPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN (netioddk.h)
 description: A client module's ClientCleanupBindingContext callback function performs any necessary cleanup and deallocation of the client module's binding context after the client module and a provider module have detached from one another.
 old-location: netvista\clientcleanupbindingcontext.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
+- PNPI_CLIENT_CLEANUP_BINDING_CONTEXT_FN
 product:
 - Windows
 targetos: Windows

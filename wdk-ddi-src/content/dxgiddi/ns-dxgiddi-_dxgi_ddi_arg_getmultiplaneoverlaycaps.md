@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
-title: "_DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS"
+title: _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS (dxgiddi.h)
 description: Used in a call to the pfnGetMultiPlaneOverlayCaps function to get overlay plane capabilities.
 old-location: display\dxgi_ddi_arg_getmultiplaneoverlaycaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
+- DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
 product:
 - Windows
 targetos: Windows

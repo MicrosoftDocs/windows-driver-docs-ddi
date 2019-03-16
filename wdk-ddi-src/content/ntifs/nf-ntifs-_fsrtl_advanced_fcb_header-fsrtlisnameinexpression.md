@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsNameInExpression
-title: FsRtlIsNameInExpression function
+title: FsRtlIsNameInExpression function (ntifs.h)
 description: The FsRtlIsNameInExpression routine determines whether a Unicode string matches the specified pattern.
 old-location: ifsk\fsrtlisnameinexpression.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsNameInExpression
+- FsRtlIsNameInExpression
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

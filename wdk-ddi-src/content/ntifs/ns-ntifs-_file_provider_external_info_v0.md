@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PROVIDER_EXTERNAL_INFO_V0
-title: "_FILE_PROVIDER_EXTERNAL_INFO_V0"
+title: _FILE_PROVIDER_EXTERNAL_INFO_V0 (ntifs.h)
 description: This structure may be altered or unavailable. Instead, use FILE_PROVIDER_EXTERNAL_INFO_V1.
 old-location: ifsk\file_provider_external_info_v0.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_PROVIDER_EXTERNAL_INFO_V0
+- FILE_PROVIDER_EXTERNAL_INFO_V0
 product:
 - Windows
 targetos: Windows

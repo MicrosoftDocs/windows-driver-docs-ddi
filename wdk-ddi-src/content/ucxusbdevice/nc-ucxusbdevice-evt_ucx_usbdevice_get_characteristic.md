@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
-title: EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
+title: EVT_UCX_USBDEVICE_GET_CHARACTERISTIC (ucxusbdevice.h)
 description: UCX invokes this callback to retrieve the device characteristics.
 old-location: buses\evt_ucx_usbdevice_get_characteristic.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
+- *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC
 product:
 - Windows
 targetos: Windows

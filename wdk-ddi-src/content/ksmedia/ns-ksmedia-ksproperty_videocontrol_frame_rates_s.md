@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_151
-title: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
+title: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_FRAME_RATES structure describes available frame rates in 100-nanosecond units.
 old-location: stream\ksproperty_videocontrol_frame_rates_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
+- KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
 product:
 - Windows
 targetos: Windows

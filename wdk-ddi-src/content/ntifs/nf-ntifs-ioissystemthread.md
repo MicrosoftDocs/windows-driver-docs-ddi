@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoIsSystemThread
-title: IoIsSystemThread function
+title: IoIsSystemThread function (ntifs.h)
 description: The IoIsSystemThread routine checks whether a given thread is a system thread.
 old-location: ifsk\ioissystemthread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIsSystemThread
+- IoIsSystemThread
 product:
 - Windows
 targetos: Windows

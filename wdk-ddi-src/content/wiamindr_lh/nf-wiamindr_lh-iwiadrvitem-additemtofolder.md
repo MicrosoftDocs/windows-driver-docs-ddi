@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.AddItemToFolder
-title: IWiaDrvItem::AddItemToFolder
+title: IWiaDrvItem::AddItemToFolder (wiamindr_lh.h)
 description: The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
 old-location: image\iwiadrvitem_additemtofolder.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.AddItemToFolder
+- IWiaDrvItem.AddItemToFolder
 product:
 - Windows
 targetos: Windows

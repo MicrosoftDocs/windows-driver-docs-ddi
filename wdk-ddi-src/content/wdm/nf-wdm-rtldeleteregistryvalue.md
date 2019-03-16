@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlDeleteRegistryValue
-title: RtlDeleteRegistryValue function
+title: RtlDeleteRegistryValue function (wdm.h)
 description: The RtlDeleteRegistryValue routine removes the specified entry name and the associated values from the registry along the given relative path.
 old-location: kernel\rtldeleteregistryvalue.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDeleteRegistryValue
+- RtlDeleteRegistryValue
 product:
 - Windows
 targetos: Windows

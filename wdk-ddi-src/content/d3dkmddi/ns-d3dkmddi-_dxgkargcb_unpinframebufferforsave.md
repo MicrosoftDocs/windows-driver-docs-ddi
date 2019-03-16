@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
-title: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
+title: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: Argument used by the DxgkcbUnpinFrameBufferForSave callback function to release the mapping that was set by DxgkcbPinFrameBufferForSave.
 ms.assetid: 56070ab5-2945-498b-8565-c3bf51488bb4
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
+- _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 product: 
 - Windows
 targetos: Windows

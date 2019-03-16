@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMSendPage
-title: OEMSendPage function
+title: OEMSendPage function (printoem.h)
 description: The OEMSendPage function is called by GDI when it has finished drawing a physical page, so that the driver can send the page to the printer.
 old-location: print\oemsendpage.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMSendPage
+- OEMSendPage
 product:
 - Windows
 targetos: Windows

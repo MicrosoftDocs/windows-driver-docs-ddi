@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_RESOURCE_FLAGS
-title: "_PEP_ACPI_RESOURCE_FLAGS"
+title: _PEP_ACPI_RESOURCE_FLAGS (pepfx.h)
 description: The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
 old-location: kernel\pep_acpi_resource_flags.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_RESOURCE_FLAGS
+- PEP_ACPI_RESOURCE_FLAGS
 product:
 - Windows
 targetos: Windows

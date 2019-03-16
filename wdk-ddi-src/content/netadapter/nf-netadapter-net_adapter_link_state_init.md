@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_LINK_STATE_INIT
-title: NET_ADAPTER_LINK_STATE_INIT function
+title: NET_ADAPTER_LINK_STATE_INIT function (netadapter.h)
 description: Initializes a NET_ADAPTER_LINK_STATE structure.
 tech.root: netvista
 ms.assetid: 6cb7595b-d33f-40fb-a1da-319b31bbeadc
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_STATE_INIT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_STATE_INIT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_STATE_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

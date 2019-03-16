@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.RemoveSymbolByIndex
-title: IDebugSymbolGroup2::RemoveSymbolByIndex
+title: IDebugSymbolGroup2::RemoveSymbolByIndex (dbgeng.h)
 description: The RemoveSymbolByIndex method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbyindex.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup.RemoveSymbolByIndex
--	IDebugSymbolGroup2.RemoveSymbolByIndex
+- IDebugSymbolGroup.RemoveSymbolByIndex
+- IDebugSymbolGroup2.RemoveSymbolByIndex
 product:
 - Windows
 targetos: Windows

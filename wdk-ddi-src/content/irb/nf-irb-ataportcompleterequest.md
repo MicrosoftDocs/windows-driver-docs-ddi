@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortCompleteRequest
-title: AtaPortCompleteRequest function
+title: AtaPortCompleteRequest function (irb.h)
 description: The AtaPortCompleteRequest routine completes the indicated IRB.
 old-location: storage\ataportcompleterequest.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortCompleteRequest
+- AtaPortCompleteRequest
 product:
 - Windows
 targetos: Windows

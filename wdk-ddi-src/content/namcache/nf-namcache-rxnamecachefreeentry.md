@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheFreeEntry
-title: RxNameCacheFreeEntry function
+title: RxNameCacheFreeEntry function (namcache.h)
 description: RxNameCacheFreeEntry releases the storage for a NAME_CACHE entry and decrements the count of the NAME_CACHE cache entries associated with a NAME_CACHE_CONTROL structure.
 old-location: ifsk\rxnamecachefreeentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheFreeEntry
+- RxNameCacheFreeEntry
 product:
 - Windows
 targetos: Windows

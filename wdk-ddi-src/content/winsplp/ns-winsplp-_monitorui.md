@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITORUI
-title: "_MONITORUI"
+title: _MONITORUI (winsplp.h)
 description: The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
 old-location: print\monitorui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	MONITORUI
+- MONITORUI
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
-title: "_IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO"
+title: _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO (ata.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\identify_device_data_log_page_zoned_device_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ata.h
+- Ata.h
 api_name:
--	IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
+- IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 product:
 - Windows
 targetos: Windows

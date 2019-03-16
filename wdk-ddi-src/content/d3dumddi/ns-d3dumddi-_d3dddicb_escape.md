@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_ESCAPE
-title: "_D3DDDICB_ESCAPE"
+title: _D3DDDICB_ESCAPE (d3dumddi.h)
 description: The D3DDDICB_ESCAPE structure describes information that a user-mode display driver shares with a display miniport driver.
 old-location: display\d3dddicb_escape.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_ESCAPE
+- D3DDDICB_ESCAPE
 product:
 - Windows
 targetos: Windows

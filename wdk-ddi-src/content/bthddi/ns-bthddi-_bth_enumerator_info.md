@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BTH_ENUMERATOR_INFO
-title: "_BTH_ENUMERATOR_INFO"
+title: _BTH_ENUMERATOR_INFO (bthddi.h)
 description: The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\bth_enumerator_info.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	BTH_ENUMERATOR_INFO
+- BTH_ENUMERATOR_INFO
 product:
 - Windows
 targetos: Windows

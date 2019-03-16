@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmGetInputLength
-title: DeviceDsmGetInputLength function
+title: DeviceDsmGetInputLength function (ntddstor.h)
 description: The DeviceDsmGetInputLength function gets the number of bytes in a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
 ms.date: 04/11/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmGetInputLength
+- DeviceDsmGetInputLength
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

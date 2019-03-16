@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocateExtraCreateParameterFromLookasideList
-title: FsRtlAllocateExtraCreateParameterFromLookasideList function
+title: FsRtlAllocateExtraCreateParameterFromLookasideList function (ntifs.h)
 description: The FsRtlAllocateExtraCreateParameterFromLookasideList routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure, and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameterfromlookasidelist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAllocateExtraCreateParameterFromLookasideList
+- FsRtlAllocateExtraCreateParameterFromLookasideList
 product:
 - Windows
 targetos: Windows

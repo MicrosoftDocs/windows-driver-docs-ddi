@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPI_STATE_FLAGS
-title: "_LPI_STATE_FLAGS"
+title: _LPI_STATE_FLAGS (acpitabl.h)
 description: Defines LPI state flags, either as a structure or as an integer.
 old-location: acpi\lpi_state_flags.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	LPI_STATE_FLAGS
+- LPI_STATE_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---

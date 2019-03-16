@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PEXECUTE_DMA
-title: PEXECUTE_DMA
+title: PEXECUTE_DMA (video.h)
 description: HwVidExecuteDma is a miniport driver-implemented callback routine that is responsible for retrieving physical address/length pairs from a scatter/gather list, and for programming the hardware to start the actual DMA transfer.
 old-location: display\hwvidexecutedma.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidExecuteDma
+- HwVidExecuteDma
 product:
 - Windows
 targetos: Windows

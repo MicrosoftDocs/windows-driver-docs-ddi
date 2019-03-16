@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeTimer
-title: IoInitializeTimer function
+title: IoInitializeTimer function (wdm.h)
 description: The IoInitializeTimer routine sets up a driver-supplied IoTimer routine associated with a given device object.
 old-location: kernel\ioinitializetimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInitializeTimer
+- IoInitializeTimer
 product:
 - Windows
 targetos: Windows

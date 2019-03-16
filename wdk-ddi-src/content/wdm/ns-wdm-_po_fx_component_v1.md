@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_V1
-title: "_PO_FX_COMPONENT_V1"
+title: _PO_FX_COMPONENT_V1 (wdm.h)
 description: The PO_FX_COMPONENT structure describes the power state attributes of a component in a device.
 old-location: kernel\po_fx_component.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PO_FX_COMPONENT_V2
+- PO_FX_COMPONENT_V2
 product:
 - Windows
 targetos: Windows

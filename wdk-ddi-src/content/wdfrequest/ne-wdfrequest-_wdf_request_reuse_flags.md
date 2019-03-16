@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_REUSE_FLAGS
-title: "_WDF_REQUEST_REUSE_FLAGS"
+title: _WDF_REQUEST_REUSE_FLAGS (wdfrequest.h)
 description: The WDF_REQUEST_REUSE_FLAGS enumeration type defines flags that are used in a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_flags.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_REUSE_FLAGS
+- WDF_REQUEST_REUSE_FLAGS
 product:
 - Windows
 targetos: Windows

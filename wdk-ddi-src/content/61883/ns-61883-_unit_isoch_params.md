@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._UNIT_ISOCH_PARAMS
-title: "_UNIT_ISOCH_PARAMS"
+title: _UNIT_ISOCH_PARAMS (61883.h)
 description: The UNIT_ISOCH_PARAMS structure is used to get or set the parameters that the IEC-61883 protocol driver uses when capturing or transmitting isochronous packets.
 old-location: ieee\unit_isoch_params.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	UNIT_ISOCH_PARAMS
+- UNIT_ISOCH_PARAMS
 product:
 - Windows
 targetos: Windows

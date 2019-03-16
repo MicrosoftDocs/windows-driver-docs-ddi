@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInsertElementGenericTableAvl
-title: RtlInsertElementGenericTableAvl function
+title: RtlInsertElementGenericTableAvl function (ntddk.h)
 description: The RtlInsertElementGenericTableAvl routine adds a new entry to a generic table.
 old-location: ifsk\rtlinsertelementgenerictableavl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInsertElementGenericTableAvl
+- RtlInsertElementGenericTableAvl
 product:
 - Windows
 targetos: Windows

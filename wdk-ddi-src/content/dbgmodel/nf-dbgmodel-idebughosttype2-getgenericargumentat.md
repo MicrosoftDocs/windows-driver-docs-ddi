@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetGenericArgumentAt
-title: IDebugHostType2::GetGenericArgumentAt
+title: IDebugHostType2::GetGenericArgumentAt (dbgmodel.h)
 description: For the "i"-th generic argument to the generic/template, this returns a new IDebugHostSymbol  which represents that argument.
 ms.assetid: 8038e101-f14b-4762-8deb-6acdc0fe28cc
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetGenericArgumentAt
-product: Windows
+- IDebugHostType2.GetGenericArgumentAt
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

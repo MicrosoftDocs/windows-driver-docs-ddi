@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
-title: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
+title: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE (pointofservicedriverinterface.h)
 description: This I/O control function deauthenticates the magnetic stripe reader (MSR).
 old-location: pos\ioctl_point_of_service_msr_deauthenticate_device.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
+- IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
 product:
 - Windows
 targetos: Windows

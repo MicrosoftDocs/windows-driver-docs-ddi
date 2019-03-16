@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_OPTION
-title: _D3DKMT_ADAPTER_VERIFIER_OPTION
+title: _D3DKMT_ADAPTER_VERIFIER_OPTION (d3dkmthk.h)
 description: The adapter verifier options.
 ms.assetid: 64629e1e-ac9d-4a3a-a298-d45c14dbce7f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ADAPTER_VERIFIER_OPTION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ADAPTER_VERIFIER_OPTION
+- _D3DKMT_ADAPTER_VERIFIER_OPTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
-title: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro
+title: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro (ntddndis.h)
 description: The NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro gets the hash type from the hash information.
 tech.root: netvista
 ms.assetid: 348687af-4632-4dad-a62a-0bc4e4c62415
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
+- NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

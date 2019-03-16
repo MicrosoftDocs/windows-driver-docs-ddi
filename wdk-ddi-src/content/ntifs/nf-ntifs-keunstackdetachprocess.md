@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeUnstackDetachProcess
-title: KeUnstackDetachProcess function
+title: KeUnstackDetachProcess function (ntifs.h)
 description: The KeUnstackDetachProcess routine detaches the current thread from the address space of a process and restores the previous attach state.
 old-location: ifsk\keunstackdetachprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeUnstackDetachProcess
+- KeUnstackDetachProcess
 product:
 - Windows
 targetos: Windows
@@ -117,7 +117,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

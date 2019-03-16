@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_81
-title: KSPROPERTY_SERIALHDR
+title: KSPROPERTY_SERIALHDR (ks.h)
 description: The format of the serialization buffer is a KSPROPERTY_SERIALHDR structure, followed by serialized properties.
 old-location: stream\ksproperty_serialhdr.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_SERIALHDR
+- KSPROPERTY_SERIALHDR
 product:
 - Windows
 targetos: Windows

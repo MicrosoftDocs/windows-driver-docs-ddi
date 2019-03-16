@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis.__unnamed_struct_0
-title: BINARY_DATA
+title: BINARY_DATA (ndis.h)
 description: The BINARY_DATA structure contains the binary data of a named entry in the registry.
 old-location: netvista\binary_data.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	BINARY_DATA
+- BINARY_DATA
 product:
 - Windows
 targetos: Windows

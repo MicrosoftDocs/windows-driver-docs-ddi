@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortFreeCommonBuffer
-title: VideoPortFreeCommonBuffer function
+title: VideoPortFreeCommonBuffer function (video.h)
 description: The VideoPortFreeCommonBuffer function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportfreecommonbuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortFreeCommonBuffer
+- VideoPortFreeCommonBuffer
 product:
 - Windows
 targetos: Windows

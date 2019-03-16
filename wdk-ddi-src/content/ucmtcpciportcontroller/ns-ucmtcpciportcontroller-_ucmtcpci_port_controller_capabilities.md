@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
-title: "_UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
+title: _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES (ucmtcpciportcontroller.h)
 description: Contains information about the capabilities of the port controller.
 old-location: buses\ucmtcpci_port_controller_capabilities.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
+- UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
 product:
 - Windows
 targetos: Windows

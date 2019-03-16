@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_DEVICERESET_NOTIFICATION
-title: IOCTL_HID_DEVICERESET_NOTIFICATION
+title: IOCTL_HID_DEVICERESET_NOTIFICATION (hidclass.h)
 description: The IOCTL_HID_DEVICERESET_NOTIFICATION request is sent by the HID client driver to HID class driver to wait for a device-initiated reset event.
 old-location: hid\ioctl_hid_devicereset_notification.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_DEVICERESET_NOTIFICATION
+- IOCTL_HID_DEVICERESET_NOTIFICATION
 product:
 - Windows
 targetos: Windows

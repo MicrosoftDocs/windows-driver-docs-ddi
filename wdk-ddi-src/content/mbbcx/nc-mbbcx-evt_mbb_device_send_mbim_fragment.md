@@ -1,6 +1,6 @@
 ---
 UID: NC:mbbcx.EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
-title: EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
+title: EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT (mbbcx.h)
 description: A client driver's EvtMbbDeviceSendMbimFragment event callabck function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the SendEncapsulatedCommand request defined in the MBIM specification.
 tech.root: netvista
 ms.assetid: 16a6dd6c-b8df-41a9-bb93-34ae1c085eb4
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
+- EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
 product:
 - Windows
 targetos: Windows

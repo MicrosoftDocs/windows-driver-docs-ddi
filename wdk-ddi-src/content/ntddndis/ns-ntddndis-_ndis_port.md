@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT
-title: "_NDIS_PORT"
+title: _NDIS_PORT (ntddndis.h)
 description: The NDIS_PORT structure specifies the characteristics of an NDIS port and a pointer to the next element in a linked list of ports.
 old-location: netvista\ndis_port.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PORT
+- NDIS_PORT
 product:
 - Windows
 targetos: Windows

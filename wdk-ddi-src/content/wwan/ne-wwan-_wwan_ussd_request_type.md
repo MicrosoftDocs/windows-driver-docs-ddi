@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_REQUEST_TYPE
-title: "_WWAN_USSD_REQUEST_TYPE"
+title: _WWAN_USSD_REQUEST_TYPE (wwan.h)
 description: The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) session requests.
 old-location: netvista\wwan_ussd_request_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_USSD_REQUEST_TYPE
+- WWAN_USSD_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

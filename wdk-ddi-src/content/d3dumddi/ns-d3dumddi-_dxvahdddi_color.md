@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR
-title: "_DXVAHDDDI_COLOR"
+title: _DXVAHDDDI_COLOR (d3dumddi.h)
 description: The DXVAHDDDI_COLOR union contains information that specifies color with either a YCbCr or RGB color structure.
 old-location: display\dxvahdddi_color.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_COLOR
+- DXVAHDDDI_COLOR
 product:
 - Windows
 targetos: Windows

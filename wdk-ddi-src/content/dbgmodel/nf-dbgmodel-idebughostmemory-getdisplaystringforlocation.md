@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.GetDisplayStringForLocation
-title: IDebugHostMemory::GetDisplayStringForLocation
+title: IDebugHostMemory::GetDisplayStringForLocation (dbgmodel.h)
 description: For a given location within the address space of the target as defined by context and location, convert the location to a displayable string.
 ms.assetid: c9b9c5d6-4c5f-49ea-949e-846ec4a8a874
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory.GetDisplayStringForLocation
-product: Windows
+- IDebugHostMemory.GetDisplayStringForLocation
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

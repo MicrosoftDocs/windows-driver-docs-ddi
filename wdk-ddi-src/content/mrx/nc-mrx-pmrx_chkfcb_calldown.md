@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CHKFCB_CALLDOWN
-title: PMRX_CHKFCB_CALLDOWN
+title: PMRX_CHKFCB_CALLDOWN (mrx.h)
 description: The MRxAreFilesAliased routine is called by RDBSS to request the network mini-redirector to determine if two FCB structures represent the same file.
 old-location: ifsk\mrxarefilesaliased.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxAreFilesAliased
+- MRxAreFilesAliased
 product:
 - Windows
 targetos: Windows

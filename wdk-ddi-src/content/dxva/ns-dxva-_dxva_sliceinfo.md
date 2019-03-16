@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_SliceInfo
-title: "_DXVA_SliceInfo"
+title: _DXVA_SliceInfo (dxva.h)
 description: The DXVA_SliceInfo structure is sent by the host decoder to the accelerator to specify the slice-level parameters of a slice of bitstream data for off-host bitstream compressed picture decoding.
 old-location: display\dxva_sliceinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_SliceInfo
+- DXVA_SliceInfo
 product:
 - Windows
 targetos: Windows

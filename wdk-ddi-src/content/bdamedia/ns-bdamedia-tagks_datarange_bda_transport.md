@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia.tagKS_DATARANGE_BDA_TRANSPORT
-title: tagKS_DATARANGE_BDA_TRANSPORT
+title: tagKS_DATARANGE_BDA_TRANSPORT (bdamedia.h)
 description: The KS_DATARANGE_BDA_TRANSPORT structure describes a range of data formats for a BDA transport stream.
 old-location: stream\ks_datarange_bda_transport.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdamedia.h
+- bdamedia.h
 api_name:
--	KS_DATARANGE_BDA_TRANSPORT
+- KS_DATARANGE_BDA_TRANSPORT
 product:
 - Windows
 targetos: Windows

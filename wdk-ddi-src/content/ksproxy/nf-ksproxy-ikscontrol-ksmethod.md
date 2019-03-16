@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsControl.KsMethod
-title: IKsControl::KsMethod
+title: IKsControl::KsMethod (ksproxy.h)
 description: The KsMethod method sends a method to a KS object, along with any other defined support operations available on a method set.
 old-location: stream\ikscontrol_ksmethod.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsControl.KsMethod
+- IKsControl.KsMethod
 product:
 - Windows
 targetos: Windows

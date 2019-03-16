@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortSetEvent
-title: VideoPortSetEvent function
+title: VideoPortSetEvent function (video.h)
 description: The VideoPortSetEvent function sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
 old-location: display\videoportsetevent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortSetEvent
+- VideoPortSetEvent
 product:
 - Windows
 targetos: Windows

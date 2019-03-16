@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKOCCLUSION
-title: PFND3DKMT_CHECKOCCLUSION
+title: PFND3DKMT_CHECKOCCLUSION (d3dkmthk.h)
 description: The D3DKMTCheckOcclusion function verifies whether the client area of a window is occluded.
 old-location: display\d3dkmtcheckocclusion.htm
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTCheckOcclusion
+- D3DKMTCheckOcclusion
 product:
 - Windows
 targetos: Windows

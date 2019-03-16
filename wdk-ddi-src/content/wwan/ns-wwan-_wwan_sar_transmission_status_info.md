@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SAR_TRANSMISSION_STATUS_INFO
-title: _WWAN_SAR_TRANSMISSION_STATUS_INFO
+title: _WWAN_SAR_TRANSMISSION_STATUS_INFO (wwan.h)
 description: The WWAN_SAR_TRANSMISSION_STATUS_INFO structure describes a mobile broadband (MBB) modem's Specific Absorption Rate (SAR) transmission status.
 tech.root: netvista
 ms.assetid: 6b7dfe0a-987f-48a3-80df-45f9c236c5c5
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_SAR_TRANSMISSION_STATUS_INFO, *PWWAN_SAR_TRANSMISSION_STATUS_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_TRANSMISSION_STATUS_INFO
+- _WWAN_SAR_TRANSMISSION_STATUS_INFO
 product:
 - Windows
 targetos: Windows

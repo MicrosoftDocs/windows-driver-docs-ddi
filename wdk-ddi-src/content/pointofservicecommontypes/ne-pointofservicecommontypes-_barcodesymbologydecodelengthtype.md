@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._BarcodeSymbologyDecodeLengthType
-title: "_BarcodeSymbologyDecodeLengthType"
+title: _BarcodeSymbologyDecodeLengthType (pointofservicecommontypes.h)
 description: The BarcodeSymbologyDecodeLengthType enum describes values for the decode length which can be set to support a range, two discrete values, or be set to any length.
 old-location: pos\barcodesymbologydecodelengthtype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	BarcodeSymbologyDecodeLengthType
+- BarcodeSymbologyDecodeLengthType
 product:
 - Windows
 targetos: Windows

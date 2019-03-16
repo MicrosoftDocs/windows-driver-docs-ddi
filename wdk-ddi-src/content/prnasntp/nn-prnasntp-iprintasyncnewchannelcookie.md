@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNewChannelCookie
-title: IPrintAsyncNewChannelCookie
+title: IPrintAsyncNewChannelCookie (prnasntp.h)
 description: 
 old-location: print\iprintasyncnewchannelcookie.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNewChannelCookie
+- IPrintAsyncNewChannelCookie
 product:
 - Windows
 targetos: Windows

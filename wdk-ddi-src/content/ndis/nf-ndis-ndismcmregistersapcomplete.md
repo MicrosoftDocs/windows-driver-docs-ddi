@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmRegisterSapComplete
-title: NdisMCmRegisterSapComplete macro
+title: NdisMCmRegisterSapComplete macro (ndis.h)
 description: NdisMCmRegisterSapComplete returns the final status of a client's request, for which the MCM driver's ProtocolCmRegisterSap function previously returned NDIS_STATUS_PENDING, to register a SAP.
 old-location: netvista\ndismcmregistersapcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmRegisterSapComplete
+- NdisMCmRegisterSapComplete
 product:
 - Windows
 targetos: Windows

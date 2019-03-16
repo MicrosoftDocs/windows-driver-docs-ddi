@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_QUERYGETDATA
-title: PFND3D10DDI_QUERYGETDATA
+title: PFND3D10DDI_QUERYGETDATA (d3d10umddi.h)
 description: The QueryGetData function polls for the state of a query operation.
 old-location: display\querygetdata.htm
 ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	QueryGetData
+- QueryGetData
 product:
 - Windows
 targetos: Windows

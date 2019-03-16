@@ -1,6 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_REGISTER_USHORT~r2
-title: WRITE_REGISTER_USHORT function
+title: WRITE_REGISTER_USHORT function (ioaccess.h)
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: kernel\write_register_ushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WRITE_REGISTER_USHORT
+- WRITE_REGISTER_USHORT
 product:
 - Windows
 targetos: Windows

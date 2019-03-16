@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILD
-title: "_ACPI_ENUM_CHILD"
+title: _ACPI_ENUM_CHILD (acpiioct.h)
 description: The ACPI_ENUM_CHILD structure is a member of the ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure and contains the full path and name of an object in an ACPI namespace.
 old-location: acpi\acpi_enum_child.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_ENUM_CHILD
+- ACPI_ENUM_CHILD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FS_FILTER_SECTION_SYNC_OUTPUT
-title: "_FS_FILTER_SECTION_SYNC_OUTPUT"
+title: _FS_FILTER_SECTION_SYNC_OUTPUT (ntifs.h)
 description: The FS_FILTER_SECTION_SYNC_OUTPUT structure contains information describing the attributes of the section that is being created.
 old-location: ifsk\fs_filter_section_sync_output_.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FS_FILTER_SECTION_SYNC_OUTPUT
+- FS_FILTER_SECTION_SYNC_OUTPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoIsOperationSynchronous
-title: IoIsOperationSynchronous function
+title: IoIsOperationSynchronous function (ntifs.h)
 description: The IoIsOperationSynchronous routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
 old-location: ifsk\ioisoperationsynchronous.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIsOperationSynchronous
+- IoIsOperationSynchronous
 product:
 - Windows
 targetos: Windows

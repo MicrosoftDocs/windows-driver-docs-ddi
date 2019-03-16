@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetLastEventInformation
-title: IDebugControl2::GetLastEventInformation
+title: IDebugControl2::GetLastEventInformation (dbgeng.h)
 description: The GetLastEventInformation method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformation.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetLastEventInformation
--	IDebugControl2.GetLastEventInformation
--	IDebugControl3.GetLastEventInformation
+- IDebugControl.GetLastEventInformation
+- IDebugControl2.GetLastEventInformation
+- IDebugControl3.GetLastEventInformation
 product:
 - Windows
 targetos: Windows

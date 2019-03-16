@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PCO_TYPE
-title: "_WWAN_PCO_TYPE"
+title: _WWAN_PCO_TYPE (wwan.h)
 description: The WWAN_PCO_TYPE enumeration indicates whether the header of a PCO structure is partial, meaning only a subset of the complete PCO value from the network is being passed up to the host.
 old-location: netvista\wwan_pco_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PCO_TYPE
+- WWAN_PCO_TYPE
 product:
 - Windows
 targetos: Windows

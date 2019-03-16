@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_CACHE_INFORMATION
-title: IOCTL_DISK_SET_CACHE_INFORMATION
+title: IOCTL_DISK_SET_CACHE_INFORMATION (ntdddisk.h)
 description: Sets disk cache configuration data.
 old-location: storage\ioctl_disk_set_cache_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_SET_CACHE_INFORMATION
+- IOCTL_DISK_SET_CACHE_INFORMATION
 product:
 - Windows
 targetos: Windows

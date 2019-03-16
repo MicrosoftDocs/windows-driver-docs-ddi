@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveDeviceQueue
-title: KeRemoveDeviceQueue function
+title: KeRemoveDeviceQueue function (wdm.h)
 description: The KeRemoveDeviceQueue routine removes an entry from the head of a specified device queue.
 old-location: kernel\keremovedevicequeue.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRemoveDeviceQueue
+- KeRemoveDeviceQueue
 product:
 - Windows
 targetos: Windows

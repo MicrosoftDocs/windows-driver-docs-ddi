@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaFilterFactoryUpdateCacheData
-title: BdaFilterFactoryUpdateCacheData function
+title: BdaFilterFactoryUpdateCacheData function (bdasup.h)
 description: The BdaFilterFactoryUpdateCacheData function updates the pin data cache for an instance of a filter.
 old-location: stream\bdafilterfactoryupdatecachedata.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaFilterFactoryUpdateCacheData
+- BdaFilterFactoryUpdateCacheData
 product:
 - Windows
 targetos: Windows

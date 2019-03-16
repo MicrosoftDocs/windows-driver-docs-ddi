@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_CORRECTABLE_ERROR_MASK
-title: "_PCI_EXPRESS_CORRECTABLE_ERROR_MASK"
+title: _PCI_EXPRESS_CORRECTABLE_ERROR_MASK (wdm.h)
 description: The PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) correctable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_correctable_error_mask.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_CORRECTABLE_ERROR_MASK
+- PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 product:
 - Windows
 targetos: Windows

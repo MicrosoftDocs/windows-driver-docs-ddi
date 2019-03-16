@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcPreparePinWrite
-title: CcPreparePinWrite function
+title: CcPreparePinWrite function (ntifs.h)
 description: The CcPreparePinWrite routine pins the specified byte range of a cached file for write access.
 old-location: ifsk\ccpreparepinwrite.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcPreparePinWrite
+- CcPreparePinWrite
 product:
 - Windows
 targetos: Windows

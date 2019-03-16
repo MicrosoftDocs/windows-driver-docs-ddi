@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENRESOURCE
-title: PFND3DKMT_OPENRESOURCE
+title: PFND3DKMT_OPENRESOURCE (d3dkmthk.h)
 description: Pfnd3dkmtOpenresource opens a shared resource.
 ms.assetid: 02623395-6774-457a-ab73-17e68216d812
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENRESOURCE
+- PFND3DKMT_OPENRESOURCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

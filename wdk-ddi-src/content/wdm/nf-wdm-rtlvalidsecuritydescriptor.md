@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlValidSecurityDescriptor
-title: RtlValidSecurityDescriptor function
+title: RtlValidSecurityDescriptor function (wdm.h)
 description: The RtlValidSecurityDescriptor routine checks a given security descriptor's validity.
 old-location: kernel\rtlvalidsecuritydescriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlValidSecurityDescriptor
+- RtlValidSecurityDescriptor
 product:
 - Windows
 targetos: Windows

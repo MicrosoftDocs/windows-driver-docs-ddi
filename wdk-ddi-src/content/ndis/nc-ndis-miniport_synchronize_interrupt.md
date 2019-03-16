@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_SYNCHRONIZE_INTERRUPT
-title: MINIPORT_SYNCHRONIZE_INTERRUPT
+title: MINIPORT_SYNCHRONIZE_INTERRUPT (ndis.h)
 description: A miniport driver must provide a MiniportSynchronizeInterrupt handler if any driver function that runs at less than DIRQL shares resources with the MiniportInterrupt function.
 old-location: netvista\miniportsynchronizeinterrupt.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
+- (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
 product:
 - Windows
 targetos: Windows

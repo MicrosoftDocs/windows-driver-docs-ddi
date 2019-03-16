@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.get_JobCopiesAllDocuments
-title: IPrintSchemaTicket::get_JobCopiesAllDocuments
+title: IPrintSchemaTicket::get_JobCopiesAllDocuments (printerextension.h)
 description: Gets the copy count.
 old-location: print\iprintschematicket_jobcopiesalldocuments.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaTicket.JobCopiesAllDocuments
--	IPrintSchemaTicket.get_JobCopiesAllDocuments
+- IPrintSchemaTicket.JobCopiesAllDocuments
+- IPrintSchemaTicket.get_JobCopiesAllDocuments
 product:
 - Windows
 targetos: Windows

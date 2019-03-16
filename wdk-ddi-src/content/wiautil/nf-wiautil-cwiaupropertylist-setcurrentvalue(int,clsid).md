@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,CLSID)
-title: CWiauPropertyList::SetCurrentValue(INT,CLSID)
+title: CWiauPropertyList::SetCurrentValue(INT,CLSID) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,CLSID) method sets the current value of a property of type CLSID, and sets its type to VT_CLSID.
 old-location: image\cwiaupropertylist_setcurrentvalue_clsid_.htm
 tech.root: image
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.SetCurrentValue
+- CWiauPropertyList.SetCurrentValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

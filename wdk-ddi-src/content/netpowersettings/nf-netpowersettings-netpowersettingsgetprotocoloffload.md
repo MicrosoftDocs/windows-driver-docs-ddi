@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetProtocolOffload
-title: NetPowerSettingsGetProtocolOffload function
+title: NetPowerSettingsGetProtocolOffload function (netpowersettings.h)
 description: Retrieves a structure that specifies parameters for a low power protocol offload to a network adapter.
 tech.root: netvista
 ms.assetid: 32c8e98b-8192-442a-8dca-fe97ea5a11bd
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetProtocolOffload
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetProtocolOffload
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

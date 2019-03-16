@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListInsertDescriptor
-title: WdfCmResourceListInsertDescriptor function
+title: WdfCmResourceListInsertDescriptor function (wdfresource.h)
 description: The WdfCmResourceListInsertDescriptor method inserts a resource descriptor into a specified resource list.
 old-location: wdf\wdfcmresourcelistinsertdescriptor.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCmResourceListInsertDescriptor
+- WdfCmResourceListInsertDescriptor
 product:
 - Windows
 targetos: Windows

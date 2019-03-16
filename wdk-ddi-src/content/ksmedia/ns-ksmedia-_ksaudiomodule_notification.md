@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_NOTIFICATION
-title: "_KSAUDIOMODULE_NOTIFICATION"
+title: _KSAUDIOMODULE_NOTIFICATION (ksmedia.h)
 description: The KSAUDIOMODULE_NOTIFICATION structure describes the properties associated with audio modules change notification.
 old-location: audio\ksaudiomodule_notification.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOMODULE_NOTIFICATION
+- KSAUDIOMODULE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

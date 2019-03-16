@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaAsyncOperationEvent
-title: IPrintSchemaAsyncOperationEvent
+title: IPrintSchemaAsyncOperationEvent (printerextension.h)
 description: Exposes a validation, merge, or commit completion event delegate.
 old-location: print\iprintschemaasyncoperationevent_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaAsyncOperationEvent
+- IPrintSchemaAsyncOperationEvent
 product:
 - Windows
 targetos: Windows

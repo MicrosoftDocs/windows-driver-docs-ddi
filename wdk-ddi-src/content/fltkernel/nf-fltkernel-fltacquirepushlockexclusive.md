@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAcquirePushLockExclusive
-title: FltAcquirePushLockExclusive macro
+title: FltAcquirePushLockExclusive macro (fltkernel.h)
 description: The FltAcquirePushLockExclusive routine acquires the given push lock for exclusive access by the calling thread.
 old-location: ifsk\fltacquirepushlockexclusive.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAcquirePushLockExclusive
+- FltAcquirePushLockExclusive
 product:
 - Windows
 targetos: Windows

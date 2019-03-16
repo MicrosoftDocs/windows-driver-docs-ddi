@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_ID_STRING
-title: "_USB_ID_STRING"
+title: _USB_ID_STRING (usbioctl.h)
 description: The USB_ID_STRING structure is used to store a string or multi-string.
 old-location: buses\usb_id_string.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_ID_STRING
+- USB_ID_STRING
 product:
 - Windows
 targetos: Windows

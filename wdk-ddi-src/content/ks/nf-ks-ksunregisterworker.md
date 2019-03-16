@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsUnregisterWorker
-title: KsUnregisterWorker function
+title: KsUnregisterWorker function (ks.h)
 description: The KsUnregisterWorker function allows clients to unregister a worker.
 old-location: stream\ksunregisterworker.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsUnregisterWorker
+- KsUnregisterWorker
 product:
 - Windows
 targetos: Windows

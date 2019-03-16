@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxSetTargetDripsDevicePowerState
-title: PoFxSetTargetDripsDevicePowerState function
+title: PoFxSetTargetDripsDevicePowerState function (wdm.h)
 description: This routine is called to notify the power manager of the device's target device power state for DRIPS. The driver can override the DRIPS constraint provided by the PEP.
 old-location: kernel\pofxsettargetdripsdevicepowerstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoFxSetTargetDripsDevicePowerState
+- PoFxSetTargetDripsDevicePowerState
 product:
 - Windows
 targetos: Windows

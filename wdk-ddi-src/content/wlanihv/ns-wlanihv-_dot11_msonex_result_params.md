@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11_MSONEX_RESULT_PARAMS
-title: "_DOT11_MSONEX_RESULT_PARAMS"
+title: _DOT11_MSONEX_RESULT_PARAMS (wlanihv.h)
 description: The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
 old-location: netvista\dot11_msonex_result_params.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	DOT11_MSONEX_RESULT_PARAMS
+- DOT11_MSONEX_RESULT_PARAMS
 product:
 - Windows
 targetos: Windows

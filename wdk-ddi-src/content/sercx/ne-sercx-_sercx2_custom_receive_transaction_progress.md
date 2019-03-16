@@ -1,6 +1,6 @@
 ---
 UID: NE:sercx._SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
-title: "_SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS"
+title: _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS (sercx.h)
 description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
 old-location: serports\sercx2_custom_receive_transaction_progress.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
+- SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmUnsecureVirtualMemory
-title: MmUnsecureVirtualMemory function
+title: MmUnsecureVirtualMemory function (ntddk.h)
 description: The MmUnsecureVirtualMemory routine unsecures a memory address range secured by the MmSecureVirtualMemory routine.
 old-location: kernel\mmunsecurevirtualmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnsecureVirtualMemory
+- MmUnsecureVirtualMemory
 product:
 - Windows
 targetos: Windows

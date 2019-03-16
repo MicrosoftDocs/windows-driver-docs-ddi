@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_BUILDPAGINGBUFFER_OPERATION
-title: "_DXGK_BUILDPAGINGBUFFER_OPERATION"
+title: _DXGK_BUILDPAGINGBUFFER_OPERATION (d3dkmddi.h)
 description: Indicates the type of memory operation to perform.
 old-location: display\dxgk_buildpagingbuffer_operation.htm
 ms.assetid: D170D828-A0BC-4CBC-9F3F-E384AAD11FCC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_OPERATION
+- DXGK_BUILDPAGINGBUFFER_OPERATION
 product:
 - Windows
 targetos: Windows

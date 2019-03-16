@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentSystemUpTime
-title: IDebugControl3::GetCurrentSystemUpTime
+title: IDebugControl3::GetCurrentSystemUpTime (dbgeng.h)
 description: The GetCurrentSystemUpTime method returns the number of seconds the current target's computer has been running since it was last started.
 old-location: debugger\getcurrentsystemuptime.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl2.GetCurrentSystemUpTime
--	IDebugControl3.GetCurrentSystemUpTime
+- IDebugControl2.GetCurrentSystemUpTime
+- IDebugControl3.GetCurrentSystemUpTime
 product:
 - Windows
 targetos: Windows

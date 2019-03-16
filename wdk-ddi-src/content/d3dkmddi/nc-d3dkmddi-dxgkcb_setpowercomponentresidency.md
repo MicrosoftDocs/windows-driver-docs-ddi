@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTRESIDENCY
-title: DXGKCB_SETPOWERCOMPONENTRESIDENCY
+title: DXGKCB_SETPOWERCOMPONENTRESIDENCY (d3dkmddi.h)
 description: Called by the display miniport driver to set the expected residency for a power component of type DXGK_POWER_COMPONENT_OTHER.
 old-location: display\dxgkcbsetpowercomponentresidency.htm
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkCbSetPowerComponentResidency
+- DxgkCbSetPowerComponentResidency
 product:
 - Windows
 targetos: Windows

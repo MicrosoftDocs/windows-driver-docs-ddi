@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_READ_CLOCK_LINE
-title: PVIDEO_READ_CLOCK_LINE
+title: PVIDEO_READ_CLOCK_LINE (video.h)
 description: ReadClockLine reads a single data bit from the I2C serial clock line.
 old-location: display\readclockline.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	ReadClockLine
+- ReadClockLine
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_PORT_BUFFER_UCHAR
-title: WDF_WRITE_PORT_BUFFER_UCHAR function
+title: WDF_WRITE_PORT_BUFFER_UCHAR function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port.
 old-location: wdf\wdf_write_port_buffer_uchar.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfhwaccess.h
+- Wdfhwaccess.h
 api_name:
--	WDF_WRITE_PORT_BUFFER_UCHAR
+- WDF_WRITE_PORT_BUFFER_UCHAR
 product:
 - Windows
 targetos: Windows

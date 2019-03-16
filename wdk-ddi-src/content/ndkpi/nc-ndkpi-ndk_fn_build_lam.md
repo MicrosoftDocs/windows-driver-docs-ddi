@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_BUILD_LAM
-title: NDK_FN_BUILD_LAM
+title: NDK_FN_BUILD_LAM (ndkpi.h)
 description: The NdkBuildLam (NDK_FN_BUILD_LAM) function gets an adapter logical address mapping (LAM) from the NDK provider for a virtually contiguous memory region.
 old-location: netvista\ndk_fn_build_lam.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkBuildLam
+- NdkBuildLam
 product:
 - Windows
 targetos: Windows

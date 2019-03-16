@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCPROPERTY_REQUEST
-title: "_PCPROPERTY_REQUEST"
+title: _PCPROPERTY_REQUEST (portcls.h)
 description: The PCPROPERTY_REQUEST structure specifies a property request.
 old-location: audio\pcproperty_request.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PCPROPERTY_REQUEST
+- PCPROPERTY_REQUEST
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_LINE_CONTROL
-title: "_SERIAL_LINE_CONTROL"
+title: _SERIAL_LINE_CONTROL (ntddser.h)
 description: The SERIAL_LINE_CONTROL structure describes the control settings for the serial line.
 old-location: serports\serial_line_control.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	SERIAL_LINE_CONTROL
+- SERIAL_LINE_CONTROL
 product:
 - Windows
 targetos: Windows

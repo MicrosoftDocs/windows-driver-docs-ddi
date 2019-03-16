@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetRequestorProcessId
-title: IoGetRequestorProcessId function
+title: IoGetRequestorProcessId function (ntifs.h)
 description: The IoGetRequestorProcessId routine returns the unique 32-bit process ID for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocessid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetRequestorProcessId
+- IoGetRequestorProcessId
 product:
 - Windows
 targetos: Windows

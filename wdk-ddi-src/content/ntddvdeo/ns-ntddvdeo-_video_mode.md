@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MODE
-title: "_VIDEO_MODE"
+title: _VIDEO_MODE (ntddvdeo.h)
 description: The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with IOCTL_VIDEO_SET_CURRENT_MODE.
 old-location: display\video_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_MODE
+- VIDEO_MODE
 product:
 - Windows
 targetos: Windows

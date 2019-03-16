@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionParameterTypeCount
-title: IDebugHostType2::GetFunctionParameterTypeCount
+title: IDebugHostType2::GetFunctionParameterTypeCount (dbgmodel.h)
 description: The GetFunctionParameterTypeCount method returns the number of arguments that the function takes.
 ms.assetid: 262bfb7d-2a10-49f0-860a-f885bbe184e9
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetFunctionParameterTypeCount
-product: Windows
+- IDebugHostType2.GetFunctionParameterTypeCount
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMTextOutAsBitmap
-title: OEMTextOutAsBitmap function
+title: OEMTextOutAsBitmap function (printoem.h)
 description: OEMTextOutAsBitmap function
 old-location: print\oemtextoutasbitmap.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMTextOutAsBitmap
+- OEMTextOutAsBitmap
 product:
 - Windows
 targetos: Windows

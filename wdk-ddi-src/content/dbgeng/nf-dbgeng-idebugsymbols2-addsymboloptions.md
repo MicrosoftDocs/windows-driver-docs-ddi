@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.AddSymbolOptions
-title: IDebugSymbols2::AddSymbolOptions
+title: IDebugSymbols2::AddSymbolOptions (dbgeng.h)
 description: The AddSymbolOptions method turns on some of the engine's global symbol options.
 old-location: debugger\addsymboloptions.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols.AddSymbolOptions
--	IDebugSymbols2.AddSymbolOptions
--	IDebugSymbols3.AddSymbolOptions
+- IDebugSymbols.AddSymbolOptions
+- IDebugSymbols2.AddSymbolOptions
+- IDebugSymbols3.AddSymbolOptions
 product:
 - Windows
 targetos: Windows

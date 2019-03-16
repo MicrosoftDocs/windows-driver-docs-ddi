@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostModule2
-title: IDebugHostModule2
+title: IDebugHostModule2 (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a particular module.
 ms.assetid: d0afd86c-b48e-46ce-8eeb-248705d7e467
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostModule2
-product: Windows
+- IDebugHostModule2
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

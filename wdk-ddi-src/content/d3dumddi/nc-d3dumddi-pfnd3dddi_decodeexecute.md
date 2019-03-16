@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEEXECUTE
-title: PFND3DDDI_DECODEEXECUTE
+title: PFND3DDDI_DECODEEXECUTE (d3dumddi.h)
 description: The DecodeExecute function performs a decode operation by using the given Microsoft DirectX Video Accelerator (VA) decode device.
 old-location: display\decodeexecute.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DecodeExecute
+- DecodeExecute
 product:
 - Windows
 targetos: Windows

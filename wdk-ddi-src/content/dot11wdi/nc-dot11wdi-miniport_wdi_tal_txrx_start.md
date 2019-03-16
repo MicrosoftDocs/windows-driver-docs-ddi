@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_START
-title: MINIPORT_WDI_TAL_TXRX_START
+title: MINIPORT_WDI_TAL_TXRX_START (dot11wdi.h)
 description: The MiniportWdiTalTxRxStart handler function provides TXRX configuration parameters to the TAL.
 old-location: netvista\miniportwditaltxrxstart.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTalTxRxStart
+- MiniportWdiTalTxRxStart
 product:
 - Windows
 targetos: Windows

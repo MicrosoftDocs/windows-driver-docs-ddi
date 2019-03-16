@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_POWER_INFO
-title: "_IDE_POWER_INFO"
+title: _IDE_POWER_INFO (irb.h)
 description: The POWER_CHANGE_INFO structure is used in conjunction with the IDE_REQUEST_BLOCK to request a power state change.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\power_change_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_POWER_INFO
+- IDE_POWER_INFO
 product:
 - Windows
 targetos: Windows

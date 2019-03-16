@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntMult
-title: RtlUIntMult function
+title: RtlUIntMult function (ntintsafe.h)
 description: Multiplies one value of type UINT by another.
 old-location: kernel\rtluintmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntMult
+- RtlUIntMult
 product:
 - Windows
 targetos: Windows

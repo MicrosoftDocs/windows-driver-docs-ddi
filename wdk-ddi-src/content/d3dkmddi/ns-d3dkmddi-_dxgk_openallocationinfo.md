@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_OPENALLOCATIONINFO
-title: "_DXGK_OPENALLOCATIONINFO"
+title: _DXGK_OPENALLOCATIONINFO (d3dkmddi.h)
 description: The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice-specific and device-specific allocations that the DxgkDdiOpenAllocation function associates.
 old-location: display\dxgk_openallocationinfo.htm
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_OPENALLOCATIONINFO
+- DXGK_OPENALLOCATIONINFO
 product:
 - Windows
 targetos: Windows

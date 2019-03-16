@@ -1,6 +1,6 @@
 ---
 UID: NE:dmusicks.__unnamed_enum_0
-title: DMUS_STREAM_TYPE
+title: DMUS_STREAM_TYPE (dmusicks.h)
 description: Used for a DirectMusic synthesizer device.
 old-location: audio\dmus_stream_type.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dmusicks.h
+- Dmusicks.h
 api_name:
--	DMUS_STREAM_TYPE
+- DMUS_STREAM_TYPE
 product:
 - Windows
 targetos: Windows

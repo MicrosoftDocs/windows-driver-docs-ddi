@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_USB_STATE_CHANGE
-title: EVT_UFX_DEVICE_USB_STATE_CHANGE
+title: EVT_UFX_DEVICE_USB_STATE_CHANGE (ufxclient.h)
 description: The client driver's implementation to update the state of the USB device.
 old-location: buses\evt_ufx_device_usb_state_change.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_USB_STATE_CHANGE
+- PFN_UFX_DEVICE_USB_STATE_CHANGE
 product:
 - Windows
 targetos: Windows

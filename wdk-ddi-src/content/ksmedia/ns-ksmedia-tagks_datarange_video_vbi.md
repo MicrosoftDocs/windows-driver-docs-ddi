@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_VIDEO_VBI
-title: tagKS_DATARANGE_VIDEO_VBI
+title: tagKS_DATARANGE_VIDEO_VBI (ksmedia.h)
 description: The KS_DATARANGE_VIDEO_VBI structure describes a range of data formats containing vertical blanking interval (VBI) data.
 old-location: stream\ks_datarange_video_vbi.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATARANGE_VIDEO_VBI
+- KS_DATARANGE_VIDEO_VBI
 product:
 - Windows
 targetos: Windows

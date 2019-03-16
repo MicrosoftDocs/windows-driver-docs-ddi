@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLastEventInformationWide
-title: IDebugControl4::GetLastEventInformationWide
+title: IDebugControl4::GetLastEventInformationWide (dbgeng.h)
 description: The GetLastEventInformationWide method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformationwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetLastEventInformationWide
+- IDebugControl4.GetLastEventInformationWide
 product:
 - Windows
 targetos: Windows

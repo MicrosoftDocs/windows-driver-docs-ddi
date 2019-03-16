@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetPreparsedData
-title: HidD_GetPreparsedData function
+title: HidD_GetPreparsedData function (hidsdi.h)
 description: The HidD_GetPreparsedData routine returns a top-level collection's preparsed data.
 old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetPreparsedData
+- HidD_GetPreparsedData
 product:
 - Windows
 targetos: Windows

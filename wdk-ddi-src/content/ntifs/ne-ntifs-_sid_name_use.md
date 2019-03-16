@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._SID_NAME_USE
-title: "_SID_NAME_USE"
+title: _SID_NAME_USE (ntifs.h)
 description: The SID_NAME_USE enumeration type contains values that specify the type of a security identifier (SID).
 old-location: ifsk\sid_name_use.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SID_NAME_USE
+- SID_NAME_USE
 product:
 - Windows
 targetos: Windows

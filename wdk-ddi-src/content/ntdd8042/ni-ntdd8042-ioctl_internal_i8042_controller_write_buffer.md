@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdd8042.IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
-title: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
+title: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER (ntdd8042.h)
 description: The IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER request is not supported.
 old-location: hid\ioctl_internal_i8042_controller_write_buffer.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
+- IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 product:
 - Windows
 targetos: Windows

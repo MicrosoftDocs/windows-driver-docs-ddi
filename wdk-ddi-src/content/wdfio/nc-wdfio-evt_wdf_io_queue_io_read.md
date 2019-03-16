@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_READ
-title: EVT_WDF_IO_QUEUE_IO_READ
+title: EVT_WDF_IO_QUEUE_IO_READ (wdfio.h)
 description: A driver's EvtIoRead event callback function processes a specified read request.
 old-location: wdf\evtioread.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoRead
+- EvtIoRead
 product:
 - Windows
 targetos: Windows

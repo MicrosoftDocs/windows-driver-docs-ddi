@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_HEADER
-title: _DXGK_DIAGNOSTIC_HEADER
+title: _DXGK_DIAGNOSTIC_HEADER (dispmprt.h)
 description: Header structure which contains the common fields used to describe all diagnostic events.
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_HEADER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGNOSTIC_HEADER
+- _DXGK_DIAGNOSTIC_HEADER
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IsReparseTagValid
-title: IsReparseTagValid macro
+title: IsReparseTagValid macro (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\isreparsetagvalid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IsReparseTagValid
+- IsReparseTagValid
 product:
 - Windows
 targetos: Windows

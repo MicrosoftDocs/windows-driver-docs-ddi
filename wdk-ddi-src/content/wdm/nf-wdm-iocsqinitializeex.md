@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInitializeEx
-title: IoCsqInitializeEx function
+title: IoCsqInitializeEx function (wdm.h)
 description: The IoCsqInitializeEx routine initializes the dispatch table for a cancel-safe IRP queue.
 old-location: kernel\iocsqinitializeex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCsqInitializeEx
+- IoCsqInitializeEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFCmResourceList.GetCount
-title: IWDFCmResourceList::GetCount
+title: IWDFCmResourceList::GetCount (wudfddi.h)
 description: The GetCount method returns the number of resource descriptors that are contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getcount.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFCmResourceList.GetCount
+- IWDFCmResourceList.GetCount
 product:
 - Windows
 targetos: Windows

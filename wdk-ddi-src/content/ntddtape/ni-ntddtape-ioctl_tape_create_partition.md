@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_CREATE_PARTITION
-title: IOCTL_TAPE_CREATE_PARTITION
+title: IOCTL_TAPE_CREATE_PARTITION (ntddtape.h)
 description: Creates the specified number of fixed, select, or initiator partition(s) of the given size on the media.
 old-location: storage\ioctl_tape_create_partition.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddtape.h
+- Ntddtape.h
 api_name:
--	IOCTL_TAPE_CREATE_PARTITION
+- IOCTL_TAPE_CREATE_PARTITION
 product:
 - Windows
 targetos: Windows

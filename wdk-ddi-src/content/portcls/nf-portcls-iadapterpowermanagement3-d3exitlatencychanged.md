@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement3.D3ExitLatencyChanged
-title: IAdapterPowerManagement3::D3ExitLatencyChanged
+title: IAdapterPowerManagement3::D3ExitLatencyChanged (portcls.h)
 description: PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) power state, to provide a new exit latency value.
 old-location: audio\iadapterpowermanagement3_d3exitlatencychanged.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IAdapterPowerManagement3.D3ExitLatencyChanged
+- IAdapterPowerManagement3.D3ExitLatencyChanged
 product:
 - Windows
 targetos: Windows

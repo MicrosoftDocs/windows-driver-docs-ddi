@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_TRANSFER_EX
-title: "_URB_CONTROL_TRANSFER_EX"
+title: _URB_CONTROL_TRANSFER_EX (usb.h)
 description: The _URB_CONTROL_TRANSFER_EX structure is used by USB client drivers to transfer data to or from a control pipe, with a timeout that limits the acceptable transfer time.
 old-location: buses\_urb_control_transfer_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_CONTROL_TRANSFER_EX
+- _URB_CONTROL_TRANSFER_EX
 product:
 - Windows
 targetos: Windows

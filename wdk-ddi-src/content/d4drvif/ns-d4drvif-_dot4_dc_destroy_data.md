@@ -1,6 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DC_DESTROY_DATA
-title: "_DOT4_DC_DESTROY_DATA"
+title: _DOT4_DC_DESTROY_DATA (d4drvif.h)
 description: This topic describes the DOT4_DC_DESTROY_DATA structure.
 old-location: print\dot4_dc_destroy_data.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	DOT4_DC_DESTROY_DATA
+- DOT4_DC_DESTROY_DATA
 product:
 - Windows
 targetos: Windows

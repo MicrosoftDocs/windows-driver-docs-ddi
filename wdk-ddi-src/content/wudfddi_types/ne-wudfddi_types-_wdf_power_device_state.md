@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_DEVICE_STATE
-title: "_WDF_POWER_DEVICE_STATE"
+title: _WDF_POWER_DEVICE_STATE (wudfddi_types.h)
 description: The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support.
 old-location: wdf\wdf_power_device_state_umdf.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_POWER_DEVICE_STATE
+- WDF_POWER_DEVICE_STATE
 product:
 - Windows
 targetos: Windows

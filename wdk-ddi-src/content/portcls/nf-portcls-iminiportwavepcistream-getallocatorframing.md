@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.GetAllocatorFraming
-title: IMiniportWavePciStream::GetAllocatorFraming
+title: IMiniportWavePciStream::GetAllocatorFraming (portcls.h)
 description: The GetAllocatorFraming method gets the preferred allocator-framing parameters for the stream.
 old-location: audio\iminiportwavepcistream_getallocatorframing.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWavePciStream.GetAllocatorFraming
+- IMiniportWavePciStream.GetAllocatorFraming
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_SET_KEY_SECURITY_INFORMATION
-title: "_REG_SET_KEY_SECURITY_INFORMATION"
+title: _REG_SET_KEY_SECURITY_INFORMATION (wdm.h)
 description: The REG_SET_KEY_SECURITY_INFORMATION structure specifies security information for a registry key object.
 old-location: kernel\reg_set_key_security_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	REG_SET_KEY_SECURITY_INFORMATION
+- REG_SET_KEY_SECURITY_INFORMATION
 product:
 - Windows
 targetos: Windows

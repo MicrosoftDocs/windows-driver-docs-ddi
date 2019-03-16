@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_INIT_MUTEX
-title: NDIS_INIT_MUTEX macro
+title: NDIS_INIT_MUTEX macro (ndis.h)
 description: The NDIS_INIT_MUTEX macro initializes a mutex object and sets it to a signaled state.
 tech.root: netvista
 ms.assetid: b55ee6e6-ae83-43fb-af92-1f005057d4ae
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_INIT_MUTEX
+- NDIS_INIT_MUTEX
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTINUOUS_READER_CONFIG
-title: "_WDF_USB_CONTINUOUS_READER_CONFIG"
+title: _WDF_USB_CONTINUOUS_READER_CONFIG (wdfusb.h)
 description: The WDF_USB_CONTINUOUS_READER_CONFIG structure contains information that the framework uses to configure a continuous reader for a USB pipe.
 old-location: wdf\wdf_usb_continuous_reader_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_CONTINUOUS_READER_CONFIG
+- WDF_USB_CONTINUOUS_READER_CONFIG
 product:
 - Windows
 targetos: Windows

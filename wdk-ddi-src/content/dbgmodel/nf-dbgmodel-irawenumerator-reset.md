@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.Reset
-title: IRawEnumerator::Reset
+title: IRawEnumerator::Reset (dbgmodel.h)
 description: Resets the enumerator to its initial state.  A subsequent GetNext call will return the first raw element (native field, base class, etc...) in enumerator order.
 ms.assetid: 4cf9fdb7-d79e-437b-a5a3-8224e682e6b6
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IRawEnumerator.Reset
-product: Windows
+- IRawEnumerator.Reset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

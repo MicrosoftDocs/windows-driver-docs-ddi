@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDevice3
-title: IWDFDevice3
+title: IWDFDevice3 (wudfddi.h)
 description: To obtain the IWDFDevice3 interface, drivers call IWDFDevice::QueryInterface.
 old-location: wdf\iwdfdevice3.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3
+- IWDFDevice3
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCanIWrite
-title: CcCanIWrite function
+title: CcCanIWrite function (ntifs.h)
 description: The CcCanIWrite routine determines whether the caller can write to a cached file.
 old-location: ifsk\cccaniwrite.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcCanIWrite
+- CcCanIWrite
 product:
 - Windows
 targetos: Windows

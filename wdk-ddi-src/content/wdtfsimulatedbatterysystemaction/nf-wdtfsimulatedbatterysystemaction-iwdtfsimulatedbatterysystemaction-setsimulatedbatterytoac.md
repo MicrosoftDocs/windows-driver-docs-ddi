@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
-title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
+title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC (wdtfsimulatedbatterysystemaction.h)
 description: Sets the simulated battery status to AC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
+- IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC
 product:
 - Windows
 targetos: Windows

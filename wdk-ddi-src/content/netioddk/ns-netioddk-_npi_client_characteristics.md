@@ -1,6 +1,6 @@
 ---
 UID: NS:netioddk._NPI_CLIENT_CHARACTERISTICS
-title: "_NPI_CLIENT_CHARACTERISTICS"
+title: _NPI_CLIENT_CHARACTERISTICS (netioddk.h)
 description: The NPI_CLIENT_CHARACTERISTICS structure defines the characteristics of a client module.
 old-location: netvista\npi_client_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	NPI_CLIENT_CHARACTERISTICS
+- NPI_CLIENT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

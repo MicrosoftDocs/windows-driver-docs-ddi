@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoRegisterSystemState
-title: PoRegisterSystemState function
+title: PoRegisterSystemState function (ntifs.h)
 description: The PoRegisterSystemState routine registers the system as busy due to certain activity.
 old-location: kernel\poregistersystemstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoRegisterSystemState
+- PoRegisterSystemState
 product:
 - Windows
 targetos: Windows

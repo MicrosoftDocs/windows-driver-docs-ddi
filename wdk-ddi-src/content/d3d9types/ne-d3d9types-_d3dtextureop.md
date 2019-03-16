@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DTEXTUREOP
-title: _D3DTEXTUREOP
+title: _D3DTEXTUREOP (d3d9types.h)
 description: 
 ms.assetid: e97f06ba-2784-474d-bd42-23ea1c877180
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DTEXTUREOP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DTEXTUREOP
+- _D3DTEXTUREOP
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

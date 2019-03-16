@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_EVAL_ACPI_METHOD
-title: DXGKCB_EVAL_ACPI_METHOD
+title: DXGKCB_EVAL_ACPI_METHOD (dispmprt.h)
 description: The DxgkCbEvalAcpiMethod function evaluates a specified ACPI method on a display adapter or on a child device of a display adapter.
 old-location: display\dxgkcbevalacpimethod.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbEvalAcpiMethod
+- DxgkCbEvalAcpiMethod
 product:
 - Windows
 targetos: Windows

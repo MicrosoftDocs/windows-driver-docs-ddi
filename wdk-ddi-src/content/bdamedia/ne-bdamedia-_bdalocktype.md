@@ -1,6 +1,6 @@
 ---
 UID: NE:bdamedia._BdaLockType
-title: "_BdaLockType"
+title: _BdaLockType (bdamedia.h)
 description: The BDA_LockType enumerated type contains values that specify lock types for a signal.
 old-location: stream\bda_locktype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdamedia.h
+- bdamedia.h
 api_name:
--	BDA_LockType
+- BDA_LockType
 product:
 - Windows
 targetos: Windows

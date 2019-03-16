@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintReadStreamFactory
-title: IPrintReadStreamFactory
+title: IPrintReadStreamFactory (filterpipeline.h)
 description: The IPrintReadStreamFactory interface creates a stream reader that a filter can use to access the stream. For example, a filter could use this stream to access the per-user print ticket.
 old-location: print\iprintreadstreamfactory.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintReadStreamFactory
+- IPrintReadStreamFactory
 product:
 - Windows
 targetos: Windows

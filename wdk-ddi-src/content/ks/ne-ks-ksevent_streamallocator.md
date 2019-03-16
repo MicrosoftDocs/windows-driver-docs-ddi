@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_19
-title: KSEVENT_STREAMALLOCATOR
+title: KSEVENT_STREAMALLOCATOR (ks.h)
 description: 
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSEVENT_STREAMALLOCATOR
+- KSEVENT_STREAMALLOCATOR
 product:
 - Windows
 targetos: Windows

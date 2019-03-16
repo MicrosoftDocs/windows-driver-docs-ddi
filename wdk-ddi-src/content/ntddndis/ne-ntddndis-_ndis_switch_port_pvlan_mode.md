@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_PVLAN_MODE
-title: "_NDIS_SWITCH_PORT_PVLAN_MODE"
+title: _NDIS_SWITCH_PORT_PVLAN_MODE (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PVLAN_MODE enumeration specifies the operation mode of a private virtual local area network (PVLAN) policy property. This property is specified for a port on the Hyper-V extensible switch.
 old-location: netvista\ndis_switch_port_pvlan_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SWITCH_PORT_PVLAN_MODE
+- NDIS_SWITCH_PORT_PVLAN_MODE
 product:
 - Windows
 targetos: Windows

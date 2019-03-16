@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_STREAM_V6_
-title: FWPS_FIELDS_STREAM_V6_
+title: FWPS_FIELDS_STREAM_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_STREAM_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_STREAM_V6 and FWPS_LAYER_STREAM_V6_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_stream_v6.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_STREAM_V6
+- FWPS_FIELDS_STREAM_V6
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.pHalSetSystemInformation
-title: pHalSetSystemInformation
+title: pHalSetSystemInformation (ntddk.h)
 description: Register MCA driver with the HAL. 
 ms.assetid: fb9491a9-7fbe-4a7f-9794-06d5020540ef
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	pHalSetSystemInformation
+- pHalSetSystemInformation
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

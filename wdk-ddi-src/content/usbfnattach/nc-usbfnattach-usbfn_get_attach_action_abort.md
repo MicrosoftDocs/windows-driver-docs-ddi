@@ -1,6 +1,6 @@
 ---
 UID: NC:usbfnattach.USBFN_GET_ATTACH_ACTION_ABORT
-title: USBFN_GET_ATTACH_ACTION_ABORT
+title: USBFN_GET_ATTACH_ACTION_ABORT (usbfnattach.h)
 description: The filter driver's implementation to abort an attach-detect operation.
 old-location: buses\usbfn_get_attach_action_abort.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	USBFN_SET_DEVICE_STATE
+- USBFN_SET_DEVICE_STATE
 product:
 - Windows
 targetos: Windows

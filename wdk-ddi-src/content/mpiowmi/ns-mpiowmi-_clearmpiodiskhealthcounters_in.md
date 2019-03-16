@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._ClearMpioDiskHealthCounters_IN
-title: "_ClearMpioDiskHealthCounters_IN"
+title: _ClearMpioDiskHealthCounters_IN (mpiowmi.h)
 description: The ClearMpioDiskHealthCounters_IN structure is used to provide an input parameter to the ClearMpioDiskHealthCounters method.
 old-location: storage\clearmpiodiskhealthcounters_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	ClearMpioDiskHealthCounters_IN
+- ClearMpioDiskHealthCounters_IN
 product:
 - Windows
 targetos: Windows

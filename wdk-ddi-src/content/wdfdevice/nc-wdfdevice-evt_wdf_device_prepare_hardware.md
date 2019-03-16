@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_PREPARE_HARDWARE
-title: EVT_WDF_DEVICE_PREPARE_HARDWARE
+title: EVT_WDF_DEVICE_PREPARE_HARDWARE (wdfdevice.h)
 description: A driver's EvtDevicePrepareHardware event callback function performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\evtdevicepreparehardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDevicePrepareHardware
+- EvtDevicePrepareHardware
 product:
 - Windows
 targetos: Windows

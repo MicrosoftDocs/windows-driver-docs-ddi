@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYCONNECTIONCHANGE
-title: "_DXGKARG_QUERYCONNECTIONCHANGE"
+title: _DXGKARG_QUERYCONNECTIONCHANGE (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
 old-location: display\dxgkarg_queryconnectionchange.htm
 ms.assetid: 6B91F3F0-B02D-46F3-9086-EA32F043FC16
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_QUERYCONNECTIONCHANGE
+- DXGKARG_QUERYCONNECTIONCHANGE
 product:
 - Windows
 targetos: Windows

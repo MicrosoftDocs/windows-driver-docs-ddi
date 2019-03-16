@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._DXGK_MIRACAST_CHUNK_TYPE
-title: "_DXGK_MIRACAST_CHUNK_TYPE"
+title: _DXGK_MIRACAST_CHUNK_TYPE (d3dukmdt.h)
 description: Specifies the types of wireless display (Miracast) chunk info that is to be processed.
 old-location: display\dxgk_miracast_chunk_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dukmdt.h
+- D3dukmdt.h
 api_name:
--	DXGK_MIRACAST_CHUNK_TYPE
+- DXGK_MIRACAST_CHUNK_TYPE
 product:
 - Windows
 targetos: Windows

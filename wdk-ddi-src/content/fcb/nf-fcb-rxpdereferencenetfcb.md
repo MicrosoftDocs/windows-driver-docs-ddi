@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxpDereferenceNetFcb
-title: RxpDereferenceNetFcb function
+title: RxpDereferenceNetFcb function (fcb.h)
 description: RxpDereferenceNetFcb decrements the reference count on an FCB structure.
 old-location: ifsk\rxpdereferencenetfcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxpDereferenceNetFcb
+- RxpDereferenceNetFcb
 product:
 - Windows
 targetos: Windows

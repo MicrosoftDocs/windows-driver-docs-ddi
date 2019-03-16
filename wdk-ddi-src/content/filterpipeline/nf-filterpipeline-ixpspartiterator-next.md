@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Next
-title: IXpsPartIterator::Next
+title: IXpsPartIterator::Next (filterpipeline.h)
 description: The Next method advances the iterator to the next part.
 old-location: print\ixpspartiterator_next.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IXpsPartIterator.Next
+- IXpsPartIterator.Next
 product:
 - Windows
 targetos: Windows

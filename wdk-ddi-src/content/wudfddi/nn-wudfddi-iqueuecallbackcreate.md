@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackCreate
-title: IQueueCallbackCreate
+title: IQueueCallbackCreate (wudfddi.h)
 description: An I/O queue notifies a driver when an open file request is available for the driver.
 old-location: wdf\iqueuecallbackcreate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfddi.h
+- wudfddi.h
 api_name:
--	IQueueCallbackCreate
+- IQueueCallbackCreate
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsSetMediaType
-title: IKsDataTypeHandler::KsSetMediaType
+title: IKsDataTypeHandler::KsSetMediaType (ksproxy.h)
 description: The KsSetMediaType method sets the media type for a data type handler.
 old-location: stream\iksdatatypehandler_kssetmediatype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsDataTypeHandler.KsSetMediaType
+- IKsDataTypeHandler.KsSetMediaType
 product:
 - Windows
 targetos: Windows

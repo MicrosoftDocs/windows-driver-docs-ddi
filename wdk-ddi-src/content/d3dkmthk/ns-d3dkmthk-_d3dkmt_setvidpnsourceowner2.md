@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER2
-title: "_D3DKMT_SETVIDPNSOURCEOWNER2"
+title: _D3DKMT_SETVIDPNSOURCEOWNER2 (d3dkmthk.h)
 description: Used to set the VidPN source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SETVIDPNSOURCEOWNER2
+- D3DKMT_SETVIDPNSOURCEOWNER2
 product:
 - Windows
 targetos: Windows

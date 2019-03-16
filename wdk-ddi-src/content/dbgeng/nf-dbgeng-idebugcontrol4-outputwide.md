@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputWide
-title: IDebugControl4::OutputWide
+title: IDebugControl4::OutputWide (dbgeng.h)
 description: The OutputWide method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\outputwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.ControlledOutputWide
+- IDebugControl4.ControlledOutputWide
 product:
 - Windows
 targetos: Windows

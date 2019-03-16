@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_STREAM_INFORMATION
-title: "_USBD_STREAM_INFORMATION"
+title: _USBD_STREAM_INFORMATION (usb.h)
 description: The USBD_STREAM_INFORMATION structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\usbd_stream_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	USBD_STREAM_INFORMATION
+- USBD_STREAM_INFORMATION
 product:
 - Windows
 targetos: Windows

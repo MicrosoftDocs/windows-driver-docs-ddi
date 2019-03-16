@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ControlPrintProcessor
-title: ControlPrintProcessor function
+title: ControlPrintProcessor function (winsplp.h)
 description: A print processor's ControlPrintProcessor function allows the spooler to control a print job.
 old-location: print\controlprintprocessor.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Nwprint.lib
--	Nwprint.dll
+- Nwprint.lib
+- Nwprint.dll
 api_name:
--	ControlPrintProcessor
+- ControlPrintProcessor
 product:
 - Windows
 targetos: Windows

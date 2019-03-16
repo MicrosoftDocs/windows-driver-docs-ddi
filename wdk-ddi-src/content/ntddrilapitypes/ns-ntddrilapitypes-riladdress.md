@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILADDRESS
-title: RILADDRESS
+title: RILADDRESS (ntddrilapitypes.h)
 description: This structure represents a phone number.
 old-location: netvista\riladdress.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILADDRESS
+- RILADDRESS
 product:
 - Windows
 targetos: Windows

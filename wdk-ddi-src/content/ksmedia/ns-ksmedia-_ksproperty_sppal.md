@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSPROPERTY_SPPAL
-title: "_KSPROPERTY_SPPAL"
+title: _KSPROPERTY_SPPAL (ksmedia.h)
 description: The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
 old-location: stream\ksproperty_sppal.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_SPPAL
+- KSPROPERTY_SPPAL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnGreater
-title: ClfsLsnGreater function
+title: ClfsLsnGreater function (wdm.h)
 description: The ClfsLsnGreater routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsngreater.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsLsnGreater
+- ClfsLsnGreater
 product:
 - Windows
 targetos: Windows

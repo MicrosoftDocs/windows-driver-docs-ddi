@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointPurgeComplete
-title: UdecxUsbEndpointPurgeComplete function
+title: UdecxUsbEndpointPurgeComplete function (udecxusbendpoint.h)
 description: Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint.
 old-location: buses\udecxusbendpointpurgecomplete.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbEndpointPurgeComplete
+- UdecxUsbEndpointPurgeComplete
 product:
 - Windows
 targetos: Windows

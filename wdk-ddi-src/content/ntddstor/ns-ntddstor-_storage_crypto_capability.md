@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_CRYPTO_CAPABILITY
-title: "_STORAGE_CRYPTO_CAPABILITY"
+title: _STORAGE_CRYPTO_CAPABILITY (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\storage_crypto_capability.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_CRYPTO_CAPABILITY
+- STORAGE_CRYPTO_CAPABILITY
 product:
 - Windows
 targetos: Windows

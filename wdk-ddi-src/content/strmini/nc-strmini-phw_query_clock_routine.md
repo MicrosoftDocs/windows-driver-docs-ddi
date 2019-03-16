@@ -1,6 +1,6 @@
 ---
 UID: NC:strmini.PHW_QUERY_CLOCK_ROUTINE
-title: PHW_QUERY_CLOCK_ROUTINE
+title: PHW_QUERY_CLOCK_ROUTINE (strmini.h)
 description: Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied StrMiniClock function, provided in each stream's HW_STREAM_OBJECT.
 old-location: stream\strminiclock.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	StrMiniClock
+- StrMiniClock
 product:
 - Windows
 targetos: Windows

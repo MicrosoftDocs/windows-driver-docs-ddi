@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator2.AddRef
-title: IDebugHostEvaluator2::AddRef
+title: IDebugHostEvaluator2::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: e3645855-1628-4797-bb5d-5bb7083e37e7
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostEvaluator2.AddRef
-product: Windows
+- IDebugHostEvaluator2.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

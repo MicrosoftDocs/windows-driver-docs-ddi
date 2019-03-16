@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_ISR
-title: WUDF_INTERRUPT_ISR
+title: WUDF_INTERRUPT_ISR (wudfinterrupt.h)
 description: A driver's OnInterruptIsr event callback function services a hardware interrupt.
 old-location: wdf\oninterruptisr.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	OnInterruptIsr
+- OnInterruptIsr
 product:
 - Windows
 targetos: Windows

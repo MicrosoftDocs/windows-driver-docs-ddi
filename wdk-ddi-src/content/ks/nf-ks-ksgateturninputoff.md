@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateTurnInputOff
-title: KsGateTurnInputOff function
+title: KsGateTurnInputOff function (ks.h)
 description: The KsGateTurnInputOff function turns off an existing input to Gate.
 old-location: stream\ksgateturninputoff.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateTurnInputOff
+- KsGateTurnInputOff
 product:
 - Windows
 targetos: Windows

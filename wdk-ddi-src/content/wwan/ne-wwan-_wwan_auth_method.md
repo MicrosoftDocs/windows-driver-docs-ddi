@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_METHOD
-title: "_WWAN_AUTH_METHOD"
+title: _WWAN_AUTH_METHOD (wwan.h)
 description: The WWAN_AUTH_METHOD enumeration lists supported authentication methods.
 old-location: netvista\wwan_auth_method.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_METHOD
+- WWAN_AUTH_METHOD
 product:
 - Windows
 targetos: Windows

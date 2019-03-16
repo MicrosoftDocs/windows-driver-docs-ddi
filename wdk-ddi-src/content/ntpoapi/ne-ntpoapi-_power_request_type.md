@@ -1,6 +1,6 @@
 ---
 UID: NE:ntpoapi._POWER_REQUEST_TYPE
-title: "_POWER_REQUEST_TYPE"
+title: _POWER_REQUEST_TYPE (ntpoapi.h)
 description: The POWER_REQUEST_TYPE enumeration indicates the power request type.
 old-location: kernel\power_request_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	POWER_REQUEST_TYPE
+- POWER_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetRootItem
-title: wiasGetRootItem function
+title: wiasGetRootItem function (wiamdef.h)
 description: The wiasGetRootItem function retrieves the root item context of a specified WIA item.
 old-location: image\wiasgetrootitem.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetRootItem
+- wiasGetRootItem
 product:
 - Windows
 targetos: Windows

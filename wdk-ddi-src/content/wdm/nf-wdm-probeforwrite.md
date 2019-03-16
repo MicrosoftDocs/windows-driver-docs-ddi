@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ProbeForWrite
-title: ProbeForWrite function
+title: ProbeForWrite function (wdm.h)
 description: The ProbeForWrite routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.
 old-location: kernel\probeforwrite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ProbeForWrite
+- ProbeForWrite
 product:
 - Windows
 targetos: Windows

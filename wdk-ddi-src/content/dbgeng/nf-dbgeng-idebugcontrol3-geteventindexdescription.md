@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEventIndexDescription
-title: IDebugControl3::GetEventIndexDescription
+title: IDebugControl3::GetEventIndexDescription (dbgeng.h)
 description: The GetEventIndexDescription method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescription.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetEventIndexDescription
+- IDebugControl3.GetEventIndexDescription
 product:
 - Windows
 targetos: Windows

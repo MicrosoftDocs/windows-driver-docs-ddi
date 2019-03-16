@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
-title: "_D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT"
+title: _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration is used to indicate the type of constraint under which a monitor frequency range is supported.
 old-location: display\d3dkmdt_monitor_frequency_range_constraint.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+- D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
 product:
 - Windows
 targetos: Windows

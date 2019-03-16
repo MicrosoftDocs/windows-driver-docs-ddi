@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._GET_CHANGER_PARAMETERS
-title: "_GET_CHANGER_PARAMETERS"
+title: _GET_CHANGER_PARAMETERS (ntddchgr.h)
 description: Retrieves the characteristics of the changer.
 old-location: storage\get_changer_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	GET_CHANGER_PARAMETERS
+- GET_CHANGER_PARAMETERS
 product:
 - Windows
 targetos: Windows

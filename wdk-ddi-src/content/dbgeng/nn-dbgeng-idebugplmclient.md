@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugPlmClient
-title: IDebugPlmClient
+title: IDebugPlmClient (dbgeng.h)
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient
+- IDebugPlmClient
 product:
 - Windows
 targetos: Windows

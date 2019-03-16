@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackGetKeyObjectID
-title: CmCallbackGetKeyObjectID function
+title: CmCallbackGetKeyObjectID function (wdm.h)
 description: The CmCallbackGetKeyObjectID routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmCallbackGetKeyObjectID
+- CmCallbackGetKeyObjectID
 product:
 - Windows
 targetos: Windows

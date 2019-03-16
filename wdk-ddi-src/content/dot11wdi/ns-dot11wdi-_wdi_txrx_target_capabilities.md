@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_TARGET_CAPABILITIES
-title: "_WDI_TXRX_TARGET_CAPABILITIES"
+title: _WDI_TXRX_TARGET_CAPABILITIES (dot11wdi.h)
 description: The WDI_TXRX_CAPABILITIES structure defines the target capabilities.
 old-location: netvista\wdi_txrx_capabilities.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_TXRX_CAPABILITIES
+- WDI_TXRX_CAPABILITIES
 product:
 - Windows
 targetos: Windows

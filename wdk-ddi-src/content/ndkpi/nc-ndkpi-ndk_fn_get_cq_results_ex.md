@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_CQ_RESULTS_EX
-title: NDK_FN_GET_CQ_RESULTS_EX
+title: NDK_FN_GET_CQ_RESULTS_EX (ndkpi.h)
 description: The NdkGetCqResultsEx (NDK_FN_GET_CQ_RESULTS_EX) function removes completions from an NDK completion queue (CQ) object.
 old-location: netvista\ndk_fn_get_cq_results_ex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_FN_GET_CQ_RESULTS_EX
+- NDK_FN_GET_CQ_RESULTS_EX
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMEnableDriver
-title: OEMEnableDriver function
+title: OEMEnableDriver function (printoem.h)
 description: OEMEnableDriver function
 old-location: print\oemenabledriver.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMEnableDriver
+- OEMEnableDriver
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateIntrinsicObject
-title: IDataModelManager::CreateIntrinsicObject
+title: IDataModelManager::CreateIntrinsicObject (dbgmodel.h)
 description: The CreateIntrinsicObject method is the method which boxes intrinsic values into IModelObject. The caller places the value in a COM VARIANT and calls this method. 
 ms.assetid: 0fc6ec51-85d8-4df2-b26e-33b0bd5ed172
 ms.date: 07/17/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.CreateIntrinsicObject
-product: Windows
+- IDataModelManager.CreateIntrinsicObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

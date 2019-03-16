@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAreBitsClear
-title: RtlAreBitsClear function
+title: RtlAreBitsClear function (wdm.h)
 description: The RtlAreBitsClear routine determines whether a given range of bits within a bitmap variable is clear.
 old-location: kernel\rtlarebitsclear.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAreBitsClear
+- RtlAreBitsClear
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_WRITE_MARKS
-title: IOCTL_TAPE_WRITE_MARKS
+title: IOCTL_TAPE_WRITE_MARKS (ntddtape.h)
 description: Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 old-location: storage\ioctl_tape_write_marks.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddtape.h
+- Ntddtape.h
 api_name:
--	IOCTL_TAPE_WRITE_MARKS
+- IOCTL_TAPE_WRITE_MARKS
 product:
 - Windows
 targetos: Windows

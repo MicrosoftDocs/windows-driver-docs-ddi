@@ -1,6 +1,6 @@
 ---
 UID: NS:hidsdi._HIDD_ATTRIBUTES
-title: "_HIDD_ATTRIBUTES"
+title: _HIDD_ATTRIBUTES (hidsdi.h)
 description: The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device.
 old-location: hid\hidd_attributes.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidsdi.h
+- hidsdi.h
 api_name:
--	HIDD_ATTRIBUTES
+- HIDD_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

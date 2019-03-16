@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.CWiauPropertyList
-title: CWiauPropertyList::CWiauPropertyList
+title: CWiauPropertyList::CWiauPropertyList (wiautil.h)
 description: The CWiauPropertyList::CWiauPropertyList method is the constructor for the CWiauPropertyList class.
 old-location: image\cwiaupropertylist_cwiaupropertylist.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.CWiauPropertyList
+- CWiauPropertyList.CWiauPropertyList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:treevariableservice.EFI_SET_VARIABLE_GET_VARIABLE_NAME
-title: EFI_SET_VARIABLE_GET_VARIABLE_NAME macro
+title: EFI_SET_VARIABLE_GET_VARIABLE_NAME macro (treevariableservice.h)
 description: 
 ms.assetid: 5f3641ff-b865-4fbf-ad63-f72a552f85c6
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	EFI_SET_VARIABLE_GET_VARIABLE_NAME
+- EFI_SET_VARIABLE_GET_VARIABLE_NAME
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

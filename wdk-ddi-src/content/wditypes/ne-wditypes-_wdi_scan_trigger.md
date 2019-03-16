@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_SCAN_TRIGGER
-title: "_WDI_SCAN_TRIGGER"
+title: _WDI_SCAN_TRIGGER (wditypes.h)
 description: The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 old-location: netvista\wdi_scan_trigger.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_SCAN_TRIGGER
+- WDI_SCAN_TRIGGER
 product:
 - Windows
 targetos: Windows

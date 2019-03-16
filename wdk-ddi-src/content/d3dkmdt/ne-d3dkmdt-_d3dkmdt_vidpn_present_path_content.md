@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_CONTENT"
+title: _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration is used to indicate the type of content that is displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_content.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
+- D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
 product:
 - Windows
 targetos: Windows

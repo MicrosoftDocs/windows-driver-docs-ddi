@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsNotifications.FreeNotificationBuffer
-title: IPortClsNotifications::FreeNotificationBuffer
+title: IPortClsNotifications::FreeNotificationBuffer (portcls.h)
 description: Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_freenotification.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	IPortClsNotifications.FreeNotificationBuffer
+- IPortClsNotifications.FreeNotificationBuffer
 product:
 - Windows
 targetos: Windows

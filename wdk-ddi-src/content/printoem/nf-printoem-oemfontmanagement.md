@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMFontManagement
-title: OEMFontManagement function
+title: OEMFontManagement function (printoem.h)
 description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
 old-location: print\oemfontmanagement.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMFontManagement
+- OEMFontManagement
 product:
 - Windows
 targetos: Windows

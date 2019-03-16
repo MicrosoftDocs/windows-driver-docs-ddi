@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.CreatePointerTo
-title: IDebugHostType::CreatePointerTo
+title: IDebugHostType::CreatePointerTo (dbgmodel.h)
 description: For any given type, this returns a new IDebugHostType which is a pointer to this type.
 ms.assetid: 7809e00f-93db-4ddd-80d0-6259cea77382
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.CreatePointerTo
-product: Windows
+- IDebugHostType.CreatePointerTo
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

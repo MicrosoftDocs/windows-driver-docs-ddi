@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETMULTISAMPLEMETHODLIST
-title: "_D3DKMT_GETMULTISAMPLEMETHODLIST"
+title: _D3DKMT_GETMULTISAMPLEMETHODLIST (d3dkmthk.h)
 description: The D3DKMT_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 old-location: display\d3dkmt_getmultisamplemethodlist.htm
 ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETMULTISAMPLEMETHODLIST
+- D3DKMT_GETMULTISAMPLEMETHODLIST
 product:
 - Windows
 targetos: Windows

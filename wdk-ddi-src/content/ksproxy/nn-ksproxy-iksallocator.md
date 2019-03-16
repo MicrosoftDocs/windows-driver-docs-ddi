@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsAllocator
-title: IKsAllocator
+title: IKsAllocator (ksproxy.h)
 description: TheIKsAllocator interface provides methods that control and query an allocator. IKsAllocator is for proxy use and not recommended for application use.
 old-location: stream\iksallocator.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	IKsAllocator
+- IKsAllocator
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PGET_RESOURCE_INFORMATION
-title: PGET_RESOURCE_INFORMATION
+title: PGET_RESOURCE_INFORMATION (hdaudio.h)
 description: The GetResourceInformation routine retrieves information about hardware resources.The function pointer type for a GetResourceInformation routine is defined as follows.
 old-location: audio\getresourceinformation.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	GetResourceInformation
+- GetResourceInformation
 product:
 - Windows
 targetos: Windows

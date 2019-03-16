@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetRelatedDeviceObject
-title: IoGetRelatedDeviceObject function
+title: IoGetRelatedDeviceObject function (wdm.h)
 description: Given a file object, the IoGetRelatedDeviceObject routine returns a pointer to the corresponding device object.
 old-location: kernel\iogetrelateddeviceobject.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetRelatedDeviceObject
+- IoGetRelatedDeviceObject
 product:
 - Windows
 targetos: Windows

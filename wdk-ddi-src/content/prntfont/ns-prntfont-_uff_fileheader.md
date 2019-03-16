@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FILEHEADER
-title: "_UFF_FILEHEADER"
+title: _UFF_FILEHEADER (prntfont.h)
 description: The UFF_FILEHEADER structure is used to define the contents of Unidrv font format files (.uff files).
 old-location: print\uff_fileheader.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	UFF_FILEHEADER
+- UFF_FILEHEADER
 product:
 - Windows
 targetos: Windows

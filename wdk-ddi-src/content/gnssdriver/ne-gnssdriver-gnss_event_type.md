@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_4
-title: GNSS_EVENT_TYPE
+title: GNSS_EVENT_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_EVENT_TYPE
+- GNSS_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

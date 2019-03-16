@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
-title: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
+title: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE (usbfnioctl.h)
 description: The class driver sends this request to set the stall state of the specified USB pipe.
 old-location: buses\ioctl_internal_usbfn_set_pipe_state.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
+- IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
 product:
 - Windows
 targetos: Windows

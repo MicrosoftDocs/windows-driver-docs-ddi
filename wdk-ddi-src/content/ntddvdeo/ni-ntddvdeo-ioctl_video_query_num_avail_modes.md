@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
-title: IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
+title: IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES (ntddvdeo.h)
 description: Returns the number of video modes supported by the adapter and the size in bytes of the video mode information, which can be used to allocate a buffer for an IOCTL_VIDEO_QUERY_AVAIL_MODES request.
 old-location: display\ioctl_video_query_num_avail_modes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
+- IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSHAREDPRIMARYHANDLE
-title: "_D3DKMT_GETSHAREDPRIMARYHANDLE"
+title: _D3DKMT_GETSHAREDPRIMARYHANDLE (d3dkmthk.h)
 description: The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are required to retrieve the global shared handle for the primary surface.
 old-location: display\d3dkmt_getsharedprimaryhandle.htm
 ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETSHAREDPRIMARYHANDLE
+- D3DKMT_GETSHAREDPRIMARYHANDLE
 product:
 - Windows
 targetos: Windows

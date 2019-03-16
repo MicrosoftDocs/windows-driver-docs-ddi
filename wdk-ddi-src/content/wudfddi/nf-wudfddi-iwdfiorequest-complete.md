@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Complete
-title: IWDFIoRequest::Complete
+title: IWDFIoRequest::Complete (wudfddi.h)
 description: The Complete method completes an I/O request.
 old-location: wdf\iwdfiorequest_complete.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.Complete
+- IWDFIoRequest.Complete
 product:
 - Windows
 targetos: Windows

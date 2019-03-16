@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_OVERLAY_ENTRY
-title: "_WIM_PROVIDER_OVERLAY_ENTRY"
+title: _WIM_PROVIDER_OVERLAY_ENTRY (ntifs.h)
 description: Contains the a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
 old-location: ifsk\wim_provider_overlay_entry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WIM_PROVIDER_OVERLAY_ENTRY
+- WIM_PROVIDER_OVERLAY_ENTRY
 product:
 - Windows
 targetos: Windows

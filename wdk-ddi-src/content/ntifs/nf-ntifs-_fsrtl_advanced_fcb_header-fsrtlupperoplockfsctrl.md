@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUpperOplockFsctrl
-title: FsRtlUpperOplockFsctrl function
+title: FsRtlUpperOplockFsctrl function (ntifs.h)
 description: The FsRtlUpperOplockFsctrl routine processes opportunistic lock (oplock) requests and acknowledgments for secondary, or layered, file systems.
 old-location: ifsk\fsrtlupperoplockfsctrl.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: IRQL <= APC_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlUpperOplockFsctrl
+- FsRtlUpperOplockFsctrl
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

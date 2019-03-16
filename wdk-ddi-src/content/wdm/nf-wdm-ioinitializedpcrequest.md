@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeDpcRequest
-title: IoInitializeDpcRequest function
+title: IoInitializeDpcRequest function (wdm.h)
 description: The IoInitializeDpcRequest routine registers a driver-supplied DpcForIsr routine.
 old-location: kernel\ioinitializedpcrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoInitializeDpcRequest
+- IoInitializeDpcRequest
 product:
 - Windows
 targetos: Windows

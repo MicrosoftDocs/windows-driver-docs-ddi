@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_COMPLETION_ROUTINE
-title: IO_COMPLETION_ROUTINE
+title: IO_COMPLETION_ROUTINE (wdm.h)
 description: The IoCompletion routine completes the processing of I/O operations.
 old-location: kernel\iocompletion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoCompletion
+- IoCompletion
 product:
 - Windows
 targetos: Windows

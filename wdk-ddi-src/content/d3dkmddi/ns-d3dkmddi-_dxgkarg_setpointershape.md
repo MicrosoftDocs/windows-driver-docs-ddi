@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERSHAPE
-title: "_DXGKARG_SETPOINTERSHAPE"
+title: _DXGKARG_SETPOINTERSHAPE (d3dkmddi.h)
 description: The DXGKARG_SETPOINTERSHAPE structure describes the appearance of the mouse pointer and the location that it should be displayed in.
 old-location: display\dxgkarg_setpointershape.htm
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETPOINTERSHAPE
+- DXGKARG_SETPOINTERSHAPE
 product:
 - Windows
 targetos: Windows

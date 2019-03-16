@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_IPv6_ADDRESS_LIST
-title: "_BDA_IPv6_ADDRESS_LIST"
+title: _BDA_IPv6_ADDRESS_LIST (bdatypes.h)
 description: 
 old-location: stream\bda_ipv6_address_list.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_IPv6_ADDRESS_LIST
+- BDA_IPv6_ADDRESS_LIST
 product:
 - Windows
 targetos: Windows

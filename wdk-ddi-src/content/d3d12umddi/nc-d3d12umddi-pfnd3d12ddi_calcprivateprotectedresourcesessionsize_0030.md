@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
-title: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
+title: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030 (d3d12umddi.h)
 description: Used to calculate the size of a protected resource session.
 old-location: display\pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030.htm
 ms.assetid: 3D677BE9-32D7-4EA4-988F-83A64CFA3FFC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
+- PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
 product:
 - Windows
 targetos: Windows

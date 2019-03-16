@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateKeyedMutex
-title: D3DKMTCreateKeyedMutex function
+title: D3DKMTCreateKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateKeyedMutex
+- D3DKMTCreateKeyedMutex
 product:
 - Windows
 targetos: Windows

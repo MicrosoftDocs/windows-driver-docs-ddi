@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.MapAllocatedPages
-title: IPortWaveRTStream::MapAllocatedPages
+title: IPortWaveRTStream::MapAllocatedPages (portcls.h)
 description: The MapAllocatedPages method maps a list of previously allocated physical pages into a contiguous block of virtual memory that is accessible from kernel-mode.
 old-location: audio\iportwavertstream_mapallocatedpages.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.MapAllocatedPages
+- IPortWaveRTStream.MapAllocatedPages
 product:
 - Windows
 targetos: Windows

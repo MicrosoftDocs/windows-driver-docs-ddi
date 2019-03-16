@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTTryStopDeviceFailRestart
-title: IWDTFPNPAction2::EDTTryStopDeviceFailRestart
+title: IWDTFPNPAction2::EDTTryStopDeviceFailRestart (wdtfpnpaction.h)
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and then fail the subsequent device restart.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevicefailrestart.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.EDTTryStopDeviceFailRestart
+- IWDTFPNPAction2.EDTTryStopDeviceFailRestart
 product:
 - Windows
 targetos: Windows

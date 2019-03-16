@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAcquireRemoveLock
-title: IoAcquireRemoveLock macro
+title: IoAcquireRemoveLock macro (wdm.h)
 description: The IoAcquireRemoveLock routine increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack or deleted.
 old-location: kernel\ioacquireremovelock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAcquireRemoveLock
+- IoAcquireRemoveLock
 product:
 - Windows
 targetos: Windows

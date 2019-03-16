@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_WMI_REQUEST_BLOCK
-title: "_SCSI_WMI_REQUEST_BLOCK"
+title: _SCSI_WMI_REQUEST_BLOCK (storport.h)
 description: This structure is a special version of a SCSI_REQUEST_BLOCK for use with WMI commands.
 old-location: storage\scsi_wmi_request_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	srb.h
+- srb.h
 api_name:
--	SCSI_WMI_REQUEST_BLOCK
+- SCSI_WMI_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

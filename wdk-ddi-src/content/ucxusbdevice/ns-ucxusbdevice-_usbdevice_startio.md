@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_STARTIO
-title: "_USBDEVICE_STARTIO"
+title: _USBDEVICE_STARTIO (ucxusbdevice.h)
 description: Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer.
 old-location: buses\_usbdevice_startio.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	USBDEVICE_STARTIO
+- USBDEVICE_STARTIO
 product:
 - Windows
 targetos: Windows

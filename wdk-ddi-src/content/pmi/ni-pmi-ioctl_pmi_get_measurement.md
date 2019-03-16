@@ -1,6 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_GET_MEASUREMENT
-title: IOCTL_PMI_GET_MEASUREMENT
+title: IOCTL_PMI_GET_MEASUREMENT (pmi.h)
 description: The IOCTL_PMI_GET_MEASUREMENT request returns the current measurement data from a power meter.
 old-location: powermeter\ioctl_pmi_get_measurement.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pmi.h
+- Pmi.h
 api_name:
--	IOCTL_PMI_GET_MEASUREMENT
+- IOCTL_PMI_GET_MEASUREMENT
 product:
 - Windows
 targetos: Windows

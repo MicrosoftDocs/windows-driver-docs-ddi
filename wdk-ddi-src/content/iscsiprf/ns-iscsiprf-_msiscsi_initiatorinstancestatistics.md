@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorInstanceStatistics
-title: "_MSiSCSI_InitiatorInstanceStatistics"
+title: _MSiSCSI_InitiatorInstanceStatistics (iscsiprf.h)
 description: The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI initiators to report initiator statistics.
 old-location: storage\msiscsi_initiatorinstancestatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_InitiatorInstanceStatistics
+- MSiSCSI_InitiatorInstanceStatistics
 product:
 - Windows
 targetos: Windows

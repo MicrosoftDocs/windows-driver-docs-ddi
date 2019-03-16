@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCECOPYREGION
-title: PFND3D10DDI_RESOURCECOPYREGION
+title: PFND3D10DDI_RESOURCECOPYREGION (d3d10umddi.h)
 description: The ResourceCopyRegion function copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion.htm
 ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceCopyRegion
+- ResourceCopyRegion
 product:
 - Windows
 targetos: Windows

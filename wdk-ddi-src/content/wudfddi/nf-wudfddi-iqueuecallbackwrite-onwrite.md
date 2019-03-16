@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackWrite.OnWrite
-title: IQueueCallbackWrite::OnWrite
+title: IQueueCallbackWrite::OnWrite (wudfddi.h)
 description: The OnWrite method is called to handle a write request when an application writes information to a device through the Microsoft Win32 WriteFile or WriteFileEx function.
 old-location: wdf\iqueuecallbackwrite_onwrite.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IQueueCallbackWrite.OnWrite
+- IQueueCallbackWrite.OnWrite
 product:
 - Windows
 targetos: Windows

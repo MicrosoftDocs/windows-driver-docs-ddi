@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExRegisterCallback
-title: ExRegisterCallback function
+title: ExRegisterCallback function (wdm.h)
 description: The ExRegisterCallback routine registers a given callback routine with a given callback object.
 old-location: kernel\exregistercallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExRegisterCallback
+- ExRegisterCallback
 product:
 - Windows
 targetos: Windows

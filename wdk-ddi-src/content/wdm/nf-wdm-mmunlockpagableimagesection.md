@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnlockPagableImageSection
-title: MmUnlockPagableImageSection function
+title: MmUnlockPagableImageSection function (wdm.h)
 description: The MmUnlockPagableImageSection routine releases a section of driver code or driver data, previously locked into system space with MmLockPagableCodeSection, MmLockPagableDataSection or MmLockPagableSectionByHandle, so the section can be paged out again.
 old-location: kernel\mmunlockpagableimagesection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnlockPagableImageSection
+- MmUnlockPagableImageSection
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._INTERFACE_TYPE
-title: "_INTERFACE_TYPE"
+title: _INTERFACE_TYPE (wdm.h)
 description: The INTERFACE_TYPE enumeration indicates the bus type.
 old-location: kernel\interface_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	INTERFACE_TYPE
+- INTERFACE_TYPE
 product:
 - Windows
 targetos: Windows

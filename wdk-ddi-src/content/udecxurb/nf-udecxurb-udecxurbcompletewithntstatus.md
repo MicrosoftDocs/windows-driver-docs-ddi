@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbCompleteWithNtStatus
-title: UdecxUrbCompleteWithNtStatus function
+title: UdecxUrbCompleteWithNtStatus function (udecxurb.h)
 description: Completes the URB request with an NTSTATUS code.
 old-location: buses\udecxurbcompletewithntstatus.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUrbCompleteWithNtStatus
+- UdecxUrbCompleteWithNtStatus
 product:
 - Windows
 targetos: Windows

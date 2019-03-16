@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETPOINTERPOSITION
-title: DXGKDDI_SETPOINTERPOSITION
+title: DXGKDDI_SETPOINTERPOSITION (d3dkmddi.h)
 description: The DxgkDdiSetPointerPosition function sets the location and visibility state of the mouse pointer.
 old-location: display\dxgkddisetpointerposition.htm
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiSetPointerPosition
+- DxgkDdiSetPointerPosition
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEDOMAINSHADER
-title: PFND3D11DDI_CREATEDOMAINSHADER
+title: PFND3D11DDI_CREATEDOMAINSHADER (d3d10umddi.h)
 description: The CreateDomainShader function creates a domain shader.
 old-location: display\createdomainshader.htm
 ms.assetid: 534c292a-b3ef-41aa-868a-f5e57b90d789
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateDomainShader
+- CreateDomainShader
 product:
 - Windows
 targetos: Windows

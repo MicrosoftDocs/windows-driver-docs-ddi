@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITOR_INTERFACE_V2
-title: "_DXGK_MONITOR_INTERFACE_V2"
+title: _DXGK_MONITOR_INTERFACE_V2 (d3dkmddi.h)
 description: The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the Monitor Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitor_interface_v2.htm
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MONITOR_INTERFACE_V2
+- DXGK_MONITOR_INTERFACE_V2
 product:
 - Windows
 targetos: Windows

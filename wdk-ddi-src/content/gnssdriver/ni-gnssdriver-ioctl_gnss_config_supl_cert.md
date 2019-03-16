@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_CONFIG_SUPL_CERT
-title: IOCTL_GNSS_CONFIG_SUPL_CERT
+title: IOCTL_GNSS_CONFIG_SUPL_CERT (gnssdriver.h)
 description: The IOCTL_GNSS_CONFIG_SUPL_CERT control code is used by the GNSS adapter to set SUPL certificates.
 old-location: gnss\ioctl_gnss_config_supl_cert.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	IOCTL_GNSS_CONFIG_SUPL_CERT
+- IOCTL_GNSS_CONFIG_SUPL_CERT
 product:
 - Windows
 targetos: Windows

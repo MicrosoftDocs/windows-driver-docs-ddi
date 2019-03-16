@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_PIPELINE_STATE_0033
-title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
+title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033 (d3d12umddi.h)
 description: Creates a pipeline state.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_PIPELINE_STATE_0033
+- D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 product:
 - Windows
 targetos: Windows

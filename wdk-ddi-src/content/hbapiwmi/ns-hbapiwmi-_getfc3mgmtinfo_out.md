@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC3MgmtInfo_OUT
-title: "_GetFC3MgmtInfo_OUT"
+title: _GetFC3MgmtInfo_OUT (hbapiwmi.h)
 description: The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the GetFC3MgmtInfo WMI method to the WMI client.
 old-location: storage\getfc3mgmtinfo_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetFC3MgmtInfo_OUT
+- GetFC3MgmtInfo_OUT
 product:
 - Windows
 targetos: Windows

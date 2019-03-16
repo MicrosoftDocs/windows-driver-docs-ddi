@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxSetLlcpConfig
-title: NfcCxSetLlcpConfig function
+title: NfcCxSetLlcpConfig function (nfccx.h)
 description: Called by the client driver to configure the LLCP parameters.
 old-location: nfpdrivers\_nfccxsetllcpconfig.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxSetLlcpConfig
+- NfcCxSetLlcpConfig
 product:
 - Windows
 targetos: Windows

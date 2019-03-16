@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.GetInterestMask
-title: IDebugEventCallbacks::GetInterestMask
+title: IDebugEventCallbacks::GetInterestMask (dbgeng.h)
 description: The GetInterestMask callback method is called to determine which events the IDebugEventCallbacks object is interested in. The engine calls GetInterestMask when the object is registered with a client by using SetEventCallbacks.
 old-location: debugger\idebugeventcallbacks_getinterestmask.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacks.GetInterestMask
+- IDebugEventCallbacks.GetInterestMask
 product:
 - Windows
 targetos: Windows

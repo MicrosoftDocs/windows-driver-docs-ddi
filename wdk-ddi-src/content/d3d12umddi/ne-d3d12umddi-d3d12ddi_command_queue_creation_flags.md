@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
-title: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
+title: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS (d3d12umddi.h)
 description: Defines command queue creation options.
 old-location: display\d3d12ddi_command_queue_creation_flags.htm
 ms.assetid: 6BA4B1B4-07D6-4498-BDA4-C559FB3E8843
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
+- D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECRYPTIONBLT
-title: PFND3DDDI_DECRYPTIONBLT
+title: PFND3DDDI_DECRYPTIONBLT (d3dumddi.h)
 description: The DecryptionBlt function writes data to a protected surface.
 old-location: display\decryptionblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DecryptionBlt
+- DecryptionBlt
 product:
 - Windows
 targetos: Windows

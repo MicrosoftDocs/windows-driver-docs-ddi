@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.BOUND_CALLBACK
-title: BOUND_CALLBACK
+title: BOUND_CALLBACK (wdm.h)
 description: The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread.
 old-location: kernel\boundcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	BoundCallback
+- BoundCallback
 product:
 - Windows
 targetos: Windows

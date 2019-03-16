@@ -1,6 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_GET_INFO
-title: IOCTL_SCSISCAN_GET_INFO
+title: IOCTL_SCSISCAN_GET_INFO (scsiscan.h)
 description: The IOCTL_SCSISCAN_GET_INFO I/O control code returns device information.
 old-location: image\ioctl_scsiscan_get_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiscan.h
+- scsiscan.h
 api_name:
--	IOCTL_SCSISCAN_GET_INFO
+- IOCTL_SCSISCAN_GET_INFO
 product:
 - Windows
 targetos: Windows

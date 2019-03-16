@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInvalidateDeviceRelations
-title: IoInvalidateDeviceRelations function
+title: IoInvalidateDeviceRelations function (wdm.h)
 description: The IoInvalidateDeviceRelations routine notifies the PnP manager that the relations for a device (such as bus relations, ejection relations, removal relations, and the target device relation) have changed.
 old-location: kernel\ioinvalidatedevicerelations.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInvalidateDeviceRelations
+- IoInvalidateDeviceRelations
 product:
 - Windows
 targetos: Windows

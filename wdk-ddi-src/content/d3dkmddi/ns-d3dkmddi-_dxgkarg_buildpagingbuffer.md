@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BUILDPAGINGBUFFER
-title: "_DXGKARG_BUILDPAGINGBUFFER"
+title: _DXGKARG_BUILDPAGINGBUFFER (d3dkmddi.h)
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_BUILDPAGINGBUFFER
+- DXGKARG_BUILDPAGINGBUFFER
 product:
 - Windows
 targetos: Windows

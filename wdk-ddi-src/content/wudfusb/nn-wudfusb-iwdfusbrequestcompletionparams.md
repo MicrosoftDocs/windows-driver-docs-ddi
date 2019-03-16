@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbRequestCompletionParams
-title: IWDFUsbRequestCompletionParams
+title: IWDFUsbRequestCompletionParams (wudfusb.h)
 description: The IWDFUsbRequestCompletionParams interface exposes the parameters object for the completion of a USB request object. The parameters object is primarily required for asynchronous I/O and layered drivers.
 old-location: wdf\iwdfusbrequestcompletionparams.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbRequestCompletionParams
+- IWDFUsbRequestCompletionParams
 product:
 - Windows
 targetos: Windows

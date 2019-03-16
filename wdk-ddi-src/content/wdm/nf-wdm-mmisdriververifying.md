@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmIsDriverVerifying
-title: MmIsDriverVerifying function
+title: MmIsDriverVerifying function (wdm.h)
 description: The MmIsDriverVerifying routine indicates whether the kernel-mode driver that is identified by the specified driver object is being verified or calls a driver that is being verified by Driver Verifier.
 old-location: kernel\mmisdriververifying.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmIsDriverVerifying
+- MmIsDriverVerifying
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeSetKernelStackSwapEnable
-title: KeSetKernelStackSwapEnable function
+title: KeSetKernelStackSwapEnable function (ntifs.h)
 description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
 old-location: kernel\kesetkernelstackswapenable.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetKernelStackSwapEnable
+- KeSetKernelStackSwapEnable
 product:
 - Windows
 targetos: Windows

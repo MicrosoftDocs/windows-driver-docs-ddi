@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMdl
-title: NdisFreeMdl function
+title: NdisFreeMdl function (ndis.h)
 description: The NdisFreeMdl function frees an MDL that was allocated by calling the NdisAllocateMdl function.
 old-location: netvista\ndisfreemdl.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeMdl
+- NdisFreeMdl
 product:
 - Windows
 targetos: Windows

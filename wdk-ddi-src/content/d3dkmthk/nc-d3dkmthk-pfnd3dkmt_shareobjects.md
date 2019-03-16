@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SHAREOBJECTS
-title: PFND3DKMT_SHAREOBJECTS
+title: PFND3DKMT_SHAREOBJECTS (d3dkmthk.h)
 description: The PFND3DKMT_SHAREOBJECTS callback function shares resource objects that were created with the D3DKMTCreateAllocation, D3DKMTCreateKeyedMutex2, and D3DKMTCreateSynchronizationObject2 functions.
 ms.assetid: 735eae78-aded-49b2-9c8e-7404ce15a143
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SHAREOBJECTS
+- PFND3DKMT_SHAREOBJECTS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

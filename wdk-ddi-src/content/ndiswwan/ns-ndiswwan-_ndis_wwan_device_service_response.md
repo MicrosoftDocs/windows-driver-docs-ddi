@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_RESPONSE
-title: "_NDIS_WWAN_DEVICE_SERVICE_RESPONSE"
+title: _NDIS_WWAN_DEVICE_SERVICE_RESPONSE (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure represents device service data from the transaction completion of a device service command.
 old-location: netvista\ndis_wwan_device_service_response.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_SERVICE_RESPONSE
+- NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 product:
 - Windows
 targetos: Windows

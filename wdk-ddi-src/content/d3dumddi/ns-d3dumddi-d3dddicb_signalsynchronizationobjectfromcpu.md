@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU (d3dumddi.h)
 description: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU is used with pfnSignalSynchronizationObjectFromCpuCb to enable a driver to signal a monitored fence.
 old-location: display\d3dddicb_signalsynchronizationobjectfromcpu.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+- D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmAddDataSetRange
-title: DeviceDsmAddDataSetRange function
+title: DeviceDsmAddDataSetRange function (ntddstor.h)
 description: The DeviceDsmAddDataSetRange function adds a data set range to a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 22dca47e-9542-486a-bbf3-053cbd3fccd9
 ms.date: 04/06/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmAddDataSetRange
+- DeviceDsmAddDataSetRange
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

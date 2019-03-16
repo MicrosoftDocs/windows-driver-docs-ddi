@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._STOR_ADDRESS
-title: "_STOR_ADDRESS"
+title: _STOR_ADDRESS (scsi.h)
 description: A general structure for holding a storage device address.
 old-location: storage\stor_address.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_ADDRESS
+- STOR_ADDRESS
 product:
 - Windows
 targetos: Windows

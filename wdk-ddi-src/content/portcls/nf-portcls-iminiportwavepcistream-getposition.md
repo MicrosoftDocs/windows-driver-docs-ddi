@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.GetPosition
-title: IMiniportWavePciStream::GetPosition
+title: IMiniportWavePciStream::GetPosition (portcls.h)
 description: The GetPosition method gets the current position of the stream.
 old-location: audio\iminiportwavepcistream_getposition.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWavePciStream.GetPosition
+- IMiniportWavePciStream.GetPosition
 product:
 - Windows
 targetos: Windows

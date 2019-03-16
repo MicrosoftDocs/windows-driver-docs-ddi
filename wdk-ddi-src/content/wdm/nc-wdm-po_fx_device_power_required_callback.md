@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_DEVICE_POWER_REQUIRED_CALLBACK
-title: PO_FX_DEVICE_POWER_REQUIRED_CALLBACK
+title: PO_FX_DEVICE_POWER_REQUIRED_CALLBACK (wdm.h)
 description: The DevicePowerRequiredCallback callback routine notifies the device driver that the device must enter and remain in the D0 power state.
 old-location: kernel\devicepowerrequiredcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DevicePowerRequiredCallback
+- DevicePowerRequiredCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbDeviceInitialize
-title: SpbDeviceInitialize function
+title: SpbDeviceInitialize function (spbcx.h)
 description: The SpbDeviceInitialize method completes the initialization of the SPB controller driver after this driver creates the associated device object.
 old-location: spb\spbdeviceinitialize.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbDeviceInitialize
+- SpbDeviceInitialize
 product:
 - Windows
 targetos: Windows

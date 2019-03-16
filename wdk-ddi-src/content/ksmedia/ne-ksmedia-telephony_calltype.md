@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_22
-title: TELEPHONY_CALLTYPE
+title: TELEPHONY_CALLTYPE (ksmedia.h)
 description: The TELEPHONY_CALLTYPE enumeration defines constants that specify the type of phone call.
 old-location: audio\telephony_calltype.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TELEPHONY_CALLTYPE
+- TELEPHONY_CALLTYPE
 product:
 - Windows
 targetos: Windows

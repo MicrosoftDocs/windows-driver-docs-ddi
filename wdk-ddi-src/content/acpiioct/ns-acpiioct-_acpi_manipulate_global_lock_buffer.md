@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-title: "_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER"
+title: _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER (acpiioct.h)
 description: This topic describes the ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure.
 old-location: acpi\acpi_manipulate_global_lock_buffer.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
+- ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 product:
 - Windows
 targetos: Windows

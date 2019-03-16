@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCoOidRequestComplete
-title: NdisMCoOidRequestComplete function
+title: NdisMCoOidRequestComplete function (ndis.h)
 description: The NdisMCoOidRequestComplete function returns the final status of an OID requestthat a miniport driver's MiniportCoOidRequest function returned NDIS_STATUS_PENDING for.
 old-location: netvista\ndismcooidrequestcomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMCoOidRequestComplete
+- NdisMCoOidRequestComplete
 product:
 - Windows
 targetos: Windows

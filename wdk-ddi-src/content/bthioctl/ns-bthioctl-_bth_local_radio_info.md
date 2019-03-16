@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_LOCAL_RADIO_INFO
-title: "_BTH_LOCAL_RADIO_INFO"
+title: _BTH_LOCAL_RADIO_INFO (bthioctl.h)
 description: The BTH_LOCAL_RADIO_INFO structure contains information about the local Bluetooth system and radio.
 old-location: bltooth\bth_local_radio_info.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_LOCAL_RADIO_INFO
+- BTH_LOCAL_RADIO_INFO
 product:
 - Windows
 targetos: Windows

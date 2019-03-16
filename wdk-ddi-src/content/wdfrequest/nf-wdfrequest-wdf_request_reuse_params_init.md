@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_REUSE_PARAMS_INIT
-title: WDF_REQUEST_REUSE_PARAMS_INIT function
+title: WDF_REQUEST_REUSE_PARAMS_INIT function (wdfrequest.h)
 description: The WDF_REQUEST_REUSE_PARAMS_INIT function initializes a driver's WDF_REQUEST_REUSE_PARAMS structure.
 old-location: wdf\wdf_request_reuse_params_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_REUSE_PARAMS_INIT
+- WDF_REQUEST_REUSE_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

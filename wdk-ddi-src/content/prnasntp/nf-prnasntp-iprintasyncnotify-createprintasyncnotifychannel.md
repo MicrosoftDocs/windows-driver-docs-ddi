@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
+- IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
 product:
 - Windows
 targetos: Windows

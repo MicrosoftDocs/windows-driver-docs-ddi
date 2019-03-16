@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibEnumerateSystemFirmwareTables
-title: AuxKlibEnumerateSystemFirmwareTables function
+title: AuxKlibEnumerateSystemFirmwareTables function (aux_klib.h)
 description: The AuxKlibEnumerateSystemFirmwareTables routine enumerates all system firmware tables of the specified type.
 old-location: kernel\auxklibenumeratesystemfirmwaretables.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Aux_Klib.lib
--	Aux_Klib.dll
+- Aux_Klib.lib
+- Aux_Klib.dll
 api_name:
--	AuxKlibEnumerateSystemFirmwareTables
+- AuxKlibEnumerateSystemFirmwareTables
 product:
 - Windows
 targetos: Windows

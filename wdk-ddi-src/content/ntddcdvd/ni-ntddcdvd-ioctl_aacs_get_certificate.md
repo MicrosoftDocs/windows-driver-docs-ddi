@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_GET_CERTIFICATE
-title: IOCTL_AACS_GET_CERTIFICATE
+title: IOCTL_AACS_GET_CERTIFICATE (ntddcdvd.h)
 description: Queries the logical unit for the device certificate.
 old-location: storage\ioctl_aacs_get_certificate.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_GET_CERTIFICATE
+- IOCTL_AACS_GET_CERTIFICATE
 product:
 - Windows
 targetos: Windows

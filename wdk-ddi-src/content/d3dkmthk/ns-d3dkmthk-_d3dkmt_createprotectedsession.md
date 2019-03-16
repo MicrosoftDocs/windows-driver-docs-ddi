@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEPROTECTEDSESSION
-title: "_D3DKMT_CREATEPROTECTEDSESSION"
+title: _D3DKMT_CREATEPROTECTEDSESSION (d3dkmthk.h)
 description: Used to create a protected session.
 old-location: display\d3dkmt-createprotectedsession.htm
 ms.assetid: 4ec42f5a-df33-4da3-a959-64cb400f3177
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEPROTECTEDSESSION
+- D3DKMT_CREATEPROTECTEDSESSION
 product:
 - Windows
 targetos: Windows

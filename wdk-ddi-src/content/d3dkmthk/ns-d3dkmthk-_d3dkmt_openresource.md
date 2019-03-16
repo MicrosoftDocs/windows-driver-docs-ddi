@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENRESOURCE
-title: "_D3DKMT_OPENRESOURCE"
+title: _D3DKMT_OPENRESOURCE (d3dkmthk.h)
 description: The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 old-location: display\d3dkmt_openresource.htm
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_OPENRESOURCE
+- D3DKMT_OPENRESOURCE
 product:
 - Windows
 targetos: Windows

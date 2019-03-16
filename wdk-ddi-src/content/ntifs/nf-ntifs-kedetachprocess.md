@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeDetachProcess
-title: KeDetachProcess function
+title: KeDetachProcess function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\kedetachprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	KeDetachProcess
+- KeDetachProcess
 product:
 - Windows
 targetos: Windows

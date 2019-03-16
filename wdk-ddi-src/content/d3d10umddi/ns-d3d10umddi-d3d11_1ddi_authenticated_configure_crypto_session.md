@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION (d3d10umddi.h)
 description: Contains input data for a call to the ConfigureAuthenticatedChannel(D3D11_1) function when D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureType has a GUID value of D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION.
 old-location: display\d3d11_1ddi_authenticated_configure_crypto_session.htm
 ms.assetid: 667429cb-0db8-4139-af5a-c3275b68a507
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
+- D3D11_1DDI_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION
 product:
 - Windows
 targetos: Windows

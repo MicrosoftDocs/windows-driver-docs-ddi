@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEvict
-title: D3DKMTEvict function
+title: D3DKMTEvict function (d3dkmthk.h)
 description: D3DKMTEvict is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\d3dkmtevict.htm
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTEvict
+- D3DKMTEvict
 product:
 - Windows
 targetos: Windows

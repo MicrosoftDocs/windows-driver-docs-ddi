@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_STDVAR
-title: "_GETINFO_STDVAR"
+title: _GETINFO_STDVAR (printoem.h)
 description: The GETINFO_STDVAR structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_stdvar.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	GETINFO_STDVAR
+- GETINFO_STDVAR
 product:
 - Windows
 targetos: Windows

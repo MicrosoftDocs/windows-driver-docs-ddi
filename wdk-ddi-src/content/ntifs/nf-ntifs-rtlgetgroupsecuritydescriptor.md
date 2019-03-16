@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetGroupSecurityDescriptor
-title: RtlGetGroupSecurityDescriptor function
+title: RtlGetGroupSecurityDescriptor function (ntifs.h)
 description: The RtlGetGroupSecurityDescriptor routine returns the primary group information for a given security descriptor.
 old-location: ifsk\rtlgetgroupsecuritydescriptor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetGroupSecurityDescriptor
+- RtlGetGroupSecurityDescriptor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Remove
-title: IWDFIoTargetStateManagement::Remove
+title: IWDFIoTargetStateManagement::Remove (wudfddi.h)
 description: The Remove method removes a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_remove.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTargetStateManagement.Remove
+- IWDFIoTargetStateManagement.Remove
 product:
 - Windows
 targetos: Windows

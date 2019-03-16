@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTSub
-title: RtlPtrdiffTSub function
+title: RtlPtrdiffTSub function (ntintsafe.h)
 description: Subtracts one value of type PTRDIFF_T from another.
 old-location: kernel\rtlptrdifftsub.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlPtrdiffTSub
+- RtlPtrdiffTSub
 product:
 - Windows
 targetos: Windows

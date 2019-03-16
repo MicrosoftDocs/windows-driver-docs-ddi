@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiSetData
-title: ScsiPortWmiSetData function
+title: ScsiPortWmiSetData function (scsiwmi.h)
 description: The ScsiPortWmiSetData routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of the data for an instance.
 old-location: storage\scsiportwmisetdata.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Scsiwmi.h
+- Scsiwmi.h
 api_name:
--	ScsiPortWmiSetData
+- ScsiPortWmiSetData
 product:
 - Windows
 targetos: Windows

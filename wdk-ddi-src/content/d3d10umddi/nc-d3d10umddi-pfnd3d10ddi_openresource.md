@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_OPENRESOURCE
-title: PFND3D10DDI_OPENRESOURCE
+title: PFND3D10DDI_OPENRESOURCE (d3d10umddi.h)
 description: The OpenResource(D3D10) function opens a shared resource.
 old-location: display\openresource_d3d10_.htm
 ms.assetid: 95f6d1e5-0c85-41ce-ad6d-f10d5103e2eb
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	OpenResource
+- OpenResource
 product:
 - Windows
 targetos: Windows

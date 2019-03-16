@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_HUB_NODE
-title: "_USB_HUB_NODE"
+title: _USB_HUB_NODE (usbioctl.h)
 description: The USB_HUB_NODE enumerator indicates whether a device is a hub or a composite device.
 old-location: buses\usb_hub_node.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_HUB_NODE
+- USB_HUB_NODE
 product:
 - Windows
 targetos: Windows
@@ -78,7 +78,7 @@ Composite devices are devices that have multiple interfaces. Windows loads the U
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/#enumerations">USB Constants and Enumerations</a>
 
 
 

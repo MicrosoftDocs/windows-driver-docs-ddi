@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_CPRM
-title: "_FEATURE_DATA_DVD_CPRM"
+title: _FEATURE_DATA_DVD_CPRM (ntddmmc.h)
 description: The FEATURE_DATA_DVD_CPRM structure holds information about the DVD Content Protection for Recorded Media (CPRM) feature.
 old-location: storage\feature_data_dvd_cprm.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_DVD_CPRM
+- FEATURE_DATA_DVD_CPRM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWRECTPATCH
-title: PFND3DDDI_DRAWRECTPATCH
+title: PFND3DDDI_DRAWRECTPATCH (d3dumddi.h)
 description: The DrawRectPatch function draws a new or cached rectangular patch or updates the specification of a previously defined patch.
 old-location: display\drawrectpatch.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DrawRectPatch
+- DrawRectPatch
 product:
 - Windows
 targetos: Windows

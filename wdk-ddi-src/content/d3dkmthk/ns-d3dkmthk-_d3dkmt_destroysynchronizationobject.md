@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
-title: "_D3DKMT_DESTROYSYNCHRONIZATIONOBJECT"
+title: _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dkmt_destroysynchronizationobject.htm
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
+- D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 product:
 - Windows
 targetos: Windows

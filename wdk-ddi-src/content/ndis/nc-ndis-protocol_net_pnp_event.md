@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_NET_PNP_EVENT
-title: PROTOCOL_NET_PNP_EVENT
+title: PROTOCOL_NET_PNP_EVENT (ndis.h)
 description: NDIS calls the ProtocolNetPnPEvent function to indicate a network Plug and Play event, an NDIS PnP event, or a power management event to a protocol driver.Note  You must declare the function by using the PROTOCOL_NET_PNP_EVENT type.
 old-location: netvista\protocolnetpnpevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolNetPnPEvent
+- ProtocolNetPnPEvent
 product:
 - Windows
 targetos: Windows

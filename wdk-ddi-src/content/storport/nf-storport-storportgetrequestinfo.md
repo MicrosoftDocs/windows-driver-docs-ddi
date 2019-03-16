@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetRequestInfo
-title: StorPortGetRequestInfo function
+title: StorPortGetRequestInfo function (storport.h)
 description: The StorPortGetRequestInfo routine retrieves the IO request information associated with a SCSI request block (SRB) and returns it in a STOR_REQUEST_INFO structure.
 old-location: storage\storportgetrequestinfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetRequestInfo
+- StorPortGetRequestInfo
 product:
 - Windows
 targetos: Windows

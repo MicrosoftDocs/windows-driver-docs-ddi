@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
-title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
+title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 (d3d12umddi.h)
 description: Video decode conversion support data.
 old-location: display\d3d12ddi-video-decode-conversion-support-data-0032.htm
 ms.assetid: 1395fe30-9bbf-433c-8696-a0f842bad10e
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
+- D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 product:
 - Windows
 targetos: Windows

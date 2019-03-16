@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._IO_SCSI_CAPABILITIES
-title: "_IO_SCSI_CAPABILITIES"
+title: _IO_SCSI_CAPABILITIES (ntddscsi.h)
 description: The IO_SCSI_CAPABILITIES structure is used in conjunction with the IOCTL_SCSI_GET_CAPABILITIES request to retrieve the capabilities and limitations of the underlying SCSI host adapter.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\io_scsi_capabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	IO_SCSI_CAPABILITIES
+- IO_SCSI_CAPABILITIES
 product:
 - Windows
 targetos: Windows

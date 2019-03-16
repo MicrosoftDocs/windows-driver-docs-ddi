@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaCapabilities
-title: IPrintSchemaCapabilities
+title: IPrintSchemaCapabilities (printerextension.h)
 description: Provides the primary method to access PrintCapabilities.
 old-location: print\iprintschemacapabilities_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities
+- IPrintSchemaCapabilities
 product:
 - Windows
 targetos: Windows

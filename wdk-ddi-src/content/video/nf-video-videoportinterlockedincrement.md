@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortInterlockedIncrement
-title: VideoPortInterlockedIncrement function
+title: VideoPortInterlockedIncrement function (video.h)
 description: The VideoPortInterlockedIncrement function increments a caller-supplied variable as an atomic operation.
 old-location: display\videoportinterlockedincrement.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortInterlockedIncrement
+- VideoPortInterlockedIncrement
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_REGISTER_MR
-title: NDK_FN_REGISTER_MR
+title: NDK_FN_REGISTER_MR (ndkpi.h)
 description: The NdkRegisterMr (NDK_FN_REGISTER_MR) function registers a virtually contiguous memory region with an NDK adapter.
 old-location: netvista\ndk_fn_register_mr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkRegisterMr
+- NdkRegisterMr
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_FILLDDITTABLE
-title: PFND3D12DDI_FILLDDITTABLE
+title: PFND3D12DDI_FILLDDITTABLE (d3d12umddi.h)
 description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FUNCS_VIDEO structure.
 ms.assetid: af03fe9b-c950-4045-9234-0e8700262854
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_FILLDDITTABLE
+- PFND3D12DDI_FILLDDITTABLE
 product: 
 - Windows
 targetos: Windows

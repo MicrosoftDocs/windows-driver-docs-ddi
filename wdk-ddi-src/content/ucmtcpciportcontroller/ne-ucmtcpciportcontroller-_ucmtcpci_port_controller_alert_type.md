@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-title: "_UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE"
+title: _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE (ucmtcpciportcontroller.h)
 description: Defines generic alert values that are used to indicate the type of hardware alert received on the port controller.
 old-location: buses\ucmtcpci_port_controller_alert_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
+- UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 product:
 - Windows
 targetos: Windows

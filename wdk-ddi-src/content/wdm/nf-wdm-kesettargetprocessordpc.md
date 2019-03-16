@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetTargetProcessorDpc
-title: KeSetTargetProcessorDpc function
+title: KeSetTargetProcessorDpc function (wdm.h)
 description: The KeSetTargetProcessorDpc routine specifies the processor that a DPC routine will be run on.
 old-location: kernel\kesettargetprocessordpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetTargetProcessorDpc
+- KeSetTargetProcessorDpc
 product:
 - Windows
 targetos: Windows

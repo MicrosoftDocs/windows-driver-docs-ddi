@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_QUERY_LUID
-title: SRIOV_QUERY_LUID
+title: SRIOV_QUERY_LUID (pcivirt.h)
 description: Gets the local unique identifier of the SR-IOV device.
 old-location: pci\sriov_query_luid.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_QUERY_LUID
+- *PSRIOV_QUERY_LUID
 product:
 - Windows
 targetos: Windows

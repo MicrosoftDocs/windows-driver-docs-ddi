@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQuerySecurityObject
-title: NtQuerySecurityObject function
+title: NtQuerySecurityObject function (ntifs.h)
 description: The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor.
 old-location: kernel\zwquerysecurityobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQuerySecurityObject
--	NtQuerySecurityObject
+- ZwQuerySecurityObject
+- NtQuerySecurityObject
 product:
 - Windows
 targetos: Windows

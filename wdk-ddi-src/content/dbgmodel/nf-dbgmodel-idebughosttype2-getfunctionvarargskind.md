@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionVarArgsKind
-title: IDebugHostType2::GetFunctionVarArgsKind
+title: IDebugHostType2::GetFunctionVarArgsKind (dbgmodel.h)
 description: The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. 
 ms.assetid: 321e50d4-8359-43e3-a593-18c2bb2cac87
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetFunctionVarArgsKind
-product: Windows
+- IDebugHostType2.GetFunctionVarArgsKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

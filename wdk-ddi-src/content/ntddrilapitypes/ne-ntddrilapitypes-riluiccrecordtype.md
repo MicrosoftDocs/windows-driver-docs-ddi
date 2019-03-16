@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCRECORDTYPE
-title: RILUICCRECORDTYPE
+title: RILUICCRECORDTYPE (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCRECORDTYPE.
 old-location: netvista\riluiccrecordtype.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCRECORDTYPE
+- RILUICCRECORDTYPE
 product:
 - Windows
 targetos: Windows

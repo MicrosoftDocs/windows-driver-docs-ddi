@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeletePushLock
-title: FltDeletePushLock function
+title: FltDeletePushLock function (fltkernel.h)
 description: The FltDeletePushLock routine deletes a given push lock.
 old-location: ifsk\fltdeletepushlock.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltDeletePushLock
+- FltDeletePushLock
 product:
 - Windows
 targetos: Windows

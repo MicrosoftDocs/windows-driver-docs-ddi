@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxHardwareEvent
-title: NfcCxHardwareEvent function
+title: NfcCxHardwareEvent function (nfccx.h)
 description: Called by the client driver when a hardware event occurs like D0Entry and D0Exit callbacks to start or stop the device. For drivers that require firmware download on initialization or boot-up, it is recommended to move this call to a separate work item. However, the client driver is responsible for the following.
 old-location: nfpdrivers\_nfccxhardwareevent.htm
 tech.root: nfpdrivers
@@ -26,16 +26,16 @@ req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxHardwareEvent
+- NfcCxHardwareEvent
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosProfileType
-title: "_PosProfileType"
+title: _PosProfileType (pointofservicedriverinterface.h)
 description: This structure describes the number of profile strings in a buffer.
 old-location: pos\posprofiletype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosProfileType
+- PosProfileType
 product:
 - Windows
 targetos: Windows

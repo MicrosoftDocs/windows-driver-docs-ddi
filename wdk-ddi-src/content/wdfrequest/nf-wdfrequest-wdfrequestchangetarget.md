@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestChangeTarget
-title: WdfRequestChangeTarget function
+title: WdfRequestChangeTarget function (wdfrequest.h)
 description: The WdfRequestChangeTarget method verifies that a specified I/O request can be sent to a specified I/O target.
 old-location: wdf\wdfrequestchangetarget.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestChangeTarget
+- WdfRequestChangeTarget
 product:
 - Windows
 targetos: Windows

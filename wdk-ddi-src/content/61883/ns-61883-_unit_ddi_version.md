@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._UNIT_DDI_VERSION
-title: "_UNIT_DDI_VERSION"
+title: _UNIT_DDI_VERSION (61883.h)
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current 61883 DDI version.
 old-location: ieee\unit_ddi_version.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	UNIT_DDI_VERSION
+- UNIT_DDI_VERSION
 product:
 - Windows
 targetos: Windows

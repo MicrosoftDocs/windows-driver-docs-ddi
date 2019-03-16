@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetInformation
-title: IWDFUsbTargetPipe::GetInformation
+title: IWDFUsbTargetPipe::GetInformation (wudfusb.h)
 description: The GetInformation method retrieves information about a USB pipe (endpoint).
 old-location: wdf\iwdfusbtargetpipe_getinformation.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetPipe.GetInformation
+- IWDFUsbTargetPipe.GetInformation
 product:
 - Windows
 targetos: Windows

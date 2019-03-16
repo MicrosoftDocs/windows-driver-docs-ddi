@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._SE_IMAGE_TYPE
-title: _SE_IMAGE_TYPE
+title: _SE_IMAGE_TYPE (wdm.h)
 description: 
 ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: SE_IMAGE_TYPE, *PSE_IMAGE_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_SE_IMAGE_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _SE_IMAGE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

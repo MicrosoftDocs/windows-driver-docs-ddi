@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_PATH_FLAGS
-title: IDDCX_PATH_FLAGS
+title: IDDCX_PATH_FLAGS (iddcx.h)
 description: Indicates the state of the path.
 old-location: display\iddcx_path_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_PATH_FLAGS
+- IDDCX_PATH_FLAGS
 product:
 - Windows
 targetos: Windows

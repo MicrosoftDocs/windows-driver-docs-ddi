@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
-title: "_D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT"
+title: _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT (d3dumddi.h)
 description: The D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up the wait in a call to the pfnWaitForSynchronizationObjectCb function.
 old-location: display\d3dddicb_waitforsynchronizationobject.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
+- D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT
 product:
 - Windows
 targetos: Windows

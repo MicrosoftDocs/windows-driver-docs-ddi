@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetupAdvancedHeaderEx
-title: FsRtlSetupAdvancedHeaderEx macro
+title: FsRtlSetupAdvancedHeaderEx macro (ntifs.h)
 description: The FsRtlSetupAdvancedHeaderEx macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with both stream and file contexts.
 old-location: ifsk\fsrtlsetupadvancedheaderex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlSetupAdvancedHeaderEx
+- FsRtlSetupAdvancedHeaderEx
 product:
 - Windows
 targetos: Windows

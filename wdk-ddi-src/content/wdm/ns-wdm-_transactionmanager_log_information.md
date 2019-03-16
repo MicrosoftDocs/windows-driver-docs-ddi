@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_LOG_INFORMATION
-title: "_TRANSACTIONMANAGER_LOG_INFORMATION"
+title: _TRANSACTIONMANAGER_LOG_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_LOG_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_log_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRANSACTIONMANAGER_LOG_INFORMATION
+- TRANSACTIONMANAGER_LOG_INFORMATION
 product:
 - Windows
 targetos: Windows

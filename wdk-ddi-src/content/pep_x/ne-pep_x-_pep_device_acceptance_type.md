@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x._PEP_DEVICE_ACCEPTANCE_TYPE
-title: "_PEP_DEVICE_ACCEPTANCE_TYPE"
+title: _PEP_DEVICE_ACCEPTANCE_TYPE (pep_x.h)
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEVICE_ACCEPTANCE_TYPE
+- PEP_DEVICE_ACCEPTANCE_TYPE
 product:
 - Windows
 targetos: Windows

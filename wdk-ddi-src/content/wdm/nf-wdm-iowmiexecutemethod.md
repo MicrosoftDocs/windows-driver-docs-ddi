@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIExecuteMethod
-title: IoWMIExecuteMethod function
+title: IoWMIExecuteMethod function (wdm.h)
 description: The IoWMIExecuteMethod routine runs a WMI class method on the specified WMI data block instance.
 old-location: kernel\iowmiexecutemethod.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIExecuteMethod
+- IoWMIExecuteMethod
 product:
 - Windows
 targetos: Windows

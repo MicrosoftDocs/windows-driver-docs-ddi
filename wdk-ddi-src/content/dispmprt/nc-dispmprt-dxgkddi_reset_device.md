@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_RESET_DEVICE
-title: DXGKDDI_RESET_DEVICE
+title: DXGKDDI_RESET_DEVICE (dispmprt.h)
 description: The DxgkDdiResetDevice function sets a display adapter to VGA character mode (80 x 50).
 old-location: display\dxgkddiresetdevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiResetDevice
+- DxgkDdiResetDevice
 product:
 - Windows
 targetos: Windows

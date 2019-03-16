@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfiotarget.EVT_WDF_IO_TARGET_REMOVE_COMPLETE
-title: EVT_WDF_IO_TARGET_REMOVE_COMPLETE
+title: EVT_WDF_IO_TARGET_REMOVE_COMPLETE (wdfiotarget.h)
 description: A driver's EvtIoTargetRemoveComplete event callback function performs operations when the removal of a specified remote I/O target is complete.
 old-location: wdf\evtiotargetremovecomplete.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfIoTarget.h
+- WdfIoTarget.h
 api_name:
--	EvtIoTargetRemoveComplete
+- EvtIoTargetRemoveComplete
 product:
 - Windows
 targetos: Windows

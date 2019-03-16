@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_POWER_CONTROL_CALLBACK
-title: PO_FX_POWER_CONTROL_CALLBACK
+title: PO_FX_POWER_CONTROL_CALLBACK (wdm.h)
 description: The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
 old-location: kernel\powercontrolcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PowerControlCallback
+- PowerControlCallback
 product:
 - Windows
 targetos: Windows

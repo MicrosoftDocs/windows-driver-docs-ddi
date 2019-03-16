@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_AYUVsample2
-title: "_DXVA_AYUVsample2"
+title: _DXVA_AYUVsample2 (dxva.h)
 description: The DXVA_AYUVsample2 structure is sent by the host decoder to the accelerator to specify Y, Cb, Cr color values, and an associated opacity.
 old-location: display\dxva_ayuvsample2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_AYUVsample2
+- DXVA_AYUVsample2
 product:
 - Windows
 targetos: Windows

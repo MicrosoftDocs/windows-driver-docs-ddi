@@ -1,6 +1,6 @@
 ---
 UID: NC:srb.PHW_RESET_BUS
-title: PHW_RESET_BUS
+title: PHW_RESET_BUS (srb.h)
 description: The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bus.
 old-location: storage\phw_reset_bus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	srb.h
+- srb.h
 api_name:
--	(*PHW_RESET_BUS)
+- (*PHW_RESET_BUS)
 product:
 - Windows
 targetos: Windows

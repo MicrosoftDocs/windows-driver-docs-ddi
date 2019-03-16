@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVERTEXSHADERDECL
-title: "_D3DDDIARG_CREATEVERTEXSHADERDECL"
+title: _D3DDDIARG_CREATEVERTEXSHADERDECL (d3dumddi.h)
 description: The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to associate with the vertex shader declaration.
 old-location: display\d3dddiarg_createvertexshaderdecl.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_CREATEVERTEXSHADERDECL
+- D3DDDIARG_CREATEVERTEXSHADERDECL
 product:
 - Windows
 targetos: Windows

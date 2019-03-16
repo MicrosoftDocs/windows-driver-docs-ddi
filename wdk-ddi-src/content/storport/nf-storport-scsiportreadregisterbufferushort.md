@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadRegisterBufferUshort
-title: ScsiPortReadRegisterBufferUshort macro
+title: ScsiPortReadRegisterBufferUshort macro (storport.h)
 description: The ScsiPortReadRegisterBufferUshort routine transfers a specified number of USHORT values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterbufferushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortReadRegisterBufferUshort
+- ScsiPortReadRegisterBufferUshort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_INCOMING_METADATA_VALUES0_
-title: FWPS_INCOMING_METADATA_VALUES0_
+title: FWPS_INCOMING_METADATA_VALUES0_ (fwpsk.h)
 description: The FWPS_INCOMING_METADATA_VALUES0 structure defines metadata values that the filter engine passes to a callout's classifyFn callout function.Note  FWPS_INCOMING_METADATA_VALUES0 is a specific version of FWPS_INCOMING_METADATA_VALUES.
 old-location: netvista\fwps_incoming_metadata_values0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_INCOMING_METADATA_VALUES0
+- FWPS_INCOMING_METADATA_VALUES0
 product:
 - Windows
 targetos: Windows

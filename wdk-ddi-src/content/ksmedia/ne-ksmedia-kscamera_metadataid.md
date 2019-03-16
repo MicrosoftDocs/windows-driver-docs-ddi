@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_86
-title: KSCAMERA_MetadataId
+title: KSCAMERA_MetadataId (ksmedia.h)
 description: This enumeration contains identifiers for a metadata item.
 old-location: stream\kscamera_metadataid.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_MetadataId
+- KSCAMERA_MetadataId
 product:
 - Windows
 targetos: Windows

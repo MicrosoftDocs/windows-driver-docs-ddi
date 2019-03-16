@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsGetContainerName
-title: ClfsGetContainerName function
+title: ClfsGetContainerName function (wdm.h)
 description: The ClfsGetContainerName routine returns the path name of a specified container.
 old-location: kernel\clfsgetcontainername.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsGetContainerName
+- ClfsGetContainerName
 product:
 - Windows
 targetos: Windows

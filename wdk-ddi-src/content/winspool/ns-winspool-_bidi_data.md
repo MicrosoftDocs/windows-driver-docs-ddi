@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_DATA
-title: "_BIDI_DATA"
+title: _BIDI_DATA (winspool.h)
 description: The BIDI_DATA structure is used to store the values of a bidi schema.
 old-location: print\bidi_data.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BIDI_DATA
+- BIDI_DATA
 product:
 - Windows
 targetos: Windows

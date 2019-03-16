@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTISAMPLEMETHOD
-title: "_D3DKMT_MULTISAMPLEMETHOD"
+title: _D3DKMT_MULTISAMPLEMETHOD (d3dkmthk.h)
 description: The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 old-location: display\d3dkmt_multisamplemethod.htm
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_MULTISAMPLEMETHOD
+- D3DKMT_MULTISAMPLEMETHOD
 product:
 - Windows
 targetos: Windows

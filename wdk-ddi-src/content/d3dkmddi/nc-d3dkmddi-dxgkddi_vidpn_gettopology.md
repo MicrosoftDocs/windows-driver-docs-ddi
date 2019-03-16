@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_GETTOPOLOGY
-title: DXGKDDI_VIDPN_GETTOPOLOGY
+title: DXGKDDI_VIDPN_GETTOPOLOGY (d3dkmddi.h)
 description: The pfnGetTopology function returns a handle to the VidPN topology object contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetTopology
+- pfnGetTopology
 product:
 - Windows
 targetos: Windows

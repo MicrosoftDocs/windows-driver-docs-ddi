@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugDataSpaces2
-title: IDebugDataSpaces2
+title: IDebugDataSpaces2 (dbgeng.h)
 description: IDebugDataSpaces2 interface
 old-location: debugger\idebugdataspaces2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces2
+- IDebugDataSpaces2
 product:
 - Windows
 targetos: Windows

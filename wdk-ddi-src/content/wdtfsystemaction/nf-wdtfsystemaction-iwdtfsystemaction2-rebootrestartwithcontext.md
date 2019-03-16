@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.RebootRestartWithContext
-title: IWDTFSystemAction2::RebootRestartWithContext
+title: IWDTFSystemAction2::RebootRestartWithContext (wdtfsystemaction.h)
 description: Reboots the system and restarts the test script with context data.
 old-location: dtf\iwdtfsystemaction2_rebootrestartwithcontext.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.RebootRestartWithContext
+- IWDTFSystemAction2.RebootRestartWithContext
 product:
 - Windows
 targetos: Windows

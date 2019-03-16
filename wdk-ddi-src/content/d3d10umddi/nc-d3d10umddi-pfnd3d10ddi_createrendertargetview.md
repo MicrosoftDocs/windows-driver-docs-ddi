@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATERENDERTARGETVIEW
-title: PFND3D10DDI_CREATERENDERTARGETVIEW
+title: PFND3D10DDI_CREATERENDERTARGETVIEW (d3d10umddi.h)
 description: The CreateRenderTargetView function creates a render target view.
 old-location: display\createrendertargetview.htm
 ms.assetid: bf9fc732-5f9a-4fee-8ea0-19b140789463
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateRenderTargetView
+- CreateRenderTargetView
 product:
 - Windows
 targetos: Windows

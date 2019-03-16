@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
-title: tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+title: tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER (ksmedia.h)
 description: This structure contains the header information for ROI ISP controls.
 old-location: stream\kscamera_extendedprop_roi_ispcontrolheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
+- KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
 product:
 - Windows
 targetos: Windows

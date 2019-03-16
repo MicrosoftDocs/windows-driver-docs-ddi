@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_LIST
-title: _NDIS_WWAN_MPDP_LIST
+title: _NDIS_WWAN_MPDP_LIST (ndiswwan.h)
 description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces for the mobile broadband device representing the primary PDP context/EPS bearer.
 tech.root: netvista
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_MPDP_LIST
+- _NDIS_WWAN_MPDP_LIST
 product:
 - Windows
 targetos: Windows

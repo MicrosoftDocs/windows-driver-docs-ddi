@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_LSN
-title: "_CLS_LSN"
+title: _CLS_LSN (wdm.h)
 description: The CLFS_LSN structure identifies an individual record in a Common Log File System (CLFS) stream.
 old-location: kernel\clfs_lsn.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CLS_LSN
+- CLS_LSN
 product:
 - Windows
 targetos: Windows

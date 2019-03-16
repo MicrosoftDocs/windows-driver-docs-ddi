@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CPDRIVERNAME
-title: _D3DKMT_CPDRIVERNAME
+title: _D3DKMT_CPDRIVERNAME (d3dkmthk.h)
 description: The CPU driver name.
 ms.assetid: d7ad1d6d-e908-4460-9236-a47e3fef7d52
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CPDRIVERNAME
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CPDRIVERNAME
+- _D3DKMT_CPDRIVERNAME
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

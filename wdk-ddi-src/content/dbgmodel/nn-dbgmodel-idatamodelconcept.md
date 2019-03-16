@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelConcept
-title: IDataModelConcept
+title: IDataModelConcept (dbgmodel.h)
 description: Any object which represents a data model which is registered under a name or  is registered for a particular type signature must implement this concept and add it to the data model  object via IModelObject::SetConcept.
 ms.assetid: f7e0a833-b878-454e-8741-816375c68110
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelConcept
-product: Windows
+- IDataModelConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

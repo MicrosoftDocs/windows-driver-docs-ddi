@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IofCallDriver
-title: IofCallDriver function
+title: IofCallDriver function (wdm.h)
 description: Call **IoCallDriver** instead. Sends an IRP to the driver associated with a specified device object.
 ms.assetid: e241d188-273d-430a-9c27-403ddc6fa450
 ms.date: 04/30/2018
@@ -24,16 +24,17 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
--	kbSyntax
+- apiref
+- kbSyntax
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name: 
--	IofCallDriver
--	IoCallDriver
-product: Windows
+- IofCallDriver
+- IoCallDriver
+product:
+- Windows
 targetos: Windows
 
 

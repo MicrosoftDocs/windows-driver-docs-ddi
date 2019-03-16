@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetRingBufferReturnAllPackets
-title: NetRingBufferReturnAllPackets function
+title: NetRingBufferReturnAllPackets function (netadapterpacket.h)
 description: The NetRingBufferReturnAllPackets method returns all packets in a datapath queue's packet ring buffer.
 tech.root: netvista
 ms.assetid: f4d7932d-0e28-4583-a505-aba889f8be27
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetRingBufferReturnAllPackets
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetRingBufferReturnAllPackets
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

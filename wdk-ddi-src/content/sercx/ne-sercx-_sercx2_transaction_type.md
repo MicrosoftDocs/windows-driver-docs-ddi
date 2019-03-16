@@ -1,6 +1,6 @@
 ---
 UID: NE:sercx._SERCX2_TRANSACTION_TYPE
-title: "_SERCX2_TRANSACTION_TYPE"
+title: _SERCX2_TRANSACTION_TYPE (sercx.h)
 description: The SERCX2_TRANSACTION_TYPE enumeration defines constants that indicate the type of data-transfer mechanism to use to perform an I/O transaction.
 old-location: serports\sercx2_transaction_type.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_TRANSACTION_TYPE
+- SERCX2_TRANSACTION_TYPE
 product:
 - Windows
 targetos: Windows

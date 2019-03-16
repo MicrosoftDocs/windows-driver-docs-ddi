@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYADAPTERINFO
-title: DXGKDDI_QUERYADAPTERINFO
+title: DXGKDDI_QUERYADAPTERINFO (d3dkmddi.h)
 description: The DxgkDdiQueryAdapterInfo function retrieves configuration information from the graphics adapter.
 old-location: display\dxgkddiqueryadapterinfo.htm
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiQueryAdapterInfo
+- DxgkDdiQueryAdapterInfo
 product:
 - Windows
 targetos: Windows

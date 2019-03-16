@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.UnmarkCancelable
-title: IWDFIoRequest::UnmarkCancelable
+title: IWDFIoRequest::UnmarkCancelable (wudfddi.h)
 description: The UnmarkCancelable method disables the canceling of an I/O request.
 old-location: wdf\iwdfiorequest_unmarkcancelable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.UnmarkCancelable
+- IWDFIoRequest.UnmarkCancelable
 product:
 - Windows
 targetos: Windows

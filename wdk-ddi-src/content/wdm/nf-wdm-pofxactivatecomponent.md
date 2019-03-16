@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxActivateComponent
-title: PoFxActivateComponent function
+title: PoFxActivateComponent function (wdm.h)
 description: The PoFxActivateComponent routine increments the activation reference count on the specified component.
 old-location: kernel\pofxactivatecomponent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxActivateComponent
+- PoFxActivateComponent
 product:
 - Windows
 targetos: Windows

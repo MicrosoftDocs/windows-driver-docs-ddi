@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.SetState
-title: IMiniportMidiStream::SetState
+title: IMiniportMidiStream::SetState (portcls.h)
 description: The SetState method sets the stream's transport state to a new state value.
 old-location: audio\iminiportmidistream_setstate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidiStream.SetState
+- IMiniportMidiStream.SetState
 product:
 - Windows
 targetos: Windows

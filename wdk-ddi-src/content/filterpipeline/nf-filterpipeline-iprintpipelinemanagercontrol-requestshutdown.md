@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.RequestShutdown
-title: IPrintPipelineManagerControl::RequestShutdown
+title: IPrintPipelineManagerControl::RequestShutdown (filterpipeline.h)
 description: The RequestShutdown method requests that a pipeline be shut down.
 old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelineManagerControl.RequestShutdown
+- IPrintPipelineManagerControl.RequestShutdown
 product:
 - Windows
 targetos: Windows

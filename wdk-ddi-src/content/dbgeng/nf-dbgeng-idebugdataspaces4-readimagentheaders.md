@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadImageNtHeaders
-title: IDebugDataSpaces4::ReadImageNtHeaders
+title: IDebugDataSpaces4::ReadImageNtHeaders (dbgeng.h)
 description: The ReadImageNtHeaders method returns the NT headers for the specified image loaded in the target.
 old-location: debugger\readimagentheaders.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces3.ReadImageNtHeaders
--	IDebugDataSpaces4.ReadImageNtHeaders
+- IDebugDataSpaces3.ReadImageNtHeaders
+- IDebugDataSpaces4.ReadImageNtHeaders
 product:
 - Windows
 targetos: Windows

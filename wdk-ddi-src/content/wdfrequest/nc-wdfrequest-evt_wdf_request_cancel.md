@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfrequest.EVT_WDF_REQUEST_CANCEL
-title: EVT_WDF_REQUEST_CANCEL
+title: EVT_WDF_REQUEST_CANCEL (wdfrequest.h)
 description: A driver's EvtRequestCancel event callback function handles operations that must be performed when an I/O request is canceled.
 old-location: wdf\evtrequestcancel.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfrequest.h
+- Wdfrequest.h
 api_name:
--	EvtRequestCancel
+- EvtRequestCancel
 product:
 - Windows
 targetos: Windows

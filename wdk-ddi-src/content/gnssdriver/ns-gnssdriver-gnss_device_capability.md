@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_1
-title: GNSS_DEVICE_CAPABILITY
+title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
 old-location: gnss\gnss_device_capability.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_DEVICE_CAPABILITY
+- GNSS_DEVICE_CAPABILITY
 product:
 - Windows
 targetos: Windows

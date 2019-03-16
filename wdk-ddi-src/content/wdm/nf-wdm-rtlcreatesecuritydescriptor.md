@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCreateSecurityDescriptor
-title: RtlCreateSecurityDescriptor function
+title: RtlCreateSecurityDescriptor function (wdm.h)
 description: The RtlCreateSecurityDescriptor routine initializes a new absolute-format security descriptor. On return, the security descriptor is initialized with no system ACL, no discretionary ACL, no owner, no primary group, and all control flags set to zero.
 old-location: kernel\rtlcreatesecuritydescriptor.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCreateSecurityDescriptor
+- RtlCreateSecurityDescriptor
 product:
 - Windows
 targetos: Windows

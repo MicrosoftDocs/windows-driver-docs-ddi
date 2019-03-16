@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.Add
-title: IPortableDevicePropVariantCollection::Add
+title: IPortableDevicePropVariantCollection::Add (portabledevicetypes.h)
 description: Adds an item to the collection.
 old-location: wpddk\iportabledevicepropvariantcollection_add.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDevicePropVariantCollection.Add
+- IPortableDevicePropVariantCollection.Add
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

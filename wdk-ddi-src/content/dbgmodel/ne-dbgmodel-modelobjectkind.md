@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ModelObjectKind
-title: ModelObjectKind
+title: ModelObjectKind (dbgmodel.h)
 description: Describes what an IModelObject is intrinsically.
 ms.assetid: a51f5f4b-faf4-4a52-ba02-65fde8fc8654
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ModelObjectKind
-product: Windows
+- ModelObjectKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

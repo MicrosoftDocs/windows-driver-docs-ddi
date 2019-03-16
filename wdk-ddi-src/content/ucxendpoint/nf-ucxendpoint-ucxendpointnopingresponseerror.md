@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointNoPingResponseError
-title: UcxEndpointNoPingResponseError function
+title: UcxEndpointNoPingResponseError function (ucxendpoint.h)
 description: Notifies UCX about a &#0034;No Ping Response&#0034; error for a transfer on the specified endpoint object.
 old-location: buses\_ucxendpointnopingresponseerror.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxEndpointNoPingResponseError
+- UcxEndpointNoPingResponseError
 product:
 - Windows
 targetos: Windows

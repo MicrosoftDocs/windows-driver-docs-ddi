@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRegisterFilter
-title: FltRegisterFilter function
+title: FltRegisterFilter function (fltkernel.h)
 description: FltRegisterFilter registers a minifilter driver.
 old-location: ifsk\fltregisterfilter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltRegisterFilter
+- FltRegisterFilter
 product:
 - Windows
 targetos: Windows

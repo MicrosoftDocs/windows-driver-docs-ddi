@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSetTimerResolution
-title: ExSetTimerResolution function
+title: ExSetTimerResolution function (wdm.h)
 description: The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
 old-location: kernel\exsettimerresolution.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExSetTimerResolution
+- ExSetTimerResolution
 product:
 - Windows
 targetos: Windows

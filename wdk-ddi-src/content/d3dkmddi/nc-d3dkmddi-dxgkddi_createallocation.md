@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEALLOCATION
-title: DXGKDDI_CREATEALLOCATION
+title: DXGKDDI_CREATEALLOCATION (d3dkmddi.h)
 description: The DxgkDdiCreateAllocation function creates allocations of system or video memory.
 old-location: display\dxgkddicreateallocation.htm
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCreateAllocation
+- DxgkDdiCreateAllocation
 product:
 - Windows
 targetos: Windows

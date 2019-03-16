@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeSpinLock
-title: KeInitializeSpinLock function
+title: KeInitializeSpinLock function (wdm.h)
 description: The KeInitializeSpinLock routine initializes a variable of type KSPIN_LOCK.
 old-location: kernel\keinitializespinlock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeSpinLock
+- KeInitializeSpinLock
 product:
 - Windows
 targetos: Windows

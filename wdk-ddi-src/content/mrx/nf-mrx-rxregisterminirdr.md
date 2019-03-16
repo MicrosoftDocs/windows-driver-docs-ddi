@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxRegisterMinirdr
-title: RxRegisterMinirdr function
+title: RxRegisterMinirdr function (mrx.h)
 description: RxRegisterMinirdr is called by a network mini-redirector driver to register the driver with RDBSS, which adds the registration information to an internal registration table. RDBSS also builds a device object for the network mini-redirector.
 old-location: ifsk\rxregisterminirdr.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxRegisterMinirdr
+- RxRegisterMinirdr
 product:
 - Windows
 targetos: Windows

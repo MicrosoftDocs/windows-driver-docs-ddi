@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpxcv._PORT_DATA_2
-title: _PORT_DATA_2
+title: _PORT_DATA_2 (tcpxcv.h)
 description: 
 ms.assetid: 722cf148-8164-46d9-8780-ef2d4f024599
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PORT_DATA_2, *PPORT_DATA_2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	tcpxcv.h
+- tcpxcv.h
 api_name: 
--	_PORT_DATA_2
+- _PORT_DATA_2
 product: 
 -   Windows
 targetos: Windows

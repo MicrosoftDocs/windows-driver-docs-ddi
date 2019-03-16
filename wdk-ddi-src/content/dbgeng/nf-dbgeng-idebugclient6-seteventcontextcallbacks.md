@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient6.SetEventContextCallbacks
-title: IDebugClient6::SetEventContextCallbacks
+title: IDebugClient6::SetEventContextCallbacks (dbgeng.h)
 description: Registers an event callbacks object with this client.
 old-location: debugger\idebugclient6_seteventcontextcallbacks.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient6.SetEventContextCallbacks
+- IDebugClient6.SetEventContextCallbacks
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_CERTIFICATE_INFO
-title: D3D11_1DDI_CERTIFICATE_INFO
+title: D3D11_1DDI_CERTIFICATE_INFO (d3d10umddi.h)
 description: Specifies a cryptographic session certificate or authenticated channel.
 old-location: display\d3d11_1ddi_certificate_info.htm
 ms.assetid: 9a687c45-2201-483c-b1ad-958b9f651e54
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_CERTIFICATE_INFO
+- D3D11_1DDI_CERTIFICATE_INFO
 product:
 - Windows
 targetos: Windows

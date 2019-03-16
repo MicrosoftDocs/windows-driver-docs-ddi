@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsStreamHandleContexts
-title: FltSupportsStreamHandleContexts function
+title: FltSupportsStreamHandleContexts function (fltkernel.h)
 description: FltSupportsStreamHandleContexts determines whether stream handle contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamhandlecontexts.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSupportsStreamHandleContexts
+- FltSupportsStreamHandleContexts
 product:
 - Windows
 targetos: Windows

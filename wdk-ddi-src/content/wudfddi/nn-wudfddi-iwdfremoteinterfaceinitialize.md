@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFRemoteInterfaceInitialize
-title: IWDFRemoteInterfaceInitialize
+title: IWDFRemoteInterfaceInitialize (wudfddi.h)
 description: UMDF-based drivers receive the IWDFRemoteInterfaceInitialize interface as input to an IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival callback function.
 old-location: wdf\iwdfremoteinterfaceinitialize.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteInterfaceInitialize
+- IWDFRemoteInterfaceInitialize
 product:
 - Windows
 targetos: Windows

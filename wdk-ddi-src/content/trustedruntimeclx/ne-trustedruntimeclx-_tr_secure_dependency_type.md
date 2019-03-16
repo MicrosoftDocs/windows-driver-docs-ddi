@@ -1,6 +1,6 @@
 ---
 UID: NE:trustedruntimeclx._TR_SECURE_DEPENDENCY_TYPE
-title: _TR_SECURE_DEPENDENCY_TYPE
+title: _TR_SECURE_DEPENDENCY_TYPE (trustedruntimeclx.h)
 description: 
 ms.assetid: 44acec5b-464f-4eec-9ba0-c27b5d8ad6d4
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: TR_SECURE_DEPENDENCY_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	_TR_SECURE_DEPENDENCY_TYPE
+- _TR_SECURE_DEPENDENCY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

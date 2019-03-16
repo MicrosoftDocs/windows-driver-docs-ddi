@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_PIPE_INFORMATION_INIT
-title: WDF_USB_PIPE_INFORMATION_INIT function
+title: WDF_USB_PIPE_INFORMATION_INIT function (wdfusb.h)
 description: The WDF_USB_PIPE_INFORMATION_INIT function initializes a WDF_USB_PIPE_INFORMATION structure.
 old-location: wdf\wdf_usb_pipe_information_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_PIPE_INFORMATION_INIT
+- WDF_USB_PIPE_INFORMATION_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_TYPE
-title: "_WWAN_DEVICE_TYPE"
+title: _WWAN_DEVICE_TYPE (wwan.h)
 description: The WWAN_DEVICE_TYPE enumeration lists the different device types that describe the MB device.
 old-location: netvista\wwan_device_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_TYPE
+- WWAN_DEVICE_TYPE
 product:
 - Windows
 targetos: Windows

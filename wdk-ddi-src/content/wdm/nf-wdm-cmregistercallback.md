@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmRegisterCallback
-title: CmRegisterCallback function
+title: CmRegisterCallback function (wdm.h)
 description: The CmRegisterCallback routine is obsolete for Windows Vista and later operating system versions. Use CmRegisterCallbackEx instead.The CmRegisterCallback routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmRegisterCallback
+- CmRegisterCallback
 product:
 - Windows
 targetos: Windows

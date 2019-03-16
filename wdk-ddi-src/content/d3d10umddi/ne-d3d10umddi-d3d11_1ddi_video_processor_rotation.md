@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
-title: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+title: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION (d3d10umddi.h)
 description: Specifies the clockwise rotation of the input stream of the video processor.
 old-location: display\d3d11_1ddi_video_processor_rotation.htm
 ms.assetid: 4fe01ddd-723f-4b3c-884a-a18d4f8512e5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+- D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 product:
 - Windows
 targetos: Windows

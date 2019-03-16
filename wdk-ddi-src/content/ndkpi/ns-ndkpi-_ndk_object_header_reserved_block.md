@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_OBJECT_HEADER_RESERVED_BLOCK
-title: "_NDK_OBJECT_HEADER_RESERVED_BLOCK"
+title: _NDK_OBJECT_HEADER_RESERVED_BLOCK (ndkpi.h)
 description: The NDK_OBJECT_HEADER_RESERVED_BLOCK structure specifies reserved information in an NDK object.
 old-location: netvista\ndk_object_header_reserved_block.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_OBJECT_HEADER_RESERVED_BLOCK
+- NDK_OBJECT_HEADER_RESERVED_BLOCK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_PROCESS_PACKET_ROUTINE_EX
-title: PCAM_PROCESS_PACKET_ROUTINE_EX
+title: PCAM_PROCESS_PACKET_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet.
 old-location: stream\camprocessusbpacketex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	CamProcessUSBPacketEx
+- CamProcessUSBPacketEx
 product:
 - Windows
 targetos: Windows

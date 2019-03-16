@@ -1,6 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_WRITE
-title: IOCTL_DOT4_WRITE
+title: IOCTL_DOT4_WRITE (d4drvif.h)
 description: This topic describes IOCTL_DOT4_WRITE.
 old-location: print\ioctl_ioctl_dot4_write.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	IOCTL_DOT4_WRITE
+- IOCTL_DOT4_WRITE
 product:
 - Windows
 targetos: Windows

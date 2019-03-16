@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_STOP
-title: EVT_WDF_IO_QUEUE_IO_STOP
+title: EVT_WDF_IO_QUEUE_IO_STOP (wdfio.h)
 description: A driver's EvtIoStop event callback function completes, requeues, or suspends processing of a specified request because the request's I/O queue is being stopped.
 old-location: wdf\evtiostop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoStop
+- EvtIoStop
 product:
 - Windows
 targetos: Windows

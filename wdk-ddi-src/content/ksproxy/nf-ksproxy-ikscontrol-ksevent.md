@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsControl.KsEvent
-title: IKsControl::KsEvent
+title: IKsControl::KsEvent (ksproxy.h)
 description: The KsEvent method enables or disables an event, along with any other defined support operations available on an event set.
 old-location: stream\ikscontrol_ksevent.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsControl.KsEvent
+- IKsControl.KsEvent
 product:
 - Windows
 targetos: Windows

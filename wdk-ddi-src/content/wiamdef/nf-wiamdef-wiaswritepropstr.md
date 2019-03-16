@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropStr
-title: wiasWritePropStr function
+title: wiasWritePropStr function (wiamdef.h)
 description: The wiasWritePropStr function writes a single string property value to a WIA item.
 old-location: image\wiaswritepropstr.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePropStr
+- wiasWritePropStr
 product:
 - Windows
 targetos: Windows

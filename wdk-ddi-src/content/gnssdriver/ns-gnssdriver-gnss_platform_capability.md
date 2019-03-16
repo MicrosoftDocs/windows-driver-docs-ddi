@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_2
-title: GNSS_PLATFORM_CAPABILITY
+title: GNSS_PLATFORM_CAPABILITY (gnssdriver.h)
 description: This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 old-location: gnss\gnss_platform_capability.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_PLATFORM_CAPABILITY
+- GNSS_PLATFORM_CAPABILITY
 product:
 - Windows
 targetos: Windows

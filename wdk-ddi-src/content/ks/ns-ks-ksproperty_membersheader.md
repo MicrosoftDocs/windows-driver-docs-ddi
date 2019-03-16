@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_8
-title: KSPROPERTY_MEMBERSHEADER
+title: KSPROPERTY_MEMBERSHEADER (ks.h)
 description: A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the size and type of each element in an array containing property values or ranges.
 old-location: stream\ksproperty_membersheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_MEMBERSHEADER
+- KSPROPERTY_MEMBERSHEADER
 product:
 - Windows
 targetos: Windows

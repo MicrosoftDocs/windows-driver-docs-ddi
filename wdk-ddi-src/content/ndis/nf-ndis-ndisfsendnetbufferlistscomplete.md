@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFSendNetBufferListsComplete
-title: NdisFSendNetBufferListsComplete function
+title: NdisFSendNetBufferListsComplete function (ndis.h)
 description: Filter drivers call the NdisFSendNetBufferListsComplete function to return a linked list of NET_BUFFER_LIST structures to an overlying driver and to return the final status of a send request.
 old-location: netvista\ndisfsendnetbufferlistscomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFSendNetBufferListsComplete
+- NdisFSendNetBufferListsComplete
 product:
 - Windows
 targetos: Windows

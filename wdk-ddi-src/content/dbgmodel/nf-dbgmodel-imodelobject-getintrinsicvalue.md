@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetIntrinsicValue
-title: IModelObject::GetIntrinsicValue
+title: IModelObject::GetIntrinsicValue (dbgmodel.h)
 description: The GetIntrinsicValue method returns the thing which is boxed inside an IModelObject. 
 ms.assetid: 95a2f002-c6d9-48c2-9c7f-86df732a0584
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetIntrinsicValue
-product: Windows
+- IModelObject.GetIntrinsicValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

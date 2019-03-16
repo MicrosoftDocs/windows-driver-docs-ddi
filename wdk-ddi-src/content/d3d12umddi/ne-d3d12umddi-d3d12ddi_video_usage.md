@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_USAGE
-title: D3D12DDI_VIDEO_USAGE
+title: D3D12DDI_VIDEO_USAGE (d3d12umddi.h)
 description: A hint for the graphics driver to optimize for different scenarios.
 old-location: display\d3d12ddi_video_usage.htm
 ms.assetid: 663790EE-A9E3-4EBC-93C7-20DE0D759A26
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_USAGE
+- D3D12DDI_VIDEO_USAGE
 product:
 - Windows
 targetos: Windows

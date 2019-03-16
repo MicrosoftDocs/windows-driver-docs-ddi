@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CPU_DESCRIPTOR_HANDLE
-title: D3D12DDI_CPU_DESCRIPTOR_HANDLE
+title: D3D12DDI_CPU_DESCRIPTOR_HANDLE (d3d12umddi.h)
 description: The D3D12DDI_CPU_DESCRIPTOR_HANDLE structure describes a CPU descriptor handle.
 ms.assetid: 6cc7f0aa-806c-4d66-9691-9acdf73987e2
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_CPU_DESCRIPTOR_HANDLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_CPU_DESCRIPTOR_HANDLE
+- D3D12DDI_CPU_DESCRIPTOR_HANDLE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

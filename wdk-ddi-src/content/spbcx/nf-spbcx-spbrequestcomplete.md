@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestComplete
-title: SpbRequestComplete function
+title: SpbRequestComplete function (spbcx.h)
 description: The SpbRequestComplete method completes an I/O request and supplies a completion status.
 old-location: spb\spbrequestcomplete.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbRequestComplete
+- SpbRequestComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetBufferValue
-title: IPortableDeviceValues::GetBufferValue
+title: IPortableDeviceValues::GetBufferValue (portabledevicetypes.h)
 description: The GetBufferValue interface retrieves a byte array value (type VT_VECTOR | VT_UI1) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getbuffervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetBufferValue
+- IPortableDeviceValues.GetBufferValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

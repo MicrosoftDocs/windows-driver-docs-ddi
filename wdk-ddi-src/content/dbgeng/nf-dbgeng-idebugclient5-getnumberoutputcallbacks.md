@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberOutputCallbacks
-title: IDebugClient5::GetNumberOutputCallbacks
+title: IDebugClient5::GetNumberOutputCallbacks (dbgeng.h)
 description: The GetNumberOutputCallbacks method returns the number of output callbacks registered over all clients.
 old-location: debugger\getnumberoutputcallbacks.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetNumberOutputCallbacks
+- IDebugClient5.GetNumberOutputCallbacks
 product:
 - Windows
 targetos: Windows

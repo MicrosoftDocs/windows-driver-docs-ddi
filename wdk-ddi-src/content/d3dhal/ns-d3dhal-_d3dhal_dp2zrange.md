@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ZRANGE
-title: "_D3DHAL_DP2ZRANGE"
+title: _D3DHAL_DP2ZRANGE (d3dhal.h)
 description: The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2zrange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2ZRANGE
+- D3DHAL_DP2ZRANGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm.__unnamed_enum_10
-title: DMA_COMPLETION_STATUS
+title: DMA_COMPLETION_STATUS (wdm.h)
 description: The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer.
 old-location: kernel\dma_completion_status.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_COMPLETION_STATUS
+- DMA_COMPLETION_STATUS
 product:
 - Windows
 targetos: Windows

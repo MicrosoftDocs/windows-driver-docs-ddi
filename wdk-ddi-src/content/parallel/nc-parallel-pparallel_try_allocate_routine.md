@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_TRY_ALLOCATE_ROUTINE
-title: PPARALLEL_TRY_ALLOCATE_ROUTINE
+title: PPARALLEL_TRY_ALLOCATE_ROUTINE (parallel.h)
 description: The PPARALLEL_TRY_ALLOCATE_ROUTINE-typed (ISR) callback routine attempts to allocate a parallel port at IRQL = DIRQL. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\parallel_try_allocate_routine__isr_.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DIRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	ParallelTryAllocateRoutine
+- ParallelTryAllocateRoutine
 product:
 - Windows
 targetos: Windows

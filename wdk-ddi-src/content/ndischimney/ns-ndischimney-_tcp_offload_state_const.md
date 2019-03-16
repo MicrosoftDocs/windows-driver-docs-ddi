@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_CONST
-title: "_TCP_OFFLOAD_STATE_CONST"
+title: _TCP_OFFLOAD_STATE_CONST (ndischimney.h)
 description: The TCP_OFFLOAD_STATE_CONST structure contains the constant variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_const.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	TCP_OFFLOAD_STATE_CONST
+- TCP_OFFLOAD_STATE_CONST
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorProcess
-title: FltGetRequestorProcess function
+title: FltGetRequestorProcess function (fltkernel.h)
 description: The FltGetRequestorProcess routine returns a process pointer for the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetRequestorProcess
+- FltGetRequestorProcess
 product:
 - Windows
 targetos: Windows

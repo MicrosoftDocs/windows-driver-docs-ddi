@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDriverDMS
-title: OEMDriverDMS function
+title: OEMDriverDMS function (printoem.h)
 description: OEMDriverDMS function
 old-location: print\oemdriverdms.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDriverDMS
+- OEMDriverDMS
 product:
 - Windows
 targetos: Windows

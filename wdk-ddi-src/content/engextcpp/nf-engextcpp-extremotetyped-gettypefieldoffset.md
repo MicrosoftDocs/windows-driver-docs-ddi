@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetTypeFieldOffset
-title: ExtRemoteTyped::GetTypeFieldOffset
+title: ExtRemoteTyped::GetTypeFieldOffset (engextcpp.h)
 description: The GetTypeFieldOffset static method returns the offset of a member within a structure.
 old-location: debugger\extremotetyped_gettypefieldoffset.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.GetTypeFieldOffset
+- ExtRemoteTyped.GetTypeFieldOffset
 product:
 - Windows
 targetos: Windows

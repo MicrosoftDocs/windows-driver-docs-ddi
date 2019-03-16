@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwOpenThreadTokenEx
-title: ZwOpenThreadTokenEx function
+title: ZwOpenThreadTokenEx function (ntifs.h)
 description: The ZwOpenThreadTokenEx routine opens the access token associated with a thread.
 old-location: kernel\zwopenthreadtokenex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenThreadTokenEx
--	NtOpenThreadTokenEx
+- ZwOpenThreadTokenEx
+- NtOpenThreadTokenEx
 product:
 - Windows
 targetos: Windows

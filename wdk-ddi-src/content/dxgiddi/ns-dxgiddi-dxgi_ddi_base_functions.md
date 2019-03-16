@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_BASE_FUNCTIONS
-title: DXGI_DDI_BASE_FUNCTIONS
+title: DXGI_DDI_BASE_FUNCTIONS (dxgiddi.h)
 description: The DXGI_DDI_BASE_FUNCTIONS structure contains functions that the user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, and managing a full-screen transition.
 old-location: display\dxgi_ddi_base_functions.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_BASE_FUNCTIONS
+- DXGI_DDI_BASE_FUNCTIONS
 product:
 - Windows
 targetos: Windows

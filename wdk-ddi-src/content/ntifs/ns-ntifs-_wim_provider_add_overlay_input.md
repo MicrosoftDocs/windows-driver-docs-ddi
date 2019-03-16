@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_ADD_OVERLAY_INPUT
-title: "_WIM_PROVIDER_ADD_OVERLAY_INPUT"
+title: _WIM_PROVIDER_ADD_OVERLAY_INPUT (ntifs.h)
 description: A new Windows Image File (WIM) data source is added to the WIM provider with the WIM_PROVIDER_ADD_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_add_overlay_input.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WIM_PROVIDER_ADD_OVERLAY_INPUT
+- WIM_PROVIDER_ADD_OVERLAY_INPUT
 product:
 - Windows
 targetos: Windows

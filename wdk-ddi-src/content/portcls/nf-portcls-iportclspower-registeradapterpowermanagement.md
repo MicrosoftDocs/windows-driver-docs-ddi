@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsPower.RegisterAdapterPowerManagement
-title: IPortClsPower::RegisterAdapterPowerManagement
+title: IPortClsPower::RegisterAdapterPowerManagement (portcls.h)
 description: The RegisterAdapterPowerManagement method registers the power management interface of the adapter with PortCls.
 old-location: audio\iportclspower_registeradapterpowermanagement.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsPower.RegisterAdapterPowerManagement
+- IPortClsPower.RegisterAdapterPowerManagement
 product:
 - Windows
 targetos: Windows

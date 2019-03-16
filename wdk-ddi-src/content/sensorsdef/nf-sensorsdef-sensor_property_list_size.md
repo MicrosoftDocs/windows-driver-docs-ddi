@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_SIZE
-title: SENSOR_PROPERTY_LIST_SIZE function
+title: SENSOR_PROPERTY_LIST_SIZE function (sensorsdef.h)
 description: This function returns the size of the property list.
 old-location: sensors\sensor_property_list_size.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_PROPERTY_LIST_SIZE
+- SENSOR_PROPERTY_LIST_SIZE
 product:
 - Windows
 targetos: Windows

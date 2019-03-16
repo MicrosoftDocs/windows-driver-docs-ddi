@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TS_SELECTORINFO
-title: "_BDA_TS_SELECTORINFO"
+title: _BDA_TS_SELECTORINFO (bdatypes.h)
 description: 
 old-location: stream\bda_ts_selectorinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_TS_SELECTORINFO
+- BDA_TS_SELECTORINFO
 product:
 - Windows
 targetos: Windows

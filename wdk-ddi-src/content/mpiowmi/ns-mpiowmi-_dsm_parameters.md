@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_PARAMETERS
-title: "_DSM_PARAMETERS"
+title: _DSM_PARAMETERS (mpiowmi.h)
 description: The DSM_PARAMETERS structure holds the DSM version and timer counters information.
 old-location: storage\dsm_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	DSM_PARAMETERS
+- DSM_PARAMETERS
 product:
 - Windows
 targetos: Windows

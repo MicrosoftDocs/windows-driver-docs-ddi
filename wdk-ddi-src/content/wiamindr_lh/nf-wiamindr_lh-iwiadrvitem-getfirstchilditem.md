@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetFirstChildItem
-title: IWiaDrvItem::GetFirstChildItem
+title: IWiaDrvItem::GetFirstChildItem (wiamindr_lh.h)
 description: The IWiaDrvItem::GetFirstChildItem method gets the first child item in an IWiaDrvItem folder item.
 old-location: image\iwiadrvitem_getfirstchilditem.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.GetFirstChildItem
+- IWiaDrvItem.GetFirstChildItem
 product:
 - Windows
 targetos: Windows

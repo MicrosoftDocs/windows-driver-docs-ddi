@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetMultiPlaneOverlayCaps
-title: D3DKMTGetMultiPlaneOverlayCaps function
+title: D3DKMTGetMultiPlaneOverlayCaps function (d3dkmthk.h)
 description: Retrieves multiplane overlay capabilities.
 ms.assetid: dbd72a04-5c62-4707-97ca-3efeded2df1e
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetMultiPlaneOverlayCaps
+- D3DKMTGetMultiPlaneOverlayCaps
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

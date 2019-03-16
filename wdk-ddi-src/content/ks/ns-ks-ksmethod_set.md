@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_71
-title: KSMETHOD_SET
+title: KSMETHOD_SET (ks.h)
 description: The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
 old-location: stream\ksmethod_set.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSMETHOD_SET
+- KSMETHOD_SET
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_LWARNING
-title: WIAS_LWARNING macro
+title: WIAS_LWARNING macro (wiautil.h)
 description: The WIAS_LWARNING macro is obsolete for Windows Vista and later.The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 old-location: image\wias_lwarning.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_LWARNING
+- WIAS_LWARNING
 product:
 - Windows
 targetos: Windows

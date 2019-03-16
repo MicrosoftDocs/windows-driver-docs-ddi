@@ -1,6 +1,6 @@
 ---
 UID: NE:prdrvcom.tagSHIMOPTS
-title: tagSHIMOPTS
+title: tagSHIMOPTS (prdrvcom.h)
 description: 
 old-location: print\shimopts.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Prdrvcom.h
+- Prdrvcom.h
 api_name:
--	SHIMOPTS
+- SHIMOPTS
 product:
 - Windows
 targetos: Windows

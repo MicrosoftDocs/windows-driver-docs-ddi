@@ -1,6 +1,6 @@
 ---
 UID: NI:d3dkmthk.IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
-title: IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
+title: IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER (d3dkmthk.h)
 description: For internal use only. Do not use.
 ms.assetid: 4f49199d-f3ba-455e-bda4-17d816e929ff
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
+- IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

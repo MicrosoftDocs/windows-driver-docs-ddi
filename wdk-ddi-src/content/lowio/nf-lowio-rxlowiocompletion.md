@@ -1,6 +1,6 @@
 ---
 UID: NF:lowio.RxLowIoCompletion
-title: RxLowIoCompletion function
+title: RxLowIoCompletion function (lowio.h)
 description: RxLowIoCompletion must be called by the network mini-redirector low I/O routines when they complete, if the low I/O routines have initially returned STATUS_PENDING.
 old-location: ifsk\rxlowiocompletion.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lowio.h
+- lowio.h
 api_name:
--	RxLowIoCompletion
+- RxLowIoCompletion
 product:
 - Windows
 targetos: Windows

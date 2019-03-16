@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.UsbPm_Deregister
-title: UsbPm_Deregister function
+title: UsbPm_Deregister function (usbpmapi.h)
 description: Unregisters the client driver with the Policy Manager.
 ms.assetid: bdc8b771-1f2d-4cd6-a313-fb8f1771e971
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UsbPmApi.lib
+- UsbPmApi.lib
 api_name: 
--	UsbPm_Deregister
-product: Windows
+- UsbPm_Deregister
+product:
+- Windows
 targetos: Windows
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportMidiStream
-title: IMiniportMidiStream
+title: IMiniportMidiStream (portcls.h)
 description: The IMiniportMidiStream interface represents the MIDI stream that flows through a pin on a MIDI filter.
 old-location: audio\iminiportmidistream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidiStream
+- IMiniportMidiStream
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._CREATE_DISK_MBR
-title: "_CREATE_DISK_MBR"
+title: _CREATE_DISK_MBR (ntdddisk.h)
 description: The CREATE_DISK_MBR structure is used with the IOCTL IOCTL_DISK_CREATE_DISK to initialize a disk with an empty MBR partition table.
 old-location: storage\create_disk_mbr.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	CREATE_DISK_MBR
+- CREATE_DISK_MBR
 product:
 - Windows
 targetos: Windows

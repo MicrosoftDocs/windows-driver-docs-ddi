@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaStartChanges
-title: BdaStartChanges function
+title: BdaStartChanges function (bdasup.h)
 description: The BdaStartChanges function initiates the setting of new BDA topology changes.
 old-location: stream\bdastartchanges.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaStartChanges
+- BdaStartChanges
 product:
 - Windows
 targetos: Windows

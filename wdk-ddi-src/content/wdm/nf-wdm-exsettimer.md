@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSetTimer
-title: ExSetTimer function
+title: ExSetTimer function (wdm.h)
 description: The ExSetTimer routine starts a timer operation and sets the timer to expire at the specified due time.
 old-location: kernel\exsettimer.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExSetTimer
+- ExSetTimer
 product:
 - Windows
 targetos: Windows

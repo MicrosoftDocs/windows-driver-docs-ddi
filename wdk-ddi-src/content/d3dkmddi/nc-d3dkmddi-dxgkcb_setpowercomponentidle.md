@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTIDLE
-title: DXGKCB_SETPOWERCOMPONENTIDLE
+title: DXGKCB_SETPOWERCOMPONENTIDLE (d3dkmddi.h)
 description: Called by the display miniport driver to notify the Microsoft DirectX graphics kernel subsystem that a power component is no longer needed.
 old-location: display\dxgkcbsetpowercomponentidle.htm
 ms.assetid: 7746d09a-7fb6-4e5d-926c-4ded6830b06d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkCbSetPowerComponentIdle
+- DxgkCbSetPowerComponentIdle
 product:
 - Windows
 targetos: Windows

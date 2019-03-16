@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_PNP_KEY_TYPE
-title: "_D3DKMT_PNP_KEY_TYPE"
+title: _D3DKMT_PNP_KEY_TYPE (d3dkmthk.h)
 description: An enum that indicates the type of PNP key.
 old-location: display\d3dkmt_pnp_key_type.htm
 ms.assetid: 48B173D5-56C3-4611-BC55-CB7A25D05352
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_PNP_KEY_TYPE
+- D3DKMT_PNP_KEY_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetServerSiloActiveConsoleId
-title: PsGetServerSiloActiveConsoleId function
+title: PsGetServerSiloActiveConsoleId function (ntddk.h)
 description: Gets the active console for the current server silo context for the supplied thread.
 old-location: kernel\psgetserversiloactiveconsoleid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetServerSiloActiveConsoleId
+- PsGetServerSiloActiveConsoleId
 product:
 - Windows
 targetos: Windows

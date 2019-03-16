@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.OutputContextStackTraceEx
-title: IDebugControl5::OutputContextStackTraceEx
+title: IDebugControl5::OutputContextStackTraceEx (dbgeng.h)
 description: The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts.
 old-location: debugger\idebugcontrol5_outputcontextstacktraceex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl5.OutputContextStackTraceEx
+- IDebugControl5.OutputContextStackTraceEx
 product:
 - Windows
 targetos: Windows

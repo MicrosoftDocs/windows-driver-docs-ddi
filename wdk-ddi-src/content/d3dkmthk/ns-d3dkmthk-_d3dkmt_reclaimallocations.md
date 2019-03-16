@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RECLAIMALLOCATIONS
-title: "_D3DKMT_RECLAIMALLOCATIONS"
+title: _D3DKMT_RECLAIMALLOCATIONS (d3dkmthk.h)
 description: Describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations function.
 old-location: display\d3dkmt_reclaimallocations.htm
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_RECLAIMALLOCATIONS
+- D3DKMT_RECLAIMALLOCATIONS
 product:
 - Windows
 targetos: Windows

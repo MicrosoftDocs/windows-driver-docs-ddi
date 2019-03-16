@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
-title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
+title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval (wudfddi.h)
 description: A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed.
 old-location: wdf\iremoteinterfacecallbackremoval_onremoteinterfaceremoval.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
+- IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
 product:
 - Windows
 targetos: Windows

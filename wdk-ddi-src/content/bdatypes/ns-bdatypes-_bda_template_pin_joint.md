@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TEMPLATE_PIN_JOINT
-title: "_BDA_TEMPLATE_PIN_JOINT"
+title: _BDA_TEMPLATE_PIN_JOINT (bdatypes.h)
 description: The BDA_TEMPLATE_PIN_JOINT structure describes a joint in a template topology.
 old-location: stream\bda_template_pin_joint.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDA_TEMPLATE_PIN_JOINT
+- BDA_TEMPLATE_PIN_JOINT
 product:
 - Windows
 targetos: Windows

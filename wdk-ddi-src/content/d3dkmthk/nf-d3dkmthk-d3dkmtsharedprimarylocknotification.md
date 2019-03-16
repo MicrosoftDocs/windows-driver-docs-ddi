@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSharedPrimaryLockNotification
-title: D3DKMTSharedPrimaryLockNotification function
+title: D3DKMTSharedPrimaryLockNotification function (d3dkmthk.h)
 description: The D3DKMTSharedPrimaryLockNotification function notifies the operating system about an upcoming lock to a shared primary surface.
 old-location: display\d3dkmtsharedprimarylocknotification.htm
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSharedPrimaryLockNotification
+- D3DKMTSharedPrimaryLockNotification
 product:
 - Windows
 targetos: Windows

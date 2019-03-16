@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDITRIPATCH_INFO
-title: _D3DDDITRIPATCH_INFO
+title: _D3DDDITRIPATCH_INFO (d3dumddi.h)
 description: Contains tri-patch info.
 ms.assetid: 8c4e7b1f-6618-4ffe-ad51-0311681c35e3
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDITRIPATCH_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDITRIPATCH_INFO
+- _D3DDDITRIPATCH_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

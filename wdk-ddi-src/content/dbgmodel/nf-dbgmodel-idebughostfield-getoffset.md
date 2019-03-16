@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetOffset
-title: IDebugHostField::GetOffset
+title: IDebugHostField::GetOffset (dbgmodel.h)
 description: For fields which have an offset, the GetOffset method will return the offset from the base address of the containing type to the data for the field itself.
 ms.assetid: a93e26a7-1ffe-4702-90bd-7fbd93d3e605
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostField.GetOffset
-product: Windows
+- IDebugHostField.GetOffset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

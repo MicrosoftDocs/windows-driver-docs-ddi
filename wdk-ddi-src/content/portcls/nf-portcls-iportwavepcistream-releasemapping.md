@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePciStream.ReleaseMapping
-title: IPortWavePciStream::ReleaseMapping
+title: IPortWavePciStream::ReleaseMapping (portcls.h)
 description: The ReleaseMapping method releases a mapping that was obtained by a previous call to IPortWavePciStream::GetMapping.
 old-location: audio\iportwavepcistream_releasemapping.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWavePciStream.ReleaseMapping
+- IPortWavePciStream.ReleaseMapping
 product:
 - Windows
 targetos: Windows

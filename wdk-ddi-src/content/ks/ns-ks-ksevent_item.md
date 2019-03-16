@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_72
-title: KSEVENT_ITEM
+title: KSEVENT_ITEM (ks.h)
 description: The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 old-location: stream\ksevent_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSEVENT_ITEM
+- KSEVENT_ITEM
 product:
 - Windows
 targetos: Windows

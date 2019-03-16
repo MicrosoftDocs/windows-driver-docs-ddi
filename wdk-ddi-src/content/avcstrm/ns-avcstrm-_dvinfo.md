@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._DVINFO
-title: "_DVINFO"
+title: _DVINFO (avcstrm.h)
 description: The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
 old-location: stream\dvinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	DVINFO
+- DVINFO
 product:
 - Windows
 targetos: Windows

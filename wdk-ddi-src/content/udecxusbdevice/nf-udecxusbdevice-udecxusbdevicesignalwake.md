@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceSignalWake
-title: UdecxUsbDeviceSignalWake function
+title: UdecxUsbDeviceSignalWake function (udecxusbdevice.h)
 description: Initiates wake up from a low link power state for a virtual USB 2.0 device.
 old-location: buses\udecxusbdevicesignalwake.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceSignalWake
+- UdecxUsbDeviceSignalWake
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.WheaIsValidErrorRecordSignature
-title: WheaIsValidErrorRecordSignature function
+title: WheaIsValidErrorRecordSignature function (ntddk.h)
 description: The WheaIsValidErrorRecordSignature function verifies whether a WHEA error record is valid.
 old-location: whea\wheaisvaliderrorrecordsignature.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WheaIsValidErrorRecordSignature
+- WheaIsValidErrorRecordSignature
 product:
 - Windows
 targetos: Windows

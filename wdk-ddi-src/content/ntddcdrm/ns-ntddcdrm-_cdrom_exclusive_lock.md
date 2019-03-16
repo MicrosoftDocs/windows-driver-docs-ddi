@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_LOCK
-title: "_CDROM_EXCLUSIVE_LOCK"
+title: _CDROM_EXCLUSIVE_LOCK (ntddcdrm.h)
 description: The CDROM_EXCLUSIVE_LOCK structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to lock a CD-ROM device for exclusive access.
 old-location: storage\cdrom_exclusive_lock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_EXCLUSIVE_LOCK
+- CDROM_EXCLUSIVE_LOCK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortZeroMemory
-title: VideoPortZeroMemory function
+title: VideoPortZeroMemory function (video.h)
 description: The VideoPortZeroMemory function fills a block of system memory with zeros.
 old-location: display\videoportzeromemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortZeroMemory
+- VideoPortZeroMemory
 product:
 - Windows
 targetos: Windows

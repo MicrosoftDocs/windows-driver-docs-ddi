@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PTERMINATE_IEEE_MODE
-title: PTERMINATE_IEEE_MODE
+title: PTERMINATE_IEEE_MODE (parallel.h)
 description: The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE operating mode and sets the mode to IEEE 1284-compatible. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pterminate_ieee_mode.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PTERMINATE_IEEE_MODE
+- PTERMINATE_IEEE_MODE
 product:
 - Windows
 targetos: Windows

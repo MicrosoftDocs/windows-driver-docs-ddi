@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
-title: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
+title: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 (d3d10umddi.h)
 description: VideoDecoderSubmitBuffers1 submits one or more buffers for decoding.
 old-location: display\videodecodersubmitbuffers1.htm
 ms.assetid: 708A7F64-F8A8-4D0B-A824-CC8DD158216A
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoDecoderSubmitBuffers1
+- pfnVideoDecoderSubmitBuffers1
 product:
 - Windows
 targetos: Windows

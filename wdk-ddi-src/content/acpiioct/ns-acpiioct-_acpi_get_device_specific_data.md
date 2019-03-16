@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_GET_DEVICE_SPECIFIC_DATA
-title: "_ACPI_GET_DEVICE_SPECIFIC_DATA"
+title: _ACPI_GET_DEVICE_SPECIFIC_DATA (acpiioct.h)
 description: The ACPI_GET_DEVICE_SPECIFIC_DATA structure contains input arguments for the IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control method.
 old-location: acpi\acpi_get_device_specific_data.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_GET_DEVICE_SPECIFIC_DATA
+- ACPI_GET_DEVICE_SPECIFIC_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:uart.__unnamed_enum_0
-title: UART_STATUS
+title: UART_STATUS (uart.h)
 description: Defines values for the status of a UART operation.
 tech.root: serports
 ms.assetid: 96750920-c761-499b-8ee9-39465e031d07
@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UART_STATUS, *PUART_STATUS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_STATUS
+- UART_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.Flush
-title: IWDFWorkItem::Flush
+title: IWDFWorkItem::Flush (wudfddi.h)
 description: The Flush method returns after this interface's work item has been serviced.
 old-location: wdf\iwdfworkitem_flush.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFWorkItem.Flush
+- IWDFWorkItem.Flush
 product:
 - Windows
 targetos: Windows

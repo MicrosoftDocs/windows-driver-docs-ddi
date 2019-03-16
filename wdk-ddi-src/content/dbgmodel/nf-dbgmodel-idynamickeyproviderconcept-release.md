@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.Release
-title: IDynamicKeyProviderConcept::Release
+title: IDynamicKeyProviderConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 104da76b-51a4-4b86-8255-9b395091e169
 ms.date: 09/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDynamicKeyProviderConcept.Release
-product: Windows
+- IDynamicKeyProviderConcept.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

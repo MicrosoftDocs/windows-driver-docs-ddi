@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TOPOLOGY_ADDRESS
-title: "_USB_TOPOLOGY_ADDRESS"
+title: _USB_TOPOLOGY_ADDRESS (usbioctl.h)
 description: The USB_TOPOLOGY_ADDRESS structure is used with the IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request to retrieve information about a USB device?s location in the USB device tree.
 old-location: buses\usb_topology_address.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_TOPOLOGY_ADDRESS
+- USB_TOPOLOGY_ADDRESS
 product:
 - Windows
 targetos: Windows

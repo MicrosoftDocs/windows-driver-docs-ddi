@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.GetInfo
-title: IPrintOemUni::GetInfo
+title: IPrintOemUni::GetInfo (prcomoem.h)
 description: A rendering plug-in's IPrintOemUni::GetInfo method returns identification information.
 old-location: print\iprintoemuni_getinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUni.GetInfo
+- IPrintOemUni.GetInfo
 product:
 - Windows
 targetos: Windows

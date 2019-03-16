@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentServerSilo
-title: PsGetCurrentServerSilo function
+title: PsGetCurrentServerSilo function (ntddk.h)
 description: This routine returns the effective server silo for the thread.
 old-location: kernel\psgetcurrentserversilo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsGetCurrentServerSilo
+- PsGetCurrentServerSilo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgError
-title: wiauDbgError function
+title: wiauDbgError function (wiautil.h)
 description: The wiauDbgError function logs an error message.
 old-location: image\wiaudbgerror.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgError
+- wiauDbgError
 product:
 - Windows
 targetos: Windows

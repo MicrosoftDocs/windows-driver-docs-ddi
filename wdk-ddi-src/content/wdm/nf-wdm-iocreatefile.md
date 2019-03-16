@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateFile
-title: IoCreateFile function
+title: IoCreateFile function (wdm.h)
 description: The IoCreateFile routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 old-location: kernel\iocreatefile.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateFile
+- IoCreateFile
 product:
 - Windows
 targetos: Windows

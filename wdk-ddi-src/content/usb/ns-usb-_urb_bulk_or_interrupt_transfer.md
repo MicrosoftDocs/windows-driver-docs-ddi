@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_BULK_OR_INTERRUPT_TRANSFER
-title: "_URB_BULK_OR_INTERRUPT_TRANSFER"
+title: _URB_BULK_OR_INTERRUPT_TRANSFER (usb.h)
 description: The _URB_BULK_OR_INTERRUPT_TRANSFER structure is used by USB client drivers to send or receive data on a bulk pipe or on an interrupt pipe.
 old-location: buses\_urb_bulk_or_interrupt_transfer.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_BULK_OR_INTERRUPT_TRANSFER
+- _URB_BULK_OR_INTERRUPT_TRANSFER
 product:
 - Windows
 targetos: Windows

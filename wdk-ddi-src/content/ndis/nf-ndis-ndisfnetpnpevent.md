@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFNetPnPEvent
-title: NdisFNetPnPEvent function
+title: NdisFNetPnPEvent function (ndis.h)
 description: A filter driver can call the NdisFNetPnPEvent function to forward a network Plug and Play (PnP) or Power Management event to overlying drivers.
 old-location: netvista\ndisfnetpnpevent.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFNetPnPEvent
+- NdisFNetPnPEvent
 product:
 - Windows
 targetos: Windows

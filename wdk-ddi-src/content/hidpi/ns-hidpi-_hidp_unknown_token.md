@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_UNKNOWN_TOKEN
-title: "_HIDP_UNKNOWN_TOKEN"
+title: _HIDP_UNKNOWN_TOKEN (hidpi.h)
 description: The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize.
 old-location: hid\hidp_unknown_token.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_UNKNOWN_TOKEN
+- HIDP_UNKNOWN_TOKEN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_66
-title: KS_TUNER_TUNING_FLAGS
+title: KS_TUNER_TUNING_FLAGS (ksmedia.h)
 description: The KS_TUNER_TUNING_FLAGS enumeration defines tuning flags that describe the granularity of a tuning operation.
 old-location: stream\ks_tuner_tuning_flags.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_TUNER_TUNING_FLAGS
+- KS_TUNER_TUNING_FLAGS
 product:
 -   Windows
 targetos: Windows

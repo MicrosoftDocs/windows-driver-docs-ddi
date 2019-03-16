@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExTryConvertSharedSpinLockExclusive
-title: ExTryConvertSharedSpinLockExclusive function
+title: ExTryConvertSharedSpinLockExclusive function (wdm.h)
 description: The ExTryConvertSharedSpinLockExclusive routine attempts to convert the access state of a spin lock from acquired for shared access to exclusive access.
 old-location: kernel\extryconvertsharedspinlockexclusive_.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExTryConvertSharedSpinLockExclusive
+- ExTryConvertSharedSpinLockExclusive
 product:
 - Windows
 targetos: Windows

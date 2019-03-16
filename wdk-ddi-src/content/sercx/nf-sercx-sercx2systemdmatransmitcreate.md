@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaTransmitCreate
-title: SerCx2SystemDmaTransmitCreate function
+title: SerCx2SystemDmaTransmitCreate function (sercx.h)
 description: The SerCx2SystemDmaTransmitCreate method creates a SerCx2 system-DMA-transmit object, which version 2 of the serial framework extension (SerCx2) uses to perform system-DMA-transmit transactions.
 old-location: serports\sercx2systemdmatransmitcreate.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2SystemDmaTransmitCreate
+- SerCx2SystemDmaTransmitCreate
 product:
 - Windows
 targetos: Windows

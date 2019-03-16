@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DVBT2_L1_SIGNALLING_DATA
-title: "_BDA_DVBT2_L1_SIGNALLING_DATA"
+title: _BDA_DVBT2_L1_SIGNALLING_DATA (bdatypes.h)
 description: 
 old-location: stream\bda_dvbt2_l1_signalling_data.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_DVBT2_L1_SIGNALLING_DATA
+- BDA_DVBT2_L1_SIGNALLING_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoUninitializeWorkItem
-title: IoUninitializeWorkItem function
+title: IoUninitializeWorkItem function (wdm.h)
 description: The IoUninitializeWorkItem routine uninitializes a work item that was initialized by IoInitializeWorkItem.
 old-location: kernel\iouninitializeworkitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoUninitializeWorkItem
+- IoUninitializeWorkItem
 product:
 - Windows
 targetos: Windows

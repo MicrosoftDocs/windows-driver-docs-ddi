@@ -1,6 +1,6 @@
 ---
 UID: NC:video.RESTORE_WC_MEMORY
-title: RESTORE_WC_MEMORY
+title: RESTORE_WC_MEMORY (video.h)
 description: The VideoPortRestoreWCMemory callback routine restores Write Combined video memory from a protected state after the VideoPortProtectWCMemory callback routine was called.
 old-location: display\videoportrestorewcmemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	VideoPortRestoreWCMemory
+- VideoPortRestoreWCMemory
 product:
 - Windows
 targetos: Windows

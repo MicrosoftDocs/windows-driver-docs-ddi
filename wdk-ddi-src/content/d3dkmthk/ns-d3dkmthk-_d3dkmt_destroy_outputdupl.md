@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROY_OUTPUTDUPL
-title: _D3DKMT_DESTROY_OUTPUTDUPL
+title: _D3DKMT_DESTROY_OUTPUTDUPL (d3dkmthk.h)
 description: Used to destroy output duplicate.
 ms.assetid: 18f80d41-3bdb-4e7d-9232-dbbcbd8e9a0e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DESTROY_OUTPUTDUPL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DESTROY_OUTPUTDUPL
+- _D3DKMT_DESTROY_OUTPUTDUPL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

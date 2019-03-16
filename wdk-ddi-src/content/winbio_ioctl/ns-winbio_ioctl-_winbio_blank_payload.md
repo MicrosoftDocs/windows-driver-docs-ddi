@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_BLANK_PAYLOAD
-title: "_WINBIO_BLANK_PAYLOAD"
+title: _WINBIO_BLANK_PAYLOAD (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_RESET and IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 old-location: biometric\winbio_blank_payload.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_BLANK_PAYLOAD
+- WINBIO_BLANK_PAYLOAD
 product:
 - Windows
 targetos: Windows

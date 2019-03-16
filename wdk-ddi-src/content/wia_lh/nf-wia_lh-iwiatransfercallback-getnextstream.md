@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaTransferCallback.GetNextStream
-title: IWiaTransferCallback::GetNextStream
+title: IWiaTransferCallback::GetNextStream (wia_lh.h)
 description: The IWiaTransferCallback::GetNextStream method is implemented by an image processing filter.
 old-location: image\iwiatransfercallback_getnextstream.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaTransferCallback.GetNextStream
+- IWiaTransferCallback.GetNextStream
 product:
 - Windows
 targetos: Windows

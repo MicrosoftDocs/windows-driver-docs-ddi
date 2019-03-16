@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetBytes
-title: IPrinterScriptablePropertyBag::GetBytes
+title: IPrinterScriptablePropertyBag::GetBytes (printerextension.h)
 description: Gets a byte array property.
 old-location: print\iprinterscriptablepropertybag_getbytes.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptablePropertyBag.GetBytes
+- IPrinterScriptablePropertyBag.GetBytes
 product:
 - Windows
 targetos: Windows

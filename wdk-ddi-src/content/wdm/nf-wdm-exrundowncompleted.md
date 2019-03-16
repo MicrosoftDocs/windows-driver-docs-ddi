@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExRundownCompleted
-title: ExRundownCompleted function
+title: ExRundownCompleted function (wdm.h)
 description: The ExRundownCompleted routine updates the run-down status of a shared object to indicate that the run down of the object has completed.
 old-location: kernel\exrundowncompleted.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExRundownCompleted
+- ExRundownCompleted
 product:
 - Windows
 targetos: Windows

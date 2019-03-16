@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYALLOCATION
-title: DXGKDDI_DESTROYALLOCATION
+title: DXGKDDI_DESTROYALLOCATION (d3dkmddi.h)
 description: The DxgkDdiDestroyAllocation function releases allocations.
 old-location: display\dxgkddidestroyallocation.htm
 ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiDestroyAllocation
+- DxgkDdiDestroyAllocation
 product:
 - Windows
 targetos: Windows

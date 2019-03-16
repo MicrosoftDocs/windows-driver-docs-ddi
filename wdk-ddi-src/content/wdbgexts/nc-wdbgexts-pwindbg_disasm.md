@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_DISASM
-title: PWINDBG_DISASM
+title: PWINDBG_DISASM (wdbgexts.h)
 description: The PWINDBG_DISASM (Disasm) function disassembles the instruction pointed to by lpOffset and places the printable string into lpBuffer.
 old-location: debugger\disasm.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	Disasm
+- Disasm
 product:
 - Windows
 targetos: Windows

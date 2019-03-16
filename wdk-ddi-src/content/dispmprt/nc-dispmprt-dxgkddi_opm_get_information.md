@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_INFORMATION
-title: DXGKDDI_OPM_GET_INFORMATION
+title: DXGKDDI_OPM_GET_INFORMATION (dispmprt.h)
 description: The DxgkDdiOPMGetInformation function retrieves information from the given protected output object.
 old-location: display\dxgkddiopmgetinformation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMGetInformation
+- DxgkDdiOPMGetInformation
 product:
 - Windows
 targetos: Windows

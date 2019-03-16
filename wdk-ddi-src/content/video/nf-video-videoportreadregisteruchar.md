@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterUchar
-title: VideoPortReadRegisterUchar function
+title: VideoPortReadRegisterUchar function (video.h)
 description: The VideoPortReadRegisterUchar function reads a byte from a mapped register.
 old-location: display\videoportreadregisteruchar.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadRegisterUchar
+- VideoPortReadRegisterUchar
 product:
 - Windows
 targetos: Windows

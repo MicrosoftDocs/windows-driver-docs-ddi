@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_EXPORT_DESC_0054
-title: D3D12DDI_EXPORT_DESC_0054
+title: D3D12DDI_EXPORT_DESC_0054 (d3d12umddi.h)
 description: Describes information about exports.
 ms.assetid: bc4a3647-e7c6-4681-bd5a-4c44c5e72e86
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_EXPORT_DESC_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_EXPORT_DESC_0054
+- D3D12DDI_EXPORT_DESC_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

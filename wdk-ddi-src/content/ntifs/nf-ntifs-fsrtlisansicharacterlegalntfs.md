@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalNtfs
-title: FsRtlIsAnsiCharacterLegalNtfs macro
+title: FsRtlIsAnsiCharacterLegalNtfs macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalNtfs macro determines whether an ANSI character is legal for NTFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalntfs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsAnsiCharacterLegalNtfs
+- FsRtlIsAnsiCharacterLegalNtfs
 product:
 - Windows
 targetos: Windows

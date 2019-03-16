@@ -1,6 +1,6 @@
 ---
 UID: NS:spbcx._SPB_CONTROLLER_CONFIG
-title: "_SPB_CONTROLLER_CONFIG"
+title: _SPB_CONTROLLER_CONFIG (spbcx.h)
 description: The SPB_CONTROLLER_CONFIG structure contains the configuration settings for an SPB controller driver.
 old-location: spb\spb_controller_config.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_CONTROLLER_CONFIG
+- SPB_CONTROLLER_CONFIG
 product:
 - Windows
 targetos: Windows

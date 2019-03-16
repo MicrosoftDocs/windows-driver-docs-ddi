@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsGetCurrentThread
-title: PsGetCurrentThread function
+title: PsGetCurrentThread function (ntifs.h)
 description: The PsGetCurrentThread routine identifies the current thread.
 old-location: kernel\psgetcurrentthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetCurrentThread
+- PsGetCurrentThread
 product:
 - Windows
 targetos: Windows
@@ -87,7 +87,7 @@ This macro
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

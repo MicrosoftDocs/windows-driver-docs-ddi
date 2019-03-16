@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsQueryTotalCycleTimeProcess
-title: PsQueryTotalCycleTimeProcess function
+title: PsQueryTotalCycleTimeProcess function (wdm.h)
 description: The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
 old-location: kernel\psquerytotalcycletimeprocess.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	PsQueryTotalCycleTimeProcess
+- PsQueryTotalCycleTimeProcess
 product:
 - Windows
 targetos: Windows

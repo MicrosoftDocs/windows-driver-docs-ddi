@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_CREATE_VC
-title: MINIPORT_CO_CREATE_VC
+title: MINIPORT_CO_CREATE_VC (ndis.h)
 description: The MiniportCoCreateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcocreatevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCoCreateVc
+- MiniportCoCreateVc
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILEUTRAMRLPARAMMASK
-title: RILEUTRAMRLPARAMMASK
+title: RILEUTRAMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILEUTRAMRLPARAMMASK.
 old-location: netvista\rileutramrlparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILEUTRAMRLPARAMMASK
+- RILEUTRAMRLPARAMMASK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsippmrequests._UCMUCSI_PPM_IOCTL
-title: _UCMUCSI_PPM_IOCTL
+title: _UCMUCSI_PPM_IOCTL (ucmucsippmrequests.h)
 tech.root: usbref
 description: Defines I/O control codes handled by the client driver.
 ms.assetid: 8ef6d1a5-c204-48ea-b889-367118a87c8a
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCMUCSI_PPM_IOCTL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	_UCMUCSI_PPM_IOCTL
-product: Windows
+- _UCMUCSI_PPM_IOCTL
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

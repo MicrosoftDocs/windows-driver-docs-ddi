@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPCommand
-title: "_DXVA_COPPCommand"
+title: _DXVA_COPPCommand (dxva.h)
 description: The DXVA_COPPCommand structure describes a command sent to a protected video session that is associated with a COPP DirectX VA device.
 old-location: display\dxva_coppcommand.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_COPPCommand
+- DXVA_COPPCommand
 product:
 - Windows
 targetos: Windows

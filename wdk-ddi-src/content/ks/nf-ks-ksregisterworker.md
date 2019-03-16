@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRegisterWorker
-title: KsRegisterWorker function
+title: KsRegisterWorker function (ks.h)
 description: The KsRegisterWorker function handles clients registering for use of a thread.
 old-location: stream\ksregisterworker.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRegisterWorker
+- KsRegisterWorker
 product:
 - Windows
 targetos: Windows

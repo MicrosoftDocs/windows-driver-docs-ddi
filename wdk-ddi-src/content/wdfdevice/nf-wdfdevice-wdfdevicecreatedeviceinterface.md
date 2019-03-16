@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceCreateDeviceInterface
-title: WdfDeviceCreateDeviceInterface function
+title: WdfDeviceCreateDeviceInterface function (wdfdevice.h)
 description: The WdfDeviceCreateDeviceInterface method creates a device interface for a specified device.
 old-location: wdf\wdfdevicecreatedeviceinterface.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceCreateDeviceInterface
+- WdfDeviceCreateDeviceInterface
 product:
 - Windows
 targetos: Windows

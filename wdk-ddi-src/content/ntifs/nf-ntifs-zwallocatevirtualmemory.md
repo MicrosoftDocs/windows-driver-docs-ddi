@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwAllocateVirtualMemory
-title: ZwAllocateVirtualMemory function
+title: ZwAllocateVirtualMemory function (ntifs.h)
 description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 old-location: kernel\zwallocatevirtualmemory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwAllocateVirtualMemory
--	NtAllocateVirtualMemory
+- ZwAllocateVirtualMemory
+- NtAllocateVirtualMemory
 product:
 - Windows
 targetos: Windows

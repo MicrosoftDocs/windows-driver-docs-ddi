@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_WAIT_MASK
-title: IOCTL_SERIAL_GET_WAIT_MASK
+title: IOCTL_SERIAL_GET_WAIT_MASK (ntddser.h)
 description: The IOCTL_SERIAL_GET_WAIT_MASK request returns the event wait mask that is currently set for the serial controller.
 old-location: serports\ioctl_serial_get_wait_mask.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_GET_WAIT_MASK
+- IOCTL_SERIAL_GET_WAIT_MASK
 product:
 - Windows
 targetos: Windows

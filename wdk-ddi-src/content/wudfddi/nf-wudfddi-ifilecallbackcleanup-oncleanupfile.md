@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IFileCallbackCleanup.OnCleanupFile
-title: IFileCallbackCleanup::OnCleanupFile
+title: IFileCallbackCleanup::OnCleanupFile (wudfddi.h)
 description: The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue.
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IFileCallbackCleanup.OnCleanupFile
+- IFileCallbackCleanup.OnCleanupFile
 product:
 - Windows
 targetos: Windows

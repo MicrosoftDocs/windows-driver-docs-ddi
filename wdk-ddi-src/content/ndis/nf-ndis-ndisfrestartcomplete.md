@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFRestartComplete
-title: NdisFRestartComplete function
+title: NdisFRestartComplete function (ndis.h)
 description: A filter driver must call the NdisFRestartComplete function to complete a restart operation if the driver returned NDIS_STATUS_PENDING from its FilterRestart function.
 old-location: netvista\ndisfrestartcomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFRestartComplete
+- NdisFRestartComplete
 product:
 - Windows
 targetos: Windows

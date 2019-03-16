@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CONNECTOR
-title: "_NDK_CONNECTOR"
+title: _NDK_CONNECTOR (ndkpi.h)
 description: The NDK_CONNECTOR structure specifies the attributes of an NDK connector object.
 old-location: netvista\ndk_connector.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_CONNECTOR
+- NDK_CONNECTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ISOLATION_NAME
-title: "_NDIS_ISOLATION_NAME"
+title: _NDIS_ISOLATION_NAME (ntddndis.h)
 description: The NDIS_ISOLATION_NAME structure contains an NDIS isolation name for a VM network adapter.
 old-location: netvista\ndis_isolation_name.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_ISOLATION_NAME
+- NDIS_ISOLATION_NAME
 product:
 - Windows
 targetos: Windows

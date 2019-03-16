@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_WAITFORVERTICALBLANKEVENT2
-title: PFND3DKMT_WAITFORVERTICALBLANKEVENT2
+title: PFND3DKMT_WAITFORVERTICALBLANKEVENT2 (d3dkmthk.h)
 description: The PFND3DKMT_WAITFORVERTICALBLANKEVENT2 callback function waits for the vertical blanking interval to occur.
 ms.assetid: d6dcb757-d6e9-4119-814e-8cace8dc0603
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_WAITFORVERTICALBLANKEVENT2
+- PFND3DKMT_WAITFORVERTICALBLANKEVENT2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

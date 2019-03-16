@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RemoveHeadList
-title: RemoveHeadList function
+title: RemoveHeadList function (wdm.h)
 description: The RemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeheadlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RemoveHeadList
+- RemoveHeadList
 product:
 - Windows
 targetos: Windows

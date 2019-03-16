@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbDeviceInitConfig
-title: SpbDeviceInitConfig function
+title: SpbDeviceInitConfig function (spbcx.h)
 description: The SpbDeviceInitConfig method attaches the SPB framework extension (SpbCx) to the I/O-request chain for a WDFDEVICE (FDO or PDO) object that is to be created.
 old-location: spb\spbdeviceinitconfig.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbDeviceInitConfig
+- SpbDeviceInitConfig
 product:
 - Windows
 targetos: Windows

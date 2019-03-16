@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_INTERCONNECT_TYPE
-title: "_WDI_INTERCONNECT_TYPE"
+title: _WDI_INTERCONNECT_TYPE (dot11wdi.h)
 description: The WDI_INTERCONNECT_TYPE enumeration defines the interconnect types.
 old-location: netvista\wdi_interconnect_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_INTERCONNECT_TYPE
+- WDI_INTERCONNECT_TYPE
 product:
 - Windows
 targetos: Windows

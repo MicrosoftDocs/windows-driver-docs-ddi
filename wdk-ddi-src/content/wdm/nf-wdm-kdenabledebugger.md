@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdEnableDebugger
-title: KdEnableDebugger function
+title: KdEnableDebugger function (wdm.h)
 description: The KdEnableDebugger routine re-enables the kernel debugger after a call to the KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kdenabledebugger.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KdEnableDebugger
+- KdEnableDebugger
 product:
 - Windows
 targetos: Windows

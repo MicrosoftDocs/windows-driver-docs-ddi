@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETBACKINGRESOURCE
-title: DXGKDDI_GETBACKINGRESOURCE
+title: DXGKDDI_GETBACKINGRESOURCE (dispmprt.h)
 description: Gets any physical backings for the virtual device MMIO BARs.
 ms.assetid: b74c4429-875a-4495-bd9f-ee3d6bfd69d7
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	DXGKDDI_GETBACKINGRESOURCE
+- DXGKDDI_GETBACKINGRESOURCE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

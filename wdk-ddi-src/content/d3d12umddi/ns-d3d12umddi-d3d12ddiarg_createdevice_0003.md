@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATEDEVICE_0003
-title: D3D12DDIARG_CREATEDEVICE_0003
+title: D3D12DDIARG_CREATEDEVICE_0003 (d3d12umddi.h)
 description: The D3D10DDIARG_CREATEDEVICE_0003 structure describes the display device to create.
 old-location: display\d3d12ddiarg_createdevice_0003.htm
 ms.assetid: F139A61B-E074-4185-A934-17F6FDBA3F62
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATEDEVICE_0003
+- D3D12DDIARG_CREATEDEVICE_0003
 product:
 - Windows
 targetos: Windows

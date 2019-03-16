@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetWaitMask
-title: SerCxGetWaitMask function
+title: SerCxGetWaitMask function (sercx.h)
 description: The SerCxGetWaitMask method returns the event wait mask for the wait operation that is currently pending.
 old-location: serports\sercxgetwaitmask.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxGetWaitMask
+- SerCxGetWaitMask
 product:
 - Windows
 targetos: Windows

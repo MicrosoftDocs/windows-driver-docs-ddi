@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_DEFAULT
-title: EVT_WDF_IO_QUEUE_IO_DEFAULT
+title: EVT_WDF_IO_QUEUE_IO_DEFAULT (wdfio.h)
 description: A driver's EvtIoDefault event callback function processes a specified I/O request.
 old-location: wdf\evtiodefault.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoDefault
+- EvtIoDefault
 product:
 - Windows
 targetos: Windows

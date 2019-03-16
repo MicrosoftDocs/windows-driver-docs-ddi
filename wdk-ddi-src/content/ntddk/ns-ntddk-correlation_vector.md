@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk.CORRELATION_VECTOR
-title: CORRELATION_VECTOR
+title: CORRELATION_VECTOR (ntddk.h)
 description: Store the correlation vector that is used to reference events and the generated logs for diagnostic purposes.
 old-location: kernel\correlation_vector.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	CORRELATION_VECTOR
+- CORRELATION_VECTOR
 product:
 - Windows
 targetos: Windows

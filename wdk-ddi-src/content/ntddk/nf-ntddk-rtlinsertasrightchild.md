@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInsertAsRightChild
-title: RtlInsertAsRightChild function
+title: RtlInsertAsRightChild function (ntddk.h)
 description: The RtlInsertAsRightChild routine inserts a given splay link into the tree as the right child of a given node in that tree.
 old-location: ifsk\rtlinsertasrightchild.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlInsertAsRightChild
+- RtlInsertAsRightChild
 product:
 - Windows
 targetos: Windows

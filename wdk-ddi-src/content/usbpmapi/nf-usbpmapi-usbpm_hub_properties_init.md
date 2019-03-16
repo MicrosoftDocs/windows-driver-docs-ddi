@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_HUB_PROPERTIES_INIT
-title: USBPM_HUB_PROPERTIES_INIT function
+title: USBPM_HUB_PROPERTIES_INIT function (usbpmapi.h)
 description: Initializes a [**USBPM_HUB_PROPERTIES**] structure.
 ms.assetid: 44627145-69c9-4996-bdc2-3d53957e1de6
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_HUB_PROPERTIES_INIT
-product: Windows
+- USBPM_HUB_PROPERTIES_INIT
+product:
+- Windows
 targetos: Windows
 
 

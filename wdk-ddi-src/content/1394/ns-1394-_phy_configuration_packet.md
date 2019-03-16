@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._PHY_CONFIGURATION_PACKET
-title: "_PHY_CONFIGURATION_PACKET"
+title: _PHY_CONFIGURATION_PACKET (1394.h)
 description: The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 old-location: ieee\phy_configuration_packet.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	PHY_CONFIGURATION_PACKET
+- PHY_CONFIGURATION_PACKET
 product:
 - Windows
 targetos: Windows

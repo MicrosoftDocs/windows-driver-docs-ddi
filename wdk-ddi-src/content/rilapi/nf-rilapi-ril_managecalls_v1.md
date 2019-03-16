@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_ManageCalls_V1
-title: RIL_ManageCalls_V1 function
+title: RIL_ManageCalls_V1 function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_managecalls_v1.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_ManageCalls_V1
+- RIL_ManageCalls_V1
 product:
 - Windows
 targetos: Windows

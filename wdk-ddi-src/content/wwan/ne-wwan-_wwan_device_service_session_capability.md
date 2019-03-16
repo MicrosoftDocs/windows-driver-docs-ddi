@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
-title: "_WWAN_DEVICE_SERVICE_SESSION_CAPABILITY"
+title: _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration lists the different device service session operations that are supported by the device service.
 old-location: netvista\wwan_device_service_session_capability.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
+- WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFGetOptionalSwitchHandlers
-title: NdisFGetOptionalSwitchHandlers function
+title: NdisFGetOptionalSwitchHandlers function (ndis.h)
 description: Hyper-V extensible switch extensions call the NdisFGetOptionalSwitchHandlers function to obtain a list of pointers to the Hyper-V extensible switch handler functions.
 old-location: netvista\ndisfgetoptionalswitchhandlers.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFGetOptionalSwitchHandlers
+- NdisFGetOptionalSwitchHandlers
 product:
 - Windows
 targetos: Windows

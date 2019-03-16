@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetNumInterfaces
-title: IWDFUsbTargetDevice::GetNumInterfaces
+title: IWDFUsbTargetDevice::GetNumInterfaces (wudfusb.h)
 description: The GetNumInterfaces method retrieves the number of USB interfaces for the USB device.
 old-location: wdf\iwdfusbtargetdevice_getnuminterfaces.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.GetNumInterfaces
+- IWDFUsbTargetDevice.GetNumInterfaces
 product:
 - Windows
 targetos: Windows

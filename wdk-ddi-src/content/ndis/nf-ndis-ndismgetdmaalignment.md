@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMGetDmaAlignment
-title: NdisMGetDmaAlignment function
+title: NdisMGetDmaAlignment function (ndis.h)
 description: The NdisMGetDmaAlignment function returns the alignment requirements of the DMA system for a NIC.
 old-location: netvista\ndismgetdmaalignment.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMGetDmaAlignment
+- NdisMGetDmaAlignment
 product:
 - Windows
 targetos: Windows

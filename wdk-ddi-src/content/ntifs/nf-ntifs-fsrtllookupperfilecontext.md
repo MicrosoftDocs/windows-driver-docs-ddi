@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerFileContext
-title: FsRtlLookupPerFileContext function
+title: FsRtlLookupPerFileContext function (ntifs.h)
 description: The FsRtlLookupPerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a specified file.
 old-location: ifsk\fsrtllookupperfilecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=  APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlLookupPerFileContext
+- FsRtlLookupPerFileContext
 product:
 - Windows
 targetos: Windows

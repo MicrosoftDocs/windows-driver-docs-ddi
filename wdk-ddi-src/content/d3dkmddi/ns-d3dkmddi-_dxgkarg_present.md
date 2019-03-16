@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_PRESENT
-title: "_DXGKARG_PRESENT"
+title: _DXGKARG_PRESENT (d3dkmddi.h)
 description: The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 old-location: display\dxgkarg_present.htm
 ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_PRESENT
+- DXGKARG_PRESENT
 product:
 - Windows
 targetos: Windows

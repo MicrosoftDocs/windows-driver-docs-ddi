@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.RequestCancel
-title: IPrintJob::RequestCancel
+title: IPrintJob::RequestCancel (printerextension.h)
 description: Requests the cancellation of a print job.
 old-location: print\iprintjob_requestcancel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.RequestCancel
+- IPrintJob.RequestCancel
 product:
 - Windows
 targetos: Windows

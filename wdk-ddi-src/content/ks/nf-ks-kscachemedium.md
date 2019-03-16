@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCacheMedium
-title: KsCacheMedium function
+title: KsCacheMedium function (ks.h)
 description: The KsCacheMedium function improves graph building performance of pins that use Mediums to define connectivity.
 old-location: stream\kscachemedium.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsCacheMedium
+- KsCacheMedium
 product:
 - Windows
 targetos: Windows

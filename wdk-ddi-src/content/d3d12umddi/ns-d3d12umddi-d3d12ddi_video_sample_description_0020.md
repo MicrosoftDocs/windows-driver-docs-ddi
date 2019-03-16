@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
-title: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
+title: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 (d3d12umddi.h)
 description: Describes the width, height, format, and color space of a picture buffer.
 old-location: display\d3d12ddi_video_sample_description.htm
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
+- D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020
 product:
 - Windows
 targetos: Windows

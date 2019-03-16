@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_BLOCKSTATUS
-title: "_WHEA_GENERIC_ERROR_BLOCKSTATUS"
+title: _WHEA_GENERIC_ERROR_BLOCKSTATUS (ntddk.h)
 description: The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is reported in a generic error status block.
 old-location: whea\whea_generic_error_blockstatus.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_GENERIC_ERROR_BLOCKSTATUS
+- WHEA_GENERIC_ERROR_BLOCKSTATUS
 product:
 - Windows
 targetos: Windows

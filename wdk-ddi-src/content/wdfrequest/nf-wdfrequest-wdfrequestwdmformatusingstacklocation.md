@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestWdmFormatUsingStackLocation
-title: WdfRequestWdmFormatUsingStackLocation function
+title: WdfRequestWdmFormatUsingStackLocation function (wdfrequest.h)
 description: The WdfRequestWdmFormatUsingStackLocation method formats an I/O request by copying the contents of a specified WDM I/O stack location structure to the next stack location in the request.
 old-location: wdf\wdfrequestwdmformatusingstacklocation.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfRequestWdmFormatUsingStackLocation
+- WdfRequestWdmFormatUsingStackLocation
 product:
 - Windows
 targetos: Windows

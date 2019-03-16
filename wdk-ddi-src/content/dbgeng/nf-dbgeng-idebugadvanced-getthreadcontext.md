@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced.GetThreadContext
-title: IDebugAdvanced::GetThreadContext
+title: IDebugAdvanced::GetThreadContext (dbgeng.h)
 description: The GetThreadContext method returns the current thread context.
 old-location: debugger\getthreadcontext.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugAdvanced.GetThreadContext
--	IDebugAdvanced2.GetThreadContext
--	IDebugAdvanced3.GetThreadContext
+- IDebugAdvanced.GetThreadContext
+- IDebugAdvanced2.GetThreadContext
+- IDebugAdvanced3.GetThreadContext
 product:
 - Windows
 targetos: Windows

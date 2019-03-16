@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetCorrelatedTime
-title: IKsClockPropertySet::KsGetCorrelatedTime
+title: IKsClockPropertySet::KsGetCorrelatedTime (ksproxy.h)
 description: The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedtime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsGetCorrelatedTime
+- IKsClockPropertySet.KsGetCorrelatedTime
 product:
 - Windows
 targetos: Windows

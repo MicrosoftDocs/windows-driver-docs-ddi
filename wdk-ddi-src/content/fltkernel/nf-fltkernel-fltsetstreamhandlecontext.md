@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetStreamHandleContext
-title: FltSetStreamHandleContext function
+title: FltSetStreamHandleContext function (fltkernel.h)
 description: The FltSetStreamHandleContext routine sets a context for a stream handle.
 old-location: ifsk\fltsetstreamhandlecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetStreamHandleContext
+- FltSetStreamHandleContext
 product:
 - Windows
 targetos: Windows

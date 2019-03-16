@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.DeletePrinterIC
-title: DeletePrinterIC function
+title: DeletePrinterIC function (winsplp.h)
 description: 
 old-location: print\deleteprinteric.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	DeletePrinterIC
+- DeletePrinterIC
 product:
 - Windows
 targetos: Windows

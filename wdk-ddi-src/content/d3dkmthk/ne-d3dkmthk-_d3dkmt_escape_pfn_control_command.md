@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
-title: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
+title: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND (d3dkmthk.h)
 description: Escape function pointer control commands.
 ms.assetid: 67570b6b-4143-468a-b93f-f8c031bfaed5
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
+- _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibGetSystemFirmwareTable
-title: AuxKlibGetSystemFirmwareTable function
+title: AuxKlibGetSystemFirmwareTable function (aux_klib.h)
 description: The AuxKlibGetSystemFirmwareTable routine retrieves the specified firmware table from the firmware table provider.
 old-location: kernel\auxklibgetsystemfirmwaretable.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Aux_Klib.lib
--	Aux_Klib.dll
+- Aux_Klib.lib
+- Aux_Klib.dll
 api_name:
--	AuxKlibGetSystemFirmwareTable
+- AuxKlibGetSystemFirmwareTable
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_STATUS
-title: NET_BUFFER_LIST_STATUS macro
+title: NET_BUFFER_LIST_STATUS macro (ndis.h)
 description: NET_BUFFER_LIST_STATUS is a macro that NDIS drivers use to access the StatusCode member of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: ae7575c9-785c-4766-80b9-43c31f34fdaa
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_STATUS
+- NET_BUFFER_LIST_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

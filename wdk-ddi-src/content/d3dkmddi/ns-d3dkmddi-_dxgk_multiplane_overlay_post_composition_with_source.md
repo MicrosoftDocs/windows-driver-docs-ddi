@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
-title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE"
+title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE (d3dkmddi.h)
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for post composition transform support.
 old-location: display\dxgk_multiplane_overlay_post_composition_with_source.htm
 ms.assetid: F997E3DB-630D-41C8-B659-36376E05A6B7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+- DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 product:
 - Windows
 targetos: Windows

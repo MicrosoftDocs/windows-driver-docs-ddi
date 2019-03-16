@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlPrefetchMemoryNonTemporal
-title: RtlPrefetchMemoryNonTemporal function
+title: RtlPrefetchMemoryNonTemporal function (wdm.h)
 description: The RtlPrefetchMemoryNonTemporal routine provides a hint to the processor that a buffer should be temporarily moved into the processor cache.
 old-location: kernel\rtlprefetchmemorynontemporal.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlPrefetchMemoryNonTemporal
+- RtlPrefetchMemoryNonTemporal
 product:
 - Windows
 targetos: Windows

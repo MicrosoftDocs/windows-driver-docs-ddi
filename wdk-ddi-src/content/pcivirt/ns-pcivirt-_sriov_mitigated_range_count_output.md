@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
-title: "_SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
+title: _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT (pcivirt.h)
 description: This structures is the output buffer received by the IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT request that contains an array of ranges of memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_count_output.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
+- SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
 product:
 - Windows
 targetos: Windows

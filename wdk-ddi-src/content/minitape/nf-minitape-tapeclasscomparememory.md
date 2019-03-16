@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassCompareMemory
-title: TapeClassCompareMemory function
+title: TapeClassCompareMemory function (minitape.h)
 description: The TapeClassCompareMemory routine compares two memory buffers and returns the number of bytes that are equivalent.
 old-location: storage\tapeclasscomparememory.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeClassCompareMemory
+- TapeClassCompareMemory
 product:
 - Windows
 targetos: Windows

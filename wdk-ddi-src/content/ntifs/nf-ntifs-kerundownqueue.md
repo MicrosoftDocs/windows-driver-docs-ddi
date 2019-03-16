@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeRundownQueue
-title: KeRundownQueue function
+title: KeRundownQueue function (ntifs.h)
 description: The KeRundownQueue routine cleans up a queue object, flushing any queued entries.
 old-location: ifsk\kerundownqueue.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRundownQueue
+- KeRundownQueue
 product:
 - Windows
 targetos: Windows

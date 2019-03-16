@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYINFOFLAGS
-title: "_D3DDDI_OVERLAYINFOFLAGS"
+title: _D3DDDI_OVERLAYINFOFLAGS (d3dumddi.h)
 description: The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 old-location: display\d3dddi_overlayinfoflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_OVERLAYINFOFLAGS
+- D3DDDI_OVERLAYINFOFLAGS
 product:
 - Windows
 targetos: Windows

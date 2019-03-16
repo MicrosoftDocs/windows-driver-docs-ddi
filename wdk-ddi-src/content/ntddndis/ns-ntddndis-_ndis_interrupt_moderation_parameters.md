@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_INTERRUPT_MODERATION_PARAMETERS
-title: "_NDIS_INTERRUPT_MODERATION_PARAMETERS"
+title: _NDIS_INTERRUPT_MODERATION_PARAMETERS (ntddndis.h)
 description: The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the OID_GEN_INTERRUPT_MODERATION OID.
 old-location: netvista\ndis_interrupt_moderation_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_INTERRUPT_MODERATION_PARAMETERS
+- NDIS_INTERRUPT_MODERATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplDeviceCaps
-title: DrvSplDeviceCaps function
+title: DrvSplDeviceCaps function (winddiui.h)
 description: A printer interface DLL's DrvSplDeviceCaps function queries a printer for its capabilities.
 old-location: print\drvspldevicecaps.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvSplDeviceCaps
+- DrvSplDeviceCaps
 product:
 - Windows
 targetos: Windows

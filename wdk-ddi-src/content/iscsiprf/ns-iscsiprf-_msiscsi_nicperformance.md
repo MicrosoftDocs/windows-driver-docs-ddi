@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_NICPerformance
-title: "_MSiSCSI_NICPerformance"
+title: _MSiSCSI_NICPerformance (iscsiprf.h)
 description: The MSiSCSI_NICPerformance structure can be used by an iSCSI initiator to report statistics for a network interface card (NIC) port.
 old-location: storage\msiscsi_nicperformance.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_NICPerformance
+- MSiSCSI_NICPerformance
 product:
 - Windows
 targetos: Windows

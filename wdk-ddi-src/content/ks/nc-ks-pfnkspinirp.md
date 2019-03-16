@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINIRP
-title: PFNKSPINIRP
+title: PFNKSPINIRP (ks.h)
 description: An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs:IRP_MJ_CREATEIRP_MJ_CLOSE
 old-location: stream\avstrminipincreate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinCreate
+- AVStrMiniPinCreate
 product:
 - Windows
 targetos: Windows

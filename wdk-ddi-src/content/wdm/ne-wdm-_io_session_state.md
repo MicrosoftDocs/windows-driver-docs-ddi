@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_SESSION_STATE
-title: "_IO_SESSION_STATE"
+title: _IO_SESSION_STATE (wdm.h)
 description: The IO_SESSION_STATE enumeration contains constants that indicate the current state of a user session.
 old-location: kernel\io_session_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IO_SESSION_STATE
+- IO_SESSION_STATE
 product:
 - Windows
 targetos: Windows

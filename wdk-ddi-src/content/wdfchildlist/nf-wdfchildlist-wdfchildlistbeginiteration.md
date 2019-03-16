@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListBeginIteration
-title: WdfChildListBeginIteration function
+title: WdfChildListBeginIteration function (wdfchildlist.h)
 description: The WdfChildListBeginIteration method prepares the framework for retrieving items from a specified child list.
 old-location: wdf\wdfchildlistbeginiteration.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfChildListBeginIteration
+- WdfChildListBeginIteration
 product:
 - Windows
 targetos: Windows

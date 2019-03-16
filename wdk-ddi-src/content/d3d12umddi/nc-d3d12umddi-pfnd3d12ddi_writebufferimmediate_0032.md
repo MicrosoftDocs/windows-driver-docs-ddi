@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
-title: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
+title: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 (d3d12umddi.h)
 description: Used to create a write buffer.
 old-location: display\pfnd3d12ddi_writebufferimmediate_0032.htm
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
+- PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 product:
 - Windows
 targetos: Windows

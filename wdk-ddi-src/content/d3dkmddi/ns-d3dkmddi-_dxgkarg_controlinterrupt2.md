@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CONTROLINTERRUPT2
-title: "_DXGKARG_CONTROLINTERRUPT2"
+title: _DXGKARG_CONTROLINTERRUPT2 (d3dkmddi.h)
 description: The DXGKARG_CONTROLINTERRUPT2 structure is used in DxgkDdi_ControlInterrupt2 calls to describe the state of interrupts.
 old-location: display\dxgkarg_controlinterrupt2.htm
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_CONTROLINTTERUPT2
+- DXGKARG_CONTROLINTTERUPT2
 product:
 - Windows
 targetos: Windows

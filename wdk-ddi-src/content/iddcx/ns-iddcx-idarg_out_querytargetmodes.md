@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_QUERYTARGETMODES
-title: IDARG_OUT_QUERYTARGETMODES
+title: IDARG_OUT_QUERYTARGETMODES (iddcx.h)
 description: Gives information about the number of target modes provided by the OS.
 old-location: display\idarg_out_querytargetmodes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_QUERYTARGETMODES
+- IDARG_OUT_QUERYTARGETMODES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ACCESS_DENIED_ACE
-title: "_ACCESS_DENIED_ACE"
+title: _ACCESS_DENIED_ACE (ntifs.h)
 description: The ACCESS_DENIED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) controlling access to an object.
 old-location: ifsk\access_denied_ace.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	ACCESS_DENIED_ACE
+- ACCESS_DENIED_ACE
 product:
 - Windows
 targetos: Windows

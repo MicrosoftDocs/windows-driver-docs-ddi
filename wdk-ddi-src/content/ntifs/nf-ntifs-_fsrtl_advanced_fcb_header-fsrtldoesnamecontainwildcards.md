@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDoesNameContainWildCards
-title: FsRtlDoesNameContainWildCards function
+title: FsRtlDoesNameContainWildCards function (ntifs.h)
 description: The FsRtlDoesNameContainWildCards routine determines whether a Unicode string contains wildcard characters.
 old-location: ifsk\fsrtldoesnamecontainwildcards.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlDoesNameContainWildCards
+- FsRtlDoesNameContainWildCards
 product:
 - Windows
 targetos: Windows

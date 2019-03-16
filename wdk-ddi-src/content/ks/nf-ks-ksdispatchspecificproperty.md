@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchSpecificProperty
-title: KsDispatchSpecificProperty function
+title: KsDispatchSpecificProperty function (ks.h)
 description: The KsDispatchSpecificProperty function dispatches the property to a specific handler.
 old-location: stream\ksdispatchspecificproperty.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDispatchSpecificProperty
+- KsDispatchSpecificProperty
 product:
 - Windows
 targetos: Windows

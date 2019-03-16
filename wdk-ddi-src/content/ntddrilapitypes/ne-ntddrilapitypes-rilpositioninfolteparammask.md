@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPOSITIONINFOLTEPARAMMASK
-title: RILPOSITIONINFOLTEPARAMMASK
+title: RILPOSITIONINFOLTEPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILPOSITIONINFOLTEPARAMMASK.
 old-location: netvista\rilpositioninfolteparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFOLTEPARAMMASK
+- RILPOSITIONINFOLTEPARAMMASK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:netrxqueue._NET_RXQUEUE_BUFFER_LAYOUT_HINT
-title: _NET_RXQUEUE_BUFFER_LAYOUT_HINT
+title: _NET_RXQUEUE_BUFFER_LAYOUT_HINT (netrxqueue.h)
 description: The NET_RXQUEUE_BUFFER_LAYOUT_HINT structure represents receive buffer layout hints returned to a client driver from the upper layer.
 tech.root: netvista
 ms.assetid: e9d6b199-e950-4c70-9ac3-0bdf3bbf2616
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrxqueue.h
-apiname: 
--	NET_RXQUEUE_BUFFER_LAYOUT_HINT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrxqueue.h
+api_name: 
+- NET_RXQUEUE_BUFFER_LAYOUT_HINT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

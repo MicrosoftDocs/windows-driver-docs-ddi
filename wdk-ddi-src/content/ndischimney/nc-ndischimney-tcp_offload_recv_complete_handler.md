@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_RECV_COMPLETE_HANDLER
-title: TCP_OFFLOAD_RECV_COMPLETE_HANDLER
+title: TCP_OFFLOAD_RECV_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadReceiveComplete function to complete a receive operation that the driver previously initiated by calling the NdisOffloadTcpReceive function.
 old-location: netvista\protocoltcpoffloadreceivecomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolTcpOffloadReceiveComplete
+- ProtocolTcpOffloadReceiveComplete
 product:
 - Windows
 targetos: Windows

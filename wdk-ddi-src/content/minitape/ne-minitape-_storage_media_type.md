@@ -1,6 +1,6 @@
 ---
 UID: NE:minitape._STORAGE_MEDIA_TYPE
-title: "_STORAGE_MEDIA_TYPE"
+title: _STORAGE_MEDIA_TYPE (minitape.h)
 description: The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to query the class driver for the types of media that a device supports.
 old-location: storage\storage_media_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_MEDIA_TYPE
+- STORAGE_MEDIA_TYPE
 product:
 - Windows
 targetos: Windows

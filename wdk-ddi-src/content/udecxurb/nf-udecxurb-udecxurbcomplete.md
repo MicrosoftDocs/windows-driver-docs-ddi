@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbComplete
-title: UdecxUrbComplete function
+title: UdecxUrbComplete function (udecxurb.h)
 description: Completes the URB request with a USB-specific completion status code.
 old-location: buses\udecxurbcomplete.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUrbComplete
+- UdecxUrbComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_ACCEPT
-title: NDK_FN_ACCEPT
+title: NDK_FN_ACCEPT (ndkpi.h)
 description: The NdkAccept (NDK_FN_ACCEPT) function accepts an incoming connection request over a listener object.
 old-location: netvista\ndk_fn_accept.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkAccept
+- NdkAccept
 product:
 - Windows
 targetos: Windows

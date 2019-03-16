@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetQuotaInformationFile
-title: FltSetQuotaInformationFile function
+title: FltSetQuotaInformationFile function (fltkernel.h)
 description: The FltSetQuotaInformationFile routine modifies quota entries for a file object.
 old-location: ifsk\fltsetquotainformationfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetQuotaInformationFile
+- FltSetQuotaInformationFile
 product:
 - Windows
 targetos: Windows

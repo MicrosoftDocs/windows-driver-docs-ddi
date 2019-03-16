@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_OriginWidthInMicrons
-title: IPrintSchemaPageImageableSize::get_OriginWidthInMicrons
+title: IPrintSchemaPageImageableSize::get_OriginWidthInMicrons (printerextension.h)
 description: Gets the horizontal origin of the imageable area relative to the application media size.
 old-location: print\iprintschemapageimageablesize_originwidthinmicrons.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaPageImageableSize.OriginWidthInMicrons
--	IPrintSchemaPageImageableSize.get_OriginWidthInMicrons
+- IPrintSchemaPageImageableSize.OriginWidthInMicrons
+- IPrintSchemaPageImageableSize.get_OriginWidthInMicrons
 product:
 - Windows
 targetos: Windows

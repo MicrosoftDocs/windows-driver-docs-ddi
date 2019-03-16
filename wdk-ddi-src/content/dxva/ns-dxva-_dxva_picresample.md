@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_PicResample
-title: "_DXVA_PicResample"
+title: _DXVA_PicResample (dxva.h)
 description: The DXVA_PicResample structure is sent by the host decoder to the accelerator to control the resampling process. This process is invoked when the bDXVA_Func variable is equal to 4.
 old-location: display\dxva_picresample.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_PicResample
+- DXVA_PicResample
 product:
 - Windows
 targetos: Windows

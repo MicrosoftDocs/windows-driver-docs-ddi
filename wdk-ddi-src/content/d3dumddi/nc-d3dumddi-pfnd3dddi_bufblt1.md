@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_BUFBLT1
-title: PFND3DDDI_BUFBLT1
+title: PFND3DDDI_BUFBLT1 (d3dumddi.h)
 description: Performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 old-location: display\bufblt1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	BufBlt1
+- BufBlt1
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyPagingQueue
-title: D3DKMTDestroyPagingQueue function
+title: D3DKMTDestroyPagingQueue function (d3dkmthk.h)
 description: D3DKMTDestroyPagingQueue waits for a paging queue to finish all operations queued to it, and destroys it along with the associated sync object.
 old-location: display\d3dkmtdestroypagingqueue.htm
 ms.assetid: 470563BD-F185-4CA2-B4AD-06E1AABD36AD
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroyPagingQueue
+- D3DKMTDestroyPagingQueue
 product:
 - Windows
 targetos: Windows

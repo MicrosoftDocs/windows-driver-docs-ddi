@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_DATA_RECEIVED
-title: "_MSR_DATA_RECEIVED"
+title: _MSR_DATA_RECEIVED (pointofservicedriverinterface.h)
 description: This structure contains the data read from a swiped magnetic stripe card.
 old-location: pos\msr_data_received.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_DATA_RECEIVED
+- MSR_DATA_RECEIVED
 product:
 - Windows
 targetos: Windows

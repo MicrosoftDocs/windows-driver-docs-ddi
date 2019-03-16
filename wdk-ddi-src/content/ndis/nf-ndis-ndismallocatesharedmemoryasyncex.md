@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMAllocateSharedMemoryAsyncEx
-title: NdisMAllocateSharedMemoryAsyncEx function
+title: NdisMAllocateSharedMemoryAsyncEx function (ndis.h)
 description: Miniport drivers call the NdisMAllocateSharedMemoryAsyncEx function to allocate additional memory shared between the driver and its bus-master DMA NIC, usually when the miniport driver is running low on available NIC receive buffers.
 old-location: netvista\ndismallocatesharedmemoryasyncex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMAllocateSharedMemoryAsyncEx
+- NdisMAllocateSharedMemoryAsyncEx
 product:
 - Windows
 targetos: Windows

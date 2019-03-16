@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_INITIALIZE
-title: MINIPORT_WDI_TAL_TXRX_INITIALIZE
+title: MINIPORT_WDI_TAL_TXRX_INITIALIZE (dot11wdi.h)
 description: The MiniportWdiTalTxRxInitialize handler function initializes data structures in the TAL and exchanges datapath component handles between the UE and TAL.
 old-location: netvista\miniportwditaltxrxinitialize.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTalTxRxInitialize
+- MiniportWdiTalTxRxInitialize
 product:
 - Windows
 targetos: Windows

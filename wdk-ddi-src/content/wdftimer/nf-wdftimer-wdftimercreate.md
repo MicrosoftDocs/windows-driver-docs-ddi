@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerCreate
-title: WdfTimerCreate function
+title: WdfTimerCreate function (wdftimer.h)
 description: The WdfTimerCreate method creates a framework timer object.
 old-location: wdf\wdftimercreate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfTimerCreate
+- WdfTimerCreate
 product:
 - Windows
 targetos: Windows

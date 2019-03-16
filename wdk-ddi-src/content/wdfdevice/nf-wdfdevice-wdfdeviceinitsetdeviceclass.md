@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetDeviceClass
-title: WdfDeviceInitSetDeviceClass function
+title: WdfDeviceInitSetDeviceClass function (wdfdevice.h)
 description: The WdfDeviceInitSetDeviceClass method specifies a GUID that identifies the device's device setup class.
 old-location: wdf\wdfdeviceinitsetdeviceclass.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitSetDeviceClass
+- WdfDeviceInitSetDeviceClass
 product:
 - Windows
 targetos: Windows

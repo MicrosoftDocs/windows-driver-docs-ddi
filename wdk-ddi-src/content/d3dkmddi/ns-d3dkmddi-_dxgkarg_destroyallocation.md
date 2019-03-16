@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESTROYALLOCATION
-title: "_DXGKARG_DESTROYALLOCATION"
+title: _DXGKARG_DESTROYALLOCATION (d3dkmddi.h)
 description: The DXGKARG_DESTROYALLOCATION structure describes how the display miniport driver should release allocations.
 old-location: display\dxgkarg_destroyallocation.htm
 ms.assetid: 0679ade4-9bbd-4bbc-ad2a-46bf35cac645
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_DESTROYALLOCATION
+- DXGKARG_DESTROYALLOCATION
 product:
 - Windows
 targetos: Windows

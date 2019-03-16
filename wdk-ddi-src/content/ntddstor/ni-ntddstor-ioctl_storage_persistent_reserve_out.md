@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
-title: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
+title: IOCTL_STORAGE_PERSISTENT_RESERVE_OUT (ntddstor.h)
 description: The generic storage class driver (classpnp.sys) exposes an I/O control (IOCTL) interface for issuing Persistent Reserve Out commands.
 old-location: storage\ioctl_storage_persistent_reserve_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
+- IOCTL_STORAGE_PERSISTENT_RESERVE_OUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
-title: PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
+title: PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053 (d3d12umddi.h)
 description: Creates a video motion vector heap.
 ms.assetid: 4b1ca6fb-cc29-4621-99af-594f42c4e7a9
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
+- PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

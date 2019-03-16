@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DEVICEPROPERTYHEADER
-title: "_DEVICEPROPERTYHEADER"
+title: _DEVICEPROPERTYHEADER (winddiui.h)
 description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDevicePropertySheets function.
 old-location: print\devicepropertyheader.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DEVICEPROPERTYHEADER
+- DEVICEPROPERTYHEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_MAC_ADDRESS
-title: "_WDI_MAC_ADDRESS"
+title: _WDI_MAC_ADDRESS (dot11wdi.h)
 description: The WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
 old-location: netvista\wdi_mac_address.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_MAC_ADDRESS
+- WDI_MAC_ADDRESS
 product:
 - Windows
 targetos: Windows

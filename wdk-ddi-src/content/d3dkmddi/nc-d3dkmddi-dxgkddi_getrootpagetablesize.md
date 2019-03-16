@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETROOTPAGETABLESIZE
-title: DXGKDDI_GETROOTPAGETABLESIZE
+title: DXGKDDI_GETROOTPAGETABLESIZE (d3dkmddi.h)
 description: DxgkDdiGetRootPageTableSize returns the minimum root page table size, in bytes, that is needed to hold the given number of page table entries.
 old-location: display\dxgkddigetrootpagetablesize.htm
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiGetRootPageTableSize
+- DxgkDdiGetRootPageTableSize
 product:
 - Windows
 targetos: Windows

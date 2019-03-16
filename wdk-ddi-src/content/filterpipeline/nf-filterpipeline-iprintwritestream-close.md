@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStream.Close
-title: IPrintWriteStream::Close
+title: IPrintWriteStream::Close (filterpipeline.h)
 description: The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
 old-location: print\iprintwritestream_close.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPrintWriteStream.Close
+- IPrintWriteStream.Close
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KBUGCHECK_REASON_CALLBACK_ROUTINE
-title: KBUGCHECK_REASON_CALLBACK_ROUTINE
+title: KBUGCHECK_REASON_CALLBACK_ROUTINE (wdm.h)
 description: Driver-implemented callback functions that the system executes when it issues a bug check.
 old-location: kernel\bugcheckaddpagescallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MyBugCheckCallback
+- MyBugCheckCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.GetJobAttributesEx
-title: GetJobAttributesEx function
+title: GetJobAttributesEx function (winsplp.h)
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\getjobattributesex.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	GetJobAttributesEx
+- GetJobAttributesEx
 product:
 - Windows
 targetos: Windows

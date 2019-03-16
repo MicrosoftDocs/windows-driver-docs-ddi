@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSDEVICE_DISPATCH
-title: "_KSDEVICE_DISPATCH"
+title: _KSDEVICE_DISPATCH (ks.h)
 description: The KSDEVICE_DISPATCH structure describes the callbacks that a client can provide to receive notification of device creation and PnP events.
 old-location: stream\ksdevice_dispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSDEVICE_DISPATCH
+- KSDEVICE_DISPATCH
 product:
 - Windows
 targetos: Windows

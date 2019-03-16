@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PROCESSOR_VENDOR
-title: "_NDIS_PROCESSOR_VENDOR"
+title: _NDIS_PROCESSOR_VENDOR (ntddndis.h)
 description: The NDIS_PROCESSOR_VENDOR enumeration identifies a processor vendor.
 old-location: netvista\ndis_processor_vendor.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PROCESSOR_VENDOR
+- NDIS_PROCESSOR_VENDOR
 product:
 - Windows
 targetos: Windows

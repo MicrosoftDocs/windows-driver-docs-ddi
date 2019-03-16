@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_APP_INSTANCE_EA
-title: _NETWORK_APP_INSTANCE_EA
+title: _NETWORK_APP_INSTANCE_EA (ntifs.h)
 description: 
 ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_NETWORK_APP_INSTANCE_EA
+- _NETWORK_APP_INSTANCE_EA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

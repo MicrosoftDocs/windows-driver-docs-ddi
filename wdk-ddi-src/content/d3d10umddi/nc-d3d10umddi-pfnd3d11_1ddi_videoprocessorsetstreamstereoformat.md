@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT (d3d10umddi.h)
 description: Enables or disables stereo 3D video for an input stream on the video processor. In addition, this function specifies the layout of the video frames in memory.
 old-location: display\videoprocessorsetstreamstereoformat.htm
 ms.assetid: bc79f431-d23e-4440-a8c5-50c29c48444e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamStereoFormat
+- pfnVideoProcessorSetStreamStereoFormat
 product:
 - Windows
 targetos: Windows

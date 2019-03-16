@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAnsiStringToUnicodeString
-title: NdisAnsiStringToUnicodeString macro
+title: NdisAnsiStringToUnicodeString macro (ndis.h)
 description: The NdisAnsiStringToUnicodeString function converts a given counted ANSI string into a counted Unicode string. The translation conforms to the current system locale information.
 old-location: netvista\ndisansistringtounicodestring.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAnsiStringToUnicodeString
+- NdisAnsiStringToUnicodeString
 product:
 - Windows
 targetos: Windows

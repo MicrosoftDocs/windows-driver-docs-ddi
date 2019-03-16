@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_POWER_CONTROL_REQUEST
-title: "_PEP_POWER_CONTROL_REQUEST"
+title: _PEP_POWER_CONTROL_REQUEST (pep_x.h)
 description: The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation.
 old-location: kernel\pep_power_control_request.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_POWER_CONTROL_REQUEST
+- PEP_POWER_CONTROL_REQUEST
 product:
 - Windows
 targetos: Windows

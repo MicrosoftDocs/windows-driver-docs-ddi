@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWAUTO
-title: PFND3D10DDI_DRAWAUTO
+title: PFND3D10DDI_DRAWAUTO (d3d10umddi.h)
 description: The DrawAuto function works similarly to the Draw function, except DrawAuto is used for the special case where vertex data is written through the stream-output unit and then recycled as a vertex buffer.
 old-location: display\drawauto.htm
 ms.assetid: 83d96dc0-dfd4-449e-9e14-18f354d44534
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DrawAuto
+- DrawAuto
 product:
 - Windows
 targetos: Windows

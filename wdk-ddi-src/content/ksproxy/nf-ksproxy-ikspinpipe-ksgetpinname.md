@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPinName
-title: IKsPinPipe::KsGetPinName
+title: IKsPinPipe::KsGetPinName (ksproxy.h)
 description: Returns the name of a pin.
 old-location: stream\ikspinpipe_ksgetpinname.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPinPipe.KsGetPinName
+- IKsPinPipe.KsGetPinName
 product:
 - Windows
 targetos: Windows

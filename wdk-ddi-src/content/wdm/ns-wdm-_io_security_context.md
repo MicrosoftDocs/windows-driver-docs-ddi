@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_SECURITY_CONTEXT
-title: "_IO_SECURITY_CONTEXT"
+title: _IO_SECURITY_CONTEXT (wdm.h)
 description: The IO_SECURITY_CONTEXT structure represents the security context of an IRP_MJ_CREATE request.
 old-location: kernel\io_security_context.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_SECURITY_CONTEXT
+- IO_SECURITY_CONTEXT
 product:
 - Windows
 targetos: Windows

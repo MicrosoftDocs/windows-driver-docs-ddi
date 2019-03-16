@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_GET_EXPRESSION
-title: PWINDBG_GET_EXPRESSION
+title: PWINDBG_GET_EXPRESSION (wdbgexts.h)
 description: The PWINDBG_GET_EXPRESSION (GetExpression) function returns the value of expression. The expression is evaluated using the current expression evaluator, and can contain aliases.
 old-location: debugger\getexpression.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetExpression
+- GetExpression
 product:
 - Windows
 targetos: Windows

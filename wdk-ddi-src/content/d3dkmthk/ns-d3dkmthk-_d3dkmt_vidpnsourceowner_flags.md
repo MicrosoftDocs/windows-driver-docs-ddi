@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIDPNSOURCEOWNER_FLAGS
-title: "_D3DKMT_VIDPNSOURCEOWNER_FLAGS"
+title: _D3DKMT_VIDPNSOURCEOWNER_FLAGS (d3dkmthk.h)
 description: Specifies output duplication options for use with the D3DKMTSetVidPnSourceOwner1 function.
 old-location: display\d3dkmt_vidpnsourceowner_flags.htm
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_VIDPNSOURCEOWNER_FLAGS
+- D3DKMT_VIDPNSOURCEOWNER_FLAGS
 product:
 - Windows
 targetos: Windows

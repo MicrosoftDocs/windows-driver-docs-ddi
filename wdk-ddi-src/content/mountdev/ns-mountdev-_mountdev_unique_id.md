@@ -1,6 +1,6 @@
 ---
 UID: NS:mountdev._MOUNTDEV_UNIQUE_ID
-title: "_MOUNTDEV_UNIQUE_ID"
+title: _MOUNTDEV_UNIQUE_ID (mountdev.h)
 description: The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an IOCTL_MOUNTDEV_QUERY_UNIQUE_ID request.
 old-location: storage\mountdev_unique_id.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountdev.h
+- mountdev.h
 api_name:
--	MOUNTDEV_UNIQUE_ID
+- MOUNTDEV_UNIQUE_ID
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYOVERLAYCB
-title: PFND3DDDI_DESTROYOVERLAYCB
+title: PFND3DDDI_DESTROYOVERLAYCB (d3dumddi.h)
 description: The pfnDestroyOverlayCb function disables the overlay hardware and destroys the kernel-mode overlay object.
 old-location: display\pfndestroyoverlaycb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnDestroyOverlayCb
+- pfnDestroyOverlayCb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
-title: PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
+title: PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION (d3dkmthk.h)
 description: The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notifies the operating system about an upcoming lock to a shared primary surface.
 ms.assetid: ceb858a0-a82b-4649-9a97-884cdf09b822
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
+- PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

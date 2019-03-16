@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DIRECTORY_NOTIFY_INFORMATION_CLASS
-title: "_DIRECTORY_NOTIFY_INFORMATION_CLASS"
+title: _DIRECTORY_NOTIFY_INFORMATION_CLASS (wdm.h)
 description: A value that specifies which structure to use to query or set information for a files in a directory.
 old-location: ifsk\_directory_notify_information_class.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DIRECTORY_NOTIFY_INFORMATION_CLASS
+- DIRECTORY_NOTIFY_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_MONITORLINKINFO_CAPABILITIES
-title: "_DXGK_MONITORLINKINFO_CAPABILITIES"
+title: _DXGK_MONITORLINKINFO_CAPABILITIES (d3dkmdt.h)
 description: Flags which describe the capabilities for driving the monitor.
 old-location: display\dxgk_monitorlinkinfo_capabilities.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGK_MONITORLINKINFO_CAPABILITIES
+- DXGK_MONITORLINKINFO_CAPABILITIES
 product:
 - Windows
 targetos: Windows

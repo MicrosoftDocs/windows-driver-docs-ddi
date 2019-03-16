@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_CAPABILITIES_DATA
-title: "_STOR_CRYPTO_CAPABILITIES_DATA"
+title: _STOR_CRYPTO_CAPABILITIES_DATA (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_capabilities_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_CRYPTO_CAPABILITIES_DATA
+- STOR_CRYPTO_CAPABILITIES_DATA
 product:
 - Windows
 targetos: Windows

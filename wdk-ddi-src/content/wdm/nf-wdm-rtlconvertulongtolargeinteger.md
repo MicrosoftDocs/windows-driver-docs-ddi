@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlConvertUlongToLargeInteger
-title: RtlConvertUlongToLargeInteger function
+title: RtlConvertUlongToLargeInteger function (wdm.h)
 description: The RtlConvertUlongToLargeInteger routine converts the input unsigned integer to a signed large integer. For Windows XP and later versions of Windows, do not use this routine; use the native support for __int64.
 old-location: kernel\rtlconvertulongtolargeinteger.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlConvertUlongToLargeInteger
+- RtlConvertUlongToLargeInteger
 product:
 - Windows
 targetos: Windows

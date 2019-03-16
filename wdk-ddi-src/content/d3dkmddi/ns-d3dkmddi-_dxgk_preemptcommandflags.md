@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PREEMPTCOMMANDFLAGS
-title: "_DXGK_PREEMPTCOMMANDFLAGS"
+title: _DXGK_PREEMPTCOMMANDFLAGS (d3dkmddi.h)
 description: The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 old-location: display\dxgk_preemptcommandflags.htm
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PREEMPTCOMMANDFLAGS
+- DXGK_PREEMPTCOMMANDFLAGS
 product:
 - Windows
 targetos: Windows

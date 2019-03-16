@@ -1,6 +1,6 @@
 ---
 UID: NS:ksi.__unnamed_struct_1
-title: KSCLOCKINSTANCE
+title: KSCLOCKINSTANCE (ksi.h)
 description: 
 old-location: stream\ksclockinstance.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksi.h
+- Ksi.h
 api_name:
--	KSCLOCKINSTANCE
+- KSCLOCKINSTANCE
 product:
 - Windows
 targetos: Windows

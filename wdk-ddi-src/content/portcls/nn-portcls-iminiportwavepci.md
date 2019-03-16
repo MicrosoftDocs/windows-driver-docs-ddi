@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWavePci
-title: IMiniportWavePci
+title: IMiniportWavePci (portcls.h)
 description: The IMiniportWavePci interface is the primary interface that is exposed by the miniport driver for a WavePci audio device.
 old-location: audio\iminiportwavepci.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWavePci
+- IMiniportWavePci
 product:
 - Windows
 targetos: Windows

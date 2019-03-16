@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeAt
-title: IDebugHostType::GetFunctionParameterTypeAt
+title: IDebugHostType::GetFunctionParameterTypeAt (dbgmodel.h)
 description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
 ms.assetid: 27151f01-f037-4fab-bbe5-909f753eddbe
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetFunctionParameterTypeAt
-product: Windows
+- IDebugHostType.GetFunctionParameterTypeAt
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

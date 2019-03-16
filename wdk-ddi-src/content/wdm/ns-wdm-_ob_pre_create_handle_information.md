@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_CREATE_HANDLE_INFORMATION
-title: "_OB_PRE_CREATE_HANDLE_INFORMATION"
+title: _OB_PRE_CREATE_HANDLE_INFORMATION (wdm.h)
 description: The OB_PRE_CREATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being opened.
 old-location: kernel\ob_pre_create_handle_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	OB_PRE_CREATE_HANDLE_INFORMATION
+- OB_PRE_CREATE_HANDLE_INFORMATION
 product:
 - Windows
 targetos: Windows

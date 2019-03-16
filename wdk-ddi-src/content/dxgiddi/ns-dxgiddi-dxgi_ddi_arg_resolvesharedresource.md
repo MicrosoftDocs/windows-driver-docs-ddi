@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
-title: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
+title: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE (dxgiddi.h)
 description: The DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure describes the parameters that the user-mode display driver's ResolveSharedResourceDXGI function uses to synchronize a shared surface or a GDI interoperable surface.
 old-location: display\dxgi_ddi_arg_resolvesharedresource.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
+- DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_MAKERESIDENT
-title: PFND3DKMT_MAKERESIDENT
+title: PFND3DKMT_MAKERESIDENT (d3dkmthk.h)
 description: Pfnd3dkmtMakeresident adds a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: bbcacf12-0a1c-4945-b315-ff7024933ed3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_MAKERESIDENT
+- PFND3DKMT_MAKERESIDENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

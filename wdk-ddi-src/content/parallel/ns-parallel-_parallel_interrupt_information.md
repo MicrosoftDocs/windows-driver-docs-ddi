@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_INTERRUPT_INFORMATION
-title: "_PARALLEL_INTERRUPT_INFORMATION"
+title: _PARALLEL_INTERRUPT_INFORMATION (parallel.h)
 description: The PARALLEL_INTERRUPT_INFORMATION structure specifies information that a kernel-mode driver can use in the context of an ISR that the driver connects to a parallel port.
 old-location: parports\parallel_interrupt_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_INTERRUPT_INFORMATION
+- PARALLEL_INTERRUPT_INFORMATION
 product:
 - Windows
 targetos: Windows

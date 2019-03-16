@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
-title: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
+title: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether independent flip secondary is supported.
 ms.assetid: 31328ed6-472e-4580-b725-a35ea1160a6a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
+- _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

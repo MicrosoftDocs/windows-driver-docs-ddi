@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_DESC
-title: D3D11_1DDI_VIDEO_DECODER_DESC
+title: D3D11_1DDI_VIDEO_DECODER_DESC (d3d10umddi.h)
 description: Describes a video stream for a Microsoft Direct3D video decoder or video processor.
 old-location: display\d3d11_1ddi_video_decoder_desc.htm
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_DECODER_DESC
+- D3D11_1DDI_VIDEO_DECODER_DESC
 product:
 - Windows
 targetos: Windows

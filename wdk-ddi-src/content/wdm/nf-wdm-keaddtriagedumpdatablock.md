@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeAddTriageDumpDataBlock
-title: KeAddTriageDumpDataBlock function
+title: KeAddTriageDumpDataBlock function (wdm.h)
 description: Adds a triage dump data block to a triage dump data block array.
 ms.assetid: 18c54115-6df7-48c9-bcd5-1dfde7591fe5
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	KeAddTriageDumpDataBlock
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- KeAddTriageDumpDataBlock
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

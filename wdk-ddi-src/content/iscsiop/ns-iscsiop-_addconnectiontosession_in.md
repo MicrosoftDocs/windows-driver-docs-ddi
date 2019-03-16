@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_IN
-title: "_AddConnectionToSession_IN"
+title: _AddConnectionToSession_IN (iscsiop.h)
 description: The AddConnectionToSession_IN structure holds input data for the AddConnectionToSession method, which is used to add a new connection to an already existing session.
 old-location: storage\addconnectiontosession_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	AddConnectionToSession_IN
+- AddConnectionToSession_IN
 product:
 - Windows
 targetos: Windows

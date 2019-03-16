@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetOplockKeyContext
-title: IoGetOplockKeyContext function
+title: IoGetOplockKeyContext function (ntddk.h)
 description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
 old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	IoGetOplockKeyContextEx
+- IoGetOplockKeyContextEx
 product:
 - Windows
 targetos: Windows

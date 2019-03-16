@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_DRIVER_CHARACTERISTICS
-title: "_NDIS_MINIPORT_DRIVER_CHARACTERISTICS"
+title: _NDIS_MINIPORT_DRIVER_CHARACTERISTICS (ndis.h)
 description: An NDIS driver initializes an NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure to define its miniport driver characteristics, including the entry points for its MiniportXxx functions.
 old-location: netvista\ndis_miniport_driver_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MINIPORT_DRIVER_CHARACTERISTICS
+- NDIS_MINIPORT_DRIVER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

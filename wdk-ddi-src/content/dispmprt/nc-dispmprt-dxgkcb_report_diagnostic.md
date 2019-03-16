@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_REPORT_DIAGNOSTIC
-title: DXGKCB_REPORT_DIAGNOSTIC
+title: DXGKCB_REPORT_DIAGNOSTIC (dispmprt.h)
 description: Implemented by the kernel mode driver to report diagnostic logging.
 ms.assetid: 1c38189b-daaf-4d55-826a-5e868a0e1190
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGKCB_REPORT_DIAGNOSTIC
+- DXGKCB_REPORT_DIAGNOSTIC
 product: 
 - Windows
 targetos: Windows

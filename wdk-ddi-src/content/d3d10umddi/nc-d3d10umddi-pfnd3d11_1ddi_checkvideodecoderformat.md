@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
-title: PFND3D11_1DDI_CHECKVIDEODECODERFORMAT
+title: PFND3D11_1DDI_CHECKVIDEODECODERFORMAT (d3d10umddi.h)
 description: Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
 old-location: display\checkvideodecoderformat.htm
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CheckVideoDecoderFormat
+- CheckVideoDecoderFormat
 product:
 - Windows
 targetos: Windows

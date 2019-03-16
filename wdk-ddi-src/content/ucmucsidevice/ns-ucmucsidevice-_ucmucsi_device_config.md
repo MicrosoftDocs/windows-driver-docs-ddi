@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsidevice._UCMUCSI_DEVICE_CONFIG
-title: _UCMUCSI_DEVICE_CONFIG
+title: _UCMUCSI_DEVICE_CONFIG (ucmucsidevice.h)
 tech.root: usbref
 description: Configuration structure for UcmUcsiDeviceInitialize.
 ms.assetid: e31e55aa-de96-4ea0-967e-ae12507ea643
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_DEVICE_CONFIG, *PUCMUCSI_DEVICE_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsidevice.h
+- ucmucsidevice.h
 api_name: 
--	UCMUCSI_DEVICE_CONFIG
-product: Windows
+- UCMUCSI_DEVICE_CONFIG
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

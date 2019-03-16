@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortStallExecution
-title: VideoPortStallExecution function
+title: VideoPortStallExecution function (video.h)
 description: The VideoPortStallExecution function retains control of the processor for the specified number of microseconds and returns to the caller.
 old-location: display\videoportstallexecution.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortStallExecution
+- VideoPortStallExecution
 product:
 - Windows
 targetos: Windows

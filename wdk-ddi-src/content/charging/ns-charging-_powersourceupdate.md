@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATE
-title: "_POWERSOURCEUPDATE"
+title: _POWERSOURCEUPDATE (charging.h)
 description: This structure is for internal use only.
 old-location: battery\powersourceupdate.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Charging.h
+- Charging.h
 api_name:
--	BATTERY_INFORMATION
+- BATTERY_INFORMATION
 product:
 - Windows
 targetos: Windows

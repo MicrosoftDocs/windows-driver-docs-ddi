@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetFirstCloneStreamPointer
-title: KsPinGetFirstCloneStreamPointer function
+title: KsPinGetFirstCloneStreamPointer function (ks.h)
 description: The KsPinGetFirstCloneStreamPointer function returns the first cloned stream pointer on Pin.
 old-location: stream\kspingetfirstclonestreampointer.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetFirstCloneStreamPointer
+- KsPinGetFirstCloneStreamPointer
 product:
 - Windows
 targetos: Windows

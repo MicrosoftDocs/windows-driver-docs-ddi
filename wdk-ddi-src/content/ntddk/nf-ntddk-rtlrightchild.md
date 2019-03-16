@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRightChild
-title: RtlRightChild macro
+title: RtlRightChild macro (ntddk.h)
 description: The RtlRightChild routine returns a pointer to the right child of the specified splay link node.
 old-location: ifsk\rtlrightchild.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlRightChild
+- RtlRightChild
 product:
 - Windows
 targetos: Windows

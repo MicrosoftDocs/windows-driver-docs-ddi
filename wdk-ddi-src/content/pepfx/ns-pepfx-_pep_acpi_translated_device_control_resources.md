@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
-title: "_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
+title: _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES (pepfx.h)
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
+- PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
 product:
 - Windows
 targetos: Windows

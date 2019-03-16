@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
-title: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
+title: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG (d3d10umddi.h)
 description: D3DWDDM2_0DDI_CONTEXTTYPE_FLAG describes the type of context being created for interacting with JPEG hardware.
 old-location: display\d3dwddm2_0ddi_contexttype_flag.htm
 ms.assetid: F767C051-637A-4912-80B0-36C4DF7E46DD
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
+- D3DWDDM2_0DDI_CONTEXTTYPE_FLAG
 product:
 - Windows
 targetos: Windows

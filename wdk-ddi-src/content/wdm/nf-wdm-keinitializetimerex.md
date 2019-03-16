@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTimerEx
-title: KeInitializeTimerEx function
+title: KeInitializeTimerEx function (wdm.h)
 description: The KeInitializeTimerEx routine initializes an extended kernel timer object.
 old-location: kernel\keinitializetimerex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeTimerEx
+- KeInitializeTimerEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.GetNewEmptyPart
-title: IXpsDocumentConsumer::GetNewEmptyPart
+title: IXpsDocumentConsumer::GetNewEmptyPart (filterpipeline.h)
 description: The GetNewEmptyPart method creates a new XPS part.
 old-location: print\ixpsdocumentconsumer_getnewemptypart.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocumentConsumer.GetNewEmptyPart
+- IXpsDocumentConsumer.GetNewEmptyPart
 product:
 - Windows
 targetos: Windows

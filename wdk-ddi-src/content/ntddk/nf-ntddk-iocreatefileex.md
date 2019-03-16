@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateFileEx
-title: IoCreateFileEx function
+title: IoCreateFileEx function (ntddk.h)
 description: The IoCreateFileEx routine either causes a new file or directory to be created, or opens an existing file, device, directory, or volume and gives the caller a handle for the file object.
 old-location: ifsk\iocreatefileex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateFileEx
+- IoCreateFileEx
 product:
 - Windows
 targetos: Windows
@@ -766,16 +766,6 @@ Specifies options to be used during the generation of the create request. Zero o
 </tr>
 <tr>
 <td>
-IO_NO_PARAMETER_CHECKING
-
-</td>
-<td>
-The parameters for this call should not be validated before attempting to issue the create request. Driver writers should use this flag with caution as certain invalid parameters can cause a system failure. For more information, see Remarks.
-
-</td>
-</tr>
-<tr>
-<td>
 IO_FORCE_ACCESS_CHECK
 
 </td>
@@ -982,8 +972,6 @@ The *CreateOptions* flag, FILE_RESERVE_OPFILTER, allows an application to reques
 3. Open another handle to the file to do I/O.  
 
 Step three makes this practical only for filter oplocks. The handle opened in step 3 can have a DesiredAccess that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a filter oplock. However, any DesiredAccess greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a level 1 or batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
-
-The *Options* IO_NO_PARAMETER_CHECKING flag can be useful if a driver is issuing a kernel-mode create request on behalf of an operation initiated by a user-mode application. Because the request occurs within a user-mode context, the I/O manager, by default, probes the supplied parameter values, which can cause an access violation if the parameters are kernel-mode addresses. This flag enables the caller to override this default behavior and avoid the access violation.
 
 For create requests originating in user mode, if the driver sets IO_FORCE_ACCESS_CHECK in the *Options* parameter of **IoCreateFileEx** then it should also set OBJ_FORCE_ACCESS_CHECK in the *ObjectAttributes* parameter. For info on this flag, see the **Attributes** member of [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes).
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
-title: "_NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS"
+title: _NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS (ntddndis.h)
 description: The NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS structure specifies the parameters for a write operation on the configuration block of a network adapter's PCI Express (PCIe) Virtual Function (VF).
 old-location: netvista\ndis_sriov_write_vf_config_block_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
+- NDIS_SRIOV_WRITE_VF_CONFIG_BLOCK_PARAMETERS
 product:
 - Windows
 targetos: Windows

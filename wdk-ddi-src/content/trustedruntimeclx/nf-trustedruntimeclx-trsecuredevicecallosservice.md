@@ -1,6 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCallOSService
-title: TrSecureDeviceCallOSService function
+title: TrSecureDeviceCallOSService function (trustedruntimeclx.h)
 description: 
 ms.assetid: 2178edf3-8ca9-4eff-858c-f6973f216a7e
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   trustedruntimeclx.h
 api_name: 
--	TrSecureDeviceCallOSService
+- TrSecureDeviceCallOSService
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

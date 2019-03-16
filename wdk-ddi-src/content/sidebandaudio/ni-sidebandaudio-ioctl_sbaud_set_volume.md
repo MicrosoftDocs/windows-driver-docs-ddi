@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
-title: IOCTL_SBAUD_SET_VOLUME
+title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
 description: 
 ms.assetid: 312a6d1c-0372-4efb-94e4-7a7cf6190f27
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_SET_VOLUME
-product: Windows
+- IOCTL_SBAUD_SET_VOLUME
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

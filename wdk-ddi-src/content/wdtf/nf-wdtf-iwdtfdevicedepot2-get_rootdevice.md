@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_RootDevice
-title: IWDTFDeviceDepot2::get_RootDevice
+title: IWDTFDeviceDepot2::get_RootDevice (wdtf.h)
 description: Gets the root device.
 old-location: dtf\iwdtfdevicedepot2_rootdevice.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2.RootDevice
--	IWDTFDeviceDepot2.get_RootDevice
+- IWDTFDeviceDepot2.RootDevice
+- IWDTFDeviceDepot2.get_RootDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveConnectionFromSession_IN
-title: "_RemoveConnectionFromSession_IN"
+title: _RemoveConnectionFromSession_IN (iscsiop.h)
 description: The RemoveConnectionFromSession_IN structure holds the input data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemoveConnectionFromSession_IN
+- RemoveConnectionFromSession_IN
 product:
 - Windows
 targetos: Windows

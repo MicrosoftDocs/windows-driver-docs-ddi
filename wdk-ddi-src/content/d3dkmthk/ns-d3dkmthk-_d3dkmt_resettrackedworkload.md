@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RESETTRACKEDWORKLOAD
-title: _D3DKMT_RESETTRACKEDWORKLOAD
+title: _D3DKMT_RESETTRACKEDWORKLOAD (d3dkmthk.h)
 description: Arguments used to reset a tracked workload.
 ms.assetid: 3a2215f1-384a-4eec-9b96-f1290b561d02
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_RESETTRACKEDWORKLOAD
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_RESETTRACKEDWORKLOAD
+- _D3DKMT_RESETTRACKEDWORKLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

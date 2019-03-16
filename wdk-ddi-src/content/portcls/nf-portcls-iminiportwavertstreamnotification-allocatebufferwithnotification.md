@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
-title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
+title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification (portcls.h)
 description: The AllocateAudioBufferWithNotification method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification. If you do not want event notification, you must use IMiniportWaveRTStream::AllocateAudioBuffer.
 old-location: audio\iminiportwavertstreamnotification_allocatebufferwithnotification.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
+- IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
 product:
 - Windows
 targetos: Windows

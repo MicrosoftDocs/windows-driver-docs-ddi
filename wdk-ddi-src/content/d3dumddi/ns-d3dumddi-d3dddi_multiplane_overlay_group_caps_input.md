@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
-title: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
+title: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT (d3dumddi.h)
 description: Specifies info on a multiplane overlay capability group.
 old-location: display\d3dddi_multiplane_overlay_group_caps_input.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
+- D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetIndexedString
-title: HidD_GetIndexedString function
+title: HidD_GetIndexedString function (hidsdi.h)
 description: The HidD_GetIndexedString routine returns a specified embedded string from a top-level collection.
 old-location: hid\hidd_getindexedstring.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetIndexedString
+- HidD_GetIndexedString
 product:
 - Windows
 targetos: Windows

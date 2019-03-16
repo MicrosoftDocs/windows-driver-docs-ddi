@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.XcvClosePort
-title: XcvClosePort function
+title: XcvClosePort function (winsplp.h)
 description: A port monitor server DLL's XcvClosePort function closes a printer port that was opened by XcvOpenPort.
 old-location: print\xcvcloseport.htm
 tech.root: print
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	winsplp.h
-apiname:
--	XcvClosePort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- winsplp.h
+api_name:
+- XcvClosePort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITY_FLAGS
-title: _NDIS_TIMESTAMP_CAPABILITY_FLAGS
+title: _NDIS_TIMESTAMP_CAPABILITY_FLAGS (ntddndis.h)
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: 882ad8b4-4da6-4366-a7de-e1d37a3576a6
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	_NDIS_TIMESTAMP_CAPABILITY_FLAGS
+- _NDIS_TIMESTAMP_CAPABILITY_FLAGS
 product:
 - Windows
 targetos: Windows

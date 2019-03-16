@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPBindingEntry2
-title: "_HBAFCPBindingEntry2"
+title: _HBAFCPBindingEntry2 (hbapiwmi.h)
 description: The HBAFCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hbafcpbindingentry2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hbapiwmi.h
+- Hbapiwmi.h
 api_name:
--	HBAFCPBindingEntry2
+- HBAFCPBindingEntry2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_112
-title: KSPROPERTY_VIDEODECODER_S
+title: KSPROPERTY_VIDEODECODER_S (ksmedia.h)
 description: The KSPROPERTY_VIDEODECODER_S structure describes property settings in the PROPSETID_VIDCAP_VIDEODECODER property set.
 old-location: stream\ksproperty_videodecoder_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEODECODER_S
+- KSPROPERTY_VIDEODECODER_S
 product:
 - Windows
 targetos: Windows

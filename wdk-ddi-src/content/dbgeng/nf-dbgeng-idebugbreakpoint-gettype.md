@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetType
-title: IDebugBreakpoint::GetType
+title: IDebugBreakpoint::GetType (dbgeng.h)
 description: The GetType method returns the type of the breakpoint and the type of the processor that a breakpoint is set for.
 old-location: debugger\gettype.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetType
--	IDebugBreakpoint2.GetType
+- IDebugBreakpoint.GetType
+- IDebugBreakpoint2.GetType
 product:
 - Windows
 targetos: Windows

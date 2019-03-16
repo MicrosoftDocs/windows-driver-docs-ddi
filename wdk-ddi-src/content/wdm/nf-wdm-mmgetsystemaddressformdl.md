@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmGetSystemAddressForMdl
-title: MmGetSystemAddressForMdl macro
+title: MmGetSystemAddressForMdl macro (wdm.h)
 description: The MmGetSystemAddressForMdl routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmgetsystemaddressformdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	MmGetSystemAddressForMdl
+- MmGetSystemAddressForMdl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointGetCommandQueue
-title: UfxEndpointGetCommandQueue function
+title: UfxEndpointGetCommandQueue function (ufxclient.h)
 description: Returns the command queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgetcommandqueue.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxEndpointGetCommandQueue
+- UfxEndpointGetCommandQueue
 product:
 - Windows
 targetos: Windows

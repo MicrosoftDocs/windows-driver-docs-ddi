@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenKeyTransacted
-title: ZwOpenKeyTransacted function
+title: ZwOpenKeyTransacted function (wdm.h)
 description: The ZwOpenKeyTransacted routine opens an existing registry key and associates the key with a transaction.
 old-location: kernel\zwopenkeytransacted.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenKeyTransacted
+- ZwOpenKeyTransacted
 product:
 - Windows
 targetos: Windows

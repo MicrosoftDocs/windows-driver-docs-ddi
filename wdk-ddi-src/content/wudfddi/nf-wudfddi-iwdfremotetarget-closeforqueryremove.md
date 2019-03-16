@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.CloseForQueryRemove
-title: IWDFRemoteTarget::CloseForQueryRemove
+title: IWDFRemoteTarget::CloseForQueryRemove (wudfddi.h)
 description: The CloseForQueryRemove method closes a remote I/O target because the operating system might allow the device to be removed.
 old-location: wdf\iwdfremotetarget_closeforqueryremove.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteTarget.CloseForQueryRemove
+- IWDFRemoteTarget.CloseForQueryRemove
 product:
 - Windows
 targetos: Windows

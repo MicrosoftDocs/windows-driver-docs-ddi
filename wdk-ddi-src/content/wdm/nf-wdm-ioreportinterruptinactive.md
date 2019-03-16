@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReportInterruptInactive
-title: IoReportInterruptInactive function
+title: IoReportInterruptInactive function (wdm.h)
 description: The IoReportInterruptInactive routine informs the operating system that a registered interrupt service routine (ISR) is inactive and is not expecting interrupt requests.
 old-location: kernel\ioreportinterruptinactive.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportInterruptInactive
+- IoReportInterruptInactive
 product:
 - Windows
 targetos: Windows

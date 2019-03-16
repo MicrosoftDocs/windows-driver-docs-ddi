@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_STATE_NOTIFICATION_TYPE
-title: "_WDF_STATE_NOTIFICATION_TYPE"
+title: _WDF_STATE_NOTIFICATION_TYPE (wdfdevice.h)
 description: The WDF_STATE_NOTIFICATION_TYPE enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
 old-location: wdf\wdf_state_notification_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_STATE_NOTIFICATION_TYPE
+- WDF_STATE_NOTIFICATION_TYPE
 product:
 - Windows
 targetos: Windows

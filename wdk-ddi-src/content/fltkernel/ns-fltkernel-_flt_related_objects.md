@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_RELATED_OBJECTS
-title: "_FLT_RELATED_OBJECTS"
+title: _FLT_RELATED_OBJECTS (fltkernel.h)
 description: The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation.
 old-location: ifsk\flt_related_objects.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_RELATED_OBJECTS
+- FLT_RELATED_OBJECTS
 product:
 - Windows
 targetos: Windows

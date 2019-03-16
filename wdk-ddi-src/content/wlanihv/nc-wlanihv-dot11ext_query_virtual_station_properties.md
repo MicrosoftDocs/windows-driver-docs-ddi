@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES
-title: DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES
+title: DOT11EXT_QUERY_VIRTUAL_STATION_PROPERTIES (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extqueryvirtualstationproperties.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtQueryVirtualStationProperties
+- Dot11ExtQueryVirtualStationProperties
 product:
 - Windows
 targetos: Windows

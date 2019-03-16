@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtFreeVirtualMemory
-title: NtFreeVirtualMemory function
+title: NtFreeVirtualMemory function (ntifs.h)
 description: The ZwFreeVirtualMemory routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
 old-location: kernel\zwfreevirtualmemory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwFreeVirtualMemory
--	NtFreeVirtualMemory
+- ZwFreeVirtualMemory
+- NtFreeVirtualMemory
 product:
 - Windows
 targetos: Windows

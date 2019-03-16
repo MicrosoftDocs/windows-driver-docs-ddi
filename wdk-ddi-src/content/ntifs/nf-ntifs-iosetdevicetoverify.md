@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoSetDeviceToVerify
-title: IoSetDeviceToVerify function
+title: IoSetDeviceToVerify function (ntifs.h)
 description: The IoSetDeviceToVerify routine specifies a device object to be verified. The specified device object represents a removable media device.
 old-location: ifsk\iosetdevicetoverify.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetDeviceToVerify
+- IoSetDeviceToVerify
 product:
 - Windows
 targetos: Windows

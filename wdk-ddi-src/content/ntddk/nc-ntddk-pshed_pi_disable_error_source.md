@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_DISABLE_ERROR_SOURCE
-title: PSHED_PI_DISABLE_ERROR_SOURCE
+title: PSHED_PI_DISABLE_ERROR_SOURCE (ntddk.h)
 description: A PSHED plug-in's DisableErrorSource callback function disables an error source.
 old-location: whea\disableerrorsource.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	DisableErrorSource
+- DisableErrorSource
 product:
 - Windows
 targetos: Windows

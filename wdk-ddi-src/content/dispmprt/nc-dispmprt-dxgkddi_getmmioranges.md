@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETMMIORANGES
-title: DXGKDDI_GETMMIORANGES
+title: DXGKDDI_GETMMIORANGES (dispmprt.h)
 description: Get the memory ranges for a single MMIO (memory mapped input output) BAR in the virtual device.
 ms.assetid: b5bdfe10-a053-4003-94e9-0205e49f05c6
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	DXGKDDI_GETMMIORANGES
+- DXGKDDI_GETMMIORANGES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

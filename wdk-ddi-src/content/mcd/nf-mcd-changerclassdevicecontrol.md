@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassDeviceControl
-title: ChangerClassDeviceControl function
+title: ChangerClassDeviceControl function (mcd.h)
 description: The ChangerClassDeviceControl routine is called by a changer minidriver to allow the class driver perform device-independent aspects of a device control operation.
 old-location: storage\changerclassdevicecontrol.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerClassDeviceControl
+- ChangerClassDeviceControl
 product:
 - Windows
 targetos: Windows

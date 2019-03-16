@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
-title: "_WHEA_FIRMWARE_ERROR_RECORD_REFERENCE"
+title: _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE (ntddk.h)
 description: The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes a reference to a firmware error record that is specific to the Itanium processor architecture.
 old-location: whea\whea_firmware_error_record_reference.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+- WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 product:
 - Windows
 targetos: Windows

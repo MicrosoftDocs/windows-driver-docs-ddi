@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ImpersonatePrinterClient
-title: ImpersonatePrinterClient function
+title: ImpersonatePrinterClient function (winsplp.h)
 description: ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by RevertToPrinterSelf.
 old-location: print\impersonateprinterclient.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	ImpersonatePrinterClient
+- ImpersonatePrinterClient
 product:
 - Windows
 targetos: Windows

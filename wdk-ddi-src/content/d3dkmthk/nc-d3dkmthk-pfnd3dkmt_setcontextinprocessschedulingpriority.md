@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
-title: PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+title: PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY (d3dkmthk.h)
 description: The PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY callback function sets the scheduling priority for a device context that is in the same process as other device contexts.
 ms.assetid: f449b34a-48be-498b-856b-fd9f2f48008f
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
+- PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

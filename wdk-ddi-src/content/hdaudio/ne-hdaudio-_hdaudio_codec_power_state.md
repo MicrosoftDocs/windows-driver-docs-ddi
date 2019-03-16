@@ -1,6 +1,6 @@
 ---
 UID: NE:hdaudio._HDAUDIO_CODEC_POWER_STATE
-title: "_HDAUDIO_CODEC_POWER_STATE"
+title: _HDAUDIO_CODEC_POWER_STATE (hdaudio.h)
 description: The HDAUDIO_CODEC_POWER_STATE enumeration defines constants that specify the different power states that HD Audio codecs can support. All states are from DEVICE_POWER_STATE except PowerCodecD3Cold.
 old-location: audio\hdaudio_codec_power_state.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hdaudio.h
+- Hdaudio.h
 api_name:
--	HDAUDIO_CODEC_POWER_STATE
+- HDAUDIO_CODEC_POWER_STATE
 product:
 - Windows
 targetos: Windows

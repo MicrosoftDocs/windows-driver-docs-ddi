@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetConnectionParameters
-title: SerCxGetConnectionParameters function
+title: SerCxGetConnectionParameters function (sercx.h)
 description: The SerCxGetConnectionParameters method retrieves the connection parameters for the associated peripheral device.
 old-location: serports\sercxgetconnectionparameters.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxGetConnectionParameters
+- SerCxGetConnectionParameters
 product:
 - Windows
 targetos: Windows

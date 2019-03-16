@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONLIST
-title: "_D3DDDI_ALLOCATIONLIST"
+title: _D3DDDI_ALLOCATIONLIST (d3dukmdt.h)
 description: The D3DDDI_ALLOCATIONLIST structure describes information about an allocation specification that is used in direct memory access (DMA) buffering.
 old-location: display\d3dddi_allocationlist.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_ALLOCATIONLIST
+- D3DDDI_ALLOCATIONLIST
 product:
 - Windows
 targetos: Windows

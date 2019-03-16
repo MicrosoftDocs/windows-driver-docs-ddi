@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlNumberOfSetBitsUlongPtr
-title: RtlNumberOfSetBitsUlongPtr function
+title: RtlNumberOfSetBitsUlongPtr function (wdm.h)
 description: The RtlNumberOfSetBitsUlongPtr routine returns the number of bits in the specified ULONG_PTR integer value that are set to one.
 old-location: kernel\rtlnumberofsetbitsulongptr.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlNumberOfSetBitsUlongPtr
+- RtlNumberOfSetBitsUlongPtr
 product:
 - Windows
 targetos: Windows

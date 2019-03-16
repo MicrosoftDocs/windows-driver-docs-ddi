@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._ERROR_HISTORY_DIRECTORY
-title: _ERROR_HISTORY_DIRECTORY
+title: _ERROR_HISTORY_DIRECTORY (storport.h)
 description: 
 ms.assetid: f7b90178-a896-41de-8727-cdc2eb6daa2e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_ERROR_HISTORY_DIRECTORY
+- _ERROR_HISTORY_DIRECTORY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

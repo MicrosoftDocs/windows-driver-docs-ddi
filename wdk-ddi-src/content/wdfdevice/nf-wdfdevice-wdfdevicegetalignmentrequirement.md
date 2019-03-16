@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetAlignmentRequirement
-title: WdfDeviceGetAlignmentRequirement function
+title: WdfDeviceGetAlignmentRequirement function (wdfdevice.h)
 description: The WdfDeviceGetAlignmentRequirement method retrieves a device's address alignment requirement for memory transfer operations.
 old-location: wdf\wdfdevicegetalignmentrequirement.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceGetAlignmentRequirement
+- WdfDeviceGetAlignmentRequirement
 product:
 - Windows
 targetos: Windows

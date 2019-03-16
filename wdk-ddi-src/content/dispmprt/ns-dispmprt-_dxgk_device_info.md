@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DEVICE_INFO
-title: "_DXGK_DEVICE_INFO"
+title: _DXGK_DEVICE_INFO (dispmprt.h)
 description: The DXGK_DEVICE_INFO structure holds information that describes a display adapter.
 old-location: display\dxgk_device_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_DEVICE_INFO
+- DXGK_DEVICE_INFO
 product:
 - Windows
 targetos: Windows

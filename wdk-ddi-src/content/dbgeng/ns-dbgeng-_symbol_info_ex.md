@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._SYMBOL_INFO_EX
-title: "_SYMBOL_INFO_EX"
+title: _SYMBOL_INFO_EX (dbgeng.h)
 description: The SYMBOL_INFO_EX structure describes the extended line symbol information.
 old-location: debugger\symbol_info_ex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	SYMBOL_INFO_EX
+- SYMBOL_INFO_EX
 product:
 - Windows
 targetos: Windows

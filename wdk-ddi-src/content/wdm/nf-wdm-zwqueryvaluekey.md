@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryValueKey
-title: ZwQueryValueKey function
+title: ZwQueryValueKey function (wdm.h)
 description: The ZwQueryValueKey routine returns a value entry for a registry key.
 old-location: kernel\zwqueryvaluekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryValueKey
--	NtQueryValueKey
+- ZwQueryValueKey
+- NtQueryValueKey
 product:
 - Windows
 targetos: Windows

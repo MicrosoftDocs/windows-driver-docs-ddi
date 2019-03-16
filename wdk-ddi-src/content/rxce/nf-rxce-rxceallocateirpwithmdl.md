@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeAllocateIrpWithMDL
-title: RxCeAllocateIrpWithMDL function
+title: RxCeAllocateIrpWithMDL function (rxce.h)
 description: RxCeAllocateIrpWithMDL allocates an IRP and associates it with an existing memory descriptor list.
 old-location: ifsk\rxceallocateirpwithmdl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeAllocateIrpWithMDL
+- RxCeAllocateIrpWithMDL
 product:
 - Windows
 targetos: Windows

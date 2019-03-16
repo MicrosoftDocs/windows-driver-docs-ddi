@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi._UMDF_IO_TARGET_OPEN_PARAMS
-title: "_UMDF_IO_TARGET_OPEN_PARAMS"
+title: _UMDF_IO_TARGET_OPEN_PARAMS (wudfddi.h)
 description: The UMDF_IO_TARGET_OPEN_PARAMS structure contains file-open parameters.
 old-location: wdf\umdf_io_target_open_params.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	UMDF_IO_TARGET_OPEN_PARAMS
+- UMDF_IO_TARGET_OPEN_PARAMS
 product:
 - Windows
 targetos: Windows

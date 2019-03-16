@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.Release
-title: IStringDisplayableConcept::Release
+title: IStringDisplayableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 9d3f6d73-6f6b-423a-8832-618cbf57e59c
 ms.date: 10/05/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IStringDisplayableConcept.Release
-product: Windows
+- IStringDisplayableConcept.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

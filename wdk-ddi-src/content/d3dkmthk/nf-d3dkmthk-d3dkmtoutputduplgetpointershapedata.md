@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetPointerShapeData
-title: D3DKMTOutputDuplGetPointerShapeData function
+title: D3DKMTOutputDuplGetPointerShapeData function (d3dkmthk.h)
 description: Gets output duplicate pointer shape data.
 ms.assetid: f08b5da5-329d-462b-a0bd-d3fbfff31472
 ms.date: 10/19/2018
@@ -24,18 +24,18 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
 - Gdi32.dll
 - API-MS-Win-dx-d3dkmt-l1-1-0.dll
 - API-MS-Win-dx-d3dkmt-l1-1-1.dll
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
--	D3DKMTOutputDuplGetPointerShapeData
+- D3DKMTOutputDuplGetPointerShapeData
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxroothub._CONTROLLER_TYPE
-title: "_CONTROLLER_TYPE"
+title: _CONTROLLER_TYPE (ucxroothub.h)
 description: This enumeration specifies if the USB host controller is an eXtensible Host Controller Interface (xHCI) controller.
 old-location: buses\_controller_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	CONTROLLER_TYPE
+- CONTROLLER_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_EXTENSION_QUERY_INIT
-title: NET_PACKET_EXTENSION_QUERY_INIT function
+title: NET_PACKET_EXTENSION_QUERY_INIT function (netadapterpacket.h)
 description: The NET_PACKET_EXTENSION_QUERY_INIT method initializes a NET_PACKET_EXTENSION_QUERY structure.
 tech.root: netvista
 ms.assetid: 79787ad3-8183-46be-9d37-75223947bbc2
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NET_PACKET_EXTENSION_QUERY_INIT
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NET_PACKET_EXTENSION_QUERY_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

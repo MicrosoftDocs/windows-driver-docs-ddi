@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_INFORMATION
-title: "_HW_STREAM_INFORMATION"
+title: _HW_STREAM_INFORMATION (strmini.h)
 description: The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an HW_STREAM_DESCRIPTOR structure.
 old-location: stream\hw_stream_information.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	HW_STREAM_INFORMATION
+- HW_STREAM_INFORMATION
 product:
 - Windows
 targetos: Windows

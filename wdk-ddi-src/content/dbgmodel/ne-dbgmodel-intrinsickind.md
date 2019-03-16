@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.IntrinsicKind
-title: IntrinsicKind
+title: IntrinsicKind (dbgmodel.h)
 description: Defines the kind of an intrinsic (basic) type.  This is distinct from the variant type which carries the type.
 ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IntrinsicKind
-product: Windows
+- IntrinsicKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

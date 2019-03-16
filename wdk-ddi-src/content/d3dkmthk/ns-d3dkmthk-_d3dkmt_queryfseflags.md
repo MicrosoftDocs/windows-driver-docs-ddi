@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYFSEFLAGS
-title: _D3DKMT_QUERYFSEFLAGS
+title: _D3DKMT_QUERYFSEFLAGS (d3dkmthk.h)
 description: Used to query for the FSE (full screen exclusive) flags.
 ms.assetid: 7cfd0369-f357-49fa-9769-0237b0a60191
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERYFSEBLOCKFLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_QUERYFSEFLAGS
+- _D3DKMT_QUERYFSEFLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

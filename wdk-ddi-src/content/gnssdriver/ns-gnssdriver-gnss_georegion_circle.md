@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_19
-title: GNSS_GEOREGION_CIRCLE
+title: GNSS_GEOREGION_CIRCLE (gnssdriver.h)
 description: This structure is used for defining a circular geofence.
 old-location: gnss\gnss_georegion_circle.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_GEOREGION_CIRCLE
+- GNSS_GEOREGION_CIRCLE
 product:
 - Windows
 targetos: Windows

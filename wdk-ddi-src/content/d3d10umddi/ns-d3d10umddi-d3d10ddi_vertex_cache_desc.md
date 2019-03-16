@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_VERTEX_CACHE_DESC
-title: D3D10DDI_VERTEX_CACHE_DESC
+title: D3D10DDI_VERTEX_CACHE_DESC (d3d10umddi.h)
 description: The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 old-location: display\d3d10ddi_vertex_cache_desc.htm
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDI_VERTEX_CACHE_DESC
+- D3D10DDI_VERTEX_CACHE_DESC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.WIAS_LERROR
-title: WIAS_LERROR macro
+title: WIAS_LERROR macro (wiamdef.h)
 description: The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the WIAS_ERROR macro be used instead.The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 old-location: image\wias_lerror.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_LERROR
+- WIAS_LERROR
 product:
 - Windows
 targetos: Windows

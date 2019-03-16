@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Status
-title: IPrintJob::get_Status method
+title: IPrintJob::get_Status method (printerextension.h)
 description: Gets the current status of the print job.
 old-location: print\iprintjob_status.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.Status
--	IPrintJob.get_Status
+- IPrintJob.Status
+- IPrintJob.get_Status
 product:
 - Windows
 targetos: Windows

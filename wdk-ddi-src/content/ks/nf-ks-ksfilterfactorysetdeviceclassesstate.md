@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactorySetDeviceClassesState
-title: KsFilterFactorySetDeviceClassesState function
+title: KsFilterFactorySetDeviceClassesState function (ks.h)
 description: The KsFilterFactorySetDeviceClassesState function enables or disables the device classes that have been registered by a given filter factory.
 old-location: stream\ksfilterfactorysetdeviceclassesstate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterFactorySetDeviceClassesState
+- KsFilterFactorySetDeviceClassesState
 product:
 - Windows
 targetos: Windows

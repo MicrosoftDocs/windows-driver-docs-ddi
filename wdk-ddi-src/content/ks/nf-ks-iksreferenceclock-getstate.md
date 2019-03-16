@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetState
-title: IKsReferenceClock::GetState
+title: IKsReferenceClock::GetState (ks.h)
 description: The IKsReferenceClock::GetState method queries the associated reference clock for its current streaming state.
 old-location: stream\iksreferenceclock_getstate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetState
+- IKsReferenceClock.GetState
 product:
 - Windows
 targetos: Windows

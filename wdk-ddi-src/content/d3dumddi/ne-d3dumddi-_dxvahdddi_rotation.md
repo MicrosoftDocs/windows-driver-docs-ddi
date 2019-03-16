@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_ROTATION
-title: "_DXVAHDDDI_ROTATION"
+title: _DXVAHDDDI_ROTATION (d3dumddi.h)
 description: Specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_rotation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	DXVAHDDDI_ROTATION
+- DXVAHDDDI_ROTATION
 product:
 - Windows
 targetos: Windows

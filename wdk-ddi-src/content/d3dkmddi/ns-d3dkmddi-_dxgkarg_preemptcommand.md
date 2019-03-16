@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_PREEMPTCOMMAND
-title: "_DXGKARG_PREEMPTCOMMAND"
+title: _DXGKARG_PREEMPTCOMMAND (d3dkmddi.h)
 description: The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport driver must use to preempt a direct memory access (DMA) buffer that the DxgkDdiSubmitCommand function previously submitted to the hardware command execution unit.
 old-location: display\dxgkarg_preemptcommand.htm
 ms.assetid: de8f8bee-44e9-4a6a-bb36-a43a66afe188
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_PREEMPTCOMMAND
+- DXGKARG_PREEMPTCOMMAND
 product:
 - Windows
 targetos: Windows

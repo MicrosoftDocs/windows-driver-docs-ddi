@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmFreePagesFromMdl
-title: MmFreePagesFromMdl function
+title: MmFreePagesFromMdl function (wdm.h)
 description: The MmFreePagesFromMdl routine frees all the physical pages that are described by an MDL that was created by the MmAllocatePagesForMdl routine.
 old-location: kernel\mmfreepagesfrommdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFreePagesFromMdl
+- MmFreePagesFromMdl
 product:
 - Windows
 targetos: Windows

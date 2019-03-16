@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTLock2
-title: D3DKMTLock2 function
+title: D3DKMTLock2 function (d3dkmthk.h)
 description: The D3DKMTLock2 function locks an entire allocation or specific pages within an allocation.
 old-location: display\d3dkmtlock2.htm
 ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTLock2
+- D3DKMTLock2
 product:
 - Windows
 targetos: Windows

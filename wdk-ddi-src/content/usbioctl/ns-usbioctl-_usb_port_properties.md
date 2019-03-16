@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PORT_PROPERTIES
-title: "_USB_PORT_PROPERTIES"
+title: _USB_PORT_PROPERTIES (usbioctl.h)
 description: The USB_PORT_PROPERTIES union is used to report the capabilities of a Universal Serial Bus (USB) port.The port capabilities are retrieved in the USB_PORT_CONNECTOR_PROPERTIES structure by the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request.
 old-location: buses\usb_port_properties.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_PORT_PROPERTIES
+- USB_PORT_PROPERTIES
 product:
 - Windows
 targetos: Windows

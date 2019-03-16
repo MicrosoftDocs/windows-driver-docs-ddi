@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_FLUSHHEAPTRANSITIONS
-title: PFND3DKMT_FLUSHHEAPTRANSITIONS
+title: PFND3DKMT_FLUSHHEAPTRANSITIONS (d3dkmthk.h)
 description: The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 ms.assetid: a8ed0fbd-f4c0-48f9-94e7-e3ad531b59e0
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_FLUSHHEAPTRANSITIONS
+- PFND3DKMT_FLUSHHEAPTRANSITIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

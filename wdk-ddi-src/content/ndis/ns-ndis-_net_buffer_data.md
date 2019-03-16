@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_DATA
-title: "_NET_BUFFER_DATA"
+title: _NET_BUFFER_DATA (ndis.h)
 description: The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.
 old-location: netvista\net_buffer_data.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER_DATA
+- NET_BUFFER_DATA
 product:
 - Windows
 targetos: Windows

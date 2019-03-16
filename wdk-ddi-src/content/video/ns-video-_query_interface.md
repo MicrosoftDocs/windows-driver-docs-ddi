@@ -1,6 +1,6 @@
 ---
 UID: NS:video._QUERY_INTERFACE
-title: "_QUERY_INTERFACE"
+title: _QUERY_INTERFACE (video.h)
 description: The QUERY_INTERFACE structure describes the interface being requested.
 old-location: display\query_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	QUERY_INTERFACE
+- QUERY_INTERFACE
 product:
 - Windows
 targetos: Windows

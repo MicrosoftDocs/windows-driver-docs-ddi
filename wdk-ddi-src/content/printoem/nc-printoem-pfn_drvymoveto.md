@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvYMoveTo
-title: PFN_DrvYMoveTo
+title: PFN_DrvYMoveTo (printoem.h)
 description: The DrvYMoveTo function is obsolete.
 old-location: print\drvymoveto.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvYMoveTo
+- DrvYMoveTo
 product:
 - Windows
 targetos: Windows

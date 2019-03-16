@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_CHIP_MODE
-title: "_PARALLEL_CHIP_MODE"
+title: _PARALLEL_CHIP_MODE (parallel.h)
 description: The PARALLEL_CHIP_MODE structure specifies the operating mode of a parallel port.
 old-location: parports\parallel_chip_mode.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_CHIP_MODE
+- PARALLEL_CHIP_MODE
 product:
 - Windows
 targetos: Windows

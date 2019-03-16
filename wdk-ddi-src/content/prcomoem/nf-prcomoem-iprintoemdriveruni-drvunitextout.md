@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvUniTextOut
-title: IPrintOemDriverUni::DrvUniTextOut
+title: IPrintOemDriverUni::DrvUniTextOut (prcomoem.h)
 description: The IPrintOemDriverUni::DrvUniTextOut method is provided by the Unidrv driver so that a rendering plug-in using a device-managed drawing surface can easily output text strings.
 old-location: print\iprintoemdriveruni_drvunitextout.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemDriverUni.DrvUniTextOut
+- IPrintOemDriverUni.DrvUniTextOut
 product:
 - Windows
 targetos: Windows

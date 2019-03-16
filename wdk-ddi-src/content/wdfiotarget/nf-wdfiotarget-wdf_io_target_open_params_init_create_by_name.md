@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
-title: WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function
+title: WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying the name of the device, file, or device interface.
 old-location: wdf\wdf_io_target_open_params_init_create_by_name.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfiotarget.h
+- wdfiotarget.h
 api_name:
--	WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
+- WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME
 product:
 - Windows
 targetos: Windows

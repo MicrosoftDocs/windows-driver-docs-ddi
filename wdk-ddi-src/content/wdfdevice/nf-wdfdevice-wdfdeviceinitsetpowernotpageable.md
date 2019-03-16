@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetPowerNotPageable
-title: WdfDeviceInitSetPowerNotPageable function
+title: WdfDeviceInitSetPowerNotPageable function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerNotPageable method informs the power manager that the driver will not access pageable data while the system is transitioning between a sleeping state and the working (S0) state.
 old-location: wdf\wdfdeviceinitsetpowernotpageable.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitSetPowerNotPageable
+- WdfDeviceInitSetPowerNotPageable
 product:
 - Windows
 targetos: Windows

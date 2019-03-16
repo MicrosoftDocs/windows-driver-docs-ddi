@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX2
-title: "_D3DKMT_ACQUIREKEYEDMUTEX2"
+title: _D3DKMT_ACQUIREKEYEDMUTEX2 (d3dkmthk.h)
 description: Describes a keyed mutex object that the D3DKMTAcquireKeyedMutex2 function acquires that includes private data.
 old-location: display\d3dkmt_acquirekeyedmutex2.htm
 ms.assetid: 6e7ccf24-6403-44bf-9369-d2825646e950
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_ACQUIREKEYEDMUTEX2
+- D3DKMT_ACQUIREKEYEDMUTEX2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_DISCONNECT_EVENT
-title: PFN_WSK_DISCONNECT_EVENT
+title: PFN_WSK_DISCONNECT_EVENT (wsk.h)
 description: The WskDisconnectEvent event callback function notifies a WSK application that a connection on a connection-oriented socket has been disconnected by the remote application.
 old-location: netvista\wskdisconnectevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskDisconnectEvent
+- WskDisconnectEvent
 product:
 - Windows
 targetos: Windows

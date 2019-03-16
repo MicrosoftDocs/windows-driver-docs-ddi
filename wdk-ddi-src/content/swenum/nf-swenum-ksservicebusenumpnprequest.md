@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsServiceBusEnumPnpRequest
-title: KsServiceBusEnumPnpRequest function
+title: KsServiceBusEnumPnpRequest function (swenum.h)
 description: The KsServiceBusEnumPnpRequest function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with KsCreateBusEnumObject.
 old-location: stream\ksservicebusenumpnprequest.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsServiceBusEnumPnpRequest
+- KsServiceBusEnumPnpRequest
 product:
 - Windows
 targetos: Windows

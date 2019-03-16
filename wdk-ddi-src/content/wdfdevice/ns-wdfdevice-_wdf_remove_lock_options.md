@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_REMOVE_LOCK_OPTIONS
-title: "_WDF_REMOVE_LOCK_OPTIONS"
+title: _WDF_REMOVE_LOCK_OPTIONS (wdfdevice.h)
 description: The WDF_REMOVE_LOCK_OPTIONS structure specifies options for acquiring a remove lock before delivering an IRP to the driver.
 old-location: wdf\wdf_remove_lock_options.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_REMOVE_LOCK_OPTIONS
+- WDF_REMOVE_LOCK_OPTIONS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetEventThread
-title: IDebugSystemObjects3::GetEventThread
+title: IDebugSystemObjects3::GetEventThread (dbgeng.h)
 description: The GetEventThread method returns the engine thread ID for the thread on which the last event occurred.
 old-location: debugger\geteventthread.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetEventThread
--	IDebugSystemObjects2.GetEventThread
--	IDebugSystemObjects3.GetEventThread
--	IDebugSystemObjects4.GetEventThread
+- IDebugSystemObjects.GetEventThread
+- IDebugSystemObjects2.GetEventThread
+- IDebugSystemObjects3.GetEventThread
+- IDebugSystemObjects4.GetEventThread
 product:
 - Windows
 targetos: Windows

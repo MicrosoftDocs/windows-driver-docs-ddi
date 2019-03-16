@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_LIST
-title: "_WWAN_PIN_LIST"
+title: _WWAN_PIN_LIST (wwan.h)
 description: The WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\wwan_pin_list.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PIN_LIST
+- WWAN_PIN_LIST
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolEntryInformation
-title: IDebugSymbolGroup2::GetSymbolEntryInformation
+title: IDebugSymbolGroup2::GetSymbolEntryInformation (dbgeng.h)
 description: The GetSymbolEntryInformation method returns information about a symbol in a symbol group.
 old-location: debugger\getsymbolentryinformation2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup2.GetSymbolEntryInformation
+- IDebugSymbolGroup2.GetSymbolEntryInformation
 product:
 - Windows
 targetos: Windows

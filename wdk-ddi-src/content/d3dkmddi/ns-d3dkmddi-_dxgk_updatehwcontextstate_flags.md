@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_UPDATEHWCONTEXTSTATE_FLAGS
-title: "_DXGK_UPDATEHWCONTEXTSTATE_FLAGS"
+title: _DXGK_UPDATEHWCONTEXTSTATE_FLAGS (d3dkmddi.h)
 description: Used to update the HW context state flags.
 old-location: display\dxgk_updatehwcontextstate_flags.htm
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_UPDATEHWCONTEXTSTATE_FLAGS
+- DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_NODE_INFORMATION
-title: "_KEY_NODE_INFORMATION"
+title: _KEY_NODE_INFORMATION (wdm.h)
 description: The KEY_NODE_INFORMATION structure defines the basic information available for a registry (sub)key.
 old-location: kernel\key_node_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KEY_NODE_INFORMATION
+- KEY_NODE_INFORMATION
 product:
 - Windows
 targetos: Windows

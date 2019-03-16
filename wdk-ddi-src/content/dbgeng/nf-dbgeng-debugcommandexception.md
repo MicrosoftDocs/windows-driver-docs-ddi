@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.DebugCommandException
-title: DebugCommandException function
+title: DebugCommandException function (dbgeng.h)
 description: Specifies a debug command exception.
 old-location: debugger\debugcommandexception.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	dbgeng.dll
+- dbgeng.dll
 api_name:
--	DebugCommandException
+- DebugCommandException
 product:
 - Windows
 targetos: Windows

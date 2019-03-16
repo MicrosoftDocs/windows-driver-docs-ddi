@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleaseContexts
-title: FltReleaseContexts function
+title: FltReleaseContexts function (fltkernel.h)
 description: FltReleaseContexts releases each context in a given FLT_RELATED_CONTEXTS structure.
 old-location: ifsk\fltreleasecontexts.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReleaseContexts
+- FltReleaseContexts
 product:
 - Windows
 targetos: Windows

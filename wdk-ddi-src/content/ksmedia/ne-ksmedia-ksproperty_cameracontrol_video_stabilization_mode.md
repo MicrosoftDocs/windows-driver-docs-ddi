@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_77
-title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE (ksmedia.h)
 description: Used to specify camera video stabilization.
 old-location: stream\ksproperty_cameracontrol_video_stabilization_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+- KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 product:
 - Windows
 targetos: Windows

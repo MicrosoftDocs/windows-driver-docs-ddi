@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IImpersonateCallback
-title: IImpersonateCallback
+title: IImpersonateCallback (wudfddi.h)
 description: The IImpersonateCallback interface contains a method that handles impersonation.
 old-location: wdf\iimpersonatecallback.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfddi.h
+- wudfddi.h
 api_name:
--	IImpersonateCallback
+- IImpersonateCallback
 product:
 - Windows
 targetos: Windows

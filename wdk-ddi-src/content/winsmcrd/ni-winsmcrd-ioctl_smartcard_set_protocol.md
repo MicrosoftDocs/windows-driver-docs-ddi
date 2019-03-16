@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_SET_PROTOCOL
-title: IOCTL_SMARTCARD_SET_PROTOCOL
+title: IOCTL_SMARTCARD_SET_PROTOCOL (winsmcrd.h)
 description: Sets the procotol the driver communicates to the smart card with after the card is detected.
 old-location: nfpdrivers\ioctl_smartcard_set_protocol.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsmcrd.h
+- winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_SET_PROTOCOL
+- IOCTL_SMARTCARD_SET_PROTOCOL
 product:
 - Windows
 targetos: Windows

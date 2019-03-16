@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_TCP_OFFLOAD_FORWARD_HANDLER
-title: W_TCP_OFFLOAD_FORWARD_HANDLER
+title: W_TCP_OFFLOAD_FORWARD_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadForward function to forward unacknowledged received TCP segments to an offload target.
 old-location: netvista\miniporttcpoffloadforward.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	MiniportTcpOffloadForward
+- MiniportTcpOffloadForward
 product:
 - Windows
 targetos: Windows

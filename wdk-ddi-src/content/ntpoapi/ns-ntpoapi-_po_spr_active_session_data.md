@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi._PO_SPR_ACTIVE_SESSION_DATA
-title: _PO_SPR_ACTIVE_SESSION_DATA
+title: _PO_SPR_ACTIVE_SESSION_DATA (ntpoapi.h)
 description: Allow drivers to register/unregister for SPR Active session start and end notifications.
 tech.root: kernel
 ms.assetid: b3d767f3-3545-4f88-8aa2-8e625d657ac2
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PO_SPR_ACTIVE_SESSION_DATA, *PPO_SPR_ACTIVE_SESSION_DATA
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntpoapi.h
-apiname: 
--	_PO_SPR_ACTIVE_SESSION_DATA
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntpoapi.h
+api_name: 
+- _PO_SPR_ACTIVE_SESSION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

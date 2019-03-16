@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.get_Handle
-title: IPrinterQueue::get_Handle
+title: IPrinterQueue::get_Handle (printerextension.h)
 description: Gets the underlying native handle for this print queue.
 old-location: print\iprinterqueue_handle.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueue.Handle
--	IPrinterQueue.get_Handle
+- IPrinterQueue.Handle
+- IPrinterQueue.get_Handle
 product:
 - Windows
 targetos: Windows

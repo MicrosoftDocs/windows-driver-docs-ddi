@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_BINDING_NONCE
-title: "_AACS_BINDING_NONCE"
+title: _AACS_BINDING_NONCE (ntddcdvd.h)
 description: The AACS_BINDING_NONCE structure contains the binding nonce.
 old-location: storage\aacs_binding_nonce.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_BINDING_NONCE
+- AACS_BINDING_NONCE
 product:
 - Windows
 targetos: Windows

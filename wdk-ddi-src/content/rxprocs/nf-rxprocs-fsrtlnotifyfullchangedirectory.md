@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.FsRtlNotifyFullChangeDirectory
-title: FsRtlNotifyFullChangeDirectory macro
+title: FsRtlNotifyFullChangeDirectory macro (rxprocs.h)
 description: The FsRtlNotifyFullChangeDirectory routine creates a notify structure for a notification request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlNotifyFullChangeDirectory
+- FsRtlNotifyFullChangeDirectory
 product:
 - Windows
 targetos: Windows

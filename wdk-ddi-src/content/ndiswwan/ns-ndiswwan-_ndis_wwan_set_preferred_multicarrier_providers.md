@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
-title: "_NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS"
+title: _NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS structure represents a list of preferred multicarrier providers associated with the MB device.
 old-location: netvista\ndis_wwan_set_preferred_multicarrier_providers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
+- NDIS_WWAN_SET_PREFERRED_MULTICARRIER_PROVIDERS
 product:
 - Windows
 targetos: Windows

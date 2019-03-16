@@ -1,6 +1,6 @@
 ---
 UID: NF:oprghdlr.RegisterOpRegionHandler
-title: RegisterOpRegionHandler function
+title: RegisterOpRegionHandler function (oprghdlr.h)
 description: The RegisterOpRegionHandler routine registers an operation region handler with the ACPI driver.
 old-location: acpi\registeropregionhandler.htm
 tech.root: acpi
@@ -26,15 +26,15 @@ req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Oprghdlr.lib
--	Oprghdlr.dll
+- Oprghdlr.lib
+- Oprghdlr.dll
 api_name:
--	RegisterOpRegionHandler
+- RegisterOpRegionHandler
 product:
 - Windows
 targetos: Windows

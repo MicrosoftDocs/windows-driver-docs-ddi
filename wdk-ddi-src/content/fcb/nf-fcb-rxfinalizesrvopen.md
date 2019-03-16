@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeSrvOpen
-title: RxFinalizeSrvOpen function
+title: RxFinalizeSrvOpen function (fcb.h)
 description: RxFinalizeSrvOpen finalizes the given SRV_OPEN structure. The caller must have an exclusive lock on the FCB associated with the SRV_OPEN and either a shared or exclusive lock on the table lock of the NET_ROOT associated with the FCB.
 old-location: ifsk\rxfinalizesrvopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxFinalizeSrvOpen
+- RxFinalizeSrvOpen
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_ACCESS
-title: "_CDROM_EXCLUSIVE_ACCESS"
+title: _CDROM_EXCLUSIVE_ACCESS (ntddcdrm.h)
 description: The CDROM_EXCLUSIVE_ACCESS structure is used with the IOCTL_CDROM_EXCLUSIVE_ACCESS request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 old-location: storage\cdrom_exclusive_access.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_EXCLUSIVE_ACCESS
+- CDROM_EXCLUSIVE_ACCESS
 product:
 - Windows
 targetos: Windows

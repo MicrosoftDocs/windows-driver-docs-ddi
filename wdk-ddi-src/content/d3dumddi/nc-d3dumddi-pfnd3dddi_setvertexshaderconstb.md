@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVERTEXSHADERCONSTB
-title: PFND3DDDI_SETVERTEXSHADERCONSTB
+title: PFND3DDDI_SETVERTEXSHADERCONSTB (d3dumddi.h)
 description: The SetVertexShaderConstB function sets one or more vertex shader constant registers with Boolean values.
 old-location: display\setvertexshaderconstb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetVertexShaderConstB
+- SetVertexShaderConstB
 product:
 - Windows
 targetos: Windows

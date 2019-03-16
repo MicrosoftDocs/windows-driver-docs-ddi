@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_VIRTUAL_FUNCTION_PROBED_BARS
-title: GET_VIRTUAL_FUNCTION_PROBED_BARS
+title: GET_VIRTUAL_FUNCTION_PROBED_BARS (wdm.h)
 description: The GetVirtualFunctionProbedBars routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getvirtualfunctionprobedbars.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetVirtualFunctionProbedBars
+- GetVirtualFunctionProbedBars
 product:
 - Windows
 targetos: Windows

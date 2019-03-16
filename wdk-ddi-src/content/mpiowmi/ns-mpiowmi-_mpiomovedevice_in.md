@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIOMoveDevice_IN
-title: "_MPIOMoveDevice_IN"
+title: _MPIOMoveDevice_IN (mpiowmi.h)
 description: The MPIOMoveDevice_IN structure is used to set the active path on the device.
 old-location: storage\mpiomovedevice_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIOMoveDevice_IN
+- MPIOMoveDevice_IN
 product:
 - Windows
 targetos: Windows

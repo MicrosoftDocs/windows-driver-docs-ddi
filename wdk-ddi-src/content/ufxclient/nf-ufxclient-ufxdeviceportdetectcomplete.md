@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDevicePortDetectComplete
-title: UfxDevicePortDetectComplete function
+title: UfxDevicePortDetectComplete function (ufxclient.h)
 description: Notifies UFX about the port type that was detected.
 old-location: buses\ufxdeviceportdetectcomplete.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDevicePortDetectComplete
+- UfxDevicePortDetectComplete
 product:
 - Windows
 targetos: Windows

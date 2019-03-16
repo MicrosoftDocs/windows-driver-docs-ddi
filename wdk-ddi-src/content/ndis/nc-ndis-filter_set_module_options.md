@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_SET_MODULE_OPTIONS
-title: FILTER_SET_MODULE_OPTIONS
+title: FILTER_SET_MODULE_OPTIONS (ndis.h)
 description: The FilterSetModuleOptions function changes the set of optional services that are associated with a specified filter module.Note  You must declare the function by using the FILTER_SET_MODULE_OPTIONS type.
 old-location: netvista\filtersetmoduleoptions.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
+- (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 product:
 - Windows
 targetos: Windows

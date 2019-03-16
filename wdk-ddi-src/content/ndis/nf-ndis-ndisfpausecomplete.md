@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFPauseComplete
-title: NdisFPauseComplete function
+title: NdisFPauseComplete function (ndis.h)
 description: A filter driver must call the NdisFPauseComplete function to complete a pause operation if the driver returned NDIS_STATUS_PENDING from its FilterPause function.
 old-location: netvista\ndisfpausecomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFPauseComplete
+- NdisFPauseComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxstruc.RxGetRDBSSProcess
-title: RxGetRDBSSProcess function
+title: RxGetRDBSSProcess function (rxstruc.h)
 description: RxGetRDBSSProcess returns a pointer to the process of the main thread used by the RDBSS kernel process.
 old-location: ifsk\rxgetrdbssprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxstruc.h
+- rxstruc.h
 api_name:
--	RxGetRDBSSProcess
+- RxGetRDBSSProcess
 product:
 - Windows
 targetos: Windows
@@ -79,7 +79,7 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

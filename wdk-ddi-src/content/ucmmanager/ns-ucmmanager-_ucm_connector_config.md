@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_CONFIG
-title: "_UCM_CONNECTOR_CONFIG"
+title: _UCM_CONNECTOR_CONFIG (ucmmanager.h)
 description: Describes the configuration options for a Type-C connector object. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_connector_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_CONFIG
+- UCM_CONNECTOR_CONFIG
 product:
 - Windows
 targetos: Windows

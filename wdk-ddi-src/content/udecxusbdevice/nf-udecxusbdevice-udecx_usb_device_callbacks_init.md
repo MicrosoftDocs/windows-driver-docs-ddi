@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UDECX_USB_DEVICE_CALLBACKS_INIT
-title: UDECX_USB_DEVICE_CALLBACKS_INIT function
+title: UDECX_USB_DEVICE_CALLBACKS_INIT function (udecxusbdevice.h)
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure before a UdecxUsbDeviceCreate call.
 old-location: buses\udecx_usb_device_callbacks_init.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UDECX_USB_DEVICE_CALLBACKS_INIT
+- UDECX_USB_DEVICE_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

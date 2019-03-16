@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_STATE
-title: "_PEP_PROCESSOR_IDLE_STATE"
+title: _PEP_PROCESSOR_IDLE_STATE (pep_x.h)
 description: The PEP_PROCESSOR_IDLE_STATE structure describes the capabilities of a processor idle state.
 old-location: kernel\pep_processor_idle_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_PROCESSOR_IDLE_STATE
+- PEP_PROCESSOR_IDLE_STATE
 product:
 - Windows
 targetos: Windows

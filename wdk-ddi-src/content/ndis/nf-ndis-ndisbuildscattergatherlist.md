@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisBuildScatterGatherList
-title: NdisBuildScatterGatherList function
+title: NdisBuildScatterGatherList function (ndis.h)
 description: The NdisBuildScatterGatherList function builds a scatter/gather list by using the specified parameters.
 old-location: netvista\ndisbuildscattergatherlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisBuildScatterGatherList
+- NdisBuildScatterGatherList
 product:
 - Windows
 targetos: Windows

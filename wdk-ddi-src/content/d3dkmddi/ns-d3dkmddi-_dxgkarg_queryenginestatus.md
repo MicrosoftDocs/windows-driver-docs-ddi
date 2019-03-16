@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYENGINESTATUS
-title: "_DXGKARG_QUERYENGINESTATUS"
+title: _DXGKARG_QUERYENGINESTATUS (d3dkmddi.h)
 description: Used in a call to the DxgkDdiQueryEngineStatus function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 old-location: display\dxgkarg_queryenginestatus.htm
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGKARG_QUERYENGINESTATUS
+- DXGKARG_QUERYENGINESTATUS
 product:
 - Windows
 targetos: Windows

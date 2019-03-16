@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsGenericTableEmptyAvl
-title: RtlIsGenericTableEmptyAvl function
+title: RtlIsGenericTableEmptyAvl function (ntddk.h)
 description: The RtlIsGenericTableEmptyAvl routine determines if a generic table is empty.
 old-location: ifsk\rtlisgenerictableemptyavl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIsGenericTableEmptyAvl
+- RtlIsGenericTableEmptyAvl
 product:
 - Windows
 targetos: Windows

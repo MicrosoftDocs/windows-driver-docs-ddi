@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSAUDIOENGINE_VOLUMELEVEL
-title: "_tagKSAUDIOENGINE_VOLUMELEVEL"
+title: _tagKSAUDIOENGINE_VOLUMELEVEL (ksmedia.h)
 description: The KSAUDIOENGINE_VOLUMELEVEL structure specifies the target volume level, ramp type, and duration within which the volume level should change, for a given volume level request via the KSPROPERTY_AUDIOENGINE_VOLUMELEVEL property.
 old-location: audio\ksaudioengine_volumelevel.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOENGINE_VOLUMELEVEL
+- KSAUDIOENGINE_VOLUMELEVEL
 product:
 - Windows
 targetos: Windows

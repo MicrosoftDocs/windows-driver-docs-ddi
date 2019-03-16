@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbDeviceSetMbimParameters
-title: MbbDeviceSetMbimParameters function
+title: MbbDeviceSetMbimParameters function (mbbcx.h)
 description: The client driver calls the MbbDeviceSetMbimParameters method to report its MBIM-specification related parameters.
 tech.root: netvista
 ms.assetid: 87c11c92-f859-4b52-8aa0-7fe461cefc4c
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MbbDeviceSetMbimParameters
+- MbbDeviceSetMbimParameters
 product:
 - Windows
 targetos: Windows

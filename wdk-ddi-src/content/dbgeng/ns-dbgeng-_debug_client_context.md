@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_CLIENT_CONTEXT
-title: "_DEBUG_CLIENT_CONTEXT"
+title: _DEBUG_CLIENT_CONTEXT (dbgeng.h)
 description: Contains a debug client constant to provide to the IDebugClient7::SetClientContext method.
 old-location: debugger\debug_client_context.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_CLIENT_CONTEXT
+- DEBUG_CLIENT_CONTEXT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortMoveMemory
-title: VideoPortMoveMemory function
+title: VideoPortMoveMemory function (video.h)
 description: The VideoPortMoveMemory function copies data from the source location to the destination location in system memory.
 old-location: display\videoportmovememory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortMoveMemory
+- VideoPortMoveMemory
 product:
 - Windows
 targetos: Windows

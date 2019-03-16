@@ -1,6 +1,6 @@
 ---
 UID: NS:video._DDC_CONTROL
-title: "_DDC_CONTROL"
+title: _DDC_CONTROL (video.h)
 description: The DDC_CONTROL structure holds function pointers and EDID segment information needed by the VideoPortDDCMonitorHelper function, which is exported by the video port driver.
 old-location: display\ddc_control.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	DDC_CONTROL
+- DDC_CONTROL
 product:
 - Windows
 targetos: Windows

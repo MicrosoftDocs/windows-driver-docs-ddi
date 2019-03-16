@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnQueryStop
-title: IPnpCallback::OnQueryStop
+title: IPnpCallback::OnQueryStop (wudfddi.h)
 description: The OnQueryStop method notifies a driver before a device is stopped.
 old-location: wdf\ipnpcallback_onquerystop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallback.OnQueryStop
+- IPnpCallback.OnQueryStop
 product:
 - Windows
 targetos: Windows

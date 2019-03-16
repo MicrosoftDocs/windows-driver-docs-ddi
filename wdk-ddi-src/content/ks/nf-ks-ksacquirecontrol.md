@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAcquireControl
-title: KsAcquireControl function
+title: KsAcquireControl function (ks.h)
 description: The KsAcquireControl function acquires the filter control mutex for Object.
 old-location: stream\ksacquirecontrol.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAcquireControl
+- KsAcquireControl
 product:
 - Windows
 targetos: Windows

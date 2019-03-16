@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_READ_USER_MINIDUMP_STREAM
-title: "_DEBUG_READ_USER_MINIDUMP_STREAM"
+title: _DEBUG_READ_USER_MINIDUMP_STREAM (dbgeng.h)
 description: Describes a user minidump to read.
 old-location: debugger\debug_read_user_minidump_stream.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_READ_USER_MINIDUMP_STREAM
+- DEBUG_READ_USER_MINIDUMP_STREAM
 product:
 - Windows
 targetos: Windows

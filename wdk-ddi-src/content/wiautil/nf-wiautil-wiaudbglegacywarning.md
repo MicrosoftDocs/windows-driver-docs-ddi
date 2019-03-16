@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyWarning
-title: wiauDbgLegacyWarning function
+title: wiauDbgLegacyWarning function (wiautil.h)
 description: The wiauDbgLegacyWarning function logs a warning message.
 old-location: image\wiaudbglegacywarning.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgLegacyWarning
+- wiauDbgLegacyWarning
 product:
 - Windows
 targetos: Windows

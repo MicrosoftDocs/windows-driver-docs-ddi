@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMISuggestInstanceName
-title: IoWMISuggestInstanceName function
+title: IoWMISuggestInstanceName function (wdm.h)
 description: The IoWMISuggestInstanceName routine is used to request that WMI suggest a base name which a driver can use to build WMI instance names for the device.
 old-location: kernel\iowmisuggestinstancename.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMISuggestInstanceName
+- IoWMISuggestInstanceName
 product:
 - Windows
 targetos: Windows

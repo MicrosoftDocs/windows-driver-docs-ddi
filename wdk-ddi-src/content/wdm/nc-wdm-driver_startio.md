@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_STARTIO
-title: DRIVER_STARTIO
+title: DRIVER_STARTIO (wdm.h)
 description: The StartIo routine starts the I/O operation described by an IRP.
 old-location: kernel\startio.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	StartIo
+- StartIo
 product:
 - Windows
 targetos: Windows

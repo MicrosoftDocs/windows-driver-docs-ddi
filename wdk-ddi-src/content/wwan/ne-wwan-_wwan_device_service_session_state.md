@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_DEVICE_SERVICE_SESSION_STATE
-title: "_WWAN_DEVICE_SERVICE_SESSION_STATE"
+title: _WWAN_DEVICE_SERVICE_SESSION_STATE (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION_STATE enumeration specifies the state of device service session. It can be used in a set operation to set the state of a session or can be used in an indication to report the state of a session.
 old-location: netvista\wwan_device_service_session_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_SESSION_STATE
+- WWAN_DEVICE_SERVICE_SESSION_STATE
 product:
 - Windows
 targetos: Windows

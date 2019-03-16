@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._UNIDRV_PRIVATE_DEVMODE
-title: "_UNIDRV_PRIVATE_DEVMODE"
+title: _UNIDRV_PRIVATE_DEVMODE (printoem.h)
 description: The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 old-location: print\unidrv_private_devmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	UNIDRV_PRIVATE_DEVMODE
+- UNIDRV_PRIVATE_DEVMODE
 product:
 - Windows
 targetos: Windows

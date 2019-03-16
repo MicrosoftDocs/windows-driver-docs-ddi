@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get__NewEnum
-title: IWDTFLongNumbers2::get__NewEnum
+title: IWDTFLongNumbers2::get__NewEnum (wdtf.h)
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtflongnumbers2__newenum.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLongNumbers2._NewEnum
--	IWDTFLongNumbers2.get__NewEnum
+- IWDTFLongNumbers2._NewEnum
+- IWDTFLongNumbers2.get__NewEnum
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_GET_DATA_INTERVAL
-title: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL
+title: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL (sensorscx.h)
 description: This callback function returns the data interval for a specified sensor.
 old-location: sensors\evtsensorgetdatainterval.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorGetDataInterval
+- EvtSensorGetDataInterval
 product:
 - Windows
 targetos: Windows

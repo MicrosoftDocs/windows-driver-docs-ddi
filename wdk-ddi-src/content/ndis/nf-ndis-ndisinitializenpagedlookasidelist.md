@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeNPagedLookasideList
-title: NdisInitializeNPagedLookasideList function
+title: NdisInitializeNPagedLookasideList function (ndis.h)
 description: The NdisInitializeNPagedLookasideList function initializes a lookaside list. After a successful initialization, nonpaged fixed-size blocks can be allocated from and freed to the lookaside list.
 old-location: netvista\ndisinitializenpagedlookasidelist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisInitializeNPagedLookasideList
+- NdisInitializeNPagedLookasideList
 product:
 - Windows
 targetos: Windows

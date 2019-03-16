@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IDriverEntry.OnDeinitialize
-title: IDriverEntry::OnDeinitialize
+title: IDriverEntry::OnDeinitialize (wudfddi.h)
 description: The OnDeinitialize method performs any operations that are necessary before a system unloads a driver.
 old-location: wdf\idriverentry_ondeinitialize.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IDriverEntry.OnDeinitialize
+- IDriverEntry.OnDeinitialize
 product:
 - Windows
 targetos: Windows

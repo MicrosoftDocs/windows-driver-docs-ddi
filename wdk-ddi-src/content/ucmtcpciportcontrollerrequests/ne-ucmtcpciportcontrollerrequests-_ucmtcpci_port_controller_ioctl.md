@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_IOCTL
-title: "_UCMTCPCI_PORT_CONTROLLER_IOCTL"
+title: _UCMTCPCI_PORT_CONTROLLER_IOCTL (ucmtcpciportcontrollerrequests.h)
 description: Defines the various device I/O control requests that are sent to the client driver for the port controller. This indicates the type of IOCTL in WPP.
 old-location: buses\ucmtcpci_port_controller_ioctl.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UcmTcpciPortControllerRequests.h
+- UcmTcpciPortControllerRequests.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_IOCTL
+- UCMTCPCI_PORT_CONTROLLER_IOCTL
 product:
 - Windows
 targetos: Windows

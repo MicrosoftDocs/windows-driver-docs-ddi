@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
-title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
+title: _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE (d3dkmddi.h)
 description: Contains information about the scheduling log context state change event.
 ms.assetid: 6d064011-3001-470e-aaec-41c2a33ce6bc
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
+- _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

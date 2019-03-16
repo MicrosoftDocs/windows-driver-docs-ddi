@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CURRENT_CAM_COMMAND
-title: _UCSI_GET_CURRENT_CAM_COMMAND
+title: _UCSI_GET_CURRENT_CAM_COMMAND (ucmucsispec.h)
 description: Used in the GET_CURRENT_CAM command. See Table 4-29.
 ms.assetid: a3ea2dac-94ef-444f-8003-f3be5cb865b3
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CURRENT_CAM_COMMAND, *PUCSI_GET_CURRENT_CAM_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CURRENT_CAM_COMMAND
-product: Windows
+- _UCSI_GET_CURRENT_CAM_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

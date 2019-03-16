@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSemaphore
-title: KeReleaseSemaphore function
+title: KeReleaseSemaphore function (wdm.h)
 description: The KeReleaseSemaphore routine releases the specified semaphore object.
 old-location: kernel\kereleasesemaphore.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseSemaphore
+- KeReleaseSemaphore
 product:
 - Windows
 targetos: Windows

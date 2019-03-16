@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.GetStatusDescription
-title: IWiaErrorHandler::GetStatusDescription
+title: IWiaErrorHandler::GetStatusDescription (wia_lh.h)
 description: The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
 old-location: image\iwiaerrorhandler_getstatusdescription.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaErrorHandler.GetStatusDescription
+- IWiaErrorHandler.GetStatusDescription
 product:
 - Windows
 targetos: Windows

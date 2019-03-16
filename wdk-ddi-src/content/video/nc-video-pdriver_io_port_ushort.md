@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PDRIVER_IO_PORT_USHORT
-title: PDRIVER_IO_PORT_USHORT
+title: PDRIVER_IO_PORT_USHORT (video.h)
 description: SvgaHwIoPortUshort traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of USHORT-sized data.
 old-location: display\svgahwioportushort.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	SvgaHwIoPortUshort
+- SvgaHwIoPortUshort
 product:
 - Windows
 targetos: Windows

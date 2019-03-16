@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._MITIGABLE_DEVICE_INTERFACE
-title: "_MITIGABLE_DEVICE_INTERFACE"
+title: _MITIGABLE_DEVICE_INTERFACE (pcivirt.h)
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver for the mitigable device interface.
 old-location: pci\mitigable_device_interface.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	MITIGABLE_DEVICE_INTERFACE
+- MITIGABLE_DEVICE_INTERFACE
 product:
 - Windows
 targetos: Windows

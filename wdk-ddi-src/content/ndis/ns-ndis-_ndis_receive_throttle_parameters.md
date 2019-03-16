@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RECEIVE_THROTTLE_PARAMETERS
-title: "_NDIS_RECEIVE_THROTTLE_PARAMETERS"
+title: _NDIS_RECEIVE_THROTTLE_PARAMETERS (ndis.h)
 description: The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of NET_BUFFER_LIST structures that a miniport driver should indicate in a deferred procedure call (DPC).
 old-location: netvista\ndis_receive_throttle_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_RECEIVE_THROTTLE_PARAMETERS
+- NDIS_RECEIVE_THROTTLE_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetWinUsbHandle
-title: IWDFUsbTargetDevice::GetWinUsbHandle
+title: IWDFUsbTargetDevice::GetWinUsbHandle (wudfusb.h)
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.GetWinUsbHandle
+- IWDFUsbTargetDevice.GetWinUsbHandle
 product:
 - Windows
 targetos: Windows

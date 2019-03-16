@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_LOGICAL_TO_PHYSICAL
-title: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL
+title: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL (ntddvol.h)
 description: Returns physical offsets and physical disk numbers for a given volume logical offset.
 old-location: storage\ioctl_volume_logical_to_physical.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvol.h
+- Ntddvol.h
 api_name:
--	IOCTL_VOLUME_LOGICAL_TO_PHYSICAL
+- IOCTL_VOLUME_LOGICAL_TO_PHYSICAL
 product:
 - Windows
 targetos: Windows

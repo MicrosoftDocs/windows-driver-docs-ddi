@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_START_MIRACAST_SESSION
-title: PFN_START_MIRACAST_SESSION
+title: PFN_START_MIRACAST_SESSION (netdispumdddi.h)
 description: Called by the operating system to start a Miracast connected session.
 old-location: display\startmiracastsession.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	StartMiracastSession
+- StartMiracastSession
 product:
 - Windows
 targetos: Windows

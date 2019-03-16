@@ -1,6 +1,6 @@
 ---
 UID: NI:mountdev.IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
-title: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
+title: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME (mountdev.h)
 description: Support for this IOCTL by the mount manager clients is optional.
 old-location: storage\ioctl_mountdev_query_suggested_link_name.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountdev.h
+- Mountdev.h
 api_name:
--	IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
+- IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 product:
 - Windows
 targetos: Windows

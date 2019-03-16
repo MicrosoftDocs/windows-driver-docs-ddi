@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetTunnelModeOuterAddress_OUT
-title: "_SetTunnelModeOuterAddress_OUT"
+title: _SetTunnelModeOuterAddress_OUT (iscsiop.h)
 description: The SetTunnelModeOuterAddress_OUT structure holds the output data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SetTunnelModeOuterAddress_OUT
+- SetTunnelModeOuterAddress_OUT
 product:
 - Windows
 targetos: Windows

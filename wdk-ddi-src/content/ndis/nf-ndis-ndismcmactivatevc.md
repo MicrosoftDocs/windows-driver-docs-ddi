@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmActivateVc
-title: NdisMCmActivateVc function
+title: NdisMCmActivateVc function (ndis.h)
 description: NdisMCmActivateVc notifies NDIS that an MCM driver is ready to make transfers on a particular VC.
 old-location: netvista\ndismcmactivatevc.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMCmActivateVc
+- NdisMCmActivateVc
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.Release
-title: IDebugHostSymbol::Release
+title: IDebugHostSymbol::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 4989cade-eb95-4275-8a77-2d9ae1b13343
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbol.Release
-product: Windows
+- IDebugHostSymbol.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

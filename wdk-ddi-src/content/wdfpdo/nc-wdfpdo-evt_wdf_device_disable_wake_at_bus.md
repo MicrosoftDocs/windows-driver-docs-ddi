@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS
-title: EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS
+title: EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS (wdfpdo.h)
 description: A bus driver's EvtDeviceDisableWakeAtBus event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus.
 old-location: wdf\evtdevicedisablewakeatbus.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfpdo.h
+- Wdfpdo.h
 api_name:
--	EvtDeviceDisableWakeAtBus
+- EvtDeviceDisableWakeAtBus
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.ReadPointers
-title: IDebugHostMemory::ReadPointers
+title: IDebugHostMemory::ReadPointers (dbgmodel.h)
 description: Reads a number of pointer sized objects from the address space of the target as defined by the inpassed context and location.
 ms.assetid: 8c1d7ea2-97cf-421c-ac85-9030eb6cf582
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory.ReadPointers
-product: Windows
+- IDebugHostMemory.ReadPointers
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

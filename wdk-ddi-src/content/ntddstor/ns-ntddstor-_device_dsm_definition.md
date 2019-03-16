@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_DEFINITION
-title: _DEVICE_DSM_DEFINITION
+title: _DEVICE_DSM_DEFINITION (ntddstor.h)
 description: 
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_DSM_DEFINITION, *PDEVICE_DSM_DEFINITION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_DEVICE_DSM_DEFINITION
+- _DEVICE_DSM_DEFINITION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

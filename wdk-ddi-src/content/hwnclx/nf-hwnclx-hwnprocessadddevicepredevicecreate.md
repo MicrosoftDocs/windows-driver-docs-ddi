@@ -1,6 +1,6 @@
 ---
 UID: NF:hwnclx.HwNProcessAddDevicePreDeviceCreate
-title: HwNProcessAddDevicePreDeviceCreate function
+title: HwNProcessAddDevicePreDeviceCreate function (hwnclx.h)
 description: Supplies the device prepare/release and entry/exit callbacks to the Windows Driver Foundation (WDF) for transitioning the device into different states.
 old-location: gpiobtn\hwnprocessadddevicepredevicecreate.htm
 tech.root: gpiobtn
@@ -26,15 +26,15 @@ req.lib: Mshwnclxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mshwnclxstub.lib
--	Mshwnclxstub.dll
+- Mshwnclxstub.lib
+- Mshwnclxstub.dll
 api_name:
--	HwNProcessAddDevicePreDeviceCreate
+- HwNProcessAddDevicePreDeviceCreate
 product:
 - Windows
 targetos: Windows

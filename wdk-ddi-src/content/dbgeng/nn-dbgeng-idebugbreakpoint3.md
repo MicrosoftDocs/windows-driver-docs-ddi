@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugBreakpoint3
-title: IDebugBreakpoint3
+title: IDebugBreakpoint3 (dbgeng.h)
 description: "IDebugBreakpoint3 interface"
 old-location: debugger\idebugbreakpoint3.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint3
+- IDebugBreakpoint3
 product:
 - Windows
 targetos: Windows

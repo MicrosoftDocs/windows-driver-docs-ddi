@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddLargeInteger
-title: ExInterlockedAddLargeInteger function
+title: ExInterlockedAddLargeInteger function (wdm.h)
 description: The ExInterlockedAddLargeInteger routine adds a large integer value to the specified variable as an atomic operation.
 old-location: kernel\exinterlockedaddlargeinteger.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedAddLargeInteger
+- ExInterlockedAddLargeInteger
 product:
 - Windows
 targetos: Windows

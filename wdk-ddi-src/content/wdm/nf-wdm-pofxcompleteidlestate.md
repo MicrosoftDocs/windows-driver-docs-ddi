@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxCompleteIdleState
-title: PoFxCompleteIdleState function
+title: PoFxCompleteIdleState function (wdm.h)
 description: The PoFxCompleteIdleState routine informs the power management framework (PoFx) that the specified component has completed a pending change to an Fx state.
 old-location: kernel\pofxcompleteidlestate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxCompleteIdleState
+- PoFxCompleteIdleState
 product:
 - Windows
 targetos: Windows

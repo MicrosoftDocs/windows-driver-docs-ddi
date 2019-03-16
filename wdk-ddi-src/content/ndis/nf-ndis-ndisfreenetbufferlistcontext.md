@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeNetBufferListContext
-title: NdisFreeNetBufferListContext function
+title: NdisFreeNetBufferListContext function (ndis.h)
 description: Call the NdisFreeNetBufferListContext function to release context space in the NET_BUFFER_LIST_CONTEXT structure of a NET_BUFFER_LIST structure.
 old-location: netvista\ndisfreenetbufferlistcontext.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeNetBufferListContext
+- NdisFreeNetBufferListContext
 product:
 - Windows
 targetos: Windows

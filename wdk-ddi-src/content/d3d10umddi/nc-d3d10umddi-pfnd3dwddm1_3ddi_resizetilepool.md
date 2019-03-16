@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_RESIZETILEPOOL
-title: PFND3DWDDM1_3DDI_RESIZETILEPOOL
+title: PFND3DWDDM1_3DDI_RESIZETILEPOOL (d3d10umddi.h)
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	ResizeTilePool
+- ResizeTilePool
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
-title: "_D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS"
+title: _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS (d3dkmthk.h)
 description: Contains information about all possible brightness levels that an integrated display panel supports.
 old-location: display\d3dkmt_brightness_possible_levels.htm
 ms.assetid: d7402839-2afe-43d3-9747-7b2e98d1c238
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
+- D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_CONFIGURATION
-title: IOCTL_CDROM_GET_CONFIGURATION
+title: IOCTL_CDROM_GET_CONFIGURATION (ntddcdrm.h)
 description: Requests feature and profile information from a CD-ROM device.
 old-location: storage\ioctl_cdrom_get_configuration.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_GET_CONFIGURATION
+- IOCTL_CDROM_GET_CONFIGURATION
 product:
 - Windows
 targetos: Windows

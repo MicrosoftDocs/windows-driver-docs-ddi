@@ -1,6 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_CLASS
-title: IOCTL_AVC_CLASS
+title: IOCTL_AVC_CLASS (avc.h)
 description: The IOCTL_AVC_CLASS I/O control code is supported only from kernel mode, using the IRP_MJ_INTERNAL_DEVICE_CONTROL dispatch.Avc.sys supports two device interfaces, depending upon the type of instance (peer or virtual).
 old-location: stream\ioctl_avc_class.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	IOCTL_AVC_CLASS
+- IOCTL_AVC_CLASS
 product:
 - Windows
 targetos: Windows

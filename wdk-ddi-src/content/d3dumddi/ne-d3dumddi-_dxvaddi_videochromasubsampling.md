@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOCHROMASUBSAMPLING
-title: "_DXVADDI_VIDEOCHROMASUBSAMPLING"
+title: _DXVADDI_VIDEOCHROMASUBSAMPLING (d3dumddi.h)
 description: The DXVADDI_VIDEOCHROMASUBSAMPLING enumeration type contains values that identify the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: display\dxvaddi_videochromasubsampling.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_VIDEOCHROMASUBSAMPLING
+- DXVADDI_VIDEOCHROMASUBSAMPLING
 product:
 - Windows
 targetos: Windows

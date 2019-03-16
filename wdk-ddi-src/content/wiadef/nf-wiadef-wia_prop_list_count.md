@@ -1,6 +1,6 @@
 ---
 UID: NF:wiadef.WIA_PROP_LIST_COUNT
-title: WIA_PROP_LIST_COUNT macro
+title: WIA_PROP_LIST_COUNT macro (wiadef.h)
 description: 
 ms.assetid: 874022ef-dff3-4f88-be23-a7165723b934
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wiadef.h
+- wiadef.h
 api_name: 
--	WIA_PROP_LIST_COUNT
+- WIA_PROP_LIST_COUNT
 product:
 -   Windows
 targetos: Windows

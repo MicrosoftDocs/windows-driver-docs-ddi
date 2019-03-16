@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_FREE_BW_ROUTINE
-title: PCAM_FREE_BW_ROUTINE
+title: PCAM_FREE_BW_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamFreeBandwidth callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 old-location: stream\camfreebandwidth.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	CamFreeBandwidth
+- CamFreeBandwidth
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_OFFER_FLAGS
-title: D3DDDI_OFFER_FLAGS
+title: D3DDDI_OFFER_FLAGS (d3dukmdt.h)
 description: Offer flags.
 ms.assetid: 2666f6d1-2dd4-4fa1-8951-aa05be2d3a51
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_OFFER_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	D3DDDI_OFFER_FLAGS
+- D3DDDI_OFFER_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

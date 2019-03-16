@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlGetVersion
-title: RtlGetVersion function
+title: RtlGetVersion function (wdm.h)
 description: The RtlGetVersion routine returns version information about the currently running operating system.
 old-location: kernel\rtlgetversion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetVersion
+- RtlGetVersion
 product:
 - Windows
 targetos: Windows

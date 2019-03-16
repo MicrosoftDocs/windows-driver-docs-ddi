@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
-title: _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
+title: _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE (netpacket.h)
 description: The NET_PACKET_RECEIVE_SEGMENT_COALESCENCE structure contains receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: 6385d38a-1731-4dc3-81db-d61bca59621e
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpacket.h
-apiname: 
--	_NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpacket.h
+api_name: 
+- _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

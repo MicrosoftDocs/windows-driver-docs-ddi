@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_STATS
-title: "_SYNTH_STATS"
+title: _SYNTH_STATS (dmusprop.h)
 description: The SYNTH_STATS structure specifies synthesizer performance statistics such as the number of voices playing, CPU usage, number of notes lost, amount of free memory, and peak volume level.
 old-location: audio\synth_stats.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusprop.h
+- dmusprop.h
 api_name:
--	SYNTH_STATS
+- SYNTH_STATS
 product:
 - Windows
 targetos: Windows

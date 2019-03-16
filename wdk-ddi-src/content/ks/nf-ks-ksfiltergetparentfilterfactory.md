@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetParentFilterFactory
-title: KsFilterGetParentFilterFactory function
+title: KsFilterGetParentFilterFactory function (ks.h)
 description: The KsFilterGetParentFilterFactory function returns the parent filter factory of the given filter.
 old-location: stream\ksfiltergetparentfilterfactory.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsFilterGetParentFilterFactory
+- KsFilterGetParentFilterFactory
 product:
 - Windows
 targetos: Windows

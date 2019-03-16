@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_CHILD_DEVICE_HPD_AWARENESS
-title: "_DXGK_CHILD_DEVICE_HPD_AWARENESS"
+title: _DXGK_CHILD_DEVICE_HPD_AWARENESS (d3dkmdt.h)
 description: The DXGK_CHILD_DEVICE_HPD_AWARENESS enumeration is used to describe the hot plug capabilities of a child device of a display adapter.
 old-location: display\dxgk_child_device_hpd_awareness.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGK_CHILD_DEVICE_HPD_AWARENESS
+- DXGK_CHILD_DEVICE_HPD_AWARENESS
 product:
 - Windows
 targetos: Windows

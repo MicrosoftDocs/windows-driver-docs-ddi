@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION (d3d10umddi.h)
 description: Enables or disables rotation on an input stream of the video processor.
 old-location: display\videoprocessorsetstreamrotation.htm
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamRotation
+- pfnVideoProcessorSetStreamRotation
 product:
 - Windows
 targetos: Windows

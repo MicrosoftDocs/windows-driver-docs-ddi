@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_DMA_CAPABILITIES
-title: _NET_ADAPTER_DMA_CAPABILITIES
+title: _NET_ADAPTER_DMA_CAPABILITIES (netadapter.h)
 description: The NET_ADAPTER_DMA_CAPABILITIES structure describes the DMA capabilities of an adapter.
 tech.root: netvista
 ms.assetid: b0b5cd8b-807c-42d2-9f6b-4843f82c6309
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	_NET_ADAPTER_DMA_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- _NET_ADAPTER_DMA_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

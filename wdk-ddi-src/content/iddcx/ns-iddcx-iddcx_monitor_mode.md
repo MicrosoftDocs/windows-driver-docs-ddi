@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_MODE
-title: IDDCX_MONITOR_MODE
+title: IDDCX_MONITOR_MODE (iddcx.h)
 description: Gives information about the current monitor mode.
 old-location: display\iddcx_monitor_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_MONITOR_MODE
+- IDDCX_MONITOR_MODE
 product:
 - Windows
 targetos: Windows

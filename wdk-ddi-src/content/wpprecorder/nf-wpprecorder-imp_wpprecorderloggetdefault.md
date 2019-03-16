@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLogGetDefault
-title: imp_WppRecorderLogGetDefault function
+title: imp_WppRecorderLogGetDefault function (wpprecorder.h)
 description: The WppRecorderLogGetDefault method gets a handle to the default recorder log.
 old-location: devtest\wpprecorderloggetdefault.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderLogGetDefault
+- imp_WppRecorderLogGetDefault
 product:
 - Windows
 targetos: Windows

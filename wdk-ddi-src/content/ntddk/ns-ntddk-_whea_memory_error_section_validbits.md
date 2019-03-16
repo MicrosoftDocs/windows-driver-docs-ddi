@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION_VALIDBITS
-title: "_WHEA_MEMORY_ERROR_SECTION_VALIDBITS"
+title: _WHEA_MEMORY_ERROR_SECTION_VALIDBITS (ntddk.h)
 description: The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_MEMORY_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_memory_error_section_validbits.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_MEMORY_ERROR_SECTION_VALIDBITS
+- WHEA_MEMORY_ERROR_SECTION_VALIDBITS
 product:
 - Windows
 targetos: Windows

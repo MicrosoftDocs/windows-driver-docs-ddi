@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYDLISTFORAPPLICATION1
-title: PFND3DDDI_QUERYDLISTFORAPPLICATION1
+title: PFND3DDDI_QUERYDLISTFORAPPLICATION1 (d3dumddi.h)
 description: Called during Microsoft Direct3D initialization on a hybrid system to determine which GPU an application should run on. A dList is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 old-location: display\querydlistforapplication1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	QueryDListForApplication
+- QueryDListForApplication
 product:
 - Windows
 targetos: Windows

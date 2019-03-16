@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_RESOURCE_USAGE
-title: D3D10_DDI_RESOURCE_USAGE
+title: D3D10_DDI_RESOURCE_USAGE (d3d10umddi.h)
 description: The D3D10_DDI_RESOURCE_USAGE enumeration type contains values that identify how a resource is used.
 old-location: display\d3d10_ddi_resource_usage.htm
 ms.assetid: f412b665-3489-4200-8fb8-7b6eb564ba98
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_RESOURCE_USAGE
+- D3D10_DDI_RESOURCE_USAGE
 product:
 - Windows
 targetos: Windows

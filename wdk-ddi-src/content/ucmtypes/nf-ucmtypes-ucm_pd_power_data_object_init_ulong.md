@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtypes.UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
-title: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function
+title: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function (ucmtypes.h)
 description: Initializes a UCM_PD_POWER_DATA_OBJECT structure by interpreting Power Data Object values and sets each field correctly.
 old-location: buses\ucm_pd_power_data_object_init_ulong.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
+- UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 product:
 - Windows
 targetos: Windows

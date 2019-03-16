@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IDmaChannelSlave
-title: IDmaChannelSlave
+title: IDmaChannelSlave (portcls.h)
 description: The IDmaChannelSlave interface provides methods for monitoring and controlling a DMA channel for a subordinate device (as described in Introduction to Adapter Objects).
 old-location: audio\idmachannelslave.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IDmaChannelSlave
+- IDmaChannelSlave
 product:
 - Windows
 targetos: Windows

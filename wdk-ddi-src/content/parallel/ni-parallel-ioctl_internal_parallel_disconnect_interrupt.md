@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
-title: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
+title: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT request disconnects an interrupt service routine (and an optional deferred port check service routine) that was connected by using an IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request.
 old-location: parports\ioctl_internal_parallel_disconnect_interrupt.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
+- IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT
 product:
 - Windows
 targetos: Windows

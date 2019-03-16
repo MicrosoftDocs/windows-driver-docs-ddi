@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticModuleWide
-title: IDebugSymbols3::AddSyntheticModuleWide
+title: IDebugSymbols3::AddSyntheticModuleWide (dbgeng.h)
 description: The AddSyntheticModuleWide method adds a synthetic module to the module list the debugger maintains for the current process.
 old-location: debugger\addsyntheticmodulewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.AddSyntheticModuleWide
+- IDebugSymbols3.AddSyntheticModuleWide
 product:
 - Windows
 targetos: Windows

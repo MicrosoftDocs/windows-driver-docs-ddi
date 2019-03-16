@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_CREATE_PROCESS_OPTIONS
-title: "_DEBUG_CREATE_PROCESS_OPTIONS"
+title: _DEBUG_CREATE_PROCESS_OPTIONS (dbgeng.h)
 description: The DEBUG_CREATE_PROCESS_OPTIONS structure specifies the process creation options to use when creating a new process.
 old-location: debugger\debug_create_process_options.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_CREATE_PROCESS_OPTIONS
+- DEBUG_CREATE_PROCESS_OPTIONS
 product:
 - Windows
 targetos: Windows

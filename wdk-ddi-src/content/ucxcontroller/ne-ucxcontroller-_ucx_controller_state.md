@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxcontroller._UCX_CONTROLLER_STATE
-title: "_UCX_CONTROLLER_STATE"
+title: _UCX_CONTROLLER_STATE (ucxcontroller.h)
 description: This enumeration provides values to specify the UCX controller state after a reset.
 old-location: buses\ucx_controller_state.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UCX_CONTROLLER_STATE
+- UCX_CONTROLLER_STATE
 product:
 - Windows
 targetos: Windows

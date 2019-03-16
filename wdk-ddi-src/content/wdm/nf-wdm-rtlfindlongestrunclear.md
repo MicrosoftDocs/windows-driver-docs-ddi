@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindLongestRunClear
-title: RtlFindLongestRunClear function
+title: RtlFindLongestRunClear function (wdm.h)
 description: The RtlFindLongestRunClear routine searches for the largest contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindlongestrunclear.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindLongestRunClear
+- RtlFindLongestRunClear
 product:
 - Windows
 targetos: Windows

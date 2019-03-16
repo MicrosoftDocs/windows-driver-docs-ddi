@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Seek
-title: IPrinterScriptableStream::Seek
+title: IPrinterScriptableStream::Seek (printerextension.h)
 description: Sets the seek pointer.
 old-location: print\iprinterscriptablestream__seek.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptableStream.Seek
+- IPrinterScriptableStream.Seek
 product:
 - Windows
 targetos: Windows

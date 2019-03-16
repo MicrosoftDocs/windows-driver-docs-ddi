@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_STOPCAPTURE
-title: DXGKDDI_STOPCAPTURE
+title: DXGKDDI_STOPCAPTURE (d3dkmddi.h)
 description: The DxgkDdiStopCapture function stops the capture hardware from using the given allocation as a capture buffer.
 old-location: display\dxgkddistopcapture.htm
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiStopCapture
+- DxgkDdiStopCapture
 product:
 - Windows
 targetos: Windows

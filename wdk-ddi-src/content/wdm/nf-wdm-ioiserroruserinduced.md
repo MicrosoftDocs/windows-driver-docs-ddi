@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoIsErrorUserInduced
-title: IoIsErrorUserInduced macro
+title: IoIsErrorUserInduced macro (wdm.h)
 description: The IoIsErrorUserInduced routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
 old-location: kernel\ioiserroruserinduced.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoIsErrorUserInduced
+- IoIsErrorUserInduced
 product:
 - Windows
 targetos: Windows

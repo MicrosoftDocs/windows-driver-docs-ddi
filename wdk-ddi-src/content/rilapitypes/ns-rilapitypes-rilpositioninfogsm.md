@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFOGSM
-title: RILPOSITIONINFOGSM
+title: RILPOSITIONINFOGSM (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfogsm_2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFOGSM
+- RILPOSITIONINFOGSM
 product:
 - Windows
 targetos: Windows

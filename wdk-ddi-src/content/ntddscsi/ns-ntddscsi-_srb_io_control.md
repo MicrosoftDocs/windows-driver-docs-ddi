@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SRB_IO_CONTROL
-title: "_SRB_IO_CONTROL"
+title: _SRB_IO_CONTROL (ntddscsi.h)
 description: SRB_IO_CONTROL structure
 old-location: storage\srb_io_control.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	SRB_IO_CONTROL
+- SRB_IO_CONTROL
 product:
 - Windows
 targetos: Windows

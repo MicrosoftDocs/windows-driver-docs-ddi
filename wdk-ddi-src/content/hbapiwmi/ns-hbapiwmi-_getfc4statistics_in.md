@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC4Statistics_IN
-title: "_GetFC4Statistics_IN"
+title: _GetFC4Statistics_IN (hbapiwmi.h)
 description: The GetFC4Statistics_IN structure is used to pass input parameter data to the GetFC4Statistics WMI method.
 old-location: storage\getfc4statistics_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetFC4Statistics_IN
+- GetFC4Statistics_IN
 product:
 - Windows
 targetos: Windows

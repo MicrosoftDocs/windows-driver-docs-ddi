@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReuseCallbackData
-title: FltReuseCallbackData function
+title: FltReuseCallbackData function (fltkernel.h)
 description: The FltReuseCallbackData routine reinitializes a callback data structure so that it can be reused.
 old-location: ifsk\fltreusecallbackdata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReuseCallbackData
+- FltReuseCallbackData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETALLOCATIONPRIORITY
-title: "_D3DKMT_SETALLOCATIONPRIORITY"
+title: _D3DKMT_SETALLOCATIONPRIORITY (d3dkmthk.h)
 description: The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to.
 old-location: display\d3dkmt_setallocationpriority.htm
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SETALLOCATIONPRIORITY
+- D3DKMT_SETALLOCATIONPRIORITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
-title: DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
+title: DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO (d3dkmddi.h)
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: 64a1a8f4-afbc-4337-b809-9346c1171e0b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireFirstModeInfo
+- pfnAcquireFirstModeInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetIommuInterface
-title: IoGetIommuInterface function
+title: IoGetIommuInterface function (wdm.h)
 description: Retrieves a pointer to the interface that contains pointers to IOMMU routines.
 ms.assetid: 2b69dea5-3c7d-4bf8-a657-893749fbf23c
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	IoGetIommuInterface
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- IoGetIommuInterface
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

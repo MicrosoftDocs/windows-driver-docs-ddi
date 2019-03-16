@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReportResourceForDetection
-title: IoReportResourceForDetection function
+title: IoReportResourceForDetection function (ntddk.h)
 description: The IoReportResourceForDetection routine claims hardware resources in the configuration registry for a legacy device.
 old-location: kernel\ioreportresourcefordetection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportResourceForDetection
+- IoReportResourceForDetection
 product:
 - Windows
 targetos: Windows

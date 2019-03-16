@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYINFO
-title: "_DXGK_PRESENTMULTIPLANEOVERLAYINFO"
+title: _DXGK_PRESENTMULTIPLANEOVERLAYINFO (d3dkmddi.h)
 description: Specifies info on a VidPN input and an overlay plane to display.
 old-location: display\dxgk_presentmultiplaneoverlayinfo.htm
 ms.assetid: b9cc78f3-b8b5-4a54-87b2-321b75ed9a21
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_PRESENTMULTIPLANEOVERLAYINFO
+- DXGK_PRESENTMULTIPLANEOVERLAYINFO
 product:
 - Windows
 targetos: Windows

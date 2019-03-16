@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsMethodHandler
-title: KsMethodHandler function
+title: KsMethodHandler function (ks.h)
 description: The KsMethodHandler function handles methods requested through IOCTL_KS_METHOD. It works with all method identifiers defined by the sets. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksmethodhandler.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsMethodHandler
+- KsMethodHandler
 product:
 - Windows
 targetos: Windows

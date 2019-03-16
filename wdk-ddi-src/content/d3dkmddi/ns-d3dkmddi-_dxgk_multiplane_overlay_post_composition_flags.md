@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
+title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS (d3dkmddi.h)
 description: A structure containing the flags describing the transformations applied to an image.
 old-location: display\dxgk_multiplane_overlay_post_composition_flags.htm
 ms.assetid: F7791AB9-6D20-4560-A478-E30F08C6AC3A
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
+- DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 product:
 - Windows
 targetos: Windows

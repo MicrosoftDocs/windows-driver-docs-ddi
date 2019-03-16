@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_12
-title: KSPIN_DATAFLOW
+title: KSPIN_DATAFLOW (ks.h)
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_DATAFLOW
+- KSPIN_DATAFLOW
 product:
 - Windows
 targetos: Windows

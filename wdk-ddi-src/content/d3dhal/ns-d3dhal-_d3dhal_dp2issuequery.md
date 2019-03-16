@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ISSUEQUERY
-title: "_D3DHAL_DP2ISSUEQUERY"
+title: _D3DHAL_DP2ISSUEQUERY (d3dhal.h)
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2issuequery.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2ISSUEQUERY
+- D3DHAL_DP2ISSUEQUERY
 product:
 - Windows
 targetos: Windows

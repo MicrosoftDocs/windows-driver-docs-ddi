@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoDeleteDevice
-title: IoDeleteDevice function
+title: IoDeleteDevice function (wdm.h)
 description: The IoDeleteDevice routine removes a device object from the system, for example, when the underlying device is removed from the system.
 old-location: kernel\iodeletedevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDeleteDevice
+- IoDeleteDevice
 product:
 - Windows
 targetos: Windows

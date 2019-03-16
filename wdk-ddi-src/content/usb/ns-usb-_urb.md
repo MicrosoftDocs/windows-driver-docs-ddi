@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB
-title: "_URB"
+title: _URB (usb.h)
 description: The URB structure is used by USB client drivers to describe USB request blocks (URBs) that send requests to the USB driver stack. The URB structure defines a format for all possible commands that can be sent to a USB device.
 old-location: buses\urb.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	URB
+- URB
 product:
 - Windows
 targetos: Windows

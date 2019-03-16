@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestSetDataComplete
-title: NetRequestSetDataComplete function
+title: NetRequestSetDataComplete function (netrequest.h)
 description: Completes a set data (OID) request.
 tech.root: netvista
 ms.assetid: c0f1aea6-e748-4e42-97ca-d683b9da1281
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestSetDataComplete
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestSetDataComplete
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

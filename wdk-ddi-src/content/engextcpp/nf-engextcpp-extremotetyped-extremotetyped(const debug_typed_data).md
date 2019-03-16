@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA)
-title: ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA)
+title: ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA) (engextcpp.h)
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_debug_typed_data.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.ExtRemoteTyped
+- ExtRemoteTyped.ExtRemoteTyped
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

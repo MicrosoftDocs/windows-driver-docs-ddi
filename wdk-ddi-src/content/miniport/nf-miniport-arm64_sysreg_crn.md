@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.ARM64_SYSREG_CRN
-title: ARM64_SYSREG_CRN macro
+title: ARM64_SYSREG_CRN macro (miniport.h)
 description: Returns the CRn field for a given ARM system register encoding value. For more information, see the ARM Architecture Reference Manual.
 ms.assetid: e49773c3-d777-4f0b-b14f-1bd505f55f43
 ms.date: 09/20/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	miniport.h
+- miniport.h
 api_name: 
--	ARM64_SYSREG_CRN
+- ARM64_SYSREG_CRN
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

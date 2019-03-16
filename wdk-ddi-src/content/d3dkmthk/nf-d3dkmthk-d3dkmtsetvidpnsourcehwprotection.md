@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceHwProtection
-title: D3DKMTSetVidPnSourceHwProtection function
+title: D3DKMTSetVidPnSourceHwProtection function (d3dkmthk.h)
 description: Sets VidPn source hardware protection.
 ms.assetid: 33f3062e-347a-43ad-b261-4ef6505dbd31
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSetVidPnSourceHwProtection
+- D3DKMTSetVidPnSourceHwProtection
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

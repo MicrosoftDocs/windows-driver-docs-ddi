@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetRequestorProcessId
-title: WdfRequestGetRequestorProcessId function
+title: WdfRequestGetRequestorProcessId function (wdfrequest.h)
 description: The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\wdfrequestgetrequestorprocessid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfRequestGetRequestorProcessId
+- WdfRequestGetRequestorProcessId
 product:
 - Windows
 targetos: Windows

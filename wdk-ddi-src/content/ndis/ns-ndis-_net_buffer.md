@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER
-title: "_NET_BUFFER"
+title: _NET_BUFFER (ndis.h)
 description: The NET_BUFFER structure specifies data that is transmitted or received over the network.
 old-location: netvista\net_buffer.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER
+- NET_BUFFER
 product:
 - Windows
 targetos: Windows

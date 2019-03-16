@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetDeviceReservedExtension
-title: NdisGetDeviceReservedExtension function
+title: NdisGetDeviceReservedExtension function (ndis.h)
 description: The NdisGetDeviceReservedExtension function gets a pointer to the device extension that is associated with a device object.
 old-location: netvista\ndisgetdevicereservedextension.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetDeviceReservedExtension
+- NdisGetDeviceReservedExtension
 product:
 - Windows
 targetos: Windows

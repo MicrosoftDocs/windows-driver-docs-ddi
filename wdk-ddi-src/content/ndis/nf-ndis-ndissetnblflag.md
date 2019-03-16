@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetNblFlag
-title: NdisSetNblFlag macro
+title: NdisSetNblFlag macro (ndis.h)
 description: The NdisSetNblFlag macro sets a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: fb399afc-ff20-43aa-9c9c-7be525e61d1f
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NdisSetNblFlag
+- NdisSetNblFlag
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

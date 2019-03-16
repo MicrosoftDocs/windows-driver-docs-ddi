@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_LISTEN_STATE
-title: "_WDI_P2P_LISTEN_STATE"
+title: _WDI_P2P_LISTEN_STATE (wditypes.h)
 description: The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 old-location: netvista\wdi_p2p_listen_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_P2P_LISTEN_STATE
+- WDI_P2P_LISTEN_STATE
 product:
 - Windows
 targetos: Windows

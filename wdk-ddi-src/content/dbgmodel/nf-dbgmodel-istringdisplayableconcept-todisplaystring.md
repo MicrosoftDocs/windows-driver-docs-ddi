@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.ToDisplayString
-title: IStringDisplayableConcept::ToDisplayString
+title: IStringDisplayableConcept::ToDisplayString (dbgmodel.h)
 description: The ToDisplayString method is called whenever a client wishes to convert an object into a string to display (to console, in the UI, etc...).
 ms.assetid: e6823fca-e9c4-4e2a-8c0f-95bd9f7527e9
 ms.date: 10/05/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IStringDisplayableConcept.ToDisplayString
-product: Windows
+- IStringDisplayableConcept.ToDisplayString
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

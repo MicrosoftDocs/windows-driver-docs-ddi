@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY
-title: EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY
+title: EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY (wdfpdo.h)
 description: A bus driver's EvtDeviceResourceRequirementsQuery event callback function creates a resource requirements list that represents the device's required hardware resources.
 old-location: wdf\evtdeviceresourcerequirementsquery.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfpdo.h
+- Wdfpdo.h
 api_name:
--	EvtDeviceResourceRequirementsQuery
+- EvtDeviceResourceRequirementsQuery
 product:
 - Windows
 targetos: Windows

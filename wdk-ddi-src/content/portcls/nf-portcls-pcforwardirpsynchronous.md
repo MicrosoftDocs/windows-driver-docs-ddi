@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcForwardIrpSynchronous
-title: PcForwardIrpSynchronous function
+title: PcForwardIrpSynchronous function (portcls.h)
 description: The PcForwardIrpSynchronous function is used by IRP handlers to forward Plug and Play IRPs to the physical device object (PDO).
 old-location: audio\pcforwardirpsynchronous.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcForwardIrpSynchronous
+- PcForwardIrpSynchronous
 product:
 - Windows
 targetos: Windows

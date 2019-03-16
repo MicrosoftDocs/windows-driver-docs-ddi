@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelIterator.Reset
-title: IModelIterator::Reset
+title: IModelIterator::Reset (dbgmodel.h)
 description: The Reset method on an iterator returned from the iterable concept will restore the position of the iterator to where it was when the iterator was first created (before the first element). 
 ms.assetid: 53ee9efd-4581-4e1e-8fbe-385e7b137f64
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelIterator.Reset
-product: Windows
+- IModelIterator.Reset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

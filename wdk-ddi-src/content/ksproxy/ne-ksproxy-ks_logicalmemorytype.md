@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_5
-title: KS_LogicalMemoryType
+title: KS_LogicalMemoryType (ksproxy.h)
 description: 
 old-location: stream\ks_logicalmemorytype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	KS_LogicalMemoryType
+- KS_LogicalMemoryType
 product:
 - Windows
 targetos: Windows

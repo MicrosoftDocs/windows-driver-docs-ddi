@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCompleteRequest
-title: IoCompleteRequest macro
+title: IoCompleteRequest macro (wdm.h)
 description: The IoCompleteRequest routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 old-location: kernel\iocompleterequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCompleteRequest
+- IoCompleteRequest
 product:
 - Windows
 targetos: Windows

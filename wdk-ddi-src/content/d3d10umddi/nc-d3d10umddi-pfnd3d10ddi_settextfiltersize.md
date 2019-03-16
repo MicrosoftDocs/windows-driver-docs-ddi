@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETTEXTFILTERSIZE
-title: PFND3D10DDI_SETTEXTFILTERSIZE
+title: PFND3D10DDI_SETTEXTFILTERSIZE (d3d10umddi.h)
 description: The SetTextFilterSize function sets the width and height of the monochrome convolution filter.
 old-location: display\settextfiltersize.htm
 ms.assetid: 663fd3c3-7a8f-446d-b45a-392716116407
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetTextFilterSize
+- SetTextFilterSize
 product:
 - Windows
 targetos: Windows

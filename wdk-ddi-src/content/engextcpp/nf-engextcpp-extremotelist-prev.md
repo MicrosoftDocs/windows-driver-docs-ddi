@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.Prev
-title: ExtRemoteList::Prev
+title: ExtRemoteList::Prev (engextcpp.h)
 description: The Prev method changes the current item to the previous item in the list.
 old-location: debugger\extremotelist_prev.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteList.Prev
+- ExtRemoteList.Prev
 product:
 - Windows
 targetos: Windows

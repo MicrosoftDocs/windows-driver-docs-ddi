@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.VARENUM
-title: VARENUM
+title: VARENUM (ks.h)
 description: 
 old-location: stream\varenum.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	VARENUM
+- VARENUM
 product:
 - Windows
 targetos: Windows

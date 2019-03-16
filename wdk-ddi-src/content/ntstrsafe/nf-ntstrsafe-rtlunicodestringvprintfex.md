@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringVPrintfEx
-title: RtlUnicodeStringVPrintfEx function
+title: RtlUnicodeStringVPrintfEx function (ntstrsafe.h)
 description: The RtlUnicodeStringVPrintfEx function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvprintfex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlUnicodeStringVPrintfEx
+- RtlUnicodeStringVPrintfEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsDeviceFunctions.RegisterAdapterObjectEx
-title: IKsDeviceFunctions::RegisterAdapterObjectEx
+title: IKsDeviceFunctions::RegisterAdapterObjectEx (ks.h)
 description: The IKsDeviceFunctions::RegisterAdapterObjectEx method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of KsDeviceRegisterAdapterObject.
 old-location: stream\iksdevicefunctions_registeradapterobjectex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsDeviceFunctions.RegisterAdapterObjectEx
+- IKsDeviceFunctions.RegisterAdapterObjectEx
 product:
 - Windows
 targetos: Windows

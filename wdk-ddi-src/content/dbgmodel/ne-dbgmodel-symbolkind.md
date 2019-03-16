@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.SymbolKind
-title: SymbolKind
+title: SymbolKind (dbgmodel.h)
 description: Defines the kind of a symbol.
 ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	SymbolKind
-product: Windows
+- SymbolKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

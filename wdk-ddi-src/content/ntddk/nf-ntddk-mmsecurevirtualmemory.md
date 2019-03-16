@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmSecureVirtualMemory
-title: MmSecureVirtualMemory function
+title: MmSecureVirtualMemory function (ntddk.h)
 description: The MmSecureVirtualMemory routine secures a user-space memory address range so that it cannot be freed and its protection type cannot be made more restrictive.
 old-location: kernel\mmsecurevirtualmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmSecureVirtualMemory
+- MmSecureVirtualMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_RedirectSessionInfo
-title: "_ISCSI_RedirectSessionInfo"
+title: _ISCSI_RedirectSessionInfo (iscsimgt.h)
 description: This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 old-location: storage\iscsi_redirectsessioninfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	ISCSI_RedirectSessionInfo
+- ISCSI_RedirectSessionInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._SCO_DISCONNECT_REASON
-title: "_SCO_DISCONNECT_REASON"
+title: _SCO_DISCONNECT_REASON (bthddi.h)
 description: The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been disconnected.
 old-location: bltooth\sco_disconnect_reason.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	SCO_DISCONNECT_REASON
+- SCO_DISCONNECT_REASON
 product:
 - Windows
 targetos: Windows

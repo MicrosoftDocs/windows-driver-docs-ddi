@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoDecrementKeepAliveCount
-title: IoDecrementKeepAliveCount function
+title: IoDecrementKeepAliveCount function (ntddk.h)
 description: The IoDecrementKeepAliveCount routine decrements a reference count associated with an Windows app on a specific device.
 old-location: kernel\iodecrementkeepalivecount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	IoDecrementKeepAliveCount
+- IoDecrementKeepAliveCount
 product:
 - Windows
 targetos: Windows

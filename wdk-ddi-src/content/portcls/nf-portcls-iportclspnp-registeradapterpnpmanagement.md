@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsPnp.RegisterAdapterPnpManagement
-title: IPortClsPnp::RegisterAdapterPnpManagement
+title: IPortClsPnp::RegisterAdapterPnpManagement (portcls.h)
 description: The RegisterAdapterPowerManagement method registers the PnP management interface of the adapter with PortCls.
 old-location: audio\iportclspnp_registeradapterpnpmanagement.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsPnp.RegisterAdapterPnpManagement
+- IPortClsPnp.RegisterAdapterPnpManagement
 product:
 - Windows
 targetos: Windows

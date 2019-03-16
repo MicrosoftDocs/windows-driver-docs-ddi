@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CORE
-title: "_FEATURE_DATA_CORE"
+title: _FEATURE_DATA_CORE (ntddmmc.h)
 description: The FEATURE_DATA_CORE structure holds data for the Core feature descriptor.
 old-location: storage\feature_data_core.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_CORE
+- FEATURE_DATA_CORE
 product:
 - Windows
 targetos: Windows

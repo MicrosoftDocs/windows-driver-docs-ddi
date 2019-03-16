@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMStrokeAndFillPath
-title: OEMStrokeAndFillPath function
+title: OEMStrokeAndFillPath function (printoem.h)
 description: The OEMStrokeAndFillPath function concurrently strokes and fills a path.
 old-location: print\oemstrokeandfillpath.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMStrokeAndFillPath
+- OEMStrokeAndFillPath
 product:
 - Windows
 targetos: Windows

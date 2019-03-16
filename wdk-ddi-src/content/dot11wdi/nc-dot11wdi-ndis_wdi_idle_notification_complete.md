@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_IDLE_NOTIFICATION_COMPLETE
-title: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE
+title: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE (dot11wdi.h)
 description: Miniport drivers call NdisWdiIdleNotificationComplete callback function to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's MiniportWdiIdleNotification handler function.
 old-location: netvista\ndiswdiidlenotificationcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiIdleNotificationComplete
+- NdisWdiIdleNotificationComplete
 product:
 - Windows
 targetos: Windows

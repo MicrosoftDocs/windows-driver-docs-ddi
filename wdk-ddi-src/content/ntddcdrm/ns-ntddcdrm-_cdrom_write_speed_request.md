@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_WRITE_SPEED_REQUEST
-title: "_CDROM_WRITE_SPEED_REQUEST"
+title: _CDROM_WRITE_SPEED_REQUEST (ntddcdrm.h)
 description: The CDROM_WRITE_SPEED_REQUEST structure is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE IOCTL and for requesting write speed descriptors.
 old-location: storage\cdrom_write_speed_request.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdrm.h
+- Ntddcdrm.h
 api_name:
--	CDROM_WRITE_SPEED_REQUEST
+- CDROM_WRITE_SPEED_REQUEST
 product:
 - Windows
 targetos: Windows

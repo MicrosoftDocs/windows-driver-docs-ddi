@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_PACKET_FILTER_TYPES_FLAGS
-title: _NET_PACKET_FILTER_TYPES_FLAGS
+title: _NET_PACKET_FILTER_TYPES_FLAGS (netadapter.h)
 description: Specifies packet filters that control the types of packets the NIC completes on its receive path.
 tech.root: netvista
 ms.assetid: a701a508-aaf8-4272-bdb5-d5d57b33ae08
@@ -19,16 +19,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_FILTER_TYPES_FLAGS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_PACKET_FILTER_TYPES_FLAGS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_PACKET_FILTER_TYPES_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

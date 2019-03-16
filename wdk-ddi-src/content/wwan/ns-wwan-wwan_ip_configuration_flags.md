@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan.__unnamed_union_0
-title: WWAN_IP_CONFIGURATION_FLAGS
+title: WWAN_IP_CONFIGURATION_FLAGS (wwan.h)
 description: The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the availability of the IP address, gateway, DNS server, and/or MTU information of a PDP context.
 old-location: netvista\wwan_ip_configuration_flags.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_IP_CONFIGURATION_FLAGS
+- WWAN_IP_CONFIGURATION_FLAGS
 product:
 - Windows
 targetos: Windows

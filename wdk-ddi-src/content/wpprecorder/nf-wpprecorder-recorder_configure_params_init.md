@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.RECORDER_CONFIGURE_PARAMS_INIT
-title: RECORDER_CONFIGURE_PARAMS_INIT function
+title: RECORDER_CONFIGURE_PARAMS_INIT function (wpprecorder.h)
 description: The RECORDER_CONFIGURE_PARAMS_INIT function is used to initialize the RECORDER_CONFIGURE_PARAMS structure.
 old-location: devtest\recorder_configure_params_init.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	RECORDER_CONFIGURE_PARAMS_INIT
+- RECORDER_CONFIGURE_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

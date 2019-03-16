@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgStr
-title: ExtExtension::SetArgStr
+title: ExtExtension::SetArgStr (engextcpp.h)
 description: The SetArgStr method sets a named string argument for the current expression command.
 old-location: debugger\setargstr.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.SetArgStr
+- ExtExtension.SetArgStr
 product:
 - Windows
 targetos: Windows

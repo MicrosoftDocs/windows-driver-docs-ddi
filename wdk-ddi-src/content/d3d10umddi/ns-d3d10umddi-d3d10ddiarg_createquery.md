@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATEQUERY
-title: D3D10DDIARG_CREATEQUERY
+title: D3D10DDIARG_CREATEQUERY (d3d10umddi.h)
 description: The D3D10DDIARG_CREATEQUERY structure describes the query to create.
 old-location: display\d3d10ddiarg_createquery.htm
 ms.assetid: 1042f401-fbdd-47ee-8cfc-1bca331ac722
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_CREATEQUERY
+- D3D10DDIARG_CREATEQUERY
 product:
 - Windows
 targetos: Windows

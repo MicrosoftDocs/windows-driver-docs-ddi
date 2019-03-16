@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.FindProviderForScriptType
-title: IDataModelScriptManager::FindProviderForScriptType
+title: IDataModelScriptManager::FindProviderForScriptType (dbgmodel.h)
 description: The FindProviderForScriptExtension method searches the script manager for a provider which has claims to support a given file extension as indicated by the scriptExtension argument. 
 ms.assetid: e71aa49e-bb3d-4faf-a455-139888ff6e55
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptManager.FindProviderForScriptType
-product: Windows
+- IDataModelScriptManager.FindProviderForScriptType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

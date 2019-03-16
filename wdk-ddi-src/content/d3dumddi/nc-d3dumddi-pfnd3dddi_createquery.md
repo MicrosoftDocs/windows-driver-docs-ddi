@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEQUERY
-title: PFND3DDDI_CREATEQUERY
+title: PFND3DDDI_CREATEQUERY (d3dumddi.h)
 description: The CreateQuery function creates driver-side resources for a query that the Microsoft Direct3D runtime subsequently issues for processing.
 old-location: display\createquery.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CreateQuery
+- CreateQuery
 product:
 - Windows
 targetos: Windows

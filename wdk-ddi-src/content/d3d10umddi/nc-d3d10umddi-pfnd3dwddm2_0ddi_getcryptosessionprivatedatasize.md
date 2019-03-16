@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE
-title: PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE
+title: PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE (d3d10umddi.h)
 description: GetCryptoSessionPrivateDataSize retrieves sizes for optional private driver data.
 old-location: display\getcryptosessionprivatedatasize.htm
 ms.assetid: 1D135203-AA20-4D5D-A0F2-A53BDF5104C0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetCryptoSessionPrivateDataSize
+- pfnGetCryptoSessionPrivateDataSize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPIXELSHADER
-title: PFND3DDDI_SETPIXELSHADER
+title: PFND3DDDI_SETPIXELSHADER (d3dumddi.h)
 description: The SetPixelShader function sets a pixel shader to be used in all drawing operations.
 old-location: display\setpixelshader.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetPixelShader
+- SetPixelShader
 product:
 - Windows
 targetos: Windows

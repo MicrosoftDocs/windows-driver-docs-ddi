@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI2.HideStandardUI
-title: IPrintOemUI2::HideStandardUI
+title: IPrintOemUI2::HideStandardUI (prcomoem.h)
 description: The IPrintOemUI2::HideStandardUI method allows a user interface plug-in to specify whether the standard property sheets should be displayed or hidden.
 old-location: print\iprintoemui2_hidestandardui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI2.HideStandardUI
+- IPrintOemUI2.HideStandardUI
 product:
 - Windows
 targetos: Windows

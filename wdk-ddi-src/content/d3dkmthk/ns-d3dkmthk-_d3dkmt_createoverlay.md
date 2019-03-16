@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEOVERLAY
-title: "_D3DKMT_CREATEOVERLAY"
+title: _D3DKMT_CREATEOVERLAY (d3dkmthk.h)
 description: The D3DKMT_CREATEOVERLAY structure describes overlay hardware.
 old-location: display\d3dkmt_createoverlay.htm
 ms.assetid: b020b06c-72e2-4322-a5db-fcfc46db429e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEOVERLAY
+- D3DKMT_CREATEOVERLAY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferAndNetBufferList
-title: NdisAllocateNetBufferAndNetBufferList function
+title: NdisAllocateNetBufferAndNetBufferList function (ndis.h)
 description: Call the NdisAllocateNetBufferAndNetBufferList function to allocate and initialize a NET_BUFFER_LIST structure that is initialized with a preallocated NET_BUFFER structure.
 old-location: netvista\ndisallocatenetbufferandnetbufferlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateNetBufferAndNetBufferList
+- NdisAllocateNetBufferAndNetBufferList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYPROTECTEDSESSION
-title: "_D3DKMT_DESTROYPROTECTEDSESSION"
+title: _D3DKMT_DESTROYPROTECTEDSESSION (d3dkmthk.h)
 description: Holds information to destroy a protected session.
 old-location: display\d3dkmt-destroyprotectedsession.htm
 ms.assetid: 371e0353-3e4d-4688-95cf-d5f24b2ed7b3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYPROTECTEDSESSION
+- D3DKMT_DESTROYPROTECTEDSESSION
 product:
 - Windows
 targetos: Windows

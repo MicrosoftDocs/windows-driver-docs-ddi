@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SePrivilegeCheck
-title: SePrivilegeCheck function
+title: SePrivilegeCheck function (ntifs.h)
 description: The SePrivilegeCheck routine determines whether a specified set of privileges is enabled in the subject's access token.
 old-location: ifsk\seprivilegecheck.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SePrivilegeCheck
+- SePrivilegeCheck
 product:
 - Windows
 targetos: Windows

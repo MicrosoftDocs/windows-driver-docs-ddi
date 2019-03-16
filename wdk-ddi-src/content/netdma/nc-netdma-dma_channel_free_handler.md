@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_CHANNEL_FREE_HANDLER
-title: DMA_CHANNEL_FREE_HANDLER
+title: DMA_CHANNEL_FREE_HANDLER (netdma.h)
 description: The ProviderFreeDmaChannel function frees a DMA channel that the ProviderAllocateDmaChannel function previously allocated.
 old-location: netvista\providerfreedmachannel.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderFreeDmaChannel
+- ProviderFreeDmaChannel
 product:
 - Windows
 targetos: Windows

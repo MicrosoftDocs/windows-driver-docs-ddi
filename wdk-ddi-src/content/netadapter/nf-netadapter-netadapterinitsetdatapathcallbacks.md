@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterInitSetDatapathCallbacks
-title: NetAdapterInitSetDatapathCallbacks function
+title: NetAdapterInitSetDatapathCallbacks function (netadapter.h)
 description: The NetAdapterInitSetDatapathCallbacks method registers a NETADAPTER's callback functions for creating datapath packet queues.
 tech.root: netvista
 ms.assetid: eb6bb249-54ae-4aaf-afa0-a5aa68dd2606
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NetAdapterInitSetDatapathCallbacks
+- NetAdapterInitSetDatapathCallbacks
 product:
 - Windows
 targetos: Windows

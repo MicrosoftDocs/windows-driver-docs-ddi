@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.PowerAnalyzeTraceByFile
-title: IWDTFSystemAction2::PowerAnalyzeTraceByFile
+title: IWDTFSystemAction2::PowerAnalyzeTraceByFile (wdtfsystemaction.h)
 description: Analyzes a power trace session that has already been collected and stored in the associated trace message (.etl) log file. This method will only work on Windows 8 and above.
 old-location: dtf\iwdtfsystemaction2_poweranalyzetracebyfile.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.PowerAnalyzeTraceByFile
+- IWDTFSystemAction2.PowerAnalyzeTraceByFile
 product:
 - Windows
 targetos: Windows

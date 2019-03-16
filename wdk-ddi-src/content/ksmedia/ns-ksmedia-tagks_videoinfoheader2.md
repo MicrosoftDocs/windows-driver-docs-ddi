@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFOHEADER2
-title: tagKS_VIDEOINFOHEADER2
+title: tagKS_VIDEOINFOHEADER2 (ksmedia.h)
 description: The KS_VIDEOINFOHEADER2 structure describes the details of a video stream, including bob or weave settings, copy protection, and pixel aspect ratio.
 old-location: stream\ks_videoinfoheader2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_VIDEOINFOHEADER2
+- KS_VIDEOINFOHEADER2
 product:
 - Windows
 targetos: Windows

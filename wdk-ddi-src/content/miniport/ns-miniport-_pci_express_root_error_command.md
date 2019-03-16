@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_ERROR_COMMAND
-title: "_PCI_EXPRESS_ROOT_ERROR_COMMAND"
+title: _PCI_EXPRESS_ROOT_ERROR_COMMAND (miniport.h)
 description: The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_root_error_command.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_ROOT_ERROR_COMMAND
+- PCI_EXPRESS_ROOT_ERROR_COMMAND
 product:
 - Windows
 targetos: Windows

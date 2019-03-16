@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_TranslateUsagesToI8042ScanCodes
-title: HidP_TranslateUsagesToI8042ScanCodes function
+title: HidP_TranslateUsagesToI8042ScanCodes function (hidpi.h)
 description: The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 old-location: hid\hidp_translateusagestoi8042scancodes.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_TranslateUsagesToI8042ScanCodes
+- HidP_TranslateUsagesToI8042ScanCodes
 product:
 - Windows
 targetos: Windows

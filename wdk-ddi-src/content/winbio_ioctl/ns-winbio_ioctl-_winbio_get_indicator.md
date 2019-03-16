@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_GET_INDICATOR
-title: "_WINBIO_GET_INDICATOR"
+title: _WINBIO_GET_INDICATOR (winbio_ioctl.h)
 description: The WINBIO_GET_INDICATOR structure is the OUT payload for IOCTL_BIOMETRIC_GET_INDICATOR.
 old-location: biometric\winbio_get_indicator.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_GET_INDICATOR
+- WINBIO_GET_INDICATOR
 product:
 - Windows
 targetos: Windows

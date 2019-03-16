@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptions
-title: IPrintCoreUI2::GetOptions
+title: IPrintCoreUI2::GetOptions (prcomoem.h)
 description: The IPrintCoreUI2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreui2_getoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.GetOptions
+- IPrintCoreUI2.GetOptions
 product:
 - Windows
 targetos: Windows

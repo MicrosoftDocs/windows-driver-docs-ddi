@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_OBJECT
-title: "_DEVICE_OBJECT"
+title: _DEVICE_OBJECT (wdm.h)
 description: A device object represents a logical, virtual, or physical device for which a driver handles I/O requests.
 old-location: kernel\device_object.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_OBJECT
+- DEVICE_OBJECT
 product:
 - Windows
 targetos: Windows

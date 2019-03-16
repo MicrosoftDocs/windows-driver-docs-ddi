@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
-title: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function
+title: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function (wpprecorder.h)
 description: The RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER method initializes the RECORDER_LOG_CREATE_PARAMS with the pointer to link logs.
 old-location: devtest\recorder_log_create_params_init_append_pointer.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wpprecorder.h
+- wpprecorder.h
 api_name:
--	RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
+- RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCloseFile
-title: NdisCloseFile function
+title: NdisCloseFile function (ndis.h)
 description: The NdisCloseFile function releases a handle returned by the NdisOpenFile function and frees the memory allocated to hold the file contents when it was opened.
 old-location: netvista\ndisclosefile.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCloseFile
+- NdisCloseFile
 product:
 - Windows
 targetos: Windows

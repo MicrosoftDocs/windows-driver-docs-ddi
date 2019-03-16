@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_SOC_SUBSYSTEM_METADATA
-title: "_PEP_SOC_SUBSYSTEM_METADATA"
+title: _PEP_SOC_SUBSYSTEM_METADATA (pep_x.h)
 description: The PEP_SOC_SUBSYSTEM_METADATA structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification sent to a platform extension plug-in (PEP).
 old-location: kernel\pep_soc_subsystem_metadata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_SOC_SUBSYSTEM_METADATA
+- PEP_SOC_SUBSYSTEM_METADATA
 product:
 - Windows
 targetos: Windows

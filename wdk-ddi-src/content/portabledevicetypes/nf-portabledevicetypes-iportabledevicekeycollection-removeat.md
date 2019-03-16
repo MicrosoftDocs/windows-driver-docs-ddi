@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.RemoveAt
-title: IPortableDeviceKeyCollection::RemoveAt
+title: IPortableDeviceKeyCollection::RemoveAt (portabledevicetypes.h)
 description: Removes the element stored at the location specified by the given index.
 old-location: wpddk\iportabledevicekeycollection_removeat.htm
 tech.root: wpd_dk
@@ -26,17 +26,17 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceGUIDs.lib
--	PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
--	IPortableDeviceKeyCollection.RemoveAt
+- IPortableDeviceKeyCollection.RemoveAt
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

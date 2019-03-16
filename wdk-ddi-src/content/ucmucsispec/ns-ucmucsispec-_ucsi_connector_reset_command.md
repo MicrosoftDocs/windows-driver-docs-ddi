@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_CONNECTOR_RESET_COMMAND
-title: _UCSI_CONNECTOR_RESET_COMMAND
+title: _UCSI_CONNECTOR_RESET_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: Used in the CONNECTOR_RESET command. See Table 4-5.
 ms.assetid: 7bbeb5e9-00ed-4cba-b6d8-eada6c226855
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_CONNECTOR_RESET_COMMAND, *PUCSI_CONNECTOR_RESET_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_CONNECTOR_RESET_COMMAND
-product: Windows
+- _UCSI_CONNECTOR_RESET_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

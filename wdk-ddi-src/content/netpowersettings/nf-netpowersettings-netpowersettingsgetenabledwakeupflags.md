@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetEnabledWakeUpFlags
-title: NetPowerSettingsGetEnabledWakeUpFlags function
+title: NetPowerSettingsGetEnabledWakeUpFlags function (netpowersettings.h)
 description: Retrieves flags that specify currently enabled media-independent wake-up events that a network adapter supports.
 tech.root: netvista
 ms.assetid: 2b658690-0b0e-4b28-93c0-6540a2527c30
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetEnabledWakeUpFlags
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetEnabledWakeUpFlags
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

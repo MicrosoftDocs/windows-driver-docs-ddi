@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAttachDevice
-title: IoAttachDevice function
+title: IoAttachDevice function (wdm.h)
 description: The IoAttachDevice routine attaches the caller's device object to a named target device object, so that I/O requests bound for the target device are routed first to the caller.
 old-location: kernel\ioattachdevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAttachDevice
+- IoAttachDevice
 product:
 - Windows
 targetos: Windows

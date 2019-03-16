@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiInquiry_IN
-title: "_ScsiInquiry_IN"
+title: _ScsiInquiry_IN (iscsiop.h)
 description: The ScsiInquiry_IN structure holds the input data for the ScsiInquiry method, which is used to send a SCSI inquiry command.
 old-location: storage\scsiinquiry_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ScsiInquiry_IN
+- ScsiInquiry_IN
 product:
 - Windows
 targetos: Windows

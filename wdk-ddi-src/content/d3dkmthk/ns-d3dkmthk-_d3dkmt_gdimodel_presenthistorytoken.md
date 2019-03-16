@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
-title: "_D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN"
+title: _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI present-history operation.
 old-location: display\d3dkmt_gdimodel_presenthistorytoken.htm
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
+- D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN
 product:
 - Windows
 targetos: Windows

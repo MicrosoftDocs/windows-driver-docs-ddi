@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ErrorClass
-title: ErrorClass
+title: ErrorClass (dbgmodel.h)
 description: Defines the class of error which is being reported to the host.
 ms.assetid: 38a84d5f-14a9-4b7e-b484-a90738241972
 ms.date: 07/13/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ErrorClass
-product: Windows
+- ErrorClass
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

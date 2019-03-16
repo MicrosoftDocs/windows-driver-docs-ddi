@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetImageName
-title: IDebugHostModule2::GetImageName
+title: IDebugHostModule2::GetImageName (dbgmodel.h)
 description: The GetImageName method returns the image name of the module.
 ms.assetid: 1849fc25-812b-46dd-b4ec-1c027ec68c6d
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostModule2.GetImageName
-product: Windows
+- IDebugHostModule2.GetImageName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

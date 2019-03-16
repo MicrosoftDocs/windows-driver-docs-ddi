@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY
-title: D3DKMT_MULTIPLANE_OVERLAY
+title: D3DKMT_MULTIPLANE_OVERLAY (d3dkmthk.h)
 description: Multiplane overlay structure.
 ms.assetid: 91038ee5-1da1-49dc-bd26-3416dd550cd4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MULTIPLANE_OVERLAY
+- D3DKMT_MULTIPLANE_OVERLAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

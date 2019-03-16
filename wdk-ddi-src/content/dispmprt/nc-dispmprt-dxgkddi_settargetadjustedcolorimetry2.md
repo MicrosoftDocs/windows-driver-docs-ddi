@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
-title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
+title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 (dispmprt.h)
 description: Reports the colorimetry values selected by the OS for a target.
 ms.assetid: 6177791c-0854-4902-bcbb-d5a58676dbb4
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
+- DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

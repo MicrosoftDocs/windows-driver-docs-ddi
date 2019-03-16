@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_QUERY_HWCURSOR
-title: IDARG_OUT_QUERY_HWCURSOR
+title: IDARG_OUT_QUERY_HWCURSOR (iddcx.h)
 description: Gives information about the coordinates and shape of the current cursor.
 old-location: display\idarg_out_query_hwcursor.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_QUERY_HWCURSOR
+- IDARG_OUT_QUERY_HWCURSOR
 product:
 - Windows
 targetos: Windows

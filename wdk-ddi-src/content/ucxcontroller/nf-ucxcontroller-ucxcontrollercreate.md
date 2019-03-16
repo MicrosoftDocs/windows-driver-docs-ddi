@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerCreate
-title: UcxControllerCreate function
+title: UcxControllerCreate function (ucxcontroller.h)
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
 tech.root: usbref
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxcontroller.h
+- ucxcontroller.h
 api_name:
--	UcxControllerCreate
+- UcxControllerCreate
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

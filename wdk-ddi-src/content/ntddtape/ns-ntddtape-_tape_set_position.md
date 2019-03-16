@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_SET_POSITION
-title: "_TAPE_SET_POSITION"
+title: _TAPE_SET_POSITION (ntddtape.h)
 description: The TAPE_SET_POSITION structure is used in conjunction with the IOCTL_TAPE_SET_POSITION request to move the current position on the tape to the specified partition and offset.
 old-location: storage\tape_set_position.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddtape.h
+- ntddtape.h
 api_name:
--	TAPE_SET_POSITION
+- TAPE_SET_POSITION
 product:
 - Windows
 targetos: Windows

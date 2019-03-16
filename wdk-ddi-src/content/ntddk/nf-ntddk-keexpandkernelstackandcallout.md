@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeExpandKernelStackAndCallout
-title: KeExpandKernelStackAndCallout function
+title: KeExpandKernelStackAndCallout function (ntddk.h)
 description: The KeExpandKernelStackAndCallout routine calls a routine with a guaranteed amount of stack space.
 old-location: kernel\keexpandkernelstackandcallout.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeExpandKernelStackAndCallout
+- KeExpandKernelStackAndCallout
 product:
 - Windows
 targetos: Windows

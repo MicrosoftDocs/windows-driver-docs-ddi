@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATECONTEXT
-title: DXGKDDI_CREATECONTEXT
+title: DXGKDDI_CREATECONTEXT (d3dkmddi.h)
 description: The DxgkDdiCreateContext function creates a graphics processing unit (GPU) context.
 old-location: display\dxgkddicreatecontext.htm
 ms.assetid: aea21a36-f3d5-4541-bd2d-aa026668c562
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCreateContext
+- DxgkDdiCreateContext
 product:
 - Windows
 targetos: Windows

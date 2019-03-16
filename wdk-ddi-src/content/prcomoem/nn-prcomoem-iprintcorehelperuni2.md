@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreHelperUni2
-title: IPrintCoreHelperUni2
+title: IPrintCoreHelperUni2 (prcomoem.h)
 description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.
 old-location: print\iprintcorehelperuni2_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelperUni2
+- IPrintCoreHelperUni2
 product:
 - Windows
 targetos: Windows

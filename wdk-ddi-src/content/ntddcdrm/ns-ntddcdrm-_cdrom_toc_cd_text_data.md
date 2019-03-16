@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_CD_TEXT_DATA
-title: "_CDROM_TOC_CD_TEXT_DATA"
+title: _CDROM_TOC_CD_TEXT_DATA (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_CDTEXT return their output data in this structure followed by a series of descriptors of type CDROM_TOC_CD_TEXT_DATA_BLOCK.
 old-location: storage\cdrom_toc_cd_text_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_TOC_CD_TEXT_DATA
+- CDROM_TOC_CD_TEXT_DATA
 product:
 - Windows
 targetos: Windows

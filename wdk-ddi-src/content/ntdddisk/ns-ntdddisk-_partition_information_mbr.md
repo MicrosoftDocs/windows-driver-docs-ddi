@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_MBR
-title: "_PARTITION_INFORMATION_MBR"
+title: _PARTITION_INFORMATION_MBR (ntdddisk.h)
 description: PARTITION_INFORMATION_MBR contains information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition.
 old-location: storage\partition_information_mbr.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	PARTITION_INFORMATION_MBR
+- PARTITION_INFORMATION_MBR
 product:
 - Windows
 targetos: Windows

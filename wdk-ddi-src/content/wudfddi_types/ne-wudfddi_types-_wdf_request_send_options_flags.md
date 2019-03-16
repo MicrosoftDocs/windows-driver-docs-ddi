@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_SEND_OPTIONS_FLAGS
-title: "_WDF_REQUEST_SEND_OPTIONS_FLAGS"
+title: _WDF_REQUEST_SEND_OPTIONS_FLAGS (wudfddi_types.h)
 description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that a driver can specify when it calls IWDFIoRequest::Send.
 old-location: wdf\wdf_request_send_options_flags__umdf_.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_REQUEST_SEND_OPTIONS_FLAGS
+- WDF_REQUEST_SEND_OPTIONS_FLAGS
 product:
 - Windows
 targetos: Windows

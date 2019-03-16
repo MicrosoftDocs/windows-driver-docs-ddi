@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetDescription
-title: IDataModelScriptTemplate::GetDescription
+title: IDataModelScriptTemplate::GetDescription (dbgmodel.h)
 description: The GetDescription method returns a description of the template. 
 ms.assetid: 1335191d-ca6c-4f68-80c1-a0116944f8c8
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplate.GetDescription
-product: Windows
+- IDataModelScriptTemplate.GetDescription
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

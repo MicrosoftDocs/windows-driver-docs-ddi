@@ -1,6 +1,6 @@
 ---
 UID: NF:ks._KsEdit
-title: "_KsEdit function"
+title: _KsEdit function (ks.h)
 description: The _KsEdit function guarantees that a given item is dynamically allocated and associated with an AVStream object through the object bag.
 old-location: stream\_ksedit.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	_KsEdit
+- _KsEdit
 product:
 - Windows
 targetos: Windows

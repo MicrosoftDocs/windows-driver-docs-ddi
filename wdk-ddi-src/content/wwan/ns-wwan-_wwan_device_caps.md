@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_CAPS
-title: "_WWAN_DEVICE_CAPS"
+title: _WWAN_DEVICE_CAPS (wwan.h)
 description: The WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 old-location: netvista\wwan_device_caps.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_CAPS
+- WWAN_DEVICE_CAPS
 product:
 - Windows
 targetos: Windows

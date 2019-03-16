@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
-title: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"
+title: _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 (d3dkmddi.h)
 description: Used by new drivers to report per-plane flip completion after a VSYNC.
 old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
 ms.assetid: CC1371C5-1BAB-458C-BC7F-9844B2BBEA3A
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
+- DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 product:
 - Windows
 targetos: Windows

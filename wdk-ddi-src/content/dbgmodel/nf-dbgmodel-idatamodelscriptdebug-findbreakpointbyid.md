@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.FindBreakpointById
-title: IDataModelScriptDebug::FindBreakpointById
+title: IDataModelScriptDebug::FindBreakpointById (dbgmodel.h)
 description: Each breakpoint which is created within the script via the SetBreakpoint method is assigned a unique identifier (a 64-bit unsigned integer) by the implementation.
 ms.assetid: 138bcb48-3c97-4633-9922-75d37e774027
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug.FindBreakpointById
-product: Windows
+- IDataModelScriptDebug.FindBreakpointById
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

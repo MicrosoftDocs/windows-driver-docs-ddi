@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNormalizeNtstatus~r1
-title: FsRtlNormalizeNtstatus function
+title: FsRtlNormalizeNtstatus function (ntifs.h)
 description: The FsRtlNormalizeNtstatus routine translates an arbitrary exception into a status value that is handled by the exception filter.
 old-location: ifsk\fsrtlnormalizentstatus.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlNormalizeNtstatus
+- FsRtlNormalizeNtstatus
 product:
 - Windows
 targetos: Windows

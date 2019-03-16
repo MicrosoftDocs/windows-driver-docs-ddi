@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.IsCollectionListSame
-title: IsCollectionListSame function
+title: IsCollectionListSame function (sensorsutils.h)
 description: This routine compares two collection lists to see if they are the same.
 ms.assetid: 5bbf7dfc-b18a-4d4e-9297-4b1ffdcc1d12
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	IsCollectionListSame
+- IsCollectionListSame
 product:
  - Windows
 targetos: Windows

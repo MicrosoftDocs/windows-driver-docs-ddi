@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerGetMdl
-title: KsStreamPointerGetMdl function
+title: KsStreamPointerGetMdl function (ks.h)
 description: The KsStreamPointerGetMdl function returns the MDL associated with the frame referenced by StreamPointer.
 old-location: stream\ksstreampointergetmdl.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerGetMdl
+- KsStreamPointerGetMdl
 product:
 - Windows
 targetos: Windows

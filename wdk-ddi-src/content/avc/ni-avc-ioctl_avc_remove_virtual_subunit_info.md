@@ -1,6 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
-title: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
+title: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO (avc.h)
 description: The IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO I/O control code controls the enumeration of virtual subunits.
 old-location: stream\ioctl_avc_remove_virtual_subunit_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
+- IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
 product:
 - Windows
 targetos: Windows

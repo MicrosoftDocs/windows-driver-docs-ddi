@@ -1,6 +1,6 @@
 ---
 UID: NS:vpci._VPCI_INVALIDATE_BLOCK_OUTPUT
-title: "_VPCI_INVALIDATE_BLOCK_OUTPUT"
+title: _VPCI_INVALIDATE_BLOCK_OUTPUT (vpci.h)
 description: The VPCI_INVALIDATE_BLOCK_OUTPUT structure is used in an IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request.
 old-location: kernel\vpci_invalidate_block_output.htm
 tech.root: pci
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	VPCI_INVALIDATE_BLOCK_OUTPUT
+- VPCI_INVALIDATE_BLOCK_OUTPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_UNLOAD_KEY_INFORMATION
-title: "_REG_UNLOAD_KEY_INFORMATION"
+title: _REG_UNLOAD_KEY_INFORMATION (wdm.h)
 description: The REG_UNLOAD_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry hive is unloaded.
 old-location: kernel\reg_unload_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_UNLOAD_KEY_INFORMATION
+- REG_UNLOAD_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

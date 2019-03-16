@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_MONITORARRIVAL
-title: IDARG_OUT_MONITORARRIVAL
+title: IDARG_OUT_MONITORARRIVAL (iddcx.h)
 description: Gives information about the monitor that is exposed to the OS.
 old-location: display\idarg_out_monitorarrival.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_MONITORARRIVAL
+- IDARG_OUT_MONITORARRIVAL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_PAUSE
-title: FN_VMB_CHANNEL_PAUSE
+title: FN_VMB_CHANNEL_PAUSE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelPause function moves a channel into the paused state, which prevents new I/O.
 tech.root: netvista
 ms.assetid: 9e6f55f0-c12d-430f-be21-3885ed819288
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_PAUSE
+- FN_VMB_CHANNEL_PAUSE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

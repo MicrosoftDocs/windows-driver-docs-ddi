@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPinFactory
-title: IKsPinFactory
+title: IKsPinFactory (ksproxy.h)
 description: The IKsPinFactory interface provides a method that retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	IKsPinFactory
+- IKsPinFactory
 product:
 - Windows
 targetos: Windows

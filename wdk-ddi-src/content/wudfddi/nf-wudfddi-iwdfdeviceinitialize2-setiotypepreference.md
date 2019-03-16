@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize2.SetIoTypePreference
-title: IWDFDeviceInitialize2::SetIoTypePreference
+title: IWDFDeviceInitialize2::SetIoTypePreference (wudfddi.h)
 description: The SetIoTypePreference method specifies your preferences for how UMDF and the driver access the data buffers of a device's I/O requests.
 old-location: wdf\iwdfdeviceinitialize2_setiotypepreference.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize2.SetIoTypePreference
+- IWDFDeviceInitialize2.SetIoTypePreference
 product:
 - Windows
 targetos: Windows

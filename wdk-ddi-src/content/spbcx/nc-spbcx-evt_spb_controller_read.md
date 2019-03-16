@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_READ
-title: EVT_SPB_CONTROLLER_READ
+title: EVT_SPB_CONTROLLER_READ (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoRead event callback function reads data from the specified target device into the buffers that are supplied with the read request.
 old-location: spb\evtspbcontrollerioread.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	EvtSpbControllerIoRead
+- EvtSpbControllerIoRead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENT_MULTIPLANE_OVERLAY
-title: "_D3DDDI_PRESENT_MULTIPLANE_OVERLAY"
+title: _D3DDDI_PRESENT_MULTIPLANE_OVERLAY (d3dumddi.h)
 description: Specifies an overlay plane to display.
 old-location: display\d3dddi_present_multiplane_overlay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_PRESENT_MULTIPLANE_OVERLAY
+- D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 product:
 - Windows
 targetos: Windows

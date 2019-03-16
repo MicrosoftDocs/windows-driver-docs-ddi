@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool.__unnamed_struct_0
-title: PrintPropertyValue
+title: PrintPropertyValue (winspool.h)
 description: Describes the PrintPropertyValue structure.
 old-location: print\printpropertyvalue.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winspool.h
+- Winspool.h
 api_name:
--	PrintPropertyValue
+- PrintPropertyValue
 product:
 - Windows
 targetos: Windows

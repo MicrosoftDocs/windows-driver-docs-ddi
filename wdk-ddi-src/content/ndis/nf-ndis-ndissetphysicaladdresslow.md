@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetPhysicalAddressLow
-title: NdisSetPhysicalAddressLow macro
+title: NdisSetPhysicalAddressLow macro (ndis.h)
 description: NdisSetPhysicalAddressLow sets the low-order part of a given physical address to a given value.
 old-location: netvista\ndissetphysicaladdresslow.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisSetPhysicalAddressLow
+- NdisSetPhysicalAddressLow
 product:
 - Windows
 targetos: Windows

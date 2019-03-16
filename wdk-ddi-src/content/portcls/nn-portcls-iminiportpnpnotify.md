@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportPnpNotify
-title: IMiniportPnpNotify
+title: IMiniportPnpNotify (portcls.h)
 description: IMiniportPnpNotify is an optional interface to allow miniport objects (audio subdevices) to receive PnP state change notifications.
 old-location: audio\iminiportpnpnotify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportPnpNotify
+- IMiniportPnpNotify
 product:
 - Windows
 targetos: Windows

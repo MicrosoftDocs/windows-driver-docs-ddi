@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CHECKCOUNTER
-title: PFND3D10DDI_CHECKCOUNTER
+title: PFND3D10DDI_CHECKCOUNTER (d3d10umddi.h)
 description: The CheckCounter function retrieves information that describes a counter.
 old-location: display\checkcounter.htm
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CheckCounter
+- CheckCounter
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OID_REQUEST
-title: "_NDIS_OID_REQUEST"
+title: _NDIS_OID_REQUEST (ndis.h)
 description: To query or set OID information, NDIS submits NDIS_OID_REQUEST structures to filter drivers and miniport drivers.
 old-location: netvista\ndis_oid_request.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_OID_REQUEST
+- NDIS_OID_REQUEST
 product:
 - Windows
 targetos: Windows

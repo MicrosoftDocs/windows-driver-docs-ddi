@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroySynchronizationObject
-title: D3DKMTDestroySynchronizationObject function
+title: D3DKMTDestroySynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTDestroySynchronizationObject function destroys a kernel-mode synchronization object.
 old-location: display\d3dkmtdestroysynchronizationobject.htm
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroySynchronizationObject
+- D3DKMTDestroySynchronizationObject
 product:
 - Windows
 targetos: Windows

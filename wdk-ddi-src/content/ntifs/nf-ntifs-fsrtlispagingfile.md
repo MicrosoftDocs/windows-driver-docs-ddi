@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsPagingFile
-title: FsRtlIsPagingFile function
+title: FsRtlIsPagingFile function (ntifs.h)
 description: The FsRtlIsPagingFile routine determines whether a given file is a paging file.
 old-location: ifsk\fsrtlispagingfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsPagingFile
+- FsRtlIsPagingFile
 product:
 - Windows
 targetos: Windows

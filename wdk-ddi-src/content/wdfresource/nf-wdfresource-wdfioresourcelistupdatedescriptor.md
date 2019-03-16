@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListUpdateDescriptor
-title: WdfIoResourceListUpdateDescriptor function
+title: WdfIoResourceListUpdateDescriptor function (wdfresource.h)
 description: The WdfIoResourceListUpdateDescriptor method updates a resource descriptor in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistupdatedescriptor.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoResourceListUpdateDescriptor
+- WdfIoResourceListUpdateDescriptor
 product:
 - Windows
 targetos: Windows

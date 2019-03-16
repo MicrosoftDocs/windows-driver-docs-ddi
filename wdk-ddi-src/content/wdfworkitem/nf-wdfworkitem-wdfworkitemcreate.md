@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfworkitem.WdfWorkItemCreate
-title: WdfWorkItemCreate function
+title: WdfWorkItemCreate function (wdfworkitem.h)
 description: The WdfWorkItemCreate method creates a framework work-item object, which can subsequently be added to the system's work-item queue.
 old-location: wdf\wdfworkitemcreate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfWorkItemCreate
+- WdfWorkItemCreate
 product:
 - Windows
 targetos: Windows

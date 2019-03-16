@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRealSuccessor
-title: RtlRealSuccessor function
+title: RtlRealSuccessor function (ntddk.h)
 description: The RtlRealSuccessor routine returns a pointer to the successor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealsuccessor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlRealSuccessor
+- RtlRealSuccessor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DMATERIALCOLORSOURCE
-title: _D3DMATERIALCOLORSOURCE
+title: _D3DMATERIALCOLORSOURCE (d3d9types.h)
 description: 
 ms.assetid: 46d90afd-3ec6-41b8-aae6-f8b9daddd121
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DMATERIALCOLORSOURCE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DMATERIALCOLORSOURCE
+- _D3DMATERIALCOLORSOURCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

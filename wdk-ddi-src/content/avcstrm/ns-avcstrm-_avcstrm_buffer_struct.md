@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_BUFFER_STRUCT
-title: "_AVCSTRM_BUFFER_STRUCT"
+title: _AVCSTRM_BUFFER_STRUCT (avcstrm.h)
 description: The AVCSTRM_BUFFER_STRUCT structure describes a buffer to be submitted to avcstrm.sys for read or write operations.
 old-location: stream\avcstrm_buffer_struct.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVCSTRM_BUFFER_STRUCT
+- AVCSTRM_BUFFER_STRUCT
 product:
 - Windows
 targetos: Windows

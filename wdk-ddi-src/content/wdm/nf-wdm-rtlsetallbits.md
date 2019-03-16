@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSetAllBits
-title: RtlSetAllBits function
+title: RtlSetAllBits function (wdm.h)
 description: The RtlSetAllBits routine sets all bits in a given bitmap variable.
 old-location: kernel\rtlsetallbits.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlSetAllBits
+- RtlSetAllBits
 product:
 - Windows
 targetos: Windows

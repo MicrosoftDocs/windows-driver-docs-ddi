@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFileNameInformation
-title: FltGetFileNameInformation function
+title: FltGetFileNameInformation function (fltkernel.h)
 description: The FltGetFileNameInformation routine returns name information for a file or directory.
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetFileNameInformation
+- FltGetFileNameInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpFreeTree
-title: SdpFreeTree function
+title: SdpFreeTree function (sdplib.h)
 description: The Bluetooth SdpFreeTree function is used to free the memory allocated for the tree-based representation of an SDP record.
 old-location: bltooth\sdpfreetree.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpFreeTree
+- SdpFreeTree
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VALIDATESUBMITCOMMAND
-title: DXGKDDI_VALIDATESUBMITCOMMAND
+title: DXGKDDI_VALIDATESUBMITCOMMAND (d3dkmddi.h)
 description: Validates private driver data, which is passed by user mode driver in D3DKMTSubmitCommand or D3DKMTSubmitCommandToHwQueue.
 ms.assetid: bc83b8eb-da96-49f3-8462-1cd0838ba03d
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKDDI_VALIDATESUBMITCOMMAND
+- DXGKDDI_VALIDATESUBMITCOMMAND
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

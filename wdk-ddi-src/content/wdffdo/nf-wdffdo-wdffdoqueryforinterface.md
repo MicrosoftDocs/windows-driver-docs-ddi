@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoQueryForInterface
-title: WdfFdoQueryForInterface function
+title: WdfFdoQueryForInterface function (wdffdo.h)
 description: The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface.
 old-location: wdf\wdffdoqueryforinterface.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfFdoQueryForInterface
+- WdfFdoQueryForInterface
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetKey
-title: IModelKeyReference2::GetKey
+title: IModelKeyReference2::GetKey (dbgmodel.h)
 description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would. 
 ms.assetid: edcad7fa-c729-4d9b-b083-c350e346ac50
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference2.GetKey
-product: Windows
+- IModelKeyReference2.GetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

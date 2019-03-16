@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-title: "_D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE"
+title: _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: A structure holding information to submit a signal to the hardware queue.
 old-location: display\d3dkmt_submitsignalsyncobjectstohwqueue.htm
 ms.assetid: BD192367-4960-4FD9-867F-02263AC93A61
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
+- D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PBUILD_MDL_FROM_SCATTER_GATHER_LIST
-title: PBUILD_MDL_FROM_SCATTER_GATHER_LIST
+title: PBUILD_MDL_FROM_SCATTER_GATHER_LIST (wdm.h)
 description: The BuildMdlFromScatterGatherList routine builds an MDL from a scatter/gather list allocated by the system.Note  This routine is reserved for system use.
 old-location: kernel\buildmdlfromscattergatherlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	BuildMdlFromScatterGatherList
+- BuildMdlFromScatterGatherList
 product:
 - Windows
 targetos: Windows

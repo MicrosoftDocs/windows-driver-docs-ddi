@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryEaFile
-title: FltQueryEaFile function
+title: FltQueryEaFile function (fltkernel.h)
 description: FltQueryEaFile returns information about extended-attribute (EA) values for a file.
 old-location: ifsk\fltqueryeafile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueryEaFile
+- FltQueryEaFile
 product:
 - Windows
 targetos: Windows

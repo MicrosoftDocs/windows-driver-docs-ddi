@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_3
-title: UFS_GEOMETRY_DESCRIPTOR
+title: UFS_GEOMETRY_DESCRIPTOR (ufs.h)
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.
 old-location: storage\ufs_geometry_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_GEOMETRY_DESCRIPTOR
+- UFS_GEOMETRY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

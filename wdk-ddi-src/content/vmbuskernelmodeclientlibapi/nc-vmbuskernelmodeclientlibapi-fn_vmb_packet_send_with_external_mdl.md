@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
-title: FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
+title: FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketSendWithExternalMdl function sends the data in a packet buffer or external data Memory Descriptor List (MDL).
 tech.root: netvista
 ms.assetid: 16ce438f-bcff-4b13-a6f1-fdaf3abc9e27
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
+- FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
-title: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
+title: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS (ndis.h)
 description: The ReportFilteredNetBufferLists function reports on one or more network packets that were dropped or excluded from port delivery by the extensible switch extension. Each network packet is defined through a NET_BUFFER_LIST structure.
 old-location: netvista\reportfilterednetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ReportFilteredNetBufferLists
+- ReportFilteredNetBufferLists
 product:
 - Windows
 targetos: Windows

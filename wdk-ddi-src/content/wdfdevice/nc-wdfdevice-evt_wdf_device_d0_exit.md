@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_D0_EXIT
-title: EVT_WDF_DEVICE_D0_EXIT
+title: EVT_WDF_DEVICE_D0_EXIT (wdfdevice.h)
 description: A driver's EvtDeviceD0Exit event callback function performs operations that are needed when the driver's device leaves the D0 power state.
 old-location: wdf\evtdeviced0exit.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceD0Exit
+- EvtDeviceD0Exit
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueAssignForwardProgressPolicy
-title: WdfIoQueueAssignForwardProgressPolicy function
+title: WdfIoQueueAssignForwardProgressPolicy function (wdfio.h)
 description: The WdfIoQueueAssignForwardProgressPolicy method enables the framework's ability to guarantee forward progress for a specified I/O queue.
 old-location: wdf\wdfioqueueassignforwardprogresspolicy.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoQueueAssignForwardProgressPolicy
+- WdfIoQueueAssignForwardProgressPolicy
 product:
 - Windows
 targetos: Windows

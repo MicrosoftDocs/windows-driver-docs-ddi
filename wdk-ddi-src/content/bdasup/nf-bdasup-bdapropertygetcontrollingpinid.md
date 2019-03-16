@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyGetControllingPinId
-title: BdaPropertyGetControllingPinId function
+title: BdaPropertyGetControllingPinId function (bdasup.h)
 description: The BdaPropertyGetControllingPinId function retrieves the identifier of a pin on which to control the properties, methods, and events of a specific node.
 old-location: stream\bdapropertygetcontrollingpinid.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyGetControllingPinId
+- BdaPropertyGetControllingPinId
 product:
 - Windows
 targetos: Windows

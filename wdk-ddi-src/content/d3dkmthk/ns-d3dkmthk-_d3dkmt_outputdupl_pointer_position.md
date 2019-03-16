@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_POINTER_POSITION
-title: _D3DKMT_OUTPUTDUPL_POINTER_POSITION
+title: _D3DKMT_OUTPUTDUPL_POINTER_POSITION (d3dkmthk.h)
 description: Contains output duplicate pointer position info.
 ms.assetid: ad8886da-0b6e-4dec-afef-6c558f5a234b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OUTPUTDUPL_POINTER_POSITION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_OUTPUTDUPL_POINTER_POSITION
+- _D3DKMT_OUTPUTDUPL_POINTER_POSITION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

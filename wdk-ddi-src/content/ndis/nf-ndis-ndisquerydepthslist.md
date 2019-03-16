@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisQueryDepthSList
-title: NdisQueryDepthSList macro
+title: NdisQueryDepthSList macro (ndis.h)
 description: The NdisQueryDepthSList function returns the current number of entries in a given sequenced, singly linked list.
 old-location: netvista\ndisquerydepthslist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisQueryDepthSList
+- NdisQueryDepthSList
 product:
 - Windows
 targetos: Windows

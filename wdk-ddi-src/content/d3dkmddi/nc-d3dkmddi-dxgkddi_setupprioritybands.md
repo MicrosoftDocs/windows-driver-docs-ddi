@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETUPPRIORITYBANDS
-title: DXGKDDI_SETUPPRIORITYBANDS
+title: DXGKDDI_SETUPPRIORITYBANDS (d3dkmddi.h)
 description: Set up the GPU scheduler priority band configuration, after adapter startup and before scheduling the first GPU work item.
 ms.assetid: c655afa4-9c1a-4c25-995f-1d1762ef0b6c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETUPPRIORITYBANDS
+- DXGKDDI_SETUPPRIORITYBANDS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

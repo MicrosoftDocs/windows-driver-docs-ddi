@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IServiceSink
-title: IServiceSink
+title: IServiceSink (portcls.h)
 description: The IServiceSink interface encapsulates handling of a service request.
 old-location: audio\iservicesink.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceSink
+- IServiceSink
 product:
 - Windows
 targetos: Windows

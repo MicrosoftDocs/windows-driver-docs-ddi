@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOPROCESSOR_0021
-title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021
+title: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 (d3d12umddi.h)
 description: The pfnCreateVideoProcessor callback function creates a video processor.
 old-location: display\pfnd3d12ddi_createvideoprocessor.htm
 ms.assetid: 4F1AA75F-DDC7-490B-8CE2-590691991234
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnCreateVideoProcessor
+- pfnCreateVideoProcessor
 product:
 - Windows
 targetos: Windows

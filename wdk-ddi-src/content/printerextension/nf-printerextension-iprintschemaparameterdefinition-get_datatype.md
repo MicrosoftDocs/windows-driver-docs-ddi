@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_DataType
-title: IPrintSchemaParameterDefinition::get_DataType
+title: IPrintSchemaParameterDefinition::get_DataType (printerextension.h)
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_datatype.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition.DataType
--	IPrintSchemaParameterDefinition.get_DataType
+- IPrintSchemaParameterDefinition.DataType
+- IPrintSchemaParameterDefinition.get_DataType
 product:
 - Windows
 targetos: Windows

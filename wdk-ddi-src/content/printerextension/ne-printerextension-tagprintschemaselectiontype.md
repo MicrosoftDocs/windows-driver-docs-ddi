@@ -1,6 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintSchemaSelectionType
-title: tagPrintSchemaSelectionType
+title: tagPrintSchemaSelectionType (printerextension.h)
 description: The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document.
 old-location: print\printschemaselectiontype.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	PrintSchemaSelectionType
+- PrintSchemaSelectionType
 product:
 - Windows
 targetos: Windows

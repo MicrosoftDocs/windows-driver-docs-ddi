@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceValues
-title: IPortableDeviceValues
+title: IPortableDeviceValues (portabledevicetypes.h)
 description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
 old-location: wpddk\iportabledevicevalues.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues
+- IPortableDeviceValues
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

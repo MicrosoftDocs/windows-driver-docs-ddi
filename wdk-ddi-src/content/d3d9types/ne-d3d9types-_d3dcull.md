@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DCULL
-title: _D3DCULL
+title: _D3DCULL (d3d9types.h)
 description: 
 ms.assetid: f22fb406-d3b5-4965-9a5a-dbac6560e30e
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DCULL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DCULL
+- _D3DCULL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

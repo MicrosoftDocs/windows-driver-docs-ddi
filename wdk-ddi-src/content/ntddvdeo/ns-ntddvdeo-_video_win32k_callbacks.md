@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS
-title: "_VIDEO_WIN32K_CALLBACKS"
+title: _VIDEO_WIN32K_CALLBACKS (ntddvdeo.h)
 description: The VIDEO_WIN32K_CALLBACKS structure is reserved for system use.
 old-location: display\video_win32k_callbacks.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_WIN32K_CALLBACKS
+- VIDEO_WIN32K_CALLBACKS
 product:
 - Windows
 targetos: Windows

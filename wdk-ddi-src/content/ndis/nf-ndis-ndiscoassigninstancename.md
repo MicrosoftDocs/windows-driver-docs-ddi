@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCoAssignInstanceName
-title: NdisCoAssignInstanceName function
+title: NdisCoAssignInstanceName function (ndis.h)
 description: NdisCoAssignInstanceName assigns an instance name to a VC and causes NDIS to register a GUID (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 old-location: netvista\ndiscoassigninstancename.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCoAssignInstanceName
+- NdisCoAssignInstanceName
 product:
 - Windows
 targetos: Windows

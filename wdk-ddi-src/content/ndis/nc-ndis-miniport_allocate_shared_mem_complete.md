@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE
-title: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE
+title: MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE (ndis.h)
 description: NDIS calls a miniport driver's MiniportSharedMemoryAllocateComplete function to complete a shared memory allocation request that the miniport driver started by calling the NdisMAllocateSharedMemoryAsyncEx function.
 old-location: netvista\miniportsharedmemoryallocatecomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportSharedMemoryAllocateComplete
+- MiniportSharedMemoryAllocateComplete
 product:
 - Windows
 targetos: Windows

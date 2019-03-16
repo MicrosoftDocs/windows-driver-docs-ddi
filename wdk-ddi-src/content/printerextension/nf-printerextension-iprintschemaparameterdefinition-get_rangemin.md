@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMin
-title: IPrintSchemaParameterDefinition::get_RangeMin
+title: IPrintSchemaParameterDefinition::get_RangeMin (printerextension.h)
 description: The RangeMin property gets the minimum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition.RangeMin
--	IPrintSchemaParameterDefinition.get_RangeMin
+- IPrintSchemaParameterDefinition.RangeMin
+- IPrintSchemaParameterDefinition.get_RangeMin
 product:
 - Windows
 targetos: Windows

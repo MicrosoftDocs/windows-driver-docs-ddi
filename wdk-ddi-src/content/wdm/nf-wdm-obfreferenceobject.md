@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObfReferenceObject
-title: ObfReferenceObject function
+title: ObfReferenceObject function (wdm.h)
 description: The ObReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReferenceObject
--	ObfReferenceObject
+- ObReferenceObject
+- ObfReferenceObject
 product:
 - Windows
 targetos: Windows

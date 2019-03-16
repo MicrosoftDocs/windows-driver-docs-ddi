@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRegisterProtocolDriver
-title: NdisRegisterProtocolDriver function
+title: NdisRegisterProtocolDriver function (ndis.h)
 description: A protocol driver calls the NdisRegisterProtocolDriver function to register its ProtocolXxx functions with NDIS.
 old-location: netvista\ndisregisterprotocoldriver.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisRegisterProtocolDriver
+- NdisRegisterProtocolDriver
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfqueryinterface._WDF_QUERY_INTERFACE_CONFIG
-title: "_WDF_QUERY_INTERFACE_CONFIG"
+title: _WDF_QUERY_INTERFACE_CONFIG (wdfqueryinterface.h)
 description: The WDF_QUERY_INTERFACE_CONFIG structure describes a driver-defined interface.
 old-location: wdf\wdf_query_interface_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfqueryinterface.h
+- Wdfqueryinterface.h
 api_name:
--	WDF_QUERY_INTERFACE_CONFIG
+- WDF_QUERY_INTERFACE_CONFIG
 product:
 - Windows
 targetos: Windows

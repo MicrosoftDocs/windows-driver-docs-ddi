@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_35
-title: KSPIN_DESCRIPTOR
+title: KSPIN_DESCRIPTOR (ks.h)
 description: The KSPIN_DESCRIPTOR structure describes the basic KSPROPSETID_Pin properties of a pin type.
 old-location: stream\kspin_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_DESCRIPTOR
+- KSPIN_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

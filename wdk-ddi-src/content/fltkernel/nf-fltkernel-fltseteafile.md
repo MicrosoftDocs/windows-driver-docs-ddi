@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetEaFile
-title: FltSetEaFile function
+title: FltSetEaFile function (fltkernel.h)
 description: FltSetEaFile sets extended-attribute (EA) values for a file.
 old-location: ifsk\fltseteafile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetEaFile
+- FltSetEaFile
 product:
 - Windows
 targetos: Windows

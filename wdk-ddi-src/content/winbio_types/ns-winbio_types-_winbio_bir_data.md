@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR_DATA
-title: "_WINBIO_BIR_DATA"
+title: _WINBIO_BIR_DATA (winbio_types.h)
 description: The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the WINBIO_BIR structure.
 old-location: biometric\winbio_bir_data.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_types.h
+- winbio_types.h
 api_name:
--	WINBIO_BIR_DATA
+- WINBIO_BIR_DATA
 product:
 - Windows
 targetos: Windows

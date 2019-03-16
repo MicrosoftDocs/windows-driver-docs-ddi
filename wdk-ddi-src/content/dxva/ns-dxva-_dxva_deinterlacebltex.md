@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBltEx
-title: "_DXVA_DeinterlaceBltEx"
+title: _DXVA_DeinterlaceBltEx (dxva.h)
 description: The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate-converted video with any supplied video substreams, and for writing the combined output to a destination surface.
 old-location: display\dxva_deinterlacebltex.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceBltEx
+- DXVA_DeinterlaceBltEx
 product:
 - Windows
 targetos: Windows

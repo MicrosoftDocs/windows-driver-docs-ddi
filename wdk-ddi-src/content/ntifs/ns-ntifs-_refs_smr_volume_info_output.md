@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_INFO_OUTPUT
-title: "_REFS_SMR_VOLUME_INFO_OUTPUT"
+title: _REFS_SMR_VOLUME_INFO_OUTPUT (ntifs.h)
 description: The REFS_SMR_VOLUME_INFO_OUTPUT structure describes a Shingled Magnetic Recording (SMR) volume's current state on space and garbage collection activities.
 old-location: ifsk\refs_smr_volume_info_output.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	REFS_SMR_VOLUME_INFO_OUTPUT
+- REFS_SMR_VOLUME_INFO_OUTPUT
 product:
 - Windows
 targetos: Windows

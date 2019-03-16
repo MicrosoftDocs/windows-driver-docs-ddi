@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderGetTriageInfo
-title: WppRecorderGetTriageInfo macro
+title: WppRecorderGetTriageInfo macro (wpprecorder.h)
 description: The WppRecorderGetTriageInfo.
 old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest
@@ -30,14 +30,14 @@ req.irql:
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderGetTriageInfo
+- imp_WppRecorderGetTriageInfo
 product:
 - Windows
 targetos: Windows

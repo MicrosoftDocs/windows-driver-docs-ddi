@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.HasNode
-title: ExtRemoteList::HasNode
+title: ExtRemoteList::HasNode (engextcpp.h)
 description: The HasNode method determines if there is a current item in the list iteration.
 old-location: debugger\extremotelist_hasnode.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteList.HasNode
+- ExtRemoteList.HasNode
 product:
 - Windows
 targetos: Windows

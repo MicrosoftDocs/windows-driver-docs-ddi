@@ -1,6 +1,6 @@
 ---
 UID: NS:usbdlib._REGISTER_COMPOSITE_DEVICE
-title: "_REGISTER_COMPOSITE_DEVICE"
+title: _REGISTER_COMPOSITE_DEVICE (usbdlib.h)
 description: The REGISTER_COMPOSITE_DEVICE structure is used with the IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE I/O control request to register a parent driver of a Universal Serial Bus (USB) multi-function device (composite driver) with the USB driver stack.
 old-location: buses\register_composite_driver.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	REGISTER_COMPOSITE_DEVICE
+- REGISTER_COMPOSITE_DEVICE
 product:
 - Windows
 targetos: Windows

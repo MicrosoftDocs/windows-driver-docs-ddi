@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsReferencePrimaryToken
-title: PsReferencePrimaryToken function
+title: PsReferencePrimaryToken function (ntifs.h)
 description: The PsReferencePrimaryToken routine increments the reference count of the primary token for the specified process.
 old-location: ifsk\psreferenceprimarytoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsReferencePrimaryToken
+- PsReferencePrimaryToken
 product:
 - Windows
 targetos: Windows

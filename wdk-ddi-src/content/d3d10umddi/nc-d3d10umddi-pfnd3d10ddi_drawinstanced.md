@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWINSTANCED
-title: PFND3D10DDI_DRAWINSTANCED
+title: PFND3D10DDI_DRAWINSTANCED (d3d10umddi.h)
 description: The DrawInstanced function draws particular instances of nonindexed primitives.
 old-location: display\drawinstanced.htm
 ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DrawInstanced
+- DrawInstanced
 product:
 - Windows
 targetos: Windows

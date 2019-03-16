@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterOffloadSetChecksumCapabilities
-title: NetAdapterOffloadSetChecksumCapabilities function
+title: NetAdapterOffloadSetChecksumCapabilities function (netadapter.h)
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NetAdapterOffloadSetChecksumCapabilities
+- NetAdapterOffloadSetChecksumCapabilities
 product:
 - Windows
 targetos: Windows

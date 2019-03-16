@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetActiveNodeCount
-title: StorPortGetActiveNodeCount function
+title: StorPortGetActiveNodeCount function (storport.h)
 description: The StorPortGetActiveNodeCount routine returns the number of nodes that are present in the system.
 old-location: storage\storportgetactivenodecount.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetActiveNodeCount
+- StorPortGetActiveNodeCount
 product:
 - Windows
 targetos: Windows

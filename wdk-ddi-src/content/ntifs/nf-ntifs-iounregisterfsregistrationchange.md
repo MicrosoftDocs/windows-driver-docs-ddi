@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoUnregisterFsRegistrationChange
-title: IoUnregisterFsRegistrationChange function
+title: IoUnregisterFsRegistrationChange function (ntifs.h)
 description: The IoUnregisterFsRegistrationChange routine unregisters file system filter driver's file system registration change notification routine.
 old-location: ifsk\iounregisterfsregistrationchange.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoUnregisterFsRegistrationChange
+- IoUnregisterFsRegistrationChange
 product:
 - Windows
 targetos: Windows

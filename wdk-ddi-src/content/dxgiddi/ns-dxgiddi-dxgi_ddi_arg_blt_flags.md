@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_BLT_FLAGS
-title: DXGI_DDI_ARG_BLT_FLAGS
+title: DXGI_DDI_ARG_BLT_FLAGS (dxgiddi.h)
 description: The DXGI_DDI_ARG_BLT_FLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 old-location: display\dxgi_ddi_arg_blt_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_BLT_FLAGS
+- DXGI_DDI_ARG_BLT_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
-title: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
+title: IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION (ntddvdeo.h)
 description: Performs a display device switch, a state change in which the video signal going to one display device is sent to another, possibly different type of display device.
 old-location: display\ioctl_video_set_child_state_configuration.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
+- IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION
 product:
 - Windows
 targetos: Windows

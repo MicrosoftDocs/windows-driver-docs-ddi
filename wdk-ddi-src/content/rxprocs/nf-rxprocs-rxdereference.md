@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxDereference
-title: RxDereference function
+title: RxDereference function (rxprocs.h)
 description: RxDereference decrements the NodeReferenceCount member of a structure by one for several reference counted data structures used by RDBSS.
 old-location: ifsk\rxdereference.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxDereference
+- RxDereference
 product:
 - Windows
 targetos: Windows

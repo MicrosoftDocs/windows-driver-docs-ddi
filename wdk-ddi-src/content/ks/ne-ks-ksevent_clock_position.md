@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_27
-title: KSEVENT_CLOCK_POSITION
+title: KSEVENT_CLOCK_POSITION (ks.h)
 description: 
 old-location: stream\ksevent_clock_position.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSEVENT_CLOCK_POSITION
+- KSEVENT_CLOCK_POSITION
 product:
 - Windows
 targetos: Windows

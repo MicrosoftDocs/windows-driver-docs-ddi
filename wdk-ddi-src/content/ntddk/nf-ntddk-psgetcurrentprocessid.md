@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentProcessId
-title: PsGetCurrentProcessId function
+title: PsGetCurrentProcessId function (ntddk.h)
 description: The PsGetCurrentProcessId routine identifies the current thread's process.
 old-location: kernel\psgetcurrentprocessid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetCurrentProcessId
+- PsGetCurrentProcessId
 product:
 - Windows
 targetos: Windows
@@ -74,7 +74,7 @@ The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SHARE_VIDEO_MEMORY
-title: IOCTL_VIDEO_SHARE_VIDEO_MEMORY
+title: IOCTL_VIDEO_SHARE_VIDEO_MEMORY (ntddvdeo.h)
 description: This IOCTL is called by a process that will share user-mode video memory as a linear frame buffer.
 old-location: display\ioctl_video_share_video_memory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_SHARE_VIDEO_MEMORY
+- IOCTL_VIDEO_SHARE_VIDEO_MEMORY
 product:
 - Windows
 targetos: Windows

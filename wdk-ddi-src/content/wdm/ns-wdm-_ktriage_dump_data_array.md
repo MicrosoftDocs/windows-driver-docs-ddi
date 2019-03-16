@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KTRIAGE_DUMP_DATA_ARRAY
-title: _KTRIAGE_DUMP_DATA_ARRAY
+title: _KTRIAGE_DUMP_DATA_ARRAY (wdm.h)
 description: 
 ms.assetid: 07dbd4cb-0840-4802-a595-a9e08cab4918
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PKTRIAGE_DUMP_DATA_ARRAY, KTRIAGE_DUMP_DATA_ARRAY
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_KTRIAGE_DUMP_DATA_ARRAY
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _KTRIAGE_DUMP_DATA_ARRAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

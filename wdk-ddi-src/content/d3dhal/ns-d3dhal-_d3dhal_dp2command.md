@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2COMMAND
-title: "_D3DHAL_DP2COMMAND"
+title: _D3DHAL_DP2COMMAND (d3dhal.h)
 description: One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the D3dDrawPrimitives2 callback, which uses the information it receives to draw one or more primitives.
 old-location: display\d3dhal_dp2command.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2COMMAND
+- D3DHAL_DP2COMMAND
 product:
 - Windows
 targetos: Windows

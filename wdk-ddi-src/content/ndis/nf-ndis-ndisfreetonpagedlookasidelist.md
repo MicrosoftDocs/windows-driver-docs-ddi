@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeToNPagedLookasideList
-title: NdisFreeToNPagedLookasideList macro
+title: NdisFreeToNPagedLookasideList macro (ndis.h)
 description: The NdisFreeToNPagedLookasideList function returns an entry to the given lookaside list.
 old-location: netvista\ndisfreetonpagedlookasidelist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisFreeToNPagedLookasideList
+- NdisFreeToNPagedLookasideList
 product:
 - Windows
 targetos: Windows

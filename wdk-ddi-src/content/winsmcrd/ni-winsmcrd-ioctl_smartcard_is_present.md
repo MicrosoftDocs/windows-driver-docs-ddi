@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_IS_PRESENT
-title: IOCTL_SMARTCARD_IS_PRESENT
+title: IOCTL_SMARTCARD_IS_PRESENT (winsmcrd.h)
 description: The IOCTL_SMARTCARD_IS_PRESENT control code detects whether a smart card is currently detected.
 old-location: nfpdrivers\ioctl_smartcard_is_present.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsmcrd.h
+- winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_IS_PRESENT
+- IOCTL_SMARTCARD_IS_PRESENT
 product:
 - Windows
 targetos: Windows

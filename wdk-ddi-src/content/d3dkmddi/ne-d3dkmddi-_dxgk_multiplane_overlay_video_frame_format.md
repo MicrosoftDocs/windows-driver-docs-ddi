@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-title: "_DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT"
+title: _DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT (d3dkmddi.h)
 description: Identifies the overlay plane's video frame format. Only the DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE value is supported.
 old-location: display\dxgk_multiplane_overlay_video_frame_format.htm
 ms.assetid: 072543cd-d11c-4418-884f-a7823c033a17
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+- DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 product:
 - Windows
 targetos: Windows

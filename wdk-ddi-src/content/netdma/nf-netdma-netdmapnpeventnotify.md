@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaPnPEventNotify
-title: NetDmaPnPEventNotify function
+title: NetDmaPnPEventNotify function (netdma.h)
 description: The NetDmaPnPEventNotify function indicates a power state change for a NetDMA provider device.
 old-location: netvista\netdmapnpeventnotify.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaPnPEventNotify
+- NetDmaPnPEventNotify
 product:
 - Windows
 targetos: Windows

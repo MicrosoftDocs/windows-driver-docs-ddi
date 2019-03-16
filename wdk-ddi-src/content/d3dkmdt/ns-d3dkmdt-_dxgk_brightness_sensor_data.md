@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_SENSOR_DATA
-title: _DXGK_BRIGHTNESS_SENSOR_DATA
+title: _DXGK_BRIGHTNESS_SENSOR_DATA (d3dkmdt.h)
 description: Describes the sensor data brightness.
 ms.assetid: 38aca9c4-ed04-405b-a659-5d5d252a45dc
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_SENSOR_DATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_SENSOR_DATA
+- _DXGK_BRIGHTNESS_SENSOR_DATA
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WDF_DPC_CONFIG_INIT
-title: WDF_DPC_CONFIG_INIT function
+title: WDF_DPC_CONFIG_INIT function (wdfdpc.h)
 description: The WDF_DPC_CONFIG_INIT function initializes a driver's WDF_DPC_CONFIG structure.
 old-location: wdf\wdf_dpc_config_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdpc.h
+- wdfdpc.h
 api_name:
--	WDF_DPC_CONFIG_INIT
+- WDF_DPC_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

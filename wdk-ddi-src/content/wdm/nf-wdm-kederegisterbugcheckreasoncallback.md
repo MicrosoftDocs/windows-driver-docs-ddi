@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterBugCheckReasonCallback
-title: KeDeregisterBugCheckReasonCallback function
+title: KeDeregisterBugCheckReasonCallback function (wdm.h)
 description: The KeDeregisterBugCheckReasonCallback routine removes a callback routine that was registered by KeRegisterBugCheckReasonCallback.
 old-location: kernel\kederegisterbugcheckreasoncallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeDeregisterBugCheckReasonCallback
+- KeDeregisterBugCheckReasonCallback
 product:
 - Windows
 targetos: Windows

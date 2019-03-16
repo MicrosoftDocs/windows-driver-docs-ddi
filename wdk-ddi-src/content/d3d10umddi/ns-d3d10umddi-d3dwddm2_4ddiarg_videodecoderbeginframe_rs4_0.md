@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0
-title: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0
+title: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0 (d3d10umddi.h)
 description: A collection of histogram output buffers.
 ms.assetid: ce36a841-b614-4b23-b6a4-7c4afe1adf57
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0
+- D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0
 product: 
 - Windows
 targetos: Windows

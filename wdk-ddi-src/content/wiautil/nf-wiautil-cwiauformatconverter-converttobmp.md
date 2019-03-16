@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.ConvertToBmp
-title: CWiauFormatConverter::ConvertToBmp
+title: CWiauFormatConverter::ConvertToBmp (wiautil.h)
 description: The CWiauFormatConverter::ConvertToBmp method converts an image to BMP format.
 old-location: image\cwiauformatconverter_converttobmp.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauFormatConverter.ConvertToBmp
+- CWiauFormatConverter.ConvertToBmp
 product:
 - Windows
 targetos: Windows

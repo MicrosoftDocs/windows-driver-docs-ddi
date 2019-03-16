@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_BUFFER_RENDERTARGETVIEW
-title: D3D10DDIARG_BUFFER_RENDERTARGETVIEW
+title: D3D10DDIARG_BUFFER_RENDERTARGETVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_buffer_rendertargetview.htm
 ms.assetid: 05c1d6e2-61e1-4bf0-b02e-5ea8ad144a9f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_BUFFER_RENDERTARGETVIEW
+- D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 product:
 - Windows
 targetos: Windows

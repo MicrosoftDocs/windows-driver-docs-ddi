@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetSingleTransferRequirement
-title: WdfDmaTransactionSetSingleTransferRequirement function
+title: WdfDmaTransactionSetSingleTransferRequirement function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetSingleTransferRequirement method specifies that a DMA transaction must complete in a single transfer.
 old-location: wdf\wdfdmatransactionsetsingletransferrequirement.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionSetSingleTransferRequirement
+- WdfDmaTransactionSetSingleTransferRequirement
 product:
 - Windows
 targetos: Windows

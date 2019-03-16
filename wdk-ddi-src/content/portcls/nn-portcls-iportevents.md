@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortEvents
-title: IPortEvents
+title: IPortEvents (portcls.h)
 description: The IPortEvents interface is used by miniport drivers to notify clients of hardware events.
 old-location: audio\iportevents.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortEvents
+- IPortEvents
 product:
 - Windows
 targetos: Windows

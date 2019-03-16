@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENADAPTERFROMDEVICENAME
-title: PFND3DKMT_OPENADAPTERFROMDEVICENAME
+title: PFND3DKMT_OPENADAPTERFROMDEVICENAME (d3dkmthk.h)
 description: Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 30832e65-d6bd-4d48-bd57-1b29620b47fe
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENADAPTERFROMDEVICENAME
+- PFND3DKMT_OPENADAPTERFROMDEVICENAME
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

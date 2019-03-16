@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.SearchVirtual
-title: IDebugDataSpaces4::SearchVirtual
+title: IDebugDataSpaces4::SearchVirtual (dbgeng.h)
 description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.SearchVirtual
--	IDebugDataSpaces2.SearchVirtual
--	IDebugDataSpaces3.SearchVirtual
--	IDebugDataSpaces4.SearchVirtual
+- IDebugDataSpaces.SearchVirtual
+- IDebugDataSpaces2.SearchVirtual
+- IDebugDataSpaces3.SearchVirtual
+- IDebugDataSpaces4.SearchVirtual
 product:
 - Windows
 targetos: Windows

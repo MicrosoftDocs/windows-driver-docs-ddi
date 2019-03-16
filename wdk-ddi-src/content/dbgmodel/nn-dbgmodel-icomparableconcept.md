@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IComparableConcept
-title: IComparableConcept
+title: IComparableConcept (dbgmodel.h)
 description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: ddbad055-aafe-4ba0-8265-1b9216610f20
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IComparableConcept
-product: Windows
+- IComparableConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

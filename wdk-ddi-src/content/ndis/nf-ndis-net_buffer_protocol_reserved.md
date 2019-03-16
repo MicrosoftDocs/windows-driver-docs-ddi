@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_PROTOCOL_RESERVED
-title: NET_BUFFER_PROTOCOL_RESERVED macro
+title: NET_BUFFER_PROTOCOL_RESERVED macro (ndis.h)
 description: NET_BUFFER_PROTOCOL_RESERVED is a macro that NDIS drivers use to get the ProtocolReserved member of a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: 8cfd161c-6f2f-4b31-ae49-b570b3d306d6
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_PROTOCOL_RESERVED
+- NET_BUFFER_PROTOCOL_RESERVED
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

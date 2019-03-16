@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinstaller.WdfPreDeviceInstall
-title: WdfPreDeviceInstall function
+title: WdfPreDeviceInstall function (wdfinstaller.h)
 description: The co-installer's WdfPreDeviceInstall function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service.
 old-location: wdf\wdfpredeviceinstall.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: N/A (Exported by the KMDF co-installer library. For information about t
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	N/A
--	N/A.dll
+- N/A
+- N/A.dll
 api_name:
--	WdfPreDeviceInstall
+- WdfPreDeviceInstall
 product:
 - Windows
 targetos: Windows

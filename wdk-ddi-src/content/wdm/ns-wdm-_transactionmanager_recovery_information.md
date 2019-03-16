@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_RECOVERY_INFORMATION
-title: "_TRANSACTIONMANAGER_RECOVERY_INFORMATION"
+title: _TRANSACTIONMANAGER_RECOVERY_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_recovery_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	TRANSACTIONMANAGER_RECOVERY_INFORMATION
+- TRANSACTIONMANAGER_RECOVERY_INFORMATION
 product:
 - Windows
 targetos: Windows

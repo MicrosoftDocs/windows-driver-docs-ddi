@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
-title: PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
+title: PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS (d3d12umddi.h)
 description: Check resource virtual address.
 ms.assetid: e54aa0b0-c2ef-44db-9053-3ceeb71cf9a8
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
+- PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 product: 
 - Windows
 targetos: Windows

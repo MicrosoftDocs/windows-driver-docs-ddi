@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_COMMAND
-title: "_WWAN_DEVICE_SERVICE_COMMAND"
+title: _WWAN_DEVICE_SERVICE_COMMAND (wwan.h)
 description: The WWAN_DEVICE_SERVICE_COMMAND structure represents a device service command.
 old-location: netvista\wwan_device_service_command.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_COMMAND
+- WWAN_DEVICE_SERVICE_COMMAND
 product:
 - Windows
 targetos: Windows

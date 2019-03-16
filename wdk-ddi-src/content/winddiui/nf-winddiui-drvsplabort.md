@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplAbort
-title: DrvSplAbort function
+title: DrvSplAbort function (winddiui.h)
 description: 
 old-location: print\drvsplabort.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvSplAbort
+- DrvSplAbort
 product:
 - Windows
 targetos: Windows

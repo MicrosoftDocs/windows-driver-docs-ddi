@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia.__unnamed_struct_0
-title: KSP_NODE_ESPID
+title: KSP_NODE_ESPID (bdamedia.h)
 description: The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.
 old-location: stream\ksp_node_espid.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdamedia.h
+- bdamedia.h
 api_name:
--	KSP_NODE_ESPID
+- KSP_NODE_ESPID
 product:
 - Windows
 targetos: Windows

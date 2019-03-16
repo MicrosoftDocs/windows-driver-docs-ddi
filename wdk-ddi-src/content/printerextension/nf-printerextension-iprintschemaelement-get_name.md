@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_Name
-title: IPrintSchemaElement::get_Name
+title: IPrintSchemaElement::get_Name (printerextension.h)
 description: Gets the base value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_name.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaElement.Name
--	IPrintSchemaElement.get_Name
+- IPrintSchemaElement.Name
+- IPrintSchemaElement.get_Name
 product:
 - Windows
 targetos: Windows

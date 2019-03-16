@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRetreatNetBufferDataStart
-title: NdisRetreatNetBufferDataStart function
+title: NdisRetreatNetBufferDataStart function (ndis.h)
 description: Call the NdisRetreatNetBufferDataStart function to access more used data space in the MDL chain of a NET_BUFFER structure.
 old-location: netvista\ndisretreatnetbufferdatastart.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisRetreatNetBufferDataStart
+- NdisRetreatNetBufferDataStart
 product:
 - Windows
 targetos: Windows

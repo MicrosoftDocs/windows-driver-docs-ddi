@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeSequence
-title: SdpCreateNodeSequence function
+title: SdpCreateNodeSequence function (sdplib.h)
 description: The Bluetooth SdpCreateNodeSequence function is used to create an empty sequence SDP node.
 old-location: bltooth\sdpcreatenodesequence.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpCreateNodeSequence
+- SdpCreateNodeSequence
 product:
 - Windows
 targetos: Windows

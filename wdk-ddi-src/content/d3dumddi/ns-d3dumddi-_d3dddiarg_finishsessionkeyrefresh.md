@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_FINISHSESSIONKEYREFRESH
-title: "_D3DDDIARG_FINISHSESSIONKEYREFRESH"
+title: _D3DDDIARG_FINISHSESSIONKEYREFRESH (d3dumddi.h)
 description: The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the FinishSessionKeyRefresh function.
 old-location: display\d3dddiarg_finishsessionkeyrefresh.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_FINISHSESSIONKEYREFRESH
+- D3DDDIARG_FINISHSESSIONKEYREFRESH
 product:
 - Windows
 targetos: Windows

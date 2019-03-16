@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAdjustFullscreenGamma
-title: D3DKMTAdjustFullscreenGamma function
+title: D3DKMTAdjustFullscreenGamma function (d3dkmthk.h)
 description: Adjusts full screen gamma.
 ms.assetid: 194c2969-02b8-4caa-ba6c-a20fb87507d2
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTAdjustFullscreenGamma
+- D3DKMTAdjustFullscreenGamma
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

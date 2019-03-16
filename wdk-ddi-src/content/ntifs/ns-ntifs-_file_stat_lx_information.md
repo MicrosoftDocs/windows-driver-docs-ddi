@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STAT_LX_INFORMATION
-title: _FILE_STAT_LX_INFORMATION
+title: _FILE_STAT_LX_INFORMATION (ntifs.h)
 description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_STAT_LX_INFORMATION, *PFILE_STAT_LX_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STAT_LX_INFORMATION
+- _FILE_STAT_LX_INFORMATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

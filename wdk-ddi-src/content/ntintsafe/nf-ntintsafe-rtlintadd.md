@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntAdd
-title: RtlIntAdd function
+title: RtlIntAdd function (ntintsafe.h)
 description: Adds two values of type INT.
 old-location: kernel\rtlintadd.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlIntAdd
+- RtlIntAdd
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
-title: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
+title: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW (d3d10umddi.h)
 description: The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is used to create an unordered access view (UAV) in a call to the CreateUnorderedAccessView function.
 old-location: display\d3d11ddiarg_buffer_unorderedaccessview.htm
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
+- D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 product:
 - Windows
 targetos: Windows

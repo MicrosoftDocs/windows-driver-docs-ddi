@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.EX_CALLBACK_FUNCTION
-title: EX_CALLBACK_FUNCTION
+title: EX_CALLBACK_FUNCTION (wdm.h)
 description: A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation.
 old-location: kernel\registrycallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RegistryCallback
+- RegistryCallback
 product:
 - Windows
 targetos: Windows

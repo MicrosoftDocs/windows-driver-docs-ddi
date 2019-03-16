@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO
-title: "_PROPSHEETUI_INFO"
+title: _PROPSHEETUI_INFO (compstui.h)
 description: The PROPSHEETUI_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.
 old-location: print\propsheetui_info.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	PROPSHEETUI_INFO
+- PROPSHEETUI_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_DATA_SEND
-title: MINIPORT_WDI_TX_DATA_SEND
+title: MINIPORT_WDI_TX_DATA_SEND (dot11wdi.h)
 description: The MiniportWdiTxDataSend handler function specifies an RA-TID or port queue to transmit from. It is issued in the context of the TX thread from the operating system, resume indication, or a work item.
 old-location: netvista\miniportwditxdatasend.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTxDataSend
+- MiniportWdiTxDataSend
 product:
 - Windows
 targetos: Windows

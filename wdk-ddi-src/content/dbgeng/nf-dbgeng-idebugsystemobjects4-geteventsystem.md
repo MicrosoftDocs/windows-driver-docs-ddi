@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetEventSystem
-title: IDebugSystemObjects4::GetEventSystem
+title: IDebugSystemObjects4::GetEventSystem (dbgeng.h)
 description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred.
 old-location: debugger\geteventsystem.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetEventSystem
--	IDebugSystemObjects4.GetEventSystem
+- IDebugSystemObjects3.GetEventSystem
+- IDebugSystemObjects4.GetEventSystem
 product:
 - Windows
 targetos: Windows

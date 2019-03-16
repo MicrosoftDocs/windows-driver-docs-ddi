@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_HANDLE_DATA_BASIC
-title: "_DEBUG_HANDLE_DATA_BASIC"
+title: _DEBUG_HANDLE_DATA_BASIC (dbgeng.h)
 description: The DEBUG_HANDLE_DATA_BASIC structure contains handle-related information about a system object.
 old-location: debugger\debug_handle_data_basic.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_HANDLE_DATA_BASIC
+- DEBUG_HANDLE_DATA_BASIC
 product:
 - Windows
 targetos: Windows

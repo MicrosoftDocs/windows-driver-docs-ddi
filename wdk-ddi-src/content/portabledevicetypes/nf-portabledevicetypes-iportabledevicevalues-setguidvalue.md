@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetGuidValue
-title: IPortableDeviceValues::SetGuidValue
+title: IPortableDeviceValues::SetGuidValue (portabledevicetypes.h)
 description: Adds a new GUID value (type VT_CLSID) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setguidvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetGuidValue
+- IPortableDeviceValues.SetGuidValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

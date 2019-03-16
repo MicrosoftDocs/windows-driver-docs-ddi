@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_ENDPOINT_DESCRIPTOR
-title: "_USB_ENDPOINT_DESCRIPTOR"
+title: _USB_ENDPOINT_DESCRIPTOR (usbspec.h)
 description: The USB_ENDPOINT_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 old-location: buses\usb_endpoint_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_ENDPOINT_DESCRIPTOR
+- USB_ENDPOINT_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 
 
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.6.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.6.
 
 ## -struct-fields
 

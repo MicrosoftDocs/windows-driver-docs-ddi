@@ -1,6 +1,6 @@
 ---
 UID: NF:compstui.CommonPropertySheetUIW
-title: CommonPropertySheetUIW function
+title: CommonPropertySheetUIW function (compstui.h)
 description: CPSUI's CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.
 old-location: print\commonpropertysheetui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	CommonPropertySheetUI
+- CommonPropertySheetUI
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_PNP_EVENT_COMPLETE
-title: "_SRIOV_PNP_EVENT_COMPLETE"
+title: _SRIOV_PNP_EVENT_COMPLETE (pcivirt.h)
 description: Stores the status for an event that the SR-IOV Physical Function (PF) driver should set for Plug and Play even completion. This structure is used in the input buffer of the IOCTL_SRIOV_EVENT_COMPLETE request.
 old-location: pci\sriov_pnp_event_complete.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_PNP_EVENT_COMPLETE
+- SRIOV_PNP_EVENT_COMPLETE
 product:
 - Windows
 targetos: Windows

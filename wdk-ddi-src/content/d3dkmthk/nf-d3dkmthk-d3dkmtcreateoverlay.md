@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateOverlay
-title: D3DKMTCreateOverlay function
+title: D3DKMTCreateOverlay function (d3dkmthk.h)
 description: The D3DKMTCreateOverlay function creates a kernel-mode overlay object.
 old-location: display\d3dkmtcreateoverlay.htm
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTCreateOverlay
+- D3DKMTCreateOverlay
 product:
 - Windows
 targetos: Windows

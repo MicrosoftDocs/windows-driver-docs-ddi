@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
-title: WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function
+title: WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function (wdfusb.h)
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a USB control transfer that obtains device status.
 old-location: wdf\wdf_usb_control_setup_packet_init_get_status.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
+- WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS
 product:
 - Windows
 targetos: Windows

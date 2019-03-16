@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_HD_SPLIT_PARAMETERS
-title: "_NDIS_HD_SPLIT_PARAMETERS"
+title: _NDIS_HD_SPLIT_PARAMETERS (ntddndis.h)
 description: The NDIS_HD_SPLIT_PARAMETERS structure defines the current header-data split settings of a miniport adapter.
 old-location: netvista\ndis_hd_split_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_HD_SPLIT_PARAMETERS
+- NDIS_HD_SPLIT_PARAMETERS
 product:
 - Windows
 targetos: Windows

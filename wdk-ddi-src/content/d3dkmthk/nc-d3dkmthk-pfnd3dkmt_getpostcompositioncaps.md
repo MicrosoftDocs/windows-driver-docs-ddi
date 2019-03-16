@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETPOSTCOMPOSITIONCAPS
-title: PFND3DKMT_GETPOSTCOMPOSITIONCAPS
+title: PFND3DKMT_GETPOSTCOMPOSITIONCAPS (d3dkmthk.h)
 description: Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabilities.
 ms.assetid: 4c14764f-5dfd-4ec2-9185-6aaeca02bafd
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETPOSTCOMPOSITIONCAPS
+- PFND3DKMT_GETPOSTCOMPOSITIONCAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

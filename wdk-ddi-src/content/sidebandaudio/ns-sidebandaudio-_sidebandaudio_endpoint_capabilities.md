@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
-title: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+title: _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES (sidebandaudio.h)
 description: 
 ms.assetid: cef181e9-6807-4b37-af4f-cda1fd7446e6
 ms.date: 09/06/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
-product: Windows
+- _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

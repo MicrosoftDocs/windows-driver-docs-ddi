@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.AddProcessOptions
-title: IDebugClient::AddProcessOptions
+title: IDebugClient::AddProcessOptions (dbgeng.h)
 description: The AddProcessOptions method adds the process options to those options that affect the current process.
 old-location: debugger\addprocessoptions.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.AddProcessOptions
--	IDebugClient2.AddProcessOptions
--	IDebugClient3.AddProcessOptions
--	IDebugClient4.AddProcessOptions
--	IDebugClient5.AddProcessOptions
+- IDebugClient.AddProcessOptions
+- IDebugClient2.AddProcessOptions
+- IDebugClient3.AddProcessOptions
+- IDebugClient4.AddProcessOptions
+- IDebugClient5.AddProcessOptions
 product:
 - Windows
 targetos: Windows

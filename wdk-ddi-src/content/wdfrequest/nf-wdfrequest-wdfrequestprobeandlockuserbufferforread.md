@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestProbeAndLockUserBufferForRead
-title: WdfRequestProbeAndLockUserBufferForRead function
+title: WdfRequestProbeAndLockUserBufferForRead function (wdfrequest.h)
 description: The WdfRequestProbeAndLockUserBufferForRead method verifies that an I/O request's user-mode buffer is readable, and then it locks the buffer's physical memory pages so drivers in the driver stack can read the buffer.
 old-location: wdf\wdfrequestprobeandlockuserbufferforread.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfRequestProbeAndLockUserBufferForRead
+- WdfRequestProbeAndLockUserBufferForRead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RW_LOCK_REFCOUNT
-title: "_NDIS_RW_LOCK_REFCOUNT"
+title: _NDIS_RW_LOCK_REFCOUNT (ndis.h)
 description: The NDIS_RW_LOCK_REFCOUNT union defines attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock_refcount.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_RW_LOCK_REFCOUNT
+- NDIS_RW_LOCK_REFCOUNT
 product:
 - Windows
 targetos: Windows

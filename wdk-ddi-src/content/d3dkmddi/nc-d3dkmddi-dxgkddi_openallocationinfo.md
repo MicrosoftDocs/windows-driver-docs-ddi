@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_OPENALLOCATIONINFO
-title: DXGKDDI_OPENALLOCATIONINFO
+title: DXGKDDI_OPENALLOCATIONINFO (d3dkmddi.h)
 description: The DxgkDdiOpenAllocation function binds non-device-specific allocations that the DxgkDdiCreateAllocation function created to allocations that are specific to the specified graphics context device.
 old-location: display\dxgkddiopenallocation.htm
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiOpenAllocation
+- DxgkDdiOpenAllocation
 product:
 - Windows
 targetos: Windows

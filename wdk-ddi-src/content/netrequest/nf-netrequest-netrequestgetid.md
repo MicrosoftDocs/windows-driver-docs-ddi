@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetId
-title: NetRequestGetId function
+title: NetRequestGetId function (netrequest.h)
 description: Retrieves the NDIS_OID identifier associated with the specified network request object.
 tech.root: netvista
 ms.assetid: 9e3bbfd8-0cc1-4d71-b648-c937b9e6b762
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestGetId
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestGetId
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

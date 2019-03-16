@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrCardType
-title: "_MsrCardType"
+title: _MsrCardType (pointofservicedriverinterface.h)
 description: This enumeration defines the kinds of magnetic stripe cards.
 old-location: pos\msrcardtype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	MsrCardType
+- MsrCardType
 product:
 - Windows
 targetos: Windows

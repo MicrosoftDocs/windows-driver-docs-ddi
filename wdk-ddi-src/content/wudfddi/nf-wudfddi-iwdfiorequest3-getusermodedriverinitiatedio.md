@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.GetUserModeDriverInitiatedIo
-title: IWDFIoRequest3::GetUserModeDriverInitiatedIo
+title: IWDFIoRequest3::GetUserModeDriverInitiatedIo (wudfddi.h)
 description: The GetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.
 old-location: wdf\iwdfiorequest3_getusermodedriverinitiatedio.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest3.GetUserModeDriverInitiatedIo
+- IWDFIoRequest3.GetUserModeDriverInitiatedIo
 product:
 - Windows
 targetos: Windows

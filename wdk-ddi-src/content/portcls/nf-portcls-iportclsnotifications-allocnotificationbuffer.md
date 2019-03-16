@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsNotifications.AllocNotificationBuffer
-title: IPortClsNotifications::AllocNotificationBuffer
+title: IPortClsNotifications::AllocNotificationBuffer (portcls.h)
 description: Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_allocnotification.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	IPortClsNotifications.AllocNotificationBuffer
+- IPortClsNotifications.AllocNotificationBuffer
 product:
 - Windows
 targetos: Windows

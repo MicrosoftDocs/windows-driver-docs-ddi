@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_5
-title: KS_SEEKING_FLAGS
+title: KS_SEEKING_FLAGS (ks.h)
 description: The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the KSPROPERTY_POSITIONS structure.
 old-location: stream\ks_seeking_flags.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KS_SEEKING_FLAGS
+- KS_SEEKING_FLAGS
 product:
 - Windows
 targetos: Windows

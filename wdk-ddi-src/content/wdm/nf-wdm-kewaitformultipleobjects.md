@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeWaitForMultipleObjects
-title: KeWaitForMultipleObjects function
+title: KeWaitForMultipleObjects function (wdm.h)
 description: The KeWaitForMultipleObjects routine puts the current thread into an alertable or nonalertable wait state until any or all of a number of dispatcher objects are set to a signaled state or (optionally) until the wait times out.
 old-location: kernel\kewaitformultipleobjects.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeWaitForMultipleObjects
+- KeWaitForMultipleObjects
 product:
 - Windows
 targetos: Windows

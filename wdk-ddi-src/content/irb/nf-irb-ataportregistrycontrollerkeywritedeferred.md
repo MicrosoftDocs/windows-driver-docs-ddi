@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryControllerKeyWriteDeferred
-title: AtaPortRegistryControllerKeyWriteDeferred function
+title: AtaPortRegistryControllerKeyWriteDeferred function (irb.h)
 description: The AtaPortRegistryControllerKeyWriteDeferred routine writes the data asynchronously to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywritedeferred.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortRegistryControllerKeyWriteDeferred
+- AtaPortRegistryControllerKeyWriteDeferred
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetDebuggeeType
-title: IDebugControl3::GetDebuggeeType
+title: IDebugControl3::GetDebuggeeType (dbgeng.h)
 description: The GetDebuggeeType method describes the nature of the current target.
 old-location: debugger\getdebuggeetype.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetDebuggeeType
--	IDebugControl2.GetDebuggeeType
--	IDebugControl3.GetDebuggeeType
+- IDebugControl.GetDebuggeeType
+- IDebugControl2.GetDebuggeeType
+- IDebugControl3.GetDebuggeeType
 product:
 - Windows
 targetos: Windows

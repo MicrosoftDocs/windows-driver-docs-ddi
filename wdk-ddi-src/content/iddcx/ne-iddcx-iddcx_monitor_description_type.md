@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_MONITOR_DESCRIPTION_TYPE
-title: IDDCX_MONITOR_DESCRIPTION_TYPE
+title: IDDCX_MONITOR_DESCRIPTION_TYPE (iddcx.h)
 description: Used to describe the monitor description.
 old-location: display\iddcx_monitor_description_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_MONITOR_DESCRIPTION_TYPE
+- IDDCX_MONITOR_DESCRIPTION_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
-title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
+title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (d3d12umddi.h)
 description: Used to calculate the pipeline state size.
 old-location: display\pfnd3d12ddi_calc_private_pipeline_state_size_0033_.htm
 ms.assetid: C119B295-CBCF-46B3-BC8D-3C8AC058F6D8
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
+- PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
 product:
 - Windows
 targetos: Windows

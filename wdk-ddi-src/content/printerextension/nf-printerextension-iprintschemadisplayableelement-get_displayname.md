@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaDisplayableElement.get_DisplayName
-title: IPrintSchemaDisplayableElement::get_DisplayName
+title: IPrintSchemaDisplayableElement::get_DisplayName (printerextension.h)
 description: Gets a displayable string for this item.
 old-location: print\iprintschemadisplayableelement_displayname.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaDisplayableElement.DisplayName
--	IPrintSchemaDisplayableElement.get_DisplayName
+- IPrintSchemaDisplayableElement.DisplayName
+- IPrintSchemaDisplayableElement.get_DisplayName
 product:
 - Windows
 targetos: Windows

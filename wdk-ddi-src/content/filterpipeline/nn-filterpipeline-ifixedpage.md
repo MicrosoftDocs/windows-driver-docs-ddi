@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IFixedPage
-title: IFixedPage
+title: IFixedPage (filterpipeline.h)
 description: A filter uses the IFixedPage interface to work with fixed pages in an XPS document.
 old-location: print\ifixedpage.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage
+- IFixedPage
 product:
 - Windows
 targetos: Windows

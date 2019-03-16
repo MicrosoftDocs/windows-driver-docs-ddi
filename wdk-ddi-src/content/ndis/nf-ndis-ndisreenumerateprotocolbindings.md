@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReEnumerateProtocolBindings
-title: NdisReEnumerateProtocolBindings function
+title: NdisReEnumerateProtocolBindings function (ndis.h)
 description: The NdisReEnumerateProtocolBindings function causes NDIS to call a protocol driver's ProtocolBindAdapterEx function one time for each miniport adapter for which the driver is configured to bind but to which the driver is not currently bound.
 old-location: netvista\ndisreenumerateprotocolbindings.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisReEnumerateProtocolBindings
+- NdisReEnumerateProtocolBindings
 product:
 - Windows
 targetos: Windows

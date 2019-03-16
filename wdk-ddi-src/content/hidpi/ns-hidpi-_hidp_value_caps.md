@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_VALUE_CAPS
-title: "_HIDP_VALUE_CAPS"
+title: _HIDP_VALUE_CAPS (hidpi.h)
 description: The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range).
 old-location: hid\hidp_value_caps.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_VALUE_CAPS
+- HIDP_VALUE_CAPS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_CRASHDUMP_INFORMATION
-title: "_PEP_CRASHDUMP_INFORMATION"
+title: _PEP_CRASHDUMP_INFORMATION (pepfx.h)
 description: The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device.
 old-location: kernel\pep_crashdump_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_CRASHDUMP_INFORMATION
+- PEP_CRASHDUMP_INFORMATION
 product:
 - Windows
 targetos: Windows

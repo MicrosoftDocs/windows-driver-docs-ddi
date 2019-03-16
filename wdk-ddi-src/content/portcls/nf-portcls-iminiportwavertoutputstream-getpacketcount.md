@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetPacketCount
-title: IMiniportWaveRTOutputStream::GetPacketCount
+title: IMiniportWaveRTOutputStream::GetPacketCount (portcls.h)
 description: GetPacketCount returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
 old-location: audio\iminiportwavertoutputstream_getpacketcount.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTOutputStream.GetPacketCount
+- IMiniportWaveRTOutputStream.GetPacketCount
 product:
 - Windows
 targetos: Windows

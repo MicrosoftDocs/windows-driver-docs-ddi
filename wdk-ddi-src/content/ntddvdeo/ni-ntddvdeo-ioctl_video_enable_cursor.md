@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_ENABLE_CURSOR
-title: IOCTL_VIDEO_ENABLE_CURSOR
+title: IOCTL_VIDEO_ENABLE_CURSOR (ntddvdeo.h)
 description: Makes the cursor visible by enabling the cursor's visibility attribute. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_enable_cursor.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_ENABLE_CURSOR
+- IOCTL_VIDEO_ENABLE_CURSOR
 product:
 - Windows
 targetos: Windows

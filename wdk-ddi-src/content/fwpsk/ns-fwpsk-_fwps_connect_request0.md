@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk._FWPS_CONNECT_REQUEST0
-title: "_FWPS_CONNECT_REQUEST0"
+title: _FWPS_CONNECT_REQUEST0 (fwpsk.h)
 description: The FWPS_CONNECT_REQUEST0 structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V4 and FWPM_LAYER_ALE_AUTH_CONNECT_REDIRECT_V6 layers.
 old-location: netvista\fwps_connect_request0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_CONNECT_REQUEST0
+- FWPS_CONNECT_REQUEST0
 product:
 - Windows
 targetos: Windows

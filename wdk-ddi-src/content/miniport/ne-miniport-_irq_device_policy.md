@@ -1,6 +1,6 @@
 ---
 UID: NE:miniport._IRQ_DEVICE_POLICY
-title: "_IRQ_DEVICE_POLICY"
+title: _IRQ_DEVICE_POLICY (miniport.h)
 description: The IRQ_DEVICE_POLICY enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IRQ_DEVICE_POLICY
+- IRQ_DEVICE_POLICY
 product:
 - Windows
 targetos: Windows

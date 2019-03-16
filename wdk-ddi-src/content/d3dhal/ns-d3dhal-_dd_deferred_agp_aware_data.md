@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_DEFERRED_AGP_AWARE_DATA
-title: "_DD_DEFERRED_AGP_AWARE_DATA"
+title: _DD_DEFERRED_AGP_AWARE_DATA (d3dhal.h)
 description: DirectX 8.0 and later versions and NT-based operating systems only. DD_DEFERRED_AGP_AWARE_DATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for D3DGDI2_TYPE_DEFERRED_AGP_AWARE notifications.
 old-location: display\dd_deferred_agp_aware_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	DD_DEFERRED_AGP_AWARE_DATA
+- DD_DEFERRED_AGP_AWARE_DATA
 product:
 - Windows
 targetos: Windows

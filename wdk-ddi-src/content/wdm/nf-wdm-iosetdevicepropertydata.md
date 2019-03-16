@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetDevicePropertyData
-title: IoSetDevicePropertyData function
+title: IoSetDevicePropertyData function (wdm.h)
 description: The IoSetDevicePropertyData routine modifies the current setting for a device property.
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetDevicePropertyData
+- IoSetDevicePropertyData
 product:
 - Windows
 targetos: Windows

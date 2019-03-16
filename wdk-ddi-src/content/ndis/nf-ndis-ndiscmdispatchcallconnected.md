@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchCallConnected
-title: NdisCmDispatchCallConnected function
+title: NdisCmDispatchCallConnected function (ndis.h)
 description: NdisCmDispatchCallConnected notifies NDIS and the client that data transfers can begin on a VC that the call manager created for an incoming call initiated on a remote node.
 old-location: netvista\ndiscmdispatchcallconnected.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCmDispatchCallConnected
+- NdisCmDispatchCallConnected
 product:
 - Windows
 targetos: Windows

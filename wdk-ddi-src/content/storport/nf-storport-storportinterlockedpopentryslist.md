@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedPopEntrySList
-title: StorPortInterlockedPopEntrySList function
+title: StorPortInterlockedPopEntrySList function (storport.h)
 description: Removes an item from the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system. Syntax.
 old-location: storage\storportinterlockedpopentryslist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInterlockedPopEntrySList
+- StorPortInterlockedPopEntrySList
 product:
 - Windows
 targetos: Windows

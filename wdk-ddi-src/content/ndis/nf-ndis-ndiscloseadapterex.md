@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCloseAdapterEx
-title: NdisCloseAdapterEx function
+title: NdisCloseAdapterEx function (ndis.h)
 description: A protocol driver calls the NdisCloseAdapterEx function to release the binding and the resources that were allocated when the driver called the NdisOpenAdapterEx function.
 old-location: netvista\ndiscloseadapterex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCloseAdapterEx
+- NdisCloseAdapterEx
 product:
 - Windows
 targetos: Windows

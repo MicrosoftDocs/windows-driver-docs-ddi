@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_SOURCE_MODE_TYPE
-title: "_D3DKMDT_VIDPN_SOURCE_MODE_TYPE"
+title: _D3DKMDT_VIDPN_SOURCE_MODE_TYPE (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration is used to indicate whether a video present network (VidPN) source mode is a graphics mode, a text mode, or a stereo mode.
 old-location: display\d3dkmdt_vidpn_source_mode_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+- D3DKMDT_VIDPN_SOURCE_MODE_TYPE
 product:
 - Windows
 targetos: Windows

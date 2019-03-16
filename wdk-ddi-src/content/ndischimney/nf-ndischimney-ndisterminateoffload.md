@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisTerminateOffload
-title: NdisTerminateOffload function
+title: NdisTerminateOffload function (ndischimney.h)
 description: A protocol driver or intermediate driver calls the NdisTerminateOffload function to terminate the offload of one or more state objects
 old-location: netvista\ndisterminateoffload.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisTerminateOffload
+- NdisTerminateOffload
 product:
 - Windows
 targetos: Windows

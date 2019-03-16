@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
-title: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
+title: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE (d3dkmthk.h)
 description: Indicates the specific diagonal type to activate.
 ms.assetid: 0ed88f23-5cdc-40ce-9083-24c64a456879
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
+- _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

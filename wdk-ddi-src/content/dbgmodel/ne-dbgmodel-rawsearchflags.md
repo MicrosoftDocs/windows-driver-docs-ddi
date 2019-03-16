@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.RawSearchFlags
-title: RawSearchFlags
+title: RawSearchFlags (dbgmodel.h)
 description: Flags to GetRawValue/EnumerateRawValues.
 ms.assetid: 1f876ef9-9130-45f0-8c00-33f5f0e41344
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	RawSearchFlags
-product: Windows
+- RawSearchFlags
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

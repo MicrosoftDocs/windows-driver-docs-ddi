@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyReset
-title: UfxDeviceNotifyReset function
+title: UfxDeviceNotifyReset function (ufxclient.h)
 description: Notifies UFX about a USB bus reset event.
 old-location: buses\ufxdevicenotifyreset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDeviceNotifyReset
+- UfxDeviceNotifyReset
 product:
 - Windows
 targetos: Windows

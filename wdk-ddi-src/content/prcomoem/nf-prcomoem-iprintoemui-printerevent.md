@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PrinterEvent
-title: IPrintOemUI::PrinterEvent
+title: IPrintOemUI::PrinterEvent (prcomoem.h)
 description: The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.
 old-location: print\iprintoemui_printerevent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.PrinterEvent
+- IPrintOemUI.PrinterEvent
 product:
 - Windows
 targetos: Windows

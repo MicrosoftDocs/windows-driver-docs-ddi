@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.Execute
-title: IDebugControl::Execute
+title: IDebugControl::Execute (dbgeng.h)
 description: The Execute method executes the specified debugger commands.
 old-location: debugger\execute.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.Execute
--	IDebugControl2.Execute
--	IDebugControl3.Execute
+- IDebugControl.Execute
+- IDebugControl2.Execute
+- IDebugControl3.Execute
 product:
 - Windows
 targetos: Windows

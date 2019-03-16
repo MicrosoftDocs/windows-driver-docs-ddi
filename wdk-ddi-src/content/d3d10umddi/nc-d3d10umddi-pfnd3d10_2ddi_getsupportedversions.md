@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_2DDI_GETSUPPORTEDVERSIONS
-title: PFND3D10_2DDI_GETSUPPORTEDVERSIONS
+title: PFND3D10_2DDI_GETSUPPORTEDVERSIONS (d3d10umddi.h)
 description: The GetSupportedVersions function queries for the Direct3D interface versions that the driver supports.
 old-location: display\getsupportedversions.htm
 ms.assetid: b38683f3-42f2-4f5e-9482-f72e9f2e0a34
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	GetSupportedVersions
+- GetSupportedVersions
 product:
 - Windows
 targetos: Windows

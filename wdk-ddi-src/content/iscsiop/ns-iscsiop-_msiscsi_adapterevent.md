@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_AdapterEvent
-title: "_MSiSCSI_AdapterEvent"
+title: _MSiSCSI_AdapterEvent (iscsiop.h)
 description: The MSiSCSI_AdapterEvent structure contains information that is reported whenever an adapter event occurs.
 old-location: storage\msiscsi_adapterevent.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	MSiSCSI_AdapterEvent
+- MSiSCSI_AdapterEvent
 product:
 - Windows
 targetos: Windows

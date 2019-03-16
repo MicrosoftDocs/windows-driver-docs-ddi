@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OpenLogFile2Wide
-title: IDebugControl4::OpenLogFile2Wide
+title: IDebugControl4::OpenLogFile2Wide (dbgeng.h)
 description: The OpenLogFile2Wide method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile2wide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.OpenLogFile2Wide
+- IDebugControl4.OpenLogFile2Wide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_PD_POWER_DATA_OBJECT_TYPE
-title: _USBC_PD_POWER_DATA_OBJECT_TYPE
+title: _USBC_PD_POWER_DATA_OBJECT_TYPE (usbctypes.h)
 description: Defines Power Data Object types.
 ms.assetid: 12eea3e2-18dc-4c5a-a97d-4776e6c85180
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_PD_POWER_DATA_OBJECT_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PD_POWER_DATA_OBJECT_TYPE
-product: Windows
+- _USBC_PD_POWER_DATA_OBJECT_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

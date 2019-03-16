@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER3
-title: "_CMP_CONNECT_VER3"
+title: _CMP_CONNECT_VER3 (61883.h)
 description: This structure contains information for a connection request.
 old-location: ieee\cmp_connect_ver3.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_CONNECT_VER3
+- CMP_CONNECT_VER3
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:nfcsedev._SECURE_ELEMENT_TYPE
-title: "_SECURE_ELEMENT_TYPE"
+title: _SECURE_ELEMENT_TYPE (nfcsedev.h)
 description: Indicates the type of a secure element.
 old-location: nfpdrivers\_secure_element_type.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+- SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 product:
 - Windows
 targetos: Windows

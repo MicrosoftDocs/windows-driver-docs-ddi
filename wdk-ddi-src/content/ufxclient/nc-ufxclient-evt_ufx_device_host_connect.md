@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_HOST_CONNECT
-title: EVT_UFX_DEVICE_HOST_CONNECT
+title: EVT_UFX_DEVICE_HOST_CONNECT (ufxclient.h)
 description: The client driver's implementation to initiate connection with the host.
 old-location: buses\evt_ufx_device_host_connect.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_HOST_CONNECT
+- PFN_UFX_DEVICE_HOST_CONNECT
 product:
 - Windows
 targetos: Windows

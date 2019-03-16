@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_LPI_COMPLETE
-title: "_PEP_PPM_LPI_COMPLETE"
+title: _PEP_PPM_LPI_COMPLETE (pep_x.h)
 description: The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor.
 old-location: kernel\pep_ppm_query_feedback_counters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_FEEDBACK_COUNTERS
+- PEP_PPM_QUERY_FEEDBACK_COUNTERS
 product:
 - Windows
 targetos: Windows

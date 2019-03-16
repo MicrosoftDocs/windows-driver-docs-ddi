@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCloseConfiguration
-title: NdisCloseConfiguration function
+title: NdisCloseConfiguration function (ndis.h)
 description: The NdisCloseConfiguration function releases the handle to the registry key that was returned by the NdisOpenConfigurationEx, NdisOpenConfigurationKeyByIndex, or NdisOpenConfigurationKeyByName function.
 old-location: netvista\ndiscloseconfiguration.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCloseConfiguration
+- NdisCloseConfiguration
 product:
 - Windows
 targetos: Windows

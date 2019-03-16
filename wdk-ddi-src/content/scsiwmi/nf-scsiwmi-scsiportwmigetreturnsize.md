@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiGetReturnSize
-title: ScsiPortWmiGetReturnSize macro
+title: ScsiPortWmiGetReturnSize macro (scsiwmi.h)
 description: The ScsiPortWmiGetReturnSize routine indicates the number of bytes of data to be returned by a miniport driver for a WMI SRB.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwmigetreturnsize.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	ScsiPortWmiGetReturnSize
+- ScsiPortWmiGetReturnSize
 product:
 - Windows
 targetos: Windows

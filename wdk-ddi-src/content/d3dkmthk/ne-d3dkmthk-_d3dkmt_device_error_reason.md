@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICE_ERROR_REASON
-title: _D3DKMT_DEVICE_ERROR_REASON
+title: _D3DKMT_DEVICE_ERROR_REASON (d3dkmthk.h)
 description: Device error reasons.
 ms.assetid: a8c1f1c5-4de8-4a64-812f-863ee5bb843d
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_DEVICE_ERROR_REASON
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEVICE_ERROR_REASON
+- _D3DKMT_DEVICE_ERROR_REASON
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

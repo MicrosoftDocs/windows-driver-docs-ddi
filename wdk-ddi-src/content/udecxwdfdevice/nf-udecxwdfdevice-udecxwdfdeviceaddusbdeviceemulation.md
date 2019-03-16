@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceAddUsbDeviceEmulation
-title: UdecxWdfDeviceAddUsbDeviceEmulation function
+title: UdecxWdfDeviceAddUsbDeviceEmulation function (udecxwdfdevice.h)
 description: Initializes a framework device object to support operations related to a host controller and a virtual USB device attached to the controller.
 old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxWdfDeviceAddUsbDeviceEmulation
+- UdecxWdfDeviceAddUsbDeviceEmulation
 product:
 - Windows
 targetos: Windows

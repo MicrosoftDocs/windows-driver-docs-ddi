@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile
-title: IWDFFile
+title: IWDFFile (wudfddi.h)
 description: The IWDFFile interface exposes the file object that represents the HANDLE that is returned by the Microsoft Win32 CreateFile function.
 old-location: wdf\iwdffile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFile
+- IWDFFile
 product:
 - Windows
 targetos: Windows

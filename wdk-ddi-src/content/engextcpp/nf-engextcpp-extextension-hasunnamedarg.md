@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.HasUnnamedArg
-title: ExtExtension::HasUnnamedArg
+title: ExtExtension::HasUnnamedArg (engextcpp.h)
 description: The HasUnnamedArg method indicates whether a specified unnamed argument is present in the command line used to invoke the current extension command.
 old-location: debugger\hasunnamedarg.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.HasUnnamedArg
+- ExtExtension.HasUnnamedArg
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE2
-title: "_D3DDDICB_DEALLOCATE2"
+title: _D3DDDICB_DEALLOCATE2 (d3dumddi.h)
 description: The D3DDDICB_DEALLOCATE2 structure describes parameters for releasing allocations with pfnDeallocate2Cb.
 old-location: display\d3dddicb_deallocate2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_DEALLOCATE2
+- D3DDDICB_DEALLOCATE2
 product:
 - Windows
 targetos: Windows

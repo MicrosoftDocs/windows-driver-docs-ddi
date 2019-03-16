@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCchCopyStringN
-title: RtlUnicodeStringCchCopyStringN function
+title: RtlUnicodeStringCchCopyStringN function (ntstrsafe.h)
 description: The RtlUnicodeStringCchCopyStringN function copies a string into a UNICODE_STRING structure while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcopystringn.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlUnicodeStringCchCopyStringN
+- RtlUnicodeStringCchCopyStringN
 product:
 - Windows
 targetos: Windows

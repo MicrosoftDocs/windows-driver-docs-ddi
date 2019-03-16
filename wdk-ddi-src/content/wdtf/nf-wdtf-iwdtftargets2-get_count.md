@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_Count
-title: IWDTFTargets2::get_Count
+title: IWDTFTargets2::get_Count (wdtf.h)
 description: Gets the number of items in this collection.
 old-location: dtf\iwdtftargets2_count.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Count
--	IWDTFTargets2.get_Count
+- IWDTFTargets2.Count
+- IWDTFTargets2.get_Count
 product:
 - Windows
 targetos: Windows

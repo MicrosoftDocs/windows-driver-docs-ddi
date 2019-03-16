@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.GetDeviceDescription
-title: IMiniportWaveRT::GetDeviceDescription
+title: IMiniportWaveRT::GetDeviceDescription (portcls.h)
 description: The GetDeviceDescription method returns a pointer to a DEVICE_DESCRIPTION structure describing the device.
 old-location: audio\iminiportwavert_getdevicedescription.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRT.GetDeviceDescription
+- IMiniportWaveRT.GetDeviceDescription
 product:
 - Windows
 targetos: Windows

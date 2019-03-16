@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_START
-title: EVT_UCX_ENDPOINT_START
+title: EVT_UCX_ENDPOINT_START (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to start the queue associated with the endpoint.
 old-location: buses\evt_ucx_endpoint_start.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_START
+- PEVT_UCX_ENDPOINT_START
 product:
 - Windows
 targetos: Windows

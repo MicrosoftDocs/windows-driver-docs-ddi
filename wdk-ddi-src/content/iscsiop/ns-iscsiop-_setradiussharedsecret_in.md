@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetRADIUSSharedSecret_IN
-title: "_SetRADIUSSharedSecret_IN"
+title: _SetRADIUSSharedSecret_IN (iscsiop.h)
 description: The SetRADIUSSharedSecret_IN structure holds the input data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SetRADIUSSharedSecret_IN
+- SetRADIUSSharedSecret_IN
 product:
 - Windows
 targetos: Windows

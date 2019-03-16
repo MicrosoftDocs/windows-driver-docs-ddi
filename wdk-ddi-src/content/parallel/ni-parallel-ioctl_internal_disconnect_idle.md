@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_DISCONNECT_IDLE
-title: IOCTL_INTERNAL_DISCONNECT_IDLE
+title: IOCTL_INTERNAL_DISCONNECT_IDLE (parallel.h)
 description: The IOCTL_INTERNAL_DISCONNECT_IDLE request disconnects the IEEE 1284 operating modes that are set for a parallel device.
 old-location: parports\ioctl_internal_disconnect_idle.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_DISCONNECT_IDLE
+- IOCTL_INTERNAL_DISCONNECT_IDLE
 product:
 - Windows
 targetos: Windows

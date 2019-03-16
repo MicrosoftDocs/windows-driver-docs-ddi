@@ -1,6 +1,6 @@
 ---
 UID: NN:wiamindr_lh.IWiaMiniDrvTransferCallback
-title: IWiaMiniDrvTransferCallback
+title: IWiaMiniDrvTransferCallback (wiamindr_lh.h)
 description: This is a Callback interface that is called by the WIA mini-driver for stream-based transfers.
 old-location: image\iwiaminidrvtransfercallback.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiamindr_lh.h
+- Wiamindr_lh.h
 api_name:
--	IWiaMiniDrvTransferCallback
+- IWiaMiniDrvTransferCallback
 product:
 - Windows
 targetos: Windows

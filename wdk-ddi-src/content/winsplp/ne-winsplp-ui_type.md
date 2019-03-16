@@ -1,6 +1,6 @@
 ---
 UID: NE:winsplp.__unnamed_enum_1
-title: UI_TYPE
+title: UI_TYPE (winsplp.h)
 description: 
 old-location: print\ui_type.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	UI_TYPE
+- UI_TYPE
 product:
 - Windows
 targetos: Windows

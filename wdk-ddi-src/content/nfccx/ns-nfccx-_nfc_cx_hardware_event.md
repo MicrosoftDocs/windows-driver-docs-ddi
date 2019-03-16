@@ -1,6 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_HARDWARE_EVENT
-title: "_NFC_CX_HARDWARE_EVENT"
+title: _NFC_CX_HARDWARE_EVENT (nfccx.h)
 description: The NFC_CX_HARDWARE_EVENT structure is an input parameter to NfcCxHardwareEvent.
 old-location: nfpdrivers\nfc_cx_hardware_event.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	NFC_CX_HARDWARE_EVENT
+- NFC_CX_HARDWARE_EVENT
 product:
 - Windows
 targetos: Windows

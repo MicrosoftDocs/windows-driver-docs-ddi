@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._EXCLUSIVE_ACCESS_REQUEST_TYPE
-title: "_EXCLUSIVE_ACCESS_REQUEST_TYPE"
+title: _EXCLUSIVE_ACCESS_REQUEST_TYPE (ntddcdrm.h)
 description: The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used to report the exclusive access state of a CD-ROM device.
 old-location: storage\exclusive_access_request_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	EXCLUSIVE_ACCESS_REQUEST_TYPE
+- EXCLUSIVE_ACCESS_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

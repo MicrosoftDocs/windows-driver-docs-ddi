@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.FreePrintNamedPropertyArray
-title: FreePrintNamedPropertyArray function
+title: FreePrintNamedPropertyArray function (winspool.h)
 description: 
 old-location: print\freeprintnamedpropertyarray.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winspool.h
+- Winspool.h
 api_name:
--	FreePrintNamedPropertyArray
+- FreePrintNamedPropertyArray
 product:
 - Windows
 targetos: Windows

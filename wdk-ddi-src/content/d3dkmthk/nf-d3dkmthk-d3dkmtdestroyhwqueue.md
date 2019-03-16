@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyHwQueue
-title: D3DKMTDestroyHwQueue function
+title: D3DKMTDestroyHwQueue function (d3dkmthk.h)
 description: Used to destroy a hardware queue.
 old-location: display\d3dkmtdestroyhwqueue.htm
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTDestroyHwQueue
+- D3DKMTDestroyHwQueue
 product:
 - Windows
 targetos: Windows

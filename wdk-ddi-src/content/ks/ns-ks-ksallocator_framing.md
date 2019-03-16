@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_37
-title: KSALLOCATOR_FRAMING
+title: KSALLOCATOR_FRAMING (ks.h)
 description: The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 old-location: stream\ksallocator_framing.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSALLOCATOR_FRAMING
+- KSALLOCATOR_FRAMING
 product:
 - Windows
 targetos: Windows

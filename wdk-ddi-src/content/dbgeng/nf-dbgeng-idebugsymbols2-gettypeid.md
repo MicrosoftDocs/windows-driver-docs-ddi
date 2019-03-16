@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetTypeId
-title: IDebugSymbols2::GetTypeId
+title: IDebugSymbols2::GetTypeId (dbgeng.h)
 description: The GetTypeId method looks up the specified type and return its type ID.
 old-location: debugger\gettypeid.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetTypeId
--	IDebugSymbols2.GetTypeId
--	IDebugSymbols3.GetTypeId
+- IDebugSymbols.GetTypeId
+- IDebugSymbols2.GetTypeId
+- IDebugSymbols3.GetTypeId
 product:
 - Windows
 targetos: Windows

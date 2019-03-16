@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetKernelConnectionOptionsWide
-title: IDebugClient5::SetKernelConnectionOptionsWide
+title: IDebugClient5::SetKernelConnectionOptionsWide (dbgeng.h)
 description: The SetKernelConnectionOptionsWide method updates some of the connection options for a live kernel target.
 old-location: debugger\setkernelconnectionoptionswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.SetKernelConnectionOptionsWide
+- IDebugClient5.SetKernelConnectionOptionsWide
 product:
 - Windows
 targetos: Windows

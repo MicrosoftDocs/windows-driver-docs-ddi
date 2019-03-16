@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.ContinueAsync
-title: IWDTFSimpleIOStressAction2::ContinueAsync
+title: IWDTFSimpleIOStressAction2::ContinueAsync (wdtfinterfaces.h)
 description: Asynchronously signals the I/O to continue.
 old-location: dtf\iwdtfsimpleiostressaction2_continueasync.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.ContinueAsync
+- IWDTFSimpleIOStressAction2.ContinueAsync
 product:
 - Windows
 targetos: Windows

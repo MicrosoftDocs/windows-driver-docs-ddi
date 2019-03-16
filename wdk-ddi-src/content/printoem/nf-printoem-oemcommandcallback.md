@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCommandCallback
-title: OEMCommandCallback function
+title: OEMCommandCallback function (printoem.h)
 description: OEMCommandCallback function
 old-location: print\oemcommandcallback.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMCommandCallback
+- OEMCommandCallback
 product:
 - Windows
 targetos: Windows

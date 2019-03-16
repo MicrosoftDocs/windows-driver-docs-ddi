@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetBottomInstance
-title: FltGetBottomInstance function
+title: FltGetBottomInstance function (fltkernel.h)
 description: FltGetBottomInstance returns an opaque instance pointer for the minifilter driver instance, if there is one, that is attached at the bottom of the instance stack for a given volume.
 old-location: ifsk\fltgetbottominstance.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetBottomInstance
+- FltGetBottomInstance
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator.EvaluateExpression
-title: IDebugHostEvaluator::EvaluateExpression
+title: IDebugHostEvaluator::EvaluateExpression (dbgmodel.h)
 description: The EvaluateExpression method allows requests the debug host to evaluate a language (that is C++) expression and return the resulting value of that expression evaluation boxed as an IModelObject.
 ms.assetid: 3a5d84d6-39ba-46c0-a4e7-4e8134aa1b1a
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostEvaluator.EvaluateExpression
-product: Windows
+- IDebugHostEvaluator.EvaluateExpression
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

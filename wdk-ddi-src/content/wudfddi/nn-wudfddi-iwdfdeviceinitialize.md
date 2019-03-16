@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDeviceInitialize
-title: IWDFDeviceInitialize
+title: IWDFDeviceInitialize (wudfddi.h)
 description: The IWDFDeviceInitialize interface is a helper interface that the framework supplies as an input parameter to the driver's IDriverEntry::OnDeviceAdd method.
 old-location: wdf\iwdfdeviceinitialize.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize
+- IWDFDeviceInitialize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.GetPrintProcessorCapabilities
-title: GetPrintProcessorCapabilities function
+title: GetPrintProcessorCapabilities function (winsplp.h)
 description: A print processor's GetPrintProcessorCapabilities function returns capabilities associated with a specified input data type.
 old-location: print\getprintprocessorcapabilities.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	GetPrintProcessorCapabilities
+- GetPrintProcessorCapabilities
 product:
 - Windows
 targetos: Windows

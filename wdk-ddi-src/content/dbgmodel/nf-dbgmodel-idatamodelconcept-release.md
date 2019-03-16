@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.Release
-title: IDataModelConcept::Release
+title: IDataModelConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
 ms.assetid: c200852b-61de-4ac3-a12b-ed3b705336f6
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelConcept.Release
-product: Windows
+- IDataModelConcept.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

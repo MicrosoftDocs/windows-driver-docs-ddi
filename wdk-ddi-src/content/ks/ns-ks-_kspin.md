@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPIN
-title: "_KSPIN"
+title: _KSPIN (ks.h)
 description: The KSPIN structure describes an instantiated pin.
 old-location: stream\kspin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN
+- KSPIN
 product:
 - Windows
 targetos: Windows

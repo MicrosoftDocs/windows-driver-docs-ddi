@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_ENCRYPTIONBLT
-title: "_D3DDDIARG_ENCRYPTIONBLT"
+title: _D3DDDIARG_ENCRYPTIONBLT (d3dumddi.h)
 description: The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the EncryptionBlt function.
 old-location: display\d3dddiarg_encryptionblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_ENCRYPTIONBLT
+- D3DDDIARG_ENCRYPTIONBLT
 product:
 - Windows
 targetos: Windows

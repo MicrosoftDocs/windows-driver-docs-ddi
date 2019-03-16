@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDevicePropertySheets
-title: OEMDevicePropertySheets function
+title: OEMDevicePropertySheets function (printoem.h)
 description: OEMDevicePropertySheets function
 old-location: print\oemdevicepropertysheets.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDevicePropertySheets
+- OEMDevicePropertySheets
 product:
 - Windows
 targetos: Windows

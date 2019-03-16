@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifyregistration.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
+- IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
 product:
 - Windows
 targetos: Windows

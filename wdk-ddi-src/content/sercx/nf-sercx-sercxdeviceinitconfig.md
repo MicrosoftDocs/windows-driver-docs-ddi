@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxDeviceInitConfig
-title: SerCxDeviceInitConfig function
+title: SerCxDeviceInitConfig function (sercx.h)
 description: The SerCxDeviceInitConfig method is called by the serial controller driver to attach the serial framework extension (SerCx) to the I/O pipeline for a framework device object (FDO or PDO) that it is creating.
 old-location: serports\sercxdeviceinitconfig.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxDeviceInitConfig
+- SerCxDeviceInitConfig
 product:
 - Windows
 targetos: Windows

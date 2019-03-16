@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_FORMAT_TRACKS
-title: IOCTL_DISK_FORMAT_TRACKS
+title: IOCTL_DISK_FORMAT_TRACKS (ntdddisk.h)
 description: Formats the specified set of contiguous tracks on the disk.
 old-location: storage\ioctl_disk_format_tracks.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_FORMAT_TRACKS
+- IOCTL_DISK_FORMAT_TRACKS
 product:
 - Windows
 targetos: Windows

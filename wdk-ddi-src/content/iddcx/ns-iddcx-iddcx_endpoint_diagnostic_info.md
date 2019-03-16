@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-title: IDDCX_ENDPOINT_DIAGNOSTIC_INFO
+title: IDDCX_ENDPOINT_DIAGNOSTIC_INFO (iddcx.h)
 description: Gives information about the video data endpoint.
 old-location: display\iddcx_endpoint_diagnostic_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_ENDPOINT_DIAGNOSTIC_INFO
+- IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 product:
 - Windows
 targetos: Windows

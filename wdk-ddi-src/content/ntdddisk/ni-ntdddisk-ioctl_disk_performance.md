@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_PERFORMANCE
-title: IOCTL_DISK_PERFORMANCE
+title: IOCTL_DISK_PERFORMANCE (ntdddisk.h)
 description: Increments a reference counter that enables the collection of disk performance statistics, such as the numbers of bytes read and written since the driver last processed this request, for a corresponding disk monitoring application.
 old-location: storage\ioctl_disk_performance.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_PERFORMANCE
+- IOCTL_DISK_PERFORMANCE
 product:
 - Windows
 targetos: Windows

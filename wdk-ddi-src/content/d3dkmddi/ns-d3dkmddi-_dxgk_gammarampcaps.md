@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GAMMARAMPCAPS
-title: "_DXGK_GAMMARAMPCAPS"
+title: _DXGK_GAMMARAMPCAPS (d3dkmddi.h)
 description: The DXGK_GAMMARAMPCAPS structure identifies gamma-ramp capabilities of the display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_gammarampcaps.htm
 ms.assetid: 3e160700-5d90-4241-8ed4-8d87b545b9c3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GAMMARAMPCAPS
+- DXGK_GAMMARAMPCAPS
 product:
 - Windows
 targetos: Windows

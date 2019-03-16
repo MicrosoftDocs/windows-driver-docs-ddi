@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsDbcsInExpression~r1
-title: FsRtlIsDbcsInExpression function
+title: FsRtlIsDbcsInExpression function (ntifs.h)
 description: The FsRtlIsDbcsInExpression routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 old-location: ifsk\fsrtlisdbcsinexpression.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsDbcsInExpression
+- FsRtlIsDbcsInExpression
 product:
 - Windows
 targetos: Windows

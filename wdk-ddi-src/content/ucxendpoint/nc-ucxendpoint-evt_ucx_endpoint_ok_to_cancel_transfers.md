@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
-title: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
+title: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to notify the controller driver that it can complete cancelled transfers on the endpoint.
 old-location: buses\evt_ucx_endpoint_ok_to_cancel_transfers.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
+- PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS
 product:
 - Windows
 targetos: Windows

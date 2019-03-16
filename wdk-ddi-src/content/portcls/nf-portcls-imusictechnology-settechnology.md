@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMusicTechnology.SetTechnology
-title: IMusicTechnology::SetTechnology
+title: IMusicTechnology::SetTechnology (portcls.h)
 description: The SetTechnology method changes the Technology member of each KSDATARANGE_MUSIC structure in the data ranges for the miniport driver's pins.
 old-location: audio\imusictechnology_settechnology.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMusicTechnology.SetTechnology
+- IMusicTechnology.SetTechnology
 product:
 - Windows
 targetos: Windows

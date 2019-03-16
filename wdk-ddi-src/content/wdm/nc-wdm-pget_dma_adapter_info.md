@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_ADAPTER_INFO
-title: PGET_DMA_ADAPTER_INFO
+title: PGET_DMA_ADAPTER_INFO (wdm.h)
 description: The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel.
 old-location: kernel\getdmaadapterinfo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetDmaAdapterInfo
+- GetDmaAdapterInfo
 product:
 - Windows
 targetos: Windows

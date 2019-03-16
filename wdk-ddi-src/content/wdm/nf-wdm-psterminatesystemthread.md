@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsTerminateSystemThread
-title: PsTerminateSystemThread function
+title: PsTerminateSystemThread function (wdm.h)
 description: The PsTerminateSystemThread routine terminates the current system thread.
 old-location: kernel\psterminatesystemthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsTerminateSystemThread
+- PsTerminateSystemThread
 product:
 - Windows
 targetos: Windows

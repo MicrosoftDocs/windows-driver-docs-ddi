@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteContext
-title: FltDeleteContext function
+title: FltDeleteContext function (fltkernel.h)
 description: FltDeleteContext marks a specified context for deletion.
 old-location: ifsk\fltdeletecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltDeleteContext
+- FltDeleteContext
 product:
 - Windows
 targetos: Windows

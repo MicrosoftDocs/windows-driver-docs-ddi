@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PAPER_MARGIN
-title: "_PDEV_ADJUST_PAPER_MARGIN"
+title: _PDEV_ADJUST_PAPER_MARGIN (printoem.h)
 description: The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 old-location: print\pdev_adjust_paper_margin.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	PDEV_ADJUST_PAPER_MARGIN
+- PDEV_ADJUST_PAPER_MARGIN
 product:
 - Windows
 targetos: Windows

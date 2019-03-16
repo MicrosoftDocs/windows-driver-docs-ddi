@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoIsFileOpenedExclusively
-title: IoIsFileOpenedExclusively macro
+title: IoIsFileOpenedExclusively macro (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ioisfileopenedexclusively.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IoIsFileOpenedExclusively
+- IoIsFileOpenedExclusively
 product:
 - Windows
 targetos: Windows

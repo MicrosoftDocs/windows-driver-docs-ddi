@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_PIPE_INFORMATION
-title: "_USBD_PIPE_INFORMATION"
+title: _USBD_PIPE_INFORMATION (usb.h)
 description: The USBD_PIPE_INFORMATION structure is used by USB client drivers to hold information about a pipe from a specific interface.
 old-location: buses\usbd_pipe_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	USBD_PIPE_INFORMATION
+- USBD_PIPE_INFORMATION
 product:
 - Windows
 targetos: Windows

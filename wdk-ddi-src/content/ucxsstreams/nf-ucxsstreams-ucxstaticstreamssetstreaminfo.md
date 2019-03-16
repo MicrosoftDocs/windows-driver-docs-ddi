@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxsstreams.UcxStaticStreamsSetStreamInfo
-title: UcxStaticStreamsSetStreamInfo function
+title: UcxStaticStreamsSetStreamInfo function (ucxsstreams.h)
 description: Sets stream information for each stream enabled by the client driver.
 old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxsstreams.h
+- ucxsstreams.h
 api_name:
--	UcxStaticStreamsSetStreamInfo
+- UcxStaticStreamsSetStreamInfo
 product:
 - Windows
 targetos: Windows

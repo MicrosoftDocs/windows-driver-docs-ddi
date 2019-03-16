@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateNotificationEvent
-title: IoCreateNotificationEvent function
+title: IoCreateNotificationEvent function (wdm.h)
 description: The IoCreateNotificationEvent routine creates or opens a named notification event used to notify one or more threads of execution that an event has occurred.
 old-location: kernel\iocreatenotificationevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateNotificationEvent
+- IoCreateNotificationEvent
 product:
 - Windows
 targetos: Windows

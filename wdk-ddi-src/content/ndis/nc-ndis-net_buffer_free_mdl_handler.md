@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NET_BUFFER_FREE_MDL_HANDLER
-title: NET_BUFFER_FREE_MDL_HANDLER
+title: NET_BUFFER_FREE_MDL_HANDLER (ndis.h)
 description: The NetFreeMdl function frees an MDL that was previously allocated by the NetAllocateMdl function.
 old-location: netvista\netfreemdl.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NetFreeMdl
+- NetFreeMdl
 product:
 - Windows
 targetos: Windows

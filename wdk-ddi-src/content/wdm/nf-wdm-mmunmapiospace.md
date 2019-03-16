@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapIoSpace
-title: MmUnmapIoSpace function
+title: MmUnmapIoSpace function (wdm.h)
 description: The MmUnmapIoSpace routine unmaps a specified range of physical addresses previously mapped by MmMapIoSpace.
 old-location: kernel\mmunmapiospace.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnmapIoSpace
+- MmUnmapIoSpace
 product:
 - Windows
 targetos: Windows

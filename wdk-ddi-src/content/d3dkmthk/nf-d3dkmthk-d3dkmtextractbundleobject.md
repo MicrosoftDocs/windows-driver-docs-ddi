@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTExtractBundleObject
-title: D3DKMTExtractBundleObject function
+title: D3DKMTExtractBundleObject function (d3dkmthk.h)
 description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTExtractBundleObject
+- D3DKMTExtractBundleObject
 product:
 - Windows
 targetos: Windows

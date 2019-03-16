@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryInformationEnlistment
-title: ZwQueryInformationEnlistment function
+title: ZwQueryInformationEnlistment function (wdm.h)
 description: The ZwQueryInformationEnlistment routine retrieves information about a specified enlistment object.
 old-location: kernel\zwqueryinformationenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryInformationEnlistment
--	NtQueryInformationEnlistment
+- ZwQueryInformationEnlistment
+- NtQueryInformationEnlistment
 product:
 - Windows
 targetos: Windows

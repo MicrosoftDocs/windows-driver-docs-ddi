@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_CANUNLOAD
-title: PDEBUG_EXTENSION_CANUNLOAD
+title: PDEBUG_EXTENSION_CANUNLOAD (dbgeng.h)
 description: The DebugExtensionCanUnload callback function checks whether a debug extension can unload after the uninitialization call.
 old-location: debugger\debugextensioncanunload.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	DebugExtensionCanUnload
+- DebugExtensionCanUnload
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortRegisterBugcheckCallback
-title: VideoPortRegisterBugcheckCallback function
+title: VideoPortRegisterBugcheckCallback function (video.h)
 description: The VideoPortRegisterBugcheckCallback function allows a video miniport driver to register for, or hook, a callback that is invoked when a specified bug check occurs.
 old-location: display\videoportregisterbugcheckcallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortRegisterBugcheckCallback
+- VideoPortRegisterBugcheckCallback
 product:
 - Windows
 targetos: Windows

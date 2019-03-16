@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltInitializeFileLock
-title: FltInitializeFileLock function
+title: FltInitializeFileLock function (fltkernel.h)
 description: The FltInitializeFileLock routine initializes an opaque FILE_LOCK structure that the caller has allocated from paged pool.
 old-location: ifsk\fltinitializefilelock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltInitializeFileLock
+- FltInitializeFileLock
 product:
 - Windows
 targetos: Windows

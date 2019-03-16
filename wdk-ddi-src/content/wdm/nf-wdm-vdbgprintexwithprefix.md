@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.vDbgPrintExWithPrefix
-title: vDbgPrintExWithPrefix function
+title: vDbgPrintExWithPrefix function (wdm.h)
 description: The vDbgPrintExWithPrefix routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.
 old-location: devtest\vdbgprintexwithprefix.htm
 tech.root: devtest
@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL (see Comments section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	vDbgPrintExWithPrefix
+- vDbgPrintExWithPrefix
 product:
 - Windows
 targetos: Windows

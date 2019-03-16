@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_IEEE1284_NEGOTIATE
-title: IOCTL_IEEE1284_NEGOTIATE
+title: IOCTL_IEEE1284_NEGOTIATE (ntddpar.h)
 description: The IOCTL_IEEE1284_NEGOTIATE request sets the read and write protocols that are used for a parallel device.
 old-location: parports\ioctl_ieee1284_negotiate.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_IEEE1284_NEGOTIATE
+- IOCTL_IEEE1284_NEGOTIATE
 product:
 - Windows
 targetos: Windows

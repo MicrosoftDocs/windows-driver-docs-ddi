@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-title: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
+title: _DXGKARG_VALIDATEUPDATEALLOCPROPERTY (d3dkmddi.h)
 description: The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
 old-location: display\dxgkarg_validateupdateallocproperty.htm
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_VALIDATEUPDATEALLOCPROPERTY
+- DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 product:
 - Windows
 targetos: Windows

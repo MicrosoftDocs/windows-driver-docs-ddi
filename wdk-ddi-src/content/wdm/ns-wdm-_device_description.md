@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_DESCRIPTION
-title: "_DEVICE_DESCRIPTION"
+title: _DEVICE_DESCRIPTION (wdm.h)
 description: The DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA adapter.
 old-location: kernel\device_description.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_DESCRIPTION
+- DEVICE_DESCRIPTION
 product:
 - Windows
 targetos: Windows

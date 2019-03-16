@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
-title: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
+title: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT (d3dkmddi.h)
 description: The DxgkDdiSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\dxgkddisetdisplayprivatedriverformat.htm
 ms.assetid: 053fdf22-20c3-4b57-94f4-0613857abfa7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiSetDisplayPrivateDriverFormat
+- DxgkDdiSetDisplayPrivateDriverFormat
 product:
 - Windows
 targetos: Windows

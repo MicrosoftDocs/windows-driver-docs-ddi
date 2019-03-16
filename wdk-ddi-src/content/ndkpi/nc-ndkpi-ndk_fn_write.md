@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_WRITE
-title: NDK_FN_WRITE
+title: NDK_FN_WRITE (ndkpi.h)
 description: The NdkWrite (NDK_FN_WRITE) function posts a write request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_write.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkWrite
+- NdkWrite
 product:
 - Windows
 targetos: Windows

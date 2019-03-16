@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_0
-title: GNSS_SUPL_VERSION
+title: GNSS_SUPL_VERSION (gnssdriver.h)
 description: This structure contains SUPL version information.
 old-location: gnss\gnss_supl_version.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_SUPL_VERSION
+- GNSS_SUPL_VERSION
 product:
 - Windows
 targetos: Windows

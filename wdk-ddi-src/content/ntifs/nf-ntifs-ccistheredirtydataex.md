@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcIsThereDirtyDataEx
-title: CcIsThereDirtyDataEx function
+title: CcIsThereDirtyDataEx function (ntifs.h)
 description: The CcIsThereDirtyDataEx routine determines whether a volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydataex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcIsThereDirtyDataEx
+- CcIsThereDirtyDataEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2
-title: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2
+title: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 (dispmprt.h)
 description: Called by a display miniport driver to obtain the display information from the current power-on self-test (POST) display device or the previously running Windows Display Driver Model (WDDM) driver.
 old-location: display\dxgkcb_acquire_post_display_ownership2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkcbAcquirePostDisplayOwnership2
+- DxgkcbAcquirePostDisplayOwnership2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._RESOURCEMANAGER_COMPLETION_INFORMATION
-title: "_RESOURCEMANAGER_COMPLETION_INFORMATION"
+title: _RESOURCEMANAGER_COMPLETION_INFORMATION (wdm.h)
 description: The RESOURCEMANAGER_COMPLETION_INFORMATION structure is not used.
 old-location: kernel\resourcemanager_completion_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RESOURCEMANAGER_COMPLETION_INFORMATION
+- RESOURCEMANAGER_COMPLETION_INFORMATION
 product:
 - Windows
 targetos: Windows

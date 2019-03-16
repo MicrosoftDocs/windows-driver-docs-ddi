@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoRegisterFsRegistrationChange
-title: IoRegisterFsRegistrationChange function
+title: IoRegisterFsRegistrationChange function (ntifs.h)
 description: The IoRegisterFsRegistrationChange routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchange.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterFsRegistrationChange
+- IoRegisterFsRegistrationChange
 product:
 - Windows
 targetos: Windows

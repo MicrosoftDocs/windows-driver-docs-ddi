@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIDeviceObjectToProviderId
-title: IoWMIDeviceObjectToProviderId function
+title: IoWMIDeviceObjectToProviderId function (wdm.h)
 description: The IoWMIDeviceObjectToProviderId routine translates the specified device object into the corresponding WMI Provider ID.
 old-location: kernel\iowmideviceobjecttoproviderid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIDeviceObjectToProviderId
+- IoWMIDeviceObjectToProviderId
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_MULTIFUNC_IRB
-title: "_AVC_MULTIFUNC_IRB"
+title: _AVC_MULTIFUNC_IRB (avc.h)
 description: The AVC_MULTIFUNC_IRB structure contains other AV/C related structures in a union.
 old-location: stream\avc_multifunc_irb.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_MULTIFUNC_IRB
+- AVC_MULTIFUNC_IRB
 product:
 - Windows
 targetos: Windows

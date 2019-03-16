@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FEATURE_IMPLEMENTATION
-title: IDDCX_FEATURE_IMPLEMENTATION
+title: IDDCX_FEATURE_IMPLEMENTATION (iddcx.h)
 description: Enum used to indicate how a given supported feature is implemented.
 old-location: display\iddcx_feature_implementation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_FEATURE_IMPLEMENTATION
+- IDDCX_FEATURE_IMPLEMENTATION
 product:
 - Windows
 targetos: Windows

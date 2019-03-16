@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoStartPacket
-title: IoStartPacket function
+title: IoStartPacket function (wdm.h)
 description: The IoStartPacket routine calls the driver's StartIo routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
 old-location: kernel\iostartpacket.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoStartPacket
+- IoStartPacket
 product:
 - Windows
 targetos: Windows

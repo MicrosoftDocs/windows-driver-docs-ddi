@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_STREAM_CLOSE
-title: IOCTL_BTHHFP_STREAM_CLOSE
+title: IOCTL_BTHHFP_STREAM_CLOSE (bthhfpddi.h)
 description: The IOCTL_BTHHFP_STREAM_CLOSE IOCTL indicates that the client driver no longer requires the synchronous connection-oriented (SCO) channel for streaming audio.
 old-location: audio\ioctl_bthhfp_stream_close.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_STREAM_CLOSE
+- IOCTL_BTHHFP_STREAM_CLOSE
 product:
 - Windows
 targetos: Windows

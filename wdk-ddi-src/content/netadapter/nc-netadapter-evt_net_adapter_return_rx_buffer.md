@@ -1,6 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_RETURN_RX_BUFFER
-title: EVT_NET_ADAPTER_RETURN_RX_BUFFER
+title: EVT_NET_ADAPTER_RETURN_RX_BUFFER (netadapter.h)
 description: Implement this optional callback function to perform cleanup on a receive buffer for which you previously specified manual fragment allocation and attachment.
 tech.root: netvista
 ms.assetid: E999C47A-CAE1-42AB-9900-4118EFFAEE0D
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netadapter.h
-apiname: 
--	EVT_NET_ADAPTER_RETURN_RX_BUFFER
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netadapter.h
+api_name: 
+- EVT_NET_ADAPTER_RETURN_RX_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

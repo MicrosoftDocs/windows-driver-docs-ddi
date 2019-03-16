@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_17
-title: WRITE_USING_TOKEN_HEADER
+title: WRITE_USING_TOKEN_HEADER (scsi.h)
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	WRITE_USING_TOKEN_HEADER
+- WRITE_USING_TOKEN_HEADER
 product:
 - Windows
 targetos: Windows

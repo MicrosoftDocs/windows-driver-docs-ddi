@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_TRANSMIT_CANCEL_DRAIN_FIFO
-title: EVT_SERCX2_PIO_TRANSMIT_CANCEL_DRAIN_FIFO
+title: EVT_SERCX2_PIO_TRANSMIT_CANCEL_DRAIN_FIFO (sercx.h)
 description: The EvtSerCx2PioTransmitCancelDrainFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a previous request to drain the transmit FIFO in the serial controller hardware.
 old-location: serports\evtsercx2piotransmitcanceldrainfifo.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2PioTransmitCancelDrainFifo
+- EvtSerCx2PioTransmitCancelDrainFifo
 product:
 - Windows
 targetos: Windows

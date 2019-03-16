@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNID_IN
-title: "_SendRNID_IN"
+title: _SendRNID_IN (hbapiwmi.h)
 description: The SendRNID_IN structure is used to deliver input parameter data to the SendRNID WMI method.
 old-location: storage\sendrnid_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SendRNID_IN
+- SendRNID_IN
 product:
 - Windows
 targetos: Windows

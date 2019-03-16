@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO
-title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO
+title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO (d3dkmddi.h)
 description: The pfnAcquireNextDescriptorInfo function returns the next descriptor in a monitor descriptor set, given the current descriptor.
 old-location: display\dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo.htm
 ms.assetid: 34d048df-d4a1-4ef5-b917-791f35de9e3a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireNextDescriptorInfo
+- pfnAcquireNextDescriptorInfo
 product:
 - Windows
 targetos: Windows

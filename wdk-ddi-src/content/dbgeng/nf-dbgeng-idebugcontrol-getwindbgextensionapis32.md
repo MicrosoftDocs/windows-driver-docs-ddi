@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetWindbgExtensionApis32
-title: IDebugControl::GetWindbgExtensionApis32
+title: IDebugControl::GetWindbgExtensionApis32 (dbgeng.h)
 description: The GetWindbgExtensionApis32 method returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\idebugcontrol_getwindbgextensionapis32.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetWindbgExtensionApis32
--	IDebugControl2.GetWindbgExtensionApis32
--	IDebugControl3.GetWindbgExtensionApis32
+- IDebugControl.GetWindbgExtensionApis32
+- IDebugControl2.GetWindbgExtensionApis32
+- IDebugControl3.GetWindbgExtensionApis32
 product:
 - Windows
 targetos: Windows

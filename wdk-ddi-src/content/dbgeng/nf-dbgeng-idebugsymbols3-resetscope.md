@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.ResetScope
-title: IDebugSymbols3::ResetScope
+title: IDebugSymbols3::ResetScope (dbgeng.h)
 description: The ResetScope method resets the current scope to the default scope of the current thread.
 old-location: debugger\resetscope.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols.ResetScope
--	IDebugSymbols2.ResetScope
--	IDebugSymbols3.ResetScope
+- IDebugSymbols.ResetScope
+- IDebugSymbols2.ResetScope
+- IDebugSymbols3.ResetScope
 product:
 - Windows
 targetos: Windows

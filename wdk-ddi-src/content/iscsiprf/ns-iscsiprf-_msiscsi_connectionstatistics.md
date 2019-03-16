@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_ConnectionStatistics
-title: "_MSiSCSI_ConnectionStatistics"
+title: _MSiSCSI_ConnectionStatistics (iscsiprf.h)
 description: The MSiSCSI_ConnectionStatistics structure is used by iSCSI initiators to report statistics for a connection within a session.
 old-location: storage\msiscsi_connectionstatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_ConnectionStatistics
+- MSiSCSI_ConnectionStatistics
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
-title: PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
+title: PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS (d3dkmthk.h)
 description: The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function releases the video present network source owners for a process.
 ms.assetid: e4a406fc-dd63-4fb9-a783-96fa483c92af
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
+- PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_EVICTCB
-title: PFND3DDDI_EVICTCB
+title: PFND3DDDI_EVICTCB (d3dumddi.h)
 description: pfnEvictCb is used to instruct the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\pfnevictcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnEvictCb
+- pfnEvictCb
 product:
 - Windows
 targetos: Windows

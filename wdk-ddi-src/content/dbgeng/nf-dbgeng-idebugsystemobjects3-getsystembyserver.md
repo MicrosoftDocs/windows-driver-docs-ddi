@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetSystemByServer
-title: IDebugSystemObjects3::GetSystemByServer
+title: IDebugSystemObjects3::GetSystemByServer (dbgeng.h)
 description: Gets the system for a server.
 old-location: debugger\idebugsystemobjects3_getsystembyserver.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetSystemByServer
+- IDebugSystemObjects3.GetSystemByServer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.XcvDataPort
-title: XcvDataPort function
+title: XcvDataPort function (winsplp.h)
 description: A port monitor server DLL's XcvDataPort function receives information from, and returns information to, the port monitor's UI DLL.
 old-location: print\xcvdataport.htm
 tech.root: print
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	winsplp.h
-apiname:
--	XcvDataPort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- winsplp.h
+api_name:
+- XcvDataPort
 product:
 - Windows
 targetos: Windows

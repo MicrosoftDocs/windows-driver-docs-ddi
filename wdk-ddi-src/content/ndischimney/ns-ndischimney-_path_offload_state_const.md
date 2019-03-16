@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._PATH_OFFLOAD_STATE_CONST
-title: "_PATH_OFFLOAD_STATE_CONST"
+title: _PATH_OFFLOAD_STATE_CONST (ndischimney.h)
 description: The PATH_OFFLOAD_STATE_CONST structure contains the constant variables of a path state object.
 old-location: netvista\path_offload_state_const.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	PATH_OFFLOAD_STATE_CONST
+- PATH_OFFLOAD_STATE_CONST
 product:
 - Windows
 targetos: Windows

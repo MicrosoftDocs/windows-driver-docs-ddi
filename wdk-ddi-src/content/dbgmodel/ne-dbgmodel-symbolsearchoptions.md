@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.SymbolSearchOptions
-title: SymbolSearchOptions
+title: SymbolSearchOptions (dbgmodel.h)
 description: Symbols search options.
 ms.assetid: b6a5df9d-42b8-4d3b-b9a7-84b89d8826be
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	SymbolSearchOptions
-product: Windows
+- SymbolSearchOptions
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMReadDmaCounter
-title: NdisMReadDmaCounter function
+title: NdisMReadDmaCounter function (ndis.h)
 description: The NdisMReadDmaCounter function returns the current value of the system DMA controller's counter.
 old-location: netvista\ndismreaddmacounter.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMReadDmaCounter
+- NdisMReadDmaCounter
 product:
 - Windows
 targetos: Windows

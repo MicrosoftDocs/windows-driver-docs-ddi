@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_RESPONSE
-title: "_HDAUDIO_CODEC_RESPONSE"
+title: _HDAUDIO_CODEC_RESPONSE (hdaudio.h)
 description: The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
 old-location: audio\hdaudio_codec_response.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_CODEC_RESPONSE
+- HDAUDIO_CODEC_RESPONSE
 product:
 - Windows
 targetos: Windows

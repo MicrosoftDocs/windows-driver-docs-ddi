@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltClose
-title: FltClose function
+title: FltClose function (fltkernel.h)
 description: FltClose closes a file handle that was opened by FltCreateFile or FltCreateFileEx.
 old-location: ifsk\fltclose.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltClose
+- FltClose
 product:
 - Windows
 targetos: Windows

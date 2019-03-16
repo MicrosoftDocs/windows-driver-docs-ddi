@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_EVENT_ASSOCIATION_ENUM
-title: "_STOR_EVENT_ASSOCIATION_ENUM"
+title: _STOR_EVENT_ASSOCIATION_ENUM (storport.h)
 description: The STOR_EVENT_ASSOCIATION_ENUM enumerator specifies the type of device that is associated with an event.
 old-location: storage\stor_event_association_enum.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_EVENT_ASSOCIATION_ENUM
+- STOR_EVENT_ASSOCIATION_ENUM
 product:
 - Windows
 targetos: Windows

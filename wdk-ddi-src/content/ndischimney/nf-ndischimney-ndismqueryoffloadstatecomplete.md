@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMQueryOffloadStateComplete
-title: NdisMQueryOffloadStateComplete function
+title: NdisMQueryOffloadStateComplete function (ndischimney.h)
 description: An offload target calls the NdisMQueryOffloadStateComplete function to complete a query offload operation that was initiated by a previous call to the offload target's MiniportQueryOffload function.
 old-location: netvista\ndismqueryoffloadstatecomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMQueryOffloadStateComplete
+- NdisMQueryOffloadStateComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_OFFERRESOURCES
-title: "_DXGI_DDI_ARG_OFFERRESOURCES"
+title: _DXGI_DDI_ARG_OFFERRESOURCES (dxgiddi.h)
 description: Describes video memory resources that the user-mode display driver offers for reuse. Used with the pfnOfferResources function. Used with the pfnReclaimResources function by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_offerresources.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_OFFERRESOURCES
+- DXGI_DDI_ARG_OFFERRESOURCES
 product:
 - Windows
 targetos: Windows

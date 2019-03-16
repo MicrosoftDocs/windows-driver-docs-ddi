@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsPartialPlaceholderFileInfo
-title: RtlIsPartialPlaceholderFileInfo function
+title: RtlIsPartialPlaceholderFileInfo function (ntifs.h)
 description: The RtlIsPartialPlaceholderFileInfo routine determines if a file is a known type of placeholder, based on the information returned by NtQueryInformationFile or NtQueryDirectoryFile.
 old-location: ifsk\rtlispartialplaceholderfileinfo.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	RtlIsPartialPlaceholderFileInfo
+- RtlIsPartialPlaceholderFileInfo
 product:
 - Windows
 targetos: Windows

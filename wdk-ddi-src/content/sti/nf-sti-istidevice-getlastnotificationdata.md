@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetLastNotificationData
-title: IStiDevice::GetLastNotificationData
+title: IStiDevice::GetLastNotificationData (sti.h)
 description: The IStiDevice::GetLastNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istidevice_getlastnotificationdata.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.GetLastNotificationData
+- IStiDevice.GetLastNotificationData
 product:
 - Windows
 targetos: Windows

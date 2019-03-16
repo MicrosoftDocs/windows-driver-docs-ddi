@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_DEREFERENCE_SWITCH_NIC
-title: NDIS_SWITCH_DEREFERENCE_SWITCH_NIC
+title: NDIS_SWITCH_DEREFERENCE_SWITCH_NIC (ndis.h)
 description: The DereferenceSwitchNic function decrements the Hyper-V extensible switch reference counter for a network adapter that is connected to an extensible switch port. The reference counter was incremented through a previous call to ReferenceSwitchNic.
 old-location: netvista\DereferenceSwitchNic.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	DereferenceSwitchNic
+- DereferenceSwitchNic
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObjectEx
-title: IoCreateStreamFileObjectEx function
+title: IoCreateStreamFileObjectEx function (ntifs.h)
 description: The IoCreateStreamFileObjectEx routine creates a new stream file object.
 old-location: ifsk\iocreatestreamfileobjectex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateStreamFileObjectEx
+- IoCreateStreamFileObjectEx
 product:
 - Windows
 targetos: Windows

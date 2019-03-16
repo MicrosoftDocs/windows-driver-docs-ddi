@@ -1,6 +1,6 @@
 ---
 UID: NS:storduid._STORAGE_DEVICE_LAYOUT_SIGNATURE
-title: "_STORAGE_DEVICE_LAYOUT_SIGNATURE"
+title: _STORAGE_DEVICE_LAYOUT_SIGNATURE (storduid.h)
 description: The STORAGE_DEVICE_LAYOUT_SIGNATURE structure defines a device layout structure.
 old-location: storage\storage_device_layout_signature.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storduid.h
+- storduid.h
 api_name:
--	STORAGE_DEVICE_LAYOUT_SIGNATURE
+- STORAGE_DEVICE_LAYOUT_SIGNATURE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
-title: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function
+title: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function (netadapter.h)
 description: Initializes the NET_ADAPTER_LINK_LAYER_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: f73e2515-c7e3-46f0-b5bd-741c24e65cbd
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

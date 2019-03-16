@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_GET_DEVICE_ATTRIBUTES
-title: IOCTL_HID_GET_DEVICE_ATTRIBUTES
+title: IOCTL_HID_GET_DEVICE_ATTRIBUTES (hidport.h)
 description: The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure.
 old-location: hid\ioctl_hid_get_device_attributes.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_GET_DEVICE_ATTRIBUTES
+- IOCTL_HID_GET_DEVICE_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

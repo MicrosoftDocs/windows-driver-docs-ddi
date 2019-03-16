@@ -1,6 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintSchemaConstrainedSetting
-title: tagPrintSchemaConstrainedSetting
+title: tagPrintSchemaConstrainedSetting (printerextension.h)
 description: The PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The constrained attribute appears only in a PrintCapabilities document.
 old-location: print\printschemaconstrainedsetting.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	PrintSchemaConstrainedSetting
+- PrintSchemaConstrainedSetting
 product:
 - Windows
 targetos: Windows

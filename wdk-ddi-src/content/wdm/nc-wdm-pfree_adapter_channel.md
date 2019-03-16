@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFREE_ADAPTER_CHANNEL
-title: PFREE_ADAPTER_CHANNEL
+title: PFREE_ADAPTER_CHANNEL (wdm.h)
 description: The FreeAdapterChannel routine releases the system DMA controller when a driver has completed all DMA operations necessary to satisfy the current IRP.
 old-location: kernel\freeadapterchannel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	FreeAdapterChannel
+- FreeAdapterChannel
 product:
 - Windows
 targetos: Windows

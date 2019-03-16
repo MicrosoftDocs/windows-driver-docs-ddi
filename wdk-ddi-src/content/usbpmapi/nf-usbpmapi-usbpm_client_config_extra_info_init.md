@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
-title: USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT function
+title: USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_CLIENT_CONFIG_EXTRA_INFO** structure.
 ms.assetid: 01f43080-0135-4de2-8c65-bb70a4a0e7ef
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
-product: Windows
+- USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
+product:
+- Windows
 targetos: Windows
 
 

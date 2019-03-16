@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEFRAG_ESCAPE_OPERATION
-title: _D3DKMT_DEFRAG_ESCAPE_OPERATION
+title: _D3DKMT_DEFRAG_ESCAPE_OPERATION (d3dkmthk.h)
 description: Defragmentation escape operations.
 ms.assetid: 50c09c88-672c-492c-bbd6-6f25ecb2ed50
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_DEFRAG_ESCAPE_OPERATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEFRAG_ESCAPE_OPERATION
+- _D3DKMT_DEFRAG_ESCAPE_OPERATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

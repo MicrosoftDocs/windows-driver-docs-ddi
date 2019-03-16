@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_CD_TEXT_DATA_BLOCK
-title: "_CDROM_TOC_CD_TEXT_DATA_BLOCK"
+title: _CDROM_TOC_CD_TEXT_DATA_BLOCK (ntddcdrm.h)
 description: This structure contains CD text descriptor data used in conjunction with the data in the CDROM_TOC_CD_TEXT_DATA structure.
 old-location: storage\cdrom_toc_cd_text_data_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_TOC_CD_TEXT_DATA_BLOCK
+- CDROM_TOC_CD_TEXT_DATA_BLOCK
 product:
 - Windows
 targetos: Windows

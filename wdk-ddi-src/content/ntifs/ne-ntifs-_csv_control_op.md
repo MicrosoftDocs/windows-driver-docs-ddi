@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._CSV_CONTROL_OP
-title: _CSV_CONTROL_OP
+title: _CSV_CONTROL_OP (ntifs.h)
 description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
 tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntifs.h
-apiname: 
--	_CSV_CONTROL_OP
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntifs.h
+api_name: 
+- _CSV_CONTROL_OP
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

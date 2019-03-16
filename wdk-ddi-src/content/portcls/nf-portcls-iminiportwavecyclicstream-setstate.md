@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.SetState
-title: IMiniportWaveCyclicStream::SetState
+title: IMiniportWaveCyclicStream::SetState (portcls.h)
 description: The SetState method sets the new state of playback or recording for the stream.
 old-location: audio\iminiportwavecyclicstream_setstate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveCyclicStream.SetState
+- IMiniportWaveCyclicStream.SetState
 product:
 - Windows
 targetos: Windows

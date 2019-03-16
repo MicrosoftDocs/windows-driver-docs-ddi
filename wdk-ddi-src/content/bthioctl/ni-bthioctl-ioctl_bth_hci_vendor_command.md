@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_HCI_VENDOR_COMMAND
-title: IOCTL_BTH_HCI_VENDOR_COMMAND
+title: IOCTL_BTH_HCI_VENDOR_COMMAND (bthioctl.h)
 description: The IOCTL_BTH_HCI_VENDOR_COMMAND request allows Bluetooth applications to send vendor-specific commands to radios.
 old-location: bltooth\ioctl_bth_hci_vendor_command.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_HCI_VENDOR_COMMAND
+- IOCTL_BTH_HCI_VENDOR_COMMAND
 product:
 - Windows
 targetos: Windows

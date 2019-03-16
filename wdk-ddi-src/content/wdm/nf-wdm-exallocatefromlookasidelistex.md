@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateFromLookasideListEx
-title: ExAllocateFromLookasideListEx function
+title: ExAllocateFromLookasideListEx function (wdm.h)
 description: The ExAllocateFromLookasideListEx routine removes the first entry from the specified lookaside list, or, if the list is empty, dynamically allocates the storage for a new entry.
 old-location: kernel\exallocatefromlookasidelistex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocateFromLookasideListEx
+- ExAllocateFromLookasideListEx
 product:
 - Windows
 targetos: Windows

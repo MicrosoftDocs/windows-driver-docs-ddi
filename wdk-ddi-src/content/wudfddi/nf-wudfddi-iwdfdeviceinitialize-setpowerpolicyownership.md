@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetPowerPolicyOwnership
-title: IWDFDeviceInitialize::SetPowerPolicyOwnership
+title: IWDFDeviceInitialize::SetPowerPolicyOwnership (wudfddi.h)
 description: The SetPowerPolicyOwnership method sets the ownership of the power policy to a driver or removes ownership from the driver.
 old-location: wdf\iwdfdeviceinitialize_setpowerpolicyownership.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize.SetPowerPolicyOwnership
+- IWDFDeviceInitialize.SetPowerPolicyOwnership
 product:
 - Windows
 targetos: Windows

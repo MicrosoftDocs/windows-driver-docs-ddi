@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWriteErrorLogEntry
-title: IoWriteErrorLogEntry function
+title: IoWriteErrorLogEntry function (wdm.h)
 description: The IoWriteErrorLogEntry routine queues a given error log packet to the system error logging thread.
 old-location: kernel\iowriteerrorlogentry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWriteErrorLogEntry
+- IoWriteErrorLogEntry
 product:
 - Windows
 targetos: Windows

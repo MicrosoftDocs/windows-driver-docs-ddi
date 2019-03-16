@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_SIGNAL_INDICATION
-title: "_WWAN_SET_SIGNAL_INDICATION"
+title: _WWAN_SET_SIGNAL_INDICATION (wwan.h)
 description: The WWAN_SET_SIGNAL_INDICATION structure represents the frequency of RSSI interval and RSSI threshold notifications.
 old-location: netvista\wwan_set_signal_indication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SET_SIGNAL_INDICATION
+- WWAN_SET_SIGNAL_INDICATION
 product:
 - Windows
 targetos: Windows

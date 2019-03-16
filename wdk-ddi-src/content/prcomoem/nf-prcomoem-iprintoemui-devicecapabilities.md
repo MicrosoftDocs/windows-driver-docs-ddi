@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DeviceCapabilities
-title: IPrintOemUI::DeviceCapabilities
+title: IPrintOemUI::DeviceCapabilities (prcomoem.h)
 description: The IPrintOemUI::DeviceCapabilities method enables a user interface plug-in to specify customized device capabilities.
 old-location: print\iprintoemui_devicecapabilities.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.DeviceCapabilities
+- IPrintOemUI.DeviceCapabilities
 product:
 - Windows
 targetos: Windows

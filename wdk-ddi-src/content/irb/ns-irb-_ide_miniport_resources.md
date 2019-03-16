@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_MINIPORT_RESOURCES
-title: "_IDE_MINIPORT_RESOURCES"
+title: _IDE_MINIPORT_RESOURCES (irb.h)
 description: The IDE_MINIPORT_RESOURCES structure is used by the port driver to provide the miniport driver with resources.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_miniport_resources.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_MINIPORT_RESOURCES
+- IDE_MINIPORT_RESOURCES
 product:
 - Windows
 targetos: Windows

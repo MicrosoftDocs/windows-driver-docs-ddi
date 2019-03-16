@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSetBit
-title: RtlSetBit function
+title: RtlSetBit function (wdm.h)
 description: The RtlSetBit routine sets the specified bit in a bitmap to one.
 old-location: kernel\rtlsetbit.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlSetBit
+- RtlSetBit
 product:
 - Windows
 targetos: Windows

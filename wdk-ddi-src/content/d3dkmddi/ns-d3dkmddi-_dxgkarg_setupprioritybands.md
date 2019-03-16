@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETUPPRIORITYBANDS
-title: _DXGKARG_SETUPPRIORITYBANDS
+title: _DXGKARG_SETUPPRIORITYBANDS (d3dkmddi.h)
 description: Arguments used in a call to DxgkddiSetupPriorityBands.
 ms.assetid: 971b5d7f-5423-476a-a89d-b1d3f7a84301
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETUPPRIORITYBANDS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_SETUPPRIORITYBANDS
+- _DXGKARG_SETUPPRIORITYBANDS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

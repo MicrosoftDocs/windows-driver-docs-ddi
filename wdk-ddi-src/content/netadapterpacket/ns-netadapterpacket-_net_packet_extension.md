@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapterpacket._NET_PACKET_EXTENSION
-title: _NET_PACKET_EXTENSION
+title: _NET_PACKET_EXTENSION (netadapterpacket.h)
 description: The NET_PACKET_EXTENSION structure contains packet extension information for either a net adapter or a datapath queue.
 tech.root: netvista
 ms.assetid: 39383b7d-e36d-42cd-8766-ac681375e3e0
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_EXTENSION, *PNET_PACKET_EXTENSION
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	_NET_PACKET_EXTENSION
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- _NET_PACKET_EXTENSION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

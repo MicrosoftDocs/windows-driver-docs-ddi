@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoPrimaries
-title: "_DXVA_VideoPrimaries"
+title: _DXVA_VideoPrimaries (dxva.h)
 description: The DXVA_VideoPrimaries enumeration type contains enumerators that identify the color primaries, which state which RGB basis functions are used.
 old-location: display\dxva_videoprimaries.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_VideoPrimaries
+- DXVA_VideoPrimaries
 product:
 - Windows
 targetos: Windows

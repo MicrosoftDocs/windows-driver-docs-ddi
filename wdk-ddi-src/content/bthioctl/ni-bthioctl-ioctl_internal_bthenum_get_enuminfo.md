@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
-title: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
+title: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO (bthioctl.h)
 description: The IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO request obtains information about the underlying device and service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\ioctl_internal_bthenum_get_enuminfo.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
+- IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
 product:
 - Windows
 targetos: Windows

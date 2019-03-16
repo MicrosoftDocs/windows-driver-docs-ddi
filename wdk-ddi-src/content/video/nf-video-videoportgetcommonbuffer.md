@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetCommonBuffer
-title: VideoPortGetCommonBuffer function
+title: VideoPortGetCommonBuffer function (video.h)
 description: The VideoPortGetCommonBuffer function is obsolete in Windows XP and later, and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportgetcommonbuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetCommonBuffer
+- VideoPortGetCommonBuffer
 product:
 - Windows
 targetos: Windows

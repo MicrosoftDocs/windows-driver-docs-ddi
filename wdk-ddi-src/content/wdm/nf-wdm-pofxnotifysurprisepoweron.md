@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxNotifySurprisePowerOn
-title: PoFxNotifySurprisePowerOn function
+title: PoFxNotifySurprisePowerOn function (wdm.h)
 description: The PoFxNotifySurprisePowerOn routine notifies the power management framework (PoFx) that a device was turned on as a side effect of supplying power to some other device.
 old-location: kernel\pofxnotifysurprisepoweron.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxNotifySurprisePowerOn
+- PoFxNotifySurprisePowerOn
 product:
 - Windows
 targetos: Windows

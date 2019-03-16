@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePci.Notify
-title: IPortWavePci::Notify
+title: IPortWavePci::Notify (portcls.h)
 description: The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred.
 old-location: audio\iportwavepci_notify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWavePci.Notify
+- IPortWavePci.Notify
 product:
 - Windows
 targetos: Windows

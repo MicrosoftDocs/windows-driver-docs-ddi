@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetDisplayPrivateDriverFormat
-title: D3DKMTSetDisplayPrivateDriverFormat function
+title: D3DKMTSetDisplayPrivateDriverFormat function (d3dkmthk.h)
 description: The D3DKMTSetDisplayPrivateDriverFormat function changes the private-format attribute of a video present source.
 old-location: display\d3dkmtsetdisplayprivatedriverformat.htm
 ms.assetid: 4b720076-161f-47b4-b410-f9554e502a53
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetDisplayPrivateDriverFormat
+- D3DKMTSetDisplayPrivateDriverFormat
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_ALIGN_SIZE_UP
-title: WDF_ALIGN_SIZE_UP function
+title: WDF_ALIGN_SIZE_UP function (wdfcore.h)
 description: The WDF_ALIGN_SIZE_UP function returns the next-higher buffer size that is aligned to a specified alignment offset.
 old-location: wdf\wdf_align_size_up.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any IRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WDF_ALIGN_SIZE_UP
+- WDF_ALIGN_SIZE_UP
 product:
 - Windows
 targetos: Windows

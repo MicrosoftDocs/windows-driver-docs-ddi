@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_ALGO_INFO
-title: "_OFFLOAD_ALGO_INFO"
+title: _OFFLOAD_ALGO_INFO (ntddndis.h)
 description: The OFFLOAD_ALGO_INFO structure specifies an algorithm used for a security association (SA).
 old-location: netvista\offload_algo_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	OFFLOAD_ALGO_INFO
+- OFFLOAD_ALGO_INFO
 product:
 - Windows
 targetos: Windows

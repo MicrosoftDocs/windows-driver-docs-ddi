@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMWriteLogData
-title: NdisMWriteLogData function
+title: NdisMWriteLogData function (ndis.h)
 description: NdisMWriteLogData transfers driver-supplied information into the log file for consumption and display by a driver-dedicated Win32 application.
 old-location: netvista\ndismwritelogdata.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMWriteLogData
+- NdisMWriteLogData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_31
-title: KSDEGRADE_STANDARD
+title: KSDEGRADE_STANDARD (ks.h)
 description: The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 old-location: stream\ksdegrade_standard.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSDEGRADE_STANDARD
+- KSDEGRADE_STANDARD
 product:
 - Windows
 targetos: Windows

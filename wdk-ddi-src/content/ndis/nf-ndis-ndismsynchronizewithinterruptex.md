@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMSynchronizeWithInterruptEx
-title: NdisMSynchronizeWithInterruptEx function
+title: NdisMSynchronizeWithInterruptEx function (ndis.h)
 description: Miniport drivers call the NdisMSynchronizeWithInterruptEx function to synchronize the execution of a miniport driver-supplied function with the MiniportInterrupt function.
 old-location: netvista\ndismsynchronizewithinterruptex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMSynchronizeWithInterruptEx
+- NdisMSynchronizeWithInterruptEx
 product:
 - Windows
 targetos: Windows

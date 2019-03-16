@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRACKEDWORKLOADDEADLINE
-title: _D3DKMT_TRACKEDWORKLOADDEADLINE
+title: _D3DKMT_TRACKEDWORKLOADDEADLINE (d3dkmthk.h)
 description: Arguments used to set the tracked workload deadline.
 ms.assetid: 96ac46b8-5328-4196-8ced-b5aaf869abdf
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_TRACKEDWORKLOADDEADLINE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRACKEDWORKLOADDEADLINE
+- _D3DKMT_TRACKEDWORKLOADDEADLINE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

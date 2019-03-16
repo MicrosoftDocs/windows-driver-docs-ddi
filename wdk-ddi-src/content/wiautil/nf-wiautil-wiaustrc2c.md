@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrC2C
-title: wiauStrC2C function
+title: wiauStrC2C function (wiautil.h)
 description: The wiauStrC2C function copies an ANSI character string to another ANSI character string.
 old-location: image\wiaustrc2c.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauStrC2C
+- wiauStrC2C
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONINFO
-title: "_D3DDDI_ALLOCATIONINFO"
+title: _D3DDDI_ALLOCATIONINFO (d3dukmdt.h)
 description: The D3DDDI_ALLOCATIONINFO structure describes an allocation.
 old-location: display\d3dddi_allocationinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_ALLOCATIONINFO
+- D3DDDI_ALLOCATIONINFO
 product:
 - Windows
 targetos: Windows

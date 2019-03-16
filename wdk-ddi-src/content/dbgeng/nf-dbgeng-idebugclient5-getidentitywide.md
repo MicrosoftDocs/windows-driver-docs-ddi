@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetIdentityWide
-title: IDebugClient5::GetIdentityWide
+title: IDebugClient5::GetIdentityWide (dbgeng.h)
 description: The GetIdentityWide method returns a string describing the computer and user this client represents.
 old-location: debugger\getidentitywide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetIdentityWide
+- IDebugClient5.GetIdentityWide
 product:
 - Windows
 targetos: Windows

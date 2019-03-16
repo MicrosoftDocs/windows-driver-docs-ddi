@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.CommonUIProp
-title: IPrintOemUI::CommonUIProp
+title: IPrintOemUI::CommonUIProp (prcomoem.h)
 description: The IPrintOemUI::CommonUIProp method allows a user interface plug-in to modify an existing printer property sheet page.
 old-location: print\iprintoemui_commonuiprop.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.CommonUIProp
+- IPrintOemUI.CommonUIProp
 product:
 - Windows
 targetos: Windows

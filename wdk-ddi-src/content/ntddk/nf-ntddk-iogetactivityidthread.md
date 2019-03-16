@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetActivityIdThread
-title: IoGetActivityIdThread function
+title: IoGetActivityIdThread function (ntddk.h)
 description: The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
 old-location: kernel\iogetactivityidthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetActivityIdThread
+- IoGetActivityIdThread
 product:
 - Windows
 targetos: Windows

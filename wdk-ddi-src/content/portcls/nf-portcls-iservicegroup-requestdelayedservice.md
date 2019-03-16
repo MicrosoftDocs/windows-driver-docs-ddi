@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RequestDelayedService
-title: IServiceGroup::RequestDelayedService
+title: IServiceGroup::RequestDelayedService (portcls.h)
 description: The RequestDelayedService method requests service after the specified delay.
 old-location: audio\iservicegroup_requestdelayedservice.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup.RequestDelayedService
+- IServiceGroup.RequestDelayedService
 product:
 - Windows
 targetos: Windows

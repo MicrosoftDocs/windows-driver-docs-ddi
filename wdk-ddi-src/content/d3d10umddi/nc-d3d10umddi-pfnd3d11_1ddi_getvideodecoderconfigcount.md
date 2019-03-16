@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT
-title: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT
+title: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT (d3d10umddi.h)
 description: Queries the number of video decoder configurations that are supported by the display miniport driver for the specified decoder operation.
 old-location: display\getvideodecoderconfigcount.htm
 ms.assetid: 5b4cc185-8579-4c13-932f-23065697c4ee
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetVideoDecoderConfigCount
+- pfnGetVideoDecoderConfigCount
 product:
 - Windows
 targetos: Windows

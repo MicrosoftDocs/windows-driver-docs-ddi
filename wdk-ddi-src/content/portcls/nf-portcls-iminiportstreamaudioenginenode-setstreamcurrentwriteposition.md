@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
-title: IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
+title: IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition (portcls.h)
 description: Sets the current cursor position in the audio data stream that is being captured from the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_setstreamcurrentwriteposition.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
+- IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition
 product:
 - Windows
 targetos: Windows

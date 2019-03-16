@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_25
-title: KSPPROPERTY_ALLOCATOR_MDLCACHING
+title: KSPPROPERTY_ALLOCATOR_MDLCACHING (ks.h)
 description: This enumeration is used internally by the operating system.
 old-location: stream\kspproperty_allocator_mdlcaching.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPPROPERTY_ALLOCATOR_MDLCACHING
+- KSPPROPERTY_ALLOCATOR_MDLCACHING
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeBaseMcb
-title: FsRtlInitializeBaseMcb function
+title: FsRtlInitializeBaseMcb function (ntifs.h)
 description: This routine initializes a new Mcb structure.  The caller must supply the memory for the Mcb structure.  This call must precede all other calls that set/query the Mcb structure.
 ms.assetid: 78f5f4e1-0756-4071-931c-3d8503ff1dab
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlInitializeBaseMcb
+- FsRtlInitializeBaseMcb
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

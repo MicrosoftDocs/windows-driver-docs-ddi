@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMISetSingleItem
-title: IoWMISetSingleItem function
+title: IoWMISetSingleItem function (wdm.h)
 description: The IoWMISetSingleItem routine sets a single property in the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMISetSingleItem
+- IoWMISetSingleItem
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_WORKITEM_ROUTINE_EX
-title: IO_WORKITEM_ROUTINE_EX
+title: IO_WORKITEM_ROUTINE_EX (wdm.h)
 description: A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine.
 old-location: kernel\workitemex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	WorkItemEx
+- WorkItemEx
 product:
 - Windows
 targetos: Windows

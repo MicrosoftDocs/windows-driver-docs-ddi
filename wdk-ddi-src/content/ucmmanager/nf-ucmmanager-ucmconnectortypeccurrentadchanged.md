@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorTypeCCurrentAdChanged
-title: UcmConnectorTypeCCurrentAdChanged function
+title: UcmConnectorTypeCCurrentAdChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) when the specified connector changes the current advertisement. Either the connector changes it (when it is DFP/Source), or the partner changed it (when it is UFP/Sink).
 old-location: buses\ucmconnectortypeccurrentadchanged.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	UcmCxstub.lib
--	UcmCxstub.dll
+- UcmCxstub.lib
+- UcmCxstub.dll
 api_name:
--	UcmConnectorTypeCCurrentAdChanged
+- UcmConnectorTypeCCurrentAdChanged
 product:
 - Windows
 targetos: Windows

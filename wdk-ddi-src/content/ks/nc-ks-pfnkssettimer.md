@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSSETTIMER
-title: PFNKSSETTIMER
+title: PFNKSSETTIMER (ks.h)
 description: A streaming minidriver's KStrSetTimer routine is called to generate DPC timer callbacks based on presentation time.
 old-location: stream\kstrsettimer.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrSetTimer
+- KStrSetTimer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeLookasideListEx
-title: ExInitializeLookasideListEx function
+title: ExInitializeLookasideListEx function (wdm.h)
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 old-location: kernel\exinitializelookasidelistex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInitializeLookasideListEx
+- ExInitializeLookasideListEx
 product:
 - Windows
 targetos: Windows

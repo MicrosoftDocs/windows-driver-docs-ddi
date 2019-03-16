@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_CONFIGURE_ROUTINE
-title: PCAM_CONFIGURE_ROUTINE
+title: PCAM_CONFIGURE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamConfigure callback function configures the isochronous streaming interface.
 old-location: stream\camconfigure.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	CamConfigure
+- CamConfigure
 product:
 - Windows
 targetos: Windows

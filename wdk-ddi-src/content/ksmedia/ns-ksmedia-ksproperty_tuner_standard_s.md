@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_99
-title: KSPROPERTY_TUNER_STANDARD_S
+title: KSPROPERTY_TUNER_STANDARD_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.
 old-location: stream\ksproperty_tuner_standard_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TUNER_STANDARD_S
+- KSPROPERTY_TUNER_STANDARD_S
 product:
 - Windows
 targetos: Windows

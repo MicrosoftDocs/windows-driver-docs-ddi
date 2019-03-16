@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryDpcWatchdogInformation
-title: KeQueryDpcWatchdogInformation function
+title: KeQueryDpcWatchdogInformation function (wdm.h)
 description: The KeQueryDpcWatchdogInformation routine returns the deferred procedure call (DPC) watchdog timer values for the current processor.
 old-location: kernel\kequerydpcwatchdoginformation.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryDpcWatchdogInformation
+- KeQueryDpcWatchdogInformation
 product:
 - Windows
 targetos: Windows

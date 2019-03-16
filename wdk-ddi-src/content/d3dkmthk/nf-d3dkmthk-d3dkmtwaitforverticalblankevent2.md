@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForVerticalBlankEvent2
-title: D3DKMTWaitForVerticalBlankEvent2 function
+title: D3DKMTWaitForVerticalBlankEvent2 function (d3dkmthk.h)
 description: Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
 old-location: display\d3dkmtwaitforverticalblankevent2.htm
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTWaitForVerticalBlankEvent2
+- D3DKMTWaitForVerticalBlankEvent2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_SET_THREAD_CONTEXT_ROUTINE
-title: PWINDBG_SET_THREAD_CONTEXT_ROUTINE
+title: PWINDBG_SET_THREAD_CONTEXT_ROUTINE (wdbgexts.h)
 description: The PWINDBG_SET_THREAD_CONTEXT_ROUTINE (SetContext) function is similar to the Win32 SetThreadContext routine. It sets the context of the process being debugged.
 old-location: debugger\setcontext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	SetContext
+- SetContext
 product:
 - Windows
 targetos: Windows

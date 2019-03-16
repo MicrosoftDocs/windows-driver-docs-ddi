@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PROVISIONED_CONTEXTS
-title: "_NDIS_WWAN_PROVISIONED_CONTEXTS"
+title: _NDIS_WWAN_PROVISIONED_CONTEXTS (ndiswwan.h)
 description: The NDIS_WWAN_PROVISIONED_CONTEXTS structure represents a list of provisioned contexts and the number of provisioned contexts in the list.
 old-location: netvista\ndis_wwan_provisioned_contexts.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_PROVISIONED_CONTEXTS
+- NDIS_WWAN_PROVISIONED_CONTEXTS
 product:
 - Windows
 targetos: Windows

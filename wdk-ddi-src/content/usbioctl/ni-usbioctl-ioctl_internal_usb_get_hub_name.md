@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_HUB_NAME
-title: IOCTL_INTERNAL_USB_GET_HUB_NAME
+title: IOCTL_INTERNAL_USB_GET_HUB_NAME (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_HUB_NAME I/O request is used by drivers to retrieve the UNICODE symbolic name for the target PDO if the PDO is for a hub.
 old-location: buses\ioctl_internal_usb_get_hub_name.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_GET_HUB_NAME
+- IOCTL_INTERNAL_USB_GET_HUB_NAME
 product:
 - Windows
 targetos: Windows

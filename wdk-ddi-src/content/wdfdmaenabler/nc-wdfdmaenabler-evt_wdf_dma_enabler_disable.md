@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_DISABLE
-title: EVT_WDF_DMA_ENABLER_DISABLE
+title: EVT_WDF_DMA_ENABLER_DISABLE (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerDisable event callback function disables a device's DMA capability before the device leaves its working (D0) state.
 old-location: wdf\evtdmaenablerdisable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaEnabler.h
+- WdfDmaEnabler.h
 api_name:
--	EvtDmaEnablerDisable
+- EvtDmaEnablerDisable
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_PATCH_CODES
-title: "_WIA_PATCH_CODES"
+title: _WIA_PATCH_CODES (wiadef.h)
 description: The WIA_PATCH_CODES structure stores header information for the patch code metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_patch_codes.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadef.h
+- wiadef.h
 api_name:
--	WIA_PATCH_CODES
+- WIA_PATCH_CODES
 product:
 - Windows
 targetos: Windows

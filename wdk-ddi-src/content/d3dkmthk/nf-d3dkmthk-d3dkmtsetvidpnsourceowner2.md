@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceOwner2
-title: D3DKMTSetVidPnSourceOwner2 function
+title: D3DKMTSetVidPnSourceOwner2 function (d3dkmthk.h)
 description: Used to set the VidPN source owner.
 old-location: display\d3dkmtsetvidpnsourceowner2.htm
 ms.assetid: 14ba3307-753f-4dca-8d4d-c87b3fee00a5
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTSetVidPnSourceOwner2
+- D3DKMTSetVidPnSourceOwner2
 product:
 - Windows
 targetos: Windows

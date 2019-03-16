@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO
-title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO
+title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO (d3d12umddi.h)
 description: The pfnCheckExistingResourceAllocationInfo callback function supports checking existing resource allocation information.
 ms.assetid: d93b90b4-3509-42bf-8ec2-2fc0bd47b2f9
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO
+- PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO
 product: 
 - Windows
 targetos: Windows

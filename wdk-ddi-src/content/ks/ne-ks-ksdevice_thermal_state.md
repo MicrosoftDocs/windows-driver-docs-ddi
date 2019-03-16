@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_29
-title: KSDEVICE_THERMAL_STATE
+title: KSDEVICE_THERMAL_STATE (ks.h)
 description: A KS-defined enumeration for thermal state changes.
 old-location: stream\ksdevice_thermal_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSDEVICE_THERMAL_STATE
+- KSDEVICE_THERMAL_STATE
 product:
 - Windows
 targetos: Windows

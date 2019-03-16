@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PRIVATEBUFFER
-title: "_DXVADDI_PRIVATEBUFFER"
+title: _DXVADDI_PRIVATEBUFFER (d3dumddi.h)
 description: The DXVADDI_PRIVATEBUFFER structure describes a private buffer that a nonstandard decoder uses to perform a decode operation.
 old-location: display\dxvaddi_privatebuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_PRIVATEBUFFER
+- DXVADDI_PRIVATEBUFFER
 product:
 - Windows
 targetos: Windows

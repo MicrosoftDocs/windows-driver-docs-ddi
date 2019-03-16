@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_CONTROLLER_CONFIGURATION
-title: "_MPIO_CONTROLLER_CONFIGURATION"
+title: _MPIO_CONTROLLER_CONFIGURATION (mpiowmi.h)
 description: The MPIO_CONTROLLER_CONFIGURATION structure provides a top-level view of the storage controllers and the targets that are connected to them in the system.
 old-location: storage\mpio_controller_configuration.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_CONTROLLER_CONFIGURATION
+- MPIO_CONTROLLER_CONFIGURATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.EnableObjectErrorLogging
-title: IWDTFAction2::EnableObjectErrorLogging
+title: IWDTFAction2::EnableObjectErrorLogging (wdtf.h)
 description: Enables object error logging for the action.
 old-location: dtf\iwdtfaction2_enableobjecterrorlogging.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFAction2.EnableObjectErrorLogging
+- IWDTFAction2.EnableObjectErrorLogging
 product:
 - Windows
 targetos: Windows

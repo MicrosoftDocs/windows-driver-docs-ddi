@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CHECKFORMATSUPPORT
-title: PFND3D10DDI_CHECKFORMATSUPPORT
+title: PFND3D10DDI_CHECKFORMATSUPPORT (d3d10umddi.h)
 description: Retrieves the capabilities that the device has with the specified format.
 old-location: display\checkformatsupport.htm
 ms.assetid: 463ab1e5-08b1-45a1-b7d8-bdfacb3d4bdb
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CheckFormatSupport
+- CheckFormatSupport
 product:
 - Windows
 targetos: Windows

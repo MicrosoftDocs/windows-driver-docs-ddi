@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_REGISTRATION
-title: "_WSK_REGISTRATION"
+title: _WSK_REGISTRATION (wsk.h)
 description: The WSK_REGISTRATION structure is used by the WSK subsystem to register or unregister a WSK application as a WSK client.
 old-location: netvista\wsk_registration.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_REGISTRATION
+- WSK_REGISTRATION
 product:
 - Windows
 targetos: Windows

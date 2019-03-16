@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberExpressionSyntaxes
-title: IDebugControl3::GetNumberExpressionSyntaxes
+title: IDebugControl3::GetNumberExpressionSyntaxes (dbgeng.h)
 description: The GetNumberExpressionSyntaxes method returns the number of expression syntaxes that are supported by the engine.
 old-location: debugger\getnumberexpressionsyntaxes.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetNumberExpressionSyntaxes
+- IDebugControl3.GetNumberExpressionSyntaxes
 product:
 - Windows
 targetos: Windows

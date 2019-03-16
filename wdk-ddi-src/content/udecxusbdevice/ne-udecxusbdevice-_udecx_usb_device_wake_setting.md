@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_USB_DEVICE_WAKE_SETTING
-title: "_UDECX_USB_DEVICE_WAKE_SETTING"
+title: _UDECX_USB_DEVICE_WAKE_SETTING (udecxusbdevice.h)
 description: Defines values for remote wake capability of a virtual USB device.
 old-location: buses\udecx_usb_device_wake_setting.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_USB_DEVICE_WAKE_SETTING
+- UDECX_USB_DEVICE_WAKE_SETTING
 product:
 - Windows
 targetos: Windows

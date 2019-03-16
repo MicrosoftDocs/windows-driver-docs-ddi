@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_ROTATION
-title: "_D3DDDI_ROTATION"
+title: _D3DDDI_ROTATION (d3dukmdt.h)
 description: The D3DDDI_ROTATION enumeration type contains values that identify the orientation of a resource.
 old-location: display\d3dddi_rotation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_ROTATION
+- D3DDDI_ROTATION
 product:
 - Windows
 targetos: Windows

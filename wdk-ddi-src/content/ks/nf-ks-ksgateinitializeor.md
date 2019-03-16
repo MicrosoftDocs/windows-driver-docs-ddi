@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateInitializeOr
-title: KsGateInitializeOr function
+title: KsGateInitializeOr function (ks.h)
 description: The KsGateInitializeOr function initializes a KSGATE structure as an OR gate and attaches it to the AND gate specified by NextAndGate.
 old-location: stream\ksgateinitializeor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateInitializeOr
+- KsGateInitializeOr
 product:
 - Windows
 targetos: Windows

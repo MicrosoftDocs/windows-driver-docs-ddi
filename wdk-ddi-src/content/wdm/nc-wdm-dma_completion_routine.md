@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DMA_COMPLETION_ROUTINE
-title: DMA_COMPLETION_ROUTINE
+title: DMA_COMPLETION_ROUTINE (wdm.h)
 description: The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete.
 old-location: kernel\dmacompletionroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DmaCompletionRoutine
+- DmaCompletionRoutine
 product:
 - Windows
 targetos: Windows

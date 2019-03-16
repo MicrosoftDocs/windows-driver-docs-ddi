@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializePushLock
-title: ExInitializePushLock function
+title: ExInitializePushLock function (wdm.h)
 description: Initializes a push lock variable.
 ms.assetid: fe5e8448-38e2-4317-99a7-1483649d5aeb
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
-api_type: 
--	
-api_location: 
--	
+- apiref
+api_type:
+- DllExport
+api_location:
+- NtosKrnl.exe
 api_name: 
--	ExInitializePushLock
-product: Windows
+- ExInitializePushLock
+product:
+- Windows
 targetos: Windows
 
 

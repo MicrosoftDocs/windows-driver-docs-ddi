@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoRegisterDeviceForIdleDetection
-title: PoRegisterDeviceForIdleDetection function
+title: PoRegisterDeviceForIdleDetection function (wdm.h)
 description: The PoRegisterDeviceForIdleDetection routine enables or cancels idle detection and sets idle time-out values for a device.
 old-location: kernel\poregisterdeviceforidledetection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoRegisterDeviceForIdleDetection
+- PoRegisterDeviceForIdleDetection
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoDeleteController
-title: IoDeleteController function
+title: IoDeleteController function (ntddk.h)
 description: The IoDeleteController routine removes a given controller object from the system, for example, when the driver that created it is being unloaded.
 old-location: kernel\iodeletecontroller.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDeleteController
+- IoDeleteController
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_DISABLE
-title: IOCTL_NFP_DISABLE
+title: IOCTL_NFP_DISABLE (nfpdev.h)
 description: A client sends the IOCTL_NFP_DISABLE request to temporarily disable subscriptions, publications, and presence events.
 old-location: nfpdrivers\ioctl_nfp_disable.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfpdev.h
+- nfpdev.h
 api_name:
--	IOCTL_NFP_DISABLE
+- IOCTL_NFP_DISABLE
 product:
 - Windows
 targetos: Windows

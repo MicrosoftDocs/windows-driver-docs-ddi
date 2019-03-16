@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._WORK_QUEUE_TYPE
-title: "_WORK_QUEUE_TYPE"
+title: _WORK_QUEUE_TYPE (wdm.h)
 description: The WORK_QUEUE_TYPE enumeration type indicates the type of system worker thread that handles a work item.
 old-location: kernel\work_queue_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	WORK_QUEUE_TYPE
+- WORK_QUEUE_TYPE
 product:
 - Windows
 targetos: Windows

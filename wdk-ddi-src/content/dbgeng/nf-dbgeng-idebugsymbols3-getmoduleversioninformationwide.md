@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleVersionInformationWide
-title: IDebugSymbols3::GetModuleVersionInformationWide
+title: IDebugSymbols3::GetModuleVersionInformationWide (dbgeng.h)
 description: The GetModuleVersionInformationWide method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformationwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetModuleVersionInformationWide
+- IDebugSymbols3.GetModuleVersionInformationWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryRuntimeThread
-title: KeQueryRuntimeThread function
+title: KeQueryRuntimeThread function (wdm.h)
 description: The KeQueryRuntimeThread routine reports the accumulated kernel-mode and user-mode run time of a thread, in clock ticks.
 old-location: kernel\kequeryruntimethread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryRuntimeThread
+- KeQueryRuntimeThread
 product:
 - Windows
 targetos: Windows

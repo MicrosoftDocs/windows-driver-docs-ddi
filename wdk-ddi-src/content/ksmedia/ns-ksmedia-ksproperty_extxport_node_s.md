@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_135
-title: KSPROPERTY_EXTXPORT_NODE_S
+title: KSPROPERTY_EXTXPORT_NODE_S (ksmedia.h)
 description: The KSPROPERTY_EXTXPORT_NODE_S structure describes an external transport and its capabilities.
 old-location: stream\ksproperty_extxport_node_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_EXTXPORT_NODE_S
+- KSPROPERTY_EXTXPORT_NODE_S
 product:
 - Windows
 targetos: Windows

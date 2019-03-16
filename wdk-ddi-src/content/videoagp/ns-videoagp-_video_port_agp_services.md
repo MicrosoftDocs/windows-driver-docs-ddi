@@ -1,6 +1,6 @@
 ---
 UID: NS:videoagp._VIDEO_PORT_AGP_SERVICES
-title: "_VIDEO_PORT_AGP_SERVICES"
+title: _VIDEO_PORT_AGP_SERVICES (videoagp.h)
 description: The VIDEO_PORT_AGP_SERVICES structure is obsolete and is supported only for backward compatibility with existing drivers. In its place, driver writers should use VIDEO_PORT_AGP_INTERFACE.
 old-location: display\video_port_agp_services.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	VIDEO_PORT_AGP_SERVICES
+- VIDEO_PORT_AGP_SERVICES
 product:
 - Windows
 targetos: Windows

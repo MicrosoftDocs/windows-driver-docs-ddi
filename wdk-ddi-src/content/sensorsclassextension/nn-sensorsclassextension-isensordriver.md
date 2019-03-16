@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsclassextension.ISensorDriver
-title: ISensorDriver
+title: ISensorDriver (sensorsclassextension.h)
 description: The ISensorDriver interface provides callback methods that the sensor class extension uses to provide requests and notifications to the sensor driver.
 old-location: sensors\isensordriver.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	ISensorDriver
+- ISensorDriver
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitSetEventCallbacks
-title: WdfFdoInitSetEventCallbacks function
+title: WdfFdoInitSetEventCallbacks function (wdffdo.h)
 description: The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device.
 old-location: wdf\wdffdoinitseteventcallbacks.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfFdoInitSetEventCallbacks
+- WdfFdoInitSetEventCallbacks
 product:
 - Windows
 targetos: Windows

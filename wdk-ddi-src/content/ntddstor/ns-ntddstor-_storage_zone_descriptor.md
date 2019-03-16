@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_ZONE_DESCRIPTOR
-title: "_STORAGE_ZONE_DESCRIPTOR"
+title: _STORAGE_ZONE_DESCRIPTOR (ntddstor.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zone_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_ZONE_DESCRIPTOR
+- STORAGE_ZONE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

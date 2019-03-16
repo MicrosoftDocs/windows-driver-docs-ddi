@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.LockDevice
-title: IStiDevice::LockDevice
+title: IStiDevice::LockDevice (sti.h)
 description: The IStiDevice::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istidevice_lockdevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.LockDevice
+- IStiDevice.LockDevice
 product:
 - Windows
 targetos: Windows

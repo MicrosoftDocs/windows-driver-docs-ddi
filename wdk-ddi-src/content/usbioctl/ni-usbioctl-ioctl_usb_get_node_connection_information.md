@@ -1,11 +1,11 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
-title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
+title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION (usbioctl.h)
 description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION request retrieves information about the indicated USB port and the device that is attached to the port, if there is one.Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
 old-location: buses\ioctl_usb_get_node_connection_information.htm
 tech.root: usbref
 ms.assetid: abbd1f03-cf9e-449b-b261-2a751997fed0
-ms.date: 05/07/2018
+ms.date: 01/25/2019
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control code [Buses], buses.ioctl_usb_get_node_connection_information, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbirp_b71c24bb-6e3b-468f-851d-a934a764fbe1.xml
 ms.topic: ioctl
 req.header: usbioctl.h
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
+- IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
 product:
 - Windows
 targetos: Windows
@@ -51,7 +51,7 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> request retrieves informati
 
 Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
-<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
+<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 
 
 

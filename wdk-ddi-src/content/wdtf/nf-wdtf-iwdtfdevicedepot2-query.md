@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.Query
-title: IWDTFDeviceDepot2::Query
+title: IWDTFDeviceDepot2::Query (wdtf.h)
 description: Returns a subset of the devices in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_query.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2.Query
+- IWDTFDeviceDepot2.Query
 product:
 - Windows
 targetos: Windows

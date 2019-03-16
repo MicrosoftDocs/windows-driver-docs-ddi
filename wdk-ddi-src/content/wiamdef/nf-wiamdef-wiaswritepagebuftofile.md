@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePageBufToFile
-title: wiasWritePageBufToFile function
+title: wiasWritePageBufToFile function (wiamdef.h)
 description: The wiasWritePageBufToFile function writes the contents of a temporary page buffer to an image file.
 old-location: image\wiaswritepagebuftofile.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePageBufToFile
+- wiasWritePageBufToFile
 product:
 - Windows
 targetos: Windows

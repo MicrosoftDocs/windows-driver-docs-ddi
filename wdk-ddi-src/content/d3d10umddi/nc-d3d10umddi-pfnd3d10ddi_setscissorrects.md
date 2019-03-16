@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSCISSORRECTS
-title: PFND3D10DDI_SETSCISSORRECTS
+title: PFND3D10DDI_SETSCISSORRECTS (d3d10umddi.h)
 description: The SetScissorRects function marks portions of render targets that rendering is confined to.
 old-location: display\setscissorrects.htm
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetScissorRects
+- SetScissorRects
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.get__NewEnum
-title: IPrintJobCollection::get__NewEnum
+title: IPrintJobCollection::get__NewEnum (printerextension.h)
 description: Gets a pointer to the enumerants of IPrintJobCollection objects.
 old-location: print\iprintjobcollection_newenum.htm
 tech.root: print
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJobCollection.NewEnum
--	IPrintJobCollection.get_NewEnum
+- IPrintJobCollection.NewEnum
+- IPrintJobCollection.get_NewEnum
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

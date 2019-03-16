@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
-title: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
+title: D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE (d3d10umddi.h)
 description: Specifies the alpha fill mode for video processing.
 old-location: display\d3d11_1ddi_video_processor_alpha_fill_mode.htm
 ms.assetid: 22b50f49-821a-407e-89c0-fe7d637664fa
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
+- D3D11_1DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE
 product:
 - Windows
 targetos: Windows

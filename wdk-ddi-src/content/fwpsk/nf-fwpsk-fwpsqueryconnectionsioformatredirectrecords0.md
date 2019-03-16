@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsQueryConnectionSioFormatRedirectRecords0
-title: FwpsQueryConnectionSioFormatRedirectRecords0 function
+title: FwpsQueryConnectionSioFormatRedirectRecords0 function (fwpsk.h)
 description: The FwpsQueryConnectionSioFormatRedirectRecords0 function returns the connection redirect records for a redirected connection.
 old-location: netvista\fwpsqueryconnectionsioformatredirectrecords0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsQueryConnectionSioFormatRedirectRecords0
+- FwpsQueryConnectionSioFormatRedirectRecords0
 product:
 - Windows
 targetos: Windows

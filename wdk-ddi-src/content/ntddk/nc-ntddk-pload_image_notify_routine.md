@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PLOAD_IMAGE_NOTIFY_ROUTINE
-title: PLOAD_IMAGE_NOTIFY_ROUTINE
+title: PLOAD_IMAGE_NOTIFY_ROUTINE (ntddk.h)
 description: Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory.
 old-location: kernel\pload_image_notify_routine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	SetLoadImageNotifyRoutine
+- SetLoadImageNotifyRoutine
 product:
 - Windows
 targetos: Windows

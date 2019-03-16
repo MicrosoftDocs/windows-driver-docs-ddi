@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FRAME_STATISTICS_STEP_TYPE
-title: IDDCX_FRAME_STATISTICS_STEP_TYPE
+title: IDDCX_FRAME_STATISTICS_STEP_TYPE (iddcx.h)
 description: Defines the type of frame processing step.
 old-location: display\iddcx_frame_statistics_step_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_FRAME_STATISTICS_STEP_TYPE
+- IDDCX_FRAME_STATISTICS_STEP_TYPE
 product:
 - Windows
 targetos: Windows

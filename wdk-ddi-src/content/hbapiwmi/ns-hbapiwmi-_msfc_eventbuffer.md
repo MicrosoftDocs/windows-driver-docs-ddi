@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_EventBuffer
-title: "_MSFC_EventBuffer"
+title: _MSFC_EventBuffer (hbapiwmi.h)
 description: The MSFC_EventBuffer structure is used in conjunction with the GetEventBuffer method to retrieve the next events in the HBA's event queue.
 old-location: storage\msfc_eventbuffer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_EventBuffer
+- MSFC_EventBuffer
 product:
 - Windows
 targetos: Windows

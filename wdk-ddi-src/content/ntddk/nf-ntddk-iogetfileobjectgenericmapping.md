@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetFileObjectGenericMapping
-title: IoGetFileObjectGenericMapping function
+title: IoGetFileObjectGenericMapping function (ntddk.h)
 description: The IoGetFileObjectGenericMapping routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 old-location: kernel\iogetfileobjectgenericmapping.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetFileObjectGenericMapping
+- IoGetFileObjectGenericMapping
 product:
 - Windows
 targetos: Windows

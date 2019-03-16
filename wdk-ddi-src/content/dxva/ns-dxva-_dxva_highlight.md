@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_Highlight
-title: "_DXVA_Highlight"
+title: _DXVA_Highlight (dxva.h)
 description: The DXVA_Highlight structure is sent by the host decoder to the accelerator to specify a highlighted rectangular area of a subpicture, and to create an alpha-blending surface with DCCMD data and a DPXD surface.
 old-location: display\dxva_highlight.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_Highlight
+- DXVA_Highlight
 product:
 - Windows
 targetos: Windows

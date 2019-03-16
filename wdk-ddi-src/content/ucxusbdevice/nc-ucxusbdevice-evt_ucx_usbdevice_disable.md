@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_DISABLE
-title: EVT_UCX_USBDEVICE_DISABLE
+title: EVT_UCX_USBDEVICE_DISABLE (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to release controller resources associated with the device and its default endpoint.
 old-location: buses\evt_ucx_usbdevice_disable.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_DISABLE
+- PEVT_UCX_USBDEVICE_DISABLE
 product:
 - Windows
 targetos: Windows

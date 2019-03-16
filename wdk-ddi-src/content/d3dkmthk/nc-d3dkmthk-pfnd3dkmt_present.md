@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_PRESENT
-title: PFND3DKMT_PRESENT
+title: PFND3DKMT_PRESENT (d3dkmthk.h)
 description: The PFND3DKMT_PRESENT callback function submits a present command to the Microsoft DirectX graphics kernel subsystem.
 ms.assetid: adf00e57-a1bf-4dec-8043-82ce36ffcb06
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_PRESENT
+- PFND3DKMT_PRESENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

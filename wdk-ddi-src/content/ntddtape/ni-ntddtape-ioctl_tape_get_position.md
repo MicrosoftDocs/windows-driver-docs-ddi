@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_GET_POSITION
-title: IOCTL_TAPE_GET_POSITION
+title: IOCTL_TAPE_GET_POSITION (ntddtape.h)
 description: Returns the current absolute, logical, or pseudological partition and offset position on the tape.
 old-location: storage\ioctl_tape_get_position.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddtape.h
+- Ntddtape.h
 api_name:
--	IOCTL_TAPE_GET_POSITION
+- IOCTL_TAPE_GET_POSITION
 product:
 - Windows
 targetos: Windows

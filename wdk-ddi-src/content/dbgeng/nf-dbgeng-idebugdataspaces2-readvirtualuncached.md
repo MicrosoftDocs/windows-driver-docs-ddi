@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadVirtualUncached
-title: IDebugDataSpaces2::ReadVirtualUncached
+title: IDebugDataSpaces2::ReadVirtualUncached (dbgeng.h)
 description: The ReadVirtualUncached method reads memory from the target's virtual address space.
 old-location: debugger\readvirtualuncached.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadVirtualUncached
--	IDebugDataSpaces2.ReadVirtualUncached
--	IDebugDataSpaces3.ReadVirtualUncached
--	IDebugDataSpaces4.ReadVirtualUncached
+- IDebugDataSpaces.ReadVirtualUncached
+- IDebugDataSpaces2.ReadVirtualUncached
+- IDebugDataSpaces3.ReadVirtualUncached
+- IDebugDataSpaces4.ReadVirtualUncached
 product:
 - Windows
 targetos: Windows

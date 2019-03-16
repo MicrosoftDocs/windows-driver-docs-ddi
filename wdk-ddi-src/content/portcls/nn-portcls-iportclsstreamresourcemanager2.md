@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsStreamResourceManager2
-title: IPortClsStreamResourceManager2
+title: IPortClsStreamResourceManager2 (portcls.h)
 description: IPortClsStreamResourceManager2 is used to manage the registration of audio stream resources.
 old-location: audio\iportclsstreamresourcemanager2.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsStreamResourceManager2
+- IPortClsStreamResourceManager2
 product:
 - Windows
 targetos: Windows

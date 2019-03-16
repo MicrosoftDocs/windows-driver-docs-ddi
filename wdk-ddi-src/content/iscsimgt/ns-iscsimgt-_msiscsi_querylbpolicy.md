@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_QueryLBPolicy
-title: "_MSiSCSI_QueryLBPolicy"
+title: _MSiSCSI_QueryLBPolicy (iscsimgt.h)
 description: This MSiSCSI_QueryLBPolicy method returns the MCS load balancing policy for each information if any that has been set across different iSCSI session.
 old-location: storage\msiscsi_querylbpolicy.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_QueryLBPolicy
+- MSiSCSI_QueryLBPolicy
 product:
 - Windows
 targetos: Windows

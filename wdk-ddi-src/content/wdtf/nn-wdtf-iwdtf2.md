@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTF2
-title: IWDTF2
+title: IWDTF2 (wdtf.h)
 description: Defines properties for the WDTF collection.
 old-location: dtf\iwdtf2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTF2
+- IWDTF2
 product:
 - Windows
 targetos: Windows

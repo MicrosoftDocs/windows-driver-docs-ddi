@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_REMOVE_DEVICE
-title: DXGKDDI_REMOVE_DEVICE
+title: DXGKDDI_REMOVE_DEVICE (dispmprt.h)
 description: The DxgkDdiRemoveDevice function frees any resources allocated during DxgkDdiAddDevice.
 old-location: display\dxgkddiremovedevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiRemoveDevice
+- DxgkDdiRemoveDevice
 product:
 - Windows
 targetos: Windows

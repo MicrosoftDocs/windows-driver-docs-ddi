@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.AddEntry
-title: IResourceList::AddEntry
+title: IResourceList::AddEntry (portcls.h)
 description: The AddEntry method adds an entry to a resource list.
 old-location: audio\iresourcelist_addentry.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.AddEntry
+- IResourceList.AddEntry
 product:
 - Windows
 targetos: Windows

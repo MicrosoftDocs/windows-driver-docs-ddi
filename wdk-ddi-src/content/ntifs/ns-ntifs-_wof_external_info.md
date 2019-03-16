@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_INFO
-title: "_WOF_EXTERNAL_INFO"
+title: _WOF_EXTERNAL_INFO (ntifs.h)
 description: The WOF_EXTERNAL_INFO structure identifies a file backing provider and the overlay service version it supports.
 old-location: ifsk\wof_external_info.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WOF_EXTERNAL_INFO
+- WOF_EXTERNAL_INFO
 product:
 - Windows
 targetos: Windows

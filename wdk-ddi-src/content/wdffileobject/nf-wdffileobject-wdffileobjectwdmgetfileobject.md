@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectWdmGetFileObject
-title: WdfFileObjectWdmGetFileObject function
+title: WdfFileObjectWdmGetFileObject function (wdffileobject.h)
 description: The WdfFileObjectWdmGetFileObject method returns the Windows Driver Model (WDM) file object that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectwdmgetfileobject.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfFileObjectWdmGetFileObject
+- WdfFileObjectWdmGetFileObject
 product:
 - Windows
 targetos: Windows

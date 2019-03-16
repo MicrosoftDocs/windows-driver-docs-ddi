@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_TRANSFER_IN
-title: IOCTL_INTERNAL_USBFN_TRANSFER_IN
+title: IOCTL_INTERNAL_USBFN_TRANSFER_IN (usbfnioctl.h)
 description: The class driver sends this request to initiate a data transfer to the host on the specified pipe.
 old-location: buses\_ioctl_internal_usbfn_transfer_in.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_TRANSFER_IN
+- IOCTL_INTERNAL_USBFN_TRANSFER_IN
 product:
 - Windows
 targetos: Windows

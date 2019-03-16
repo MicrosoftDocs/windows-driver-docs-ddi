@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_INTERNAL_SET_VERIFY
-title: IOCTL_DISK_INTERNAL_SET_VERIFY
+title: IOCTL_DISK_INTERNAL_SET_VERIFY (ntdddisk.h)
 description: Allows a driver to set the verify bit on a disk device object if the mode of the caller is kernel mode.
 old-location: storage\ioctl_disk_internal_set_verify.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_INTERNAL_SET_VERIFY
+- IOCTL_DISK_INTERNAL_SET_VERIFY
 product:
 - Windows
 targetos: Windows

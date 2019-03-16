@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
-title: tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
+title: tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE (ksmedia.h)
 description: This structure contains the ROI info structure for exposure.
 old-location: stream\kscamera_extendedprop_roi_exposure.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
+- KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 product:
 - Windows
 targetos: Windows

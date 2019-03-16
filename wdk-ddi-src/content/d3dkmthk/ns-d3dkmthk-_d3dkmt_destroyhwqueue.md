@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYHWQUEUE
-title: "_D3DKMT_DESTROYHWQUEUE"
+title: _D3DKMT_DESTROYHWQUEUE (d3dkmthk.h)
 description: A structure holding information to destroy a hardware queue.
 old-location: display\d3dkmt_destroyhwqueue.htm
 ms.assetid: 076B47F5-8312-43E3-AE75-D4DDA8C0A181
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYHWQUEUE
+- D3DKMT_DESTROYHWQUEUE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltWriteFileEx
-title: FltWriteFileEx function
+title: FltWriteFileEx function (fltkernel.h)
 description: FltWriteFileEx is used to write data to an open file, stream, or device. This function extends FltWriteFile to allow the optional use of an MDL for write data instead of a mapped buffer address.
 old-location: ifsk\fltwritefileex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltWriteFileEx
+- FltWriteFileEx
 product:
 - Windows
 targetos: Windows

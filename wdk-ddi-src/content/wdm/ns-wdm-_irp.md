@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IRP
-title: "_IRP"
+title: _IRP (wdm.h)
 description: The IRP structure is a partially opaque structure that represents an I/O request packet. Drivers can use the following members of the IRP structure.
 old-location: kernel\irp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IRP
+- IRP
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:hwnclx.HwNUnregisterClient
-title: HwNUnregisterClient function
+title: HwNUnregisterClient function (hwnclx.h)
 description: Unregisters the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is unloaded.
 old-location: gpiobtn\hwnunregisterclient.htm
 tech.root: gpiobtn
@@ -26,15 +26,15 @@ req.lib: Mshwnclxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mshwnclxstub.lib
--	Mshwnclxstub.dll
+- Mshwnclxstub.lib
+- Mshwnclxstub.dll
 api_name:
--	HwNUnregisterClient
+- HwNUnregisterClient
 product:
 - Windows
 targetos: Windows

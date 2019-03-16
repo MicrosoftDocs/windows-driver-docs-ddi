@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXDEVICEINITCONFIG
-title: *PFN_SENSORSCXDEVICEINITCONFIG
+title: PFN_SENSORSCXDEVICEINITCONFIG (sensorscx.h)
 description: Configures the sensor device.
 ms.assetid: 995a8d23-3a2c-4c7a-9b53-118c6ef0e403
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	*PFN_SENSORSCXDEVICEINITCONFIG
+- *PFN_SENSORSCXDEVICEINITCONFIG
 product:
 - Windows
 targetos: Windows

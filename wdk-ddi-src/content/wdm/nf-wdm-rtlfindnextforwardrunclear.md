@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindNextForwardRunClear
-title: RtlFindNextForwardRunClear function
+title: RtlFindNextForwardRunClear function (wdm.h)
 description: The RtlFindNextForwardRunClear routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position.
 old-location: kernel\rtlfindnextforwardrunclear.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindNextForwardRunClear
+- RtlFindNextForwardRunClear
 product:
 - Windows
 targetos: Windows

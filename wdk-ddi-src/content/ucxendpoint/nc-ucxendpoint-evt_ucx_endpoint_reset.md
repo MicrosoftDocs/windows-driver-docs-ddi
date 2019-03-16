@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_RESET
-title: EVT_UCX_ENDPOINT_RESET
+title: EVT_UCX_ENDPOINT_RESET (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to reset the controller’s programming for an endpoint.
 old-location: buses\evt_ucx_endpoint_reset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_RESET
+- PEVT_UCX_ENDPOINT_RESET
 product:
 - Windows
 targetos: Windows

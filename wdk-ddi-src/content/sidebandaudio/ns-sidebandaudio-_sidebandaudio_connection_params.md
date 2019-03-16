@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_CONNECTION_PARAMS
-title: _SIDEBANDAUDIO_CONNECTION_PARAMS
+title: _SIDEBANDAUDIO_CONNECTION_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and Connection value.
 ms.assetid: 15577347-4c95-4cd7-bb77-8341dbb0bae4
 ms.date: 09/06/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_CONNECTION_PARAMS, *PSIDEBANDAUDIO_CONNECTION_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_CONNECTION_PARAMS
-product: Windows
+- _SIDEBANDAUDIO_CONNECTION_PARAMS
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

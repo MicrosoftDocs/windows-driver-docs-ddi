@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEFENCESIZE
-title: PFND3D12DDI_CALCPRIVATEFENCESIZE
+title: PFND3D12DDI_CALCPRIVATEFENCESIZE (d3d12umddi.h)
 description: Calculate private fence size.
 ms.assetid: 2a259064-aa18-4870-a52c-a58b6f650ba8
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CALCPRIVATEFENCESIZE
+- PFND3D12DDI_CALCPRIVATEFENCESIZE
 product: 
 - Windows
 targetos: Windows

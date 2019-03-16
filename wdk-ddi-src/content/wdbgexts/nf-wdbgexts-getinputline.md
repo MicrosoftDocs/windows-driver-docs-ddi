@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetInputLine
-title: GetInputLine function
+title: GetInputLine function (wdbgexts.h)
 description: The GetInputLine function requests an input string from the debugger.
 old-location: debugger\getinputline.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetInputLine
+- GetInputLine
 product:
 - Windows
 targetos: Windows

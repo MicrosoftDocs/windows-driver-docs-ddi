@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConfigAlphaLoad
-title: "_DXVA_ConfigAlphaLoad"
+title: _DXVA_ConfigAlphaLoad (dxva.h)
 description: The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
 old-location: display\dxva_configalphaload.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ConfigAlphaLoad
+- DXVA_ConfigAlphaLoad
 product:
 - Windows
 targetos: Windows

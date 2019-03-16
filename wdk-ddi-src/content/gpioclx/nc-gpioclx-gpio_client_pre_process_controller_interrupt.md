@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT
-title: GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT
+title: GPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT (gpioclx.h)
 description: The CLIENT_PreProcessControllerInterrupt event callback function performs any pre-processing of a general-purpose I/O (GPIO) interrupt that must be done immediately if the ISR is scheduled to run at a later time.
 old-location: gpio\client_preprocesscontrollerinterrupt.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DIRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_PreProcessControllerInterrupt
+- CLIENT_PreProcessControllerInterrupt
 product:
 - Windows
 targetos: Windows

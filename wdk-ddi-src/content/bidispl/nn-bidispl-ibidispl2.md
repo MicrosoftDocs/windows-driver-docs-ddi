@@ -1,6 +1,6 @@
 ---
 UID: NN:bidispl.IBidiSpl2
-title: IBidiSpl2
+title: IBidiSpl2 (bidispl.h)
 description: The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.
 old-location: print\ibidispl2.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Bidispl.h
+- Bidispl.h
 api_name:
--	IBidiSpl2
+- IBidiSpl2
 product:
 - Windows
 targetos: Windows

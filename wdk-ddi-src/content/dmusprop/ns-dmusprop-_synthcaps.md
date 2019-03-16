@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHCAPS
-title: "_SYNTHCAPS"
+title: _SYNTHCAPS (dmusprop.h)
 description: The SYNTHCAPS structure specifies the capabilities of a synthesizer.
 old-location: audio\synthcaps.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusprop.h
+- dmusprop.h
 api_name:
--	SYNTHCAPS
+- SYNTHCAPS
 product:
 - Windows
 targetos: Windows

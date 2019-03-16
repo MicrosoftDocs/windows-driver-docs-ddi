@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlValidSid
-title: RtlValidSid function
+title: RtlValidSid function (ntifs.h)
 description: The RtlValidSid routine validates a security identifier (SID) by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum.
 old-location: ifsk\rtlvalidsid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlValidSid
+- RtlValidSid
 product:
 - Windows
 targetos: Windows

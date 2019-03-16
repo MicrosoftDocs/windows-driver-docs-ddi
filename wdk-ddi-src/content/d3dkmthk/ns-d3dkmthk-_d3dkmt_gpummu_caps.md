@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GPUMMU_CAPS
-title: _D3DKMT_GPUMMU_CAPS
+title: _D3DKMT_GPUMMU_CAPS (d3dkmthk.h)
 description: Used to get GPU memory management unit capabilities.
 ms.assetid: b341990c-5676-4da7-b70a-842e907c1c6e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GPUMMU_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GPUMMU_CAPS
+- _D3DKMT_GPUMMU_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

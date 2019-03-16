@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetReadStream
-title: IPrinterPropertyBag::GetReadStream
+title: IPrinterPropertyBag::GetReadStream (printerextension.h)
 description: Gets a stream in order to read from a stream property.
 old-location: print\iprinterpropertybag_getreadstream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterPropertyBag.GetReadStream
+- IPrinterPropertyBag.GetReadStream
 product:
 - Windows
 targetos: Windows

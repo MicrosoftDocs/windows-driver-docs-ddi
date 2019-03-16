@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.FreePagesFromMdl
-title: IPortWaveRTStream::FreePagesFromMdl
+title: IPortWaveRTStream::FreePagesFromMdl (portcls.h)
 description: The FreePagesFromMdl method frees a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_freepagesfrommdl.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.FreePagesFromMdl
+- IPortWaveRTStream.FreePagesFromMdl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_TARGETMODE_DETAIL_TIMING
-title: "_DXGK_TARGETMODE_DETAIL_TIMING"
+title: _DXGK_TARGETMODE_DETAIL_TIMING (d3dkmdt.h)
 description: The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's additional timing modes that are compatible with the display device.
 old-location: display\dxgk_targetmode_detail_timing.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGK_TARGETMODE_DETAIL_TIMING
+- DXGK_TARGETMODE_DETAIL_TIMING
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Stop
-title: IWDTFSimpleIOStressAction2::Stop
+title: IWDTFSimpleIOStressAction2::Stop (wdtfinterfaces.h)
 description: Stops the device.
 old-location: dtf\iwdtfsimpleiostressaction2_stop.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.Stop
+- IWDTFSimpleIOStressAction2.Stop
 product:
 - Windows
 targetos: Windows

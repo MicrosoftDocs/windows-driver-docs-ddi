@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.GetName
-title: IDataModelScript::GetName
+title: IDataModelScript::GetName (dbgmodel.h)
 description: The GetName method returns the name of the script as an allocated string via the SysAllocString function. 
 ms.assetid: b3ba5728-6a17-4bdc-b22c-56349216c8a3
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScript.GetName
-product: Windows
+- IDataModelScript.GetName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

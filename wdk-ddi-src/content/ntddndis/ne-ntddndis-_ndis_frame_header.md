@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_FRAME_HEADER
-title: "_NDIS_FRAME_HEADER"
+title: _NDIS_FRAME_HEADER (ntddndis.h)
 description: The NDIS_FRAME_HEADER enumeration identifies the type of header in a network data frame.
 old-location: netvista\ndis_frame_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_FRAME_HEADER
+- NDIS_FRAME_HEADER
 product:
 - Windows
 targetos: Windows

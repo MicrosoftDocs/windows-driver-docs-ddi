@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_QP_DISPATCH
-title: "_NDK_QP_DISPATCH"
+title: _NDK_QP_DISPATCH (ndkpi.h)
 description: The NDK_QP_DISPATCH structure specifies dispatch function entry points for the NDK queue pair (QP) object.
 old-location: netvista\ndk_qp_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_QP_DISPATCH
+- NDK_QP_DISPATCH
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetConfiguredPipe
-title: WdfUsbInterfaceGetConfiguredPipe function
+title: WdfUsbInterfaceGetConfiguredPipe function (wdfusb.h)
 description: The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the framework pipe object that is associated with a specified USB device interface and pipe index. Optionally, the method also returns information about the pipe.
 old-location: wdf\wdfusbinterfacegetconfiguredpipe.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfUsbInterfaceGetConfiguredPipe
+- WdfUsbInterfaceGetConfiguredPipe
 product:
 - Windows
 targetos: Windows

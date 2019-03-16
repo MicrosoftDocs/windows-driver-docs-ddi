@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheFetchEntry
-title: RxNameCacheFetchEntry function
+title: RxNameCacheFetchEntry function (namcache.h)
 description: RxNameCacheFetchEntry looks for a match with a specified name string for a NAME_CACHE entry.
 old-location: ifsk\rxnamecachefetchentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheFetchEntry
+- RxNameCacheFetchEntry
 product:
 - Windows
 targetos: Windows

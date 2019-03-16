@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxUnregisterDevice
-title: PoFxUnregisterDevice function
+title: PoFxUnregisterDevice function (wdm.h)
 description: The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
 old-location: kernel\pofxunregisterdevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxUnregisterDevice
+- PoFxUnregisterDevice
 product:
 - Windows
 targetos: Windows

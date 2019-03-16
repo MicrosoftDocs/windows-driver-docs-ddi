@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingSupport_IN
-title: "_GetBindingSupport_IN"
+title: _GetBindingSupport_IN (hbapiwmi.h)
 description: The GetBindingSupport_IN structure is used by a WMI client to deliver the input parameter data of the GetBindingSupport WMI method to the HBA miniport driver.
 old-location: storage\getbindingsupport_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetBindingSupport_IN
+- GetBindingSupport_IN
 product:
 - Windows
 targetos: Windows

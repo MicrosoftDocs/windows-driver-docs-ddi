@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KBUGCHECK_CALLBACK_ROUTINE
-title: KBUGCHECK_CALLBACK_ROUTINE
+title: KBUGCHECK_CALLBACK_ROUTINE (wdm.h)
 description: The BugCheckCallback routine is executed whenever the system issues a bug check.
 old-location: kernel\bugcheckcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	BugCheckCallback
+- BugCheckCallback
 product:
 - Windows
 targetos: Windows

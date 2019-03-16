@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
-title: PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
+title: PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START (d3d12umddi.h)
 description: Gets the GPU descriptor handle that represents the start of the heap.
 ms.assetid: bffa5a27-4b90-4fb9-a121-4ecbe4813b10
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
+- PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 product: 
 - Windows
 targetos: Windows

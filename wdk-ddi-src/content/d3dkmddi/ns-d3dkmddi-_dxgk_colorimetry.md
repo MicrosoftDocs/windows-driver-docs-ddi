@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORIMETRY
-title: "_DXGK_COLORIMETRY"
+title: _DXGK_COLORIMETRY (d3dkmddi.h)
 description: Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 old-location: display\dxgk_colorimetry.htm
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_COLORIMETRY
+- DXGK_COLORIMETRY
 product:
 - Windows
 targetos: Windows

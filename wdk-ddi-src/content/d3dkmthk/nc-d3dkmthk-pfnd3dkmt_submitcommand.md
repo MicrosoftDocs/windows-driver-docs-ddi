@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITCOMMAND
-title: PFND3DKMT_SUBMITCOMMAND
+title: PFND3DKMT_SUBMITCOMMAND (d3dkmthk.h)
 description: The PFND3DKMT_SUBMITCOMMAND callback function is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 ms.assetid: 1c4650b3-31ef-4432-908d-fb8511727686
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SUBMITCOMMAND
+- PFND3DKMT_SUBMITCOMMAND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

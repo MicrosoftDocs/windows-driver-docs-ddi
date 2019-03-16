@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeleteItem
-title: IWiaMiniDrv::drvDeleteItem
+title: IWiaMiniDrv::drvDeleteItem (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvDeleteItem method deletes the current driver item.
 old-location: image\iwiaminidrv_drvdeleteitem.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvDeleteItem
+- IWiaMiniDrv.drvDeleteItem
 product:
 - Windows
 targetos: Windows

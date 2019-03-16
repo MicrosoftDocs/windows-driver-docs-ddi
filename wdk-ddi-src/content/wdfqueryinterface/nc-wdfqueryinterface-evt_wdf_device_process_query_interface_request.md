@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfqueryinterface.EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST
-title: EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST
+title: EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST (wdfqueryinterface.h)
 description: A driver's EvtDeviceProcessQueryInterfaceRequest event callback function examines another driver's request for access to a driver-defined interface, before the framework passes the interface to the requesting driver.
 old-location: wdf\evtdeviceprocessqueryinterfacerequest.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfQueryInterface.h
+- WdfQueryInterface.h
 api_name:
--	EvtDeviceProcessQueryInterfaceRequest
+- EvtDeviceProcessQueryInterfaceRequest
 product:
 - Windows
 targetos: Windows

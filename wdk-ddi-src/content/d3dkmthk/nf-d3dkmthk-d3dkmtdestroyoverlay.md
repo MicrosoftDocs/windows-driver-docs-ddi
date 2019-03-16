@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyOverlay
-title: D3DKMTDestroyOverlay function
+title: D3DKMTDestroyOverlay function (d3dkmthk.h)
 description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay object.
 old-location: display\d3dkmtdestroyoverlay.htm
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroyOverlay
+- D3DKMTDestroyOverlay
 product:
 - Windows
 targetos: Windows

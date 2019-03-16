@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.Read
-title: IMiniportMidiStream::Read
+title: IMiniportMidiStream::Read (portcls.h)
 description: The Read method reads data from an incoming MIDI stream.
 old-location: audio\iminiportmidistream_read.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidiStream.Read
+- IMiniportMidiStream.Read
 product:
 - Windows
 targetos: Windows

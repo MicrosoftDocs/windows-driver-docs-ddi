@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeInsertQueue
-title: KeInsertQueue function
+title: KeInsertQueue function (ntifs.h)
 description: The KeInsertQueue routine inserts an entry at the tail of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertqueue.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInsertQueue
+- KeInsertQueue
 product:
 - Windows
 targetos: Windows

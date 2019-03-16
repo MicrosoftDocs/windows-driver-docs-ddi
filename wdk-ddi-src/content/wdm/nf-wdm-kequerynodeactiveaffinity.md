@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryNodeActiveAffinity
-title: KeQueryNodeActiveAffinity function
+title: KeQueryNodeActiveAffinity function (wdm.h)
 description: The KeQueryNodeActiveAffinity routine gets the current processor affinity of a specified node in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequerynodeactiveaffinity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryNodeActiveAffinity
+- KeQueryNodeActiveAffinity
 product:
 - Windows
 targetos: Windows

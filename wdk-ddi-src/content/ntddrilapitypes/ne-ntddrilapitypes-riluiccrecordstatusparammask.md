@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCRECORDSTATUSPARAMMASK
-title: RILUICCRECORDSTATUSPARAMMASK
+title: RILUICCRECORDSTATUSPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCRECORDSTATUSPARAMMASK.
 old-location: netvista\riluiccrecordstatusparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCRECORDSTATUSPARAMMASK
+- RILUICCRECORDSTATUSPARAMMASK
 product:
 - Windows
 targetos: Windows

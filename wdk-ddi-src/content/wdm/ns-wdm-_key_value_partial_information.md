@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_VALUE_PARTIAL_INFORMATION
-title: "_KEY_VALUE_PARTIAL_INFORMATION"
+title: _KEY_VALUE_PARTIAL_INFORMATION (wdm.h)
 description: The KEY_VALUE_PARTIAL_INFORMATION structure defines a subset of the value information available for a value entry of a registry key.
 old-location: kernel\key_value_partial_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	KEY_VALUE_PARTIAL_INFORMATION
+- KEY_VALUE_PARTIAL_INFORMATION
 product:
 - Windows
 targetos: Windows

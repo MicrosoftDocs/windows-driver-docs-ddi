@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.FirstEntrySList
-title: FirstEntrySList function
+title: FirstEntrySList function (wdm.h)
 description: The FirstEntrySList routine returns the first entry in a sequenced singly linked list.
 old-location: kernel\firstentryslist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FirstEntrySList
+- FirstEntrySList
 product:
 - Windows
 targetos: Windows

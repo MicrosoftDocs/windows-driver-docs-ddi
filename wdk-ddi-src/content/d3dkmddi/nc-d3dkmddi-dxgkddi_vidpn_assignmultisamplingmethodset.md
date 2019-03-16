@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
-title: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
+title: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET (d3dkmddi.h)
 description: The pfnAssignMultisamplingMethodSet function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignmultisamplingmethodset.htm
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAssignMultisamplingMethodSet
+- pfnAssignMultisamplingMethodSet
 product:
 - Windows
 targetos: Windows

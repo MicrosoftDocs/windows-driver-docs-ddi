@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Cancel
-title: IPrintSchemaAsyncOperation::Cancel
+title: IPrintSchemaAsyncOperation::Cancel (printerextension.h)
 description: Cancels the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_cancel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaAsyncOperation.Cancel
+- IPrintSchemaAsyncOperation.Cancel
 product:
 - Windows
 targetos: Windows

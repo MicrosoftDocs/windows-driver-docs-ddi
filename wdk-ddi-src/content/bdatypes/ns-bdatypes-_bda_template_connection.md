@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TEMPLATE_CONNECTION
-title: "_BDA_TEMPLATE_CONNECTION"
+title: _BDA_TEMPLATE_CONNECTION (bdatypes.h)
 description: The BDA_TEMPLATE_CONNECTION structure describes the template for a BDA connection in terms of where it begins and ends.
 old-location: stream\bda_template_connection.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDA_TEMPLATE_CONNECTION
+- BDA_TEMPLATE_CONNECTION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCheckOplockEx
-title: FltCheckOplockEx function
+title: FltCheckOplockEx function (fltkernel.h)
 description: A minifilter driver calls the FltCheckOplockEx routine to synchronize the callback data structure for an IRP-based file I/O operation that has the current opportunistic lock (oplock) state of the file.
 old-location: ifsk\fltcheckoplockex.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCheckOplockEx
+- FltCheckOplockEx
 product:
 - Windows
 targetos: Windows
@@ -71,7 +71,7 @@ Specifies that **FltCheckOplockEx** should only check for an opportunistic lock 
 
 #### OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
 
-Specifies that [FsRtlCheckOplockEx](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md) should revert any state that was previously set up through a call to the [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md) routine. **FltOplockFsctrl** is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed.
+Specifies that [FsRtlCheckOplockEx](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md) should revert any state that was previously set up through a call to the [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md) routine. **FltOplockFsctrl** is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed.
 
 #### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
 
@@ -213,7 +213,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md)
 
-[FsRtlCheckOplockEx](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md)
+[FsRtlCheckOplockEx](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md)
 
 [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block)
 

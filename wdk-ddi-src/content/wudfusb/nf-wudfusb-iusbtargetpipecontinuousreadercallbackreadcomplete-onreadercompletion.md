@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
-title: IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion
+title: IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion (wudfusb.h)
 description: A driver's OnReaderCompletion event callback function informs the driver that a continuous reader has successfully completed a read request.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete_onreadercompletion.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfusb.h
+- wudfusb.h
 api_name:
--	IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
+- IUsbTargetPipeContinuousReaderCallbackReadComplete.OnReaderCompletion
 product:
 - Windows
 targetos: Windows

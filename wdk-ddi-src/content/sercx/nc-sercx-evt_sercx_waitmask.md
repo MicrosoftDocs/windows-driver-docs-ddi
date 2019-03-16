@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_WAITMASK
-title: EVT_SERCX_WAITMASK
+title: EVT_SERCX_WAITMASK (sercx.h)
 description: The EvtSerCxWaitmask event callback function configures the serial controller to monitor the events in a wait mask, which is a bitmask value that specifies a set of hardware events.
 old-location: serports\evtsercxwaitmask.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	EvtSerCxWaitmask
+- EvtSerCxWaitmask
 product:
 - Windows
 targetos: Windows

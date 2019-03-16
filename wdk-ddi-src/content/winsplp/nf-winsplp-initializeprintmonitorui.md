@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintMonitorUI
-title: InitializePrintMonitorUI function
+title: InitializePrintMonitorUI function (winsplp.h)
 description: A port monitor UI DLL's InitializePrintMonitorUI function supplies the print spooler with addresses of DLL functions.
 old-location: print\initializeprintmonitorui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	InitializePrintMonitorUI
+- InitializePrintMonitorUI
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi._MIRACAST_DRIVER_INTERFACE
-title: "_MIRACAST_DRIVER_INTERFACE"
+title: _MIRACAST_DRIVER_INTERFACE (netdispumdddi.h)
 description: Contains pointers to wireless display (Miracast) functions that are implemented by the Miracast user-mode driver.
 old-location: display\miracast_driver_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_DRIVER_INTERFACE
+- MIRACAST_DRIVER_INTERFACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW
-title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW
+title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW (d3d10umddi.h)
 description: Releases resources for the video processor output view that were created through a call to the CreateVideoProcessorOutputView function.
 old-location: display\destroyvideoprocessoroutputview.htm
 ms.assetid: 7efc032e-0ee4-4eca-b6b0-dda4bfab2756
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnDestroyVideoProcessorOutputView
+- pfnDestroyVideoProcessorOutputView
 product:
 - Windows
 targetos: Windows

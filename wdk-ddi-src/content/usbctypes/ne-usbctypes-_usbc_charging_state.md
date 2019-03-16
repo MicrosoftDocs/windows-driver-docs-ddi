@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_CHARGING_STATE
-title: _USBC_CHARGING_STATE
+title: _USBC_CHARGING_STATE (usbctypes.h)
 description: Defines the charging state of a Type-C connector.
 ms.assetid: dc25a168-6fc0-49a6-8b68-e01451a06b45
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_CHARGING_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_CHARGING_STATE
-product: Windows
+- _USBC_CHARGING_STATE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

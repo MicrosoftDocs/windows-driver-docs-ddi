@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputStackTrace
-title: IDebugControl2::OutputStackTrace
+title: IDebugControl2::OutputStackTrace (dbgeng.h)
 description: The OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\outputstacktrace.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.OutputStackTrace
--	IDebugControl2.OutputStackTrace
--	IDebugControl3.OutputStackTrace
+- IDebugControl.OutputStackTrace
+- IDebugControl2.OutputStackTrace
+- IDebugControl3.OutputStackTrace
 product:
 - Windows
 targetos: Windows

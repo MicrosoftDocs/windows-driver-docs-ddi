@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_THROTTLE
-title: MINIPORT_WDI_RX_THROTTLE
+title: MINIPORT_WDI_RX_THROTTLE (dot11wdi.h)
 description: The MiniportWdiRxThrottle handler function tells the TAL/target to enable mechanisms to reduce the rate of RX MSDUs.
 old-location: netvista\miniportwdirxthrottle.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiRxThrottle
+- MiniportWdiRxThrottle
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_VERSION
-title: "_DSM_VERSION"
+title: _DSM_VERSION (mpiowmi.h)
 description: The DSM_VERSION structure represents version information that is associated with a DSM binary or package.
 old-location: storage\dsm_version.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	DSM_VERSION
+- DSM_VERSION
 product:
 - Windows
 targetos: Windows

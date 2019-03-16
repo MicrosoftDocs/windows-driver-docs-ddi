@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_EXTERNAL_INFO
-title: "_WIM_PROVIDER_EXTERNAL_INFO"
+title: _WIM_PROVIDER_EXTERNAL_INFO (ntifs.h)
 description: The WIM_PROVIDER_EXTERNAL_INFO structure holds the identifier and status information for the Windows Image File (WIM) external backing provider.
 old-location: ifsk\wim_provider_external_info.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WIM_PROVIDER_EXTERNAL_INFO
+- WIM_PROVIDER_EXTERNAL_INFO
 product:
 - Windows
 targetos: Windows

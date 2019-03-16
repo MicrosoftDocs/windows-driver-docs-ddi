@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxpUnregisterMinirdr
-title: RxpUnregisterMinirdr function
+title: RxpUnregisterMinirdr function (mrx.h)
 description: RxpUnregisterMinirdr is called by a network mini-redirector driver to de-register the driver with RDBSS and remove the registration information from the internal RDBSS registration table.
 old-location: ifsk\rxpunregisterminirdr.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxpUnregisterMinirdr
+- RxpUnregisterMinirdr
 product:
 - Windows
 targetos: Windows

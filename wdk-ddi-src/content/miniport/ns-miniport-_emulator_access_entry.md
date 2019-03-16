@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._EMULATOR_ACCESS_ENTRY
-title: "_EMULATOR_ACCESS_ENTRY"
+title: _EMULATOR_ACCESS_ENTRY (miniport.h)
 description: The EMULATOR_ACCESS_ENTRY structure specifies an element in the EmulatorAccessEntries array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 old-location: display\emulator_access_entry.htm
 tech.root: display
@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	miniport.h
-apiname:
--	EMULATOR_ACCESS_ENTRY
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- miniport.h
+api_name:
+- EMULATOR_ACCESS_ENTRY
 product:
 - Windows
 targetos: Windows

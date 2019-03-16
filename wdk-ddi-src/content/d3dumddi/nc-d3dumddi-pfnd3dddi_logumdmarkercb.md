@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOGUMDMARKERCB
-title: PFND3DDDI_LOGUMDMARKERCB
+title: PFND3DDDI_LOGUMDMARKERCB (d3dumddi.h)
 description: Called by the user-mode display driver to log a custom Event Tracing for Windows (ETW) marker event.
 old-location: display\pfnlogumdmarkercb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	pfnLogUMDMarkerCb
+- pfnLogUMDMarkerCb
 product:
 - Windows
 targetos: Windows

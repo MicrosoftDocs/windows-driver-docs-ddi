@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsOpenDefaultDevice
-title: KsOpenDefaultDevice function
+title: KsOpenDefaultDevice function (ksproxy.h)
 description: The KsOpenDefaultDevice function opens a handle to the first device that is listed in the specified Plug and Play (PnP) category.
 old-location: stream\ksopendefaultdevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsOpenDefaultDevice
+- KsOpenDefaultDevice
 product:
 - Windows
 targetos: Windows

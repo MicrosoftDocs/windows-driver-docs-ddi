@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._HWPROFILE_CHANGE_NOTIFICATION
-title: "_HWPROFILE_CHANGE_NOTIFICATION"
+title: _HWPROFILE_CHANGE_NOTIFICATION (wdm.h)
 description: The HWPROFILE_CHANGE_NOTIFICATION structure describes an event related to a hardware profile configuration change.
 old-location: kernel\hwprofile_change_notification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	HWPROFILE_CHANGE_NOTIFICATION
+- HWPROFILE_CHANGE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

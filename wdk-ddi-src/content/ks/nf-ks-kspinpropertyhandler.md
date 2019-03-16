@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinPropertyHandler
-title: KsPinPropertyHandler function
+title: KsPinPropertyHandler function (ks.h)
 description: The KsPinPropertyHandler function performs standard handling of the static members of the KSPROPSETID_Pin property set. This handling does not include KSPROPERTY_PIN_CINSTANCES or KSPROPERTY_PIN_DATAINTERSECTION.
 old-location: stream\kspinpropertyhandler.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinPropertyHandler
+- KsPinPropertyHandler
 product:
 - Windows
 targetos: Windows

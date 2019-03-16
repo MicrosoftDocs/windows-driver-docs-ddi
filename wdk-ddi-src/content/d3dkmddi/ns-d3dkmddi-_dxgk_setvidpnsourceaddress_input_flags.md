@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
-title: "_DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
+title: _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the set of flags needed to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
+- DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 product:
 - Windows
 targetos: Windows

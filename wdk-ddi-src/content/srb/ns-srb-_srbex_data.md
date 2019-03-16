@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA
-title: "_SRBEX_DATA"
+title: _SRBEX_DATA (srb.h)
 description: The SRBEX_DATA structure is the generalized format for containing extended SRB data.
 old-location: storage\srbex_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA
+- SRBEX_DATA
 product:
 - Windows
 targetos: Windows

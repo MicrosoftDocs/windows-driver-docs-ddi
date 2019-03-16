@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetFirmwareType
-title: ExGetFirmwareType function
+title: ExGetFirmwareType function (wdm.h)
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExGetFirmwareType
+- ExGetFirmwareType
 product:
 - Windows
 targetos: Windows

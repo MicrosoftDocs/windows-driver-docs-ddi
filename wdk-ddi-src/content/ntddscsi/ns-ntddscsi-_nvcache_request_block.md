@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._NVCACHE_REQUEST_BLOCK
-title: "_NVCACHE_REQUEST_BLOCK"
+title: _NVCACHE_REQUEST_BLOCK (ntddscsi.h)
 description: The NVCACHE_REQUEST_BLOCK structure is used in conjunction with the IOCTL_SCSI_MINIPORT request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology).
 old-location: storage\nvcache_request_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	NVCACHE_REQUEST_BLOCK
+- NVCACHE_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

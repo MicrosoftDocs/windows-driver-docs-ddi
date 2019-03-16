@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DOMAIN_CONFIGURATION_ARCH
-title: _DOMAIN_CONFIGURATION_ARCH
+title: _DOMAIN_CONFIGURATION_ARCH (wdm.h)
 description: Defines values for type of system architecture specified.
 ms.assetid: 5ca1f77c-21fe-4a4f-80dc-42cb26c51bbc
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DOMAIN_CONFIGURATION_ARCH
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DOMAIN_CONFIGURATION_ARCH
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

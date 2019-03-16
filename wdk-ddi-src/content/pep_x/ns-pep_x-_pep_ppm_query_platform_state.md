@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_PLATFORM_STATE
-title: "_PEP_PPM_QUERY_PLATFORM_STATE"
+title: _PEP_PPM_QUERY_PLATFORM_STATE (pep_x.h)
 description: The PEP_PPM_QUERY_PLATFORM_STATE structure contains information about a platform idle state.
 old-location: kernel\pep_ppm_query_platform_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_PLATFORM_STATE
+- PEP_PPM_QUERY_PLATFORM_STATE
 product:
 - Windows
 targetos: Windows

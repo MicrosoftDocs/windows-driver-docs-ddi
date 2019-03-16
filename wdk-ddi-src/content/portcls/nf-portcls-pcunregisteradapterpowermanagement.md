@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcUnregisterAdapterPowerManagement
-title: PcUnregisterAdapterPowerManagement function
+title: PcUnregisterAdapterPowerManagement function (portcls.h)
 description: The PcUnregisterAdapterPowerManagement function unregisters the audio adapter's power management interface from the PortCls class driver. The PcUnregisterAdapterPowerManagement function is available in Windows 7 and later versions of Windows.
 old-location: audio\pcunregisteradapterpowermanagement.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcUnregisterAdapterPowerManagement
+- PcUnregisterAdapterPowerManagement
 product:
 - Windows
 targetos: Windows

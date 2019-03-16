@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_PROTOCOL
-title: "_WWAN_AUTH_PROTOCOL"
+title: _WWAN_AUTH_PROTOCOL (wwan.h)
 description: The WWAN_AUTH_PROTOCOL enumeration lists the different types of authentication protocols that are supported by the MB device.
 old-location: netvista\wwan_auth_protocol.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_PROTOCOL
+- WWAN_AUTH_PROTOCOL
 product:
 - Windows
 targetos: Windows

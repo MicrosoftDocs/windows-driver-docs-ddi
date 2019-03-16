@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_NOTIFICATION_PARAMETERS
-title: "_DEVICE_DSM_NOTIFICATION_PARAMETERS"
+title: _DEVICE_DSM_NOTIFICATION_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	DEVICE_DSM_NOTIFICATION_PARAMETERS
+- DEVICE_DSM_NOTIFICATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

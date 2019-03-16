@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PNP_BUS_INFORMATION
-title: "_PNP_BUS_INFORMATION"
+title: _PNP_BUS_INFORMATION (wdm.h)
 description: The PNP_BUS_INFORMATION structure describes a bus.
 old-location: kernel\pnp_bus_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PNP_BUS_INFORMATION
+- PNP_BUS_INFORMATION
 product:
 - Windows
 targetos: Windows

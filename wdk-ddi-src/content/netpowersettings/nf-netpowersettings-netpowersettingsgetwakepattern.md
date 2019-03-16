@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetWakePattern
-title: NetPowerSettingsGetWakePattern function
+title: NetPowerSettingsGetWakePattern function (netpowersettings.h)
 description: Retrieves the wake pattern structure at the specified index.
 tech.root: netvista
 ms.assetid: babd5f84-dcc0-4800-a73b-3dbf580700e0
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetWakePattern
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetWakePattern
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

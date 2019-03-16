@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXTURESTAGESTATE
-title: "_D3DDDIARG_TEXTURESTAGESTATE"
+title: _D3DDDIARG_TEXTURESTAGESTATE (d3dumddi.h)
 description: The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group.
 old-location: display\d3dddiarg_texturestagestate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_TEXTURESTAGESTATE
+- D3DDDIARG_TEXTURESTAGESTATE
 product:
 - Windows
 targetos: Windows

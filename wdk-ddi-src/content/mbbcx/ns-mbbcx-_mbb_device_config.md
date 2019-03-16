@@ -1,6 +1,6 @@
 ---
 UID: NS:mbbcx._MBB_DEVICE_CONFIG
-title: _MBB_DEVICE_CONFIG
+title: _MBB_DEVICE_CONFIG (mbbcx.h)
 description: The MBB_DEVICE_CONFIG structure contains pointers to a client driver's MBBCx-specific callback functions. The client driver must supply an initialized MBB_DEVICE_CONFIG structure as an input parameter to MbbDeviceInitialize.
 tech.root: netvista
 ms.assetid: cfe5c009-9245-4d41-992d-5cc5ce2ab711
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_DEVICE_CONFIG
+- _MBB_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

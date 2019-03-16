@@ -1,6 +1,6 @@
 ---
 UID: NF:netringbuffer.NetRingBufferIncrementIndex
-title: NetRingBufferIncrementIndex function
+title: NetRingBufferIncrementIndex function (netringbuffer.h)
 description: Returns the next index value after the specified index value, wrapping around to the beginning of the ring buffer if necessary.
 tech.root: netvista
 ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netringbuffer.h
-apiname: 
--	NetRingBufferIncrementIndex
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netringbuffer.h
+api_name: 
+- NetRingBufferIncrementIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

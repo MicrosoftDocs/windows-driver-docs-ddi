@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsSynchronousDeviceControl
-title: KsSynchronousDeviceControl function
+title: KsSynchronousDeviceControl function (ksproxy.h)
 description: The KsSynchronousDeviceControl function issues a synchronous device I/O control operation to the KS object that is specified by a file handle.
 old-location: stream\kssynchronousdevicecontrol.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsSynchronousDeviceControl
+- KsSynchronousDeviceControl
 product:
 - Windows
 targetos: Windows

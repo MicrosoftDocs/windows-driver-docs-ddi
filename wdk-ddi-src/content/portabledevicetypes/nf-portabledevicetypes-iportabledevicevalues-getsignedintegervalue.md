@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetSignedIntegerValue
-title: IPortableDeviceValues::GetSignedIntegerValue
+title: IPortableDeviceValues::GetSignedIntegerValue (portabledevicetypes.h)
 description: Retrieves a LONG value (type VT_I4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getsignedintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetSignedIntegerValue
+- IPortableDeviceValues.GetSignedIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_WORKITEM
-title: WUDF_INTERRUPT_WORKITEM
+title: WUDF_INTERRUPT_WORKITEM (wudfinterrupt.h)
 description: A driver's OnInterruptWorkItem event callback function processes interrupt information that the driver's OnInterruptIsr callback function has stored.
 old-location: wdf\oninterruptworkitem.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	OnInterruptWorkItem
+- OnInterruptWorkItem
 product:
 - Windows
 targetos: Windows

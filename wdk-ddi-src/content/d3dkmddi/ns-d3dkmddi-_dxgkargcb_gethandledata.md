@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETHANDLEDATA
-title: "_DXGKARGCB_GETHANDLEDATA"
+title: _DXGKARGCB_GETHANDLEDATA (d3dkmddi.h)
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_GETHANDLEDATA
+- DXGKARGCB_GETHANDLEDATA
 product:
 - Windows
 targetos: Windows

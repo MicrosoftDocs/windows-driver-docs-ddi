@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_COMPONENT_HEALTH_STATUS
-title: "_STORAGE_COMPONENT_HEALTH_STATUS"
+title: _STORAGE_COMPONENT_HEALTH_STATUS (ntddstor.h)
 description: Indicates the health status of a storage device.
 old-location: storage\storage_component_health_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_COMPONENT_HEALTH_STATUS
+- STORAGE_COMPONENT_HEALTH_STATUS
 product:
 - Windows
 targetos: Windows

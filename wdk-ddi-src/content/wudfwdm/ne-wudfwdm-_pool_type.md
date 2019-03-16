@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfwdm._POOL_TYPE
-title: "_POOL_TYPE"
+title: _POOL_TYPE (wudfwdm.h)
 description: The POOL_TYPE enumeration type specifies the type of system memory to allocate.
 old-location: kernel\pool_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	POOL_TYPE
+- POOL_TYPE
 product:
 - Windows
 targetos: Windows

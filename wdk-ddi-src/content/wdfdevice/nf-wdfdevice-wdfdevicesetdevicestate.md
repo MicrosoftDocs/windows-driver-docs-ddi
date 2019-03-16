@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetDeviceState
-title: WdfDeviceSetDeviceState function
+title: WdfDeviceSetDeviceState function (wdfdevice.h)
 description: The WdfDeviceSetDeviceState method sets the device state for a specified device.
 old-location: wdf\wdfdevicesetdevicestate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceSetDeviceState
+- WdfDeviceSetDeviceState
 product:
 - Windows
 targetos: Windows

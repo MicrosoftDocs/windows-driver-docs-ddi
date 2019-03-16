@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DIRTYREGIONS
-title: "_D3DKMT_DIRTYREGIONS"
+title: _D3DKMT_DIRTYREGIONS (d3dkmthk.h)
 description: The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of a surface.
 old-location: display\d3dkmt_dirtyregions.htm
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DIRTYREGIONS
+- D3DKMT_DIRTYREGIONS
 product:
 - Windows
 targetos: Windows

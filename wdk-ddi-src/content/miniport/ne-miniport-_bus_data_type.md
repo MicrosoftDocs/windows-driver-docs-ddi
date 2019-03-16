@@ -1,6 +1,6 @@
 ---
 UID: NE:miniport._BUS_DATA_TYPE
-title: "_BUS_DATA_TYPE"
+title: _BUS_DATA_TYPE (miniport.h)
 description: The BUS_DATA_TYPE enumeration indicates the type of bus configuration space.
 old-location: kernel\bus_data_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	BUS_DATA_TYPE
+- BUS_DATA_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
-title: "_IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION"
+title: _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION (ndis.h)
 description: The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 old-location: netvista\ipsec_offload_v2_security_association.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
+- IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 product:
 - Windows
 targetos: Windows

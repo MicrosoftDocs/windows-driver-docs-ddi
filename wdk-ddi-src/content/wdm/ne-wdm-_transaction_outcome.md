@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_OUTCOME
-title: "_TRANSACTION_OUTCOME"
+title: _TRANSACTION_OUTCOME (wdm.h)
 description: The TRANSACTION_OUTCOME enumeration defines the outcomes (results) that KTM can assign to a transaction.
 old-location: kernel\transaction_outcome.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRANSACTION_OUTCOME
+- TRANSACTION_OUTCOME
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcGetFlushedValidData
-title: CcGetFlushedValidData function
+title: CcGetFlushedValidData function (ntifs.h)
 description: The CcGetFlushedValidData routine determines how much of a cached file has been flushed to disk.
 old-location: ifsk\ccgetflushedvaliddata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcGetFlushedValidData
+- CcGetFlushedValidData
 product:
 - Windows
 targetos: Windows

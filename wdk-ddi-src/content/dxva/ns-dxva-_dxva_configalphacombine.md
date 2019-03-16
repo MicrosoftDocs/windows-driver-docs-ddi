@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConfigAlphaCombine
-title: "_DXVA_ConfigAlphaCombine"
+title: _DXVA_ConfigAlphaCombine (dxva.h)
 description: The DXVA_ConfigAlphaCombine structure is sent by the host decoder to the accelerator to set the configuration for alpha-blending combination operations.
 old-location: display\dxva_configalphacombine.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ConfigAlphaCombine
+- DXVA_ConfigAlphaCombine
 product:
 - Windows
 targetos: Windows

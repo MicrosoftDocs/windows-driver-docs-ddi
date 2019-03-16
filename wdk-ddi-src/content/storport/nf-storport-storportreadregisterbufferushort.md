@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUshort
-title: StorPortReadRegisterBufferUshort macro
+title: StorPortReadRegisterBufferUshort macro (storport.h)
 description: The StorPortReadRegisterBufferUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortReadRegisterBufferUshort
+- StorPortReadRegisterBufferUshort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverMagneticStripeReaderAuthenticationLevel
-title: DriverMagneticStripeReaderAuthenticationLevel
+title: DriverMagneticStripeReaderAuthenticationLevel (pointofservicecommontypes.h)
 description: This enumeration defines the levels of magnetic stripe reader (MSR) authentication support.
 old-location: pos\magneticstripereaderauthenticationlevel_handheld_blue_autogen.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverMagneticStripeReaderAuthenticationLevel
+- DriverMagneticStripeReaderAuthenticationLevel
 product:
 - Windows
 targetos: Windows

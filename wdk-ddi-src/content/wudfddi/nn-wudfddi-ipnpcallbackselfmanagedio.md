@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackSelfManagedIo
-title: IPnpCallbackSelfManagedIo
+title: IPnpCallbackSelfManagedIo (wudfddi.h)
 description: The IPnpCallbackSelfManagedIo interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallbackselfmanagedio.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackSelfManagedIo
+- IPnpCallbackSelfManagedIo
 product:
 - Windows
 targetos: Windows

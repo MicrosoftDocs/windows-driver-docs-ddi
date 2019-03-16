@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OFFERALLOCATIONSCB
-title: PFND3DDDI_OFFERALLOCATIONSCB
+title: PFND3DDDI_OFFERALLOCATIONSCB (d3dumddi.h)
 description: Called by the user-mode display driver to offer video memory allocations for reuse.
 old-location: display\pfnofferallocationscb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnOfferAllocationsCb
+- pfnOfferAllocationsCb
 product:
 - Windows
 targetos: Windows

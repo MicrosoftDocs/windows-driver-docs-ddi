@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR_RGBA
-title: "_DXVAHDDDI_COLOR_RGBA"
+title: _DXVAHDDDI_COLOR_RGBA (d3dumddi.h)
 description: The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.
 old-location: display\dxvahdddi_color_rgba.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_COLOR_RGBA
+- DXVAHDDDI_COLOR_RGBA
 product:
 - Windows
 targetos: Windows

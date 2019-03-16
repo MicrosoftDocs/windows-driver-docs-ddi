@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_ACL_GET_MODE
-title: "_BRB_ACL_GET_MODE"
+title: _BRB_ACL_GET_MODE (bthddi.h)
 description: The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote device.
 old-location: bltooth\_brb_acl_get_mode.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_ACL_GET_MODE
+- _BRB_ACL_GET_MODE
 product:
 - Windows
 targetos: Windows

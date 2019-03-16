@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Purge
-title: IWDFIoQueue::Purge
+title: IWDFIoQueue::Purge (wudfddi.h)
 description: The Purge method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests.
 old-location: wdf\iwdfioqueue_purge.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.Purge
+- IWDFIoQueue.Purge
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
-title: PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
+title: PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE (d3d10umddi.h)
 description: Establishes a session key for a cryptographic session object.
 old-location: display\negotiatecryptosessionkeyexchange.htm
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	NegotiateCryptoSessionKeyExchange
+- NegotiateCryptoSessionKeyExchange
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCANCEL_MAPPED_TRANSFER
-title: PCANCEL_MAPPED_TRANSFER
+title: PCANCEL_MAPPED_TRANSFER (wdm.h)
 description: The CancelMappedTransfer routine cancels a system DMA transfer that is currently mapped to an adapter.
 old-location: kernel\cancelmappedtransfer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CancelMappedTransfer
+- CancelMappedTransfer
 product:
 - Windows
 targetos: Windows

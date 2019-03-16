@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_EXTD_BOTH_DIR_INFORMATION
-title: "_FILE_ID_EXTD_BOTH_DIR_INFORMATION"
+title: _FILE_ID_EXTD_BOTH_DIR_INFORMATION (ntifs.h)
 description: The FILE_ID_EXTD_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_extd_both_dir_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_ID_EXTD_BOTH_DIR_INFORMATION
+- FILE_ID_EXTD_BOTH_DIR_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsDecrementPendingIoCount
-title: IKsPin::KsDecrementPendingIoCount
+title: IKsPin::KsDecrementPendingIoCount (ksproxy.h)
 description: The KsDecrementPendingIoCount method decrements the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksdecrementpendingiocount.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsDecrementPendingIoCount
+- IKsPin.KsDecrementPendingIoCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFREE_ADAPTER_OBJECT
-title: PFREE_ADAPTER_OBJECT
+title: PFREE_ADAPTER_OBJECT (wdm.h)
 description: The FreeAdapterObject routine releases the specified adapter object after a driver has completed all DMA operations.
 old-location: kernel\freeadapterobject.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FreeAdapterObject
+- FreeAdapterObject
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRetrieveUlong
-title: NdisRetrieveUlong macro
+title: NdisRetrieveUlong macro (ndis.h)
 description: The NdisRetrieveUlong function retrieves a ULONG value from the source address, avoiding alignment faults.
 old-location: netvista\ndisretrieveulong.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRetrieveUlong
+- NdisRetrieveUlong
 product:
 - Windows
 targetos: Windows

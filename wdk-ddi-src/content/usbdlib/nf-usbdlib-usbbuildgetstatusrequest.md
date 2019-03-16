@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.UsbBuildGetStatusRequest
-title: UsbBuildGetStatusRequest macro
+title: UsbBuildGetStatusRequest macro (usbdlib.h)
 description: The UsbBuildGetStatusRequest macro formats an URB to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
 old-location: buses\usbbuildgetstatusrequest.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	UsbBuildGetStatusRequest
+- UsbBuildGetStatusRequest
 product:
 - Windows
 targetos: Windows

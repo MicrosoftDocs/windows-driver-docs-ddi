@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExQueueWorkItem
-title: ExQueueWorkItem function
+title: ExQueueWorkItem function (wdm.h)
 description: ExQueueWorkItem inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to ExInitializeWorkItem.
 old-location: ifsk\exqueueworkitem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExQueueWorkItem
+- ExQueueWorkItem
 product:
 - Windows
 targetos: Windows

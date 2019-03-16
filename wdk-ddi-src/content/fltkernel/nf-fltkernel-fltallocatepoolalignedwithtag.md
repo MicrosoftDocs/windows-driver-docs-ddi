@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocatePoolAlignedWithTag
-title: FltAllocatePoolAlignedWithTag function
+title: FltAllocatePoolAlignedWithTag function (fltkernel.h)
 description: FltAllocatePoolAlignedWithTag allocates a device-aligned buffer for use in a noncached I/O operation.
 old-location: ifsk\fltallocatepoolalignedwithtag.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAllocatePoolAlignedWithTag
+- FltAllocatePoolAlignedWithTag
 product:
 - Windows
 targetos: Windows

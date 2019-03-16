@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlMoveMemory
-title: RtlMoveMemory macro
+title: RtlMoveMemory macro (wdm.h)
 description: The RtlMoveMemory routine copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 old-location: kernel\rtlmovememory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlMoveMemory
+- RtlMoveMemory
 product:
 - Windows
 targetos: Windows

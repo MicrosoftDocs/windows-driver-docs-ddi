@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_CHECK_VERIFY
-title: IOCTL_CDROM_CHECK_VERIFY
+title: IOCTL_CDROM_CHECK_VERIFY (ntddcdrm.h)
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_CHECK_VERIFY. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_cdrom_check_verify.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_CHECK_VERIFY
+- IOCTL_CDROM_CHECK_VERIFY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwCreateEvent
-title: ZwCreateEvent function
+title: ZwCreateEvent function (ntifs.h)
 description: The ZwCreateEvent routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
 old-location: kernel\zwcreateevent.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateEvent
--	NtCreateEvent
+- ZwCreateEvent
+- NtCreateEvent
 product:
 - Windows
 targetos: Windows

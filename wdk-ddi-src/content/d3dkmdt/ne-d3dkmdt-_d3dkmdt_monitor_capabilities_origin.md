@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
-title: "_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN"
+title: _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_CAPABILITIES_ORIGIN enumeration is used to indicate where a monitor's capability information was obtained.
 old-location: display\d3dkmdt_monitor_capabilities_origin.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+- D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
 product:
 - Windows
 targetos: Windows

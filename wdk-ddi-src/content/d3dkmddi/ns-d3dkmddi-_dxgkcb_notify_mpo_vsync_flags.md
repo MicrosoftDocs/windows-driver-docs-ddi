@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
-title: _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
+title: _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS (d3dkmddi.h)
 description: A structure containing the flags set by the driver to process a flip entry.
 old-location: display\dxgkcb_notify_mpo_vsync_flags.htm
 ms.assetid: 5583297C-D927-4D9A-8F77-D9871B2CA736
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
+- DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 product:
 - Windows
 targetos: Windows

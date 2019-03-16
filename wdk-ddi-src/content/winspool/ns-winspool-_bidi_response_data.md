@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_DATA
-title: "_BIDI_RESPONSE_DATA"
+title: _BIDI_RESPONSE_DATA (winspool.h)
 description: The BIDI_RESPONSE_DATA structure holds a single bidi response.
 old-location: print\bidi_response_data.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BIDI_RESPONSE_DATA
+- BIDI_RESPONSE_DATA
 product:
 - Windows
 targetos: Windows

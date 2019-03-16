@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
-title: "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE"
+title: _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE (video.h)
 description: The VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure describes the Write Combined video memory protection service routines implemented by the video port driver. The protected video memory cannot be accessed by the CPU.
 old-location: display\video_port_wcmemoryprotection_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
+- VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 product:
 - Windows
 targetos: Windows

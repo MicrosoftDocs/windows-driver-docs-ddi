@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInsertByKeyDeviceQueue
-title: KeInsertByKeyDeviceQueue function
+title: KeInsertByKeyDeviceQueue function (wdm.h)
 description: The KeInsertByKeyDeviceQueue routine acquires the spin lock for the specified DeviceQueue and queues an entry according to the specified sort-key value if the device queue is set to a busy state.
 old-location: kernel\keinsertbykeydevicequeue.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInsertByKeyDeviceQueue
+- KeInsertByKeyDeviceQueue
 product:
 - Windows
 targetos: Windows

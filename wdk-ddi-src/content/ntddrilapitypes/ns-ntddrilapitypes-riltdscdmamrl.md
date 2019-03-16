@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILTDSCDMAMRL
-title: RILTDSCDMAMRL
+title: RILTDSCDMAMRL (ntddrilapitypes.h)
 description: This structure represents RILTDSCDMAMRL, which is a TD_SCDMA network measurement report.
 old-location: netvista\riltdscdmamrl.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILTDSCDMAMRL
+- RILTDSCDMAMRL
 product:
 - Windows
 targetos: Windows

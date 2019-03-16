@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS
-title: NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS
+title: NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS (ndis.h)
 description: The GetNetBufferListDestinations function returns the Hyper-V extensible switch destination ports of a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\GetNetBufferListDestinations.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	GetNetBufferListDestinations
+- GetNetBufferListDestinations
 product:
 - Windows
 targetos: Windows

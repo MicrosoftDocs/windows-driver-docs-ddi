@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PMINIPORT_QUERY_DEVICE_ROUTINE
-title: PMINIPORT_QUERY_DEVICE_ROUTINE
+title: PMINIPORT_QUERY_DEVICE_ROUTINE (video.h)
 description: HwVidQueryDeviceCallback uses the specified configuration data to configure its adapter, and, possibly, to fill in missing configuration information in the VIDEO_PORT_CONFIG_INFO structure.
 old-location: display\hwvidquerydevicecallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidQueryDeviceCallback
+- HwVidQueryDeviceCallback
 product:
 - Windows
 targetos: Windows

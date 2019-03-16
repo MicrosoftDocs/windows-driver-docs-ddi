@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportStreamAudioEngineNode2
-title: IMiniportStreamAudioEngineNode2
+title: IMiniportStreamAudioEngineNode2 (portcls.h)
 description: The IMiniportStreamAudioEngineNode2 interface allows an audio miniport driver to extend the capabilities of the IMiniportStreamAudioEngineNode interface.
 old-location: audio\iminiportstreamaudioenginenode2.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode2
+- IMiniportStreamAudioEngineNode2
 product:
 - Windows
 targetos: Windows

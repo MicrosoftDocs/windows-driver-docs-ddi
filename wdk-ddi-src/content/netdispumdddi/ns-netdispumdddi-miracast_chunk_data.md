@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_struct_3
-title: MIRACAST_CHUNK_DATA
+title: MIRACAST_CHUNK_DATA (netdispumdddi.h)
 description: Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) GetNextChunkData function.
 old-location: display\miracast_chunk_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_CHUNK_DATA
+- MIRACAST_CHUNK_DATA
 product:
 - Windows
 targetos: Windows

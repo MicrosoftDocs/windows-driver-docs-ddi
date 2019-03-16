@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_TM
-title: "_MSFC_TM"
+title: _MSFC_TM (hbapiwmi.h)
 description: The MSFC_TM structure is used by WMI providers to timestamp events.
 old-location: storage\msfc_tm.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_TM
+- MSFC_TM
 product:
 - Windows
 targetos: Windows

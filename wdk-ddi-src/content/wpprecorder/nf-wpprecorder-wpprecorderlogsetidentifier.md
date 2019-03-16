@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderLogSetIdentifier
-title: WppRecorderLogSetIdentifier macro
+title: WppRecorderLogSetIdentifier macro (wpprecorder.h)
 description: The WppRecorderLogSetIdentifier method sets a string identifier for the recorder log.
 old-location: devtest\wpprecorderlogsetidentifier.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderLogSetIdentifier
+- imp_WppRecorderLogSetIdentifier
 product:
 - Windows
 targetos: Windows

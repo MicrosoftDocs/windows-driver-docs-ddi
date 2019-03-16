@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlParent
-title: RtlParent macro
+title: RtlParent macro (ntddk.h)
 description: The RtlParent routine returns a pointer to the parent of the specified node in a splay link tree.
 old-location: ifsk\rtlparent.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlParent
+- RtlParent
 product:
 - Windows
 targetos: Windows

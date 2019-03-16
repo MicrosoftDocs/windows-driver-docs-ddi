@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
-title: IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
+title: IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS (ntddvdeo.h)
 description: Queries the brightness capabilities for a display panel.
 ms.assetid: e36d2980-28db-4770-acbb-db79c60049e6
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
+- IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_OPEN_TYPE
-title: "_WDF_IO_TARGET_OPEN_TYPE"
+title: _WDF_IO_TARGET_OPEN_TYPE (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_TYPE enumeration specifies how a driver identifies a remote I/O target when the driver calls WdfIoTargetOpen.
 old-location: wdf\wdf_io_target_open_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfiotarget.h
+- wdfiotarget.h
 api_name:
--	WDF_IO_TARGET_OPEN_TYPE
+- WDF_IO_TARGET_OPEN_TYPE
 product:
 - Windows
 targetos: Windows

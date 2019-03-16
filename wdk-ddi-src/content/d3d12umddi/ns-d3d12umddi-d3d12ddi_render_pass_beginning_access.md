@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
-title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
+title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS (d3d12umddi.h)
 description: Specifies the resources needed to start a Render Pass.
 ms.assetid: ac703ac4-da4d-450a-8ca9-3c25c563431a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
+- D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

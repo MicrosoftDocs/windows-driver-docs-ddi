@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_74
-title: KSDPC_ITEM
+title: KSDPC_ITEM (ks.h)
 description: The KSDPC_ITEM structure is used to store information related to any internal DPCs that might be used to generate event notification from a raised IRQL.
 old-location: stream\ksdpc_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSDPC_ITEM
+- KSDPC_ITEM
 product:
 - Windows
 targetos: Windows

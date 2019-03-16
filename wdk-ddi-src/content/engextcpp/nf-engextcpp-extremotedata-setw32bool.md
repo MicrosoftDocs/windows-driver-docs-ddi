@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.SetW32Bool
-title: ExtRemoteData::SetW32Bool method
+title: ExtRemoteData::SetW32Bool method (engextcpp.h)
 description: The ExtRemoteData class provides a wrapper around a small section of a target's memory. ExtRemoteData automatically retrieves the memory and provides a number of convenience methods.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	COM
-apilocation:
--	engextcpp.hpp
-apiname:
--	ExtRemoteData
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- engextcpp.hpp
+api_name:
+- ExtRemoteData
 product:
 - Windows
 targetos: Windows

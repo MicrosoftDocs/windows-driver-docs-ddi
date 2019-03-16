@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_PRESENTSURFACE
-title: D3DDDIARG_PRESENTSURFACE
+title: D3DDDIARG_PRESENTSURFACE (d3dumddi.h)
 description: Describes a surface to display.
 old-location: display\d3dddiarg_presentsurface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_PRESENTSURFACE
+- D3DDDIARG_PRESENTSURFACE
 product:
 - Windows
 targetos: Windows

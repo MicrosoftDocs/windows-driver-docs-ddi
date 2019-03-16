@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SAVE_CONTINUE
-title: FN_VMB_CHANNEL_SAVE_CONTINUE
+title: FN_VMB_CHANNEL_SAVE_CONTINUE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSaveContinue function saves the channel state to a buffer. Run the VmbChannelSaveBegin before you run this function. The driver must check the return value of the function.
 tech.root: netvista
 ms.assetid: 020dcfd9-f552-4b0a-ad82-0dea44bcec28
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_SAVE_CONTINUE
+- FN_VMB_CHANNEL_SAVE_CONTINUE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

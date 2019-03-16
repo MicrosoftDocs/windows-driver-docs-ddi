@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DESCRIPTOR_HEADER
-title: "_STORAGE_DESCRIPTOR_HEADER"
+title: _STORAGE_DESCRIPTOR_HEADER (ntddstor.h)
 description: The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_descriptor_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DESCRIPTOR_HEADER
+- STORAGE_DESCRIPTOR_HEADER
 product:
 - Windows
 targetos: Windows

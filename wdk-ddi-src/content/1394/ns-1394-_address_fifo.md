@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._ADDRESS_FIFO
-title: "_ADDRESS_FIFO"
+title: _ADDRESS_FIFO (1394.h)
 description: The ADDRESS_FIFO structure is an entry in a singly-linked list of MDLs used by the REQUEST_ALLOCATE_ADDRESS_RANGE IEEE 1394 bus request.
 old-location: ieee\address_fifo.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	ADDRESS_FIFO
+- ADDRESS_FIFO
 product:
 - Windows
 targetos: Windows

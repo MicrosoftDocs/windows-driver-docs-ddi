@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SHARED_ENDPOINT
-title: "_NDK_SHARED_ENDPOINT"
+title: _NDK_SHARED_ENDPOINT (ndkpi.h)
 description: The NDK_SHARED_ENDPOINT structure specifies the attributes of an NDK shared endpoint object.
 old-location: netvista\ndk_shared_endpoint.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_SHARED_ENDPOINT
+- NDK_SHARED_ENDPOINT
 product:
 - Windows
 targetos: Windows

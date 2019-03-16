@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostErrorSink
-title: IDebugHostErrorSink
+title: IDebugHostErrorSink (dbgmodel.h)
 description: An interface to which errors will be sinked.
 ms.assetid: b82fbfe5-75c6-4c4c-8670-c2021dfa4c0d
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostErrorSink
-product: Windows
+- IDebugHostErrorSink
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

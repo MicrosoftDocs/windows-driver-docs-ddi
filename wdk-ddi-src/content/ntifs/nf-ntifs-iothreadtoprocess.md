@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoThreadToProcess
-title: IoThreadToProcess function
+title: IoThreadToProcess function (ntifs.h)
 description: The IoThreadToProcess routine returns a pointer to the process for the specified thread.
 old-location: ifsk\iothreadtoprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoThreadToProcess
+- IoThreadToProcess
 product:
 - Windows
 targetos: Windows
@@ -79,7 +79,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

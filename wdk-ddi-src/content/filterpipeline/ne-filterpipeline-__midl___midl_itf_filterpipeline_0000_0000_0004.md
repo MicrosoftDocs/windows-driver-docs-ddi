@@ -1,6 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
-title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004"
+title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 (filterpipeline.h)
 description: 
 old-location: print\expsfontrestriction.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	EXpsFontRestriction
+- EXpsFontRestriction
 product:
 - Windows
 targetos: Windows

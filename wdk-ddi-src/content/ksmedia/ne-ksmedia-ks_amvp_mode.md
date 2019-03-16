@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_110
-title: KS_AMVP_MODE
+title: KS_AMVP_MODE (ksmedia.h)
 description: The KS_AMVP_MODE enumeration defines video port display modes.
 old-location: stream\ks_amvp_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMVP_MODE
+- KS_AMVP_MODE
 product:
 - Windows
 targetos: Windows

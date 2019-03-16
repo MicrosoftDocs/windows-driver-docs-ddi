@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedInsertTailList
-title: StorPortInterlockedInsertTailList function
+title: StorPortInterlockedInsertTailList function (storport.h)
 description: The StorPortInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinserttaillist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInterlockedInsertTailList
+- StorPortInterlockedInsertTailList
 product:
 - Windows
 targetos: Windows

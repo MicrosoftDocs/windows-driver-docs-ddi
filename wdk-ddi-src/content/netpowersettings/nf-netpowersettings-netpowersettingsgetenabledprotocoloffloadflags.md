@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetEnabledProtocolOffloadFlags
-title: NetPowerSettingsGetEnabledProtocolOffloadFlags function
+title: NetPowerSettingsGetEnabledProtocolOffloadFlags function (netpowersettings.h)
 description: Retrieves flags that specify currently enabled low power protocol offloads that a network adapter supports.
 tech.root: netvista
 ms.assetid: 80320d68-e1cd-49b1-b8e0-5709ab7a1817
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetEnabledProtocolOffloadFlags
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetEnabledProtocolOffloadFlags
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverPS.DrvGetDriverSetting
-title: IPrintOemDriverPS::DrvGetDriverSetting
+title: IPrintOemDriverPS::DrvGetDriverSetting (prcomoem.h)
 description: The IPrintOemDriverPS::DrvGetDriverSetting method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
 old-location: print\iprintoemdriverps_drvgetdriversetting.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemDriverPS.DrvGetDriverSetting
+- IPrintOemDriverPS.DrvGetDriverSetting
 product:
 - Windows
 targetos: Windows

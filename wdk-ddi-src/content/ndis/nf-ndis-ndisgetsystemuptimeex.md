@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetSystemUpTimeEx
-title: NdisGetSystemUpTimeEx function
+title: NdisGetSystemUpTimeEx function (ndis.h)
 description: The NdisGetSystemUpTimeEx function returns the number of milliseconds that have elapsed since the computer was restarted.
 old-location: netvista\ndisgetsystemuptimeex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetSystemUpTimeEx
+- NdisGetSystemUpTimeEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYVIDEOMEMORYINFO
-title: _D3DKMT_QUERYVIDEOMEMORYINFO
+title: _D3DKMT_QUERYVIDEOMEMORYINFO (d3dkmthk.h)
 description: Used to query for video memory info.
 ms.assetid: 6ddd12f9-abd8-4e9a-b1e5-193956a5f9dd
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERYVIDEOMEMORYINFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_QUERYVIDEOMEMORYINFO
+- _D3DKMT_QUERYVIDEOMEMORYINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OFFLOAD_PARAMETERS
-title: "_NDIS_OFFLOAD_PARAMETERS"
+title: _NDIS_OFFLOAD_PARAMETERS (ntddndis.h)
 description: The NDIS_OFFLOAD_PARAMETERS structure specifies the current task offload configuration settings in response to an OID set request of OID_TCP_OFFLOAD_PARAMETERS.
 old-location: netvista\ndis_offload_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_OFFLOAD_PARAMETERS
+- NDIS_OFFLOAD_PARAMETERS
 product:
 - Windows
 targetos: Windows

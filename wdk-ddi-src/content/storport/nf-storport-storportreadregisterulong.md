@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterUlong
-title: StorPortReadRegisterUlong macro
+title: StorPortReadRegisterUlong macro (storport.h)
 description: The StorPortReadRegisterUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterulong.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortReadRegisterUlong
+- StorPortReadRegisterUlong
 product:
 - Windows
 targetos: Windows

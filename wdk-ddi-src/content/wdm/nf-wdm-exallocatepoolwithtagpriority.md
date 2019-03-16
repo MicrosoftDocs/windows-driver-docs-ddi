@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithTagPriority
-title: ExAllocatePoolWithTagPriority function
+title: ExAllocatePoolWithTagPriority function (wdm.h)
 description: The ExAllocatePoolWithTagPriority routine allocates pool memory of the specified type.
 old-location: kernel\exallocatepoolwithtagpriority.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocatePoolWithTagPriority
+- ExAllocatePoolWithTagPriority
 product:
 - Windows
 targetos: Windows

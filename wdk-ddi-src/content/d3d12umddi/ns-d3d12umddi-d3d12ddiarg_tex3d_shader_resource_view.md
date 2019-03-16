@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
-title: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
+title: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW (d3d12umddi.h)
 description: Describes a three-dimensional (3-D) texture that is used to create a shader resource view.
 ms.assetid: 869a8703-5fe7-42be-bbec-771703f7d843
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
+- D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

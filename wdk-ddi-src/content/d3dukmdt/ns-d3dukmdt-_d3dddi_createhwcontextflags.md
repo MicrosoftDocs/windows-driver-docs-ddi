@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWCONTEXTFLAGS
-title: "_D3DDDI_CREATEHWCONTEXTFLAGS"
+title: _D3DDDI_CREATEHWCONTEXTFLAGS (d3dukmdt.h)
 description: A structure used to create hardware context flags.
 old-location: display\d3dddi_createhwcontextflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_CREATEHWCONTEXTFLAGS
+- D3DDDI_CREATEHWCONTEXTFLAGS
 product:
 - Windows
 targetos: Windows

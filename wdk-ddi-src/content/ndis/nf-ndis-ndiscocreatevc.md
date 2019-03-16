@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCoCreateVc
-title: NdisCoCreateVc function
+title: NdisCoCreateVc function (ndis.h)
 description: NdisCoCreateVc sets up a connection endpoint from which a client can make outgoing calls or on which a stand-alone call manager can dispatch incoming calls.
 old-location: netvista\ndiscocreatevc.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCoCreateVc
+- NdisCoCreateVc
 product:
 - Windows
 targetos: Windows

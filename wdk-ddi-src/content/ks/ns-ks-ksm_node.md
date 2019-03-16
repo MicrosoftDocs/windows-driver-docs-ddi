@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_4
-title: KSM_NODE
+title: KSM_NODE (ks.h)
 description: Just as KSP_NODE is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 old-location: stream\ksm_node.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSM_NODE
+- KSM_NODE
 product:
 - Windows
 targetos: Windows

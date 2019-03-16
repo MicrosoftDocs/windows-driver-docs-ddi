@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ADDSURFACETOSWAPCHAIN
-title: PFND3DKMT_ADDSURFACETOSWAPCHAIN
+title: PFND3DKMT_ADDSURFACETOSWAPCHAIN (d3dkmthk.h)
 description: Implemented by the client driver to add a surface to the swapchain.
 ms.assetid: cad91f7c-de5e-4432-9bb6-0e9b6f5f8902
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_ADDSURFACETOSWAPCHAIN
+- PFND3DKMT_ADDSURFACETOSWAPCHAIN
 product: 
 - Windows
 targetos: Windows

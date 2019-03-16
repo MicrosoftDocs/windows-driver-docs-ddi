@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolPathWide
-title: IDebugSymbols3::GetSymbolPathWide
+title: IDebugSymbols3::GetSymbolPathWide (dbgeng.h)
 description: The GetSymbolPathWide method returns the symbol path.
 old-location: debugger\getsymbolpathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetSymbolPathWide
+- IDebugSymbols3.GetSymbolPathWide
 product:
 - Windows
 targetos: Windows

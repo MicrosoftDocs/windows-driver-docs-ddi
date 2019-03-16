@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SENSOR_CONFIG_INIT
-title: SENSOR_CONFIG_INIT function
+title: SENSOR_CONFIG_INIT function (sensorscx.h)
 description: This function initializes a SENSOR_CONFIG structure.
 old-location: sensors\sensor_config_init.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	SENSOR_CONFIG_INIT
+- SENSOR_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

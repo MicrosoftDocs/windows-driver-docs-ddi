@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SPB_CONNECTION_PARAMETERS_INIT
-title: SPB_CONNECTION_PARAMETERS_INIT function
+title: SPB_CONNECTION_PARAMETERS_INIT function (spbcx.h)
 description: The SPB_CONNECTION_PARAMETERS_INIT function initializes an SPB_CONNECTION_PARAMETERS structure.
 old-location: spb\spb_connection_parameters_init.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_CONNECTION_PARAMETERS_INIT
+- SPB_CONNECTION_PARAMETERS_INIT
 product:
 - Windows
 targetos: Windows

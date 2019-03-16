@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerSetHardwareRequestQueue
-title: UcmTcpciPortControllerSetHardwareRequestQueue function
+title: UcmTcpciPortControllerSetHardwareRequestQueue function (ucmtcpciportcontroller.h)
 description: Assigns a framework queue object to which the UcmTcpciCx dispatches hardware requests for the port controller.
 old-location: buses\ucmtcpciportcontrollersethardwarerequestqueue.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UcmTcpciPortControllerSetHardwareRequestQueue
+- UcmTcpciPortControllerSetHardwareRequestQueue
 product:
 - Windows
 targetos: Windows

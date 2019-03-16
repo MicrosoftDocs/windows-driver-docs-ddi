@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
-title: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
+title: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK (dbgeng.h)
 description: The ReconstructStack callback function queries dump stream provider on a per-thread basis.
 old-location: debugger\reconstructstack.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	ReconstructStack
+- ReconstructStack
 product:
 - Windows
 targetos: Windows

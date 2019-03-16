@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._MAPTABLE
-title: "_MAPTABLE"
+title: _MAPTABLE (prntfont.h)
 description: The MAPTABLE structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\maptable.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	MAPTABLE
+- MAPTABLE
 product:
 - Windows
 targetos: Windows

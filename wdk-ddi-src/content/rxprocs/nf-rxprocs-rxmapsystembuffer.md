@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxMapSystemBuffer
-title: RxMapSystemBuffer function
+title: RxMapSystemBuffer function (rxprocs.h)
 description: RxMapSystemBuffer returns the system buffer address from the IRP.
 old-location: ifsk\rxmapsystembuffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxMapSystemBuffer
+- RxMapSystemBuffer
 product:
 - Windows
 targetos: Windows

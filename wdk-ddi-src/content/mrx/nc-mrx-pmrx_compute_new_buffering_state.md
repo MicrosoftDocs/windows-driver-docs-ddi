@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_COMPUTE_NEW_BUFFERING_STATE
-title: PMRX_COMPUTE_NEW_BUFFERING_STATE
+title: PMRX_COMPUTE_NEW_BUFFERING_STATE (mrx.h)
 description: TheMRxComputeNewBufferingState routine is called by RDBSS to request that the network mini-redirector compute a new buffering state change.
 old-location: ifsk\mrxcomputenewbufferingstate.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxComputeNewBufferingState
+- MRxComputeNewBufferingState
 product:
 - Windows
 targetos: Windows

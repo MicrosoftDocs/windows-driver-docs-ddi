@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_CHALLENGE
-title: "_WWAN_AUTH_SIM_CHALLENGE"
+title: _WWAN_AUTH_SIM_CHALLENGE (wwan.h)
 description: The WWAN_AUTH_SIM_CHALLENGE structure represents an authentication challenge using the SIM method.
 old-location: netvista\wwan_auth_sim_challenge.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_SIM_CHALLENGE
+- WWAN_AUTH_SIM_CHALLENGE
 product:
 - Windows
 targetos: Windows

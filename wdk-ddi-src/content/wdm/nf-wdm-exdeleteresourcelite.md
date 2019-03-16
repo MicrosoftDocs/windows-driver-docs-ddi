@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteResourceLite
-title: ExDeleteResourceLite function
+title: ExDeleteResourceLite function (wdm.h)
 description: The ExDeleteResourceLite routine deletes a given resource from the system's resource list.
 old-location: kernel\exdeleteresourcelite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExDeleteResourceLite
+- ExDeleteResourceLite
 product:
 - Windows
 targetos: Windows

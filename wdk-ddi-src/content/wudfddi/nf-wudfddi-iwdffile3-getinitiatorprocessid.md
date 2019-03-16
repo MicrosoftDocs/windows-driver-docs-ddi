@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile3.GetInitiatorProcessId
-title: IWDFFile3::GetInitiatorProcessId
+title: IWDFFile3::GetInitiatorProcessId (wudfddi.h)
 description: The GetInitiatorProcessId method retrieves the initiator process ID associated with an IWDFFile interface.
 old-location: wdf\iwdffile3_getinitiatorprocessid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFile3.GetInitiatorProcessId
+- IWDFFile3.GetInitiatorProcessId
 product:
 - Windows
 targetos: Windows

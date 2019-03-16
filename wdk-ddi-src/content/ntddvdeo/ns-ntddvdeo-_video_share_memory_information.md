@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_SHARE_MEMORY_INFORMATION
-title: "_VIDEO_SHARE_MEMORY_INFORMATION"
+title: _VIDEO_SHARE_MEMORY_INFORMATION (ntddvdeo.h)
 description: The VIDEO_SHARE_MEMORY_INFORMATION structure is used to communicate to the display driver that a request for a block of user-mode memory has been fulfilled.
 old-location: display\video_share_memory_information.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_SHARE_MEMORY_INFORMATION
+- VIDEO_SHARE_MEMORY_INFORMATION
 product:
 - Windows
 targetos: Windows

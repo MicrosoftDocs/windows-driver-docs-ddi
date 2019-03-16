@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_FLUSH_QUEUE
-title: NDIS_PD_FLUSH_QUEUE
+title: NDIS_PD_FLUSH_QUEUE (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's PDFlushQueue function to flush a specified queue, ensuring that any items that are not yet in a complete state in the queue will be completed imminently.
 old-location: netvista\pdflushqueue.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	*NDIS_PD_FLUSH_QUEUE_HANDLER
+- *NDIS_PD_FLUSH_QUEUE_HANDLER
 product:
 - Windows
 targetos: Windows

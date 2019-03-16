@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.IsKernelDebuggerEnabled
-title: IDebugClient4::IsKernelDebuggerEnabled
+title: IDebugClient4::IsKernelDebuggerEnabled (dbgeng.h)
 description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel.
 old-location: debugger\iskerneldebuggerenabled.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient2.IsKernelDebuggerEnabled
--	IDebugClient3.IsKernelDebuggerEnabled
--	IDebugClient4.IsKernelDebuggerEnabled
--	IDebugClient5.IsKernelDebuggerEnabled
+- IDebugClient2.IsKernelDebuggerEnabled
+- IDebugClient3.IsKernelDebuggerEnabled
+- IDebugClient4.IsKernelDebuggerEnabled
+- IDebugClient5.IsKernelDebuggerEnabled
 product:
 - Windows
 targetos: Windows

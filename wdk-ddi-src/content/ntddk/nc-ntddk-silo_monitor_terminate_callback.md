@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.SILO_MONITOR_TERMINATE_CALLBACK
-title: SILO_MONITOR_TERMINATE_CALLBACK
+title: SILO_MONITOR_TERMINATE_CALLBACK (ntddk.h)
 description: This callback is invoked when a silo is terminated.
 old-location: kernel\silo_monitor_terminate_callback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	TerminateCallback
+- TerminateCallback
 product:
 - Windows
 targetos: Windows

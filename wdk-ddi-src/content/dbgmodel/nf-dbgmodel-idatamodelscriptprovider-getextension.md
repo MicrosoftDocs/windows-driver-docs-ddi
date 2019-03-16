@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.GetExtension
-title: IDataModelScriptProvider::GetExtension
+title: IDataModelScriptProvider::GetExtension (dbgmodel.h)
 description: The GetExtension method returns the file extension for scripts managed by this provider (without the dot) as a string allocated via the SysAllocString method.
 ms.assetid: e9f079fa-3ce1-4a05-a46e-f5b5268d2a6f
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProvider.GetExtension
-product: Windows
+- IDataModelScriptProvider.GetExtension
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

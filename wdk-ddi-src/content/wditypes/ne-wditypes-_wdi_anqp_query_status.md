@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ANQP_QUERY_STATUS
-title: "_WDI_ANQP_QUERY_STATUS"
+title: _WDI_ANQP_QUERY_STATUS (wditypes.h)
 description: The WDI_ANQP_QUERY_STATUS enumeration defines the Access Network Query Protocol (ANQP) query status values.
 old-location: netvista\wdi_anqp_query_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_ANQP_QUERY_STATUS
+- WDI_ANQP_QUERY_STATUS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCK2CB
-title: PFND3DDDI_UNLOCK2CB
+title: PFND3DDDI_UNLOCK2CB (d3dumddi.h)
 description: The pfnUnlock2Cb function unlocks an allocation that was locked by a call to the pfnLock2Cb function.
 old-location: display\pfnunlock2cb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnUnlock2Cb
+- pfnUnlock2Cb
 product:
 - Windows
 targetos: Windows

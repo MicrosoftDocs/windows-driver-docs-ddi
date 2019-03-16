@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateFilterInformation
-title: FltEnumerateFilterInformation function
+title: FltEnumerateFilterInformation function (fltkernel.h)
 description: The FltEnumerateFilterInformation routine provides information about all the registered filter drivers (including minifilter and legacy filter drivers) in the system.
 old-location: ifsk\fltenumeratefilterinformation.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltEnumerateFilterInformation
+- FltEnumerateFilterInformation
 product:
 - Windows
 targetos: Windows

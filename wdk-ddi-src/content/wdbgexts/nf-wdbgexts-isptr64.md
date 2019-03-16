@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.IsPtr64
-title: IsPtr64 function
+title: IsPtr64 function (wdbgexts.h)
 description: The IsPtr64 function determines if the target uses 64-bit pointers.
 old-location: debugger\isptr64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	IsPtr64
+- IsPtr64
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsQueryMediums
-title: IKsPin::KsQueryMediums
+title: IKsPin::KsQueryMediums (ksproxy.h)
 description: The KsQueryMediums method retrieves mediums that a pin supports.
 old-location: stream\ikspin_ksquerymediums.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsQueryMediums
+- IKsPin.KsQueryMediums
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICE
-title: PFNKSDEVICE
+title: PFNKSDEVICE (ks.h)
 description: An AVStream minidriver's AVStrMiniDevicePostStart routine is called when AVStream performs post-PnP-start processing. Use it to load drivers at start time, for example. Such events then will occur in the context of a worker thread after PnP start.
 old-location: stream\avstrminidevicepoststart.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniDevicePostStart
+- AVStrMiniDevicePostStart
 product:
 - Windows
 targetos: Windows

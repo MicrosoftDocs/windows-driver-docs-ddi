@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PALLOCATE_ADAPTER_CHANNEL_EX
-title: PALLOCATE_ADAPTER_CHANNEL_EX
+title: PALLOCATE_ADAPTER_CHANNEL_EX (wdm.h)
 description: The AllocateAdapterChannelEx routine allocates the resources that are needed to perform a DMA transfer, and then calls the driver-supplied AdapterControl routine to initiate the DMA transfer.
 old-location: kernel\allocateadapterchannelex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	AllocateAdapterChannelEx
+- AllocateAdapterChannelEx
 product:
 - Windows
 targetos: Windows

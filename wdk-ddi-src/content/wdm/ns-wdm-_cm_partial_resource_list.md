@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_LIST
-title: "_CM_PARTIAL_RESOURCE_LIST"
+title: _CM_PARTIAL_RESOURCE_LIST (wdm.h)
 description: The CM_PARTIAL_RESOURCE_LIST structure specifies a set of system hardware resources, of various types, assigned to a device. This structure is contained within a CM_FULL_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\cm_partial_resource_list.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CM_PARTIAL_RESOURCE_LIST
+- CM_PARTIAL_RESOURCE_LIST
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryQueryMultiString
-title: WdfRegistryQueryMultiString function
+title: WdfRegistryQueryMultiString function (wdfregistry.h)
 description: The WdfRegistryQueryMultiString method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified object collection.
 old-location: wdf\wdfregistryquerymultistring.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRegistryQueryMultiString
+- WdfRegistryQueryMultiString
 product:
 - Windows
 targetos: Windows

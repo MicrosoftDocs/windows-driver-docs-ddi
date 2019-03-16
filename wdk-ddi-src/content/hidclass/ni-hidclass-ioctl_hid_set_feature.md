@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_FEATURE
-title: IOCTL_HID_SET_FEATURE
+title: IOCTL_HID_SET_FEATURE (hidclass.h)
 description: The IOCTL_HID_SET_FEATURE request sends a feature report to a top-level collection.
 old-location: hid\ioctl_hid_set_feature2.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_SET_FEATURE
+- IOCTL_HID_SET_FEATURE
 product:
 - Windows
 targetos: Windows

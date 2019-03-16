@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_READ_ELEMENT_STATUS
-title: "_CHANGER_READ_ELEMENT_STATUS"
+title: _CHANGER_READ_ELEMENT_STATUS (ntddchgr.h)
 description: The CHANGER_READ_ELEMENT_STATUS structure is used in conjunction with the IOCTL_CHANGER_GET_ELEMENT_STATUS request to retrieve the status of all elements or the status of a specified number of elements of a particular type.
 old-location: storage\changer_read_element_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_READ_ELEMENT_STATUS
+- CHANGER_READ_ELEMENT_STATUS
 product:
 - Windows
 targetos: Windows

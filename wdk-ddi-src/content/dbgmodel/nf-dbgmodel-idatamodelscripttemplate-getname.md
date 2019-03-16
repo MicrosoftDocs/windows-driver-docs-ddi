@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetName
-title: IDataModelScriptTemplate::GetName
+title: IDataModelScriptTemplate::GetName (dbgmodel.h)
 description: The GetName method returns a name of the template. 
 ms.assetid: c5df4066-3417-43b9-bf16-a6039c73dd18
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplate.GetName
-product: Windows
+- IDataModelScriptTemplate.GetName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

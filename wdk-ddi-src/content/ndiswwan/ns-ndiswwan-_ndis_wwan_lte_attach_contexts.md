@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_LTE_ATTACH_CONTEXTS
-title: _NDIS_WWAN_LTE_ATTACH_CONTEXTS
+title: _NDIS_WWAN_LTE_ATTACH_CONTEXTS (ndiswwan.h)
 description: The NDIS_WWAN_LTE_ATTACH_CONTEXTS structure describes default LTE attach contexts for the inserted SIM's provider (MCC/MNC pair).
 tech.root: netvista
 ms.assetid: 103cf958-1c1c-44ff-bc93-ce69bbe43b20
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_LTE_ATTACH_CONTEXTS, *PNDIS_WWAN_LTE_ATTACH_CONTEXTS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_LTE_ATTACH_CONTEXTS
+- _NDIS_WWAN_LTE_ATTACH_CONTEXTS
 product: 
 - Windows
 targetos: Windows

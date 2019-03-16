@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetNetBufferListProtocolId
-title: NdisGetNetBufferListProtocolId function
+title: NdisGetNetBufferListProtocolId function (ndis.h)
 description: The NdisGetNetBufferListProtocolId function retrieves the protocol identifier from the NetBufferListInfo member of a NET_BUFFER_LIST structure.
 old-location: netvista\ndisgetnetbufferlistprotocolid.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetNetBufferListProtocolId
+- NdisGetNetBufferListProtocolId
 product:
 - Windows
 targetos: Windows

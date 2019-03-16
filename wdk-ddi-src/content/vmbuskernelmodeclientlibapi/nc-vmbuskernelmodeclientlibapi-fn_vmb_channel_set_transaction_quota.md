@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
-title: FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
+title: FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSetTransactionQuota function sets the incoming packet quota.
 tech.root: netvista
 ms.assetid: a5e56060-b5b9-4d65-8808-1d4a430521fa
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
+- FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

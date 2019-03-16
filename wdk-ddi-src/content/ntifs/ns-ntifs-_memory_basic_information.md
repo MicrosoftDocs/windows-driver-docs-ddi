@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: "_MEMORY_BASIC_INFORMATION"
+title: _MEMORY_BASIC_INFORMATION (ntifs.h)
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	MEMORY_BASIC_INFORMATION
+- MEMORY_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetFileObjectIgnoreSharing
-title: IoSetFileObjectIgnoreSharing function
+title: IoSetFileObjectIgnoreSharing function (ntddk.h)
 description: The IoSetFileObjectIgnoreSharing routine sets a file object to ignore file sharing access checks.
 old-location: ifsk\iosetfileobjectignoresharing.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetFileObjectIgnoreSharing
+- IoSetFileObjectIgnoreSharing
 product:
 - Windows
 targetos: Windows

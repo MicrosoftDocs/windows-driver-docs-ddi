@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DOMAIN_CONFIGURATION_ARM64
-title: _DOMAIN_CONFIGURATION_ARM64
+title: _DOMAIN_CONFIGURATION_ARM64 (wdm.h)
 description: Contains information required to configure a domain for an ARM64 system.
 ms.assetid: ad949a72-1461-434c-96e2-4c2d12c8e146
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION_ARM64, *PDOMAIN_CONFIGURATION_ARM64
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DOMAIN_CONFIGURATION_ARM64
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DOMAIN_CONFIGURATION_ARM64
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

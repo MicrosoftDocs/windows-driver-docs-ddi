@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_PREPARSE_NAME
-title: PMRX_PREPARSE_NAME
+title: PMRX_PREPARSE_NAME (mrx.h)
 description: The MRxPreparseName routine is called by RDBSS to give a network mini-redirector the opportunity to preparse a name.
 old-location: ifsk\mrxpreparsename.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxPreparseName
+- MRxPreparseName
 product:
 - Windows
 targetos: Windows

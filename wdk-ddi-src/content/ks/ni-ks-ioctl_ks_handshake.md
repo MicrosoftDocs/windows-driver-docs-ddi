@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_HANDSHAKE
-title: IOCTL_KS_HANDSHAKE
+title: IOCTL_KS_HANDSHAKE (ks.h)
 description: A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins.
 old-location: stream\ioctl_ks_handshake.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IOCTL_KS_HANDSHAKE
+- IOCTL_KS_HANDSHAKE
 product:
 - Windows
 targetos: Windows

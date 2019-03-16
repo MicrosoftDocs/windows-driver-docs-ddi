@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
-title: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
+title: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP (usbfnioctl.h)
 description: The class driver sends this request to get remote wake-up notifications from endpoints.
 old-location: buses\ioctl_usbfn_internal_signal_remote_wakeup.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
+- IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._USERDATA
-title: "_USERDATA"
+title: _USERDATA (printoem.h)
 description: The USERDATA structure is used by Unidrv and Pscript to specify additional information about printer features. A USERDATA structure pointer is supplied as the UserData member for each OPTITEM structure.
 old-location: print\userdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	USERDATA
+- USERDATA
 product:
 - Windows
 targetos: Windows

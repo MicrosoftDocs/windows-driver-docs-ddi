@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_release_hardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+- EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PMAP_TRANSFER
-title: PMAP_TRANSFER
+title: PMAP_TRANSFER (wdm.h)
 description: The MapTransfer routine sets up map registers for an adapter object to map a DMA transfer from a locked-down buffer.
 old-location: kernel\maptransfer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	MapTransfer
+- MapTransfer
 product:
 - Windows
 targetos: Windows

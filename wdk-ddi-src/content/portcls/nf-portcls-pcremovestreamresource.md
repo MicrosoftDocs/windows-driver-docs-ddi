@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRemoveStreamResource
-title: PcRemoveStreamResource function
+title: PcRemoveStreamResource function (portcls.h)
 description: PcRemoveStreamResource removes an existing stream resource.
 old-location: audio\pcremovestreamresource.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll: NA
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NA
+- NA
 api_name:
--	PcRemoveStreamResource
+- PcRemoveStreamResource
 product:
 - Windows
 targetos: Windows

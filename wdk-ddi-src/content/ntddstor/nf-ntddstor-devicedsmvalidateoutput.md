@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmValidateOutput
-title: DeviceDsmValidateOutput function
+title: DeviceDsmValidateOutput function (ntddstor.h)
 description: The DeviceDsmValidateOutput function validates a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
 ms.date: 04/11/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmValidateOutput
+- DeviceDsmValidateOutput
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCE
-title: PFND3DDDI_SETSTREAMSOURCE
+title: PFND3DDDI_SETSTREAMSOURCE (d3dumddi.h)
 description: The SetStreamSource function binds a portion of a vertex stream source to a vertex buffer.
 old-location: display\setstreamsource.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetStreamSource
+- SetStreamSource
 product:
 - Windows
 targetos: Windows

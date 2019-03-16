@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateRemoteInterface
-title: IWDFDevice2::CreateRemoteInterface
+title: IWDFDevice2::CreateRemoteInterface (wudfddi.h)
 description: The CreateRemoteInterface method creates a remote interface object that represents a device interface.
 old-location: wdf\iwdfdevice2_createremoteinterface.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.CreateRemoteInterface
+- IWDFDevice2.CreateRemoteInterface
 product:
 - Windows
 targetos: Windows

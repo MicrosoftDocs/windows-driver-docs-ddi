@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.Close
-title: IDataModelManager::Close
+title: IDataModelManager::Close (dbgmodel.h)
 description: The Close method is called on the data model manager by an application e.g. debugger hosting the data model in order to start the shutdown process of the data model manager.
 ms.assetid: 8c20af38-5915-4078-90ef-f6c1156cac1d
 ms.date: 07/16/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.Close
-product: Windows
+- IDataModelManager.Close
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

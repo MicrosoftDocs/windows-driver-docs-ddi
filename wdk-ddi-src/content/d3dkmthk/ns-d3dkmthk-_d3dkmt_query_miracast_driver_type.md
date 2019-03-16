@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
-title: _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
+title: _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
 description: Used to query for a Miracast (wireless display) driver type.
 ms.assetid: e177965a-69f5-45af-b9b7-9e3807b52f8b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
+- _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

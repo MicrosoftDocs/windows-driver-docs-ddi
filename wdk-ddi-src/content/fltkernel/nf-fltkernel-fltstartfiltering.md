@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltStartFiltering
-title: FltStartFiltering function
+title: FltStartFiltering function (fltkernel.h)
 description: FltStartFiltering starts filtering for a registered minifilter driver.
 old-location: ifsk\fltstartfiltering.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltStartFiltering
+- FltStartFiltering
 product:
 - Windows
 targetos: Windows

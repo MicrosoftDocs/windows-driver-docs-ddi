@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetExpressionEx
-title: GetExpressionEx function
+title: GetExpressionEx function (wdbgexts.h)
 description: The GetExpressionEx function evaluates an expression. The expression is evaluated using the MASM evaluator, and can contain aliases.
 old-location: debugger\getexpressionex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetExpressionEx
+- GetExpressionEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport.__unnamed_struct_13
-title: RT_PARAMETER_DATA
+title: RT_PARAMETER_DATA (storport.h)
 description: The RT_PARAMETER_DATA structure contains the parameter data for the report timestamp command.
 old-location: storage\rt_parameter_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	RT_PARAMETER_DATA
+- RT_PARAMETER_DATA
 product:
 - Windows
 targetos: Windows

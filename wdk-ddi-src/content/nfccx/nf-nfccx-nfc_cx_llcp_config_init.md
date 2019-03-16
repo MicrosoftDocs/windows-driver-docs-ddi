@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NFC_CX_LLCP_CONFIG_INIT
-title: NFC_CX_LLCP_CONFIG_INIT function
+title: NFC_CX_LLCP_CONFIG_INIT function (nfccx.h)
 description: The NFC_CX_LLCP_CONFIG_INIT function initializes the NFC_CX_LLCP_CONFIG structure.
 old-location: nfpdrivers\nfc_cx_llcp_config_init.htm
 tech.root: nfpdrivers
@@ -26,15 +26,15 @@ req.lib: Nfccxstub.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	nfccxstub.lib
--	nfccxstub.dll
+- nfccxstub.lib
+- nfccxstub.dll
 api_name:
--	NFC_CX_LLCP_CONFIG_INIT
+- NFC_CX_LLCP_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

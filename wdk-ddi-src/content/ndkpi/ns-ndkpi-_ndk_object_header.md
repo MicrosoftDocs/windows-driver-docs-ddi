@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_OBJECT_HEADER
-title: "_NDK_OBJECT_HEADER"
+title: _NDK_OBJECT_HEADER (ndkpi.h)
 description: The NDK_OBJECT_HEADER structure specifies the object version, type, and other information. It is used in the Header member of every NDK object.
 old-location: netvista\ndk_object_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_OBJECT_HEADER
+- NDK_OBJECT_HEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxRetrieveReceiveBuffer
-title: SerCxRetrieveReceiveBuffer function
+title: SerCxRetrieveReceiveBuffer function (sercx.h)
 description: The SerCxRetrieveReceiveBuffer method obtains an input buffer into which data received from the serial port can be loaded.
 old-location: serports\sercxretrievereceivebuffer.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxRetrieveReceiveBuffer
+- SerCxRetrieveReceiveBuffer
 product:
 - Windows
 targetos: Windows

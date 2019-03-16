@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_COLLECTION_DESC
-title: "_HIDP_COLLECTION_DESC"
+title: _HIDP_COLLECTION_DESC (hidpddi.h)
 description: Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_collection_desc.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidpddi.h
+- Hidpddi.h
 api_name:
--	HIDP_COLLECTION_DESC
+- HIDP_COLLECTION_DESC
 product:
 - Windows
 targetos: Windows

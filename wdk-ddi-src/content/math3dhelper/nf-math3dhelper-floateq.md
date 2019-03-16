@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.FloatEq
-title: FloatEq function
+title: FloatEq function (math3dhelper.h)
 description: This function tests equality with FLOAT_TOLERANCE = 0.00001. 
 ms.assetid: 40e77e1f-48cf-4154-b21e-a3cc9473dc66
 ms.date: 08/01/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	FloatEq
+- FloatEq
 product: 
 - Windows
 targetos: Windows

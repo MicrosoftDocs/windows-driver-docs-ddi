@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CANCELCOMMAND
-title: DXGKDDI_CANCELCOMMAND
+title: DXGKDDI_CANCELCOMMAND (d3dkmddi.h)
 description: Cleans up internal resources associated with a direct memory access (DMA) packet that was in the GPU scheduler's software queue but never reached the hardware queue because the device went into an error state.
 old-location: display\dxgkddicancelcommand.htm
 ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiCancelCommand
+- DxgkDdiCancelCommand
 product:
 - Windows
 targetos: Windows

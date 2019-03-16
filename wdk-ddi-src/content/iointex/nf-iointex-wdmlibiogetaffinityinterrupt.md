@@ -1,6 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoGetAffinityInterrupt
-title: WdmlibIoGetAffinityInterrupt function
+title: WdmlibIoGetAffinityInterrupt function (iointex.h)
 description: The WdmlibIoGetAffinityInterrupt function gets the group affinity of an interrupt object.
 old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibIoGetAffinityInterrupt
--	IoGetAffinityInterrupt
+- WdmlibIoGetAffinityInterrupt
+- IoGetAffinityInterrupt
 product:
 - Windows
 targetos: Windows

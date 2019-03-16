@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_CREATE_CONTEXT
-title: DXGKDDI_MIRACAST_CREATE_CONTEXT
+title: DXGKDDI_MIRACAST_CREATE_CONTEXT (dispmprt.h)
 description: Creates a kernel-mode context for a Miracast device.
 old-location: display\dxgkddimiracastcreatecontext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiMiracastCreateContext
+- DxgkDdiMiracastCreateContext
 product:
 - Windows
 targetos: Windows

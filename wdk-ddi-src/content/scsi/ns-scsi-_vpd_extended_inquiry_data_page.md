@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._VPD_EXTENDED_INQUIRY_DATA_PAGE
-title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
+title: _VPD_EXTENDED_INQUIRY_DATA_PAGE (scsi.h)
 description: 
 ms.assetid: c1576a19-8f1a-44f5-af68-6fb1804a1878
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_VPD_EXTENDED_INQUIRY_DATA_PAGE
+- _VPD_EXTENDED_INQUIRY_DATA_PAGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

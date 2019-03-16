@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.StopAsync
-title: IWDTFSimpleIOStressAction2::StopAsync
+title: IWDTFSimpleIOStressAction2::StopAsync (wdtfinterfaces.h)
 description: Asynchronously signals the stop event to occur.
 old-location: dtf\iwdtfsimpleiostressaction2_stopasync.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.StopAsync
+- IWDTFSimpleIOStressAction2.StopAsync
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetCurrentSystemTime
-title: NdisGetCurrentSystemTime macro
+title: NdisGetCurrentSystemTime macro (ndis.h)
 description: The NdisGetCurrentSystemTime function returns the current system time, suitable for setting timestamps.
 old-location: netvista\ndisgetcurrentsystemtime.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetCurrentSystemTime
+- NdisGetCurrentSystemTime
 product:
 - Windows
 targetos: Windows

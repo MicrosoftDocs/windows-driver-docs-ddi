@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PGET_WALL_CLOCK_REGISTER
-title: PGET_WALL_CLOCK_REGISTER
+title: PGET_WALL_CLOCK_REGISTER (hdaudio.h)
 description: The GetWallClockRegister routine retrieves a pointer to the wall clock register.The function pointer type for a GetWallClockRegister routine is defined as follows.
 old-location: audio\getwallclockregister.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	GetWallClockRegister
+- GetWallClockRegister
 product:
 - Windows
 targetos: Windows

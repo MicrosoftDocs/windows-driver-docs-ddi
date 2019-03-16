@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.UnregisterNamedModel
-title: IDataModelManager::UnregisterNamedModel
+title: IDataModelManager::UnregisterNamedModel (dbgmodel.h)
 description: The UnregisterNamedModel method undoes a prior call to RegisterNamedModel.
 ms.assetid: 9d7d6eea-8f62-4fb3-9422-60bdd141eb49
 ms.date: 07/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.UnregisterNamedModel
-product: Windows
+- IDataModelManager.UnregisterNamedModel
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

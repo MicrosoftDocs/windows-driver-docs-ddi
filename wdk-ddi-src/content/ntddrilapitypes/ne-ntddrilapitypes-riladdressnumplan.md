@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSNUMPLAN
-title: RILADDRESSNUMPLAN
+title: RILADDRESSNUMPLAN (ntddrilapitypes.h)
 description: This enumeration describes the RILADDRESSNUMPLAN.
 old-location: netvista\riladdressnumplan.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILADDRESSNUMPLAN
+- RILADDRESSNUMPLAN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxRemoteRequestRelease
-title: PosCxRemoteRequestRelease function
+title: PosCxRemoteRequestRelease function (poscx.h)
 description: PosCxRemoteRequestRelease is called whenever a remote device asks for the device to release. This initiates claim negotiation.
 old-location: pos\poscxremoterequestrelease.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxRemoteRequestRelease
+- PosCxRemoteRequestRelease
 product:
 - Windows
 targetos: Windows

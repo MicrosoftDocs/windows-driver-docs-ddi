@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSTYPE
-title: RILADDRESSTYPE
+title: RILADDRESSTYPE (ntddrilapitypes.h)
 description: This enumeration describes the RILADDRESSTYPE.
 old-location: netvista\riladdresstype.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILADDRESSTYPE
+- RILADDRESSTYPE
 product:
 - Windows
 targetos: Windows

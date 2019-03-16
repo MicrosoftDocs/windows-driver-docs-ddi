@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMRemoveMiniport
-title: NdisMRemoveMiniport function
+title: NdisMRemoveMiniport function (ndis.h)
 description: The NdisMRemoveMiniport function removes the specified miniport driver adapter that the miniport driver has determined is unrecoverable from the system.
 old-location: netvista\ndismremoveminiport.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMRemoveMiniport
+- NdisMRemoveMiniport
 product:
 - Windows
 targetos: Windows

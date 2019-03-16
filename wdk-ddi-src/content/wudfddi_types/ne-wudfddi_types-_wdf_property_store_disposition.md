@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_DISPOSITION
-title: "_WDF_PROPERTY_STORE_DISPOSITION"
+title: _WDF_PROPERTY_STORE_DISPOSITION (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_DISPOSITION enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface.
 old-location: wdf\wdf_property_store_disposition.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_PROPERTY_STORE_DISPOSITION
+- WDF_PROPERTY_STORE_DISPOSITION
 product:
 - Windows
 targetos: Windows

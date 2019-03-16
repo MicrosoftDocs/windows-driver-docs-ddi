@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CLOSE_OBJECT
-title: NDK_FN_CLOSE_OBJECT
+title: NDK_FN_CLOSE_OBJECT (ndkpi.h)
 description: The NdkCloseObject (NDK_FN_CLOSE_OBJECT) function initiates a close request for an NDK object.
 old-location: netvista\ndk_fn_close_object.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCloseObject
+- NdkCloseObject
 product:
 - Windows
 targetos: Windows

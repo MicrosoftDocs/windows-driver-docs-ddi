@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSREMOVEEVENT
-title: PFNKSREMOVEEVENT
+title: PFNKSREMOVEEVENT (ks.h)
 description: An AVStream minidriver's AVStrMiniRemoveEvent routine is called when a client requests to be removed from the notification queue for an event. This routine is optional.
 old-location: stream\avstrminiremoveevent.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniRemoveEvent
+- AVStrMiniRemoveEvent
 product:
 - Windows
 targetos: Windows

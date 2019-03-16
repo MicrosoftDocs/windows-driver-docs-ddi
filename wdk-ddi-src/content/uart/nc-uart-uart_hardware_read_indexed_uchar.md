@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_READ_INDEXED_UCHAR
-title: UART_HARDWARE_READ_INDEXED_UCHAR
+title: UART_HARDWARE_READ_INDEXED_UCHAR (uart.h)
 description: Reads a byte from the port specified by index.
 tech.root: serports
 ms.assetid: 2553b85b-da83-4fd8-b6f0-5ab629af1fdd
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_HARDWARE_READ_INDEXED_UCHAR
+- UART_HARDWARE_READ_INDEXED_UCHAR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

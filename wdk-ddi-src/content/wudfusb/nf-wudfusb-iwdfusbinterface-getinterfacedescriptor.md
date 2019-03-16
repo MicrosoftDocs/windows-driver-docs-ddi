@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetInterfaceDescriptor
-title: IWDFUsbInterface::GetInterfaceDescriptor
+title: IWDFUsbInterface::GetInterfaceDescriptor (wudfusb.h)
 description: The GetInterfaceDescriptor method retrieves a descriptor for a USB interface.
 old-location: wdf\iwdfusbinterface_getinterfacedescriptor.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbInterface.GetInterfaceDescriptor
+- IWDFUsbInterface.GetInterfaceDescriptor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINFRAMERETURN
-title: PFNKSPINFRAMERETURN
+title: PFNKSPINFRAMERETURN (ks.h)
 description: An AVStream minidriver's AVStrMiniFrameReturn routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
 old-location: stream\avstrminiframereturn.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniFrameReturn
+- AVStrMiniFrameReturn
 product:
 - Windows
 targetos: Windows

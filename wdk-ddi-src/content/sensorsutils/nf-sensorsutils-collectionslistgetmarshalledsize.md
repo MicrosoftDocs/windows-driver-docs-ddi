@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListGetMarshalledSize
-title: CollectionsListGetMarshalledSize function
+title: CollectionsListGetMarshalledSize function (sensorsutils.h)
 description: Returns the size needed to accommodate serializing and marshaling a collection list, including embedded memory.
 ms.assetid: a3773a22-cd27-4944-812c-e18054df4e57
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	CollectionsListGetMarshalledSize
+- CollectionsListGetMarshalledSize
 product:
 - Windows
 targetos: Windows

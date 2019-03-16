@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_CREATE_PLUG
-title: "_CMP_CREATE_PLUG"
+title: _CMP_CREATE_PLUG (61883.h)
 description: This structure is used to create a plug.
 old-location: ieee\cmp_create_plug.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_CREATE_PLUG
+- CMP_CREATE_PLUG
 product:
 - Windows
 targetos: Windows

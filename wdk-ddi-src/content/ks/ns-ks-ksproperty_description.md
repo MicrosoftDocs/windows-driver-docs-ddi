@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_7
-title: KSPROPERTY_DESCRIPTION
+title: KSPROPERTY_DESCRIPTION (ks.h)
 description: The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.
 old-location: stream\ksproperty_description.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_DESCRIPTION
+- KSPROPERTY_DESCRIPTION
 product:
 - Windows
 targetos: Windows

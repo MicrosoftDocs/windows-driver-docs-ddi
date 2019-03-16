@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputVaListWide
-title: IDebugControl4::OutputVaListWide
+title: IDebugControl4::OutputVaListWide (dbgeng.h)
 description: The OutputVaListWide method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalistwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.OutputVaListWide
+- IDebugControl4.OutputVaListWide
 product:
 - Windows
 targetos: Windows

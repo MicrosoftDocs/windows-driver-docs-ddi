@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
-title: "_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
+title: _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE (minitape.h)
 description: The SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure contains a vendor specific microcode (i.e., firmware) image for use by the enclosure services process.
 old-location: storage\ses_download_microcode_control_diagnostic_page.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+- SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 product:
 - Windows
 targetos: Windows

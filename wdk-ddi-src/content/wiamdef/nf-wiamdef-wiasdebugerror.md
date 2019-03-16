@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasDebugError
-title: wiasDebugError function
+title: wiasDebugError function (wiamdef.h)
 description: This function prints a debug error string in the Device Manager debug console. The output color is always red.
 old-location: image\wiasdebugerror.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasDebugError
+- wiasDebugError
 product:
 - Windows
 targetos: Windows

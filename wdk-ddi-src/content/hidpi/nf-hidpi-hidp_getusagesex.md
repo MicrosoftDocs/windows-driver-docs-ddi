@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetUsagesEx
-title: HidP_GetUsagesEx function
+title: HidP_GetUsagesEx function (hidpi.h)
 description: The HidP_GetUsagesEx routine returns a list of the all the HID control button usages that are set to ON in a HID report.
 old-location: hid\hidp_getusagesex.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetUsagesEx
+- HidP_GetUsagesEx
 product:
 - Windows
 targetos: Windows

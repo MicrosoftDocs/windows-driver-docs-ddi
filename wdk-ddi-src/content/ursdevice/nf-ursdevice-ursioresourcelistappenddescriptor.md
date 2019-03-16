@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsIoResourceListAppendDescriptor
-title: UrsIoResourceListAppendDescriptor function
+title: UrsIoResourceListAppendDescriptor function (ursdevice.h)
 description: Appends the specified resource descriptor to the specified I/O resource list object that maintains resource descriptors for the host or function role.
 old-location: buses\ursioresourcelistappenddescriptor.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Urscxstub.lib
--	Urscxstub.dll
+- Urscxstub.lib
+- Urscxstub.dll
 api_name:
--	UrsIoResourceListAppendDescriptor
+- UrsIoResourceListAppendDescriptor
 product:
 - Windows
 targetos: Windows

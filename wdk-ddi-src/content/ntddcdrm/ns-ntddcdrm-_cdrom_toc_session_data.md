@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_SESSION_DATA
-title: "_CDROM_TOC_SESSION_DATA"
+title: _CDROM_TOC_SESSION_DATA (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_SESSION return their output data in this structure followed by a series of TRACK_DATA structures.
 old-location: storage\cdrom_toc_session_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_TOC_SESSION_DATA
+- CDROM_TOC_SESSION_DATA
 product:
 - Windows
 targetos: Windows

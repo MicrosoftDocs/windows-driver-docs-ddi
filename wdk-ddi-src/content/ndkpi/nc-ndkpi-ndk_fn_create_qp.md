@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_QP
-title: NDK_FN_CREATE_QP
+title: NDK_FN_CREATE_QP (ndkpi.h)
 description: The NdkCreateQp (NDK_FN_CREATE_QP) function creates an NDK queue pair (QP) object.
 old-location: netvista\ndk_fn_create_qp.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreateQp
+- NdkCreateQp
 product:
 - Windows
 targetos: Windows

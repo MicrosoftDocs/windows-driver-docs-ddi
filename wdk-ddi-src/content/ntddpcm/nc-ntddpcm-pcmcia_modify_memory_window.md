@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddpcm.PCMCIA_MODIFY_MEMORY_WINDOW
-title: PCMCIA_MODIFY_MEMORY_WINDOW
+title: PCMCIA_MODIFY_MEMORY_WINDOW (ntddpcm.h)
 description: The PCMCIA_MODIFY_MEMORY_WINDOW interface routine sets the attributes of a memory window for a PCMCIA memory card. The memory window is mapped by the PCMCIA bus driver.
 old-location: pcmcia\pcmcia_modify_memory_window.htm
 tech.root: PCMCIA
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	ModifyMemoryWindow
+- ModifyMemoryWindow
 product:
 - Windows
 targetos: Windows

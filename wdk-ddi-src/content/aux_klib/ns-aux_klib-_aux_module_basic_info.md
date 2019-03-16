@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._AUX_MODULE_BASIC_INFO
-title: "_AUX_MODULE_BASIC_INFO"
+title: _AUX_MODULE_BASIC_INFO (aux_klib.h)
 description: The AUX_MODULE_BASIC_INFO structure contains basic information about a loaded image module.
 old-location: kernel\aux_module_basic_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	aux_klib.h
+- aux_klib.h
 api_name:
--	AUX_MODULE_BASIC_INFO
+- AUX_MODULE_BASIC_INFO
 product:
 - Windows
 targetos: Windows

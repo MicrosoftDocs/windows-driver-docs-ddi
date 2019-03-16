@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_STRETCHBLT
-title: "_DXGK_GDIARG_STRETCHBLT"
+title: _DXGK_GDIARG_STRETCHBLT (d3dkmddi.h)
 description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
 old-location: display\dxgk_gdiarg_stretchblt.htm
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GDIARG_STRETCHBLT
+- DXGK_GDIARG_STRETCHBLT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_HISTORY_BUFFER
-title: "_DXGK_HISTORY_BUFFER"
+title: _DXGK_HISTORY_BUFFER (d3dkmddi.h)
 description: Specifies a history buffer that stores time stamps that record GPU activity throughout the execution lifetime of a direct memory access (DMA) buffer.
 old-location: display\dxgk_history_buffer.htm
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_HISTORY_BUFFER
+- DXGK_HISTORY_BUFFER
 product:
 - Windows
 targetos: Windows

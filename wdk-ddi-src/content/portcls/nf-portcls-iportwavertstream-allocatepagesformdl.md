@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.AllocatePagesForMdl
-title: IPortWaveRTStream::AllocatePagesForMdl
+title: IPortWaveRTStream::AllocatePagesForMdl (portcls.h)
 description: The AllocatePagesForMdl method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.
 old-location: audio\iportwavertstream_allocatepagesformdl.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.AllocatePagesForMdl
+- IPortWaveRTStream.AllocatePagesForMdl
 product:
 - Windows
 targetos: Windows

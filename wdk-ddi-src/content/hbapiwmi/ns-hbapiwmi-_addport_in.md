@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddPort_IN
-title: "_AddPort_IN"
+title: _AddPort_IN (hbapiwmi.h)
 description: The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the AddPort WMI method to the HBA miniport driver.
 old-location: storage\addport_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	AddPort_IN
+- AddPort_IN
 product:
 - Windows
 targetos: Windows

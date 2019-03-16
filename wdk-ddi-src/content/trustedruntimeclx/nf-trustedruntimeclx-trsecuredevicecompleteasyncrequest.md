@@ -1,6 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCompleteAsyncRequest
-title: TrSecureDeviceCompleteAsyncRequest function
+title: TrSecureDeviceCompleteAsyncRequest function (trustedruntimeclx.h)
 description: 
 ms.assetid: c41603ac-2509-4a88-920a-ec379c818ba4
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   trustedruntimeclx.h
 api_name: 
--	TrSecureDeviceCompleteAsyncRequest
+- TrSecureDeviceCompleteAsyncRequest
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

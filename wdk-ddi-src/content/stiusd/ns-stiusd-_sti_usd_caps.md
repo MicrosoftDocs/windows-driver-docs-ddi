@@ -1,6 +1,6 @@
 ---
 UID: NS:stiusd._STI_USD_CAPS
-title: "_STI_USD_CAPS"
+title: _STI_USD_CAPS (stiusd.h)
 description: The STI_USD_CAPS structure is used as a parameter for the IStiUSD::GetCapabilities method.
 old-location: image\sti_usd_caps.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	STI_USD_CAPS
+- STI_USD_CAPS
 product:
 - Windows
 targetos: Windows

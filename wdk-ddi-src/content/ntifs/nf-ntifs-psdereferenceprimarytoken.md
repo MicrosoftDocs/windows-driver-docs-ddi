@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsDereferencePrimaryToken
-title: PsDereferencePrimaryToken function
+title: PsDereferencePrimaryToken function (ntifs.h)
 description: The PsDereferencePrimaryToken routine decrements the reference count of a primary token.
 old-location: ifsk\psdereferenceprimarytoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsDereferencePrimaryToken
+- PsDereferencePrimaryToken
 product:
 - Windows
 targetos: Windows

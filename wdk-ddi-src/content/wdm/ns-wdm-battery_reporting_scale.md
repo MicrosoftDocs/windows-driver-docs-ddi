@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm.__unnamed_struct_2
-title: BATTERY_REPORTING_SCALE
+title: BATTERY_REPORTING_SCALE (wdm.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntpoapi.h
+- ntpoapi.h
 api_name:
--	BATTERY_REPORTING_SCALE
+- BATTERY_REPORTING_SCALE
 product:
 - Windows
 targetos: Windows

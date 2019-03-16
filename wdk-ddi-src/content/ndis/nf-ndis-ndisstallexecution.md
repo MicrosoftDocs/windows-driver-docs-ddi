@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisStallExecution
-title: NdisStallExecution macro
+title: NdisStallExecution macro (ndis.h)
 description: The NdisStallExecution function stalls the caller on the current processor for a given interval.
 old-location: netvista\ndisstallexecution.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisStallExecution
+- NdisStallExecution
 product:
 - Windows
 targetos: Windows

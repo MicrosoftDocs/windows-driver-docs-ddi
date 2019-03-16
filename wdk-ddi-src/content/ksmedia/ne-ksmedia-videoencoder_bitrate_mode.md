@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_116
-title: VIDEOENCODER_BITRATE_MODE
+title: VIDEOENCODER_BITRATE_MODE (ksmedia.h)
 description: The VIDEOENCODER_BITRATE_MODE enumeration describes the bit rate encoding modes supported by the device.
 old-location: stream\videoencoder_bitrate_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	VIDEOENCODER_BITRATE_MODE
+- VIDEOENCODER_BITRATE_MODE
 product:
 - Windows
 targetos: Windows

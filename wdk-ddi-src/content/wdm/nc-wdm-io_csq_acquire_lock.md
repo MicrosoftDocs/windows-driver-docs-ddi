@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_ACQUIRE_LOCK
-title: IO_CSQ_ACQUIRE_LOCK
+title: IO_CSQ_ACQUIRE_LOCK (wdm.h)
 description: The CsqAcquireLock routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqacquirelock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CsqAcquireLock
+- CsqAcquireLock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE
-title: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE
+title: EVT_WDFDEVICE_WDM_PRE_PO_FX_UNREGISTER_DEVICE (wdfdevice.h)
 description: The EvtDeviceWdmPrePoFxUnregisterDevice callback function performs device-specific operations before the framework deletes a specified registration with the power framework.
 old-location: wdf\evtdevicewdmprepofxunregisterdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceWdmPrePoFxUnregisterDevice
+- EvtDeviceWdmPrePoFxUnregisterDevice
 product:
 - Windows
 targetos: Windows

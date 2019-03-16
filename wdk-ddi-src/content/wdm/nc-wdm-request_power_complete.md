@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.REQUEST_POWER_COMPLETE
-title: REQUEST_POWER_COMPLETE
+title: REQUEST_POWER_COMPLETE (wdm.h)
 description: The PowerCompletion callback routine completes the processing of a power IRP.
 old-location: kernel\powercompletion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PowerCompletion
+- PowerCompletion
 product:
 - Windows
 targetos: Windows

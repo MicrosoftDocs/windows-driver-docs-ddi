@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_EVENT_CALLBACK_CONTROL
-title: "_WSK_EVENT_CALLBACK_CONTROL"
+title: _WSK_EVENT_CALLBACK_CONTROL (wsk.h)
 description: The WSK_EVENT_CALLBACK_CONTROL structure specifies the information for enabling and disabling a socket's event callback functions.
 old-location: netvista\wsk_event_callback_control.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_EVENT_CALLBACK_CONTROL
+- WSK_EVENT_CALLBACK_CONTROL
 product:
 - Windows
 targetos: Windows

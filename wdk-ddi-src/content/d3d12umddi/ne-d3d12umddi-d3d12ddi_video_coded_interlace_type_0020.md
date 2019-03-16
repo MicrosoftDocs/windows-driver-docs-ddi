@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
-title: D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
+title: D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 (d3d12umddi.h)
 description: Indicates whether the compressed stream contains only frames (PROGRESSIVE_ONLY) or may contain a mix of progressive and interlaced frames (FIELDS).
 old-location: display\d3d12ddi_video_coded_interlace_type.htm
 ms.assetid: 5440595D-C692-4349-9332-393CCB11DBFF
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
+- D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
 product:
 - Windows
 targetos: Windows

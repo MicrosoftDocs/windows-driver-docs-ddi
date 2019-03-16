@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourcePathWide
-title: IDebugSymbols3::GetSourcePathWide
+title: IDebugSymbols3::GetSourcePathWide (dbgeng.h)
 description: The GetSourcePathWide method returns the source path.
 old-location: debugger\getsourcepathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetSourcePathWide
+- IDebugSymbols3.GetSourcePathWide
 product:
 - Windows
 targetos: Windows

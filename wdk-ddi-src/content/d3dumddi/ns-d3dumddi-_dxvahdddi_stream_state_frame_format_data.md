@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA
-title: "_DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA"
+title: _DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure describes data that specifies the frame format of the input.
 old-location: display\dxvahdddi_stream_state_frame_format_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA
+- DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCloseAdapter
-title: D3DKMTCloseAdapter function
+title: D3DKMTCloseAdapter function (d3dkmthk.h)
 description: The D3DKMTCloseAdapter function closes a graphics adapter that was previously opened by using the D3DKMTOpenAdapterFromHdc function.
 old-location: display\d3dkmtcloseadapter.htm
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCloseAdapter
+- D3DKMTCloseAdapter
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS (d3d10umddi.h)
 description: Defines capabilities related to input formats for a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_format_caps.htm
 ms.assetid: b0f36d4c-cf95-4d85-a2c8-267df618e0aa
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS
+- D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_CAPS
 product:
 - Windows
 targetos: Windows

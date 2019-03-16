@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_VIDEOINFO_PALETTE
-title: tagKS_DATAFORMAT_VIDEOINFO_PALETTE
+title: tagKS_DATAFORMAT_VIDEOINFO_PALETTE (ksmedia.h)
 description: The KS_DATAFORMAT_VIDEOINFO_PALETTE structure describes color palette information.
 old-location: stream\ks_dataformat_videoinfo_palette.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATAFORMAT_VIDEOINFO_PALETTE
+- KS_DATAFORMAT_VIDEOINFO_PALETTE
 product:
 - Windows
 targetos: Windows

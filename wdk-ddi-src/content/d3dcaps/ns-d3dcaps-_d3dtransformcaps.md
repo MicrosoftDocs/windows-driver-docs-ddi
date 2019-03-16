@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcaps._D3DTRANSFORMCAPS
-title: "_D3DTRANSFORMCAPS"
+title: _D3DTRANSFORMCAPS (d3dcaps.h)
 description: Obsolete in DirectX 8.0 and later versions. D3DTRANSFORMCAPS structure describes the transform capabilities of a device.
 old-location: display\d3dtransformcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dcaps.h
+- d3dcaps.h
 api_name:
--	D3DTRANSFORMCAPS
+- D3DTRANSFORMCAPS
 product:
 - Windows
 targetos: Windows

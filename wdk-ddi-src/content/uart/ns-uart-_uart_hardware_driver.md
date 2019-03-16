@@ -1,6 +1,6 @@
 ---
 UID: NS:uart._UART_HARDWARE_DRIVER
-title: _UART_HARDWARE_DRIVER
+title: _UART_HARDWARE_DRIVER (uart.h)
 description: Contains function pointers for interacting with a specific type of UART hardware.
 tech.root: serports
 ms.assetid: 8c521dda-f906-44a8-b0cc-283bd1afacf6
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	_UART_HARDWARE_DRIVER
+- _UART_HARDWARE_DRIVER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

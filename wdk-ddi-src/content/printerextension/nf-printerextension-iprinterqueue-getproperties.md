@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.GetProperties
-title: IPrinterQueue::GetProperties
+title: IPrinterQueue::GetProperties (printerextension.h)
 description: Gets the properties in the property bag for the queue.
 old-location: print\iprinterqueue_getproperties.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueue.GetProperties
+- IPrinterQueue.GetProperties
 product:
 - Windows
 targetos: Windows

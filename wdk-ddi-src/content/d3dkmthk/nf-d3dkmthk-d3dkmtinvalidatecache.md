@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTInvalidateCache
-title: D3DKMTInvalidateCache function
+title: D3DKMTInvalidateCache function (d3dkmthk.h)
 description: Invalidates cache.
 ms.assetid: 06ebaf46-0a44-41da-9e36-2d86fe23c517
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTInvalidateCache
+- D3DKMTInvalidateCache
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

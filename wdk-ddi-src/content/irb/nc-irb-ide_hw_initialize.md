@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_HW_INITIALIZE
-title: IDE_HW_INITIALIZE
+title: IDE_HW_INITIALIZE (irb.h)
 description: The IdeHwInitialize miniport driver routine configures the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwinitialize.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IdeHwInitialize
+- IdeHwInitialize
 product:
 - Windows
 targetos: Windows

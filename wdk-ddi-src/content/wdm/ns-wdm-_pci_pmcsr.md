@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_PMCSR
-title: "_PCI_PMCSR"
+title: _PCI_PMCSR (wdm.h)
 description: The PCI_PMCSR structure is used to report the contents of the device's power management control status register.
 old-location: pci\pci_pmcsr.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_PMCSR
+- PCI_PMCSR
 product:
 - Windows
 targetos: Windows

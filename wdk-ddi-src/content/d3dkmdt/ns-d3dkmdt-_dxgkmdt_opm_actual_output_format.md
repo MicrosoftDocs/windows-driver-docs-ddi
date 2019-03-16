@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
-title: "_DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT"
+title: _DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT (d3dkmdt.h)
 description: The DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT structure describes the format of the signal that is transmitted from a physical connector that is associated with a protected output to a monitor.
 old-location: display\dxgkmdt_opm_actual_output_format.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
+- DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT
 product:
 - Windows
 targetos: Windows

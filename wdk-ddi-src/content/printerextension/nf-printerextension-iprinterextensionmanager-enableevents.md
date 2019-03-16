@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionManager.EnableEvents
-title: IPrinterExtensionManager::EnableEvents
+title: IPrinterExtensionManager::EnableEvents (printerextension.h)
 description: The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called.
 old-location: print\iprinterextensionmanager_enableevents.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionManager.EnableEvents
+- IPrinterExtensionManager.EnableEvents
 product:
 - Windows
 targetos: Windows

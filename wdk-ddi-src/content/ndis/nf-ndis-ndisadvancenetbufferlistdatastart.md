@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAdvanceNetBufferListDataStart
-title: NdisAdvanceNetBufferListDataStart function
+title: NdisAdvanceNetBufferListDataStart function (ndis.h)
 description: Call the NdisAdvanceNetBufferListDataStart function to release data space that was claimed in previous calls to the NdisRetreatNetBufferListDataStart function.
 old-location: netvista\ndisadvancenetbufferlistdatastart.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAdvanceNetBufferListDataStart
+- NdisAdvanceNetBufferListDataStart
 product:
 - Windows
 targetos: Windows

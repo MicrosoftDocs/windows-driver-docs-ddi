@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_PRIVILEGES
-title: "_TOKEN_PRIVILEGES"
+title: _TOKEN_PRIVILEGES (ntifs.h)
 description: TOKEN_PRIVILEGES contains information about a set of privileges for an access token.
 old-location: ifsk\token_privileges.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_PRIVILEGES
+- TOKEN_PRIVILEGES
 product:
 - Windows
 targetos: Windows

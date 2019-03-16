@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE
-title: PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE
+title: PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE (d3d10umddi.h)
 description: The CalcDeferredContextHandleSize function queries for the amount of storage space that the driver requires to satisfy deferred context handles to the given immediate context object.
 old-location: display\calcdeferredcontexthandlesize.htm
 ms.assetid: d26c26ef-be8e-434a-b3d3-623ed539c541
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CalcDeferredContextHandleSize
+- CalcDeferredContextHandleSize
 product:
 - Windows
 targetos: Windows

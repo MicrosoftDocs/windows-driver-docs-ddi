@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSpinLock
-title: KeReleaseSpinLock macro
+title: KeReleaseSpinLock macro (wdm.h)
 description: The KeReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 old-location: kernel\kereleasespinlock.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	KeReleaseSpinLock
+- KeReleaseSpinLock
 product:
 - Windows
 targetos: Windows

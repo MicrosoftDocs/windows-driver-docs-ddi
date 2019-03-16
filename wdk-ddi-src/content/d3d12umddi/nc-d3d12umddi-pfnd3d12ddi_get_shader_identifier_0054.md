@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
-title: PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
+title: PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 (d3d12umddi.h)
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 ms.assetid: 8b805532-df68-406b-871b-9022d3d1114c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
+- PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcForwardContentToDeviceObject
-title: PcForwardContentToDeviceObject function
+title: PcForwardContentToDeviceObject function (portcls.h)
 description: The PcForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\pcforwardcontenttodeviceobject.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcForwardContentToDeviceObject
+- PcForwardContentToDeviceObject
 product:
 - Windows
 targetos: Windows

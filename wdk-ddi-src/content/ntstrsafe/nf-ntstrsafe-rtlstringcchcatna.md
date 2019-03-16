@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCatNA
-title: RtlStringCchCatNA function
+title: RtlStringCchCatNA function (ntstrsafe.h)
 description: The RtlStringCchCatNW and RtlStringCchCatNA functions concatenate two character-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcchcatn.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCchCatNW
--	RtlStringCchCatNA
--	RtlStringCchCatNW
+- RtlStringCchCatNW
+- RtlStringCchCatNA
+- RtlStringCchCatNW
 product:
 - Windows
 targetos: Windows

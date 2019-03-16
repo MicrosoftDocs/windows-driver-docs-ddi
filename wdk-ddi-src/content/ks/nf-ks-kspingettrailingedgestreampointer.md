@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetTrailingEdgeStreamPointer
-title: KsPinGetTrailingEdgeStreamPointer function
+title: KsPinGetTrailingEdgeStreamPointer function (ks.h)
 description: The KsPinGetTrailingEdgeStreamPointer function acquires the trailing edge stream pointer for the queue associated with the specified pin.
 old-location: stream\kspingettrailingedgestreampointer.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetTrailingEdgeStreamPointer
+- KsPinGetTrailingEdgeStreamPointer
 product:
 - Windows
 targetos: Windows

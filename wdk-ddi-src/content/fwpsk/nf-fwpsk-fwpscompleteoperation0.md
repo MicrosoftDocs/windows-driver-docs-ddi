@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCompleteOperation0
-title: FwpsCompleteOperation0 function
+title: FwpsCompleteOperation0 function (fwpsk.h)
 description: The FwpsCompleteOperation0 function is called by a callout to resume packet processing that was suspended pending completion of another operation.Note  FwpsCompleteOperation0 is a specific version of FwpsCompleteOperation.
 old-location: netvista\fwpscompleteoperation0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsCompleteOperation0
+- FwpsCompleteOperation0
 product:
 - Windows
 targetos: Windows

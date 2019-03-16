@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_NORMALIZE_NAME_COMPONENT
-title: PFLT_NORMALIZE_NAME_COMPONENT
+title: PFLT_NORMALIZE_NAME_COMPONENT (fltkernel.h)
 description: A minifilter driver that provides file names for the filter manager's name cache can register a routine of type PFLT_NORMALIZE_NAME_COMPONENT as the minifilter driver's NormalizeNameComponentCallback routine.
 old-location: ifsk\pflt_normalize_name_component.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	NormalizeNameComponentCallback
+- NormalizeNameComponentCallback
 product:
 - Windows
 targetos: Windows

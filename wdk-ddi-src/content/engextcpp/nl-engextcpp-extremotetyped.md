@@ -1,6 +1,6 @@
 ---
 UID: NL:engextcpp.ExtRemoteTyped
-title: ExtRemoteTyped
+title: ExtRemoteTyped (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped
+- ExtRemoteTyped
 product:
 - Windows
 targetos: Windows

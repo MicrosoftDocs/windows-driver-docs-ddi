@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetProcessId
-title: PsGetProcessId function
+title: PsGetProcessId function (ntddk.h)
 description: The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process.
 old-location: kernel\psgetprocessid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetProcessId
+- PsGetProcessId
 product:
 - Windows
 targetos: Windows
@@ -72,7 +72,7 @@ A pointer to a process object structure.
 
 
 
-The EPROCESS-typed process object structure is an opaque data structure that the operating system uses internally. To obtain a pointer to the EPROCESS structure for the current process, a driver can call [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer). To obtain a pointer to the EPROCESS structure for a different process, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>. 
+The EPROCESS-typed process object structure is an opaque data structure that the operating system uses internally. To obtain a pointer to the EPROCESS structure for the current process, a driver can call [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess). To obtain a pointer to the EPROCESS structure for a different process, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>. 
 
 
 
@@ -86,7 +86,7 @@ The EPROCESS-typed process object structure is an opaque data structure that the
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
  
 
  

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryInformationByName
-title: FltQueryInformationByName function
+title: FltQueryInformationByName function (fltkernel.h)
 description: The FltQueryInformationByName routine returns the requested information about a named file.
 tech.root: ifsk
 ms.assetid: dac542b8-eaea-4065-ae36-1433a6589ac3
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	fltmgr.sys
+- fltmgr.sys
 api_name: 
--	FltQueryInformationByName
+- FltQueryInformationByName
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

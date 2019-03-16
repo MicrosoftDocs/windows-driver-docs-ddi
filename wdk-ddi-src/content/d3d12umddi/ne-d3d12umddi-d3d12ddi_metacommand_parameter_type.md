@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_METACOMMAND_PARAMETER_TYPE
-title: D3D12DDI_METACOMMAND_PARAMETER_TYPE
+title: D3D12DDI_METACOMMAND_PARAMETER_TYPE (d3d12umddi.h)
 description: The meta-command parameter type.
 ms.assetid: f17784a6-3573-456f-abac-b7782ed2f92b
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_TYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_METACOMMAND_PARAMETER_TYPE
+- D3D12DDI_METACOMMAND_PARAMETER_TYPE
 product: 
 - Windows
 targetos: Windows

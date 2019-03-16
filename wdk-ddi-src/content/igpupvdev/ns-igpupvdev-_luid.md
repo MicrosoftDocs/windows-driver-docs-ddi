@@ -1,6 +1,6 @@
 ---
 UID: NS:igpupvdev._LUID
-title: "_LUID"
+title: _LUID (igpupvdev.h)
 description: The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on which it was generated.
 old-location: netvista\luid.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	igpupvdev.h
+- igpupvdev.h
 api_name:
--	LUID
+- LUID
 product:
 - Windows
 targetos: Windows

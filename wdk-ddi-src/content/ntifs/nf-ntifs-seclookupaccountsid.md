@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SecLookupAccountSid
-title: SecLookupAccountSid function
+title: SecLookupAccountSid function (ntifs.h)
 description: SecLookupAccountSid accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 old-location: ifsk\seclookupaccountsid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksecdd.lib
--	Ksecdd.dll
+- Ksecdd.lib
+- Ksecdd.dll
 api_name:
--	SecLookupAccountSid
+- SecLookupAccountSid
 product:
 - Windows
 targetos: Windows

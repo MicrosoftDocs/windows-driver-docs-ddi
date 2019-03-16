@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeImpersonateClientEx
-title: SeImpersonateClientEx function
+title: SeImpersonateClientEx function (ntifs.h)
 description: The SeImpersonateClientEx routine causes a thread to impersonate a user.
 old-location: ifsk\seimpersonateclientex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeImpersonateClientEx
+- SeImpersonateClientEx
 product:
 - Windows
 targetos: Windows

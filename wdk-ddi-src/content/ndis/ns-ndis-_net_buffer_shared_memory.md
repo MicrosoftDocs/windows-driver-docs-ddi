@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_SHARED_MEMORY
-title: "_NET_BUFFER_SHARED_MEMORY"
+title: _NET_BUFFER_SHARED_MEMORY (ndis.h)
 description: The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a NET_BUFFER structure.
 old-location: netvista\net_buffer_shared_memory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER_SHARED_MEMORY
+- NET_BUFFER_SHARED_MEMORY
 product:
 - Windows
 targetos: Windows

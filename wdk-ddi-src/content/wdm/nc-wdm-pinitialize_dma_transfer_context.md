@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PINITIALIZE_DMA_TRANSFER_CONTEXT
-title: PINITIALIZE_DMA_TRANSFER_CONTEXT
+title: PINITIALIZE_DMA_TRANSFER_CONTEXT (wdm.h)
 description: The InitializeDmaTransferContext routine initializes an opaque DMA transfer context that is used to track pending allocations of DMA resources.
 old-location: kernel\initializedmatransfercontext.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InitializeDmaTransferContext
+- InitializeDmaTransferContext
 product:
 - Windows
 targetos: Windows

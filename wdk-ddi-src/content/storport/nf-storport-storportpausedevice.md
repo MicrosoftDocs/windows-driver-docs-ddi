@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortPauseDevice
-title: StorPortPauseDevice function
+title: StorPortPauseDevice function (storport.h)
 description: The StorPortPauseDevice routine pauses a specific logical unit device for the specified period of time.
 old-location: storage\storportpausedevice.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortPauseDevice
+- StorPortPauseDevice
 product:
 - Windows
 targetos: Windows

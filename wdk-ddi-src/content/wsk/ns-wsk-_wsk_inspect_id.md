@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_INSPECT_ID
-title: "_WSK_INSPECT_ID"
+title: _WSK_INSPECT_ID (wsk.h)
 description: The WSK_INSPECT_ID structure specifies an identifier for an incoming connection request on a listening socket.
 old-location: netvista\wsk_inspect_id.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_INSPECT_ID
+- WSK_INSPECT_ID
 product:
 - Windows
 targetos: Windows

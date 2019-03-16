@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_COPY_FLAGS
-title: D3DDDI_COPY_FLAGS
+title: D3DDDI_COPY_FLAGS (d3dumddi.h)
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 old-location: display\d3dddi_copy_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_COPY_FLAGS
+- D3DDDI_COPY_FLAGS
 product:
 - Windows
 targetos: Windows

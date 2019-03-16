@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_DEVICE_INTERFACE_STANDARD_2
-title: "_SRIOV_DEVICE_INTERFACE_STANDARD_2"
+title: _SRIOV_DEVICE_INTERFACE_STANDARD_2 (pcivirt.h)
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver in the device stack for the of the SR-IOV device. This is an extended version of SRIOV_DEVICE_INTERFACE_STANDARD.
 old-location: pci\sriov_device_interface_standard_2.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_DEVICE_INTERFACE_STANDARD_2
+- SRIOV_DEVICE_INTERFACE_STANDARD_2
 product:
 - Windows
 targetos: Windows

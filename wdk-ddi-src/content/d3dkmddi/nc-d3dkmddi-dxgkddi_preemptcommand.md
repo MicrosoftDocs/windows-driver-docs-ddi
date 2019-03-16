@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PREEMPTCOMMAND
-title: DXGKDDI_PREEMPTCOMMAND
+title: DXGKDDI_PREEMPTCOMMAND (d3dkmddi.h)
 description: The DxgkDdiPreemptCommand function preempts a direct memory access (DMA) buffer that was previously submitted to and currently queued in the hardware command execution unit.
 old-location: display\dxgkddipreemptcommand.htm
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiPreemptCommand
+- DxgkDdiPreemptCommand
 product:
 - Windows
 targetos: Windows

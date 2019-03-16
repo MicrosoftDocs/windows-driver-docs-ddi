@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.Output
-title: IDebugControl3::Output
+title: IDebugControl3::Output (dbgeng.h)
 description: The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\output.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.Output
--	IDebugControl2.Output
--	IDebugControl3.Output
+- IDebugControl.Output
+- IDebugControl2.Output
+- IDebugControl3.Output
 product:
 - Windows
 targetos: Windows

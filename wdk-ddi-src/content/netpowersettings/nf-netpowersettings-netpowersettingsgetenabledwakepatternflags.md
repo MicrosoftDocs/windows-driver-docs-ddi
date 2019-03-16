@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetEnabledWakePatternFlags
-title: NetPowerSettingsGetEnabledWakePatternFlags function
+title: NetPowerSettingsGetEnabledWakePatternFlags function (netpowersettings.h)
 description: Retrieves flags representing currently enabled wake pattern types that a network adapter supports.
 tech.root: netvista
 ms.assetid: a82e0bdf-45a0-4f69-bd1d-0e863a49f080
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetEnabledWakePatternFlags
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetEnabledWakePatternFlags
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

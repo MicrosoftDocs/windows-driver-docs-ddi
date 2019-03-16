@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_CREATE_POINT_INPUT
-title: "_MOUNTMGR_CREATE_POINT_INPUT"
+title: _MOUNTMGR_CREATE_POINT_INPUT (mountmgr.h)
 description: The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an IOCTL_MOUNTMGR_CREATE_POINT request.
 old-location: storage\mountmgr_create_point_input.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountmgr.h
+- mountmgr.h
 api_name:
--	MOUNTMGR_CREATE_POINT_INPUT
+- MOUNTMGR_CREATE_POINT_INPUT
 product:
 - Windows
 targetos: Windows

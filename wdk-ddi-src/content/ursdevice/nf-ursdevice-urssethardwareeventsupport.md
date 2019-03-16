@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsSetHardwareEventSupport
-title: UrsSetHardwareEventSupport function
+title: UrsSetHardwareEventSupport function (ursdevice.h)
 description: Indicates the client driver's support for reporting new hardware events.
 old-location: buses\urssethardwareeventsupport.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Urscxstub.lib
--	Urscxstub.dll
+- Urscxstub.lib
+- Urscxstub.dll
 api_name:
--	UrsSetHardwareEventSupport
+- UrsSetHardwareEventSupport
 product:
 - Windows
 targetos: Windows

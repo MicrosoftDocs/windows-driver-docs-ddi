@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_METADATAINFO
-title: tagKSCAMERA_EXTENDEDPROP_METADATAINFO
+title: tagKSCAMERA_EXTENDEDPROP_METADATAINFO (ksmedia.h)
 description: This structure represents the metadata information for the extended property control.
 old-location: stream\kscamera_extendedprop_metadatainfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_METADATAINFO
+- KSCAMERA_EXTENDEDPROP_METADATAINFO
 product:
 - Windows
 targetos: Windows

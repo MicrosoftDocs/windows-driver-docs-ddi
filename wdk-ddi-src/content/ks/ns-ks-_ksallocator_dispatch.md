@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSALLOCATOR_DISPATCH
-title: "_KSALLOCATOR_DISPATCH"
+title: _KSALLOCATOR_DISPATCH (ks.h)
 description: The KSALLOCATOR_DISPATCH structure contains the callbacks required for a pin to implement its own kernel-level allocator.
 old-location: stream\ksallocator_dispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSALLOCATOR_DISPATCH
+- KSALLOCATOR_DISPATCH
 product:
 - Windows
 targetos: Windows

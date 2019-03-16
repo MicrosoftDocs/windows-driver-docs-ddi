@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetFieldOffset
-title: IDebugSymbols::GetFieldOffset
+title: IDebugSymbols::GetFieldOffset (dbgeng.h)
 description: The GetFieldOffset method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffset2.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetFieldOffset
--	IDebugSymbols2.GetFieldOffset
--	IDebugSymbols3.GetFieldOffset
+- IDebugSymbols.GetFieldOffset
+- IDebugSymbols2.GetFieldOffset
+- IDebugSymbols3.GetFieldOffset
 product:
 - Windows
 targetos: Windows

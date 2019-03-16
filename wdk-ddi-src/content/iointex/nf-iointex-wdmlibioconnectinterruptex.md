@@ -1,6 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoConnectInterruptEx
-title: WdmlibIoConnectInterruptEx function
+title: WdmlibIoConnectInterruptEx function (iointex.h)
 description: The WdmlibIoConnectInterruptEx function registers an interrupt-handling routine for a device's interrupts.
 old-location: kernel\wdmlibioconnectinterruptex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibIoConnectInterruptEx
--	IoConnectInterruptEx
+- WdmlibIoConnectInterruptEx
+- IoConnectInterruptEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
-title: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
+title: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT (d3dkmthk.h)
 description: Multiplane overlay stereo format.
 ms.assetid: bca4da2d-3870-4026-b515-1cb523306360
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
+- D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

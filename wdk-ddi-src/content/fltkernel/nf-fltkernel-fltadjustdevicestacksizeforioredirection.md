@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAdjustDeviceStackSizeForIoRedirection
-title: FltAdjustDeviceStackSizeForIoRedirection function
+title: FltAdjustDeviceStackSizeForIoRedirection function (fltkernel.h)
 description: The FltAdjustDeviceStackSizeForIoRedirection routine increases the size of the source device stack to allow a minifilter to redirect I/O from a specified source instance to a specified target instance when the target stack is deeper than the source stack.
 old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAdjustDeviceStackSizeForIoRedirection
+- FltAdjustDeviceStackSizeForIoRedirection
 product:
 - Windows
 targetos: Windows

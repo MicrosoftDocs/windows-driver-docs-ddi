@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_DEVICE_USAGE
-title: "_DXVAHDDDI_DEVICE_USAGE"
+title: _DXVAHDDDI_DEVICE_USAGE (d3dumddi.h)
 description: The DXVAHDDDI_DEVICE_USAGE enumeration contains values that identify how the decode device plays video.
 old-location: display\dxvahdddi_device_usage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_DEVICE_USAGE
+- DXVAHDDDI_DEVICE_USAGE
 product:
 - Windows
 targetos: Windows

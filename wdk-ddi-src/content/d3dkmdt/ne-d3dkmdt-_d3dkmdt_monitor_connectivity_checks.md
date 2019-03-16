@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
-title: "_D3DKMDT_MONITOR_CONNECTIVITY_CHECKS"
+title: _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumerated type indicates whether the DxgkDdiCommitVidPn function should verify that certain video outputs have connected monitors.
 old-location: display\d3dkmdt_monitor_connectivity_checks.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
+- D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 product:
 - Windows
 targetos: Windows

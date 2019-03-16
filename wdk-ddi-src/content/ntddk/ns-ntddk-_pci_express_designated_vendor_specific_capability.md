@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
-title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
+title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY (ntddk.h)
 description: Represents the Designated Vendor-Specific Extended Capability defined by PCI-SIG. 
 ms.assetid: 22506a7e-59a4-4336-b728-a05e4b99638a
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

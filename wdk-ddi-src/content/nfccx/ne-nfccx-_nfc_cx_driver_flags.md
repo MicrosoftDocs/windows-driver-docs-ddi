@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_DRIVER_FLAGS
-title: "_NFC_CX_DRIVER_FLAGS"
+title: _NFC_CX_DRIVER_FLAGS (nfccx.h)
 description: Specifies run-time driver flags.
 old-location: nfpdrivers\nfc_cx_driver_flags.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	NFC_CX_DRIVER_FLAGS
+- NFC_CX_DRIVER_FLAGS
 product:
 - Windows
 targetos: Windows

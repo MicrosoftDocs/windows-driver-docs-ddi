@@ -1,6 +1,6 @@
 ---
 UID: NF:pep_x.PoFxRegisterCoreDevice
-title: PoFxRegisterCoreDevice function
+title: PoFxRegisterCoreDevice function (pep_x.h)
 description: The PoFxRegisterCoreDevice routine registers a new core system resource with the Windows power management framework (PoFx).
 old-location: kernel\pofxregistercoredevice.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	PoFxRegisterCoreDevice
+- PoFxRegisterCoreDevice
 product:
 - Windows
 targetos: Windows

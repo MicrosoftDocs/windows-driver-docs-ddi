@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterGetPrintClassObject
-title: RouterGetPrintClassObject function
+title: RouterGetPrintClassObject function (prnasntp.h)
 description: The RouterGetPrintClassObject function enumerates the list of print providers, searching for the print provider with the specified name and interface ID.
 old-location: print\routergetprintclassobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RouterGetPrintClassObject
+- RouterGetPrintClassObject
 product:
 - Windows
 targetos: Windows

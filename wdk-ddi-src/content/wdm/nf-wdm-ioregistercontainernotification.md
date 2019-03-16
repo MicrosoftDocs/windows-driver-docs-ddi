@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterContainerNotification
-title: IoRegisterContainerNotification function
+title: IoRegisterContainerNotification function (wdm.h)
 description: The IoRegisterContainerNotification routine registers a kernel-mode driver to receive notifications about a specified class of events.
 old-location: kernel\ioregistercontainernotification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterContainerNotification
+- IoRegisterContainerNotification
 product:
 - Windows
 targetos: Windows

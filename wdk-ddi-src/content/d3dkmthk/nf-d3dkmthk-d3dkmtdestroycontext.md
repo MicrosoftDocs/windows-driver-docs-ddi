@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyContext
-title: D3DKMTDestroyContext function
+title: D3DKMTDestroyContext function (d3dkmthk.h)
 description: The D3DKMTDestroyContext function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroycontext.htm
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroyContext
+- D3DKMTDestroyContext
 product:
 - Windows
 targetos: Windows

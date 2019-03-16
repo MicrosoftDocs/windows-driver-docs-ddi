@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_PTE
-title: _D3DKMT_GET_PTE
+title: _D3DKMT_GET_PTE (d3dkmthk.h)
 description: Used to get page table entries.
 ms.assetid: bfe177b0-8922-438c-b214-e08f786b8e9c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GET_PTE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GET_PTE
+- _D3DKMT_GET_PTE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

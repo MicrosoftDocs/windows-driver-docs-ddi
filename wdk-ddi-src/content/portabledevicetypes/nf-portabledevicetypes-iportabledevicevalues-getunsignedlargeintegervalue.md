@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetUnsignedLargeIntegerValue
-title: IPortableDeviceValues::GetUnsignedLargeIntegerValue
+title: IPortableDeviceValues::GetUnsignedLargeIntegerValue (portabledevicetypes.h)
 description: Retrieves a ULONGLONG value (type VT_UI8) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getunsignedlargeintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetUnsignedLargeIntegerValue
+- IPortableDeviceValues.GetUnsignedLargeIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

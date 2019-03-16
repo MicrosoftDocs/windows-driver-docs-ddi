@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_QUERY_OBJECT_INFORMATION
-title: "_PEP_ACPI_QUERY_OBJECT_INFORMATION"
+title: _PEP_ACPI_QUERY_OBJECT_INFORMATION (pep_x.h)
 description: The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object.
 old-location: kernel\pep_acpi_query_object_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_QUERY_OBJECT_INFORMATION
+- PEP_ACPI_QUERY_OBJECT_INFORMATION
 product:
 - Windows
 targetos: Windows

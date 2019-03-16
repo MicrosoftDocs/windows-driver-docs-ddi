@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisEqualUnicodeString
-title: NdisEqualUnicodeString macro
+title: NdisEqualUnicodeString macro (ndis.h)
 description: The NdisEqualUnicodeString function compares two Unicode strings and returns whether they are equal.
 old-location: netvista\ndisequalunicodestring.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisEqualUnicodeString
+- NdisEqualUnicodeString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownTransport
-title: RxCeTearDownTransport function
+title: RxCeTearDownTransport function (rxce.h)
 description: RxCeTearDownTransport unbinds an RDBSS transport object.
 old-location: ifsk\rxceteardowntransport.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeTearDownTransport
+- RxCeTearDownTransport
 product:
 - Windows
 targetos: Windows

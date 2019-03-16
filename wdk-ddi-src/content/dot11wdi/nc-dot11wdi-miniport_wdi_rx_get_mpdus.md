@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_GET_MPDUS
-title: MINIPORT_WDI_RX_GET_MPDUS
+title: MINIPORT_WDI_RX_GET_MPDUS (dot11wdi.h)
 description: The MiniportWdiRxGetMpdus handler function returns a NET_BUFFER_LIST chain. Each NET_BUFFER_LIST represents one MPDU.
 old-location: netvista\miniportwdirxgetmpdus.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiRxGetMpdus
+- MiniportWdiRxGetMpdus
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCmEncodeMemIoResource
-title: RtlCmEncodeMemIoResource function
+title: RtlCmEncodeMemIoResource function (wdm.h)
 description: The RtlCmEncodeMemIoResource routine updates a CM_PARTIAL_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlcmencodememioresource.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCmEncodeMemIoResource
+- RtlCmEncodeMemIoResource
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetFileOrigin
-title: IoSetFileOrigin function
+title: IoSetFileOrigin function (ntddk.h)
 description: The IoSetFileOrigin routine specifies whether a given file object is for a remote create request.
 old-location: ifsk\iosetfileorigin.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetFileOrigin
+- IoSetFileOrigin
 product:
 - Windows
 targetos: Windows

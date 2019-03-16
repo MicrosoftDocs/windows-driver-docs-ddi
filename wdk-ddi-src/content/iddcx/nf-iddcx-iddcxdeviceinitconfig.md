@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxDeviceInitConfig
-title: IddCxDeviceInitConfig function
+title: IddCxDeviceInitConfig function (iddcx.h)
 description: Creates a WDFDEVICE initialization structure to allow indirect displays to be used.
 old-location: display\iddcxdeviceinitconfig.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxDeviceInitConfig
+- IddCxDeviceInitConfig
 product:
 - Windows
 targetos: Windows

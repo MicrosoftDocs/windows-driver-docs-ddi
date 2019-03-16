@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_MIRACAST_CHUNK_DATA
-title: D3DKMT_MIRACAST_CHUNK_DATA
+title: D3DKMT_MIRACAST_CHUNK_DATA (d3dkmthk.h)
 description: Contains wireless display (Miracast) chunk data.
 ms.assetid: a92c33e2-4939-4800-9d6e-f10b75bbc152
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_CHUNK_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MIRACAST_CHUNK_DATA
+- D3DKMT_MIRACAST_CHUNK_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

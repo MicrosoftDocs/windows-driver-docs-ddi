@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage
-title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage
+title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryChargePercentage (wdtfsimulatedbatterysystemaction.h)
 description: Sets the charge percentage reported to the OS by the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterychargepercentage.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage
+- IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryChargePercentage
 product:
 - Windows
 targetos: Windows

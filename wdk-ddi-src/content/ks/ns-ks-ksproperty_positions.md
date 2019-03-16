@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_20
-title: KSPROPERTY_POSITIONS
+title: KSPROPERTY_POSITIONS (ks.h)
 description: The KSPROPERTY_POSITIONS structure specifies the current position and stop position, relative to the total duration of the stream.
 old-location: stream\ksproperty_positions.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_POSITIONS
+- KSPROPERTY_POSITIONS
 product:
 - Windows
 targetos: Windows

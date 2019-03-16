@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RFC6877_464XLAT_OFFLOAD
-title: _NDIS_RFC6877_464XLAT_OFFLOAD
+title: _NDIS_RFC6877_464XLAT_OFFLOAD (ntddndis.h)
 description: The NDIS_RFC6877_464XLAT_OFFLOAD structure contains 464XLAT hardware offload information.
 tech.root: netvista
 ms.assetid: d94bee25-3b7f-43d1-8319-abf41e6e4b3c
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_RFC6877_464XLAT_OFFLOAD, *PNDIS_RFC6877_464XLAT_OFFLOAD
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	_NDIS_RFC6877_464XLAT_OFFLOAD
+- _NDIS_RFC6877_464XLAT_OFFLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortMarkDumpMemory
-title: StorPortMarkDumpMemory function
+title: StorPortMarkDumpMemory function (storport.h)
 description: A miniport should mark memory used for the dump file or the hibernation file.
 old-location: storage\storportmarkdumpmemory.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	StorPortMarkDumpMemory
+- StorPortMarkDumpMemory
 product:
 - Windows
 targetos: Windows

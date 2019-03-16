@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl6.GetSynchronizationStatus
-title: IDebugControl6::GetSynchronizationStatus
+title: IDebugControl6::GetSynchronizationStatus (dbgeng.h)
 description: The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
 old-location: debugger\idebugcontrol6_getsynchronizationstatus.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl6.GetSynchronizationStatus
+- IDebugControl6.GetSynchronizationStatus
 product:
 - Windows
 targetos: Windows

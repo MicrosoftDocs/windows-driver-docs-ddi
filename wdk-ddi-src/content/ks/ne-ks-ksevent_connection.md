@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_28
-title: KSEVENT_CONNECTION
+title: KSEVENT_CONNECTION (ks.h)
 description: 
 old-location: stream\ksevent_connection.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSEVENT_CONNECTION
+- KSEVENT_CONNECTION
 product:
 - Windows
 targetos: Windows

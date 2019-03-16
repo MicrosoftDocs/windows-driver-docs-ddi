@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugEventCallbacksWide
-title: IDebugEventCallbacksWide
+title: IDebugEventCallbacksWide (dbgeng.h)
 description: IDebugEventCallbacksWide interface
 old-location: debugger\idebugeventcallbackswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacksWide
+- IDebugEventCallbacksWide
 product:
 - Windows
 targetos: Windows

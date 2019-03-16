@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateDeviceObjectList
-title: IoEnumerateDeviceObjectList function
+title: IoEnumerateDeviceObjectList function (ntifs.h)
 description: The IoEnumerateDeviceObjectList routine enumerates a driver's device object list.
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoEnumerateDeviceObjectList
+- IoEnumerateDeviceObjectList
 product:
 - Windows
 targetos: Windows

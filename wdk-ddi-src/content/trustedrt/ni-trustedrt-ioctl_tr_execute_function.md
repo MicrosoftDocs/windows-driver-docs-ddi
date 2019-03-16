@@ -1,6 +1,6 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_EXECUTE_FUNCTION
-title: IOCTL_TR_EXECUTE_FUNCTION
+title: IOCTL_TR_EXECUTE_FUNCTION (trustedrt.h)
 description: 
 ms.assetid: 79daccd6-3bda-4ef2-81e4-e68137257369
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedrt.h
+- trustedrt.h
 api_name: 
--	IOCTL_TR_EXECUTE_FUNCTION
+- IOCTL_TR_EXECUTE_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

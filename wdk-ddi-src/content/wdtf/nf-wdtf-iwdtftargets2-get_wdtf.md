@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_WDTF
-title: IWDTFTargets2::get_WDTF
+title: IWDTFTargets2::get_WDTF (wdtf.h)
 description: Gets the main WDTF aggregation object.
 old-location: dtf\iwdtftargets2_wdtf.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.WDTF
--	IWDTFTargets2.get_WDTF
+- IWDTFTargets2.WDTF
+- IWDTFTargets2.get_WDTF
 product:
 - Windows
 targetos: Windows

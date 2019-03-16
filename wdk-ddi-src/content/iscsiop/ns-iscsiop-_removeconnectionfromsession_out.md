@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveConnectionFromSession_OUT
-title: "_RemoveConnectionFromSession_OUT"
+title: _RemoveConnectionFromSession_OUT (iscsiop.h)
 description: The RemoveConnectionFromSession_OUT structure holds the output data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemoveConnectionFromSession_OUT
+- RemoveConnectionFromSession_OUT
 product:
 - Windows
 targetos: Windows

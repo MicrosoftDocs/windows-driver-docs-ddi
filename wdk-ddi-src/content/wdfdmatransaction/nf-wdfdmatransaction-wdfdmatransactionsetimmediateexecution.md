@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetImmediateExecution
-title: WdfDmaTransactionSetImmediateExecution function
+title: WdfDmaTransactionSetImmediateExecution function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetImmediateExecution method marks the specified DMA transaction so that calls to WdfDmaTransactionExecute and WdfDmaTransactionAllocateResources initiate the transaction immediately or fail.
 old-location: wdf\wdfdmatransactionsetimmediateexecution.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionSetImmediateExecution
+- WdfDmaTransactionSetImmediateExecution
 product:
 - Windows
 targetos: Windows

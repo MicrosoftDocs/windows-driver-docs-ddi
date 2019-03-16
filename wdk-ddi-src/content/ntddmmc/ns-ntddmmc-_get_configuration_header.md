@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._GET_CONFIGURATION_HEADER
-title: "_GET_CONFIGURATION_HEADER"
+title: _GET_CONFIGURATION_HEADER (ntddmmc.h)
 description: The GET_CONFIGURATION_HEADER structure is used to format the output data retrieved by the IOCTL_CDROM_GET_CONFIGURATION request.
 old-location: storage\get_configuration_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	GET_CONFIGURATION_HEADER
+- GET_CONFIGURATION_HEADER
 product:
 - Windows
 targetos: Windows

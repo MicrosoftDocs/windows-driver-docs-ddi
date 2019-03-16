@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetLowerInstance
-title: FltGetLowerInstance function
+title: FltGetLowerInstance function (fltkernel.h)
 description: The FltGetLowerInstance routine returns an opaque instance pointer for the next lower minifilter driver instance, if there is one, that is attached below a given minifilter driver instance on the same volume.
 old-location: ifsk\fltgetlowerinstance.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetLowerInstance
+- FltGetLowerInstance
 product:
 - Windows
 targetos: Windows

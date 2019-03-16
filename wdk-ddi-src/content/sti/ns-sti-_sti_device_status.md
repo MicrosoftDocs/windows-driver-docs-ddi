@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STI_DEVICE_STATUS
-title: "_STI_DEVICE_STATUS"
+title: _STI_DEVICE_STATUS (sti.h)
 description: The STI_DEVICE_STATUS structure is used as a parameter to the IStiDevice::GetStatus and IStiUSD::GetStatus methods.
 old-location: image\sti_device_status.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STI_DEVICE_STATUS
+- STI_DEVICE_STATUS
 product:
 - Windows
 targetos: Windows

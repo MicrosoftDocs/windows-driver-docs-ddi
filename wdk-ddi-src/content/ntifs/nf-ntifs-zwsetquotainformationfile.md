@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetQuotaInformationFile
-title: ZwSetQuotaInformationFile function
+title: ZwSetQuotaInformationFile function (ntifs.h)
 description: The ZwSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter. All of the quota entries in the specified buffer are applied to the volume.
 old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetQuotaInformationFile
--	NtSetQuotaInformationFile
+- ZwSetQuotaInformationFile
+- NtSetQuotaInformationFile
 product:
 - Windows
 targetos: Windows

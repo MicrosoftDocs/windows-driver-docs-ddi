@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._GPIO_PIN_IORESTRICTION_TYPE
-title: "_GPIO_PIN_IORESTRICTION_TYPE"
+title: _GPIO_PIN_IORESTRICTION_TYPE (pepfx.h)
 description: The GPIO_PIN_IORESTRICTION_TYPE enumeration describes the functions that a GPIO pin is limited to performing.
 old-location: kernel\gpio_pin_iorestriction_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	GPIO_PIN_IORESTRICTION_TYPE
+- GPIO_PIN_IORESTRICTION_TYPE
 product:
 - Windows
 targetos: Windows

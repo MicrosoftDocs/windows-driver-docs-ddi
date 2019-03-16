@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
-title: _D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
+title: _D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS (d3dkmthk.h)
 description: Plane-specific input flags.
 ms.assetid: 65a2952f-8cd2-4f6b-b129-7330b852e446
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
+- _D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

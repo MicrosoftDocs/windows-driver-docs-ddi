@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUninitializeOplock
-title: FsRtlUninitializeOplock function
+title: FsRtlUninitializeOplock function (ntifs.h)
 description: FsRtlUninitializeOplock uninitializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fsrtluninitializeoplock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlUninitializeOplock
+- FsRtlUninitializeOplock
 product:
 - Windows
 targetos: Windows

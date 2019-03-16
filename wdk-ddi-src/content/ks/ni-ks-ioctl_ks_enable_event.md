@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_ENABLE_EVENT
-title: IOCTL_KS_ENABLE_EVENT
+title: IOCTL_KS_ENABLE_EVENT (ks.h)
 description: An application can use IOCTL_KS_ENABLE_EVENT to request notification of a KS event type, or to determine the events supported by a KS object.
 old-location: stream\ioctl_ks_enable_event.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IOCTL_KS_ENABLE_EVENT
+- IOCTL_KS_ENABLE_EVENT
 product:
 - Windows
 targetos: Windows

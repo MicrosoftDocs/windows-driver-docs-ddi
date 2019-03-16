@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmParameterBlock
-title: DeviceDsmParameterBlock function
+title: DeviceDsmParameterBlock function (ntddstor.h)
 description: The DeviceDsmParameterBlock function gets the parameter block for a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 60c25727-7218-4b5e-935f-fb34fe926da5
 ms.date: 04/11/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmParameterBlock
+- DeviceDsmParameterBlock
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RELEASE_PHYSICAL
-title: PAGP_RELEASE_PHYSICAL
+title: PAGP_RELEASE_PHYSICAL (videoagp.h)
 description: The AgpReleasePhysical function frees a physical address range reserved by a previous call to AgpReservePhysical.
 old-location: display\agpreleasephysical.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpReleasePhysical
+- AgpReleasePhysical
 product:
 - Windows
 targetos: Windows

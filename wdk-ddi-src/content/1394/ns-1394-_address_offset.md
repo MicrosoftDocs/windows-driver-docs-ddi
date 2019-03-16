@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._ADDRESS_OFFSET
-title: "_ADDRESS_OFFSET"
+title: _ADDRESS_OFFSET (1394.h)
 description: The ADDRESS_OFFSET structure specifies the 48-bit address within a device's IEEE 1394 address space.
 old-location: ieee\address_offset.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	ADDRESS_OFFSET
+- ADDRESS_OFFSET
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeConvertPerformanceCounterToAuxiliaryCounter
-title: KeConvertPerformanceCounterToAuxiliaryCounter function
+title: KeConvertPerformanceCounterToAuxiliaryCounter function (wdm.h)
 description: The KeConvertPerformanceCounterToAuxiliaryCounter routine converts the specified performance counter value into an auxiliary counter value.
 old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	KeConvertPerformanceCounterToAuxiliaryCounter
+- KeConvertPerformanceCounterToAuxiliaryCounter
 product:
 - Windows
 targetos: Windows

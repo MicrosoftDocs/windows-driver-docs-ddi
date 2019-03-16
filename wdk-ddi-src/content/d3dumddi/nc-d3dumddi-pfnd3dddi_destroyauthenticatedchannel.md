@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
-title: PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL
+title: PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL (d3dumddi.h)
 description: The DestroyAuthenticatedChannel function releases resources for the authenticated channel that the CreateAuthenticatedChannel function creates.
 old-location: display\destroyauthenticatedchannel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DestroyAuthenticatedChannel
+- DestroyAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

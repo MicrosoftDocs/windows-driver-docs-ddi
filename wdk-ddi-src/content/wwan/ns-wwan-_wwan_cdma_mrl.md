@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CDMA_MRL
-title: "_WWAN_CDMA_MRL"
+title: _WWAN_CDMA_MRL (wwan.h)
 description: The WWAN_CDMA_MRL structure represents the measured results list (MRL) of both serving and neighboring CDMA cells.
 old-location: netvista\wwan_cdma_mrl.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_CDMA_MRL
+- WWAN_CDMA_MRL
 product:
 - Windows
 targetos: Windows

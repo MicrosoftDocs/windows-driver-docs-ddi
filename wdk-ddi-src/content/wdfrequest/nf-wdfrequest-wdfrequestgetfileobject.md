@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetFileObject
-title: WdfRequestGetFileObject function
+title: WdfRequestGetFileObject function (wdfrequest.h)
 description: The WdfRequestGetFileObject method retrieves the framework file object that is associated with a specified I/O request.
 old-location: wdf\wdfrequestgetfileobject.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestGetFileObject
+- WdfRequestGetFileObject
 product:
 - Windows
 targetos: Windows

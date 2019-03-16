@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OFFERRESOURCES
-title: PFND3DDDI_OFFERRESOURCES
+title: PFND3DDDI_OFFERRESOURCES (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver offer video memory resources for reuse.
 old-location: display\offerresources.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	OfferResources
+- OfferResources
 product:
 - Windows
 targetos: Windows

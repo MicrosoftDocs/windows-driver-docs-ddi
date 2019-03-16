@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
-title: _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
+title: _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR (scsi.h)
 description: The PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure contains status information for a physical element.
 ms.assetid: 55db36a7-f2ad-4246-a1d8-b2a589ee3c61
 ms.date: 09/10/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
-product: Windows
+- _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

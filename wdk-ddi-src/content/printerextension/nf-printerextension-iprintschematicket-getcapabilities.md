@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetCapabilities
-title: IPrintSchemaTicket::GetCapabilities
+title: IPrintSchemaTicket::GetCapabilities (printerextension.h)
 description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
 old-location: print\iprintschematicket_getcapabilities.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrintSchemaTicket.GetCapabilities
+- IPrintSchemaTicket.GetCapabilities
 product:
 - Windows
 targetos: Windows

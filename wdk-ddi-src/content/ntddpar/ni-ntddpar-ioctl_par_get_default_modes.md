@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_GET_DEFAULT_MODES
-title: IOCTL_PAR_GET_DEFAULT_MODES
+title: IOCTL_PAR_GET_DEFAULT_MODES (ntddpar.h)
 description: The IOCTL_PAR_GET_DEFAULT_MODES request returns the default write (forward) and read (reverse) IEEE 1284 protocols that the system-supplied bus driver for parallel ports uses.
 old-location: parports\ioctl_par_get_default_modes.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_PAR_GET_DEFAULT_MODES
+- IOCTL_PAR_GET_DEFAULT_MODES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorSessionId
-title: FltGetRequestorSessionId function
+title: FltGetRequestorSessionId function (fltkernel.h)
 description: The FltGetRequestorSessionId routine returns the session ID of the process that originally requested the specified I/O operation.
 old-location: ifsk\fltgetrequestorsessionid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetRequestorSessionId
+- FltGetRequestorSessionId
 product:
 - Windows
 targetos: Windows

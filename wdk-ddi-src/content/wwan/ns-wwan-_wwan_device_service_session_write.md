@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION_WRITE
-title: "_WWAN_DEVICE_SERVICE_SESSION_WRITE"
+title: _WWAN_DEVICE_SERVICE_SESSION_WRITE (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents data associated with a device service session write request.
 old-location: netvista\wwan_device_service_session_write.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_SESSION_WRITE
+- WWAN_DEVICE_SERVICE_SESSION_WRITE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwWriteString
-title: EtwWriteString function
+title: EtwWriteString function (wdm.h)
 description: The EventWriteString function is a tracing function that you can use when no sophisticated data is required. This function is similar to a debug print statement.
 old-location: devtest\etwwritestring.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwWriteString
+- EtwWriteString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_EMERGENCY_MODE
-title: "_WWAN_EMERGENCY_MODE"
+title: _WWAN_EMERGENCY_MODE (wwan.h)
 description: The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes that are supported by the MB device.
 old-location: netvista\wwan_emergency_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_EMERGENCY_MODE
+- WWAN_EMERGENCY_MODE
 product:
 - Windows
 targetos: Windows

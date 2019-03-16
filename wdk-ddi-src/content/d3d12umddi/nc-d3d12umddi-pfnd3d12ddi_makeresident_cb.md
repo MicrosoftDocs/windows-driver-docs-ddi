@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_MAKERESIDENT_CB
-title: PFND3D12DDI_MAKERESIDENT_CB
+title: PFND3D12DDI_MAKERESIDENT_CB (d3d12umddi.h)
 description: pfnMakeResidentCb is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: 77df8a7f-140c-44f3-ba77-c80c102dbc7e
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_MAKERESIDENT_CB
+- PFND3D12DDI_MAKERESIDENT_CB
 product:
 - Windows
 targetos: Windows

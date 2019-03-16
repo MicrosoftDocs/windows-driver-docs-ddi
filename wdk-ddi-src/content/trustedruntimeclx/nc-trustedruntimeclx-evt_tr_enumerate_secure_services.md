@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
-title: EVT_TR_ENUMERATE_SECURE_SERVICES
+title: EVT_TR_ENUMERATE_SECURE_SERVICES (trustedruntimeclx.h)
 description: 
 ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_ENUMERATE_SECURE_SERVICES
+- EVT_TR_ENUMERATE_SECURE_SERVICES
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

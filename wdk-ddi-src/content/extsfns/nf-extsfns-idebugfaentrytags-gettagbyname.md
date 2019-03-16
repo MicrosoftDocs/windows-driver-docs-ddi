@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetTagByName
-title: IDebugFAEntryTags::GetTagByName
+title: IDebugFAEntryTags::GetTagByName (extsfns.h)
 description: The GetTagByName method searches for a tag that has a specified name.
 old-location: debugger\idebugfaentrytags_gettagbyname.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFAEntryTags.GetTagByName
+- IDebugFAEntryTags.GetTagByName
 product:
 - Windows
 targetos: Windows

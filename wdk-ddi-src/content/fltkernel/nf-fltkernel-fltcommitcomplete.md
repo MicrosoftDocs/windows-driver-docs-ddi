@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCommitComplete
-title: FltCommitComplete function
+title: FltCommitComplete function (fltkernel.h)
 description: The FltCommitComplete routine acknowledges a TRANSACTION_NOTIFY_COMMIT notification.
 old-location: ifsk\fltcommitcomplete.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltCommitComplete
+- FltCommitComplete
 product:
 - Windows
 targetos: Windows

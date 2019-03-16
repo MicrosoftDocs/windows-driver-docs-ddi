@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfio._WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
-title: "_WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY"
+title: _WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY (wdfio.h)
 description: The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure contains driver-supplied information that the framework uses to enable guaranteed forward progress for an I/O queue.
 old-location: wdf\wdf_io_queue_forward_progress_policy.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfio.h
+- wdfio.h
 api_name:
--	WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
+- WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
 product:
 - Windows
 targetos: Windows

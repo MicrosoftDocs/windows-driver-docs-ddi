@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RENDER
-title: "_DXGKARG_RENDER"
+title: _DXGKARG_RENDER (d3dkmddi.h)
 description: The DXGKARG_RENDER structure describes members for generating a direct memory access (DMA) buffer from a command buffer.
 old-location: display\dxgkarg_render.htm
 ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_RENDER
+- DXGKARG_RENDER
 product:
 - Windows
 targetos: Windows

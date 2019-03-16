@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_IEEE_REV_TO_FWD
-title: PPARALLEL_IEEE_REV_TO_FWD
+title: PPARALLEL_IEEE_REV_TO_FWD (parallel.h)
 description: The PPARALLEL_IEEE_REV_TO_FWD-typed callback routine changes the transfer mode from reverse to forward. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pparallel_ieee_rev_to_fwd.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PPARALLEL_IEEE_REV_TO_FWD
+- PPARALLEL_IEEE_REV_TO_FWD
 product:
 - Windows
 targetos: Windows

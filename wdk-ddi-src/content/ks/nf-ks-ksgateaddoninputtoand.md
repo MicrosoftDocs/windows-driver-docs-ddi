@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateAddOnInputToAnd
-title: KsGateAddOnInputToAnd function
+title: KsGateAddOnInputToAnd function (ks.h)
 description: The KsGateAddOnInputToAnd function adds a new input in the ON state to a given AND gate.
 old-location: stream\ksgateaddoninputtoand.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateAddOnInputToAnd
+- KsGateAddOnInputToAnd
 product:
 - Windows
 targetos: Windows

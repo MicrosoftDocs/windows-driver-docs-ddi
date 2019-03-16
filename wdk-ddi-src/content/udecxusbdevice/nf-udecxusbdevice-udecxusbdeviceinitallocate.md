@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAllocate
-title: UdecxUsbDeviceInitAllocate function
+title: UdecxUsbDeviceInitAllocate function (udecxusbdevice.h)
 description: Allocates memory for a UDECXUSBDEVICE_INIT structure that is used to initialize a virtual USB device.
 old-location: buses\udecxusbdeviceinitallocate.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceInitAllocate
+- UdecxUsbDeviceInitAllocate
 product:
 - Windows
 targetos: Windows

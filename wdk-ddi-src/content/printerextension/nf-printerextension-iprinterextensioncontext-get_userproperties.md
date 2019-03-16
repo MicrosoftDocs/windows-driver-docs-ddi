@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_UserProperties
-title: IPrinterExtensionContext::get_UserProperties
+title: IPrinterExtensionContext::get_UserProperties (printerextension.h)
 description: Gets the user property bag for this app.
 old-location: print\iprinterextensioncontext_userproperties.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionContext.UserProperties
--	IPrinterExtensionContext.get_UserProperties
+- IPrinterExtensionContext.UserProperties
+- IPrinterExtensionContext.get_UserProperties
 product:
 - Windows
 targetos: Windows

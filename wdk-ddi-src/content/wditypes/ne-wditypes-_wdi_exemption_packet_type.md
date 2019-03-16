@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_EXEMPTION_PACKET_TYPE
-title: "_WDI_EXEMPTION_PACKET_TYPE"
+title: _WDI_EXEMPTION_PACKET_TYPE (wditypes.h)
 description: The WDI_EXEMPTION_PACKET_TYPE enumeration defines the types of packet exemptions.
 old-location: netvista\wdi_exemption_packet_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_EXEMPTION_PACKET_TYPE
+- WDI_EXEMPTION_PACKET_TYPE
 product:
 - Windows
 targetos: Windows

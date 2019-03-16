@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO
-title: DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO
+title: DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO (d3dkmddi.h)
 description: The pfnAcquireNextModeInfo function returns a descriptor of the next mode in a specified monitor source mode set, given the current mode.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirenextmodeinfo.htm
 ms.assetid: 55c629c5-1d73-40dd-a5aa-73ddcc5236b5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireNextModeInfo
+- pfnAcquireNextModeInfo
 product:
 - Windows
 targetos: Windows

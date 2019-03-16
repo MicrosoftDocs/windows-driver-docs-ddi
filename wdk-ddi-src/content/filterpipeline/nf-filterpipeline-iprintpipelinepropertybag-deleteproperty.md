@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.DeleteProperty
-title: IPrintPipelinePropertyBag::DeleteProperty
+title: IPrintPipelinePropertyBag::DeleteProperty (filterpipeline.h)
 description: The DeleteProperty method deletes a property from a property bag.
 old-location: print\iprintpipelinepropertybag_deleteproperty.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelinePropertyBag.DeleteProperty
+- IPrintPipelinePropertyBag.DeleteProperty
 product:
 - Windows
 targetos: Windows

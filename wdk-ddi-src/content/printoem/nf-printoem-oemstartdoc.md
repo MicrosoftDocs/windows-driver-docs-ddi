@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMStartDoc
-title: OEMStartDoc function
+title: OEMStartDoc function (printoem.h)
 description: The OEMStartDoc function is called by GDI when it is ready to start sending a document to the driver for rendering.
 old-location: print\oemstartdoc.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMStartDoc
+- OEMStartDoc
 product:
 - Windows
 targetos: Windows

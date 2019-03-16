@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT
-title: PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT
+title: PFND3D11DDI_RECYCLECREATEDEFERREDCONTEXT (d3d10umddi.h)
 description: The RecycleCreateDeferredContext function clears out the pipeline state for a deferred context.
 old-location: display\recyclecreatedeferredcontext.htm
 ms.assetid: c9e08048-683a-4f43-b3b8-1914c2933a5c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	RecycleCreateDeferredContext
+- RecycleCreateDeferredContext
 product:
 - Windows
 targetos: Windows

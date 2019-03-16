@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_FILEOPEN
-title: EVT_SERCX_FILEOPEN
+title: EVT_SERCX_FILEOPEN (sercx.h)
 description: The EvtSerCxFileOpen event callback function notifies the serial controller driver that a client opened a file handle on the serial controller device and that a file object has been created to represent the device.
 old-location: serports\evtsercxfileopen.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	EvtSerCxFileOpen
+- EvtSerCxFileOpen
 product:
 - Windows
 targetos: Windows

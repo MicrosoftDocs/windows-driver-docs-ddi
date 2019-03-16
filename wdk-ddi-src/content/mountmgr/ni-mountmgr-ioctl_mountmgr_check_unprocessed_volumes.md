@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
-title: IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
+title: IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES (mountmgr.h)
 description: When a volume arrives in the system, it registers for the MOUNTDEV_MOUNTED_DEVICE_GUID interface class and the mount manager receives a Plug and Play notification (see Mount Manager I/O Control Codes for a discussion of this process).
 old-location: storage\ioctl_mountmgr_check_unprocessed_volumes.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountmgr.h
+- Mountmgr.h
 api_name:
--	IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
+- IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
 product:
 - Windows
 targetos: Windows

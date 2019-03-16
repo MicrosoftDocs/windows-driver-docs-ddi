@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetBool
-title: PropKeyFindKeyGetBool function
+title: PropKeyFindKeyGetBool function (sensorsutils.h)
 description: This routine gets a BOOL value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 6d6c1849-555f-4c33-bc26-723006584ed5
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetBool
+- PropKeyFindKeyGetBool
 product:
   - Windows
 targetos: Windows

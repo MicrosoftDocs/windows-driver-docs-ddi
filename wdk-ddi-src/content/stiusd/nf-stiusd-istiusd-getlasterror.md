@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetLastError
-title: IStiUSD::GetLastError
+title: IStiUSD::GetLastError (stiusd.h)
 description: The IStiUSD::GetLastError method returns the last known error associated with a still image device.
 old-location: image\istiusd_getlasterror.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.GetLastError
+- IStiUSD.GetLastError
 product:
 - Windows
 targetos: Windows

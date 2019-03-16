@@ -1,6 +1,6 @@
 ---
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_IN
-title: _TPM_INVOKE_GENERIC_IN
+title: _TPM_INVOKE_GENERIC_IN (treetpmservice.h)
 description: 
 ms.assetid: 7c474d05-45db-4467-864d-013e41610b63
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TPM_INVOKE_GENERIC_IN, *PTPM_INVOKE_GENERIC_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treetpmservice.h
+- treetpmservice.h
 api_name: 
--	_TPM_INVOKE_GENERIC_IN
+- _TPM_INVOKE_GENERIC_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

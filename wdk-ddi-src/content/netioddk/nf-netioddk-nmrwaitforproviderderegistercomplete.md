@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrWaitForProviderDeregisterComplete
-title: NmrWaitForProviderDeregisterComplete function
+title: NmrWaitForProviderDeregisterComplete function (netioddk.h)
 description: The NmrWaitForProviderDeregisterComplete function waits for the deregistration of a provider module to complete.
 old-location: netvista\nmrwaitforproviderderegistercomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	netio.lib
--	netio.dll
+- netio.lib
+- netio.dll
 api_name:
--	NmrWaitForProviderDeregisterComplete
+- NmrWaitForProviderDeregisterComplete
 product:
 - Windows
 targetos: Windows

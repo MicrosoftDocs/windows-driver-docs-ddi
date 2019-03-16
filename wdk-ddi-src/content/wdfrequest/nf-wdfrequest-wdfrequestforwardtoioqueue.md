@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestForwardToIoQueue
-title: WdfRequestForwardToIoQueue function
+title: WdfRequestForwardToIoQueue function (wdfrequest.h)
 description: The WdfRequestForwardToIoQueue method requeues an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\wdfrequestforwardtoioqueue.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestForwardToIoQueue
+- WdfRequestForwardToIoQueue
 product:
 - Windows
 targetos: Windows

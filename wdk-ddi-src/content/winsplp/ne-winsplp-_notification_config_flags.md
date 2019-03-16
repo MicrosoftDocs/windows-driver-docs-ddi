@@ -1,6 +1,6 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CONFIG_FLAGS
-title: "_NOTIFICATION_CONFIG_FLAGS"
+title: _NOTIFICATION_CONFIG_FLAGS (winsplp.h)
 description: 
 old-location: print\notification_config_flags.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	NOTIFICATION_CONFIG_FLAGS
+- NOTIFICATION_CONFIG_FLAGS
 product:
 - Windows
 targetos: Windows

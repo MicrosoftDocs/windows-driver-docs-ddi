@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WdfUsbTargetDeviceSelectSettingType
-title: "_WdfUsbTargetDeviceSelectSettingType"
+title: _WdfUsbTargetDeviceSelectSettingType (wdfusb.h)
 description: The WdfUsbTargetDeviceSelectSettingType enumeration defines techniques for specifying an alternate setting for a USB interface.
 old-location: wdf\wdfusbtargetdeviceselectsettingtype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WdfUsbTargetDeviceSelectSettingType
+- WdfUsbTargetDeviceSelectSettingType
 product:
 - Windows
 targetos: Windows

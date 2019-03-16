@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Eval
-title: IWDTFTargets2::Eval
+title: IWDTFTargets2::Eval (wdtf.h)
 description: Evaluates whether all items in the collection match an SDEL statement.
 old-location: dtf\iwdtftargets2_eval.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Eval
+- IWDTFTargets2.Eval
 product:
 - Windows
 targetos: Windows

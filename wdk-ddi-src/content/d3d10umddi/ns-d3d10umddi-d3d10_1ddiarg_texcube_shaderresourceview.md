@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
-title: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
+title: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures that are used to create a shader resource view in a call to the CreateShaderResourceView(D3D10_1) function.
 old-location: display\d3d10_1ddiarg_texcube_shaderresourceview.htm
 ms.assetid: 89d0b6fa-b990-43a9-a943-76d270b507cc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
+- D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 product:
 - Windows
 targetos: Windows

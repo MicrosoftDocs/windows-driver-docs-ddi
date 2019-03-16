@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SEND_CERTIFICATE
-title: "_AACS_SEND_CERTIFICATE"
+title: _AACS_SEND_CERTIFICATE (ntddcdvd.h)
 description: The AACS_SEND_CERTIFICATE structure is a wrapper for both an Advanced Access Content System (AACS) certificate and an Authentication Grant Identifier (AGID).
 old-location: storage\aacs_send_certificate.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_SEND_CERTIFICATE
+- AACS_SEND_CERTIFICATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusicks.IPortDMus
-title: IPortDMus
+title: IPortDMus (dmusicks.h)
 description: The IPortDMus interface is the DMus port driver's primary interface.
 old-location: audio\iportdmus.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IPortDMus
+- IPortDMus
 product:
 - Windows
 targetos: Windows

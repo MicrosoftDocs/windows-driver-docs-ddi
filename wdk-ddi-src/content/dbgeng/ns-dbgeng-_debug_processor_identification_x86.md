@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_X86
-title: "_DEBUG_PROCESSOR_IDENTIFICATION_X86"
+title: _DEBUG_PROCESSOR_IDENTIFICATION_X86 (dbgeng.h)
 description: Identifies an x86 processor.
 old-location: debugger\debug_processor_identification_x86.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_PROCESSOR_IDENTIFICATION_X86
+- DEBUG_PROCESSOR_IDENTIFICATION_X86
 product:
 - Windows
 targetos: Windows

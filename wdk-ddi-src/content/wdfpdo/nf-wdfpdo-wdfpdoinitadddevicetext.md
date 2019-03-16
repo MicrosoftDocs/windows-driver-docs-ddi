@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAddDeviceText
-title: WdfPdoInitAddDeviceText function
+title: WdfPdoInitAddDeviceText function (wdfpdo.h)
 description: The WdfPdoInitAddDeviceText method adds a device description and device location to a device, for a specified locale.
 old-location: wdf\wdfpdoinitadddevicetext.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoInitAddDeviceText
+- WdfPdoInitAddDeviceText
 product:
 - Windows
 targetos: Windows

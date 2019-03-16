@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._CODING_FORMAT
-title: "_CODING_FORMAT"
+title: _CODING_FORMAT (bthddi.h)
 description: This enumeration is for internal use only.
 old-location: bltooth\coding_format.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	CODING_FORMAT
+- CODING_FORMAT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESCRIBEALLOCATION
-title: "_DXGKARG_DESCRIBEALLOCATION"
+title: _DXGKARG_DESCRIBEALLOCATION (d3dkmddi.h)
 description: The DXGKARG_DESCRIBEALLOCATION structure describes an existing allocation.
 old-location: display\dxgkarg_describeallocation.htm
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_DESCRIBEALLOCATION
+- DXGKARG_DESCRIBEALLOCATION
 product:
 - Windows
 targetos: Windows

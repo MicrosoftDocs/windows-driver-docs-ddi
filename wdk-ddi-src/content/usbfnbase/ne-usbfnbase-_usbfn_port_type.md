@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_PORT_TYPE
-title: "_USBFN_PORT_TYPE"
+title: _USBFN_PORT_TYPE (usbfnbase.h)
 description: Defines the possible port types that can be returned by the client driver during port detection.
 old-location: buses\usbfn_port_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_PORT_TYPE
+- USBFN_PORT_TYPE
 product:
 - Windows
 targetos: Windows

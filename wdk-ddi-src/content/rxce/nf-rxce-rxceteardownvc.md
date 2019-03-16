@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownVC
-title: RxCeTearDownVC function
+title: RxCeTearDownVC function (rxce.h)
 description: RxCeTearDownVC deregisters a virtual circuit from a specified RDBSS connection.
 old-location: ifsk\rxceteardownvc.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeTearDownVC
+- RxCeTearDownVC
 product:
 - Windows
 targetos: Windows

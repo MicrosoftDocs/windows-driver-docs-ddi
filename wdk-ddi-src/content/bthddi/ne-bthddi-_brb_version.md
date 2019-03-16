@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._BRB_VERSION
-title: "_BRB_VERSION"
+title: _BRB_VERSION (bthddi.h)
 description: Reserved for internal use.
 old-location: bltooth\brb_version.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	BRB_VERSION
+- BRB_VERSION
 product:
 - Windows
 targetos: Windows

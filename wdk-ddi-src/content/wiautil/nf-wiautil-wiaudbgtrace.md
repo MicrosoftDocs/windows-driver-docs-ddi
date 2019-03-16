@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgTrace
-title: wiauDbgTrace function
+title: wiauDbgTrace function (wiautil.h)
 description: The wiauDbgTrace function logs a trace message.
 old-location: image\wiaudbgtrace.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgTrace
+- wiauDbgTrace
 product:
 - Windows
 targetos: Windows

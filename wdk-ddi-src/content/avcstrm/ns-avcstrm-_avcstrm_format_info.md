@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_FORMAT_INFO
-title: "_AVCSTRM_FORMAT_INFO"
+title: _AVCSTRM_FORMAT_INFO (avcstrm.h)
 description: The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
 old-location: stream\avcstrm_format_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVCSTRM_FORMAT_INFO
+- AVCSTRM_FORMAT_INFO
 product:
 - Windows
 targetos: Windows

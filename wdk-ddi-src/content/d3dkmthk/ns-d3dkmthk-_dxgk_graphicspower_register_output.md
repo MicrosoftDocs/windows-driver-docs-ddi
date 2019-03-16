@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
-title: "_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT"
+title: _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT (d3dkmthk.h)
 description: A structure containing output data used to manage shared power components.
 old-location: display\dxgk_graphicspower_register_output.htm
 ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
+- DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateVolumeInformation
-title: FltEnumerateVolumeInformation function
+title: FltEnumerateVolumeInformation function (fltkernel.h)
 description: The FltEnumerateVolumeInformation routine provides information about volumes that are known to the filter manager.
 old-location: ifsk\fltenumeratevolumeinformation.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltEnumerateVolumeInformation
+- FltEnumerateVolumeInformation
 product:
 - Windows
 targetos: Windows

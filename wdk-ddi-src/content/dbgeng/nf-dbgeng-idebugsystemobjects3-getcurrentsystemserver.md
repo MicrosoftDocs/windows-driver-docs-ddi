@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentSystemServer
-title: IDebugSystemObjects3::GetCurrentSystemServer
+title: IDebugSystemObjects3::GetCurrentSystemServer (dbgeng.h)
 description: Gets the server for the current process.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemserver.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetCurrentSystemServer
+- IDebugSystemObjects3.GetCurrentSystemServer
 product:
 - Windows
 targetos: Windows

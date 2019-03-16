@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldNameWide
-title: IDebugSymbols3::GetFieldNameWide
+title: IDebugSymbols3::GetFieldNameWide (dbgeng.h)
 description: The GetFieldNameWide method returns the name of a field within a structure.
 old-location: debugger\getfieldnamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetFieldNameWide
+- IDebugSymbols3.GetFieldNameWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_PIPE_INFORMATION
-title: "_WDF_USB_PIPE_INFORMATION"
+title: _WDF_USB_PIPE_INFORMATION (wdfusb.h)
 description: The WDF_USB_PIPE_INFORMATION structure contains information about a USB pipe and its endpoint.
 old-location: wdf\wdf_usb_pipe_information.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_PIPE_INFORMATION
+- WDF_USB_PIPE_INFORMATION
 product:
 - Windows
 targetos: Windows

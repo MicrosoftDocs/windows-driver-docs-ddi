@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetSystemGroupAffinityThread
-title: KeSetSystemGroupAffinityThread function
+title: KeSetSystemGroupAffinityThread function (wdm.h)
 description: The KeSetSystemGroupAffinityThread routine changes the group number and affinity mask of the calling thread.
 old-location: kernel\kesetsystemgroupaffinitythread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)."
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetSystemGroupAffinityThread
+- KeSetSystemGroupAffinityThread
 product:
 - Windows
 targetos: Windows

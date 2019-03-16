@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_EVAL_METHOD
-title: IOCTL_ACPI_EVAL_METHOD
+title: IOCTL_ACPI_EVAL_METHOD (acpiioct.h)
 description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request to synchronously evaluate an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_eval_method.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_EVAL_METHOD
+- IOCTL_ACPI_EVAL_METHOD
 product:
 - Windows
 targetos: Windows

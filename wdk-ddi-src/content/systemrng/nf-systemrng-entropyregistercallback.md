@@ -1,6 +1,6 @@
 ---
 UID: NF:systemrng.EntropyRegisterCallback
-title: EntropyRegisterCallback function
+title: EntropyRegisterCallback function (systemrng.h)
 description: 
 ms.assetid: 3bb67a7b-ea22-4df5-8008-469786d3ef82
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyRegisterCallback
+- EntropyRegisterCallback
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

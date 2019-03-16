@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COLLECTDBGINFO_EXT
-title: "_DXGKARG_COLLECTDBGINFO_EXT"
+title: _DXGKARG_COLLECTDBGINFO_EXT (d3dkmddi.h)
 description: The DXGKARG_COLLECTDBGINFO_EXT structure describes extension information for a debug report.
 old-location: display\dxgkarg_collectdbginfo_ext.htm
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_COLLECTDBGINFO_EXT
+- DXGKARG_COLLECTDBGINFO_EXT
 product:
 - Windows
 targetos: Windows

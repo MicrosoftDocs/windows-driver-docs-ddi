@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEGVIDEOINFO2
-title: tagKS_MPEGVIDEOINFO2
+title: tagKS_MPEGVIDEOINFO2 (ksmedia.h)
 description: The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
 old-location: stream\ks_mpegvideoinfo2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_MPEGVIDEOINFO2
+- KS_MPEGVIDEOINFO2
 product:
 - Windows
 targetos: Windows

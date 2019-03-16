@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFindExtraCreateParameter
-title: FltFindExtraCreateParameter function
+title: FltFindExtraCreateParameter function (fltkernel.h)
 description: The FltFindExtraCreateParameter routine searches a given ECP list for an ECP context structure of a given type and returns a pointer to this structure if it is found.
 old-location: ifsk\fltfindextracreateparameter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltFindExtraCreateParameter
+- FltFindExtraCreateParameter
 product:
 - Windows
 targetos: Windows

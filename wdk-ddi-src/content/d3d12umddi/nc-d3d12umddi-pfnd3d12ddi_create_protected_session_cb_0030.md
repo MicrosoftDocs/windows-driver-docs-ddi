@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
-title: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
+title: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 (d3d12umddi.h)
 description: Used to create a protected session state.
 old-location: display\pfnd3d12ddi_create_protected_session_cb_0030.htm
 ms.assetid: 64E38759-2863-4481-8A89-6E6263CEFE8B
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
+- PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 product:
 - Windows
 targetos: Windows

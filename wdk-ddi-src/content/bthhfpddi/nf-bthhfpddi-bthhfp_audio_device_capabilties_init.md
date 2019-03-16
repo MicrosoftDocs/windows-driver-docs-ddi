@@ -1,6 +1,6 @@
 ---
 UID: NF:bthhfpddi.BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
-title: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
+title: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function (bthhfpddi.h)
 description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method returns a pointer to an initialized BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure.
 old-location: audio\bthhfp_audio_device_capabilties_init.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthhfpddi.h
+- bthhfpddi.h
 api_name:
--	BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
+- BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 product:
 - Windows
 targetos: Windows

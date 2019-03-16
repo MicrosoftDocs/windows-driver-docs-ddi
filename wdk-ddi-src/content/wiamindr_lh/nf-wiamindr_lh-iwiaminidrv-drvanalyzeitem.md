@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvAnalyzeItem
-title: IWiaMiniDrv::drvAnalyzeItem
+title: IWiaMiniDrv::drvAnalyzeItem (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvAnalyzeItem method inspects an item, and creates subitems, if necessary.
 old-location: image\iwiaminidrv_drvanalyzeitem.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvAnalyzeItem
+- IWiaMiniDrv.drvAnalyzeItem
 product:
 - Windows
 targetos: Windows

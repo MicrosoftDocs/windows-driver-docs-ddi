@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFreeCloneNetBufferList0
-title: FwpsFreeCloneNetBufferList0 function
+title: FwpsFreeCloneNetBufferList0 function (fwpsk.h)
 description: The FwpsFreeCloneNetBufferList0 function frees a clone NET_BUFFER_LIST structure that was previously allocated by a call to the FwpsAllocateCloneNetBufferList0 function.Note  FwpsFreeCloneNetBufferList0 is a specific version of FwpsFreeCloneNetBufferList. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsfreeclonenetbufferlist0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsFreeCloneNetBufferList0
+- FwpsFreeCloneNetBufferList0
 product:
 - Windows
 targetos: Windows

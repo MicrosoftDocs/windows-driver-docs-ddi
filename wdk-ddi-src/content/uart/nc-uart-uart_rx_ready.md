@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_RX_READY
-title: UART_RX_READY
+title: UART_RX_READY (uart.h)
 description: Determines whether there is data pending in the UART hardware.
 tech.root: serports
 ms.assetid: c0c52445-f45a-4032-9fee-af6206d77809
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_RX_READY
+- UART_RX_READY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

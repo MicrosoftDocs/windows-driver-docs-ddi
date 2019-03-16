@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoAssignArcName
-title: IoAssignArcName macro
+title: IoAssignArcName macro (ntddk.h)
 description: The IoAssignArcName routine creates a symbolic link between the ARC name of a physical device and the name of the corresponding device object when it has been created.
 old-location: kernel\ioassignarcname.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAssignArcName
+- IoAssignArcName
 product:
 - Windows
 targetos: Windows

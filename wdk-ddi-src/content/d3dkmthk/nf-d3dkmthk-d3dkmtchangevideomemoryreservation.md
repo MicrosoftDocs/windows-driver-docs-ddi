@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTChangeVideoMemoryReservation
-title: D3DKMTChangeVideoMemoryReservation function
+title: D3DKMTChangeVideoMemoryReservation function (d3dkmthk.h)
 description: Changes video memory reservation.
 ms.assetid: 973e9070-c41d-40a4-a24d-13af3976baa9
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTChangeVideoMemoryReservation
+- D3DKMTChangeVideoMemoryReservation
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

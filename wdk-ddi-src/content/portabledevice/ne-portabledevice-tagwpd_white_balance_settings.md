@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_WHITE_BALANCE_SETTINGS
-title: tagWPD_WHITE_BALANCE_SETTINGS
+title: WPD_WHITE_BALANCE_SETTINGS (portabledevice.h)
 description: The WPD_WHITE_BALANCE_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
 old-location: wpddk\wpd_white_balance_settings.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_WHITE_BALANCE_SETTINGS
+- WPD_WHITE_BALANCE_SETTINGS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_WHITE_BALANCE_SETTINGS
 ms.custom: RS5
@@ -65,7 +65,7 @@ This value has not been defined.
 
 ### -field WPD_WHITE_BALANCE_MANUAL
 
-The white balance is set explicitly by using the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_RGB_GAIN</a> property and will not change by itself.
+The white balance is set explicitly by using the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_RGB_GAIN</a> property and will not change by itself.
 
 
 ### -field WPD_WHITE_BALANCE_AUTOMATIC
@@ -100,7 +100,7 @@ The device will use white balance numbers appropriate for use with a flash.
 
 
 
-This enumeration is used by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_WHITE_BALANCE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_WHITE_BALANCE</a> property.
 
 
 

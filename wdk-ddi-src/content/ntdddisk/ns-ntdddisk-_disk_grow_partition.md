@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GROW_PARTITION
-title: "_DISK_GROW_PARTITION"
+title: _DISK_GROW_PARTITION (ntdddisk.h)
 description: The DISK_GROW_PARTITION structure is used in conjunction with the IOCTL_DISK_GROW_PARTITION request to enlarge a partition.
 old-location: storage\disk_grow_partition.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_GROW_PARTITION
+- DISK_GROW_PARTITION
 product:
 - Windows
 targetos: Windows

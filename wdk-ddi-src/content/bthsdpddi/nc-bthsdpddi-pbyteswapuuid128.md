@@ -1,6 +1,6 @@
 ---
 UID: NC:bthsdpddi.PBYTESWAPUUID128
-title: PBYTESWAPUUID128
+title: PBYTESWAPUUID128 (bthsdpddi.h)
 description: The Bluetooth SdpByteSwapUuid128 function is used to reverse the byte order of a 128-bit universally unique identifier (UUID).
 old-location: bltooth\sdpbyteswapuuid128.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpByteSwapUuid128
+- SdpByteSwapUuid128
 product:
 - Windows
 targetos: Windows

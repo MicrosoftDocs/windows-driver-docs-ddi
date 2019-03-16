@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.DrvWriteSpoolBuf
-title: IPrintCorePS2::DrvWriteSpoolBuf
+title: IPrintCorePS2::DrvWriteSpoolBuf (prcomoem.h)
 description: The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintcoreps2_drvwritespoolbuf.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCorePS2.DrvWriteSpoolBuf
+- IPrintCorePS2.DrvWriteSpoolBuf
 product:
 - Windows
 targetos: Windows

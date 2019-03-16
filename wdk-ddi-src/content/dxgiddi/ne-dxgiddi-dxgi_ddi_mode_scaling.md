@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MODE_SCALING
-title: DXGI_DDI_MODE_SCALING
+title: DXGI_DDI_MODE_SCALING (dxgiddi.h)
 description: The DXGI_DDI_MODE_SCALING enumeration type contains values that identify the scaling support for a display.
 old-location: display\dxgi_ddi_mode_scaling.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_MODE_SCALING
+- DXGI_DDI_MODE_SCALING
 product:
 - Windows
 targetos: Windows

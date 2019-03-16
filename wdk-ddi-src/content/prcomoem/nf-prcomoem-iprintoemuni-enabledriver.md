@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.EnableDriver
-title: IPrintOemUni::EnableDriver
+title: IPrintOemUni::EnableDriver (prcomoem.h)
 description: The IPrintOemUni::EnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.
 old-location: print\iprintoemuni_enabledriver.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUni.EnableDriver
+- IPrintOemUni.EnableDriver
 product:
 - Windows
 targetos: Windows

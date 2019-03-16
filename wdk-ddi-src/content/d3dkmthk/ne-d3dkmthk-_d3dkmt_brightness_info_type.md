@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_BRIGHTNESS_INFO_TYPE
-title: "_D3DKMT_BRIGHTNESS_INFO_TYPE"
+title: _D3DKMT_BRIGHTNESS_INFO_TYPE (d3dkmthk.h)
 description: Indicates the type of information to retrieve or set for the brightness of an integrated display panel.
 old-location: display\d3dkmt_brightness_info_type.htm
 ms.assetid: 0f37ac57-9f3b-4bbc-a927-ea85aa44f910
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_BRIGHTNESS_INFO_TYPE
+- D3DKMT_BRIGHTNESS_INFO_TYPE
 product:
 - Windows
 targetos: Windows

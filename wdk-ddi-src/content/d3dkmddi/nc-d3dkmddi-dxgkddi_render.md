@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RENDER
-title: DXGKDDI_RENDER
+title: DXGKDDI_RENDER (d3dkmddi.h)
 description: The DxgkDdiRender function generates a direct memory access (DMA) buffer from the command buffer that the user-mode display driver passed.
 old-location: display\dxgkddirender.htm
 ms.assetid: fd634768-5e1e-4f40-82fd-5ef69148c3d7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiRender
+- DxgkDdiRender
 product:
 - Windows
 targetos: Windows

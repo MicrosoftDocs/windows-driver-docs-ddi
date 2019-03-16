@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ESCAPETYPE
-title: _D3DKMT_ESCAPETYPE
+title: _D3DKMT_ESCAPETYPE (d3dkmthk.h)
 description: Do not use the D3DKMT_VIDMMESCAPETYPE enumeration; it is for testing purposes only.
 ms.assetid: 6660c74f-4bdb-4c8a-920a-2b67ac3495f7
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_ESCAPETYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_ESCAPETYPE
+- _D3DKMT_ESCAPETYPE
 product: 
 - Windows
 targetos: Windows

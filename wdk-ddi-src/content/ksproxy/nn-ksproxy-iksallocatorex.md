@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsAllocatorEx
-title: IKsAllocatorEx
+title: IKsAllocatorEx (ksproxy.h)
 description: The IKsAllocatorEx interface is for proxy use and not recommended for application use. IKsAllocatorEx inherits all the methods of the IKsAllocator interface and extends IKsAllocator to provide methods that further control and query an allocator.
 old-location: stream\iksallocatorex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsAllocatorEx
+- IKsAllocatorEx
 product:
 - Windows
 targetos: Windows

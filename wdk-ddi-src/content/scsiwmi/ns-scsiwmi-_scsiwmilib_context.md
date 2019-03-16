@@ -1,6 +1,6 @@
 ---
 UID: NS:scsiwmi._SCSIWMILIB_CONTEXT
-title: "_SCSIWMILIB_CONTEXT"
+title: _SCSIWMILIB_CONTEXT (scsiwmi.h)
 description: A SCSI_WMILIB_CONTEXT structure provides registration information for a miniport driver's data and event blocks and defines entry points for the miniport driver's HwScsiWmiXxx callback routines.
 old-location: storage\scsi_wmilib_context.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	SCSI_WMILIB_CONTEXT
+- SCSI_WMILIB_CONTEXT
 product:
 - Windows
 targetos: Windows

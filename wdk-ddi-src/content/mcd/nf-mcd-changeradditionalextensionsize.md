@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerAdditionalExtensionSize
-title: ChangerAdditionalExtensionSize function
+title: ChangerAdditionalExtensionSize function (mcd.h)
 description: ChangerAdditionalExtensionSize indicates the number of bytes the changer miniclass driver requires to store device-specific information in the device extension.
 old-location: storage\changeradditionalextensionsize.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerAdditionalExtensionSize
+- ChangerAdditionalExtensionSize
 product:
 - Windows
 targetos: Windows

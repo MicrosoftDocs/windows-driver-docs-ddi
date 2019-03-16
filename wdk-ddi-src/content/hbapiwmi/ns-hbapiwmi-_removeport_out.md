@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePort_OUT
-title: "_RemovePort_OUT"
+title: _RemovePort_OUT (hbapiwmi.h)
 description: The RemovePort_OUT structure is used by an HBA miniport driver to the output parameter data of the RemovePort WMI method to the WMI client.
 old-location: storage\removeport_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	RemovePort_OUT
+- RemovePort_OUT
 product:
 - Windows
 targetos: Windows

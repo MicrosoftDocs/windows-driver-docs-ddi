@@ -1,6 +1,6 @@
 ---
 UID: NS:wlclient._DOT11_PORT_STATE
-title: "_DOT11_PORT_STATE"
+title: _DOT11_PORT_STATE (wlclient.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_port_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlclient.h
+- wlclient.h
 api_name:
--	DOT11_PORT_STATE
+- DOT11_PORT_STATE
 product:
 - Windows
 targetos: Windows

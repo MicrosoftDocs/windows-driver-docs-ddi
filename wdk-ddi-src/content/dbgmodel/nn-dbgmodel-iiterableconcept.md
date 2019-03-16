@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IIterableConcept
-title: IIterableConcept
+title: IIterableConcept (dbgmodel.h)
 description: The object is a container and can be iterated.
 ms.assetid: 35f78cad-3070-40af-aa8e-f7556609d019
 ms.date: 07/16/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IIterableConcept
-product: Windows
+- IIterableConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

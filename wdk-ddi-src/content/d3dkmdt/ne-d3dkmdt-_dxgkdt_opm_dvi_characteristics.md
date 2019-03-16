@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKDT_OPM_DVI_CHARACTERISTICS
-title: "_DXGKDT_OPM_DVI_CHARACTERISTICS"
+title: _DXGKDT_OPM_DVI_CHARACTERISTICS (d3dkmdt.h)
 description: The DXGKDT_OPM_DVI_CHARACTERISTICS enumeration indicates the Digital Video Interface (DVI) electrical characteristics of a connector.
 old-location: display\dxgkdt_opm_dvi_characteristics.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKDT_OPM_DVI_CHARACTERISTICS
+- DXGKDT_OPM_DVI_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

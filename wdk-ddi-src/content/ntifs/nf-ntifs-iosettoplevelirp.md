@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoSetTopLevelIrp
-title: IoSetTopLevelIrp function
+title: IoSetTopLevelIrp function (ntifs.h)
 description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetTopLevelIrp
+- IoSetTopLevelIrp
 product:
 - Windows
 targetos: Windows

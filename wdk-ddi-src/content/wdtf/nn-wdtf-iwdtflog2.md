@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFLOG2
-title: IWDTFLOG2
+title: IWDTFLOG2 (wdtf.h)
 description: Defines operations that enable the test case author to add to the WDTF test log.
 old-location: dtf\iwdtflog2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLOG2
+- IWDTFLOG2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_RANDOM_NUMBER
-title: DXGKDDI_OPM_GET_RANDOM_NUMBER
+title: DXGKDDI_OPM_GET_RANDOM_NUMBER (dispmprt.h)
 description: The DxgkDdiOPMGetRandomNumber function retrieves the given protected output object's 128-bit cryptographically secure random number.
 old-location: display\dxgkddiopmgetrandomnumber.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMGetRandomNumber
+- DxgkDdiOPMGetRandomNumber
 product:
 - Windows
 targetos: Windows

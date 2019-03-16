@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMESSAGESTORAGEFULL
-title: RILMESSAGESTORAGEFULL
+title: RILMESSAGESTORAGEFULL (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmessagestoragefull.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILMESSAGESTORAGEFULL
+- RILMESSAGESTORAGEFULL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFIndicateReceiveNetBufferLists
-title: NdisFIndicateReceiveNetBufferLists function
+title: NdisFIndicateReceiveNetBufferLists function (ndis.h)
 description: A filter driver calls NdisFIndicateReceiveNetBufferLists to indicate that it has received network data. For more information, see Receiving Data in a Filter Driver.
 old-location: netvista\ndisfindicatereceivenetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFIndicateReceiveNetBufferLists
+- NdisFIndicateReceiveNetBufferLists
 product:
 - Windows
 targetos: Windows

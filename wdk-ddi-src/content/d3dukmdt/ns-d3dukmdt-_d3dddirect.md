@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIRECT
-title: "_D3DDDIRECT"
+title: _D3DDDIRECT (d3dukmdt.h)
 description: The D3DDDIRECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\d3dddirect.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDIRECT
+- D3DDDIRECT
 product:
 - Windows
 targetos: Windows

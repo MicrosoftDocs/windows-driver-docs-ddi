@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_FORMAT_TRACKS_EX
-title: IOCTL_DISK_FORMAT_TRACKS_EX
+title: IOCTL_DISK_FORMAT_TRACKS_EX (ntdddisk.h)
 description: Is similar to IOCTL_DISK_FORMAT_TRACKS, except that it allows the caller to specify several more parameters.
 old-location: storage\ioctl_disk_format_tracks_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_FORMAT_TRACKS_EX
+- IOCTL_DISK_FORMAT_TRACKS_EX
 product:
 - Windows
 targetos: Windows

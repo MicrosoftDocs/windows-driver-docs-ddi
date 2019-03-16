@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_GET_BANK_SELECT_CODE
-title: IOCTL_VIDEO_GET_BANK_SELECT_CODE
+title: IOCTL_VIDEO_GET_BANK_SELECT_CODE (ntddvdeo.h)
 description: Returns a block of x86-specific executable code to be used by a high-resolution SVGA display driver for bank switching. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_get_bank_select_code.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_GET_BANK_SELECT_CODE
+- IOCTL_VIDEO_GET_BANK_SELECT_CODE
 product:
 - Windows
 targetos: Windows

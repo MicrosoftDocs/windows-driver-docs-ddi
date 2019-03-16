@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_76
-title: KSOBJECT_CREATE_ITEM
+title: KSOBJECT_CREATE_ITEM (ks.h)
 description: The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
 old-location: stream\ksobject_create_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSOBJECT_CREATE_ITEM
+- KSOBJECT_CREATE_ITEM
 product:
 - Windows
 targetos: Windows

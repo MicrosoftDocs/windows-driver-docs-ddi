@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUlong64
-title: StorPortReadRegisterBufferUlong64 macro
+title: StorPortReadRegisterBufferUlong64 macro (storport.h)
 description: This StorPortReadRegisterBufferUlong64 routine reads a number of ULONG64 values from the specified 64-bit register address into a buffer.
 old-location: storage\storportreadregisterbufferulong64.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortReadRegisterBufferUlong64
+- StorPortReadRegisterBufferUlong64
 product:
 - Windows
 targetos: Windows

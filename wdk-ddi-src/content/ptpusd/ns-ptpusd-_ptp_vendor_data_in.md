@@ -1,6 +1,6 @@
 ---
 UID: NS:ptpusd._PTP_VENDOR_DATA_IN
-title: "_PTP_VENDOR_DATA_IN"
+title: _PTP_VENDOR_DATA_IN (ptpusd.h)
 description: The PTP_VENDOR_DATA_IN structure contains information about an arbitrary command that an application issues to the device.
 old-location: image\ptp_vendor_data_in.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ptpusd.h
+- ptpusd.h
 api_name:
--	PTP_VENDOR_DATA_IN
+- PTP_VENDOR_DATA_IN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.FormatRequestForControlTransfer
-title: IWDFUsbTargetDevice::FormatRequestForControlTransfer
+title: IWDFUsbTargetDevice::FormatRequestForControlTransfer (wudfusb.h)
 description: The FormatRequestForControlTransfer method formats an I/O request object for a USB control transfer.
 old-location: wdf\iwdfusbtargetdevice_formatrequestforcontroltransfer.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.FormatRequestForControlTransfer
+- IWDFUsbTargetDevice.FormatRequestForControlTransfer
 product:
 - Windows
 targetos: Windows

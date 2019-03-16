@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_PEER_CFG
-title: "_WDI_TXRX_PEER_CFG"
+title: _WDI_TXRX_PEER_CFG (dot11wdi.h)
 description: The WDI_TXRX_PEER_CFG structure defines peer configuration.
 old-location: netvista\wdi_txrx_peer_cfg.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_TXRX_PEER_CFG
+- WDI_TXRX_PEER_CFG
 product:
 - Windows
 targetos: Windows

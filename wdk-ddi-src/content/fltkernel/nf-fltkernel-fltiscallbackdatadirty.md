@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsCallbackDataDirty
-title: FltIsCallbackDataDirty function
+title: FltIsCallbackDataDirty function (fltkernel.h)
 description: The FltIsCallbackDataDirty routine tests the FLTFL_CALLBACK_DATA_DIRTY flag in a callback data structure.
 old-location: ifsk\fltiscallbackdatadirty.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltIsCallbackDataDirty
+- FltIsCallbackDataDirty
 product:
 - Windows
 targetos: Windows

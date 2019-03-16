@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
-title: "_DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA"
+title: _DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA (d3dkmddi.h)
 description: The DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure describes a standard allocation type.
 old-location: display\dxgkarg_getstandardallocationdriverdata.htm
 ms.assetid: 4327ba59-bd74-4018-85d2-54a1693c62c1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
+- DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
 product:
 - Windows
 targetos: Windows

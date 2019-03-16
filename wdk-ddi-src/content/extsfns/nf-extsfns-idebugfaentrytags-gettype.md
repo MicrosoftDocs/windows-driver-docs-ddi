@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetType
-title: IDebugFAEntryTags::GetType
+title: IDebugFAEntryTags::GetType (extsfns.h)
 description: The GetType method gets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_gettype.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFAEntryTags.GetType
+- IDebugFAEntryTags.GetType
 product:
 - Windows
 targetos: Windows

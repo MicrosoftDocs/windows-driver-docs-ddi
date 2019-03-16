@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
-title: EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
+title: EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS (ucxcontroller.h)
 description: UCX invokes this callback to retrieve the host controller characteristics.
 old-location: buses\evt_ucx_controller_get_transport_characteristics.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	UcxController.h
+- UcxController.h
 api_name:
--	*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
+- *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

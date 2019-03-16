@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._STOR_ADDR_BTL8
-title: "_STOR_ADDR_BTL8"
+title: _STOR_ADDR_BTL8 (minitape.h)
 description: The STOR_ADDR_BTL8 address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
 old-location: storage\stor_addr_btl8.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_ADDR_BTL8
+- STOR_ADDR_BTL8
 product:
 - Windows
 targetos: Windows

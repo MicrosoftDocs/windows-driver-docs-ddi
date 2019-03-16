@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.StartOperation
-title: IPrintPipelineFilter::StartOperation
+title: IPrintPipelineFilter::StartOperation (filterpipeline.h)
 description: The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method.
 old-location: print\iprintpipelinefilter_startoperation.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPrintPipelineFilter.StartOperation
+- IPrintPipelineFilter.StartOperation
 product:
 - Windows
 targetos: Windows

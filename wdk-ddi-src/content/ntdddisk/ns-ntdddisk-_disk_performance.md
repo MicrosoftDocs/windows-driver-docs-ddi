@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_PERFORMANCE
-title: "_DISK_PERFORMANCE"
+title: _DISK_PERFORMANCE (ntdddisk.h)
 description: The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance.
 old-location: storage\disk_performance.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_PERFORMANCE
+- DISK_PERFORMANCE
 product:
 - Windows
 targetos: Windows

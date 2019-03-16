@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmEnableCallbacks
-title: TmEnableCallbacks function
+title: TmEnableCallbacks function (wdm.h)
 description: The TmEnableCallbacks routine enables a callback routine that receives transaction notifications.
 old-location: kernel\tmenablecallbacks.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmEnableCallbacks
+- TmEnableCallbacks
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_RESET_PORT
-title: MINIPORT_WDI_TAL_TXRX_RESET_PORT
+title: MINIPORT_WDI_TAL_TXRX_RESET_PORT (dot11wdi.h)
 description: The MiniportWdiTalTxRxResetPort handler function is invoked before a dot11 reset task is issued to the target.
 old-location: netvista\miniportwditaltxrxresetport.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTalTxRxResetPort
+- MiniportWdiTalTxRxResetPort
 product:
 - Windows
 targetos: Windows

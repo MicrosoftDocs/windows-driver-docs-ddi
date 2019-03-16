@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_CONTROL
-title: "_TOKEN_CONTROL"
+title: _TOKEN_CONTROL (ntifs.h)
 description: The TOKEN_CONTROL structure contains information that identifies an access token.
 old-location: ifsk\token_control.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_CONTROL
+- TOKEN_CONTROL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
+title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE (usbbusif.h)
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	QueryControllerType
+- QueryControllerType
 product:
 - Windows
 targetos: Windows

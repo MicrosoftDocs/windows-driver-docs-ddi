@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxusbdevice.UcxUsbDeviceRemoteWakeNotification
-title: UcxUsbDeviceRemoteWakeNotification function
+title: UcxUsbDeviceRemoteWakeNotification function (ucxusbdevice.h)
 description: Notifies UCX that a remote wake signal from the device is received.
 old-location: buses\_ucxusbdeviceremotewakenotification.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UcxUsbDeviceRemoteWakeNotification
+- UcxUsbDeviceRemoteWakeNotification
 product:
 - Windows
 targetos: Windows

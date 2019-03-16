@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SCALE_SUPPORT_0032
-title: D3D12DDI_VIDEO_SCALE_SUPPORT_0032
+title: D3D12DDI_VIDEO_SCALE_SUPPORT_0032 (d3d12umddi.h)
 description: Video scale support.
 old-location: display\d3d12ddi-video-scale-support-0032.htm
 ms.assetid: 630ee3fe-f97a-4e82-83d7-4efd05bc5d6e
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_SCALE_SUPPORT_0032
+- D3D12DDI_VIDEO_SCALE_SUPPORT_0032
 product:
 - Windows
 targetos: Windows

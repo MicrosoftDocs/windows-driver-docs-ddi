@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES
-title: tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES
+title: tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES (ksmedia.h)
 description: The KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure contains the property data for maximum frame rate at a particular resolution for a camera supporting preview and capture.
 old-location: stream\kscamera_maxvideofps_forphotores.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_MAXVIDEOFPS_FORPHOTORES
+- KSCAMERA_MAXVIDEOFPS_FORPHOTORES
 product:
 - Windows
 targetos: Windows

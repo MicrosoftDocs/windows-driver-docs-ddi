@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcGetFileObjectFromSectionPtrs
-title: CcGetFileObjectFromSectionPtrs function
+title: CcGetFileObjectFromSectionPtrs function (ntifs.h)
 description: Given a pointer to the section object pointers for a cached file, the CcGetFileObjectFromSectionPtrs routine returns a pointer to the file object that the cache manager is using for the file.
 old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcGetFileObjectFromSectionPtrs
+- CcGetFileObjectFromSectionPtrs
 product:
 - Windows
 targetos: Windows

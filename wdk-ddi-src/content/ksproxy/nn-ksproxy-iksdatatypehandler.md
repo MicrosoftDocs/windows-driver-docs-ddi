@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsDataTypeHandler
-title: IKsDataTypeHandler
+title: IKsDataTypeHandler (ksproxy.h)
 description: The IKsDataTypeHandler interface provides methods that perform optional preprocessing and postprocessing of media samples.
 old-location: stream\iksdatatypehandler.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsDataTypeHandler
+- IKsDataTypeHandler
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlZeroMemory
-title: RtlZeroMemory macro
+title: RtlZeroMemory macro (wdm.h)
 description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlZeroMemory
+- RtlZeroMemory
 product:
 - Windows
 targetos: Windows

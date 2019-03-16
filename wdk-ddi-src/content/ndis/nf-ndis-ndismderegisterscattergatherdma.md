@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMDeregisterScatterGatherDma
-title: NdisMDeregisterScatterGatherDma function
+title: NdisMDeregisterScatterGatherDma function (ndis.h)
 description: Bus-master miniport drivers call NdisMDeregisterScatterGatherDma to release DMA resources that were allocated with the NdisMRegisterScatterGatherDma function.
 old-location: netvista\ndismderegisterscattergatherdma.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMDeregisterScatterGatherDma
+- NdisMDeregisterScatterGatherDma
 product:
 - Windows
 targetos: Windows

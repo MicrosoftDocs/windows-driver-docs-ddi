@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_HCD_ENABLE_PORT
-title: IOCTL_USB_HCD_ENABLE_PORT
+title: IOCTL_USB_HCD_ENABLE_PORT (usbioctl.h)
 description: The IOCTL_USB_HCD_ENABLE_PORT IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_enable_port.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	IOCTL_USB_HCD_ENABLE_PORT
+- IOCTL_USB_HCD_ENABLE_PORT
 product:
 - Windows
 targetos: Windows

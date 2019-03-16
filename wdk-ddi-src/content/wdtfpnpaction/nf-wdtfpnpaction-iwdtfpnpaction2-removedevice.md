@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RemoveDevice
-title: IWDTFPNPAction2::RemoveDevice
+title: IWDTFPNPAction2::RemoveDevice (wdtfpnpaction.h)
 description: Removes the device.
 old-location: dtf\iwdtfpnpaction2_removedevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.RemoveDevice
+- IWDTFPNPAction2.RemoveDevice
 product:
 - Windows
 targetos: Windows

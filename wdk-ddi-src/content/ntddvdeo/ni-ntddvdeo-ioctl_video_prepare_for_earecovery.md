@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
-title: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
+title: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY (ntddvdeo.h)
 description: This IOCTL is for internal use only.
 old-location: display\ioctl_video_prepare_for_earecovery.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
+- IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAreBitsSet
-title: RtlAreBitsSet function
+title: RtlAreBitsSet function (wdm.h)
 description: The RtlAreBitsSet routine determines whether a given range of bits within a bitmap variable is set.
 old-location: kernel\rtlarebitsset.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAreBitsSet
+- RtlAreBitsSet
 product:
 - Windows
 targetos: Windows

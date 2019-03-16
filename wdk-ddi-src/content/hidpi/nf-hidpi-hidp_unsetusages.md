@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UnsetUsages
-title: HidP_UnsetUsages function
+title: HidP_UnsetUsages function (hidpi.h)
 description: The HidP_UnsetUsages routine sets specified HID control button usages OFF (zero) in a HID report.
 old-location: hid\hidp_unsetusages.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_UnsetUsages
+- HidP_UnsetUsages
 product:
 - Windows
 targetos: Windows

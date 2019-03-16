@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
-title: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function
+title: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT function (netadapter.h)
 description: The NET_ADAPTER_LINK_LAYER_ADDRESS_INIT method initializes a link layer address.
 tech.root: netvista
 ms.assetid: 13ba4c51-b878-4b22-9260-7bb423b1f77f
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_LAYER_ADDRESS_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

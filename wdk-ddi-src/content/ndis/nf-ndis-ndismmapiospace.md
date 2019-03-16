@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMMapIoSpace
-title: NdisMMapIoSpace function
+title: NdisMMapIoSpace function (ndis.h)
 description: NdisMMapIoSpace maps a given bus-relative &#0034;physical&#0034; range of device RAM or registers onto a system-space virtual range.
 old-location: netvista\ndismmapiospace.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMMapIoSpace
+- NdisMMapIoSpace
 product:
 - Windows
 targetos: Windows

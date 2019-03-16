@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._PRINTER_NOTIFY_INIT
-title: "_PRINTER_NOTIFY_INIT"
+title: _PRINTER_NOTIFY_INIT (winsplp.h)
 description: 
 old-location: print\printer_notify_init.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	PRINTER_NOTIFY_INIT
+- PRINTER_NOTIFY_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_CALLBACK_DATA_QUEUE
-title: "_FLT_CALLBACK_DATA_QUEUE"
+title: _FLT_CALLBACK_DATA_QUEUE (fltkernel.h)
 description: FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use FltCbdqInitialize to initialize this structure.
 old-location: ifsk\flt_callback_data_queue.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_CALLBACK_DATA_QUEUE
+- FLT_CALLBACK_DATA_QUEUE
 product:
 - Windows
 targetos: Windows

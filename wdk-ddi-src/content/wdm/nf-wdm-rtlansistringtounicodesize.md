@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAnsiStringToUnicodeSize
-title: RtlAnsiStringToUnicodeSize macro
+title: RtlAnsiStringToUnicodeSize macro (wdm.h)
 description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.
 old-location: kernel\rtlansistringtounicodesize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAnsiStringToUnicodeSize
+- RtlAnsiStringToUnicodeSize
 product:
 - Windows
 targetos: Windows

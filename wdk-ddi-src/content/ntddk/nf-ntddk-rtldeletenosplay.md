@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlDeleteNoSplay
-title: RtlDeleteNoSplay function
+title: RtlDeleteNoSplay function (ntddk.h)
 description: The RtlDeleteNoSplay routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldeletenosplay.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDeleteNoSplay
+- RtlDeleteNoSplay
 product:
 - Windows
 targetos: Windows

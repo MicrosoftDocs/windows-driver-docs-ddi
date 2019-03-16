@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.OutputTypedDataPhysical
-title: IDebugSymbols3::OutputTypedDataPhysical
+title: IDebugSymbols3::OutputTypedDataPhysical (dbgeng.h)
 description: The OutputTypedDataPhysical method formats the contents of a variable in the target computer's physical memory, and then sends this to the output callbacks.
 old-location: debugger\outputtypeddataphysical.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.OutputTypedDataPhysical
--	IDebugSymbols2.OutputTypedDataPhysical
--	IDebugSymbols3.OutputTypedDataPhysical
+- IDebugSymbols.OutputTypedDataPhysical
+- IDebugSymbols2.OutputTypedDataPhysical
+- IDebugSymbols3.OutputTypedDataPhysical
 product:
 - Windows
 targetos: Windows

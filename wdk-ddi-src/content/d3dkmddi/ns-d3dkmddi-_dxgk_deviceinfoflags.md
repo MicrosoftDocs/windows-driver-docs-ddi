@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DEVICEINFOFLAGS
-title: "_DXGK_DEVICEINFOFLAGS"
+title: _DXGK_DEVICEINFOFLAGS (d3dkmddi.h)
 description: The DXGK_DEVICEINFOFLAGS structure identifies, in bit-field flags, information about a graphics device.
 old-location: display\dxgk_deviceinfoflags.htm
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_DEVICEINFOFLAGS
+- DXGK_DEVICEINFOFLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_UICC_RESET
-title: "_NDIS_WWAN_SET_UICC_RESET"
+title: _NDIS_WWAN_SET_UICC_RESET (ndiswwan.h)
 description: The NDIS_WWAN_SET_UICC_RESET structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a UICC card.
 old-location: netvista\ndis_wwan_set_uicc_reset.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SET_UICC_RESET
+- NDIS_WWAN_SET_UICC_RESET
 product:
 - Windows
 targetos: Windows

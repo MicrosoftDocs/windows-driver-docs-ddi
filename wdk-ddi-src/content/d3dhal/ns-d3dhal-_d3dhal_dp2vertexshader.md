@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2VERTEXSHADER
-title: "_D3DHAL_DP2VERTEXSHADER"
+title: _D3DHAL_DP2VERTEXSHADER (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2vertexshader.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2VERTEXSHADER
+- D3DHAL_DP2VERTEXSHADER
 product:
 - Windows
 targetos: Windows

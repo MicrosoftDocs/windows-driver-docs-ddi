@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
-title: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function
+title: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function (udecxusbdevice.h)
 description: Completes an asynchronous request for changing the power state of a particular function of a virtual USB 3.0 device.
 old-location: buses\udecxusbdevicesetfunctionsuspendandwakecomplete.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
+- UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 product:
 - Windows
 targetos: Windows

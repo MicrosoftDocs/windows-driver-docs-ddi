@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_IDLE_WAKE_INFO
-title: GET_IDLE_WAKE_INFO
+title: GET_IDLE_WAKE_INFO (wdm.h)
 description: The GetIdleWakeInfo routine enables the driver for a device to discover the device power states from which the device can signal a wake event.
 old-location: kernel\getidlewakeinfo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetIdleWakeInfo
+- GetIdleWakeInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICECREATE
-title: PFNKSDEVICECREATE
+title: PFNKSDEVICECREATE (ks.h)
 description: An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the minidriver that AVStream's PnP AddDevice routine has completed.
 old-location: stream\avstrminideviceadd.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniDeviceAdd
+- AVStrMiniDeviceAdd
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOGSM
-title: RILPOSITIONINFOGSM
+title: RILPOSITIONINFOGSM (ntddrilapitypes.h)
 description: This structure represents RILPOSITIONINFOGSM.
 old-location: netvista\rilpositioninfogsm.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFOGSM
+- RILPOSITIONINFOGSM
 product:
 - Windows
 targetos: Windows

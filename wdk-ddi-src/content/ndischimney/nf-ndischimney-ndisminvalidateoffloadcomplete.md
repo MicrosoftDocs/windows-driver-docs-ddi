@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMInvalidateOffloadComplete
-title: NdisMInvalidateOffloadComplete function
+title: NdisMInvalidateOffloadComplete function (ndischimney.h)
 description: An offload target calls the NdisMInvalidateOffloadComplete function to complete an invalidate offload operation that was initiated by a previous call to the MiniportInvalidateOffload function of the offload target.
 old-location: netvista\ndisminvalidateoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMInvalidateOffloadComplete
+- NdisMInvalidateOffloadComplete
 product:
 - Windows
 targetos: Windows

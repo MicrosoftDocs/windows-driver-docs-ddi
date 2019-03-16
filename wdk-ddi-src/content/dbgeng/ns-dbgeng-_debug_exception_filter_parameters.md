@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_EXCEPTION_FILTER_PARAMETERS
-title: "_DEBUG_EXCEPTION_FILTER_PARAMETERS"
+title: _DEBUG_EXCEPTION_FILTER_PARAMETERS (dbgeng.h)
 description: The DEBUG_EXCEPTION_FILTER_PARAMETERS structure contains the parameters for an exception filter.
 old-location: debugger\debug_exception_filter_parameters.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_EXCEPTION_FILTER_PARAMETERS
+- DEBUG_EXCEPTION_FILTER_PARAMETERS
 product:
 - Windows
 targetos: Windows

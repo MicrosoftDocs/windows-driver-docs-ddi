@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
-title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
+title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue (printerextension.h)
 description: Gets the JobCopiesAllDocuments parameter maximum value.
 old-location: print\iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
--	IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
+- IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
+- IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
 product:
 - Windows
 targetos: Windows

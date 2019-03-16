@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetDeviceAttachmentBaseRef
-title: IoGetDeviceAttachmentBaseRef function
+title: IoGetDeviceAttachmentBaseRef function (ntifs.h)
 description: The IoGetDeviceAttachmentBaseRef routine returns a pointer to the lowest-level device object in a file system or device driver stack.
 old-location: ifsk\iogetdeviceattachmentbaseref.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceAttachmentBaseRef
+- IoGetDeviceAttachmentBaseRef
 product:
 - Windows
 targetos: Windows

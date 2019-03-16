@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_3
-title: PIPE_STATE
+title: PIPE_STATE (ksproxy.h)
 description: 
 old-location: stream\pipe_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	PIPE_STATE
+- PIPE_STATE
 product:
 - Windows
 targetos: Windows

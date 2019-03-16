@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitUnicodeString
-title: NdisInitUnicodeString macro
+title: NdisInitUnicodeString macro (ndis.h)
 description: The NdisInitUnicodeString function initializes a counted Unicode string.
 old-location: netvista\ndisinitunicodestring.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisInitUnicodeString
+- NdisInitUnicodeString
 product:
 - Windows
 targetos: Windows

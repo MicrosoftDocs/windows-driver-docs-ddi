@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE (d3d10umddi.h)
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampalette.htm
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamPalette
+- pfnVideoProcessorSetStreamPalette
 product:
 - Windows
 targetos: Windows

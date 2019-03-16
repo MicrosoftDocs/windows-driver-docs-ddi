@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_REGISTER_COMPONENT_PERF_STATES
-title: "_PEP_REGISTER_COMPONENT_PERF_STATES"
+title: _PEP_REGISTER_COMPONENT_PERF_STATES (pep_x.h)
 description: The PEP_REGISTER_COMPONENT_PERF_STATES structure describes the performance states (P-states) of the specified component.
 old-location: kernel\pep_register_component_perf_states.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_REGISTER_COMPONENT_PERF_STATES
+- PEP_REGISTER_COMPONENT_PERF_STATES
 product:
 - Windows
 targetos: Windows

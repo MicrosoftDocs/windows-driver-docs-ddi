@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_ENUM_ADAPTER
-title: "_NDIS_WMI_ENUM_ADAPTER"
+title: _NDIS_WMI_ENUM_ADAPTER (ntddndis.h)
 description: The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the GUID_NDIS_ENUMERATE_ADAPTERS_EX GUID.
 old-location: netvista\ndis_wmi_enum_adapter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_WMI_ENUM_ADAPTER
+- NDIS_WMI_ENUM_ADAPTER
 product:
 - Windows
 targetos: Windows

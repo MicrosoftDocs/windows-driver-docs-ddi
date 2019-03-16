@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlFastLock
-title: FsRtlFastLock macro
+title: FsRtlFastLock macro (ntifs.h)
 description: The FsRtlFastLock macro is used by file systems and filter drivers to request a byte-range lock for a file stream.
 old-location: ifsk\fsrtlfastlock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlFastLock
+- FsRtlFastLock
 product:
 - Windows
 targetos: Windows

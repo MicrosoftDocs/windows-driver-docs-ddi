@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDIDEGREETYPE
-title: _D3DDDIDEGREETYPE
+title: _D3DDDIDEGREETYPE (d3dumddi.h)
 description: The degree type.
 ms.assetid: 6bd9e98f-470b-4e2e-8565-0bc0fc1ddd5f
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDIDEGREETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDIDEGREETYPE
+- _D3DDDIDEGREETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

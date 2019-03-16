@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_LINK_STATE
-title: "_NDIS_LINK_STATE"
+title: _NDIS_LINK_STATE (ntddndis.h)
 description: The NDIS_LINK_STATE structure specifies the current link state of a miniport adapter.
 old-location: netvista\ndis_link_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_LINK_STATE
+- NDIS_LINK_STATE
 product:
 - Windows
 targetos: Windows

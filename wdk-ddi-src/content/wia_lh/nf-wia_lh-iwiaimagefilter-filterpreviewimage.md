@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.FilterPreviewImage
-title: IWiaImageFilter::FilterPreviewImage
+title: IWiaImageFilter::FilterPreviewImage (wia_lh.h)
 description: The IWiaImageFilter::FilterPreviewImage method is called by the WIA Preview component, when an application calls the IWiaPreview::UpdatePreview method.
 old-location: image\iwiaimagefilter_filterpreviewimage.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaImageFilter.FilterPreviewImage
+- IWiaImageFilter.FilterPreviewImage
 product:
 - Windows
 targetos: Windows

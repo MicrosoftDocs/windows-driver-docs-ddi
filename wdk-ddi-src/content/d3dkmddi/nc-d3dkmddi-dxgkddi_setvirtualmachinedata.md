@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETVIRTUALMACHINEDATA
-title: DXGKDDI_SETVIRTUALMACHINEDATA
+title: DXGKDDI_SETVIRTUALMACHINEDATA (d3dkmddi.h)
 description: Set the virtual machine data.
 ms.assetid: 1fae41c4-5e88-4936-a6ea-f69668ba2bf1
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETVIRTUALMACHINEDATA
+- DXGKDDI_SETVIRTUALMACHINEDATA
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_GETCOLDESC_DBG
-title: "_HIDP_GETCOLDESC_DBG"
+title: _HIDP_GETCOLDESC_DBG (hidpddi.h)
 description: Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_getcoldesc_dbg.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidpddi.h
+- Hidpddi.h
 api_name:
--	HIDP_GETCOLDESC_DBG
+- HIDP_GETCOLDESC_DBG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetInitiatorNodeName_IN
-title: "_SetInitiatorNodeName_IN"
+title: _SetInitiatorNodeName_IN (iscsiop.h)
 description: The SetInitiatorNodeName_IN structure holds the input data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SetInitiatorNodeName_IN
+- SetInitiatorNodeName_IN
 product:
 - Windows
 targetos: Windows

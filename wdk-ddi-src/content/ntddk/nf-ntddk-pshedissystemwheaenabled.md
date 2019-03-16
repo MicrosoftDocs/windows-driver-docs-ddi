@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PshedIsSystemWheaEnabled
-title: PshedIsSystemWheaEnabled function
+title: PshedIsSystemWheaEnabled function (ntddk.h)
 description: The PshedIsSystemWheaEnabled function returns a Boolean value that indicates whether the system is WHEA-enabled.
 old-location: whea\pshedissystemwheaenabled.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedIsSystemWheaEnabled
+- PshedIsSystemWheaEnabled
 product:
 - Windows
 targetos: Windows

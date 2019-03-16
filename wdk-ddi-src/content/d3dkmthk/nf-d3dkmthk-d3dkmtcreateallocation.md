@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
-title: D3DKMTCreateAllocation function
+title: D3DKMTCreateAllocation function (d3dkmthk.h)
 description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
 old-location: display\d3dkmtcreateallocation.htm
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateAllocation
+- D3DKMTCreateAllocation
 product:
 - Windows
 targetos: Windows

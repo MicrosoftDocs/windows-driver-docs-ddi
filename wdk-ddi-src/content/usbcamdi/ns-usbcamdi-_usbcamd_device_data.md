@@ -1,6 +1,6 @@
 ---
 UID: NS:usbcamdi._USBCAMD_DEVICE_DATA
-title: "_USBCAMD_DEVICE_DATA"
+title: _USBCAMD_DEVICE_DATA (usbcamdi.h)
 description: This structure is obsolete and is provided to maintain backward compatibility with the original USBCAMD.
 old-location: stream\usbcamd_device_data.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_DEVICE_DATA
+- USBCAMD_DEVICE_DATA
 product:
 - Windows
 targetos: Windows

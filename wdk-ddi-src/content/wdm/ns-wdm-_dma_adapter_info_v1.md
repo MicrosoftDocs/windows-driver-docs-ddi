@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER_INFO_V1
-title: "_DMA_ADAPTER_INFO_V1"
+title: _DMA_ADAPTER_INFO_V1 (wdm.h)
 description: The DMA_ADAPTER_INFO_V1 structure describes the capabilities of the system DMA controller that is represented by an adapter object.
 old-location: kernel\dma_adapter_info_v1.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_ADAPTER_INFO_V1
+- DMA_ADAPTER_INFO_V1
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC_TYPE
-title: "_UCX_ENDPOINT_CHARACTERISTIC_TYPE"
+title: _UCX_ENDPOINT_CHARACTERISTIC_TYPE (ucxendpoint.h)
 description: Defines values that indicates the type of endpoint characteristic.
 old-location: buses\ucx_endpoint_characteristic_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	UCX_ENDPOINT_CHARACTERISTIC_TYPE
+- UCX_ENDPOINT_CHARACTERISTIC_TYPE
 product:
 - Windows
 targetos: Windows

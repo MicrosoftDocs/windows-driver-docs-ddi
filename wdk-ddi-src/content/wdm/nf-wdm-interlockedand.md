@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedAnd
-title: InterlockedAnd function
+title: InterlockedAnd function (wdm.h)
 description: The InterlockedAnd macro atomically computes a bitwise AND operation.
 old-location: kernel\interlockedand.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	InterlockedAnd
+- InterlockedAnd
 product:
 - Windows
 targetos: Windows

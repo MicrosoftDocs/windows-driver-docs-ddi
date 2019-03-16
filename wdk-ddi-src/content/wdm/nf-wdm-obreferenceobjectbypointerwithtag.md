@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByPointerWithTag
-title: ObReferenceObjectByPointerWithTag function
+title: ObReferenceObjectByPointerWithTag function (wdm.h)
 description: The ObReferenceObjectByPointerWithTag routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obreferenceobjectbypointerwithtag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReferenceObjectByPointerWithTag
+- ObReferenceObjectByPointerWithTag
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.ConnectedStandby
-title: IWDTFSystemAction2::ConnectedStandby
+title: IWDTFSystemAction2::ConnectedStandby (wdtfsystemaction.h)
 description: Puts the system into Connected Standby state and exits Connected Standby state after the desired time has passed. This method only works on a computer that supports Always On Always Connected (AOAC).
 old-location: dtf\iwdtfsystemaction2_connectedstandby.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.ConnectedStandby
+- IWDTFSystemAction2.ConnectedStandby
 product:
 - Windows
 targetos: Windows

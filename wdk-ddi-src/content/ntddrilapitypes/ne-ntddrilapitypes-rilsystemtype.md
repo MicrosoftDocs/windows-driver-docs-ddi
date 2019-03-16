@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSYSTEMTYPE
-title: RILSYSTEMTYPE
+title: RILSYSTEMTYPE (ntddrilapitypes.h)
 description: This enumeration represents RILSYSTEMTYPE.
 old-location: netvista\rilsystemtype.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSYSTEMTYPE
+- RILSYSTEMTYPE
 product:
 - Windows
 targetos: Windows

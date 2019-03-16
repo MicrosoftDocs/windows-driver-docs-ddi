@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_HEAD
-title: "_DXGKVGPU_ESCAPE_HEAD"
+title: _DXGKVGPU_ESCAPE_HEAD (d3dukmdt.h)
 description: A structure describing the escape head.
 old-location: display\dxgkvgpu_escape_head_.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	DXGKVGPU_ESCAPE_HEAD
+- DXGKVGPU_ESCAPE_HEAD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortScanRom
-title: VideoPortScanRom function
+title: VideoPortScanRom function (video.h)
 description: The VideoPortScanRom function is obsolete in Windows XP and later versions. It is supported only for backward compatibility. VideoPortScanRom performs a case-sensitive search for a specified string in ROM.
 old-location: display\videoportscanrom.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortScanRom
+- VideoPortScanRom
 product:
 - Windows
 targetos: Windows

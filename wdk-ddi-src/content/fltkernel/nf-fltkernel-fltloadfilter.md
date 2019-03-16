@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltLoadFilter
-title: FltLoadFilter function
+title: FltLoadFilter function (fltkernel.h)
 description: The FltLoadFilter routine dynamically loads a minifilter driver into the currently running system.
 old-location: ifsk\fltloadfilter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltLoadFilter
+- FltLoadFilter
 product:
 - Windows
 targetos: Windows

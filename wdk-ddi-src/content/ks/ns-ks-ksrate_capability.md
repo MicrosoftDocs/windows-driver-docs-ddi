@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_57
-title: KSRATE_CAPABILITY
+title: KSRATE_CAPABILITY (ks.h)
 description: The client uses the KSRATE_CAPABILITY structure in a KSPROPERTY_STREAM_RATECAPABILITY property request.
 old-location: stream\ksrate_capability.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSRATE_CAPABILITY
+- KSRATE_CAPABILITY
 product:
 - Windows
 targetos: Windows

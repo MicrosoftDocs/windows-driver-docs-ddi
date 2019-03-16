@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._IO_BLOCK
-title: "_IO_BLOCK"
+title: _IO_BLOCK (usbscan.h)
 description: The IO_BLOCK structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_READ_REGISTERS or IOCTL_WRITE_REGISTERS.
 old-location: image\io_block.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	IO_BLOCK
+- IO_BLOCK
 product:
 - Windows
 targetos: Windows

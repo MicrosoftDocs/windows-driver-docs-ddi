@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateContiguousNodeMemory
-title: MmAllocateContiguousNodeMemory function
+title: MmAllocateContiguousNodeMemory function (ntddk.h)
 description: The MmAllocateContiguousNodeMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousnodememory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateContiguousNodeMemory
+- MmAllocateContiguousNodeMemory
 product:
 - Windows
 targetos: Windows

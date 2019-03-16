@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.SerializationBufferFree
-title: SerializationBufferFree function
+title: SerializationBufferFree function (sensorsutils.h)
 description: Exported memory allocation function for freeing a serialization buffer.
 ms.assetid: dd820f7c-1250-4af6-85e9-71f96bae27bc
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	SerializationBufferFree
+- SerializationBufferFree
 product:
  - Windows
 targetos: Windows

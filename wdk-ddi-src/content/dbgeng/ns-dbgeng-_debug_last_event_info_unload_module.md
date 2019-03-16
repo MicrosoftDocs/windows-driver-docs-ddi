@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
-title: "_DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE"
+title: _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE (dbgeng.h)
 description: Describes the unload module of the last event.
 old-location: debugger\debug_last_event_info_unload_module.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
+- DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 product:
 - Windows
 targetos: Windows

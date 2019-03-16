@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_GS_CONSTBUF_CB
-title: PFND3D10DDI_STATE_GS_CONSTBUF_CB
+title: PFND3D10DDI_STATE_GS_CONSTBUF_CB (d3d10umddi.h)
 description: The pfnStateGsConstBufCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader constant buffer state.
 old-location: display\pfnstategsconstbufcb.htm
 ms.assetid: 02468226-f0a4-4f24-a7f9-61a3b67dffb1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateGsConstBufCb
+- pfnStateGsConstBufCb
 product:
 - Windows
 targetos: Windows

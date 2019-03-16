@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.LanguageKind
-title: LanguageKind
+title: LanguageKind (dbgmodel.h)
 description: Identifies the language of the compiland containing a given symbol.
 ms.assetid: f4f112e3-1a06-441f-92ef-dff2576274ff
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	LanguageKind
-product: Windows
+- LanguageKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

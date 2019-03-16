@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_GetUSBDIVersion
-title: USBD_GetUSBDIVersion function
+title: USBD_GetUSBDIVersion function (usbdlib.h)
 description: The USBD_GetUSBDIVersion routine returns version information about the host controller driver (HCD) that controls the client's USB device.Note  USBD_IsInterfaceVersionSupported replaces the USBD_GetUSBDIVersion routine
 old-location: buses\usbd_getusbdiversion.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_GetUSBDIVersion
+- USBD_GetUSBDIVersion
 product:
 - Windows
 targetos: Windows

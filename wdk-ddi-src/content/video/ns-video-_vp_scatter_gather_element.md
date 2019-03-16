@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VP_SCATTER_GATHER_ELEMENT
-title: "_VP_SCATTER_GATHER_ELEMENT"
+title: _VP_SCATTER_GATHER_ELEMENT (video.h)
 description: The VP_SCATTER_GATHER_ELEMENT structure is used to store information about a single scatter/gather element.
 old-location: display\vp_scatter_gather_element.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VP_SCATTER_GATHER_ELEMENT
+- VP_SCATTER_GATHER_ELEMENT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB
-title: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB
+title: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB (d3d10umddi.h)
 description: The pfnStateIaInputLayoutCb function causes the Microsoft Direct3D 10 runtime to refresh the input layout state.
 old-location: display\pfnstateiainputlayoutcb.htm
 ms.assetid: fce49c60-8573-4a28-9d1c-5cf33d260db3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateIaInputLayoutCb
+- pfnStateIaInputLayoutCb
 product:
 - Windows
 targetos: Windows

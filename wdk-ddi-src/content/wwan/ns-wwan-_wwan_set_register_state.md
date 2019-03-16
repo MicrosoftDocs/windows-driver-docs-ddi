@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_REGISTER_STATE
-title: "_WWAN_SET_REGISTER_STATE"
+title: _WWAN_SET_REGISTER_STATE (wwan.h)
 description: The WWAN_SET_REGISTER_STATE structure represents the command to set the MB device's registration mode and the network provider it should register with.
 old-location: netvista\wwan_set_register_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SET_REGISTER_STATE
+- WWAN_SET_REGISTER_STATE
 product:
 - Windows
 targetos: Windows

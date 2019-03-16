@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterStart
-title: NetAdapterStart function
+title: NetAdapterStart function (netadapter.h)
 description: The NetAdapterStart method starts a NETADAPTER object.
 tech.root: netvista
 ms.assetid: 7fd514f2-7f1e-449f-9037-636f1c3599d6
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	LibDef
-apilocation: 
--	netadaptercxstub.lib
-apiname: 
--	NetAdapterStart
+topic_type: 
+- apiref
+api_type: 
+- LibDef
+api_location:
+- netadaptercxstub.lib
+api_name: 
+- NetAdapterStart
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

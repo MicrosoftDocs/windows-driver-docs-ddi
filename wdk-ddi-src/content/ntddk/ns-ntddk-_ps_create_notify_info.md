@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PS_CREATE_NOTIFY_INFO
-title: "_PS_CREATE_NOTIFY_INFO"
+title: _PS_CREATE_NOTIFY_INFO (ntddk.h)
 description: The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process.
 old-location: kernel\ps_create_notify_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PS_CREATE_NOTIFY_INFO
+- PS_CREATE_NOTIFY_INFO
 product:
 - Windows
 targetos: Windows

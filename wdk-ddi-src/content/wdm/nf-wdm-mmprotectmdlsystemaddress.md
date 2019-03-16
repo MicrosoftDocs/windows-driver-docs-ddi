@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmProtectMdlSystemAddress
-title: MmProtectMdlSystemAddress function
+title: MmProtectMdlSystemAddress function (wdm.h)
 description: The MmProtectMdlSystemAddress routine sets the protection type for a memory address range.
 old-location: kernel\mmprotectmdlsystemaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmProtectMdlSystemAddress
+- MmProtectMdlSystemAddress
 product:
 - Windows
 targetos: Windows

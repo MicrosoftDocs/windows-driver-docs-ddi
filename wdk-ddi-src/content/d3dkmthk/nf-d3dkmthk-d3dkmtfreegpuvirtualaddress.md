@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFreeGpuVirtualAddress
-title: D3DKMTFreeGpuVirtualAddress function
+title: D3DKMTFreeGpuVirtualAddress function (d3dkmthk.h)
 description: D3DKMTFreeGpuVirtualAddress releases a range of graphics processing unit (GPU) virtual addresses, which was previously reserved or mapped.
 old-location: display\d3dkmtfreegpuvirtualaddress.htm
 ms.assetid: E076E9E6-FA7E-4F46-88B4-D3971E62DE1A
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTFreeGpuVirtualAddress
+- D3DKMTFreeGpuVirtualAddress
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prdrvcom.ConvertDevModeToPrintTicket
-title: ConvertDevModeToPrintTicket function
+title: ConvertDevModeToPrintTicket function (prdrvcom.h)
 description: The IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.
 old-location: print\iprintoemprintticketprovider_convertdevmodetoprintticket.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prdrvcom.h
+- prdrvcom.h
 api_name:
--	IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
+- IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
 product:
 - Windows
 targetos: Windows

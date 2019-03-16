@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESYNCHRONIZATIONOBJECT
-title: "_D3DKMT_CREATESYNCHRONIZATIONOBJECT"
+title: _D3DKMT_CREATESYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The D3DKMT_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the D3DKMTCreateSynchronizationObject function creates.
 old-location: display\d3dkmt_createsynchronizationobject.htm
 ms.assetid: 2e4e1fd7-9a36-4c35-8d9d-932a0d2e60a2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATESYNCHRONIZATIONOBJECT
+- D3DKMT_CREATESYNCHRONIZATIONOBJECT
 product:
 - Windows
 targetos: Windows

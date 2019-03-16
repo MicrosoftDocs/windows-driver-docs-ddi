@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
-title: PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
+title: PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001 (d3d12umddi.h)
 description: Calculates the driver's root signature size. 
 ms.assetid: 34ca9f84-67e3-451a-afda-95aa62f221ea
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
+- PFND3D12DDI_CALC_PRIVATE_ROOT_SIGNATURE_SIZE_0001
 product: 
 - Windows
 targetos: Windows

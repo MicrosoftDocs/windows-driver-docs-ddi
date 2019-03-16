@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgDump
-title: wiauDbgDump function
+title: wiauDbgDump function (wiautil.h)
 description: The wiauDbgDump function logs a message containing one or more data values.
 old-location: image\wiaudbgdump.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgDump
+- wiauDbgDump
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_CALLBACK_CONSTRAINT
-title: "_WDF_CALLBACK_CONSTRAINT"
+title: _WDF_CALLBACK_CONSTRAINT (wudfddi_types.h)
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfddi_types.h
+- wudfddi_types.h
 api_name:
--	WDF_CALLBACK_CONSTRAINT
+- WDF_CALLBACK_CONSTRAINT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusicks.IPositionNotify
-title: IPositionNotify
+title: IPositionNotify (dmusicks.h)
 description: PositionNotify
 old-location: audio\ipositionnotify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IPositionNotify
+- IPositionNotify
 product:
 - Windows
 targetos: Windows

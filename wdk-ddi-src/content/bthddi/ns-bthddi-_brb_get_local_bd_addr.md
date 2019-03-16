@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_GET_LOCAL_BD_ADDR
-title: "_BRB_GET_LOCAL_BD_ADDR"
+title: _BRB_GET_LOCAL_BD_ADDR (bthddi.h)
 description: The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 old-location: bltooth\_brb_get_local_bd_addr.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_GET_LOCAL_BD_ADDR
+- _BRB_GET_LOCAL_BD_ADDR
 product:
 - Windows
 targetos: Windows

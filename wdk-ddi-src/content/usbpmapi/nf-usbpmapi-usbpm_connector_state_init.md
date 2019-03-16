@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_CONNECTOR_STATE_INIT
-title: USBPM_CONNECTOR_STATE_INIT function
+title: USBPM_CONNECTOR_STATE_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_CONNECTOR_STATE_INIT** structure.
 ms.assetid: 2f0924ce-22d0-4bea-b368-6f5974441658
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_CONNECTOR_STATE_INIT
-product: Windows
+- USBPM_CONNECTOR_STATE_INIT
+product:
+- Windows
 targetos: Windows
 
 

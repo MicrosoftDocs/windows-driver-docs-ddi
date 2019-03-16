@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATESYNCHRONIZATIONOBJECT
-title: PFND3DKMT_CREATESYNCHRONIZATIONOBJECT
+title: PFND3DKMT_CREATESYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT callback function creates a synchronization object.
 ms.assetid: 5f43b3fc-6542-45bf-b169-ab5e4bf2c0f8
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_CREATESYNCHRONIZATIONOBJECT
+- PFND3DKMT_CREATESYNCHRONIZATIONOBJECT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

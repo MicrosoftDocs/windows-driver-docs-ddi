@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_INFORMATION
-title: "_USB_HUB_INFORMATION"
+title: _USB_HUB_INFORMATION (usbioctl.h)
 description: The USB_HUB_INFORMATION structure contains information about a hub.
 old-location: buses\usb_hub_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_HUB_INFORMATION
+- USB_HUB_INFORMATION
 product:
 - Windows
 targetos: Windows

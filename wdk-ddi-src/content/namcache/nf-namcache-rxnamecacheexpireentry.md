@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheExpireEntry
-title: RxNameCacheExpireEntry function
+title: RxNameCacheExpireEntry function (namcache.h)
 description: RxNameCacheExpireEntry puts a NAME_CACHE entry on the free list for recycling.
 old-location: ifsk\rxnamecacheexpireentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheExpireEntry
+- RxNameCacheExpireEntry
 product:
 - Windows
 targetos: Windows

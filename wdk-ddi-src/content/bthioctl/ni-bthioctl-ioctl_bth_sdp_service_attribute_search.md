@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
-title: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
+title: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH (bthioctl.h)
 description: The IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH request combines an SDP service and attribute search into a single operation. This allows a caller to directly obtain SDP records from a remote device.
 old-location: bltooth\ioctl_bth_sdp_service_attribute_search.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
+- IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 product:
 - Windows
 targetos: Windows

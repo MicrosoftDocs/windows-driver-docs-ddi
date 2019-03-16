@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateFromNPagedLookasideList
-title: ExAllocateFromNPagedLookasideList function
+title: ExAllocateFromNPagedLookasideList function (wdm.h)
 description: The ExAllocateFromNPagedLookasideList routine returns a pointer to a nonpaged entry from the given lookaside list, or it returns a pointer to a newly allocated nonpaged entry.
 old-location: kernel\exallocatefromnpagedlookasidelist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocateFromNPagedLookasideList
+- ExAllocateFromNPagedLookasideList
 product:
 - Windows
 targetos: Windows

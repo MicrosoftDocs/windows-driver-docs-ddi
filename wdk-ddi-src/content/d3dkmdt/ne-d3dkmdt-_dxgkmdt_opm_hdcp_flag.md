@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_HDCP_FLAG
-title: "_DXGKMDT_OPM_HDCP_FLAG"
+title: _DXGKMDT_OPM_HDCP_FLAG (d3dkmdt.h)
 description: The DXGKMDT_OPM_HDCP_FLAG enumeration identifies whether a protected output's physical connector is connected to a High-bandwidth Digital Content Protection (HDCP) repeater.
 old-location: display\dxgkmdt_opm_hdcp_flag.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_HDCP_FLAG
+- DXGKMDT_OPM_HDCP_FLAG
 product:
 - Windows
 targetos: Windows

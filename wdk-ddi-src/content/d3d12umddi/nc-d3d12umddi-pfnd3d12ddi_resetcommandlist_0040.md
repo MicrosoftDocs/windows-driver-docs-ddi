@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RESETCOMMANDLIST_0040
-title: PFND3D12DDI_RESETCOMMANDLIST_0040
+title: PFND3D12DDI_RESETCOMMANDLIST_0040 (d3d12umddi.h)
 description: Implemented by the client driver to reset a command list back to its initial state as if a new command list was just created.
 ms.assetid: 06059203-b498-4b6a-9896-f7971d428ac3
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_RESETCOMMANDLIST_0040
+- PFND3D12DDI_RESETCOMMANDLIST_0040
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_RESET_COMPLETE_INFO
-title: "_UCX_CONTROLLER_RESET_COMPLETE_INFO"
+title: _UCX_CONTROLLER_RESET_COMPLETE_INFO (ucxcontroller.h)
 description: Contains information about the operation to reset the controller. This is used by the client driver in its EVT_UCX_CONTROLLER_RESET callback function.
 old-location: buses\_ucx_controller_reset_complete_info.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UCX_CONTROLLER_RESET_COMPLETE_INFO
+- UCX_CONTROLLER_RESET_COMPLETE_INFO
 product:
 - Windows
 targetos: Windows

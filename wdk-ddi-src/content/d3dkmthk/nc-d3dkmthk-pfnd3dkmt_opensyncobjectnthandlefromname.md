@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
-title: PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
+title: PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME (d3dkmthk.h)
 description: The PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME callback function opens an NT handle for a named shared monitored fence object, similar to what D3DKMTOpenNtHandleFromName does for shared allocations.
 ms.assetid: c7fe8045-ff2e-4cfc-a909-b2fae49e0eb4
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
+- PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

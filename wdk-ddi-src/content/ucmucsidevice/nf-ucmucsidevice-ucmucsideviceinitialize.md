@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmucsidevice.UcmUcsiDeviceInitialize
-title: UcmUcsiDeviceInitialize function
+title: UcmUcsiDeviceInitialize function (ucmucsidevice.h)
 tech.root: usbref
 description: Initializes the UCSI extension (UcmUcsiCx).
 ms.assetid: 8ad48691-2cca-4aaf-b61d-3127001c3180
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UcmUcsiCxStub.lib
+- UcmUcsiCxStub.lib
 api_name: 
--	UcmUcsiDeviceInitialize
-product: Windows
+- UcmUcsiDeviceInitialize
+product:
+- Windows
 targetos: Windows
 
 

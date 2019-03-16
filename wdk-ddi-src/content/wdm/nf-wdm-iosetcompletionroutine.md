@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetCompletionRoutine
-title: IoSetCompletionRoutine function
+title: IoSetCompletionRoutine function (wdm.h)
 description: The IoSetCompletionRoutine routine registers an IoCompletion routine, which will be called when the next-lower-level driver has completed the requested operation for the given IRP.
 old-location: kernel\iosetcompletionroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoSetCompletionRoutine
+- IoSetCompletionRoutine
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisEnumerateFilterModules
-title: NdisEnumerateFilterModules function
+title: NdisEnumerateFilterModules function (ndis.h)
 description: The NdisEnumerateFilterModules function enumerates all the filters modules and filter intermediate driver instances in a filter stack.
 old-location: netvista\ndisenumeratefiltermodules.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisEnumerateFilterModules
+- NdisEnumerateFilterModules
 product:
 - Windows
 targetos: Windows

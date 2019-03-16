@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_STENCIL_OP
-title: D3D12DDI_STENCIL_OP
+title: D3D12DDI_STENCIL_OP (d3d12umddi.h)
 description: The D3D12DDI_STENCIL_OP enumeration type contains values that identify operations on stencil buffers.
 ms.assetid: 984415f8-a577-4344-aedb-161155f113af
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_STENCIL_OP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_STENCIL_OP
+- D3D12DDI_STENCIL_OP
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+title: PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU (d3dkmthk.h)
 description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU callback function enables a driver to signal a monitored fence.
 ms.assetid: dd418f01-37ec-4972-a31b-eeb2d08a5b2f
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+- PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

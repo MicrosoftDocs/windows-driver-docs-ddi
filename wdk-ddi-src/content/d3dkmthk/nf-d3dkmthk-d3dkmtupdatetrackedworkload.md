@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUpdateTrackedWorkload
-title: D3DKMTUpdateTrackedWorkload function
+title: D3DKMTUpdateTrackedWorkload function (d3dkmthk.h)
 description: Updates the tracked workload.
 ms.assetid: c474becc-c0c4-4474-857d-69800c780087
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTUpdateTrackedWorkload
+- D3DKMTUpdateTrackedWorkload
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

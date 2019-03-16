@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedIncrement
-title: NdisInterlockedIncrement macro
+title: NdisInterlockedIncrement macro (ndis.h)
 description: The NdisInterlockedIncrement function increments a caller-supplied variable as an atomic operation.
 old-location: netvista\ndisinterlockedincrement.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisInterlockedIncrement
+- NdisInterlockedIncrement
 product:
 - Windows
 targetos: Windows

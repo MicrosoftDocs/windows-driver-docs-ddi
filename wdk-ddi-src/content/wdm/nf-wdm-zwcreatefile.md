@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateFile
-title: ZwCreateFile function
+title: ZwCreateFile function (wdm.h)
 description: The ZwCreateFile routine creates a new file or opens an existing file.
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateFile
--	NtCreateFile
+- ZwCreateFile
+- NtCreateFile
 product:
 - Windows
 targetos: Windows

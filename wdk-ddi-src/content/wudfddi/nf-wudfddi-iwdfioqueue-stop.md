@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Stop
-title: IWDFIoQueue::Stop
+title: IWDFIoQueue::Stop (wudfddi.h)
 description: The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\iwdfioqueue_stop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.Stop
+- IWDFIoQueue.Stop
 product:
 - Windows
 targetos: Windows

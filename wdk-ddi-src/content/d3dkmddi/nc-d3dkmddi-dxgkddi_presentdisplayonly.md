@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PRESENTDISPLAYONLY
-title: DXGKDDI_PRESENTDISPLAYONLY
+title: DXGKDDI_PRESENTDISPLAYONLY (d3dkmddi.h)
 description: Presents the screen image to the display device of a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkddipresentdisplayonly.htm
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiPresentDisplayOnly
+- DxgkDdiPresentDisplayOnly
 product:
 - Windows
 targetos: Windows

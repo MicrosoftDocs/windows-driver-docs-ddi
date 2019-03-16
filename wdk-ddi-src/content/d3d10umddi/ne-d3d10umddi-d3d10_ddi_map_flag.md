@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_MAP_FLAG
-title: D3D10_DDI_MAP_FLAG
+title: D3D10_DDI_MAP_FLAG (d3d10umddi.h)
 description: The D3D10_DDI_MAP_FLAG enumeration type contains flags that identify how to map to a subresource in a call to the driver's ResourceMap function.
 old-location: display\d3d10_ddi_map_flag.htm
 ms.assetid: e17ca347-6514-47df-9373-5d33fc7f8e5c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_MAP_FLAG
+- D3D10_DDI_MAP_FLAG
 product:
 - Windows
 targetos: Windows

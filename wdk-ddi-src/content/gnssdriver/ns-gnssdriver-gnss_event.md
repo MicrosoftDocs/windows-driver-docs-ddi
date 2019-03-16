@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_34
-title: GNSS_EVENT
+title: GNSS_EVENT (gnssdriver.h)
 description: This structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_EVENT
+- GNSS_EVENT
 product:
 - Windows
 targetos: Windows

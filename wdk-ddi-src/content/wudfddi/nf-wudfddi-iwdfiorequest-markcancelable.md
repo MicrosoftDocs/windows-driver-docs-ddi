@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.MarkCancelable
-title: IWDFIoRequest::MarkCancelable
+title: IWDFIoRequest::MarkCancelable (wudfddi.h)
 description: The MarkCancelable method enables the canceling of the I/O request.
 old-location: wdf\iwdfiorequest_markcancelable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.MarkCancelable
+- IWDFIoRequest.MarkCancelable
 product:
 - Windows
 targetos: Windows

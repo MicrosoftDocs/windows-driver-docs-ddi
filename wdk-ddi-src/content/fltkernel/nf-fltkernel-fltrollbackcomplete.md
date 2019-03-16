@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRollbackComplete
-title: FltRollbackComplete function
+title: FltRollbackComplete function (fltkernel.h)
 description: The FltRollbackComplete routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification.
 old-location: ifsk\fltrollbackcomplete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltRollbackComplete
+- FltRollbackComplete
 product:
 - Windows
 targetos: Windows

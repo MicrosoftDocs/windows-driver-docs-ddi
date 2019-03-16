@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_lh.IWiaLog
-title: IWiaLog
+title: IWiaLog (wia_lh.h)
 description: The IWiaLog interface provides methods to enable minidrivers to log trace, error, and warning messages to the diagnostic log file Wiaservc.log.
 old-location: image\iwialog_interface.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaLog
+- IWiaLog
 product:
 - Windows
 targetos: Windows

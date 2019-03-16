@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortUshort
-title: StorPortWritePortUshort macro
+title: StorPortWritePortUshort macro (storport.h)
 description: The StorPortWritePortUshort routine writes a value to a specified register address.
 old-location: storage\storportwriteportushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortWritePortUshort
+- StorPortWritePortUshort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetType
-title: IDebugHostConstant::GetType
+title: IDebugHostConstant::GetType (dbgmodel.h)
 description: Returns the type (that is "int *") of the symbol if the symbol has a type.
 ms.assetid: 1cde171b-5adb-4447-b423-313874706cf3
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostConstant.GetType
-product: Windows
+- IDebugHostConstant.GetType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

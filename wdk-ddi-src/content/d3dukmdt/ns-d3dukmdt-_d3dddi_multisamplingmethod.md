@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_MULTISAMPLINGMETHOD
-title: "_D3DDDI_MULTISAMPLINGMETHOD"
+title: _D3DDDI_MULTISAMPLINGMETHOD (d3dukmdt.h)
 description: The D3DDDI_MULTISAMPLINGMETHOD structure describes a multiple-sampling method.
 old-location: display\d3dddi_multisamplingmethod.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_MULTISAMPLINGMETHOD
+- D3DDDI_MULTISAMPLINGMETHOD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtypes.UCM_PD_POWER_DATA_OBJECT_GET_TYPE
-title: UCM_PD_POWER_DATA_OBJECT_GET_TYPE function
+title: UCM_PD_POWER_DATA_OBJECT_GET_TYPE function (ucmtypes.h)
 description: Retrieves the type of Power Data Object from the UCM_PD_POWER_DATA_OBJECT structure.
 old-location: buses\ucm_pd_power_data_object_get_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_PD_POWER_DATA_OBJECT_GET_TYPE
+- UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 product:
 - Windows
 targetos: Windows

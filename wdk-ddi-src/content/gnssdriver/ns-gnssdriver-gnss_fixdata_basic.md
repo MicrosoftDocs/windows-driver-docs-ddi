@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_10
-title: GNSS_FIXDATA_BASIC
+title: GNSS_FIXDATA_BASIC (gnssdriver.h)
 description: This structure defines basic position information.
 old-location: gnss\gnss_fixdata_basic.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_FIXDATA_BASIC
+- GNSS_FIXDATA_BASIC
 product:
 - Windows
 targetos: Windows

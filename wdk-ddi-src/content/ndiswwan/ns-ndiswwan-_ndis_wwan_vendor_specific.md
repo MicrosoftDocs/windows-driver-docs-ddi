@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_VENDOR_SPECIFIC
-title: "_NDIS_WWAN_VENDOR_SPECIFIC"
+title: _NDIS_WWAN_VENDOR_SPECIFIC (ndiswwan.h)
 description: The NDIS_WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 old-location: netvista\ndis_wwan_vendor_specific.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_VENDOR_SPECIFIC
+- NDIS_WWAN_VENDOR_SPECIFIC
 product:
 - Windows
 targetos: Windows

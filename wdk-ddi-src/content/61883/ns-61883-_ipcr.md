@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._IPCR
-title: "_IPCR"
+title: _IPCR (61883.h)
 description: The IPCR structure contains initialization values for an input plug.
 old-location: ieee\ipcr.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	IPCR
+- IPCR
 product:
 - Windows
 targetos: Windows

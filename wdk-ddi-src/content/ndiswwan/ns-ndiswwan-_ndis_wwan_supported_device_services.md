@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
-title: "_NDIS_WWAN_SUPPORTED_DEVICE_SERVICES"
+title: _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES (ndiswwan.h)
 description: The NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure describes a list of supported device services.
 old-location: netvista\ndis_wwan_supported_device_services.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
+- NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
 product:
 - Windows
 targetos: Windows

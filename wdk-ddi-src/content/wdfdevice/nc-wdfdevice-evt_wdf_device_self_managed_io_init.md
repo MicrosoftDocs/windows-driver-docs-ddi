@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT
-title: EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT
+title: EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT (wdfdevice.h)
 description: A driver's EvtDeviceSelfManagedIoInit event callback function initializes and starts the device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagedioinit.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceSelfManagedIoInit
+- EvtDeviceSelfManagedIoInit
 product:
 - Windows
 targetos: Windows

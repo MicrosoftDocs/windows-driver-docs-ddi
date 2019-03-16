@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_EVENT_INDICATE
-title: NDIS_TCP_OFFLOAD_EVENT_INDICATE
+title: NDIS_TCP_OFFLOAD_EVENT_INDICATE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadEventHandler function to indicate an event that pertains to an offloaded TCP connection.
 old-location: netvista\ndistcpoffloadeventhandler.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisTcpOffloadEventHandler
+- NdisTcpOffloadEventHandler
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMIdleNotificationComplete
-title: NdisMIdleNotificationComplete function
+title: NdisMIdleNotificationComplete function (ndis.h)
 description: Miniport drivers call NdisMIdleNotificationComplete to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's MiniportIdleNotification handler function.
 old-location: netvista\ndismidlenotificationcomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMIdleNotificationComplete
+- NdisMIdleNotificationComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wiamindr_lh.IWiaDrvItem
-title: IWiaDrvItem
+title: IWiaDrvItem (wiamindr_lh.h)
 description: The IWiaDrvItem interface provides methods that a WIA minidriver can use to manage a tree of IWiaDrvItem items.
 old-location: image\iwiadrvitem_interface.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem
+- IWiaDrvItem
 product:
 - Windows
 targetos: Windows

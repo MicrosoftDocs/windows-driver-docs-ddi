@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxCleanupEvents
-title: PosCxCleanupEvents function
+title: PosCxCleanupEvents function (poscx.h)
 description: PosCxCleanupEvents is called to clean up all pending events for a given caller, identified by the open instance.
 old-location: pos\poscxcleanupevents.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxCleanupEvents
+- PosCxCleanupEvents
 product:
 - Windows
 targetos: Windows

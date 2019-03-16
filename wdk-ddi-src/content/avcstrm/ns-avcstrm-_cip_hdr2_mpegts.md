@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_MPEGTS
-title: "_CIP_HDR2_MPEGTS"
+title: _CIP_HDR2_MPEGTS (avcstrm.h)
 description: The CIP_HDR2_MPEGTS structure describes the second quadlet of a CIP header pair for an MPEGTS format stream.
 old-location: stream\cip_hdr2_mpegts.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	CIP_HDR2_MPEGTS
+- CIP_HDR2_MPEGTS
 product:
 - Windows
 targetos: Windows

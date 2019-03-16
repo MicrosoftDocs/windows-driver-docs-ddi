@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_COMMON_DESCRIPTOR
-title: "_USB_COMMON_DESCRIPTOR"
+title: _USB_COMMON_DESCRIPTOR (usbspec.h)
 description: The USB_COMMON_DESCRIPTOR structure contains the head of the first descriptor that matches the search criteria in a call to USBD_ParseDescriptors.
 old-location: buses\usb_common_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_COMMON_DESCRIPTOR
+- USB_COMMON_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

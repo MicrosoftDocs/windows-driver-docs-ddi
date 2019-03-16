@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetDialedIdSettings
-title: RIL_GetDialedIdSettings function
+title: RIL_GetDialedIdSettings function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdialedidsettings.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_GetDialedIdSettings
+- RIL_GetDialedIdSettings
 product:
 - Windows
 targetos: Windows

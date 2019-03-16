@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_2
-title: BranchOfficeJobDataRendered
+title: BranchOfficeJobDataRendered (winsplp.h)
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Event on a remote server. This is based on job-related data available to the spooler.
 old-location: print\branchofficejobdatarendered.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	BranchOfficeJobDataRendered
+- BranchOfficeJobDataRendered
 product:
 - Windows
 targetos: Windows

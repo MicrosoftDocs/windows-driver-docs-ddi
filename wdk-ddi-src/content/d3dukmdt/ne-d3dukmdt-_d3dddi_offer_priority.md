@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_OFFER_PRIORITY
-title: "_D3DDDI_OFFER_PRIORITY"
+title: _D3DDDI_OFFER_PRIORITY (d3dukmdt.h)
 description: Indicates the importance of video memory resources that the user-mode display driver offers for reuse.
 old-location: display\d3dddi_offer_priority.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dukmdt.h
+- D3dukmdt.h
 api_name:
--	D3DDDI_OFFER_PRIORITY
+- D3DDDI_OFFER_PRIORITY
 product:
 - Windows
 targetos: Windows

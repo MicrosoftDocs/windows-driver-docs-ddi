@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Start
-title: IWDFRemoteTarget::Start
+title: IWDFRemoteTarget::Start (wudfddi.h)
 description: The IWDFRemoteTarget::Start method restarts a remote I/O target that is stopped.
 old-location: wdf\iwdfremotetarget_start.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteTarget.Start
+- IWDFRemoteTarget.Start
 product:
 - Windows
 targetos: Windows

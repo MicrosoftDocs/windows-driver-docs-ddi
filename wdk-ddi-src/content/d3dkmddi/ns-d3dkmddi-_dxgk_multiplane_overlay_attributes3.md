@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
-title: "_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3"
+title: _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 (d3dkmddi.h)
 description: A structure containing the attributes used for the image in a multiplane overlay.
 old-location: display\dxgk_multiplane_overlay_attributes3.htm
 ms.assetid: 0491AF42-53DF-4538-BE8A-AA5AA7B2C65E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+- DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
 product:
 - Windows
 targetos: Windows

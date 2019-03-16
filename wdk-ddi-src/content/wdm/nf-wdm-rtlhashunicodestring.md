@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlHashUnicodeString
-title: RtlHashUnicodeString function
+title: RtlHashUnicodeString function (wdm.h)
 description: The RtlHashUnicodeString routine creates a hash value from a given Unicode string and hash algorithm.
 old-location: kernel\rtlhashunicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlHashUnicodeString
+- RtlHashUnicodeString
 product:
 - Windows
 targetos: Windows

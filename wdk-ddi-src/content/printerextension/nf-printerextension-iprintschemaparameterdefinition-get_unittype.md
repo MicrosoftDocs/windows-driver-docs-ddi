@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UnitType
-title: IPrintSchemaParameterDefinition::get_UnitType
+title: IPrintSchemaParameterDefinition::get_UnitType (printerextension.h)
 description: The UnitType property gets the unit type.
 old-location: print\_iprintschemaparameterdefinition_unittype.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition.UnitType
--	IPrintSchemaParameterDefinition.get_UnitType
+- IPrintSchemaParameterDefinition.UnitType
+- IPrintSchemaParameterDefinition.get_UnitType
 product:
 - Windows
 targetos: Windows

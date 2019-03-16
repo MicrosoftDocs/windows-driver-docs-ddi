@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
-title: "_D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE"
+title: _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE (d3dkmthk.h)
 description: Describes information that is required to map a global NT handle to resource information.
 old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
+- D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORVERTICALBLANKEVENT
-title: "_D3DKMT_WAITFORVERTICALBLANKEVENT"
+title: _D3DKMT_WAITFORVERTICALBLANKEVENT (d3dkmthk.h)
 description: The D3DKMT_WAITFORVERTICALBLANKEVENT structure describes parameters for waiting for the vertical blanking interval to occur.
 old-location: display\d3dkmt_waitforverticalblankevent.htm
 ms.assetid: dde8ebf7-7839-4bcc-8cb1-02a5ca922792
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_WAITFORVERTICALBLANKEVENT
+- D3DKMT_WAITFORVERTICALBLANKEVENT
 product:
 - Windows
 targetos: Windows

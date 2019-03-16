@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_WRITE_ULONG
-title: UART_HARDWARE_WRITE_ULONG
+title: UART_HARDWARE_WRITE_ULONG (uart.h)
 description: Writes a ULONG value to the specified port or register.
 tech.root: serports
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_HARDWARE_WRITE_ULONG
+- UART_HARDWARE_WRITE_ULONG
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

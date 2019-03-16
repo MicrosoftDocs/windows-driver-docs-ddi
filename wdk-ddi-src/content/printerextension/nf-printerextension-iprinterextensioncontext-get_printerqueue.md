@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_PrinterQueue
-title: IPrinterExtensionContext::get_PrinterQueue
+title: IPrinterExtensionContext::get_PrinterQueue (printerextension.h)
 description: Gets the queue for the printer.
 old-location: print\iprinterextensioncontext_printerqueue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionContext.PrinterQueue
--	IPrinterExtensionContext.get_PrinterQueue
+- IPrinterExtensionContext.PrinterQueue
+- IPrinterExtensionContext.get_PrinterQueue
 product:
 - Windows
 targetos: Windows

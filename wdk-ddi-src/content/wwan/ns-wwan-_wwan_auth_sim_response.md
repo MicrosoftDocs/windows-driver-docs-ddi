@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_RESPONSE
-title: "_WWAN_AUTH_SIM_RESPONSE"
+title: _WWAN_AUTH_SIM_RESPONSE (wwan.h)
 description: The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
 old-location: netvista\wwan_auth_sim_response.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_SIM_RESPONSE
+- WWAN_AUTH_SIM_RESPONSE
 product:
 - Windows
 targetos: Windows

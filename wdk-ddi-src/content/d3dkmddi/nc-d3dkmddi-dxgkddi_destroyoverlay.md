@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYOVERLAY
-title: DXGKDDI_DESTROYOVERLAY
+title: DXGKDDI_DESTROYOVERLAY (d3dkmddi.h)
 description: The DxgkDdiDestroyOverlay function disables overlay hardware and deletes the specified overlay handle.
 old-location: display\dxgkddidestroyoverlay.htm
 ms.assetid: ea4672a2-ba21-42d4-9ff3-4fa611f86c90
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiDestroyOverlay
+- DxgkDdiDestroyOverlay
 product:
 - Windows
 targetos: Windows

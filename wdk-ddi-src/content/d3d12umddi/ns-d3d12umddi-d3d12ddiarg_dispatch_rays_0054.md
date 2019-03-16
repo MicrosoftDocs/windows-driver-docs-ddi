@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_DISPATCH_RAYS_0054
-title: D3D12DDIARG_DISPATCH_RAYS_0054
+title: D3D12DDIARG_DISPATCH_RAYS_0054 (d3d12umddi.h)
 description: 
 ms.assetid: 48489559-e7f7-4c8d-874e-f9d9b9daf78e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_DISPATCH_RAYS_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_DISPATCH_RAYS_0054
+- D3D12DDIARG_DISPATCH_RAYS_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

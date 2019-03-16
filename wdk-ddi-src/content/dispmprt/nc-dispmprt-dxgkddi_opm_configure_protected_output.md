@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
-title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
+title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMConfigureProtectedOutput function configures the given protected output object.
 old-location: display\dxgkddiopmconfigureprotectedoutput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMConfigureProtectedOutput
+- DxgkDdiOPMConfigureProtectedOutput
 product:
 - Windows
 targetos: Windows

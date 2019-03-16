@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESS_FRAME_0021
-title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021
+title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 (d3d12umddi.h)
 description: The pfnProcessFrame callback function performs a video processing operation on one or more input samples and writes the result to an output surface.
 old-location: display\pfnd3d12ddi_video_process_frame.htm
 ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnProcessFrame
+- pfnProcessFrame
 product:
 - Windows
 targetos: Windows

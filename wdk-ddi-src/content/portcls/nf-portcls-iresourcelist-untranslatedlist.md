@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.UntranslatedList
-title: IResourceList::UntranslatedList
+title: IResourceList::UntranslatedList (portcls.h)
 description: The UntranslatedList method returns the list of untranslated resources.
 old-location: audio\iresourcelist_untranslatedlist.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.UntranslatedList
+- IResourceList.UntranslatedList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._SYM_DUMP_PARAM
-title: "_SYM_DUMP_PARAM"
+title: _SYM_DUMP_PARAM (wdbgexts.h)
 description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about the type of a symbol.
 old-location: debugger\ig_dump_symbol_info.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	SYM_DUMP_PARAM
+- SYM_DUMP_PARAM
 product:
 - Windows
 targetos: Windows

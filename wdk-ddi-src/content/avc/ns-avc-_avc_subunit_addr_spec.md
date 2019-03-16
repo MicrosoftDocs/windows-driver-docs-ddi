@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_SUBUNIT_ADDR_SPEC
-title: "_AVC_SUBUNIT_ADDR_SPEC"
+title: _AVC_SUBUNIT_ADDR_SPEC (avc.h)
 description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of avc.sys to describe virtual subunit addresses.
 old-location: stream\avc_subunit_addr_spec.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_SUBUNIT_ADDR_SPEC
+- AVC_SUBUNIT_ADDR_SPEC
 product:
 - Windows
 targetos: Windows

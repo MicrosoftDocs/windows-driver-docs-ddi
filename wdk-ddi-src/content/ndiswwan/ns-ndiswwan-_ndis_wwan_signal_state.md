@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SIGNAL_STATE
-title: "_NDIS_WWAN_SIGNAL_STATE"
+title: _NDIS_WWAN_SIGNAL_STATE (ndiswwan.h)
 description: The NDIS_WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 old-location: netvista\ndis_wwan_signal_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SIGNAL_STATE
+- NDIS_WWAN_SIGNAL_STATE
 product:
 - Windows
 targetos: Windows

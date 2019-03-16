@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSpinLockForDpc
-title: KeReleaseSpinLockForDpc function
+title: KeReleaseSpinLockForDpc function (wdm.h)
 description: The KeReleaseSpinLockForDpc routine releases a spin lock that was acquired by calling KeAcquireSpinLockForDpc.
 old-location: kernel\kereleasespinlockfordpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseSpinLockForDpc
+- KeReleaseSpinLockForDpc
 product:
 - Windows
 targetos: Windows

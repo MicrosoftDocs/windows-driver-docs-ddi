@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.GetPDEVAdjustment
-title: IPrintOemUni3::GetPDEVAdjustment
+title: IPrintOemUni3::GetPDEVAdjustment (prcomoem.h)
 description: The IPrintOemUni3::GetPDEVAdjustment method enables a plug-in to override specific PDEV settings.
 old-location: print\iprintoemuni3_getpdevadjustment.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni3.GetPDEVAdjustment
+- IPrintOemUni3.GetPDEVAdjustment
 product:
 - Windows
 targetos: Windows

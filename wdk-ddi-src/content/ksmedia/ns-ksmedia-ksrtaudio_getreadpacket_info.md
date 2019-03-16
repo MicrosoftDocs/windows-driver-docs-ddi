@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_34
-title: KSRTAUDIO_GETREADPACKET_INFO
+title: KSRTAUDIO_GETREADPACKET_INFO (ksmedia.h)
 description: The KSRTAUDIO_GETREADPACKET_INFO structure describes information for an audio packet.
 old-location: audio\ksrtaudio_getreadpacket_info.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSRTAUDIO_GETREADPACKET_INFO
+- KSRTAUDIO_GETREADPACKET_INFO
 product:
 - Windows
 targetos: Windows

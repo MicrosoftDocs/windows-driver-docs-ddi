@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU (d3dumddi.h)
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with pfnWaitForSynchronizationObjectFromCpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+- D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 product:
 - Windows
 targetos: Windows

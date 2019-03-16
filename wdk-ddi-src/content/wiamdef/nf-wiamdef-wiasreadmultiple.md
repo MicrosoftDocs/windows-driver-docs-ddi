@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadMultiple
-title: wiasReadMultiple function
+title: wiasReadMultiple function (wiamdef.h)
 description: The wiasReadMultiple function retrieves multiple property values from a WIA item.
 old-location: image\wiasreadmultiple.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasReadMultiple
+- wiasReadMultiple
 product:
 - Windows
 targetos: Windows

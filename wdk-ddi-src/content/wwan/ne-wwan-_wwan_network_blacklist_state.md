@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_NETWORK_BLACKLIST_STATE
-title: _WWAN_NETWORK_BLACKLIST_STATE
+title: _WWAN_NETWORK_BLACKLIST_STATE (wwan.h)
 description: The WWAN_NETWORK_BLACKLIST_STATE enumeration describes possible states of a modem's two different blacklists, the SIM provider blacklist and the network provider blacklist.
 tech.root: netvista
 ms.assetid: 5b07ce87-fbdb-495b-8a58-60141a34e52b
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_NETWORK_BLACKLIST_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_NETWORK_BLACKLIST_STATE
+- _WWAN_NETWORK_BLACKLIST_STATE
 product: 
 - Windows
 targetos: Windows

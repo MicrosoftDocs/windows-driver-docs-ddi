@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ReportDiscoveredTargets_OUT
-title: "_ReportDiscoveredTargets_OUT"
+title: _ReportDiscoveredTargets_OUT (iscsifnd.h)
 description: The ReportDiscoveredTargets_OUT structure holds the output data for the ReportDiscoveredTargets method.
 old-location: storage\reportdiscoveredtargets_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsifnd.h
+- iscsifnd.h
 api_name:
--	ReportDiscoveredTargets_OUT
+- ReportDiscoveredTargets_OUT
 product:
 - Windows
 targetos: Windows

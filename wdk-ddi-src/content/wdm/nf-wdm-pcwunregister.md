@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwUnregister
-title: PcwUnregister function
+title: PcwUnregister function (wdm.h)
 description: The PcwUnregister function unregisters the provider of the specified counter set.
 old-location: devtest\pcwunregister.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PcwUnregister
+- PcwUnregister
 product:
 - Windows
 targetos: Windows

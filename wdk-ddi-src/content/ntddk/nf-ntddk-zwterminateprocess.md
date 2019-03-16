@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwTerminateProcess
-title: ZwTerminateProcess function
+title: ZwTerminateProcess function (ntddk.h)
 description: The ZwTerminateProcess routine terminates a process and all of its threads.
 old-location: kernel\zwterminateprocess.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwTerminateProcess
--	NtTerminateProcess
+- ZwTerminateProcess
+- NtTerminateProcess
 product:
 - Windows
 targetos: Windows

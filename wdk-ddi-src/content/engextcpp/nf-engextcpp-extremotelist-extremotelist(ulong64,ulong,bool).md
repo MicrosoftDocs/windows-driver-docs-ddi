@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool)
-title: ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)
+title: ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool) (engextcpp.h)
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_ulong64.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteList.ExtRemoteList
+- ExtRemoteList.ExtRemoteList
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

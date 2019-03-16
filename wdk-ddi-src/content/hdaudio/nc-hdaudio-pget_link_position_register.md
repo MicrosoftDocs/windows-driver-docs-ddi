@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PGET_LINK_POSITION_REGISTER
-title: PGET_LINK_POSITION_REGISTER
+title: PGET_LINK_POSITION_REGISTER (hdaudio.h)
 description: The GetLinkPositionRegister routine retrieves a pointer to a DMA engine's link position register.The function pointer type for a GetLinkPositionRegister routine is defined as follows.
 old-location: audio\getlinkpositionregister.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	GetLinkPositionRegister
+- GetLinkPositionRegister
 product:
 - Windows
 targetos: Windows

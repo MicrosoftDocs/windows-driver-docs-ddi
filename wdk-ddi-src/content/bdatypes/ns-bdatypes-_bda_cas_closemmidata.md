@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CLOSEMMIDATA
-title: "_BDA_CAS_CLOSEMMIDATA"
+title: _BDA_CAS_CLOSEMMIDATA (bdatypes.h)
 description: 
 old-location: stream\bda_cas_closemmidata.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_CAS_CLOSEMMIDATA
+- BDA_CAS_CLOSEMMIDATA
 product:
 - Windows
 targetos: Windows

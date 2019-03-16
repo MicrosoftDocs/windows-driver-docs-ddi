@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_REL_TIMEOUT_IN_US
-title: WDF_REL_TIMEOUT_IN_US function
+title: WDF_REL_TIMEOUT_IN_US function (wdfcore.h)
 description: The WDF_REL_TIMEOUT_IN_US function converts a specified number of microseconds to a relative time value.
 old-location: wdf\wdf_rel_timeout_in_us.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_REL_TIMEOUT_IN_US
+- WDF_REL_TIMEOUT_IN_US
 product:
 - Windows
 targetos: Windows

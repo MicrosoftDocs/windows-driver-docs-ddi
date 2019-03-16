@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_MAPMDLTOIOMMU
-title: DXGKCB_MAPMDLTOIOMMU
+title: DXGKCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: Implemented by the client driver to map physical pages described by a memory descriptor list (MDL) into the system virtual address space, and use them with the IoMmu.
 ms.assetid: 8badbe56-f46c-442c-8918-5e99db889278
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_MAPMDLTOIOMMU
+- DXGKCB_MAPMDLTOIOMMU
 product: 
 - Windows
 targetos: Windows

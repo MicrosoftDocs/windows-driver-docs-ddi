@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetActivityIdIrp
-title: IoSetActivityIdIrp function
+title: IoSetActivityIdIrp function (ntddk.h)
 description: The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 old-location: kernel\iosetactivityidirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level if a GUID is passed in, otherwise PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetActivityIdIrp
+- IoSetActivityIdIrp
 product:
 - Windows
 targetos: Windows

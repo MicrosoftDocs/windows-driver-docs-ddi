@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
-title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+title: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 (d3d12umddi.h)
 description: This structure contains runtime callback functions that the user-mode display driver can use.
 old-location: display\d3d12ddi_corelayer_devicecallbacks_0022.htm
 ms.assetid: E5B7FDB6-3351-489E-B0BB-8B8DD605FCF4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+- D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetDMProfileConfigInfo
-title: RIL_GetDMProfileConfigInfo function
+title: RIL_GetDMProfileConfigInfo function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdmprofileconfiginfo.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_GetDMProfileConfigInfo
+- RIL_GetDMProfileConfigInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaTransmitGetDmaEnabler
-title: SerCx2SystemDmaTransmitGetDmaEnabler function
+title: SerCx2SystemDmaTransmitGetDmaEnabler function (sercx.h)
 description: The SerCx2SystemDmaTransmitGetDmaEnabler method gets the DMA enabler for the system DMA controller that is used for system-DMA-transmit transactions.
 old-location: serports\sercx2systemdmatransmitgetdmaenabler.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2SystemDmaTransmitGetDmaEnabler
+- SerCx2SystemDmaTransmitGetDmaEnabler
 product:
 - Windows
 targetos: Windows

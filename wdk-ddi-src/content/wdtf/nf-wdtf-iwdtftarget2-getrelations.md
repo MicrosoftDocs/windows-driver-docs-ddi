@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetRelations
-title: IWDTFTarget2::GetRelations
+title: IWDTFTarget2::GetRelations (wdtf.h)
 description: Returns a collection of related targets.
 old-location: dtf\iwdtftarget2_getrelations.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.GetRelations
+- IWDTFTarget2.GetRelations
 product:
 - Windows
 targetos: Windows

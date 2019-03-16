@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PFREE_DMA_ENGINE
-title: PFREE_DMA_ENGINE
+title: PFREE_DMA_ENGINE (hdaudio.h)
 description: The FreeDmaEngine routine frees a DMA engine that was previously allocated by a call to AllocateCaptureDmaEngine or AllocateRenderDmaEngine.The function pointer type for a FreeDmaEngine routine is defined as follows.
 old-location: audio\freedmaengine.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	FreeDmaEngine
+- FreeDmaEngine
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.GetPhysicalPageAddress
-title: IPortWaveRTStream::GetPhysicalPageAddress
+title: IPortWaveRTStream::GetPhysicalPageAddress (portcls.h)
 description: The GetPhysicalPageAddress method returns the physical address for a page within a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_getphysicalpageaddress.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.GetPhysicalPageAddress
+- IPortWaveRTStream.GetPhysicalPageAddress
 product:
 - Windows
 targetos: Windows

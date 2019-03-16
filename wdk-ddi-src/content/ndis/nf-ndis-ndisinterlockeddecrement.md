@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedDecrement
-title: NdisInterlockedDecrement macro
+title: NdisInterlockedDecrement macro (ndis.h)
 description: The NdisInterlockedDecrement function decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: netvista\ndisinterlockeddecrement.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisInterlockedDecrement
+- NdisInterlockedDecrement
 product:
 - Windows
 targetos: Windows

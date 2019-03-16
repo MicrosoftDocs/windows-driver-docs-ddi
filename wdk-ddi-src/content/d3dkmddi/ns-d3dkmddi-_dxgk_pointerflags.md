@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POINTERFLAGS
-title: "_DXGK_POINTERFLAGS"
+title: _DXGK_POINTERFLAGS (d3dkmddi.h)
 description: The DXGK_POINTERFLAGS structure identifies mouse pointer capabilities of the display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_pointerflags.htm
 ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_POINTERFLAGS
+- DXGK_POINTERFLAGS
 product:
 - Windows
 targetos: Windows

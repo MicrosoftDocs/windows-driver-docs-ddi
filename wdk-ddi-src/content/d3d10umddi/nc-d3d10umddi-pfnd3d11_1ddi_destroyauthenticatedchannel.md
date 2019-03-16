@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL
-title: PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL
+title: PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL (d3d10umddi.h)
 description: Releases resources for the authenticated channel that were created through a call to the CreateAuthenticatedChannel(D3D11_1) function.
 old-location: display\destroyauthenticatedchannel1.htm
 ms.assetid: 3eebda5e-72c6-4167-a886-58e877551923
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnDestroyAuthenticatedChannel
+- pfnDestroyAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

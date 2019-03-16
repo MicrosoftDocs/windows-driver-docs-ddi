@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortCreateSecondaryDisplay
-title: VideoPortCreateSecondaryDisplay function
+title: VideoPortCreateSecondaryDisplay function (video.h)
 description: The VideoPortCreateSecondaryDisplay function enables dual-view support by creating a secondary device object for the given device.
 old-location: display\videoportcreatesecondarydisplay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortCreateSecondaryDisplay
+- VideoPortCreateSecondaryDisplay
 product:
 - Windows
 targetos: Windows

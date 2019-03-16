@@ -1,6 +1,6 @@
 ---
 UID: NF:netdatapathdescriptor.NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
-title: NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro
+title: NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro (netdatapathdescriptor.h)
 description: The NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro retrieves a datapath queue's packet ring buffer.
 tech.root: netvista
 ms.assetid: b715d6c9-84f1-4c99-8c28-8eaa7d6eb8ef
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netdatapathdescriptor.h
-apiname: 
--	NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netdatapathdescriptor.h
+api_name: 
+- NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

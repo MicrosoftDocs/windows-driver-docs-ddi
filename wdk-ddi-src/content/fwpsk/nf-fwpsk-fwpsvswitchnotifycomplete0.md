@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsvSwitchNotifyComplete0
-title: FwpsvSwitchNotifyComplete0 function
+title: FwpsvSwitchNotifyComplete0 function (fwpsk.h)
 description: The FwpsvSwitchNotifyComplete0 function completes a pending virtual switch event notification.Note  FwpsvSwitchNotifyComplete0 is a specific version of FwpsvSwitchNotifyComplete.
 old-location: netvista\fwpsvswitchnotifycomplete0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsvSwitchNotifyComplete0
+- FwpsvSwitchNotifyComplete0
 product:
 - Windows
 targetos: Windows

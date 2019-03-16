@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.EndTestCase
-title: IWDTFLOG2::EndTestCase
+title: IWDTFLOG2::EndTestCase (wdtf.h)
 description: Marks the end of a test case.
 old-location: dtf\iwdtflog2_endtestcase.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLOG2.EndTestCase
+- IWDTFLOG2.EndTestCase
 product:
 - Windows
 targetos: Windows

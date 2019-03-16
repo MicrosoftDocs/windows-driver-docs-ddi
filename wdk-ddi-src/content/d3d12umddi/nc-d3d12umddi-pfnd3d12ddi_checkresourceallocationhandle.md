@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
-title: PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
+title: PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE (d3d12umddi.h)
 description: Checks resource allocation handle.
 ms.assetid: 627c14f1-f793-40a8-b52d-ba98f90d2d1b
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
+- PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LEVEL_TRIM
-title: "_FILE_LEVEL_TRIM"
+title: _FILE_LEVEL_TRIM (ntifs.h)
 description: The FILE_LEVEL_TRIM structure contains an array of byte ranges to trim for a file.
 old-location: ifsk\file_level_trim.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_LEVEL_TRIM
+- FILE_LEVEL_TRIM
 product:
 - Windows
 targetos: Windows

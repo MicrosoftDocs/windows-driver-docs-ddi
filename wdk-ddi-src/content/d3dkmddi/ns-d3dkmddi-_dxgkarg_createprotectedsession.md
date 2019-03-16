@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEPROTECTEDSESSION
-title: "_DXGKARG_CREATEPROTECTEDSESSION"
+title: _DXGKARG_CREATEPROTECTEDSESSION (d3dkmddi.h)
 description: Used to create a protected session.
 old-location: display\dxgkarg_createprotectedsession.htm
 ms.assetid: 37A9A957-344F-48F6-93DE-D81DE5C20076
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_CREATEPROTECTEDSESSION
+- DXGKARG_CREATEPROTECTEDSESSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:printoem._EATTRIBUTE_DATATYPE
-title: "_EATTRIBUTE_DATATYPE"
+title: _EATTRIBUTE_DATATYPE (printoem.h)
 description: The EATTRIBUTE_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
 old-location: print\eattribute_datatype.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	EATTRIBUTE_DATATYPE
+- EATTRIBUTE_DATATYPE
 product:
 - Windows
 targetos: Windows

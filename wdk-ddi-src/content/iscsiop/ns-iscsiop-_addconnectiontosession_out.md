@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_OUT
-title: "_AddConnectionToSession_OUT"
+title: _AddConnectionToSession_OUT (iscsiop.h)
 description: The AddConnectionToSession_OUT structure holds output data for the AddConnectionToSession method.
 old-location: storage\addconnectiontosession_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	AddConnectionToSession_OUT
+- AddConnectionToSession_OUT
 product:
 - Windows
 targetos: Windows

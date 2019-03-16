@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_union_9
-title: KSPROPERTY_BOUNDS_LONG
+title: KSPROPERTY_BOUNDS_LONG (ks.h)
 description: The KSPROPERTY_BOUNDS_LONG structure defines the bounds for a 32-bit property.
 old-location: stream\ksproperty_bounds_long.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_BOUNDS_LONG
+- KSPROPERTY_BOUNDS_LONG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_EMITTING_LIGHT
-title: IOCTL_LAMP_SET_EMITTING_LIGHT
+title: IOCTL_LAMP_SET_EMITTING_LIGHT (lamp.h)
 description: The IOCTL_LAMP_SET_EMITTING_LIGHT control code turns the lamp on or off.
 old-location: stream\ioctl_lamp_set_emitting_light.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	IOCTL_LAMP_SET_EMITTING_LIGHT
+- IOCTL_LAMP_SET_EMITTING_LIGHT
 product:
 - Windows
 targetos: Windows

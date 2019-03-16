@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_PORT_ULONG
-title: WDF_WRITE_PORT_ULONG function
+title: WDF_WRITE_PORT_ULONG function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_ULONG function writes a ULONG value to the specified port address.
 old-location: wdf\wdf_write_port_ulong.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfhwaccess.h
+- Wdfhwaccess.h
 api_name:
--	WDF_WRITE_PORT_ULONG
+- WDF_WRITE_PORT_ULONG
 product:
 - Windows
 targetos: Windows

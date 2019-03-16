@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_57
-title: SYSAUDIO_INSTANCE_INFO
+title: SYSAUDIO_INSTANCE_INFO (ksmedia.h)
 description: The SYSAUDIO_INSTANCE_INFO structure specifies which virtual audio device to open and includes flags for configuring that device.
 old-location: audio\sysaudio_instance_info.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	SYSAUDIO_INSTANCE_INFO
+- SYSAUDIO_INSTANCE_INFO
 product:
 - Windows
 targetos: Windows

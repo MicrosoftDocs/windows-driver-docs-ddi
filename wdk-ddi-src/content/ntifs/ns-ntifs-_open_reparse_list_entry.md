@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST_ENTRY
-title: "_OPEN_REPARSE_LIST_ENTRY"
+title: _OPEN_REPARSE_LIST_ENTRY (ntifs.h)
 description: This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.
 old-location: ifsk\open_reparse_list_entry_.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	OPEN_REPARSE_LIST_ENTRY
+- OPEN_REPARSE_LIST_ENTRY
 product:
 - Windows
 targetos: Windows

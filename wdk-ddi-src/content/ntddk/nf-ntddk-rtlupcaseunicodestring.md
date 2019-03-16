@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlUpcaseUnicodeString
-title: RtlUpcaseUnicodeString function
+title: RtlUpcaseUnicodeString function (ntddk.h)
 description: The RtlUpcaseUnicodeString routine converts a copy of the source string to uppercase and writes the converted string in the destination buffer.
 old-location: kernel\rtlupcaseunicodestring.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlUpcaseUnicodeString
+- RtlUpcaseUnicodeString
 product:
 - Windows
 targetos: Windows

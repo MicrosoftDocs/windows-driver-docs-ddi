@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CAPABILITY_IN
-title: _UCSI_GET_CAPABILITY_IN
+title: _UCSI_GET_CAPABILITY_IN (ucmucsispec.h)
 description: Used in the GET_CAPABILITY command. See Table 4-13.
 ms.assetid: eec2299f-8466-4afe-a7cb-b2521f94f195
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CAPABILITY_IN, *PUCSI_GET_CAPABILITY_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CAPABILITY_IN
-product: Windows
+- _UCSI_GET_CAPABILITY_IN
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

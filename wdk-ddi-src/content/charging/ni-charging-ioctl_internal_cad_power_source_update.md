@@ -1,6 +1,6 @@
 ---
 UID: NI:charging.IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
-title: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
+title: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_internal_cad_power_source_update.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
+- IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
 product:
 - Windows
 targetos: Windows

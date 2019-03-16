@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
-title: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+title: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG (d3d10umddi.h)
 description: Identifies how to check multisample quality levels using the CheckMultisampleQualityLevels(D3D11_2) function.
 old-location: display\d3dwddm1_3ddi_check_multisample_quality_levels_flag.htm
 ms.assetid: C69CDCCF-3E5F-4E1A-8781-A995F8E4F2C2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
+- D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 product:
 - Windows
 targetos: Windows

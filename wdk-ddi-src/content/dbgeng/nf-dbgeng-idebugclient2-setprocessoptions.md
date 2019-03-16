@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.SetProcessOptions
-title: IDebugClient2::SetProcessOptions
+title: IDebugClient2::SetProcessOptions (dbgeng.h)
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.SetProcessOptions
--	IDebugClient2.SetProcessOptions
--	IDebugClient3.SetProcessOptions
--	IDebugClient4.SetProcessOptions
--	IDebugClient5.SetProcessOptions
+- IDebugClient.SetProcessOptions
+- IDebugClient2.SetProcessOptions
+- IDebugClient3.SetProcessOptions
+- IDebugClient4.SetProcessOptions
+- IDebugClient5.SetProcessOptions
 product:
 - Windows
 targetos: Windows

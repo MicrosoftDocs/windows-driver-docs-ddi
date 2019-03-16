@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaLog.Log
-title: IWiaLog::Log
+title: IWiaLog::Log (wia_lh.h)
 description: The IWiaLog interface is obsolete for Windows XP and later, and is no longer supported. Use the Diagnostic Log Macros instead.The IWiaLog::Log method writes a diagnostic log message to Wiaservc.log.
 old-location: image\iwialog_log.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaLog.Log
+- IWiaLog.Log
 product:
 - Windows
 targetos: Windows

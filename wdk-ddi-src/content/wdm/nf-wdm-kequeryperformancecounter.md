@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryPerformanceCounter
-title: KeQueryPerformanceCounter function
+title: KeQueryPerformanceCounter function (wdm.h)
 description: The KeQueryPerformanceCounter routine retrieves the current value and frequency of the performance counter.Use KeQueryPerformanceCounter to acquire high resolution (&lt;1us) time stamps for time interval measurements.
 old-location: kernel\kequeryperformancecounter.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	KeQueryPerformanceCounter
+- KeQueryPerformanceCounter
 product:
 - Windows
 targetos: Windows
@@ -48,7 +48,7 @@ req.typenames:
 
 The <b>KeQueryPerformanceCounter</b> routine retrieves the current value and frequency of the performance counter.
 
-Use <b>KeQueryPerformanceCounter</b> to acquire high resolution (&lt;1us) time stamps for time interval measurements.
+Use <b>KeQueryPerformanceCounter</b> to acquire high resolution (<1&micro;s) time stamps for time interval measurements.
 
 
 ## -parameters
@@ -88,28 +88,26 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553025">KeQueryInterruptTime</a>
+[KeQueryInterruptTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttime)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
+[KeQuerySystemTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime~r1)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553071">KeQueryTickCount</a>
+[KeQueryTickCount](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequerytickcount)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a>
+[KeQueryTimeIncrement](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerytimeincrement)
 
 
 
-<a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a>
+[QueryPerformanceCounter](https://msdn.microsoft.com/library/windows/desktop/ms644904(v=vs.85).aspx)
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
- 
-
+[QueryPerformanceFrequency](https://msdn.microsoft.com/library/windows/desktop/ms644905(v=vs.85).aspx)
  
 

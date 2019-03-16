@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_MUX_PIDLISTITEM
-title: _BDA_MUX_PIDLISTITEM
+title: _BDA_MUX_PIDLISTITEM (bdatypes.h)
 description: 
 ms.assetid: ecf9f79f-129b-45ea-a0da-b905a8e30f78
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BDA_MUX_PIDLISTITEM, *PBDA_MUX_PIDLISTITEM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	bdatypes.h
+- bdatypes.h
 api_name: 
--	_BDA_MUX_PIDLISTITEM
+- _BDA_MUX_PIDLISTITEM
 product:
 -   Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlQueryCachedVdl
-title: FsRtlQueryCachedVdl function
+title: FsRtlQueryCachedVdl function (ntifs.h)
 description: The current valid data length (VDL) for a cached file is retrieved with the FsRtlQueryCachedVdl routine.
 old-location: ifsk\fsrtlquerycachedvdl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlQueryCachedVdl
+- FsRtlQueryCachedVdl
 product:
 - Windows
 targetos: Windows

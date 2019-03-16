@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtRollbackTransaction
-title: NtRollbackTransaction function
+title: NtRollbackTransaction function (wdm.h)
 description: The ZwRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\zwrollbacktransaction.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwRollbackTransaction
--	NtRollbackTransaction
+- ZwRollbackTransaction
+- NtRollbackTransaction
 product:
 - Windows
 targetos: Windows

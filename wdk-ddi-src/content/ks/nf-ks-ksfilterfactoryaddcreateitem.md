@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryAddCreateItem
-title: KsFilterFactoryAddCreateItem function
+title: KsFilterFactoryAddCreateItem function (ks.h)
 description: The KsFilterFactoryAddCreateItem function adds a new create item for the specified filter factory.
 old-location: stream\ksfilterfactoryaddcreateitem.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterFactoryAddCreateItem
+- KsFilterFactoryAddCreateItem
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnalignedStringCbLengthW
-title: RtlUnalignedStringCbLengthW function
+title: RtlUnalignedStringCbLengthW function (ntstrsafe.h)
 description: The RtlUnalignedStringCbLengthW function is a version of the RtlStringCbLength function that accepts an unaligned pointer to a string of Unicode characters.
 old-location: kernel\rtlunalignedstringcblength.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlUnalignedStringCbLengthW
+- RtlUnalignedStringCbLengthW
 product:
 - Windows
 targetos: Windows

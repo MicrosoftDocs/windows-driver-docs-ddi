@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetTime
-title: IKsClockPropertySet::KsSetTime
+title: IKsClockPropertySet::KsSetTime (ksproxy.h)
 description: The KsSetTime method sets the current time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssettime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsSetTime
+- IKsClockPropertySet.KsSetTime
 product:
 - Windows
 targetos: Windows

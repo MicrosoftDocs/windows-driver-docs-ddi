@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineProgressReport.ReportProgress
-title: IPrintPipelineProgressReport::ReportProgress
+title: IPrintPipelineProgressReport::ReportProgress (filterpipeline.h)
 description: The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.
 old-location: print\iprintpipelineprogressreport_reportprogress.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelineProgressReport.ReportProgress
+- IPrintPipelineProgressReport.ReportProgress
 product:
 - Windows
 targetos: Windows

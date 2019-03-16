@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetPinFromIrp
-title: KsGetPinFromIrp function
+title: KsGetPinFromIrp function (ks.h)
 description: The KsGetPinFromIrp function returns the AVStream pin object associated with the given IRP.
 old-location: stream\ksgetpinfromirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetPinFromIrp
+- KsGetPinFromIrp
 product:
 - Windows
 targetos: Windows

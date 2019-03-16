@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionCreate
-title: WdfCompanionCreate function
+title: WdfCompanionCreate function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdfcompanioncreate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WdfCompanionCreate
+- WdfCompanionCreate
 product:
 - Windows
 targetos: Windows

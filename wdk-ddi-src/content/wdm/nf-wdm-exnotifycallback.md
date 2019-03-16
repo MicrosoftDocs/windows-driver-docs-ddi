@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExNotifyCallback
-title: ExNotifyCallback function
+title: ExNotifyCallback function (wdm.h)
 description: The ExNotifyCallback routine causes all callback routines registered for the given object to be called.
 old-location: kernel\exnotifycallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExNotifyCallback
+- ExNotifyCallback
 product:
 - Windows
 targetos: Windows

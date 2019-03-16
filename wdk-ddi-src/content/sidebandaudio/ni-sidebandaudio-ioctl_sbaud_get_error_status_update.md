@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
-title: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
+title: IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE (sidebandaudio.h)
 description: 
 ms.assetid: 41511734-9bbb-4a5f-ac65-e8eb0c455185
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
-product: Windows
+- IOCTL_SBAUD_GET_ERROR_STATUS_UPDATE
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

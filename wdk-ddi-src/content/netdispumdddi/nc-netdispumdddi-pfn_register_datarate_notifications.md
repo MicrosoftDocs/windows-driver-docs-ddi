@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_REGISTER_DATARATE_NOTIFICATIONS
-title: PFN_REGISTER_DATARATE_NOTIFICATIONS
+title: PFN_REGISTER_DATARATE_NOTIFICATIONS (netdispumdddi.h)
 description: Called by the user-mode driver to register with the operating system to receive network quality of service (QoS) notifications and the current network bandwidth of the Miracast connection.The data type of this function is PFN_REGISTER_DATARATE_NOTIFICATIONS.
 old-location: display\registerfordataratenotifications.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	RegisterForDataRateNotifications
+- RegisterForDataRateNotifications
 product:
 - Windows
 targetos: Windows

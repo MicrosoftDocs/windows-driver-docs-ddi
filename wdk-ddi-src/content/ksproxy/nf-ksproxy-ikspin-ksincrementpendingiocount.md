@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsIncrementPendingIoCount
-title: IKsPin::KsIncrementPendingIoCount
+title: IKsPin::KsIncrementPendingIoCount (ksproxy.h)
 description: The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksincrementpendingiocount.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsIncrementPendingIoCount
+- IKsPin.KsIncrementPendingIoCount
 product:
 - Windows
 targetos: Windows

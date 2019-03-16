@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsFatDbcsLegal~r3
-title: FsRtlIsFatDbcsLegal function
+title: FsRtlIsFatDbcsLegal function (ntifs.h)
 description: The FsRtlIsFatDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal FAT file name.
 old-location: ifsk\fsrtlisfatdbcslegal.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsFatDbcsLegal
+- FsRtlIsFatDbcsLegal
 product:
 - Windows
 targetos: Windows

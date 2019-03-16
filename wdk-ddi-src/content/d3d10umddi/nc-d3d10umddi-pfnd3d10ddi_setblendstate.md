@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETBLENDSTATE
-title: PFND3D10DDI_SETBLENDSTATE
+title: PFND3D10DDI_SETBLENDSTATE (d3d10umddi.h)
 description: The SetBlendState function sets a blend state.
 old-location: display\setblendstate.htm
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetBlendState
+- SetBlendState
 product:
 - Windows
 targetos: Windows

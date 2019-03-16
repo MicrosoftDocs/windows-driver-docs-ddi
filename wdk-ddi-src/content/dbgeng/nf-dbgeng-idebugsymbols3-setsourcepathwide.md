@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSourcePathWide
-title: IDebugSymbols3::SetSourcePathWide
+title: IDebugSymbols3::SetSourcePathWide (dbgeng.h)
 description: The SetSourcePathWide method sets the source path.
 old-location: debugger\setsourcepathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.SetSourcePathWide
+- IDebugSymbols3.SetSourcePathWide
 product:
 - Windows
 targetos: Windows

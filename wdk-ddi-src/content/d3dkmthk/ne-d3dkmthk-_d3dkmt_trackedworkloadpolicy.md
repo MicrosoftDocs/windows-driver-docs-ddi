@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_TRACKEDWORKLOADPOLICY
-title: _D3DKMT_TRACKEDWORKLOADPOLICY
+title: _D3DKMT_TRACKEDWORKLOADPOLICY (d3dkmthk.h)
 description: Indicates if the execution of tracked workload should attempt to preserve battery or be geared towards performance.
 ms.assetid: 3e508c6e-cf67-423d-bc1b-7566dbce965e
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_TRACKEDWORKLOADPOLICY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRACKEDWORKLOADPOLICY
+- _D3DKMT_TRACKEDWORKLOADPOLICY
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

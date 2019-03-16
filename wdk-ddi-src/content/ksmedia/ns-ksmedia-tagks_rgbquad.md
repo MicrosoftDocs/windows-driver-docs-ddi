@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_RGBQUAD
-title: tagKS_RGBQUAD
+title: tagKS_RGBQUAD (ksmedia.h)
 description: The KS_RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue, ranging from 0 to 255 (0x0 to 0xff).
 old-location: stream\ks_rgbquad.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_RGBQUAD
+- KS_RGBQUAD
 product:
 - Windows
 targetos: Windows

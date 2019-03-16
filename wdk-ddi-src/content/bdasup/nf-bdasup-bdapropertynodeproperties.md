@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeProperties
-title: BdaPropertyNodeProperties function
+title: BdaPropertyNodeProperties function (bdasup.h)
 description: The BdaPropertyNodeProperties function retrieves a list of properties that a node supports.
 old-location: stream\bdapropertynodeproperties.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyNodeProperties
+- BdaPropertyNodeProperties
 product:
 - Windows
 targetos: Windows

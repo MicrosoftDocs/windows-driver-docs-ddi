@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWPRIMITIVE
-title: "_D3DHAL_DP2DRAWPRIMITIVE"
+title: _D3DHAL_DP2DRAWPRIMITIVE (d3dhal.h)
 description: DirectX 8.0 and later versions only. D3DHAL_DRAWPRIMITIVE is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_DRAWPRIMITIVE, and is used to render a primitive.
 old-location: display\d3dhal_dp2drawprimitive.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2DRAWPRIMITIVE
+- D3DHAL_DP2DRAWPRIMITIVE
 product:
 - Windows
 targetos: Windows

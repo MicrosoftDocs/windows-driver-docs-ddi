@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_DIMENSION
-title: D3D12DDI_RESOURCE_DIMENSION
+title: D3D12DDI_RESOURCE_DIMENSION (d3d12umddi.h)
 description: Identifies the type of resource dimension to use.
 ms.assetid: d53f3355-2abc-4b16-855e-e2716faaa99c
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RESOURCE_DIMENSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RESOURCE_DIMENSION
+- D3D12DDI_RESOURCE_DIMENSION
 product:
 - Windows
 targetos: Windows

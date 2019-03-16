@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetNextEventIndex
-title: IDebugControl3::SetNextEventIndex
+title: IDebugControl3::SetNextEventIndex (dbgeng.h)
 description: The SetNextEventIndex method sets the next event for the current target by selecting the event from the static list of events for the target, if such a list exists.
 old-location: debugger\setnexteventindex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.SetNextEventIndex
+- IDebugControl3.SetNextEventIndex
 product:
 - Windows
 targetos: Windows

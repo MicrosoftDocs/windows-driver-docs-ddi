@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PshedRegisterPlugin
-title: PshedRegisterPlugin function
+title: PshedRegisterPlugin function (ntddk.h)
 description: The PshedRegisterPlugin function registers a PSHED plug-in with the PSHED.
 old-location: whea\pshedregisterplugin.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedRegisterPlugin
+- PshedRegisterPlugin
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
-title: "_PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER"
+title: _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER (miniport.h)
 description: The PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER structure describes the header for a PCI Express (PCIe) extended capability structure.
 old-location: pci\pci_express_enhanced_capability_header.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
+- PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
 product:
 - Windows
 targetos: Windows

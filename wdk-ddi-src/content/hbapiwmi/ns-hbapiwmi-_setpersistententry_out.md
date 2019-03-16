@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetPersistentEntry_OUT
-title: "_SetPersistentEntry_OUT"
+title: _SetPersistentEntry_OUT (hbapiwmi.h)
 description: The SetPersistentEntry_OUT structure is used to report the output parameter data of the SetPersistentEntry WMI method to the WMI client.
 old-location: storage\setpersistententry_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SetPersistentEntry_OUT
+- SetPersistentEntry_OUT
 product:
 - Windows
 targetos: Windows

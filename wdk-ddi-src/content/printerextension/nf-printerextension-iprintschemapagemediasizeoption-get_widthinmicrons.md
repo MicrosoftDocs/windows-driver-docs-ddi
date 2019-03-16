@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
-title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
+title: IPrintSchemaPageMediaSizeOption::get_WidthInMicrons (printerextension.h)
 description: Gets the width of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_widthinmicrons.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaPageMediaSizeOption.WidthInMicrons
--	IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
+- IPrintSchemaPageMediaSizeOption.WidthInMicrons
+- IPrintSchemaPageMediaSizeOption.get_WidthInMicrons
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_INFO
-title: NET_BUFFER_LIST_INFO macro
+title: NET_BUFFER_LIST_INFO macro (ndis.h)
 description: NET_BUFFER_LIST_INFO is a macro that NDIS drivers use to get and set information that applies to all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 2d4727fc-43bf-41a5-8e2e-3c5de814aaef
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_INFO
+- NET_BUFFER_LIST_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

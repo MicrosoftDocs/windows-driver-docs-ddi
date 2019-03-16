@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NOTIFICATION_INFO_WXP
-title: "_NOTIFICATION_INFO_WXP"
+title: _NOTIFICATION_INFO_WXP (1394.h)
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	NOTIFICATION_INFO
+- NOTIFICATION_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Close
-title: IWDTFSimpleIOEx2::Close
+title: IWDTFSimpleIOEx2::Close (wdtfinterfaces.h)
 description: Closes the device.
 old-location: dtf\iwdtfsimpleioex2_close.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOEx2.Close
+- IWDTFSimpleIOEx2.Close
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisTestNblFlag
-title: NdisTestNblFlag macro
+title: NdisTestNblFlag macro (ndis.h)
 description: The NdisTestNblFlag macro retrieves the current setting of a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 39001bdc-f751-4c77-983c-3495efd46c87
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NdisTestNblFlag
+- NdisTestNblFlag
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

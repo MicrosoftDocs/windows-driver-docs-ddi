@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
-title: "_WIM_PROVIDER_SUSPEND_OVERLAY_INPUT"
+title: _WIM_PROVIDER_SUSPEND_OVERLAY_INPUT (ntifs.h)
 description: A Windows Image File (WIM) data source to suspend from the WIM provider is specified in the WIM_PROVIDER_SUSPEND_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_suspend_overlay_input.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
+- WIM_PROVIDER_SUSPEND_OVERLAY_INPUT
 product:
 - Windows
 targetos: Windows

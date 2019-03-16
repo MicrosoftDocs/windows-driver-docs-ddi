@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReloadSymbols
-title: ReloadSymbols function
+title: ReloadSymbols function (wdbgexts.h)
 description: The ReloadSymbols function deletes symbol information from the debugger so that it can be reloaded as needed. This function behaves the same way as the debugger command .reload.
 old-location: debugger\reloadsymbols.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReloadSymbols
+- ReloadSymbols
 product:
 - Windows
 targetos: Windows

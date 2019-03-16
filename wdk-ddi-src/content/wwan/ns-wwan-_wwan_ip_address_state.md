@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IP_ADDRESS_STATE
-title: "_WWAN_IP_ADDRESS_STATE"
+title: _WWAN_IP_ADDRESS_STATE (wwan.h)
 description: The WWAN_IP_ADDRESS_STATE structure represents the IP addresses, gateways, DNS servers, and/or MTUs of a PDP context.
 old-location: netvista\wwan_ip_address_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_IP_ADDRESS_STATE
+- WWAN_IP_ADDRESS_STATE
 product:
 - Windows
 targetos: Windows

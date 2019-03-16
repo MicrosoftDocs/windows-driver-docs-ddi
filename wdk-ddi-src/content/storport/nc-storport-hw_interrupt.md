@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_INTERRUPT
-title: HW_INTERRUPT
+title: HW_INTERRUPT (storport.h)
 description: The Storport driver calls the HwStorInterrupt routine after the HBA generates an interrupt request.
 old-location: storage\hwstorinterrupt.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DIRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorInterrupt
+- HwStorInterrupt
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCKEYREF
-title: RILUICCKEYREF
+title: RILUICCKEYREF (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluicckeyref.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCKEYREF
+- RILUICCKEYREF
 product:
 - Windows
 targetos: Windows

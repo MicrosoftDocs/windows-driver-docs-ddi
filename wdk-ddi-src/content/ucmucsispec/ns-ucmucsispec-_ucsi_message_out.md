@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_MESSAGE_OUT
-title: _UCSI_MESSAGE_OUT
+title: _UCSI_MESSAGE_OUT (ucmucsispec.h)
 description: The MESSAGE OUT data structure. See Section 3.5.
 ms.assetid: c6b580ab-45c4-4cc9-b466-ae3d599b33b9
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_MESSAGE_OUT, *PUCSI_MESSAGE_OUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_MESSAGE_OUT
-product: Windows
+- _UCSI_MESSAGE_OUT
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

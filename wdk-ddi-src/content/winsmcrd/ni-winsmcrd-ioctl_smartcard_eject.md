@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_EJECT
-title: IOCTL_SMARTCARD_EJECT
+title: IOCTL_SMARTCARD_EJECT (winsmcrd.h)
 description: The IOCTL_SMARTCARD_EJECT request ejects the currently inserted smart card from the smart card reader.
 old-location: smartcrd\ioctl_smartcard_eject.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsmcrd.h
+- Winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_EJECT
+- IOCTL_SMARTCARD_EJECT
 product:
 - Windows
 targetos: Windows

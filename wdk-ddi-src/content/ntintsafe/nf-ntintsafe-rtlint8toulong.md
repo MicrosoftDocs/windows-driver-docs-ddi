@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8ToULong
-title: RtlInt8ToULong function
+title: RtlInt8ToULong function (ntintsafe.h)
 description: Converts a value of type INT8 to a value of type ULONG.
 old-location: kernel\rtlint8toulong.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlInt8ToULong
+- RtlInt8ToULong
 product:
 - Windows
 targetos: Windows

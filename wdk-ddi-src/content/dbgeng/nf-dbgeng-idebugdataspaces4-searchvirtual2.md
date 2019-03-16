@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.SearchVirtual2
-title: IDebugDataSpaces4::SearchVirtual2
+title: IDebugDataSpaces4::SearchVirtual2 (dbgeng.h)
 description: The SearchVirtual2 method searches the process's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces4.SearchVirtual2
+- IDebugDataSpaces4.SearchVirtual2
 product:
 - Windows
 targetos: Windows

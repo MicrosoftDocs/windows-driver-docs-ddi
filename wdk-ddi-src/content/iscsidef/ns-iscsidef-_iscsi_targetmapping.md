@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_TargetMapping
-title: "_ISCSI_TargetMapping"
+title: _ISCSI_TargetMapping (iscsidef.h)
 description: The ISCSI_TargetMapping structure maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI logical unit numbers.
 old-location: storage\iscsi_targetmapping.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_TargetMapping
+- ISCSI_TargetMapping
 product:
 - Windows
 targetos: Windows

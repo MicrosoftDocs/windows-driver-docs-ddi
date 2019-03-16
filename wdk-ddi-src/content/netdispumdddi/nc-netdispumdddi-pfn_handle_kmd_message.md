@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_HANDLE_KMD_MESSAGE
-title: PFN_HANDLE_KMD_MESSAGE
+title: PFN_HANDLE_KMD_MESSAGE (netdispumdddi.h)
 description: Called by the operating system to handle the asynchronous kernel-mode message that the Miracast user-mode driver receives when the display miniport driver calls the DxgkCbMiracastSendMessage function.
 old-location: display\handlekernelmodemessage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	HandleKernelModeMessage
+- HandleKernelModeMessage
 product:
 - Windows
 targetos: Windows

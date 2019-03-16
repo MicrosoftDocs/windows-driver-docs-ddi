@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DownloadFontHeader
-title: IPrintOemUni::DownloadFontHeader
+title: IPrintOemUni::DownloadFontHeader (prcomoem.h)
 description: The IPrintOemUni::DownloadFontHeader method allows a rendering plug-in for Unidrv to send a font's header information to a printer.
 old-location: print\iprintoemuni_downloadfontheader.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.DownloadFontHeader
+- IPrintOemUni.DownloadFontHeader
 product:
 - Windows
 targetos: Windows

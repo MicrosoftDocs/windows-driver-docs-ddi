@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_CORELAYER_DEVICECALLBACKS
-title: D3D10DDI_CORELAYER_DEVICECALLBACKS
+title: D3D10DDI_CORELAYER_DEVICECALLBACKS (d3d10umddi.h)
 description: The D3D10DDI_CORELAYER_DEVICECALLBACKS structure contains Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
 old-location: display\d3d10ddi_corelayer_devicecallbacks.htm
 ms.assetid: cced2221-7e8c-432a-9963-3b1de67037a3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDI_CORELAYER_DEVICECALLBACKS
+- D3D10DDI_CORELAYER_DEVICECALLBACKS
 product:
 - Windows
 targetos: Windows

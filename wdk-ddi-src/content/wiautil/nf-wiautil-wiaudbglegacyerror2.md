@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyError2
-title: wiauDbgLegacyError2 function
+title: wiauDbgLegacyError2 function (wiautil.h)
 description: The wiauDbgLegacyError2 function logs an error message.
 old-location: image\wiaudbglegacyerror2.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgLegacyError2
+- wiauDbgLegacyError2
 product:
 - Windows
 targetos: Windows

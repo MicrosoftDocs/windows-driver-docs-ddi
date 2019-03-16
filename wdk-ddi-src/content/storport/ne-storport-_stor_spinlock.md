@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_SPINLOCK
-title: "_STOR_SPINLOCK"
+title: _STOR_SPINLOCK (storport.h)
 description: The STOR_SPINLOCK enumeration is used to specify the type of a spinlock.
 old-location: storage\stor_spinlock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_SPINLOCK
+- STOR_SPINLOCK
 product:
 - Windows
 targetos: Windows

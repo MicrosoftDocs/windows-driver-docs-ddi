@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO2
-title: "_GET_LOCAL_HOST_INFO2"
+title: _GET_LOCAL_HOST_INFO2 (1394.h)
 description: The GET_LOCAL_HOST_INFO2 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel GET_HOST_CAPABILITIES.
 old-location: ieee\get_local_host_info2.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	GET_LOCAL_HOST_INFO2
+- GET_LOCAL_HOST_INFO2
 product:
 - Windows
 targetos: Windows

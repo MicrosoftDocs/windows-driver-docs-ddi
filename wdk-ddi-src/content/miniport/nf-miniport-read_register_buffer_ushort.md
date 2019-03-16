@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.READ_REGISTER_BUFFER_USHORT
-title: READ_REGISTER_BUFFER_USHORT function
+title: READ_REGISTER_BUFFER_USHORT function (miniport.h)
 description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	READ_REGISTER_BUFFER_USHORT
+- READ_REGISTER_BUFFER_USHORT
 product:
 - Windows
 targetos: Windows

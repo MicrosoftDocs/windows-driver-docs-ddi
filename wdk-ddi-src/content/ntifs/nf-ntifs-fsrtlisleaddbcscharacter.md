@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsLeadDbcsCharacter
-title: FsRtlIsLeadDbcsCharacter macro
+title: FsRtlIsLeadDbcsCharacter macro (ntifs.h)
 description: The FsRtlIsLeadDbcsCharacter macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS).
 old-location: ifsk\fsrtlisleaddbcscharacter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsLeadDbcsCharacter
+- FsRtlIsLeadDbcsCharacter
 product:
 - Windows
 targetos: Windows

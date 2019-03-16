@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.DeletePortUI
-title: DeletePortUI function
+title: DeletePortUI function (winsplp.h)
 description: A port monitor UI DLL's DeletePortUI function deletes a printer port.
 old-location: print\deleteportui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	pfnDeletePortUI
+- pfnDeletePortUI
 product:
 - Windows
 targetos: Windows

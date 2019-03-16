@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcGetParentObject
-title: WdfDpcGetParentObject function
+title: WdfDpcGetParentObject function (wdfdpc.h)
 description: The WdfDpcGetParentObject method returns the parent object of a specified DPC object.
 old-location: wdf\wdfdpcgetparentobject.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDpcGetParentObject
+- WdfDpcGetParentObject
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PROPERTY_ENUM_INFO
-title: "_NDIS_SWITCH_PROPERTY_ENUM_INFO"
+title: _NDIS_SWITCH_PROPERTY_ENUM_INFO (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_ENUM_INFO structure specifies information about a profile property for the Hyper-V extensible switch.
 old-location: netvista\ndis_switch_property_enum_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SWITCH_PROPERTY_ENUM_INFO
+- NDIS_SWITCH_PROPERTY_ENUM_INFO
 product:
 - Windows
 targetos: Windows

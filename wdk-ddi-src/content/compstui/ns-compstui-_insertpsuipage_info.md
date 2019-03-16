@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._INSERTPSUIPAGE_INFO
-title: "_INSERTPSUIPAGE_INFO"
+title: _INSERTPSUIPAGE_INFO (compstui.h)
 description: The INSERTPSUIPAGE_INFO structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_INSERT_PSUIPAGE. All member values must be supplied by the ComPropSheet caller.
 old-location: print\insertpsuipage_info.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	INSERTPSUIPAGE_INFO
+- INSERTPSUIPAGE_INFO
 product:
 - Windows
 targetos: Windows

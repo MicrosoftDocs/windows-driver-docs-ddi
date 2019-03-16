@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_UPDATEPAGETABLEFLAGS
-title: "_DXGK_UPDATEPAGETABLEFLAGS"
+title: _DXGK_UPDATEPAGETABLEFLAGS (d3dkmddi.h)
 description: DXGK_UPDATEPAGETABLEFLAGS is used as part of a page table update operation.
 old-location: display\dxgk_updatepagetableflags.htm
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_UPDATEPAGETABLEFLAGS
+- DXGK_UPDATEPAGETABLEFLAGS
 product:
 - Windows
 targetos: Windows

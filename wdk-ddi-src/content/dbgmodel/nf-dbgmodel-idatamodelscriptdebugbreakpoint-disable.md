@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.Disable
-title: IDataModelScriptDebugBreakpoint::Disable
+title: IDataModelScriptDebugBreakpoint::Disable (dbgmodel.h)
 description: The Disable method disables the breakpoint. After this call, hitting the breakpoint after calling this method will not break into the debugger.
 ms.assetid: 2691817b-c8a7-42d0-96a2-91b32b325d05
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugBreakpoint.Disable
-product: Windows
+- IDataModelScriptDebugBreakpoint.Disable
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

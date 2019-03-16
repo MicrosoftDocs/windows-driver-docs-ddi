@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_CLIENTHINT
-title: _D3DKMT_CLIENTHINT
+title: _D3DKMT_CLIENTHINT (d3dkmthk.h)
 description: Client hints.
 ms.assetid: dc5a7042-db2b-4a45-8000-8b81e18df5db
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_CLIENTHINT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CLIENTHINT
+- _D3DKMT_CLIENTHINT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

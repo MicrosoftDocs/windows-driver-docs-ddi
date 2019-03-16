@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYHWQUEUE
-title: "_D3DDDICB_DESTROYHWQUEUE"
+title: _D3DDDICB_DESTROYHWQUEUE (d3dumddi.h)
 description: A structure that holds information to destroy a hardware queue.
 old-location: display\d3dddicb_destroyhwqueue.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_DESTROYHWQUEUE
+- D3DDDICB_DESTROYHWQUEUE
 product:
 - Windows
 targetos: Windows

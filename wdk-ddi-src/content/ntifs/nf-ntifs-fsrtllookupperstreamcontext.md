@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerStreamContext
-title: FsRtlLookupPerStreamContext macro
+title: FsRtlLookupPerStreamContext macro (ntifs.h)
 description: The FsRtlLookupPerStreamContext macro retrieves a per-stream context structure for a file stream.
 old-location: ifsk\fsrtllookupperstreamcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlLookupPerStreamContext
+- FsRtlLookupPerStreamContext
 product:
 - Windows
 targetos: Windows

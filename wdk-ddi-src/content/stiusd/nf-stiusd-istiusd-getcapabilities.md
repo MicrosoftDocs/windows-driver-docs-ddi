@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetCapabilities
-title: IStiUSD::GetCapabilities
+title: IStiUSD::GetCapabilities (stiusd.h)
 description: A still image minidriver's IStiUSD::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istiusd_getcapabilities.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.GetCapabilities
+- IStiUSD.GetCapabilities
 product:
 - Windows
 targetos: Windows

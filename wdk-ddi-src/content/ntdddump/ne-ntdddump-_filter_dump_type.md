@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdddump._FILTER_DUMP_TYPE
-title: "_FILTER_DUMP_TYPE"
+title: _FILTER_DUMP_TYPE (ntdddump.h)
 description: The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
 old-location: storage\filter_dump_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	FILTER_DUMP_TYPE
+- FILTER_DUMP_TYPE
 product:
 - Windows
 targetos: Windows

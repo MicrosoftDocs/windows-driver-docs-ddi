@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SecMakeSPN
-title: SecMakeSPN function
+title: SecMakeSPN function (ntifs.h)
 description: SecMakeSPN creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespn.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksecdd.lib
--	Ksecdd.dll
+- Ksecdd.lib
+- Ksecdd.dll
 api_name:
--	SecMakeSPN
+- SecMakeSPN
 product:
 - Windows
 targetos: Windows

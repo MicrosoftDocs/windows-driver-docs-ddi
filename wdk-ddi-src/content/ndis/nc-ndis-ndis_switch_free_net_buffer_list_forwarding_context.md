@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT
-title: NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT
+title: NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT (ndis.h)
 description: The FreeNetBufferListForwardingContext function releases resources in the out-of-band (OOB) extensible switch forwarding context of a NET_BUFFER_LIST structure.
 old-location: netvista\FreeNetBufferListForwardingContext.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	FreeNetBufferListForwardingContext
+- FreeNetBufferListForwardingContext
 product:
 - Windows
 targetos: Windows

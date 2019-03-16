@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetLastErrorInfo
-title: IStiUSD::GetLastErrorInfo
+title: IStiUSD::GetLastErrorInfo (stiusd.h)
 description: A still image minidriver's IStiUSD::GetLastErrorInfo method returns information about the last known error associated with a still image device.
 old-location: image\istiusd_getlasterrorinfo.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.GetLastErrorInfo
+- IStiUSD.GetLastErrorInfo
 product:
 - Windows
 targetos: Windows

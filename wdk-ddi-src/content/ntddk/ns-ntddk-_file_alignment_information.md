@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_ALIGNMENT_INFORMATION
-title: "_FILE_ALIGNMENT_INFORMATION"
+title: _FILE_ALIGNMENT_INFORMATION (ntddk.h)
 description: The FILE_ALIGNMENT_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine.
 old-location: kernel\file_alignment_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_ALIGNMENT_INFORMATION
+- FILE_ALIGNMENT_INFORMATION
 product:
 - Windows
 targetos: Windows

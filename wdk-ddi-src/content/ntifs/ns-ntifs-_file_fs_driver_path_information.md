@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_DRIVER_PATH_INFORMATION
-title: "_FILE_FS_DRIVER_PATH_INFORMATION"
+title: _FILE_FS_DRIVER_PATH_INFORMATION (ntifs.h)
 description: The FILE_FS_DRIVER_PATH_INFORMATION structure is used to query whether a given driver is in the I/O path for a file system volume.
 old-location: ifsk\file_fs_driver_path_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_FS_DRIVER_PATH_INFORMATION
+- FILE_FS_DRIVER_PATH_INFORMATION
 product:
 - Windows
 targetos: Windows

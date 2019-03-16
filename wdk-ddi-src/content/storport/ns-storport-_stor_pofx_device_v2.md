@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_DEVICE_V2
-title: "_STOR_POFX_DEVICE_V2"
+title: _STOR_POFX_DEVICE_V2 (storport.h)
 description: The STOR_POFX_DEVICE_V2 structure describes the power attributes of a storage device to the power management framework (PoFx).
 old-location: storage\stor_pofx_device_v2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_POFX_DEVICE_V2
+- STOR_POFX_DEVICE_V2
 product:
 - Windows
 targetos: Windows

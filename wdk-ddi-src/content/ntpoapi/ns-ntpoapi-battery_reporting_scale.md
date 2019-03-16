@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi.BATTERY_REPORTING_SCALE
-title: BATTERY_REPORTING_SCALE
+title: BATTERY_REPORTING_SCALE (ntpoapi.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntpoapi.h
+- ntpoapi.h
 api_name:
--	BATTERY_REPORTING_SCALE
+- BATTERY_REPORTING_SCALE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CLEARDEPTHSTENCILVIEW
-title: PFND3D10DDI_CLEARDEPTHSTENCILVIEW
+title: PFND3D10DDI_CLEARDEPTHSTENCILVIEW (d3d10umddi.h)
 description: The ClearDepthStencilView function clears the specified currently bound depth-stencil view.
 old-location: display\cleardepthstencilview.htm
 ms.assetid: 0474c154-1bec-4602-880c-ffdc48c738f0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ClearDepthStencilView
+- ClearDepthStencilView
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_PRIORITY
-title: "_POS_CX_EVENT_PRIORITY"
+title: _POS_CX_EVENT_PRIORITY (poscx.h)
 description: The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
 old-location: pos\pos_cx_event_priority.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	POS_CX_EVENT_PRIORITY
+- POS_CX_EVENT_PRIORITY
 product:
 - Windows
 targetos: Windows

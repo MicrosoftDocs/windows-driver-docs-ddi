@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_RENDERKM_OPERATION
-title: "_DXGK_RENDERKM_OPERATION"
+title: _DXGK_RENDERKM_OPERATION (d3dkmddi.h)
 description: The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the DxgkDdiRenderKm function is called.
 old-location: display\dxgk_renderkm_operation.htm
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_RENDERKM_OPERATION
+- DXGK_RENDERKM_OPERATION
 product:
 - Windows
 targetos: Windows

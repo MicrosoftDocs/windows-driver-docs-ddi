@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTimer
-title: KeInitializeTimer function
+title: KeInitializeTimer function (wdm.h)
 description: The KeInitializeTimer routine initializes a timer object.
 old-location: kernel\keinitializetimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeTimer
+- KeInitializeTimer
 product:
 - Windows
 targetos: Windows

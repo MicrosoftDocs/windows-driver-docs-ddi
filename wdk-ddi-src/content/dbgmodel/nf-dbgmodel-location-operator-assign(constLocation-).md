@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-assign(const Location &)
-title: operator= function
+title: operator= function (dbgmodel.h)
 description: The assignment operator for the location function.
 ms.assetid: 34b62c89-11e9-4221-8cd8-2b599608e719
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	operator=
-product: Windows
+- operator=
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

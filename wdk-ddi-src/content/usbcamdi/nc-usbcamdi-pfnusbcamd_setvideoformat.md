@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_SetVideoFormat
-title: PFNUSBCAMD_SetVideoFormat
+title: PFNUSBCAMD_SetVideoFormat (usbcamdi.h)
 description: The USBCAMD_SetVideoFormat service is used to notify USBCAMD that the video format has changed.
 old-location: stream\usbcamd_setvideoformat.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_SetVideoFormat
+- USBCAMD_SetVideoFormat
 product:
 - Windows
 targetos: Windows

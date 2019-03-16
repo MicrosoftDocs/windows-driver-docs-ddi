@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_6
-title: UFS_POWER_DESCRIPTOR
+title: UFS_POWER_DESCRIPTOR (ufs.h)
 description: UFS_POWER_DESCRIPTOR contains information about the power capabilities and power states of the device.
 old-location: storage\ufs_power_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_POWER_DESCRIPTOR
+- UFS_POWER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_LOCKDEVICE
-title: IOCTL_SCSISCAN_LOCKDEVICE
+title: IOCTL_SCSISCAN_LOCKDEVICE (scsiscan.h)
 description: Reserved for use by Microsoft.
 old-location: image\ioctl_scsiscan_lockdevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiscan.h
+- scsiscan.h
 api_name:
--	IOCTL_SCSISCAN_LOCKDEVICE
+- IOCTL_SCSISCAN_LOCKDEVICE
 product:
 - Windows
 targetos: Windows

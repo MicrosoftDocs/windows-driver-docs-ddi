@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC
-title: "_UCX_USBDEVICE_CHARACTERISTIC"
+title: _UCX_USBDEVICE_CHARACTERISTIC (ucxusbdevice.h)
 description: Stores the characteristics of an device.
 old-location: buses\ucx_usbdevice_characteristic.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxusbdevice.h
+- Ucxusbdevice.h
 api_name:
--	UCX_USBDEVICE_CHARACTERISTIC
+- UCX_USBDEVICE_CHARACTERISTIC
 product:
 - Windows
 targetos: Windows

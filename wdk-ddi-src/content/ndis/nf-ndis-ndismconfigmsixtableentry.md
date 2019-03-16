@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMConfigMSIXTableEntry
-title: NdisMConfigMSIXTableEntry function
+title: NdisMConfigMSIXTableEntry function (ndis.h)
 description: The NdisMConfigMSIXTableEntry function performs configuration operations for MSI-X table entries for device-assigned MSI-X messages.
 old-location: netvista\ndismconfigmsixtableentry.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMConfigMSIXTableEntry
+- NdisMConfigMSIXTableEntry
 product:
 - Windows
 targetos: Windows

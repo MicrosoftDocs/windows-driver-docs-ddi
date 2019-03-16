@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.SetNamedValue
-title: IWDFNamedPropertyStore::SetNamedValue
+title: IWDFNamedPropertyStore::SetNamedValue (wudfddi.h)
 description: The SetNamedValue method sets the value of a property.
 old-location: wdf\iwdfnamedpropertystore_setnamedvalue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore.SetNamedValue
+- IWDFNamedPropertyStore.SetNamedValue
 product:
 - Windows
 targetos: Windows

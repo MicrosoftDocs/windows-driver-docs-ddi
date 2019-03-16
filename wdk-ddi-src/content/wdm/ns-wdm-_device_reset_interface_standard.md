@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_RESET_INTERFACE_STANDARD
-title: "_DEVICE_RESET_INTERFACE_STANDARD"
+title: _DEVICE_RESET_INTERFACE_STANDARD (wdm.h)
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_interface_standard.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_RESET_INTERFACE_STANDARD
+- DEVICE_RESET_INTERFACE_STANDARD
 product:
 - Windows
 targetos: Windows

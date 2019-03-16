@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_INFORMATION
-title: "_PEP_INFORMATION"
+title: _PEP_INFORMATION (pepfx.h)
 description: The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx).
 old-location: kernel\pep_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_INFORMATION
+- PEP_INFORMATION
 product:
 - Windows
 targetos: Windows

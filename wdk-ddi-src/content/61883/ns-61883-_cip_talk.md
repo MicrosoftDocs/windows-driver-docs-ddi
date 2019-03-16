@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_TALK
-title: "_CIP_TALK"
+title: _CIP_TALK (61883.h)
 description: This structure is used to begin transmission.
 old-location: ieee\cip_talk.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CIP_TALK
+- CIP_TALK
 product:
 - Windows
 targetos: Windows

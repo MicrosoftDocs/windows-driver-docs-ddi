@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaRegisterProvider
-title: NetDmaRegisterProvider function
+title: NetDmaRegisterProvider function (netdma.h)
 description: The NetDmaRegisterProvider function registers a DMA provider.
 old-location: netvista\netdmaregisterprovider.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaRegisterProvider
+- NetDmaRegisterProvider
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IRemoteInterfaceCallbackRemoval
-title: IRemoteInterfaceCallbackRemoval
+title: IRemoteInterfaceCallbackRemoval (wudfddi.h)
 description: The IRemoteInterfaceCallbackRemoval provides a callback function that the framework calls to notify the driver about the removal of a device interface.
 old-location: wdf\iremoteinterfacecallbackremoval.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfddi.h
+- wudfddi.h
 api_name:
--	IRemoteInterfaceCallbackRemoval
+- IRemoteInterfaceCallbackRemoval
 product:
 - Windows
 targetos: Windows

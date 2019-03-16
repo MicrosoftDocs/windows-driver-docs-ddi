@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDeregisterSapComplete
-title: NdisMCmDeregisterSapComplete macro
+title: NdisMCmDeregisterSapComplete macro (ndis.h)
 description: NdisMCmDeregisterSapComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to deregister a SAP.
 old-location: netvista\ndismcmderegistersapcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmDeregisterSapComplete
+- NdisMCmDeregisterSapComplete
 product:
 - Windows
 targetos: Windows

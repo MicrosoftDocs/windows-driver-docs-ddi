@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeDeassignSecurity
-title: SeDeassignSecurity function
+title: SeDeassignSecurity function (wdm.h)
 description: The SeDeassignSecurity routine deallocates the memory associated with a security descriptor that was assigned using SeAssignSecurity.
 old-location: kernel\sedeassignsecurity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeDeassignSecurity
+- SeDeassignSecurity
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x._GPIO_PIN_CONFIG_TYPE
-title: "_GPIO_PIN_CONFIG_TYPE"
+title: _GPIO_PIN_CONFIG_TYPE (pep_x.h)
 description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
 old-location: kernel\gpio_pin_config_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	GPIO_PIN_CONFIG_TYPE
+- GPIO_PIN_CONFIG_TYPE
 product:
 - Windows
 targetos: Windows

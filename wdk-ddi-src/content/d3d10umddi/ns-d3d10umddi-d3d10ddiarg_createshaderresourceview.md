@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATESHADERRESOURCEVIEW
-title: D3D10DDIARG_CREATESHADERRESOURCEVIEW
+title: D3D10DDIARG_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_CREATESHADERRESOURCEVIEW structure describes the shader resource view to create.
 old-location: display\d3d10ddiarg_createshaderresourceview.htm
 ms.assetid: 60f0019b-ba02-433d-b5a2-f92a43f4d5a8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_CREATESHADERRESOURCEVIEW
+- D3D10DDIARG_CREATESHADERRESOURCEVIEW
 product:
 - Windows
 targetos: Windows

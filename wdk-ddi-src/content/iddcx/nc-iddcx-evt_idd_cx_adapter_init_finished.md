@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_ADAPTER_INIT_FINISHED
-title: EVT_IDD_CX_ADAPTER_INIT_FINISHED
+title: EVT_IDD_CX_ADAPTER_INIT_FINISHED (iddcx.h)
 description: EVT_IDD_CX_ADAPTER_INIT_FINISHED is called by the OS to inform the driver that the adapter initialization has completed.
 old-location: display\evt_idd_cx_adapter_init_finished.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_ADAPTER_INIT_FINISHED
+- PFN_IDD_CX_ADAPTER_INIT_FINISHED
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortUlong
-title: VideoPortReadPortUlong function
+title: VideoPortReadPortUlong function (video.h)
 description: The VideoPortReadPortUlong function reads a ULONG value from a mapped I/O port.
 old-location: display\videoportreadportulong.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadPortUlong
+- VideoPortReadPortUlong
 product:
 - Windows
 targetos: Windows

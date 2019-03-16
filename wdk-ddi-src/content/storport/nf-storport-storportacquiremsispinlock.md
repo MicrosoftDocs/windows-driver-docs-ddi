@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAcquireMSISpinLock
-title: StorPortAcquireMSISpinLock function
+title: StorPortAcquireMSISpinLock function (storport.h)
 description: The StorPortAcquireMSISpinLock routine acquires the message signaled interrupt (MSI) spin lock that is associated with the specified message.
 old-location: storage\storportacquiremsispinlock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAcquireMSISpinLock
+- StorPortAcquireMSISpinLock
 product:
 - Windows
 targetos: Windows

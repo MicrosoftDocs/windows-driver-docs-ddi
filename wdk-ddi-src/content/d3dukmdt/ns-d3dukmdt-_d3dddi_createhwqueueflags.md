@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWQUEUEFLAGS
-title: "_D3DDDI_CREATEHWQUEUEFLAGS"
+title: _D3DDDI_CREATEHWQUEUEFLAGS (d3dukmdt.h)
 description: A structure used to create hardware queue flags.
 old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_CREATEHWQUEUEFLAGS
+- D3DDDI_CREATEHWQUEUEFLAGS
 product:
 - Windows
 targetos: Windows

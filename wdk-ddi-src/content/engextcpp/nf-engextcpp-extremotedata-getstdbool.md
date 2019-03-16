@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetStdBool
-title: ExtRemoteData::GetStdBool
+title: ExtRemoteData::GetStdBool (engextcpp.h)
 description: The GetStdBool method returns a bool version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getstdbool.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetStdBool
+- ExtRemoteData.GetStdBool
 product:
 - Windows
 targetos: Windows

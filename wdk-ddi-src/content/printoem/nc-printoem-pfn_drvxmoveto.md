@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvXMoveTo
-title: PFN_DrvXMoveTo
+title: PFN_DrvXMoveTo (printoem.h)
 description: The DrvXMoveTo function is obsolete.
 old-location: print\drvxmoveto.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvXMoveTo
+- DrvXMoveTo
 product:
 - Windows
 targetos: Windows

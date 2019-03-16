@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_POWER_DESCRIPTOR
-title: "_DEVICE_POWER_DESCRIPTOR"
+title: _DEVICE_POWER_DESCRIPTOR (ntddstor.h)
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to describes the power capabilities of a storage device.
 old-location: storage\device_power_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_POWER_DESCRIPTOR
+- DEVICE_POWER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

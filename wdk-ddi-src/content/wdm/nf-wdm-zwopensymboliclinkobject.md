@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenSymbolicLinkObject
-title: ZwOpenSymbolicLinkObject function
+title: ZwOpenSymbolicLinkObject function (wdm.h)
 description: The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
 old-location: kernel\zwopensymboliclinkobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenSymbolicLinkObject
--	NtOpenSymbolicLinkObject
+- ZwOpenSymbolicLinkObject
+- NtOpenSymbolicLinkObject
 product:
 - Windows
 targetos: Windows

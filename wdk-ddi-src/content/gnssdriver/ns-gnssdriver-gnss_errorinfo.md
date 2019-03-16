@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_26
-title: GNSS_ERRORINFO
+title: GNSS_ERRORINFO (gnssdriver.h)
 description: This structure contains error information.
 old-location: gnss\gnss_errorinfo.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_ERRORINFO
+- GNSS_ERRORINFO
 product:
 - Windows
 targetos: Windows

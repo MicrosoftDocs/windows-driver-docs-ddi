@@ -1,6 +1,6 @@
 ---
 UID: NL:wiamdef.CWiaLogProc
-title: CWiaLogProc
+title: CWiaLogProc (wiamdef.h)
 description: 
 ms.assetid: 778cac25-66f5-4909-884a-119477b288a7
 ms.date: 10/19/2018
@@ -19,15 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	wiamdef.h
+- wiamdef.h
 api_name: 
--	CWiaLogProc
+- CWiaLogProc
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

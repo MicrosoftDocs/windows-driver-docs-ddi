@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._VOLUME_READ_PLEX_INPUT
-title: "_VOLUME_READ_PLEX_INPUT"
+title: _VOLUME_READ_PLEX_INPUT (ntddvol.h)
 description: This structure is used in conjunction with IOCTL_VOLUME_READ_PLEX to read data from a specific plex in a volume.
 old-location: storage\volume_read_plex_input.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvol.h
+- ntddvol.h
 api_name:
--	VOLUME_READ_PLEX_INPUT
+- VOLUME_READ_PLEX_INPUT
 product:
 - Windows
 targetos: Windows

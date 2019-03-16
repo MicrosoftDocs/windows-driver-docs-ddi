@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStart
-title: WdfIoQueueStart function
+title: WdfIoQueueStart function (wdfio.h)
 description: The WdfIoQueueStart method enables an I/O queue to start receiving and delivering new I/O requests.
 old-location: wdf\wdfioqueuestart.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueStart
+- WdfIoQueueStart
 product:
 - Windows
 targetos: Windows

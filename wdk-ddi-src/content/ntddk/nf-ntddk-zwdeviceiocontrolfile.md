@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwDeviceIoControlFile
-title: ZwDeviceIoControlFile function
+title: ZwDeviceIoControlFile function (ntddk.h)
 description: The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 old-location: kernel\zwdeviceiocontrolfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwDeviceIoControlFile
--	NtDeviceIoControlFile
+- ZwDeviceIoControlFile
+- NtDeviceIoControlFile
 product:
 - Windows
 targetos: Windows

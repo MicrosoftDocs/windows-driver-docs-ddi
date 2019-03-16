@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortMapBankedMemory
-title: VideoPortMapBankedMemory function
+title: VideoPortMapBankedMemory function (video.h)
 description: The VideoPortMapBankedMemory function is obsolete, and is supported only for Windows NT 4.0 and previous drivers.
 old-location: display\videoportmapbankedmemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortMapBankedMemory
+- VideoPortMapBankedMemory
 product:
 - Windows
 targetos: Windows

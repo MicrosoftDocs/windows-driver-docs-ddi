@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PopEntryList
-title: PopEntryList function
+title: PopEntryList function (wdm.h)
 description: The PopEntryList routine removes the first entry from a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\popentrylist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PopEntryList
+- PopEntryList
 product:
 - Windows
 targetos: Windows

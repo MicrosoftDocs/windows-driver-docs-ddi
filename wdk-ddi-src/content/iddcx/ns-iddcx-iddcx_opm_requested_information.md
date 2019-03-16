@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_REQUESTED_INFORMATION
-title: IDDCX_OPM_REQUESTED_INFORMATION
+title: IDDCX_OPM_REQUESTED_INFORMATION (iddcx.h)
 description: Gives the information requested from the OPM.
 old-location: display\iddcx_opm_requested_information.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_OPM_REQUESTED_INFORMATION
+- IDDCX_OPM_REQUESTED_INFORMATION
 product:
 - Windows
 targetos: Windows

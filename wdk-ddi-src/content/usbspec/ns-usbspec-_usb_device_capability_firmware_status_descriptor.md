@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
-title: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
+title: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR (usbspec.h)
 description: USB FW Update as defined in the USB 3.2 ENGINEERING CHANGE NOTICE.
 ms.assetid: 406a6a28-2d3b-413a-b9b3-10d053afb80d
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, *PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbspec.h
+- usbspec.h
 api_name: 
--	_USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
-product: Windows
+- _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

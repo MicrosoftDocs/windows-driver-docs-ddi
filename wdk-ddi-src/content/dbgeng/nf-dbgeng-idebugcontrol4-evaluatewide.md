@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.EvaluateWide
-title: IDebugControl4::EvaluateWide
+title: IDebugControl4::EvaluateWide (dbgeng.h)
 description: The EvaluateWide method evaluates an expression, returning the result.
 old-location: debugger\evaluatewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.EvaluateWide
+- IDebugControl4.EvaluateWide
 product:
 - Windows
 targetos: Windows

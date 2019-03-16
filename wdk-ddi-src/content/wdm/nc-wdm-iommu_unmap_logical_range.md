@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_UNMAP_LOGICAL_RANGE
-title: IOMMU_UNMAP_LOGICAL_RANGE
+title: IOMMU_UNMAP_LOGICAL_RANGE (wdm.h)
 description: Unmaps a linear range from a domain.
 ms.assetid: 48b802b6-980c-407b-91cc-02b67c80fdc5
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_UNMAP_LOGICAL_RANGE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_UNMAP_LOGICAL_RANGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

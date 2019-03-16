@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
-title: tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
+title: tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE (ksmedia.h)
 description: The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure specifies an audio signal processing mode.
 old-location: audio\ksattribute_audiosignalprocessing_mode.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
+- KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
 product:
 - Windows
 targetos: Windows

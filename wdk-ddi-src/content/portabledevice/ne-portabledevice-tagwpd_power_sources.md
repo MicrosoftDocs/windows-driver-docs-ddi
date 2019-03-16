@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_POWER_SOURCES
-title: tagWPD_POWER_SOURCES
+title: WPD_POWER_SOURCES (portabledevice.h)
 description: The WPD_POWER_SOURCES enumeration type describes the power source that a device is using.
 old-location: wpddk\wpd_power_sources.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_POWER_SOURCES
+- WPD_POWER_SOURCES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_POWER_SOURCES
 ms.custom: RS5
@@ -72,7 +72,7 @@ The device uses an external power source.
 
 
 
-This enumeration is used by the <a href="wpd_device_properties.htm">WPD_DEVICE_POWER_SOURCE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/device-properties">WPD_DEVICE_POWER_SOURCE</a> property.
 
 
 

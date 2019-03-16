@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYVIDPNHWCAPABILITY
-title: "_DXGKARG_QUERYVIDPNHWCAPABILITY"
+title: _DXGKARG_QUERYVIDPNHWCAPABILITY (d3dkmddi.h)
 description: The DXGKARG_QUERYVIDPNHWCAPABILITY structure is used by the display miniport driver to describe the hardware capabilities of a functional VidPN in response to a call to the DxgkDdiQueryVidPnHWCapability function.
 old-location: display\dxgkarg_queryvidpnhwcapability.htm
 ms.assetid: b5f8073c-9989-4413-842d-e3e295cc3470
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
+- DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY
 product:
 - Windows
 targetos: Windows

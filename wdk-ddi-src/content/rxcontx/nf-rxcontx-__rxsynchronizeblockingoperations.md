@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.__RxSynchronizeBlockingOperations
-title: "__RxSynchronizeBlockingOperations function"
+title: __RxSynchronizeBlockingOperations function (rxcontx.h)
 description: "__RxSynchronizeBlockingOperations synchronizes blocking I/O requests to the same work queue."
 old-location: ifsk\__rxsynchronizeblockingoperations.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxcontx.h
+- rxcontx.h
 api_name:
--	__RxSynchronizeBlockingOperations
+- __RxSynchronizeBlockingOperations
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomTransmitCreate
-title: SerCx2CustomTransmitCreate function
+title: SerCx2CustomTransmitCreate function (sercx.h)
 description: The SerCx2CustomTransmitCreate method creates a custom-transmit object, which version 2 of the serial framework extension (SerCx2) uses to write transmit data to the serial controller by means of a custom data-transfer mechanism.
 old-location: serports\sercx2customtransmitcreate.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2CustomTransmitCreate
+- SerCx2CustomTransmitCreate
 product:
 - Windows
 targetos: Windows

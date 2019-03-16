@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreUI2
-title: IPrintCoreUI2
+title: IPrintCoreUI2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintCoreUI2 COM Interface.
 old-location: print\iprintcoreui2_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2
+- IPrintCoreUI2
 product:
 - Windows
 targetos: Windows

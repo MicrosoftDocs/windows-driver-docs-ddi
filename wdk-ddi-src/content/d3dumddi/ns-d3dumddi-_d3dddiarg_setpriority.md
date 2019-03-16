@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETPRIORITY
-title: "_D3DDDIARG_SETPRIORITY"
+title: _D3DDDIARG_SETPRIORITY (d3dumddi.h)
 description: The D3DDDIARG_SETPRIORITY structure describes the priority level to set for a managed texture.
 old-location: display\d3dddiarg_setpriority.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETPRIORITY
+- D3DDDIARG_SETPRIORITY
 product:
 - Windows
 targetos: Windows

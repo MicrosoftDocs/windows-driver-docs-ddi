@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinDataIntersection
-title: KsPinDataIntersection function
+title: KsPinDataIntersection function (ks.h)
 description: The KsPinDataIntersection function handles the KSPROPERTY_PIN_DATAINTERSECTION property through a callback function and performs much of the initial validation of the parameters that are passed.
 old-location: stream\kspindataintersection.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinDataIntersection
+- KsPinDataIntersection
 product:
 - Windows
 targetos: Windows

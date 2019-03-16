@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExceptionFilterParameters
-title: IDebugControl3::SetExceptionFilterParameters
+title: IDebugControl3::SetExceptionFilterParameters (dbgeng.h)
 description: The SetExceptionFilterParameters method changes the break status and handling status for some exception filters.
 old-location: debugger\setexceptionfilterparameters.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetExceptionFilterParameters
--	IDebugControl2.SetExceptionFilterParameters
--	IDebugControl3.SetExceptionFilterParameters
+- IDebugControl.SetExceptionFilterParameters
+- IDebugControl2.SetExceptionFilterParameters
+- IDebugControl3.SetExceptionFilterParameters
 product:
 - Windows
 targetos: Windows

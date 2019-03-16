@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER_OFFSET
-title: "_KSSTREAM_POINTER_OFFSET"
+title: _KSSTREAM_POINTER_OFFSET (ks.h)
 description: The KSSTREAM_POINTER_OFFSET structure indexes bytes or mappings within a frame.
 old-location: stream\ksstream_pointer_offset.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAM_POINTER_OFFSET
+- KSSTREAM_POINTER_OFFSET
 product:
 - Windows
 targetos: Windows

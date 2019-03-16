@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
-title: D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
+title: D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020 (d3d12umddi.h)
 description: The orientation to be performed by the video processor.
 old-location: display\d3d12ddi_video_process_orientation.htm
 ms.assetid: 0901AA41-DDA6-46F2-99CA-E45718346A86
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
+- D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020
 product:
 - Windows
 targetos: Windows

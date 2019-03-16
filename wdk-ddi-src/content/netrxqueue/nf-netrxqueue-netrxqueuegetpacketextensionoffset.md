@@ -1,6 +1,6 @@
 ---
 UID: NF:netrxqueue.NetRxQueueGetPacketExtensionOffset
-title: NetRxQueueGetPacketExtensionOffset function
+title: NetRxQueueGetPacketExtensionOffset function (netrxqueue.h)
 description: The NetRxQueueGetPacketExtensionOffset method retrieves the offset, in bytes, to a packet extension for all packets in a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetRxQueueGetPacketExtensionOffset
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetRxQueueGetPacketExtensionOffset
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

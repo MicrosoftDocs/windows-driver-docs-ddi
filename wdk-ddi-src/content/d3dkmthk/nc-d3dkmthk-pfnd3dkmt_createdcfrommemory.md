@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEDCFROMMEMORY
-title: PFND3DKMT_CREATEDCFROMMEMORY
+title: PFND3DKMT_CREATEDCFROMMEMORY (d3dkmthk.h)
 description: The D3DKMTCreateDCFromMemory function creates a display context from a specified block of memory.
 old-location: display\d3dkmtcreatedcfrommemory.htm
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTCreateDCFromMemory
+- D3DKMTCreateDCFromMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-title: D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+title: D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT (d3dumddi.h)
 description: Identifies the overlay plane's video frame format. Only the D3DDDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE value is supported.
 old-location: display\d3dddi_multiplane_overlay_video_frame_format.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+- D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnLess
-title: ClfsLsnLess function
+title: ClfsLsnLess function (wdm.h)
 description: The ClfsLsnLess routine determines whether one LSN is less than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsnless.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsLsnLess
+- ClfsLsnLess
 product:
 - Windows
 targetos: Windows

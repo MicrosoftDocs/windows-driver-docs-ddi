@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.get__NewEnum
-title: IPrinterExtensionContextCollection::get__NewEnum method
+title: IPrinterExtensionContextCollection::get__NewEnum method (printerextension.h)
 description: Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects.
 old-location: print\iprinterextensioncontextcollection_newenum.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionContextCollection.NewEnum
+- IPrinterExtensionContextCollection.NewEnum
 product:
 - Windows
 targetos: Windows

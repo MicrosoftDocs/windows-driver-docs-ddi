@@ -1,6 +1,6 @@
 ---
 UID: NF:dxapi.DxApi
-title: DxApi function
+title: DxApi function (dxapi.h)
 description: The DxApi function accepts commands from the hardware decoder's video capture driver to access the DxApi interface functions that are implemented in a video miniport driver.
 old-location: display\dxapi.htm
 tech.root: display
@@ -26,15 +26,15 @@ req.lib: Dxapi.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Dxapi.lib
--	Dxapi.dll
+- Dxapi.lib
+- Dxapi.dll
 api_name:
--	DxApi
+- DxApi
 product:
 - Windows
 targetos: Windows

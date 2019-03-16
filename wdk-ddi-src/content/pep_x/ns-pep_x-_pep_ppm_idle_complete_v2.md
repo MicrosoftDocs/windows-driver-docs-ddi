@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_COMPLETE_V2
-title: "_PEP_PPM_IDLE_COMPLETE_V2"
+title: _PEP_PPM_IDLE_COMPLETE_V2 (pep_x.h)
 description: The PEP_PPM_IDLE_COMPLETE_V2 structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete_v2.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_IDLE_COMPLETE_V2
+- PEP_PPM_IDLE_COMPLETE_V2
 product:
 - Windows
 targetos: Windows

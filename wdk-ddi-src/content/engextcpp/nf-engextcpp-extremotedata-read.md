@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Read
-title: ExtRemoteData::Read
+title: ExtRemoteData::Read (engextcpp.h)
 description: The Read method reads the contents of the target's memory, represented by the ExtRemoteData object, and then caches the data.
 old-location: debugger\extremotedata_read.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.Read
+- ExtRemoteData.Read
 product:
 - Windows
 targetos: Windows

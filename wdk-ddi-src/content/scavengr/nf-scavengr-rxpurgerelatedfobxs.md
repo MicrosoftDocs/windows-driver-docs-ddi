@@ -1,6 +1,6 @@
 ---
 UID: NF:scavengr.RxPurgeRelatedFobxs
-title: RxPurgeRelatedFobxs function
+title: RxPurgeRelatedFobxs function (scavengr.h)
 description: RxPurgeRelatedFobxs purges all of the FOBX structures associated with a NET_ROOT structure.
 old-location: ifsk\rxpurgerelatedfobxs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scavengr.h
+- scavengr.h
 api_name:
--	RxPurgeRelatedFobxs
+- RxPurgeRelatedFobxs
 product:
 - Windows
 targetos: Windows

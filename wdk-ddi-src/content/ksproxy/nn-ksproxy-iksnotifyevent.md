@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsNotifyEvent
-title: IKsNotifyEvent
+title: IKsNotifyEvent (ksproxy.h)
 description: The IKsNotifyEvent interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
 old-location: stream\iksnotifyevent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	IKsNotifyEvent
+- IKsNotifyEvent
 product:
 - Windows
 targetos: Windows

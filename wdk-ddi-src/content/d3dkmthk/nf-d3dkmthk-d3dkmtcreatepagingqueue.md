@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreatePagingQueue
-title: D3DKMTCreatePagingQueue function
+title: D3DKMTCreatePagingQueue function (d3dkmthk.h)
 description: D3DKMTCreatePagingQueue is used to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\d3dkmtcreatepagingqueue.htm
 ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTCreatePagingQueue
+- D3DKMTCreatePagingQueue
 product:
 - Windows
 targetos: Windows

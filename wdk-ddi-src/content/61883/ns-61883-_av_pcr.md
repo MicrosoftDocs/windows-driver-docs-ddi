@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._AV_PCR
-title: "_AV_PCR"
+title: _AV_PCR (61883.h)
 description: The AV_PCR structure specifies settings for an input or output plug.
 old-location: ieee\av_pcr.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	AV_PCR
+- AV_PCR
 product:
 - Windows
 targetos: Windows

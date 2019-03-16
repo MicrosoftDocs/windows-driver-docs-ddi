@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassAllocateSrbBuffer
-title: TapeClassAllocateSrbBuffer function
+title: TapeClassAllocateSrbBuffer function (minitape.h)
 description: The TapeClassAllocateSrbBuffer routine allocates an Srb-&gt;DataBuffer.
 old-location: storage\tapeclassallocatesrbbuffer.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeClassAllocateSrbBuffer
+- TapeClassAllocateSrbBuffer
 product:
 - Windows
 targetos: Windows

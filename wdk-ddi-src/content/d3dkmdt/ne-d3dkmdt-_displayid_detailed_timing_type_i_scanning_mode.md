@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
-title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE"
+title: _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE (d3dkmdt.h)
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE enumeration indicates the display device's frame scanning mode.
 old-location: display\displayid_detailed_timing_type_i_scanning_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
+- _DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._HYBRID_INFORMATION
-title: "_HYBRID_INFORMATION"
+title: _HYBRID_INFORMATION (ntddscsi.h)
 description: The HYBRID_INFORMATION structure contains hybrid disk capability information.
 old-location: storage\hybrid_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	HYBRID_INFORMATION
+- HYBRID_INFORMATION
 product:
 - Windows
 targetos: Windows

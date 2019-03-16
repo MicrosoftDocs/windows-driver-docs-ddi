@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
-title: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+title: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT (d3dumddi.h)
 description: Used in a call to the CheckPresentDurationSupport function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 old-location: display\d3dddiarg_checkpresentdurationsupport.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
+- D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 product:
 - Windows
 targetos: Windows

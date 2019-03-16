@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_LEGACYRESOURCES
-title: PVIDEO_HW_LEGACYRESOURCES
+title: PVIDEO_HW_LEGACYRESOURCES (video.h)
 description: HwVidLegacyResources returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
 old-location: display\hwvidlegacyresources.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidLegacyResources
+- HwVidLegacyResources
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.SetKey
-title: IModelKeyReference::SetKey
+title: IModelKeyReference::SetKey (dbgmodel.h)
 description: The SetKey method on a key reference behaves as the SetKey method on IModelObject would.
 ms.assetid: 6bc552a1-5808-46e2-ad15-080f89ec04cc
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference.SetKey
-product: Windows
+- IModelKeyReference.SetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltWriteFile
-title: FltWriteFile function
+title: FltWriteFile function (fltkernel.h)
 description: FltWriteFile is used to write data to an open file, stream, or device.
 old-location: ifsk\fltwritefile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltWriteFile
+- FltWriteFile
 product:
 - Windows
 targetos: Windows

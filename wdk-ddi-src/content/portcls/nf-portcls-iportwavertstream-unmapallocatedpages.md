@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.UnmapAllocatedPages
-title: IPortWaveRTStream::UnmapAllocatedPages
+title: IPortWaveRTStream::UnmapAllocatedPages (portcls.h)
 description: The UnmapAllocatedPages method releases a mapping.
 old-location: audio\iportwavertstream_unmapallocatedpages.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.UnmapAllocatedPages
+- IPortWaveRTStream.UnmapAllocatedPages
 product:
 - Windows
 targetos: Windows

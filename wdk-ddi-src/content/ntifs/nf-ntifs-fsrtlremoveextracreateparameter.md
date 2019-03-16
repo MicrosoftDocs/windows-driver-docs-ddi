@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemoveExtraCreateParameter
-title: FsRtlRemoveExtraCreateParameter function
+title: FsRtlRemoveExtraCreateParameter function (ntifs.h)
 description: The FsRtlRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fsrtlremoveextracreateparameter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlRemoveExtraCreateParameter
+- FsRtlRemoveExtraCreateParameter
 product:
 - Windows
 targetos: Windows

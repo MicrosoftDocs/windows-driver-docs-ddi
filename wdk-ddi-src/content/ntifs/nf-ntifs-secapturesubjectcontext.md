@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeCaptureSubjectContext
-title: SeCaptureSubjectContext function
+title: SeCaptureSubjectContext function (ntifs.h)
 description: The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing.
 old-location: ifsk\secapturesubjectcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeCaptureSubjectContext
+- SeCaptureSubjectContext
 product:
 - Windows
 targetos: Windows

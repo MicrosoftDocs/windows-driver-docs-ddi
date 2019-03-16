@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_QUERY_TYPE
-title: D3D12DDI_QUERY_TYPE
+title: D3D12DDI_QUERY_TYPE (d3d12umddi.h)
 description: Type of a query.
 old-location: display\d3d12ddi_query_type.htm
 ms.assetid: C411997A-0F01-4D88-816A-BD375D0744C7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_QUERY_TYPE
+- D3D12DDI_QUERY_TYPE
 product:
 - Windows
 targetos: Windows

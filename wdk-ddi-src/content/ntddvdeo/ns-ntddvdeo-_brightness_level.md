@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._BRIGHTNESS_LEVEL
-title: _BRIGHTNESS_LEVEL
+title: _BRIGHTNESS_LEVEL (ntddvdeo.h)
 description: Contains information about the brightness level.
 tech.root: display
 ms.assetid: 81351bc7-68af-4cfe-962f-725793c052fe
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BRIGHTNESS_LEVEL
+- _BRIGHTNESS_LEVEL
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetDeviceData
-title: VideoPortGetDeviceData function
+title: VideoPortGetDeviceData function (video.h)
 description: The VideoPortGetDeviceData function retrieves system-detected configuration information from the ..\Machine\Hardware\Description tree in the registry.
 old-location: display\videoportgetdevicedata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetDeviceData
+- VideoPortGetDeviceData
 product:
 - Windows
 targetos: Windows

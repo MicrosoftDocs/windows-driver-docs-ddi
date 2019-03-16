@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResourceFromNtHandle
-title: D3DKMTOpenResourceFromNtHandle function
+title: D3DKMTOpenResourceFromNtHandle function (d3dkmthk.h)
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTOpenResourceFromNtHandle
+- D3DKMTOpenResourceFromNtHandle
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
-title: PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
+title: PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB (d3d10umddi.h)
 description: The pfnShaderCacheAddRefCb callback function supports the ability to extend the lifetime of a shader cache.
 old-location: display\pfnd3dwddm2_2ddi_shadercache_addref_release_cb.htm
 ms.assetid: 2CE40805-D530-47EF-B251-DB3878208504
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnShaderCacheAddRefCb
+- pfnShaderCacheAddRefCb
 product:
 - Windows
 targetos: Windows

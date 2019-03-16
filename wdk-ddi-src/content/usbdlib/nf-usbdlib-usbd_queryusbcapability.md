@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_QueryUsbCapability
-title: USBD_QueryUsbCapability function
+title: USBD_QueryUsbCapability function (usbdlib.h)
 description: The USBD_QueryUsbCapability routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability.
 old-location: buses\usbd_getcapability.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_QueryUsbCapability
+- USBD_QueryUsbCapability
 product:
 - Windows
 targetos: Windows

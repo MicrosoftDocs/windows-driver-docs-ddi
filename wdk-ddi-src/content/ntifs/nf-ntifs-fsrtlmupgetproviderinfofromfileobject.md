@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlMupGetProviderInfoFromFileObject
-title: FsRtlMupGetProviderInfoFromFileObject function
+title: FsRtlMupGetProviderInfoFromFileObject function (ntifs.h)
 description: The FsRtlMupGetProviderInfoFromFileObject routine gets information about a network redirector that is registered with the multiple UNC provider (MUP) from a file object for a file that is located on a remote file system.
 old-location: ifsk\fsrtlmupgetproviderinfofromfileobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlMupGetProviderInfoFromFileObject
+- FsRtlMupGetProviderInfoFromFileObject
 product:
 - Windows
 targetos: Windows

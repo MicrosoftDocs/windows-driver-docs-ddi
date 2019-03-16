@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._GetPresharedKeyForId_IN
-title: "_GetPresharedKeyForId_IN"
+title: _GetPresharedKeyForId_IN (iscsiop.h)
 description: The GetPresharedKeyForId_IN structure holds the input data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	GetPresharedKeyForId_IN
+- GetPresharedKeyForId_IN
 product:
 - Windows
 targetos: Windows

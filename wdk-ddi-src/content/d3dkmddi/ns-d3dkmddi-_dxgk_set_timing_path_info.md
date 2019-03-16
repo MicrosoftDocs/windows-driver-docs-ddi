@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SET_TIMING_PATH_INFO
-title: "_DXGK_SET_TIMING_PATH_INFO"
+title: _DXGK_SET_TIMING_PATH_INFO (d3dkmddi.h)
 description: Structure to hold information to modify SetTiming path.
 old-location: display\dxgk_set_timing_path_info.htm
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_SET_TIMING_PATH_INFO
+- DXGK_SET_TIMING_PATH_INFO
 product:
 - Windows
 targetos: Windows

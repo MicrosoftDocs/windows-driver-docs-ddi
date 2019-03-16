@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._SECURITY_IMPERSONATION_LEVEL
-title: "_SECURITY_IMPERSONATION_LEVEL"
+title: _SECURITY_IMPERSONATION_LEVEL (wdm.h)
 description: The SECURITY_IMPERSONATION_LEVEL enumeration type contains values that specify security impersonation levels. Security impersonation levels govern the degree to which a server process can act on behalf of a client process.
 old-location: ifsk\security_impersonation_level.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	SECURITY_IMPERSONATION_LEVEL
+- SECURITY_IMPERSONATION_LEVEL
 product:
 - Windows
 targetos: Windows

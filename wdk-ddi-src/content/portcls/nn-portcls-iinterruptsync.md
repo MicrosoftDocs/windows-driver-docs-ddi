@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IInterruptSync
-title: IInterruptSync
+title: IInterruptSync (portcls.h)
 description: The IInterruptSync interface represents an interrupt sync object that synchronizes the execution of a list of interrupt service routines (ISRs) with non-ISR routines.
 old-location: audio\iinterruptsync.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync
+- IInterruptSync
 product:
 - Windows
 targetos: Windows

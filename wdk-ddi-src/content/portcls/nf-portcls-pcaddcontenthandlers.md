@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcAddContentHandlers
-title: PcAddContentHandlers function
+title: PcAddContentHandlers function (portcls.h)
 description: The PcAddContentHandlers function provides the system with a list of functions that handle protected content.
 old-location: audio\pcaddcontenthandlers.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcAddContentHandlers
+- PcAddContentHandlers
 product:
 - Windows
 targetos: Windows

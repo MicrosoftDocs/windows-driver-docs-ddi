@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorDataReady
-title: SensorsCxSensorDataReady function
+title: SensorsCxSensorDataReady function (sensorscx.h)
 description: This function notifies the class extension that the driver has retrieved data.
 old-location: sensors\sensorscxsensordataready.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	SensorsCxSensorDataReady
+- SensorsCxSensorDataReady
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETCAPTUREADDRESS
-title: "_DXGKARGCB_GETCAPTUREADDRESS"
+title: _DXGKARGCB_GETCAPTUREADDRESS (d3dkmddi.h)
 description: The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 old-location: display\dxgkargcb_getcaptureaddress.htm
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_GETCAPTUREADDRESS
+- DXGKARGCB_GETCAPTUREADDRESS
 product:
 - Windows
 targetos: Windows

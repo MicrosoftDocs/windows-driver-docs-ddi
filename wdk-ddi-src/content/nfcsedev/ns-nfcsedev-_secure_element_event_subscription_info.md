@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
-title: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
+title: _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO (nfcsedev.h)
 description: The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT.
 old-location: nfpdrivers\secure_element_event_subscription_info.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
+- SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 product:
 - Windows
 targetos: Windows

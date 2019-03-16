@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_FlushQueue
-title: HidD_FlushQueue function
+title: HidD_FlushQueue function (hidsdi.h)
 description: The HidD_FlushQueue routine deletes all pending input reports in a top-level collection's input queue.
 old-location: hid\hidd_flushqueue.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_FlushQueue
+- HidD_FlushQueue
 product:
 - Windows
 targetos: Windows

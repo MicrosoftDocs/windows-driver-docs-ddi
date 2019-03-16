@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_MODE
-title: "_WWAN_REGISTER_MODE"
+title: _WWAN_REGISTER_MODE (wwan.h)
 description: The WWAN_REGISTER_MODE enumeration lists the different network selection modes which defines the way the device should select a network while registering.
 old-location: netvista\wwan_register_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_REGISTER_MODE
+- WWAN_REGISTER_MODE
 product:
 - Windows
 targetos: Windows

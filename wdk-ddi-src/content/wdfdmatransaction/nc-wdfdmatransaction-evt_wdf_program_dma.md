@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmatransaction.EVT_WDF_PROGRAM_DMA
-title: EVT_WDF_PROGRAM_DMA
+title: EVT_WDF_PROGRAM_DMA (wdfdmatransaction.h)
 description: A framework-based driver's EvtProgramDma event callback function programs a specified device to perform a DMA transfer operation.
 old-location: wdf\evtprogramdma.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdfdmatransaction.h
+- wdfdmatransaction.h
 api_name:
--	EvtProgramDma
+- EvtProgramDma
 product:
 - Windows
 targetos: Windows

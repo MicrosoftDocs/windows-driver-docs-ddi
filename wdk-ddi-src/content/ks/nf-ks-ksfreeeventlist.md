@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeEventList
-title: KsFreeEventList function
+title: KsFreeEventList function (ks.h)
 description: The KsFreeEventList function handles freeing all events from a specified list, with the assumption that these events are composed of KSEVENT_ENTRY structures. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfreeeventlist.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFreeEventList
+- KsFreeEventList
 product:
 - Windows
 targetos: Windows

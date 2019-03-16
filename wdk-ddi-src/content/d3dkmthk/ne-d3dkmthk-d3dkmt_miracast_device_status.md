@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MIRACAST_DEVICE_STATUS
-title: D3DKMT_MIRACAST_DEVICE_STATUS
+title: D3DKMT_MIRACAST_DEVICE_STATUS (d3dkmthk.h)
 description: Miracast (wireless display) device status.
 ms.assetid: bf6c74a4-ace8-4fbe-bc61-5066211e9e51
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_DEVICE_STATUS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MIRACAST_DEVICE_STATUS
+- D3DKMT_MIRACAST_DEVICE_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

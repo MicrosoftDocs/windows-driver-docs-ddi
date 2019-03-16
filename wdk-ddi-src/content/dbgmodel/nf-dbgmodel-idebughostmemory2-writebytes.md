@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.WriteBytes
-title: IDebugHostMemory2::WriteBytes
+title: IDebugHostMemory2::WriteBytes (dbgmodel.h)
 description: Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
 ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory2.WriteBytes
-product: Windows
+- IDebugHostMemory2.WriteBytes
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
-title: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+title: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition (portcls.h)
 description: Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_getstreampresentationposition.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
+- IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
 product:
 - Windows
 targetos: Windows

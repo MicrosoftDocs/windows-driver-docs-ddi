@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsReportHardwareEvent
-title: UrsReportHardwareEvent function
+title: UrsReportHardwareEvent function (ursdevice.h)
 description: Notifies the USB dual-role class extension about a new hardware event.
 old-location: buses\ursreporthardwareevent.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Urscxstub.lib
 req.dll: 
 req.irql: HIGH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Urscxstub.lib
--	Urscxstub.dll
+- Urscxstub.lib
+- Urscxstub.dll
 api_name:
--	UrsReportHardwareEvent
+- UrsReportHardwareEvent
 product:
 - Windows
 targetos: Windows

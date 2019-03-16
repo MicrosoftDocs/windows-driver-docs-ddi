@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSynchronousIoControlDevice
-title: KsSynchronousIoControlDevice function
+title: KsSynchronousIoControlDevice function (ks.h)
 description: The KsSynchronousIoControlDevice function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\kssynchronousiocontroldevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSynchronousIoControlDevice
+- KsSynchronousIoControlDevice
 product:
 - Windows
 targetos: Windows

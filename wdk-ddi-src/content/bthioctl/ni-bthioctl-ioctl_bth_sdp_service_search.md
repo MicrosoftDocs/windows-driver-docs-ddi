@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SERVICE_SEARCH
-title: IOCTL_BTH_SDP_SERVICE_SEARCH
+title: IOCTL_BTH_SDP_SERVICE_SEARCH (bthioctl.h)
 description: The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP request for handles to SDP records of a particular service class or classes.
 old-location: bltooth\ioctl_bth_sdp_service_search.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_SDP_SERVICE_SEARCH
+- IOCTL_BTH_SDP_SERVICE_SEARCH
 product:
 - Windows
 targetos: Windows

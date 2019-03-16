@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObjectFromGpu
-title: D3DKMTWaitForSynchronizationObjectFromGpu function
+title: D3DKMTWaitForSynchronizationObjectFromGpu function (d3dkmthk.h)
 description: D3DKMTWaitForSynchronizationObjectFromGpu waits for a monitored fence to reach a certain value before processing subsequent context commands.
 old-location: display\d3dkmtwaitforsynchronizationobjectfromgpu.htm
 ms.assetid: 93705446-8B87-46DD-9CFE-DD0473DEE6B6
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTWaitForSynchronizationObjectFromGpu
+- D3DKMTWaitForSynchronizationObjectFromGpu
 product:
 - Windows
 targetos: Windows

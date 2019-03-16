@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxInit
-title: PosCxInit function
+title: PosCxInit function (poscx.h)
 description: PosCxInit is called to initialize the PosCx library's internal resources. The resources are tied to the device, and are released when the device goes away.
 old-location: pos\poscxinit.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxInit
+- PosCxInit
 product:
 - Windows
 targetos: Windows

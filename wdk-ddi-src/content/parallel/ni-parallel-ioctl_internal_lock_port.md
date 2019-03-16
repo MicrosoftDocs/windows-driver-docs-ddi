@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_LOCK_PORT
-title: IOCTL_INTERNAL_LOCK_PORT
+title: IOCTL_INTERNAL_LOCK_PORT (parallel.h)
 description: The IOCTL_INTERNAL_LOCK_PORT request allocates the parallel device's parent parallel port and selects the parallel device on the port.
 old-location: parports\ioctl_internal_lock_port.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_LOCK_PORT
+- IOCTL_INTERNAL_LOCK_PORT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryPriorityThread
-title: KeQueryPriorityThread function
+title: KeQueryPriorityThread function (wdm.h)
 description: The KeQueryPriorityThread routine returns the current priority of a particular thread.
 old-location: kernel\kequeryprioritythread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryPriorityThread
+- KeQueryPriorityThread
 product:
 - Windows
 targetos: Windows

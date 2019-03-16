@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWpdAttributeForm
-title: tagWpdAttributeForm
+title: WpdAttributeForm (portabledevice.h)
 description: The WpdAttributeForm enumeration type describes how a property stores its values.
 old-location: wpddk\wpdattributeform.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WpdAttributeForm
+- WpdAttributeForm
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
 ms.custom: RS5
@@ -87,7 +87,7 @@ The property value is an object identifier.
 
 
 
-This enumeration is used by the <a href="wpd_attributes.htm">WPD_PROPERTY_ATTRIBUTE_FORM</a> property to describe how a property's data is stored.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/attributes">WPD_PROPERTY_ATTRIBUTE_FORM</a> property to describe how a property's data is stored.
 
 
 

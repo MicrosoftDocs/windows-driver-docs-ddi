@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.EXT_CALLBACK
-title: EXT_CALLBACK
+title: EXT_CALLBACK (wdm.h)
 description: An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires.
 old-location: kernel\extimercallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ExTimerCallback
+- ExTimerCallback
 product:
 - Windows
 targetos: Windows

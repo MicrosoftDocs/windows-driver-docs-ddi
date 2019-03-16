@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION_EX
-title: "_USB_NODE_CONNECTION_INFORMATION_EX"
+title: _USB_NODE_CONNECTION_INFORMATION_EX (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION_EX structure is used in conjunction with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request to obtain information about the connection associated with the indicated USB port.
 old-location: buses\usb_node_connection_information_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_NODE_CONNECTION_INFORMATION_EX
+- USB_NODE_CONNECTION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows
@@ -66,7 +66,7 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 
 ### -field CurrentConfigurationValue
 
-Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs).
+Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents).
 
 
 ### -field Speed

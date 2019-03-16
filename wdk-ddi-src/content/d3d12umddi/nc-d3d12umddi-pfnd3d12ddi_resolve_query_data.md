@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RESOLVE_QUERY_DATA
-title: PFND3D12DDI_RESOLVE_QUERY_DATA
+title: PFND3D12DDI_RESOLVE_QUERY_DATA (d3d12umddi.h)
 description: The pfnResolveQueryData callback function transforms a previously stored query into an API defined format.
 old-location: display\pfnd3d12ddi_resolve_query_data.htm
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnResolveQueryData
+- pfnResolveQueryData
 product:
 - Windows
 targetos: Windows

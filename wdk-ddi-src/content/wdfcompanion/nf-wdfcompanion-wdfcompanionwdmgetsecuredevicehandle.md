@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionWdmGetSecureDeviceHandle
-title: WdfCompanionWdmGetSecureDeviceHandle function
+title: WdfCompanionWdmGetSecureDeviceHandle function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WdfCompanionWdmGetSecureDeviceHandle
+- WdfCompanionWdmGetSecureDeviceHandle
 product:
 - Windows
 targetos: Windows

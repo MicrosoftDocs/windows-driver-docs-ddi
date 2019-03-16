@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueFloat
-title: wiasGetChangedValueFloat function
+title: wiasGetChangedValueFloat function (wiamdef.h)
 description: The wiasGetChangedValueFloat function determines whether a property with a floating-point value has been changed by an application.
 old-location: image\wiasgetchangedvaluefloat.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChangedValueFloat
+- wiasGetChangedValueFloat
 product:
 - Windows
 targetos: Windows

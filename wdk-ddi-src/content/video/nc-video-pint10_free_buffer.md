@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PINT10_FREE_BUFFER
-title: PINT10_FREE_BUFFER
+title: PINT10_FREE_BUFFER (video.h)
 description: The Int10FreeBuffer function frees a buffer previously allocated by Int10AllocateBuffer.
 old-location: display\int10freebuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	Int10FreeBuffer
+- Int10FreeBuffer
 product:
 - Windows
 targetos: Windows

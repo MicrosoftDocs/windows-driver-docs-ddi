@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetTransactionParameterBlock
-title: IoGetTransactionParameterBlock function
+title: IoGetTransactionParameterBlock function (ntddk.h)
 description: The IoGetTransactionParameterBlock routine returns the transaction parameter block for a transacted file operation.
 old-location: ifsk\iogettransactionparameterblock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetTransactionParameterBlock
+- IoGetTransactionParameterBlock
 product:
 - Windows
 targetos: Windows

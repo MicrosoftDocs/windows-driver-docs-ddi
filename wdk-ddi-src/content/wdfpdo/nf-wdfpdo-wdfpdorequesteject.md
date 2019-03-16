@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoRequestEject
-title: WdfPdoRequestEject function
+title: WdfPdoRequestEject function (wdfpdo.h)
 description: The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfpdorequesteject.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoRequestEject
+- WdfPdoRequestEject
 product:
 - Windows
 targetos: Windows

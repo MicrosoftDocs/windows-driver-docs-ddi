@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakToNone
-title: FsRtlOplockBreakToNone function
+title: FsRtlOplockBreakToNone function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlOplockBreakToNone
+- FsRtlOplockBreakToNone
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

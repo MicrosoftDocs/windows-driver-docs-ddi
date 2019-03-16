@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm.MEM_EXTENDED_PARAMETER
-title: MEM_EXTENDED_PARAMETER
+title: MEM_EXTENDED_PARAMETER (wdm.h)
 description: 
 ms.assetid: b554961b-11ab-4457-8c3f-d4ab7c28b76e
 ms.date: 09/30/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	MEM_EXTENDED_PARAMETER
-product: Windows
+- MEM_EXTENDED_PARAMETER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -52,7 +53,7 @@ Reserved.
 ### -field DUMMYUNIONNAME.ULong64
  
 ### -field DUMMYUNIONNAME.Pointer
-A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](ns-wdm-_mem_address_requirements.md) structure that specifies, the lowest and highest base address and alignment.
+A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_mem_address_requirements) structure that specifies, the lowest and highest base address and alignment.
  
 ### -field DUMMYUNIONNAME.Size
  

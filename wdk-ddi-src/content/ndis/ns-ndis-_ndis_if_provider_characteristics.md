@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IF_PROVIDER_CHARACTERISTICS
-title: "_NDIS_IF_PROVIDER_CHARACTERISTICS"
+title: _NDIS_IF_PROVIDER_CHARACTERISTICS (ndis.h)
 description: The NDIS_IF_PROVIDER_CHARACTERISTICS structure defines NDIS network interface provider entry points and other provider characteristics.
 old-location: netvista\ndis_if_provider_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_IF_PROVIDER_CHARACTERISTICS
+- NDIS_IF_PROVIDER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

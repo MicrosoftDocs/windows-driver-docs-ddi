@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PERF_STATE
-title: "_PEP_PERF_STATE"
+title: _PEP_PERF_STATE (pep_x.h)
 description: The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
 old-location: kernel\pep_perf_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PERF_STATE
+- PEP_PERF_STATE
 product:
 - Windows
 targetos: Windows

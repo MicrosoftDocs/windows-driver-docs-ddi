@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateMutex
-title: KeReadStateMutex function
+title: KeReadStateMutex function (wdm.h)
 description: The KeReadStateMutex routine returns the current state, signaled or not-signaled, of the specified mutex object.
 old-location: kernel\kereadstatemutex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReadStateMutex
+- KeReadStateMutex
 product:
 - Windows
 targetos: Windows

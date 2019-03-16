@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.EnumFeatures
-title: IPrintCoreUI2::EnumFeatures
+title: IPrintCoreUI2::EnumFeatures (prcomoem.h)
 description: The IPrintCoreUI2::EnumFeatures method enumerates a printer's available features.
 old-location: print\iprintcoreui2_enumfeatures.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.EnumFeatures
+- IPrintCoreUI2.EnumFeatures
 product:
 - Windows
 targetos: Windows

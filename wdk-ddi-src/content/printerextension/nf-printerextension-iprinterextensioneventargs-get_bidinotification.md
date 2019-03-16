@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_BidiNotification
-title: IPrinterExtensionEventArgs::get_BidiNotification
+title: IPrinterExtensionEventArgs::get_BidiNotification (printerextension.h)
 description: Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 old-location: print\iprinterextensioneventargs_bidinotification.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEventArgs.BidiNotification
--	IPrinterExtensionEventArgs.get_BidiNotification
+- IPrinterExtensionEventArgs.BidiNotification
+- IPrinterExtensionEventArgs.get_BidiNotification
 product:
 - Windows
 targetos: Windows

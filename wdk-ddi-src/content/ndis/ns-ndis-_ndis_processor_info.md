@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROCESSOR_INFO
-title: "_NDIS_PROCESSOR_INFO"
+title: _NDIS_PROCESSOR_INFO (ndis.h)
 description: The NDIS_PROCESSOR_INFO structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_PROCESSOR_INFO
+- NDIS_PROCESSOR_INFO
 product:
 - Windows
 targetos: Windows

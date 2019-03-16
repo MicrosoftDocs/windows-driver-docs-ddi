@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartFont
-title: IPartFont
+title: IPartFont (filterpipeline.h)
 description: The IPartFont interface is the abstraction for fonts in a part.
 old-location: print\ipartfont.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartFont
+- IPartFont
 product:
 - Windows
 targetos: Windows

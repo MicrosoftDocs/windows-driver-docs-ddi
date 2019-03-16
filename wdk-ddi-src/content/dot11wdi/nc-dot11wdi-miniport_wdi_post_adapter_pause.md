@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_POST_ADAPTER_PAUSE
-title: MINIPORT_WDI_POST_ADAPTER_PAUSE
+title: MINIPORT_WDI_POST_ADAPTER_PAUSE (dot11wdi.h)
 description: The MiniportWdiPostAdapterPause handler function is called by the Microsoft component after it finishes the data path clean up as part of the NDIS MiniportPause requirements.
 old-location: netvista\miniportwdipostadapterpause.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiPostAdapterPause
+- MiniportWdiPostAdapterPause
 product:
 - Windows
 targetos: Windows

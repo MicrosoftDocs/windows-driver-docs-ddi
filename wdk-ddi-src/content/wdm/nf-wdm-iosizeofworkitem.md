@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSizeofWorkItem
-title: IoSizeofWorkItem function
+title: IoSizeofWorkItem function (wdm.h)
 description: The IoSizeofWorkItem routine returns the size, in bytes, of an IO_WORKITEM structure.
 old-location: kernel\iosizeofworkitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSizeofWorkItem
+- IoSizeofWorkItem
 product:
 - Windows
 targetos: Windows

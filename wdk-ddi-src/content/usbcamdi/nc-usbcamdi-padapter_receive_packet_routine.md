@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PADAPTER_RECEIVE_PACKET_ROUTINE
-title: PADAPTER_RECEIVE_PACKET_ROUTINE
+title: PADAPTER_RECEIVE_PACKET_ROUTINE (usbcamdi.h)
 description: A camera minidriver's AdapterReceivePacket callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver.
 old-location: stream\adapterreceivepacket.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	AdapterReceivePacket
+- AdapterReceivePacket
 product:
 - Windows
 targetos: Windows

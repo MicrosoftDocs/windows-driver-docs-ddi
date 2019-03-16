@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
-title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
+title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 (d3d12umddi.h)
 description: Specifies information used to check whether a color space conversion, format conversion, and scale are supported and whether it is required for real-time reasons or reference buffer format.
 old-location: display\d3d12ddi_video_decode_conversion_support_data.htm
 ms.assetid: E9FA4CEB-84D3-42A6-B36A-B411922F19AE
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
+- D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_INFO
-title: "_SECURE_ELEMENT_EVENT_INFO"
+title: _SECURE_ELEMENT_EVENT_INFO (nfcsedev.h)
 description: This structure provides information about a secure element event.
 old-location: nfpdrivers\secure_element_event_info.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_EVENT_INFO
+- SECURE_ELEMENT_EVENT_INFO
 product:
 - Windows
 targetos: Windows

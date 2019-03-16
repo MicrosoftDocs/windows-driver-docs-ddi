@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMUpgradeRegistry
-title: OEMUpgradeRegistry function
+title: OEMUpgradeRegistry function (printoem.h)
 description: OEMUpgradeRegistry function
 old-location: print\oemupgraderegistry.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMUpgradeRegistry
+- OEMUpgradeRegistry
 product:
 - Windows
 targetos: Windows

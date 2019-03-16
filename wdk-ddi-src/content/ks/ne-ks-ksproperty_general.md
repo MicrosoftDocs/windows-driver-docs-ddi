@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_2
-title: KSPROPERTY_GENERAL
+title: KSPROPERTY_GENERAL (ks.h)
 description: 
 old-location: stream\ksproperty_general.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_GENERAL
+- KSPROPERTY_GENERAL
 product:
 - Windows
 targetos: Windows

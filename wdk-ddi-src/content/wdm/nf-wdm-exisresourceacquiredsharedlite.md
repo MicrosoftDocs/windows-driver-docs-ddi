@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsResourceAcquiredSharedLite
-title: ExIsResourceAcquiredSharedLite function
+title: ExIsResourceAcquiredSharedLite function (wdm.h)
 description: The ExIsResourceAcquiredSharedLite routine returns whether the current thread has access (either shared or exclusive) to a given resource.
 old-location: kernel\exisresourceacquiredsharedlite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExIsResourceAcquiredSharedLite
+- ExIsResourceAcquiredSharedLite
 product:
 - Windows
 targetos: Windows

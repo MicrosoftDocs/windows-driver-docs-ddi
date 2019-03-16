@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_FREE_POOL
-title: DXGKCB_AGP_FREE_POOL
+title: DXGKCB_AGP_FREE_POOL (dispmprt.h)
 description: The AgpFreePool function frees AGP memory that was previously allocated by AgpAllocatePool.
 old-location: display\agpfreepool.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	AgpFreePool
+- AgpFreePool
 product:
 - Windows
 targetos: Windows

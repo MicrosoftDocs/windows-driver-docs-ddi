@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDIMULTISAMPLE_TYPE
-title: "_D3DDDIMULTISAMPLE_TYPE"
+title: _D3DDDIMULTISAMPLE_TYPE (d3dukmdt.h)
 description: The D3DDDIMULTISAMPLE_TYPE enumeration defines the levels of full-scene multisampling that the device can apply.
 old-location: display\d3dddimultisample_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDIMULTISAMPLE_TYPE
+- D3DDDIMULTISAMPLE_TYPE
 product:
 - Windows
 targetos: Windows

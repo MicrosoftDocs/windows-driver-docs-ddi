@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteStreamHandleContext
-title: FltDeleteStreamHandleContext function
+title: FltDeleteStreamHandleContext function (fltkernel.h)
 description: FltDeleteStreamHandleContext removes a context that a given minifilter driver instance has set for a given stream handle and marks the context for deletion.
 old-location: ifsk\fltdeletestreamhandlecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltDeleteStreamHandleContext
+- FltDeleteStreamHandleContext
 product:
 - Windows
 targetos: Windows

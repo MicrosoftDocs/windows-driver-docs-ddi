@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCopyRead(PFILE_OBJECT,PLARGE_INTEGER,ULONG,BOOLEAN,ULONG,PVOID,PIO_STATUS_BLOCK,PDEVICE_OBJECT)
-title: FsRtlCopyRead function
+title: FsRtlCopyRead function (ntifs.h)
 description: The FsRtlCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\fsrtlcopyread.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlCopyRead
+- FsRtlCopyRead
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfwmi._WDF_WMI_INSTANCE_CONFIG
-title: "_WDF_WMI_INSTANCE_CONFIG"
+title: _WDF_WMI_INSTANCE_CONFIG (wdfwmi.h)
 description: The WDF_WMI_INSTANCE_CONFIG structure contains configuration information for an instance of a WMI data provider.
 old-location: wdf\wdf_wmi_instance_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfwmi.h
+- wdfwmi.h
 api_name:
--	WDF_WMI_INSTANCE_CONFIG
+- WDF_WMI_INSTANCE_CONFIG
 product:
 - Windows
 targetos: Windows

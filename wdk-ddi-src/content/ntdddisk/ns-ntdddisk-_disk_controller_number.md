@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_CONTROLLER_NUMBER
-title: "_DISK_CONTROLLER_NUMBER"
+title: _DISK_CONTROLLER_NUMBER (ntdddisk.h)
 description: DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk.
 old-location: storage\disk_controller_number.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_CONTROLLER_NUMBER
+- DISK_CONTROLLER_NUMBER
 product:
 - Windows
 targetos: Windows

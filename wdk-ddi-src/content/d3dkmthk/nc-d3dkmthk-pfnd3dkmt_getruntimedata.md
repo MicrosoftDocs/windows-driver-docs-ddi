@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETRUNTIMEDATA
-title: PFND3DKMT_GETRUNTIMEDATA
+title: PFND3DKMT_GETRUNTIMEDATA (d3dkmthk.h)
 description: The D3DKMTGetRuntimeData function is for system use only.
 old-location: display\d3dkmtgetruntimedata.htm
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTGetRuntimeData
+- D3DKMTGetRuntimeData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmNotification
-title: UcmUcsiPpmNotification function
+title: UcmUcsiPpmNotification function (ucmucsippm.h)
 tech.root: usbref
 description: Informs the UcmUcsiCx class extension about a UCSI notification.
 ms.assetid: 471cd707-c453-4033-a17b-52cdf429eaab
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UcmUcsiCxStub.lib
+- UcmUcsiCxStub.lib
 api_name: 
--	UcmUcsiPpmNotification
-product: Windows
+- UcmUcsiPpmNotification
+product:
+- Windows
 targetos: Windows
 
 

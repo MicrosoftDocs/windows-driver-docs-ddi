@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_PREPARE_CONTROLLER
-title: GPIO_CLIENT_PREPARE_CONTROLLER
+title: GPIO_CLIENT_PREPARE_CONTROLLER (gpioclx.h)
 description: The CLIENT_PrepareController event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
 old-location: gpio\client_preparecontroller.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_PrepareController
+- CLIENT_PrepareController
 product:
 - Windows
 targetos: Windows

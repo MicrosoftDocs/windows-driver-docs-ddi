@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_STATE
-title: "_WWAN_PACKET_SERVICE_STATE"
+title: _WWAN_PACKET_SERVICE_STATE (wwan.h)
 description: The WWAN_PACKET_SERVICE_STATE enumeration lists the different packet service attachment states that are supported by the MB device.
 old-location: netvista\wwan_packet_service_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PACKET_SERVICE_STATE
+- WWAN_PACKET_SERVICE_STATE
 product:
 - Windows
 targetos: Windows

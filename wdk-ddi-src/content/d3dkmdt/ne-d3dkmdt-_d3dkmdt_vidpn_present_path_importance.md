@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE"
+title: _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE enumeration indicates the importance of a video present path.
 old-location: display\d3dkmdt_vidpn_present_path_importance.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+- D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
 product:
 - Windows
 targetos: Windows

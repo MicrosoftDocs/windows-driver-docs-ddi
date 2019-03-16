@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
-title: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
+title: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO (parallel.h)
 description: The IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO request returns Plug and Play information about a parallel port.
 old-location: parports\ioctl_internal_get_parallel_pnp_info.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
+- IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
 product:
 - Windows
 targetos: Windows

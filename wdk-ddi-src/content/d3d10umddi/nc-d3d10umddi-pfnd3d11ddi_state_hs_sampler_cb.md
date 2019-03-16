@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_HS_SAMPLER_CB
-title: PFND3D11DDI_STATE_HS_SAMPLER_CB
+title: PFND3D11DDI_STATE_HS_SAMPLER_CB (d3d10umddi.h)
 description: The pfnStateHsSamplerCb function causes the Microsoft Direct3D 11 runtime to refresh the hull shader sample state.
 old-location: display\pfnstatehssamplercb.htm
 ms.assetid: 95475c7a-874c-45e9-ab92-1c3983315446
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateHsSamplerCb
+- pfnStateHsSamplerCb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTOUT3
-title: "_DXGK_QUERYSEGMENTOUT3"
+title: _DXGK_QUERYSEGMENTOUT3 (d3dkmddi.h)
 description: Describes memory-segment information that a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver should return from a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentout3.htm
 ms.assetid: 4a78a998-7eab-4499-a280-96ca6d6ff5a2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_QUERYSEGMENTOUT3
+- DXGK_QUERYSEGMENTOUT3
 product:
 - Windows
 targetos: Windows

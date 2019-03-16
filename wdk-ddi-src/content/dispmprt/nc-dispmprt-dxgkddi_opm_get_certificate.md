@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_CERTIFICATE
-title: DXGKDDI_OPM_GET_CERTIFICATE
+title: DXGKDDI_OPM_GET_CERTIFICATE (dispmprt.h)
 description: The DxgkDdiOPMGetCertificate function retrieves a certificate of the given type and size.
 old-location: display\dxgkddiopmgetcertificate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMGetCertificate
+- DxgkDdiOPMGetCertificate
 product:
 - Windows
 targetos: Windows

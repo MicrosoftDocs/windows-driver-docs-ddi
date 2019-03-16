@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
-title: NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro
+title: NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro (ntddndis.h)
 description: The NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro is used to access the next NDIS_ROUTING_DOMAIN_ENTRY element that follows an NDIS_ROUTING_DOMAIN_ENTRY structure in the array that is specified by an NDIS_ISOLATION_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: d40e45ee-b7f7-40b4-8152-af1b31c1e971
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
+- NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_METHOD
-title: EVT_NET_REQUEST_METHOD
+title: EVT_NET_REQUEST_METHOD (netrequestqueue.h)
 description: Implemented by the client driver to handle a specific method OID request.
 tech.root: netvista
 ms.assetid: c9df356a-9b50-4906-aa8f-20b81e0dacb2
@@ -25,16 +25,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	EVT_NET_REQUEST_METHOD
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netrequestqueue.h
+api_name: 
+- EVT_NET_REQUEST_METHOD
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

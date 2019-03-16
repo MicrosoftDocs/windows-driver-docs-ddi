@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreateFromLookaside
-title: WdfMemoryCreateFromLookaside function
+title: WdfMemoryCreateFromLookaside function (wdfmemory.h)
 description: The WdfMemoryCreateFromLookaside method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 old-location: wdf\wdfmemorycreatefromlookaside.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfMemoryCreateFromLookaside
+- WdfMemoryCreateFromLookaside
 product:
 - Windows
 targetos: Windows

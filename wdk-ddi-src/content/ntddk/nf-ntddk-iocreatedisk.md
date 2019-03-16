@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateDisk
-title: IoCreateDisk function
+title: IoCreateDisk function (ntddk.h)
 description: The IoCreateDisk routine initializes a raw disk by creating a new partition table.
 old-location: storage\iocreatedisk.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateDisk
+- IoCreateDisk
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_DEVICEFUNCS
-title: D3D11_1DDI_DEVICEFUNCS
+title: D3D11_1DDI_DEVICEFUNCS (d3d10umddi.h)
 description: Contains functions that a user-mode display driver that is optimized for the Microsoft Direct3D version 11.1 runtime can implement to render graphics primitives and process state changes.
 old-location: display\d3d11_1ddi_devicefuncs.htm
 ms.assetid: 5429D886-4CC0-438D-AC9F-739159802062
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_DEVICEFUNCS
+- D3D11_1DDI_DEVICEFUNCS
 product:
 - Windows
 targetos: Windows

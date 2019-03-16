@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.Init
-title: IMiniportWaveRT::Init
+title: IMiniportWaveRT::Init (portcls.h)
 description: The Init method initializes the WaveRT miniport driver object.
 old-location: audio\iminiportwavert_init.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRT.Init
+- IMiniportWaveRT.Init
 product:
 - Windows
 targetos: Windows

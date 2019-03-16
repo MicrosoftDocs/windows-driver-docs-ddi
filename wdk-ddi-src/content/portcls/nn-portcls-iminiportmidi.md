@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportMidi
-title: IMiniportMidi
+title: IMiniportMidi (portcls.h)
 description: The IMiniportMidi interface is the primary interface for a MIDI miniport driver for a MIDI synthesizer device.
 old-location: audio\iminiportmidi.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidi
+- IMiniportMidi
 product:
 - Windows
 targetos: Windows

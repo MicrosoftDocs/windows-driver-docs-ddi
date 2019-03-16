@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateTopologyNodeCreateRequest
-title: KsValidateTopologyNodeCreateRequest function
+title: KsValidateTopologyNodeCreateRequest function (ks.h)
 description: The KsValidateTopologyNodeCreateRequest function validates a topology node creation request and returns the create structure associated with the request. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidatetopologynodecreaterequest.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsValidateTopologyNodeCreateRequest
+- KsValidateTopologyNodeCreateRequest
 product:
 - Windows
 targetos: Windows

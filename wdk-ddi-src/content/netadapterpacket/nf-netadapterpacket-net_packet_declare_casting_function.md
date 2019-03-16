@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_DECLARE_CASTING_FUNCTION
-title: NET_PACKET_DECLARE_CASTING_FUNCTION macro
+title: NET_PACKET_DECLARE_CASTING_FUNCTION macro (netadapterpacket.h)
 description: The NET_PACKET_DECLARE_CASTING_FUNCTION macro declares a casting function for a NET_PACKET context space. 
 tech.root: netvista
 ms.assetid: b422849e-6601-46d9-a07c-6e9f2cf48725
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NET_PACKET_DECLARE_CASTING_FUNCTION
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NET_PACKET_DECLARE_CASTING_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

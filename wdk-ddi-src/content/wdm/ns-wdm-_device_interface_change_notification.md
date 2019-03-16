@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_INTERFACE_CHANGE_NOTIFICATION
-title: "_DEVICE_INTERFACE_CHANGE_NOTIFICATION"
+title: _DEVICE_INTERFACE_CHANGE_NOTIFICATION (wdm.h)
 description: The DEVICE_INTERFACE_CHANGE_NOTIFICATION structure describes a device interface that has been enabled (arrived) or disabled (removed).
 old-location: kernel\device_interface_change_notification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	DEVICE_INTERFACE_CHANGE_NOTIFICATION
+- DEVICE_INTERFACE_CHANGE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

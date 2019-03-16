@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeSetHardwareCounterConfiguration
-title: KeSetHardwareCounterConfiguration function
+title: KeSetHardwareCounterConfiguration function (ntddk.h)
 description: The KeSetHardwareCounterConfiguration routine specifies a list of hardware counters to use for thread profiling.
 old-location: kernel\kesethardwarecounterconfiguration.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetHardwareCounterConfiguration
+- KeSetHardwareCounterConfiguration
 product:
 - Windows
 targetos: Windows

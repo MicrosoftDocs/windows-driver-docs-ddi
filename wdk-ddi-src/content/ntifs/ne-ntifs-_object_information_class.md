@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._OBJECT_INFORMATION_CLASS
-title: "_OBJECT_INFORMATION_CLASS"
+title: _OBJECT_INFORMATION_CLASS (ntifs.h)
 description: The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
 old-location: ifsk\object_information_class.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	OBJECT_INFORMATION_CLASS
+- OBJECT_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

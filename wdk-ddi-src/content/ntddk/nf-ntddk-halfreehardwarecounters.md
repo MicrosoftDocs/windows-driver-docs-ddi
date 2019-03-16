@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.HalFreeHardwareCounters
-title: HalFreeHardwareCounters function
+title: HalFreeHardwareCounters function (ntddk.h)
 description: The HalFreeHardwareCounters routine frees a set of hardware performance counters that was acquired in a previous call to HalAllocateHardwareCounters routine.
 old-location: kernel\halfreehardwarecounters.htm
 tech.root: kernel
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	DllExport
-apilocation:
--	Hal.dll
-apiname:
--	HalFreeHardwareCounters
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- DllExport
+api_location
+- Hal.dll
+api_name:
+- HalFreeHardwareCounters
 product:
 - Windows
 targetos: Windows

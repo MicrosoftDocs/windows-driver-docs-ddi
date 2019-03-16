@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia._KSM_BDA_PIN
-title: "_KSM_BDA_PIN"
+title: _KSM_BDA_PIN (bdamedia.h)
 description: The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_bda_pin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdamedia.h
+- bdamedia.h
 api_name:
--	KSM_BDA_PIN
+- KSM_BDA_PIN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.RegisterExtensionForTypeSignature
-title: IDataModelManager2::RegisterExtensionForTypeSignature
+title: IDataModelManager2::RegisterExtensionForTypeSignature (dbgmodel.h)
 description: The RegisterExtensionForTypeSignature method is similar to the RegisterModelForTypeSignature method with one key difference.
 ms.assetid: db12fe6e-c98b-4c9b-be71-76a8c7cabcb8
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2.RegisterExtensionForTypeSignature
-product: Windows
+- IDataModelManager2.RegisterExtensionForTypeSignature
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

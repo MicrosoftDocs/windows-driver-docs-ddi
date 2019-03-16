@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_GAMMA_RAMP_DXGI_1
-title: "_D3DDDI_GAMMA_RAMP_DXGI_1"
+title: _D3DDDI_GAMMA_RAMP_DXGI_1 (d3dukmdt.h)
 description: The D3DDDI_GAMMA_RAMP_DXGI_1 structure describes a gamma function.
 old-location: display\d3dddi_gamma_ramp_dxgi_1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_GAMMA_RAMP_DXGI_1
+- D3DDDI_GAMMA_RAMP_DXGI_1
 product:
 - Windows
 targetos: Windows

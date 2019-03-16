@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetType
-title: IDebugHostBaseClass::GetType
+title: IDebugHostBaseClass::GetType (dbgmodel.h)
 description: Returns the type (that is "int *") of the symbol if the symbol has a type.
 ms.assetid: ebf8fe3d-bd5d-4fdb-8ce7-0baca3149fb5
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostBaseClass.GetType
-product: Windows
+- IDebugHostBaseClass.GetType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

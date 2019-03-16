@@ -1,6 +1,6 @@
 ---
 UID: NS:mbbcxtypes._MBB_DRIVER_GLOBALS
-title: _MBB_DRIVER_GLOBALS
+title: _MBB_DRIVER_GLOBALS (mbbcxtypes.h)
 description: Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 tech.root: netvista
 ms.assetid: 68caf662-edfa-4ede-b063-3b7589dc8d34
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcxtypes.h
+- mbbcxtypes.h
 api_name: 
--	_MBB_DRIVER_GLOBALS
+- _MBB_DRIVER_GLOBALS
 product:
 - Windows
 targetos: Windows

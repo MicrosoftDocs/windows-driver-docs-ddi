@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetOverlayState
-title: D3DKMTGetOverlayState function
+title: D3DKMTGetOverlayState function (d3dkmthk.h)
 description: The D3DKMTGetOverlayState function retrieves the status about an overlay.
 old-location: display\d3dkmtgetoverlaystate.htm
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetOverlayState
+- D3DKMTGetOverlayState
 product:
 - Windows
 targetos: Windows

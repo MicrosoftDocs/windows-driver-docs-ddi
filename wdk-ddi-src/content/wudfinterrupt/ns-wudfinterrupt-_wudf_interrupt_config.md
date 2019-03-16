@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfinterrupt._WUDF_INTERRUPT_CONFIG
-title: "_WUDF_INTERRUPT_CONFIG"
+title: _WUDF_INTERRUPT_CONFIG (wudfinterrupt.h)
 description: The WUDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt.
 old-location: wdf\wudf_interrupt_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	WUDF_INTERRUPT_CONFIG
+- WUDF_INTERRUPT_CONFIG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObjectLite
-title: IoCreateStreamFileObjectLite function
+title: IoCreateStreamFileObjectLite function (ntifs.h)
 description: The IoCreateStreamFileObjectLite routine creates a new stream file object, but does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack.
 old-location: ifsk\iocreatestreamfileobjectlite.htm
 tech.root: ifsk
@@ -24,16 +24,16 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateStreamFileObjectLite
+- IoCreateStreamFileObjectLite
 product:
 - Windows
 targetos: Windows

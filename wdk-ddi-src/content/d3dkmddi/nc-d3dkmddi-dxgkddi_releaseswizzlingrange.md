@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RELEASESWIZZLINGRANGE
-title: DXGKDDI_RELEASESWIZZLINGRANGE
+title: DXGKDDI_RELEASESWIZZLINGRANGE (d3dkmddi.h)
 description: The DxgkDdiReleaseSwizzlingRange function releases a swizzling range that the DxgkDdiAcquireSwizzlingRange function previously set up.
 old-location: display\dxgkddireleaseswizzlingrange.htm
 ms.assetid: 6c583a48-baa4-429f-b2fc-5f86859617cc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiReleaseSwizzlingRange
+- DxgkDdiReleaseSwizzlingRange
 product:
 - Windows
 targetos: Windows

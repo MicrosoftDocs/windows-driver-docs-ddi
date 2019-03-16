@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReturnNetBufferLists
-title: NdisReturnNetBufferLists function
+title: NdisReturnNetBufferLists function (ndis.h)
 description: NDIS drivers call the NdisReturnNetBufferLists function to release ownership of a list of NET_BUFFER_LIST structures, along with the associated NET_BUFFER structures and network data.
 old-location: netvista\ndisreturnnetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisReturnNetBufferLists
+- NdisReturnNetBufferLists
 product:
 - Windows
 targetos: Windows

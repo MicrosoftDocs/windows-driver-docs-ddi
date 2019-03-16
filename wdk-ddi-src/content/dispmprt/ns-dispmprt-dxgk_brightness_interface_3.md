@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
-title: DXGK_BRIGHTNESS_INTERFACE_3
+title: DXGK_BRIGHTNESS_INTERFACE_3 (dispmprt.h)
 description:
 ms.assetid: eccaf527-4b7b-4ebb-a2ab-e4d94a1d357d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_INTERFACE_3
+- DXGK_BRIGHTNESS_INTERFACE_3
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---

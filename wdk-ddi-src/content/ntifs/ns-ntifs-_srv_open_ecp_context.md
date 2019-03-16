@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SRV_OPEN_ECP_CONTEXT
-title: "_SRV_OPEN_ECP_CONTEXT"
+title: _SRV_OPEN_ECP_CONTEXT (ntifs.h)
 description: The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests.
 old-location: ifsk\srv_open_ecp_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SRV_OPEN_ECP_CONTEXT
+- SRV_OPEN_ECP_CONTEXT
 product:
 - Windows
 targetos: Windows

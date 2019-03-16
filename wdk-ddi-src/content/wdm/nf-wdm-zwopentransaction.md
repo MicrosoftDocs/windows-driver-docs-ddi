@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenTransaction
-title: ZwOpenTransaction function
+title: ZwOpenTransaction function (wdm.h)
 description: The ZwOpenTransaction routine obtains a handle to an existing transaction object.
 old-location: kernel\zwopentransaction.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenTransaction
--	NtOpenTransaction
+- ZwOpenTransaction
+- NtOpenTransaction
 product:
 - Windows
 targetos: Windows

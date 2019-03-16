@@ -1,6 +1,6 @@
 ---
 UID: NC:portcls.PCPFNEVENT_HANDLER
-title: PCPFNEVENT_HANDLER
+title: PCPFNEVENT_HANDLER (portcls.h)
 description: An EventHandler routine processes event requests.
 old-location: audio\eventhandler.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	EventHandler
+- EventHandler
 product:
 - Windows
 targetos: Windows

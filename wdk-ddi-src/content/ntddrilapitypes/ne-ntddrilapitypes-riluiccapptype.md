@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCAPPTYPE
-title: RILUICCAPPTYPE
+title: RILUICCAPPTYPE (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluiccapptype.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCAPPTYPE
+- RILUICCAPPTYPE
 product:
 - Windows
 targetos: Windows

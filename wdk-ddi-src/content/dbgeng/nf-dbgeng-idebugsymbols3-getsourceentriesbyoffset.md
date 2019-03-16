@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntriesByOffset
-title: IDebugSymbols3::GetSourceEntriesByOffset
+title: IDebugSymbols3::GetSourceEntriesByOffset (dbgeng.h)
 description: Queries symbol information and returns locations in the target's memory by using an offset.
 old-location: debugger\idebugsymbols3_getsourceentriesbyoffset.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.GetSourceEntriesByOffset
+- IDebugSymbols3.GetSourceEntriesByOffset
 product:
 - Windows
 targetos: Windows

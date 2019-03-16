@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._BOOT_AREA_INFO
-title: "_BOOT_AREA_INFO"
+title: _BOOT_AREA_INFO (ntifs.h)
 description: The BOOT_AREA_INFO structure contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.
 old-location: ifsk\boot_area_info.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	BOOT_AREA_INFO
+- BOOT_AREA_INFO
 product:
 - Windows
 targetos: Windows

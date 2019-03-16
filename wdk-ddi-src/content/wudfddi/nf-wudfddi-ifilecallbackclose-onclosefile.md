@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IFileCallbackClose.OnCloseFile
-title: IFileCallbackClose::OnCloseFile
+title: IFileCallbackClose::OnCloseFile (wudfddi.h)
 description: The OnCloseFile method is called when the last reference count on a file object goes down to zero and before the file object is released.
 old-location: wdf\ifilecallbackclose_onclosefile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IFileCallbackClose.OnCloseFile
+- IFileCallbackClose.OnCloseFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PDETERMINE_IEEE_MODES
-title: PDETERMINE_IEEE_MODES
+title: PDETERMINE_IEEE_MODES (parallel.h)
 description: The PDETERMINE_IEEE_MODES-typed callback routine determines which IEEE 1284 protocols a parallel device supports. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pdetermine_ieee_modes.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PDETERMINE_IEEE_MODES
+- PDETERMINE_IEEE_MODES
 product:
 - Windows
 targetos: Windows

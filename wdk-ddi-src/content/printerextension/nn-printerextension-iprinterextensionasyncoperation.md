@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionAsyncOperation
-title: IPrinterExtensionAsyncOperation
+title: IPrinterExtensionAsyncOperation (printerextension.h)
 description: Provides the context associated with an asynchronous operation.
 old-location: print\iprinterextensionasyncoperation.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionAsyncOperation
+- IPrinterExtensionAsyncOperation
 product:
 - Windows
 targetos: Windows

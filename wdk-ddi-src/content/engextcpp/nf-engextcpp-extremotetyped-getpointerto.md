@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetPointerTo
-title: ExtRemoteTyped::GetPointerTo
+title: ExtRemoteTyped::GetPointerTo (engextcpp.h)
 description: The GetPointerTo method returns typed data that is a pointer to the typed data represented by this object.
 old-location: debugger\extremotetyped_getpointerto.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.GetPointerTo
+- ExtRemoteTyped.GetPointerTo
 product:
 - Windows
 targetos: Windows

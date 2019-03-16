@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_RESET
-title: EVT_UCX_CONTROLLER_RESET
+title: EVT_UCX_CONTROLLER_RESET (ucxcontroller.h)
 description: The client driver's implementation that UCX calls to reset the controller.
 old-location: buses\evt_ucx_controller_reset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	PEVT_UCX_CONTROLLER_RESET
+- PEVT_UCX_CONTROLLER_RESET
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_UNMASKED_INTERRUPT_INFORMATION
-title: "_PEP_UNMASKED_INTERRUPT_INFORMATION"
+title: _PEP_UNMASKED_INTERRUPT_INFORMATION (pepfx.h)
 description: The PEP_UNMASKED_INTERRUPT_INFORMATION structure contains information about an interrupt source.
 old-location: kernel\pep_unmasked_interrupt_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_UNMASKED_INTERRUPT_INFORMATION
+- PEP_UNMASKED_INTERRUPT_INFORMATION
 product:
 - Windows
 targetos: Windows

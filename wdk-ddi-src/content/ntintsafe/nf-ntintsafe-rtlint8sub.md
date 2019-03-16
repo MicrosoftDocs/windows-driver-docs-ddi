@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8Sub
-title: RtlInt8Sub function
+title: RtlInt8Sub function (ntintsafe.h)
 description: Subtracts one value of type INT8 from another.
 old-location: kernel\rtlint8sub.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlInt8Sub
+- RtlInt8Sub
 product:
 - Windows
 targetos: Windows

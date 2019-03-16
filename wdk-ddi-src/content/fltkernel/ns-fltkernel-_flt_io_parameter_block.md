@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_IO_PARAMETER_BLOCK
-title: "_FLT_IO_PARAMETER_BLOCK"
+title: _FLT_IO_PARAMETER_BLOCK (fltkernel.h)
 description: The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data (FLT_CALLBACK_DATA) structure.
 old-location: ifsk\flt_io_parameter_block.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_IO_PARAMETER_BLOCK
+- FLT_IO_PARAMETER_BLOCK
 product:
 - Windows
 targetos: Windows

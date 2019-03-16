@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_CRTC_VSYNC_STATE
-title: "_DXGK_CRTC_VSYNC_STATE"
+title: _DXGK_CRTC_VSYNC_STATE (d3dkmddi.h)
 description: Provides additional information for DxgkDdi_ControlInterrupt2 when VSYNC is being utilized.
 old-location: display\dxgk_crtc_vsync_state.htm
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CRTC_VSYNC_STATE
+- DXGK_CRTC_VSYNC_STATE
 product:
 - Windows
 targetos: Windows

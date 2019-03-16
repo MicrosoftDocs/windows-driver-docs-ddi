@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_RESOURCE_LIST
-title: "_CM_RESOURCE_LIST"
+title: _CM_RESOURCE_LIST (wdm.h)
 description: The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device.
 old-location: kernel\cm_resource_list.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CM_RESOURCE_LIST
+- CM_RESOURCE_LIST
 product:
 - Windows
 targetos: Windows

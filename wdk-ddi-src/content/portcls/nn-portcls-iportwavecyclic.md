@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortWaveCyclic
-title: IPortWaveCyclic
+title: IPortWaveCyclic (portcls.h)
 description: The IPortWaveCyclic interface is the WaveCyclic port driver's primary interface.
 old-location: audio\iportwavecyclic.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWaveCyclic
+- IPortWaveCyclic
 product:
 - Windows
 targetos: Windows

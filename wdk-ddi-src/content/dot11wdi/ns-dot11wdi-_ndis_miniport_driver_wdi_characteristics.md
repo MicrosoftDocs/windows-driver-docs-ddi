@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
-title: "_NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS"
+title: _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS (dot11wdi.h)
 description: The NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure defines the set of handlers that a WDI miniport driver must implement.
 old-location: netvista\ndis_miniport_driver_wdi_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
+- NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

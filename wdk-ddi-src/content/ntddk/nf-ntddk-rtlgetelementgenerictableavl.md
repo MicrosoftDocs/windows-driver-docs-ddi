@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetElementGenericTableAvl
-title: RtlGetElementGenericTableAvl function
+title: RtlGetElementGenericTableAvl function (ntddk.h)
 description: The RtlGetElementGenericTableAvl routine returns a pointer to the caller-supplied data for a particular generic Adelson-Velsky/Landis (AVL) table element.
 old-location: ifsk\rtlgetelementgenerictableavl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetElementGenericTableAvl
+- RtlGetElementGenericTableAvl
 product:
 - Windows
 targetos: Windows

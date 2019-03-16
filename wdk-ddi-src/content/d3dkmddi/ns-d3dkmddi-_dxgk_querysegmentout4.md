@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTOUT4
-title: "_DXGK_QUERYSEGMENTOUT4"
+title: _DXGK_QUERYSEGMENTOUT4 (d3dkmddi.h)
 description: The DXGK_QUERYSEGMENTOUT4 structure contains memory segment information returned from the driver.
 old-location: display\dxgk_querysegmentout4.htm
 ms.assetid: AE6988E6-81D7-47FB-986A-B5DEE9B7215B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYSEGMENTOUT4
+- DXGK_QUERYSEGMENTOUT4
 product:
 - Windows
 targetos: Windows

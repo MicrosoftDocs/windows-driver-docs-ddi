@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_SET_PROPERTY
-title: UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+title: UFX_PROPRIETARY_CHARGER_SET_PROPERTY (ufxproprietarycharger.h)
 description: The filter driver's implementation to set a configurable property on the charger.
 old-location: buses\ufx_proprietary_charger_set_property.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ufxproprietarycharger.h
+- ufxproprietarycharger.h
 api_name:
--	PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+- PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY
 product:
 - Windows
 targetos: Windows

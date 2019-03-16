@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRequestCallbackCancel.OnCancel
-title: IRequestCallbackCancel::OnCancel
+title: IRequestCallbackCancel::OnCancel (wudfddi.h)
 description: The OnCancel method is called when an application cancels an I/O operation through the Microsoft Win32 CancelIo, CancelIoEx, or CancelSynchronousIo function.
 old-location: wdf\irequestcallbackcancel_oncancel.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IRequestCallbackCancel.OnCancel
+- IRequestCallbackCancel.OnCancel
 product:
 - Windows
 targetos: Windows

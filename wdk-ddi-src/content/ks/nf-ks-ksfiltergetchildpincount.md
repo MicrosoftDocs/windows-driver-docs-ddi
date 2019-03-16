@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetChildPinCount
-title: KsFilterGetChildPinCount function
+title: KsFilterGetChildPinCount function (ks.h)
 description: The KsFilterGetChildPinCountfunctionreturns the number of pins of a given type that are currently instantiated on a given filter.
 old-location: stream\ksfiltergetchildpincount.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterGetChildPinCount
+- KsFilterGetChildPinCount
 product:
 - Windows
 targetos: Windows

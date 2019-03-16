@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUE_HEADER
-title: _NVME_RESERVED_QUEUE_HEADER
+title: _NVME_RESERVED_QUEUE_HEADER (ntddstor.h)
 description: 
 ms.assetid: 4f43013e-3c15-499d-a49b-2d2fd6384a57
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_QUEUE_HEADER, *PNVME_RESERVED_QUEUE_HEADER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_QUEUE_HEADER
+- _NVME_RESERVED_QUEUE_HEADER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

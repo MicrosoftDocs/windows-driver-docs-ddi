@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT
-title: "_WWAN_SET_CONTEXT"
+title: _WWAN_SET_CONTEXT (wwan.h)
 description: The WWAN_SET_CONTEXT structure represents a provisioned context with a network provider identification that is supported by the MB device.
 old-location: netvista\wwan_set_context.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SET_CONTEXT
+- WWAN_SET_CONTEXT
 product:
 - Windows
 targetos: Windows

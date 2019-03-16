@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetChannelConfigurationCallback
-title: WdfDmaTransactionSetChannelConfigurationCallback function
+title: WdfDmaTransactionSetChannelConfigurationCallback function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetChannelConfigurationCallback method registers a channel configuration event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsetchannelconfigurationcallback.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionSetChannelConfigurationCallback
+- WdfDmaTransactionSetChannelConfigurationCallback
 product:
 - Windows
 targetos: Windows

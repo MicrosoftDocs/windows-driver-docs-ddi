@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetNumberPseudoRegisters
-title: IDebugRegisters2::GetNumberPseudoRegisters
+title: IDebugRegisters2::GetNumberPseudoRegisters (dbgeng.h)
 description: The GetNumberPseudoRegisters method returns the number of pseudo-registers that are maintained by the debugger engine.
 old-location: debugger\getnumberpseudoregisters.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetNumberPseudoRegisters
+- IDebugRegisters2.GetNumberPseudoRegisters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._PTS_DATA
-title: "_PTS_DATA"
+title: _PTS_DATA (smclib.h)
 description: The PTS_DATA structure is used for protocol type selection (PTS).
 old-location: smartcrd\pts_data.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	smclib.h
+- smclib.h
 api_name:
--	PTS_DATA
+- PTS_DATA
 product:
 - Windows
 targetos: Windows

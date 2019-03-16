@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
-title: PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
+title: PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010 (d3d12umddi.h)
 description: Adds the input pipeline state to the corresponding library.
 ms.assetid: b7f4ac02-7138-420f-b633-8f93fd7b5b86
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
+- PFND3D12DDI_ADD_PIPELINE_STATE_TO_LIBRARY_0010
 product: 
 - Windows
 targetos: Windows

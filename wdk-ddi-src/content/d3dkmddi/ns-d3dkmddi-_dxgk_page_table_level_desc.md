@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PAGE_TABLE_LEVEL_DESC
-title: "_DXGK_PAGE_TABLE_LEVEL_DESC"
+title: _DXGK_PAGE_TABLE_LEVEL_DESC (d3dkmddi.h)
 description: The DXGK_PAGE_TABLE_LEVEL_DESC structure describes capabilities that are applied at the page level.
 old-location: display\dxgk_page_table_level_desc.htm
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PAGE_TABLE_LEVEL_DESC
+- DXGK_PAGE_TABLE_LEVEL_DESC
 product:
 - Windows
 targetos: Windows

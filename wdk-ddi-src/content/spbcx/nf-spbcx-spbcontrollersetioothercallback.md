@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbControllerSetIoOtherCallback
-title: SpbControllerSetIoOtherCallback function
+title: SpbControllerSetIoOtherCallback function (spbcx.h)
 description: The SpbControllerSetIoOtherCallback method registers an SPB controller driver's EvtSpbControllerIoOther callback function.
 old-location: spb\spbcontrollersetioothercallback.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbControllerSetIoOtherCallback
+- SpbControllerSetIoOtherCallback
 product:
 - Windows
 targetos: Windows

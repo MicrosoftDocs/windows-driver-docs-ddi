@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_SEGMENT_CAPS
-title: _D3DKMT_GET_SEGMENT_CAPS
+title: _D3DKMT_GET_SEGMENT_CAPS (d3dkmthk.h)
 description: Used to get segment capabilities.
 ms.assetid: fe182215-7e68-4620-9b20-d00685b0fe87
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GET_SEGMENT_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GET_SEGMENT_CAPS
+- _D3DKMT_GET_SEGMENT_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateSectionForDataScan
-title: FltCreateSectionForDataScan function
+title: FltCreateSectionForDataScan function (fltkernel.h)
 description: The FltCreateSectionForDataScan routine creates a section object for a file. The filter manager can optionally synchronize I/O with the section created.
 old-location: ifsk\fltcreatesectionfordatascan.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCreateSectionForDataScan
+- FltCreateSectionForDataScan
 product:
 - Windows
 targetos: Windows

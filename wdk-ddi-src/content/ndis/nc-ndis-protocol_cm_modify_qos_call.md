@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_MODIFY_QOS_CALL
-title: PROTOCOL_CM_MODIFY_QOS_CALL
+title: PROTOCOL_CM_MODIFY_QOS_CALL (ndis.h)
 description: The ProtocolCmModifyCallQoS function is required.
 old-location: netvista\protocolcmmodifycallqos.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmModifyCallQoS
+- ProtocolCmModifyCallQoS
 product:
 - Windows
 targetos: Windows

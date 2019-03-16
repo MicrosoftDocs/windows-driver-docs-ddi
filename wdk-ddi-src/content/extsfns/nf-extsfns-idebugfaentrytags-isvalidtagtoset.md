@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.IsValidTagToSet
-title: IDebugFAEntryTags::IsValidTagToSet
+title: IDebugFAEntryTags::IsValidTagToSet (extsfns.h)
 description: The IsValidTagToSet method determines whether it is OK to set the data of a specified tag.
 old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFAEntryTags.IsValidTagToSet
+- IDebugFAEntryTags.IsValidTagToSet
 product:
 - Windows
 targetos: Windows

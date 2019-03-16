@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
-title: "_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL"
+title: _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL (wudfddi_types.h)
 description: The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state.
 old-location: wdf\wdf_power_policy_s0_idle_user_control.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
+- WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IModelObject
-title: IModelObject
+title: IModelObject (dbgmodel.h)
 description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger. 
 ms.assetid: d4ac8601-7610-40af-8fe5-0ce0d96fe124
 ms.date: 07/20/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject
-product: Windows
+- IModelObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

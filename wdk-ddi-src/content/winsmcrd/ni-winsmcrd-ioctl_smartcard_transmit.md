@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_TRANSMIT
-title: IOCTL_SMARTCARD_TRANSMIT
+title: IOCTL_SMARTCARD_TRANSMIT (winsmcrd.h)
 description: Transmits data from the client to the detected smart card in ISO7816-4 compliant APDU.
 old-location: nfpdrivers\ioctl_smartcard_transmit.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsmcrd.h
+- winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_TRANSMIT
+- IOCTL_SMARTCARD_TRANSMIT
 product:
 - Windows
 targetos: Windows

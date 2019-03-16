@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_CURSOR_POSITION
-title: IOCTL_VIDEO_SET_CURSOR_POSITION
+title: IOCTL_VIDEO_SET_CURSOR_POSITION (ntddvdeo.h)
 description: Sets the cursor position (row and column). Miniport drivers for VGA-compatible adapters are required to support this request, which is modal. It is optional for other miniport drivers.
 old-location: display\ioctl_video_set_cursor_position.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_SET_CURSOR_POSITION
+- IOCTL_VIDEO_SET_CURSOR_POSITION
 product:
 - Windows
 targetos: Windows

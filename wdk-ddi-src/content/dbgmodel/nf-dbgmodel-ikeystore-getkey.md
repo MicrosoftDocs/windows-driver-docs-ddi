@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.GetKey
-title: IKeyStore::GetKey
+title: IKeyStore::GetKey (dbgmodel.h)
 description: The GetKey method is analogous to the GetKey method on IModelObject.
 ms.assetid: 9a27d20b-76ff-4b7c-8782-95bd6288e592
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyStore.GetKey
-product: Windows
+- IKeyStore.GetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

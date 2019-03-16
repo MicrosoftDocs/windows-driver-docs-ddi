@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwRecoverResourceManager
-title: ZwRecoverResourceManager function
+title: ZwRecoverResourceManager function (wdm.h)
 description: The ZwRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\zwrecoverresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwRecoverResourceManager
--	NtRecoverResourceManager
+- ZwRecoverResourceManager
+- NtRecoverResourceManager
 product:
 - Windows
 targetos: Windows

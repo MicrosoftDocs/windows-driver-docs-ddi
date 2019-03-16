@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_12
-title: GNSS_SATELLITEINFO
+title: GNSS_SATELLITEINFO (gnssdriver.h)
 description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_satelliteinfo.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_SATELLITEINFO
+- GNSS_SATELLITEINFO
 product:
 - Windows
 targetos: Windows

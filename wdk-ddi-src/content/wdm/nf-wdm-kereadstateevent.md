@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateEvent
-title: KeReadStateEvent function
+title: KeReadStateEvent function (wdm.h)
 description: The KeReadStateEvent routine returns the current state, signaled or not-signaled, of an event object.
 old-location: kernel\kereadstateevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReadStateEvent
+- KeReadStateEvent
 product:
 - Windows
 targetos: Windows

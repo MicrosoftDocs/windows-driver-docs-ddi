@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeSendUrbSynchronously
-title: WdfUsbTargetPipeSendUrbSynchronously function
+title: WdfUsbTargetPipeSendUrbSynchronously function (wdfusb.h)
 description: The WdfUsbTargetPipeSendUrbSynchronously method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes.
 old-location: wdf\wdfusbtargetpipesendurbsynchronously.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfUsbTargetPipeSendUrbSynchronously
+- WdfUsbTargetPipeSendUrbSynchronously
 product:
 - Windows
 targetos: Windows

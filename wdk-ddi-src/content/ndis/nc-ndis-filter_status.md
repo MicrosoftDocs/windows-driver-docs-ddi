@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_STATUS
-title: FILTER_STATUS
+title: FILTER_STATUS (ndis.h)
 description: The FilterStatus function indicates status changes that are reported by NDIS or an underlying driver.Note  You must declare the function by using the FILTER_STATUS type.
 old-location: netvista\filterstatus.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	FilterStatus
+- FilterStatus
 product:
 - Windows
 targetos: Windows

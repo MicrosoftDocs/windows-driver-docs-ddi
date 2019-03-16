@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFlushLookasideListEx
-title: ExFlushLookasideListEx function
+title: ExFlushLookasideListEx function (wdm.h)
 description: The ExFlushLookasideListEx routine flushes all entries from the specified lookaside list and frees the allocated storage for each entry.
 old-location: kernel\exflushlookasidelistex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExFlushLookasideListEx
+- ExFlushLookasideListEx
 product:
 - Windows
 targetos: Windows

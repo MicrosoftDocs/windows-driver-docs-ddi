@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UNMAPCPUHOSTAPERTURE
-title: DXGKDDI_UNMAPCPUHOSTAPERTURE
+title: DXGKDDI_UNMAPCPUHOSTAPERTURE (d3dkmddi.h)
 description: DxgkDdiUnmapCpuHostAperture is used to unmap a previously mapped range of the CPU host aperture.
 old-location: display\dxgkddiunmapcpuhostaperture.htm
 ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiUnmapCpuHostAperture
+- DxgkDdiUnmapCpuHostAperture
 product:
 - Windows
 targetos: Windows

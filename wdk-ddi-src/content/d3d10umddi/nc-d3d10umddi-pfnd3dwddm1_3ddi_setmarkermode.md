@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_SETMARKERMODE
-title: PFND3DWDDM1_3DDI_SETMARKERMODE
+title: PFND3DWDDM1_3DDI_SETMARKERMODE (d3d10umddi.h)
 description: Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 old-location: display\setmarkermode.htm
 ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	SetMarkerMode
+- SetMarkerMode
 product:
 - Windows
 targetos: Windows

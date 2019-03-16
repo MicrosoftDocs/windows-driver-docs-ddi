@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DRM_DRMSTATUS
-title: "_BDA_DRM_DRMSTATUS"
+title: _BDA_DRM_DRMSTATUS (bdatypes.h)
 description: 
 old-location: stream\bda_drm_drmstatus.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_DRM_DRMSTATUS
+- BDA_DRM_DRMSTATUS
 product:
 - Windows
 targetos: Windows

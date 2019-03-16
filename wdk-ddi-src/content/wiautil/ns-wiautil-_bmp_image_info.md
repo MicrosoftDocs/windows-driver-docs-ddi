@@ -1,6 +1,6 @@
 ---
 UID: NS:wiautil._BMP_IMAGE_INFO
-title: "_BMP_IMAGE_INFO"
+title: _BMP_IMAGE_INFO (wiautil.h)
 description: The BMP_IMAGE_INFO structure contains information about a BMP image.
 old-location: image\bmp_image_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	BMP_IMAGE_INFO
+- BMP_IMAGE_INFO
 product:
 - Windows
 targetos: Windows

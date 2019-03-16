@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupLastLargeMcbEntry~r2
-title: FsRtlLookupLastLargeMcbEntry function
+title: FsRtlLookupLastLargeMcbEntry function (ntifs.h)
 description: The FsRtlLookupLastLargeMcbEntry routine retrieves the last mapping entry stored in the map control block (MCB).
 old-location: ifsk\fsrtllookuplastlargemcbentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlLookupLastLargeMcbEntry
+- FsRtlLookupLastLargeMcbEntry
 product:
 - Windows
 targetos: Windows

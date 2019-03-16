@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IDLE_EXECUTE_V2
-title: "_PEP_PPM_IDLE_EXECUTE_V2"
+title: _PEP_PPM_IDLE_EXECUTE_V2 (pepfx.h)
 description: The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute_v2.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_IDLE_EXECUTE_V2
+- PEP_PPM_IDLE_EXECUTE_V2
 product:
 - Windows
 targetos: Windows

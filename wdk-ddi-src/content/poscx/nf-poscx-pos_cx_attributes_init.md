@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.POS_CX_ATTRIBUTES_INIT
-title: POS_CX_ATTRIBUTES_INIT function
+title: POS_CX_ATTRIBUTES_INIT function (poscx.h)
 description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTE structure.
 old-location: pos\pos_cx_attributes_init.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	POS_CX_ATTRIBUTES_INIT
+- POS_CX_ATTRIBUTES_INIT
 product:
 - Windows
 targetos: Windows

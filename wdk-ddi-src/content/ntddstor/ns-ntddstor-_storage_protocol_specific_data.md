@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROTOCOL_SPECIFIC_DATA
-title: "_STORAGE_PROTOCOL_SPECIFIC_DATA"
+title: _STORAGE_PROTOCOL_SPECIFIC_DATA (ntddstor.h)
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_specific_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PROTOCOL_SPECIFIC_DATA
+- STORAGE_PROTOCOL_SPECIFIC_DATA
 product:
 - Windows
 targetos: Windows

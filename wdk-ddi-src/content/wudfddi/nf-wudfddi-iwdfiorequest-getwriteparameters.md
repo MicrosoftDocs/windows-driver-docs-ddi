@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetWriteParameters
-title: IWDFIoRequest::GetWriteParameters
+title: IWDFIoRequest::GetWriteParameters (wudfddi.h)
 description: The GetWriteParameters method retrieves the request parameters for a write-type request.
 old-location: wdf\iwdfiorequest_getwriteparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetWriteParameters
+- IWDFIoRequest.GetWriteParameters
 product:
 - Windows
 targetos: Windows

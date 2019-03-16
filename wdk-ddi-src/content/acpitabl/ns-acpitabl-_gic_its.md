@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._GIC_ITS
-title: "_GIC_ITS"
+title: _GIC_ITS (acpitabl.h)
 description: This topic describes the GIC_ITS structure.
 old-location: acpi\gic_its.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpitabl.h
+- Acpitabl.h
 api_name:
--	GIC_ITS
+- GIC_ITS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: GIC_ITS
 ---

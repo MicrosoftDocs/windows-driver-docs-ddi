@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMEnablePDEV
-title: OEMEnablePDEV function
+title: OEMEnablePDEV function (printoem.h)
 description: OEMEnablePDEV function
 old-location: print\oemenablepdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMEnablePDEV
+- OEMEnablePDEV
 product:
 - Windows
 targetos: Windows

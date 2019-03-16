@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetDefaultAdapterInitAllocate
-title: NetDefaultAdapterInitAllocate function
+title: NetDefaultAdapterInitAllocate function (netadapter.h)
 description: The NetDefaultAdapterInitAllocate method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new default NETADAPTER object.
 tech.root: netvista
 ms.assetid: 3d76e324-cb65-42c4-b0a7-ea97bb9efc49
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NetDefaultAdapterInitAllocate
+- NetDefaultAdapterInitAllocate
 product:
 - Windows
 targetos: Windows

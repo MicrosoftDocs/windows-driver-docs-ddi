@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.ISynthSinkDMus.SyncToMaster
-title: ISynthSinkDMus::SyncToMaster
+title: ISynthSinkDMus::SyncToMaster (dmusicks.h)
 description: The SyncToMaster method allows synchronization to the master clock in order to avoid drift.
 old-location: audio\isynthsinkdmus_synctomaster.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	ISynthSinkDMus.SyncToMaster
+- ISynthSinkDMus.SyncToMaster
 product:
 - Windows
 targetos: Windows

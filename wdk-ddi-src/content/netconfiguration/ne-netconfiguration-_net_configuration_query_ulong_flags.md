@@ -1,6 +1,6 @@
 ---
 UID: NE:netconfiguration._NET_CONFIGURATION_QUERY_ULONG_FLAGS
-title: _NET_CONFIGURATION_QUERY_ULONG_FLAGS
+title: _NET_CONFIGURATION_QUERY_ULONG_FLAGS (netconfiguration.h)
 description: The NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration is used as an input parameter to the NetConfigurationQueryUlong method.
 tech.root: netvista
 ms.assetid: fd0f43ac-4895-4fe7-9eb3-7b4d7a8c052e
@@ -19,16 +19,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_CONFIGURATION_QUERY_ULONG_FLAGS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NET_CONFIGURATION_QUERY_ULONG_FLAGS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NET_CONFIGURATION_QUERY_ULONG_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

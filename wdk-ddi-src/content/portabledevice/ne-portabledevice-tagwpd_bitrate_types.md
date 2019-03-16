@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_BITRATE_TYPES
-title: tagWPD_BITRATE_TYPES
+title: WPD_BITRATE_TYPES (portabledevice.h)
 description: The WPD_BITRATE_TYPES enumeration type describes an audio file's compression type.
 old-location: wpddk\wpd_bitrate_types.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_BITRATE_TYPES
+- WPD_BITRATE_TYPES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_BITRATE_TYPES
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LEVEL_TRIM_OUTPUT
-title: "_FILE_LEVEL_TRIM_OUTPUT"
+title: _FILE_LEVEL_TRIM_OUTPUT (ntifs.h)
 description: The FILE_LEVEL_TRIM_OUTPUT structure contains the results of a trim operation performed by an FSCTL_FILE_LEVEL_TRIM request.
 old-location: ifsk\file_level_trim_output.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_LEVEL_TRIM_RANGE_OUTPUT
+- FILE_LEVEL_TRIM_RANGE_OUTPUT
 product:
 - Windows
 targetos: Windows

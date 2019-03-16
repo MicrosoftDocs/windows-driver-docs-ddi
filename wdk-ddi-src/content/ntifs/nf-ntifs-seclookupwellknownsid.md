@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SecLookupWellKnownSid
-title: SecLookupWellKnownSid function
+title: SecLookupWellKnownSid function (ntifs.h)
 description: SecLookupWellKnownSid accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 old-location: ifsk\seclookupwellknownsid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksecdd.lib
--	Ksecdd.dll
+- Ksecdd.lib
+- Ksecdd.dll
 api_name:
--	SecLookupWellKnownSid
+- SecLookupWellKnownSid
 product:
 - Windows
 targetos: Windows

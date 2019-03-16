@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART
-title: EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART
+title: EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART (wdfdevice.h)
 description: A driver's EvtDeviceSelfManagedIoRestart event callback function restarts a device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagediorestart.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceSelfManagedIoRestart
+- EvtDeviceSelfManagedIoRestart
 product:
 - Windows
 targetos: Windows

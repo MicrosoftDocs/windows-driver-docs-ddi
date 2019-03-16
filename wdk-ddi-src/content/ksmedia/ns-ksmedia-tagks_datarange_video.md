@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_VIDEO
-title: tagKS_DATARANGE_VIDEO
+title: tagKS_DATARANGE_VIDEO (ksmedia.h)
 description: The KS_DATARANGE_VIDEO structure describes a range of video streams without bob or weave settings.
 old-location: stream\ks_datarange_video.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATARANGE_VIDEO
+- KS_DATARANGE_VIDEO
 product:
 - Windows
 targetos: Windows

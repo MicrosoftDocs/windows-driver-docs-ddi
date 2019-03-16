@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmCloseCallComplete
-title: NdisMCmCloseCallComplete macro
+title: NdisMCmCloseCallComplete macro (ndis.h)
 description: NdisMCmCloseCallComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to tear down a call.
 old-location: netvista\ndismcmclosecallcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmCloseCallComplete
+- NdisMCmCloseCallComplete
 product:
 - Windows
 targetos: Windows

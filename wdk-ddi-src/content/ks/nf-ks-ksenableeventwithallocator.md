@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsEnableEventWithAllocator
-title: KsEnableEventWithAllocator function
+title: KsEnableEventWithAllocator function (ks.h)
 description: The KsEnableEventWithAllocator function enables events requested through IOCTL_KS_ENABLE_EVENT but also allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\ksenableeventwithallocator.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsEnableEventWithAllocator
+- KsEnableEventWithAllocator
 product:
 - Windows
 targetos: Windows

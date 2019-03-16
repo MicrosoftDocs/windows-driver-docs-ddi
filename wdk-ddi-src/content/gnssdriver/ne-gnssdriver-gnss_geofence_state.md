@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_3
-title: GNSS_GEOFENCE_STATE
+title: GNSS_GEOFENCE_STATE (gnssdriver.h)
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
 old-location: gnss\gnss_geofence_state.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_GEOFENCE_STATE
+- GNSS_GEOFENCE_STATE
 product:
 - Windows
 targetos: Windows

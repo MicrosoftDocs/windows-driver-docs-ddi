@@ -1,6 +1,6 @@
 ---
 UID: NE:spb.SPB_TRANSFER_BUFFER_FORMAT
-title: SPB_TRANSFER_BUFFER_FORMAT
+title: SPB_TRANSFER_BUFFER_FORMAT (spb.h)
 description: The SPB_TRANSFER_BUFFER_FORMAT enumeration specifies the format of the buffer that is described by an SPB_TRANSFER_BUFFER structure.
 old-location: spb\spb_transfer_buffer_format.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_BUFFER_FORMAT
+- SPB_TRANSFER_BUFFER_FORMAT
 product:
 - Windows
 targetos: Windows

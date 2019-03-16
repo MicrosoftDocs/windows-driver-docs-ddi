@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsScanLogContainers
-title: ClfsScanLogContainers function
+title: ClfsScanLogContainers function (wdm.h)
 description: The ClfsScanLogContainers routine retrieves descriptive information for a sequence of containers that belong to a particular CLFS log.
 old-location: kernel\clfsscanlogcontainers.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsScanLogContainers
+- ClfsScanLogContainers
 product:
 - Windows
 targetos: Windows

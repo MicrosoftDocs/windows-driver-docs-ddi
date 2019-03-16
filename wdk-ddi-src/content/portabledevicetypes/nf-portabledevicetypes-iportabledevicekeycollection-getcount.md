@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.GetCount
-title: IPortableDeviceKeyCollection::GetCount
+title: IPortableDeviceKeyCollection::GetCount (portabledevicetypes.h)
 description: Retrieves the number of keys in this collection.
 old-location: wpddk\iportabledevicekeycollection_getcount.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceKeyCollection.GetCount
+- IPortableDeviceKeyCollection.GetCount
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.RemoveDriverPackage
-title: IWDTFDriverSetupSystemAction2::RemoveDriverPackage
+title: IWDTFDriverSetupSystemAction2::RemoveDriverPackage (wdtfdriversetupsystemaction.h)
 description: Removes a driver package from the driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_removedriverpackage.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupSystemAction.Interop.dll
+- WDTFDriverSetupSystemAction.Interop.dll
 api_name:
--	IWDTFDriverSetupSystemAction2.RemoveDriverPackage
+- IWDTFDriverSetupSystemAction2.RemoveDriverPackage
 product:
 - Windows
 targetos: Windows

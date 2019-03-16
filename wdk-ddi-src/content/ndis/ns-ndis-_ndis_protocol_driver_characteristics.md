@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
-title: "_NDIS_PROTOCOL_DRIVER_CHARACTERISTICS"
+title: _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS (ndis.h)
 description: To specify its driver characteristics, a protocol driver initializes an NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure and passes it to NDIS.
 old-location: netvista\ndis_protocol_driver_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
+- NDIS_PROTOCOL_DRIVER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

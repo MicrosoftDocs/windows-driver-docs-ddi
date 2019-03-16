@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterShutdownNotification
-title: IoRegisterShutdownNotification function
+title: IoRegisterShutdownNotification function (wdm.h)
 description: The IoRegisterShutdownNotification routine registers the driver to receive an IRP_MJ_SHUTDOWN IRP when the system is shut down.
 old-location: kernel\ioregistershutdownnotification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterShutdownNotification
+- IoRegisterShutdownNotification
 product:
 - Windows
 targetos: Windows

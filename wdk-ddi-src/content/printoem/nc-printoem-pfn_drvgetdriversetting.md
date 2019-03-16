@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvGetDriverSetting
-title: PFN_DrvGetDriverSetting
+title: PFN_DrvGetDriverSetting (printoem.h)
 description: The DrvGetDriverSetting function is obsolete.
 old-location: print\drvgetdriversetting.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvGetDriverSetting
+- DrvGetDriverSetting
 product:
 - Windows
 targetos: Windows

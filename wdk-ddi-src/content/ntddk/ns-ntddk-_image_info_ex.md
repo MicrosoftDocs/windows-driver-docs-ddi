@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._IMAGE_INFO_EX
-title: "_IMAGE_INFO_EX"
+title: _IMAGE_INFO_EX (ntddk.h)
 description: Extended version of the image information structure (see IMAGE_INFO).
 old-location: kernel\image_info_ex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	IMAGE_INFO_EX
+- IMAGE_INFO_EX
 product:
 - Windows
 targetos: Windows

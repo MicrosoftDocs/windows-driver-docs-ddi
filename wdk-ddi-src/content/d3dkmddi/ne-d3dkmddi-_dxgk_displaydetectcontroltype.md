@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_DISPLAYDETECTCONTROLTYPE
-title: "_DXGK_DISPLAYDETECTCONTROLTYPE"
+title: _DXGK_DISPLAYDETECTCONTROLTYPE (d3dkmddi.h)
 description: Enumeration indicating the type of display detection action.
 old-location: display\dxgk_displaydetectcontroltype.htm
 ms.assetid: D777342E-439E-4BEF-9DCC-7962B1AF8EAB
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_DISPLAYDETECTCONTROLTYPE
+- DXGK_DISPLAYDETECTCONTROLTYPE
 product:
 - Windows
 targetos: Windows

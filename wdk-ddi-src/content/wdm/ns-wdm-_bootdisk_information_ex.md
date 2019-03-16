@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._BOOTDISK_INFORMATION_EX
-title: "_BOOTDISK_INFORMATION_EX"
+title: _BOOTDISK_INFORMATION_EX (wdm.h)
 description: The BOOTDISK_INFORMATION_EX structure contains extended information describing the boot and system disks.
 old-location: kernel\bootdisk_information_ex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	BOOTDISK_INFORMATION_EX
+- BOOTDISK_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

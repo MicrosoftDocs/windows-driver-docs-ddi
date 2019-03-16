@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwDeleteValueKey
-title: ZwDeleteValueKey function
+title: ZwDeleteValueKey function (wdm.h)
 description: The ZwDeleteValueKey routine deletes a value entry matching a name from an open key in the registry. If no such entry exists, an error is returned.
 old-location: kernel\zwdeletevaluekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwDeleteValueKey
--	NtDeleteValueKey
+- ZwDeleteValueKey
+- NtDeleteValueKey
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_SUSPEND_HANDLER
-title: DMA_SUSPEND_HANDLER
+title: DMA_SUSPEND_HANDLER (netdma.h)
 description: The ProviderSuspendDma function suspends the DMA transfers that are currently in progress on a DMA channel.
 old-location: netvista\providersuspenddma.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderSuspendDma
+- ProviderSuspendDma
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchSpecificMethod
-title: KsDispatchSpecificMethod function
+title: KsDispatchSpecificMethod function (ks.h)
 description: The KsDispatchSpecificMethod function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the KsMethodHandler function. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksdispatchspecificmethod.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDispatchSpecificMethod
+- KsDispatchSpecificMethod
 product:
 - Windows
 targetos: Windows

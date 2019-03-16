@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_CAPABILITIES
-title: "_DEVICE_CAPABILITIES"
+title: _DEVICE_CAPABILITIES (wdm.h)
 description: A DEVICE_CAPABILITIES structure describes PnP and power capabilities of a device. This structure is returned in response to an IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: kernel\device_capabilities.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_CAPABILITIES
+- DEVICE_CAPABILITIES
 product:
 - Windows
 targetos: Windows

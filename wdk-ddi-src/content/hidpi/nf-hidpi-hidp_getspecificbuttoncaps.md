@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetSpecificButtonCaps
-title: HidP_GetSpecificButtonCaps function
+title: HidP_GetSpecificButtonCaps function (hidpi.h)
 description: The HidP_GetSpecificButtonCaps routine returns a button capability array that describes all HID control buttons in a top-level collection that meet a specified selection criteria.
 old-location: hid\hidp_getspecificbuttoncaps.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetSpecificButtonCaps
+- HidP_GetSpecificButtonCaps
 product:
 - Windows
 targetos: Windows

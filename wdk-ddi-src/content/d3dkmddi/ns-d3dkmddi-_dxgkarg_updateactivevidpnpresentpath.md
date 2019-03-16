@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
-title: "_DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH"
+title: _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH (d3dkmddi.h)
 description: The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a D3DKMDT_VIDPN_PRESENT_PATH structure, which contains arguments for the DxgkDdiUpdateActiveVidPnPresentPath function.
 old-location: display\dxgkarg_updateactivevidpnpresentpath.htm
 ms.assetid: 6a4d43fd-f118-4424-93e8-57f72b56f929
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
+- DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
 product:
 - Windows
 targetos: Windows

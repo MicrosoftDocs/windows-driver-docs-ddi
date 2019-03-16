@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WDF_IO_QUEUE_STOPPED
-title: WDF_IO_QUEUE_STOPPED function
+title: WDF_IO_QUEUE_STOPPED function (wdfio.h)
 description: The WDF_IO_QUEUE_STOPPED function returns TRUE if an I/O queue's state indicates that the queue is stopped.
 old-location: wdf\wdf_io_queue_stopped.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any IRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_IO_QUEUE_STOPPED
+- WDF_IO_QUEUE_STOPPED
 product:
 - Windows
 targetos: Windows

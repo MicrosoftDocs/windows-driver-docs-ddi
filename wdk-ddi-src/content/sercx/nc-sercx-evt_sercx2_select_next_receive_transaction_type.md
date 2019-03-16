@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE
-title: EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE
+title: EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE (sercx.h)
 description: The EvtSerCx2SelectNextReceiveTransactionType event callback function is called by version 2 of the serial framework extension (SerCx2) to determine which data-transfer mechanism to use for the next read operation.
 old-location: serports\evtsercx2selectnextreceivetransactiontype.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2SelectNextReceiveTransactionType
+- EvtSerCx2SelectNextReceiveTransactionType
 product:
 - Windows
 targetos: Windows

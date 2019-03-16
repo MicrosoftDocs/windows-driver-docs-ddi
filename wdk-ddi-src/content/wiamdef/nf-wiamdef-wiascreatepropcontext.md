@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreatePropContext
-title: wiasCreatePropContext function
+title: wiasCreatePropContext function (wiamdef.h)
 description: The wiasCreatePropContext function allocates a property context to indicate which of an item's properties are being changed by the application.
 old-location: image\wiascreatepropcontext.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasCreatePropContext
+- wiasCreatePropContext
 product:
 - Windows
 targetos: Windows

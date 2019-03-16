@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartDiscardControl
-title: IPartDiscardControl
+title: IPartDiscardControl (filterpipeline.h)
 description: The filter pipeline supports the discard control.
 old-location: print\ipartdiscardcontrol.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartDiscardControl
+- IPartDiscardControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_VERSION
-title: _UCSI_VERSION
+title: _UCSI_VERSION (ucmucsispec.h)
 description: The VERSION data structure. See Section 3.1.
 ms.assetid: 96e76688-1a1b-4af3-8ebf-4e2a77a1f770
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_VERSION, *PUCSI_VERSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_VERSION
-product: Windows
+- _UCSI_VERSION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

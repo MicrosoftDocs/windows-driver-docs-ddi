@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptClient.ReportError
-title: IDataModelScriptClient::ReportError
+title: IDataModelScriptClient::ReportError (dbgmodel.h)
 description: If an error occurs during execution or invocation of the script, the script provider calls the ReportError method to notify the user interface of the error. 
 ms.assetid: c8cedcee-002c-4373-a518-31aad3cee313
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptClient.ReportError
-product: Windows
+- IDataModelScriptClient.ReportError
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

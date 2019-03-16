@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
-title: PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
+title: PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 (d3d12umddi.h)
 description: Destroys the video motion estimator.
 ms.assetid: 6d142a01-4ba6-4d72-b5ae-19a5117f4448
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
+- PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaInitFilter
-title: BdaInitFilter function
+title: BdaInitFilter function (bdasup.h)
 description: The BdaInitFilter function initializes the BDA filter context associated with a filter instance.
 old-location: stream\bdainitfilter.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaInitFilter
+- BdaInitFilter
 product:
 - Windows
 targetos: Windows

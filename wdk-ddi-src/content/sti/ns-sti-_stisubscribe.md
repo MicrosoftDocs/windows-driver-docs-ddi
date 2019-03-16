@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STISUBSCRIBE
-title: "_STISUBSCRIBE"
+title: _STISUBSCRIBE (sti.h)
 description: The STISUBSCRIBE structure is used as a parameter for the IStiDevice::Subscribe method.
 old-location: image\stisubscribe.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STISUBSCRIBE
+- STISUBSCRIBE
 product:
 - Windows
 targetos: Windows

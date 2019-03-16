@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwDuplicateObject
-title: ZwDuplicateObject function
+title: ZwDuplicateObject function (ntifs.h)
 description: The ZwDuplicateObject routine creates a handle that is a duplicate of the specified source handle.
 old-location: kernel\zwduplicateobject.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ZwDuplicateObject
--	NtDuplicateObject
+- ZwDuplicateObject
+- NtDuplicateObject
 product:
 - Windows
 targetos: Windows

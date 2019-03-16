@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputCallbacks2
-title: IDebugOutputCallbacks2
+title: IDebugOutputCallbacks2 (dbgeng.h)
 description: The IDebugOutputCallbacks2 interface allows clients to receive full debugger markup language (DML) content for presentation.
 old-location: debugger\idebugoutputcallbacks2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugOutputCallbacks2
+- IDebugOutputCallbacks2
 product:
 - Windows
 targetos: Windows

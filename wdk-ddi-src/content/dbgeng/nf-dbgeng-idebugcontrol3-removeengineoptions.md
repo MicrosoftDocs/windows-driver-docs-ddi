@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveEngineOptions
-title: IDebugControl3::RemoveEngineOptions
+title: IDebugControl3::RemoveEngineOptions (dbgeng.h)
 description: The RemoveEngineOptions method turns off some of the engine's options.
 old-location: debugger\removeengineoptions.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.RemoveEngineOptions
--	IDebugControl2.RemoveEngineOptions
--	IDebugControl3.RemoveEngineOptions
+- IDebugControl.RemoveEngineOptions
+- IDebugControl2.RemoveEngineOptions
+- IDebugControl3.RemoveEngineOptions
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_CO_CHARACTERISTICS
-title: "_NDIS_PROTOCOL_CO_CHARACTERISTICS"
+title: _NDIS_PROTOCOL_CO_CHARACTERISTICS (ndis.h)
 description: The NDIS_PROTOCOL_CO_CHARACTERISTICS structure specifies CoNDIS entry points for CoNDIS protocol drivers.
 old-location: netvista\ndis_protocol_co_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_PROTOCOL_CO_CHARACTERISTICS
+- NDIS_PROTOCOL_CO_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

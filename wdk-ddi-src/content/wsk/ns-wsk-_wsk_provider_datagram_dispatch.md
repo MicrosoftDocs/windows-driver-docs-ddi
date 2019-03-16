@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_DATAGRAM_DISPATCH
-title: "_WSK_PROVIDER_DATAGRAM_DISPATCH"
+title: _WSK_PROVIDER_DATAGRAM_DISPATCH (wsk.h)
 description: The WSK_PROVIDER_DATAGRAM_DISPATCH structure specifies the WSK subsystem's table of functions for a datagram socket.
 old-location: netvista\wsk_provider_datagram_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_PROVIDER_DATAGRAM_DISPATCH
+- WSK_PROVIDER_DATAGRAM_DISPATCH
 product:
 - Windows
 targetos: Windows

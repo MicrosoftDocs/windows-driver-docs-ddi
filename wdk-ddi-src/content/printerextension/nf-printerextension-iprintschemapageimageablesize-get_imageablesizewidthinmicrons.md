@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons
-title: IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
+title: IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons (printerextension.h)
 description: Gets the horizontal dimension of the application media size relative to the page orientation.
 old-location: print\iprintschemapageimageablesize_imageablesizewidthinmicrons.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons
--	IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons
+- IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons
+- IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons
 product:
 - Windows
 targetos: Windows

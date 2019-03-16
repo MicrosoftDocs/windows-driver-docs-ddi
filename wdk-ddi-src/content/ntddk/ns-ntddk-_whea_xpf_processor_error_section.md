@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCESSOR_ERROR_SECTION
-title: "_WHEA_XPF_PROCESSOR_ERROR_SECTION"
+title: _WHEA_XPF_PROCESSOR_ERROR_SECTION (ntddk.h)
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor error data that is specific to the x86/x64 processor architecture.
 old-location: whea\whea_xpf_processor_error_section.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_PROCESSOR_ERROR_SECTION
+- WHEA_XPF_PROCESSOR_ERROR_SECTION
 product:
 - Windows
 targetos: Windows

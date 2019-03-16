@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetEventFilterText
-title: IDebugControl::GetEventFilterText
+title: IDebugControl::GetEventFilterText (dbgeng.h)
 description: The GetEventFilterText method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertext.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetEventFilterText
--	IDebugControl2.GetEventFilterText
--	IDebugControl3.GetEventFilterText
+- IDebugControl.GetEventFilterText
+- IDebugControl2.GetEventFilterText
+- IDebugControl3.GetEventFilterText
 product:
 - Windows
 targetos: Windows

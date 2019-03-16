@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.IsInEndPoint
-title: IWDFUsbTargetPipe::IsInEndPoint
+title: IWDFUsbTargetPipe::IsInEndPoint (wudfusb.h)
 description: The IsInEndPoint method determines whether a USB pipe (endpoint) is an IN pipe.
 old-location: wdf\iwdfusbtargetpipe_isinendpoint.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetPipe.IsInEndPoint
+- IWDFUsbTargetPipe.IsInEndPoint
 product:
 - Windows
 targetos: Windows

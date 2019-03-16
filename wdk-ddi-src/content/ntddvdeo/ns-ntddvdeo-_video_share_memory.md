@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_SHARE_MEMORY
-title: "_VIDEO_SHARE_MEMORY"
+title: _VIDEO_SHARE_MEMORY (ntddvdeo.h)
 description: The VIDEO_SHARE_MEMORY structure is used in a request to the video miniport driver for a block of user-mode memory to be shared with the specified process.
 old-location: display\video_share_memory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_SHARE_MEMORY
+- VIDEO_SHARE_MEMORY
 product:
 - Windows
 targetos: Windows

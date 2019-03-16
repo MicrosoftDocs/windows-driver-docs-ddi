@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RENAME
-title: PFND3DDDI_RENAME
+title: PFND3DDDI_RENAME (d3dumddi.h)
 description: The Rename function informs a user-mode display driver to start using the renamed allocation that the LockAsync function previously returned for the specified resource.
 old-location: display\rename.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	Rename
+- Rename
 product:
 - Windows
 targetos: Windows

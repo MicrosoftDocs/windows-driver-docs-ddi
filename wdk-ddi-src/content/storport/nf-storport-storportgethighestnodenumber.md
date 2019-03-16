@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetHighestNodeNumber
-title: StorPortGetHighestNodeNumber function
+title: StorPortGetHighestNodeNumber function (storport.h)
 description: The StorPortGetHighestNodeNumber routine returns the largest possible node number on the system.
 old-location: storage\storportgethighestnodenumber.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetHighestNodeNumber
+- StorPortGetHighestNodeNumber
 product:
 - Windows
 targetos: Windows

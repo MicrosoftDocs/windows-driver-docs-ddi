@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetVidPnSourceOwner
-title: D3DKMTSetVidPnSourceOwner function
+title: D3DKMTSetVidPnSourceOwner function (d3dkmthk.h)
 description: The D3DKMTSetVidPnSourceOwner function sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmtsetvidpnsourceowner.htm
 ms.assetid: e75020cf-39b4-434c-b071-dc75de6cc81b
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetVidPnSourceOwner
+- D3DKMTSetVidPnSourceOwner
 product:
 - Windows
 targetos: Windows

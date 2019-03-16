@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_DEACTIVATE_VC
-title: MINIPORT_CO_DEACTIVATE_VC
+title: MINIPORT_CO_DEACTIVATE_VC (ndis.h)
 description: The MiniportCoDeactivateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcodeactivatevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCoDeactivateVc
+- MiniportCoDeactivateVc
 product:
 - Windows
 targetos: Windows

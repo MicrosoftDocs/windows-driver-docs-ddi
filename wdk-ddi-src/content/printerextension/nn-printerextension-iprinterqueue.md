@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueue
-title: IPrinterQueue
+title: IPrinterQueue (printerextension.h)
 description: Represents a single printer queue.
 old-location: print\iprinterqueue_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueue
+- IPrinterQueue
 product:
 - Windows
 targetos: Windows

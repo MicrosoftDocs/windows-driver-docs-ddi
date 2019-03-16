@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_REVERB_PARAMS
-title: "_SYNTH_REVERB_PARAMS"
+title: _SYNTH_REVERB_PARAMS (dmusprop.h)
 description: The SYNTH_REVERB_PARAMS structure contains configuration parameters.
 old-location: audio\synth_reverb_params.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dmusprop.h
+- Dmusprop.h
 api_name:
--	SYNTH_REVERB_PARAMS
+- SYNTH_REVERB_PARAMS
 product:
 - Windows
 targetos: Windows

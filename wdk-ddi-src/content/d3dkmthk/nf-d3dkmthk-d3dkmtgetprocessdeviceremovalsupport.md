@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessDeviceRemovalSupport
-title: D3DKMTGetProcessDeviceRemovalSupport function
+title: D3DKMTGetProcessDeviceRemovalSupport function (d3dkmthk.h)
 description: Used to get process device removal support.
 ms.assetid: 3f055101-a1de-4997-9c39-ebaffe736991
 ms.date: 08/03/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTGetProcessDeviceRemovalSupport
+- D3DKMTGetProcessDeviceRemovalSupport
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

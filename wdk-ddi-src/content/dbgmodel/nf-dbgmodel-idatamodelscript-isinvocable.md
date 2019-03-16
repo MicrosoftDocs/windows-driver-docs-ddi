@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.IsInvocable
-title: IDataModelScript::IsInvocable
+title: IDataModelScript::IsInvocable (dbgmodel.h)
 description: The IsInvocable method returns whether or not the script is invocable -- that is, whether it has a "main function" as defined by its language or provider. 
 ms.assetid: ff8dc281-89db-4ef5-afaa-f022015a6247
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScript.IsInvocable
-product: Windows
+- IDataModelScript.IsInvocable
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetStackOffset2
-title: IDebugRegisters2::GetStackOffset2
+title: IDebugRegisters2::GetStackOffset2 (dbgeng.h)
 description: The GetStackOffset2 method returns the current thread's current stack location.
 old-location: debugger\getstackoffset2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetStackOffset2
+- IDebugRegisters2.GetStackOffset2
 product:
 - Windows
 targetos: Windows

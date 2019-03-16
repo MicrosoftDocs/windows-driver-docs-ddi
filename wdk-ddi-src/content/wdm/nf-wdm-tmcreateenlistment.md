@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmCreateEnlistment
-title: TmCreateEnlistment function
+title: TmCreateEnlistment function (wdm.h)
 description: The TmCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\tmcreateenlistment.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmCreateEnlistment
+- TmCreateEnlistment
 product:
 - Windows
 targetos: Windows

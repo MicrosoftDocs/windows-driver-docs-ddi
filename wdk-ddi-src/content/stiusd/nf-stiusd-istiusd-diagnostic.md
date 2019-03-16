@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.Diagnostic
-title: IStiUSD::Diagnostic
+title: IStiUSD::Diagnostic (stiusd.h)
 description: A still image minidriver's IStiUSD::Diagnostic method runs diagnostic tests on a still image device.
 old-location: image\istiusd_diagnostic.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.Diagnostic
+- IStiUSD.Diagnostic
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetCancelRoutine
-title: IoSetCancelRoutine function
+title: IoSetCancelRoutine function (wdm.h)
 description: The IoSetCancelRoutine routine sets up a driver-supplied Cancel routine to be called if a given IRP is canceled.
 old-location: kernel\iosetcancelroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetCancelRoutine
+- IoSetCancelRoutine
 product:
 - Windows
 targetos: Windows

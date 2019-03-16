@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetNumUnnamedArgs
-title: ExtExtension::GetNumUnnamedArgs
+title: ExtExtension::GetNumUnnamedArgs (engextcpp.h)
 description: The GetNumUnnamedArgs method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 old-location: debugger\getnumunnamedargs.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtExtension.GetNumUnnamedArgs
+- ExtExtension.GetNumUnnamedArgs
 product:
 - Windows
 targetos: Windows

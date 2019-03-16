@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtypes._UCM_PD_REQUEST_DATA_OBJECT
-title: "_UCM_PD_REQUEST_DATA_OBJECT"
+title: _UCM_PD_REQUEST_DATA_OBJECT (ucmtypes.h)
 description: Describes a Request Data Object (RDO). For information about these members, see the Power Delivery specification.
 old-location: buses\ucm_pd_request_data_object.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtypes.h
+- ucmtypes.h
 api_name:
--	UCM_PD_REQUEST_DATA_OBJECT
+- UCM_PD_REQUEST_DATA_OBJECT
 product:
 - Windows
 targetos: Windows

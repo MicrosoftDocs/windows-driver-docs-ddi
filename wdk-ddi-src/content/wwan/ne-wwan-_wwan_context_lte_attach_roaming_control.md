@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
-title: _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
+title: _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL (wwan.h)
 description: The WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL enumeration specifies which roaming conditions apply to an LTE attach context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 1cd9acca-881e-4b93-a108-9b9376b5d7a1
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL, *PWWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
+- _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
 product: 
 - Windows
 targetos: Windows

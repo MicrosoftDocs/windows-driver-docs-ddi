@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetOuterUnknown
-title: KsFilterFactoryGetOuterUnknown function
+title: KsFilterFactoryGetOuterUnknown function (ks.h)
 description: The KsFilterFactoryGetOuterUnknown function returns the outer IUnknown of the specified filter factory.
 old-location: stream\ksfilterfactorygetouterunknown.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsFilterFactoryGetOuterUnknown
+- KsFilterFactoryGetOuterUnknown
 product:
 - Windows
 targetos: Windows

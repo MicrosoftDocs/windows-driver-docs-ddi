@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetEventBuffer_OUT
-title: "_GetEventBuffer_OUT"
+title: _GetEventBuffer_OUT (hbapiwmi.h)
 description: The GetEventBuffer_OUT structure is used to report the output parameter data of the GetEventBuffer WMI method to the WMI client.
 old-location: storage\geteventbuffer_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetEventBuffer_OUT
+- GetEventBuffer_OUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_COUNTER_VALUE
-title: "_NDIS_PD_COUNTER_VALUE"
+title: _NDIS_PD_COUNTER_VALUE (ndis.h)
 description: This structure is used to hold a counter value for a queue or filter counter.
 old-location: netvista\ndis_pd_counter_value.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_COUNTER_VALUE
+- NDIS_PD_COUNTER_VALUE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SIGNAL_STATE
-title: "_WWAN_SIGNAL_STATE"
+title: _WWAN_SIGNAL_STATE (wwan.h)
 description: The WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 old-location: netvista\wwan_signal_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SIGNAL_STATE
+- WWAN_SIGNAL_STATE
 product:
 - Windows
 targetos: Windows

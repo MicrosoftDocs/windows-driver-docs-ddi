@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputCurrentState
-title: IDebugControl2::OutputCurrentState
+title: IDebugControl2::OutputCurrentState (dbgeng.h)
 description: The OutputCurrentState method prints the current state of the current target to the debugger console.
 old-location: debugger\outputcurrentstate.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.OutputCurrentState
--	IDebugControl2.OutputCurrentState
--	IDebugControl3.OutputCurrentState
+- IDebugControl.OutputCurrentState
+- IDebugControl2.OutputCurrentState
+- IDebugControl3.OutputCurrentState
 product:
 - Windows
 targetos: Windows

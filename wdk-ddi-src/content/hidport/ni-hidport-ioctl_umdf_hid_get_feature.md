@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_GET_FEATURE
-title: IOCTL_UMDF_HID_GET_FEATURE
+title: IOCTL_UMDF_HID_GET_FEATURE (hidport.h)
 description: The IOCTL_UMDF_HID_GET_FEATURE control code obtains a feature report from a HIDClass device.
 old-location: hid\ioctl_umdf_hid_get_feature.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidport.h
+- Hidport.h
 api_name:
--	IOCTL_UMDF_HID_GET_FEATURE
+- IOCTL_UMDF_HID_GET_FEATURE
 product:
 - Windows
 targetos: Windows

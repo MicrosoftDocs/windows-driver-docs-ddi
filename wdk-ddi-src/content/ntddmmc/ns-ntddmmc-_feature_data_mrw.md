@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MRW
-title: "_FEATURE_DATA_MRW"
+title: _FEATURE_DATA_MRW (ntddmmc.h)
 description: The FEATURE_DATA_MRW structure contains information about the MRW feature.
 old-location: storage\feature_data_mrw.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_MRW
+- FEATURE_DATA_MRW
 product:
 - Windows
 targetos: Windows

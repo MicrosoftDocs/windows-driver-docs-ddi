@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUlonglongByteSwap
-title: RtlUlonglongByteSwap macro
+title: RtlUlonglongByteSwap macro (wdm.h)
 description: The RtlUlonglongByteSwap routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 old-location: kernel\rtlulonglongbyteswap.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUlonglongByteSwap
+- RtlUlonglongByteSwap
 product:
 - Windows
 targetos: Windows

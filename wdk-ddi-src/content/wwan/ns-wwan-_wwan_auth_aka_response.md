@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKA_RESPONSE
-title: "_WWAN_AUTH_AKA_RESPONSE"
+title: _WWAN_AUTH_AKA_RESPONSE (wwan.h)
 description: The WWAN_AUTH_AKA_RESPONSE structure represents a response to an AKA authentication challenge.
 old-location: netvista\wwan_auth_aka_response.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_AKA_RESPONSE
+- WWAN_AUTH_AKA_RESPONSE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsclassextension.__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001
-title: "__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001"
+title: __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001 (sensorsclassextension.h)
 description: The SensorState enumeration type specifies the current operational state of a sensor.
 old-location: sensors\sensorstate.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsClassExtension.h
+- SensorsClassExtension.h
 api_name:
--	SensorState
+- SensorState
 product:
 - Windows
 targetos: Windows

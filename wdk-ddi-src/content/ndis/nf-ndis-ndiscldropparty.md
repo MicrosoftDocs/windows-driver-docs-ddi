@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClDropParty
-title: NdisClDropParty function
+title: NdisClDropParty function (ndis.h)
 description: NdisClDropParty drops a party from the client's multipoint VC.
 old-location: netvista\ndiscldropparty.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisClDropParty
+- NdisClDropParty
 product:
 - Windows
 targetos: Windows

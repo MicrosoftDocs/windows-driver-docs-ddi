@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_WRITE_ENTRY
-title: "_CLS_WRITE_ENTRY"
+title: _CLS_WRITE_ENTRY (wdm.h)
 description: The CLFS_WRITE_ENTRY structure holds the address and size of a buffer that contains one unit of data to be written to a Common Log File System (CLFS) stream.
 old-location: kernel\clfs_write_entry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CLS_WRITE_ENTRY
+- CLS_WRITE_ENTRY
 product:
 - Windows
 targetos: Windows

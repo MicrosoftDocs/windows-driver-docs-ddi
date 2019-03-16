@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_MAKERESIDENT_0001
-title: PFND3D12DDI_MAKERESIDENT_0001
+title: PFND3D12DDI_MAKERESIDENT_0001 (d3d12umddi.h)
 description: pfnMakeResident is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: d31a9aac-08c6-44a9-918e-81db909a6f44
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_MAKERESIDENT_0001
+- PFND3D12DDI_MAKERESIDENT_0001
 product:
 - Windows
 targetos: Windows

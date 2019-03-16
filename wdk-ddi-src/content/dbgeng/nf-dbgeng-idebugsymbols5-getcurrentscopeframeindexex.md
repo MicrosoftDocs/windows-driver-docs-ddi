@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols5.GetCurrentScopeFrameIndexEx
-title: IDebugSymbols5::GetCurrentScopeFrameIndexEx
+title: IDebugSymbols5::GetCurrentScopeFrameIndexEx (dbgeng.h)
 description: Gets the index of the current frame.
 old-location: debugger\idebugsymbols5_getcurrentscopeframeindexex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols5.GetCurrentScopeFrameIndexEx
+- IDebugSymbols5.GetCurrentScopeFrameIndexEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.vDbgPrintEx
-title: vDbgPrintEx function
+title: vDbgPrintEx function (wdm.h)
 description: The vDbgPrintEx routine sends a string to the kernel debugger if certain conditions are met.
 old-location: devtest\vdbgprintex.htm
 tech.root: devtest
@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL (see Comments section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	vDbgPrintEx
+- vDbgPrintEx
 product:
 - Windows
 targetos: Windows

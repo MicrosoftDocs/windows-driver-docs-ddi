@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050
-title: D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050
+title: D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050 (d3d12umddi.h)
 description: Determines how the runtime will manage associations of 3D and compute queues to scheduling groups.
 ms.assetid: 3e74a66b-30bc-4831-bdee-28d5a8aa26fc
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050
+- D3D12DDICAPS_HARDWARE_SCHEDULING_CAPS_0050
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

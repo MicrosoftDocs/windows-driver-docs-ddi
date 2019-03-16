@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CALLDOWN
-title: PMRX_CALLDOWN
+title: PMRX_CALLDOWN (mrx.h)
 description: This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
 old-location: ifsk\mrxclosesrvopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MyCalldown
+- MyCalldown
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauGetValidFormats
-title: wiauGetValidFormats function
+title: wiauGetValidFormats function (wiautil.h)
 description: The wiauGetValidFormats function calls the IWiaMiniDrv::drvGetWiaFormatInfo method and makes a list of valid formats, using a specified tymed value.
 old-location: image\wiaugetvalidformats.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauGetValidFormats
+- wiauGetValidFormats
 product:
 - Windows
 targetos: Windows

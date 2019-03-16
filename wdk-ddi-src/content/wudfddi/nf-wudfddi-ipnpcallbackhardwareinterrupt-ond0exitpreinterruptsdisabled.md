@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
-title: IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
+title: IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled (wudfddi.h)
 description: A driver's OnD0ExitPreInterruptsDisabled event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
 old-location: wdf\ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
+- IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled
 product:
 - Windows
 targetos: Windows

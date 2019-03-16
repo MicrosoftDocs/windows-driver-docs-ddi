@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocatePool
-title: StorPortAllocatePool function
+title: StorPortAllocatePool function (storport.h)
 description: The StorPortAllocatePool routine allocates a block of non-contiguous, non-paged pool memory.
 old-location: storage\storportallocatepool.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAllocatePool
+- StorPortAllocatePool
 product:
 - Windows
 targetos: Windows

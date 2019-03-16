@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicy_IN
-title: "_DsmSetLoadBalancePolicy_IN"
+title: _DsmSetLoadBalancePolicy_IN (mpiodisk.h)
 description: The DsmSetLoadBalancePolicy_IN structure provides an input parameter to the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	DsmSetLoadBalancePolicy_IN
+- DsmSetLoadBalancePolicy_IN
 product:
 - Windows
 targetos: Windows

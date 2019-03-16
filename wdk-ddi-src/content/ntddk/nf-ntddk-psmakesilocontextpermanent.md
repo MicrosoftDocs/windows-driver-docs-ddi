@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsMakeSiloContextPermanent
-title: PsMakeSiloContextPermanent function
+title: PsMakeSiloContextPermanent function (ntddk.h)
 description: This routine makes the slot in a silo instance read-only, allowing the object in the slot to be retrieved without affecting the reference count on that object.
 old-location: kernel\psmakesilocontextpermanent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsMakeSiloContextPermanent
+- PsMakeSiloContextPermanent
 product:
 - Windows
 targetos: Windows

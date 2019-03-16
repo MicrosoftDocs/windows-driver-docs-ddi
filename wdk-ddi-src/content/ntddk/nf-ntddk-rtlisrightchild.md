@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsRightChild
-title: RtlIsRightChild macro
+title: RtlIsRightChild macro (ntddk.h)
 description: The RtlIsRightChild routine determines whether a given splay link is the right child of a node in a splay link tree.
 old-location: ifsk\rtlisrightchild.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlIsRightChild
+- RtlIsRightChild
 product:
 - Windows
 targetos: Windows

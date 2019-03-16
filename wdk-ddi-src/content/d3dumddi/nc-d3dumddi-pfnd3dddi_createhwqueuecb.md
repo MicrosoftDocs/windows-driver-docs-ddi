@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEHWQUEUECB
-title: PFND3DDDI_CREATEHWQUEUECB
+title: PFND3DDDI_CREATEHWQUEUECB (d3dumddi.h)
 description: A callback to create a new hardware queue.
 old-location: display\pfnd3dddi_createhwqueuecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	PFND3DDDI_CREATEHWQUEUECB
+- PFND3DDDI_CREATEHWQUEUECB
 product:
 - Windows
 targetos: Windows

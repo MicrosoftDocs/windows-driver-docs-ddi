@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
-title: "_NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN"
+title: _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure is used to specify the routing domain properties of a VM network adapter.
 old-location: netvista\ndis_switch_port_property_routing_domain.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
+- NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
 product:
 - Windows
 targetos: Windows

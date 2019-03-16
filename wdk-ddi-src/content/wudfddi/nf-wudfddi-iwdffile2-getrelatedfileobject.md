@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile2.GetRelatedFileObject
-title: IWDFFile2::GetRelatedFileObject
+title: IWDFFile2::GetRelatedFileObject (wudfddi.h)
 description: The GetRelatedFileObject method retrieves the IWDFFile interface of a related file object, which is a file object that has a technology-specific relationship with another file object.
 old-location: wdf\iwdffile2_getrelatedfileobject.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFile2.GetRelatedFileObject
+- IWDFFile2.GetRelatedFileObject
 product:
 - Windows
 targetos: Windows

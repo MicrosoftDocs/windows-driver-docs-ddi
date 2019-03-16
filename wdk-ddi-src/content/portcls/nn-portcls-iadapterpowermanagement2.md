@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPowerManagement2
-title: IAdapterPowerManagement2
+title: IAdapterPowerManagement2 (portcls.h)
 description: The IAdapterPowerManagement2 interface inherits from IUnknown and it is used to manage the power state of an audio adapter.
 old-location: audio\iadapterpowermanagement2.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IAdapterPowerManagement2
+- IAdapterPowerManagement2
 product:
 - Windows
 targetos: Windows

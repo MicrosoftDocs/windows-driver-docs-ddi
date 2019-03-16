@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER
-title: TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER
+title: TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadForwardComplete function to complete a forward operation that the driver previously initiated by calling the NdisOffloadTcpForward function.
 old-location: netvista\protocoltcpoffloadforwardcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolTcpOffloadForwardComplete
+- ProtocolTcpOffloadForwardComplete
 product:
 - Windows
 targetos: Windows

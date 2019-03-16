@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETNODEMETADATA
-title: DXGKDDI_GETNODEMETADATA
+title: DXGKDDI_GETNODEMETADATA (d3dkmddi.h)
 description: From a provided adapter handle, returns the engine type and friendly name of an engine on a specified GPU node. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later display miniport drivers.
 old-location: display\dxgkddigetnodemetadata.htm
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiGetNodeMetadata
+- DxgkDdiGetNodeMetadata
 product:
 - Windows
 targetos: Windows
@@ -65,12 +65,9 @@ An index of a node for which engine information will be obtained. This node is w
 
 ### -param pGetNodeMetadata [out]
 
-A pointer to a [DXGKARG_GETNODEMETADATA]() structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
+A pointer to a DXGKARG_GETNODEMETADATA structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
 
-
-
-
-
+Note that the DXGKARG_GETNODEMETADATA structure is declared as a [DXGK_NODEMETADATA](..\d3dkmdt\ns-d3dkmdt-_dxgk_nodemetadata.md) structure.
 
 ## -returns
 
@@ -99,12 +96,7 @@ For more information on how to implement this function, see <a href="https://msd
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265405">DXGKARG_GETNODEMETADATA</a>
-
-
+[DXGK_NODEMETADATA](..\d3dkmdt\ns-d3dkmdt-_dxgk_nodemetadata.md)
 
 <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  

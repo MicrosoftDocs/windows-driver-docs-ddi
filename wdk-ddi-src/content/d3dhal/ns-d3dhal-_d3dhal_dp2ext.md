@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2EXT
-title: "_D3DHAL_DP2EXT"
+title: _D3DHAL_DP2EXT (d3dhal.h)
 description: The D3DHAL_DP2EXT structure's use has yet to be defined.
 old-location: display\d3dhal_dp2ext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2EXT
+- D3DHAL_DP2EXT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDIARG_SUBRESOURCE_UP
-title: D3D10_DDIARG_SUBRESOURCE_UP
+title: D3D10_DDIARG_SUBRESOURCE_UP (d3d10umddi.h)
 description: The D3D10_DDIARG_SUBRESOURCE_UP structure describes initialization information about a subresource.
 old-location: display\d3d10_ddiarg_subresource_up.htm
 ms.assetid: 035ce56c-b2a0-4ee0-83ce-4a45f05e5ff4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDIARG_SUBRESOURCE_UP
+- D3D10_DDIARG_SUBRESOURCE_UP
 product:
 - Windows
 targetos: Windows

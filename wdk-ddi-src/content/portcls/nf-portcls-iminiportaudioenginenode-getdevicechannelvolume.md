@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelVolume
-title: IMiniportAudioEngineNode::GetDeviceChannelVolume
+title: IMiniportAudioEngineNode::GetDeviceChannelVolume (portcls.h)
 description: Gets the volume level for a given channel of the audio device.
 old-location: audio\iminiportaudioenginenode_getdevicechannelvolume.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetDeviceChannelVolume
+- IMiniportAudioEngineNode.GetDeviceChannelVolume
 product:
 - Windows
 targetos: Windows

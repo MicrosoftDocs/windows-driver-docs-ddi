@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_CREATE_REQUEST
-title: _NVME_RESERVED_QUEUES_CREATE_REQUEST
+title: _NVME_RESERVED_QUEUES_CREATE_REQUEST (ntddstor.h)
 description: 
 ms.assetid: 74c5fba3-9ba5-44ab-8ec5-5ea173fad224
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_QUEUES_CREATE_REQUEST, *PNVME_RESERVED_QUEUES_CREATE_REQUEST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_QUEUES_CREATE_REQUEST
+- _NVME_RESERVED_QUEUES_CREATE_REQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

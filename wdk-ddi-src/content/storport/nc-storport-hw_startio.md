@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_STARTIO
-title: HW_STARTIO
+title: HW_STARTIO (storport.h)
 description: The Storport driver calls the HwStorStartIo routine one time for each incoming I/O request.
 old-location: storage\hwstorstartio.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorStartIo
+- HwStorStartIo
 product:
 - Windows
 targetos: Windows

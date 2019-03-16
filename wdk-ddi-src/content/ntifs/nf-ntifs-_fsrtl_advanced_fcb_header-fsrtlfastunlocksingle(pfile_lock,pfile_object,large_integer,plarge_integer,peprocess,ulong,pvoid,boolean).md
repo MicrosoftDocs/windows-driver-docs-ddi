@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastUnlockSingle(PFILE_LOCK,PFILE_OBJECT,LARGE_INTEGER,PLARGE_INTEGER,PEPROCESS,ULONG,PVOID,BOOLEAN)
-title: FsRtlFastUnlockSingle function
+title: FsRtlFastUnlockSingle function (ntifs.h)
 description: The FsRtlFastUnlockSingle routine releases a byte-range lock that was acquired by the specified process, with the specified key value, file offset, and length, for a file.
 old-location: ifsk\fsrtlfastunlocksingle.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlFastUnlockSingle
+- FsRtlFastUnlockSingle
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ms.custom: RS5

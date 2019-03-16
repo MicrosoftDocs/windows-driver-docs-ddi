@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeDeviceBase
-title: StorPortFreeDeviceBase function
+title: StorPortFreeDeviceBase function (storport.h)
 description: StorPortFreeDeviceBase frees a range of device I/O memory that was mapped by StorPortGetDeviceBase.
 old-location: storage\storportfreedevicebase.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortFreeDeviceBase
+- StorPortFreeDeviceBase
 product:
 - Windows
 targetos: Windows

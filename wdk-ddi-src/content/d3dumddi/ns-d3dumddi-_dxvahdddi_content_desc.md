@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_CONTENT_DESC
-title: "_DXVAHDDDI_CONTENT_DESC"
+title: _DXVAHDDDI_CONTENT_DESC (d3dumddi.h)
 description: The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_content_desc.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_CONTENT_DESC
+- DXVAHDDDI_CONTENT_DESC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeMcb
-title: FsRtlInitializeMcb function
+title: FsRtlInitializeMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlinitializemcb.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlInitializeMcb
+- FsRtlInitializeMcb
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

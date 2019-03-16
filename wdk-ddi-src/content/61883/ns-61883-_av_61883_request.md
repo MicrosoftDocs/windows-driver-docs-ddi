@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._AV_61883_REQUEST
-title: "_AV_61883_REQUEST"
+title: _AV_61883_REQUEST (61883.h)
 description: The AV_61883_REQUEST structure is used to pass requests to the IEC-61883 protocol driver.
 old-location: ieee\av_61883_request.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	AV_61883_REQUEST
+- AV_61883_REQUEST
 product:
 - Windows
 targetos: Windows

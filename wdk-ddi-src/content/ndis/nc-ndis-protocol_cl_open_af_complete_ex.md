@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_OPEN_AF_COMPLETE_EX
-title: PROTOCOL_CL_OPEN_AF_COMPLETE_EX
+title: PROTOCOL_CL_OPEN_AF_COMPLETE_EX (ndis.h)
 description: The ProtocolClOpenAfCompleteEx function completes the opening of an address family (AF) that was started when a CoNDIS client called the NdisClOpenAddressFamilyEx function.Note  You must declare the function by using the PROTOCOL_CL_OPEN_AF_COMPLETE_EX type. For more information, see the following Examples section.
 old-location: netvista\protocolclopenafcompleteex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClOpenAfCompleteEx
+- ProtocolClOpenAfCompleteEx
 product:
 - Windows
 targetos: Windows

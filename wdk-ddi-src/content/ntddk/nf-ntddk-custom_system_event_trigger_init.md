@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
-title: CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function
+title: CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function (ntddk.h)
 description: Initializes the [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_system_event_trigger_config.md) structure.
 ms.assetid: 27fda9f0-940d-441a-a4bc-ccb65f27b7f3
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

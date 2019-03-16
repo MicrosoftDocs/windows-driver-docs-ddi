@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION
-title: EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION
+title: EVT_WDF_DEVICE_PNP_STATE_CHANGE_NOTIFICATION (wdfdevice.h)
 description: A driver's EvtDevicePnpStateChange event callback function informs the driver that a device's Plug and Play (PnP) state machine is moving from one state to another.
 old-location: wdf\evtdevicepnpstatechange.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDevicePnpStateChange
+- EvtDevicePnpStateChange
 product:
 - Windows
 targetos: Windows

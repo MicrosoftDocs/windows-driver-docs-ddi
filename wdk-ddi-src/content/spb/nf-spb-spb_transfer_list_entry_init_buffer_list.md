@@ -1,6 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
-title: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function
+title: SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a scatter-gather list.
 old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
+- SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 product:
 - Windows
 targetos: Windows

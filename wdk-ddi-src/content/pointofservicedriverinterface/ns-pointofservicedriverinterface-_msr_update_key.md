@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_UPDATE_KEY
-title: "_MSR_UPDATE_KEY"
+title: _MSR_UPDATE_KEY (pointofservicedriverinterface.h)
 description: This structure contains the information necessary to set a new encryption key.
 old-location: pos\msr_update_key.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_UPDATE_KEY
+- MSR_UPDATE_KEY
 product:
 - Windows
 targetos: Windows

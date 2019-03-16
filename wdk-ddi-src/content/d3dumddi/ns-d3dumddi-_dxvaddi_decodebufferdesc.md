@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERDESC
-title: "_DXVADDI_DECODEBUFFERDESC"
+title: _DXVADDI_DECODEBUFFERDESC (d3dumddi.h)
 description: The DXVADDI_DECODEBUFFERDESC structure describes a buffer that is currently passed from the host decoder to the accelerator.
 old-location: display\dxvaddi_decodebufferdesc.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_DECODEBUFFERDESC
+- DXVADDI_DECODEBUFFERDESC
 product:
 - Windows
 targetos: Windows

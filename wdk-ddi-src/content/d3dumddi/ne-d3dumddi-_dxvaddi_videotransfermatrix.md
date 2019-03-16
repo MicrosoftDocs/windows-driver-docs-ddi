@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOTRANSFERMATRIX
-title: "_DXVADDI_VIDEOTRANSFERMATRIX"
+title: _DXVADDI_VIDEOTRANSFERMATRIX (d3dumddi.h)
 description: The DXVADDI_VIDEOTRANSFERMATRIX enumeration type contains values that identify the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'.
 old-location: display\dxvaddi_videotransfermatrix.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_VIDEOTRANSFERMATRIX
+- DXVADDI_VIDEOTRANSFERMATRIX
 product:
 - Windows
 targetos: Windows

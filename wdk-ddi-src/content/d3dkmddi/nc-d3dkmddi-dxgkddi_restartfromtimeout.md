@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESTARTFROMTIMEOUT
-title: DXGKDDI_RESTARTFROMTIMEOUT
+title: DXGKDDI_RESTARTFROMTIMEOUT (d3dkmddi.h)
 description: The DxgkDdiRestartFromTimeout function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.
 old-location: display\dxgkddirestartfromtimeout.htm
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiRestartFromTimeout
+- DxgkDdiRestartFromTimeout
 product:
 - Windows
 targetos: Windows

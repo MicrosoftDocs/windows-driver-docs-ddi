@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Read
-title: IPrinterScriptableSequentialStream::Read
+title: IPrinterScriptableSequentialStream::Read (printerextension.h)
 description: The Read method reads bytes from the stream and returns them as a JavaScript array.
 old-location: print\iprinterscriptablesequentialstream_read.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrinterScriptableSequentialStream.Read
+- IPrinterScriptableSequentialStream.Read
 product:
 - Windows
 targetos: Windows

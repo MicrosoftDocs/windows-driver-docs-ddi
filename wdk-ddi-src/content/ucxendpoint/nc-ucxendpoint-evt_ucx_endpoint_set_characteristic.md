@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
-title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC
+title: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC (ucxendpoint.h)
 description: UCX invokes this callback function to set the priority on an endpoint.
 old-location: buses\evt_ucx_endpoint_set_characteristic.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	EvtUcxEndpointSetCharacteristic
+- EvtUcxEndpointSetCharacteristic
 product:
 - Windows
 targetos: Windows

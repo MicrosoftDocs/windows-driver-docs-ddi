@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_ALGORITHM_INFO
-title: "_IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
+title: _IPSEC_OFFLOAD_V2_ALGORITHM_INFO (ndis.h)
 description: The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies an algorithm that is used for a security association (SA).
 old-location: netvista\ipsec_offload_v2_algorithm_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	IPSEC_OFFLOAD_V2_ALGORITHM_INFO
+- IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 product:
 - Windows
 targetos: Windows

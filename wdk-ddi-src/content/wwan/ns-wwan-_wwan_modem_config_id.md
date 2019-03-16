@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_ID
-title: _WWAN_MODEM_CONFIG_ID
+title: _WWAN_MODEM_CONFIG_ID (wwan.h)
 description: The WWAN_MODEM_CONFIG_ID structure represents a unique ID for a modem configuration file.
 tech.root: netvista
 ms.assetid: e5653619-58fe-4fc7-a1d3-550a8cd6a735
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wwan.h
-apiname: 
--	_WWAN_MODEM_CONFIG_ID
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wwan.h
+api_name: 
+- _WWAN_MODEM_CONFIG_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

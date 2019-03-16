@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinDeviceObject
-title: KsPinGetConnectedPinDeviceObject function
+title: KsPinGetConnectedPinDeviceObject function (ks.h)
 description: The KsPinGetConnectedPinDeviceObject function returns the device object at the top of the device stack corresponding to the sink pin attached to the source pin Pin.
 old-location: stream\kspingetconnectedpindeviceobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetConnectedPinDeviceObject
+- KsPinGetConnectedPinDeviceObject
 product:
 - Windows
 targetos: Windows

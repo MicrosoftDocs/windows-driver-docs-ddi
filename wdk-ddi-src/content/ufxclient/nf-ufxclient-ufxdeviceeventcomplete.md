@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceEventComplete
-title: UfxDeviceEventComplete function
+title: UfxDeviceEventComplete function (ufxclient.h)
 description: Informs UFX that the client driver has completed processing a UFX callback function.
 old-location: buses\ufxdeviceeventcomplete.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDeviceEventComplete
+- UfxDeviceEventComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE
-title: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE
+title: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE (ndis.h)
 description: The SetNetBufferListSource function sets the Hyper-V extensible switch source port identifier and network adapter index for a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\setnetbufferlistsource.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	SetNetBufferListSource
+- SetNetBufferListSource
 product:
 - Windows
 targetos: Windows

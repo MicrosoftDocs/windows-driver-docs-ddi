@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_RESPONSE
-title: "_WWAN_AUTH_RESPONSE"
+title: _WWAN_AUTH_RESPONSE (wwan.h)
 description: The WWAN_AUTH_RESPONSE structure represents an authentication challenge response.
 old-location: netvista\wwan_auth_response.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_AUTH_RESPONSE
+- WWAN_AUTH_RESPONSE
 product:
 - Windows
 targetos: Windows

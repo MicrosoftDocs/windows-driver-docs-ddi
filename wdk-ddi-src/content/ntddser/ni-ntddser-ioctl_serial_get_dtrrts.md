@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_DTRRTS
-title: IOCTL_SERIAL_GET_DTRRTS
+title: IOCTL_SERIAL_GET_DTRRTS (ntddser.h)
 description: The IOCTL_SERIAL_GET_DTRRTS request returns information about the data terminal ready (DTR) control signal and the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_get_dtrrts.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_GET_DTRRTS
+- IOCTL_SERIAL_GET_DTRRTS
 product:
 - Windows
 targetos: Windows

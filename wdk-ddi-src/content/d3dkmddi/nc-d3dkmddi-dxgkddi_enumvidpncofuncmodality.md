@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ENUMVIDPNCOFUNCMODALITY
-title: DXGKDDI_ENUMVIDPNCOFUNCMODALITY
+title: DXGKDDI_ENUMVIDPNCOFUNCMODALITY (d3dkmddi.h)
 description: The DxgkDdiEnumVidPnCofuncModality function makes the source and target modes sets of a VidPN cofunctional with the VidPN's topology and the modes that have already been pinned.
 old-location: display\dxgkddienumvidpncofuncmodality.htm
 ms.assetid: 6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiEnumVidPnCofuncModality
+- DxgkDdiEnumVidPnCofuncModality
 product:
 - Windows
 targetos: Windows

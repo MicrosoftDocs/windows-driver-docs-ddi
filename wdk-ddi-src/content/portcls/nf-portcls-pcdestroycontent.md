@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcDestroyContent
-title: PcDestroyContent function
+title: PcDestroyContent function (portcls.h)
 description: The PcDestroyContent function deletes a DRM content ID that was created by PcCreateContentMixed. Note that this function call is identical in operation to the DrmDestroyContent function, and its parameter definitions and return value are also identical.
 old-location: audio\pcdestroycontent.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcDestroyContent
+- PcDestroyContent
 product:
 - Windows
 targetos: Windows

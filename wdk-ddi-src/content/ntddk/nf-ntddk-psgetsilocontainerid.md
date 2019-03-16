@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetSiloContainerId
-title: PsGetSiloContainerId function
+title: PsGetSiloContainerId function (ntddk.h)
 description: Gets the ContainerId for the given Silo.
 ms.assetid: ba43355c-380c-46a8-85e7-bae024683744
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name: 
--	PsGetSiloContainerId
-product: Windows
+- PsGetSiloContainerId
+product:
+- Windows
 targetos: Windows
 
 

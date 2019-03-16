@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.Release
-title: IDataModelScriptProviderEnumerator::Release
+title: IDataModelScriptProviderEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
 ms.assetid: 18d5e8ee-c6ea-4ca0-8c5e-51c5f0be5ff9
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProviderEnumerator.Release
-product: Windows
+- IDataModelScriptProviderEnumerator.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

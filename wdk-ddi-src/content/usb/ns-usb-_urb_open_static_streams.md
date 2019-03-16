@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_OPEN_STATIC_STREAMS
-title: "_URB_OPEN_STATIC_STREAMS"
+title: _URB_OPEN_STATIC_STREAMS (usb.h)
 description: The _URB_OPEN_STATIC_STREAMS structure is used by a USB client driver to open streams in the specified bulk endpoint.
 old-location: buses\_urb_open_basic_streams.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	_URB_OPEN_STATIC_STREAMS
+- _URB_OPEN_STATIC_STREAMS
 product:
 - Windows
 targetos: Windows

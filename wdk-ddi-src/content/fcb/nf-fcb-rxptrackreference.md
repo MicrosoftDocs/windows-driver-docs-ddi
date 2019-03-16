@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxpTrackReference
-title: RxpTrackReference function
+title: RxpTrackReference function (fcb.h)
 description: RxpTrackReference tracks requests to reference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these reference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackreference.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxpTrackReference
+- RxpTrackReference
 product:
 - Windows
 targetos: Windows

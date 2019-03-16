@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsippm._UCMUCSI_PPM_CONFIG
-title: _UCMUCSI_PPM_CONFIG
+title: _UCMUCSI_PPM_CONFIG (ucmucsippm.h)
 tech.root: usbref
 description: Stores configuration information required to create a Platform Policy Manager (PPM). 
 ms.assetid: bb47ac45-b623-4512-89ff-cb434ca4d2ef
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	_UCMUCSI_PPM_CONFIG
-product: Windows
+- _UCMUCSI_PPM_CONFIG
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

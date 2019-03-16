@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_DATA_ROLE
-title: _USBC_DATA_ROLE
+title: _USBC_DATA_ROLE (usbctypes.h)
 description: Defines data roles of USB Type-C connected devices.
 ms.assetid: 4d1d009b-57a2-47f2-b935-2eff5c8503b9
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_DATA_ROLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_DATA_ROLE
-product: Windows
+- _USBC_DATA_ROLE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

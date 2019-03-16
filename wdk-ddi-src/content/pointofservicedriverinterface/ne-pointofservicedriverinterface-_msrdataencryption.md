@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrDataEncryption
-title: "_MsrDataEncryption"
+title: _MsrDataEncryption (pointofservicedriverinterface.h)
 description: This enumeration defines the kind of encryption algorithm supported by the magnetic stripe reader (MSR).
 old-location: pos\msrdataencryption.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	MsrDataEncryption
+- MsrDataEncryption
 product:
 - Windows
 targetos: Windows

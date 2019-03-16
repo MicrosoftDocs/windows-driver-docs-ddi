@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYDEVICE
-title: PFND3DKMT_DESTROYDEVICE
+title: PFND3DKMT_DESTROYDEVICE (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device.
 ms.assetid: f8c8bc39-b32f-40e7-a707-065fd56210bd
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_DESTROYDEVICE
+- PFND3DKMT_DESTROYDEVICE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

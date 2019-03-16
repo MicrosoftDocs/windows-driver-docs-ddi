@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTARGETGAMMA
-title: DXGKDDI_SETTARGETGAMMA
+title: DXGKDDI_SETTARGETGAMMA (d3dkmddi.h)
 description: Allows the gamma LUT to be set on a path which is identified by the target id.Note  This is functionally equivalent to the DxgkDdi_UpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_GAMMA_RAMP field is changed. .
 old-location: display\dxgkddi_settargetgamma.htm
 ms.assetid: 658EA0AA-80FC-4A45-B2EF-DFE928917E7B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETTARGETGAMMA
+- DXGKDDI_SETTARGETGAMMA
 product:
 - Windows
 targetos: Windows

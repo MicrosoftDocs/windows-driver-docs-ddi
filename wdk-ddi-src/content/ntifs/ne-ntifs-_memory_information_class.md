@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._MEMORY_INFORMATION_CLASS
-title: "_MEMORY_INFORMATION_CLASS"
+title: _MEMORY_INFORMATION_CLASS (ntifs.h)
 description: Defines classes of memory information that can be retrieved by using the ZwQueryVirtualMemory function.
 old-location: kernel\memory_information_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	MEMORY_INFORMATION_CLASS
+- MEMORY_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.READ_WRITE_MITIGATED_REGISTER
-title: READ_WRITE_MITIGATED_REGISTER
+title: READ_WRITE_MITIGATED_REGISTER (pcivirt.h)
 description: Reads or writes to mitigated address spaces.
 old-location: pci\read_write_mitigated_registers.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PREAD_WRITE_MITIGATED_REGISTER
+- *PREAD_WRITE_MITIGATED_REGISTER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._SIMULATE_CAPS_1
-title: "_SIMULATE_CAPS_1"
+title: _SIMULATE_CAPS_1 (printoem.h)
 description: The SIMULATE_CAPS_1 structure contains information about the types of simulations a spooler supports.
 old-location: print\simulate_caps_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	SIMULATE_CAPS_1
+- SIMULATE_CAPS_1
 product:
 - Windows
 targetos: Windows

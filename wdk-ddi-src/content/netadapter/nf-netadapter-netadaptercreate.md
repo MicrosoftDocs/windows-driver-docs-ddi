@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterCreate
-title: NetAdapterCreate function
+title: NetAdapterCreate function (netadapter.h)
 description: Creates a NETADAPTER object.
 tech.root: netvista
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterCreate
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterCreate
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterCreate
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

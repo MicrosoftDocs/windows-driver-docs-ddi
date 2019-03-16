@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateHwQueue
-title: D3DKMTCreateHwQueue function
+title: D3DKMTCreateHwQueue function (d3dkmthk.h)
 description: Used to create a new hardware queue.
 old-location: display\d3dkmtcreatehwqueue.htm
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateHwQueue
+- D3DKMTCreateHwQueue
 product:
 - Windows
 targetos: Windows

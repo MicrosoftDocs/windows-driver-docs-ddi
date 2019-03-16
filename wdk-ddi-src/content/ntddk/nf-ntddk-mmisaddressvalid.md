@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmIsAddressValid
-title: MmIsAddressValid function
+title: MmIsAddressValid function (ntddk.h)
 description: The MmIsAddressValid routine checks whether a page fault will occur for a read or write operation at a given virtual address.Warning  We do not recommend using this function.
 old-location: kernel\mmisaddressvalid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmIsAddressValid
+- MmIsAddressValid
 product:
 - Windows
 targetos: Windows

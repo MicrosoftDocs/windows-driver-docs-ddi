@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETINDICES
-title: "_D3DHAL_DP2SETINDICES"
+title: _D3DHAL_DP2SETINDICES (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setindices.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2SETINDICES
+- D3DHAL_DP2SETINDICES
 product:
 - Windows
 targetos: Windows

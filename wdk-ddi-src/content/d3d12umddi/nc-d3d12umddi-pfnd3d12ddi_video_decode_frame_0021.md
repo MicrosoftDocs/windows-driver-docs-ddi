@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0021
-title: PFND3D12DDI_VIDEO_DECODE_FRAME_0021
+title: PFND3D12DDI_VIDEO_DECODE_FRAME_0021 (d3d12umddi.h)
 description: The pfnDecodeFrame callback function records a decode frame operation to the command list.
 old-location: display\pfnd3d12ddi_video_decode_frame.htm
 ms.assetid: 8EA34C58-9B2D-4B69-ABAB-D67F6BCD6229
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnDecodeFrame
+- pfnDecodeFrame
 product:
 - Windows
 targetos: Windows

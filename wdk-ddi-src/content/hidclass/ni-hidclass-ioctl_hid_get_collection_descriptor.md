@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_COLLECTION_DESCRIPTOR
-title: IOCTL_HID_GET_COLLECTION_DESCRIPTOR
+title: IOCTL_HID_GET_COLLECTION_DESCRIPTOR (hidclass.h)
 description: The IOCTL_HID_GET_COLLECTION_DESCRIPTOR request obtains a top-level collection's preparsed data, which the HID class driver extracted from the physical device's report descriptor during device initialization.
 old-location: hid\ioctl_hid_get_collection_descriptor.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_GET_COLLECTION_DESCRIPTOR
+- IOCTL_HID_GET_COLLECTION_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

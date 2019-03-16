@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderConfigure
-title: WppRecorderConfigure macro
+title: WppRecorderConfigure macro (wpprecorder.h)
 description: The WppRecorderConfigure method enables or disables the default log to which WPP prints.
 old-location: devtest\wpprecorderconfigure.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderConfigure
+- imp_WppRecorderConfigure
 product:
 - Windows
 targetos: Windows

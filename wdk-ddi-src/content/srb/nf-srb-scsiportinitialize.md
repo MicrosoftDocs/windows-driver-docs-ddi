@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortInitialize
-title: ScsiPortInitialize function
+title: ScsiPortInitialize function (srb.h)
 description: For a non-Plug and Play miniport driver, the ScsiPortInitialize routine sets up the PORT_CONFIGURATION_INFORMATION structure and calls the miniport driver's HwScsiFindAdapter routine.
 old-location: storage\scsiportinitialize.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortInitialize
+- ScsiPortInitialize
 product:
 - Windows
 targetos: Windows

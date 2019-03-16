@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_LINE_CONTROL
-title: IOCTL_SERIAL_SET_LINE_CONTROL
+title: IOCTL_SERIAL_SET_LINE_CONTROL (ntddser.h)
 description: The IOCTL_SERIAL_SET_LINE_CONTROL request sets the line control register (LCR). The line control register controls the data size, the number of stop bits, and the parity.
 old-location: serports\ioctl_serial_set_line_control.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_SET_LINE_CONTROL
+- IOCTL_SERIAL_SET_LINE_CONTROL
 product:
 - Windows
 targetos: Windows

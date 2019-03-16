@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_POSSIBLE
-title: DXGK_BRIGHTNESS_GET_POSSIBLE
+title: DXGK_BRIGHTNESS_GET_POSSIBLE (dispmprt.h)
 description: The DxgkDdiGetPossibleBrightness function retrieves the brightness levels that an integrated display panel supports.
 old-location: display\dxgkddigetpossiblebrightness.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiGetPossibleBrightness
+- DxgkDdiGetPossibleBrightness
 product:
 - Windows
 targetos: Windows

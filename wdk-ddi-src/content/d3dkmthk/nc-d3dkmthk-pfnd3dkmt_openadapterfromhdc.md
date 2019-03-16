@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENADAPTERFROMHDC
-title: PFND3DKMT_OPENADAPTERFROMHDC
+title: PFND3DKMT_OPENADAPTERFROMHDC (d3dkmthk.h)
 description: Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 656f43e8-ed2d-4f09-99c0-25d054b0c6ff
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENADAPTERFROMHDC
+- PFND3DKMT_OPENADAPTERFROMHDC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

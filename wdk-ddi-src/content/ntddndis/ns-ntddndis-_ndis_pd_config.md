@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CONFIG
-title: "_NDIS_PD_CONFIG"
+title: _NDIS_PD_CONFIG (ntddndis.h)
 description: This structure holds configuration data for the PD provider.
 old-location: netvista\ndis_pd_config.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PD_CONFIG
+- NDIS_PD_CONFIG
 product:
 - Windows
 targetos: Windows

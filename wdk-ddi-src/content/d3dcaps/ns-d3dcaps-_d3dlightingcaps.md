@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcaps._D3DLIGHTINGCAPS
-title: "_D3DLIGHTINGCAPS"
+title: _D3DLIGHTINGCAPS (d3dcaps.h)
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DLIGHTINGCAPS structure describes the lighting capabilities of a device.
 old-location: display\d3dlightingcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dcaps.h
+- d3dcaps.h
 api_name:
--	D3DLIGHTINGCAPS
+- D3DLIGHTINGCAPS
 product:
 - Windows
 targetos: Windows

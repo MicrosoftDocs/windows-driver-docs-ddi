@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
-title: DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK
+title: DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK (dispmprt.h)
 description: Called in kernel mode when the message that was sent to the user-mode driver with a call to the DxgkCbMiracastSendMessage function has completed or has been canceled.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkCbMiracastSendMessageCallback
+- DxgkCbMiracastSendMessageCallback
 product:
 - Windows
 targetos: Windows

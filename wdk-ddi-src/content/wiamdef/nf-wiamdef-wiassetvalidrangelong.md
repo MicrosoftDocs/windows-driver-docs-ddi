@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidRangeLong
-title: wiasSetValidRangeLong function
+title: wiasSetValidRangeLong function (wiamdef.h)
 description: The wiasSetValidRangeLong function specifies the range of valid values for a WIA_PROP_RANGE property of type VT_I4.
 old-location: image\wiassetvalidrangelong.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetValidRangeLong
+- wiasSetValidRangeLong
 product:
 - Windows
 targetos: Windows

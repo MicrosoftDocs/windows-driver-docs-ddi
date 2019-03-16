@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.GetNext
-title: IDataModelScriptProviderEnumerator::GetNext
+title: IDataModelScriptProviderEnumerator::GetNext (dbgmodel.h)
 description: Gets the next script provider which is being enumerated and moves the enumerator to the next position. 
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
 ms.date: 10/05/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProviderEnumerator.GetNext
-product: Windows
+- IDataModelScriptProviderEnumerator.GetNext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

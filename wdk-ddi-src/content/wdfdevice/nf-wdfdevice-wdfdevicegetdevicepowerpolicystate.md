@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDevicePowerPolicyState
-title: WdfDeviceGetDevicePowerPolicyState function
+title: WdfDeviceGetDevicePowerPolicyState function (wdfdevice.h)
 description: The WdfDeviceGetDevicePowerPolicyState method returns the current state of the framework's power policy state machine, for a specified device.
 old-location: wdf\wdfdevicegetdevicepowerpolicystate.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceGetDevicePowerPolicyState
+- WdfDeviceGetDevicePowerPolicyState
 product:
 - Windows
 targetos: Windows

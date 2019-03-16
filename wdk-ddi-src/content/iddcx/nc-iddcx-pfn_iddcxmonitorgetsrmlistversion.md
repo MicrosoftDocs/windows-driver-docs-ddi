@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.PFN_IDDCXMONITORGETSRMLISTVERSION
-title: *PFN_IDDCXMONITORGETSRMLISTVERSION
+title: PFN_IDDCXMONITORGETSRMLISTVERSION (iddcx.h)
 description: Implemented by the client driver to retrieve the latest SRM list version stored by the GPU.
 ms.assetid: f73e9f90-0f6e-40e0-9716-b184ac90c4e7
 ms.date: 10/19/2018
@@ -22,14 +22,14 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
--	apiref
-apitype:
--	UserDefined
-apilocation:
--	iddcx.h
-apiname:
--	*PFN_IDDCXMONITORGETSRMLISTVERSION
+topic_type:
+- apiref
+api_type:
+- UserDefined
+api_location:
+- iddcx.h
+api_name:
+- PFN_IDDCXMONITORGETSRMLISTVERSION
 product: 
 - Windows
 targetos: Windows

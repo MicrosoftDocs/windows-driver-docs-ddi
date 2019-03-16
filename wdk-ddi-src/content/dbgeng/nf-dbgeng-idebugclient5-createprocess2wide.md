@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcess2Wide
-title: IDebugClient5::CreateProcess2Wide
+title: IDebugClient5::CreateProcess2Wide (dbgeng.h)
 description: The CreateProcess2Wide method executes the specified command to create a new process.
 old-location: debugger\createprocess2wide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.CreateProcess2Wide
+- IDebugClient5.CreateProcess2Wide
 product:
 - Windows
 targetos: Windows

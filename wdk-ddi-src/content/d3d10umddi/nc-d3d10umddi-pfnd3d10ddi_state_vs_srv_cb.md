@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_VS_SRV_CB
-title: PFND3D10DDI_STATE_VS_SRV_CB
+title: PFND3D10DDI_STATE_VS_SRV_CB (d3d10umddi.h)
 description: The pfnStateVsSrvCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's bound shader resource views.
 old-location: display\pfnstatevssrvcb.htm
 ms.assetid: 5102104e-b79c-40e5-87de-9ccf848288db
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateVsSrvCb
+- pfnStateVsSrvCb
 product:
 - Windows
 targetos: Windows

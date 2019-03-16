@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseKeyedMutex
-title: D3DKMTReleaseKeyedMutex function
+title: D3DKMTReleaseKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTReleaseKeyedMutex function releases a keyed mutex object.
 old-location: display\d3dkmtreleasekeyedmutex.htm
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-DX-D3DKmt-l1-1-0.dll
--	API-MS-Win-DX-D3DKmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-DX-D3DKmt-l1-1-0.dll
+- API-MS-Win-DX-D3DKmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTReleaseKeyedMutex
+- D3DKMTReleaseKeyedMutex
 product:
 - Windows
 targetos: Windows

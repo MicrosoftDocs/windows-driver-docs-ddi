@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAcquireWritableLayerDataPointer0
-title: FwpsAcquireWritableLayerDataPointer0 function
+title: FwpsAcquireWritableLayerDataPointer0 function (fwpsk.h)
 description: The FwpsAcquireWritableLayerDataPointer0 function returns layer-specific data that can be inspected and changed.Note  FwpsAcquireWritableLayerDataPointer0 is a specific version of FwpsAcquireWritableLayerDataPointer.
 old-location: netvista\fwpsacquirewritablelayerdatapointer0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAcquireWritableLayerDataPointer0
+- FwpsAcquireWritableLayerDataPointer0
 product:
 - Windows
 targetos: Windows

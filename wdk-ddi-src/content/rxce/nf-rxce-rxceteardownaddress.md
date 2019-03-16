@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownAddress
-title: RxCeTearDownAddress function
+title: RxCeTearDownAddress function (rxce.h)
 description: RxCeTearDownAddress deregisters a transport address from a transport binding.
 old-location: ifsk\rxceteardownaddress.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeTearDownAddress
+- RxCeTearDownAddress
 product:
 - Windows
 targetos: Windows

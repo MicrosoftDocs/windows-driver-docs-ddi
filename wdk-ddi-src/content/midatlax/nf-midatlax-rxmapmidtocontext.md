@@ -1,6 +1,6 @@
 ---
 UID: NF:midatlax.RxMapMidToContext
-title: RxMapMidToContext function
+title: RxMapMidToContext function (midatlax.h)
 description: RxMapMidToContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure.
 old-location: ifsk\rxmapmidtocontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	midatlax.h
+- midatlax.h
 api_name:
--	RxMapMidToContext
+- RxMapMidToContext
 product:
 - Windows
 targetos: Windows

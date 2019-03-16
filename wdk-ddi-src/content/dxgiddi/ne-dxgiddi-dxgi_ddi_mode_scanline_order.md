@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MODE_SCANLINE_ORDER
-title: DXGI_DDI_MODE_SCANLINE_ORDER
+title: DXGI_DDI_MODE_SCANLINE_ORDER (dxgiddi.h)
 description: The DXGI_DDI_MODE_SCANLINE_ORDER enumeration type contains values that identify how scan lines are ordered in a display mode.
 old-location: display\dxgi_ddi_mode_scanline_order.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_MODE_SCANLINE_ORDER
+- DXGI_DDI_MODE_SCANLINE_ORDER
 product:
 - Windows
 targetos: Windows

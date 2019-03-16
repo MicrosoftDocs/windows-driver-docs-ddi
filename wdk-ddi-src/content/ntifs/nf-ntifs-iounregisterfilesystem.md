@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoUnregisterFileSystem
-title: IoUnregisterFileSystem function
+title: IoUnregisterFileSystem function (ntifs.h)
 description: The IoUnregisterFileSystem routine removes a file system's control device object from the global file system queue.
 old-location: ifsk\iounregisterfilesystem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoUnregisterFileSystem
+- IoUnregisterFileSystem
 product:
 - Windows
 targetos: Windows

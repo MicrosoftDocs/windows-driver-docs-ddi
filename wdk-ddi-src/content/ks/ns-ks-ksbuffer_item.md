@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_75
-title: KSBUFFER_ITEM
+title: KSBUFFER_ITEM (ks.h)
 description: The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksbuffer_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSBUFFER_ITEM
+- KSBUFFER_ITEM
 product:
 - Windows
 targetos: Windows

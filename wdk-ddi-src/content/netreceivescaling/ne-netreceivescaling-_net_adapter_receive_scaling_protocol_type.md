@@ -1,6 +1,6 @@
 ---
 UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
-title: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
+title: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE enumeration specifies the portion of received network data that a NIC must use to calculate an RSS hash value.
 tech.root: netvista
 ms.assetid: 4a22dc5e-257b-411e-aae8-9abd92143bc5
@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netreceivescaling.h
+api_name: 
+- _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

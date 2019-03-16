@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationResourceManager
-title: NtSetInformationResourceManager function
+title: NtSetInformationResourceManager function (wdm.h)
 description: The ZwSetInformationResourceManager routine is not used.
 old-location: kernel\zwsetinformationresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ZwSetInformationResourceManager
--	NtSetInformationResourceManager
+- ZwSetInformationResourceManager
+- NtSetInformationResourceManager
 product:
 - Windows
 targetos: Windows

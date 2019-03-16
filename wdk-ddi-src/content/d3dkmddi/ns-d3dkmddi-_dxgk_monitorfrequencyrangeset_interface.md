@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITORFREQUENCYRANGESET_INTERFACE
-title: "_DXGK_MONITORFREQUENCYRANGESET_INTERFACE"
+title: _DXGK_MONITORFREQUENCYRANGESET_INTERFACE (d3dkmddi.h)
 description: The DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure contains pointers to functions that belong to the Monitor Frequency Range Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitorfrequencyrangeset_interface.htm
 ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MONITORFREQUENCYRANGESET_INTERFACE
+- DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 product:
 - Windows
 targetos: Windows

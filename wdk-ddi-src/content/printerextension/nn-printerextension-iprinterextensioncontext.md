@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionContext
-title: IPrinterExtensionContext
+title: IPrinterExtensionContext (printerextension.h)
 description: Represents the context for the activation of a UWP device app for printers.
 old-location: print\iprinterextensioncontext_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionContext
+- IPrinterExtensionContext
 product:
 - Windows
 targetos: Windows

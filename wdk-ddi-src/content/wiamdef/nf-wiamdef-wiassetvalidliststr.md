@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListStr
-title: wiasSetValidListStr function
+title: wiasSetValidListStr function (wiamdef.h)
 description: The wiasSetValidListStr function sets the valid values for a WIA_PROP_LIST property of type VT_BSTR.
 old-location: image\wiassetvalidliststr.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetValidListStr
+- wiasSetValidListStr
 product:
 - Windows
 targetos: Windows

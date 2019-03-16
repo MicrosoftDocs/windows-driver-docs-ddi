@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenResource
-title: D3DKMTOpenResource function
+title: D3DKMTOpenResource function (d3dkmthk.h)
 description: The D3DKMTOpenResource function opens a shared resource.
 old-location: display\d3dkmtopenresource.htm
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-DX-D3DKmt-l1-1-0.dll
--	API-MS-Win-DX-D3DKmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-DX-D3DKmt-l1-1-0.dll
+- API-MS-Win-DX-D3DKmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenResource
+- D3DKMTOpenResource
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag2.GetReadStreamAsXML
-title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML
+title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML (printerextension.h)
 description: 
 old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptablePropertyBag2.GetReadStreamAsXML
+- IPrinterScriptablePropertyBag2.GetReadStreamAsXML
 product:
 - Windows
 targetos: Windows

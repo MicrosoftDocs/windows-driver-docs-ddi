@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_InitializeNewInterface
-title: USBCAMD_InitializeNewInterface function
+title: USBCAMD_InitializeNewInterface function (usbcamdi.h)
 description: The USBCAMD_InitializeNewInterface function provides USBCAMD with all the necessary information to configure the camera minidriver to work correctly with the stream class driver and the USB bus driver.
 old-location: stream\usbcamd_initializenewinterface.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_InitializeNewInterface
+- USBCAMD_InitializeNewInterface
 product:
 - Windows
 targetos: Windows

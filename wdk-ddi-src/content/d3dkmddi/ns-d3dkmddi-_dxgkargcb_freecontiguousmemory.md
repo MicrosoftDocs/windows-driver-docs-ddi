@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_FREECONTIGUOUSMEMORY
-title: _DXGKARGCB_FREECONTIGUOUSMEMORY
+title: _DXGKARGCB_FREECONTIGUOUSMEMORY (d3dkmddi.h)
 description:
 ms.assetid: ac1a2b6c-cd3d-4e3e-ad3d-e7e8b9904e8f
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_FREECONTIGUOUSMEMORY
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_FREECONTIGUOUSMEMORY
+- _DXGKARGCB_FREECONTIGUOUSMEMORY
 product: 
 - Windows
 targetos: Windows

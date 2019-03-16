@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeDeviceHeader
-title: KsFreeDeviceHeader function
+title: KsFreeDeviceHeader function (ks.h)
 description: The KsFreeDeviceHeader function cleans up and frees a previously allocated device header.
 old-location: stream\ksfreedeviceheader.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFreeDeviceHeader
+- KsFreeDeviceHeader
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoGetDefaultChildList
-title: WdfFdoGetDefaultChildList function
+title: WdfFdoGetDefaultChildList function (wdffdo.h)
 description: The WdfFdoGetDefaultChildList method returns a handle to a specified device's default child list.
 old-location: wdf\wdffdogetdefaultchildlist.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfFdoGetDefaultChildList
+- WdfFdoGetDefaultChildList
 product:
 - Windows
 targetos: Windows

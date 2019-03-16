@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_HS_SRV_CB
-title: PFND3D11DDI_STATE_HS_SRV_CB
+title: PFND3D11DDI_STATE_HS_SRV_CB (d3d10umddi.h)
 description: The pfnStateHsSrvCb function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the hull shader.
 old-location: display\pfnstatehssrvcb.htm
 ms.assetid: 93a0a6b2-6a1a-4cef-ad7e-c5b606d11c17
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateHsSrvCb
+- pfnStateHsSrvCb
 product:
 - Windows
 targetos: Windows

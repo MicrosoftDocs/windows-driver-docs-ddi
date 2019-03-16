@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRestoreFloatingPointState
-title: KeRestoreFloatingPointState function
+title: KeRestoreFloatingPointState function (wdm.h)
 description: The KeRestoreFloatingPointState routine restores the nonvolatile floating-point context saved by the preceding call to KeSaveFloatingPointState.
 old-location: kernel\kerestorefloatingpointstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRestoreFloatingPointState
+- KeRestoreFloatingPointState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadevd.tagDEVICEDIALOGDATA
-title: tagDEVICEDIALOGDATA
+title: tagDEVICEDIALOGDATA (wiadevd.h)
 description: The DEVICEDIALOGDATA structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadevd.h
+- wiadevd.h
 api_name:
--	DEVICEDIALOGDATA
+- DEVICEDIALOGDATA
 product:
 - Windows
 targetos: Windows

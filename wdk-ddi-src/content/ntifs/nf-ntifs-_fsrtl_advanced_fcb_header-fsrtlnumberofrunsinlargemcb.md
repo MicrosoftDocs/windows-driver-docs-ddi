@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNumberOfRunsInLargeMcb
-title: FsRtlNumberOfRunsInLargeMcb function
+title: FsRtlNumberOfRunsInLargeMcb function (ntifs.h)
 description: The FsRtlNumberOfRunsInLargeMcb routine returns the number of runs in a map control block (MCB).
 old-location: ifsk\fsrtlnumberofrunsinlargemcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlNumberOfRunsInLargeMcb
+- FsRtlNumberOfRunsInLargeMcb
 product:
 - Windows
 targetos: Windows

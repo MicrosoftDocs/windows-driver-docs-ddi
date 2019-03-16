@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
-title: "_FEATURE_DATA_CD_AUDIO_ANALOG_PLAY"
+title: _FEATURE_DATA_CD_AUDIO_ANALOG_PLAY (ntddmmc.h)
 description: The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD Audio External Play feature.
 old-location: storage\feature_data_cd_audio_analog_play.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
+- FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
 product:
 - Windows
 targetos: Windows

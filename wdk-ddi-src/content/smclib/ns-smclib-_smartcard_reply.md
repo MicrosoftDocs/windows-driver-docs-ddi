@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_REPLY
-title: "_SMARTCARD_REPLY"
+title: _SMARTCARD_REPLY (smclib.h)
 description: Describes the reply buffer received from the smart card.
 old-location: smartcrd\smartcard_reply.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	SMARTCARD_REPLY
+- SMARTCARD_REPLY
 product:
 - Windows
 targetos: Windows

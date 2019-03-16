@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_PROTOCOLSTATISTICS
-title: "_MS_SMHBA_PROTOCOLSTATISTICS"
+title: _MS_SMHBA_PROTOCOLSTATISTICS (hbapiwmi.h)
 description: The MS_SMHBA_PROTOCOLSTATISTICS structure is used to report protocol traffic statistics on a port.
 old-location: storage\ms_smhba_protocolstatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MS_SMHBA_PROTOCOLSTATISTICS
+- MS_SMHBA_PROTOCOLSTATISTICS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_OPERATION_PARAMETERS
-title: "_OB_POST_OPERATION_PARAMETERS"
+title: _OB_POST_OPERATION_PARAMETERS (wdm.h)
 description: The OB_POST_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_parameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	OB_POST_OPERATION_PARAMETERS
+- OB_POST_OPERATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

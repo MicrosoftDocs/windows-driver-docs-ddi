@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_USB_DEVICE_FUNCTION_POWER
-title: "_UDECX_USB_DEVICE_FUNCTION_POWER"
+title: _UDECX_USB_DEVICE_FUNCTION_POWER (udecxusbdevice.h)
 description: Defines values for function wake capability of a virtual USB 3.0 device.
 old-location: buses\udecx_usb_device_function_power.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_USB_DEVICE_FUNCTION_POWER
+- UDECX_USB_DEVICE_FUNCTION_POWER
 product:
 - Windows
 targetos: Windows

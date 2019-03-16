@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetTunnelModeOuterAddress_IN
-title: "_SetTunnelModeOuterAddress_IN"
+title: _SetTunnelModeOuterAddress_IN (iscsiop.h)
 description: The SetTunnelModeOuterAddress_IN structure holds the input data for the SetTunnelModeOuterAddress method.
 old-location: storage\settunnelmodeouteraddress_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SetTunnelModeOuterAddress_IN
+- SetTunnelModeOuterAddress_IN
 product:
 - Windows
 targetos: Windows

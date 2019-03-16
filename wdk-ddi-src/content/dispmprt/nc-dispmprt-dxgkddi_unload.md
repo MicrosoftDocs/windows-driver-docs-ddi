@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_UNLOAD
-title: DXGKDDI_UNLOAD
+title: DXGKDDI_UNLOAD (dispmprt.h)
 description: The DxgkDdiUnload function frees any resources allocated during execution of the display miniport driver's DriverEntry function.
 old-location: display\dxgkddiunload.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiUnload
+- DxgkDdiUnload
 product:
 - Windows
 targetos: Windows

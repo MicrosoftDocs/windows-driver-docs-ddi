@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNREFERENCEDEVICEOBJECT
-title: PFNREFERENCEDEVICEOBJECT
+title: PFNREFERENCEDEVICEOBJECT (ks.h)
 description: The driver can use this routine to increment the reference count of the PDO.
 old-location: stream\kstrreferencedeviceobject.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrReferenceDeviceObject
+- KStrReferenceDeviceObject
 product:
 - Windows
 targetos: Windows

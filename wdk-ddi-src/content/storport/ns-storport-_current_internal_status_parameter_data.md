@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (storport.h)
 description: 
 ms.assetid: e45c0938-b071-430f-9be4-63061a89ef89
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+- _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

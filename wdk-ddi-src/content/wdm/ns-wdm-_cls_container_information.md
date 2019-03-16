@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_CONTAINER_INFORMATION
-title: "_CLS_CONTAINER_INFORMATION"
+title: _CLS_CONTAINER_INFORMATION (wdm.h)
 description: The CLFS_CONTAINER_INFORMATION structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_container_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CLS_CONTAINER_INFORMATION
+- CLS_CONTAINER_INFORMATION
 product:
 - Windows
 targetos: Windows

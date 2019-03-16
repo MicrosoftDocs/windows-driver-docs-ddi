@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewDmaChannel
-title: PcNewDmaChannel function
+title: PcNewDmaChannel function (portcls.h)
 description: The PcNewDmaChannel function creates a new DMA-channel object. This function is obsolete; for more information, see the following comments.
 old-location: audio\pcnewdmachannel.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewDmaChannel
+- PcNewDmaChannel
 product:
 - Windows
 targetos: Windows

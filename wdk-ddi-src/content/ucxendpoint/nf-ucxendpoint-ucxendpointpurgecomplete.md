@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointPurgeComplete
-title: UcxEndpointPurgeComplete function
+title: UcxEndpointPurgeComplete function (ucxendpoint.h)
 description: Notifies UCX that a purge operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointpurgecomplete.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxEndpointPurgeComplete
+- UcxEndpointPurgeComplete
 product:
 - Windows
 targetos: Windows

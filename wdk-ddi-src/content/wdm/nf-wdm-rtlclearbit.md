@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlClearBit
-title: RtlClearBit function
+title: RtlClearBit function (wdm.h)
 description: The RtlClearBit routine sets the specified bit in a bitmap to zero.
 old-location: kernel\rtlclearbit.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlClearBit
+- RtlClearBit
 product:
 - Windows
 targetos: Windows

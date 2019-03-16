@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_NIT_RANGES
-title: DXGK_BRIGHTNESS_GET_NIT_RANGES
+title: DXGK_BRIGHTNESS_GET_NIT_RANGES (dispmprt.h)
 description: Implemented by the client driver to retrieve a list of supported nit ranges.
 ms.assetid: 8c36880d-c3e2-4aac-9904-5abf5cd0e6bc
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_GET_NIT_RANGES
+- DXGK_BRIGHTNESS_GET_NIT_RANGES
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_OPERATION_INFORMATION
-title: "_OB_POST_OPERATION_INFORMATION"
+title: _OB_POST_OPERATION_INFORMATION (wdm.h)
 description: The OB_POST_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	OB_POST_OPERATION_INFORMATION
+- OB_POST_OPERATION_INFORMATION
 product:
 - Windows
 targetos: Windows

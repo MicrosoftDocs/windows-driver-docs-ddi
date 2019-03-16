@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetBreakpointByIndex
-title: IDebugControl2::GetBreakpointByIndex
+title: IDebugControl2::GetBreakpointByIndex (dbgeng.h)
 description: The GetBreakpointByIndex method returns the breakpoint located at the specified index.
 old-location: debugger\getbreakpointbyindex.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetBreakpointByIndex
--	IDebugControl2.GetBreakpointByIndex
--	IDebugControl3.GetBreakpointByIndex
+- IDebugControl.GetBreakpointByIndex
+- IDebugControl2.GetBreakpointByIndex
+- IDebugControl3.GetBreakpointByIndex
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
+title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS (d3dkmthk.h)
 description: Multiplane overlay post composition flags.
 ms.assetid: ba9bc2c7-32e3-4158-96e2-53f0f86cbfcd
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
+- _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

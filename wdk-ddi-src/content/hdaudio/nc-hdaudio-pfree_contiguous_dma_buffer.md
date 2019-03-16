@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PFREE_CONTIGUOUS_DMA_BUFFER
-title: PFREE_CONTIGUOUS_DMA_BUFFER
+title: PFREE_CONTIGUOUS_DMA_BUFFER (hdaudio.h)
 description: The FreeContiguousDmaBuffer routine frees a DMA buffer and buffer descriptor list (BDL) that were allocated by a call to AllocateContiguousDmaBuffer.The function pointer type for a FreeContiguousDmaBuffer routine is defined as follows.
 old-location: audio\freecontiguousdmabuffer.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	FreeContiguousDmaBuffer
+- FreeContiguousDmaBuffer
 product:
 - Windows
 targetos: Windows

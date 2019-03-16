@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateSynchronizationObject
-title: D3DKMTCreateSynchronizationObject function
+title: D3DKMTCreateSynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTCreateSynchronizationObject function creates a kernel-mode synchronization object.
 old-location: display\d3dkmtcreatesynchronizationobject.htm
 ms.assetid: c91686dc-1c6a-4d21-84e8-fd8a2803ff4e
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTCreateSynchronizationObject
+- D3DKMTCreateSynchronizationObject
 product:
 - Windows
 targetos: Windows

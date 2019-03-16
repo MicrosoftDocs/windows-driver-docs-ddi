@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaDisplayableElement
-title: IPrintSchemaDisplayableElement
+title: IPrintSchemaDisplayableElement (printerextension.h)
 description: Provides the displayable string for a PrintCapabilites PrintSchema element.
 old-location: print\iprintschemadisplayableelement_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaDisplayableElement
+- IPrintSchemaDisplayableElement
 product:
 - Windows
 targetos: Windows

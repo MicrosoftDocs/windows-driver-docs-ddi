@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeInformation
-title: FltGetVolumeInformation function
+title: FltGetVolumeInformation function (fltkernel.h)
 description: The FltGetVolumeInformation routine provides information about a given volume.
 old-location: ifsk\fltgetvolumeinformation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetVolumeInformation
+- FltGetVolumeInformation
 product:
 - Windows
 targetos: Windows

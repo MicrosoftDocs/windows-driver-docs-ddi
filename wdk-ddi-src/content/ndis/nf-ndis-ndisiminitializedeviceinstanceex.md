@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIMInitializeDeviceInstanceEx
-title: NdisIMInitializeDeviceInstanceEx function
+title: NdisIMInitializeDeviceInstanceEx function (ndis.h)
 description: The NdisIMInitializeDeviceInstanceEx function initiates the initialization operation for a virtual miniport and optionally sets up state information about the virtual miniport for subsequently bound protocol drivers.
 old-location: netvista\ndisiminitializedeviceinstanceex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIMInitializeDeviceInstanceEx
+- NdisIMInitializeDeviceInstanceEx
 product:
 - Windows
 targetos: Windows

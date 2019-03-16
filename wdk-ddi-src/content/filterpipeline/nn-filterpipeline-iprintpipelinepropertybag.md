@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelinePropertyBag
-title: IPrintPipelinePropertyBag
+title: IPrintPipelinePropertyBag (filterpipeline.h)
 description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
 old-location: print\iprintpipelinepropertybag.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelinePropertyBag
+- IPrintPipelinePropertyBag
 product:
 - Windows
 targetos: Windows

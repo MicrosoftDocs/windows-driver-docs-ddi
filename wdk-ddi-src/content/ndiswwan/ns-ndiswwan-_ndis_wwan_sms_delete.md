@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_DELETE
-title: "_NDIS_WWAN_SMS_DELETE"
+title: _NDIS_WWAN_SMS_DELETE (ndiswwan.h)
 description: The NDIS_WWAN_SMS_DELETE structure represents an SMS message to delete.
 old-location: netvista\ndis_wwan_sms_delete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SMS_DELETE
+- NDIS_WWAN_SMS_DELETE
 product:
 - Windows
 targetos: Windows

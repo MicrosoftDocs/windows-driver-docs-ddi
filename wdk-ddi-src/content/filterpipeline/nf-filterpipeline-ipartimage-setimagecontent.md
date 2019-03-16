@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartImage.SetImageContent
-title: IPartImage::SetImageContent
+title: IPartImage::SetImageContent (filterpipeline.h)
 description: The SetImageContent method sets an image property that is based on the content type.
 old-location: print\ipartimage_setimagecontent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartImage.SetImageContent
+- IPartImage.SetImageContent
 product:
 - Windows
 targetos: Windows

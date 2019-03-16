@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._FAULT_INFORMATION_ARM64_TYPE
-title: _FAULT_INFORMATION_ARM64_TYPE
+title: _FAULT_INFORMATION_ARM64_TYPE (wdm.h)
 description: Defines values for the type of fault. 
 ms.assetid: a9fee055-614c-4122-a60b-8975d67e771e
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARM64_TYPE, *PFAULT_INFORMATION_ARM64_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_FAULT_INFORMATION_ARM64_TYPE
-product: Windows
+- _FAULT_INFORMATION_ARM64_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

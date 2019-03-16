@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._T0_DATA
-title: "_T0_DATA"
+title: _T0_DATA (smclib.h)
 description: The T0_DATA structure is used by the smart card driver library to process T0 I/O.
 old-location: smartcrd\t0_data.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	T0_DATA
+- T0_DATA
 product:
 - Windows
 targetos: Windows

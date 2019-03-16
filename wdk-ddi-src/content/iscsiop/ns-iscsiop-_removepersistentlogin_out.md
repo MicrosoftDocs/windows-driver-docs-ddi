@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemovePersistentLogin_OUT
-title: "_RemovePersistentLogin_OUT"
+title: _RemovePersistentLogin_OUT (iscsiop.h)
 description: The RemovePersistentLogin_OUT structure holds the output data for the RemovePersistentLogin method.
 old-location: storage\removepersistentlogin_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemovePersistentLogin_OUT
+- RemovePersistentLogin_OUT
 product:
 - Windows
 targetos: Windows

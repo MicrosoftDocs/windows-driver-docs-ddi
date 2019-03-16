@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_POWER_MANAGEMENT
-title: "_FEATURE_DATA_POWER_MANAGEMENT"
+title: _FEATURE_DATA_POWER_MANAGEMENT (ntddmmc.h)
 description: The FEATURE_DATA_POWER_MANAGEMENT structure holds information about the Power Management feature.
 old-location: storage\feature_data_power_management.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_POWER_MANAGEMENT
+- FEATURE_DATA_POWER_MANAGEMENT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_Debug_LogEntry
-title: USBCAMD_Debug_LogEntry function
+title: USBCAMD_Debug_LogEntry function (usbcamdi.h)
 description: The USBCAMD_Debug_LogEntry function is called by the camera minidriver to log debugging information to a file.
 old-location: stream\usbcamd_debug_logentry.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_Debug_LogEntry
+- USBCAMD_Debug_LogEntry
 product:
 - Windows
 targetos: Windows

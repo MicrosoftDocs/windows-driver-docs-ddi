@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetCurrentProcessorCpuUsage
-title: NdisGetCurrentProcessorCpuUsage function
+title: NdisGetCurrentProcessorCpuUsage function (ndis.h)
 description: The NdisGetCurrentProcessorCpuUsage function returns the average amount of activity on the current processor since boot as a percentage.Note  This function is deprecated.
 old-location: netvista\ndisgetcurrentprocessorcpuusage.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetCurrentProcessorCpuUsage
+- NdisGetCurrentProcessorCpuUsage
 product:
 - Windows
 targetos: Windows

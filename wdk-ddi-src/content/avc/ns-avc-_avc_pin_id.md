@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PIN_ID
-title: "_AVC_PIN_ID"
+title: _AVC_PIN_ID (avc.h)
 description: The AVC_PIN_ID structure describes a pin on a subunit.
 old-location: stream\avc_pin_id.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_PIN_ID
+- AVC_PIN_ID
 product:
 - Windows
 targetos: Windows

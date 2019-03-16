@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.WhyConstrained
-title: IPrintCoreHelperPS::WhyConstrained
+title: IPrintCoreHelperPS::WhyConstrained (prcomoem.h)
 description: The IPrintCoreHelperPS::WhyConstrained method provides a list of options that constrain the specified feature-option pair in the current configuration.
 old-location: print\iprintcorehelperps_whyconstrained.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperPS.WhyConstrained
+- IPrintCoreHelperPS.WhyConstrained
 product:
 - Windows
 targetos: Windows

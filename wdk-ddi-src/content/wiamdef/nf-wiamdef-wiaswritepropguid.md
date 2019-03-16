@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropGuid
-title: wiasWritePropGuid function
+title: wiasWritePropGuid function (wiamdef.h)
 description: The wiasWritePropGuid function writes a single GUID property value to a WIA item.
 old-location: image\wiaswritepropguid.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePropGuid
+- wiasWritePropGuid
 product:
 - Windows
 targetos: Windows

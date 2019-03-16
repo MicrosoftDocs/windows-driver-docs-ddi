@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB
-title: PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB
+title: PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB (d3d10umddi.h)
 description: The pfnDisableDeferredStagingResourceDestruction function disables the deferred destruction of staging resources.
 old-location: display\pfndisabledeferredstagingresourcedestruction.htm
 ms.assetid: f0328782-9b5b-44e6-ac58-7eb72685aa52
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnDisableDeferredStagingResourceDestruction
+- pfnDisableDeferredStagingResourceDestruction
 product:
 - Windows
 targetos: Windows

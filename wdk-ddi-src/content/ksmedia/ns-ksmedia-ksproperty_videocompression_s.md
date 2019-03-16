@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_145
-title: KSPROPERTY_VIDEOCOMPRESSION_S
+title: KSPROPERTY_VIDEOCOMPRESSION_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCOMPRESSION_S structure describes a single KSPROPERTY_VIDEOCOMPRESSION_Xxx property of a specified stream.
 old-location: stream\ksproperty_videocompression_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEOCOMPRESSION_S
+- KSPROPERTY_VIDEOCOMPRESSION_S
 product:
 - Windows
 targetos: Windows

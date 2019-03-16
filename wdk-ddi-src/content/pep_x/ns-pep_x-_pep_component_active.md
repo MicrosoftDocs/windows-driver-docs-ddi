@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_COMPONENT_ACTIVE
-title: "_PEP_COMPONENT_ACTIVE"
+title: _PEP_COMPONENT_ACTIVE (pep_x.h)
 description: The PEP_COMPONENT_ACTIVE structure identifies a component that is making a transition between the idle condition and the active condition.
 old-location: kernel\pep_component_active.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_COMPONENT_ACTIVE
+- PEP_COMPONENT_ACTIVE
 product:
 - Windows
 targetos: Windows

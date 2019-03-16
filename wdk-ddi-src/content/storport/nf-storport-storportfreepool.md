@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreePool
-title: StorPortFreePool function
+title: StorPortFreePool function (storport.h)
 description: The StorPortFreePool routine frees a block of memory that was previously allocated by a call to the StorPortAllocatePool routine.
 old-location: storage\storportfreepool.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortFreePool
+- StorPortFreePool
 product:
 - Windows
 targetos: Windows

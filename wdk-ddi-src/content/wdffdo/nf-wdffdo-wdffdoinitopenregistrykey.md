@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitOpenRegistryKey
-title: WdfFdoInitOpenRegistryKey function
+title: WdfFdoInitOpenRegistryKey function (wdffdo.h)
 description: The WdfFdoInitOpenRegistryKey method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdffdoinitopenregistrykey.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfFdoInitOpenRegistryKey
+- WdfFdoInitOpenRegistryKey
 product:
 - Windows
 targetos: Windows

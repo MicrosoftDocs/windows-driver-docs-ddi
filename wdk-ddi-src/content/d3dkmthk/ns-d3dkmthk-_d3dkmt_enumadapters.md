@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS
-title: "_D3DKMT_ENUMADAPTERS"
+title: _D3DKMT_ENUMADAPTERS (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 old-location: display\d3dkmt_enumadapters.htm
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_ENUMADAPTERS
+- D3DKMT_ENUMADAPTERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPSIZE
-title: tagKS_AMVPSIZE
+title: tagKS_AMVPSIZE (ksmedia.h)
 description: The KS_AMVPSIZE structure is used to describe the dimension of a video port (width by height).
 old-location: stream\ks_amvpsize.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMVPSIZE
+- KS_AMVPSIZE
 product:
 - Windows
 targetos: Windows

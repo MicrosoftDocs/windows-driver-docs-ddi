@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKREQUESTWORKER
-title: POFXCALLBACKREQUESTWORKER
+title: POFXCALLBACKREQUESTWORKER (pep_x.h)
 description: The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
 old-location: kernel\requestworker.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	RequestWorker
+- RequestWorker
 product:
 - Windows
 targetos: Windows

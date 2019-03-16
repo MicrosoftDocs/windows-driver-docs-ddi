@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_MEDIA_TYPES
-title: IOCTL_DISK_GET_MEDIA_TYPES
+title: IOCTL_DISK_GET_MEDIA_TYPES (ntdddisk.h)
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_GET_MEDIA_TYPES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_disk_get_media_types.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	IOCTL_DISK_GET_MEDIA_TYPES
+- IOCTL_DISK_GET_MEDIA_TYPES
 product:
 - Windows
 targetos: Windows

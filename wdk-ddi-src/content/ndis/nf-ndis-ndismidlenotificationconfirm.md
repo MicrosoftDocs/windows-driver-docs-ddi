@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMIdleNotificationConfirm
-title: NdisMIdleNotificationConfirm function
+title: NdisMIdleNotificationConfirm function (ndis.h)
 description: Miniport drivers call NdisMIdleNotificationConfirm to notify NDIS that the idle network adapter can safely be suspended and transitioned to a low-power state.Miniport drivers call this function during an NDIS selective suspend operation.
 old-location: netvista\ndismidlenotificationconfirm.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMIdleNotificationConfirm
+- NdisMIdleNotificationConfirm
 product:
 - Windows
 targetos: Windows

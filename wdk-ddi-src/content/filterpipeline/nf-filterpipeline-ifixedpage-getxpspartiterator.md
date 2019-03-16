@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetXpsPartIterator
-title: IFixedPage::GetXpsPartIterator
+title: IFixedPage::GetXpsPartIterator (filterpipeline.h)
 description: The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page.
 old-location: print\ifixedpage_getxpspartiterator.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage.GetXpsPartIterator
+- IFixedPage.GetXpsPartIterator
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
-title: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
+title: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 (d3d12umddi.h)
 description: Used to calculate the size of a video decoder heap.
 old-location: display\pfnd3d12ddi_calcprivatevideodecoderheapsize_0033.htm
 ms.assetid: 4E635513-690F-4C23-8B2B-1B5FCAFE7F07
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
+- PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
 product:
 - Windows
 targetos: Windows

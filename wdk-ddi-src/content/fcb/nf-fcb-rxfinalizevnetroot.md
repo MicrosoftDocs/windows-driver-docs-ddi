@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeVNetRoot
-title: RxFinalizeVNetRoot function
+title: RxFinalizeVNetRoot function (fcb.h)
 description: RxFinalizeVNetRoot finalizes the given V_NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizevnetroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxFinalizeVNetRoot
+- RxFinalizeVNetRoot
 product:
 - Windows
 targetos: Windows

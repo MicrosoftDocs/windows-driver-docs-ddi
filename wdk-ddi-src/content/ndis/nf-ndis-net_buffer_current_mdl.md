@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_CURRENT_MDL
-title: NET_BUFFER_CURRENT_MDL macro
+title: NET_BUFFER_CURRENT_MDL macro (ndis.h)
 description: NET_BUFFER_CURRENT_MDL is a macro that NDIS drivers use to get the CurrentMdl member of a NET_BUFFER_DATA structure in a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: 0413542c-5067-4226-94a7-16d79508f97d
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_CURRENT_MDL
+- NET_BUFFER_CURRENT_MDL
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

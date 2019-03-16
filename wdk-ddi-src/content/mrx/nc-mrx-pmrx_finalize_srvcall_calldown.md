@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_SRVCALL_CALLDOWN
-title: PMRX_FINALIZE_SRVCALL_CALLDOWN
+title: PMRX_FINALIZE_SRVCALL_CALLDOWN (mrx.h)
 description: The MRxFinalizeSrvCall routine is called by RDBSS to request that a network mini-redirector finalize an SRV_CALL structure.
 old-location: ifsk\mrxfinalizesrvcall.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxFinalizeSrvCall
+- MRxFinalizeSrvCall
 product:
 - Windows
 targetos: Windows

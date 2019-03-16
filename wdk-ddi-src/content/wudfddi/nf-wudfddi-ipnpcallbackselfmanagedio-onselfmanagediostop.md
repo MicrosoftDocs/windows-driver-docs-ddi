@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoStop (wudfddi.h)
 description: The OnSelfManagedIoStop method is not used in the current version of the UMDF.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediostop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
+- IPnpCallbackSelfManagedIo.OnSelfManagedIoStop
 product:
 - Windows
 targetos: Windows

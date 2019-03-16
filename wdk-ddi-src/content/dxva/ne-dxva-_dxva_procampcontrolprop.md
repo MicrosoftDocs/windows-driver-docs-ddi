@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_ProcAmpControlProp
-title: "_DXVA_ProcAmpControlProp"
+title: _DXVA_ProcAmpControlProp (dxva.h)
 description: The DXVA_ProcAmpControlProp enumeration is used to determine the required ProcAmp control adjustments.
 old-location: display\dxva_procampcontrolprop.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ProcAmpControlProp
+- DXVA_ProcAmpControlProp
 product:
 - Windows
 targetos: Windows

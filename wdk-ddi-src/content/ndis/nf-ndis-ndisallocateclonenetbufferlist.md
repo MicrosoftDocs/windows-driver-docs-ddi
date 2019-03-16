@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateCloneNetBufferList
-title: NdisAllocateCloneNetBufferList function
+title: NdisAllocateCloneNetBufferList function (ndis.h)
 description: Call the NdisAllocateCloneNetBufferList function to create a new clone NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocateclonenetbufferlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateCloneNetBufferList
+- NdisAllocateCloneNetBufferList
 product:
 - Windows
 targetos: Windows

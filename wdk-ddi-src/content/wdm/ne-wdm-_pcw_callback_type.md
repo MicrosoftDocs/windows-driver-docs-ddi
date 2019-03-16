@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._PCW_CALLBACK_TYPE
-title: "_PCW_CALLBACK_TYPE"
+title: _PCW_CALLBACK_TYPE (wdm.h)
 description: The PCW_CALLBACK_TYPE enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the PcwCallback function.
 old-location: devtest\pcw_callback_type.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_CALLBACK_TYPE
+- PCW_CALLBACK_TYPE
 product:
 - Windows
 targetos: Windows

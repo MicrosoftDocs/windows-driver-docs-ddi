@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SAR_CONFIG_INDICES
-title: _WWAN_SAR_CONFIG_INDICES
+title: _WWAN_SAR_CONFIG_INDICES (wwan.h)
 description: The WWAN_SAR_CONFIG_INDICES structure represents a Specific Absorption Rate (SAR) configuration for a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 67e70750-eb08-4acb-941c-b6919968b2a5
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_CONFIG_INDICES
+- _WWAN_SAR_CONFIG_INDICES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_union_0
-title: MIRACAST_CHUNK_ID
+title: MIRACAST_CHUNK_ID (netdispumdddi.h)
 description: Stores info that identifies a wireless display (Miracast) encode chunk.
 old-location: display\miracast_chunk_id.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_CHUNK_ID
+- MIRACAST_CHUNK_ID
 product:
 - Windows
 targetos: Windows

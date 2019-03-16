@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.TryToAcquireInterruptLock
-title: IWDFInterrupt::TryToAcquireInterruptLock
+title: IWDFInterrupt::TryToAcquireInterruptLock (wudfddi.h)
 description: The TryToAcquireInterruptLock method acquires the interrupt lock if no other thread has already acquired it.
 old-location: wdf\iwdfinterrupt_trytoacquireinterruptlock.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFInterrupt.TryToAcquireInterruptLock
+- IWDFInterrupt.TryToAcquireInterruptLock
 product:
 - Windows
 targetos: Windows

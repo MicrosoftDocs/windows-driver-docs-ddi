@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.GET_ISO_URB_SIZE
-title: GET_ISO_URB_SIZE macro
+title: GET_ISO_URB_SIZE macro (usbdlib.h)
 description: The GET_ISO_URB_SIZE macro returns the number of bytes required to hold an isochronous transfer request.
 old-location: buses\get_iso_urb_size.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	GET_ISO_URB_SIZE
+- GET_ISO_URB_SIZE
 product:
 - Windows
 targetos: Windows

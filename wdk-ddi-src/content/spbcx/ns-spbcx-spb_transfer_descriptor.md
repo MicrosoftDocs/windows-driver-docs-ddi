@@ -1,6 +1,6 @@
 ---
 UID: NS:spbcx.SPB_TRANSFER_DESCRIPTOR
-title: SPB_TRANSFER_DESCRIPTOR
+title: SPB_TRANSFER_DESCRIPTOR (spbcx.h)
 description: The SPB_TRANSFER_DESCRIPTOR structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_descriptor.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_TRANSFER_DESCRIPTOR
+- SPB_TRANSFER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

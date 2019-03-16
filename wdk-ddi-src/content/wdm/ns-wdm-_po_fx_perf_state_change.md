@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_PERF_STATE_CHANGE
-title: "_PO_FX_PERF_STATE_CHANGE"
+title: _PO_FX_PERF_STATE_CHANGE (wdm.h)
 description: The PO_FX_PERF_STATE_CHANGE structure contains information about a change to a performance state that is being requested by calling the PoFxIssueComponentPerfStateChange or PoFxIssueComponentPerfStateChangeMultiple routine.
 old-location: kernel\po_fx_perf_state_change.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PO_FX_PERF_STATE_CHANGE
+- PO_FX_PERF_STATE_CHANGE
 product:
 - Windows
 targetos: Windows

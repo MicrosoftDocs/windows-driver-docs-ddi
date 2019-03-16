@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFInterrupt
-title: IWDFInterrupt
+title: IWDFInterrupt (wudfddi.h)
 description: This interface exposes an interrupt object.
 old-location: wdf\iwdfinterrupt.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFInterrupt
+- IWDFInterrupt
 product:
 - Windows
 targetos: Windows

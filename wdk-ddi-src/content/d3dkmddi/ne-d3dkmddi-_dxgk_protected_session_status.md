@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PROTECTED_SESSION_STATUS
-title: "_DXGK_PROTECTED_SESSION_STATUS"
+title: _DXGK_PROTECTED_SESSION_STATUS (d3dkmddi.h)
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PROTECTED_SESSION_STATUS
+- DXGK_PROTECTED_SESSION_STATUS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:sercx._SERCX_STATUS
-title: "_SERCX_STATUS"
+title: _SERCX_STATUS (sercx.h)
 description: The SERCX_STATUS enumeration indicates the status of a serial receive or transmit operation.
 old-location: serports\sercx_status.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SERCX_STATUS
+- SERCX_STATUS
 product:
 - Windows
 targetos: Windows

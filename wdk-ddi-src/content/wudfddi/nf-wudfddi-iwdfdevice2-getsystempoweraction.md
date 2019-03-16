@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.GetSystemPowerAction
-title: IWDFDevice2::GetSystemPowerAction
+title: IWDFDevice2::GetSystemPowerAction (wudfddi.h)
 description: The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.
 old-location: wdf\iwdfdevice2_getsystempoweraction.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.GetSystemPowerAction
+- IWDFDevice2.GetSystemPowerAction
 product:
 - Windows
 targetos: Windows

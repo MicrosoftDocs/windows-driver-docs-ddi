@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsstructures.__unnamed_enum_0
-title: AXIS
+title: AXIS (sensorsstructures.h)
 description: Defines 3D coordinates.
 ms.assetid: cdac1a8d-304d-4f98-becf-6608d0d99154
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: AXIS, *PAXIS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	AXIS
+- AXIS
 product: 
 - Windows
 targetos: Windows

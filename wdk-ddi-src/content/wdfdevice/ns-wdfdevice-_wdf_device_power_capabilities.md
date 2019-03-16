@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_CAPABILITIES
-title: "_WDF_DEVICE_POWER_CAPABILITIES"
+title: _WDF_DEVICE_POWER_CAPABILITIES (wdfdevice.h)
 description: The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities.
 old-location: wdf\wdf_device_power_capabilities.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DEVICE_POWER_CAPABILITIES
+- WDF_DEVICE_POWER_CAPABILITIES
 product:
 - Windows
 targetos: Windows

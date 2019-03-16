@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_CHANNEL_HINT
-title: DOT11_CHANNEL_HINT
+title: DOT11_CHANNEL_HINT (windot11.h)
 description: The DOT11_CHANNEL_HINT structure describes suggested channel numbers for an NLO operation.
 old-location: netvista\dot11_channel_hint.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_CHANNEL_HINT
+- DOT11_CHANNEL_HINT
 product:
 - Windows
 targetos: Windows

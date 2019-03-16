@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_STOP_SENSOR
-title: EVT_SENSOR_DRIVER_STOP_SENSOR
+title: EVT_SENSOR_DRIVER_STOP_SENSOR (sensorscx.h)
 description: This callback function stops the sensor.
 old-location: sensors\evtsensorstop.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorStop
+- EvtSensorStop
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
-title: "_REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION"
+title: _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION (wdm.h)
 description: The REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure contains information that a driver's RegistryCallback routine can use to free resources that the driver previously allocated for the context that is associated with a registry object.
 old-location: kernel\reg_callback_context_cleanup_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
+- REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointCreate
-title: UfxEndpointCreate function
+title: UfxEndpointCreate function (ufxclient.h)
 description: Creates an endpoint object.
 old-location: buses\ufxendpointcreate.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxEndpointCreate
+- UfxEndpointCreate
 product:
 - Windows
 targetos: Windows

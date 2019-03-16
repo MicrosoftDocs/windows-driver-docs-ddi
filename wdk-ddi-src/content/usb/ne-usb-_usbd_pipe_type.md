@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USBD_PIPE_TYPE
-title: "_USBD_PIPE_TYPE"
+title: _USBD_PIPE_TYPE (usb.h)
 description: The USBD_PIPE_TYPE enumerator indicates the type of pipe.
 old-location: buses\usbd_pipe_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	USBD_PIPE_TYPE
+- USBD_PIPE_TYPE
 product:
 - Windows
 targetos: Windows
@@ -79,7 +79,7 @@ Indicates that the pipe is a interrupt pipe.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/#enumerations">USB Constants and Enumerations</a>
  
 
  

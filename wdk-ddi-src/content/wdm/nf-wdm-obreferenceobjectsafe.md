@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectSafe
-title: ObReferenceObjectSafe function
+title: ObReferenceObjectSafe function (wdm.h)
 description: The ObReferenceObjectSafe function increments the reference count for an object and determines if it is safe to use the object. It returns FALSE if the object is being deleted or TRUE if it's safe to use the object further.
 ms.assetid: a87d4714-9ecf-453c-a689-7eec6ac9ac10
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	ObReferenceObjectSafe
+- ObReferenceObjectSafe
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

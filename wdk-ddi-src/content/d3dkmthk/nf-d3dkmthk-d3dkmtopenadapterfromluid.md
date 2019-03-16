@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromLuid
-title: D3DKMTOpenAdapterFromLuid function
+title: D3DKMTOpenAdapterFromLuid function (d3dkmthk.h)
 description: Maps a locally unique identifier (LUID) to a graphics adapter handle.
 old-location: display\d3dkmtopenadapterfromluid.htm
 ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenAdapterFromLuid
+- D3DKMTOpenAdapterFromLuid
 product:
 - Windows
 targetos: Windows

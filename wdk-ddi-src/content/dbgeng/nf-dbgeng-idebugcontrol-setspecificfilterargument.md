@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetSpecificFilterArgument
-title: IDebugControl::SetSpecificFilterArgument
+title: IDebugControl::SetSpecificFilterArgument (dbgeng.h)
 description: The SetSpecificFilterArgument method sets the value of filter argument for the specific filters that can have an argument.
 old-location: debugger\setspecificfilterargument.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetSpecificFilterArgument
--	IDebugControl2.SetSpecificFilterArgument
--	IDebugControl3.SetSpecificFilterArgument
+- IDebugControl.SetSpecificFilterArgument
+- IDebugControl2.SetSpecificFilterArgument
+- IDebugControl3.SetSpecificFilterArgument
 product:
 - Windows
 targetos: Windows

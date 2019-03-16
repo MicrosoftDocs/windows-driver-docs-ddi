@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetValueCaps
-title: HidP_GetValueCaps function
+title: HidP_GetValueCaps function (hidpi.h)
 description: The HidP_GetValueCaps routine returns a value capability array that describes all the HID control values in a top-level collection for a specified type of HID report.
 old-location: hid\hidp_getvaluecaps.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetValueCaps
+- HidP_GetValueCaps
 product:
 - Windows
 targetos: Windows

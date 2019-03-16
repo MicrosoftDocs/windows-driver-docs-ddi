@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
-title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
+title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 (d3d12umddi.h)
 description: Describes input stream properties for the video processor.
 old-location: display\d3d12ddi_video_processor_input_stream_desc_0032.htm
 ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
+- D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 product:
 - Windows
 targetos: Windows

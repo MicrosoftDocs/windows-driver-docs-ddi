@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortMapMemory
-title: VideoPortMapMemory function
+title: VideoPortMapMemory function (video.h)
 description: The VideoPortMapMemory function maps a range of bus-relative physical addresses of video memory into system space or into the virtual address space of a user-mode process.
 old-location: display\videoportmapmemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortMapMemory
+- VideoPortMapMemory
 product:
 - Windows
 targetos: Windows

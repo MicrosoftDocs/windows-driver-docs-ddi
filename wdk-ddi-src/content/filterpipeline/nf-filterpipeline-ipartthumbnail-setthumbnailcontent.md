@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartThumbnail.SetThumbnailContent
-title: IPartThumbnail::SetThumbnailContent
+title: IPartThumbnail::SetThumbnailContent (filterpipeline.h)
 description: The SetThumbnailContent method sets the thumbnail content for the part.
 old-location: print\ipartthumbnail_setthumbnailcontent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartThumbnail.SetThumbnailContent
+- IPartThumbnail.SetThumbnailContent
 product:
 - Windows
 targetos: Windows

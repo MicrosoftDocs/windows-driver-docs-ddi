@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteVolumeContext
-title: FltDeleteVolumeContext function
+title: FltDeleteVolumeContext function (fltkernel.h)
 description: FltDeleteVolumeContext removes a context that a given minifilter driver has set for a given volume and marks the context for deletion.
 old-location: ifsk\fltdeletevolumecontext.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltDeleteVolumeContext
+- FltDeleteVolumeContext
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RESOURCEBARRIER_0022
-title: PFND3D12DDI_RESOURCEBARRIER_0022
+title: PFND3D12DDI_RESOURCEBARRIER_0022 (d3d12umddi.h)
 description: The pfnResourceBarrier callback function supports resource barriers.
 old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnResourceBarrier
+- pfnResourceBarrier
 product:
 - Windows
 targetos: Windows

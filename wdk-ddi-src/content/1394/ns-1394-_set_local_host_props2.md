@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SET_LOCAL_HOST_PROPS2
-title: "_SET_LOCAL_HOST_PROPS2"
+title: _SET_LOCAL_HOST_PROPS2 (1394.h)
 description: SET_LOCAL_HOST_PROPS2 sets a lower bound on the value the bus will use for its gap count.
 old-location: ieee\set_local_host_props2.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	SET_LOCAL_HOST_PROPS2
+- SET_LOCAL_HOST_PROPS2
 product:
 - Windows
 targetos: Windows

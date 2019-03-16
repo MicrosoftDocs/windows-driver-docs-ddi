@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.GetLocation
-title: IDebugHostPublic::GetLocation
+title: IDebugHostPublic::GetLocation (dbgmodel.h)
 description: For data which has an address, the GetLocation method will return the abstract location (address) of the field. 
 ms.assetid: 2fdcd129-67da-49e9-91cc-118df3370a5d
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostPublic.GetLocation
-product: Windows
+- IDebugHostPublic.GetLocation
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.AttachKernel
-title: IDebugClient2::AttachKernel
+title: IDebugClient2::AttachKernel (dbgeng.h)
 description: The AttachKernel methods connect the debugger engine to a kernel target.
 old-location: debugger\attachkernel.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.AttachKernel
--	IDebugClient2.AttachKernel
--	IDebugClient3.AttachKernel
--	IDebugClient4.AttachKernel
--	IDebugClient5.AttachKernel
+- IDebugClient.AttachKernel
+- IDebugClient2.AttachKernel
+- IDebugClient3.AttachKernel
+- IDebugClient4.AttachKernel
+- IDebugClient5.AttachKernel
 product:
 - Windows
 targetos: Windows

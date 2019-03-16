@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeCancelTimer
-title: KeCancelTimer function
+title: KeCancelTimer function (wdm.h)
 description: The KeCancelTimer routine dequeues a timer object before the timer interval, if any was set, expires.
 old-location: kernel\kecanceltimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeCancelTimer
+- KeCancelTimer
 product:
 - Windows
 targetos: Windows

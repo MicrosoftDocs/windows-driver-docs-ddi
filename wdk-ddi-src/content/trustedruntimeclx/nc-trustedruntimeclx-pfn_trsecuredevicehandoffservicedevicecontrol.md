@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
-title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
+title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL (trustedruntimeclx.h)
 description: 
 ms.assetid: 554690bc-e0aa-411a-9168-40ea01012d88
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
+- PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

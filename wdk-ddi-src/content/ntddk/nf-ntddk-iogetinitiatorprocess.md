@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetInitiatorProcess
-title: IoGetInitiatorProcess function
+title: IoGetInitiatorProcess function (ntddk.h)
 description: The IoGetInitiatorProcess routine retrieves the process which initiated the creation of a file object if different than the process which is issuing the create.
 old-location: kernel\iogetinitiatorprocess.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetInitiatorProcess
+- IoGetInitiatorProcess
 product:
 - Windows
 targetos: Windows

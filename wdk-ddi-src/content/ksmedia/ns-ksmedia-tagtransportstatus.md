@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTSTATUS
-title: tagTRANSPORTSTATUS
+title: tagTRANSPORTSTATUS (ksmedia.h)
 description: The TRANSPORTSTATUS structure describes the current transport status.
 old-location: stream\transportstatus.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TRANSPORTSTATUS
+- TRANSPORTSTATUS
 product:
 - Windows
 targetos: Windows

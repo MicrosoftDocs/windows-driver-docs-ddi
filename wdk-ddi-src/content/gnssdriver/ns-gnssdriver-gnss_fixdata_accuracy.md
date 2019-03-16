@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_11
-title: GNSS_FIXDATA_ACCURACY
+title: GNSS_FIXDATA_ACCURACY (gnssdriver.h)
 description: This structure defines the accuracy details of a fix.
 old-location: gnss\gnss_fixdata_accuracy.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_FIXDATA_ACCURACY
+- GNSS_FIXDATA_ACCURACY
 product:
 - Windows
 targetos: Windows

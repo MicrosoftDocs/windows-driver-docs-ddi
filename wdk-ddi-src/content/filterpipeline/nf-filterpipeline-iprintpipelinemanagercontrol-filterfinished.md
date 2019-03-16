@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.FilterFinished
-title: IPrintPipelineManagerControl::FilterFinished
+title: IPrintPipelineManagerControl::FilterFinished (filterpipeline.h)
 description: The FilterFinished method reports that a filter is finished processing.
 old-location: print\iprintpipelinemanagercontrol_filterfinished.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPrintPipelineManagerControl.FilterFinished
+- IPrintPipelineManagerControl.FilterFinished
 product:
 - Windows
 targetos: Windows

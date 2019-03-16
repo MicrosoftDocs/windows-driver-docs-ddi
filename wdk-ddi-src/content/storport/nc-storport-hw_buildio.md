@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_BUILDIO
-title: HW_BUILDIO
+title: HW_BUILDIO (storport.h)
 description: The HwStorBuildIo routine processes the SRB with unsynchronized access to shared system data structures before passing it to HwStorStartIo.
 old-location: storage\hwstorbuildio.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorBuildIo
+- HwStorBuildIo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_WAIT_FOR_CHANNEL
-title: IOCTL_DOT4_WAIT_FOR_CHANNEL
+title: IOCTL_DOT4_WAIT_FOR_CHANNEL (d4drvif.h)
 description: This topic describes IOCTL_DOT4_WAIT_FOR_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_wait_for_channel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	IOCTL_DOT4_WAIT_FOR_CHANNEL
+- IOCTL_DOT4_WAIT_FOR_CHANNEL
 product:
 - Windows
 targetos: Windows

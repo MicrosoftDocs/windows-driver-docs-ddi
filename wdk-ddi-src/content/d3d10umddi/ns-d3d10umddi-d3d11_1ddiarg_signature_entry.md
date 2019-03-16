@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_SIGNATURE_ENTRY
-title: D3D11_1DDIARG_SIGNATURE_ENTRY
+title: D3D11_1DDIARG_SIGNATURE_ENTRY (d3d10umddi.h)
 description: Describes an entry for a signature.
 old-location: display\d3d11_1ddiarg_signature_entry.htm
 ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDIARG_SIGNATURE_ENTRY
+- D3D11_1DDIARG_SIGNATURE_ENTRY
 product:
 - Windows
 targetos: Windows

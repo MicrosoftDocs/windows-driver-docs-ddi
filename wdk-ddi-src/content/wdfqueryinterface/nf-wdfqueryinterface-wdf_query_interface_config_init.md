@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfqueryinterface.WDF_QUERY_INTERFACE_CONFIG_INIT
-title: WDF_QUERY_INTERFACE_CONFIG_INIT function
+title: WDF_QUERY_INTERFACE_CONFIG_INIT function (wdfqueryinterface.h)
 description: The WDF_QUERY_INTERFACE_CONFIG_INIT function initializes a driver's WDF_QUERY_INTERFACE_CONFIG structure.
 old-location: wdf\wdf_query_interface_config_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfqueryinterface.h
+- Wdfqueryinterface.h
 api_name:
--	WDF_QUERY_INTERFACE_CONFIG_INIT
+- WDF_QUERY_INTERFACE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

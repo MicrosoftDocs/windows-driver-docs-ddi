@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwWriteFile
-title: ZwWriteFile function
+title: ZwWriteFile function (wdm.h)
 description: The ZwWriteFile routine writes data to an open file.
 old-location: kernel\zwwritefile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwWriteFile
--	NtWriteFile
+- ZwWriteFile
+- NtWriteFile
 product:
 - Windows
 targetos: Windows

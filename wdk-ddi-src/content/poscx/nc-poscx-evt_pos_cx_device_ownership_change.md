@@ -1,6 +1,6 @@
 ---
 UID: NC:poscx.EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE
-title: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE
+title: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE (poscx.h)
 description: The EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback is called during the API claim ownership transition. The driver is expected to set the device back to a default state in this routine.
 old-location: pos\evt_pos_cx_device_ownership_change.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	EvtPosCxDeviceOwnershipChange
+- EvtPosCxDeviceOwnershipChange
 product:
 - Windows
 targetos: Windows

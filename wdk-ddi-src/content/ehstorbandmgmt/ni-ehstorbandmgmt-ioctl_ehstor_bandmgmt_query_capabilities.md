@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
-title: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
+title: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES (ehstorbandmgmt.h)
 description: The IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a BAND_MANAGEMENT_CAPABILITIES structure in the system buffer.
 old-location: storage\ioctl_ehstor_bandmgmt_query_capabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
+- IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
 product:
 - Windows
 targetos: Windows

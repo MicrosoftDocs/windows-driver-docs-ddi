@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BUDGETCHANGENOTIFICATION
-title: _D3DKMT_BUDGETCHANGENOTIFICATION
+title: _D3DKMT_BUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: Arguments used to create a budget change notification.
 ms.assetid: 3ae29775-2cc2-44af-8d11-a8b06fc5122e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_BUDGETCHANGENOTIFICATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_BUDGETCHANGENOTIFICATION
+- _D3DKMT_BUDGETCHANGENOTIFICATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

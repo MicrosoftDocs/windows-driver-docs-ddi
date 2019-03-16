@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetTransferInfo
-title: WdfDmaTransactionGetTransferInfo function
+title: WdfDmaTransactionGetTransferInfo function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetTransferInfo method returns the number of map registers and scatter/gather list entries required for an initialized DMA transaction.
 old-location: wdf\wdfdmatransactiongettransferinfo.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionGetTransferInfo
+- WdfDmaTransactionGetTransferInfo
 product:
 - Windows
 targetos: Windows

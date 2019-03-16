@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_EXTENDED_FLOW_SPEC
-title: "_L2CAP_EXTENDED_FLOW_SPEC"
+title: _L2CAP_EXTENDED_FLOW_SPEC (bthddi.h)
 description: The L2CAP_EXTENDED_FLOW_SPEC is reserved for future use.
 old-location: bltooth\l2cap_extended_flow_spec.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthddi.h
+- Bthddi.h
 api_name:
--	L2CAP_EXTENDED_FLOW_SPEC
+- L2CAP_EXTENDED_FLOW_SPEC
 product:
 - Windows
 targetos: Windows

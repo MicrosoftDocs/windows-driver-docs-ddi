@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_CREATE_VC
-title: PROTOCOL_CO_CREATE_VC
+title: PROTOCOL_CO_CREATE_VC (ndis.h)
 description: The ProtocolCoCreateVc function is a required function that allocates resources necessary for a call manager or client to activate and maintain a virtual connection (VC).Note  You must declare the function by using the PROTOCOL_CO_CREATE_VC type.
 old-location: netvista\protocolcocreatevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoCreateVc
+- ProtocolCoCreateVc
 product:
 - Windows
 targetos: Windows

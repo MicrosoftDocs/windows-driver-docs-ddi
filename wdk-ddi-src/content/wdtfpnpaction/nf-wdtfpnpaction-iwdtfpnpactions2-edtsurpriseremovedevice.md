@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTSurpriseRemoveDevice
-title: IWDTFPNPActions2::EDTSurpriseRemoveDevice
+title: IWDTFPNPActions2::EDTSurpriseRemoveDevice (wdtfpnpaction.h)
 description: Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtsurpriseremovedevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfpnpaction.h
+- wdtfpnpaction.h
 api_name:
--	IWDTFPNPActions2.EDTSurpriseRemoveDevice
+- IWDTFPNPActions2.EDTSurpriseRemoveDevice
 product:
 - Windows
 targetos: Windows

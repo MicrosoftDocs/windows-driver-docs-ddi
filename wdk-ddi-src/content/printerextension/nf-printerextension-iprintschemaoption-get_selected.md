@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Selected
-title: IPrintSchemaOption::get_Selected
+title: IPrintSchemaOption::get_Selected (printerextension.h)
 description: Indicates whether this option is selected.
 old-location: print\iprintschemaoption_selected.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaOption.Selected
--	IPrintSchemaOption.get_Selected
+- IPrintSchemaOption.Selected
+- IPrintSchemaOption.get_Selected
 product:
 - Windows
 targetos: Windows

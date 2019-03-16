@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
-title: D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
+title: D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020 (d3d12umddi.h)
 description: Contains video decode configuration flags.
 old-location: display\d3d12ddi_video_decode_configuration_flags.htm
 ms.assetid: 33BD5E1F-75F3-44DC-AE83-A22992CAB6B5
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
+- D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
 product:
 - Windows
 targetos: Windows

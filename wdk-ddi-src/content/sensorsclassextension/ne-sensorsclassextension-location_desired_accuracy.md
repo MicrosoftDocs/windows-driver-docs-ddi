@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsclassextension.LOCATION_DESIRED_ACCURACY
-title: LOCATION_DESIRED_ACCURACY
+title: LOCATION_DESIRED_ACCURACY (sensorsclassextension.h)
 description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
 old-location: sensors\location_desired_accuracy.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsClassExtension.h
+- SensorsClassExtension.h
 api_name:
--	LOCATION_DESIRED_ACCURACY
+- LOCATION_DESIRED_ACCURACY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_SHARED_MEM_FLAGS
-title: NET_BUFFER_SHARED_MEM_FLAGS macro
+title: NET_BUFFER_SHARED_MEM_FLAGS macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_FLAGS macro gets the shared memory flags from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
 ms.assetid: cf98dfad-0db3-414a-811a-61a29ee6fe15
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_SHARED_MEM_FLAGS
+- NET_BUFFER_SHARED_MEM_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

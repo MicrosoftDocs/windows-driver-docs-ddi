@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_RESIZE_CQ
-title: NDK_FN_RESIZE_CQ
+title: NDK_FN_RESIZE_CQ (ndkpi.h)
 description: The NdkResizeCq (NDK_FN_RESIZE_CQ) function changes the size of an NDK completion queue (CQ).
 old-location: netvista\ndk_fn_resize_cq.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkResizeCq
+- NdkResizeCq
 product:
 - Windows
 targetos: Windows

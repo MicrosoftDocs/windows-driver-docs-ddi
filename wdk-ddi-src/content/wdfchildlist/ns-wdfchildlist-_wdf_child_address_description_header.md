@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
-title: "_WDF_CHILD_ADDRESS_DESCRIPTION_HEADER"
+title: _WDF_CHILD_ADDRESS_DESCRIPTION_HEADER (wdfchildlist.h)
 description: The WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure is a header structure that must be the first member of every address description structure.
 old-location: wdf\wdf_child_address_description_header.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfchildlist.h
+- wdfchildlist.h
 api_name:
--	WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
+- WDF_CHILD_ADDRESS_DESCRIPTION_HEADER
 product:
 - Windows
 targetos: Windows

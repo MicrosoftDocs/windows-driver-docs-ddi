@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaElement
-title: IPrintSchemaElement
+title: IPrintSchemaElement (printerextension.h)
 description: Provides access to the underlying XML node and &#0034;name&#0034; attribute information for a Print Schema element.
 old-location: print\iprintschemaelement_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaElement
+- IPrintSchemaElement
 product:
 - Windows
 targetos: Windows

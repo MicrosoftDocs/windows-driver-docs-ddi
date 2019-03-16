@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheCreateEntry
-title: RxNameCacheCreateEntry function
+title: RxNameCacheCreateEntry function (namcache.h)
 description: RxNameCacheCreateEntry allocates and initializes a NAME_CACHE structure with the given name string.
 old-location: ifsk\rxnamecachecreateentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheCreateEntry
+- RxNameCacheCreateEntry
 product:
 - Windows
 targetos: Windows

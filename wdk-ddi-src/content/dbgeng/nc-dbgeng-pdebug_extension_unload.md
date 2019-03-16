@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_UNLOAD
-title: PDEBUG_EXTENSION_UNLOAD
+title: PDEBUG_EXTENSION_UNLOAD (dbgeng.h)
 description: The DebugExtensionUnload callback function unloads the debug extension.
 old-location: debugger\debugextensionunload.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	DebugExtensionUnload
+- DebugExtensionUnload
 product:
 - Windows
 targetos: Windows

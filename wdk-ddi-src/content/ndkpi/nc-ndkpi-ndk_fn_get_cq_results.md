@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_CQ_RESULTS
-title: NDK_FN_GET_CQ_RESULTS
+title: NDK_FN_GET_CQ_RESULTS (ndkpi.h)
 description: The NdkGetCqResults (NDK_FN_GET_CQ_RESULTS) function removes completions from an NDK completion queue (CQ) object.
 old-location: netvista\ndk_fn_get_cq_results.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkGetCqResults
+- NdkGetCqResults
 product:
 - Windows
 targetos: Windows

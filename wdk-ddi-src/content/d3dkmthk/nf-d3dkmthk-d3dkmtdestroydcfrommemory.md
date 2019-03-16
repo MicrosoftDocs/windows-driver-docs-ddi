@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyDCFromMemory
-title: D3DKMTDestroyDCFromMemory function
+title: D3DKMTDestroyDCFromMemory function (d3dkmthk.h)
 description: The D3DKMTDestroyDCFromMemory function releases the display context.
 old-location: display\d3dkmtdestroydcfrommemory.htm
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroyDCFromMemory
+- D3DKMTDestroyDCFromMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue
-title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue
+title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue (portabledevicetypes.h)
 description: Retrieves an IPortableDevicePropVariantCollection value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicepropvariantcollectionvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue
+- IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

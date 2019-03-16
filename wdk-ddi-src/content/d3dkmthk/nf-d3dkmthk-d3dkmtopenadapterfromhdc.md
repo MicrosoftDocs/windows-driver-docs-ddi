@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromHdc
-title: D3DKMTOpenAdapterFromHdc function
+title: D3DKMTOpenAdapterFromHdc function (d3dkmthk.h)
 description: The D3DKMTOpenAdapterFromHdc function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromhdc.htm
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenAdapterFromHdc
+- D3DKMTOpenAdapterFromHdc
 product:
 - Windows
 targetos: Windows
@@ -86,6 +86,7 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -remarks
 
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
+Use the [D3DKMTCloseAdapter](nf-d3dkmthk-d3dkmtcloseadapter) function to avoid resource leaks.
 
 #### Examples
 

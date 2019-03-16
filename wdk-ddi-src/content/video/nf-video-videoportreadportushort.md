@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortUshort
-title: VideoPortReadPortUshort function
+title: VideoPortReadPortUshort function (video.h)
 description: The VideoPortReadPortUshort function reads a USHORT value from a mapped I/O port.
 old-location: display\videoportreadportushort.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadPortUshort
+- VideoPortReadPortUshort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlTruncateMcb
-title: FsRtlTruncateMcb function
+title: FsRtlTruncateMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtltruncatemcb.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlTruncateMcb
+- FsRtlTruncateMcb
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

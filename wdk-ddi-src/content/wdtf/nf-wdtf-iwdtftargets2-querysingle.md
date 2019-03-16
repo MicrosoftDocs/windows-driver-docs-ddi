@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.QuerySingle
-title: IWDTFTargets2::QuerySingle
+title: IWDTFTargets2::QuerySingle (wdtf.h)
 description: Returns a single item from the collection.
 old-location: dtf\iwdtftargets2_querysingle.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.QuerySingle
+- IWDTFTargets2.QuerySingle
 product:
 - Windows
 targetos: Windows

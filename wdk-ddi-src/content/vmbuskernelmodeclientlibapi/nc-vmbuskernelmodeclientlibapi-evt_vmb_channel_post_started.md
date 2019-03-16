@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_POST_STARTED
-title: EVT_VMB_CHANNEL_POST_STARTED
+title: EVT_VMB_CHANNEL_POST_STARTED (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelPostStarted callback function is invoked at either endpoint after packets can be received from the opposite endpoint.
 old-location: netvista\evt_vmb_channel_post_started.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	VmbusKernelModeClientLibApi.h
+- VmbusKernelModeClientLibApi.h
 api_name:
--	PFN_VMB_CHANNEL_POST_STARTED
+- PFN_VMB_CHANNEL_POST_STARTED
 product:
 - Windows
 targetos: Windows

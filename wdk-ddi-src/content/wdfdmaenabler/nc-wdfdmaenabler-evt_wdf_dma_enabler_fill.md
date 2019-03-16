@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_FILL
-title: EVT_WDF_DMA_ENABLER_FILL
+title: EVT_WDF_DMA_ENABLER_FILL (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerFill event callback function allocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerfill.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaEnabler.h
+- WdfDmaEnabler.h
 api_name:
--	EvtDmaEnablerFill
+- EvtDmaEnablerFill
 product:
 - Windows
 targetos: Windows

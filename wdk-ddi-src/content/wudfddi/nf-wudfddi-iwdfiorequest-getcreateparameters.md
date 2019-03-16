@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetCreateParameters
-title: IWDFIoRequest::GetCreateParameters
+title: IWDFIoRequest::GetCreateParameters (wudfddi.h)
 description: The GetCreateParameters method retrieves the request parameters for a create-type request.
 old-location: wdf\iwdfiorequest_getcreateparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetCreateParameters
+- IWDFIoRequest.GetCreateParameters
 product:
 - Windows
 targetos: Windows

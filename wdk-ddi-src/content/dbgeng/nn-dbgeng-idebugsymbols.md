@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbols
-title: IDebugSymbols
+title: IDebugSymbols (dbgeng.h)
 description: IDebugSymbols interface
 old-location: debugger\idebugsymbols.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols
+- IDebugSymbols
 product:
 - Windows
 targetos: Windows

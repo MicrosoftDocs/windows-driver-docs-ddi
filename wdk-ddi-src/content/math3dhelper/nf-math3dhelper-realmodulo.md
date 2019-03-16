@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.RealModulo
-title: RealModulo function
+title: RealModulo function (math3dhelper.h)
 description: Calculates the modular value between x and y.
 ms.assetid: 2633cb26-ad11-4af4-8a79-9ee3b4628d68
 ms.date: 08/01/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	RealModulo
+- RealModulo
 product: 
 - Windows
 targetos: Windows

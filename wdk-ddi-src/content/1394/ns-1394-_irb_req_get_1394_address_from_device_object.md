@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
-title: "_IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT"
+title: _IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT (1394.h)
 description: This structure contains the fields necessary to carry out a Get1394AddressFromDeviceObject request.
 old-location: ieee\irb_req_get_1394_address_from_device_object.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
+- IRB_REQ_GET_1394_ADDRESS_FROM_DEVICE_OBJECT
 product:
 - Windows
 targetos: Windows

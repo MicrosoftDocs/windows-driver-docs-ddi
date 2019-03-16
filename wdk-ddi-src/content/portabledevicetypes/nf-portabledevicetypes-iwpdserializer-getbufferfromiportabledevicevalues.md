@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.GetBufferFromIPortableDeviceValues
-title: IWpdSerializer::GetBufferFromIPortableDeviceValues
+title: IWpdSerializer::GetBufferFromIPortableDeviceValues (portabledevicetypes.h)
 description: Serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
 old-location: wpddk\iwpdserializer_getbufferfromiportabledevicevalues.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IWpdSerializer.GetBufferFromIPortableDeviceValues
+- IWpdSerializer.GetBufferFromIPortableDeviceValues
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

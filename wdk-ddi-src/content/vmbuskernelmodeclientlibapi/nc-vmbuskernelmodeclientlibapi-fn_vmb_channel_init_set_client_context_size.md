@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE
-title: FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE
+title: FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelInitSetClientContextSize function sets the size of the optional context area allocated for the client driver on each incoming packet.
 tech.root: netvista
 ms.assetid: 6bf397fd-8c16-4bea-abed-9d1b71c3e66b
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE
+- FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

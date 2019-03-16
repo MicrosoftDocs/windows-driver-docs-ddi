@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPortAttributesByWWN_IN
-title: "_GetPortAttributesByWWN_IN"
+title: _GetPortAttributesByWWN_IN (hbapiwmi.h)
 description: The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the GetPortAttributesByWWN WMI method.
 old-location: storage\getportattributesbywwn_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetPortAttributesByWWN_IN
+- GetPortAttributesByWWN_IN
 product:
 - Windows
 targetos: Windows

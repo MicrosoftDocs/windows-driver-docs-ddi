@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackReleaseKeyObjectIDEx
-title: CmCallbackReleaseKeyObjectIDEx function
+title: CmCallbackReleaseKeyObjectIDEx function (wdm.h)
 description: The CmCallbackReleaseKeyObjectIDEx routine frees an object name string obtained from the CmCallbackGetKeyObjectIDEx routine.
 old-location: kernel\cmcallbackreleasekeyobjectidex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmCallbackReleaseKeyObjectIDEx
+- CmCallbackReleaseKeyObjectIDEx
 product:
 - Windows
 targetos: Windows

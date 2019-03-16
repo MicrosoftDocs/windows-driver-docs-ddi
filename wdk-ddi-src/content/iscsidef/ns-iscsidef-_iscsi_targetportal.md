@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_TargetPortal
-title: "_ISCSI_TargetPortal"
+title: _ISCSI_TargetPortal (iscsidef.h)
 description: The ISCSI_TargetPortal structure provides a definition of a target portal.
 old-location: storage\iscsi_targetportal.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_TargetPortal
+- ISCSI_TargetPortal
 product:
 - Windows
 targetos: Windows

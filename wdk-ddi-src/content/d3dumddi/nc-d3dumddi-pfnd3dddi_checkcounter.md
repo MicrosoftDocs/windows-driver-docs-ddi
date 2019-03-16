@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CHECKCOUNTER
-title: PFND3DDDI_CHECKCOUNTER
+title: PFND3DDDI_CHECKCOUNTER (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfncheckcounter.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	pfnCheckCounter
+- pfnCheckCounter
 product:
 - Windows
 targetos: Windows

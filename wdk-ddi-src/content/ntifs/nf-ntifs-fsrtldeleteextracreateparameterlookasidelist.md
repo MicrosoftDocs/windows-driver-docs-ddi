@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlDeleteExtraCreateParameterLookasideList
-title: FsRtlDeleteExtraCreateParameterLookasideList function
+title: FsRtlDeleteExtraCreateParameterLookasideList function (ntifs.h)
 description: The FsRtlDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fsrtldeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlDeleteExtraCreateParameterLookasideList
+- FsRtlDeleteExtraCreateParameterLookasideList
 product:
 - Windows
 targetos: Windows

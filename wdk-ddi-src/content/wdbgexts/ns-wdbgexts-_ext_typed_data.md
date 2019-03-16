@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._EXT_TYPED_DATA
-title: "_EXT_TYPED_DATA"
+title: _EXT_TYPED_DATA (wdbgexts.h)
 description: The EXT_TYPED_DATA structure is passed to and returned from the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 old-location: debugger\ext_typed_data.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	EXT_TYPED_DATA
+- EXT_TYPED_DATA
 product:
 - Windows
 targetos: Windows

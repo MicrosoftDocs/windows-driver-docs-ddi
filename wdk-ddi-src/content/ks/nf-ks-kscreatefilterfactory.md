@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateFilterFactory
-title: KsCreateFilterFactory function
+title: KsCreateFilterFactory function (ks.h)
 description: The KsCreateFilterFactory function adds a filter factory to a given device.
 old-location: stream\kscreatefilterfactory.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsCreateFilterFactory
+- KsCreateFilterFactory
 product:
 - Windows
 targetos: Windows

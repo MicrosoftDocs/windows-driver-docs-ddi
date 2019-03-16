@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_FREE_ADAPTER
-title: MINIPORT_WDI_FREE_ADAPTER
+title: MINIPORT_WDI_FREE_ADAPTER (dot11wdi.h)
 description: The MiniportWdiFreeAdapter handler function requests that the IHV driver deletes its software state.
 old-location: netvista\miniportwdifreeadapter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiFreeAdapter
+- MiniportWdiFreeAdapter
 product:
 - Windows
 targetos: Windows

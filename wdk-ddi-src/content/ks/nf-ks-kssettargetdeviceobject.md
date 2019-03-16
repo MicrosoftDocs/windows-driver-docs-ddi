@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetTargetDeviceObject
-title: KsSetTargetDeviceObject function
+title: KsSetTargetDeviceObject function (ks.h)
 description: The KsSetTargetDeviceObject function sets the target device object of an object. The function adds the object header to a list of object headers that have target devices.
 old-location: stream\kssettargetdeviceobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetTargetDeviceObject
+- KsSetTargetDeviceObject
 product:
 - Windows
 targetos: Windows

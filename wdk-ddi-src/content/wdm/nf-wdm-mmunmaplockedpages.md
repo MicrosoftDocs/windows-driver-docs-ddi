@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapLockedPages
-title: MmUnmapLockedPages function
+title: MmUnmapLockedPages function (wdm.h)
 description: The MmUnmapLockedPages routine releases a mapping that was set up by a preceding call to the MmMapLockedPages or MmMapLockedPagesSpecifyCache routine.
 old-location: kernel\mmunmaplockedpages.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnmapLockedPages
+- MmUnmapLockedPages
 product:
 - Windows
 targetos: Windows

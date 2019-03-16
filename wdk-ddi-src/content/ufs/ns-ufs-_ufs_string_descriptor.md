@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs._UFS_STRING_DESCRIPTOR
-title: "_UFS_STRING_DESCRIPTOR"
+title: _UFS_STRING_DESCRIPTOR (ufs.h)
 description: The UFS_STRING_DESCRIPTOR structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string.
 old-location: storage\ufs_string_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_STRING_DESCRIPTOR
+- UFS_STRING_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

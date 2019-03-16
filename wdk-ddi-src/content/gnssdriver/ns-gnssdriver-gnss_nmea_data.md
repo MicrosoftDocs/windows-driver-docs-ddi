@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_27
-title: GNSS_NMEA_DATA
+title: GNSS_NMEA_DATA (gnssdriver.h)
 description: This structure contains generic (non-parsed) NMEA data.
 old-location: gnss\gnss_nmea_data.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_NMEA_DATA
+- GNSS_NMEA_DATA
 product:
 - Windows
 targetos: Windows

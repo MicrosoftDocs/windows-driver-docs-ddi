@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportAudioEngineNode
-title: IMiniportAudioEngineNode
+title: IMiniportAudioEngineNode (portcls.h)
 description: This interface allows a miniport driver to use KS properties that access the audio engine via a KS filter handle.
 old-location: audio\iminiportaudioenginenode.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode
+- IMiniportAudioEngineNode
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_ACTIVATE_VC
-title: MINIPORT_CO_ACTIVATE_VC
+title: MINIPORT_CO_ACTIVATE_VC (ndis.h)
 description: The MiniportCoActivateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcoactivatevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCoActivateVc
+- MiniportCoActivateVc
 product:
 - Windows
 targetos: Windows

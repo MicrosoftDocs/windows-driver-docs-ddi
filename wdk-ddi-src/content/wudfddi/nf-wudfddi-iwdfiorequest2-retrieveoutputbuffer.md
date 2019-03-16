@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveOutputBuffer
-title: IWDFIoRequest2::RetrieveOutputBuffer
+title: IWDFIoRequest2::RetrieveOutputBuffer (wudfddi.h)
 description: The RequestRetrieveOutputBuffer method retrieves an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputbuffer.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.RetrieveOutputBuffer
+- IWDFIoRequest2.RetrieveOutputBuffer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.StartDebugging
-title: IDataModelScriptDebug2::StartDebugging
+title: IDataModelScriptDebug2::StartDebugging (dbgmodel.h)
 description: The StartDebugging method "turns on" the debugger for a particular script. 
 ms.assetid: 2cebdd6c-9883-492a-881d-f3b9175804f2
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.StartDebugging
-product: Windows
+- IDataModelScriptDebug2.StartDebugging
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

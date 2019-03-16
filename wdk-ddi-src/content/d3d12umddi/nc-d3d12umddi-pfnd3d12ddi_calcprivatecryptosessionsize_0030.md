@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
-title: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
+title: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 (d3d12umddi.h)
 description: Used to calculate a private session size.
 old-location: display\pfnd3d12ddi_calcprivatecryptosessionsize_0030_.htm
 ms.assetid: 5C6A62D2-C4D1-4024-B777-EA4AAC7AC971
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
+- PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER
-title: NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER function
+title: NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER function (netrequestqueue.h)
 description: Adds a caller-provided handler for a specific OID set data request to a NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 848816c5-9f7f-4b13-9bb9-df210c4d6e17
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

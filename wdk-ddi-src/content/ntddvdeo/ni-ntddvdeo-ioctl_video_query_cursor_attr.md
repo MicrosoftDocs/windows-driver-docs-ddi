@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_CURSOR_ATTR
-title: IOCTL_VIDEO_QUERY_CURSOR_ATTR
+title: IOCTL_VIDEO_QUERY_CURSOR_ATTR (ntddvdeo.h)
 description: Returns the size, position, and visibility of the cursor.
 old-location: display\ioctl_video_query_cursor_attr.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_QUERY_CURSOR_ATTR
+- IOCTL_VIDEO_QUERY_CURSOR_ATTR
 product:
 - Windows
 targetos: Windows

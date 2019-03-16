@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetBindingSupport_OUT
-title: "_SetBindingSupport_OUT"
+title: _SetBindingSupport_OUT (hbapiwmi.h)
 description: The SetBindingSupport_OUT structure is used to report the output parameter data of the SetBindingSupport WMI method to the WMI client.
 old-location: storage\setbindingsupport_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SetBindingSupport_OUT
+- SetBindingSupport_OUT
 product:
 - Windows
 targetos: Windows

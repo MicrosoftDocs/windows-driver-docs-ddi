@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFlushBuffers
-title: FltFlushBuffers function
+title: FltFlushBuffers function (fltkernel.h)
 description: The FltFlushBuffers routine is used by the minifilter driver to send a flush request for a given file to the file system.
 old-location: ifsk\fltflushbuffers.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltFlushBuffers
+- FltFlushBuffers
 product:
 - Windows
 targetos: Windows

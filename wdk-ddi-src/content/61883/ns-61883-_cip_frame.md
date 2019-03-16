@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_FRAME
-title: "_CIP_FRAME"
+title: _CIP_FRAME (61883.h)
 description: The CIP_FRAME structure describes a frame to be attached to an input or output plug.
 old-location: ieee\cip_frame.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CIP_FRAME
+- CIP_FRAME
 product:
 - Windows
 targetos: Windows

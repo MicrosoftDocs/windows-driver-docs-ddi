@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.Compare
-title: IModelObject::Compare
+title: IModelObject::Compare (dbgmodel.h)
 description: The Compare method compares two model objects and returns an indication of how those objects relate.
 ms.assetid: 18bf4d91-bbd6-4c5a-8b21-962fbd94c8fb
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.Compare
-product: Windows
+- IModelObject.Compare
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

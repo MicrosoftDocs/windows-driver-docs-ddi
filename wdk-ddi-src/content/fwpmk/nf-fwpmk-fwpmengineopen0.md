@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmEngineOpen0
-title: FwpmEngineOpen0 function
+title: FwpmEngineOpen0 function (fwpmk.h)
 description: The FwpmEngineOpen0 function opens a session to the filter engine.Note  FwpmEngineOpen0 is a specific version of FwpmEngineOpen.
 old-location: netvista\fwpmengineopen0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpmEngineOpen0
+- FwpmEngineOpen0
 product:
 - Windows
 targetos: Windows

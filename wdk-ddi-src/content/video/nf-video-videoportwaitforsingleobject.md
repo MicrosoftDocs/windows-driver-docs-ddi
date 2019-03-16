@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWaitForSingleObject
-title: VideoPortWaitForSingleObject function
+title: VideoPortWaitForSingleObject function (video.h)
 description: The VideoPortWaitForSingleObject function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 old-location: display\videoportwaitforsingleobject.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWaitForSingleObject
+- VideoPortWaitForSingleObject
 product:
 - Windows
 targetos: Windows

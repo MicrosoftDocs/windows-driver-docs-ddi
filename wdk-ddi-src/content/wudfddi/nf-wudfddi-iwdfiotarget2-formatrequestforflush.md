@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForFlush
-title: IWDFIoTarget2::FormatRequestForFlush
+title: IWDFIoTarget2::FormatRequestForFlush (wudfddi.h)
 description: The FormatRequestForFlush method builds an I/O request for a flush operation but does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforflush.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget2.FormatRequestForFlush
+- IWDFIoTarget2.FormatRequestForFlush
 product:
 - Windows
 targetos: Windows

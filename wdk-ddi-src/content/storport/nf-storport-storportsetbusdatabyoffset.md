@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortSetBusDataByOffset
-title: StorPortSetBusDataByOffset function
+title: StorPortSetBusDataByOffset function (storport.h)
 description: The StorPortSetBusDataByOffset routine writes bus-specific configuration information.
 old-location: storage\storportsetbusdatabyoffset.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortSetBusDataByOffset
+- StorPortSetBusDataByOffset
 product:
 - Windows
 targetos: Windows

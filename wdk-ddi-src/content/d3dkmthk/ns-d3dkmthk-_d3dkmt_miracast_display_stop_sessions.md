@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
-title: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
+title: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS (d3dkmthk.h)
 description: Miracast display stop sessions.
 ms.assetid: 88f6fa1d-b381-4473-a1ed-6fb77484dec1
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS, *PD3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
+- _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortIsCurrentOsInstallationUpgrade
-title: StorPortIsCurrentOsInstallationUpgrade function
+title: StorPortIsCurrentOsInstallationUpgrade function (storport.h)
 description: The StorPortIsCurrentOsInstallationUpgrade routine checks if the current installation of Windows is an upgrade from a previous version or not.
 old-location: storage\storportiscurrentosinstallationupgrade.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: IRQL == PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortIsCurrentOsInstallationUpgrade
+- StorPortIsCurrentOsInstallationUpgrade
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEBEGINFRAME
-title: PFND3DDDI_DECODEBEGINFRAME
+title: PFND3DDDI_DECODEBEGINFRAME (d3dumddi.h)
 description: The DecodeBeginFrame function notifies the user-mode display driver that decoding can begin on the specified Microsoft DirectX Video Accelerator (VA) decode device.
 old-location: display\decodebeginframe.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DecodeBeginFrame
+- DecodeBeginFrame
 product:
 - Windows
 targetos: Windows

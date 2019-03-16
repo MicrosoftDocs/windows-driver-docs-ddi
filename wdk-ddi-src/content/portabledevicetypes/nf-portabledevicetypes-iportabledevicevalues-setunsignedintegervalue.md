@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetUnsignedIntegerValue
-title: IPortableDeviceValues::SetUnsignedIntegerValue
+title: IPortableDeviceValues::SetUnsignedIntegerValue (portabledevicetypes.h)
 description: Adds a new ULONG value (type VT_UI4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetUnsignedIntegerValue
+- IPortableDeviceValues.SetUnsignedIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

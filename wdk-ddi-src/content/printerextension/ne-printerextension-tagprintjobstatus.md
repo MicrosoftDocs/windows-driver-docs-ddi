@@ -1,6 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintJobStatus
-title: tagPrintJobStatus
+title: tagPrintJobStatus (printerextension.h)
 description: This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 old-location: print\printjobstatus.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	PrintJobStatus
+- PrintJobStatus
 product:
 - Windows
 targetos: Windows

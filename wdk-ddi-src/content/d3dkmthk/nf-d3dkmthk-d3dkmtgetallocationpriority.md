@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetAllocationPriority
-title: D3DKMTGetAllocationPriority function
+title: D3DKMTGetAllocationPriority function (d3dkmthk.h)
 description: Gets allocation priority.
 ms.assetid: 2aaf0b1a-1c15-4db0-8400-18a02ab46903
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetAllocationPriority
+- D3DKMTGetAllocationPriority
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

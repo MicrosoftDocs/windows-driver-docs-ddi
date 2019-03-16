@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTER_INIT
-title: IDARG_IN_ADAPTER_INIT
+title: IDARG_IN_ADAPTER_INIT (iddcx.h)
 description: Initializes an adapter that will be hosted on a WDF device.
 old-location: display\idarg_in_adapter_init.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_ADAPTER_INIT
+- IDARG_IN_ADAPTER_INIT
 product:
 - Windows
 targetos: Windows

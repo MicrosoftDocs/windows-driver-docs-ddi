@@ -1,6 +1,6 @@
 ---
 UID: NI:vpci.IOCTL_VPCI_INVALIDATE_BLOCK
-title: IOCTL_VPCI_INVALIDATE_BLOCK
+title: IOCTL_VPCI_INVALIDATE_BLOCK (vpci.h)
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues the IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request in order to be notified of changes to data in one or more VF configuration blocks.
 old-location: pci\IOCTL_VPCI_INVALIDATE_BLOCK.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	IOCTL_VPCI_INVALIDATE_BLOCK
+- IOCTL_VPCI_INVALIDATE_BLOCK
 product:
 - Windows
 targetos: Windows

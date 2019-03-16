@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._CHANNEL_INFO
-title: "_CHANNEL_INFO"
+title: _CHANNEL_INFO (usbscan.h)
 description: The CHANNEL_INFO structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_CHANNEL_ALIGN_RQST.
 old-location: image\channel_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	CHANNEL_INFO
+- CHANNEL_INFO
 product:
 - Windows
 targetos: Windows

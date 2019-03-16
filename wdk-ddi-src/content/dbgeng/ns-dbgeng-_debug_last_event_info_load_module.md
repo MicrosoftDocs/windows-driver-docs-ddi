@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_LOAD_MODULE
-title: "_DEBUG_LAST_EVENT_INFO_LOAD_MODULE"
+title: _DEBUG_LAST_EVENT_INFO_LOAD_MODULE (dbgeng.h)
 description: Describes the load module of the last event.
 old-location: debugger\debug_last_event_info_load_module.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_LAST_EVENT_INFO_LOAD_MODULE
+- DEBUG_LAST_EVENT_INFO_LOAD_MODULE
 product:
 - Windows
 targetos: Windows

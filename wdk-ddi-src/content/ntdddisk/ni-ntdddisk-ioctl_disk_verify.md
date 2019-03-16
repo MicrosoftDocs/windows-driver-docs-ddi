@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_VERIFY
-title: IOCTL_DISK_VERIFY
+title: IOCTL_DISK_VERIFY (ntdddisk.h)
 description: Performs verification for a specified extent on a disk.
 old-location: storage\ioctl_disk_verify.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_VERIFY
+- IOCTL_DISK_VERIFY
 product:
 - Windows
 targetos: Windows

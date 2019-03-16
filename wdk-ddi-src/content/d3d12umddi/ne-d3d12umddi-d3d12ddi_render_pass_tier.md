@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RENDER_PASS_TIER
-title: D3D12DDI_RENDER_PASS_TIER
+title: D3D12DDI_RENDER_PASS_TIER (d3d12umddi.h)
 description: The extent to which a UMD efficiently supports Render Pass.
 ms.assetid: 7cd2f2a1-af74-44e6-b094-06e6c02443c7
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RENDER_PASS_TIER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RENDER_PASS_TIER
+- D3D12DDI_RENDER_PASS_TIER
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

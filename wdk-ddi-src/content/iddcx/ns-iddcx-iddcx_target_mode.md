@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_TARGET_MODE
-title: IDDCX_TARGET_MODE
+title: IDDCX_TARGET_MODE (iddcx.h)
 description: Gives information about the target mode signal, including the bandwidth needed for the mode.
 old-location: display\iddcx_target_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_TARGET_MODE
+- IDDCX_TARGET_MODE
 product:
 - Windows
 targetos: Windows

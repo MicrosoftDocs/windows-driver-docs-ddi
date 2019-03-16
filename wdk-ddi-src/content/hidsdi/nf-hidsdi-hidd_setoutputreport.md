@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_SetOutputReport
-title: HidD_SetOutputReport function
+title: HidD_SetOutputReport function (hidsdi.h)
 description: The HidD_SetOutputReport routine sends an output report to a top-level collection.
 old-location: hid\hidd_setoutputreport.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_SetOutputReport
+- HidD_SetOutputReport
 product:
 - Windows
 targetos: Windows

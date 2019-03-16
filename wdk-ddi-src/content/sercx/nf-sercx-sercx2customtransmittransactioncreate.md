@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomTransmitTransactionCreate
-title: SerCx2CustomTransmitTransactionCreate function
+title: SerCx2CustomTransmitTransactionCreate function (sercx.h)
 description: The SerCx2CustomTransmitTransactionCreate method creates a custom-transmit-transaction object, which version 2 of the serial framework extension (SerCx2) uses to perform custom-transmit transactions.
 old-location: serports\sercx2customtransmittransactioncreate.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2CustomTransmitTransactionCreate
+- SerCx2CustomTransmitTransactionCreate
 product:
 - Windows
 targetos: Windows

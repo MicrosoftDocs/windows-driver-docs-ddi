@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbSimpleEndpointInitAllocate
-title: UdecxUsbSimpleEndpointInitAllocate function
+title: UdecxUsbSimpleEndpointInitAllocate function (udecxusbendpoint.h)
 description: Allocates memory for an initialization structure that is used to create a simple endpoint for the specified virtual USB device.
 old-location: buses\udecxusbsimpleendpointinitallocate.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbSimpleEndpointInitAllocate
+- UdecxUsbSimpleEndpointInitAllocate
 product:
 - Windows
 targetos: Windows

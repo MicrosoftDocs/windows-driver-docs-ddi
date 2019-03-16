@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyFinalExit
-title: UfxDeviceNotifyFinalExit function
+title: UfxDeviceNotifyFinalExit function (ufxclient.h)
 description: Notifies UFX that the device is detached.
 ms.assetid: 7c48f7e0-ce21-40b2-be17-037b70178673
 ms.date: 10/19/2018
@@ -23,17 +23,17 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
 -   ufxstub.lib
-apiname: 
--	UfxDeviceNotifyFinalExit
+api_name: 
+- UfxDeviceNotifyFinalExit
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

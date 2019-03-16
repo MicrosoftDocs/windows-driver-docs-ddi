@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.IsFormatSupported
-title: CWiauFormatConverter::IsFormatSupported
+title: CWiauFormatConverter::IsFormatSupported (wiautil.h)
 description: The CWiauFormatConverter::IsFormatSupported method verifies that GDI+ supports the image format that is to be converted.
 old-location: image\cwiauformatconverter_isformatsupported.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauFormatConverter.IsFormatSupported
+- CWiauFormatConverter.IsFormatSupported
 product:
 - Windows
 targetos: Windows

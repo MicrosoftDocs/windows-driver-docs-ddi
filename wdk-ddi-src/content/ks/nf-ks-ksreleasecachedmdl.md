@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReleaseCachedMdl
-title: KsReleaseCachedMdl function
+title: KsReleaseCachedMdl function (ks.h)
 description: The KsReleaseCachedMdl function is used to release the MDL acquired by the KsAcquireCachedMdl call.
 old-location: stream\ksreleasecachedmdl.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsReleaseCachedMdl
+- KsReleaseCachedMdl
 product:
 - Windows
 targetos: Windows

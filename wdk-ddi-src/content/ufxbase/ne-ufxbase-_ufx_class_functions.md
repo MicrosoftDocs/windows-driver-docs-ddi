@@ -1,6 +1,6 @@
 ---
 UID: NE:ufxbase._UFX_CLASS_FUNCTIONS
-title: _UFX_CLASS_FUNCTIONS
+title: _UFX_CLASS_FUNCTIONS (ufxbase.h)
 description: 
 ms.assetid: 0acaec8d-ed14-4acb-826b-8bd1552dadd6
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: UFX_CLASS_FUNCTIONS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ufxbase.h
-apiname: 
--	_UFX_CLASS_FUNCTIONS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ufxbase.h
+api_name: 
+- _UFX_CLASS_FUNCTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

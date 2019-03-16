@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAdvanceMdl
-title: MmAdvanceMdl function
+title: MmAdvanceMdl function (wdm.h)
 description: The MmAdvanceMdl routine advances the beginning of an MDL's virtual memory range by the specified number of bytes.
 old-location: kernel\mmadvancemdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAdvanceMdl
+- MmAdvanceMdl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
-title: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
+title: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER (mountmgr.h)
 description: This IOCTL checks to see if the given volume has a drive letter.
 old-location: storage\ioctl_mountmgr_next_drive_letter.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountmgr.h
+- Mountmgr.h
 api_name:
--	IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
+- IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 product:
 - Windows
 targetos: Windows

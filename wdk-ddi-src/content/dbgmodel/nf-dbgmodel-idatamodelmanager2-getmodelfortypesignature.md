@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.GetModelForTypeSignature
-title: IDataModelManager2::GetModelForTypeSignature
+title: IDataModelManager2::GetModelForTypeSignature (dbgmodel.h)
 description: The GetModelForTypeSignature method returns the data model that was registered against a particular type signature via a prior call to the RegisterModelForTypeSignature method.
 ms.assetid: 5985c645-52b4-4a40-a5c9-6f7495eb38ec
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2.GetModelForTypeSignature
-product: Windows
+- IDataModelManager2.GetModelForTypeSignature
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

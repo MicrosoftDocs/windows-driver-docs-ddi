@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
-title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM
+title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM (d3d10umddi.h)
 description: Releases resources for the video processor enumeration object that were created through a call to the CreateVideoProcessorEnum function.
 old-location: display\destroyvideoprocessorenum.htm
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnDestroyVideoProcessorEnum
+- pfnDestroyVideoProcessorEnum
 product:
 - Windows
 targetos: Windows

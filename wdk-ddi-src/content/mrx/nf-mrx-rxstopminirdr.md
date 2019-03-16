@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxStopMinirdr
-title: RxStopMinirdr function
+title: RxStopMinirdr function (mrx.h)
 description: RxStopMinirdr is called to stop a network mini-redirector that has previously been started.
 old-location: ifsk\rxstopminirdr.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxStopMinirdr
+- RxStopMinirdr
 product:
 - Windows
 targetos: Windows

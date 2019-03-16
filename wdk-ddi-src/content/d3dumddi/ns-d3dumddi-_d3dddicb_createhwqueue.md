@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEHWQUEUE
-title: "_D3DDDICB_CREATEHWQUEUE"
+title: _D3DDDICB_CREATEHWQUEUE (d3dumddi.h)
 description: A structure that holds information to create a hardware queue.
 old-location: display\d3dddicb_createhwqueue.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_CREATEHWQUEUE
+- D3DDDICB_CREATEHWQUEUE
 product:
 - Windows
 targetos: Windows

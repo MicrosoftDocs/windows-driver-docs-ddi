@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQuerySingleInstanceMultiple
-title: IoWMIQuerySingleInstanceMultiple function
+title: IoWMIQuerySingleInstanceMultiple function (wdm.h)
 description: The IoWMIQuerySingleInstanceMultiple routine returns all WMI data block instances that implement the specified WMI classes with the specified instance names.
 old-location: kernel\iowmiquerysingleinstancemultiple.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIQuerySingleInstanceMultiple
+- IoWMIQuerySingleInstanceMultiple
 product:
 - Windows
 targetos: Windows

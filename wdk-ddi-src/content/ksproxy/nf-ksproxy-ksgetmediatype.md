@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsGetMediaType
-title: KsGetMediaType function
+title: KsGetMediaType function (ksproxy.h)
 description: The KsGetMediaType function retrieves information about a media type on a pin factory identifier.
 old-location: stream\ksgetmediatype.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsGetMediaType
+- KsGetMediaType
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:treerpmbservice._TREE_RPMB_COMMAND_INPUT
-title: _TREE_RPMB_COMMAND_INPUT
+title: _TREE_RPMB_COMMAND_INPUT (treerpmbservice.h)
 description: 
 ms.assetid: 02bed615-68e5-48aa-8775-8382495002df
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TREE_RPMB_COMMAND_INPUT, *PTREE_RPMB_COMMAND_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treerpmbservice.h
+- treerpmbservice.h
 api_name: 
--	_TREE_RPMB_COMMAND_INPUT
+- _TREE_RPMB_COMMAND_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

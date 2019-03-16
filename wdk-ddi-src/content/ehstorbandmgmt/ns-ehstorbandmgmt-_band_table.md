@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_TABLE
-title: "_BAND_TABLE"
+title: _BAND_TABLE (ehstorbandmgmt.h)
 description: The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\band_table.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	BAND_TABLE
+- BAND_TABLE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYHWCONTEXT
-title: "_D3DKMT_DESTROYHWCONTEXT"
+title: _D3DKMT_DESTROYHWCONTEXT (d3dkmthk.h)
 description: A structure holding information to destroy a hardware context.
 old-location: display\d3dkmt_destroyhwcontext.htm
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYHWCONTEXT
+- D3DKMT_DESTROYHWCONTEXT
 product:
 - Windows
 targetos: Windows

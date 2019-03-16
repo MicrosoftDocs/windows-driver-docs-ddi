@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlInsertUnicodePrefix
-title: RtlInsertUnicodePrefix function
+title: RtlInsertUnicodePrefix function (ntifs.h)
 description: The RtlInsertUnicodePrefix routine inserts a new element into a Unicode prefix table.
 old-location: ifsk\rtlinsertunicodeprefix.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInsertUnicodePrefix
+- RtlInsertUnicodePrefix
 product:
 - Windows
 targetos: Windows

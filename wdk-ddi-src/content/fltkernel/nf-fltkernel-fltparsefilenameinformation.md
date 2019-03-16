@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltParseFileNameInformation
-title: FltParseFileNameInformation function
+title: FltParseFileNameInformation function (fltkernel.h)
 description: FltParseFileNameInformation parses the contents of a FLT_FILE_NAME_INFORMATION structure.
 old-location: ifsk\fltparsefilenameinformation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltParseFileNameInformation
+- FltParseFileNameInformation
 product:
 - Windows
 targetos: Windows

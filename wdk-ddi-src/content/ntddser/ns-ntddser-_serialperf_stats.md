@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIALPERF_STATS
-title: "_SERIALPERF_STATS"
+title: _SERIALPERF_STATS (ntddser.h)
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	SERIALPERF_STATS
+- SERIALPERF_STATS
 product:
 - Windows
 targetos: Windows

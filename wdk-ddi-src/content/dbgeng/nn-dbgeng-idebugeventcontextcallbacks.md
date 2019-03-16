@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugEventContextCallbacks
-title: IDebugEventContextCallbacks
+title: IDebugEventContextCallbacks (dbgeng.h)
 description: This interface supports event context callbacks and replaces the use of the IDebugClient::SetEventCallbacks method.
 old-location: debugger\idebugeventcontextcallbacks.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventContextCallbacks
+- IDebugEventContextCallbacks
 product:
 - Windows
 targetos: Windows

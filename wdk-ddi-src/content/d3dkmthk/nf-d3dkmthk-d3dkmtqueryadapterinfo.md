@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryAdapterInfo
-title: D3DKMTQueryAdapterInfo function
+title: D3DKMTQueryAdapterInfo function (d3dkmthk.h)
 description: The D3DKMTQueryAdapterInfo function retrieves graphics adapter information.
 old-location: display\d3dkmtqueryadapterinfo.htm
 ms.assetid: fa67207d-cf83-42a5-969b-29379f99883f
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTQueryAdapterInfo
+- D3DKMTQueryAdapterInfo
 product:
 - Windows
 targetos: Windows

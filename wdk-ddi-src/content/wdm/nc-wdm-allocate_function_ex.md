@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.ALLOCATE_FUNCTION_EX
-title: ALLOCATE_FUNCTION_EX
+title: ALLOCATE_FUNCTION_EX (wdm.h)
 description: The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty.
 old-location: kernel\lookasidelistallocateex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	LookasideListAllocateEx
+- LookasideListAllocateEx
 product:
 - Windows
 targetos: Windows

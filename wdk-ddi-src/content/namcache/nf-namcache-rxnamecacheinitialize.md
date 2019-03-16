@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheInitialize
-title: RxNameCacheInitialize function
+title: RxNameCacheInitialize function (namcache.h)
 description: RxNameCacheInitialize initializes a name cache (NAME_CACHE_CONTROL structure).
 old-location: ifsk\rxnamecacheinitialize.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheInitialize
+- RxNameCacheInitialize
 product:
 - Windows
 targetos: Windows

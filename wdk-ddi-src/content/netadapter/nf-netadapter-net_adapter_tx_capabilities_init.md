@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_TX_CAPABILITIES_INIT
-title: NET_ADAPTER_TX_CAPABILITIES_INIT function
+title: NET_ADAPTER_TX_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_TX_CAPABILITIES_INIT method initializes a NET_ADAPTER_TX_CAPABILITIES structure for a net adapter that has not specified the use of DMA in its transmit data path.
 tech.root: netvista
 ms.assetid: 7dbe4ccf-590f-4ab0-8ec7-dff6bd0395f3
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NET_ADAPTER_TX_CAPABILITIES_INIT
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NET_ADAPTER_TX_CAPABILITIES_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

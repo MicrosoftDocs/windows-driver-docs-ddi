@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ENDEXCLUSIVEACCESS
-title: DXGKDDI_ENDEXCLUSIVEACCESS
+title: DXGKDDI_ENDEXCLUSIVEACCESS (d3dkmddi.h)
 description: Implemented by the client driver to end exclusive access.
 ms.assetid: 942f37e5-310a-4233-bda9-5e606d41756e
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_ENDEXCLUSIVEACCESS
+- DXGKDDI_ENDEXCLUSIVEACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

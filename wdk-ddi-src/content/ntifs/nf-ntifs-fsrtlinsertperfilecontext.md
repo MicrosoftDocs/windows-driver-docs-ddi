@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInsertPerFileContext
-title: FsRtlInsertPerFileContext function
+title: FsRtlInsertPerFileContext function (ntifs.h)
 description: The FsRtlInsertPerFileContext routine associates a FSRTL_PER_FILE_CONTEXT object with a driver-specified context object for a file.
 old-location: ifsk\fsrtlinsertperfilecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlInsertPerFileContext
+- FsRtlInsertPerFileContext
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIRECTPATCH_INFO
-title: _D3DDDIRECTPATCH_INFO
+title: _D3DDDIRECTPATCH_INFO (d3dumddi.h)
 description: Contains direct patch info.
 ms.assetid: a70a51fa-7efb-4b84-afe4-524fe3295b34
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDIRECTPATCH_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDIRECTPATCH_INFO
+- _D3DDDIRECTPATCH_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

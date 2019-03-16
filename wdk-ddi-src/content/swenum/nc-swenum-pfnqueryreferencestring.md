@@ -1,6 +1,6 @@
 ---
 UID: NC:swenum.PFNQUERYREFERENCESTRING
-title: PFNQUERYREFERENCESTRING
+title: PFNQUERYREFERENCESTRING (swenum.h)
 description: This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool.
 old-location: stream\kstrqueryreferencestring.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrQueryReferenceString
+- KStrQueryReferenceString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDataInBufferSystemAddress
-title: StorPortGetDataInBufferSystemAddress function
+title: StorPortGetDataInBufferSystemAddress function (storport.h)
 description: Returns the system address for the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffersystemaddress.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetDataInBufferSystemAddress
+- StorPortGetDataInBufferSystemAddress
 product:
 - Windows
 targetos: Windows

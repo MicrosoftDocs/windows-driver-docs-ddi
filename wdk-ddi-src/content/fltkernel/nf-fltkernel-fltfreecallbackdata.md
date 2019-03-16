@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeCallbackData
-title: FltFreeCallbackData function
+title: FltFreeCallbackData function (fltkernel.h)
 description: The FltFreeCallbackData routine frees a callback data structure allocated by the FltAllocateCallbackData routine.
 old-location: ifsk\fltfreecallbackdata.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltFreeCallbackData
+- FltFreeCallbackData
 product:
 - Windows
 targetos: Windows

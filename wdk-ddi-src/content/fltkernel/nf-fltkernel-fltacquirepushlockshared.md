@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAcquirePushLockShared
-title: FltAcquirePushLockShared macro
+title: FltAcquirePushLockShared macro (fltkernel.h)
 description: The FltAcquirePushLockShared routine acquires the given push lock for shared access by the calling thread.
 old-location: ifsk\fltacquirepushlockshared.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAcquirePushLockShared
+- FltAcquirePushLockShared
 product:
 - Windows
 targetos: Windows

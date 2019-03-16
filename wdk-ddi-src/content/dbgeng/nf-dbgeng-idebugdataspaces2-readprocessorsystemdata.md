@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadProcessorSystemData
-title: IDebugDataSpaces2::ReadProcessorSystemData
+title: IDebugDataSpaces2::ReadProcessorSystemData (dbgeng.h)
 description: The ReadProcessorSystemData method returns data about the specified processor.
 old-location: debugger\readprocessorsystemdata.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadProcessorSystemData
--	IDebugDataSpaces2.ReadProcessorSystemData
--	IDebugDataSpaces3.ReadProcessorSystemData
--	IDebugDataSpaces4.ReadProcessorSystemData
+- IDebugDataSpaces.ReadProcessorSystemData
+- IDebugDataSpaces2.ReadProcessorSystemData
+- IDebugDataSpaces3.ReadProcessorSystemData
+- IDebugDataSpaces4.ReadProcessorSystemData
 product:
 - Windows
 targetos: Windows

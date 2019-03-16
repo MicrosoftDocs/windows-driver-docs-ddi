@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeTryToAcquireGuardedMutex
-title: KeTryToAcquireGuardedMutex function
+title: KeTryToAcquireGuardedMutex function (wdm.h)
 description: The KeTryToAcquireGuardedMutex routine acquires a guarded mutex, if available.
 old-location: kernel\ketrytoacquireguardedmutex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeTryToAcquireGuardedMutex
+- KeTryToAcquireGuardedMutex
 product:
 - Windows
 targetos: Windows

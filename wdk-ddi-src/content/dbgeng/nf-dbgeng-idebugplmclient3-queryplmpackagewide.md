@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.QueryPlmPackageWide
-title: IDebugPlmClient3::QueryPlmPackageWide
+title: IDebugPlmClient3::QueryPlmPackageWide (dbgeng.h)
 description: Query a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_queryplmpackagewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient3.QueryPlmPackageWide
+- IDebugPlmClient3.QueryPlmPackageWide
 product:
 - Windows
 targetos: Windows

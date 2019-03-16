@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtClose
-title: NtClose function
+title: NtClose function (ntifs.h)
 description: The ZwClose routine closes an object handle.
 old-location: kernel\zwclose.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwClose
--	NtClose
+- ZwClose
+- NtClose
 product:
 - Windows
 targetos: Windows

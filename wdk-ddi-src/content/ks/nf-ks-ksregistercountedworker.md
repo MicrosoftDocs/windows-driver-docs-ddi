@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRegisterCountedWorker
-title: KsRegisterCountedWorker function
+title: KsRegisterCountedWorker function (ks.h)
 description: Handles clients registering for use of a thread.
 old-location: stream\ksregistercountedworker.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRegisterCountedWorker
+- KsRegisterCountedWorker
 product:
 - Windows
 targetos: Windows

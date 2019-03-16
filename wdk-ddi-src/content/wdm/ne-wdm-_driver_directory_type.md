@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DRIVER_DIRECTORY_TYPE
-title: _DRIVER_DIRECTORY_TYPE
+title: _DRIVER_DIRECTORY_TYPE (wdm.h)
 description: 
 ms.assetid: 587aa860-ad2d-4de2-9f84-1ad5cb7b01bf
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DRIVER_DIRECTORY_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DRIVER_DIRECTORY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

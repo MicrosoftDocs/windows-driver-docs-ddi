@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAccessAllowedAce
-title: RtlAddAccessAllowedAce function
+title: RtlAddAccessAllowedAce function (ntifs.h)
 description: The RtlAddAccessAllowedAce routine adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedace.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAddAccessAllowedAce
+- RtlAddAccessAllowedAce
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:pepfx.PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
-title: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
+title: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function (pepfx.h)
 description: The PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_UART_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_uart_resource.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
+- PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
 product:
 - Windows
 targetos: Windows

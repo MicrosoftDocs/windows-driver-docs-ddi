@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsVersion.GetVersion
-title: IPortClsVersion::GetVersion
+title: IPortClsVersion::GetVersion (portcls.h)
 description: The GetVersion method returns the version of the Windows operating system that the driver is running on.
 old-location: audio\iportclsversion_getversion.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsVersion.GetVersion
+- IPortClsVersion.GetVersion
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestSetUserModeDriverInitiatedIo
-title: WdfRequestSetUserModeDriverInitiatedIo function
+title: WdfRequestSetUserModeDriverInitiatedIo function (wdfrequest.h)
 description: The WdfRequestSetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 old-location: wdf\wdfrequestsetusermodedriverinitiatedio.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: WUDFx02000.lib; WUDFx02000.dll
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	WUDFx02000.lib
--	WUDFx02000.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- WUDFx02000.lib
+- WUDFx02000.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestSetUserModeDriverInitiatedIo
+- WdfRequestSetUserModeDriverInitiatedIo
 product:
 - Windows
 targetos: Windows

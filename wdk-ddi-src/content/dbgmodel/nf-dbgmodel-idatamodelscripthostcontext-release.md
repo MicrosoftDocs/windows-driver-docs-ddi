@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.Release
-title: IDataModelScriptHostContext::Release
+title: IDataModelScriptHostContext::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
 ms.assetid: b05f29ca-1383-45dc-a8c1-4cb7ec3860ed
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptHostContext.Release
-product: Windows
+- IDataModelScriptHostContext.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

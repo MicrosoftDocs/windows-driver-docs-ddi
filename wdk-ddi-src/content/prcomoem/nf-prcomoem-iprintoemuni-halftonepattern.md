@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.HalftonePattern
-title: IPrintOemUni::HalftonePattern
+title: IPrintOemUni::HalftonePattern (prcomoem.h)
 description: The IPrintOemUni::HalftonePattern method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.
 old-location: print\iprintoemuni_halftonepattern.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.HalftonePattern
+- IPrintOemUni.HalftonePattern
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_FEATURE_STATUS_CUSTOM
-title: "_NDIS_SWITCH_FEATURE_STATUS_CUSTOM"
+title: _NDIS_SWITCH_FEATURE_STATUS_CUSTOM (ntddndis.h)
 description: The NDIS_SWITCH_FEATURE_STATUS_CUSTOM structure specifies the custom status information for a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_custom.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SWITCH_FEATURE_STATUS_CUSTOM
+- NDIS_SWITCH_FEATURE_STATUS_CUSTOM
 product:
 - Windows
 targetos: Windows

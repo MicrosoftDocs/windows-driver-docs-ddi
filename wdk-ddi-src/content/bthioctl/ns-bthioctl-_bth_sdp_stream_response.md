@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_STREAM_RESPONSE
-title: "_BTH_SDP_STREAM_RESPONSE"
+title: _BTH_SDP_STREAM_RESPONSE (bthioctl.h)
 description: The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
 old-location: bltooth\bth_sdp_stream_response.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_SDP_STREAM_RESPONSE
+- BTH_SDP_STREAM_RESPONSE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_RequestTimeStatistics
-title: "_MSiSCSI_RequestTimeStatistics"
+title: _MSiSCSI_RequestTimeStatistics (iscsiprf.h)
 description: The MSiSCSI_RequestTimeStatistics structure is used by iSCSI initiators to report request time statistics.
 old-location: storage\msiscsi_requesttimestatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_RequestTimeStatistics
+- MSiSCSI_RequestTimeStatistics
 product:
 - Windows
 targetos: Windows

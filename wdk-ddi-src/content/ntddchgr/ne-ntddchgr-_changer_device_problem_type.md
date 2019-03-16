@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddchgr._CHANGER_DEVICE_PROBLEM_TYPE
-title: "_CHANGER_DEVICE_PROBLEM_TYPE"
+title: _CHANGER_DEVICE_PROBLEM_TYPE (ntddchgr.h)
 description: The CHANGER_DEVICE_PROBLEM_TYPE data type contains the values returned by the ChangerPerformDiagnostics routine.
 old-location: storage\changer_device_problem_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_DEVICE_PROBLEM_TYPE
+- CHANGER_DEVICE_PROBLEM_TYPE
 product:
 - Windows
 targetos: Windows

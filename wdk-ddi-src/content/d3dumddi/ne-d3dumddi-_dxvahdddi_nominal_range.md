@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_NOMINAL_RANGE
-title: "_DXVAHDDDI_NOMINAL_RANGE"
+title: _DXVAHDDDI_NOMINAL_RANGE (d3dumddi.h)
 description: Indicates the luminance range of YUV data.
 old-location: display\dxvahdddi_nominal_range.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	DXVAHDDDI_NOMINAL_RANGE
+- DXVAHDDDI_NOMINAL_RANGE
 product:
 - Windows
 targetos: Windows

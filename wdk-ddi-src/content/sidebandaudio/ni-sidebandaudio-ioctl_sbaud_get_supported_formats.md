@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SUPPORTED_FORMATS
-title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS
+title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS (sidebandaudio.h)
 description: 
 ms.assetid: 0e17eae1-e498-43b6-88d8-6a5f0752f3f0
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_GET_SUPPORTED_FORMATS
-product: Windows
+- IOCTL_SBAUD_GET_SUPPORTED_FORMATS
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

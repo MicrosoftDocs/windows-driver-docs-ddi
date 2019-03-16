@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTAUDIOPARMS
-title: tagTRANSPORTAUDIOPARMS
+title: tagTRANSPORTAUDIOPARMS (ksmedia.h)
 description: The TRANSPORTAUDIOPARMS structure is defined but not used.
 old-location: stream\transportaudioparms.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TRANSPORTAUDIOPARMS
+- TRANSPORTAUDIOPARMS
 product:
 - Windows
 targetos: Windows

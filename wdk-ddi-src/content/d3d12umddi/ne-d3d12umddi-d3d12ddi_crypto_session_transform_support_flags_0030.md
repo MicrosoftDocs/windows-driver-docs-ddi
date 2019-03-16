@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
-title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
+title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030 (d3d12umddi.h)
 description: The crypto session transform support flags.
 old-location: display\d3d12ddi-crypto-session-transform-support-flags-0030.htm
 ms.assetid: 9b8fea62-9947-42ce-acb6-1736ac6e3d86
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
+- D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
 product:
 - Windows
 targetos: Windows

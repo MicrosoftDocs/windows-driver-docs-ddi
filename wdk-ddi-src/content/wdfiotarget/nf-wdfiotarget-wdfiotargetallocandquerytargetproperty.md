@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetAllocAndQueryTargetProperty
-title: WdfIoTargetAllocAndQueryTargetProperty function
+title: WdfIoTargetAllocAndQueryTargetProperty function (wdfiotarget.h)
 description: The WdfIoTargetAllocAndQueryTargetProperty method allocates a buffer and retrieves a specified device property for a specified I/O target.
 old-location: wdf\wdfiotargetallocandquerytargetproperty.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoTargetAllocAndQueryTargetProperty
+- WdfIoTargetAllocAndQueryTargetProperty
 product:
 - Windows
 targetos: Windows

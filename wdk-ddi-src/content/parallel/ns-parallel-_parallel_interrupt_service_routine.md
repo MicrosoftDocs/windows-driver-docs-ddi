@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_INTERRUPT_SERVICE_ROUTINE
-title: "_PARALLEL_INTERRUPT_SERVICE_ROUTINE"
+title: _PARALLEL_INTERRUPT_SERVICE_ROUTINE (parallel.h)
 description: The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrupt services that a kernel-mode driver can connect to the operation of a parallel port.
 old-location: parports\parallel_interrupt_service_routine.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_INTERRUPT_SERVICE_ROUTINE
+- PARALLEL_INTERRUPT_SERVICE_ROUTINE
 product:
 - Windows
 targetos: Windows

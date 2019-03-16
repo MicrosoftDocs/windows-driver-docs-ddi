@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATETRACKEDWORKLOAD
-title: _D3DKMT_CREATETRACKEDWORKLOAD
+title: _D3DKMT_CREATETRACKEDWORKLOAD (d3dkmthk.h)
 description: Arguments used to create a tracked workload.
 ms.assetid: 53b93ab8-dbbe-4ef7-a7af-a4cae8d5221b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CREATETRACKEDWORKLOAD
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CREATETRACKEDWORKLOAD
+- _D3DKMT_CREATETRACKEDWORKLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

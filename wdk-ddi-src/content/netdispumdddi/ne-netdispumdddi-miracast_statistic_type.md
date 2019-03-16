@@ -1,6 +1,6 @@
 ---
 UID: NE:netdispumdddi.__unnamed_enum_2
-title: MIRACAST_STATISTIC_TYPE
+title: MIRACAST_STATISTIC_TYPE (netdispumdddi.h)
 description: Specifies types of Miracast statistics data that the user-mode display driver generates.
 old-location: display\miracast_statistic_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_STATISTIC_TYPE
+- MIRACAST_STATISTIC_TYPE
 product:
 - Windows
 targetos: Windows

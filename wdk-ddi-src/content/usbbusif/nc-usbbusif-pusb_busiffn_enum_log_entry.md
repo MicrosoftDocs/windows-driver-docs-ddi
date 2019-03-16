@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_ENUM_LOG_ENTRY
-title: USB_BUSIFFN_ENUM_LOG_ENTRY
+title: USB_BUSIFFN_ENUM_LOG_ENTRY (usbbusif.h)
 description: This callback function is not supported.The EnumLogEntry routine makes a log entry.
 old-location: buses\enumlogentry.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: ANY
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	EnumLogEntry
+- EnumLogEntry
 product:
 - Windows
 targetos: Windows

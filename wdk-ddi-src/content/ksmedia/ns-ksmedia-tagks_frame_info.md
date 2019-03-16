@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_FRAME_INFO
-title: tagKS_FRAME_INFO
+title: tagKS_FRAME_INFO (ksmedia.h)
 description: The KS_FRAME_INFO structure extends the KSSTREAM_HEADER structure for video streams.
 old-location: stream\ks_frame_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_FRAME_INFO
+- KS_FRAME_INFO
 product:
 - Windows
 targetos: Windows

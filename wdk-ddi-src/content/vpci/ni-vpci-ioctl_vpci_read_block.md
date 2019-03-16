@@ -1,6 +1,6 @@
 ---
 UID: NI:vpci.IOCTL_VPCI_READ_BLOCK
-title: IOCTL_VPCI_READ_BLOCK
+title: IOCTL_VPCI_READ_BLOCK (vpci.h)
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues an IOCTL_VPCI_READ_BLOCK I/O control code (IOCTL) in order to read data from a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
 old-location: pci\ioctl_vpci_read_block.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	IOCTL_VPCI_READ_BLOCK
+- IOCTL_VPCI_READ_BLOCK
 product:
 - Windows
 targetos: Windows

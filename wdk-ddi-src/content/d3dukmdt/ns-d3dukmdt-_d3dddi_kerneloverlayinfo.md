@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_KERNELOVERLAYINFO
-title: "_D3DDDI_KERNELOVERLAYINFO"
+title: _D3DDDI_KERNELOVERLAYINFO (d3dukmdt.h)
 description: The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode overlay object.
 old-location: display\d3dddi_kerneloverlayinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_KERNELOVERLAYINFO
+- D3DDDI_KERNELOVERLAYINFO
 product:
 - Windows
 targetos: Windows

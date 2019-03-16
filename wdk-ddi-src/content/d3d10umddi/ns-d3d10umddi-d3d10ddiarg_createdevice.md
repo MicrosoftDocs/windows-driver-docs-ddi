@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATEDEVICE
-title: D3D10DDIARG_CREATEDEVICE
+title: D3D10DDIARG_CREATEDEVICE (d3d10umddi.h)
 description: The D3D10DDIARG_CREATEDEVICE structure describes the display device to create.
 old-location: display\d3d10ddiarg_createdevice.htm
 ms.assetid: 64154d8a-1775-455b-bf31-9c3a0f1398ad
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_CREATEDEVICE
+- D3D10DDIARG_CREATEDEVICE
 product:
 - Windows
 targetos: Windows

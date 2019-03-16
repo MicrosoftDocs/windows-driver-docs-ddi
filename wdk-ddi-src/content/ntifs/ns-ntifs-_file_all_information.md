@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ALL_INFORMATION
-title: "_FILE_ALL_INFORMATION"
+title: _FILE_ALL_INFORMATION (ntifs.h)
 description: The FILE_ALL_INFORMATION structure is a container for several FILE_XXX_INFORMATION structures.
 old-location: kernel\file_all_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	FILE_ALL_INFORMATION
+- FILE_ALL_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_DESTROY_CONTEXT
-title: DXGKDDI_MIRACAST_DESTROY_CONTEXT
+title: DXGKDDI_MIRACAST_DESTROY_CONTEXT (dispmprt.h)
 description: Destroys an instance of a Miracast device.
 old-location: display\dxgkddimiracastdestroycontext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiMiracastDestroyContext
+- DxgkDdiMiracastDestroyContext
 product:
 - Windows
 targetos: Windows

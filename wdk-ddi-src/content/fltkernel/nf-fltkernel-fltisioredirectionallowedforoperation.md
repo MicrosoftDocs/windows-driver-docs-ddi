@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsIoRedirectionAllowedForOperation
-title: FltIsIoRedirectionAllowedForOperation function
+title: FltIsIoRedirectionAllowedForOperation function (fltkernel.h)
 description: The FltIsIoRedirectionAllowedForOperation routine determines whether I/O can be redirected from the filter instance associated with the specified FLT_CALLBACK_DATA structure to the specified filter instance.
 old-location: ifsk\fltisioredirectionallowedforoperation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltIsIoRedirectionAllowedForOperation
+- FltIsIoRedirectionAllowedForOperation
 product:
 - Windows
 targetos: Windows

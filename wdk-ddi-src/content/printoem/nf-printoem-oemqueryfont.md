@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryFont
-title: OEMQueryFont function
+title: OEMQueryFont function (printoem.h)
 description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: print\oemqueryfont.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMQueryFont
+- OEMQueryFont
 product:
 - Windows
 targetos: Windows

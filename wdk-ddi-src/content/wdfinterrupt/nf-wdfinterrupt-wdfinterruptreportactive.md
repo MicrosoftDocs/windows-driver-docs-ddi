@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptReportActive
-title: WdfInterruptReportActive function
+title: WdfInterruptReportActive function (wdfinterrupt.h)
 description: The WdfInterruptReportActive informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines.
 old-location: wdf\wdfinterruptreportactive.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfInterruptReportActive
+- WdfInterruptReportActive
 product:
 - Windows
 targetos: Windows

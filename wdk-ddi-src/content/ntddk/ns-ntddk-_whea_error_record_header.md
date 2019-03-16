@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER
-title: "_WHEA_ERROR_RECORD_HEADER"
+title: _WHEA_ERROR_RECORD_HEADER (ntddk.h)
 description: The WHEA_ERROR_RECORD_HEADER structure describes general information about a hardware error condition.
 old-location: whea\whea_error_record_header.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_ERROR_RECORD_HEADER
+- WHEA_ERROR_RECORD_HEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYPROTECTEDSESSIONSTATUS
-title: "_D3DKMT_QUERYPROTECTEDSESSIONSTATUS"
+title: _D3DKMT_QUERYPROTECTEDSESSIONSTATUS (d3dkmthk.h)
 description: Used to query the status of the protected session.
 old-location: display\d3dkmt-queryprotectedsessionstatus.htm
 ms.assetid: c49b1c12-8757-4d15-807d-fdb963746810
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_QUERYPROTECTEDSESSIONSTATUS
+- D3DKMT_QUERYPROTECTEDSESSIONSTATUS
 product:
 - Windows
 targetos: Windows

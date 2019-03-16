@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTMULTIPLANEOVERLAYLIST
-title: "_DXGK_PRESENTMULTIPLANEOVERLAYLIST"
+title: _DXGK_PRESENTMULTIPLANEOVERLAYLIST (d3dkmddi.h)
 description: Specifies an overlay plane to display in a call to the DxgkDdiPresent function.
 old-location: display\dxgk_presentmultiplaneoverlaylist.htm
 ms.assetid: 970b3155-9e81-4725-90ee-079339c1d5c5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_PRESENTMULTIPLANEOVERLAYLIST
+- DXGK_PRESENTMULTIPLANEOVERLAYLIST
 product:
 - Windows
 targetos: Windows

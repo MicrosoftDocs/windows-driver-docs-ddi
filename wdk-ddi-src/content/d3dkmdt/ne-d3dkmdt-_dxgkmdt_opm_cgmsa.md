@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_CGMSA
-title: "_DXGKMDT_OPM_CGMSA"
+title: _DXGKMDT_OPM_CGMSA (d3dkmdt.h)
 description: The DXGKMDT_OPM_CGMSA enumeration indicates the protection levels for a protected output that supports Content Generation Management System Analog (CGMS-A).
 old-location: display\dxgkmdt_opm_cgmsa.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_CGMSA
+- DXGKMDT_OPM_CGMSA
 product:
 - Windows
 targetos: Windows

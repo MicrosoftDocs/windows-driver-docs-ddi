@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePersistentEntry_IN
-title: "_RemovePersistentEntry_IN"
+title: _RemovePersistentEntry_IN (hbapiwmi.h)
 description: The RemovePersistentEntry_IN structure is used by a WMI client to deliver input parameter data to the RemovePersistentEntry WMI method.
 old-location: storage\removepersistententry_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	RemovePersistentEntry_IN
+- RemovePersistentEntry_IN
 product:
 - Windows
 targetos: Windows

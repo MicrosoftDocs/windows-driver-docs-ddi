@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_RUNTIME_STATE
-title: "_DXGK_POWER_RUNTIME_STATE"
+title: _DXGK_POWER_RUNTIME_STATE (d3dkmddi.h)
 description: Describes the characteristics of an idle state (an F-state).
 old-location: display\dxgk_power_runtime_state.htm
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_POWER_RUNTIME_STATE
+- DXGK_POWER_RUNTIME_STATE
 product:
 - Windows
 targetos: Windows

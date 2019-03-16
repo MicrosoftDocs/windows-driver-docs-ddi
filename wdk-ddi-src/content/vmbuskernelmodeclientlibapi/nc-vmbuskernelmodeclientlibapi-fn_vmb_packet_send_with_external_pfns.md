@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS
-title: FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS
+title: FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketSendWithExternalPfns function sends the data in a packet buffer or external data as an array of Page Frame Numbers (PFNs).
 tech.root: netvista
 ms.assetid: 680f7faf-6874-4c02-84b9-d919430ad386
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS
+- FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

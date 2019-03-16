@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortBufferUchar
-title: StorPortWritePortBufferUchar macro
+title: StorPortWritePortBufferUchar macro (storport.h)
 description: The StorPortWritePortBufferUchar routine writes a value to a specified register address.
 old-location: storage\storportwriteportbufferuchar.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortWritePortBufferUchar
+- StorPortWritePortBufferUchar
 product:
 - Windows
 targetos: Windows

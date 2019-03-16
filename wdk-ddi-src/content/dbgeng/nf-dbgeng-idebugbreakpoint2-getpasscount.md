@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetPassCount
-title: IDebugBreakpoint2::GetPassCount
+title: IDebugBreakpoint2::GetPassCount (dbgeng.h)
 description: The GetPassCount method returns the number of times that the target was originally required to reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getpasscount.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetPassCount
--	IDebugBreakpoint2.GetPassCount
+- IDebugBreakpoint.GetPassCount
+- IDebugBreakpoint2.GetPassCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:oprghdlr.ACPI_OP_REGION_CALLBACK
-title: ACPI_OP_REGION_CALLBACK
+title: ACPI_OP_REGION_CALLBACK (oprghdlr.h)
 description: 
 ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	oprghdlr.h
+- oprghdlr.h
 api_name: 
--	ACPI_OP_REGION_CALLBACK
+- ACPI_OP_REGION_CALLBACK
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

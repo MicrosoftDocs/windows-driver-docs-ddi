@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.SET_D3COLD_SUPPORT
-title: SET_D3COLD_SUPPORT
+title: SET_D3COLD_SUPPORT (wdm.h)
 description: The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state.
 old-location: kernel\setd3coldsupport.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SetD3ColdSupport
+- SetD3ColdSupport
 product:
 - Windows
 targetos: Windows

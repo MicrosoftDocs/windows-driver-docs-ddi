@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_102
-title: KSPROPERTY_TUNER_STATUS_S
+title: KSPROPERTY_TUNER_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 old-location: stream\ksproperty_tuner_status_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TUNER_STATUS_S
+- KSPROPERTY_TUNER_STATUS_S
 product:
 - Windows
 targetos: Windows

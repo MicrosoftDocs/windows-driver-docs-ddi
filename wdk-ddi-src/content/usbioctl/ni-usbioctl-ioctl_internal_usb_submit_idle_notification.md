@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
-title: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
+title: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION I/O request is used by drivers to inform the USB bus driver that a device is idle and can be suspended.
 old-location: buses\ioctl_internal_usb_submit_idle_notification.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
+- IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER_8021Q_INFO
-title: "_PD_BUFFER_8021Q_INFO"
+title: _PD_BUFFER_8021Q_INFO (ndis.h)
 description: This structure contains the IEEE 802.1Q information.
 old-location: netvista\pd_buffer_8021q_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	PD_BUFFER_8021Q_INFO
+- PD_BUFFER_8021Q_INFO
 product:
 - Windows
 targetos: Windows

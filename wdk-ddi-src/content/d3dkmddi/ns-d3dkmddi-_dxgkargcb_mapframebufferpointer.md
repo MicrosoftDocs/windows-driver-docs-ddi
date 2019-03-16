@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_MAPFRAMEBUFFERPOINTER
-title: _DXGKARGCB_MAPFRAMEBUFFERPOINTER
+title: _DXGKARGCB_MAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: Contains arguments used by the DxgkCbMapFrameBufferPointer callback function to map frame buffer pointer.
 ms.assetid: 8404fc1c-84e7-4758-90cd-39de1d4320f7
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_MAPFRAMEBUFFERPOINTER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_MAPFRAMEBUFFERPOINTER
+- _DXGKARGCB_MAPFRAMEBUFFERPOINTER
 product: 
 - Windows
 targetos: Windows

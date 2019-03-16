@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWINDEXEDPRIMITIVE
-title: PFND3DDDI_DRAWINDEXEDPRIMITIVE
+title: PFND3DDDI_DRAWINDEXEDPRIMITIVE (d3dumddi.h)
 description: The DrawIndexedPrimitive function draws indexed primitives that the Microsoft Direct3D runtime has not transformed the index data in.
 old-location: display\drawindexedprimitive.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DrawIndexedPrimitive
+- DrawIndexedPrimitive
 product:
 - Windows
 targetos: Windows

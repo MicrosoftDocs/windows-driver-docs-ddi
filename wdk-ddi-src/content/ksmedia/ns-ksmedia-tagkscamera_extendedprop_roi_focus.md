@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS
-title: tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS
+title: tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS (ksmedia.h)
 description: This structure contains the ROI info structure for focus.
 old-location: stream\kscamera_extendedprop_roi_focus.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_FOCUS
+- KSCAMERA_EXTENDEDPROP_ROI_FOCUS
 product:
 - Windows
 targetos: Windows

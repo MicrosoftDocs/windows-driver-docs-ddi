@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
-title: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
+title: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES (bthhfpddi.h)
 description: The IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES IOCTL returns KSPROPERTY_VALUES data for the KSPROPERTY_AUDIO_VOLUMELEVEL property.
 old-location: audio\ioctl_bthhfp_device_get_volumepropertyvalues.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
+- IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
 product:
 - Windows
 targetos: Windows

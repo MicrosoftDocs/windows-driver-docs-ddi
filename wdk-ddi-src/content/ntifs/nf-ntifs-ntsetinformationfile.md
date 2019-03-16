@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtSetInformationFile
-title: NtSetInformationFile function
+title: NtSetInformationFile function (ntifs.h)
 description: The ZwSetInformationFile routine changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetInformationFile
--	NtSetInformationFile
+- ZwSetInformationFile
+- NtSetInformationFile
 product:
 - Windows
 targetos: Windows

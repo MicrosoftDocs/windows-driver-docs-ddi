@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.get_Type
-title: IWDTFTarget2::get_Type
+title: IWDTFTarget2::get_Type (wdtf.h)
 description: Gets a value that identifies the depot that the target comes from.
 old-location: dtf\iwdtftarget2_type.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.Type
--	IWDTFTarget2.get_Type
+- IWDTFTarget2.Type
+- IWDTFTarget2.get_Type
 product:
 - Windows
 targetos: Windows

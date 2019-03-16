@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.WRITE_REGISTER_BUFFER_USHORT
-title: WRITE_REGISTER_BUFFER_USHORT function
+title: WRITE_REGISTER_BUFFER_USHORT function (wudfwdm.h)
 description: The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WRITE_REGISTER_BUFFER_USHORT
+- WRITE_REGISTER_BUFFER_USHORT
 product:
 - Windows
 targetos: Windows

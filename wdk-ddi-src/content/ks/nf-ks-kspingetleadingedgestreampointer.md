@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetLeadingEdgeStreamPointer
-title: KsPinGetLeadingEdgeStreamPointer function
+title: KsPinGetLeadingEdgeStreamPointer function (ks.h)
 description: The KsPinGetLeadingEdgeStreamPointer function acquires the leading edge stream pointer for the queue associated with the given pin.
 old-location: stream\kspingetleadingedgestreampointer.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetLeadingEdgeStreamPointer
+- KsPinGetLeadingEdgeStreamPointer
 product:
 - Windows
 targetos: Windows

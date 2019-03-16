@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction
-title: IWDTFSimulatedBatterySystemAction
+title: IWDTFSimulatedBatterySystemAction (wdtfsimulatedbatterysystemaction.h)
 description: IWDTFSimulatedBatterySystemAction Interface
 old-location: dtf\iwdtfsimulatedbatterysystemaction.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction
+- IWDTFSimulatedBatterySystemAction
 product:
 - Windows
 targetos: Windows

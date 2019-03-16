@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.RTL_QUERY_REGISTRY_ROUTINE
-title: RTL_QUERY_REGISTRY_ROUTINE
+title: RTL_QUERY_REGISTRY_ROUTINE (wdm.h)
 description: The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine.
 old-location: kernel\queryroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	QueryRoutine
+- QueryRoutine
 product:
 - Windows
 targetos: Windows

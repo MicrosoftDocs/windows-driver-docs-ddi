@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
-title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
+title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020 (d3d12umddi.h)
 description: Input stream flags.
 old-location: display\d3d12ddi_video_process_input_stream_flags.htm
 ms.assetid: 6BF1C31E-45F8-4921-87A2-53331530EAC4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
+- D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020
 product:
 - Windows
 targetos: Windows

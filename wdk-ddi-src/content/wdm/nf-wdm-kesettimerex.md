@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetTimerEx
-title: KeSetTimerEx function
+title: KeSetTimerEx function (wdm.h)
 description: The KeSetTimerEx routine sets the absolute or relative interval at which a timer object is to be set to a signaled state, optionally supplies a CustomTimerDpc routine to be executed when that interval expires, and optionally supplies a recurring interval for the timer.
 old-location: kernel\kesettimerex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetTimerEx
+- KeSetTimerEx
 product:
 - Windows
 targetos: Windows

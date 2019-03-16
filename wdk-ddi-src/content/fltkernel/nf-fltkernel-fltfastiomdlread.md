@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlRead
-title: FltFastIoMdlRead function
+title: FltFastIoMdlRead function (fltkernel.h)
 description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlMdlReadDev
+- FsRtlMdlReadDev
 product:
 - Windows
 targetos: Windows

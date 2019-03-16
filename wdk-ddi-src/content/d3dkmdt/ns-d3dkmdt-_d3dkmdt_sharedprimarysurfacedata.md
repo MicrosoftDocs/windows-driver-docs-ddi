@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_SHAREDPRIMARYSURFACEDATA
-title: "_D3DKMDT_SHAREDPRIMARYSURFACEDATA"
+title: _D3DKMDT_SHAREDPRIMARYSURFACEDATA (d3dkmdt.h)
 description: The D3DKMDT_SHAREDPRIMARYSURFACEDATA structure describes a shared primary surface.
 old-location: display\d3dkmdt_sharedprimarysurfacedata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_SHAREDPRIMARYSURFACEDATA
+- D3DKMDT_SHAREDPRIMARYSURFACEDATA
 product:
 - Windows
 targetos: Windows

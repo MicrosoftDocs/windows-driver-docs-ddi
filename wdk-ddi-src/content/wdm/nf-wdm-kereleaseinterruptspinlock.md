@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInterruptSpinLock
-title: KeReleaseInterruptSpinLock function
+title: KeReleaseInterruptSpinLock function (wdm.h)
 description: The KeReleaseInterruptSpinLock routine releases an interrupt spin lock acquired by KeAcquireInterruptSpinLock.
 old-location: kernel\kereleaseinterruptspinlock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseInterruptSpinLock
+- KeReleaseInterruptSpinLock
 product:
 - Windows
 targetos: Windows

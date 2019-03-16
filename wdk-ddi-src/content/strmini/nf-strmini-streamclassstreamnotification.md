@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassStreamNotification
-title: StreamClassStreamNotification function
+title: StreamClassStreamNotification function (strmini.h)
 description: Streams use the StreamClassStreamNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 old-location: stream\streamclassstreamnotification.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassStreamNotification
+- StreamClassStreamNotification
 product:
 - Windows
 targetos: Windows

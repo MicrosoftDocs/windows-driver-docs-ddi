@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateSpinLock
-title: NdisAllocateSpinLock function
+title: NdisAllocateSpinLock function (ndis.h)
 description: The NdisAllocateSpinLock function initializes a variable of type NDIS_SPIN_LOCK, used to synchronize access to resources shared among non-ISR driver functions.
 old-location: netvista\ndisallocatespinlock.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateSpinLock
+- NdisAllocateSpinLock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_RECEIVE
-title: "_NDIS_WWAN_SMS_RECEIVE"
+title: _NDIS_WWAN_SMS_RECEIVE (ndiswwan.h)
 description: The NDIS_WWAN_SMS_RECEIVE structure represents a list of received SMS messages and the number of messages in the list.
 old-location: netvista\ndis_wwan_sms_receive.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SMS_RECEIVE
+- NDIS_WWAN_SMS_RECEIVE
 product:
 - Windows
 targetos: Windows

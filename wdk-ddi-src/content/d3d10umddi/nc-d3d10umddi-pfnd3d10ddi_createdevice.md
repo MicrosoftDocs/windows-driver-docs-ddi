@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEDEVICE
-title: PFND3D10DDI_CREATEDEVICE
+title: PFND3D10DDI_CREATEDEVICE (d3d10umddi.h)
 description: The CreateDevice(D3D10) function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice_d3d10_.htm
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateDevice
+- CreateDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetExecutorConfig
-title: RIL_SetExecutorConfig function
+title: RIL_SetExecutorConfig function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setexecutorconfig.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_SetExecutorConfig
+- RIL_SetExecutorConfig
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
-title: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
+title: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND (ehstorbandmgmt.h)
 description: New bands are created on a band-managed storage device with the IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request. A new band is added to the table of band entries, which includes band location and security properties.
 old-location: storage\ioctl_ehstor_bandmgmt_create_band.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
+- IOCTL_EHSTOR_BANDMGMT_CREATE_BAND
 product:
 - Windows
 targetos: Windows

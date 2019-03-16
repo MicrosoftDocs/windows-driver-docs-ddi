@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcCreateContentMixed
-title: PcCreateContentMixed function
+title: PcCreateContentMixed function (portcls.h)
 description: The PcCreateContentMixed function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams.
 old-location: audio\pccreatecontentmixed.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcCreateContentMixed
+- PcCreateContentMixed
 product:
 - Windows
 targetos: Windows

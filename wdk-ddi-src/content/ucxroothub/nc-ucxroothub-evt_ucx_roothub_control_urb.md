@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxroothub.EVT_UCX_ROOTHUB_CONTROL_URB
-title: EVT_UCX_ROOTHUB_CONTROL_URB
+title: EVT_UCX_ROOTHUB_CONTROL_URB (ucxroothub.h)
 description: The client driver uses this callback type to implement handlers that UCX calls when it receives feature control requests on the USB hub.
 old-location: buses\evt_ucx_roothub_control_urb.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	PEVT_UCX_ROOTHUB_CONTROL_URB
+- PEVT_UCX_ROOTHUB_CONTROL_URB
 product:
 - Windows
 targetos: Windows

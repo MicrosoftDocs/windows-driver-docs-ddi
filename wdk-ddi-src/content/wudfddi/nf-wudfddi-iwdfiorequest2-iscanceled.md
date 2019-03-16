@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.IsCanceled
-title: IWDFIoRequest2::IsCanceled
+title: IWDFIoRequest2::IsCanceled (wudfddi.h)
 description: The IsCanceled method determines whether the I/O manager has attempted to cancel an I/O request.
 old-location: wdf\iwdfiorequest2_iscanceled.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.IsCanceled
+- IWDFIoRequest2.IsCanceled
 product:
 - Windows
 targetos: Windows

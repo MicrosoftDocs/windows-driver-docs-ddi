@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoReplaceFileObjectName
-title: IoReplaceFileObjectName function
+title: IoReplaceFileObjectName function (ntifs.h)
 description: The IoReplaceFileObjectName routine replaces the name of a file object.
 old-location: ifsk\ioreplacefileobjectname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReplaceFileObjectName
+- IoReplaceFileObjectName
 product:
 - Windows
 targetos: Windows

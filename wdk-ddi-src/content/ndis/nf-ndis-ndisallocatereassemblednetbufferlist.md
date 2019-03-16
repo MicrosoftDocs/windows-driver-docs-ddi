@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateReassembledNetBufferList
-title: NdisAllocateReassembledNetBufferList function
+title: NdisAllocateReassembledNetBufferList function (ndis.h)
 description: Call the NdisAllocateReassembledNetBufferList function to reassemble a fragmented NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatereassemblednetbufferlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateReassembledNetBufferList
+- NdisAllocateReassembledNetBufferList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateContiguousMemorySpecifyCache
-title: MmAllocateContiguousMemorySpecifyCache function
+title: MmAllocateContiguousMemorySpecifyCache function (ntddk.h)
 description: The MmAllocateContiguousMemorySpecifyCache routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateContiguousMemorySpecifyCache
+- MmAllocateContiguousMemorySpecifyCache
 product:
 - Windows
 targetos: Windows

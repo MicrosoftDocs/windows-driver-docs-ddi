@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore2.DeleteNamedValue
-title: IWDFNamedPropertyStore2::DeleteNamedValue
+title: IWDFNamedPropertyStore2::DeleteNamedValue (wudfddi.h)
 description: The DeleteNamedValue method deletes a value name from the registry.
 old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore2.DeleteNamedValue
+- IWDFNamedPropertyStore2.DeleteNamedValue
 product:
 - Windows
 targetos: Windows

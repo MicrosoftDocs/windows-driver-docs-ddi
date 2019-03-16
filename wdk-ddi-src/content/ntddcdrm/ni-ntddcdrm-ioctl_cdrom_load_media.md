@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_LOAD_MEDIA
-title: IOCTL_CDROM_LOAD_MEDIA
+title: IOCTL_CDROM_LOAD_MEDIA (ntddcdrm.h)
 description: Draws a protruding CDROM tray back into the drive.
 old-location: storage\ioctl_cdrom_load_media.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_LOAD_MEDIA
+- IOCTL_CDROM_LOAD_MEDIA
 product:
 - Windows
 targetos: Windows

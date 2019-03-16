@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis.__unnamed_enum_1
-title: NDIS_PD_COUNTER_TYPE
+title: NDIS_PD_COUNTER_TYPE (ndis.h)
 description: The NDIS_PD_COUNTER_TYPE enumeration defines types of PacketDirect Provider Interface (PDPI) counters. Its enumeration values are used in the Type member of the NDIS_PD_COUNTER_PARAMETERS structure.
 old-location: netvista\ndis_pd_counter_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_COUNTER_TYPE
+- NDIS_PD_COUNTER_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCEVENT_REQUEST
-title: "_PCEVENT_REQUEST"
+title: _PCEVENT_REQUEST (portcls.h)
 description: The PCEVENT_REQUEST structure specifies an event request.
 old-location: audio\pcevent_request.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PCEVENT_REQUEST
+- PCEVENT_REQUEST
 product:
 - Windows
 targetos: Windows

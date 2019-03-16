@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_DISABLE
-title: FN_VMB_CHANNEL_DISABLE
+title: FN_VMB_CHANNEL_DISABLE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelDisable function disables a channel, which closes it for client channels and revokes the channel offer for server channels. This function waits until the channel is completely torn down before it returns.
 tech.root: netvista
 ms.assetid: 514f0cad-c1c8-4bf5-beab-b2d834a395c9
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_DISABLE
+- FN_VMB_CHANNEL_DISABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VALUERANGE
-title: "_DXVADDI_VALUERANGE"
+title: _DXVADDI_VALUERANGE (d3dumddi.h)
 description: The DXVADDI_VALUERANGE structure describes values of a property (such as, the value spread and default value).
 old-location: display\dxvaddi_valuerange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_VALUERANGE
+- DXVADDI_VALUERANGE
 product:
 - Windows
 targetos: Windows

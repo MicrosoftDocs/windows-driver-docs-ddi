@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
-title: IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
+title: IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType (wudfusb.h)
 description: The GetCompletedUsbRequestType method retrieves the type of operation that the request to be completed contains.
 old-location: wdf\iwdfusbrequestcompletionparams_getcompletedusbrequesttype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
+- IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
 product:
 - Windows
 targetos: Windows

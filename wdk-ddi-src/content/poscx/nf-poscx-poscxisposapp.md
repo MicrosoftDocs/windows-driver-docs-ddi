@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxIsPosApp
-title: PosCxIsPosApp function
+title: PosCxIsPosApp function (poscx.h)
 description: PosCxIsPosApp checks if the open instance is associated with a point-of-service application.
 old-location: pos\poscxisposapp.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxIsPosApp
+- PosCxIsPosApp
 product:
 - Windows
 targetos: Windows

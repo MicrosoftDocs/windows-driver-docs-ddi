@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._PRINTER_EVENT_ATTRIBUTES_INFO
-title: "_PRINTER_EVENT_ATTRIBUTES_INFO"
+title: _PRINTER_EVENT_ATTRIBUTES_INFO (winddiui.h)
 description: The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
 old-location: print\printer_event_attributes_info.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	PRINTER_EVENT_ATTRIBUTES_INFO
+- PRINTER_EVENT_ATTRIBUTES_INFO
 product:
 - Windows
 targetos: Windows

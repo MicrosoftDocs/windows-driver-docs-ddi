@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmIsDriverVerifyingByAddress
-title: MmIsDriverVerifyingByAddress function
+title: MmIsDriverVerifyingByAddress function (wdm.h)
 description: The MmIsDriverVerifyingByAddress routine checks whether the kernel-mode driver that is identified by the specified image address is being verified or calls a driver that is being verified by Driver Verifier.
 old-location: kernel\mmisdriververifyingbyaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmIsDriverVerifyingByAddress
+- MmIsDriverVerifyingByAddress
 product:
 - Windows
 targetos: Windows

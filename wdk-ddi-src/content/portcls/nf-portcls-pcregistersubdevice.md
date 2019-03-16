@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterSubdevice
-title: PcRegisterSubdevice function
+title: PcRegisterSubdevice function (portcls.h)
 description: The PcRegisterSubdevice function registers a subdevice to make it available for use by clients.
 old-location: audio\pcregistersubdevice.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcRegisterSubdevice
+- PcRegisterSubdevice
 product:
 - Windows
 targetos: Windows

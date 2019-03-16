@@ -1,6 +1,6 @@
 ---
 UID: NS:hpmi._HPMI_QUERY_CAPABILITIES
-title: "_HPMI_QUERY_CAPABILITIES"
+title: _HPMI_QUERY_CAPABILITIES (hpmi.h)
 description: The HPMI_QUERY_CAPABILITIES structure is used to query HPMI capabilities.
 old-location: powermeter\hpmi_query_capabilities.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	HPMI_QUERY_CAPABILITIES
+- HPMI_QUERY_CAPABILITIES
 product:
 - Windows
 targetos: Windows

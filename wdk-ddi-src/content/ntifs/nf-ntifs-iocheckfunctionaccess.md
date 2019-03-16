@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckFunctionAccess
-title: IoCheckFunctionAccess function
+title: IoCheckFunctionAccess function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckfunctionaccess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IoCheckFunctionAccess
+- IoCheckFunctionAccess
 product:
 - Windows
 targetos: Windows

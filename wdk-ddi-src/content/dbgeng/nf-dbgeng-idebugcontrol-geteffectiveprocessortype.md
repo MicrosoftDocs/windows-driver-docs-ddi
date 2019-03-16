@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetEffectiveProcessorType
-title: IDebugControl::GetEffectiveProcessorType
+title: IDebugControl::GetEffectiveProcessorType (dbgeng.h)
 description: The GetEffectiveProcessorType method returns the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\geteffectiveprocessortype.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetEffectiveProcessorType
--	IDebugControl2.GetEffectiveProcessorType
--	IDebugControl3.GetEffectiveProcessorType
+- IDebugControl.GetEffectiveProcessorType
+- IDebugControl2.GetEffectiveProcessorType
+- IDebugControl3.GetEffectiveProcessorType
 product:
 - Windows
 targetos: Windows

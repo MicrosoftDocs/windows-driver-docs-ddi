@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_FLIP_INTERVAL_TYPE
-title: DXGI_DDI_FLIP_INTERVAL_TYPE
+title: DXGI_DDI_FLIP_INTERVAL_TYPE (dxgiddi.h)
 description: The DXGI_DDI_FLIP_INTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 old-location: display\dxgi_ddi_flip_interval_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_FLIP_INTERVAL_TYPE
+- DXGI_DDI_FLIP_INTERVAL_TYPE
 product:
 - Windows
 targetos: Windows

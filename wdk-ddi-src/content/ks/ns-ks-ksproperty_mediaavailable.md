@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_21
-title: KSPROPERTY_MEDIAAVAILABLE
+title: KSPROPERTY_MEDIAAVAILABLE (ks.h)
 description: The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter.
 old-location: stream\ksproperty_mediaavailable.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_MEDIAAVAILABLE
+- KSPROPERTY_MEDIAAVAILABLE
 product:
 - Windows
 targetos: Windows

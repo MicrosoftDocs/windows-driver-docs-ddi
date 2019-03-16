@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetSpecificFilterArgumentWide
-title: IDebugControl4::SetSpecificFilterArgumentWide
+title: IDebugControl4::SetSpecificFilterArgumentWide (dbgeng.h)
 description: The SetSpecificFilterArgumentWide method sets the value of filter argument for the specific filters that can have an argument.
 old-location: debugger\setspecificfilterargumentwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetSpecificFilterArgumentWide
+- IDebugControl4.SetSpecificFilterArgumentWide
 product:
 - Windows
 targetos: Windows

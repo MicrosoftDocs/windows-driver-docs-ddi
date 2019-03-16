@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressBuffer
-title: RtlDecompressBuffer function
+title: RtlDecompressBuffer function (ntifs.h)
 description: The RtlDecompressBuffer function decompresses an entire compressed buffer.
 old-location: ifsk\rtldecompressbuffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDecompressBuffer
+- RtlDecompressBuffer
 product:
 - Windows
 targetos: Windows

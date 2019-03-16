@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfdriversetupdeviceaction.IWDTFDriverSetupAction2
-title: IWDTFDriverSetupAction2
+title: IWDTFDriverSetupAction2 (wdtfdriversetupdeviceaction.h)
 description: Defines operations that control the target device during driver setup.
 old-location: dtf\iwdtfdriversetupaction2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupDeviceAction.Interop.dll
+- WDTFDriverSetupDeviceAction.Interop.dll
 api_name:
--	IWDTFDriverSetupAction2
+- IWDTFDriverSetupAction2
 product:
 - Windows
 targetos: Windows

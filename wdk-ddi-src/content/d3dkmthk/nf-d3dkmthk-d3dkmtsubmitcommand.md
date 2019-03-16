@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitCommand
-title: D3DKMTSubmitCommand function
+title: D3DKMTSubmitCommand function (d3dkmthk.h)
 description: D3DKMTSubmitCommand is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dkmtsubmitcommand.htm
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSubmitCommand
+- D3DKMTSubmitCommand
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.FindTranslatedEntry
-title: IResourceList::FindTranslatedEntry
+title: IResourceList::FindTranslatedEntry (portcls.h)
 description: The FindTranslatedEntry method returns a pointer to a translated entry of the specified type, or NULL if no such entry is found.
 old-location: audio\iresourcelist_findtranslatedentry.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.FindTranslatedEntry
+- IResourceList.FindTranslatedEntry
 product:
 - Windows
 targetos: Windows

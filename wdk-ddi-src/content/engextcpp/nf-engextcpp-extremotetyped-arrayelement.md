@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ArrayElement
-title: ExtRemoteTyped::ArrayElement
+title: ExtRemoteTyped::ArrayElement (engextcpp.h)
 description: The ArrayElement method returns the typed data in the specified array element of the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_arrayelement.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.ArrayElement
+- ExtRemoteTyped.ArrayElement
 product:
 - Windows
 targetos: Windows

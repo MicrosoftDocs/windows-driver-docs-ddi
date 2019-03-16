@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_4
-title: GNSS_SINGLESHOT_PARAM
+title: GNSS_SINGLESHOT_PARAM (gnssdriver.h)
 description: This structure defines the parameters for a single-shot fix session.
 old-location: gnss\gnss_singleshot_param.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_SINGLESHOT_PARAM
+- GNSS_SINGLESHOT_PARAM
 product:
 - Windows
 targetos: Windows

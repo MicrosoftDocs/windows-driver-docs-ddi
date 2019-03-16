@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PARK_SELECTION
-title: "_PEP_PPM_PARK_SELECTION"
+title: _PEP_PPM_PARK_SELECTION (pepfx.h)
 description: The PEP_PPM_PARK_SELECTION structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_PARK_SELECTION
+- PEP_PPM_PARK_SELECTION
 product:
 - Windows
 targetos: Windows

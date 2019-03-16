@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTTrimProcessCommitment
-title: D3DKMTTrimProcessCommitment function
+title: D3DKMTTrimProcessCommitment function (d3dkmthk.h)
 description: Trim process commitment.
 ms.assetid: a997c0c4-f047-4a09-a14d-a8a2b93a0d57
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTTrimProcessCommitment
+- D3DKMTTrimProcessCommitment
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

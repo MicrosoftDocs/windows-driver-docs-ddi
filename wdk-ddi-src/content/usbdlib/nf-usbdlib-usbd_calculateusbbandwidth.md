@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_CalculateUsbBandwidth
-title: USBD_CalculateUsbBandwidth function
+title: USBD_CalculateUsbBandwidth function (usbdlib.h)
 description: The USBD_CalculateUsbBandwidth routine has been deprecated in Windows XP and later operating systems. Do not use.
 old-location: buses\usbd_calculateusbbandwidth.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_CalculateUsbBandwidth
+- USBD_CalculateUsbBandwidth
 product:
 - Windows
 targetos: Windows

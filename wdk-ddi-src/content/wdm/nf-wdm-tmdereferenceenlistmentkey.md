@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmDereferenceEnlistmentKey
-title: TmDereferenceEnlistmentKey function
+title: TmDereferenceEnlistmentKey function (wdm.h)
 description: The TmDereferenceEnlistmentKey routine decrements the reference count for the key of a specified enlistment object.
 old-location: kernel\tmdereferenceenlistmentkey.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmDereferenceEnlistmentKey
+- TmDereferenceEnlistmentKey
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_FLUSH
-title: EVT_WDF_DMA_ENABLER_FLUSH
+title: EVT_WDF_DMA_ENABLER_FLUSH (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerFlush event callback function deallocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerflush.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaEnabler.h
+- WdfDmaEnabler.h
 api_name:
--	EvtDmaEnablerFlush
+- EvtDmaEnablerFlush
 product:
 - Windows
 targetos: Windows

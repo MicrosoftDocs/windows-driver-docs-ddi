@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_PD
-title: "_NDK_PD"
+title: _NDK_PD (ndkpi.h)
 description: The NDK_PD structure specifies the attributes of an NDK protection domain (PD) object.
 old-location: netvista\ndk_pd.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_PD
+- NDK_PD
 product:
 - Windows
 targetos: Windows

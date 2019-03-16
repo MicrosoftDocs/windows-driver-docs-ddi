@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_37
-title: GNSS_AGNSS_INJECTBLOB
+title: GNSS_AGNSS_INJECTBLOB (gnssdriver.h)
 description: This structure defines the format for AGNSS extended ephemeris injection.
 old-location: gnss\gnss_agnss_injectblob.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_AGNSS_INJECTBLOB
+- GNSS_AGNSS_INJECTBLOB
 product:
 - Windows
 targetos: Windows

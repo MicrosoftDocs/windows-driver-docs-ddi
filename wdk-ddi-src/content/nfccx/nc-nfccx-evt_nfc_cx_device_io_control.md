@@ -1,6 +1,6 @@
 ---
 UID: NC:nfccx.EVT_NFC_CX_DEVICE_IO_CONTROL
-title: EVT_NFC_CX_DEVICE_IO_CONTROL
+title: EVT_NFC_CX_DEVICE_IO_CONTROL (nfccx.h)
 description: Called by the NFC CX to send an unhandled IOCTL to the client driver.
 old-location: nfpdrivers\evtnfccxdeviceiocontrol_.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Requires same
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	EvtNfcCxDeviceIoControl
+- EvtNfcCxDeviceIoControl
 product:
 - Windows
 targetos: Windows

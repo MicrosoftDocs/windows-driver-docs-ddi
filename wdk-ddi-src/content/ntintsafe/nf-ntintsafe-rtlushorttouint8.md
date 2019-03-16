@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortToUInt8
-title: RtlUShortToUInt8 function
+title: RtlUShortToUInt8 function (ntintsafe.h)
 description: Converts a value of type USHORT to a value of type UINT8.
 old-location: kernel\rtlushorttouint8.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUShortToUInt8
+- RtlUShortToUInt8
 product:
 - Windows
 targetos: Windows

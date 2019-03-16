@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwUnmapViewOfSection
-title: ZwUnmapViewOfSection function
+title: ZwUnmapViewOfSection function (wdm.h)
 description: The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.
 old-location: kernel\zwunmapviewofsection.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwUnmapViewOfSection
--	NtUnmapViewOfSection
+- ZwUnmapViewOfSection
+- NtUnmapViewOfSection
 product:
 - Windows
 targetos: Windows

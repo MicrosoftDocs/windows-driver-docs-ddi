@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12umddi.DEFINE_ENUM_FLAG_OPERATORS~r40
-title: DEFINE_ENUM_FLAG_OPERATORS function
+title: DEFINE_ENUM_FLAG_OPERATORS function (d3d12umddi.h)
 description: Defines operator overloads to enable bit operations on enum values that are used to define flags.
 ms.assetid: 5cb4b764-b51d-4df5-8f08-1cf6246bedf0
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	DEFINE_ENUM_FLAG_OPERATORS
+- DEFINE_ENUM_FLAG_OPERATORS
 product: 
 - Windows
 targetos: Windows

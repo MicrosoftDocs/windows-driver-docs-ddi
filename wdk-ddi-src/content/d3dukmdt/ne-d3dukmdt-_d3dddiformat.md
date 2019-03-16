@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDIFORMAT
-title: "_D3DDDIFORMAT"
+title: _D3DDDIFORMAT (d3dukmdt.h)
 description: The D3DDDIFORMAT enumeration type contains values that identify surface formats.
 old-location: display\d3dddiformat.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDIFORMAT
+- D3DDDIFORMAT
 product:
 - Windows
 targetos: Windows

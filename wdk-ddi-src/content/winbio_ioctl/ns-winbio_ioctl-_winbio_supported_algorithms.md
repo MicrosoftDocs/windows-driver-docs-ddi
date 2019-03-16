@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SUPPORTED_ALGORITHMS
-title: "_WINBIO_SUPPORTED_ALGORITHMS"
+title: _WINBIO_SUPPORTED_ALGORITHMS (winbio_ioctl.h)
 description: The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS.
 old-location: biometric\winbio_supported_algorithms.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_SUPPORTED_ALGORITHMS
+- WINBIO_SUPPORTED_ALGORITHMS
 product:
 - Windows
 targetos: Windows

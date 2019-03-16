@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.WaitAsyncCompletion
-title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion
+title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion (wdtfinterfaces.h)
 description: Waits for the completion of any of the asynchronous events.
 old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.WaitAsyncCompletion
+- IWDTFSimpleIOStressAction2.WaitAsyncCompletion
 product:
 - Windows
 targetos: Windows

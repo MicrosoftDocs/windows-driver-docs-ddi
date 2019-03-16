@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeAttachProcess
-title: KeAttachProcess function
+title: KeAttachProcess function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\keattachprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	KeAttachProcess
+- KeAttachProcess
 product:
 - Windows
 targetos: Windows

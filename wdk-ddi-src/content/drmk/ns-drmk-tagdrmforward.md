@@ -1,6 +1,6 @@
 ---
 UID: NS:drmk.tagDRMFORWARD
-title: tagDRMFORWARD
+title: tagDRMFORWARD (drmk.h)
 description: The DRMFORWARD structure contains the information that the DRMK system driver needs in order to forward a DRM content ID to a device that handles protected content.
 old-location: audio\drmforward.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	DRMFORWARD
+- DRMFORWARD
 product:
 - Windows
 targetos: Windows

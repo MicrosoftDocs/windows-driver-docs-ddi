@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_7
-title: KSIOOPERATION
+title: KSIOOPERATION (ksproxy.h)
 description: 
 old-location: stream\ksiooperation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	KSIOOPERATION
+- KSIOOPERATION
 product:
 - Windows
 targetos: Windows

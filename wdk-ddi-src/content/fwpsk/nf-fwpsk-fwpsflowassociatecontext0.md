@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFlowAssociateContext0
-title: FwpsFlowAssociateContext0 function
+title: FwpsFlowAssociateContext0 function (fwpsk.h)
 description: The FwpsFlowAssociateContext0 function associates a callout driver-defined context with a data flow.Note  FwpsFlowAssociateContext0 is a specific version of FwpsFlowAssociateContext.
 old-location: netvista\fwpsflowassociatecontext0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsFlowAssociateContext0
+- FwpsFlowAssociateContext0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListInsertDescriptor
-title: WdfIoResourceListInsertDescriptor function
+title: WdfIoResourceListInsertDescriptor function (wdfresource.h)
 description: The WdfIoResourceListInsertDescriptor method inserts a resource descriptor into a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistinsertdescriptor.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoResourceListInsertDescriptor
+- WdfIoResourceListInsertDescriptor
 product:
 - Windows
 targetos: Windows

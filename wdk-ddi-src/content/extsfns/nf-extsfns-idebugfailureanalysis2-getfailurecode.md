@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureCode
-title: IDebugFailureAnalysis2::GetFailureCode
+title: IDebugFailureAnalysis2::GetFailureCode (extsfns.h)
 description: The GetFailureCode method gets the bug check code or exception code of a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFailureAnalysis2.GetFailureCode
+- IDebugFailureAnalysis2.GetFailureCode
 product:
 - Windows
 targetos: Windows

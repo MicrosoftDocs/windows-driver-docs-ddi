@@ -1,6 +1,6 @@
 ---
 UID: NC:systemrng.PENTROPY_SOURCE_CALLBACK_FUNCTION
-title: PENTROPY_SOURCE_CALLBACK_FUNCTION
+title: PENTROPY_SOURCE_CALLBACK_FUNCTION (systemrng.h)
 description: 
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	systemrng.h
+- systemrng.h
 api_name: 
--	PENTROPY_SOURCE_CALLBACK_FUNCTION
+- PENTROPY_SOURCE_CALLBACK_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

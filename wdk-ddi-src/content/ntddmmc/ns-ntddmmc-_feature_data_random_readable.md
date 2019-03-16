@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RANDOM_READABLE
-title: "_FEATURE_DATA_RANDOM_READABLE"
+title: _FEATURE_DATA_RANDOM_READABLE (ntddmmc.h)
 description: The FEATURE_DATA_RANDOM_READABLE structure contains data for the random readable feature.
 old-location: storage\feature_data_random_readable.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_RANDOM_READABLE
+- FEATURE_DATA_RANDOM_READABLE
 product:
 - Windows
 targetos: Windows

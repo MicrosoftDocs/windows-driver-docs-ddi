@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptDebugEventFilter
-title: ScriptDebugEventFilter
+title: ScriptDebugEventFilter (dbgmodel.h)
 description: Defines what debug event occurred.
 ms.assetid: c1778753-7c0d-4bd3-b817-19ece139a0ea
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptDebugEventFilter
-product: Windows
+- ScriptDebugEventFilter
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReadFile
-title: KsReadFile function
+title: KsReadFile function (ks.h)
 description: The KsReadFile function performs a read against the specified file object.
 old-location: stream\ksreadfile.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsReadFile
+- KsReadFile
 product:
 - Windows
 targetos: Windows

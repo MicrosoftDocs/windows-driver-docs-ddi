@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteTimer
-title: ExDeleteTimer function
+title: ExDeleteTimer function (wdm.h)
 description: The ExDeleteTimer routine deletes a timer object that was previously allocated by the ExAllocateTimer routine.
 old-location: kernel\exdeletetimer.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExDeleteTimer
+- ExDeleteTimer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.OutputSymbolByInlineContext
-title: IDebugSymbols4::OutputSymbolByInlineContext
+title: IDebugSymbols4::OutputSymbolByInlineContext (dbgeng.h)
 description: Specifies an output symbol by using an inline context.
 old-location: debugger\idebugsymbols4_outputsymbolbyinlinecontext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols4.OutputSymbolByInlineContext
+- IDebugSymbols4.OutputSymbolByInlineContext
 product:
 - Windows
 targetos: Windows

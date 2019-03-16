@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToLong
-title: RtlUIntToLong function
+title: RtlUIntToLong function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type LONG.
 old-location: kernel\rtluinttolong.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntToLong
+- RtlUIntToLong
 product:
 - Windows
 targetos: Windows

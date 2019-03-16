@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
-title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
+title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA (ehstorbandmgmt.h)
 description: Metadata associated with a band is set with an IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA request. The metadata for a band serves as a data area for a key manager application.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_metadata.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
+- IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA
 product:
 - Windows
 targetos: Windows

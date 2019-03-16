@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeMutex
-title: KeInitializeMutex function
+title: KeInitializeMutex function (wdm.h)
 description: The KeInitializeMutex routine initializes a mutex object, setting it to a signaled state.
 old-location: kernel\keinitializemutex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeMutex
+- KeInitializeMutex
 product:
 - Windows
 targetos: Windows

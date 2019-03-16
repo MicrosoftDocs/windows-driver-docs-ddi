@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053 (d3d12umddi.h)
 description: The video capability check for motion estimation.
 ms.assetid: a41a54fa-b634-4bc5-a499-bf7af9598bf9
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
+- D3D12DDI_VIDEO_MOTION_ESTIMATOR_DATA_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

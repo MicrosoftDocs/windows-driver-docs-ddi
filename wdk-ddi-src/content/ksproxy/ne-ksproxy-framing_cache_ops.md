@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_2
-title: FRAMING_CACHE_OPS
+title: FRAMING_CACHE_OPS (ksproxy.h)
 description: 
 old-location: stream\framing_cache_ops.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	FRAMING_CACHE_OPS
+- FRAMING_CACHE_OPS
 product:
 - Windows
 targetos: Windows

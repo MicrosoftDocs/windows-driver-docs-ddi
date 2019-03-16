@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetFileSizes
-title: CcSetFileSizes function
+title: CcSetFileSizes function (ntifs.h)
 description: The CcSetFileSizes routine updates the cache maps and section object for a cached file whose size has changed.
 old-location: ifsk\ccsetfilesizes.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetFileSizes
+- CcSetFileSizes
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceCreate
-title: UdecxUsbDeviceCreate function
+title: UdecxUsbDeviceCreate function (udecxusbdevice.h)
 description: Creates a USB Device Emulation (UDE) device object.
 old-location: buses\udecxusbdevicecreate.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceCreate
+- UdecxUsbDeviceCreate
 product:
 - Windows
 targetos: Windows

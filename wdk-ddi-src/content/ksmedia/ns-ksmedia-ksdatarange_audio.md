@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_20
-title: KSDATARANGE_AUDIO
+title: KSDATARANGE_AUDIO (ksmedia.h)
 description: The KSDATARANGE_AUDIO structure specifies a range of audio formats.
 old-location: audio\ksdatarange_audio.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDATARANGE_AUDIO
+- KSDATARANGE_AUDIO
 product:
 - Windows
 targetos: Windows

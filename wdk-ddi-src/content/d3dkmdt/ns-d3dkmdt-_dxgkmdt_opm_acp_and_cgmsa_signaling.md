@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
-title: "_DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING"
+title: _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING (d3dkmdt.h)
 description: The DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure describes how the signal that goes through the physical connector that is associated with the protected output object is protected.
 old-location: display\dxgkmdt_opm_acp_and_cgmsa_signaling.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
+- DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_CONTROL
-title: DRIVER_CONTROL
+title: DRIVER_CONTROL (wdm.h)
 description: This routine starts a DMA data-transfer or a data transfer operation.
 old-location: kernel\adaptercontrol.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MyControl
+- MyControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.QueryInterface
-title: IKeyEnumerator::QueryInterface
+title: IKeyEnumerator::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns.
 ms.assetid: 4f870fe7-0c4f-4cf0-aa73-78802329d35d
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyEnumerator.QueryInterface
-product: Windows
+- IKeyEnumerator.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

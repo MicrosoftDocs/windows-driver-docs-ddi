@@ -1,6 +1,6 @@
 ---
 UID: NS:smcnt._OS_DEP_DATA
-title: "_OS_DEP_DATA"
+title: _OS_DEP_DATA (smcnt.h)
 description: The OS_DEP_DATA structure defines the data that is stored in the OsData member of the SMARTCARD_EXTENSION structure, which holds smart card information that is specific to the operating system.
 old-location: smartcrd\os_dep_data__wdm_.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	smcnt.h
+- smcnt.h
 api_name:
--	OS_DEP_DATA
+- OS_DEP_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:npivwmi._MSFC_VirtualFibrePortAttributes
-title: "_MSFC_VirtualFibrePortAttributes"
+title: _MSFC_VirtualFibrePortAttributes (npivwmi.h)
 description: The MSFC_VirtualFibrePortAttributes structure contains attribute information for a virtual port.
 old-location: storage\msfc_virtualfibreportattributes.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	npivwmi.h
+- npivwmi.h
 api_name:
--	MSFC_VirtualFibrePortAttributes
+- MSFC_VirtualFibrePortAttributes
 product:
 - Windows
 targetos: Windows

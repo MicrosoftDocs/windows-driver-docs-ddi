@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceConfigureRequestDispatching
-title: WdfDeviceConfigureRequestDispatching function
+title: WdfDeviceConfigureRequestDispatching function (wdfdevice.h)
 description: The WdfDeviceConfigureRequestDispatching method causes the framework to queue a specified type of I/O requests to a specified I/O queue.
 old-location: wdf\wdfdeviceconfigurerequestdispatching.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceConfigureRequestDispatching
+- WdfDeviceConfigureRequestDispatching
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.WriteTypedDataPhysical
-title: IDebugSymbols3::WriteTypedDataPhysical
+title: IDebugSymbols3::WriteTypedDataPhysical (dbgeng.h)
 description: The WriteTypedDataPhysical method writes the value of a variable in the target computer's physical memory.
 old-location: debugger\writetypeddataphysical.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.WriteTypedDataPhysical
--	IDebugSymbols2.WriteTypedDataPhysical
--	IDebugSymbols3.WriteTypedDataPhysical
+- IDebugSymbols.WriteTypedDataPhysical
+- IDebugSymbols2.WriteTypedDataPhysical
+- IDebugSymbols3.WriteTypedDataPhysical
 product:
 - Windows
 targetos: Windows

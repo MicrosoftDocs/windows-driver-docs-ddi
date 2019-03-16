@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_TIMEOUT
-title: "_FEATURE_DATA_TIMEOUT"
+title: _FEATURE_DATA_TIMEOUT (ntddmmc.h)
 description: The FEATURE_DATA_TIMEOUT structure holds information about the Time-Out feature.
 old-location: storage\feature_data_timeout.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_TIMEOUT
+- FEATURE_DATA_TIMEOUT
 product:
 - Windows
 targetos: Windows

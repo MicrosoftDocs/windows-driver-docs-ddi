@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_PMA_DATA
-title: "_CDROM_TOC_PMA_DATA"
+title: _CDROM_TOC_PMA_DATA (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_PMA return their output data in this structure optionally followed by a series of descriptors of type CDROM_TOC_FULL_TOC_DATA_BLOCK.
 old-location: storage\cdrom_toc_pma_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_TOC_PMA_DATA
+- CDROM_TOC_PMA_DATA
 product:
 - Windows
 targetos: Windows

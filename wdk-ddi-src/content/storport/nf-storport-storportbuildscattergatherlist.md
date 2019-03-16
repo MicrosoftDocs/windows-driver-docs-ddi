@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortBuildScatterGatherList
-title: StorPortBuildScatterGatherList function
+title: StorPortBuildScatterGatherList function (storport.h)
 description: The StorPortBuildScatterGatherList routine creates a scatter/gather list for the specified data buffer.
 old-location: storage\storportbuildscattergatherlist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortBuildScatterGatherList
+- StorPortBuildScatterGatherList
 product:
 - Windows
 targetos: Windows

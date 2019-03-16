@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
-title: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
+title: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE (d3d10umddi.h)
 description: Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 old-location: display\d3d11_1ddi_video_processor_custom_rate.htm
 ms.assetid: d7ea23de-1d2d-4a76-aa99-0b18bf50654c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
+- D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:miniport.PINTERFACE_DEREFERENCE
-title: PINTERFACE_DEREFERENCE
+title: PINTERFACE_DEREFERENCE (miniport.h)
 description: The InterfaceDereference routine decrements the reference count on a driver-defined interface.
 old-location: kernel\interfacedereference.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InterfaceDereference
+- InterfaceDereference
 product:
 - Windows
 targetos: Windows

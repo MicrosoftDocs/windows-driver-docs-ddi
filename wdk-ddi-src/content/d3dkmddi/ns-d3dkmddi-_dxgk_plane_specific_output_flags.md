@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
-title: "_DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS"
+title: _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS (d3dkmddi.h)
 description: A structure containing the flags that apply to a plane set by the driver.
 old-location: display\dxgk_plane_specific_output_flags.htm
 ms.assetid: 95D9C564-92F3-4165-8063-49D928F30475
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
+- DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 product:
 - Windows
 targetos: Windows

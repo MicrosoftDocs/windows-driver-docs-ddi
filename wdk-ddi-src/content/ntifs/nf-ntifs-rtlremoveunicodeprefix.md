@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlRemoveUnicodePrefix
-title: RtlRemoveUnicodePrefix function
+title: RtlRemoveUnicodePrefix function (ntifs.h)
 description: The RtlRemoveUnicodePrefix routine removes an element from a prefix table.
 old-location: ifsk\rtlremoveunicodeprefix.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlRemoveUnicodePrefix
+- RtlRemoveUnicodePrefix
 product:
 - Windows
 targetos: Windows

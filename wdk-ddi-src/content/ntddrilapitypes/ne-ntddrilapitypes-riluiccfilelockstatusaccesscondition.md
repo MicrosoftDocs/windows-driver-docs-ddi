@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCFILELOCKSTATUSACCESSCONDITION
-title: RILUICCFILELOCKSTATUSACCESSCONDITION
+title: RILUICCFILELOCKSTATUSACCESSCONDITION (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCFILELOCKSTATUSACCESSCONDITION.
 old-location: netvista\riluiccfilelockstatusaccesscondition.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCFILELOCKSTATUSACCESSCONDITION
+- RILUICCFILELOCKSTATUSACCESSCONDITION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateErrorLogEntry
-title: IoAllocateErrorLogEntry function
+title: IoAllocateErrorLogEntry function (wdm.h)
 description: The IoAllocateErrorLogEntry routine allocates an error log entry, and returns a pointer to the packet that the caller uses to supply information about an I/O error.
 old-location: kernel\ioallocateerrorlogentry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAllocateErrorLogEntry
+- IoAllocateErrorLogEntry
 product:
 - Windows
 targetos: Windows

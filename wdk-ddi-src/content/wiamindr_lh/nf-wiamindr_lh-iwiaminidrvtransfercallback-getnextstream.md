@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrvTransferCallback.GetNextStream
-title: IWiaMiniDrvTransferCallback::GetNextStream
+title: IWiaMiniDrvTransferCallback::GetNextStream (wiamindr_lh.h)
 description: Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
 old-location: image\iwiaminidrvtransfercallback_getnextstream.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiamindr_lh.h
+- Wiamindr_lh.h
 api_name:
--	IWiaMiniDrvTransferCallback.GetNextStream
+- IWiaMiniDrvTransferCallback.GetNextStream
 product:
 - Windows
 targetos: Windows

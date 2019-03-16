@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedDecrement
-title: InterlockedDecrement function
+title: InterlockedDecrement function (wdm.h)
 description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel
@@ -26,19 +26,19 @@ req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	OneCoreUAP.lib
--	OneCoreUAP.dll
--	API-MS-Win-Core-Interlocked-l1-1-0.dll
--	API-MS-Win-Core-Interlocked-l1-2-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
+- OneCoreUAP.lib
+- OneCoreUAP.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
--	InterlockedDecrement
+- InterlockedDecrement
 product:
 - Windows
 targetos: Windows

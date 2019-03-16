@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
-title: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA"
+title: _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver.
 old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
+- DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeSListHead
-title: StorPortInitializeSListHead function
+title: StorPortInitializeSListHead function (storport.h)
 description: Initializes the head of a Storport managed singly linked list.
 old-location: storage\storportinitializeslisthead.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeSListHead
+- StorPortInitializeSListHead
 product:
 - Windows
 targetos: Windows

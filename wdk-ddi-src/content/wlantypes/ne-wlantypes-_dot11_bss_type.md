@@ -1,6 +1,6 @@
 ---
 UID: NE:wlantypes._DOT11_BSS_TYPE
-title: "_DOT11_BSS_TYPE"
+title: _DOT11_BSS_TYPE (wlantypes.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlantypes.h
+- wlantypes.h
 api_name:
--	DOT11_BSS_TYPE
+- DOT11_BSS_TYPE
 product:
 - Windows
 targetos: Windows

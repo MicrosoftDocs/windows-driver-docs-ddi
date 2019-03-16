@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IDriverEntry
-title: IDriverEntry
+title: IDriverEntry (wudfddi.h)
 description: The IDriverEntry interface exposes the user-mode driver's main entry and exit points.
 old-location: wdf\idriverentry.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IDriverEntry
+- IDriverEntry
 product:
 - Windows
 targetos: Windows

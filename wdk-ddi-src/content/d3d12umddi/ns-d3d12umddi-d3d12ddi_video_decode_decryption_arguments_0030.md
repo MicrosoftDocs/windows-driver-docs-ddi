@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
-title: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
+title: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 (d3d12umddi.h)
 description: Video decode decryption arguments.
 old-location: display\d3d12ddi-video-decode-decryption-arguments-0030.htm
 ms.assetid: cdd89f48-1b27-4362-81b3-ed3b89b80b6e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
+- D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030
 product:
 - Windows
 targetos: Windows

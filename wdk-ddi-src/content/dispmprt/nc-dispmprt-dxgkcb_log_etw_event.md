@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_LOG_ETW_EVENT
-title: DXGKCB_LOG_ETW_EVENT
+title: DXGKCB_LOG_ETW_EVENT (dispmprt.h)
 description: The DxgkCbLogEtwEvent function logs an Event Tracing for Windows (ETW) event.
 old-location: display\dxgkcblogetwevent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbLogEtwEvent
+- DxgkCbLogEtwEvent
 product:
 - Windows
 targetos: Windows

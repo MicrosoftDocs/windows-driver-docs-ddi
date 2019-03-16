@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET_
-title: FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET_
+title: FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET_ (fwpsk.h)
 description: The FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET enumeration type specifies the data field identifiers for the FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET run-time filtering layer.
 old-location: netvista\fwps_fields_inbound_mac_frame_802_3.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET
+- FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET
 product:
 - Windows
 targetos: Windows

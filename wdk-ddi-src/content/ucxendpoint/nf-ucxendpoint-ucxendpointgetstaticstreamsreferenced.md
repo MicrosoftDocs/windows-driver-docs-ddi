@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointGetStaticStreamsReferenced
-title: UcxEndpointGetStaticStreamsReferenced function
+title: UcxEndpointGetStaticStreamsReferenced function (ucxendpoint.h)
 description: Returns a referenced static streams object for the specified endpoint.
 old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxEndpointGetStaticStreamsReferenced
+- UcxEndpointGetStaticStreamsReferenced
 product:
 - Windows
 targetos: Windows

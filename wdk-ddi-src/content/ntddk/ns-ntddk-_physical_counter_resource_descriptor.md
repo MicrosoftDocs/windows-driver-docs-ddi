@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
-title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
+title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR (ntddk.h)
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform.
 old-location: kernel\physical_counter_resource_descriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+- PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

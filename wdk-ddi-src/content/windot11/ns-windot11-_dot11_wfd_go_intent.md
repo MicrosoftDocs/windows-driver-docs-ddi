@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_GO_INTENT
-title: "_DOT11_WFD_GO_INTENT"
+title: _DOT11_WFD_GO_INTENT (windot11.h)
 description: The DOT11_WFD_GO_INTENT structure represents the Group Intent value used during Group Owner Negotiation
 old-location: netvista\_dot11_wfd_go_intent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_GO_INTENT
+- DOT11_WFD_GO_INTENT
 product:
 - Windows
 targetos: Windows

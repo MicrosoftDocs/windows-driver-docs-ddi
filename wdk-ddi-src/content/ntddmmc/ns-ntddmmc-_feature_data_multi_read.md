@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MULTI_READ
-title: "_FEATURE_DATA_MULTI_READ"
+title: _FEATURE_DATA_MULTI_READ (ntddmmc.h)
 description: The FEATURE_DATA_MULTI_READ structure contains data for the multiread feature.
 old-location: storage\feature_data_multi_read.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_MULTI_READ
+- FEATURE_DATA_MULTI_READ
 product:
 - Windows
 targetos: Windows

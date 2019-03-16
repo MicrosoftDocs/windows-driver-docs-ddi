@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointAbortComplete
-title: UcxEndpointAbortComplete function
+title: UcxEndpointAbortComplete function (ucxendpoint.h)
 description: Notifies UCX that a transfer abort operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointabortcomplete.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxEndpointAbortComplete
+- UcxEndpointAbortComplete
 product:
 - Windows
 targetos: Windows

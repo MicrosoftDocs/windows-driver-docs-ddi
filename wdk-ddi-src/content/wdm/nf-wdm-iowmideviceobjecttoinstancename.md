@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIDeviceObjectToInstanceName
-title: IoWMIDeviceObjectToInstanceName function
+title: IoWMIDeviceObjectToInstanceName function (wdm.h)
 description: The IoWMIDeviceObjectToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a device object.
 old-location: kernel\iowmideviceobjecttoinstancename.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIDeviceObjectToInstanceName
+- IoWMIDeviceObjectToInstanceName
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetDefaultClockState
-title: KsSetDefaultClockState function
+title: KsSetDefaultClockState function (ks.h)
 description: The KsSetDefaultClockState function sets the current state of the clock that is used to reflect the current state of the underlying filter pin.
 old-location: stream\kssetdefaultclockstate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetDefaultClockState
+- KsSetDefaultClockState
 product:
 - Windows
 targetos: Windows

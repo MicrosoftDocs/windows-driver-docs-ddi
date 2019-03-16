@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeContiguousMemorySpecifyCache
-title: StorPortFreeContiguousMemorySpecifyCache function
+title: StorPortFreeContiguousMemorySpecifyCache function (storport.h)
 description: The StorPortFreeContiguousMemorySpecifyCache routine deallocates a range of noncached memory in the nonpaged portion of the system address space.
 old-location: storage\storportfreecontiguousmemoryspecifycache.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortFreeContiguousMemorySpecifyCache
+- StorPortFreeContiguousMemorySpecifyCache
 product:
 - Windows
 targetos: Windows

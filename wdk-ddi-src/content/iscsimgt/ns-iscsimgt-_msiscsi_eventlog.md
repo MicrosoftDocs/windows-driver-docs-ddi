@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_Eventlog
-title: "_MSiSCSI_Eventlog"
+title: _MSiSCSI_Eventlog (iscsimgt.h)
 description: This MSiSCSI_EventLog method is used to log any messages to the event log.
 old-location: storage\msiscsi_eventlog.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Iscsimgt.h
+- Iscsimgt.h
 api_name:
--	MSiSCSI_EventLog
+- MSiSCSI_EventLog
 product:
 - Windows
 targetos: Windows

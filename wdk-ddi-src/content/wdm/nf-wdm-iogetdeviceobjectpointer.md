@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceObjectPointer
-title: IoGetDeviceObjectPointer function
+title: IoGetDeviceObjectPointer function (wdm.h)
 description: The IoGetDeviceObjectPointer routine returns a pointer to the top object in the named device object's stack and a pointer to the corresponding file object, if the requested access to the objects can be granted.
 old-location: kernel\iogetdeviceobjectpointer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceObjectPointer
+- IoGetDeviceObjectPointer
 product:
 - Windows
 targetos: Windows

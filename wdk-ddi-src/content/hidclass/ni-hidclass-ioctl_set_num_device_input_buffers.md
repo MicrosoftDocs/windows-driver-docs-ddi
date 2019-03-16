@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
-title: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
+title: IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS (hidclass.h)
 description: The IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS request sets the number of buffers for the input report queue of a top-level collection.
 old-location: hid\ioctl_set_num_device_input_buffers.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
+- IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS
 product:
 - Windows
 targetos: Windows

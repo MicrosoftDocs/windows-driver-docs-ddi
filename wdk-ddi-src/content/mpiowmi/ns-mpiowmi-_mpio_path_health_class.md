@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_PATH_HEALTH_CLASS
-title: "_MPIO_PATH_HEALTH_CLASS"
+title: _MPIO_PATH_HEALTH_CLASS (mpiowmi.h)
 description: The MPIO_PATH_HEALTH_CLASS structure represents the health information for a path.
 old-location: storage\mpio_path_health_class.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_PATH_HEALTH_CLASS
+- MPIO_PATH_HEALTH_CLASS
 product:
 - Windows
 targetos: Windows

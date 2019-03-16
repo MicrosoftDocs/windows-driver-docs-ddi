@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
-title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
+title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043 (d3d12umddi.h)
 description: Used to create a video processor.
 ms.assetid: ad4d456a-1dd6-4444-b8c4-877b317d559e
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
+- D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043
 product: 
 - Windows
 targetos: Windows

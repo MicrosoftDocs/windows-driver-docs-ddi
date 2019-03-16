@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._FSRTL_CHANGE_BACKING_TYPE
-title: "_FSRTL_CHANGE_BACKING_TYPE"
+title: _FSRTL_CHANGE_BACKING_TYPE (ntifs.h)
 description: The FSRTL_CHANGE_BACKING_TYPE enumeration specifies the type of cache or control area that a file object designates.
 old-location: ifsk\fsrtl_change_backing_type.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSRTL_CHANGE_BACKING_TYPE
+- FSRTL_CHANGE_BACKING_TYPE
 product:
 - Windows
 targetos: Windows

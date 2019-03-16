@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.RawWriteCommand
-title: IStiUSD::RawWriteCommand
+title: IStiUSD::RawWriteCommand (stiusd.h)
 description: A still image minidriver's IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istiusd_rawwritecommand.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.RawWriteCommand
+- IStiUSD.RawWriteCommand
 product:
 - Windows
 targetos: Windows

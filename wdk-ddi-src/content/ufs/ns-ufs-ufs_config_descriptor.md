@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_2
-title: UFS_CONFIG_DESCRIPTOR
+title: UFS_CONFIG_DESCRIPTOR (ufs.h)
 description: The UFS_CONFIG_DESCRIPTOR structure describes the modifiable values of the default device configuration set by the manufacturer.
 old-location: storage\ufs_config_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_CONFIG_DESCRIPTOR
+- UFS_CONFIG_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

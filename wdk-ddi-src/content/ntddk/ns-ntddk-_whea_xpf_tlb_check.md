@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_TLB_CHECK
-title: "_WHEA_XPF_TLB_CHECK"
+title: _WHEA_XPF_TLB_CHECK (ntddk.h)
 description: The WHEA_XPF_TLB_CHECK union describes translation lookaside buffer (TLB) error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_tlb_check.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_TLB_CHECK
+- WHEA_XPF_TLB_CHECK
 product:
 - Windows
 targetos: Windows

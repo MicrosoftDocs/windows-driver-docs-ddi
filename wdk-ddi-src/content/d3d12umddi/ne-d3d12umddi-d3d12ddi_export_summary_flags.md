@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_EXPORT_SUMMARY_FLAGS
-title: D3D12DDI_EXPORT_SUMMARY_FLAGS
+title: D3D12DDI_EXPORT_SUMMARY_FLAGS (d3d12umddi.h)
 description: Flags indicating properties the runtime has determined about a given shader export.
 ms.assetid: 3b2c93b4-4ec7-4208-8cdc-dba1bda085a9
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_EXPORT_SUMMARY_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_EXPORT_SUMMARY_FLAGS
+- D3D12DDI_EXPORT_SUMMARY_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

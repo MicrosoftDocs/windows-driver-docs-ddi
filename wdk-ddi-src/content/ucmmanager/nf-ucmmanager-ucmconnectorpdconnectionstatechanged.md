@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorPdConnectionStateChanged
-title: UcmConnectorPdConnectionStateChanged function
+title: UcmConnectorPdConnectionStateChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the connection capabilities of the currently negotiated PD contract (if any).
 old-location: buses\ucmconnectorpdconnectionstatechanged.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	UcmCxstub.lib
--	UcmCxstub.dll
+- UcmCxstub.lib
+- UcmCxstub.dll
 api_name:
--	UcmConnectorPdConnectionStateChanged
+- UcmConnectorPdConnectionStateChanged
 product:
 - Windows
 targetos: Windows

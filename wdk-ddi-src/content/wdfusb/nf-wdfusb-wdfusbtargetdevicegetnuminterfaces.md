@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceGetNumInterfaces
-title: WdfUsbTargetDeviceGetNumInterfaces function
+title: WdfUsbTargetDeviceGetNumInterfaces function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetNumInterfaces method returns the number of USB device interfaces that are supported by a specified USB device.
 old-location: wdf\wdfusbtargetdevicegetnuminterfaces.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfUsbTargetDeviceGetNumInterfaces
+- WdfUsbTargetDeviceGetNumInterfaces
 product:
 - Windows
 targetos: Windows

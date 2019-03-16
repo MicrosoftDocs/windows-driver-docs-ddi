@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT
-title: GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT
+title: GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT (gpioclx.h)
 description: The CLIENT_RestoreBankHardwareContext event callback function restores the hardware context of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_restorebankhardwarecontext.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_RestoreBankHardwareContext
+- CLIENT_RestoreBankHardwareContext
 product:
 - Windows
 targetos: Windows

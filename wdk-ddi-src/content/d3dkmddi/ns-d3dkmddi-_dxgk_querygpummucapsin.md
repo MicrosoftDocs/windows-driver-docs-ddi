@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYGPUMMUCAPSIN
-title: "_DXGK_QUERYGPUMMUCAPSIN"
+title: _DXGK_QUERYGPUMMUCAPSIN (d3dkmddi.h)
 description: The DXGK_QUERYGPUMMUCAPSIN structure holds the index of the adapter being queried.
 old-location: display\dxgk_querygpummucapsin.htm
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYGPUMMUCAPSIN
+- DXGK_QUERYGPUMMUCAPSIN
 product:
 - Windows
 targetos: Windows

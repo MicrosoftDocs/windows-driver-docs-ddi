@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRegisterForDataScan
-title: FltRegisterForDataScan function
+title: FltRegisterForDataScan function (fltkernel.h)
 description: The FltRegisterForDataScan routine enables data scanning for the volume attached to the minifilter instance.
 old-location: ifsk\fltregisterfordatascan.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltRegisterForDataScan
+- FltRegisterForDataScan
 product:
 - Windows
 targetos: Windows

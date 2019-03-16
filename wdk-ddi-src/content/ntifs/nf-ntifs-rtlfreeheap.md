@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeHeap
-title: RtlFreeHeap function
+title: RtlFreeHeap function (ntifs.h)
 description: The RtlFreeHeap routine frees a memory block that was allocated from a heap by RtlAllocateHeap.
 old-location: ifsk\rtlfreeheap.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFreeHeap
+- RtlFreeHeap
 product:
 - Windows
 targetos: Windows

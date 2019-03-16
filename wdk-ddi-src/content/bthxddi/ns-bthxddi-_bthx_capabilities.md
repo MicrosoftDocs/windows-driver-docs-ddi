@@ -1,6 +1,6 @@
 ---
 UID: NS:bthxddi._BTHX_CAPABILITIES
-title: "_BTHX_CAPABILITIES"
+title: _BTHX_CAPABILITIES (bthxddi.h)
 description: The BTHX_CAPABILITIES structure describes the capabilities of the Bluetooth Extensible Transport Driver.
 old-location: bltooth\bthx_capabilities.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	BthXDDI.h
+- BthXDDI.h
 api_name:
--	BTHX_CAPABILITIES
+- BTHX_CAPABILITIES
 product:
 - Windows
 targetos: Windows

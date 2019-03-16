@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ADJUSTFULLSCREENGAMMA
-title: PFND3DKMT_ADJUSTFULLSCREENGAMMA
+title: PFND3DKMT_ADJUSTFULLSCREENGAMMA (d3dkmthk.h)
 description: The PFND3DKMT_ADJUSTFULLSCREENGAMMA callback function adjusts to full screen gamma.
 ms.assetid: 0f0190e4-6c4a-4be7-8edb-e56faa25af69
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_ADJUSTFULLSCREENGAMMA
+- PFND3DKMT_ADJUSTFULLSCREENGAMMA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

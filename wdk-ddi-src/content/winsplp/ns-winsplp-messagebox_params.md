@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_7
-title: MESSAGEBOX_PARAMS
+title: MESSAGEBOX_PARAMS (winsplp.h)
 description: The MESSAGEBOX_PARAMS structure is used by the SplPromptUIInUsersSession function to hold information about the appearance and behavior of a message box.
 old-location: print\messagebox_params.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	MESSAGEBOX_PARAMS
+- MESSAGEBOX_PARAMS
 product:
 - Windows
 targetos: Windows

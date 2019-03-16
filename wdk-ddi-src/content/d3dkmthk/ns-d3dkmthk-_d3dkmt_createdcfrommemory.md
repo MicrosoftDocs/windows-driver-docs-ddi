@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEDCFROMMEMORY
-title: "_D3DKMT_CREATEDCFROMMEMORY"
+title: _D3DKMT_CREATEDCFROMMEMORY (d3dkmthk.h)
 description: The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
 old-location: display\d3dkmt_createdcfrommemory.htm
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEDCFROMMEMORY
+- D3DKMT_CREATEDCFROMMEMORY
 product:
 - Windows
 targetos: Windows

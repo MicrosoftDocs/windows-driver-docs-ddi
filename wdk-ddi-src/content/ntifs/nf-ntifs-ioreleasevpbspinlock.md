@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoReleaseVpbSpinLock
-title: IoReleaseVpbSpinLock function
+title: IoReleaseVpbSpinLock function (ntifs.h)
 description: The IoReleaseVpbSpinLock routine releases the Volume Parameter Block (VPB) spin lock.
 old-location: ifsk\ioreleasevpbspinlock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReleaseVpbSpinLock
+- IoReleaseVpbSpinLock
 product:
 - Windows
 targetos: Windows

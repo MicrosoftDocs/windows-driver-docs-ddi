@@ -1,6 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_2
-title: PMI_MEASUREMENT_UNIT
+title: PMI_MEASUREMENT_UNIT (pmi.h)
 description: The PMI_MEASUREMENT_UNIT enumeration defines the units of the PMI measurement data.
 old-location: powermeter\pmi_measurement_unit.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_MEASUREMENT_UNIT
+- PMI_MEASUREMENT_UNIT
 product:
 - Windows
 targetos: Windows

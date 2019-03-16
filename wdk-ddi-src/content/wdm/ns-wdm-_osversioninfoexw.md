@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OSVERSIONINFOEXW
-title: "_OSVERSIONINFOEXW"
+title: _OSVERSIONINFOEXW (wdm.h)
 description: The RTL_OSVERSIONINFOEXW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfoexw.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	RTL_OSVERSIONINFOEXW
+- RTL_OSVERSIONINFOEXW
 product:
 - Windows
 targetos: Windows

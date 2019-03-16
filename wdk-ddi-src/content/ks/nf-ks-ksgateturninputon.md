@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateTurnInputOn
-title: KsGateTurnInputOn function
+title: KsGateTurnInputOn function (ks.h)
 description: The KsGateTurnInputOn function turns on an existing input to Gate.
 old-location: stream\ksgateturninputon.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateTurnInputOn
+- KsGateTurnInputOn
 product:
 - Windows
 targetos: Windows

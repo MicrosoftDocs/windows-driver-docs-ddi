@@ -1,6 +1,6 @@
 ---
 UID: NF:netdatapathdescriptor.NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
-title: NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER macro
+title: NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER macro (netdatapathdescriptor.h)
 description: The NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER macro retrieves a datapath queue's fragment ring buffer.
 tech.root: netvista
 ms.assetid: 2bbf1079-abf9-4980-8b99-f392bbdfaa43
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netdatapathdescriptor.h
-apiname: 
--	NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netdatapathdescriptor.h
+api_name: 
+- NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:sddef._SDCMD_DESCRIPTOR
-title: "_SDCMD_DESCRIPTOR"
+title: _SDCMD_DESCRIPTOR (sddef.h)
 description: The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 old-location: sd\sdcmd_descriptor.htm
 tech.root: SD
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sddef.h
+- sddef.h
 api_name:
--	SDCMD_DESCRIPTOR
+- SDCMD_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

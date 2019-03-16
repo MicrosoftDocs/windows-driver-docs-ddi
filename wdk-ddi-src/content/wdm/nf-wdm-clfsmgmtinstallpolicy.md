@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtInstallPolicy
-title: ClfsMgmtInstallPolicy function
+title: ClfsMgmtInstallPolicy function (wdm.h)
 description: The ClfsMgmtInstallPolicy routine adds a CLFS_MGMT_POLICY structure to a physical log.
 old-location: kernel\clfsmgmtinstallpolicy.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsMgmtInstallPolicy
+- ClfsMgmtInstallPolicy
 product:
 - Windows
 targetos: Windows

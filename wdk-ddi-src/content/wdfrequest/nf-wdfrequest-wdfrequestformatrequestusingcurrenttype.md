@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestFormatRequestUsingCurrentType
-title: WdfRequestFormatRequestUsingCurrentType function
+title: WdfRequestFormatRequestUsingCurrentType function (wdfrequest.h)
 description: The WdfRequestFormatRequestUsingCurrentType method formats a specified I/O request so that the driver can forward it, unmodified, to the driver's local I/O target.
 old-location: wdf\wdfrequestformatrequestusingcurrenttype.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestFormatRequestUsingCurrentType
+- WdfRequestFormatRequestUsingCurrentType
 product:
 - Windows
 targetos: Windows

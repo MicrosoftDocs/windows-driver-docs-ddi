@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeature
-title: IPrintSchemaCapabilities::GetFeature
+title: IPrintSchemaCapabilities::GetFeature (printerextension.h)
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 old-location: print\iprintschemacapabilities_getfeature.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities.GetFeature
+- IPrintSchemaCapabilities.GetFeature
 product:
 - Windows
 targetos: Windows

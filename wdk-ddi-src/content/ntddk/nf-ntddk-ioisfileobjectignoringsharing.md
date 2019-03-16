@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoIsFileObjectIgnoringSharing
-title: IoIsFileObjectIgnoringSharing function
+title: IoIsFileObjectIgnoringSharing function (ntddk.h)
 description: The IoIsFileObjectIgnoringSharing routine determines if a file object is set with the option to ignore file sharing access checks.
 old-location: ifsk\ioisfileobjectignoringsharing.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIsFileObjectIgnoringSharing
+- IoIsFileObjectIgnoringSharing
 product:
 - Windows
 targetos: Windows

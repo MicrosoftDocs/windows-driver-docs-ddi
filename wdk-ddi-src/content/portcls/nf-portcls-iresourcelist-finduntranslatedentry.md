@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.FindUntranslatedEntry
-title: IResourceList::FindUntranslatedEntry
+title: IResourceList::FindUntranslatedEntry (portcls.h)
 description: The FindUntranslatedEntry method returns a pointer to an untranslated entry of the specified type, or NULL if no such pointer is found.
 old-location: audio\iresourcelist_finduntranslatedentry.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.FindUntranslatedEntry
+- IResourceList.FindUntranslatedEntry
 product:
 - Windows
 targetos: Windows

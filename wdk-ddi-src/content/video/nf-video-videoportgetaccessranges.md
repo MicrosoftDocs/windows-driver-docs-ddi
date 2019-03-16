@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetAccessRanges
-title: VideoPortGetAccessRanges function
+title: VideoPortGetAccessRanges function (video.h)
 description: The VideoPortGetAccessRanges function retrieves bus-relative configuration information and, if possible, claims these hardware resources in the registry for the caller.
 old-location: display\videoportgetaccessranges.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetAccessRanges
+- VideoPortGetAccessRanges
 product:
 - Windows
 targetos: Windows

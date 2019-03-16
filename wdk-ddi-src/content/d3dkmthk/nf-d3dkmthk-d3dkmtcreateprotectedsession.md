@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateProtectedSession
-title: D3DKMTCreateProtectedSession function
+title: D3DKMTCreateProtectedSession function (d3dkmthk.h)
 description: Used to create a protected session.
 old-location: display\d3dkmtcreateprotectedsession.htm
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateProtectedSession
+- D3DKMTCreateProtectedSession
 product:
 - Windows
 targetos: Windows

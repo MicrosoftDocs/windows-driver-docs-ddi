@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmBfeStateUnsubscribeChanges0
-title: FwpmBfeStateUnsubscribeChanges0 function
+title: FwpmBfeStateUnsubscribeChanges0 function (fwpmk.h)
 description: The FwpmBfeStateUnsubscribeChanges0 function deregisters a base filtering engine (BFE) callback function that was previously registered by calling the FwpmBfeStateSubscribeChanges0 function.Note  FwpmBfeStateUnsubscribeChanges0 is a specific version of FwpmBfeStateUnsubscribeChanges. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpmbfestateunsubscribechanges0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpmBfeStateUnsubscribeChanges0
+- FwpmBfeStateUnsubscribeChanges0
 product:
 - Windows
 targetos: Windows

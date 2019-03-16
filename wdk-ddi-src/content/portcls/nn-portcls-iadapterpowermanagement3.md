@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPowerManagement3
-title: IAdapterPowerManagement3
+title: IAdapterPowerManagement3 (portcls.h)
 description: The IAdapterPowerManagement3 interface inherits from IUnknown, and it is used for receiving power management messages.
 old-location: audio\iadapterpowermanagement3.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IAdapterPowerManagement3
+- IAdapterPowerManagement3
 product:
 - Windows
 targetos: Windows

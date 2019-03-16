@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
-title: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
+title: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION (dispmprt.h)
 description: The DxgkDdiOPMGetCOPPCompatibleInformation function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
 old-location: display\dxgkddiopmgetcoppcompatibleinformation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMGetCOPPCompatibleInformation
+- DxgkDdiOPMGetCOPPCompatibleInformation
 product:
 - Windows
 targetos: Windows

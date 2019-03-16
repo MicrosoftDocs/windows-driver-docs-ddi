@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetModuleNames
-title: IDebugSymbols::GetModuleNames
+title: IDebugSymbols::GetModuleNames (dbgeng.h)
 description: The GetModuleNames method returns the names of the specified module.
 old-location: debugger\getmodulenames.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetModuleNames
--	IDebugSymbols2.GetModuleNames
--	IDebugSymbols3.GetModuleNames
+- IDebugSymbols.GetModuleNames
+- IDebugSymbols2.GetModuleNames
+- IDebugSymbols3.GetModuleNames
 product:
 - Windows
 targetos: Windows

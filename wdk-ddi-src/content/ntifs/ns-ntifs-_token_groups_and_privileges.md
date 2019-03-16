@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_GROUPS_AND_PRIVILEGES
-title: "_TOKEN_GROUPS_AND_PRIVILEGES"
+title: _TOKEN_GROUPS_AND_PRIVILEGES (ntifs.h)
 description: TOKEN_GROUPS_AND_PRIVILEGES contains information about the group security identifiers (SIDs) and privileges in an access token.
 old-location: ifsk\token_groups_and_privileges.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_GROUPS_AND_PRIVILEGES
+- TOKEN_GROUPS_AND_PRIVILEGES
 product:
 - Windows
 targetos: Windows

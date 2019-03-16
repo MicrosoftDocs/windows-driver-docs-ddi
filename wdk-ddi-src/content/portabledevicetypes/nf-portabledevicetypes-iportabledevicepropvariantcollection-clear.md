@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.Clear
-title: IPortableDevicePropVariantCollection::Clear
+title: IPortableDevicePropVariantCollection::Clear (portabledevicetypes.h)
 description: Removes or frees all items in the collection. The collection is considered empty after calling this method.
 old-location: wpddk\iportabledevicepropvariantcollection_clear.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDevicePropVariantCollection.Clear
+- IPortableDevicePropVariantCollection.Clear
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

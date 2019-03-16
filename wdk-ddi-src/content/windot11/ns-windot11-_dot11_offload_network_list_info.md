@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_OFFLOAD_NETWORK_LIST_INFO
-title: "_DOT11_OFFLOAD_NETWORK_LIST_INFO"
+title: _DOT11_OFFLOAD_NETWORK_LIST_INFO (windot11.h)
 description: The DOT11_OFFLOAD_NETWORK_LIST_INFO structure describes a network offload-list (NLO).
 old-location: netvista\dot11_offload_network_list_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_OFFLOAD_NETWORK_LIST_INFO
+- DOT11_OFFLOAD_NETWORK_LIST_INFO
 product:
 - Windows
 targetos: Windows

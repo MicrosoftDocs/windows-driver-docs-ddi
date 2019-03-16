@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
-title: "_DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES"
+title: _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES describes the operation used copy page table entries from one location to another.
 old-location: display\dxgk_buildpagingbuffer_copypagetableentries.htm
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
+- DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES
 product:
 - Windows
 targetos: Windows

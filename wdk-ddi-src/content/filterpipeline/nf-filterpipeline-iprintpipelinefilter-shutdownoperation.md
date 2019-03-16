@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.ShutdownOperation
-title: IPrintPipelineFilter::ShutdownOperation
+title: IPrintPipelineFilter::ShutdownOperation (filterpipeline.h)
 description: The Pipeline Manager uses the ShutdownOperation method to shut down a filter if the print job is canceled or an error occurs.
 old-location: print\iprintpipelinefilter_shutdownoperation.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPrintPipelineFilter.ShutdownOperation
+- IPrintPipelineFilter.ShutdownOperation
 product:
 - Windows
 targetos: Windows

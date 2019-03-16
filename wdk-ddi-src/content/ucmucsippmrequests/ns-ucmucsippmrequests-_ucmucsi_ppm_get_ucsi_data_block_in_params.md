@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsippmrequests._UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
-title: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
+title: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS (ucmucsippmrequests.h)
 tech.root: usbref
 description: Contains a USCI data block for input to IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK.
 ms.assetid: 3ff1274f-918e-4181-b20b-4674b8048c44
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
-product: Windows
+- _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -41,7 +42,7 @@ Contains a USCI data block. This structure is the input buffer to the [IOCTL_UCM
 ## -struct-fields
 
 ### -field PpmObject
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md). 
+A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](../ucmucsippm/nf-ucmucsippm-ucmucsippmcreate.md). 
 
 ## -remarks
 

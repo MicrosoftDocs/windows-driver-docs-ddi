@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_ENABLE
-title: EVT_UCX_USBDEVICE_ENABLE
+title: EVT_UCX_USBDEVICE_ENABLE (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to program information about the device and its default control endpoint into the controller.
 old-location: buses\evt_ucx_usbdevice_enable.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_ENABLE
+- PEVT_UCX_USBDEVICE_ENABLE
 product:
 - Windows
 targetos: Windows

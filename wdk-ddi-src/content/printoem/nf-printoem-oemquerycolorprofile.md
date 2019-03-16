@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryColorProfile
-title: OEMQueryColorProfile function
+title: OEMQueryColorProfile function (printoem.h)
 description: OEMQueryColorProfile function
 old-location: print\oemquerycolorprofile.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMQueryColorProfile
+- OEMQueryColorProfile
 product:
 - Windows
 targetos: Windows

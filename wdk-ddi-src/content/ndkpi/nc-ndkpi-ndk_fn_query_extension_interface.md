@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_QUERY_EXTENSION_INTERFACE
-title: NDK_FN_QUERY_EXTENSION_INTERFACE
+title: NDK_FN_QUERY_EXTENSION_INTERFACE (ndkpi.h)
 description: The NdkQqueryExtensionInterface (NDK_FN_QUERY_EXTENSION_INTERFACE) function gets information about an NDK extension interface.
 old-location: netvista\ndk_fn_query_extension_interface.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkQqueryExtensionInterface
+- NdkQqueryExtensionInterface
 product:
 - Windows
 targetos: Windows

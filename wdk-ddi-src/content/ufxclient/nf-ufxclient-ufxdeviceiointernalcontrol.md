@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceIoInternalControl
-title: UfxDeviceIoInternalControl function
+title: UfxDeviceIoInternalControl function (ufxclient.h)
 description: Passes kernel mode IOCTLs to UFX.
 old-location: buses\ufxdeviceiointernalcontrol.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDeviceIoInternalControl
+- UfxDeviceIoInternalControl
 product:
 - Windows
 targetos: Windows

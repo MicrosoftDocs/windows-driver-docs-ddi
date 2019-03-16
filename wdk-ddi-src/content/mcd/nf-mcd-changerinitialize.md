@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerInitialize
-title: ChangerInitialize function
+title: ChangerInitialize function (mcd.h)
 description: ChangerInitialize readies the changer to receive other requests.
 old-location: storage\changerinitialize.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerInitialize
+- ChangerInitialize
 product:
 - Windows
 targetos: Windows

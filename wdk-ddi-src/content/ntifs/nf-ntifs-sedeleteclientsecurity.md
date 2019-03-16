@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeDeleteClientSecurity
-title: SeDeleteClientSecurity macro
+title: SeDeleteClientSecurity macro (ntifs.h)
 description: The SeDeleteClientSecurity routine deletes a client security context.
 old-location: ifsk\sedeleteclientsecurity.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SeDeleteClientSecurity
+- SeDeleteClientSecurity
 product:
 - Windows
 targetos: Windows

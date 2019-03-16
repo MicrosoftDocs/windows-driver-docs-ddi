@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_USSD_REQUEST
-title: "_NDIS_WWAN_USSD_REQUEST"
+title: _NDIS_WWAN_USSD_REQUEST (ndiswwan.h)
 description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS request.
 old-location: netvista\ndis_wwan_ussd_request.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_USSD_REQUEST
+- NDIS_WWAN_USSD_REQUEST
 product:
 - Windows
 targetos: Windows

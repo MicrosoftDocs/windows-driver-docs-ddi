@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinstaller.WDF_COINSTALLER_INSTALL_OPTIONS_INIT
-title: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function
+title: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function (wdfinstaller.h)
 description: The WDF_COINSTALLER_INSTALL_OPTIONS_INIT function initializes a WDF_COINSTALLER_INSTALL_OPTIONS structure.
 old-location: wdf\wdf_coinstaller_install_options_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinstaller.h
+- wdfinstaller.h
 api_name:
--	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
+- WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 product:
 - Windows
 targetos: Windows

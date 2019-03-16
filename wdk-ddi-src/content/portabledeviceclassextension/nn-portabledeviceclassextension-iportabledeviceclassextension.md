@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceclassextension.IPortableDeviceClassExtension
-title: IPortableDeviceClassExtension
+title: IPortableDeviceClassExtension (portabledeviceclassextension.h)
 description: Used by the device driver to support customized initialization, to enable a WPD interface globally unique identifier (GUID), or to ensure the correct application compatibility settings for a given device.To get this interface, call CoCreateInstance and pass in a class identifier (CLSID) of CLSID_PortableDeviceClassExtension and an instance identifier (IID) of IID_IPortableDeviceClassExtension.
 old-location: wpddk\iportabledeviceclassextension.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceClassExtension.h
+- PortableDeviceClassExtension.h
 api_name:
--	IPortableDeviceClassExtension
+- IPortableDeviceClassExtension
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

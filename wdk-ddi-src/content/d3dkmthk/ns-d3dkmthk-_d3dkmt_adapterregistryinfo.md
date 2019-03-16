@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERREGISTRYINFO
-title: "_D3DKMT_ADAPTERREGISTRYINFO"
+title: _D3DKMT_ADAPTERREGISTRYINFO (d3dkmthk.h)
 description: The D3DKMT_ADAPTERREGISTRYINFO structure contains registry information about the graphics adapter.
 old-location: display\d3dkmt_adapterregistryinfo.htm
 ms.assetid: b1bad6e8-8592-457a-8f66-40fc5040ae96
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_ADAPTERREGISTRYINFO
+- D3DKMT_ADAPTERREGISTRYINFO
 product:
 - Windows
 targetos: Windows

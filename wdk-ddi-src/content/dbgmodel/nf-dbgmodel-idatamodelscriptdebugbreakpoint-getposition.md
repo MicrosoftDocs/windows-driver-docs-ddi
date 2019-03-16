@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.GetPosition
-title: IDataModelScriptDebugBreakpoint::GetPosition
+title: IDataModelScriptDebugBreakpoint::GetPosition (dbgmodel.h)
 description: The GetPosition method returns the position of the breakpoint within the script.
 ms.assetid: cdc328af-b80c-45cb-b4a1-5b31e878014e
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugBreakpoint.GetPosition
-product: Windows
+- IDataModelScriptDebugBreakpoint.GetPosition
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

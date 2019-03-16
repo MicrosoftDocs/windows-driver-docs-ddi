@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_CONFIG
-title: D3D11_1DDI_VIDEO_DECODER_CONFIG
+title: D3D11_1DDI_VIDEO_DECODER_CONFIG (d3d10umddi.h)
 description: Describes the configuration of a Microsoft Direct3D 11 decoder device for Microsoft DirectX Video Acceleration (DXVA).
 old-location: display\d3d11_1ddi_video_decoder_config.htm
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_DECODER_CONFIG
+- D3D11_1DDI_VIDEO_DECODER_CONFIG
 product:
 - Windows
 targetos: Windows

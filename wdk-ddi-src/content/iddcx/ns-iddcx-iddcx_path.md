@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_PATH
-title: IDDCX_PATH
+title: IDDCX_PATH (iddcx.h)
 description: Call IDDCX_PATH_INIT to initialize this structure.
 old-location: display\iddcx_path.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_PATH
+- IDDCX_PATH
 product:
 - Windows
 targetos: Windows

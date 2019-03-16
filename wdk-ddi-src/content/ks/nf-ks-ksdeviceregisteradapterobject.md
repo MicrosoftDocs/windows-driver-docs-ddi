@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeviceRegisterAdapterObject
-title: KsDeviceRegisterAdapterObject function
+title: KsDeviceRegisterAdapterObject function (ks.h)
 description: The KsDeviceRegisterAdapterObject function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use IKsDeviceFunctions::RegisterAdapterObjectEx instead.
 old-location: stream\ksdeviceregisteradapterobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDeviceRegisterAdapterObject
+- KsDeviceRegisterAdapterObject
 product:
 - Windows
 targetos: Windows

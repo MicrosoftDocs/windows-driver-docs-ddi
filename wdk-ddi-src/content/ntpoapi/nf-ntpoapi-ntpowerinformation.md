@@ -1,6 +1,6 @@
 ---
 UID: NF:ntpoapi.NtPowerInformation
-title: NtPowerInformation function
+title: NtPowerInformation function (ntpoapi.h)
 description: The ZwPowerInformation routine sets or retrieves system power information.
 old-location: kernel\zwpowerinformation.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.lib
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.lib
+- Ntoskrnl.lib
 api_name:
--	ZwPowerInformation
--	NtPowerInformation
+- ZwPowerInformation
+- NtPowerInformation
 product:
 - Windows
 targetos: Windows

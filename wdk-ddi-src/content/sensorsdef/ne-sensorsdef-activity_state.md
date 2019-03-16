@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.ACTIVITY_STATE
-title: ACTIVITY_STATE
+title: ACTIVITY_STATE (sensorsdef.h)
 description: This enumeration represents the activity states reported by the activity detection sensor.
 old-location: sensors\activity_states.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	ACTIVITY_STATE
+- ACTIVITY_STATE
 product:
 - Windows
 targetos: Windows

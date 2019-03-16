@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclic.Init
-title: IMiniportWaveCyclic::Init method
+title: IMiniportWaveCyclic::Init method (portcls.h)
 description: The Init method initializes the WaveCyclic miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 old-location: audio\iminiportwavecyclic_init.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWavweCyclic.Init
+- IMiniportWavweCyclic.Init
 product:
 - Windows
 targetos: Windows

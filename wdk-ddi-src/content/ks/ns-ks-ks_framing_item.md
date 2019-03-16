@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_41
-title: KS_FRAMING_ITEM
+title: KS_FRAMING_ITEM (ks.h)
 description: The KS_FRAMING_ITEM structure is used to declare allocator requirements on a kernel-mode pin.
 old-location: stream\ks_framing_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KS_FRAMING_ITEM
+- KS_FRAMING_ITEM
 product:
 - Windows
 targetos: Windows

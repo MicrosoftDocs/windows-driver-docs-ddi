@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDeviceObjects
-title: StorPortGetDeviceObjects function
+title: StorPortGetDeviceObjects function (storport.h)
 description: The StorPortGetDeviceObjects routine returns the device objects that are associated with the adapter device stack.
 old-location: storage\storportgetdeviceobjects.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetDeviceObjects
+- StorPortGetDeviceObjects
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfwdm.__unnamed_enum_0
-title: DEVICE_REGISTRY_PROPERTY
+title: DEVICE_REGISTRY_PROPERTY (wudfwdm.h)
 description: The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry.
 old-location: kernel\device_registry_property.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_REGISTRY_PROPERTY
+- DEVICE_REGISTRY_PROPERTY
 product:
 - Windows
 targetos: Windows

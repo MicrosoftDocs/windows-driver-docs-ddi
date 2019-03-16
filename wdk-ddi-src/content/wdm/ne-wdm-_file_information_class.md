@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._FILE_INFORMATION_CLASS
-title: "_FILE_INFORMATION_CLASS"
+title: _FILE_INFORMATION_CLASS (wdm.h)
 description: A value that specifies which structure to use to query or set information for a file object.
 old-location: ifsk\file_information_class.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
--	wdm.h
+- ntifs.h
+- wdm.h
 api_name:
--	FILE_INFORMATION_CLASS
+- FILE_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

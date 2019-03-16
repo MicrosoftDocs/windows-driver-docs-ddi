@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ABANDON_DEVICE
-title: "_PEP_ABANDON_DEVICE"
+title: _PEP_ABANDON_DEVICE (pepfx.h)
 description: The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system.
 old-location: kernel\pep_abandon_device.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ABANDON_DEVICE
+- PEP_ABANDON_DEVICE
 product:
 - Windows
 targetos: Windows

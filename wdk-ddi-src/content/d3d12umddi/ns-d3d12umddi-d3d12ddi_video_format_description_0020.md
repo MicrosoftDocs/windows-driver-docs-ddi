@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
-title: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
+title: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 (d3d12umddi.h)
 description: Defines the combination of a pixel format and color space for a resource content description.
 old-location: display\d3d12ddi_video_format_description.htm
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
+- D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
 product:
 - Windows
 targetos: Windows

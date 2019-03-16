@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdChangeOption
-title: KdChangeOption function
+title: KdChangeOption function (wdm.h)
 description: The KdChangeOption routine accesses and changes state in the kernel that is related to kernel debugging.
 old-location: devtest\kdchangeoption.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KdChangeOption
+- KdChangeOption
 product:
 - Windows
 targetos: Windows

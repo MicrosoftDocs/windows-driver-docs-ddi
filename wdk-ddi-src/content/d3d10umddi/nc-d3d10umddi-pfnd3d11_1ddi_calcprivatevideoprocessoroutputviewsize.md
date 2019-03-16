@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE
-title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE
+title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE (d3d10umddi.h)
 description: Returns the number of bytes that the driver requires to store private data for the video processor output view state.
 old-location: display\calcprivatevideoprocessoroutputviewsize.htm
 ms.assetid: 2cf09e91-e83b-47ae-bf34-037dc01d7e80
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CalcPrivateVideoProcessorOutputViewSize
+- CalcPrivateVideoProcessorOutputViewSize
 product:
 - Windows
 targetos: Windows

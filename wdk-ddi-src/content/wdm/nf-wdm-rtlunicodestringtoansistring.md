@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUnicodeStringToAnsiString
-title: RtlUnicodeStringToAnsiString function
+title: RtlUnicodeStringToAnsiString function (wdm.h)
 description: The RtlUnicodeStringToAnsiString routine converts a given Unicode string into an ANSI string.
 old-location: kernel\rtlunicodestringtoansistring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUnicodeStringToAnsiString
+- RtlUnicodeStringToAnsiString
 product:
 - Windows
 targetos: Windows

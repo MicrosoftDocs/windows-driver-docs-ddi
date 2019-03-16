@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryDeviceSupport
-title: OEMQueryDeviceSupport function
+title: OEMQueryDeviceSupport function (printoem.h)
 description: The OEMQueryDeviceSupport function returns requested device-specific information.
 old-location: print\oemquerydevicesupport.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMQueryDeviceSupport
+- OEMQueryDeviceSupport
 product:
 - Windows
 targetos: Windows

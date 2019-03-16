@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPresent
-title: D3DKMTPresent function
+title: D3DKMTPresent function (d3dkmthk.h)
 description: The D3DKMTPresent function submits a present command to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtpresent.htm
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTPresent
+- D3DKMTPresent
 product:
 - Windows
 targetos: Windows

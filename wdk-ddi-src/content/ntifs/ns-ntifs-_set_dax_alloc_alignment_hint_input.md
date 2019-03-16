@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
-title: "_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
+title: _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT (ntifs.h)
 description: This structure is for internal use only and should not be called from your code.
 old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+- SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 product:
 - Windows
 targetos: Windows

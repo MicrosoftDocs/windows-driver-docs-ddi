@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ENCRYPTION_KEY_CTRL_INPUT
-title: _ENCRYPTION_KEY_CTRL_INPUT
+title: _ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
 description: 
 ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_ENCRYPTION_KEY_CTRL_INPUT
+- _ENCRYPTION_KEY_CTRL_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

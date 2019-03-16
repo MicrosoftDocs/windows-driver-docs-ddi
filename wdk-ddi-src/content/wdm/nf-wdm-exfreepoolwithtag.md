@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFreePoolWithTag
-title: ExFreePoolWithTag function
+title: ExFreePoolWithTag function (wdm.h)
 description: The ExFreePoolWithTag routine deallocates a block of pool memory allocated with the specified tag.
 old-location: kernel\exfreepoolwithtag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExFreePoolWithTag
+- ExFreePoolWithTag
 product:
 - Windows
 targetos: Windows

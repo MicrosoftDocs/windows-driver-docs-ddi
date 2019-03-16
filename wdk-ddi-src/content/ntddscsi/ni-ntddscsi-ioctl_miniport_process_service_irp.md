@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_PROCESS_SERVICE_IRP
-title: IOCTL_MINIPORT_PROCESS_SERVICE_IRP
+title: IOCTL_MINIPORT_PROCESS_SERVICE_IRP (ntddscsi.h)
 description: This IOCTL is used by a user-mode application or kernel-mode driver that requires notification when something of interest happens in the virtual miniport.
 old-location: storage\ioctl_miniport_process_service_irp.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	IOCTL_MINIPORT_PROCESS_SERVICE_IRP
+- IOCTL_MINIPORT_PROCESS_SERVICE_IRP
 product:
 - Windows
 targetos: Windows

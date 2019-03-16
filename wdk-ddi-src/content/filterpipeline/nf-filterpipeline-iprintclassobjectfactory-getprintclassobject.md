@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintClassObjectFactory.GetPrintClassObject
-title: IPrintClassObjectFactory::GetPrintClassObject
+title: IPrintClassObjectFactory::GetPrintClassObject (filterpipeline.h)
 description: The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
 old-location: print\iprintclassobjectfactory_getprintclassobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintClassObjectFactory.GetPrintClassObject
+- IPrintClassObjectFactory.GetPrintClassObject
 product:
 - Windows
 targetos: Windows

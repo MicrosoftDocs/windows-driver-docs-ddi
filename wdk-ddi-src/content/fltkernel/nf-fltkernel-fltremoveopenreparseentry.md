@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRemoveOpenReparseEntry
-title: FltRemoveOpenReparseEntry function
+title: FltRemoveOpenReparseEntry function (fltkernel.h)
 description: This routine removes an OPEN_REPARSE_LIST_ENTRY structure (added by FltAddOpenReparseEntry) from a create operation.
 old-location: ifsk\fltremoveopenreparseentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltKernel.h
+- fltKernel.h
 api_name:
--	FltAddOpenReparseEntry
+- FltAddOpenReparseEntry
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CAPABILITIES
-title: "_NDIS_NDK_CAPABILITIES"
+title: _NDIS_NDK_CAPABILITIES (ntddndis.h)
 description: The NDIS_NDK_CAPABILITIES structure specifies the capabilities of an NDK adapter.
 old-location: netvista\ndis_ndk_capabilities.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_NDK_CAPABILITIES
+- NDIS_NDK_CAPABILITIES
 product:
 - Windows
 targetos: Windows

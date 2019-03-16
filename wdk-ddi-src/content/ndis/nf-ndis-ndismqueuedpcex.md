@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMQueueDpcEx
-title: NdisMQueueDpcEx function
+title: NdisMQueueDpcEx function (ndis.h)
 description: NDIS miniport drivers call the NdisMQueueDpcEx function to schedule DPC calls on CPUs.
 old-location: netvista\ndismqueuedpcex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMQueueDpcEx
+- NdisMQueueDpcEx
 product:
 - Windows
 targetos: Windows

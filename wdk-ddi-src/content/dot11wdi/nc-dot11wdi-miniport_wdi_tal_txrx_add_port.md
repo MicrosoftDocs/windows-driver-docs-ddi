@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_ADD_PORT
-title: MINIPORT_WDI_TAL_TXRX_ADD_PORT
+title: MINIPORT_WDI_TAL_TXRX_ADD_PORT (dot11wdi.h)
 description: The MiniportWdiTalTxRxAddPort handler function notifies the datapath components of the creation of a new virtual port.
 old-location: netvista\miniportwditaltxrxaddport.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTalTxRxAddPort
+- MiniportWdiTalTxRxAddPort
 product:
 - Windows
 targetos: Windows

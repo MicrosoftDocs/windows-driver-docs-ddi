@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfwdm.PINTERFACE_REFERENCE
-title: PINTERFACE_REFERENCE
+title: PINTERFACE_REFERENCE (wudfwdm.h)
 description: The InterfaceReference routine increments the reference count on a driver-defined interface.
 old-location: kernel\interfacereference.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InterfaceReference
+- InterfaceReference
 product:
 - Windows
 targetos: Windows

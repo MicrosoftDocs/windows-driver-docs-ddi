@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_REGISTER_CRASHDUMP_DEVICE
-title: "_PEP_REGISTER_CRASHDUMP_DEVICE"
+title: _PEP_REGISTER_CRASHDUMP_DEVICE (pepfx.h)
 description: The PEP_REGISTER_CRASHDUMP_DEVICE structure provides a callback routine to turn on a crash-dump device.
 old-location: kernel\pep_register_crashdump_device.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_REGISTER_CRASHDUMP_DEVICE
+- PEP_REGISTER_CRASHDUMP_DEVICE
 product:
 - Windows
 targetos: Windows

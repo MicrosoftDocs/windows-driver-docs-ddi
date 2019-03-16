@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CONFIGURESHAREDRESOURCE
-title: PFND3DKMT_CONFIGURESHAREDRESOURCE
+title: PFND3DKMT_CONFIGURESHAREDRESOURCE (d3dkmthk.h)
 description: The D3DKMTConfigureSharedResource function configures a shared resource.
 old-location: display\d3dkmtconfiguresharedresource.htm
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTConfigureSharedResource
+- D3DKMTConfigureSharedResource
 product:
 - Windows
 targetos: Windows

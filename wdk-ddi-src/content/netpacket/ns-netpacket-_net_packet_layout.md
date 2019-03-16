@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_LAYOUT
-title: _NET_PACKET_LAYOUT
+title: _NET_PACKET_LAYOUT (netpacket.h)
 description: A NET_PACKET_LAYOUT structure describes the start of each protocol header in a NET_PACKET.
 tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_LAYOUT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpacket.h
-apiname: 
--	NET_PACKET_LAYOUT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpacket.h
+api_name: 
+- NET_PACKET_LAYOUT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

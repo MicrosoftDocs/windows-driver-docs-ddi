@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
-title: EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
+title: EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY (sensorscx.h)
 description: Clears the history recorded so far in the sensor.
 ms.assetid: f38c9a95-78ec-4839-a57d-14229fb5e297
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
+- EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CONTEXT_V2
-title: _WWAN_CONTEXT_V2
+title: _WWAN_CONTEXT_V2 (wwan.h)
 description: The WWAN_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device. This structure extends the existing WWAN_CONTEXT structure. 
 tech.root: netvista
 ms.assetid: 8f62c242-bfae-45f3-8772-f64b61fabc33
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_CONTEXT_V2, *PWWAN_CONTEXT_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_V2
+- _WWAN_CONTEXT_V2
 product: 
 - Windows
 targetos: Windows

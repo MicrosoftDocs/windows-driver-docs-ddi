@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignRawDevice
-title: WdfPdoInitAssignRawDevice function
+title: WdfPdoInitAssignRawDevice function (wdfpdo.h)
 description: The WdfPdoInitAssignRawDevice method indicates that the calling driver can support a specified device in raw mode.
 old-location: wdf\wdfpdoinitassignrawdevice.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoInitAssignRawDevice
+- WdfPdoInitAssignRawDevice
 product:
 - Windows
 targetos: Windows
@@ -66,8 +66,8 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 A pointer to a GUID that identifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">device setup class</a>.
 
-<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>
-<div> </div>
+**Note**    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.
+
 For more information, see the following Remarks section.
 
 

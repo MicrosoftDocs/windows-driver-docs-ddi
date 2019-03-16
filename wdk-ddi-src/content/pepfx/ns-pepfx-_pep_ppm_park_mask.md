@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PARK_MASK
-title: "_PEP_PPM_PARK_MASK"
+title: _PEP_PPM_PARK_MASK (pepfx.h)
 description: The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask.
 old-location: kernel\pep_ppm_park_mask.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_PARK_MASK
+- PEP_PPM_PARK_MASK
 product:
 - Windows
 targetos: Windows

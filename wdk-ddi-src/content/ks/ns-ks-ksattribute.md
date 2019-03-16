@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_31
-title: KSATTRIBUTE
+title: KSATTRIBUTE (ks.h)
 description: The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the KSDATAFORMAT and KSDATARANGE structures or the extended information based on the format and range specifiers.
 old-location: stream\ksattribute.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSATTRIBUTE
+- KSATTRIBUTE
 product:
 - Windows
 targetos: Windows

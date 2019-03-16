@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnProcessWpdMessage
-title: ISensorDriver::OnProcessWpdMessage
+title: ISensorDriver::OnProcessWpdMessage (sensorsclassextension.h)
 description: The ISensorDriver::OnProcessWpdMessage method handles Windows Portable Device (WPD) commands that the ISensorClassExtension::ProcessIoControl method does not handle internally.
 old-location: sensors\isensordriver_onprocesswpdmessage.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnProcessWpdMessage
+- OnProcessWpdMessage
 product:
 - Windows
 targetos: Windows

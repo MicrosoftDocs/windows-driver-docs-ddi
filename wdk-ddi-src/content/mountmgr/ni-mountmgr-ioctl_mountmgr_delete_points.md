@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_DELETE_POINTS
-title: IOCTL_MOUNTMGR_DELETE_POINTS
+title: IOCTL_MOUNTMGR_DELETE_POINTS (mountmgr.h)
 description: This IOCTL is identical in input and output to IOCTL_MOUNTMGR_QUERY_POINTS. The difference is that IOCTL_MOUNTMGR_DELETE_POINTS has the side effect of deleting the symbolic links and the mount manager database entries for the triples returned.
 old-location: storage\ioctl_mountmgr_delete_points.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountmgr.h
+- Mountmgr.h
 api_name:
--	IOCTL_MOUNTMGR_DELETE_POINTS
+- IOCTL_MOUNTMGR_DELETE_POINTS
 product:
 - Windows
 targetos: Windows

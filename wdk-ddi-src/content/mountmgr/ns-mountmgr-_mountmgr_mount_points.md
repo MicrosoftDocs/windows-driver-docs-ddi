@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_MOUNT_POINTS
-title: "_MOUNTMGR_MOUNT_POINTS"
+title: _MOUNTMGR_MOUNT_POINTS (mountmgr.h)
 description: The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 old-location: storage\mountmgr_mount_points.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountmgr.h
+- mountmgr.h
 api_name:
--	MOUNTMGR_MOUNT_POINTS
+- MOUNTMGR_MOUNT_POINTS
 product:
 - Windows
 targetos: Windows

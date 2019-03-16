@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMoveMemory
-title: NdisMoveMemory macro
+title: NdisMoveMemory macro (ndis.h)
 description: The NdisMoveMemory function copies a specified number of bytes from one caller-supplied location to another.
 old-location: netvista\ndismovememory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMoveMemory
+- NdisMoveMemory
 product:
 - Windows
 targetos: Windows

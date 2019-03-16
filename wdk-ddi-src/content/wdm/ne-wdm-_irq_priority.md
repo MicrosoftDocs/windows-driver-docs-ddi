@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IRQ_PRIORITY
-title: "_IRQ_PRIORITY"
+title: _IRQ_PRIORITY (wdm.h)
 description: The IRQ_PRIORITY enumeration type indicates the priority the system should give to servicing a device's interrupts.
 old-location: kernel\irq_priority.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IRQ_PRIORITY
+- IRQ_PRIORITY
 product:
 - Windows
 targetos: Windows

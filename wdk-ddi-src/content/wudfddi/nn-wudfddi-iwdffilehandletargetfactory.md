@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFileHandleTargetFactory
-title: IWDFFileHandleTargetFactory
+title: IWDFFileHandleTargetFactory (wudfddi.h)
 description: The IWDFFileHandleTargetFactory interface is a factory interface that is used to create a file-handle-based target device object.
 old-location: wdf\iwdffilehandletargetfactory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFileHandleTargetFactory
+- IWDFFileHandleTargetFactory
 product:
 - Windows
 targetos: Windows

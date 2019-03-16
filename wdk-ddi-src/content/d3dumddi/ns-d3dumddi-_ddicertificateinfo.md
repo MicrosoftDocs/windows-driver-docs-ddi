@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICERTIFICATEINFO
-title: "_DDICERTIFICATEINFO"
+title: _DDICERTIFICATEINFO (d3dumddi.h)
 description: The DDICERTIFICATEINFO structure describes information about the certificate that the driver uses.
 old-location: display\ddicertificateinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DDICERTIFICATEINFO
+- DDICERTIFICATEINFO
 product:
 - Windows
 targetos: Windows

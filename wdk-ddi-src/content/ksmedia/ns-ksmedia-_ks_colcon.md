@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_COLCON
-title: "_KS_COLCON"
+title: _KS_COLCON (ksmedia.h)
 description: The KS_COLCON structure is used to describe color and contrast settings.
 old-location: stream\ks_colcon.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_COLCON
+- KS_COLCON
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:drmk.tagDRMRIGHTS
-title: tagDRMRIGHTS
+title: tagDRMRIGHTS (drmk.h)
 description: The DRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a port-class driver's stream object.
 old-location: audio\drmrights.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	DRMRIGHTS
+- DRMRIGHTS
 product:
 - Windows
 targetos: Windows

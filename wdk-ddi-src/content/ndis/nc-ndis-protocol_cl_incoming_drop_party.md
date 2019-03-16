@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_DROP_PARTY
-title: PROTOCOL_CL_INCOMING_DROP_PARTY
+title: PROTOCOL_CL_INCOMING_DROP_PARTY (ndis.h)
 description: The ProtocolClIncomingDropParty function is used by connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolclincomingdropparty.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClIncomingDropParty
+- ProtocolClIncomingDropParty
 product:
 - Windows
 targetos: Windows

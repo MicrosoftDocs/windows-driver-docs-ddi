@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._DS3DVECTOR
-title: "_DS3DVECTOR"
+title: _DS3DVECTOR (ksmedia.h)
 description: The DS3DVECTOR structure contains three-dimensional position coordinates, position vector components, or velocity vector components.
 old-location: audio\ds3dvector.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	DS3DVECTOR
+- DS3DVECTOR
 product:
 - Windows
 targetos: Windows

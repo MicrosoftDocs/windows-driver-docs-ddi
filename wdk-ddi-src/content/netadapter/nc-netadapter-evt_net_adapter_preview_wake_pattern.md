@@ -1,6 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN
-title: EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN
+title: EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN (netadapter.h)
 description: Implement this optional callback to reject wake patterns that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 2ce5d3bd-0719-4b5b-a416-370d743dce56
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netadapter.h
-apiname: 
--	EvtNetAdapterPreviewWakePattern
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netadapter.h
+api_name: 
+- EvtNetAdapterPreviewWakePattern
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

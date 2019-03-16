@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
-title: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+title: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY (d3dkmddi.h)
 description: Arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function, to allocate contiguous memory.
 ms.assetid: dce7b187-8ebf-4309-8769-29536b908e76
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+- _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 product: 
 - Windows
 targetos: Windows

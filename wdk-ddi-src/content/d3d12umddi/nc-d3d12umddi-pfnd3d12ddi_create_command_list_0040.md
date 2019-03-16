@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_LIST_0040
-title: PFND3D12DDI_CREATE_COMMAND_LIST_0040
+title: PFND3D12DDI_CREATE_COMMAND_LIST_0040 (d3d12umddi.h)
 description: Pointer to the CreateCommandList function that creates a command list.
 ms.assetid: 24bc19f0-9345-4c56-95cf-7b0c9a0f8840
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CREATE_COMMAND_LIST_0040
+- PFND3D12DDI_CREATE_COMMAND_LIST_0040
 product: 
 - Windows
 targetos: Windows

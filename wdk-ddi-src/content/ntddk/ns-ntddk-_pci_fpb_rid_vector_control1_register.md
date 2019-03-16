@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
-title: _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
+title: _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER (ntddk.h)
 description: The FPB RID Vector Control 1 Register. See section 7.y.3.
 tech.root: pci 
 ms.assetid: 768d7256-a4ab-4a4e-9d0d-be6d6e60421b
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_RID_VECTOR_CONTROL1_REGISTER, *PPCI_FPB_RID_VECTOR_CONTROL1_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
-product: Windows
+- _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocateExtraCreateParameter
-title: FsRtlAllocateExtraCreateParameter function
+title: FsRtlAllocateExtraCreateParameter function (ntifs.h)
 description: The FsRtlAllocateExtraCreateParameter routine allocates memory for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAllocateExtraCreateParameter
+- FsRtlAllocateExtraCreateParameter
 product:
 - Windows
 targetos: Windows

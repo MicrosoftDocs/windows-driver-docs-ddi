@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.CreateProcess
-title: IDebugEventCallbacksWide::CreateProcess
+title: IDebugEventCallbacksWide::CreateProcess (dbgeng.h)
 description: The CreateProcess callback method is called by the engine when a create-processdebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_createprocess.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacksWide.CreateProcess
+- IDebugEventCallbacksWide.CreateProcess
 product:
 - Windows
 targetos: Windows

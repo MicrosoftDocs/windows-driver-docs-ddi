@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VP_DEVICE_DESCRIPTION
-title: "_VP_DEVICE_DESCRIPTION"
+title: _VP_DEVICE_DESCRIPTION (video.h)
 description: The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
 old-location: display\vp_device_description.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VP_DEVICE_DESCRIPTION
+- VP_DEVICE_DESCRIPTION
 product:
 - Windows
 targetos: Windows

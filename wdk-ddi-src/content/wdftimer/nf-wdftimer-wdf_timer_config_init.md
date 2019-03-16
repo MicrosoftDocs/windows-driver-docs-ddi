@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WDF_TIMER_CONFIG_INIT
-title: WDF_TIMER_CONFIG_INIT function
+title: WDF_TIMER_CONFIG_INIT function (wdftimer.h)
 description: The WDF_TIMER_CONFIG_INIT function initializes a WDF_TIMER_CONFIG structure for a timer that will use a single due time.
 old-location: wdf\wdf_timer_config_init.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_TIMER_CONFIG_INIT
+- WDF_TIMER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

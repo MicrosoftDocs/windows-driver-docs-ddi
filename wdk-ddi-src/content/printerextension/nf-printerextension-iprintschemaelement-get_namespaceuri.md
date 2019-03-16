@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_NamespaceUri
-title: IPrintSchemaElement::get_NamespaceUri
+title: IPrintSchemaElement::get_NamespaceUri (printerextension.h)
 description: Gets the namespace URI value of the &#0034;name&#0034; attribute of this node.
 old-location: print\iprintschemaelement_namespaceuri.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaElement.NamespaceUri
--	IPrintSchemaElement.get_NamespaceUri
+- IPrintSchemaElement.NamespaceUri
+- IPrintSchemaElement.get_NamespaceUri
 product:
 - Windows
 targetos: Windows

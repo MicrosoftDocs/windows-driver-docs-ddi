@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
-title: "_DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT"
+title: _DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT (d3dkmddi.h)
 description: The DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT structure describes how to set the private-format attribute for a video present source.
 old-location: display\dxgkarg_setdisplayprivatedriverformat.htm
 ms.assetid: a09cfc9a-26e8-4984-b5c6-7ead5aa4644e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
+- DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT
 product:
 - Windows
 targetos: Windows

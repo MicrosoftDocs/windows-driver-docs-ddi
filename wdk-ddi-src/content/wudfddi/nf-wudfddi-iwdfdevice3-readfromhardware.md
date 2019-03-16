@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.ReadFromHardware
-title: IWDFDevice3::ReadFromHardware
+title: IWDFDevice3::ReadFromHardware (wudfddi.h)
 description: The ReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_readfromhardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.ReadFromHardware
+- IWDFDevice3.ReadFromHardware
 product:
 - Windows
 targetos: Windows

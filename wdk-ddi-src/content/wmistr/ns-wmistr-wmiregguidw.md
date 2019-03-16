@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.__unnamed_struct_1
-title: WMIREGGUIDW
+title: WMIREGGUIDW (wmistr.h)
 description: The WMIREGGUID structure contains new or updated registration information for a data block or event block.
 old-location: kernel\wmiregguid.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmistr.h
+- wmistr.h
 api_name:
--	WMIREGGUID
+- WMIREGGUID
 product:
 - Windows
 targetos: Windows

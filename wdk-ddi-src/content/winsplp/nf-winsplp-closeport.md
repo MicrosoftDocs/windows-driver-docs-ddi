@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ClosePort
-title: ClosePort function
+title: ClosePort function (winsplp.h)
 description: A language or port monitor's ClosePort function closes a printer port.
 old-location: print\closeport.htm
 tech.root: print
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	winsplp.h
-apiname:
--	ClosePort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- winsplp.h
+api_name:
+- ClosePort
 product:
 - Windows
 targetos: Windows

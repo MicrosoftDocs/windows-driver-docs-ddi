@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddsd.PSDBUS_INITIALIZE_INTERFACE_ROUTINE
-title: PSDBUS_INITIALIZE_INTERFACE_ROUTINE
+title: PSDBUS_INITIALIZE_INTERFACE_ROUTINE (ntddsd.h)
 description: The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver uses to initialize an interface instance that it creates with the SdBusOpenInterface routine.
 old-location: sd\psdbus_initialize_interface_routine.htm
 tech.root: SD
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddsd.h
+- ntddsd.h
 api_name:
--	InitializeInterface
+- InitializeInterface
 product:
 - Windows
 targetos: Windows

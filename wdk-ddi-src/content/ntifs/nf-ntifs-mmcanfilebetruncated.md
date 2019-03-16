@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmCanFileBeTruncated
-title: MmCanFileBeTruncated function
+title: MmCanFileBeTruncated function (ntifs.h)
 description: The MmCanFileBeTruncated routine checks whether a file can be truncated.
 old-location: ifsk\mmcanfilebetruncated.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmCanFileBeTruncated
+- MmCanFileBeTruncated
 product:
 - Windows
 targetos: Windows

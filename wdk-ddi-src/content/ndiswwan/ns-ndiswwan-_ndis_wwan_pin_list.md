@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PIN_LIST
-title: "_NDIS_WWAN_PIN_LIST"
+title: _NDIS_WWAN_PIN_LIST (ndiswwan.h)
 description: The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\ndis_wwan_pin_list.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_PIN_LIST
+- NDIS_WWAN_PIN_LIST
 product:
 - Windows
 targetos: Windows

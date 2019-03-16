@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
-title: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
+title: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO (ehstorbandmgmt.h)
 description: The IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO request relinquishes control of band management by the Trusted Computing Group (TCG) Storage Silo driver.
 old-location: storage\ioctl_ehstor_tcgdrv_relinquish_silo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
+- IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
 product:
 - Windows
 targetos: Windows

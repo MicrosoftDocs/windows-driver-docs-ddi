@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetOffsetInformation
-title: IDebugDataSpaces4::GetOffsetInformation
+title: IDebugDataSpaces4::GetOffsetInformation (dbgeng.h)
 description: The GetOffsetInformation method provides general information about an address in a process's data space.
 old-location: debugger\getoffsetinformation.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces4.GetOffsetInformation
+- IDebugDataSpaces4.GetOffsetInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockIsFastIoPossible
-title: FsRtlOplockIsFastIoPossible function
+title: FsRtlOplockIsFastIoPossible function (ntifs.h)
 description: FsRtlOplockIsFastIoPossible checks a file's opportunistic lock (oplock) state to determine whether fast I/O can be performed on the file.
 old-location: ifsk\fsrtloplockisfastiopossible.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlOplockIsFastIoPossible
+- FsRtlOplockIsFastIoPossible
 product:
 - Windows
 targetos: Windows

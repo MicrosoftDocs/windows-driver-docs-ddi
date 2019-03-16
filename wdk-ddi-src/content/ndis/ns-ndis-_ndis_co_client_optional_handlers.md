@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_CO_CLIENT_OPTIONAL_HANDLERS
-title: "_NDIS_CO_CLIENT_OPTIONAL_HANDLERS"
+title: _NDIS_CO_CLIENT_OPTIONAL_HANDLERS (ndis.h)
 description: The NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure specifies entry points for CoNDIS client ProtocolXxx functions for the protocol driver that passes this structure to the NdisSetOptionalHandlers function.
 old-location: netvista\ndis_co_client_optional_handlers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_CO_CLIENT_OPTIONAL_HANDLERS
+- NDIS_CO_CLIENT_OPTIONAL_HANDLERS
 product:
 - Windows
 targetos: Windows

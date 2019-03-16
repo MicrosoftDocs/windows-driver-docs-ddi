@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_DriverEntry
-title: USBCAMD_DriverEntry function
+title: USBCAMD_DriverEntry function (usbcamdi.h)
 description: The USBCAMD_DriverEntry function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
 old-location: stream\usbcamd_driverentry.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_DriverEntry
+- USBCAMD_DriverEntry
 product:
 - Windows
 targetos: Windows

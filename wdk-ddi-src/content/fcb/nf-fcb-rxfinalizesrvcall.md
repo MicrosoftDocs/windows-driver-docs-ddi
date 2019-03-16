@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeSrvCall
-title: RxFinalizeSrvCall function
+title: RxFinalizeSrvCall function (fcb.h)
 description: RxFinalizeSrvCall finalizes the given SRV_CALL structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxfinalizesrvcall.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxFinalizeSrvCall
+- RxFinalizeSrvCall
 product:
 - Windows
 targetos: Windows

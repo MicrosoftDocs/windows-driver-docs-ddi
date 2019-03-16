@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeFromName
-title: FltGetVolumeFromName function
+title: FltGetVolumeFromName function (fltkernel.h)
 description: The FltGetVolumeFromName routine returns an opaque pointer for the volume whose name matches the value of the VolumeName parameter.
 old-location: ifsk\fltgetvolumefromname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetVolumeFromName
+- FltGetVolumeFromName
 product:
 - Windows
 targetos: Windows

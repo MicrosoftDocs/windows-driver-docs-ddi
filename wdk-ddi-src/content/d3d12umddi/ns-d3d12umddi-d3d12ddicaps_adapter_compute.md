@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_ADAPTER_COMPUTE
-title: D3D12DDICAPS_ADAPTER_COMPUTE
+title: D3D12DDICAPS_ADAPTER_COMPUTE (d3d12umddi.h)
 description: Checks if the adapter is compatible with compute.
 ms.assetid: f750d808-1a5e-45c5-8cf6-4d1bf08443cf
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDICAPS_ADAPTER_COMPUTE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDICAPS_ADAPTER_COMPUTE
+- D3D12DDICAPS_ADAPTER_COMPUTE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

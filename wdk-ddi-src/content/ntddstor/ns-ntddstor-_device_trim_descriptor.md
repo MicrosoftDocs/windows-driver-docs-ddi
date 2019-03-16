@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_TRIM_DESCRIPTOR
-title: "_DEVICE_TRIM_DESCRIPTOR"
+title: _DEVICE_TRIM_DESCRIPTOR (ntddstor.h)
 description: The DEVICE_TRIM_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: storage\device_trim_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_TRIM_DESCRIPTOR
+- DEVICE_TRIM_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

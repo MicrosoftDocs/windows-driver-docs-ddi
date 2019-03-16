@@ -1,6 +1,6 @@
 ---
 UID: NC:compstui._CPSUICALLBACK
-title: "_CPSUICALLBACK"
+title: _CPSUICALLBACK (compstui.h)
 description: The _CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler.
 old-location: print\_cpsuicallback.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	_CPSUICALLBACK
+- _CPSUICALLBACK
 product:
 - Windows
 targetos: Windows

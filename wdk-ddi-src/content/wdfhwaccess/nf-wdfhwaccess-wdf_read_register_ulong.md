@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_REGISTER_ULONG
-title: WDF_READ_REGISTER_ULONG function
+title: WDF_READ_REGISTER_ULONG function (wdfhwaccess.h)
 description: The WDF_READ_REGISTER_ULONG function reads a ULONG value from the specified register address.
 old-location: wdf\wdf_read_register_ulong.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfhwaccess.h
+- Wdfhwaccess.h
 api_name:
--	WDF_READ_REGISTER_ULONG
+- WDF_READ_REGISTER_ULONG
 product:
 - Windows
 targetos: Windows

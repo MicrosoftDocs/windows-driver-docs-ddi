@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFillMemory
-title: NdisFillMemory macro
+title: NdisFillMemory macro (ndis.h)
 description: The NdisFillMemory function fills a caller-supplied buffer with the given character.
 old-location: netvista\ndisfillmemory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisFillMemory
+- NdisFillMemory
 product:
 - Windows
 targetos: Windows

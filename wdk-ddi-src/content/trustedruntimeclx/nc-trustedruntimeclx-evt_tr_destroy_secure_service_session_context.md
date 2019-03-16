@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
-title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
+title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 38424b3b-880a-46e6-b4f8-1f364528c0a9
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
+- EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

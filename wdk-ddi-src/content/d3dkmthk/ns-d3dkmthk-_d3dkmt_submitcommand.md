@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITCOMMAND
-title: "_D3DKMT_SUBMITCOMMAND"
+title: _D3DKMT_SUBMITCOMMAND (d3dkmthk.h)
 description: The D3DKMT_SUBMITCOMMAND structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dkmt_submitcommand.htm
 ms.assetid: FA6EA2BA-938C-4377-A85A-2168C4C1F3C6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SUBMITCOMMAND
+- D3DKMT_SUBMITCOMMAND
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart (wudfddi.h)
 description: The OnSelfManagedIoRestart method restarts a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediorestart.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart
+- IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart
 product:
 - Windows
 targetos: Windows

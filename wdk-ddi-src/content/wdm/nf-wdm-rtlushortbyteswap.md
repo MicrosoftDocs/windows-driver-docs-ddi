@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUshortByteSwap
-title: RtlUshortByteSwap macro
+title: RtlUshortByteSwap macro (wdm.h)
 description: The RtlUshortByteSwap routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
 old-location: kernel\rtlushortbyteswap.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUshortByteSwap
+- RtlUshortByteSwap
 product:
 - Windows
 targetos: Windows

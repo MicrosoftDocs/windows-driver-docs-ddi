@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerSetFailed
-title: UcxControllerSetFailed function
+title: UcxControllerSetFailed function (ucxcontroller.h)
 description: Informs USB Host Controller Extension (UCX) that the controller has encountered a critical failure.
 old-location: buses\_ucxcontrollersetfailed.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UcxControllerSetFailed
+- UcxControllerSetFailed
 product:
 - Windows
 targetos: Windows

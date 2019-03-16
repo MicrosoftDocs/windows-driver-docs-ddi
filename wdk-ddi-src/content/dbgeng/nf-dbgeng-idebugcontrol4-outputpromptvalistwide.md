@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputPromptVaListWide
-title: IDebugControl4::OutputPromptVaListWide
+title: IDebugControl4::OutputPromptVaListWide (dbgeng.h)
 description: The OutputPromptVaListWide method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalistwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.OutputPromptVaListWide
+- IDebugControl4.OutputPromptVaListWide
 product:
 - Windows
 targetos: Windows

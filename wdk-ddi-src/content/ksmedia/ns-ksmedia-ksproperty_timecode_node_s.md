@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_137
-title: KSPROPERTY_TIMECODE_NODE_S
+title: KSPROPERTY_TIMECODE_NODE_S (ksmedia.h)
 description: The KSPROPERTY_TIMECODE_NODE_S structure describes a timecode.
 old-location: stream\ksproperty_timecode_node_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TIMECODE_NODE_S
+- KSPROPERTY_TIMECODE_NODE_S
 product:
 - Windows
 targetos: Windows

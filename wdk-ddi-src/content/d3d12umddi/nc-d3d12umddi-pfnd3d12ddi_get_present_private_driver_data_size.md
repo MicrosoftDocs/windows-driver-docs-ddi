@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
-title: PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
+title: PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE (d3d12umddi.h)
 description: Gets present private driver data size.
 ms.assetid: 17433662-deaa-4642-9ac1-0026b439491e
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
+- PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 product: 
 - Windows
 targetos: Windows

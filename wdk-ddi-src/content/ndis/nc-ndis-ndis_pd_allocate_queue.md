@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_ALLOCATE_QUEUE
-title: NDIS_PD_ALLOCATE_QUEUE
+title: NDIS_PD_ALLOCATE_QUEUE (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDAllocateQueue function to allocate a queue.
 old-location: netvista\ndispdallocatequeue.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NdisPDAllocateQueue
+- NdisPDAllocateQueue
 product:
 - Windows
 targetos: Windows

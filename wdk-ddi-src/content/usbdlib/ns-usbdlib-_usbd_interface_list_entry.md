@@ -1,6 +1,6 @@
 ---
 UID: NS:usbdlib._USBD_INTERFACE_LIST_ENTRY
-title: "_USBD_INTERFACE_LIST_ENTRY"
+title: _USBD_INTERFACE_LIST_ENTRY (usbdlib.h)
 description: The USBD_INTERFACE_LIST_ENTRY structure is used by USB client drivers to create an array of interfaces to be inserted into a configuration request.
 old-location: buses\usbd_interface_list_entry.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	USBD_INTERFACE_LIST_ENTRY
+- USBD_INTERFACE_LIST_ENTRY
 product:
 - Windows
 targetos: Windows

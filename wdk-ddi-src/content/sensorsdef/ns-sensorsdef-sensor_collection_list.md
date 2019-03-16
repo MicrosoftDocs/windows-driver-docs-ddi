@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorsdef.SENSOR_COLLECTION_LIST
-title: SENSOR_COLLECTION_LIST
+title: SENSOR_COLLECTION_LIST (sensorsdef.h)
 description: This structure contains a list of all SENSOR_VALUE_PAIR structures for each sensor. This structure is returned by calling ReadFile.
 old-location: sensors\sensor_collection_list.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_COLLECTION_LIST
+- SENSOR_COLLECTION_LIST
 product:
 - Windows
 targetos: Windows

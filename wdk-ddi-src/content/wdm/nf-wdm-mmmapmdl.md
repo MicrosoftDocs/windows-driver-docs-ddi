@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapMdl
-title: MmMapMdl function
+title: MmMapMdl function (wdm.h)
 description: This function maps physical pages described by a memory descriptor list (MDL) into the system virtual address space.
 old-location: kernel\mmmapmdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmMapMdl
+- MmMapMdl
 product:
 - Windows
 targetos: Windows

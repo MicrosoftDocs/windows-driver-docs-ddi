@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
-title: "_USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION"
+title: _USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION (usbioctl.h)
 description: The input and output buffer for the IOCTL_USB_START_TRACKING_FOR_TIME_SYNC request.
 old-location: buses\usb_start_tracking_for_time_sync_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
+- USB_START_TRACKING_FOR_TIME_SYNC_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_ADAPTER_CONTROL
-title: HW_ADAPTER_CONTROL
+title: HW_ADAPTER_CONTROL (storport.h)
 description: A miniport driver's HwStorAdapterControl routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management.
 old-location: storage\hwstoradaptercontrol.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorAdapterControl
+- HwStorAdapterControl
 product:
 - Windows
 targetos: Windows

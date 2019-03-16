@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STI_WIA_DEVICE_INFORMATIONW
-title: "_STI_WIA_DEVICE_INFORMATIONW"
+title: _STI_WIA_DEVICE_INFORMATIONW (sti.h)
 description: The STI_WIA_DEVICE_INFORMATION structure contains device information.
 old-location: image\sti_wia_device_information.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STI_WIA_DEVICE_INFORMATION
+- STI_WIA_DEVICE_INFORMATION
 product:
 - Windows
 targetos: Windows

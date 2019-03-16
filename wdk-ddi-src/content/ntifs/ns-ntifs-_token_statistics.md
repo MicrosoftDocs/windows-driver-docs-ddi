@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_STATISTICS
-title: "_TOKEN_STATISTICS"
+title: _TOKEN_STATISTICS (ntifs.h)
 description: TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling SeQueryInformationToken or ZwQueryInformationToken.
 old-location: ifsk\token_statistics.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_STATISTICS
+- TOKEN_STATISTICS
 product:
 - Windows
 targetos: Windows

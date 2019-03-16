@@ -1,6 +1,6 @@
 ---
 UID: NE:irb.__unnamed_enum_3
-title: IDE_POWER_STATE
+title: IDE_POWER_STATE (irb.h)
 description: The IDE_POWER_STATE enumeration type indicates that power state of the device.
 old-location: storage\ide_power_state.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_POWER_STATE
+- IDE_POWER_STATE
 product:
 - Windows
 targetos: Windows

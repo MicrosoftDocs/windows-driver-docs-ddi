@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.EnableHwNotifications
-title: IStillImageW::EnableHwNotifications
+title: IStillImageW::EnableHwNotifications (sti.h)
 description: The IStillImage::EnableHwNotifications method requests the still image event monitor to enable or disable the notification of applications when Still Image Device Events occur for a specified device.
 old-location: image\istillimage_enablehwnotifications.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.EnableHwNotifications
+- IStillImageW.EnableHwNotifications
 product:
 - Windows
 targetos: Windows

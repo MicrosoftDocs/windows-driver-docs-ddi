@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetKernelConnectionOptionsWide
-title: IDebugClient5::GetKernelConnectionOptionsWide
+title: IDebugClient5::GetKernelConnectionOptionsWide (dbgeng.h)
 description: The GetKernelConnectionOptionsWide method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptionswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetKernelConnectionOptionsWide
+- IDebugClient5.GetKernelConnectionOptionsWide
 product:
 - Windows
 targetos: Windows

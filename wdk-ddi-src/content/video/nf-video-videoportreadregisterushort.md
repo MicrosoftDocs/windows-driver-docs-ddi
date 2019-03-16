@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterUshort
-title: VideoPortReadRegisterUshort function
+title: VideoPortReadRegisterUshort function (video.h)
 description: The VideoPortReadRegisterUshort function reads a USHORT value from a mapped register range.
 old-location: display\videoportreadregisterushort.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadRegisterUshort
+- VideoPortReadRegisterUshort
 product:
 - Windows
 targetos: Windows

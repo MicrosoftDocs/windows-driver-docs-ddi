@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_EXTENSION_API_VERSION
-title: PWINDBG_EXTENSION_API_VERSION
+title: PWINDBG_EXTENSION_API_VERSION (wdbgexts.h)
 description: The PWINDBG_EXTENSION_API_VERSION (ExtensionApiVersion) callback function returns version information about the extension DLL.
 old-location: debugger\extensionapiversion.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ExtensionApiVersion
+- ExtensionApiVersion
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_DEALLOCATE_FOR_FOBX
-title: PMRX_DEALLOCATE_FOR_FOBX
+title: PMRX_DEALLOCATE_FOR_FOBX (mrx.h)
 description: The MRxDeallocateForFobx routine is called by RDBSS to request that the network mini-redirector deallocate an FOBX structure. This call is in response to a request to close a file system object.
 old-location: ifsk\mrxdeallocateforfobx.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxDeallocateForFobx
+- MRxDeallocateForFobx
 product:
 - Windows
 targetos: Windows

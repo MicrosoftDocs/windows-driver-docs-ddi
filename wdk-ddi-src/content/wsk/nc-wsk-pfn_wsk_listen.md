@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_LISTEN
-title: PFN_WSK_LISTEN
+title: PFN_WSK_LISTEN (wsk.h)
 description: The WskListen function enables a stream socket to listen for incoming connections at the socket's bound address.
 old-location: netvista\wsklisten.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskListen
+- WskListen
 product:
 - Windows
 targetos: Windows

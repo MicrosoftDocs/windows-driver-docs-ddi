@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
-title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
+title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER (ksmedia.h)
 description: This structure contains the header information for ROI capabilities.
 old-location: stream\kscamera_extendedprop_roi_configcapsheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
+- KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
 product:
 - Windows
 targetos: Windows

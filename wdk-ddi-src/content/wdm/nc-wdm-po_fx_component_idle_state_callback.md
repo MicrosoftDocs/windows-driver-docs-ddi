@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_COMPONENT_IDLE_STATE_CALLBACK
-title: PO_FX_COMPONENT_IDLE_STATE_CALLBACK
+title: PO_FX_COMPONENT_IDLE_STATE_CALLBACK (wdm.h)
 description: The ComponentIdleStateCallback callback routine notifies the driver of a pending change to the Fx power state of the specified component.
 old-location: kernel\componentidlestatecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ComponentIdleStateCallback
+- ComponentIdleStateCallback
 product:
 - Windows
 targetos: Windows

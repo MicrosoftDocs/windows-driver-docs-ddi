@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortQueueWorkItem
-title: StorPortQueueWorkItem function
+title: StorPortQueueWorkItem function (storport.h)
 description: Schedules a Storport work item to execute within the context of a system worker thread.
 old-location: storage\storportqueueworkitem.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortQueueWorkItem
+- StorPortQueueWorkItem
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FOCUS_METERING_MODES
-title: tagWPD_FOCUS_METERING_MODES
+title: WPD_FOCUS_METERING_MODES (portabledevice.h)
 description: The WPD_FOCUS_METERING_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.
 old-location: wpddk\wpd_focus_metering_modes.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_FOCUS_METERING_MODES
+- WPD_FOCUS_METERING_MODES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_FOCUS_METERING_MODES
 ms.custom: RS5
@@ -77,7 +77,7 @@ Determine focus by analyzing multiple parts of the framed area.
 
 
 
-This enumeration is specified by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_FOCUS_METERING_MODE</a> property.
+This enumeration is specified by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_FOCUS_METERING_MODE</a> property.
 
 
 

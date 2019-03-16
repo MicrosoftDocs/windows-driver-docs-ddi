@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem.__unnamed_struct_1
-title: OEMMEMORYUSAGE
+title: OEMMEMORYUSAGE (printoem.h)
 description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.
 old-location: print\oemmemoryusage.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMMEMORYUSAGE
+- OEMMEMORYUSAGE
 product:
 - Windows
 targetos: Windows

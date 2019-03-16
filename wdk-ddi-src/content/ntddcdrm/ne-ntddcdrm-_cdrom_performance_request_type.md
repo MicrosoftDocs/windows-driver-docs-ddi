@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_REQUEST_TYPE
-title: "_CDROM_PERFORMANCE_REQUEST_TYPE"
+title: _CDROM_PERFORMANCE_REQUEST_TYPE (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_REQUEST_TYPE enumeration defines the types of performance data requests. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_request_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdrm.h
+- Ntddcdrm.h
 api_name:
--	CDROM_PERFORMANCE_REQUEST_TYPE
+- CDROM_PERFORMANCE_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CALLDOWN_CTX
-title: PMRX_CALLDOWN_CTX
+title: PMRX_CALLDOWN_CTX (mrx.h)
 description: TheMRxStart routine is called by RDBSS to start the network mini-redirector.
 old-location: ifsk\mrxstart.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxStart
+- MRxStart
 product:
 - Windows
 targetos: Windows

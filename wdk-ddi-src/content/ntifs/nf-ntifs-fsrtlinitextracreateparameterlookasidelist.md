@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInitExtraCreateParameterLookasideList
-title: FsRtlInitExtraCreateParameterLookasideList function
+title: FsRtlInitExtraCreateParameterLookasideList function (ntifs.h)
 description: The FsRtlInitExtraCreateParameterLookasideList routine initializes a paged or nonpaged pool lookaside list used for the allocation of one or more extra create parameter context structures (ECPs) of fixed size.
 old-location: ifsk\fsrtlinitextracreateparameterlookasidelist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlInitExtraCreateParameterLookasideList
+- FsRtlInitExtraCreateParameterLookasideList
 product:
 - Windows
 targetos: Windows

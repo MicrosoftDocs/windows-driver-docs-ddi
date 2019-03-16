@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
-title: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function
+title: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function (udecxusbdevice.h)
 description: Initializes a UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure.
 old-location: buses\udecx_usb_device_plug_in_options_init.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
+- UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 product:
 - Windows
 targetos: Windows

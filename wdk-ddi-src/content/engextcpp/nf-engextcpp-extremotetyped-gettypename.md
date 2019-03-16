@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetTypeName
-title: ExtRemoteTyped::GetTypeName
+title: ExtRemoteTyped::GetTypeName (engextcpp.h)
 description: The GetTypeName method returns the type name of the typed data represented by this object.
 old-location: debugger\extremotetyped_gettypename.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.GetTypeName
+- ExtRemoteTyped.GetTypeName
 product:
 - Windows
 targetos: Windows

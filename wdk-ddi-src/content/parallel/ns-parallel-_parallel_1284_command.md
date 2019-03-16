@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_1284_COMMAND
-title: "_PARALLEL_1284_COMMAND"
+title: _PARALLEL_1284_COMMAND (parallel.h)
 description: The PARALLEL_1284_COMMAND structure specifies information that a client uses to select and deselect an IEEE 1284.3 daisy-chain device or an IEEE 1284 end-of-chain device.
 old-location: parports\parallel_1284_command.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_1284_COMMAND
+- PARALLEL_1284_COMMAND
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP
-title: EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP
+title: EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP (wdfdevice.h)
 description: A driver's EvtDeviceSelfManagedIoCleanup event callback function handles deallocation activity for the device's self-managed I/O operations, after a device has been removed.
 old-location: wdf\evtdeviceselfmanagediocleanup.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceSelfManagedIoCleanup
+- EvtDeviceSelfManagedIoCleanup
 product:
 - Windows
 targetos: Windows

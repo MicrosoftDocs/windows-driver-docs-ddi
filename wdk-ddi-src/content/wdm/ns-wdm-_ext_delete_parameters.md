@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._EXT_DELETE_PARAMETERS
-title: "_EXT_DELETE_PARAMETERS"
+title: _EXT_DELETE_PARAMETERS (wdm.h)
 description: The EXT_DELETE_PARAMETERS structure contains an extended set of parameters for the ExDeleteTimer routine.
 old-location: kernel\ext_delete_parameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	EXT_DELETE_PARAMETERS
+- EXT_DELETE_PARAMETERS
 product:
 - Windows
 targetos: Windows

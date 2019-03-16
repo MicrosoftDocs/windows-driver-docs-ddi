@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizer.SetMinimalLineWidth
-title: IXpsRasterizer::SetMinimalLineWidth
+title: IXpsRasterizer::SetMinimalLineWidth (xpsrassvc.h)
 description: The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render.
 old-location: print\ixpsrasterizer_setminimallinewidth.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizer.SetMinimalLineWidth
+- IXpsRasterizer.SetMinimalLineWidth
 product:
 - Windows
 targetos: Windows

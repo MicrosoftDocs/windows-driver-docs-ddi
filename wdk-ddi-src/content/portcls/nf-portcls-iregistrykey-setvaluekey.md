@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.SetValueKey
-title: IRegistryKey::SetValueKey
+title: IRegistryKey::SetValueKey (portcls.h)
 description: The SetValueKey method replaces or creates a value entry under the open key.
 old-location: audio\iregistrykey_setvaluekey.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IRegistryKey.SetValueKey
+- IRegistryKey.SetValueKey
 product:
 - Windows
 targetos: Windows

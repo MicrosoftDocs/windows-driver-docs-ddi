@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_COMMAND_HEADER
-title: "_BTH_COMMAND_HEADER"
+title: _BTH_COMMAND_HEADER (bthioctl.h)
 description: The BTH_COMMAND_HEADER structure specifies header information for a vendor-specific HCI command.
 old-location: bltooth\bth_command_header.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_COMMAND_HEADER
+- BTH_COMMAND_HEADER
 product:
 - Windows
 targetos: Windows

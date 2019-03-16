@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueGuid
-title: wiasGetChangedValueGuid function
+title: wiasGetChangedValueGuid function (wiamdef.h)
 description: The wiasGetChangedValueGuid function determines whether a property with a GUID value has been changed by an application.
 old-location: image\wiasgetchangedvalueguid.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChangedValueGuid
+- wiasGetChangedValueGuid
 product:
 - Windows
 targetos: Windows

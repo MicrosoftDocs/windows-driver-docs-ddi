@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadMultiByteStringVirtualWide
-title: IDebugDataSpaces4::ReadMultiByteStringVirtualWide
+title: IDebugDataSpaces4::ReadMultiByteStringVirtualWide (dbgeng.h)
 description: The ReadMultiByteStringVirtualWide method reads a null-terminated, multibyte string from the target and converts it to Unicode.
 old-location: debugger\readmultibytestringvirtualwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces4.ReadMultiByteStringVirtualWide
+- IDebugDataSpaces4.ReadMultiByteStringVirtualWide
 product:
 - Windows
 targetos: Windows

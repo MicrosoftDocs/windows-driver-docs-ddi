@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_STATS
-title: "_D3DKMT_PRESENT_STATS"
+title: _D3DKMT_PRESENT_STATS (d3dkmthk.h)
 description: The D3DKMT_PRESENT_STATS structure describes present status for a rendering device.
 old-location: display\d3dkmt_present_stats.htm
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_PRESENT_STATS
+- D3DKMT_PRESENT_STATS
 product:
 - Windows
 targetos: Windows

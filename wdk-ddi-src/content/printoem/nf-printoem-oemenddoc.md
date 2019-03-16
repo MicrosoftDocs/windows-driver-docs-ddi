@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMEndDoc
-title: OEMEndDoc function
+title: OEMEndDoc function (printoem.h)
 description: The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.
 old-location: print\oemenddoc.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMEndDoc
+- OEMEndDoc
 product:
 - Windows
 targetos: Windows

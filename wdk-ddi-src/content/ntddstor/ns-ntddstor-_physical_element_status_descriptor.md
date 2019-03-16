@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._PHYSICAL_ELEMENT_STATUS_DESCRIPTOR
-title: _PHYSICAL_ELEMENT_STATUS_DESCRIPTOR
+title: _PHYSICAL_ELEMENT_STATUS_DESCRIPTOR (ntddstor.h)
 description: The PHYSICAL_ELEMENT_STATUS_DESCRIPTOR structure contains status information for a physical element.
 ms.assetid: 60abea0f-4729-413f-909f-295bbf513cd2
 ms.date: 09/10/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PHYSICAL_ELEMENT_STATUS_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_PHYSICAL_ELEMENT_STATUS_DESCRIPTOR
-product: Windows
+- _PHYSICAL_ELEMENT_STATUS_DESCRIPTOR
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdriversutils.ParseRotationMatrixEntry
-title: ParseRotationMatrixEntry function
+title: ParseRotationMatrixEntry function (sensorsdriversutils.h)
 description: The ParseRotationMatrixEntry function parses a string of three floats.
 ms.assetid: 9f24b18a-f57f-45d4-8372-ea31ae0ead11
 ms.date: 04/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ParseRotationMatrixEntry
+- ParseRotationMatrixEntry
 product: 
 - Windows
 targetos: Windows

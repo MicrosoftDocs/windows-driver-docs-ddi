@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_INSERT_IRP
-title: IO_CSQ_INSERT_IRP
+title: IO_CSQ_INSERT_IRP (wdm.h)
 description: The CsqInsertIrp routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqinsertirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CsqInsertIrp
+- CsqInsertIrp
 product:
 - Windows
 targetos: Windows

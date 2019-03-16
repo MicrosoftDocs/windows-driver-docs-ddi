@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IObjectCleanup.OnCleanup
-title: IObjectCleanup::OnCleanup
+title: IObjectCleanup::OnCleanup (wudfddi.h)
 description: The OnCleanup method releases any references to a WDF object to prevent interface leakage.
 old-location: wdf\iobjectcleanup_oncleanup.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IObjectCleanup.OnCleanup
+- IObjectCleanup.OnCleanup
 product:
 - Windows
 targetos: Windows

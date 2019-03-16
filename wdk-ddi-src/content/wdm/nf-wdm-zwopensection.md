@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenSection
-title: ZwOpenSection function
+title: ZwOpenSection function (wdm.h)
 description: The ZwOpenSection routine opens a handle for an existing section object.
 old-location: kernel\zwopensection.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenSection
--	NtOpenSection
+- ZwOpenSection
+- NtOpenSection
 product:
 - Windows
 targetos: Windows

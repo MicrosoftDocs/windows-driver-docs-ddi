@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_DELETE_PLUG
-title: "_CMP_DELETE_PLUG"
+title: _CMP_DELETE_PLUG (61883.h)
 description: This structure is used to delete a plug.Av61883_CreatePlug.
 old-location: ieee\cmp_delete_plug.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_DELETE_PLUG
+- CMP_DELETE_PLUG
 product:
 - Windows
 targetos: Windows

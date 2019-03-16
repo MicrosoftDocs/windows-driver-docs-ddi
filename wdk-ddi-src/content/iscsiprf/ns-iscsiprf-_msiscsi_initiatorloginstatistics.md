@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorLoginStatistics
-title: "_MSiSCSI_InitiatorLoginStatistics"
+title: _MSiSCSI_InitiatorLoginStatistics (iscsiprf.h)
 description: The MSiSCSI_InitiatorLoginStatistics structure is used by iSCSI initiators to report logon statistics.
 old-location: storage\msiscsi_initiatorloginstatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_InitiatorLoginStatistics
+- MSiSCSI_InitiatorLoginStatistics
 product:
 - Windows
 targetos: Windows

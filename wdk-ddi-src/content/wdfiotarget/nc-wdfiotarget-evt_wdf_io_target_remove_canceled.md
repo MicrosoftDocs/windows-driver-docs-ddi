@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfiotarget.EVT_WDF_IO_TARGET_REMOVE_CANCELED
-title: EVT_WDF_IO_TARGET_REMOVE_CANCELED
+title: EVT_WDF_IO_TARGET_REMOVE_CANCELED (wdfiotarget.h)
 description: A driver's EvtIoTargetRemoveCanceled event callback function performs operations when the removal of a specified remote I/O target is canceled.
 old-location: wdf\evtiotargetremovecanceled.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfIoTarget.h
+- WdfIoTarget.h
 api_name:
--	EvtIoTargetRemoveCanceled
+- EvtIoTargetRemoveCanceled
 product:
 - Windows
 targetos: Windows

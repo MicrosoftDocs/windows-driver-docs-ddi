@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_PERFORMANCE_OFF
-title: IOCTL_DISK_PERFORMANCE_OFF
+title: IOCTL_DISK_PERFORMANCE_OFF (ntdddisk.h)
 description: Disables the counters that were enabled by previous calls to IOCTL_DISK_PERFORMANCE. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL.
 old-location: storage\ioctl_disk_performance_off.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_PERFORMANCE_OFF
+- IOCTL_DISK_PERFORMANCE_OFF
 product:
 - Windows
 targetos: Windows

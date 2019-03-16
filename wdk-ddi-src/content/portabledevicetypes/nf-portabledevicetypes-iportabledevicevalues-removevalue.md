@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.RemoveValue
-title: IPortableDeviceValues::RemoveValue
+title: IPortableDeviceValues::RemoveValue (portabledevicetypes.h)
 description: The RemoveValue method removes an item from the collection.
 old-location: wpddk\iportabledevicevalues_removevalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.RemoveValue
+- IPortableDeviceValues.RemoveValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

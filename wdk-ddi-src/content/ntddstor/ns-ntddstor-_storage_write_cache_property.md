@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_WRITE_CACHE_PROPERTY
-title: "_STORAGE_WRITE_CACHE_PROPERTY"
+title: _STORAGE_WRITE_CACHE_PROPERTY (ntddstor.h)
 description: The STORAGE_WRITE_CACHE_PROPERTY structure is used with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve information about a device's write cache property.
 old-location: storage\storage_write_cache_property.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_WRITE_CACHE_PROPERTY
+- STORAGE_WRITE_CACHE_PROPERTY
 product:
 - Windows
 targetos: Windows

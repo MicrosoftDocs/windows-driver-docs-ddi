@@ -1,6 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_HUB_PROPERTIES
-title: _USBPM_HUB_PROPERTIES
+title: _USBPM_HUB_PROPERTIES (usbpmapi.h)
 description: Properties of a connector hub.
 ms.assetid: f5579381-05a0-42e2-890c-9970a94ca7b4
 ms.date: 09/30/2018
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_HUB_PROPERTIES, *PUSBPM_HUB_PROPERTIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_HUB_PROPERTIES
-product: Windows
+- USBPM_HUB_PROPERTIES
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

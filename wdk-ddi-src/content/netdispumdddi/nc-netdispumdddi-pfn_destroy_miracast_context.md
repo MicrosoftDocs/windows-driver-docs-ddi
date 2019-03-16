@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_DESTROY_MIRACAST_CONTEXT
-title: PFN_DESTROY_MIRACAST_CONTEXT
+title: PFN_DESTROY_MIRACAST_CONTEXT (netdispumdddi.h)
 description: Called by the operating system to destroy a user-mode Miracast context.
 old-location: display\destroymiracastcontext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	DestroyMiracastContext
+- DestroyMiracastContext
 product:
 - Windows
 targetos: Windows

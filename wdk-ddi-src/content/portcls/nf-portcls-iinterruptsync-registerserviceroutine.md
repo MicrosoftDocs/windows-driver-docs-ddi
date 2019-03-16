@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.RegisterServiceRoutine
-title: IInterruptSync::RegisterServiceRoutine
+title: IInterruptSync::RegisterServiceRoutine (portcls.h)
 description: The RegisterServiceRoutine method registers an interrupt service routine (ISR) that is to be called when an interrupt occurs.
 old-location: audio\iinterruptsync_registerserviceroutine.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync.RegisterServiceRoutine
+- IInterruptSync.RegisterServiceRoutine
 product:
 - Windows
 targetos: Windows

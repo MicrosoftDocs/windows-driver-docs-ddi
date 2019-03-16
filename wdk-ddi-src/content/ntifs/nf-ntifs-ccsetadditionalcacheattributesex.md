@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetAdditionalCacheAttributesEx
-title: CcSetAdditionalCacheAttributesEx function
+title: CcSetAdditionalCacheAttributesEx function (ntifs.h)
 description: Call the CcSetAdditionalCacheAttributesEx routine to enable extended cache behavior on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributesex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetAdditionalCacheAttributesEx
+- CcSetAdditionalCacheAttributesEx
 product:
 - Windows
 targetos: Windows

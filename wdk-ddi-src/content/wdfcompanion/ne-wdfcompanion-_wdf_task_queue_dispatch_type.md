@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfcompanion._WDF_TASK_QUEUE_DISPATCH_TYPE
-title: "_WDF_TASK_QUEUE_DISPATCH_TYPE"
+title: _WDF_TASK_QUEUE_DISPATCH_TYPE (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_task_queue_dispatch_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WDF_TASK_QUEUE_DISPATCH_TYPE
+- WDF_TASK_QUEUE_DISPATCH_TYPE
 product:
 - Windows
 targetos: Windows

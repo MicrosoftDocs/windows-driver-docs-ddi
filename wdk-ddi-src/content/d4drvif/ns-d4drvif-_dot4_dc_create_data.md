@@ -1,6 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DC_CREATE_DATA
-title: "_DOT4_DC_CREATE_DATA"
+title: _DOT4_DC_CREATE_DATA (d4drvif.h)
 description: Defines the DOT4_DC_CREATE_DATA construct.
 old-location: print\dot4_dc_create_data.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	DOT4_DC_CREATE_DATA
+- DOT4_DC_CREATE_DATA
 product:
 - Windows
 targetos: Windows

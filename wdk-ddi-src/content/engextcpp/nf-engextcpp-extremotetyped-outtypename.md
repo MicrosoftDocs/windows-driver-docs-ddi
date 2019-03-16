@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.OutTypeName
-title: ExtRemoteTyped::OutTypeName
+title: ExtRemoteTyped::OutTypeName (engextcpp.h)
 description: The OutTypeName method prints the type name of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypename.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.OutTypeName
+- ExtRemoteTyped.OutTypeName
 product:
 - Windows
 targetos: Windows

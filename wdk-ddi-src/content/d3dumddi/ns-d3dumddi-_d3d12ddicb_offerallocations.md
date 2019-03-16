@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3D12DDICB_OFFERALLOCATIONS
-title: _D3D12DDICB_OFFERALLOCATIONS
+title: _D3D12DDICB_OFFERALLOCATIONS (d3dumddi.h)
 description: The D3D12DDICB_OFFERALLOCATIONS structure is used to offer allocations.
 ms.assetid: 126b026e-1e18-4991-91f2-e25666ec72a2
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDICB_OFFERALLOCATIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3D12DDICB_OFFERALLOCATIONS
+- _D3D12DDICB_OFFERALLOCATIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

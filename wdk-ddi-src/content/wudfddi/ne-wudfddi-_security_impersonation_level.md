@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi._SECURITY_IMPERSONATION_LEVEL
-title: "_SECURITY_IMPERSONATION_LEVEL"
+title: _SECURITY_IMPERSONATION_LEVEL (wudfddi.h)
 description: The SECURITY_IMPERSONATION_LEVEL enumeration contains values that identify security impersonation levels.
 old-location: wdf\security_impersonation_level.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	SECURITY_IMPERSONATION_LEVEL
+- SECURITY_IMPERSONATION_LEVEL
 product:
 - Windows
 targetos: Windows

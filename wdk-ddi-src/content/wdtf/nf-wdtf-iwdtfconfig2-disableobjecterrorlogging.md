@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.DisableObjectErrorLogging
-title: IWDTFCONFIG2::DisableObjectErrorLogging
+title: IWDTFCONFIG2::DisableObjectErrorLogging (wdtf.h)
 description: Disables object error logging for all objects.
 old-location: dtf\iwdtfconfig2_disableobjecterrorlogging.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFCONFIG2.DisableObjectErrorLogging
+- IWDTFCONFIG2.DisableObjectErrorLogging
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisDprReleaseSpinLock
-title: NdisDprReleaseSpinLock macro
+title: NdisDprReleaseSpinLock macro (ndis.h)
 description: The NdisDprReleaseSpinLock function releases a spin lock acquired in the immediately preceding call to the NdisDprAcquireSpinLock function.
 old-location: netvista\ndisdprreleasespinlock.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisDprReleaseSpinLock
+- NdisDprReleaseSpinLock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_BASIC_INFORMATION
-title: "_KEY_BASIC_INFORMATION"
+title: _KEY_BASIC_INFORMATION (wdm.h)
 description: The KEY_BASIC_INFORMATION structure defines a subset of the full information that is available for a registry key.
 old-location: kernel\key_basic_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KEY_BASIC_INFORMATION
+- KEY_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

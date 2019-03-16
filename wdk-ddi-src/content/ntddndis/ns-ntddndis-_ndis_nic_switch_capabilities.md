@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_CAPABILITIES
-title: "_NDIS_NIC_SWITCH_CAPABILITIES"
+title: _NDIS_NIC_SWITCH_CAPABILITIES (ntddndis.h)
 description: The NDIS_NIC_SWITCH_CAPABILITIES structure specifies the capabilities of a NIC switch on the network adapter.
 old-location: netvista\ndis_nic_switch_capabilities.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_NIC_SWITCH_CAPABILITIES
+- NDIS_NIC_SWITCH_CAPABILITIES
 product:
 - Windows
 targetos: Windows

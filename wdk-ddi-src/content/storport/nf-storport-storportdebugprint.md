@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortDebugPrint
-title: StorPortDebugPrint function
+title: StorPortDebugPrint function (storport.h)
 description: The StorPortDebugPrint routine prints a debug string to the kernel debugger, if the debugger is attached.
 old-location: storage\storportdebugprint.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortDebugPrint
+- StorPortDebugPrint
 product:
 - Windows
 targetos: Windows

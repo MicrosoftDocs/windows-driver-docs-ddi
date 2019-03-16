@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.RxCreateRxContext
-title: RxCreateRxContext function
+title: RxCreateRxContext function (rxcontx.h)
 description: RxCreateRxContext allocates a new RX_CONTEXT structure and initializes the data structure.
 old-location: ifsk\rxcreaterxcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxcontx.h
+- rxcontx.h
 api_name:
--	RxCreateRxContext
+- RxCreateRxContext
 product:
 - Windows
 targetos: Windows

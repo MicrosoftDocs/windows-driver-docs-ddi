@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueLong
-title: wiasGetChangedValueLong function
+title: wiasGetChangedValueLong function (wiamdef.h)
 description: The wiasGetChangedValueLong function determines whether a property with a long integer value has been changed by an application.
 old-location: image\wiasgetchangedvaluelong.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChangedValueLong
+- wiasGetChangedValueLong
 product:
 - Windows
 targetos: Windows

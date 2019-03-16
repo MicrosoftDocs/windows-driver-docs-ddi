@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
-title: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+title: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB (d3dumddi.h)
 description: A callback to submit a signal command to the hardware queue.
 old-location: display\pfnd3dddi_submitsignalsyncobjectstohwqueuecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+- PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
 product:
 - Windows
 targetos: Windows

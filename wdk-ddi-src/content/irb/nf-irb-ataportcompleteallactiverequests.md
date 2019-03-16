@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortCompleteAllActiveRequests
-title: AtaPortCompleteAllActiveRequests function
+title: AtaPortCompleteAllActiveRequests function (irb.h)
 description: The AtaPortCompleteAllActiveRequests routine completes all active IRBs for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcompleteallactiverequests.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortCompleteAllActiveRequests
+- AtaPortCompleteAllActiveRequests
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxRegisterComponentPerfStates
-title: PoFxRegisterComponentPerfStates function
+title: PoFxRegisterComponentPerfStates function (wdm.h)
 description: The PoFxRegisterComponentPerfStates routine registers a device component for performance state management by the power management framework (PoFx).
 old-location: kernel\pofxregistercomponentperfstates.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxRegisterComponentPerfStates
+- PoFxRegisterComponentPerfStates
 product:
 - Windows
 targetos: Windows

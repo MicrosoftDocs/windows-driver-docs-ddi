@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEHWCONTEXTSTATE
-title: DXGKDDI_UPDATEHWCONTEXTSTATE
+title: DXGKDDI_UPDATEHWCONTEXTSTATE (d3dkmddi.h)
 description: Used to update the hardware context state.
 old-location: display\dxgkddi_updatehwcontextstate.htm
 ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_UPDATEHWCONTEXTSTATE
+- DXGKDDI_UPDATEHWCONTEXTSTATE
 product:
 - Windows
 targetos: Windows

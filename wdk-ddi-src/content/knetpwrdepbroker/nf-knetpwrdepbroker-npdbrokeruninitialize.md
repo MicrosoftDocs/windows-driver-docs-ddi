@@ -1,6 +1,6 @@
 ---
 UID: NF:knetpwrdepbroker.NpdBrokerUninitialize
-title: NpdBrokerUninitialize function
+title: NpdBrokerUninitialize function (knetpwrdepbroker.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\npdbrokeruninitialize.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	KNetPwrDepBroker.h
+- KNetPwrDepBroker.h
 api_name:
--	NpdBrokerUninitialize
+- NpdBrokerUninitialize
 product:
 - Windows
 targetos: Windows

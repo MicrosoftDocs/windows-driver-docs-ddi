@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
-title: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
+title: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030 (d3d12umddi.h)
 description: The bitstream encryption type.
 old-location: display\d3d12ddi-bitstream-encryption-type-0030.htm
 ms.assetid: 99eab339-d93c-4afa-95f2-899ceb2e7828
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
+- D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
 product:
 - Windows
 targetos: Windows

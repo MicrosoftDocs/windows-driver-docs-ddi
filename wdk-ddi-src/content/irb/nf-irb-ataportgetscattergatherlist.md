@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetScatterGatherList
-title: AtaPortGetScatterGatherList function
+title: AtaPortGetScatterGatherList function (irb.h)
 description: The AtaPortGetScatterGatherList routine retrieves the scatter/gather list that is associated with this request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetscattergatherlist.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortGetScatterGatherList
+- AtaPortGetScatterGatherList
 product:
 - Windows
 targetos: Windows

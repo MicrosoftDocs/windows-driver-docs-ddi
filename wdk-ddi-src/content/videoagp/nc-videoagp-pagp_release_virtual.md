@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RELEASE_VIRTUAL
-title: PAGP_RELEASE_VIRTUAL
+title: PAGP_RELEASE_VIRTUAL (videoagp.h)
 description: The AgpReleaseVirtual function frees system memory reserved by a previous call to AgpReserveVirtual.
 old-location: display\agpreleasevirtual.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpReleaseVirtual
+- AgpReleaseVirtual
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortControllerSyncRoutine
-title: AtaPortControllerSyncRoutine function
+title: AtaPortControllerSyncRoutine function (irb.h)
 description: The AtaPortControllerSyncRoutine routine provides synchronized access to data structures that are shared across all channels on a controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcontrollersyncroutine.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortControllerSyncRoutine
+- AtaPortControllerSyncRoutine
 product:
 - Windows
 targetos: Windows

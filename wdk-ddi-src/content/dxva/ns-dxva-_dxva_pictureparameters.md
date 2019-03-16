@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_PictureParameters
-title: "_DXVA_PictureParameters"
+title: _DXVA_PictureParameters (dxva.h)
 description: The DXVA_PictureParameters structure is sent by the host decoder to the accelerator to provide the picture-level parameters of a compressed picture for decoding on the accelerator.
 old-location: display\dxva_pictureparameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_PictureParameters
+- DXVA_PictureParameters
 product:
 - Windows
 targetos: Windows

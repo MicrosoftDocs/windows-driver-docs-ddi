@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._KMTUMDVERSION
-title: _KMTUMDVERSION
+title: _KMTUMDVERSION (d3dkmthk.h)
 description: Kernel mode transfer UMD (user mode driver) version.
 ms.assetid: 4077ea93-cbb5-45be-ad36-ded07dced647
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: KMTUMDVERSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_KMTUMDVERSION
+- _KMTUMDVERSION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

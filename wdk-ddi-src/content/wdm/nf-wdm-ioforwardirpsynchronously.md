@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoForwardIrpSynchronously
-title: IoForwardIrpSynchronously function
+title: IoForwardIrpSynchronously function (wdm.h)
 description: The IoForwardIrpSynchronously routine sends an IRP to a specified driver and waits for that driver to complete the IRP.
 old-location: kernel\ioforwardirpsynchronously.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoForwardIrpSynchronously
+- IoForwardIrpSynchronously
 product:
 - Windows
 targetos: Windows

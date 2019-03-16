@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_COLORFILL
-title: "_DXGK_GDIARG_COLORFILL"
+title: _DXGK_GDIARG_COLORFILL (d3dkmddi.h)
 description: The DXGK_GDIARG_COLORFILL structure describes the characteristics of a GDI hardware-accelerated color fill operation.
 old-location: display\dxgk_gdiarg_colorfill.htm
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GDIARG_COLORFILL
+- DXGK_GDIARG_COLORFILL
 product:
 - Windows
 targetos: Windows

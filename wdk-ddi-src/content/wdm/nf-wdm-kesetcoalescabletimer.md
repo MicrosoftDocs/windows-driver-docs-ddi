@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetCoalescableTimer
-title: KeSetCoalescableTimer function
+title: KeSetCoalescableTimer function (wdm.h)
 description: The KeSetCoalescableTimer routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times.
 old-location: kernel\kesetcoalescabletimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetCoalescableTimer
+- KeSetCoalescableTimer
 product:
 - Windows
 targetos: Windows

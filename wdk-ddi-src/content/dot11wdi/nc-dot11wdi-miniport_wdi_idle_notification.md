@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_IDLE_NOTIFICATION
-title: MINIPORT_WDI_IDLE_NOTIFICATION
+title: MINIPORT_WDI_IDLE_NOTIFICATION (dot11wdi.h)
 description: NDIS calls the MiniportWdiIdleNotification handler function to start the NDIS selective suspend operation on an idle network adapter. Through this operation, the network adapter is suspended and transitioned to a low-power state.
 old-location: netvista\miniportwdiidlenotification.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiIdleNotification
+- MiniportWdiIdleNotification
 product:
 - Windows
 targetos: Windows

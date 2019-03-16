@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPnpManagement
-title: IAdapterPnpManagement
+title: IAdapterPnpManagement (portcls.h)
 description: IAdapterPnpManagement is an interface that adapters should implement and register if they want to receive PnP management messages.
 old-location: audio\iadapterpnpmanagement.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IAdapterPnpManagement
+- IAdapterPnpManagement
 product:
 - Windows
 targetos: Windows

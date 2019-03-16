@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_SUBUNIT_INFO_BLOCK
-title: "_AVC_SUBUNIT_INFO_BLOCK"
+title: _AVC_SUBUNIT_INFO_BLOCK (avc.h)
 description: The AVC_SUBUNIT_INFO_BLOCK structure describes subunit information.
 old-location: stream\avc_subunit_info_block.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_SUBUNIT_INFO_BLOCK
+- AVC_SUBUNIT_INFO_BLOCK
 product:
 - Windows
 targetos: Windows

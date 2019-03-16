@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterUchar
-title: StorPortReadRegisterUchar macro
+title: StorPortReadRegisterUchar macro (storport.h)
 description: The StorPortReadRegisterUchar routine reads a value from a specified register address.
 old-location: storage\storportreadregisteruchar.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortReadRegisterUchar
+- StorPortReadRegisterUchar
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoStopTimer
-title: IoStopTimer function
+title: IoStopTimer function (ntifs.h)
 description: The IoStopTimer routine disables the timer for a specified device object so the driver-supplied IoTimer routine is not called.
 old-location: kernel\iostoptimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoStopTimer
+- IoStopTimer
 product:
 - Windows
 targetos: Windows

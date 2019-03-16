@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_COPY_MACROVISION
-title: "_KS_COPY_MACROVISION"
+title: _KS_COPY_MACROVISION (ksmedia.h)
 description: The KS_COPY_MACROVISION structure specifies the Macrovision level of the data stream.
 old-location: stream\ks_copy_macrovision.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_COPY_MACROVISION
+- KS_COPY_MACROVISION
 product:
 - Windows
 targetos: Windows

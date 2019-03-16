@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
-title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
+title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmthk.h)
 description: Check for multiplane overlay support.
 ms.assetid: 864fba9e-5cdf-440f-8177-33beed94030e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
+- _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

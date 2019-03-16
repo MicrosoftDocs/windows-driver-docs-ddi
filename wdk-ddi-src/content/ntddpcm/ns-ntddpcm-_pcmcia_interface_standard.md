@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpcm._PCMCIA_INTERFACE_STANDARD
-title: "_PCMCIA_INTERFACE_STANDARD"
+title: _PCMCIA_INTERFACE_STANDARD (ntddpcm.h)
 description: The PCMCIA bus driver makes the PCMCIA_INTERFACE_STANDARD interface available to PCMCIA memory card drivers in order to allow them to make direct calls to the bus driver without allocating IRPs.
 old-location: pcmcia\pcmcia_interface_standard.htm
 tech.root: PCMCIA
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	PCMCIA_INTERFACE_STANDARD
+- PCMCIA_INTERFACE_STANDARD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeStringToOemString
-title: RtlUpcaseUnicodeStringToOemString function
+title: RtlUpcaseUnicodeStringToOemString function (ntifs.h)
 description: The RtlUpcaseUnicodeStringToOemString routine translates a given Unicode source string into an uppercase OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtooemstring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUpcaseUnicodeStringToOemString
+- RtlUpcaseUnicodeStringToOemString
 product:
 - Windows
 targetos: Windows

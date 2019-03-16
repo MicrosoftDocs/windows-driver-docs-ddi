@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRTStream
-title: IMiniportWaveRTStream
+title: IMiniportWaveRTStream (portcls.h)
 description: The IMiniportWaveRTStream interface represents the wave stream that flows through a pin on the KS filter that wraps a WaveRT rendering or capture device.
 old-location: audio\iminiportwavertstream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTStream
+- IMiniportWaveRTStream
 product:
 - Windows
 targetos: Windows

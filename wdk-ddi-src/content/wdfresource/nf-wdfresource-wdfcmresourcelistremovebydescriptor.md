@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListRemoveByDescriptor
-title: WdfCmResourceListRemoveByDescriptor function
+title: WdfCmResourceListRemoveByDescriptor function (wdfresource.h)
 description: The WdfCmResourceListRemoveByDescriptor method removes a specified resource descriptor from a specified resource list.
 old-location: wdf\wdfcmresourcelistremovebydescriptor.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCmResourceListRemoveByDescriptor
+- WdfCmResourceListRemoveByDescriptor
 product:
 - Windows
 targetos: Windows

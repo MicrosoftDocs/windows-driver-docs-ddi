@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerLock
-title: KsStreamPointerLock function
+title: KsStreamPointerLock function (ks.h)
 description: The KsStreamPointerLock function attempts to lock the specified stream pointer.
 old-location: stream\ksstreampointerlock.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerLock
+- KsStreamPointerLock
 product:
 - Windows
 targetos: Windows

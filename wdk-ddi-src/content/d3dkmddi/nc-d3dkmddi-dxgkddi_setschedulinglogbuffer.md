@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETSCHEDULINGLOGBUFFER
-title: DXGKDDI_SETSCHEDULINGLOGBUFFER
+title: DXGKDDI_SETSCHEDULINGLOGBUFFER (d3dkmddi.h)
 description: Instruct the GPU to use the passed buffer as a scheduling log for a particular GPU node.
 ms.assetid: b999c9b3-7f29-4dae-9968-86fbcaa9fabb
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETSCHEDULINGLOGBUFFER
+- DXGKDDI_SETSCHEDULINGLOGBUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

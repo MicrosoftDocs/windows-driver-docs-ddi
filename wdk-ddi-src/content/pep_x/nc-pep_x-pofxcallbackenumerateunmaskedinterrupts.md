@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
-title: POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS
+title: POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS (pep_x.h)
 description: The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled.
 old-location: kernel\enumerateunmaskedinterrupts.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	EnumerateUnmaskedInterrupts
+- EnumerateUnmaskedInterrupts
 product:
 - Windows
 targetos: Windows

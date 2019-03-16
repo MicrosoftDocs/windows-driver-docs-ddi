@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCECOPY
-title: PFND3D10DDI_RESOURCECOPY
+title: PFND3D10DDI_RESOURCECOPY (d3d10umddi.h)
 description: The ResourceCopy function copies an entire source resource to a destination resource.
 old-location: display\resourcecopy.htm
 ms.assetid: 9a837f42-0bea-4425-b693-dd7947ac24b1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceCopy
+- ResourceCopy
 product:
 - Windows
 targetos: Windows

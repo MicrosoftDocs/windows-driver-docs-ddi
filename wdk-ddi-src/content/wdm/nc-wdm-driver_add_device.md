@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_ADD_DEVICE
-title: DRIVER_ADD_DEVICE
+title: DRIVER_ADD_DEVICE (wdm.h)
 description: The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager.
 old-location: kernel\adddevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	AddDevice
+- AddDevice
 product:
 - Windows
 targetos: Windows

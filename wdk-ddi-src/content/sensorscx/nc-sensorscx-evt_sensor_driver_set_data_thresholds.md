@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS
-title: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS
+title: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS (sensorscx.h)
 description: This callback function sets the threshold for one or more data fields associated with a sensor.
 old-location: sensors\evtsensorsetdatathresholds.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorSetDataThresholds
+- EvtSensorSetDataThresholds
 product:
 - Windows
 targetos: Windows

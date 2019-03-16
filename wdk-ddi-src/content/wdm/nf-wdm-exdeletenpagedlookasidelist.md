@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteNPagedLookasideList
-title: ExDeleteNPagedLookasideList function
+title: ExDeleteNPagedLookasideList function (wdm.h)
 description: The ExDeleteNPagedLookasideList routine destroys a nonpaged lookaside list.
 old-location: kernel\exdeletenpagedlookasidelist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExDeleteNPagedLookasideList
+- ExDeleteNPagedLookasideList
 product:
 - Windows
 targetos: Windows

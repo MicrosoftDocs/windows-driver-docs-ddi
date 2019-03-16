@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_HW_IV
-title: "_DXVADDI_PVP_HW_IV"
+title: _DXVADDI_PVP_HW_IV (d3dumddi.h)
 description: The DXVADDI_PVP_HW_IV structure contains two 64-bit values that combine to form a 128-bit protected video path (PVP) value.
 old-location: display\dxvaddi_pvp_hw_iv.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_PVP_HW_IV
+- DXVADDI_PVP_HW_IV
 product:
 - Windows
 targetos: Windows

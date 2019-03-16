@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaInterruptDpc
-title: NetDmaInterruptDpc function
+title: NetDmaInterruptDpc function (netdma.h)
 description: The NetDmaInterruptDpc function notifies the NetDMA interface that a DMA transfer deferred procedure call (DPC) has completed on a DMA channel.
 old-location: netvista\netdmainterruptdpc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaInterruptDpc
+- NetDmaInterruptDpc
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_FAULT_ERROR_CODE
-title: "_DXGK_FAULT_ERROR_CODE"
+title: _DXGK_FAULT_ERROR_CODE (d3dkmdt.h)
 description: The DXGK_FAULT_ERROR_CODE structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 old-location: display\dxgk_fault_error_code.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	DXGK_FAULT_ERROR_CODE
+- DXGK_FAULT_ERROR_CODE
 product:
 - Windows
 targetos: Windows

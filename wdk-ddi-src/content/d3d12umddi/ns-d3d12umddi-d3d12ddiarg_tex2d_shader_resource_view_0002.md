@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
-title: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
+title: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002 (d3d12umddi.h)
 description: Describes a two-dimensional (2-D) texture that is used to create a shader resource view.
 ms.assetid: bc3135d7-ca2c-4f3d-aafd-87247af0d440
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
+- D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

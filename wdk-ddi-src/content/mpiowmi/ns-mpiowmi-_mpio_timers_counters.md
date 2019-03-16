@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_TIMERS_COUNTERS
-title: "_MPIO_TIMERS_COUNTERS"
+title: _MPIO_TIMERS_COUNTERS (mpiowmi.h)
 description: The MPIO_TIMERS_COUNTERS structure controls the timer counters that affect all devices whose controlling DSMs do not implement independent timer counter settings.
 old-location: storage\mpio_timers_counters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_TIMERS_COUNTERS
+- MPIO_TIMERS_COUNTERS
 product:
 - Windows
 targetos: Windows

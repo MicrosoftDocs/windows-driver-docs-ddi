@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelMute
-title: IMiniportStreamAudioEngineNode::GetStreamChannelMute
+title: IMiniportStreamAudioEngineNode::GetStreamChannelMute (portcls.h)
 description: Gets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelmute.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.GetStreamChannelMute
+- IMiniportStreamAudioEngineNode.GetStreamChannelMute
 product:
 - Windows
 targetos: Windows

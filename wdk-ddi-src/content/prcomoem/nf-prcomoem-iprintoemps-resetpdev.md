@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.ResetPDEV
-title: IPrintOemPS::ResetPDEV
+title: IPrintOemPS::ResetPDEV (prcomoem.h)
 description: The IPrintOemPS::ResetPDEV method allows a rendering plug-in for Pscript5 to reset its PDEV structure.
 old-location: print\iprintoemps_resetpdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemPS.ResetPDEV
+- IPrintOemPS.ResetPDEV
 product:
 - Windows
 targetos: Windows

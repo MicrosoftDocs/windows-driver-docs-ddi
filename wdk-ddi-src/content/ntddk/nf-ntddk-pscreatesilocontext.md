@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsCreateSiloContext
-title: PsCreateSiloContext function
+title: PsCreateSiloContext function (ntddk.h)
 description: This routine creates an object that will be inserted in a Silo.
 old-location: kernel\pscreatesilocontext.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsCreateSiloContext
+- PsCreateSiloContext
 product:
 - Windows
 targetos: Windows

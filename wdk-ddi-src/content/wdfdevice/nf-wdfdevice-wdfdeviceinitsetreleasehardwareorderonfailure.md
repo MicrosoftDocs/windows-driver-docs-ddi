@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetReleaseHardwareOrderOnFailure
-title: WdfDeviceInitSetReleaseHardwareOrderOnFailure function
+title: WdfDeviceInitSetReleaseHardwareOrderOnFailure function (wdfdevice.h)
 description: The WdfDeviceInitSetReleaseHardwareOrderOnFailure method specifies whether the framework calls the driver's EvtDeviceReleaseHardware callback function immediately after device failure, or waits until all child devices have been removed.
 old-location: wdf\wdfdeviceinitsetreleasehardwareorderonfailure.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceInitSetReleaseHardwareOrderOnFailure
+- WdfDeviceInitSetReleaseHardwareOrderOnFailure
 product:
 - Windows
 targetos: Windows

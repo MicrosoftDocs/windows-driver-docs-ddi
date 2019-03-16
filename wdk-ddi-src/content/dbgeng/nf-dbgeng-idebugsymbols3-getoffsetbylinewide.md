@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByLineWide
-title: IDebugSymbols3::GetOffsetByLineWide
+title: IDebugSymbols3::GetOffsetByLineWide (dbgeng.h)
 description: The GetOffsetByLineWide method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbylinewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetOffsetByLineWide
+- IDebugSymbols3.GetOffsetByLineWide
 product:
 - Windows
 targetos: Windows

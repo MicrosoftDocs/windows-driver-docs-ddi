@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0052
-title: D3D12DDI_DEVICE_FUNCS_CORE_0052
+title: D3D12DDI_DEVICE_FUNCS_CORE_0052 (d3d12umddi.h)
 description: Core device functions.
 ms.assetid: 6dbc6b20-34c1-479c-9da1-d9b8c8480e25
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0052
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_DEVICE_FUNCS_CORE_0052
+- D3D12DDI_DEVICE_FUNCS_CORE_0052
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

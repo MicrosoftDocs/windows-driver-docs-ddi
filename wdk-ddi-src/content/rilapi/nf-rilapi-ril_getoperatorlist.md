@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetOperatorList
-title: RIL_GetOperatorList function
+title: RIL_GetOperatorList function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getoperatorlist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_GetOperatorList
+- RIL_GetOperatorList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
-title: IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart
+title: IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart (wdtfedtaction.h)
 description: Sets a value that indicates whether the target device should be restarted by default.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_skiprestart.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverEDTAction.Interop.dll
+- WDTFDriverEDTAction.Interop.dll
 api_name:
--	IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
--	IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
+- IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
+- IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
 product:
 - Windows
 targetos: Windows

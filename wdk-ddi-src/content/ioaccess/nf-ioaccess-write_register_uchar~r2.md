@@ -1,6 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_REGISTER_UCHAR~r2
-title: WRITE_REGISTER_UCHAR function
+title: WRITE_REGISTER_UCHAR function (ioaccess.h)
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WRITE_REGISTER_UCHAR
+- WRITE_REGISTER_UCHAR
 product:
 - Windows
 targetos: Windows

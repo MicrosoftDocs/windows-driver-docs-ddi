@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_DATA_RATE_ENTRY
-title: "_WDI_DATA_RATE_ENTRY"
+title: _WDI_DATA_RATE_ENTRY (wditypes.h)
 description: The WDI_DATA_RATE_ENTRY structure defines a data rate entry.
 old-location: netvista\wdi_data_rate_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_DATA_RATE_ENTRY
+- WDI_DATA_RATE_ENTRY
 product:
 - Windows
 targetos: Windows

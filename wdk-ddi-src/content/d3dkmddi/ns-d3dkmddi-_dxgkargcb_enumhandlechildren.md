@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ENUMHANDLECHILDREN
-title: "_DXGKARGCB_ENUMHANDLECHILDREN"
+title: _DXGKARGCB_ENUMHANDLECHILDREN (d3dkmddi.h)
 description: The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the index of one of its child allocations.
 old-location: display\dxgkargcb_enumhandlechildren.htm
 ms.assetid: da97b175-a24c-406d-9747-c84122781f79
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_ENUMHANDLECHILDREN
+- DXGKARGCB_ENUMHANDLECHILDREN
 product:
 - Windows
 targetos: Windows

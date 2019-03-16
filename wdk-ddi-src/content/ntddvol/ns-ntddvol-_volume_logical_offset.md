@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._VOLUME_LOGICAL_OFFSET
-title: "_VOLUME_LOGICAL_OFFSET"
+title: _VOLUME_LOGICAL_OFFSET (ntddvol.h)
 description: The VOLUME_LOGICAL_OFFSET structure contains a logical offset into a volume.
 old-location: storage\volume_logical_offset.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvol.h
+- ntddvol.h
 api_name:
--	VOLUME_LOGICAL_OFFSET
+- VOLUME_LOGICAL_OFFSET
 product:
 - Windows
 targetos: Windows

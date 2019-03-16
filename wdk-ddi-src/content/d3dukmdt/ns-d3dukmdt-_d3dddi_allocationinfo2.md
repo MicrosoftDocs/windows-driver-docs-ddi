@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONINFO2
-title: _D3DDDI_ALLOCATIONINFO2
+title: _D3DDDI_ALLOCATIONINFO2 (d3dukmdt.h)
 description: The D3DDDI_ALLOCATIONINFO2 structure describes an allocation.
 ms.assetid: 24bfa783-7a23-4885-9336-7f9102d53b3e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_ALLOCATIONINFO2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	_D3DDDI_ALLOCATIONINFO2
+- _D3DDDI_ALLOCATIONINFO2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

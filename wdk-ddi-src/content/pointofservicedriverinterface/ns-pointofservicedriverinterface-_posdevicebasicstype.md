@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosDeviceBasicsType
-title: "_PosDeviceBasicsType"
+title: _PosDeviceBasicsType (pointofservicedriverinterface.h)
 description: This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosDeviceBasicsType
+- PosDeviceBasicsType
 product:
 - Windows
 targetos: Windows

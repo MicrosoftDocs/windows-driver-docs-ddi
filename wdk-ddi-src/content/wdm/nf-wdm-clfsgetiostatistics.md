@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsGetIoStatistics
-title: ClfsGetIoStatistics function
+title: ClfsGetIoStatistics function (wdm.h)
 description: The ClfsGetIoStatistics routine returns I/O statistics for a specified CLFS log.
 old-location: kernel\clfsgetiostatistics.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsGetIoStatistics
+- ClfsGetIoStatistics
 product:
 - Windows
 targetos: Windows

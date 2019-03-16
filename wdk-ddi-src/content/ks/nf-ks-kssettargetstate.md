@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetTargetState
-title: KsSetTargetState function
+title: KsSetTargetState function (ks.h)
 description: Sets the enabled state of a target device associated with the specified object header.
 old-location: stream\kssettargetstate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetTargetState
+- KsSetTargetState
 product:
 - Windows
 targetos: Windows

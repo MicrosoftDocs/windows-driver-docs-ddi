@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportAudioSignalProcessing
-title: IMiniportAudioSignalProcessing
+title: IMiniportAudioSignalProcessing (portcls.h)
 description: The IMiniportAudioSignalProcessing interface is implemented by the WaveRT miniport component of any audio driver, if any of its pins support audio signal processing modes.
 old-location: audio\iminiportaudiosignalprocessing.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioSignalProcessing
+- IMiniportAudioSignalProcessing
 product:
 - Windows
 targetos: Windows

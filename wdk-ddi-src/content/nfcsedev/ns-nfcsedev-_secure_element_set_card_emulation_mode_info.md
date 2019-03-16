@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
-title: "_SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO"
+title: _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO (nfcsedev.h)
 description: SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO is the input parameter for IOCTL_NFCSE_SET_CARD_EMULATION_MODE.
 old-location: nfpdrivers\secure_element_set_card_emulation_mode_info.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
+- SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
 product:
 - Windows
 targetos: Windows

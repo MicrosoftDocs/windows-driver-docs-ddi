@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDriverCreatedFile
-title: IWDFDriverCreatedFile
+title: IWDFDriverCreatedFile (wudfddi.h)
 description: The IWDFDriverCreatedFile interface exposes a UMDF driver-created-file object for the driver to use.
 old-location: wdf\iwdfdrivercreatedfile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDriverCreatedFile
+- IWDFDriverCreatedFile
 product:
 - Windows
 targetos: Windows

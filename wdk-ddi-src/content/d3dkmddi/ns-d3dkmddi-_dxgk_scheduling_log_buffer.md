@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_BUFFER
-title: _DXGK_SCHEDULING_LOG_BUFFER
+title: _DXGK_SCHEDULING_LOG_BUFFER (d3dkmddi.h)
 description: Information about the passed buffer as a scheduling log for a particular GPU node.
 ms.assetid: a8769b62-4f90-43f8-ab7d-3c0b0fa30f03
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_LOG_BUFFER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_LOG_BUFFER
+- _DXGK_SCHEDULING_LOG_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrDeregisterClient
-title: NmrDeregisterClient function
+title: NmrDeregisterClient function (netioddk.h)
 description: The NmrDeregisterClient function deregisters a client module from the NMR.
 old-location: netvista\nmrderegisterclient.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	NmrDeregisterClient
+- NmrDeregisterClient
 product:
 - Windows
 targetos: Windows

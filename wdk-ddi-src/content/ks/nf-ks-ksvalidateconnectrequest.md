@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateConnectRequest
-title: KsValidateConnectRequest function
+title: KsValidateConnectRequest function (ks.h)
 description: The KsValidateConnectRequest function validates a connection request and returns a pointer to the connection structure associated with the request.This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidateconnectrequest.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsValidateConnectRequest
+- KsValidateConnectRequest
 product:
 - Windows
 targetos: Windows

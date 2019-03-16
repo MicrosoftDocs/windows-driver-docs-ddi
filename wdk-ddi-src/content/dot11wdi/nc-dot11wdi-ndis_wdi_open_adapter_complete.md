@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_OPEN_ADAPTER_COMPLETE
-title: NDIS_WDI_OPEN_ADAPTER_COMPLETE
+title: NDIS_WDI_OPEN_ADAPTER_COMPLETE (dot11wdi.h)
 description: The NdisWdiOpenAdapterComplete callback function is called by the IHV when an Open Task operation from MiniportWdiOpenAdapter has been successfully started.
 old-location: netvista\ndiswdiopenadaptercomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiOpenAdapterComplete
+- NdisWdiOpenAdapterComplete
 product:
 - Windows
 targetos: Windows

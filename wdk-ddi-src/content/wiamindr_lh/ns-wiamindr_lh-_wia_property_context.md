@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_PROPERTY_CONTEXT
-title: "_WIA_PROPERTY_CONTEXT"
+title: _WIA_PROPERTY_CONTEXT (wiamindr_lh.h)
 description: The WIA_PROPERTY_CONTEXT structure stores property identifiers and their context.
 old-location: image\wia_property_context.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIA_PROPERTY_CONTEXT
+- WIA_PROPERTY_CONTEXT
 product:
 - Windows
 targetos: Windows

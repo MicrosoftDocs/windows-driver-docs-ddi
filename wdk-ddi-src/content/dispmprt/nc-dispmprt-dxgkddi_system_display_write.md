@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SYSTEM_DISPLAY_WRITE
-title: DXGKDDI_SYSTEM_DISPLAY_WRITE
+title: DXGKDDI_SYSTEM_DISPLAY_WRITE (dispmprt.h)
 description: Called by the operating system to request the display miniport driver to write an image block to the display device.
 old-location: display\dxgkddisystemdisplaywrite.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiSystemDisplayWrite
+- DxgkDdiSystemDisplayWrite
 product:
 - Windows
 targetos: Windows

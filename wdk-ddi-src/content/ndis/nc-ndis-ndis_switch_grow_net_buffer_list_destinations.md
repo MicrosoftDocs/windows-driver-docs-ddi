@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS
-title: NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS
+title: NDIS_SWITCH_GROW_NET_BUFFER_LIST_DESTINATIONS (ndis.h)
 description: The GrowNetBufferListDestinations function adds space for additional Hyper-V extensible switch destination ports to a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\grownetbufferlistdestinations.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	GrowNetBufferListDestinations
+- GrowNetBufferListDestinations
 product:
 - Windows
 targetos: Windows

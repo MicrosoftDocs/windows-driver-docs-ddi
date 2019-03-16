@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_CONTROL
-title: EVT_SERCX_CONTROL
+title: EVT_SERCX_CONTROL (sercx.h)
 description: The EvtSerCxControl event callback function handles an I/O control request that has an I/O control code (IOCTL) that the serial framework extension (SerCx) supports.
 old-location: serports\evtsercxcontrol.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	EvtSerCxControl
+- EvtSerCxControl
 product:
 - Windows
 targetos: Windows

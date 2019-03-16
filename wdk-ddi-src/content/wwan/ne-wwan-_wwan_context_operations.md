@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_OPERATIONS
-title: _WWAN_CONTEXT_OPERATIONS
+title: _WWAN_CONTEXT_OPERATIONS (wwan.h)
 description: The WWAN_CONTEXT_OPERATIONS enumeration specifies the types of operation used in a Set request for a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 30c43b14-55c8-4f24-855d-23a3e017ad01
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_OPERATIONS, *PWWAN_CONTEXT_OPERATIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_OPERATIONS
+- _WWAN_CONTEXT_OPERATIONS
 product: 
 - Windows
 targetos: Windows

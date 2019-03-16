@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateAcl
-title: RtlCreateAcl function
+title: RtlCreateAcl function (ntifs.h)
 description: The RtlCreateAcl routine creates and initializes an access control list (ACL).
 old-location: ifsk\rtlcreateacl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCreateAcl
+- RtlCreateAcl
 product:
 - Windows
 targetos: Windows

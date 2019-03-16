@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapLockedPagesSpecifyCache
-title: MmMapLockedPagesSpecifyCache function
+title: MmMapLockedPagesSpecifyCache function (wdm.h)
 description: The MmMapLockedPagesSpecifyCache routine maps the physical pages that are described by an MDL to a virtual address, and enables the caller to specify the cache attribute that is used to create the mapping.
 old-location: kernel\mmmaplockedpagesspecifycache.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmMapLockedPagesSpecifyCache
+- MmMapLockedPagesSpecifyCache
 product:
 - Windows
 targetos: Windows

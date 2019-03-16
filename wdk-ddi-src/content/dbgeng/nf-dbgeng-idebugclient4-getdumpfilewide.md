@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetDumpFileWide
-title: IDebugClient4::GetDumpFileWide
+title: IDebugClient4::GetDumpFileWide (dbgeng.h)
 description: The GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient4.GetDumpFileWide
--	IDebugClient5.GetDumpFileWide
+- IDebugClient4.GetDumpFileWide
+- IDebugClient5.GetDumpFileWide
 product:
 - Windows
 targetos: Windows

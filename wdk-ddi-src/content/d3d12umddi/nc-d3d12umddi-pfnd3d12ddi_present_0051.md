@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_PRESENT_0051
-title: PFND3D12DDI_PRESENT_0051
+title: PFND3D12DDI_PRESENT_0051 (d3d12umddi.h)
 description: The PFND3D12DDI_PRESENT_0051 callback function copies content from source allocations to a primary surface.
 ms.assetid: 191033a4-5f8c-409b-9097-a9f096267844
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_PRESENT_0051
+- PFND3D12DDI_PRESENT_0051
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

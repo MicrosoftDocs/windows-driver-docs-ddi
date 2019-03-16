@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrDeregisterProvider
-title: NmrDeregisterProvider function
+title: NmrDeregisterProvider function (netioddk.h)
 description: The NmrDeregisterProvider function deregisters a provider module from the NMR.
 old-location: netvista\nmrderegisterprovider.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	NmrDeregisterProvider
+- NmrDeregisterProvider
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDeviceInformation
-title: IWDFUsbTargetDevice::RetrieveDeviceInformation
+title: IWDFUsbTargetDevice::RetrieveDeviceInformation (wudfusb.h)
 description: The RetrieveDeviceInformation method retrieves device information of the specified type.
 old-location: wdf\iwdfusbtargetdevice_retrievedeviceinformation.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.RetrieveDeviceInformation
+- IWDFUsbTargetDevice.RetrieveDeviceInformation
 product:
 - Windows
 targetos: Windows

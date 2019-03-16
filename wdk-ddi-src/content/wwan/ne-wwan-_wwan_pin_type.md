@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_TYPE
-title: "_WWAN_PIN_TYPE"
+title: _WWAN_PIN_TYPE (wwan.h)
 description: The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs) that are supported by the MB device.
 old-location: netvista\wwan_pin_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PIN_TYPE
+- WWAN_PIN_TYPE
 product:
 - Windows
 targetos: Windows

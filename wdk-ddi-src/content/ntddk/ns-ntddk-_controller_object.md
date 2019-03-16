@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._CONTROLLER_OBJECT
-title: "_CONTROLLER_OBJECT"
+title: _CONTROLLER_OBJECT (ntddk.h)
 description: A controller object represents a hardware adapter or controller with homogenous devices that are the actual targets for I/O requests.
 old-location: kernel\controller_object.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	CONTROLLER_OBJECT
+- CONTROLLER_OBJECT
 product:
 - Windows
 targetos: Windows

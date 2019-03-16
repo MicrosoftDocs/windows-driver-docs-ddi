@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_NIC_SWITCH_TYPE
-title: "_NDIS_NIC_SWITCH_TYPE"
+title: _NDIS_NIC_SWITCH_TYPE (ntddndis.h)
 description: The NDIS_NIC_SWITCH_TYPE enumeration specifies the type of the NIC switch on a network adapter.
 old-location: netvista\ndis_nic_switch_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_NIC_SWITCH_TYPE
+- NDIS_NIC_SWITCH_TYPE
 product:
 - Windows
 targetos: Windows

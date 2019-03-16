@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyKeyedMutex
-title: D3DKMTDestroyKeyedMutex function
+title: D3DKMTDestroyKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTDestroyKeyedMutex function destroys a keyed mutex object.
 old-location: display\d3dkmtdestroykeyedmutex.htm
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTDestroyKeyedMutex
+- D3DKMTDestroyKeyedMutex
 product:
 - Windows
 targetos: Windows

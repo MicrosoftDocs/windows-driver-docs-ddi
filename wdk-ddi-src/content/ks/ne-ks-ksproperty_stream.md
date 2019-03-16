@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_24
-title: KSPROPERTY_STREAM
+title: KSPROPERTY_STREAM (ks.h)
 description: 
 old-location: stream\ksproperty_stream.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_STREAM
+- KSPROPERTY_STREAM
 product:
 - Windows
 targetos: Windows

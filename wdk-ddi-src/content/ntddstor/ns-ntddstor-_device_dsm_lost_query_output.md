@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_OUTPUT
-title: _DEVICE_DSM_LOST_QUERY_OUTPUT
+title: _DEVICE_DSM_LOST_QUERY_OUTPUT (ntddstor.h)
 description: 
 ms.assetid: 566bbd9e-4f8e-49d9-915d-901c4495bbe8
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_DEVICE_DSM_LOST_QUERY_OUTPUT
+- _DEVICE_DSM_LOST_QUERY_OUTPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_STATUS_REGISTER
-title: "_PCI_EXPRESS_ROOT_STATUS_REGISTER"
+title: _PCI_EXPRESS_ROOT_STATUS_REGISTER (miniport.h)
 description: The PCI_EXPRESS_ROOT_STATUS_REGISTER structure describes a PCI Express (PCIe) root status register of a PCIe capability structure.
 old-location: pci\pci_express_root_status_register.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PCI_EXPRESS_ROOT_STATUS_REGISTER
+- PCI_EXPRESS_ROOT_STATUS_REGISTER
 product:
 - Windows
 targetos: Windows

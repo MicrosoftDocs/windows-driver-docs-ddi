@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_PD_POWER_DATA_OBJECT_TYPE
-title: "_UCM_PD_POWER_DATA_OBJECT_TYPE"
+title: _UCM_PD_POWER_DATA_OBJECT_TYPE (ucmtypes.h)
 description: Defines Power Data Object types.
 old-location: buses\ucm_pd_power_data_object_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_PD_POWER_DATA_OBJECT_TYPE
+- UCM_PD_POWER_DATA_OBJECT_TYPE
 product:
 - Windows
 targetos: Windows

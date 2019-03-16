@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsEnableEvent
-title: KsEnableEvent function
+title: KsEnableEvent function (ks.h)
 description: The KsEnableEvent function enables events requested through IOCTL_KS_ENABLE_EVENT. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksenableevent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsEnableEvent
+- KsEnableEvent
 product:
 - Windows
 targetos: Windows

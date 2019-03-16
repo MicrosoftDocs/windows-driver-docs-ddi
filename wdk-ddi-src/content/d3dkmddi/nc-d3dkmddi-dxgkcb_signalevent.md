@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SIGNALEVENT
-title: DXGKCB_SIGNALEVENT
+title: DXGKCB_SIGNALEVENT (d3dkmddi.h)
 description: Allows the kernel mode on the host to signal an event, which is created in the guest during paravirtualization.
 ms.assetid: fbb456a6-4ffc-4d65-a3d6-e3d78b573ae3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKCB_SIGNALEVENT
+- DXGKCB_SIGNALEVENT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

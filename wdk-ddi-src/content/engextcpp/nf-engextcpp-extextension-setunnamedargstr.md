@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetUnnamedArgStr
-title: ExtExtension::SetUnnamedArgStr
+title: ExtExtension::SetUnnamedArgStr (engextcpp.h)
 description: The SetUnnamedArgStr method sets an unnamed string argument for the current extension command.
 old-location: debugger\setunnamedargstr.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.SetUnnamedArgStr
+- ExtExtension.SetUnnamedArgStr
 product:
 - Windows
 targetos: Windows

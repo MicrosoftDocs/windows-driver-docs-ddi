@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoDeleteSymbolicLink
-title: IoDeleteSymbolicLink function
+title: IoDeleteSymbolicLink function (wdm.h)
 description: The IoDeleteSymbolicLink routine removes a symbolic link from the system.
 old-location: kernel\iodeletesymboliclink.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDeleteSymbolicLink
+- IoDeleteSymbolicLink
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetAssemblyOptions
-title: IDebugControl3::GetAssemblyOptions
+title: IDebugControl3::GetAssemblyOptions (dbgeng.h)
 description: The GetAssemblyOptions method returns the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
 old-location: debugger\getassemblyoptions.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetAssemblyOptions
+- IDebugControl3.GetAssemblyOptions
 product:
 - Windows
 targetos: Windows

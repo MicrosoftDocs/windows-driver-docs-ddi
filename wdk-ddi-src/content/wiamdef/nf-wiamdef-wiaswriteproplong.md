@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropLong
-title: wiasWritePropLong function
+title: wiasWritePropLong function (wiamdef.h)
 description: The wiasWritePropLong function writes a single long integer property value to a WIA item.
 old-location: image\wiaswriteproplong.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePropLong
+- wiasWritePropLong
 product:
 - Windows
 targetos: Windows

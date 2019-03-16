@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsIncrementCountedWorker
-title: KsIncrementCountedWorker function
+title: KsIncrementCountedWorker function (ks.h)
 description: Increments the current worker count, and optionally queues the counted work item with the worker previously created by KsRegisterCountedWorker.
 old-location: stream\ksincrementcountedworker.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsIncrementCountedWorker
+- KsIncrementCountedWorker
 product:
 - Windows
 targetos: Windows

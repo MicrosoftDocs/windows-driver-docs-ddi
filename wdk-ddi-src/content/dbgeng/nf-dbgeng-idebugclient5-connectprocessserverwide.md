@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.ConnectProcessServerWide
-title: IDebugClient5::ConnectProcessServerWide
+title: IDebugClient5::ConnectProcessServerWide (dbgeng.h)
 description: The ConnectProcessServerWide method connects to a process server.
 old-location: debugger\connectprocessserverwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.ConnectProcessServerWide
+- IDebugClient5.ConnectProcessServerWide
 product:
 - Windows
 targetos: Windows

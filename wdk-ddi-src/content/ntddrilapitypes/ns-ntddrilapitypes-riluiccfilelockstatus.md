@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCFILELOCKSTATUS
-title: RILUICCFILELOCKSTATUS
+title: RILUICCFILELOCKSTATUS (ntddrilapitypes.h)
 description: This structure represents RILUICCFILELOCKSTATUS.
 old-location: netvista\riluiccfilelockstatus.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCFILELOCKSTATUS
+- RILUICCFILELOCKSTATUS
 product:
 - Windows
 targetos: Windows

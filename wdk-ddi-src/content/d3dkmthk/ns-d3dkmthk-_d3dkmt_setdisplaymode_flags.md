@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETDISPLAYMODE_FLAGS
-title: "_D3DKMT_SETDISPLAYMODE_FLAGS"
+title: _D3DKMT_SETDISPLAYMODE_FLAGS (d3dkmthk.h)
 description: The D3DKMT_SETDISPLAYMODE_FLAGS structure identifies attributes for setting the display mode.
 old-location: display\d3dkmt_setdisplaymode_flags.htm
 ms.assetid: 245586cb-d277-4cef-aeb9-b576a4ae6d43
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SETDISPLAYMODE_FLAGS
+- D3DKMT_SETDISPLAYMODE_FLAGS
 product:
 - Windows
 targetos: Windows

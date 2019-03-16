@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeCorrelationVector
-title: RtlInitializeCorrelationVector function
+title: RtlInitializeCorrelationVector function (ntddk.h)
 description: Initializes the specified correlation vector with the supplied GUID.
 old-location: kernel\rtlinitializecorrelationvector.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitializeCorrelationVector
+- RtlInitializeCorrelationVector
 product:
 - Windows
 targetos: Windows

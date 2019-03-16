@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListSortSubscribedActivitiesByConfidence
-title: CollectionsListSortSubscribedActivitiesByConfidence function
+title: CollectionsListSortSubscribedActivitiesByConfidence function (sensorsutils.h)
 description: This routine rearranges activity data collection under certain conditions.
 ms.assetid: 10616185-a9af-4b35-a7b7-d3288c319121
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	CollectionsListSortSubscribedActivitiesByConfidence
+- CollectionsListSortSubscribedActivitiesByConfidence
 product:
 - Windows
 targetos: Windows

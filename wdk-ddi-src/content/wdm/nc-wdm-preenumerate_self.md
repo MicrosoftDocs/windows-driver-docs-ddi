@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PREENUMERATE_SELF
-title: PREENUMERATE_SELF
+title: PREENUMERATE_SELF (wdm.h)
 description: A ReenumerateSelf routine requests that a bus driver reenumerate a child device.
 old-location: kernel\reenumerateself.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ReenumerateSelf
+- ReenumerateSelf
 product:
 - Windows
 targetos: Windows

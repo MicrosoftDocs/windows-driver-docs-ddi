@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectionHandleDestroy0
-title: FwpsInjectionHandleDestroy0 function
+title: FwpsInjectionHandleDestroy0 function (fwpsk.h)
 description: The FwpsInjectionHandleDestroy0 function destroys an injection handle that was previously created by calling the FwpsInjectionHandleCreate0 function.Note  FwpsInjectionHandleDestroy0 is a specific version of FwpsInjectionHandleDestroy.
 old-location: netvista\fwpsinjectionhandledestroy0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectionHandleDestroy0
+- FwpsInjectionHandleDestroy0
 product:
 - Windows
 targetos: Windows

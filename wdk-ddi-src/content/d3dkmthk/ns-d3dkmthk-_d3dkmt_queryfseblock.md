@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYFSEBLOCK
-title: _D3DKMT_QUERYFSEBLOCK
+title: _D3DKMT_QUERYFSEBLOCK (d3dkmthk.h)
 description: Structure used to query FSE blocks.
 ms.assetid: 759dcf16-b2c0-40db-967d-7ca1cef55c62
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERYFSEBLOCK
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_QUERYFSEBLOCK
+- _D3DKMT_QUERYFSEBLOCK
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

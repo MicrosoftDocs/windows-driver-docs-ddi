@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_STATE
-title: "_TRANSACTION_STATE"
+title: _TRANSACTION_STATE (wdm.h)
 description: The TRANSACTION_STATE enumeration defines the states that KTM can assign to a transaction.
 old-location: kernel\transaction_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRANSACTION_STATE
+- TRANSACTION_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_SecurityCapabilities
-title: "_MSiSCSI_SecurityCapabilities"
+title: _MSiSCSI_SecurityCapabilities (iscsicfg.h)
 description: The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 old-location: storage\msiscsi_securitycapabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsicfg.h
+- iscsicfg.h
 api_name:
--	MSiSCSI_SecurityCapabilities
+- MSiSCSI_SecurityCapabilities
 product:
 - Windows
 targetos: Windows

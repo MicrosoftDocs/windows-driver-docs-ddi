@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfworkitem.WDF_WORKITEM_CONFIG_INIT
-title: WDF_WORKITEM_CONFIG_INIT function
+title: WDF_WORKITEM_CONFIG_INIT function (wdfworkitem.h)
 description: The WDF_WORKITEM_CONFIG_INIT function initializes a driver's WDF_WORKITEM_CONFIG structure.
 old-location: wdf\wdf_workitem_config_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfworkitem.h
+- wdfworkitem.h
 api_name:
--	WDF_WORKITEM_CONFIG_INIT
+- WDF_WORKITEM_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

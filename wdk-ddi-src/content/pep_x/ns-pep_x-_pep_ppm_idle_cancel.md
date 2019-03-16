@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_CANCEL
-title: "_PEP_PPM_IDLE_CANCEL"
+title: _PEP_PPM_IDLE_CANCEL (pep_x.h)
 description: The PEP_PPM_IDLE_CANCEL structure indicates why the processor could not enter the previously selected idle state.
 old-location: kernel\pep_ppm_idle_cancel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_PPM_IDLE_CANCEL
+- PEP_PPM_IDLE_CANCEL
 product:
 - Windows
 targetos: Windows

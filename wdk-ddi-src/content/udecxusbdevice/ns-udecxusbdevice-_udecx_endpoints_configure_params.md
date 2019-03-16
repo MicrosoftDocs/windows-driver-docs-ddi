@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_ENDPOINTS_CONFIGURE_PARAMS
-title: "_UDECX_ENDPOINTS_CONFIGURE_PARAMS"
+title: _UDECX_ENDPOINTS_CONFIGURE_PARAMS (udecxusbdevice.h)
 description: Contains the configuration options specified by USB device emulation class extension (UdeCx) to the client driver when the class extension invokes EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE.
 old-location: buses\udecx_endpoints_configure_params.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_ENDPOINTS_CONFIGURE_PARAMS
+- UDECX_ENDPOINTS_CONFIGURE_PARAMS
 product:
 - Windows
 targetos: Windows

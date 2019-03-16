@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetRingBufferReturnCompletedPackets
-title: NetRingBufferReturnCompletedPackets function
+title: NetRingBufferReturnCompletedPackets function (netadapterpacket.h)
 description: Returns all packets in a datapath queue's packet ring buffer that have the Completed flag set.
 tech.root: netvista
 ms.assetid: 3699e976-e007-42f8-9785-9f13d0d56c57
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NetRingBufferReturnCompletedPackets
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NetRingBufferReturnCompletedPackets
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

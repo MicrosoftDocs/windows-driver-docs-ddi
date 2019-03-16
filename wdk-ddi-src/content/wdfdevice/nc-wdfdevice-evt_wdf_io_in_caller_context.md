@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_IO_IN_CALLER_CONTEXT
-title: EVT_WDF_IO_IN_CALLER_CONTEXT
+title: EVT_WDF_IO_IN_CALLER_CONTEXT (wdfdevice.h)
 description: A driver's EvtIoInCallerContext event callback function preprocesses an I/O request before the framework places it into an I/O queue.
 old-location: wdf\evtioincallercontext.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtIoInCallerContext
+- EvtIoInCallerContext
 product:
 - Windows
 targetos: Windows

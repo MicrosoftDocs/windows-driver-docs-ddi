@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFCmResourceList.GetDescriptor
-title: IWDFCmResourceList::GetDescriptor
+title: IWDFCmResourceList::GetDescriptor (wudfddi.h)
 description: The GetDescriptor method returns a pointer to a resource descriptor that is contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFCmResourceList.GetDescriptor
+- IWDFCmResourceList.GetDescriptor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxbase._UFX_HARDWARE_FAILURE_CONTEXT
-title: "_UFX_HARDWARE_FAILURE_CONTEXT"
+title: _UFX_HARDWARE_FAILURE_CONTEXT (ufxbase.h)
 description: The UFX_HARDWARE_FAILURE_CONTEXT structure is used to define controller-specific hardware failure properties.
 old-location: buses\ufx_hardware_failure_context.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxbase.h
+- ufxbase.h
 api_name:
--	UFX_HARDWARE_FAILURE_CONTEXT
+- UFX_HARDWARE_FAILURE_CONTEXT
 product:
 - Windows
 targetos: Windows

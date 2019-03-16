@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryNodeMaximumProcessorCount
-title: KeQueryNodeMaximumProcessorCount function
+title: KeQueryNodeMaximumProcessorCount function (ntddk.h)
 description: The KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.
 old-location: kernel\kequerynodemaximumprocessorcount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryNodeMaximumProcessorCount
+- KeQueryNodeMaximumProcessorCount
 product:
 - Windows
 targetos: Windows

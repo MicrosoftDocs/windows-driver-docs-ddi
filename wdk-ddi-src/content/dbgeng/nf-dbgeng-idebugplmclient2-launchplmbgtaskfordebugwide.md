@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
-title: IDebugPlmClient2::LaunchPlmBgTaskForDebugWide
+title: IDebugPlmClient2::LaunchPlmBgTaskForDebugWide (dbgeng.h)
 description: Launches a suspended Process Lifecycle Management (PLM) background task.
 old-location: debugger\idebugplmclient2_launchplmbgtaskfordebugwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
+- IDebugPlmClient2.LaunchPlmBgTaskForDebugWide
 product:
 - Windows
 targetos: Windows

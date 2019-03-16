@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_SET_COPY_STATE
-title: "_KS_DVDCOPY_SET_COPY_STATE"
+title: _KS_DVDCOPY_SET_COPY_STATE (ksmedia.h)
 description: The KS_DVDCOPY_SET_COPY_STATE structure is used to specify the copyright protection state of the DVD decoder stream.
 old-location: stream\ks_dvdcopy_set_copy_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DVDCOPY_SET_COPY_STATE
+- KS_DVDCOPY_SET_COPY_STATE
 product:
 - Windows
 targetos: Windows

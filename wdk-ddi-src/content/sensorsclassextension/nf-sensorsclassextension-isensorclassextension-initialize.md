@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Initialize
-title: ISensorClassExtension::Initialize
+title: ISensorClassExtension::Initialize (sensorsclassextension.h)
 description: The ISensorClassExtension::Initialize method initializes the sensor class extension object.
 old-location: sensors\isensorclassextension_initialize.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	Initialize
+- Initialize
 product:
 - Windows
 targetos: Windows

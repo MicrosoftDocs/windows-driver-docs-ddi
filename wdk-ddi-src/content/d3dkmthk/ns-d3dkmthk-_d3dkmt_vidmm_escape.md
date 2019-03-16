@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIDMM_ESCAPE
-title: "_D3DKMT_VIDMM_ESCAPE"
+title: _D3DKMT_VIDMM_ESCAPE (d3dkmthk.h)
 description: The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_vidmm_escape.htm
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_VIDMM_ESCAPE
+- D3DKMT_VIDMM_ESCAPE
 product:
 - Windows
 targetos: Windows

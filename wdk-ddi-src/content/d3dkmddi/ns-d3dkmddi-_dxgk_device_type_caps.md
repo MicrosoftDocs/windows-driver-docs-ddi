@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DEVICE_TYPE_CAPS
-title: _DXGK_DEVICE_TYPE_CAPS
+title: _DXGK_DEVICE_TYPE_CAPS (d3dkmddi.h)
 description: Describes the type of capabilities for a device.
 ms.assetid: bd78861e-f922-4c3b-bb8d-c605c1ac1c67
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DEVICE_TYPE_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGK_DEVICE_TYPE_CAPS
+- _DXGK_DEVICE_TYPE_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

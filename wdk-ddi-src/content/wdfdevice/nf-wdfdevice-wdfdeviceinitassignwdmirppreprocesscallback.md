@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitAssignWdmIrpPreprocessCallback
-title: WdfDeviceInitAssignWdmIrpPreprocessCallback function
+title: WdfDeviceInitAssignWdmIrpPreprocessCallback function (wdfdevice.h)
 description: The WdfDeviceInitAssignWdmIrpPreprocessCallback method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code.
 old-location: wdf\wdfdeviceinitassignwdmirppreprocesscallback.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitAssignWdmIrpPreprocessCallback
+- WdfDeviceInitAssignWdmIrpPreprocessCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.GetFirstSleepState
-title: IWDTFSystemAction2::GetFirstSleepState
+title: IWDTFSystemAction2::GetFirstSleepState (wdtfsystemaction.h)
 description: Returns the first supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getfirstsleepstate.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.GetFirstSleepState
+- IWDTFSystemAction2.GetFirstSleepState
 product:
 - Windows
 targetos: Windows

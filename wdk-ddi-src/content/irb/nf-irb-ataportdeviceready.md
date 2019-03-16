@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortDeviceReady
-title: AtaPortDeviceReady function
+title: AtaPortDeviceReady function (irb.h)
 description: The AtaPortDeviceReady routine informs the port driver that the indicated device is ready to accept new requests.
 old-location: storage\ataportdeviceready.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortDeviceReady
+- AtaPortDeviceReady
 product:
 - Windows
 targetos: Windows

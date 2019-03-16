@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_REPORT_SESSION_STATUS
-title: PFN_REPORT_SESSION_STATUS
+title: PFN_REPORT_SESSION_STATUS (netdispumdddi.h)
 description: Called by the user-mode display driver to report the status of the current Miracast connected session.The data type of this function is PFN_REPORT_SESSION_STATUS.
 old-location: display\reportsessionstatus.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	ReportSessionStatus
+- ReportSessionStatus
 product:
 - Windows
 targetos: Windows

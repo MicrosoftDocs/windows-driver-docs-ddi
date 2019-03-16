@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.OutputRegisters
-title: IDebugRegisters::OutputRegisters
+title: IDebugRegisters::OutputRegisters (dbgeng.h)
 description: The OutputRegisters method formats and sends the target's registers to the clients as output.
 old-location: debugger\outputregisters.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters.OutputRegisters
--	IDebugRegisters2.OutputRegisters
+- IDebugRegisters.OutputRegisters
+- IDebugRegisters2.OutputRegisters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxsstreams._STREAM_INFO
-title: "_STREAM_INFO"
+title: _STREAM_INFO (ucxsstreams.h)
 description: This structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\_stream_info.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxsstreams.h
+- ucxsstreams.h
 api_name:
--	STREAM_INFO
+- STREAM_INFO
 product:
 - Windows
 targetos: Windows

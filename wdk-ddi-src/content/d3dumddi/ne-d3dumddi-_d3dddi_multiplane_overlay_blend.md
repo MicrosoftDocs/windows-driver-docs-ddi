@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_BLEND
-title: "_D3DDDI_MULTIPLANE_OVERLAY_BLEND"
+title: _D3DDDI_MULTIPLANE_OVERLAY_BLEND (d3dumddi.h)
 description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\d3dddi_multiplane_overlay_blend.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_MULTIPLANE_OVERLAY_BLEND
+- D3DDDI_MULTIPLANE_OVERLAY_BLEND
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMANAGECALLSPARAMS_V2
-title: RILMANAGECALLSPARAMS_V2
+title: RILMANAGECALLSPARAMS_V2 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmanagecallsparams_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILMANAGECALLSPARAMS_V2
+- RILMANAGECALLSPARAMS_V2
 product:
 - Windows
 targetos: Windows

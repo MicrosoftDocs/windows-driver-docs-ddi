@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_UPDATETILES
-title: PFND3DWDDM1_3DDI_UPDATETILES
+title: PFND3DWDDM1_3DDI_UPDATETILES (d3d10umddi.h)
 description: Updates tiles by copying from app memory to the tiled resource.
 old-location: display\updatetiles.htm
 ms.assetid: 4891AB01-DE51-4B32-AA52-5619E86CC474
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	UpdateTiles
+- UpdateTiles
 product:
 - Windows
 targetos: Windows

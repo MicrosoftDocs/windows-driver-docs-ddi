@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION
-title: "_DXGK_TIMED_OPERATION"
+title: _DXGK_TIMED_OPERATION (dispmprt.h)
 description: The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the Timed Operation Interface.
 old-location: display\dxgk_timed_operation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_TIMED_OPERATION
+- DXGK_TIMED_OPERATION
 product:
 - Windows
 targetos: Windows

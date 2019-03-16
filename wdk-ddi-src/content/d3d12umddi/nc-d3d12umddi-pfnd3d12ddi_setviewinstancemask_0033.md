@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SETVIEWINSTANCEMASK_0033
-title: PFND3D12DDI_SETVIEWINSTANCEMASK_0033
+title: PFND3D12DDI_SETVIEWINSTANCEMASK_0033 (d3d12umddi.h)
 description: Used to set a view instance mask.
 old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_SETVIEWINSTANCEMASK_0033
+- PFND3D12DDI_SETVIEWINSTANCEMASK_0033
 product:
 - Windows
 targetos: Windows

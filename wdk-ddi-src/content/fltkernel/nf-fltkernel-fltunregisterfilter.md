@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltUnregisterFilter
-title: FltUnregisterFilter function
+title: FltUnregisterFilter function (fltkernel.h)
 description: A registered minifilter driver calls FltUnregisterFilter to unregister itself so that the Filter Manager no longer calls it to process I/O operations.
 old-location: ifsk\fltunregisterfilter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltUnregisterFilter
+- FltUnregisterFilter
 product:
 - Windows
 targetos: Windows

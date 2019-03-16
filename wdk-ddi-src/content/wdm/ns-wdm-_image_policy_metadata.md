@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IMAGE_POLICY_METADATA
-title: "_IMAGE_POLICY_METADATA"
+title: _IMAGE_POLICY_METADATA (wdm.h)
 description: This structure is not supported.
 old-location: kernel\_image_policy_metadata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IMAGE_POLICY_METADATA
+- IMAGE_POLICY_METADATA
 product:
 - Windows
 targetos: Windows

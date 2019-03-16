@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.PEPCALLBACKNOTIFYDPM
-title: PEPCALLBACKNOTIFYDPM
+title: PEPCALLBACKNOTIFYDPM (pepfx.h)
 description: An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptdevicenotification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	AcceptDeviceNotification
+- AcceptDeviceNotification
 product:
 - Windows
 targetos: Windows

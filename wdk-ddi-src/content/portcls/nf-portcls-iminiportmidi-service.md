@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidi.Service
-title: IMiniportMidi::Service
+title: IMiniportMidi::Service (portcls.h)
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportmidi_service.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidi.Service
+- IMiniportMidi.Service
 product:
 - Windows
 targetos: Windows

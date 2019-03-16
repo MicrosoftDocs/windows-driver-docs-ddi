@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsFileContexts
-title: FltSupportsFileContexts function
+title: FltSupportsFileContexts function (fltkernel.h)
 description: The FltSupportsFileContexts routine determines whether the file system supports file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontexts.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSupportsFileContexts
+- FltSupportsFileContexts
 product:
 - Windows
 targetos: Windows

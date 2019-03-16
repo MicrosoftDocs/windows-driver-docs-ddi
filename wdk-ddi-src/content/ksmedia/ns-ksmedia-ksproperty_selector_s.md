@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_92
-title: KSPROPERTY_SELECTOR_S
+title: KSPROPERTY_SELECTOR_S (ksmedia.h)
 description: The KSPROPERTY_SELECTOR_S structure describes filter-based property settings in the PROPSETID_VIDCAP_SELECTOR property set.
 old-location: stream\ksproperty_selector_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_SELECTOR_S
+- KSPROPERTY_SELECTOR_S
 product:
 - Windows
 targetos: Windows

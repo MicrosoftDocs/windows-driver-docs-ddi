@@ -1,6 +1,6 @@
 ---
 UID: NC:hwnclx.HWN_CLIENT_SET_STATE
-title: HWN_CLIENT_SET_STATE
+title: HWN_CLIENT_SET_STATE (hwnclx.h)
 description: Implemented by the client driver to set hardware notification component state. It is invoked when a user wants to change the state of a driver.
 old-location: gpiobtn\hwn_client_set_state.htm
 tech.root: gpiobtn
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Hwnclx.h
+- Hwnclx.h
 api_name:
--	*PHWN_CLIENT_SET_STATE
+- *PHWN_CLIENT_SET_STATE
 product:
 - Windows
 targetos: Windows

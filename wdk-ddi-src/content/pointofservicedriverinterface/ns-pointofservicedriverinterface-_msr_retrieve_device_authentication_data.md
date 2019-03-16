@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
-title: "_MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA"
+title: _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA (pointofservicedriverinterface.h)
 description: This structure contains authentication information retrieved from the device.
 old-location: pos\msr_retrieve_device_authentication_data.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+- MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 product:
 - Windows
 targetos: Windows

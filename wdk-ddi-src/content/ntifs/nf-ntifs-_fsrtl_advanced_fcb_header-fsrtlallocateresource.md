@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAllocateResource
-title: FsRtlAllocateResource function
+title: FsRtlAllocateResource function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlallocateresource.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlAllocateResource
+- FsRtlAllocateResource
 product:
 - Windows
 targetos: Windows

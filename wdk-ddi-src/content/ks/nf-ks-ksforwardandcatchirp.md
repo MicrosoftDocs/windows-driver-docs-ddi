@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsForwardAndCatchIrp
-title: KsForwardAndCatchIrp function
+title: KsForwardAndCatchIrp function (ks.h)
 description: The KsForwardAndCatchIrp function forwards an IRP to the specified driver after initializing the next stack location, and regains control of the IRP on completion from that driver.
 old-location: stream\ksforwardandcatchirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsForwardAndCatchIrp
+- KsForwardAndCatchIrp
 product:
 - Windows
 targetos: Windows

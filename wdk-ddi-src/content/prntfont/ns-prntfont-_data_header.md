@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._DATA_HEADER
-title: "_DATA_HEADER"
+title: _DATA_HEADER (prntfont.h)
 description: The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
 old-location: print\data_header.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	DATA_HEADER
+- DATA_HEADER
 product:
 - Windows
 targetos: Windows

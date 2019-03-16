@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_DXVERSION
-title: "_DD_DXVERSION"
+title: _DD_DXVERSION (d3dhal.h)
 description: DirectX 8.0 and later versions only. DD_DXVERSION describes the current DirectX runtime version.
 old-location: display\dd_dxversion.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	DD_DXVERSION
+- DD_DXVERSION
 product:
 - Windows
 targetos: Windows

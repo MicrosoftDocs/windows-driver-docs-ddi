@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeNPagedLookasideList
-title: ExInitializeNPagedLookasideList function
+title: ExInitializeNPagedLookasideList function (wdm.h)
 description: The ExInitializeNPagedLookasideList routine initializes a lookaside list for nonpaged entries of the specified size.
 old-location: kernel\exinitializenpagedlookasidelist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInitializeNPagedLookasideList
+- ExInitializeNPagedLookasideList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_STORAGE_SET_READ_AHEAD
-title: IOCTL_STORAGE_SET_READ_AHEAD
+title: IOCTL_STORAGE_SET_READ_AHEAD (ntddcdvd.h)
 description: Causes the device to skip to the given target address when the device reaches a certain trigger address during read-ahead caching.
 old-location: storage\ioctl_storage_set_read_ahead.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_STORAGE_SET_READ_AHEAD
+- IOCTL_STORAGE_SET_READ_AHEAD
 product:
 - Windows
 targetos: Windows

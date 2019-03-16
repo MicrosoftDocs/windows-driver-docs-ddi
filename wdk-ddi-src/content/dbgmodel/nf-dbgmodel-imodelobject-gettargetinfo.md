@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetTargetInfo
-title: IModelObject::GetTargetInfo
+title: IModelObject::GetTargetInfo (dbgmodel.h)
 description: The GetTargetInfo method is effectively a combination of the GetLocation and GetTypeInfo methods returning both the abstract location as well as native type of the given object. 
 ms.assetid: 01e44c1d-a96d-4195-a767-d959cccb005c
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetTargetInfo
-product: Windows
+- IModelObject.GetTargetInfo
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

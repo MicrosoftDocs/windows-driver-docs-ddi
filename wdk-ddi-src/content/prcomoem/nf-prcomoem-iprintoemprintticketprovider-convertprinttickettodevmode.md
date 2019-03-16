@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode
-title: IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode
+title: IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode method converts a print ticket to a DEVMODEW structure.
 old-location: print\iprintoemprintticketprovider_convertprinttickettodevmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode
+- IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode
 product:
 - Windows
 targetos: Windows

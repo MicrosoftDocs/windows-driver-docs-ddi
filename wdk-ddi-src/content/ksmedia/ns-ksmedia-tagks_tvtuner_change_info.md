@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_TVTUNER_CHANGE_INFO
-title: tagKS_TVTUNER_CHANGE_INFO
+title: tagKS_TVTUNER_CHANGE_INFO (ksmedia.h)
 description: The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
 old-location: stream\ks_tvtuner_change_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_TVTUNER_CHANGE_INFO
+- KS_TVTUNER_CHANGE_INFO
 product:
 - Windows
 targetos: Windows

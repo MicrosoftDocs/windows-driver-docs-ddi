@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_PersistentLogins
-title: "_MSiSCSI_PersistentLogins"
+title: _MSiSCSI_PersistentLogins (iscsiop.h)
 description: The MSiSCSI_PersistentLogins structure contains the list of persistent target logon sessions.
 old-location: storage\msiscsi_persistentlogins.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	MSiSCSI_PersistentLogins
+- MSiSCSI_PersistentLogins
 product:
 - Windows
 targetos: Windows

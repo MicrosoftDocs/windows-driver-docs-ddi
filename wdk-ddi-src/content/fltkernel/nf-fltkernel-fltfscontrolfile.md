@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFsControlFile
-title: FltFsControlFile function
+title: FltFsControlFile function (fltkernel.h)
 description: The FltFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: ifsk\fltfscontrolfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltFsControlFile
+- FltFsControlFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmatransaction.EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
-title: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE
+title: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE (wdfdmatransaction.h)
 description: A driver's EvtDmaTransactionDmaTransferComplete event callback function is called when the system-mode controller has completed the current DMA transfer.
 old-location: wdf\evtdmatransactiondmatransfercomplete.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaTransaction.h
+- WdfDmaTransaction.h
 api_name:
--	EvtDmaTransactionDmaTransferComplete
+- EvtDmaTransactionDmaTransferComplete
 product:
 - Windows
 targetos: Windows

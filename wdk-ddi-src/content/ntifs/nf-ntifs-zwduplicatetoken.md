@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwDuplicateToken
-title: ZwDuplicateToken function
+title: ZwDuplicateToken function (ntifs.h)
 description: The ZwDuplicateToken function creates a handle to a new access token that duplicates an existing token. This function can create either a primary token or an impersonation token.
 old-location: kernel\zwduplicatetoken.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwDuplicateToken
--	NtDuplicateToken
+- ZwDuplicateToken
+- NtDuplicateToken
 product:
 - Windows
 targetos: Windows

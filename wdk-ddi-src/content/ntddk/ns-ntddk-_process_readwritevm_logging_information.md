@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_READWRITEVM_LOGGING_INFORMATION
-title: "_PROCESS_READWRITEVM_LOGGING_INFORMATION"
+title: _PROCESS_READWRITEVM_LOGGING_INFORMATION (ntddk.h)
 description: Stores options for read/write access for telemetry per process.
 old-location: kernel\process_readwritevm_logging_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PROCESS_READWRITEVM_LOGGING_INFORMATION
+- PROCESS_READWRITEVM_LOGGING_INFORMATION
 product:
 - Windows
 targetos: Windows

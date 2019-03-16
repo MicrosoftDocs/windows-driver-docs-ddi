@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressBufferEx2
-title: RtlDecompressBufferEx2 function
+title: RtlDecompressBufferEx2 function (ntifs.h)
 description: The RtlDecompressBufferEx2 function decompresses an entire compressed buffer, using multiple processors where possible. Multiple processor support is only implemented for kernel mode callers.
 old-location: ifsk\rtldecompressbufferex2.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDecompressBufferEx2
+- RtlDecompressBufferEx2
 product:
 - Windows
 targetos: Windows

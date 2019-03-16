@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_CONTAINER_ID
-title: "_DXGK_CHILD_CONTAINER_ID"
+title: _DXGK_CHILD_CONTAINER_ID (dispmprt.h)
 description: Contains the container ID for a child device that is connected to a display adapter.
 old-location: display\dxgk_child_container_id.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DXGK_CHILD_CONTAINER_ID
+- DXGK_CHILD_CONTAINER_ID
 product:
 - Windows
 targetos: Windows

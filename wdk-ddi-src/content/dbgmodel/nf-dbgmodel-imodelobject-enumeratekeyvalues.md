@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeyValues
-title: IModelObject::EnumerateKeyValues
+title: IModelObject::EnumerateKeyValues (dbgmodel.h)
 description: The EnumerateKeyValues method is the first method a client will turn to in order to enumerate all of the keys on an object.
 ms.assetid: e1452944-0567-4b3d-a892-fc3e45ae34af
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.EnumerateKeyValues
-product: Windows
+- IModelObject.EnumerateKeyValues
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

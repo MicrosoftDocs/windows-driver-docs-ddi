@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfWdmDriverGetWdfDriverHandle
-title: WdfWdmDriverGetWdfDriverHandle function
+title: WdfWdmDriverGetWdfDriverHandle function (wdfdriver.h)
 description: The WdfWdmDriverGetWdfDriverHandle method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object.
 old-location: wdf\wdfwdmdrivergetwdfdriverhandle.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfWdmDriverGetWdfDriverHandle
+- WdfWdmDriverGetWdfDriverHandle
 product:
 - Windows
 targetos: Windows

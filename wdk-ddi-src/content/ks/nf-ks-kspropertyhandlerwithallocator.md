@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPropertyHandlerWithAllocator
-title: KsPropertyHandlerWithAllocator function
+title: KsPropertyHandlerWithAllocator function (ks.h)
 description: The KsPropertyHandlerWithAllocator performs the same handling as KsPropertyHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\kspropertyhandlerwithallocator.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsPropertyHandlerWithAllocator
+- KsPropertyHandlerWithAllocator
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetDeviceType
-title: WdfDeviceInitSetDeviceType function
+title: WdfDeviceInitSetDeviceType function (wdfdevice.h)
 description: The WdfDeviceInitSetDeviceType method sets the device type for a specified device.
 old-location: wdf\wdfdeviceinitsetdevicetype.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitSetDeviceType
+- WdfDeviceInitSetDeviceType
 product:
 - Windows
 targetos: Windows

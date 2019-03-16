@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetCodeLevel
-title: IDebugControl2::GetCodeLevel
+title: IDebugControl2::GetCodeLevel (dbgeng.h)
 description: The GetCodeLevel method returns the current code level and is mainly used when stepping through code.
 old-location: debugger\getcodelevel.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetCodeLevel
--	IDebugControl2.GetCodeLevel
--	IDebugControl3.GetCodeLevel
+- IDebugControl.GetCodeLevel
+- IDebugControl2.GetCodeLevel
+- IDebugControl3.GetCodeLevel
 product:
 - Windows
 targetos: Windows

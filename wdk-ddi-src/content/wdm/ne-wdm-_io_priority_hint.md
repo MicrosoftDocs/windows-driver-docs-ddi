@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_PRIORITY_HINT
-title: "_IO_PRIORITY_HINT"
+title: _IO_PRIORITY_HINT (wdm.h)
 description: The IO_PRIORITY_HINT enumeration type specifies the priority hint for an IRP.
 old-location: kernel\io_priority_hint.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IO_PRIORITY_HINT
+- IO_PRIORITY_HINT
 product:
 - Windows
 targetos: Windows

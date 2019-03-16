@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsControl.KsProperty
-title: IKsControl::KsProperty
+title: IKsControl::KsProperty (ksproxy.h)
 description: The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsControl.KsProperty
+- IKsControl.KsProperty
 product:
 - Windows
 targetos: Windows

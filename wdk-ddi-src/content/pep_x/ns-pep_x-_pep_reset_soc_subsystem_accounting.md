@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
-title: "_PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
+title: _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING (pep_x.h)
 description: The PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure is provided to the platform extension plug-in (PEP) as part of a PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification.
 old-location: kernel\pep_reset_soc_subsystem_accounting.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
+- PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 product:
 - Windows
 targetos: Windows

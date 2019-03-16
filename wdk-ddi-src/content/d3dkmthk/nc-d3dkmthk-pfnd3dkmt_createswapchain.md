@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATESWAPCHAIN
-title: PFND3DKMT_CREATESWAPCHAIN
+title: PFND3DKMT_CREATESWAPCHAIN (d3dkmthk.h)
 description: The PFND3DKMT_CREATESWAPCHAIN callback function creates a swap chain.
 ms.assetid: 13aeaa2e-d261-4987-8a71-818af54ddf05
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_CREATESWAPCHAIN
+- PFND3DKMT_CREATESWAPCHAIN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

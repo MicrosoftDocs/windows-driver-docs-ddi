@@ -1,6 +1,6 @@
 ---
 UID: NS:storport.__unnamed_struct_9
-title: PRI_REGISTRATION_LIST
+title: PRI_REGISTRATION_LIST (storport.h)
 description: The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
 old-location: storage\pri_registration_list.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	PRI_REGISTRATION_LIST
+- PRI_REGISTRATION_LIST
 product:
 - Windows
 targetos: Windows

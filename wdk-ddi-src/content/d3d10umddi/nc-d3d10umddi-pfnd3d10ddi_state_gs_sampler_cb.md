@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_GS_SAMPLER_CB
-title: PFND3D10DDI_STATE_GS_SAMPLER_CB
+title: PFND3D10DDI_STATE_GS_SAMPLER_CB (d3d10umddi.h)
 description: The pfnStateGsSamplerCb function causes the Microsoft Direct3D 10 runtime to refresh the geometry shader sample state.
 old-location: display\pfnstategssamplercb.htm
 ms.assetid: 086c565e-2747-4bbe-a9e1-af38373c3232
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateGsSamplerCb
+- pfnStateGsSamplerCb
 product:
 - Windows
 targetos: Windows

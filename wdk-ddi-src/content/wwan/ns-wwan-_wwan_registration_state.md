@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_REGISTRATION_STATE
-title: "_WWAN_REGISTRATION_STATE"
+title: _WWAN_REGISTRATION_STATE (wwan.h)
 description: The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\wwan_registration_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_REGISTRATION_STATE
+- WWAN_REGISTRATION_STATE
 product:
 - Windows
 targetos: Windows

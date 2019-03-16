@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDEVICESTATE
-title: "_D3DKMT_GETDEVICESTATE"
+title: _D3DKMT_GETDEVICESTATE (d3dkmthk.h)
 description: The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the state of a device.
 old-location: display\d3dkmt_getdevicestate.htm
 ms.assetid: b90f8b63-51d3-4de4-9d8b-91926150fd30
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETDEVICESTATE
+- D3DKMT_GETDEVICESTATE
 product:
 - Windows
 targetos: Windows

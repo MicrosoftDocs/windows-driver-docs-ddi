@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObUnRegisterCallbacks
-title: ObUnRegisterCallbacks function
+title: ObUnRegisterCallbacks function (wdm.h)
 description: The ObUnRegisterCallbacks routine unregisters a set of callback routines that were registered with the ObRegisterCallbacks routine.
 old-location: kernel\obunregistercallbacks.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObUnRegisterCallbacks
+- ObUnRegisterCallbacks
 product:
 - Windows
 targetos: Windows

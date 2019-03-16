@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
-title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
+title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler (wudfddi.h)
 description: The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
+- IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
-title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
+title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY (ehstorbandmgmt.h)
 description: The security properties of bands in a band-managed storage device are modified with the IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY request.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_security.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
+- IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
 product:
 - Windows
 targetos: Windows

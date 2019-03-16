@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_CHANNEL_ALLOCATE_HANDLER
-title: DMA_CHANNEL_ALLOCATE_HANDLER
+title: DMA_CHANNEL_ALLOCATE_HANDLER (netdma.h)
 description: The ProviderAllocateDmaChannel function allocates a DMA channel.
 old-location: netvista\providerallocatedmachannel.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderAllocateDmaChannel
+- ProviderAllocateDmaChannel
 product:
 - Windows
 targetos: Windows

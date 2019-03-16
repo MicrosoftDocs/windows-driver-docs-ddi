@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_EXCHANGE_MEDIUM
-title: "_CHANGER_EXCHANGE_MEDIUM"
+title: _CHANGER_EXCHANGE_MEDIUM (ntddchgr.h)
 description: The CHANGER_EXCHANGE_MEDIUM structure is used with the IOCTL_CHANGER_EXCHANGE_MEDIUM request to exchange locations of two pieces of media.
 old-location: storage\changer_exchange_medium.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_EXCHANGE_MEDIUM
+- CHANGER_EXCHANGE_MEDIUM
 product:
 - Windows
 targetos: Windows

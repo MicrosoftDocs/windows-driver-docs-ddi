@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PREAD_DMA_COUNTER
-title: PREAD_DMA_COUNTER
+title: PREAD_DMA_COUNTER (wdm.h)
 description: The ReadDmaCounter routine returns the number of bytes remaining to be transferred during the current subordinate DMA operation.
 old-location: kernel\readdmacounter.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ReadDmaCounter
+- ReadDmaCounter
 product:
 - Windows
 targetos: Windows

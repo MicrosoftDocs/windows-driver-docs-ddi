@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_CREATEDEVICEFLAGS
-title: "_D3DDDI_CREATEDEVICEFLAGS"
+title: _D3DDDI_CREATEDEVICEFLAGS (d3dumddi.h)
 description: The D3DDDI_CREATEDEVICEFLAGS structure describes how to create a device.
 old-location: display\d3dddi_createdeviceflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_CREATEDEVICEFLAGS
+- D3DDDI_CREATEDEVICEFLAGS
 product:
 - Windows
 targetos: Windows

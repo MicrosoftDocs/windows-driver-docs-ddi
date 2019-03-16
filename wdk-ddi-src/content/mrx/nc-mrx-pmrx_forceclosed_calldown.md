@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FORCECLOSED_CALLDOWN
-title: PMRX_FORCECLOSED_CALLDOWN
+title: PMRX_FORCECLOSED_CALLDOWN (mrx.h)
 description: The MRxForceClosed routine is called by RDBSS to request that a network mini-redirector force a close. This routine is called when the condition of the SRV_OPEN structure is not good or the SRV_OPEN structure is marked as closed.
 old-location: ifsk\mrxforceclosed.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxForceClosed
+- MRxForceClosed
 product:
 - Windows
 targetos: Windows

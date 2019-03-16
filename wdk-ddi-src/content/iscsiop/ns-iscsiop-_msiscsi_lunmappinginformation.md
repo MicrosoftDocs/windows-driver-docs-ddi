@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_LUNMappingInformation
-title: "_MSiSCSI_LUNMappingInformation"
+title: _MSiSCSI_LUNMappingInformation (iscsiop.h)
 description: This MSiSCSI_LUNMappingInformation structure provides the SCSI address information that the operating system assigns to a particular logical unit.
 old-location: storage\msiscsi_lunmappinginformation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	MSiSCSI_LUNMappingInformation
+- MSiSCSI_LUNMappingInformation
 product:
 - Windows
 targetos: Windows

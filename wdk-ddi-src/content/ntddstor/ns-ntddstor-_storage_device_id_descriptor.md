@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_ID_DESCRIPTOR
-title: "_STORAGE_DEVICE_ID_DESCRIPTOR"
+title: _STORAGE_DEVICE_ID_DESCRIPTOR (ntddstor.h)
 description: The STORAGE_DEVICE_ID_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the device ID descriptor data for a device.
 old-location: storage\storage_device_id_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DEVICE_ID_DESCRIPTOR
+- STORAGE_DEVICE_ID_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

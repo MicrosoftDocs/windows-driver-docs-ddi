@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_16
-title: KSDS3D_HRTF_INIT_MSG
+title: KSDS3D_HRTF_INIT_MSG (ksmedia.h)
 description: The KSDS3D_HRTF_INIT_MSG structure specifies the parameter settings to use to initialize the head-relative transfer function (HRTF).
 old-location: audio\ksds3d_hrtf_init_msg.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDS3D_HRTF_INIT_MSG
+- KSDS3D_HRTF_INIT_MSG
 product:
 - Windows
 targetos: Windows

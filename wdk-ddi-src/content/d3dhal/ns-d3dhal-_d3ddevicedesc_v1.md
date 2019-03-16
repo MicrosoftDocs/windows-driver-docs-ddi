@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V1
-title: "_D3DDeviceDesc_V1"
+title: _D3DDeviceDesc_V1 (d3dhal.h)
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
 old-location: display\d3ddevicedesc_v1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DDEVICEDESC_V1
+- D3DDEVICEDESC_V1
 product:
 - Windows
 targetos: Windows

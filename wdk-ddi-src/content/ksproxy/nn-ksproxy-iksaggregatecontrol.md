@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsAggregateControl
-title: IKsAggregateControl
+title: IKsAggregateControl (ksproxy.h)
 description: The IKsAggregateControl interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface.
 old-location: stream\iksaggregatecontrol.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsAggregateControl
+- IKsAggregateControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_FS_DEVICE_INFORMATION
-title: "_FILE_FS_DEVICE_INFORMATION"
+title: _FILE_FS_DEVICE_INFORMATION (wdm.h)
 description: The FILE_FS_DEVICE_INFORMATION structure provides file system device information about the type of device object associated with a file object.
 old-location: kernel\file_fs_device_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FILE_FS_DEVICE_INFORMATION
+- FILE_FS_DEVICE_INFORMATION
 product:
 - Windows
 targetos: Windows

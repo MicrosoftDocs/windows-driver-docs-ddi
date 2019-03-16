@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl3
-title: IDebugControl3
+title: IDebugControl3 (dbgeng.h)
 description: IDebugControl3 interface
 old-location: debugger\idebugcontrol3.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3
+- IDebugControl3
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._BUS_GENERATION_NODE
-title: "_BUS_GENERATION_NODE"
+title: _BUS_GENERATION_NODE (61883.h)
 description: The BUS_GENERATION_NODE structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve bus characteristics.
 old-location: ieee\bus_generation_node.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	BUS_GENERATION_NODE
+- BUS_GENERATION_NODE
 product:
 - Windows
 targetos: Windows

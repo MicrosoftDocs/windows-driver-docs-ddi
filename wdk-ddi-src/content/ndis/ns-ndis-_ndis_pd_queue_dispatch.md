@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE_DISPATCH
-title: "_NDIS_PD_QUEUE_DISPATCH"
+title: _NDIS_PD_QUEUE_DISPATCH (ndis.h)
 description: This structure contains a provider's driver routines for receive or transmit queues.
 old-location: netvista\ndis_pd_queue_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_QUEUE_DISPATCH
+- NDIS_PD_QUEUE_DISPATCH
 product:
 - Windows
 targetos: Windows

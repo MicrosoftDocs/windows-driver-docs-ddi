@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_37
-title: KSRTAUDIO_PACKETVREGISTER
+title: KSRTAUDIO_PACKETVREGISTER (ksmedia.h)
 description: The KSRTAUDIO_PACKETVREGISTER structure contains information about the packet virtual register pointers.
 ms.assetid: 42c9a5a1-0d6c-447b-918e-70ab47c4720d
 ms.date: 09/28/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ksmedia.h
+- ksmedia.h
 api_name: 
--	KSRTAUDIO_PACKETVREGISTER
+- KSRTAUDIO_PACKETVREGISTER
 product:
 -   Windows
 targetos: Windows

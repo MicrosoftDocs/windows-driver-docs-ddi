@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.EnablePlmPackageDebugWide
-title: IDebugPlmClient3::EnablePlmPackageDebugWide
+title: IDebugPlmClient3::EnablePlmPackageDebugWide (dbgeng.h)
 description: Enables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_enableplmpackagedebugwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient3.EnablePlmPackageDebugWide
+- IDebugPlmClient3.EnablePlmPackageDebugWide
 product:
 - Windows
 targetos: Windows

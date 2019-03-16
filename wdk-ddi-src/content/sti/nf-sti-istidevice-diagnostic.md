@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Diagnostic
-title: IStiDevice::Diagnostic
+title: IStiDevice::Diagnostic (sti.h)
 description: The IStiDevice::Diagnostic method executes diagnostic tests on a still image device.
 old-location: image\istidevice_diagnostic.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.Diagnostic
+- IStiDevice.Diagnostic
 product:
 - Windows
 targetos: Windows

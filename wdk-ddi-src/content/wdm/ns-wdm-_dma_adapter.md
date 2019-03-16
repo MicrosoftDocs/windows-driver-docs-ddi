@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER
-title: "_DMA_ADAPTER"
+title: _DMA_ADAPTER (wdm.h)
 description: The DMA_ADAPTER structure describes a system-defined interface to a DMA controller for a given device. A driver calls IoGetDmaAdapter to obtain this structure.
 old-location: kernel\dma_adapter.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_ADAPTER
+- DMA_ADAPTER
 product:
 - Windows
 targetos: Windows

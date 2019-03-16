@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibInitialize
-title: AuxKlibInitialize function
+title: AuxKlibInitialize function (aux_klib.h)
 description: The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library.
 old-location: kernel\auxklibinitialize.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Aux_Klib.lib
--	Aux_Klib.dll
+- Aux_Klib.lib
+- Aux_Klib.dll
 api_name:
--	AuxKlibInitialize
+- AuxKlibInitialize
 product:
 - Windows
 targetos: Windows

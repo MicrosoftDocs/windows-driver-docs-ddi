@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCLOCK
-title: RILUICCLOCK
+title: RILUICCLOCK (ntddrilapitypes.h)
 description: This structure represents a RILUICCLOCK.
 old-location: netvista\riluicclock.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCLOCK
+- RILUICCLOCK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_RADIO_STATE
-title: "_WWAN_RADIO_STATE"
+title: _WWAN_RADIO_STATE (wwan.h)
 description: The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\wwan_radio_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_RADIO_STATE
+- WWAN_RADIO_STATE
 product:
 - Windows
 targetos: Windows

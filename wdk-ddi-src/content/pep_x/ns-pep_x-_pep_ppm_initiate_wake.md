@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_INITIATE_WAKE
-title: "_PEP_PPM_INITIATE_WAKE"
+title: _PEP_PPM_INITIATE_WAKE (pep_x.h)
 description: The PEP_PPM_INITIATE_WAKE structure indicates whether a processor requires an interrupt to wake up from an idle state.
 old-location: kernel\pep_ppm_initiate_wake.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_INITIATE_WAKE
+- PEP_PPM_INITIATE_WAKE
 product:
 - Windows
 targetos: Windows

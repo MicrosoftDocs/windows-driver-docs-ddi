@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MODE_PREFERENCE
-title: "_D3DKMDT_MODE_PREFERENCE"
+title: _D3DKMDT_MODE_PREFERENCE (d3dkmdt.h)
 description: The D3DKMDT_MODE_PREFERENCE enumeration is used to indicate whether a particular mode is one of the modes preferred by the monitor connected to a given video present target.
 old-location: display\d3dkmdt_mode_preference.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MODE_PREFERENCE
+- D3DKMDT_MODE_PREFERENCE
 product:
 - Windows
 targetos: Windows

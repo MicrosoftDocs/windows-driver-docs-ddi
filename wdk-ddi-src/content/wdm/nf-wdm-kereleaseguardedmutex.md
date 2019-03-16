@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseGuardedMutex
-title: KeReleaseGuardedMutex function
+title: KeReleaseGuardedMutex function (wdm.h)
 description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex.
 old-location: kernel\kereleaseguardedmutex.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseGuardedMutex
+- KeReleaseGuardedMutex
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

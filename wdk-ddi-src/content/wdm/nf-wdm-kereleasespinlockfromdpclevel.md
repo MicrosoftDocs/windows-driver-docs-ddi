@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSpinLockFromDpcLevel
-title: KeReleaseSpinLockFromDpcLevel macro
+title: KeReleaseSpinLockFromDpcLevel macro (wdm.h)
 description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 old-location: kernel\kereleasespinlockfromdpclevel.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseSpinLockFromDpcLevel
--	KefReleaseSpinLockFromDpcLevel
+- KeReleaseSpinLockFromDpcLevel
+- KefReleaseSpinLockFromDpcLevel
 product:
 - Windows
 targetos: Windows

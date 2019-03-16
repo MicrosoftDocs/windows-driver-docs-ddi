@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKARG_SETPALETTE
-title: "_DXGKARG_SETPALETTE"
+title: _DXGKARG_SETPALETTE (d3dkmdt.h)
 description: The DXGKARG_SETPALETTE structure describes the palette to set for a display.
 old-location: display\dxgkarg_setpalette.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKARG_SETPALETTE
+- DXGKARG_SETPALETTE
 product:
 - Windows
 targetos: Windows

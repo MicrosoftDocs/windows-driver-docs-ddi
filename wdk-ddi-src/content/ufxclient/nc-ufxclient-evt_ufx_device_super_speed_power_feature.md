@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
-title: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+title: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE (ufxclient.h)
 description: The client driver's implementation to set or clear the specified power feature on the function controller.
 old-location: buses\evt_ufx_device_super_speed_power_feature.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+- PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetNextSibling
-title: KsGetNextSibling function
+title: KsGetNextSibling function (ks.h)
 description: The KsGetNextSibling function returns the next sibling of a given object.
 old-location: stream\ksgetnextsibling.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetNextSibling
+- KsGetNextSibling
 product:
 - Windows
 targetos: Windows

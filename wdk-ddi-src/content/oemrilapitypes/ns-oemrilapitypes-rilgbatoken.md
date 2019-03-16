@@ -1,6 +1,6 @@
 ---
 UID: NS:oemrilapitypes.RILGBATOKEN
-title: RILGBATOKEN
+title: RILGBATOKEN (oemrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgbatoken.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	oemrilapitypes.h
+- oemrilapitypes.h
 api_name:
--	RILGBATOKEN
+- RILGBATOKEN
 product:
 - Windows
 targetos: Windows

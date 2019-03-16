@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAdjustPagingPathCount
-title: IoAdjustPagingPathCount macro
+title: IoAdjustPagingPathCount macro (wdm.h)
 description: The IoAdjustPagingPathCount routine increments or decrements a caller-supplied page-file counter as an atomic operation.
 old-location: kernel\ioadjustpagingpathcount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoAdjustPagingPathCount
+- IoAdjustPagingPathCount
 product:
 - Windows
 targetos: Windows

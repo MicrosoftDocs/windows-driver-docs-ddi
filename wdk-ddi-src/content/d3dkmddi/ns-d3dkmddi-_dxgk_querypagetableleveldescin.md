@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYPAGETABLELEVELDESCIN
-title: "_DXGK_QUERYPAGETABLELEVELDESCIN"
+title: _DXGK_QUERYPAGETABLELEVELDESCIN (d3dkmddi.h)
 description: The DXGK_QUERYPAGETABLELEVELDESCIN structure is used to request page level descriptors from the Dxgkrnl Interface.
 old-location: display\dxgk_querypagetableleveldescin.htm
 ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYPAGETABLELEVELDESCIN
+- DXGK_QUERYPAGETABLELEVELDESCIN
 product:
 - Windows
 targetos: Windows

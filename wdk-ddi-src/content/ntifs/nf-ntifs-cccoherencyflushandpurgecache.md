@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCoherencyFlushAndPurgeCache
-title: CcCoherencyFlushAndPurgeCache function
+title: CcCoherencyFlushAndPurgeCache function (ntifs.h)
 description: The CcCoherencyFlushAndPurgeCache routine flushes and/or purges the cache to ensure cache coherency.
 old-location: ifsk\cccoherencyflushandpurgecache.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcCoherencyFlushAndPurgeCache
+- CcCoherencyFlushAndPurgeCache
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_ADAPTER_INFO
-title: "_DMA_ADAPTER_INFO"
+title: _DMA_ADAPTER_INFO (wdm.h)
 description: The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller.
 old-location: kernel\dma_adapter_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_ADAPTER_INFO
+- DMA_ADAPTER_INFO
 product:
 - Windows
 targetos: Windows

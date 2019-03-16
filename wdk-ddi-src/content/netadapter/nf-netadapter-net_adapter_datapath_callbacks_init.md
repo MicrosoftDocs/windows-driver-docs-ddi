@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_DATAPATH_CALLBACKS_INIT
-title: NET_ADAPTER_DATAPATH_CALLBACKS_INIT function
+title: NET_ADAPTER_DATAPATH_CALLBACKS_INIT function (netadapter.h)
 description: The NET_ADAPTER_DATAPATH_CALLBACKS_INIT method initializes a NET_ADAPTER_DATAPATH_CALLBACKS structure.
 tech.root: netvista
 ms.assetid: bc15c768-b5ba-48b0-ad78-fb33cc577407
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NET_ADAPTER_DATAPATH_CALLBACKS_INIT
+- NET_ADAPTER_DATAPATH_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
-title: DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
+title: DXGKDDI_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS (dispmprt.h)
 description: The DxgkDdiOPMSetSigningKeyAndSequenceNumbers function sets the given protected output object's signing key and two sequence numbers.
 old-location: display\dxgkddiopmsetsigningkeyandsequencenumbers.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMSetSigningKeyAndSequenceNumbers
+- DxgkDdiOPMSetSigningKeyAndSequenceNumbers
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeMdl
-title: IoFreeMdl function
+title: IoFreeMdl function (wdm.h)
 description: The IoFreeMdl routine releases a caller-allocated memory descriptor list (MDL).
 old-location: kernel\iofreemdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoFreeMdl
+- IoFreeMdl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTARGETCONTENTTYPE
-title: "_DXGKARG_SETTARGETCONTENTTYPE"
+title: _DXGKARG_SETTARGETCONTENTTYPE (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_SETTARGETCONTENTTYPE.
 old-location: display\dxgkarg_settargetcontenttype.htm
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETTARGETCONTENTTYPE
+- DXGKARG_SETTARGETCONTENTTYPE
 product:
 - Windows
 targetos: Windows

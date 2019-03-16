@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceMapIoSpace
-title: WdfDeviceMapIoSpace function
+title: WdfDeviceMapIoSpace function (wdfdevice.h)
 description: The WdfDeviceMapIoSpace function maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\wdfdevicemapiospace.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDeviceMapIoSpace
+- WdfDeviceMapIoSpace
 product:
 - Windows
 targetos: Windows

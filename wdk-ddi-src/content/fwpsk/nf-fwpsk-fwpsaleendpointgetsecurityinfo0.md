@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointGetSecurityInfo0
-title: FwpsAleEndpointGetSecurityInfo0 function
+title: FwpsAleEndpointGetSecurityInfo0 function (fwpsk.h)
 description: The FwpsAleEndpointGetSecurityInfo0 function retrieves security information about the application layer enforcement (ALE) endpoint enumeration session.Note  FwpsAleEndpointGetSecurityInfo0 is a specific version of FwpsAleEndpointGetSecurityInfo.
 old-location: netvista\fwpsaleendpointgetsecurityinfo0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAleEndpointGetSecurityInfo0
+- FwpsAleEndpointGetSecurityInfo0
 product:
 - Windows
 targetos: Windows

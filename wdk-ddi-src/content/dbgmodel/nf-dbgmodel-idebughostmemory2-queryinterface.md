@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.QueryInterface
-title: IDebugHostMemory2::QueryInterface
+title: IDebugHostMemory2::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: de69348a-2366-432a-b7ba-5d3af3ec0723
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory2.QueryInterface
-product: Windows
+- IDebugHostMemory2.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

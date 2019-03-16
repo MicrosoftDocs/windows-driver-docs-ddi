@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteExtraCreateParameterLookasideList
-title: FltDeleteExtraCreateParameterLookasideList function
+title: FltDeleteExtraCreateParameterLookasideList function (fltkernel.h)
 description: The FltDeleteExtraCreateParameterLookasideList routine frees an extra create parameter (ECP) lookaside list.
 old-location: ifsk\fltdeleteextracreateparameterlookasidelist.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltDeleteExtraCreateParameterLookasideList
+- FltDeleteExtraCreateParameterLookasideList
 product:
 - Windows
 targetos: Windows

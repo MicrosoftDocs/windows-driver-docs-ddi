@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeDpc
-title: KeInitializeDpc function
+title: KeInitializeDpc function (wdm.h)
 description: The KeInitializeDpc routine initializes a DPC object, and registers a CustomDpc routine for that object.
 old-location: kernel\keinitializedpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeDpc
+- KeInitializeDpc
 product:
 - Windows
 targetos: Windows

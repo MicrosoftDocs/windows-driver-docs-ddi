@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053 (d3d12umddi.h)
 description: Describes the output of the motion estimation operation.
 ms.assetid: b818e7ad-8918-41fc-ab43-3d7721bbe733
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
+- D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

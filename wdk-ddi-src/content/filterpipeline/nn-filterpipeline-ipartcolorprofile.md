@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartColorProfile
-title: IPartColorProfile
+title: IPartColorProfile (filterpipeline.h)
 description: The IPartColorProfile interface is the abstraction for an XPS color profile.
 old-location: print\ipartcolorprofile.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartColorProfile
+- IPartColorProfile
 product:
 - Windows
 targetos: Windows

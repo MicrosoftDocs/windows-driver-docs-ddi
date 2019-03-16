@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types.UMDF_VERSION_DATA
-title: UMDF_VERSION_DATA
+title: UMDF_VERSION_DATA (wudfddi_types.h)
 description: The UMDF_VERSION_DATA structure describes a version of the framework.
 old-location: wdf\umdf_version_data.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	UMDF_VERSION_DATA
+- UMDF_VERSION_DATA
 product:
 - Windows
 targetos: Windows

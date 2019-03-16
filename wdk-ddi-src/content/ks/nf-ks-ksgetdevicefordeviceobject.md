@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetDeviceForDeviceObject
-title: KsGetDeviceForDeviceObject function
+title: KsGetDeviceForDeviceObject function (ks.h)
 description: The KsGetDeviceForDeviceObject function returns the AVStream device structure for a given functional device object.
 old-location: stream\ksgetdevicefordeviceobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetDeviceForDeviceObject
+- KsGetDeviceForDeviceObject
 product:
 - Windows
 targetos: Windows

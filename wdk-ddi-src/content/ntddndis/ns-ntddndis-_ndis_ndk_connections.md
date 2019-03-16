@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTIONS
-title: "_NDIS_NDK_CONNECTIONS"
+title: _NDIS_NDK_CONNECTIONS (ntddndis.h)
 description: The NDIS_NDK_CONNECTIONS structure describes the NDK connections that are active on a miniport adapter.
 old-location: netvista\ndis_ndk_connections.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_NDK_CONNECTIONS
+- NDIS_NDK_CONNECTIONS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputContextStackTrace
-title: IDebugControl4::OutputContextStackTrace
+title: IDebugControl4::OutputContextStackTrace (dbgeng.h)
 description: The OutputContextStackTrace method prints the call stack specified by an array of stack frames and corresponding register contexts.
 old-location: debugger\outputcontextstacktrace.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.OutputContextStackTrace
+- IDebugControl4.OutputContextStackTrace
 product:
 - Windows
 targetos: Windows

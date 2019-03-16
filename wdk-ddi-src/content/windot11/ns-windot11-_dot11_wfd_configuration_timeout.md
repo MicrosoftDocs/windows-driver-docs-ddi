@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_CONFIGURATION_TIMEOUT
-title: "_DOT11_WFD_CONFIGURATION_TIMEOUT"
+title: _DOT11_WFD_CONFIGURATION_TIMEOUT (windot11.h)
 description: The DOT11_WFD_CONFIGURATION_TIMEOUT structure contains configuration time-out parameters.
 old-location: netvista\dot11_wfd_configuration_timeout.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_CONFIGURATION_TIMEOUT
+- DOT11_WFD_CONFIGURATION_TIMEOUT
 product:
 - Windows
 targetos: Windows

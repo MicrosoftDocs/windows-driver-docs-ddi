@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializePerfOpts
-title: StorPortInitializePerfOpts function
+title: StorPortInitializePerfOpts function (storport.h)
 description: The StorPortInitializePerfOpts function initializes the performance optimizations that both the miniport driver and the Storport driver support using a PERF_CONFIGURATION_DATA structure.
 old-location: storage\storportinitializeperfopts.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	StorPortInitializePerfOpts
+- StorPortInitializePerfOpts
 product:
 - Windows
 targetos: Windows

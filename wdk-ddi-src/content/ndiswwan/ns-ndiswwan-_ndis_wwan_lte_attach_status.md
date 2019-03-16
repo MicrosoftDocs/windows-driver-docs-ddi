@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_LTE_ATTACH_STATUS
-title: _NDIS_WWAN_LTE_ATTACH_STATUS
+title: _NDIS_WWAN_LTE_ATTACH_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_LTE_ATTACH_STATUS structure describes the last used default LTE attach context for a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 8371490f-2c1b-41fe-8a90-6c12e92e793d
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_LTE_ATTACH_STATUS, *PNDIS_WWAN_LTE_ATTACH_STATUS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_LTE_ATTACH_STATUS
+- _NDIS_WWAN_LTE_ATTACH_STATUS
 product: 
 - Windows
 targetos: Windows

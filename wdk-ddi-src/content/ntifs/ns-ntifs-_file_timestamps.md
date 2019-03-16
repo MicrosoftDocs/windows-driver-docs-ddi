@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_TIMESTAMPS
-title: "_FILE_TIMESTAMPS"
+title: _FILE_TIMESTAMPS (ntifs.h)
 description: The FILE_TIMESTAMPS structure specifies the last recorded instance of specific actions on a file.
 old-location: ifsk\file_timestamps.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_TIMESTAMPS
+- FILE_TIMESTAMPS
 product:
 - Windows
 targetos: Windows

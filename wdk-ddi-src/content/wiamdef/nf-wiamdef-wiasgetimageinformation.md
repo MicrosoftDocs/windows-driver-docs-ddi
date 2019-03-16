@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetImageInformation
-title: wiasGetImageInformation function
+title: wiasGetImageInformation function (wiamdef.h)
 description: The wiasGetImageInformation function retrieves transfer context information from an item.
 old-location: image\wiasgetimageinformation.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetImageInformation
+- wiasGetImageInformation
 product:
 - Windows
 targetos: Windows

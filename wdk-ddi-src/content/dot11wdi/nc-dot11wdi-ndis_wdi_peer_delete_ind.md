@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_PEER_DELETE_IND
-title: NDIS_WDI_PEER_DELETE_IND
+title: NDIS_WDI_PEER_DELETE_IND (dot11wdi.h)
 description: The NdisWdiPeerDeleteIndication callback function initiates the removal of the association of between a peer ID and a peer MAC address.
 old-location: netvista\ndiswdipeerdeleteindication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiPeerDeleteIndication
+- NdisWdiPeerDeleteIndication
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPLCREATIONFLAGS
-title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS
+title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS (d3dkmthk.h)
 description: The output creation flags.
 ms.assetid: 6aea34d1-19c8-4900-a626-519dd50a50f4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OUTPUTDUPLCREATIONFLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_OUTPUTDUPLCREATIONFLAGS
+- _D3DKMT_OUTPUTDUPLCREATIONFLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

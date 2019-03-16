@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_ADD_PARTY_COMPLETE
-title: PROTOCOL_CL_ADD_PARTY_COMPLETE
+title: PROTOCOL_CL_ADD_PARTY_COMPLETE (ndis.h)
 description: The ProtocolClAddPartyComplete function is required for connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolcladdpartycomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClAddPartyComplete
+- ProtocolClAddPartyComplete
 product:
 - Windows
 targetos: Windows

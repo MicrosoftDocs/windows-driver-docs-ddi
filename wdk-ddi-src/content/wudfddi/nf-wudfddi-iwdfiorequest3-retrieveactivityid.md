@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.RetrieveActivityId
-title: IWDFIoRequest3::RetrieveActivityId
+title: IWDFIoRequest3::RetrieveActivityId (wudfddi.h)
 description: The RetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\iwdfiorequest3_retrieveactivityid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest3.RetrieveActivityId
+- IWDFIoRequest3.RetrieveActivityId
 product:
 - Windows
 targetos: Windows

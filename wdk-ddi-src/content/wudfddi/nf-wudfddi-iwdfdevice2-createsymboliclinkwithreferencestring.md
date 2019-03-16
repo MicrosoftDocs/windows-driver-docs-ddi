@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateSymbolicLinkWithReferenceString
-title: IWDFDevice2::CreateSymbolicLinkWithReferenceString
+title: IWDFDevice2::CreateSymbolicLinkWithReferenceString (wudfddi.h)
 description: TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device.
 old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.CreateSymbolicLinkWithReferenceString
+- IWDFDevice2.CreateSymbolicLinkWithReferenceString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_ATTRIBUTES
-title: "_NDIS_FILTER_ATTRIBUTES"
+title: _NDIS_FILTER_ATTRIBUTES (ndis.h)
 description: The NDIS_FILTER_ATTRIBUTES structure defines the attributes of a filter module.
 old-location: netvista\ndis_filter_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_FILTER_ATTRIBUTES
+- NDIS_FILTER_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

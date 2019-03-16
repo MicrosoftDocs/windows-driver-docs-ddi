@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DEVINSTANCE_HEALTH_INFO
-title: "_MPIO_DEVINSTANCE_HEALTH_INFO"
+title: _MPIO_DEVINSTANCE_HEALTH_INFO (mpiodisk.h)
 description: The MPIO_DEVINSTANCE_HEALTH_INFO structure is used to query the available health information for every instance of a multi-path disk on each of the paths through which it is exposed.
 old-location: storage\mpio_devinstance_health_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	MPIO_DEVINSTANCE_HEALTH_INFO
+- MPIO_DEVINSTANCE_HEALTH_INFO
 product:
 - Windows
 targetos: Windows

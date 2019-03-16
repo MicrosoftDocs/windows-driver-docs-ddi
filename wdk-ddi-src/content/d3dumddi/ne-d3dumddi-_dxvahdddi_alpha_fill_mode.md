@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_ALPHA_FILL_MODE
-title: "_DXVAHDDDI_ALPHA_FILL_MODE"
+title: _DXVAHDDDI_ALPHA_FILL_MODE (d3dumddi.h)
 description: The DXVAHDDDI_ALPHA_FILL_MODE enumeration contains values that identify the type of alpha fill mode to set.
 old-location: display\dxvahdddi_alpha_fill_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_ALPHA_FILL_MODE
+- DXVAHDDDI_ALPHA_FILL_MODE
 product:
 - Windows
 targetos: Windows

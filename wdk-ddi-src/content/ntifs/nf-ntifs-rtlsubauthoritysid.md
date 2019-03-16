@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSubAuthoritySid
-title: RtlSubAuthoritySid function
+title: RtlSubAuthoritySid function (ntifs.h)
 description: The RtlSubAuthoritySid routine returns a pointer to a specified subauthority of a security identifier (SID).
 old-location: ifsk\rtlsubauthoritysid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlSubAuthoritySid
+- RtlSubAuthoritySid
 product:
 - Windows
 targetos: Windows

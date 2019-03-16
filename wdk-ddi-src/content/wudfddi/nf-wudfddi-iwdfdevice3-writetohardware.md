@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.WriteToHardware
-title: IWDFDevice3::WriteToHardware
+title: IWDFDevice3::WriteToHardware (wudfddi.h)
 description: The WriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_writetohardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.WriteToHardware
+- IWDFDevice3.WriteToHardware
 product:
 - Windows
 targetos: Windows

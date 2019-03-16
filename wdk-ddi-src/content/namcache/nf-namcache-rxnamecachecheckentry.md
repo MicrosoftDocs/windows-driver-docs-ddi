@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheCheckEntry
-title: RxNameCacheCheckEntry function
+title: RxNameCacheCheckEntry function (namcache.h)
 description: RxNameCacheCheckEntry checks a name cache entry for validity. A valid entry means that the lifetime has not expired and the MRxContext parameter passes the equality check.
 old-location: ifsk\rxnamecachecheckentry.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheCheckEntry
+- RxNameCacheCheckEntry
 product:
 - Windows
 targetos: Windows

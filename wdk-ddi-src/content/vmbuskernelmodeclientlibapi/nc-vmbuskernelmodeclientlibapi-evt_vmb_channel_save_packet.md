@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_SAVE_PACKET
-title: EVT_VMB_CHANNEL_SAVE_PACKET
+title: EVT_VMB_CHANNEL_SAVE_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelSavePacket callback function is invoked when the virtualization service provider (VSP) endpoint must save the state associated with a packet.
 old-location: netvista\evt_vmb_channel_save_packet.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	VmbusKernelModeClientLibApi.h
+- VmbusKernelModeClientLibApi.h
 api_name:
--	PFN_VMB_CHANNEL_SAVE_PACKET
+- PFN_VMB_CHANNEL_SAVE_PACKET
 product:
 - Windows
 targetos: Windows

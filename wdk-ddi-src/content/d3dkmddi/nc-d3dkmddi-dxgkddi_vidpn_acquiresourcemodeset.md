@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ACQUIRESOURCEMODESET
-title: DXGKDDI_VIDPN_ACQUIRESOURCEMODESET
+title: DXGKDDI_VIDPN_ACQUIRESOURCEMODESET (d3dkmddi.h)
 description: The pfnAcquireSourceModeSet function returns a handle to a particular source mode set object that is contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfnacquiresourcemodeset.htm
 ms.assetid: cf19f468-86c1-4cc9-8945-e23f73a85c91
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireSourceModeSet
+- pfnAcquireSourceModeSet
 product:
 - Windows
 targetos: Windows

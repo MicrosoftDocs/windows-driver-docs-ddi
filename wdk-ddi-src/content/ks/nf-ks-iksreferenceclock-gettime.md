@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetTime
-title: IKsReferenceClock::GetTime
+title: IKsReferenceClock::GetTime (ks.h)
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetTime
+- IKsReferenceClock.GetTime
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ESTIMATE_MOTION_0053
-title: PFND3D12DDI_ESTIMATE_MOTION_0053
+title: PFND3D12DDI_ESTIMATE_MOTION_0053 (d3d12umddi.h)
 description: Performs the motion estimation operation.
 ms.assetid: 52009f15-ea7a-4993-adce-c3b0a3b1e5ee
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_ESTIMATE_MOTION_0053
+- PFND3D12DDI_ESTIMATE_MOTION_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._XVARIABLE_NAME
-title: "_XVARIABLE_NAME"
+title: _XVARIABLE_NAME (ntddsysenv.h)
 description: Stores the name of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES request.
 old-location: kernel\xvariable_name.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddsysenv.h
+- Ntddsysenv.h
 api_name:
--	XVARIABLE_NAME
+- XVARIABLE_NAME
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_34
-title: KSLIST_ENTRY_LOCATION
+title: KSLIST_ENTRY_LOCATION (ks.h)
 description: 
 old-location: stream\kslist_entry_location.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSLIST_ENTRY_LOCATION
+- KSLIST_ENTRY_LOCATION
 product:
 - Windows
 targetos: Windows

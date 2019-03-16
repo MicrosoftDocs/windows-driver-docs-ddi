@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFActions2
-title: IWDTFActions2
+title: IWDTFActions2 (wdtf.h)
 description: Defines operations and properties for the collection of actions that the IWDTFTargets::GetInterfaces method returns.
 old-location: dtf\iwdtfactions2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	IWDTFActions2
+- IWDTFActions2
 product:
 - Windows
 targetos: Windows

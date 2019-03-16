@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryTickCount
-title: KeQueryTickCount macro
+title: KeQueryTickCount macro (wdm.h)
 description: The KeQueryTickCount routine maintains a count of the interval timer interrupts that have occurred since the system was booted.
 old-location: kernel\kequerytickcount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryTickCount
+- KeQueryTickCount
 product:
 - Windows
 targetos: Windows

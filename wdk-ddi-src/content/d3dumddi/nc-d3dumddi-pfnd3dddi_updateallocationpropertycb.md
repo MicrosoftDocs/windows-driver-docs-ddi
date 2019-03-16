@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
-title: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
+title: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB (d3dumddi.h)
 description: The pfnUpdateAllocationPropertyCb functions updates the property of an allocation without creating a new allocation.
 old-location: display\pfnupdateallocationpropertycb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnUpdateAllocationPropertyCb
+- pfnUpdateAllocationPropertyCb
 product:
 - Windows
 targetos: Windows

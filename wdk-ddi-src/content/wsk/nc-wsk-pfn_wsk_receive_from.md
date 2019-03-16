@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE_FROM
-title: PFN_WSK_RECEIVE_FROM
+title: PFN_WSK_RECEIVE_FROM (wsk.h)
 description: The WskReceiveFrom function receives a datagram and any associated control information from a remote transport address.
 old-location: netvista\wskreceivefrom.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskReceiveFrom
+- WskReceiveFrom
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_DISCONNECT_EVENT_CALLBACK
-title: NDK_FN_DISCONNECT_EVENT_CALLBACK
+title: NDK_FN_DISCONNECT_EVENT_CALLBACK (ndkpi.h)
 description: The NdkDisconnectEventCallback (NDK_FN_DISCONNECT_EVENT_CALLBACK) function is called by the NDK provider once when the peer disconnects.
 old-location: netvista\ndk_fn_disconnect_event_callback.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkDisconnectEventCallback
+- NdkDisconnectEventCallback
 product:
 - Windows
 targetos: Windows

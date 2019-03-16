@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_FRAME_METADATA
-title: "_WDI_FRAME_METADATA"
+title: _WDI_FRAME_METADATA (dot11wdi.h)
 description: The WDI_FRAME_METADATA structure defines the frame metadata.
 old-location: netvista\wdi_frame_metadata.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_FRAME_METADATA
+- WDI_FRAME_METADATA
 product:
 - Windows
 targetos: Windows

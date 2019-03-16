@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.GetTypedNode
-title: ExtRemoteTypedList::GetTypedNode
+title: ExtRemoteTypedList::GetTypedNode (engextcpp.h)
 description: The GetTypedNode method returns the current list item.
 old-location: debugger\extremotetypedlist_gettypednode.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTypedList.GetTypedNode
+- ExtRemoteTypedList.GetTypedNode
 product:
 - Windows
 targetos: Windows

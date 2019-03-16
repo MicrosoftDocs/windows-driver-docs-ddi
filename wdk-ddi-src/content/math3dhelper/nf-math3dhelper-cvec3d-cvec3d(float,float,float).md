@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.CVEC3D(float,float,float)
-title: CVEC3D::CVEC3D(float,float,float)
+title: CVEC3D::CVEC3D(float,float,float) (math3dhelper.h)
 description: 3d vector class constructor used in sensor driver development, with float parameters.
 ms.assetid: 7e4949a3-e1e5-4679-97ec-139dd36aaef6
 ms.date: 08/01/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	CVEC3D.CVEC3D
+- CVEC3D.CVEC3D
 product: 
 - Windows
 targetos: Windows

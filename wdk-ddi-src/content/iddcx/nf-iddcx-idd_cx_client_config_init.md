@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IDD_CX_CLIENT_CONFIG_INIT
-title: IDD_CX_CLIENT_CONFIG_INIT function
+title: IDD_CX_CLIENT_CONFIG_INIT function (iddcx.h)
 description: Initializes the IDD_CX_CLIENT_CONFIG structure.
 old-location: display\idd_cx_client_config_init.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IDD_CX_CLIENT_CONFIG_INIT
+- IDD_CX_CLIENT_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

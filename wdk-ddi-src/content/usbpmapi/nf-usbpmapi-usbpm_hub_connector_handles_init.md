@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_HUB_CONNECTOR_HANDLES_INIT
-title: USBPM_HUB_CONNECTOR_HANDLES_INIT function
+title: USBPM_HUB_CONNECTOR_HANDLES_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_HUB_CONNECTOR_HANDLES** structure.
 ms.assetid: 0d6bdd1f-9bab-47c4-889d-d9a2bed47e20
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UsbPmApi.lib
+- UsbPmApi.lib
 api_name: 
--	USBPM_HUB_CONNECTOR_HANDLES_INIT
-product: Windows
+- USBPM_HUB_CONNECTOR_HANDLES_INIT
+product:
+- Windows
 targetos: Windows
 
 

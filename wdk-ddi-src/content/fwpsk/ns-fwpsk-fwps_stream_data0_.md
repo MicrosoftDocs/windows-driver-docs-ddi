@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_STREAM_DATA0_
-title: FWPS_STREAM_DATA0_
+title: FWPS_STREAM_DATA0_ (fwpsk.h)
 description: The FWPS_STREAM_DATA0 structure describes a portion of a data stream.Note  FWPS_STREAM_DATA0 is a specific version of FWPS_STREAM_DATA.
 old-location: netvista\fwps_stream_data0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_STREAM_DATA0
+- FWPS_STREAM_DATA0
 product:
 - Windows
 targetos: Windows

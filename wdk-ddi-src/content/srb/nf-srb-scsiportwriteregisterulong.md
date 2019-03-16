@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortWriteRegisterUlong
-title: ScsiPortWriteRegisterUlong function
+title: ScsiPortWriteRegisterUlong function (srb.h)
 description: The ScsiPortWriteRegisterUlong routine transfers a ULONG value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterulong.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortWriteRegisterUlong
+- ScsiPortWriteRegisterUlong
 product:
 - Windows
 targetos: Windows

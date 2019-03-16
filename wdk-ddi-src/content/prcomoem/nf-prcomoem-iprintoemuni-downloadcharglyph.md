@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DownloadCharGlyph
-title: IPrintOemUni::DownloadCharGlyph
+title: IPrintOemUni::DownloadCharGlyph (prcomoem.h)
 description: The IPrintOemUni::DownloadCharGlyph method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.
 old-location: print\iprintoemuni_downloadcharglyph.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.DownloadCharGlyph
+- IPrintOemUni.DownloadCharGlyph
 product:
 - Windows
 targetos: Windows

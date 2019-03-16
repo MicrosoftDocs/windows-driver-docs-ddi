@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_CURSOR_SHAPE_INFO
-title: IDDCX_CURSOR_SHAPE_INFO
+title: IDDCX_CURSOR_SHAPE_INFO (iddcx.h)
 description: Gives information about the shape of the cursor.
 old-location: display\iddcx_cursor_shape_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_CURSOR_SHAPE_INFO
+- IDDCX_CURSOR_SHAPE_INFO
 product:
 - Windows
 targetos: Windows

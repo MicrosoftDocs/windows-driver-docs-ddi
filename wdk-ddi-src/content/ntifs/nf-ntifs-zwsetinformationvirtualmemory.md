@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetInformationVirtualMemory
-title: ZwSetInformationVirtualMemory function
+title: ZwSetInformationVirtualMemory function (ntifs.h)
 description: The ZwSetInformationVirtualMemory routine performs an operation on a specified list of address ranges in the user address space of a process.
 old-location: kernel\zwsetinformationvirtualmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetInformationVirtualMemory
+- ZwSetInformationVirtualMemory
 product:
 - Windows
 targetos: Windows

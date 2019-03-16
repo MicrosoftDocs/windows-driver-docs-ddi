@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.IsVersionAvailable
-title: IWDFDriver::IsVersionAvailable
+title: IWDFDriver::IsVersionAvailable (wudfddi.h)
 description: The IsVersionAvailable method determines whether the specified version of the framework is available.
 old-location: wdf\iwdfdriver_isversionavailable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDriver.IsVersionAvailable
+- IWDFDriver.IsVersionAvailable
 product:
 - Windows
 targetos: Windows

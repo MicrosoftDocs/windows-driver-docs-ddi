@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_SetIsoPipeState
-title: PFNUSBCAMD_SetIsoPipeState
+title: PFNUSBCAMD_SetIsoPipeState (usbcamdi.h)
 description: The USBCAMD_SetIsoPipeState service permits the camera minidriver to control the streaming state on the isochronous pipe.
 old-location: stream\usbcamd_setisopipestate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_SetIsoPipeState
+- USBCAMD_SetIsoPipeState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEPERIODICFRAMENOTIFICATION
-title: "_DXGKARG_CREATEPERIODICFRAMENOTIFICATION"
+title: _DXGKARG_CREATEPERIODICFRAMENOTIFICATION (d3dkmddi.h)
 description: The arguments needed to create a periodic frame notification.
 old-location: display\dxgkarg_createperiodicframenotification.htm
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_CREATEPERIODICFRAMENOTIFICATION
+- DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 product:
 - Windows
 targetos: Windows

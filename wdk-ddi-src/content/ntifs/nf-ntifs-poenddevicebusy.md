@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoEndDeviceBusy
-title: PoEndDeviceBusy function
+title: PoEndDeviceBusy function (ntifs.h)
 description: The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
 old-location: kernel\poenddevicebusy.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoEndDeviceBusy
+- PoEndDeviceBusy
 product:
 - Windows
 targetos: Windows

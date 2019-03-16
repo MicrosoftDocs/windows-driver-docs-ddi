@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMInitiateOffloadComplete
-title: NdisMInitiateOffloadComplete function
+title: NdisMInitiateOffloadComplete function (ndischimney.h)
 description: An offload target calls the NdisMInitiateOffloadComplete function to complete an offload operation that was initiated by a previous call to the MiniportInitiateOffload function.
 old-location: netvista\ndisminitiateoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMInitiateOffloadComplete
+- NdisMInitiateOffloadComplete
 product:
 - Windows
 targetos: Windows

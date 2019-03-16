@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.QueryKey
-title: IRegistryKey::QueryKey
+title: IRegistryKey::QueryKey (portcls.h)
 description: The QueryKey method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
 old-location: audio\iregistrykey_querykey.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IRegistryKey.QueryKey
+- IRegistryKey.QueryKey
 product:
 - Windows
 targetos: Windows

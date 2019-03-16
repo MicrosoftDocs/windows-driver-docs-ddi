@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_MVvalue
-title: "_DXVA_MVvalue"
+title: _DXVA_MVvalue (dxva.h)
 description: The DXVA_MVvalue structure is sent by the host decoder to the accelerator to specify the two-dimensional motion vector value.
 old-location: display\dxva_mvvalue.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_MVvalue
+- DXVA_MVvalue
 product:
 - Windows
 targetos: Windows

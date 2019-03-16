@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_DEREGISTER_MR
-title: NDK_FN_DEREGISTER_MR
+title: NDK_FN_DEREGISTER_MR (ndkpi.h)
 description: The NdkDeregisterMr (NDK_FN_DEREGISTER_MR) function deregisters a memory region that was previously registered with the NdkRegisterMr (NDK_FN_REGISTER_MR) function.
 old-location: netvista\ndk_fn_deregister_mr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkDeregisterMr
+- NdkDeregisterMr
 product:
 - Windows
 targetos: Windows

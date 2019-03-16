@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_POWER_CAPABILITIES
-title: _NET_ADAPTER_POWER_CAPABILITIES
+title: _NET_ADAPTER_POWER_CAPABILITIES (netadapter.h)
 description: Describes the power capabilities of the adapter.
 tech.root: netvista
 ms.assetid: ffd56d81-ed07-4c28-bbb3-dd872f935da3
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_POWER_CAPABILITIES, *PNET_ADAPTER_POWER_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_POWER_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_POWER_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

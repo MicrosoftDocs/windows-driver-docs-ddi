@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortEnumerateChildren
-title: VideoPortEnumerateChildren function
+title: VideoPortEnumerateChildren function (video.h)
 description: The VideoPortEnumerateChildren function allows a video miniport driver to force a reenumeration of its child devices.
 old-location: display\videoportenumeratechildren.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortEnumerateChildren
+- VideoPortEnumerateChildren
 product:
 - Windows
 targetos: Windows

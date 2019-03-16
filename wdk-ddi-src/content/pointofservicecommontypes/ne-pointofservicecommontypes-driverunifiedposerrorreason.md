@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosErrorReason
-title: DriverUnifiedPosErrorReason
+title: DriverUnifiedPosErrorReason (pointofservicecommontypes.h)
 description: This enumeration indicates the reason for the error.
 old-location: pos\unifiedposerrorreason.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverUnifiedPosErrorReason
+- DriverUnifiedPosErrorReason
 product:
 - Windows
 targetos: Windows

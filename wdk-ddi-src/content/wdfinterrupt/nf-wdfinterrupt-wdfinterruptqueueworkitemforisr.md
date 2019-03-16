@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptQueueWorkItemForIsr
-title: WdfInterruptQueueWorkItemForIsr function
+title: WdfInterruptQueueWorkItemForIsr function (wdfinterrupt.h)
 description: The WdfInterruptQueueWorkItemForIsr method queues a framework interrupt object's EvtInterruptWorkItem callback function for execution.
 old-location: wdf\wdfinterruptqueueworkitemforisr.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfInterruptQueueWorkItemForIsr
+- WdfInterruptQueueWorkItemForIsr
 product:
 - Windows
 targetos: Windows

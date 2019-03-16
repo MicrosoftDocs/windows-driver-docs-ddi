@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LIGHT
-title: "_D3DDDI_LIGHT"
+title: _D3DDDI_LIGHT (d3dumddi.h)
 description: The D3DDDI_LIGHT structure describes a set of lighting properties.
 old-location: display\d3dddi_light.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_LIGHT
+- D3DDDI_LIGHT
 product:
 - Windows
 targetos: Windows

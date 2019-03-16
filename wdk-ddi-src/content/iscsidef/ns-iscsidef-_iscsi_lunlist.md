@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_LUNList
-title: "_ISCSI_LUNList"
+title: _ISCSI_LUNList (iscsidef.h)
 description: The ISCSI_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
 old-location: storage\iscsi_lunlist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_LUNList
+- ISCSI_LUNList
 product:
 - Windows
 targetos: Windows

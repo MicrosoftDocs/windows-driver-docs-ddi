@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsPendClassify0
-title: FwpsPendClassify0 function
+title: FwpsPendClassify0 function (fwpsk.h)
 description: A callout's classifyFn function calls FwpsPendClassify0 to pend the current classify request.
 old-location: netvista\fwpspendclassify0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsPendClassify0
+- FwpsPendClassify0
 product:
 - Windows
 targetos: Windows

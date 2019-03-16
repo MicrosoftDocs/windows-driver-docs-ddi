@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
-title: PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
+title: PFND3DKMT_OUTPUTDUPLGETFRAMEINFO (d3dkmthk.h)
 description: The PFND3DKMT_OUTPUTDUPLGETFRAMEINFO callback function gets output duplicate frame info.
 ms.assetid: a4f73b4b-cfc5-4fa6-b597-9309a1dce8d2
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
+- PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

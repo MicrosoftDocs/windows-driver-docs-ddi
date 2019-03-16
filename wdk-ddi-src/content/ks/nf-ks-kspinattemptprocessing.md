@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAttemptProcessing
-title: KsPinAttemptProcessing function
+title: KsPinAttemptProcessing function (ks.h)
 description: The KsPinAttemptProcessing function is used to resume processing on a specific pin on a pin-centric filter. It attempts to initiate processing on Pin by sending a processing dispatch call to Pin's processing object.
 old-location: stream\kspinattemptprocessing.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinAttemptProcessing
+- KsPinAttemptProcessing
 product:
 - Windows
 targetos: Windows

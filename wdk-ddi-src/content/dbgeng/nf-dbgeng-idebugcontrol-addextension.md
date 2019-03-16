@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddExtension
-title: IDebugControl::AddExtension
+title: IDebugControl::AddExtension (dbgeng.h)
 description: The AddExtension method loads an extension library into the debugger engine.
 old-location: debugger\addextension.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.AddExtension
--	IDebugControl2.AddExtension
--	IDebugControl3.AddExtension
+- IDebugControl.AddExtension
+- IDebugControl2.AddExtension
+- IDebugControl3.AddExtension
 product:
 - Windows
 targetos: Windows

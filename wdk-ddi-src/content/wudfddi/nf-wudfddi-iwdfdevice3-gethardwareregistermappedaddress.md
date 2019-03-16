@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.GetHardwareRegisterMappedAddress
-title: IWDFDevice3::GetHardwareRegisterMappedAddress
+title: IWDFDevice3::GetHardwareRegisterMappedAddress (wudfddi.h)
 description: A driver calls GetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it earlier mapped using MapIoSpace.
 old-location: wdf\iwdfdevice3_gethardwareregistermappedaddress.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.GetHardwareRegisterMappedAddress
+- IWDFDevice3.GetHardwareRegisterMappedAddress
 product:
 - Windows
 targetos: Windows

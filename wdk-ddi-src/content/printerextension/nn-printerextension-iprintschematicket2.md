@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaTicket2
-title: IPrintSchemaTicket2
+title: IPrintSchemaTicket2 (printerextension.h)
 description: The IPrintSchemaTicket2 interface is an extension to the IPrintSchemaTicket interface, which provides wrapper methods over a print ticket document.
 old-location: print\iprintschematicket2.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaTicket2
+- IPrintSchemaTicket2
 product:
 - Windows
 targetos: Windows

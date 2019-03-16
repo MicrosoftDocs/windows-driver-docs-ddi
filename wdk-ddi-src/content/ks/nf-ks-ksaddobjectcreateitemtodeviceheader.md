@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAddObjectCreateItemToDeviceHeader
-title: KsAddObjectCreateItemToDeviceHeader function
+title: KsAddObjectCreateItemToDeviceHeader function (ks.h)
 description: The KsAddObjectCreateItemToDeviceHeader function adds the specified create-item to an empty item in the previously allocated create item list for this device header.
 old-location: stream\ksaddobjectcreateitemtodeviceheader.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAddObjectCreateItemToDeviceHeader
+- KsAddObjectCreateItemToDeviceHeader
 product:
 - Windows
 targetos: Windows

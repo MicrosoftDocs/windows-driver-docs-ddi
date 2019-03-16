@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.LaunchAndDebugPlmAppWide
-title: IDebugPlmClient3::LaunchAndDebugPlmAppWide
+title: IDebugPlmClient3::LaunchAndDebugPlmAppWide (dbgeng.h)
 description: Launches and attaches to a Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient3_launchanddebugplmappwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient3.LaunchAndDebugPlmAppWide
+- IDebugPlmClient3.LaunchAndDebugPlmAppWide
 product:
 - Windows
 targetos: Windows

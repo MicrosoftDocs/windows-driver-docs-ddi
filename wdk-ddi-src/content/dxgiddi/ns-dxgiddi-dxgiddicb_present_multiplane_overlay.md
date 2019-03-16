@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
-title: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
+title: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY (dxgiddi.h)
 description: Describes multiplane overlay allocations that content is copied to and from.
 old-location: display\dxgiddicb_present_multiplane_overlay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
+- DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 product:
 - Windows
 targetos: Windows

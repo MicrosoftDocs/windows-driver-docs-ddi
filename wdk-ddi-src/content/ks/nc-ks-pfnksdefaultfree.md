@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEFAULTFREE
-title: PFNKSDEFAULTFREE
+title: PFNKSDEFAULTFREE (ks.h)
 description: An AVStream minidriver's AVStrMiniAllocatorFreeFrame routine frees the specified frame.
 old-location: stream\avstrminiallocatorfreeframe.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniAllocatorFreeFrame
+- AVStrMiniAllocatorFreeFrame
 product:
 - Windows
 targetos: Windows

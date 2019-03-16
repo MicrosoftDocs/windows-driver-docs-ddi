@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_USBDEVICE_ADD
-title: EVT_UCX_CONTROLLER_USBDEVICE_ADD
+title: EVT_UCX_CONTROLLER_USBDEVICE_ADD (ucxcontroller.h)
 description: The client driver's implementation that UCX calls when a new USB device is detected.
 old-location: buses\evt_ucx_controller_usbdevice_add.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	PEVT_UCX_CONTROLLER_USBDEVICE_ADD
+- PEVT_UCX_CONTROLLER_USBDEVICE_ADD
 product:
 - Windows
 targetos: Windows

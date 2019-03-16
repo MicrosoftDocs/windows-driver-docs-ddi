@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
-title: D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
+title: D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041 (d3d12umddi.h)
 description:
 ms.assetid: 790e3ae9-22da-4b5c-a9b0-e727689e9394
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
+- D3D12DDI_VIDEO_DECODE_COMPONENT_HISTOGRAM_0041
 product: 
 - Windows
 targetos: Windows

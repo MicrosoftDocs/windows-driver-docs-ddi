@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWritePortUshort
-title: VideoPortWritePortUshort function
+title: VideoPortWritePortUshort function (video.h)
 description: The VideoPortWritePortUshort function writes a USHORT value to a mapped I/O port.
 old-location: display\videoportwriteportushort.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWritePortUshort
+- VideoPortWritePortUshort
 product:
 - Windows
 targetos: Windows

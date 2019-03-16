@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PshedAllocateMemory
-title: PshedAllocateMemory function
+title: PshedAllocateMemory function (ntddk.h)
 description: The PshedAllocateMemory function allocates a block of memory from the nonpaged pool.
 old-location: whea\pshedallocatememory.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedAllocateMemory
+- PshedAllocateMemory
 product:
 - Windows
 targetos: Windows

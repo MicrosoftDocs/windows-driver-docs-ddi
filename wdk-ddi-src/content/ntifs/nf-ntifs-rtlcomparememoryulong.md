@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCompareMemoryUlong
-title: RtlCompareMemoryUlong function
+title: RtlCompareMemoryUlong function (ntifs.h)
 description: The RtlCompareMemoryUlong routine returns how many bytes in a block of memory match a specified pattern.
 old-location: ifsk\rtlcomparememoryulong.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCompareMemoryUlong
+- RtlCompareMemoryUlong
 product:
 - Windows
 targetos: Windows

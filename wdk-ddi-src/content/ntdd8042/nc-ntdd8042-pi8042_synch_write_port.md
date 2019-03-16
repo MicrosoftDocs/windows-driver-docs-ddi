@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_SYNCH_WRITE_PORT
-title: PI8042_SYNCH_WRITE_PORT
+title: PI8042_SYNCH_WRITE_PORT (ntdd8042.h)
 description: The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine.
 old-location: hid\pi8042_synch_write_port.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	SynchWritePort
+- SynchWritePort
 product:
 - Windows
 targetos: Windows

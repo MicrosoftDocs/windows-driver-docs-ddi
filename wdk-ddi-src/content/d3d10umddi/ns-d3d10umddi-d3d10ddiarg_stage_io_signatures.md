@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_STAGE_IO_SIGNATURES
-title: D3D10DDIARG_STAGE_IO_SIGNATURES
+title: D3D10DDIARG_STAGE_IO_SIGNATURES (d3d10umddi.h)
 description: The D3D10DDIARG_STAGE_IO_SIGNATURES structure describes an I/O signature.
 old-location: display\d3d10ddiarg_stage_io_signatures.htm
 ms.assetid: 9639bdc8-9b2f-4911-8a09-d5cf16204cf4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_STAGE_IO_SIGNATURES
+- D3D10DDIARG_STAGE_IO_SIGNATURES
 product:
 - Windows
 targetos: Windows

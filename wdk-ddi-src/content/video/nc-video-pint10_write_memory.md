@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PINT10_WRITE_MEMORY
-title: PINT10_WRITE_MEMORY
+title: PINT10_WRITE_MEMORY (video.h)
 description: The Int10WriteMemory function writes the contents of an input buffer to memory in the context of another thread.
 old-location: display\int10writememory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	Int10WriteMemory
+- Int10WriteMemory
 product:
 - Windows
 targetos: Windows

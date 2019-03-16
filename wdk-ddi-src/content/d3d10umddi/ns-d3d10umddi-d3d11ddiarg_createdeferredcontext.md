@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATEDEFERREDCONTEXT
-title: D3D11DDIARG_CREATEDEFERREDCONTEXT
+title: D3D11DDIARG_CREATEDEFERREDCONTEXT (d3d10umddi.h)
 description: The D3D11DDIARG_CREATEDEFERREDCONTEXT structure describes the deferred context to create.
 old-location: display\d3d11ddiarg_createdeferredcontext.htm
 ms.assetid: 4486939d-a35c-4b0b-b0d0-6402a62a4870
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_CREATEDEFERREDCONTEXT
+- D3D11DDIARG_CREATEDEFERREDCONTEXT
 product:
 - Windows
 targetos: Windows

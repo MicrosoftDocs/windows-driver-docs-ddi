@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRemoveShareAccess
-title: IoRemoveShareAccess function
+title: IoRemoveShareAccess function (wdm.h)
 description: The IoRemoveShareAccess routine removes the access and share-access information for a given open instance of a file object.
 old-location: kernel\ioremoveshareaccess.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRemoveShareAccess
+- IoRemoveShareAccess
 product:
 - Windows
 targetos: Windows

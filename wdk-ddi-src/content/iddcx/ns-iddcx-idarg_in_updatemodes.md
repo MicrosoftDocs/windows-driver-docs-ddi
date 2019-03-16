@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_UPDATEMODES
-title: IDARG_IN_UPDATEMODES
+title: IDARG_IN_UPDATEMODES (iddcx.h)
 description: Gives information about the target modes that will be updated by the driver.
 old-location: display\idarg_in_updatemodes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_UPDATEMODES
+- IDARG_IN_UPDATEMODES
 product:
 - Windows
 targetos: Windows

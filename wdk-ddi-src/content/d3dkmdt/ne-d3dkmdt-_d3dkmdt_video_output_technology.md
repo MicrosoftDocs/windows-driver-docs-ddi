@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
-title: "_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY"
+title: _D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumerated type indicates the type of connector a video output device (on the display adapter) uses to connect to an external display device.
 old-location: display\d3dkmdt_video_output_technology.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+- D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
 product:
 - Windows
 targetos: Windows

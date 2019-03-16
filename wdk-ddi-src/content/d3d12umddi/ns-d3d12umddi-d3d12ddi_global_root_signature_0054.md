@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
-title: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
+title: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054 (d3d12umddi.h)
 description: Describes a named root signature that can be used globally in a ray tracing pipeline, or associated with shaders by name.
 ms.assetid: 5d47f8e0-8fa0-4ab1-abac-858d0396e5d6
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
+- D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

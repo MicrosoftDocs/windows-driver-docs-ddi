@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
-title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
+title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter (portcls.h)
 description: Gets the value of the PeakMeter node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelpeakmeter.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
+- IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
 product:
 - Windows
 targetos: Windows

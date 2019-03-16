@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetPossibleExecutingProcessorTypes
-title: IDebugControl::GetPossibleExecutingProcessorTypes
+title: IDebugControl::GetPossibleExecutingProcessorTypes (dbgeng.h)
 description: The GetPossibleExecutingProcessorTypes method returns the processor types that are supported by the computer running the current target.
 old-location: debugger\getpossibleexecutingprocessortypes.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetPossibleExecutingProcessorTypes
--	IDebugControl2.GetPossibleExecutingProcessorTypes
--	IDebugControl3.GetPossibleExecutingProcessorTypes
+- IDebugControl.GetPossibleExecutingProcessorTypes
+- IDebugControl2.GetPossibleExecutingProcessorTypes
+- IDebugControl3.GetPossibleExecutingProcessorTypes
 product:
 - Windows
 targetos: Windows

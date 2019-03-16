@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxLogEventDirect
-title: RxLogEventDirect function
+title: RxLogEventDirect function (rxprocs.h)
 description: RxLogEventDirect is called to log an error to the I/O error log. It is recommended that the RXLogEvent macro or the RxLogFailure macro be used instead of calling this routine directly.
 old-location: ifsk\rxlogeventdirect.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxLogEventDirect
+- RxLogEventDirect
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_1
-title: KSDATAFORMAT_WAVEFORMATEX
+title: KSDATAFORMAT_WAVEFORMATEX (ksmedia.h)
 description: The KSDATAFORMAT_WAVEFORMATEX structure provides detailed information about the data format of an audio stream consisting of wave data.
 old-location: audio\ksdataformat_waveformatex.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDATAFORMAT_WAVEFORMATEX
+- KSDATAFORMAT_WAVEFORMATEX
 product:
 - Windows
 targetos: Windows

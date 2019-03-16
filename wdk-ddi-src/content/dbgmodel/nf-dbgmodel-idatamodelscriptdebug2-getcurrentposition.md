@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.GetCurrentPosition
-title: IDataModelScriptDebug2::GetCurrentPosition
+title: IDataModelScriptDebug2::GetCurrentPosition (dbgmodel.h)
 description: The GetCurrentPosition' method returns the current position within the script. 
 ms.assetid: 3e84abeb-e856-4b29-a6ae-ea0a1ab31b27
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.GetCurrentPosition
-product: Windows
+- IDataModelScriptDebug2.GetCurrentPosition
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

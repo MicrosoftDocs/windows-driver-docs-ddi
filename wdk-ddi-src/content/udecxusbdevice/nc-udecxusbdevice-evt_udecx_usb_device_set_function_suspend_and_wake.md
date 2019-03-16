@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE
-title: EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE
+title: EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE (udecxusbdevice.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to change the function state of the specified interface of the virtual USB 3.0 device.
 old-location: buses\evt_udecx_usb_device_set_function_suspend_and_wake.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	udecxusbdevice.h
+- udecxusbdevice.h
 api_name:
--	EvtUsbDeviceSetFunctionSuspendAndWake
+- EvtUsbDeviceSetFunctionSuspendAndWake
 product:
 - Windows
 targetos: Windows

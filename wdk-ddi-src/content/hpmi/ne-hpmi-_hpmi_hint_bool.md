@@ -1,6 +1,6 @@
 ---
 UID: NE:hpmi._HPMI_HINT_BOOL
-title: "_HPMI_HINT_BOOL"
+title: _HPMI_HINT_BOOL (hpmi.h)
 description: Boolean type value used to track availability of HPMI hint data.
 old-location: powermeter\hpmi_hint_bool.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	HPMI_HINT_BOOL
+- HPMI_HINT_BOOL
 product:
 - Windows
 targetos: Windows

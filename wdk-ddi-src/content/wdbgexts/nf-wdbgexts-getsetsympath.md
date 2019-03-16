@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetSetSympath
-title: GetSetSympath function
+title: GetSetSympath function (wdbgexts.h)
 description: The GetSetSympath function can be used to either get or set the symbol search path.
 old-location: debugger\getsetsympath.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetSetSympath
+- GetSetSympath
 product:
 - Windows
 targetos: Windows

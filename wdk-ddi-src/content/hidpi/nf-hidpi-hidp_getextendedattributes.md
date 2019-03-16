@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetExtendedAttributes
-title: HidP_GetExtendedAttributes function
+title: HidP_GetExtendedAttributes function (hidpi.h)
 description: The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control.
 old-location: hid\hidp_getextendedattributes.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_ LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetExtendedAttributes
+- HidP_GetExtendedAttributes
 product:
 - Windows
 targetos: Windows

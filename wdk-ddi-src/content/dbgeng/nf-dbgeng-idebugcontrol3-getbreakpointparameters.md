@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetBreakpointParameters
-title: IDebugControl3::GetBreakpointParameters
+title: IDebugControl3::GetBreakpointParameters (dbgeng.h)
 description: The GetBreakpointParameters method returns the parameters of one or more breakpoints.
 old-location: debugger\getbreakpointparameters.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetBreakpointParameters
--	IDebugControl2.GetBreakpointParameters
--	IDebugControl3.GetBreakpointParameters
+- IDebugControl.GetBreakpointParameters
+- IDebugControl2.GetBreakpointParameters
+- IDebugControl3.GetBreakpointParameters
 product:
 - Windows
 targetos: Windows

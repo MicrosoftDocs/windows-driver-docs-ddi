@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_CONTROLLER_INTERFACE
-title: "_IDE_CONTROLLER_INTERFACE"
+title: _IDE_CONTROLLER_INTERFACE (irb.h)
 description: The IDE_CONTROLLER_INTERFACE structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_interface.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_CONTROLLER_INTERFACE
+- IDE_CONTROLLER_INTERFACE
 product:
 - Windows
 targetos: Windows

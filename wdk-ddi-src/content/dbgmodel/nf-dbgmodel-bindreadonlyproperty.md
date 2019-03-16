@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.BindReadOnlyProperty
-title: BindReadOnlyProperty function
+title: BindReadOnlyProperty function (dbgmodel.h)
 description: A binder which converts an instance methods on a class to a read only property accessor. 
 ms.assetid: f63a6f51-8676-4db0-9ac7-dd82414c75f0
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	
+- HeaderDef
 api_location: 
--	
+- dbgmodel.h
 api_name: 
--	BindReadOnlyProperty
-product: Windows
+- BindReadOnlyProperty
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

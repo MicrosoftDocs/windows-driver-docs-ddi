@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION
-title: "_USB_NODE_CONNECTION_INFORMATION"
+title: _USB_NODE_CONNECTION_INFORMATION (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION structure is used with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION request to retrieve information about a USB port and connected device.
 old-location: buses\usb_node_connection_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_NODE_CONNECTION_INFORMATION
+- USB_NODE_CONNECTION_INFORMATION
 product:
 - Windows
 targetos: Windows
@@ -66,7 +66,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEV
 
 ### -field CurrentConfigurationValue
 
-Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs).
+Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents).
 
 
 ### -field LowSpeed

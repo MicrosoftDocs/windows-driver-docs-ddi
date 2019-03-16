@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingFileOrGlobalEvents
-title: SeAuditingFileOrGlobalEvents function
+title: SeAuditingFileOrGlobalEvents function (ntifs.h)
 description: The SeAuditingFileOrGlobalEvents routine determines whether file or global events are currently being audited.
 old-location: ifsk\seauditingfileorglobalevents.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeAuditingFileOrGlobalEvents
+- SeAuditingFileOrGlobalEvents
 product:
 - Windows
 targetos: Windows

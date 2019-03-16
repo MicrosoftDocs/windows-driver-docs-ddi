@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnBlockOffset
-title: ClfsLsnBlockOffset function
+title: ClfsLsnBlockOffset function (wdm.h)
 description: The ClfsLsnBlockOffset routine returns the sector-aligned block offset contained in a specified LSN.
 old-location: kernel\clfslsnblockoffset.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsLsnBlockOffset
+- ClfsLsnBlockOffset
 product:
 - Windows
 targetos: Windows

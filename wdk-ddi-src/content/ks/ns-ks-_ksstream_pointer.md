@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER
-title: "_KSSTREAM_POINTER"
+title: _KSSTREAM_POINTER (ks.h)
 description: The KSSTREAM_POINTER structure is the basic AVStream pointer into a stream.
 old-location: stream\ksstream_pointer.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAM_POINTER
+- KSSTREAM_POINTER
 product:
 - Windows
 targetos: Windows

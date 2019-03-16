@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
-title: D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
+title: D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022 (d3d12umddi.h)
 description: Contains values for automatic processing for a driver.
 old-location: display\d3d12ddi_video_process_auto_processing_flags.htm
 ms.assetid: 37F982EE-8FCB-452F-B589-B14D0E593F1E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
+- D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022
 product:
 - Windows
 targetos: Windows

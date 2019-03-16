@@ -1,6 +1,6 @@
 ---
 UID: NF:compstui.GetCPSUIUserData
-title: GetCPSUIUserData function
+title: GetCPSUIUserData function (compstui.h)
 description: CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
 old-location: print\getcpsuiuserdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Compstui.lib
 req.dll: Compstui.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Compstui.dll
+- Compstui.dll
 api_name:
--	GetCPSUIUserData
+- GetCPSUIUserData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrMult
-title: RtlDWordPtrMult function
+title: RtlDWordPtrMult function (ntintsafe.h)
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: kernel\rtldwordptrmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlDWordPtrMult
+- RtlDWordPtrMult
 product:
 - Windows
 targetos: Windows

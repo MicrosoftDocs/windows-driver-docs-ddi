@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_RELEASE_HARDWARE
-title: EVT_WDF_DEVICE_RELEASE_HARDWARE
+title: EVT_WDF_DEVICE_RELEASE_HARDWARE (wdfdevice.h)
 description: A driver's EvtDeviceReleaseHardware event callback function performs operations that are needed when a device is no longer accessible.
 old-location: wdf\evtdevicereleasehardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceReleaseHardware
+- EvtDeviceReleaseHardware
 product:
 - Windows
 targetos: Windows

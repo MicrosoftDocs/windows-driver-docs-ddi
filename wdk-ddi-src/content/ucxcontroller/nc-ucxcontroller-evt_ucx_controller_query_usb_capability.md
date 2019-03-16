@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
-title: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
+title: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY (ucxcontroller.h)
 description: The client driver's implementation to determine if the controller supports a specific capability.
 old-location: buses\evt_ucx_controller_query_usb_capability.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
+- PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.FPGA_CONTROL_LINK
-title: FPGA_CONTROL_LINK
+title: FPGA_CONTROL_LINK (wdm.h)
 description: Reserved for future use.
 ms.assetid: 3e495043-8ab0-4119-abb3-a8b3c4cf9ca3
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	FPGA_CONTROL_LINK
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- FPGA_CONTROL_LINK
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -78,7 +78,7 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 ## -remarks
 
-A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the the driver sets the **ControlLink** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
+A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the driver sets the **ControlLink** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
 
 
 ## -see-also

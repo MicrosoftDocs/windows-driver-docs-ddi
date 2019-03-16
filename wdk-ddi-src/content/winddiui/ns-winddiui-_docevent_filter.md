@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCEVENT_FILTER
-title: "_DOCEVENT_FILTER"
+title: _DOCEVENT_FILTER (winddiui.h)
 description: The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See DrvDocumentEvent for a complete list of the document events.
 old-location: print\docevent_filter.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DOCEVENT_FILTER
+- DOCEVENT_FILTER
 product:
 - Windows
 targetos: Windows

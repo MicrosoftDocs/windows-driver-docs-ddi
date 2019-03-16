@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelMethod.Call
-title: IModelMethod::Call
+title: IModelMethod::Call (dbgmodel.h)
 description: The Call method is the way in which any method defined in the data model is invoked. 
 ms.assetid: 217feb09-ddbf-407c-a8a4-1144d7dd7c41
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelMethod.Call
-product: Windows
+- IModelMethod.Call
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

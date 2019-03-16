@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiDeleteSpoolFileHandle
-title: GdiDeleteSpoolFileHandle function
+title: GdiDeleteSpoolFileHandle function (winppi.h)
 description: The GdiDeleteSpoolFileHandle function releases a spool file handle.
 old-location: print\gdideletespoolfilehandle.htm
 tech.root: print
@@ -26,16 +26,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
--	GdiDeleteSpoolFileHandle
+- GdiDeleteSpoolFileHandle
 product:
 - Windows
 targetos: Windows

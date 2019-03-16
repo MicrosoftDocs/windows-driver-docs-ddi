@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEPTH_STENCILOP_DESC
-title: D3D12DDI_DEPTH_STENCILOP_DESC
+title: D3D12DDI_DEPTH_STENCILOP_DESC (d3d12umddi.h)
 description: Describes stencil operations that can be performed based on the results of stencil test.
 ms.assetid: e906c6d4-e4eb-42ad-b983-0fe3e4b8c498
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_DEPTH_STENCILOP_DESC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_DEPTH_STENCILOP_DESC
+- D3D12DDI_DEPTH_STENCILOP_DESC
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

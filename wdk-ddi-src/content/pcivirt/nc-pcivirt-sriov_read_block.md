@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_READ_BLOCK
-title: SRIOV_READ_BLOCK
+title: SRIOV_READ_BLOCK (pcivirt.h)
 description: Reads data from the specified configuration block of a PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_read_block.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_READ_BLOCK
+- *PSRIOV_READ_BLOCK
 product:
 - Windows
 targetos: Windows

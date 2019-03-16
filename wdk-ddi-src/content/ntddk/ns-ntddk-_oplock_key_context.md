@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._OPLOCK_KEY_CONTEXT
-title: "_OPLOCK_KEY_CONTEXT"
+title: _OPLOCK_KEY_CONTEXT (ntddk.h)
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	OPLOCK_KEY_CONTEXT
+- OPLOCK_KEY_CONTEXT
 product:
 - Windows
 targetos: Windows

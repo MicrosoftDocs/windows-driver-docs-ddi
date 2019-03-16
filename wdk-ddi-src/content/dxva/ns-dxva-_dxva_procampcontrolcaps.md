@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlCaps
-title: "_DXVA_ProcAmpControlCaps"
+title: _DXVA_ProcAmpControlCaps (dxva.h)
 description: The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
 old-location: display\dxva_procampcontrolcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ProcAmpControlCaps
+- DXVA_ProcAmpControlCaps
 product:
 - Windows
 targetos: Windows

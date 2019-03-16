@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_I2C_TRANSMIT
-title: EVT_IDD_CX_MONITOR_I2C_TRANSMIT
+title: EVT_IDD_CX_MONITOR_I2C_TRANSMIT (iddcx.h)
 description: EVT_IDD_CX_MONITOR_I2C_TRANSMIT is called by the OS to return data received to an I2C device in a monitor.
 old-location: display\evt_idd_cx_monitor_i2c_transmit.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_I2C_TRANSMIT
+- PFN_IDD_CX_MONITOR_I2C_TRANSMIT
 product:
 - Windows
 targetos: Windows

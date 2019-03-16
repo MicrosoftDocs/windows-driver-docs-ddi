@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_EXTENSION_DLL_INIT
-title: PWINDBG_EXTENSION_DLL_INIT
+title: PWINDBG_EXTENSION_DLL_INIT (wdbgexts.h)
 description: The PWINDBG_EXTENSION_DLL_INIT ( WinDbgExtensionDllInit) callback function is used to load and initialize the extension module.
 old-location: debugger\windbgextensiondllinit.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WinDbgExtensionDllInit
+- WinDbgExtensionDllInit
 product:
 - Windows
 targetos: Windows

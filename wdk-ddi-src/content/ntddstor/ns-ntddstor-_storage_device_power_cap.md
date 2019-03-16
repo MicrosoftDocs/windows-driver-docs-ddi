@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_POWER_CAP
-title: "_STORAGE_DEVICE_POWER_CAP"
+title: _STORAGE_DEVICE_POWER_CAP (ntddstor.h)
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: storage\storage_device_power_cap.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DEVICE_POWER_CAP
+- STORAGE_DEVICE_POWER_CAP
 product:
 - Windows
 targetos: Windows

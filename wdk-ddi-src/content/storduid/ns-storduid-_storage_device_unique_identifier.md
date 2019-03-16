@@ -1,6 +1,6 @@
 ---
 UID: NS:storduid._STORAGE_DEVICE_UNIQUE_IDENTIFIER
-title: "_STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+title: _STORAGE_DEVICE_UNIQUE_IDENTIFIER (storduid.h)
 description: The STORAGE_DEVICE_UNIQUE_IDENTIFIER structure defines a device unique identifier (DUID).
 old-location: storage\storage_device_unique_identifier.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storduid.h
+- storduid.h
 api_name:
--	STORAGE_DEVICE_UNIQUE_IDENTIFIER
+- STORAGE_DEVICE_UNIQUE_IDENTIFIER
 product:
 - Windows
 targetos: Windows

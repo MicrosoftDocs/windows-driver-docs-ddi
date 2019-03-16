@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_PNP_IRP
-title: MINIPORT_PNP_IRP
+title: MINIPORT_PNP_IRP (ndis.h)
 description: The MiniportPnpIrp function enables a miniport driver to optionally manage its Plug and Play (PnP) resources.
 old-location: netvista\miniportstartdevice.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	(*MINIPORT_PNP_IRP_HANDLER)
+- (*MINIPORT_PNP_IRP_HANDLER)
 product:
 - Windows
 targetos: Windows

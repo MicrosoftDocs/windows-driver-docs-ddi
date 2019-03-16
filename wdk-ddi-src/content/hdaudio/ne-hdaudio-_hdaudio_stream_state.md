@@ -1,6 +1,6 @@
 ---
 UID: NE:hdaudio._HDAUDIO_STREAM_STATE
-title: "_HDAUDIO_STREAM_STATE"
+title: _HDAUDIO_STREAM_STATE (hdaudio.h)
 description: The HDAUDIO_STREAM_STATE enumeration defines constants that specify the different stream states supported by HDAudio.
 old-location: audio\hdaudio_stream_state.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hdaudio.h
+- Hdaudio.h
 api_name:
--	HDAUDIO_STREAM_STATE
+- HDAUDIO_STREAM_STATE
 product:
 - Windows
 targetos: Windows

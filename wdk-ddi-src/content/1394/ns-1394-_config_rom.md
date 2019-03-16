@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._CONFIG_ROM
-title: "_CONFIG_ROM"
+title: _CONFIG_ROM (1394.h)
 description: The CONFIG_ROM structure is used to contain the first 24 bytes of an IEEE 1394 device's configuration ROM.
 old-location: ieee\config_rom.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	CONFIG_ROM
+- CONFIG_ROM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PIN_INFO
-title: "_NDIS_WWAN_PIN_INFO"
+title: _NDIS_WWAN_PIN_INFO (ndiswwan.h)
 description: The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Personal Identification Number (PIN) information required by the MB device.
 old-location: netvista\ndis_wwan_pin_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_PIN_INFO
+- NDIS_WWAN_PIN_INFO
 product:
 - Windows
 targetos: Windows

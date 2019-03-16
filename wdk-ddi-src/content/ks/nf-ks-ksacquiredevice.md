@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAcquireDevice
-title: KsAcquireDevice function
+title: KsAcquireDevice function (ks.h)
 description: The KsAcquireDevice function gains synchronous access for Device by acquiring the device mutex.
 old-location: stream\ksacquiredevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAcquireDevice
+- KsAcquireDevice
 product:
 - Windows
 targetos: Windows

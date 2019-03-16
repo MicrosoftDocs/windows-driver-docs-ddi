@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeProperties
-title: FltGetVolumeProperties function
+title: FltGetVolumeProperties function (fltkernel.h)
 description: The FltGetVolumeProperties routine returns volume property information for the given volume.
 old-location: ifsk\fltgetvolumeproperties.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetVolumeProperties
+- FltGetVolumeProperties
 product:
 - Windows
 targetos: Windows

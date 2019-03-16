@@ -1,6 +1,6 @@
 ---
 UID: NF:oprghdlr.DeRegisterOpRegionHandler
-title: DeRegisterOpRegionHandler function
+title: DeRegisterOpRegionHandler function (oprghdlr.h)
 description: The DeRegisterOpRegionHandler routine deregisters an operation region handler with the ACPI driver.
 old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi
@@ -26,15 +26,15 @@ req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Oprghdlr.lib
--	Oprghdlr.dll
+- Oprghdlr.lib
+- Oprghdlr.dll
 api_name:
--	DeRegisterOpRegionHandler
+- DeRegisterOpRegionHandler
 product:
 - Windows
 targetos: Windows

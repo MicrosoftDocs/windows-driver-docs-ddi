@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.COMPOSITE_DEVICE_CAPABILITIES_INIT
-title: COMPOSITE_DEVICE_CAPABILITIES_INIT function
+title: COMPOSITE_DEVICE_CAPABILITIES_INIT function (usbdlib.h)
 description: The COMPOSITE_DEVICE_CAPABILITIES_INIT macro initializes the COMPOSITE_DEVICE_CAPABILITIES structure.
 old-location: buses\composite_driver_capabilities_init.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	COMPOSITE_DEVICE_CAPABILITIES_INIT
+- COMPOSITE_DEVICE_CAPABILITIES_INIT
 product:
 - Windows
 targetos: Windows

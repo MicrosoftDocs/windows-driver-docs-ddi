@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.SetFormat
-title: IMiniportMidiStream::SetFormat
+title: IMiniportMidiStream::SetFormat (portcls.h)
 description: The SetFormat method sets the KS data format of the MIDI stream.
 old-location: audio\iminiportmidistream_setformat.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidiStream.SetFormat
+- IMiniportMidiStream.SetFormat
 product:
 - Windows
 targetos: Windows

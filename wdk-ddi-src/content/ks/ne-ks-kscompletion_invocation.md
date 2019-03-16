@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_33
-title: KSCOMPLETION_INVOCATION
+title: KSCOMPLETION_INVOCATION (ks.h)
 description: 
 old-location: stream\kscompletion_invocation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSCOMPLETION_INVOCATION
+- KSCOMPLETION_INVOCATION
 product:
 - Windows
 targetos: Windows

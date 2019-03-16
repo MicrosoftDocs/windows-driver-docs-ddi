@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIEW_INSTANCING_FLAGS
-title: D3D12DDI_VIEW_INSTANCING_FLAGS
+title: D3D12DDI_VIEW_INSTANCING_FLAGS (d3d12umddi.h)
 description: Defines the view instancing flags.
 old-location: display\d3d12ddi-view-instancing-flags.htm
 ms.assetid: fa44933f-aa3b-466a-8ee2-2d34d0311562
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIEW_INSTANCING_FLAGS
+- D3D12DDI_VIEW_INSTANCING_FLAGS
 product:
 - Windows
 targetos: Windows

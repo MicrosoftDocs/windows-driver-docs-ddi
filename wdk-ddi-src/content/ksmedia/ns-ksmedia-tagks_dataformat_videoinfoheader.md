@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_VIDEOINFOHEADER
-title: tagKS_DATAFORMAT_VIDEOINFOHEADER
+title: tagKS_DATAFORMAT_VIDEOINFOHEADER (ksmedia.h)
 description: The KS_DATAFORMAT_VIDEOINFOHEADER structure describes a video stream that does not include bob or weave settings.
 old-location: stream\ks_dataformat_videoinfoheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATAFORMAT_VIDEOINFOHEADER
+- KS_DATAFORMAT_VIDEOINFOHEADER
 product:
 - Windows
 targetos: Windows

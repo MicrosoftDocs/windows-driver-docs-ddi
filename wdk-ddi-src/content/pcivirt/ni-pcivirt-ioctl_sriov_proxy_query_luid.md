@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_PROXY_QUERY_LUID
-title: IOCTL_SRIOV_PROXY_QUERY_LUID
+title: IOCTL_SRIOV_PROXY_QUERY_LUID (pcivirt.h)
 description: This request supplies the local unique identifier of the SR_IOV device implementing the interface.
 old-location: pci\ioctl-sriov-proxy-query-luid.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	IOCTL_SRIOV_PROXY_QUERY_LUID
+- IOCTL_SRIOV_PROXY_QUERY_LUID
 product:
 - Windows
 targetos: Windows

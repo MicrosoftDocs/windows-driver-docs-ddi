@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetRequestorMode
-title: IWDFIoRequest2::GetRequestorMode
+title: IWDFIoRequest2::GetRequestorMode (wudfddi.h)
 description: The GetRequestorMode method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
 old-location: wdf\iwdfiorequest2_getrequestormode.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.GetRequestorMode
+- IWDFIoRequest2.GetRequestorMode
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
-title: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
+title: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ (ehstorioctl.h)
 description: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ is sent by the Enhanced Storage Class Driver (EHSTOR) to the silo driver to initiate on-demand authentication or deauthentication.
 old-location: storage\ioctl_ehstor_driver_perform_authz.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
+- IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
 product:
 - Windows
 targetos: Windows

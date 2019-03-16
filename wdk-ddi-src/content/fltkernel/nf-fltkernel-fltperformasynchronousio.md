@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltPerformAsynchronousIo
-title: FltPerformAsynchronousIo function
+title: FltPerformAsynchronousIo function (fltkernel.h)
 description: A minifilter driver calls FltPerformAsynchronousIo to initiate an asynchronous I/O operation.
 old-location: ifsk\fltperformasynchronousio.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltPerformAsynchronousIo
+- FltPerformAsynchronousIo
 product:
 - Windows
 targetos: Windows

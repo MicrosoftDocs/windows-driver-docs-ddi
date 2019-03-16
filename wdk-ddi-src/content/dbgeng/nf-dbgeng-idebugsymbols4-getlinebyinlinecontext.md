@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContext
-title: IDebugSymbols4::GetLineByInlineContext
+title: IDebugSymbols4::GetLineByInlineContext (dbgeng.h)
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols4.GetLineByInlineContext
+- IDebugSymbols4.GetLineByInlineContext
 product:
 - Windows
 targetos: Windows

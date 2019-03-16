@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetTypeSize
-title: GetTypeSize function
+title: GetTypeSize function (wdbgexts.h)
 description: The GetTypeSize function returns the size in the target's memory of an instance of the specified type.
 old-location: debugger\gettypesize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetTypeSize
+- GetTypeSize
 product:
 - Windows
 targetos: Windows

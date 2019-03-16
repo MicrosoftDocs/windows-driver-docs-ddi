@@ -1,6 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
-title: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
+title: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE (nfpdev.h)
 description: A client interested in receiving notifications that a message has been transmitted will send the IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE request to the proximity driver.
 old-location: nfpdrivers\ioctl_nfp_get_next_transmitted_message.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfpdev.h
+- nfpdev.h
 api_name:
--	IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
+- IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
 product:
 - Windows
 targetos: Windows

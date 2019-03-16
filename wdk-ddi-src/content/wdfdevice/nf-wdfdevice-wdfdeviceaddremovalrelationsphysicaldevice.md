@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAddRemovalRelationsPhysicalDevice
-title: WdfDeviceAddRemovalRelationsPhysicalDevice function
+title: WdfDeviceAddRemovalRelationsPhysicalDevice function (wdfdevice.h)
 description: The WdfDeviceAddRemovalRelationsPhysicalDevice method indicates that a specified device must be removed when another specified device is removed.
 old-location: wdf\wdfdeviceaddremovalrelationsphysicaldevice.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceAddRemovalRelationsPhysicalDevice
+- WdfDeviceAddRemovalRelationsPhysicalDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.PurgeSynchronously
-title: IWDFIoQueue::PurgeSynchronously
+title: IWDFIoQueue::PurgeSynchronously (wudfddi.h)
 description: The PurgeSynchronously method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. The method returns after all outstanding requests are canceled.
 old-location: wdf\iwdfioqueue_purgesynchronously.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.PurgeSynchronously
+- IWDFIoQueue.PurgeSynchronously
 product:
 - Windows
 targetos: Windows

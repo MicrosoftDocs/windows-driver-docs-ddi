@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIVERTEXELEMENT
-title: "_D3DDDIVERTEXELEMENT"
+title: _D3DDDIVERTEXELEMENT (d3dumddi.h)
 description: The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 old-location: display\d3dddivertexelement.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIVERTEXELEMENT
+- D3DDDIVERTEXELEMENT
 product:
 - Windows
 targetos: Windows

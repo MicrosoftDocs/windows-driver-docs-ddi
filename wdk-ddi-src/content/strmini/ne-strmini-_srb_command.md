@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini._SRB_COMMAND
-title: "_SRB_COMMAND"
+title: _SRB_COMMAND (strmini.h)
 description: 
 old-location: stream\srb_command.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Strmini.h
+- Strmini.h
 api_name:
--	SRB_COMMAND
+- SRB_COMMAND
 product:
 - Windows
 targetos: Windows

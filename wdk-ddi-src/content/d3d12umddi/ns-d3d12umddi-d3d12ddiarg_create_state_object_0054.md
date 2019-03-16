@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_STATE_OBJECT_0054
-title: D3D12DDIARG_CREATE_STATE_OBJECT_0054
+title: D3D12DDIARG_CREATE_STATE_OBJECT_0054 (d3d12umddi.h)
 description: Arguments used in the CreateStateObject callback function to create a state object.
 ms.assetid: 7d270c05-641d-44a4-b688-2c3a1c25bd6d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATE_STATE_OBJECT_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_CREATE_STATE_OBJECT_0054
+- D3D12DDIARG_CREATE_STATE_OBJECT_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

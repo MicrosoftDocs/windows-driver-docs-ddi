@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocument.GetThumbnail
-title: IXpsDocument::GetThumbnail
+title: IXpsDocument::GetThumbnail (filterpipeline.h)
 description: The GetThumbnail method gets the document thumbnail object.
 old-location: print\ixpsdocument_getthumbnail.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocument.GetThumbnail
+- IXpsDocument.GetThumbnail
 product:
 - Windows
 targetos: Windows

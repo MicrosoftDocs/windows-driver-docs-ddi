@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
-title: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function
+title: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function (sercx.h)
 description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function initializes a SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure.
 old-location: serports\sercx2_system_dma_receive_config_init.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
+- SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

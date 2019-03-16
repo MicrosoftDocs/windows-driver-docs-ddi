@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WritePhysicalWithFlags
-title: WritePhysicalWithFlags function
+title: WritePhysicalWithFlags function (wdbgexts.h)
 description: The WritePhysicalWithFlags function writes to physical memory.
 old-location: debugger\writephysicalwithflags.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WritePhysicalWithFlags
+- WritePhysicalWithFlags
 product:
 - Windows
 targetos: Windows

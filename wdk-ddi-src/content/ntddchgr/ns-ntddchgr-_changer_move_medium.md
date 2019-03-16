@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_MOVE_MEDIUM
-title: "_CHANGER_MOVE_MEDIUM"
+title: _CHANGER_MOVE_MEDIUM (ntddchgr.h)
 description: The CHANGER_MOVE_MEDIUM structure is used in conjunction with the IOCTL_CHANGER_MOVE_MEDIUM request to move a piece of media from a source element to a destination.
 old-location: storage\changer_move_medium.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_MOVE_MEDIUM
+- CHANGER_MOVE_MEDIUM
 product:
 - Windows
 targetos: Windows

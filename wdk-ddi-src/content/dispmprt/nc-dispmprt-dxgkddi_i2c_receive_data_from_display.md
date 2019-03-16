@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY
-title: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY
+title: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY (dispmprt.h)
 description: The DxgkDdiI2CReceiveDataFromDisplay returns data received from an I2C device in a monitor.
 old-location: display\dxgkddii2creceivedatafromdisplay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiI2CReceiveDataFromDisplay
+- DxgkDdiI2CReceiveDataFromDisplay
 product:
 - Windows
 targetos: Windows

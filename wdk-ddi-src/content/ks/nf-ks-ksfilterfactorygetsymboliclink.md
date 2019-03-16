@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetSymbolicLink
-title: KsFilterFactoryGetSymbolicLink function
+title: KsFilterFactoryGetSymbolicLink function (ks.h)
 description: The KsFilterFactoryGetSymbolicLink function returns the symbolic link associated with a given filter factory.
 old-location: stream\ksfilterfactorygetsymboliclink.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterFactoryGetSymbolicLink
+- KsFilterFactoryGetSymbolicLink
 product:
 - Windows
 targetos: Windows

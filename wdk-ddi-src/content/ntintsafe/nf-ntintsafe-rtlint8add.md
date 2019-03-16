@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8Add
-title: RtlInt8Add function
+title: RtlInt8Add function (ntintsafe.h)
 description: Adds two values of type INT8.
 old-location: kernel\rtlint8add.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlInt8Add
+- RtlInt8Add
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortDeleteEvent
-title: VideoPortDeleteEvent function
+title: VideoPortDeleteEvent function (video.h)
 description: The VideoPortDeleteEvent function deletes the specified event object.
 old-location: display\videoportdeleteevent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortDeleteEvent
+- VideoPortDeleteEvent
 product:
 - Windows
 targetos: Windows

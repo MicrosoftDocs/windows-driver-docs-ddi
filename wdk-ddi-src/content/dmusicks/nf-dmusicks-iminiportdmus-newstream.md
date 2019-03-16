@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IMiniportDMus.NewStream
-title: IMiniportDMus::NewStream
+title: IMiniportDMus::NewStream (dmusicks.h)
 description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IMiniportDMus.NewStream
+- IMiniportDMus.NewStream
 product:
 - Windows
 targetos: Windows

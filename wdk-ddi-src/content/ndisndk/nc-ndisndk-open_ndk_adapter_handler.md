@@ -1,6 +1,6 @@
 ---
 UID: NC:ndisndk.OPEN_NDK_ADAPTER_HANDLER
-title: OPEN_NDK_ADAPTER_HANDLER
+title: OPEN_NDK_ADAPTER_HANDLER (ndisndk.h)
 description: The OpenNDKAdapterHandler (OPEN_NDK_ADAPTER_HANDLER) function opens an NDK adapter instance on an NDK-capable NDIS miniport adapter.
 old-location: netvista\open_ndk_adapter_handler.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndisndk.h
+- ndisndk.h
 api_name:
--	OpenNdkAdapterHandler
+- OpenNdkAdapterHandler
 product:
 - Windows
 targetos: Windows

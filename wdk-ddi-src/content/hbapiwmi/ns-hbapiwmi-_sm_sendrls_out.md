@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRLS_OUT
-title: "_SM_SendRLS_OUT"
+title: _SM_SendRLS_OUT (hbapiwmi.h)
 description: The SM_SendRLS_OUT structure is used to receive output parameters from the SM_SendRLS method.
 old-location: storage\sm_sendrls_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendRLS_OUT
+- SM_SendRLS_OUT
 product:
 - Windows
 targetos: Windows

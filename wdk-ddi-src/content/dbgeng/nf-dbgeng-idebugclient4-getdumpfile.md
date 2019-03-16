@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetDumpFile
-title: IDebugClient4::GetDumpFile
+title: IDebugClient4::GetDumpFile (dbgeng.h)
 description: The GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient4.GetDumpFile
--	IDebugClient5.GetDumpFile
+- IDebugClient4.GetDumpFile
+- IDebugClient5.GetDumpFile
 product:
 - Windows
 targetos: Windows

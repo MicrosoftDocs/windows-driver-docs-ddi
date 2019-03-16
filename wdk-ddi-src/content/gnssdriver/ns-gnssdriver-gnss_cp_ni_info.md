@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_30
-title: GNSS_CP_NI_INFO
+title: GNSS_CP_NI_INFO (gnssdriver.h)
 description: This structure contains CP NI information.
 old-location: gnss\gnss_cp_ni_info.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_CP_NI_INFO
+- GNSS_CP_NI_INFO
 product:
 - Windows
 targetos: Windows

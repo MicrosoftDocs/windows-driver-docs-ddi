@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_VOLUME_PROPERTIES
-title: "_FLT_VOLUME_PROPERTIES"
+title: _FLT_VOLUME_PROPERTIES (fltkernel.h)
 description: The FLT_VOLUME_PROPERTIES structure is passed as a parameter to FltGetVolumeProperties.
 old-location: ifsk\flt_volume_properties.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_VOLUME_PROPERTIES
+- FLT_VOLUME_PROPERTIES
 product:
 - Windows
 targetos: Windows

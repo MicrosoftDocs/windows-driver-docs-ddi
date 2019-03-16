@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_CONTEXT
-title: "_NET_BUFFER_LIST_CONTEXT"
+title: _NET_BUFFER_LIST_CONTEXT (ndis.h)
 description: The NET_BUFFER_LIST_CONTEXT structure stores context information for a NET_BUFFER_LIST structure.
 old-location: netvista\net_buffer_list_context.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER_LIST_CONTEXT
+- NET_BUFFER_LIST_CONTEXT
 product:
 - Windows
 targetos: Windows

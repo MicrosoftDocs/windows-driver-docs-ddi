@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DISCARDCONTENTFLAGS
-title: "_DXGK_DISCARDCONTENTFLAGS"
+title: _DXGK_DISCARDCONTENTFLAGS (d3dkmddi.h)
 description: The DXGK_DISCARDCONTENTFLAGS structure identifies the type of discard-content operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_discardcontentflags.htm
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_DISCARDCONTENTFLAGS
+- DXGK_DISCARDCONTENTFLAGS
 product:
 - Windows
 targetos: Windows

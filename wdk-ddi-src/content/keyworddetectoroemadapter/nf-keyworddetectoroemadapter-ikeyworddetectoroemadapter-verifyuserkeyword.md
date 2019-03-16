@@ -1,6 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.VerifyUserKeyword
-title: IKeywordDetectorOemAdapter::VerifyUserKeyword
+title: IKeywordDetectorOemAdapter::VerifyUserKeyword (keyworddetectoroemadapter.h)
 description: The VerifyUserKeyword method is used by the training user experience to verify that one instance of a spoken utterance, captured during training, matches a predefined keyword within some tolerance.
 old-location: audio\ikeyworddetectoroemadapter_verifyuserkeyword.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	IKeywordDetectorOemAdapter.VerifyUserKeyword
+- IKeywordDetectorOemAdapter.VerifyUserKeyword
 product:
 - Windows
 targetos: Windows

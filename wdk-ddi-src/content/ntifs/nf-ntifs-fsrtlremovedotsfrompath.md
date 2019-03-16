@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemoveDotsFromPath
-title: FsRtlRemoveDotsFromPath function
+title: FsRtlRemoveDotsFromPath function (ntifs.h)
 description: The FsRtlRemoveDotsFromPath routine removes unnecessary occurrences of '.' and '..' from the specified path.
 old-location: ifsk\fsrtlremovedotsfrompath.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlRemoveDotsFromPath
+- FsRtlRemoveDotsFromPath
 product:
 - Windows
 targetos: Windows

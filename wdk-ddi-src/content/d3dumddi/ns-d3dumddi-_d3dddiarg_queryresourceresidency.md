@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_QUERYRESOURCERESIDENCY
-title: "_D3DDDIARG_QUERYRESOURCERESIDENCY"
+title: _D3DDDIARG_QUERYRESOURCERESIDENCY (d3dumddi.h)
 description: The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the QueryResourceResidency function.
 old-location: display\d3dddiarg_queryresourceresidency.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_QUERYRESOURCERESIDENCY
+- D3DDDIARG_QUERYRESOURCERESIDENCY
 product:
 - Windows
 targetos: Windows

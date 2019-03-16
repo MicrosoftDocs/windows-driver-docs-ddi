@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_NOTIFICATION_ENABLE_COMMAND
-title: _UCSI_SET_NOTIFICATION_ENABLE_COMMAND
+title: _UCSI_SET_NOTIFICATION_ENABLE_COMMAND (ucmucsispec.h)
 description: Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.
 ms.assetid: bb43d333-b0a4-4c5a-9932-cdae5da2ce61
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_NOTIFICATION_ENABLE_COMMAND, *PUCSI_SET_NOTIFICATION_ENABLE_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_NOTIFICATION_ENABLE_COMMAND
-product: Windows
+- _UCSI_SET_NOTIFICATION_ENABLE_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

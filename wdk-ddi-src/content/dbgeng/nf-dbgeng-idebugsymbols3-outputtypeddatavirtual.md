@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.OutputTypedDataVirtual
-title: IDebugSymbols3::OutputTypedDataVirtual
+title: IDebugSymbols3::OutputTypedDataVirtual (dbgeng.h)
 description: The OutputTypedDataVirtual method formats the contents of a variable in the target's virtual memory, and then sends this to the output callbacks.
 old-location: debugger\outputtypeddatavirtual.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.OutputTypedDataVirtual
--	IDebugSymbols2.OutputTypedDataVirtual
--	IDebugSymbols3.OutputTypedDataVirtual
+- IDebugSymbols.OutputTypedDataVirtual
+- IDebugSymbols2.OutputTypedDataVirtual
+- IDebugSymbols3.OutputTypedDataVirtual
 product:
 - Windows
 targetos: Windows

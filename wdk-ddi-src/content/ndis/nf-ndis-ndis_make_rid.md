@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_MAKE_RID
-title: NDIS_MAKE_RID macro
+title: NDIS_MAKE_RID macro (ndis.h)
 description: The NDIS_MAKE_RID macro builds an NDIS_VF_RID value from PCI Express (PCIe) segment, bus, device, and function numbers. The miniport driver uses this value as a PCIe Requestor ID (RID) for a network adapter's PCIe Virtual Function (VF).
 tech.root: netvista
 ms.assetid: 54c60b0f-619c-45e9-bc2f-0598f915dca3
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_MAKE_RID
+- NDIS_MAKE_RID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

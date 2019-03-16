@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusicks._DMUS_KERNEL_EVENT
-title: "_DMUS_KERNEL_EVENT"
+title: _DMUS_KERNEL_EVENT (dmusicks.h)
 description: The DMUS_KERNEL_EVENT structure is used to package time-stamped music events.
 old-location: audio\dmus_kernel_event.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	DMUS_KERNEL_EVENT
+- DMUS_KERNEL_EVENT
 product:
 - Windows
 targetos: Windows

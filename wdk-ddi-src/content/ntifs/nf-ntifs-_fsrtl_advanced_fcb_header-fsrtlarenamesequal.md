@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreNamesEqual
-title: FsRtlAreNamesEqual function
+title: FsRtlAreNamesEqual function (ntifs.h)
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAreNamesEqual
+- FsRtlAreNamesEqual
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

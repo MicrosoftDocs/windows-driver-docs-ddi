@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCurrentProcessorIndex
-title: NdisCurrentProcessorIndex function
+title: NdisCurrentProcessorIndex function (ndis.h)
 description: The NdisCurrentProcessorIndex function returns the system-assigned number of the current processor that the caller is running on.
 old-location: netvista\ndiscurrentprocessorindex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: ">= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCurrentProcessorIndex
+- NdisCurrentProcessorIndex
 product:
 - Windows
 targetos: Windows

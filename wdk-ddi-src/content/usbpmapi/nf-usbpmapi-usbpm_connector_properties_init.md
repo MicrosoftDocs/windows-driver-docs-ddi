@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_CONNECTOR_PROPERTIES_INIT
-title: USBPM_CONNECTOR_PROPERTIES_INIT function
+title: USBPM_CONNECTOR_PROPERTIES_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_CONNECTOR_PROPERTIES** structure. 
 ms.assetid: 99379e0c-8bf7-4972-9883-7da58820b1a1
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_CONNECTOR_PROPERTIES_INIT
-product: Windows
+- USBPM_CONNECTOR_PROPERTIES_INIT
+product:
+- Windows
 targetos: Windows
 
 

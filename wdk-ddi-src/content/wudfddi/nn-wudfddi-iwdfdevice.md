@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDevice
-title: IWDFDevice
+title: IWDFDevice (wudfddi.h)
 description: The IWDFDevice interface exposes a device object, which is a representation of a device on the system.
 old-location: wdf\iwdfdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice
+- IWDFDevice
 product:
 - Windows
 targetos: Windows

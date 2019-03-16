@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_CancelBulkReadWrite
-title: PFNUSBCAMD_CancelBulkReadWrite
+title: PFNUSBCAMD_CancelBulkReadWrite (usbcamdi.h)
 description: The USBCAMD_CancelBulkReadWrite service cancels a pending bulk read or write request.
 old-location: stream\usbcamd_cancelbulkreadwrite.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_CancelBulkReadWrite
+- USBCAMD_CancelBulkReadWrite
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MapSecurityError
-title: MapSecurityError function
+title: MapSecurityError function (ntifs.h)
 description: The MapSecurityError function maps a security interface SECURITY_STATUS status code to a corresponding NSTATUS status code.
 old-location: ifsk\mapsecurityerror.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MapSecurityError
+- MapSecurityError
 product:
 - Windows
 targetos: Windows

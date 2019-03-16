@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MEMORY_TRANSFER_DIRECTION
-title: "_DXGK_MEMORY_TRANSFER_DIRECTION"
+title: _DXGK_MEMORY_TRANSFER_DIRECTION (d3dkmddi.h)
 description: DXGK_MEMORY_TRANSFER_DIRECTION is used as part of an allocation transfer operation to specify the direction of the transfer.
 old-location: display\dxgk_memory_transfer_direction.htm
 ms.assetid: A45411DF-AD08-4349-A134-091343E7989E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MEMORY_TRANSFER_DIRECTION
+- DXGK_MEMORY_TRANSFER_DIRECTION
 product:
 - Windows
 targetos: Windows

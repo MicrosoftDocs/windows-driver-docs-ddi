@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_DESCRIPTION
-title: IDDCX_MONITOR_DESCRIPTION
+title: IDDCX_MONITOR_DESCRIPTION (iddcx.h)
 description: Gives information about the current monitor description.
 old-location: display\iddcx_monitor_description.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_MONITOR_DESCRIPTION
+- IDDCX_MONITOR_DESCRIPTION
 product:
 - Windows
 targetos: Windows

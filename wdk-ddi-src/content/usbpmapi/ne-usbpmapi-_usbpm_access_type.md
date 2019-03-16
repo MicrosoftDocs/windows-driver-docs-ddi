@@ -1,6 +1,6 @@
 ---
 UID: NE:usbpmapi._USBPM_ACCESS_TYPE
-title: _USBPM_ACCESS_TYPE
+title: _USBPM_ACCESS_TYPE (usbpmapi.h)
 description: Defines the access types for calling Policy Manager functions.
 ms.assetid: 16469a5c-1c6a-4fa3-9189-17ba7d51291d
 ms.date: 09/30/2018
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_ACCESS_TYPE
-product: Windows
+- USBPM_ACCESS_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

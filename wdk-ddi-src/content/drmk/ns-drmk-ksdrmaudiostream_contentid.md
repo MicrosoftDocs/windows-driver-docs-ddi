@@ -1,6 +1,6 @@
 ---
 UID: NS:drmk.__unnamed_struct_0
-title: KSDRMAUDIOSTREAM_CONTENTID
+title: KSDRMAUDIOSTREAM_CONTENTID (drmk.h)
 description: The KSDRMAUDIOSTREAM_CONTENTID structure specifies the DRM content ID and DRM content rights for a KSPROPERTY_DRMAUDIOSTREAM_CONTENTIDset-property request.
 old-location: audio\ksdrmaudiostream_contentid.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	KSDRMAUDIOSTREAM_CONTENTID
+- KSDRMAUDIOSTREAM_CONTENTID
 product:
 - Windows
 targetos: Windows

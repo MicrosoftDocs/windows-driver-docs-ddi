@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPOVERLAY
-title: "_D3DKMT_FLIPOVERLAY"
+title: _D3DKMT_FLIPOVERLAY (d3dkmthk.h)
 description: The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\d3dkmt_flipoverlay.htm
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_FLIPOVERLAY
+- D3DKMT_FLIPOVERLAY
 product:
 - Windows
 targetos: Windows

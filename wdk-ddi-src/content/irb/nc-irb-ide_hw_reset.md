@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_HW_RESET
-title: IDE_HW_RESET
+title: IDE_HW_RESET (irb.h)
 description: The IdeHwReset miniport driver routine resets the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwreset.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IdeHwReset
+- IdeHwReset
 product:
 - Windows
 targetos: Windows

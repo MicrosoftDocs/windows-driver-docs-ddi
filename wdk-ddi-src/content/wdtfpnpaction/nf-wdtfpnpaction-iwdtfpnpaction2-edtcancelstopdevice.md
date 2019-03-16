@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTCancelStopDevice
-title: IWDTFPNPAction2::EDTCancelStopDevice
+title: IWDTFPNPAction2::EDTCancelStopDevice (wdtfpnpaction.h)
 description: Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpaction2_edtcancelstopdevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.EDTCancelStopDevice
+- IWDTFPNPAction2.EDTCancelStopDevice
 product:
 - Windows
 targetos: Windows

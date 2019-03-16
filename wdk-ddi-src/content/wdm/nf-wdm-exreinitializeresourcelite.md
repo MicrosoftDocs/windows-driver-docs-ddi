@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReinitializeResourceLite
-title: ExReinitializeResourceLite function
+title: ExReinitializeResourceLite function (wdm.h)
 description: The ExReinitializeResourceLite routine reinitializes an existing resource variable.
 old-location: kernel\exreinitializeresourcelite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExReinitializeResourceLite
+- ExReinitializeResourceLite
 product:
 - Windows
 targetos: Windows

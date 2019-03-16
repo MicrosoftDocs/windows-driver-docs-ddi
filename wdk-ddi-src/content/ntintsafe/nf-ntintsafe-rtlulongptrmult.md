@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrMult
-title: RtlULongPtrMult function
+title: RtlULongPtrMult function (ntintsafe.h)
 description: Multiplies one value of type ULONG_PTR by another.
 old-location: kernel\rtlulongptrmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlULongPtrMult
+- RtlULongPtrMult
 product:
 - Windows
 targetos: Windows

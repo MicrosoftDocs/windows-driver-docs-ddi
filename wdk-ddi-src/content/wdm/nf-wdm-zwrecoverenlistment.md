@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwRecoverEnlistment
-title: ZwRecoverEnlistment function
+title: ZwRecoverEnlistment function (wdm.h)
 description: The ZwRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrecoverenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwRecoverEnlistment
--	NtRecoverEnlistment
+- ZwRecoverEnlistment
+- NtRecoverEnlistment
 product:
 - Windows
 targetos: Windows

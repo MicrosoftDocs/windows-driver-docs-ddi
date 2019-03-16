@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_OUTPUT_BUFFER_V1
-title: "_ACPI_EVAL_OUTPUT_BUFFER_V1"
+title: _ACPI_EVAL_OUTPUT_BUFFER_V1 (acpiioct.h)
 description: The ACPI_EVAL_OUTPUT_BUFFER structure contains output arguments from an ACPI control method.
 old-location: acpi\acpi_eval_output_buffer.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_EVAL_OUTPUT_BUFFER_V1
+- ACPI_EVAL_OUTPUT_BUFFER_V1
 product:
 - Windows
 targetos: Windows

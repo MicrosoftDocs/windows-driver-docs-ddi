@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._FAULT_INFORMATION_ARCH
-title: _FAULT_INFORMATION_ARCH
+title: _FAULT_INFORMATION_ARCH (wdm.h)
 description: Defines values for type of system architecture.
 ms.assetid: cee58e78-b1d7-471f-80e4-c1aa4e5189a5
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_FAULT_INFORMATION_ARCH
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _FAULT_INFORMATION_ARCH
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -33,8 +33,7 @@ targetos: Windows
 
 ## -description
 
-Defines values for type of system architecture specified in the [_IOMMU_DOMAIN_FAULT_HANDLER_](nc-wdm-iommu_domain_fault_handler.md) callback function.
-
+Specified in the [_FAULT_INFORMATION](ns-wdm-_fault_information.md) structure.
 
 ## -enum-fields
 
@@ -47,4 +46,4 @@ ARM64 architecture.
 ## -remarks
 
 ## -see-also
-[_IOMMU_DOMAIN_FAULT_HANDLER_](nc-wdm-iommu_domain_fault_handler.md)
+[_FAULT_INFORMATION](ns-wdm-_fault_information.md)

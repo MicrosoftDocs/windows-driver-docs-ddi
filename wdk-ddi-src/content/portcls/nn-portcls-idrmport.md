@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IDrmPort
-title: IDrmPort
+title: IDrmPort (portcls.h)
 description: The IDrmPort interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see Digital Rights Management).
 old-location: audio\idrmport.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IDrmPort
+- IDrmPort
 product:
 - Windows
 targetos: Windows

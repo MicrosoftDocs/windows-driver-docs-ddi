@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortQuerySystemTime
-title: ScsiPortQuerySystemTime function
+title: ScsiPortQuerySystemTime function (srb.h)
 description: The ScsiPortQuerySystemTime routine obtains the current system time.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportquerysystemtime.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortQuerySystemTime
+- ScsiPortQuerySystemTime
 product:
 - Windows
 targetos: Windows

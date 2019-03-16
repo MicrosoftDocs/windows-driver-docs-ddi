@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.ExitDispatch
-title: IDebugClient4::ExitDispatch
+title: IDebugClient4::ExitDispatch (dbgeng.h)
 description: The ExitDispatch method causes the DispatchCallbacks method to return.
 old-location: debugger\exitdispatch.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.ExitDispatch
--	IDebugClient2.ExitDispatch
--	IDebugClient3.ExitDispatch
--	IDebugClient4.ExitDispatch
--	IDebugClient5.ExitDispatch
+- IDebugClient.ExitDispatch
+- IDebugClient2.ExitDispatch
+- IDebugClient3.ExitDispatch
+- IDebugClient4.ExitDispatch
+- IDebugClient5.ExitDispatch
 product:
 - Windows
 targetos: Windows

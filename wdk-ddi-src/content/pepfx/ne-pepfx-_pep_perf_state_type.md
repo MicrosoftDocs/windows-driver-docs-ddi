@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_PERF_STATE_TYPE
-title: "_PEP_PERF_STATE_TYPE"
+title: _PEP_PERF_STATE_TYPE (pepfx.h)
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PERF_STATE_TYPE
+- PEP_PERF_STATE_TYPE
 product:
 - Windows
 targetos: Windows

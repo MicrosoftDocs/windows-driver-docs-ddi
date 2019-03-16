@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_OPEN_ECP_CONTEXT
-title: "_NETWORK_OPEN_ECP_CONTEXT"
+title: _NETWORK_OPEN_ECP_CONTEXT (ntifs.h)
 description: The NETWORK_OPEN_ECP_CONTEXT structure is used to interpret network ECP contexts on files.
 old-location: ifsk\network_open_ecp_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	NETWORK_OPEN_ECP_CONTEXT
+- NETWORK_OPEN_ECP_CONTEXT
 product:
 - Windows
 targetos: Windows

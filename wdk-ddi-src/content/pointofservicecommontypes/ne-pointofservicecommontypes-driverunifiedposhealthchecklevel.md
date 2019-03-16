@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosHealthCheckLevel
-title: DriverUnifiedPosHealthCheckLevel
+title: DriverUnifiedPosHealthCheckLevel (pointofservicecommontypes.h)
 description: This enumeration indicates the type of health check to be performed when CheckHealthAsync is called on a POS device.
 old-location: pos\unifiedposhealthchecklevel.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverUnifiedPosHealthCheckLevel
+- DriverUnifiedPosHealthCheckLevel
 product:
 - Windows
 targetos: Windows

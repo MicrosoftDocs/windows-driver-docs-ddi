@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperationEvent.Completed
-title: IPrintSchemaAsyncOperationEvent::Completed
+title: IPrintSchemaAsyncOperationEvent::Completed (printerextension.h)
 description: Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.
 old-location: print\iprintschemaasyncoperationevent_completed.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaAsyncOperationEvent.Completed
+- IPrintSchemaAsyncOperationEvent.Completed
 product:
 - Windows
 targetos: Windows

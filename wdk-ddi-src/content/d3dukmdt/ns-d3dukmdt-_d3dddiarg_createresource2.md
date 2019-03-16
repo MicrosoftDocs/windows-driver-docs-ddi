@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIARG_CREATERESOURCE2
-title: "_D3DDDIARG_CREATERESOURCE2"
+title: _D3DDDIARG_CREATERESOURCE2 (d3dukmdt.h)
 description: Contains information for creating a resource. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3dddiarg_createresource2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dukmdt.h
+- D3dukmdt.h
 api_name:
--	D3DDDIARG_CREATERESOURCE2
+- D3DDDIARG_CREATERESOURCE2
 product:
 - Windows
 targetos: Windows

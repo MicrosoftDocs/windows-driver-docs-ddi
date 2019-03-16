@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Id
-title: IPrintJob::get_Id
+title: IPrintJob::get_Id (printerextension.h)
 description: Gets the print job identifier (ID).
 old-location: print\iprintjob_id.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.Id
--	IPrintJob.get_Id
+- IPrintJob.Id
+- IPrintJob.get_Id
 product:
 - Windows
 targetos: Windows

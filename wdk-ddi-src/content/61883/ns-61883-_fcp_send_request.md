@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_SEND_REQUEST
-title: "_FCP_SEND_REQUEST"
+title: _FCP_SEND_REQUEST (61883.h)
 description: This structure is used for a send request.
 old-location: ieee\fcp_send_request.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	FCP_SEND_REQUEST
+- FCP_SEND_REQUEST
 product:
 - Windows
 targetos: Windows

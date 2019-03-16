@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT
-title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT callback function inserts a wait for the specified synchronization objects in the specified context stream.
 ms.assetid: 9e4e8e4e-e326-4571-aee1-ad731b65d53c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT
+- PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

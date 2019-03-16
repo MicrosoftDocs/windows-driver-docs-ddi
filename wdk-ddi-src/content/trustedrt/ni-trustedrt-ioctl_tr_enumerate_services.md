@@ -1,6 +1,6 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_ENUMERATE_SERVICES
-title: IOCTL_TR_ENUMERATE_SERVICES
+title: IOCTL_TR_ENUMERATE_SERVICES (trustedrt.h)
 description: 
 ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedrt.h
+- trustedrt.h
 api_name: 
--	IOCTL_TR_ENUMERATE_SERVICES
+- IOCTL_TR_ENUMERATE_SERVICES
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

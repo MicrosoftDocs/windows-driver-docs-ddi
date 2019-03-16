@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CLIPPEDTRIANGLEFAN
-title: "_D3DHAL_CLIPPEDTRIANGLEFAN"
+title: _D3DHAL_CLIPPEDTRIANGLEFAN (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_clippedtrianglefan.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_CLIPPEDTRIANGLEFAN
+- D3DHAL_CLIPPEDTRIANGLEFAN
 product:
 - Windows
 targetos: Windows

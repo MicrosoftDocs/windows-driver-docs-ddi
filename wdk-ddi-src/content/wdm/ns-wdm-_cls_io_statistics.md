@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_IO_STATISTICS
-title: "_CLS_IO_STATISTICS"
+title: _CLS_IO_STATISTICS (wdm.h)
 description: The CLFS_IO_STATISTICS structure holds I/O statistics data for a Common Log File System (CLFS) log.
 old-location: kernel\clfs_io_statistics.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CLS_IO_STATISTICS
+- CLS_IO_STATISTICS
 product:
 - Windows
 targetos: Windows

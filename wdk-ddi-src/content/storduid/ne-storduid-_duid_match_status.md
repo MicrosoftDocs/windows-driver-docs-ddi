@@ -1,6 +1,6 @@
 ---
 UID: NE:storduid._DUID_MATCH_STATUS
-title: "_DUID_MATCH_STATUS"
+title: _DUID_MATCH_STATUS (storduid.h)
 description: The DUID_MATCH_STATUS enumeration lists the status values that the CompareStorageDuids routine returns.
 old-location: storage\duid_match_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storduid.h
+- storduid.h
 api_name:
--	DUID_MATCH_STATUS
+- DUID_MATCH_STATUS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IFixedDocumentSequence
-title: IFixedDocumentSequence
+title: IFixedDocumentSequence (filterpipeline.h)
 description: The IFixedDocumentSequence interface represents the fixed document sequence for an XPS document.
 old-location: print\ifixeddocumentsequence.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedDocumentSequence
+- IFixedDocumentSequence
 product:
 - Windows
 targetos: Windows

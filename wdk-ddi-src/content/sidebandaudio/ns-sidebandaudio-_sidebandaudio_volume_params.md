@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_VOLUME_PARAMS
-title: _SIDEBANDAUDIO_VOLUME_PARAMS
+title: _SIDEBANDAUDIO_VOLUME_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and volume value.
 ms.assetid: f84929d3-f908-4686-83e7-f73e61912975
 ms.date: 10/05/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_VOLUME_PARAMS, *PSIDEBANDAUDIO_VOLUME_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_VOLUME_PARAMS
-product: Windows
+- _SIDEBANDAUDIO_VOLUME_PARAMS
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

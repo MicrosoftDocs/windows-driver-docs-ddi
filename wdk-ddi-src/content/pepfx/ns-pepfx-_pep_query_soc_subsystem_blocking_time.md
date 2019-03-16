@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
-title: "_PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
+title: _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME (pepfx.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem_blocking_time.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
+- PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
 product:
 - Windows
 targetos: Windows

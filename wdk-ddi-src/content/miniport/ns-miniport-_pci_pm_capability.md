@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_PM_CAPABILITY
-title: "_PCI_PM_CAPABILITY"
+title: _PCI_PM_CAPABILITY (miniport.h)
 description: The PCI_PM_CAPABILITY structure reports the power management capabilities of the device.
 old-location: pci\pci_pm_capability.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_PM_CAPABILITY
+- PCI_PM_CAPABILITY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_EVICTION_CRITERIA
-title: _D3DKMT_EVICTION_CRITERIA
+title: _D3DKMT_EVICTION_CRITERIA (d3dkmthk.h)
 description: The eviction criteria.
 ms.assetid: 429c5cb4-02f5-4634-b730-6ada89f4e5bb
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_EVICTION_CRITERIA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_EVICTION_CRITERIA
+- _D3DKMT_EVICTION_CRITERIA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

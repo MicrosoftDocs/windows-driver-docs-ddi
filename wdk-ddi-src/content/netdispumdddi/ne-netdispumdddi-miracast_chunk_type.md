@@ -1,6 +1,6 @@
 ---
 UID: NE:netdispumdddi.__unnamed_enum_3
-title: MIRACAST_CHUNK_TYPE
+title: MIRACAST_CHUNK_TYPE (netdispumdddi.h)
 description: Specifies the types of wireless display (Miracast) chunk info that is to be processed.
 old-location: display\miracast_chunk_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_CHUNK_TYPE
+- MIRACAST_CHUNK_TYPE
 product:
 - Windows
 targetos: Windows

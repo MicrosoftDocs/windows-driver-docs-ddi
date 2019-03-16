@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RECOMMENDVIDPNTOPOLOGY
-title: "_DXGKARG_RECOMMENDVIDPNTOPOLOGY"
+title: _DXGKARG_RECOMMENDVIDPNTOPOLOGY (d3dkmddi.h)
 description: The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgkarg_recommendvidpntopology.htm
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_RECOMMENDVIDPNTOPOLOGY
+- DXGKARG_RECOMMENDVIDPNTOPOLOGY
 product:
 - Windows
 targetos: Windows

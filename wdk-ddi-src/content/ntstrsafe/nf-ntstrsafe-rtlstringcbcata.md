@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatA
-title: RtlStringCbCatA function
+title: RtlStringCbCatA function (ntstrsafe.h)
 description: The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
 old-location: kernel\rtlstringcbcat.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCbCatW
--	RtlStringCbCatA
--	RtlStringCbCatW
+- RtlStringCbCatW
+- RtlStringCbCatA
+- RtlStringCbCatW
 product:
 - Windows
 targetos: Windows

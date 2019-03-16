@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.__RxFillAndInstallFastIoDispatch
-title: "__RxFillAndInstallFastIoDispatch function"
+title: __RxFillAndInstallFastIoDispatch function (mrx.h)
 description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 old-location: ifsk\__rxfillandinstallfastiodispatch.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	__RxFillAndInstallFastIoDispatch
+- __RxFillAndInstallFastIoDispatch
 product:
 - Windows
 targetos: Windows

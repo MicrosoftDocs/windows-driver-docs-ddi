@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATERASTERIZERSTATE
-title: PFND3D10DDI_CREATERASTERIZERSTATE
+title: PFND3D10DDI_CREATERASTERIZERSTATE (d3d10umddi.h)
 description: The CreateRasterizerState function creates a rasterizer state.
 old-location: display\createrasterizerstate.htm
 ms.assetid: 4507b92e-2437-4f90-b527-e06773ca1e08
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateRasterizerState
+- CreateRasterizerState
 product:
 - Windows
 targetos: Windows

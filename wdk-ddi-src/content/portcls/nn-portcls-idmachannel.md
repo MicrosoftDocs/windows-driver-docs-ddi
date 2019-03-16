@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IDmaChannel
-title: IDmaChannel
+title: IDmaChannel (portcls.h)
 description: The IDmaChannel interface provides an abstraction of a DMA channel and its associated DMA buffer and usage parameters.
 old-location: audio\idmachannel.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IDmaChannel
+- IDmaChannel
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYFSEBLOCK
-title: PFND3DKMT_QUERYFSEBLOCK
+title: PFND3DKMT_QUERYFSEBLOCK (d3dkmthk.h)
 description: The PFND3DKMT_QUERYFSEBLOCK callback function queries FSE blocks.
 ms.assetid: 699577c3-0e0d-4518-88e7-40a6992a41ce
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_QUERYFSEBLOCK
+- PFND3DKMT_QUERYFSEBLOCK
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

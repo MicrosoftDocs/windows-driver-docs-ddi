@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetHypervisorInfo
-title: NdisGetHypervisorInfo function
+title: NdisGetHypervisorInfo function (ndis.h)
 description: Important  Starting with Windows 10 Version 1703, NdisGetHypervisorInfo is deprecated and should not be used.
 old-location: netvista\ndisgethypervisorinfo.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetHypervisorInfo
+- NdisGetHypervisorInfo
 product:
 - Windows
 targetos: Windows

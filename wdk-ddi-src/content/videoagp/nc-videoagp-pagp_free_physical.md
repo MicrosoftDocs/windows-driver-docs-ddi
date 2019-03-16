@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_FREE_PHYSICAL
-title: PAGP_FREE_PHYSICAL
+title: PAGP_FREE_PHYSICAL (videoagp.h)
 description: The AgpFreePhysical function frees system memory that was committed by a previous call to AgpCommitPhysical.
 old-location: display\agpfreephysical.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpFreePhysical
+- AgpFreePhysical
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POWER_MANAGEMENT
-title: "_VIDEO_POWER_MANAGEMENT"
+title: _VIDEO_POWER_MANAGEMENT (ntddvdeo.h)
 description: The VIDEO_POWER_MANAGEMENT structure contains information required by the miniport driver to perform power management.
 old-location: display\video_power_management.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_POWER_MANAGEMENT
+- VIDEO_POWER_MANAGEMENT
 product:
 - Windows
 targetos: Windows

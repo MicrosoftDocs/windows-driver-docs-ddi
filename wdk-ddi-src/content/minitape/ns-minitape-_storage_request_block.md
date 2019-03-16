@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._STORAGE_REQUEST_BLOCK
-title: "_STORAGE_REQUEST_BLOCK"
+title: _STORAGE_REQUEST_BLOCK (minitape.h)
 description: The STORAGE_REQUEST_BLOCK is the extended format SCSI Request Block (SRB) structure.
 old-location: storage\storage_request_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STORAGE_REQUEST_BLOCK
+- STORAGE_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

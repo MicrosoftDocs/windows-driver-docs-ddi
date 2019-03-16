@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._POWER_STATE_TYPE
-title: "_POWER_STATE_TYPE"
+title: _POWER_STATE_TYPE (wdm.h)
 description: The POWER_STATE_TYPE enumeration type indicates that a power state value is a system power state or a device power state.
 old-location: kernel\power_state_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	POWER_STATE_TYPE
+- POWER_STATE_TYPE
 product:
 - Windows
 targetos: Windows

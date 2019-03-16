@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDisablePDEV
-title: OEMDisablePDEV function
+title: OEMDisablePDEV function (printoem.h)
 description: OEMDisablePDEV function
 old-location: print\oemdisablepdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDisablePDEV
+- OEMDisablePDEV
 product:
 - Windows
 targetos: Windows

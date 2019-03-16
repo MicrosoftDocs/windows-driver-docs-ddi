@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_PIPE_CONFIGURATION
-title: "_USBSCAN_PIPE_CONFIGURATION"
+title: _USBSCAN_PIPE_CONFIGURATION (usbscan.h)
 description: The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_PIPE_CONFIGURATION.
 old-location: image\usbscan_pipe_configuration.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	USBSCAN_PIPE_CONFIGURATION
+- USBSCAN_PIPE_CONFIGURATION
 product:
 - Windows
 targetos: Windows

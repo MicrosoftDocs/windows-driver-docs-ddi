@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_PORT_INFORMATION
-title: "_PARALLEL_PORT_INFORMATION"
+title: _PARALLEL_PORT_INFORMATION (parallel.h)
 description: The PARALLEL_PORT_INFORMATION structure specifies information about the resources assigned to a parallel port, the capabilities of the parallel port, and pointers to callback routines that a kernel-mode driver can use to operate the parallel port.
 old-location: parports\parallel_port_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_PORT_INFORMATION
+- PARALLEL_PORT_INFORMATION
 product:
 - Windows
 targetos: Windows

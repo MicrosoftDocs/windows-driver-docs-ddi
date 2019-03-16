@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_GETCAPS
-title: PFND3D12DDI_VIDEO_GETCAPS
+title: PFND3D12DDI_VIDEO_GETCAPS (d3d12umddi.h)
 description: The pfnGetCaps callback function defines an entry point for video specific caps.
 old-location: display\pfnd3d12ddi_video_getcaps.htm
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnGetCaps
+- pfnGetCaps
 product:
 - Windows
 targetos: Windows

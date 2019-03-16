@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._REG_NOTIFY_CLASS
-title: "_REG_NOTIFY_CLASS"
+title: _REG_NOTIFY_CLASS (wdm.h)
 description: The REG_NOTIFY_CLASS enumeration type specifies the type of registry operation that the configuration manager is passing to a RegistryCallback routine.
 old-location: kernel\reg_notify_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_NOTIFY_CLASS
+- REG_NOTIFY_CLASS
 product:
 - Windows
 targetos: Windows

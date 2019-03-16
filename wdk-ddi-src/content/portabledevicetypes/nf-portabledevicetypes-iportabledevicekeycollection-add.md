@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.Add
-title: IPortableDeviceKeyCollection::Add
+title: IPortableDeviceKeyCollection::Add (portabledevicetypes.h)
 description: Adds a property key to the collection.
 old-location: wpddk\iportabledevicekeycollection_add.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceKeyCollection.Add
+- IPortableDeviceKeyCollection.Add
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

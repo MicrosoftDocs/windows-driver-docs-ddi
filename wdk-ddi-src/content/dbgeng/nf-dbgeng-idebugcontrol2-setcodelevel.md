@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetCodeLevel
-title: IDebugControl2::SetCodeLevel
+title: IDebugControl2::SetCodeLevel (dbgeng.h)
 description: The SetCodeLevel method sets the current code level and is mainly used when stepping through code.
 old-location: debugger\setcodelevel.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetCodeLevel
--	IDebugControl2.SetCodeLevel
--	IDebugControl3.SetCodeLevel
+- IDebugControl.SetCodeLevel
+- IDebugControl2.SetCodeLevel
+- IDebugControl3.SetCodeLevel
 product:
 - Windows
 targetos: Windows

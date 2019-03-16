@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_GENERIC_OBJECT
-title: "_NDIS_GENERIC_OBJECT"
+title: _NDIS_GENERIC_OBJECT (ndis.h)
 description: The NDIS_GENERIC_OBJECT structure defines a generic object which a software component can use to obtain an NDIS handle.
 old-location: netvista\ndis_generic_object.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_GENERIC_OBJECT
+- NDIS_GENERIC_OBJECT
 product:
 - Windows
 targetos: Windows

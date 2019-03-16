@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_TRANSFERFLAGS
-title: "_DXGK_TRANSFERFLAGS"
+title: _DXGK_TRANSFERFLAGS (d3dkmddi.h)
 description: The DXGK_TRANSFERFLAGS structure identifies the type of transfer operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_transferflags.htm
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_TRANSFERFLAGS
+- DXGK_TRANSFERFLAGS
 product:
 - Windows
 targetos: Windows

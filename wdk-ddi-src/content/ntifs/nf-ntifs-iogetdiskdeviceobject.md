@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetDiskDeviceObject
-title: IoGetDiskDeviceObject function
+title: IoGetDiskDeviceObject function (ntifs.h)
 description: The IoGetDiskDeviceObject routine retrieves a pointer to the disk device object associated with a given file system volume device object.
 old-location: ifsk\iogetdiskdeviceobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDiskDeviceObject
+- IoGetDiskDeviceObject
 product:
 - Windows
 targetos: Windows

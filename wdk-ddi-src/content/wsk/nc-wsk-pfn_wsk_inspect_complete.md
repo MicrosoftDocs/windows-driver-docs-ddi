@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_INSPECT_COMPLETE
-title: PFN_WSK_INSPECT_COMPLETE
+title: PFN_WSK_INSPECT_COMPLETE (wsk.h)
 description: The WskInspectComplete function completes the inspection of a previously pended incoming connection request that was received on a listening socket that has conditional accept mode enabled.
 old-location: netvista\wskinspectcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskInspectComplete
+- WskInspectComplete
 product:
 - Windows
 targetos: Windows

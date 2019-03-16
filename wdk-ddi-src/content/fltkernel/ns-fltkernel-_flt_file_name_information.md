@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_FILE_NAME_INFORMATION
-title: "_FLT_FILE_NAME_INFORMATION"
+title: _FLT_FILE_NAME_INFORMATION (fltkernel.h)
 description: The FLT_FILE_NAME_INFORMATION structure contains file name information.
 old-location: ifsk\flt_file_name_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_FILE_NAME_INFORMATION
+- FLT_FILE_NAME_INFORMATION
 product:
 - Windows
 targetos: Windows

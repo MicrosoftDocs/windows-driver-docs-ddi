@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmPrePrepareComplete
-title: TmPrePrepareComplete function
+title: TmPrePrepareComplete function (wdm.h)
 description: The TmPrePrepareComplete routine notifies KTM that the calling resource manager has finished preliminary preparation of a transaction's data.
 old-location: kernel\tmprepreparecomplete.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmPrePrepareComplete
+- TmPrePrepareComplete
 product:
 - Windows
 targetos: Windows

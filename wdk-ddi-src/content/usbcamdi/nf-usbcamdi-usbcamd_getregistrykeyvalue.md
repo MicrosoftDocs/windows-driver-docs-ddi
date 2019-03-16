@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_GetRegistryKeyValue
-title: USBCAMD_GetRegistryKeyValue function
+title: USBCAMD_GetRegistryKeyValue function (usbcamdi.h)
 description: The USBCAMD_GetRegistryKeyValue function retrieves the device-instance-specific registry key value.
 old-location: stream\usbcamd_getregistrykeyvalue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_GetRegistryKeyValue
+- USBCAMD_GetRegistryKeyValue
 product:
 - Windows
 targetos: Windows

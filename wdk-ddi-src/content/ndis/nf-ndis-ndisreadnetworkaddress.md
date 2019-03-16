@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReadNetworkAddress
-title: NdisReadNetworkAddress function
+title: NdisReadNetworkAddress function (ndis.h)
 description: The NdisReadNetworkAddress function returns the software-configurable network address that was stored in the registry for a NIC when it was installed in the machine.
 old-location: netvista\ndisreadnetworkaddress.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisReadNetworkAddress
+- NdisReadNetworkAddress
 product:
 - Windows
 targetos: Windows

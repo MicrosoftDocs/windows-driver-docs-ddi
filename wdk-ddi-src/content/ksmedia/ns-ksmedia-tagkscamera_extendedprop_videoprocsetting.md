@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
-title: tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+title: tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING is a property payload structure for video processing settings related to white balance, exposure mode, and focus mode.
 old-location: stream\kscamera_extendedprop_videoprocsetting.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
+- KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 product:
 - Windows
 targetos: Windows

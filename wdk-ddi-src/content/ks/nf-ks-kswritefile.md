@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsWriteFile
-title: KsWriteFile function
+title: KsWriteFile function (ks.h)
 description: The KsWriteFile function performs a write against the specified file object.
 old-location: stream\kswritefile.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsWriteFile
+- KsWriteFile
 product:
 - Windows
 targetos: Windows

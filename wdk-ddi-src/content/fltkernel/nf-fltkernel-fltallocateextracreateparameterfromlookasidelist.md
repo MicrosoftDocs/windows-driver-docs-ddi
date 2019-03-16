@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateExtraCreateParameterFromLookasideList
-title: FltAllocateExtraCreateParameterFromLookasideList function
+title: FltAllocateExtraCreateParameterFromLookasideList function (fltkernel.h)
 description: The FltAllocateExtraCreateParameterFromLookasideList routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameterfromlookasidelist.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fltmgr.lib
--	fltmgr.sys
+- fltmgr.lib
+- fltmgr.sys
 api_name:
--	FltAllocateExtraCreateParameterFromLookasideList
+- FltAllocateExtraCreateParameterFromLookasideList
 product:
 - Windows
 targetos: Windows

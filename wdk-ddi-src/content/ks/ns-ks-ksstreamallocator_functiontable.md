@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_43
-title: KSSTREAMALLOCATOR_FUNCTIONTABLE
+title: KSSTREAMALLOCATOR_FUNCTIONTABLE (ks.h)
 description: Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.
 old-location: stream\ksstreamallocator_functiontable.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAMALLOCATOR_FUNCTIONTABLE
+- KSSTREAMALLOCATOR_FUNCTIONTABLE
 product:
 - Windows
 targetos: Windows

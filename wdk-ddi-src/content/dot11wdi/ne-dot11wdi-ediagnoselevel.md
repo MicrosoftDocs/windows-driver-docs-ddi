@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi.__unnamed_enum_0
-title: eDiagnoseLevel
+title: eDiagnoseLevel (dot11wdi.h)
 description: The eDiagnoseLevel enumeration defines the diagnosis levels for adapter hang diagnosis.
 old-location: netvista\wdiediagnoselevel.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	eDiagnoseLevel
+- eDiagnoseLevel
 product:
 - Windows
 targetos: Windows

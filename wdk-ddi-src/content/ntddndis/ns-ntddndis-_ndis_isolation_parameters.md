@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ISOLATION_PARAMETERS
-title: "_NDIS_ISOLATION_PARAMETERS"
+title: _NDIS_ISOLATION_PARAMETERS (ntddndis.h)
 description: The NDIS_ISOLATION_PARAMETERS structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return the isolation parameters that are set on a VM network adapter's port.
 old-location: netvista\ndis_isolation_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_ISOLATION_PARAMETERS
+- NDIS_ISOLATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

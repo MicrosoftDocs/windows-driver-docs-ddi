@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_DXGI_RGB
-title: D3DDDI_DXGI_RGB
+title: D3DDDI_DXGI_RGB (d3dukmdt.h)
 description: The D3DDDI_DXGI_RGB structure contains information to describe a gamma function.
 old-location: display\d3dddi_dxgi_rgb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_DXGI_RGB
+- D3DDDI_DXGI_RGB
 product:
 - Windows
 targetos: Windows

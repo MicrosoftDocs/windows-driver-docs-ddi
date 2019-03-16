@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXCEPTION
-title: "_DEBUG_LAST_EVENT_INFO_EXCEPTION"
+title: _DEBUG_LAST_EVENT_INFO_EXCEPTION (dbgeng.h)
 description: Describes the exception of the last event.
 old-location: debugger\debug_last_event_info_exception.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_LAST_EVENT_INFO_EXCEPTION
+- DEBUG_LAST_EVENT_INFO_EXCEPTION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
-title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
+title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue (printerextension.h)
 description: Gets the JobCopiesAllDocuments parameter minimum value.
 old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
--	IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
+- IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
+- IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
 product:
 - Windows
 targetos: Windows

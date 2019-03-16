@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasUpdateScanRect
-title: wiasUpdateScanRect function
+title: wiasUpdateScanRect function (wiamdef.h)
 description: The wiasUpdateScanRect function updates the scanning area sizes of the scanning device.
 old-location: image\wiasupdatescanrect.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasUpdateScanRect
+- wiasUpdateScanRect
 product:
 - Windows
 targetos: Windows

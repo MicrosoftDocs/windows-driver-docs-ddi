@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION
-title: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION
+title: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION (d3d10umddi.h)
 description: The pfnSetShaderCacheSession callback function sets a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_set_shadercache_session.htm
 ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnSetShaderCacheSession
+- pfnSetShaderCacheSession
 product:
 - Windows
 targetos: Windows

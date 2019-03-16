@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForQueryInformation
-title: IWDFIoTarget2::FormatRequestForQueryInformation
+title: IWDFIoTarget2::FormatRequestForQueryInformation (wudfddi.h)
 description: The FormatRequestForQueryInformation method formats an I/O request to obtain information about a file, but it does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforqueryinformation.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget2.FormatRequestForQueryInformation
+- IWDFIoTarget2.FormatRequestForQueryInformation
 product:
 - Windows
 targetos: Windows

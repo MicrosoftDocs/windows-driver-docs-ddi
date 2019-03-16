@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlFreeNonVolatileToken
-title: RtlFreeNonVolatileToken function
+title: RtlFreeNonVolatileToken function (ntddk.h)
 description: The routine RtlFreeNonVolatileToken is a cleanup function for the opaque NvToken which is given by a successful call to RtlGetNonVolatileToken.
 old-location: ifsk\rtlfreenonvolatiletoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlFreeNonVolatileToken
+- RtlFreeNonVolatileToken
 product:
 - Windows
 targetos: Windows

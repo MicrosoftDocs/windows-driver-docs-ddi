@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetInputReport
-title: HidD_GetInputReport function
+title: HidD_GetInputReport function (hidsdi.h)
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetInputReport
+- HidD_GetInputReport
 product:
 - Windows
 targetos: Windows

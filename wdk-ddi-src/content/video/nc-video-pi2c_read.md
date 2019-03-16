@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_READ
-title: PI2C_READ
+title: PI2C_READ (video.h)
 description: The I2CRead function reads data over the I2C channel.
 old-location: display\i2cread.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	I2CRead
+- I2CRead
 product:
 - Windows
 targetos: Windows

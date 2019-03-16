@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueReadyNotify
-title: WdfIoQueueReadyNotify function
+title: WdfIoQueueReadyNotify function (wdfio.h)
 description: The WdfIoQueueReadyNotify method registers (or deregisters) an event callback function that the framework calls each time a specified I/O queue that was previously empty receives one or more I/O requests.
 old-location: wdf\wdfioqueuereadynotify.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueReadyNotify
+- WdfIoQueueReadyNotify
 product:
 - Windows
 targetos: Windows

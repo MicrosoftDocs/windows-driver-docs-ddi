@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
-title: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
+title: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE I/O request registers the driver of a USB multi-function device (composite driver) with the underlying USB driver stack.
 old-location: buses\ioctl_internal_usb_register_composite_driver.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
+- IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
 product:
 - Windows
 targetos: Windows

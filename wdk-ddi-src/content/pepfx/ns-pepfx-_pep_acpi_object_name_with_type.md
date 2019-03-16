@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_OBJECT_NAME_WITH_TYPE
-title: "_PEP_ACPI_OBJECT_NAME_WITH_TYPE"
+title: _PEP_ACPI_OBJECT_NAME_WITH_TYPE (pepfx.h)
 description: The PEP_ACPI_OBJECT_NAME_WITH_TYPE structure that specifies both the path-relative name of an ACPI object and the type of this object.
 old-location: kernel\pep_acpi_object_name_with_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_OBJECT_NAME_WITH_TYPE
+- PEP_ACPI_OBJECT_NAME_WITH_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMHalftonePattern
-title: OEMHalftonePattern function
+title: OEMHalftonePattern function (printoem.h)
 description: OEMHalftonePattern function
 old-location: print\oemhalftonepattern.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMHalftonePattern
+- OEMHalftonePattern
 product:
 - Windows
 targetos: Windows

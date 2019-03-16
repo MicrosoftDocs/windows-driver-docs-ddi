@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PSTREAM_RECEIVE_PACKET
-title: PSTREAM_RECEIVE_PACKET
+title: PSTREAM_RECEIVE_PACKET (usbcamdi.h)
 description: 
 ms.assetid: 2ae5c8c4-9951-4424-90e8-25fd25a48bb2
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	PSTREAM_RECEIVE_PACKET
+- PSTREAM_RECEIVE_PACKET
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

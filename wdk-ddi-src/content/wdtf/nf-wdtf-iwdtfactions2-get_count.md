@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.get_Count
-title: IWDTFActions2::get_Count
+title: IWDTFActions2::get_Count (wdtf.h)
 description: Gets the number of actions in this collection.
 old-location: dtf\iwdtfactions2_count.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	IWDTFDeviceDepot2.Count
--	IWDTFDeviceDepot2.get_Count
+- IWDTFDeviceDepot2.Count
+- IWDTFDeviceDepot2.get_Count
 product:
 - Windows
 targetos: Windows

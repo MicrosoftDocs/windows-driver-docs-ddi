@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetActiveGroupCount
-title: StorPortGetActiveGroupCount function
+title: StorPortGetActiveGroupCount function (storport.h)
 description: The StorPortGetActiveGroupCount routine returns the number of processor groups that are present in the system.
 old-location: storage\storportgetactivegroupcount.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetActiveGroupCount
+- StorPortGetActiveGroupCount
 product:
 - Windows
 targetos: Windows

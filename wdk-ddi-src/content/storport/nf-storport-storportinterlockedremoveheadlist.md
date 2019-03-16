@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedRemoveHeadList
-title: StorPortInterlockedRemoveHeadList function
+title: StorPortInterlockedRemoveHeadList function (storport.h)
 description: The StorPortInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedremoveheadlist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInterlockedRemoveHeadList
+- StorPortInterlockedRemoveHeadList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_TX_CAPABILITIES
-title: _NET_ADAPTER_TX_CAPABILITIES
+title: _NET_ADAPTER_TX_CAPABILITIES (netadapter.h)
 description: The NET_ADAPTER_TX_CAPABILITIES structure describes the transmit capabilities of a net adapter.
 tech.root: netvista
 ms.assetid: dd7810b6-12cc-46d3-9b74-2eabede35831
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_TX_CAPABILITIES, *PNET_ADAPTER_TX_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	_NET_ADAPTER_TX_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- _NET_ADAPTER_TX_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

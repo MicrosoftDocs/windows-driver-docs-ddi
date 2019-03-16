@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAbandonSwapChain
-title: D3DKMTAbandonSwapChain function
+title: D3DKMTAbandonSwapChain function (d3dkmthk.h)
 description: Abandons the swap chain.
 ms.assetid: 1746dbcd-a799-41d2-a4bc-ae485ea1362c
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
-api_type: 
--	
-api_location: 
--	
+- apiref
+api_type:
+- DllExport
+api_location:
+- Gdi32.dll
 api_name: 
--	D3DKMTAbandonSwapChain
+- D3DKMTAbandonSwapChain
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

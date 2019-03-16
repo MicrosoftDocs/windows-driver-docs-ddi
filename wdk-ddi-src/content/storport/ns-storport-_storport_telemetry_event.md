@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STORPORT_TELEMETRY_EVENT
-title: "_STORPORT_TELEMETRY_EVENT"
+title: _STORPORT_TELEMETRY_EVENT (storport.h)
 description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telemetry data payload.
 old-location: storage\storport_telemetry_event.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STORPORT_TELEMETRY_EVENT
+- STORPORT_TELEMETRY_EVENT
 product:
 - Windows
 targetos: Windows

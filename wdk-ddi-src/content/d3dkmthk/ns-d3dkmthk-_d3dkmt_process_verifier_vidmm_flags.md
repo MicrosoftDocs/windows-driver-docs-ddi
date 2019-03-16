@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS
-title: _D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS
+title: _D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS (d3dkmthk.h)
 description: The process verifier video memory management flags.
 ms.assetid: 335545ed-2804-49fa-8373-f7ab3afa7e62
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS
+- _D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

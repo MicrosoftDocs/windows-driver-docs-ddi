@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmFreeContiguousMemorySpecifyCache
-title: MmFreeContiguousMemorySpecifyCache function
+title: MmFreeContiguousMemorySpecifyCache function (wdm.h)
 description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that was allocated by an MmAllocateContiguousMemorySpecifyCacheXxx routine.
 old-location: kernel\mmfreecontiguousmemoryspecifycache.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFreeContiguousMemorySpecifyCache
+- MmFreeContiguousMemorySpecifyCache
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetSecurityObject
-title: FltSetSecurityObject function
+title: FltSetSecurityObject function (fltkernel.h)
 description: FltSetSecurityObject sets an object's security state.
 old-location: ifsk\fltsetsecurityobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetSecurityObject
+- FltSetSecurityObject
 product:
 - Windows
 targetos: Windows

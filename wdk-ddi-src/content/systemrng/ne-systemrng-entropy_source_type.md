@@ -1,6 +1,6 @@
 ---
 UID: NE:systemrng.__unnamed_enum_0
-title: ENTROPY_SOURCE_TYPE
+title: ENTROPY_SOURCE_TYPE (systemrng.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 
@@ -19,15 +19,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ENTROPY_SOURCE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	systemrng.h
+- systemrng.h
 api_name: 
--	ENTROPY_SOURCE_TYPE
+- ENTROPY_SOURCE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

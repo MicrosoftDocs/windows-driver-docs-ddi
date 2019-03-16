@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_DESCRIPTOR
-title: "_D3DKMDT_MONITOR_DESCRIPTOR"
+title: _D3DKMDT_MONITOR_DESCRIPTOR (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_DESCRIPTOR structure contains a pointer to a monitor descriptor along with information about the monitor descriptor.
 old-location: display\d3dkmdt_monitor_descriptor.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_DESCRIPTOR
+- D3DKMDT_MONITOR_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

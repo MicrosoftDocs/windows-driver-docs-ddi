@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_61
-title: KSCLOCK_FUNCTIONTABLE
+title: KSCLOCK_FUNCTIONTABLE (ks.h)
 description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.
 old-location: stream\ksclock_functiontable.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSCLOCK_FUNCTIONTABLE
+- KSCLOCK_FUNCTIONTABLE
 product:
 - Windows
 targetos: Windows

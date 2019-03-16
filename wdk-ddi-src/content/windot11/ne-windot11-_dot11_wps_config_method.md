@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_WPS_CONFIG_METHOD
-title: "_DOT11_WPS_CONFIG_METHOD"
+title: _DOT11_WPS_CONFIG_METHOD (windot11.h)
 description: The DOT11_WPS_CONFIG_METHOD enumeration specifies the Wi-Fi Protected Setup methods.
 old-location: netvista\dot11_wps_config_method.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WPS_CONFIG_METHOD
+- DOT11_WPS_CONFIG_METHOD
 product:
 - Windows
 targetos: Windows

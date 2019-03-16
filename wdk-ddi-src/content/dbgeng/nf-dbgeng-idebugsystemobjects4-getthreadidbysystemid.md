@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetThreadIdBySystemId
-title: IDebugSystemObjects4::GetThreadIdBySystemId
+title: IDebugSystemObjects4::GetThreadIdBySystemId (dbgeng.h)
 description: The GetThreadIdBySystemId method returns the engine thread ID for the specified thread. The thread is specified by its system thread ID.
 old-location: debugger\getthreadidbysystemid.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetThreadIdBySystemId
--	IDebugSystemObjects2.GetThreadIdBySystemId
--	IDebugSystemObjects3.GetThreadIdBySystemId
--	IDebugSystemObjects4.GetThreadIdBySystemId
+- IDebugSystemObjects.GetThreadIdBySystemId
+- IDebugSystemObjects2.GetThreadIdBySystemId
+- IDebugSystemObjects3.GetThreadIdBySystemId
+- IDebugSystemObjects4.GetThreadIdBySystemId
 product:
 - Windows
 targetos: Windows

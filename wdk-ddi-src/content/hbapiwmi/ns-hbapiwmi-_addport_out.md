@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddPort_OUT
-title: "_AddPort_OUT"
+title: _AddPort_OUT (hbapiwmi.h)
 description: The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the AddPort WMI method to the WMI client.
 old-location: storage\addport_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	AddPort_OUT
+- AddPort_OUT
 product:
 - Windows
 targetos: Windows

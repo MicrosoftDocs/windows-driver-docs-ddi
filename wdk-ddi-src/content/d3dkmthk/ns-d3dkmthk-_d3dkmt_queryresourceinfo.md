@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYRESOURCEINFO
-title: "_D3DKMT_QUERYRESOURCEINFO"
+title: _D3DKMT_QUERYRESOURCEINFO (d3dkmthk.h)
 description: The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving information about a resource.
 old-location: display\d3dkmt_queryresourceinfo.htm
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_QUERYRESOURCEINFO
+- D3DKMT_QUERYRESOURCEINFO
 product:
 - Windows
 targetos: Windows

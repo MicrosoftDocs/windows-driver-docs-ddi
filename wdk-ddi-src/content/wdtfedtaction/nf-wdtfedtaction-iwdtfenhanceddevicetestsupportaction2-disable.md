@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2.Disable
-title: IWDTFEnhancedDeviceTestSupportAction2::Disable
+title: IWDTFEnhancedDeviceTestSupportAction2::Disable (wdtfedtaction.h)
 description: Disables the Enhanced Device Test (EDT) filter driver on the target device.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_disable.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverEDTAction.Interop.dll
+- WDTFDriverEDTAction.Interop.dll
 api_name:
--	IWDTFEnhancedDeviceTestSupportAction2.Disable
+- IWDTFEnhancedDeviceTestSupportAction2.Disable
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_DETECTION_INFO
-title: "_DISK_DETECTION_INFO"
+title: _DISK_DETECTION_INFO (ntdddisk.h)
 description: The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 old-location: storage\disk_detection_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_DETECTION_INFO
+- DISK_DETECTION_INFO
 product:
 - Windows
 targetos: Windows

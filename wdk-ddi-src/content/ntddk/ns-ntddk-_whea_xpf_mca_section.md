@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MCA_SECTION
-title: _WHEA_XPF_MCA_SECTION
+title: _WHEA_XPF_MCA_SECTION (ntddk.h)
 description: 
 ms.assetid: befdfe81-69c0-42d1-8359-b005b02d314f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WHEA_XPF_MCA_SECTION, *PWHEA_XPF_MCA_SECTION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_WHEA_XPF_MCA_SECTION
+- _WHEA_XPF_MCA_SECTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplWritePrinter
-title: DrvSplWritePrinter function
+title: DrvSplWritePrinter function (winddiui.h)
 description: 
 old-location: print\drvsplwriteprinter.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvSplWritePrinter
+- DrvSplWritePrinter
 product:
 - Windows
 targetos: Windows

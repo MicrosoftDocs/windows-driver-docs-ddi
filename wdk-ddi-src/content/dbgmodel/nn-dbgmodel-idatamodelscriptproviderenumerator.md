@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptProviderEnumerator
-title: IDataModelScriptProviderEnumerator
+title: IDataModelScriptProviderEnumerator (dbgmodel.h)
 description: An enumerator which returns a set of known script providers.
 ms.assetid: 4a1a5912-3247-426d-afb8-7bbec29e490b
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProviderEnumerator
-product: Windows
+- IDataModelScriptProviderEnumerator
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

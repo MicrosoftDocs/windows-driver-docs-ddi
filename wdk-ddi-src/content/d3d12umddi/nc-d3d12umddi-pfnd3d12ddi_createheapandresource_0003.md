@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
-title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
+title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 (d3d12umddi.h)
 description: Used to simultaneously create a heap and resource.
 ms.assetid: 478dfbcd-4472-4469-bd6e-66d6f7b45a3a
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
+- PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 product: 
 - Windows
 targetos: Windows

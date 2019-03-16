@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeSetBasePriorityThread
-title: KeSetBasePriorityThread function
+title: KeSetBasePriorityThread function (ntddk.h)
 description: The KeSetBasePriorityThread routine sets the run-time priority, relative to the current process, for a given thread.
 old-location: kernel\kesetbaseprioritythread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetBasePriorityThread
+- KeSetBasePriorityThread
 product:
 - Windows
 targetos: Windows

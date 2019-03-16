@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDeviceState
-title: WdfDeviceGetDeviceState function
+title: WdfDeviceGetDeviceState function (wdfdevice.h)
 description: The WdfDeviceGetDeviceState method retrieves the device state for a specified device.
 old-location: wdf\wdfdevicegetdevicestate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceGetDeviceState
+- WdfDeviceGetDeviceState
 product:
 - Windows
 targetos: Windows

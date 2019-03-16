@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPIN_DISPATCH
-title: "_KSPIN_DISPATCH"
+title: _KSPIN_DISPATCH (ks.h)
 description: The KSPIN_DISPATCH structure describes the callbacks for which clients can register in order to receive notification of pin events.
 old-location: stream\kspin_dispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_DISPATCH
+- KSPIN_DISPATCH
 product:
 - Windows
 targetos: Windows

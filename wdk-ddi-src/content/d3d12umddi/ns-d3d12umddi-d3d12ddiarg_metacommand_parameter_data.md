@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_PARAMETER_DATA
-title: D3D12DDIARG_METACOMMAND_PARAMETER_DATA
+title: D3D12DDIARG_METACOMMAND_PARAMETER_DATA (d3d12umddi.h)
 description: Contains the data for a meta-command's parameter.
 ms.assetid: 04c29d9e-641a-4757-a50a-dae8da63d964
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_METACOMMAND_PARAMETER_DATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_METACOMMAND_PARAMETER_DATA
+- D3D12DDIARG_METACOMMAND_PARAMETER_DATA
 product: 
 - Windows
 targetos: Windows

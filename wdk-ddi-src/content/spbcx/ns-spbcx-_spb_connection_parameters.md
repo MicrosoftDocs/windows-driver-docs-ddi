@@ -1,6 +1,6 @@
 ---
 UID: NS:spbcx._SPB_CONNECTION_PARAMETERS
-title: "_SPB_CONNECTION_PARAMETERS"
+title: _SPB_CONNECTION_PARAMETERS (spbcx.h)
 description: The SPB_CONNECTION_PARAMETERS structure contains the connection parameters for a target device on a simple peripheral bus.
 old-location: spb\spb_connection_parameters.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_CONNECTION_PARAMETERS
+- SPB_CONNECTION_PARAMETERS
 product:
 - Windows
 targetos: Windows

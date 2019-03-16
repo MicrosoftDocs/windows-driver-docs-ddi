@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyUnicodeStringEx
-title: RtlStringCchCopyUnicodeStringEx function
+title: RtlStringCchCopyUnicodeStringEx function (ntstrsafe.h)
 description: The RtlStringCchCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination.
 old-location: kernel\rtlstringcchcopyunicodestringex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCchCopyUnicodeStringEx
+- RtlStringCchCopyUnicodeStringEx
 product:
 - Windows
 targetos: Windows

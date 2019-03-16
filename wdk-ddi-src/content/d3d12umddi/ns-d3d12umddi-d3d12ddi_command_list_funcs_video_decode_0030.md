@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
-title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
+title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030 (d3d12umddi.h)
 description: Command list functions for video decode.
 old-location: display\d3d12ddi-command-list-funcs-video-decode-0030.htm
 ms.assetid: ca1b9c07-0195-4e0d-9917-96def0a8ea47
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
+- D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0030
 product:
 - Windows
 targetos: Windows

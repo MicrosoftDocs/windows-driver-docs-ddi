@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MR_DISPATCH
-title: "_NDK_MR_DISPATCH"
+title: _NDK_MR_DISPATCH (ndkpi.h)
 description: The NDK_MR_DISPATCH structure specifies dispatch function entry points for the NDK memory region (MR) object.
 old-location: netvista\ndk_mr_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_MR_DISPATCH
+- NDK_MR_DISPATCH
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_DEALLOCATE_0022
-title: D3D12DDICB_DEALLOCATE_0022
+title: D3D12DDICB_DEALLOCATE_0022 (d3d12umddi.h)
 description: Specifies values for use with a deallocation callback function.
 old-location: display\d3d12ddicb_deallocate_0022.htm
 ms.assetid: 977868D1-02E1-4460-9194-2079B986045E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDICB_DEALLOCATE_0022
+- D3D12DDICB_DEALLOCATE_0022
 product:
 - Windows
 targetos: Windows

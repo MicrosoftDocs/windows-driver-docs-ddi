@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatusUpdatedEventData
-title: "_PosStatusUpdatedEventData"
+title: _PosStatusUpdatedEventData (pointofservicedriverinterface.h)
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosStatusUpdatedEventData
+- PosStatusUpdatedEventData
 product:
 - Windows
 targetos: Windows

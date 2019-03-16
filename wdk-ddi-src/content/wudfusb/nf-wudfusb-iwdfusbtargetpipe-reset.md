@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Reset
-title: IWDFUsbTargetPipe::Reset
+title: IWDFUsbTargetPipe::Reset (wudfusb.h)
 description: The Reset method resets the data toggle and clears the stall condition on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_reset.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetPipe.Reset
+- IWDFUsbTargetPipe.Reset
 product:
 - Windows
 targetos: Windows

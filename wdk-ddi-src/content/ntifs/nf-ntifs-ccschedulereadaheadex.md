@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcScheduleReadAheadEx
-title: CcScheduleReadAheadEx function
+title: CcScheduleReadAheadEx function (ntifs.h)
 description: The CcScheduleReadAheadEx routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\ccschedulereadaheadex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcScheduleReadAheadEx
+- CcScheduleReadAheadEx
 product:
 - Windows
 targetos: Windows

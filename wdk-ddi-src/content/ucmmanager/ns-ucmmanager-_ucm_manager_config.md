@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_MANAGER_CONFIG
-title: "_UCM_MANAGER_CONFIG"
+title: _UCM_MANAGER_CONFIG (ucmmanager.h)
 description: Describes the configuration options for the UCM Manager. An initialized UCM_MANAGER_CONFIG structure is an input parameter value to UcmInitializeDevice.
 old-location: buses\ucm_manager_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_MANAGER_CONFIG
+- UCM_MANAGER_CONFIG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_POLICY
-title: "_WDF_INTERRUPT_POLICY"
+title: _WDF_INTERRUPT_POLICY (wdfinterrupt.h)
 description: The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 old-location: wdf\wdf_interrupt_policy.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinterrupt.h
+- wdfinterrupt.h
 api_name:
--	WDF_INTERRUPT_POLICY
+- WDF_INTERRUPT_POLICY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PIPE_INFO
-title: "_USB_PIPE_INFO"
+title: _USB_PIPE_INFO (usbioctl.h)
 description: The USB_PIPE_INFO structure is used in conjunction with the USB_NODE_CONNECTION_INFORMATION_EX structure and the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request to obtain information about a connection and its associated pipes.
 old-location: buses\usb_pipe_info.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_PIPE_INFO
+- USB_PIPE_INFO
 product:
 - Windows
 targetos: Windows

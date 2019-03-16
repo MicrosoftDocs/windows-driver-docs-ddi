@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_CONFIG_VALUE_RANGE
-title: "_L2CAP_CONFIG_VALUE_RANGE"
+title: _L2CAP_CONFIG_VALUE_RANGE (bthddi.h)
 description: The L2CAP_CONFIG_VALUE_RANGE structure is used to specify values for the Mtu and FlushTO members of the _BRB_L2CA_OPEN_CHANNEL structure.
 old-location: bltooth\l2cap_config_value_range.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	L2CAP_CONFIG_VALUE_RANGE
+- L2CAP_CONFIG_VALUE_RANGE
 product:
 - Windows
 targetos: Windows

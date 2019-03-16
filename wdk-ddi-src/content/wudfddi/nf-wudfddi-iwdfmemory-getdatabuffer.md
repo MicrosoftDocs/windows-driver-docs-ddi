@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.GetDataBuffer
-title: IWDFMemory::GetDataBuffer
+title: IWDFMemory::GetDataBuffer (wudfddi.h)
 description: The GetDataBuffer method retrieves the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getdatabuffer.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFMemory.GetDataBuffer
+- IWDFMemory.GetDataBuffer
 product:
 - Windows
 targetos: Windows

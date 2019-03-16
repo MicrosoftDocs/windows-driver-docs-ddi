@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_QUERY_PROPERTY
-title: IOCTL_STORAGE_QUERY_PROPERTY
+title: IOCTL_STORAGE_QUERY_PROPERTY (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_QUERY_PROPERTY to return properties of a storage device or adapter.
 old-location: storage\ioctl_storage_query_property.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_QUERY_PROPERTY
+- IOCTL_STORAGE_QUERY_PROPERTY
 product:
 - Windows
 targetos: Windows

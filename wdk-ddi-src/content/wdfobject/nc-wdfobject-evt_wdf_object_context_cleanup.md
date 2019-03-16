@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfobject.EVT_WDF_OBJECT_CONTEXT_CLEANUP
-title: EVT_WDF_OBJECT_CONTEXT_CLEANUP
+title: EVT_WDF_OBJECT_CONTEXT_CLEANUP (wdfobject.h)
 description: A driver's EvtCleanupCallback event callback function removes the driver's references on an object so that the object can be deleted.
 old-location: wdf\evtcleanupcallback.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfobject.h
+- Wdfobject.h
 api_name:
--	EvtCleanupCallback
+- EvtCleanupCallback
 product:
 - Windows
 targetos: Windows

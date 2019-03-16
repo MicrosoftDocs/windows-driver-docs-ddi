@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_UNREGISTER_DEVICE
-title: "_PEP_UNREGISTER_DEVICE"
+title: _PEP_UNREGISTER_DEVICE (pepfx.h)
 description: The PEP_UNREGISTER_DEVICE structure identifies a device whose registration is being removed from the Windows power management framework (PoFx).
 old-location: kernel\pep_unregister_device.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_UNREGISTER_DEVICE
+- PEP_UNREGISTER_DEVICE
 product:
 - Windows
 targetos: Windows

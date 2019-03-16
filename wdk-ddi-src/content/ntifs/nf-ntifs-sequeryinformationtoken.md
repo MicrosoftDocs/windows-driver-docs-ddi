@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeQueryInformationToken
-title: SeQueryInformationToken function
+title: SeQueryInformationToken function (ntifs.h)
 description: The SeQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: ifsk\sequeryinformationtoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeQueryInformationToken
+- SeQueryInformationToken
 product:
 - Windows
 targetos: Windows

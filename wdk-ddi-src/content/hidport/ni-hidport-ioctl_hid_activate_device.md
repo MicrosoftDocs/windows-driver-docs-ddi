@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_ACTIVATE_DEVICE
-title: IOCTL_HID_ACTIVATE_DEVICE
+title: IOCTL_HID_ACTIVATE_DEVICE (hidport.h)
 description: The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
 old-location: hid\ioctl_hid_activate_device.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_ACTIVATE_DEVICE
+- IOCTL_HID_ACTIVATE_DEVICE
 product:
 - Windows
 targetos: Windows

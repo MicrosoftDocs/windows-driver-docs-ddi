@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
-title: "_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"
+title: _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL is used as part of an operation to fill an allocation with a pattern.
 old-location: display\dxgk_buildpagingbuffer_fillvirtual.htm
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
+- DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL
 product:
 - Windows
 targetos: Windows

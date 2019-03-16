@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetRomImage
-title: VideoPortGetRomImage function
+title: VideoPortGetRomImage function (video.h)
 description: Reads the device's read-only memory (ROM).
 old-location: display\videoportgetromimage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetRomImage
+- VideoPortGetRomImage
 product:
 - Windows
 targetos: Windows

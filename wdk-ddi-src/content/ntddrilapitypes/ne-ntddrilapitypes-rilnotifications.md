@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILNOTIFICATIONS
-title: RILNOTIFICATIONS
+title: RILNOTIFICATIONS (ntddrilapitypes.h)
 description: This enumeration describes RILNOTIFICATIONS.
 old-location: netvista\rilnotifications.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILNOTIFICATIONS
+- RILNOTIFICATIONS
 product:
 - Windows
 targetos: Windows

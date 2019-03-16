@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CLOSEADAPTER
-title: PFND3D10DDI_CLOSEADAPTER
+title: PFND3D10DDI_CLOSEADAPTER (d3d10umddi.h)
 description: The CloseAdapter(D3D10) function releases resources for a graphics adapter object.
 old-location: display\closeadapter_d3d10_.htm
 ms.assetid: bc7ccd91-becc-4596-a56a-562cfe9a18b9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CloseAdapter
+- CloseAdapter
 product:
 - Windows
 targetos: Windows

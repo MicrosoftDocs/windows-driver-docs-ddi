@@ -1,6 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_ENUM_ENDPOINTS
-title: IOCTL_NFCSE_ENUM_ENDPOINTS
+title: IOCTL_NFCSE_ENUM_ENDPOINTS (nfcsedev.h)
 description: Returns information regarding the list of all the secure elements attached to the NFC controller.
 old-location: nfpdrivers\ioctl_nfcse_enum_endpoints.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	IOCTL_NFCSE_ENUM_ENDPOINTS
+- IOCTL_NFCSE_ENUM_ENDPOINTS
 product:
 - Windows
 targetos: Windows

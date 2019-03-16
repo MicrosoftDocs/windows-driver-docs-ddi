@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueStr
-title: wiasGetChangedValueStr function
+title: wiasGetChangedValueStr function (wiamdef.h)
 description: The wiasGetChangedValueStr function determines whether a property with a string value has been changed by an application.
 old-location: image\wiasgetchangedvaluestr.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChangedValueStr
+- wiasGetChangedValueStr
 product:
 - Windows
 targetos: Windows

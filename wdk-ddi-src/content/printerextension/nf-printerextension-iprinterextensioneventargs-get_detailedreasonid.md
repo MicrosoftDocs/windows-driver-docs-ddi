@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_DetailedReasonId
-title: IPrinterExtensionEventArgs::get_DetailedReasonId
+title: IPrinterExtensionEventArgs::get_DetailedReasonId (printerextension.h)
 description: Gets a more detailed activation reason than what can be retrieved from ReasonId.
 old-location: print\iprinterextensioneventargs_detailedreasonid.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEventArgs.DetailedReasonId
--	IPrinterExtensionEventArgs.get_DetailedReasonId
+- IPrinterExtensionEventArgs.DetailedReasonId
+- IPrinterExtensionEventArgs.get_DetailedReasonId
 product:
 - Windows
 targetos: Windows

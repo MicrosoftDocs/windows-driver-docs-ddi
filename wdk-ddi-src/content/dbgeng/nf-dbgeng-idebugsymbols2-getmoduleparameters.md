@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleParameters
-title: IDebugSymbols2::GetModuleParameters
+title: IDebugSymbols2::GetModuleParameters (dbgeng.h)
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetModuleParameters
--	IDebugSymbols2.GetModuleParameters
--	IDebugSymbols3.GetModuleParameters
+- IDebugSymbols.GetModuleParameters
+- IDebugSymbols2.GetModuleParameters
+- IDebugSymbols3.GetModuleParameters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.PreferredFormat
-title: PreferredFormat
+title: PreferredFormat (dbgmodel.h)
 description: Predefined values of the "PreferredFormat" key which may appear as the metadata on a returned key value.  
 ms.assetid: 13729758-f5f8-4f28-80b8-ed8c89d56db5
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	PreferredFormat
-product: Windows
+- PreferredFormat
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

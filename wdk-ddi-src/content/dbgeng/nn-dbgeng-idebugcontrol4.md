@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl4
-title: IDebugControl4
+title: IDebugControl4 (dbgeng.h)
 description: IDebugControl4 interface
 old-location: debugger\idebugcontrol4.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4
--	IDebugControl4.GetManagedStatus
--	IDebugControl4.GetManagedStatusWide
--	IDebugControl4.ResetManagedStatus
+- IDebugControl4
+- IDebugControl4.GetManagedStatus
+- IDebugControl4.GetManagedStatusWide
+- IDebugControl4.ResetManagedStatus
 product:
 - Windows
 targetos: Windows

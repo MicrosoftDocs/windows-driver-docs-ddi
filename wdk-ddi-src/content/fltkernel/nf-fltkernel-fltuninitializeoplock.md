@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltUninitializeOplock
-title: FltUninitializeOplock function
+title: FltUninitializeOplock function (fltkernel.h)
 description: FltUninitializeOplock uninitializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fltuninitializeoplock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltUninitializeOplock
+- FltUninitializeOplock
 product:
 - Windows
 targetos: Windows

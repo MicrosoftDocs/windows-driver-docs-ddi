@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.Reset
-title: IDataModelScriptTemplateEnumerator::Reset
+title: IDataModelScriptTemplateEnumerator::Reset (dbgmodel.h)
 description: The Reset method resets the enumerator to the position it was at when it was first created -- before the first template produced. 
 ms.assetid: 465eb32a-bb01-4bf6-ad62-5187ec877972
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplateEnumerator.Reset
-product: Windows
+- IDataModelScriptTemplateEnumerator.Reset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

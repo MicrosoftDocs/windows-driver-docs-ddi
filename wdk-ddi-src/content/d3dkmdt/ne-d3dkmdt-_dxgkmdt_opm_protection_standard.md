@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_PROTECTION_STANDARD
-title: "_DXGKMDT_OPM_PROTECTION_STANDARD"
+title: _DXGKMDT_OPM_PROTECTION_STANDARD (d3dkmdt.h)
 description: The DXGKMDT_OPM_PROTECTION_STANDARD enumeration indicates the type of television signal for which a video output supports protection.
 old-location: display\dxgkmdt_opm_protection_standard.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_PROTECTION_STANDARD
+- DXGKMDT_OPM_PROTECTION_STANDARD
 product:
 - Windows
 targetos: Windows

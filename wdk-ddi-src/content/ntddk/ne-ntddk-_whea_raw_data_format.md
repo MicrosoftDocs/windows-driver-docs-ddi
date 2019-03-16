@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_RAW_DATA_FORMAT
-title: "_WHEA_RAW_DATA_FORMAT"
+title: _WHEA_RAW_DATA_FORMAT (ntddk.h)
 description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
 old-location: whea\whea_raw_data_format.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_RAW_DATA_FORMAT
+- WHEA_RAW_DATA_FORMAT
 product:
 - Windows
 targetos: Windows

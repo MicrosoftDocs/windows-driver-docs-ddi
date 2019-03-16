@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
-title: "_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
+title: _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION (wdm.h)
 description: The REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure describes the multiple value entries that are being retrieved for a key.
 old-location: kernel\reg_query_multiple_value_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
+- REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

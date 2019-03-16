@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiInquiry_OUT
-title: "_ScsiInquiry_OUT"
+title: _ScsiInquiry_OUT (iscsiop.h)
 description: The ScsiInquiry_OUT structure holds the output data for the ScsiInquiry method.
 old-location: storage\scsiinquiry_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ScsiInquiry_OUT
+- ScsiInquiry_OUT
 product:
 - Windows
 targetos: Windows

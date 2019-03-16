@@ -1,6 +1,6 @@
 ---
 UID: NF:wdmsec.WdmlibRtlInitUnicodeStringEx
-title: WdmlibRtlInitUnicodeStringEx function
+title: WdmlibRtlInitUnicodeStringEx function (wdmsec.h)
 description: The WdmlibRtlInitUnicodeStringEx function initializes a counted string of Unicode characters.
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibRtlInitUnicodeStringEx
--	RtlInitUnicodeString
+- WdmlibRtlInitUnicodeStringEx
+- RtlInitUnicodeString
 product:
 - Windows
 targetos: Windows

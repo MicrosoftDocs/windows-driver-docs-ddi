@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_CONFIGURATION
-title: "_WWAN_SMS_CONFIGURATION"
+title: _WWAN_SMS_CONFIGURATION (wwan.h)
 description: The WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\wwan_sms_configuration.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_CONFIGURATION
+- WWAN_SMS_CONFIGURATION
 product:
 - Windows
 targetos: Windows

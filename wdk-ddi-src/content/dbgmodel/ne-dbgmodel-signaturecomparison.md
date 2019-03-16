@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.SignatureComparison
-title: SignatureComparison
+title: SignatureComparison (dbgmodel.h)
 description: Describes how a type or two signatures compare.
 ms.assetid: 7157f5fb-4bdc-4380-aaef-882cb4c79993
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	SignatureComparison
-product: Windows
+- SignatureComparison
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

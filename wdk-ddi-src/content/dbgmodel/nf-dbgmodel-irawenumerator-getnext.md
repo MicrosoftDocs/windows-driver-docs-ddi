@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.GetNext
-title: IRawEnumerator::GetNext
+title: IRawEnumerator::GetNext (dbgmodel.h)
 description: Moves the iterator forward and fetches the name of the raw element and, optionally, its value (or a reference to it) and what kind of element it is.
 ms.assetid: 64162d89-113d-4383-ba11-d984a16c801b
 ms.date: 12/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IRawEnumerator.GetNext
-product: Windows
+- IRawEnumerator.GetNext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

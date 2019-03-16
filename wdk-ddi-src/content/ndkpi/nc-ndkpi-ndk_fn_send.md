@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SEND
-title: NDK_FN_SEND
+title: NDK_FN_SEND (ndkpi.h)
 description: The NdkSend (NDK_FN_SEND) function posts a send request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_send.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkSend
+- NdkSend
 product:
 - Windows
 targetos: Windows

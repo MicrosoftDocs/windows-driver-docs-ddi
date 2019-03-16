@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_DUPLICATE_HANDLE_INFORMATION
-title: "_OB_POST_DUPLICATE_HANDLE_INFORMATION"
+title: _OB_POST_DUPLICATE_HANDLE_INFORMATION (wdm.h)
 description: The OB_POST_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPostCallback routine about a thread or process handle that has been duplicated.
 old-location: kernel\ob_post_duplicate_handle_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	OB_POST_DUPLICATE_HANDLE_INFORMATION
+- OB_POST_DUPLICATE_HANDLE_INFORMATION
 product:
 - Windows
 targetos: Windows

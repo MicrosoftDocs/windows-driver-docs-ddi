@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.UnmapIoSpace
-title: IWDFDevice3::UnmapIoSpace
+title: IWDFDevice3::UnmapIoSpace (wudfddi.h)
 description: The UnmapIoSpace method unmaps a specified range of physical addresses previously mapped by MapIoSpace method.
 old-location: wdf\iwdfdevice3_unmapiospace.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.UnmapIoSpace
+- IWDFDevice3.UnmapIoSpace
 product:
 - Windows
 targetos: Windows

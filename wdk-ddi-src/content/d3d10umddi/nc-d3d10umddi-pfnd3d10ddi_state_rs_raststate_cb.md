@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_RS_RASTSTATE_CB
-title: PFND3D10DDI_STATE_RS_RASTSTATE_CB
+title: PFND3D10DDI_STATE_RS_RASTSTATE_CB (d3d10umddi.h)
 description: The pfnStateRsRastStateCb function causes the Microsoft Direct3D 10 runtime to refresh the rasterization state.
 old-location: display\pfnstatersraststatecb.htm
 ms.assetid: 2ce213a6-8075-4ad9-9f58-204c2f7fd8d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateRsRastStateCb
+- pfnStateRsRastStateCb
 product:
 - Windows
 targetos: Windows

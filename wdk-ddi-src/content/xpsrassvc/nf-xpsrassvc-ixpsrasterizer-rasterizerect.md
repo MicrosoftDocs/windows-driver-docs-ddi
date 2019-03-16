@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizer.RasterizeRect
-title: IXpsRasterizer::RasterizeRect
+title: IXpsRasterizer::RasterizeRect (xpsrassvc.h)
 description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 old-location: print\ixpsrasterizer_rasterizerect.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizer.RasterizeRect
+- IXpsRasterizer.RasterizeRect
 product:
 - Windows
 targetos: Windows

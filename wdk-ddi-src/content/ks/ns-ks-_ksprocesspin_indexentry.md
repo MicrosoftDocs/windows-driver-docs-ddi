@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPROCESSPIN_INDEXENTRY
-title: "_KSPROCESSPIN_INDEXENTRY"
+title: _KSPROCESSPIN_INDEXENTRY (ks.h)
 description: The KSPROCESSPIN_INDEXENTRY structure is used in Filter-Centric Processing to bring together all of the input and output pins in one context.
 old-location: stream\ksprocesspin_indexentry.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROCESSPIN_INDEXENTRY
+- KSPROCESSPIN_INDEXENTRY
 product:
 - Windows
 targetos: Windows

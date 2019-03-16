@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_CQ_INFO
-title: _NVME_RESERVED_CQ_INFO
+title: _NVME_RESERVED_CQ_INFO (ntddstor.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 
@@ -22,15 +22,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_CQ_INFO, *PNVME_RESERVED_CQ_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_CQ_INFO
+- _NVME_RESERVED_CQ_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

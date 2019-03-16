@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingCapability_IN
-title: "_GetBindingCapability_IN"
+title: _GetBindingCapability_IN (hbapiwmi.h)
 description: The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the GetBindingCapability WMI method to the HBA miniport driver.
 old-location: storage\getbindingcapability_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetBindingCapability_IN
+- GetBindingCapability_IN
 product:
 - Windows
 targetos: Windows

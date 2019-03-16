@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PROCESSOR_INFO_EX
-title: "_NDIS_PROCESSOR_INFO_EX"
+title: _NDIS_PROCESSOR_INFO_EX (ntddndis.h)
 description: The NDIS_PROCESSOR_INFO_EX structure specifies information about a processor in the local computer.
 old-location: netvista\ndis_processor_info_ex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PROCESSOR_INFO_EX
+- NDIS_PROCESSOR_INFO_EX
 product:
 - Windows
 targetos: Windows

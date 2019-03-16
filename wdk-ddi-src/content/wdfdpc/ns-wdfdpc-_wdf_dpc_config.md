@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdpc._WDF_DPC_CONFIG
-title: "_WDF_DPC_CONFIG"
+title: _WDF_DPC_CONFIG (wdfdpc.h)
 description: The WDF_DPC_CONFIG structure contains configuration information for a DPC object.
 old-location: wdf\wdf_dpc_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdpc.h
+- wdfdpc.h
 api_name:
--	WDF_DPC_CONFIG
+- WDF_DPC_CONFIG
 product:
 - Windows
 targetos: Windows

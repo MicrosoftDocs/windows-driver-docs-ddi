@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0040
-title: D3D12DDI_DEVICE_FUNCS_CORE_0040
+title: D3D12DDI_DEVICE_FUNCS_CORE_0040 (d3d12umddi.h)
 description: Core device functions.
 ms.assetid: f4a40b3b-ce5e-4591-aab6-236297623a46
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_0040
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_DEVICE_FUNCS_CORE_0040
+- D3D12DDI_DEVICE_FUNCS_CORE_0040
 product: 
 - Windows
 targetos: Windows

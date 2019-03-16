@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateTimer
-title: KeReadStateTimer function
+title: KeReadStateTimer function (wdm.h)
 description: The KeReadStateTimer routine reads the current state of a timer object.
 old-location: kernel\kereadstatetimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReadStateTimer
+- KeReadStateTimer
 product:
 - Windows
 targetos: Windows

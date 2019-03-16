@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetRequestorSessionId
-title: IoGetRequestorSessionId function
+title: IoGetRequestorSessionId function (ntifs.h)
 description: The IoGetRequestorSessionId routine returns the session ID for the process that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorsessionid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetRequestorSessionId
+- IoGetRequestorSessionId
 product:
 - Windows
 targetos: Windows

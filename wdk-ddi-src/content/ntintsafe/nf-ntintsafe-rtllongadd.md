@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongAdd
-title: RtlLongAdd function
+title: RtlLongAdd function (ntintsafe.h)
 description: Adds two values of type LONG.
 old-location: kernel\rtllongadd.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlLongAdd
+- RtlLongAdd
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEPROCESSFLAGS
-title: "_DXGK_CREATEPROCESSFLAGS"
+title: _DXGK_CREATEPROCESSFLAGS (d3dkmddi.h)
 description: DXGK_CREATEPROCESSFLAGS is used with DXGKARG_CREATEPROCESS and DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 old-location: display\dxgk_createprocessflags.htm
 ms.assetid: 43B8202C-6AC1-4596-BA85-FEB9FB0B5746
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CREATEPROCESSFLAGS
+- DXGK_CREATEPROCESSFLAGS
 product:
 - Windows
 targetos: Windows

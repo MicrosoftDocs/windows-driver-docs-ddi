@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckQuotaBufferValidity
-title: IoCheckQuotaBufferValidity function
+title: IoCheckQuotaBufferValidity function (ntifs.h)
 description: The IoCheckQuotaBufferValidity routine checks whether the specified quota buffer is valid.
 old-location: ifsk\iocheckquotabuffervalidity.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCheckQuotaBufferValidity
+- IoCheckQuotaBufferValidity
 product:
 - Windows
 targetos: Windows

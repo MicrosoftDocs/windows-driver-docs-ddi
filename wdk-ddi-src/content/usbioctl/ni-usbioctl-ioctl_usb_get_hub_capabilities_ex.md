@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_HUB_CAPABILITIES_EX
-title: IOCTL_USB_GET_HUB_CAPABILITIES_EX
+title: IOCTL_USB_GET_HUB_CAPABILITIES_EX (usbioctl.h)
 description: The IOCTL_USB_GET_HUB_CAPABILITIES_EX I/O control request retrieves the capabilities of a USB hub.IOCTL_USB_GET_HUB_CAPABILITIES_EX is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 old-location: buses\ioctl_usb_get_hub_capabilities_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_HUB_CAPABILITIES_EX
+- IOCTL_USB_GET_HUB_CAPABILITIES_EX
 product:
 - Windows
 targetos: Windows

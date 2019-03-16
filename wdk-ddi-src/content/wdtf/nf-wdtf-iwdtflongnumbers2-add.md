@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Add
-title: IWDTFLongNumbers2::Add
+title: IWDTFLongNumbers2::Add (wdtf.h)
 description: Adds a single long number to the collection.
 old-location: dtf\iwdtflongnumbers2_add.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLongNumbers2.Add
+- IWDTFLongNumbers2.Add
 product:
 - Windows
 targetos: Windows

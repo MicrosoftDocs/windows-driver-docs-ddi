@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_SAMPLEFORMAT
-title: "_DXVADDI_SAMPLEFORMAT"
+title: _DXVADDI_SAMPLEFORMAT (d3dumddi.h)
 description: The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 old-location: display\dxvaddi_sampleformat.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_SAMPLEFORMAT
+- DXVADDI_SAMPLEFORMAT
 product:
 - Windows
 targetos: Windows

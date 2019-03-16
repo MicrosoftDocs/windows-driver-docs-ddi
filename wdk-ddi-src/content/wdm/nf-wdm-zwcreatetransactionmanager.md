@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateTransactionManager
-title: ZwCreateTransactionManager function
+title: ZwCreateTransactionManager function (wdm.h)
 description: The ZwCreateTransactionManager routine creates a new transaction manager object.
 old-location: kernel\zwcreatetransactionmanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateTransactionManager
--	NtCreateTransactionManager
+- ZwCreateTransactionManager
+- NtCreateTransactionManager
 product:
 - Windows
 targetos: Windows

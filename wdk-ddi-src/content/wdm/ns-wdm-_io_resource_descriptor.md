@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_RESOURCE_DESCRIPTOR
-title: "_IO_RESOURCE_DESCRIPTOR"
+title: _IO_RESOURCE_DESCRIPTOR (wdm.h)
 description: The IO_RESOURCE_DESCRIPTOR structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of IO_RESOURCE_DESCRIPTOR structures is contained within each IO_RESOURCE_LIST structure.
 old-location: kernel\io_resource_descriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_RESOURCE_DESCRIPTOR
+- IO_RESOURCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

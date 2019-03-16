@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
-title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
+title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH (d3dkmddi.h)
 description: The DxgkDdiUpdateActiveVidPnPresentPath function updates one of the video present paths that is currently active on the display adapter.
 old-location: display\dxgkddiupdateactivevidpnpresentpath.htm
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiUpdateActiveVidPnPresentPath
+- DxgkDdiUpdateActiveVidPnPresentPath
 product:
 - Windows
 targetos: Windows
@@ -70,7 +70,11 @@ A handle to a context block that is associated with a display adapter. The displ
 
 <i>DxgkDdiUpdateActiveVidPnPresentPath</i>returns one of the following values:
 
-
+| Value | Description |
+| --- | --- |
+|STATUS_SUCCESS | The function succeeded.|
+|STATUS_GRAPHICS_PATH_NOT_IN_TOPOLOGY|The path specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo** is not in the topology of the active VidPN.|
+|STATUS_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED|The path does not support the content transformation specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo.ContentTransformation**. The path does not support the gamma ramp specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo.GammaRamp**.|
 
 
 ## -remarks

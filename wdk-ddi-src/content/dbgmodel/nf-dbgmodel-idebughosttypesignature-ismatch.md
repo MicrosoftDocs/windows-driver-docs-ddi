@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.IsMatch
-title: IDebugHostTypeSignature::IsMatch
+title: IDebugHostTypeSignature::IsMatch (dbgmodel.h)
 description: The IsMatch method returns an indication of whether a particular type instance matches the criteria specified in the type signature. 
 ms.assetid: c263f7b8-2612-4ef5-8eb7-35379fbadf4d
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostTypeSignature.IsMatch
-product: Windows
+- IDebugHostTypeSignature.IsMatch
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

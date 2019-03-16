@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ListType
-title: ListType function
+title: ListType function (wdbgexts.h)
 description: The ListType function calls a specified callback function for every element in a linked list.
 old-location: debugger\listtype.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ListType
+- ListType
 product:
 - Windows
 targetos: Windows

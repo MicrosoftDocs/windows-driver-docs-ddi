@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeTimer
-title: StorPortInitializeTimer function
+title: StorPortInitializeTimer function (storport.h)
 description: Creates a Storport timer context object.
 old-location: storage\storportinitializetimer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeTimer
+- StorPortInitializeTimer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltClearCallbackDataDirty
-title: FltClearCallbackDataDirty function
+title: FltClearCallbackDataDirty function (fltkernel.h)
 description: The FltClearCallbackDataDirty routine clears the callback dirty flag in a callback data structure.
 old-location: ifsk\fltclearcallbackdatadirty.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltClearCallbackDataDirty
+- FltClearCallbackDataDirty
 product:
 - Windows
 targetos: Windows

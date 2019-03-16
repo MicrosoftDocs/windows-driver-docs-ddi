@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcGetPhysicalDeviceObject
-title: PcGetPhysicalDeviceObject function
+title: PcGetPhysicalDeviceObject function (portcls.h)
 description: The PcGetPhysicalDeviceObject function enables audio miniport drivers to retrieve the underlying physical device object of the audio device.
 old-location: audio\pcgetphysicaldeviceobject.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcGetPhysicalDeviceObject
+- PcGetPhysicalDeviceObject
 product:
 - Windows
 targetos: Windows

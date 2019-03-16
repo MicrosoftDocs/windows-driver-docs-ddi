@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_RESET_HANDLER
-title: DMA_RESET_HANDLER
+title: DMA_RESET_HANDLER (netdma.h)
 description: The ProviderResetChannel function resets a DMA channel to the initial state that existed after the DMA channel was allocated.
 old-location: netvista\providerresetchannel.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderResetChannel
+- ProviderResetChannel
 product:
 - Windows
 targetos: Windows

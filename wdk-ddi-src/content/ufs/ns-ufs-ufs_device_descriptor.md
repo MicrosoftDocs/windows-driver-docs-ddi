@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_0
-title: UFS_DEVICE_DESCRIPTOR
+title: UFS_DEVICE_DESCRIPTOR (ufs.h)
 description: UFS_DEVICE_DESCRIPTOR is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical units contained within the device.
 old-location: storage\ufs_device_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_DEVICE_DESCRIPTOR
+- UFS_DEVICE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

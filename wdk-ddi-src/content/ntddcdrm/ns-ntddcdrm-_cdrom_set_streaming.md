@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_SET_STREAMING
-title: "_CDROM_SET_STREAMING"
+title: _CDROM_SET_STREAMING (ntddcdrm.h)
 description: The CDROM_SET_SPEED structure is used with the IOCTL_CDROM_SET_SPEED request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
 old-location: storage\cdrom_set_streaming.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_SET_STREAMING
+- CDROM_SET_STREAMING
 product:
 - Windows
 targetos: Windows

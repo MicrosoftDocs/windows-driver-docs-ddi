@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_GET_CHALLENGE_KEY
-title: IOCTL_AACS_GET_CHALLENGE_KEY
+title: IOCTL_AACS_GET_CHALLENGE_KEY (ntddcdvd.h)
 description: Queries the logical unit for the device's challenge key. The challenge key consists of a point on an elliptic curve and its associated signature.
 old-location: storage\ioctl_aacs_get_challenge_key.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_GET_CHALLENGE_KEY
+- IOCTL_AACS_GET_CHALLENGE_KEY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUshort
-title: NdisRawReadPortUshort macro
+title: NdisRawReadPortUshort macro (ndis.h)
 description: NdisRawReadPortUshort reads a USHORT value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportushort.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawReadPortUshort
+- NdisRawReadPortUshort
 product:
 - Windows
 targetos: Windows

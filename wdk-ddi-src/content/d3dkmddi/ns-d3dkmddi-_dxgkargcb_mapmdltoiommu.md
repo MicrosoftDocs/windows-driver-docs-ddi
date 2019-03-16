@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_MAPMDLTOIOMMU
-title: _DXGKARGCB_MAPMDLTOIOMMU
+title: _DXGKARGCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: Arguments used by the DXGKCB_MAPMDLTOIOMMU callback function.
 ms.assetid: 2dc0bd13-f7d3-44b4-a1da-ee05ff63d832
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_MAPMDLTOIOMMU
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_MAPMDLTOIOMMU
+- _DXGKARGCB_MAPMDLTOIOMMU
 product: 
 - Windows
 targetos: Windows

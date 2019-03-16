@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
-title: "_D3DKMT_GETCONTEXTSCHEDULINGPRIORITY"
+title: _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY (d3dkmthk.h)
 description: The D3DKMT_GETDEVICESCHEDULINGPRIORITY structure describes parameters for retrieving scheduling priority for a device context.
 old-location: display\d3dkmt_getcontextschedulingpriority.htm
 ms.assetid: ef60ba1c-6fff-4553-ba1c-97abbe48fed9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
+- D3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 product:
 - Windows
 targetos: Windows

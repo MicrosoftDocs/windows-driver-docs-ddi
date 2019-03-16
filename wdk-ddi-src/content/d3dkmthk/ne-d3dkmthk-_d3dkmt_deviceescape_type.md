@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICEESCAPE_TYPE
-title: _D3DKMT_DEVICEESCAPE_TYPE
+title: _D3DKMT_DEVICEESCAPE_TYPE (d3dkmthk.h)
 description: Device escape type.
 ms.assetid: d24e5059-9075-4448-8f85-aee583f9e92c
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_DEVICEESCAPE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEVICEESCAPE_TYPE
+- _D3DKMT_DEVICEESCAPE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

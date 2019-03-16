@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053 (d3d12umddi.h)
 description: The precision of motion vector components, supported by the driver.
 ms.assetid: 950be956-a0ac-46c6-9f57-ca9371bb94c4
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
+- D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

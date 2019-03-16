@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemPrintTicketProvider
-title: IPrintOemPrintTicketProvider
+title: IPrintOemPrintTicketProvider (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
 old-location: print\iprintoemprintticketprovider_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemPrintTicketProvider
+- IPrintOemPrintTicketProvider
 product:
 - Windows
 targetos: Windows

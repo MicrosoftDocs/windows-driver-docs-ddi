@@ -1,6 +1,6 @@
 ---
 UID: NE:gpioclx._CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
-title: "_CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
+title: _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE (gpioclx.h)
 description: The CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration type indicates what type of attribute information the GPIO framework extension (GpioClx) is requesting from the GPIO controller driver.
 old-location: gpio\client_controller_query_set_request_type.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+- CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

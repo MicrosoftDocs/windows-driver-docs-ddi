@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetHardErrorOrVerifyDevice
-title: IoSetHardErrorOrVerifyDevice function
+title: IoSetHardErrorOrVerifyDevice function (ntddk.h)
 description: Lower-level drivers call the IoSetHardErrorOrVerifyDevice routine to identify a removable media device that has encountered an error, so that a file system driver can prompt the user to verify that the medium is valid.
 old-location: kernel\iosetharderrororverifydevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetHardErrorOrVerifyDevice
+- IoSetHardErrorOrVerifyDevice
 product:
 - Windows
 targetos: Windows

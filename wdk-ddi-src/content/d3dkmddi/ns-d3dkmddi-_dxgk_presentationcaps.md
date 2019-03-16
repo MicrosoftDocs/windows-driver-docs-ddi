@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTATIONCAPS
-title: "_DXGK_PRESENTATIONCAPS"
+title: _DXGK_PRESENTATIONCAPS (d3dkmddi.h)
 description: The DXGK_PRESENTATIONCAPS structure identifies presentation capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_presentationcaps.htm
 ms.assetid: 38de4631-535f-4950-b361-d70f8c638c36
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PRESENTATIONCAPS
+- DXGK_PRESENTATIONCAPS
 product:
 - Windows
 targetos: Windows

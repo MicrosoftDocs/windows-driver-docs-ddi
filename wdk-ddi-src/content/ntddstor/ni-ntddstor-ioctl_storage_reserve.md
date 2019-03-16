@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_RESERVE
-title: IOCTL_STORAGE_RESERVE
+title: IOCTL_STORAGE_RESERVE (ntddstor.h)
 description: Claims a device for the exclusive use of the caller on a bus that supports multiple initiators and the concept of reserving a device, such as a SCSI bus.
 old-location: storage\ioctl_storage_reserve.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_RESERVE
+- IOCTL_STORAGE_RESERVE
 product:
 - Windows
 targetos: Windows

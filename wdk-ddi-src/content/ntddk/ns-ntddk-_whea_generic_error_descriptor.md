@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DESCRIPTOR
-title: "_WHEA_GENERIC_ERROR_DESCRIPTOR"
+title: _WHEA_GENERIC_ERROR_DESCRIPTOR (ntddk.h)
 description: The WHEA_GENERIC_ERROR_DESCRIPTOR structure describes a generic error source.
 old-location: whea\whea_generic_error_descriptor.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_GENERIC_ERROR_DESCRIPTOR
+- WHEA_GENERIC_ERROR_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

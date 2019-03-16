@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.RetrieveDevicePropertyStore
-title: IWDFDevice::RetrieveDevicePropertyStore
+title: IWDFDevice::RetrieveDevicePropertyStore (wudfddi.h)
 description: The RetrieveDevicePropertyStore method retrieves a property store interface that drivers can use to access the registry.
 old-location: wdf\iwdfdevice_retrievedevicepropertystore.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.RetrieveDevicePropertyStore
+- IWDFDevice.RetrieveDevicePropertyStore
 product:
 - Windows
 targetos: Windows

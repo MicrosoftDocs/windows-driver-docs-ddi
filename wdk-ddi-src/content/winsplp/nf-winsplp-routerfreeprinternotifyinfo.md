@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterFreePrinterNotifyInfo
-title: RouterFreePrinterNotifyInfo function
+title: RouterFreePrinterNotifyInfo function (winsplp.h)
 description: The print spooler's RouterFreePrinterNotifyInfo function deallocates a specified PRINTER_NOTIFY_INFO structure and its associated PRINTER_NOTIFY_INFO_DATA structure array.
 old-location: print\routerfreeprinternotifyinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RouterFreePrinterNotifyInfo
+- RouterFreePrinterNotifyInfo
 product:
 - Windows
 targetos: Windows

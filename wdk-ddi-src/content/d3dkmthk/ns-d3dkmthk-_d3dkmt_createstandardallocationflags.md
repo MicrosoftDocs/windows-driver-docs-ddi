@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATIONFLAGS
-title: "_D3DKMT_CREATESTANDARDALLOCATIONFLAGS"
+title: _D3DKMT_CREATESTANDARDALLOCATIONFLAGS (d3dkmthk.h)
 description: Used to create standard allocation flags.
 old-location: display\d3dkmt-createstandardallocationflags.htm
 ms.assetid: a1a4aa0c-2edc-48b9-ad49-c876be930955
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATESTANDARDALLOCATIONFLAGS
+- D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 product:
 - Windows
 targetos: Windows

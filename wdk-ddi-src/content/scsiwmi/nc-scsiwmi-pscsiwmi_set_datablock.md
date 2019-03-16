@@ -1,6 +1,6 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_SET_DATABLOCK
-title: PSCSIWMI_SET_DATABLOCK
+title: PSCSIWMI_SET_DATABLOCK (scsiwmi.h)
 description: A miniport driver's HwScsiWmiSetDataBlock routine is called to change all data items in a single instance of a data block.
 old-location: storage\hwscsiwmisetdatablock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	HwScsiWmiSetDataBlock
+- HwScsiWmiSetDataBlock
 product:
 - Windows
 targetos: Windows

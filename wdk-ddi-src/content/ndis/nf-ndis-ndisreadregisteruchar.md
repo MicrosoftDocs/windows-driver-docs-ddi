@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReadRegisterUchar
-title: NdisReadRegisterUchar macro
+title: NdisReadRegisterUchar macro (ndis.h)
 description: NdisReadRegisterUchar is called by the miniport driver to read a UCHAR from a memory-mapped device register.
 old-location: netvista\ndisreadregisteruchar.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisReadRegisterUchar
+- NdisReadRegisterUchar
 product:
 - Windows
 targetos: Windows

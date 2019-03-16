@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.GetStack
-title: IDataModelScriptDebug2::GetStack
+title: IDataModelScriptDebug2::GetStack (dbgmodel.h)
 description: The GetStack method gets the current call stack at the break position.
 ms.assetid: 5f780a6c-c765-4b6f-baa9-d8367bfdbbec
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.GetStack
-product: Windows
+- IDataModelScriptDebug2.GetStack
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

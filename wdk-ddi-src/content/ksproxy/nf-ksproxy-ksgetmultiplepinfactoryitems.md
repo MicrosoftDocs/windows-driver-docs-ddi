@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsGetMultiplePinFactoryItems
-title: KsGetMultiplePinFactoryItems function
+title: KsGetMultiplePinFactoryItems function (ksproxy.h)
 description: The KsGetMultiplePinFactoryItems function retrieves pin property items in a variable length data buffer.
 old-location: stream\ksgetmultiplepinfactoryitems.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsGetMultiplePinFactoryItems
+- KsGetMultiplePinFactoryItems
 product:
 - Windows
 targetos: Windows

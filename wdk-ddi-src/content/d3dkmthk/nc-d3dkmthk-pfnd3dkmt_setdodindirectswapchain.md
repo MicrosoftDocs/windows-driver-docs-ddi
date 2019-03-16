@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETDODINDIRECTSWAPCHAIN
-title: PFND3DKMT_SETDODINDIRECTSWAPCHAIN
+title: PFND3DKMT_SETDODINDIRECTSWAPCHAIN (d3dkmthk.h)
 description: The PFND3DKMT_SETDODINDIRECTSWAPCHAIN callback function sets indirect swap chain resources.
 ms.assetid: 51e5a965-48a0-4a1b-a4a9-5b6f590b30c2
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SETDODINDIRECTSWAPCHAIN
+- PFND3DKMT_SETDODINDIRECTSWAPCHAIN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

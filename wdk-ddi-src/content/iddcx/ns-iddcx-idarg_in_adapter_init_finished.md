@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTER_INIT_FINISHED
-title: IDARG_IN_ADAPTER_INIT_FINISHED
+title: IDARG_IN_ADAPTER_INIT_FINISHED (iddcx.h)
 description: Gives the status of the adapter initialization.
 old-location: display\idarg_in_adapter_init_finished.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_ADAPTER_INIT_FINISHED
+- IDARG_IN_ADAPTER_INIT_FINISHED
 product:
 - Windows
 targetos: Windows

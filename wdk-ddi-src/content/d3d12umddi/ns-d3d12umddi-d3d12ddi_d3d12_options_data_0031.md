@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0031
-title: D3D12DDI_D3D12_OPTIONS_DATA_0031
+title: D3D12DDI_D3D12_OPTIONS_DATA_0031 (d3d12umddi.h)
 description: Display options data.
 old-location: display\d3d12ddi-d3d12-options-data-0031.htm
 ms.assetid: 3e60f42a-ea95-4876-b370-5c2f0585dc97
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_D3D12_OPTIONS_DATA_0031
+- D3D12DDI_D3D12_OPTIONS_DATA_0031
 product:
 - Windows
 targetos: Windows

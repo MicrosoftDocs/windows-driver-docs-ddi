@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_FRAGMENT
-title: _NET_PACKET_FRAGMENT
+title: _NET_PACKET_FRAGMENT (netpacket.h)
 description: Represents one contiguous buffer in memory.
 tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_FRAGMENT, *PNET_PACKET_FRAGMENT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpacket.h
-apiname: 
--	NET_PACKET_FRAGMENT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpacket.h
+api_name: 
+- NET_PACKET_FRAGMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

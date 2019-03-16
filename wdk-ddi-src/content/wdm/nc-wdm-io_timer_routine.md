@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_TIMER_ROUTINE
-title: IO_TIMER_ROUTINE
+title: IO_TIMER_ROUTINE (wdm.h)
 description: The IoTimer routine is a DPC that, if registered, is called once per second.
 old-location: kernel\iotimer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoTimer
+- IoTimer
 product:
 - Windows
 targetos: Windows

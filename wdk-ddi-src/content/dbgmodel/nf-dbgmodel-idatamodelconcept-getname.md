@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.GetName
-title: IDataModelConcept::GetName
+title: IDataModelConcept::GetName (dbgmodel.h)
 description: If a given data model is registered under a default name via the RegisterNamedModel method, the registered data model's IDataModelConcept interface must return that name from this method.
 ms.assetid: 963ade84-243f-419e-979e-6f8aed2ff596
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelConcept.GetName
-product: Windows
+- IDataModelConcept.GetName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

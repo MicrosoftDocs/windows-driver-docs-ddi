@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeTryToAcquireSpinLockAtDpcLevel
-title: KeTryToAcquireSpinLockAtDpcLevel function
+title: KeTryToAcquireSpinLockAtDpcLevel function (wdm.h)
 description: The KeTryToAcquireSpinLockAtDpcLevel routine attempts to acquire a spin lock at DISPATCH_LEVEL.
 old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeTryToAcquireSpinLockAtDpcLevel
+- KeTryToAcquireSpinLockAtDpcLevel
 product:
 - Windows
 targetos: Windows

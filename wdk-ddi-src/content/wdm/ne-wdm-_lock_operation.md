@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._LOCK_OPERATION
-title: "_LOCK_OPERATION"
+title: _LOCK_OPERATION (wdm.h)
 description: The LOCK_OPERATION enumeration specifies the type of access that is appropriate for a type of I/O operation.
 old-location: ifsk\lock_operation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	LOCK_OPERATION
+- LOCK_OPERATION
 product:
 - Windows
 targetos: Windows

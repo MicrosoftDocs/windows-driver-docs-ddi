@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetBindingCapability_OUT
-title: "_GetBindingCapability_OUT"
+title: _GetBindingCapability_OUT (hbapiwmi.h)
 description: The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingCapability WMI method to the WMI client.
 old-location: storage\getbindingcapability_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetBindingCapability_OUT
+- GetBindingCapability_OUT
 product:
 - Windows
 targetos: Windows

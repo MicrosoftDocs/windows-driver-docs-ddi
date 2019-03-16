@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeDeleteTimerParameters
-title: ExInitializeDeleteTimerParameters function
+title: ExInitializeDeleteTimerParameters function (wdm.h)
 description: The ExInitializeDeleteTimerParameters routine initializes an EXT_DELETE_PARAMETERS structure.
 old-location: kernel\exinitializedeletetimerparameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ExInitializeDeleteTimerParameters
+- ExInitializeDeleteTimerParameters
 product:
 - Windows
 targetos: Windows

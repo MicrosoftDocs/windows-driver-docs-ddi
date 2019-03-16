@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_MICR_INFO
-title: "_WIA_MICR_INFO"
+title: _WIA_MICR_INFO (wiadef.h)
 description: The WIA_MICR_INFO structure stores information for one decoded MICR code.
 old-location: image\wia_micr_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadef.h
+- wiadef.h
 api_name:
--	WIA_MICR_INFO
+- WIA_MICR_INFO
 product:
 - Windows
 targetos: Windows

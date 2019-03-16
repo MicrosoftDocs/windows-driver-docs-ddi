@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapLockedPagesWithReservedMapping
-title: MmMapLockedPagesWithReservedMapping function
+title: MmMapLockedPagesWithReservedMapping function (wdm.h)
 description: The MmMapLockedPagesWithReservedMapping routine maps all or part of an address range that was previously reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmmaplockedpageswithreservedmapping.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmMapLockedPagesWithReservedMapping
+- MmMapLockedPagesWithReservedMapping
 product:
 - Windows
 targetos: Windows

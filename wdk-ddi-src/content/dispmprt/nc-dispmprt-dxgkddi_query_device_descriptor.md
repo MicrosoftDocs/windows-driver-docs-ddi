@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_DEVICE_DESCRIPTOR
-title: DXGKDDI_QUERY_DEVICE_DESCRIPTOR
+title: DXGKDDI_QUERY_DEVICE_DESCRIPTOR (dispmprt.h)
 description: The DxgkDdiQueryDeviceDescriptor function returns a descriptor for a child device of a display adapter or for an external device (typically a monitor) connected to a child device of a display adapter.
 old-location: display\dxgkddiquerydevicedescriptor.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiQueryDeviceDescriptor
+- DxgkDdiQueryDeviceDescriptor
 product:
 - Windows
 targetos: Windows

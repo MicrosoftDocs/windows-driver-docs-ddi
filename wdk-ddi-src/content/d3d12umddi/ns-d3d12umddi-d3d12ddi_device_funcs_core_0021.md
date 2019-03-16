@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0021
-title: D3D12DDI_DEVICE_FUNCS_CORE_0021
+title: D3D12DDI_DEVICE_FUNCS_CORE_0021 (d3d12umddi.h)
 description: Specifies core device functions.
 old-location: display\d3d12ddi_device_funcs_core_0021.htm
 ms.assetid: 4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_DEVICE_FUNCS_CORE_0021
+- D3D12DDI_DEVICE_FUNCS_CORE_0021
 product:
 - Windows
 targetos: Windows

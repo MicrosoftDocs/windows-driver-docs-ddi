@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_CLOSED
-title: EVT_VMB_CHANNEL_CLOSED
+title: EVT_VMB_CHANNEL_CLOSED (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelClosed callback function is invoked when the client endpoint in the guest virtual machine closes a channel by using the VmbChannelDisable function, or the opposite endpoint rescinds or closes the channel.
 old-location: netvista\evt_vmb_channel_closed.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	VmbusKernelModeClientLibApi.h
+- VmbusKernelModeClientLibApi.h
 api_name:
--	PFN_VMB_CHANNEL_CLOSED
+- PFN_VMB_CHANNEL_CLOSED
 product:
 - Windows
 targetos: Windows

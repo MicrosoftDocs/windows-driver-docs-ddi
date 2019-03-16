@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPinEx
-title: IKsPinEx
+title: IKsPinEx (ksproxy.h)
 description: The IKsPinEx interface inherits all the methods of the IKsPin interface and extends IKsPin to provide a method that notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	IKsPinEx
+- IKsPinEx
 product:
 - Windows
 targetos: Windows

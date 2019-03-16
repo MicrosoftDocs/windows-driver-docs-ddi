@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetQueryInformationParameters
-title: IWDFIoRequest2::GetQueryInformationParameters
+title: IWDFIoRequest2::GetQueryInformationParameters (wudfddi.h)
 description: The GetQueryInformationParameters method retrieves parameters that are associated with a WdfRequestQueryInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getqueryinformationparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.GetQueryInformationParameters
+- IWDFIoRequest2.GetQueryInformationParameters
 product:
 - Windows
 targetos: Windows

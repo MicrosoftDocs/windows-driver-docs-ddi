@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetManagedStatusWide
-title: IDebugControl4::GetManagedStatusWide
+title: IDebugControl4::GetManagedStatusWide (dbgeng.h)
 description: Provides feedback as a Unicode character string on the engine's use of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_getmanagedstatuswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetManagedStatusWide
+- IDebugControl4.GetManagedStatusWide
 product:
 - Windows
 targetos: Windows

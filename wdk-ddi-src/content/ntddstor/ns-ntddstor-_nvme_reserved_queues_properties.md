@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_PROPERTIES
-title: _NVME_RESERVED_QUEUES_PROPERTIES
+title: _NVME_RESERVED_QUEUES_PROPERTIES (ntddstor.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 
@@ -22,15 +22,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_QUEUES_PROPERTIES, *PNVME_RESERVED_QUEUES_PROPERTIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_QUEUES_PROPERTIES
+- _NVME_RESERVED_QUEUES_PROPERTIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

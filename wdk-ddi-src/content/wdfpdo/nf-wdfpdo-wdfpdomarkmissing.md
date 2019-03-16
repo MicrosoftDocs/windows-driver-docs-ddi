@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoMarkMissing
-title: WdfPdoMarkMissing function
+title: WdfPdoMarkMissing function (wdfpdo.h)
 description: The WdfPdoMarkMissing method informs the framework that a device is no longer accessible.
 old-location: wdf\wdfpdomarkmissing.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoMarkMissing
+- WdfPdoMarkMissing
 product:
 - Windows
 targetos: Windows

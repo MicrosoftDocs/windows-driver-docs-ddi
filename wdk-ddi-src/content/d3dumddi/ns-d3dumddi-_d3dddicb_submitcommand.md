@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMAND
-title: "_D3DDDICB_SUBMITCOMMAND"
+title: _D3DDDICB_SUBMITCOMMAND (d3dumddi.h)
 description: The D3DDDICB_SUBMITCOMMAND structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dddicb_submitcommand.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_SUBMITCOMMAND
+- D3DDDICB_SUBMITCOMMAND
 product:
 - Windows
 targetos: Windows

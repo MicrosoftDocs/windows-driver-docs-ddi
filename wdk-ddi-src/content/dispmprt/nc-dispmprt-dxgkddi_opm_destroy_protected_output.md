@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT
-title: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT
+title: DXGKDDI_OPM_DESTROY_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMDestroyProtectedOutput function destroys the given protected output object.
 old-location: display\dxgkddiopmdestroyprotectedoutput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiOPMDestroyProtectedOutput
+- DxgkDdiOPMDestroyProtectedOutput
 product:
 - Windows
 targetos: Windows

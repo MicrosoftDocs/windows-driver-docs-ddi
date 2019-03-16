@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetConcept
-title: IModelObject::GetConcept
+title: IModelObject::GetConcept (dbgmodel.h)
 description: The GetConcept method will search for a concept on the object (or its parent model chain) and return an interface pointer to the concept interface.
 ms.assetid: eab33f82-a73f-46d8-9c12-d06c28869290
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetConcept
-product: Windows
+- IModelObject.GetConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

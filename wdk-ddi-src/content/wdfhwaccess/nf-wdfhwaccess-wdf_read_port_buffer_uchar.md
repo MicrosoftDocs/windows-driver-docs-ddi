@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_PORT_BUFFER_UCHAR
-title: WDF_READ_PORT_BUFFER_UCHAR function
+title: WDF_READ_PORT_BUFFER_UCHAR function (wdfhwaccess.h)
 description: The WDF_READ_PORT_BUFFER_UCHAR function reads a number of bytes from the specified port address into a buffer.
 old-location: wdf\wdf_read_port_buffer_uchar.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfhwaccess.h
+- Wdfhwaccess.h
 api_name:
--	WDF_READ_PORT_BUFFER_UCHAR
+- WDF_READ_PORT_BUFFER_UCHAR
 product:
 - Windows
 targetos: Windows

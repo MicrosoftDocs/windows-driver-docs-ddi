@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxReportDevicePoweredOn
-title: PoFxReportDevicePoweredOn function
+title: PoFxReportDevicePoweredOn function (wdm.h)
 description: The PoFxReportDevicePoweredOn routine notifies the power management framework (PoFx) that the device completed the requested transition to the D0 (fully on) power state.
 old-location: kernel\pofxreportdevicepoweredon.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxReportDevicePoweredOn
+- PoFxReportDevicePoweredOn
 product:
 - Windows
 targetos: Windows

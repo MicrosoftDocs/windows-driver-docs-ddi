@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceChannelMute
-title: IMiniportAudioEngineNode::SetDeviceChannelMute
+title: IMiniportAudioEngineNode::SetDeviceChannelMute (portcls.h)
 description: Sets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_setdevicechannelmute.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.SetDeviceChannelMute
+- IMiniportAudioEngineNode.SetDeviceChannelMute
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_PEER_BACKLOG
-title: MINIPORT_WDI_TX_PEER_BACKLOG
+title: MINIPORT_WDI_TX_PEER_BACKLOG (dot11wdi.h)
 description: The MiniportWdiTxPeerBacklog handler function is issued when a paused peer has a change in backlog state.
 old-location: netvista\miniportwditxpeerbacklog.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTxPeerBacklog
+- MiniportWdiTxPeerBacklog
 product:
 - Windows
 targetos: Windows

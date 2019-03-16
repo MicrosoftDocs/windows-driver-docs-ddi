@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETRENDERTARGET2
-title: "_D3DHAL_DP2SETRENDERTARGET2"
+title: _D3DHAL_DP2SETRENDERTARGET2 (d3dhal.h)
 description: The D3DHAL_DP2SETRENDERTARGET2 structure is used with the D3DDP2OP_SETRENDERTARGET2 opcode to map a portion of a rendering target surface and depth buffer in the current context.
 old-location: display\d3dhal_dp2setrendertarget2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2SETRENDERTARGET2
+- D3DHAL_DP2SETRENDERTARGET2
 product:
 - Windows
 targetos: Windows

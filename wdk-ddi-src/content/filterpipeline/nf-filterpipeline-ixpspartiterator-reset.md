@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Reset
-title: IXpsPartIterator::Reset
+title: IXpsPartIterator::Reset (filterpipeline.h)
 description: The Reset method sets the iterator to the first element.
 old-location: print\ixpspartiterator_reset.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IXpsPartIterator.Reset
+- IXpsPartIterator.Reset
 product:
 - Windows
 targetos: Windows

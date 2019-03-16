@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_ENUM_FILTERS
-title: "_NDIS_ENUM_FILTERS"
+title: _NDIS_ENUM_FILTERS (ndis.h)
 description: The NDIS_ENUM_FILTERS structure is returned from the call to the NdisEnumerateFilterModules function to provide filter information for a filter stack.
 old-location: netvista\ndis_enum_filters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_ENUM_FILTERS
+- NDIS_ENUM_FILTERS
 product:
 - Windows
 targetos: Windows

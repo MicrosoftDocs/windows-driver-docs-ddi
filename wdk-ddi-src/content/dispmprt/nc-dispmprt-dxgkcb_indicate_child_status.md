@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_INDICATE_CHILD_STATUS
-title: DXGKCB_INDICATE_CHILD_STATUS
+title: DXGKCB_INDICATE_CHILD_STATUS (dispmprt.h)
 description: The DxgkCbIndicateChildStatus function records the current status of a specified child device of a display adapter.
 old-location: display\dxgkcbindicatechildstatus.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbIndicateChildStatus
+- DxgkCbIndicateChildStatus
 product:
 - Windows
 targetos: Windows

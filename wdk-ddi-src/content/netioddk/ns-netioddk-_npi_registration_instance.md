@@ -1,6 +1,6 @@
 ---
 UID: NS:netioddk._NPI_REGISTRATION_INSTANCE
-title: "_NPI_REGISTRATION_INSTANCE"
+title: _NPI_REGISTRATION_INSTANCE (netioddk.h)
 description: The NPI_REGISTRATION_INSTANCE structure defines the data related to the registration of a network module with the NMR.
 old-location: netvista\npi_registration_instance.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	NPI_REGISTRATION_INSTANCE
+- NPI_REGISTRATION_INSTANCE
 product:
 - Windows
 targetos: Windows

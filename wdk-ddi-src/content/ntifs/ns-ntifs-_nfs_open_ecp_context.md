@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NFS_OPEN_ECP_CONTEXT
-title: "_NFS_OPEN_ECP_CONTEXT"
+title: _NFS_OPEN_ECP_CONTEXT (ntifs.h)
 description: The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) server to open files in response to client requests.
 old-location: ifsk\nfs_open_ecp_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	NFS_OPEN_ECP_CONTEXT
+- NFS_OPEN_ECP_CONTEXT
 product:
 - Windows
 targetos: Windows

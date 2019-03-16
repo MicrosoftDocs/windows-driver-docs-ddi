@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinSetPinClockTime
-title: KsPinSetPinClockTime function
+title: KsPinSetPinClockTime function (ks.h)
 description: The KsPinSetPinClockTime function sets the current time on the clock exposed by Pin.
 old-location: stream\kspinsetpinclocktime.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinSetPinClockTime
+- KsPinSetPinClockTime
 product:
 - Windows
 targetos: Windows

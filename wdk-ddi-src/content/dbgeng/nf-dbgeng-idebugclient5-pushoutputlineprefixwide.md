@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PushOutputLinePrefixWide
-title: IDebugClient5::PushOutputLinePrefixWide
+title: IDebugClient5::PushOutputLinePrefixWide (dbgeng.h)
 description: Saves a wide string output line prefix.
 old-location: debugger\idebugclient5_pushoutputlineprefixwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.PushOutputLinePrefixWide
+- IDebugClient5.PushOutputLinePrefixWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:bidispl.IBidiRequest
-title: IBidiRequest
+title: IBidiRequest (bidispl.h)
 description: The IBidiRequest interface allows an application or other objects to compose a bidi request.
 old-location: print\ibidirequest.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Bidispl.h
+- Bidispl.h
 api_name:
--	IBidiRequest
+- IBidiRequest
 product:
 - Windows
 targetos: Windows

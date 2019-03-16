@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointInitFree
-title: UdecxUsbEndpointInitFree function
+title: UdecxUsbEndpointInitFree function (udecxusbendpoint.h)
 description: Release the resources that were allocated by the UdecxUsbSimpleEndpointInitAllocate call.
 old-location: buses\udecxusbendpointinitfree.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbEndpointInitFree
+- UdecxUsbEndpointInitFree
 product:
 - Windows
 targetos: Windows

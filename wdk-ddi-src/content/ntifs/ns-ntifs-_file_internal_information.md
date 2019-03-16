@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_INTERNAL_INFORMATION
-title: "_FILE_INTERNAL_INFORMATION"
+title: _FILE_INTERNAL_INFORMATION (ntifs.h)
 description: The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file.
 old-location: ifsk\file_internal_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_INTERNAL_INFORMATION
+- FILE_INTERNAL_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAttachVolume
-title: FltAttachVolume function
+title: FltAttachVolume function (fltkernel.h)
 description: FltAttachVolume creates a new minifilter driver instance and attaches it to the given volume.
 old-location: ifsk\fltattachvolume.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAttachVolume
+- FltAttachVolume
 product:
 - Windows
 targetos: Windows

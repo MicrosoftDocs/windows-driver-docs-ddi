@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DESCRIBEALLOCATIONFLAGS
-title: "_DXGK_DESCRIBEALLOCATIONFLAGS"
+title: _DXGK_DESCRIBEALLOCATIONFLAGS (d3dkmddi.h)
 description: Used in the DXGKARG_DESCRIBEALLOCATION.Flags member to describe whether an existing allocation is being queried for its display mode.
 old-location: display\dxgk_describeallocationflags.htm
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_DESCRIBEALLOCATIONFLAGS
+- DXGK_DESCRIBEALLOCATIONFLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvWriteSpoolBuf
-title: PFN_DrvWriteSpoolBuf
+title: PFN_DrvWriteSpoolBuf (printoem.h)
 description: The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete.
 old-location: print\drvwritespoolbuf.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvWriteSpoolBuf
+- DrvWriteSpoolBuf
 product:
 - Windows
 targetos: Windows

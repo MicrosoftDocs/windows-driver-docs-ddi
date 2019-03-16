@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
-title: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function
+title: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
+- NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 product:
 - Windows
 targetos: Windows

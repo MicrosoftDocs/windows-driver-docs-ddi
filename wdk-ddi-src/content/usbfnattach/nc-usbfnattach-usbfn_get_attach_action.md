@@ -1,6 +1,6 @@
 ---
 UID: NC:usbfnattach.USBFN_GET_ATTACH_ACTION
-title: USBFN_GET_ATTACH_ACTION
+title: USBFN_GET_ATTACH_ACTION (usbfnattach.h)
 description: The filter driver's implementation that gets invoked when charger is attached to the port.
 old-location: buses\usbfn_get_attach_action.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	PFN_USBFN_GET_ATTACH_ACTION
+- PFN_USBFN_GET_ATTACH_ACTION
 product:
 - Windows
 targetos: Windows

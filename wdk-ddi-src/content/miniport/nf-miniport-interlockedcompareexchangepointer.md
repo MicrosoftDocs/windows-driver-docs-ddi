@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.InterlockedCompareExchangePointer
-title: InterlockedCompareExchangePointer function
+title: InterlockedCompareExchangePointer function (miniport.h)
 description: The InterlockedCompareExchangePointer routine performs an atomic operation that compares the input pointer value pointed to by Destination with the pointer value Comparand.
 old-location: kernel\interlockedcompareexchangepointer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	InterlockedCompareExchangePointer
+- InterlockedCompareExchangePointer
 product:
 - Windows
 targetos: Windows

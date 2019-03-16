@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEDEVICE
-title: PFND3DDDI_CREATEDEVICE
+title: PFND3DDDI_CREATEDEVICE (d3dumddi.h)
 description: The CreateDevice function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CreateDevice
+- CreateDevice
 product:
 - Windows
 targetos: Windows

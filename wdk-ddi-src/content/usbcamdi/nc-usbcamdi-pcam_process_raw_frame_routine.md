@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_PROCESS_RAW_FRAME_ROUTINE
-title: PCAM_PROCESS_RAW_FRAME_ROUTINE
+title: PCAM_PROCESS_RAW_FRAME_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamProcessRawVideoFrame callback function decodes a raw video frame.
 old-location: stream\camprocessrawvideoframe.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	CamProcessRawVideoFrame
+- CamProcessRawVideoFrame
 product:
 - Windows
 targetos: Windows

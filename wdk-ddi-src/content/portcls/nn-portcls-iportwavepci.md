@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortWavePci
-title: IPortWavePci
+title: IPortWavePci (portcls.h)
 description: The IPortWavePci interface is the WavePci port driver's primary interface.
 old-location: audio\iportwavepci.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWavePci
+- IPortWavePci
 product:
 - Windows
 targetos: Windows

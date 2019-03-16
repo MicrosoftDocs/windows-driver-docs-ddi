@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._EMULATOR_ACCESS_ENTRY
-title: "_EMULATOR_ACCESS_ENTRY"
+title: _EMULATOR_ACCESS_ENTRY (dispmprt.h)
 description: The EMULATOR_ACCESS_ENTRY structure specifies an element in the EmulatorAccessEntries array set up in the VIDEO_PORT_CONFIG_INFO structure by drivers of VGA-compatible (SVGA) adapters on x86-based NT-based operating system platforms.
 old-location: display\emulator_access_entry.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	EMULATOR_ACCESS_ENTRY
+- EMULATOR_ACCESS_ENTRY
 product:
 - Windows
 targetos: Windows

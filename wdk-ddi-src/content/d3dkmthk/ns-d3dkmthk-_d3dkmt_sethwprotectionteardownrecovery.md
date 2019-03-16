@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
-title: _D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
+title: _D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY (d3dkmthk.h)
 description: Used to set the hardware protection tear down recovery.
 ms.assetid: 8e287296-7d3b-4ff6-9550-21feafb039e4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
+- _D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

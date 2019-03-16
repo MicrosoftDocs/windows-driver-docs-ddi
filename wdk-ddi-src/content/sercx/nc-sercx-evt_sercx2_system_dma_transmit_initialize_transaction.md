@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION
-title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION
+title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a system-DMA-transmit transaction.
 old-location: serports\evtsercx2systemdmatransmitinitializetransaction.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2SystemDmaTransmitInitializeTransaction
+- EvtSerCx2SystemDmaTransmitInitializeTransaction
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Add
-title: IWDTFStrings2::Add
+title: IWDTFStrings2::Add (wdtf.h)
 description: Adds a single string to the collection.
 old-location: dtf\iwdtfstrings2_add.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFStrings2.Add
+- IWDTFStrings2.Add
 product:
 - Windows
 targetos: Windows

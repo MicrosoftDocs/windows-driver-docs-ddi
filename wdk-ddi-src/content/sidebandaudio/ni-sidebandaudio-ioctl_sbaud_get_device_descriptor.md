@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
-title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
+title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR (sidebandaudio.h)
 description: 
 ms.assetid: 3cbc7c1d-7540-44a7-bb02-85f0556c308d
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
-product: Windows
+- IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchIncomingCallQoSChange
-title: NdisCmDispatchIncomingCallQoSChange function
+title: NdisCmDispatchIncomingCallQoSChange function (ndis.h)
 description: NdisCmDispatchIncomingCallQoSChange notifies a client that a request to change the quality of service on that client's active connection has been received over the network.
 old-location: netvista\ndiscmdispatchincomingcallqoschange.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCmDispatchIncomingCallQoSChange
+- NdisCmDispatchIncomingCallQoSChange
 product:
 - Windows
 targetos: Windows

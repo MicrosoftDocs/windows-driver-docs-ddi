@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.SetKey
-title: IKeyStore::SetKey
+title: IKeyStore::SetKey (dbgmodel.h)
 description: The SetKey method is analogous to the SetKey method on IModelObject.
 ms.assetid: ad29e237-ecce-4109-9b5e-24b914ca8bb7
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyStore.SetKey
-product: Windows
+- IKeyStore.SetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

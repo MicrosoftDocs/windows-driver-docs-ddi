@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_NAMES_INFORMATION
-title: "_FILE_NAMES_INFORMATION"
+title: _FILE_NAMES_INFORMATION (ntifs.h)
 description: A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
 old-location: ifsk\file_names_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_NAMES_INFORMATION
+- FILE_NAMES_INFORMATION
 product:
 - Windows
 targetos: Windows

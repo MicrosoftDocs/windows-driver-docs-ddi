@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetCorrelatedTime
-title: IKsClockPropertySet::KsSetCorrelatedTime
+title: IKsClockPropertySet::KsSetCorrelatedTime (ksproxy.h)
 description: The KsSetCorrelatedTime method sets the current time with the correlated system time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetcorrelatedtime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsSetCorrelatedTime
+- IKsClockPropertySet.KsSetCorrelatedTime
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_UPDATE_SA
-title: "_IPSEC_OFFLOAD_V2_UPDATE_SA"
+title: _IPSEC_OFFLOAD_V2_UPDATE_SA (ndis.h)
 description: The IPSEC_OFFLOAD_V2_UPDATE_SA structure updates information about security associations (SAs) that a miniport driver previously added to a NIC and a pointer to the next IPSEC_OFFLOAD_V2_UPDATE_SA structure in a linked list.
 old-location: netvista\ipsec_offload_v2_update_sa.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	IPSEC_OFFLOAD_V2_UPDATE_SA
+- IPSEC_OFFLOAD_V2_UPDATE_SA
 product:
 - Windows
 targetos: Windows

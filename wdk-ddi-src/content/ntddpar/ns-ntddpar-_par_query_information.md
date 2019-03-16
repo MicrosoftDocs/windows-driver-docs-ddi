@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpar._PAR_QUERY_INFORMATION
-title: "_PAR_QUERY_INFORMATION"
+title: _PAR_QUERY_INFORMATION (ntddpar.h)
 description: The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel port.
 old-location: parports\par_query_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	PAR_QUERY_INFORMATION
+- PAR_QUERY_INFORMATION
 product:
 - Windows
 targetos: Windows

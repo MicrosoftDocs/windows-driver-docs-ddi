@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_GET_DESCRIPTOR
-title: "_USBSCAN_GET_DESCRIPTOR"
+title: _USBSCAN_GET_DESCRIPTOR (usbscan.h)
 description: The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_USB_DESCRIPTOR.
 old-location: image\usbscan_get_descriptor.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	USBSCAN_GET_DESCRIPTOR
+- USBSCAN_GET_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
-title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
+title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 (d3d12umddi.h)
 description: Specifies arguments used to create a video processor.
 old-location: display\d3d12ddiarg_create_video_processor.htm
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
+- D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 product:
 - Windows
 targetos: Windows

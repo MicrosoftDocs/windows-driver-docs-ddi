@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDQUEUE
-title: PFND3D12DDI_DESTROYCOMMANDQUEUE
+title: PFND3D12DDI_DESTROYCOMMANDQUEUE (d3d12umddi.h)
 description: Destroys a command queue.
 ms.assetid: 751d9b9d-9f0e-4ded-a15a-cae5efeea015
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYCOMMANDQUEUE
+- PFND3D12DDI_DESTROYCOMMANDQUEUE
 product: 
 - Windows
 targetos: Windows

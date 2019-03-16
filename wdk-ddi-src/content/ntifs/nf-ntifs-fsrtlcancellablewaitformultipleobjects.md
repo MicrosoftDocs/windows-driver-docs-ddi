@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCancellableWaitForMultipleObjects
-title: FsRtlCancellableWaitForMultipleObjects function
+title: FsRtlCancellableWaitForMultipleObjects function (ntifs.h)
 description: The FsRtlCancellableWaitForMultipleObjects routine executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlCancellableWaitForMultipleObjects
+- FsRtlCancellableWaitForMultipleObjects
 product:
 - Windows
 targetos: Windows

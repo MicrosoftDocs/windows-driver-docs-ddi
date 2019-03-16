@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
-title: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function
+title: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function (sensorsdef.h)
 description: This function calculates the number of PROPERTYKEY elements.
 old-location: sensors\sensor_property_list_calculate_max_count.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
+- SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 product:
 - Windows
 targetos: Windows

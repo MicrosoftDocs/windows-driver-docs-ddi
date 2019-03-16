@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClNotifyCloseAddressFamilyComplete
-title: NdisClNotifyCloseAddressFamilyComplete function
+title: NdisClNotifyCloseAddressFamilyComplete function (ndis.h)
 description: The NdisClNotifyCloseAddressFamilyComplete function returns the final status of an address family (AF) close operation for which the caller's ProtocolClNotifyCloseAf function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndisclnotifycloseaddressfamilycomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisClNotifyCloseAddressFamilyComplete
+- NdisClNotifyCloseAddressFamilyComplete
 product:
 - Windows
 targetos: Windows

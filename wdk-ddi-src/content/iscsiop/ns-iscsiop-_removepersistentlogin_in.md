@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemovePersistentLogin_IN
-title: "_RemovePersistentLogin_IN"
+title: _RemovePersistentLogin_IN (iscsiop.h)
 description: The RemovePersistentLogin_IN structure holds the input data for the RemovePersistentLogin method, which is used to remove persistent login information.
 old-location: storage\removepersistentlogin_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemovePersistentLogin_IN
+- RemovePersistentLogin_IN
 product:
 - Windows
 targetos: Windows

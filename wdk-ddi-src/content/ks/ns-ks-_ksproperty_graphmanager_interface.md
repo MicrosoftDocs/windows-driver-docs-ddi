@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPROPERTY_GRAPHMANAGER_INTERFACE
-title: "_KSPROPERTY_GRAPHMANAGER_INTERFACE"
+title: _KSPROPERTY_GRAPHMANAGER_INTERFACE (ks.h)
 description: 
 old-location: stream\ksproperty_graphmanager_interface.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_GRAPHMANAGER_INTERFACE
+- KSPROPERTY_GRAPHMANAGER_INTERFACE
 product:
 - Windows
 targetos: Windows

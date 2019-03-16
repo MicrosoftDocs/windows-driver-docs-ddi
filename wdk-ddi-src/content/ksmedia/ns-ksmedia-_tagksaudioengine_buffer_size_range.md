@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSAUDIOENGINE_BUFFER_SIZE_RANGE
-title: "_tagKSAUDIOENGINE_BUFFER_SIZE_RANGE"
+title: _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE (ksmedia.h)
 description: The KSAUDIOENGINE_BUFFER_SIZE_RANGE structure specifies the minimum and maximum buffer size that the hardware audio engine can support at the instance when it is called.
 old-location: audio\ksaudio_buffer_limits.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOENGINE_BUFFER_SIZE_RANGE
+- KSAUDIOENGINE_BUFFER_SIZE_RANGE
 product:
 - Windows
 targetos: Windows

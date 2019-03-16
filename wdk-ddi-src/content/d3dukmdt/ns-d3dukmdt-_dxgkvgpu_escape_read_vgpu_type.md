@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_READ_VGPU_TYPE
-title: "_DXGKVGPU_ESCAPE_READ_VGPU_TYPE"
+title: _DXGKVGPU_ESCAPE_READ_VGPU_TYPE (d3dukmdt.h)
 description: A structure used to read the VGPU type of an escape.
 old-location: display\dxgkvgpu_escape_read_vgpu_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	DXGKVGPU_ESCAPE_READ_VGPU_TYPE
+- DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 product:
 - Windows
 targetos: Windows

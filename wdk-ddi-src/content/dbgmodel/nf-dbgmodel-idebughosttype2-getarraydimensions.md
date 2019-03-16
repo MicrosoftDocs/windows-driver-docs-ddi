@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetArrayDimensions
-title: IDebugHostType2::GetArrayDimensions
+title: IDebugHostType2::GetArrayDimensions (dbgmodel.h)
 description: The GetArrayDimensions method returns a set of descriptors, one for each dimension of the array as indicated by the GetArrayDimensionality method.
 ms.assetid: 9d8a0a77-4599-4a86-acb5-6f5bd9563fa4
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetArrayDimensions
-product: Windows
+- IDebugHostType2.GetArrayDimensions
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

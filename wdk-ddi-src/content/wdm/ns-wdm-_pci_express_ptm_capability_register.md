@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_PTM_CAPABILITY_REGISTER
-title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
+title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: 5149d900-1122-4330-a03f-8d3ac5fce330
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_PTM_CAPABILITY_REGISTER, *PPCI_EXPRESS_PTM_CAPABILITY_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_PCI_EXPRESS_PTM_CAPABILITY_REGISTER
-product: Windows
+- _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

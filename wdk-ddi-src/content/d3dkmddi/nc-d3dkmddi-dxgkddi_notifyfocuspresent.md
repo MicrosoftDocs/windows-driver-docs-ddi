@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_NOTIFYFOCUSPRESENT
-title: DXGKDDI_NOTIFYFOCUSPRESENT
+title: DXGKDDI_NOTIFYFOCUSPRESENT (d3dkmddi.h)
 description: Notifies the GPU scheduler of a particular Present N, and the GPU scheduler will in turn perform the yield check on all GPU nodes and run a yield algorithm if necessary.
 ms.assetid: a2d25102-5181-4fb7-abcc-fb0669d9d95c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_NOTIFYFOCUSPRESENT
+- DXGKDDI_NOTIFYFOCUSPRESENT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

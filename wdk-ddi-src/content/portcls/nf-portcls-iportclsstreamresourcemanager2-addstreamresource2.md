@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsStreamResourceManager2.AddStreamResource2
-title: IPortClsStreamResourceManager2::AddStreamResource2
+title: IPortClsStreamResourceManager2::AddStreamResource2 (portcls.h)
 description: AddStreamResource2 adds a stream resource. Two type of stream resources are supported:\_interrupts and driver-owned threads. The AddStreamResource2 method can only be used by audio waveRT miniport drivers.
 old-location: audio\iportclsstreamresourcemanager2_addstreamresource2.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	IPortClsStreamResourceManager2.AddStreamResource2
+- IPortClsStreamResourceManager2.AddStreamResource2
 product:
 - Windows
 targetos: Windows

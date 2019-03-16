@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CHECK_ENTITLEMENTTOKEN
-title: "_BDA_CAS_CHECK_ENTITLEMENTTOKEN"
+title: _BDA_CAS_CHECK_ENTITLEMENTTOKEN (bdatypes.h)
 description: 
 old-location: stream\bda_cas_check_entitlementtoken.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_CAS_CHECK_ENTITLEMENTTOKEN
+- BDA_CAS_CHECK_ENTITLEMENTTOKEN
 product:
 - Windows
 targetos: Windows

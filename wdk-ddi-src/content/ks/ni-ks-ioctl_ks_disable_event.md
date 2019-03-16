@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_DISABLE_EVENT
-title: IOCTL_KS_DISABLE_EVENT
+title: IOCTL_KS_DISABLE_EVENT (ks.h)
 description: An application can use IOCTL_KS_DISABLE_EVENT to rescind a previous request notification. The application specifies IOCTL_KS_DISABLE_EVENT in the IoControl parameter of a call to KsSynchronousDeviceControl.
 old-location: stream\ioctl_ks_disable_event.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IOCTL_KS_DISABLE_EVENT
+- IOCTL_KS_DISABLE_EVENT
 product:
 - Windows
 targetos: Windows

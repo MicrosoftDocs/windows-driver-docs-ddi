@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUBMITCOMMANDTOHWQUEUE
-title: _DXGKARG_SUBMITCOMMANDTOHWQUEUE
+title: _DXGKARG_SUBMITCOMMANDTOHWQUEUE (d3dkmddi.h)
 description: Arguments used to submit a command to the hardware queue.
 ms.assetid: 914e7a49-0336-4c99-850f-95defcc4218e
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SUBMITCOMMANDTOHWQUEUE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_SUBMITCOMMANDTOHWQUEUE
+- _DXGKARG_SUBMITCOMMANDTOHWQUEUE
 product: 
 - Windows
 targetos: Windows

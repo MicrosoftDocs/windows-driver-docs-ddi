@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetKeyValue
-title: IModelObject::GetKeyValue
+title: IModelObject::GetKeyValue (dbgmodel.h)
 description: The GetKeyValue method is the first method a client will turn to in order to get the value of (and the metadata associated with) a given key by name. 
 ms.assetid: 83daa8ab-3d90-4003-8ce9-7fe10acf2859
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetKeyValue
-product: Windows
+- IModelObject.GetKeyValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

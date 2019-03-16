@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CLOSEADAPTER
-title: PFND3DDDI_CLOSEADAPTER
+title: PFND3DDDI_CLOSEADAPTER (d3dumddi.h)
 description: The CloseAdapter function releases resources for a graphics adapter object.
 old-location: display\closeadapter.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CloseAdapter
+- CloseAdapter
 product:
 - Windows
 targetos: Windows

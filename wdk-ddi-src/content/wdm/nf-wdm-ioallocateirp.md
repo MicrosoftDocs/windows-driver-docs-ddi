@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateIrp
-title: IoAllocateIrp function
+title: IoAllocateIrp function (wdm.h)
 description: The IoAllocateIrp routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller.
 old-location: kernel\ioallocateirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAllocateIrp
+- IoAllocateIrp
 product:
 - Windows
 targetos: Windows

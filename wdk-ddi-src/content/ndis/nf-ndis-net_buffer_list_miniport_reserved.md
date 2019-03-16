@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_MINIPORT_RESERVED
-title: NET_BUFFER_LIST_MINIPORT_RESERVED macro
+title: NET_BUFFER_LIST_MINIPORT_RESERVED macro (ndis.h)
 description: NET_BUFFER_LIST_MINIPORT_RESERVED is a macro that NDIS drivers use to access the MiniportReserved member of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: ad5d52fd-b4e6-44e0-989c-8f840f13811b
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_MINIPORT_RESERVED
+- NET_BUFFER_LIST_MINIPORT_RESERVED
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

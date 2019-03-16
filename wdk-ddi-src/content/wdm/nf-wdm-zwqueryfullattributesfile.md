@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryFullAttributesFile
-title: ZwQueryFullAttributesFile function
+title: ZwQueryFullAttributesFile function (wdm.h)
 description: The ZwQueryFullAttributesFile routine supplies network open information for the specified file.
 old-location: kernel\zwqueryfullattributesfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryFullAttributesFile
--	NtQueryFullAttributesFile
+- ZwQueryFullAttributesFile
+- NtQueryFullAttributesFile
 product:
 - Windows
 targetos: Windows

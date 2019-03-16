@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
+title: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU (d3dkmthk.h)
 description: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU is used with D3DKMTSignalSynchronizationObjectFromCpu to enable a driver to signal a monitored fence.
 old-location: display\d3dkmt_signalsynchronizationobjectfromcpu.htm
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
+- D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 product:
 - Windows
 targetos: Windows

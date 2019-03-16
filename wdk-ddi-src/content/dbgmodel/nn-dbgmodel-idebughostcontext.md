@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostContext
-title: IDebugHostContext
+title: IDebugHostContext (dbgmodel.h)
 description: Represents a context of the debugger answers questions about (what session, process, thread).
 ms.assetid: d0930562-7c04-499a-89e3-d50a463b7cce
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostContext
-product: Windows
+- IDebugHostContext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

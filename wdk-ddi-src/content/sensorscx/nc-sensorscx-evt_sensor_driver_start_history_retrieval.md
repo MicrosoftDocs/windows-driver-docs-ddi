@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
-title: EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
+title: EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL (sensorscx.h)
 description: Starts retrieving the history recorded so far in the sensor.
 ms.assetid: 97eccb93-e184-4350-a47e-2072bf368893
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
+- EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
 product:
 - Windows
 targetos: Windows

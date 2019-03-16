@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxRegisterCrashdumpDevice
-title: PoFxRegisterCrashdumpDevice function
+title: PoFxRegisterCrashdumpDevice function (wdm.h)
 description: The PoFxRegisterCrashdumpDevice routine registers a crash-dump device.
 old-location: kernel\pofxregistercrashdumpdevice.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	PoFxRegisterCrashdumpDevice
+- PoFxRegisterCrashdumpDevice
 product:
 - Windows
 targetos: Windows

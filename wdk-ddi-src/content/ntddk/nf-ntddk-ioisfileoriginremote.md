@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoIsFileOriginRemote
-title: IoIsFileOriginRemote function
+title: IoIsFileOriginRemote function (ntddk.h)
 description: The IoIsFileOriginRemote routine determines whether a given file object is for a remote create request.
 old-location: ifsk\ioisfileoriginremote.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIsFileOriginRemote
+- IoIsFileOriginRemote
 product:
 - Windows
 targetos: Windows

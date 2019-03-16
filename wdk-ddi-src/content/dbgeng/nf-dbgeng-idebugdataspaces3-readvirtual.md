@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadVirtual
-title: IDebugDataSpaces3::ReadVirtual
+title: IDebugDataSpaces3::ReadVirtual (dbgeng.h)
 description: The ReadVirtual method reads memory from the target's virtual address space.
 old-location: debugger\readvirtual.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadVirtual
--	IDebugDataSpaces2.ReadVirtual
--	IDebugDataSpaces3.ReadVirtual
--	IDebugDataSpaces4.ReadVirtual
+- IDebugDataSpaces.ReadVirtual
+- IDebugDataSpaces2.ReadVirtual
+- IDebugDataSpaces3.ReadVirtual
+- IDebugDataSpaces4.ReadVirtual
 product:
 - Windows
 targetos: Windows

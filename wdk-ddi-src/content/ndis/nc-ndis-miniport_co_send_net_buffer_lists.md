@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_SEND_NET_BUFFER_LISTS
-title: MINIPORT_CO_SEND_NET_BUFFER_LISTS
+title: MINIPORT_CO_SEND_NET_BUFFER_LISTS (ndis.h)
 description: The MiniportCoSendNetBufferLists function transmits network data that is contained in a specified linked list of NET_BUFFER_LIST structures.Note  You must declare the function by using the MINIPORT_CO_SEND_NET_BUFFER_LISTS type.
 old-location: netvista\miniportcosendnetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCoSendNetBufferLists
+- MiniportCoSendNetBufferLists
 product:
 - Windows
 targetos: Windows

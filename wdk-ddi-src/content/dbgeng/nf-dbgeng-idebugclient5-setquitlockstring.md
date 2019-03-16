@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetQuitLockString
-title: IDebugClient5::SetQuitLockString
+title: IDebugClient5::SetQuitLockString (dbgeng.h)
 description: Sets a quit lock string.
 old-location: debugger\idebugclient5_setquitlockstring.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.SetQuitLockString
+- IDebugClient5.SetQuitLockString
 product:
 - Windows
 targetos: Windows

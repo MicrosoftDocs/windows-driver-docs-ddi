@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_CALL_CONNECTED
-title: PROTOCOL_CL_CALL_CONNECTED
+title: PROTOCOL_CL_CALL_CONNECTED (ndis.h)
 description: The ProtocolClCallConnected function is used by connection-oriented NDIS clients that accept incoming calls.
 old-location: netvista\protocolclcallconnected.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClCallConnected
+- ProtocolClCallConnected
 product:
 - Windows
 targetos: Windows

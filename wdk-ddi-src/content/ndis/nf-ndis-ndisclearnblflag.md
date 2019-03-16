@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClearNblFlag
-title: NdisClearNblFlag macro
+title: NdisClearNblFlag macro (ndis.h)
 description: The NdisClearNblFlag macro clears a flag in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 244839a5-cdc2-4b05-8a96-37c477313238
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NdisClearNblFlag
+- NdisClearNblFlag
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

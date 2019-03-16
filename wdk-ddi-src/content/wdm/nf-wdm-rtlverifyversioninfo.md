@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlVerifyVersionInfo
-title: RtlVerifyVersionInfo function
+title: RtlVerifyVersionInfo function (wdm.h)
 description: The RtlVerifyVersionInfo routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
 old-location: kernel\rtlverifyversioninfo.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlVerifyVersionInfo
+- RtlVerifyVersionInfo
 product:
 - Windows
 targetos: Windows

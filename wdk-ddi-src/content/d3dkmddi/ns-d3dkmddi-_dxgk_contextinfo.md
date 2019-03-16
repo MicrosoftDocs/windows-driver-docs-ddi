@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONTEXTINFO
-title: "_DXGK_CONTEXTINFO"
+title: _DXGK_CONTEXTINFO (d3dkmddi.h)
 description: The DXGK_CONTEXTINFO structure describes a device context.
 old-location: display\dxgk_contextinfo.htm
 ms.assetid: 52c98ca7-8024-42d6-9001-1a7a69d24a95
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CONTEXTINFO
+- DXGK_CONTEXTINFO
 product:
 - Windows
 targetos: Windows

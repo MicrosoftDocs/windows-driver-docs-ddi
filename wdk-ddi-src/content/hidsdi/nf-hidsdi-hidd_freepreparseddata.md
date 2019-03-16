@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_FreePreparsedData
-title: HidD_FreePreparsedData function
+title: HidD_FreePreparsedData function (hidsdi.h)
 description: The HidD_FreePreparsedData routine releases the resources that the HID class driver allocated to hold a top-level collection's preparsed data.
 old-location: hid\hidd_freepreparseddata.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_FreePreparsedData
+- HidD_FreePreparsedData
 product:
 - Windows
 targetos: Windows

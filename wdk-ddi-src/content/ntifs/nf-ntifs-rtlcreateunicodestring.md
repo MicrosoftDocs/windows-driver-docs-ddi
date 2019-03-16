@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateUnicodeString
-title: RtlCreateUnicodeString function
+title: RtlCreateUnicodeString function (ntifs.h)
 description: The RtlCreateUnicodeString routine creates a new counted Unicode string.
 old-location: ifsk\rtlcreateunicodestring.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCreateUnicodeString
+- RtlCreateUnicodeString
 product:
 - Windows
 targetos: Windows

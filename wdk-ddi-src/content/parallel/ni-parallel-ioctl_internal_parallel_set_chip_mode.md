@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
-title: IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
+title: IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE request sets the operating mode of a parallel port.
 old-location: parports\ioctl_internal_parallel_set_chip_mode.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
+- IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
 product:
 - Windows
 targetos: Windows

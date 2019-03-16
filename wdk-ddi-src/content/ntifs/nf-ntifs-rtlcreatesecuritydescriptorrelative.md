@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateSecurityDescriptorRelative
-title: RtlCreateSecurityDescriptorRelative function
+title: RtlCreateSecurityDescriptorRelative function (ntifs.h)
 description: The RtlCreateSecurityDescriptorRelative routine initializes a new security descriptor in self-relative format.
 old-location: ifsk\rtlcreatesecuritydescriptorrelative.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCreateSecurityDescriptorRelative
+- RtlCreateSecurityDescriptorRelative
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectCreateItem
-title: KsFreeObjectCreateItem function
+title: KsFreeObjectCreateItem function (ks.h)
 description: Frees the slot for the specified create item.
 old-location: stream\ksfreeobjectcreateitem.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFreeObjectCreateItem
+- KsFreeObjectCreateItem
 product:
 - Windows
 targetos: Windows

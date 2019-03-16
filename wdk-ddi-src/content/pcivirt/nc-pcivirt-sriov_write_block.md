@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_WRITE_BLOCK
-title: SRIOV_WRITE_BLOCK
+title: SRIOV_WRITE_BLOCK (pcivirt.h)
 description: Writes data to the specified configuration block of a PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_write_block.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_WRITE_BLOCK
+- *PSRIOV_WRITE_BLOCK
 product:
 - Windows
 targetos: Windows

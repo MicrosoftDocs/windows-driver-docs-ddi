@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ATOMIC_CREATE_ECP_CONTEXT
-title: "_ATOMIC_CREATE_ECP_CONTEXT"
+title: _ATOMIC_CREATE_ECP_CONTEXT (ntifs.h)
 description: This structure allows supplemental operations to be performed on a file atomically during create.
 old-location: ifsk\atomic_create_ecp_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	ATOMIC_CREATE_ECP_CONTEXT
+- ATOMIC_CREATE_ECP_CONTEXT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwUnregister
-title: EtwUnregister function
+title: EtwUnregister function (wdm.h)
 description: The EtwUnregister function unregisters the event provider and must be called before the provider exits.
 old-location: devtest\etwunregister.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwUnregister
+- EtwUnregister
 product:
 - Windows
 targetos: Windows

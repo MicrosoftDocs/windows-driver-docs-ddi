@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetHwNotificationState
-title: IStillImageW::GetHwNotificationState
+title: IStillImageW::GetHwNotificationState (sti.h)
 description: The IStillImage::GetHwNotificationState method indicates whether applications will be notified when Still Image Device Events occur on a specified device.
 old-location: image\istillimage_gethwnotificationstate.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.GetHwNotificationState
+- IStillImageW.GetHwNotificationState
 product:
 - Windows
 targetos: Windows

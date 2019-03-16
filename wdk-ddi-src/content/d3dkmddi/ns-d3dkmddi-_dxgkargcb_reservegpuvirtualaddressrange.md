@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
-title: _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
+title: _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE (d3dkmddi.h)
 description: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE is used with the DxgkCbReserveGpuVirtualAddressRangedevice driver interface (DDI) to allow the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 old-location: display\dxgkargcb_reservegpuvirtualaddressrange.htm
 ms.assetid: D555E595-4319-4FCC-84A7-52FA3F278FFD
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
+- DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.CompareAgainst
-title: IDebugHostTypeSignature::CompareAgainst
+title: IDebugHostTypeSignature::CompareAgainst (dbgmodel.h)
 description: The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare. 
 ms.assetid: bf788feb-17ff-4844-b247-8083585d3ca7
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostTypeSignature.CompareAgainst
-product: Windows
+- IDebugHostTypeSignature.CompareAgainst
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
-title: _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
+title: _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE (d3dkmthk.h)
 description: Flip model's independent flip stages.
 ms.assetid: 4f421100-9806-4b1a-ab53-8e04d969501b
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
+- _D3DKMT_FLIPMODEL_INDEPENDENT_FLIP_STAGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

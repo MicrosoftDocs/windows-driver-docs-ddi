@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_DISCKEY
-title: "_KS_DVDCOPY_DISCKEY"
+title: _KS_DVDCOPY_DISCKEY (ksmedia.h)
 description: The KS_DVDCOPY_DISCKEY structure is used to describe the disc key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_disckey.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DVDCOPY_DISCKEY
+- KS_DVDCOPY_DISCKEY
 product:
 - Windows
 targetos: Windows

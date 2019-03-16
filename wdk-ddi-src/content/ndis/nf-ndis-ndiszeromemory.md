@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisZeroMemory
-title: NdisZeroMemory macro
+title: NdisZeroMemory macro (ndis.h)
 description: The NdisZeroMemory function fills a block of memory with zeros.
 old-location: netvista\ndiszeromemory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisZeroMemory
+- NdisZeroMemory
 product:
 - Windows
 targetos: Windows

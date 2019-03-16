@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedPushEntrySList
-title: NdisInterlockedPushEntrySList macro
+title: NdisInterlockedPushEntrySList macro (ndis.h)
 description: The NdisInterlockedPushEntrySList function inserts an entry at the head of a sequenced, singly linked list.
 old-location: netvista\ndisinterlockedpushentryslist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisInterlockedPushEntrySList
+- NdisInterlockedPushEntrySList
 product:
 - Windows
 targetos: Windows

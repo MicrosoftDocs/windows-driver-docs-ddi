@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._CYCLE_TIME
-title: "_CYCLE_TIME"
+title: _CYCLE_TIME (1394.h)
 description: The CYCLE_TIME structure contains the IEEE 1394 isochronous cycle time.
 old-location: ieee\cycle_time.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	CYCLE_TIME
+- CYCLE_TIME
 product:
 - Windows
 targetos: Windows

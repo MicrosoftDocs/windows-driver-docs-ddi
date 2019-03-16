@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._MF_MDL_SHARED_PAYLOAD_KEY
-title: "_MF_MDL_SHARED_PAYLOAD_KEY"
+title: _MF_MDL_SHARED_PAYLOAD_KEY (ks.h)
 description: This union is used internally by the operating system.
 old-location: stream\mf_mdl_shared_payload_key.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	MF_MDL_SHARED_PAYLOAD_KEY
+- MF_MDL_SHARED_PAYLOAD_KEY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetRequestorProcessId
-title: IWDFIoRequest::GetRequestorProcessId
+title: IWDFIoRequest::GetRequestorProcessId (wudfddi.h)
 description: The GetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\iwdfiorequest_getrequestorprocessid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetRequestorProcessId
+- IWDFIoRequest.GetRequestorProcessId
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseProcessVidPnSourceOwners
-title: D3DKMTReleaseProcessVidPnSourceOwners function
+title: D3DKMTReleaseProcessVidPnSourceOwners function (d3dkmthk.h)
 description: The D3DKMTReleaseProcessVidPnSourceOwners function releases the video present network source owners for a process.
 old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTReleaseProcessVidPnSourceOwners
+- D3DKMTReleaseProcessVidPnSourceOwners
 product:
 - Windows
 targetos: Windows

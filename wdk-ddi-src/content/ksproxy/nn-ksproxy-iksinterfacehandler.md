@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsInterfaceHandler
-title: IKsInterfaceHandler
+title: IKsInterfaceHandler (ksproxy.h)
 description: The IKsInterfaceHandler interface provides methods that marshal samples into the kernel based on the KSPIN_INTERFACE structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 old-location: stream\iksinterfacehandler.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsInterfaceHandler
+- IKsInterfaceHandler
 product:
 - Windows
 targetos: Windows

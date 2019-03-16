@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_VIDEO_PALETTE
-title: tagKS_DATARANGE_VIDEO_PALETTE
+title: tagKS_DATARANGE_VIDEO_PALETTE (ksmedia.h)
 description: The KS_DATARANGE_VIDEO_PALETTE structure describes a stream and its color capabilities.
 old-location: stream\ks_datarange_video_palette.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATARANGE_VIDEO_PALETTE
+- KS_DATARANGE_VIDEO_PALETTE
 product:
 - Windows
 targetos: Windows

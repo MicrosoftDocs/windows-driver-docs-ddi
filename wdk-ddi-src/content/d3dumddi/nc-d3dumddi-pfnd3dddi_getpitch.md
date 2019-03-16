@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETPITCH
-title: PFND3DDDI_GETPITCH
+title: PFND3DDDI_GETPITCH (d3dumddi.h)
 description: The GetPitch function retrieves the pitch of a protected or non-lockable surface.
 old-location: display\getpitch.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	GetPitch
+- GetPitch
 product:
 - Windows
 targetos: Windows

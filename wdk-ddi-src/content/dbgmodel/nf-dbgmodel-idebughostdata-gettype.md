@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetType
-title: IDebugHostData::GetType
+title: IDebugHostData::GetType (dbgmodel.h)
 description: Returns the type (that is "int *") of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
 ms.assetid: 765578af-617a-4647-a3bc-b71ec4ffb17b
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostData.GetType
-product: Windows
+- IDebugHostData.GetType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

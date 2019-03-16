@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_ALLOCATION_ACTION
-title: "_IO_ALLOCATION_ACTION"
+title: _IO_ALLOCATION_ACTION (wdm.h)
 description: The IO_ALLOCATION_ACTION enumerated type is used to specify return values for AdapterControl and ControllerControl routines.
 old-location: kernel\io_allocation_action.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_ALLOCATION_ACTION
+- IO_ALLOCATION_ACTION
 product:
 - Windows
 targetos: Windows

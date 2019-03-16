@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterGetNetLuid
-title: NetAdapterGetNetLuid function
+title: NetAdapterGetNetLuid function (netadapter.h)
 description: Retrieves the NET_LUID that is assigned to a network adapter.
 tech.root: netvista
 ms.assetid: 7e4fe2f1-35a4-434f-a499-3cf6917c9350
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterGetNetLuid
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterGetNetLuid
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterGetNetLuid
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_TYPE
-title: D3D12DDI_RESOURCE_TYPE
+title: D3D12DDI_RESOURCE_TYPE (d3d12umddi.h)
 description: Specifies the resource type.
 ms.assetid: 69738fad-d739-48dc-8a90-6de962594210
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RESOURCE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RESOURCE_TYPE
+- D3D12DDI_RESOURCE_TYPE
 product:
 - Windows
 targetos: Windows

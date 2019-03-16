@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmFlushImageSection
-title: MmFlushImageSection function
+title: MmFlushImageSection function (ntifs.h)
 description: The MmFlushImageSection routine flushes the image section for a file.
 old-location: ifsk\mmflushimagesection.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFlushImageSection
+- MmFlushImageSection
 product:
 - Windows
 targetos: Windows

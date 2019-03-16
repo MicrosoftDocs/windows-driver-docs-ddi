@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_GET_DEVICE_INFORMATION
-title: IOCTL_ACPI_GET_DEVICE_INFORMATION
+title: IOCTL_ACPI_GET_DEVICE_INFORMATION (acpiioct.h)
 description: A driver for a device can use the IOCTL_ACPI_GET_DEVICE_INFORMATION device control request to obtain fine-grained identification information about its device.
 old-location: acpi\ioctl_acpi_get_device_information.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_GET_DEVICE_INFORMATION
+- IOCTL_ACPI_GET_DEVICE_INFORMATION
 product:
 - Windows
 targetos: Windows

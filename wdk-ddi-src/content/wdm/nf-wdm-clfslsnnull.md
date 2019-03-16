@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnNull
-title: ClfsLsnNull function
+title: ClfsLsnNull function (wdm.h)
 description: The ClfsLsnNull routine determines whether a specified LSN is equal to the smallest possible LSN, CLFS_LSN_NULL.
 old-location: kernel\clfslsnnull.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsLsnNull
+- ClfsLsnNull
 product:
 - Windows
 targetos: Windows

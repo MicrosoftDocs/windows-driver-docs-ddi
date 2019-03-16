@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053 (d3d12umddi.h)
 description: The video capability check for motion estimation size.
 ms.assetid: 7b0578ac-afde-4356-ac90-c906f8c91487
 ms.date: 10/23/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
+- D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

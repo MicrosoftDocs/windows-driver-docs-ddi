@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_EXTENSION_CONTROL_OUT
-title: "_WSK_EXTENSION_CONTROL_OUT"
+title: _WSK_EXTENSION_CONTROL_OUT (wsk.h)
 description: The WSK_EXTENSION_CONTROL_OUT structure specifies the WSK subsystem's implementation of an extension interface for a socket.
 old-location: netvista\wsk_extension_control_out.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_EXTENSION_CONTROL_OUT
+- WSK_EXTENSION_CONTROL_OUT
 product:
 - Windows
 targetos: Windows

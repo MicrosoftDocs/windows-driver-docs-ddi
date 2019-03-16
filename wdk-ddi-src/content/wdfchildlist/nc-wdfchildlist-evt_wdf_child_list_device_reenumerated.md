@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED
-title: EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED
+title: EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED (wdfchildlist.h)
 description: A driver's EvtChildListDeviceReenumerated event callback function enables the driver to approve or cancel a reenumeration of a specified device.
 old-location: wdf\evtchildlistdevicereenumerated.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfChildlist.h
+- WdfChildlist.h
 api_name:
--	EvtChildListDeviceReenumerated
+- EvtChildListDeviceReenumerated
 product:
 - Windows
 targetos: Windows

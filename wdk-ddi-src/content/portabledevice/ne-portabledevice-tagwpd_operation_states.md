@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_OPERATION_STATES
-title: tagWPD_OPERATION_STATES
+title: WPD_OPERATION_STATES (portabledevice.h)
 description: The WPD_OPERATION_STATES enumeration values describe the current state of an operation in progress.
 old-location: wpddk\wpd_operation_states.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_OPERATION_STATES
+- WPD_OPERATION_STATES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_OPERATION_STATES
 ms.custom: RS5

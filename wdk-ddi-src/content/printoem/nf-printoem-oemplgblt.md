@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMPlgBlt
-title: OEMPlgBlt function
+title: OEMPlgBlt function (printoem.h)
 description: The OEMPlgBlt function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
 old-location: print\oemplgblt.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMPlgBlt
+- OEMPlgBlt
 product:
 - Windows
 targetos: Windows

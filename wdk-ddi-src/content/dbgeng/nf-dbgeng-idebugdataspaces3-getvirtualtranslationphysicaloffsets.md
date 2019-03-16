@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
-title: IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets
+title: IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets (dbgeng.h)
 description: The GetVirtualTranslationPhysicalOffsets method returns the physical addresses of the system paging structures at different levels of the paging hierarchy.
 old-location: debugger\getvirtualtranslationphysicaloffsets.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets
--	IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
--	IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
+- IDebugDataSpaces2.GetVirtualTranslationPhysicalOffsets
+- IDebugDataSpaces3.GetVirtualTranslationPhysicalOffsets
+- IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.DbgBreakPointWithStatus
-title: DbgBreakPointWithStatus function
+title: DbgBreakPointWithStatus function (wdm.h)
 description: The DbgBreakPointWithStatus routine breaks into the kernel debugger and sends the value of Status to the debugger.
 old-location: devtest\dbgbreakpointwithstatus.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: Ntdll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	DbgBreakPointWithStatus
+- DbgBreakPointWithStatus
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwSetInformationTransaction
-title: ZwSetInformationTransaction function
+title: ZwSetInformationTransaction function (wdm.h)
 description: The ZwSetInformationTransaction routine sets information for a specified transaction.
 old-location: kernel\zwsetinformationtransaction.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetInformationTransaction
--	NtSetInformationTransaction
+- ZwSetInformationTransaction
+- NtSetInformationTransaction
 product:
 - Windows
 targetos: Windows

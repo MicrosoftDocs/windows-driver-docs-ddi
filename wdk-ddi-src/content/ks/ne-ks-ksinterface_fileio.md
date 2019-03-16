@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_10
-title: KSINTERFACE_FILEIO
+title: KSINTERFACE_FILEIO (ks.h)
 description: 
 old-location: stream\ksinterface_fileio.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSINTERFACE_FILEIO
+- KSINTERFACE_FILEIO
 product:
 - Windows
 targetos: Windows

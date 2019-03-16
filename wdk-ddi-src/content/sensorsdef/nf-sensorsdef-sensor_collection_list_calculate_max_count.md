@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
-title: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function
+title: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function (sensorsdef.h)
 description: This function calculates the number of SENSOR_VALUE_PAIR elements in a SENSOR_COLLECTION_LIST structure.
 old-location: sensors\sensor_collection_list_calculate_max_count.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+- SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
 product:
 - Windows
 targetos: Windows

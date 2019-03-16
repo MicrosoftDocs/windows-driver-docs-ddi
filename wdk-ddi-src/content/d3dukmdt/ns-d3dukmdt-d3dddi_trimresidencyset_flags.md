@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_TRIMRESIDENCYSET_FLAGS
-title: D3DDDI_TRIMRESIDENCYSET_FLAGS
+title: D3DDDI_TRIMRESIDENCYSET_FLAGS (d3dukmdt.h)
 description: D3DDDI_TRIMRESIDENCYSET_FLAGS is used with pfnTrimResidencySet to trim the residency list for a given device.
 old-location: display\d3dddi_trimresidencyset_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_TRIMRESIDENCYSET_FLAGS
+- D3DDDI_TRIMRESIDENCYSET_FLAGS
 product:
 - Windows
 targetos: Windows

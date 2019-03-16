@@ -1,6 +1,6 @@
 ---
 UID: NE:sddef.__unnamed_enum_2
-title: SD_TRANSFER_TYPE
+title: SD_TRANSFER_TYPE (sddef.h)
 description: The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.
 old-location: sd\sd_transfer_type.htm
 tech.root: SD
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sddef.h
+- sddef.h
 api_name:
--	SD_TRANSFER_TYPE
+- SD_TRANSFER_TYPE
 product:
 - Windows
 targetos: Windows

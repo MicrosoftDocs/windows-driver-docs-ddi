@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_RESET_BUS
-title: IOCTL_STORAGE_RESET_BUS
+title: IOCTL_STORAGE_RESET_BUS (ntddstor.h)
 description: Resets an I/O bus and, indirectly, each device on the bus.
 old-location: storage\ioctl_storage_reset_bus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_RESET_BUS
+- IOCTL_STORAGE_RESET_BUS
 product:
 - Windows
 targetos: Windows

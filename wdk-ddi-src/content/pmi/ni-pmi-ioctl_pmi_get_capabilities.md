@@ -1,6 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_GET_CAPABILITIES
-title: IOCTL_PMI_GET_CAPABILITIES
+title: IOCTL_PMI_GET_CAPABILITIES (pmi.h)
 description: The IOCTL_PMI_GET_CAPABILITIES request obtains the capability and asset information about a power meter.
 old-location: powermeter\ioctl_pmi_get_capabilities.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pmi.h
+- Pmi.h
 api_name:
--	IOCTL_PMI_GET_CAPABILITIES
+- IOCTL_PMI_GET_CAPABILITIES
 product:
 - Windows
 targetos: Windows

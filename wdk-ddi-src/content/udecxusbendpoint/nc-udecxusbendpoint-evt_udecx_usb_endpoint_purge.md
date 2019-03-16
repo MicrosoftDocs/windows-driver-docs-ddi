@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbendpoint.EVT_UDECX_USB_ENDPOINT_PURGE
-title: EVT_UDECX_USB_ENDPOINT_PURGE
+title: EVT_UDECX_USB_ENDPOINT_PURGE (udecxusbendpoint.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function to stop queuing I/O requests to the endpoint's queue and cancel unprocessed requests.
 old-location: buses\evt_udecx_usb_endpoint_purge.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	UdecxUsbEndpoint.h
+- UdecxUsbEndpoint.h
 api_name:
--	EvtUsbEndpointPurge
+- EvtUsbEndpointPurge
 product:
 - Windows
 targetos: Windows

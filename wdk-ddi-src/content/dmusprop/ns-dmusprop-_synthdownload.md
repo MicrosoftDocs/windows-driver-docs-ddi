@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTHDOWNLOAD
-title: "_SYNTHDOWNLOAD"
+title: _SYNTHDOWNLOAD (dmusprop.h)
 description: The SYNTHDOWNLOAD structure specifies a handle for downloaded DLS data. It also specifies whether the buffer containing the DLS data can be freed.
 old-location: audio\synthdownload.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusprop.h
+- dmusprop.h
 api_name:
--	SYNTHDOWNLOAD
+- SYNTHDOWNLOAD
 product:
 - Windows
 targetos: Windows

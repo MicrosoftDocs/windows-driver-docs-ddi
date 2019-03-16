@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_BIND
-title: PFN_WSK_BIND
+title: PFN_WSK_BIND (wsk.h)
 description: The WskBind function binds a socket to a local transport address.
 old-location: netvista\wskbind.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskBind
+- WskBind
 product:
 - Windows
 targetos: Windows

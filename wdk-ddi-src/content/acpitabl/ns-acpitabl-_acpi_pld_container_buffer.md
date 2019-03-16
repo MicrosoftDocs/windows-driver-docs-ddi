@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_CONTAINER_BUFFER
-title: _ACPI_PLD_CONTAINER_BUFFER
+title: _ACPI_PLD_CONTAINER_BUFFER (acpitabl.h)
 description: Defines the ACPI Physical Location Descriptor (PLD) container buffer structure.
 ms.assetid: 3ba566f6-602a-44e7-80f1-392d34021890
 ms.date: 10/01/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ACPI_PLD_CONTAINER_BUFFER, *PACPI_PLD_CONTAINER_BUFFER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_CONTAINER_BUFFER
+- _ACPI_PLD_CONTAINER_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

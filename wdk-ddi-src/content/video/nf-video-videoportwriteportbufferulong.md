@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWritePortBufferUlong
-title: VideoPortWritePortBufferUlong function
+title: VideoPortWritePortBufferUlong function (video.h)
 description: The VideoPortWritePortBufferUlong function writes a number of ULONG values to a mapped I/O port.
 old-location: display\videoportwriteportbufferulong.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWritePortBufferUlong
+- VideoPortWritePortBufferUlong
 product:
 - Windows
 targetos: Windows

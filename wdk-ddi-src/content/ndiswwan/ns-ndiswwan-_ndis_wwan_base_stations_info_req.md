@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_BASE_STATIONS_INFO_REQ
-title: "_NDIS_WWAN_BASE_STATIONS_INFO_REQ"
+title: _NDIS_WWAN_BASE_STATIONS_INFO_REQ (ndiswwan.h)
 description: The NDIS_WWAN_BASE_STATIONS_INFO_REQ structure is used in OID_WWAN_BASE_STATIONS_INFO query requests to configure aspects of cellular base station information to be used in response.
 old-location: netvista\ndis_wwan_base_stations_info_req.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_BASE_STATIONS_INFO_REQ
+- NDIS_WWAN_BASE_STATIONS_INFO_REQ
 product:
 - Windows
 targetos: Windows

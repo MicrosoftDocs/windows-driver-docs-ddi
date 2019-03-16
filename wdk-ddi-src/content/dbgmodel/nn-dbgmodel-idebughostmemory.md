@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostMemory
-title: IDebugHostMemory
+title: IDebugHostMemory (dbgmodel.h)
 description: The memory access interface to the underlying debugger.
 ms.assetid: 6a713259-f5cf-4ca8-a68a-55dd44a748fe
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory
-product: Windows
+- IDebugHostMemory
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

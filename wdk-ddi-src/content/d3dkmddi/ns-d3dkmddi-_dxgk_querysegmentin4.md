@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTIN4
-title: "_DXGK_QUERYSEGMENTIN4"
+title: _DXGK_QUERYSEGMENTIN4 (d3dkmddi.h)
 description: The DXGK_QUERYSEGMENTIN4 structure is used to specify the adapter to query.
 old-location: display\dxgk_querysegmentin4.htm
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYSEGMENTIN4
+- DXGK_QUERYSEGMENTIN4
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_PROTECTEDSESSIONSTATUS
-title: "_DXGKARGCB_PROTECTEDSESSIONSTATUS"
+title: _DXGKARGCB_PROTECTEDSESSIONSTATUS (d3dkmddi.h)
 description: Used for information on the status of the protected session.
 old-location: display\dxgkargcb_protectedsessionstatus.htm
 ms.assetid: 417480C5-8B24-4504-8B2D-DB9D38E4C11B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARGCB_PROTECTEDSESSIONSTATUS
+- DXGKARGCB_PROTECTEDSESSIONSTATUS
 product:
 - Windows
 targetos: Windows

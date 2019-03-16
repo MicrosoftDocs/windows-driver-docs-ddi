@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
-title: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE
+title: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadForwardComplete function to complete one or more forward requests that were made to the MiniportTcpOffloadForward function of the offload target.
 old-location: netvista\ndistcpoffloadforwardcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisTcpOffloadForwardComplete
+- NdisTcpOffloadForwardComplete
 product:
 - Windows
 targetos: Windows

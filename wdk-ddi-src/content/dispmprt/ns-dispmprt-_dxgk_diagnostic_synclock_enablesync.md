@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
-title: _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
+title: _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC (dispmprt.h)
 description: Diagnostic sync lock enable sync.
 ms.assetid: 4f429081-2613-498e-860b-1e06fd43d578
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
+- _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_COPYRIGHT_DESCRIPTOR
-title: "_DVD_COPYRIGHT_DESCRIPTOR"
+title: _DVD_COPYRIGHT_DESCRIPTOR (ntddcdvd.h)
 description: The DVD_COPYRIGHT_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD copyright descriptor.
 old-location: storage\dvd_copyright_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	DVD_COPYRIGHT_DESCRIPTOR
+- DVD_COPYRIGHT_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
-title: tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
+title: tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION (ksmedia.h)
 description: The EV Compensation Control provides for exposure control that is adjusted by increments of EV compensation steps.
 old-location: stream\kscamera_extendedprop_evcompensation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_EVCOMPENSATION
+- KSCAMERA_EXTENDEDPROP_EVCOMPENSATION
 product:
 - Windows
 targetos: Windows

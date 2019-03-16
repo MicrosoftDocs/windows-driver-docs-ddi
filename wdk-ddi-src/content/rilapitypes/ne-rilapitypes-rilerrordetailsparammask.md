@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILERRORDETAILSPARAMMASK
-title: RILERRORDETAILSPARAMMASK
+title: RILERRORDETAILSPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilerrordetailsparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILERRORDETAILSPARAMMASK
+- RILERRORDETAILSPARAMMASK
 product:
 - Windows
 targetos: Windows

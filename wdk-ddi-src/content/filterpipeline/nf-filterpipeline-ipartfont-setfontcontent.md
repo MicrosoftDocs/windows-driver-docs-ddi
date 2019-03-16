@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartFont.SetFontContent
-title: IPartFont::SetFontContent
+title: IPartFont::SetFontContent (filterpipeline.h)
 description: The SetFontContent method sets the content of the font.
 old-location: print\ipartfont_setfontcontent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartFont.SetFontContent
+- IPartFont.SetFontContent
 product:
 - Windows
 targetos: Windows

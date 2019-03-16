@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCurrentGroupAndProcessor
-title: NdisCurrentGroupAndProcessor function
+title: NdisCurrentGroupAndProcessor function (ndis.h)
 description: The NdisCurrentGroupAndProcessor function returns the group-relative processor number and group number of the current processor.
 old-location: netvista\ndiscurrentgroupandprocessor.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: ">= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCurrentGroupAndProcessor
+- NdisCurrentGroupAndProcessor
 product:
 - Windows
 targetos: Windows

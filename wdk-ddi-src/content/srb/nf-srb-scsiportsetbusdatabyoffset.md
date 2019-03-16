@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortSetBusDataByOffset
-title: ScsiPortSetBusDataByOffset function
+title: ScsiPortSetBusDataByOffset function (srb.h)
 description: The ScsiPortSetBusDataByOffset routine sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 old-location: storage\scsiportsetbusdatabyoffset.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortSetBusDataByOffset
+- ScsiPortSetBusDataByOffset
 product:
 - Windows
 targetos: Windows

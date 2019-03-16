@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsProcessorFeaturePresent
-title: ExIsProcessorFeaturePresent function
+title: ExIsProcessorFeaturePresent function (wdm.h)
 description: The ExIsProcessorFeaturePresent routine queries for the existence of a specified processor feature.
 old-location: kernel\exisprocessorfeaturepresent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExIsProcessorFeaturePresent
+- ExIsProcessorFeaturePresent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAddIrpToCancelableQueue
-title: KsAddIrpToCancelableQueue function
+title: KsAddIrpToCancelableQueue function (ks.h)
 description: The KsAddIrpToCancelableQueue function adds an IRP to a queue of cancelable IRPs, thus allowing the IRP to be canceled. If the IRP had been previously set to a canceled state, the KsAddIrpToCancelableQueue function completes the canceling of that IRP.
 old-location: stream\ksaddirptocancelablequeue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAddIrpToCancelableQueue
+- KsAddIrpToCancelableQueue
 product:
 - Windows
 targetos: Windows

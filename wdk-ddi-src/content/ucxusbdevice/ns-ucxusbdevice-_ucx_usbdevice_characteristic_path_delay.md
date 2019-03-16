@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
-title: "_UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
+title: _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY (ucxusbdevice.h)
 description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_usbdevice_characteristic_path_delay.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxusbdevice.h
+- Ucxusbdevice.h
 api_name:
--	UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
+- UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 product:
 - Windows
 targetos: Windows

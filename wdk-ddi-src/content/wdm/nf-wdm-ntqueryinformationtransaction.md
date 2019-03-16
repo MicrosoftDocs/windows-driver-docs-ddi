@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtQueryInformationTransaction
-title: NtQueryInformationTransaction function
+title: NtQueryInformationTransaction function (wdm.h)
 description: The ZwQueryInformationTransaction routine retrieves information about a specified transaction.
 old-location: kernel\zwqueryinformationtransaction.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryInformationTransaction
--	NtQueryInformationTransaction
+- ZwQueryInformationTransaction
+- NtQueryInformationTransaction
 product:
 - Windows
 targetos: Windows

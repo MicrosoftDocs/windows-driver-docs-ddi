@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._PO_FX_PERF_STATE
-title: "_PO_FX_PERF_STATE"
+title: _PO_FX_PERF_STATE (wudfwdm.h)
 description: The PO_FX_PERF_STATE structure represents a performance state for a single component within a device.
 old-location: kernel\po_fx_perf_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PO_FX_PERF_STATE
+- PO_FX_PERF_STATE
 product:
 - Windows
 targetos: Windows

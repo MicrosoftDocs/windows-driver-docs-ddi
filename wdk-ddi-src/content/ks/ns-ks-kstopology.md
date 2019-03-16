@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_24
-title: KSTOPOLOGY
+title: KSTOPOLOGY (ks.h)
 description: The KSTOPOLOGY structure describes the topology of pins and nodes.
 old-location: stream\kstopology.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSTOPOLOGY
+- KSTOPOLOGY
 product:
 - Windows
 targetos: Windows

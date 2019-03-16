@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawReadData
-title: IStiDevice::RawReadData
+title: IStiDevice::RawReadData (sti.h)
 description: The IStiDevice::RawReadData method reads data from a still image device.
 old-location: image\istidevice_rawreaddata.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.RawReadData
+- IStiDevice.RawReadData
 product:
 - Windows
 targetos: Windows

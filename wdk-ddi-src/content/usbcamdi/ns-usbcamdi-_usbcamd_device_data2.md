@@ -1,6 +1,6 @@
 ---
 UID: NS:usbcamdi._USBCAMD_DEVICE_DATA2
-title: "_USBCAMD_DEVICE_DATA2"
+title: _USBCAMD_DEVICE_DATA2 (usbcamdi.h)
 description: The USBCAMD_DEVICE_DATA2 structure specifies the entry points for a camera minidriver's functions that USBCAMD calls.
 old-location: stream\usbcamd_device_data2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_DEVICE_DATA2
+- USBCAMD_DEVICE_DATA2
 product:
 - Windows
 targetos: Windows

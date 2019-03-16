@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlValidRelativeSecurityDescriptor
-title: RtlValidRelativeSecurityDescriptor function
+title: RtlValidRelativeSecurityDescriptor function (wdm.h)
 description: The RtlValidRelativeSecurityDescriptor routine checks the validity of a self-relative security descriptor.
 old-location: kernel\rtlvalidrelativesecuritydescriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlValidRelativeSecurityDescriptor
+- RtlValidRelativeSecurityDescriptor
 product:
 - Windows
 targetos: Windows

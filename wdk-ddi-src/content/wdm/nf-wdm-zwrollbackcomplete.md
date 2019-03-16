@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwRollbackComplete
-title: ZwRollbackComplete function
+title: ZwRollbackComplete function (wdm.h)
 description: The ZwRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\zwrollbackcomplete.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwRollbackComplete
--	NtRollbackComplete
+- ZwRollbackComplete
+- NtRollbackComplete
 product:
 - Windows
 targetos: Windows

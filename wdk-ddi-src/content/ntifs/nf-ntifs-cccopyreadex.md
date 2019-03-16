@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyReadEx
-title: CcCopyReadEx function
+title: CcCopyReadEx function (ntifs.h)
 description: The CcCopyReadEx routine copies data from a cached file to a user buffer. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\cccopyreadex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcCopyReadEx
+- CcCopyReadEx
 product:
 - Windows
 targetos: Windows

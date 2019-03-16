@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateKeyedMutex2
-title: D3DKMTCreateKeyedMutex2 function
+title: D3DKMTCreateKeyedMutex2 function (d3dkmthk.h)
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateKeyedMutex2
+- D3DKMTCreateKeyedMutex2
 product:
 - Windows
 targetos: Windows

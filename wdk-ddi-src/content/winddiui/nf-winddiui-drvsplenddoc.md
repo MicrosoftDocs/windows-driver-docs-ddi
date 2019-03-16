@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplEndDoc
-title: DrvSplEndDoc function
+title: DrvSplEndDoc function (winddiui.h)
 description: 
 old-location: print\drvsplenddoc.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvSplEndDoc
+- DrvSplEndDoc
 product:
 - Windows
 targetos: Windows

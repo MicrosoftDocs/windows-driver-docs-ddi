@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OPER_STATE
-title: "_NDIS_OPER_STATE"
+title: _NDIS_OPER_STATE (ntddndis.h)
 description: The NDIS_OPER_STATE structure provides the current operational state of an NDIS network interface.
 old-location: netvista\ndis_oper_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_OPER_STATE
+- NDIS_OPER_STATE
 product:
 - Windows
 targetos: Windows

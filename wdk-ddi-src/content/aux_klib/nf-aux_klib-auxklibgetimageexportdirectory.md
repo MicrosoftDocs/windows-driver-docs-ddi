@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibGetImageExportDirectory
-title: AuxKlibGetImageExportDirectory function
+title: AuxKlibGetImageExportDirectory function (aux_klib.h)
 description: The AuxKlibGetImageExportDirectory routine returns an image module's export directory.
 old-location: kernel\auxklibgetimageexportdirectory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Aux_Klib.lib
--	Aux_Klib.dll
+- Aux_Klib.lib
+- Aux_Klib.dll
 api_name:
--	AuxKlibGetImageExportDirectory
+- AuxKlibGetImageExportDirectory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PINT10_ALLOCATE_BUFFER
-title: PINT10_ALLOCATE_BUFFER
+title: PINT10_ALLOCATE_BUFFER (video.h)
 description: The Int10AllocateBuffer function can be used to allocate a single 4 KB block of memory in the context of another thread. After the block of memory has been allocated, it must be freed before another block of memory can be allocated.
 old-location: display\int10allocatebuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	Int10AllocateBuffer
+- Int10AllocateBuffer
 product:
 - Windows
 targetos: Windows

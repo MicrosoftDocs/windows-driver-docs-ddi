@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SOCKET
-title: PFN_WSK_SOCKET
+title: PFN_WSK_SOCKET (wsk.h)
 description: The WskSocket function creates a new socket and returns a pointer to the associated socket object.
 old-location: netvista\wsksocket.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskSocket
+- WskSocket
 product:
 - Windows
 targetos: Windows

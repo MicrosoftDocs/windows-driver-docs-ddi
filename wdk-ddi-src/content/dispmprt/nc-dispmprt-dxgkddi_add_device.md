@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_ADD_DEVICE
-title: DXGKDDI_ADD_DEVICE
+title: DXGKDDI_ADD_DEVICE (dispmprt.h)
 description: The DxgkDdiAddDevice function creates a context block for a display adapter and returns a handle that represents the display adapter.
 old-location: display\dxgkddiadddevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiAddDevice
+- DxgkDdiAddDevice
 product:
 - Windows
 targetos: Windows

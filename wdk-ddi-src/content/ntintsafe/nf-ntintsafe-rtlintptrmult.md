@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrMult
-title: RtlIntPtrMult function
+title: RtlIntPtrMult function (ntintsafe.h)
 description: Multiplies one value of type INT_PTR by another.
 old-location: kernel\rtlintptrmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlIntPtrMult
+- RtlIntPtrMult
 product:
 - Windows
 targetos: Windows

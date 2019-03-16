@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DATA_ENTRY_V2
-title: "_WHEA_GENERIC_ERROR_DATA_ENTRY_V2"
+title: _WHEA_GENERIC_ERROR_DATA_ENTRY_V2 (ntddk.h)
 description: The WHEA_GENERIC_ERROR_DATA_ENTRY structure describes an error data section in a generic error status block.
 old-location: whea\whea_generic_error_data_entry.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_GENERIC_ERROR_DATA_ENTRY
+- WHEA_GENERIC_ERROR_DATA_ENTRY
 product:
 - Windows
 targetos: Windows

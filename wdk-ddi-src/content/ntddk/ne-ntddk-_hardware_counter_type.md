@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._HARDWARE_COUNTER_TYPE
-title: "_HARDWARE_COUNTER_TYPE"
+title: _HARDWARE_COUNTER_TYPE (ntddk.h)
 description: The HARDWARE_COUNTER_TYPE enumeration specifies the type of a hardware counter.
 old-location: kernel\hardware_counter_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	HARDWARE_COUNTER_TYPE
+- HARDWARE_COUNTER_TYPE
 product:
 - Windows
 targetos: Windows

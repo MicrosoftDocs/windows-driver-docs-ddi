@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_WRITE
-title: DUMP_WRITE
+title: DUMP_WRITE (ntdddump.h)
 description: The Dump_Write callback routine is called before the write to the dump port driver. The filter driver can access the dump data at this time.
 old-location: storage\dump_write.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	Dump_Write
+- Dump_Write
 product:
 - Windows
 targetos: Windows

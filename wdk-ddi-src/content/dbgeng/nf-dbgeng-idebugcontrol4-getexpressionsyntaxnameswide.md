@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExpressionSyntaxNamesWide
-title: IDebugControl4::GetExpressionSyntaxNamesWide
+title: IDebugControl4::GetExpressionSyntaxNamesWide (dbgeng.h)
 description: The GetExpressionSyntaxNamesWide method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnameswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetExpressionSyntaxNamesWide
+- IDebugControl4.GetExpressionSyntaxNamesWide
 product:
 - Windows
 targetos: Windows

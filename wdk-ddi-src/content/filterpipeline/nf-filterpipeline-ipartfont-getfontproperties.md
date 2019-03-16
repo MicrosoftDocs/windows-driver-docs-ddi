@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartFont.GetFontProperties
-title: IPartFont::GetFontProperties
+title: IPartFont::GetFontProperties (filterpipeline.h)
 description: The GetFontProperties method gets the font properties.
 old-location: print\ipartfont_getfontproperties.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartFont.GetFontProperties
+- IPartFont.GetFontProperties
 product:
 - Windows
 targetos: Windows

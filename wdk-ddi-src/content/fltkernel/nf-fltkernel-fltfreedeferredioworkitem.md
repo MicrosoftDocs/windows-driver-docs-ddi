@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeDeferredIoWorkItem
-title: FltFreeDeferredIoWorkItem function
+title: FltFreeDeferredIoWorkItem function (fltkernel.h)
 description: The FltFreeDeferredIoWorkItem routine frees a work item allocated by the FltAllocateDeferredIoWorkItem routine.
 old-location: ifsk\fltfreedeferredioworkitem.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltFreeDeferredIoWorkItem
+- FltFreeDeferredIoWorkItem
 product:
 - Windows
 targetos: Windows

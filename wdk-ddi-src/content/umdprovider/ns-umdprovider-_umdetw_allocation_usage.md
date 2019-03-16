@@ -1,6 +1,6 @@
 ---
 UID: NS:umdprovider._UMDETW_ALLOCATION_USAGE
-title: "_UMDETW_ALLOCATION_USAGE"
+title: _UMDETW_ALLOCATION_USAGE (umdprovider.h)
 description: Indicates the reason for mapping from a Microsoft Direct3D memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
 old-location: display\umdetw_allocation_usage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	umdprovider.h
+- umdprovider.h
 api_name:
--	UMDETW_ALLOCATION_USAGE
+- UMDETW_ALLOCATION_USAGE
 product:
 - Windows
 targetos: Windows

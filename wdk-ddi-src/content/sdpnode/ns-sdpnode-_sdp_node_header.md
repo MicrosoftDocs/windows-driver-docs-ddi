@@ -1,6 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_NODE_HEADER
-title: "_SDP_NODE_HEADER"
+title: _SDP_NODE_HEADER (sdpnode.h)
 description: The SDP_NODE_HEADER structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_header.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdpnode.h
+- sdpnode.h
 api_name:
--	SDP_NODE_HEADER
+- SDP_NODE_HEADER
 product:
 - Windows
 targetos: Windows

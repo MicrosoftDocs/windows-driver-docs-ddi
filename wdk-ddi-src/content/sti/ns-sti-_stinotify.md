@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STINOTIFY
-title: "_STINOTIFY"
+title: _STINOTIFY (sti.h)
 description: The STINOTIFY structure is used as a parameter to the IStillImage::LaunchApplicationForDevice, IStiDevice::GetLastNotificationData, and IStiUSD::GetNotificationData methods.
 old-location: image\stinotify.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STINOTIFY
+- STINOTIFY
 product:
 - Windows
 targetos: Windows

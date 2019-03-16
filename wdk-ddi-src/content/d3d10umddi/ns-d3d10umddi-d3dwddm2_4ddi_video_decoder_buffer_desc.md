@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
-title: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
+title: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC (d3d10umddi.h)
 description: Represents additional decode parameters.
 ms.assetid: 24258007-5a94-4292-92d7-36e280c73fc8
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
+- D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC
 product: 
 - Windows
 targetos: Windows

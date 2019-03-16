@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PHDAUDIO_TRANSFER_COMPLETE_CALLBACK
-title: PHDAUDIO_TRANSFER_COMPLETE_CALLBACK
+title: PHDAUDIO_TRANSFER_COMPLETE_CALLBACK (hdaudio.h)
 description: HDAudio codec transfer complete callback function. PHDAUDIO_TRANSFER_COMPLETE_CALLBACK is used by the PTRANSFER_CODEC_VERBS callback function.
 old-location: audio\phdaudio_transfer_complete_callback.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Hdaudio.h
+- Hdaudio.h
 api_name:
--	HDAudioTransferCompleteCallback
+- HDAudioTransferCompleteCallback
 product:
 - Windows
 targetos: Windows

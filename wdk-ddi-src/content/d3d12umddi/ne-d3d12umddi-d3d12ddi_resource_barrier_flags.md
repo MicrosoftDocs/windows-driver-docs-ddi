@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BARRIER_FLAGS
-title: D3D12DDI_RESOURCE_BARRIER_FLAGS
+title: D3D12DDI_RESOURCE_BARRIER_FLAGS (d3d12umddi.h)
 description: Contains resource barrier flags.
 old-location: display\d3d12ddi_resource_barrier_flags.htm
 ms.assetid: 876ABC9C-F9BE-480F-8641-AE132840F8D5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_BARRIER_FLAGS
+- D3D12DDI_RESOURCE_BARRIER_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.QuerySupported
-title: IKsPropertySet::QuerySupported
+title: IKsPropertySet::QuerySupported (ksproxy.h)
 description: The QuerySupported method determines whether a KS object supports a property set and the type of that support.
 old-location: stream\ikspropertyset_querysupported.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPropertySet.QuerySupported
+- IKsPropertySet.QuerySupported
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetTransactionContext
-title: FltSetTransactionContext function
+title: FltSetTransactionContext function (fltkernel.h)
 description: The FltSetTransactionContext routine sets a context on a transaction.
 old-location: ifsk\fltsettransactioncontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL."
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltSetTransactionContext
+- FltSetTransactionContext
 product:
 - Windows
 targetos: Windows

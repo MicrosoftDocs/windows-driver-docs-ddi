@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SERVICE_ACTIVATION
-title: "_NDIS_WWAN_SERVICE_ACTIVATION"
+title: _NDIS_WWAN_SERVICE_ACTIVATION (ndiswwan.h)
 description: The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used to set the service activation state of the MB device in order to obtain access to the provider's network.
 old-location: netvista\ndis_wwan_service_activation.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SERVICE_ACTIVATION
+- NDIS_WWAN_SERVICE_ACTIVATION
 product:
 - Windows
 targetos: Windows

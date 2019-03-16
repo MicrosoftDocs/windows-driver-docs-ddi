@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortQueryDepthSList
-title: StorPortQueryDepthSList function
+title: StorPortQueryDepthSList function (storport.h)
 description: Retrieves the number of entries in a Storport managed singly linked list.
 old-location: storage\storportquerydepthslist.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortQueryDepthSList
+- StorPortQueryDepthSList
 product:
 - Windows
 targetos: Windows

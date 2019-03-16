@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocatePoolWithTag
-title: FsRtlAllocatePoolWithTag macro
+title: FsRtlAllocatePoolWithTag macro (ntifs.h)
 description: The FsRtlAllocatePoolWithTag routine allocates pool memory.
 old-location: ifsk\fsrtlallocatepoolwithtag.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAllocatePoolWithTag
+- FsRtlAllocatePoolWithTag
 product:
 - Windows
 targetos: Windows

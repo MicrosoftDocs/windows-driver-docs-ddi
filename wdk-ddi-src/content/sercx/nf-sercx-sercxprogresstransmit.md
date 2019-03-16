@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxProgressTransmit
-title: SerCxProgressTransmit function
+title: SerCxProgressTransmit function (sercx.h)
 description: The SerCxProgressTransmit method reports the progress of the current write (transmit) operation.
 old-location: serports\sercxprogresstransmit.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxProgressTransmit
+- SerCxProgressTransmit
 product:
 - Windows
 targetos: Windows

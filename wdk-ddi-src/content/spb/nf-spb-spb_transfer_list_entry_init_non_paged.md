@@ -1,6 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
-title: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function
+title: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer in nonpaged memory.
 old-location: spb\spb_transfer_list_entry_init_non_paged.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
+- SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 product:
 - Windows
 targetos: Windows

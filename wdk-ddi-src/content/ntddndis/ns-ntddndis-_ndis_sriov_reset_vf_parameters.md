@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_RESET_VF_PARAMETERS
-title: "_NDIS_SRIOV_RESET_VF_PARAMETERS"
+title: _NDIS_SRIOV_RESET_VF_PARAMETERS (ntddndis.h)
 description: The NDIS_SRIOV_RESET_VF_PARAMETERS structure specifies the parameters for resetting a network adapter's PCI Express (PCIe) Virtual Function (VF).
 old-location: netvista\ndis_sriov_reset_vf_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SRIOV_RESET_VF_PARAMETERS
+- NDIS_SRIOV_RESET_VF_PARAMETERS
 product:
 - Windows
 targetos: Windows

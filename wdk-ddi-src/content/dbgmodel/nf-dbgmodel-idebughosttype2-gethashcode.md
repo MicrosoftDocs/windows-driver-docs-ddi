@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetHashCode
-title: IDebugHostType2::GetHashCode
+title: IDebugHostType2::GetHashCode (dbgmodel.h)
 description: The GetHashCode method returns a 32-bit hash code for the type. 
 ms.assetid: d51f86ff-bb28-4cbb-b829-265d04ae7772
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetHashCode
-product: Windows
+- IDebugHostType2.GetHashCode
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

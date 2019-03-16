@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Subscribe
-title: IStiDevice::Subscribe
+title: IStiDevice::Subscribe (sti.h)
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.Subscribe
+- IStiDevice.Subscribe
 product:
 - Windows
 targetos: Windows

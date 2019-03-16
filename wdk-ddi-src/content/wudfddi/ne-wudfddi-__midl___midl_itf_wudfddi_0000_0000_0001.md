@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi.__MIDL___MIDL_itf_wudfddi_0000_0000_0001
-title: "__MIDL___MIDL_itf_wudfddi_0000_0000_0001"
+title: __MIDL___MIDL_itf_wudfddi_0000_0000_0001 (wudfddi.h)
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	POWER_ACTION
+- POWER_ACTION
 product:
 - Windows
 targetos: Windows

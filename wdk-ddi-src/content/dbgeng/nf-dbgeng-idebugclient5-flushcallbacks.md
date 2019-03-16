@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.FlushCallbacks
-title: IDebugClient5::FlushCallbacks
+title: IDebugClient5::FlushCallbacks (dbgeng.h)
 description: The FlushCallbacks method forces any remaining buffered output to be delivered to the IDebugOutputCallbacks object registered with this client.
 old-location: debugger\flushcallbacks.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.FlushCallbacks
--	IDebugClient2.FlushCallbacks
--	IDebugClient3.FlushCallbacks
--	IDebugClient4.FlushCallbacks
--	IDebugClient5.FlushCallbacks
+- IDebugClient.FlushCallbacks
+- IDebugClient2.FlushCallbacks
+- IDebugClient3.FlushCallbacks
+- IDebugClient4.FlushCallbacks
+- IDebugClient5.FlushCallbacks
 product:
 - Windows
 targetos: Windows

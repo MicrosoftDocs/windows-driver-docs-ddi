@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.IsGUIDPresentInList
-title: IsGUIDPresentInList function
+title: IsGUIDPresentInList function (sensorsutils.h)
 description: This routine looks for a GUID in a list of GUIDs.
 ms.assetid: e6209d36-e01c-4922-9dfa-c3e41eb0285e
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	IsGUIDPresentInList
+- IsGUIDPresentInList
 product:
  - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetFloatValue
-title: IPortableDeviceValues::GetFloatValue
+title: IPortableDeviceValues::GetFloatValue (portabledevicetypes.h)
 description: The GetFloatValue method retrieves a FLOAT value (type VT_R4) specified by a key.
 old-location: wpddk\iportabledevicevalues_getfloatvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetFloatValue
+- IPortableDeviceValues.GetFloatValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

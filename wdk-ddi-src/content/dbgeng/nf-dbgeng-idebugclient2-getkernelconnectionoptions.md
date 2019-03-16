@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetKernelConnectionOptions
-title: IDebugClient2::GetKernelConnectionOptions
+title: IDebugClient2::GetKernelConnectionOptions (dbgeng.h)
 description: The GetKernelConnectionOptions method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptions.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetKernelConnectionOptions
--	IDebugClient2.GetKernelConnectionOptions
--	IDebugClient3.GetKernelConnectionOptions
--	IDebugClient4.GetKernelConnectionOptions
--	IDebugClient5.GetKernelConnectionOptions
+- IDebugClient.GetKernelConnectionOptions
+- IDebugClient2.GetKernelConnectionOptions
+- IDebugClient3.GetKernelConnectionOptions
+- IDebugClient4.GetKernelConnectionOptions
+- IDebugClient5.GetKernelConnectionOptions
 product:
 - Windows
 targetos: Windows

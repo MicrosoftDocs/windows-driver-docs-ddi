@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRequestCallbackRequestCompletion.OnCompletion
-title: IRequestCallbackRequestCompletion::OnCompletion
+title: IRequestCallbackRequestCompletion::OnCompletion (wudfddi.h)
 description: The OnCompletion method completes the specified request.
 old-location: wdf\irequestcallbackrequestcompletion_oncompletion.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IRequestCallbackRequestCompletion.OnCompletion
+- IRequestCallbackRequestCompletion.OnCompletion
 product:
 - Windows
 targetos: Windows

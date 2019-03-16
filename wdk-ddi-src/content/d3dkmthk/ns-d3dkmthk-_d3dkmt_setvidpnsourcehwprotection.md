@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEHWPROTECTION
-title: _D3DKMT_SETVIDPNSOURCEHWPROTECTION
+title: _D3DKMT_SETVIDPNSOURCEHWPROTECTION (d3dkmthk.h)
 description: Used to set VidPn source hardware protection.
 ms.assetid: 692b580b-0e46-4840-aae8-78450d71aaaf
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_SETVIDPNSOURCEHWPROTECTION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_SETVIDPNSOURCEHWPROTECTION
+- _D3DKMT_SETVIDPNSOURCEHWPROTECTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

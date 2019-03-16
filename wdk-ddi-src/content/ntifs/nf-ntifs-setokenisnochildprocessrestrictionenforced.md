@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsNoChildProcessRestrictionEnforced
-title: SeTokenIsNoChildProcessRestrictionEnforced function
+title: SeTokenIsNoChildProcessRestrictionEnforced function (ntifs.h)
 description: The SeTokenIsNoChildProcessRestrictionEnforced routine determines if the token carries the no child process restriction.
 old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeTokenIsNoChildProcessRestrictionEnforced
+- SeTokenIsNoChildProcessRestrictionEnforced
 product:
 - Windows
 targetos: Windows

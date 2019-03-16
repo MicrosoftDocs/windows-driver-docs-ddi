@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.AppendImagePath
-title: IDebugSymbols::AppendImagePath
+title: IDebugSymbols::AppendImagePath (dbgeng.h)
 description: The AppendImagePath method appends directories to the executable image path.
 old-location: debugger\appendimagepath.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols.AppendImagePath
--	IDebugSymbols2.AppendImagePath
--	IDebugSymbols3.AppendImagePath
+- IDebugSymbols.AppendImagePath
+- IDebugSymbols2.AppendImagePath
+- IDebugSymbols3.AppendImagePath
 product:
 - Windows
 targetos: Windows

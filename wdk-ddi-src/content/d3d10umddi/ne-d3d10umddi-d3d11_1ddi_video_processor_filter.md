@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FILTER
-title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER (d3d10umddi.h)
 description: Identifies a video processor filter.
 old-location: display\d3d11_1ddi_video_processor_filter.htm
 ms.assetid: 189ad1c2-3828-468a-a99d-12d85da6bf63
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+- D3D11_1DDI_VIDEO_PROCESSOR_FILTER
 product:
 - Windows
 targetos: Windows

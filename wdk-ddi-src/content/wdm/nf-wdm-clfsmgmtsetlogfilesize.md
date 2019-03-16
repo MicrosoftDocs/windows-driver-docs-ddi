@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtSetLogFileSize
-title: ClfsMgmtSetLogFileSize function
+title: ClfsMgmtSetLogFileSize function (wdm.h)
 description: The ClfsMgmtSetLogFileSize routine adds containers to a log or deletes containers from a log.
 old-location: kernel\clfsmgmtsetlogfilesize.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsMgmtSetLogFileSize
+- ClfsMgmtSetLogFileSize
 product:
 - Windows
 targetos: Windows

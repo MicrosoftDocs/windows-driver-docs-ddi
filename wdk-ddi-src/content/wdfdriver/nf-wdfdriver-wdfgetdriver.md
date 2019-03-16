@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfGetDriver
-title: WdfGetDriver function
+title: WdfGetDriver function (wdfdriver.h)
 description: The WdfGetDriver method returns a handle to the framework driver object that represents the calling driver.
 old-location: wdf\wdfgetdriver.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfGetDriver
+- WdfGetDriver
 product:
 - Windows
 targetos: Windows

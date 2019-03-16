@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcradiodev._NFCRM_RADIO_STATE
-title: "_NFCRM_RADIO_STATE"
+title: _NFCRM_RADIO_STATE (nfcradiodev.h)
 description: This structure is used to indicate the radio state.
 old-location: nfpdrivers\_nfcrm_radio_state_.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcradiodev.h
+- nfcradiodev.h
 api_name:
--	NFCRM_RADIO_STATE
+- NFCRM_RADIO_STATE
 product:
 - Windows
 targetos: Windows

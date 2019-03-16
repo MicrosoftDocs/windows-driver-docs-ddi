@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_COMPOSERECTSOP
-title: _D3DDDI_COMPOSERECTSOP
+title: _D3DDDI_COMPOSERECTSOP (d3dumddi.h)
 description: Describes the ways in which to compose rectangle areas.
 ms.assetid: 8eed3d12-86ec-4184-8087-eb5490096437
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_COMPOSERECTSOP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDI_COMPOSERECTSOP
+- _D3DDDI_COMPOSERECTSOP
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

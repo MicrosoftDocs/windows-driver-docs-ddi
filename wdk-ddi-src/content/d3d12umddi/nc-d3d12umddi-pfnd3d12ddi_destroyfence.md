@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYFENCE
-title: PFND3D12DDI_DESTROYFENCE
+title: PFND3D12DDI_DESTROYFENCE (d3d12umddi.h)
 description: Destroy fence.
 ms.assetid: 80fb2a47-384b-413a-a68f-1faedb114a17
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYFENCE
+- PFND3D12DDI_DESTROYFENCE
 product: 
 - Windows
 targetos: Windows

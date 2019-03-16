@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_INITIALIZE
-title: PDEBUG_EXTENSION_INITIALIZE
+title: PDEBUG_EXTENSION_INITIALIZE (dbgeng.h)
 description: The DebugExtensionInitialize callback function is called by the engine after loading a DbgEng extension DLL.C++ CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
 old-location: debugger\debugextensioninitialize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	DebugExtensionInitialize
+- DebugExtensionInitialize
 product:
 - Windows
 targetos: Windows

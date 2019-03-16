@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateExtraCreateParameterList
-title: FltAllocateExtraCreateParameterList function
+title: FltAllocateExtraCreateParameterList function (fltkernel.h)
 description: The FltAllocateExtraCreateParameterList routine allocates paged pool memory for an extra create parameter (ECP) list structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameterlist.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAllocateExtraCreateParameterList
+- FltAllocateExtraCreateParameterList
 product:
 - Windows
 targetos: Windows
@@ -108,7 +108,7 @@ The ECP_LIST structure is declared in Ntifs.h (include Ntifs.h).
 
 [FltFreeExtraCreateParameter](nf-fltkernel-fltfreeextracreateparameter.md)
 
-[FltFreeExtraCreateParameterList](nf-fltkernel-fltfreeextracreateparameterlist)
+[FltFreeExtraCreateParameterList](nf-fltkernel-fltfreeextracreateparameterlist.md)
 
 [FltGetEcpListFromCallbackData](nf-fltkernel-fltgetecplistfromcallbackdata.md)
 

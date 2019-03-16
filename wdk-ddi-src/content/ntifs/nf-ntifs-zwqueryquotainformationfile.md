@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwQueryQuotaInformationFile
-title: ZwQueryQuotaInformationFile function
+title: ZwQueryQuotaInformationFile function (ntifs.h)
 description: The ZwQueryQuotaInformationFile routine retrieves quota entries associated with the volume specified by the FileHandle parameter.
 old-location: kernel\zwqueryquotainformationfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryQuotaInformationFile
--	NtQueryQuotaInformationFile
+- ZwQueryQuotaInformationFile
+- NtQueryQuotaInformationFile
 product:
 - Windows
 targetos: Windows

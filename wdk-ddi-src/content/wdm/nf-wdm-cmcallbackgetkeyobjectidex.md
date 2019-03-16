@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackGetKeyObjectIDEx
-title: CmCallbackGetKeyObjectIDEx function
+title: CmCallbackGetKeyObjectIDEx function (wdm.h)
 description: The CmCallbackGetKeyObjectIDEx routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectidex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmCallbackGetKeyObjectIDEx
+- CmCallbackGetKeyObjectIDEx
 product:
 - Windows
 targetos: Windows

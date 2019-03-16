@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateInstanceInformationByDeviceObject
-title: FltEnumerateInstanceInformationByDeviceObject function
+title: FltEnumerateInstanceInformationByDeviceObject function (fltkernel.h)
 description: The FltEnumerateInstanceInformationByDeviceObject routine provides information about minifilter driver instances and legacy filter drivers that are attached to the volume related to a specified device object.
 old-location: ifsk\fltenumerateinstanceinformationbydeviceobject.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltEnumerateInstanceInformationByDeviceObject
+- FltEnumerateInstanceInformationByDeviceObject
 product:
 - Windows
 targetos: Windows

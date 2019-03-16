@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetKeyValue
-title: IPortableDeviceValues::GetKeyValue
+title: IPortableDeviceValues::GetKeyValue (portabledevicetypes.h)
 description: Retrieves a PROPERTYKEY value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getkeyvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetKeyValue
+- IPortableDeviceValues.GetKeyValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

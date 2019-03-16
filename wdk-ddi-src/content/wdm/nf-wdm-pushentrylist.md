@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PushEntryList
-title: PushEntryList function
+title: PushEntryList function (wdm.h)
 description: The PushEntryList routine inserts an entry at the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\pushentrylist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PushEntryList
+- PushEntryList
 product:
 - Windows
 targetos: Windows

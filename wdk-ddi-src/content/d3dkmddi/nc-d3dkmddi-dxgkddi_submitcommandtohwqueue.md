@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITCOMMANDTOHWQUEUE
-title: DXGKDDI_SUBMITCOMMANDTOHWQUEUE
+title: DXGKDDI_SUBMITCOMMANDTOHWQUEUE (d3dkmddi.h)
 description: Invoked by the DirectX graphics kernel to append a DMA buffer to a GPU visible hardware queue.
 ms.assetid: 4dec4717-b938-4960-8347-991e100537eb
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKDDI_SUBMITCOMMANDTOHWQUEUE
+- DXGKDDI_SUBMITCOMMANDTOHWQUEUE
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

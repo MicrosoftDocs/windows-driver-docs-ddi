@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectNetworkSendAsync0
-title: FwpsInjectNetworkSendAsync0 function
+title: FwpsInjectNetworkSendAsync0 function (fwpsk.h)
 description: The FwpsInjectNetworkSendAsync0 function injects packet data into the send data path.Note  FwpsInjectNetworkSendAsync0 is a specific version of FwpsInjectNetworkSendAsync.
 old-location: netvista\fwpsinjectnetworksendasync0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectNetworkSendAsync0
+- FwpsInjectNetworkSendAsync0
 product:
 - Windows
 targetos: Windows

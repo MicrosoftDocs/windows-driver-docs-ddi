@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
-title: IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
+title: IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents (wdtfdriversetupsystemaction.h)
 description: Waits until all device installations have completed.
 old-location: dtf\iwdtfdriversetupsystemaction2_waitnopendinginstallevents.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupSystemAction.Interop.dll
+- WDTFDriverSetupSystemAction.Interop.dll
 api_name:
--	IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
+- IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
 product:
 - Windows
 targetos: Windows

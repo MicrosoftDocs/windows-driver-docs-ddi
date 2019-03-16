@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._MORE_PARALLEL_PORT_INFORMATION
-title: "_MORE_PARALLEL_PORT_INFORMATION"
+title: _MORE_PARALLEL_PORT_INFORMATION (parallel.h)
 description: The MORE_PARALLEL_PORT_INFORMATION structure specifies information about the system interface that supports the operation of a parallel port.
 old-location: parports\more_parallel_port_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	MORE_PARALLEL_PORT_INFORMATION
+- MORE_PARALLEL_PORT_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_DATA
-title: "_WINBIO_DATA"
+title: _WINBIO_DATA (winbio_ioctl.h)
 description: The WINBIO_DATA structure specifies data in IOCTL payloads.
 old-location: biometric\winbio_data.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_DATA
+- WINBIO_DATA
 product:
 - Windows
 targetos: Windows

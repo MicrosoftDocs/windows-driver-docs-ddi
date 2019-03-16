@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextFileLock
-title: FsRtlGetNextFileLock function
+title: FsRtlGetNextFileLock function (ntifs.h)
 description: The FsRtlGetNextFileLock routine is used to enumerate the byte-range locks that currently exist for a specified file.
 old-location: ifsk\fsrtlgetnextfilelock.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlGetNextFileLock
+- FsRtlGetNextFileLock
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

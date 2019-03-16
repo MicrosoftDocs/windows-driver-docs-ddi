@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
-title: NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro
+title: NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro (ntddndis.h)
 description: The NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro is used to access the first NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY that is specified by an NDIS_ROUTING_DOMAIN_ENTRY structure.
 tech.root: netvista
 ms.assetid: f9c4f535-b11c-45b5-b81f-f50b33a77987
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
+- NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

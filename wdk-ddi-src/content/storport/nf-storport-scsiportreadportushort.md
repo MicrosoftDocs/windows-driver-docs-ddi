@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadPortUshort
-title: ScsiPortReadPortUshort macro
+title: ScsiPortReadPortUshort macro (storport.h)
 description: The ScsiPortReadPortUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortReadPortUshort
+- ScsiPortReadPortUshort
 product:
 - Windows
 targetos: Windows

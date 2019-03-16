@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_CQ_CREATE_REQUEST
-title: _NVME_RESERVED_CQ_CREATE_REQUEST
+title: _NVME_RESERVED_CQ_CREATE_REQUEST (ntddstor.h)
 description: 
 ms.assetid: 4861a8c9-346e-44ac-af68-1a7e0f915b6f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_CQ_CREATE_REQUEST, *PNVME_RESERVED_CQ_CREATE_REQUEST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_CQ_CREATE_REQUEST
+- _NVME_RESERVED_CQ_CREATE_REQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

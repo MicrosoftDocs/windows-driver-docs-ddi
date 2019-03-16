@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortInt10
-title: VideoPortInt10 function
+title: VideoPortInt10 function (video.h)
 description: The VideoPortInt10 function performs the equivalent of an MS-DOS INT10 operation, such as setting the video mode. VideoPortInt10 runs the BIOS ROM code on the device.
 old-location: display\videoportint10.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortInt10
+- VideoPortInt10
 product:
 - Windows
 targetos: Windows

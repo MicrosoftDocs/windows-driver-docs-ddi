@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionAddConnector
-title: UcmUcsiConnectorCollectionAddConnector function
+title: UcmUcsiConnectorCollectionAddConnector function (ucmucsippm.h)
 tech.root: usbref
 description: Adds a connector to the connector collection object.
 ms.assetid: 0b8f9d0c-60c8-467d-9575-833c87f45bb6
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UcmUcsiCxStub.lib
+- UcmUcsiCxStub.lib
 api_name: 
--	UcmUcsiConnectorCollectionAddConnector
-product: Windows
+- UcmUcsiConnectorCollectionAddConnector
+product:
+- Windows
 targetos: Windows
 
 

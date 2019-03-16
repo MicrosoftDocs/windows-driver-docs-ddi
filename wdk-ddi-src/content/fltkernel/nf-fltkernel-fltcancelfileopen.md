@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCancelFileOpen
-title: FltCancelFileOpen function
+title: FltCancelFileOpen function (fltkernel.h)
 description: A minifilter driver can use the FltCancelFileOpen routine to close a newly opened or created file.
 old-location: ifsk\fltcancelfileopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltCancelFileOpen
+- FltCancelFileOpen
 product:
 - Windows
 targetos: Windows

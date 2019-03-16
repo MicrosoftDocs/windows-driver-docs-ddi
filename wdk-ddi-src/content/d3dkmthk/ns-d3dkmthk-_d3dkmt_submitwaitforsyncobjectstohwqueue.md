@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-title: "_D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
+title: _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: A structure that contains information to submit a wait on the hardware queue.
 old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
+- D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 product:
 - Windows
 targetos: Windows

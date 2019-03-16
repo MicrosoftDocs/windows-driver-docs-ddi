@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CONFIGURABLE_CHARGER_PROPERTY_HEADER
-title: "_CONFIGURABLE_CHARGER_PROPERTY_HEADER"
+title: _CONFIGURABLE_CHARGER_PROPERTY_HEADER (charging.h)
 description: The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY.
 old-location: battery\configurable_charger_property_header.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	CONFIGURABLE_CHARGER_PROPERTY_HEADER
+- CONFIGURABLE_CHARGER_PROPERTY_HEADER
 product:
 - Windows
 targetos: Windows

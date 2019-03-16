@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetPoolFromNetBufferList
-title: NdisGetPoolFromNetBufferList function
+title: NdisGetPoolFromNetBufferList function (ndis.h)
 description: Call the NdisGetPoolFromNetBufferList function to get the NET_BUFFER_LIST structure pool handle that is associated with a specified NET_BUFFER_LIST structure.
 old-location: netvista\ndisgetpoolfromnetbufferlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetPoolFromNetBufferList
+- NdisGetPoolFromNetBufferList
 product:
 - Windows
 targetos: Windows

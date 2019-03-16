@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._ZONE_DESCRIPTIOR
-title: "_ZONE_DESCRIPTIOR"
+title: _ZONE_DESCRIPTIOR (minitape.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\zone_descriptior.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	ZONE_DESCRIPTIOR
+- ZONE_DESCRIPTIOR
 product:
 - Windows
 targetos: Windows

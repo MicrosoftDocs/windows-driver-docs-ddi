@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_BLEND_OP
-title: D3D10_DDI_BLEND_OP
+title: D3D10_DDI_BLEND_OP (d3d10umddi.h)
 description: The D3D10_DDI_BLEND_OP enumeration type contains values that identify blending operations in a call to the driver's CreateBlendState function.
 old-location: display\d3d10_ddi_blend_op.htm
 ms.assetid: 3743db2a-d613-4efb-ae73-80eb1bfd9410
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_BLEND_OP
+- D3D10_DDI_BLEND_OP
 product:
 - Windows
 targetos: Windows

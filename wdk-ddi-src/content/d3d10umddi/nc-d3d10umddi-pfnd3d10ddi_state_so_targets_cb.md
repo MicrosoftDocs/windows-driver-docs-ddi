@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_SO_TARGETS_CB
-title: PFND3D10DDI_STATE_SO_TARGETS_CB
+title: PFND3D10DDI_STATE_SO_TARGETS_CB (d3d10umddi.h)
 description: The pfnStateSoTargetsCb function causes the Microsoft Direct3D 10 runtime to refresh the stream-out targets.
 old-location: display\pfnstatesotargetscb.htm
 ms.assetid: 9000543b-00ab-4378-9fa5-d4fc7cb05b24
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateSoTargetsCb
+- pfnStateSoTargetsCb
 product:
 - Windows
 targetos: Windows

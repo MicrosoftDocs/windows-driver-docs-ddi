@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_AGP_INTERFACE_2
-title: "_VIDEO_PORT_AGP_INTERFACE_2"
+title: _VIDEO_PORT_AGP_INTERFACE_2 (video.h)
 description: The VIDEO_PORT_AGP_INTERFACE_2 structure describes the AGP service routines provided by the video port driver.
 old-location: display\video_port_agp_interface_2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_PORT_AGP_INTERFACE_2
+- VIDEO_PORT_AGP_INTERFACE_2
 product:
 - Windows
 targetos: Windows

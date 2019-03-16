@@ -1,6 +1,6 @@
 ---
 UID: NF:video._VIDEO_PORT_DEBUG_REPORT_INTERFACE.VOID
-title: VOID function
+title: VOID function (video.h)
 description: The NdisMapFile function maps an already open file into a caller-accessible buffer if the file is currently unmapped.
 old-location: netvista\ndismapfile.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll:
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMapFile
+- NdisMapFile
 product:
 - Windows
 targetos: Windows

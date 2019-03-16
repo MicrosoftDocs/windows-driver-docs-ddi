@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_HasCatalog
-title: IWDTFDriverPackageAction2::get_HasCatalog
+title: IWDTFDriverPackageAction2::get_HasCatalog (wdtfdriverpackageaction.h)
 description: Gets a value that indicates whether the driver package has a catalog.
 old-location: dtf\iwdtfdriverpackageaction2_hascatalog.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.HasCatalog
--	IWDTFDriverPackageAction2.get_HasCatalog
+- IWDTFDriverPackageAction2.HasCatalog
+- IWDTFDriverPackageAction2.get_HasCatalog
 product:
 - Windows
 targetos: Windows

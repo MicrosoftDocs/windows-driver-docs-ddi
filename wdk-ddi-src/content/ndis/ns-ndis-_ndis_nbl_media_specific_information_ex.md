@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
-title: "_NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX"
+title: _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX (ndis.h)
 description: The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure defines media-specific information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_nbl_media_specific_information_ex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
+- NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

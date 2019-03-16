@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerAdvanceOffsets
-title: KsStreamPointerAdvanceOffsets function
+title: KsStreamPointerAdvanceOffsets function (ks.h)
 description: The KsStreamPointerAdvanceOffsets function advances the offsets of StreamPointer.
 old-location: stream\ksstreampointeradvanceoffsets.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerAdvanceOffsets
+- KsStreamPointerAdvanceOffsets
 product:
 - Windows
 targetos: Windows

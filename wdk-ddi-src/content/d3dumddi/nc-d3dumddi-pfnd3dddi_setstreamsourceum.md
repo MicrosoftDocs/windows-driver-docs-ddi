@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCEUM
-title: PFND3DDDI_SETSTREAMSOURCEUM
+title: PFND3DDDI_SETSTREAMSOURCEUM (d3dumddi.h)
 description: The SetStreamSourceUM function binds a vertex stream source to a user memory buffer.
 old-location: display\setstreamsourceum.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetStreamSourceUM
+- SetStreamSourceUM
 product:
 - Windows
 targetos: Windows

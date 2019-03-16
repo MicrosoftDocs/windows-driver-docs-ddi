@@ -1,6 +1,6 @@
 ---
 UID: NS:hpmi._HPMI_QUERY_CAPABILITIES_RESPONSE
-title: "_HPMI_QUERY_CAPABILITIES_RESPONSE"
+title: _HPMI_QUERY_CAPABILITIES_RESPONSE (hpmi.h)
 description: HPMI_QUERY_CAPABILITIES_RESPONSE is a structure used to return information about software defined batteries (SDB).
 old-location: powermeter\hpmi_query_capabilities_response.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	HPMI_QUERY_CAPABILITIES_RESPONSE
+- HPMI_QUERY_CAPABILITIES_RESPONSE
 product:
 - Windows
 targetos: Windows

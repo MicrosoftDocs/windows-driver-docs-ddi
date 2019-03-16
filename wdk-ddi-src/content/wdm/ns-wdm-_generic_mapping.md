@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._GENERIC_MAPPING
-title: "_GENERIC_MAPPING"
+title: _GENERIC_MAPPING (wdm.h)
 description: The GENERIC_MAPPING structure describes the ACCESS_MASK value of specific access rights associated with each type of generic access right.
 old-location: kernel\generic_mapping.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GENERIC_MAPPING
+- GENERIC_MAPPING
 product:
 - Windows
 targetos: Windows

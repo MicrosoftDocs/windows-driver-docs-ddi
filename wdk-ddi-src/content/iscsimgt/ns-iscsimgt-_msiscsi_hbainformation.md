@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_HBAInformation
-title: "_MSiSCSI_HBAInformation"
+title: _MSiSCSI_HBAInformation (iscsimgt.h)
 description: The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
 old-location: storage\msiscsi_hbainformation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_HBAInformation
+- MSiSCSI_HBAInformation
 product:
 - Windows
 targetos: Windows

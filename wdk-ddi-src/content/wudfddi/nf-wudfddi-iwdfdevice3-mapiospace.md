@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.MapIoSpace
-title: IWDFDevice3::MapIoSpace
+title: IWDFDevice3::MapIoSpace (wudfddi.h)
 description: The MapIoSpace method maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\iwdfdevice3_mapiospace.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.MapIoSpace
+- IWDFDevice3.MapIoSpace
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_START_IO
-title: PVIDEO_HW_START_IO
+title: PVIDEO_HW_START_IO (video.h)
 description: HwVidStartIO processes the specified VRP.
 old-location: display\hwvidstartio.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidStartIO
+- HwVidStartIO
 product:
 - Windows
 targetos: Windows

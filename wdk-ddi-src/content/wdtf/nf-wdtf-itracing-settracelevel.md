@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.ITracing.SetTraceLevel
-title: ITracing::SetTraceLevel
+title: ITracing::SetTraceLevel (wdtf.h)
 description: The SetTraceLevel method sets the tracing level for an object.
 old-location: dtf\itracing_settracelevel.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	ITracing.SetTraceLevel
+- ITracing.SetTraceLevel
 product:
 - Windows
 targetos: Windows

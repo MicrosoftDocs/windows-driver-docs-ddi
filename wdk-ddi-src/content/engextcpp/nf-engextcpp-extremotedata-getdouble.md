@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetDouble
-title: ExtRemoteData::GetDouble
+title: ExtRemoteData::GetDouble (engextcpp.h)
 description: The GetDouble method returns a double version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getdouble.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetDouble
+- ExtRemoteData.GetDouble
 product:
 - Windows
 targetos: Windows

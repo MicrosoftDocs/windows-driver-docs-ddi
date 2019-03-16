@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.AddDumpInformationFileWide
-title: IDebugClient4::AddDumpInformationFileWide
+title: IDebugClient4::AddDumpInformationFileWide (dbgeng.h)
 description: The AddDumpInformationFileWide method registers additional files containing supporting information that will be used when opening a dump file. The ASCII version of this method is AddDumpInformationFile.
 old-location: debugger\adddumpinformationfilewide.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient4.AddDumpInformationFileWide
--	IDebugClient5.AddDumpInformationFileWide
+- IDebugClient4.AddDumpInformationFileWide
+- IDebugClient5.AddDumpInformationFileWide
 product:
 - Windows
 targetos: Windows

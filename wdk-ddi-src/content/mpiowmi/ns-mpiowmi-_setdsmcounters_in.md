@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._SetDSMCounters_IN
-title: "_SetDSMCounters_IN"
+title: _SetDSMCounters_IN (mpiowmi.h)
 description: The SetDSMCounters_IN structure is used to set the timer counters for a particular DSM.
 old-location: storage\setdsmcounters_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	SetDSMCounters_IN
+- SetDSMCounters_IN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_MONITORCREATE
-title: IDARG_OUT_MONITORCREATE
+title: IDARG_OUT_MONITORCREATE (iddcx.h)
 description: Gives information about the newly created monitor object.
 old-location: display\idarg_out_monitorcreate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_MONITORCREATE
+- IDARG_OUT_MONITORCREATE
 product:
 - Windows
 targetos: Windows

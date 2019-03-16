@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterRegisterPowerCallbacks
-title: KsFilterRegisterPowerCallbacks function
+title: KsFilterRegisterPowerCallbacks function (ks.h)
 description: The KsFilterRegisterPowerCallbacks function registers power management callbacks for Filter.
 old-location: stream\ksfilterregisterpowercallbacks.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterRegisterPowerCallbacks
+- KsFilterRegisterPowerCallbacks
 product:
 - Windows
 targetos: Windows

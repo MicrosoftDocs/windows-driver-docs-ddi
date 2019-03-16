@@ -1,6 +1,6 @@
 ---
 UID: NS:ptpusd._PTP_VENDOR_DATA_OUT
-title: "_PTP_VENDOR_DATA_OUT"
+title: _PTP_VENDOR_DATA_OUT (ptpusd.h)
 description: The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
 old-location: image\ptp_vendor_data_out.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ptpusd.h
+- ptpusd.h
 api_name:
--	PTP_VENDOR_DATA_OUT
+- PTP_VENDOR_DATA_OUT
 product:
 - Windows
 targetos: Windows

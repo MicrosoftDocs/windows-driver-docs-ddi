@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DISPLAYDETECTCONTROL
-title: "_DXGKARG_DISPLAYDETECTCONTROL"
+title: _DXGKARG_DISPLAYDETECTCONTROL (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_DISPLAYDETECTCONTROL.
 old-location: display\dxgkarg_displaydetectcontrol.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_DISPLAYDETECTCONTROL
+- DXGKARG_DISPLAYDETECTCONTROL
 product:
 - Windows
 targetos: Windows

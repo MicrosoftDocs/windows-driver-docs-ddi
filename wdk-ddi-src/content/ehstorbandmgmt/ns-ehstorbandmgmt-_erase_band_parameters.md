@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._ERASE_BAND_PARAMETERS
-title: "_ERASE_BAND_PARAMETERS"
+title: _ERASE_BAND_PARAMETERS (ehstorbandmgmt.h)
 description: The ERASE_BAND_PARAMETERS structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request.
 old-location: storage\erase_band_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	ERASE_BAND_PARAMETERS
+- ERASE_BAND_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl7.GetDebuggeeType2
-title: IDebugControl7::GetDebuggeeType2
+title: IDebugControl7::GetDebuggeeType2 (dbgeng.h)
 description: The GetDebuggeeType2 method describes the nature of the current target.
 old-location: debugger\idebugcontrol7_getdebuggeetype2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl7.GetDebuggeeType2
+- IDebugControl7.GetDebuggeeType2
 product:
 - Windows
 targetos: Windows

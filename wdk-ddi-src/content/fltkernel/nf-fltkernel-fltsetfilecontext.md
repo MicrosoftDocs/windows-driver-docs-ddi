@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetFileContext
-title: FltSetFileContext function
+title: FltSetFileContext function (fltkernel.h)
 description: The FltSetFileContext routine sets a context for a file.
 old-location: ifsk\fltsetfilecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetFileContext
+- FltSetFileContext
 product:
 - Windows
 targetos: Windows

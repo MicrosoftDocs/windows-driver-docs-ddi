@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DIAGNOSTIC_TARGET_TYPE
-title: "_STORAGE_DIAGNOSTIC_TARGET_TYPE"
+title: _STORAGE_DIAGNOSTIC_TARGET_TYPE (ntddstor.h)
 description: The STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration specifies the target type of a storage diagnostic.
 old-location: storage\storage_diagnostic_target_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_DIAGNOSTIC_TARGET_TYPE
+- STORAGE_DIAGNOSTIC_TARGET_TYPE
 product:
 - Windows
 targetos: Windows

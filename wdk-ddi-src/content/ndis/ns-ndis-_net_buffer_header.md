@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_HEADER
-title: "_NET_BUFFER_HEADER"
+title: _NET_BUFFER_HEADER (ndis.h)
 description: The NET_BUFFER_HEADER structure specifies header information for the NET_BUFFER structure.
 old-location: netvista\net_buffer_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER_HEADER
+- NET_BUFFER_HEADER
 product:
 - Windows
 targetos: Windows

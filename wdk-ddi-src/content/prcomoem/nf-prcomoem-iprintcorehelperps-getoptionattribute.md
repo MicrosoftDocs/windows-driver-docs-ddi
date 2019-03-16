@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetOptionAttribute
-title: IPrintCoreHelperPS::GetOptionAttribute
+title: IPrintCoreHelperPS::GetOptionAttribute (prcomoem.h)
 description: The IPrintCoreHelperPS::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcorehelperps_getoptionattribute.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelperPS.GetOptionAttribute
+- IPrintCoreHelperPS.GetOptionAttribute
 product:
 - Windows
 targetos: Windows

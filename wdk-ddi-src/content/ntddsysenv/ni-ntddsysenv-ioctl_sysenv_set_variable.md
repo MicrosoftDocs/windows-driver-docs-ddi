@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddsysenv.IOCTL_SYSENV_SET_VARIABLE
-title: IOCTL_SYSENV_SET_VARIABLE
+title: IOCTL_SYSENV_SET_VARIABLE (ntddsysenv.h)
 description: Sets the value of the specified system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddsysenv.h
+- Ntddsysenv.h
 api_name:
--	IOCTL_SYSENV_SET_VARIABLE
+- IOCTL_SYSENV_SET_VARIABLE
 product:
 - Windows
 targetos: Windows

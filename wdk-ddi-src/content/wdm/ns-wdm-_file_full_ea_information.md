@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_FULL_EA_INFORMATION
-title: "_FILE_FULL_EA_INFORMATION"
+title: _FILE_FULL_EA_INFORMATION (wdm.h)
 description: The FILE_FULL_EA_INFORMATION structure provides extended attribute (EA) information. This structure is used primarily by network drivers.
 old-location: kernel\file_full_ea_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FILE_FULL_EA_INFORMATION
+- FILE_FULL_EA_INFORMATION
 product:
 - Windows
 targetos: Windows

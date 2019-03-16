@@ -1,6 +1,6 @@
 ---
 UID: NE:netdispumdddi.__unnamed_enum_0
-title: MIRACAST_STATUS
+title: MIRACAST_STATUS (netdispumdddi.h)
 description: Specifies status types that the user-mode display driver uses to report Miracast connection status.
 old-location: display\miracast_status.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_STATUS
+- MIRACAST_STATUS
 product:
 - Windows
 targetos: Windows

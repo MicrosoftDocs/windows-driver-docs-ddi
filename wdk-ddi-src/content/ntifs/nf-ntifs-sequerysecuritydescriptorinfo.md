@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeQuerySecurityDescriptorInfo
-title: SeQuerySecurityDescriptorInfo function
+title: SeQuerySecurityDescriptorInfo function (ntifs.h)
 description: The SeQuerySecurityDescriptorInfo routine retrieves a copy of an object's security descriptor.
 old-location: ifsk\sequerysecuritydescriptorinfo.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeQuerySecurityDescriptorInfo
+- SeQuerySecurityDescriptorInfo
 product:
 - Windows
 targetos: Windows

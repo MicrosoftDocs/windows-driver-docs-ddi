@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDISPLAYMODELIST
-title: "_D3DKMT_GETDISPLAYMODELIST"
+title: _D3DKMT_GETDISPLAYMODELIST (d3dkmthk.h)
 description: The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 old-location: display\d3dkmt_getdisplaymodelist.htm
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETDISPLAYMODELIST
+- D3DKMT_GETDISPLAYMODELIST
 product:
 - Windows
 targetos: Windows

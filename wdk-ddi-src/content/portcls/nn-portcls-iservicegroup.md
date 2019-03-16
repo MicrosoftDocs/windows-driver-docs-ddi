@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IServiceGroup
-title: IServiceGroup
+title: IServiceGroup (portcls.h)
 description: The IServiceGroup interface encapsulates a group of objects that all require notification of the same service request.
 old-location: audio\iservicegroup.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup
+- IServiceGroup
 product:
 - Windows
 targetos: Windows

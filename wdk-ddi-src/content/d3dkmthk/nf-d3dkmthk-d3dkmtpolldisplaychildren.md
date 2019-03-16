@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPollDisplayChildren
-title: D3DKMTPollDisplayChildren function
+title: D3DKMTPollDisplayChildren function (d3dkmthk.h)
 description: The D3DKMTPollDisplayChildren function queries for connectivity status of all child devices of the given adapter.
 old-location: display\d3dkmtpolldisplaychildren.htm
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTPollDisplayChildren
+- D3DKMTPollDisplayChildren
 product:
 - Windows
 targetos: Windows

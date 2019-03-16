@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
-title: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+title: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS (netadapter.h)
 description: Specifies the low power protocol offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 06a56aed-bad4-499c-adb6-3aa677ea2e88
@@ -19,16 +19,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

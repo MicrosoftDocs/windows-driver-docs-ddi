@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_SERVICE_DISCOVERY_TYPE
-title: "_WDI_P2P_SERVICE_DISCOVERY_TYPE"
+title: _WDI_P2P_SERVICE_DISCOVERY_TYPE (wditypes.h)
 description: The WDI_P2P_SERVICE_DISCOVERY_TYPE enumeration defines the types of service discovery.
 old-location: netvista\wdi_p2p_service_discovery_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_P2P_SERVICE_DISCOVERY_TYPE
+- WDI_P2P_SERVICE_DISCOVERY_TYPE
 product:
 - Windows
 targetos: Windows

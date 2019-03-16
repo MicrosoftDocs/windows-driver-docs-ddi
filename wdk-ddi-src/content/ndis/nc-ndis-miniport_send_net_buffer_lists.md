@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_SEND_NET_BUFFER_LISTS
-title: MINIPORT_SEND_NET_BUFFER_LISTS
+title: MINIPORT_SEND_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the MiniportSendNetBufferLists function to transmit network data that is contained in a linked list of NET_BUFFER_LIST structures.
 old-location: netvista\miniportsendnetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportSendNetBufferLists
+- MiniportSendNetBufferLists
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConnectMode
-title: "_DXVA_ConnectMode"
+title: _DXVA_ConnectMode (dxva.h)
 description: The DXVA_ConnectMode structure is sent by the host decoder to the accelerator to define the restricted profile used within a DirectX VA connection.
 old-location: display\dxva_connectmode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ConnectMode
+- DXVA_ConnectMode
 product:
 - Windows
 targetos: Windows

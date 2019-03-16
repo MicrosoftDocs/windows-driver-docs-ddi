@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION_INTERFACE
-title: "_DXGK_TIMED_OPERATION_INTERFACE"
+title: _DXGK_TIMED_OPERATION_INTERFACE (dispmprt.h)
 description: The DXGK_TIMED_OPERATION_INTERFACE structure contains pointers to functions in the Timed Operation Interface, which is implemented by the display port driver.
 old-location: display\dxgk_timed_operation_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_TIMED_OPERATION_INTERFACE
+- DXGK_TIMED_OPERATION_INTERFACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSFILTERVOID
-title: PFNKSFILTERVOID
+title: PFNKSFILTERVOID (ks.h)
 description: An AVStream minidriver's AVStrMiniFilterReset routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at Acquire-time.
 old-location: stream\avstrminifilterreset.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniFilterReset
+- AVStrMiniFilterReset
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetPropChanged
-title: wiasSetPropChanged function
+title: wiasSetPropChanged function (wiamdef.h)
 description: The wiasSetPropChanged function modifies a property context to indicate that a property is being changed.
 old-location: image\wiassetpropchanged.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetPropChanged
+- wiasSetPropChanged
 product:
 - Windows
 targetos: Windows

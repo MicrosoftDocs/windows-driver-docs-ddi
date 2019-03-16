@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeAreAllApcsDisabled
-title: KeAreAllApcsDisabled function
+title: KeAreAllApcsDisabled function (wdm.h)
 description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
 old-location: kernel\keareallapcsdisabled.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeAreAllApcsDisabled
+- KeAreAllApcsDisabled
 product:
 - Windows
 targetos: Windows

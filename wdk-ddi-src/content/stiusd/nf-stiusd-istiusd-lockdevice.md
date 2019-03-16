@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.LockDevice
-title: IStiUSD::LockDevice
+title: IStiUSD::LockDevice (stiusd.h)
 description: A still image minidriver's IStiUSD::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istiusd_lockdevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiUSD.LockDevice
+- IStiUSD.LockDevice
 product:
 - Windows
 targetos: Windows

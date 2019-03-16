@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsCreateMarshallingAreaEx
-title: ClfsCreateMarshallingAreaEx function
+title: ClfsCreateMarshallingAreaEx function (wdm.h)
 description: Initalizes a marshalling area for a physical or client log file stream.
 ms.assetid: 00a9624d-0cc9-4429-8050-74934176bbdd
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	ClfsCreateMarshallingAreaEx
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- ClfsCreateMarshallingAreaEx
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

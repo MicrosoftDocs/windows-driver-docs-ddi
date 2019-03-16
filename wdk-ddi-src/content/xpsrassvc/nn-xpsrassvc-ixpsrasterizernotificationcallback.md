@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizerNotificationCallback
-title: IXpsRasterizerNotificationCallback
+title: IXpsRasterizerNotificationCallback (xpsrassvc.h)
 description: The IXpsRasterizerNotificationCallback interface enables the XPS rasterization service to determine whether to continue a rasterization operation that was previously initiated by an XPSDrv filter.
 old-location: print\ixpsrasterizernotificationcallback_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizerNotificationCallback
+- IXpsRasterizerNotificationCallback
 product:
 - Windows
 targetos: Windows

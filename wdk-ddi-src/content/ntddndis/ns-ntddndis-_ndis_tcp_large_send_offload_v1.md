@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_LARGE_SEND_OFFLOAD_V1
-title: "_NDIS_TCP_LARGE_SEND_OFFLOAD_V1"
+title: _NDIS_TCP_LARGE_SEND_OFFLOAD_V1 (ntddndis.h)
 description: The NDIS_TCP_LARGE_SEND_OFFLOAD_V1 structure provides large send offload version 1 (LSOV1) information in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_tcp_large_send_offload_v1.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_TCP_LARGE_SEND_OFFLOAD_V1
+- NDIS_TCP_LARGE_SEND_OFFLOAD_V1
 product:
 - Windows
 targetos: Windows

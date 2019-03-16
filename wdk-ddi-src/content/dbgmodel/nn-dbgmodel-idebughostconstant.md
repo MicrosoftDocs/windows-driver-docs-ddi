@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostConstant
-title: IDebugHostConstant
+title: IDebugHostConstant (dbgmodel.h)
 description: Represents a constant within symbolic information (a non-type template argument in C++).
 ms.assetid: 87e25e99-ea64-4cda-8cae-fd38ec9c3343
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostConstant
-product: Windows
+- IDebugHostConstant
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsQueueWorkItem
-title: KsQueueWorkItem function
+title: KsQueueWorkItem function (ks.h)
 description: The KsQueueWorkItem function queues the specified work item with a worker previous created by the KsRegisterWorker function.
 old-location: stream\ksqueueworkitem.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsQueueWorkItem
+- KsQueueWorkItem
 product:
 - Windows
 targetos: Windows

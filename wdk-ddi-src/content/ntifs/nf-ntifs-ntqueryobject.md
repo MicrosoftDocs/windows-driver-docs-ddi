@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryObject
-title: NtQueryObject function
+title: NtQueryObject function (ntifs.h)
 description: The ZwQueryObject routine provides information about a supplied object.
 old-location: kernel\zwqueryobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryObject
--	NtQueryObject
+- ZwQueryObject
+- NtQueryObject
 product:
 - Windows
 targetos: Windows

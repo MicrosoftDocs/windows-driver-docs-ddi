@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioReceiveCleanupTransactionComplete
-title: SerCx2PioReceiveCleanupTransactionComplete function
+title: SerCx2PioReceiveCleanupTransactionComplete function (sercx.h)
 description: The SerCx2PioReceiveCleanupTransactionComplete method informs version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a PIO-receive transaction.
 old-location: serports\sercx2pioreceivecleanuptransactioncomplete.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2PioReceiveCleanupTransactionComplete
+- SerCx2PioReceiveCleanupTransactionComplete
 product:
 - Windows
 targetos: Windows

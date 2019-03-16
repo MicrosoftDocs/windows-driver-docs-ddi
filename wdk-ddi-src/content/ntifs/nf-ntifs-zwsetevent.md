@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetEvent
-title: ZwSetEvent function
+title: ZwSetEvent function (ntifs.h)
 description: The ZwSetEvent routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 old-location: kernel\zwsetevent.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetEvent
--	NtSetEvent
+- ZwSetEvent
+- NtSetEvent
 product:
 - Windows
 targetos: Windows

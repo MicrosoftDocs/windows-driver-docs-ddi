@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmOpenAddressFamilyComplete
-title: NdisCmOpenAddressFamilyComplete function
+title: NdisCmOpenAddressFamilyComplete function (ndis.h)
 description: NdisCmOpenAddressFamilyComplete returns the final status of a stand-alone call manager's open of a given AF for a particular client after the call manager returned NDIS_STATUS_PENDING in response to that client's original open-AF request.
 old-location: netvista\ndiscmopenaddressfamilycomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCmOpenAddressFamilyComplete
+- NdisCmOpenAddressFamilyComplete
 product:
 - Windows
 targetos: Windows

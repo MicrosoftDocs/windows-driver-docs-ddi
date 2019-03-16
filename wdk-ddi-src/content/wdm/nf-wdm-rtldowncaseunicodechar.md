@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlDowncaseUnicodeChar
-title: RtlDowncaseUnicodeChar function
+title: RtlDowncaseUnicodeChar function (wdm.h)
 description: The RtlDowncaseUnicodeChar routine converts the specified Unicode character to lowercase.
 old-location: kernel\rtldowncaseunicodechar.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib; Ntdll.lib
 req.dll: Ntoskrnl.exe; Ntdll.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
--	Ntdll.dll
+- Ntoskrnl.exe
+- Ntdll.dll
 api_name:
--	RtlDowncaseUnicodeChar
+- RtlDowncaseUnicodeChar
 product:
 - Windows
 targetos: Windows

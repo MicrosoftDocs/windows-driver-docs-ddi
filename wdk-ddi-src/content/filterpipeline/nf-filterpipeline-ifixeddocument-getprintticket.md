@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocument.GetPrintTicket
-title: IFixedDocument::GetPrintTicket
+title: IFixedDocument::GetPrintTicket (filterpipeline.h)
 description: The GetPrintTicket method gets the print ticket object for the fixed document.
 old-location: print\ifixeddocument_getprintticket.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedDocument.GetPrintTicket
+- IFixedDocument.GetPrintTicket
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_IS_LOCK_REALIZABLE
-title: PMRX_IS_LOCK_REALIZABLE
+title: PMRX_IS_LOCK_REALIZABLE (mrx.h)
 description: The MRxIsLockRealizable routine is called by RDBSS to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
 old-location: ifsk\mrxislockrealizable.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxIsLockRealizable
+- MRxIsLockRealizable
 product:
 - Windows
 targetos: Windows

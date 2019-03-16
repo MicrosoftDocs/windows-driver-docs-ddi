@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_GAMMARAMP_TYPE
-title: IDDCX_GAMMARAMP_TYPE
+title: IDDCX_GAMMARAMP_TYPE (iddcx.h)
 description: An enumeration indicating the type of gamma ramp being set.
 old-location: display\iddcx_gammaramp_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_GAMMARAMP_TYPE
+- IDDCX_GAMMARAMP_TYPE
 product:
 - Windows
 targetos: Windows

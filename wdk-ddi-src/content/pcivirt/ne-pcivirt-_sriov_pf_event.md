@@ -1,6 +1,6 @@
 ---
 UID: NE:pcivirt._SRIOV_PF_EVENT
-title: "_SRIOV_PF_EVENT"
+title: _SRIOV_PF_EVENT (pcivirt.h)
 description: Defines event values for the SR-IOV device.
 old-location: pci\sriov_pf_event.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_PF_EVENT
+- SRIOV_PF_EVENT
 product:
 - Windows
 targetos: Windows

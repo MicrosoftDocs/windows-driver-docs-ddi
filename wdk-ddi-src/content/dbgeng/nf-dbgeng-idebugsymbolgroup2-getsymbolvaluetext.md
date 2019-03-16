@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolValueText
-title: IDebugSymbolGroup2::GetSymbolValueText
+title: IDebugSymbolGroup2::GetSymbolValueText (dbgeng.h)
 description: The GetSymbolValueText method returns a string that represents the value of a symbol.
 old-location: debugger\getsymbolvaluetext.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup2.GetSymbolValueText
+- IDebugSymbolGroup2.GetSymbolValueText
 product:
 - Windows
 targetos: Windows

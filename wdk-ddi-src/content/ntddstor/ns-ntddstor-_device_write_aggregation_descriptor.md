@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+title: _DEVICE_WRITE_AGGREGATION_DESCRIPTOR (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\device_write_aggregation_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_WRITE_AGGREGATION_DESCRIPTOR
+- DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

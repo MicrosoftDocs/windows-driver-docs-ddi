@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PROCAMPVALUES
-title: "_DXVADDI_PROCAMPVALUES"
+title: _DXVADDI_PROCAMPVALUES (d3dumddi.h)
 description: The DXVADDI_PROCAMPVALUES structure describes the ProcAmp control adjustment values.
 old-location: display\dxvaddi_procampvalues.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_PROCAMPVALUES
+- DXVADDI_PROCAMPVALUES
 product:
 - Windows
 targetos: Windows

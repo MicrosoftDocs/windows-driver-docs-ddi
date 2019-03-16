@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UMD_DRIVER_VERSION
-title: "_D3DKMT_UMD_DRIVER_VERSION"
+title: _D3DKMT_UMD_DRIVER_VERSION (d3dkmthk.h)
 description: Indicates the version number of the user-mode driver.
 old-location: display\d3dkmt_umd_driver_version.htm
 ms.assetid: 0661a65d-5129-49f6-9400-70b8c8e8245f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_UMD_DRIVER_VERSION
+- D3DKMT_UMD_DRIVER_VERSION
 product:
 - Windows
 targetos: Windows

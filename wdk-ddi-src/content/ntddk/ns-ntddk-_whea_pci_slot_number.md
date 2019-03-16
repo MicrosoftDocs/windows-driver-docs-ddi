@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCI_SLOT_NUMBER
-title: "_WHEA_PCI_SLOT_NUMBER"
+title: _WHEA_PCI_SLOT_NUMBER (ntddk.h)
 description: The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 old-location: whea\whea_pci_slot_number.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PCI_SLOT_NUMBER
+- WHEA_PCI_SLOT_NUMBER
 product:
 - Windows
 targetos: Windows

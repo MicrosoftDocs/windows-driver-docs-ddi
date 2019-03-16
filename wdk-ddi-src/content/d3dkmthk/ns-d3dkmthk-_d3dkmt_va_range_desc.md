@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VA_RANGE_DESC
-title: _D3DKMT_VA_RANGE_DESC
+title: _D3DKMT_VA_RANGE_DESC (d3dkmthk.h)
 description: The virtual address (VA) range description.
 ms.assetid: 96c89737-4994-46fe-af09-16339226675c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_VA_RANGE_DESC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_VA_RANGE_DESC
+- _D3DKMT_VA_RANGE_DESC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.SessionStatus
-title: IDebugEventCallbacksWide::SessionStatus
+title: IDebugEventCallbacksWide::SessionStatus (dbgeng.h)
 description: The SessionStatus callback method is called by the engine when a change occurs in the debugger session.
 old-location: debugger\idebugeventcallbackswide_sessionstatus.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacksWide.SessionStatus
+- IDebugEventCallbacksWide.SessionStatus
 product:
 - Windows
 targetos: Windows

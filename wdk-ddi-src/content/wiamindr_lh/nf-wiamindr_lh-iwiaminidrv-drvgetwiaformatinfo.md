@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvGetWiaFormatInfo
-title: IWiaMiniDrv::drvGetWiaFormatInfo
+title: IWiaMiniDrv::drvGetWiaFormatInfo (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvGetWiaFormatInfo method finds the image formats and media types that the WIA hardware device supports.
 old-location: image\iwiaminidrv_drvgetwiaformatinfo.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvGetWiaFormatInfo
+- IWiaMiniDrv.drvGetWiaFormatInfo
 product:
 - Windows
 targetos: Windows

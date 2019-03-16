@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_SCHEDULINGPRIORITYCLASS
-title: "_D3DKMT_SCHEDULINGPRIORITYCLASS"
+title: _D3DKMT_SCHEDULINGPRIORITYCLASS (d3dkmthk.h)
 description: The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 old-location: display\d3dkmt_schedulingpriorityclass.htm
 ms.assetid: d42e37d0-0ba9-4b79-903d-fdbb478ab196
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SCHEDULINGPRIORITYCLASS
+- D3DKMT_SCHEDULINGPRIORITYCLASS
 product:
 - Windows
 targetos: Windows

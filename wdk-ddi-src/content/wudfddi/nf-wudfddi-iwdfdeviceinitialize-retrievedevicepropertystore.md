@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.RetrieveDevicePropertyStore
-title: IWDFDeviceInitialize::RetrieveDevicePropertyStore
+title: IWDFDeviceInitialize::RetrieveDevicePropertyStore (wudfddi.h)
 description: The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through.
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize.RetrieveDevicePropertyStore
+- IWDFDeviceInitialize.RetrieveDevicePropertyStore
 product:
 - Windows
 targetos: Windows

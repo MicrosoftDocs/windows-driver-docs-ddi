@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_END_SESSION
-title: IOCTL_AACS_END_SESSION
+title: IOCTL_AACS_END_SESSION (ntddcdvd.h)
 description: Releases the Authentication Grant Identifier (AGID) that was obtained by IOCTL_AACS_START_SESSION.
 old-location: storage\ioctl_aacs_end_session.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_END_SESSION
+- IOCTL_AACS_END_SESSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsFreeSiloContextSlot
-title: PsFreeSiloContextSlot function
+title: PsFreeSiloContextSlot function (ntddk.h)
 description: This routine frees the specified slot and makes it available in the system. It undoes the effects of the PsAllocSiloContextSlot routine.
 old-location: kernel\psfreesilocontextslot.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsFreeSiloContextSlot
+- PsFreeSiloContextSlot
 product:
 - Windows
 targetos: Windows

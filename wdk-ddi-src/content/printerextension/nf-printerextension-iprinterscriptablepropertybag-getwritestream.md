@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetWriteStream
-title: IPrinterScriptablePropertyBag::GetWriteStream
+title: IPrinterScriptablePropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream and uses it to write to a stream property.
 old-location: print\iprinterscriptablepropertybag_getwritestream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptablePropertyBag.GetWriteStream
+- IPrinterScriptablePropertyBag.GetWriteStream
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxCompleteWait
-title: SerCxCompleteWait function
+title: SerCxCompleteWait function (sercx.h)
 description: The SerCxCompleteWait method notifies the serial framework extension (SerCx) that an event in the current wait mask has occurred.
 old-location: serports\sercxcompletewait.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxCompleteWait
+- SerCxCompleteWait
 product:
 - Windows
 targetos: Windows

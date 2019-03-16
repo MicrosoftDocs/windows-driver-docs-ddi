@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_FILTER
-title: D3D10_DDI_FILTER
+title: D3D10_DDI_FILTER (d3d10umddi.h)
 description: The D3D10_DDI_FILTER enumeration type contains values that identify filter properties of a sampler in a call to the driver's CreateSampler function.
 old-location: display\d3d10_ddi_filter.htm
 ms.assetid: 02d0985e-ddf3-49cb-89e4-dcadb908399f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_FILTER
+- D3D10_DDI_FILTER
 product:
 - Windows
 targetos: Windows

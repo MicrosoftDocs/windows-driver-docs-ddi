@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FAULT_INFORMATION_ARM64
-title: _FAULT_INFORMATION_ARM64
+title: _FAULT_INFORMATION_ARM64 (wdm.h)
 description: Contains fault information for an ARM64 system. 
 ms.assetid: 13ff621d-7cda-4440-91bc-9184a3b44bf2
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARM64, *PFAULT_INFORMATION_ARM64
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_FAULT_INFORMATION_ARM64
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _FAULT_INFORMATION_ARM64
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

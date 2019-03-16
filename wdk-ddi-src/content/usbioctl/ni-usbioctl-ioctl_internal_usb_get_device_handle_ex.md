@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
-title: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
+title: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_device_handle_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
+- IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE_EX
 product:
 - Windows
 targetos: Windows

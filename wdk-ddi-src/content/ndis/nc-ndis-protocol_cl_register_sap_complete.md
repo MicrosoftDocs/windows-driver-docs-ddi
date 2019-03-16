@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_REGISTER_SAP_COMPLETE
-title: PROTOCOL_CL_REGISTER_SAP_COMPLETE
+title: PROTOCOL_CL_REGISTER_SAP_COMPLETE (ndis.h)
 description: A connection-oriented NDIS client that accepts incoming calls must have a ProtocolClRegisterSapComplete function to complete the asynchronous operations that it initiates with NdisClRegisterSap.
 old-location: netvista\protocolclregistersapcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClRegisterSapComplete
+- ProtocolClRegisterSapComplete
 product:
 - Windows
 targetos: Windows

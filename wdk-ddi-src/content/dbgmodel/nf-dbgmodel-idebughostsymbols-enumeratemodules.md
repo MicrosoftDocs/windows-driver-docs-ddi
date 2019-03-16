@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.EnumerateModules
-title: IDebugHostSymbols::EnumerateModules
+title: IDebugHostSymbols::EnumerateModules (dbgmodel.h)
 description: The EnumerateModules method creates an enumerator which will enumerate every module available in a particular host context.
 ms.assetid: 1eb51e30-762b-4c52-9297-52a620fd8104
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbols.EnumerateModules
-product: Windows
+- IDebugHostSymbols.EnumerateModules
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

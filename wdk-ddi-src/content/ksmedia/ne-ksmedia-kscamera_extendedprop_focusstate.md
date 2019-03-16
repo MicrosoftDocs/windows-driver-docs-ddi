@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_87
-title: KSCAMERA_EXTENDEDPROP_FOCUSSTATE
+title: KSCAMERA_EXTENDEDPROP_FOCUSSTATE (ksmedia.h)
 description: This enumeration contains the focus states.
 old-location: stream\kscamera_extendedprop_focusstate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_FOCUSSTATE
+- KSCAMERA_EXTENDEDPROP_FOCUSSTATE
 product:
 - Windows
 targetos: Windows

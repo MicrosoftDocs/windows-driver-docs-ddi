@@ -1,6 +1,6 @@
 ---
 UID: NS:vpci._VPCI_READ_BLOCK_INPUT
-title: "_VPCI_READ_BLOCK_INPUT"
+title: _VPCI_READ_BLOCK_INPUT (vpci.h)
 description: The VPCI_READ_BLOCK_INPUT structure is used in an IOCTL_VPCI_READ_BLOCK IOCTL request to read data from a specified configuration block of data for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_read_block_input.htm
 tech.root: pci
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	VPCI_READ_BLOCK_INPUT
+- VPCI_READ_BLOCK_INPUT
 product:
 - Windows
 targetos: Windows

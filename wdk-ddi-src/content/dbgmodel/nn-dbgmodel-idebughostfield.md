@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostField
-title: IDebugHostField
+title: IDebugHostField (dbgmodel.h)
 description: Represents a field within a structure or class.
 ms.assetid: e3b8dddc-1481-41ad-b162-4f5162aed653
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostField
-product: Windows
+- IDebugHostField
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

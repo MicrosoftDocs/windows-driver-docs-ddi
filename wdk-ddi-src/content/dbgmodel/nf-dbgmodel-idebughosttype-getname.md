@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetName
-title: IDebugHostType::GetName
+title: IDebugHostType::GetName (dbgmodel.h)
 description: Returns the name of the symbol if the symbol has a name.  If the symbol does not have a name, an error is returned.
 ms.assetid: ec08f1c6-c70b-4007-b4a3-b5a1099edc76
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetName
-product: Windows
+- IDebugHostType.GetName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

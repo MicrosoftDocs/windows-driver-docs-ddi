@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsDetachSiloFromCurrentThread
-title: PsDetachSiloFromCurrentThread function
+title: PsDetachSiloFromCurrentThread function (ntddk.h)
 description: This routine removes a thread from a silo which was added by an attach. For more info about attaching, see the PsAttachSiloToCurrentThread routine.
 old-location: kernel\psdetachsilofromcurrentthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsDetachSiloFromCurrentThread
+- PsDetachSiloFromCurrentThread
 product:
 - Windows
 targetos: Windows

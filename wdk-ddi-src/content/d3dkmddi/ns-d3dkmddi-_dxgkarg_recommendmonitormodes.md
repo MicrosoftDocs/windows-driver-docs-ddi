@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RECOMMENDMONITORMODES
-title: "_DXGKARG_RECOMMENDMONITORMODES"
+title: _DXGKARG_RECOMMENDMONITORMODES (d3dkmddi.h)
 description: The DXGKARG_RECOMMENDMONITORMODES structure contains arguments for the DxgkDdiRecommendMonitorModes function.
 old-location: display\dxgkarg_recommendmonitormodes.htm
 ms.assetid: 283f398e-4162-4c46-847b-834f8f303052
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_RECOMMENDMONITORMODES
+- DXGKARG_RECOMMENDMONITORMODES
 product:
 - Windows
 targetos: Windows

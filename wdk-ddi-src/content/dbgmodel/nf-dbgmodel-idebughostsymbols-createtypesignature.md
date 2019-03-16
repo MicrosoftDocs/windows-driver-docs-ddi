@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignature
-title: IDebugHostSymbols::CreateTypeSignature
+title: IDebugHostSymbols::CreateTypeSignature (dbgmodel.h)
 description: The CreateTypeSignature method creates a signature which can be used to match a set of concrete types by containing module and type name.
 ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbols.CreateTypeSignature
-product: Windows
+- IDebugHostSymbols.CreateTypeSignature
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

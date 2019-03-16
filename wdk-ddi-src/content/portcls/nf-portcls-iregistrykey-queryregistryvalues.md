@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.QueryRegistryValues
-title: IRegistryKey::QueryRegistryValues
+title: IRegistryKey::QueryRegistryValues (portcls.h)
 description: The QueryRegistryValues method allows the caller to query several values from the registry with a single call.
 old-location: audio\iregistrykey_queryregistryvalues.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IRegistryKey.QueryRegistryValues
+- IRegistryKey.QueryRegistryValues
 product:
 - Windows
 targetos: Windows

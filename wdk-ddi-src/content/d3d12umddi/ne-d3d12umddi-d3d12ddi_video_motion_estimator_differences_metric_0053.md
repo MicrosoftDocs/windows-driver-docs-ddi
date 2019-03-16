@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053 (d3d12umddi.h)
 description: Indicates the differences metric to capture during video motion estimation.
 ms.assetid: 5e9f9b13-fc06-44fe-b508-b6c3da570b8f
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053
+- D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

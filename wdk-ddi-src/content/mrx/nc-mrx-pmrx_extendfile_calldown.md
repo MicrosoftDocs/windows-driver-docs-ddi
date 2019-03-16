@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_EXTENDFILE_CALLDOWN
-title: PMRX_EXTENDFILE_CALLDOWN
+title: PMRX_EXTENDFILE_CALLDOWN (mrx.h)
 description: The MRxExtendForCache routine is called by RDBSS to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
 old-location: ifsk\mrxextendforcache.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxExtendForCache
+- MRxExtendForCache
 product:
 - Windows
 targetos: Windows

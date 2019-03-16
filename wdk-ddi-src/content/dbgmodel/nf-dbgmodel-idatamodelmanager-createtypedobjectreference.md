@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateTypedObjectReference
-title: IDataModelManager::CreateTypedObjectReference
+title: IDataModelManager::CreateTypedObjectReference (dbgmodel.h)
 description: The CreateTypedObjectReference method is semantically similar to the CreateTypedObject method excepting that it creates a reference to the underlying native/language construct.
 ms.assetid: a71dc31c-72e9-4633-a38b-6951336d759a
 ms.date: 07/17/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.CreateTypedObjectReference
-product: Windows
+- IDataModelManager.CreateTypedObjectReference
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

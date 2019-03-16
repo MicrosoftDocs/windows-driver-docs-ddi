@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.EnumConstrainedOptions
-title: IPrintCoreUI2::EnumConstrainedOptions
+title: IPrintCoreUI2::EnumConstrainedOptions (prcomoem.h)
 description: The IPrintCoreUI2::EnumConstrainedOptions method determines which options of a feature are constrained.
 old-location: print\iprintcoreui2_enumconstrainedoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.EnumConstrainedOptions
+- IPrintCoreUI2.EnumConstrainedOptions
 product:
 - Windows
 targetos: Windows

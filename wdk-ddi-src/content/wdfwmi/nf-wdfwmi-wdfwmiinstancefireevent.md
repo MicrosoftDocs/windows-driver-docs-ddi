@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceFireEvent
-title: WdfWmiInstanceFireEvent function
+title: WdfWmiInstanceFireEvent function (wdfwmi.h)
 description: The WdfWmiInstanceFireEvent method sends a WMI event to WMI clients that have registered to receive event notification.
 old-location: wdf\wdfwmiinstancefireevent.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfWmiInstanceFireEvent
+- WdfWmiInstanceFireEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_SPEAKER_SET_VOLUME
-title: IOCTL_BTHHFP_SPEAKER_SET_VOLUME
+title: IOCTL_BTHHFP_SPEAKER_SET_VOLUME (bthhfpddi.h)
 description: The IOCTL_BTHHFP_SPEAKER_SET_VOLUME IOCTL sets the volume level for the speaker of the Bluetooth device.
 old-location: audio\ioctl_bthhfp_speaker_set_volume.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_SPEAKER_SET_VOLUME
+- IOCTL_BTHHFP_SPEAKER_SET_VOLUME
 product:
 - Windows
 targetos: Windows

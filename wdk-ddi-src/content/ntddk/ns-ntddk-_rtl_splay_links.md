@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._RTL_SPLAY_LINKS
-title: "_RTL_SPLAY_LINKS"
+title: _RTL_SPLAY_LINKS (ntddk.h)
 description: The RTL_SPLAY_LINKS structure is an opaque structure and is used by the system to represent a splay link tree node.
 old-location: ifsk\rtl_splay_links.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RTL_SPLAY_LINKS
+- RTL_SPLAY_LINKS
 product:
 - Windows
 targetos: Windows

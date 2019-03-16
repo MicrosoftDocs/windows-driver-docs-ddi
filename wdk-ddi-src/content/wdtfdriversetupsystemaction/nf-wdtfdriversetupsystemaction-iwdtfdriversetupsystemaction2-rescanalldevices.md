@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.RescanAllDevices
-title: IWDTFDriverSetupSystemAction2::RescanAllDevices
+title: IWDTFDriverSetupSystemAction2::RescanAllDevices (wdtfdriversetupsystemaction.h)
 description: Re-enumerates all devices in the system.
 old-location: dtf\iwdtfdriversetupsystemaction2_rescanalldevices.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupSystemAction.Interop.dll
+- WDTFDriverSetupSystemAction.Interop.dll
 api_name:
--	IWDTFDriverSetupSystemAction2.RescanAllDevices
+- IWDTFDriverSetupSystemAction2.RescanAllDevices
 product:
 - Windows
 targetos: Windows

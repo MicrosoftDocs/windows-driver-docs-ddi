@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_OM_RENDERTARGETS_CB
-title: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB
+title: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB (d3d10umddi.h)
 description: The pfnStateOmRenderTargetsCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger's bound render targets.
 old-location: display\pfnstateomrendertargetscb.htm
 ms.assetid: d17cd31d-44a1-4f7d-82be-1201c0d5769f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateOmRenderTargetsCb
+- pfnStateOmRenderTargetsCb
 product:
 - Windows
 targetos: Windows

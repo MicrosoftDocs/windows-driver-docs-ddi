@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetQuitLockStringWide
-title: IDebugClient5::GetQuitLockStringWide
+title: IDebugClient5::GetQuitLockStringWide (dbgeng.h)
 description: Gets a Unicode character quit lock string.
 old-location: debugger\idebugclient5_getquitlockstringwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetQuitLockStringWide
+- IDebugClient5.GetQuitLockStringWide
 product:
 - Windows
 targetos: Windows

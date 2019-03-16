@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_PANEL
-title: _ACPI_PLD_PANEL enumeration
+title: _ACPI_PLD_PANEL enumeration (acpitabl.h)
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_PANEL, *PACPI_PLD_PANEL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_PANEL
+- _ACPI_PLD_PANEL
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

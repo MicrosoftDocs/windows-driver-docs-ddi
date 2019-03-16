@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
-title: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
+title: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH (d3d10umddi.h)
 description: Completes the switch to a new session key.
 old-location: display\finishsessionkeyrefresh1.htm
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnFinishSessionKeyRefresh
+- pfnFinishSessionKeyRefresh
 product:
 - Windows
 targetos: Windows

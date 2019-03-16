@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeyReferences
-title: IModelObject::EnumerateKeyReferences
+title: IModelObject::EnumerateKeyReferences (dbgmodel.h)
 description: The EnumerateKeyReferences method behaves similar to the EnumerateKeyValues method excepting that it returns references to the keys it enumerates instead of the value of the key.
 ms.assetid: 85aace53-f325-4f74-acea-9661aef591c1
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.EnumerateKeyReferences
-product: Windows
+- IModelObject.EnumerateKeyReferences
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

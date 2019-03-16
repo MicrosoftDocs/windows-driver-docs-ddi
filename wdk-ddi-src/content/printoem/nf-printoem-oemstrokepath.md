@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMStrokePath
-title: OEMStrokePath function
+title: OEMStrokePath function (printoem.h)
 description: The OEMStrokePath function strokes a path.
 old-location: print\oemstrokepath.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMStrokePath
+- OEMStrokePath
 product:
 - Windows
 targetos: Windows

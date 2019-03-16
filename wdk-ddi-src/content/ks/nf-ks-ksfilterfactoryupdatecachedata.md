@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryUpdateCacheData
-title: KsFilterFactoryUpdateCacheData function
+title: KsFilterFactoryUpdateCacheData function (ks.h)
 description: The KsFilterFactoryUpdateCacheData function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
 old-location: stream\ksfilterfactoryupdatecachedata.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterFactoryUpdateCacheData
+- KsFilterFactoryUpdateCacheData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestMethodComplete
-title: NetRequestMethodComplete function
+title: NetRequestMethodComplete function (netrequest.h)
 description: Completes a method (OID) request.
 tech.root: netvista
 ms.assetid: 5f846a1d-3de6-44d8-9aa0-0111962cdc57
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestMethodComplete
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestMethodComplete
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

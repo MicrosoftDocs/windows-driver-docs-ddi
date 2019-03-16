@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_PIPE_INFORMATION
-title: "_USBFN_PIPE_INFORMATION"
+title: _USBFN_PIPE_INFORMATION (usbfnbase.h)
 description: Describes attributes of a pipe associated with an endpoint on a specific interface.
 old-location: buses\usbfn_pipe_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_PIPE_INFORMATION
+- USBFN_PIPE_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetGroupAffinity
-title: StorPortGetGroupAffinity function
+title: StorPortGetGroupAffinity function (storport.h)
 description: The StorPortGetGroupAffinity routine constructs a mask of the active processors in a requested group.
 old-location: storage\storportgetgroupaffinity.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetGroupAffinity
+- StorPortGetGroupAffinity
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_ADAPTER_FLAGS
-title: IDDCX_ADAPTER_FLAGS
+title: IDDCX_ADAPTER_FLAGS (iddcx.h)
 description: Specifies boolean flags for an indirect display adapter.
 old-location: display\iddcx_adapter_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_ADAPTER_FLAGS
+- IDDCX_ADAPTER_FLAGS
 product:
 - Windows
 targetos: Windows

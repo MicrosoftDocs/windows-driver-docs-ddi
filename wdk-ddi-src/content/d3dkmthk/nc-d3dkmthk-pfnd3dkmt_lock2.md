@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_LOCK2
-title: PFND3DKMT_LOCK2
+title: PFND3DKMT_LOCK2 (d3dkmthk.h)
 description: Pfnd3dkmtLock2 locks an entire allocation or specific pages within an allocation.
 ms.assetid: d06f98d8-dec7-4330-b3de-845205cf1ca3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_LOCK2
+- PFND3DKMT_LOCK2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

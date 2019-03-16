@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrSub
-title: RtlLongPtrSub function
+title: RtlLongPtrSub function (ntintsafe.h)
 description: Subtracts one value of type LONG_PTR from another.
 old-location: kernel\rtllongptrsub.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlLongPtrSub
+- RtlLongPtrSub
 product:
 - Windows
 targetos: Windows

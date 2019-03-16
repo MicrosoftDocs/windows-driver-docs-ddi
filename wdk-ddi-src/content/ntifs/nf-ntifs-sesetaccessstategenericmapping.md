@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeSetAccessStateGenericMapping
-title: SeSetAccessStateGenericMapping function
+title: SeSetAccessStateGenericMapping function (ntifs.h)
 description: The SeSetAccessStateGenericMapping routine sets the generic mapping field of an ACCESS_STATE structure.
 old-location: ifsk\sesetaccessstategenericmapping.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeSetAccessStateGenericMapping
+- SeSetAccessStateGenericMapping
 product:
 - Windows
 targetos: Windows

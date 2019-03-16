@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._STACK_SRC_INFO
-title: "_STACK_SRC_INFO"
+title: _STACK_SRC_INFO (dbgeng.h)
 description: Defines stack source information.
 old-location: debugger\stack_src_info.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	STACK_SRC_INFO
+- STACK_SRC_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeLeaveCriticalRegion
-title: KeLeaveCriticalRegion function
+title: KeLeaveCriticalRegion function (ntddk.h)
 description: The KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
 old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeLeaveCriticalRegion
+- KeLeaveCriticalRegion
 product:
 - Windows
 targetos: Windows

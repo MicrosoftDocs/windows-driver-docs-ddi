@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEUNMAP
-title: PFND3D10DDI_RESOURCEUNMAP
+title: PFND3D10DDI_RESOURCEUNMAP (d3d10umddi.h)
 description: The ResourceUnmap function unmaps a subresource of a resource.
 old-location: display\resourceunmap.htm
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceUnmap
+- ResourceUnmap
 product:
 - Windows
 targetos: Windows

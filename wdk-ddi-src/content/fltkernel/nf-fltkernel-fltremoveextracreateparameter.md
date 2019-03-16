@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRemoveExtraCreateParameter
-title: FltRemoveExtraCreateParameter function
+title: FltRemoveExtraCreateParameter function (fltkernel.h)
 description: The FltRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fltremoveextracreateparameter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltRemoveExtraCreateParameter
+- FltRemoveExtraCreateParameter
 product:
 - Windows
 targetos: Windows

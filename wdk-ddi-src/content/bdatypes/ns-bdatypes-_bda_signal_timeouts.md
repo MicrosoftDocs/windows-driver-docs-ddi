@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SIGNAL_TIMEOUTS
-title: "_BDA_SIGNAL_TIMEOUTS"
+title: _BDA_SIGNAL_TIMEOUTS (bdatypes.h)
 description: 
 old-location: stream\bda_signal_timeouts.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_SIGNAL_TIMEOUTS
+- BDA_SIGNAL_TIMEOUTS
 product:
 - Windows
 targetos: Windows

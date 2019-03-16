@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PORT_DETECT
-title: EVT_UFX_DEVICE_PORT_DETECT
+title: EVT_UFX_DEVICE_PORT_DETECT (ufxclient.h)
 description: The client driver's implementation to initiate port detection.
 old-location: buses\evt_ufx_device_port_detect.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_PORT_DETECT
+- PFN_UFX_DEVICE_PORT_DETECT
 product:
 - Windows
 targetos: Windows

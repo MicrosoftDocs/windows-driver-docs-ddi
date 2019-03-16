@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_GC_PARAMETERS
-title: "_REFS_SMR_VOLUME_GC_PARAMETERS"
+title: _REFS_SMR_VOLUME_GC_PARAMETERS (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_PARAMETERS structure.
 old-location: ifsk\refs_smr_volume_gc_parameters.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	REFS_SMR_VOLUME_GC_PARAMETERS
+- REFS_SMR_VOLUME_GC_PARAMETERS
 product:
 - Windows
 targetos: Windows

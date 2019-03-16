@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_33
-title: GNSS_DRIVER_REQUEST_DATA
+title: GNSS_DRIVER_REQUEST_DATA (gnssdriver.h)
 description: This structure contains driver data request information.
 old-location: gnss\gnss_driver_request_data.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_DRIVER_REQUEST_DATA
+- GNSS_DRIVER_REQUEST_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
-title: "_SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
+title: _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD (nfcsedev.h)
 description: "."
 old-location: nfpdrivers\secure_element_hce_activation_payload.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+- SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 product:
 - Windows
 targetos: Windows

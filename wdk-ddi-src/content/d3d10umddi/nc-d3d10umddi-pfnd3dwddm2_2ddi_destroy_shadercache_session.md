@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION
-title: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION
+title: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION (d3d10umddi.h)
 description: The pfnDestroyShaderCacheSession callback function destroys a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_destroy_shadercache_session.htm
 ms.assetid: 1C6AFC89-F740-4309-9389-BFB5C62FCA77
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnDestroyShaderCacheSession
+- pfnDestroyShaderCacheSession
 product:
 - Windows
 targetos: Windows

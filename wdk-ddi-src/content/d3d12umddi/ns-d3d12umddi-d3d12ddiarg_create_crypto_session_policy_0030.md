@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
-title: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
+title: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 (d3d12umddi.h)
 description: Creates a crypto session policy.
 old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
+- D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 product:
 - Windows
 targetos: Windows

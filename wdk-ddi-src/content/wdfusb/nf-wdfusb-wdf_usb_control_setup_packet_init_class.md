@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
-title: WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function
+title: WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function (wdfusb.h)
 description: The WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function initializes a WDF_USB_CONTROL_SETUP_PACKET structure for a device class-specific USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet_init_class.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
+- WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
 product:
 - Windows
 targetos: Windows

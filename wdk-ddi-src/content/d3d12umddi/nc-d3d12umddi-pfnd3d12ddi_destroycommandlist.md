@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDLIST
-title: PFND3D12DDI_DESTROYCOMMANDLIST
+title: PFND3D12DDI_DESTROYCOMMANDLIST (d3d12umddi.h)
 description: Destroys a command list.
 ms.assetid: 275e31b7-359b-447d-90c7-7d69e6234645
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYCOMMANDLIST
+- PFND3D12DDI_DESTROYCOMMANDLIST
 product: 
 - Windows
 targetos: Windows

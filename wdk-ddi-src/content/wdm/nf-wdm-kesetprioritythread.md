@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetPriorityThread
-title: KeSetPriorityThread function
+title: KeSetPriorityThread function (wdm.h)
 description: The KeSetPriorityThread routine sets the run-time priority of a driver-created thread.
 old-location: kernel\kesetprioritythread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetPriorityThread
+- KeSetPriorityThread
 product:
 - Windows
 targetos: Windows

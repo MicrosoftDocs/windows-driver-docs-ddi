@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMRESOURCES
-title: PFND3DDDI_RECLAIMRESOURCES
+title: PFND3DDDI_RECLAIMRESOURCES (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to reclaim video memory resources that it previously offered for reuse.
 old-location: display\reclaimresources.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	ReclaimResources
+- ReclaimResources
 product:
 - Windows
 targetos: Windows

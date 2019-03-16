@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeMethods
-title: BdaPropertyNodeMethods function
+title: BdaPropertyNodeMethods function (bdasup.h)
 description: The BdaPropertyNodeMethods function retrieves a list of methods that a node supports.
 old-location: stream\bdapropertynodemethods.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyNodeMethods
+- BdaPropertyNodeMethods
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.Release
-title: IDebugHostMemory::Release
+title: IDebugHostMemory::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: f88e3c4b-8375-4e28-9e6e-8980b391237b
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory.Release
-product: Windows
+- IDebugHostMemory.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

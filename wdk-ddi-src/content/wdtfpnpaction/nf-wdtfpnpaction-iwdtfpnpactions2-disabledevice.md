@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.DisableDevice
-title: IWDTFPNPActions2::DisableDevice
+title: IWDTFPNPActions2::DisableDevice (wdtfpnpaction.h)
 description: Disables the target device.
 old-location: dtf\iwdtfpnpactions2_disabledevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfpnpaction.h
+- wdtfpnpaction.h
 api_name:
--	IWDTFPNPActions2.DisableDevice
+- IWDTFPNPActions2.DisableDevice
 product:
 - Windows
 targetos: Windows

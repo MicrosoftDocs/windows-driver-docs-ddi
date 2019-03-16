@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_READY_INFO
-title: "_WWAN_READY_INFO"
+title: _WWAN_READY_INFO (wwan.h)
 description: The WWAN_READY_INFO structure represents the ready-state of the MB device.
 old-location: netvista\wwan_ready_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_READY_INFO
+- WWAN_READY_INFO
 product:
 - Windows
 targetos: Windows

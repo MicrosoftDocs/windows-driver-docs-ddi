@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
-title: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
+title: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS (d3d10umddi.h)
 description: The crypto session key exchange flags.
 ms.assetid: d3131063-b1de-4880-9453-a076f29713ca
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
+- D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
 product: 
 - Windows
 targetos: Windows

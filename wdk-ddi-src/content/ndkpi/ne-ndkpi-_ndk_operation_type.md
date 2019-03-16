@@ -1,6 +1,6 @@
 ---
 UID: NE:ndkpi._NDK_OPERATION_TYPE
-title: "_NDK_OPERATION_TYPE"
+title: _NDK_OPERATION_TYPE (ndkpi.h)
 description: The NDK_OPERATION_TYPE enumeration defines types of NDK operations. Its enumeration values are used in the Type member of the NDK_RESULT_EX structure.
 old-location: netvista\ndk_operation_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_OPERATION_TYPE
+- NDK_OPERATION_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:fltuserstructures._FLT_FILESYSTEM_TYPE
-title: "_FLT_FILESYSTEM_TYPE"
+title: _FLT_FILESYSTEM_TYPE (fltuserstructures.h)
 description: The FLT_FILESYSTEM_TYPE enumeration identifies the type of file system being used on a volume.
 old-location: ifsk\flt_filesystem_type.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltUserStructures.h
+- fltUserStructures.h
 api_name:
--	FLT_FILESYSTEM_TYPE
+- FLT_FILESYSTEM_TYPE
 product:
 - Windows
 targetos: Windows

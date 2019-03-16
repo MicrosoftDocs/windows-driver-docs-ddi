@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToUShort
-title: RtlUIntPtrToUShort function
+title: RtlUIntPtrToUShort function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type USHORT.
 old-location: kernel\rtluintptrtoushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntPtrToUShort
+- RtlUIntPtrToUShort
 product:
 - Windows
 targetos: Windows

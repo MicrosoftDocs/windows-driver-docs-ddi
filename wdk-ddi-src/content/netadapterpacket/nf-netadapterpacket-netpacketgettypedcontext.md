@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetPacketGetTypedContext
-title: NetPacketGetTypedContext function
+title: NetPacketGetTypedContext function (netadapterpacket.h)
 description: Client drivers should not call this function directly. Instead, use NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME.
 tech.root: netvista
 ms.assetid: 55dd1de1-b7af-4d16-8df3-010b74353de4
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NetPacketGetTypedContext
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NetPacketGetTypedContext
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

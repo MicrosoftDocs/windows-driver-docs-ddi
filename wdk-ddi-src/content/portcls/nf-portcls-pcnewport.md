@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewPort
-title: PcNewPort function
+title: PcNewPort function (portcls.h)
 description: The PcNewPort function creates a new system-supplied port-driver object, whose interface (derived from base class IPort) is specified by a class ID.
 old-location: audio\pcnewport.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewPort
+- PcNewPort
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Dereference
-title: ExtRemoteTyped::Dereference
+title: ExtRemoteTyped::Dereference (engextcpp.h)
 description: The Dereference method returns the typed data that is pointed to by the typed data represented by this object.
 old-location: debugger\extremotetyped_dereference.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.Dereference
+- ExtRemoteTyped.Dereference
 product:
 - Windows
 targetos: Windows

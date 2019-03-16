@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_UPDATE_DRIVE_SIZE
-title: IOCTL_DISK_UPDATE_DRIVE_SIZE
+title: IOCTL_DISK_UPDATE_DRIVE_SIZE (ntdddisk.h)
 description: Updates device extension with drive size information for current media.
 old-location: storage\ioctl_disk_update_drive_size.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_UPDATE_DRIVE_SIZE
+- IOCTL_DISK_UPDATE_DRIVE_SIZE
 product:
 - Windows
 targetos: Windows

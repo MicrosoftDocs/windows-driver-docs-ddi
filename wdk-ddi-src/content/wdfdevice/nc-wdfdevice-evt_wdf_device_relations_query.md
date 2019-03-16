@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_RELATIONS_QUERY
-title: EVT_WDF_DEVICE_RELATIONS_QUERY
+title: EVT_WDF_DEVICE_RELATIONS_QUERY (wdfdevice.h)
 description: A driver's EvtDeviceRelationsQuery event callback reports changes in the relationships among devices that are supported by the driver.
 old-location: wdf\evtdevicerelationsquery.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceRelationsQuery
+- EvtDeviceRelationsQuery
 product:
 - Windows
 targetos: Windows

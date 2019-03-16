@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION
-title: EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION
+title: EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION (sercx.h)
 description: The EvtSerCx2PioTransmitCleanupTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller state after a PIO-transmit transaction ends.
 old-location: serports\evtsercx2piotransmitcleanuptransaction.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2PioTransmitCleanupTransaction
+- EvtSerCx2PioTransmitCleanupTransaction
 product:
 - Windows
 targetos: Windows

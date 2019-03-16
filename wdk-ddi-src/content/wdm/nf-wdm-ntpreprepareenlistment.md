@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtPrePrepareEnlistment
-title: NtPrePrepareEnlistment function
+title: NtPrePrepareEnlistment function (wdm.h)
 description: The ZwPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\zwpreprepareenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwPrePrepareEnlistment
--	NtPrePrepareEnlistment
+- ZwPrePrepareEnlistment
+- NtPrePrepareEnlistment
 product:
 - Windows
 targetos: Windows

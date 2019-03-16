@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKPLATFORMIDLEVETO
-title: POFXCALLBACKPLATFORMIDLEVETO
+title: POFXCALLBACKPLATFORMIDLEVETO (pep_x.h)
 description: The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state.
 old-location: kernel\platformidleveto.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PlatformIdleVeto
+- PlatformIdleVeto
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICECALLBACKS
-title: "_D3DDDI_DEVICECALLBACKS"
+title: _D3DDDI_DEVICECALLBACKS (d3dumddi.h)
 description: The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_devicecallbacks.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_DEVICECALLBACKS
+- D3DDDI_DEVICECALLBACKS
 product:
 - Windows
 targetos: Windows

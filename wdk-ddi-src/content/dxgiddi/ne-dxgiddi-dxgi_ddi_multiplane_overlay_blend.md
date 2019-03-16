@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
-title: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
+title: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND (dxgiddi.h)
 description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_blend.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
+- DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
 product:
 - Windows
 targetos: Windows

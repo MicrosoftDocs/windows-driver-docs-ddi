@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTarget2
-title: IWDFIoTarget2
+title: IWDFIoTarget2 (wudfddi.h)
 description: To obtain the IWDFIoTarget2 interface, drivers call IWDFIoTarget::QueryInterface.
 old-location: wdf\iwdfiotarget2.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget2
+- IWDFIoTarget2
 product:
 - Windows
 targetos: Windows

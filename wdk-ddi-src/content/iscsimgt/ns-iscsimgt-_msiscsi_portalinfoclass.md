@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_PortalInfoClass
-title: "_MSiSCSI_PortalInfoClass"
+title: _MSiSCSI_PortalInfoClass (iscsimgt.h)
 description: The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 old-location: storage\msiscsi_portalinfoclass.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_PortalInfoClass
+- MSiSCSI_PortalInfoClass
 product:
 - Windows
 targetos: Windows

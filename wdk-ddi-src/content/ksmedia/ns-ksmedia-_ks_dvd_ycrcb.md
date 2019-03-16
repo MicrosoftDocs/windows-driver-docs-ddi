@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVD_YCrCb
-title: "_KS_DVD_YCrCb"
+title: _KS_DVD_YCrCb (ksmedia.h)
 description: The KS_DVD_YCrCb structure is used to describe a color in the YCrCb colorspace.
 old-location: stream\ks_dvd_ycrcb.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DVD_YCrCb
+- KS_DVD_YCrCb
 product:
 - Windows
 targetos: Windows

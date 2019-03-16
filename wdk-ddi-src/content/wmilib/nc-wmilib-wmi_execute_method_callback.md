@@ -1,6 +1,6 @@
 ---
 UID: NC:wmilib.WMI_EXECUTE_METHOD_CALLBACK
-title: WMI_EXECUTE_METHOD_CALLBACK
+title: WMI_EXECUTE_METHOD_CALLBACK (wmilib.h)
 description: The DpWmiExecuteMethod routine executes a method associated with a data block. This routine is optional.
 old-location: kernel\dpwmiexecutemethod.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wmilib.h
+- Wmilib.h
 api_name:
--	DpWmiExecuteMethod
+- DpWmiExecuteMethod
 product:
 - Windows
 targetos: Windows

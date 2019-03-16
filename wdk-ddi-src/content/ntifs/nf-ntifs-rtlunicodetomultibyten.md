@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToMultiByteN
-title: RtlUnicodeToMultiByteN function
+title: RtlUnicodeToMultiByteN function (ntifs.h)
 description: The RtlUnicodeToMultiByteN routine translates the specified Unicode string into a new character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set.
 old-location: ifsk\rtlunicodetomultibyten.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUnicodeToMultiByteN
+- RtlUnicodeToMultiByteN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DGPU_PHYSICAL_ADDRESS
-title: _D3DGPU_PHYSICAL_ADDRESS
+title: _D3DGPU_PHYSICAL_ADDRESS (d3dukmdt.h)
 description: The GPU's physical address.
 ms.assetid: c0e476ef-bd49-46e6-8e16-eabb6178f9d7
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DGPU_PHYSICAL_ADDRESS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	_D3DGPU_PHYSICAL_ADDRESS
+- _D3DGPU_PHYSICAL_ADDRESS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

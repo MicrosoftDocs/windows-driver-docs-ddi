@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetMajorFunctionHandler
-title: KsSetMajorFunctionHandler function
+title: KsSetMajorFunctionHandler function (ks.h)
 description: The KsSetMajorFunctionHandler function sets the handler for a specified major function to use the internal dispatching.
 old-location: stream\kssetmajorfunctionhandler.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetMajorFunctionHandler
+- KsSetMajorFunctionHandler
 product:
 - Windows
 targetos: Windows

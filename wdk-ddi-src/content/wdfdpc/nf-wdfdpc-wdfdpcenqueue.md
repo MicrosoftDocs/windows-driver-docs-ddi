@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcEnqueue
-title: WdfDpcEnqueue function
+title: WdfDpcEnqueue function (wdfdpc.h)
 description: The WdfDpcEnqueue method schedules the execution of a DPC object's EvtDpcFunc callback function.
 old-location: wdf\wdfdpcenqueue.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDpcEnqueue
+- WdfDpcEnqueue
 product:
 - Windows
 targetos: Windows

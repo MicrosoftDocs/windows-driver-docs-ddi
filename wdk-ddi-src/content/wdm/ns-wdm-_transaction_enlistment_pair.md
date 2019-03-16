@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_ENLISTMENT_PAIR
-title: "_TRANSACTION_ENLISTMENT_PAIR"
+title: _TRANSACTION_ENLISTMENT_PAIR (wdm.h)
 description: The TRANSACTION_ENLISTMENT_PAIR structure contains information about an enlistment that is associated with a transaction object.
 old-location: kernel\transaction_enlistment_pair.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRANSACTION_ENLISTMENT_PAIR
+- TRANSACTION_ENLISTMENT_PAIR
 product:
 - Windows
 targetos: Windows

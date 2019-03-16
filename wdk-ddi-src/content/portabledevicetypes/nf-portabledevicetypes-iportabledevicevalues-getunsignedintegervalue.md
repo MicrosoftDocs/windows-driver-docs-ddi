@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetUnsignedIntegerValue
-title: IPortableDeviceValues::GetUnsignedIntegerValue
+title: IPortableDeviceValues::GetUnsignedIntegerValue (portabledevicetypes.h)
 description: Retrieves a ULONG value (type VT_UI4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getunsignedintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetUnsignedIntegerValue
+- IPortableDeviceValues.GetUnsignedIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

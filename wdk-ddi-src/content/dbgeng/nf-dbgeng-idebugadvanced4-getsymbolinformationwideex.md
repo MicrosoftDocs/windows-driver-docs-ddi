@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced4.GetSymbolInformationWideEx
-title: IDebugAdvanced4::GetSymbolInformationWideEx
+title: IDebugAdvanced4::GetSymbolInformationWideEx (dbgeng.h)
 description: The GetSymbolInformationWideEx method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwideex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugAdvanced4.GetSymbolInformationWideEx
+- IDebugAdvanced4.GetSymbolInformationWideEx
 product:
 - Windows
 targetos: Windows

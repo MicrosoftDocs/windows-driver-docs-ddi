@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfcommonbuffer._WDF_COMMON_BUFFER_CONFIG
-title: "_WDF_COMMON_BUFFER_CONFIG"
+title: _WDF_COMMON_BUFFER_CONFIG (wdfcommonbuffer.h)
 description: The WDF_COMMON_BUFFER_CONFIG structure contains configuration information for a common buffer.
 old-location: wdf\wdf_common_buffer_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcommonbuffer.h
+- wdfcommonbuffer.h
 api_name:
--	WDF_COMMON_BUFFER_CONFIG
+- WDF_COMMON_BUFFER_CONFIG
 product:
 - Windows
 targetos: Windows

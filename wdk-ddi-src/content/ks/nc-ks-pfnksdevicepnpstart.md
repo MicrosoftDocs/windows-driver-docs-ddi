@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEPNPSTART
-title: PFNKSDEVICEPNPSTART
+title: PFNKSDEVICEPNPSTART (ks.h)
 description: An AVStream minidriver's AVStrMiniDeviceStart routine is called when an IRP_MN_START_DEVICE request is sent for a specified device.
 old-location: stream\avstrminidevicestart.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniDeviceStart
+- AVStrMiniDeviceStart
 product:
 - Windows
 targetos: Windows

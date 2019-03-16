@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetFontSubstitution
-title: IPrintCoreHelperUni::SetFontSubstitution
+title: IPrintCoreHelperUni::SetFontSubstitution (prcomoem.h)
 description: The IPrintCoreHelperUni::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.
 old-location: print\iprintcorehelperuni_setfontsubstitution.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperUni.SetFontSubstitution
+- IPrintCoreHelperUni.SetFontSubstitution
 product:
 - Windows
 targetos: Windows

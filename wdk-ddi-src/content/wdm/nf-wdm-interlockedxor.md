@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedXor
-title: InterlockedXor function
+title: InterlockedXor function (wdm.h)
 description: The InterlockedOr routine atomically computes a bitwise exclusive OR operation.
 old-location: kernel\interlockedxor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	InterlockedXor
+- InterlockedXor
 product:
 - Windows
 targetos: Windows

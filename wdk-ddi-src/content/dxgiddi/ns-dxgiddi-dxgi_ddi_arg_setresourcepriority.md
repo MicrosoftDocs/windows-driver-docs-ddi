@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_SETRESOURCEPRIORITY
-title: DXGI_DDI_ARG_SETRESOURCEPRIORITY
+title: DXGI_DDI_ARG_SETRESOURCEPRIORITY (dxgiddi.h)
 description: The DXGI_DDI_ARG_SETRESOURCEPRIORITY structure describes parameters for setting the priority level of a resource.
 old-location: display\dxgi_ddi_arg_setresourcepriority.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_SETRESOURCEPRIORITY
+- DXGI_DDI_ARG_SETRESOURCEPRIORITY
 product:
 - Windows
 targetos: Windows

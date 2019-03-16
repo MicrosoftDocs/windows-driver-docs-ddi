@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfRegisterInterface
-title: NdisIfRegisterInterface function
+title: NdisIfRegisterInterface function (ndis.h)
 description: The NdisIfRegisterInterface function registers an NDIS network interface.
 old-location: netvista\ndisifregisterinterface.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfRegisterInterface
+- NdisIfRegisterInterface
 product:
 - Windows
 targetos: Windows

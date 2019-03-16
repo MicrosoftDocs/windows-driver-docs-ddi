@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_COMPONENT
-title: "_STOR_POFX_COMPONENT"
+title: _STOR_POFX_COMPONENT (storport.h)
 description: The STOR_POFX_COMPONENT structure describes the power state attributes of a storage device component.
 old-location: storage\stor_pofx_component.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_POFX_COMPONENT
+- STOR_POFX_COMPONENT
 product:
 - Windows
 targetos: Windows

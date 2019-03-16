@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxSetDomainForMailslotBroadcast
-title: RxSetDomainForMailslotBroadcast function
+title: RxSetDomainForMailslotBroadcast function (mrx.h)
 description: RxSetDomainForMailslotBroadcast is called by a network mini-redirector driver to set the domain used for mailslot broadcasts if mailslots are supported by the driver.
 old-location: ifsk\rxsetdomainformailslotbroadcast.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxSetDomainForMailslotBroadcast
+- RxSetDomainForMailslotBroadcast
 product:
 - Windows
 targetos: Windows

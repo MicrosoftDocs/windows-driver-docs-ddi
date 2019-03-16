@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceEnqueueRequest
-title: WdfDeviceEnqueueRequest function
+title: WdfDeviceEnqueueRequest function (wdfdevice.h)
 description: The WdfDeviceEnqueueRequest method delivers a specified I/O request to the framework, so that the framework can subsequently add the request to one of the I/O queues that the driver has created for the specified device.
 old-location: wdf\wdfdeviceenqueuerequest.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (See remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceEnqueueRequest
+- WdfDeviceEnqueueRequest
 product:
 - Windows
 targetos: Windows

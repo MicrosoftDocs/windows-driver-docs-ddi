@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCSUBSCRIBERNUMBERS
-title: RILUICCSUBSCRIBERNUMBERS
+title: RILUICCSUBSCRIBERNUMBERS (ntddrilapitypes.h)
 description: This structure represents RILUICCSUBSCRIBERNUMBERS.
 old-location: netvista\riluiccsubscribernumbers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUMTSMRL
+- RILUMTSMRL
 product:
 - Windows
 targetos: Windows

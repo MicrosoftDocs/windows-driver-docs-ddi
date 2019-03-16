@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateDevice
-title: D3DKMTCreateDevice function
+title: D3DKMTCreateDevice function (d3dkmthk.h)
 description: The D3DKMTCreateDevice function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatedevice.htm
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateDevice
+- D3DKMTCreateDevice
 product:
 - Windows
 targetos: Windows

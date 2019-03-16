@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.HalAllocateHardwareCounters
-title: HalAllocateHardwareCounters function
+title: HalAllocateHardwareCounters function (ntddk.h)
 description: The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.
 old-location: kernel\halallocatehardwarecounters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	HalAllocateHardwareCounters
+- HalAllocateHardwareCounters
 product:
 - Windows
 targetos: Windows

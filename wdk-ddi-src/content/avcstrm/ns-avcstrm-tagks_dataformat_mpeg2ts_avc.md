@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATAFORMAT_MPEG2TS_AVC
-title: tagKS_DATAFORMAT_MPEG2TS_AVC
+title: tagKS_DATAFORMAT_MPEG2TS_AVC (avcstrm.h)
 description: The KS_DATAFORMAT_MPEG2TS_AVC structure stores the data format for an AV/C MPEG2 connection.
 old-location: stream\ks_dataformat_mpeg2ts_avc.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	KS_DATAFORMAT_MPEG2TS_AVC
+- KS_DATAFORMAT_MPEG2TS_AVC
 product:
 - Windows
 targetos: Windows

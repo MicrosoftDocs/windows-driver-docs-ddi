@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauDbgFn.CWiauDbgFn
-title: CWiauDbgFn::CWiauDbgFn
+title: CWiauDbgFn::CWiauDbgFn (wiautil.h)
 description: The CWiauDbgFn::CWiauDbgFn method is used for tracing when a function or method is entered.
 old-location: image\cwiaudbgfn_cwiaudbgfn.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauDbgFn.CWiauDbgFn
+- CWiauDbgFn.CWiauDbgFn
 product:
 - Windows
 targetos: Windows

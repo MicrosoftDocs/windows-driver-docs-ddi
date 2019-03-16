@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENTFLAGS
-title: "_D3DKMT_PRESENTFLAGS"
+title: _D3DKMT_PRESENTFLAGS (d3dkmthk.h)
 description: The D3DKMT_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dkmt_presentflags.htm
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_PRESENTFLAGS
+- D3DKMT_PRESENTFLAGS
 product:
 - Windows
 targetos: Windows

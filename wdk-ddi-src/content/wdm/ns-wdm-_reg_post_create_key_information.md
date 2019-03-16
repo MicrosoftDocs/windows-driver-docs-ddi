@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_POST_CREATE_KEY_INFORMATION
-title: "_REG_POST_CREATE_KEY_INFORMATION"
+title: _REG_POST_CREATE_KEY_INFORMATION (wdm.h)
 description: The REG_POST_CREATE_KEY_INFORMATION structure contains the result of an attempt to create a registry key.
 old-location: kernel\reg_post_create_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_POST_CREATE_KEY_INFORMATION
+- REG_POST_CREATE_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

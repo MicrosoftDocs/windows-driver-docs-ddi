@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetDirtyPageThreshold
-title: CcSetDirtyPageThreshold function
+title: CcSetDirtyPageThreshold function (ntifs.h)
 description: The CcSetDirtyPageThreshold routine sets a per-file dirty page threshold on a cached file.
 old-location: ifsk\ccsetdirtypagethreshold.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetDirtyPageThreshold
+- CcSetDirtyPageThreshold
 product:
 - Windows
 targetos: Windows

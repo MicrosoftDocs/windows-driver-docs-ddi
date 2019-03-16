@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
-title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
+title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS (ksmedia.h)
 description: This structure contains the capabilities for an ROI control.
 old-location: stream\kscamera_extendedprop_roi_configcaps.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
+- KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
 product:
 - Windows
 targetos: Windows

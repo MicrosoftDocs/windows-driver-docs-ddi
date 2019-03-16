@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PRESENTTOHWQUEUE
-title: DXGKDDI_PRESENTTOHWQUEUE
+title: DXGKDDI_PRESENTTOHWQUEUE (d3dkmddi.h)
 description: Copies content from a source allocation, given a handle to a hardware queue.
 ms.assetid: af78bc41-2a61-4ba3-be19-8daa7ebc8554
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKDDI_PRESENTTOHWQUEUE
+- DXGKDDI_PRESENTTOHWQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

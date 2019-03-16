@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.Silence
-title: IMiniportWaveCyclicStream::Silence
+title: IMiniportWaveCyclicStream::Silence (portcls.h)
 description: The Silence method is used to copy silence samples to a specified buffer.
 old-location: audio\iminiportwavecyclicstream_silence.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveCyclicStream.Silence
+- IMiniportWaveCyclicStream.Silence
 product:
 - Windows
 targetos: Windows

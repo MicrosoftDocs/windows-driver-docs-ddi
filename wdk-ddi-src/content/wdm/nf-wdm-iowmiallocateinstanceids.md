@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIAllocateInstanceIds
-title: IoWMIAllocateInstanceIds function
+title: IoWMIAllocateInstanceIds function (wdm.h)
 description: The IoWMIAllocateInstanceIds routine allocates one or more instance IDs that are unique to the GUID.
 old-location: kernel\iowmiallocateinstanceids.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIAllocateInstanceIds
+- IoWMIAllocateInstanceIds
 product:
 - Windows
 targetos: Windows

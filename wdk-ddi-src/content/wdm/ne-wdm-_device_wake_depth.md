@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_WAKE_DEPTH
-title: "_DEVICE_WAKE_DEPTH"
+title: _DEVICE_WAKE_DEPTH (wdm.h)
 description: The DEVICE_WAKE_DEPTH enumeration specifies the deepest device power state from which a device can trigger a wake signal.
 old-location: kernel\device_wake_depth.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_WAKE_DEPTH
+- DEVICE_WAKE_DEPTH
 product:
 - Windows
 targetos: Windows

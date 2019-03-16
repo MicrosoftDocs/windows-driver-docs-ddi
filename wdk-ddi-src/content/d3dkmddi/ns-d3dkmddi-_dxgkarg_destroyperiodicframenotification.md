@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
-title: "_DXGKARG_DESTROYPERIODICFRAMENOTIFICATION"
+title: _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION (d3dkmddi.h)
 description: The arguments used to destroy a periodic frame notification.
 old-location: display\dxgkarg_destroyperiodicframenotification.htm
 ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
+- DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_QUERY_COMPONENT_PERF_CAPABILITIES
-title: "_PEP_QUERY_COMPONENT_PERF_CAPABILITIES"
+title: _PEP_QUERY_COMPONENT_PERF_CAPABILITIES (pep_x.h)
 description: The PEP_QUERY_COMPONENT_PERF_CAPABILITIES structure specifies the number of performance state (P-state) sets that are defined for a component.
 old-location: kernel\pep_query_component_perf_capabilities.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_QUERY_COMPONENT_PERF_CAPABILITIES
+- PEP_QUERY_COMPONENT_PERF_CAPABILITIES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortSetPowerSettingNotificationGuids
-title: StorPortSetPowerSettingNotificationGuids function
+title: StorPortSetPowerSettingNotificationGuids function (storport.h)
 description: The StorPortSetPowerSettingNotificationGuids routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
 old-location: storage\storportsetpowersettingnotificationguids.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortSetPowerSettingNotificationGuids
+- StorPortSetPowerSettingNotificationGuids
 product:
 - Windows
 targetos: Windows

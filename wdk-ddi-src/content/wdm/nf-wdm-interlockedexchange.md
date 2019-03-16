@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedExchange
-title: InterlockedExchange function
+title: InterlockedExchange function (wdm.h)
 description: The InterlockedExchange routine sets an integer variable to a given value as an atomic operation.
 old-location: kernel\interlockedexchange.htm
 tech.root: kernel
@@ -26,19 +26,19 @@ req.lib: OneCoreUAP.lib on Windows 10
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	OneCoreUAP.lib
--	OneCoreUAP.dll
--	API-MS-Win-Core-Interlocked-l1-1-0.dll
--	API-MS-Win-Core-Interlocked-l1-2-0.dll
--	KernelBase.dll
--	MinKernelBase.dll
+- OneCoreUAP.lib
+- OneCoreUAP.dll
+- API-MS-Win-Core-Interlocked-l1-1-0.dll
+- API-MS-Win-Core-Interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
--	InterlockedExchange
+- InterlockedExchange
 product:
 - Windows
 targetos: Windows

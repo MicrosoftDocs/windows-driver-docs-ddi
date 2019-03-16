@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_BOX
-title: D3D10_DDI_BOX
+title: D3D10_DDI_BOX (d3d10umddi.h)
 description: The D3D10_DDI_BOX structure describes a volume.
 old-location: display\d3d10_ddi_box.htm
 ms.assetid: b09ea915-070d-4ebb-a40d-d60add5df3d8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_BOX
+- D3D10_DDI_BOX
 product:
 - Windows
 targetos: Windows

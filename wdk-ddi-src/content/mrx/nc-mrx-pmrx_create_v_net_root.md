@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CREATE_V_NET_ROOT
-title: PMRX_CREATE_V_NET_ROOT
+title: PMRX_CREATE_V_NET_ROOT (mrx.h)
 description: The MRxCreateVNetRoot routine is called by RDBSS to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure.
 old-location: ifsk\mrxcreatevnetroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxCreateVNetRoot
+- MRxCreateVNetRoot
 product:
 - Windows
 targetos: Windows

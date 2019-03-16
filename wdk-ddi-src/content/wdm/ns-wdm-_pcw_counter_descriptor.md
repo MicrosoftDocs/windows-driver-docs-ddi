@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_COUNTER_DESCRIPTOR
-title: "_PCW_COUNTER_DESCRIPTOR"
+title: _PCW_COUNTER_DESCRIPTOR (wdm.h)
 description: The PCW_COUNTER_DESCRIPTOR structure supplies details about the notification to send.
 old-location: devtest\pcw_counter_descriptor.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_COUNTER_DESCRIPTOR
+- PCW_COUNTER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

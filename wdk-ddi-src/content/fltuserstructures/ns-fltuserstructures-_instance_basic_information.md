@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_BASIC_INFORMATION
-title: "_INSTANCE_BASIC_INFORMATION"
+title: _INSTANCE_BASIC_INFORMATION (fltuserstructures.h)
 description: The INSTANCE_BASIC_INFORMATION structure contains basic information for a minifilter instance.
 old-location: ifsk\instance_basic_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	INSTANCE_BASIC_INFORMATION
+- INSTANCE_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

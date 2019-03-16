@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_HUB_INFORMATION_EX
-title: IOCTL_USB_GET_HUB_INFORMATION_EX
+title: IOCTL_USB_GET_HUB_INFORMATION_EX (usbioctl.h)
 description: The IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request is sent by an application to retrieve information about a USB hub in a USB_HUB_INFORMATION_EX structure.The request retrieves the highest port number on the hub.
 old-location: buses\ioctl_usb_get_hub_information_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_HUB_INFORMATION_EX
+- IOCTL_USB_GET_HUB_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

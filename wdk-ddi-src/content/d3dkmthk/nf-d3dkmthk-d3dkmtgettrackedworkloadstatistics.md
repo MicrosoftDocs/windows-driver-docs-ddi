@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetTrackedWorkloadStatistics
-title: D3DKMTGetTrackedWorkloadStatistics function
+title: D3DKMTGetTrackedWorkloadStatistics function (d3dkmthk.h)
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: a29b19fb-1a03-42a1-9523-059f91939ecd
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetTrackedWorkloadStatistics
+- D3DKMTGetTrackedWorkloadStatistics
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

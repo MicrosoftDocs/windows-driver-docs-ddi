@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_CHECKSUM
-title: _NET_PACKET_CHECKSUM
+title: _NET_PACKET_CHECKSUM (netpacket.h)
 description: A NET_PACKET_CHECKSUM structure describes checksum information for a NET_PACKET.
 tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_CHECKSUM
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpacket.h
-apiname: 
--	NET_PACKET_CHECKSUM
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpacket.h
+api_name: 
+- NET_PACKET_CHECKSUM
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

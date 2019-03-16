@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetEnumCount
-title: IBidiRequest::GetEnumCount
+title: IBidiRequest::GetEnumCount (bidispl.h)
 description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiRequest.GetEnumCount
+- IBidiRequest.GetEnumCount
 product:
 - Windows
 targetos: Windows

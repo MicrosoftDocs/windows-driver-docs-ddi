@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.WriteBuffer
-title: ExtRemoteData::WriteBuffer
+title: ExtRemoteData::WriteBuffer (engextcpp.h)
 description: The WriteBuffer method writes data to the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different.
 old-location: debugger\extremotedata_writebuffer.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.WriteBuffer
+- ExtRemoteData.WriteBuffer
 product:
 - Windows
 targetos: Windows

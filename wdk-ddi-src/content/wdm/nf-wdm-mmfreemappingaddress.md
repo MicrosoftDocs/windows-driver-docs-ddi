@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmFreeMappingAddress
-title: MmFreeMappingAddress function
+title: MmFreeMappingAddress function (wdm.h)
 description: The MmFreeMappingAddress routine frees a range of virtual memory reserved by the MmAllocateMappingAddress routine.
 old-location: kernel\mmfreemappingaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFreeMappingAddress
+- MmFreeMappingAddress
 product:
 - Windows
 targetos: Windows

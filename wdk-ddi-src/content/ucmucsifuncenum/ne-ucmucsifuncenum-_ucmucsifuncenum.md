@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsifuncenum._UCMUCSIFUNCENUM
-title: _UCMUCSIFUNCENUM
+title: _UCMUCSIFUNCENUM (ucmucsifuncenum.h)
 tech.root: usbref
 description: Defines values for all export functions called by a client driver of a UcmUcsiCx class extension. 
 ms.assetid: 52d0d6bb-f1e5-4033-a329-49f424623f72
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCMUCSIFUNCENUM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsifuncenum.h
+- ucmucsifuncenum.h
 api_name: 
--	_UCMUCSIFUNCENUM
-product: Windows
+- _UCMUCSIFUNCENUM
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

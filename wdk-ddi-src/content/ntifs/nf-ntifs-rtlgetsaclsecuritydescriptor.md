@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetSaclSecurityDescriptor
-title: RtlGetSaclSecurityDescriptor function
+title: RtlGetSaclSecurityDescriptor function (ntifs.h)
 description: The RtlGetSaclSecurityDescriptor routine returns a pointer to the system ACL (SACL) for a security descriptor.
 old-location: ifsk\rtlgetsaclsecuritydescriptor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetSaclSecurityDescriptor
+- RtlGetSaclSecurityDescriptor
 product:
 - Windows
 targetos: Windows

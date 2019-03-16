@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.DisablePDEV
-title: IPrintOemPS::DisablePDEV
+title: IPrintOemPS::DisablePDEV (prcomoem.h)
 description: The IPrintOemPS::DisablePDEV method allows a rendering plug-in for Pscript5 to delete the private PDEV structure that was allocated by its IPrintOemPS::EnablePDEV method.
 old-location: print\iprintoemps_disablepdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemPS.DisablePDEV
+- IPrintOemPS.DisablePDEV
 product:
 - Windows
 targetos: Windows

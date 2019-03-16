@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlWriteComplete
-title: FltFastIoMdlWriteComplete function
+title: FltFastIoMdlWriteComplete function (fltkernel.h)
 description: The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated.
 old-location: ifsk\fltfastiomdlwritecomplete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlMdlWriteCompleteDev
+- FsRtlMdlWriteCompleteDev
 product:
 - Windows
 targetos: Windows

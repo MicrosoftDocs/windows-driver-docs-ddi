@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_MMIO_REQUIREMENTS
-title: SRIOV_GET_MMIO_REQUIREMENTS
+title: SRIOV_GET_MMIO_REQUIREMENTS (pcivirt.h)
 description: This callback function is not supported.
 old-location: pci\sriov_get_mmio_requirements.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_GET_MMIO_REQUIREMENTS
+- *PSRIOV_GET_MMIO_REQUIREMENTS
 product:
 - Windows
 targetos: Windows

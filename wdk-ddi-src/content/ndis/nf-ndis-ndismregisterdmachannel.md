@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMRegisterDmaChannel
-title: NdisMRegisterDmaChannel function
+title: NdisMRegisterDmaChannel function (ndis.h)
 description: The NdisMRegisterDmaChannel function claims a system DMA controller channel during initialization for DMA operations on a subordinate NIC or on an ISA bus-master NIC.
 old-location: netvista\ndismregisterdmachannel.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMRegisterDmaChannel
+- NdisMRegisterDmaChannel
 product:
 - Windows
 targetos: Windows

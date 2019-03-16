@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINSETDEVICESTATE
-title: PFNKSPINSETDEVICESTATE
+title: PFNKSPINSETDEVICESTATE (ks.h)
 description: An AVStream minidriver's AVStrMiniPinSetDeviceState routine is called when the state of a KSPIN structure is changed due to the arrival of a connection state property 'set' IOCTL.
 old-location: stream\avstrminipinsetdevicestate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinSetDeviceState
+- AVStrMiniPinSetDeviceState
 product:
 - Windows
 targetos: Windows

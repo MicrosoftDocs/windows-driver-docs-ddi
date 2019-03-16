@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
-title: PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
+title: PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001 (d3d12umddi.h)
 description: Create descriptor heap.
 ms.assetid: c60b9860-d115-47ee-aadc-f25c36c789a5
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
+- PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
 product: 
 - Windows
 targetos: Windows

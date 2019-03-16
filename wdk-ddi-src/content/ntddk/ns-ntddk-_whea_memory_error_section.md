@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION
-title: "_WHEA_MEMORY_ERROR_SECTION"
+title: _WHEA_MEMORY_ERROR_SECTION (ntddk.h)
 description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 old-location: whea\whea_memory_error_section.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_MEMORY_ERROR_SECTION
+- WHEA_MEMORY_ERROR_SECTION
 product:
 - Windows
 targetos: Windows

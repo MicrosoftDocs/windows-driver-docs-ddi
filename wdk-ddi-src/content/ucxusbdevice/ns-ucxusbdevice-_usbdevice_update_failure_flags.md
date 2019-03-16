@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_UPDATE_FAILURE_FLAGS
-title: "_USBDEVICE_UPDATE_FAILURE_FLAGS"
+title: _USBDEVICE_UPDATE_FAILURE_FLAGS (ucxusbdevice.h)
 description: The flags that are set by the client driver in the EVT_UCX_USBDEVICE_UPDATE callback function. Indicate errors, if any, that might have occurred while updating the device.
 old-location: buses\_usbdevice_update_failure_flags.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	USBDEVICE_UPDATE_FAILURE_FLAGS
+- USBDEVICE_UPDATE_FAILURE_FLAGS
 product:
 - Windows
 targetos: Windows

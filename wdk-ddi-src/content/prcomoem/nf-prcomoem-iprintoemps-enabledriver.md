@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.EnableDriver
-title: IPrintOemPS::EnableDriver
+title: IPrintOemPS::EnableDriver (prcomoem.h)
 description: The IPrintOemPS::EnableDriver method allows a rendering plug-in for Pscript to hook out some graphics DDI functions.
 old-location: print\iprintoemps_enabledriver.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemPS.EnableDriver
+- IPrintOemPS.EnableDriver
 product:
 - Windows
 targetos: Windows

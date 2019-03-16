@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayMarqueeTypeType
-title: "_LineDisplayMarqueeTypeType"
+title: _LineDisplayMarqueeTypeType (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueetypetype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	LineDisplayMarqueeTypeType
+- LineDisplayMarqueeTypeType
 product:
 - Windows
 targetos: Windows

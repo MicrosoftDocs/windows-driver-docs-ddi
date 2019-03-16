@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSymbolPathWide
-title: IDebugSymbols3::SetSymbolPathWide
+title: IDebugSymbols3::SetSymbolPathWide (dbgeng.h)
 description: The SetSymbolPathWide method sets the symbol path.
 old-location: debugger\setsymbolpathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.SetSymbolPathWide
+- IDebugSymbols3.SetSymbolPathWide
 product:
 - Windows
 targetos: Windows

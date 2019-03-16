@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionAsyncOperation.Cancel
-title: IPrinterExtensionAsyncOperation::Cancel
+title: IPrinterExtensionAsyncOperation::Cancel (printerextension.h)
 description: Cancels the asynchronous operation.
 old-location: print\iprinterextensionasyncoperation_cancel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionAsyncOperation.Cancel
+- IPrinterExtensionAsyncOperation.Cancel
 product:
 - Windows
 targetos: Windows

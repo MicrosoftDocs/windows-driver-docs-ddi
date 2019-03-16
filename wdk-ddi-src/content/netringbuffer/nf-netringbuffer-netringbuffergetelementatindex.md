@@ -1,6 +1,6 @@
 ---
 UID: NF:netringbuffer.NetRingBufferGetElementAtIndex
-title: NetRingBufferGetElementAtIndex function
+title: NetRingBufferGetElementAtIndex function (netringbuffer.h)
 description: Returns the element at the specified index in the ring buffer.
 tech.root: netvista
 ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netringbuffer.h
-apiname: 
--	NetRingBufferGetElementAtIndex
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netringbuffer.h
+api_name: 
+- NetRingBufferGetElementAtIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

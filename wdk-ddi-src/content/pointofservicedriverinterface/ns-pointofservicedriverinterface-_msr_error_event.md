@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_ERROR_EVENT
-title: "_MSR_ERROR_EVENT"
+title: _MSR_ERROR_EVENT (pointofservicedriverinterface.h)
 description: This structure contains the error data that is passed to the MagneticStripeReaderErrorOccured event.
 old-location: pos\msr_error_event.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_ERROR_EVENT
+- MSR_ERROR_EVENT
 product:
 - Windows
 targetos: Windows

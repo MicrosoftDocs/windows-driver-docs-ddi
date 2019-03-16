@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._HW_INITIALIZATION_DATA~r1
-title: "_HW_INITIALIZATION_DATA"
+title: _HW_INITIALIZATION_DATA (storport.h)
 description: The HW_INITIALIZATION_DATA (Storport) structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
 ms.assetid: de37a235-10b4-4491-8e75-257f7c07ae32
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_HW_INITIALIZATION_DATA
+- _HW_INITIALIZATION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNALLOCATOR_ALLOCATEFRAME
-title: PFNALLOCATOR_ALLOCATEFRAME
+title: PFNALLOCATOR_ALLOCATEFRAME (ks.h)
 description: The KStrAllocateFrame routine describes a vendor-supplied frame allocation function.
 old-location: stream\kstrallocateframe.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrAllocateFrame
+- KStrAllocateFrame
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateController
-title: IoCreateController function
+title: IoCreateController function (ntddk.h)
 description: The IoCreateController routine allocates memory for and initializes a controller object with a controller extension of a driver-determined size.
 old-location: kernel\iocreatecontroller.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateController
+- IoCreateController
 product:
 - Windows
 targetos: Windows

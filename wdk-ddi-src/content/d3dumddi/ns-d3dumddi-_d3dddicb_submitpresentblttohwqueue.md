@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
-title: _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
+title: _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE (d3dumddi.h)
 description: A structure that contains information to present Blt to the hardware queue.
 ms.assetid: 6c2eda0a-e6df-4467-bbd8-dd55acdb457e
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	_D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
+- _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product: 
 - Windows
 targetos: Windows

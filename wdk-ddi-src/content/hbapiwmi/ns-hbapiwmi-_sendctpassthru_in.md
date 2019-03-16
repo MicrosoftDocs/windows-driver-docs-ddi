@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendCTPassThru_IN
-title: "_SendCTPassThru_IN"
+title: _SendCTPassThru_IN (hbapiwmi.h)
 description: The SendCTPassThru_IN structure is used to deliver input parameter data to the SendCTPassThru WMI method.
 old-location: storage\sendctpassthru_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SendCTPassThru_IN
+- SendCTPassThru_IN
 product:
 - Windows
 targetos: Windows

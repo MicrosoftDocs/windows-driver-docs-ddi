@@ -1,6 +1,6 @@
 ---
 UID: NC:61883.PCMP_MONITOR_ROUTINE
-title: PCMP_MONITOR_ROUTINE
+title: PCMP_MONITOR_ROUTINE (61883.h)
 description: This routine is called for plug monitoring.
 old-location: ieee\pcmp_monitor_routine.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CmpMonitorRoutine
+- CmpMonitorRoutine
 product:
 - Windows
 targetos: Windows

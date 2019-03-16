@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.QueryInterface
-title: IPreferredRuntimeTypeConcept::QueryInterface
+title: IPreferredRuntimeTypeConcept::QueryInterface (dbgmodel.h)
 description: The CastToPreferredRuntimeType method is called whenever a client wishes to attempt to convert from a static type instance to the runtime type of that instance. 
 ms.assetid: 4bb3fbdc-d1f0-4410-b289-3344d64cb051
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IPreferredRuntimeTypeConcept.QueryInterface
-product: Windows
+- IPreferredRuntimeTypeConcept.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

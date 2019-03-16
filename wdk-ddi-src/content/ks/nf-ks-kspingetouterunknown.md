@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetOuterUnknown
-title: KsPinGetOuterUnknown function
+title: KsPinGetOuterUnknown function (ks.h)
 description: The KsPinGetOuterUnknown function returns the outer IUnknown of the pin specified by Pin.
 old-location: stream\kspingetouterunknown.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsPinGetOuterUnknown
+- KsPinGetOuterUnknown
 product:
 - Windows
 targetos: Windows

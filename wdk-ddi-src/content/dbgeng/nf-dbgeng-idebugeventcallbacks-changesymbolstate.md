@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ChangeSymbolState
-title: IDebugEventCallbacks::ChangeSymbolState
+title: IDebugEventCallbacks::ChangeSymbolState (dbgeng.h)
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbacks_changesymbolstate.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacks.ChangeSymbolState
+- IDebugEventCallbacks.ChangeSymbolState
 product:
 - Windows
 targetos: Windows

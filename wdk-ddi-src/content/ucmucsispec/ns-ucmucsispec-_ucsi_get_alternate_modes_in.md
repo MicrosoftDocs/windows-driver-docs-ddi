@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_ALTERNATE_MODES_IN
-title: _UCSI_GET_ALTERNATE_MODES_IN
+title: _UCSI_GET_ALTERNATE_MODES_IN (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_ALTERNATE_MODES command. See Table 4-24.
 ms.assetid: a63911f9-4584-485d-ac4b-066eb8ec4e69
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_ALTERNATE_MODES_IN, *PUCSI_GET_ALTERNATE_MODES_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_ALTERNATE_MODES_IN
-product: Windows
+- _UCSI_GET_ALTERNATE_MODES_IN
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

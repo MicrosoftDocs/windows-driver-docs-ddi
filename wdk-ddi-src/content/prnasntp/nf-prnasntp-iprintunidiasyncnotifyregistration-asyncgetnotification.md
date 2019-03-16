@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
-title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
+title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification (prnasntp.h)
 description: 
 old-location: print\iprintunidiasyncnotifyregistration_asyncgetnotification.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
+- IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
 product:
 - Windows
 targetos: Windows

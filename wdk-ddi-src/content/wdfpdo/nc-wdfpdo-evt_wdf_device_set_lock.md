@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_SET_LOCK
-title: EVT_WDF_DEVICE_SET_LOCK
+title: EVT_WDF_DEVICE_SET_LOCK (wdfpdo.h)
 description: A driver's EvtDeviceSetLock event callback function locks the specified device so that it cannot be ejected, or unlocks the device so that it can be ejected.
 old-location: wdf\evtdevicesetlock.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfpdo.h
+- Wdfpdo.h
 api_name:
--	EvtDeviceSetLock
+- EvtDeviceSetLock
 product:
 - Windows
 targetos: Windows

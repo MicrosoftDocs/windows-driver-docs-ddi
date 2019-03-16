@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
-title: IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
+title: IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered (wudfddi.h)
 description: A driver's OnWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 old-location: wdf\ipowerpolicycallbackwakefromsx_onwakefromsxtriggered.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
+- IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
 product:
 - Windows
 targetos: Windows

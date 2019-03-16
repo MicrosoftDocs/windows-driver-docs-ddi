@@ -1,6 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationQueryString
-title: NetConfigurationQueryString function
+title: NetConfigurationQueryString function (netconfiguration.h)
 description: Retrieves the specified string value from the adapter configuration object and assigns the string to a specified framework string object.
 tech.root: netvista
 ms.assetid: 2523f6df-64d5-491d-ad0e-557896268697
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NetConfigurationQueryString
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NetConfigurationQueryString
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

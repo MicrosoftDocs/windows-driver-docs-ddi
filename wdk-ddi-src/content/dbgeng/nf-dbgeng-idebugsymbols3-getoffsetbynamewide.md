@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByNameWide
-title: IDebugSymbols3::GetOffsetByNameWide
+title: IDebugSymbols3::GetOffsetByNameWide (dbgeng.h)
 description: The GetOffsetByNameWide method returns the location of a symbol identified by name.
 old-location: debugger\getoffsetbynamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetOffsetByNameWide
+- IDebugSymbols3.GetOffsetByNameWide
 product:
 - Windows
 targetos: Windows

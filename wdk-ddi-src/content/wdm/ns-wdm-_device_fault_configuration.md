@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DEVICE_FAULT_CONFIGURATION
-title: _DEVICE_FAULT_CONFIGURATION
+title: _DEVICE_FAULT_CONFIGURATION (wdm.h)
 description: This structure is used in seting the device fault reporting state
 ms.assetid: ccd97b0c-9ecc-47e3-b0c3-1c202139b06b
 ms.date: 09/30/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_DEVICE_FAULT_CONFIGURATION
-product: Windows
+- _DEVICE_FAULT_CONFIGURATION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -40,8 +41,8 @@ This structure is used in seting the device fault reporting state through the [I
 ## -struct-fields
 
 ### -field FaultHandler
-A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_domain_fault_handler.md).
- 
+A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_device_fault_handler.md).
+
 ### -field FaultContext
 A pointer to the opaque driver-supplied fault context.
 

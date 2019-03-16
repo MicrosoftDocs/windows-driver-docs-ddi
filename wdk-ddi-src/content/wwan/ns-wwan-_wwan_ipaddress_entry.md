@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPADDRESS_ENTRY
-title: "_WWAN_IPADDRESS_ENTRY"
+title: _WWAN_IPADDRESS_ENTRY (wwan.h)
 description: The WWAN_IPADDRESS_ENTRY structure represents either the IPV4 or IPV6 address of a PDP context.
 old-location: netvista\wwan_ipaddress_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_IPADDRESS_ENTRY
+- WWAN_IPADDRESS_ENTRY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauGetResourceString
-title: wiauGetResourceString function
+title: wiauGetResourceString function (wiautil.h)
 description: The wiauGetResourceString function gets a resource string, storing it as a BSTR.
 old-location: image\wiaugetresourcestring.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauGetResourceString
+- wiauGetResourceString
 product:
 - Windows
 targetos: Windows

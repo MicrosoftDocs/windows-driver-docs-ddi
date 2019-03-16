@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ACTIVATION_COMMAND
-title: "_WWAN_ACTIVATION_COMMAND"
+title: _WWAN_ACTIVATION_COMMAND (wwan.h)
 description: The WWAN_ACTIVATION_COMMAND enumeration lists the Packet Data Protocol (PDP) activation commands that are supported by the MB device.
 old-location: netvista\wwan_activation_command.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_ACTIVATION_COMMAND
+- WWAN_ACTIVATION_COMMAND
 product:
 - Windows
 targetos: Windows

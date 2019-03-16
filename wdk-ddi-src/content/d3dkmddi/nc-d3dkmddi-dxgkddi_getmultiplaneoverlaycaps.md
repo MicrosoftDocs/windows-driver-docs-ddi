@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETMULTIPLANEOVERLAYCAPS
-title: DXGKDDI_GETMULTIPLANEOVERLAYCAPS
+title: DXGKDDI_GETMULTIPLANEOVERLAYCAPS (d3dkmddi.h)
 description: Called to retrieve multiplane overlay capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support multiple planes.
 old-location: display\dxgkddi_getmultiplaneoverlaycaps.htm
 ms.assetid: 17A9B769-D280-491D-844E-A9B2C66D2207
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_GETMULTIPLANEOVERLAYCAPS
+- DXGKDDI_GETMULTIPLANEOVERLAYCAPS
 product:
 - Windows
 targetos: Windows

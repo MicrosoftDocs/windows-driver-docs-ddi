@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.GetPropId
-title: CWiauPropertyList::GetPropId
+title: CWiauPropertyList::GetPropId (wiautil.h)
 description: The CWiauPropertyList::GetPropId method finds the property ID for a property, given its index in the property list.
 old-location: image\cwiaupropertylist_getpropid.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.GetPropId
+- CWiauPropertyList.GetPropId
 product:
 - Windows
 targetos: Windows

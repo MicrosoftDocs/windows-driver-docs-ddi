@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_STATS
-title: IOCTL_SERIAL_GET_STATS
+title: IOCTL_SERIAL_GET_STATS (ntddser.h)
 description: The IOCTL_SERIAL_GET_STATS request returns information about the performance of a serial controller.
 old-location: serports\ioctl_serial_get_stats.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_GET_STATS
+- IOCTL_SERIAL_GET_STATS
 product:
 - Windows
 targetos: Windows

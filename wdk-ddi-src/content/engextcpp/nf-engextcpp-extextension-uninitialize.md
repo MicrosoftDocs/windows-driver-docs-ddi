@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.Uninitialize
-title: ExtExtension::Uninitialize
+title: ExtExtension::Uninitialize (engextcpp.h)
 description: The Uninitialize method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
 old-location: debugger\uninitialize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtExtension.Uninitialize
+- ExtExtension.Uninitialize
 product:
 - Windows
 targetos: Windows

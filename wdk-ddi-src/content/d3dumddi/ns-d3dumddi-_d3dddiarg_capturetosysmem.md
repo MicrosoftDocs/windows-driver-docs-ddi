@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CAPTURETOSYSMEM
-title: "_D3DDDIARG_CAPTURETOSYSMEM"
+title: _D3DDDIARG_CAPTURETOSYSMEM (d3dumddi.h)
 description: The D3DDDIARG_CAPTURETOSYSMEM structure describes the parameters of a bit-block transfer (bitblt) from a capture buffer to a video memory surface.
 old-location: display\d3dddiarg_capturetosysmem.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_CAPTURETOSYSMEM
+- D3DDDIARG_CAPTURETOSYSMEM
 product:
 - Windows
 targetos: Windows

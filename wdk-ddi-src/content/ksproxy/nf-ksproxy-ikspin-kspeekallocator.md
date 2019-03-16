@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsPeekAllocator
-title: IKsPin::KsPeekAllocator
+title: IKsPin::KsPeekAllocator (ksproxy.h)
 description: The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator.
 old-location: stream\ikspin_kspeekallocator.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsPeekAllocator
+- IKsPin.KsPeekAllocator
 product:
 - Windows
 targetos: Windows

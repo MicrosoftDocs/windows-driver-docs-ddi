@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol2.CompareAgainst
-title: IDebugHostSymbol2::CompareAgainst
+title: IDebugHostSymbol2::CompareAgainst (dbgmodel.h)
 description: Compares two symbols for equality. 
 ms.assetid: abdc73ad-ae24-43cd-9b66-9f063a554cda
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbol2.CompareAgainst
-product: Windows
+- IDebugHostSymbol2.CompareAgainst
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

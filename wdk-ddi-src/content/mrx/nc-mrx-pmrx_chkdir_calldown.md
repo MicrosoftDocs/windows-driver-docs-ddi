@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_CHKDIR_CALLDOWN
-title: PMRX_CHKDIR_CALLDOWN
+title: PMRX_CHKDIR_CALLDOWN (mrx.h)
 description: TheMRxIsValidDirectory routine is called by RDBSS to request that a network mini-redirector check for the existence of a remote directory.
 old-location: ifsk\mrxisvaliddirectory.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxIsValidDirectory
+- MRxIsValidDirectory
 product:
 - Windows
 targetos: Windows

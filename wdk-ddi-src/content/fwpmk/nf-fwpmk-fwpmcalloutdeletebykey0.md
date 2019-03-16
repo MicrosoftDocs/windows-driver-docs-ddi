@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmCalloutDeleteByKey0
-title: FwpmCalloutDeleteByKey0 function
+title: FwpmCalloutDeleteByKey0 function (fwpmk.h)
 description: The FwpmCalloutDeleteByKey0 function deletes a callout from the filter engine.Note  FwpmCalloutDeleteByKey0 is a specific version of FwpmCalloutDeleteByKey.
 old-location: netvista\fwpmcalloutdeletebykey0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpmCalloutDeleteByKey0
+- FwpmCalloutDeleteByKey0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObjectFromCpu
-title: D3DKMTSignalSynchronizationObjectFromCpu function
+title: D3DKMTSignalSynchronizationObjectFromCpu function (d3dkmthk.h)
 description: D3DKMTSignalSynchronizationObjectFromCpu enables a driver to signal a monitored fence.
 old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
 ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSignalSynchronizationObjectFromCpu
+- D3DKMTSignalSynchronizationObjectFromCpu
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomTransmitTransactionInitializeComplete
-title: SerCx2CustomTransmitTransactionInitializeComplete function
+title: SerCx2CustomTransmitTransactionInitializeComplete function (sercx.h)
 description: The SerCx2CustomTransmitTransactionInitializeComplete method informs version 2 of the serial framework extension (SerCx2) that the serial driver has finished initializing the serial controller and associated hardware in preparation for a new custom-transmit transaction.
 old-location: serports\sercx2customtransmittransactioninitializecomplete.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2CustomTransmitTransactionInitializeComplete
+- SerCx2CustomTransmitTransactionInitializeComplete
 product:
 - Windows
 targetos: Windows

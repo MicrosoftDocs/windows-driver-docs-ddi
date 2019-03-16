@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetRadioConfiguration
-title: RIL_SetRadioConfiguration function
+title: RIL_SetRadioConfiguration function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setradioconfiguration.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_SetRadioConfiguration
+- RIL_SetRadioConfiguration
 product:
 - Windows
 targetos: Windows

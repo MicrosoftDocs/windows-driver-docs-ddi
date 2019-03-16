@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoQueryWatchdogTime
-title: PoQueryWatchdogTime function
+title: PoQueryWatchdogTime function (wdm.h)
 description: The PoQueryWatchdogTime routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
 old-location: kernel\poquerywatchdogtime.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoQueryWatchdogTime
+- PoQueryWatchdogTime
 product:
 - Windows
 targetos: Windows

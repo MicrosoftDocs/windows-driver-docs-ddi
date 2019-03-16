@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETFSEBLOCK
-title: PFND3DKMT_SETFSEBLOCK
+title: PFND3DKMT_SETFSEBLOCK (d3dkmthk.h)
 description: The PFND3DKMT_SETFSEBLOCK callback function sets FSE block.
 ms.assetid: b0a3d6d7-9b7d-46eb-b3a5-a2faf0e1c9a6
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SETFSEBLOCK
+- PFND3DKMT_SETFSEBLOCK
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

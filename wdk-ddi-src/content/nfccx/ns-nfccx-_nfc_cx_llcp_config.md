@@ -1,6 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_LLCP_CONFIG
-title: "_NFC_CX_LLCP_CONFIG"
+title: _NFC_CX_LLCP_CONFIG (nfccx.h)
 description: The NFC_CX_LLCP_CONFIG structure is an input parameter to NfcCxSetLlcpConfig.
 old-location: nfpdrivers\nfc_cx_llcp_config.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	NFC_CX_LLCP_CONFIG
+- NFC_CX_LLCP_CONFIG
 product:
 - Windows
 targetos: Windows

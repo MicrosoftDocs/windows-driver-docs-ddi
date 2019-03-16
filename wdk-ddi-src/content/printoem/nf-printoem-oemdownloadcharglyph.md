@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDownloadCharGlyph
-title: OEMDownloadCharGlyph function
+title: OEMDownloadCharGlyph function (printoem.h)
 description: OEMDownloadCharGlyph function
 old-location: print\oemdownloadcharglyph.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDownloadCharGlyph
+- OEMDownloadCharGlyph
 product:
 - Windows
 targetos: Windows

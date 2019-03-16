@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostStateChange
-title: ISensorClassExtension::PostStateChange
+title: ISensorClassExtension::PostStateChange (sensorsclassextension.h)
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	ISensorClassExtension.PostStateChange
+- ISensorClassExtension.PostStateChange
 product:
 - Windows
 targetos: Windows

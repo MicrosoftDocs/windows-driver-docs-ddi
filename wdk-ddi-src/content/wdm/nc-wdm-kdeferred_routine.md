@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KDEFERRED_ROUTINE
-title: KDEFERRED_ROUTINE
+title: KDEFERRED_ROUTINE (wdm.h)
 description: The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires.
 old-location: kernel\customdpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MyDpc
+- MyDpc
 product:
 - Windows
 targetos: Windows

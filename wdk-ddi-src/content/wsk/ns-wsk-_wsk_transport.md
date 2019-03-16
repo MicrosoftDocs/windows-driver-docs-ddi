@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_TRANSPORT
-title: "_WSK_TRANSPORT"
+title: _WSK_TRANSPORT (wsk.h)
 description: The WSK_TRANSPORT structure specifies an available transport that is supported by the WSK subsystem.
 old-location: netvista\wsk_transport.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_TRANSPORT
+- WSK_TRANSPORT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsvSwitchEventsSubscribe0
-title: FwpsvSwitchEventsSubscribe0 function
+title: FwpsvSwitchEventsSubscribe0 function (fwpsk.h)
 description: The FwpsvSwitchEventsSubscribe0 function registers callback entry points for virtual switch layer events such as virtual port creation and deletion.Note  FwpsvSwitchEventsSubscribe0 is a specific version of FwpsvSwitchEventsSubscribe.
 old-location: netvista\fwpsvswitcheventssubscribe0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsvSwitchEventsSubscribe0
+- FwpsvSwitchEventsSubscribe0
 product:
 - Windows
 targetos: Windows

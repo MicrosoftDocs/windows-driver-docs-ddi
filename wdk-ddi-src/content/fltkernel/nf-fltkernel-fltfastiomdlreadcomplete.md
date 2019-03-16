@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlReadComplete
-title: FltFastIoMdlReadComplete function
+title: FltFastIoMdlReadComplete function (fltkernel.h)
 description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
 old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlMdlReadCompleteDev
+- FsRtlMdlReadCompleteDev
 product:
 - Windows
 targetos: Windows

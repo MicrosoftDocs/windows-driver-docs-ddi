@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetCancelCompletion
-title: FltSetCancelCompletion function
+title: FltSetCancelCompletion function (fltkernel.h)
 description: A minifilter driver calls FltSetCancelCompletion to specify a cancel routine to be called if a given I/O operation is canceled.
 old-location: ifsk\fltsetcancelcompletion.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetCancelCompletion
+- FltSetCancelCompletion
 product:
 - Windows
 targetos: Windows

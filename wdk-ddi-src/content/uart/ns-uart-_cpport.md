@@ -1,6 +1,6 @@
 ---
 UID: NS:uart._CPPORT
-title: _CPPORT
+title: _CPPORT (uart.h)
 description: Contains the mutable runtime state of a specific instance of a UART device.
 tech.root: serports
 ms.assetid: f82a2ac1-ed30-4e75-ad87-54275a36130b
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CPPORT, *PCPPORT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	_CPPORT
+- _CPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

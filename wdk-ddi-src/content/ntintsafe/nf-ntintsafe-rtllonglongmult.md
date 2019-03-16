@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongMult
-title: RtlLongLongMult function
+title: RtlLongLongMult function (ntintsafe.h)
 description: Multiplies one value of type LONGLONG by another.
 old-location: kernel\rtllonglongmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlLongLongMult
+- RtlLongLongMult
 product:
 - Windows
 targetos: Windows

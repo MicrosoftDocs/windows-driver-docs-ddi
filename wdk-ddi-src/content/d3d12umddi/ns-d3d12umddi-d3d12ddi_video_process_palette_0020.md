@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_PALETTE_0020
-title: D3D12DDI_VIDEO_PROCESS_PALETTE_0020
+title: D3D12DDI_VIDEO_PROCESS_PALETTE_0020 (d3d12umddi.h)
 description: Specifies whether the palette is enabled and an array of palette entries.
 old-location: display\d3d12ddi_video_process_palette.htm
 ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_PALETTE_0020
+- D3D12DDI_VIDEO_PROCESS_PALETTE_0020
 product:
 - Windows
 targetos: Windows

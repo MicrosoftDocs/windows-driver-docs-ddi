@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_FREQUENCY_RANGE
-title: "_D3DKMDT_MONITOR_FREQUENCY_RANGE"
+title: _D3DKMDT_MONITOR_FREQUENCY_RANGE (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_FREQUENCY_RANGE structure contains information about a range of frequencies supported by a monitor.
 old-location: display\d3dkmdt_monitor_frequency_range.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_FREQUENCY_RANGE
+- D3DKMDT_MONITOR_FREQUENCY_RANGE
 product:
 - Windows
 targetos: Windows

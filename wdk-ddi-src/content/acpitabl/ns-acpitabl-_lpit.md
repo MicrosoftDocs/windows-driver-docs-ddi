@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPIT
-title: "_LPIT"
+title: _LPIT (acpitabl.h)
 description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	LPIT
+- LPIT
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---

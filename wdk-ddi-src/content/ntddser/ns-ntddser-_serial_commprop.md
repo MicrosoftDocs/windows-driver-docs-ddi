@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_COMMPROP
-title: "_SERIAL_COMMPROP"
+title: _SERIAL_COMMPROP (ntddser.h)
 description: The SERIAL_COMMPROP structure specifies the properties of a serial port.
 old-location: serports\serial_commprop.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	SERIAL_COMMPROP
+- SERIAL_COMMPROP
 product:
 - Windows
 targetos: Windows

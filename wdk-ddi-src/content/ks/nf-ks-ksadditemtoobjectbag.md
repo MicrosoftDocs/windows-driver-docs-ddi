@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAddItemToObjectBag
-title: KsAddItemToObjectBag function
+title: KsAddItemToObjectBag function (ks.h)
 description: The KsAddItemToObjectBag function adds an object or block of memory to the given object bag.
 old-location: stream\ksadditemtoobjectbag.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAddItemToObjectBag
+- KsAddItemToObjectBag
 product:
 - Windows
 targetos: Windows

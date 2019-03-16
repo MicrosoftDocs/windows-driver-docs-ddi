@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcontrol.WdfControlDeviceInitSetShutdownNotification
-title: WdfControlDeviceInitSetShutdownNotification function
+title: WdfControlDeviceInitSetShutdownNotification function (wdfcontrol.h)
 description: The WdfControlDeviceInitSetShutdownNotification method sets shutdown notification information for a control device object.
 old-location: wdf\wdfcontroldeviceinitsetshutdownnotification.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfControlDeviceInitSetShutdownNotification
+- WdfControlDeviceInitSetShutdownNotification
 product:
 - Windows
 targetos: Windows

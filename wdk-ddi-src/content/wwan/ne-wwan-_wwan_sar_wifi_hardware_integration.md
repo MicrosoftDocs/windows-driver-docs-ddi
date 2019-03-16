@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SAR_WIFI_HARDWARE_INTEGRATION
-title: _WWAN_SAR_WIFI_HARDWARE_INTEGRATION
+title: _WWAN_SAR_WIFI_HARDWARE_INTEGRATION (wwan.h)
 description: The WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration specifies whether Wi-Fi and Cellular are integrated at the hardware level in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 87721dbb-a9af-456f-b452-14cb0e11c0b9
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_SAR_WIFI_HARDWARE_INTEGRATION, *PWWAN_SAR_WIFI_HARDWARE_INTEGRATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_WIFI_HARDWARE_INTEGRATION
+- _WWAN_SAR_WIFI_HARDWARE_INTEGRATION
 product:
 - Windows
 targetos: Windows

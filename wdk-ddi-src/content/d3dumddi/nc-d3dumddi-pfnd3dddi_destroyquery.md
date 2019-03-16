@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYQUERY
-title: PFND3DDDI_DESTROYQUERY
+title: PFND3DDDI_DESTROYQUERY (d3dumddi.h)
 description: The DestroyQuery function releases resources for a query.
 old-location: display\destroyquery.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DestroyQuery
+- DestroyQuery
 product:
 - Windows
 targetos: Windows

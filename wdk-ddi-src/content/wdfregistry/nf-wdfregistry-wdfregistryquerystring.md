@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryQueryString
-title: WdfRegistryQueryString function
+title: WdfRegistryQueryString function (wdfregistry.h)
 description: The WdfRegistryQueryString method retrieves the string data that is currently assigned to a specified registry string value and assigns the string to a specified framework string object.
 old-location: wdf\wdfregistryquerystring.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRegistryQueryString
+- WdfRegistryQueryString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterUlong
-title: StorPortWriteRegisterUlong macro
+title: StorPortWriteRegisterUlong macro (storport.h)
 description: The StorPortWriteRegisterUlong routine transfers a ULONG value to the indicated HBA register address.
 old-location: storage\storportwriteregisterulong.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortWriteRegisterUlong
+- StorPortWriteRegisterUlong
 product:
 - Windows
 targetos: Windows

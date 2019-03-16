@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-title: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+title: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (dxgiddi.h)
 description: Identifies the overlay plane's stereo flip mode. Only the DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE value is supported.
 old-location: display\dxgi_ddi_multiplane_overlay_stereo_flip_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+- DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 product:
 - Windows
 targetos: Windows

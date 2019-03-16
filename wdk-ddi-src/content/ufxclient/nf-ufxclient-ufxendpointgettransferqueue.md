@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointGetTransferQueue
-title: UfxEndpointGetTransferQueue function
+title: UfxEndpointGetTransferQueue function (ufxclient.h)
 description: Returns the transfer queue previously created by UfxEndpointCreate.
 old-location: buses\ufxendpointgettransferqueue.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxEndpointGetTransferQueue
+- UfxEndpointGetTransferQueue
 product:
 - Windows
 targetos: Windows

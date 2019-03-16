@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSetDaclSecurityDescriptor
-title: RtlSetDaclSecurityDescriptor function
+title: RtlSetDaclSecurityDescriptor function (wdm.h)
 description: The RtlSetDaclSecurityDescriptor routine sets the DACL information of an absolute-format security descriptor, or if there is already a DACL present in the security descriptor, it is superseded.
 old-location: kernel\rtlsetdaclsecuritydescriptor.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlSetDaclSecurityDescriptor
+- RtlSetDaclSecurityDescriptor
 product:
 - Windows
 targetos: Windows

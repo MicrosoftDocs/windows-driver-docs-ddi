@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateGenericObject
-title: NdisAllocateGenericObject function
+title: NdisAllocateGenericObject function (ndis.h)
 description: Components that do not have an NDIS handle use the NdisAllocateGenericObject function to allocate a generic NDIS object.
 old-location: netvista\ndisallocategenericobject.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateGenericObject
+- NdisAllocateGenericObject
 product:
 - Windows
 targetos: Windows

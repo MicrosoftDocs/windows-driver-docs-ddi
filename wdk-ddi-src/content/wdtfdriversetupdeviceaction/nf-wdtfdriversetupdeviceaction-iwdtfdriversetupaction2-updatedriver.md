@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupdeviceaction.IWDTFDriverSetupAction2.UpdateDriver
-title: IWDTFDriverSetupAction2::UpdateDriver
+title: IWDTFDriverSetupAction2::UpdateDriver (wdtfdriversetupdeviceaction.h)
 description: Updates the target device with a driver from the driver package.
 old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupDeviceAction.Interop.dll
+- WDTFDriverSetupDeviceAction.Interop.dll
 api_name:
--	IWDTFDriverSetupAction2.UpdateDriver
+- IWDTFDriverSetupAction2.UpdateDriver
 product:
 - Windows
 targetos: Windows

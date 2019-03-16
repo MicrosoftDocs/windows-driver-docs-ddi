@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._ALTERNATE_INTERFACE
-title: "_ALTERNATE_INTERFACE"
+title: _ALTERNATE_INTERFACE (usbfnbase.h)
 description: The ALTERNATE_INTERFACE structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 old-location: buses\alternate_interface.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	ALTERNATE_INTERFACE
+- ALTERNATE_INTERFACE
 product:
 - Windows
 targetos: Windows

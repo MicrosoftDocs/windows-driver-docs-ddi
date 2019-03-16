@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStopSynchronously
-title: WdfIoQueueStopSynchronously function
+title: WdfIoQueueStopSynchronously function (wdfio.h)
 description: The WdfIoQueueStopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\wdfioqueuestopsynchronously.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueStopSynchronously
+- WdfIoQueueStopSynchronously
 product:
 - Windows
 targetos: Windows

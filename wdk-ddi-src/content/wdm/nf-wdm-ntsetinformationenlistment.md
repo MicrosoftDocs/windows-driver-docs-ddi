@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationEnlistment
-title: NtSetInformationEnlistment function
+title: NtSetInformationEnlistment function (wdm.h)
 description: The ZwSetInformationEnlistment routine sets information for a specified enlistment object.
 old-location: kernel\zwsetinformationenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetInformationEnlistment
--	NtSetInformationEnlistment
+- ZwSetInformationEnlistment
+- NtSetInformationEnlistment
 product:
 - Windows
 targetos: Windows

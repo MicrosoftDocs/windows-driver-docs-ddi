@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSFILTERIRP
-title: PFNKSFILTERIRP
+title: PFNKSFILTERIRP (ks.h)
 description: An AVStream minidriver's AVStrMiniFilterCreate routine is called when a filter receives an IRP.
 old-location: stream\avstrminifiltercreate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	MyAVStrMiniFilterIRPHandler
+- MyAVStrMiniFilterIRPHandler
 product:
 - Windows
 targetos: Windows

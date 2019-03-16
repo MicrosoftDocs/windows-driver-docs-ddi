@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CABLE_PROPERTY_IN
-title: _UCSI_GET_CABLE_PROPERTY_IN
+title: _UCSI_GET_CABLE_PROPERTY_IN (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_CABLE_PROPERTY command. See Table 4-39.
 ms.assetid: f57d1ca6-dc11-485c-a6f4-18675e80c707
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CABLE_PROPERTY_IN, *PUCSI_GET_CABLE_PROPERTY_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CABLE_PROPERTY_IN
-product: Windows
+- _UCSI_GET_CABLE_PROPERTY_IN
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

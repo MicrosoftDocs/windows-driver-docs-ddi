@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.PointerKind
-title: PointerKind
+title: PointerKind (dbgmodel.h)
 description: 
 ms.assetid: 5601a992-ef28-42ee-99e9-c7e8b2ba08be
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	PointerKind
-product: Windows
+- PointerKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

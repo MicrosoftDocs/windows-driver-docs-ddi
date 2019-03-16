@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_SPATIAL_BUFFER
-title: _ACPI_PLD_SPATIAL_BUFFER structure
+title: _ACPI_PLD_SPATIAL_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD spatial descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a
 ms.date: 10/02/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_SPATIAL_BUFFER
+- _ACPI_PLD_SPATIAL_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
-title: "_GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS"
+title: _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS (gpioclx.h)
 description: The GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure describes a bank of general-purpose I/O (GPIO) pins whose hardware state is to be saved or restored.
 old-location: gpio\gpio_save_restore_bank_hardware_context_parameters.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
+- GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 product:
 - Windows
 targetos: Windows

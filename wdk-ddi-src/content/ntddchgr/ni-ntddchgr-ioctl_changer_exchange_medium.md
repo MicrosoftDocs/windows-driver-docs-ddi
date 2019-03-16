@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_EXCHANGE_MEDIUM
-title: IOCTL_CHANGER_EXCHANGE_MEDIUM
+title: IOCTL_CHANGER_EXCHANGE_MEDIUM (ntddchgr.h)
 description: Moves a piece of media from a source element to one destination and the piece of media originally in the first destination to a second destination. The source and second destination are often the same, which essentially swaps the two pieces of media.
 old-location: storage\ioctl_changer_exchange_medium.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddchgr.h
+- Ntddchgr.h
 api_name:
--	IOCTL_CHANGER_EXCHANGE_MEDIUM
+- IOCTL_CHANGER_EXCHANGE_MEDIUM
 product:
 - Windows
 targetos: Windows

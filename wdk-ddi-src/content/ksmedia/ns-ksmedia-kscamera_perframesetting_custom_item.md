@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_126
-title: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+title: KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM (ksmedia.h)
 description: This structure contains a custom item.
 old-location: stream\kscamera_perframesetting_custom_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
+- KSCAMERA_PERFRAMESETTING_CUSTOM_ITEM
 product:
 - Windows
 targetos: Windows

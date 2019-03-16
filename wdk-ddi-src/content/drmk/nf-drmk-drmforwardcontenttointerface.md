@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmForwardContentToInterface
-title: DrmForwardContentToInterface function
+title: DrmForwardContentToInterface function (drmk.h)
 description: The DrmForwardContentToInterface function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 old-location: audio\drmforwardcontenttointerface.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Drmk.lib
--	Drmk.dll
+- Drmk.lib
+- Drmk.dll
 api_name:
--	DrmForwardContentToInterface
+- DrmForwardContentToInterface
 product:
 - Windows
 targetos: Windows

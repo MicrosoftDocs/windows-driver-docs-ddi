@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_META_COMMAND_PARAMETER_TYPE
-title: D3D12DDI_META_COMMAND_PARAMETER_TYPE
+title: D3D12DDI_META_COMMAND_PARAMETER_TYPE (d3d12umddi.h)
 description: Indicates the meta-command type.
 ms.assetid: 077f51bf-e790-4b5a-9967-0d800b344258
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_META_COMMAND_PARAMETER_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_META_COMMAND_PARAMETER_TYPE
+- D3D12DDI_META_COMMAND_PARAMETER_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

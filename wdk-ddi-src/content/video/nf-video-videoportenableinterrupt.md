@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortEnableInterrupt
-title: VideoPortEnableInterrupt function
+title: VideoPortEnableInterrupt function (video.h)
 description: The VideoPortEnableInterrupt function is obsolete and should not be called.The VideoPortEnableInterrupt function reenables interrupts from a video adapter after a call to VideoPortDisableInterrupt.
 old-location: display\videoportenableinterrupt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortEnableInterrupt
+- VideoPortEnableInterrupt
 product:
 - Windows
 targetos: Windows

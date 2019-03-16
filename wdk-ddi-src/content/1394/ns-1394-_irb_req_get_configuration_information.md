@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_CONFIGURATION_INFORMATION
-title: "_IRB_REQ_GET_CONFIGURATION_INFORMATION"
+title: _IRB_REQ_GET_CONFIGURATION_INFORMATION (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetConfigurationInformation request.
 old-location: ieee\irb_req_get_configuration_information.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_GET_CONFIGURATION_INFORMATION
+- IRB_REQ_GET_CONFIGURATION_INFORMATION
 product:
 - Windows
 targetos: Windows

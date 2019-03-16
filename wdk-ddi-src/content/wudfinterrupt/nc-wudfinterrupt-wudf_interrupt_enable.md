@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_ENABLE
-title: WUDF_INTERRUPT_ENABLE
+title: WUDF_INTERRUPT_ENABLE (wudfinterrupt.h)
 description: A driver's OnInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\oninterruptenable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	OnInterruptEnable
+- OnInterruptEnable
 product:
 - Windows
 targetos: Windows

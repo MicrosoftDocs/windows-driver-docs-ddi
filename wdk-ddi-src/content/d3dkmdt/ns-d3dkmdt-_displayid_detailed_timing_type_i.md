@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I
-title: "_DISPLAYID_DETAILED_TIMING_TYPE_I"
+title: _DISPLAYID_DETAILED_TIMING_TYPE_I (d3dkmdt.h)
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 old-location: display\displayid_detailed_timing_type_i.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DISPLAYID_DETAILED_TIMING_TYPE_I
+- DISPLAYID_DETAILED_TIMING_TYPE_I
 product:
 - Windows
 targetos: Windows

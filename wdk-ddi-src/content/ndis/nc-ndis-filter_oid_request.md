@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_OID_REQUEST
-title: FILTER_OID_REQUEST
+title: FILTER_OID_REQUEST (ndis.h)
 description: NDIS calls a filter driver's FilterOidRequest function to process an OID request that is associated with the specified filter module.Note  You must declare the function by using the FILTER_OID_REQUEST type.
 old-location: netvista\filteroidrequest.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	FilterOidRequest
+- FilterOidRequest
 product:
 - Windows
 targetos: Windows

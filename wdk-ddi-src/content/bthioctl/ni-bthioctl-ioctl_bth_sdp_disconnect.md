@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_DISCONNECT
-title: IOCTL_BTH_SDP_DISCONNECT
+title: IOCTL_BTH_SDP_DISCONNECT (bthioctl.h)
 description: The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 old-location: bltooth\ioctl_bth_sdp_disconnect.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_SDP_DISCONNECT
+- IOCTL_BTH_SDP_DISCONNECT
 product:
 - Windows
 targetos: Windows

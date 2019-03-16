@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterIrpCompletionCallback
-title: KsPinRegisterIrpCompletionCallback function
+title: KsPinRegisterIrpCompletionCallback function (ks.h)
 description: The KsPinRegisterIrpCompletionCallback function registers a minidriver-defined callback routine for a specified pin.
 old-location: stream\kspinregisterirpcompletioncallback.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinRegisterIrpCompletionCallback
+- KsPinRegisterIrpCompletionCallback
 product:
 - Windows
 targetos: Windows

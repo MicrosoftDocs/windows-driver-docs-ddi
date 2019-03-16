@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_DPC_ROUTINE
-title: IO_DPC_ROUTINE
+title: IO_DPC_ROUTINE (wdm.h)
 description: The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns.
 old-location: kernel\dpcforisr.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DpcForIsr
+- DpcForIsr
 product:
 - Windows
 targetos: Windows

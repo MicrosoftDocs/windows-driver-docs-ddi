@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
-title: DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
+title: DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL (d3dkmddi.h)
 description: Called by the workload tracker to modify the power level on a context.
 ms.assetid: 57ba5418-457e-4859-adf7-1c3d842de2bc
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
+- DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

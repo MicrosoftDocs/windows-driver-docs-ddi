@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._TXN_PARAMETER_BLOCK
-title: "_TXN_PARAMETER_BLOCK"
+title: _TXN_PARAMETER_BLOCK (ntddk.h)
 description: The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation.
 old-location: ifsk\txn_parameter_block.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	TXN_PARAMETER_BLOCK
+- TXN_PARAMETER_BLOCK
 product:
 - Windows
 targetos: Windows

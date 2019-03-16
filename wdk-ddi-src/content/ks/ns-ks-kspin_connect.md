@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_33
-title: KSPIN_CONNECT
+title: KSPIN_CONNECT (ks.h)
 description: Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a KsCreatePin call.
 old-location: stream\kspin_connect.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_CONNECT
+- KSPIN_CONNECT
 product:
 - Windows
 targetos: Windows

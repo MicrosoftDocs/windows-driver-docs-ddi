@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER
-title: W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER
+title: W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadReceiveReturn function to return ownership of NET_BUFFER_LIST and associated structures to an offload target.
 old-location: netvista\miniporttcpoffloadreceivereturn.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	MiniportTcpOffloadReceiveReturn
+- MiniportTcpOffloadReceiveReturn
 product:
 - Windows
 targetos: Windows

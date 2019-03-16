@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_BIND_FAILED_NOTIFICATION
-title: "_NDIS_BIND_FAILED_NOTIFICATION"
+title: _NDIS_BIND_FAILED_NOTIFICATION (ndis.h)
 description: The NDIS_BIND_FAILED_NOTIFICATION structure describes a binding event failure.
 old-location: netvista\ndis_bind_failed_notification.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_BIND_FAILED_NOTIFICATION
+- NDIS_BIND_FAILED_NOTIFICATION
 product:
 - Windows
 targetos: Windows

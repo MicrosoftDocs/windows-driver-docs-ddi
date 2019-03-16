@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Pause
-title: IWDTFSimpleIOStressAction2::Pause
+title: IWDTFSimpleIOStressAction2::Pause (wdtfinterfaces.h)
 description: Pauses the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_pause.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.Pause
+- IWDTFSimpleIOStressAction2.Pause
 product:
 - Windows
 targetos: Windows

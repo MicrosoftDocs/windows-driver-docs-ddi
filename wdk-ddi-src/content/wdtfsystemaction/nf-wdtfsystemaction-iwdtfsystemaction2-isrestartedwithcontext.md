@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.IsRestartedWithContext
-title: IWDTFSystemAction2::IsRestartedWithContext
+title: IWDTFSystemAction2::IsRestartedWithContext (wdtfsystemaction.h)
 description: Gets a value that indicates whether the test script was restarted for a specific context.
 old-location: dtf\iwdtfsystemaction2_isrestartedwithcontext.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.IsRestartedWithContext
+- IWDTFSystemAction2.IsRestartedWithContext
 product:
 - Windows
 targetos: Windows

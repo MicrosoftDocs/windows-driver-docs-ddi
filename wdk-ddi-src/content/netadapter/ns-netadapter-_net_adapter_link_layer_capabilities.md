@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_LINK_LAYER_CAPABILITIES
-title: _NET_ADAPTER_LINK_LAYER_CAPABILITIES
+title: _NET_ADAPTER_LINK_LAYER_CAPABILITIES (netadapter.h)
 description: Describes the link layer capabilities of the adapter.
 tech.root: netvista
 ms.assetid: 24888f71-0e12-41c8-a218-9289b1f5b288
@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_LAYER_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_LAYER_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

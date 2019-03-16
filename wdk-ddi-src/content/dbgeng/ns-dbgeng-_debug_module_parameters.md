@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_MODULE_PARAMETERS
-title: "_DEBUG_MODULE_PARAMETERS"
+title: _DEBUG_MODULE_PARAMETERS (dbgeng.h)
 description: The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
 old-location: debugger\debug_module_parameters.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_MODULE_PARAMETERS
+- DEBUG_MODULE_PARAMETERS
 product:
 - Windows
 targetos: Windows

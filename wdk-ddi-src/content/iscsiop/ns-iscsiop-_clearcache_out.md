@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ClearCache_OUT
-title: "_ClearCache_OUT"
+title: _ClearCache_OUT (iscsiop.h)
 description: The ClearCache_OUT structure holds the output data for the ClearCache method.
 old-location: storage\clearcache_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ClearCache_OUT
+- ClearCache_OUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_14
-title: ST_PARAMETER_DATA
+title: ST_PARAMETER_DATA (scsi.h)
 description: The ST_PARAMETER_DATA structure contains the parameter list for the set timestamp command.
 old-location: storage\st_parameter_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	ST_PARAMETER_DATA
+- ST_PARAMETER_DATA
 product:
 - Windows
 targetos: Windows

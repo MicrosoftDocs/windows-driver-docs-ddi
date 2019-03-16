@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PshedSynchronizeExecution
-title: PshedSynchronizeExecution function
+title: PshedSynchronizeExecution function (ntddk.h)
 description: The PshedSynchronizeExecution function synchronizes the execution of a given function with the hardware error processing for an error source.
 old-location: whea\pshedsynchronizeexecution.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedSynchronizeExecution
+- PshedSynchronizeExecution
 product:
 - Windows
 targetos: Windows

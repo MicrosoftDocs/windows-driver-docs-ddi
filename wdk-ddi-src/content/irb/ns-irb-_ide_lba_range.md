@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_LBA_RANGE
-title: "_IDE_LBA_RANGE"
+title: _IDE_LBA_RANGE (irb.h)
 description: The IDE_LBA_RANGE structure is used by the port driver to provide the miniport driver with a range of logical blocks.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_lba_range.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_LBA_RANGE
+- IDE_LBA_RANGE
 product:
 - Windows
 targetos: Windows

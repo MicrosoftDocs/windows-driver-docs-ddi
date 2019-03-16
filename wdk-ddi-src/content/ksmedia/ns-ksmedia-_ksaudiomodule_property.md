@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_PROPERTY
-title: "_KSAUDIOMODULE_PROPERTY"
+title: _KSAUDIOMODULE_PROPERTY (ksmedia.h)
 description: The KSAUDIOMODULE_DESCRIPTOR structure describes the static, external properties of the audio modules.
 old-location: audio\ksaudiomodule_property.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOMODULE_PROPERTY
+- KSAUDIOMODULE_PROPERTY
 product:
 - Windows
 targetos: Windows

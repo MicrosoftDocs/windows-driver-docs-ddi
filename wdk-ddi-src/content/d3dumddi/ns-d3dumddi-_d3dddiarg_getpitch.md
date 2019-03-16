@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETPITCH
-title: "_D3DDDIARG_GETPITCH"
+title: _D3DDDIARG_GETPITCH (d3dumddi.h)
 description: The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the GetPitch function retrieves the pitch.
 old-location: display\d3dddiarg_getpitch.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_GETPITCH
+- D3DDDIARG_GETPITCH
 product:
 - Windows
 targetos: Windows

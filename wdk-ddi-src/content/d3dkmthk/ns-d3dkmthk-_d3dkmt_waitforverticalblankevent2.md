@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORVERTICALBLANKEVENT2
-title: "_D3DKMT_WAITFORVERTICALBLANKEVENT2"
+title: _D3DKMT_WAITFORVERTICALBLANKEVENT2 (d3dkmthk.h)
 description: Describes parameters for multiple wait objects, including a vertical blank event. Supported starting with Windows 8.
 old-location: display\d3dkmt_waitforverticalblankevent2.htm
 ms.assetid: b83e1d1c-e940-4e7b-8a74-82aee2c54391
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_WAITFORVERTICALBLANKEVENT2
+- D3DKMT_WAITFORVERTICALBLANKEVENT2
 product:
 - Windows
 targetos: Windows

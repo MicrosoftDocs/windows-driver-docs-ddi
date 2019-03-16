@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentSilo
-title: PsGetCurrentSilo function
+title: PsGetCurrentSilo function (ntddk.h)
 description: This routine returns the current silo for the calling thread. First the thread is checked to see if it has been attached to a silo. If not, then the thread is checked to see if it is in a silo.
 old-location: kernel\psgetcurrentsilo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsGetCurrentSilo
+- PsGetCurrentSilo
 product:
 - Windows
 targetos: Windows

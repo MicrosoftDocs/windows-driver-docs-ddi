@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetEcpListFromIrp
-title: FsRtlGetEcpListFromIrp function
+title: FsRtlGetEcpListFromIrp function (ntifs.h)
 description: The FsRtlGetEcpListFromIrp routine returns a pointer to an extra create parameter (ECP) context structure list that is associated with a given IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlgetecplistfromirp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlGetEcpListFromIrp
+- FsRtlGetEcpListFromIrp
 product:
 - Windows
 targetos: Windows

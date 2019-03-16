@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsCompleteIoOperation
-title: IKsDataTypeHandler::KsCompleteIoOperation
+title: IKsDataTypeHandler::KsCompleteIoOperation (ksproxy.h)
 description: The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation.
 old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsDataTypeHandler.KsCompleteIoOperation
+- IKsDataTypeHandler.KsCompleteIoOperation
 product:
 - Windows
 targetos: Windows

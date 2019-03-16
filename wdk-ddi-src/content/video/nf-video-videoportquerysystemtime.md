@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortQuerySystemTime
-title: VideoPortQuerySystemTime function
+title: VideoPortQuerySystemTime function (video.h)
 description: The VideoPortQuerySystemTime function obtains the current system time.
 old-location: display\videoportquerysystemtime.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortQuerySystemTime
+- VideoPortQuerySystemTime
 product:
 - Windows
 targetos: Windows

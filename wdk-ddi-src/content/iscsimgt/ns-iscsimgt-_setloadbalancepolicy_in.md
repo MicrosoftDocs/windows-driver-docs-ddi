@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._SetLoadBalancePolicy_IN
-title: "_SetLoadBalancePolicy_IN"
+title: _SetLoadBalancePolicy_IN (iscsimgt.h)
 description: The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	SetLoadBalancePolicy_IN
+- SetLoadBalancePolicy_IN
 product:
 - Windows
 targetos: Windows

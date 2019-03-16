@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_REPORT_IDS
-title: "_HIDP_REPORT_IDS"
+title: _HIDP_REPORT_IDS (hidpddi.h)
 description: Contains report ID information for a top-level collection.
 old-location: hid\hidp_report_ids.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidpddi.h
+- Hidpddi.h
 api_name:
--	HIDP_REPORT_IDS
+- HIDP_REPORT_IDS
 product:
 - Windows
 targetos: Windows

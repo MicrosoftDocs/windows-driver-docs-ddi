@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_BITBLT
-title: "_DXGK_GDIARG_BITBLT"
+title: _DXGK_GDIARG_BITBLT (d3dkmddi.h)
 description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) with no stretching.
 old-location: display\dxgk_gdiarg_bitblt.htm
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GDIARG_BITBLT
+- DXGK_GDIARG_BITBLT
 product:
 - Windows
 targetos: Windows

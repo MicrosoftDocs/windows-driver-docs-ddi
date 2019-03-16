@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SRQ_NOTIFICATION_CALLBACK
-title: NDK_FN_SRQ_NOTIFICATION_CALLBACK
+title: NDK_FN_SRQ_NOTIFICATION_CALLBACK (ndkpi.h)
 description: The NdkSrqNotificationCallback (NDK_FN_SRQ_NOTIFICATION_CALLBACK) function provides NDK shared receive queue (SRQ) notifications from an NDK provider.
 old-location: netvista\ndk_fn_srq_notification_callback.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkSrqNotificationCallback
+- NdkSrqNotificationCallback
 product:
 - Windows
 targetos: Windows

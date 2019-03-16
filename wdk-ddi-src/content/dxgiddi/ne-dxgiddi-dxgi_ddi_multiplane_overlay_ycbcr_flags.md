@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-title: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+title: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS (dxgiddi.h)
 description: Identifies YUV range and conversion info that describes a multiplane overlay.
 old-location: display\dxgi_ddi_multiplane_overlay_ycbcr_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+- DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCancelIo
-title: FltCancelIo function
+title: FltCancelIo function (fltkernel.h)
 description: The FltCancelIo routine cancels an I/O operation.
 old-location: ifsk\fltcancelio.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCancelIo
+- FltCancelIo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSecondsSince1970ToTime
-title: RtlSecondsSince1970ToTime function
+title: RtlSecondsSince1970ToTime function (ntifs.h)
 description: The RtlSecondsSince1970ToTime routine converts the elapsed time, in seconds, since the beginning of 1970 to an absolute system time value.
 old-location: ifsk\rtlsecondssince1970totime.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlSecondsSince1970ToTime
+- RtlSecondsSince1970ToTime
 product:
 - Windows
 targetos: Windows

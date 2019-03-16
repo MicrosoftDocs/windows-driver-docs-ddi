@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONLIST
-title: "_DXGK_ALLOCATIONLIST"
+title: _DXGK_ALLOCATIONLIST (d3dkmddi.h)
 description: The DXGK_ALLOCATIONLIST structure describes an allocation specification that is used in direct memory access (DMA) buffering.
 old-location: display\dxgk_allocationlist.htm
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_ALLOCATIONLIST
+- DXGK_ALLOCATIONLIST
 product:
 - Windows
 targetos: Windows

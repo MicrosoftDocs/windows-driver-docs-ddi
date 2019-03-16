@@ -1,6 +1,6 @@
 ---
 UID: NF:netreceivescaling.NetAdapterSetReceiveScalingCapabilities
-title: NetAdapterSetReceiveScalingCapabilities function
+title: NetAdapterSetReceiveScalingCapabilities function (netreceivescaling.h)
 description: The NetAdapterSetReceiveScalingCapabilities method sets a net adapter's receive side scaling (RSS) capabilities.
 tech.root: netvista
 ms.assetid: facda650-4f68-40e4-bfe0-f9b7adae4c7f
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetAdapterSetReceiveScalingCapabilities
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetAdapterSetReceiveScalingCapabilities
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

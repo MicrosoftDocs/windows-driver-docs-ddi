@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
-title: "_NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
+title: _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapping relationship of the MB device.
 old-location: netvista\ndis_wwan_device_slot_mappings.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
+- NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO
 product:
 - Windows
 targetos: Windows

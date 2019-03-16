@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM1_3DDI_TILE_COPY_FLAG
-title: D3DWDDM1_3DDI_TILE_COPY_FLAG
+title: D3DWDDM1_3DDI_TILE_COPY_FLAG (d3d10umddi.h)
 description: Identifies how to copy a tile using the CopyTiles function.
 old-location: display\d3dwddm1_3ddi_tile_copy_flag.htm
 ms.assetid: DE743C61-4060-4601-987C-8026C78801A7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_TILE_COPY_FLAG
+- D3DWDDM1_3DDI_TILE_COPY_FLAG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeIrp
-title: IoFreeIrp function
+title: IoFreeIrp function (wdm.h)
 description: The IoFreeIrp routine releases a caller-allocated IRP from the caller's IoCompletion routine.
 old-location: kernel\iofreeirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoFreeIrp
+- IoFreeIrp
 product:
 - Windows
 targetos: Windows

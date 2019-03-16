@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_TOO_SMALL
-title: tagWNODE_TOO_SMALL
+title: tagWNODE_TOO_SMALL (wmistr.h)
 description: The WNODE_TOO_SMALL structure indicates the size of the buffer needed to receive output from a request.
 old-location: kernel\wnode_too_small.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmistr.h
+- wmistr.h
 api_name:
--	WNODE_TOO_SMALL
+- WNODE_TOO_SMALL
 product:
 - Windows
 targetos: Windows

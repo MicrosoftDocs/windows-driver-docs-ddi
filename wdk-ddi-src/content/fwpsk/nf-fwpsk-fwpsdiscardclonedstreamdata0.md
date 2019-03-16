@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsDiscardClonedStreamData0
-title: FwpsDiscardClonedStreamData0 function
+title: FwpsDiscardClonedStreamData0 function (fwpsk.h)
 description: The FwpsDiscardClonedStreamData0 function frees the memory buffer that is allocated by the FwpsCloneStreamData0 function.Note  FwpsDiscardClonedStreamData0 is a specific version of FwpsDiscardClonedStreamData.
 old-location: netvista\fwpsdiscardclonedstreamdata0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsDiscardClonedStreamData0
+- FwpsDiscardClonedStreamData0
 product:
 - Windows
 targetos: Windows

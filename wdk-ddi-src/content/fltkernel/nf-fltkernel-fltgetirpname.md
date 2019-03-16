@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetIrpName
-title: FltGetIrpName function
+title: FltGetIrpName function (fltkernel.h)
 description: The FltGetIrpName routine returns the name for a major function code as a printable string.
 old-location: ifsk\fltgetirpname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetIrpName
+- FltGetIrpName
 product:
 - Windows
 targetos: Windows

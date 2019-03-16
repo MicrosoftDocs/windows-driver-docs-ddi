@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KDPC_WATCHDOG_INFORMATION
-title: "_KDPC_WATCHDOG_INFORMATION"
+title: _KDPC_WATCHDOG_INFORMATION (wdm.h)
 description: The KDPC_WATCHDOG_INFORMATION structure holds time-out information about the current deferred procedure call (DPC).
 old-location: kernel\dpc_watchdog_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KDPC_WATCHDOG_INFORMATION
+- KDPC_WATCHDOG_INFORMATION
 product:
 - Windows
 targetos: Windows

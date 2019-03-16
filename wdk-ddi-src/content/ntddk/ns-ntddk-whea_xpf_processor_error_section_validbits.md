@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk.WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
-title: WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
+title: WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS (ntddk.h)
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_XPF_PROCESSOR_ERROR_SECTION structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's VariableInfo member.
 old-location: whea\whea_xpf_processor_error_section_validbits.htm
 tech.root: whea
@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	ntddk.h
-apiname:
--	WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location
+- ntddk.h
+api_name:
+- WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 product:
 - Windows
 targetos: Windows

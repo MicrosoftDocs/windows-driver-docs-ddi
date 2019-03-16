@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAcquireSpinLockAtDpcLevel
-title: VideoPortAcquireSpinLockAtDpcLevel function
+title: VideoPortAcquireSpinLockAtDpcLevel function (video.h)
 description: The VideoPortAcquireSpinLockAtDpcLevel function acquires a spin lock when the caller is already running at IRQL = DISPATCH_LEVEL.
 old-location: display\videoportacquirespinlockatdpclevel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortAcquireSpinLockAtDpcLevel
+- VideoPortAcquireSpinLockAtDpcLevel
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_FRAME_STATISTICS
-title: IDDCX_FRAME_STATISTICS
+title: IDDCX_FRAME_STATISTICS (iddcx.h)
 description: Gives information about the current frame being processed.
 old-location: display\iddcx_frame_statistics.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_FRAME_STATISTICS
+- IDDCX_FRAME_STATISTICS
 product:
 - Windows
 targetos: Windows

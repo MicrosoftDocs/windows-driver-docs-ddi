@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetDaclSecurityDescriptor
-title: RtlGetDaclSecurityDescriptor function
+title: RtlGetDaclSecurityDescriptor function (ntifs.h)
 description: The RtlGetDaclSecurityDescriptor routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetDaclSecurityDescriptor
+- RtlGetDaclSecurityDescriptor
 product:
 - Windows
 targetos: Windows

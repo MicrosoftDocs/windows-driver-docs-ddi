@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceProperty
-title: IoGetDeviceProperty function
+title: IoGetDeviceProperty function (wdm.h)
 description: The IoGetDeviceProperty routine retrieves information about a device such as configuration information and the name of its PDO.
 old-location: kernel\iogetdeviceproperty.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceProperty
+- IoGetDeviceProperty
 product:
 - Windows
 targetos: Windows

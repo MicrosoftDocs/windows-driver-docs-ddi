@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltUninitializeFileLock
-title: FltUninitializeFileLock function
+title: FltUninitializeFileLock function (fltkernel.h)
 description: The FltUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fltuninitializefilelock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltUninitializeFileLock
+- FltUninitializeFileLock
 product:
 - Windows
 targetos: Windows

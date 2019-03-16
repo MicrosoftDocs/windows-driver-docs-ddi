@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelMute
-title: IMiniportAudioEngineNode::GetDeviceChannelMute
+title: IMiniportAudioEngineNode::GetDeviceChannelMute (portcls.h)
 description: Gets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelmute.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetDeviceChannelMute
+- IMiniportAudioEngineNode.GetDeviceChannelMute
 product:
 - Windows
 targetos: Windows

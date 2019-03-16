@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
-title: "_WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
+title: _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS (wdfusb.h)
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure specifies USB device configuration parameters.
 old-location: wdf\wdf_usb_device_select_config_params.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
+- WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
 product:
 - Windows
 targetos: Windows

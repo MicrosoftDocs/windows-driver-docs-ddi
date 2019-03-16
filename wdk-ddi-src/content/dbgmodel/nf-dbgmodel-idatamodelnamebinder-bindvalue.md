@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.BindValue
-title: IDataModelNameBinder::BindValue
+title: IDataModelNameBinder::BindValue (dbgmodel.h)
 description: The BindValue method performs the equivalent of contextObject.name on the given object according to a set of binding rules.
 ms.assetid: deaa874d-59a5-4deb-9ea6-426374c5666a
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelNameBinder.BindValue
-product: Windows
+- IDataModelNameBinder.BindValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

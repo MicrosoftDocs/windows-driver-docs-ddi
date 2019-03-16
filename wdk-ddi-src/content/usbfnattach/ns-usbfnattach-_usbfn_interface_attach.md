@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_INTERFACE_ATTACH
-title: "_USBFN_INTERFACE_ATTACH"
+title: _USBFN_INTERFACE_ATTACH (usbfnattach.h)
 description: Stores pointers to driver-implemented callback functions for handling attach and detach operations.
 old-location: buses\usbfn_interface_attach.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	USBFN_INTERFACE_ATTACH
+- USBFN_INTERFACE_ATTACH
 product:
 - Windows
 targetos: Windows

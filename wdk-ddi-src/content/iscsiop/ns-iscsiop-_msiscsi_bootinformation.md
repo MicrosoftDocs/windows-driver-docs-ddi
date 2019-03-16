@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_BootInformation
-title: "_MSiSCSI_BootInformation"
+title: _MSiSCSI_BootInformation (iscsiop.h)
 description: The MSiSCSI_BootInformation structure is used with the MSiSCSI_BootInformation WMI Class to expose information about the node that contains the target boot device.
 old-location: storage\msiscsi_bootinformation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	MSiSCSI_BootInformation
+- MSiSCSI_BootInformation
 product:
 - Windows
 targetos: Windows

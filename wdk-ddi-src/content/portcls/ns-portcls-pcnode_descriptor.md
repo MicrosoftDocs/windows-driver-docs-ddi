@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_5
-title: PCNODE_DESCRIPTOR
+title: PCNODE_DESCRIPTOR (portcls.h)
 description: The PCNODE_DESCRIPTOR structure describes a node in the filter that a topology miniport driver implements.
 old-location: audio\pcnode_descriptor.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PCNODE_DESCRIPTOR
+- PCNODE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

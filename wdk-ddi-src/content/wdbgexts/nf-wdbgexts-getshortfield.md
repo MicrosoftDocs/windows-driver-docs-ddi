@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetShortField
-title: GetShortField function
+title: GetShortField function (wdbgexts.h)
 description: The GetShortField function reads the value of a member in a structure if its size is less than or equal to 8 bytes, or initializes a structure so it can be read later.
 old-location: debugger\getshortfield.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetShortField
+- GetShortField
 product:
 - Windows
 targetos: Windows

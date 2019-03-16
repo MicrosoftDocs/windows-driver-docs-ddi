@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcUnpinData
-title: CcUnpinData function
+title: CcUnpinData function (ntifs.h)
 description: The CcUnpinData routine releases cached file data that was mapped or pinned by an earlier call to CcMapData, CcPinRead, or CcPreparePinWrite.
 old-location: ifsk\ccunpindata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcUnpinData
+- CcUnpinData
 product:
 - Windows
 targetos: Windows

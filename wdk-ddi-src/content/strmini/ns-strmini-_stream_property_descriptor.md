@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._STREAM_PROPERTY_DESCRIPTOR
-title: "_STREAM_PROPERTY_DESCRIPTOR"
+title: _STREAM_PROPERTY_DESCRIPTOR (strmini.h)
 description: STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get/set requests that the class driver passes to the minidriver.
 old-location: stream\stream_property_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	STREAM_PROPERTY_DESCRIPTOR
+- STREAM_PROPERTY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

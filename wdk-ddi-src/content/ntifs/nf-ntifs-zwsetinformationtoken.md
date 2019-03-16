@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetInformationToken
-title: ZwSetInformationToken function
+title: ZwSetInformationToken function (ntifs.h)
 description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetInformationToken
--	NtSetInformationToken
+- ZwSetInformationToken
+- NtSetInformationToken
 product:
 - Windows
 targetos: Windows

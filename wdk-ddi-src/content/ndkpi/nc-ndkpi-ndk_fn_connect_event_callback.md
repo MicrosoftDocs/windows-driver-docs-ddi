@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CONNECT_EVENT_CALLBACK
-title: NDK_FN_CONNECT_EVENT_CALLBACK
+title: NDK_FN_CONNECT_EVENT_CALLBACK (ndkpi.h)
 description: The NdkConnectEventCallback (NDK_FN_CONNECT_EVENT_CALLBACK) function is called by an NDK provider to notify a consumer about an incoming connection request.
 old-location: netvista\ndk_fn_connect_event_callback.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkConnectEventCallback
+- NdkConnectEventCallback
 product:
 - Windows
 targetos: Windows

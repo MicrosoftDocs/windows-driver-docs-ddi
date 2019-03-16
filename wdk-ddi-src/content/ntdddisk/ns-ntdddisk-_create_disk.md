@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._CREATE_DISK
-title: "_CREATE_DISK"
+title: _CREATE_DISK (ntdddisk.h)
 description: The CREATE_DISK structure is used with the IOCTL_DISK_CREATE_DISK IOCTL to initialize a disk with an empty partition table. The partition table styles are master boot record (MBR) or GUID partition table (GPT).
 old-location: storage\create_disk.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	CREATE_DISK
+- CREATE_DISK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.UnregisterLaunchApplication
-title: IStillImageW::UnregisterLaunchApplication
+title: IStillImageW::UnregisterLaunchApplication (sti.h)
 description: The IStillImage::UnregisterLaunchApplication method removes an application from the still image event monitor's list of push-model aware applications.
 old-location: image\istillimage_unregisterlaunchapplication.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.UnregisterLaunchApplication
+- IStillImageW.UnregisterLaunchApplication
 product:
 - Windows
 targetos: Windows

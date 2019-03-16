@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoAddEjectionRelationsPhysicalDevice
-title: WdfPdoAddEjectionRelationsPhysicalDevice function
+title: WdfPdoAddEjectionRelationsPhysicalDevice function (wdfpdo.h)
 description: The WdfPdoAddEjectionRelationsPhysicalDevice method indicates that a specified device is ejected when another specified device is ejected.
 old-location: wdf\wdfpdoaddejectionrelationsphysicaldevice.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoAddEjectionRelationsPhysicalDevice
+- WdfPdoAddEjectionRelationsPhysicalDevice
 product:
 - Windows
 targetos: Windows

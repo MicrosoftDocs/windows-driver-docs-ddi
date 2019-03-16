@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_CLOSE_PROVIDER_PARAMETERS
-title: "_NDIS_PD_CLOSE_PROVIDER_PARAMETERS"
+title: _NDIS_PD_CLOSE_PROVIDER_PARAMETERS (ndis.h)
 description: This structure represents the parameters that are used when calling the OID_PD_CLOSE_PROVIDER OID.
 old-location: netvista\ndis_pd_close_provider_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_CLOSE_PROVIDER_PARAMETERS
+- NDIS_PD_CLOSE_PROVIDER_PARAMETERS
 product:
 - Windows
 targetos: Windows

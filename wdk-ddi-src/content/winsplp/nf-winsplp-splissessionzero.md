@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.SplIsSessionZero
-title: SplIsSessionZero function
+title: SplIsSessionZero function (winsplp.h)
 description: The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.
 old-location: print\splissessionzero.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	SplIsSessionZero
+- SplIsSessionZero
 product:
 - Windows
 targetos: Windows

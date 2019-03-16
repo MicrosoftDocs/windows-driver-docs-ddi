@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.SENSOR_STATE
-title: SENSOR_STATE
+title: SENSOR_STATE (sensorsdef.h)
 description: This enumeration represents the valid states of a sensor.
 old-location: sensors\sensor_state.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_STATE
+- SENSOR_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
-title: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
+title: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032 (d3d12umddi.h)
 description: Used to destroy a video decoder heap.
 old-location: display\pfnd3d12ddi_destroyvideodecoderheap_0032.htm
 ms.assetid: EFB7D67D-1900-4182-B604-8C0A183B118D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
+- PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
 product:
 - Windows
 targetos: Windows

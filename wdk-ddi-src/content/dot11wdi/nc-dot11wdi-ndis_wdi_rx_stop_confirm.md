@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_RX_STOP_CONFIRM
-title: NDIS_WDI_RX_STOP_CONFIRM
+title: NDIS_WDI_RX_STOP_CONFIRM (dot11wdi.h)
 description: The NdisWdiRxStopConfirm callback function indicates completion of a MiniportWdiRxStop request.
 old-location: netvista\ndiswdirxstopconfirm.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiRxStopConfirm
+- NdisWdiRxStopConfirm
 product:
 - Windows
 targetos: Windows

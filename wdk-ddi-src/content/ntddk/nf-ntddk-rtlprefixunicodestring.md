@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlPrefixUnicodeString
-title: RtlPrefixUnicodeString function
+title: RtlPrefixUnicodeString function (ntddk.h)
 description: The RtlPrefixUnicodeString routine compares two Unicode strings to determine whether one string is a prefix of the other.
 old-location: kernel\rtlprefixunicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlPrefixUnicodeString
+- RtlPrefixUnicodeString
 product:
 - Windows
 targetos: Windows

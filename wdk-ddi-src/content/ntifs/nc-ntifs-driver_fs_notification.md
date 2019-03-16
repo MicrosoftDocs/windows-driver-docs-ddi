@@ -1,6 +1,6 @@
 ---
 UID: NC:ntifs.DRIVER_FS_NOTIFICATION
-title: DRIVER_FS_NOTIFICATION
+title: DRIVER_FS_NOTIFICATION (ntifs.h)
 description: A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using IoRegisterFileSystem or IoUnregisterFileSystem.
 old-location: ifsk\pdriver_fs_notification.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	PDRIVER_FS_NOTIFICATION
+- PDRIVER_FS_NOTIFICATION
 product:
 - Windows
 targetos: Windows

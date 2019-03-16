@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
-title: IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
+title: IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE (pointofservicedriverinterface.h)
 description: This I/O control function is called when a client is ready to relinquish its claim on a device.
 old-location: pos\ioctl_point_of_service_release_device.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
+- IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
 product:
 - Windows
 targetos: Windows

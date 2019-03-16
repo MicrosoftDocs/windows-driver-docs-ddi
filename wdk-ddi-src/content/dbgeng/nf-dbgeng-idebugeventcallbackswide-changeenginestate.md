@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ChangeEngineState
-title: IDebugEventCallbacksWide::ChangeEngineState
+title: IDebugEventCallbacksWide::ChangeEngineState (dbgeng.h)
 description: The ChangeEngineState callback method is called by the engine when its state has changed.
 old-location: debugger\idebugeventcallbackswide_changeenginestate.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacksWide.ChangeEngineState
+- IDebugEventCallbacksWide.ChangeEngineState
 product:
 - Windows
 targetos: Windows

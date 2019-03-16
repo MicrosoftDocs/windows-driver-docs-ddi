@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.IsGeneric
-title: IDebugHostType::IsGeneric
+title: IDebugHostType::IsGeneric (dbgmodel.h)
 description: Returns whether the type is a generic or template.
 ms.assetid: 2bf3a854-e0e4-44cc-adca-61d8c07e47a0
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.IsGeneric
-product: Windows
+- IDebugHostType.IsGeneric
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

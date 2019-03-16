@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_IHV_TASK_PRIORITY
-title: "_WDI_IHV_TASK_PRIORITY"
+title: _WDI_IHV_TASK_PRIORITY (wditypes.h)
 description: The WDI_IHV_TASK_PRIORITY enumeration defines IHV task priorities.
 old-location: netvista\wdi_ihv_task_priority.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_IHV_TASK_PRIORITY
+- WDI_IHV_TASK_PRIORITY
 product:
 - Windows
 targetos: Windows

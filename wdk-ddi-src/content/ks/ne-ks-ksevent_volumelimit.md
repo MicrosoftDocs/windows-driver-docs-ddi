@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_15
-title: KSEVENT_VOLUMELIMIT
+title: KSEVENT_VOLUMELIMIT (ks.h)
 description: 
 old-location: stream\ksevent_volumelimit.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSEVENT_VOLUMELIMIT
+- KSEVENT_VOLUMELIMIT
 product:
 - Windows
 targetos: Windows

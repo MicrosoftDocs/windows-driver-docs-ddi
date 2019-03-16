@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetMsgInUiccStatus
-title: RIL_GetMsgInUiccStatus function
+title: RIL_GetMsgInUiccStatus function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getmsginuiccstatus.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_GetMsgInUiccStatus
+- RIL_GetMsgInUiccStatus
 product:
 - Windows
 targetos: Windows

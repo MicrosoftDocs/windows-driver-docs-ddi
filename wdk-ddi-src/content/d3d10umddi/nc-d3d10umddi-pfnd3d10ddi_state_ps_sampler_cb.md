@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_PS_SAMPLER_CB
-title: PFND3D10DDI_STATE_PS_SAMPLER_CB
+title: PFND3D10DDI_STATE_PS_SAMPLER_CB (d3d10umddi.h)
 description: The pfnStatePsSamplerCb function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's bound samplers.
 old-location: display\pfnstatepssamplercb.htm
 ms.assetid: 8cf25918-1acf-40b6-be51-2c1afc419f2a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStatePsSamplerCb
+- pfnStatePsSamplerCb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObject
-title: D3DKMTSignalSynchronizationObject function
+title: D3DKMTSignalSynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTSignalSynchronizationObject function inserts a signal for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtsignalsynchronizationobject.htm
 ms.assetid: 1b8fc764-023f-4aa0-b610-2394a48efc02
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSignalSynchronizationObject
+- D3DKMTSignalSynchronizationObject
 product:
 - Windows
 targetos: Windows

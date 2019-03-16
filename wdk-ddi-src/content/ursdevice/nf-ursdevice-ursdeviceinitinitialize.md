@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsDeviceInitInitialize
-title: UrsDeviceInitInitialize function
+title: UrsDeviceInitInitialize function (ursdevice.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\ursdeviceinitinitialize.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Urscxstub.lib
--	Urscxstub.dll
+- Urscxstub.lib
+- Urscxstub.dll
 api_name:
--	UrsDeviceInitInitialize
+- UrsDeviceInitInitialize
 product:
 - Windows
 targetos: Windows

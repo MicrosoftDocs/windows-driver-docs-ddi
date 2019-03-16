@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_RENDER_TARGET_BLEND_DESC1
-title: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
+title: D3D10_DDI_RENDER_TARGET_BLEND_DESC1 (d3d10umddi.h)
 description: The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a render target.
 old-location: display\d3d10_ddi_render_target_blend_desc1.htm
 ms.assetid: 4cbc3072-46f1-40c3-ba3f-4d99f19b280e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_RENDER_TARGET_BLEND_DESC1
+- D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 product:
 - Windows
 targetos: Windows

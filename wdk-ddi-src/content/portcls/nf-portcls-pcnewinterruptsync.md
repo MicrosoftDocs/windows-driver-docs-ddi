@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewInterruptSync
-title: PcNewInterruptSync function
+title: PcNewInterruptSync function (portcls.h)
 description: The PcNewInterruptSync function creates and initializes an interrupt-synchronization object.
 old-location: audio\pcnewinterruptsync.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewInterruptSync
+- PcNewInterruptSync
 product:
 - Windows
 targetos: Windows

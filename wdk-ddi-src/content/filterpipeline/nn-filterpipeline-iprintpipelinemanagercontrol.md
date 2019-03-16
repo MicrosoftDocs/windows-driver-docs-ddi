@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelineManagerControl
-title: IPrintPipelineManagerControl
+title: IPrintPipelineManagerControl (filterpipeline.h)
 description: The IPrintPipelineManagerControl interface is passed to each filter in the IPrintPipelineFilter::InitializeFilter method.
 old-location: print\iprintpipelinemanagercontrol.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelineManagerControl
+- IPrintPipelineManagerControl
 product:
 - Windows
 targetos: Windows

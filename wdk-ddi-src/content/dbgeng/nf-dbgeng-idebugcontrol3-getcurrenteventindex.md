@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentEventIndex
-title: IDebugControl3::GetCurrentEventIndex
+title: IDebugControl3::GetCurrentEventIndex (dbgeng.h)
 description: The GetCurrentEventIndex method returns the index of the current event within the current list of events for the current target, if such a list exists.
 old-location: debugger\getcurrenteventindex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetCurrentEventIndex
+- IDebugControl3.GetCurrentEventIndex
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x.__unnamed_enum_0
-title: PEP_PROCESSOR_IDLE_TYPE
+title: PEP_PROCESSOR_IDLE_TYPE (pep_x.h)
 description: The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform.
 old-location: kernel\pep_processor_idle_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_PROCESSOR_IDLE_TYPE
+- PEP_PROCESSOR_IDLE_TYPE
 product:
 - Windows
 targetos: Windows

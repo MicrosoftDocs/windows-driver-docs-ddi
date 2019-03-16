@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._TAL_TXRX_PARAMETERS
-title: "_TAL_TXRX_PARAMETERS"
+title: _TAL_TXRX_PARAMETERS (dot11wdi.h)
 description: The TAL_TXRX_PARAMETERS structure defines the TAL TXRX parameters.
 old-location: netvista\tal_txrx_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	TAL_TXRX_PARAMETERS
+- TAL_TXRX_PARAMETERS
 product:
 - Windows
 targetos: Windows

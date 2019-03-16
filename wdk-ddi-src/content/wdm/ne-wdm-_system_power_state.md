@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._SYSTEM_POWER_STATE
-title: "_SYSTEM_POWER_STATE"
+title: _SYSTEM_POWER_STATE (wdm.h)
 description: The SYSTEM_POWER_STATE enumeration type is used to indicate a system power state.
 old-location: kernel\system_power_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SYSTEM_POWER_STATE
+- SYSTEM_POWER_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildVC
-title: RxCeBuildVC function
+title: RxCeBuildVC function (rxce.h)
 description: RxCeBuildVC adds a virtual circuit to a specified RDBSS connection..
 old-location: ifsk\rxcebuildvc.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeBuildVC
+- RxCeBuildVC
 product:
 - Windows
 targetos: Windows

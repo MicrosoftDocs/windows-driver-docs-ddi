@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoOpenDriverRegistryKey
-title: IoOpenDriverRegistryKey function
+title: IoOpenDriverRegistryKey function (wdm.h)
 description: Reserved.
 ms.assetid: 5166cf0f-81c2-4567-91a8-67ae6727fbdd
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	IoOpenDriverRegistryKey
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- IoOpenDriverRegistryKey
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

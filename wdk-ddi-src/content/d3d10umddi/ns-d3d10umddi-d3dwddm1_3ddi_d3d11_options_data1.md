@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
-title: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
+title: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 (d3d10umddi.h)
 description: Specifies the level of support by the hardware and user-mode display driver for tiled resources.
 old-location: display\d3dwddm1_3ddi_d3d11_options_data1.htm
 ms.assetid: 822819CE-DF40-4AFD-966A-DA5C433646D7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
+- D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
 product:
 - Windows
 targetos: Windows

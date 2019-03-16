@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsPartialPlaceholder
-title: RtlIsPartialPlaceholder function
+title: RtlIsPartialPlaceholder function (ntifs.h)
 description: The RtlIsPartialPlaceholder routine determines if a file or a directory is a CloudFiles placeholder, based on the FileAttributes and ReparseTag values of the file.
 old-location: ifsk\rtlispartialplaceholder.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	RtlIsPartialPlaceholder
+- RtlIsPartialPlaceholder
 product:
 - Windows
 targetos: Windows

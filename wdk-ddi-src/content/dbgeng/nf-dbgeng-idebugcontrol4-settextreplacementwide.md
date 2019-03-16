@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextReplacementWide
-title: IDebugControl4::SetTextReplacementWide
+title: IDebugControl4::SetTextReplacementWide (dbgeng.h)
 description: The SetTextReplacementWide method sets the value of a user-named alias.
 old-location: debugger\settextreplacementwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetTextReplacementWide
+- IDebugControl4.SetTextReplacementWide
 product:
 - Windows
 targetos: Windows

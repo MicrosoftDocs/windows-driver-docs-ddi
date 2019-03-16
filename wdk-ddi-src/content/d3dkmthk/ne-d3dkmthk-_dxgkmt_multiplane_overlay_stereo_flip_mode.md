@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-title: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+title: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (d3dkmthk.h)
 description: The multiplane overlay stereo flip modes.
 ms.assetid: b8ba149d-8bd0-4b74-9927-ed748b48e478
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
+- _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

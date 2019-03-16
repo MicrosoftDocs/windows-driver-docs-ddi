@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_EXCLUDE_ADAPTER_ACCESS
-title: DXGKCB_EXCLUDE_ADAPTER_ACCESS
+title: DXGKCB_EXCLUDE_ADAPTER_ACCESS (dispmprt.h)
 description: The DxgkCbExcludeAdapterAccess function prevents all access to the display adapter and calls a provided DxgkProtectedCallback callback routine while in this protected state.
 old-location: display\dxgkcbexcludeadapteraccess.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbExcludeAdapterAccess
+- DxgkCbExcludeAdapterAccess
 product:
 - Windows
 targetos: Windows

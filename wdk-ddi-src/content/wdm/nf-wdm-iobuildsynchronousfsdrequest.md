@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoBuildSynchronousFsdRequest
-title: IoBuildSynchronousFsdRequest function
+title: IoBuildSynchronousFsdRequest function (wdm.h)
 description: The IoBuildSynchronousFsdRequest routine allocates and sets up an IRP for a synchronously processed I/O request.
 old-location: kernel\iobuildsynchronousfsdrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoBuildSynchronousFsdRequest
+- IoBuildSynchronousFsdRequest
 product:
 - Windows
 targetos: Windows

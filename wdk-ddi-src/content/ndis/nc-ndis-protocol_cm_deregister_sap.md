@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DEREGISTER_SAP
-title: PROTOCOL_CM_DEREGISTER_SAP
+title: PROTOCOL_CM_DEREGISTER_SAP (ndis.h)
 description: The ProtocolCmDeregisterSap function is required.
 old-location: netvista\protocolcmderegistersap.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmDeregisterSap
+- ProtocolCmDeregisterSap
 product:
 - Windows
 targetos: Windows

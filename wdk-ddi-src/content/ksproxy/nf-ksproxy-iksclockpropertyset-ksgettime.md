@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetTime
-title: IKsClockPropertySet::KsGetTime
+title: IKsClockPropertySet::KsGetTime (ksproxy.h)
 description: The KsGetTime method retrieves the time of the underlying clock.
 old-location: stream\iksclockpropertyset_ksgettime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsGetTime
+- IKsClockPropertySet.KsGetTime
 product:
 - Windows
 targetos: Windows

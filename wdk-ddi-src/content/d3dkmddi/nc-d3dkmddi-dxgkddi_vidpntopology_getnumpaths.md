@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS
-title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS
+title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS (d3dkmddi.h)
 description: The pfnGetNumPaths function returns the number of video present paths in a specified VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpaths.htm
 ms.assetid: 60960774-3f90-4eeb-a408-fa37122f22ea
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetNumPaths
+- pfnGetNumPaths
 product:
 - Windows
 targetos: Windows

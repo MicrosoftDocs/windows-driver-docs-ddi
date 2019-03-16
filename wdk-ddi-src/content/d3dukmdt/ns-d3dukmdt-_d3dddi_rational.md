@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RATIONAL
-title: "_D3DDDI_RATIONAL"
+title: _D3DDDI_RATIONAL (d3dukmdt.h)
 description: The D3DDDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 old-location: display\d3dddi_rational.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_RATIONAL
+- D3DDDI_RATIONAL
 product:
 - Windows
 targetos: Windows

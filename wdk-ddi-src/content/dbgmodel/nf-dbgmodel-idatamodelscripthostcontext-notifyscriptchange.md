@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.NotifyScriptChange
-title: IDataModelScriptHostContext::NotifyScriptChange
+title: IDataModelScriptHostContext::NotifyScriptChange (dbgmodel.h)
 description: It is required that a script provider notify the debug host upon certain operations occurring with a method call to the NotifyScriptChange method on the associated context. 
 ms.assetid: c30d734e-4360-4e87-82f9-cfda1b4b5476
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptHostContext.NotifyScriptChange
-product: Windows
+- IDataModelScriptHostContext.NotifyScriptChange
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsClockPropertySet
-title: IKsClockPropertySet
+title: IKsClockPropertySet (ksproxy.h)
 description: The IKsClockPropertySet interface provides methods that let the proxy accurately reflect time.
 old-location: stream\iksclockpropertyset.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	IKsClockPropertySet
+- IKsClockPropertySet
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
-title: IOCTL_SBAUD_STREAM_CLOSE
+title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
 description: 
 ms.assetid: 852d6e11-0845-46bc-9820-b1e1be891da7
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_STREAM_CLOSE
-product: Windows
+- IOCTL_SBAUD_STREAM_CLOSE
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

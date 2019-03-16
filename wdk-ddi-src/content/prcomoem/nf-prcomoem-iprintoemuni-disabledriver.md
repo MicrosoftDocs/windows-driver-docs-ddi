@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DisableDriver
-title: IPrintOemUni::DisableDriver
+title: IPrintOemUni::DisableDriver (prcomoem.h)
 description: The IPrintOemuNI::DisableDriver method allows a rendering plug-in for Unidrv to free resources that were allocated by the plug-in's IPrintOemUni::EnableDriver method.
 old-location: print\iprintoemuni_disabledriver.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUni.DisableDriver
+- IPrintOemUni.DisableDriver
 product:
 - Windows
 targetos: Windows

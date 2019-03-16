@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectContextGetObject
-title: WdfObjectContextGetObject function
+title: WdfObjectContextGetObject function (wdfobject.h)
 description: The WdfObjectContextGetObject method returns a handle to the framework object that a specified context space belongs to.
 old-location: wdf\wdfobjectcontextgetobject.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfObjectContextGetObject
+- WdfObjectContextGetObject
 product:
 - Windows
 targetos: Windows

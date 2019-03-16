@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_RESET_DEVICE
-title: IOCTL_STORAGE_RESET_DEVICE
+title: IOCTL_STORAGE_RESET_DEVICE (ntddstor.h)
 description: If possible, resets a non-SCSI storage device without affecting other devices on the bus.
 old-location: storage\ioctl_storage_reset_device.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_RESET_DEVICE
+- IOCTL_STORAGE_RESET_DEVICE
 product:
 - Windows
 targetos: Windows

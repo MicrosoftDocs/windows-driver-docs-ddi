@@ -1,6 +1,6 @@
 ---
 UID: NS:netpnp._NET_PNP_EVENT
-title: "_NET_PNP_EVENT"
+title: _NET_PNP_EVENT (netpnp.h)
 description: The NET_PNP_EVENT structure describes a network Plug and Play (PnP) event, an NDIS PnP event, or a power management event.
 old-location: netvista\net_pnp_event.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_PNP_EVENT
+- NET_PNP_EVENT
 product:
 - Windows
 targetos: Windows

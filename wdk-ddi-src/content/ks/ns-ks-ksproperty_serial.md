@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_82
-title: KSPROPERTY_SERIAL
+title: KSPROPERTY_SERIAL (ks.h)
 description: The KSPROPERTY_SERIAL structure is a header that is included for each property that follows a KSPROPERTY_SERIALHDR structure.
 old-location: stream\ksproperty_serial.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_SERIAL
+- KSPROPERTY_SERIAL
 product:
 - Windows
 targetos: Windows

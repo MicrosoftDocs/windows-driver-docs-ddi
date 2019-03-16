@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpace
-title: ReadIoSpace function
+title: ReadIoSpace function (wdbgexts.h)
 description: The ReadIoSpace function reads from the system I/O locations.
 old-location: debugger\readiospace.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReadIoSpace
+- ReadIoSpace
 product:
 - Windows
 targetos: Windows

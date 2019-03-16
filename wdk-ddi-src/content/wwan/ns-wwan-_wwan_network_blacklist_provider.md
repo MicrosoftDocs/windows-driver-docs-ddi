@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_NETWORK_BLACKLIST_PROVIDER
-title: _WWAN_NETWORK_BLACKLIST_PROVIDER
+title: _WWAN_NETWORK_BLACKLIST_PROVIDER (wwan.h)
 description: The WWAN_NETWORK_BLACKLIST_PROVIDER structure represents a network blacklist provider in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: ee770094-bb4c-44eb-a232-2de76de9ef6e
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_NETWORK_BLACKLIST_PROVIDER, *PWWAN_NETWORK_BLACKLIST_PROVIDER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_NETWORK_BLACKLIST_PROVIDER
+- _WWAN_NETWORK_BLACKLIST_PROVIDER
 product: 
 - Windows
 targetos: Windows

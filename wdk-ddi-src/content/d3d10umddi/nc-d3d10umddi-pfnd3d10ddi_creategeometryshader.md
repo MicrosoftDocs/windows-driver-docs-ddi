@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEGEOMETRYSHADER
-title: PFND3D10DDI_CREATEGEOMETRYSHADER
+title: PFND3D10DDI_CREATEGEOMETRYSHADER (d3d10umddi.h)
 description: The CreateGeometryShader function creates a geometry shader.
 old-location: display\creategeometryshader.htm
 ms.assetid: b3b422e3-f8da-4aad-a230-7c7e26dd72ec
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateGeometryShader
+- CreateGeometryShader
 product:
 - Windows
 targetos: Windows

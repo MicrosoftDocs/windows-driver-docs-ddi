@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._PRINTPROCESSOROPENDATA
-title: "_PRINTPROCESSOROPENDATA"
+title: _PRINTPROCESSOROPENDATA (winsplp.h)
 description: The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's OpenPrintProcessor function.
 old-location: print\printprocessoropendata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	PRINTPROCESSOROPENDATA
+- PRINTPROCESSOROPENDATA
 product:
 - Windows
 targetos: Windows

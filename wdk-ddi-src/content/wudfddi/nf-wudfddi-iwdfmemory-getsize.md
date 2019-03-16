@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.GetSize
-title: IWDFMemory::GetSize
+title: IWDFMemory::GetSize (wudfddi.h)
 description: The GetSize method retrieves the size of the data buffer that is associated with a memory object.
 old-location: wdf\iwdfmemory_getsize.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFMemory.GetSize
+- IWDFMemory.GetSize
 product:
 - Windows
 targetos: Windows

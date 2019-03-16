@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_METACOMMAND
-title: PFND3D12DDI_CREATE_METACOMMAND
+title: PFND3D12DDI_CREATE_METACOMMAND (d3d12umddi.h)
 description: Implemented by the client driver to create meta-commands.
 ms.assetid: a01b1dd8-2663-4ab6-82b7-01ae1b3d6661
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CREATE_METACOMMAND
+- PFND3D12DDI_CREATE_METACOMMAND
 product: 
 - Windows
 targetos: Windows

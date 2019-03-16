@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterAllocBidiResponseContainer
-title: RouterAllocBidiResponseContainer function
+title: RouterAllocBidiResponseContainer function (winsplp.h)
 description: RouterAllocBidiResponseContainer allocates a BIDI_RESPONSE_CONTAINER structure containing a list of bidi responses. The bidi response list is an array of BIDI_RESPONSE_DATA structures.
 old-location: print\routerallocbidiresponsecontainer.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RouterAllocBidiResponseContainer
+- RouterAllocBidiResponseContainer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSystemProcessorCount
-title: NdisSystemProcessorCount function
+title: NdisSystemProcessorCount function (ndis.h)
 description: The NdisSystemProcessorCount function determines whether the caller is running on a uniprocessor or multiprocessor computer.
 old-location: netvista\ndissystemprocessorcount.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisSystemProcessorCount
+- NdisSystemProcessorCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
-title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
+title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS (d3dkmthk.h)
 description: Miracast display device capabilities.
 ms.assetid: 6b89535c-4456-4488-89a0-d1b656d2f313
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS, *PD3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
+- _D3DKMT_MIRACAST_DISPLAY_DEVICE_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

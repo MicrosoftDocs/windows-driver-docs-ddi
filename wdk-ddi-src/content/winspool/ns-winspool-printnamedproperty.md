@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool.__unnamed_struct_1
-title: PrintNamedProperty
+title: PrintNamedProperty (winspool.h)
 description: 
 old-location: print\printnamedproperty.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winspool.h
+- Winspool.h
 api_name:
--	PrintNamedProperty
+- PrintNamedProperty
 product:
 - Windows
 targetos: Windows

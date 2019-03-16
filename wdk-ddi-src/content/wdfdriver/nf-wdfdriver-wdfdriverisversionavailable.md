@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverIsVersionAvailable
-title: WdfDriverIsVersionAvailable function
+title: WdfDriverIsVersionAvailable function (wdfdriver.h)
 description: The WdfDriverIsVersionAvailable method returns a Boolean value that indicates whether the driver is running with a specified version of the Kernel-Mode Driver Framework library.
 old-location: wdf\wdfdriverisversionavailable.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDriverIsVersionAvailable
+- WdfDriverIsVersionAvailable
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationQueryMultiString
-title: NetConfigurationQueryMultiString function
+title: NetConfigurationQueryMultiString function (netconfiguration.h)
 description: Retrieves the MultiString-valued registry entry associated with a value name in the specified configuration object.
 tech.root: netvista
 ms.assetid: a6cd726e-8c85-4a5b-9d14-986848749556
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NetConfigurationQueryMultiString
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NetConfigurationQueryMultiString
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

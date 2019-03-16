@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNearNameByOffsetWide
-title: IDebugSymbols3::GetNearNameByOffsetWide
+title: IDebugSymbols3::GetNearNameByOffsetWide (dbgeng.h)
 description: The GetNearNameByOffsetWide method returns the name of a symbol that is located near the specified location.
 old-location: debugger\getnearnamebyoffsetwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetNearNameByOffsetWide
+- IDebugSymbols3.GetNearNameByOffsetWide
 product:
 - Windows
 targetos: Windows

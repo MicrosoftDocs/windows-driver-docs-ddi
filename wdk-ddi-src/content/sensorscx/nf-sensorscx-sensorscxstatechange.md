@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxStateChange
-title: SensorsCxStateChange function
+title: SensorsCxStateChange function (sensorscx.h)
 description: Used to initialize a state change.
 old-location: sensors\sensorscxstatechange.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	SensorsCxStateChange
+- SensorsCxStateChange
 product:
 - Windows
 targetos: Windows

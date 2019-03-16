@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_IO_TYPE
-title: "_WDF_DEVICE_IO_TYPE"
+title: _WDF_DEVICE_IO_TYPE (wudfddi_types.h)
 description: The WDF_DEVICE_IO_TYPE enumeration is used to specify a method for accessing data buffers.
 old-location: wdf\wdf_device_io_type__umdf_.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_DEVICE_IO_TYPE
+- WDF_DEVICE_IO_TYPE
 product:
 - Windows
 targetos: Windows

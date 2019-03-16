@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetAttachedDeviceReference
-title: IoGetAttachedDeviceReference function
+title: IoGetAttachedDeviceReference function (ntifs.h)
 description: The IoGetAttachedDeviceReference routine returns a pointer to the highest level device object in a driver stack and increments the reference count on that object.
 old-location: kernel\iogetattacheddevicereference.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetAttachedDeviceReference
+- IoGetAttachedDeviceReference
 product:
 - Windows
 targetos: Windows

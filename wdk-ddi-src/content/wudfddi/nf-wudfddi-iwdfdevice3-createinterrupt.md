@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.CreateInterrupt
-title: IWDFDevice3::CreateInterrupt
+title: IWDFDevice3::CreateInterrupt (wudfddi.h)
 description: The CreateInterrupt method creates a framework interrupt object.
 old-location: wdf\iwdfdevice3_createinterrupt.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice3.CreateInterrupt
+- IWDFDevice3.CreateInterrupt
 product:
 - Windows
 targetos: Windows

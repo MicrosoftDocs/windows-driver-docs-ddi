@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_MASK_INFORMATION
-title: "_PCW_MASK_INFORMATION"
+title: _PCW_MASK_INFORMATION (wdm.h)
 description: The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the Info parameter to the PcwCallback function. This mask information is included in PCW_CALLBACK_INFORMATION.
 old-location: devtest\pcw_mask_information.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_MASK_INFORMATION
+- PCW_MASK_INFORMATION
 product:
 - Windows
 targetos: Windows

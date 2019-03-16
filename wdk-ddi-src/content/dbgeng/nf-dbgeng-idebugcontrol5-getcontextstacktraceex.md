@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetContextStackTraceEx
-title: IDebugControl5::GetContextStackTraceEx
+title: IDebugControl5::GetContextStackTraceEx (dbgeng.h)
 description: The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
 old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl5.GetContextStackTraceEx
+- IDebugControl5.GetContextStackTraceEx
 product:
 - Windows
 targetos: Windows

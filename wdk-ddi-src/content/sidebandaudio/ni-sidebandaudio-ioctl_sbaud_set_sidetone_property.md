@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIDETONE_PROPERTY
-title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY
+title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY (sidebandaudio.h)
 description: 
 ms.assetid: f8b02e43-3e8a-4f23-9449-9d6e66eef75e
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_SET_SIDETONE_PROPERTY
-product: Windows
+- IOCTL_SBAUD_SET_SIDETONE_PROPERTY
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

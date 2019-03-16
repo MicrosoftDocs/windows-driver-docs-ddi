@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoSetDeviceBusyEx
-title: PoSetDeviceBusyEx function
+title: PoSetDeviceBusyEx function (ntifs.h)
 description: The PoSetDeviceBusyEx routine notifies the power manager that the device associated with the specified idle counter is busy.
 old-location: kernel\posetdevicebusyex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoSetDeviceBusyEx
+- PoSetDeviceBusyEx
 product:
 - Windows
 targetos: Windows

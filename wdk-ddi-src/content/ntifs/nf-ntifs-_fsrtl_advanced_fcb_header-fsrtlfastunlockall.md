@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastUnlockAll
-title: FsRtlFastUnlockAll function
+title: FsRtlFastUnlockAll function (ntifs.h)
 description: The FsRtlFastUnlockAll routine releases all byte-range locks that were acquired by the specified process for a file.
 old-location: ifsk\fsrtlfastunlockall.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlFastUnlockAll
+- FsRtlFastUnlockAll
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

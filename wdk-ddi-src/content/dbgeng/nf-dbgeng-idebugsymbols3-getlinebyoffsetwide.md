@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetLineByOffsetWide
-title: IDebugSymbols3::GetLineByOffsetWide
+title: IDebugSymbols3::GetLineByOffsetWide (dbgeng.h)
 description: The GetLineByOffsetWide method returns the source filename and the line number within the source file of an instruction in the target.
 old-location: debugger\getlinebyoffsetwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetLineByOffsetWide
+- IDebugSymbols3.GetLineByOffsetWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortAllocateQueueTag
-title: AtaPortAllocateQueueTag function
+title: AtaPortAllocateQueueTag function (irb.h)
 description: The AtaPortAllocateQueueTag routine returns a queue tag for the specified device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportallocatequeuetag.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortAllocateQueueTag
+- AtaPortAllocateQueueTag
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxReleaseDevice
-title: PosCxReleaseDevice function
+title: PosCxReleaseDevice function (poscx.h)
 description: PosCxReleaseDevice is called to release a device that was previously claimed with PosCxClaimDevice. Once the device is released, the next pending claim requester is promoted.
 old-location: pos\poscxreleasedevice.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxReleaseDevice
+- PosCxReleaseDevice
 product:
 - Windows
 targetos: Windows

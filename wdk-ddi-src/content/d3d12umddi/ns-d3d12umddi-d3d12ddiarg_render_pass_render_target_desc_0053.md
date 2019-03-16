@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053
-title: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053
+title: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053 (d3d12umddi.h)
 description: Describes the Render Target. This is declared at the start of a Render Pass.
 ms.assetid: e071cb29-be0b-4e26-b307-3e5e55dc0375
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053
+- D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

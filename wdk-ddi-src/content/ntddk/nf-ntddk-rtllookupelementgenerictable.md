@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlLookupElementGenericTable
-title: RtlLookupElementGenericTable function
+title: RtlLookupElementGenericTable function (ntddk.h)
 description: The RtlLookupElementGenericTable routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictable.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlLookupElementGenericTable
+- RtlLookupElementGenericTable
 product:
 - Windows
 targetos: Windows

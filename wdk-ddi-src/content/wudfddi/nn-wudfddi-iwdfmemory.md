@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFMemory
-title: IWDFMemory
+title: IWDFMemory (wudfddi.h)
 description: The IWDFMemory interface exposes the framework memory object that provides access to a memory block.
 old-location: wdf\iwdfmemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFMemory
+- IWDFMemory
 product:
 - Windows
 targetos: Windows

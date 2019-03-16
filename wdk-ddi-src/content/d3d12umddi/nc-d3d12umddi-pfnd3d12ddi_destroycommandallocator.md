@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDALLOCATOR
-title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR
+title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR (d3d12umddi.h)
 description: Destroys a command allocator.
 ms.assetid: c2d78cd5-3273-42eb-b069-bafdea236115
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYCOMMANDALLOCATOR
+- PFND3D12DDI_DESTROYCOMMANDALLOCATOR
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
-title: "_DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
+title: _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS (windot11.h)
 description: The confirmation parameters for a Group Owner (GO) negotiation response indication are specified in a DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure.
 old-location: netvista\dot11_send_go_negotiation_confirmation_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
+- DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

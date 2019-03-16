@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
-title: _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
+title: _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND (ucmucsispec.h)
 description: Used in the GET_CONNECTOR_CAPABILITY command. See Table 4-15.
 ms.assetid: f8297a49-cb5b-4ff9-a67b-6105bc4ca4fe
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CONNECTOR_CAPABILITY_COMMAND, *PUCSI_GET_CONNECTOR_CAPABILITY_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
-product: Windows
+- _UCSI_GET_CONNECTOR_CAPABILITY_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

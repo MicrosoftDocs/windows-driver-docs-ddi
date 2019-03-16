@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator
-title: ExtRemoteTyped::operator
+title: ExtRemoteTyped::operator (engextcpp.h)
 description: The operator* overloaded operator returns the typed data that is pointed to by the typed data represented by this object.
 old-location: debugger\extremotetyped_operator_.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.operator*
+- ExtRemoteTyped.operator*
 product:
 - Windows
 targetos: Windows

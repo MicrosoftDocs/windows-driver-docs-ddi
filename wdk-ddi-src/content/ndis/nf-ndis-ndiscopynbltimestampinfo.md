@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCopyNblTimestampInfo
-title: NdisCopyNblTimestampInfo function
+title: NdisCopyNblTimestampInfo function (ndis.h)
 description: This function is reserved for system use and should not be called in your code.
 tech.root: netvista
 ms.assetid: 27acbf79-a529-4644-b64c-4c8ae2c6da14
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	ndis.lib
+- ndis.lib
 api_name: 
--	NdisCopyNblTimestampInfo
+- NdisCopyNblTimestampInfo
 product:
 - Windows
 targetos: Windows

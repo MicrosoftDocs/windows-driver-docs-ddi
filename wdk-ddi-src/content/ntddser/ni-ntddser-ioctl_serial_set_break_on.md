@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_BREAK_ON
-title: IOCTL_SERIAL_SET_BREAK_ON
+title: IOCTL_SERIAL_SET_BREAK_ON (ntddser.h)
 description: The IOCTL_SERIAL_SET_BREAK_ON request sets the line control break signal active.
 old-location: serports\ioctl_serial_set_break_on.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_SET_BREAK_ON
+- IOCTL_SERIAL_SET_BREAK_ON
 product:
 - Windows
 targetos: Windows

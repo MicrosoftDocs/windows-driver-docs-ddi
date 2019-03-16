@@ -1,6 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0002
-title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0002"
+title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0002 (filterpipeline.h)
 description: The EXpsFontOptions enumeration describes the font options for an XPS part.
 old-location: print\expsfontoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	EXpsFontOptions
+- EXpsFontOptions
 product:
 - Windows
 targetos: Windows

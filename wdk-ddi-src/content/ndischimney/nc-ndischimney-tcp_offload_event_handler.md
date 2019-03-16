@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_EVENT_HANDLER
-title: TCP_OFFLOAD_EVENT_HANDLER
+title: TCP_OFFLOAD_EVENT_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolIndicateOffloadEvent function to post an indication that was initiated by an underlying driver's or offload target's call to the NdisTcpOffloadEventHandler function.
 old-location: netvista\protocoltcpoffloadevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolTcpOffloadEvent
+- ProtocolTcpOffloadEvent
 product:
 - Windows
 targetos: Windows

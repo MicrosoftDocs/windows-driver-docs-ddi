@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPIXELSHADERCONSTI
-title: PFND3DDDI_SETPIXELSHADERCONSTI
+title: PFND3DDDI_SETPIXELSHADERCONSTI (d3dumddi.h)
 description: The SetPixelShaderConstI function sets one or more pixel shader constant registers with integer values.
 old-location: display\setpixelshaderconsti.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetPixelShaderConstI
+- SetPixelShaderConstI
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetObjectTypeFromIrp
-title: KsGetObjectTypeFromIrp function
+title: KsGetObjectTypeFromIrp function (ks.h)
 description: The KsGetObjectTypeFromIrp function returns the AVStream object type that is associated with a given IRP.
 old-location: stream\ksgetobjecttypefromirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetObjectTypeFromIrp
+- KsGetObjectTypeFromIrp
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetSTILaunchInformation
-title: IStillImageW::GetSTILaunchInformation
+title: IStillImageW::GetSTILaunchInformation (sti.h)
 description: The IStillImage::GetSTILaunchInformation method returns the reason the calling still image application was started, if the still image event monitor started it.
 old-location: image\istillimage_getstilaunchinformation.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.GetSTILaunchInformation
+- IStillImageW.GetSTILaunchInformation
 product:
 - Windows
 targetos: Windows

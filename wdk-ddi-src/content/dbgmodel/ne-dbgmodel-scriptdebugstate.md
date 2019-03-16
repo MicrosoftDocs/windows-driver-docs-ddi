@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptDebugState
-title: ScriptDebugState
+title: ScriptDebugState (dbgmodel.h)
 description: Defines the current debugging state of a script.
 ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptDebugState
-product: Windows
+- ScriptDebugState
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_15
-title: BLOCK_DEVICE_RANGE_DESCRIPTOR
+title: BLOCK_DEVICE_RANGE_DESCRIPTOR (scsi.h)
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.
 old-location: storage\block_device_range_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	BLOCK_DEVICE_RANGE_DESCRIPTOR
+- BLOCK_DEVICE_RANGE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

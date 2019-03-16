@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcRepinBcb
-title: CcRepinBcb function
+title: CcRepinBcb function (ntifs.h)
 description: The CcRepinBcb routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to CcUnpinData.
 old-location: ifsk\ccrepinbcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcRepinBcb
+- CcRepinBcb
 product:
 - Windows
 targetos: Windows

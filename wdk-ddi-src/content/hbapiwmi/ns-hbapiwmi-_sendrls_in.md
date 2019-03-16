@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRLS_IN
-title: "_SendRLS_IN"
+title: _SendRLS_IN (hbapiwmi.h)
 description: The SendRLS_IN structure is used to deliver input parameter data to the SendRLS WMI method.
 old-location: storage\sendrls_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SendRLS_IN
+- SendRLS_IN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_SETKEY
-title: "_DXVADDI_PVP_SETKEY"
+title: _DXVADDI_PVP_SETKEY (d3dumddi.h)
 description: The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to start decoding a frame.
 old-location: display\dxvaddi_pvp_setkey.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_PVP_SETKEY
+- DXVADDI_PVP_SETKEY
 product:
 - Windows
 targetos: Windows

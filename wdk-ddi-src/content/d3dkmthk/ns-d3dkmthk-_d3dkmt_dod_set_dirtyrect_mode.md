@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DOD_SET_DIRTYRECT_MODE
-title: _D3DKMT_DOD_SET_DIRTYRECT_MODE
+title: _D3DKMT_DOD_SET_DIRTYRECT_MODE (d3dkmthk.h)
 description: Set dirty rectangle mode.
 ms.assetid: 03abb50c-bd47-45b6-9648-f0f6980503c1
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DOD_SET_DIRTYRECT_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DOD_SET_DIRTYRECT_MODE
+- _D3DKMT_DOD_SET_DIRTYRECT_MODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

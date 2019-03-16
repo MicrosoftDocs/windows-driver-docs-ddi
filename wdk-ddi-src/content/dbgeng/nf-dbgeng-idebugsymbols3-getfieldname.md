@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldName
-title: IDebugSymbols3::GetFieldName
+title: IDebugSymbols3::GetFieldName (dbgeng.h)
 description: The GetFieldName method returns the name of a field within a structure.
 old-location: debugger\getfieldname.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols2.GetFieldName
--	IDebugSymbols3.GetFieldName
+- IDebugSymbols2.GetFieldName
+- IDebugSymbols3.GetFieldName
 product:
 - Windows
 targetos: Windows

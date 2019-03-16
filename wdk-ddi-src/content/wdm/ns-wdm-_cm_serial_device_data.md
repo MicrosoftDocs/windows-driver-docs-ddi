@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_SERIAL_DEVICE_DATA
-title: "_CM_SERIAL_DEVICE_DATA"
+title: _CM_SERIAL_DEVICE_DATA (wdm.h)
 description: The CM_SERIAL_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a serial controller if the system can collect this information during the boot process.
 old-location: kernel\cm_serial_device_data.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CM_SERIAL_DEVICE_DATA
+- CM_SERIAL_DEVICE_DATA
 product:
 - Windows
 targetos: Windows

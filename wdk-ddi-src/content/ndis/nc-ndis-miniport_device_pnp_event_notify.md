@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_DEVICE_PNP_EVENT_NOTIFY
-title: MINIPORT_DEVICE_PNP_EVENT_NOTIFY
+title: MINIPORT_DEVICE_PNP_EVENT_NOTIFY (ndis.h)
 description: NDIS calls a miniport driver's MiniportDevicePnPEventNotify function to notify the driver of Plug and Play (PnP) events.
 old-location: netvista\miniportdevicepnpeventnotify.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportDevicePnPEventNotify
+- MiniportDevicePnPEventNotify
 product:
 - Windows
 targetos: Windows

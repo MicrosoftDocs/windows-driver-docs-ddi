@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_MEASUREMENT_DATA
-title: "_PMI_MEASUREMENT_DATA"
+title: _PMI_MEASUREMENT_DATA (pmi.h)
 description: The PMI_MEASUREMENT_DATA structure contains the current power measurement that is collected by a power meter.
 old-location: powermeter\pmi_measurement_data.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_MEASUREMENT_DATA
+- PMI_MEASUREMENT_DATA
 product:
 - Windows
 targetos: Windows

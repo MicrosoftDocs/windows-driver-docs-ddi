@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetData
-title: ExtRemoteData::GetData
+title: ExtRemoteData::GetData (engextcpp.h)
 description: The GetData method returns the contents of the target's memory, represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getdata.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetData
+- ExtRemoteData.GetData
 product:
 - Windows
 targetos: Windows

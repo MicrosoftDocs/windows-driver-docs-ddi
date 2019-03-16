@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeQueryAuthenticationIdToken
-title: SeQueryAuthenticationIdToken function
+title: SeQueryAuthenticationIdToken function (ntifs.h)
 description: The SeQueryAuthenticationIdToken routine retrieves the authentication ID of an access token.
 old-location: ifsk\sequeryauthenticationidtoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeQueryAuthenticationIdToken
+- SeQueryAuthenticationIdToken
 product:
 - Windows
 targetos: Windows

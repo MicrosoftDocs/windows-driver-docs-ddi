@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KSEVENT_SET_IRP_STORAGE
-title: KSEVENT_SET_IRP_STORAGE macro
+title: KSEVENT_SET_IRP_STORAGE macro (ks.h)
 description: This macro retrieves a pointer to the KSEVENT_SET structure stored in Irp. This information is initialized only for basic support requests; it is not initialized for enable requests.
 old-location: stream\ksevent_set_irp_storage.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSEVENT_SET_IRP_STORAGE
+- KSEVENT_SET_IRP_STORAGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChildrenContexts
-title: wiasGetChildrenContexts function
+title: wiasGetChildrenContexts function (wiamdef.h)
 description: The wiasGetChildrenContexts function retrieves an array of item contexts belonging to the current item's children.
 old-location: image\wiasgetchildrencontexts.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChildrenContexts
+- wiasGetChildrenContexts
 product:
 - Windows
 targetos: Windows

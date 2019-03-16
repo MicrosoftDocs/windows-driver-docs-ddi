@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_ACPI_INFO_ENTRY
-title: "_SDEV_SECURE_ACPI_INFO_ENTRY"
+title: _SDEV_SECURE_ACPI_INFO_ENTRY (acpitabl.h)
 description: Defines an information entry for a secure ACPI device for use in a secure device table.
 old-location: acpi\sdev_secure_acpi_info_entry.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	SDEV_SECURE_ACPI_INFO_ENTRY
+- SDEV_SECURE_ACPI_INFO_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---

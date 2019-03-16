@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SYSTEM_PROCESSOR_INFO
-title: "_NDIS_SYSTEM_PROCESSOR_INFO"
+title: _NDIS_SYSTEM_PROCESSOR_INFO (ndis.h)
 description: The NDIS_SYSTEM_PROCESSOR_INFO structure specifies information about the CPU topology of the local computer and the receive side scaling (RSS) processor set.
 old-location: netvista\ndis_system_processor_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_SYSTEM_PROCESSOR_INFO
+- NDIS_SYSTEM_PROCESSOR_INFO
 product:
 - Windows
 targetos: Windows

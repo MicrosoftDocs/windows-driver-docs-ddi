@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitAssignSDDLString
-title: WdfDeviceInitAssignSDDLString function
+title: WdfDeviceInitAssignSDDLString function (wdfdevice.h)
 description: The WdfDeviceInitAssignSDDLString method assigns a security setting for a device.
 old-location: wdf\wdfdeviceinitassignsddlstring.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitAssignSDDLString
+- WdfDeviceInitAssignSDDLString
 product:
 - Windows
 targetos: Windows

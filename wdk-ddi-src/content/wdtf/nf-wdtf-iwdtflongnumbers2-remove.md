@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Remove
-title: IWDTFLongNumbers2::Remove
+title: IWDTFLongNumbers2::Remove (wdtf.h)
 description: Removes a long number from the collection.
 old-location: dtf\iwdtflongnumbers2_remove.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLongNumbers2.Remove
+- IWDTFLongNumbers2.Remove
 product:
 - Windows
 targetos: Windows

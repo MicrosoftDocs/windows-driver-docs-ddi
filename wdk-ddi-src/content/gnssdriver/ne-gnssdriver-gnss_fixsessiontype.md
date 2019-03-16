@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_1
-title: GNSS_FIXSESSIONTYPE
+title: GNSS_FIXSESSIONTYPE (gnssdriver.h)
 description: This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an IOCTL_GNSS_START_FIXSESSION control code. This enumeration is set within the GNSS_FIXSESSION_PARAM structure.
 old-location: gnss\gnss_fixsessiontype.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_FIXSESSIONTYPE
+- GNSS_FIXSESSIONTYPE
 product:
 - Windows
 targetos: Windows

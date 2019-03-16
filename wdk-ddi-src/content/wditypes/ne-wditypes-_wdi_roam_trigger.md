@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ROAM_TRIGGER
-title: "_WDI_ROAM_TRIGGER"
+title: _WDI_ROAM_TRIGGER (wditypes.h)
 description: The WDI_ROAM_TRIGGER enumeration defines roam triggers.
 old-location: netvista\wdi_roam_trigger.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_ROAM_TRIGGER
+- WDI_ROAM_TRIGGER
 product:
 - Windows
 targetos: Windows

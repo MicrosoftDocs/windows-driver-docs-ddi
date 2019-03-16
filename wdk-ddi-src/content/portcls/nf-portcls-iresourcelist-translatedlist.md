@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.TranslatedList
-title: IResourceList::TranslatedList
+title: IResourceList::TranslatedList (portcls.h)
 description: The TranslatedList method returns the list of translated resources.
 old-location: audio\iresourcelist_translatedlist.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.TranslatedList
+- IResourceList.TranslatedList
 product:
 - Windows
 targetos: Windows

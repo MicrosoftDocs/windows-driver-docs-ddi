@@ -1,6 +1,6 @@
 ---
 UID: NE:extsfns._FA_ENTRY_TYPE
-title: "_FA_ENTRY_TYPE"
+title: _FA_ENTRY_TYPE (extsfns.h)
 description: A DebugFailureAnalysis object has a collection of failure analysis entries (FA entries).
 old-location: debugger\fa_entry_type.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	FA_ENTRY_TYPE
+- FA_ENTRY_TYPE
 product:
 - Windows
 targetos: Windows

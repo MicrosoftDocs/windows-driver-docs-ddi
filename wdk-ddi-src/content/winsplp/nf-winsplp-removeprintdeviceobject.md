@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RemovePrintDeviceObject
-title: RemovePrintDeviceObject function
+title: RemovePrintDeviceObject function (winsplp.h)
 description: The RemovePrintDeviceObject function removes a device object from a print provider queue.
 old-location: print\removeprintdeviceobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WinSpool.drv
+- WinSpool.drv
 api_name:
--	RemovePrintDeviceObject
+- RemovePrintDeviceObject
 product:
 - Windows
 targetos: Windows

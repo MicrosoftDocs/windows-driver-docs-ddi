@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelMute
-title: IMiniportStreamAudioEngineNode::SetStreamChannelMute
+title: IMiniportStreamAudioEngineNode::SetStreamChannelMute (portcls.h)
 description: Sets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelmute.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.SetStreamChannelMute
+- IMiniportStreamAudioEngineNode.SetStreamChannelMute
 product:
 - Windows
 targetos: Windows

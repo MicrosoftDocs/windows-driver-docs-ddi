@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SGE
-title: "_NDK_SGE"
+title: _NDK_SGE (ndkpi.h)
 description: The NDK_SGE structure specifies the local buffers for NDK work requests.
 old-location: netvista\ndk_sge.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_SGE
+- NDK_SGE
 product:
 - Windows
 targetos: Windows

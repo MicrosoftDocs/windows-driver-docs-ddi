@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextMacroWide
-title: IDebugControl4::SetTextMacroWide
+title: IDebugControl4::SetTextMacroWide (dbgeng.h)
 description: The SetTextMacroWide method sets the value of a fixed-name alias.
 old-location: debugger\settextmacrowide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetTextMacroWide
+- IDebugControl4.SetTextMacroWide
 product:
 - Windows
 targetos: Windows

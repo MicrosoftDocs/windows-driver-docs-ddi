@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_DESC
-title: "_WWAN_PIN_DESC"
+title: _WWAN_PIN_DESC (wwan.h)
 description: The WWAN_PIN_DESC structure represents the description or current status for a Personal Identification Number (PIN).
 old-location: netvista\wwan_pin_desc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PIN_DESC
+- WWAN_PIN_DESC
 product:
 - Windows
 targetos: Windows

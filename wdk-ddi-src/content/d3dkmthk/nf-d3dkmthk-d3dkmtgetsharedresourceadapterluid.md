@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetSharedResourceAdapterLuid
-title: D3DKMTGetSharedResourceAdapterLuid function
+title: D3DKMTGetSharedResourceAdapterLuid function (d3dkmthk.h)
 description: Maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
 old-location: display\d3dkmtgetsharedresourceadapterluid.htm
 ms.assetid: 880bf5bd-eadc-480f-a10c-f6d57f670857
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- GDI32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetSharedResourceAdapterLuid
+- D3DKMTGetSharedResourceAdapterLuid
 product:
 - Windows
 targetos: Windows

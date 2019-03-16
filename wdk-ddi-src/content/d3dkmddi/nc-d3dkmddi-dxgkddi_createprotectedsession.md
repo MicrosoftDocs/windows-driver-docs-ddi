@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEPROTECTEDSESSION
-title: DXGKDDI_CREATEPROTECTEDSESSION
+title: DXGKDDI_CREATEPROTECTEDSESSION (d3dkmddi.h)
 description: Used to create a protected session.
 old-location: display\dxgkddi_createprotectedsession.htm
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_CREATEPROTECTEDSESSION
+- DXGKDDI_CREATEPROTECTEDSESSION
 product:
 - Windows
 targetos: Windows

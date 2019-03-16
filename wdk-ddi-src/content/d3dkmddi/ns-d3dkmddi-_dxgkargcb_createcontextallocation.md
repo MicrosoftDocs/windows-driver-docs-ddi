@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_CREATECONTEXTALLOCATION
-title: "_DXGKARGCB_CREATECONTEXTALLOCATION"
+title: _DXGKARGCB_CREATECONTEXTALLOCATION (d3dkmddi.h)
 description: Specifies the allocation attributes of a GPU context or device-specific context.
 old-location: display\dxgkargcb_createcontextallocation.htm
 ms.assetid: 2f5338a9-2a53-4fee-af6a-8a052ef8c423
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGKARGCB_CREATECONTEXTALLOCATION
+- DXGKARGCB_CREATECONTEXTALLOCATION
 product:
 - Windows
 targetos: Windows

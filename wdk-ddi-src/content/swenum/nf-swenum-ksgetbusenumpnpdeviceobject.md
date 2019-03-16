@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsGetBusEnumPnpDeviceObject
-title: KsGetBusEnumPnpDeviceObject function
+title: KsGetBusEnumPnpDeviceObject function (swenum.h)
 description: The KsGetBusEnumPnpDeviceObject function retrieves the Plug and Play device object attached to the given device object.
 old-location: stream\ksgetbusenumpnpdeviceobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetBusEnumPnpDeviceObject
+- KsGetBusEnumPnpDeviceObject
 product:
 - Windows
 targetos: Windows

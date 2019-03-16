@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_CONFIGURATION
-title: "_PMI_CONFIGURATION"
+title: _PMI_CONFIGURATION (pmi.h)
 description: The PMI_CONFIGURATION structure contains information about the current power metering and budgeting configuration of a power meter.
 old-location: powermeter\pmi_configuration.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_CONFIGURATION
+- PMI_CONFIGURATION
 product:
 - Windows
 targetos: Windows

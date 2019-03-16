@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewResourceSublist
-title: PcNewResourceSublist function
+title: PcNewResourceSublist function (portcls.h)
 description: The PcNewResourceSublist function creates and initializes an empty resource list that is derived from another resource list.
 old-location: audio\pcnewresourcesublist.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewResourceSublist
+- PcNewResourceSublist
 product:
 - Windows
 targetos: Windows

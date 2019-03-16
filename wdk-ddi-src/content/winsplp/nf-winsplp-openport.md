@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.OpenPort
-title: OpenPort function
+title: OpenPort function (winsplp.h)
 description: A port monitor's OpenPort function opens a printer port.
 old-location: print\openport.htm
 tech.root: print
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	Winsplp.h
-apiname:
--	pfnOpenPort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- Winsplp.h
+api_name:
+- pfnOpenPort
 product:
 - Windows
 targetos: Windows

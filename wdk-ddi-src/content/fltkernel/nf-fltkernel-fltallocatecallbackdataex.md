@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateCallbackDataEx
-title: FltAllocateCallbackDataEx function
+title: FltAllocateCallbackDataEx function (fltkernel.h)
 description: The FltAllocateCallbackDataEx routine allocates a callback data structure and can preallocate memory for additional structures that a minifilter driver can use to initiate an I/O request.
 old-location: ifsk\fltallocatecallbackdataex.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAllocateCallbackDataEx
+- FltAllocateCallbackDataEx
 product:
 - Windows
 targetos: Windows

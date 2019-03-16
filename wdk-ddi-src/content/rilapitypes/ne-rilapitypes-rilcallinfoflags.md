@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLINFOFLAGS
-title: RILCALLINFOFLAGS
+title: RILCALLINFOFLAGS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfoflags.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILCALLINFOFLAGS
+- RILCALLINFOFLAGS
 product:
 - Windows
 targetos: Windows

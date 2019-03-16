@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_13
-title: GNSS_FIXDATA_SATELLITE
+title: GNSS_FIXDATA_SATELLITE (gnssdriver.h)
 description: This structure defines satellite-related information of a fix.
 old-location: gnss\gnss_fixdata_satellite.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_FIXDATA_SATELLITE
+- GNSS_FIXDATA_SATELLITE
 product:
 - Windows
 targetos: Windows

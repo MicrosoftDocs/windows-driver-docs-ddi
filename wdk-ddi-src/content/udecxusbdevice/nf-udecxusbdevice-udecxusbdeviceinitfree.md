@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitFree
-title: UdecxUsbDeviceInitFree function
+title: UdecxUsbDeviceInitFree function (udecxusbdevice.h)
 description: Releases the resources that were allocated by the UdecxUsbDeviceInitAllocate call.
 old-location: buses\udecxusbdeviceinitfree.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceInitFree
+- UdecxUsbDeviceInitFree
 product:
 - Windows
 targetos: Windows

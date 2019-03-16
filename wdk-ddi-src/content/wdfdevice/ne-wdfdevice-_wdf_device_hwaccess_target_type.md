@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_HWACCESS_TARGET_TYPE
-title: "_WDF_DEVICE_HWACCESS_TARGET_TYPE"
+title: _WDF_DEVICE_HWACCESS_TARGET_TYPE (wdfdevice.h)
 description: The WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration is used internally by the framework. Do not use.
 old-location: wdf\wdf_device_hwaccess_target_size.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_DEVICE_HWACCESS_TARGET_TYPE
+- WDF_DEVICE_HWACCESS_TARGET_TYPE
 product:
 - Windows
 targetos: Windows

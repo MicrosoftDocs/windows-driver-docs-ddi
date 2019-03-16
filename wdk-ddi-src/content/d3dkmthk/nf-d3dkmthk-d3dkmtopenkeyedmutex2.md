@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutex2
-title: D3DKMTOpenKeyedMutex2 function
+title: D3DKMTOpenKeyedMutex2 function (d3dkmthk.h)
 description: Opens a keyed mutex object that includes private data.
 old-location: display\d3dkmtopenkeyedmutex2.htm
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTOpenKeyedMutex2
+- D3DKMTOpenKeyedMutex2
 product:
 - Windows
 targetos: Windows

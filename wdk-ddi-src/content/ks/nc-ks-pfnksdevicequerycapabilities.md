@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEQUERYCAPABILITIES
-title: PFNKSDEVICEQUERYCAPABILITIES
+title: PFNKSDEVICEQUERYCAPABILITIES (ks.h)
 description: An AVStream minidriver's AVStrMiniDeviceQueryCapabilities routine is called when an IRP_MN_QUERY_CAPABILITIES is dispatched by the device.
 old-location: stream\avstrminidevicequerycapabilities.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniDeviceQueryCapabilities
+- AVStrMiniDeviceQueryCapabilities
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeOemString
-title: RtlFreeOemString function
+title: RtlFreeOemString function (ntifs.h)
 description: The RtlFreeOemString routine releases storage that was allocated by any of the Rtl..ToOemString routines.
 old-location: ifsk\rtlfreeoemstring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFreeOemString
+- RtlFreeOemString
 product:
 - Windows
 targetos: Windows

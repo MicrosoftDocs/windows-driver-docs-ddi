@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_REMOVE_LOCK_OPTIONS_INIT
-title: WDF_REMOVE_LOCK_OPTIONS_INIT function
+title: WDF_REMOVE_LOCK_OPTIONS_INIT function (wdfdevice.h)
 description: The WDF_REMOVE_LOCK_OPTIONS_INIT function initializes a WDF_REMOVE_LOCK_OPTIONS structure.
 old-location: wdf\wdf_remove_lock_options_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_REMOVE_LOCK_OPTIONS_INIT
+- WDF_REMOVE_LOCK_OPTIONS_INIT
 product:
 - Windows
 targetos: Windows

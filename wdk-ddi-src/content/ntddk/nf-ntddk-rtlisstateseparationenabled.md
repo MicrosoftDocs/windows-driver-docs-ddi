@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsStateSeparationEnabled
-title: RtlIsStateSeparationEnabled function
+title: RtlIsStateSeparationEnabled function (ntddk.h)
 description: Checks if the SKU for the current context supports multiple sessions.
 old-location: kernel\rtlisstateseparationenabled.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIsStateSeparationEnabled
+- RtlIsStateSeparationEnabled
 product:
 - Windows
 targetos: Windows

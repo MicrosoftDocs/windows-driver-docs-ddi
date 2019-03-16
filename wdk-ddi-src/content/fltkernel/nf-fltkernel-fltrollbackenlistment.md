@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRollbackEnlistment
-title: FltRollbackEnlistment function
+title: FltRollbackEnlistment function (fltkernel.h)
 description: The FltRollbackEnlistment routine rolls back or aborts a transaction on behalf of a minifilter driver.
 old-location: ifsk\fltrollbackenlistment.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltRollbackEnlistment
+- FltRollbackEnlistment
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_124
-title: AUDIO_CURVE_TYPE
+title: AUDIO_CURVE_TYPE (ksmedia.h)
 description: The AUDIO_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 old-location: audio\audio_curve_type.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	AUDIO_CURVE_TYPE
+- AUDIO_CURVE_TYPE
 product:
 - Windows
 targetos: Windows

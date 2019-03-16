@@ -1,6 +1,6 @@
 ---
 UID: NC:hwnclx.HWN_CLIENT_GET_STATE
-title: HWN_CLIENT_GET_STATE
+title: HWN_CLIENT_GET_STATE (hwnclx.h)
 description: Implemented by the client driver to get hardware notification component state. It is invoked when a user requests status information.
 old-location: gpiobtn\hwn_client_get_state.htm
 tech.root: gpiobtn
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Hwnclx.h
+- Hwnclx.h
 api_name:
--	*PHWN_CLIENT_GET_STATE
+- *PHWN_CLIENT_GET_STATE
 product:
 - Windows
 targetos: Windows

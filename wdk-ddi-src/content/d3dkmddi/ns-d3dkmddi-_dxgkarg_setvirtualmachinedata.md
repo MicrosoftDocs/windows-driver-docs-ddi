@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIRTUALMACHINEDATA
-title: _DXGKARG_SETVIRTUALMACHINEDATA
+title: _DXGKARG_SETVIRTUALMACHINEDATA (d3dkmddi.h)
 description: Arguments used to set virtual machine data.
 ms.assetid: abccb1a3-74bd-4831-9b69-50974ba2b997
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETVIRTUALMACHINEDATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_SETVIRTUALMACHINEDATA
+- _DXGKARG_SETVIRTUALMACHINEDATA
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

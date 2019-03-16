@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MCE_DESCRIPTOR
-title: "_WHEA_XPF_MCE_DESCRIPTOR"
+title: _WHEA_XPF_MCE_DESCRIPTOR (ntddk.h)
 description: The WHEA_XPF_MCE_DESCRIPTOR structure describes a machine check exception (MCE) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_mce_descriptor.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_MCE_DESCRIPTOR
+- WHEA_XPF_MCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

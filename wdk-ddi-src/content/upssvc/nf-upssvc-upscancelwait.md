@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSCancelWait
-title: UPSCancelWait function
+title: UPSCancelWait function (upssvc.h)
 description: The UPSCancelWait function cancels all waits initiated by calls to UPSWaitForStateChange.
 old-location: battery\upscancelwait.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Upssvc.h
+- Upssvc.h
 api_name:
--	UPSCancelWait
+- UPSCancelWait
 product:
 - Windows
 targetos: Windows

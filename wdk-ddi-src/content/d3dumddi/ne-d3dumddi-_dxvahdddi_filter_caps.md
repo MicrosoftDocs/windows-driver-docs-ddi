@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FILTER_CAPS
-title: _DXVAHDDDI_FILTER_CAPS
+title: _DXVAHDDDI_FILTER_CAPS (d3dumddi.h)
 description: DirectX video acceleration filter capabilities.
 ms.assetid: c26f7a01-1e3b-48b3-b012-17334daa8ee3
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXVAHDDDI_FILTER_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_DXVAHDDDI_FILTER_CAPS
+- _DXVAHDDDI_FILTER_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

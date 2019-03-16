@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._CUSTOMSIZEPARAM
-title: "_CUSTOMSIZEPARAM"
+title: _CUSTOMSIZEPARAM (printoem.h)
 description: The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
 old-location: print\customsizeparam.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	CUSTOMSIZEPARAM
+- CUSTOMSIZEPARAM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCompareUnicodeString
-title: RtlCompareUnicodeString function
+title: RtlCompareUnicodeString function (wdm.h)
 description: The RtlCompareUnicodeString routine compares two Unicode strings.
 old-location: kernel\rtlcompareunicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCompareUnicodeString
+- RtlCompareUnicodeString
 product:
 - Windows
 targetos: Windows

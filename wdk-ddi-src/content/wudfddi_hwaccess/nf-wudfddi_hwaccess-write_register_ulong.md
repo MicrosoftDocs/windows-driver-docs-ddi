@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_ULONG
-title: WRITE_REGISTER_ULONG function
+title: WRITE_REGISTER_ULONG function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: wdf\write_register_ulong.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_REGISTER_ULONG
+- WRITE_REGISTER_ULONG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_PATCHLOCATIONLIST
-title: "_D3DDDI_PATCHLOCATIONLIST"
+title: _D3DDDI_PATCHLOCATIONLIST (d3dukmdt.h)
 description: The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation to patch (that is, assign a physical address to the allocation).
 old-location: display\d3dddi_patchlocationlist.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_PATCHLOCATIONLIST
+- D3DDDI_PATCHLOCATIONLIST
 product:
 - Windows
 targetos: Windows

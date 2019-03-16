@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID_IDENTIFIER_AUTHORITY
-title: "_SID_IDENTIFIER_AUTHORITY"
+title: _SID_IDENTIFIER_AUTHORITY (ntifs.h)
 description: The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID).
 old-location: ifsk\sid_identifier_authority.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SID_IDENTIFIER_AUTHORITY
+- SID_IDENTIFIER_AUTHORITY
 product:
 - Windows
 targetos: Windows

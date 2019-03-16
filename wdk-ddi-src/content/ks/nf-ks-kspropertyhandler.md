@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPropertyHandler
-title: KsPropertyHandler function
+title: KsPropertyHandler function (ks.h)
 description: Drivers call KsPropertyHandler function for IRP handling.
 old-location: stream\kspropertyhandler.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPropertyHandler
+- KsPropertyHandler
 product:
 - Windows
 targetos: Windows

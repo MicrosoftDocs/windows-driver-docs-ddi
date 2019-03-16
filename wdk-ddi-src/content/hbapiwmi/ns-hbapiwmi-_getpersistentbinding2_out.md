@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPersistentBinding2_OUT
-title: "_GetPersistentBinding2_OUT"
+title: _GetPersistentBinding2_OUT (hbapiwmi.h)
 description: The GetBindingSupport_OUT structure is used to report the output parameter data of the GetPersistentBinding2 WMI method to the WMI client.
 old-location: storage\getpersistentbinding2_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetPersistentBinding2_OUT
+- GetPersistentBinding2_OUT
 product:
 - Windows
 targetos: Windows

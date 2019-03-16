@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_ATIP_DATA_BLOCK
-title: "_CDROM_TOC_ATIP_DATA_BLOCK"
+title: _CDROM_TOC_ATIP_DATA_BLOCK (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_ATIP return their output data in a header structure of type CDROM_TOC_ATIP_DATA followed by a series of ATIP data block descriptors defined by CDROM_TOC_ATIP_DATA_BLOCK.
 old-location: storage\cdrom_toc_atip_data_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_TOC_ATIP_DATA_BLOCK
+- CDROM_TOC_ATIP_DATA_BLOCK
 product:
 - Windows
 targetos: Windows

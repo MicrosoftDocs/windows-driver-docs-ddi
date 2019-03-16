@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._ACL
-title: "_ACL"
+title: _ACL (wdm.h)
 description: The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE).
 old-location: ifsk\acl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ACL
+- ACL
 product:
 - Windows
 targetos: Windows

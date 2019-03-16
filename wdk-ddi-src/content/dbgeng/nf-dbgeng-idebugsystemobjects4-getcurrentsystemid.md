@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentSystemId
-title: IDebugSystemObjects4::GetCurrentSystemId
+title: IDebugSystemObjects4::GetCurrentSystemId (dbgeng.h)
 description: The GetCurrentSystemId method returns the engine target ID for the current process.
 old-location: debugger\getcurrentsystemid.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetCurrentSystemId
--	IDebugSystemObjects4.GetCurrentSystemId
+- IDebugSystemObjects3.GetCurrentSystemId
+- IDebugSystemObjects4.GetCurrentSystemId
 product:
 - Windows
 targetos: Windows

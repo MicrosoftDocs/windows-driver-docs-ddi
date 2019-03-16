@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_STATUS_EX
-title: PROTOCOL_CO_STATUS_EX
+title: PROTOCOL_CO_STATUS_EX (ndis.h)
 description: The ProtocolCoStatusEx function indicates status changes from underlying connection-oriented drivers or from NDIS.Note  You must declare the function by using the PROTOCOL_CO_STATUS_EX type.
 old-location: netvista\protocolcostatusex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoStatusEx
+- ProtocolCoStatusEx
 product:
 - Windows
 targetos: Windows

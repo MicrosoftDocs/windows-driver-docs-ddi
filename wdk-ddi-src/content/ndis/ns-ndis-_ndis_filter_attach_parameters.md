@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_ATTACH_PARAMETERS
-title: "_NDIS_FILTER_ATTACH_PARAMETERS"
+title: _NDIS_FILTER_ATTACH_PARAMETERS (ndis.h)
 description: The NDIS_FILTER_ATTACH_PARAMETERS structure defines the initialization parameters for the filter module.
 old-location: netvista\ndis_filter_attach_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_FILTER_ATTACH_PARAMETERS
+- NDIS_FILTER_ATTACH_PARAMETERS
 product:
 - Windows
 targetos: Windows

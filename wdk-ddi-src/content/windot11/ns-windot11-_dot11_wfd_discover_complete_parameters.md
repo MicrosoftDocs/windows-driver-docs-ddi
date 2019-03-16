@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
-title: "_DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS"
+title: _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS (windot11.h)
 description: the DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure is returned in a NDIS_STATUS_DOT11_WFD_DISCOVER_COMPLETE indication.
 old-location: netvista\_dot11_wfd_discover_complete_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
+- DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
 product:
 - Windows
 targetos: Windows

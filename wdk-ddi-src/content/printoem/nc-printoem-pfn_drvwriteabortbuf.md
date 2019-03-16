@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvWriteAbortBuf
-title: PFN_DrvWriteAbortBuf
+title: PFN_DrvWriteAbortBuf (printoem.h)
 description: The DrvWriteAbortBuf function is obsolete.
 old-location: print\drvwriteabortbuf.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvWriteAbortBuf
+- DrvWriteAbortBuf
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeSendDatagram
-title: RxCeSendDatagram function
+title: RxCeSendDatagram function (rxce.h)
 description: RxCeSendDatagram sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesenddatagram.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeSendDatagram
+- RxCeSendDatagram
 product:
 - Windows
 targetos: Windows

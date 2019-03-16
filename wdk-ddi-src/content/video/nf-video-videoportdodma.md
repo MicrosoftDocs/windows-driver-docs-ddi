@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortDoDma
-title: VideoPortDoDma function
+title: VideoPortDoDma function (video.h)
 description: The VideoPortDoDma function is obsolete in Windows 2000 and later. VideoPortDoDma causes the miniport driver's HwVidStartDma function to be called.
 old-location: display\videoportdodma.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortDoDma
+- VideoPortDoDma
 product:
 - Windows
 targetos: Windows

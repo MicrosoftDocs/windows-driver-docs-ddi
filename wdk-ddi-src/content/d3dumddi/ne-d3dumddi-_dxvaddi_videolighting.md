@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOLIGHTING
-title: "_DXVADDI_VIDEOLIGHTING"
+title: _DXVADDI_VIDEOLIGHTING (d3dumddi.h)
 description: The DXVADDI_VIDEOLIGHTING enumeration type contains values that identify lighting conditions for viewing video.
 old-location: display\dxvaddi_videolighting.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_VIDEOLIGHTING
+- DXVADDI_VIDEOLIGHTING
 product:
 - Windows
 targetos: Windows

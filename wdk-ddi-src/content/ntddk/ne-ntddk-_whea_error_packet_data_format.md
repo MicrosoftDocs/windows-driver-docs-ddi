@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_PACKET_DATA_FORMAT
-title: "_WHEA_ERROR_PACKET_DATA_FORMAT"
+title: _WHEA_ERROR_PACKET_DATA_FORMAT (ntddk.h)
 description: The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
 old-location: whea\whea_error_packet_data_format.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_ERROR_PACKET_DATA_FORMAT
+- WHEA_ERROR_PACKET_DATA_FORMAT
 product:
 - Windows
 targetos: Windows

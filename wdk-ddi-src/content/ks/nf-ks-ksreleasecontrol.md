@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReleaseControl
-title: KsReleaseControl function
+title: KsReleaseControl function (ks.h)
 description: The KsReleaseControl function releases the control mutex for Object.
 old-location: stream\ksreleasecontrol.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsReleaseControl
+- KsReleaseControl
 product:
 - Windows
 targetos: Windows

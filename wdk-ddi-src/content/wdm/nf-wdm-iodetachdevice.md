@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoDetachDevice
-title: IoDetachDevice function
+title: IoDetachDevice function (wdm.h)
 description: The IoDetachDevice routine releases an attachment between the caller's device object and a lower driver's device object.
 old-location: kernel\iodetachdevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDetachDevice
+- IoDetachDevice
 product:
 - Windows
 targetos: Windows

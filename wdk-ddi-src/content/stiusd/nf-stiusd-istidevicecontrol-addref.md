@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.AddRef
-title: IStiDeviceControl::AddRef
+title: IStiDeviceControl::AddRef (stiusd.h)
 description: The IStiDeviceControl::AddRef method increments the reference count for the IStiDeviceControl interface.
 old-location: image\istidevicecontrol_addref.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiDeviceControl.AddRef
+- IStiDeviceControl.AddRef
 product:
 - Windows
 targetos: Windows

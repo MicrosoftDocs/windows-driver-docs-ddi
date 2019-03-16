@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
-title: "_D3DKMDT_WIRE_FORMAT_AND_PREFERENCE"
+title: _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE (d3dkmdt.h)
 description: Holds information about the preferred pixel encoding format.
 old-location: display\d3dkmdt_wire_format_and_preference.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
+- D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 product:
 - Windows
 targetos: Windows

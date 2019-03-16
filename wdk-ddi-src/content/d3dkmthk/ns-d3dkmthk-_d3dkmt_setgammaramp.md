@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETGAMMARAMP
-title: "_D3DKMT_SETGAMMARAMP"
+title: _D3DKMT_SETGAMMARAMP (d3dkmthk.h)
 description: The D3DKMT_SETGAMMARAMP structure describes parameters for setting the gamma ramp.
 old-location: display\d3dkmt_setgammaramp.htm
 ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SETGAMMARAMP
+- D3DKMT_SETGAMMARAMP
 product:
 - Windows
 targetos: Windows

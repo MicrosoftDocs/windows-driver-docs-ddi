@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
-title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION"
+title: _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION (d3dukmdt.h)
 description: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION describes a virtual address update operation.
 old-location: display\d3dddi_updategpuvirtualaddress_operation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
+- D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 product:
 - Windows
 targetos: Windows

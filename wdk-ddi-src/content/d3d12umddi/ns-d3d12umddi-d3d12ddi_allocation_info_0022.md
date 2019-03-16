@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_ALLOCATION_INFO_0022
-title: D3D12DDI_ALLOCATION_INFO_0022
+title: D3D12DDI_ALLOCATION_INFO_0022 (d3d12umddi.h)
 description: Specifies allocation information.
 old-location: display\d3d12ddi_allocation_info_0022.htm
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_ALLOCATION_INFO_0022
+- D3D12DDI_ALLOCATION_INFO_0022
 product:
 - Windows
 targetos: Windows

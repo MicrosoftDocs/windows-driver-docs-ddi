@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfrequest.EVT_WDF_REQUEST_IMPERSONATE
-title: EVT_WDF_REQUEST_IMPERSONATE
+title: EVT_WDF_REQUEST_IMPERSONATE (wdfrequest.h)
 description: A driver's EvtRequestImpersonate event callback function performs tasks at the requested impersonation level, such as opening a protected file.
 old-location: wdf\evtrequestimpersonate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfrequest.h
+- Wdfrequest.h
 api_name:
--	EvtRequestImpersonate
+- EvtRequestImpersonate
 product:
 - Windows
 targetos: Windows

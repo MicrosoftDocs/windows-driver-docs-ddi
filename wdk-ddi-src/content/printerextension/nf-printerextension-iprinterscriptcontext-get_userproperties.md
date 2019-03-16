@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
-title: IPrinterScriptContext::get_UserProperties
+title: IPrinterScriptContext::get_UserProperties (printerextension.h)
 description: Provides access to the user property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_userproperties.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptContext.UserProperties
--	IPrinterScriptContext.get_UserProperties
+- IPrinterScriptContext.UserProperties
+- IPrinterScriptContext.get_UserProperties
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_ENUM_CHILDREN
-title: IOCTL_ACPI_ENUM_CHILDREN
+title: IOCTL_ACPI_ENUM_CHILDREN (acpiioct.h)
 description: The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the path and name of devices or named child objects in the ACPI namespace of the device to which this request is sent.
 old-location: acpi\ioctl_acpi_enum_children.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_ENUM_CHILDREN
+- IOCTL_ACPI_ENUM_CHILDREN
 product:
 - Windows
 targetos: Windows

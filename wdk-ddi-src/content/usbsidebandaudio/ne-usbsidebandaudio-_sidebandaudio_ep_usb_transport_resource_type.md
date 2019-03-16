@@ -1,6 +1,6 @@
 ---
 UID: NE:usbsidebandaudio._SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
-title: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
+title: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE (usbsidebandaudio.h)
 description: Describes the type of transport resource.
 ms.assetid: dde5fd97-0209-4a49-9386-16de45de40fb
 ms.date: 09/06/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbsidebandaudio.h
+- usbsidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
-product: Windows
+- _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

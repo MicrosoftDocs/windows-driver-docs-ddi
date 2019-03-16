@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeExtraCreateParameterList
-title: FltFreeExtraCreateParameterList function
+title: FltFreeExtraCreateParameterList function (fltkernel.h)
 description: The FltFreeExtraCreateParameterList routine frees an extra create parameter (ECP) list structure.
 old-location: ifsk\fltfreeextracreateparameterlist.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltFreeExtraCreateParameterList
+- FltFreeExtraCreateParameterList
 product:
 - Windows
 targetos: Windows

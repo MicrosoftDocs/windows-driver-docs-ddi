@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwActivityIdControl
-title: EtwActivityIdControl function
+title: EtwActivityIdControl function (wdm.h)
 description: The EtwActivityIdControl function creates, queries, and sets the current activity identifier.
 old-location: devtest\etwactivityidcontrol.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Comments section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwActivityIdControl
+- EtwActivityIdControl
 product:
 - Windows
 targetos: Windows

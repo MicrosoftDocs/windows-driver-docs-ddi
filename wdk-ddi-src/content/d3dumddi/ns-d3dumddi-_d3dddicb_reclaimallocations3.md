@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RECLAIMALLOCATIONS3
-title: _D3DDDICB_RECLAIMALLOCATIONS3
+title: _D3DDDICB_RECLAIMALLOCATIONS3 (d3dumddi.h)
 description: D3DDDICB_RECLAIMALLOCATIONS3 is used with pfnReclaimAllocations3Cb to describe video memory resources, previously offered for reuse by the driver, that are to be reclaimed.
 ms.assetid: 11306f6b-dfb5-4357-9bf2-14c4c4034594
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_RECLAIMALLOCATIONS3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDICB_RECLAIMALLOCATIONS3
+- _D3DDDICB_RECLAIMALLOCATIONS3
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

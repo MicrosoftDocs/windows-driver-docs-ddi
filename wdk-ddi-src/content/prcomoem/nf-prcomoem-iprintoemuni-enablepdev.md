@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.EnablePDEV
-title: IPrintOemUni::EnablePDEV
+title: IPrintOemUni::EnablePDEV (prcomoem.h)
 description: The IPrintOemUni::EnablePDEV method allows a rendering plug-in for Unidrv to create its own PDEV structure.
 old-location: print\iprintoemuni_enablepdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUni.EnablePDEV
+- IPrintOemUni.EnablePDEV
 product:
 - Windows
 targetos: Windows

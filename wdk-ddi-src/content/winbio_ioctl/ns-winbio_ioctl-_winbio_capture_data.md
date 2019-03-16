@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CAPTURE_DATA
-title: "_WINBIO_CAPTURE_DATA"
+title: _WINBIO_CAPTURE_DATA (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 old-location: biometric\winbio_capture_data.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_CAPTURE_DATA
+- WINBIO_CAPTURE_DATA
 product:
 - Windows
 targetos: Windows

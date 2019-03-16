@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoQueue
-title: IWDFIoQueue
+title: IWDFIoQueue (wudfddi.h)
 description: The IWDFIoQueue interface exposes an I/O queue object.
 old-location: wdf\iwdfioqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue
+- IWDFIoQueue
 product:
 - Windows
 targetos: Windows

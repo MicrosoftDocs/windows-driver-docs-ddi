@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
-title: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE
+title: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE (wdfdevice.h)
 description: The EvtDeviceWdmPostPoFxRegisterDevice callback function performs device-specific operations after the framework has registered with the power framework.
 old-location: wdf\evtdevicewdmpostpofxregisterdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceWdmPostPoFxRegisterDevice
+- EvtDeviceWdmPostPoFxRegisterDevice
 product:
 - Windows
 targetos: Windows

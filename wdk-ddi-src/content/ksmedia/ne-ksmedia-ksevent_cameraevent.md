@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_81
-title: KSEVENT_CAMERAEVENT
+title: KSEVENT_CAMERAEVENT (ksmedia.h)
 description: KSEVENT_CAMERAEVENT enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
 old-location: stream\ksevent_cameraevent.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSEVENT_CAMERAEVENT
+- KSEVENT_CAMERAEVENT
 product:
 - Windows
 targetos: Windows

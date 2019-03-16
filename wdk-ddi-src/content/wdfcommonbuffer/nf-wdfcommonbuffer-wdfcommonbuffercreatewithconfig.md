@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferCreateWithConfig
-title: WdfCommonBufferCreateWithConfig function
+title: WdfCommonBufferCreateWithConfig function (wdfcommonbuffer.h)
 description: The WdfCommonBufferCreateWithConfig method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information.
 old-location: wdf\wdfcommonbuffercreatewithconfig.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCommonBufferCreateWithConfig
+- WdfCommonBufferCreateWithConfig
 product:
 - Windows
 targetos: Windows

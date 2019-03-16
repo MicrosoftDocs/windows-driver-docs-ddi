@@ -1,6 +1,6 @@
 ---
 UID: NE:ntpoapi._DEVICE_POWER_STATE
-title: "_DEVICE_POWER_STATE"
+title: _DEVICE_POWER_STATE (ntpoapi.h)
 description: The DEVICE_POWER_STATE enumeration type indicates a device power state.
 old-location: kernel\device_power_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	DEVICE_POWER_STATE
+- DEVICE_POWER_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERINFO
-title: "_DXVADDI_DECODEBUFFERINFO"
+title: _DXVADDI_DECODEBUFFERINFO (d3dumddi.h)
 description: The DXVADDI_DECODEBUFFERINFO structure describes information about a particular type of compressed buffer that is required for a video decoding scenario.
 old-location: display\dxvaddi_decodebufferinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_DECODEBUFFERINFO
+- DXVADDI_DECODEBUFFERINFO
 product:
 - Windows
 targetos: Windows

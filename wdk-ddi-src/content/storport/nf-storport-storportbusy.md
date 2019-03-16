@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortBusy
-title: StorPortBusy function
+title: StorPortBusy function (storport.h)
 description: The StorPortBusy routine notifies the port driver that the adapter is currently busy, handling outstanding requests.
 old-location: storage\storportbusy.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortBusy
+- StorPortBusy
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_BUS_RESET_REQUEST
-title: "_STORAGE_BUS_RESET_REQUEST"
+title: _STORAGE_BUS_RESET_REQUEST (ntddstor.h)
 description: The STORAGE_BUS_RESET_REQUEST structure is used in conjunction with the IOCTL_STORAGE_RESET_BUS request to specify the path of the bus to be reset.
 old-location: storage\storage_bus_reset_request.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_BUS_RESET_REQUEST
+- STORAGE_BUS_RESET_REQUEST
 product:
 - Windows
 targetos: Windows

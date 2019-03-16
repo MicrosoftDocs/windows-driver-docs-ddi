@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdd8042._MOUSE_STATE
-title: "_MOUSE_STATE"
+title: _MOUSE_STATE (ntdd8042.h)
 description: The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
 old-location: hid\mouse_state.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	MOUSE_STATE
+- MOUSE_STATE
 product:
 - Windows
 targetos: Windows

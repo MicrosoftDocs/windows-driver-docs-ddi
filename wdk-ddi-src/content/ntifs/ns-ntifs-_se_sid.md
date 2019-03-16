@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SE_SID
-title: "_SE_SID"
+title: _SE_SID (ntifs.h)
 description: The SE_SID union holds the maximum-sized valid Security Identifier (SID). The structure occupies 68-bytes and is suitable for stack allocation.
 old-location: ifsk\se_sid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SE_SID
+- SE_SID
 product:
 - Windows
 targetos: Windows

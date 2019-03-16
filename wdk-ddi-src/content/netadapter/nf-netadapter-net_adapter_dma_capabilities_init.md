@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_DMA_CAPABILITIES_INIT
-title: NET_ADAPTER_DMA_CAPABILITIES_INIT function
+title: NET_ADAPTER_DMA_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_DMA_CAPABILITIES_INIT method initializes a NET_ADAPTER_DMA_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 7e1a1622-4479-445e-8672-3dcc9b402679
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NET_ADAPTER_DMA_CAPABILITIES_INIT
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NET_ADAPTER_DMA_CAPABILITIES_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

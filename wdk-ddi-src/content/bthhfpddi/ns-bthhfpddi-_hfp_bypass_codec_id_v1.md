@@ -1,6 +1,6 @@
 ---
 UID: NS:bthhfpddi._HFP_BYPASS_CODEC_ID_V1
-title: "_HFP_BYPASS_CODEC_ID_V1"
+title: _HFP_BYPASS_CODEC_ID_V1 (bthhfpddi.h)
 description: The HFP_BYPASS_CODEC_ID_V1 structure defines version 1 of the supported codec ID structure.
 old-location: audio\hfp_bypass_codec_id_v1.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	HFP_BYPASS_CODEC_ID_V1
+- HFP_BYPASS_CODEC_ID_V1
 product:
 - Windows
 targetos: Windows

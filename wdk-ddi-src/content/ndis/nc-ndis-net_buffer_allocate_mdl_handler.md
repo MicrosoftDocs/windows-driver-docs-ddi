@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NET_BUFFER_ALLOCATE_MDL_HANDLER
-title: NET_BUFFER_ALLOCATE_MDL_HANDLER
+title: NET_BUFFER_ALLOCATE_MDL_HANDLER (ndis.h)
 description: The NetAllocateMdl function allocates an MDL with an associated memory block of a specified size.
 old-location: netvista\netallocatemdl.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NetAllocateMdl
+- NetAllocateMdl
 product:
 - Windows
 targetos: Windows

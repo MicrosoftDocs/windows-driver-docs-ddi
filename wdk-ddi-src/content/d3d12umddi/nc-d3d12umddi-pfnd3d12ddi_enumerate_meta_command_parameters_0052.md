@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
-title: PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
+title: PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052 (d3d12umddi.h)
 description: Enumerates meta-command parameters.
 ms.assetid: 3808a357-1a5b-4239-9dde-6f7b07212a91
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
+- PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

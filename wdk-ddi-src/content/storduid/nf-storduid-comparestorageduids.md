@@ -1,6 +1,6 @@
 ---
 UID: NF:storduid.CompareStorageDuids
-title: CompareStorageDuids function
+title: CompareStorageDuids function (storduid.h)
 description: The CompareStorageDuids routine compares two device unique identifiers (DUIDs) and reports whether they match or not.
 old-location: storage\comparestorageduids.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storduid.h
+- storduid.h
 api_name:
--	CompareStorageDuids
+- CompareStorageDuids
 product:
 - Windows
 targetos: Windows

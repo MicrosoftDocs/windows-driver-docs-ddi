@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwFlushKey
-title: ZwFlushKey function
+title: ZwFlushKey function (wdm.h)
 description: The ZwFlushKey routine forces a registry key to be committed to disk.
 old-location: kernel\zwflushkey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwFlushKey
--	NtFlushKey
+- ZwFlushKey
+- NtFlushKey
 product:
 - Windows
 targetos: Windows

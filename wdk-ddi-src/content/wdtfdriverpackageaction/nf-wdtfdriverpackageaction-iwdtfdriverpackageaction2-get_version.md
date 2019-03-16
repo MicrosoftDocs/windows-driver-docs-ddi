@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Version
-title: IWDTFDriverPackageAction2::get_Version
+title: IWDTFDriverPackageAction2::get_Version (wdtfdriverpackageaction.h)
 description: Gets the driver package version.
 old-location: dtf\iwdtfdriverpackageaction2_version.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.Version
--	IWDTFDriverPackageAction2.get_Version
+- IWDTFDriverPackageAction2.Version
+- IWDTFDriverPackageAction2.get_Version
 product:
 - Windows
 targetos: Windows

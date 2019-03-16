@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_ROAMING_CONTROL
-title: _WWAN_CONTEXT_ROAMING_CONTROL
+title: _WWAN_CONTEXT_ROAMING_CONTROL (wwan.h)
 description: The WWAN_CONTEXT_ROAMING_CONTROL enumeration specifies which roaming conditions apply to a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: e692e8ff-7106-4b58-9046-8a7c98d24e2d
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_ROAMING_CONTROL, *PWWAN_CONTEXT_ROAMING_CONTROL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_ROAMING_CONTROL
+- _WWAN_CONTEXT_ROAMING_CONTROL
 product: 
 - Windows
 targetos: Windows

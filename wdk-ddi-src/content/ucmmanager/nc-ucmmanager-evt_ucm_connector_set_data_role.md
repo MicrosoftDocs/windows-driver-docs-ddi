@@ -1,6 +1,6 @@
 ---
 UID: NC:ucmmanager.EVT_UCM_CONNECTOR_SET_DATA_ROLE
-title: EVT_UCM_CONNECTOR_SET_DATA_ROLE
+title: EVT_UCM_CONNECTOR_SET_DATA_ROLE (ucmmanager.h)
 description: The client driver's implementation of the EVT_UCM_CONNECTOR_SET_DATA_ROLE event callback function that swaps the data role of the connector to the specified role when attached to a partner connector.
 old-location: buses\evt_ucm_connector_set_data_role.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	PFN_UCM_CONNECTOR_SET_DATA_ROLE
+- PFN_UCM_CONNECTOR_SET_DATA_ROLE
 product:
 - Windows
 targetos: Windows

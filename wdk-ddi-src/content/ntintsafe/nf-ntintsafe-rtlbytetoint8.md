@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlByteToInt8
-title: RtlByteToInt8 function
+title: RtlByteToInt8 function (ntintsafe.h)
 description: Converts a value of type BYTE to a value of type INT8.
 old-location: kernel\rtlbytetoint8.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlByteToInt8
+- RtlByteToInt8
 product:
 - Windows
 targetos: Windows

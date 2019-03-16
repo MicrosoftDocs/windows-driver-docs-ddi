@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WPS_DEVICE_NAME
-title: "_DOT11_WPS_DEVICE_NAME"
+title: _DOT11_WPS_DEVICE_NAME (windot11.h)
 description: The DOT11_WPS_DEVICE_NAME structure contains a friendly name of the P2P device.
 old-location: netvista\dot11_wps_device_name.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WPS_DEVICE_NAME
+- DOT11_WPS_DEVICE_NAME
 product:
 - Windows
 targetos: Windows

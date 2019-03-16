@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleNameString
-title: IDebugSymbols2::GetModuleNameString
+title: IDebugSymbols2::GetModuleNameString (dbgeng.h)
 description: The GetModuleNameString method returns the name of the specified module.
 old-location: debugger\getmodulenamestring.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols2.GetModuleNameString
--	IDebugSymbols3.GetModuleNameString
+- IDebugSymbols2.GetModuleNameString
+- IDebugSymbols3.GetModuleNameString
 product:
 - Windows
 targetos: Windows

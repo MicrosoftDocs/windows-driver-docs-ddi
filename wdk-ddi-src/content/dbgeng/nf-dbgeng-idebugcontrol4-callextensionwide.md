@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.CallExtensionWide
-title: IDebugControl4::CallExtensionWide
+title: IDebugControl4::CallExtensionWide (dbgeng.h)
 description: The CallExtensionWide method calls a debugger extension.
 old-location: debugger\callextensionwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.CallExtensionWide
+- IDebugControl4.CallExtensionWide
 product:
 - Windows
 targetos: Windows

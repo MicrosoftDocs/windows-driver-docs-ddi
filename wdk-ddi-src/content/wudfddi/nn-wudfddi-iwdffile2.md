@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile2
-title: IWDFFile2
+title: IWDFFile2 (wudfddi.h)
 description: Drivers obtain the IWDFFile2 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile2.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFFile2
+- IWDFFile2
 product:
 - Windows
 targetos: Windows

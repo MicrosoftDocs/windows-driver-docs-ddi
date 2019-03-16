@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRetrieveIoPriorityInfo
-title: FltRetrieveIoPriorityInfo function
+title: FltRetrieveIoPriorityInfo function (fltkernel.h)
 description: The FltRetrieveIoPriorityInfo routine is used by a minifilter driver to retrieve priority information from a thread.
 old-location: ifsk\fltretrieveiopriorityinfo.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltRetrieveIoPriorityInfo
+- FltRetrieveIoPriorityInfo
 product:
 - Windows
 targetos: Windows

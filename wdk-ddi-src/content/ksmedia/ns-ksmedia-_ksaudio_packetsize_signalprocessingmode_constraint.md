@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT
-title: "_KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT"
+title: _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT (ksmedia.h)
 description: The KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure describes the constraints specific to any signal processing mode.
 old-location: audio\ksaudio_packetsize_processingmode_constraint.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
+- KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 product:
 - Windows
 targetos: Windows

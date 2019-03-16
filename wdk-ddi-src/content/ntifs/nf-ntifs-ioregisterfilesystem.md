@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoRegisterFileSystem
-title: IoRegisterFileSystem function
+title: IoRegisterFileSystem function (ntifs.h)
 description: The IoRegisterFileSystem routine adds a file system's control device object to the global file system queue.
 old-location: ifsk\ioregisterfilesystem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterFileSystem
+- IoRegisterFileSystem
 product:
 - Windows
 targetos: Windows

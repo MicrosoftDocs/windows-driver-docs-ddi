@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_CALLBACK_INFORMATION
-title: "_PCW_CALLBACK_INFORMATION"
+title: _PCW_CALLBACK_INFORMATION (wdm.h)
 description: The PCW_CALLBACK_INFORMATION union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the PcwCallback function.
 old-location: devtest\pcw_callback_information.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_CALLBACK_INFORMATION
+- PCW_CALLBACK_INFORMATION
 product:
 - Windows
 targetos: Windows

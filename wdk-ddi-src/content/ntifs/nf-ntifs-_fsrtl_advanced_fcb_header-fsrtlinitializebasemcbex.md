@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeBaseMcbEx
-title: FsRtlInitializeBaseMcbEx function
+title: FsRtlInitializeBaseMcbEx function (ntifs.h)
 description:
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlInitializeBaseMcbEx
+- FsRtlInitializeBaseMcbEx
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

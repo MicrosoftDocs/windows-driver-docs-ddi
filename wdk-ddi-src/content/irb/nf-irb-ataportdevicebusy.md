@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortDeviceBusy
-title: AtaPortDeviceBusy function
+title: AtaPortDeviceBusy function (irb.h)
 description: The AtaPortDeviceBusy routine informs the port driver that the indicated device is busy.
 old-location: storage\ataportdevicebusy.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortDeviceBusy
+- AtaPortDeviceBusy
 product:
 - Windows
 targetos: Windows

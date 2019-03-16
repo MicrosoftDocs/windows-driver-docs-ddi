@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_PARAMETER_DESC
-title: D3D12DDIARG_META_COMMAND_PARAMETER_DESC
+title: D3D12DDIARG_META_COMMAND_PARAMETER_DESC (d3d12umddi.h)
 author: mimisasouvanh
 description: Meta-command parameter descriptions.
 ms.assetid: a3a5d723-9f3a-44fd-aa17-4e7d81918865
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_META_COMMAND_PARAMETER_DESC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_META_COMMAND_PARAMETER_DESC
+- D3D12DDIARG_META_COMMAND_PARAMETER_DESC
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

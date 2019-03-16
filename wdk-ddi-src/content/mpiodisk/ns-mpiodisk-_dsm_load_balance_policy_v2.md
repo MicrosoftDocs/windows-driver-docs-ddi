@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_Load_Balance_Policy_V2
-title: "_DSM_Load_Balance_Policy_V2"
+title: _DSM_Load_Balance_Policy_V2 (mpiodisk.h)
 description: The DSM_Load_Balance_Policy_V2 structure is used to represent a load balance policy that is applied to a LUN.
 old-location: storage\dsm_load_balance_policy_v2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	DSM_Load_Balance_Policy_V2
+- DSM_Load_Balance_Policy_V2
 product:
 - Windows
 targetos: Windows

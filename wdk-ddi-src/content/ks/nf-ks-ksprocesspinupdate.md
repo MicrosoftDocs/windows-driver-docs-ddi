@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsProcessPinUpdate
-title: KsProcessPinUpdate function
+title: KsProcessPinUpdate function (ks.h)
 description: The KsProcessPinUpdate function is called from within a filter-centric filter's AVStrMiniFilterProcess dispatch to update a process pin.
 old-location: stream\ksprocesspinupdate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsProcessPinUpdate
+- KsProcessPinUpdate
 product:
 - Windows
 targetos: Windows

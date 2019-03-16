@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcessAndAttach2Wide
-title: IDebugClient5::CreateProcessAndAttach2Wide
+title: IDebugClient5::CreateProcessAndAttach2Wide (dbgeng.h)
 description: The CreateProcessAndAttach2Wide method creates a process from a specified command line, then attach to that process or another user-mode process.
 old-location: debugger\createprocessandattach2wide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.CreateProcessAndAttach2Wide
+- IDebugClient5.CreateProcessAndAttach2Wide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSignature
-title: "_DXVA_COPPSignature"
+title: _DXVA_COPPSignature (dxva.h)
 description: The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session.
 old-location: display\dxva_coppsignature.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_COPPSignature
+- DXVA_COPPSignature
 product:
 - Windows
 targetos: Windows

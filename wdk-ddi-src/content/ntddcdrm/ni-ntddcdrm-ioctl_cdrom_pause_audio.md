@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_PAUSE_AUDIO
-title: IOCTL_CDROM_PAUSE_AUDIO
+title: IOCTL_CDROM_PAUSE_AUDIO (ntddcdrm.h)
 description: Suspends audio play. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_pause_audio.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_PAUSE_AUDIO
+- IOCTL_CDROM_PAUSE_AUDIO
 product:
 - Windows
 targetos: Windows

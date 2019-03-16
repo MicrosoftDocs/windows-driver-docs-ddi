@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_20
-title: BLOCK_DEVICE_TOKEN_DESCRIPTOR
+title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (scsi.h)
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	BLOCK_DEVICE_TOKEN_DESCRIPTOR
+- BLOCK_DEVICE_TOKEN_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_WRITE_REPORT
-title: IOCTL_HID_WRITE_REPORT
+title: IOCTL_HID_WRITE_REPORT (hidport.h)
 description: The IOCTL_HID_WRITE_REPORT request sends a HID report to a HIDClass device.
 old-location: hid\ioctl_hid_write_report.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_WRITE_REPORT
+- IOCTL_HID_WRITE_REPORT
 product:
 - Windows
 targetos: Windows

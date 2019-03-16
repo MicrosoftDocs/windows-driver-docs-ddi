@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_ABS_TIMEOUT_IN_SEC
-title: WDF_ABS_TIMEOUT_IN_SEC function
+title: WDF_ABS_TIMEOUT_IN_SEC function (wdfcore.h)
 description: The WDF_ABS_TIMEOUT_IN_SEC function converts a specified number of seconds to an absolute time value.
 old-location: wdf\wdf_abs_timeout_in_sec.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_ABS_TIMEOUT_IN_SEC
+- WDF_ABS_TIMEOUT_IN_SEC
 product:
 - Windows
 targetos: Windows

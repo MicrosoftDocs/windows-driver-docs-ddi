@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO
-title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO
+title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO (d3dkmddi.h)
 description: The pfnAcquirePathInfo function returns a descriptor of the video present path specified by a video present source and a video present target within a particular VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirepathinfo.htm
 ms.assetid: 27a03106-a5b5-489c-968a-81b3ea9940cb
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquirePathInfo
+- pfnAcquirePathInfo
 product:
 - Windows
 targetos: Windows

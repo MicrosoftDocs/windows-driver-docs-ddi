@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptDisable
-title: WdfInterruptDisable function
+title: WdfInterruptDisable function (wdfinterrupt.h)
 description: The WdfInterruptDisable method disables a specified device interrupt by calling the driver's EvtInterruptDisable callback function.
 old-location: wdf\wdfinterruptdisable.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfInterruptDisable
+- WdfInterruptDisable
 product:
 - Windows
 targetos: Windows

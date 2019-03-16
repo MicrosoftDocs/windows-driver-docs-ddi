@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BTH_PROFILE_DRIVER_INTERFACE
-title: "_BTH_PROFILE_DRIVER_INTERFACE"
+title: _BTH_PROFILE_DRIVER_INTERFACE (bthddi.h)
 description: The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free, initialize, and reuse BRBs, and to determine the currently installed Bluetooth version.
 old-location: bltooth\bth_profile_driver_interface.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	BTH_PROFILE_DRIVER_INTERFACE
+- BTH_PROFILE_DRIVER_INTERFACE
 product:
 - Windows
 targetos: Windows

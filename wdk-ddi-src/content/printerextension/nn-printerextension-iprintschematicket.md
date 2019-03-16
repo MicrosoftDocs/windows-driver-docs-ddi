@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaTicket
-title: IPrintSchemaTicket
+title: IPrintSchemaTicket (printerextension.h)
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaTicket
+- IPrintSchemaTicket
 product:
 - Windows
 targetos: Windows

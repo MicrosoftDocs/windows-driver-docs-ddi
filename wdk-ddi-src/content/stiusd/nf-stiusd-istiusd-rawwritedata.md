@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.RawWriteData
-title: IStiUSD::RawWriteData
+title: IStiUSD::RawWriteData (stiusd.h)
 description: A still image minidriver's IStiUSD::RawWriteData method writes data to a still image device.
 old-location: image\istiusd_rawwritedata.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD.RawWriteData
+- IStiUSD.RawWriteData
 product:
 - Windows
 targetos: Windows

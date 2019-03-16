@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnlockPages
-title: MmUnlockPages function
+title: MmUnlockPages function (wdm.h)
 description: The MmUnlockPages routine unlocks the physical pages that are described by the specified memory descriptor list (MDL).
 old-location: kernel\mmunlockpages.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnlockPages
+- MmUnlockPages
 product:
 - Windows
 targetos: Windows

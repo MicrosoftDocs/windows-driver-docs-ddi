@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_TRI_STATE
-title: "_WDF_TRI_STATE"
+title: _WDF_TRI_STATE (wudfddi_types.h)
 description: The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
 old-location: wdf\wdf_tri_state.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdftypes.h
--	wudfddi_types.h
+- wdftypes.h
+- wudfddi_types.h
 api_name:
--	WDF_TRI_STATE
+- WDF_TRI_STATE
 product:
 - Windows
 targetos: Windows

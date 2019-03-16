@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvNotifyPnpEvent
-title: IWiaMiniDrv::drvNotifyPnpEvent
+title: IWiaMiniDrv::drvNotifyPnpEvent (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvNotifyPnpEvent method responds to the event received from the WIA service.
 old-location: image\iwiaminidrv_drvnotifypnpevent.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvNotifyPnpEvent
+- IWiaMiniDrv.drvNotifyPnpEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_RENEWLICENSE
-title: "_BDA_WMDRM_RENEWLICENSE"
+title: _BDA_WMDRM_RENEWLICENSE (bdatypes.h)
 description: 
 old-location: stream\bda_wmdrm_renewlicense.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_WMDRM_RENEWLICENSE
+- BDA_WMDRM_RENEWLICENSE
 product:
 - Windows
 targetos: Windows

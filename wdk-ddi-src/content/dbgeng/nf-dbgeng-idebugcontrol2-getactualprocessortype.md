@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetActualProcessorType
-title: IDebugControl2::GetActualProcessorType
+title: IDebugControl2::GetActualProcessorType (dbgeng.h)
 description: The GetActualProcessorType method returns the processor type of the physical processor of the computer that is running the target.
 old-location: debugger\getactualprocessortype.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetActualProcessorType
--	IDebugControl2.GetActualProcessorType
--	IDebugControl3.GetActualProcessorType
+- IDebugControl.GetActualProcessorType
+- IDebugControl2.GetActualProcessorType
+- IDebugControl3.GetActualProcessorType
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetString
-title: IPrinterPropertyBag::GetString
+title: IPrinterPropertyBag::GetString (printerextension.h)
 description: Reads a string property.
 old-location: print\iprinterpropertybag_getstring.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterPropertyBag.GetString
+- IPrinterPropertyBag.GetString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_MEMORY_MAPPING_REQUIREMENT
-title: _NET_MEMORY_MAPPING_REQUIREMENT
+title: _NET_MEMORY_MAPPING_REQUIREMENT (netadapter.h)
 description: The NET_MEMORY_MAPPING_REQUIREMENT enumeration identifies the memory mapping requirement that a net adapter can specify for its receive and transmit buffers.
 tech.root: netvista
 ms.assetid: bc46ac6b-7971-408a-ab7b-aa920523bb9d
@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_MEMORY_MAPPING_REQUIREMENT, *PNET_MEMORY_MAPPING_REQUIREMENT
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	_NET_MEMORY_MAPPING_REQUIREMENT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- _NET_MEMORY_MAPPING_REQUIREMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

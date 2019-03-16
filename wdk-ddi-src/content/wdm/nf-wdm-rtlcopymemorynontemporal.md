@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCopyMemoryNonTemporal
-title: RtlCopyMemoryNonTemporal function
+title: RtlCopyMemoryNonTemporal function (wdm.h)
 description: This function copies from one buffer to another using non-temporal moves that do not pollute the cache. The buffers shouldn’t overlap.
 ms.assetid: 08dadbdf-95e4-4998-bdc3-dfc2528f028e
 ms.date: 10/19/2018
@@ -24,16 +24,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name: 
--	RtlCopyMemoryNonTemporal
+- RtlCopyMemoryNonTemporal
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETSTREAMSOURCEUM
-title: "_D3DDDIARG_SETSTREAMSOURCEUM"
+title: _D3DDDIARG_SETSTREAMSOURCEUM (d3dumddi.h)
 description: The D3DDDIARG_SETSTREAMSOURCEUM structure describes the vertex stream to bind to a user-memory buffer.
 old-location: display\d3dddiarg_setstreamsourceum.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETSTREAMSOURCEUM
+- D3DDDIARG_SETSTREAMSOURCEUM
 product:
 - Windows
 targetos: Windows

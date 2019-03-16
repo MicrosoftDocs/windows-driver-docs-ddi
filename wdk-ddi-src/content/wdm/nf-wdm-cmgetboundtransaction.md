@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmGetBoundTransaction
-title: CmGetBoundTransaction function
+title: CmGetBoundTransaction function (wdm.h)
 description: The CmGetBoundTransaction routine returns a pointer to the transaction object that represents the transaction, if any, that is associated with a specified registry key object.
 old-location: kernel\cmgetboundtransaction.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmGetBoundTransaction
+- CmGetBoundTransaction
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_SUBMITPRESENTTOHWQUEUE
-title: DXGIDDICB_SUBMITPRESENTTOHWQUEUE
+title: DXGIDDICB_SUBMITPRESENTTOHWQUEUE (dxgiddi.h)
 description: Arguments used by the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 6a7a5e66-d569-44ef-8be6-a01ea4dbd3ab
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dxgiddi.h
+- dxgiddi.h
 api_name: 
--	DXGIDDICB_SUBMITPRESENTTOHWQUEUE
+- DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

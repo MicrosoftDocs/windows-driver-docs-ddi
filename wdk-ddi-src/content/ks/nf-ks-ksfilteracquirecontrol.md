@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAcquireControl
-title: KsFilterAcquireControl function
+title: KsFilterAcquireControl function (ks.h)
 description: The KsFilterAcquireControl function acquires the filter control mutex for the AVStream filter specified by Filter.
 old-location: stream\ksfilteracquirecontrol.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsFilterAcquireControl
+- KsFilterAcquireControl
 product:
 - Windows
 targetos: Windows

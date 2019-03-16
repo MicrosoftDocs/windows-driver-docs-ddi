@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_DEVICE_PRESENT_INTERFACE
-title: "_PCI_DEVICE_PRESENT_INTERFACE"
+title: _PCI_DEVICE_PRESENT_INTERFACE (wdm.h)
 description: The PCI_DEVICE_PRESENT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_device_present_interface.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_DEVICE_PRESENT_INTERFACE
+- PCI_DEVICE_PRESENT_INTERFACE
 product:
 - Windows
 targetos: Windows

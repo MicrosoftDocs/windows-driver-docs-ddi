@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsGetCurrentCommunication
-title: IKsPin::KsGetCurrentCommunication
+title: IKsPin::KsGetCurrentCommunication (ksproxy.h)
 description: The KsGetCurrentCommunication method retrieves the current communication direction, interface, and medium of a pin.
 old-location: stream\ikspin_ksgetcurrentcommunication.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsGetCurrentCommunication
+- IKsPin.KsGetCurrentCommunication
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_WRITE_INPUT
-title: "_FSCTL_OFFLOAD_WRITE_INPUT"
+title: _FSCTL_OFFLOAD_WRITE_INPUT (ntifs.h)
 description: The FSCTL_OFFLOAD_WRITE_INPUT structure contains the input for the FSCTL_OFFLOAD_WRITE control code request.
 old-location: ifsk\fsctl_offload_write_input.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSCTL_OFFLOAD_WRITE_INPUT
+- FSCTL_OFFLOAD_WRITE_INPUT
 product:
 - Windows
 targetos: Windows

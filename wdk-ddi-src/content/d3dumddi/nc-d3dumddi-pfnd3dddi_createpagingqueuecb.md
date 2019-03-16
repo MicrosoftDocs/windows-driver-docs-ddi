@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEPAGINGQUEUECB
-title: PFND3DDDI_CREATEPAGINGQUEUECB
+title: PFND3DDDI_CREATEPAGINGQUEUECB (d3dumddi.h)
 description: pfnCreatePagingQueueCb is used to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\pfncreatepagingqueuecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnCreatePagingQueueCb
+- pfnCreatePagingQueueCb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_CREATECONTEXTALLOCATION
-title: DXGKCB_CREATECONTEXTALLOCATION
+title: DXGKCB_CREATECONTEXTALLOCATION (d3dkmddi.h)
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to allocate a GPU context or device-specific context.
 old-location: display\dxgkcbcreatecontextallocation.htm
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkCbCreateContextAllocation
+- DxgkCbCreateContextAllocation
 product:
 - Windows
 targetos: Windows

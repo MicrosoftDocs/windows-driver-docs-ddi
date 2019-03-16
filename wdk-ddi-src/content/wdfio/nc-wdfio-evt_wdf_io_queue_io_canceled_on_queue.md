@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
-title: EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
+title: EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE (wdfio.h)
 description: A driver's EvtIoCanceledOnQueue event callback function informs the driver that it must complete an I/O request that the framework has removed from an I/O queue.
 old-location: wdf\evtiocanceledonqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoCanceledOnQueue
+- EvtIoCanceledOnQueue
 product:
 - Windows
 targetos: Windows

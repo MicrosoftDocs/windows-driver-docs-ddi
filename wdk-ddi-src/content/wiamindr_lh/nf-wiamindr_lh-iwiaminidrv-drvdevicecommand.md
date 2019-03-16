@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeviceCommand
-title: IWiaMiniDrv::drvDeviceCommand
+title: IWiaMiniDrv::drvDeviceCommand (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvDeviceCommand method issues a command to a WIA device.
 old-location: image\iwiaminidrv_drvdevicecommand.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvDeviceCommand
+- IWiaMiniDrv.drvDeviceCommand
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassInitialize
-title: TapeClassInitialize function
+title: TapeClassInitialize function (minitape.h)
 description: The TapeClassInitialize routine performs much of the driver and device initialization on behalf of a miniclass driver.
 old-location: storage\tapeclassinitialize.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeClassInitialize
+- TapeClassInitialize
 product:
 - Windows
 targetos: Windows

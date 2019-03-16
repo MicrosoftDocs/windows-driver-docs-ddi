@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_SEND_MESSAGE
-title: DXGKCB_MIRACAST_SEND_MESSAGE
+title: DXGKCB_MIRACAST_SEND_MESSAGE (dispmprt.h)
 description: Sends an asynchronous message to the user-mode display driver.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkCbMiracastSendMessage
+- DxgkCbMiracastSendMessage
 product:
 - Windows
 targetos: Windows

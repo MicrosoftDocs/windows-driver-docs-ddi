@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
-title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
+title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: 5a3bb56d-cde5-4776-84af-ed1264577a51
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
+- EVT_TR_CANCEL_SECURE_SERVICE_REQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

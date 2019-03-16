@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCheckLockForReadAccess
-title: FltCheckLockForReadAccess function
+title: FltCheckLockForReadAccess function (fltkernel.h)
 description: The FltCheckLockForReadAccess routine determines whether the caller has read access to a locked byte range of a file.
 old-location: ifsk\fltchecklockforreadaccess.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCheckLockForReadAccess
+- FltCheckLockForReadAccess
 product:
 - Windows
 targetos: Windows

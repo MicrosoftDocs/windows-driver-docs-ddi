@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcWdmGetDpc
-title: WdfDpcWdmGetDpc function
+title: WdfDpcWdmGetDpc function (wdfdpc.h)
 description: The WdfDpcWdmGetDpc method returns a pointer to the KDPC structure that is associated with a specified framework DPC object.
 old-location: wdf\wdfdpcwdmgetdpc.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDpcWdmGetDpc
+- WdfDpcWdmGetDpc
 product:
 - Windows
 targetos: Windows

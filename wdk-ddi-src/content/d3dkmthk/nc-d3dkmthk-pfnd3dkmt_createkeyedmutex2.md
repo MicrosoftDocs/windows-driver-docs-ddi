@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEKEYEDMUTEX2
-title: PFND3DKMT_CREATEKEYEDMUTEX2
+title: PFND3DKMT_CREATEKEYEDMUTEX2 (d3dkmthk.h)
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTCreateKeyedMutex2
+- D3DKMTCreateKeyedMutex2
 product:
 - Windows
 targetos: Windows

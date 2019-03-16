@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.CreateScript
-title: IDataModelScriptProvider::CreateScript
+title: IDataModelScriptProvider::CreateScript (dbgmodel.h)
 description: The CreateScript method is called to create a new script. 
 ms.assetid: 00318d22-c30d-4279-92a2-5df4b46a841a
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProvider.CreateScript
-product: Windows
+- IDataModelScriptProvider.CreateScript
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

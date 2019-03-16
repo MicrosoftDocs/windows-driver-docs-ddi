@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RESETCOMMANDLIST_0040
-title: D3D12DDIARG_RESETCOMMANDLIST_0040
+title: D3D12DDIARG_RESETCOMMANDLIST_0040 (d3d12umddi.h)
 description: Reset the command list.
 ms.assetid: a9dcb7d6-1237-4678-aeb1-49360db2582c
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_RESETCOMMANDLIST_0040
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_RESETCOMMANDLIST_0040
+- D3D12DDIARG_RESETCOMMANDLIST_0040
 product: 
 - Windows
 targetos: Windows

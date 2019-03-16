@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_PALETTE_REGISTERS
-title: IOCTL_VIDEO_SET_PALETTE_REGISTERS
+title: IOCTL_VIDEO_SET_PALETTE_REGISTERS (ntddvdeo.h)
 description: Loads a specified portion of the adapter palette registers with an array of colors. Miniport drivers for VGA-compatible adapters are required to support this request, which is modal. Support is optional for other miniport drivers.
 old-location: display\ioctl_video_set_palette_registers.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_SET_PALETTE_REGISTERS
+- IOCTL_VIDEO_SET_PALETTE_REGISTERS
 product:
 - Windows
 targetos: Windows

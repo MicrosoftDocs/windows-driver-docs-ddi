@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetGfxState
-title: IMiniportAudioEngineNode::GetGfxState
+title: IMiniportAudioEngineNode::GetGfxState (portcls.h)
 description: Gets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_getgfxstate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetGfxState
+- IMiniportAudioEngineNode.GetGfxState
 product:
 - Windows
 targetos: Windows

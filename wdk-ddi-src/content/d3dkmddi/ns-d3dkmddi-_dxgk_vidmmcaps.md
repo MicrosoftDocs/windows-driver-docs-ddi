@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDMMCAPS
-title: "_DXGK_VIDMMCAPS"
+title: _DXGK_VIDMMCAPS (d3dkmddi.h)
 description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
 old-location: display\dxgk_vidmmcaps.htm
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_VIDMMCAPS
+- DXGK_VIDMMCAPS
 product:
 - Windows
 targetos: Windows

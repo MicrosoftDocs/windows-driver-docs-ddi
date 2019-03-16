@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetIoPriorityHintFromThread
-title: FltGetIoPriorityHintFromThread function
+title: FltGetIoPriorityHintFromThread function (fltkernel.h)
 description: The FltGetIoPriorityHintFromThread routine is used by a minifilter driver to get IO priority information from a thread.
 old-location: ifsk\fltgetiopriorityhintfromthread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetIoPriorityHintFromThread
+- FltGetIoPriorityHintFromThread
 product:
 - Windows
 targetos: Windows

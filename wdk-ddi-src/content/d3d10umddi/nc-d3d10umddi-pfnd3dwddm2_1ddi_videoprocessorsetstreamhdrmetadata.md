@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
-title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
+title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA (d3d10umddi.h)
 description: Sets stream HDR metadata to optimize video for display.
 ms.assetid: 7f8e5e1b-ba6a-4ac7-b1c4-6d3ee54bc822
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
+- PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
 product: 
 - Windows
 targetos: Windows

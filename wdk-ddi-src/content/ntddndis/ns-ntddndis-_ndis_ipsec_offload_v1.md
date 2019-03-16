@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_IPSEC_OFFLOAD_V1
-title: "_NDIS_IPSEC_OFFLOAD_V1"
+title: _NDIS_IPSEC_OFFLOAD_V1 (ntddndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V1 structure provides Internet protocol security (IPsec) task offload information in the NDIS_OFFLOAD structure.Note  NDIS_IPSEC_OFFLOAD_V1 is only for NDIS 6.0.
 old-location: netvista\ndis_ipsec_offload_v1.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_IPSEC_OFFLOAD_V1
+- NDIS_IPSEC_OFFLOAD_V1
 product:
 - Windows
 targetos: Windows

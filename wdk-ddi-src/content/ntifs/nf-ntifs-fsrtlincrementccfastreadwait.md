@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIncrementCcFastReadWait
-title: FsRtlIncrementCcFastReadWait function
+title: FsRtlIncrementCcFastReadWait function (ntifs.h)
 description: The FsRtlIncrementCcFastReadWait routine increments the CcFastReadWait performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadwait.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIncrementCcFastReadWait
+- FsRtlIncrementCcFastReadWait
 product:
 - Windows
 targetos: Windows

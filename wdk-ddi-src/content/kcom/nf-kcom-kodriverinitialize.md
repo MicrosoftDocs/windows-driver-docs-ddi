@@ -1,6 +1,6 @@
 ---
 UID: NF:kcom.KoDriverInitialize
-title: KoDriverInitialize function
+title: KoDriverInitialize function (kcom.h)
 description: The KoDriverInitialize function initializes a driver object to handle the kernel streaming interface.
 old-location: stream\kodriverinitialize.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KoDriverInitialize
+- KoDriverInitialize
 product:
 - Windows
 targetos: Windows

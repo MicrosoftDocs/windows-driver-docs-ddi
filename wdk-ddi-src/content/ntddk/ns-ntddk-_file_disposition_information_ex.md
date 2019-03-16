@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_DISPOSITION_INFORMATION_EX
-title: "_FILE_DISPOSITION_INFORMATION_EX"
+title: _FILE_DISPOSITION_INFORMATION_EX (ntddk.h)
 description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFileEx routine and indicates how the operating system should delete a file.
 old-location: ifsk\file_disposition_information_ex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_DISPOSITION_INFORMATION_EX
+- FILE_DISPOSITION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_END_RENDER_PASS
-title: PFND3D12DDI_END_RENDER_PASS
+title: PFND3D12DDI_END_RENDER_PASS (d3d12umddi.h)
 description: Implemented by the client driver to end a Render Pass.
 ms.assetid: ed21b9b2-3100-4d66-be48-f25567677427
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_END_RENDER_PASS
+- PFND3D12DDI_END_RENDER_PASS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

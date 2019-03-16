@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFC3MgmtInfo
-title: "_HBAFC3MgmtInfo"
+title: _HBAFC3MgmtInfo (hbapiwmi.h)
 description: The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter.
 old-location: storage\hbafc3mgmtinfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	HBAFC3MgmtInfo
+- HBAFC3MgmtInfo
 product:
 - Windows
 targetos: Windows

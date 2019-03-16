@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfinterfaces.IWDTFSimpleIOStressActions2
-title: IWDTFSimpleIOStressActions2
+title: IWDTFSimpleIOStressActions2 (wdtfinterfaces.h)
 description: Defines operations for a collection of simple asynchronous I/O functionality tests.
 old-location: dtf\iwdtfsimpleiostressactions2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfinterfaces.h
+- wdtfinterfaces.h
 api_name:
--	IWDTFSimpleIOStressActions2
+- IWDTFSimpleIOStressActions2
 product:
 - Windows
 targetos: Windows

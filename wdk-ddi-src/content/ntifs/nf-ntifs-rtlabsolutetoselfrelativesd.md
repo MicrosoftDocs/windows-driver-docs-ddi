@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAbsoluteToSelfRelativeSD
-title: RtlAbsoluteToSelfRelativeSD function
+title: RtlAbsoluteToSelfRelativeSD function (ntifs.h)
 description: The RtlAbsoluteToSelfRelativeSD routine creates a new security descriptor in self-relative format by using a security descriptor in absolute format as a template.
 old-location: ifsk\rtlabsolutetoselfrelativesd.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlAbsoluteToSelfRelativeSD
+- RtlAbsoluteToSelfRelativeSD
 product:
 - Windows
 targetos: Windows

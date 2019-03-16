@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorsstructures.__unnamed_struct_1
-title: MATRIX3X3
+title: MATRIX3X3 (sensorsstructures.h)
 description: Defines a 3x3 matrix.
 ms.assetid: 313cc2e2-544a-4c5e-a6fe-56443cf83f2f
 ms.date: 10/19/2018
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MATRIX3X3, *PMATRIX3X3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	MATRIX3X3
+- MATRIX3X3
 product: 
 - Windows
 targetos: Windows

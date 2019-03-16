@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DRIVER_UPGRADE_INFO_2
-title: "_DRIVER_UPGRADE_INFO_2"
+title: _DRIVER_UPGRADE_INFO_2 (winddiui.h)
 description: The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's DrvUpgradePrinter function.
 old-location: print\driver_upgrade_info_2.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DRIVER_UPGRADE_INFO_2
+- DRIVER_UPGRADE_INFO_2
 product:
 - Windows
 targetos: Windows

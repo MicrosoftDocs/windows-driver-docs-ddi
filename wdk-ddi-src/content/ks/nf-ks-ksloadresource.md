@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsLoadResource
-title: KsLoadResource function
+title: KsLoadResource function (ks.h)
 description: Copies (loads) a resource from the given image.
 old-location: stream\ksloadresource.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsLoadResource
+- KsLoadResource
 product:
 - Windows
 targetos: Windows

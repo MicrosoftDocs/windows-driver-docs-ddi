@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoStop.OnIoStop
-title: IQueueCallbackIoStop::OnIoStop
+title: IQueueCallbackIoStop::OnIoStop (wudfddi.h)
 description: The OnIoStop callback function stops the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackiostop_oniostop.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IQueueCallbackIoStop.OnIoStop
+- IQueueCallbackIoStop.OnIoStop
 product:
 - Windows
 targetos: Windows

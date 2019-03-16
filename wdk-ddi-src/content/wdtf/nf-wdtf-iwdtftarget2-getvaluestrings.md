@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueStrings
-title: IWDTFTarget2::GetValueStrings
+title: IWDTFTarget2::GetValueStrings (wdtf.h)
 description: Returns a collection of string values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluestrings.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.GetValueStrings
+- IWDTFTarget2.GetValueStrings
 product:
 - Windows
 targetos: Windows

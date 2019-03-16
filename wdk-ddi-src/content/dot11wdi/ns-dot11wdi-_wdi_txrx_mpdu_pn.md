@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_MPDU_PN
-title: "_WDI_TXRX_MPDU_PN"
+title: _WDI_TXRX_MPDU_PN (dot11wdi.h)
 description: The WDI_TXRX_MPDU_PN union defines the parameters that are passed down to the TXRX component.
 old-location: netvista\wdi_txrx_mpdu_pn.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_TXRX_MPDU_PN
+- WDI_TXRX_MPDU_PN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENNTHANDLEFROMNAME
-title: PFND3DKMT_OPENNTHANDLEFROMNAME
+title: PFND3DKMT_OPENNTHANDLEFROMNAME (d3dkmthk.h)
 description: From a given graphics adapter name, opens an NT handle to the process.
 old-location: display\d3dkmtopennthandlefromname.htm
 ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMTOpenNtHandleFromName
+- D3DKMTOpenNtHandleFromName
 product:
 - Windows
 targetos: Windows

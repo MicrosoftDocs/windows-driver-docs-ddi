@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.RetrieveVersionString
-title: IWDFDriver::RetrieveVersionString
+title: IWDFDriver::RetrieveVersionString (wudfddi.h)
 description: The RetrieveVersionString method retrieves the version of the framework.
 old-location: wdf\iwdfdriver_retrieveversionstring.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDriver.RetrieveVersionString
+- IWDFDriver.RetrieveVersionString
 product:
 - Windows
 targetos: Windows

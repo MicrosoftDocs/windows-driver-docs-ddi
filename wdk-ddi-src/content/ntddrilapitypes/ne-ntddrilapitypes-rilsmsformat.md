@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSMSFORMAT
-title: RILSMSFORMAT
+title: RILSMSFORMAT (ntddrilapitypes.h)
 description: The RILSMSFORMAT enumeration has the following values.
 old-location: netvista\rilsmsformat.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSMSFORMAT
+- RILSMSFORMAT
 product:
 - Windows
 targetos: Windows

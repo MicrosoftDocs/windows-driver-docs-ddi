@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_SCALE_PARAMETERS_V2
-title: "_NDIS_RECEIVE_SCALE_PARAMETERS_V2"
+title: _NDIS_RECEIVE_SCALE_PARAMETERS_V2 (ntddndis.h)
 description: The NDIS_RECEIVE_SCALE_PARAMETERS_V2 structure specifies the Receive Side Scaling (RSS) parameters for a miniport adapter that advertises support for RSS Version 2 (RSSv2). It is used in the OID_GEN_RECEIVE_SCALE_PARAMETERS_V2 RSSv2 OID.
 old-location: netvista\ndis_receive_scale_parameters_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_SCALE_PARAMETERS_V2
+- NDIS_RECEIVE_SCALE_PARAMETERS_V2
 product:
 - Windows
 targetos: Windows

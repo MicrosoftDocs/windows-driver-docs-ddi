@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInitialize
-title: IoCsqInitialize function
+title: IoCsqInitialize function (wdm.h)
 description: The IoCsqInitialize routine initializes the driver's cancel-safe IRP queue dispatch table.
 old-location: kernel\iocsqinitialize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCsqInitialize
+- IoCsqInitialize
 product:
 - Windows
 targetos: Windows

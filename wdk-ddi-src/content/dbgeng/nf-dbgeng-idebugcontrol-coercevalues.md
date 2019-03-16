@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.CoerceValues
-title: IDebugControl::CoerceValues
+title: IDebugControl::CoerceValues (dbgeng.h)
 description: The CoerceValues method converts an array of values into an array of values of different types.
 old-location: debugger\coercevalues.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.CoerceValues
--	IDebugControl2.CoerceValues
--	IDebugControl3.CoerceValues
+- IDebugControl.CoerceValues
+- IDebugControl2.CoerceValues
+- IDebugControl3.CoerceValues
 product:
 - Windows
 targetos: Windows

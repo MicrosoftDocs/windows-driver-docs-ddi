@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
-title: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
+title: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR (hidclass.h)
 description: The IOCTL_HID_GET_MS_GENRE_DESCRIPTOR request is used for retrieving the genre descriptor for the device.
 old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
+- IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

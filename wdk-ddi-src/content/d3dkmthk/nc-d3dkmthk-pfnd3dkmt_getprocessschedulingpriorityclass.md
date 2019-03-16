@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS
-title: PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS
+title: PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS (d3dkmthk.h)
 description: Pfnd3dkmtGetprocessschedulingpriorityclass retrieves the scheduling priority for a process.
 ms.assetid: 40923029-966b-4782-9d13-f647ddbc6ec0
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS
+- PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

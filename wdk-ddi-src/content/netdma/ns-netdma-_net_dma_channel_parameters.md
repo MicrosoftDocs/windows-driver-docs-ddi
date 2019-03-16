@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_CHANNEL_PARAMETERS
-title: "_NET_DMA_CHANNEL_PARAMETERS"
+title: _NET_DMA_CHANNEL_PARAMETERS (netdma.h)
 description: The NET_DMA_CHANNEL_PARAMETERS structure specifies the configuration parameters that a DMA provider driver should use to configure a DMA channel.
 old-location: netvista\net_dma_channel_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_CHANNEL_PARAMETERS
+- NET_DMA_CHANNEL_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwRegister
-title: EtwRegister function
+title: EtwRegister function (wdm.h)
 description: The EtwRegister function registers the event provider and must be called before a provider can start tracing.
 old-location: devtest\etwregister.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwRegister
+- EtwRegister
 product:
 - Windows
 targetos: Windows

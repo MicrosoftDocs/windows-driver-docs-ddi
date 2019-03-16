@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._KBUGCHECK_DATA
-title: "_KBUGCHECK_DATA"
+title: _KBUGCHECK_DATA (aux_klib.h)
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	aux_klib.h
+- aux_klib.h
 api_name:
--	KBUGCHECK_DATA
+- KBUGCHECK_DATA
 product:
 - Windows
 targetos: Windows

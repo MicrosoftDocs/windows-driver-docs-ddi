@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreThereCurrentOrInProgressFileLocks
-title: FsRtlAreThereCurrentOrInProgressFileLocks function
+title: FsRtlAreThereCurrentOrInProgressFileLocks function (ntifs.h)
 description: TheFsRtlAreThereCurrentOrInProgressFileLocks routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAreThereCurrentOrInProgressFileLocks
+- FsRtlAreThereCurrentOrInProgressFileLocks
 product:
 - Windows
 targetos: Windows

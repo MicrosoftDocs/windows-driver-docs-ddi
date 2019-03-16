@@ -1,6 +1,6 @@
 ---
 UID: NF:ioaccess.READ_REGISTER_USHORT~r2
-title: READ_REGISTER_USHORT function
+title: READ_REGISTER_USHORT function (ioaccess.h)
 description: The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address.
 old-location: kernel\read_register_ushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	READ_REGISTER_USHORT
+- READ_REGISTER_USHORT
 product:
 - Windows
 targetos: Windows

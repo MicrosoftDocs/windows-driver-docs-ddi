@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_LOCAL_INFORMATION
-title: "_FILE_PIPE_LOCAL_INFORMATION"
+title: _FILE_PIPE_LOCAL_INFORMATION (ntifs.h)
 description: The FILE_PIPE_LOCAL_INFORMATION structure contains information about the local end of a named pipe.
 old-location: ifsk\file_pipe_local_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_PIPE_LOCAL_INFORMATION
+- FILE_PIPE_LOCAL_INFORMATION
 product:
 - Windows
 targetos: Windows

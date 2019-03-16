@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl.UnbindDevice
-title: IBidiSpl::UnbindDevice
+title: IBidiSpl::UnbindDevice (bidispl.h)
 description: The UnbindDevice method unbinds a printer from a bidi request.
 old-location: print\ibidispl_ibidispl__unbinddevice.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiSpl.UnbindDevice
+- IBidiSpl.UnbindDevice
 product:
 - Windows
 targetos: Windows

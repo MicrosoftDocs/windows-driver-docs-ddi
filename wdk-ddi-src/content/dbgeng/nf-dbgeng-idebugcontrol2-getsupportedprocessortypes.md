@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetSupportedProcessorTypes
-title: IDebugControl2::GetSupportedProcessorTypes
+title: IDebugControl2::GetSupportedProcessorTypes (dbgeng.h)
 description: The GetSupportedProcessorTypes method returns the processor types supported by the debugger engine.
 old-location: debugger\getsupportedprocessortypes.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetSupportedProcessorTypes
--	IDebugControl2.GetSupportedProcessorTypes
--	IDebugControl3.GetSupportedProcessorTypes
+- IDebugControl.GetSupportedProcessorTypes
+- IDebugControl2.GetSupportedProcessorTypes
+- IDebugControl3.GetSupportedProcessorTypes
 product:
 - Windows
 targetos: Windows

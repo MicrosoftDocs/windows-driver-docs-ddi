@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExecutionStatus
-title: IDebugControl3::GetExecutionStatus
+title: IDebugControl3::GetExecutionStatus (dbgeng.h)
 description: The GetExecutionStatus method returns information about the execution status of the debugger engine.
 old-location: debugger\getexecutionstatus.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetExecutionStatus
--	IDebugControl2.GetExecutionStatus
--	IDebugControl3.GetExecutionStatus
+- IDebugControl.GetExecutionStatus
+- IDebugControl2.GetExecutionStatus
+- IDebugControl3.GetExecutionStatus
 product:
 - Windows
 targetos: Windows

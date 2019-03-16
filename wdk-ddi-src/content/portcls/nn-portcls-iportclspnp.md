@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsPnp
-title: IPortClsPnp
+title: IPortClsPnp (portcls.h)
 description: IPortClsPnp is the PnP management interface that the port class driver (PortCls) exposes to the adapter.
 old-location: audio\iportclspnp.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsPnp
+- IPortClsPnp
 product:
 - Windows
 targetos: Windows

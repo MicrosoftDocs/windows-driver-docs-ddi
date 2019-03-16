@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.SetSize
-title: IPrinterScriptableStream::SetSize
+title: IPrinterScriptableStream::SetSize (printerextension.h)
 description: Sets the size of the scriptable stream, in bytes.
 old-location: print\iprinterscriptablestream__setsize.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptableStream.SetSize
+- IPrinterScriptableStream.SetSize
 product:
 - Windows
 targetos: Windows

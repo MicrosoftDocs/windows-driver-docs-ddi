@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_CONTROLLER_RESET
-title: EVT_UFX_DEVICE_CONTROLLER_RESET
+title: EVT_UFX_DEVICE_CONTROLLER_RESET (ufxclient.h)
 description: The client driver's implementation to reset the function controller to its initial state.
 old-location: buses\evt_ufx_device_controller_reset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_CONTROLLER_RESET
+- PFN_UFX_DEVICE_CONTROLLER_RESET
 product:
 - Windows
 targetos: Windows

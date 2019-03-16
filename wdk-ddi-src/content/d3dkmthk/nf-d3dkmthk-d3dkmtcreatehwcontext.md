@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateHwContext
-title: D3DKMTCreateHwContext function
+title: D3DKMTCreateHwContext function (d3dkmthk.h)
 description: Used to create a new hardware context.
 old-location: display\d3dkmtcreatehwcontext.htm
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateHwContext
+- D3DKMTCreateHwContext
 product:
 - Windows
 targetos: Windows

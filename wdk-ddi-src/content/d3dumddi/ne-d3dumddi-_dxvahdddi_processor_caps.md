@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_PROCESSOR_CAPS
-title: _DXVAHDDDI_PROCESSOR_CAPS
+title: _DXVAHDDDI_PROCESSOR_CAPS (d3dumddi.h)
 description: Specifies Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor capabilities.
 ms.assetid: 54845c1d-9efc-45c1-a028-1f8e049e868b
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXVAHDDDI_PROCESSOR_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_DXVAHDDDI_PROCESSOR_CAPS
+- _DXVAHDDDI_PROCESSOR_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

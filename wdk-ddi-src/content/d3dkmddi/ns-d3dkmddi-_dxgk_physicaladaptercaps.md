@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICALADAPTERCAPS
-title: "_DXGK_PHYSICALADAPTERCAPS"
+title: _DXGK_PHYSICALADAPTERCAPS (d3dkmddi.h)
 description: The DXGK_PHYSICALADAPTERCAPS structure is used to report details of a physical adapter.
 old-location: display\dxgk_physicaladaptercaps.htm
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PHYSICALADAPTERCAPS
+- DXGK_PHYSICALADAPTERCAPS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMGetOffloadHandlers
-title: NdisMGetOffloadHandlers function
+title: NdisMGetOffloadHandlers function (ndischimney.h)
 description: This function obtains the entry points of the NDIS functions for a particular chimney type.
 old-location: netvista\ndismgetoffloadhandlers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMGetOffloadHandlers
+- NdisMGetOffloadHandlers
 product:
 - Windows
 targetos: Windows

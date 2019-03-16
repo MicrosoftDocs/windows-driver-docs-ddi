@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
-title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES (sidebandaudio.h)
 description: 
 ms.assetid: 83effb29-cc30-4be5-ac4c-e35b18b073f6
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
-product: Windows
+- IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwGetNotificationResourceManager
-title: ZwGetNotificationResourceManager function
+title: ZwGetNotificationResourceManager function (wdm.h)
 description: The ZwGetNotificationResourceManager routine retrieves the next transaction notification from a specified resource manager's notification queue.
 old-location: kernel\zwgetnotificationresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwGetNotificationResourceManager
--	NtGetNotificationResourceManager
+- ZwGetNotificationResourceManager
+- NtGetNotificationResourceManager
 product:
 - Windows
 targetos: Windows

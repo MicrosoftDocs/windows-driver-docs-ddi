@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TABLE_SECTION
-title: "_BDA_TABLE_SECTION"
+title: _BDA_TABLE_SECTION (bdatypes.h)
 description: The BDA_TABLE_SECTION structure describes a table section.
 old-location: stream\bda_table_section.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDA_TABLE_SECTION
+- BDA_TABLE_SECTION
 product:
 - Windows
 targetos: Windows

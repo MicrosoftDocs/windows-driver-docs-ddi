@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.Reset
-title: IKeyEnumerator::Reset
+title: IKeyEnumerator::Reset (dbgmodel.h)
 description: Resets the enumerator to its initial state. 
 ms.assetid: e0015d19-19cc-4ffc-90cd-e4b690847cbb
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyEnumerator.Reset
-product: Windows
+- IKeyEnumerator.Reset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

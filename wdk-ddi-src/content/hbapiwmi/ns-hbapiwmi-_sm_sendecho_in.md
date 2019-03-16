@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendECHO_IN
-title: "_SM_SendECHO_IN"
+title: _SM_SendECHO_IN (hbapiwmi.h)
 description: The SM_SendECHO_IN structure is used to provide input parameters to the SM_SendECHO method.
 old-location: storage\sm_sendecho_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendECHO_IN
+- SM_SendECHO_IN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
-title: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
+title: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE (bthhfpddi.h)
 description: The IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE IOCTL Gets a stream channel status update.
 old-location: audio\ioctl_bthhfp_stream_get_status_update.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
+- IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_BREAKPOINT
-title: "_DEBUG_LAST_EVENT_INFO_BREAKPOINT"
+title: _DEBUG_LAST_EVENT_INFO_BREAKPOINT (dbgeng.h)
 description: Describes the breakpoint of the last event.
 old-location: debugger\debug_last_event_info_breakpoint.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_LAST_EVENT_INFO_BREAKPOINT
+- DEBUG_LAST_EVENT_INFO_BREAKPOINT
 product:
 - Windows
 targetos: Windows

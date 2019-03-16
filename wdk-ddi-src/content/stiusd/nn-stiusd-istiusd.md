@@ -1,6 +1,6 @@
 ---
 UID: NN:stiusd.IStiUSD
-title: IStiUSD
+title: IStiUSD (stiusd.h)
 description: This section describes the methods defined for the IStiUSD COM Interface. Method prototypes are contained in Stiusd.h.
 old-location: image\istiusd_interface_methods.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiUSD
+- IStiUSD
 product:
 - Windows
 targetos: Windows

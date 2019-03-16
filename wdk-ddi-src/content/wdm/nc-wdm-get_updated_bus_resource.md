@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_UPDATED_BUS_RESOURCE
-title: GET_UPDATED_BUS_RESOURCE
+title: GET_UPDATED_BUS_RESOURCE (wdm.h)
 description: Reports the latest resource lists.
 ms.assetid: d2624b1d-c2db-4240-ae78-1bda7efb8c7f
 ms.date: 10/19/2018
@@ -23,14 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	GET_UPDATED_BUS_RESOURCE
-product: Windows
+- GET_UPDATED_BUS_RESOURCE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

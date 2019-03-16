@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsRemoveCreateThreadNotifyRoutine
-title: PsRemoveCreateThreadNotifyRoutine function
+title: PsRemoveCreateThreadNotifyRoutine function (ntddk.h)
 description: The PsRemoveCreateThreadNotifyRoutine routine removes a callback routine that was registered by the PsSetCreateThreadNotifyRoutine routine.
 old-location: kernel\psremovecreatethreadnotifyroutine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsRemoveCreateThreadNotifyRoutine
+- PsRemoveCreateThreadNotifyRoutine
 product:
 - Windows
 targetos: Windows

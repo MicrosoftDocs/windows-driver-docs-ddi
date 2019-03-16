@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_COUNTER_INFO
-title: D3DDDIARG_COUNTER_INFO
+title: D3DDDIARG_COUNTER_INFO (d3dumddi.h)
 description: Describes info to manipulate counters.
 old-location: display\d3dddiarg_counter_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIARG_COUNTER_INFO
+- D3DDDIARG_COUNTER_INFO
 product:
 - Windows
 targetos: Windows

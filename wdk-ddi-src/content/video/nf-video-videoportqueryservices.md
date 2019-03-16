@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortQueryServices
-title: VideoPortQueryServices function
+title: VideoPortQueryServices function (video.h)
 description: The VideoPortQueryServices function exposes a specified interface that is implemented by the video port driver.
 old-location: display\videoportqueryservices.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortQueryServices
+- VideoPortQueryServices
 product:
 - Windows
 targetos: Windows

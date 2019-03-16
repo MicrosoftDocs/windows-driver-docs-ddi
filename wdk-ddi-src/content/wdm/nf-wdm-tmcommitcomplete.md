@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmCommitComplete
-title: TmCommitComplete function
+title: TmCommitComplete function (wdm.h)
 description: The TmCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction.
 old-location: kernel\tmcommitcomplete.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmCommitComplete
+- TmCommitComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCancelIo
-title: KsCancelIo function
+title: KsCancelIo function (ks.h)
 description: The KsCancelIo function cancels all IRPs on the specified cancel list. If an IRP on the list does not have a cancel routine, only the cancel bit is set in the IRP. The function can be called at IRQ level DISPATCH_LEVEL or lower.
 old-location: stream\kscancelio.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsCancelIo
+- KsCancelIo
 product:
 - Windows
 targetos: Windows

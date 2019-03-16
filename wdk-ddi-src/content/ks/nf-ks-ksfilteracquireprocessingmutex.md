@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAcquireProcessingMutex
-title: KsFilterAcquireProcessingMutex function
+title: KsFilterAcquireProcessingMutex function (ks.h)
 description: The KsFilterAcquireProcessingMutex function acquires the processing mutex for a specified AVStream filter.
 old-location: stream\ksfilteracquireprocessingmutex.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterAcquireProcessingMutex
+- KsFilterAcquireProcessingMutex
 product:
 - Windows
 targetos: Windows

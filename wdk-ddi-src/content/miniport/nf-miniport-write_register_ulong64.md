@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_ULONG64
-title: WRITE_REGISTER_ULONG64 function
+title: WRITE_REGISTER_ULONG64 function (miniport.h)
 description: The WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 old-location: wdf\write_register_ulong64.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_REGISTER_ULONG64
+- WRITE_REGISTER_ULONG64
 product:
 - Windows
 targetos: Windows

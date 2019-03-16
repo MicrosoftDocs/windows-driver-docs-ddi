@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmProbeAndLockSelectedPages
-title: MmProbeAndLockSelectedPages function
+title: MmProbeAndLockSelectedPages function (wdm.h)
 description: The MmProbeAndLockSelectedPages routine probes the selected virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockselectedpages_.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MmProbeAndLockSelectedPages
+- MmProbeAndLockSelectedPages
 product:
 - Windows
 targetos: Windows

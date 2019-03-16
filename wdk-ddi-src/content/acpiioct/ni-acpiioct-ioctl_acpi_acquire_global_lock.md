@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
-title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK (acpiioct.h)
 description: The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for internal use only.
 old-location: acpi\ioctl_acpi_acquire_global_lock.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+- IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 product:
 - Windows
 targetos: Windows

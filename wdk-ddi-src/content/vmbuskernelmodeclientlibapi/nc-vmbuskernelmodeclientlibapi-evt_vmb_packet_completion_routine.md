@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_PACKET_COMPLETION_ROUTINE
-title: EVT_VMB_PACKET_COMPLETION_ROUTINE
+title: EVT_VMB_PACKET_COMPLETION_ROUTINE (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbPacketCompletionRoutine callback function is invoked when the transaction associated with a sent packet is complete.
 old-location: netvista\evt_vmb_packet_completion_routine.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	VmbusKernelModeClientLibApi.h
+- VmbusKernelModeClientLibApi.h
 api_name:
--	PFN_VMB_PACKET_COMPLETION_ROUTINE
+- PFN_VMB_PACKET_COMPLETION_ROUTINE
 product:
 - Windows
 targetos: Windows

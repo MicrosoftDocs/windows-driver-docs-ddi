@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSAMPLERS
-title: PFND3D10DDI_SETSAMPLERS
+title: PFND3D10DDI_SETSAMPLERS (d3d10umddi.h)
 description: The CsSetSamplers function sets samplers for a compute shader.
 old-location: display\cssetsamplers.htm
 ms.assetid: 7bf05fb6-e959-464a-9e6b-74c568d1d88c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CsSetSamplers
+- CsSetSamplers
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Impersonate
-title: IWDFIoRequest::Impersonate
+title: IWDFIoRequest::Impersonate (wudfddi.h)
 description: The Impersonate method registers the interface for the method that the framework should call for impersonation.
 old-location: wdf\iwdfiorequest_impersonate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.Impersonate
+- IWDFIoRequest.Impersonate
 product:
 - Windows
 targetos: Windows

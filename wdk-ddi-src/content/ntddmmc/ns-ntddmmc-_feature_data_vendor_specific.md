@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_VENDOR_SPECIFIC
-title: "_FEATURE_DATA_VENDOR_SPECIFIC"
+title: _FEATURE_DATA_VENDOR_SPECIFIC (ntddmmc.h)
 description: The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-specific feature.
 old-location: storage\feature_data_vendor_specific.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_VENDOR_SPECIFIC
+- FEATURE_DATA_VENDOR_SPECIFIC
 product:
 - Windows
 targetos: Windows

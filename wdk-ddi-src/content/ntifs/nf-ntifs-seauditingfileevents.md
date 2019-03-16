@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingFileEvents
-title: SeAuditingFileEvents function
+title: SeAuditingFileEvents function (ntifs.h)
 description: The SeAuditingFileEvents routine determines whether file open events are currently being audited.
 old-location: ifsk\seauditingfileevents.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeAuditingFileEvents
+- SeAuditingFileEvents
 product:
 - Windows
 targetos: Windows

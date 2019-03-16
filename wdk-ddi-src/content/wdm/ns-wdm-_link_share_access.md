@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._LINK_SHARE_ACCESS
-title: "_LINK_SHARE_ACCESS"
+title: _LINK_SHARE_ACCESS (wdm.h)
 description: The share access structure used by file systems for only link files.
 old-location: kernel\link_share_access.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	LINK_SHARE_ACCESS
+- LINK_SHARE_ACCESS
 product:
 - Windows
 targetos: Windows

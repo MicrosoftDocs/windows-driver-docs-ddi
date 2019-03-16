@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2
-title: IWDTFEnhancedDeviceTestSupportAction2
+title: IWDTFEnhancedDeviceTestSupportAction2 (wdtfedtaction.h)
 description: Defines operations and properties that support the Enhanced Device Test (EDT) filter driver.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverEDTAction.Interop.dll
+- WDTFDriverEDTAction.Interop.dll
 api_name:
--	IWDTFEnhancedDeviceTestSupportAction2
+- IWDTFEnhancedDeviceTestSupportAction2
 product:
 - Windows
 targetos: Windows

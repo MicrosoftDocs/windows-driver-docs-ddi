@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
-title: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
+title: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE (d3d10umddi.h)
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: display\d3d11_1ddi_video_processor_output_rate.htm
 ms.assetid: ff34c208-9b42-4f72-bb2a-43f3bb44fd68
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
+- D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
 product:
 - Windows
 targetos: Windows

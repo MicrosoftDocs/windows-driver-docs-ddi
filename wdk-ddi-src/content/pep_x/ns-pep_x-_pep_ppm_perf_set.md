@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_PERF_SET
-title: "_PEP_PPM_PERF_SET"
+title: _PEP_PPM_PERF_SET (pep_x.h)
 description: The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor.
 old-location: kernel\pep_ppm_perf_set.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_PERF_SET
+- PEP_PPM_PERF_SET
 product:
 - Windows
 targetos: Windows

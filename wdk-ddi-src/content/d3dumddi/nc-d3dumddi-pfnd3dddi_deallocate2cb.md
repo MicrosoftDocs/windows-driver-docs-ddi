@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEALLOCATE2CB
-title: PFND3DDDI_DEALLOCATE2CB
+title: PFND3DDDI_DEALLOCATE2CB (d3dumddi.h)
 description: The pfnDeallocate2Cb user mode callback function releases allocations for a kernel-mode resource object if the resource object was created.
 old-location: display\pfndeallocate2cb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnDeallocate2Cb
+- pfnDeallocate2Cb
 product:
 - Windows
 targetos: Windows

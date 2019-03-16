@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_DEAUTHENTICATE_DEVICE
-title: "_MSR_DEAUTHENTICATE_DEVICE"
+title: _MSR_DEAUTHENTICATE_DEVICE (pointofservicedriverinterface.h)
 description: This structure provides the information necessary to deauthenticate the device.
 old-location: pos\msr_deauthenticate_device.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_DEAUTHENTICATE_DEVICE
+- MSR_DEAUTHENTICATE_DEVICE
 product:
 - Windows
 targetos: Windows

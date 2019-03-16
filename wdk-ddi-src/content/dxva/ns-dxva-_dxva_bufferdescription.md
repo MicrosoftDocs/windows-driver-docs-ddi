@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_BufferDescription
-title: "_DXVA_BufferDescription"
+title: _DXVA_BufferDescription (dxva.h)
 description: The DXVA_BufferDescription structure is sent by the host decoder to the accelerator to provide information to the accelerator about the buffer that is currently being passed from the host to the accelerator.
 old-location: display\dxva_bufferdescription.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_BufferDescription
+- DXVA_BufferDescription
 product:
 - Windows
 targetos: Windows

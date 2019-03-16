@@ -1,6 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_SET_CONFIGURATION
-title: IOCTL_PMI_SET_CONFIGURATION
+title: IOCTL_PMI_SET_CONFIGURATION (pmi.h)
 description: The IOCTL_PMI_SET_CONFIGURATION request sets the configuration data for a power meter.
 old-location: powermeter\ioctl_pmi_set_configuration.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pmi.h
+- Pmi.h
 api_name:
--	IOCTL_PMI_SET_CONFIGURATION
+- IOCTL_PMI_SET_CONFIGURATION
 product:
 - Windows
 targetos: Windows

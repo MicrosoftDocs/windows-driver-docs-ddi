@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-title: "_SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
+title: _SECURE_ELEMENT_ROUTING_TABLE_ENTRY (nfcsedev.h)
 description: SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of SECURE_ELEMENT_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table_entry.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_ROUTING_TABLE_ENTRY
+- SECURE_ELEMENT_ROUTING_TABLE_ENTRY
 product:
 - Windows
 targetos: Windows

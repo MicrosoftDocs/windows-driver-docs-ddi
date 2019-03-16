@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
-title: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
+title: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB (d3dumddi.h)
 description: A callback to submit a command to the hardware queue.
 old-location: display\pfnd3dddi_submitcommandtohwqueuecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
+- PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
 product:
 - Windows
 targetos: Windows

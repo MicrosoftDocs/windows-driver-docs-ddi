@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.GetInfo
-title: IWDFInterrupt::GetInfo
+title: IWDFInterrupt::GetInfo (wudfddi.h)
 description: The GetInfo method retrieves information about a specified interrupt.
 old-location: wdf\iwdfinterrupt_getinfo.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFInterrupt.GetInfo
+- IWDFInterrupt.GetInfo
 product:
 - Windows
 targetos: Windows

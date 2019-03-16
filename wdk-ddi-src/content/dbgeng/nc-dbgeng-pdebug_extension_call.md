@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_CALL
-title: PDEBUG_EXTENSION_CALL
+title: PDEBUG_EXTENSION_CALL (dbgeng.h)
 description: Callback functions of the type PDEBUG_EXTENSION_CALL are called by the engine to execute extension commands. You can give these functions any name you want, as long as it contains no uppercase letters.
 old-location: debugger\pdebug_extension_call.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	DebugExtensionCall
+- DebugExtensionCall
 product:
 - Windows
 targetos: Windows

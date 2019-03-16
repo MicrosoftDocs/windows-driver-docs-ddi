@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_VALUE
-title: "_DEBUG_VALUE"
+title: _DEBUG_VALUE (dbgeng.h)
 description: The DEBUG_VALUE structure holds register and expression values.
 old-location: debugger\debug_value.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dbgEng.h
+- dbgEng.h
 api_name:
--	DEBUG_VALUE
+- DEBUG_VALUE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_BLUETOOTH_COEXISTENCE_SUPPORT
-title: "_WDI_BLUETOOTH_COEXISTENCE_SUPPORT"
+title: _WDI_BLUETOOTH_COEXISTENCE_SUPPORT (wditypes.h)
 description: The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration defines Bluetooth coexistence support values.
 old-location: netvista\wdi_bluetooth_coexistence_support.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_BLUETOOTH_COEXISTENCE_SUPPORT
+- WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 product:
 - Windows
 targetos: Windows

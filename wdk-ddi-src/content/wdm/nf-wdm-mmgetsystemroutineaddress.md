@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmGetSystemRoutineAddress
-title: MmGetSystemRoutineAddress function
+title: MmGetSystemRoutineAddress function (wdm.h)
 description: The MmGetSystemRoutineAddress routine returns a pointer to a function specified by SystemRoutineName.
 old-location: kernel\mmgetsystemroutineaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmGetSystemRoutineAddress
+- MmGetSystemRoutineAddress
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND_PDU
-title: "_WWAN_SMS_SEND_PDU"
+title: _WWAN_SMS_SEND_PDU (wwan.h)
 description: The WWAN_SMS_SEND_PDU structure represents a PDU-style SMS message.
 old-location: netvista\wwan_sms_send_pdu.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_SEND_PDU
+- WWAN_SMS_SEND_PDU
 product:
 - Windows
 targetos: Windows

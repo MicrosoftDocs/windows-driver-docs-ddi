@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseGuardedMutexUnsafe
-title: KeReleaseGuardedMutexUnsafe function
+title: KeReleaseGuardedMutexUnsafe function (wdm.h)
 description: The KeReleaseGuardedMutexUnsafe routine releases a guarded mutex acquired by KeAcquireGuardedMutexUnsafe.
 old-location: kernel\kereleaseguardedmutexunsafe.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseGuardedMutexUnsafe
+- KeReleaseGuardedMutexUnsafe
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

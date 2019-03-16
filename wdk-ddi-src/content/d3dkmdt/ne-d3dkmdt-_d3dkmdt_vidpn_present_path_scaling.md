@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_SCALING
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_SCALING"
+title: _D3DKMDT_VIDPN_PRESENT_PATH_SCALING (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration is used to indicate the scaling transformation applied to content displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_scaling.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+- D3DKMDT_VIDPN_PRESENT_PATH_SCALING
 product:
 - Windows
 targetos: Windows

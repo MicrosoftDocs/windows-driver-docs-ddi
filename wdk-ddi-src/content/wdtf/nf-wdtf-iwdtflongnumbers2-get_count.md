@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get_Count
-title: IWDTFLongNumbers2::get_Count
+title: IWDTFLongNumbers2::get_Count (wdtf.h)
 description: Gets the number of long numbers in the collection.
 old-location: dtf\iwdtflongnumbers2_count.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLongNumbers2.Count
--	IWDTFLongNumbers2.get_Count
+- IWDTFLongNumbers2.Count
+- IWDTFLongNumbers2.get_Count
 product:
 - Windows
 targetos: Windows

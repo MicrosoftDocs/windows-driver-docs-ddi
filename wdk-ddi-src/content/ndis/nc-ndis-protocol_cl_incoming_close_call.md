@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_CLOSE_CALL
-title: PROTOCOL_CL_INCOMING_CLOSE_CALL
+title: PROTOCOL_CL_INCOMING_CLOSE_CALL (ndis.h)
 description: The ProtocolClIncomingCloseCall function is used by all connection-oriented NDIS clients.
 old-location: netvista\protocolclincomingclosecall.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClIncomingCloseCall
+- ProtocolClIncomingCloseCall
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PHYSICAL_PAPER_SIZE
-title: "_PDEV_ADJUST_PHYSICAL_PAPER_SIZE"
+title: _PDEV_ADJUST_PHYSICAL_PAPER_SIZE (printoem.h)
 description: The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
 old-location: print\pdev_adjust_paper_physical_size.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	PDEV_ADJUST_PHYSICAL_PAPER_SIZE
+- PDEV_ADJUST_PHYSICAL_PAPER_SIZE
 product:
 - Windows
 targetos: Windows

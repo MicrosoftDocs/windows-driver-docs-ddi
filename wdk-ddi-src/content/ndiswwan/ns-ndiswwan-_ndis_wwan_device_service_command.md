@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_COMMAND
-title: "_NDIS_WWAN_DEVICE_SERVICE_COMMAND"
+title: _NDIS_WWAN_DEVICE_SERVICE_COMMAND (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
 old-location: netvista\ndis_wwan_device_service_command.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_SERVICE_COMMAND
+- NDIS_WWAN_DEVICE_SERVICE_COMMAND
 product:
 - Windows
 targetos: Windows

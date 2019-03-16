@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CLIENT_EVENT
-title: PFN_WSK_CLIENT_EVENT
+title: PFN_WSK_CLIENT_EVENT (wsk.h)
 description: The WskClientEvent event callback function notifies a WSK application about events that are not specific to a particular socket.
 old-location: netvista\wskclientevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskClientEvent
+- WskClientEvent
 product:
 - Windows
 targetos: Windows

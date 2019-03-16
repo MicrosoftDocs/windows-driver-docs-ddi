@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._WIDTHTABLE
-title: "_WIDTHTABLE"
+title: _WIDTHTABLE (prntfont.h)
 description: The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\widthtable.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	WIDTHTABLE
+- WIDTHTABLE
 product:
 - Windows
 targetos: Windows

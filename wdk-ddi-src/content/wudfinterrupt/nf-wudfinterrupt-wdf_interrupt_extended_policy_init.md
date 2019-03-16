@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfinterrupt.WDF_INTERRUPT_EXTENDED_POLICY_INIT
-title: WDF_INTERRUPT_EXTENDED_POLICY_INIT function
+title: WDF_INTERRUPT_EXTENDED_POLICY_INIT function (wudfinterrupt.h)
 description: The WDF_INTERRUPT_EXTENDED_POLICY_INIT function initializes a WDF_INTERRUPT_EXTENDED_POLICY structure.
 old-location: wdf\wdf_interrupt_extended_policy_init_umdf.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	WDF_INTERRUPT_EXTENDED_POLICY_INIT
+- WDF_INTERRUPT_EXTENDED_POLICY_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_PAGE_FAULT_FLAGS
-title: "_DXGK_PAGE_FAULT_FLAGS"
+title: _DXGK_PAGE_FAULT_FLAGS (d3dkmdt.h)
 description: DXGK_PAGE_FAULT_FLAGS enumeration describes the nature of the page fault that has occurred and the prescribed OS recovery action.
 old-location: display\dxgk_page_fault_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	DXGK_PAGE_FAULT_FLAGS
+- DXGK_PAGE_FAULT_FLAGS
 product:
 - Windows
 targetos: Windows

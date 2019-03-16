@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxroothub._TRISTATE
-title: "_TRISTATE"
+title: _TRISTATE (ucxroothub.h)
 description: The TRISTATE enumeration indicates generic state values for true or false.
 old-location: buses\tristate.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	TRISTATE
+- TRISTATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateMailslotFile
-title: FltCreateMailslotFile function
+title: FltCreateMailslotFile function (fltkernel.h)
 description: Minifilter drivers call FltCreateMailslotFile to create a new pipe or open an existing mailslot.
 old-location: ifsk\fltcreatemailslotfile.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltCreateMailslotFile
+- FltCreateMailslotFile
 product:
 - Windows
 targetos: Windows

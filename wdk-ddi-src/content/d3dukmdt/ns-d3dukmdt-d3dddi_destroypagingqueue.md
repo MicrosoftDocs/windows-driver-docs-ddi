@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_DESTROYPAGINGQUEUE
-title: D3DDDI_DESTROYPAGINGQUEUE
+title: D3DDDI_DESTROYPAGINGQUEUE (d3dukmdt.h)
 description: D3DDDI_DESTROYPAGINGQUEUE is used with pfnDestroyPagingQueueCb and D3DKMTDestroyPagingQueue to wait for a paging queue to finish all operations queued to it and destroy it along with the associated sync object.
 old-location: display\d3dddi_destroypagingqueue.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_DESTROYPAGINGQUEUE
+- D3DDDI_DESTROYPAGINGQUEUE
 product:
 - Windows
 targetos: Windows

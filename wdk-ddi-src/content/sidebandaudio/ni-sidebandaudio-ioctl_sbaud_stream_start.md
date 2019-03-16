@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_START
-title: IOCTL_SBAUD_STREAM_START
+title: IOCTL_SBAUD_STREAM_START (sidebandaudio.h)
 description: 
 ms.assetid: 65009cf5-5f6b-4dfc-b3d9-fade63426bf9
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_STREAM_START
-product: Windows
+- IOCTL_SBAUD_STREAM_START
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

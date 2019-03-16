@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
-title: "_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
+title: _UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION (ucmtcpciportcontroller.h)
 description: Contains identification information and USB specification version information (in BCD format) about the port controller.
 old-location: buses\ucmtcpci_port_controller_identification.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
+- UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
 product:
 - Windows
 targetos: Windows

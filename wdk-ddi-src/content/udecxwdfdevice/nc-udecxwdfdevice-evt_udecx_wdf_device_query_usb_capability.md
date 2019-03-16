@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxwdfdevice.EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY
-title: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY
+title: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY (udecxwdfdevice.h)
 description: The UDE client driver's implementation to determine the capabilities that are supported by the emulated USB host controller.
 old-location: buses\evt_udecx_wdf_device_query_usb_capability.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	UdecxWdfDevice.h
+- UdecxWdfDevice.h
 api_name:
--	EvtUdecxWdfDeviceQueryUsbCapability
+- EvtUdecxWdfDeviceQueryUsbCapability
 product:
 - Windows
 targetos: Windows

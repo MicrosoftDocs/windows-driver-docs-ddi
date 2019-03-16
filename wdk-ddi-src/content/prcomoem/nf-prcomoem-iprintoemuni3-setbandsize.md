@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.SetBandSize
-title: IPrintOemUni3::SetBandSize
+title: IPrintOemUni3::SetBandSize (prcomoem.h)
 description: The IPrintOemUni3::SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
 old-location: print\iprintoemuni3_setbandsize.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni3.SetBandSize
+- IPrintOemUni3.SetBandSize
 product:
 - Windows
 targetos: Windows

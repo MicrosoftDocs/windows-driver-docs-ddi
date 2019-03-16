@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION_INSERT_KEY
-title: "_STOR_CRYPTO_OPERATION_INSERT_KEY"
+title: _STOR_CRYPTO_OPERATION_INSERT_KEY (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_insert_key.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_CRYPTO_OPERATION_INSERT_KEY
+- STOR_CRYPTO_OPERATION_INSERT_KEY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectionType
-title: IPrintSchemaFeature::get_SelectionType
+title: IPrintSchemaFeature::get_SelectionType (printerextension.h)
 description: Gets the selection type of the Feature.
 old-location: print\iprintschemafeature_selectiontype.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaFeature.SelectionType
--	IPrintSchemaFeature.get_SelectionType
+- IPrintSchemaFeature.SelectionType
+- IPrintSchemaFeature.get_SelectionType
 product:
 - Windows
 targetos: Windows

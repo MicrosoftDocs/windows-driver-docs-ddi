@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYADAPTERINFOCB2
-title: PFND3DDDI_QUERYADAPTERINFOCB2
+title: PFND3DDDI_QUERYADAPTERINFOCB2 (d3dumddi.h)
 description: Implemented by the client driver to retrieve graphics adapter information.
 ms.assetid: f60b6167-b294-4f6e-9338-4f937a838712
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	PFND3DDDI_QUERYADAPTERINFOCB2
+- PFND3DDDI_QUERYADAPTERINFOCB2
 product: 
 - Windows
 targetos: Windows

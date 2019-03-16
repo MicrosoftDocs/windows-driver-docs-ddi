@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRACKEDWORKLOADFLAGS
-title: _D3DKMT_TRACKEDWORKLOADFLAGS
+title: _D3DKMT_TRACKEDWORKLOADFLAGS (d3dkmthk.h)
 description: A workload may be periodic, have similar load, or both.
 ms.assetid: 31f01df5-7df0-4671-9bb9-92b68b3c501c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_TRACKEDWORKLOADFLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRACKEDWORKLOADFLAGS
+- _D3DKMT_TRACKEDWORKLOADFLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

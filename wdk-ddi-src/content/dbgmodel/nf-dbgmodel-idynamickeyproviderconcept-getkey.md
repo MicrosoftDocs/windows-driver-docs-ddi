@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.GetKey
-title: IDynamicKeyProviderConcept::GetKey
+title: IDynamicKeyProviderConcept::GetKey (dbgmodel.h)
 description: The GetKey method on a dynamic key provider is largely an override of the GetKey method on IModelObject. 
 ms.assetid: f4aaf952-3d3d-4d42-b6e9-bc716c93fdfb
 ms.date: 09/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDynamicKeyProviderConcept.GetKey
-product: Windows
+- IDynamicKeyProviderConcept.GetKey
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CONTROLMODEBEHAVIOR
-title: _DXGKARG_CONTROLMODEBEHAVIOR
+title: _DXGKARG_CONTROLMODEBEHAVIOR (d3dkmddi.h)
 description: Arguments used to describe display mode behaviors that the OS requests of the driver and the results of the request.
 ms.assetid: 708d7d44-6261-438f-93e7-f12e338e870e
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_CONTROLMODEBEHAVIOR
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_CONTROLMODEBEHAVIOR
+- _DXGKARG_CONTROLMODEBEHAVIOR
 product: 
 - Windows
 targetos: Windows

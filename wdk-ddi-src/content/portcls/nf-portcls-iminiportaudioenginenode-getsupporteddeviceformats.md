@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetSupportedDeviceFormats
-title: IMiniportAudioEngineNode::GetSupportedDeviceFormats
+title: IMiniportAudioEngineNode::GetSupportedDeviceFormats (portcls.h)
 description: Gets the supported audio data formats for the audio device.
 old-location: audio\iminiportaudioenginenode_getsupporteddeviceformats.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetSupportedDeviceFormats
+- IMiniportAudioEngineNode.GetSupportedDeviceFormats
 product:
 - Windows
 targetos: Windows

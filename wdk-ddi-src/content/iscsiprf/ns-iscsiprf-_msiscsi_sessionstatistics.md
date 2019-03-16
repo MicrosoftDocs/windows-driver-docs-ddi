@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_SessionStatistics
-title: "_MSiSCSI_SessionStatistics"
+title: _MSiSCSI_SessionStatistics (iscsiprf.h)
 description: The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics.
 old-location: storage\msiscsi_sessionstatistics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_SessionStatistics
+- MSiSCSI_SessionStatistics
 product:
 - Windows
 targetos: Windows

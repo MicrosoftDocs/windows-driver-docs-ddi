@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_ACCESS_RANGE
-title: "_VIDEO_ACCESS_RANGE"
+title: _VIDEO_ACCESS_RANGE (video.h)
 description: The VIDEO_ACCESS_RANGE structure defines a device I/O port or memory range for the video adapter.
 old-location: display\video_access_range.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_ACCESS_RANGE
+- VIDEO_ACCESS_RANGE
 product:
 - Windows
 targetos: Windows

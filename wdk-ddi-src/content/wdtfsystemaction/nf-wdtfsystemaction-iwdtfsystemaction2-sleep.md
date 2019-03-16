@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.Sleep
-title: IWDTFSystemAction2::Sleep
+title: IWDTFSystemAction2::Sleep (wdtfsystemaction.h)
 description: Puts the system into the desired sleep state.
 old-location: dtf\iwdtfsystemaction2_sleep.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.Sleep
+- IWDTFSystemAction2.Sleep
 product:
 - Windows
 targetos: Windows

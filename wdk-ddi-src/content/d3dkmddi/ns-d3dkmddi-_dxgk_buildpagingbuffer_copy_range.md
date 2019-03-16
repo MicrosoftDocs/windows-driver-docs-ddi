@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_COPY_RANGE
-title: "_DXGK_BUILDPAGINGBUFFER_COPY_RANGE"
+title: _DXGK_BUILDPAGINGBUFFER_COPY_RANGE (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_COPY_RANGE is used as part of a page table entry copy operation.
 old-location: display\dxgk_buildpagingbuffer_copy_range.htm
 ms.assetid: BA35F50C-7399-41DC-A10B-2F5E4BB24B49
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_COPY_RANGE
+- DXGK_BUILDPAGINGBUFFER_COPY_RANGE
 product:
 - Windows
 targetos: Windows

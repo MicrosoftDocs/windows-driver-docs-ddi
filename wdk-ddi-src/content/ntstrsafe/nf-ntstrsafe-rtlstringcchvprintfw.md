@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchVPrintfW
-title: RtlStringCchVPrintfW function
+title: RtlStringCchVPrintfW function (ntstrsafe.h)
 description: The RtlStringCchVPrintfW and RtlStringCchVPrintfA functions create a character-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcchvprintf.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCchVPrintfW
--	RtlStringCchVPrintfA
--	RtlStringCchVPrintfW
+- RtlStringCchVPrintfW
+- RtlStringCchVPrintfA
+- RtlStringCchVPrintfW
 product:
 - Windows
 targetos: Windows

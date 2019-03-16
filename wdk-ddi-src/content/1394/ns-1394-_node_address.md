@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NODE_ADDRESS
-title: "_NODE_ADDRESS"
+title: _NODE_ADDRESS (1394.h)
 description: The NODE_ADDRESS structure specifies the 10-bit bus number and 6-bit node number that serve as the node address for a 1394 node.
 old-location: ieee\node_address.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	NODE_ADDRESS
+- NODE_ADDRESS
 product:
 - Windows
 targetos: Windows

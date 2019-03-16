@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwFlushVirtualMemory
-title: ZwFlushVirtualMemory function
+title: ZwFlushVirtualMemory function (ntifs.h)
 description: The ZwFlushVirtualMemory routine flushes a range of virtual addresses within the virtual address space of a specified process which map to a data file back out to the data file if they have been modified.
 old-location: kernel\zwflushvirtualmemory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwFlushVirtualMemory
--	NtFlushVirtualMemory
+- ZwFlushVirtualMemory
+- NtFlushVirtualMemory
 product:
 - Windows
 targetos: Windows

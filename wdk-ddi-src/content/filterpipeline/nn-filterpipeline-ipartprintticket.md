@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartPrintTicket
-title: IPartPrintTicket
+title: IPartPrintTicket (filterpipeline.h)
 description: The IPartPrintTicket interface is the abstraction for a print ticket in an XPS document.
 old-location: print\ipartprintticket.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartPrintTicket
+- IPartPrintTicket
 product:
 - Windows
 targetos: Windows

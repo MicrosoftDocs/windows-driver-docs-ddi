@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateContext
-title: FltAllocateContext function
+title: FltAllocateContext function (fltkernel.h)
 description: The FltAllocateContext routine allocates a context structure for a specified context type.
 old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltAllocateContext
+- FltAllocateContext
 product:
 - Windows
 targetos: Windows

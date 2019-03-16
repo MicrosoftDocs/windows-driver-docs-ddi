@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.ResumePlmPackageWide
-title: IDebugPlmClient3::ResumePlmPackageWide
+title: IDebugPlmClient3::ResumePlmPackageWide (dbgeng.h)
 description: Resumes a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_resumeplmpackagewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugPlmClient3.ResumePlmPackageWide
+- IDebugPlmClient3.ResumePlmPackageWide
 product:
 - Windows
 targetos: Windows

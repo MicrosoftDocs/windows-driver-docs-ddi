@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveOutputMemory
-title: IWDFIoRequest2::RetrieveOutputMemory
+title: IWDFIoRequest2::RetrieveOutputMemory (wudfddi.h)
 description: The RetrieveOutputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputmemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.RetrieveOutputMemory
+- IWDFIoRequest2.RetrieveOutputMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
-title: IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
+title: IDARG_OUT_OPM_GET_CERTIFICATE_SIZE (iddcx.h)
 description: Gives information about the OPM certificate size.
 old-location: display\idarg_out_opm_get_certificate_size.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
+- IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
 product:
 - Windows
 targetos: Windows

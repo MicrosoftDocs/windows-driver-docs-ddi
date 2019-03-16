@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
-title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
+title: _USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION (usbioctl.h)
 description: Contains registration information filled when the IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request completes.
 old-location: buses\usb_transport_characteristics_change_notification.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
+- USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

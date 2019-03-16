@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._CPSUICBPARAM
-title: "_CPSUICBPARAM"
+title: _CPSUICBPARAM (compstui.h)
 description: The CPSUICBPARAM structure is used as the input parameter to _CPSUICALLBACK-typed callback functions.
 old-location: print\cpsuicbparam.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	CPSUICBPARAM
+- CPSUICBPARAM
 product:
 - Windows
 targetos: Windows

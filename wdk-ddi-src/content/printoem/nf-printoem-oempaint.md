@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMPaint
-title: OEMPaint function
+title: OEMPaint function (printoem.h)
 description: The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.
 old-location: print\oempaint.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMPaint
+- OEMPaint
 product:
 - Windows
 targetos: Windows

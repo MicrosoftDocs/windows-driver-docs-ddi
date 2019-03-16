@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION_STATUS
-title: "_WWAN_SERVICE_ACTIVATION_STATUS"
+title: _WWAN_SERVICE_ACTIVATION_STATUS (wwan.h)
 description: The WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the MB device.
 old-location: netvista\wwan_service_activation_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SERVICE_ACTIVATION_STATUS
+- WWAN_SERVICE_ACTIVATION_STATUS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetEventCallbacksWide
-title: IDebugClient5::SetEventCallbacksWide
+title: IDebugClient5::SetEventCallbacksWide (dbgeng.h)
 description: The SetEventCallbacksWide method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbackswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.SetEventCallbacksWide
+- IDebugClient5.SetEventCallbacksWide
 product:
 - Windows
 targetos: Windows

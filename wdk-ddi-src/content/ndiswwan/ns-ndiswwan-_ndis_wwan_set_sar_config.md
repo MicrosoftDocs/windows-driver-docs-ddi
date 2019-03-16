@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_SAR_CONFIG
-title: _NDIS_WWAN_SET_SAR_CONFIG
+title: _NDIS_WWAN_SET_SAR_CONFIG (ndiswwan.h)
 description: The NDIS_WWAN_SET_SAR_CONFIG structure describes Specific Absorption Rate (SAR) information that a mobile broadband (MB) modem should use to set its SAR configuration.
 tech.root: netvista
 ms.assetid: 1d92e287-b6d5-4eb6-9d34-963331b04a00
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_SET_SAR_CONFIG
+- _NDIS_WWAN_SET_SAR_CONFIG
 product:
 - Windows
 targetos: Windows

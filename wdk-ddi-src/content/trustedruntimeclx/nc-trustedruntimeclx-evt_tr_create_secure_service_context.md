@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CREATE_SECURE_SERVICE_CONTEXT
-title: EVT_TR_CREATE_SECURE_SERVICE_CONTEXT
+title: EVT_TR_CREATE_SECURE_SERVICE_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: b150ac4b-ea12-4acf-8f97-b651f1d59ccb
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_CREATE_SECURE_SERVICE_CONTEXT
+- EVT_TR_CREATE_SECURE_SERVICE_CONTEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

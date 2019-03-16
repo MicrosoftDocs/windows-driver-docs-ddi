@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUnicodeStringToInteger
-title: RtlUnicodeStringToInteger function
+title: RtlUnicodeStringToInteger function (wdm.h)
 description: The RtlUnicodeStringToInteger routine converts a Unicode string representation of a number to the equivalent integer value.
 old-location: kernel\rtlunicodestringtointeger.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlUnicodeStringToInteger
+- RtlUnicodeStringToInteger
 product:
 - Windows
 targetos: Windows

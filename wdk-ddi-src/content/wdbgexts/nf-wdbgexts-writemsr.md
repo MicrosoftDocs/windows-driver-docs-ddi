@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteMsr
-title: WriteMsr function
+title: WriteMsr function (wdbgexts.h)
 description: The WriteMsr function writes to a Model-Specific Register (MSR).
 old-location: debugger\writemsr.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	WriteMsr
+- WriteMsr
 product:
 - Windows
 targetos: Windows

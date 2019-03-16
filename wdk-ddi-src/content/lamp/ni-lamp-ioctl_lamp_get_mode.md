@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_MODE
-title: IOCTL_LAMP_GET_MODE
+title: IOCTL_LAMP_GET_MODE (lamp.h)
 description: The IOCTL_LAMP_GET_MODE control code queries the mode with which the lamp is currently configured.
 old-location: stream\ioctl_lamp_get_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	IOCTL_LAMP_GET_MODE
+- IOCTL_LAMP_GET_MODE
 product:
 - Windows
 targetos: Windows

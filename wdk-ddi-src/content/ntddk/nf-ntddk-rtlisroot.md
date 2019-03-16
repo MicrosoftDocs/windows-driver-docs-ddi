@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsRoot
-title: RtlIsRoot macro
+title: RtlIsRoot macro (ntddk.h)
 description: The RtlIsRoot routine determines whether the specified node is the root node of a splay link tree.
 old-location: ifsk\rtlisroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlIsRoot
+- RtlIsRoot
 product:
 - Windows
 targetos: Windows

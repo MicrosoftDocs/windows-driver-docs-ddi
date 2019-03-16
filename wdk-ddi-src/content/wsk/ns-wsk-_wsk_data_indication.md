@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_DATA_INDICATION
-title: "_WSK_DATA_INDICATION"
+title: _WSK_DATA_INDICATION (wsk.h)
 description: The WSK_DATA_INDICATION structure describes data that has been received on a connection-oriented socket.
 old-location: netvista\wsk_data_indication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_DATA_INDICATION
+- WSK_DATA_INDICATION
 product:
 - Windows
 targetos: Windows

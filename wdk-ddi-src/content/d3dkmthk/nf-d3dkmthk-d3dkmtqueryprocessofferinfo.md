@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProcessOfferInfo
-title: D3DKMTQueryProcessOfferInfo function
+title: D3DKMTQueryProcessOfferInfo function (d3dkmthk.h)
 description: Queries the process offer info.
 ms.assetid: d0f123c1-9ec6-4872-8bae-1974052fafbf
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTQueryProcessOfferInfo
+- D3DKMTQueryProcessOfferInfo
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

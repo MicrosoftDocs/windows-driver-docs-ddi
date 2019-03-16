@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_MANAGEMENT_CAPABILITIES
-title: "_BAND_MANAGEMENT_CAPABILITIES"
+title: _BAND_MANAGEMENT_CAPABILITIES (ehstorbandmgmt.h)
 description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request.
 old-location: storage\band_management_capabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	BAND_MANAGEMENT_CAPABILITIES
+- BAND_MANAGEMENT_CAPABILITIES
 product:
 - Windows
 targetos: Windows

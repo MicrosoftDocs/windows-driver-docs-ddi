@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrToUChar
-title: RtlIntPtrToUChar function
+title: RtlIntPtrToUChar function (ntintsafe.h)
 description: Converts a value of type INT_PTR to a value of type UCHAR.
 old-location: kernel\rtlintptrtouchar.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlIntPtrToUChar
+- RtlIntPtrToUChar
 product:
 - Windows
 targetos: Windows

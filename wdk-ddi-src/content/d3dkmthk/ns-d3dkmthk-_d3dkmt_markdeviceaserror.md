@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MARKDEVICEASERROR
-title: _D3DKMT_MARKDEVICEASERROR
+title: _D3DKMT_MARKDEVICEASERROR (d3dkmthk.h)
 description: Marks a device as error.
 ms.assetid: d2fd01ec-02fe-4e9e-9fc9-68202f7de079
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MARKDEVICEASERROR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MARKDEVICEASERROR
+- _D3DKMT_MARKDEVICEASERROR
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

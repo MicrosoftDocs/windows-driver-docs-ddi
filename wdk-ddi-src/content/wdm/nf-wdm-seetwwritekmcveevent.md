@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeEtwWriteKMCveEvent
-title: SeEtwWriteKMCveEvent function
+title: SeEtwWriteKMCveEvent function (wdm.h)
 description: The SeEtwWriteKMCveEvent function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.
 old-location: devtest\seetwwritekmcveevent.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	SeEtwWriteKMCveEvent
+- SeEtwWriteKMCveEvent
 product:
 - Windows
 targetos: Windows

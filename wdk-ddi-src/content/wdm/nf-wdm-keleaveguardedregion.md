@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeLeaveGuardedRegion
-title: KeLeaveGuardedRegion function
+title: KeLeaveGuardedRegion function (wdm.h)
 description: The KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
 old-location: kernel\keleaveguardedregion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeLeaveGuardedRegion
+- KeLeaveGuardedRegion
 product:
 - Windows
 targetos: Windows

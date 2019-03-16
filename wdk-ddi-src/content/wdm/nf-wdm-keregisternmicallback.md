@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterNmiCallback
-title: KeRegisterNmiCallback function
+title: KeRegisterNmiCallback function (wdm.h)
 description: The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
 old-location: kernel\keregisternmicallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRegisterNmiCallback
+- KeRegisterNmiCallback
 product:
 - Windows
 targetos: Windows

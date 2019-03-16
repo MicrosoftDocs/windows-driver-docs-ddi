@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExpressionSyntax
-title: IDebugControl3::GetExpressionSyntax
+title: IDebugControl3::GetExpressionSyntax (dbgeng.h)
 description: The GetExpressionSyntax method returns the current syntax that the engine is using for evaluating expressions.
 old-location: debugger\getexpressionsyntax.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetExpressionSyntax
+- IDebugControl3.GetExpressionSyntax
 product:
 - Windows
 targetos: Windows

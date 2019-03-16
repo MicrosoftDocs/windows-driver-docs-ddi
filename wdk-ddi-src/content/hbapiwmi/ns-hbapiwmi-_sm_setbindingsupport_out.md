@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetBindingSupport_OUT
-title: "_SM_SetBindingSupport_OUT"
+title: _SM_SetBindingSupport_OUT (hbapiwmi.h)
 description: The SM_SetBindingSupport_OUT structure is used to receive output parameters from the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SetBindingSupport_OUT
+- SM_SetBindingSupport_OUT
 product:
 - Windows
 targetos: Windows

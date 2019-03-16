@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptExecutionKind
-title: ScriptExecutionKind
+title: ScriptExecutionKind (dbgmodel.h)
 description: Defines the kind of execution to do.
 ms.assetid: f39e999b-9d77-496b-841d-c89d13b776d3
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptExecutionKind
-product: Windows
+- ScriptExecutionKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

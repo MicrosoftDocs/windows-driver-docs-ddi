@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDD_CX_CLIENT_CONFIG
-title: IDD_CX_CLIENT_CONFIG
+title: IDD_CX_CLIENT_CONFIG (iddcx.h)
 description: The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the display driver can use.
 old-location: display\idd_cx_client_config.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDD_CX_CLIENT_CONFIG
+- IDD_CX_CLIENT_CONFIG
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD
-title: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD
+title: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD (d3d10umddi.h)
 description: The ResourceReadAfterWriteHazard function informs the user-mode display driver that the specified resource was used as an output from the graphics processing unit (GPU) and that the resource will be used as an input to the GPU.
 old-location: display\resourcereadafterwritehazard.htm
 ms.assetid: 4d7dd4f5-9792-48cb-bf69-3903ac9dda75
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceReadAfterWriteHazard
+- ResourceReadAfterWriteHazard
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSCONTEXT_DISPATCH
-title: PFNKSCONTEXT_DISPATCH
+title: PFNKSCONTEXT_DISPATCH (ks.h)
 description: A streaming minidriver's KStrContextDispatch routine is called to process IRP_MJ_POWER IRPs.
 old-location: stream\kstrcontextdispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrContextDispatch
+- KStrContextDispatch
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetProperties
-title: ISensorDriver::OnGetProperties
+title: ISensorDriver::OnGetProperties (sensorsclassextension.h)
 description: The ISensorDriver::OnGetProperties method retrieves values for the specified properties from the specified sensor.
 old-location: sensors\isensordriver_ongetproperties.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetProperties
+- OnGetProperties
 product:
 - Windows
 targetos: Windows

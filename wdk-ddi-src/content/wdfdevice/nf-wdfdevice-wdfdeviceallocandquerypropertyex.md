@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAllocAndQueryPropertyEx
-title: WdfDeviceAllocAndQueryPropertyEx function
+title: WdfDeviceAllocAndQueryPropertyEx function (wdfdevice.h)
 description: The WdfDeviceAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdfdeviceallocandquerypropertyex.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: APC_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceAllocAndQueryPropertyEx
+- WdfDeviceAllocAndQueryPropertyEx
 product:
 - Windows
 targetos: Windows

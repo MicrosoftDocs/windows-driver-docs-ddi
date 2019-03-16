@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_STATUS
-title: IOCTL_CHANGER_GET_STATUS
+title: IOCTL_CHANGER_GET_STATUS (ntddchgr.h)
 description: Returns the current status of the device.
 old-location: storage\ioctl_changer_get_status.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddchgr.h
+- Ntddchgr.h
 api_name:
--	IOCTL_CHANGER_GET_STATUS
+- IOCTL_CHANGER_GET_STATUS
 product:
 - Windows
 targetos: Windows

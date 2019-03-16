@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.WriteToErrorLog
-title: IStillImageW::WriteToErrorLog
+title: IStillImageW::WriteToErrorLog (sti.h)
 description: The IStillImage::WriteToErrorLog method writes a message to the still image error log.
 old-location: image\istillimage_writetoerrorlog.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.WriteToErrorLog
+- IStillImageW.WriteToErrorLog
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:winspool.__unnamed_enum_0
-title: BIDI_TYPE
+title: BIDI_TYPE (winspool.h)
 description: The BIDI_TYPE enumeration lists the possible values of data transferred in a bidi operation.
 old-location: print\bidi_type.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BIDI_TYPE
+- BIDI_TYPE
 product:
 - Windows
 targetos: Windows

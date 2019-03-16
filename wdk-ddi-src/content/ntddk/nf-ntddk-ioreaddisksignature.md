@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReadDiskSignature
-title: IoReadDiskSignature function
+title: IoReadDiskSignature function (ntddk.h)
 description: The IoReadDiskSignature routine reads the disk signature information for the partition table of a disk.
 old-location: storage\ioreaddisksignature.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReadDiskSignature
+- IoReadDiskSignature
 product:
 - Windows
 targetos: Windows

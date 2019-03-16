@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIHandleToInstanceName
-title: IoWMIHandleToInstanceName function
+title: IoWMIHandleToInstanceName function (wdm.h)
 description: The IoWMIHandleToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a file handle.
 old-location: kernel\iowmihandletoinstancename.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIHandleToInstanceName
+- IoWMIHandleToInstanceName
 product:
 - Windows
 targetos: Windows

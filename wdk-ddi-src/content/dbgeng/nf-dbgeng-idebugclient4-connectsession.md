@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.ConnectSession
-title: IDebugClient4::ConnectSession
+title: IDebugClient4::ConnectSession (dbgeng.h)
 description: The ConnectSession method joins the client to an existing debugger session.
 old-location: debugger\connectsession.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.ConnectSession
--	IDebugClient2.ConnectSession
--	IDebugClient3.ConnectSession
--	IDebugClient4.ConnectSession
--	IDebugClient5.ConnectSession
+- IDebugClient.ConnectSession
+- IDebugClient2.ConnectSession
+- IDebugClient3.ConnectSession
+- IDebugClient4.ConnectSession
+- IDebugClient5.ConnectSession
 product:
 - Windows
 targetos: Windows

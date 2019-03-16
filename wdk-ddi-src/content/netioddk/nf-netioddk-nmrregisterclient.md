@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrRegisterClient
-title: NmrRegisterClient function
+title: NmrRegisterClient function (netioddk.h)
 description: The NmrRegisterClient function registers a client module with the NMR.
 old-location: netvista\nmrregisterclient.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	NmrRegisterClient
+- NmrRegisterClient
 product:
 - Windows
 targetos: Windows

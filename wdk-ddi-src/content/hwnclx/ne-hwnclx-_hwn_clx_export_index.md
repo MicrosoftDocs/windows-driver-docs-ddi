@@ -1,6 +1,6 @@
 ---
 UID: NE:hwnclx._HWN_CLX_EXPORT_INDEX
-title: "_HWN_CLX_EXPORT_INDEX"
+title: _HWN_CLX_EXPORT_INDEX (hwnclx.h)
 description: Defines the position for each of the Hardware Notification exports in the export table.
 old-location: gpiobtn\_hwn_clx_export_index.htm
 tech.root: gpiobtn
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hwnclx.h
+- Hwnclx.h
 api_name:
--	HWN_CLX_EXPORT_INDEX
+- HWN_CLX_EXPORT_INDEX
 product:
 - Windows
 targetos: Windows

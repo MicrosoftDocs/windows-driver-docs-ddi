@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmCloseAddressFamilyComplete
-title: NdisMCmCloseAddressFamilyComplete macro
+title: NdisMCmCloseAddressFamilyComplete macro (ndis.h)
 description: NdisMCmCloseAddressFamilyComplete returns the final status of a client's request, for which the MCM driver returned NDIS_STATUS_PENDING, to close the AF.
 old-location: netvista\ndismcmcloseaddressfamilycomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmCloseAddressFamilyComplete
+- NdisMCmCloseAddressFamilyComplete
 product:
 - Windows
 targetos: Windows

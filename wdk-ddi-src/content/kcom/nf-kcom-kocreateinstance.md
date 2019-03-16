@@ -1,6 +1,6 @@
 ---
 UID: NF:kcom.KoCreateInstance
-title: KoCreateInstance function
+title: KoCreateInstance function (kcom.h)
 description: The KoCreateInstance function creates an object of the class with the specified CLSID.
 old-location: stream\kocreateinstance.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KoCreateInstance
+- KoCreateInstance
 product:
 - Windows
 targetos: Windows

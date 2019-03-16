@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.RxPrepareContextForReuse
-title: RxPrepareContextForReuse function
+title: RxPrepareContextForReuse function (rxcontx.h)
 description: RxPrepareContextForReuse prepares an RX_CONTEXT data structure for reuse by resetting all of the operation-specific allocations and acquisitions that have been made (the ReferenceCount member to the RX_CONTEXT structure is set to zero).
 old-location: ifsk\rxpreparecontextforreuse.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxcontx.h
+- rxcontx.h
 api_name:
--	RxPrepareContextForReuse
+- RxPrepareContextForReuse
 product:
 - Windows
 targetos: Windows

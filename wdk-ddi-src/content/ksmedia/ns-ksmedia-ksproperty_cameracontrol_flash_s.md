@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_120
-title: KSPROPERTY_CAMERACONTROL_FLASH_S
+title: KSPROPERTY_CAMERACONTROL_FLASH_S (ksmedia.h)
 description: Describes flash control properties in the PROPSETID_VIDCAP_CAMERACONTROL_FLASH camera control property set. This structure specifies property values that are used by applications to configure the camera's flash.
 old-location: stream\ksproperty_cameracontrol_flash_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_FLASH_S
+- KSPROPERTY_CAMERACONTROL_FLASH_S
 product:
 - Windows
 targetos: Windows

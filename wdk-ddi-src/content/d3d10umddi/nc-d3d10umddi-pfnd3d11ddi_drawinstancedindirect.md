@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DRAWINSTANCEDINDIRECT
-title: PFND3D11DDI_DRAWINSTANCEDINDIRECT
+title: PFND3D11DDI_DRAWINSTANCEDINDIRECT (d3d10umddi.h)
 description: The DrawInstancedIndirect function draws particular instances of non-indexed primitives.
 old-location: display\drawinstancedindirect.htm
 ms.assetid: 99520dae-3934-496f-80bf-e5b306554415
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DrawInstancedIndirect
+- DrawInstancedIndirect
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_PASS_THROUGH
-title: IOCTL_SCSI_PASS_THROUGH
+title: IOCTL_SCSI_PASS_THROUGH (ntddscsi.h)
 description: Allows an application to send almost any SCSI command to a target device, with the following restrictions:Multitarget commands, such as COPY, are not allowed.Bidirectional data transfer operations are not supported.If a class driver for the target type of device exists, the request must be sent to that class driver. Thus, an application can send this request directly to the system port driver for a target logical unit (LU) only if there is no class driver for the type of device that is connected to that LU. The system port driver does not check to determine if a device has been claimed by a class driver before it processes a pass-through request. Therefore, if an application bypasses a class driver that has claimed a device and sends a pass-through request for that device directly to the port driver, a conflict for control of the device can occur between the class driver and the application. If a pass-through request is sent to an adapter device object and if it originates from user mode and targets an LU that is claimed by a class driver, Storport fails the request with STATUS_INVALID_DEVICE_REQUEST. If the request is sent to an LU device object, originates in kernel mode, or targets an unclaimed LU, it is passed to the miniport driver.This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use IOCTL_SCSI_PASS_THROUGH_DIRECT instead. Applications must not attempt to send a pass-through request asynchronously. All pass-through requests must be synchronous. Applications do not require administrative privileges to send a pass-through request to a device, but they must have read/write access to the device. The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. IOCTL_SCSI_PASS_THROUGH is a buffered device control request. To bypass buffering in system memory, callers should use IOCTL_SCSI_PASS_THROUGH_DIRECT. When handling an IOCTL_SCSI_PASS_THROUGH_DIRECT request, the system locks down the buffer in user memory and the device accesses this memory directly. This request is typically used for transferring small amounts of data (&lt;16K).Applications can send this request by means of an IRP_MJ_DEVICE_CONTROL request.Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver.
 old-location: storage\ioctl_scsi_pass_through.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	IOCTL_SCSI_PASS_THROUGH
+- IOCTL_SCSI_PASS_THROUGH
 product:
 - Windows
 targetos: Windows

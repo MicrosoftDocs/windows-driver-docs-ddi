@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeThreadedDpc
-title: KeInitializeThreadedDpc function
+title: KeInitializeThreadedDpc function (wdm.h)
 description: The KeInitializeThreadedDpc routine initializes a threaded DPC object, and registers a CustomThreadedDpc routine for that object.
 old-location: kernel\keinitializethreadeddpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeThreadedDpc
+- KeInitializeThreadedDpc
 product:
 - Windows
 targetos: Windows

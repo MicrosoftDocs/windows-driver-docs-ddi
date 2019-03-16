@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_XOFF_COUNTER
-title: IOCTL_SERIAL_XOFF_COUNTER
+title: IOCTL_SERIAL_XOFF_COUNTER (ntddser.h)
 description: The IOCTL_SERIAL_XOFF_COUNTER request sets an XOFF counter. An XOFF counter request supports clients that use software to emulate hardware handshake flow control.
 old-location: serports\ioctl_serial_xoff_counter.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_XOFF_COUNTER
+- IOCTL_SERIAL_XOFF_COUNTER
 product:
 - Windows
 targetos: Windows

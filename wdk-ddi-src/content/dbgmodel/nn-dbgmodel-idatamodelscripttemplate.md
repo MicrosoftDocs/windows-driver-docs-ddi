@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptTemplate
-title: IDataModelScriptTemplate
+title: IDataModelScriptTemplate (dbgmodel.h)
 description: Any script provider wanting to have pre-filled template content implements this interface per template.
 ms.assetid: 1b0e8279-e0bf-4a27-8d48-69072054b7f8
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplate
-product: Windows
+- IDataModelScriptTemplate
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

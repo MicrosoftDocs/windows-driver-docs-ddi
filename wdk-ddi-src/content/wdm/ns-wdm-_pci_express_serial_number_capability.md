@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
-title: "_PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY"
+title: _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY (wdm.h)
 description: The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure describes a serial number for a PCI Express (PCIe) device.
 old-location: pci\pci_express_serial_number_capability.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
+- PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
 product:
 - Windows
 targetos: Windows

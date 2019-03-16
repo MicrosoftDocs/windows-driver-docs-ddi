@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessDataOffset
-title: IDebugSystemObjects3::GetCurrentProcessDataOffset
+title: IDebugSystemObjects3::GetCurrentProcessDataOffset (dbgeng.h)
 description: The GetCurrentProcessDataOffset method returns the location of the system data structure describing the current process.
 old-location: debugger\getcurrentprocessdataoffset.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetCurrentProcessDataOffset
--	IDebugSystemObjects2.GetCurrentProcessDataOffset
--	IDebugSystemObjects3.GetCurrentProcessDataOffset
--	IDebugSystemObjects4.GetCurrentProcessDataOffset
+- IDebugSystemObjects.GetCurrentProcessDataOffset
+- IDebugSystemObjects2.GetCurrentProcessDataOffset
+- IDebugSystemObjects3.GetCurrentProcessDataOffset
+- IDebugSystemObjects4.GetCurrentProcessDataOffset
 product:
 - Windows
 targetos: Windows

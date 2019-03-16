@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestRetrieveInputOutputBuffer
-title: NetRequestRetrieveInputOutputBuffer function
+title: NetRequestRetrieveInputOutputBuffer function (netrequest.h)
 description: Retrieves the input/output buffer associated with a NETREQUEST object.
 tech.root: netvista
 ms.assetid: 1ad27440-ca21-4600-a115-285cd72baf2c
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestRetrieveInputOutputBuffer
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestRetrieveInputOutputBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

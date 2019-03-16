@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetIoPriorityHint
-title: IoSetIoPriorityHint function
+title: IoSetIoPriorityHint function (wdm.h)
 description: The IoSetIoPriorityHint routine sets the priority hint value for an IRP.
 old-location: kernel\iosetiopriorityhint.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetIoPriorityHint
+- IoSetIoPriorityHint
 product:
 - Windows
 targetos: Windows

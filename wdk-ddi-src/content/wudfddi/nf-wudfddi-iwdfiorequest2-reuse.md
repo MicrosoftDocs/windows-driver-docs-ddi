@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.Reuse
-title: IWDFIoRequest2::Reuse
+title: IWDFIoRequest2::Reuse (wudfddi.h)
 description: The Reuse method reinitializes a framework request object so that it can be reused.
 old-location: wdf\iwdfiorequest2_reuse.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.Reuse
+- IWDFIoRequest2.Reuse
 product:
 - Windows
 targetos: Windows

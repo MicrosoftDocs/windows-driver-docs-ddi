@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_OPENALLOCATIONFLAGS
-title: "_DXGK_OPENALLOCATIONFLAGS"
+title: _DXGK_OPENALLOCATIONFLAGS (d3dkmddi.h)
 description: The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
 old-location: display\dxgk_openallocationflags.htm
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_OPENALLOCATIONFLAGS
+- DXGK_OPENALLOCATIONFLAGS
 product:
 - Windows
 targetos: Windows

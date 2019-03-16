@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_ALLOCATEPAGESFORMDL
-title: DXGKCB_ALLOCATEPAGESFORMDL
+title: DXGKCB_ALLOCATEPAGESFORMDL (d3dkmddi.h)
 description: Implemented by the client driver to allocate physical memory pages for a memory descriptor list (MDL) from the GPU to the IoMmu's logical address space.
 ms.assetid: fcfd09f8-109f-4123-9090-dc4ca89a6513
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_ALLOCATEPAGESFORMDL
+- DXGKCB_ALLOCATEPAGESFORMDL
 product: 
 - Windows
 targetos: Windows

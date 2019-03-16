@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptTemplateEnumerator
-title: IDataModelScriptTemplateEnumerator
+title: IDataModelScriptTemplateEnumerator (dbgmodel.h)
 description: An enumerator which enumerates an available set of script templates.
 ms.assetid: 7d5f9983-35d8-4983-94af-3419f843b838
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptTemplateEnumerator
-product: Windows
+- IDataModelScriptTemplateEnumerator
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

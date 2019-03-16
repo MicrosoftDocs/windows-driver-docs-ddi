@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_INIT_DATA_EX
-title: "_TAPE_INIT_DATA_EX"
+title: _TAPE_INIT_DATA_EX (minitape.h)
 description: TAPE_INIT_DATA_EX defines values and routines that are specific to a Windows 2000 tape miniclass driver. The tape miniclass DriverEntry routine passes this information to the tape class driver to complete miniclass driver initialization.
 old-location: storage\tape_init_data_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	minitape.h
+- minitape.h
 api_name:
--	TAPE_INIT_DATA_EX
+- TAPE_INIT_DATA_EX
 product:
 - Windows
 targetos: Windows

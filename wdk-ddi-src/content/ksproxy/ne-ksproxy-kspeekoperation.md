@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_6
-title: KSPEEKOPERATION
+title: KSPEEKOPERATION (ksproxy.h)
 description: 
 old-location: stream\kspeekoperation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	KSPEEKOPERATION
+- KSPEEKOPERATION
 product:
 - Windows
 targetos: Windows

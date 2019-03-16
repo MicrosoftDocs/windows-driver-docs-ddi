@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_PORTLUN
-title: "_MS_SMHBA_PORTLUN"
+title: _MS_SMHBA_PORTLUN (hbapiwmi.h)
 description: The MS_SMHBA_PORTLUN structure reports target LUN information that is associated with a port.
 old-location: storage\ms_smhba_portlun.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MS_SMHBA_PORTLUN
+- MS_SMHBA_PORTLUN
 product:
 - Windows
 targetos: Windows

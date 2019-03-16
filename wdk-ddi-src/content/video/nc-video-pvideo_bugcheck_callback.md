@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_BUGCHECK_CALLBACK
-title: PVIDEO_BUGCHECK_CALLBACK
+title: PVIDEO_BUGCHECK_CALLBACK (video.h)
 description: The HwVidBugcheckCallback function enables the miniport driver to append data to a dump file when a bug check occurs.
 old-location: display\hwvidbugcheckcallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidBugcheckCallback
+- HwVidBugcheckCallback
 product:
 - Windows
 targetos: Windows

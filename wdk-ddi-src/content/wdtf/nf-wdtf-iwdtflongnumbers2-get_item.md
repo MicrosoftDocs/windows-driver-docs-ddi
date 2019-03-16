@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get_Item
-title: IWDTFLongNumbers2::get_Item
+title: IWDTFLongNumbers2::get_Item (wdtf.h)
 description: Gets an individual long number in the collection.
 old-location: dtf\iwdtflongnumbers2_item.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLongNumbers2.Item
--	IWDTFLongNumbers2.get_Item
+- IWDTFLongNumbers2.Item
+- IWDTFLongNumbers2.get_Item
 product:
 - Windows
 targetos: Windows

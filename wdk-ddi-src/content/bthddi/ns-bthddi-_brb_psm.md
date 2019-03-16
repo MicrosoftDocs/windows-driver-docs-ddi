@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_PSM
-title: "_BRB_PSM"
+title: _BRB_PSM (bthddi.h)
 description: The _BRB_PSM structure describes a Protocol/Service Multiplexer (PSM) to register or unregister.
 old-location: bltooth\_brb_psm.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_PSM
+- _BRB_PSM
 product:
 - Windows
 targetos: Windows

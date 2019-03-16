@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlValidateReparsePointBuffer
-title: FsRtlValidateReparsePointBuffer function
+title: FsRtlValidateReparsePointBuffer function (ntifs.h)
 description: The FsRtlValidateReparsePointBuffer routine verifies that the specified reparse point buffer is valid.
 old-location: ifsk\fsrtlvalidatereparsepointbuffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlValidateReparsePointBuffer
+- FsRtlValidateReparsePointBuffer
 product:
 - Windows
 targetos: Windows

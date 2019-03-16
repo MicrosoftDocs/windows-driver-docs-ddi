@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_AUDIT_ACE
-title: "_SYSTEM_AUDIT_ACE"
+title: _SYSTEM_AUDIT_ACE (ntifs.h)
 description: The SYSTEM_AUDIT_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what types of access cause system-level notifications.
 old-location: ifsk\system_audit_ace.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SYSTEM_AUDIT_ACE
+- SYSTEM_AUDIT_ACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT
-title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT
+title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWFLOAT (d3d10umddi.h)
 description: The ClearUnorderedAccessViewFLOAT function clears the specified unordered-access view by setting it to a constant value.
 old-location: display\clearunorderedaccessviewfloat.htm
 ms.assetid: 31734efd-0c17-4476-918d-942c015072bd
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ClearUnorderedAccessViewFLOAT
+- ClearUnorderedAccessViewFLOAT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterProcessorChangeCallback
-title: KeDeregisterProcessorChangeCallback function
+title: KeDeregisterProcessorChangeCallback function (wdm.h)
 description: The KeDeregisterProcessorChangeCallback routine unregisters a callback function that was previously registered with the operating system by calling the KeRegisterProcessorChangeCallback routine.
 old-location: kernel\kederegisterprocessorchangecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeDeregisterProcessorChangeCallback
+- KeDeregisterProcessorChangeCallback
 product:
 - Windows
 targetos: Windows

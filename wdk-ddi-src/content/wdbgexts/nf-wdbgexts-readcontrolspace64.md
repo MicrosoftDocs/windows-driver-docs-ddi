@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadControlSpace64
-title: ReadControlSpace64 function
+title: ReadControlSpace64 function (wdbgexts.h)
 description: The ReadControlSpace64 function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReadControlSpace64
+- ReadControlSpace64
 product:
 - Windows
 targetos: Windows

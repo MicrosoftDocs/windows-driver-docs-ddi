@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfStart
-title: VhfStart function
+title: VhfStart function (vhf.h)
 description: The HID source driver calls this method to start the virtual HID device.
 old-location: hid\vhfstart.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	VhfKm.lib
--	VhfKm.dll
+- VhfKm.lib
+- VhfKm.dll
 api_name:
--	VhfStart
+- VhfStart
 product:
 - Windows
 targetos: Windows

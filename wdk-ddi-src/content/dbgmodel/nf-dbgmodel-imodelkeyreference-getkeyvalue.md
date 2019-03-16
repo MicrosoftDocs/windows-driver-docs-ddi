@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetKeyValue
-title: IModelKeyReference::GetKeyValue
+title: IModelKeyReference::GetKeyValue (dbgmodel.h)
 description: The GetKeyValue method on a key reference behaves as the GetKeyValue method on IModelObject would.
 ms.assetid: 5637adf8-fb06-4976-a367-2d2bac546d9f
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference.GetKeyValue
-product: Windows
+- IModelKeyReference.GetKeyValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

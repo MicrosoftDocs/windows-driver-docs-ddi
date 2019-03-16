@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortSetBusData
-title: AtaPortSetBusData function
+title: AtaPortSetBusData function (irb.h)
 description: The AtaPortSetBusData routine stores the data at Buffer in the indicated device's PCI configuration space at an offset that is specified in ConfigDataOffset.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportsetbusdata.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Pciidex.lib
--	Pciidex.dll
+- Pciidex.lib
+- Pciidex.dll
 api_name:
--	AtaPortSetBusData
+- AtaPortSetBusData
 product:
 - Windows
 targetos: Windows

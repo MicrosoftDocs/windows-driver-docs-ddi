@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxLogEventWithAnnotation
-title: RxLogEventWithAnnotation function
+title: RxLogEventWithAnnotation function (rxprocs.h)
 description: RxLogEventWithAnnotation allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithannotation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxLogEventWithAnnotation
+- RxLogEventWithAnnotation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_PNPPOWER_EVENT_CALLBACKS
-title: "_WDF_PNPPOWER_EVENT_CALLBACKS"
+title: _WDF_PNPPOWER_EVENT_CALLBACKS (wdfdevice.h)
 description: The WDF_PNPPOWER_EVENT_CALLBACKS structure contains pointers to a driver's Plug and Play and power event callback functions.
 old-location: wdf\wdf_pnppower_event_callbacks.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_PNPPOWER_EVENT_CALLBACKS
+- WDF_PNPPOWER_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

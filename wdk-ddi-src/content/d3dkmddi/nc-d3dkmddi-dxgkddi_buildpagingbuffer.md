@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_BUILDPAGINGBUFFER
-title: DXGKDDI_BUILDPAGINGBUFFER
+title: DXGKDDI_BUILDPAGINGBUFFER (d3dkmddi.h)
 description: The DxgkDdiBuildPagingBuffer function builds paging buffers for memory operations.
 old-location: display\dxgkddibuildpagingbuffer.htm
 ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiBuildPagingBuffer
+- DxgkDdiBuildPagingBuffer
 product:
 - Windows
 targetos: Windows

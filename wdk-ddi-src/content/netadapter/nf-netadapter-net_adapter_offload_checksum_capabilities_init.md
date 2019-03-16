@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
-title: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function
+title: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
+- NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 product:
 - Windows
 targetos: Windows

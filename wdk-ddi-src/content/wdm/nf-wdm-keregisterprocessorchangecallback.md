@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterProcessorChangeCallback
-title: KeRegisterProcessorChangeCallback function
+title: KeRegisterProcessorChangeCallback function (wdm.h)
 description: The KeRegisterProcessorChangeCallback routine registers a callback function with the operating system so that the operating system will notify the driver when a new processor is added to the hardware partition.
 old-location: kernel\keregisterprocessorchangecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRegisterProcessorChangeCallback
+- KeRegisterProcessorChangeCallback
 product:
 - Windows
 targetos: Windows

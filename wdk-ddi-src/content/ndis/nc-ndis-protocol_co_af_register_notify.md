@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_AF_REGISTER_NOTIFY
-title: PROTOCOL_CO_AF_REGISTER_NOTIFY
+title: PROTOCOL_CO_AF_REGISTER_NOTIFY (ndis.h)
 description: The ProtocolCoAfRegisterNotify function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolcoafregisternotify.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoAfRegisterNotify
+- ProtocolCoAfRegisterNotify
 product:
 - Windows
 targetos: Windows

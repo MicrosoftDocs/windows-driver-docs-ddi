@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendImagePathWide
-title: IDebugSymbols3::AppendImagePathWide
+title: IDebugSymbols3::AppendImagePathWide (dbgeng.h)
 description: The AppendImagePathWide method appends directories to the executable image path.
 old-location: debugger\appendimagepathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.AppendImagePathWide
+- IDebugSymbols3.AppendImagePathWide
 product:
 - Windows
 targetos: Windows

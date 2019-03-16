@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventFilterTextWide
-title: IDebugControl4::GetEventFilterTextWide
+title: IDebugControl4::GetEventFilterTextWide (dbgeng.h)
 description: The GetEventFilterTextWide method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertextwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetEventFilterTextWide
+- IDebugControl4.GetEventFilterTextWide
 product:
 - Windows
 targetos: Windows

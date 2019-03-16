@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ALLOCATIONRESIDENCYSTATUS
-title: _D3DKMT_ALLOCATIONRESIDENCYSTATUS
+title: _D3DKMT_ALLOCATIONRESIDENCYSTATUS (d3dkmthk.h)
 description: The allocation residency status.
 ms.assetid: d4174517-650d-49f6-95f3-0959640ee88b
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_ALLOCATIONRESIDENCYSTATUS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ALLOCATIONRESIDENCYSTATUS
+- _D3DKMT_ALLOCATIONRESIDENCYSTATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

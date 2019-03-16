@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_PORT_BUFFER_ULONG
-title: WRITE_PORT_BUFFER_ULONG function
+title: WRITE_PORT_BUFFER_ULONG function (wudfddi_hwaccess.h)
 description: The WRITE_PORT_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified port address.
 old-location: wdf\write_port_buffer_ulong.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_PORT_BUFFER_ULONG
+- WRITE_PORT_BUFFER_ULONG
 product:
 - Windows
 targetos: Windows

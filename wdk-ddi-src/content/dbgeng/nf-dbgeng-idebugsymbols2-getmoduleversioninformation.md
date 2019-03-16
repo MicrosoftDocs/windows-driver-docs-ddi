@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleVersionInformation
-title: IDebugSymbols2::GetModuleVersionInformation
+title: IDebugSymbols2::GetModuleVersionInformation (dbgeng.h)
 description: The GetModuleVersionInformation method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformation.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols2.GetModuleVersionInformation
--	IDebugSymbols3.GetModuleVersionInformation
+- IDebugSymbols2.GetModuleVersionInformation
+- IDebugSymbols3.GetModuleVersionInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeIpiGenericCall
-title: KeIpiGenericCall function
+title: KeIpiGenericCall function (wdm.h)
 description: The KeIpiGenericCall routine causes the specified routine to run on all processors simultaneously.
 old-location: kernel\keipigenericcall.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< IPI_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeIpiGenericCall
+- KeIpiGenericCall
 product:
 - Windows
 targetos: Windows

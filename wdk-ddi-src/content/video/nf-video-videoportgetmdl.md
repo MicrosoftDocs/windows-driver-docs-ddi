@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetMdl
-title: VideoPortGetMdl function
+title: VideoPortGetMdl function (video.h)
 description: The VideoPortGetMdl function is obsolete in Windows 2000 and later.VideoPortGetMdl retrieves the memory descriptor list (MDL) that represents the page table of the locked buffer.
 old-location: display\videoportgetmdl.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetMdl
+- VideoPortGetMdl
 product:
 - Windows
 targetos: Windows

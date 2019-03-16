@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInStackQueuedSpinLock
-title: KeReleaseInStackQueuedSpinLock function
+title: KeReleaseInStackQueuedSpinLock function (wdm.h)
 description: The KeReleaseInStackQueuedSpinLock routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLock.
 old-location: kernel\kereleaseinstackqueuedspinlock.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Hal.lib; Ntoskrnl.lib
 req.dll: Hal.dll; Ntoskrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
--	Ntoskrnl.exe
+- Hal.dll
+- Ntoskrnl.exe
 api_name:
--	KeReleaseInStackQueuedSpinLock
+- KeReleaseInStackQueuedSpinLock
 product:
 - Windows
 targetos: Windows

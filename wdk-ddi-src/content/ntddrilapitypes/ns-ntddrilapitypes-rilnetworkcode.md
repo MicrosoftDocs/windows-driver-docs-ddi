@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILNETWORKCODE
-title: RILNETWORKCODE
+title: RILNETWORKCODE (ntddrilapitypes.h)
 description: This structure represents a RILNETWORKCODE.
 old-location: netvista\rilnetworkcode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILNETWORKCODE
+- RILNETWORKCODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.InitializeListHead
-title: InitializeListHead function
+title: InitializeListHead function (wudfwdm.h)
 description: The InitializeListHead routine initializes a LIST_ENTRY structure that represents the head of a doubly linked list.
 old-location: kernel\initializelisthead.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InitializeListHead
+- InitializeListHead
 product:
 - Windows
 targetos: Windows

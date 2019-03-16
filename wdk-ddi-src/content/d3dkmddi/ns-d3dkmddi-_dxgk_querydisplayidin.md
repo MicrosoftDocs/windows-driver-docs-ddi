@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDIN
-title: "_DXGK_QUERYDISPLAYIDIN"
+title: _DXGK_QUERYDISPLAYIDIN (d3dkmddi.h)
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidin.htm
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYDISPLAYIDIN
+- DXGK_QUERYDISPLAYIDIN
 product:
 - Windows
 targetos: Windows

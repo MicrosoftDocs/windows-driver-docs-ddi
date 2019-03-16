@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_METADATA_PHOTOCONFIRMATION
-title: tagKSCAMERA_METADATA_PHOTOCONFIRMATION
+title: tagKSCAMERA_METADATA_PHOTOCONFIRMATION (ksmedia.h)
 description: This structure contains the photo confirmation metadata information that is filled by the camera driver.
 old-location: stream\kscamera_metadata_photoconfirmation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_METADATA_PHOTOCONFIRMATION
+- KSCAMERA_METADATA_PHOTOCONFIRMATION
 product:
 - Windows
 targetos: Windows

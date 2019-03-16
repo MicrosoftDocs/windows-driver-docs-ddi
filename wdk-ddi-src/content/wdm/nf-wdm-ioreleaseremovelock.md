@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReleaseRemoveLock
-title: IoReleaseRemoveLock macro
+title: IoReleaseRemoveLock macro (wdm.h)
 description: The IoReleaseRemoveLock routine releases a remove lock acquired with a previous call to IoAcquireRemoveLock.
 old-location: kernel\ioreleaseremovelock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReleaseRemoveLock
+- IoReleaseRemoveLock
 product:
 - Windows
 targetos: Windows

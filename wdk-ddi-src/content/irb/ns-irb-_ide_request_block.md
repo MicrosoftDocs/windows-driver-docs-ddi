@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_REQUEST_BLOCK
-title: "_IDE_REQUEST_BLOCK"
+title: _IDE_REQUEST_BLOCK (irb.h)
 description: The IDE_REQUEST_BLOCK structure defines an IDE request block.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_request_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_REQUEST_BLOCK
+- IDE_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

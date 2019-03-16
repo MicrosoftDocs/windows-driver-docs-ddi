@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetPersistentBinding_IN
-title: "_SM_GetPersistentBinding_IN"
+title: _SM_GetPersistentBinding_IN (hbapiwmi.h)
 description: The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_GetPersistentBinding_IN
+- SM_GetPersistentBinding_IN
 product:
 - Windows
 targetos: Windows

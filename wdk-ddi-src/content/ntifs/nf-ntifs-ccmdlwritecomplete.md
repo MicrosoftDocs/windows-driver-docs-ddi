@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcMdlWriteComplete
-title: CcMdlWriteComplete function
+title: CcMdlWriteComplete function (ntifs.h)
 description: The CcMdlWriteComplete routine frees the memory descriptor lists (MDL) created by CcPrepareMdlWrite for a cached file.
 old-location: ifsk\ccmdlwritecomplete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcMdlWriteComplete
+- CcMdlWriteComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_TYPE
-title: "_WHEA_ERROR_TYPE"
+title: _WHEA_ERROR_TYPE (ntddk.h)
 description: The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
 old-location: whea\whea_error_type.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_ERROR_TYPE
+- WHEA_ERROR_TYPE
 product:
 - Windows
 targetos: Windows

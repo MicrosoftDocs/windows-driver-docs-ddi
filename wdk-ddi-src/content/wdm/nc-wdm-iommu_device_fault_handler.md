@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_DEVICE_FAULT_HANDLER
-title: IOMMU_DEVICE_FAULT_HANDLER
+title: IOMMU_DEVICE_FAULT_HANDLER (wdm.h)
 description: Reports fault from a specific device and domain.
 ms.assetid: 6efa32ef-39c2-43f3-8808-d7649cfc493d
 ms.date: 10/19/2018
@@ -23,14 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	IOMMU_DEVICE_FAULT_HANDLER
-product: Windows
+- IOMMU_DEVICE_FAULT_HANDLER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

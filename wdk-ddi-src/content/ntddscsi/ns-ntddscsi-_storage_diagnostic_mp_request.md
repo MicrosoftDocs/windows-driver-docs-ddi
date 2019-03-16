@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._STORAGE_DIAGNOSTIC_MP_REQUEST
-title: "_STORAGE_DIAGNOSTIC_MP_REQUEST"
+title: _STORAGE_DIAGNOSTIC_MP_REQUEST (ntddscsi.h)
 description: Describes a diagnostic request to Miniport. The STORAGE_DIAGNOSTIC_MP_REQUEST structure is provided in the input/output buffer of an IOCTL_SCSI_MINIPORT_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_mp_request.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	STORAGE_DIAGNOSTIC_MP_REQUEST
+- STORAGE_DIAGNOSTIC_MP_REQUEST
 product:
 - Windows
 targetos: Windows

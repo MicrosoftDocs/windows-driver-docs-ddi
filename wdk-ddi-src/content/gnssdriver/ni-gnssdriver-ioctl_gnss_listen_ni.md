@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_NI
-title: IOCTL_GNSS_LISTEN_NI
+title: IOCTL_GNSS_LISTEN_NI (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_NI control code is used to start listening for a SUPL NI request.
 old-location: gnss\ioctl_gnss_listen_ni.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	IOCTL_GNSS_LISTEN_NI
+- IOCTL_GNSS_LISTEN_NI
 product:
 - Windows
 targetos: Windows

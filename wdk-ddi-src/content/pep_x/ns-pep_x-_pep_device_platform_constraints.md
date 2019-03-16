@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_PLATFORM_CONSTRAINTS
-title: "_PEP_DEVICE_PLATFORM_CONSTRAINTS"
+title: _PEP_DEVICE_PLATFORM_CONSTRAINTS (pep_x.h)
 description: The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device.
 old-location: kernel\pep_device_platform_constraints.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEVICE_PLATFORM_CONSTRAINTS
+- PEP_DEVICE_PLATFORM_CONSTRAINTS
 product:
 - Windows
 targetos: Windows

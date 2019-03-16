@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptDebugBreakpoint
-title: IDataModelScriptDebugBreakpoint
+title: IDataModelScriptDebugBreakpoint (dbgmodel.h)
 description: An interface to a breakpoint on the script.
 ms.assetid: 68db1faf-dd0a-42a0-81dd-2ab633d9a3b2
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugBreakpoint
-product: Windows
+- IDataModelScriptDebugBreakpoint
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

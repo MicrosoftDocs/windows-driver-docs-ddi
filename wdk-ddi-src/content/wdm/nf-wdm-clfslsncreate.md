@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnCreate
-title: ClfsLsnCreate function
+title: ClfsLsnCreate function (wdm.h)
 description: The ClfsLsnCreate routine creates a log sequence number (LSN), given a container identifier, a block offset, and a record sequence number.
 old-location: kernel\clfslsncreate.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsLsnCreate
+- ClfsLsnCreate
 product:
 - Windows
 targetos: Windows

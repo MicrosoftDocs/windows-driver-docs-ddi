@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_DPC
-title: "_STOR_DPC"
+title: _STOR_DPC (storport.h)
 description: The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 old-location: storage\stor_dpc.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_DPC
+- STOR_DPC
 product:
 - Windows
 targetos: Windows

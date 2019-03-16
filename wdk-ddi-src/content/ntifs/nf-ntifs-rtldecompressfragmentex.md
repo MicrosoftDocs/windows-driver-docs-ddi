@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressFragmentEx
-title: RtlDecompressFragmentEx function
+title: RtlDecompressFragmentEx function (ntifs.h)
 description: The RtlDecompressFragmentEx function is used to decompress part of a compressed buffer (that is, a buffer &#0034;fragment&#0034;), using multiple processors where possible.
 old-location: ifsk\rtldecompressfragmentex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDecompressFragmentEx
+- RtlDecompressFragmentEx
 product:
 - Windows
 targetos: Windows

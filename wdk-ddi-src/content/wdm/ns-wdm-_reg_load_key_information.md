@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_LOAD_KEY_INFORMATION
-title: "_REG_LOAD_KEY_INFORMATION"
+title: _REG_LOAD_KEY_INFORMATION (wdm.h)
 description: The REG_LOAD_KEY_INFORMATION structure contains information about a registry hive that is being loaded.
 old-location: kernel\reg_load_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	REG_LOAD_KEY_INFORMATION
+- REG_LOAD_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

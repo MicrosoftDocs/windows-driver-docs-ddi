@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols5.SetScopeFrameByIndexEx
-title: IDebugSymbols5::SetScopeFrameByIndexEx
+title: IDebugSymbols5::SetScopeFrameByIndexEx (dbgeng.h)
 description: Sets the current frame by using an index.
 old-location: debugger\idebugsymbols5_setscopeframebyindexex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols5.SetScopeFrameByIndexEx
+- IDebugSymbols5.SetScopeFrameByIndexEx
 product:
 - Windows
 targetos: Windows

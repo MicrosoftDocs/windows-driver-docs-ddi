@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SYSTEM_DISPLAY_ENABLE
-title: DXGKDDI_SYSTEM_DISPLAY_ENABLE
+title: DXGKDDI_SYSTEM_DISPLAY_ENABLE (dispmprt.h)
 description: Called by the operating system to request the display miniport driver to reset the current display device to a specified state.
 old-location: display\dxgkddisystemdisplayenable.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiSystemDisplayEnable
+- DxgkDdiSystemDisplayEnable
 product:
 - Windows
 targetos: Windows

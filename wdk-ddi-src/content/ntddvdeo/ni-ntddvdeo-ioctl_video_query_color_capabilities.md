@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
-title: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
+title: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES (ntddvdeo.h)
 description: Returns the color-capabilities information found in the VDDP description file for the adapter.
 old-location: display\ioctl_video_query_color_capabilities.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
+- IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 product:
 - Windows
 targetos: Windows

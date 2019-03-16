@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl2.SendRecvXMLString
-title: IBidiSpl2::SendRecvXMLString
+title: IBidiSpl2::SendRecvXMLString (bidispl.h)
 description: The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas.
 old-location: print\ibidispl2_ibidispl2__sendrecvxmlstring.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiSpl2.SendRecvXMLString
+- IBidiSpl2.SendRecvXMLString
 product:
 - Windows
 targetos: Windows

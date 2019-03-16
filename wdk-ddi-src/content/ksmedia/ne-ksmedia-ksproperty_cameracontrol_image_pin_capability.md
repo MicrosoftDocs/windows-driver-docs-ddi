@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_79
-title: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY
+title: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY (ksmedia.h)
 description: Used to identify whether the camera's image pin and record pin are mutually exclusive. If they are mutually exclusive, then when the record pin is active, the image pin cannot be active, and vice-versa.
 old-location: stream\ksproperty_cameracontrol_image_pin_capability.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY
+- KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY
 product:
 - Windows
 targetos: Windows

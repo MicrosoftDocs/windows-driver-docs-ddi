@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.RemoveItemFromFolder
-title: IWiaDrvItem::RemoveItemFromFolder
+title: IWiaDrvItem::RemoveItemFromFolder (wiamindr_lh.h)
 description: The IWiaDrvItem::RemoveItemFromFolder method removes an item from a parent folder.
 old-location: image\iwiadrvitem_removeitemfromfolder.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.RemoveItemFromFolder
+- IWiaDrvItem.RemoveItemFromFolder
 product:
 - Windows
 targetos: Windows

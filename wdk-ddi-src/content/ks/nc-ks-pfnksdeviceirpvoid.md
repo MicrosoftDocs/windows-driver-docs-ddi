@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEIRPVOID
-title: PFNKSDEVICEIRPVOID
+title: PFNKSDEVICEIRPVOID (ks.h)
 description: An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL
 old-location: stream\avstrminidevicecancelstop.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	MyAVStrMiniDeviceIRP
+- MyAVStrMiniDeviceIRP
 product:
 - Windows
 targetos: Windows

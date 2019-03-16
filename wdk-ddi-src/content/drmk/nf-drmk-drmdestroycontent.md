@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmDestroyContent
-title: DrmDestroyContent function
+title: DrmDestroyContent function (drmk.h)
 description: The DrmDestroyContent function deletes a DRM content ID that was created by DrmCreateContentMixed.
 old-location: audio\drmdestroycontent.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Drmk.lib
--	Drmk.dll
+- Drmk.lib
+- Drmk.dll
 api_name:
--	DrmDestroyContent
+- DrmDestroyContent
 product:
 - Windows
 targetos: Windows

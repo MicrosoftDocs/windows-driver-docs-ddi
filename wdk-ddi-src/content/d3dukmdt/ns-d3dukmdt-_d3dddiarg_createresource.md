@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIARG_CREATERESOURCE
-title: "_D3DDDIARG_CREATERESOURCE"
+title: _D3DDDIARG_CREATERESOURCE (d3dukmdt.h)
 description: The D3DDDIARG_CREATERESOURCE structure contains information for creating a resource.
 old-location: display\d3dddiarg_createresource.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDIARG_CREATERESOURCE
+- D3DDDIARG_CREATERESOURCE
 product:
 - Windows
 targetos: Windows

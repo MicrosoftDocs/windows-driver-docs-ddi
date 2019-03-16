@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
-title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
+title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032 (d3d12umddi.h)
 description: Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE capability check. Retrieves the memory allocation size of a video processor created with the given properties.
 old-location: display\d3d12ddi_video_processor_size_data_0032.htm
 ms.assetid: B5A0E067-E91B-4B35-A355-36E15665CF43
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
+- D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
 product:
 - Windows
 targetos: Windows

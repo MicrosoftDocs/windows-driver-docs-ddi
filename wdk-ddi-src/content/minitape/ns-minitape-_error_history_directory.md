@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._ERROR_HISTORY_DIRECTORY
-title: _ERROR_HISTORY_DIRECTORY
+title: _ERROR_HISTORY_DIRECTORY (minitape.h)
 description: 
 ms.assetid: 3edc0df4-936f-42ce-bd19-3b81a39a82b0
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	minitape.h
+- minitape.h
 api_name: 
--	_ERROR_HISTORY_DIRECTORY
+- _ERROR_HISTORY_DIRECTORY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

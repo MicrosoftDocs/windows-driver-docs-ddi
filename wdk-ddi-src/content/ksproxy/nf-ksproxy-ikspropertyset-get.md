@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Get
-title: IKsPropertySet::Get
+title: IKsPropertySet::Get (ksproxy.h)
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPropertySet.Get
+- IKsPropertySet.Get
 product:
 - Windows
 targetos: Windows

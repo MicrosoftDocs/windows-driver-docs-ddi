@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMReadConfigBlock
-title: NdisMReadConfigBlock function
+title: NdisMReadConfigBlock function (ndis.h)
 description: A miniport driver for a PCI Express (PCIe) Virtual Function (VF) calls the NdisMReadConfigBlock function to read data from a VF configuration block.
 old-location: netvista\ndismreadconfigblock.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMReadConfigBlock
+- NdisMReadConfigBlock
 product:
 - Windows
 targetos: Windows

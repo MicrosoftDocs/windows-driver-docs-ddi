@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltClearCancelCompletion
-title: FltClearCancelCompletion function
+title: FltClearCancelCompletion function (fltkernel.h)
 description: FltClearCancelCompletion clears a cancel routine that was specified for an I/O operation.
 old-location: ifsk\fltclearcancelcompletion.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltClearCancelCompletion
+- FltClearCancelCompletion
 product:
 - Windows
 targetos: Windows

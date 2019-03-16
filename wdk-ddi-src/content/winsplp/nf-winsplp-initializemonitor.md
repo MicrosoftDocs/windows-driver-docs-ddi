@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializeMonitor
-title: InitializeMonitor function
+title: InitializeMonitor function (winsplp.h)
 description: 
 old-location: print\initializemonitor.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	InitializeMonitor
+- InitializeMonitor
 product:
 - Windows
 targetos: Windows

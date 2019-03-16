@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCancelIrp
-title: IoCancelIrp function
+title: IoCancelIrp function (wdm.h)
 description: The IoCancelIrp routine sets the cancel bit in a given IRP and calls the cancel routine for the IRP if there is one.
 old-location: kernel\iocancelirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCancelIrp
+- IoCancelIrp
 product:
 - Windows
 targetos: Windows

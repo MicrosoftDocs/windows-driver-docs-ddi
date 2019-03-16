@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_17
-title: KSEVENT_TIME_INTERVAL
+title: KSEVENT_TIME_INTERVAL (ks.h)
 description: The KSEVENT_TIME_INTERVAL structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_interval.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSEVENT_TIME_INTERVAL
+- KSEVENT_TIME_INTERVAL
 product:
 - Windows
 targetos: Windows

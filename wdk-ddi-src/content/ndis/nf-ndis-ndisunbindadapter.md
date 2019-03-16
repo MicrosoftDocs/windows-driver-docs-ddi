@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisUnbindAdapter
-title: NdisUnbindAdapter function
+title: NdisUnbindAdapter function (ndis.h)
 description: Protocol drivers call the NdisUnbindAdapter function to request NDIS to close a binding to an underlying miniport adapter.
 old-location: netvista\ndisunbindadapter.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisUnbindAdapter
+- NdisUnbindAdapter
 product:
 - Windows
 targetos: Windows

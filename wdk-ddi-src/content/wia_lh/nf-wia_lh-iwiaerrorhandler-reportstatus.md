@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.ReportStatus
-title: IWiaErrorHandler::ReportStatus
+title: IWiaErrorHandler::ReportStatus (wia_lh.h)
 description: The ReportStatus method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
 old-location: image\iwiaerrorhandler_reportstatus.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaErrorHandler.ReportStatus
+- IWiaErrorHandler.ReportStatus
 product:
 - Windows
 targetos: Windows

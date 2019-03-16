@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
-title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
+title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES (d3dkmddi.h)
 description: Set up or modify the scheduling properties for a device context.
 ms.assetid: be40d154-343b-431d-a2d7-da0dfaa4fb41
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
+- DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

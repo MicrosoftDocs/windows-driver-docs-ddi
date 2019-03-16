@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfio._WDF_IO_QUEUE_CONFIG
-title: "_WDF_IO_QUEUE_CONFIG"
+title: _WDF_IO_QUEUE_CONFIG (wdfio.h)
 description: The WDF_IO_QUEUE_CONFIG structure contains configuration information for a framework queue object.
 old-location: wdf\wdf_io_queue_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfio.h
+- wdfio.h
 api_name:
--	WDF_IO_QUEUE_CONFIG
+- WDF_IO_QUEUE_CONFIG
 product:
 - Windows
 targetos: Windows

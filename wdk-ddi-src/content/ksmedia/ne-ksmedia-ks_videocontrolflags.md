@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_105
-title: KS_VideoControlFlags
+title: KS_VideoControlFlags (ksmedia.h)
 description: The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
 old-location: stream\ks_videocontrolflags.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_VideoControlFlags
+- KS_VideoControlFlags
 product:
 - Windows
 targetos: Windows

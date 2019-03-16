@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DEBUG_REPORT_INTERFACE
-title: "_DXGK_DEBUG_REPORT_INTERFACE"
+title: _DXGK_DEBUG_REPORT_INTERFACE (dispmprt.h)
 description: The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the Debug Report interface, which is implemented by the display port driver.
 old-location: display\dxgk_debug_report_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_DEBUG_REPORT_INTERFACE
+- DXGK_DEBUG_REPORT_INTERFACE
 product:
 - Windows
 targetos: Windows

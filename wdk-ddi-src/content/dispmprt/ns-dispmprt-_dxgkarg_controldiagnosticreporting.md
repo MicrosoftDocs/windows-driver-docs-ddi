@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_CONTROLDIAGNOSTICREPORTING
-title: _DXGKARG_CONTROLDIAGNOSTICREPORTING
+title: _DXGKARG_CONTROLDIAGNOSTICREPORTING (dispmprt.h)
 description: Contains arguments for the call to DxgkDdiControlDiagnosticReporting.
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGKARG_CONTROLDIAGNOSTICREPORTING
+- _DXGKARG_CONTROLDIAGNOSTICREPORTING
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---

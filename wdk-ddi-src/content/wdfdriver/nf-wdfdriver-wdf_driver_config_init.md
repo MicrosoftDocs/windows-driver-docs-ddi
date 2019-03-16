@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WDF_DRIVER_CONFIG_INIT
-title: WDF_DRIVER_CONFIG_INIT function
+title: WDF_DRIVER_CONFIG_INIT function (wdfdriver.h)
 description: The WDF_DRIVER_CONFIG_INIT function initializes a driver's WDF_DRIVER_CONFIG structure.
 old-location: wdf\wdf_driver_config_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdriver.h
+- wdfdriver.h
 api_name:
--	WDF_DRIVER_CONFIG_INIT
+- WDF_DRIVER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

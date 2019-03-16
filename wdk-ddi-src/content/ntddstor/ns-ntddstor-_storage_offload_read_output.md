@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_OFFLOAD_READ_OUTPUT
-title: "_STORAGE_OFFLOAD_READ_OUTPUT"
+title: _STORAGE_OFFLOAD_READ_OUTPUT (ntddstor.h)
 description: The STORAGE_OFFLOAD_READ_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_MANAGE_DATA_SET_ATTRIBUTES is set to DeviceDsmAction_OffloadRead.
 old-location: storage\storage_offload_read_output.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_OFFLOAD_READ_OUTPUT
+- STORAGE_OFFLOAD_READ_OUTPUT
 product:
 - Windows
 targetos: Windows

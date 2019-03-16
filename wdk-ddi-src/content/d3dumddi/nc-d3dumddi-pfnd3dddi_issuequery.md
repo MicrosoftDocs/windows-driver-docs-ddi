@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ISSUEQUERY
-title: PFND3DDDI_ISSUEQUERY
+title: PFND3DDDI_ISSUEQUERY (d3dumddi.h)
 description: The IssueQuery function processes a query.
 old-location: display\issuequery.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	IssueQuery
+- IssueQuery
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxSetRfDiscoveryConfig
-title: NfcCxSetRfDiscoveryConfig function
+title: NfcCxSetRfDiscoveryConfig function (nfccx.h)
 description: Called by the client driver to configure the RF discovery parameters.
 old-location: nfpdrivers\_nfccxsetrfdiscoveryconfig.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxSetRfDiscoveryConfig
+- NfcCxSetRfDiscoveryConfig
 product:
 - Windows
 targetos: Windows

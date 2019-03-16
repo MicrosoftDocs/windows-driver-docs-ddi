@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_REQUEST
-title: "_SMARTCARD_REQUEST"
+title: _SMARTCARD_REQUEST (smclib.h)
 description: Describes the request buffer that contains data to send to the card.
 old-location: smartcrd\smartcard_request.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	SMARTCARD_REQUEST
+- SMARTCARD_REQUEST
 product:
 - Windows
 targetos: Windows

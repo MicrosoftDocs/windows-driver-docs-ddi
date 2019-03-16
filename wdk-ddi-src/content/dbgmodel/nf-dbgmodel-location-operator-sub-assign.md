@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-sub-assign
-title: operator-= function
+title: operator-= function (dbgmodel.h)
 description: The subtraction assignment operator for the location function.
 ms.assetid: 77948015-8e09-4f07-b04a-85a868bb8359
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	
+- HeaderDef
 api_location: 
--	
+- dbgmodel.h
 api_name: 
--	operator-=
-product: Windows
+- operator-=
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

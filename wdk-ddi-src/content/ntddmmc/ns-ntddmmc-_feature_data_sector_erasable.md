@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_SECTOR_ERASABLE
-title: "_FEATURE_DATA_SECTOR_ERASABLE"
+title: _FEATURE_DATA_SECTOR_ERASABLE (ntddmmc.h)
 description: The FEATURE_DATA_SECTOR_ERASABLE structure contains information for the Sector Erasable feature.
 old-location: storage\feature_data_sector_erasable.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_SECTOR_ERASABLE
+- FEATURE_DATA_SECTOR_ERASABLE
 product:
 - Windows
 targetos: Windows

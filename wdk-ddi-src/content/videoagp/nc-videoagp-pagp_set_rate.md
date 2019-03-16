@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_SET_RATE
-title: PAGP_SET_RATE
+title: PAGP_SET_RATE (videoagp.h)
 description: The AgpSetRate function reprograms the data transfer rate of the AGP chipset.
 old-location: display\agpsetrate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpSetRate
+- AgpSetRate
 product:
 - Windows
 targetos: Windows

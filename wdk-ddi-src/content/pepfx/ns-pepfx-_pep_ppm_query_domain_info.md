@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_DOMAIN_INFO
-title: "_PEP_PPM_QUERY_DOMAIN_INFO"
+title: _PEP_PPM_QUERY_DOMAIN_INFO (pepfx.h)
 description: Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. .
 old-location: kernel\pep_ppm_query_domain_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pepfx.h
+- Pepfx.h
 api_name:
--	PEP_PPM_QUERY_DOMAIN_INFO
+- PEP_PPM_QUERY_DOMAIN_INFO
 product:
 - Windows
 targetos: Windows

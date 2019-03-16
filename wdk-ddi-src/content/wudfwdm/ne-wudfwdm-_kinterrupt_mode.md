@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfwdm._KINTERRUPT_MODE
-title: "_KINTERRUPT_MODE"
+title: _KINTERRUPT_MODE (wudfwdm.h)
 description: The KINTERRUPT_MODE enumeration type indicates whether an interrupt is level-triggered or edge-triggered.
 old-location: kernel\kinterrupt_mode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	KINTERRUPT_MODE
+- KINTERRUPT_MODE
 product:
 - Windows
 targetos: Windows

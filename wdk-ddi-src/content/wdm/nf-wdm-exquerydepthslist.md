@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExQueryDepthSList
-title: ExQueryDepthSList function
+title: ExQueryDepthSList function (wdm.h)
 description: The ExQueryDepthSList routine returns the number of entries currently in a given sequenced singly linked list.
 old-location: kernel\exquerydepthslist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExQueryDepthSList
+- ExQueryDepthSList
 product:
 - Windows
 targetos: Windows

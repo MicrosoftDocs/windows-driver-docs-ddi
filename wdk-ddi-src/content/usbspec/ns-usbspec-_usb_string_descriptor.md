@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_STRING_DESCRIPTOR
-title: "_USB_STRING_DESCRIPTOR"
+title: _USB_STRING_DESCRIPTOR (usbspec.h)
 description: The USB_STRING_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined string descriptor.
 old-location: buses\usb_string_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_STRING_DESCRIPTOR
+- USB_STRING_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 
 
 The <b>USB_STRING_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined string descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.9.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.9.
 
 ## -struct-fields
 

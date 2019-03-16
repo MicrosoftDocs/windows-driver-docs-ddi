@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
-title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
+title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC (d3d10umddi.h)
 description: Describes a swizzle pattern.
 old-location: display\d3dwddm2_2ddi_swizzle_pattern_desc.htm
 ms.assetid: AD3D5847-862F-41AA-90C0-0F8A1D0A617B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
+- D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
 product:
 - Windows
 targetos: Windows

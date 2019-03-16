@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ACE_HEADER
-title: "_ACE_HEADER"
+title: _ACE_HEADER (ntifs.h)
 description: The ACE_HEADER structure describes the type and size of an access-control entry (ACE).
 old-location: ifsk\ace_header.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	ACE_HEADER
+- ACE_HEADER
 product:
 - Windows
 targetos: Windows

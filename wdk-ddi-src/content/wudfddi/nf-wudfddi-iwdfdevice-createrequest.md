@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateRequest
-title: IWDFDevice::CreateRequest
+title: IWDFDevice::CreateRequest (wudfddi.h)
 description: The CreateRequest method creates an unformatted request object.
 old-location: wdf\iwdfdevice_createrequest.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.CreateRequest
+- IWDFDevice.CreateRequest
 product:
 - Windows
 targetos: Windows

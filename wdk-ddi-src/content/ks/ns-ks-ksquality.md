@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_62
-title: KSQUALITY
+title: KSQUALITY (ks.h)
 description: The KSQUALITY structure is used to report QM problems in both kernel and user mode to their respective quality managers.
 old-location: stream\ksquality.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSQUALITY
+- KSQUALITY
 product:
 - Windows
 targetos: Windows

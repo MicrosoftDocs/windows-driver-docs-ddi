@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerPerformDiagnostics
-title: ChangerPerformDiagnostics function
+title: ChangerPerformDiagnostics function (mcd.h)
 description: ChangerPerformDiagnostics performs diagnostic tests on the changer device.
 old-location: storage\changerperformdiagnostics.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerPerformDiagnostics
+- ChangerPerformDiagnostics
 product:
 - Windows
 targetos: Windows

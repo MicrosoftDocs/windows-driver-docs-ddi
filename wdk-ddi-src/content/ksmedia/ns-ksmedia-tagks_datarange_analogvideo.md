@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_ANALOGVIDEO
-title: tagKS_DATARANGE_ANALOGVIDEO
+title: tagKS_DATARANGE_ANALOGVIDEO (ksmedia.h)
 description: The KS_DATARANGE_ANALOGVIDEO structure describes an analog video stream.
 old-location: stream\ks_datarange_analogvideo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATARANGE_ANALOGVIDEO
+- KS_DATARANGE_ANALOGVIDEO
 product:
 - Windows
 targetos: Windows

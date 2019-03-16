@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SWIZZLE_PATTERN
-title: D3D12DDI_SWIZZLE_PATTERN
+title: D3D12DDI_SWIZZLE_PATTERN (d3d12umddi.h)
 description: Specifies a swizzle pattern.
 old-location: display\d3d12ddi_swizzle_pattern.htm
 ms.assetid: 2C51BB44-3204-4EE8-9C86-605698BD58C0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_SWIZZLE_PATTERN
+- D3D12DDI_SWIZZLE_PATTERN
 product:
 - Windows
 targetos: Windows

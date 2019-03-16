@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsIsMediaTypeInRanges
-title: IKsDataTypeHandler::KsIsMediaTypeInRanges
+title: IKsDataTypeHandler::KsIsMediaTypeInRanges (ksproxy.h)
 description: The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges.
 old-location: stream\iksdatatypehandler_ksismediatypeinranges.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsDataTypeHandler.KsIsMediaTypeInRanges
+- IKsDataTypeHandler.KsIsMediaTypeInRanges
 product:
 - Windows
 targetos: Windows

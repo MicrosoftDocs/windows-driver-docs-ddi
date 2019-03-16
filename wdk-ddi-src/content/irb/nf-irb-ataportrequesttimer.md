@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRequestTimer
-title: AtaPortRequestTimer function
+title: AtaPortRequestTimer function (irb.h)
 description: The AtaPortRequestTimer routine requests a timer callback.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequesttimer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortRequestTimer
+- AtaPortRequestTimer
 product:
 - Windows
 targetos: Windows

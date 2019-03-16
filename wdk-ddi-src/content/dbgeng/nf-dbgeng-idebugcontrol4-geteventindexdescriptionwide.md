@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventIndexDescriptionWide
-title: IDebugControl4::GetEventIndexDescriptionWide
+title: IDebugControl4::GetEventIndexDescriptionWide (dbgeng.h)
 description: The GetEventIndexDescriptionWide method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescriptionwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetEventIndexDescriptionWide
+- IDebugControl4.GetEventIndexDescriptionWide
 product:
 - Windows
 targetos: Windows

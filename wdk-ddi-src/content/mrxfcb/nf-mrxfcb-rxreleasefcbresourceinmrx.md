@@ -1,6 +1,6 @@
 ---
 UID: NF:mrxfcb.RxReleaseFcbResourceInMRx
-title: RxReleaseFcbResourceInMRx function
+title: RxReleaseFcbResourceInMRx function (mrxfcb.h)
 description: RxReleaseFcbResourceInMRx releases the FCB resource acquired by a network mini-redirector driver.
 old-location: ifsk\rxreleasefcbresourceinmrx.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrxfcb.h
+- mrxfcb.h
 api_name:
--	RxReleaseFcbResourceInMRx
+- RxReleaseFcbResourceInMRx
 product:
 - Windows
 targetos: Windows

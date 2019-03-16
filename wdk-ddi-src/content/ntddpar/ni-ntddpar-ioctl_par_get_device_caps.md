@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_GET_DEVICE_CAPS
-title: IOCTL_PAR_GET_DEVICE_CAPS
+title: IOCTL_PAR_GET_DEVICE_CAPS (ntddpar.h)
 description: The IOCTL_PAR_GET_DEVICE_CAPS request does the following:Specifies the protocols that the system-supplied bus driver for parallel ports must not use with a parallel deviceReturns the operating protocols that the parallel device supportsFor more information, see Setting and Clearing a Communication Mode for a Parallel Device.
 old-location: parports\ioctl_par_get_device_caps.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_PAR_GET_DEVICE_CAPS
+- IOCTL_PAR_GET_DEVICE_CAPS
 product:
 - Windows
 targetos: Windows

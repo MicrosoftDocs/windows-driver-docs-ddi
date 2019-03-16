@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
-title: "_DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY"
+title: _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY (dxgiddi.h)
 description: Specifies overlay planes to display.
 old-location: display\dxgi_ddi_present_multiplane_overlay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
+- DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 product:
 - Windows
 targetos: Windows

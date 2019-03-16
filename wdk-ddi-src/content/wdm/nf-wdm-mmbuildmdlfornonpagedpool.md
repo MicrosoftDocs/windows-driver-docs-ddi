@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmBuildMdlForNonPagedPool
-title: MmBuildMdlForNonPagedPool function
+title: MmBuildMdlForNonPagedPool function (wdm.h)
 description: The MmBuildMdlForNonPagedPool routine receives an MDL that specifies a nonpaged virtual memory buffer, and updates it to describe the underlying physical pages.
 old-location: kernel\mmbuildmdlfornonpagedpool.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmBuildMdlForNonPagedPool
+- MmBuildMdlForNonPagedPool
 product:
 - Windows
 targetos: Windows

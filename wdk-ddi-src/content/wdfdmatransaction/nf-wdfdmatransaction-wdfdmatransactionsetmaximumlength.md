@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetMaximumLength
-title: WdfDmaTransactionSetMaximumLength function
+title: WdfDmaTransactionSetMaximumLength function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetMaximumLength method sets the maximum length for the DMA transfers that are associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactionsetmaximumlength.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionSetMaximumLength
+- WdfDmaTransactionSetMaximumLength
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_INITIALIZE_ROUTINE
-title: PCAM_INITIALIZE_ROUTINE
+title: PCAM_INITIALIZE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's callback function initializes the device or performs any minidriver-specific clean-up that is required.
 old-location: stream\caminitialize.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	MyInitialize
+- MyInitialize
 product:
 - Windows
 targetos: Windows

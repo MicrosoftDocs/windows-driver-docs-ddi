@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsIsThreadTerminating
-title: PsIsThreadTerminating function
+title: PsIsThreadTerminating function (ntifs.h)
 description: The PsIsThreadTerminating routine checks whether a thread is terminating.
 old-location: ifsk\psisthreadterminating.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsIsThreadTerminating
+- PsIsThreadTerminating
 product:
 - Windows
 targetos: Windows

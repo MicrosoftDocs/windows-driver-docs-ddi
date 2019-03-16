@@ -1,6 +1,6 @@
 ---
 UID: NE:ufxbase._USBFN_ACTION
-title: "_USBFN_ACTION"
+title: _USBFN_ACTION (ufxbase.h)
 description: Defines special actions UFX should take when the client driver calls the UfxDevicePortDetectCompleteEx function.
 old-location: buses\usbfn_action.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxbase.h
+- ufxbase.h
 api_name:
--	USBFN_ACTION
+- USBFN_ACTION
 product:
 - Windows
 targetos: Windows

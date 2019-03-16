@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_PRIVATE_DATA
-title: "_DXVAHDDDI_BLT_STATE_PRIVATE_DATA"
+title: _DXVAHDDDI_BLT_STATE_PRIVATE_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure describes data that specifies the private bit-block transfer (bitblt) state.
 old-location: display\dxvahdddi_blt_state_private_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_BLT_STATE_PRIVATE_DATA
+- DXVAHDDDI_BLT_STATE_PRIVATE_DATA
 product:
 - Windows
 targetos: Windows

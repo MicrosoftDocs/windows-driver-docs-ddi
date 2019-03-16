@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetProcessIdBySystemId
-title: IDebugSystemObjects4::GetProcessIdBySystemId
+title: IDebugSystemObjects4::GetProcessIdBySystemId (dbgeng.h)
 description: The GetProcessIdBySystemId method returns the engine process ID for a process specified by its system process ID.
 old-location: debugger\getprocessidbysystemid.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetProcessIdBySystemId
--	IDebugSystemObjects2.GetProcessIdBySystemId
--	IDebugSystemObjects3.GetProcessIdBySystemId
--	IDebugSystemObjects4.GetProcessIdBySystemId
+- IDebugSystemObjects.GetProcessIdBySystemId
+- IDebugSystemObjects2.GetProcessIdBySystemId
+- IDebugSystemObjects3.GetProcessIdBySystemId
+- IDebugSystemObjects4.GetProcessIdBySystemId
 product:
 - Windows
 targetos: Windows

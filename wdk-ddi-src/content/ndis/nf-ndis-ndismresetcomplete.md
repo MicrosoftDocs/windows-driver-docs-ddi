@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMResetComplete
-title: NdisMResetComplete macro
+title: NdisMResetComplete macro (ndis.h)
 description: The NdisMResetComplete function returns the final status of a reset request for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismresetcomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMResetComplete
+- NdisMResetComplete
 product:
 - Windows
 targetos: Windows

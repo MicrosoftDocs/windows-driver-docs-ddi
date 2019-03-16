@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SWITCH_OPTIONAL_HANDLERS
-title: "_NDIS_SWITCH_OPTIONAL_HANDLERS"
+title: _NDIS_SWITCH_OPTIONAL_HANDLERS (ndis.h)
 description: The NDIS_SWITCH_OPTIONAL_HANDLERS structure specifies the pointers to the Hyper-V extensible switch handler functions. These functions can be called by an extensible switch extension.
 old-location: netvista\ndis_switch_optional_handlers.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_SWITCH_OPTIONAL_HANDLERS
+- NDIS_SWITCH_OPTIONAL_HANDLERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PLATFORM_IDLE_STATE
-title: "_PEP_PLATFORM_IDLE_STATE"
+title: _PEP_PLATFORM_IDLE_STATE (pepfx.h)
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PLATFORM_IDLE_STATE
+- PEP_PLATFORM_IDLE_STATE
 product:
 - Windows
 targetos: Windows

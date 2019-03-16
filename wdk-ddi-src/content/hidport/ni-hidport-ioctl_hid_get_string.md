@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_GET_STRING
-title: IOCTL_HID_GET_STRING
+title: IOCTL_HID_GET_STRING (hidport.h)
 description: The IOCTL_HID_GET_STRING request obtains a manufacturer ID, product ID, or serial number for a top-level collection. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 old-location: hid\ioctl_hid_get_string.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_GET_STRING
+- IOCTL_HID_GET_STRING
 product:
 - Windows
 targetos: Windows

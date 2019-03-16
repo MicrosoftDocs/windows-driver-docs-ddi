@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtCommitTransaction
-title: NtCommitTransaction function
+title: NtCommitTransaction function (wdm.h)
 description: The ZwCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\zwcommittransaction.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCommitTransaction
--	NtCommitTransaction
+- ZwCommitTransaction
+- NtCommitTransaction
 product:
 - Windows
 targetos: Windows

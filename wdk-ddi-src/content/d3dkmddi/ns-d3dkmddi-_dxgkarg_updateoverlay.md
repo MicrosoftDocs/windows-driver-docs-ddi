@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UPDATEOVERLAY
-title: "_DXGKARG_UPDATEOVERLAY"
+title: _DXGKARG_UPDATEOVERLAY (d3dkmddi.h)
 description: The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\dxgkarg_updateoverlay.htm
 ms.assetid: 077f2df2-c115-4702-9472-b43df02dac42
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_UPDATEOVERLAY
+- DXGKARG_UPDATEOVERLAY
 product:
 - Windows
 targetos: Windows

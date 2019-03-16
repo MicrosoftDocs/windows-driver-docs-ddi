@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_ONEX_STOP
-title: DOT11EXT_ONEX_STOP
+title: DOT11EXT_ONEX_STOP (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extstoponex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtStopOneX
+- Dot11ExtStopOneX
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STARTIO_PERFORMANCE_PARAMETERS
-title: "_STARTIO_PERFORMANCE_PARAMETERS"
+title: _STARTIO_PERFORMANCE_PARAMETERS (storport.h)
 description: The STARTIO_PERFORMANCE_PARAMETERS structure describes the performance parameters that are returned to the miniport driver by the StorPortGetStartIoPerfParams routine.
 old-location: storage\startio_performance_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STARTIO_PERFORMANCE_PARAMETERS
+- STARTIO_PERFORMANCE_PARAMETERS
 product:
 - Windows
 targetos: Windows

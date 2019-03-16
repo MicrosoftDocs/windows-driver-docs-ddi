@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InitializeSListHead
-title: InitializeSListHead function
+title: InitializeSListHead function (wdm.h)
 description: The InitializeSListHead routine (or ExInitializeSListHead) initializes an SLIST_HEADER structure that represents the head of a sequenced singly linked list.
 old-location: kernel\exinitializeslisthead.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	InitializeSListHead
+- InitializeSListHead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS
-title: EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS
+title: EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS (ucxendpoint.h)
 description: UCX invokes this callback function to get information about transfer path delays for an isochronous endpoint.
 old-location: buses\evt_ucx_endpoint_get_isoch_transfer_path_delays_.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	EvtUcxEndpointGetIsochTransferPathDelays
+- EvtUcxEndpointGetIsochTransferPathDelays
 product:
 - Windows
 targetos: Windows

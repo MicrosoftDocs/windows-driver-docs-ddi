@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetPointerKind
-title: IDebugHostType::GetPointerKind
+title: IDebugHostType::GetPointerKind (dbgmodel.h)
 description: For types which are pointers, the GetPointerKind method returns the kind of pointer. 
 ms.assetid: cd03e7b1-769d-4316-a8f3-06467173ca70
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetPointerKind
-product: Windows
+- IDebugHostType.GetPointerKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

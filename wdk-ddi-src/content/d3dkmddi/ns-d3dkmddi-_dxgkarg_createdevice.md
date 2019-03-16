@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEDEVICE
-title: "_DXGKARG_CREATEDEVICE"
+title: _DXGKARG_CREATEDEVICE (d3dkmddi.h)
 description: The DXGKARG_CREATEDEVICE structure describes a graphics context device.
 old-location: display\dxgkarg_createdevice.htm
 ms.assetid: 88d20349-4039-4a5d-a1fd-0488148c623d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_CREATEDEVICE
+- DXGKARG_CREATEDEVICE
 product:
 - Windows
 targetos: Windows

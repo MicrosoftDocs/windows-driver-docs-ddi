@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_ENTRY
-title: _DXGK_SCHEDULING_LOG_ENTRY
+title: _DXGK_SCHEDULING_LOG_ENTRY (d3dkmddi.h)
 description: Contains information about a scheduling log entry.
 ms.assetid: 66e7d724-9605-486a-b02a-62378cf95319
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_LOG_ENTRY
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_LOG_ENTRY
+- _DXGK_SCHEDULING_LOG_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

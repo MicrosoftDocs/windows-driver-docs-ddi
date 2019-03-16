@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_
-title: FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_
+title: FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0_ (fwpsk.h)
 description: The FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 structure defines IPsec information associated with inbound packet data.Note  FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0 is a specific version of FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION.
 old-location: netvista\fwps_packet_list_inbound_ipsec_information0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
+- FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DEVICE_FORM_FACTOR
-title: "_STORAGE_DEVICE_FORM_FACTOR"
+title: _STORAGE_DEVICE_FORM_FACTOR (ntddstor.h)
 description: Indicates the form factor of a storage device.
 old-location: storage\storage_device_form_factor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_DEVICE_FORM_FACTOR
+- STORAGE_DEVICE_FORM_FACTOR
 product:
 - Windows
 targetos: Windows

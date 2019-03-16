@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_OFFLINE
-title: IOCTL_VOLUME_OFFLINE
+title: IOCTL_VOLUME_OFFLINE (ntddvol.h)
 description: The IOCTL_VOLUME_OFFLINE IOCTL puts the volume in an OFFLINE state, which is a state where read and write operations will fail.
 old-location: storage\ioctl_volume_offline.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvol.h
+- Ntddvol.h
 api_name:
--	IOCTL_VOLUME_OFFLINE
+- IOCTL_VOLUME_OFFLINE
 product:
 - Windows
 targetos: Windows

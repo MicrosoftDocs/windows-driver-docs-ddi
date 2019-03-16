@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsEcpAcknowledged
-title: FltIsEcpAcknowledged function
+title: FltIsEcpAcknowledged function (fltkernel.h)
 description: The FltIsEcpAcknowledged routine is used to determine if a given extra create parameter context structure (ECP) has been marked as acknowledged.
 old-location: ifsk\fltisecpacknowledged.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltIsEcpAcknowledged
+- FltIsEcpAcknowledged
 product:
 - Windows
 targetos: Windows

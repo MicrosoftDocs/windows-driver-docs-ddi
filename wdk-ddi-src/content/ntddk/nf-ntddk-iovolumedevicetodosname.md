@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoVolumeDeviceToDosName
-title: IoVolumeDeviceToDosName function
+title: IoVolumeDeviceToDosName function (ntddk.h)
 description: The IoVolumeDeviceToDosName routine returns the MS-DOS path for a specified device object that represents a file system volume.
 old-location: kernel\iovolumedevicetodosname.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoVolumeDeviceToDosName
+- IoVolumeDeviceToDosName
 product:
 - Windows
 targetos: Windows

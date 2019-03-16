@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueRetrieveFoundRequest
-title: WdfIoQueueRetrieveFoundRequest function
+title: WdfIoQueueRetrieveFoundRequest function (wdfio.h)
 description: The WdfIoQueueRetrieveFoundRequest method delivers a specified request to the driver, so that the driver can process the request.
 old-location: wdf\wdfioqueueretrievefoundrequest.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueRetrieveFoundRequest
+- WdfIoQueueRetrieveFoundRequest
 product:
 - Windows
 targetos: Windows

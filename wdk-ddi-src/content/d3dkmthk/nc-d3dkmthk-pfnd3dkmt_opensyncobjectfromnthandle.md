@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE
-title: PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE
+title: PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE (d3dkmthk.h)
 description: The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE callback function maps an NT process handle to a graphics processing unit (GPU) synchronization object.
 ms.assetid: c50784ef-67bb-410e-8d67-0592cc3a980c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE
+- PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

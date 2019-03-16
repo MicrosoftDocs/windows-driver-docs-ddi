@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
-title: "_DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS"
+title: _DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS (windot11.h)
 description: The parameters for a provision discovery request send complete are specified in a DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS structure.
 old-location: netvista\dot11_provision_discovery_request_send_complete_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
+- DOT11_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE_PARAMETERS
 product:
 - Windows
 targetos: Windows

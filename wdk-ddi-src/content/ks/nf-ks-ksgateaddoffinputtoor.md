@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateAddOffInputToOr
-title: KsGateAddOffInputToOr function
+title: KsGateAddOffInputToOr function (ks.h)
 description: The KsGateAddOffInputToOr function adds a new input in the OFF state to a given OR gate.
 old-location: stream\ksgateaddoffinputtoor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateAddOffInputToOr
+- KsGateAddOffInputToOr
 product:
 - Windows
 targetos: Windows

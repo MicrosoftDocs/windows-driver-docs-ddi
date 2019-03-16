@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetRssProcessorInformation
-title: NdisGetRssProcessorInformation function
+title: NdisGetRssProcessorInformation function (ndis.h)
 description: The NdisGetRssProcessorInformation function retrieves information about the set of processors that a miniport driver must use for receive side scaling (RSS).
 old-location: netvista\ndisgetrssprocessorinformation.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetRssProcessorInformation
+- NdisGetRssProcessorInformation
 product:
 - Windows
 targetos: Windows

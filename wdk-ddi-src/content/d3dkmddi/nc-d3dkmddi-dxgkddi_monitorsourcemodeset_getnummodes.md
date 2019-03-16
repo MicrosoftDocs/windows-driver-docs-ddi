@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
-title: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
+title: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES (d3dkmddi.h)
 description: The pfnGetNumModes function returns the number modes in a specified monitor source mode set.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfngetnummodes.htm
 ms.assetid: 58daf5be-45c5-493b-9d51-ef48bb123dce
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetNumModes
+- pfnGetNumModes
 product:
 - Windows
 targetos: Windows

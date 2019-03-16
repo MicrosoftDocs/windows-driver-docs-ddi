@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
-title: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
+title: IOCTL_BTHHFP_DEVICE_GET_CONTAINERID (bthhfpddi.h)
 description: The IOCTL_BTHHFP_DEVICE_GET_CONTAINERID IOCTL Gets the PnP Container ID of the Bluetooth device.
 old-location: audio\ioctl_bthhfp_device_get_containerid.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
+- IOCTL_BTHHFP_DEVICE_GET_CONTAINERID
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeregisterProvider
-title: NdisIfDeregisterProvider function
+title: NdisIfDeregisterProvider function (ndis.h)
 description: The NdisIfDeregisterProvider function deregisters an interface provider that was previously registered by a call to the NdisIfRegisterProvider function.
 old-location: netvista\ndisifderegisterprovider.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfDeregisterProvider
+- NdisIfDeregisterProvider
 product:
 - Windows
 targetos: Windows

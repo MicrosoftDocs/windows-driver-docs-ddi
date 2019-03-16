@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Continue
-title: IWDTFSimpleIOStressAction2::Continue
+title: IWDTFSimpleIOStressAction2::Continue (wdtfinterfaces.h)
 description: Continues the I/O.
 old-location: dtf\iwdtfsimpleiostressaction2_continue.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOStressAction2.Continue
+- IWDTFSimpleIOStressAction2.Continue
 product:
 - Windows
 targetos: Windows

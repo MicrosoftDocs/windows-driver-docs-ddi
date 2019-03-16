@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYBLENDSTATE
-title: PFND3D10DDI_DESTROYBLENDSTATE
+title: PFND3D10DDI_DESTROYBLENDSTATE (d3d10umddi.h)
 description: The DestroyBlendState function destroys the specified blend state object. The blend state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyblendstate.htm
 ms.assetid: 56fc1ecf-fd4c-4d36-941b-8fa6cca3b6b4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DestroyBlendState
+- DestroyBlendState
 product:
 - Windows
 targetos: Windows

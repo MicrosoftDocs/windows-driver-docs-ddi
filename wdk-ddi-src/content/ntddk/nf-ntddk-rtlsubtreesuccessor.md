@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlSubtreeSuccessor
-title: RtlSubtreeSuccessor function
+title: RtlSubtreeSuccessor function (ntddk.h)
 description: The RtlSubtreeSuccessor routine returns a pointer to the successor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreesuccessor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlSubtreeSuccessor
+- RtlSubtreeSuccessor
 product:
 - Windows
 targetos: Windows

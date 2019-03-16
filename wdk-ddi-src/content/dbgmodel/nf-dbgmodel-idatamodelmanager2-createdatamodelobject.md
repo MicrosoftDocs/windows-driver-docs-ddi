@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateDataModelObject
-title: IDataModelManager2::CreateDataModelObject
+title: IDataModelManager2::CreateDataModelObject (dbgmodel.h)
 description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects.
 ms.assetid: 18106e3b-de00-4fbd-9af6-5f6011fa095b
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2.CreateDataModelObject
-product: Windows
+- IDataModelManager2.CreateDataModelObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

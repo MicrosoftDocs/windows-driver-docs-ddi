@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvInitItemProperties
-title: IWiaMiniDrv::drvInitItemProperties
+title: IWiaMiniDrv::drvInitItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvInitItemProperties method initializes WIA driver item properties for each item in an application item tree.
 old-location: image\iwiaminidrv_drvinititemproperties.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvInitItemProperties
+- IWiaMiniDrv.drvInitItemProperties
 product:
 - Windows
 targetos: Windows

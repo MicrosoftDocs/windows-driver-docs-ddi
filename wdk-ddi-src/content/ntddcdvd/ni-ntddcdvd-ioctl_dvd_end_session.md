@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_END_SESSION
-title: IOCTL_DVD_END_SESSION
+title: IOCTL_DVD_END_SESSION (ntddcdvd.h)
 description: Ends a DVD session by invalidating its authentication grant ID (AGID).
 old-location: storage\ioctl_dvd_end_session.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_DVD_END_SESSION
+- IOCTL_DVD_END_SESSION
 product:
 - Windows
 targetos: Windows

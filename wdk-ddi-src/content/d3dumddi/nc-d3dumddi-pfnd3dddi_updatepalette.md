@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEPALETTE
-title: PFND3DDDI_UPDATEPALETTE
+title: PFND3DDDI_UPDATEPALETTE (d3dumddi.h)
 description: The UpdatePalette function updates a texture palette.
 old-location: display\updatepalette.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	UpdatePalette
+- UpdatePalette
 product:
 - Windows
 targetos: Windows

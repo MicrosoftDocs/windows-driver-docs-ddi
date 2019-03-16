@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCANCEL_ADAPTER_CHANNEL
-title: PCANCEL_ADAPTER_CHANNEL
+title: PCANCEL_ADAPTER_CHANNEL (wdm.h)
 description: The CancelAdapterChannel routine tries to cancel a pending request to allocate a DMA channel.
 old-location: kernel\canceladapterchannel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CancelAdapterChannel
+- CancelAdapterChannel
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetScopeFromStoredEvent
-title: IDebugSymbols3::SetScopeFromStoredEvent
+title: IDebugSymbols3::SetScopeFromStoredEvent (dbgeng.h)
 description: The SetScopeFromStoredEvent method sets the current scope to the scope of the stored event.
 old-location: debugger\setscopefromstoredevent.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.SetScopeFromStoredEvent
+- IDebugSymbols3.SetScopeFromStoredEvent
 product:
 - Windows
 targetos: Windows

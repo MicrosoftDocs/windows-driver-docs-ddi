@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_TDRDBGCTRLTYPE
-title: "_D3DKMT_TDRDBGCTRLTYPE"
+title: _D3DKMT_TDRDBGCTRLTYPE (d3dkmthk.h)
 description: The D3DKMT_TDRDBGCTRLTYPE enumeration type contains values that affect the behavior of the operating system's Timeout Detection and Recovery (TDR) process in a call to the OpenGL D3DKMTEscape function.
 old-location: display\d3dkmt_tdrdbgctrltype.htm
 ms.assetid: d3a6dfcc-e318-4fd0-85e0-5a0cc13fd00f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_TDRDBGCTRLTYPE
+- D3DKMT_TDRDBGCTRLTYPE
 product:
 - Windows
 targetos: Windows

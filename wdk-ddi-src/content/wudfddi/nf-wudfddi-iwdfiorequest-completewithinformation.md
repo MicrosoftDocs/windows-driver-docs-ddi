@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.CompleteWithInformation
-title: IWDFIoRequest::CompleteWithInformation
+title: IWDFIoRequest::CompleteWithInformation (wudfddi.h)
 description: The CompleteWithInformation method completes a request with the supplied information.
 old-location: wdf\iwdfiorequest_completewithinformation.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.CompleteWithInformation
+- IWDFIoRequest.CompleteWithInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateTrackedWorkload
-title: D3DKMTCreateTrackedWorkload function
+title: D3DKMTCreateTrackedWorkload function (d3dkmthk.h)
 description: Creates a tracked workload instance.
 ms.assetid: beb2ea0b-cf59-4126-ad12-a6755c2a58ca
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTCreateTrackedWorkload
+- D3DKMTCreateTrackedWorkload
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENTMULTIPLANEOVERLAY
-title: PFND3DDDI_PRESENTMULTIPLANEOVERLAY
+title: PFND3DDDI_PRESENTMULTIPLANEOVERLAY (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
 old-location: display\pfnpresentmultiplaneoverlay__d3d_.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	pfnPresentMultiPlaneOverlay
+- pfnPresentMultiPlaneOverlay
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_SETDISPLAYMODE
-title: DXGI_DDI_ARG_SETDISPLAYMODE
+title: DXGI_DDI_ARG_SETDISPLAYMODE (dxgiddi.h)
 description: The DXGI_DDI_ARG_SETDISPLAYMODE structure describes parameters for setting the display mode.
 old-location: display\dxgi_ddi_arg_setdisplaymode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_SETDISPLAYMODE
+- DXGI_DDI_ARG_SETDISPLAYMODE
 product:
 - Windows
 targetos: Windows

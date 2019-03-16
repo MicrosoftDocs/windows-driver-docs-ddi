@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DEVINSTANCE_HEALTH_CLASS
-title: "_MPIO_DEVINSTANCE_HEALTH_CLASS"
+title: _MPIO_DEVINSTANCE_HEALTH_CLASS (mpiodisk.h)
 description: The MPIO_DEVINSTANCE_HEALTH_CLASS structure holds the health information for a instance of a device exposed through the specified path identifiers.
 old-location: storage\mpio_devinstance_health_class.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	MPIO_DEVINSTANCE_HEALTH_CLASS
+- MPIO_DEVINSTANCE_HEALTH_CLASS
 product:
 - Windows
 targetos: Windows

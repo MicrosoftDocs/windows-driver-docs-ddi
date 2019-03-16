@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
-title: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
+title: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043 (d3d12umddi.h)
 description: Specifies input stream parameters for an input stream passed to PFND3D12DDI_VIDEO_PROCESS_FRAME.
 ms.assetid: 816940cd-6653-44fb-b529-e75e4de72356
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
+- D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
 product: 
 - Windows
 targetos: Windows

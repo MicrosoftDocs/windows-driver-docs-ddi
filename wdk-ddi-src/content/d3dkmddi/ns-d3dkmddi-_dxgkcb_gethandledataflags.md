@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_GETHANDLEDATAFLAGS
-title: _DXGKCB_GETHANDLEDATAFLAGS
+title: _DXGKCB_GETHANDLEDATAFLAGS (d3dkmddi.h)
 description: The DXGKCB_GETHANDLEDATAFLAGS structure indicates if allocations belong to a resource.
 old-location: display\dxgkcb_gethandledataflags.htm
 ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_GETHANDLEDATAFLAGS
+- DXGKCB_GETHANDLEDATAFLAGS
 product:
 - Windows
 targetos: Windows

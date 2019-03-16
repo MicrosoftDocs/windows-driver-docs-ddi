@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_SERIALNUMBER_STRING
-title: IOCTL_HID_GET_SERIALNUMBER_STRING
+title: IOCTL_HID_GET_SERIALNUMBER_STRING (hidclass.h)
 description: The IOCTL_HID_GET_SERIALNUMBER_STRING request obtains a top-level collection's embedded string that identifies the device's serial number.
 old-location: hid\ioctl_hid_get_serialnumber_string.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_GET_SERIALNUMBER_STRING
+- IOCTL_HID_GET_SERIALNUMBER_STRING
 product:
 - Windows
 targetos: Windows

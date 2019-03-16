@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
-title: "_D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY"
+title: _D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY (d3dkmdt.h)
 description: Specifies the capabilities for the preemption of graphic processing unit (GPU) compute shader operations that the display miniport driver supports.
 old-location: display\d3dkmdt_compute_preemption_granularity.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
+- D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
 product:
 - Windows
 targetos: Windows

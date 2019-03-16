@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateFile
-title: FltCreateFile function
+title: FltCreateFile function (fltkernel.h)
 description: Minifilter drivers call FltCreateFile to create a new file or open an existing file.
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltCreateFile
+- FltCreateFile
 product:
 - Windows
 targetos: Windows
@@ -780,16 +780,6 @@ IO_IGNORE_SHARE_ACCESS_CHECK
 </td>
 <td>
 Indicates that the I/O manager should not perform share-access checks on the file object after it is created. However, the file system might still perform these checks. 
-
-</td>
-</tr>
-<tr>
-<td>
-IO_NO_PARAMETER_CHECKING
-
-</td>
-<td>
-Indicates that the parameters for this call should not be validated before attempting to issue the create request. Driver writers should use this flag with caution because certain invalid parameters can cause a system failure.
 
 </td>
 </tr>

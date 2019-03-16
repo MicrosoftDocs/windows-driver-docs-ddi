@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQueryAllData
-title: IoWMIQueryAllData function
+title: IoWMIQueryAllData function (wdm.h)
 description: The IoWMIQueryAllData routine returns all WMI data blocks that implement a given WMI class.
 old-location: kernel\iowmiqueryalldata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIQueryAllData
+- IoWMIQueryAllData
 product:
 - Windows
 targetos: Windows

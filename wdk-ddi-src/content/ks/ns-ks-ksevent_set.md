@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_73
-title: KSEVENT_SET
+title: KSEVENT_SET (ks.h)
 description: The KSEVENT_SET structure describes the events that comprise a kernel streaming event set.
 old-location: stream\ksevent_set.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSEVENT_SET
+- KSEVENT_SET
 product:
 - Windows
 targetos: Windows

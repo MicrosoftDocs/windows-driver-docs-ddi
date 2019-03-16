@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_STATE
-title: "_WWAN_REGISTER_STATE"
+title: _WWAN_REGISTER_STATE (wwan.h)
 description: The WWAN_REGISTER_STATE enumeration lists the different provider network registration states that are supported by the MB device.
 old-location: netvista\wwan_register_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_REGISTER_STATE
+- WWAN_REGISTER_STATE
 product:
 - Windows
 targetos: Windows

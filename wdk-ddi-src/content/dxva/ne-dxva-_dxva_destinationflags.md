@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DestinationFlags
-title: "_DXVA_DestinationFlags"
+title: _DXVA_DestinationFlags (dxva.h)
 description: The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 old-location: display\dxva_destinationflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DestinationFlags
+- DXVA_DestinationFlags
 product:
 - Windows
 targetos: Windows

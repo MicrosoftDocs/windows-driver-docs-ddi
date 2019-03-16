@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockIsSharedRequest
-title: FsRtlOplockIsSharedRequest function
+title: FsRtlOplockIsSharedRequest function (ntifs.h)
 description: The FsRtlOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fsrtloplockissharedrequest.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlOplockIsSharedRequest
+- FsRtlOplockIsSharedRequest
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PBUILD_SCATTER_GATHER_LIST
-title: PBUILD_SCATTER_GATHER_LIST
+title: PBUILD_SCATTER_GATHER_LIST (wdm.h)
 description: The BuildScatterGatherList routine prepares the system for a DMA operation, using a driver-supplied buffer to build the scatter/gather list.
 old-location: kernel\buildscattergatherlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	BuildScatterGatherList
+- BuildScatterGatherList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateIoQueue
-title: IWDFDevice::CreateIoQueue
+title: IWDFDevice::CreateIoQueue (wudfddi.h)
 description: The CreateIoQueue method configures the default I/O queue that is associated with a device or creates a secondary I/O queue for the device.
 old-location: wdf\iwdfdevice_createioqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.CreateIoQueue
+- IWDFDevice.CreateIoQueue
 product:
 - Windows
 targetos: Windows

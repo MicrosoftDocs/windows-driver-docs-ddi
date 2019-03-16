@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectHeader
-title: KsFreeObjectHeader function
+title: KsFreeObjectHeader function (ks.h)
 description: The KsFreeObjectHeader function cleans up and frees a previously allocated object header.
 old-location: stream\ksfreeobjectheader.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFreeObjectHeader
+- KsFreeObjectHeader
 product:
 - Windows
 targetos: Windows

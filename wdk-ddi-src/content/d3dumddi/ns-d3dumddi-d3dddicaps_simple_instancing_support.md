@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
-title: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
+title: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT (d3dumddi.h)
 description: Describes whether simple instancing is supported.
 old-location: display\d3dddicaps_simple_instancing_support.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
+- D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 product:
 - Windows
 targetos: Windows

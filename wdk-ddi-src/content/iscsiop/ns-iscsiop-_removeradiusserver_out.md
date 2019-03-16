@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveRADIUSServer_OUT
-title: "_RemoveRADIUSServer_OUT"
+title: _RemoveRADIUSServer_OUT (iscsiop.h)
 description: The RemoveiSNSServer_OUT structure holds the output data for the RemoveRADIUSServer method.
 old-location: storage\removeradiusserver_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemoveRADIUSServer_OUT
+- RemoveRADIUSServer_OUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
-title: "_DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2"
+title: _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 (d3dkmddi.h)
 description: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 is passed to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 function to change the overlay configuration being displayed.DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 is passed to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 function to change the overlay configuration being displayed.
 old-location: display\dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.htm
 ms.assetid: 6138BAF5-F953-47E7-A572-BE4673CF7046
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
+- DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 product:
 - Windows
 targetos: Windows

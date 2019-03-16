@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_TX_PAUSE_REASON
-title: "_WDI_TX_PAUSE_REASON"
+title: _WDI_TX_PAUSE_REASON (dot11wdi.h)
 description: The WDI_TX_PAUSE_REASON enumeration defines the reasons for a TX pause.
 old-location: netvista\wdi_tx_pause_reason.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_TX_PAUSE_REASON
+- WDI_TX_PAUSE_REASON
 product:
 - Windows
 targetos: Windows

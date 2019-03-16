@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExtensionByPath
-title: IDebugControl3::GetExtensionByPath
+title: IDebugControl3::GetExtensionByPath (dbgeng.h)
 description: The GetExtensionByPath method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypath.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetExtensionByPath
--	IDebugControl2.GetExtensionByPath
--	IDebugControl3.GetExtensionByPath
+- IDebugControl.GetExtensionByPath
+- IDebugControl2.GetExtensionByPath
+- IDebugControl3.GetExtensionByPath
 product:
 - Windows
 targetos: Windows

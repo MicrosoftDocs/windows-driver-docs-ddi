@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
-title: PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
+title: PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS (d3d10umddi.h)
 description: CheckCryptoSessionStatus returns the status of a CryptoSession object.
 old-location: display\checkcryptosessionstatus.htm
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CheckCryptoSessionStatus
+- CheckCryptoSessionStatus
 product:
 - Windows
 targetos: Windows

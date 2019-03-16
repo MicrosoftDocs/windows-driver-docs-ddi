@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATERESOURCE
-title: D3D11DDIARG_CREATERESOURCE
+title: D3D11DDIARG_CREATERESOURCE (d3d10umddi.h)
 description: Describes a resource to create.
 old-location: display\d3d11ddiarg_createresource.htm
 ms.assetid: 4cdc5d74-ef53-47aa-91ed-0b71dfe688dc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_CREATERESOURCE
+- D3D11DDIARG_CREATERESOURCE
 product:
 - Windows
 targetos: Windows

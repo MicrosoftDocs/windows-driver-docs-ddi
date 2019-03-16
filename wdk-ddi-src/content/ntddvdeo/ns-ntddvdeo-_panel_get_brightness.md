@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._PANEL_GET_BRIGHTNESS
-title: _PANEL_GET_BRIGHTNESS
+title: _PANEL_GET_BRIGHTNESS (ntddvdeo.h)
 description: Gets the current brightness level, plus details on the brightness transition in progress.
 tech.root: display
 ms.assetid: f7fbdbb4-f3cc-4ab7-b891-370190a96c19
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_GET_BRIGHTNESS
+- _PANEL_GET_BRIGHTNESS
 product: 
 - Windows
 targetos: Windows

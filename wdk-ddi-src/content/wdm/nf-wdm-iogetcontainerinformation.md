@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetContainerInformation
-title: IoGetContainerInformation function
+title: IoGetContainerInformation function (wdm.h)
 description: The IoGetContainerInformation routine provides information about the current state of a user session.
 old-location: kernel\iogetcontainerinformation.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetContainerInformation
+- IoGetContainerInformation
 product:
 - Windows
 targetos: Windows

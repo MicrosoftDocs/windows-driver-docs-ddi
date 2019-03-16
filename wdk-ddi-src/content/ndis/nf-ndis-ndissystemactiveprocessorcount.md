@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSystemActiveProcessorCount
-title: NdisSystemActiveProcessorCount function
+title: NdisSystemActiveProcessorCount function (ndis.h)
 description: The NdisSystemActiveProcessorCount function returns the number of currently active processors in the local computer.
 old-location: netvista\ndissystemactiveprocessorcount.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisSystemActiveProcessorCount
+- NdisSystemActiveProcessorCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetRunningProcessDescriptionWide
-title: IDebugClient5::GetRunningProcessDescriptionWide
+title: IDebugClient5::GetRunningProcessDescriptionWide (dbgeng.h)
 description: The GetRunningProcessDescriptionWide method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
 old-location: debugger\getrunningprocessdescriptionwide.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient3.GetRunningProcessDescriptionWide
--	IDebugClient4.GetRunningProcessDescriptionWide
--	IDebugClient5.GetRunningProcessDescriptionWide
+- IDebugClient3.GetRunningProcessDescriptionWide
+- IDebugClient4.GetRunningProcessDescriptionWide
+- IDebugClient5.GetRunningProcessDescriptionWide
 product:
 - Windows
 targetos: Windows

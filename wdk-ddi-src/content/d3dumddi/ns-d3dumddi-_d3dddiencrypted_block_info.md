@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIENCRYPTED_BLOCK_INFO
-title: "_D3DDDIENCRYPTED_BLOCK_INFO"
+title: _D3DDDIENCRYPTED_BLOCK_INFO (d3dumddi.h)
 description: The D3DDDIENCRYPTED_BLOCK_INFO structure describes the portions of a buffer that are encrypted.
 old-location: display\d3dddiencrypted_block_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIENCRYPTED_BLOCK_INFO
+- D3DDDIENCRYPTED_BLOCK_INFO
 product:
 - Windows
 targetos: Windows

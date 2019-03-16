@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_SetNumInputBuffers
-title: HidD_SetNumInputBuffers function
+title: HidD_SetNumInputBuffers function (hidsdi.h)
 description: The HidD_SetNumInputBuffers routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified top-level collection.
 old-location: hid\hidd_setnuminputbuffers.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_SetNumInputBuffers
+- HidD_SetNumInputBuffers
 product:
 - Windows
 targetos: Windows

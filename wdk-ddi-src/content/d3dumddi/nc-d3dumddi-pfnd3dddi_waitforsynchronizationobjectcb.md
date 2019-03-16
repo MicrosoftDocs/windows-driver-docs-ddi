@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
-title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
+title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB (d3dumddi.h)
 description: The pfnWaitForSynchronizationObjectCb function inserts a wait for the specified synchronization objects in the specified context DMA stream.
 old-location: display\pfnwaitforsynchronizationobjectcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnWaitForSynchronizationObjectCb
+- pfnWaitForSynchronizationObjectCb
 product:
 - Windows
 targetos: Windows

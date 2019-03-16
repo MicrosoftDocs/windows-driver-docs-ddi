@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortEnablePassiveInitialization
-title: StorPortEnablePassiveInitialization function
+title: StorPortEnablePassiveInitialization function (storport.h)
 description: The StorPortEnablePassiveInitialization routine enables the miniport's HwStorPassiveInitializeRoutine callback routine to execute at PASSIVE_LEVEL during miniport initialization.
 old-location: storage\storportenablepassiveinitialization.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DIRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortEnablePassiveInitialization
+- StorPortEnablePassiveInitialization
 product:
 - Windows
 targetos: Windows

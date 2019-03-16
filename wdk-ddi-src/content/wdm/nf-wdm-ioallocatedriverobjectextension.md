@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateDriverObjectExtension
-title: IoAllocateDriverObjectExtension function
+title: IoAllocateDriverObjectExtension function (wdm.h)
 description: The IoAllocateDriverObjectExtension routine allocates a per-driver context area, called a driver object extension, and assigns a unique identifier to it.
 old-location: kernel\ioallocatedriverobjectextension.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAllocateDriverObjectExtension
+- IoAllocateDriverObjectExtension
 product:
 - Windows
 targetos: Windows

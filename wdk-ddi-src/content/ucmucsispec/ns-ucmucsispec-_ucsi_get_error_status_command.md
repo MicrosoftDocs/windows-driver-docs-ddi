@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_ERROR_STATUS_COMMAND
-title: _UCSI_GET_ERROR_STATUS_COMMAND
+title: _UCSI_GET_ERROR_STATUS_COMMAND (ucmucsispec.h)
 description: Used in the GET_ERROR_STATUS command. See Table 4-45
 ms.assetid: d55af2a1-7c4e-4250-bccc-c077f1156dc4
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_ERROR_STATUS_COMMAND, *PUCSI_GET_ERROR_STATUS_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_ERROR_STATUS_COMMAND
-product: Windows
+- _UCSI_GET_ERROR_STATUS_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

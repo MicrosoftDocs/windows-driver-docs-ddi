@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsRedirectHandleCreate0
-title: FwpsRedirectHandleCreate0 function
+title: FwpsRedirectHandleCreate0 function (fwpsk.h)
 description: The FwpsRedirectHandleCreate0 function creates a handle that connection redirection functions can use to redirect connections to a local process.
 old-location: netvista\fwpsredirecthandlecreate0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsRedirectHandleCreate0
+- FwpsRedirectHandleCreate0
 product:
 - Windows
 targetos: Windows

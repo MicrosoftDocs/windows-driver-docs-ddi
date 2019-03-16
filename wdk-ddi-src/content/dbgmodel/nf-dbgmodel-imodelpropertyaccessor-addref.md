@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.AddRef
-title: IModelPropertyAccessor::AddRef
+title: IModelPropertyAccessor::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 ms.assetid: f0f7bd83-41dc-4683-9a67-8f37ca521881
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelPropertyAccessor.AddRef
-product: Windows
+- IModelPropertyAccessor.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

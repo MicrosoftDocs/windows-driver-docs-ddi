@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentThreadTeb
-title: PsGetCurrentThreadTeb function
+title: PsGetCurrentThreadTeb function (ntddk.h)
 description: The PsGetCurrentThreadTeb routine returns the Thread Environment Block (TEB) of the current thread. The call must be made in kernel-mode.
 old-location: kernel\psgetcurrentthreadteb.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetCurrentThreadTeb
+- PsGetCurrentThreadTeb
 product:
 - Windows
 targetos: Windows

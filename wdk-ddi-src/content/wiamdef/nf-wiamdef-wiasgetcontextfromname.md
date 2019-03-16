@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetContextFromName
-title: wiasGetContextFromName function
+title: wiasGetContextFromName function (wiamdef.h)
 description: The wiasGetContextFromName function retrieves the item context for an item name.
 old-location: image\wiasgetcontextfromname.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetContextFromName
+- wiasGetContextFromName
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IXpsPartIterator
-title: IXpsPartIterator
+title: IXpsPartIterator (filterpipeline.h)
 description: The IXpsPartIterator interface is an iterator for XPS parts.
 old-location: print\ixpspartiterator.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsPartIterator
+- IXpsPartIterator
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_SERVING_CELL_INFO
-title: "_WWAN_GSM_SERVING_CELL_INFO"
+title: _WWAN_GSM_SERVING_CELL_INFO (wwan.h)
 description: The WWAN_GSM_SERVING_CELL_INFO structure represents information about the GSM serving cell.
 old-location: netvista\wwan_gsm_serving_cell_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_GSM_SERVING_CELL_INFO
+- WWAN_GSM_SERVING_CELL_INFO
 product:
 - Windows
 targetos: Windows

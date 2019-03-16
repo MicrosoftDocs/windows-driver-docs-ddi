@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlOemStringToUnicodeString
-title: RtlOemStringToUnicodeString function
+title: RtlOemStringToUnicodeString function (ntifs.h)
 description: The RtlOemStringToUnicodeString routine translates a given source string into a null-terminated Unicode string using the current system OEM code page.
 old-location: ifsk\rtloemstringtounicodestring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlOemStringToUnicodeString
+- RtlOemStringToUnicodeString
 product:
 - Windows
 targetos: Windows

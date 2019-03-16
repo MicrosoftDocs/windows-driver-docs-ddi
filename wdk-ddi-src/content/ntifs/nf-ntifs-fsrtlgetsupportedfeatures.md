@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetSupportedFeatures
-title: FsRtlGetSupportedFeatures function
+title: FsRtlGetSupportedFeatures function (ntifs.h)
 description: The FsRtlGetSupportedFeatures routine returns the supported features of a volume attached to the specified device object.
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlGetSupportedFeatures
+- FsRtlGetSupportedFeatures
 product:
 - Windows
 targetos: Windows

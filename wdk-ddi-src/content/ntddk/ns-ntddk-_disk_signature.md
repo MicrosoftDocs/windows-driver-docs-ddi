@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._DISK_SIGNATURE
-title: "_DISK_SIGNATURE"
+title: _DISK_SIGNATURE (ntddk.h)
 description: DISK_SIGNATURE contains the disk signature information for a disk's partition table.
 old-location: storage\disk_signature.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	DISK_SIGNATURE
+- DISK_SIGNATURE
 product:
 - Windows
 targetos: Windows

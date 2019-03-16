@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_TARGET_DESC_INIT
-title: MINIPORT_WDI_TX_TARGET_DESC_INIT
+title: MINIPORT_WDI_TX_TARGET_DESC_INIT (dot11wdi.h)
 description: The MINIPORT_WDI_TX_TARGET_DESC_INIT callback function associates an opaque target TX descriptor with the NET_BUFFER_LIST (MiniportReserved[1] field) and (if applicable) populates the TX cost field (in credit units) in the WDI_FRAME_METADATA buffer of the NET_BUFFER_LIST (MiniportReserved[0]).
 old-location: netvista\miniportwditxtargetdescinit.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTxTargetDescInit
+- MiniportWdiTxTargetDescInit
 product:
 - Windows
 targetos: Windows

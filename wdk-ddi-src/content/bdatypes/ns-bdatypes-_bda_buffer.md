@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_BUFFER
-title: "_BDA_BUFFER"
+title: _BDA_BUFFER (bdatypes.h)
 description: 
 old-location: stream\bda_buffer.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_BUFFER
+- BDA_BUFFER
 product:
 - Windows
 targetos: Windows

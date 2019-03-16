@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._PRINTIFI32
-title: "_PRINTIFI32"
+title: _PRINTIFI32 (prntfont.h)
 description: The PRINTIFI32 structure is a fixed-size version of the IFIMETRICS structure, and defines information for a given typeface that GDI can use.
 old-location: display\printifi32.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	PRINTIFI32
+- PRINTIFI32
 product:
 - Windows
 targetos: Windows

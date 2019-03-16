@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_NICConfig
-title: "_MSiSCSI_NICConfig"
+title: _MSiSCSI_NICConfig (iscsicfg.h)
 description: The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 old-location: storage\msiscsi_nicconfig.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsicfg.h
+- iscsicfg.h
 api_name:
--	MSiSCSI_NICConfig
+- MSiSCSI_NICConfig
 product:
 - Windows
 targetos: Windows

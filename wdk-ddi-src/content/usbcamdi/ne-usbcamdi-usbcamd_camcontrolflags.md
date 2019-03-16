@@ -1,6 +1,6 @@
 ---
 UID: NE:usbcamdi.__unnamed_enum_0
-title: USBCAMD_CamControlFlags
+title: USBCAMD_CamControlFlags (usbcamdi.h)
 description: 
 ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBCAMD_CamControlFlags
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	USBCAMD_CamControlFlags
+- USBCAMD_CamControlFlags
 product:
 -   Windows
 targetos: Windows

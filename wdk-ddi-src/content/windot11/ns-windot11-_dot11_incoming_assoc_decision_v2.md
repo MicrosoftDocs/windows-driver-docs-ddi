@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_DECISION_V2
-title: "_DOT11_INCOMING_ASSOC_DECISION_V2"
+title: _DOT11_INCOMING_ASSOC_DECISION_V2 (windot11.h)
 description: Information for an incoming association request is included in a DOT11_INCOMING_ASSOC_DECISION_V2 structure. This structure is sent with an OID_DOT11_INCOMING_ASSOCIATION_DECISION request.
 old-location: netvista\dot11_incoming_assoc_decision_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_INCOMING_ASSOC_DECISION_V2
+- DOT11_INCOMING_ASSOC_DECISION_V2
 product:
 - Windows
 targetos: Windows

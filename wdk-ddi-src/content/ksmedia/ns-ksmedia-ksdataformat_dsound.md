@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_6
-title: KSDATAFORMAT_DSOUND
+title: KSDATAFORMAT_DSOUND (ksmedia.h)
 description: The KSDATAFORMAT_DSOUND structure provides detailed information about a DirectSound audio stream.
 old-location: audio\ksdataformat_dsound.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDATAFORMAT_DSOUND
+- KSDATAFORMAT_DSOUND
 product:
 - Windows
 targetos: Windows

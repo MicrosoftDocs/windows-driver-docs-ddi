@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.AllocateContiguousPagesForMdl
-title: IPortWaveRTStream::AllocateContiguousPagesForMdl
+title: IPortWaveRTStream::AllocateContiguousPagesForMdl (portcls.h)
 description: The AllocateContiguousPagesForMdl method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (MDL) that describes them.
 old-location: audio\iportwavertstream_allocatecontiguouspagesformdl.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IPortWaveRTStream.AllocateContiguousPagesForMdl
+- IPortWaveRTStream.AllocateContiguousPagesForMdl
 product:
 - Windows
 targetos: Windows

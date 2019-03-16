@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSTurnOff
-title: UPSTurnOff function
+title: UPSTurnOff function (upssvc.h)
 description: The UPSTurnOff function turns off the UPS unit's power outlets, after a specified delay time.
 old-location: battery\upsturnoff.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	upssvc.h
+- upssvc.h
 api_name:
--	UPSTurnOff
+- UPSTurnOff
 product:
 - Windows
 targetos: Windows

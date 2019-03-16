@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeMdl
-title: StorPortFreeMdl function
+title: StorPortFreeMdl function (storport.h)
 description: The StorPortFreeMdl routine frees a memory descriptor list (MDL) describing non-paged pool memory.
 old-location: storage\storportfreemdl.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortFreeMdl
+- StorPortFreeMdl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETERROR_CB
-title: PFND3D10DDI_SETERROR_CB
+title: PFND3D10DDI_SETERROR_CB (d3d10umddi.h)
 description: The pfnSetErrorCb function sets the return error code of a user-mode display driver's function.
 old-location: display\pfnseterrorcb.htm
 ms.assetid: 968b04a7-8869-410c-a6fc-83d57726858f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnSetErrorCb
+- pfnSetErrorCb
 product:
 - Windows
 targetos: Windows

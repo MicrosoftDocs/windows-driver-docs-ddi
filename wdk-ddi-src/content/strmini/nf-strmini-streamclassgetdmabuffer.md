@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassGetDmaBuffer
-title: StreamClassGetDmaBuffer function
+title: StreamClassGetDmaBuffer function (strmini.h)
 description: The StreamClassGetDmaBuffer routine returns a pointer to the DMA buffer that the class driver allocates for the minidriver.
 old-location: stream\streamclassgetdmabuffer.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassGetDmaBuffer
+- StreamClassGetDmaBuffer
 product:
 - Windows
 targetos: Windows

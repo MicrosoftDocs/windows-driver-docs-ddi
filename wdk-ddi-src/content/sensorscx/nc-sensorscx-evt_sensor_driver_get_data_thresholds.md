@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS
-title: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS
+title: EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS (sensorscx.h)
 description: This callback function returns the thresholds that are associated with a sensor.
 old-location: sensors\evtsensorgetdatathresholds.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorGetDataThresholds
+- EvtSensorGetDataThresholds
 product:
 - Windows
 targetos: Windows

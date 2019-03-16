@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.AddProperty
-title: IPrintPipelinePropertyBag::AddProperty
+title: IPrintPipelinePropertyBag::AddProperty (filterpipeline.h)
 description: The AddProperty method adds a property to a property bag.
 old-location: print\iprintpipelinepropertybag_addproperty.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintPipelinePropertyBag.AddProperty
+- IPrintPipelinePropertyBag.AddProperty
 product:
 - Windows
 targetos: Windows

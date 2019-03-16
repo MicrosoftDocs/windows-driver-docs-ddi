@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryResourceInfo
-title: D3DKMTQueryResourceInfo function
+title: D3DKMTQueryResourceInfo function (d3dkmthk.h)
 description: The D3DKMTQueryResourceInfo function retrieves information about a shared resource.
 old-location: display\d3dkmtqueryresourceinfo.htm
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTQueryResourceInfo
+- D3DKMTQueryResourceInfo
 product:
 - Windows
 targetos: Windows

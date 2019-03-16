@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UPDATEOVERLAY
-title: "_D3DDDICB_UPDATEOVERLAY"
+title: _D3DDDICB_UPDATEOVERLAY (d3dumddi.h)
 description: The D3DDDICB_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\d3dddicb_updateoverlay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_UPDATEOVERLAY
+- D3DDDICB_UPDATEOVERLAY
 product:
 - Windows
 targetos: Windows

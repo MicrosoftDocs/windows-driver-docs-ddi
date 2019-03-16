@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFLUSH_DMA_BUFFER
-title: PFLUSH_DMA_BUFFER
+title: PFLUSH_DMA_BUFFER (wdm.h)
 description: 
 ms.assetid: f51783e4-9956-4608-ba45-affdafda2416
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	PFLUSH_DMA_BUFFER
+- PFLUSH_DMA_BUFFER
 -   FlushDmaBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

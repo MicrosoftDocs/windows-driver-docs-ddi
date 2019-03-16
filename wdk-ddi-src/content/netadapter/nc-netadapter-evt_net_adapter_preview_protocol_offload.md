@@ -1,6 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-title: EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
+title: EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD (netadapter.h)
 description: Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 0e0d97a7-16a7-4d5f-8f19-a4fc52608842
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netadapter.h
-apiname: 
--	EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netadapter.h
+api_name: 
+- EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

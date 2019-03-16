@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsPnp.UnregisterAdapterPnpManagement
-title: IPortClsPnp::UnregisterAdapterPnpManagement
+title: IPortClsPnp::UnregisterAdapterPnpManagement (portcls.h)
 description: The UnRegisterAdapterPowerManagement method unregisters the PnP management interface of the adapter from PortCls.
 old-location: audio\iportclspnp_unregisteradapterpnpmanagement.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortClsPnp.UnregisterAdapterPnpManagement
+- IPortClsPnp.UnregisterAdapterPnpManagement
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetScanLine
-title: D3DKMTGetScanLine function
+title: D3DKMTGetScanLine function (d3dkmthk.h)
 description: The D3DKMTGetScanLine function determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 old-location: display\d3dkmtgetscanline.htm
 ms.assetid: 052507ec-4a26-4bb6-8876-c03a9c81f412
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetScanLine
+- D3DKMTGetScanLine
 product:
 - Windows
 targetos: Windows

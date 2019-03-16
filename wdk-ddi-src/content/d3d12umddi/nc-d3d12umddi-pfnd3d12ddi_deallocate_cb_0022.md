@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DEALLOCATE_CB_0022
-title: PFND3D12DDI_DEALLOCATE_CB_0022
+title: PFND3D12DDI_DEALLOCATE_CB_0022 (d3d12umddi.h)
 description: The pfnDeallocateCb callback function controls heap deallocation by using a D3D12DDICB_DEALLOCATE_0022 structure.
 old-location: display\pfnd3d12ddi_deallocate_cb_0022.htm
 ms.assetid: 85304F27-A522-44B7-86EC-31F670828354
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnDeallocateCb
+- pfnDeallocateCb
 product:
 - Windows
 targetos: Windows

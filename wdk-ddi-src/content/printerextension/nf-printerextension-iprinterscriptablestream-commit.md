@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Commit
-title: IPrinterScriptableStream::Commit
+title: IPrinterScriptableStream::Commit (printerextension.h)
 description: Commits the operation.
 old-location: print\iprinterscriptablestream__commit.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptableStream.Commit
+- IPrinterScriptableStream.Commit
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._IDEREGS
-title: "_IDEREGS"
+title: _IDEREGS (ntdddisk.h)
 description: The IDEREGS structure is used to report the contents of the IDE controller registers.
 old-location: storage\ideregs.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	IDEREGS
+- IDEREGS
 product:
 - Windows
 targetos: Windows

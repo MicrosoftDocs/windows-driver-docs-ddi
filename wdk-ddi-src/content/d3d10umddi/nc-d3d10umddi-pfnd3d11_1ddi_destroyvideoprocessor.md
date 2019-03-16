@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSOR
-title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR
+title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR (d3d10umddi.h)
 description: Releases resources for the video processor object that were created through a call to the CreateVideoProcessor function.
 old-location: display\destroyvideoprocessor1.htm
 ms.assetid: a04776ba-bc80-498e-b25d-511ecb03fb63
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnDestroyVideoProcessor
+- pfnDestroyVideoProcessor
 product:
 - Windows
 targetos: Windows

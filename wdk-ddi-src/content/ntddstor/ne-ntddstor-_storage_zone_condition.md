@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_ZONE_CONDITION
-title: "_STORAGE_ZONE_CONDITION"
+title: _STORAGE_ZONE_CONDITION (ntddstor.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\storage_zone_condition.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_ZONE_CONDITION
+- STORAGE_ZONE_CONDITION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_TRIMRESIDENCYSET
-title: D3DDDIARG_TRIMRESIDENCYSET
+title: D3DDDIARG_TRIMRESIDENCYSET (d3dumddi.h)
 description: D3DDDIARG_TRIMRESIDENCYSET is used with pfnTrimResidencySet by a user mode driver to trim the residency list for a given device.
 old-location: display\d3dddiarg_trimresidencyset.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_TRIMRESIDENCYSET
+- D3DDDIARG_TRIMRESIDENCYSET
 product:
 - Windows
 targetos: Windows

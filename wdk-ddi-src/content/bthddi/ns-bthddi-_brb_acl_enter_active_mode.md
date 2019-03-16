@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_ACL_ENTER_ACTIVE_MODE
-title: "_BRB_ACL_ENTER_ACTIVE_MODE"
+title: _BRB_ACL_ENTER_ACTIVE_MODE (bthddi.h)
 description: The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be placed into active mode.
 old-location: bltooth\_brb_acl_enter_active_mode.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_ACL_ENTER_ACTIVE_MODE
+- _BRB_ACL_ENTER_ACTIVE_MODE
 product:
 - Windows
 targetos: Windows

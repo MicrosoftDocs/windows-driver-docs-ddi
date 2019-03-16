@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsAllocSiloContextSlot
-title: PsAllocSiloContextSlot function
+title: PsAllocSiloContextSlot function (ntddk.h)
 description: This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos. .
 old-location: kernel\psallocsilocontextslot.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsAllocSiloContextSlot
+- PsAllocSiloContextSlot
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_INVALIDATECACHE
-title: _D3DDDICB_INVALIDATECACHE
+title: _D3DDDICB_INVALIDATECACHE (d3dumddi.h)
 description: Arguments used to invalidate cache.
 ms.assetid: aede0439-69e6-473b-8845-d9c21ec682a4
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_INVALIDATECACHE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDICB_INVALIDATECACHE
+- _D3DDDICB_INVALIDATECACHE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

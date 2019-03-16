@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEDEVICESIZE
-title: PFND3D10DDI_CALCPRIVATEDEVICESIZE
+title: PFND3D10DDI_CALCPRIVATEDEVICESIZE (d3d10umddi.h)
 description: The CalcPrivateDeviceSize function determines the size of a memory region that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
 old-location: display\calcprivatedevicesize.htm
 ms.assetid: 8221a99a-1b46-48ba-8930-ac973e009eee
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CalcPrivateDeviceSize
+- CalcPrivateDeviceSize
 product:
 - Windows
 targetos: Windows

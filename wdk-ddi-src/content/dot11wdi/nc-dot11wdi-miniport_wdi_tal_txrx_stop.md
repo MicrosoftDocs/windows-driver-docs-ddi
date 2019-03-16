@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_STOP
-title: MINIPORT_WDI_TAL_TXRX_STOP
+title: MINIPORT_WDI_TAL_TXRX_STOP (dot11wdi.h)
 description: The MiniportWdiTalTxRxStop handler function stops TXRX communication between the TAL and the target.
 old-location: netvista\miniportwditaltxrxstop.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTalTxRxStop
+- MiniportWdiTalTxRxStop
 product:
 - Windows
 targetos: Windows

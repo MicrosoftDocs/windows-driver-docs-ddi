@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByOffset2
-title: IDebugSymbols3::GetModuleByOffset2
+title: IDebugSymbols3::GetModuleByOffset2 (dbgeng.h)
 description: The GetModuleByOffset2 method searches through the process's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetModuleByOffset2
+- IDebugSymbols3.GetModuleByOffset2
 product:
 - Windows
 targetos: Windows

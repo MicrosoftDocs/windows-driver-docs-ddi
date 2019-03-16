@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgSetFlags
-title: wiauDbgSetFlags macro
+title: wiauDbgSetFlags macro (wiautil.h)
 description: The wiauDbgSetFlags function sets debugging flags.
 old-location: image\wiaudbgsetflags.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauDbgSetFlags
+- wiauDbgSetFlags
 product:
 - Windows
 targetos: Windows

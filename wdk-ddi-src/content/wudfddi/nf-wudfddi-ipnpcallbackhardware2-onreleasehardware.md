@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnReleaseHardware
-title: IPnpCallbackHardware2::OnReleaseHardware
+title: IPnpCallbackHardware2::OnReleaseHardware (wudfddi.h)
 description: The OnReleaseHardware method performs operations that are needed when a device is no longer accessible.
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackHardware2.OnReleaseHardware
+- IPnpCallbackHardware2.OnReleaseHardware
 product:
 - Windows
 targetos: Windows

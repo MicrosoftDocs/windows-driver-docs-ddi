@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableLikeADirectory
-title: RtlEnumerateGenericTableLikeADirectory function
+title: RtlEnumerateGenericTableLikeADirectory function (ntddk.h)
 description: The RtlEnumerateGenericTableLikeADirectory routine returns the elements of a generic table, one-by-one, in collation order.
 old-location: ifsk\rtlenumerategenerictablelikeadirectory.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlEnumerateGenericTableLikeADirectory
+- RtlEnumerateGenericTableLikeADirectory
 product:
 - Windows
 targetos: Windows

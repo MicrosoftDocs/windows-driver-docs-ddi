@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaNUpOption
-title: IPrintSchemaNUpOption
+title: IPrintSchemaNUpOption (printerextension.h)
 description: Exposes a Print Schema NUp Option element.
 old-location: print\iprintschemanupoption_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrintSchemaNUpOption
+- IPrintSchemaNUpOption
 product:
 - Windows
 targetos: Windows

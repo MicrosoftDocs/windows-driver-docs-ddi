@@ -1,6 +1,6 @@
 ---
 UID: NE:oemrilapitypes.RILGBACAPABLE
-title: RILGBACAPABLE
+title: RILGBACAPABLE (oemrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgbacapable.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	oemrilapitypes.h
+- oemrilapitypes.h
 api_name:
--	RILGBACAPABLE
+- RILGBACAPABLE
 product:
 - Windows
 targetos: Windows

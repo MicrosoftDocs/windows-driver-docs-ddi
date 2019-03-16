@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IPreferredRuntimeTypeConcept
-title: IPreferredRuntimeTypeConcept
+title: IPreferredRuntimeTypeConcept (dbgmodel.h)
 description: Interface which clients can implement if they can provide better dynamic runtime type analysis for a given type than the debugger can acquire through RTTI or v-table analysis.
 ms.assetid: db2befcc-f796-49d1-b875-532adf3bec5a
 ms.date: 07/16/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IPreferredRuntimeTypeConcept
-product: Windows
+- IPreferredRuntimeTypeConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

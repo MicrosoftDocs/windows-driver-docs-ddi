@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.SpoolerFreePrinterNotifyInfo
-title: SpoolerFreePrinterNotifyInfo function
+title: SpoolerFreePrinterNotifyInfo function (winsplp.h)
 description: 
 old-location: print\spoolerfreeprinternotifyinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	SpoolerFreePrinterNotifyInfo
+- SpoolerFreePrinterNotifyInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaIsr
-title: NetDmaIsr function
+title: NetDmaIsr function (netdma.h)
 description: The NetDmaIsr function notifies the NetDMA interface that a DMA transfer interrupt has occurred on a DMA channel.
 old-location: netvista\netdmaisr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DEVICE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaIsr
+- NetDmaIsr
 product:
 - Windows
 targetos: Windows

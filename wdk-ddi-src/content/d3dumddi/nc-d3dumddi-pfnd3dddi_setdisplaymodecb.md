@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYMODECB
-title: PFND3DDDI_SETDISPLAYMODECB
+title: PFND3DDDI_SETDISPLAYMODECB (d3dumddi.h)
 description: The pfnSetDisplayModeCb function sets the allocation that is used to scan out to the display.
 old-location: display\pfnsetdisplaymodecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnSetDisplayModeCb
+- pfnSetDisplayModeCb
 product:
 - Windows
 targetos: Windows

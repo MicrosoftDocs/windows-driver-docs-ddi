@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
-title: PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
+title: PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS (d3dkmthk.h)
 description: Implemented by the client driver to query a protected session.
 ms.assetid: 2b5d646e-45c8-4f15-91e5-70c9bc25ea6b
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
+- PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
 product: 
 - Windows
 targetos: Windows

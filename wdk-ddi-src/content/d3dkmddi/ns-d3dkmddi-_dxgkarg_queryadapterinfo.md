@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYADAPTERINFO
-title: "_DXGKARG_QUERYADAPTERINFO"
+title: _DXGKARG_QUERYADAPTERINFO (d3dkmddi.h)
 description: The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 old-location: display\dxgkarg_queryadapterinfo.htm
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_QUERYADAPTERINFO
+- DXGKARG_QUERYADAPTERINFO
 product:
 - Windows
 targetos: Windows

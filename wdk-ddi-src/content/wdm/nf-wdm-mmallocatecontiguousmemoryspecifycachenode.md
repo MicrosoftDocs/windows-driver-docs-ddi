@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemorySpecifyCacheNode
-title: MmAllocateContiguousMemorySpecifyCacheNode function
+title: MmAllocateContiguousMemorySpecifyCacheNode function (wdm.h)
 description: The MmAllocateContiguousMemorySpecifyCacheNode routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycachenode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateContiguousMemorySpecifyCacheNode
+- MmAllocateContiguousMemorySpecifyCacheNode
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrStatusUpdateType
-title: "_MsrStatusUpdateType"
+title: _MsrStatusUpdateType (pointofservicedriverinterface.h)
 description: This enumeration defines the constants that indicate the magnetic stripe reader (MSR) status.
 old-location: pos\msrstatusupdatetype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	MsrStatusUpdateType
+- MsrStatusUpdateType
 product:
 - Windows
 targetos: Windows

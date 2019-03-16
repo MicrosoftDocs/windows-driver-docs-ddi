@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtCreateSectionEx
-title: NtCreateSectionEx function
+title: NtCreateSectionEx function (ntifs.h)
 description: Creates a section object.
 ms.assetid: a895e706-38c0-40d7-95b1-f1268af775c1
 ms.date: 10/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	NtCreateSectionEx
-product: Windows
+- NtCreateSectionEx
+product:
+- Windows
 targetos: Windows
 
 

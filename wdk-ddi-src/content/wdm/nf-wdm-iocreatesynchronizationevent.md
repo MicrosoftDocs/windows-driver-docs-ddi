@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateSynchronizationEvent
-title: IoCreateSynchronizationEvent function
+title: IoCreateSynchronizationEvent function (wdm.h)
 description: The IoCreateSynchronizationEvent routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.
 old-location: kernel\iocreatesynchronizationevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateSynchronizationEvent
+- IoCreateSynchronizationEvent
 product:
 - Windows
 targetos: Windows

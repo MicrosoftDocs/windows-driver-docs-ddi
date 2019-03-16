@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._IO_PRIORITY_INFO
-title: "_IO_PRIORITY_INFO"
+title: _IO_PRIORITY_INFO (ntifs.h)
 description: The IO_PRIORITY_INFO structure is used to hold thread priority information.
 old-location: ifsk\io_priority_info.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IO_PRIORITY_INFO
+- IO_PRIORITY_INFO
 product:
 - Windows
 targetos: Windows

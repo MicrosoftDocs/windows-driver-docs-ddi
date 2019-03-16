@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUnlock
-title: D3DKMTUnlock function
+title: D3DKMTUnlock function (d3dkmthk.h)
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTUnlock
+- D3DKMTUnlock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETSETSWAPCHAINMETADATA
-title: PFND3DKMT_GETSETSWAPCHAINMETADATA
+title: PFND3DKMT_GETSETSWAPCHAINMETADATA (d3dkmthk.h)
 description: Pfnd3dkmtGetsetswapchainmetadata gets swap chain metadata.
 ms.assetid: b9b26c3c-4708-4ac6-b7ca-6714c1e1ce2c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETSETSWAPCHAINMETADATA
+- PFND3DKMT_GETSETSWAPCHAINMETADATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

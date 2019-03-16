@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENT
-title: DXGI_DDI_ARG_PRESENT
+title: DXGI_DDI_ARG_PRESENT (dxgiddi.h)
 description: The DXGI_DDI_ARG_PRESENT structure describes a resource to display.
 old-location: display\dxgi_ddi_arg_present.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_PRESENT
+- DXGI_DDI_ARG_PRESENT
 product:
 - Windows
 targetos: Windows

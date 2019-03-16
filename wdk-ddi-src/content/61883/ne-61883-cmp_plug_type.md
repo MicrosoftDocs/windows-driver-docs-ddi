@@ -1,6 +1,6 @@
 ---
 UID: NE:61883.__unnamed_enum_2
-title: CMP_PLUG_TYPE
+title: CMP_PLUG_TYPE (61883.h)
 description: This enumeration specifies the type of a plug.
 old-location: ieee\cmp_plug_type.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CMP_PLUG_TYPE
+- CMP_PLUG_TYPE
 product:
 - Windows
 targetos: Windows

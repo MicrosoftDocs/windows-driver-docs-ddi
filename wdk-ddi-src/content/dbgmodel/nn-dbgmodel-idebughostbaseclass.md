@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostBaseClass
-title: IDebugHostBaseClass
+title: IDebugHostBaseClass (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a base class.
 ms.assetid: 3240aa54-97b6-43e1-81e9-41f4eb5bd447
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostBaseClass
-product: Windows
+- IDebugHostBaseClass
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

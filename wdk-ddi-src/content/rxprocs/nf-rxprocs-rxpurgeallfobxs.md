@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxPurgeAllFobxs
-title: RxPurgeAllFobxs function
+title: RxPurgeAllFobxs function (rxprocs.h)
 description: RxPurgeAllFobxs purges all of the FOBX structures associated with a network mini-redirector.
 old-location: ifsk\rxpurgeallfobxs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxPurgeAllFobxs
+- RxPurgeAllFobxs
 product:
 - Windows
 targetos: Windows

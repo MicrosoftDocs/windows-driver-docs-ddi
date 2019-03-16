@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.UpdatePrintDeviceObject
-title: UpdatePrintDeviceObject function
+title: UpdatePrintDeviceObject function (winsplp.h)
 description: The UpdatePrintDeviceObject function updates the properties of a device object that is in the print provider queue.
 old-location: print\updateprintdeviceobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WinSpool.drv
+- WinSpool.drv
 api_name:
--	UpdatePrintDeviceObject
+- UpdatePrintDeviceObject
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SES_CONFIGURATION_DIAGNOSTIC_PAGE
-title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE"
+title: _SES_CONFIGURATION_DIAGNOSTIC_PAGE (minitape.h)
 description:
 old-location: storage\ses_configuration_diagnostic_page.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	SES_CONFIGURATION_DIAGNOSTIC_PAGE
+- SES_CONFIGURATION_DIAGNOSTIC_PAGE
 product:
 - Windows
 targetos: Windows

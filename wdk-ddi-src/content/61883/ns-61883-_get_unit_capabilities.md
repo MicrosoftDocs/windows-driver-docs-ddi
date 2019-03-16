@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._GET_UNIT_CAPABILITIES
-title: "_GET_UNIT_CAPABILITIES"
+title: _GET_UNIT_CAPABILITIES (61883.h)
 description: The GET_UNIT_CAPABILITIES structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve unit information about a device's capabilities.
 old-location: ieee\get_unit_capabilities.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	GET_UNIT_CAPABILITIES
+- GET_UNIT_CAPABILITIES
 product:
 - Windows
 targetos: Windows

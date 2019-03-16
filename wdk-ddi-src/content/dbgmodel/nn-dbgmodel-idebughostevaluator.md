@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostEvaluator
-title: IDebugHostEvaluator
+title: IDebugHostEvaluator (dbgmodel.h)
 description: The expression evaluator interface to the underlying debugger.
 ms.assetid: c8723b55-2e4b-4b4d-8910-c21ad40c6076
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostEvaluator
-product: Windows
+- IDebugHostEvaluator
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

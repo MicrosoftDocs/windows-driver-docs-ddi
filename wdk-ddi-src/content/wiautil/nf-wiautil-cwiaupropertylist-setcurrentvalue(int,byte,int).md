@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,BYTE,INT)
-title: CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)
+title: CWiauPropertyList::SetCurrentValue(INT,BYTE,INT) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,BYTE,INT) method sets the current value of a property consisting of an array of bytes, and sets its type to VT_UI1 | VT_VECTOR.
 old-location: image\cwiaupropertylist_setcurrentvalue_byte__.htm
 tech.root: image
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.SetCurrentValue
+- CWiauPropertyList.SetCurrentValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

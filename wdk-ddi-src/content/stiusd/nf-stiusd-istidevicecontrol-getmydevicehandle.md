@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.GetMyDeviceHandle
-title: IStiDeviceControl::GetMyDeviceHandle
+title: IStiDeviceControl::GetMyDeviceHandle (stiusd.h)
 description: This topic describes the GetMyDeviceHandle method.
 old-location: image\istidevicecontrol_getmydevicehandle.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiDeviceControl.GetMyDeviceHandle
+- IStiDeviceControl.GetMyDeviceHandle
 product:
 - Windows
 targetos: Windows

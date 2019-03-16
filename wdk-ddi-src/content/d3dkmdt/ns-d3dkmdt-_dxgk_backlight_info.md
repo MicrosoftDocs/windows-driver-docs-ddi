@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BACKLIGHT_INFO
-title: "_DXGK_BACKLIGHT_INFO"
+title: _DXGK_BACKLIGHT_INFO (d3dkmdt.h)
 description: Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	DXGK_BACKLIGHT_INFO
+- DXGK_BACKLIGHT_INFO
 product:
 - Windows
 targetos: Windows

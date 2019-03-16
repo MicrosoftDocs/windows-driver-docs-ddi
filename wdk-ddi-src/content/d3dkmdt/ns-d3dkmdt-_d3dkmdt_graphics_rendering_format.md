@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_GRAPHICS_RENDERING_FORMAT
-title: "_D3DKMDT_GRAPHICS_RENDERING_FORMAT"
+title: _D3DKMDT_GRAPHICS_RENDERING_FORMAT (d3dkmdt.h)
 description: The D3DKMDT_GRAPHICS_RENDERING_FORMAT structure contains information about a primary rendering surface.
 old-location: display\d3dkmdt_graphics_rendering_format.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_GRAPHICS_RENDERING_FORMAT
+- D3DKMDT_GRAPHICS_RENDERING_FORMAT
 product:
 - Windows
 targetos: Windows

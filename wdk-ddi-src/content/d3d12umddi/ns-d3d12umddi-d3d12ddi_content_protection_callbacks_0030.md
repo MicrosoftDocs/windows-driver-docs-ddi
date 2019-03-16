@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
-title: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
+title: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 (d3d12umddi.h)
 description: Content protection callbacks.
 old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
+- D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
 product:
 - Windows
 targetos: Windows

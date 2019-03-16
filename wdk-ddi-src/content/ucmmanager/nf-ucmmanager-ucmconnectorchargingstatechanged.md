@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorChargingStateChanged
-title: UcmConnectorChargingStateChanged function
+title: UcmConnectorChargingStateChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the updated charging state of the partner connector.
 old-location: buses\ucmconnectorchargingstatechanged.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	UcmCxstub.lib
--	UcmCxstub.dll
+- UcmCxstub.lib
+- UcmCxstub.dll
 api_name:
--	UcmConnectorChargingStateChanged
+- UcmConnectorChargingStateChanged
 product:
 - Windows
 targetos: Windows

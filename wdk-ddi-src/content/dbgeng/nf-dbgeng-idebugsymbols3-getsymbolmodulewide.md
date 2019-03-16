@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolModuleWide
-title: IDebugSymbols3::GetSymbolModuleWide
+title: IDebugSymbols3::GetSymbolModuleWide (dbgeng.h)
 description: The GetSymbolModuleWide method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodulewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetSymbolModuleWide
+- IDebugSymbols3.GetSymbolModuleWide
 product:
 - Windows
 targetos: Windows

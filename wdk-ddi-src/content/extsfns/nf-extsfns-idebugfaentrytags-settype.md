@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.SetType
-title: IDebugFAEntryTags::SetType
+title: IDebugFAEntryTags::SetType (extsfns.h)
 description: The SetType method sets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_settype.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFAEntryTags.SetType
+- IDebugFAEntryTags.SetType
 product:
 - Windows
 targetos: Windows

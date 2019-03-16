@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwSinglePhaseReject
-title: ZwSinglePhaseReject function
+title: ZwSinglePhaseReject function (wdm.h)
 description: The ZwSinglePhaseReject routine informs KTM that the calling resource manager will not support single-phase commit operations for a specified enlistment.
 old-location: kernel\zwsinglephasereject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSinglePhaseReject
--	NtSinglePhaseReject
+- ZwSinglePhaseReject
+- NtSinglePhaseReject
 product:
 - Windows
 targetos: Windows

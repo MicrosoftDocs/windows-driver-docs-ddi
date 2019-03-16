@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyExW
-title: RtlStringCbCopyExW function
+title: RtlStringCbCopyExW function (ntstrsafe.h)
 description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopyex.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCbCopyExW
--	RtlStringCbCopyExA
--	RtlStringCbCopyExW
+- RtlStringCbCopyExW
+- RtlStringCbCopyExA
+- RtlStringCbCopyExW
 product:
 - Windows
 targetos: Windows

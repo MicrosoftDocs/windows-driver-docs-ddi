@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_MUTE_PARAMS
-title: _SIDEBANDAUDIO_MUTE_PARAMS
+title: _SIDEBANDAUDIO_MUTE_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and mute value.
 ms.assetid: ae031886-fe99-427e-b24e-a7ae46c33956
 ms.date: 10/05/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_MUTE_PARAMS
-product: Windows
+- _SIDEBANDAUDIO_MUTE_PARAMS
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

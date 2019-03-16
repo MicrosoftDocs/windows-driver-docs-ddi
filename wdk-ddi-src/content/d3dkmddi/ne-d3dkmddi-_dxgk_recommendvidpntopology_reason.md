@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
-title: "_DXGK_RECOMMENDVIDPNTOPOLOGY_REASON"
+title: _DXGK_RECOMMENDVIDPNTOPOLOGY_REASON (d3dkmddi.h)
 description: Indicates the reason for calling the display miniport driver's DxgkDdiRecommendVidPnTopology function.
 old-location: display\dxgk_recommendvidpntopology_reason.htm
 ms.assetid: 2a67a119-863b-4cde-9308-e4862823bad1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
+- DXGK_RECOMMENDVIDPNTOPOLOGY_REASON
 product:
 - Windows
 targetos: Windows

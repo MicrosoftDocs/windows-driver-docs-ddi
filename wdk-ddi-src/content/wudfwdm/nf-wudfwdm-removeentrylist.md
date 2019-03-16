@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RemoveEntryList
-title: RemoveEntryList function
+title: RemoveEntryList function (wudfwdm.h)
 description: The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeentrylist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RemoveEntryList
+- RemoveEntryList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_TEXTURE_LAYOUT
-title: D3D12DDI_TEXTURE_LAYOUT
+title: D3D12DDI_TEXTURE_LAYOUT (d3d12umddi.h)
 description: Specifies a texture layout.
 old-location: display\d3d12ddi_texture_layout.htm
 ms.assetid: F039A0D9-D1AE-4940-B67D-30CC6344EC7D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_TEXTURE_LAYOUT
+- D3D12DDI_TEXTURE_LAYOUT
 product:
 - Windows
 targetos: Windows

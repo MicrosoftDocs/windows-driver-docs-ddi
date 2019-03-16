@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReportDetectedDevice
-title: IoReportDetectedDevice function
+title: IoReportDetectedDevice function (ntddk.h)
 description: The IoReportDetectedDevice routine reports a non-PnP device to the PnP manager.
 old-location: kernel\ioreportdetecteddevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportDetectedDevice
+- IoReportDetectedDevice
 product:
 - Windows
 targetos: Windows

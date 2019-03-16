@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_INFO
-title: "_KSCAMERA_PROFILE_INFO"
+title: _KSCAMERA_PROFILE_INFO (ksmedia.h)
 description: The KSCAMERA_PROFILE_INFO structure is used to uniquely identify a given profile.
 old-location: stream\kscamera_profile_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSCAMERA_PROFILE_INFO
+- KSCAMERA_PROFILE_INFO
 product:
 - Windows
 targetos: Windows

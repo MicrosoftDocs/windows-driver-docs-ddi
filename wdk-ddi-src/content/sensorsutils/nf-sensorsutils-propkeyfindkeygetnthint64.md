@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetNthInt64
-title: PropKeyFindKeyGetNthInt64 function
+title: PropKeyFindKeyGetNthInt64 function (sensorsutils.h)
 description: This routine gets the nth INT64 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 8782bd62-2338-46c0-9d8d-537af5b7a613
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetNthInt64
+- PropKeyFindKeyGetNthInt64
 product:
   - Windows
 targetos: Windows

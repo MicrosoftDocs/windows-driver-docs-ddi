@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNextSymbolMatchWide
-title: IDebugSymbols3::GetNextSymbolMatchWide
+title: IDebugSymbols3::GetNextSymbolMatchWide (dbgeng.h)
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetNextSymbolMatchWide
+- IDebugSymbols3.GetNextSymbolMatchWide
 product:
 - Windows
 targetos: Windows

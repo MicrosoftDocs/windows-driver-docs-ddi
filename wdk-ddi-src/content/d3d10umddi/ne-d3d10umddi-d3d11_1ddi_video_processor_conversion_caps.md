@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS (d3d10umddi.h)
 description: Specifies video processor-specific capabilities.
 old-location: display\d3d11_1ddi_video_processor_conversion_caps.htm
 ms.assetid: 571a90a8-a32d-44a5-af5f-e2b9e2692945
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
+- D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
 product:
 - Windows
 targetos: Windows

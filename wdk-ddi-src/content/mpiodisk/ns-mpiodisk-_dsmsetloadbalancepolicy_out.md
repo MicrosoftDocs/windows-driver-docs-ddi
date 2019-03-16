@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicy_OUT
-title: "_DsmSetLoadBalancePolicy_OUT"
+title: _DsmSetLoadBalancePolicy_OUT (mpiodisk.h)
 description: The DsmSetLoadBalancePolicy_OUT structure reports the output parameter of the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	DsmSetLoadBalancePolicy_OUT
+- DsmSetLoadBalancePolicy_OUT
 product:
 - Windows
 targetos: Windows

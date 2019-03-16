@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgmodel.ScriptDebugEventInformation
-title: ScriptDebugEventInformation
+title: ScriptDebugEventInformation (dbgmodel.h)
 description: A struct containing information about a particular debug event. 
 ms.assetid: 33b3830f-8257-4dde-970f-2e21d7b7a831
 ms.date: 07/16/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptDebugEventInformation
-product: Windows
+- ScriptDebugEventInformation
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

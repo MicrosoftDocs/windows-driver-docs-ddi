@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwOpenDirectoryObject
-title: ZwOpenDirectoryObject function
+title: ZwOpenDirectoryObject function (ntifs.h)
 description: The ZwOpenDirectoryObject routine opens an existing directory object.
 old-location: kernel\zwopendirectoryobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenDirectoryObject
--	NtCreateDirectoryObject
+- ZwOpenDirectoryObject
+- NtCreateDirectoryObject
 product:
 - Windows
 targetos: Windows

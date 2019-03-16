@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnDriverEvent
-title: IPrinterExtensionEvent::OnDriverEvent
+title: IPrinterExtensionEvent::OnDriverEvent (printerextension.h)
 description: Called when a driver event occurs.
 old-location: print\iprinterextensionevent_ondriverevent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrinterExtensionEvent.OnDriverEvent
+- IPrinterExtensionEvent.OnDriverEvent
 product:
 - Windows
 targetos: Windows

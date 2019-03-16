@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConfigPictureDecode
-title: "_DXVA_ConfigPictureDecode"
+title: _DXVA_ConfigPictureDecode (dxva.h)
 description: The DXVA_ConfigPictureDecode structure is sent by the host decoder to the accelerator to set the configuration for compressed picture decoding.
 old-location: display\dxva_configpicturedecode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_ConfigPictureDecode
+- DXVA_ConfigPictureDecode
 product:
 - Windows
 targetos: Windows

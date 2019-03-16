@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateContextVirtual
-title: D3DKMTCreateContextVirtual function
+title: D3DKMTCreateContextVirtual function (d3dkmthk.h)
 description: The D3DKMTCreateContextVirtual function creates a kernel mode device context that supports virtual addressing.
 old-location: display\d3dkmtcreatecontextvirtual.htm
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
@@ -25,15 +25,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTCreateContextVirtual
+- D3DKMTCreateContextVirtual
 product:
 - Windows
 targetos: Windows

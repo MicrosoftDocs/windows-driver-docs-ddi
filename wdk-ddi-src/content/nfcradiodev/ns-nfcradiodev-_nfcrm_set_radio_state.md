@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcradiodev._NFCRM_SET_RADIO_STATE
-title: "_NFCRM_SET_RADIO_STATE"
+title: _NFCRM_SET_RADIO_STATE (nfcradiodev.h)
 description: This structure is used to set the radio state. The driver, in the case of airplane mode, has to persist the radio state and restore it when airplane mode is disabled.
 old-location: nfpdrivers\_nfcrm_set_radio_state_.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcradiodev.h
+- nfcradiodev.h
 api_name:
--	_NFCRM_SET_RADIO_STATE
+- _NFCRM_SET_RADIO_STATE
 product:
 - Windows
 targetos: Windows

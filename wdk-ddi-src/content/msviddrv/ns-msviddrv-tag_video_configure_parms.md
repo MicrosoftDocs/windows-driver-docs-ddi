@@ -1,6 +1,6 @@
 ---
 UID: NS:msviddrv.tag_video_configure_parms
-title: tag_video_configure_parms
+title: tag_video_configure_parms (msviddrv.h)
 description: 
 old-location: stream\videoconfigparms.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Msviddrv.h
+- Msviddrv.h
 api_name:
--	VIDEOCONFIGPARMS
+- VIDEOCONFIGPARMS
 product:
 - Windows
 targetos: Windows

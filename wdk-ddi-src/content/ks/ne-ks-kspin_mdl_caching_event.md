@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_22
-title: KSPIN_MDL_CACHING_EVENT
+title: KSPIN_MDL_CACHING_EVENT (ks.h)
 description: This enumeration is used internally by the operating system.
 old-location: stream\kspin_mdl_caching_event.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_MDL_CACHING_EVENT
+- KSPIN_MDL_CACHING_EVENT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCbdqRemoveIo
-title: FltCbdqRemoveIo function
+title: FltCbdqRemoveIo function (fltkernel.h)
 description: FltCbdqRemoveIo removes a particular item from a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqremoveio.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FltCbdqRemoveIo
+- FltCbdqRemoveIo
 product:
 - Windows
 targetos: Windows

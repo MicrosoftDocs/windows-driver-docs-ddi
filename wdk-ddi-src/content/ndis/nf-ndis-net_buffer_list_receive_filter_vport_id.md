@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID
-title: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro
+title: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro (ndis.h)
 description: The NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro sets or gets the identifier of a virtual port (VPort) within the out-of-band (OOB) data in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 6ed1f2da-6e14-438e-9f3b-af8d1fbeeec4
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID
+- NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

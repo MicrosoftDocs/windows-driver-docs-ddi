@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.SupportDelayedService
-title: IServiceGroup::SupportDelayedService
+title: IServiceGroup::SupportDelayedService (portcls.h)
 description: The SupportDelayedService method indicates that the service group should prepare to support delayed service.
 old-location: audio\iservicegroup_supportdelayedservice.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup.SupportDelayedService
+- IServiceGroup.SupportDelayedService
 product:
 - Windows
 targetos: Windows

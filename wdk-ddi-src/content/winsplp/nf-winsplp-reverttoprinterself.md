@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RevertToPrinterSelf
-title: RevertToPrinterSelf function
+title: RevertToPrinterSelf function (winsplp.h)
 description: When RevertToPrinterSelf is called on an impersonating thread, it returns the token for the thread that is being impersonated.
 old-location: print\reverttoprinterself.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RevertToPrinterSelf
+- RevertToPrinterSelf
 product:
 - Windows
 targetos: Windows

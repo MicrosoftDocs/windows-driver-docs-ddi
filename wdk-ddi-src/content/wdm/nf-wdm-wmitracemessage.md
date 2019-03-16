@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WmiTraceMessage
-title: WmiTraceMessage function
+title: WmiTraceMessage function (wdm.h)
 description: The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessage.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WmiTraceMessage
+- WmiTraceMessage
 product:
 - Windows
 targetos: Windows

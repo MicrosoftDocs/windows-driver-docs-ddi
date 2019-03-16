@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetMetaData
-title: D3DKMTOutputDuplGetMetaData function
+title: D3DKMTOutputDuplGetMetaData function (d3dkmthk.h)
 description: Gets output duplicate metadata.
 ms.assetid: ed85a142-6f5e-42b9-bb60-dd0c5357a4c1
 ms.date: 10/19/2018
@@ -24,18 +24,18 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
 - Gdi32.dll
 - API-MS-Win-dx-d3dkmt-l1-1-0.dll
 - API-MS-Win-dx-d3dkmt-l1-1-1.dll
 - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
--	D3DKMTOutputDuplGetMetaData
+- D3DKMTOutputDuplGetMetaData
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

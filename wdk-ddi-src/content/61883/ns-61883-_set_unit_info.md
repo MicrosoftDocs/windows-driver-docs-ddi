@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._SET_UNIT_INFO
-title: "_SET_UNIT_INFO"
+title: _SET_UNIT_INFO (61883.h)
 description: This structure is used to set unit information.
 old-location: ieee\set_unit_info.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	SET_UNIT_INFO
+- SET_UNIT_INFO
 product:
 - Windows
 targetos: Windows

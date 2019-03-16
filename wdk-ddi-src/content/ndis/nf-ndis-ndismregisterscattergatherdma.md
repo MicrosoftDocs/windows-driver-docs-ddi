@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMRegisterScatterGatherDma
-title: NdisMRegisterScatterGatherDma function
+title: NdisMRegisterScatterGatherDma function (ndis.h)
 description: Bus master miniport drivers call the NdisMRegisterScatterGatherDma function from MiniportInitializeEx to initialize a scatter/gather DMA channel.
 old-location: netvista\ndismregisterscattergatherdma.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMRegisterScatterGatherDma
+- NdisMRegisterScatterGatherDma
 product:
 - Windows
 targetos: Windows

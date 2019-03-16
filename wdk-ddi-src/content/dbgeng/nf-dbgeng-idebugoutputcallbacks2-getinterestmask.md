@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.GetInterestMask
-title: IDebugOutputCallbacks2::GetInterestMask
+title: IDebugOutputCallbacks2::GetInterestMask (dbgeng.h)
 description: Allows the callback object to describe which kinds of output notifications it wants to receive.
 old-location: debugger\idebugoutputcallbacks2_getinterestmask.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugOutputCallbacks2.GetInterestMask
+- IDebugOutputCallbacks2.GetInterestMask
 product:
 - Windows
 targetos: Windows

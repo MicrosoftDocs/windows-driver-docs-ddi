@@ -1,6 +1,6 @@
 ---
 UID: NS:bdasup._BDA_FILTER_TEMPLATE
-title: "_BDA_FILTER_TEMPLATE"
+title: _BDA_FILTER_TEMPLATE (bdasup.h)
 description: The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter.
 old-location: stream\bda_filter_template.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdasup.h
+- bdasup.h
 api_name:
--	BDA_FILTER_TEMPLATE
+- BDA_FILTER_TEMPLATE
 product:
 - Windows
 targetos: Windows

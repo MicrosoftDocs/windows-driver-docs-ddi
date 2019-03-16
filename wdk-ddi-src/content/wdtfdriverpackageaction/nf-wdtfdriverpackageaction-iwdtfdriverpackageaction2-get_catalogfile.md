@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_CatalogFile
-title: IWDTFDriverPackageAction2::get_CatalogFile
+title: IWDTFDriverPackageAction2::get_CatalogFile (wdtfdriverpackageaction.h)
 description: Gets the catalog file name.
 old-location: dtf\iwdtfdriverpackageaction2_catalogfile.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.CatalogFile
--	IWDTFDriverPackageAction2.get_CatalogFile
+- IWDTFDriverPackageAction2.CatalogFile
+- IWDTFDriverPackageAction2.get_CatalogFile
 product:
 - Windows
 targetos: Windows

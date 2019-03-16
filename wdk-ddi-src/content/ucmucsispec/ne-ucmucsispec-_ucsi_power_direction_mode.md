@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_POWER_DIRECTION_MODE
-title: _UCSI_POWER_DIRECTION_MODE
+title: _UCSI_POWER_DIRECTION_MODE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42, Offset 20.
 ms.assetid: 8104ffb5-299f-4269-970f-0286d83b1884
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_POWER_DIRECTION_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_POWER_DIRECTION_MODE
-product: Windows
+- _UCSI_POWER_DIRECTION_MODE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

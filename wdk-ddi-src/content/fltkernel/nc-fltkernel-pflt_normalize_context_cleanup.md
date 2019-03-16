@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_NORMALIZE_CONTEXT_CLEANUP
-title: PFLT_NORMALIZE_CONTEXT_CLEANUP
+title: PFLT_NORMALIZE_CONTEXT_CLEANUP (fltkernel.h)
 description: A minifilter driver that provides file names for the filter manager's name cache can register a routine of type PFLT_NORMALIZE_CONTEXT_CLEANUP as the minifilter driver's NormalizeContextCleanupCallback routine.
 old-location: ifsk\pflt_normalize_context_cleanup.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	NormalizeContextCleanupCallback
+- NormalizeContextCleanupCallback
 product:
 - Windows
 targetos: Windows

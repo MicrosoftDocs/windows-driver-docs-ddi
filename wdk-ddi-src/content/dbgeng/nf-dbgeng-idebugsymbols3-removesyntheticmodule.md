@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.RemoveSyntheticModule
-title: IDebugSymbols3::RemoveSyntheticModule
+title: IDebugSymbols3::RemoveSyntheticModule (dbgeng.h)
 description: The RemoveSyntheticModule method removes a synthetic module from the module list the debugger maintains for the current process.
 old-location: debugger\removesyntheticmodule.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.RemoveSyntheticModule
+- IDebugSymbols3.RemoveSyntheticModule
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_PNP_INFORMATION
-title: "_PARALLEL_PNP_INFORMATION"
+title: _PARALLEL_PNP_INFORMATION (parallel.h)
 description: The PARALLEL_PNP_INFORMATION structure specifies information about the capabilities of a parallel port.
 old-location: parports\parallel_pnp_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARALLEL_PNP_INFORMATION
+- PARALLEL_PNP_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_METADATA_ITEMHEADER
-title: tagKSCAMERA_METADATA_ITEMHEADER
+title: tagKSCAMERA_METADATA_ITEMHEADER (ksmedia.h)
 description: This structure contains the metadata header information that is filled by the camera driver.
 old-location: stream\kscamera_metadata_itemheader.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSCAMERA_METADATA_ITEMHEADER
+- KSCAMERA_METADATA_ITEMHEADER
 product:
 - Windows
 targetos: Windows

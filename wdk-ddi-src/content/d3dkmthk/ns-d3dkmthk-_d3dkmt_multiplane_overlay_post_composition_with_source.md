@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
-title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE (d3dkmthk.h)
 description: Contains info about multiplane overlay post composition with source.
 ms.assetid: 1c72924f-dbb5-424b-be7a-1b872c1855d0
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+- _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

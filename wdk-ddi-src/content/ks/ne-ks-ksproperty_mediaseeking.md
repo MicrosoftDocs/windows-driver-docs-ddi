@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_4
-title: KSPROPERTY_MEDIASEEKING
+title: KSPROPERTY_MEDIASEEKING (ks.h)
 description: 
 old-location: stream\ksproperty_mediaseeking.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_MEDIASEEKING
+- KSPROPERTY_MEDIASEEKING
 product:
 - Windows
 targetos: Windows

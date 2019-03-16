@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_INVALIDATEHWCONTEXT
-title: _DXGKARGCB_INVALIDATEHWCONTEXT
+title: _DXGKARGCB_INVALIDATEHWCONTEXT (d3dkmddi.h)
 description: Invalidates hardware context.
 ms.assetid: 1291e94b-ddaf-43ec-a205-7dda7d63ff01
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_INVALIDATEHWCONTEXT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_INVALIDATEHWCONTEXT
+- _DXGKARGCB_INVALIDATEHWCONTEXT
 product: 
 - Windows
 targetos: Windows

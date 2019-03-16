@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._MPEG2_TRANSPORT_STRIDE
-title: "_MPEG2_TRANSPORT_STRIDE"
+title: _MPEG2_TRANSPORT_STRIDE (bdatypes.h)
 description: The MPEG2_TRANSPORT_STRIDE structure describes the format block of the MPEG2 transport stride.
 old-location: stream\mpeg2_transport_stride.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	MPEG2_TRANSPORT_STRIDE
+- MPEG2_TRANSPORT_STRIDE
 product:
 - Windows
 targetos: Windows

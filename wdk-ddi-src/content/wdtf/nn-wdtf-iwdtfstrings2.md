@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFStrings2
-title: IWDTFStrings2
+title: IWDTFStrings2 (wdtf.h)
 description: Defines operations and properties for a collection of strings.
 old-location: dtf\iwdtfstrings2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFStrings2
+- IWDTFStrings2
 product:
 - Windows
 targetos: Windows

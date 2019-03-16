@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.GetNameAt
-title: IWDFNamedPropertyStore::GetNameAt
+title: IWDFNamedPropertyStore::GetNameAt (wudfddi.h)
 description: The GetNameAt method retrieves the name of a property.
 old-location: wdf\iwdfnamedpropertystore_getnameat.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore.GetNameAt
+- IWDFNamedPropertyStore.GetNameAt
 product:
 - Windows
 targetos: Windows

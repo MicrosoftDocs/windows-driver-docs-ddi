@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
-title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK"
+title: _PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK (miniport.h)
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK structure describes a PCI Express (PCIe) secondary uncorrectable error mask register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_mask.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
+- PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK
 product:
 - Windows
 targetos: Windows

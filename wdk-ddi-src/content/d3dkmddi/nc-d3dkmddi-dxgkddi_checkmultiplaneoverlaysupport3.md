@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
-title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
+title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmddi.h)
 description: The following new function is called to determine whether a specific multi-plane overlay configuration is supported.
 old-location: display\dxgkddi_checkmultiplaneoverlaysupport3.htm
 ms.assetid: 2EA7E8C4-51E0-4BDE-B69B-1A40FEB82952
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
+- DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._ATA_ZONE_DESCRIPTOR
-title: "_ATA_ZONE_DESCRIPTOR"
+title: _ATA_ZONE_DESCRIPTOR (ata.h)
 description: This structure is for internal use only and should not be called from your code.
 old-location: storage\ata_zone_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ata.h
+- Ata.h
 api_name:
--	ATA_ZONE_DESCRIPTOR
+- ATA_ZONE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

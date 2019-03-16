@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetCurrentPassCount
-title: IDebugBreakpoint::GetCurrentPassCount
+title: IDebugBreakpoint::GetCurrentPassCount (dbgeng.h)
 description: The GetCurrentPassCount method returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getcurrentpasscount.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetCurrentPassCount
--	IDebugBreakpoint2.GetCurrentPassCount
+- IDebugBreakpoint.GetCurrentPassCount
+- IDebugBreakpoint2.GetCurrentPassCount
 product:
 - Windows
 targetos: Windows

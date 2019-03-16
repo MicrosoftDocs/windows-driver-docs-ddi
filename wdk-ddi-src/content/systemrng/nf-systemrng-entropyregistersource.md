@@ -1,6 +1,6 @@
 ---
 UID: NF:systemrng.EntropyRegisterSource
-title: EntropyRegisterSource function
+title: EntropyRegisterSource function (systemrng.h)
 description: 
 ms.assetid: df2ccd42-3f5c-4d00-9ff1-337d4bf815b6
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyRegisterSource
+- EntropyRegisterSource
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

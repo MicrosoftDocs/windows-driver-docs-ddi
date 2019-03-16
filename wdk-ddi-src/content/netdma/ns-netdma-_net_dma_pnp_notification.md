@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PNP_NOTIFICATION
-title: "_NET_DMA_PNP_NOTIFICATION"
+title: _NET_DMA_PNP_NOTIFICATION (netdma.h)
 description: The NET_DMA_PNP_NOTIFICATION structure specifies a power management notification in the NetDMA interface.
 old-location: netvista\net_dma_pnp_notification.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_PNP_NOTIFICATION
+- NET_DMA_PNP_NOTIFICATION
 product:
 - Windows
 targetos: Windows

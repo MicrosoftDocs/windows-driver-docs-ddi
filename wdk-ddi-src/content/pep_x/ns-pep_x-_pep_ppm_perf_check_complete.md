@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_PERF_CHECK_COMPLETE
-title: "_PEP_PPM_PERF_CHECK_COMPLETE"
+title: _PEP_PPM_PERF_CHECK_COMPLETE (pep_x.h)
 description: The PEP_PPM_PERF_CHECK_COMPLETE structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation.
 old-location: kernel\pep_ppm_perf_check_complete.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_PERF_CHECK_COMPLETE
+- PEP_PPM_PERF_CHECK_COMPLETE
 product:
 - Windows
 targetos: Windows

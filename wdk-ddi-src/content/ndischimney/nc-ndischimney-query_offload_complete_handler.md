@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.QUERY_OFFLOAD_COMPLETE_HANDLER
-title: QUERY_OFFLOAD_COMPLETE_HANDLER
+title: QUERY_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolQueryOffloadComplete function to complete a query offload operation that the driver previously initiated by calling the NdisQueryOffload function.
 old-location: netvista\protocolqueryoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolQueryOffloadComplete
+- ProtocolQueryOffloadComplete
 product:
 - Windows
 targetos: Windows

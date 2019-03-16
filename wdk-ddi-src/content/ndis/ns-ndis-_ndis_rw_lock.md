@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RW_LOCK
-title: "_NDIS_RW_LOCK"
+title: _NDIS_RW_LOCK (ndis.h)
 description: The NDIS_RW_LOCK structure defines the attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_RW_LOCK
+- NDIS_RW_LOCK
 product:
 - Windows
 targetos: Windows

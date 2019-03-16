@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._PRINTPROVIDOR
-title: "_PRINTPROVIDOR"
+title: _PRINTPROVIDOR (winsplp.h)
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\printprovidor.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	PRINTPROVIDOR
+- PRINTPROVIDOR
 product:
 - Windows
 targetos: Windows

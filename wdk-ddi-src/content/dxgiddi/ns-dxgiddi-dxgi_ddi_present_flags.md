@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_PRESENT_FLAGS
-title: DXGI_DDI_PRESENT_FLAGS
+title: DXGI_DDI_PRESENT_FLAGS (dxgiddi.h)
 description: Identifies how to perform a present operation.
 old-location: display\dxgi_ddi_present_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_PRESENT_FLAGS
+- DXGI_DDI_PRESENT_FLAGS
 product:
 - Windows
 targetos: Windows

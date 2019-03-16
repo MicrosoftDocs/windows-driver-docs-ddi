@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltUntagFile
-title: FltUntagFile function
+title: FltUntagFile function (fltkernel.h)
 description: FltUntagFile removes a reparse point from a file or directory.
 old-location: ifsk\fltuntagfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltUntagFile
+- FltUntagFile
 product:
 - Windows
 targetos: Windows

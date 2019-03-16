@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByHandle
-title: ObReferenceObjectByHandle function
+title: ObReferenceObjectByHandle function (wdm.h)
 description: The ObReferenceObjectByHandle routine provides access validation on the object handle, and, if access can be granted, returns the corresponding pointer to the object's body.
 old-location: kernel\obreferenceobjectbyhandle.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReferenceObjectByHandle
+- ObReferenceObjectByHandle
 product:
 - Windows
 targetos: Windows

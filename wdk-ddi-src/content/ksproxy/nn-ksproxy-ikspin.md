@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPin
-title: IKsPin
+title: IKsPin (ksproxy.h)
 description: The IKsPin interface provides methods that control and retrieve information about a pin.
 old-location: stream\ikspin.htm
 tech.root: stream
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin
--	IKsPin.KsReceiveAllocator
--	IKsPin.KsRenegotiateAllocator
--	IKsPin.KsQualityNotify
+- IKsPin
+- IKsPin.KsReceiveAllocator
+- IKsPin.KsRenegotiateAllocator
+- IKsPin.KsQualityNotify
 product:
 - Windows
 targetos: Windows

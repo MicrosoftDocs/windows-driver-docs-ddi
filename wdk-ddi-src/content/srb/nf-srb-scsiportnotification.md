@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortNotification
-title: ScsiPortNotification function
+title: ScsiPortNotification function (srb.h)
 description: The ScsiPortNotification routine informs the operating system-specific port driver of certain events, such as when a miniport driver completes a request or is ready to start another SRB, as well as when the HBA indicates certain SCSI error conditions that occurred during an operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportnotification.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Scsiport.lib; Storport.lib
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	scsiport.lib
--	scsiport.dll
--	storport.lib
--	storport.dll
+- scsiport.lib
+- scsiport.dll
+- storport.lib
+- storport.dll
 api_name:
--	ScsiPortNotification
+- ScsiPortNotification
 product:
 - Windows
 targetos: Windows

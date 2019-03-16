@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0053
-title: D3D12DDI_DEVICE_FUNCS_VIDEO_0053
+title: D3D12DDI_DEVICE_FUNCS_VIDEO_0053 (d3d12umddi.h)
 description: The device functions of video.
 ms.assetid: d32a1690-546d-4c00-b30c-7646ced2117d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_DEVICE_FUNCS_VIDEO_0053
+- D3D12DDI_DEVICE_FUNCS_VIDEO_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

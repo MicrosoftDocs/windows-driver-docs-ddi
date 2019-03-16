@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_STOP_AP_REASON
-title: "_WDI_STOP_AP_REASON"
+title: _WDI_STOP_AP_REASON (wditypes.h)
 description: The WDI_STOP_AP_REASON enumeration defines the reasons an adapter cannot sustain 802.11 Access Point (AP) functionality on any of the PHYs.
 old-location: netvista\wdi_stop_ap_reason.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_STOP_AP_REASON
+- WDI_STOP_AP_REASON
 product:
 - Windows
 targetos: Windows

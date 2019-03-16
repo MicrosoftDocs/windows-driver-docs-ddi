@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterPropertyBag
-title: IPrinterPropertyBag
+title: IPrinterPropertyBag (printerextension.h)
 description: Provides strongly-typed get and set methods.
 old-location: print\iprinterpropertybag_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterPropertyBag
+- IPrinterPropertyBag
 product:
 - Windows
 targetos: Windows

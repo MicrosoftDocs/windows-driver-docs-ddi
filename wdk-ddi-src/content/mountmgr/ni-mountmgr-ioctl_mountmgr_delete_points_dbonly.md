@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
-title: IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
+title: IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY (mountmgr.h)
 description: This IOCTL is identical in input and output to IOCTL_MOUNTMGR_QUERY_POINTS.
 old-location: storage\ioctl_mountmgr_delete_points_dbonly.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountmgr.h
+- Mountmgr.h
 api_name:
--	IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
+- IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
 product:
 - Windows
 targetos: Windows

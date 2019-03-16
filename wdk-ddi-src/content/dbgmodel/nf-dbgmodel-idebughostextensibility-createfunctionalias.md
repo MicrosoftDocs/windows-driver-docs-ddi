@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.CreateFunctionAlias
-title: IDebugHostExtensibility::CreateFunctionAlias
+title: IDebugHostExtensibility::CreateFunctionAlias (dbgmodel.h)
 description: The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific.
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostExtensibility.CreateFunctionAlias
-product: Windows
+- IDebugHostExtensibility.CreateFunctionAlias
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

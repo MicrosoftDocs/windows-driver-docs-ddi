@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoSample
-title: "_DXVA_VideoSample"
+title: _DXVA_VideoSample (dxva.h)
 description: The DXVA_VideoSample structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_VideoSample
+- DXVA_VideoSample
 product:
 - Windows
 targetos: Windows

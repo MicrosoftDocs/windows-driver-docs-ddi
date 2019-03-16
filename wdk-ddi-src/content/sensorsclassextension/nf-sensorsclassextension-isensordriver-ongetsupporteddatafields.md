@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedDataFields
-title: ISensorDriver::OnGetSupportedDataFields
+title: ISensorDriver::OnGetSupportedDataFields (sensorsclassextension.h)
 description: The ISensorDriver::OnGetSupportedDataFields method retrieves the list of data fields that the specified sensor can provide.
 old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetSupportedDataFields
+- OnGetSupportedDataFields
 product:
 - Windows
 targetos: Windows

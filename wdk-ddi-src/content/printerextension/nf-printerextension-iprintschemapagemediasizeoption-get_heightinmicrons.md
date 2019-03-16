@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
-title: IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
+title: IPrintSchemaPageMediaSizeOption::get_HeightInMicrons (printerextension.h)
 description: Gets the height of the page in microns.
 old-location: print\iprintschemapagemediasizeoption_heightinmicrons.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaPageMediaSizeOption.HeightInMicrons
--	IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
+- IPrintSchemaPageMediaSizeOption.HeightInMicrons
+- IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
 product:
 - Windows
 targetos: Windows

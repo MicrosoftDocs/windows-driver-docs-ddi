@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.GetState
-title: IWDFIoQueue::GetState
+title: IWDFIoQueue::GetState (wudfddi.h)
 description: The GetState method retrieves the state of an I/O queue.
 old-location: wdf\iwdfioqueue_getstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.GetState
+- IWDFIoQueue.GetState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsmcrd._SCARD_IO_REQUEST
-title: "_SCARD_IO_REQUEST"
+title: _SCARD_IO_REQUEST (winsmcrd.h)
 description: This structure is used to identify a smart card I/O request.
 old-location: nfpdrivers\scard_io_request_structure.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsmcrd.h
+- winsmcrd.h
 api_name:
--	SCARD_IO_REQUEST
+- SCARD_IO_REQUEST
 product:
 - Windows
 targetos: Windows

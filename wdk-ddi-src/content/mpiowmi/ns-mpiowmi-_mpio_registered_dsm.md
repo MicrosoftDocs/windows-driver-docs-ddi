@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_REGISTERED_DSM
-title: "_MPIO_REGISTERED_DSM"
+title: _MPIO_REGISTERED_DSM (mpiowmi.h)
 description: The MPIO_REGISTERED_DSM structure represents the top-level view of the registered DSMs on the system. To query this information, the request must be sent to the MPIO control object by using its WMI instance name.
 old-location: storage\mpio_registered_dsm.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_REGISTERED_DSM
+- MPIO_REGISTERED_DSM
 product:
 - Windows
 targetos: Windows

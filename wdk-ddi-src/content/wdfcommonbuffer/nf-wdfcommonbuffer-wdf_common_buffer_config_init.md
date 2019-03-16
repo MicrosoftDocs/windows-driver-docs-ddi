@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WDF_COMMON_BUFFER_CONFIG_INIT
-title: WDF_COMMON_BUFFER_CONFIG_INIT function
+title: WDF_COMMON_BUFFER_CONFIG_INIT function (wdfcommonbuffer.h)
 description: The WDF_COMMON_BUFFER_CONFIG_INIT function initializes a WDF_COMMON_BUFFER_CONFIG structure.
 old-location: wdf\wdf_common_buffer_config_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcommonbuffer.h
+- wdfcommonbuffer.h
 api_name:
--	WDF_COMMON_BUFFER_CONFIG_INIT
+- WDF_COMMON_BUFFER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetChar
-title: ExtRemoteData::GetChar
+title: ExtRemoteData::GetChar (engextcpp.h)
 description: The GetChar method returns a CHAR version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getchar.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetChar
+- ExtRemoteData.GetChar
 product:
 - Windows
 targetos: Windows

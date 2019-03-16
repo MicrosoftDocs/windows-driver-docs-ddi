@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KzLowerIrql
-title: KzLowerIrql function
+title: KzLowerIrql function (wdm.h)
 description: Restores the IRQL on the current processor to its original value. 
 ms.assetid: 516b6d64-447e-427e-a544-88b9dc8bea66
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	KzLowerIrql
-product: Windows
+- KzLowerIrql
+product:
+- Windows
 targetos: Windows
 
 
@@ -55,6 +56,6 @@ Restores the IRQL on the current processor to its original value. For informatio
 ## -returns
 
 ## -remarks
-This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql.md) function.
+This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql~r1.md) function.
 
 ## -see-also

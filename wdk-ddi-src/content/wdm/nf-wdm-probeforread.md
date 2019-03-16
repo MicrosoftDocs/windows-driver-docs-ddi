@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ProbeForRead
-title: ProbeForRead function
+title: ProbeForRead function (wdm.h)
 description: The ProbeForRead routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 old-location: kernel\probeforread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ProbeForRead
+- ProbeForRead
 product:
 - Windows
 targetos: Windows

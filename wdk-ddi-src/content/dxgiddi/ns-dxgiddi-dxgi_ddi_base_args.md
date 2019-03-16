@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_BASE_ARGS
-title: DXGI_DDI_BASE_ARGS
+title: DXGI_DDI_BASE_ARGS (dxgiddi.h)
 description: The DXGI_DDI_BASE_ARGS structure contains Microsoft DirectX Graphics Infrastructure (DXGI) basic device driver interface (DDI) device creation arguments.
 old-location: display\dxgi_ddi_base_args.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_BASE_ARGS
+- DXGI_DDI_BASE_ARGS
 product:
 - Windows
 targetos: Windows

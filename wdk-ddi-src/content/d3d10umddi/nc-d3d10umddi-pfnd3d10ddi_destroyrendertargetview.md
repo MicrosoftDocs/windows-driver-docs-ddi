@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYRENDERTARGETVIEW
-title: PFND3D10DDI_DESTROYRENDERTARGETVIEW
+title: PFND3D10DDI_DESTROYRENDERTARGETVIEW (d3d10umddi.h)
 description: The DestroyRenderTargetView function destroys the specified render target view object. The render target view object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrendertargetview.htm
 ms.assetid: ec04fed3-8e43-4f76-af82-b36c7029f0cc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DestroyRenderTargetView
+- DestroyRenderTargetView
 product:
 - Windows
 targetos: Windows

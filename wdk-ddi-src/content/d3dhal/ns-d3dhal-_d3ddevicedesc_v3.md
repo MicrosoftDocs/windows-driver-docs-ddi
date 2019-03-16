@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V3
-title: "_D3DDeviceDesc_V3"
+title: _D3DDeviceDesc_V3 (d3dhal.h)
 description: The D3DDEVICEDESC_V3 structure contains fields that are already reported in the D3DHAL_D3DEXTENDEDCAPS structure when responding to the GUID_D3DExtendedCaps GUID in DdGetDriverInfo.
 old-location: display\d3ddevicedesc_v3.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DDEVICEDESC_V3
+- D3DDEVICEDESC_V3
 product:
 - Windows
 targetos: Windows

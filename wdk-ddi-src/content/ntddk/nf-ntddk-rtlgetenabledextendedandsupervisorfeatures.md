@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetEnabledExtendedAndSupervisorFeatures
-title: RtlGetEnabledExtendedAndSupervisorFeatures function
+title: RtlGetEnabledExtendedAndSupervisorFeatures function (ntddk.h)
 description: Returns a mask of extended processor features that are enabled by the system.
 ms.assetid: d08c96c4-bdf8-4b4a-bbb7-a42561210c8c
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	RtlGetEnabledExtendedAndSupervisorFeatures
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- RtlGetEnabledExtendedAndSupervisorFeatures
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

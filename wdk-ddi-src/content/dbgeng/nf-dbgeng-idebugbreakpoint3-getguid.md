@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint3.GetGuid
-title: IDebugBreakpoint3::GetGuid
+title: IDebugBreakpoint3::GetGuid (dbgeng.h)
 description: Returns a GUID for the breakpoint.
 old-location: debugger\idebugbreakpoint3_getguid.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint3.GetGuid
+- IDebugBreakpoint3.GetGuid
 product:
 - Windows
 targetos: Windows

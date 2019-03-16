@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_KEY_SIZE
-title: "_STOR_CRYPTO_KEY_SIZE"
+title: _STOR_CRYPTO_KEY_SIZE (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_size.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	STOR_CRYPTO_KEY_SIZE
+- STOR_CRYPTO_KEY_SIZE
 product:
 - Windows
 targetos: Windows

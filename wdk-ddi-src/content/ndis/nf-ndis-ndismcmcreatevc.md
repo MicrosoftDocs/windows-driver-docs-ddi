@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmCreateVc
-title: NdisMCmCreateVc function
+title: NdisMCmCreateVc function (ndis.h)
 description: NdisMCmCreateVc sets up a connection endpoint on which an MCM driver can dispatch an incoming-call offer to a client.
 old-location: netvista\ndismcmcreatevc.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMCmCreateVc
+- NdisMCmCreateVc
 product:
 - Windows
 targetos: Windows

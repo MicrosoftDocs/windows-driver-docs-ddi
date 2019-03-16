@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.EnablePDEV
-title: IPrintOemPS::EnablePDEV
+title: IPrintOemPS::EnablePDEV (prcomoem.h)
 description: The IPrintOemPS::EnablePDEV method allows a rendering plug-in for Pscript5 to create its own PDEV structure.
 old-location: print\iprintoemps_enablepdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemPS.EnablePDEV
+- IPrintOemPS.EnablePDEV
 product:
 - Windows
 targetos: Windows

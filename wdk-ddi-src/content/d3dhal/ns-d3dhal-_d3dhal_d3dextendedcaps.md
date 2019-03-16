@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_D3DEXTENDEDCAPS
-title: "_D3DHAL_D3DEXTENDEDCAPS"
+title: _D3DHAL_D3DEXTENDEDCAPS (d3dhal.h)
 description: D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 old-location: display\d3dhal_d3dextendedcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_D3DEXTENDEDCAPS
+- D3DHAL_D3DEXTENDEDCAPS
 product:
 - Windows
 targetos: Windows

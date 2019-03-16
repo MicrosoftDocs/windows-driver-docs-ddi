@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_I2C_RECEIVE
-title: EVT_IDD_CX_MONITOR_I2C_RECEIVE
+title: EVT_IDD_CX_MONITOR_I2C_RECEIVE (iddcx.h)
 description: EVT_IDD_CX_MONITOR_I2C_RECEIVE is called by the OS to return data received from an I2C device in a monitor.
 old-location: display\evt_idd_cx_monitor_i2c_receive.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_I2C_RECEIVE
+- PFN_IDD_CX_MONITOR_I2C_RECEIVE
 product:
 - Windows
 targetos: Windows

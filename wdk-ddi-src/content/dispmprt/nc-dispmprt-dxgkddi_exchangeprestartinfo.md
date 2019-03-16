@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_EXCHANGEPRESTARTINFO
-title: DXGKDDI_EXCHANGEPRESTARTINFO
+title: DXGKDDI_EXCHANGEPRESTARTINFO (dispmprt.h)
 description: Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.
 old-location: display\dxgkddi_exchangeprestartinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGKDDI_EXCHANGEPRESTARTINFO
+- DXGKDDI_EXCHANGEPRESTARTINFO
 product:
 - Windows
 targetos: Windows

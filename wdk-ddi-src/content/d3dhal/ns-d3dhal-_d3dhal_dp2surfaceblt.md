@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SURFACEBLT
-title: "_D3DHAL_DP2SURFACEBLT"
+title: _D3DHAL_DP2SURFACEBLT (d3dhal.h)
 description: DirectX 9.0 and later versions only. D3DHAL_DP2SURFACEBLT is used for two dimensional system memory to video memory surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_SURFACEBLT command token.
 old-location: display\d3dhal_dp2surfaceblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2SURFACEBLT
+- D3DHAL_DP2SURFACEBLT
 product:
 - Windows
 targetos: Windows

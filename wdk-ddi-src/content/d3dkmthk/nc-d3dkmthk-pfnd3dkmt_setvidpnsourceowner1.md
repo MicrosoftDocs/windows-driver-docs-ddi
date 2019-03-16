@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETVIDPNSOURCEOWNER1
-title: PFND3DKMT_SETVIDPNSOURCEOWNER1
+title: PFND3DKMT_SETVIDPNSOURCEOWNER1 (d3dkmthk.h)
 description: Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and lets output duplication options be specified. Supported starting with Windows 8.
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTSetVidPnSourceOwner1
+- D3DKMTSetVidPnSourceOwner1
 product:
 - Windows
 targetos: Windows

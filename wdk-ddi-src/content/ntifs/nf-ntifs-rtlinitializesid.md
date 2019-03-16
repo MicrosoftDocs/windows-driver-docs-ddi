@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitializeSid
-title: RtlInitializeSid function
+title: RtlInitializeSid function (ntifs.h)
 description: The RtlInitializeSid routine initializes a security identifier (SID) structure.
 old-location: ifsk\rtlinitializesid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlInitializeSid
+- RtlInitializeSid
 product:
 - Windows
 targetos: Windows

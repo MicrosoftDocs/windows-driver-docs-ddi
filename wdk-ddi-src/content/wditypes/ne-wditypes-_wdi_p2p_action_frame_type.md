@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_ACTION_FRAME_TYPE
-title: "_WDI_P2P_ACTION_FRAME_TYPE"
+title: _WDI_P2P_ACTION_FRAME_TYPE (wditypes.h)
 description: The WDI_P2P_ACTION_FRAME_TYPE enumeration defines the Wi-Fi Direct action frame types.
 old-location: netvista\wdi_p2p_action_frame_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_P2P_ACTION_FRAME_TYPE
+- WDI_P2P_ACTION_FRAME_TYPE
 product:
 - Windows
 targetos: Windows

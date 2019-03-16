@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ZERO_DATA_INFORMATION_EX
-title: "_FILE_ZERO_DATA_INFORMATION_EX"
+title: _FILE_ZERO_DATA_INFORMATION_EX (ntifs.h)
 description: Contains a range of a file to set to zeros.
 old-location: ifsk\file_zero_data_information_ex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_ZERO_DATA_INFORMATION_EX
+- FILE_ZERO_DATA_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

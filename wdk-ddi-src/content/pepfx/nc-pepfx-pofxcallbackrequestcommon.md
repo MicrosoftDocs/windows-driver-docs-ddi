@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.POFXCALLBACKREQUESTCOMMON
-title: POFXCALLBACKREQUESTCOMMON
+title: POFXCALLBACKREQUESTCOMMON (pepfx.h)
 description: The RequestCommon routine is a generic request handler.
 old-location: kernel\requestcommon.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	RequestCommon
+- RequestCommon
 product:
 - Windows
 targetos: Windows

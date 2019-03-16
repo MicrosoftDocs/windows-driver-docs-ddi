@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_79
-title: BUS_INTERFACE_REFERENCE
+title: BUS_INTERFACE_REFERENCE (ks.h)
 description: A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.
 old-location: stream\bus_interface_reference.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	BUS_INTERFACE_REFERENCE
+- BUS_INTERFACE_REFERENCE
 product:
 - Windows
 targetos: Windows

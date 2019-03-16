@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_NFCC_CAPABILITIES
-title: "_SECURE_ELEMENT_NFCC_CAPABILITIES"
+title: _SECURE_ELEMENT_NFCC_CAPABILITIES (nfcsedev.h)
 description: SECURE_ELEMENT_NFCC_CAPABILITIES contains NFC controller capabilities.
 old-location: nfpdrivers\_secure_element_nfcc_capabilities.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_NFCC_CAPABILITIES
+- SECURE_ELEMENT_NFCC_CAPABILITIES
 product:
 - Windows
 targetos: Windows

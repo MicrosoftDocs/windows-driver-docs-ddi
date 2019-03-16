@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB
-title: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB
+title: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB (d3d10umddi.h)
 description: The pfnPerformAmortizedProcessingCb function performs amortized processing.
 old-location: display\pfnperformamortizedprocessingcb.htm
 ms.assetid: 6b9fd47f-c6b6-4541-a014-0cd6604eb3b3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnPerformAmortizedProcessingCb
+- pfnPerformAmortizedProcessingCb
 product:
 - Windows
 targetos: Windows

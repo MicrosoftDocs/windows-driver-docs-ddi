@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPopEntrySList
-title: ExInterlockedPopEntrySList function
+title: ExInterlockedPopEntrySList function (wdm.h)
 description: The ExInterlockedPopEntrySList routine atomically removes the first entry from a sequenced singly linked list.
 old-location: kernel\exinterlockedpopentryslist.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedPopEntrySList
--	ExpInterlockedPopEntrySList
+- ExInterlockedPopEntrySList
+- ExpInterlockedPopEntrySList
 product:
 - Windows
 targetos: Windows

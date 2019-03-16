@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DevMode
-title: IPrintOemUni::DevMode
+title: IPrintOemUni::DevMode (prcomoem.h)
 description: The IPrintOemUni::DevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.
 old-location: print\iprintoemuni_devmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUni.DevMode
+- IPrintOemUni.DevMode
 product:
 - Windows
 targetos: Windows

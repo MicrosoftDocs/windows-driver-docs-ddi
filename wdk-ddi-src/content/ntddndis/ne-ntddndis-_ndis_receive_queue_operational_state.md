@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
-title: "_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"
+title: _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration identifies the current queue state of a receive queue.
 old-location: netvista\ndis_receive_queue_operational_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
+- NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
 product:
 - Windows
 targetos: Windows

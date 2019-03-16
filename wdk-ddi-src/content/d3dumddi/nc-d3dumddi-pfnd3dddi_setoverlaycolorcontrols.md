@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETOVERLAYCOLORCONTROLS
-title: PFND3DDDI_SETOVERLAYCOLORCONTROLS
+title: PFND3DDDI_SETOVERLAYCOLORCONTROLS (d3dumddi.h)
 description: The SetOverlayColorControls function changes color-control settings for the given overlay.
 old-location: display\setoverlaycolorcontrols.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetOverlayColorControls
+- SetOverlayColorControls
 product:
 - Windows
 targetos: Windows

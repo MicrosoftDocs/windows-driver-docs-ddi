@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
-title: _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
+title: _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED (d3dkmthk.h)
 description: Used to indicate whether a bad driver for hardware protection is disabled.
 ms.assetid: df383a03-adce-462e-9804-04a3ae9bafb8
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
+- _D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

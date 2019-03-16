@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_REGISTRATION_INFORMATION
-title: "_PCW_REGISTRATION_INFORMATION"
+title: _PCW_REGISTRATION_INFORMATION (wdm.h)
 description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set.
 old-location: devtest\pcw_registration_information.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_REGISTRATION_INFORMATION
+- PCW_REGISTRATION_INFORMATION
 product:
 - Windows
 targetos: Windows

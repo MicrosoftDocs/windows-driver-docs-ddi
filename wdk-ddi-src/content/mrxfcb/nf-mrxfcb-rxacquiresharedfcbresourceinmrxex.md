@@ -1,6 +1,6 @@
 ---
 UID: NF:mrxfcb.RxAcquireSharedFcbResourceInMRxEx
-title: RxAcquireSharedFcbResourceInMRxEx function
+title: RxAcquireSharedFcbResourceInMRxEx function (mrxfcb.h)
 description: RxAcquireSharedFcbResourceInMRxEx acquires the FCB resource for a network mini-redirector driver in shared mode.
 old-location: ifsk\rxacquiresharedfcbresourceinmrxex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrxfcb.h
+- mrxfcb.h
 api_name:
--	RxAcquireSharedFcbResourceInMRxEx
+- RxAcquireSharedFcbResourceInMRxEx
 product:
 - Windows
 targetos: Windows

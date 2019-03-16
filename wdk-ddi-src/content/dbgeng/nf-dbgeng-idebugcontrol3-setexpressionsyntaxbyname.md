@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExpressionSyntaxByName
-title: IDebugControl3::SetExpressionSyntaxByName
+title: IDebugControl3::SetExpressionSyntaxByName (dbgeng.h)
 description: The SetExpressionSyntaxByName method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbyname.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.SetExpressionSyntaxByName
+- IDebugControl3.SetExpressionSyntaxByName
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
-title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
+title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE (usbfnioctl.h)
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
+- IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 product:
 - Windows
 targetos: Windows

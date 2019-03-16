@@ -1,6 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_1
-title: PMI_MEASUREMENT_TYPE
+title: PMI_MEASUREMENT_TYPE (pmi.h)
 description: The PMI_MEASUREMENT_TYPE enumeration defines the source of the PMI measurement data.
 old-location: powermeter\pmi_measurement_type.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_MEASUREMENT_TYPE
+- PMI_MEASUREMENT_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateContext
-title: D3DKMTCreateContext function
+title: D3DKMTCreateContext function (d3dkmthk.h)
 description: The D3DKMTCreateContext function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatecontext.htm
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateContext
+- D3DKMTCreateContext
 product:
 - Windows
 targetos: Windows

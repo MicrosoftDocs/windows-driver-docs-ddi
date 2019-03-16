@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRaiseCustomSystemEventTrigger
-title: RtlRaiseCustomSystemEventTrigger function
+title: RtlRaiseCustomSystemEventTrigger function (ntddk.h)
 description: Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.
 ms.assetid: b5f212a3-3b2a-46ce-ae89-112320d0b2a9
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	RtlRaiseCustomSystemEventTrigger
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- RtlRaiseCustomSystemEventTrigger
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

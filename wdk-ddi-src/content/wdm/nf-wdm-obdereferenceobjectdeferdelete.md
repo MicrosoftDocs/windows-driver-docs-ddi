@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectDeferDelete
-title: ObDereferenceObjectDeferDelete function
+title: ObDereferenceObjectDeferDelete function (wdm.h)
 description: The ObDereferenceObjectDeferDelete routine decrements the reference count for the given object, checks for object retention, and avoids deadlocks.
 old-location: kernel\obdereferenceobjectdeferdelete.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObDereferenceObjectDeferDelete
+- ObDereferenceObjectDeferDelete
 product:
 - Windows
 targetos: Windows

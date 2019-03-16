@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_DISCONNECT_IO_PINS_PARAMETERS
-title: "_GPIO_DISCONNECT_IO_PINS_PARAMETERS"
+title: _GPIO_DISCONNECT_IO_PINS_PARAMETERS (gpioclx.h)
 description: The GPIO_DISCONNECT_IO_PINS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) pins that are to be disconnected.
 old-location: gpio\gpio_disconnect_io_pins_parameters.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_DISCONNECT_IO_PINS_PARAMETERS
+- GPIO_DISCONNECT_IO_PINS_PARAMETERS
 product:
 - Windows
 targetos: Windows

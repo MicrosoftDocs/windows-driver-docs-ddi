@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeGenericTableAvl
-title: RtlInitializeGenericTableAvl function
+title: RtlInitializeGenericTableAvl function (ntddk.h)
 description: The RtlInitializeGenericTableAvl routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 old-location: ifsk\rtlinitializegenerictableavl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitializeGenericTableAvl
+- RtlInitializeGenericTableAvl
 product:
 - Windows
 targetos: Windows

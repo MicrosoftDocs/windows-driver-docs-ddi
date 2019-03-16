@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferMdlAndData
-title: NdisAllocateNetBufferMdlAndData function
+title: NdisAllocateNetBufferMdlAndData function (ndis.h)
 description: NDIS drivers call the NdisAllocateNetBufferMdlAndData function to allocate a NET_BUFFER structure along with the associated MDL and data.
 old-location: netvista\ndisallocatenetbuffermdlanddata.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateNetBufferMdlAndData
+- NdisAllocateNetBufferMdlAndData
 product:
 - Windows
 targetos: Windows

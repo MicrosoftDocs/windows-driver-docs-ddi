@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionWdmGetTransferContext
-title: WdfDmaTransactionWdmGetTransferContext function
+title: WdfDmaTransactionWdmGetTransferContext function (wdfdmatransaction.h)
 description: The WdfDmaTransactionWdmGetTransferContext method retrieves the WDM transfer context that is associated with a DMA transaction.
 old-location: wdf\wdfdmatransactionwdmgettransfercontext.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionWdmGetTransferContext
+- WdfDmaTransactionWdmGetTransferContext
 product:
 - Windows
 targetos: Windows

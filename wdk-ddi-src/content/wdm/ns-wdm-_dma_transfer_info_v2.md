@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO_V2
-title: _DMA_TRANSFER_INFO_V2
+title: _DMA_TRANSFER_INFO_V2 (wdm.h)
 description: Contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 ms.assetid: b6466a0d-273f-4bc0-a4fe-f79fcb4ba5b6
 ms.date: 09/30/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DMA_TRANSFER_INFO_V2, *PDMA_TRANSFER_INFO_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_DMA_TRANSFER_INFO_V2
-product: Windows
+- _DMA_TRANSFER_INFO_V2
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

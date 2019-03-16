@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourcePathElement
-title: IDebugSymbols3::GetSourcePathElement
+title: IDebugSymbols3::GetSourcePathElement (dbgeng.h)
 description: The GetSourcePathElement method returns an element from the source path.
 old-location: debugger\getsourcepathelement.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetSourcePathElement
--	IDebugSymbols2.GetSourcePathElement
--	IDebugSymbols3.GetSourcePathElement
+- IDebugSymbols.GetSourcePathElement
+- IDebugSymbols2.GetSourcePathElement
+- IDebugSymbols3.GetSourcePathElement
 product:
 - Windows
 targetos: Windows

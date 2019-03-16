@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_23
-title: TELEPHONY_CALLCONTROLOP
+title: TELEPHONY_CALLCONTROLOP (ksmedia.h)
 description: The TELEPHONY_CALLCONTROLOP enumeration defines constants that specify an operation to perform on a phone call.
 old-location: audio\telephony_callcontrolop.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TELEPHONY_CALLCONTROLOP
+- TELEPHONY_CALLCONTROLOP
 product:
 - Windows
 targetos: Windows

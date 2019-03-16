@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGenerateDataEvent
-title: KsGenerateDataEvent function
+title: KsGenerateDataEvent function (ks.h)
 description: The KsGenerateDataEvent function generates one of the standard event notifications when given an event entry structure and callback data.
 old-location: stream\ksgeneratedataevent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGenerateDataEvent
+- KsGenerateDataEvent
 product:
 - Windows
 targetos: Windows

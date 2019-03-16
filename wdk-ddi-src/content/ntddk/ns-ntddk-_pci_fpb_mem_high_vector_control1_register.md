@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
-title: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
+title: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER (ntddk.h)
 description: The FPB MEM High Vector Control 1 Register. See section 7.y.6.
 tech.root: pci
 ms.assetid: 83db0b5f-964d-42ba-b1b3-604776b2ac49
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER, *PPCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
-product: Windows
+- _PCI_FPB_MEM_HIGH_VECTOR_CONTROL1_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

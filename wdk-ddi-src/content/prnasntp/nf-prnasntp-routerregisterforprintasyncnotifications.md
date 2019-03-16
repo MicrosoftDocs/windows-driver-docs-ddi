@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterRegisterForPrintAsyncNotifications
-title: RouterRegisterForPrintAsyncNotifications function
+title: RouterRegisterForPrintAsyncNotifications function (prnasntp.h)
 description: The RouterRegisterForPrintAsyncNotifications function registers for asynchronous notifications associated with a printer or print server.
 old-location: print\routerregisterforprintasyncnotifications.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RouterRegisterForPrintAsyncNotifications
+- RouterRegisterForPrintAsyncNotifications
 product:
 - Windows
 targetos: Windows

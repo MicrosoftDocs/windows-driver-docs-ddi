@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoMakeAssociatedIrp
-title: IoMakeAssociatedIrp function
+title: IoMakeAssociatedIrp function (ntddk.h)
 description: This routine is reserved for use by file systems and file system filter drivers.
 old-location: kernel\iomakeassociatedirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoMakeAssociatedIrp
+- IoMakeAssociatedIrp
 product:
 - Windows
 targetos: Windows

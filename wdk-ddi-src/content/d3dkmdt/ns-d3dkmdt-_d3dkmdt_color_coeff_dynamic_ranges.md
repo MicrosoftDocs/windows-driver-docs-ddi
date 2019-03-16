@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
-title: "_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES"
+title: _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES (d3dkmdt.h)
 description: The D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES contains values that indicate the dynamic range of each color channel of a video present target or a monitor.
 old-location: display\d3dkmdt_color_coeff_dynamic_ranges.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+- D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
 product:
 - Windows
 targetos: Windows

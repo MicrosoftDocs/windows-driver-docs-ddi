@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryFreeBuffer
-title: AtaPortRegistryFreeBuffer function
+title: AtaPortRegistryFreeBuffer function (irb.h)
 description: The AtaPortRegistryFreeBuffer routine frees the registry buffer that was allocated by using AtaPortRegistryAllocateBuffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryfreebuffer.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortRegistryFreeBuffer
+- AtaPortRegistryFreeBuffer
 product:
 - Windows
 targetos: Windows

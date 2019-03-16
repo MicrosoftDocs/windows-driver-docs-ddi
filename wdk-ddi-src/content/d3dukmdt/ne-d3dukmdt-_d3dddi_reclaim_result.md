@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_RECLAIM_RESULT
-title: _D3DDDI_RECLAIM_RESULT
+title: _D3DDDI_RECLAIM_RESULT (d3dukmdt.h)
 description: Specifies result flags for the ReclaimAllocations callback function.
 ms.assetid: 5d484da2-3a78-4061-ac72-55101957707f
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_RECLAIM_RESULT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	_D3DDDI_RECLAIM_RESULT
+- _D3DDDI_RECLAIM_RESULT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

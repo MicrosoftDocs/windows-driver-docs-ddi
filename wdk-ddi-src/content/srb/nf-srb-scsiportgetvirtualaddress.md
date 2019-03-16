@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetVirtualAddress
-title: ScsiPortGetVirtualAddress function
+title: ScsiPortGetVirtualAddress function (srb.h)
 description: The ScsiPortGetVirtualAddress routine returns a virtual address associated with a physical address if the physical address was obtained by a call to ScsiPortGetPhysicalAddress.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportgetvirtualaddress.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortGetVirtualAddress
+- ScsiPortGetVirtualAddress
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateRegisteredFiltersList
-title: IoEnumerateRegisteredFiltersList function
+title: IoEnumerateRegisteredFiltersList function (ntifs.h)
 description: The IoEnumerateRegisteredFiltersList routine enumerates the file system filter drivers that have registered with the system.
 old-location: ifsk\ioenumerateregisteredfilterslist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoEnumerateRegisteredFiltersList
+- IoEnumerateRegisteredFiltersList
 product:
 - Windows
 targetos: Windows

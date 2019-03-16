@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetDmaContext
-title: VideoPortGetDmaContext function
+title: VideoPortGetDmaContext function (video.h)
 description: The VideoPortGetDmaContext function is obsolete in Windows 2000 and later.VideoPortGetDmaContext gets the context previously associated with the specified DMA handle.
 old-location: display\videoportgetdmacontext.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetDmaContext
+- VideoPortGetDmaContext
 product:
 - Windows
 targetos: Windows

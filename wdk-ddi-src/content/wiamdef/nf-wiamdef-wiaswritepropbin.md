@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropBin
-title: wiasWritePropBin function
+title: wiasWritePropBin function (wiamdef.h)
 description: The wiasWritePropBin function writes a single binary-data property value to a WIA item.
 old-location: image\wiaswritepropbin.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePropBin
+- wiasWritePropBin
 product:
 - Windows
 targetos: Windows

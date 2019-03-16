@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
-title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
+title: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 (d3d12umddi.h)
 description: Creates a video processor.
 old-location: display\d3d12ddiarg-create-video-processor-0032.htm
 ms.assetid: 6b945476-c1cf-4bf8-8273-bb3d05b90277
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
+- D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032
 product:
 - Windows
 targetos: Windows

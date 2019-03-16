@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.DebugConnectWide
-title: DebugConnectWide function
+title: DebugConnectWide function (dbgeng.h)
 description: The DebugConnect and DebugConnectWide functions create a new client object and return an interface pointer to it. The client object will be connected to a remote host.
 old-location: debugger\debugconnectwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	dbgeng.dll
+- dbgeng.dll
 api_name:
--	DebugConnectWide
+- DebugConnectWide
 product:
 - Windows
 targetos: Windows

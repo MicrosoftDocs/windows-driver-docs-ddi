@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxIndicateChangeOfBufferingState
-title: RxIndicateChangeOfBufferingState function
+title: RxIndicateChangeOfBufferingState function (rxprocs.h)
 description: RxIndicateChangeOfBufferingState is called to register a change buffering state request (an oplock break indication, for example) for later processing. If necessary, worker thread routines for further processing are activated.
 old-location: ifsk\rxindicatechangeofbufferingstate.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxIndicateChangeOfBufferingState
+- RxIndicateChangeOfBufferingState
 product:
 - Windows
 targetos: Windows

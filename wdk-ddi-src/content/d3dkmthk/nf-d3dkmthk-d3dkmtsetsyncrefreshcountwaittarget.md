@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetSyncRefreshCountWaitTarget
-title: D3DKMTSetSyncRefreshCountWaitTarget function
+title: D3DKMTSetSyncRefreshCountWaitTarget function (d3dkmthk.h)
 description: Sets sync refresh count for wait target.
 ms.assetid: 2703869c-1caa-4cda-a6a7-01516a4ecb85
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSetSyncRefreshCountWaitTarget
+- D3DKMTSetSyncRefreshCountWaitTarget
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

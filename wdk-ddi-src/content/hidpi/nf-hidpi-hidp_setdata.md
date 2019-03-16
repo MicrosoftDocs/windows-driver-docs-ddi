@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetData
-title: HidP_SetData function
+title: HidP_SetData function (hidpi.h)
 description: The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report.
 old-location: hid\hidp_setdata.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_SetData
+- HidP_SetData
 product:
 - Windows
 targetos: Windows

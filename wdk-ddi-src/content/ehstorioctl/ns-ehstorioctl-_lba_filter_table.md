@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._LBA_FILTER_TABLE
-title: "_LBA_FILTER_TABLE"
+title: _LBA_FILTER_TABLE (ehstorioctl.h)
 description: The LBA_FILTER_TABLE structure contains the LBA ranges whose access is controlled by a silo driver.
 old-location: storage\lba_filter_table.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	LBA_FILTER_TABLE
+- LBA_FILTER_TABLE
 product:
 - Windows
 targetos: Windows

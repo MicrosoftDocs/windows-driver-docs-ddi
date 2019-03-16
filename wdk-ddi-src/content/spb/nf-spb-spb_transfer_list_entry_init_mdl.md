@@ -1,6 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_MDL
-title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function
+title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to use an MDL to describe a data buffer.
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_ENTRY_INIT_MDL
+- SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 product:
 - Windows
 targetos: Windows

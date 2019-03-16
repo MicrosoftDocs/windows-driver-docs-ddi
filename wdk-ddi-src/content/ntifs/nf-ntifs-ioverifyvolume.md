@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoVerifyVolume
-title: IoVerifyVolume function
+title: IoVerifyVolume function (ntifs.h)
 description: The IoVerifyVolume routine sends a volume verify request to the given removable-media device.
 old-location: ifsk\ioverifyvolume.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoVerifyVolume
+- IoVerifyVolume
 product:
 - Windows
 targetos: Windows

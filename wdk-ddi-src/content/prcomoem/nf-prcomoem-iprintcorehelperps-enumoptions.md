@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.EnumOptions
-title: IPrintCoreHelperPS::EnumOptions
+title: IPrintCoreHelperPS::EnumOptions (prcomoem.h)
 description: The IPrintCoreHelperPS::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelperps_enumoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperPS.EnumOptions
+- IPrintCoreHelperPS.EnumOptions
 product:
 - Windows
 targetos: Windows

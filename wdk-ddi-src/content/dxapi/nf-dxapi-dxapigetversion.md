@@ -1,6 +1,6 @@
 ---
 UID: NF:dxapi.DxApiGetVersion
-title: DxApiGetVersion function
+title: DxApiGetVersion function (dxapi.h)
 description: Do not use the DxApiGetVersion function; use the DxApi function along with the DD_DXAPI_GETVERSIONNUMBER function identifier instead.The DxApiGetVersion function returns a Direct Sound version number of 4.02.
 old-location: display\dxapigetversion.htm
 tech.root: display
@@ -26,15 +26,15 @@ req.lib: Dxapi.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Dxapi.lib
--	Dxapi.dll
+- Dxapi.lib
+- Dxapi.dll
 api_name:
--	DxApiGetVersion
+- DxApiGetVersion
 product:
 - Windows
 targetos: Windows

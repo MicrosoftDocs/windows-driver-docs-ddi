@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortCreateEvent
-title: VideoPortCreateEvent function
+title: VideoPortCreateEvent function (video.h)
 description: The VideoPortCreateEvent function creates an event object.
 old-location: display\videoportcreateevent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortCreateEvent
+- VideoPortCreateEvent
 product:
 - Windows
 targetos: Windows

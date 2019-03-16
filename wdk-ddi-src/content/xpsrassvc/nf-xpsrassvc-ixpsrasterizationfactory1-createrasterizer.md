@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizationFactory1.CreateRasterizer
-title: IXpsRasterizationFactory1::CreateRasterizer
+title: IXpsRasterizationFactory1::CreateRasterizer (xpsrassvc.h)
 description: The CreateRasterize method creates an XPS rasterizer object that can handle high precision colors.
 old-location: print\xpsrasterizationfactory1_createrasterizer1.htm
 tech.root: print
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXPSRasterizationFactory1.CreateRasterizer
+- IXPSRasterizationFactory1.CreateRasterizer
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

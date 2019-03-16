@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetLowerDeviceObject
-title: IoGetLowerDeviceObject function
+title: IoGetLowerDeviceObject function (ntifs.h)
 description: The IoGetLowerDeviceObject routine returns a pointer to the next-lower-level device object on the driver stack.
 old-location: ifsk\iogetlowerdeviceobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetLowerDeviceObject
+- IoGetLowerDeviceObject
 product:
 - Windows
 targetos: Windows

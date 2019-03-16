@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinInterface
-title: KsPinGetConnectedPinInterface function
+title: KsPinGetConnectedPinInterface function (ks.h)
 description: The KsPinGetConnectedPinInterface function queries the pin to which Pin is connected for a COM style interface.
 old-location: stream\kspingetconnectedpininterface.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetConnectedPinInterface
+- KsPinGetConnectedPinInterface
 product:
 - Windows
 targetos: Windows

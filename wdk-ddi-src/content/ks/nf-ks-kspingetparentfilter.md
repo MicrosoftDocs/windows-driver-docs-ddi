@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetParentFilter
-title: KsPinGetParentFilter function
+title: KsPinGetParentFilter function (ks.h)
 description: The KsPinGetParentFilter function returns the parent filter of Pin.
 old-location: stream\kspingetparentfilter.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetParentFilter
+- KsPinGetParentFilter
 product:
 - Windows
 targetos: Windows

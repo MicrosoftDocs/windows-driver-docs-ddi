@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHSTRING
-title: "_GETINFO_GLYPHSTRING"
+title: _GETINFO_GLYPHSTRING (printoem.h)
 description: The GETINFO_GLYPHSTRING structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphstring.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	GETINFO_GLYPHSTRING
+- GETINFO_GLYPHSTRING
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.SetCurrentThreadId
-title: IDebugSystemObjects4::SetCurrentThreadId
+title: IDebugSystemObjects4::SetCurrentThreadId (dbgeng.h)
 description: The SetCurrentThreadId method makes the specified thread the current thread.
 old-location: debugger\setcurrentthreadid.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.SetCurrentThreadId
--	IDebugSystemObjects2.SetCurrentThreadId
--	IDebugSystemObjects3.SetCurrentThreadId
--	IDebugSystemObjects4.SetCurrentThreadId
+- IDebugSystemObjects.SetCurrentThreadId
+- IDebugSystemObjects2.SetCurrentThreadId
+- IDebugSystemObjects3.SetCurrentThreadId
+- IDebugSystemObjects4.SetCurrentThreadId
 product:
 - Windows
 targetos: Windows

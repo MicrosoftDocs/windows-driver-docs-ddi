@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_AUTH_ALGORITHM
-title: "_WDI_AUTH_ALGORITHM"
+title: _WDI_AUTH_ALGORITHM (wditypes.h)
 description: The WDI_AUTH_ALGORITHM enumeration defines the authentication algorithm values.
 old-location: netvista\wdi_auth_algorithm.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_AUTH_ALGORITHM
+- WDI_AUTH_ALGORITHM
 product:
 - Windows
 targetos: Windows

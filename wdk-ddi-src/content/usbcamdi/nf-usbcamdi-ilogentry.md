@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.ILOGENTRY
-title: ILOGENTRY macro
+title: ILOGENTRY macro (usbcamdi.h)
 description: 
 ms.assetid: f8206e7e-4474-4cc4-83a8-4973369eab25
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	ILOGENTRY
+- ILOGENTRY
 product:
 -   Windows
 targetos: Windows

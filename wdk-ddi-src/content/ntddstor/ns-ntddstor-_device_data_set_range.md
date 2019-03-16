@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_RANGE
-title: "_DEVICE_DATA_SET_RANGE"
+title: _DEVICE_DATA_SET_RANGE (ntddstor.h)
 description: The DEVICE_DATA_SET_RANGE structure specifies a block of data set ranges for the attributes for a device.
 old-location: storage\device_data_set_range.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_DATA_SET_RANGE
+- DEVICE_DATA_SET_RANGE
 product:
 - Windows
 targetos: Windows

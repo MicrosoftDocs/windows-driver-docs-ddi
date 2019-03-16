@@ -1,6 +1,6 @@
 ---
 UID: NF:wdmsec.WdmlibIoValidateDeviceIoControlAccess
-title: WdmlibIoValidateDeviceIoControlAccess function
+title: WdmlibIoValidateDeviceIoControlAccess function (wdmsec.h)
 description: The WdmlibIoValidateDeviceIoControlAccess function verifies that the sender of an IRP_MJ_DEVICE_CONTROL or IRP_MJ_FILE_SYSTEM_CONTROL IRP has the specified access to the device object.
 old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibIoValidateDeviceIoControlAccess
--	IoValidateDeviceIoControlAccess
+- WdmlibIoValidateDeviceIoControlAccess
+- IoValidateDeviceIoControlAccess
 product:
 - Windows
 targetos: Windows

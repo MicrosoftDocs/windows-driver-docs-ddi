@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtDeleteHolder.Set
-title: ExtDeleteHolder::Set method
+title: ExtDeleteHolder::Set method (engextcpp.h)
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	COM
-apilocation:
--	engextcpp.hpp
-apiname:
--	ExtRemoteTyped.Set
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- engextcpp.hpp
+api_name:
+- ExtRemoteTyped.Set
 product:
 - Windows
 targetos: Windows

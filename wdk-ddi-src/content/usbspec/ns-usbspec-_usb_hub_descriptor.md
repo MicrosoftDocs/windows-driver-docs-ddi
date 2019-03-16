@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_HUB_DESCRIPTOR
-title: "_USB_HUB_DESCRIPTOR"
+title: _USB_HUB_DESCRIPTOR (usbspec.h)
 description: The USB_HUB_DESCRIPTOR structure contains a hub descriptor.
 old-location: buses\usb_hub_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_HUB_DESCRIPTOR
+- USB_HUB_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ req.typenames: USB_HUB_DESCRIPTOR, *PUSB_HUB_DESCRIPTOR
 
 
 The <b>USB_HUB_DESCRIPTOR</b> structure contains a hub descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 10.15.2.1.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 10.15.2.1.
 
 ## -struct-fields
 

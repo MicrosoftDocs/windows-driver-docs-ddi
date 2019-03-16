@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_GENERATE_FILE_NAME
-title: PFLT_GENERATE_FILE_NAME
+title: PFLT_GENERATE_FILE_NAME (fltkernel.h)
 description: A minifilter driver that provides file names for the filter manager's name cache can register a routine of type PFLT_GENERATE_FILE_NAME as the minifilter driver's GenerateFileNameCallback routine.
 old-location: ifsk\pflt_generate_file_name.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	GenerateFileNameCallback
+- GenerateFileNameCallback
 product:
 - Windows
 targetos: Windows

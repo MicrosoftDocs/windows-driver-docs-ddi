@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_COLORFILLFLAGS
-title: "_D3DDDI_COLORFILLFLAGS"
+title: _D3DDDI_COLORFILLFLAGS (d3dumddi.h)
 description: The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
 old-location: display\d3dddi_colorfillflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_COLORFILLFLAGS
+- D3DDDI_COLORFILLFLAGS
 product:
 - Windows
 targetos: Windows

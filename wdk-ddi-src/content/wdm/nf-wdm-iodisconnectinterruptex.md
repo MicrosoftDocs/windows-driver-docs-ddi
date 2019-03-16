@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoDisconnectInterruptEx
-title: IoDisconnectInterruptEx function
+title: IoDisconnectInterruptEx function (wdm.h)
 description: For more information, see the WdmlibIoDisconnectInterruptEx function.#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx
 old-location: kernel\iodisconnectinterruptex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib; Iointex.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDisconnectInterruptEx
--	WdmlibIoDisconnectInterruptEx
+- IoDisconnectInterruptEx
+- WdmlibIoDisconnectInterruptEx
 product:
 - Windows
 targetos: Windows

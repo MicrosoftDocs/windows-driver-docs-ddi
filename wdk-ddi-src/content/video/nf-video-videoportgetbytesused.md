@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetBytesUsed
-title: VideoPortGetBytesUsed function
+title: VideoPortGetBytesUsed function (video.h)
 description: The VideoPortGetBytesUsed function is obsolete in Windows 2000 and later.VideoPortGetBytesUsed determines the size, in bytes, of the buffer associated with a DMA handle.
 old-location: display\videoportgetbytesused.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetBytesUsed
+- VideoPortGetBytesUsed
 product:
 - Windows
 targetos: Windows

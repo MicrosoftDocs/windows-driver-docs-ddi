@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_RX_INDICATION_LEVEL
-title: "_WDI_RX_INDICATION_LEVEL"
+title: _WDI_RX_INDICATION_LEVEL (dot11wdi.h)
 description: The WDI_RX_INDICATION_LEVEL enumeration defines the RX indication levels.
 old-location: netvista\wdi_rx_indication_level.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_RX_INDICATION_LEVEL
+- WDI_RX_INDICATION_LEVEL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReferenceNetBufferList0
-title: FwpsReferenceNetBufferList0 function
+title: FwpsReferenceNetBufferList0 function (fwpsk.h)
 description: The FwpsReferenceNetBufferList0 function increments the reference count for a NET_BUFFER_LIST structure.Note  FwpsReferenceNetBufferList0 is a specific version of FwpsReferenceNetBufferList.
 old-location: netvista\fwpsreferencenetbufferlist0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsReferenceNetBufferList0
+- FwpsReferenceNetBufferList0
 product:
 - Windows
 targetos: Windows

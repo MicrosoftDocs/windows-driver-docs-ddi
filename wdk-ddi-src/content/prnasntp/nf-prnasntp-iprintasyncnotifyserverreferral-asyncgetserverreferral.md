@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
-title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
+title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotifyserverreferral_asyncgetserverreferral.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
+- IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
 product:
 - Windows
 targetos: Windows

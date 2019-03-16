@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
-title: tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET
+title: tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure contains the parameters for the Camera Angle Offset Control property.
 old-location: stream\kscamera_extendedprop_cameraoffset.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_CAMERAOFFSET
+- KSCAMERA_EXTENDEDPROP_CAMERAOFFSET
 product:
 - Windows
 targetos: Windows

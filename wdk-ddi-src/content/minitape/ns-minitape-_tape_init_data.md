@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_INIT_DATA
-title: "_TAPE_INIT_DATA"
+title: _TAPE_INIT_DATA (minitape.h)
 description: TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use TAPE_INIT_DATA_EX instead.
 old-location: storage\tape_init_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Minitape.h
+- Minitape.h
 api_name:
--	TAPE_INIT_DATA
+- TAPE_INIT_DATA
 product:
 - Windows
 targetos: Windows

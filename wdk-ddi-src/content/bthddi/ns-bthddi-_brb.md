@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB
-title: "_BRB"
+title: _BRB (bthddi.h)
 description: Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.
 old-location: bltooth\brb.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	BRB
+- BRB
 product:
 - Windows
 targetos: Windows
@@ -133,7 +133,7 @@ Defines the format for the commands that register and unregister a Protocol/Serv
 ### -field BrbL2caUpdateChannel
 
 Defines the format of a command that updates the settings of a L2CAP channel to a Bluetooth
-      device. For more information about updaing a L2CAP channel, see 
+      device. For more information about updating a L2CAP channel, see 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536864">_BRB_L2CA_UPDATE_CHANNEL</a>.
 
 

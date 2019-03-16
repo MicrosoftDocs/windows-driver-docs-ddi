@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_USAGE
-title: D3D11_1DDI_VIDEO_USAGE
+title: D3D11_1DDI_VIDEO_USAGE (d3d10umddi.h)
 description: Identifies how the decode device plays video.
 old-location: display\d3d11_1ddi_video_usage.htm
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_USAGE
+- D3D11_1DDI_VIDEO_USAGE
 product:
 - Windows
 targetos: Windows

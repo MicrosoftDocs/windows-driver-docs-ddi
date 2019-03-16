@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSINTERSECTHANDLEREX
-title: PFNKSINTERSECTHANDLEREX
+title: PFNKSINTERSECTHANDLEREX (ks.h)
 description: AVStream calls a minidriver's AVStrMiniIntersectHandlerEx routine to determine the highest quality intersection of two data ranges.
 old-location: stream\avstrminiintersecthandlerex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniIntersectHandlerEx
+- AVStrMiniIntersectHandlerEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADJUSTFULLSCREENGAMMA
-title: _D3DKMT_ADJUSTFULLSCREENGAMMA
+title: _D3DKMT_ADJUSTFULLSCREENGAMMA (d3dkmthk.h)
 description: Used to adjust full screen gamma.
 ms.assetid: 655472c6-a8d5-4b7e-a6cf-02253582d656
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ADJUSTFULLSCREENGAMMA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ADJUSTFULLSCREENGAMMA
+- _D3DKMT_ADJUSTFULLSCREENGAMMA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

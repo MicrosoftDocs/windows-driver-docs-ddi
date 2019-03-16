@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateErrorObject
-title: IDataModelManager::CreateErrorObject
+title: IDataModelManager::CreateErrorObject (dbgmodel.h)
 description: The CreateErrorObject method creates an "error object". The data model does not have the notion of exceptions and exception flow. 
 ms.assetid: a57fdf58-d8f5-4044-be00-5225670ec3ac
 ms.date: 07/17/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.CreateErrorObject
-product: Windows
+- IDataModelManager.CreateErrorObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

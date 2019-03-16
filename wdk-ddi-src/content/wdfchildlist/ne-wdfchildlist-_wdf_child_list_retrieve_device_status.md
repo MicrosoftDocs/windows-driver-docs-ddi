@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfchildlist._WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
-title: "_WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS"
+title: _WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS (wdfchildlist.h)
 description: The WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS enumeration defines device status values that the framework stores in a driver's WDF_CHILD_RETRIEVE_INFO structure.
 old-location: wdf\wdf_child_list_retrieve_device_status.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfchildlist.h
+- wdfchildlist.h
 api_name:
--	WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
+- WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS
 product:
 - Windows
 targetos: Windows

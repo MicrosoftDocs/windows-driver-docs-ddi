@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_READ
-title: "_FEATURE_DATA_DVD_READ"
+title: _FEATURE_DATA_DVD_READ (ntddmmc.h)
 description: The FEATURE_DATA_DVD_READ structure contains information about the DVD Read feature.
 old-location: storage\feature_data_dvd_read.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_DVD_READ
+- FEATURE_DATA_DVD_READ
 product:
 - Windows
 targetos: Windows

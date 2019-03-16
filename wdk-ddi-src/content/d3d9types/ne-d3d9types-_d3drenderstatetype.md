@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DRENDERSTATETYPE
-title: "_D3DRENDERSTATETYPE"
+title: _D3DRENDERSTATETYPE (d3d9types.h)
 description: The D3DRENDERSTATETYPE enumerated type lists a variety of attributes, or render states.
 old-location: display\d3drenderstatetype.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d9types.h
+- d3d9types.h
 api_name:
--	D3DRENDERSTATETYPE
+- D3DRENDERSTATETYPE
 product:
 - Windows
 targetos: Windows

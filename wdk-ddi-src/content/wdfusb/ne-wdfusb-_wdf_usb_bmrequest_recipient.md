@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_BMREQUEST_RECIPIENT
-title: "_WDF_USB_BMREQUEST_RECIPIENT"
+title: _WDF_USB_BMREQUEST_RECIPIENT (wdfusb.h)
 description: The WDF_USB_BMREQUEST_RECIPIENT enumeration identifies the data transfer recipient for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_recipient.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_BMREQUEST_RECIPIENT
+- WDF_USB_BMREQUEST_RECIPIENT
 product:
 - Windows
 targetos: Windows

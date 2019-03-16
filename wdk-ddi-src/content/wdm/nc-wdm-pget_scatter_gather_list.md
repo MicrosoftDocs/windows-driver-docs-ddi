@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PGET_SCATTER_GATHER_LIST
-title: PGET_SCATTER_GATHER_LIST
+title: PGET_SCATTER_GATHER_LIST (wdm.h)
 description: The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter.
 old-location: kernel\getscattergatherlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	GetScatterGatherList
+- GetScatterGatherList
 product:
 - Windows
 targetos: Windows

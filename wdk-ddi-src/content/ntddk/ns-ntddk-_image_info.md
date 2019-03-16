@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._IMAGE_INFO
-title: "_IMAGE_INFO"
+title: _IMAGE_INFO (ntddk.h)
 description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information.
 old-location: kernel\image_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	IMAGE_INFO
+- IMAGE_INFO
 product:
 - Windows
 targetos: Windows

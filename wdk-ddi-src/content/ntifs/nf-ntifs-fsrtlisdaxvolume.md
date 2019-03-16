@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsDaxVolume
-title: FsRtlIsDaxVolume function
+title: FsRtlIsDaxVolume function (ntifs.h)
 description: This routine queries if the specified file is on a direct access (DAX) volume.
 old-location: ifsk\fsrtlisdaxvolume.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsDaxVolume
+- FsRtlIsDaxVolume
 product:
 - Windows
 targetos: Windows

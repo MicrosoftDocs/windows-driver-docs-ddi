@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_MEMORY_PARTITION_INFORMATION
-title: "_FILE_MEMORY_PARTITION_INFORMATION"
+title: _FILE_MEMORY_PARTITION_INFORMATION (wdm.h)
 description: Stores information about memory partition. This structure is used by the ZwSetInformationFile function.
 old-location: ifsk\_file_memory_partition_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FILE_MEMORY_PARTITION_INFORMATION
+- FILE_MEMORY_PARTITION_INFORMATION
 product:
 - Windows
 targetos: Windows

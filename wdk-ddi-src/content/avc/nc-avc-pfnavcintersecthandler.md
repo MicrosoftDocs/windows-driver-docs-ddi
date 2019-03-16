@@ -1,6 +1,6 @@
 ---
 UID: NC:avc.PFNAVCINTERSECTHANDLER
-title: PFNAVCINTERSECTHANDLER
+title: PFNAVCINTERSECTHANDLER (avc.h)
 description: The AV/C intersect handler determines if the data ranges are compatible.
 old-location: stream\av_c_intersect_handler.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	avc.h
+- avc.h
 api_name:
--	PFNAVCINTERSECTHANDLER
+- PFNAVCINTERSECTHANDLER
 product:
 - Windows
 targetos: Windows

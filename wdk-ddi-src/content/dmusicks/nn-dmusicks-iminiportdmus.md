@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusicks.IMiniportDMus
-title: IMiniportDMus
+title: IMiniportDMus (dmusicks.h)
 description: The IMiniportDMus interface is the primary interface for a DMus miniport driver for a DirectMusic synthesizer device.
 old-location: audio\iminiportdmus.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IMiniportDMus
+- IMiniportDMus
 product:
 - Windows
 targetos: Windows

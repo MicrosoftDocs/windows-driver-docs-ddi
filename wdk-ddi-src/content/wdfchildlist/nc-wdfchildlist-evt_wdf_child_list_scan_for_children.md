@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
-title: EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN
+title: EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN (wdfchildlist.h)
 description: A driver's EvtChildListScanForChildren event callback function must report all of the child devices that are present.
 old-location: wdf\evtchildlistscanforchildren.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfChildlist.h
+- WdfChildlist.h
 api_name:
--	EvtChildListScanForChildren
+- EvtChildListScanForChildren
 product:
 - Windows
 targetos: Windows

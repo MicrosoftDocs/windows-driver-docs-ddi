@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_TRANSFER_INFO
-title: PGET_DMA_TRANSFER_INFO
+title: PGET_DMA_TRANSFER_INFO (wdm.h)
 description: The GetDmaTransferInfo routine calculates the allocation requirements for a scatter/gather DMA transfer.
 old-location: kernel\getdmatransferinfo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetDmaTransferInfo
+- GetDmaTransferInfo
 product:
 - Windows
 targetos: Windows

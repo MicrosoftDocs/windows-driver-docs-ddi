@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmAssignPowerFrameworkSettings
-title: WdfDeviceWdmAssignPowerFrameworkSettings function
+title: WdfDeviceWdmAssignPowerFrameworkSettings function (wdfdevice.h)
 description: The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceWdmAssignPowerFrameworkSettings
+- WdfDeviceWdmAssignPowerFrameworkSettings
 product:
 - Windows
 targetos: Windows

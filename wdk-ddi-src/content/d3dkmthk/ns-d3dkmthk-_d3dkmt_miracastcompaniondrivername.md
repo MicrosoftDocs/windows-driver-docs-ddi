@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MIRACASTCOMPANIONDRIVERNAME
-title: _D3DKMT_MIRACASTCOMPANIONDRIVERNAME
+title: _D3DKMT_MIRACASTCOMPANIONDRIVERNAME (d3dkmthk.h)
 description: The name of the Miracast (wireless display) companion driver.
 ms.assetid: 2b1f8967-a5f9-4d21-9a72-bec52b5f7c12
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MIRACASTCOMPANIONDRIVERNAME
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MIRACASTCOMPANIONDRIVERNAME
+- _D3DKMT_MIRACASTCOMPANIONDRIVERNAME
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

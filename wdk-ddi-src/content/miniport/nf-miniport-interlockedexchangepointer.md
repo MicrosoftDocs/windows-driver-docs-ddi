@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.InterlockedExchangePointer
-title: InterlockedExchangePointer function
+title: InterlockedExchangePointer function (miniport.h)
 description: The InterlockedExchangePointer routine performs an atomic operation that sets a pointer to a new value.
 old-location: kernel\interlockedexchangepointer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	InterlockedExchangePointer
+- InterlockedExchangePointer
 product:
 - Windows
 targetos: Windows

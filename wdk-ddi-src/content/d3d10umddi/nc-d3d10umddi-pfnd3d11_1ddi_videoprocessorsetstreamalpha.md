@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA (d3d10umddi.h)
 description: Sets the planar alpha for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamalpha.htm
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamAlpha
+- pfnVideoProcessorSetStreamAlpha
 product:
 - Windows
 targetos: Windows

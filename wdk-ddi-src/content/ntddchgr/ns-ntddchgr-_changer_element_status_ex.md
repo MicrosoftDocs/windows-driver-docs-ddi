@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT_STATUS_EX
-title: "_CHANGER_ELEMENT_STATUS_EX"
+title: _CHANGER_ELEMENT_STATUS_EX (ntddchgr.h)
 description: The ChangerGetElementStatus routine returns status information in this structure.
 old-location: storage\changer_element_status_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_ELEMENT_STATUS_EX
+- CHANGER_ELEMENT_STATUS_EX
 product:
 - Windows
 targetos: Windows

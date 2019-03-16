@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._SEARCHMEMORY
-title: "_SEARCHMEMORY"
+title: _SEARCHMEMORY (wdbgexts.h)
 description: The SearchMemory function searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchmemory.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	SearchMemory
+- SearchMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceInterfaces
-title: IoGetDeviceInterfaces function
+title: IoGetDeviceInterfaces function (wdm.h)
 description: The IoGetDeviceInterfaces routine returns a list of device interface instances of a particular device interface class (such as all devices on the system that support a HID interface).
 old-location: kernel\iogetdeviceinterfaces.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDeviceInterfaces
+- IoGetDeviceInterfaces
 product:
 - Windows
 targetos: Windows

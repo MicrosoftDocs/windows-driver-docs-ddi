@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SHARED_ENDPOINT_DISPATCH
-title: "_NDK_SHARED_ENDPOINT_DISPATCH"
+title: _NDK_SHARED_ENDPOINT_DISPATCH (ndkpi.h)
 description: The NDK_SHARED_ENDPOINT_DISPATCH structure specifies dispatch function entry points for the NDK shared endpoint object.
 old-location: netvista\ndk_shared_endpoint_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_SHARED_ENDPOINT_DISPATCH
+- NDK_SHARED_ENDPOINT_DISPATCH
 product:
 - Windows
 targetos: Windows

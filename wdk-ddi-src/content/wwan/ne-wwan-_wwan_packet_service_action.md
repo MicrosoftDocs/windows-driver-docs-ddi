@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_ACTION
-title: "_WWAN_PACKET_SERVICE_ACTION"
+title: _WWAN_PACKET_SERVICE_ACTION (wwan.h)
 description: The WWAN_PACKET_SERVICE_ACTION enumeration lists different packet service actions.
 old-location: netvista\wwan_packet_service_action.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PACKET_SERVICE_ACTION
+- WWAN_PACKET_SERVICE_ACTION
 product:
 - Windows
 targetos: Windows

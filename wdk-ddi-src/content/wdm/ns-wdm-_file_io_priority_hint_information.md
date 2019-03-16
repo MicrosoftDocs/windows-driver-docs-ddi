@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_IO_PRIORITY_HINT_INFORMATION
-title: "_FILE_IO_PRIORITY_HINT_INFORMATION"
+title: _FILE_IO_PRIORITY_HINT_INFORMATION (wdm.h)
 description: The FILE_IO_PRIORITY_HINT_INFORMATION structure is used by the ZwQueryInformationFile and ZwSetInformationFile routines to query and set the default IRP priority hint for requests on the specified file handle.
 old-location: kernel\file_io_priority_hint_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FILE_IO_PRIORITY_HINT_INFORMATION
+- FILE_IO_PRIORITY_HINT_INFORMATION
 product:
 - Windows
 targetos: Windows

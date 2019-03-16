@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyHresult2
-title: wiauDbgLegacyHresult2 function
+title: wiauDbgLegacyHresult2 function (wiautil.h)
 description: The wiauDbgLegacyHresult2 function logs a default message containing an HRESULT.
 old-location: image\wiaudbglegacyhresult2.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauDbgLegacyHresult2
+- wiauDbgLegacyHresult2
 product:
 - Windows
 targetos: Windows

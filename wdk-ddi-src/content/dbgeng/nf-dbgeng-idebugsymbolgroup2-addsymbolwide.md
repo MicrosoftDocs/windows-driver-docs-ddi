@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.AddSymbolWide
-title: IDebugSymbolGroup2::AddSymbolWide
+title: IDebugSymbolGroup2::AddSymbolWide (dbgeng.h)
 description: The AddSymbolWide method adds a symbol to a symbol group.
 old-location: debugger\addsymbolwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbolGroup2.AddSymbolWide
+- IDebugSymbolGroup2.AddSymbolWide
 product:
 - Windows
 targetos: Windows

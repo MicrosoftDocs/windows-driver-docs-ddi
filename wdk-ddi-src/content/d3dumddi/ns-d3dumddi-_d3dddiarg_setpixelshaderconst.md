@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETPIXELSHADERCONST
-title: "_D3DDDIARG_SETPIXELSHADERCONST"
+title: _D3DDDIARG_SETPIXELSHADERCONST (d3dumddi.h)
 description: The D3DDDIARG_SETPIXELSHADERCONST structure describes how to set the pixel shader constant registers.
 old-location: display\d3dddiarg_setpixelshaderconst.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETPIXELSHADERCONST
+- D3DDDIARG_SETPIXELSHADERCONST
 product:
 - Windows
 targetos: Windows

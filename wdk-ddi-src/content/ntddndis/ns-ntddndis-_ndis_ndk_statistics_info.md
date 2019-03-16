@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_STATISTICS_INFO
-title: "_NDIS_NDK_STATISTICS_INFO"
+title: _NDIS_NDK_STATISTICS_INFO (ntddndis.h)
 description: The NDIS_NDK_STATISTICS_INFO structure contains the NDK statistics.
 old-location: netvista\ndis_ndk_statistics_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_NDK_STATISTICS_INFO
+- NDIS_NDK_STATISTICS_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:midatlax.RxDestroyMidAtlas
-title: RxDestroyMidAtlas function
+title: RxDestroyMidAtlas function (midatlax.h)
 description: RxDestroyMidAtlas destroys an existing instance of a MID_ATLAS data structure and frees the allocated memory.
 old-location: ifsk\rxdestroymidatlas.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	midatlax.h
+- midatlax.h
 api_name:
--	RxDestroyMidAtlas
+- RxDestroyMidAtlas
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltPurgeFileNameInformationCache
-title: FltPurgeFileNameInformationCache function
+title: FltPurgeFileNameInformationCache function (fltkernel.h)
 description: FltPurgeFileNameInformationCache purges from the Filter Manager's name cache all file name information structures that were generated from names provided by the given minifilter driver instance.
 old-location: ifsk\fltpurgefilenameinformationcache.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltPurgeFileNameInformationCache
+- FltPurgeFileNameInformationCache
 product:
 - Windows
 targetos: Windows

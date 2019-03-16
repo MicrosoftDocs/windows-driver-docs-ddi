@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTargetStateManagement
-title: IWDFIoTargetStateManagement
+title: IWDFIoTargetStateManagement (wudfddi.h)
 description: The IWDFIoTargetStateManagement interface exposes methods that manage and monitor the state of an I/O target object.
 old-location: wdf\iwdfiotargetstatemanagement.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTargetStateManagement
+- IWDFIoTargetStateManagement
 product:
 - Windows
 targetos: Windows

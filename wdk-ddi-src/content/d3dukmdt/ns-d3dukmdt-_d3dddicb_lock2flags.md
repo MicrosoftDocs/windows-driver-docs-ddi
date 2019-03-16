@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_LOCK2FLAGS
-title: "_D3DDDICB_LOCK2FLAGS"
+title: _D3DDDICB_LOCK2FLAGS (d3dukmdt.h)
 description: D3DDDICB_LOCK2FLAGS is used by the Lock2 kernel function to determine how an allocation is locked.
 old-location: display\d3dddicb_lock2flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDICB_LOCK2FLAGS
+- D3DDDICB_LOCK2FLAGS
 product:
 - Windows
 targetos: Windows

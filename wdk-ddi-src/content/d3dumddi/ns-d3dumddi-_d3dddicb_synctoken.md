@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SYNCTOKEN
-title: _D3DDDICB_SYNCTOKEN
+title: _D3DDDICB_SYNCTOKEN (d3dumddi.h)
 description: Arguments used to create a sync token.
 ms.assetid: a2e0a873-4d80-4230-8486-bca477b4aa1c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_SYNCTOKEN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDICB_SYNCTOKEN
+- _D3DDDICB_SYNCTOKEN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

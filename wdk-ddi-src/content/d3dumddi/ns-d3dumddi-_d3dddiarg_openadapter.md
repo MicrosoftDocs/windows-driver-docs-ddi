@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_OPENADAPTER
-title: "_D3DDDIARG_OPENADAPTER"
+title: _D3DDDIARG_OPENADAPTER (d3dumddi.h)
 description: The D3DDDIARG_OPENADAPTER structure contains information that describes the graphics adapter object.
 old-location: display\d3dddiarg_openadapter.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_OPENADAPTER
+- D3DDDIARG_OPENADAPTER
 product:
 - Windows
 targetos: Windows

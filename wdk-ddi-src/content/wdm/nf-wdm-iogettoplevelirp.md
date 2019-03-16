@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetTopLevelIrp
-title: IoGetTopLevelIrp function
+title: IoGetTopLevelIrp function (wdm.h)
 description: The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iogettoplevelirp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetTopLevelIrp
+- IoGetTopLevelIrp
 product:
 - Windows
 targetos: Windows

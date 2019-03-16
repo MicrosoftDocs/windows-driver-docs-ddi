@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATAFORMAT_DV_AVC
-title: tagKS_DATAFORMAT_DV_AVC
+title: tagKS_DATAFORMAT_DV_AVC (avcstrm.h)
 description: The KS_DATAFORMAT_DV_AVC structure stores the data format for an AV/C digital video connection.
 old-location: stream\ks_dataformat_dv_avc.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	KS_DATAFORMAT_DV_AVC
+- KS_DATAFORMAT_DV_AVC
 product:
 - Windows
 targetos: Windows

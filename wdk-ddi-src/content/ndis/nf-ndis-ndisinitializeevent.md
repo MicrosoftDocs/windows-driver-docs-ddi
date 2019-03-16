@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeEvent
-title: NdisInitializeEvent function
+title: NdisInitializeEvent function (ndis.h)
 description: The NdisInitializeEvent function sets up an event object during driver initialization to be used subsequently as a synchronization mechanism.
 old-location: netvista\ndisinitializeevent.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisInitializeEvent
+- NdisInitializeEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmCommitEnlistment
-title: TmCommitEnlistment function
+title: TmCommitEnlistment function (wdm.h)
 description: The TmCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\tmcommitenlistment.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmCommitEnlistment
+- TmCommitEnlistment
 product:
 - Windows
 targetos: Windows

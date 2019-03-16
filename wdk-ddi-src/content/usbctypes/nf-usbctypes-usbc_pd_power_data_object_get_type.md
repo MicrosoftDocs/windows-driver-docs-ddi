@@ -1,6 +1,6 @@
 ---
 UID: NF:usbctypes.USBC_PD_POWER_DATA_OBJECT_GET_TYPE
-title: USBC_PD_POWER_DATA_OBJECT_GET_TYPE function
+title: USBC_PD_POWER_DATA_OBJECT_GET_TYPE function (usbctypes.h)
 description: Retrieves the type of Power Data Object (PDO).
 ms.assetid: 5953ae1b-9880-4200-bc7a-3666396fb4d5
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	USBC_PD_POWER_DATA_OBJECT_GET_TYPE
-product: Windows
+- USBC_PD_POWER_DATA_OBJECT_GET_TYPE
+product:
+- Windows
 targetos: Windows
 
 

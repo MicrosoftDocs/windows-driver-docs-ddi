@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetResolution
-title: IKsReferenceClock::GetResolution
+title: IKsReferenceClock::GetResolution (ks.h)
 description: The IKsReferenceClock::GetResolution method queries the associated reference clock for its resolution.
 old-location: stream\iksreferenceclock_getresolution.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetResolution
+- IKsReferenceClock.GetResolution
 product:
 - Windows
 targetos: Windows

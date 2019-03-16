@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestWdmGetNdisOidRequest
-title: NetRequestWdmGetNdisOidRequest function
+title: NetRequestWdmGetNdisOidRequest function (netrequest.h)
 description: Retrieves the traditional WDM NDIS_OID_REQUEST structure for the NETREQUEST.
 tech.root: netvista
 ms.assetid: 12b97789-3b90-475a-ac7c-cb4a08e9dea3
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestWdmGetNdisOidRequest
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestWdmGetNdisOidRequest
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

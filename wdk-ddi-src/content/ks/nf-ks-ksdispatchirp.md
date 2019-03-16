@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchIrp
-title: KsDispatchIrp function
+title: KsDispatchIrp function (ks.h)
 description: KsDispatchIrp calls a dispatch routine corresponding to the function code of the specified IRP. KsDispatchIrp then returns the status code from this call.
 old-location: stream\ksdispatchirp.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDispatchIrp
+- KsDispatchIrp
 product:
 - Windows
 targetos: Windows

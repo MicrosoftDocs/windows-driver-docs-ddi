@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCUMENTPROPERTYHEADER
-title: "_DOCUMENTPROPERTYHEADER"
+title: _DOCUMENTPROPERTYHEADER (winddiui.h)
 description: The DOCUMENTPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDocumentPropertySheets function.
 old-location: print\documentpropertyheader.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DOCUMENTPROPERTYHEADER
+- DOCUMENTPROPERTYHEADER
 product:
 - Windows
 targetos: Windows

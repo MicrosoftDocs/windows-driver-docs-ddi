@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._ENG_EVENT
-title: "_ENG_EVENT"
+title: _ENG_EVENT (ntddvdeo.h)
 description: The ENG_EVENT structure is reserved for system use.
 old-location: display\eng_event.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	ENG_EVENT
+- ENG_EVENT
 product:
 - Windows
 targetos: Windows

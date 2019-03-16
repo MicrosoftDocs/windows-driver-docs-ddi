@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
-title: IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
+title: IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx (wudfddi.h)
 description: A driver's OnArmWakeFromSx event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state.
 old-location: wdf\ipowerpolicycallbackwakefromsx_onarmwakefromsx.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
+- IPowerPolicyCallbackWakeFromSx.OnArmWakeFromSx
 product:
 - Windows
 targetos: Windows

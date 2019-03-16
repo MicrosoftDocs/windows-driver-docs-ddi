@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveTarget_IN
-title: "_RemoveTarget_IN"
+title: _RemoveTarget_IN (hbapiwmi.h)
 description: The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the RemoveTarget WMI method.
 old-location: storage\removetarget_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	RemoveTarget_IN
+- RemoveTarget_IN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.SeSinglePrivilegeCheck
-title: SeSinglePrivilegeCheck function
+title: SeSinglePrivilegeCheck function (ntddk.h)
 description: The SeSinglePrivilegeCheck routine checks for the passed privilege value in the context of the current thread.
 old-location: kernel\sesingleprivilegecheck.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeSinglePrivilegeCheck
+- SeSinglePrivilegeCheck
 product:
 - Windows
 targetos: Windows

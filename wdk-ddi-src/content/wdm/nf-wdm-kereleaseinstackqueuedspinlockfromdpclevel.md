@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInStackQueuedSpinLockFromDpcLevel
-title: KeReleaseInStackQueuedSpinLockFromDpcLevel function
+title: KeReleaseInStackQueuedSpinLockFromDpcLevel function (wdm.h)
 description: The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLockAtDpcLevel.
 old-location: kernel\kereleaseinstackqueuedspinlockfromdpclevel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeReleaseInStackQueuedSpinLockFromDpcLevel
+- KeReleaseInStackQueuedSpinLockFromDpcLevel
 product:
 - Windows
 targetos: Windows

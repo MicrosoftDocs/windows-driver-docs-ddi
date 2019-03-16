@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
-title: _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
+title: _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER (ntddk.h)
 description: The FPB Vector Access Control Register. See section 7.y.8.
 tech.root: pci 
 ms.assetid: 18203808-fb82-474e-8471-ab492914c0db
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, *PPCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
-product: Windows
+- _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

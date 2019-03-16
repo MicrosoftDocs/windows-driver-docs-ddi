@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoProcessCaps
-title: "_DXVA_VideoProcessCaps"
+title: _DXVA_VideoProcessCaps (dxva.h)
 description: The DXVA_VideoProcessCaps enumeration identifies operations that can be performed concurrently with the requested deinterlace.
 old-location: display\dxva_videoprocesscaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_VideoProcessCaps
+- DXVA_VideoProcessCaps
 product:
 - Windows
 targetos: Windows

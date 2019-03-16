@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_ON_ATTACH
-title: "_USBFN_ON_ATTACH"
+title: _USBFN_ON_ATTACH (usbfnattach.h)
 description: Describes the detected port type and attach action.
 old-location: buses\usbfn_on_attach.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	USBFN_ON_ATTACH
+- USBFN_ON_ATTACH
 product:
 - Windows
 targetos: Windows

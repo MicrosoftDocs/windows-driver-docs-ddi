@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeIrp
-title: IoInitializeIrp function
+title: IoInitializeIrp function (wdm.h)
 description: The IoInitializeIrp routine initializes a given IRP that was allocated by the caller.
 old-location: kernel\ioinitializeirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInitializeIrp
+- IoInitializeIrp
 product:
 - Windows
 targetos: Windows

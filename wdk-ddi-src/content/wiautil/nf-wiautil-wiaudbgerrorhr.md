@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgErrorHr
-title: wiauDbgErrorHr function
+title: wiauDbgErrorHr function (wiautil.h)
 description: The wiauDbgErrorHr function logs a message containing an HRESULT and its error message string.
 old-location: image\wiaudbgerrorhr.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgErrorHr
+- wiauDbgErrorHr
 product:
 - Windows
 targetos: Windows

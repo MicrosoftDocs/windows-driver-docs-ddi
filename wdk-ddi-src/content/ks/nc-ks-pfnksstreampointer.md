@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSSTREAMPOINTER
-title: PFNKSSTREAMPOINTER
+title: PFNKSSTREAMPOINTER (ks.h)
 description: AVStream calls a minidriver's AVStrMiniCancelCallback routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional.
 old-location: stream\avstrminicancelcallback.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniCancelCallback
+- AVStrMiniCancelCallback
 product:
 - Windows
 targetos: Windows

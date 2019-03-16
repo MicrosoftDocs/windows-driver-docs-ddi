@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFO
-title: tagKS_VIDEOINFO
+title: tagKS_VIDEOINFO (ksmedia.h)
 description: The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_VIDEOINFO
+- KS_VIDEOINFO
 product:
 - Windows
 targetos: Windows

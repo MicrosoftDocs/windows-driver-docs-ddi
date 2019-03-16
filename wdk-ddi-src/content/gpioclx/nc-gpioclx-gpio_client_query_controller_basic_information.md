@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
-title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
+title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION (gpioclx.h)
 description: The CLIENT_QueryControllerBasicInformation event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_querycontrollerbasicinformation.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_QueryControllerBasicInformation
+- CLIENT_QueryControllerBasicInformation
 product:
 - Windows
 targetos: Windows

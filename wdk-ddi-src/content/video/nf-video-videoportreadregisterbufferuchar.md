@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterBufferUchar
-title: VideoPortReadRegisterBufferUchar function
+title: VideoPortReadRegisterBufferUchar function (video.h)
 description: The VideoPortReadRegisterBufferUchar function reads a number of bytes from a mapped device memory range and writes them into a buffer.
 old-location: display\videoportreadregisterbufferuchar.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadRegisterBufferUchar
+- VideoPortReadRegisterBufferUchar
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetStaticStopRemove
-title: WdfDeviceSetStaticStopRemove function
+title: WdfDeviceSetStaticStopRemove function (wdfdevice.h)
 description: The WdfDeviceSetStaticStopRemove method informs the framework whether a device can be stopped and removed.
 old-location: wdf\wdfdevicesetstaticstopremove.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceSetStaticStopRemove
+- WdfDeviceSetStaticStopRemove
 product:
 - Windows
 targetos: Windows

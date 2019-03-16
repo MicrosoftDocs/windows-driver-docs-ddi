@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxclass.UcxInitializeDeviceInit
-title: UcxInitializeDeviceInit function
+title: UcxInitializeDeviceInit function (ucxclass.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\_ucxinitializedeviceinit.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxclass.h
+- ucxclass.h
 api_name:
--	UcxInitializeDeviceInit
+- UcxInitializeDeviceInit
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENRESOURCEFROMNTHANDLE
-title: PFND3DKMT_OPENRESOURCEFROMNTHANDLE
+title: PFND3DKMT_OPENRESOURCEFROMNTHANDLE (d3dkmthk.h)
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMTOpenResourceFromNtHandle
+- D3DKMTOpenResourceFromNtHandle
 product:
 - Windows
 targetos: Windows

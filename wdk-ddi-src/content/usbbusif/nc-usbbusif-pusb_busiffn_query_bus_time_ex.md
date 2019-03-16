@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME_EX
-title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX
+title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX (usbbusif.h)
 description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.
 old-location: buses\querybustimeex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< = DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	QueryBusTimeEx
+- QueryBusTimeEx
 product:
 - Windows
 targetos: Windows

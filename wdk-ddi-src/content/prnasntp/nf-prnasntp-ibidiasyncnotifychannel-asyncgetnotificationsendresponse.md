@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
-title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
+title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
+- IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
 product:
 - Windows
 targetos: Windows

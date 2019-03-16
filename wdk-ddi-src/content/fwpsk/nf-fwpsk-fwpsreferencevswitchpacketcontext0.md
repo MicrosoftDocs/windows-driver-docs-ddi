@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReferencevSwitchPacketContext0
-title: FwpsReferencevSwitchPacketContext0 function
+title: FwpsReferencevSwitchPacketContext0 function (fwpsk.h)
 description: This function is not supported.
 old-location: netvista\fwpsreferencevswitchpacketcontext0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsReferencevSwitchPacketContext0
+- FwpsReferencevSwitchPacketContext0
 product:
 - Windows
 targetos: Windows

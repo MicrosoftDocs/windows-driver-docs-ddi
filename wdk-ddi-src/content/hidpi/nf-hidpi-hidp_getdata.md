@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetData
-title: HidP_GetData function
+title: HidP_GetData function (hidpi.h)
 description: The HidP_GetData routine returns, for a specified report, an array of HIDP_DATA structures that identify the data indices of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values.
 old-location: hid\hidp_getdata.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetData
+- HidP_GetData
 product:
 - Windows
 targetos: Windows

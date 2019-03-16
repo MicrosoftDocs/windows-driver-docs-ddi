@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_QUERY_WAITERS_ROUTINE
-title: PPARALLEL_QUERY_WAITERS_ROUTINE
+title: PPARALLEL_QUERY_WAITERS_ROUTINE (parallel.h)
 description: The PPARALLEL_QUERY_WAITERS_ROUTINE-typed callback routine returns the number of IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE and IOCTL_INTERNAL_SELECT_DEVICE requests that are queued on the work queue of a parallel port.
 old-location: parports\pparallel_query_waiters_routine.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	(*PPARALLEL_QUERY_WAITERS_ROUTINE)
+- (*PPARALLEL_QUERY_WAITERS_ROUTINE)
 product:
 - Windows
 targetos: Windows

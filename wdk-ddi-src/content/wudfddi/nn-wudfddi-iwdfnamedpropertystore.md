@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFNamedPropertyStore
-title: IWDFNamedPropertyStore
+title: IWDFNamedPropertyStore (wudfddi.h)
 description: The IWDFNamedPropertyStore interface exposes a property-store object.
 old-location: wdf\iwdfnamedpropertystore.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore
+- IWDFNamedPropertyStore
 product:
 - Windows
 targetos: Windows

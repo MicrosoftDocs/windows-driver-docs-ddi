@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._PANEL_GET_BACKLIGHT_REDUCTION
-title: _PANEL_GET_BACKLIGHT_REDUCTION
+title: _PANEL_GET_BACKLIGHT_REDUCTION (ntddvdeo.h)
 description: Gets the level of optimization used to control the brightness of a panel.
 tech.root: display
 ms.assetid: b8f0ee27-16bc-4666-8055-acdad9c57a47
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_GET_BACKLIGHT_REDUCTION
+- _PANEL_GET_BACKLIGHT_REDUCTION
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

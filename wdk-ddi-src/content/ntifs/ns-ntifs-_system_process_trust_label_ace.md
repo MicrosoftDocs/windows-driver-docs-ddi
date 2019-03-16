@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_PROCESS_TRUST_LABEL_ACE
-title: "_SYSTEM_PROCESS_TRUST_LABEL_ACE"
+title: _SYSTEM_PROCESS_TRUST_LABEL_ACE (ntifs.h)
 description: Reserved.
 old-location: ifsk\system_process_trust_label_ace.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	SYSTEM_PROCESS_TRUST_LABEL_ACE
+- SYSTEM_PROCESS_TRUST_LABEL_ACE
 product:
 - Windows
 targetos: Windows

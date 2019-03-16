@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.QueryInterface
-title: IDataModelScriptDebugVariableSetEnumerator::QueryInterface
+title: IDataModelScriptDebugVariableSetEnumerator::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: a5344740-740f-4417-9cd1-9b08fdde45d8
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugVariableSetEnumerator.QueryInterface
-product: Windows
+- IDataModelScriptDebugVariableSetEnumerator.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

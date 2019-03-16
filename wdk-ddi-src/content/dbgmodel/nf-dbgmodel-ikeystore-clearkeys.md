@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.ClearKeys
-title: IKeyStore::ClearKeys
+title: IKeyStore::ClearKeys (dbgmodel.h)
 description: The ClearKeys method is analogous to the ClearKeys method on IModelObject. 
 ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyStore.ClearKeys
-product: Windows
+- IKeyStore.ClearKeys
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

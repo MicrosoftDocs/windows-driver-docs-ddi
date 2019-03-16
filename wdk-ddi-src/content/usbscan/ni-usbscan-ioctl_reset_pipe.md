@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_RESET_PIPE
-title: IOCTL_RESET_PIPE
+title: IOCTL_RESET_PIPE (usbscan.h)
 description: Resets the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_reset_pipe.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_RESET_PIPE
+- IOCTL_RESET_PIPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_PROCESS_UI_RESPONSE
-title: DOT11EXTIHV_PROCESS_UI_RESPONSE
+title: DOT11EXTIHV_PROCESS_UI_RESPONSE (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvprocessuiresponse.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtIhvProcessUIResponse
+- Dot11ExtIhvProcessUIResponse
 product:
 - Windows
 targetos: Windows

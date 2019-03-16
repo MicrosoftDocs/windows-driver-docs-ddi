@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoIsWdmVersionAvailable
-title: IoIsWdmVersionAvailable function
+title: IoIsWdmVersionAvailable function (wdm.h)
 description: The IoIsWdmVersionAvailable routine checks whether a given WDM version is supported by the operating system.
 old-location: kernel\ioiswdmversionavailable.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoIsWdmVersionAvailable
+- IoIsWdmVersionAvailable
 product:
 - Windows
 targetos: Windows

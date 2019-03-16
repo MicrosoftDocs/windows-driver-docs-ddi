@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_REGISTER_DEBUGGER
-title: "_PEP_REGISTER_DEBUGGER"
+title: _PEP_REGISTER_DEBUGGER (pep_x.h)
 description: The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport.
 old-location: kernel\pep_register_debugger.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_REGISTER_DEBUGGER
+- PEP_REGISTER_DEBUGGER
 product:
 - Windows
 targetos: Windows

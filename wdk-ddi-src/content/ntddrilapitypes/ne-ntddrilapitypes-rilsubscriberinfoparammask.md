@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBSCRIBERINFOPARAMMASK
-title: RILSUBSCRIBERINFOPARAMMASK
+title: RILSUBSCRIBERINFOPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILSUBSCRIBERINFOPARAMMASK.
 old-location: netvista\rilsubscriberinfoparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSUBSCRIBERINFOPARAMMASK
+- RILSUBSCRIBERINFOPARAMMASK
 product:
 - Windows
 targetos: Windows

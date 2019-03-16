@@ -1,6 +1,6 @@
 ---
 UID: NE:urstypes._URS_ROLE
-title: "_URS_ROLE"
+title: _URS_ROLE (urstypes.h)
 description: Defines values for roles supported by a USB dual-role controller.
 old-location: buses\urs_role.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Urstypes.h
+- Urstypes.h
 api_name:
--	URS_ROLE, *PURS_ROLE
+- URS_ROLE, *PURS_ROLE
 product:
 - Windows
 targetos: Windows

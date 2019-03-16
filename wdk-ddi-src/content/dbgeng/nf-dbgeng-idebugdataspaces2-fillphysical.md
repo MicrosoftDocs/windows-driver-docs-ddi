@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.FillPhysical
-title: IDebugDataSpaces2::FillPhysical
+title: IDebugDataSpaces2::FillPhysical (dbgeng.h)
 description: The FillPhysical method writes a pattern of bytes to the target's physical memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillphysical.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces2.FillPhysical
--	IDebugDataSpaces3.FillPhysical
--	IDebugDataSpaces4.FillPhysical
+- IDebugDataSpaces2.FillPhysical
+- IDebugDataSpaces3.FillPhysical
+- IDebugDataSpaces4.FillPhysical
 product:
 - Windows
 targetos: Windows

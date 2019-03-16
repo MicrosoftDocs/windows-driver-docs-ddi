@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionStringWide
-title: IDebugControl4::GetSystemVersionStringWide
+title: IDebugControl4::GetSystemVersionStringWide (dbgeng.h)
 description: The GetSystemVersionStringWide method returns a string that describes the target's operating system version.
 old-location: debugger\getsystemversionstringwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetSystemVersionStringWide
+- IDebugControl4.GetSystemVersionStringWide
 product:
 - Windows
 targetos: Windows

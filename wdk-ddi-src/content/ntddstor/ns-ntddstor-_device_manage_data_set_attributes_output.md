@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
-title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
+title: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT (ntddstor.h)
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure describes output for IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code requests for some data set management actions.
 old-location: storage\device_manage_data_set_attributes_output.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+- DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 product:
 - Windows
 targetos: Windows

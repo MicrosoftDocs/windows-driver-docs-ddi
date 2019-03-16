@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION
-title: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION
+title: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION (d3d10umddi.h)
 description: SetHardwareProtection allows the Desktop Window Manager (DWM) full-screen swap chain buffers to transfer between protected and non-protected states without having to be recreated.
 old-location: display\sethardwareprotection.htm
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnSetHardwareProtection
+- pfnSetHardwareProtection
 product:
 - Windows
 targetos: Windows

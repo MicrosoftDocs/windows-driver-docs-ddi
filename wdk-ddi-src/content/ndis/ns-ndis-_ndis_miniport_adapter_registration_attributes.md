@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES"
+title: _NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES (ndis.h)
 description: An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure to define registration attributes that are associated with a miniport adapter.
 old-location: netvista\ndis_miniport_adapter_registration_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
+- NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

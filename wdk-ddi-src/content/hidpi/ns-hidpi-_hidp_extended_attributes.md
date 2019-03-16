@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_EXTENDED_ATTRIBUTES
-title: "_HIDP_EXTENDED_ATTRIBUTES"
+title: _HIDP_EXTENDED_ATTRIBUTES (hidpi.h)
 description: The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize.
 old-location: hid\hidp_extended_attributes.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_EXTENDED_ATTRIBUTES
+- HIDP_EXTENDED_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

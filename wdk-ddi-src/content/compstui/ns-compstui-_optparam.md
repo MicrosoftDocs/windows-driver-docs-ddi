@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTPARAM
-title: "_OPTPARAM"
+title: _OPTPARAM (compstui.h)
 description: An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a property sheet option. The array's address is included in an OPTTYPE structure.
 old-location: print\optparam.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	OPTPARAM
+- OPTPARAM
 product:
 - Windows
 targetos: Windows

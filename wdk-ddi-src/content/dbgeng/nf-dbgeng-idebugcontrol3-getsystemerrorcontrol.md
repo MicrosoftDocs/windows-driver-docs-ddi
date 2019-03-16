@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSystemErrorControl
-title: IDebugControl3::GetSystemErrorControl
+title: IDebugControl3::GetSystemErrorControl (dbgeng.h)
 description: The GetSystemErrorControl method returns the control values for handling system errors.
 old-location: debugger\getsystemerrorcontrol.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetSystemErrorControl
--	IDebugControl2.GetSystemErrorControl
--	IDebugControl3.GetSystemErrorControl
+- IDebugControl.GetSystemErrorControl
+- IDebugControl2.GetSystemErrorControl
+- IDebugControl3.GetSystemErrorControl
 product:
 - Windows
 targetos: Windows

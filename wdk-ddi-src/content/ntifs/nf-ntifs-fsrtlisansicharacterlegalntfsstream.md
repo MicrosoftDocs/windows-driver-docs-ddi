@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalNtfsStream
-title: FsRtlIsAnsiCharacterLegalNtfsStream macro
+title: FsRtlIsAnsiCharacterLegalNtfsStream macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalNtfsStream macro determines whether an ANSI character is legal for NTFS stream names.
 old-location: ifsk\fsrtlisansicharacterlegalntfsstream.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsAnsiCharacterLegalNtfsStream
+- FsRtlIsAnsiCharacterLegalNtfsStream
 product:
 - Windows
 targetos: Windows

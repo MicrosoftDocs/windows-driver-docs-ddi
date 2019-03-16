@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KSMETHOD_ITEM_IRP_STORAGE
-title: KSMETHOD_ITEM_IRP_STORAGE macro
+title: KSMETHOD_ITEM_IRP_STORAGE macro (ks.h)
 description: This macro accesses a pointer to the relevant KSMETHOD_ITEM. Note that this pointer is only set when using KsMethodHandlerWithAllocator.
 old-location: stream\ksmethod_item_irp_storage.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSMETHOD_ITEM_IRP_STORAGE
+- KSMETHOD_ITEM_IRP_STORAGE
 product:
 - Windows
 targetos: Windows

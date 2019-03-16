@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddpar._PAR_SET_INFORMATION
-title: "_PAR_SET_INFORMATION"
+title: _PAR_SET_INFORMATION (ntddpar.h)
 description: The PAR_SET_INFORMATION structure specifies the initial operating status of a parallel port.
 old-location: parports\par_set_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	PAR_SET_INFORMATION
+- PAR_SET_INFORMATION
 product:
 - Windows
 targetos: Windows

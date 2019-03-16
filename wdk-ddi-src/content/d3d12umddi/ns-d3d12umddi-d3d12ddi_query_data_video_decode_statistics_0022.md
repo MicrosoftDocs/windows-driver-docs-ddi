@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
-title: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
+title: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 (d3d12umddi.h)
 description: Video decode statistics for a query.
 old-location: display\d3d12ddi_query_data_video_decode_statistics.htm
 ms.assetid: F58AB9E1-4061-46B8-8137-319DF30D9CA7
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
+- D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
 product:
 - Windows
 targetos: Windows

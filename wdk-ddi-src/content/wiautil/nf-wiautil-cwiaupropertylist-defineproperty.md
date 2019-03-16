@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.DefineProperty
-title: CWiauPropertyList::DefineProperty
+title: CWiauPropertyList::DefineProperty (wiautil.h)
 description: The CWiauPropertyList::DefineProperty method adds a property definition to a property list object.
 old-location: image\cwiaupropertylist_defineproperty.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.DefineProperty
+- CWiauPropertyList.DefineProperty
 product:
 - Windows
 targetos: Windows

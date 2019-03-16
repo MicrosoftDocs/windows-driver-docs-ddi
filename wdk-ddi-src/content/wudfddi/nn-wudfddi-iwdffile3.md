@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile3
-title: IWDFFile3
+title: IWDFFile3 (wudfddi.h)
 description: Drivers obtain the IWDFFile3 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile3.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IWDFFile3
+- IWDFFile3
 product:
 - Windows
 targetos: Windows

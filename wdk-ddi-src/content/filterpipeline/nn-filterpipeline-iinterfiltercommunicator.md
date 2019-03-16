@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IInterFilterCommunicator
-title: IInterFilterCommunicator
+title: IInterFilterCommunicator (filterpipeline.h)
 description: The IInterFilterCommunicator interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface.
 old-location: print\iinterfiltercommunicator.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IInterFilterCommunicator
+- IInterFilterCommunicator
 product:
 - Windows
 targetos: Windows

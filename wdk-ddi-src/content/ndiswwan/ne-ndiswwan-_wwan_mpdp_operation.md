@@ -1,6 +1,6 @@
 ---
 UID: NE:ndiswwan._WWAN_MPDP_OPERATION
-title: _WWAN_MPDP_OPERATION
+title: _WWAN_MPDP_OPERATION (ndiswwan.h)
 description: The WWAN_MPDP_OPERATION enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_WWAN_MPDP_OPERATION
+- _WWAN_MPDP_OPERATION
 product:
 - Windows
 targetos: Windows

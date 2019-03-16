@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_FDF
-title: "_CIP_HDR2_FDF"
+title: _CIP_HDR2_FDF (avcstrm.h)
 description: The CIP_HDR2_FDF structure describes the second quadlet of a CIP header pair.
 old-location: stream\cip_hdr2_fdf.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	CIP_HDR2_FDF
+- CIP_HDR2_FDF
 product:
 - Windows
 targetos: Windows

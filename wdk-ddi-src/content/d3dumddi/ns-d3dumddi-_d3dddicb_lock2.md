@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_LOCK2
-title: "_D3DDDICB_LOCK2"
+title: _D3DDDICB_LOCK2 (d3dumddi.h)
 description: D3DDDICB_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dddicb_lock2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_LOCK2
+- D3DDDICB_LOCK2
 product:
 - Windows
 targetos: Windows

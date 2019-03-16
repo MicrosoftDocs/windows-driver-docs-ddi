@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATERESOURCE
-title: PFND3D11DDI_CREATERESOURCE
+title: PFND3D11DDI_CREATERESOURCE (d3d10umddi.h)
 description: Creates a resource.
 old-location: display\createresource_d3d11_.htm
 ms.assetid: 2dff9d2e-c497-422f-824b-a7101904fd67
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateResource
+- CreateResource
 product:
 - Windows
 targetos: Windows

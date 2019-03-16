@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetNumSettings
-title: WdfUsbInterfaceGetNumSettings function
+title: WdfUsbInterfaceGetNumSettings function (wdfusb.h)
 description: The WdfUsbInterfaceGetNumSettings method returns the number of alternate settings that a specified USB interface supports.
 old-location: wdf\wdfusbinterfacegetnumsettings.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfUsbInterfaceGetNumSettings
+- WdfUsbInterfaceGetNumSettings
 product:
 - Windows
 targetos: Windows

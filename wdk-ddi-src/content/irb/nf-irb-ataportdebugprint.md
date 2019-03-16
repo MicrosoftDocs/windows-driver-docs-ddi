@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortDebugPrint
-title: AtaPortDebugPrint function
+title: AtaPortDebugPrint function (irb.h)
 description: The AtaPortDebugPrint routine passes a message string to the kernel debugger for the debugger to print.
 old-location: storage\ataportdebugprint.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortDebugPrint
+- AtaPortDebugPrint
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSetGroupSecurityDescriptor
-title: RtlSetGroupSecurityDescriptor function
+title: RtlSetGroupSecurityDescriptor function (ntifs.h)
 description: The RtlSetGroupSecurityDescriptor routine sets the primary group information of an absolute-format security descriptor. It replaces any primary group information that is already present in the security descriptor.
 old-location: ifsk\rtlsetgroupsecuritydescriptor.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlSetGroupSecurityDescriptor
+- RtlSetGroupSecurityDescriptor
 product:
 - Windows
 targetos: Windows

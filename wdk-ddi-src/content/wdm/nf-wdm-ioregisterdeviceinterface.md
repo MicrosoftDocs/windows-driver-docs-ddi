@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterDeviceInterface
-title: IoRegisterDeviceInterface function
+title: IoRegisterDeviceInterface function (wdm.h)
 description: The IoRegisterDeviceInterface routine registers a device interface class, if it has not been previously registered, and creates a new instance of the interface class, which a driver can subsequently enable for use by applications or other system components.
 old-location: kernel\ioregisterdeviceinterface.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterDeviceInterface
+- IoRegisterDeviceInterface
 product:
 - Windows
 targetos: Windows

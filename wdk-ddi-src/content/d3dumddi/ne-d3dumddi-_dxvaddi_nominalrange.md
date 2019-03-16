@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_NOMINALRANGE
-title: "_DXVADDI_NOMINALRANGE"
+title: _DXVADDI_NOMINALRANGE (d3dumddi.h)
 description: The DXVADDI_NOMINALRANGE enumeration type contains values that identify whether sample data includes headroom (that is, values beyond 1.0 white) and toeroom (that is, superblacks below the reference 0.0 black).
 old-location: display\dxvaddi_nominalrange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_NOMINALRANGE
+- DXVADDI_NOMINALRANGE
 product:
 - Windows
 targetos: Windows

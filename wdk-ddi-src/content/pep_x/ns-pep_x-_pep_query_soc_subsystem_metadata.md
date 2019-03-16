@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_QUERY_SOC_SUBSYSTEM_METADATA
-title: "_PEP_QUERY_SOC_SUBSYSTEM_METADATA"
+title: _PEP_QUERY_SOC_SUBSYSTEM_METADATA (pep_x.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
 old-location: kernel\pep_query_soc_subsystem_metadata.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_QUERY_SOC_SUBSYSTEM_METADATA
+- PEP_QUERY_SOC_SUBSYSTEM_METADATA
 product:
 - Windows
 targetos: Windows

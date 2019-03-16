@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmLockPagableCodeSection
-title: MmLockPagableCodeSection macro
+title: MmLockPagableCodeSection macro (wdm.h)
 description: The MmLockPagableCodeSection routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
 old-location: kernel\mmlockpagablecodesection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmLockPagableCodeSection
+- MmLockPagableCodeSection
 product:
 - Windows
 targetos: Windows

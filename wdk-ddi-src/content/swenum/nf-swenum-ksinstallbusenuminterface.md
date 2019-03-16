@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsInstallBusEnumInterface
-title: KsInstallBusEnumInterface function
+title: KsInstallBusEnumInterface function (swenum.h)
 description: The KsInstallBusEnumInterface function installs an interface to the demand-load bus enumerator object.
 old-location: stream\ksinstallbusenuminterface.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsInstallBusEnumInterface
+- KsInstallBusEnumInterface
 product:
 - Windows
 targetos: Windows

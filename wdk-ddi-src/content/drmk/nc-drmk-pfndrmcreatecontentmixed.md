@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMCREATECONTENTMIXED
-title: PFNDRMCREATECONTENTMIXED
+title: PFNDRMCREATECONTENTMIXED (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmcreatecontentmixed.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Drmk.h
+- Drmk.h
 api_name:
--	DRMCreateContentMixed
+- DRMCreateContentMixed
 product:
 - Windows
 targetos: Windows

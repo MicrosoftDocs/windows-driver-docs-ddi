@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTResetTrackedWorkload
-title: D3DKMTResetTrackedWorkload function
+title: D3DKMTResetTrackedWorkload function (d3dkmthk.h)
 description: Resets the tracked workload to its initial state and resets all the rolling statistics.
 ms.assetid: 4c219825-093b-4cf9-998d-7b8363ba2b45
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTResetTrackedWorkload
+- D3DKMTResetTrackedWorkload
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

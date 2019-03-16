@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetContextSchedulingPriority
-title: D3DKMTSetContextSchedulingPriority function
+title: D3DKMTSetContextSchedulingPriority function (d3dkmthk.h)
 description: The D3DKMTSetContextSchedulingPriority function sets the scheduling priority for a device context.
 old-location: display\d3dkmtsetcontextschedulingpriority.htm
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetContextSchedulingPriority
+- D3DKMTSetContextSchedulingPriority
 product:
 - Windows
 targetos: Windows

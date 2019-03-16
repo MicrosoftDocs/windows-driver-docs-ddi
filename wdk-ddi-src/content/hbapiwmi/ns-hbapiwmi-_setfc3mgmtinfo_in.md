@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetFC3MgmtInfo_IN
-title: "_SetFC3MgmtInfo_IN"
+title: _SetFC3MgmtInfo_IN (hbapiwmi.h)
 description: The SetFC3MgmtInfo_IN structure is used to deliver input parameter data to the SetFC3MgmtInfo WMI method.
 old-location: storage\setfc3mgmtinfo_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SetFC3MgmtInfo_IN
+- SetFC3MgmtInfo_IN
 product:
 - Windows
 targetos: Windows

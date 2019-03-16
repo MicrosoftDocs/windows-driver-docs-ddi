@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECOMMANDALLOCATOR
-title: PFND3D12DDI_CREATECOMMANDALLOCATOR
+title: PFND3D12DDI_CREATECOMMANDALLOCATOR (d3d12umddi.h)
 description: Creates a command allocator.
 ms.assetid: 78393c5e-a99a-4b55-8302-76137bc4f4e5
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATECOMMANDALLOCATOR
+- PFND3D12DDI_CREATECOMMANDALLOCATOR
 product: 
 - Windows
 targetos: Windows

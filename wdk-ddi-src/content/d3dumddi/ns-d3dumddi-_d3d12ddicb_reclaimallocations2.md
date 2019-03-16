@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3D12DDICB_RECLAIMALLOCATIONS2
-title: "_D3D12DDICB_RECLAIMALLOCATIONS2"
+title: _D3D12DDICB_RECLAIMALLOCATIONS2 (d3dumddi.h)
 description: Describes video memory resources that are to be reclaimed and that the driver previously offered for reuse.
 old-location: display\d3d12ddicb_reclaimallocations2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3D12DDICB_RECLAIMALLOCATIONS2
+- D3D12DDICB_RECLAIMALLOCATIONS2
 product:
 - Windows
 targetos: Windows

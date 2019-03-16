@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_GET_TEXT_COMPLETIONS_OUT
-title: "_DEBUG_GET_TEXT_COMPLETIONS_OUT"
+title: _DEBUG_GET_TEXT_COMPLETIONS_OUT (dbgeng.h)
 description: Defines information about text completions to get.
 old-location: debugger\debug_get_text_completions_out.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_GET_TEXT_COMPLETIONS_OUT
+- DEBUG_GET_TEXT_COMPLETIONS_OUT
 product:
 - Windows
 targetos: Windows

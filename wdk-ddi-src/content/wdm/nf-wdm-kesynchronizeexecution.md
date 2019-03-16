@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSynchronizeExecution
-title: KeSynchronizeExecution function
+title: KeSynchronizeExecution function (wdm.h)
 description: The KeSynchronizeExecution routine synchronizes the execution of the specified routine with the interrupt service routine (ISR) that is assigned to a set of one or more interrupt objects.
 old-location: kernel\kesynchronizeexecution.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DIRQL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSynchronizeExecution
+- KeSynchronizeExecution
 product:
 - Windows
 targetos: Windows

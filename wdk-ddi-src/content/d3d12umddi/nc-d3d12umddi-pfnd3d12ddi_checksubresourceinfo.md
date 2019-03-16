@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKSUBRESOURCEINFO
-title: PFND3D12DDI_CHECKSUBRESOURCEINFO
+title: PFND3D12DDI_CHECKSUBRESOURCEINFO (d3d12umddi.h)
 description: Check subresource info.
 ms.assetid: d8285aa5-1eec-425b-9cc5-28fa2e14b521
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CHECKSUBRESOURCEINFO
+- PFND3D12DDI_CHECKSUBRESOURCEINFO
 product: 
 - Windows
 targetos: Windows

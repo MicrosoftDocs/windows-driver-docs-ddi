@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_78
-title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
+title: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST (ksmedia.h)
 description: Used to specify a camera region of interest.
 old-location: stream\ksproperty_cameracontrol_region_of_interest.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
+- KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.EXT_COMMAND_METHOD
-title: EXT_COMMAND_METHOD macro
+title: EXT_COMMAND_METHOD macro (engextcpp.h)
 description: The EXT_COMMAND_METHOD macro declares an extension command from inside the definition of the EXT_CLASS class.
 old-location: debugger\ext_command_method.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	EXT_COMMAND_METHOD
+- EXT_COMMAND_METHOD
 product:
 - Windows
 targetos: Windows

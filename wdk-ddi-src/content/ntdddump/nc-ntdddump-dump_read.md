@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_READ
-title: DUMP_READ
+title: DUMP_READ (ntdddump.h)
 description: The Dump_Read callback routine is called after the read from the dump port driver. The filter driver can access the dump data during the call to this routine.
 old-location: storage\dump_read.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	Dump_Read
+- Dump_Read
 product:
 - Windows
 targetos: Windows

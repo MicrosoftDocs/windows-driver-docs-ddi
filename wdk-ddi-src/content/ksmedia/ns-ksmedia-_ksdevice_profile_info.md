@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSDEVICE_PROFILE_INFO
-title: "_KSDEVICE_PROFILE_INFO"
+title: _KSDEVICE_PROFILE_INFO (ksmedia.h)
 description: The KSDEVICE_PROFILE_INFO is a generic structure designed to handle profile information for various device types.
 old-location: stream\ksdevice_profile_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDEVICE_PROFILE_INFO
+- KSDEVICE_PROFILE_INFO
 product:
 - Windows
 targetos: Windows

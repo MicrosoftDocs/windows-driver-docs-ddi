@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.GetNext
-title: IDebugHostSymbolEnumerator::GetNext
+title: IDebugHostSymbolEnumerator::GetNext (dbgmodel.h)
 description: Moves the iterator forward and fetches the next symbol in the set.
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.date: 12/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbolEnumerator.GetNext
-product: Windows
+- IDebugHostSymbolEnumerator.GetNext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DESCRIPTOR
-title: "_HID_DESCRIPTOR"
+title: _HID_DESCRIPTOR (hidport.h)
 description: The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 old-location: hid\hid_descriptor.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	HID_DESCRIPTOR
+- HID_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -93,7 +93,7 @@ The HID_DESCRIPTOR structure represents a HID descriptor for a HIDClass device.
 
 The HID class driver uses an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439622">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a> request to obtain a device's HID descriptor from a HID minidriver.
 
-For information about HID descriptors, see the Universal Serial Bus (USB) standard<i> Device Class Definition for Human Interface Devices (HID)</i> located at the <a href="http://www.usb.org/home">USB Implementers Forum website</a>.
+For information about HID descriptors, see the Universal Serial Bus (USB) standard<i> Device Class Definition for Human Interface Devices (HID)</i> located at the <a href="http://www.usb.org/">USB Implementers Forum website</a>.
 
 
 

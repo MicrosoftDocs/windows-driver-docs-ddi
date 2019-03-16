@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_GETCAPS_0020
-title: D3D12DDIARG_VIDEO_GETCAPS_0020
+title: D3D12DDIARG_VIDEO_GETCAPS_0020 (d3d12umddi.h)
 description: Specifies values used to get capabilities of a type.
 old-location: display\d3d12ddiarg_video_getcaps.htm
 ms.assetid: 3C55B67F-043A-4747-A44A-A162D6391003
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDIARG_VIDEO_GETCAPS_0020
+- D3D12DDIARG_VIDEO_GETCAPS_0020
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmUnmapViewInSystemSpace
-title: MmUnmapViewInSystemSpace function
+title: MmUnmapViewInSystemSpace function (ntddk.h)
 description:
 ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NfcCx.dll
+- NfcCx.dll
 api_name: 
--	MmUnmapViewInSystemSpace
+- MmUnmapViewInSystemSpace
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

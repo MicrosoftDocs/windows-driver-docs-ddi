@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
-title: "_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS"
+title: _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS (ndiswwan.h)
 description: The NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure represents the commands supported by a device service.
 old-location: netvista\ndis_wwan_enumerate_device_service_commands.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+- NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
 product:
 - Windows
 targetos: Windows

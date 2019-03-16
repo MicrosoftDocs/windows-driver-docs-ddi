@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaCommitChanges
-title: BdaCommitChanges function
+title: BdaCommitChanges function (bdasup.h)
 description: The BdaCommitChanges function commits the changes to BDA topology that have occurred since the last call to the BdaStartChanges function.
 old-location: stream\bdacommitchanges.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaCommitChanges
+- BdaCommitChanges
 product:
 - Windows
 targetos: Windows

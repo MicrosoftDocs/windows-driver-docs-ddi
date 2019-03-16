@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERBEGINFRAME
-title: PFND3D11_1DDI_VIDEODECODERBEGINFRAME
+title: PFND3D11_1DDI_VIDEODECODERBEGINFRAME (d3d10umddi.h)
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 old-location: display\videodecoderbeginframe.htm
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoDecoderBeginFrame
+- pfnVideoDecoderBeginFrame
 product:
 - Windows
 targetos: Windows

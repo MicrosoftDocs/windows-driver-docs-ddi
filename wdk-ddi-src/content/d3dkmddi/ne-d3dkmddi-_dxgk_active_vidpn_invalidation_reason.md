@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
-title: "_DXGK_ACTIVE_VIDPN_INVALIDATION_REASON"
+title: _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON (d3dkmddi.h)
 description: The DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration is used to indicate the reason why an active VidPN is invalidated and a new VidPN is requested.
 old-location: display\dxgk_active_vidpn_invalidation_reason.htm
 ms.assetid: e1f33307-1bb0-4cdd-aa47-954f6e551582
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
+- DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 product:
 - Windows
 targetos: Windows

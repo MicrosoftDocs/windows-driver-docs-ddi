@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWINDEXEDPRIMITIVE2
-title: "_D3DDDIARG_DRAWINDEXEDPRIMITIVE2"
+title: _D3DDDIARG_DRAWINDEXEDPRIMITIVE2 (d3dumddi.h)
 description: The D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure describes an indexed primitive to draw.
 old-location: display\d3dddiarg_drawindexedprimitive2.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_DRAWINDEXEDPRIMITIVE2
+- D3DDDIARG_DRAWINDEXEDPRIMITIVE2
 product:
 - Windows
 targetos: Windows

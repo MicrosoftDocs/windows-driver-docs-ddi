@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMRegisterIoPortRange
-title: NdisMRegisterIoPortRange function
+title: NdisMRegisterIoPortRange function (ndis.h)
 description: NdisMRegisterIoPortRange sets up driver access to device I/O ports with the NdisRawReadPortXxx and NdisRawWritePortXxx functions and claims the range of I/O port addresses in the registry for that driver's NIC.
 old-location: netvista\ndismregisterioportrange.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMRegisterIoPortRange
+- NdisMRegisterIoPortRange
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCONFIGURE_ADAPTER_CHANNEL
-title: PCONFIGURE_ADAPTER_CHANNEL
+title: PCONFIGURE_ADAPTER_CHANNEL (wdm.h)
 description: The ConfigureAdapterChannel routine invokes a custom function that is implemented by the DMA controller represented by an adapter object.
 old-location: kernel\configureadapterchannel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ConfigureAdapterChannel
+- ConfigureAdapterChannel
 product:
 - Windows
 targetos: Windows

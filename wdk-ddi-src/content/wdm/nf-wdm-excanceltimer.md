@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExCancelTimer
-title: ExCancelTimer function
+title: ExCancelTimer function (wdm.h)
 description: The ExCancelTimer routine cancels a timer that was set by a previous call to the ExSetTimer routine.
 old-location: kernel\excanceltimer.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExCancelTimer
+- ExCancelTimer
 product:
 - Windows
 targetos: Windows

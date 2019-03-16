@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_FULL_INFORMATION
-title: "_KEY_FULL_INFORMATION"
+title: _KEY_FULL_INFORMATION (wdm.h)
 description: The KEY_FULL_INFORMATION structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries.
 old-location: kernel\key_full_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KEY_FULL_INFORMATION
+- KEY_FULL_INFORMATION
 product:
 - Windows
 targetos: Windows

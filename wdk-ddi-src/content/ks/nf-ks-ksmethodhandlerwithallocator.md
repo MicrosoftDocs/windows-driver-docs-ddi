@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsMethodHandlerWithAllocator
-title: KsMethodHandlerWithAllocator function
+title: KsMethodHandlerWithAllocator function (ks.h)
 description: The KsMethodHandlerWithAllocator functions performs the same handling as KsMethodHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\ksmethodhandlerwithallocator.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsMethodHandlerWithAllocator
+- KsMethodHandlerWithAllocator
 product:
 - Windows
 targetos: Windows

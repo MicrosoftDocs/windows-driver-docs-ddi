@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_RADIO
-title: "_WWAN_RADIO"
+title: _WWAN_RADIO (wwan.h)
 description: The WWAN_RADIO enumeration lists the different types of radio power modes that are supported by the MB device.
 old-location: netvista\wwan_radio.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_RADIO
+- WWAN_RADIO
 product:
 - Windows
 targetos: Windows

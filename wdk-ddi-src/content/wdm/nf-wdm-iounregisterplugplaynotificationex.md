@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoUnregisterPlugPlayNotificationEx
-title: IoUnregisterPlugPlayNotificationEx function
+title: IoUnregisterPlugPlayNotificationEx function (wdm.h)
 description: The IoUnregisterPlugPlayNotificationEx routine cancels the registration of a driver's callback routine for notifications of Plug and Play (PnP) events.
 old-location: kernel\iounregisterplugplaynotificationex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoUnregisterPlugPlayNotificationEx
+- IoUnregisterPlugPlayNotificationEx
 product:
 - Windows
 targetos: Windows

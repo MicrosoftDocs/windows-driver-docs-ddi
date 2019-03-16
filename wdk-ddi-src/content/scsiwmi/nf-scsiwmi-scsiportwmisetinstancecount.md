@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiSetInstanceCount
-title: ScsiPortWmiSetInstanceCount function
+title: ScsiPortWmiSetInstanceCount function (scsiwmi.h)
 description: The ScsiPortWmiSetInstanceCount specifies the number of instances for which data buffers must be set aside within the WNODE_ALL_DATA structure in the request context.
 old-location: storage\scsiportwmisetinstancecount.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	ScsiPortWmiSetInstanceCount
+- ScsiPortWmiSetInstanceCount
 product:
 - Windows
 targetos: Windows

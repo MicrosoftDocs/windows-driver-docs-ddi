@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_RADIO_STATE
-title: "_NDIS_WWAN_RADIO_STATE"
+title: _NDIS_WWAN_RADIO_STATE (ndiswwan.h)
 description: The NDIS_WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\ndis_wwan_radio_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_RADIO_STATE
+- NDIS_WWAN_RADIO_STATE
 product:
 - Windows
 targetos: Windows

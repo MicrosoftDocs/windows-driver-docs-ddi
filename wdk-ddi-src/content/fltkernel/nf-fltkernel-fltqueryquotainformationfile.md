@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryQuotaInformationFile
-title: FltQueryQuotaInformationFile function
+title: FltQueryQuotaInformationFile function (fltkernel.h)
 description: The FltQueryQuotaInformationFile routine retrieves quota entries associated with a file object.
 old-location: ifsk\fltqueryquotainformationfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueryQuotaInformationFile
+- FltQueryQuotaInformationFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._INQUIRYDATA
-title: "_INQUIRYDATA"
+title: _INQUIRYDATA (storport.h)
 description: The INQUIRYDATA structure is used in conjunction with the TapeMiniExtensionInit and TapeMiniVerifyInquiry routines to report SCSI inquiry data associated with a tape device.
 old-location: storage\inquirydata.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	INQUIRYDATA
+- INQUIRYDATA
 product:
 - Windows
 targetos: Windows

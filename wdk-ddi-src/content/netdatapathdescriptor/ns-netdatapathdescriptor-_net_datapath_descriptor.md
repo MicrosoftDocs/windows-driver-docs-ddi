@@ -1,6 +1,6 @@
 ---
 UID: NS:netdatapathdescriptor._NET_DATAPATH_DESCRIPTOR
-title: _NET_DATAPATH_DESCRIPTOR
+title: _NET_DATAPATH_DESCRIPTOR (netdatapathdescriptor.h)
 description: The NET_DATAPATH_DESCRIPTOR structure describes a datapath queue's ring buffers.
 tech.root: netvista
 ms.assetid: 9b156fe0-5746-4628-9bc1-5973bf55710a
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netdatapathdescriptor.h
-apiname: 
--	_NET_DATAPATH_DESCRIPTOR
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netdatapathdescriptor.h
+api_name: 
+- _NET_DATAPATH_DESCRIPTOR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

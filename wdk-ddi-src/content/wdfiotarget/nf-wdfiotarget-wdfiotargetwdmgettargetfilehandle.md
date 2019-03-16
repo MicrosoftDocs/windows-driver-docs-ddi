@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetWdmGetTargetFileHandle
-title: WdfIoTargetWdmGetTargetFileHandle function
+title: WdfIoTargetWdmGetTargetFileHandle function (wdfiotarget.h)
 description: The WdfIoTargetWdmGetTargetFileHandle method returns a handle to the file that is associated with a specified remote I/O target.
 old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfIoTargetWdmGetTargetFileHandle
+- WdfIoTargetWdmGetTargetFileHandle
 product:
 - Windows
 targetos: Windows

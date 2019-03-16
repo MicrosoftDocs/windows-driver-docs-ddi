@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGenerateEvents
-title: KsFilterGenerateEvents function
+title: KsFilterGenerateEvents function (ks.h)
 description: The KsFilterGenerateEvents function generates events of an indicated type that are present in Filter's event list.
 old-location: stream\ksfiltergenerateevents.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterGenerateEvents
+- KsFilterGenerateEvents
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.GetStream
-title: IPartBase::GetStream
+title: IPartBase::GetStream (filterpipeline.h)
 description: The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
 old-location: print\ipartbase_getstream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartBase.GetStream
+- IPartBase.GetStream
 product:
 - Windows
 targetos: Windows

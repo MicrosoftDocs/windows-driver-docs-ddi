@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.CreateProcess
-title: IDebugClient2::CreateProcess
+title: IDebugClient2::CreateProcess (dbgeng.h)
 description: The CreateProcess method creates a process from the specified command line.
 old-location: debugger\createprocess.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.CreateProcess
--	IDebugClient2.CreateProcess
--	IDebugClient3.CreateProcess
--	IDebugClient4.CreateProcess
--	IDebugClient5.CreateProcess
+- IDebugClient.CreateProcess
+- IDebugClient2.CreateProcess
+- IDebugClient3.CreateProcess
+- IDebugClient4.CreateProcess
+- IDebugClient5.CreateProcess
 product:
 - Windows
 targetos: Windows

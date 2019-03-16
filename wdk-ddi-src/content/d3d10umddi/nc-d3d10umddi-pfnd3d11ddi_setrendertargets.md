@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_SETRENDERTARGETS
-title: PFND3D11DDI_SETRENDERTARGETS
+title: PFND3D11DDI_SETRENDERTARGETS (d3d10umddi.h)
 description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetRenderTargets
+- SetRenderTargets
 product:
 - Windows
 targetos: Windows

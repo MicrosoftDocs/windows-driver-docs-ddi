@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInsertAsLeftChild
-title: RtlInsertAsLeftChild function
+title: RtlInsertAsLeftChild function (ntddk.h)
 description: The RtlInsertAsLeftChild routine inserts a splay link node into the tree as the left child of the specified node.
 old-location: ifsk\rtlinsertasleftchild.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlInsertAsLeftChild
+- RtlInsertAsLeftChild
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SPEED_MAP
-title: "_SPEED_MAP"
+title: _SPEED_MAP (1394.h)
 description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	SPEED_MAP
+- SPEED_MAP
 product:
 - Windows
 targetos: Windows

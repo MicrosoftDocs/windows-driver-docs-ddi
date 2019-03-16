@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Name
-title: IPrintJob::get_Name
+title: IPrintJob::get_Name (printerextension.h)
 description: Gets the name of the print job.
 old-location: print\iprintjob_name.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.Name
--	IPrintJob.get_Name
+- IPrintJob.Name
+- IPrintJob.get_Name
 product:
 - Windows
 targetos: Windows

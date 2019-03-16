@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitFree
-title: WdfDeviceInitFree function
+title: WdfDeviceInitFree function (wdfdevice.h)
 description: The WdfDeviceInitFree method deallocates a WDFDEVICE_INIT structure.
 old-location: wdf\wdfdeviceinitfree.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceInitFree
+- WdfDeviceInitFree
 product:
 - Windows
 targetos: Windows

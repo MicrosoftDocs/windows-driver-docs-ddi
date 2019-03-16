@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._TRACK_MODE_TYPE
-title: "_TRACK_MODE_TYPE"
+title: _TRACK_MODE_TYPE (ntddcdrm.h)
 description: The TRACK_MODE_TYPE enumeration type is used in conjunction with the IOCTL_CDROM_RAW_READ request and the RAW_READ_INFO structure to read data from a CD-ROM in raw mode.
 old-location: storage\track_mode_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	TRACK_MODE_TYPE
+- TRACK_MODE_TYPE
 product:
 - Windows
 targetos: Windows

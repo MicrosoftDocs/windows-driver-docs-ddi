@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_DEVICE_IO_BUFFER_RETRIEVAL
-title: "_WDF_DEVICE_IO_BUFFER_RETRIEVAL"
+title: _WDF_DEVICE_IO_BUFFER_RETRIEVAL (wudfddi_types.h)
 description: The WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 old-location: wdf\wdf_device_io_buffer_retrieval.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_DEVICE_IO_BUFFER_RETRIEVAL
+- WDF_DEVICE_IO_BUFFER_RETRIEVAL
 product:
 - Windows
 targetos: Windows

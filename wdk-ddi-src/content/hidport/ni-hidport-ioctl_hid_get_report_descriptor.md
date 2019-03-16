@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_GET_REPORT_DESCRIPTOR
-title: IOCTL_HID_GET_REPORT_DESCRIPTOR
+title: IOCTL_HID_GET_REPORT_DESCRIPTOR (hidport.h)
 description: The IOCTL_HID_GET_REPORT_DESCRIPTOR request obtains the report descriptor for a HIDClass device.
 old-location: hid\ioctl_hid_get_report_descriptor.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_GET_REPORT_DESCRIPTOR
+- IOCTL_HID_GET_REPORT_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

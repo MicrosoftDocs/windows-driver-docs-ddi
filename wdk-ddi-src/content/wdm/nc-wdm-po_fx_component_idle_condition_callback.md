@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK
-title: PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK
+title: PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK (wdm.h)
 description: The ComponentIdleConditionCallback callback routine notifies the driver that the specified component completed a transition from the active condition to the idle condition.
 old-location: kernel\componentidleconditioncallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ComponentIdleConditionCallback
+- ComponentIdleConditionCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CommitPnpState
-title: IWDFDevice::CommitPnpState
+title: IWDFDevice::CommitPnpState (wudfddi.h)
 description: The CommitPnpState method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the IWDFDevice::SetPnpState method set.
 old-location: wdf\iwdfdevice_commitpnpstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.CommitPnpState
+- IWDFDevice.CommitPnpState
 product:
 - Windows
 targetos: Windows

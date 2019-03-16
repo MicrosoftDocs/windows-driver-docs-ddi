@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_CHANNEL
-title: "_DOT11_WFD_CHANNEL"
+title: _DOT11_WFD_CHANNEL (windot11.h)
 description: The DOT11_WFD_CHANNEL structure contains the channel information for a Peer-to-Pear (P2P) group.
 old-location: netvista\dot11_wfd_channel.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_CHANNEL
+- DOT11_WFD_CHANNEL
 product:
 - Windows
 targetos: Windows

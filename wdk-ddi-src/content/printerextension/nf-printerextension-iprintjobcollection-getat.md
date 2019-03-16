@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.GetAt
-title: IPrintJobCollection::GetAt
+title: IPrintJobCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJobCollection.GetAt
+- IPrintJobCollection.GetAt
 product:
 - Windows
 targetos: Windows

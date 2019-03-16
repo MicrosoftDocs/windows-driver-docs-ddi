@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoRetrieveAddressDescription
-title: WdfPdoRetrieveAddressDescription function
+title: WdfPdoRetrieveAddressDescription function (wdfpdo.h)
 description: The WdfPdoRetrieveAddressDescription method retrieves the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoretrieveaddressdescription.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoRetrieveAddressDescription
+- WdfPdoRetrieveAddressDescription
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetTextMacro
-title: IDebugControl3::SetTextMacro
+title: IDebugControl3::SetTextMacro (dbgeng.h)
 description: The SetTextMacro method sets the value of a fixed-name alias.
 old-location: debugger\settextmacro.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetTextMacro
--	IDebugControl2.SetTextMacro
--	IDebugControl3.SetTextMacro
+- IDebugControl.SetTextMacro
+- IDebugControl2.SetTextMacro
+- IDebugControl3.SetTextMacro
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryString
-title: IDebugSymbols3::GetSymbolEntryString
+title: IDebugSymbols3::GetSymbolEntryString (dbgeng.h)
 description: The GetSymbolEntryString method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystring.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetSymbolEntryString
+- IDebugSymbols3.GetSymbolEntryString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewServiceGroup
-title: PcNewServiceGroup function
+title: PcNewServiceGroup function (portcls.h)
 description: The PcNewServiceGroup function creates and initializes a service group.
 old-location: audio\pcnewservicegroup.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewServiceGroup
+- PcNewServiceGroup
 product:
 - Windows
 targetos: Windows

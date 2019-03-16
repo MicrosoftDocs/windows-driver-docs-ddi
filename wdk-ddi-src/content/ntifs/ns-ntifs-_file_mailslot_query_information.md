@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_MAILSLOT_QUERY_INFORMATION
-title: "_FILE_MAILSLOT_QUERY_INFORMATION"
+title: _FILE_MAILSLOT_QUERY_INFORMATION (ntifs.h)
 description: The FILE_MAILSLOT_QUERY_INFORMATION structure contains information about a mailslot.
 old-location: ifsk\file_mailslot_query_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_MAILSLOT_QUERY_INFORMATION
+- FILE_MAILSLOT_QUERY_INFORMATION
 product:
 - Windows
 targetos: Windows

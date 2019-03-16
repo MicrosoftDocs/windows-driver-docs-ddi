@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetLocation
-title: IModelObject::GetLocation
+title: IModelObject::GetLocation (dbgmodel.h)
 description: The GetLocation method will return the location of the native object. While such a location is typically a virtual address within the address space of the debug target, it is not necessarily so.
 ms.assetid: d66a6e6d-bd87-46fe-a09e-04b7d5632180
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetLocation
-product: Windows
+- IModelObject.GetLocation
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

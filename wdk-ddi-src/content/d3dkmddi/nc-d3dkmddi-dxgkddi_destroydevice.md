@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYDEVICE
-title: DXGKDDI_DESTROYDEVICE
+title: DXGKDDI_DESTROYDEVICE (d3dkmddi.h)
 description: The DxgkDdiDestroyDevice function destroys a graphics context device.
 old-location: display\dxgkddidestroydevice.htm
 ms.assetid: c067fe92-2364-4122-a7ed-03df7906ae64
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiDestroyDevice
+- DxgkDdiDestroyDevice
 product:
 - Windows
 targetos: Windows

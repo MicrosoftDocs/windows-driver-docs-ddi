@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryDirectoryFile
-title: FltQueryDirectoryFile function
+title: FltQueryDirectoryFile function (fltkernel.h)
 description: The FltQueryDirectoryFile routine returns various kinds of information about files in the directory specified by a given file object.
 old-location: ifsk\fltquerydirectoryfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQueryDirectoryFile
+- FltQueryDirectoryFile
 product:
 - Windows
 targetos: Windows

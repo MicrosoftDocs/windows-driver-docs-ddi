@@ -1,6 +1,6 @@
 ---
 UID: NE:umdprovider._UMDETW_ALLOCATION_SEMANTIC
-title: "_UMDETW_ALLOCATION_SEMANTIC"
+title: _UMDETW_ALLOCATION_SEMANTIC (umdprovider.h)
 description: Indicates what a memory allocation is used for if the allocation is internal to the user-mode driver.
 old-location: display\umdetw_allocation_semantic.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	umdprovider.h
+- umdprovider.h
 api_name:
--	UMDETW_ALLOCATION_SEMANTIC
+- UMDETW_ALLOCATION_SEMANTIC
 product:
 - Windows
 targetos: Windows

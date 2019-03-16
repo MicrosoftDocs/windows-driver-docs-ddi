@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetCompletionStatus
-title: IWDFRequestCompletionParams::GetCompletionStatus
+title: IWDFRequestCompletionParams::GetCompletionStatus (wudfddi.h)
 description: The GetCompletionStatus method retrieves the completion status of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getcompletionstatus.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRequestCompletionParams.GetCompletionStatus
+- IWDFRequestCompletionParams.GetCompletionStatus
 product:
 - Windows
 targetos: Windows

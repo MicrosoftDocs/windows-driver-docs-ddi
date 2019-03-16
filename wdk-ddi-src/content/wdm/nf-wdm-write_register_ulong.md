@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_ULONG
-title: WRITE_REGISTER_ULONG function
+title: WRITE_REGISTER_ULONG function (wdm.h)
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WRITE_REGISTER_ULONG
+- WRITE_REGISTER_ULONG
 product:
 - Windows
 targetos: Windows

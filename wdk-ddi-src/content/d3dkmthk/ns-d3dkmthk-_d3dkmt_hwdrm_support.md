@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HWDRM_SUPPORT
-title: _D3DKMT_HWDRM_SUPPORT
+title: _D3DKMT_HWDRM_SUPPORT (d3dkmthk.h)
 description: Hardware DRM support.
 ms.assetid: faa72a75-33b3-4017-986f-294f5e1be35f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_HWDRM_SUPPORT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_HWDRM_SUPPORT
+- _D3DKMT_HWDRM_SUPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

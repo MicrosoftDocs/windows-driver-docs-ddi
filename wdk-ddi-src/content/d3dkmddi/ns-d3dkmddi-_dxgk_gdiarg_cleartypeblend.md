@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_CLEARTYPEBLEND
-title: "_DXGK_GDIARG_CLEARTYPEBLEND"
+title: _DXGK_GDIARG_CLEARTYPEBLEND (d3dkmddi.h)
 description: The DXGK_GDIARG_CLEARTYPEBLEND structure describes the characteristics of a GDI hardware-accelerated ClearType and antialiased text pixel blending operation.
 old-location: display\dxgk_gdiarg_cleartypeblend.htm
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GDIARG_CLEARTYPEBLEND
+- DXGK_GDIARG_CLEARTYPEBLEND
 product:
 - Windows
 targetos: Windows

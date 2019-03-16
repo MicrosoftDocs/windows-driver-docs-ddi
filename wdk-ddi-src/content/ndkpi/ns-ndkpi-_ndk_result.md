@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_RESULT
-title: "_NDK_RESULT"
+title: _NDK_RESULT (ndkpi.h)
 description: The NDK_RESULT structure returns the results for an NDK request operation.
 old-location: netvista\ndk_result.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_RESULT
+- NDK_RESULT
 product:
 - Windows
 targetos: Windows

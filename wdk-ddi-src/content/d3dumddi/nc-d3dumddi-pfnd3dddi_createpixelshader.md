@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEPIXELSHADER
-title: PFND3DDDI_CREATEPIXELSHADER
+title: PFND3DDDI_CREATEPIXELSHADER (d3dumddi.h)
 description: The CreatePixelShader function converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CreatePixelShader
+- CreatePixelShader
 product:
 - Windows
 targetos: Windows

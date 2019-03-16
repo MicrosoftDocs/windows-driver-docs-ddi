@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetExtensionCommand
-title: IDebugFailureAnalysis2::SetExtensionCommand
+title: IDebugFailureAnalysis2::SetExtensionCommand (extsfns.h)
 description: The SetExtensionCommand method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_setextensioncommand.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFailureAnalysis2.SetExtensionCommand
+- IDebugFailureAnalysis2.SetExtensionCommand
 product:
 - Windows
 targetos: Windows

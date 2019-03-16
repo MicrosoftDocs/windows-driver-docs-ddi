@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeGenericWorkItem
-title: FltFreeGenericWorkItem function
+title: FltFreeGenericWorkItem function (fltkernel.h)
 description: The FltFreeGenericWorkItem routine frees a work item allocated by the FltAllocateGenericWorkItem routine.
 old-location: ifsk\fltfreegenericworkitem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltFreeGenericWorkItem
+- FltFreeGenericWorkItem
 product:
 - Windows
 targetos: Windows

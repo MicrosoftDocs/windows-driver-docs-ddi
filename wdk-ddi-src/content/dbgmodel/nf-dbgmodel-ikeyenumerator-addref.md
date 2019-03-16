@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.AddRef
-title: IKeyEnumerator::AddRef
+title: IKeyEnumerator::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 70cde105-08c7-4fc5-8731-fe85bef95872
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyEnumerator.AddRef
-product: Windows
+- IKeyEnumerator.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

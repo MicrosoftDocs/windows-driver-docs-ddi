@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwWrite
-title: EtwWrite function
+title: EtwWrite function (wdm.h)
 description: The EtwWrite function is a tracing function for publishing events in your kernel-mode driver code.
 old-location: devtest\etwwrite.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwWrite
+- EtwWrite
 product:
 - Windows
 targetos: Windows

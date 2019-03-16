@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_GENERIC_ERROR_SECTION
-title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION"
+title: _WHEA_PROCESSOR_GENERIC_ERROR_SECTION (ntddk.h)
 description: Describes processor error data that is not specific to a particular processor architecture.
 old-location: whea\whea_processor_generic_error_section.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PROCESSOR_GENERIC_ERROR_SECTION
+- WHEA_PROCESSOR_GENERIC_ERROR_SECTION
 product:
 - Windows
 targetos: Windows

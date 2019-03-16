@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetContext
-title: IModelObject::GetContext
+title: IModelObject::GetContext (dbgmodel.h)
 description: The GetContext method returns the host context that is associated with the object. 
 ms.assetid: 448a54c8-ab67-4bc1-aad4-362ea94f7830
 ms.date: 08/09/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.GetContext
-product: Windows
+- IModelObject.GetContext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

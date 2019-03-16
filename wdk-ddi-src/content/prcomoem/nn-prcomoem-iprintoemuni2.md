@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemUni2
-title: IPrintOemUni2
+title: IPrintOemUni2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemUni2 COM interface.
 old-location: print\iprintoemuni2_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni2
+- IPrintOemUni2
 product:
 - Windows
 targetos: Windows

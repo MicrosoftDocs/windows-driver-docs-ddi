@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PHYSICAL_ADAPTER_COUNT
-title: _D3DKMT_PHYSICAL_ADAPTER_COUNT
+title: _D3DKMT_PHYSICAL_ADAPTER_COUNT (d3dkmthk.h)
 description: Used to get the physical adapter count.
 ms.assetid: 31c7df20-f9d0-4f28-8731-271b5f9b88af
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PHYSICAL_ADAPTER_COUNT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PHYSICAL_ADAPTER_COUNT
+- _D3DKMT_PHYSICAL_ADAPTER_COUNT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

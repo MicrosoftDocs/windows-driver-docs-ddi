@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_88
-title: KSPROPERTY_VIDEOPROCAMP_S
+title: KSPROPERTY_VIDEOPROCAMP_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOPROCAMP_S structure describes filter-based property settings in the PROPSETID_VIDCAP_VIDEOPROCAMP property set.
 old-location: stream\ksproperty_videoprocamp_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEOPROCAMP_S
+- KSPROPERTY_VIDEOPROCAMP_S
 product:
 - Windows
 targetos: Windows

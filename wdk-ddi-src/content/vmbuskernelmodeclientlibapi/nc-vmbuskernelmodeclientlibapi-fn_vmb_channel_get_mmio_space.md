@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_GET_MMIO_SPACE
-title: FN_VMB_CHANNEL_GET_MMIO_SPACE
+title: FN_VMB_CHANNEL_GET_MMIO_SPACE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelGetMmioSpace function retrieves the kernel virtual address of the MMIO space allocated to a channel.
 tech.root: netvista
 ms.assetid: c34ca88d-10bb-49c5-bddc-606367926b0c
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_GET_MMIO_SPACE
+- FN_VMB_CHANNEL_GET_MMIO_SPACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

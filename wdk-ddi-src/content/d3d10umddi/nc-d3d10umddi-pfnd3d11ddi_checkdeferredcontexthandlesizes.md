@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
-title: PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES
+title: PFND3D11DDI_CHECKDEFERREDCONTEXTHANDLESIZES (d3d10umddi.h)
 description: The CheckDeferredContextHandleSizes function verifies the sizes of the driver-private memory spaces that hold the handle data of deferred context handles.
 old-location: display\checkdeferredcontexthandlesizes.htm
 ms.assetid: 0ddaec86-79e6-4d09-8403-6588b35f8b0f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CheckDeferredContextHandleSizes
+- CheckDeferredContextHandleSizes
 product:
 - Windows
 targetos: Windows

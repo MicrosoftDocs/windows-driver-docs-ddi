@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ACQUIRETARGETMODESET
-title: DXGKDDI_VIDPN_ACQUIRETARGETMODESET
+title: DXGKDDI_VIDPN_ACQUIRETARGETMODESET (d3dkmddi.h)
 description: The pfnAcquireTargetModeSet function returns a handle to a particular target mode set object that is contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfnacquiretargetmodeset.htm
 ms.assetid: 1b91c472-21eb-4aa8-91e3-c9eb70556d9f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAcquireTargetModeSet
+- pfnAcquireTargetModeSet
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourcePathElementWide
-title: IDebugSymbols3::GetSourcePathElementWide
+title: IDebugSymbols3::GetSourcePathElementWide (dbgeng.h)
 description: The GetSourcePathElementWide method returns an element from the source path.
 old-location: debugger\getsourcepathelementwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetSourcePathElementWide
+- IDebugSymbols3.GetSourcePathElementWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlExtendCorrelationVector
-title: RtlExtendCorrelationVector function
+title: RtlExtendCorrelationVector function (ntddk.h)
 description: This routine extends the supplied correlation vector. For a correlation vector of the form X.i, the extended value is X.i.0.
 old-location: kernel\rtlextendcorrelationvector.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlExtendCorrelationVector
+- RtlExtendCorrelationVector
 product:
 - Windows
 targetos: Windows

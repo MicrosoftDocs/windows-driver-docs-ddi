@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMTTYGetInfo
-title: OEMTTYGetInfo function
+title: OEMTTYGetInfo function (printoem.h)
 description: OEMTTYGetInfo function
 old-location: print\oemttygetinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMTTYGetInfo
+- OEMTTYGetInfo
 product:
 - Windows
 targetos: Windows

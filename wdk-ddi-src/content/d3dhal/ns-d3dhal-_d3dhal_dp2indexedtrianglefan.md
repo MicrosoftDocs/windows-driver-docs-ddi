@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLEFAN
-title: "_D3DHAL_DP2INDEXEDTRIANGLEFAN"
+title: _D3DHAL_DP2INDEXEDTRIANGLEFAN (d3dhal.h)
 description: D3DHAL_DP2INDEXEDTRIANGLEFAN is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLEFAN, and is used to render a sequence of connected triangles using vertex indices. All of the triangles share a common vertex.
 old-location: display\d3dhal_dp2indexedtrianglefan.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2INDEXEDTRIANGLEFAN
+- D3DHAL_DP2INDEXEDTRIANGLEFAN
 product:
 - Windows
 targetos: Windows

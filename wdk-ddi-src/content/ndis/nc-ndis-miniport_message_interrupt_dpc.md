@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_MESSAGE_INTERRUPT_DPC
-title: MINIPORT_MESSAGE_INTERRUPT_DPC
+title: MINIPORT_MESSAGE_INTERRUPT_DPC (ndis.h)
 description: A miniport driver must provide a MiniportMessageInterruptDPC handler if the driver calls the NdisMRegisterInterruptEx function to register an interrupt.
 old-location: netvista\miniportmessageinterruptdpc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportMessageInterruptDPC
+- MiniportMessageInterruptDPC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeUUID16
-title: SdpCreateNodeUUID16 function
+title: SdpCreateNodeUUID16 function (sdplib.h)
 description: The Bluetooth SdpCreateNodeUUID16 function is used to allocate and initialize an SDP_NODE structure to a 16-bit UUID type.
 old-location: bltooth\sdpcreatenodeuuid16.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpCreateNodeUUID16
+- SdpCreateNodeUUID16
 product:
 - Windows
 targetos: Windows

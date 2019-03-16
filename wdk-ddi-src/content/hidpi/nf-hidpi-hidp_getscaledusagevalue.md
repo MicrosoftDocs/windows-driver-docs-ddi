@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetScaledUsageValue
-title: HidP_GetScaledUsageValue function
+title: HidP_GetScaledUsageValue function (hidpi.h)
 description: The HidP_GetScaledUsageValue routine returns the signed and scaled result of a HID control value extracted from a HID report.
 old-location: hid\hidp_getscaledusagevalue.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetScaledUsageValue
+- HidP_GetScaledUsageValue
 product:
 - Windows
 targetos: Windows

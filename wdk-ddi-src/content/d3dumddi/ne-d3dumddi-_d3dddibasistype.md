@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDIBASISTYPE
-title: _D3DDDIBASISTYPE
+title: _D3DDDIBASISTYPE (d3dumddi.h)
 description: The basis type.
 ms.assetid: e53cb2ca-f212-40a0-ae4a-cafdf463d43e
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDIBASISTYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDIBASISTYPE
+- _D3DDDIBASISTYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

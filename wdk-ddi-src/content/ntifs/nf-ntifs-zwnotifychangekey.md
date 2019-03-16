@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwNotifyChangeKey
-title: ZwNotifyChangeKey function
+title: ZwNotifyChangeKey function (ntifs.h)
 description: The ZwNotifyChangeKey routine allows a driver to request notification when a registry key changes.
 old-location: kernel\zwnotifychangekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwNotifyChangeKey
--	NtNotifyChangeKey
+- ZwNotifyChangeKey
+- NtNotifyChangeKey
 product:
 - Windows
 targetos: Windows

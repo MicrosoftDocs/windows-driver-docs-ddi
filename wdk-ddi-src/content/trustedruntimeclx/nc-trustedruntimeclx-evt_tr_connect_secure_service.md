@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CONNECT_SECURE_SERVICE
-title: EVT_TR_CONNECT_SECURE_SERVICE
+title: EVT_TR_CONNECT_SECURE_SERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 68fa7c1e-e03f-46b5-8373-391bb6dd330d
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_CONNECT_SECURE_SERVICE
+- EVT_TR_CONNECT_SECURE_SERVICE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

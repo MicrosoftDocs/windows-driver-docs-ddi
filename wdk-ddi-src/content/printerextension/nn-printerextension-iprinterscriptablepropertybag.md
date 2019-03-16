@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptablePropertyBag
-title: IPrinterScriptablePropertyBag
+title: IPrinterScriptablePropertyBag (printerextension.h)
 description: The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
 old-location: print\iprinterscriptablepropertybag.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptablePropertyBag
+- IPrinterScriptablePropertyBag
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortStateChangeDetected
-title: StorPortStateChangeDetected function
+title: StorPortStateChangeDetected function (storport.h)
 description: Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
 old-location: storage\storportstatechangedetected.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortStateChangeDetected
+- StorPortStateChangeDetected
 product:
 - Windows
 targetos: Windows

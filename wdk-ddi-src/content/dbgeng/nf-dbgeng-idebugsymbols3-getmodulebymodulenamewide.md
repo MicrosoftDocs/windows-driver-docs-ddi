@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleNameWide
-title: IDebugSymbols3::GetModuleByModuleNameWide
+title: IDebugSymbols3::GetModuleByModuleNameWide (dbgeng.h)
 description: The GetModuleByModuleNameWide method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulenamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetModuleByModuleNameWide
+- IDebugSymbols3.GetModuleByModuleNameWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SIZE_RANGE_0032
-title: D3D12DDI_VIDEO_SIZE_RANGE_0032
+title: D3D12DDI_VIDEO_SIZE_RANGE_0032 (d3d12umddi.h)
 description: Video size range.
 old-location: display\d3d12ddi-video-size-range-0032.htm
 ms.assetid: a4781fea-4efc-442d-8503-12be17afa9b1
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_SIZE_RANGE_0032
+- D3D12DDI_VIDEO_SIZE_RANGE_0032
 product:
 - Windows
 targetos: Windows

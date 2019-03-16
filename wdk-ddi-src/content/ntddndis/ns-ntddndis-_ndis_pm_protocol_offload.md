@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_PROTOCOL_OFFLOAD
-title: "_NDIS_PM_PROTOCOL_OFFLOAD"
+title: _NDIS_PM_PROTOCOL_OFFLOAD (ntddndis.h)
 description: The NDIS_PM_PROTOCOL_OFFLOAD structure specifies parameters for a low power protocol offload to a network adapter.
 old-location: netvista\ndis_pm_protocol_offload.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PM_PROTOCOL_OFFLOAD
+- NDIS_PM_PROTOCOL_OFFLOAD
 product:
 - Windows
 targetos: Windows

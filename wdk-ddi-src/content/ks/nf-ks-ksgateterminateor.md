@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateTerminateOr
-title: KsGateTerminateOr function
+title: KsGateTerminateOr function (ks.h)
 description: The KsGateTerminateOr function deletes an existing OR gate and removes an input from any attached AND gate.
 old-location: stream\ksgateterminateor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateTerminateOr
+- KsGateTerminateOr
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
-title: "_D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE"
+title: _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE (d3dumddi.h)
 description: The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contains the session key, which is used for encryption.
 old-location: display\d3dddiarg_cryptosessionkeyexchange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
+- D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 product:
 - Windows
 targetos: Windows

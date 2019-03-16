@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DOCUMENTEVENT_EVENT
-title: DOCUMENTEVENT_EVENT macro
+title: DOCUMENTEVENT_EVENT macro (winddiui.h)
 description: 
 ms.assetid: 141f16f3-fa3f-4cec-9854-be81557e97af
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winddiui.h
+- winddiui.h
 api_name: 
--	DOCUMENTEVENT_EVENT
+- DOCUMENTEVENT_EVENT
 product:
 -   Windows
 targetos: Windows

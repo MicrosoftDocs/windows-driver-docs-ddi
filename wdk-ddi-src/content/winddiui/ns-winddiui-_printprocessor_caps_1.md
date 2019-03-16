@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._PRINTPROCESSOR_CAPS_1
-title: _PRINTPROCESSOR_CAPS_1
+title: _PRINTPROCESSOR_CAPS_1 (winddiui.h)
 description: 
 ms.assetid: fbcf27fb-85e2-45c3-8109-42812d17c31a
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winddiui.h
+- winddiui.h
 api_name: 
--	_PRINTPROCESSOR_CAPS_1
+- _PRINTPROCESSOR_CAPS_1
 product:
 -   Windows
 targetos: Windows

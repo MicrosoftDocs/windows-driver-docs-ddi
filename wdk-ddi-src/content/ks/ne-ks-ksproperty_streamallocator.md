@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_21
-title: KSPROPERTY_STREAMALLOCATOR
+title: KSPROPERTY_STREAMALLOCATOR (ks.h)
 description: 
 old-location: stream\ksproperty_streamallocator.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_STREAMALLOCATOR
+- KSPROPERTY_STREAMALLOCATOR
 product:
 - Windows
 targetos: Windows

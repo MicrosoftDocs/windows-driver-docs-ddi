@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYPHYSICALADAPTERCAPSIN
-title: "_DXGK_QUERYPHYSICALADAPTERCAPSIN"
+title: _DXGK_QUERYPHYSICALADAPTERCAPSIN (d3dkmddi.h)
 description: The DXGK_QUERYPHYSICALADAPTERCAPSIN structure is used to query the display driver for the capabilities of the physical display adapter.
 old-location: display\dxgk_queryphysicaladaptercapsin.htm
 ms.assetid: 4B01E62F-5E5B-4316-B237-EADAA3C72242
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYPHYSICALADAPTERCAPSIN
+- DXGK_QUERYPHYSICALADAPTERCAPSIN
 product:
 - Windows
 targetos: Windows

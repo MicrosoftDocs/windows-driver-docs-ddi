@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_EJECTION_CONTROL
-title: IOCTL_STORAGE_EJECTION_CONTROL
+title: IOCTL_STORAGE_EJECTION_CONTROL (ntddstor.h)
 description: Locks the device to prevent removal of the media.
 old-location: storage\ioctl_storage_ejection_control.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_EJECTION_CONTROL
+- IOCTL_STORAGE_EJECTION_CONTROL
 product:
 - Windows
 targetos: Windows

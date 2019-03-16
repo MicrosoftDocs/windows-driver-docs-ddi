@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeTimerObject
-title: NdisFreeTimerObject function
+title: NdisFreeTimerObject function (ndis.h)
 description: The NdisFreeTimerObject function frees a timer object that was allocated with the NdisAllocateTimerObject function.
 old-location: netvista\ndisfreetimerobject.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeTimerObject
+- NdisFreeTimerObject
 product:
 - Windows
 targetos: Windows

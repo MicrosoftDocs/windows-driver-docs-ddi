@@ -1,6 +1,6 @@
 ---
 UID: NI:bthxddi.IOCTL_BTHX_SET_VERSION
-title: IOCTL_BTHX_SET_VERSION
+title: IOCTL_BTHX_SET_VERSION (bthxddi.h)
 description: IOCTL_BTHX_SET_VERSION is used to inform the transport driver of the version of the extensibility interface being used.
 old-location: bltooth\ioctl_bthx_set_version.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	BthXDDI.h
+- BthXDDI.h
 api_name:
--	IOCTL_BTHX_SET_VERSION
+- IOCTL_BTHX_SET_VERSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FibrePortHBAAttributes
-title: "_MSFC_FibrePortHBAAttributes"
+title: _MSFC_FibrePortHBAAttributes (hbapiwmi.h)
 description: A WMI provider uses the MSFC_FibrePortHBAAttributes WMI class to expose attribute information associated with a fibre channel port.
 old-location: storage\msfc_fibreporthbaattributes.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_FibrePortHBAAttributes
+- MSFC_FibrePortHBAAttributes
 product:
 - Windows
 targetos: Windows

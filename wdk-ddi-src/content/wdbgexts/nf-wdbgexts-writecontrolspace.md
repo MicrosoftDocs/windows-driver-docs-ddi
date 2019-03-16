@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteControlSpace
-title: WriteControlSpace function
+title: WriteControlSpace function (wdbgexts.h)
 description: The WriteControlSpace function writes to the processor-specific control space of the current target.
 old-location: debugger\writecontrolspace.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WriteControlSpace
+- WriteControlSpace
 product:
 - Windows
 targetos: Windows

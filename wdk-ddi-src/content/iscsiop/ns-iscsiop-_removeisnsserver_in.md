@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveiSNSServer_IN
-title: "_RemoveiSNSServer_IN"
+title: _RemoveiSNSServer_IN (iscsiop.h)
 description: The RemoveiSNSServer_IN structure holds the input data for the user-mode RemoveISNSServer method, which is used to remove an iSNS server entry.
 old-location: storage\removeisnsserver_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemoveiSNSServer_IN
+- RemoveiSNSServer_IN
 product:
 - Windows
 targetos: Windows

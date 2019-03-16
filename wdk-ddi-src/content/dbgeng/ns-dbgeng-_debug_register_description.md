@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_REGISTER_DESCRIPTION
-title: "_DEBUG_REGISTER_DESCRIPTION"
+title: _DEBUG_REGISTER_DESCRIPTION (dbgeng.h)
 description: The DEBUG_REGISTER_DESCRIPTION structure is returned by GetDescription to describe a processor's register.
 old-location: debugger\debug_register_description.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_REGISTER_DESCRIPTION
+- DEBUG_REGISTER_DESCRIPTION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchIncomingCall
-title: NdisMCmDispatchIncomingCall macro
+title: NdisMCmDispatchIncomingCall macro (ndis.h)
 description: NdisMCmDispatchIncomingCall informs the client of an incoming call on a SAP previously registered by that client with the MCM driver.
 old-location: netvista\ndismcmdispatchincomingcall.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmDispatchIncomingCall
+- NdisMCmDispatchIncomingCall
 product:
 - Windows
 targetos: Windows

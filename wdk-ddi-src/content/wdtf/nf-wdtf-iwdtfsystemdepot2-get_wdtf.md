@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFSystemDepot2.get_WDTF
-title: IWDTFSystemDepot2::get_WDTF
+title: IWDTFSystemDepot2::get_WDTF (wdtf.h)
 description: Gets the main WDTF aggregation object.
 old-location: dtf\iwdtfsystemdepot2_wdtf.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFSystemDepot2.WDTF
--	IWDTFSystemDepot2.get_WDTF
+- IWDTFSystemDepot2.WDTF
+- IWDTFSystemDepot2.get_WDTF
 product:
 - Windows
 targetos: Windows

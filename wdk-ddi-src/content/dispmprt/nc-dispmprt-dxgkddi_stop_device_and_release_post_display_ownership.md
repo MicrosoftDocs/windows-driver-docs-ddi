@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP
-title: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP
+title: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP (dispmprt.h)
 description: Called by the operating system to request the display miniport driver to reset the display device and to release ownership of the current power-on self-test (POST) device.
 old-location: display\dxgkddireleasepostdisplayownership.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiStopDeviceAndReleasePostDisplayOwnership
+- DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 product:
 - Windows
 targetos: Windows

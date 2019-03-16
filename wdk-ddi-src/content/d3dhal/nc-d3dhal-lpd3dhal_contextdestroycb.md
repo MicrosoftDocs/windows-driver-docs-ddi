@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dhal.LPD3DHAL_CONTEXTDESTROYCB
-title: LPD3DHAL_CONTEXTDESTROYCB
+title: LPD3DHAL_CONTEXTDESTROYCB (d3dhal.h)
 description: The D3dContextDestroy function deletes the specified context.
 old-location: display\d3dcontextdestroy.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3dContextDestroy
+- D3dContextDestroy
 product:
 - Windows
 targetos: Windows

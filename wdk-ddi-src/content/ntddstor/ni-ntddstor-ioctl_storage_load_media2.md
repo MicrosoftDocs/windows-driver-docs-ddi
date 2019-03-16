@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_LOAD_MEDIA2
-title: IOCTL_STORAGE_LOAD_MEDIA2
+title: IOCTL_STORAGE_LOAD_MEDIA2 (ntddstor.h)
 description: Causes media to be loaded in a device that the caller has opened with FILE_READ_ATTRIBUTES.
 old-location: storage\ioctl_storage_load_media2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_LOAD_MEDIA2
+- IOCTL_STORAGE_LOAD_MEDIA2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGroupMaxProcessorCount
-title: NdisGroupMaxProcessorCount function
+title: NdisGroupMaxProcessorCount function (ndis.h)
 description: The NdisGroupMaxProcessorCount function determines the maximum number of processors in a specified processor group.
 old-location: netvista\ndisgroupmaxprocessorcount.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGroupMaxProcessorCount
+- NdisGroupMaxProcessorCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
-title: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
+title: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 (d3d12umddi.h)
 description: Contains information for a transform.
 old-location: display\d3d12ddi_video_process_transform.htm
 ms.assetid: E463BD7F-F89C-4D82-ABCA-4AF48EC21655
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
+- D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020
 product:
 - Windows
 targetos: Windows

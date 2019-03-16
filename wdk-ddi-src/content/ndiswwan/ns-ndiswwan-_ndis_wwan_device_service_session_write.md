@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
-title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE"
+title: _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents device service session data to be sent from the host to the MB device.
 old-location: netvista\ndis_wwan_device_service_session_write.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
+- NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
 product:
 - Windows
 targetos: Windows

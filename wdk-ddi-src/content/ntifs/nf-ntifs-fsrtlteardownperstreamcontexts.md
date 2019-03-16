@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlTeardownPerStreamContexts
-title: FsRtlTeardownPerStreamContexts function
+title: FsRtlTeardownPerStreamContexts function (ntifs.h)
 description: The FsRtlTeardownPerStreamContexts routine frees all per-stream context structures associated with a given FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtlteardownperstreamcontexts.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlTeardownPerStreamContexts
+- FsRtlTeardownPerStreamContexts
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtDeregisterManagedClient
-title: ClfsMgmtDeregisterManagedClient function
+title: ClfsMgmtDeregisterManagedClient function (wdm.h)
 description: The ClfsMgmtDeregisterManagedClient routine removes the connection between a client and a log, so that the client no longer manages the log.
 old-location: kernel\clfsmgmtderegistermanagedclient.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsMgmtDeregisterManagedClient
+- ClfsMgmtDeregisterManagedClient
 product:
 - Windows
 targetos: Windows

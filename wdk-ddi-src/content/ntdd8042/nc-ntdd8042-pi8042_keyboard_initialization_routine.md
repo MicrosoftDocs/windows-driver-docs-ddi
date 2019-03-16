@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_KEYBOARD_INITIALIZATION_ROUTINE
-title: PI8042_KEYBOARD_INITIALIZATION_ROUTINE
+title: PI8042_KEYBOARD_INITIALIZATION_ROUTINE (ntdd8042.h)
 description: A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt.
 old-location: hid\pi8042_keyboard_initialization_routine.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	KeyboardInitializationRoutine
+- KeyboardInitializationRoutine
 product:
 - Windows
 targetos: Windows

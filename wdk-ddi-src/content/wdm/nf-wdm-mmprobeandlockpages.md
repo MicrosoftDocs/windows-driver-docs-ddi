@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmProbeAndLockPages
-title: MmProbeAndLockPages function
+title: MmProbeAndLockPages function (wdm.h)
 description: The MmProbeAndLockPages routine probes the specified virtual memory pages, makes them resident, and locks them in memory.
 old-location: kernel\mmprobeandlockpages.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmProbeAndLockPages
+- MmProbeAndLockPages
 product:
 - Windows
 targetos: Windows

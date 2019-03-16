@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEKEYEDMUTEX
-title: "_D3DKMT_CREATEKEYEDMUTEX"
+title: _D3DKMT_CREATEKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTCreateKeyedMutex function creates.
 old-location: display\d3dkmt_createkeyedmutex.htm
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEKEYEDMUTEX
+- D3DKMT_CREATEKEYEDMUTEX
 product:
 - Windows
 targetos: Windows

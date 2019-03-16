@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_23
-title: KSTOPOLOGY_CONNECTION
+title: KSTOPOLOGY_CONNECTION (ks.h)
 description: The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 old-location: stream\kstopology_connection.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSTOPOLOGY_CONNECTION
+- KSTOPOLOGY_CONNECTION
 product:
 - Windows
 targetos: Windows

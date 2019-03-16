@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SLIST_ENTRY
-title: "_SLIST_ENTRY"
+title: _SLIST_ENTRY (wdm.h)
 description: An SLIST_ENTRY structure describes an entry in a sequenced singly linked list.
 old-location: kernel\slist_entry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SLIST_ENTRY
+- SLIST_ENTRY
 product:
 - Windows
 targetos: Windows

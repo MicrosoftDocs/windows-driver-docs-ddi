@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetBreakpointByGuid
-title: IDebugControl5::GetBreakpointByGuid
+title: IDebugControl5::GetBreakpointByGuid (dbgeng.h)
 description: The GetBreakpointByGuid method returns the breakpoint with the specified breakpoint GUID.
 old-location: debugger\idebugcontrol5_getbreakpointbyguid.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl5.GetBreakpointByGuid
+- IDebugControl5.GetBreakpointByGuid
 product:
 - Windows
 targetos: Windows

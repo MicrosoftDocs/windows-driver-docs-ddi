@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_ERROR
-title: WIAS_ERROR macro
+title: WIAS_ERROR macro (wiautil.h)
 description: The WIAS_ERROR macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_error.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_ERROR
+- WIAS_ERROR
 product:
 - Windows
 targetos: Windows

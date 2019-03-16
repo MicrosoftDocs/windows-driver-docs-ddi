@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RescanParentDevice
-title: IWDTFPNPAction2::RescanParentDevice
+title: IWDTFPNPAction2::RescanParentDevice (wdtfpnpaction.h)
 description: Rescans and re-enumerates the target device's parent device.
 old-location: dtf\iwdtfpnpaction2_rescanparentdevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.RescanParentDevice
+- IWDTFPNPAction2.RescanParentDevice
 product:
 - Windows
 targetos: Windows

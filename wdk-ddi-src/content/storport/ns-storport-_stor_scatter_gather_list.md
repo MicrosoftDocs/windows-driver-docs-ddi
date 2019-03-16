@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_SCATTER_GATHER_LIST
-title: "_STOR_SCATTER_GATHER_LIST"
+title: _STOR_SCATTER_GATHER_LIST (storport.h)
 description: The STOR_SCATTER_GATHER_LIST structure is used in conjunction with the StorPortGetScatterGatherList routine to retrieve the scatter/gather list for a SCSI request block (SRB).
 old-location: storage\stor_scatter_gather_list.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_SCATTER_GATHER_LIST
+- STOR_SCATTER_GATHER_LIST
 product:
 - Windows
 targetos: Windows

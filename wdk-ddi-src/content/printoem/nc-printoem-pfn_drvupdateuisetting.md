@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvUpdateUISetting
-title: PFN_DrvUpdateUISetting
+title: PFN_DrvUpdateUISetting (printoem.h)
 description: The DrvUpdateUISetting function is obsolete.
 old-location: print\drvupdateuisetting.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvUpdateUISetting
+- DrvUpdateUISetting
 product:
 - Windows
 targetos: Windows

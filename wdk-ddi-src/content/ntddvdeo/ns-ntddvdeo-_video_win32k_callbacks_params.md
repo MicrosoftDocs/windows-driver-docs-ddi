@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS_PARAMS
-title: "_VIDEO_WIN32K_CALLBACKS_PARAMS"
+title: _VIDEO_WIN32K_CALLBACKS_PARAMS (ntddvdeo.h)
 description: The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
 old-location: display\video_win32k_callbacks_params.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_WIN32K_CALLBACKS_PARAMS
+- VIDEO_WIN32K_CALLBACKS_PARAMS
 product:
 - Windows
 targetos: Windows

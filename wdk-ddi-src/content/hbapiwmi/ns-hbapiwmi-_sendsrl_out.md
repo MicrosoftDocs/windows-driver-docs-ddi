@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendSRL_OUT
-title: "_SendSRL_OUT"
+title: _SendSRL_OUT (hbapiwmi.h)
 description: The SendSRL_OUT structure is used to report the output parameter data of the SendSRL WMI method to the WMI client.
 old-location: storage\sendsrl_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SendSRL_OUT
+- SendSRL_OUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ENUMADAPTERS
-title: PFND3DKMT_ENUMADAPTERS
+title: PFND3DKMT_ENUMADAPTERS (d3dkmthk.h)
 description: Enumerates all graphics adapters on the system.
 old-location: display\d3dkmtenumadapters.htm
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMTEnumAdapters
+- D3DKMTEnumAdapters
 product:
 - Windows
 targetos: Windows

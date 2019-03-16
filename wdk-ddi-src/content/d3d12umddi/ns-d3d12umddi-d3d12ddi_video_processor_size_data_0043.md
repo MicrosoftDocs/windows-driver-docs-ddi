@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
-title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
+title: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 (d3d12umddi.h)
 description: Retrieves the memory allocation size of a video processor created with the given properties.
 ms.assetid: 0c42a649-c528-4813-bfd8-1f5e85f048dc
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
+- D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
 product: 
 - Windows
 targetos: Windows

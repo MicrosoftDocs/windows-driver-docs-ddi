@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeIdWide
-title: IDebugSymbols3::GetTypeIdWide
+title: IDebugSymbols3::GetTypeIdWide (dbgeng.h)
 description: The GetTypeIdWide method looks up the specified type and return its type ID.
 old-location: debugger\gettypeidwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetTypeIdWide
+- IDebugSymbols3.GetTypeIdWide
 product:
 - Windows
 targetos: Windows

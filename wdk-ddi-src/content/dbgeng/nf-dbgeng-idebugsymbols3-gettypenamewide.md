@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeNameWide
-title: IDebugSymbols3::GetTypeNameWide
+title: IDebugSymbols3::GetTypeNameWide (dbgeng.h)
 description: The GetTypeNameWide method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypenamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3.GetTypeNameWide
+- IDebugSymbols3.GetTypeNameWide
 product:
 - Windows
 targetos: Windows

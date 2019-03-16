@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFilterFromName
-title: FltGetFilterFromName function
+title: FltGetFilterFromName function (fltkernel.h)
 description: The FltGetFilterFromName routine returns an opaque filter pointer for a registered minifilter driver whose name matches the value in the FilterName parameter.
 old-location: ifsk\fltgetfilterfromname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetFilterFromName
+- FltGetFilterFromName
 product:
 - Windows
 targetos: Windows

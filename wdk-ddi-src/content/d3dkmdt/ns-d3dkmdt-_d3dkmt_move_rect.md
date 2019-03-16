@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_MOVE_RECT
-title: "_D3DKMT_MOVE_RECT"
+title: _D3DKMT_MOVE_RECT (d3dkmdt.h)
 description: Provides information on a screen-to-screen move and a dirty rectangle copy operation.
 old-location: display\d3dkmt_move_rect.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	D3DKMT_MOVE_RECT
+- D3DKMT_MOVE_RECT
 product:
 - Windows
 targetos: Windows

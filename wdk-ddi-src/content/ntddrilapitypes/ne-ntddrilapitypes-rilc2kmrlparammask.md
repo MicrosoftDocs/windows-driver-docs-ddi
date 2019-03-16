@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILC2KMRLPARAMMASK
-title: RILC2KMRLPARAMMASK
+title: RILC2KMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILC2KMRLPARAMMASK.
 old-location: netvista\rilc2kmrlparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILC2KMRLPARAMMASK
+- RILC2KMRLPARAMMASK
 product:
 - Windows
 targetos: Windows

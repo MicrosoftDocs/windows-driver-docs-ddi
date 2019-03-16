@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_IDENTIFIER
-title: "_STORAGE_IDENTIFIER"
+title: _STORAGE_IDENTIFIER (ntddstor.h)
 description: The STORAGE_IDENTIFIER structure represents a SCSI identification descriptor.
 old-location: storage\storage_identifier.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_IDENTIFIER
+- STORAGE_IDENTIFIER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TDRDBGCTRL_ESCAPE
-title: _D3DKMT_TDRDBGCTRL_ESCAPE
+title: _D3DKMT_TDRDBGCTRL_ESCAPE (d3dkmthk.h)
 description: Contains values for the (TDR) timeout detection and recovery escape process.
 ms.assetid: 0a8356c9-0c42-4aee-9880-80d45be746f5
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_TDRDBGCTRL_ESCAPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TDRDBGCTRL_ESCAPE
+- _D3DKMT_TDRDBGCTRL_ESCAPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelIterator.GetNext
-title: IModelIterator::GetNext
+title: IModelIterator::GetNext (dbgmodel.h)
 description: The GetNext method moves the iterator forward and fetches the next iterated element.
 ms.assetid: 27a21fcb-dc5e-4551-a48d-321db2715aec
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelIterator.GetNext
-product: Windows
+- IModelIterator.GetNext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

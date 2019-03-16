@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetDevicePnpAndBaseObject
-title: KsSetDevicePnpAndBaseObject function
+title: KsSetDevicePnpAndBaseObject function (ks.h)
 description: The KsSetDevicePnpAndBaseObject function sets the PnP device object in the device header, which is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if KsDefaultDispatchPnp is used.
 old-location: stream\kssetdevicepnpandbaseobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetDevicePnpAndBaseObject
+- KsSetDevicePnpAndBaseObject
 product:
 - Windows
 targetos: Windows

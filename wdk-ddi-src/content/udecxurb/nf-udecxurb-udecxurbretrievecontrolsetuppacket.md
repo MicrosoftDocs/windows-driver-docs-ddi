@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbRetrieveControlSetupPacket
-title: UdecxUrbRetrieveControlSetupPacket function
+title: UdecxUrbRetrieveControlSetupPacket function (udecxurb.h)
 description: Retrieves a USB control setup packet from a specified framework request object.
 old-location: buses\udecxurbretrievecontrolsetuppacket.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUrbRetrieveControlSetupPacket
+- UdecxUrbRetrieveControlSetupPacket
 product:
 - Windows
 targetos: Windows

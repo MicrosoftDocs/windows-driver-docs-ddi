@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.SET_OPTIONS
-title: SET_OPTIONS
+title: SET_OPTIONS (ndis.h)
 description: NDIS calls a driver's XxxSetOptions function to allow the driver to register optional services.
 old-location: netvista\protocolsetoptions.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	SetOptions
+- SetOptions
 product:
 - Windows
 targetos: Windows

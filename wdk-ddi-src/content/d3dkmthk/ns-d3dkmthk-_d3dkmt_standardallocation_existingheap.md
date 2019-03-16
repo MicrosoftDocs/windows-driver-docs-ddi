@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
-title: "_D3DKMT_STANDARDALLOCATION_EXISTINGHEAP"
+title: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP (d3dkmthk.h)
 description: Holds information about the existing heap.
 old-location: display\d3dkmt-standardallocation-existingheap.htm
 ms.assetid: 7e97fb29-64a7-4fb5-b07e-a9810499cf1b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
+- D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 product:
 - Windows
 targetos: Windows

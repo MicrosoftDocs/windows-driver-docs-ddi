@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_17
-title: GNSS_BREADCRUMB_V1
+title: GNSS_BREADCRUMB_V1 (gnssdriver.h)
 description: This structure contains an individual breadcrumb. The order and types of the fields are designed to pack densely.
 old-location: gnss\gnss_breadcrumb_v1.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_BREADCRUMB_V1
+- GNSS_BREADCRUMB_V1
 product:
 - Windows
 targetos: Windows

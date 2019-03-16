@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeTunnelCache
-title: FsRtlInitializeTunnelCache function
+title: FsRtlInitializeTunnelCache function (ntifs.h)
 description: The FsRtlInitializeTunnelCache routine initializes a new tunnel cache for a volume.
 old-location: ifsk\fsrtlinitializetunnelcache.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlInitializeTunnelCache
+- FsRtlInitializeTunnelCache
 product:
 - Windows
 targetos: Windows

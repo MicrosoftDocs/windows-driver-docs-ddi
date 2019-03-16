@@ -1,6 +1,6 @@
 ---
 UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
-title: EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
+title: EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE (netreceivescaling.h)
 description: The EvtNetAdapterReceiveScalingEnable callback function is implemented by the client driver to enable receive side scaling (RSS) for a network interface controller (NIC).
 tech.root: netvista
 ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netreceivescaling.h
+api_name: 
+- EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

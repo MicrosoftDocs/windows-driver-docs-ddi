@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_11
-title: PRI_RESERVATION_LIST
+title: PRI_RESERVATION_LIST (scsi.h)
 description: The PRI_RESERVATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 old-location: storage\pri_reservation_list.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	PRI_RESERVATION_LIST
+- PRI_RESERVATION_LIST
 product:
 - Windows
 targetos: Windows

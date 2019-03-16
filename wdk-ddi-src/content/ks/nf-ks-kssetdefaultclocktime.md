@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetDefaultClockTime
-title: KsSetDefaultClockTime function
+title: KsSetDefaultClockTime function (ks.h)
 description: The KsSetDefaultClockTime function sets the current time of the clock.
 old-location: stream\kssetdefaultclocktime.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetDefaultClockTime
+- KsSetDefaultClockTime
 product:
 - Windows
 targetos: Windows

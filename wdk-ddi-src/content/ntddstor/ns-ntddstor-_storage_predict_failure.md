@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PREDICT_FAILURE
-title: "_STORAGE_PREDICT_FAILURE"
+title: _STORAGE_PREDICT_FAILURE (ntddstor.h)
 description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PREDICT_FAILURE
+- STORAGE_PREDICT_FAILURE
 product:
 - Windows
 targetos: Windows

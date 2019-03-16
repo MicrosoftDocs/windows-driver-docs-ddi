@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_REQUEST_BLOCK
-title: "_SCSI_REQUEST_BLOCK"
+title: _SCSI_REQUEST_BLOCK (storport.h)
 description: SCSI_REQUEST_BLOCK structure
 old-location: storage\scsi_request_block.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	srb.h
+- srb.h
 api_name:
--	SCSI_REQUEST_BLOCK
+- SCSI_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

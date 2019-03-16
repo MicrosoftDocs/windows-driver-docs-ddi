@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDeactivateVc
-title: NdisMCmDeactivateVc function
+title: NdisMCmDeactivateVc function (ndis.h)
 description: NdisMCmDeactivateVc notifies NDIS that there will be no further transfers on a particular active VC.
 old-location: netvista\ndismcmdeactivatevc.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMCmDeactivateVc
+- NdisMCmDeactivateVc
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
-title: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
+title: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO (parallel.h)
 description: The IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO request returns information about a parallel port.
 old-location: parports\ioctl_internal_get_more_parallel_port_info.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
+- IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCloseClientPort
-title: FltCloseClientPort function
+title: FltCloseClientPort function (fltkernel.h)
 description: FltCloseClientPort closes a communication client port.
 old-location: ifsk\fltcloseclientport.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltCloseClientPort
+- FltCloseClientPort
 product:
 - Windows
 targetos: Windows

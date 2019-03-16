@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENAME
-title: "_D3DDDIARG_RENAME"
+title: _D3DDDIARG_RENAME (d3dumddi.h)
 description: The D3DDDIARG_RENAME structure describes a resource or a surface within the resource to rename with a new allocation.
 old-location: display\d3dddiarg_rename.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_RENAME
+- D3DDDIARG_RENAME
 product:
 - Windows
 targetos: Windows

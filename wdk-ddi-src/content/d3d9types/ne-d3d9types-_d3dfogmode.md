@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DFOGMODE
-title: _D3DFOGMODE
+title: _D3DFOGMODE (d3d9types.h)
 description: 
 ms.assetid: 37898f4e-bace-4e15-818f-f8dba81f57fb
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DFOGMODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DFOGMODE
+- _D3DFOGMODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

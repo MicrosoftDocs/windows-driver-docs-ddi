@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
-title: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA function
+title: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA function (netadapter.h)
 description: The NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA method initializes a NET_ADAPTER_RX_CAPABILITIES structure for a net adapter that would like to specify operating system-managed receive buffer allocation and attachment, as well as DMA for memory mapping.
 tech.root: netvista
 ms.assetid: 784695e1-dd5f-49ab-b72d-31857b1f13aa
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

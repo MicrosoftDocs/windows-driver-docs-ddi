@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFO
-title: "_DXGK_ALLOCATIONINFO"
+title: _DXGK_ALLOCATIONINFO (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFO structure describes parameters for creating an allocation.
 old-location: display\dxgk_allocationinfo.htm
 ms.assetid: d5767bd3-11f8-45a7-b760-3ed51c54c044
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_ALLOCATIONINFO
+- DXGK_ALLOCATIONINFO
 product:
 - Windows
 targetos: Windows

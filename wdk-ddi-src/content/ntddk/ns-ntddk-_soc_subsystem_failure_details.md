@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._SOC_SUBSYSTEM_FAILURE_DETAILS
-title: "_SOC_SUBSYSTEM_FAILURE_DETAILS"
+title: _SOC_SUBSYSTEM_FAILURE_DETAILS (ntddk.h)
 description: The SOC_SUBSYSTEM_FAILURE_DETAILS structure holds information related to a System on a Chip (SoC) bug code.
 old-location: whea\soc_subsystem_failure_details.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	SOC_SUBSYSTEM_FAILURE_DETAILS
+- SOC_SUBSYSTEM_FAILURE_DETAILS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMMemoryUsage
-title: OEMMemoryUsage function
+title: OEMMemoryUsage function (printoem.h)
 description: This function is obsolete for Windows XP and later.wcs
 old-location: print\oemmemoryusage__function_.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMMemoryUsage
+- OEMMemoryUsage
 product:
 - Windows
 targetos: Windows

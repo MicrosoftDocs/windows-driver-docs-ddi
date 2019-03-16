@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemovePerFileContext
-title: FsRtlRemovePerFileContext function
+title: FsRtlRemovePerFileContext function (ntifs.h)
 description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a file.
 old-location: ifsk\fsrtlremoveperfilecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlRemovePerFileContext
+- FsRtlRemovePerFileContext
 product:
 - Windows
 targetos: Windows

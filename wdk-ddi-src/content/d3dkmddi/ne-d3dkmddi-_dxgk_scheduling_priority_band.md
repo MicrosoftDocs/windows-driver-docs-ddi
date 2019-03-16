@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_SCHEDULING_PRIORITY_BAND
-title: _DXGK_SCHEDULING_PRIORITY_BAND
+title: _DXGK_SCHEDULING_PRIORITY_BAND (d3dkmddi.h)
 description: Describes the types of scheduling priority band.
 ms.assetid: fde901af-ea53-479c-8ea5-c719c6b98e10
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGK_SCHEDULING_PRIORITY_BAND
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SCHEDULING_PRIORITY_BAND
+- _DXGK_SCHEDULING_PRIORITY_BAND
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

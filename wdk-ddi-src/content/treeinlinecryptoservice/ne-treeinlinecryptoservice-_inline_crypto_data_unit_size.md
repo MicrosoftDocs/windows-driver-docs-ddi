@@ -1,6 +1,6 @@
 ---
 UID: NE:treeinlinecryptoservice._INLINE_CRYPTO_DATA_UNIT_SIZE
-title: _INLINE_CRYPTO_DATA_UNIT_SIZE
+title: _INLINE_CRYPTO_DATA_UNIT_SIZE (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treeinlinecryptoservice.h
+- treeinlinecryptoservice.h
 api_name: 
--	_INLINE_CRYPTO_DATA_UNIT_SIZE
+- _INLINE_CRYPTO_DATA_UNIT_SIZE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

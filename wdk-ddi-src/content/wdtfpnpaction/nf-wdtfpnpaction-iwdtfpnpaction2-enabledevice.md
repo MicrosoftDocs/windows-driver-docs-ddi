@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EnableDevice
-title: IWDTFPNPAction2::EnableDevice
+title: IWDTFPNPAction2::EnableDevice (wdtfpnpaction.h)
 description: Enables the target device.
 old-location: dtf\iwdtfpnpaction2_enabledevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.EnableDevice
+- IWDTFPNPAction2.EnableDevice
 product:
 - Windows
 targetos: Windows

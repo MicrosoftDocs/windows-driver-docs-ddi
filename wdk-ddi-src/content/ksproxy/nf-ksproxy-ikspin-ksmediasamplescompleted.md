@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsMediaSamplesCompleted
-title: IKsPin::KsMediaSamplesCompleted
+title: IKsPin::KsMediaSamplesCompleted (ksproxy.h)
 description: The KsMediaSamplesCompleted method informs a pin that a stream segment completed.
 old-location: stream\ikspin_ksmediasamplescompleted.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsMediaSamplesCompleted
+- IKsPin.KsMediaSamplesCompleted
 product:
 - Windows
 targetos: Windows

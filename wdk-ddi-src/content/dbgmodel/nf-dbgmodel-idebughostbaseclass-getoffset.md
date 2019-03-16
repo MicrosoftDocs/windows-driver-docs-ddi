@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetOffset
-title: IDebugHostBaseClass::GetOffset
+title: IDebugHostBaseClass::GetOffset (dbgmodel.h)
 description: The GetOffset method returns the offset of the base class from the base address of the derived class.
 ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostBaseClass.GetOffset
-product: Windows
+- IDebugHostBaseClass.GetOffset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-title: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
+title: _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE (minitape.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
+- VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest2
-title: IWDFIoRequest2
+title: IWDFIoRequest2 (wudfddi.h)
 description: To obtain the IWDFIoRequest2 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest2.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2
+- IWDFIoRequest2
 product:
 - Windows
 targetos: Windows

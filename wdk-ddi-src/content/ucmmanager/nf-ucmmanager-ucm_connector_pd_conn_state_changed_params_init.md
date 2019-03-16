@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
-title: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function
+title: UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT function (ucmmanager.h)
 description: Initializes a UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure.
 old-location: buses\ucm_connector_pd_conn_state_changed_params_init.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
+- UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

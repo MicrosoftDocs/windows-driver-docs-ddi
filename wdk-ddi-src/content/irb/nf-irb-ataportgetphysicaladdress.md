@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetPhysicalAddress
-title: AtaPortGetPhysicalAddress function
+title: AtaPortGetPhysicalAddress function (irb.h)
 description: The AtaPortGetPhysicalAddress routine converts the virtual address range to the physical address range.
 old-location: storage\ataportgetphysicaladdress.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortGetPhysicalAddress
+- AtaPortGetPhysicalAddress
 product:
 - Windows
 targetos: Windows

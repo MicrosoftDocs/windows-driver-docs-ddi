@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetThreadHardErrorMode
-title: IoSetThreadHardErrorMode function
+title: IoSetThreadHardErrorMode function (ntddk.h)
 description: The IoSetThreadHardErrorMode routine enables or disables hard error reporting for the current thread.
 old-location: kernel\iosetthreadharderrormode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetThreadHardErrorMode
+- IoSetThreadHardErrorMode
 product:
 - Windows
 targetos: Windows

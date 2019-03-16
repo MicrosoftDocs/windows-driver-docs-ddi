@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB
-title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB
+title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB (d3dumddi.h)
 description: pfnSignalSynchronizationObjectFromGpu2Cb is used to signal a monitored fence.
 old-location: display\pfnsignalsynchronizationobjectfromgpu2cb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnSignalSynchronizationObjectFromGpu2Cb
+- pfnSignalSynchronizationObjectFromGpu2Cb
 product:
 - Windows
 targetos: Windows

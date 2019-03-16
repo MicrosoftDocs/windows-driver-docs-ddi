@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.READ_REGISTER_ULONG64
-title: READ_REGISTER_ULONG64 function
+title: READ_REGISTER_ULONG64 function (wdm.h)
 description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
 old-location: wdf\read_register_ulong64.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	READ_REGISTER_ULONG64
+- READ_REGISTER_ULONG64
 product:
 - Windows
 targetos: Windows

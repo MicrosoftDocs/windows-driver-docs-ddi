@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_NEXT_NBL
-title: NET_BUFFER_LIST_NEXT_NBL macro
+title: NET_BUFFER_LIST_NEXT_NBL macro (ndis.h)
 description: NET_BUFFER_LIST_NEXT_NBL is a macro that NDIS drivers use to get the next NET_BUFFER_LIST structure in a linked list of NET_BUFFER_LIST structures.
 tech.root: netvista
 ms.assetid: 43a4a7df-a62e-4192-b2b5-2ae64698177c
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_NEXT_NBL
+- NET_BUFFER_LIST_NEXT_NBL
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

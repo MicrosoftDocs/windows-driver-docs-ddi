@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetInitiatorProcessId
-title: WdfFileObjectGetInitiatorProcessId function
+title: WdfFileObjectGetInitiatorProcessId function (wdffileobject.h)
 description: The WdfFileObjectGetInitiatorProcessId function retrieves the initiator process ID that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectgetinitiatorprocessid.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfFileObjectGetInitiatorProcessId
+- WdfFileObjectGetInitiatorProcessId
 product:
 - Windows
 targetos: Windows

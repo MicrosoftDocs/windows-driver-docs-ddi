@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreThereWaitingFileLocks
-title: FsRtlAreThereWaitingFileLocks function
+title: FsRtlAreThereWaitingFileLocks function (ntifs.h)
 description: The FsRtlAreThereWaitingFileLocks routine checks a file lock queue for any waiting file locks.
 old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAreThereWaitingFileLocks
+- FsRtlAreThereWaitingFileLocks
 product:
 - Windows
 targetos: Windows

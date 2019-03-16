@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.GetAt
-title: IPortableDeviceKeyCollection::GetAt
+title: IPortableDeviceKeyCollection::GetAt (portabledevicetypes.h)
 description: Retrieves a PROPERTYKEY from the collection by index.
 old-location: wpddk\iportabledevicekeycollection_getat.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceKeyCollection.GetAt
+- IPortableDeviceKeyCollection.GetAt
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

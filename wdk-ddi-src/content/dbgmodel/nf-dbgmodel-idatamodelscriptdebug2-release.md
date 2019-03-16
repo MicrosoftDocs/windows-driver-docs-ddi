@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.Release
-title: IDataModelScriptDebug2::Release
+title: IDataModelScriptDebug2::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 08520bbf-96dd-431c-8752-f1243a277e03
 ms.date: 08/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.Release
-product: Windows
+- IDataModelScriptDebug2.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

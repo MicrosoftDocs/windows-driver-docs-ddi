@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLRELEASEFRAME
-title: PFND3DKMT_OUTPUTDUPLRELEASEFRAME
+title: PFND3DKMT_OUTPUTDUPLRELEASEFRAME (d3dkmthk.h)
 description: Indicates that the driver has finished processing the duplicated desktop image.
 old-location: display\d3dkmtoutputduplreleaseframe.htm
 ms.assetid: 07bbc201-0320-4f26-be0a-27c06763813f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMTOutputDuplReleaseFrame
+- D3DKMTOutputDuplReleaseFrame
 product:
 - Windows
 targetos: Windows

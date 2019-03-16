@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortToUChar
-title: RtlUShortToUChar function
+title: RtlUShortToUChar function (ntintsafe.h)
 description: Converts a value of type USHORT to a value of type UCHAR.
 old-location: kernel\rtlushorttouchar.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUShortToUChar
+- RtlUShortToUChar
 product:
 - Windows
 targetos: Windows

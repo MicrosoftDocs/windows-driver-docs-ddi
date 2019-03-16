@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEVERTEXSHADERDECL
-title: PFND3DDDI_CREATEVERTEXSHADERDECL
+title: PFND3DDDI_CREATEVERTEXSHADERDECL (d3dumddi.h)
 description: The CreateVertexShaderDecl function converts the vertex shader declaration into a hardware-specific format and associates the declaration with a shader handle.
 old-location: display\createvertexshaderdecl.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CreateVertexShaderDecl
+- CreateVertexShaderDecl
 product:
 - Windows
 targetos: Windows

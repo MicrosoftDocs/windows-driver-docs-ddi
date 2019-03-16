@@ -1,6 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_NODE_DATA
-title: "_SDP_NODE_DATA"
+title: _SDP_NODE_DATA (sdpnode.h)
 description: The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_data.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdpnode.h
+- sdpnode.h
 api_name:
--	SDP_NODE_DATA
+- SDP_NODE_DATA
 product:
 - Windows
 targetos: Windows

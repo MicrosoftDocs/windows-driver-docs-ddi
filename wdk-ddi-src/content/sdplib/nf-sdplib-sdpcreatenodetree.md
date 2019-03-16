@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeTree
-title: SdpCreateNodeTree function
+title: SdpCreateNodeTree function (sdplib.h)
 description: The Bluetooth SdpCreateNodeTree function is used to allocate an empty root SDP_TREE_ROOT_NODE structure.
 old-location: bltooth\sdpcreatenodetree.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpCreateNodeTree
+- SdpCreateNodeTree
 product:
 - Windows
 targetos: Windows

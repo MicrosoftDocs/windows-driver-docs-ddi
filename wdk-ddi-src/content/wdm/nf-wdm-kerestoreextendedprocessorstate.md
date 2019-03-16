@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRestoreExtendedProcessorState
-title: KeRestoreExtendedProcessorState function
+title: KeRestoreExtendedProcessorState function (wdm.h)
 description: The KeRestoreExtendedProcessorState routine restores extended processor state information that was previously saved.
 old-location: kernel\kerestoreextendedprocessorstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRestoreExtendedProcessorState
+- KeRestoreExtendedProcessorState
 product:
 - Windows
 targetos: Windows

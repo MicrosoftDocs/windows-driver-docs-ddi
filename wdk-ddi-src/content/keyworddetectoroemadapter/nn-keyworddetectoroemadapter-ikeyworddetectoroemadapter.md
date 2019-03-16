@@ -1,6 +1,6 @@
 ---
 UID: NN:keyworddetectoroemadapter.IKeywordDetectorOemAdapter
-title: IKeywordDetectorOemAdapter
+title: IKeywordDetectorOemAdapter (keyworddetectoroemadapter.h)
 description: IKeywordDetectorOemAdapter is a Component Object Model (COM) interface for interacting with the Voice Activation Driver Interface. The IKeywordDetectorOemAdapter interface is supported in Windows 10 and later versions of Windows.
 old-location: audio\ikeyworddetectoroemadapter.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	keyworddetectoroemadapter.h
+- keyworddetectoroemadapter.h
 api_name:
--	IKeywordDetectorOemAdapter
+- IKeywordDetectorOemAdapter
 product:
 - Windows
 targetos: Windows

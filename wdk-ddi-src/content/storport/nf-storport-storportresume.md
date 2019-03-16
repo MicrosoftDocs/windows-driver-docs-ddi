@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortResume
-title: StorPortResume function
+title: StorPortResume function (storport.h)
 description: The StorPortResume routine resumes a paused adapter.
 old-location: storage\storportresume.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortResume
+- StorPortResume
 product:
 - Windows
 targetos: Windows

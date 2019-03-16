@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PMINIPORT_GET_REGISTRY_ROUTINE
-title: PMINIPORT_GET_REGISTRY_ROUTINE
+title: PMINIPORT_GET_REGISTRY_ROUTINE (video.h)
 description: HwVidQueryNamedValueCallback processes the specified data retrieved from the registry.
 old-location: display\hwvidquerynamedvaluecallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidQueryNamedValueCallback
+- HwVidQueryNamedValueCallback
 product:
 - Windows
 targetos: Windows

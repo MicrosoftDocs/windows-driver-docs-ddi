@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FINISHSESSIONKEYREFRESH
-title: PFND3DDDI_FINISHSESSIONKEYREFRESH
+title: PFND3DDDI_FINISHSESSIONKEYREFRESH (d3dumddi.h)
 description: The FinishSessionKeyRefresh function indicates that all buffers from that point in time use the updated session key value.
 old-location: display\finishsessionkeyrefresh.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	FinishSessionKeyRefresh
+- FinishSessionKeyRefresh
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvValidateItemProperties
-title: IWiaMiniDrv::drvValidateItemProperties
+title: IWiaMiniDrv::drvValidateItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvValidateItemProperties method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
 old-location: image\iwiaminidrv_drvvalidateitemproperties.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvValidateItemProperties
+- IWiaMiniDrv.drvValidateItemProperties
 product:
 - Windows
 targetos: Windows

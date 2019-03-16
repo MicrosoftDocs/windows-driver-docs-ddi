@@ -1,6 +1,6 @@
 ---
 UID: NF:dispmprt.DxgkInitializeDisplayOnlyDriver
-title: DxgkInitializeDisplayOnlyDriver function
+title: DxgkInitializeDisplayOnlyDriver function (dispmprt.h)
 description: Loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys) for use by a kernel mode display-only driver (KMDOD).
 old-location: display\dxgkinitializedisplayonlydriver.htm
 tech.root: display
@@ -26,15 +26,15 @@ req.lib: Displib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Displib.lib
--	Displib.dll
+- Displib.lib
+- Displib.dll
 api_name:
--	DxgkInitializeDisplayOnlyDriver
+- DxgkInitializeDisplayOnlyDriver
 product:
 - Windows
 targetos: Windows

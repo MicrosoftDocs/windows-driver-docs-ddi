@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_IO_INFO
-title: "_SRBEX_DATA_IO_INFO"
+title: _SRBEX_DATA_IO_INFO (srb.h)
 description: The SRBEX_DATA_IO_INFO structure contains additional information related to a read or write request in an extended SRB.
 old-location: storage\srbex_data_io_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA_IO_INFO
+- SRBEX_DATA_IO_INFO
 product:
 - Windows
 targetos: Windows

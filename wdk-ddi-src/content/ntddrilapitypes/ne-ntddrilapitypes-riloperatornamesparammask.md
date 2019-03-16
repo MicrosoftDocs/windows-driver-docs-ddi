@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILOPERATORNAMESPARAMMASK
-title: RILOPERATORNAMESPARAMMASK
+title: RILOPERATORNAMESPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILOPERATORNAMESPARAMMASK.
 old-location: netvista\riloperatornamesparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILOPERATORNAMESPARAMMASK
+- RILOPERATORNAMESPARAMMASK
 product:
 - Windows
 targetos: Windows

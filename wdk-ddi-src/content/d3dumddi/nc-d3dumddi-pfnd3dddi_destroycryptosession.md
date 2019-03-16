@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYCRYPTOSESSION
-title: PFND3DDDI_DESTROYCRYPTOSESSION
+title: PFND3DDDI_DESTROYCRYPTOSESSION (d3dumddi.h)
 description: The DestroyCryptoSession function releases resources for the encryption session that the CreateCryptoSession function creates.
 old-location: display\destroycryptosession.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DestroyCryptoSession
+- DestroyCryptoSession
 product:
 - Windows
 targetos: Windows

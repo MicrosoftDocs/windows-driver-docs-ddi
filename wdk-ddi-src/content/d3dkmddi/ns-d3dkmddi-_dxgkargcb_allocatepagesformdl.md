@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_ALLOCATEPAGESFORMDL
-title: _DXGKARGCB_ALLOCATEPAGESFORMDL
+title: _DXGKARGCB_ALLOCATEPAGESFORMDL (d3dkmddi.h)
 description: Arguments used in the DXGKCB_ALLOCATEPAGESFORMDL callback function, to allocate pages for MDL.
 ms.assetid: c41ff98e-5704-441d-b73f-1fad90895555
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATEPAGESFORMDL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_ALLOCATEPAGESFORMDL
+- _DXGKARGCB_ALLOCATEPAGESFORMDL
 product: 
 - Windows
 targetos: Windows

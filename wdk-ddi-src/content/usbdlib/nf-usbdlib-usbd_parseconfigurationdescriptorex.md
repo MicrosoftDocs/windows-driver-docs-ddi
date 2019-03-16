@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_ParseConfigurationDescriptorEx
-title: USBD_ParseConfigurationDescriptorEx function
+title: USBD_ParseConfigurationDescriptorEx function (usbdlib.h)
 description: The USBD_ParseConfigurationDescriptorEx routine searches a given configuration descriptor and returns a pointer to an interface that matches the given search criteria.
 old-location: buses\usbd_parseconfigurationdescriptorex.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_ParseConfigurationDescriptorEx
+- USBD_ParseConfigurationDescriptorEx
 product:
 - Windows
 targetos: Windows

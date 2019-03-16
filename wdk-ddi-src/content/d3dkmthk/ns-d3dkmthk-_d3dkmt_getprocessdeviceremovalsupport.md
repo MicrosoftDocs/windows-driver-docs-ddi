@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
-title: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
+title: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT (d3dkmthk.h)
 description: Used to get process device removal support.
 ms.assetid: 28258371-4419-4aa9-aadb-e5e085fa503f
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
+- _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 product: 
 - Windows
 targetos: Windows

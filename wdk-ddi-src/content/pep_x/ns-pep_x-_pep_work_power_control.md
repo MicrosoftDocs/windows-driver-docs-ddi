@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_POWER_CONTROL
-title: "_PEP_WORK_POWER_CONTROL"
+title: _PEP_WORK_POWER_CONTROL (pep_x.h)
 description: The PEP_WORK_POWER_CONTROL structure contains the parameters for a power control request that the platform extension plug-in (PEP) sends directly to a processor driver.
 old-location: kernel\pep_work_power_control.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_WORK_POWER_CONTROL
+- PEP_WORK_POWER_CONTROL
 product:
 - Windows
 targetos: Windows

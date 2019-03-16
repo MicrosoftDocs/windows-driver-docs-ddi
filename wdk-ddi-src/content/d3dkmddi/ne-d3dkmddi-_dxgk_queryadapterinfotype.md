@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_QUERYADAPTERINFOTYPE
-title: "_DXGK_QUERYADAPTERINFOTYPE"
+title: _DXGK_QUERYADAPTERINFOTYPE (d3dkmddi.h)
 description: The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to retrieve.
 old-location: display\dxgk_queryadapterinfotype.htm
 
@@ -29,11 +29,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_type:
--	 HeaderDef
+-  HeaderDef
 api_location:
--	 d3dkmddi.h
+-  d3dkmddi.h
 api_name:
--	 DXGK_QUERYADAPTERINFOTYPE
+-  DXGK_QUERYADAPTERINFOTYPE
 product:
 - Windows
 targetos: Windows

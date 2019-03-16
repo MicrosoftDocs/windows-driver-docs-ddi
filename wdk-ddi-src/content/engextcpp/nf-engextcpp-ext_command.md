@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.EXT_COMMAND
-title: EXT_COMMAND macro
+title: EXT_COMMAND macro (engextcpp.h)
 description: The EXT_COMMAND macro is used to define an extension command that was declared by using the EXT_COMMAND_METHOD macro.An extension command is defined as follows.
 old-location: debugger\ext_command.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	EXT_COMMAND
+- EXT_COMMAND
 product:
 - Windows
 targetos: Windows

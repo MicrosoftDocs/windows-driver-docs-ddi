@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.IsEqualTo
-title: IModelObject::IsEqualTo
+title: IModelObject::IsEqualTo (dbgmodel.h)
 description: The IsEqualTo method compares a host context to another host context. If the two contexts are equivalent, an indication of this is returned. Note that this comparison is not interface equivalence.
 ms.assetid: 06dd5b3c-8216-444b-82a7-dcfbf0361a30
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.IsEqualTo
-product: Windows
+- IModelObject.IsEqualTo
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

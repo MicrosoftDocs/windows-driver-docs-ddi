@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_CACHED_SYMBOL_INFO
-title: "_DEBUG_CACHED_SYMBOL_INFO"
+title: _DEBUG_CACHED_SYMBOL_INFO (dbgeng.h)
 description: Defines information about cached symbols.
 old-location: debugger\debug_cached_symbol_info.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_CACHED_SYMBOL_INFO
+- DEBUG_CACHED_SYMBOL_INFO
 product:
 - Windows
 targetos: Windows

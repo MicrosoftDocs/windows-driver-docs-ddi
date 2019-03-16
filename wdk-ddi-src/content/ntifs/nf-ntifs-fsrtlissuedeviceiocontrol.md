@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIssueDeviceIoControl
-title: FsRtlIssueDeviceIoControl function
+title: FsRtlIssueDeviceIoControl function (ntifs.h)
 description: The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object.
 old-location: ifsk\fsrtlissuedeviceiocontrol.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	FsRtlIssueDeviceIoControl
+- FsRtlIssueDeviceIoControl
 product:
 - Windows
 targetos: Windows

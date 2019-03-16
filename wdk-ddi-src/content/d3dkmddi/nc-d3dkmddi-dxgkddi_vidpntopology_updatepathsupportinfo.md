@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO
-title: DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO
+title: DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO (d3dkmddi.h)
 description: The pfnUpdatePathSupportInfo function updates the transformation and copy protection support of a particular path in a specified VidPN topology.
 old-location: display\dxgk_vidpntopology_interface_pfnupdatepathsupportinfo.htm
 ms.assetid: affe9ab2-49ef-4284-b441-49c311158827
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnUpdatePathSupportInfo
+- pfnUpdatePathSupportInfo
 product:
 - Windows
 targetos: Windows

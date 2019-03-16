@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetFilterFromFileObject
-title: KsGetFilterFromFileObject function
+title: KsGetFilterFromFileObject function (ks.h)
 description: The KsGetFilterFromFileObject function returns the AVStream filter object associated with FileObject.
 old-location: stream\ksgetfilterfromfileobject.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGetFilterFromFileObject
+- KsGetFilterFromFileObject
 product:
 - Windows
 targetos: Windows

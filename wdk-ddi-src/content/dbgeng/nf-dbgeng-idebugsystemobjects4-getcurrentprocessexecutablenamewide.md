@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
-title: IDebugSystemObjects4::GetCurrentProcessExecutableNameWide
+title: IDebugSystemObjects4::GetCurrentProcessExecutableNameWide (dbgeng.h)
 description: The GetCurrentProcessExecutableNameWide method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablenamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
+- IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
 product:
 - Windows
 targetos: Windows

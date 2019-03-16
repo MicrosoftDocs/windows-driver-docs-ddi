@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KBUGCHECK_CALLBACK_REASON
-title: "_KBUGCHECK_CALLBACK_REASON"
+title: _KBUGCHECK_CALLBACK_REASON (wdm.h)
 description: The KBUGCHECK_CALLBACK_REASON enumeration type specifies the situations in which a bug-check callback executes.
 old-location: kernel\kbugcheck_callback_reason.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KBUGCHECK_CALLBACK_REASON
+- KBUGCHECK_CALLBACK_REASON
 product:
 - Windows
 targetos: Windows

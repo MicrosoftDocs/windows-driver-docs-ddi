@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_Item
-title: IWDTFTargets2::get_Item
+title: IWDTFTargets2::get_Item (wdtf.h)
 description: Gets an individual item in the collection.
 old-location: dtf\iwdtftargets2_item.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Item
--	IWDTFTargets2.get_Item
+- IWDTFTargets2.Item
+- IWDTFTargets2.get_Item
 product:
 - Windows
 targetos: Windows

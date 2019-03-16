@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewRegistryKey
-title: PcNewRegistryKey function
+title: PcNewRegistryKey function (portcls.h)
 description: The PcNewRegistryKey function opens or creates a new registry key and creates an IRegistryKey object to represent the key. The caller accesses the key through this object.
 old-location: audio\pcnewregistrykey.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcNewRegistryKey
+- PcNewRegistryKey
 product:
 - Windows
 targetos: Windows

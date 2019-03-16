@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAcknowledgeEcp
-title: FsRtlAcknowledgeEcp function
+title: FsRtlAcknowledgeEcp function (ntifs.h)
 description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (ECP) context structure as acknowledged.
 old-location: ifsk\fsrtlacknowledgeecp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAcknowledgeEcp
+- FsRtlAcknowledgeEcp
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST
-title: "_OPEN_REPARSE_LIST"
+title: _OPEN_REPARSE_LIST (ntifs.h)
 description: Points to a list of OPEN_REPARSE_LIST_ENTRY structures that specify the tag and possibly GUID that should be opened directly without returning STATUS_REPARSE.
 old-location: ifsk\open_reparse_list.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	OPEN_REPARSE_LIST
+- OPEN_REPARSE_LIST
 product:
 - Windows
 targetos: Windows

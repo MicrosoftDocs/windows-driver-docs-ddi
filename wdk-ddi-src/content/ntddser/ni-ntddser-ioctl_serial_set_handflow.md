@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_HANDFLOW
-title: IOCTL_SERIAL_SET_HANDFLOW
+title: IOCTL_SERIAL_SET_HANDFLOW (ntddser.h)
 description: The IOCTL_SERIAL_SET_HANDFLOW request sets the configuration of handshake flow control. The serial controller driver verifies the specified handshake flow control information.
 old-location: serports\ioctl_serial_set_handflow.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_SET_HANDFLOW
+- IOCTL_SERIAL_SET_HANDFLOW
 product:
 - Windows
 targetos: Windows

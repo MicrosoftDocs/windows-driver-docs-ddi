@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICESTATE_TYPE
-title: "_D3DKMT_DEVICESTATE_TYPE"
+title: _D3DKMT_DEVICESTATE_TYPE (d3dkmthk.h)
 description: The D3DKMT_DEVICESTATE_TYPE enumeration type contains values that indicate the status of a device.
 old-location: display\d3dkmt_devicestate_type.htm
 ms.assetid: 84570bac-63f1-4e34-919f-c150f9f0810e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DEVICESTATE_TYPE
+- D3DKMT_DEVICESTATE_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrW2C
-title: wiauStrW2C function
+title: wiauStrW2C function (wiautil.h)
 description: The wiauStrW2C function converts a Unicode string to an ANSI character string.
 old-location: image\wiaustrw2c.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauStrW2C
+- wiauStrW2C
 product:
 - Windows
 targetos: Windows

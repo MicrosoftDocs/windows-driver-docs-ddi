@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_DEFAULT_DACL
-title: "_TOKEN_DEFAULT_DACL"
+title: _TOKEN_DEFAULT_DACL (ntifs.h)
 description: The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL).
 old-location: ifsk\token_default_dacl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_DEFAULT_DACL
+- TOKEN_DEFAULT_DACL
 product:
 - Windows
 targetos: Windows

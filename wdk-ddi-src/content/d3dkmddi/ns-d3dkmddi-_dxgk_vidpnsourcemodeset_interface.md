@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPNSOURCEMODESET_INTERFACE
-title: "_DXGK_VIDPNSOURCEMODESET_INTERFACE"
+title: _DXGK_VIDPNSOURCEMODESET_INTERFACE (d3dkmddi.h)
 description: The DXGK_VIDPNSOURCEMODESET_INTERFACE structure contains pointers to functions that belong to the VidPn Source Mode Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpnsourcemodeset_interface.htm
 ms.assetid: c608643f-e791-44b8-8719-4e98e10fa7b0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_VIDPNSOURCEMODESET_INTERFACE
+- DXGK_VIDPNSOURCEMODESET_INTERFACE
 product:
 - Windows
 targetos: Windows

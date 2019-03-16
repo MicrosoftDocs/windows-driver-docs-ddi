@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisZeroMappedMemory
-title: NdisZeroMappedMemory macro
+title: NdisZeroMappedMemory macro (ndis.h)
 description: NdisZeroMappedMemory fills a block of memory that was mapped with a preceding call to NdisMMapIoSpace with zeros.
 old-location: netvista\ndiszeromappedmemory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisZeroMappedMemory
+- NdisZeroMappedMemory
 product:
 - Windows
 targetos: Windows

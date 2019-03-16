@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.GetAt
-title: IPortableDeviceValuesCollection::GetAt
+title: IPortableDeviceValuesCollection::GetAt (portabledevicetypes.h)
 description: Retrieves an item from the collection by a zero-based index.
 old-location: wpddk\iportabledevicevaluescollection_getat.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValuesCollection.GetAt
+- IPortableDeviceValuesCollection.GetAt
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

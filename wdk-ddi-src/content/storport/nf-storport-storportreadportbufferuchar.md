@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortBufferUchar
-title: StorPortReadPortBufferUchar macro
+title: StorPortReadPortBufferUchar macro (storport.h)
 description: The StorPortReadPortBufferUchar routine reads a value from a specified port address
 old-location: storage\storportreadportbufferuchar.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortReadPortBufferUchar
+- StorPortReadPortBufferUchar
 product:
 - Windows
 targetos: Windows

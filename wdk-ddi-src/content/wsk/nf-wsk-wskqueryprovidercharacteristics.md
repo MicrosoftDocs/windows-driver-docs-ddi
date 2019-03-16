@@ -1,6 +1,6 @@
 ---
 UID: NF:wsk.WskQueryProviderCharacteristics
-title: WskQueryProviderCharacteristics function
+title: WskQueryProviderCharacteristics function (wsk.h)
 description: The WskQueryProviderCharacteristics function queries the range of WSK NPI versions supported by the WSK subsystem.
 old-location: netvista\wskqueryprovidercharacteristics.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	netio.lib
--	netio.dll
+- netio.lib
+- netio.dll
 api_name:
--	WskQueryProviderCharacteristics
+- WskQueryProviderCharacteristics
 product:
 - Windows
 targetos: Windows

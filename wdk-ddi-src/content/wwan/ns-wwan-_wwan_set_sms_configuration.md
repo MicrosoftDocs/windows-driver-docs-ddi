@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_SMS_CONFIGURATION
-title: "_WWAN_SET_SMS_CONFIGURATION"
+title: _WWAN_SET_SMS_CONFIGURATION (wwan.h)
 description: The WWAN_SET_SMS_CONFIGURATION structure represents how MB devices support SMS configuration.
 old-location: netvista\wwan_set_sms_configuration.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SET_SMS_CONFIGURATION
+- WWAN_SET_SMS_CONFIGURATION
 product:
 - Windows
 targetos: Windows

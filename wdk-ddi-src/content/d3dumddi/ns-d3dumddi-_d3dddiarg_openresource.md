@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_OPENRESOURCE
-title: "_D3DDDIARG_OPENRESOURCE"
+title: _D3DDDIARG_OPENRESOURCE (d3dumddi.h)
 description: The D3DDDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 old-location: display\d3dddiarg_openresource.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_OPENRESOURCE
+- D3DDDIARG_OPENRESOURCE
 product:
 - Windows
 targetos: Windows

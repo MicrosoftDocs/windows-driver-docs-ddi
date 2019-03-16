@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetFunctionCodeFromCtlCode
-title: IoGetFunctionCodeFromCtlCode macro
+title: IoGetFunctionCodeFromCtlCode macro (wdm.h)
 description: The IoGetFunctionCodeFromCtlCode macro returns the value of the function code contained in an I/O control code.
 old-location: kernel\iogetfunctioncodefromctlcode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoGetFunctionCodeFromCtlCode
+- IoGetFunctionCodeFromCtlCode
 product:
 - Windows
 targetos: Windows

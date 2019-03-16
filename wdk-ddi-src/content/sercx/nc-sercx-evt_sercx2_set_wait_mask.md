@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SET_WAIT_MASK
-title: EVT_SERCX2_SET_WAIT_MASK
+title: EVT_SERCX2_SET_WAIT_MASK (sercx.h)
 description: The EvtSerCx2SetWaitMask event callback function is called by version 2 of the serial framework extension (SerCx2) to configure the serial controller to monitor a set of hardware events that are specified by a wait mask.
 old-location: serports\evtsercx2setwaitmask.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2SetWaitMask
+- EvtSerCx2SetWaitMask
 product:
 - Windows
 targetos: Windows

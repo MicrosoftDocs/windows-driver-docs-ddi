@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCsqRemoveIrp
-title: IoCsqRemoveIrp function
+title: IoCsqRemoveIrp function (wdm.h)
 description: The IoCsqRemoveIrp routine removes a particular IRP from the queue.
 old-location: kernel\iocsqremoveirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCsqRemoveIrp
+- IoCsqRemoveIrp
 product:
 - Windows
 targetos: Windows

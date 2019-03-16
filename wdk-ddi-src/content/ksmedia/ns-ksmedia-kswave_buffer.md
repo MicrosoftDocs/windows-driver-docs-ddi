@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_52
-title: KSWAVE_BUFFER
+title: KSWAVE_BUFFER (ksmedia.h)
 description: The KSWAVE_BUFFER structure is used to describe a sample buffer.
 old-location: stream\kswave_buffer.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSWAVE_BUFFER
+- KSWAVE_BUFFER
 product:
 - Windows
 targetos: Windows

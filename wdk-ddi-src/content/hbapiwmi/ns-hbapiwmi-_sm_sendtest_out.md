@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendTEST_OUT
-title: "_SM_SendTEST_OUT"
+title: _SM_SendTEST_OUT (hbapiwmi.h)
 description: The SM_SendTEST_OUT structure is used to receive output parameters from the SM_SendTEST method.
 old-location: storage\sm_sendtest_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendTEST_OUT
+- SM_SendTEST_OUT
 product:
 - Windows
 targetos: Windows

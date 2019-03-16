@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOURCE_UAV_BARRIER
-title: D3D12DDI_RESOURCE_UAV_BARRIER
+title: D3D12DDI_RESOURCE_UAV_BARRIER (d3d12umddi.h)
 description: Contains an unordered access view (UAV) barrier.
 old-location: display\d3d12ddi_resource_uav_barrier.htm
 ms.assetid: 8473EB26-54C5-49D0-A854-422086CE8CCC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_UAV_BARRIER
+- D3D12DDI_RESOURCE_UAV_BARRIER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveCyclic.NewMasterDmaChannel
-title: IPortWaveCyclic::NewMasterDmaChannel
+title: IPortWaveCyclic::NewMasterDmaChannel (portcls.h)
 description: The NewMasterDmaChannel method creates a new instance of a bus-master DMA channel.
 old-location: audio\iportwavecyclic_newmasterdmachannel.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWaveCyclic.NewMasterDmaChannel
+- IPortWaveCyclic.NewMasterDmaChannel
 product:
 - Windows
 targetos: Windows

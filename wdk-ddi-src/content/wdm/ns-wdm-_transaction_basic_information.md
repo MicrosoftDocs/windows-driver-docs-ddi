@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_BASIC_INFORMATION
-title: "_TRANSACTION_BASIC_INFORMATION"
+title: _TRANSACTION_BASIC_INFORMATION (wdm.h)
 description: The TRANSACTION_BASIC_INFORMATION structure contains information about a transaction object.
 old-location: kernel\transaction_basic_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	TRANSACTION_BASIC_INFORMATION
+- TRANSACTION_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

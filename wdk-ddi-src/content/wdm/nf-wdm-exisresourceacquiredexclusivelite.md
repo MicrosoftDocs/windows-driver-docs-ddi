@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsResourceAcquiredExclusiveLite
-title: ExIsResourceAcquiredExclusiveLite function
+title: ExIsResourceAcquiredExclusiveLite function (wdm.h)
 description: The ExIsResourceAcquiredExclusiveLite routine returns whether the current thread has exclusive access to a given resource.
 old-location: kernel\exisresourceacquiredexclusivelite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExIsResourceAcquiredExclusiveLite
+- ExIsResourceAcquiredExclusiveLite
 product:
 - Windows
 targetos: Windows

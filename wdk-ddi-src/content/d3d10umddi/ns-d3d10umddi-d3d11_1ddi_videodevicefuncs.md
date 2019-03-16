@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEODEVICEFUNCS
-title: D3D11_1DDI_VIDEODEVICEFUNCS
+title: D3D11_1DDI_VIDEODEVICEFUNCS (d3d10umddi.h)
 description: Specifies the video function table for the Microsoft Direct3D driver device object.
 old-location: display\d3d11_1ddi_videodevicefuncs.htm
 ms.assetid: c843fe5c-19bc-479c-8d8d-a3a6146dfb1c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEODEVICEFUNCS
+- D3D11_1DDI_VIDEODEVICEFUNCS
 product:
 - Windows
 targetos: Windows

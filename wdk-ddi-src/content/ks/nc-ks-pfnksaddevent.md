@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSADDEVENT
-title: PFNKSADDEVENT
+title: PFNKSADDEVENT (ks.h)
 description: An AVStream minidriver's AVStrMiniAddEvent routine is called when a client registers to be notified of an event. This routine is optional.
 old-location: stream\avstrminiaddevent.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniAddEvent
+- AVStrMiniAddEvent
 product:
 - Windows
 targetos: Windows

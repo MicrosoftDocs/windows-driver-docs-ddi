@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
-title: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
+title: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS (ehstorbandmgmt.h)
 description: This IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request is sent to retrieve the list of bands for a storage device under band management. Banding information is returned in a table of band entries that includes band location and security properties.
 old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
+- IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
 product:
 - Windows
 targetos: Windows

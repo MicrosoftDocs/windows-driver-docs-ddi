@@ -1,6 +1,6 @@
 ---
 UID: NE:netdma._NET_DMA_PNP_NOTIFICATION_CODE
-title: "_NET_DMA_PNP_NOTIFICATION_CODE"
+title: _NET_DMA_PNP_NOTIFICATION_CODE (netdma.h)
 description: The NET_DMA_PNP_NOTIFICATION_CODE enumeration identifies the type of a NetDMA Plug and Play (PnP) event.
 old-location: netvista\net_dma_pnp_notification_code.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_PNP_NOTIFICATION_CODE
+- NET_DMA_PNP_NOTIFICATION_CODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemDriverPS
-title: IPrintOemDriverPS
+title: IPrintOemDriverPS (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemDriverPS COM Interface.
 old-location: print\iprintoemdriverps_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemDriverPS
+- IPrintOemDriverPS
 product:
 - Windows
 targetos: Windows

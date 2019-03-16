@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.GetPropertyData
-title: IWDFUnifiedPropertyStore::GetPropertyData
+title: IWDFUnifiedPropertyStore::GetPropertyData (wudfddi.h)
 description: The GetPropertyData method retrieves the current setting for a device property.
 old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUnifiedPropertyStore.GetPropertyData
+- IWDFUnifiedPropertyStore.GetPropertyData
 product:
 - Windows
 targetos: Windows

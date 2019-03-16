@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.SetWritePacket
-title: IMiniportWaveRTOutputStream::SetWritePacket
+title: IMiniportWaveRTOutputStream::SetWritePacket (portcls.h)
 description: SetWritePacket informs the driver that the OS has written valid data to the WaveRT buffer.
 old-location: audio\iminiportwavertoutputstream_setwritepacket.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTOutputStream.SetWritePacket
+- IMiniportWaveRTOutputStream.SetWritePacket
 product:
 - Windows
 targetos: Windows

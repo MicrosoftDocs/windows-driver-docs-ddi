@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi._POWER_PLATFORM_INFORMATION
-title: "_POWER_PLATFORM_INFORMATION"
+title: _POWER_PLATFORM_INFORMATION (ntpoapi.h)
 description: The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
 old-location: kernel\power_platform_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	POWER_PLATFORM_INFORMATION
+- POWER_PLATFORM_INFORMATION
 product:
 - Windows
 targetos: Windows

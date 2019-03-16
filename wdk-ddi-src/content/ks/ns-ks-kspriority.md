@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_0
-title: KSPRIORITY
+title: KSPRIORITY (ks.h)
 description: The KSPRIORITY structure is used to specify priority and is used with the KSPROPERTY_CONNECTION_PRIORITY property.
 old-location: stream\kspriority.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPRIORITY
+- KSPRIORITY
 product:
 - Windows
 targetos: Windows

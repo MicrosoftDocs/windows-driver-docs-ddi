@@ -1,6 +1,6 @@
 ---
 UID: NF:rxworkq.RxDispatchToWorkerThread
-title: RxDispatchToWorkerThread function
+title: RxDispatchToWorkerThread function (rxworkq.h)
 description: RxDispatchToWorkerThread invokes a routine in the context of a worker thread. The memory for the WORK_QUEUE_ITEM is allocated by this routine.
 old-location: ifsk\rxdispatchtoworkerthread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxworkq.h
+- rxworkq.h
 api_name:
--	RxDispatchToWorkerThread
+- RxDispatchToWorkerThread
 product:
 - Windows
 targetos: Windows

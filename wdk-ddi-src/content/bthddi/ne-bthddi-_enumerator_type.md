@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._ENUMERATOR_TYPE
-title: "_ENUMERATOR_TYPE"
+title: _ENUMERATOR_TYPE (bthddi.h)
 description: The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated device is associated with a service or a protocol. The ENUMERATOR_TYPE enumeration is intended for internal use only and should not be used by profile drivers.
 old-location: bltooth\enumerator_type.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	ENUMERATOR_TYPE
+- ENUMERATOR_TYPE
 product:
 - Windows
 targetos: Windows

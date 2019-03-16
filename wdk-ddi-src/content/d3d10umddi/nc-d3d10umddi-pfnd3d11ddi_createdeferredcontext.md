@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEDEFERREDCONTEXT
-title: PFND3D11DDI_CREATEDEFERREDCONTEXT
+title: PFND3D11DDI_CREATEDEFERREDCONTEXT (d3d10umddi.h)
 description: The CreateDeferredContext function creates a deferred context.
 old-location: display\createdeferredcontext.htm
 ms.assetid: 464a2291-55c8-4e51-ba08-219ce426d038
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateDeferredContext
+- CreateDeferredContext
 product:
 - Windows
 targetos: Windows

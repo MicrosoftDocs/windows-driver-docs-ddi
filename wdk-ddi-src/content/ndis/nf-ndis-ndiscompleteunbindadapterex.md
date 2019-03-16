@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCompleteUnbindAdapterEx
-title: NdisCompleteUnbindAdapterEx function
+title: NdisCompleteUnbindAdapterEx function (ndis.h)
 description: A protocol driver calls the NdisCompleteUnbindAdapterEx function to complete an unbind operation for which the driver's ProtocolUnbindAdapterEx function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompleteunbindadapterex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCompleteUnbindAdapterEx
+- NdisCompleteUnbindAdapterEx
 product:
 - Windows
 targetos: Windows

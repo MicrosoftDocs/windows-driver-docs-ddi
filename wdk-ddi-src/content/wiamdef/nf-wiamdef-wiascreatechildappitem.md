@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreateChildAppItem
-title: wiasCreateChildAppItem function
+title: wiasCreateChildAppItem function (wiamdef.h)
 description: The wiasCreateChildAppItem function creates a new application item and inserts it as a child of the specified (parent) item. Note that this item will not have any properties in its property sets until the driver or application actually fills them in.
 old-location: image\wiascreatechildappitem.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasCreateChildAppItem
+- wiasCreateChildAppItem
 product:
 - Windows
 targetos: Windows

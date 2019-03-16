@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._WDBGEXTS_THREAD_OS_INFO
-title: "_WDBGEXTS_THREAD_OS_INFO"
+title: _WDBGEXTS_THREAD_OS_INFO (wdbgexts.h)
 description: The IG_GET_THREAD_OS_INFO Ioctl operation returns information about an operating system thread in the target. When calling Ioctl with IoctlType set to IG_GET_THREAD_OS_INFO, IpvData should contain an instance of the WDBGEXTS_THREAD_OS_INFO structure.
 old-location: debugger\ig_get_thread_os_info.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WDBGEXTS_THREAD_OS_INFO
+- WDBGEXTS_THREAD_OS_INFO
 product:
 - Windows
 targetos: Windows

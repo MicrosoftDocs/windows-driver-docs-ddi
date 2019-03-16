@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_Path
-title: "_ISCSI_Path"
+title: _ISCSI_Path (iscsimgt.h)
 description: The ISCSI_Path structure contains information about a connection of the iSCSI portal.
 old-location: storage\iscsi_path.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	ISCSI_Path
+- ISCSI_Path
 product:
 - Windows
 targetos: Windows

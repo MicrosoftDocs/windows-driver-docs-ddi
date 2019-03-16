@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_SCOPED_POLICY_ID_ACE
-title: "_SYSTEM_SCOPED_POLICY_ID_ACE"
+title: _SYSTEM_SCOPED_POLICY_ID_ACE (ntifs.h)
 description: The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying rights for a scoped policy identifer.
 old-location: ifsk\system_scoped_policy_id_ace.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SYSTEM_SCOPED_POLICY_ID_ACE
+- SYSTEM_SCOPED_POLICY_ID_ACE
 product:
 - Windows
 targetos: Windows

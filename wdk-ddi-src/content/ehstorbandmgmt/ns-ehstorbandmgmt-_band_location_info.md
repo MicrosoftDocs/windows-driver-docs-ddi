@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_LOCATION_INFO
-title: "_BAND_LOCATION_INFO"
+title: _BAND_LOCATION_INFO (ehstorbandmgmt.h)
 description: The BAND_LOCATION_INFO structure specifies the location information for a band table entry query.
 old-location: storage\band_location_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	BAND_LOCATION_INFO
+- BAND_LOCATION_INFO
 product:
 - Windows
 targetos: Windows

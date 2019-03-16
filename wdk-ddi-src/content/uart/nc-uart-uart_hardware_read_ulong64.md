@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_READ_ULONG64
-title: UART_HARDWARE_READ_ULONG64
+title: UART_HARDWARE_READ_ULONG64 (uart.h)
 description: Reads a ULONG64 value from the specified register address.
 tech.root: serports
 ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_HARDWARE_READ_ULONG64
+- UART_HARDWARE_READ_ULONG64
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

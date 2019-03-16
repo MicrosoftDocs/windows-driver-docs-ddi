@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_CST_STATES
-title: "_PEP_PPM_CST_STATES"
+title: _PEP_PPM_CST_STATES (pep_x.h)
 description: The PEP_PPM_CST_STATES structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor.
 old-location: kernel\pep_ppm_cst_states.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_CST_STATES
+- PEP_PPM_CST_STATES
 product:
 - Windows
 targetos: Windows

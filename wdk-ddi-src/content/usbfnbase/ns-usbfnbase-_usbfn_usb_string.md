@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_USB_STRING
-title: "_USBFN_USB_STRING"
+title: _USBFN_USB_STRING (usbfnbase.h)
 description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_USB_STRING
+- USBFN_USB_STRING
 product:
 - Windows
 targetos: Windows

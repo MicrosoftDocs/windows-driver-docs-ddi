@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
-title: "_PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS"
+title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS (miniport.h)
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) uncorrectable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_status.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
+- PCI_EXPRESS_UNCORRECTABLE_ERROR_STATUS
 product:
 - Windows
 targetos: Windows

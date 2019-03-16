@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfworkitem.EVT_WDF_WORKITEM
-title: EVT_WDF_WORKITEM
+title: EVT_WDF_WORKITEM (wdfworkitem.h)
 description: A driver's EvtWorkItem event callback function performs the work that is associated with a specified work item.
 old-location: wdf\evtworkitem.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfworkitem.h
+- Wdfworkitem.h
 api_name:
--	EvtWorkItem
+- EvtWorkItem
 product:
 - Windows
 targetos: Windows

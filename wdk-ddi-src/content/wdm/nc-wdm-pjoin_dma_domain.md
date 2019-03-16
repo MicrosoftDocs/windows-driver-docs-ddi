@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PJOIN_DMA_DOMAIN
-title: PJOIN_DMA_DOMAIN
+title: PJOIN_DMA_DOMAIN (wdm.h)
 description: 
 ms.assetid: e5cd824e-ab68-4d20-93d5-a84362859e99
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	PJOIN_DMA_DOMAIN
+- PJOIN_DMA_DOMAIN
 -   JoinDmaDomain
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

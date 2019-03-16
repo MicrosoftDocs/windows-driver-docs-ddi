@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasDebugTrace
-title: wiasDebugTrace function
+title: wiasDebugTrace function (wiamdef.h)
 description: This function prints a debug trace string in the Device Manager debug console.
 old-location: image\wiasdebugtrace.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasDebugTrace
+- wiasDebugTrace
 product:
 - Windows
 targetos: Windows

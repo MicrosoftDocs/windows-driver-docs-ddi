@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCallDriver
-title: IoCallDriver macro
+title: IoCallDriver macro (wdm.h)
 description: The IoCallDriver routine sends an IRP to the driver associated with a specified device object.
 old-location: kernel\iocalldriver.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCallDriver
+- IoCallDriver
 product:
 - Windows
 targetos: Windows

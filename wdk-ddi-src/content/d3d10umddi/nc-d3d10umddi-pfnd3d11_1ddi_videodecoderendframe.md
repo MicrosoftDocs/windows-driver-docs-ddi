@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERENDFRAME
-title: PFND3D11_1DDI_VIDEODECODERENDFRAME
+title: PFND3D11_1DDI_VIDEODECODERENDFRAME (d3d10umddi.h)
 description: Completes a DirectX Video Acceleration (DXVA) decoding operation for a video frame.
 old-location: display\videodecoderendframe.htm
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoDecoderEndFrame
+- pfnVideoDecoderEndFrame
 product:
 - Windows
 targetos: Windows

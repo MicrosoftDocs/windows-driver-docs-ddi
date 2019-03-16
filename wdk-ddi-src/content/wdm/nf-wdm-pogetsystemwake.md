@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoGetSystemWake
-title: PoGetSystemWake function
+title: PoGetSystemWake function (wdm.h)
 description: The PoGetSystemWake routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
 old-location: kernel\pogetsystemwake.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoGetSystemWake
+- PoGetSystemWake
 product:
 - Windows
 targetos: Windows

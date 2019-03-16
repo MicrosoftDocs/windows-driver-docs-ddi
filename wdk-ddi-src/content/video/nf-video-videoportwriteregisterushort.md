@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterUshort
-title: VideoPortWriteRegisterUshort function
+title: VideoPortWriteRegisterUshort function (video.h)
 description: The VideoPortWriteRegisterUshort function writes a USHORT value to a mapped register.
 old-location: display\videoportwriteregisterushort.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWriteRegisterUshort
+- VideoPortWriteRegisterUshort
 product:
 - Windows
 targetos: Windows

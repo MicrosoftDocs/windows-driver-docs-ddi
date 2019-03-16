@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsGetVersion
-title: PsGetVersion function
+title: PsGetVersion function (wdm.h)
 description: This function is obsolete in Windows XP and later versions of the Windows operating system. Use RtlGetVersion instead.PsGetVersion returns caller-selected information about the current version of the NT-based operating system.
 old-location: kernel\psgetversion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetVersion
+- PsGetVersion
 product:
 - Windows
 targetos: Windows

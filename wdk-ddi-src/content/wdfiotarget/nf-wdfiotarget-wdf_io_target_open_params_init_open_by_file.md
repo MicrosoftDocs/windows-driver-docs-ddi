@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
-title: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function
+title: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can open an I/O target by specifying a filename.
 old-location: wdf\wdf_io_target_open_params_init_open_by_file.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfiotarget.h
+- wdfiotarget.h
 api_name:
--	WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
+- WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
 product:
 - Windows
 targetos: Windows

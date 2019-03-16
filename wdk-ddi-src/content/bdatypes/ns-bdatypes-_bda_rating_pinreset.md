@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_RATING_PINRESET
-title: "_BDA_RATING_PINRESET"
+title: _BDA_RATING_PINRESET (bdatypes.h)
 description: 
 old-location: stream\bda_rating_pinreset.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_RATING_PINRESET
+- BDA_RATING_PINRESET
 product:
 - Windows
 targetos: Windows

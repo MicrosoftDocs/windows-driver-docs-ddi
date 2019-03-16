@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_PASSIVE_INITIALIZE_ROUTINE
-title: HW_PASSIVE_INITIALIZE_ROUTINE
+title: HW_PASSIVE_INITIALIZE_ROUTINE (storport.h)
 description: The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL.
 old-location: storage\hwstorpassiveinitializeroutine.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorPassiveInitializeRoutine
+- HwStorPassiveInitializeRoutine
 product:
 - Windows
 targetos: Windows

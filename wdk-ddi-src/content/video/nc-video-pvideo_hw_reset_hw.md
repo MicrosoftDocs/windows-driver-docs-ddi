@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_RESET_HW
-title: PVIDEO_HW_RESET_HW
+title: PVIDEO_HW_RESET_HW (video.h)
 description: HwVidResetHw resets the adapter to character mode.
 old-location: display\hwvidresethw.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidResetHw
+- HwVidResetHw
 product:
 - Windows
 targetos: Windows

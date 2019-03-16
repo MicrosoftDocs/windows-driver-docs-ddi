@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.RegisterForNotifications
-title: IPrintAsyncNotifyRegistration::RegisterForNotifications
+title: IPrintAsyncNotifyRegistration::RegisterForNotifications (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotifyregistration_registerfornotifications.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNotifyRegistration.RegisterForNotifications
+- IPrintAsyncNotifyRegistration.RegisterForNotifications
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_LINK_COLLECTION_NODE
-title: "_HIDP_LINK_COLLECTION_NODE"
+title: _HIDP_LINK_COLLECTION_NODE (hidpi.h)
 description: The HIDP_LINK_COLLECTION_NODE structure contains information about a link collection in a top-level collection's link collection array.
 old-location: hid\hidp_link_collection_node.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_LINK_COLLECTION_NODE
+- HIDP_LINK_COLLECTION_NODE
 product:
 - Windows
 targetos: Windows

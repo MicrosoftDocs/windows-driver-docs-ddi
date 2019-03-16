@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_DEFAULT_ENDPOINT_UPDATE
-title: EVT_UCX_DEFAULT_ENDPOINT_UPDATE
+title: EVT_UCX_DEFAULT_ENDPOINT_UPDATE (ucxendpoint.h)
 description: The client driver's implementation that UCX calls with information about the default endpoint.
 old-location: buses\evt_ucx_default_endpoint_update.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
+- PEVT_UCX_DEFAULT_ENDPOINT_UPDATE
 product:
 - Windows
 targetos: Windows

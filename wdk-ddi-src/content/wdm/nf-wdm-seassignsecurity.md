@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeAssignSecurity
-title: SeAssignSecurity function
+title: SeAssignSecurity function (wdm.h)
 description: The SeAssignSecurity routine builds a self-relative security descriptor for a new object, given the security descriptor of its parent directory and any originally requested security for the object.
 old-location: kernel\seassignsecurity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeAssignSecurity
+- SeAssignSecurity
 product:
 - Windows
 targetos: Windows

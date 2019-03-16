@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.SetPseudoValues
-title: IDebugRegisters2::SetPseudoValues
+title: IDebugRegisters2::SetPseudoValues (dbgeng.h)
 description: The SetPseudoValues method sets the value of several pseudo-registers.
 old-location: debugger\setpseudovalues.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.SetPseudoValues
+- IDebugRegisters2.SetPseudoValues
 product:
 - Windows
 targetos: Windows

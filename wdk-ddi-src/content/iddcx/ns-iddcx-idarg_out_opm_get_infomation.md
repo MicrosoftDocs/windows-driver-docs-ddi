@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_OPM_GET_INFOMATION
-title: IDARG_OUT_OPM_GET_INFOMATION
+title: IDARG_OUT_OPM_GET_INFOMATION (iddcx.h)
 description: Gives the OPM information that was requested.
 old-location: display\idarg_out_opm_get_infomation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_OPM_GET_INFOMATION
+- IDARG_OUT_OPM_GET_INFOMATION
 product:
 - Windows
 targetos: Windows

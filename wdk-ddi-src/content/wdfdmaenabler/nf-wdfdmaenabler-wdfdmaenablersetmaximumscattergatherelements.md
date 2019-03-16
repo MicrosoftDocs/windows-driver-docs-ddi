@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerSetMaximumScatterGatherElements
-title: WdfDmaEnablerSetMaximumScatterGatherElements function
+title: WdfDmaEnablerSetMaximumScatterGatherElements function (wdfdmaenabler.h)
 description: The WdfDmaEnablerSetMaximumScatterGatherElements method sets the maximum number of scatter/gather elements that a device supports, for a specified DMA enabler object.
 old-location: wdf\wdfdmaenablersetmaximumscattergatherelements.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaEnablerSetMaximumScatterGatherElements
+- WdfDmaEnablerSetMaximumScatterGatherElements
 product:
 - Windows
 targetos: Windows

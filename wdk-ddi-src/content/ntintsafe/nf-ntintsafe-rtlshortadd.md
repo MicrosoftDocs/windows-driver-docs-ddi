@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortAdd
-title: RtlShortAdd function
+title: RtlShortAdd function (ntintsafe.h)
 description: Adds two values of type SHORT.
 old-location: kernel\rtlshortadd.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlShortAdd
+- RtlShortAdd
 product:
 - Windows
 targetos: Windows

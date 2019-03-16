@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.GetDevice
-title: IWDFIoQueue::GetDevice
+title: IWDFIoQueue::GetDevice (wudfddi.h)
 description: The GetDevice method retrieves the interface to the device that owns the I/O queue.
 old-location: wdf\iwdfioqueue_getdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoQueue.GetDevice
+- IWDFIoQueue.GetDevice
 product:
 - Windows
 targetos: Windows

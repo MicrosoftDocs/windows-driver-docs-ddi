@@ -1,6 +1,6 @@
 ---
 UID: NF:wsk.WskDeregister
-title: WskDeregister function
+title: WskDeregister function (wsk.h)
 description: The WskDeregister function unregisters a WSK application's registration instance that was previously created by WskRegister.
 old-location: netvista\wskderegister.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	WskDeregister
+- WskDeregister
 product:
 - Windows
 targetos: Windows

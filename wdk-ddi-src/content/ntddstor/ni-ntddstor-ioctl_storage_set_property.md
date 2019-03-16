@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_PROPERTY
-title: IOCTL_STORAGE_SET_PROPERTY
+title: IOCTL_STORAGE_SET_PROPERTY (ntddstor.h)
 description: 
 ms.assetid: 93fb0e92-a17b-4aa5-af19-05c510d66388
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	IOCTL_STORAGE_SET_PROPERTY
+- IOCTL_STORAGE_SET_PROPERTY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

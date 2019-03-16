@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_STATE
-title: "_WWAN_PIN_STATE"
+title: _WWAN_PIN_STATE (wwan.h)
 description: The WWAN_PIN_STATE enumeration describes whether the MB device or Subscriber Identity Module (SIM card) requires the user to enter a Personal Identification Number (PIN) to proceed to the next state.
 old-location: netvista\wwan_pin_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PIN_STATE
+- WWAN_PIN_STATE
 product:
 - Windows
 targetos: Windows

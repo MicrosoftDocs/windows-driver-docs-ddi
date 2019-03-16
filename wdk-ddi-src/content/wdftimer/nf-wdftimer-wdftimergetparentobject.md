@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerGetParentObject
-title: WdfTimerGetParentObject function
+title: WdfTimerGetParentObject function (wdftimer.h)
 description: The WdfTimerGetParentObject method returns a handle to the parent object of a specified framework timer object.
 old-location: wdf\wdftimergetparentobject.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfTimerGetParentObject
+- WdfTimerGetParentObject
 product:
 - Windows
 targetos: Windows

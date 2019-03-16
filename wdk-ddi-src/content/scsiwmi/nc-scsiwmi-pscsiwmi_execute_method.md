@@ -1,6 +1,6 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_EXECUTE_METHOD
-title: PSCSIWMI_EXECUTE_METHOD
+title: PSCSIWMI_EXECUTE_METHOD (scsiwmi.h)
 description: A miniport driver's HwScsiWmiExecuteMethod routine is called to execute a method associated with a data block.
 old-location: storage\hwscsiwmiexecutemethod.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	HwScsiWmiExecuteMethod
+- HwScsiWmiExecuteMethod
 product:
 - Windows
 targetos: Windows

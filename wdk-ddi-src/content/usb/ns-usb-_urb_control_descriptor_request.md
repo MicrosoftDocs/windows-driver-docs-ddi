@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_DESCRIPTOR_REQUEST
-title: "_URB_CONTROL_DESCRIPTOR_REQUEST"
+title: _URB_CONTROL_DESCRIPTOR_REQUEST (usb.h)
 description: The _URB_CONTROL_DESCRIPTOR_REQUEST structure is used by USB client drivers to get or set descriptors on a USB device.
 old-location: buses\_urb_control_descriptor_request.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_CONTROL_DESCRIPTOR_REQUEST
+- _URB_CONTROL_DESCRIPTOR_REQUEST
 product:
 - Windows
 targetos: Windows

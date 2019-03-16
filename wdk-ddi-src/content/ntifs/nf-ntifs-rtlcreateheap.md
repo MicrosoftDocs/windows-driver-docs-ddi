@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateHeap
-title: RtlCreateHeap function
+title: RtlCreateHeap function (ntifs.h)
 description: The RtlCreateHeap routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 old-location: ifsk\rtlcreateheap.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCreateHeap
+- RtlCreateHeap
 product:
 - Windows
 targetos: Windows

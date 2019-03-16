@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwWaitForSingleObject
-title: ZwWaitForSingleObject function
+title: ZwWaitForSingleObject function (ntifs.h)
 description: The ZwWaitForSingleObject routine waits until the specified object attains a state of Signaled. An optional time-out can also be specified.
 old-location: kernel\zwwaitforsingleobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwWaitForSingleObject
--	NtWaitForSingleObject
+- ZwWaitForSingleObject
+- NtWaitForSingleObject
 product:
 - Windows
 targetos: Windows

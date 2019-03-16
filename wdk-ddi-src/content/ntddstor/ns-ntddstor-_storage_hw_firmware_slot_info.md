@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_SLOT_INFO
-title: "_STORAGE_HW_FIRMWARE_SLOT_INFO"
+title: _STORAGE_HW_FIRMWARE_SLOT_INFO (ntddstor.h)
 description: This structure contains information about a slot on a device.
 old-location: storage\storage_hw_firmware_slot_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_HW_FIRMWARE_SLOT_INFO
+- STORAGE_HW_FIRMWARE_SLOT_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ursdevice.EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
-title: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
+title: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS (ursdevice.h)
 description: The USB dual-role class extension invokes this callback to allow the client driver to insert the resources from the resource-requirements-list object to resource lists that will be used during the life time of each role.
 old-location: buses\evt_urs_device_filter_resource_requirements.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ursdevice.h
+- Ursdevice.h
 api_name:
--	PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
+- PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 product:
 - Windows
 targetos: Windows

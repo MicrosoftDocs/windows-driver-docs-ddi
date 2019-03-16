@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForVerticalBlankEvent
-title: D3DKMTWaitForVerticalBlankEvent function
+title: D3DKMTWaitForVerticalBlankEvent function (d3dkmthk.h)
 description: The D3DKMTWaitForVerticalBlankEvent function waits for the vertical blanking interval to occur and then returns.
 old-location: display\d3dkmtwaitforverticalblankevent.htm
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTWaitForVerticalBlankEvent
+- D3DKMTWaitForVerticalBlankEvent
 product:
 - Windows
 targetos: Windows

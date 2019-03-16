@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESUMECONTEXT
-title: DXGKDDI_RESUMECONTEXT
+title: DXGKDDI_RESUMECONTEXT (d3dkmddi.h)
 description: Resumes a context. A context is created in a resumed state by default.
 ms.assetid: 57730d60-f6d7-4c86-92c5-dcd33108e99b
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_RESUMECONTEXT
+- DXGKDDI_RESUMECONTEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

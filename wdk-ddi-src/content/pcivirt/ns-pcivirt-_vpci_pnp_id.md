@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._VPCI_PNP_ID
-title: "_VPCI_PNP_ID"
+title: _VPCI_PNP_ID (pcivirt.h)
 description: Stores the PnP identifiers for a virtual PCI device. For example strings, see Identifiers for PCI Devices.
 old-location: pci\vpci_pnp_id.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	VPCI_PNP_ID
+- VPCI_PNP_ID
 product:
 - Windows
 targetos: Windows

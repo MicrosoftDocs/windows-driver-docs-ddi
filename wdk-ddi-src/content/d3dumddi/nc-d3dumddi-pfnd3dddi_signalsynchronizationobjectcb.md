@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB
-title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB
+title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB (d3dumddi.h)
 description: The pfnSignalSynchronizationObjectCb function inserts a signal on the specified synchronization objects in the specified context DMA stream.
 old-location: display\pfnsignalsynchronizationobjectcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnSignalSynchronizationObjectCb
+- pfnSignalSynchronizationObjectCb
 product:
 - Windows
 targetos: Windows

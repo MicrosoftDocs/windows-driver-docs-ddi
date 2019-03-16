@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_OPENADAPTER
-title: D3D12DDIARG_OPENADAPTER
+title: D3D12DDIARG_OPENADAPTER (d3d12umddi.h)
 description: The D3D12DDIARG_OPENADAPTER structure describes the graphics adapter object.
 old-location: display\d3d12ddiarg_openadapter.htm
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_OPENADAPTER
+- D3D12DDIARG_OPENADAPTER
 product:
 - Windows
 targetos: Windows

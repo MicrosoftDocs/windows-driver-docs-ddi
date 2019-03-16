@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_TYPES
-title: _DXGK_DIAGNOSTIC_TYPES
+title: _DXGK_DIAGNOSTIC_TYPES (dispmprt.h)
 description: A structure that contains a union of all the defined sets of diagnostic types.
 ms.assetid: 9373b413-20a5-4bee-a619-b71c0258124d
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_TYPES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGNOSTIC_TYPES
+- _DXGK_DIAGNOSTIC_TYPES
 product: 
 - Windows
 targetos: Windows

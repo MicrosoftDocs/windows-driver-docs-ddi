@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetWakePatternCountForType
-title: NetPowerSettingsGetWakePatternCountForType function
+title: NetPowerSettingsGetWakePatternCountForType function (netpowersettings.h)
 description: Retrieves the number of wake-on-LAN (WoL) patterns stored in the NETPOWERSETTINGS object for the specified wake pattern type.
 tech.root: netvista
 ms.assetid: 87e1c05c-ca73-40b0-add8-ec3c56697557
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetWakePatternCountForType
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetWakePatternCountForType
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

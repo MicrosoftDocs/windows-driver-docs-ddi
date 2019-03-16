@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeviceGetFirstChildFilterFactory
-title: KsDeviceGetFirstChildFilterFactory function
+title: KsDeviceGetFirstChildFilterFactory function (ks.h)
 description: The KsDeviceGetFirstChildFilterFactory function returns the first child filter factory belonging to a given AVStream device.
 old-location: stream\ksdevicegetfirstchildfilterfactory.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsDeviceGetFirstChildFilterFactory
+- KsDeviceGetFirstChildFilterFactory
 product:
 - Windows
 targetos: Windows

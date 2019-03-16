@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReadCapacity_IN
-title: "_ScsiReadCapacity_IN"
+title: _ScsiReadCapacity_IN (iscsiop.h)
 description: The ScsiReadCapacity_IN structure holds the input data for the ScsiReadCapacity method, which is used to send a SCSI read Ccapacity command.
 old-location: storage\scsireadcapacity_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ScsiReadCapacity_IN
+- ScsiReadCapacity_IN
 product:
 - Windows
 targetos: Windows

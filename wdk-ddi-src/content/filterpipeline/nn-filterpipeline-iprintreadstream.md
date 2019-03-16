@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintReadStream
-title: IPrintReadStream
+title: IPrintReadStream (filterpipeline.h)
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
 old-location: print\iprintreadstream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintReadStream
+- IPrintReadStream
 product:
 - Windows
 targetos: Windows

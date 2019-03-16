@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortBufferUshort
-title: NdisRawWritePortBufferUshort macro
+title: NdisRawWritePortBufferUshort macro (ndis.h)
 description: NdisRawWritePortBufferUshort writes a specified number of USHORT values from a caller-supplied buffer to a given I/O port.
 old-location: netvista\ndisrawwriteportbufferushort.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawWritePortBufferUshort
+- NdisRawWritePortBufferUshort
 product:
 - Windows
 targetos: Windows

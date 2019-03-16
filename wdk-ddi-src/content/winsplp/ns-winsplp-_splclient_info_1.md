@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_1
-title: "_SPLCLIENT_INFO_1"
+title: _SPLCLIENT_INFO_1 (winsplp.h)
 description: The SPLCLIENT_INFO_1 structure is used as input to the GenerateCopyFilePaths function that is exported by Point and Print DLLs.
 old-location: print\splclient_info_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	SPLCLIENT_INFO_1
+- SPLCLIENT_INFO_1
 product:
 - Windows
 targetos: Windows

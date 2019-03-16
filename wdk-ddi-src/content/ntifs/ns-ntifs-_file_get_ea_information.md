@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_GET_EA_INFORMATION
-title: "_FILE_GET_EA_INFORMATION"
+title: _FILE_GET_EA_INFORMATION (ntifs.h)
 description: The FILE_GET_EA_INFORMATION structure is used to query for extended-attribute (EA) information.
 old-location: ifsk\file_get_ea_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_GET_EA_INFORMATION
+- FILE_GET_EA_INFORMATION
 product:
 - Windows
 targetos: Windows

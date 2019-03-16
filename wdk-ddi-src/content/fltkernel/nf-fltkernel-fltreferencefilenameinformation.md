@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReferenceFileNameInformation
-title: FltReferenceFileNameInformation function
+title: FltReferenceFileNameInformation function (fltkernel.h)
 description: FltReferenceFileNameInformation increments the reference count on a file name information structure.
 old-location: ifsk\fltreferencefilenameinformation.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReferenceFileNameInformation
+- FltReferenceFileNameInformation
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUENGINETOPOLOGY
-title: "_DXGK_GPUENGINETOPOLOGY"
+title: _DXGK_GPUENGINETOPOLOGY (d3dkmddi.h)
 description: The DXGK_GPUENGINETOPOLOGY structure describes the graphics processing unit (GPU)-engine topology that a driver can support.
 old-location: display\dxgk_gpuenginetopology.htm
 ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_GPUENGINETOPOLOGY
+- DXGK_GPUENGINETOPOLOGY
 product:
 - Windows
 targetos: Windows

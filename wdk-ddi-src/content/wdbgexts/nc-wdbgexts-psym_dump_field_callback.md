@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PSYM_DUMP_FIELD_CALLBACK
-title: PSYM_DUMP_FIELD_CALLBACK
+title: PSYM_DUMP_FIELD_CALLBACK (wdbgexts.h)
 description: The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the IG_DUMP_SYMBOL_INFO Ioctl operation with information about a member in the specified symbol.
 old-location: debugger\psym_dump_field_callback.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	PSYM_DUMP_FIELD_CALLBACK
+- PSYM_DUMP_FIELD_CALLBACK
 product:
 - Windows
 targetos: Windows

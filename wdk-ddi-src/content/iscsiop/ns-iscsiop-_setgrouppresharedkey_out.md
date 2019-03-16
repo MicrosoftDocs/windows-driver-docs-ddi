@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetGroupPresharedKey_OUT
-title: "_SetGroupPresharedKey_OUT"
+title: _SetGroupPresharedKey_OUT (iscsiop.h)
 description: The SetGroupPresharedKey_OUT structure holds the output data for the SetGroupPresharedKey method.
 old-location: storage\setgrouppresharedkey_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	SetGroupPresharedKey_OUT
+- SetGroupPresharedKey_OUT
 product:
 - Windows
 targetos: Windows

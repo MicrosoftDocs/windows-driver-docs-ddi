@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FILE_NETWORK_OPEN_INFORMATION
-title: "_FILE_NETWORK_OPEN_INFORMATION"
+title: _FILE_NETWORK_OPEN_INFORMATION (wdm.h)
 description: The FILE_NETWORK_OPEN_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_network_open_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FILE_NETWORK_OPEN_INFORMATION
+- FILE_NETWORK_OPEN_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMUpdateOffloadComplete
-title: NdisMUpdateOffloadComplete function
+title: NdisMUpdateOffloadComplete function (ndischimney.h)
 description: An offload target calls the NdisMUpdateOffloadComplete function to complete an update offload operation that was initiated by a previous call to the MiniportUpdateOffload function of the offload target.
 old-location: netvista\ndismupdateoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMUpdateOffloadComplete
+- NdisMUpdateOffloadComplete
 product:
 - Windows
 targetos: Windows

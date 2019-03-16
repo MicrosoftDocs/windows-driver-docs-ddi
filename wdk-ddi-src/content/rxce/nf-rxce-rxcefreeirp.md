@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeFreeIrp
-title: RxCeFreeIrp function
+title: RxCeFreeIrp function (rxce.h)
 description: RxCeFreeIrp frees an IRP.
 old-location: ifsk\rxcefreeirp.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeFreeIrp
+- RxCeFreeIrp
 product:
 - Windows
 targetos: Windows

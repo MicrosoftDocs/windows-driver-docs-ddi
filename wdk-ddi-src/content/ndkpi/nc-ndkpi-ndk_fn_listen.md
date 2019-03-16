@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_LISTEN
-title: NDK_FN_LISTEN
+title: NDK_FN_LISTEN (ndkpi.h)
 description: The NdkListen (NDK_FN_LISTEN) function puts an NDK listener object into listening mode.
 old-location: netvista\ndk_fn_listen.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkListen
+- NdkListen
 product:
 - Windows
 targetos: Windows

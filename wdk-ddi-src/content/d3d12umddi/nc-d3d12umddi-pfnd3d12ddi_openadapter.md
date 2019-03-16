@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_OPENADAPTER
-title: PFND3D12DDI_OPENADAPTER
+title: PFND3D12DDI_OPENADAPTER (d3d12umddi.h)
 description: The PFND3D12DDI_OPENADAPTER function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\pfnd3d12ddi_openadapter.htm
 ms.assetid: FEDC2FB5-9F1A-4829-A98D-3BEA4218AE3D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_OPENADAPTER
+- PFND3D12DDI_OPENADAPTER
 product:
 - Windows
 targetos: Windows

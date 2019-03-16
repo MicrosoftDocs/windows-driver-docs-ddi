@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateRWLock
-title: NdisAllocateRWLock function
+title: NdisAllocateRWLock function (ndis.h)
 description: The NdisAllocateRWLock function allocates a read/write lock variable of type NDIS_RW_LOCK_EX.
 old-location: netvista\ndisallocaterwlock.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateRWLock
+- NdisAllocateRWLock
 product:
 - Windows
 targetos: Windows

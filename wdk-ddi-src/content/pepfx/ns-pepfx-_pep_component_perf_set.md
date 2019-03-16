@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PERF_SET
-title: "_PEP_COMPONENT_PERF_SET"
+title: _PEP_COMPONENT_PERF_SET (pepfx.h)
 description: The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
 old-location: kernel\pep_component_perf_set.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_COMPONENT_PERF_SET
+- PEP_COMPONENT_PERF_SET
 product:
 - Windows
 targetos: Windows

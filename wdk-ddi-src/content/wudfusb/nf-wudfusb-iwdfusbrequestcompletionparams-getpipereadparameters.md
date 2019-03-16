@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetPipeReadParameters
-title: IWDFUsbRequestCompletionParams::GetPipeReadParameters
+title: IWDFUsbRequestCompletionParams::GetPipeReadParameters (wudfusb.h)
 description: The GetPipeReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipereadparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbRequestCompletionParams.GetPipeReadParameters
+- IWDFUsbRequestCompletionParams.GetPipeReadParameters
 product:
 - Windows
 targetos: Windows

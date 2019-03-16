@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveCompanionTarget
-title: WdfDeviceRetrieveCompanionTarget function
+title: WdfDeviceRetrieveCompanionTarget function (wdfdevice.h)
 description: For internal use only.
 old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WdfDeviceRetrieveCompanionTarget
+- WdfDeviceRetrieveCompanionTarget
 product:
 - Windows
 targetos: Windows

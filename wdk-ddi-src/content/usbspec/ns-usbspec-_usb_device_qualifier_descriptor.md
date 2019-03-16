@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_QUALIFIER_DESCRIPTOR
-title: "_USB_DEVICE_QUALIFIER_DESCRIPTOR"
+title: _USB_DEVICE_QUALIFIER_DESCRIPTOR (usbspec.h)
 description: The USB_DEVICE_QUALIFIER_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device qualifier descriptor.
 old-location: buses\usb_device_qualifier_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_DEVICE_QUALIFIER_DESCRIPTOR
+- USB_DEVICE_QUALIFIER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

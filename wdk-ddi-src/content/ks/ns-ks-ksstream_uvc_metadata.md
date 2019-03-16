@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_51
-title: KSSTREAM_UVC_METADATA
+title: KSSTREAM_UVC_METADATA (ks.h)
 description: The KSSTREAM_UVC_METADATA structure contains start and end of frame timestamp information.
 old-location: stream\ksstream_uvc_metadata.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAM_UVC_METADATA
+- KSSTREAM_UVC_METADATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_FIRMWARE_DATE
-title: "_FEATURE_DATA_FIRMWARE_DATE"
+title: _FEATURE_DATA_FIRMWARE_DATE (ntddmmc.h)
 description: The FEATURE_DATA_FIRMWARE_DATE structure holds the date information associated with the Firmware Information feature.
 old-location: storage\feature_data_firmware_date.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_FIRMWARE_DATE
+- FEATURE_DATA_FIRMWARE_DATE
 product:
 - Windows
 targetos: Windows

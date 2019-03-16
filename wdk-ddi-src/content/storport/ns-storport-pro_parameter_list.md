@@ -1,6 +1,6 @@
 ---
 UID: NS:storport.__unnamed_struct_12
-title: PRO_PARAMETER_LIST
+title: PRO_PARAMETER_LIST (storport.h)
 description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
 old-location: storage\pro_parameter_list.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	PRO_PARAMETER_LIST
+- PRO_PARAMETER_LIST
 product:
 - Windows
 targetos: Windows

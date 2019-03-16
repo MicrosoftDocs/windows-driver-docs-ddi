@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMPARISON_FUNC
-title: D3D12DDI_COMPARISON_FUNC
+title: D3D12DDI_COMPARISON_FUNC (d3d12umddi.h)
 description: Indicates the type of comparison to perform.
 ms.assetid: a64a089e-208d-448a-b277-51acfab2a9ca
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_COMPARISON_FUNC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_COMPARISON_FUNC
+- D3D12DDI_COMPARISON_FUNC
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
-title: "_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1"
+title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1 (d3dkmthk.h)
 description: Used to register the power state of a new input.
 old-location: display\dxgk-graphicspower-register-input-v-1-1.htm
 ms.assetid: 5b120f3c-43d2-447a-9959-0788d7decf50
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
+- DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
 product:
 - Windows
 targetos: Windows

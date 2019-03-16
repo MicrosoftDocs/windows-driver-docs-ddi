@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_MODE
-title: "_WWAN_MODEM_CONFIG_MODE"
+title: _WWAN_MODEM_CONFIG_MODE (wwan.h)
 description: The WWAN_MODEM_CONFIG_MODE enumeration lists modem configuration modes.
 old-location: netvista\wwan_modem_config_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_MODEM_CONFIG_MODE
+- WWAN_MODEM_CONFIG_MODE
 product:
 - Windows
 targetos: Windows

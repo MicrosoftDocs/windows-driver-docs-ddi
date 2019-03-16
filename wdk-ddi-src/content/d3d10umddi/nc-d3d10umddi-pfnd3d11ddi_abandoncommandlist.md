@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_ABANDONCOMMANDLIST
-title: PFND3D11DDI_ABANDONCOMMANDLIST
+title: PFND3D11DDI_ABANDONCOMMANDLIST (d3d10umddi.h)
 description: The AbandonCommandList function abandons the command list.
 old-location: display\abandoncommandlist.htm
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	AbandonCommandList
+- AbandonCommandList
 product:
 - Windows
 targetos: Windows

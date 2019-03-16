@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceSink.RequestService
-title: IServiceSink::RequestService
+title: IServiceSink::RequestService (portcls.h)
 description: The RequestService method is called to forward a service request to an IServiceSink object.
 old-location: audio\iservicesink_requestservice.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceSink.RequestService
+- IServiceSink.RequestService
 product:
 - Windows
 targetos: Windows

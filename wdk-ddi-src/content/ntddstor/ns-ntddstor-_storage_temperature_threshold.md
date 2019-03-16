@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_THRESHOLD
-title: "_STORAGE_TEMPERATURE_THRESHOLD"
+title: _STORAGE_TEMPERATURE_THRESHOLD (ntddstor.h)
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: storage\storage_temperature_threshold.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_TEMPERATURE_THRESHOLD
+- STORAGE_TEMPERATURE_THRESHOLD
 product:
 - Windows
 targetos: Windows

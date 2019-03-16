@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MONITOR_INTERFACE_VERSION
-title: "_DXGK_MONITOR_INTERFACE_VERSION"
+title: _DXGK_MONITOR_INTERFACE_VERSION (d3dkmddi.h)
 description: Indicates a particular version of the Monitor interface.
 old-location: display\dxgk_monitor_interface_version.htm
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MONITOR_INTERFACE_VERSION
+- DXGK_MONITOR_INTERFACE_VERSION
 product:
 - Windows
 targetos: Windows

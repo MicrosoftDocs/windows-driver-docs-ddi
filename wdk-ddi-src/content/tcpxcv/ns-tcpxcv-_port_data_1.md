@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpxcv._PORT_DATA_1
-title: "_PORT_DATA_1"
+title: _PORT_DATA_1 (tcpxcv.h)
 description: The XcvData function uses a PORT_DATA_1 structure when it adds a port or configures an existing port.
 old-location: print\port_data_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	tcpxcv.h
+- tcpxcv.h
 api_name:
--	PORT_DATA_1
+- PORT_DATA_1
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetErrorValue
-title: IPortableDeviceValues::GetErrorValue
+title: IPortableDeviceValues::GetErrorValue (portabledevicetypes.h)
 description: Retrieves an HRESULT value (type VT_ERROR) specified by a key.
 old-location: wpddk\iportabledevicevalues_geterrorvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetErrorValue
+- IPortableDeviceValues.GetErrorValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

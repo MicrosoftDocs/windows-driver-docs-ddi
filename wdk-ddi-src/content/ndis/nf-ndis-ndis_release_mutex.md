@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_RELEASE_MUTEX
-title: NDIS_RELEASE_MUTEX macro
+title: NDIS_RELEASE_MUTEX macro (ndis.h)
 description: The NDIS_RELEASE_MUTEX macro releases the specified mutex object.
 tech.root: netvista
 ms.assetid: 9a64c6fc-ee2c-45b5-ba12-7e9a42934a9b
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_RELEASE_MUTEX
+- NDIS_RELEASE_MUTEX
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

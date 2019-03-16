@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_20
-title: GNSS_GEOREGION
+title: GNSS_GEOREGION (gnssdriver.h)
 description: This structure defines the geographical shape of a geofence.
 old-location: gnss\gnss_georegion.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_GEOREGION
+- GNSS_GEOREGION
 product:
 - Windows
 targetos: Windows

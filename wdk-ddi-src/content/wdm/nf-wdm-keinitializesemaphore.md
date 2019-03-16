@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeSemaphore
-title: KeInitializeSemaphore function
+title: KeInitializeSemaphore function (wdm.h)
 description: The KeInitializeSemaphore routine initializes a semaphore object with a specified count and specifies an upper limit that the count can attain.
 old-location: kernel\keinitializesemaphore.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeSemaphore
+- KeInitializeSemaphore
 product:
 - Windows
 targetos: Windows

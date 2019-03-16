@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_REG_SAP
-title: PROTOCOL_CM_REG_SAP
+title: PROTOCOL_CM_REG_SAP (ndis.h)
 description: The ProtocolCmRegisterSap function is a required function that is called by NDIS to request that a call manager register a SAP (service access point) on behalf of a connection-oriented client.Note  You must declare the function by using the PROTOCOL_CM_REG_SAP type. For more information, see the following Examples section.
 old-location: netvista\protocolcmregistersap.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmRegisterSap
+- ProtocolCmRegisterSap
 product:
 - Windows
 targetos: Windows

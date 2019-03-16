@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisOffloadTcpForward
-title: NdisOffloadTcpForward function
+title: NdisOffloadTcpForward function (ndischimney.h)
 description: A protocol driver or an intermediate driver calls the NdisOffloadTcpForward function to forward unacknowledged received TCP segments to an underlying driver or offload target.
 old-location: netvista\ndisoffloadtcpforward.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisOffloadTcpForward
+- NdisOffloadTcpForward
 product:
 - Windows
 targetos: Windows

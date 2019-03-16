@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtRenameTransactionManager
-title: NtRenameTransactionManager function
+title: NtRenameTransactionManager function (wdm.h)
 description: The NtRenameTransactionManager routine changes the identity of the transaction manager object that is stored in the CLFS log file stream contained in the log file name.
 old-location: kernel\ntrenametransactionmanager.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	NtRenameTransactionManager
+- NtRenameTransactionManager
 product:
 - Windows
 targetos: Windows

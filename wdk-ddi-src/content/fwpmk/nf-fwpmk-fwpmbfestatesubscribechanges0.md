@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmBfeStateSubscribeChanges0
-title: FwpmBfeStateSubscribeChanges0 function
+title: FwpmBfeStateSubscribeChanges0 function (fwpmk.h)
 description: The FwpmBfeStateSubscribeChanges0 function registers a callback function that is called whenever there is a change to the state of the filter engine.Note  FwpmBfeStateSubscribeChanges0 is a specific version of FwpmBfeStateSubscribeChanges.
 old-location: netvista\fwpmbfestatesubscribechanges0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpmBfeStateSubscribeChanges0
+- FwpmBfeStateSubscribeChanges0
 product:
 - Windows
 targetos: Windows

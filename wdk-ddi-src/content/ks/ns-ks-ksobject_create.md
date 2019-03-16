@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_77
-title: KSOBJECT_CREATE
+title: KSOBJECT_CREATE (ks.h)
 description: The KSOBJECT_CREATE structure contains an array of create handlers for base object classes supported by this device object.
 old-location: stream\ksobject_create.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSOBJECT_CREATE
+- KSOBJECT_CREATE
 product:
 - Windows
 targetos: Windows

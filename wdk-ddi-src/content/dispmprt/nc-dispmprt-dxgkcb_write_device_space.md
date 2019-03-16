@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_WRITE_DEVICE_SPACE
-title: DXGKCB_WRITE_DEVICE_SPACE
+title: DXGKCB_WRITE_DEVICE_SPACE (dispmprt.h)
 description: The DxgkCbWriteDeviceSpace function writes to a device configuration space or the expansion ROM of a display adapter.
 old-location: display\dxgkcbwritedevicespace.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkCbWriteDeviceSpace
+- DxgkCbWriteDeviceSpace
 product:
 - Windows
 targetos: Windows

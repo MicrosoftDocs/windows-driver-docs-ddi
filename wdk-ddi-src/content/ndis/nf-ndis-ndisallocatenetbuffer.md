@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBuffer
-title: NdisAllocateNetBuffer function
+title: NdisAllocateNetBuffer function (ndis.h)
 description: Call the NdisAllocateNetBuffer function to allocate and initialize a NET_BUFFER structure from a NET_BUFFER structure pool.
 old-location: netvista\ndisallocatenetbuffer.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateNetBuffer
+- NdisAllocateNetBuffer
 product:
 - Windows
 targetos: Windows

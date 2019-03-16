@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_SCALE_CAPABILITIES
-title: "_NDIS_RECEIVE_SCALE_CAPABILITIES"
+title: _NDIS_RECEIVE_SCALE_CAPABILITIES (ntddndis.h)
 description: The NDIS_RECEIVE_SCALE_CAPABILITIES structure specifies the receive side scaling (RSS) capabilities of a miniport adapter.
 old-location: netvista\ndis_receive_scale_capabilities.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_SCALE_CAPABILITIES
+- NDIS_RECEIVE_SCALE_CAPABILITIES
 product:
 - Windows
 targetos: Windows

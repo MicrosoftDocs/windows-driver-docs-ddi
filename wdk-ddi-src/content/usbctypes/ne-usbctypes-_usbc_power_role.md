@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_POWER_ROLE
-title: _USBC_POWER_ROLE
+title: _USBC_POWER_ROLE (usbctypes.h)
 description: Defines power roles of USB Type-C connected devices.
 ms.assetid: ee55031e-ab3a-4bca-92e2-52bc42f01ae9
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_POWER_ROLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_POWER_ROLE
-product: Windows
+- _USBC_POWER_ROLE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

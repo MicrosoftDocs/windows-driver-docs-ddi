@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetEnumObject
-title: IBidiRequestContainer::GetEnumObject
+title: IBidiRequestContainer::GetEnumObject (bidispl.h)
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiRequestContainer.GetEnumObject
+- IBidiRequestContainer.GetEnumObject
 product:
 - Windows
 targetos: Windows

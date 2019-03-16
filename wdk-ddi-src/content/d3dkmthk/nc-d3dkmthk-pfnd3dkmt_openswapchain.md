@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENSWAPCHAIN
-title: PFND3DKMT_OPENSWAPCHAIN
+title: PFND3DKMT_OPENSWAPCHAIN (d3dkmthk.h)
 description: PfnOpenSwapChain opens a swap chain.
 ms.assetid: 540df885-7b52-4ebd-ac36-5c3d1920919a
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENSWAPCHAIN
+- PFND3DKMT_OPENSWAPCHAIN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

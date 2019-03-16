@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
-title: D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
+title: D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW (d3d12umddi.h)
 description: Describes a one-dimensional (1-D) texture that is used to create an unordered access view.
 ms.assetid: d994273e-fc8d-4a07-aff0-393aa72f7f94
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
+- D3D12DDIARG_TEX1D_UNORDERED_ACCESS_VIEW
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

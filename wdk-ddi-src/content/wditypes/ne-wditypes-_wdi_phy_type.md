@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_PHY_TYPE
-title: "_WDI_PHY_TYPE"
+title: _WDI_PHY_TYPE (wditypes.h)
 description: The WDI_PHY_TYPE enumeration defines the PHY types.
 old-location: netvista\wdi_phy_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_PHY_TYPE
+- WDI_PHY_TYPE
 product:
 - Windows
 targetos: Windows

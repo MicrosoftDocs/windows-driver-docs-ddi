@@ -1,6 +1,6 @@
 ---
 UID: NF:midatlax.RxMapAndDissociateMidFromContext
-title: RxMapAndDissociateMidFromContext function
+title: RxMapAndDissociateMidFromContext function (midatlax.h)
 description: RxMapAndDissociateMidFromContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure and then disassociates the MID from the context.
 old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	midatlax.h
+- midatlax.h
 api_name:
--	RxMapAndDissociateMidFromContext
+- RxMapAndDissociateMidFromContext
 product:
 - Windows
 targetos: Windows

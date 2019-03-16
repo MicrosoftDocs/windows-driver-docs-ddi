@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_READ_BINDING_NONCE
-title: "_AACS_READ_BINDING_NONCE"
+title: _AACS_READ_BINDING_NONCE (ntddcdvd.h)
 description: The AACS_READ_BINDING_NONCE structure is a wrapper for the Authentication Grant Identifier (AGID) and logical block address (LBA)/length pair that are required to read a nonce.
 old-location: storage\aacs_read_binding_nonce.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_READ_BINDING_NONCE
+- AACS_READ_BINDING_NONCE
 product:
 - Windows
 targetos: Windows

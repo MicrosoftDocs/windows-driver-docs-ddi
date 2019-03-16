@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IPortDMus.RegisterServiceGroup
-title: IPortDMus::RegisterServiceGroup
+title: IPortDMus::RegisterServiceGroup (dmusicks.h)
 description: The RegisterServiceGroup method registers a service group with the DMus port driver.
 old-location: audio\iportdmus_registerservicegroup.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IPortDMus.RegisterServiceGroup
+- IPortDMus.RegisterServiceGroup
 product:
 - Windows
 targetos: Windows

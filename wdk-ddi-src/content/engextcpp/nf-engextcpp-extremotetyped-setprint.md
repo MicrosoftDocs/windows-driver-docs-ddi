@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.SetPrint
-title: ExtRemoteTyped::SetPrint
+title: ExtRemoteTyped::SetPrint (engextcpp.h)
 description: The SetPrint method sets the typed data represented by the ExtRemoteTyped object by formatting an expression and then evaluating that expression.
 old-location: debugger\extremotetyped_setprint.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.SetPrint
+- ExtRemoteTyped.SetPrint
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoStartNextPowerIrp
-title: PoStartNextPowerIrp function
+title: PoStartNextPowerIrp function (ntifs.h)
 description: The PoStartNextPowerIrp routine signals the power manager that the driver is ready to handle the next power IRP. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\postartnextpowerirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoStartNextPowerIrp
+- PoStartNextPowerIrp
 product:
 - Windows
 targetos: Windows

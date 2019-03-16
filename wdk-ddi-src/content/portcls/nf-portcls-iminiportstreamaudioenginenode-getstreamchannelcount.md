@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelCount
-title: IMiniportStreamAudioEngineNode::GetStreamChannelCount
+title: IMiniportStreamAudioEngineNode::GetStreamChannelCount (portcls.h)
 description: Gets a count of the number of channels available for the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelcount.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.GetStreamChannelCount
+- IMiniportStreamAudioEngineNode.GetStreamChannelCount
 product:
 - Windows
 targetos: Windows

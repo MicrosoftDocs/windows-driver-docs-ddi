@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_NAME
-title: "_USB_HUB_NAME"
+title: _USB_HUB_NAME (usbioctl.h)
 description: The USB_HUB_NAME structure stores the hub's symbolic device name.
 old-location: buses\usb_hub_name.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_HUB_NAME
+- USB_HUB_NAME
 product:
 - Windows
 targetos: Windows

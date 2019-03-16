@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types._WDF_PROPERTY_STORE_ROOT
-title: "_WDF_PROPERTY_STORE_ROOT"
+title: _WDF_PROPERTY_STORE_ROOT (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_ROOT structure contains information that identifies a UMDF property store.
 old-location: wdf\wdf_property_store_root.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_PROPERTY_STORE_ROOT
+- WDF_PROPERTY_STORE_ROOT
 product:
 - Windows
 targetos: Windows

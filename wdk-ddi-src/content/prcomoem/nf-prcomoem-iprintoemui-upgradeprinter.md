@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.UpgradePrinter
-title: IPrintOemUI::UpgradePrinter
+title: IPrintOemUI::UpgradePrinter (prcomoem.h)
 description: The IPrintOemUI::UpgradePrinter method allows a user interface plug-in to upgrade device option values that are stored in the registry.
 old-location: print\iprintoemui_upgradeprinter.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.UpgradePrinter
+- IPrintOemUI.UpgradePrinter
 product:
 - Windows
 targetos: Windows

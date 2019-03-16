@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENTSURFACE
-title: DXGI_DDI_ARG_PRESENTSURFACE
+title: DXGI_DDI_ARG_PRESENTSURFACE (dxgiddi.h)
 description: Describes a surface to display.
 old-location: display\dxgi_ddi_arg_presentsurface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_PRESENTSURFACE
+- DXGI_DDI_ARG_PRESENTSURFACE
 product:
 - Windows
 targetos: Windows

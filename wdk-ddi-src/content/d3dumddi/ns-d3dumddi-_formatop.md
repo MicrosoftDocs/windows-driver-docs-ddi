@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._FORMATOP
-title: "_FORMATOP"
+title: _FORMATOP (d3dumddi.h)
 description: The FORMATOP structure describes a surface format and operations that can be performed with such a surface.
 old-location: display\formatop.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	FORMATOP
+- FORMATOP
 product:
 - Windows
 targetos: Windows

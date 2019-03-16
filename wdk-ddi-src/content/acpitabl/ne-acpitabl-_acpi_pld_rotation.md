@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_ROTATION
-title: _ACPI_PLD_ROTATION enumeration
+title: _ACPI_PLD_ROTATION enumeration (acpitabl.h)
 description: Describes rotation bits 115:118.
 ms.assetid: aac7540e-8bb2-4208-b917-ebdc74ff170a
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_ROTATION
+- _ACPI_PLD_ROTATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

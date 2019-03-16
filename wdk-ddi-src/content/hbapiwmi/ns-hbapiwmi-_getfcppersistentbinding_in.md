@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFcpPersistentBinding_IN
-title: "_GetFcpPersistentBinding_IN"
+title: _GetFcpPersistentBinding_IN (hbapiwmi.h)
 description: The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the GetFcpPersistentBinding WMI method
 old-location: storage\getfcppersistentbinding_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetFcpPersistentBinding_IN
+- GetFcpPersistentBinding_IN
 product:
 - Windows
 targetos: Windows

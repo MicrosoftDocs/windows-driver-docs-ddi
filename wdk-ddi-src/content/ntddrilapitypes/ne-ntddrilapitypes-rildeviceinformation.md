@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILDEVICEINFORMATION
-title: RILDEVICEINFORMATION
+title: RILDEVICEINFORMATION (ntddrilapitypes.h)
 description: This enumeration describes the RILDEVICEINFORMATION.
 old-location: netvista\rildeviceinformation.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILDEVICEINFORMATION
+- RILDEVICEINFORMATION
 product:
 - Windows
 targetos: Windows

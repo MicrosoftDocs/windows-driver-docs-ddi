@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSUBSCRIBERINFOSERVICE
-title: RILSUBSCRIBERINFOSERVICE
+title: RILSUBSCRIBERINFOSERVICE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubscriberinfoservice_2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSUBSCRIBERINFOSERVICE
+- RILSUBSCRIBERINFOSERVICE
 product:
 - Windows
 targetos: Windows

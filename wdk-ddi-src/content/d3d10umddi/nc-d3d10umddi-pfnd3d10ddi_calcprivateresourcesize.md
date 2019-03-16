@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATERESOURCESIZE
-title: PFND3D10DDI_CALCPRIVATERESOURCESIZE
+title: PFND3D10DDI_CALCPRIVATERESOURCESIZE (d3d10umddi.h)
 description: The CalcPrivateResourceSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory).
 old-location: display\calcprivateresourcesize.htm
 ms.assetid: 2c4eb002-4788-46ab-92b9-3bb2dcb44ee3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CalcPrivateResourceSize
+- CalcPrivateResourceSize
 product:
 - Windows
 targetos: Windows

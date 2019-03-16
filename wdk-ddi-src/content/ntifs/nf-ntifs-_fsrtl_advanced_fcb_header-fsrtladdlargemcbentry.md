@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddLargeMcbEntry
-title: FsRtlAddLargeMcbEntry function
+title: FsRtlAddLargeMcbEntry function (ntifs.h)
 description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing map control block (MCB).
 old-location: ifsk\fsrtladdlargemcbentry.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlAddLargeMcbEntry
+- FsRtlAddLargeMcbEntry
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

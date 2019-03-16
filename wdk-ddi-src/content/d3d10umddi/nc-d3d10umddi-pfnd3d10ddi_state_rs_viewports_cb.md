@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_RS_VIEWPORTS_CB
-title: PFND3D10DDI_STATE_RS_VIEWPORTS_CB
+title: PFND3D10DDI_STATE_RS_VIEWPORTS_CB (d3d10umddi.h)
 description: The pfnStateRsViewportsCb function causes the Microsoft Direct3D 10 runtime to refresh the viewport state.
 old-location: display\pfnstatersviewportscb.htm
 ms.assetid: 9390ddca-4658-4853-a45c-9fb306bbdef8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateRsViewportsCb
+- pfnStateRsViewportsCb
 product:
 - Windows
 targetos: Windows

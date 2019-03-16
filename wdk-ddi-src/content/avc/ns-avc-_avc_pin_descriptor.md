@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PIN_DESCRIPTOR
-title: "_AVC_PIN_DESCRIPTOR"
+title: _AVC_PIN_DESCRIPTOR (avc.h)
 description: The AVC_PIN_DESCRIPTOR structure describes a pin on an AV/C subunit device.
 old-location: stream\avc_pin_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_PIN_DESCRIPTOR
+- AVC_PIN_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsclassextension.ISensorClassExtension
-title: ISensorClassExtension
+title: ISensorClassExtension (sensorsclassextension.h)
 description: The ISensorClassExtension interface provides methods that the sensor driver uses to communicate with the sensor platform (and, therefore, client applications) through the sensor class extension object.
 old-location: sensors\isensorclassextension.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	ISensorClassExtension
+- ISensorClassExtension
 product:
 - Windows
 targetos: Windows

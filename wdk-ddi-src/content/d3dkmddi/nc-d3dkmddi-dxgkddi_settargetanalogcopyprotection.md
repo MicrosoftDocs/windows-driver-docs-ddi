@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTARGETANALOGCOPYPROTECTION
-title: DXGKDDI_SETTARGETANALOGCOPYPROTECTION
+title: DXGKDDI_SETTARGETANALOGCOPYPROTECTION (d3dkmddi.h)
 description: Sets the analog copy protection on the specified target id. This is functionally equivalent to the DxgkDdiUpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION is changed.
 old-location: display\dxgkddi_settargetanalogcopyprotection.htm
 ms.assetid: D41A1867-C654-4747-B804-CAE047025458
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETTARGETANALOGCOPYPROTECTION
+- DXGKDDI_SETTARGETANALOGCOPYPROTECTION
 product:
 - Windows
 targetos: Windows

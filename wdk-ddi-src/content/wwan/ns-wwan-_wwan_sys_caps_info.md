@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SYS_CAPS_INFO
-title: "_WWAN_SYS_CAPS_INFO"
+title: _WWAN_SYS_CAPS_INFO (wwan.h)
 description: The WWAN_SYS_CAPS_INFO structure represents the modem's system capability.
 old-location: netvista\wwan_sys_caps.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SYS_CAPS_INFO
+- WWAN_SYS_CAPS_INFO
 product:
 - Windows
 targetos: Windows

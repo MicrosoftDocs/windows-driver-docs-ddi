@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_PREPARE_DEVICE
-title: "_PEP_ACPI_PREPARE_DEVICE"
+title: _PEP_ACPI_PREPARE_DEVICE (pep_x.h)
 description: The PEP_ACPI_PREPARE_DEVICE structure indicates whether a platform extension plug-in (PEP) is prepared to provide ACPI services for the specified device.
 old-location: kernel\pep_acpi_prepare_device.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_PREPARE_DEVICE
+- PEP_ACPI_PREPARE_DEVICE
 product:
 - Windows
 targetos: Windows

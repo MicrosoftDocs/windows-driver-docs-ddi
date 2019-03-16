@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetMSIInfo
-title: StorPortGetMSIInfo function
+title: StorPortGetMSIInfo function (storport.h)
 description: The StorPortGetMSIInfo routine retrieves the message signaled interrupt (MSI) information for the specified message.
 old-location: storage\storportgetmsiinfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetMSIInfo
+- StorPortGetMSIInfo
 product:
 - Windows
 targetos: Windows

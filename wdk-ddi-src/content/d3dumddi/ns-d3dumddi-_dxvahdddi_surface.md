@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_SURFACE
-title: "_DXVAHDDDI_SURFACE"
+title: _DXVAHDDDI_SURFACE (d3dumddi.h)
 description: The DXVAHDDDI_SURFACE structure describes a surface.
 old-location: display\dxvahdddi_surface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_SURFACE
+- DXVAHDDDI_SURFACE
 product:
 - Windows
 targetos: Windows

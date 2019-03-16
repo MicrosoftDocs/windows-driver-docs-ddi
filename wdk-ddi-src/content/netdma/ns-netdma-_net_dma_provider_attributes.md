@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PROVIDER_ATTRIBUTES
-title: "_NET_DMA_PROVIDER_ATTRIBUTES"
+title: _NET_DMA_PROVIDER_ATTRIBUTES (netdma.h)
 description: The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration attributes for a NetDMA provider.
 old-location: netvista\net_dma_provider_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_PROVIDER_ATTRIBUTES
+- NET_DMA_PROVIDER_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

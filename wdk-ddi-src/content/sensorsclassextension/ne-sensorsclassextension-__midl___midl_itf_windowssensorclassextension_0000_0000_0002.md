@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsclassextension.__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002
-title: "__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002"
+title: __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 (sensorsclassextension.h)
 description: The SensorConnectionType enumeration type defines values for the SENSOR_CONNECTION_TYPE property.
 old-location: sensors\sensorconnectiontype.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsClassExtension.h
+- SensorsClassExtension.h
 api_name:
--	SensorConnectionType
+- SensorConnectionType
 product:
 - Windows
 targetos: Windows

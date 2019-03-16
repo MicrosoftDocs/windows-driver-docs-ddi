@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlEqualSid
-title: RtlEqualSid function
+title: RtlEqualSid function (ntifs.h)
 description: The RtlEqualSid routine determines whether two security identifier (SID) values are equal. Two SIDs must match exactly to be considered equal.
 old-location: ifsk\rtlequalsid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlEqualSid
+- RtlEqualSid
 product:
 - Windows
 targetos: Windows

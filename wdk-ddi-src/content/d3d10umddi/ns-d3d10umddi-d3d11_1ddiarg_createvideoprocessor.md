@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSOR
-title: D3D11_1DDIARG_CREATEVIDEOPROCESSOR
+title: D3D11_1DDIARG_CREATEVIDEOPROCESSOR (d3d10umddi.h)
 description: Specifies the attributes of a video processor object.
 old-location: display\d3d11_1ddiarg_createvideoprocessor.htm
 ms.assetid: 957cfebe-4cd9-4a35-822e-ebde4cd9e84c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDIARG_CREATEVIDEOPROCESSOR
+- D3D11_1DDIARG_CREATEVIDEOPROCESSOR
 product:
 - Windows
 targetos: Windows

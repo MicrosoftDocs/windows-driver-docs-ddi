@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
+title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE (iddcx.h)
 description: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE is called by the OS to get an OPM certificate.
 old-location: display\evt_idd_cx_monitor_opm_get_certificate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
+- PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
 product:
 - Windows
 targetos: Windows

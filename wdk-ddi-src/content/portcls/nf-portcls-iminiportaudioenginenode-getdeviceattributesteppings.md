@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceAttributeSteppings
-title: IMiniportAudioEngineNode::GetDeviceAttributeSteppings
+title: IMiniportAudioEngineNode::GetDeviceAttributeSteppings (portcls.h)
 description: Gets the allowed stepping value for the audio device attribute.
 old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetDeviceAttributeSteppings
+- IMiniportAudioEngineNode.GetDeviceAttributeSteppings
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReadConfiguration
-title: NdisReadConfiguration function
+title: NdisReadConfiguration function (ndis.h)
 description: The NdisReadConfiguration function returns the value of a named entry of the specified type from the registry, given the handle to an open registry key.
 old-location: netvista\ndisreadconfiguration.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisReadConfiguration
+- NdisReadConfiguration
 product:
 - Windows
 targetos: Windows

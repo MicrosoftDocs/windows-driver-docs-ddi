@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
-title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
+title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053 (d3d12umddi.h)
 description: Declares the type of resource access to begin a Render Pass.
 ms.assetid: 2db80a0c-b883-4e13-9763-37b135923a26
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
+- D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

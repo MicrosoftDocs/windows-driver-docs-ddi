@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SEVERITY
-title: "_WHEA_ERROR_SEVERITY"
+title: _WHEA_ERROR_SEVERITY (ntddk.h)
 description: The WHEA_ERROR_SEVERITY enumeration defines the possible severity levels of a hardware error condition.
 old-location: whea\whea_error_severity.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_ERROR_SEVERITY
+- WHEA_ERROR_SEVERITY
 product:
 - Windows
 targetos: Windows

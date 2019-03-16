@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES
-title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES
+title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES (iddcx.h)
 description: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES is called by the OS to get a list of target modes supported by the driver for a monitor connected to the endpoint.
 old-location: display\evt_idd_cx_monitor_query_target_modes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES
+- PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES
 product:
 - Windows
 targetos: Windows

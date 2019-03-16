@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SecMakeSPNEx2
-title: SecMakeSPNEx2 function
+title: SecMakeSPNEx2 function (ntifs.h)
 description: SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers.
 old-location: ifsk\secmakespnex2.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksecdd.lib
--	Ksecdd.dll
+- Ksecdd.lib
+- Ksecdd.dll
 api_name:
--	SecMakeSPNEx2
+- SecMakeSPNEx2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
-title: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
+title: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW (d3d12umddi.h)
 description: Describes the subresources from an array of cube textures to use in a shader-resource view.
 ms.assetid: e823651f-f626-4db1-a9ac-3ead29da054e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
+- D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

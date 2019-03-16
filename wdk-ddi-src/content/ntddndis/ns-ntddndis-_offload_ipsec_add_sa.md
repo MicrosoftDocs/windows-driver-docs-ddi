@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_ADD_SA
-title: "_OFFLOAD_IPSEC_ADD_SA"
+title: _OFFLOAD_IPSEC_ADD_SA (ntddndis.h)
 description: The OFFLOAD_IPSEC_ADD_SA structure contains information for each security association (SA) that a miniport driver adds to a NIC.
 old-location: netvista\offload_ipsec_add_sa.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	OFFLOAD_IPSEC_ADD_SA
+- OFFLOAD_IPSEC_ADD_SA
 product:
 - Windows
 targetos: Windows

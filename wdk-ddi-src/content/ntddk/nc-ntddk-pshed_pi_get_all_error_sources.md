@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_GET_ALL_ERROR_SOURCES
-title: PSHED_PI_GET_ALL_ERROR_SOURCES
+title: PSHED_PI_GET_ALL_ERROR_SOURCES (ntddk.h)
 description: A PSHED plug-in's GetAllErrorSources callback function returns a list of error source descriptor structures that represents all of the error sources that are implemented by the hardware platform.
 old-location: whea\getallerrorsources.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	GetAllErrorSources
+- GetAllErrorSources
 product:
 - Windows
 targetos: Windows

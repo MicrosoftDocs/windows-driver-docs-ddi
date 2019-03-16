@@ -1,11 +1,11 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX
-title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX
+title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX (usbioctl.h)
 description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX request retrieves information about a USB port and the device that is attached to the port, if there is one.Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
 old-location: buses\ioctl_usb_get_node_connection_information_ex.htm
 tech.root: usbref
 ms.assetid: d056dd82-815d-42da-8d2a-490474f68782
-ms.date: 05/07/2018
+ms.date: 01/24/2019
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
 ms.topic: ioctl
 req.header: usbioctl.h
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX
+- IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows
@@ -51,7 +51,7 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</b> request retrieves inform
 
 Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
-<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
+<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</b> is a user-mode I/O control request. This request targets the USB hub device (GUID_DEVINTERFACE_USB_HUB).
 
 
 

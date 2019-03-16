@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
-title: EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST
+title: EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST (wdfio.h)
 description: A driver's EvtIoAllocateResourcesForReservedRequest callback function allocates request-specific resources that the driver can use to process an I/O request in the future.
 old-location: wdf\evtioallocateresourcesforreservedrequest.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoAllocateResourcesForReservedRequest
+- EvtIoAllocateResourcesForReservedRequest
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA_WMI
-title: "_SRBEX_DATA_WMI"
+title: _SRBEX_DATA_WMI (minitape.h)
 description: The SRBEX_DATA_WMI structure contains the request data for an extended WMI SRB.
 old-location: storage\srbex_data_wmi.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA_WMI
+- SRBEX_DATA_WMI
 product:
 - Windows
 targetos: Windows

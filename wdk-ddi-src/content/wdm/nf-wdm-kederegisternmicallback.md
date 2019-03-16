@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterNmiCallback
-title: KeDeregisterNmiCallback function
+title: KeDeregisterNmiCallback function (wdm.h)
 description: The KeDeregisterNmiCallback routine deregisters a nonmaskable interrupt (NMI) callback registered by KeRegisterNmiCallback.
 old-location: kernel\kederegisternmicallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeDeregisterNmiCallback
+- KeDeregisterNmiCallback
 product:
 - Windows
 targetos: Windows

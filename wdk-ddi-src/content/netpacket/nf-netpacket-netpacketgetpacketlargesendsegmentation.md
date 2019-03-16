@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketGetPacketLargeSendSegmentation
-title: NetPacketGetPacketLargeSendSegmentation function
+title: NetPacketGetPacketLargeSendSegmentation function (netpacket.h)
 description: The NetPacketGetPacketLargeSendSegmentation method retrieves large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: cd6668b9-37f0-4b67-a1b1-970465f894b8
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetPacketGetPacketLargeSendSegmentation
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetPacketGetPacketLargeSendSegmentation
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

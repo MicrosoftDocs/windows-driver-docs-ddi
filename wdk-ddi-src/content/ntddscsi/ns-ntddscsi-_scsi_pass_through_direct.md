@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH_DIRECT
-title: "_SCSI_PASS_THROUGH_DIRECT"
+title: _SCSI_PASS_THROUGH_DIRECT (ntddscsi.h)
 description: The SCSI_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through_direct.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	SCSI_PASS_THROUGH_DIRECT
+- SCSI_PASS_THROUGH_DIRECT
 product:
 - Windows
 targetos: Windows

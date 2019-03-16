@@ -1,6 +1,6 @@
 ---
 UID: NE:usbpmapi._USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
-title: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
+title: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT (usbpmapi.h)
 description: Defines format values used in **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**.
 ms.assetid: 89626905-d3b9-48f0-b235-c607b2bd4207
 ms.date: 09/30/2018
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
-product: Windows
+- _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryOffsetRegions
-title: IDebugSymbols3::GetSourceEntryOffsetRegions
+title: IDebugSymbols3::GetSourceEntryOffsetRegions (dbgeng.h)
 description: Returns all memory regions known to be associated with a source entry.
 old-location: debugger\idebugsymbols3_getsourceentryoffsetregions.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.GetSourceEntryOffsetRegions
+- IDebugSymbols3.GetSourceEntryOffsetRegions
 product:
 - Windows
 targetos: Windows

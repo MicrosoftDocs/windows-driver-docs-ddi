@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.OutputInfo
-title: IWDTFLOG2::OutputInfo
+title: IWDTFLOG2::OutputInfo (wdtf.h)
 description: Writes an informational entry to the test case log.
 old-location: dtf\iwdtflog2_outputinfo.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLOG2.OutputInfo
+- IWDTFLOG2.OutputInfo
 product:
 - Windows
 targetos: Windows

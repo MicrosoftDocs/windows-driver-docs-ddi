@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
-title: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
+title: _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT (usbctypes.h)
 description: Defines values for current power operation mode. 
 ms.assetid: 93cd224b-1baf-4219-b56b-d98ba97ea8c6
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_UCSI_SET_POWER_LEVEL_C_CURRENT, *PUSBPM_UCSI_SET_POWER_LEVEL_C_CURRENT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
-product: Windows
+- _USBC_UCSI_SET_POWER_LEVEL_C_CURRENT
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

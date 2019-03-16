@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostPublic
-title: IDebugHostPublic
+title: IDebugHostPublic (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostPublic
-product: Windows
+- IDebugHostPublic
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

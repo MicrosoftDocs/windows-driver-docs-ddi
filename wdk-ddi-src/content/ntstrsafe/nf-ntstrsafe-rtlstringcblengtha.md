@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbLengthA
-title: RtlStringCbLengthA function
+title: RtlStringCbLengthA function (ntstrsafe.h)
 description: The RtlStringCbLengthW and RtlStringCbLengthA functions determine the length, in bytes, of a supplied string.
 old-location: kernel\rtlstringcblength.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCbLengthW
--	RtlStringCbLengthA
--	RtlStringCbLengthW
+- RtlStringCbLengthW
+- RtlStringCbLengthA
+- RtlStringCbLengthW
 product:
 - Windows
 targetos: Windows

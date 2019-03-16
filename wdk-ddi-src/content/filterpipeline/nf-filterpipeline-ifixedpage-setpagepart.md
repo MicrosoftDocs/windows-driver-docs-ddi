@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.SetPagePart
-title: IFixedPage::SetPagePart
+title: IFixedPage::SetPagePart (filterpipeline.h)
 description: The SetPagePart method associates a new part with the page.
 old-location: print\ifixedpage_setpagepart.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage.SetPagePart
+- IFixedPage.SetPagePart
 product:
 - Windows
 targetos: Windows

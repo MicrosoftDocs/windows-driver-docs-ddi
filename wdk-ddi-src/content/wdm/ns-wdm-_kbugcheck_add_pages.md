@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_ADD_PAGES
-title: "_KBUGCHECK_ADD_PAGES"
+title: _KBUGCHECK_ADD_PAGES (wdm.h)
 description: The KBUGCHECK_ADD_PAGES structure describes one or more pages of driver-supplied data to be written by a BugCheckAddPagesCallback callback routine to the crash dump file.
 old-location: kernel\kbugcheck_add_pages.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KBUGCHECK_ADD_PAGES
+- KBUGCHECK_ADD_PAGES
 product:
 - Windows
 targetos: Windows

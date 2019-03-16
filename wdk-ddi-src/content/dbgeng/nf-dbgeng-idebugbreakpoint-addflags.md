@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.AddFlags
-title: IDebugBreakpoint::AddFlags
+title: IDebugBreakpoint::AddFlags (dbgeng.h)
 description: The AddFlags method adds flags to a breakpoint.
 old-location: debugger\addflags.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugBreakpoint.AddFlags
--	IDebugBreakpoint2.AddFlags
+- IDebugBreakpoint.AddFlags
+- IDebugBreakpoint2.AddFlags
 product:
 - Windows
 targetos: Windows

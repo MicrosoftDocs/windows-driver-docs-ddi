@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SHARED_MEMORY_PARAMETERS
-title: "_NDIS_SHARED_MEMORY_PARAMETERS"
+title: _NDIS_SHARED_MEMORY_PARAMETERS (ndis.h)
 description: The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory parameters for a shared memory allocation request.
 old-location: netvista\ndis_shared_memory_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_SHARED_MEMORY_PARAMETERS
+- NDIS_SHARED_MEMORY_PARAMETERS
 product:
 - Windows
 targetos: Windows

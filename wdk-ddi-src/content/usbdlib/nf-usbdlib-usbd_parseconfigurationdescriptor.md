@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_ParseConfigurationDescriptor
-title: USBD_ParseConfigurationDescriptor function
+title: USBD_ParseConfigurationDescriptor function (usbdlib.h)
 description: The USBD_ParseConfigurationDescriptor routine has been deprecated. Use USBD_ParseConfigurationDescriptorEx instead.
 old-location: buses\usbd_parseconfigurationdescriptor.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_ParseConfigurationDescriptor
+- USBD_ParseConfigurationDescriptor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDriverObjectExtension
-title: IoGetDriverObjectExtension function
+title: IoGetDriverObjectExtension function (wdm.h)
 description: The IoGetDriverObjectExtension routine retrieves a previously allocated per-driver context area.
 old-location: kernel\iogetdriverobjectextension.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetDriverObjectExtension
+- IoGetDriverObjectExtension
 product:
 - Windows
 targetos: Windows

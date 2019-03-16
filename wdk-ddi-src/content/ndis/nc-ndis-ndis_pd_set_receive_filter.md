@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_SET_RECEIVE_FILTER
-title: NDIS_PD_SET_RECEIVE_FILTER
+title: NDIS_PD_SET_RECEIVE_FILTER (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's NdisPDSetReceiveFilter function to direct specific flows of packets to a specific PD receive queue.
 old-location: netvista\ndispdsetreceivefilter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NdisPDSetReceiveFilter
+- NdisPDSetReceiveFilter
 product:
 - Windows
 targetos: Windows

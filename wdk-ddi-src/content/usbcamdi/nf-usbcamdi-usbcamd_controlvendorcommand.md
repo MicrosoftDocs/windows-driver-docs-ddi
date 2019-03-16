@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_ControlVendorCommand
-title: USBCAMD_ControlVendorCommand function
+title: USBCAMD_ControlVendorCommand function (usbcamdi.h)
 description: The USBCAMD_ControlVendorCommand function sends vendor-specific commands to the control pipe.
 old-location: stream\usbcamd_controlvendorcommand.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: ">= PASSIVE_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_ControlVendorCommand
+- USBCAMD_ControlVendorCommand
 product:
 - Windows
 targetos: Windows

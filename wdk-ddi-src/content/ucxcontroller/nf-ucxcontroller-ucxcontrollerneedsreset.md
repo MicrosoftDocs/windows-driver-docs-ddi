@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerNeedsReset
-title: UcxControllerNeedsReset function
+title: UcxControllerNeedsReset function (ucxcontroller.h)
 description: Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event into the controller reset state machine.
 old-location: buses\_ucxcontrollerneedsreset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UcxControllerNeedsReset
+- UcxControllerNeedsReset
 product:
 - Windows
 targetos: Windows

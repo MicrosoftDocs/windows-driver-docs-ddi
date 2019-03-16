@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.FREE_FUNCTION_EX
-title: FREE_FUNCTION_EX
+title: FREE_FUNCTION_EX (wdm.h)
 description: The LookasideListFreeEx routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full.
 old-location: kernel\lookasidelistfreeex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	LookasideListFreeEx
+- LookasideListFreeEx
 product:
 - Windows
 targetos: Windows

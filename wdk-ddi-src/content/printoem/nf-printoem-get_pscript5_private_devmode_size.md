@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
-title: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro
+title: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro (printoem.h)
 description: 
 ms.assetid: cda9100c-5b0f-4bf8-8d85-d920d23d8ceb
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	printoem.h
+- printoem.h
 api_name: 
--	GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
+- GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 product: 
 -   Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.RegisterNotificationEvent
-title: IMiniportWaveRTStreamNotification::RegisterNotificationEvent
+title: IMiniportWaveRTStreamNotification::RegisterNotificationEvent (portcls.h)
 description: The RegisterNotificationEvent method registers an event to be notified for DMA-driven event notification.
 old-location: audio\iminiportwavertstreamnotification_registernotificationevent.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTStreamNotification.RegisterNotificationEvent
+- IMiniportWaveRTStreamNotification.RegisterNotificationEvent
 product:
 - Windows
 targetos: Windows

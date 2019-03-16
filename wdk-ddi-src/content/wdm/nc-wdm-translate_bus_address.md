@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.TRANSLATE_BUS_ADDRESS
-title: TRANSLATE_BUS_ADDRESS
+title: TRANSLATE_BUS_ADDRESS (wdm.h)
 description: The TranslateBusAddress routine translates addresses on the parent bus to logical addresses.
 old-location: kernel\translatebusaddress.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	TranslateBusAddress
+- TranslateBusAddress
 product:
 - Windows
 targetos: Windows

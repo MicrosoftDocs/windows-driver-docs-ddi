@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxGetDeviceInterfaceTag
-title: PosCxGetDeviceInterfaceTag function
+title: PosCxGetDeviceInterfaceTag function (poscx.h)
 description: PosCxGetDeviceInterfaceTag returns the device interface tag that is set in PosCxOpen.
 old-location: pos\poscxgetdeviceinterfacetag.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxGetDeviceInterfaceTag
+- PosCxGetDeviceInterfaceTag
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
-title: "_DXGK_RECOMMENDFUNCTIONALVIDPN_REASON"
+title: _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON (d3dkmddi.h)
 description: The DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration indicates the reason for calling the display miniport driver's DxgkDdiRecommendFunctionalVidPn function.
 old-location: display\dxgk_recommendfunctionalvidpn_reason.htm
 ms.assetid: 75dda423-8d5a-4b11-a187-d6703601a366
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
+- DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 product:
 - Windows
 targetos: Windows

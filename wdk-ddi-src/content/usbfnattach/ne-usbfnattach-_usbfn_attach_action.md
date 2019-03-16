@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnattach._USBFN_ATTACH_ACTION
-title: "_USBFN_ATTACH_ACTION"
+title: _USBFN_ATTACH_ACTION (usbfnattach.h)
 description: Defines the actions that the Universal Serial Bus (USB) function stack takes when a device is attached to a USB port.
 old-location: buses\usbfn_attach_action.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	USBFN_ATTACH_ACTION
+- USBFN_ATTACH_ACTION
 product:
 - Windows
 targetos: Windows

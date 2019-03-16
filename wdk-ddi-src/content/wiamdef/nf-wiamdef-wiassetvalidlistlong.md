@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListLong
-title: wiasSetValidListLong function
+title: wiasSetValidListLong function (wiamdef.h)
 description: The wiasSetValidListLong function sets the valid values for a WIA_PROP_LIST property of type VT_I4.
 old-location: image\wiassetvalidlistlong.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetValidListLong
+- wiasSetValidListLong
 product:
 - Windows
 targetos: Windows

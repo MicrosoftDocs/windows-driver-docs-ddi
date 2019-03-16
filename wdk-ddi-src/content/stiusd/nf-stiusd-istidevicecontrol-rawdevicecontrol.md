@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.RawDeviceControl
-title: IStiDeviceControl::RawDeviceControl
+title: IStiDeviceControl::RawDeviceControl (stiusd.h)
 description: This topic describes the RawDeviceControl method.
 old-location: image\istidevicecontrol_rawdevicecontrol.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiDeviceControl.RawDeviceControl
+- IStiDeviceControl.RawDeviceControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOREX
-title: "_MONITOREX"
+title: _MONITOREX (winsplp.h)
 description: The MONITOREX structure is obsolete and supported for compatibility purposes only.
 old-location: print\monitorex.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	MONITOREX
+- MONITOREX
 product:
 - Windows
 targetos: Windows

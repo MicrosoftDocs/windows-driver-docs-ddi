@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATESTANDARDALLOCATION
-title: "_D3DKMT_CREATESTANDARDALLOCATION"
+title: _D3DKMT_CREATESTANDARDALLOCATION (d3dkmthk.h)
 description: Used to create a standard allocation.
 old-location: display\d3dkmt-createstandardallocation.htm
 ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATESTANDARDALLOCATION
+- D3DKMT_CREATESTANDARDALLOCATION
 product:
 - Windows
 targetos: Windows

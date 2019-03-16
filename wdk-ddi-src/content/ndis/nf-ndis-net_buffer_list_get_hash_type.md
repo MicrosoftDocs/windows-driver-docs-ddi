@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_GET_HASH_TYPE
-title: NET_BUFFER_LIST_GET_HASH_TYPE macro
+title: NET_BUFFER_LIST_GET_HASH_TYPE macro (ndis.h)
 description: The NET_BUFFER_LIST_GET_HASH_TYPE macro gets the hash type information from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 982ec1c3-a6d9-4863-b5af-63c01c929234
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_GET_HASH_TYPE
+- NET_BUFFER_LIST_GET_HASH_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

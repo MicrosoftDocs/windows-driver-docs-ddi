@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListUpdateMarshalledPointer
-title: CollectionsListUpdateMarshalledPointer function
+title: CollectionsListUpdateMarshalledPointer function (sensorsutils.h)
 description: This routine update embedded pointers.
 ms.assetid: f4e07e07-4f80-4427-b073-ea6f38346db5
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	CollectionsListUpdateMarshalledPointer
+- CollectionsListUpdateMarshalledPointer
 product:
 - Windows
 targetos: Windows

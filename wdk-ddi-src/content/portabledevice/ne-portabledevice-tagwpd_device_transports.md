@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_DEVICE_TRANSPORTS
-title: tagWPD_DEVICE_TRANSPORTS
+title: WPD_DEVICE_TRANSPORTS (portabledevice.h)
 description: The WPD_DEVICE_TRANSPORTS enumeration type describes the transport for the device that is currently connected. This enumeration is used by the WPD_DEVICE_TRANSPORT property.
 old-location: wpddk\wpd_device_transports.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_DEVICE_TRANSPORTS
+- WPD_DEVICE_TRANSPORTS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_DEVICE_TRANSPORTS
 ms.custom: RS5

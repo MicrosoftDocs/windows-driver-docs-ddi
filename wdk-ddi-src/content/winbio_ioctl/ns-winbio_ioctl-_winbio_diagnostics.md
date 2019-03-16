@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_DIAGNOSTICS
-title: "_WINBIO_DIAGNOSTICS"
+title: _WINBIO_DIAGNOSTICS (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_SENSOR_STATUS IOCTL returns the WINBIO_DIAGNOSTICS structure as output.
 old-location: biometric\winbio_diagnostics.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_DIAGNOSTICS
+- WINBIO_DIAGNOSTICS
 product:
 - Windows
 targetos: Windows

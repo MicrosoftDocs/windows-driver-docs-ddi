@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
-title: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro
+title: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro (ndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro to define the context type that is used by the SetNetBufferListSwitchContext and GetNetBufferListSwitchContext functions to attach and retrieve context from a NET_BUFFER_LIST structure. Extensions can define as many context types as they want within their driver.
 tech.root: netvista
 ms.assetid: bde251f3-a9b1-4f9f-b7ff-4a7ac71be99d
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
+- NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

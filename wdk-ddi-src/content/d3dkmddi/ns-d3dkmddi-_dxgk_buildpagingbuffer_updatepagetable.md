@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
-title: "_DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE"
+title: _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE is used as part of a page table update operation.
 old-location: display\dxgk_buildpagingbuffer_updatepagetable.htm
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
+- DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 product:
 - Windows
 targetos: Windows

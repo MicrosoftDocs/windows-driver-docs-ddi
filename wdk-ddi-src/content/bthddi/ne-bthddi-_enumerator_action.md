@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._ENUMERATOR_ACTION
-title: "_ENUMERATOR_ACTION"
+title: _ENUMERATOR_ACTION (bthddi.h)
 description: Reserved for internal use.
 old-location: bltooth\enumerator_action.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	ENUMERATOR_ACTION
+- ENUMERATOR_ACTION
 product:
 - Windows
 targetos: Windows

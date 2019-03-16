@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._VOLUME_CONTROL
-title: "_VOLUME_CONTROL"
+title: _VOLUME_CONTROL (ntddcdrm.h)
 description: The VOLUME_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_VOLUME request to retrieve volume values for up to four audio ports.
 old-location: storage\volume_control.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	VOLUME_CONTROL
+- VOLUME_CONTROL
 product:
 - Windows
 targetos: Windows

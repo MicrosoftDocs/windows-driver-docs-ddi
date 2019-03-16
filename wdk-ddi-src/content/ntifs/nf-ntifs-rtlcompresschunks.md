@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCompressChunks
-title: RtlCompressChunks function
+title: RtlCompressChunks function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlcompresschunks.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	RtlCompressChunks
+- RtlCompressChunks
 product:
 - Windows
 targetos: Windows

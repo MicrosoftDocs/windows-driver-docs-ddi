@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetAdapter
-title: NetRequestGetAdapter function
+title: NetRequestGetAdapter function (netrequest.h)
 description: The NetRequestGetAdapter method retrieves the NETADAPTER object associated with a NETREQUEST. This method is reserved for system use. Do not call this method from your code.
 tech.root: netvista
 ms.assetid: cdbc6009-26b3-4174-ba3f-d0129c72f98b
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetRequestGetAdapter
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetRequestGetAdapter
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

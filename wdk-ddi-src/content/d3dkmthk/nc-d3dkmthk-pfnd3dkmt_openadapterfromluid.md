@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENADAPTERFROMLUID
-title: PFND3DKMT_OPENADAPTERFROMLUID
+title: PFND3DKMT_OPENADAPTERFROMLUID (d3dkmthk.h)
 description: Pfnd3dkmtOpenadapterfromluid maps a locally unique identifier (LUID) to a graphics adapter handle.
 ms.assetid: 14e613a4-3b9a-4c8c-aa87-c75ed773b7a1
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENADAPTERFROMLUID
+- PFND3DKMT_OPENADAPTERFROMLUID
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

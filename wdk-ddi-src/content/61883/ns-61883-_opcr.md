@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._OPCR
-title: "_OPCR"
+title: _OPCR (61883.h)
 description: The OPCR structure contains initialization values for an output plug.
 old-location: ieee\opcr.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	OPCR
+- OPCR
 product:
 - Windows
 targetos: Windows

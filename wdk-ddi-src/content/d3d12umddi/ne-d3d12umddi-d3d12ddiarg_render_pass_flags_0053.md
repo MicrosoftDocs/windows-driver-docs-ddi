@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDIARG_RENDER_PASS_FLAGS_0053
-title: D3D12DDIARG_RENDER_PASS_FLAGS_0053
+title: D3D12DDIARG_RENDER_PASS_FLAGS_0053 (d3d12umddi.h)
 description: Indicates the state of the Render Pass.
 ms.assetid: 1ff42584-e2d3-4f47-8dac-3262fc375491
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDIARG_RENDER_PASS_FLAGS_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_RENDER_PASS_FLAGS_0053
+- D3D12DDIARG_RENDER_PASS_FLAGS_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

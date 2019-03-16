@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetController
-title: SpbRequestGetController function
+title: SpbRequestGetController function (spbcx.h)
 description: The SpbRequestGetController method returns the WDFDEVICE handle to the device object for the SPB controller that the specified I/O request was sent to.
 old-location: spb\spbrequestgetcontroller.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbRequestGetController
+- SpbRequestGetController
 product:
 - Windows
 targetos: Windows

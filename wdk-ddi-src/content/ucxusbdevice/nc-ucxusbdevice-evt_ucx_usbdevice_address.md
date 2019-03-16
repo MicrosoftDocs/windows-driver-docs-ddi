@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_ADDRESS
-title: EVT_UCX_USBDEVICE_ADDRESS
+title: EVT_UCX_USBDEVICE_ADDRESS (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to address the USB device.
 old-location: buses\evt_ucx_usbdevice_address.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_ADDRESS
+- PEVT_UCX_USBDEVICE_ADDRESS
 product:
 - Windows
 targetos: Windows

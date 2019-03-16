@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.BindProperty
-title: BindProperty function
+title: BindProperty function (dbgmodel.h)
 description:  A binder which converts two instance methods on a class to a read/write property accessor. 
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	
+- HeaderDef
 api_location: 
--	
+- dbgmodel.h
 api_name: 
--	BindProperty
-product: Windows
+- BindProperty
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_PARK_PREFERENCE
-title: "_PEP_PROCESSOR_PARK_PREFERENCE"
+title: _PEP_PROCESSOR_PARK_PREFERENCE (pepfx.h)
 description: The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption.
 old-location: kernel\pep_processor_park_preference.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PROCESSOR_PARK_PREFERENCE
+- PEP_PROCESSOR_PARK_PREFERENCE
 product:
 - Windows
 targetos: Windows

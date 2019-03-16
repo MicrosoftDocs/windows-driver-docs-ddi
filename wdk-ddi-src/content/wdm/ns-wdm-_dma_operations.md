@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_OPERATIONS
-title: "_DMA_OPERATIONS"
+title: _DMA_OPERATIONS (wdm.h)
 description: The DMA_OPERATIONS structure provides a table of pointers to functions that control the operation of a DMA controller.
 old-location: kernel\dma_operations.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_OPERATIONS
+- DMA_OPERATIONS
 product:
 - Windows
 targetos: Windows

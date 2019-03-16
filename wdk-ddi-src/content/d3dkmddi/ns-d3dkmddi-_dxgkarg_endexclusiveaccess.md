@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ENDEXCLUSIVEACCESS
-title: _DXGKARG_ENDEXCLUSIVEACCESS
+title: _DXGKARG_ENDEXCLUSIVEACCESS (d3dkmddi.h)
 description: Arguments used to end exclusive access.
 ms.assetid: 94464dca-20eb-48e7-bdc2-8ca3863c4eff
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_ENDEXCLUSIVEACCESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_ENDEXCLUSIVEACCESS
+- _DXGKARG_ENDEXCLUSIVEACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

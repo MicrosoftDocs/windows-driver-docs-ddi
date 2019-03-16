@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalHpfs
-title: FsRtlIsAnsiCharacterLegalHpfs macro
+title: FsRtlIsAnsiCharacterLegalHpfs macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalHpfs macro determines whether an ANSI character is legal for HPFS file names.
 old-location: ifsk\fsrtlisansicharacterlegalhpfs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsAnsiCharacterLegalHpfs
+- FsRtlIsAnsiCharacterLegalHpfs
 product:
 - Windows
 targetos: Windows

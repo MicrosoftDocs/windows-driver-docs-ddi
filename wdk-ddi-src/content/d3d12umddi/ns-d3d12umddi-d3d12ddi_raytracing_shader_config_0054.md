@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_SHADER_CONFIG_0054
-title: D3D12DDI_RAYTRACING_SHADER_CONFIG_0054
+title: D3D12DDI_RAYTRACING_SHADER_CONFIG_0054 (d3d12umddi.h)
 description: Describes the ray tracing shader configuration.
 ms.assetid: a5bbfe65-1692-4fd4-b3ce-46b6df5a53ac
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_RAYTRACING_SHADER_CONFIG_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RAYTRACING_SHADER_CONFIG_0054
+- D3D12DDI_RAYTRACING_SHADER_CONFIG_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

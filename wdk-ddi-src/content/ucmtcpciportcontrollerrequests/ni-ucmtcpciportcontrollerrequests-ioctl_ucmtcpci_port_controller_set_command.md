@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND (ucmtcpciportcontrollerrequests.h)
 description: Sets the value of a command register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_command.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UcmTcpciPortControllerRequests.h
+- UcmTcpciPortControllerRequests.h
 api_name:
--	IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
+- IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
 product:
 - Windows
 targetos: Windows

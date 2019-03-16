@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATECRYPTOSESSION
-title: PFND3D11_1DDI_CREATECRYPTOSESSION
+title: PFND3D11_1DDI_CREATECRYPTOSESSION (d3d10umddi.h)
 description: Creates a cryptographic session to encrypt video content that is sent to the display miniport driver.
 old-location: display\createcryptosession1.htm
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CreateCryptoSession
+- CreateCryptoSession
 product:
 - Windows
 targetos: Windows

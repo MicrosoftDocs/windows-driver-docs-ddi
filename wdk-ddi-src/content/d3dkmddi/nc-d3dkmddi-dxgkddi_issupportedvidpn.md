@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ISSUPPORTEDVIDPN
-title: DXGKDDI_ISSUPPORTEDVIDPN
+title: DXGKDDI_ISSUPPORTEDVIDPN (d3dkmddi.h)
 description: The DxgkDdiIsSupportedVidPn function determines whether a specified VidPN is supported on a display adapter.
 old-location: display\dxgkddiissupportedvidpn.htm
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiIsSupportedVidPn
+- DxgkDdiIsSupportedVidPn
 product:
 - Windows
 targetos: Windows

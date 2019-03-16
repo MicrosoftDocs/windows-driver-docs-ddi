@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddBreakpoint
-title: IDebugControl::AddBreakpoint
+title: IDebugControl::AddBreakpoint (dbgeng.h)
 description: The AddBreakpoint method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.AddBreakpoint
--	IDebugControl2.AddBreakpoint
--	IDebugControl3.AddBreakpoint
+- IDebugControl.AddBreakpoint
+- IDebugControl2.AddBreakpoint
+- IDebugControl3.AddBreakpoint
 product:
 - Windows
 targetos: Windows

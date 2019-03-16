@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterOpenConfiguration
-title: NetAdapterOpenConfiguration function
+title: NetAdapterOpenConfiguration function (netadapter.h)
 description: Opens the adapter’s configuration database.
 tech.root: netvista
 ms.assetid: 42e2310c-2302-4594-96ab-574e13f99a6c
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterOpenConfiguration
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterOpenConfiguration
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterOpenConfiguration
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

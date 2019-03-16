@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackIds
-title: "_MsrTrackIds"
+title: _MsrTrackIds (pointofservicedriverinterface.h)
 description: Defines the constants that represent the magnetic stripe reader (MSR) tracks.
 old-location: pos\msrtrackids.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	MsrTrackIds
+- MsrTrackIds
 product:
 - Windows
 targetos: Windows

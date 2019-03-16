@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetCorrelatedPhysicalTime
-title: IKsReferenceClock::GetCorrelatedPhysicalTime
+title: IKsReferenceClock::GetCorrelatedPhysicalTime (ks.h)
 description: The IKsReferenceClock::GetCorrelatedPhysicalTime method queries the associated reference clock for the current physical time and retrieves the correlated system time.
 old-location: stream\iksreferenceclock_getcorrelatedphysicaltime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetCorrelatedPhysicalTime
+- IKsReferenceClock.GetCorrelatedPhysicalTime
 product:
 - Windows
 targetos: Windows

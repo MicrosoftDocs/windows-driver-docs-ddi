@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeListHead
-title: StorPortInitializeListHead function
+title: StorPortInitializeListHead function (storport.h)
 description: The StorPortInitializeListHead routine initializes a STOR_LIST_ENTRY structure that represents the head of a doubly linked list.
 old-location: storage\storportinitializelisthead.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeListHead
+- StorPortInitializeListHead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
-title: "_NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO"
+title: _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union specifies the information for forwarding a packet to one or more Hyper-V extensible switch ports.
 old-location: netvista\ndis_switch_forwarding_detail_net_buffer_list_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
+- NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetHwProtectionTeardownRecovery
-title: D3DKMTSetHwProtectionTeardownRecovery function
+title: D3DKMTSetHwProtectionTeardownRecovery function (d3dkmthk.h)
 description: Sets the hardware protection tear down recovery.
 ms.assetid: 9a3f4fb2-ba8a-4aa9-80f5-76eecafdf515
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSetHwProtectionTeardownRecovery
+- D3DKMTSetHwProtectionTeardownRecovery
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

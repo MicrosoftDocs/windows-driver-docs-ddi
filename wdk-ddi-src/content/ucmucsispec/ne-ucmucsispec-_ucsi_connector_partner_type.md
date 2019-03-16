@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_CONNECTOR_PARTNER_TYPE
-title: _UCSI_CONNECTOR_PARTNER_TYPE
+title: _UCSI_CONNECTOR_PARTNER_TYPE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42, Offset 29.
 ms.assetid: ed586ce4-b228-479f-a60e-2a37e7755d9a
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_CONNECTOR_PARTNER_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_CONNECTOR_PARTNER_TYPE
-product: Windows
+- _UCSI_CONNECTOR_PARTNER_TYPE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

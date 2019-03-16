@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_DEALLOCATE_FLAGS_0022
-title: D3D12DDI_DEALLOCATE_FLAGS_0022
+title: D3D12DDI_DEALLOCATE_FLAGS_0022 (d3d12umddi.h)
 description: Defines flags for use in deallocation.
 old-location: display\d3d12ddi_deallocate_flags_0022.htm
 ms.assetid: 17E3C01A-0716-4B3C-B4B3-72B055FB40EA
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_DEALLOCATE_FLAGS_0022
+- D3D12DDI_DEALLOCATE_FLAGS_0022
 product:
 - Windows
 targetos: Windows

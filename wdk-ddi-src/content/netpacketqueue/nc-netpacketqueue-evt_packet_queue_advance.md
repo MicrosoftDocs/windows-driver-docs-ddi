@@ -1,6 +1,6 @@
 ---
 UID: NC:netpacketqueue.EVT_PACKET_QUEUE_ADVANCE
-title: EVT_PACKET_QUEUE_ADVANCE
+title: EVT_PACKET_QUEUE_ADVANCE (netpacketqueue.h)
 description: The EvtPacketQueueAdvance callback function is implemented by the client driver to process transmit or receive packets provided by NetAdapterCx.
 tech.root: netvista
 ms.assetid: d4d6becc-ae41-451d-939d-c4169456adb7
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	netpacketqueue.h
+- netpacketqueue.h
 api_name: 
--	EVT_PACKET_QUEUE_ADVANCE
+- EVT_PACKET_QUEUE_ADVANCE
 product:
 - Windows
 targetos: Windows

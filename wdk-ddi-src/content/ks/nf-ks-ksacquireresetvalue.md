@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAcquireResetValue
-title: KsAcquireResetValue function
+title: KsAcquireResetValue function (ks.h)
 description: The KsAcquireResetValue function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
 old-location: stream\ksacquireresetvalue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAcquireResetValue
+- KsAcquireResetValue
 product:
 - Windows
 targetos: Windows

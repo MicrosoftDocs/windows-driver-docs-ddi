@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._PosDeviceInformation
-title: "_PosDeviceInformation"
+title: _PosDeviceInformation (pointofservicecommontypes.h)
 description: This structure provides device information as defined in and required by the Unified Point of Service (UPOS) standard.
 old-location: pos\posdeviceinformation.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceCommonTypes.h
+- PointOfServiceCommonTypes.h
 api_name:
--	PosDeviceInformation
+- PosDeviceInformation
 product:
 - Windows
 targetos: Windows

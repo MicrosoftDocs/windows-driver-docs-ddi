@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_IS_CLUSTERED
-title: IOCTL_VOLUME_IS_CLUSTERED
+title: IOCTL_VOLUME_IS_CLUSTERED (ntddvol.h)
 description: Allows a driver or application to determine if a volume is clustered.
 old-location: storage\ioctl_volume_is_clustered.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvol.h
+- Ntddvol.h
 api_name:
--	IOCTL_VOLUME_IS_CLUSTERED
+- IOCTL_VOLUME_IS_CLUSTERED
 product:
 - Windows
 targetos: Windows

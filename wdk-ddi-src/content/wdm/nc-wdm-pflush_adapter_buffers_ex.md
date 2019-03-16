@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFLUSH_ADAPTER_BUFFERS_EX
-title: PFLUSH_ADAPTER_BUFFERS_EX
+title: PFLUSH_ADAPTER_BUFFERS_EX (wdm.h)
 description: The FlushAdapterBuffersEx routine flushes any data that remains in the data cache at the end of a DMA transfer operation performed by a system DMA controller or bus-master device.
 old-location: kernel\flushadapterbuffersex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	FlushAdapterBuffersEx
+- FlushAdapterBuffersEx
 product:
 - Windows
 targetos: Windows

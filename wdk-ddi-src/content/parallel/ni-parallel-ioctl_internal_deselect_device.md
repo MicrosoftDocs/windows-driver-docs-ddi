@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_DESELECT_DEVICE
-title: IOCTL_INTERNAL_DESELECT_DEVICE
+title: IOCTL_INTERNAL_DESELECT_DEVICE (parallel.h)
 description: The IOCTL_INTERNAL_DESELECT_DEVICE request deselects an IEEE 1284.3 daisy-chain device or an IEEE 1284 end-of-chain device attached to a parallel port.
 old-location: parports\ioctl_internal_deselect_device.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_DESELECT_DEVICE
+- IOCTL_INTERNAL_DESELECT_DEVICE
 product:
 - Windows
 targetos: Windows

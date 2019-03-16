@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerError
-title: ChangerError function
+title: ChangerError function (mcd.h)
 description: ChangerError performs device-specific error handling.
 old-location: storage\changererror.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerError
+- ChangerError
 product:
 - Windows
 targetos: Windows

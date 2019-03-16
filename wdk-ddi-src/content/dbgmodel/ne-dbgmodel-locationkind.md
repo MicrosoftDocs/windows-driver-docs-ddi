@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.LocationKind
-title: LocationKind
+title: LocationKind (dbgmodel.h)
 description: Defines the location of a field or other data.
 ms.assetid: 31b989a5-1029-48b4-b4e7-c7de24615bc4
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	LocationKind
-product: Windows
+- LocationKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

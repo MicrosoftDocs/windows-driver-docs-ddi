@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcUnpinDataForThread
-title: CcUnpinDataForThread function
+title: CcUnpinDataForThread function (ntifs.h)
 description: The CcUnpinDataForThread routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to CcSetBcbOwnerPointer.
 old-location: ifsk\ccunpindataforthread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcUnpinDataForThread
+- CcUnpinDataForThread
 product:
 - Windows
 targetos: Windows

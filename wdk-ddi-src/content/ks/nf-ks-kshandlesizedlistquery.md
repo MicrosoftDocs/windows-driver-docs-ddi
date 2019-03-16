@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsHandleSizedListQuery
-title: KsHandleSizedListQuery function
+title: KsHandleSizedListQuery function (ks.h)
 description: The KsHandleSizedListQuery function, depending on the length of the system buffer, returns either the size of the buffer needed, number of entries in the specified data list, or copies the entries themselves.
 old-location: stream\kshandlesizedlistquery.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsHandleSizedListQuery
+- KsHandleSizedListQuery
 product:
 - Windows
 targetos: Windows

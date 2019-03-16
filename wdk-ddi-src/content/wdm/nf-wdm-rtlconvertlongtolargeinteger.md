@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlConvertLongToLargeInteger
-title: RtlConvertLongToLargeInteger function
+title: RtlConvertLongToLargeInteger function (wdm.h)
 description: The RtlConvertLongToLargeInteger routine converts the input signed integer to a signed large integer.
 old-location: kernel\rtlconvertlongtolargeinteger.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlConvertLongToLargeInteger
+- RtlConvertLongToLargeInteger
 product:
 - Windows
 targetos: Windows

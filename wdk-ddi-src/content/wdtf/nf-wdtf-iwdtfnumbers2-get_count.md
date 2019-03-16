@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.get_Count
-title: IWDTFNumbers2::get_Count
+title: IWDTFNumbers2::get_Count (wdtf.h)
 description: Gets the number of numbers in the collection.
 old-location: dtf\iwdtfnumbers2_count.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFNumbers2.Count
--	IWDTFNumbers2.get_Count
+- IWDTFNumbers2.Count
+- IWDTFNumbers2.get_Count
 product:
 - Windows
 targetos: Windows

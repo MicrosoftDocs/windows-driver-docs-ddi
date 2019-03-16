@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._BACKLIGHT_REDUCTION_GAMMA_RAMP
-title: _BACKLIGHT_REDUCTION_GAMMA_RAMP
+title: _BACKLIGHT_REDUCTION_GAMMA_RAMP (ntddvdeo.h)
 description: Contains a reduction gamma lookup table.
 tech.root: display
 ms.assetid: f6f14d80-4859-4179-8921-1b28c417c1e3
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BACKLIGHT_REDUCTION_GAMMA_RAMP
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BACKLIGHT_REDUCTION_GAMMA_RAMP
+- _BACKLIGHT_REDUCTION_GAMMA_RAMP
 product: 
 - Windows
 targetos: Windows

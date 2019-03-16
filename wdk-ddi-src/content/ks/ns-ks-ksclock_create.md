@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_58
-title: KSCLOCK_CREATE
+title: KSCLOCK_CREATE (ks.h)
 description: The KSCLOCK_CREATE structure is used in clock create parameters for the KsCreateClock function.
 old-location: stream\ksclock_create.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSCLOCK_CREATE
+- KSCLOCK_CREATE
 product:
 - Windows
 targetos: Windows

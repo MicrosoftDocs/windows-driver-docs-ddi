@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxbase._UFX_DEVICE_CAPABILITIES
-title: "_UFX_DEVICE_CAPABILITIES"
+title: _UFX_DEVICE_CAPABILITIES (ufxbase.h)
 description: The UFX_DEVICE_CAPABILITIES structure is used USB to define properties of the Universal Serial Bus (USB) device created by the controller.
 old-location: buses\ufx_device_capabilities.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxbase.h
+- ufxbase.h
 api_name:
--	UFX_DEVICE_CAPABILITIES
+- UFX_DEVICE_CAPABILITIES
 product:
 - Windows
 targetos: Windows

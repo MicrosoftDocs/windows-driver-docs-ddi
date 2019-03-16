@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
-title: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
+title: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection (portcls.h)
 description: Sets the loopback protection status of the audio engine node.
 old-location: audio\iminiportstreamaudioenginenode_setstreamloopbackprotection.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
+- IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
 product:
 - Windows
 targetos: Windows

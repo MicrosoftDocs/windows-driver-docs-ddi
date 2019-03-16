@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_LSRMST_INSERT
-title: IOCTL_SERIAL_LSRMST_INSERT
+title: IOCTL_SERIAL_LSRMST_INSERT (ntddser.h)
 description: The IOCTL_SERIAL_LSRMST_INSERT request enables or disables the insertion of information about line status and modem status in the receive data stream.
 old-location: serports\ioctl_serial_lsrmst_insert.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_LSRMST_INSERT
+- IOCTL_SERIAL_LSRMST_INSERT
 product:
 - Windows
 targetos: Windows

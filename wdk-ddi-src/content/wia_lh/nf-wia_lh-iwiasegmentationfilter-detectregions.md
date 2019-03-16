@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaSegmentationFilter.DetectRegions
-title: IWiaSegmentationFilter::DetectRegions
+title: IWiaSegmentationFilter::DetectRegions (wia_lh.h)
 description: The IWiaSegmentationFilter::DetectRegions method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
 old-location: image\iwiasegmentationfilter_detectregions.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaSegmentationFilter.DetectRegions
+- IWiaSegmentationFilter.DetectRegions
 product:
 - Windows
 targetos: Windows

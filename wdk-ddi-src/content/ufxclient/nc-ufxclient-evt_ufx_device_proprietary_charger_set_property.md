@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
-title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
+title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY (ufxclient.h)
 description: The client driver's implementation to set charger information that it uses to enable charging over USB.
 old-location: buses\evt_ufx_device_proprietary_charger_set_property.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
+- PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.WRITE_PORT_BUFFER_UCHAR
-title: WRITE_PORT_BUFFER_UCHAR function
+title: WRITE_PORT_BUFFER_UCHAR function (miniport.h)
 description: The WRITE_PORT_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified port.
 old-location: kernel\write_port_buffer_uchar.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	WRITE_PORT_BUFFER_UCHAR
+- WRITE_PORT_BUFFER_UCHAR
 product:
 - Windows
 targetos: Windows

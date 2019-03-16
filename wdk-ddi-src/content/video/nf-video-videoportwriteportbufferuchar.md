@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWritePortBufferUchar
-title: VideoPortWritePortBufferUchar function
+title: VideoPortWritePortBufferUchar function (video.h)
 description: The VideoPortWritePortBufferUchar function writes a number of bytes to a mapped I/O port.
 old-location: display\videoportwriteportbufferuchar.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWritePortBufferUchar
+- VideoPortWritePortBufferUchar
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_REGISTER_V2
-title: "_PEP_DEVICE_REGISTER_V2"
+title: _PEP_DEVICE_REGISTER_V2 (pep_x.h)
 description: The PEP_DEVICE_REGISTER structure describes all the components in a particular device.
 old-location: kernel\pep_device_register_v2.htm
 tech.root: kernel
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEVICE_REGISTER_V2
+- PEP_DEVICE_REGISTER_V2
 product:
 - Windows
 targetos: Windows

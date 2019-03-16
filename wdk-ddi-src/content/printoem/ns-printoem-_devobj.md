@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._DEVOBJ
-title: "_DEVOBJ"
+title: _DEVOBJ (printoem.h)
 description: The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
 old-location: print\devobj.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DEVOBJ
+- DEVOBJ
 product:
 - Windows
 targetos: Windows

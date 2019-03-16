@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_VOLUME_STANDARD_INFORMATION
-title: "_FILTER_VOLUME_STANDARD_INFORMATION"
+title: _FILTER_VOLUME_STANDARD_INFORMATION (fltuserstructures.h)
 description: The caller-allocated FILTER_VOLUME_STANDARD_INFORMATION structure contains information for a volume.
 old-location: ifsk\filter_volume_standard_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	FILTER_VOLUME_STANDARD_INFORMATION
+- FILTER_VOLUME_STANDARD_INFORMATION
 product:
 - Windows
 targetos: Windows

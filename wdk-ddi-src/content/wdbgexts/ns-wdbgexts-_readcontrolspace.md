@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._READCONTROLSPACE
-title: "_READCONTROLSPACE"
+title: _READCONTROLSPACE (wdbgexts.h)
 description: The ReadControlSpace function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	ReadControlSpace
+- ReadControlSpace
 product:
 - Windows
 targetos: Windows

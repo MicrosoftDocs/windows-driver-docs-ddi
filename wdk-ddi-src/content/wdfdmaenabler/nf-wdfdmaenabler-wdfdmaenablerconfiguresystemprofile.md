@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerConfigureSystemProfile
-title: WdfDmaEnablerConfigureSystemProfile function
+title: WdfDmaEnablerConfigureSystemProfile function (wdfdmaenabler.h)
 description: The WdfDmaEnablerConfigureSystemProfile method configures the hardware-specific settings for a system-mode DMA enabler and completes the resource initialization.
 old-location: wdf\wdfdmaenablerconfiguresystemprofile.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaEnablerConfigureSystemProfile
+- WdfDmaEnablerConfigureSystemProfile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmMapViewInSystemSpace
-title: MmMapViewInSystemSpace function
+title: MmMapViewInSystemSpace function (ntddk.h)
 description: The MmMapViewInSystemSpace function maps the specified section into the system's address space.
 ms.assetid: d7329479-9e00-4acc-81df-0e9a3ae212c0
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NfcCx.dll
+- NfcCx.dll
 api_name: 
--	MmMapViewInSystemSpace
+- MmMapViewInSystemSpace
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

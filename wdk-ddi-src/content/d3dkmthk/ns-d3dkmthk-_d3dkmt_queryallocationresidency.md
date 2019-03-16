@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYALLOCATIONRESIDENCY
-title: "_D3DKMT_QUERYALLOCATIONRESIDENCY"
+title: _D3DKMT_QUERYALLOCATIONRESIDENCY (d3dkmthk.h)
 description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 old-location: display\d3dkmt_queryallocationresidency.htm
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_QUERYALLOCATIONRESIDENCY
+- D3DKMT_QUERYALLOCATIONRESIDENCY
 product:
 - Windows
 targetos: Windows

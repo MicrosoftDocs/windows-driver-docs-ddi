@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddUlong
-title: ExInterlockedAddUlong function
+title: ExInterlockedAddUlong function (wdm.h)
 description: The ExInterlockedAddUlong routine adds an unsigned long value to a given unsigned integer as an atomic operation.
 old-location: kernel\exinterlockedaddulong.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedAddUlong
+- ExInterlockedAddUlong
 product:
 - Windows
 targetos: Windows

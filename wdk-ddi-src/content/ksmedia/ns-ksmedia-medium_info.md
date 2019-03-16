@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_132
-title: MEDIUM_INFO
+title: MEDIUM_INFO (ksmedia.h)
 description: The MEDIUM_INFO structure describes the media loaded into an external device.
 old-location: stream\medium_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	MEDIUM_INFO
+- MEDIUM_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgmodel.SymbolSearchInfo
-title: SymbolSearchInfo
+title: SymbolSearchInfo (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: ebc50d46-6c19-436b-a0bb-eb1e2da38f7b
 ms.date: 07/16/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	SymbolSearchInfo
-product: Windows
+- SymbolSearchInfo
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

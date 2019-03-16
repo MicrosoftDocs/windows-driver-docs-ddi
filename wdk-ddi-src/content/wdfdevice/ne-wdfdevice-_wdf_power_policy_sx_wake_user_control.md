@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
-title: "_WDF_POWER_POLICY_SX_WAKE_USER_CONTROL"
+title: _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL (wdfdevice.h)
 description: The WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration identifies whether a user can control a device's ability to wake the system from a low system power state.
 old-location: wdf\wdf_power_policy_sx_wake_user_control.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
+- WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
 product:
 - Windows
 targetos: Windows

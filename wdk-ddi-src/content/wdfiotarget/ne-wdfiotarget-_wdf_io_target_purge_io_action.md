@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_PURGE_IO_ACTION
-title: "_WDF_IO_TARGET_PURGE_IO_ACTION"
+title: _WDF_IO_TARGET_PURGE_IO_ACTION (wdfiotarget.h)
 description: The WDF_IO_TARGET_PURGE_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetPurge to purge an I/O target.
 old-location: wdf\wdf_io_target_purge_io_action.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfiotarget.h
+- wdfiotarget.h
 api_name:
--	WDF_IO_TARGET_PURGE_IO_ACTION
+- WDF_IO_TARGET_PURGE_IO_ACTION
 product:
 - Windows
 targetos: Windows

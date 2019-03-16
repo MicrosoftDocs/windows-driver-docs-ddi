@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_GET_CAPABILITIES
-title: IOCTL_SCSI_GET_CAPABILITIES
+title: IOCTL_SCSI_GET_CAPABILITIES (ntddscsi.h)
 description: Returns the capabilities and limitations of the underlying SCSI HBA.
 old-location: storage\ioctl_scsi_get_capabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddscsi.h
+- Ntddscsi.h
 api_name:
--	IOCTL_SCSI_GET_CAPABILITIES
+- IOCTL_SCSI_GET_CAPABILITIES
 product:
 - Windows
 targetos: Windows

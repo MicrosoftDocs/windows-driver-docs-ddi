@@ -1,6 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_GET_MAX_MESSAGE_BYTES
-title: IOCTL_NFP_GET_MAX_MESSAGE_BYTES
+title: IOCTL_NFP_GET_MAX_MESSAGE_BYTES (nfpdev.h)
 description: A client sends the IOCTL_NFP_GET_MAX_MESSAGE_BYTES request to any generic handle, one that is non-published and non-subscribed, to the provider device to determine the maximum message size supported.
 old-location: nfpdrivers\ioctl_nfp_get_max_message_bytes.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfpdev.h
+- nfpdev.h
 api_name:
--	IOCTL_NFP_GET_MAX_MESSAGE_BYTES
+- IOCTL_NFP_GET_MAX_MESSAGE_BYTES
 product:
 - Windows
 targetos: Windows

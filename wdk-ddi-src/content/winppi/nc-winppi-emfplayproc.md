@@ -1,6 +1,6 @@
 ---
 UID: NC:winppi.EMFPLAYPROC
-title: EMFPLAYPROC
+title: EMFPLAYPROC (winppi.h)
 description: 
 ms.assetid: 3c04887d-df3a-4084-965f-ac007e984aad
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	winppi.h
+- winppi.h
 api_name: 
--	EMFPLAYPROC
+- EMFPLAYPROC
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClAddParty
-title: NdisClAddParty function
+title: NdisClAddParty function (ndis.h)
 description: NdisClAddParty adds a party on the client's multipoint VC.
 old-location: netvista\ndiscladdparty.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisClAddParty
+- NdisClAddParty
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION
-title: PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION
+title: PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION (dbgeng.h)
 description: The BeginThreadStackReconstruction callback function causes debugger to pass the stream to the dump stack provider prior to thread enumeration.
 old-location: debugger\beginthreadstackreconstruction.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	BeginThreadStackReconstruction
+- BeginThreadStackReconstruction
 product:
 - Windows
 targetos: Windows

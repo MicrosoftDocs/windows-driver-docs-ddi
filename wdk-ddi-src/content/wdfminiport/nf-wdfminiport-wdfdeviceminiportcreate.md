@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfminiport.WdfDeviceMiniportCreate
-title: WdfDeviceMiniportCreate function
+title: WdfDeviceMiniportCreate function (wdfminiport.h)
 description: The WdfDeviceMiniportCreate method creates a framework device object that a miniport driver can use.
 old-location: wdf\wdfdeviceminiportcreate.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceMiniportCreate
+- WdfDeviceMiniportCreate
 product:
 - Windows
 targetos: Windows

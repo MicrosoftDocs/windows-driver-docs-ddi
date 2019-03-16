@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEALLOCATECB
-title: PFND3DDDI_DEALLOCATECB
+title: PFND3DDDI_DEALLOCATECB (d3dumddi.h)
 description: The pfnDeallocateCb callback function releases allocations or a kernel-mode resource object if the resource object was created.
 old-location: display\pfndeallocatecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnDeallocateCb
+- pfnDeallocateCb
 product:
 - Windows
 targetos: Windows

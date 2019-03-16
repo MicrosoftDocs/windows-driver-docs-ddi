@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_BSS_SELECTION_FLAGS
-title: "_WDI_BSS_SELECTION_FLAGS"
+title: _WDI_BSS_SELECTION_FLAGS (wditypes.h)
 description: The WDI_BSS_SELECTION_FLAGS enumeration defines flags for BSS selection.
 old-location: netvista\wdi_bss_selection_flags.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_BSS_SELECTION_FLAGS
+- WDI_BSS_SELECTION_FLAGS
 product:
 - Windows
 targetos: Windows

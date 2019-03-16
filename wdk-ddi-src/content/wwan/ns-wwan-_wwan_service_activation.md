@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION
-title: "_WWAN_SERVICE_ACTIVATION"
+title: _WWAN_SERVICE_ACTIVATION (wwan.h)
 description: The WWAN_SERVICE_ACTIVATION structure represents a vendor-specific buffer to be associated with service activation.
 old-location: netvista\wwan_service_activation.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SERVICE_ACTIVATION
+- WWAN_SERVICE_ACTIVATION
 product:
 - Windows
 targetos: Windows

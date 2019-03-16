@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_LOW_POWER_EPOCH
-title: "_PEP_LOW_POWER_EPOCH"
+title: _PEP_LOW_POWER_EPOCH (pepfx.h)
 description: The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).
 old-location: kernel\pep_low_power_epoch.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_LOW_POWER_EPOCH
+- PEP_LOW_POWER_EPOCH
 product:
 - Windows
 targetos: Windows

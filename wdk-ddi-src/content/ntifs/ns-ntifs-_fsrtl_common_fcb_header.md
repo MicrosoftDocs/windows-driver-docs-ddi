@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_COMMON_FCB_HEADER
-title: "_FSRTL_COMMON_FCB_HEADER"
+title: _FSRTL_COMMON_FCB_HEADER (ntifs.h)
 description: Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtl_common_fcb_header.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSRTL_COMMON_FCB_HEADER
+- FSRTL_COMMON_FCB_HEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:ks.IKsDeviceFunctions
-title: IKsDeviceFunctions
+title: IKsDeviceFunctions (ks.h)
 description: The IKsDeviceFunctions interface is a COM-style interface implemented on AVStream devices. This interface is available in Windows Server 2003 SP1 and later versions of Windows.
 old-location: stream\iksdevicefunctions.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsDeviceFunctions
+- IKsDeviceFunctions
 product:
 - Windows
 targetos: Windows

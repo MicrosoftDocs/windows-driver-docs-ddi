@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExceptionFilterParameters
-title: IDebugControl3::GetExceptionFilterParameters
+title: IDebugControl3::GetExceptionFilterParameters (dbgeng.h)
 description: The GetExceptionFilterParameters method returns the parameters for exception filters specified by exception codes or by index.
 old-location: debugger\getexceptionfilterparameters.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetExceptionFilterParameters
--	IDebugControl2.GetExceptionFilterParameters
--	IDebugControl3.GetExceptionFilterParameters
+- IDebugControl.GetExceptionFilterParameters
+- IDebugControl2.GetExceptionFilterParameters
+- IDebugControl3.GetExceptionFilterParameters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.KSAUTOMATION_TABLE_
-title: KSAUTOMATION_TABLE_
+title: KSAUTOMATION_TABLE_ (ks.h)
 description: The KSAUTOMATION_TABLE structure defines a structure that combines tables for properties, methods, and events.
 old-location: stream\ksautomation_table.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSAUTOMATION_TABLE
+- KSAUTOMATION_TABLE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_IA_SETVERTEXBUFFERS
-title: PFND3D10DDI_IA_SETVERTEXBUFFERS
+title: PFND3D10DDI_IA_SETVERTEXBUFFERS (d3d10umddi.h)
 description: The IaSetVertexBuffers function sets vertex buffers for an input assembler.
 old-location: display\iasetvertexbuffers.htm
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	IaSetVertexBuffers
+- IaSetVertexBuffers
 product:
 - Windows
 targetos: Windows

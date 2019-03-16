@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfcompaniontarget._WDF_TASK_SEND_OPTIONS_FLAGS
-title: "_WDF_TASK_SEND_OPTIONS_FLAGS"
+title: _WDF_TASK_SEND_OPTIONS_FLAGS (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_flags.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompaniontarget.h
+- wdfcompaniontarget.h
 api_name:
--	WDF_TASK_SEND_OPTIONS_FLAGS
+- WDF_TASK_SEND_OPTIONS_FLAGS
 product:
 - Windows
 targetos: Windows

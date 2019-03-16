@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckSharedResourceAccess
-title: D3DKMTCheckSharedResourceAccess function
+title: D3DKMTCheckSharedResourceAccess function (d3dkmthk.h)
 description: The D3DKMTCheckSharedResourceAccess function determines if a process can access a shared resource.
 old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCheckSharedResourceAccess
+- D3DKMTCheckSharedResourceAccess
 product:
 - Windows
 targetos: Windows

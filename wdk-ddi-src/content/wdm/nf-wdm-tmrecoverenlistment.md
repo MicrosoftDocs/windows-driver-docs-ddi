@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverEnlistment
-title: TmRecoverEnlistment function
+title: TmRecoverEnlistment function (wdm.h)
 description: The TmRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrecoverenlistment.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmRecoverEnlistment
+- TmRecoverEnlistment
 product:
 - Windows
 targetos: Windows

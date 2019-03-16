@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxIssueComponentPerfStateChange
-title: PoFxIssueComponentPerfStateChange function
+title: PoFxIssueComponentPerfStateChange function (wdm.h)
 description: The PoFxIssueComponentPerfStateChange routine submits a request to place a device component in a particular performance state.
 old-location: kernel\pofxissuecomponentperfstatechange.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxIssueComponentPerfStateChange
+- PoFxIssueComponentPerfStateChange
 product:
 - Windows
 targetos: Windows

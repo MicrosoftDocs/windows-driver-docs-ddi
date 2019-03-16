@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxReference
-title: RxReference function
+title: RxReference function (rxprocs.h)
 description: RxReference increments the NodeReferenceCount member of a structure by one for several of the reference counted data structures used by RDBSS.
 old-location: ifsk\rxreference.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxReference
+- RxReference
 product:
 - Windows
 targetos: Windows

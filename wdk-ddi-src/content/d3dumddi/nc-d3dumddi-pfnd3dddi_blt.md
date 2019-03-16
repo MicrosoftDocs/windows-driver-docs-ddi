@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_BLT
-title: PFND3DDDI_BLT
+title: PFND3DDDI_BLT (d3dumddi.h)
 description: The Blt function copies the contents of a source surface to a destination surface.
 old-location: display\blt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	Blt
+- Blt
 product:
 - Windows
 targetos: Windows

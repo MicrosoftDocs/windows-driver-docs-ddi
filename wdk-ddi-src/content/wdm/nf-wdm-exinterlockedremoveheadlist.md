@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedRemoveHeadList
-title: ExInterlockedRemoveHeadList function
+title: ExInterlockedRemoveHeadList function (wdm.h)
 description: The ExInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedremoveheadlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedRemoveHeadList
+- ExInterlockedRemoveHeadList
 product:
 - Windows
 targetos: Windows

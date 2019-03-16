@@ -1,6 +1,6 @@
 ---
 UID: NL:math3dhelper.CVEC3D
-title: CVEC3D
+title: CVEC3D (math3dhelper.h)
 description: Math library for a 3D vector.
 ms.assetid: 079435fd-1d13-439d-80a7-7da3bee046c2
 ms.date: 08/01/2018
@@ -21,13 +21,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	CVEC3D
+- CVEC3D
 product: 
 - Windows
 targetos: Windows

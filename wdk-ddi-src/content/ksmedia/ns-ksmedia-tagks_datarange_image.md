@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_IMAGE
-title: tagKS_DATARANGE_IMAGE
+title: tagKS_DATARANGE_IMAGE (ksmedia.h)
 description: Specifies an image data range that is used in the KSPIN_DESCRIPTOR structure that describes a pin (or stream).
 old-location: stream\ks_datarange_image.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KS_DATARANGE_IMAGE
+- KS_DATARANGE_IMAGE
 product:
 - Windows
 targetos: Windows

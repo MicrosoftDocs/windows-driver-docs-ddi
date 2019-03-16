@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.FormatUsingCurrentType
-title: IWDFIoRequest::FormatUsingCurrentType
+title: IWDFIoRequest::FormatUsingCurrentType (wudfddi.h)
 description: The FormatUsingCurrentType method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 old-location: wdf\iwdfiorequest_formatusingcurrenttype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.FormatUsingCurrentType
+- IWDFIoRequest.FormatUsingCurrentType
 product:
 - Windows
 targetos: Windows

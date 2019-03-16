@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt.__unnamed_enum_0
-title: DXGK_SERVICES
+title: DXGK_SERVICES (dispmprt.h)
 description: The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the DxgkCbQueryServices function.
 old-location: display\dxgk_services.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_SERVICES
+- DXGK_SERVICES
 product:
 - Windows
 targetos: Windows

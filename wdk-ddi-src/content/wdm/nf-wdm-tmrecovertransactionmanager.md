@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverTransactionManager
-title: TmRecoverTransactionManager function
+title: TmRecoverTransactionManager function (wdm.h)
 description: The TmRecoverTransactionManager routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
 old-location: kernel\tmrecovertransactionmanager.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmRecoverTransactionManager
+- TmRecoverTransactionManager
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_IPF_CPE_DESCRIPTOR
-title: "_WHEA_IPF_CPE_DESCRIPTOR"
+title: _WHEA_IPF_CPE_DESCRIPTOR (ntddk.h)
 description: The WHEA_IPF_CPE_DESCRIPTOR structure describes a corrected platform error (CPE) error source for an Itanium processor.
 old-location: whea\whea_ipf_cpe_descriptor.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_IPF_CPE_DESCRIPTOR
+- WHEA_IPF_CPE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

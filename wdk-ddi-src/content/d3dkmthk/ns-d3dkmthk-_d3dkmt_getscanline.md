@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSCANLINE
-title: "_D3DKMT_GETSCANLINE"
+title: _D3DKMT_GETSCANLINE (d3dkmthk.h)
 description: The D3DKMT_GETSCANLINE structure contains information about a video present source's vertical blanking status.
 old-location: display\d3dkmt_getscanline.htm
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETSCANLINE
+- D3DKMT_GETSCANLINE
 product:
 - Windows
 targetos: Windows

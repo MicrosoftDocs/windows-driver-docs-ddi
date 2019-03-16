@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExWaitForRundownProtectionRelease
-title: ExWaitForRundownProtectionRelease function
+title: ExWaitForRundownProtectionRelease function (wdm.h)
 description: The ExWaitForRundownProtectionRelease routine waits until all drivers that have already been granted run-down protection complete their accesses of the shared object.
 old-location: kernel\exwaitforrundownprotectionrelease.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExWaitForRundownProtectionRelease
+- ExWaitForRundownProtectionRelease
 product:
 - Windows
 targetos: Windows

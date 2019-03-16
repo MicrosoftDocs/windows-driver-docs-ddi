@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetLogicalUnit
-title: StorPortGetLogicalUnit function
+title: StorPortGetLogicalUnit function (storport.h)
 description: The StorPortGetLogicalUnit routine returns a pointer to the miniport driver's per-logical-unit storage area.
 old-location: storage\storportgetlogicalunit.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetLogicalUnit
+- StorPortGetLogicalUnit
 product:
 - Windows
 targetos: Windows

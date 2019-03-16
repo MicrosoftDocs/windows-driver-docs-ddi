@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_ATTRIBUTES
-title: "_DOT11_WFD_ATTRIBUTES"
+title: _DOT11_WFD_ATTRIBUTES (windot11.h)
 description: The DOT11_WFD_ATTRIBUTES structure is returned in an NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES indication. The structure defines the attributes related to Wi-Fi Direct (WFD) operation modes.
 old-location: netvista\dot11_wfd_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_ATTRIBUTES
+- DOT11_WFD_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

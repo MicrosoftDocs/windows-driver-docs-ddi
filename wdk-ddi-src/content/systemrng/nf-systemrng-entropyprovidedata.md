@@ -1,6 +1,6 @@
 ---
 UID: NF:systemrng.EntropyProvideData
-title: EntropyProvideData function
+title: EntropyProvideData function (systemrng.h)
 description: 
 ms.assetid: b4c814cc-3af9-4481-8060-6ea107e6e9a3
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyProvideData
+- EntropyProvideData
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

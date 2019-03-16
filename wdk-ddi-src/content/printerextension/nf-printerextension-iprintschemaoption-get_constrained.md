@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Constrained
-title: IPrintSchemaOption::get_Constrained
+title: IPrintSchemaOption::get_Constrained (printerextension.h)
 description: Gets the constraint setting type for the schema option.
 old-location: print\iprintschemaoption_constrained.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaOption.Constrained
--	IPrintSchemaOption.get_Constrained
+- IPrintSchemaOption.Constrained
+- IPrintSchemaOption.get_Constrained
 product:
 - Windows
 targetos: Windows

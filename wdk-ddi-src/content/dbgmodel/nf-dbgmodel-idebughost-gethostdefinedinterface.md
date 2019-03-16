@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetHostDefinedInterface
-title: IDebugHost::GetHostDefinedInterface
+title: IDebugHost::GetHostDefinedInterface (dbgmodel.h)
 description: The GetHostDefinedInterface method returns the host's main private interface, if such exists for the given host. 
 ms.assetid: 55ad88f7-ef21-40b8-a496-cb2d015080e5
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHost.GetHostDefinedInterface
-product: Windows
+- IDebugHost.GetHostDefinedInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

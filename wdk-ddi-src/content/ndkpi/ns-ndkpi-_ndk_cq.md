@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CQ
-title: "_NDK_CQ"
+title: _NDK_CQ (ndkpi.h)
 description: The NDK_CQ structure specifies the attributes of an NDK completion queue (CQ) object.
 old-location: netvista\ndk_cq.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_CQ
+- NDK_CQ
 product:
 - Windows
 targetos: Windows

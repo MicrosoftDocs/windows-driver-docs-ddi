@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KEY_SET_INFORMATION_CLASS
-title: "_KEY_SET_INFORMATION_CLASS"
+title: _KEY_SET_INFORMATION_CLASS (wdm.h)
 description: The KEY_SET_INFORMATION_CLASS enumeration type represents the type of information to set for a registry key.
 old-location: kernel\key_set_information_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KEY_SET_INFORMATION_CLASS
+- KEY_SET_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

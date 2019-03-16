@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvUnLockWiaDevice
-title: IWiaMiniDrv::drvUnLockWiaDevice
+title: IWiaMiniDrv::drvUnLockWiaDevice (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvUnLockWiaDevice method unlocks the WIA hardware device so that any minidriver can access it.
 old-location: image\iwiaminidrv_drvunlockwiadevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvUnLockWiaDevice
+- IWiaMiniDrv.drvUnLockWiaDevice
 product:
 - Windows
 targetos: Windows

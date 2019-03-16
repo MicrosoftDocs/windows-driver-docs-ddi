@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaCreateFilterFactory
-title: BdaCreateFilterFactory function
+title: BdaCreateFilterFactory function (bdasup.h)
 description: The BdaCreateFilterFactory function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.
 old-location: stream\bdacreatefilterfactory.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaCreateFilterFactory
+- BdaCreateFilterFactory
 product:
 - Windows
 targetos: Windows

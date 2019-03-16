@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryTotalCycleTimeThread
-title: KeQueryTotalCycleTimeThread function
+title: KeQueryTotalCycleTimeThread function (wdm.h)
 description: The KeQueryTotalCycleTimeThread routine returns the accumulated cycle time for the specified thread.
 old-location: kernel\kequerytotalcycletimethread_.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KeQueryTotalCycleTimeThread
+- KeQueryTotalCycleTimeThread
 product:
 - Windows
 targetos: Windows

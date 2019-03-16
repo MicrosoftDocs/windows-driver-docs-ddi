@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCKCB
-title: PFND3DDDI_LOCKCB
+title: PFND3DDDI_LOCKCB (d3dumddi.h)
 description: The pfnLockCb function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager.
 old-location: display\pfnlockcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnLockCb
+- pfnLockCb
 product:
 - Windows
 targetos: Windows

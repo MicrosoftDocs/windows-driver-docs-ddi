@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrSub
-title: RtlDWordPtrSub function
+title: RtlDWordPtrSub function (ntintsafe.h)
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: kernel\rtldwordptrsub.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlDWordPtrSub
+- RtlDWordPtrSub
 product:
 - Windows
 targetos: Windows

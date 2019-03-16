@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.GetNamedValue
-title: IWDFNamedPropertyStore::GetNamedValue
+title: IWDFNamedPropertyStore::GetNamedValue (wudfddi.h)
 description: The GetNamedValue method retrieves the value of a property.
 old-location: wdf\iwdfnamedpropertystore_getnamedvalue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore.GetNamedValue
+- IWDFNamedPropertyStore.GetNamedValue
 product:
 - Windows
 targetos: Windows

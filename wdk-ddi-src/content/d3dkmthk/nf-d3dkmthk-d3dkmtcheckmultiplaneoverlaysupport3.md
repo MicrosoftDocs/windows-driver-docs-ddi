@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMultiPlaneOverlaySupport3
-title: D3DKMTCheckMultiPlaneOverlaySupport3 function
+title: D3DKMTCheckMultiPlaneOverlaySupport3 function (d3dkmthk.h)
 description: Checks multiplane overlay support.
 ms.assetid: 395fe4ec-ee7b-4c02-9ae0-ca3d2e062f1f
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTCheckMultiPlaneOverlaySupport3
+- D3DKMTCheckMultiPlaneOverlaySupport3
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

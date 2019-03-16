@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderGetTracingHandle
-title: WdfWmiProviderGetTracingHandle function
+title: WdfWmiProviderGetTracingHandle function (wdfwmi.h)
 description: The WdfWmiProviderGetTracingHandle method returns a handle to the event logger of a WPP software tracing session.
 old-location: wdf\wdfwmiprovidergettracinghandle.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfWmiProviderGetTracingHandle
+- WdfWmiProviderGetTracingHandle
 product:
 - Windows
 targetos: Windows

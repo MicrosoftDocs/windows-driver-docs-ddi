@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ENCRYPTIONBLT
-title: PFND3DDDI_ENCRYPTIONBLT
+title: PFND3DDDI_ENCRYPTIONBLT (d3dumddi.h)
 description: The EncryptionBlt function reads encrypted data from a protected surface.
 old-location: display\encryptionblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	EncryptionBlt
+- EncryptionBlt
 product:
 - Windows
 targetos: Windows

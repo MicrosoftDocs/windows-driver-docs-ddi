@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Abort
-title: IWDFUsbTargetPipe::Abort
+title: IWDFUsbTargetPipe::Abort (wudfusb.h)
 description: The Abort method aborts all pending transfers on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_abort.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetPipe.Abort
+- IWDFUsbTargetPipe.Abort
 product:
 - Windows
 targetos: Windows

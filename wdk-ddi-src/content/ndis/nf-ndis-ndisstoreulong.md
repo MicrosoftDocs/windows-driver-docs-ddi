@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisStoreUlong
-title: NdisStoreUlong macro
+title: NdisStoreUlong macro (ndis.h)
 description: The NdisStoreUlong function stores a ULONG value at a particular address, avoiding alignment faults.
 old-location: netvista\ndisstoreulong.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisStoreUlong
+- NdisStoreUlong
 product:
 - Windows
 targetos: Windows

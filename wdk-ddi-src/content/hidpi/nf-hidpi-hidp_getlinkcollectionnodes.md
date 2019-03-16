@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetLinkCollectionNodes
-title: HidP_GetLinkCollectionNodes function
+title: HidP_GetLinkCollectionNodes function (hidpi.h)
 description: The HidP_GetLinkCollectionNodes routine returns a top-level collection's link collection array.
 old-location: hid\hidp_getlinkcollectionnodes.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetLinkCollectionNodes
+- HidP_GetLinkCollectionNodes
 product:
 - Windows
 targetos: Windows

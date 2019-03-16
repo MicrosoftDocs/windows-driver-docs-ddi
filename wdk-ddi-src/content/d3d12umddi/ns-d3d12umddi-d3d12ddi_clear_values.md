@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CLEAR_VALUES
-title: D3D12DDI_CLEAR_VALUES
+title: D3D12DDI_CLEAR_VALUES (d3d12umddi.h)
 description: The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear operations for a particular resource.
 ms.assetid: 25db923b-e26c-44ef-adef-a619df1ac0ef
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_CLEAR_VALUES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_CLEAR_VALUES
+- D3D12DDI_CLEAR_VALUES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

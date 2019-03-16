@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BINARY_CONTAINER
-title: "_BINARY_CONTAINER"
+title: _BINARY_CONTAINER (winspool.h)
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BINARY_CONTAINER
+- BINARY_CONTAINER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_54
-title: LOOPEDSTREAMING_POSITION_EVENT_DATA
+title: LOOPEDSTREAMING_POSITION_EVENT_DATA (ksmedia.h)
 description: The LOOPEDSTREAMING_POSITION_EVENT_DATA structure describes a position event in a looped buffer.
 old-location: audio\loopedstreaming_position_event_data.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	LOOPEDSTREAMING_POSITION_EVENT_DATA
+- LOOPEDSTREAMING_POSITION_EVENT_DATA
 product:
 - Windows
 targetos: Windows

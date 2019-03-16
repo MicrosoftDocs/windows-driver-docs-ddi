@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSetFirmwareEnvironmentVariable
-title: ExSetFirmwareEnvironmentVariable function
+title: ExSetFirmwareEnvironmentVariable function (wdm.h)
 description: The ExSetFirmwareEnvironmentVariable routine sets the value of the specified system firmware environment variable.
 old-location: kernel\exsetfirmwareenvironmentvariable.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExSetFirmwareEnvironmentVariable
+- ExSetFirmwareEnvironmentVariable
 product:
 - Windows
 targetos: Windows

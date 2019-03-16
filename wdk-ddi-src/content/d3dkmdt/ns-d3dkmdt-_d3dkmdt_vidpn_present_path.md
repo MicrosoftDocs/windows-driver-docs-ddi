@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH
-title: "_D3DKMDT_VIDPN_PRESENT_PATH"
+title: _D3DKMDT_VIDPN_PRESENT_PATH (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH structure contains information about a video present path.
 old-location: display\d3dkmdt_vidpn_present_path.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH
+- D3DKMDT_VIDPN_PRESENT_PATH
 product:
 - Windows
 targetos: Windows

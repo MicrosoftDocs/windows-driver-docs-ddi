@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
-title: IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
+title: IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES (ntddvdeo.h)
 description: Queries the brightness ranges for a display panel.
 ms.assetid: 2fb0a064-2c67-46e0-baa9-d03394614d87
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
+- IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
 product: 
 - Windows
 targetos: Windows

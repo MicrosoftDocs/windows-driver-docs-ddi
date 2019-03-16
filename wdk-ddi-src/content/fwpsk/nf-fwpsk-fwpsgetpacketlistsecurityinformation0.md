@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsGetPacketListSecurityInformation0
-title: FwpsGetPacketListSecurityInformation0 function
+title: FwpsGetPacketListSecurityInformation0 function (fwpsk.h)
 description: The FwpsGetPacketListSecurityInformation0 function retrieves information associated with a packet list.Note  FwpsGetPacketListSecurityInformation0 is a specific version of FwpsGetPacketListSecurityInformation.
 old-location: netvista\fwpsgetpacketlistsecurityinformation0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsGetPacketListSecurityInformation0
+- FwpsGetPacketListSecurityInformation0
 product:
 - Windows
 targetos: Windows

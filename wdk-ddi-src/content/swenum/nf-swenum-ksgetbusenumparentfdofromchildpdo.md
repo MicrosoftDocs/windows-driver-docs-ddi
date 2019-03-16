@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsGetBusEnumParentFDOFromChildPDO
-title: KsGetBusEnumParentFDOFromChildPDO function
+title: KsGetBusEnumParentFDOFromChildPDO function (swenum.h)
 description: The KsGetBusEnumParentFDOFromChildPDO function retrieves the FDO of the parent of the given child PDO.
 old-location: stream\ksgetbusenumparentfdofromchildpdo.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetBusEnumParentFDOFromChildPDO
+- KsGetBusEnumParentFDOFromChildPDO
 product:
 - Windows
 targetos: Windows

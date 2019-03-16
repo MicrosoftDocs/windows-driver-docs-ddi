@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_WRITE_MARKS
-title: "_TAPE_WRITE_MARKS"
+title: _TAPE_WRITE_MARKS (minitape.h)
 description: The TAPE_WRITE_MARKS structure is used in conjunction with an IOCTL_TAPE_WRITE_MARKS request to write a setmark, a filemark, a short filemark, or a long filemark to tape.
 old-location: storage\tape_write_marks.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddtape.h
+- ntddtape.h
 api_name:
--	TAPE_WRITE_MARKS
+- TAPE_WRITE_MARKS
 product:
 - Windows
 targetos: Windows

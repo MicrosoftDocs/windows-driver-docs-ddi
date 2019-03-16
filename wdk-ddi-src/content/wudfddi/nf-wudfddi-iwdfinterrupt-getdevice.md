@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.GetDevice
-title: IWDFInterrupt::GetDevice
+title: IWDFInterrupt::GetDevice (wudfddi.h)
 description: The GetDevice method returns the framework device object interface for this interrupt object.
 old-location: wdf\iwdfinterrupt_getdevice.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFInterrupt.GetDevice
+- IWDFInterrupt.GetDevice
 product:
 - Windows
 targetos: Windows

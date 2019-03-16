@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetOriginalObject
-title: IModelKeyReference::GetOriginalObject
+title: IModelKeyReference::GetOriginalObject (dbgmodel.h)
 description: The GetOriginalObject method returns the instance object from which the key reference was created.
 ms.assetid: 90470310-3ddb-444d-bf70-835cf42ea2ae
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference.GetOriginalObject
-product: Windows
+- IModelKeyReference.GetOriginalObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

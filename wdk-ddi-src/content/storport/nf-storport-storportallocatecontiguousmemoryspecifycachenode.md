@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateContiguousMemorySpecifyCacheNode
-title: StorPortAllocateContiguousMemorySpecifyCacheNode function
+title: StorPortAllocateContiguousMemorySpecifyCacheNode function (storport.h)
 description: The StorPortAllocateContiguousMemorySpecifyCacheNode routine allocates a range of physically contiguous noncached, nonpaged memory.
 old-location: storage\storportallocatecontiguousmemoryspecifycachenode.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAllocateContiguousMemorySpecifyCacheNode
+- StorPortAllocateContiguousMemorySpecifyCacheNode
 product:
 - Windows
 targetos: Windows

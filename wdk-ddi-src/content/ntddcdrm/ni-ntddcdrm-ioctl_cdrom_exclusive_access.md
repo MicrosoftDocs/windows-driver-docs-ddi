@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_EXCLUSIVE_ACCESS
-title: IOCTL_CDROM_EXCLUSIVE_ACCESS
+title: IOCTL_CDROM_EXCLUSIVE_ACCESS (ntddcdrm.h)
 description: The IOCTL_CDROM_EXCLUSIVE_ACCESS request instructs the CD-ROM class driver to:Report the access state of a CD-ROM device.
 old-location: storage\ioctl_cdrom_exclusive_access.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdrm.h
+- Ntddcdrm.h
 api_name:
--	IOCTL_CDROM_EXCLUSIVE_ACCESS
+- IOCTL_CDROM_EXCLUSIVE_ACCESS
 product:
 - Windows
 targetos: Windows

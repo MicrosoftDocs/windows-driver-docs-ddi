@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION (d3d10umddi.h)
 description: Contains input data for a call to the ConfigureAuthenticatedChannel(D3D11_1) function when D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureType has a GUID value of D3D11_AUTHENTICATED_CONFIGURE_PROTECTION.
 old-location: display\d3d11_1ddi_authenticated_configure_protection.htm
 ms.assetid: 2932fd35-54dc-4054-99e5-9b33aac77413
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION
+- D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION
 product:
 - Windows
 targetos: Windows

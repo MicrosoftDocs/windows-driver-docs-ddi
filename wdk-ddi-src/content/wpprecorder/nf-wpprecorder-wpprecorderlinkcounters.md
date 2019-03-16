@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderLinkCounters
-title: WppRecorderLinkCounters macro
+title: WppRecorderLinkCounters macro (wpprecorder.h)
 description: The WppRecorderLinkCounters.
 old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wpprecorder.h
+- wpprecorder.h
 api_name:
--	imp_WppRecorderLinkCounters
+- imp_WppRecorderLinkCounters
 product:
 - Windows
 targetos: Windows

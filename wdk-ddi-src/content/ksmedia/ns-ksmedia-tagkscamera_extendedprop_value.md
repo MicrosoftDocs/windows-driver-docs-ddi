@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_VALUE
-title: tagKSCAMERA_EXTENDEDPROP_VALUE
+title: tagKSCAMERA_EXTENDEDPROP_VALUE (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_VALUE structure is a data type union used to express an extended property value.
 old-location: stream\kscamera_extendedprop_value.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_VALUE
+- KSCAMERA_EXTENDEDPROP_VALUE
 product:
 - Windows
 targetos: Windows

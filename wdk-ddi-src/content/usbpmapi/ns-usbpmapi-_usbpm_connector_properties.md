@@ -1,6 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_CONNECTOR_PROPERTIES
-title: _USBPM_CONNECTOR_PROPERTIES
+title: _USBPM_CONNECTOR_PROPERTIES (usbpmapi.h)
 description: Describes the properties of a connector.
 ms.assetid: f07a2985-d569-4fe2-9a37-c95e7d664d28
 ms.date: 09/30/2018
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_CONNECTOR_PROPERTIES, *PUSBPM_CONNECTOR_PROPERTIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_CONNECTOR_PROPERTIES
-product: Windows
+- USBPM_CONNECTOR_PROPERTIES
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

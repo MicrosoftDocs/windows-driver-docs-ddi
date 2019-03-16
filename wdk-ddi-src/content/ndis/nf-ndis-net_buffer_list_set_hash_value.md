@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_SET_HASH_VALUE
-title: NET_BUFFER_LIST_SET_HASH_VALUE macro
+title: NET_BUFFER_LIST_SET_HASH_VALUE macro (ndis.h)
 description: The NET_BUFFER_LIST_SET_HASH_VALUE macro sets the hash value information in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 4c72d349-dc74-42b5-ae97-2e68f18285fa
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_SET_HASH_VALUE
+- NET_BUFFER_LIST_SET_HASH_VALUE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

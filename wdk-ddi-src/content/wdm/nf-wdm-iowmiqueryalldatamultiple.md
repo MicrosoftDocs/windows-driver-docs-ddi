@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQueryAllDataMultiple
-title: IoWMIQueryAllDataMultiple function
+title: IoWMIQueryAllDataMultiple function (wdm.h)
 description: The IoWMIQueryAllDataMultiple routine returns all WMI data blocks that implement one of a set of WMI classes.
 old-location: kernel\iowmiqueryalldatamultiple.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIQueryAllDataMultiple
+- IoWMIQueryAllDataMultiple
 product:
 - Windows
 targetos: Windows

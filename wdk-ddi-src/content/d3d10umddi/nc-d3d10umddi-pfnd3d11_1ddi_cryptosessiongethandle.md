@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
-title: PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
+title: PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE (d3d10umddi.h)
 description: Returns a handle for a cryptographic session.
 old-location: display\cryptosessiongethandle.htm
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CryptoSessionGetHandle
+- CryptoSessionGetHandle
 product:
 - Windows
 targetos: Windows

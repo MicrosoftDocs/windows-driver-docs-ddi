@@ -1,6 +1,6 @@
 ---
 UID: NF:compstui.SetCPSUIUserData
-title: SetCPSUIUserData function
+title: SetCPSUIUserData function (compstui.h)
 description: CPSUI's SetCPSUIUserData function allows CPSUI applications (including printer interface DLLs) to associate nondisplayed data with a property sheet dialog box.
 old-location: print\setcpsuiuserdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Compstui.lib
 req.dll: Compstui.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Compstui.dll
+- Compstui.dll
 api_name:
--	SetCPSUIUserData
+- SetCPSUIUserData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoCallDriver
-title: PoCallDriver function
+title: PoCallDriver function (wdm.h)
 description: The PoCallDriver routine passes a power IRP to the next-lower driver in the device stack. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\pocalldriver.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoCallDriver
+- PoCallDriver
 product:
 - Windows
 targetos: Windows

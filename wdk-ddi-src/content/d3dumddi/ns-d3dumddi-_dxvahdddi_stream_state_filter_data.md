@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_FILTER_DATA
-title: "_DXVAHDDDI_STREAM_STATE_FILTER_DATA"
+title: _DXVAHDDDI_STREAM_STATE_FILTER_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_FILTER_DATA structure describes stream-state data that specifies the filter level.
 old-location: display\dxvahdddi_stream_state_filter_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_STREAM_STATE_FILTER_DATA
+- DXVAHDDDI_STREAM_STATE_FILTER_DATA
 product:
 - Windows
 targetos: Windows

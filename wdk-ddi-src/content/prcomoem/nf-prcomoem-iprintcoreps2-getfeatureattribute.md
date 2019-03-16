@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetFeatureAttribute
-title: IPrintCorePS2::GetFeatureAttribute
+title: IPrintCorePS2::GetFeatureAttribute (prcomoem.h)
 description: The IPrintCorePS2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreps2_getfeatureattribute.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCorePS2.GetFeatureAttribute
+- IPrintCorePS2.GetFeatureAttribute
 product:
 - Windows
 targetos: Windows

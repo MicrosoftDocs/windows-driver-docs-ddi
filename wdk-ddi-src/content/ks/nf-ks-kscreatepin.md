@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreatePin
-title: KsCreatePin function
+title: KsCreatePin function (ks.h)
 description: The KsCreatePin function passes a connection request to a device, creating a pin instance. This function can only be called at PASSIVE_LEVEL for kernel-mode clients.
 old-location: stream\kscreatepin.htm
 tech.root: stream
@@ -26,16 +26,16 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ks.lib
--	ks.dll
--	ksuser.dll
+- ks.lib
+- ks.dll
+- ksuser.dll
 api_name:
--	KsCreatePin
+- KsCreatePin
 product:
 - Windows
 targetos: Windows

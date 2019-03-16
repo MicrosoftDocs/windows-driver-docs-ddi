@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaOptionCollection
-title: IPrintSchemaOptionCollection
+title: IPrintSchemaOptionCollection (printerextension.h)
 description: Exposes a collection of IPrintSchemaOption objects.
 old-location: print\iprintschemaoptioncollection.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaOptionCollection
+- IPrintSchemaOptionCollection
 product:
 - Windows
 targetos: Windows

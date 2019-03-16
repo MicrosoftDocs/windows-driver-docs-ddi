@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerGetNextClone
-title: KsStreamPointerGetNextClone function
+title: KsStreamPointerGetNextClone function (ks.h)
 description: The KsStreamPointerGetNextClone function returns the clone stream pointer that was cloned immediately after the specified clone.
 old-location: stream\ksstreampointergetnextclone.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerGetNextClone
+- KsStreamPointerGetNextClone
 product:
 - Windows
 targetos: Windows

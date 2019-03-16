@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCloseSectionForDataScan
-title: FltCloseSectionForDataScan function
+title: FltCloseSectionForDataScan function (fltkernel.h)
 description: The FltCloseSectionForDataScan routine closes a section object associated with a file stream.
 old-location: ifsk\fltclosesectionfordatascan.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCloseSectionForDataScan
+- FltCloseSectionForDataScan
 product:
 - Windows
 targetos: Windows

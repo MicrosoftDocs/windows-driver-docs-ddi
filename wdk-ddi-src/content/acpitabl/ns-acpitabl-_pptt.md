@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._PPTT
-title: _PPTT
+title: _PPTT (acpitabl.h)
 description: Defines the Processor Properties Topology Table (PPTT) structure.
 ms.assetid: 7d62f635-3e42-4e31-8849-b0452b21caff
 ms.date: 10/01/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PPTT, *PPPTT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PPTT
+- _PPTT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

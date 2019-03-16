@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmGetDeviceObject
-title: WdfDeviceWdmGetDeviceObject function
+title: WdfDeviceWdmGetDeviceObject function (wdfdevice.h)
 description: The WdfDeviceWdmGetDeviceObject method returns the Windows Driver Model (WDM) device object that is associated with a specified framework device object.
 old-location: wdf\wdfdevicewdmgetdeviceobject.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceWdmGetDeviceObject
+- WdfDeviceWdmGetDeviceObject
 product:
 - Windows
 targetos: Windows

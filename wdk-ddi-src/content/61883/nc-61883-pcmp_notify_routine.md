@@ -1,6 +1,6 @@
 ---
 UID: NC:61883.PCMP_NOTIFY_ROUTINE
-title: PCMP_NOTIFY_ROUTINE
+title: PCMP_NOTIFY_ROUTINE (61883.h)
 description: This routine is called for plug notification.
 old-location: ieee\pcmp_notify_routine.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CmpNotifyRoutine
+- CmpNotifyRoutine
 product:
 - Windows
 targetos: Windows

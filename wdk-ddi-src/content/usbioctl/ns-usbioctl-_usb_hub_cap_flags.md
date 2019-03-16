@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_CAP_FLAGS
-title: "_USB_HUB_CAP_FLAGS"
+title: _USB_HUB_CAP_FLAGS (usbioctl.h)
 description: The USB_HUB_CAP_FLAGS structure is used to report the capabilities of a hub.
 old-location: buses\usb_hub_cap_flags.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_HUB_CAP_FLAGS
+- USB_HUB_CAP_FLAGS
 product:
 - Windows
 targetos: Windows

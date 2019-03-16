@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.FsRtlCheckOplock
-title: FsRtlCheckOplock macro
+title: FsRtlCheckOplock macro (rxprocs.h)
 description: The FsRtlCheckOplock routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fsrtlcheckoplock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlCheckOplock
+- FsRtlCheckOplock
 product:
 - Windows
 targetos: Windows

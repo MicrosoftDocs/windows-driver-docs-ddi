@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
-title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
+title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 (ntddndis.h)
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure contains the offload support state for VXLAN task offload. This structure is used in the EncapsulatedPacketTaskOffloadVxlan member of the NDIS_OFFLOAD structure.
 tech.root: netvista
 ms.assetid: 6721e56a-7d5d-4249-99bf-42af85dadded
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
+- _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

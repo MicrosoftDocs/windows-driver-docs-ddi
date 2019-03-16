@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWTRIPATCH
-title: PFND3DDDI_DRAWTRIPATCH
+title: PFND3DDDI_DRAWTRIPATCH (d3dumddi.h)
 description: The DrawTriPatch function draws a new or cached triangular patch or updates the specification of a previously defined patch.
 old-location: display\drawtripatch.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DrawTriPatch
+- DrawTriPatch
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-title: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+title: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS (d3d10umddi.h)
 description: Describes the video decoder capabilities.
 old-location: display\d3dwddm2_0ddi_video_decoder_caps.htm
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
+- D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 product:
 - Windows
 targetos: Windows

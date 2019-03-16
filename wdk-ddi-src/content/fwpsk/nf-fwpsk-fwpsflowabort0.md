@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFlowAbort0
-title: FwpsFlowAbort0 function
+title: FwpsFlowAbort0 function (fwpsk.h)
 description: The FwpsFlowAbort0 function aborts a data flow.Note  FwpsFlowAbort0 is a specific version of FwpsFlowAbort.
 old-location: netvista\fwpsflowabort0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsFlowAbort0
+- FwpsFlowAbort0
 product:
 - Windows
 targetos: Windows

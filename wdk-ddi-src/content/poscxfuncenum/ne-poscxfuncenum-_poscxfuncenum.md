@@ -1,6 +1,6 @@
 ---
 UID: NE:poscxfuncenum._POSCXFUNCENUM
-title: _POSCXFUNCENUM
+title: _POSCXFUNCENUM (poscxfuncenum.h)
 description: Provides a list of all PosCx WDF API functions.
 ms.assetid: ecc743f2-db9a-4816-a23b-8b6f072276f8
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: POSCXFUNCENUM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	poscxfuncenum.h
+- poscxfuncenum.h
 api_name: 
--	_POSCXFUNCENUM
+- _POSCXFUNCENUM
 product:
 -   Windows
 targetos: Windows

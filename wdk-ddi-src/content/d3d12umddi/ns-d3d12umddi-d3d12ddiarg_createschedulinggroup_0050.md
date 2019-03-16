@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATESCHEDULINGGROUP_0050
-title: D3D12DDIARG_CREATESCHEDULINGGROUP_0050
+title: D3D12DDIARG_CREATESCHEDULINGGROUP_0050 (d3d12umddi.h)
 description: Arguments used in the call to PFND3D12DDI_CREATESCHEDULINGGROUP_0050 to create a scheduling group.
 ms.assetid: d6916789-d42a-4089-a305-1a28248047e3
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATESCHEDULINGGROUP_0050
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_CREATESCHEDULINGGROUP_0050
+- D3D12DDIARG_CREATESCHEDULINGGROUP_0050
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

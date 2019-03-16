@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_POWER_COMPONENT_TYPE
-title: "_DXGK_POWER_COMPONENT_TYPE"
+title: _DXGK_POWER_COMPONENT_TYPE (d3dkmddi.h)
 description: Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgk_power_component_type.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_POWER_COMPONENT_TYPE
+- DXGK_POWER_COMPONENT_TYPE
 product:
 - Windows
 targetos: Windows

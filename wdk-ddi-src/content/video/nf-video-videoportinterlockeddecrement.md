@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortInterlockedDecrement
-title: VideoPortInterlockedDecrement function
+title: VideoPortInterlockedDecrement function (video.h)
 description: The VideoPortInterlockedDecrement function decrements a caller-supplied variable as an atomic operation.
 old-location: display\videoportinterlockeddecrement.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortInterlockedDecrement
+- VideoPortInterlockedDecrement
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMTextOut
-title: OEMTextOut function
+title: OEMTextOut function (printoem.h)
 description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
 old-location: print\oemtextout.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMTextOut
+- OEMTextOut
 product:
 - Windows
 targetos: Windows

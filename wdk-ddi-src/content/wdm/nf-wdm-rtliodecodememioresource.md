@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlIoDecodeMemIoResource
-title: RtlIoDecodeMemIoResource function
+title: RtlIoDecodeMemIoResource function (wdm.h)
 description: The RtlIoDecodeMemIoResource routine provides the address information that is contained in an IO_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtliodecodememioresource.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIoDecodeMemIoResource
+- RtlIoDecodeMemIoResource
 product:
 - Windows
 targetos: Windows

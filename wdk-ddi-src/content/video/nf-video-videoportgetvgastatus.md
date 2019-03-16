@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetVgaStatus
-title: VideoPortGetVgaStatus function
+title: VideoPortGetVgaStatus function (video.h)
 description: The VideoPortGetVgaStatus function detects whether the calling device is decoding a VGA I/O address.
 old-location: display\videoportgetvgastatus.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetVgaStatus
+- VideoPortGetVgaStatus
 product:
 - Windows
 targetos: Windows

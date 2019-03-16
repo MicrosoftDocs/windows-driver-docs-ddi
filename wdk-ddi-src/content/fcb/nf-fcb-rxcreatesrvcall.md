@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxCreateSrvCall
-title: RxCreateSrvCall function
+title: RxCreateSrvCall function (fcb.h)
 description: RxCreateSrvCall builds a SRV_CALL structure and inserts the name into the net name table maintained by RDBSS.
 old-location: ifsk\rxcreatesrvcall.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxCreateSrvCall
+- RxCreateSrvCall
 product:
 - Windows
 targetos: Windows

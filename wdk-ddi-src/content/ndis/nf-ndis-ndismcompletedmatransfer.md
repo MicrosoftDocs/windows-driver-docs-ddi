@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCompleteDmaTransfer
-title: NdisMCompleteDmaTransfer macro
+title: NdisMCompleteDmaTransfer macro (ndis.h)
 description: The NdisMCompleteDmaTransfer function indicates that a system DMA transfer operation has completed. It resets the system DMA controller in preparation for further DMA transfers.
 old-location: netvista\ndismcompletedmatransfer.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCompleteDmaTransfer
+- NdisMCompleteDmaTransfer
 product:
 - Windows
 targetos: Windows

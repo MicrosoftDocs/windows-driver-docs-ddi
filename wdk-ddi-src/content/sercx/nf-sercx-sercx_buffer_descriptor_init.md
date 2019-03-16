@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SERCX_BUFFER_DESCRIPTOR_INIT
-title: SERCX_BUFFER_DESCRIPTOR_INIT function
+title: SERCX_BUFFER_DESCRIPTOR_INIT function (sercx.h)
 description: The SERCX_BUFFER_DESCRIPTOR_INIT function initializes a SERCX_BUFFER_DESCRIPTOR structure.
 old-location: serports\sercx_buffer_descriptor_init.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SERCX_BUFFER_DESCRIPTOR_INIT
+- SERCX_BUFFER_DESCRIPTOR_INIT
 product:
 - Windows
 targetos: Windows

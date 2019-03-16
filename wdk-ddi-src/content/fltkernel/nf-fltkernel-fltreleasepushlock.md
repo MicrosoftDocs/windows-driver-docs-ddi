@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleasePushLock
-title: FltReleasePushLock macro
+title: FltReleasePushLock macro (fltkernel.h)
 description: The FltReleasePushLock routine releases a specified push lock owned by the current thread.
 old-location: ifsk\fltreleasepushlock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReleasePushLock
+- FltReleasePushLock
 product:
 - Windows
 targetos: Windows

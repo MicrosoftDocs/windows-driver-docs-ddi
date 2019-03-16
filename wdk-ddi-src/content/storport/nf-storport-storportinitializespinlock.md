@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeSpinlock
-title: StorPortInitializeSpinlock function
+title: StorPortInitializeSpinlock function (storport.h)
 description: The StorPortInitializeSpinLock routine initializes a variable of type STOR_KSPIN_LOCK.
 old-location: storage\storportinitializespinlock.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeSpinlock
+- StorPortInitializeSpinlock
 product:
 - Windows
 targetos: Windows

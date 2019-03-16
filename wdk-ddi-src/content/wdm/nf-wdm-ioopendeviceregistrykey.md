@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoOpenDeviceRegistryKey
-title: IoOpenDeviceRegistryKey function
+title: IoOpenDeviceRegistryKey function (wdm.h)
 description: The IoOpenDeviceRegistryKey routine returns a handle to a device-specific or a driver-specific registry key for a particular device instance.
 old-location: kernel\ioopendeviceregistrykey.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoOpenDeviceRegistryKey
+- IoOpenDeviceRegistryKey
 product:
 - Windows
 targetos: Windows

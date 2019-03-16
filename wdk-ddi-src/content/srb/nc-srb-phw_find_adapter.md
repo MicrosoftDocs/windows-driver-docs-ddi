@@ -1,6 +1,6 @@
 ---
 UID: NC:srb.PHW_FIND_ADAPTER
-title: PHW_FIND_ADAPTER
+title: PHW_FIND_ADAPTER (srb.h)
 description: The PHW_FIND_ADAPTER prototype declares a routine that uses supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter.
 old-location: storage\phw_find_adapter.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	srb.h
+- srb.h
 api_name:
--	(*PHW_FIND_ADAPTER)
+- (*PHW_FIND_ADAPTER)
 product:
 - Windows
 targetos: Windows

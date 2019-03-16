@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenEnlistment
-title: ZwOpenEnlistment function
+title: ZwOpenEnlistment function (wdm.h)
 description: The ZwOpenEnlistment routine obtains a handle to an existing enlistment object.
 old-location: kernel\zwopenenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenEnlistment
--	NtOpenEnlistment
+- ZwOpenEnlistment
+- NtOpenEnlistment
 product:
 - Windows
 targetos: Windows

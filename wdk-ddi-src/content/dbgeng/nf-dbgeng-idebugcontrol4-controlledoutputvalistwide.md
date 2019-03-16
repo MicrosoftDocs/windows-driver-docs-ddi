@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ControlledOutputVaListWide
-title: IDebugControl4::ControlledOutputVaListWide
+title: IDebugControl4::ControlledOutputVaListWide (dbgeng.h)
 description: The ControlledOutputVaListWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalistwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl4.ControlledOutputVaListWide
+- IDebugControl4.ControlledOutputVaListWide
 product:
 - Windows
 targetos: Windows

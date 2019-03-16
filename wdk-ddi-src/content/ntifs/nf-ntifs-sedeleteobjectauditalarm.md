@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeDeleteObjectAuditAlarm
-title: SeDeleteObjectAuditAlarm function
+title: SeDeleteObjectAuditAlarm function (ntifs.h)
 description: The SeDeleteObjectAuditAlarm routine generates audit and alarm messages for an object that is marked for deletion.
 old-location: ifsk\sedeleteobjectauditalarm.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeDeleteObjectAuditAlarm
+- SeDeleteObjectAuditAlarm
 product:
 - Windows
 targetos: Windows

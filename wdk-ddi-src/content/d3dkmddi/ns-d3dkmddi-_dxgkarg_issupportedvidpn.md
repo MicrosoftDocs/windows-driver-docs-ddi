@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ISSUPPORTEDVIDPN
-title: "_DXGKARG_ISSUPPORTEDVIDPN"
+title: _DXGKARG_ISSUPPORTEDVIDPN (d3dkmddi.h)
 description: The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the DxgkDdiIsSupportedVidPn function. The DxgkDdiIsSupportedVidPn function determines whether a specified video present network (VidPN) is supported on a display adapter.
 old-location: display\dxgkarg_issupportedvidpn.htm
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_ISSUPPORTEDVIDPN
+- DXGKARG_ISSUPPORTEDVIDPN
 product:
 - Windows
 targetos: Windows

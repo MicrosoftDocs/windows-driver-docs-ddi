@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_WRITE_CONFIG
-title: SRIOV_WRITE_CONFIG
+title: SRIOV_WRITE_CONFIG (pcivirt.h)
 description: Writes configuration data to a PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_write_config.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_WRITE_CONFIG
+- *PSRIOV_WRITE_CONFIG
 product:
 - Windows
 targetos: Windows

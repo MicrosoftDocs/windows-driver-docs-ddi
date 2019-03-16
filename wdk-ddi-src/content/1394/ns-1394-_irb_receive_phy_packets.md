@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_RECEIVE_PHY_PACKETS
-title: "_IRB_RECEIVE_PHY_PACKETS"
+title: _IRB_RECEIVE_PHY_PACKETS (1394.h)
 description: This structure contains the fields necessary to carry out a ReceivePhyPackets request.
 old-location: ieee\irb_req_receive_phy_packets.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_RECEIVE_PHY_PACKETS
+- IRB_REQ_RECEIVE_PHY_PACKETS
 product:
 - Windows
 targetos: Windows

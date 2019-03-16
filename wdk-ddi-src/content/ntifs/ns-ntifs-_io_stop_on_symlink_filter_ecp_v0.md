@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._IO_STOP_ON_SYMLINK_FILTER_ECP_v0
-title: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
+title: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0 (ntifs.h)
 description: 
 ms.assetid: 543755f9-8af1-4b9a-a283-0294e4f4308f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: IO_STOP_ON_SYMLINK_FILTER_ECP_v0, *PIO_STOP_ON_SYMLINK_FILTER_ECP_v0
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_IO_STOP_ON_SYMLINK_FILTER_ECP_v0
+- _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

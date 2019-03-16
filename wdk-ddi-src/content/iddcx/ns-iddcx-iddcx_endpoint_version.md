@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ENDPOINT_VERSION
-title: IDDCX_ENDPOINT_VERSION
+title: IDDCX_ENDPOINT_VERSION (iddcx.h)
 description: Gives version information about the video data endpoint.
 old-location: display\iddcx_endpoint_version.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_ENDPOINT_VERSION
+- IDDCX_ENDPOINT_VERSION
 product:
 - Windows
 targetos: Windows

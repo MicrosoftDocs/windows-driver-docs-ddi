@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_STREAM_FORMAT
-title: "_HDAUDIO_STREAM_FORMAT"
+title: _HDAUDIO_STREAM_FORMAT (hdaudio.h)
 description: The HDAUDIO_STREAM_FORMAT structure describes the data format of a capture or render stream.
 old-location: audio\hdaudio_stream_format.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_STREAM_FORMAT
+- HDAUDIO_STREAM_FORMAT
 product:
 - Windows
 targetos: Windows

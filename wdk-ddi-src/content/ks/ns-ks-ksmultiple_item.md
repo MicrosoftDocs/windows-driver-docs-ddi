@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_6
-title: KSMULTIPLE_ITEM
+title: KSMULTIPLE_ITEM (ks.h)
 description: The KSMULTIPLE_ITEM structure is a generic header for property data that can contain multiple entries.
 old-location: stream\ksmultiple_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSMULTIPLE_ITEM
+- KSMULTIPLE_ITEM
 product:
 - Windows
 targetos: Windows

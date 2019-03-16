@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_UNINSTALL
-title: PROTOCOL_UNINSTALL
+title: PROTOCOL_UNINSTALL (ndis.h)
 description: NDIS calls a protocol driver's ProtocolUninstall function to perform cleanup operations before a protocol driver is uninstalled.Note  You must declare the function by using the PROTOCOL_UNINSTALL type.
 old-location: netvista\protocoluninstall.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolUninstall
+- ProtocolUninstall
 product:
 - Windows
 targetos: Windows

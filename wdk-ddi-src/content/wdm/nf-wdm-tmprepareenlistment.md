@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmPrepareEnlistment
-title: TmPrepareEnlistment function
+title: TmPrepareEnlistment function (wdm.h)
 description: The TmPrepareEnlistment routine initiates the prepare operation for a specified enlistment's transaction.
 old-location: kernel\tmprepareenlistment.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmPrepareEnlistment
+- TmPrepareEnlistment
 product:
 - Windows
 targetos: Windows

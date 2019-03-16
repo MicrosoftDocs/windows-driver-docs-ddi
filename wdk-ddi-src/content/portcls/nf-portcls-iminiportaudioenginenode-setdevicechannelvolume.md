@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceChannelVolume
-title: IMiniportAudioEngineNode::SetDeviceChannelVolume
+title: IMiniportAudioEngineNode::SetDeviceChannelVolume (portcls.h)
 description: Sets the volume level for a given channel of the audio device.
 old-location: audio\iminiportaudioenginenode_setdevicechannelvolume.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.SetDeviceChannelVolume
+- IMiniportAudioEngineNode.SetDeviceChannelVolume
 product:
 - Windows
 targetos: Windows

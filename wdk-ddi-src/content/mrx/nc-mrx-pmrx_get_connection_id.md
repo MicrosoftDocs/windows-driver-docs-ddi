@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_GET_CONNECTION_ID
-title: PMRX_GET_CONNECTION_ID
+title: PMRX_GET_CONNECTION_ID (mrx.h)
 description: TheMRxGetConnectionId routine is called by RDBSS to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions.
 old-location: ifsk\mrxgetconnectionid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxGetConnectionId
+- MRxGetConnectionId
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_PERF_CAPABILITIES
-title: "_PEP_PPM_QUERY_PERF_CAPABILITIES"
+title: _PEP_PPM_QUERY_PERF_CAPABILITIES (pep_x.h)
 description: The PEP_PPM_QUERY_PERF_CAPABILITIES structure describes the performance capabilities of the processors in the specified processor performance domain.
 old-location: kernel\pep_ppm_query_perf_capabilities.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_PERF_CAPABILITIES
+- PEP_PPM_QUERY_PERF_CAPABILITIES
 product:
 - Windows
 targetos: Windows

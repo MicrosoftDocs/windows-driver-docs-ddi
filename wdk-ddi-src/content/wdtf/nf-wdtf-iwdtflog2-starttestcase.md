@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.StartTestCase
-title: IWDTFLOG2::StartTestCase
+title: IWDTFLOG2::StartTestCase (wdtf.h)
 description: Marks the start of a test case.
 old-location: dtf\iwdtflog2_starttestcase.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLOG2.StartTestCase
+- IWDTFLOG2.StartTestCase
 product:
 - Windows
 targetos: Windows

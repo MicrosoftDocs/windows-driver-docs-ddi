@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfstring.WdfStringCreate
-title: WdfStringCreate function
+title: WdfStringCreate function (wdfstring.h)
 description: The WdfStringCreate method creates a framework string object and optionally assigns a specified Unicode string to the object.
 old-location: wdf\wdfstringcreate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfStringCreate
+- WdfStringCreate
 product:
 - Windows
 targetos: Windows

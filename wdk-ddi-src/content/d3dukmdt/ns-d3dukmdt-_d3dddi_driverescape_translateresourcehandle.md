@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
-title: _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
+title: _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE (d3dukmdt.h)
 description: Used to translate the resource handle to the corresponding host handle.
 ms.assetid: 75a6f37a-1c3e-43d0-8761-cbdab68ad6fd
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	_D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
+- _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

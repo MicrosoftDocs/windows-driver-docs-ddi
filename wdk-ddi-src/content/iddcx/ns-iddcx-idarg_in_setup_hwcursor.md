@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_SETUP_HWCURSOR
-title: IDARG_IN_SETUP_HWCURSOR
+title: IDARG_IN_SETUP_HWCURSOR (iddcx.h)
 description: Gives information about new cursors associated with a monitor.
 old-location: display\idarg_in_setup_hwcursor.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_SETUP_HWCURSOR
+- IDARG_IN_SETUP_HWCURSOR
 product:
 - Windows
 targetos: Windows

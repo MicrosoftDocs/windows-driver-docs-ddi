@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._RTL_AVL_TABLE
-title: "_RTL_AVL_TABLE"
+title: _RTL_AVL_TABLE (ntddk.h)
 description: The RTL_AVL_TABLE structure contains file system-specific data for an Adelson-Velsky/Landis (AVL) tree.
 old-location: ifsk\rtl_avl_table.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RTL_AVL_TABLE
+- RTL_AVL_TABLE
 product:
 - Windows
 targetos: Windows

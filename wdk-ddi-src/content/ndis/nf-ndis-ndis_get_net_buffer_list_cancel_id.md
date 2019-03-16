@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
-title: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro
+title: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro (ndis.h)
 description: The NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro gets the cancellation identifier from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 803f83f9-0b3f-42a5-823c-dd5bbcf8f1a2
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
+- NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

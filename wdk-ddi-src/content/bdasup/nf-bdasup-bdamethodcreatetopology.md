@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaMethodCreateTopology
-title: BdaMethodCreateTopology function
+title: BdaMethodCreateTopology function (bdasup.h)
 description: The BdaMethodCreateTopology function creates a template topology between two pins of a filter.
 old-location: stream\bdamethodcreatetopology.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaMethodCreateTopology
+- BdaMethodCreateTopology
 product:
 - Windows
 targetos: Windows

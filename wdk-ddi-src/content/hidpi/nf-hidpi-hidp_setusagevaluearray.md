@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetUsageValueArray
-title: HidP_SetUsageValueArray function
+title: HidP_SetUsageValueArray function (hidpi.h)
 description: The HidP_SetUsageValueArray routine sets a HID control usage value array in a specified HID report.
 old-location: hid\hidp_setusagevaluearray.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_SetUsageValueArray
+- HidP_SetUsageValueArray
 product:
 - Windows
 targetos: Windows

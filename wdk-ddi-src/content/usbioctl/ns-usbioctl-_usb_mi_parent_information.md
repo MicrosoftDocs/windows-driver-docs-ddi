@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_MI_PARENT_INFORMATION
-title: "_USB_MI_PARENT_INFORMATION"
+title: _USB_MI_PARENT_INFORMATION (usbioctl.h)
 description: The USB_MI_PARENT_INFORMATION structure contains information about a composite device.
 old-location: buses\usb_mi_parent_information.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_MI_PARENT_INFORMATION
+- USB_MI_PARENT_INFORMATION
 product:
 - Windows
 targetos: Windows

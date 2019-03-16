@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
-title: D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
+title: D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020 (d3d12umddi.h)
 description: Specifies values for luma keying.
 old-location: display\d3d12ddi_video_process_luma_key.htm
 ms.assetid: 79D8C170-A562-45F4-834B-58D8F7490C36
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
+- D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020
 product:
 - Windows
 targetos: Windows

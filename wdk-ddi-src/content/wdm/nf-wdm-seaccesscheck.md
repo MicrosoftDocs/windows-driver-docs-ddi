@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeAccessCheck
-title: SeAccessCheck function
+title: SeAccessCheck function (wdm.h)
 description: The SeAccessCheck routine determines whether the requested access rights can be granted to an object protected by a security descriptor and an object owner.
 old-location: kernel\seaccesscheck.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeAccessCheck
+- SeAccessCheck
 product:
 - Windows
 targetos: Windows

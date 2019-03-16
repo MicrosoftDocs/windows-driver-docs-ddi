@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_TRANSFER
-title: "_HDAUDIO_CODEC_TRANSFER"
+title: _HDAUDIO_CODEC_TRANSFER (hdaudio.h)
 description: The HDAUDIO_CODEC_TRANSFER structure specifies a codec command and the response to that command.
 old-location: audio\hdaudio_codec_transfer.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_CODEC_TRANSFER
+- HDAUDIO_CODEC_TRANSFER
 product:
 - Windows
 targetos: Windows

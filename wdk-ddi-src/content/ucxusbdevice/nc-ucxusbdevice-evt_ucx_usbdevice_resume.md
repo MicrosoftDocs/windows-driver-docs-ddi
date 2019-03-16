@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_RESUME
-title: EVT_UCX_USBDEVICE_RESUME
+title: EVT_UCX_USBDEVICE_RESUME (ucxusbdevice.h)
 description: UCX invokes this callback function to resume a device from suspend state.
 old-location: buses\evt_ucx_usbdevice_resume.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	*PFN_UCX_USBDEVICE_RESUME
+- *PFN_UCX_USBDEVICE_RESUME
 product:
 - Windows
 targetos: Windows

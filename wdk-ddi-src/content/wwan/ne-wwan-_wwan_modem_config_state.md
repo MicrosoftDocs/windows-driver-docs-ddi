@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_STATE
-title: "_WWAN_MODEM_CONFIG_STATE"
+title: _WWAN_MODEM_CONFIG_STATE (wwan.h)
 description: The WWAN_MODEM_CONFIG_STATE enumeration lists definitions used by the modem to inform the OS about its modem configuration state.
 old-location: netvista\wwan_modem_config_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_MODEM_CONFIG_STATE
+- WWAN_MODEM_CONFIG_STATE
 product:
 - Windows
 targetos: Windows

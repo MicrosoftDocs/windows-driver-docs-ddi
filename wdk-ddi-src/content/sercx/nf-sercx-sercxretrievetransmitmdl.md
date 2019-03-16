@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxRetrieveTransmitMdl
-title: SerCxRetrieveTransmitMdl function
+title: SerCxRetrieveTransmitMdl function (sercx.h)
 description: The SerCxRetrieveTransmitMdl method retrieves the MDL that describes the buffer that contains the next block of output data to be transmitted.
 old-location: serports\sercxretrievetransmitmdl.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxRetrieveTransmitMdl
+- SerCxRetrieveTransmitMdl
 product:
 - Windows
 targetos: Windows

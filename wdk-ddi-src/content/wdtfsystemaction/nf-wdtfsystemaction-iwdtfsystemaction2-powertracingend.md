@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.PowerTracingEnd
-title: IWDTFSystemAction2::PowerTracingEnd
+title: IWDTFSystemAction2::PowerTracingEnd (wdtfsystemaction.h)
 description: This method ends a power trace session.
 old-location: dtf\iwdtfsystemaction2_powertracingend.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.PowerTracingEnd
+- IWDTFSystemAction2.PowerTracingEnd
 product:
 - Windows
 targetos: Windows

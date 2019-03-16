@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_PURGEIO
-title: "_USBDEVICE_PURGEIO"
+title: _USBDEVICE_PURGEIO (ucxusbdevice.h)
 description: The USBDEVICE_PURGEIO structure contains the handle for the Universal Serial Bus (USB) hub or device to purge I/O for.
 old-location: buses\_usbdevice_purgeio.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	USBDEVICE_PURGEIO
+- USBDEVICE_PURGEIO
 product:
 - Windows
 targetos: Windows

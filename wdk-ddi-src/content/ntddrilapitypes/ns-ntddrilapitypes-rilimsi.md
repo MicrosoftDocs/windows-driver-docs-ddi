@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSI
-title: RILIMSI
+title: RILIMSI (ntddrilapitypes.h)
 description: This structure represents a RILIMSI.
 old-location: netvista\rilimsi.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILIMSI
+- RILIMSI
 product:
 - Windows
 targetos: Windows

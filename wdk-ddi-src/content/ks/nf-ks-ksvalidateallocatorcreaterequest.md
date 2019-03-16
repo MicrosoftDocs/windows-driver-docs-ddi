@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateAllocatorCreateRequest
-title: KsValidateAllocatorCreateRequest function
+title: KsValidateAllocatorCreateRequest function (ks.h)
 description: The KsValidateAllocatorCreateRequest function validates an IRP_MJ_CREATE request as an allocator request and returns the create structure associated with the request on success.
 old-location: stream\ksvalidateallocatorcreaterequest.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsValidateAllocatorCreateRequest
+- KsValidateAllocatorCreateRequest
 product:
 - Windows
 targetos: Windows

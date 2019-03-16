@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_PMC
-title: "_PCI_PMC"
+title: _PCI_PMC (wdm.h)
 description: The PCI_PMC structure is used to report the contents of the power management capabilities register.
 old-location: pci\pci_pmc.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_PMC
+- PCI_PMC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
-title: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
+title: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE (pcivirt.h)
 description: The IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request indicates that the virtualization stack wants to update to the mitigation ranges.
 old-location: pci\ioctl-sriov-mitigated-range-update.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
+- IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 product:
 - Windows
 targetos: Windows

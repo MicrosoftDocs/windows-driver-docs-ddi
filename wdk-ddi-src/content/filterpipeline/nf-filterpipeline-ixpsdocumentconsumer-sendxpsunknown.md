@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsUnknown
-title: IXpsDocumentConsumer::SendXpsUnknown
+title: IXpsDocumentConsumer::SendXpsUnknown (filterpipeline.h)
 description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocumentConsumer.SendXpsUnknown
+- IXpsDocumentConsumer.SendXpsUnknown
 product:
 - Windows
 targetos: Windows

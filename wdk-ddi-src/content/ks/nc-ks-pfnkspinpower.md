@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINPOWER
-title: PFNKSPINPOWER
+title: PFNKSPINPOWER (ks.h)
 description: An AVStream minidriver's AVStrMiniPinPower routine is called for pin-centric pins when the device is waking or entering a sleep state.
 old-location: stream\avstrminipinpower.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinPower
+- AVStrMiniPinPower
 product:
 - Windows
 targetos: Windows

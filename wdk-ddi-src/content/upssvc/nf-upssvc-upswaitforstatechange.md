@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSWaitForStateChange
-title: UPSWaitForStateChange function
+title: UPSWaitForStateChange function (upssvc.h)
 description: The UPSWaitForStateChange function waits until a specified UPS state changes, or until a time-out interval elapses.
 old-location: battery\upswaitforstatechange.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	upssvc.h
+- upssvc.h
 api_name:
--	UPSWaitForStateChange
+- UPSWaitForStateChange
 product:
 - Windows
 targetos: Windows

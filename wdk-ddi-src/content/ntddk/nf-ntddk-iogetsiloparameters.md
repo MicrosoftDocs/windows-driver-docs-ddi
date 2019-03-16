@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetSiloParameters
-title: IoGetSiloParameters function
+title: IoGetSiloParameters function (ntddk.h)
 description: This routine indicates if a file is within a Container context.
 old-location: ifsk\iogetsiloparameters.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetSiloParameters
+- IoGetSiloParameters
 product:
 - Windows
 targetos: Windows

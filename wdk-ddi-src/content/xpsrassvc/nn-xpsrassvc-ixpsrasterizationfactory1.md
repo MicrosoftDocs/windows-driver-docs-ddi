@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizationFactory1
-title: IXpsRasterizationFactory1
+title: IXpsRasterizationFactory1 (xpsrassvc.h)
 description: In Windows 8, the improvement of XPSRas to handle high precision colors has led to the development of a new interface, IXPSRasterizationFactory1.
 old-location: print\xpsrasterizationfactory1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizationFactory1
+- IXpsRasterizationFactory1
 product:
 - Windows
 targetos: Windows

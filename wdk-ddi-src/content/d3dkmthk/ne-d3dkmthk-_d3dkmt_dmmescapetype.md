@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DMMESCAPETYPE
-title: _D3DKMT_DMMESCAPETYPE
+title: _D3DKMT_DMMESCAPETYPE (d3dkmthk.h)
 description: DMM (display mode manager) escape type.
 ms.assetid: eb63950b-5d9b-4a4f-ba22-04549e57f886
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_DMMESCAPETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DMMESCAPETYPE
+- _D3DKMT_DMMESCAPETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

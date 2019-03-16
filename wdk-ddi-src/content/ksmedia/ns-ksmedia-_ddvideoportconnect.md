@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._DDVIDEOPORTCONNECT
-title: "_DDVIDEOPORTCONNECT"
+title: _DDVIDEOPORTCONNECT (ksmedia.h)
 description: The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 old-location: display\ddvideoportconnect.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	DDVIDEOPORTCONNECT
+- DDVIDEOPORTCONNECT
 product:
 - Windows
 targetos: Windows

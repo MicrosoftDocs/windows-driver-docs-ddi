@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniport
-title: IMiniport
+title: IMiniport (portcls.h)
 description: The IMiniport interface is the generic miniport interface that all miniport objects support. IMiniport inherits from the IUnknown interface.
 old-location: audio\iminiport.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniport
+- IMiniport
 product:
 - Windows
 targetos: Windows

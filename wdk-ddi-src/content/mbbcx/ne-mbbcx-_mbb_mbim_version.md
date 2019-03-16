@@ -1,6 +1,6 @@
 ---
 UID: NE:mbbcx._MBB_MBIM_VERSION
-title: _MBB_MBIM_VERSION
+title: _MBB_MBIM_VERSION (mbbcx.h)
 description: The MBB_MBIM_VERSION enumeration defines the version of the MBIM specification that a client driver and its device support. 
 tech.root: netvista
 ms.assetid: 3326d39e-bd84-4740-89cf-7a5971ee4b7e
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: MBB_MBIM_VERSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_MBIM_VERSION
+- _MBB_MBIM_VERSION
 product:
 - Windows
 targetos: Windows

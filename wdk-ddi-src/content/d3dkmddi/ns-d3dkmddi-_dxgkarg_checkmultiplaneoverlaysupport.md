@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
-title: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT"
+title: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT (d3dkmddi.h)
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport function to check details on hardware support for multiplane overlays.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport.htm
 ms.assetid: BAFC7DD1-56F8-47CE-8914-54531BBC3165
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
+- DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 product:
 - Windows
 targetos: Windows

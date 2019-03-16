@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_SYSTEM_LATENCY
-title: "_PEP_SYSTEM_LATENCY"
+title: _PEP_SYSTEM_LATENCY (pepfx.h)
 description: The PEP_SYSTEM_LATENCY structure specifies the new value for the system latency tolerance.
 old-location: kernel\pep_system_latency.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_SYSTEM_LATENCY
+- PEP_SYSTEM_LATENCY
 product:
 - Windows
 targetos: Windows

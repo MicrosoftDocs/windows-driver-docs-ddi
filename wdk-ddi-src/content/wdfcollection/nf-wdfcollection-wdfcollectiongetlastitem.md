@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionGetLastItem
-title: WdfCollectionGetLastItem function
+title: WdfCollectionGetLastItem function (wdfcollection.h)
 description: The WdfCollectionGetLastItem method returns a handle to the last object that is in an object collection.
 old-location: wdf\wdfcollectiongetlastitem.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfCollectionGetLastItem
+- WdfCollectionGetLastItem
 product:
 - Windows
 targetos: Windows

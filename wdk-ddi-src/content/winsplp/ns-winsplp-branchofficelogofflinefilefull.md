@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_4
-title: BranchOfficeLogOfflineFileFull
+title: BranchOfficeLogOfflineFileFull (winsplp.h)
 description: Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 old-location: print\branchofficelogofflinefilefull.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	BranchOfficeLogOfflineFileFull
+- BranchOfficeLogOfflineFileFull
 product:
 - Windows
 targetos: Windows

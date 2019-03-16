@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSGATE
-title: "_KSGATE"
+title: _KSGATE (ks.h)
 description: The KSGATE structure describes an AVStream gate object.
 old-location: stream\ksgate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSGATE
+- KSGATE
 product:
 - Windows
 targetos: Windows

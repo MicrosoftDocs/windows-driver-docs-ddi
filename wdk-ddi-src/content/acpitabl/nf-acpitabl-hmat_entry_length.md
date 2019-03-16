@@ -1,6 +1,6 @@
 ---
 UID: NF:acpitabl.HMAT_ENTRY_LENGTH
-title: HMAT_ENTRY_LENGTH macro
+title: HMAT_ENTRY_LENGTH macro (acpitabl.h)
 description: The HMAT_ENTRY_LENGTH macro returns the size of the type in the HMAT_ENTRY stucture.
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	HMAT_ENTRY_LENGTH
+- HMAT_ENTRY_LENGTH
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

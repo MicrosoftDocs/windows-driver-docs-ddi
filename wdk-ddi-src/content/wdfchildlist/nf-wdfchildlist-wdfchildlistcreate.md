@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListCreate
-title: WdfChildListCreate function
+title: WdfChildListCreate function (wdfchildlist.h)
 description: The WdfChildListCreate method creates a child list for a specified parent device.
 old-location: wdf\wdfchildlistcreate.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfChildListCreate
+- WdfChildListCreate
 product:
 - Windows
 targetos: Windows

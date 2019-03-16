@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.Enable
-title: IDataModelScriptDebugBreakpoint::Enable
+title: IDataModelScriptDebugBreakpoint::Enable (dbgmodel.h)
 description: The Enable method enables the breakpoint.
 ms.assetid: b9d7ccd3-cce4-4e63-9315-4a3ada35f82d
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugBreakpoint.Enable
-product: Windows
+- IDataModelScriptDebugBreakpoint.Enable
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

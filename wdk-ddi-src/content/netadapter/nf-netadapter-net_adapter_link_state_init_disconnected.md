@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
-title: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function
+title: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function (netadapter.h)
 description: Initializes a NET_ADAPTER_LINK_STATE structure for an adapter that is disconnected from the network.
 tech.root: netvista
 ms.assetid: 3c6fe564-8464-4377-ba0f-b83605536322
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

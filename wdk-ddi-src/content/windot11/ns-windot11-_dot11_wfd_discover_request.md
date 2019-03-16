@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DISCOVER_REQUEST
-title: "_DOT11_WFD_DISCOVER_REQUEST"
+title: _DOT11_WFD_DISCOVER_REQUEST (windot11.h)
 description: The OID_DOT11_WFD_DISCOVER_REQUEST structure is the input data for an OID_DOT11_WFD_DISCOVER_REQUEST request. The structure contains the parameters for a Wi-Fi Direct device discovery.
 old-location: netvista\_dot11_wfd_discover_request.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_DISCOVER_REQUEST
+- DOT11_WFD_DISCOVER_REQUEST
 product:
 - Windows
 targetos: Windows

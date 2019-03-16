@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx.SERCX_BUFFER_DESCRIPTOR
-title: SERCX_BUFFER_DESCRIPTOR
+title: SERCX_BUFFER_DESCRIPTOR (sercx.h)
 description: The SERCX_BUFFER_DESCRIPTOR structure describes a data buffer for a receive operation or transmit operation.
 old-location: serports\sercx_buffer_descriptor.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SERCX_BUFFER_DESCRIPTOR
+- SERCX_BUFFER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

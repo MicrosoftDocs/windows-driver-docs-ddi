@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_SubmissionTime
-title: IPrintJob::get_SubmissionTime
+title: IPrintJob::get_SubmissionTime (printerextension.h)
 description: Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler).
 old-location: print\iprintjob_submissiontime.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.SubmissionTime
--	IPrintJob.get_SubmissionTime
+- IPrintJob.SubmissionTime
+- IPrintJob.get_SubmissionTime
 product:
 - Windows
 targetos: Windows

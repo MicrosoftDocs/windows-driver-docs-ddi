@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAppendPrivileges
-title: SeAppendPrivileges function
+title: SeAppendPrivileges function (ntifs.h)
 description: The SeAppendPrivileges routine appends additional privileges to the privilege set in an access state structure.
 old-location: ifsk\seappendprivileges.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeAppendPrivileges
+- SeAppendPrivileges
 product:
 - Windows
 targetos: Windows

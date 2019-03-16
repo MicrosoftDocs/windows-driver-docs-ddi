@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
-title: "_DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS"
+title: _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS (d3dkmdt.h)
 description: The DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure contains parameters to set Analog Content Protection (ACP) and Content Generation Management System Analog (CGMS-A) signaling for a protected output.
 old-location: display\dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
+- DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 product:
 - Windows
 targetos: Windows

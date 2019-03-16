@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_INFO
-title: _D3DDDI_QUERYREGISTRY_INFO
+title: _D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
 description: Contains information about the query registry.
 ms.assetid: 946cbde2-3fb2-4974-a446-178c91a81e49
 ms.date: 11/21/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_INFO
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	_D3DDDI_QUERYREGISTRY_INFO
+- _D3DDDI_QUERYREGISTRY_INFO
 product: 
 - Windows
 targetos: Windows

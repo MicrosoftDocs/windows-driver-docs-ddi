@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReady
-title: StorPortReady function
+title: StorPortReady function (storport.h)
 description: The StorPortReady routine notifies the port driver that the adapter is no longer busy.
 old-location: storage\storportready.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortReady
+- StorPortReady
 product:
 - Windows
 targetos: Windows

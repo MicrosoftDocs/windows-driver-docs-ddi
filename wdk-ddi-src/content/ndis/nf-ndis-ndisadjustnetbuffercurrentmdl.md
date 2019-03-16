@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAdjustNetBufferCurrentMdl
-title: NdisAdjustNetBufferCurrentMdl function
+title: NdisAdjustNetBufferCurrentMdl function (ndis.h)
 description: The NdisAdjustNetBufferCurrentMdl function updates a NET_BUFFER structure based on the current data offset.
 old-location: netvista\ndisadjustnetbuffercurrentmdl.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAdjustNetBufferCurrentMdl
+- NdisAdjustNetBufferCurrentMdl
 product:
 - Windows
 targetos: Windows

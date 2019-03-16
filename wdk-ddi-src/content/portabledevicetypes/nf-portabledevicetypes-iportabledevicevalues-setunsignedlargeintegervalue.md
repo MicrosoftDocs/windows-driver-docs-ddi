@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetUnsignedLargeIntegerValue
-title: IPortableDeviceValues::SetUnsignedLargeIntegerValue
+title: IPortableDeviceValues::SetUnsignedLargeIntegerValue (portabledevicetypes.h)
 description: Adds a new ULONGLONG value (type VT_UI8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedlargeintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetUnsignedLargeIntegerValue
+- IPortableDeviceValues.SetUnsignedLargeIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

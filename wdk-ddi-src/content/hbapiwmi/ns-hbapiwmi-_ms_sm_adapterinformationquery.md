@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SM_AdapterInformationQuery
-title: "_MS_SM_AdapterInformationQuery"
+title: _MS_SM_AdapterInformationQuery (hbapiwmi.h)
 description: The MS_SM_AdapterInformationQuery structure is used by a WMI provider to expose attributes that are associated with a SAS adapter.
 old-location: storage\ms_sm_adapterinformationquery.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MS_SM_AdapterInformationQuery
+- MS_SM_AdapterInformationQuery
 product:
 - Windows
 targetos: Windows

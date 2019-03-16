@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_SET_STATE
-title: DXGK_BRIGHTNESS_SET_STATE
+title: DXGK_BRIGHTNESS_SET_STATE (dispmprt.h)
 description: Enables smooth brightness control on an integrated display panel.
 old-location: display\dxgkddisetbrightnessstate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiSetBrightnessState
+- DxgkDdiSetBrightnessState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IAction
-title: IAction
+title: IAction (wdtf.h)
 description: The IAction interfaces are plug-ins that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iaction.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IAction
--	IAction.SetTarget
+- IAction
+- IAction.SetTarget
 product:
 - Windows
 targetos: Windows

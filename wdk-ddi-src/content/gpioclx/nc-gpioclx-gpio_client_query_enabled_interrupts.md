@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS
-title: GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS
+title: GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS (gpioclx.h)
 description: The CLIENT_QueryEnabledInterrupts event callback function queries the state of a set of general-purpose I/O (GPIO) pins to determine which pins are both configured as interrupt inputs and enabled for interrupts.
 old-location: gpio\client_queryenabledinterrupts.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_QueryEnabledInterrupts
+- CLIENT_QueryEnabledInterrupts
 product:
 - Windows
 targetos: Windows

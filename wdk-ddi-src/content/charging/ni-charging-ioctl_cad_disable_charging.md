@@ -1,6 +1,6 @@
 ---
 UID: NI:charging.IOCTL_CAD_DISABLE_CHARGING
-title: IOCTL_CAD_DISABLE_CHARGING
+title: IOCTL_CAD_DISABLE_CHARGING (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_disable_charging.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_CAD_DISABLE_CHARGING
+- IOCTL_CAD_DISABLE_CHARGING
 product:
 - Windows
 targetos: Windows

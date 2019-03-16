@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_WRITE_STREAM
-title: IOCTL_KS_WRITE_STREAM
+title: IOCTL_KS_WRITE_STREAM (ks.h)
 description: An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_write_stream.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IOCTL_KS_WRITE_STREAM
+- IOCTL_KS_WRITE_STREAM
 product:
 - Windows
 targetos: Windows

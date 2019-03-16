@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_39
-title: KSSTREAM_POINTER_STATE
+title: KSSTREAM_POINTER_STATE (ks.h)
 description: 
 old-location: stream\ksstream_pointer_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSSTREAM_POINTER_STATE
+- KSSTREAM_POINTER_STATE
 product:
 - Windows
 targetos: Windows

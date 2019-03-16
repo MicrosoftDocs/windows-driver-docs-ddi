@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PALLOCATE_CAPTURE_DMA_ENGINE
-title: PALLOCATE_CAPTURE_DMA_ENGINE
+title: PALLOCATE_CAPTURE_DMA_ENGINE (hdaudio.h)
 description: The AllocateCaptureDmaEngine routine allocates a DMA engine for a capture stream.The function pointer type for an AllocateCaptureDmaEngine routine is defined as follows.
 old-location: audio\allocatecapturedmaengine.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	AllocateCaptureDmaEngine
+- AllocateCaptureDmaEngine
 product:
 - Windows
 targetos: Windows

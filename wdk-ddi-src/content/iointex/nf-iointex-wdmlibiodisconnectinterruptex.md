@@ -1,6 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoDisconnectInterruptEx
-title: WdmlibIoDisconnectInterruptEx function
+title: WdmlibIoDisconnectInterruptEx function (iointex.h)
 description: The WdmlibIoDisconnectInterruptEx function unregisters an interrupt service routine (ISR) that was registered by a previous call to the WdmlibIoConnectInterruptEx function.
 old-location: kernel\wdmlibiodisconnectinterruptex.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib; Iointex.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibIoDisconnectInterruptEx
--	IoDisconnectInterruptEx
+- WdmlibIoDisconnectInterruptEx
+- IoDisconnectInterruptEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_COLLECTDBGINFO
-title: DXGKDDI_COLLECTDBGINFO
+title: DXGKDDI_COLLECTDBGINFO (d3dkmddi.h)
 description: The DxgkDdiCollectDbgInfo function outputs driver information for a debug report.
 old-location: display\dxgkddicollectdbginfo.htm
 ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCollectDbgInfo
+- DxgkDdiCollectDbgInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryInformationTransactionManager
-title: ZwQueryInformationTransactionManager function
+title: ZwQueryInformationTransactionManager function (wdm.h)
 description: The ZwQueryInformationTransactionManager routine retrieves information about a specified transaction manager object.
 old-location: kernel\zwqueryinformationtransactionmanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryInformationTransactionManager
--	NtQueryInformationTransactionManager
+- ZwQueryInformationTransactionManager
+- NtQueryInformationTransactionManager
 product:
 - Windows
 targetos: Windows

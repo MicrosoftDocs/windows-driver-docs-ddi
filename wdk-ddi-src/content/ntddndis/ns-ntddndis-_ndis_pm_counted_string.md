@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_COUNTED_STRING
-title: "_NDIS_PM_COUNTED_STRING"
+title: _NDIS_PM_COUNTED_STRING (ntddndis.h)
 description: The NDIS_PM_COUNTED_STRING structure specifies a limited size string that is used in power management structures.
 old-location: netvista\ndis_pm_counted_string.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PM_COUNTED_STRING
+- NDIS_PM_COUNTED_STRING
 product:
 - Windows
 targetos: Windows

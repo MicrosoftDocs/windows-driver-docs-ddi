@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeGetRecommendedSharedDataAlignment
-title: KeGetRecommendedSharedDataAlignment function
+title: KeGetRecommendedSharedDataAlignment function (wdm.h)
 description: The KeGetRecommendedSharedDataAlignment routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 old-location: kernel\kegetrecommendedshareddataalignment.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeGetRecommendedSharedDataAlignment
+- KeGetRecommendedSharedDataAlignment
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetRequestCount
-title: IBidiRequestContainer::GetRequestCount
+title: IBidiRequestContainer::GetRequestCount (bidispl.h)
 description: The GetRequestCount method gets the number of requests in the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getrequestcount.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiRequestContainer.GetRequestCount
+- IBidiRequestContainer.GetRequestCount
 product:
 - Windows
 targetos: Windows

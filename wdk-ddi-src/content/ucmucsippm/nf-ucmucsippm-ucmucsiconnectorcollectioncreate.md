@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionCreate
-title: UcmUcsiConnectorCollectionCreate function
+title: UcmUcsiConnectorCollectionCreate function (ucmucsippm.h)
 tech.root: usbref
 description: Creates a connector collection object with UcmUcsiCx.
 ms.assetid: 60a87133-87f2-4f4a-92b7-78c2562b88f5
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UcmUcsiCxStub.lib
+- UcmUcsiCxStub.lib
 api_name: 
--	UcmUcsiConnectorCollectionCreate
-product: Windows
+- UcmUcsiConnectorCollectionCreate
+product:
+- Windows
 targetos: Windows
 
 

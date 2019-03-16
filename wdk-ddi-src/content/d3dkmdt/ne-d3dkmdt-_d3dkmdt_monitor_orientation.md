@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_ORIENTATION
-title: "_D3DKMDT_MONITOR_ORIENTATION"
+title: _D3DKMDT_MONITOR_ORIENTATION (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_ORIENTATION enumeration is used to describe the orientation (rotation angle) of a connected external display device.
 old-location: display\d3dkmdt_monitor_orientation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_ORIENTATION
+- D3DKMDT_MONITOR_ORIENTATION
 product:
 - Windows
 targetos: Windows

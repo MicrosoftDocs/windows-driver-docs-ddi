@@ -1,6 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignUnicodeString
-title: NetConfigurationAssignUnicodeString function
+title: NetConfigurationAssignUnicodeString function (netconfiguration.h)
 description: The NetConfigurationAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 4b225e21-abf7-4b9b-91f3-349b4fbd60d2
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NetConfigurationAssignUnicodeString
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NetConfigurationAssignUnicodeString
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

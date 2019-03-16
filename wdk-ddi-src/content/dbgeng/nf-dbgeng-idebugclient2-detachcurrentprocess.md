@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.DetachCurrentProcess
-title: IDebugClient2::DetachCurrentProcess
+title: IDebugClient2::DetachCurrentProcess (dbgeng.h)
 description: The DetachCurrentProcess method detaches the debugger engine from the current process, resuming all its threads.
 old-location: debugger\detachcurrentprocess.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient2.DetachCurrentProcess
--	IDebugClient3.DetachCurrentProcess
--	IDebugClient4.DetachCurrentProcess
--	IDebugClient5.DetachCurrentProcess
+- IDebugClient2.DetachCurrentProcess
+- IDebugClient3.DetachCurrentProcess
+- IDebugClient4.DetachCurrentProcess
+- IDebugClient5.DetachCurrentProcess
 product:
 - Windows
 targetos: Windows

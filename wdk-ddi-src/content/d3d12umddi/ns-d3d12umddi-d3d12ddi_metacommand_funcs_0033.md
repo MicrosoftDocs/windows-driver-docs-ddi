@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_METACOMMAND_FUNCS_0033
-title: D3D12DDI_METACOMMAND_FUNCS_0033
+title: D3D12DDI_METACOMMAND_FUNCS_0033 (d3d12umddi.h)
 description: Meta-command functions.
 ms.assetid: ab765602-a6bb-4c7e-abb7-20185554bd8d
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_FUNCS_0033
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_METACOMMAND_FUNCS_0033
+- D3D12DDI_METACOMMAND_FUNCS_0033
 product: 
 - Windows
 targetos: Windows

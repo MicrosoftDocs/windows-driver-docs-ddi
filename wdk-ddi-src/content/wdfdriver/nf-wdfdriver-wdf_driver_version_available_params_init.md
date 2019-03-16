@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
-title: WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function
+title: WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function (wdfdriver.h)
 description: The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure.
 old-location: wdf\wdf_driver_version_available_params_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdriver.h
+- wdfdriver.h
 api_name:
--	WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
+- WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

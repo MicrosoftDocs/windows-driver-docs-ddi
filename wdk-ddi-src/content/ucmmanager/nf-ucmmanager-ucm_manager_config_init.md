@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_MANAGER_CONFIG_INIT
-title: UCM_MANAGER_CONFIG_INIT function
+title: UCM_MANAGER_CONFIG_INIT function (ucmmanager.h)
 description: Initializes a UCM_MANAGER_CONFIG structure.
 old-location: buses\ucm_manager_config_init.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_MANAGER_CONFIG_INIT
+- UCM_MANAGER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

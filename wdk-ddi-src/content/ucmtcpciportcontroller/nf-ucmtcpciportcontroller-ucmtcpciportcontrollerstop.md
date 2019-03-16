@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerStop
-title: UcmTcpciPortControllerStop function
+title: UcmTcpciPortControllerStop function (ucmtcpciportcontroller.h)
 description: Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.
 old-location: buses\ucmtcpciportcontrollerstop.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ucmtcpcicxstub.lib
--	ucmtcpcicxstub.dll
+- ucmtcpcicxstub.lib
+- ucmtcpcicxstub.dll
 api_name:
--	UcmTcpciPortControllerStop
+- UcmTcpciPortControllerStop
 product:
 - Windows
 targetos: Windows

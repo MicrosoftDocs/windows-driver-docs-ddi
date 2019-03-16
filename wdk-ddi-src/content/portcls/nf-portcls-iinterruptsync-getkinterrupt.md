@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.GetKInterrupt
-title: IInterruptSync::GetKInterrupt
+title: IInterruptSync::GetKInterrupt (portcls.h)
 description: The GetKInterrupt method gets a WDM interrupt object from a port-class synchronization object.
 old-location: audio\iinterruptsync_getkinterrupt.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync.GetKInterrupt
+- IInterruptSync.GetKInterrupt
 product:
 - Windows
 targetos: Windows

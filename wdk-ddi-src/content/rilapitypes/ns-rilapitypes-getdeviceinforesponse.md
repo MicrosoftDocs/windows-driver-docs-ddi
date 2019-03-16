@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.GETDEVICEINFORESPONSE
-title: GETDEVICEINFORESPONSE
+title: GETDEVICEINFORESPONSE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\getdeviceinforesponse.htm
 tech.root: netvista
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	GETDEVICEINFORESPONSE
+- GETDEVICEINFORESPONSE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpcidevice.UcmTcpciDeviceInitialize
-title: UcmTcpciDeviceInitialize function
+title: UcmTcpciDeviceInitialize function (ucmtcpcidevice.h)
 description: Initializes the USB Type-C Port Controller Interface framework extension (UcmTcpciCx).
 old-location: buses\ucmtcpcideviceinitialize.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ucmtcpcicxstub.lib
--	ucmtcpcicxstub.dll
+- ucmtcpcicxstub.lib
+- ucmtcpcicxstub.dll
 api_name:
--	UcmTcpciDeviceInitialize
+- UcmTcpciDeviceInitialize
 product:
 - Windows
 targetos: Windows

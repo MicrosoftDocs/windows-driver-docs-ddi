@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.PollUserInterrupt
-title: IDebugHostStatus::PollUserInterrupt
+title: IDebugHostStatus::PollUserInterrupt (dbgmodel.h)
 description: The PollUserInterrupt method is used to inquire whether the user of the debug host has requested an interruption of the current operation. 
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostStatus.PollUserInterrupt
-product: Windows
+- IDebugHostStatus.PollUserInterrupt
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

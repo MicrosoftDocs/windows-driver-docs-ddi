@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PPUT_SCATTER_GATHER_LIST
-title: PPUT_SCATTER_GATHER_LIST
+title: PPUT_SCATTER_GATHER_LIST (wdm.h)
 description: The PutScatterGatherList routine frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA.
 old-location: kernel\putscattergatherlist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PutScatterGatherList
+- PutScatterGatherList
 product:
 - Windows
 targetos: Windows

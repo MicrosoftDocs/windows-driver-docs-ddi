@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
-title: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
+title: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE (bthhfpddi.h)
 description: The IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of the Bluetooth device's microphone.
 old-location: audio\ioctl_bthhfp_mic_get_volume_status_update.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
+- IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
 product:
 - Windows
 targetos: Windows

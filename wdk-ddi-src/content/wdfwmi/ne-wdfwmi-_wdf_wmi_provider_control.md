@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_CONTROL
-title: "_WDF_WMI_PROVIDER_CONTROL"
+title: _WDF_WMI_PROVIDER_CONTROL (wdfwmi.h)
 description: The WDF_WMI_PROVIDER_CONTROL enumeration defines the type of control functions that a WMI data provider can support.
 old-location: wdf\wdf_wmi_provider_control.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfwmi.h
+- wdfwmi.h
 api_name:
--	WDF_WMI_PROVIDER_CONTROL
+- WDF_WMI_PROVIDER_CONTROL
 product:
 - Windows
 targetos: Windows

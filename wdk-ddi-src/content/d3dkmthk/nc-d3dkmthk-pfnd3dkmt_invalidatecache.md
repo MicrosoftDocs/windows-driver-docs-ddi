@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_INVALIDATECACHE
-title: PFND3DKMT_INVALIDATECACHE
+title: PFND3DKMT_INVALIDATECACHE (d3dkmthk.h)
 description: Pfnd3dkmtInvalidatecache invalidates cache.
 ms.assetid: ce64469b-aff9-44d2-9c6f-a9f5affe6412
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_INVALIDATECACHE
+- PFND3DKMT_INVALIDATECACHE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

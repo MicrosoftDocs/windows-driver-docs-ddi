@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
-title: _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
+title: _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER (ntddk.h)
 description: FPB MEM Low Vector Control Register. See section 7.y.5.
 tech.root: pci
 ms.assetid: 86b15870-c6f5-464c-a0b2-7f10e869f383
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, *PPCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
-product: Windows
+- _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

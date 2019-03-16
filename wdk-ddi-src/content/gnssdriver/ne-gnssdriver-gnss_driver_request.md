@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_9
-title: GNSS_DRIVER_REQUEST
+title: GNSS_DRIVER_REQUEST (gnssdriver.h)
 description: GNSS_DRIVER_REQUEST enumerates the GNSS driver data request types.
 old-location: gnss\gnss_driver_request.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_DRIVER_REQUEST
+- GNSS_DRIVER_REQUEST
 product:
 - Windows
 targetos: Windows

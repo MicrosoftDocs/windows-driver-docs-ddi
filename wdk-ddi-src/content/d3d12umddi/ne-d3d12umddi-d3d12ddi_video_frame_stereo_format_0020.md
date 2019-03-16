@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
-title: D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
+title: D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020 (d3d12umddi.h)
 description: Defines the layout in memory of a stereo 3D video frame.
 old-location: display\d3d12ddi_video_frame_stereo_format.htm
 ms.assetid: 91C5C387-320C-4ABE-98AB-36D2CDE7428F
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
+- D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020
 product:
 - Windows
 targetos: Windows

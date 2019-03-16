@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetAffinityInterrupt
-title: IoGetAffinityInterrupt function
+title: IoGetAffinityInterrupt function (wdm.h)
 description: For more information, see the WdmlibIoGetAffinityInterrupt function.#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt
 old-location: kernel\iogetaffinityinterrupt.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetAffinityInterrupt
--	WdmlibIoGetAffinityInterrupt
+- IoGetAffinityInterrupt
+- WdmlibIoGetAffinityInterrupt
 product:
 - Windows
 targetos: Windows

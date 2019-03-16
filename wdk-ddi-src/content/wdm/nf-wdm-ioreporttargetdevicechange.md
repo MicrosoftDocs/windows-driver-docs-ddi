@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReportTargetDeviceChange
-title: IoReportTargetDeviceChange function
+title: IoReportTargetDeviceChange function (wdm.h)
 description: The IoReportTargetDeviceChange routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechange.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportTargetDeviceChange
+- IoReportTargetDeviceChange
 product:
 - Windows
 targetos: Windows

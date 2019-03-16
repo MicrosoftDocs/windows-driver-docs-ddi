@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiGetReturnStatus
-title: ScsiPortWmiGetReturnStatus macro
+title: ScsiPortWmiGetReturnStatus macro (scsiwmi.h)
 description: The ScsiPortWmiGetReturnStatus routine returns the status of a WMI SRB.
 old-location: storage\scsiportwmigetreturnstatus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	ScsiPortWmiGetReturnStatus
+- ScsiPortWmiGetReturnStatus
 product:
 - Windows
 targetos: Windows

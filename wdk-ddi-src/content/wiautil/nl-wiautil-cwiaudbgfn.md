@@ -1,6 +1,6 @@
 ---
 UID: NL:wiautil.CWiauDbgFn
-title: CWiauDbgFn
+title: CWiauDbgFn (wiautil.h)
 description: The CWiauDbgFn class is a helper class that is used for tracing function or method entry and exit points.
 old-location: image\cwiaudbgfn_class.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauDbgFn
+- CWiauDbgFn
 product:
 - Windows
 targetos: Windows

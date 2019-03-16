@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSYSTEMTYPE
-title: RILIMSSYSTEMTYPE
+title: RILIMSSYSTEMTYPE (ntddrilapitypes.h)
 description: The RILIMSSYSTEMTYPE enumeration has the following values.
 old-location: netvista\rilimssystemtype.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILIMSSYSTEMTYPE
+- RILIMSSYSTEMTYPE
 product:
 - Windows
 targetos: Windows

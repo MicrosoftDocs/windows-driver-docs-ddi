@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
-title: IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
+title: IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method queries the device for its default namespace uniform resource identifier (URI).
 old-location: print\iprintoemprintticketprovider_querydevicedefaultnamespace.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
+- IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
 product:
 - Windows
 targetos: Windows

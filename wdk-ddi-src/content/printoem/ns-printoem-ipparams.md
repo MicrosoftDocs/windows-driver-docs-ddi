@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem.__unnamed_struct_0
-title: IPPARAMS
+title: IPPARAMS (printoem.h)
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\ipparams.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	IPPARAMS
+- IPPARAMS
 product:
 - Windows
 targetos: Windows

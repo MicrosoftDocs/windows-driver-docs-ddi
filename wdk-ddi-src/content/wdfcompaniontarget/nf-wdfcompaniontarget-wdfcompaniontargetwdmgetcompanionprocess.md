@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetWdmGetCompanionProcess
-title: WdfCompanionTargetWdmGetCompanionProcess function
+title: WdfCompanionTargetWdmGetCompanionProcess function (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompaniontarget.h
+- wdfcompaniontarget.h
 api_name:
--	WdfCompanionTargetWdmGetCompanionProcess
+- WdfCompanionTargetWdmGetCompanionProcess
 product:
 - Windows
 targetos: Windows

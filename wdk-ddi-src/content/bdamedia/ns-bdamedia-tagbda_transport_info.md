@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia.tagBDA_TRANSPORT_INFO
-title: tagBDA_TRANSPORT_INFO
+title: tagBDA_TRANSPORT_INFO (bdamedia.h)
 description: The BDA_TRANSPORT_INFO structure describes formatting for a stream connection.
 old-location: stream\bda_transport_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdamedia.h
+- bdamedia.h
 api_name:
--	BDA_TRANSPORT_INFO
+- BDA_TRANSPORT_INFO
 product:
 - Windows
 targetos: Windows

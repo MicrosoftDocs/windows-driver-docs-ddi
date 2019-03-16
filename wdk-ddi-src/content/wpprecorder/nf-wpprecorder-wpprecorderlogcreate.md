@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderLogCreate
-title: WppRecorderLogCreate macro
+title: WppRecorderLogCreate macro (wpprecorder.h)
 description: The WppRecorderLogCreate method creates a buffer to contain the recorder log.
 old-location: devtest\wpprecorderlogcreate.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderLogCreate
+- imp_WppRecorderLogCreate
 product:
 - Windows
 targetos: Windows

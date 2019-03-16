@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortConvertPhysicalAddressToUlong
-title: ScsiPortConvertPhysicalAddressToUlong function
+title: ScsiPortConvertPhysicalAddressToUlong function (srb.h)
 description: The ScsiPortConvertPhysicalAddressToUlong routine truncates a SCSI_PHYSICAL_ADDRESS to a ULONG.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportconvertphysicaladdresstoulong.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortConvertPhysicalAddressToUlong
+- ScsiPortConvertPhysicalAddressToUlong
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_ONLINE
-title: IOCTL_VOLUME_ONLINE
+title: IOCTL_VOLUME_ONLINE (ntddvol.h)
 description: The IOCTL_VOLUME_ONLINE IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed.
 old-location: storage\ioctl_volume_online.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvol.h
+- Ntddvol.h
 api_name:
--	IOCTL_VOLUME_ONLINE
+- IOCTL_VOLUME_ONLINE
 product:
 - Windows
 targetos: Windows

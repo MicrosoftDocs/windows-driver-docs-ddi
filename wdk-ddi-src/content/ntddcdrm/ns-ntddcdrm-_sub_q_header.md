@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._SUB_Q_HEADER
-title: "_SUB_Q_HEADER"
+title: _SUB_Q_HEADER (ntddcdrm.h)
 description: The SUB_Q_HEADER structure contains audio status information and the length of the Q subchannel data being returned. This structure is used in conjunction with SUB_Q_CHANNEL_DATA.
 old-location: storage\sub_q_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	SUB_Q_HEADER
+- SUB_Q_HEADER
 product:
 - Windows
 targetos: Windows

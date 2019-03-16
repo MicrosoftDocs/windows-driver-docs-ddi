@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._FORMAT_EX_PARAMETERS
-title: "_FORMAT_EX_PARAMETERS"
+title: _FORMAT_EX_PARAMETERS (ntdddisk.h)
 description: The FORMAT_EX_PARAMETERS structure is used in conjunction with the IOCTL_DISK_FORMAT_TRACKS_EX request to format the specified set of contiguous tracks on the disk.
 old-location: storage\format_ex_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	FORMAT_EX_PARAMETERS
+- FORMAT_EX_PARAMETERS
 product:
 - Windows
 targetos: Windows

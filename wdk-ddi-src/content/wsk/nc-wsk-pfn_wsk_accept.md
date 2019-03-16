@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_ACCEPT
-title: PFN_WSK_ACCEPT
+title: PFN_WSK_ACCEPT (wsk.h)
 description: The WskAccept function accepts an incoming connection on a listening socket.
 old-location: netvista\wskaccept.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskAccept
+- WskAccept
 product:
 - Windows
 targetos: Windows

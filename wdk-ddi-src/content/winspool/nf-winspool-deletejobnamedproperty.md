@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.DeleteJobNamedProperty
-title: DeleteJobNamedProperty function
+title: DeleteJobNamedProperty function (winspool.h)
 description: Deletes the named property for the specified print job on the specified printer.
 old-location: print\deletejobnamedproperty.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib: WinSpool.lib
 req.dll: Spoolss.dll; WinSpool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	spoolss.dll
--	WinSpool.drv
+- spoolss.dll
+- WinSpool.drv
 api_name:
--	DeleteJobNamedProperty
+- DeleteJobNamedProperty
 product:
 - Windows
 targetos: Windows

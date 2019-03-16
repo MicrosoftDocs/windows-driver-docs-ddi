@@ -1,6 +1,6 @@
 ---
 UID: NF:avcstrm.INIT_AVCSTRM_HEADER
-title: INIT_AVCSTRM_HEADER macro
+title: INIT_AVCSTRM_HEADER macro (avcstrm.h)
 description: The INIT_AVCSTRM_HEADER macro initializes the SizeOfThisBlock, Version and Function members of the AVC_STREAM_REQUEST_BLOCK structure.
 old-location: stream\init_avcstrm_header.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	INIT_AVCSTRM_HEADER
+- INIT_AVCSTRM_HEADER
 product:
 - Windows
 targetos: Windows

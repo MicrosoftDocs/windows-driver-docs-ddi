@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortIsNoVesa
-title: VideoPortIsNoVesa function
+title: VideoPortIsNoVesa function (video.h)
 description: The VideoPortIsNoVesa function determines whether a video miniport driver that does not support Plug and Play (PnP) is restricted to legacy VGA resources.
 old-location: display\videoportisnovesa.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortIsNoVesa
+- VideoPortIsNoVesa
 product:
 - Windows
 targetos: Windows

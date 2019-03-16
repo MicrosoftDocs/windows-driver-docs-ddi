@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
-title: "_D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD"
+title: _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure describes a Microsoft DirectX Video Acceleration (VA) video processing high definition operation to perform.
 old-location: display\d3dddiarg_dxvahd_videoprocessblthd.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
+- D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERADDRESS
-title: "_D3DKMT_ADAPTERADDRESS"
+title: _D3DKMT_ADAPTERADDRESS (d3dkmthk.h)
 description: The D3DKMT_ADAPTERADDRESS structure describes the physical location of the graphics adapter.
 old-location: display\d3dkmt_adapteraddress.htm
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_ADAPTERADDRESS
+- D3DKMT_ADAPTERADDRESS
 product:
 - Windows
 targetos: Windows

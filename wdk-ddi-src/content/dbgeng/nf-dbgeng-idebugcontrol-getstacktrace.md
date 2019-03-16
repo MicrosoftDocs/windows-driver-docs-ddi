@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetStackTrace
-title: IDebugControl::GetStackTrace
+title: IDebugControl::GetStackTrace (dbgeng.h)
 description: The GetStackTrace method returns the frames at the top of the specified call stack.
 old-location: debugger\getstacktrace.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetStackTrace
--	IDebugControl2.GetStackTrace
--	IDebugControl3.GetStackTrace
+- IDebugControl.GetStackTrace
+- IDebugControl2.GetStackTrace
+- IDebugControl3.GetStackTrace
 product:
 - Windows
 targetos: Windows

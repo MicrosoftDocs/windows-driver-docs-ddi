@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_SET_COMMAND
-title: DXGKCB_AGP_SET_COMMAND
+title: DXGKCB_AGP_SET_COMMAND (dispmprt.h)
 description: The AgpSetCommand function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 old-location: display\agpsetcommand.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	AgpSetCommand
+- AgpSetCommand
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KTMOBJECT_CURSOR
-title: "_KTMOBJECT_CURSOR"
+title: _KTMOBJECT_CURSOR (wdm.h)
 description: The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject.
 old-location: kernel\ktmobject_cursor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KTMOBJECT_CURSOR
+- KTMOBJECT_CURSOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_WRITE_USHORT
-title: UART_HARDWARE_WRITE_USHORT
+title: UART_HARDWARE_WRITE_USHORT (uart.h)
 description: Writes a USHORT value to the specified port or register.
 tech.root: serports
 ms.assetid: f1ad2554-41ea-4db2-9547-09ee6c602a1e
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_HARDWARE_WRITE_USHORT
+- UART_HARDWARE_WRITE_USHORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

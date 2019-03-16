@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._COMPROPSHEETUI
-title: "_COMPROPSHEETUI"
+title: _COMPROPSHEETUI (compstui.h)
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
 old-location: print\compropsheetui.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	COMPROPSHEETUI
+- COMPROPSHEETUI
 product:
 - Windows
 targetos: Windows

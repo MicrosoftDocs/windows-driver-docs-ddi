@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_PARAMETERS
-title: "_FLT_PARAMETERS"
+title: _FLT_PARAMETERS (fltkernel.h)
 description: The FLT_PARAMETERS union defines the request-type-specific parameters associated with an I/O operation.
 old-location: ifsk\flt_parameters.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_PARAMETERS
+- FLT_PARAMETERS
 product:
 - Windows
 targetos: Windows

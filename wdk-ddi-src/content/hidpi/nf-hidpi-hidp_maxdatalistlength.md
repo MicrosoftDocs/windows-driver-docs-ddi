@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_MaxDataListLength
-title: HidP_MaxDataListLength function
+title: HidP_MaxDataListLength function (hidpi.h)
 description: The HidP_MaxDataListLength routine returns the maximum number of HIDP_DATA structures that HidP_GetData can return for a specified type of HID report and a specified top-level collection.
 old-location: hid\hidp_maxdatalistlength.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_MaxDataListLength
+- HidP_MaxDataListLength
 product:
 - Windows
 targetos: Windows

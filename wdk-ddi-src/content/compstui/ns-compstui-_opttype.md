@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTTYPE
-title: "_OPTTYPE"
+title: _OPTTYPE (compstui.h)
 description: The OPTTYPE structure is used by CPSUI applications (including printer interface DLLs) for describing the type and other characteristics of a property sheet option, if the option is specified by an OPTITEM structure.
 old-location: print\opttype.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	OPTTYPE
+- OPTTYPE
 product:
 - Windows
 targetos: Windows

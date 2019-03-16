@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_Count
-title: IWDTFDeviceDepot2::get_Count
+title: IWDTFDeviceDepot2::get_Count (wdtf.h)
 description: Gets the number of devices that are currently provided by the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_count.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2.Count
--	IWDTFDeviceDepot2.get_Count
+- IWDTFDeviceDepot2.Count
+- IWDTFDeviceDepot2.get_Count
 product:
 - Windows
 targetos: Windows

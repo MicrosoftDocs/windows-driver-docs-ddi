@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
-title: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function
+title: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function (wdfwmi.h)
 description: The WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function initializes a WDF_WMI_INSTANCE_CONFIG structure and stores a pointer to a specified WDF_WMI_PROVIDER_CONFIG structure.
 old-location: wdf\wdf_wmi_instance_config_init_provider_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfwmi.h
+- wdfwmi.h
 api_name:
--	WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
+- WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
 product:
 - Windows
 targetos: Windows

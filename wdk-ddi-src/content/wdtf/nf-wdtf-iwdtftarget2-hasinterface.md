@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.HasInterface
-title: IWDTFTarget2::HasInterface
+title: IWDTFTarget2::HasInterface (wdtf.h)
 description: Determines whether the target supports a given interface.
 old-location: dtf\iwdtftarget2_hasinterface.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.HasInterface
+- IWDTFTarget2.HasInterface
 product:
 - Windows
 targetos: Windows

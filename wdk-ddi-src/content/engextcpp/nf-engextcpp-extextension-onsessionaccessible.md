@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionAccessible
-title: ExtExtension::OnSessionAccessible
+title: ExtExtension::OnSessionAccessible (engextcpp.h)
 description: The OnSessionAccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible.
 old-location: debugger\onsessionaccessible.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.OnSessionAccessible
+- ExtExtension.OnSessionAccessible
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_43
-title: GNSS_CWTESTDATA
+title: GNSS_CWTESTDATA (gnssdriver.h)
 description: This structure defines specific data elements associated with carrier wave test results returned from the driver.
 old-location: gnss\gnss_cwtestdata.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_CWTESTDATA
+- GNSS_CWTESTDATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateClockCreateRequest
-title: KsValidateClockCreateRequest function
+title: KsValidateClockCreateRequest function (ks.h)
 description: The KsValidateClockCreateRequest function validates the clock creation request and returns the create structure associated with the request.This can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidateclockcreaterequest.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsValidateClockCreateRequest
+- KsValidateClockCreateRequest
 product:
 - Windows
 targetos: Windows

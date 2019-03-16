@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceQueryInterfaceProperty
-title: WdfDeviceQueryInterfaceProperty function
+title: WdfDeviceQueryInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceQueryInterfaceProperty method retrieves a specified device interface property.
 old-location: wdf\wdfdevicequeryinterfaceproperty.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDeviceQueryInterfaceProperty
+- WdfDeviceQueryInterfaceProperty
 product:
 - Windows
 targetos: Windows

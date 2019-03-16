@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlQueryRegistryValues
-title: RtlQueryRegistryValues function
+title: RtlQueryRegistryValues function (wdm.h)
 description: The RtlQueryRegistryValues routine allows the caller to query several values from the registry subtree with a single call.
 old-location: kernel\rtlqueryregistryvalues.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	RtlQueryRegistryValues
+- RtlQueryRegistryValues
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_FORWARD_OPTIONS
-title: "_WDF_REQUEST_FORWARD_OPTIONS"
+title: _WDF_REQUEST_FORWARD_OPTIONS (wdfrequest.h)
 description: The WDF_REQUEST_FORWARD_OPTIONS structure contains options for requeuing an I/O request from a child device's I/O queue to the parent device's I/O queue.
 old-location: wdf\wdf_request_forward_options.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_FORWARD_OPTIONS
+- WDF_REQUEST_FORWARD_OPTIONS
 product:
 - Windows
 targetos: Windows

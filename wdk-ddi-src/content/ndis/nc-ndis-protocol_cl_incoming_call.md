@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_CALL
-title: PROTOCOL_CL_INCOMING_CALL
+title: PROTOCOL_CL_INCOMING_CALL (ndis.h)
 description: The ProtocolClIncomingCall function is used by connection-oriented clients that accept incoming calls.
 old-location: netvista\protocolclincomingcall.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClIncomingCall
+- ProtocolClIncomingCall
 product:
 - Windows
 targetos: Windows

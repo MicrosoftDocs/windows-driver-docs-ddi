@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PROTOCOLS
-title: "_USB_PROTOCOLS"
+title: _USB_PROTOCOLS (usbioctl.h)
 description: The USB_PROTOCOLS union is used to report the Universal Serial Bus (USB) signaling protocols that are supported by the port.
 old-location: buses\usb_protocols.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_PROTOCOLS
+- USB_PROTOCOLS
 product:
 - Windows
 targetos: Windows

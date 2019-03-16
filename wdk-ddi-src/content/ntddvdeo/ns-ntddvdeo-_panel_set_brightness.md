@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._PANEL_SET_BRIGHTNESS
-title: _PANEL_SET_BRIGHTNESS
+title: _PANEL_SET_BRIGHTNESS (ntddvdeo.h)
 description: Directs the driver to linearly ramp the brightness from its current brightness level to a target brightness level over a specified length of time.
 tech.root: display
 ms.assetid: d16d02f1-de69-4224-9e52-3ce78dcc63f3
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_SET_BRIGHTNESS, *PPANEL_SET_BRIGHTNESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_SET_BRIGHTNESS
+- _PANEL_SET_BRIGHTNESS
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

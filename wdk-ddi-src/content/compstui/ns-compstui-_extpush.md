@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._EXTPUSH
-title: "_EXTPUSH"
+title: _EXTPUSH (compstui.h)
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 old-location: print\extpush.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	EXTPUSH
+- EXTPUSH
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ExFreePool
-title: ExFreePool macro
+title: ExFreePool macro (ntddk.h)
 description: The ExFreePool routine deallocates a block of pool memory.
 old-location: kernel\exfreepool.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExFreePool
+- ExFreePool
 product:
 - Windows
 targetos: Windows

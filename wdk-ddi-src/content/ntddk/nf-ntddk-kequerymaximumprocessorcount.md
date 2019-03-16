@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryMaximumProcessorCount
-title: KeQueryMaximumProcessorCount function
+title: KeQueryMaximumProcessorCount function (ntddk.h)
 description: The KeQueryMaximumProcessorCount routine returns the maximum number of processors.
 old-location: kernel\kequerymaximumprocessorcount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryMaximumProcessorCount
+- KeQueryMaximumProcessorCount
 product:
 - Windows
 targetos: Windows

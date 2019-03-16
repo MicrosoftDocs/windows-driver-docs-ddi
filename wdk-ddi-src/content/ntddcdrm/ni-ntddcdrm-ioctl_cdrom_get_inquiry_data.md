@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_INQUIRY_DATA
-title: IOCTL_CDROM_GET_INQUIRY_DATA
+title: IOCTL_CDROM_GET_INQUIRY_DATA (ntddcdrm.h)
 description: Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can be used when a device has been exclusively locked with IOCTL_CDROM_EXCLUSIVE_ACCESS.
 old-location: storage\ioctl_cdrom_get_inquiry_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdrm.h
+- Ntddcdrm.h
 api_name:
--	IOCTL_CDROM_GET_INQUIRY_DATA
+- IOCTL_CDROM_GET_INQUIRY_DATA
 product:
 - Windows
 targetos: Windows

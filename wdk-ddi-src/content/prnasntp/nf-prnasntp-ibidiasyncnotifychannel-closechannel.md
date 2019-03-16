@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CloseChannel
-title: IBidiAsyncNotifyChannel::CloseChannel
+title: IBidiAsyncNotifyChannel::CloseChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_closechannel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IBidiAsyncNotifyChannel.CloseChannel
+- IBidiAsyncNotifyChannel.CloseChannel
 product:
 - Windows
 targetos: Windows

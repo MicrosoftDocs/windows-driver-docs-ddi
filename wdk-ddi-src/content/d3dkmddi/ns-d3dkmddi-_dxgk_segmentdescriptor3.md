@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR3
-title: "_DXGK_SEGMENTDESCRIPTOR3"
+title: _DXGK_SEGMENTDESCRIPTOR3 (d3dkmddi.h)
 description: Contains information about a driver-supported segment that is composed of both BIOS-reserved memory (which is purged during a transition to a low-power state) and driver-reserved memory.
 old-location: display\dxgk_segmentdescriptor3.htm
 ms.assetid: c304fd47-a9c7-46bd-819f-6751eba25459
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_SEGMENTDESCRIPTOR3
+- DXGK_SEGMENTDESCRIPTOR3
 product:
 - Windows
 targetos: Windows

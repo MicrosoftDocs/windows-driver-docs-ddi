@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_STATE
-title: EVT_WDF_IO_QUEUE_STATE
+title: EVT_WDF_IO_QUEUE_STATE (wdfio.h)
 description: A driver's EvtIoQueueState event callback function delivers queue state information to the driver.
 old-location: wdf\evtioqueuestate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoQueueState
+- EvtIoQueueState
 product:
 - Windows
 targetos: Windows

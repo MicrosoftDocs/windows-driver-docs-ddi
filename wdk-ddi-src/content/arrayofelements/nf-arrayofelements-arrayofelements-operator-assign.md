@@ -1,6 +1,6 @@
 ---
 UID: NF:arrayofelements.ArrayOfElements.operator-assign
-title: operator= function
+title: operator= function (arrayofelements.h)
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	arrayofelements.hpp
+- arrayofelements.hpp
 api_name:
--	ExtRemoteTyped.operator=
+- ExtRemoteTyped.operator=
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceList
-title: IStillImageW::GetDeviceList
+title: IStillImageW::GetDeviceList (sti.h)
 description: The IStillImage::GetDeviceList method returns hardware characteristics for all installed still image devices.
 old-location: image\istillimage_getdevicelist.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.GetDeviceList
+- IStillImageW.GetDeviceList
 product:
 - Windows
 targetos: Windows

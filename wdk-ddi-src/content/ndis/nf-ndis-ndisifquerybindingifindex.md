@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfQueryBindingIfIndex
-title: NdisIfQueryBindingIfIndex function
+title: NdisIfQueryBindingIfIndex function (ndis.h)
 description: The NdisIfQueryBindingIfIndex function retrieves the network interface indexes and NET_LUID values for the highest and lowest layered network interfaces that are associated with a specified protocol binding.
 old-location: netvista\ndisifquerybindingifindex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfQueryBindingIfIndex
+- NdisIfQueryBindingIfIndex
 product:
 - Windows
 targetos: Windows

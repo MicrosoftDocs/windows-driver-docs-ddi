@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_AUTH_CHALLENGE
-title: "_NDIS_WWAN_AUTH_CHALLENGE"
+title: _NDIS_WWAN_AUTH_CHALLENGE (ndiswwan.h)
 description: The NDIS_WWAN_AUTH_CHALLENGE structure represents an authentication challenge used by one of the authentication methods.
 old-location: netvista\ndis_wwan_auth_challenge.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_AUTH_CHALLENGE
+- NDIS_WWAN_AUTH_CHALLENGE
 product:
 - Windows
 targetos: Windows

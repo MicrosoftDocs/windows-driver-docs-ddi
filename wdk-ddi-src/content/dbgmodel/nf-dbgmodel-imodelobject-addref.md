@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddRef
-title: IModelObject::AddRef
+title: IModelObject::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object.
 ms.assetid: 57eec432-2950-42c7-a73c-febcfd412b55
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.AddRef
-product: Windows
+- IModelObject.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

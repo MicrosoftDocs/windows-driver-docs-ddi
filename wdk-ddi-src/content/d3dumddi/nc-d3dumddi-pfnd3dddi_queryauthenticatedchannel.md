@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
-title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
+title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL (d3dumddi.h)
 description: The QueryAuthenticatedChannel function queries an authenticated channel for capability and state information.
 old-location: display\queryauthenticatedchannel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	QueryAuthenticatedChannel
+- QueryAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Start
-title: IWDFIoTargetStateManagement::Start
+title: IWDFIoTargetStateManagement::Start (wudfddi.h)
 description: The Start method starts sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_start.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTargetStateManagement.Start
+- IWDFIoTargetStateManagement.Start
 product:
 - Windows
 targetos: Windows

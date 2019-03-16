@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasFormatArgs
-title: wiasFormatArgs function
+title: wiasFormatArgs function (wiamdef.h)
 description: The wiasFormatArgs function formats an argument list into a packaged string for logging.
 old-location: image\wiasformatargs.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasFormatArgs
+- wiasFormatArgs
 product:
 - Windows
 targetos: Windows

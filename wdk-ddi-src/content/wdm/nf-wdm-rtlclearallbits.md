@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlClearAllBits
-title: RtlClearAllBits function
+title: RtlClearAllBits function (wdm.h)
 description: The RtlClearAllBits routine sets all bits in a given bitmap variable to zero.
 old-location: kernel\rtlclearallbits.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlClearAllBits
+- RtlClearAllBits
 product:
 - Windows
 targetos: Windows

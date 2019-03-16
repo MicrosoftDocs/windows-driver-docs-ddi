@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._STORAGE_RESERVE_ID
-title: _STORAGE_RESERVE_ID
+title: _STORAGE_RESERVE_ID (ntifs.h)
 description: Defines the storage reserve ID of a file, directory, or storage reserve area.
 ms.assetid: 70d48fa6-0d49-4fa9-adf8-d84dc91d014e
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: STORAGE_RESERVE_ID, *PSTORAGE_RESERVE_ID
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_STORAGE_RESERVE_ID
-product: Windows
+- _STORAGE_RESERVE_ID
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

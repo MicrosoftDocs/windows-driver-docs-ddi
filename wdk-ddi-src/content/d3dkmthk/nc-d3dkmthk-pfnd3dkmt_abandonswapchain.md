@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ABANDONSWAPCHAIN
-title: PFND3DKMT_ABANDONSWAPCHAIN
+title: PFND3DKMT_ABANDONSWAPCHAIN (d3dkmthk.h)
 description: Abandon the swap chain effect.
 ms.assetid: 06eaa290-e47f-446f-9f60-3aba3f31029c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_ABANDONSWAPCHAIN
+- PFND3DKMT_ABANDONSWAPCHAIN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

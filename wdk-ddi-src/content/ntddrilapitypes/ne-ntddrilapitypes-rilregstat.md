@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILREGSTAT
-title: RILREGSTAT
+title: RILREGSTAT (ntddrilapitypes.h)
 description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILREGSTAT
+- RILREGSTAT
 product:
 - Windows
 targetos: Windows

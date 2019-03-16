@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_ASSOCIATION_PARAMS
-title: DOT11_ASSOCIATION_PARAMS
+title: DOT11_ASSOCIATION_PARAMS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_association_params.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_ASSOCIATION_PARAMS
+- DOT11_ASSOCIATION_PARAMS
 product:
 - Windows
 targetos: Windows

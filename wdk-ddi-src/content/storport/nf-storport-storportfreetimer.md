@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeTimer
-title: StorPortFreeTimer function
+title: StorPortFreeTimer function (storport.h)
 description: Frees a Storport timer context object previously created by the StorPortInitializeTimer routine.
 old-location: storage\storportfreetimer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortFreeTimer
+- StorPortFreeTimer
 product:
 - Windows
 targetos: Windows

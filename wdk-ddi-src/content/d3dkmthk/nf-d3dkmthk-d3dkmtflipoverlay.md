@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFlipOverlay
-title: D3DKMTFlipOverlay function
+title: D3DKMTFlipOverlay function (d3dkmthk.h)
 description: The D3DKMTFlipOverlay function changes the allocation to display on the overlay.
 old-location: display\d3dkmtflipoverlay.htm
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTFlipOverlay
+- D3DKMTFlipOverlay
 product:
 - Windows
 targetos: Windows

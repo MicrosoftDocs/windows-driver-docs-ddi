@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSORINPUT
-title: "_DXVADDI_VIDEOPROCESSORINPUT"
+title: _DXVADDI_VIDEOPROCESSORINPUT (d3dumddi.h)
 description: The DXVADDI_VIDEOPROCESSORINPUT structure describes a video stream that is processed by a video processing device type.
 old-location: display\dxvaddi_videoprocessorinput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_VIDEOPROCESSORINPUT
+- DXVADDI_VIDEOPROCESSORINPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.QuerySimulationSupport
-title: IPrintCoreUI2::QuerySimulationSupport
+title: IPrintCoreUI2::QuerySimulationSupport (prcomoem.h)
 description: The IPrintCoreUI2::QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
 old-location: print\iprintcoreui2_querysimulationsupport.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.QuerySimulationSupport
+- IPrintCoreUI2.QuerySimulationSupport
 product:
 - Windows
 targetos: Windows

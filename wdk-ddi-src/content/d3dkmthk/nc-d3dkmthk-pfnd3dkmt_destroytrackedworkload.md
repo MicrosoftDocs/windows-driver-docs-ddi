@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYTRACKEDWORKLOAD
-title: PFND3DKMT_DESTROYTRACKEDWORKLOAD
+title: PFND3DKMT_DESTROYTRACKEDWORKLOAD (d3dkmthk.h)
 description: Destroys a tracked workload.
 ms.assetid: 0b1d1f0b-bb03-45d5-9c8d-3e1b0354c074
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_DESTROYTRACKEDWORKLOAD
+- PFND3DKMT_DESTROYTRACKEDWORKLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

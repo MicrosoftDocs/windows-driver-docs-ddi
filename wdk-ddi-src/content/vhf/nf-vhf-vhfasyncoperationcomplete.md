@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfAsyncOperationComplete
-title: VhfAsyncOperationComplete function
+title: VhfAsyncOperationComplete function (vhf.h)
 description: The HID source driver calls this method to set the results of an asynchronous operation.
 old-location: hid\_vhfasyncoperationcomplete.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	VhfKm.lib
--	VhfKm.dll
+- VhfKm.lib
+- VhfKm.dll
 api_name:
--	VhfAsyncOperationComplete
+- VhfAsyncOperationComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.SET_VIRTUAL_DEVICE_DATA
-title: SET_VIRTUAL_DEVICE_DATA
+title: SET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The SetVirtualFunctionData routine writes data to the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\setvirtualfunctiondata.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SetVirtualFunctionData
+- SetVirtualFunctionData
 product:
 - Windows
 targetos: Windows

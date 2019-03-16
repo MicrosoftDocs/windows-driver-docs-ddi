@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxDeviceInitialize
-title: IddCxDeviceInitialize function
+title: IddCxDeviceInitialize function (iddcx.h)
 description: Initializes a WDF device.
 old-location: display\iddcxdeviceinitialize.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxDeviceInitialize
+- IddCxDeviceInitialize
 product:
 - Windows
 targetos: Windows

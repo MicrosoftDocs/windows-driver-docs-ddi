@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetDescriptionWide
-title: IDebugRegisters2::GetDescriptionWide
+title: IDebugRegisters2::GetDescriptionWide (dbgeng.h)
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetDescriptionWide
+- IDebugRegisters2.GetDescriptionWide
 product:
 - Windows
 targetos: Windows

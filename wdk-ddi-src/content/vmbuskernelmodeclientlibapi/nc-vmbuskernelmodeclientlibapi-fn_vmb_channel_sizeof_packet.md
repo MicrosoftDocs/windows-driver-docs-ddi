@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SIZEOF_PACKET
-title: FN_VMB_CHANNEL_SIZEOF_PACKET
+title: FN_VMB_CHANNEL_SIZEOF_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelSizeofPacket function calculates the necessary size for buffers to be used with the VmbPacketInitialize function.
 tech.root: netvista
 ms.assetid: 05f275dd-cde2-425f-ac13-57b11c8affdf
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_SIZEOF_PACKET
+- FN_VMB_CHANNEL_SIZEOF_PACKET
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

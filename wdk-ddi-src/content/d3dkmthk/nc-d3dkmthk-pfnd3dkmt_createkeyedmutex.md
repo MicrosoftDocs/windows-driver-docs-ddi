@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEKEYEDMUTEX
-title: PFND3DKMT_CREATEKEYEDMUTEX
+title: PFND3DKMT_CREATEKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMTCreateKeyedMutex
+- D3DKMTCreateKeyedMutex
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
-title: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
+title: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW (d3d12umddi.h)
 description: Arguments used to create a depth stencil view.
 ms.assetid: 4ea81c63-03b8-4966-9dbf-8eee2af122d2
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
+- D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

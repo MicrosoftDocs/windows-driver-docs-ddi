@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_EVENT_HEADER
-title: "_NDIS_WMI_EVENT_HEADER"
+title: _NDIS_WMI_EVENT_HEADER (ntddndis.h)
 description: The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for WMI clients.
 old-location: netvista\ndis_wmi_event_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_WMI_EVENT_HEADER
+- NDIS_WMI_EVENT_HEADER
 product:
 - Windows
 targetos: Windows

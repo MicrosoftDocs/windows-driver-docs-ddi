@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATE_OUTPUTDUPL
-title: _D3DKMT_CREATE_OUTPUTDUPL
+title: _D3DKMT_CREATE_OUTPUTDUPL (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: c3d26e7c-7d05-4965-a725-8a9269c80a7c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CREATE_OUTPUTDUPL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CREATE_OUTPUTDUPL
+- _D3DKMT_CREATE_OUTPUTDUPL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

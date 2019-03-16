@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosPowerReportingType
-title: DriverUnifiedPosPowerReportingType
+title: DriverUnifiedPosPowerReportingType (pointofservicecommontypes.h)
 description: This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on).
 old-location: pos\unifiedpospowerreportingtype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverUnifiedPosPowerReportingType
+- DriverUnifiedPosPowerReportingType
 product:
 - Windows
 targetos: Windows

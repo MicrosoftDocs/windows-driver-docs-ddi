@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetUpperInstance
-title: FltGetUpperInstance function
+title: FltGetUpperInstance function (fltkernel.h)
 description: The FltGetUpperInstance routine returns an opaque instance pointer for the next higher minifilter driver instance, if there is one, that is attached above a given minifilter driver instance on the same volume.
 old-location: ifsk\fltgetupperinstance.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetUpperInstance
+- FltGetUpperInstance
 product:
 - Windows
 targetos: Windows

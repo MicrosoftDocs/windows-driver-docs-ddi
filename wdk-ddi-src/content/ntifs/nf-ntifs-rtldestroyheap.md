@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDestroyHeap
-title: RtlDestroyHeap function
+title: RtlDestroyHeap function (ntifs.h)
 description: The RtlDestroyHeap routine destroys the specified heap object. RtlDestroyHeap decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: ifsk\rtldestroyheap.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDestroyHeap
+- RtlDestroyHeap
 product:
 - Windows
 targetos: Windows

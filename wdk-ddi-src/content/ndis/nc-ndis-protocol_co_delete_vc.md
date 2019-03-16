@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_DELETE_VC
-title: PROTOCOL_CO_DELETE_VC
+title: PROTOCOL_CO_DELETE_VC (ndis.h)
 description: The ProtocolCoDeleteVc function is required.
 old-location: netvista\protocolcodeletevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoDeleteVc
+- ProtocolCoDeleteVc
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_MRL_INFO
-title: "_WWAN_LTE_MRL_INFO"
+title: _WWAN_LTE_MRL_INFO (wwan.h)
 description: The WWAN_LTE_MRL_INFO structure represents information about a neighboring LTE cell.
 old-location: netvista\wwan_lte_mrl_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_LTE_MRL_INFO
+- WWAN_LTE_MRL_INFO
 product:
 - Windows
 targetos: Windows

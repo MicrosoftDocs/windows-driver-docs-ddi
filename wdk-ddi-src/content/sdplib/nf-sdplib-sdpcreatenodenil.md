@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeNil
-title: SdpCreateNodeNil function
+title: SdpCreateNodeNil function (sdplib.h)
 description: The Bluetooth SdpCreateNodeNil function is used to allocate and initialize an SDP_NODE structure to an empty node type.
 old-location: bltooth\sdpcreatenodenil.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpCreateNodeNil
+- SdpCreateNodeNil
 product:
 - Windows
 targetos: Windows

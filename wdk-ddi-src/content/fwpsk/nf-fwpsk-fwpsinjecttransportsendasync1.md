@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectTransportSendAsync1
-title: FwpsInjectTransportSendAsync1 function
+title: FwpsInjectTransportSendAsync1 function (fwpsk.h)
 description: The FwpsInjectTransportSendAsync1 function injects packet data from the transport, datagram data, or ICMP error layers into the send data path.
 old-location: netvista\fwpsinjecttransportsendasync1.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectTransportSendAsync1
+- FwpsInjectTransportSendAsync1
 product:
 - Windows
 targetos: Windows
@@ -232,11 +232,7 @@ An error occurred.
 
 
 
-A callout driver calls the 
-     function to inject packet data from the transport, datagram data, or
-    ICMP error layers into the send data path. At these layers, the IP header might no<b>FwpsInjectTransportSendAsync1</b>t yet be formed, and
-    when IPsec policy is active, the packet data is not encrypted or signed. Therefore, this function is
-    ideal to use for packet inspection in an IPsec-enabled environment.
+A callout driver calls the <b>FwpsInjectTransportSendAsync1</b> function to inject packet data from the transport, datagram data, or ICMP error layers into the send data path. At these layers, the IP header might not yet be formed, and when IPsec policy is active, the packet data is not encrypted or signed. Therefore, this function is ideal to use for packet inspection in an IPsec-enabled environment.
 
 This function can execute asynchronously.
 

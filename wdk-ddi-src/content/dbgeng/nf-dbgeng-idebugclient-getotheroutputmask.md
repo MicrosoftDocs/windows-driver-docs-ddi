@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOtherOutputMask
-title: IDebugClient::GetOtherOutputMask
+title: IDebugClient::GetOtherOutputMask (dbgeng.h)
 description: The GetOtherOutputMask method returns the output mask for another client.
 old-location: debugger\getotheroutputmask.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetOtherOutputMask
--	IDebugClient2.GetOtherOutputMask
--	IDebugClient3.GetOtherOutputMask
--	IDebugClient4.GetOtherOutputMask
--	IDebugClient5.GetOtherOutputMask
+- IDebugClient.GetOtherOutputMask
+- IDebugClient2.GetOtherOutputMask
+- IDebugClient3.GetOtherOutputMask
+- IDebugClient4.GetOtherOutputMask
+- IDebugClient5.GetOtherOutputMask
 product:
 - Windows
 targetos: Windows

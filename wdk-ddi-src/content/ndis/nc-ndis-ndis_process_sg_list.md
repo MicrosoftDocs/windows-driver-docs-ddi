@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PROCESS_SG_LIST
-title: NDIS_PROCESS_SG_LIST
+title: NDIS_PROCESS_SG_LIST (ndis.h)
 description: The NetProcessSGList function (NDIS_PROCESS_SG_LIST_HANDLER entry point) processes a scatter/gather list.
 old-location: netvista\netprocesssglist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NetProcessSGList
+- NetProcessSGList
 product:
 - Windows
 targetos: Windows

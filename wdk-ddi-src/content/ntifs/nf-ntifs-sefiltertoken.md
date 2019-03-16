@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeFilterToken
-title: SeFilterToken function
+title: SeFilterToken function (ntifs.h)
 description: The SeFilterToken routine creates a new access token that is a restricted version of an existing access token.
 old-location: ifsk\sefiltertoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeFilterToken
+- SeFilterToken
 product:
 - Windows
 targetos: Windows

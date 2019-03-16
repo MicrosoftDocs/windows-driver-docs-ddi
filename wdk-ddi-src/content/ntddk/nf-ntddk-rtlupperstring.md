@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlUpperString
-title: RtlUpperString function
+title: RtlUpperString function (ntddk.h)
 description: The RtlUpperString routine copies the given SourceString to the DestinationString buffer, converting it to uppercase.
 old-location: kernel\rtlupperstring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUpperString
+- RtlUpperString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_TITLEKEY
-title: "_KS_DVDCOPY_TITLEKEY"
+title: _KS_DVDCOPY_TITLEKEY (ksmedia.h)
 description: The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_titlekey.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DVDCOPY_TITLEKEY
+- KS_DVDCOPY_TITLEKEY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_VERSION
-title: "_WINBIO_VERSION"
+title: _WINBIO_VERSION (winbio_types.h)
 description: The WINBIO_VERSION structure describes major and minor version information for a WBDI driver.
 old-location: biometric\winbio_version.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_types.h
+- winbio_types.h
 api_name:
--	WINBIO_VERSION
+- WINBIO_VERSION
 product:
 - Windows
 targetos: Windows

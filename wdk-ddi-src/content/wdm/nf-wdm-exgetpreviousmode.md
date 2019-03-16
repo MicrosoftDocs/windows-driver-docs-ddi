@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetPreviousMode
-title: ExGetPreviousMode function
+title: ExGetPreviousMode function (wdm.h)
 description: The ExGetPreviousMode routine returns the previous processor mode for the current thread.
 old-location: kernel\exgetpreviousmode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExGetPreviousMode
+- ExGetPreviousMode
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetUncachedExtension
-title: StorPortGetUncachedExtension function
+title: StorPortGetUncachedExtension function (storport.h)
 description: The StorPortGetUncachedExtension routine allocates an uncached common buffer to be shared by the CPU and the device.
 old-location: storage\storportgetuncachedextension.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetUncachedExtension
+- StorPortGetUncachedExtension
 product:
 - Windows
 targetos: Windows

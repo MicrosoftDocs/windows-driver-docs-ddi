@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_PHOTOMODE
-title: tagKSCAMERA_EXTENDEDPROP_PHOTOMODE
+title: tagKSCAMERA_EXTENDEDPROP_PHOTOMODE (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_PHOTOMODE structure contains the property data for the history frame counts in photo mode.
 old-location: stream\kscamera_extendedprop_photomode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_PHOTOMODE
+- KSCAMERA_EXTENDEDPROP_PHOTOMODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSanitizeUnicodeStringPadding
-title: RtlSanitizeUnicodeStringPadding function
+title: RtlSanitizeUnicodeStringPadding function (wdm.h)
 description: Sanitizes the padding for a Unicode string.
 ms.assetid: 898d0b7e-e49f-4640-877e-0a1177d7cee7
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	RtlSanitizeUnicodeStringPadding
-product: Windows
+- RtlSanitizeUnicodeStringPadding
+product:
+- Windows
 targetos: Windows
 
 

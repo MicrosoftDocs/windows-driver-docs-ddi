@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_WRITE_REGISTERS
-title: IOCTL_WRITE_REGISTERS
+title: IOCTL_WRITE_REGISTERS (usbscan.h)
 description: Writes to USB device registers, using the control pipe.
 old-location: image\ioctl_write_registers.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_WRITE_REGISTERS
+- IOCTL_WRITE_REGISTERS
 product:
 - Windows
 targetos: Windows

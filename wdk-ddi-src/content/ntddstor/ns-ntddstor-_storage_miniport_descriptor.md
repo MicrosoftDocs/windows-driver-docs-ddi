@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MINIPORT_DESCRIPTOR
-title: "_STORAGE_MINIPORT_DESCRIPTOR"
+title: _STORAGE_MINIPORT_DESCRIPTOR (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\storage_miniport_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_MINIPORT_DESCRIPTOR
+- STORAGE_MINIPORT_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

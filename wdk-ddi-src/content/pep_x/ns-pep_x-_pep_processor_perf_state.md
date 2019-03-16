@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_PERF_STATE
-title: "_PEP_PROCESSOR_PERF_STATE"
+title: _PEP_PROCESSOR_PERF_STATE (pep_x.h)
 description: Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  .
 old-location: kernel\pep_processor_perf_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pepfx.h
+- Pepfx.h
 api_name:
--	PEP_PROCESSOR_PERF_STATE
+- PEP_PROCESSOR_PERF_STATE
 product:
 - Windows
 targetos: Windows

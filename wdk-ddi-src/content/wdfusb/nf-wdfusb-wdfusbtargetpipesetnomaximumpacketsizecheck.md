@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
-title: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck function
+title: WdfUsbTargetPipeSetNoMaximumPacketSizeCheck function (wdfusb.h)
 description: The WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method disables the framework's test of whether the size of a driver's read buffer is a multiple of a USB pipe's maximum packet size.
 old-location: wdf\wdfusbtargetpipesetnomaximumpacketsizecheck.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
+- WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
 product:
 - Windows
 targetos: Windows

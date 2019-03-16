@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetRequestorProcess
-title: IoGetRequestorProcess function
+title: IoGetRequestorProcess function (ntifs.h)
 description: The IoGetRequestorProcess routine returns a process pointer for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetRequestorProcess
+- IoGetRequestorProcess
 product:
 - Windows
 targetos: Windows

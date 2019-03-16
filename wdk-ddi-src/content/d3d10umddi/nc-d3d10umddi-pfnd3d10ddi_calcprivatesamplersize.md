@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATESAMPLERSIZE
-title: PFND3D10DDI_CALCPRIVATESAMPLERSIZE
+title: PFND3D10DDI_CALCPRIVATESAMPLERSIZE (d3d10umddi.h)
 description: The CalcPrivateSamplerSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a sampler.
 old-location: display\calcprivatesamplersize.htm
 ms.assetid: 7231ba65-f6ed-4b00-a61f-21d8fe26398f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CalcPrivateSamplerSize
+- CalcPrivateSamplerSize
 product:
 - Windows
 targetos: Windows

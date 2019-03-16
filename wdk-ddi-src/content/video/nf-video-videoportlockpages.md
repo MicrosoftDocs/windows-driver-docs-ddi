@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortLockPages
-title: VideoPortLockPages function
+title: VideoPortLockPages function (video.h)
 description: The VideoPortLockPages function is obsolete in Windows 2000 and later. Use VideoPortLockBuffer in place of this function.VideoPortLockPages locks the specified virtual memory and possibly performs part or all of a DMA transfer.
 old-location: display\videoportlockpages.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortLockPages
+- VideoPortLockPages
 product:
 - Windows
 targetos: Windows

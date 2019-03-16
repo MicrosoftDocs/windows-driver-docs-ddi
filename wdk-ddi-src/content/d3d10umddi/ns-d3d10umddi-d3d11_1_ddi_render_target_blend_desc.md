@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
-title: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+title: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC (d3d10umddi.h)
 description: Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
+- D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 product:
 - Windows
 targetos: Windows

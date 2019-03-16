@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetBcbOwnerPointer
-title: CcSetBcbOwnerPointer function
+title: CcSetBcbOwnerPointer function (ntifs.h)
 description: The CcSetBcbOwnerPointer routine sets the owner thread pointer for a pinned buffer control block (BCB).
 old-location: ifsk\ccsetbcbownerpointer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetBcbOwnerPointer
+- CcSetBcbOwnerPointer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
-title: IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
+title: IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION (ntddvdeo.h)
 description: Sets the backlight optimization for the display panel.
 ms.assetid: 706088f5-0157-4dbd-a475-dafe9811b5b1
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
+- IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
 product: 
 - Windows
 targetos: Windows

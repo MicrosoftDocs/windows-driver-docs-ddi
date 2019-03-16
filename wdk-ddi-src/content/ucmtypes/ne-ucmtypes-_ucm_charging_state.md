@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_CHARGING_STATE
-title: "_UCM_CHARGING_STATE"
+title: _UCM_CHARGING_STATE (ucmtypes.h)
 description: Defines the charging state of a Type-C connector.
 old-location: buses\ucm_charging_state.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_CHARGING_STATE
+- UCM_CHARGING_STATE
 product:
 - Windows
 targetos: Windows

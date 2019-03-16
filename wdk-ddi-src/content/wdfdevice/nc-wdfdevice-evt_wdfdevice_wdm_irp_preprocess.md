@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_IRP_PREPROCESS
-title: EVT_WDFDEVICE_WDM_IRP_PREPROCESS
+title: EVT_WDFDEVICE_WDM_IRP_PREPROCESS (wdfdevice.h)
 description: A driver's EvtDeviceWdmIrpPreprocess event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirppreprocess.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceWdmIrpPreprocess
+- EvtDeviceWdmIrpPreprocess
 product:
 - Windows
 targetos: Windows

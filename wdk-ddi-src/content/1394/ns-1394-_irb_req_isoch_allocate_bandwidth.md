@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
-title: "_IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH"
+title: _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH (1394.h)
 description: This structure contains the fields necessary in order for the Bus driver to carry out an IsochAllocateBandwidth request.
 old-location: ieee\irb_req_isoch_allocate_bandwidth.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
+- IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
 product:
 - Windows
 targetos: Windows

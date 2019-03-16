@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FRAME_STATUS
-title: IDDCX_FRAME_STATUS
+title: IDDCX_FRAME_STATUS (iddcx.h)
 description: Defines the processing status of the frame.
 old-location: display\iddcx_frame_status.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_FRAME_STATUS
+- IDDCX_FRAME_STATUS
 product:
 - Windows
 targetos: Windows

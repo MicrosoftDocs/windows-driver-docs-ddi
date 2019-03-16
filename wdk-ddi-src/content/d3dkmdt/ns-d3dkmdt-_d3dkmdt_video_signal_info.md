@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDEO_SIGNAL_INFO
-title: "_D3DKMDT_VIDEO_SIGNAL_INFO"
+title: _D3DKMDT_VIDEO_SIGNAL_INFO (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_SIGNAL_INFO structure contains information about a video signal driven by a video output on a display adapter.
 old-location: display\d3dkmdt_video_signal_info.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDEO_SIGNAL_INFO
+- D3DKMDT_VIDEO_SIGNAL_INFO
 product:
 - Windows
 targetos: Windows

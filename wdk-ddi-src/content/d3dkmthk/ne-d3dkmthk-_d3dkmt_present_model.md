@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_PRESENT_MODEL
-title: "_D3DKMT_PRESENT_MODEL"
+title: _D3DKMT_PRESENT_MODEL (d3dkmthk.h)
 description: The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation.
 old-location: display\d3dkmt_present_model.htm
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_PRESENT_MODEL
+- D3DKMT_PRESENT_MODEL
 product:
 - Windows
 targetos: Windows

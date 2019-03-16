@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_DEVICE_PARAMETERS
-title: "_IDE_DEVICE_PARAMETERS"
+title: _IDE_DEVICE_PARAMETERS (irb.h)
 description: The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_device_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_DEVICE_PARAMETERS
+- IDE_DEVICE_PARAMETERS
 product:
 - Windows
 targetos: Windows

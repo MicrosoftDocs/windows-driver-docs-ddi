@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlNumberGenericTableElementsAvl
-title: RtlNumberGenericTableElementsAvl function
+title: RtlNumberGenericTableElementsAvl function (ntddk.h)
 description: The RtlNumberGenericTableElementsAvl routine returns the number of elements in a generic table.
 old-location: ifsk\rtlnumbergenerictableelementsavl.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlNumberGenericTableElementsAvl
+- RtlNumberGenericTableElementsAvl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_DISCONNECT
-title: "_BTH_SDP_DISCONNECT"
+title: _BTH_SDP_DISCONNECT (bthioctl.h)
 description: The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of IOCTL_BTH_SDP_DISCONNECT.
 old-location: bltooth\bth_sdp_disconnect.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_SDP_DISCONNECT
+- BTH_SDP_DISCONNECT
 product:
 - Windows
 targetos: Windows

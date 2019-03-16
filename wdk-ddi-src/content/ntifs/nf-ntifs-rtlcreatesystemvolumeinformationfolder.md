@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateSystemVolumeInformationFolder
-title: RtlCreateSystemVolumeInformationFolder function
+title: RtlCreateSystemVolumeInformationFolder function (ntifs.h)
 description: The RtlCreateSystemVolumeInformationFolder routine verifies the existence of the &#0034;System Volume Information&#0034; folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\rtlcreatesystemvolumeinformationfolder.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlCreateSystemVolumeInformationFolder
+- RtlCreateSystemVolumeInformationFolder
 product:
 - Windows
 targetos: Windows

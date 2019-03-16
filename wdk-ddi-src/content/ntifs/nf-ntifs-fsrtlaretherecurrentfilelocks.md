@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAreThereCurrentFileLocks
-title: FsRtlAreThereCurrentFileLocks macro
+title: FsRtlAreThereCurrentFileLocks macro (ntifs.h)
 description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte range locks exist for the specified file.
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlAreThereCurrentFileLocks
+- FsRtlAreThereCurrentFileLocks
 product:
 - Windows
 targetos: Windows

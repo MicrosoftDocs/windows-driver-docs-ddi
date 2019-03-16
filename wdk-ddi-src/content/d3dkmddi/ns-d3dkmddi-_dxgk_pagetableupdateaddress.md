@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PAGETABLEUPDATEADDRESS
-title: "_DXGK_PAGETABLEUPDATEADDRESS"
+title: _DXGK_PAGETABLEUPDATEADDRESS (d3dkmddi.h)
 description: DXGK_PAGETABLEUPDATEADDRESS contains the address of a page table to update. The member containing the address is defined as part of a DxgkDdiBuildPagingBuffer operation in the DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure.
 old-location: display\dxgk_pagetableupdateaddress.htm
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PAGETABLEUPDATEADDRESS
+- DXGK_PAGETABLEUPDATEADDRESS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_STRUCT_TYPE
-title: "_WWAN_STRUCT_TYPE"
+title: _WWAN_STRUCT_TYPE (wwan.h)
 description: The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements that follow the WWAN_LIST_HEADER object in memory.
 old-location: netvista\wwan_struct_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_STRUCT_TYPE
+- WWAN_STRUCT_TYPE
 product:
 - Windows
 targetos: Windows

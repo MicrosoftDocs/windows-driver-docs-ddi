@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_10
-title: KSAUDIO_MIC_ARRAY_GEOMETRY
+title: KSAUDIO_MIC_ARRAY_GEOMETRY (ksmedia.h)
 description: The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array.
 old-location: audio\ksaudio_mic_array_geometry.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSAUDIO_MIC_ARRAY_GEOMETRY
+- KSAUDIO_MIC_ARRAY_GEOMETRY
 product:
 - Windows
 targetos: Windows

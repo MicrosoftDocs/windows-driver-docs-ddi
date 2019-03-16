@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKDDI_FLEXIOV_DEVICE_INTERFACE
-title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE (dispmprt.h)
 description: 
 ms.assetid: 03ceba62-6439-4a5e-b15b-38dd06a6a924
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGKDDI_FLEXIOV_DEVICE_INTERFACE
+- _DXGKDDI_FLEXIOV_DEVICE_INTERFACE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

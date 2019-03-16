@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_struct_2
-title: MIRACAST_STATISTIC_DATA
+title: MIRACAST_STATISTIC_DATA (netdispumdddi.h)
 description: Contains Miracast statistics data that the user-mode display driver reports to the operating system.
 old-location: display\miracast_statistic_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_STATISTIC_DATA
+- MIRACAST_STATISTIC_DATA
 product:
 - Windows
 targetos: Windows

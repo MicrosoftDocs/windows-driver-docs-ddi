@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_SETCONSTANTBUFFERS
-title: PFND3D11_1DDI_SETCONSTANTBUFFERS
+title: PFND3D11_1DDI_SETCONSTANTBUFFERS (d3d10umddi.h)
 description: Sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers_d3d11_1_.htm
 ms.assetid: 6A2B50BF-415D-47BB-9514-B15F717A76EA
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CsSetConstantBuffers(D3D11_1)
+- CsSetConstantBuffers(D3D11_1)
 product:
 - Windows
 targetos: Windows

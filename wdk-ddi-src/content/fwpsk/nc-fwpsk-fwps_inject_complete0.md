@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_INJECT_COMPLETE0
-title: FWPS_INJECT_COMPLETE0
+title: FWPS_INJECT_COMPLETE0 (fwpsk.h)
 description: The filter engine calls a callout's completionFn callout function whenever packet data, described by the netBufferList parameter in one of the packet injection functions, has been injected into the network stack.
 old-location: netvista\completionfn.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Fwpsk.h
+- Fwpsk.h
 api_name:
--	completionFn
+- completionFn
 product:
 - Windows
 targetos: Windows

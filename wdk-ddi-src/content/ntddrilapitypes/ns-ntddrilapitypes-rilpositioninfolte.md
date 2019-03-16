@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOLTE
-title: RILPOSITIONINFOLTE
+title: RILPOSITIONINFOLTE (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFOLTE.
 old-location: netvista\rilpositioninfolte.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFOLTE
+- RILPOSITIONINFOLTE
 product:
 - Windows
 targetos: Windows

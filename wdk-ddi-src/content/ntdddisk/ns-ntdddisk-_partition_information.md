@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION
-title: "_PARTITION_INFORMATION"
+title: _PARTITION_INFORMATION (ntdddisk.h)
 description: The PARTITION_INFORMATION structure contains partition information for a partition with a traditional AT-style Master Boot Record (MBR).
 old-location: storage\partition_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	PARTITION_INFORMATION
+- PARTITION_INFORMATION
 product:
 - Windows
 targetos: Windows

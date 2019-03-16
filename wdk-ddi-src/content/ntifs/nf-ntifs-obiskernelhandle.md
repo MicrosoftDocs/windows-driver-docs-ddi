@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObIsKernelHandle
-title: ObIsKernelHandle function
+title: ObIsKernelHandle function (ntifs.h)
 description: The ObIsKernelHandle routine determines whether the specified handle is a kernel handle.
 old-location: ifsk\obiskernelhandle.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObIsKernelHandle
+- ObIsKernelHandle
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_34
-title: KSPIN_PHYSICALCONNECTION
+title: KSPIN_PHYSICALCONNECTION (ks.h)
 description: A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a KSPROPERTY_PIN_PHYSICALCONNECTION request.
 old-location: stream\kspin_physicalconnection.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPIN_PHYSICALCONNECTION
+- KSPIN_PHYSICALCONNECTION
 product:
 - Windows
 targetos: Windows

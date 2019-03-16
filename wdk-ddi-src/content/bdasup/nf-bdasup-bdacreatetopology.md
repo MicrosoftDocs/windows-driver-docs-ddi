@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaCreateTopology
-title: BdaCreateTopology function
+title: BdaCreateTopology function (bdasup.h)
 description: The BdaCreateTopology function creates the topology between two pins.
 old-location: stream\bdacreatetopology.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaCreateTopology
+- BdaCreateTopology
 product:
 - Windows
 targetos: Windows

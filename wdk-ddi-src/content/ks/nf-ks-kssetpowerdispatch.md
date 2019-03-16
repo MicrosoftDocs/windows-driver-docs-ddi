@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetPowerDispatch
-title: KsSetPowerDispatch function
+title: KsSetPowerDispatch function (ks.h)
 description: Sets the power dispatch function to be called when the driver object receives an IRP_MJ_POWER IRP.
 old-location: stream\kssetpowerdispatch.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsSetPowerDispatch
+- KsSetPowerDispatch
 product:
 - Windows
 targetos: Windows

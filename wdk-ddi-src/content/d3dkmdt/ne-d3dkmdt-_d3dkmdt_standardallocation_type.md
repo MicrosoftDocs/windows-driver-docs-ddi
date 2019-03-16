@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_STANDARDALLOCATION_TYPE
-title: "_D3DKMDT_STANDARDALLOCATION_TYPE"
+title: _D3DKMDT_STANDARDALLOCATION_TYPE (d3dkmdt.h)
 description: The D3DKMDT_STANDARDALLOCATION_TYPE enumeration type contains values that identify particular types of surfaces.
 old-location: display\d3dkmdt_standardallocation_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_STANDARDALLOCATION_TYPE
+- D3DKMDT_STANDARDALLOCATION_TYPE
 product:
 - Windows
 targetos: Windows

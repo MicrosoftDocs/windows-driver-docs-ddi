@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SOCKET_CONNECT
-title: PFN_WSK_SOCKET_CONNECT
+title: PFN_WSK_SOCKET_CONNECT (wsk.h)
 description: The WskSocketConnect function creates a new connection-oriented socket, binds it to a local transport address, connects it to a given remote transport address, and returns a pointer to the associated socket object.
 old-location: netvista\wsksocketconnect.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskSocketConnect
+- WskSocketConnect
 product:
 - Windows
 targetos: Windows

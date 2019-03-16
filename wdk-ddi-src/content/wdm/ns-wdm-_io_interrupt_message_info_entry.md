@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_INTERRUPT_MESSAGE_INFO_ENTRY
-title: "_IO_INTERRUPT_MESSAGE_INFO_ENTRY"
+title: _IO_INTERRUPT_MESSAGE_INFO_ENTRY (wdm.h)
 description: The IO_INTERRUPT_MESSAGE_INFO_ENTRY structure describes the properties of a single message-signaled interrupt.
 old-location: kernel\io_interrupt_message_info_entry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_INTERRUPT_MESSAGE_INFO_ENTRY
+- IO_INTERRUPT_MESSAGE_INFO_ENTRY
 product:
 - Windows
 targetos: Windows

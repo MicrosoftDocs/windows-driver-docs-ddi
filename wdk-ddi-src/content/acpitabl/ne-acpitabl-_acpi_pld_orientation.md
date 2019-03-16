@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_ORIENTATION
-title: _ACPI_PLD_ORIENTATION enumeration
+title: _ACPI_PLD_ORIENTATION enumeration (acpitabl.h)
 description: Describes orientation bit 78.
 ms.assetid: b58d55f1-47b4-4f2d-93f6-85bc2dee4426
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_ORIENTATION, *PACPI_PLD_ORIENTATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_ORIENTATION
+- _ACPI_PLD_ORIENTATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

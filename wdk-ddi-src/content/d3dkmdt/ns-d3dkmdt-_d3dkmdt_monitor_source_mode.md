@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_SOURCE_MODE
-title: "_D3DKMDT_MONITOR_SOURCE_MODE"
+title: _D3DKMDT_MONITOR_SOURCE_MODE (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_SOURCE_MODE structure contains information about a monitor source mode.
 old-location: display\d3dkmdt_monitor_source_mode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_MONITOR_SOURCE_MODE
+- D3DKMDT_MONITOR_SOURCE_MODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelMethod.Release
-title: IModelMethod::Release
+title: IModelMethod::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelMethod.Release
-product: Windows
+- IModelMethod.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

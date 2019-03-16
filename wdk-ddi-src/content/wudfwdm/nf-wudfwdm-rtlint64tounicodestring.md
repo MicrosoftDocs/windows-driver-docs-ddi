@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlInt64ToUnicodeString
-title: RtlInt64ToUnicodeString function
+title: RtlInt64ToUnicodeString function (wudfwdm.h)
 description: The RtlInt64ToUnicodeString routine converts a specified unsigned 64-bit integer value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlint64tounicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInt64ToUnicodeString
+- RtlInt64ToUnicodeString
 product:
 - Windows
 targetos: Windows

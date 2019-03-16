@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_MAILSLOT_SET_INFORMATION
-title: "_FILE_MAILSLOT_SET_INFORMATION"
+title: _FILE_MAILSLOT_SET_INFORMATION (ntifs.h)
 description: The FILE_MAILSLOT_SET_INFORMATION structure is used to set a value on a mailslot.
 old-location: ifsk\file_mailslot_set_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_MAILSLOT_SET_INFORMATION
+- FILE_MAILSLOT_SET_INFORMATION
 product:
 - Windows
 targetos: Windows

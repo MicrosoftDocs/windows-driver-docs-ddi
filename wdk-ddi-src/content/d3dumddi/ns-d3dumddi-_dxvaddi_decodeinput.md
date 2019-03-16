@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEINPUT
-title: "_DXVADDI_DECODEINPUT"
+title: _DXVADDI_DECODEINPUT (d3dumddi.h)
 description: The DXVADDI_DECODEINPUT structure describes a render target format that is supported by a Microsoft DirectX Video Acceleration (DirectX VA) decode type.
 old-location: display\dxvaddi_decodeinput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_DECODEINPUT
+- DXVADDI_DECODEINPUT
 product:
 - Windows
 targetos: Windows

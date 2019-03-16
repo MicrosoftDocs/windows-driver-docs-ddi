@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
-title: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
+title: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS (pointofservicedriverinterface.h)
 description: This I/O control function sets the specified statistic to the value in the input buffer.
 old-location: pos\ioctl_point_of_service_update_statistics.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
+- IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
 product:
 - Windows
 targetos: Windows

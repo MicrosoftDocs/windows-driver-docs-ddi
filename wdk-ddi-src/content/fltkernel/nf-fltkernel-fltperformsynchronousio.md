@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltPerformSynchronousIo
-title: FltPerformSynchronousIo function
+title: FltPerformSynchronousIo function (fltkernel.h)
 description: A minifilter driver calls FltPerformSynchronousIo to initiate a synchronous I/O operation after calling FltAllocateCallbackData to allocate a callback data structure for the operation.
 old-location: ifsk\fltperformsynchronousio.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltPerformSynchronousIo
+- FltPerformSynchronousIo
 product:
 - Windows
 targetos: Windows

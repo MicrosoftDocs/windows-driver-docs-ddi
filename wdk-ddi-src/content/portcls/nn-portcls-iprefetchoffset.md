@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPreFetchOffset
-title: IPreFetchOffset
+title: IPreFetchOffset (portcls.h)
 description: The IPreFetchOffset interface controls the prefetch offset, which is the number of bytes separating the play and write cursors in a DirectSound output stream.
 old-location: audio\iprefetchoffset.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPreFetchOffset
+- IPreFetchOffset
 product:
 - Windows
 targetos: Windows

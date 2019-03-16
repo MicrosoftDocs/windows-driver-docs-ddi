@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisEqualMemory
-title: NdisEqualMemory macro
+title: NdisEqualMemory macro (ndis.h)
 description: The NdisEqualMemory function compares a specified number of characters in one block of memory with the same number of characters in a second block of memory.
 old-location: netvista\ndisequalmemory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisEqualMemory
+- NdisEqualMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyTemplateConnections
-title: BdaPropertyTemplateConnections function
+title: BdaPropertyTemplateConnections function (bdasup.h)
 description: The BdaPropertyTemplateConnections function retrieves a list of connections that describe how pin types and node types are connected in a template topology.
 old-location: stream\bdapropertytemplateconnections.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyTemplateConnections
+- BdaPropertyTemplateConnections
 product:
 - Windows
 targetos: Windows

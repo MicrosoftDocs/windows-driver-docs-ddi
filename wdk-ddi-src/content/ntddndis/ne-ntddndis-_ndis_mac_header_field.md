@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_MAC_HEADER_FIELD
-title: "_NDIS_MAC_HEADER_FIELD"
+title: _NDIS_MAC_HEADER_FIELD (ntddndis.h)
 description: The NDIS_MAC_HEADER_FIELD enumeration identifies the type of a field in a media access control (MAC) header to be filtered.
 old-location: netvista\ndis_mac_header_field.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_MAC_HEADER_FIELD
+- NDIS_MAC_HEADER_FIELD
 product:
 - Windows
 targetos: Windows

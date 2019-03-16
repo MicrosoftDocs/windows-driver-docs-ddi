@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_OUTPUT_ROUTINE
-title: PWINDBG_OUTPUT_ROUTINE
+title: PWINDBG_OUTPUT_ROUTINE (wdbgexts.h)
 description: The callback function implements the functionality to print a formatted string to the Debugger Command window.
 old-location: debugger\dprintf.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	dprintf
+- dprintf
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_GET_LAST_ERROR
-title: IOCTL_SMARTCARD_GET_LAST_ERROR
+title: IOCTL_SMARTCARD_GET_LAST_ERROR (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most previous operation because there is no option to return an error code immediately after an overlapped operation is complete.
 old-location: smartcrd\ioctl_smartcard_get_last_error.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsmcrd.h
+- Winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_GET_LAST_ERROR
+- IOCTL_SMARTCARD_GET_LAST_ERROR
 product:
 - Windows
 targetos: Windows

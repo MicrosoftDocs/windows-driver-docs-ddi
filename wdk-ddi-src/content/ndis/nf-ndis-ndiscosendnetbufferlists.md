@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCoSendNetBufferLists
-title: NdisCoSendNetBufferLists function
+title: NdisCoSendNetBufferLists function (ndis.h)
 description: The NdisCoSendNetBufferLists function sends network data that is contained in a specified list of NET_BUFFER_LIST structures.
 old-location: netvista\ndiscosendnetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCoSendNetBufferLists
+- NdisCoSendNetBufferLists
 product:
 - Windows
 targetos: Windows

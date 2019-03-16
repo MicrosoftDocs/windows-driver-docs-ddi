@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Release
-title: ExtRemoteTyped::Release
+title: ExtRemoteTyped::Release (engextcpp.h)
 description: The Release method releases any resources held by this object.
 old-location: debugger\extremotetyped_release.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.Release
+- ExtRemoteTyped.Release
 product:
 - Windows
 targetos: Windows

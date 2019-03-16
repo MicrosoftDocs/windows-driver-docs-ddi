@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OFFERALLOCATIONS
-title: "_D3DKMT_OFFERALLOCATIONS"
+title: _D3DKMT_OFFERALLOCATIONS (d3dkmthk.h)
 description: Defines the video memory allocations that the driver offers for reuse. Used with the D3DKMTOfferAllocations function.
 old-location: display\d3dkmt_offerallocations.htm
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_OFFERALLOCATIONS
+- D3DKMT_OFFERALLOCATIONS
 product:
 - Windows
 targetos: Windows

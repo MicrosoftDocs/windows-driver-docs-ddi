@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._NDIS_MSIX_TABLE_CONFIG
-title: "_NDIS_MSIX_TABLE_CONFIG"
+title: _NDIS_MSIX_TABLE_CONFIG (ndis.h)
 description: The NDIS_MSIX_TABLE_OPERATION enumeration identifies the type of MSI-X configuration operation.
 old-location: netvista\ndis_msix_table_operation.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MSIX_TABLE_OPERATION
+- NDIS_MSIX_TABLE_OPERATION
 product:
 - Windows
 targetos: Windows

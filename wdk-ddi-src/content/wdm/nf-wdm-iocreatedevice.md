@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateDevice
-title: IoCreateDevice function
+title: IoCreateDevice function (wdm.h)
 description: The IoCreateDevice routine creates a device object for use by a driver.
 old-location: kernel\iocreatedevice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateDevice
+- IoCreateDevice
 product:
 - Windows
 targetos: Windows

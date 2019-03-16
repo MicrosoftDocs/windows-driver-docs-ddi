@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.Initialize
-title: ExtExtension::Initialize
+title: ExtExtension::Initialize (engextcpp.h)
 description: The Initialize method is called by the engine to initialize an EngExtCpp extension library after loading it.
 old-location: debugger\initialize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtExtension.Initialize
+- ExtExtension.Initialize
 product:
 - Windows
 targetos: Windows

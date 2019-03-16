@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_OFFLOAD_READ_PARAMETERS
-title: "_DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
+title: _DEVICE_DSM_OFFLOAD_READ_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure specifies the parameters for an offload read action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_read_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_DSM_OFFLOAD_READ_PARAMETERS
+- DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 product:
 - Windows
 targetos: Windows

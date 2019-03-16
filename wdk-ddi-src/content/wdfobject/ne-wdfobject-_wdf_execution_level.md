@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfobject._WDF_EXECUTION_LEVEL
-title: "_WDF_EXECUTION_LEVEL"
+title: _WDF_EXECUTION_LEVEL (wdfobject.h)
 description: The WDF_EXECUTION_LEVEL enumeration type specifies the maximum IRQL at which the framework will call the event callback functions that a driver has supplied for a framework object.
 old-location: wdf\wdf_execution_level.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfobject.h
+- wdfobject.h
 api_name:
--	WDF_EXECUTION_LEVEL
+- WDF_EXECUTION_LEVEL
 product:
 - Windows
 targetos: Windows

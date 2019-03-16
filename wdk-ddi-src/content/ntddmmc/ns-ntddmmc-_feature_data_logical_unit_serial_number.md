@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
-title: "_FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER"
+title: _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER (ntddmmc.h)
 description: The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds information about the Device Serial Number feature.
 old-location: storage\feature_data_logical_unit_serial_number.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+- FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
 product:
 - Windows
 targetos: Windows

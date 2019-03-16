@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxIsDeviceOwner
-title: PosCxIsDeviceOwner function
+title: PosCxIsDeviceOwner function (poscx.h)
 description: PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
 old-location: pos\poscxisdeviceowner.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxIsDeviceOwner
+- PosCxIsDeviceOwner
 product:
 - Windows
 targetos: Windows

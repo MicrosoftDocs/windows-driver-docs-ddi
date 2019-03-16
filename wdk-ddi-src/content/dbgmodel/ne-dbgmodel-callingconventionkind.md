@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.CallingConventionKind
-title: CallingConventionKind
+title: CallingConventionKind (dbgmodel.h)
 description: Defines the kind of calling convention of a function type.
 ms.assetid: c25b87e4-c917-4feb-94c7-9cffe4f4193e
 ms.date: 10/05/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	CallingConventionKind
-product: Windows
+- CallingConventionKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

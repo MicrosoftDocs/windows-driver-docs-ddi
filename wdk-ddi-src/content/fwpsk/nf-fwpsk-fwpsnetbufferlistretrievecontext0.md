@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListRetrieveContext0
-title: FwpsNetBufferListRetrieveContext0 function
+title: FwpsNetBufferListRetrieveContext0 function (fwpsk.h)
 description: The FwpsNetBufferListRetrieveContext0 function retrieves the context associated with a network buffer list that was tagged in another layer.Note  FwpsNetBufferListRetrieveContext0 is a specific version of FwpsNetBufferListRetrieveContext.
 old-location: netvista\fwpsnetbufferlistretrievecontext0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsNetBufferListRetrieveContext0
+- FwpsNetBufferListRetrieveContext0
 product:
 - Windows
 targetos: Windows

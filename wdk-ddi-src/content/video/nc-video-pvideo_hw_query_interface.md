@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_QUERY_INTERFACE
-title: PVIDEO_HW_QUERY_INTERFACE
+title: PVIDEO_HW_QUERY_INTERFACE (video.h)
 description: HwVidQueryInterface returns a miniport driver-implemented functional interface that a child device can call.
 old-location: display\hwvidqueryinterface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	HwVidQueryInterface
+- HwVidQueryInterface
 product:
 - Windows
 targetos: Windows

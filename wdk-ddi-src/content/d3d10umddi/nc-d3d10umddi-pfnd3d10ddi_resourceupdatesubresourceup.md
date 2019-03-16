@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP
-title: PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP
+title: PFND3D10DDI_RESOURCEUPDATESUBRESOURCEUP (d3d10umddi.h)
 description: The DefaultConstantBufferUpdateSubresourceUP function updates a destination subresource region that stores constant buffers from a source system-memory region.
 old-location: display\defaultconstantbufferupdatesubresourceup.htm
 ms.assetid: 80086f1a-75f8-464f-973e-9c1e67725933
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DefaultConstantBufferUpdateSubresourceUP
+- DefaultConstantBufferUpdateSubresourceUP
 product:
 - Windows
 targetos: Windows

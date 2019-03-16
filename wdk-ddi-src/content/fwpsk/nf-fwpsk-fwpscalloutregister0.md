@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutRegister0
-title: FwpsCalloutRegister0 function
+title: FwpsCalloutRegister0 function (fwpsk.h)
 description: The FwpsCalloutRegister0 function registers a callout with the filter engine.Note  FwpsCalloutRegister0 is the specific version of FwpsCalloutRegister used in Windows Vista and later.
 old-location: netvista\fwpscalloutregister0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpsCalloutRegister0
+- FwpsCalloutRegister0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DeinterlaceTech
-title: "_DXVA_DeinterlaceTech"
+title: _DXVA_DeinterlaceTech (dxva.h)
 description: The DXVA_DeinterlaceTech enumeration identifies the underlying technology used to implement a particular deinterlace algorithm.
 old-location: display\dxva_deinterlacetech.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceTech
+- DXVA_DeinterlaceTech
 product:
 - Windows
 targetos: Windows

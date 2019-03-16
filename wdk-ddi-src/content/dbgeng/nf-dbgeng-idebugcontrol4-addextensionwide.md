@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AddExtensionWide
-title: IDebugControl4::AddExtensionWide
+title: IDebugControl4::AddExtensionWide (dbgeng.h)
 description: The AddExtensionWide method loads an extension library into the debugger engine.
 old-location: debugger\addextensionwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl4.AddExtensionWide
+- IDebugControl4.AddExtensionWide
 product:
 - Windows
 targetos: Windows

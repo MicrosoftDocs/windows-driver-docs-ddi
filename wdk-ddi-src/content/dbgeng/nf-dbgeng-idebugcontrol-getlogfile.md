@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetLogFile
-title: IDebugControl::GetLogFile
+title: IDebugControl::GetLogFile (dbgeng.h)
 description: The GetLogFile method returns the name of the currently open log file.
 old-location: debugger\getlogfile.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetLogFile
--	IDebugControl2.GetLogFile
--	IDebugControl3.GetLogFile
+- IDebugControl.GetLogFile
+- IDebugControl2.GetLogFile
+- IDebugControl3.GetLogFile
 product:
 - Windows
 targetos: Windows

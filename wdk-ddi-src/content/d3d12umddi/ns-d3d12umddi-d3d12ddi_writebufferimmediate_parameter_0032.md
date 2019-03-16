@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
-title: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
+title: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 (d3d12umddi.h)
 description: Write buffer immediate parameter.
 old-location: display\d3d12ddi-writebufferimmediate-parameter-0032.htm
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
+- D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032
 product:
 - Windows
 targetos: Windows

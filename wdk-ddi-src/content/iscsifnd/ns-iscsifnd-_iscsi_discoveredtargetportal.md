@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortal
-title: "_ISCSI_DiscoveredTargetPortal"
+title: _ISCSI_DiscoveredTargetPortal (iscsifnd.h)
 description: The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal.
 old-location: storage\iscsi_discoveredtargetportal.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsifnd.h
+- iscsifnd.h
 api_name:
--	ISCSI_DiscoveredTargetPortal
+- ISCSI_DiscoveredTargetPortal
 product:
 - Windows
 targetos: Windows

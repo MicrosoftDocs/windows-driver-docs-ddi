@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocument.SetThumbnail
-title: IXpsDocument::SetThumbnail
+title: IXpsDocument::SetThumbnail (filterpipeline.h)
 description: The SetThumbnail method removes the current thumbnail object from the document and inserts a new one.
 old-location: print\ixpsdocument_setthumbnail.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocument.SetThumbnail
+- IXpsDocument.SetThumbnail
 product:
 - Windows
 targetos: Windows

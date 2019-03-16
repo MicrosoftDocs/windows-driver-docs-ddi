@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_BUS_NOTIFICATION
-title: _USB_BUS_NOTIFICATION
+title: _USB_BUS_NOTIFICATION (usbioctl.h)
 description: 
 ms.assetid: c6982976-fd7f-4be2-9c2f-f7e2fb8a6260
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbioctl.h
+- usbioctl.h
 api_name: 
--	_USB_BUS_NOTIFICATION
-product: Windows
+- _USB_BUS_NOTIFICATION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

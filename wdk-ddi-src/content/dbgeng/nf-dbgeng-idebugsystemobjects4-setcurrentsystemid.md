@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.SetCurrentSystemId
-title: IDebugSystemObjects4::SetCurrentSystemId
+title: IDebugSystemObjects4::SetCurrentSystemId (dbgeng.h)
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects3.SetCurrentSystemId
--	IDebugSystemObjects4.SetCurrentSystemId
+- IDebugSystemObjects3.SetCurrentSystemId
+- IDebugSystemObjects4.SetCurrentSystemId
 product:
 - Windows
 targetos: Windows

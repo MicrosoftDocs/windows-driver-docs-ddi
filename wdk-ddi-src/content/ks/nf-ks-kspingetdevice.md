@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetDevice
-title: KsPinGetDevice function
+title: KsPinGetDevice function (ks.h)
 description: The KsPinGetDevice function returns the AVStream device to which Pin belongs.
 old-location: stream\kspingetdevice.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsPinGetDevice
+- KsPinGetDevice
 product:
 - Windows
 targetos: Windows

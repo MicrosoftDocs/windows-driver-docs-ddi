@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTInvalidateActiveVidPn
-title: D3DKMTInvalidateActiveVidPn function
+title: D3DKMTInvalidateActiveVidPn function (d3dkmthk.h)
 description: The D3DKMTInvalidateActiveVidPn function invalidates the active video present network (VidPN) currently in use. Note   This function is obsolete in Windows 7 and later versions of the Windows operating systems.
 old-location: display\d3dkmtinvalidateactivevidpn.htm
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTInvalidateActiveVidPn
+- D3DKMTInvalidateActiveVidPn
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.EXPAND_STACK_CALLOUT
-title: EXPAND_STACK_CALLOUT
+title: EXPAND_STACK_CALLOUT (ntddk.h)
 description: The ExpandedStackCall routine executes with a guaranteed stack size.
 old-location: kernel\expandedstackcall.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	ExpandedStackCall
+- ExpandedStackCall
 product:
 - Windows
 targetos: Windows

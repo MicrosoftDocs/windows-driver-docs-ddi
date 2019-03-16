@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedFlushSList
-title: ExInterlockedFlushSList function
+title: ExInterlockedFlushSList function (wdm.h)
 description: The ExInterlockedFlushSList routine atomically removes all entries from a sequenced singly linked list.
 old-location: kernel\exinterlockedflushslist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedFlushSList
+- ExInterlockedFlushSList
 product:
 - Windows
 targetos: Windows

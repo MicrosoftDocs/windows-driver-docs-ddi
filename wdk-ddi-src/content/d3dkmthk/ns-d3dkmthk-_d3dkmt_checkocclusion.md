@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKOCCLUSION
-title: "_D3DKMT_CHECKOCCLUSION"
+title: _D3DKMT_CHECKOCCLUSION (d3dkmthk.h)
 description: The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check for occlusion.
 old-location: display\d3dkmt_checkocclusion.htm
 ms.assetid: 1797b64d-ca2c-4b07-aaad-bef4966b5ca7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CHECKOCCLUSION
+- D3DKMT_CHECKOCCLUSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_UNPINFRAMEBUFFERFORSAVE
-title: DXGKCB_UNPINFRAMEBUFFERFORSAVE
+title: DXGKCB_UNPINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_PINFRAMEBUFFERFORSAVE.
 ms.assetid: 403a4aea-21e8-4a97-8314-c85bac6555ef
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_UNPINFRAMEBUFFERFORSAVE
+- DXGKCB_UNPINFRAMEBUFFERFORSAVE
 product: 
 - Windows
 targetos: Windows

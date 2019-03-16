@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockKeysEqual
-title: FltOplockKeysEqual function
+title: FltOplockKeysEqual function (fltkernel.h)
 description: The FltOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fltoplockkeysequal.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltOplockKeysEqual
+- FltOplockKeysEqual
 product:
 - Windows
 targetos: Windows

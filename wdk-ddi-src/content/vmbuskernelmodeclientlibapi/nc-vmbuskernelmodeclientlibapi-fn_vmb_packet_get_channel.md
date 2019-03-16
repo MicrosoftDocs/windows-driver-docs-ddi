@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_GET_CHANNEL
-title: FN_VMB_PACKET_GET_CHANNEL
+title: FN_VMB_PACKET_GET_CHANNEL (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketGetChannel function returns the VMBus channel with which a VMBus packet is associated.
 tech.root: netvista
 ms.assetid: 3032635f-c7f0-42f7-9c44-5077b23c0f75
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_PACKET_GET_CHANNEL
+- FN_VMB_PACKET_GET_CHANNEL
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

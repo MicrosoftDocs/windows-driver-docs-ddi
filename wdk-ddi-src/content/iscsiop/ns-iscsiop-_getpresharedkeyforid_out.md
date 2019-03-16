@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._GetPresharedKeyForId_OUT
-title: "_GetPresharedKeyForId_OUT"
+title: _GetPresharedKeyForId_OUT (iscsiop.h)
 description: The GetPresharedKeyForId_OUT structure holds the output data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	GetPresharedKeyForId_OUT
+- GetPresharedKeyForId_OUT
 product:
 - Windows
 targetos: Windows

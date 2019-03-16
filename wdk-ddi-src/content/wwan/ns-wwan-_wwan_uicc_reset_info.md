@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_UICC_RESET_INFO
-title: "_WWAN_UICC_RESET_INFO"
+title: _WWAN_UICC_RESET_INFO (wwan.h)
 description: The WWAN_UICC_RESET_INFO structure represents the passthrough status of a modem miniport adapter for a UICC smart card.
 old-location: netvista\wwan_uicc_reset_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_UICC_RESET_INFO
+- WWAN_UICC_RESET_INFO
 product:
 - Windows
 targetos: Windows

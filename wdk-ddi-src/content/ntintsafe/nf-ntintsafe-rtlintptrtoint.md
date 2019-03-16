@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrToInt
-title: RtlIntPtrToInt function
+title: RtlIntPtrToInt function (ntintsafe.h)
 description: Converts a value of type INT_PTR to a value of type INT.
 old-location: kernel\rtlintptrtoint.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlIntPtrToInt
+- RtlIntPtrToInt
 product:
 - Windows
 targetos: Windows

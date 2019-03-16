@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsQueryInterfaces
-title: IKsPin::KsQueryInterfaces
+title: IKsPin::KsQueryInterfaces (ksproxy.h)
 description: The KsQueryInterfaces method retrieves interfaces that a pin supports.
 old-location: stream\ikspin_ksqueryinterfaces.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPin.KsQueryInterfaces
+- IKsPin.KsQueryInterfaces
 product:
 - Windows
 targetos: Windows

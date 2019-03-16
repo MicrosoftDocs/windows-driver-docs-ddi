@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy.__unnamed_struct_0
-title: OPTIMAL_WEIGHT_TOTALS
+title: OPTIMAL_WEIGHT_TOTALS (ksproxy.h)
 description: 
 old-location: stream\optimal_weight_totals.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	OPTIMAL_WEIGHT_TOTALS
+- OPTIMAL_WEIGHT_TOTALS
 product:
 - Windows
 targetos: Windows

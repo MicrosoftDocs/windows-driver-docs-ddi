@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolSize
-title: IDebugSymbolGroup2::GetSymbolSize
+title: IDebugSymbolGroup2::GetSymbolSize (dbgeng.h)
 description: The GetSymbolSize method returns the size of a symbol's value.
 old-location: debugger\getsymbolsize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup2.GetSymbolSize
+- IDebugSymbolGroup2.GetSymbolSize
 product:
 - Windows
 targetos: Windows

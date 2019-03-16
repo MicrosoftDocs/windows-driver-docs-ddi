@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetElementGenericTable
-title: RtlGetElementGenericTable function
+title: RtlGetElementGenericTable function (ntddk.h)
 description: The RtlGetElementGenericTable routine returns a pointer to the caller-supplied data for a particular generic table element.
 old-location: ifsk\rtlgetelementgenerictable.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetElementGenericTable
+- RtlGetElementGenericTable
 product:
 - Windows
 targetos: Windows

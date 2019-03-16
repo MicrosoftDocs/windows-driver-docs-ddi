@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireRundownProtection
-title: ExAcquireRundownProtection function
+title: ExAcquireRundownProtection function (wdm.h)
 description: The ExAcquireRundownProtection routine tries to acquire run-down protection on a shared object so the caller can safely access the object.
 old-location: kernel\exacquirerundownprotection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAcquireRundownProtection
+- ExAcquireRundownProtection
 product:
 - Windows
 targetos: Windows

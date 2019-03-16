@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.UnLockDevice
-title: IStiDevice::UnLockDevice
+title: IStiDevice::UnLockDevice (sti.h)
 description: The IStiDevice::UnLockDevice method unlocks a device that was locked by a previous call to IStiDevice::LockDevice.
 old-location: image\istidevice_unlockdevice.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Sti.h
+- Sti.h
 api_name:
--	IStiDevice.UnLockDevice
+- IStiDevice.UnLockDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.SetPnpState
-title: IWDFDevice::SetPnpState
+title: IWDFDevice::SetPnpState (wudfddi.h)
 description: The SetPnpState method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 old-location: wdf\iwdfdevice_setpnpstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.SetPnpState
+- IWDFDevice.SetPnpState
 product:
 - Windows
 targetos: Windows

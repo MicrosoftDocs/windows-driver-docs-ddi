@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoClearPowerRequest
-title: PoClearPowerRequest function
+title: PoClearPowerRequest function (ntifs.h)
 description: The PoClearPowerRequest routine decrements the count for the specified power request type.
 old-location: kernel\poclearpowerrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoClearPowerRequest
+- PoClearPowerRequest
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
-title: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0
+title: FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 (fwpsk.h)
 description: The filter engine calls the vSwitchRuntimeStateRestoreNotifyFn (FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0) callout function to notify a callout driver about virtual switch run-time state restore events.Note  FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0 is a specific version of FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_runtime_state_restore_callback0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	vSwitchRuntimeStateRestoreNotifyFn
+- vSwitchRuntimeStateRestoreNotifyFn
 product:
 - Windows
 targetos: Windows

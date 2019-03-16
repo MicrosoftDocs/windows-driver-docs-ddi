@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_UPDATEALLOCPROPERTY
-title: D3DDDI_UPDATEALLOCPROPERTY
+title: D3DDDI_UPDATEALLOCPROPERTY (d3dukmdt.h)
 description: D3DDDI_UPDATEALLOCPROPERTY describes the parameters needed to update an allocation.
 old-location: display\d3dddi_updateallocproperty.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_UPDATEALLOCPROPERTY
+- D3DDDI_UPDATEALLOCPROPERTY
 product:
 - Windows
 targetos: Windows

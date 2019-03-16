@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEAUTHENICATEDCHANNEL
-title: "_D3DDDIARG_CREATEAUTHENICATEDCHANNEL"
+title: _D3DDDIARG_CREATEAUTHENICATEDCHANNEL (d3dumddi.h)
 description: The D3DDDIARG_CREATEAUTHENTICATEDCHANNEL structure identifies a channel to create.
 old-location: display\d3dddiarg_createauthenticatedchannel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
+- D3DDDIARG_CREATEAUTHENTICATEDCHANNEL
 product:
 - Windows
 targetos: Windows

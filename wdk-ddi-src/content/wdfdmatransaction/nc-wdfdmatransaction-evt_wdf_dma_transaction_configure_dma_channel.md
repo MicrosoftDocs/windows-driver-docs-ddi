@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmatransaction.EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL
-title: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL
+title: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL (wdfdmatransaction.h)
 description: A driver's EvtDmaTransactionConfigureDmaChannel event callback function configures the DMA adapter for a system-mode DMA enabler.
 old-location: wdf\evtdmatransactionconfiguredmachannel.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfDmaTransaction.h
+- WdfDmaTransaction.h
 api_name:
--	EvtDmaTransactionConfigureDmaChannel
+- EvtDmaTransactionConfigureDmaChannel
 product:
 - Windows
 targetos: Windows

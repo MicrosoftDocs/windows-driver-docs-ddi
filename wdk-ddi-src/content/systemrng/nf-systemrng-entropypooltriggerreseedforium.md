@@ -1,6 +1,6 @@
 ---
 UID: NF:systemrng.EntropyPoolTriggerReseedForIum
-title: EntropyPoolTriggerReseedForIum function
+title: EntropyPoolTriggerReseedForIum function (systemrng.h)
 description: 
 ms.assetid: e8efc920-4aea-49fa-a773-bb42d06d2e34
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyPoolTriggerReseedForIum
+- EntropyPoolTriggerReseedForIum
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

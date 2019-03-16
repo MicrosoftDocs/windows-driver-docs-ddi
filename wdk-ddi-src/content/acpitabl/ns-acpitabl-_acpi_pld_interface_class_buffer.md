@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_CLASS_BUFFER
-title: _ACPI_PLD_INTERFACE_CLASS_BUFFER structure
+title: _ACPI_PLD_INTERFACE_CLASS_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface class descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: f817f194-41c2-4193-a803-768e5914c91a
 ms.date: 10/02/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ACPI_PLD_INTERFACE_CLASS_BUFFER, *PACPI_PLD_INTERFACE_CLASS_BUFFER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_INTERFACE_CLASS_BUFFER
+- _ACPI_PLD_INTERFACE_CLASS_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

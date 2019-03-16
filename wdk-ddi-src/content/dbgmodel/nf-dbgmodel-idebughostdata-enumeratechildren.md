@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.EnumerateChildren
-title: IDebugHostData::EnumerateChildren
+title: IDebugHostData::EnumerateChildren (dbgmodel.h)
 description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: 35e2ab67-2d5b-4839-817c-36f3609d68d6
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostData.EnumerateChildren
-product: Windows
+- IDebugHostData.EnumerateChildren
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

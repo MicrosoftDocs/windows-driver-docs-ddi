@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrProviderDetachClientComplete
-title: NmrProviderDetachClientComplete function
+title: NmrProviderDetachClientComplete function (netioddk.h)
 description: The NmrProviderDetachClientComplete function notifies the NMR that a provider module has completed detaching from a client module.
 old-location: netvista\nmrproviderdetachclientcomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	netio.lib
--	netio.dll
+- netio.lib
+- netio.dll
 api_name:
--	NmrProviderDetachClientComplete
+- NmrProviderDetachClientComplete
 product:
 - Windows
 targetos: Windows

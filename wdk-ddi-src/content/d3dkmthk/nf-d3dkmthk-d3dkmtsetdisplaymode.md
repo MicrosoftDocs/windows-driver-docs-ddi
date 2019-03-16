@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetDisplayMode
-title: D3DKMTSetDisplayMode function
+title: D3DKMTSetDisplayMode function (d3dkmthk.h)
 description: The D3DKMTSetDisplayMode function sets the allocation that is used to scan out to the display.
 old-location: display\d3dkmtsetdisplaymode.htm
 ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetDisplayMode
+- D3DKMTSetDisplayMode
 product:
 - Windows
 targetos: Windows

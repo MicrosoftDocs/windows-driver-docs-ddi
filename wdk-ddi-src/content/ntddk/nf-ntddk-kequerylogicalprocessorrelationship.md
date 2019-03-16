@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryLogicalProcessorRelationship
-title: KeQueryLogicalProcessorRelationship function
+title: KeQueryLogicalProcessorRelationship function (ntddk.h)
 description: The KeQueryLogicalProcessorRelationship routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 old-location: kernel\kequerylogicalprocessorrelationship.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryLogicalProcessorRelationship
+- KeQueryLogicalProcessorRelationship
 product:
 - Windows
 targetos: Windows

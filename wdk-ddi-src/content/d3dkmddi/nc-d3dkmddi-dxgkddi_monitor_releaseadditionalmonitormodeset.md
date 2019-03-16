@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET
-title: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET
+title: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET (d3dkmddi.h)
 description: The pfnReleaseAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, releases a handle to an additional monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset.htm
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnReleaseAdditionalMonitorModeSet
+- pfnReleaseAdditionalMonitorModeSet
 product:
 - Windows
 targetos: Windows

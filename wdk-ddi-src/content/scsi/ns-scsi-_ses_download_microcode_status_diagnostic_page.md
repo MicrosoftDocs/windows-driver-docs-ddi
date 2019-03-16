@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
-title: "_SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE"
+title: _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE (scsi.h)
 description: The Download Microcode Status diagnostic page includes information about the status of one or more download microcode operations.
 old-location: storage\ses_download_microcode_status_diagnostic_page.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
+- SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETSTABLEPOWERSTATE
-title: _D3DKMT_SETSTABLEPOWERSTATE
+title: _D3DKMT_SETSTABLEPOWERSTATE (d3dkmthk.h)
 description: Used to set stable power state.
 ms.assetid: e636281e-c287-4ddc-b304-6edc4be92d8c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_SETSTABLEPOWERSTATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_SETSTABLEPOWERSTATE
+- _D3DKMT_SETSTABLEPOWERSTATE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

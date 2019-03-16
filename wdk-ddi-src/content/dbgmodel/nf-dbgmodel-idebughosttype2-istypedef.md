@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.IsTypedef
-title: IDebugHostType2::IsTypedef
+title: IDebugHostType2::IsTypedef (dbgmodel.h)
 description: The IsTypedef method is the only method capable of seeing whether a type is a typedef.
 ms.assetid: ed83b2e9-318c-4f3f-ba23-b14d31ce057b
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.IsTypedef
-product: Windows
+- IDebugHostType2.IsTypedef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

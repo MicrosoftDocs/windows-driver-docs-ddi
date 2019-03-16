@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegalFat
-title: FsRtlIsAnsiCharacterLegalFat macro
+title: FsRtlIsAnsiCharacterLegalFat macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegalFat macro determines whether an ANSI character is legal for FAT file names.
 old-location: ifsk\fsrtlisansicharacterlegalfat.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsAnsiCharacterLegalFat
+- FsRtlIsAnsiCharacterLegalFat
 product:
 - Windows
 targetos: Windows

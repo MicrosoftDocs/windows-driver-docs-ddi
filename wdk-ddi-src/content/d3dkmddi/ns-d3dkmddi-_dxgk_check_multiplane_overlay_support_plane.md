@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
-title: "_DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE"
+title: _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE (d3dkmddi.h)
 description: Specifies the support attributes that the hardware provides for multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_plane.htm
 ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+- DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 product:
 - Windows
 targetos: Windows

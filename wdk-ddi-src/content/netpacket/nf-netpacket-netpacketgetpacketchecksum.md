@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketGetPacketChecksum
-title: NetPacketGetPacketChecksum function
+title: NetPacketGetPacketChecksum function (netpacket.h)
 description: The NetPacketGetPacketChecksum method retrieves checksum information for a packet.
 tech.root: netvista
 ms.assetid: 75774f8a-eeea-4bcd-a15b-2d28a7938e42
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetPacketGetPacketChecksum
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetPacketGetPacketChecksum
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_HEALTH_INFO
-title: "_MPIO_DISK_HEALTH_INFO"
+title: _MPIO_DISK_HEALTH_INFO (mpiowmi.h)
 description: The MPIO_DISK_HEALTH_INFO structure is used to query the available health information for every multi-path disk in the system.
 old-location: storage\mpio_disk_health_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_DISK_HEALTH_INFO
+- MPIO_DISK_HEALTH_INFO
 product:
 - Windows
 targetos: Windows

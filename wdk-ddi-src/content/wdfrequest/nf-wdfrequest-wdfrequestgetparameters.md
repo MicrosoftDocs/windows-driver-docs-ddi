@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetParameters
-title: WdfRequestGetParameters function
+title: WdfRequestGetParameters function (wdfrequest.h)
 description: The WdfRequestGetParameters method retrieves the parameters that are associated with a specified framework request object.
 old-location: wdf\wdfrequestgetparameters.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestGetParameters
+- WdfRequestGetParameters
 product:
 - Windows
 targetos: Windows

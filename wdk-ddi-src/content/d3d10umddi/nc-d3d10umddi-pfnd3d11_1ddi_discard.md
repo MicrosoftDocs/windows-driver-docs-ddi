@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DISCARD
-title: PFND3D11_1DDI_DISCARD
+title: PFND3D11_1DDI_DISCARD (d3d10umddi.h)
 description: Discards (evicts) an allocation from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\discard_d3d11_1_.htm
 ms.assetid: d94234ab-712b-4449-96de-16b9e310d250
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	Discard(D3D11_1)
+- Discard(D3D11_1)
 product:
 - Windows
 targetos: Windows

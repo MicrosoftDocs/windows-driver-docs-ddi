@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetDescription
-title: IDebugRegisters::GetDescription
+title: IDebugRegisters::GetDescription (dbgeng.h)
 description: The GetDescription method returns the description of a register.
 old-location: debugger\getdescription.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters.GetDescription
--	IDebugRegisters2.GetDescription
+- IDebugRegisters.GetDescription
+- IDebugRegisters2.GetDescription
 product:
 - Windows
 targetos: Windows

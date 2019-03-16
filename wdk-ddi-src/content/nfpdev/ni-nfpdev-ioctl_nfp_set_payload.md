@@ -1,6 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_SET_PAYLOAD
-title: IOCTL_NFP_SET_PAYLOAD
+title: IOCTL_NFP_SET_PAYLOAD (nfpdev.h)
 description: A client application sends message data and confirms publication with the IOCTL_NFP_SET_PAYLOAD request.
 old-location: nfpdrivers\ioctl_nfp_set_payload.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfpdev.h
+- nfpdev.h
 api_name:
--	IOCTL_NFP_SET_PAYLOAD
+- IOCTL_NFP_SET_PAYLOAD
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMDeregisterMiniportDriver
-title: NdisMDeregisterMiniportDriver function
+title: NdisMDeregisterMiniportDriver function (ndis.h)
 description: A miniport driver calls the NdisMDeregisterMiniportDriver function to release resources that it allocated with a previous call to the NdisMRegisterMiniportDriver function.
 old-location: netvista\ndismderegisterminiportdriver.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMDeregisterMiniportDriver
+- NdisMDeregisterMiniportDriver
 product:
 - Windows
 targetos: Windows

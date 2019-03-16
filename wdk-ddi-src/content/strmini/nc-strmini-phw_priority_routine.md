@@ -1,6 +1,6 @@
 ---
 UID: NC:strmini.PHW_PRIORITY_ROUTINE
-title: PHW_PRIORITY_ROUTINE
+title: PHW_PRIORITY_ROUTINE (strmini.h)
 description: StrMiniPriorityRoutine is a minidriver-supplied callback routine to be executed at a specified priority level.
 old-location: stream\strminipriorityroutine.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	StrMiniPriorityRoutine
+- StrMiniPriorityRoutine
 product:
 - Windows
 targetos: Windows

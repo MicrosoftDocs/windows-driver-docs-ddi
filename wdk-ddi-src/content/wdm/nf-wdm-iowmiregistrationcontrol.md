@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIRegistrationControl
-title: IoWMIRegistrationControl function
+title: IoWMIRegistrationControl function (wdm.h)
 description: The IoWMIRegistrationControl routine registers or unregisters the caller as a WMI data provider for a specified device object.
 old-location: kernel\iowmiregistrationcontrol.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWMIRegistrationControl
+- IoWMIRegistrationControl
 product:
 - Windows
 targetos: Windows

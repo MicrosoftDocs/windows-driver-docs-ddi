@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmdt.D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
-title: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function
+title: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function (d3dkmdt.h)
 description: A helper function that extracts the rotation angle from a given value of the D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration.
 old-location: display\d3dkmdt_vppr_get_content_rotation_part.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
+- D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
 product:
 - Windows
 targetos: Windows

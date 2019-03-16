@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindSetBits
-title: RtlFindSetBits function
+title: RtlFindSetBits function (wdm.h)
 description: The RtlFindSetBits routine searches for a range of set bits of a requested size within a bitmap.
 old-location: kernel\rtlfindsetbits.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindSetBits
+- RtlFindSetBits
 product:
 - Windows
 targetos: Windows

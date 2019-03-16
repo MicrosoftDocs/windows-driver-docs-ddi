@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientConnect
-title: ISensorDriver::OnClientConnect
+title: ISensorDriver::OnClientConnect (sensorsclassextension.h)
 description: The ISensorDriver::OnClientConnect method notifies the sensor driver that a client application has connected.
 old-location: sensors\isensordriver_onclientconnect.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnClientConnect
+- OnClientConnect
 product:
 - Windows
 targetos: Windows

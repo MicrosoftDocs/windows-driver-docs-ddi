@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SECURITY_SUBJECT_CONTEXT
-title: "_SECURITY_SUBJECT_CONTEXT"
+title: _SECURITY_SUBJECT_CONTEXT (wdm.h)
 description: The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 old-location: ifsk\security_subject_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	SECURITY_SUBJECT_CONTEXT
+- SECURITY_SUBJECT_CONTEXT
 product:
 - Windows
 targetos: Windows

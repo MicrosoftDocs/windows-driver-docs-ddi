@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCLUSIVE_LOCK_STATE
-title: "_CDROM_EXCLUSIVE_LOCK_STATE"
+title: _CDROM_EXCLUSIVE_LOCK_STATE (ntddcdrm.h)
 description: The CDROM_EXCLUSIVE_LOCK_STATE structure is used by the CD-ROM class driver to report the exclusive access state of a CD-ROM device.
 old-location: storage\cdrom_exclusive_lock_state.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_EXCLUSIVE_LOCK_STATE
+- CDROM_EXCLUSIVE_LOCK_STATE
 product:
 - Windows
 targetos: Windows

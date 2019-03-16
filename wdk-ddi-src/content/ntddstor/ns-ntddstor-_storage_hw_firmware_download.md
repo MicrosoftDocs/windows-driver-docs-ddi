@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_DOWNLOAD
-title: "_STORAGE_HW_FIRMWARE_DOWNLOAD"
+title: _STORAGE_HW_FIRMWARE_DOWNLOAD (ntddstor.h)
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: storage\storage_hw_firmware_download.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_HW_FIRMWARE_DOWNLOAD
+- STORAGE_HW_FIRMWARE_DOWNLOAD
 product:
 - Windows
 targetos: Windows

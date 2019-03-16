@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PROCESSOR_HALT_ROUTINE
-title: PROCESSOR_HALT_ROUTINE
+title: PROCESSOR_HALT_ROUTINE (wdm.h)
 description: A Halt callback routine transitions the processor to an idle state.
 old-location: kernel\halt.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	Halt
+- Halt
 product:
 - Windows
 targetos: Windows

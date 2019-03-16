@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_VERTICAL_POSITION
-title: _ACPI_PLD_VERTICAL_POSITION enumeration
+title: _ACPI_PLD_VERTICAL_POSITION enumeration (acpitabl.h)
 description: Describes vertical position bits 70:71.
 ms.assetid: e1ab5bab-8e0f-43d9-86c8-29ea30474a0c
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_VERTICAL_POSITION
+- _ACPI_PLD_VERTICAL_POSITION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

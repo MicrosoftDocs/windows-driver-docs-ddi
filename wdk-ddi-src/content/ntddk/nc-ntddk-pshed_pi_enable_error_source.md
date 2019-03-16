@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_ENABLE_ERROR_SOURCE
-title: PSHED_PI_ENABLE_ERROR_SOURCE
+title: PSHED_PI_ENABLE_ERROR_SOURCE (ntddk.h)
 description: A PSHED plug-in's EnableErrorSource callback function enables an error source.
 old-location: whea\enableerrorsource.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	EnableErrorSource
+- EnableErrorSource
 product:
 - Windows
 targetos: Windows

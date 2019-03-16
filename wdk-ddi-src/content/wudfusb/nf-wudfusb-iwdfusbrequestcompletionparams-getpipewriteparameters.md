@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetPipeWriteParameters
-title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters
+title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters (wudfusb.h)
 description: The GetPipeWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbRequestCompletionParams.GetPipeWriteParameters
+- IWDFUsbRequestCompletionParams.GetPipeWriteParameters
 product:
 - Windows
 targetos: Windows

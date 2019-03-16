@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequestCompletionParams
-title: IWDFIoRequestCompletionParams
+title: IWDFIoRequestCompletionParams (wudfddi.h)
 description: The IWDFIoRequestCompletionParams interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or asynchronous I/O operation completes.
 old-location: wdf\iwdfiorequestcompletionparams.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequestCompletionParams
+- IWDFIoRequestCompletionParams
 product:
 - Windows
 targetos: Windows

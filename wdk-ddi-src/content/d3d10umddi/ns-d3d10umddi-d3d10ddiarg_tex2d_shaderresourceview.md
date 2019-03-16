@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
-title: D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
+title: D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure describes a two-dimensional (2-D) texture that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_tex2d_shaderresourceview.htm
 ms.assetid: 2282d08e-e192-4a0f-972b-1441cea1fe7d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
+- D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW
 product:
 - Windows
 targetos: Windows

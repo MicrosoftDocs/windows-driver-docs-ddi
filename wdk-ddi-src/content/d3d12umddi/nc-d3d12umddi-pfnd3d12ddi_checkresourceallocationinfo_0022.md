@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022
-title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022
+title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0022 (d3d12umddi.h)
 description: The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
 old-location: display\pfnd3d12ddi_checkresourceallocationinfo_0022.htm
 ms.assetid: 9B223440-7462-4DF1-990B-82115DE50D67
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnCheckResourceAllocationInfo
+- pfnCheckResourceAllocationInfo
 product:
 - Windows
 targetos: Windows

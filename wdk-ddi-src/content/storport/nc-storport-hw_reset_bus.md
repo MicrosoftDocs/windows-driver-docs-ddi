@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_RESET_BUS
-title: HW_RESET_BUS
+title: HW_RESET_BUS (storport.h)
 description: The HwStorResetBus routine is called by the port driver to clear error conditions.
 old-location: storage\hwstorresetbus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorResetBus
+- HwStorResetBus
 product:
 - Windows
 targetos: Windows

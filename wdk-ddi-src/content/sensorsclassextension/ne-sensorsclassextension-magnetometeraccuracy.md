@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsclassextension.MagnetometerAccuracy
-title: MagnetometerAccuracy
+title: MagnetometerAccuracy (sensorsclassextension.h)
 description: Specifies the accuracy of the magnetometer.
 old-location: sensors\magnetometeraccuracy.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsClassExtension.h
+- SensorsClassExtension.h
 api_name:
--	MagnetometerAccuracy
+- MagnetometerAccuracy
 product:
 - Windows
 targetos: Windows

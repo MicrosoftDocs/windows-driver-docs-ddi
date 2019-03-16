@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
-title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
+title: _NDIS_NDK_PERFORMANCE_COUNTERS (ntddndis.h)
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_NDK_PERFORMANCE_COUNTERS
+- NDIS_NDK_PERFORMANCE_COUNTERS
 product:
 - Windows
 targetos: Windows

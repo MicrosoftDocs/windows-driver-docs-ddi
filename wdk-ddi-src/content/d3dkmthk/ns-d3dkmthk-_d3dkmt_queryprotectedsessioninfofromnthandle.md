@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
-title: "_D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"
+title: _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE (d3dkmthk.h)
 description: Used to query information on the protected session.
 old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
+- D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 product:
 - Windows
 targetos: Windows

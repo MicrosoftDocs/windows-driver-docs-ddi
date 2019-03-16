@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL
-title: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL function
+title: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL function (netrequestqueue.h)
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure to create a default sequential request queue for normal control requests (OIDs).
 tech.root: netvista
 ms.assetid: cee1dccc-cbe6-49ca-b640-01dd7c0192b0
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

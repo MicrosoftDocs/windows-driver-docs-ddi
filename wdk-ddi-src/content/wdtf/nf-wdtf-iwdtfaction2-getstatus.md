@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.GetStatus
-title: IWDTFAction2::GetStatus
+title: IWDTFAction2::GetStatus (wdtf.h)
 description: Returns the status code for the last operation.
 old-location: dtf\iwdtfaction2_getstatus.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFAction2.GetStatus
+- IWDTFAction2.GetStatus
 product:
 - Windows
 targetos: Windows

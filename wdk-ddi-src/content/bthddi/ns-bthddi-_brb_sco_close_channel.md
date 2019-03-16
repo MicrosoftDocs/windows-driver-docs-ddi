@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_CLOSE_CHANNEL
-title: "_BRB_SCO_CLOSE_CHANNEL"
+title: _BRB_SCO_CLOSE_CHANNEL (bthddi.h)
 description: The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO channel to close.
 old-location: bltooth\_brb_sco_close_channel.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_SCO_CLOSE_CHANNEL
+- _BRB_SCO_CLOSE_CHANNEL
 product:
 - Windows
 targetos: Windows

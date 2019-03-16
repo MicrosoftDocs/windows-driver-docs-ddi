@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_COPY_DATA
-title: IOCTL_DISK_COPY_DATA
+title: IOCTL_DISK_COPY_DATA (ntdddisk.h)
 description: This IOCTL_DISK_COPY_DATA IOCTL is used to copy data from one area of the disk to another.
 old-location: storage\ioctl_disk_copy_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_COPY_DATA
+- IOCTL_DISK_COPY_DATA
 product:
 - Windows
 targetos: Windows

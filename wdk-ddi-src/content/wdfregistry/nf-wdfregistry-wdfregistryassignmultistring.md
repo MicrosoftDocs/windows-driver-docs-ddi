@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignMultiString
-title: WdfRegistryAssignMultiString function
+title: WdfRegistryAssignMultiString function (wdfregistry.h)
 description: The WdfRegistryAssignMultiString method assigns a set of strings to a specified value name in the registry. The strings are contained in a specified collection of framework string objects.
 old-location: wdf\wdfregistryassignmultistring.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRegistryAssignMultiString
+- WdfRegistryAssignMultiString
 product:
 - Windows
 targetos: Windows

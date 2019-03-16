@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcUnpinRepinnedBcb
-title: CcUnpinRepinnedBcb function
+title: CcUnpinRepinnedBcb function (ntifs.h)
 description: The CcUnpinRepinnedBcb routine unpins a repinned buffer control block (BCB).
 old-location: ifsk\ccunpinrepinnedbcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcUnpinRepinnedBcb
+- CcUnpinRepinnedBcb
 product:
 - Windows
 targetos: Windows

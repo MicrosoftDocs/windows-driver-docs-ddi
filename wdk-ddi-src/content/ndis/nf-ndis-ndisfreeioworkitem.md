@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeIoWorkItem
-title: NdisFreeIoWorkItem function
+title: NdisFreeIoWorkItem function (ndis.h)
 description: NDIS drivers call the NdisFreeIoWorkItem function to free a specified work item.
 old-location: netvista\ndisfreeioworkitem.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeIoWorkItem
+- NdisFreeIoWorkItem
 product:
 - Windows
 targetos: Windows

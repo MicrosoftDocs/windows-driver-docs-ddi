@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetNextIrpStackLocation
-title: IoGetNextIrpStackLocation function
+title: IoGetNextIrpStackLocation function (wdm.h)
 description: The IoGetNextIrpStackLocation routine gives a higher level driver access to the next-lower driver's I/O stack location in an IRP so the caller can set it up for the lower driver.
 old-location: kernel\iogetnextirpstacklocation.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoGetNextIrpStackLocation
+- IoGetNextIrpStackLocation
 product:
 - Windows
 targetos: Windows

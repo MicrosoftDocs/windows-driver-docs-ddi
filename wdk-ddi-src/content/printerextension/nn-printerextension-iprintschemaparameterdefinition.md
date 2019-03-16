@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaParameterDefinition
-title: IPrintSchemaParameterDefinition
+title: IPrintSchemaParameterDefinition (printerextension.h)
 description: The IPrintSchemaParameterDefinition interface represents a parameter definition, as defined in the Print Schema Specification.
 old-location: print\iprintschemaparameterdefinition.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition
+- IPrintSchemaParameterDefinition
 product:
 - Windows
 targetos: Windows

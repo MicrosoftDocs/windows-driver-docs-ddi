@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsChargePoolQuota
-title: PsChargePoolQuota function
+title: PsChargePoolQuota function (ntifs.h)
 description: The PsChargePoolQuota routine charges pool quota of the specified pool type to the specified process.
 old-location: ifsk\pschargepoolquota.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsChargePoolQuota
+- PsChargePoolQuota
 product:
 - Windows
 targetos: Windows

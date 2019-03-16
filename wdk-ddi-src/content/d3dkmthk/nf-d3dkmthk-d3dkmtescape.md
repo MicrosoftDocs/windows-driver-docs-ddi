@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEscape
-title: D3DKMTEscape function
+title: D3DKMTEscape function (d3dkmthk.h)
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
 old-location: display\d3dkmtescape.htm
 ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTEscape
+- D3DKMTEscape
 product:
 - Windows
 targetos: Windows

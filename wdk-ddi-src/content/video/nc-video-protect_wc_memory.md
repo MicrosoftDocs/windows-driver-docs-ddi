@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PROTECT_WC_MEMORY
-title: PROTECT_WC_MEMORY
+title: PROTECT_WC_MEMORY (video.h)
 description: The VideoPortProtectWCMemory callback routine protects Write Combined (WC) video memory from being accessed by the CPU.
 old-location: display\videoportprotectwcmemory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	VideoPortProtectWCMemory
+- VideoPortProtectWCMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcCancel
-title: WdfDpcCancel function
+title: WdfDpcCancel function (wdfdpc.h)
 description: The WdfDpcCancel method attempts to cancel the execution of a DPC object's scheduled EvtDpcFunc callback function.
 old-location: wdf\wdfdpccancel.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDpcCancel
+- WdfDpcCancel
 product:
 - Windows
 targetos: Windows

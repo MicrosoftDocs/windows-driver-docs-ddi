@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_UNLOAD
-title: DRIVER_UNLOAD
+title: DRIVER_UNLOAD (wdm.h)
 description: The Unload routine performs any operations that are necessary before the system unloads the driver.
 old-location: kernel\unload.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	Unload
+- Unload
 product:
 - Windows
 targetos: Windows

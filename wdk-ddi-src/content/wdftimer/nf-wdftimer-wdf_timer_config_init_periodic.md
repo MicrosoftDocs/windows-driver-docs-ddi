@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WDF_TIMER_CONFIG_INIT_PERIODIC
-title: WDF_TIMER_CONFIG_INIT_PERIODIC function
+title: WDF_TIMER_CONFIG_INIT_PERIODIC function (wdftimer.h)
 description: The WDF_TIMER_CONFIG_INIT_PERIODIC function initializes a WDF_TIMER_CONFIG structure for a periodic timer.
 old-location: wdf\wdf_timer_config_init_periodic.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_TIMER_CONFIG_INIT_PERIODIC
+- WDF_TIMER_CONFIG_INIT_PERIODIC
 product:
 - Windows
 targetos: Windows

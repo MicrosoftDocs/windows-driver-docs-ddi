@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetId
-title: IDebugBreakpoint::GetId
+title: IDebugBreakpoint::GetId (dbgeng.h)
 description: The GetId method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
 old-location: debugger\getid.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetId
--	IDebugBreakpoint2.GetId
+- IDebugBreakpoint.GetId
+- IDebugBreakpoint2.GetId
 product:
 - Windows
 targetos: Windows

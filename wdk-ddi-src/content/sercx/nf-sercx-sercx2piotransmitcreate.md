@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioTransmitCreate
-title: SerCx2PioTransmitCreate function
+title: SerCx2PioTransmitCreate function (sercx.h)
 description: The SerCx2PioTransmitCreate method creates a PIO-transmit object, which version 2 of the serial framework extension (SerCx2) uses to perform PIO-transmit transactions.
 old-location: serports\sercx2piotransmitcreate.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2PioTransmitCreate
+- SerCx2PioTransmitCreate
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRequestNewPowerState
-title: PcRequestNewPowerState function
+title: PcRequestNewPowerState function (portcls.h)
 description: The PcRequestNewPowerState function is used to request a new power state for the device. This function is typically not needed by adapter drivers but can occasionally be useful in working around some kinds of hardware problems.
 old-location: audio\pcrequestnewpowerstate.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcRequestNewPowerState
+- PcRequestNewPowerState
 product:
 - Windows
 targetos: Windows

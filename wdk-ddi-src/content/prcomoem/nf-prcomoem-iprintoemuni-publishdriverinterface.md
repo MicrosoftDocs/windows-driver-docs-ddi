@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.PublishDriverInterface
-title: IPrintOemUni::PublishDriverInterface
+title: IPrintOemUni::PublishDriverInterface (prcomoem.h)
 description: The IPrintOemUni::PublishDriverInterface method allows a rendering plug-in for Unidrv to obtain the Unidrv driver's IPrintOemDriverUni or IPrintCoreHelperUni interface.
 old-location: print\iprintoemuni_publishdriverinterface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.PublishDriverInterface
+- IPrintOemUni.PublishDriverInterface
 product:
 - Windows
 targetos: Windows

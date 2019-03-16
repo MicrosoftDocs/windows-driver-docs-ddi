@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_DESCRIPTOR
-title: "_NET_DMA_DESCRIPTOR"
+title: _NET_DMA_DESCRIPTOR (netdma.h)
 description: The NET_DMA_DESCRIPTOR structure specifies the DMA transfer information for each entry in a linked list of DMA descriptors.
 old-location: netvista\net_dma_descriptor.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_DESCRIPTOR
+- NET_DMA_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

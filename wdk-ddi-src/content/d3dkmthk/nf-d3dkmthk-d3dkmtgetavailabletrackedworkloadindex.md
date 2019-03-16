@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetAvailableTrackedWorkloadIndex
-title: D3DKMTGetAvailableTrackedWorkloadIndex function
+title: D3DKMTGetAvailableTrackedWorkloadIndex function (d3dkmthk.h)
 description: Gets the available tracked workload index.
 ms.assetid: 3bcfcea6-c5d7-4e29-b109-2a501e8bcaf8
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetAvailableTrackedWorkloadIndex
+- D3DKMTGetAvailableTrackedWorkloadIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

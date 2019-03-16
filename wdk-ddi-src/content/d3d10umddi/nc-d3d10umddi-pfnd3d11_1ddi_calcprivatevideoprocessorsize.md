@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE
-title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE
+title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE (d3d10umddi.h)
 description: Returns the number of bytes that the driver requires to store private data for the video processor state.
 old-location: display\calcprivatevideoprocessorsize.htm
 ms.assetid: a30d98b2-3d39-456a-8363-44ccc71e58ff
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CalcPrivateVideoProcessorSize
+- CalcPrivateVideoProcessorSize
 product:
 - Windows
 targetos: Windows

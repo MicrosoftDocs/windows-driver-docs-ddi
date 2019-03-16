@@ -1,6 +1,6 @@
 ---
 UID: NF:netioddk.NmrWaitForClientDeregisterComplete
-title: NmrWaitForClientDeregisterComplete function
+title: NmrWaitForClientDeregisterComplete function (netioddk.h)
 description: The NmrWaitForClientDeregisterComplete function waits for the deregistration of a client module to complete.
 old-location: netvista\nmrwaitforclientderegistercomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	netio.lib
--	netio.dll
+- netio.lib
+- netio.dll
 api_name:
--	NmrWaitForClientDeregisterComplete
+- NmrWaitForClientDeregisterComplete
 product:
 - Windows
 targetos: Windows

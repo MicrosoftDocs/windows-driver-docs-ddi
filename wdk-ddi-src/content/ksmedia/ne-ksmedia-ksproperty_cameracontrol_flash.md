@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_76
-title: KSPROPERTY_CAMERACONTROL_FLASH
+title: KSPROPERTY_CAMERACONTROL_FLASH (ksmedia.h)
 description: Used to specify camera flash control.
 old-location: stream\ksproperty_cameracontrol_flash.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_FLASH
+- KSPROPERTY_CAMERACONTROL_FLASH
 product:
 - Windows
 targetos: Windows

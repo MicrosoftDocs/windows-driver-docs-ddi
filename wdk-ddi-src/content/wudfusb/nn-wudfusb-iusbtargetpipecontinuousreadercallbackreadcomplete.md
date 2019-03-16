@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadComplete
-title: IUsbTargetPipeContinuousReaderCallbackReadComplete
+title: IUsbTargetPipeContinuousReaderCallbackReadComplete (wudfusb.h)
 description: IUsbTargetPipeContinuousReaderCallbackReadComplete is a driver-supplied interface.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfusb.h
+- wudfusb.h
 api_name:
--	IUsbTargetPipeContinuousReaderCallbackReadComplete
+- IUsbTargetPipeContinuousReaderCallbackReadComplete
 product:
 - Windows
 targetos: Windows

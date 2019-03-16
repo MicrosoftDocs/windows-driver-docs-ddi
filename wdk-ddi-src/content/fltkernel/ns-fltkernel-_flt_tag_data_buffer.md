@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_TAG_DATA_BUFFER
-title: "_FLT_TAG_DATA_BUFFER"
+title: _FLT_TAG_DATA_BUFFER (fltkernel.h)
 description: The FLT_TAG_DATA_BUFFER structure contains information about a reparse point tag.
 old-location: ifsk\flt_tag_data_buffer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_TAG_DATA_BUFFER
+- FLT_TAG_DATA_BUFFER
 product:
 - Windows
 targetos: Windows

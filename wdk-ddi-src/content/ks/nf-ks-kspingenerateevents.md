@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGenerateEvents
-title: KsPinGenerateEvents function
+title: KsPinGenerateEvents function (ks.h)
 description: The KsPinGenerateEvents function generates events of an indicated type that are present in Pin's event list.
 old-location: stream\kspingenerateevents.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGenerateEvents
+- KsPinGenerateEvents
 product:
 - Windows
 targetos: Windows

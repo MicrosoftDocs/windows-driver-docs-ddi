@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrievePowerPolicy
-title: IWDFUsbTargetDevice::RetrievePowerPolicy
+title: IWDFUsbTargetDevice::RetrievePowerPolicy (wudfusb.h)
 description: The RetrievePowerPolicy method retrieves a WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.RetrievePowerPolicy
+- IWDFUsbTargetDevice.RetrievePowerPolicy
 product:
 - Windows
 targetos: Windows

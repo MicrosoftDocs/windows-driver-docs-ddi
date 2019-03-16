@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetBusData
-title: VideoPortGetBusData function
+title: VideoPortGetBusData function (video.h)
 description: The VideoPortGetBusData function returns bus-type-specific configuration information.
 old-location: display\videoportgetbusdata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetBusData
+- VideoPortGetBusData
 product:
 - Windows
 targetos: Windows

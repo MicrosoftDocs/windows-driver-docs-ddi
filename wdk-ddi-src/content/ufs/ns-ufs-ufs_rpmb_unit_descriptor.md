@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_5
-title: UFS_RPMB_UNIT_DESCRIPTOR
+title: UFS_RPMB_UNIT_DESCRIPTOR (ufs.h)
 description: The UFS_RPMB_UNIT_DESCRIPTOR structure describes the contents of a Replay Protected Memory Block (RBMB) Unit.
 old-location: storage\ufs_rpmb_unit_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_RPMB_UNIT_DESCRIPTOR
+- UFS_RPMB_UNIT_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.NewStream
-title: IMiniportWaveRT::NewStream
+title: IMiniportWaveRT::NewStream (portcls.h)
 description: The NewStream method creates a new instance of a WaveRT stream object.
 old-location: audio\iminiportwavert_newstream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRT.NewStream
+- IMiniportWaveRT.NewStream
 product:
 - Windows
 targetos: Windows

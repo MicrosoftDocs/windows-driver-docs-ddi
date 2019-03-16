@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_FIRMWARE_TABLE_INTERFACE
-title: "_DXGK_FIRMWARE_TABLE_INTERFACE"
+title: _DXGK_FIRMWARE_TABLE_INTERFACE (dispmprt.h)
 description: Contains functions that user-mode display drivers can use to read and enumerate the system firmware table. These functions are supplied by the Microsoft DirectX graphics kernel subsystem and can be called by WDDM 1.2 and later user-mode display drivers.
 old-location: display\dxgk_firmware_table_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_FIRMWARE_TABLE_INTERFACE
+- DXGK_FIRMWARE_TABLE_INTERFACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList
-title: ExtRemoteList::ExtRemoteList method
+title: ExtRemoteList::ExtRemoteList method (engextcpp.h)
 description: The ExtRemoteList class provides a wrapper around a singly-linked or doubly-linked list. The class contains methods that can be used to move both forward and backward through the list.
 old-location: debugger\extremotelist.htm
 tech.root: debugger
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	COM
-apilocation:
--	engextcpp.hpp
-apiname:
--	ExtRemoteList
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- engextcpp.hpp
+api_name:
+- ExtRemoteList
 product:
 - Windows
 targetos: Windows

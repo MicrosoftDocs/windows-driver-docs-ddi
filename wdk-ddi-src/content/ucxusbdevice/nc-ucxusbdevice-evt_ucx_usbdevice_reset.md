@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_RESET
-title: EVT_UCX_USBDEVICE_RESET
+title: EVT_UCX_USBDEVICE_RESET (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls when the port to which the device is attached is reset.
 old-location: buses\evt_ucx_usbdevice_reset.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_RESET
+- PEVT_UCX_USBDEVICE_RESET
 product:
 - Windows
 targetos: Windows

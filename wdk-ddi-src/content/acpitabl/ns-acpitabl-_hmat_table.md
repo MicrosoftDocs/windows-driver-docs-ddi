@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._HMAT_TABLE
-title: _HMAT_TABLE
+title: _HMAT_TABLE (acpitabl.h)
 description: Defines the _HMAT_TABLE structure.
 ms.assetid: aac4942e-3354-44ec-a4d2-0637f8a5a629
 ms.date: 10/01/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HMAT_TABLE, *PHMAT_TABLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_HMAT_TABLE
+- _HMAT_TABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

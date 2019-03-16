@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsLookupThreadByThreadId
-title: PsLookupThreadByThreadId function
+title: PsLookupThreadByThreadId function (ntifs.h)
 description: The PsLookupThreadByThreadId routine accepts the thread ID of a thread and returns a referenced pointer to the ETHREAD structure of the thread.
 old-location: ifsk\pslookupthreadbythreadid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsLookupThreadByThreadId
+- PsLookupThreadByThreadId
 product:
 - Windows
 targetos: Windows
@@ -118,7 +118,7 @@ The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

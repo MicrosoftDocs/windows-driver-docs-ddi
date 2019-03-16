@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MOVEREGION
-title: IDDCX_MOVEREGION
+title: IDDCX_MOVEREGION (iddcx.h)
 description: Gives information about the current move region.
 old-location: display\iddcx_moveregion.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_MOVEREGION
+- IDDCX_MOVEREGION
 product:
 - Windows
 targetos: Windows

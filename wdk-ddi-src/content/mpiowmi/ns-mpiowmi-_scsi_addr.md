@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._SCSI_ADDR
-title: "_SCSI_ADDR"
+title: _SCSI_ADDR (mpiowmi.h)
 description: The SCSI_ADDR structure represents a SCSI address.
 old-location: storage\scsi_addr.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	SCSI_ADDR
+- SCSI_ADDR
 product:
 - Windows
 targetos: Windows

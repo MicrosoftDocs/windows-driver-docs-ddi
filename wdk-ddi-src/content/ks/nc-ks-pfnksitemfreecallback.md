@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSITEMFREECALLBACK
-title: PFNKSITEMFREECALLBACK
+title: PFNKSITEMFREECALLBACK (ks.h)
 description: A streaming minidriver's KStrItemFreeCallback routine is called to free a previously allocated create item. KStrItemFreeCallback allows the minidriver to perform any cleanup, including flushing security descriptor changes, if necessary.
 old-location: stream\kstritemfreecallback.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KStrItemFreeCallback
+- KStrItemFreeCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectQuery
-title: WdfObjectQuery function
+title: WdfObjectQuery function (wdfobject.h)
 description: The WdfObjectQuery method is not implemented.
 old-location: wdf\wdfobjectquery.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Not applicable
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfobject.h
+- Wdfobject.h
 api_name:
--	WdfObjectQuery
+- WdfObjectQuery
 product:
 - Windows
 targetos: Windows

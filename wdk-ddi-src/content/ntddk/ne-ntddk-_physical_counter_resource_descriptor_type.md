@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
-title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE"
+title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE (ntddk.h)
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration contains constants that indicate the type of hardware performance counter resource that is described by a PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\physical_counter_resource_descriptor_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
+- PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 product:
 - Windows
 targetos: Windows

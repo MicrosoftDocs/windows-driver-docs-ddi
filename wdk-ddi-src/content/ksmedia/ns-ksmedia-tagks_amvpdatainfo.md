@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPDATAINFO
-title: tagKS_AMVPDATAINFO
+title: tagKS_AMVPDATAINFO (ksmedia.h)
 description: The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
 old-location: stream\ks_amvpdatainfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMVPDATAINFO
+- KS_AMVPDATAINFO
 product:
 - Windows
 targetos: Windows

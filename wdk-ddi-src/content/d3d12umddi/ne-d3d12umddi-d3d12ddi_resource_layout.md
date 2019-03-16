@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_LAYOUT
-title: D3D12DDI_RESOURCE_LAYOUT
+title: D3D12DDI_RESOURCE_LAYOUT (d3d12umddi.h)
 description: Specifies the resource layout.
 ms.assetid: 125cd86b-b88b-4752-a37f-420ed68b5d28
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RESOURCE_LAYOUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RESOURCE_LAYOUT
+- D3D12DDI_RESOURCE_LAYOUT
 product:
 - Windows
 targetos: Windows

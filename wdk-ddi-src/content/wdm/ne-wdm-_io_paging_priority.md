@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_PAGING_PRIORITY
-title: "_IO_PAGING_PRIORITY"
+title: _IO_PAGING_PRIORITY (wdm.h)
 description: The IO_PAGING_PRIORITY enumeration describes the priority value for a paging I/O IRP.
 old-location: kernel\io_paging_priority.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	IO_PAGING_PRIORITY
+- IO_PAGING_PRIORITY
 product:
 - Windows
 targetos: Windows

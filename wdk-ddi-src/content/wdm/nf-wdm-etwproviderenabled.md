@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwProviderEnabled
-title: EtwProviderEnabled function
+title: EtwProviderEnabled function (wdm.h)
 description: The EtwProviderEnabled function verifies that a provider is enabled for event logging at a specified level and keyword.
 old-location: devtest\etwproviderenabled.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwProviderEnabled
+- EtwProviderEnabled
 product:
 - Windows
 targetos: Windows

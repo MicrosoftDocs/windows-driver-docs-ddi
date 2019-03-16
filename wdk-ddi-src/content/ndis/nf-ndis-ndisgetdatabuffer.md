@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetDataBuffer
-title: NdisGetDataBuffer function
+title: NdisGetDataBuffer function (ndis.h)
 description: Call the NdisGetDataBuffer function to gain access to a contiguous block of data from a NET_BUFFER structure.
 old-location: netvista\ndisgetdatabuffer.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGetDataBuffer
+- NdisGetDataBuffer
 product:
 - Windows
 targetos: Windows

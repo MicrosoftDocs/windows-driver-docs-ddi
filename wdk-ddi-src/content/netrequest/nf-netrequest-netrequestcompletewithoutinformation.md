@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestCompleteWithoutInformation
-title: NetRequestCompleteWithoutInformation function
+title: NetRequestCompleteWithoutInformation function (netrequest.h)
 description: Completes a NETREQUEST and supplies a completion status.
 tech.root: netvista
 ms.assetid: 706adc5b-3eb4-4876-ad86-6d335a0860ca
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestCompleteWithoutInformation
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestCompleteWithoutInformation
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

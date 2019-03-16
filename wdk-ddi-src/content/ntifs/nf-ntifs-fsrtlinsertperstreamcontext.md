@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInsertPerStreamContext
-title: FsRtlInsertPerStreamContext function
+title: FsRtlInsertPerStreamContext function (ntifs.h)
 description: The FsRtlInsertPerStreamContext routine associates a file system filter driver's per-stream context structure with a file stream.
 old-location: ifsk\fsrtlinsertperstreamcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlInsertPerStreamContext
+- FsRtlInsertPerStreamContext
 product:
 - Windows
 targetos: Windows

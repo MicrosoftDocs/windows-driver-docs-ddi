@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._STREAM_TIME_REFERENCE
-title: "_STREAM_TIME_REFERENCE"
+title: _STREAM_TIME_REFERENCE (strmini.h)
 description: 
 old-location: stream\stream_time_reference.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Strmini.h
+- Strmini.h
 api_name:
--	STREAM_TIME_REFERENCE
+- STREAM_TIME_REFERENCE
 product:
 - Windows
 targetos: Windows

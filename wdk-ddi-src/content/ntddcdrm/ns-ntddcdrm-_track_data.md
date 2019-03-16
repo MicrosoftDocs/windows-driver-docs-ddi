@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._TRACK_DATA
-title: "_TRACK_DATA"
+title: _TRACK_DATA (ntddcdrm.h)
 description: Track descriptor is used in conjunction with CDROM_TOC and CDROM_TOC_SESSION_DATA.
 old-location: storage\track_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	TRACK_DATA
+- TRACK_DATA
 product:
 - Windows
 targetos: Windows

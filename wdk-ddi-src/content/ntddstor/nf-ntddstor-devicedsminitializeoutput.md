@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmInitializeOutput
-title: DeviceDsmInitializeOutput function
+title: DeviceDsmInitializeOutput function (ntddstor.h)
 description: The DeviceDsmInitializeOutput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 ms.assetid: e68acc49-63c9-4ea2-9450-fa45dd2b5e06
 ms.date: 04/11/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmInitializeOutput
+- DeviceDsmInitializeOutput
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetSignedIntegerValue
-title: IPortableDeviceValues::SetSignedIntegerValue
+title: IPortableDeviceValues::SetSignedIntegerValue (portabledevicetypes.h)
 description: Adds a new LONG value (type VT_I4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetSignedIntegerValue
+- IPortableDeviceValues.SetSignedIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionReportProgress
-title: SerCx2CustomReceiveTransactionReportProgress function
+title: SerCx2CustomReceiveTransactionReportProgress function (sercx.h)
 description: The SerCx2CustomReceiveTransactionReportProgress method reports whether progress is being made toward completing the current custom-receive transaction.
 old-location: serports\sercx2customreceivetransactionreportprogress.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2CustomReceiveTransactionReportProgress
+- SerCx2CustomReceiveTransactionReportProgress
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OUTPUTDUPL_METADATATYPE
-title: _D3DKMT_OUTPUTDUPL_METADATATYPE
+title: _D3DKMT_OUTPUTDUPL_METADATATYPE (d3dkmthk.h)
 description: Output duplicate metadata types.
 ms.assetid: b78cd01c-e17c-4981-8c0e-5540a36955b3
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_OUTPUTDUPL_METADATATYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_OUTPUTDUPL_METADATATYPE
+- _D3DKMT_OUTPUTDUPL_METADATATYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

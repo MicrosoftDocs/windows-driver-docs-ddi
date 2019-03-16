@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAcquireControl
-title: KsPinAcquireControl function
+title: KsPinAcquireControl function (ks.h)
 description: The KsPinAcquireControl function acquires the control mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinacquirecontrol.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsPinAcquireControl
+- KsPinAcquireControl
 product:
 - Windows
 targetos: Windows

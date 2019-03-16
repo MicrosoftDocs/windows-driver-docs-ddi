@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetDebuggerCacheSize
-title: GetDebuggerCacheSize function
+title: GetDebuggerCacheSize function (wdbgexts.h)
 description: The GetDebuggerCacheSize function returns the size of the cache that is used by the debugger to hold data that was obtained from the target.
 old-location: debugger\getdebuggercachesize.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetDebuggerCacheSize
+- GetDebuggerCacheSize
 product:
 - Windows
 targetos: Windows

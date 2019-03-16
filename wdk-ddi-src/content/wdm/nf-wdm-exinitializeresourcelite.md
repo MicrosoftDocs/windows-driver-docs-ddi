@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeResourceLite
-title: ExInitializeResourceLite function
+title: ExInitializeResourceLite function (wdm.h)
 description: The ExInitializeResourceLite routine initializes a resource variable.
 old-location: kernel\exinitializeresourcelite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInitializeResourceLite
+- ExInitializeResourceLite
 product:
 - Windows
 targetos: Windows

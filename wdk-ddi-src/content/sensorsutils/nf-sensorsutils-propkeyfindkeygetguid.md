@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetGuid
-title: PropKeyFindKeyGetGuid function
+title: PropKeyFindKeyGetGuid function (sensorsutils.h)
 description: This routine gets a GUID value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 56740950-e6d3-4f3a-83ab-546fda013b81
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetGuid
+- PropKeyFindKeyGetGuid
 product:
   - Windows
 targetos: Windows

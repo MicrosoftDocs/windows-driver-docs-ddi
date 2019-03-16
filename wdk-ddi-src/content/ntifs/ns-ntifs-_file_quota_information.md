@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_QUOTA_INFORMATION
-title: "_FILE_QUOTA_INFORMATION"
+title: _FILE_QUOTA_INFORMATION (ntifs.h)
 description: The FILE_QUOTA_INFORMATION structure is used to query or set per-user quota information for each of the files in a directory.
 old-location: ifsk\file_quota_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_QUOTA_INFORMATION
+- FILE_QUOTA_INFORMATION
 product:
 - Windows
 targetos: Windows

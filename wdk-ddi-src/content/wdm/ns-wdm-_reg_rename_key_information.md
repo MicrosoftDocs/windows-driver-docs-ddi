@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_RENAME_KEY_INFORMATION
-title: "_REG_RENAME_KEY_INFORMATION"
+title: _REG_RENAME_KEY_INFORMATION (wdm.h)
 description: The REG_RENAME_KEY_INFORMATION structure contains the new name for a registry key whose name is about to be changed.
 old-location: kernel\reg_rename_key_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	REG_RENAME_KEY_INFORMATION
+- REG_RENAME_KEY_INFORMATION
 product:
 - Windows
 targetos: Windows

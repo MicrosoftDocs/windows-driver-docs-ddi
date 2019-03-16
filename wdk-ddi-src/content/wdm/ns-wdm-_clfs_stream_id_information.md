@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_STREAM_ID_INFORMATION
-title: "_CLFS_STREAM_ID_INFORMATION"
+title: _CLFS_STREAM_ID_INFORMATION (wdm.h)
 description: The CLFS_STREAM_ID_INFORMATION structure holds a value that identifies a stream in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_stream_id_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CLFS_STREAM_ID_INFORMATION
+- CLFS_STREAM_ID_INFORMATION
 product:
 - Windows
 targetos: Windows

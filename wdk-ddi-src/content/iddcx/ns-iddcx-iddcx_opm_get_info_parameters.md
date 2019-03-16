@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_GET_INFO_PARAMETERS
-title: IDDCX_OPM_GET_INFO_PARAMETERS
+title: IDDCX_OPM_GET_INFO_PARAMETERS (iddcx.h)
 description: Gives the parameters for the information request.
 old-location: display\iddcx_opm_get_info_parameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_OPM_GET_INFO_PARAMETERS
+- IDDCX_OPM_GET_INFO_PARAMETERS
 product:
 - Windows
 targetos: Windows

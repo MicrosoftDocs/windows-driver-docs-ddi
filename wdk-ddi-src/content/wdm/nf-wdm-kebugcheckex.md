@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeBugCheckEx
-title: KeBugCheckEx function
+title: KeBugCheckEx function (wdm.h)
 description: The KeBugCheckEx routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheckex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeBugCheckEx
+- KeBugCheckEx
 product:
 - Windows
 targetos: Windows

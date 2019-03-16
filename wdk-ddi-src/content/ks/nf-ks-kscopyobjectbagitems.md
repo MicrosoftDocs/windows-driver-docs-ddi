@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCopyObjectBagItems
-title: KsCopyObjectBagItems function
+title: KsCopyObjectBagItems function (ks.h)
 description: The KsCopyObjectBagItems function copies all items from one object bag into another.
 old-location: stream\kscopyobjectbagitems.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsCopyObjectBagItems
+- KsCopyObjectBagItems
 product:
 - Windows
 targetos: Windows

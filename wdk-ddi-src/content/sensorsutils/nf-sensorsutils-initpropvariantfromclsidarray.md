@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.InitPropVariantFromCLSIDArray
-title: InitPropVariantFromCLSIDArray function
+title: InitPropVariantFromCLSIDArray function (sensorsutils.h)
 description: This routine initializes a PROPVARIANT from a given array of GUIDs.
 ms.assetid: 6f80ab97-7c84-40f0-8067-e748e4f36bbe
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	InitPropVariantFromCLSIDArray
+- InitPropVariantFromCLSIDArray
 product:
 - Windows
 targetos: Windows

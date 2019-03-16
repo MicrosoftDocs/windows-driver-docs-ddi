@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_SUB_Q_DATA_FORMAT
-title: "_CDROM_SUB_Q_DATA_FORMAT"
+title: _CDROM_SUB_Q_DATA_FORMAT (ntddcdrm.h)
 description: The CDROM_SUB_Q_DATA_FORMAT structure is used with device control IRPs of type IOCTL_CDROM_READ_Q_CHANNEL.
 old-location: storage\cdrom_sub_q_data_format.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_SUB_Q_DATA_FORMAT
+- CDROM_SUB_Q_DATA_FORMAT
 product:
 - Windows
 targetos: Windows

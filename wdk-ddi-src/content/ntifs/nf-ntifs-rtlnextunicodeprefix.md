@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlNextUnicodePrefix
-title: RtlNextUnicodePrefix function
+title: RtlNextUnicodePrefix function (ntifs.h)
 description: The RtlNextUnicodePrefix routine is used to enumerate the elements in a Unicode prefix table.
 old-location: ifsk\rtlnextunicodeprefix.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlNextUnicodePrefix
+- RtlNextUnicodePrefix
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlInitializeBitMap
-title: RtlInitializeBitMap function
+title: RtlInitializeBitMap function (wdm.h)
 description: The RtlInitializeBitMap routine initializes the header of a bitmap variable.
 old-location: kernel\rtlinitializebitmap.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlInitializeBitMap
+- RtlInitializeBitMap
 product:
 - Windows
 targetos: Windows

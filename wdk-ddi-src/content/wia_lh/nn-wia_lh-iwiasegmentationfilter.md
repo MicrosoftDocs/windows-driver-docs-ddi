@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_lh.IWiaSegmentationFilter
-title: IWiaSegmentationFilter
+title: IWiaSegmentationFilter (wia_lh.h)
 description: The IWiaSegmentationFilter interface provides the DetectRegions method, which enables minidrivers to detect image subregions on a flatbed scanner's platen. This interface is available in Windows Vista and later.
 old-location: image\iwiasegmentationfilter_interface.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaSegmentationFilter
+- IWiaSegmentationFilter
 product:
 - Windows
 targetos: Windows

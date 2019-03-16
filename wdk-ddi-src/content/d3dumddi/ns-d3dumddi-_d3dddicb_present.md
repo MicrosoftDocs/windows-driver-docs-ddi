@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_PRESENT
-title: "_D3DDDICB_PRESENT"
+title: _D3DDDICB_PRESENT (d3dumddi.h)
 description: The D3DDDICB_PRESENT structure describes allocations that content is copied to and from.
 old-location: display\d3dddicb_present.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_PRESENT
+- D3DDDICB_PRESENT
 product:
 - Windows
 targetos: Windows

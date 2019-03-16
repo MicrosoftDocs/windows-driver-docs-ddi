@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_METHOD_ITEM
-title: tagWNODE_METHOD_ITEM
+title: tagWNODE_METHOD_ITEM (wmistr.h)
 description: The WNODE_METHOD_ITEM structure indicates a method associated with an instance of a data block and contains any input data for the method.
 old-location: kernel\wnode_method_item.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmistr.h
+- wmistr.h
 api_name:
--	WNODE_METHOD_ITEM
+- WNODE_METHOD_ITEM
 product:
 - Windows
 targetos: Windows

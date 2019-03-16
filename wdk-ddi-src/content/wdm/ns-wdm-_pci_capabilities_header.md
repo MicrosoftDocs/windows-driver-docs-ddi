@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_CAPABILITIES_HEADER
-title: "_PCI_CAPABILITIES_HEADER"
+title: _PCI_CAPABILITIES_HEADER (wdm.h)
 description: The PCI_CAPABILITIES_HEADER structure defines a header that is present in every PCI capability structure.
 old-location: pci\pci_capabilities_header.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_CAPABILITIES_HEADER
+- PCI_CAPABILITIES_HEADER
 product:
 - Windows
 targetos: Windows

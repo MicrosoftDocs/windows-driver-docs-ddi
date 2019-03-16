@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortIoMapTransfer
-title: ScsiPortIoMapTransfer function
+title: ScsiPortIoMapTransfer function (srb.h)
 description: The ScsiPortIoMapTransfer routine sets up the system DMA controller for a miniport driver to transfer data through a subordinate HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportiomaptransfer.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortIoMapTransfer
+- ScsiPortIoMapTransfer
 product:
 - Windows
 targetos: Windows

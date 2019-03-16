@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._READ_ELEMENT_ADDRESS_INFO
-title: "_READ_ELEMENT_ADDRESS_INFO"
+title: _READ_ELEMENT_ADDRESS_INFO (ntddchgr.h)
 description: This structure is to retrieve changer elements based on a search criterion specified in a call to the ChangerQueryVolumeTags routine.
 old-location: storage\read_element_address_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	READ_ELEMENT_ADDRESS_INFO
+- READ_ELEMENT_ADDRESS_INFO
 product:
 - Windows
 targetos: Windows

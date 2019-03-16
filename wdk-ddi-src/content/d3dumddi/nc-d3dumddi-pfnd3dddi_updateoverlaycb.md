@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEOVERLAYCB
-title: PFND3DDDI_UPDATEOVERLAYCB
+title: PFND3DDDI_UPDATEOVERLAYCB (d3dumddi.h)
 description: The pfnUpdateOverlayCb function modifies a kernel-mode overlay object.
 old-location: display\pfnupdateoverlaycb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnUpdateOverlayCb
+- pfnUpdateOverlayCb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplayWindowDisplayBitmapData
-title: "_LineDisplayWindowDisplayBitmapData"
+title: _LineDisplayWindowDisplayBitmapData (pointofservicedriverinterface.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaywindowdisplaybitmapdata.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	LineDisplayWindowDisplayBitmapData
+- LineDisplayWindowDisplayBitmapData
 product:
 - Windows
 targetos: Windows

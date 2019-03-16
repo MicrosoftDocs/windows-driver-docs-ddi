@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenFileByName
-title: IWDFRemoteTarget::OpenFileByName
+title: IWDFRemoteTarget::OpenFileByName (wudfddi.h)
 description: The OpenFileByName method opens a remote I/O target that is a file.
 old-location: wdf\iwdfremotetarget_openfilebyname.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteTarget.OpenFileByName
+- IWDFRemoteTarget.OpenFileByName
 product:
 - Windows
 targetos: Windows

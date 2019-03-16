@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByName
-title: IDebugSymbols3::GetOffsetByName
+title: IDebugSymbols3::GetOffsetByName (dbgeng.h)
 description: The GetOffsetByName method returns the location of a symbol identified by name.
 old-location: debugger\getoffsetbyname.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetOffsetByName
--	IDebugSymbols2.GetOffsetByName
--	IDebugSymbols3.GetOffsetByName
+- IDebugSymbols.GetOffsetByName
+- IDebugSymbols2.GetOffsetByName
+- IDebugSymbols3.GetOffsetByName
 product:
 - Windows
 targetos: Windows

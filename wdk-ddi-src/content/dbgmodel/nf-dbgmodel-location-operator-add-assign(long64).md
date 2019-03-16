@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-add-assign(LONG64)
-title: operator+= function
+title: operator+= function (dbgmodel.h)
 description: The addition assignment operator for the location function.
 ms.assetid: 18523fa0-dc61-4830-8b66-919d9e754a36
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	operator+=
-product: Windows
+- operator+=
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

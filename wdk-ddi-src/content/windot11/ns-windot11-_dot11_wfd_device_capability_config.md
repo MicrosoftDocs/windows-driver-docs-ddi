@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DEVICE_CAPABILITY_CONFIG
-title: "_DOT11_WFD_DEVICE_CAPABILITY_CONFIG"
+title: _DOT11_WFD_DEVICE_CAPABILITY_CONFIG (windot11.h)
 description: The device capability configuration structure sent with an OID_DOT11_WFD_DEVICE_CAPABILITY request.
 old-location: netvista\_dot11_wfd_device_capability_config.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_DEVICE_CAPABILITY_CONFIG
+- DOT11_WFD_DEVICE_CAPABILITY_CONFIG
 product:
 - Windows
 targetos: Windows

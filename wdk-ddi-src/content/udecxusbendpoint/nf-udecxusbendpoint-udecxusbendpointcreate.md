@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointCreate
-title: UdecxUsbEndpointCreate function
+title: UdecxUsbEndpointCreate function (udecxusbendpoint.h)
 description: Creates a UDE endpoint object.
 old-location: buses\udecxusbendpointcreate.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbEndpointCreate
+- UdecxUsbEndpointCreate
 product:
 - Windows
 targetos: Windows

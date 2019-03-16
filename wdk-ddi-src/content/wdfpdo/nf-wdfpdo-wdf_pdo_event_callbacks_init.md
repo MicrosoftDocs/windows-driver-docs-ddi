@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WDF_PDO_EVENT_CALLBACKS_INIT
-title: WDF_PDO_EVENT_CALLBACKS_INIT function
+title: WDF_PDO_EVENT_CALLBACKS_INIT function (wdfpdo.h)
 description: The WDF_PDO_EVENT_CALLBACKS_INIT function initializes a WDF_PDO_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_pdo_event_callbacks_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfpdo.h
+- wdfpdo.h
 api_name:
--	WDF_PDO_EVENT_CALLBACKS_INIT
+- WDF_PDO_EVENT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

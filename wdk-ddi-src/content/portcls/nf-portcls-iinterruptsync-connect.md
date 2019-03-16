@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.Connect
-title: IInterruptSync::Connect
+title: IInterruptSync::Connect (portcls.h)
 description: The Connect method connects the synchronization object to the interrupt.
 old-location: audio\iinterruptsync_connect.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync.Connect
+- IInterruptSync.Connect
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ehstorioctl._PDO_TYPE
-title: "_PDO_TYPE"
+title: _PDO_TYPE (ehstorioctl.h)
 description: This enumeration describes the types of Physical Device Objects (PDOs).
 old-location: storage\pdo_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	PDO_TYPE
+- PDO_TYPE
 product:
 - Windows
 targetos: Windows

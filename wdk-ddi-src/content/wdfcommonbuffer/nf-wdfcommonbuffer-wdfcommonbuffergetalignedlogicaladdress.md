@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferGetAlignedLogicalAddress
-title: WdfCommonBufferGetAlignedLogicalAddress function
+title: WdfCommonBufferGetAlignedLogicalAddress function (wdfcommonbuffer.h)
 description: The WdfCommonBufferGetAlignedLogicalAddress method returns the logical address that is associated with a specified common buffer.
 old-location: wdf\wdfcommonbuffergetalignedlogicaladdress.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCommonBufferGetAlignedLogicalAddress
+- WdfCommonBufferGetAlignedLogicalAddress
 product:
 - Windows
 targetos: Windows

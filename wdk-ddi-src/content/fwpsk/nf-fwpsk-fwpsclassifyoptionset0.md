@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsClassifyOptionSet0
-title: FwpsClassifyOptionSet0 function
+title: FwpsClassifyOptionSet0 function (fwpsk.h)
 description: The FwpsClassifyOptionSet0 function is called by a callout filter's classifyFn function to specify additional information that affects the characteristics of permitted filtering operations.Note  FwpsClassifyOptionSet0 is a specific version of FwpsClassifyOptionSet. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsclassifyoptionset0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpsClassifyOptionSet0
+- FwpsClassifyOptionSet0
 product:
 - Windows
 targetos: Windows

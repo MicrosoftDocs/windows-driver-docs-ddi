@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_RECORD
-title: "_BTH_SDP_RECORD"
+title: _BTH_SDP_RECORD (bthioctl.h)
 description: The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the local SDP server.
 old-location: bltooth\bth_sdp_record.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_SDP_RECORD
+- BTH_SDP_RECORD
 product:
 - Windows
 targetos: Windows

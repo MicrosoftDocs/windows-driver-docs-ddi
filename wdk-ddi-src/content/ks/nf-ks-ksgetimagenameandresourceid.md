@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetImageNameAndResourceId
-title: KsGetImageNameAndResourceId function
+title: KsGetImageNameAndResourceId function (ks.h)
 description: The KsGetImageNameAndResourceId function returns the image name and resource identifier that corresponds to the RegKey handle.
 old-location: stream\ksgetimagenameandresourceid.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetImageNameAndResourceId
+- KsGetImageNameAndResourceId
 product:
 - Windows
 targetos: Windows

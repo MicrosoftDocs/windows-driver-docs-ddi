@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
-title: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
+title: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053 (d3d12umddi.h)
 description: Arguments used by the PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053 callback function to create a motion vector heap.
 ms.assetid: 40b498a6-4166-4f45-87dc-3e559a0821c7
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
+- D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

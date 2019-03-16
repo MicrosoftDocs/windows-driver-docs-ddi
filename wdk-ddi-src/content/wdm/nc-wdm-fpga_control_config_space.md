@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.FPGA_CONTROL_CONFIG_SPACE
-title: FPGA_CONTROL_CONFIG_SPACE
+title: FPGA_CONTROL_CONFIG_SPACE (wdm.h)
 description: Reserved for future use. Enables or disables the access to the configuration space of the FPGA device. 
 ms.assetid: 963b8836-30f6-4321-9835-3860afe6076d
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	FPGA_CONTROL_CONFIG_SPACE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- FPGA_CONTROL_CONFIG_SPACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -78,7 +78,7 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 ## -remarks
 
-A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the the driver sets the **ControlConfigSpace** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
+A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the driver sets the **ControlConfigSpace** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
 
 -    This callback function toggles the configuration space access to all the functions of the FPGA device.
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._VERIFY_INFORMATION
-title: "_VERIFY_INFORMATION"
+title: _VERIFY_INFORMATION (ntdddisk.h)
 description: The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.
 old-location: storage\verify_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	VERIFY_INFORMATION
+- VERIFY_INFORMATION
 product:
 - Windows
 targetos: Windows

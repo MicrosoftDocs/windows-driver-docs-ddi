@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetShort
-title: ExtRemoteData::GetShort
+title: ExtRemoteData::GetShort (engextcpp.h)
 description: The GetShort method returns a SHORT version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getshort.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetShort
+- ExtRemoteData.GetShort
 product:
 - Windows
 targetos: Windows

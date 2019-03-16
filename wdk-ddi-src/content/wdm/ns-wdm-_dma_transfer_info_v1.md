@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO_V1
-title: "_DMA_TRANSFER_INFO_V1"
+title: _DMA_TRANSFER_INFO_V1 (wdm.h)
 description: The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 old-location: kernel\dma_transfer_info_v1.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DMA_ TRANSFER _INFO_V1
+- DMA_ TRANSFER _INFO_V1
 product:
 - Windows
 targetos: Windows

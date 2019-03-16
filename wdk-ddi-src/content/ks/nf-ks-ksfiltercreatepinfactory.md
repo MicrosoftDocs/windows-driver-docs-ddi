@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterCreatePinFactory
-title: KsFilterCreatePinFactory function
+title: KsFilterCreatePinFactory function (ks.h)
 description: The KsFilterCreatePinFactory function creates a new pin factory on the specified filter.
 old-location: stream\ksfiltercreatepinfactory.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterCreatePinFactory
+- KsFilterCreatePinFactory
 product:
 - Windows
 targetos: Windows

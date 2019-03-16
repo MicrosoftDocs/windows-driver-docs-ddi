@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IInterFilterCommunicator.RequestWriter
-title: IInterFilterCommunicator::RequestWriter
+title: IInterFilterCommunicator::RequestWriter (filterpipeline.h)
 description: The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestwriter.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IInterFilterCommunicator.RequestWriter
+- IInterFilterCommunicator.RequestWriter
 product:
 - Windows
 targetos: Windows

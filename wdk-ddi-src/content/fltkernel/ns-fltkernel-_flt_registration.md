@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_REGISTRATION
-title: "_FLT_REGISTRATION"
+title: _FLT_REGISTRATION (fltkernel.h)
 description: The FLT_REGISTRATION structure is passed as a parameter to FltRegisterFilter.
 old-location: ifsk\flt_registration.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_REGISTRATION
+- FLT_REGISTRATION
 product:
 - Windows
 targetos: Windows

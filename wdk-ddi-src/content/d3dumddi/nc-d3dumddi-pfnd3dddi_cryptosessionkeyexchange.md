@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
-title: PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
+title: PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE (d3dumddi.h)
 description: The CryptoSessionKeyExchange function negotiates a session key.
 old-location: display\cryptosessionkeyexchange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	CryptoSessionKeyExchange
+- CryptoSessionKeyExchange
 product:
 - Windows
 targetos: Windows

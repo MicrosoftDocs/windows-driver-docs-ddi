@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.CancelAsyncCall
-title: IPrintAsyncCookie::CancelAsyncCall
+title: IPrintAsyncCookie::CancelAsyncCall (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_cancelasynccall.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncCookie.CancelAsyncCall
+- IPrintAsyncCookie.CancelAsyncCall
 product:
 - Windows
 targetos: Windows

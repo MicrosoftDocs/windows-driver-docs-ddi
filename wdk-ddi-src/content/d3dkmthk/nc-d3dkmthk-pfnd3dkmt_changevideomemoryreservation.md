@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION
-title: PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION
+title: PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION (d3dkmthk.h)
 description: The PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION callback function changes a video memory reservation.
 ms.assetid: 2c2dd799-7d1f-4837-8e77-13c3107908ba
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION
+- PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

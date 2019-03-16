@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDICB_LOGSTRINGTABLEENTRY
-title: PFND3DDDICB_LOGSTRINGTABLEENTRY
+title: PFND3DDDICB_LOGSTRINGTABLEENTRY (d3dumddi.h)
 description: Locates a string table entry that is used by the LogMarkerStringTable function to log an Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 old-location: display\logmarkerstringtableentry.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	LogMarkerStringTableEntry
+- LogMarkerStringTableEntry
 product:
 - Windows
 targetos: Windows

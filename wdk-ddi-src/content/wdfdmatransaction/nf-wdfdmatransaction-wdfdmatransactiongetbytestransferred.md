@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetBytesTransferred
-title: WdfDmaTransactionGetBytesTransferred function
+title: WdfDmaTransactionGetBytesTransferred function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetBytesTransferred method returns the total number of bytes that have been transferred for a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetbytestransferred.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionGetBytesTransferred
+- WdfDmaTransactionGetBytesTransferred
 product:
 - Windows
 targetos: Windows

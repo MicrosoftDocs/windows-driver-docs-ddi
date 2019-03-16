@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATION
-title: "_D3DKMT_CREATEALLOCATION"
+title: _D3DKMT_CREATEALLOCATION (d3dkmthk.h)
 description: The D3DKMT_CREATEALLOCATION structure describes parameters for creating allocations.
 old-location: display\d3dkmt_createallocation.htm
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATEALLOCATION
+- D3DKMT_CREATEALLOCATION
 product:
 - Windows
 targetos: Windows

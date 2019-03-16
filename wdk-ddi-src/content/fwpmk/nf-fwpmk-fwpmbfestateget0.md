@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmBfeStateGet0
-title: FwpmBfeStateGet0 function
+title: FwpmBfeStateGet0 function (fwpmk.h)
 description: The FwpmBfeStateGet0 function retrieves the current state of the filter engine.Note  FwpmBfeStateGet0 is a specific version of FwpmBfeStateGet.
 old-location: netvista\fwpmbfestateget0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpmBfeStateGet0
+- FwpmBfeStateGet0
 product:
 - Windows
 targetos: Windows

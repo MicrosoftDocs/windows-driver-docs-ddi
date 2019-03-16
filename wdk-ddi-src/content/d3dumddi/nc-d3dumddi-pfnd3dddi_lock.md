@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCK
-title: PFND3DDDI_LOCK
+title: PFND3DDDI_LOCK (d3dumddi.h)
 description: The Lock function locks the given resource or a surface within the resource.
 old-location: display\lock.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	Lock
+- Lock
 product:
 - Windows
 targetos: Windows

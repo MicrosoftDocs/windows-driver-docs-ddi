@@ -1,6 +1,6 @@
 ---
 UID: NE:portcls.__unnamed_enum_0
-title: PC_REBALANCE_TYPE
+title: PC_REBALANCE_TYPE (portcls.h)
 description: The PC_REBALANCE_TYPE enum describes the type of support for rebalancing.
 old-location: audio\pc_rebalance_type.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PC_REBALANCE_TYPE
+- PC_REBALANCE_TYPE
 product:
 - Windows
 targetos: Windows

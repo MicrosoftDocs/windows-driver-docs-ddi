@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptSynchronize
-title: WdfInterruptSynchronize function
+title: WdfInterruptSynchronize function (wdfinterrupt.h)
 description: The WdfInterruptSynchronize method executes a specified callback function at the device's DIRQL while holding an interrupt object's spin lock.
 old-location: wdf\wdfinterruptsynchronize.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfInterruptSynchronize
+- WdfInterruptSynchronize
 product:
 - Windows
 targetos: Windows

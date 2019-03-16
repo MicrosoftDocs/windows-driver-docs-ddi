@@ -1,6 +1,6 @@
 ---
 UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
-title: _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
+title: _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure contains secret key data to verify RSS hash calculations.
 tech.root: netvista
 ms.assetid: c00bfa60-8d5a-41e1-bc04-bdbad9d3ddc2
@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY, *PNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netreceivescaling.h
+api_name: 
+- _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

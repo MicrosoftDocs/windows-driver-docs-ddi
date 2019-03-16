@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_STATS_DWM
-title: _D3DKMT_PRESENT_STATS_DWM
+title: _D3DKMT_PRESENT_STATS_DWM (d3dkmthk.h)
 description: The present status of the desktop windows manager (DWM).
 ms.assetid: 8bd41296-e5b2-440b-a871-a644af659790
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PRESENT_STATS_DWM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PRESENT_STATS_DWM
+- _D3DKMT_PRESENT_STATS_DWM
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

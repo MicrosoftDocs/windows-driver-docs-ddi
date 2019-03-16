@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYRASTERIZERSTATE
-title: PFND3D12DDI_DESTROYRASTERIZERSTATE
+title: PFND3D12DDI_DESTROYRASTERIZERSTATE (d3d12umddi.h)
 description: Destroy rasterizer state.
 ms.assetid: 90cbf5e8-1a54-437f-9c93-4843356159a3
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYRASTERIZERSTATE
+- PFND3D12DDI_DESTROYRASTERIZERSTATE
 product: 
 - Windows
 targetos: Windows

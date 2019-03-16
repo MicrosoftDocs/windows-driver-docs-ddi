@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_STATE
-title: "_VIDEO_CHILD_STATE"
+title: _VIDEO_CHILD_STATE (video.h)
 description: The VIDEO_CHILD_STATE structure contains information about a child device and the state into which it should be placed.
 old-location: display\video_child_state.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_CHILD_STATE
+- VIDEO_CHILD_STATE
 product:
 - Windows
 targetos: Windows

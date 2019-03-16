@@ -1,6 +1,6 @@
 ---
 UID: NI:trustedrt.IOCTL_TR_SERVICE_QUERY
-title: IOCTL_TR_SERVICE_QUERY
+title: IOCTL_TR_SERVICE_QUERY (trustedrt.h)
 description: 
 ms.assetid: f22825f0-a287-4343-a971-1e8765d0c199
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedrt.h
+- trustedrt.h
 api_name: 
--	IOCTL_TR_SERVICE_QUERY
+- IOCTL_TR_SERVICE_QUERY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

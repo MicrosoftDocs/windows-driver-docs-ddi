@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerCapabilitiesType
-title: "_PosBarcodeScannerCapabilitiesType"
+title: _PosBarcodeScannerCapabilitiesType (pointofservicedriverinterface.h)
 description: This structure defines the type of scanner capabilities that a device supports such as whether the device supports statistics reporting and image preview.
 old-location: pos\posbarcodescannercapabilitiestype.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosBarcodeScannerCapabilitiesType
+- PosBarcodeScannerCapabilitiesType
 product:
 - Windows
 targetos: Windows

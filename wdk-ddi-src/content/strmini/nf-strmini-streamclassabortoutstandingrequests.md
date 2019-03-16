@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassAbortOutstandingRequests
-title: StreamClassAbortOutstandingRequests function
+title: StreamClassAbortOutstandingRequests function (strmini.h)
 description: The StreamClassAbortOutstandingRequests routine aborts all outstanding requests, either to a particular stream, or to the entire driver.
 old-location: stream\streamclassabortoutstandingrequests.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: "> DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassAbortOutstandingRequests
+- StreamClassAbortOutstandingRequests
 product:
 - Windows
 targetos: Windows

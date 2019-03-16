@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_MEDIA_TYPES
-title: IOCTL_STORAGE_GET_MEDIA_TYPES
+title: IOCTL_STORAGE_GET_MEDIA_TYPES (ntddstor.h)
 description: Returns information about the geometry of floppy drives.
 old-location: storage\ioctl_storage_get_media_types.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_GET_MEDIA_TYPES
+- IOCTL_STORAGE_GET_MEDIA_TYPES
 product:
 - Windows
 targetos: Windows

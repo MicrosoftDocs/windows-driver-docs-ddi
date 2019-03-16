@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdd8042._KEYBOARD_SCAN_STATE
-title: "_KEYBOARD_SCAN_STATE"
+title: _KEYBOARD_SCAN_STATE (ntdd8042.h)
 description: The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard.
 old-location: hid\keyboard_scan_state.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	KEYBOARD_SCAN_STATE
+- KEYBOARD_SCAN_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SPB_TRANSFER_DESCRIPTOR_INIT
-title: SPB_TRANSFER_DESCRIPTOR_INIT function
+title: SPB_TRANSFER_DESCRIPTOR_INIT function (spbcx.h)
 description: The SPB_TRANSFER_DESCRIPTOR_INIT function initializes an SPB_TRANSFER_DESCRIPTOR structure.
 old-location: spb\spb_transfer_descriptor_init.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_TRANSFER_DESCRIPTOR_INIT
+- SPB_TRANSFER_DESCRIPTOR_INIT
 product:
 - Windows
 targetos: Windows

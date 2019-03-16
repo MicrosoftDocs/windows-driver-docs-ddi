@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseRundownProtection
-title: ExReleaseRundownProtection function
+title: ExReleaseRundownProtection function (wdm.h)
 description: The ExReleaseRundownProtection routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtection routine.
 old-location: kernel\exreleaserundownprotection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExReleaseRundownProtection
+- ExReleaseRundownProtection
 product:
 - Windows
 targetos: Windows

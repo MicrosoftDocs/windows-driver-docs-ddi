@@ -1,6 +1,6 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_VENDOR_GET_COMMAND
-title: IOCTL_USBPRINT_VENDOR_GET_COMMAND
+title: IOCTL_USBPRINT_VENDOR_GET_COMMAND (usbprint.h)
 description: The IOCTL_USBPRINT_VENDOR_GET_COMMAND request allows upper-layer software (such as a language monitor), to issue a vendor-specific GET command to the target device.
 old-location: print\ioctl_usbprint_vendor_get_command.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbprint.h
+- usbprint.h
 api_name:
--	IOCTL_USBPRINT_VENDOR_GET_COMMAND
+- IOCTL_USBPRINT_VENDOR_GET_COMMAND
 product:
 - Windows
 targetos: Windows

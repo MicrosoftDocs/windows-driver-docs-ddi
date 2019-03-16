@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILTDSCDMAMRLPARAMMASK
-title: RILTDSCDMAMRLPARAMMASK
+title: RILTDSCDMAMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILTDSCDMAMRLPARAMMASK.
 old-location: netvista\riltdscdmamrlparammask.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILTDSCDMAMRLPARAMMASK
+- RILTDSCDMAMRLPARAMMASK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_struct_4
-title: MIRACAST_DATARATE_STATS
+title: MIRACAST_DATARATE_STATS (netdispumdddi.h)
 description: Contains info used in the wireless display (Miracast) pfnDataRateNotify function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 old-location: display\miracast_datarate_stats.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_DATARATE_STATS
+- MIRACAST_DATARATE_STATS
 product:
 - Windows
 targetos: Windows

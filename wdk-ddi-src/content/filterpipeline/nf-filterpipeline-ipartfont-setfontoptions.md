@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartFont.SetFontOptions
-title: IPartFont::SetFontOptions
+title: IPartFont::SetFontOptions (filterpipeline.h)
 description: The SetFontOptions method sets the options for the font.
 old-location: print\ipartfont_setfontoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartFont.SetFontOptions
+- IPartFont.SetFontOptions
 product:
 - Windows
 targetos: Windows

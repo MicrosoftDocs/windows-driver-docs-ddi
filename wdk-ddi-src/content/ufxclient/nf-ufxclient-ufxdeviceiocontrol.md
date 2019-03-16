@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceIoControl
-title: UfxDeviceIoControl function
+title: UfxDeviceIoControl function (ufxclient.h)
 description: Passes non-internal IOCTLs from user-mode to UFX.
 old-location: buses\ufxdeviceiocontrol.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDeviceIoControl
+- UfxDeviceIoControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxIoDeviceControl
-title: UcxIoDeviceControl function
+title: UcxIoDeviceControl function (ucxcontroller.h)
 description: Allows USB host controller extension (UCX) to handle an I/O control code (IOCTL) request from user mode.
 old-location: buses\_ucxiodevicecontrol.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UcxIoDeviceControl
+- UcxIoDeviceControl
 product:
 - Windows
 targetos: Windows

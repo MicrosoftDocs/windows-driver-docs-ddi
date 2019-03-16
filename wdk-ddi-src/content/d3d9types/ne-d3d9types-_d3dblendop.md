@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DBLENDOP
-title: _D3DBLENDOP
+title: _D3DBLENDOP (d3d9types.h)
 description: 
 ms.assetid: 65633e28-5a35-49d1-8120-7732a5f47f02
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DBLENDOP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DBLENDOP
+- _D3DBLENDOP
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

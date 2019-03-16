@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.InitializeObjectAttributes
-title: InitializeObjectAttributes macro
+title: InitializeObjectAttributes macro (wudfwdm.h)
 description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
 old-location: kernel\initializeobjectattributes.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfwdm.h
+- wudfwdm.h
 api_name:
--	InitializeObjectAttributes
+- InitializeObjectAttributes
 product:
 - Windows
 targetos: Windows

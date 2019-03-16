@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisDeleteNPagedLookasideList
-title: NdisDeleteNPagedLookasideList macro
+title: NdisDeleteNPagedLookasideList macro (ndis.h)
 description: The NdisDeleteNPagedLookasideList function removes a nonpaged lookaside list from the system.
 old-location: netvista\ndisdeletenpagedlookasidelist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisDeleteNPagedLookasideList
+- NdisDeleteNPagedLookasideList
 product:
 - Windows
 targetos: Windows

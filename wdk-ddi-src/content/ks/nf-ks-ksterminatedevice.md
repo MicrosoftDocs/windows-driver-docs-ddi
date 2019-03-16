@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsTerminateDevice
-title: KsTerminateDevice function
+title: KsTerminateDevice function (ks.h)
 description: The KsTerminateDevice function removes an AVStream device.
 old-location: stream\ksterminatedevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsTerminateDevice
+- KsTerminateDevice
 product:
 - Windows
 targetos: Windows

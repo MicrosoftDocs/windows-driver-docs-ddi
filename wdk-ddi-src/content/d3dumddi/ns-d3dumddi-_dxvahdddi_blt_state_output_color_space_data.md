@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
-title: "_DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
+title: _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure describes data that specifies the color space of the output.
 old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
+- DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 product:
 - Windows
 targetos: Windows

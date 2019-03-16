@@ -1,6 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
-title: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function
+title: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.
 old-location: spb\spb_transfer_list_entry_init_simple.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
+- SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
 product:
 - Windows
 targetos: Windows

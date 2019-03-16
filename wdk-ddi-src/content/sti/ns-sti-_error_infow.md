@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._ERROR_INFOW
-title: "_ERROR_INFOW"
+title: _ERROR_INFOW (sti.h)
 description: The STI_ERROR_INFO structure is used as a parameter for the IStiDevice::GetLastErrorInfo and IStiUSD::GetLastErrorInfo methods. It is also used as a member of the STI_DIAG structure.
 old-location: image\sti_error_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STI_ERROR_INFO
+- STI_ERROR_INFO
 product:
 - Windows
 targetos: Windows

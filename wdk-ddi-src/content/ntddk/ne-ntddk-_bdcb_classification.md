@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_CLASSIFICATION
-title: "_BDCB_CLASSIFICATION"
+title: _BDCB_CLASSIFICATION (ntddk.h)
 description: The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
 old-location: kernel\bdcb_classification.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	BDCB_CLASSIFICATION
+- BDCB_CLASSIFICATION
 product:
 - Windows
 targetos: Windows

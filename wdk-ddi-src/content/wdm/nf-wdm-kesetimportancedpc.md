@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetImportanceDpc
-title: KeSetImportanceDpc function
+title: KeSetImportanceDpc function (wdm.h)
 description: The KeSetImportanceDpc routine specifies how soon the DPC routine is run.
 old-location: kernel\kesetimportancedpc.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetImportanceDpc
+- KeSetImportanceDpc
 product:
 - Windows
 targetos: Windows

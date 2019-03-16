@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterBugCheckCallback
-title: KeRegisterBugCheckCallback function
+title: KeRegisterBugCheckCallback function (wdm.h)
 description: The KeRegisterBugCheckCallback routine registers a BugCheckCallback routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRegisterBugCheckCallback
+- KeRegisterBugCheckCallback
 product:
 - Windows
 targetos: Windows

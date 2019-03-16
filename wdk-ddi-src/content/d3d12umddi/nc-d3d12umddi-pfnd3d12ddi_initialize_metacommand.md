@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_INITIALIZE_METACOMMAND
-title: PFND3D12DDI_INITIALIZE_METACOMMAND
+title: PFND3D12DDI_INITIALIZE_METACOMMAND (d3d12umddi.h)
 author: mimisasouvanh
 ms.author: misaso
 description: Implemented by the client driver to initialize a meta-command.
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_INITIALIZE_METACOMMAND
+- PFND3D12DDI_INITIALIZE_METACOMMAND
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSAUDIOENGINE_DESCRIPTOR
-title: "_tagKSAUDIOENGINE_DESCRIPTOR"
+title: _tagKSAUDIOENGINE_DESCRIPTOR (ksmedia.h)
 description: The KSAUDIOENGINE_DESCRIPTOR structure describes the static, external properties of the audio engine.
 old-location: audio\ksaudioengine_descriptor.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOENGINE_DESCRIPTOR
+- KSAUDIOENGINE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_ORIGIN
-title: "_TOKEN_ORIGIN"
+title: _TOKEN_ORIGIN (ntifs.h)
 description: The TOKEN_ORIGIN structure contains information about the origin of the logon session.
 old-location: ifsk\token_origin.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_ORIGIN
+- TOKEN_ORIGIN
 product:
 - Windows
 targetos: Windows

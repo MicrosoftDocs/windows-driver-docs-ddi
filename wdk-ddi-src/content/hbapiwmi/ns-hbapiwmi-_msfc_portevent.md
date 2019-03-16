@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_PortEvent
-title: "_MSFC_PortEvent"
+title: _MSFC_PortEvent (hbapiwmi.h)
 description: A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_portevent.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_PortEvent
+- MSFC_PortEvent
 product:
 - Windows
 targetos: Windows

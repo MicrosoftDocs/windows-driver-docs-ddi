@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_POWER_CONTROL_COMPLETE
-title: "_PEP_POWER_CONTROL_COMPLETE"
+title: _PEP_POWER_CONTROL_COMPLETE (pep_x.h)
 description: The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed.
 old-location: kernel\pep_power_control_complete.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_POWER_CONTROL_COMPLETE
+- PEP_POWER_CONTROL_COMPLETE
 product:
 - Windows
 targetos: Windows

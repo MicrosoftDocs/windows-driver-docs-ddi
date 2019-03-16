@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired
-title: IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired
+title: IWDTFEnhancedDeviceTestSupportActions2::IsRebootRequired (wdtfedtaction.h)
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isrebootrequired.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfedtaction.h
+- wdtfedtaction.h
 api_name:
--	IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired
+- IWDTFEnhancedDeviceTestSupportActions2.IsRebootRequired
 product:
 - Windows
 targetos: Windows

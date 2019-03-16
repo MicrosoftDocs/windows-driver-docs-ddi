@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetFirstChildFilter
-title: KsFilterFactoryGetFirstChildFilter function
+title: KsFilterFactoryGetFirstChildFilter function (ks.h)
 description: The KsFilterFactoryGetFirstChildFilter function returns the first instantiated filter created by FilterFactory.
 old-location: stream\ksfilterfactorygetfirstchildfilter.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsFilterFactoryGetFirstChildFilter
+- KsFilterFactoryGetFirstChildFilter
 product:
 - Windows
 targetos: Windows

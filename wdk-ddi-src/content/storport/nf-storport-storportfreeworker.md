@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeWorker
-title: StorPortFreeWorker function
+title: StorPortFreeWorker function (storport.h)
 description: Frees a Storport work item previously allocated by the StorPortInitializeWorker routine.
 old-location: storage\storportfreeworker.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortFreeWorker
+- StorPortFreeWorker
 product:
 - Windows
 targetos: Windows

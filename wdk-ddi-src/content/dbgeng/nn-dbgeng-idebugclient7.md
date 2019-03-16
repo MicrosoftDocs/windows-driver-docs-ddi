@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient7
-title: IDebugClient7
+title: IDebugClient7 (dbgeng.h)
 description: The IDebugClient7 interface is reserved for internal use.
 old-location: debugger\idebugclient7.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient7
+- IDebugClient7
 product:
 - Windows
 targetos: Windows

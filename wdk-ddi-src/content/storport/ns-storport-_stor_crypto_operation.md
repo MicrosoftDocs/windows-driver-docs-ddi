@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION
-title: _STOR_CRYPTO_OPERATION
+title: _STOR_CRYPTO_OPERATION (storport.h)
 description: 
 ms.assetid: 0b5c04ed-3097-4e15-9e7f-4fff35acd9ee
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_STOR_CRYPTO_OPERATION
+- _STOR_CRYPTO_OPERATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

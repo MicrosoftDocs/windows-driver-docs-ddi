@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_BUFFER_ULONG64
-title: WRITE_REGISTER_BUFFER_ULONG64 function
+title: WRITE_REGISTER_BUFFER_ULONG64 function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_BUFFER_ULONG64 function writes a number of ULONG64 values from a buffer to the specified register.
 old-location: wdf\write_register_buffer_ulong64.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_REGISTER_BUFFER_ULONG64
+- WRITE_REGISTER_BUFFER_ULONG64
 product:
 - Windows
 targetos: Windows

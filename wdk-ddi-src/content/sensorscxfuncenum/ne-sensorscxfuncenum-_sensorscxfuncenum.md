@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorscxfuncenum._SENSORSCXFUNCENUM
-title: _SENSORSCXFUNCENUM
+title: _SENSORSCXFUNCENUM (sensorscxfuncenum.h)
 description: The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API functions.
 ms.assetid: 818344e1-f99a-40a5-ae64-ab49d86530af
 ms.date: 04/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SENSORSCXFUNCENUM
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sensorscxfuncenum.h
+- sensorscxfuncenum.h
 api_name:
--	_SENSORSCXFUNCENUM
+- _SENSORSCXFUNCENUM
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

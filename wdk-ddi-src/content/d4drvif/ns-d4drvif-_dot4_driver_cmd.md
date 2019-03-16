@@ -1,6 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DRIVER_CMD
-title: "_DOT4_DRIVER_CMD"
+title: _DOT4_DRIVER_CMD (d4drvif.h)
 description: This topic describes the DOT4_DRIVER_CMD structure.
 old-location: print\dot4_driver_cmd.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	DOT4_DRIVER_CMD
+- DOT4_DRIVER_CMD
 product:
 - Windows
 targetos: Windows

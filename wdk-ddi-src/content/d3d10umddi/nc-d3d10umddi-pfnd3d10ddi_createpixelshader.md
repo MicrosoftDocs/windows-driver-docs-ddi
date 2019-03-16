@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEPIXELSHADER
-title: PFND3D10DDI_CREATEPIXELSHADER
+title: PFND3D10DDI_CREATEPIXELSHADER (d3d10umddi.h)
 description: The CreatePixelShader(D3D10) function creates a pixel shader.
 old-location: display\createpixelshader_d3d10_.htm
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreatePixelShader
+- CreatePixelShader
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
-title: "_USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"
+title: _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union is used to indicate the speed at which a USB 3.0 device is currently operating and whether it can operate at higher speed, when attached to a particular port.
 old-location: buses\usb_node_connection_information_ex_v2_flags.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
+- USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
 product:
 - Windows
 targetos: Windows

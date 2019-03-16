@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoPropagateActivityIdToThread
-title: IoPropagateActivityIdToThread function
+title: IoPropagateActivityIdToThread function (ntddk.h)
 description: The IoPropagateActivityIdToThread routine associates the activity ID from an IRP with the current thread.
 old-location: kernel\iopropagateactivityidtothread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoPropagateActivityIdToThread
+- IoPropagateActivityIdToThread
 product:
 - Windows
 targetos: Windows

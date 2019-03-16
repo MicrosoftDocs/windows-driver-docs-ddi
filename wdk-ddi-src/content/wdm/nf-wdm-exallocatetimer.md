@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateTimer
-title: ExAllocateTimer function
+title: ExAllocateTimer function (wdm.h)
 description: The ExAllocateTimer routine allocates and initializes a timer object.
 old-location: kernel\exallocatetimer.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExAllocateTimer
+- ExAllocateTimer
 product:
 - Windows
 targetos: Windows

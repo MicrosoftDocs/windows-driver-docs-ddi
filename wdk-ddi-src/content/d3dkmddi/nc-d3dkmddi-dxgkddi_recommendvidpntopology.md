@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RECOMMENDVIDPNTOPOLOGY
-title: DXGKDDI_RECOMMENDVIDPNTOPOLOGY
+title: DXGKDDI_RECOMMENDVIDPNTOPOLOGY (d3dkmddi.h)
 description: The DxgkDdiRecommendVidPnTopology function creates the topology of a specified VidPN or augments the topology with a new path to video present targets.
 old-location: display\dxgkddirecommendvidpntopology.htm
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiRecommendVidPnTopology
+- DxgkDdiRecommendVidPnTopology
 product:
 - Windows
 targetos: Windows

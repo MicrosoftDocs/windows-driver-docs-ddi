@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_1
-title: "_ATTRIBUTE_INFO_1"
+title: _ATTRIBUTE_INFO_1 (winddiui.h)
 description: The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	ATTRIBUTE_INFO_1
+- ATTRIBUTE_INFO_1
 product:
 - Windows
 targetos: Windows

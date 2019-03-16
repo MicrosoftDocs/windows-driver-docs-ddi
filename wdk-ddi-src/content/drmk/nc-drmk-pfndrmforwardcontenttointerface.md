@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOINTERFACE
-title: PFNDRMFORWARDCONTENTTOINTERFACE
+title: PFNDRMFORWARDCONTENTTOINTERFACE (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttointerface.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Drmk.h
+- Drmk.h
 api_name:
--	DRMForwardContentToInterface
+- DRMForwardContentToInterface
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateNodePagesForMdlEx
-title: MmAllocateNodePagesForMdlEx function
+title: MmAllocateNodePagesForMdlEx function (wdm.h)
 description: The MmAllocateNodePagesForMdlEx routine allocates nonpaged physical memory from an ideal node, and allocates an MDL structure to describe this memory.
 old-location: kernel\mmallocatenodepagesformdlex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateNodePagesForMdlEx
+- MmAllocateNodePagesForMdlEx
 product:
 - Windows
 targetos: Windows

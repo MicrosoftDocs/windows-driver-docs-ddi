@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_ADDITIONAL_IE
-title: "_DOT11_WFD_ADDITIONAL_IE"
+title: _DOT11_WFD_ADDITIONAL_IE (windot11.h)
 description: The DOT11_WFD_ADDITIONAL_IE structure represents an additional Information Element (IE) included in an OID_DOT11_WFD_ADDITIONAL_IE request. An additional IE contains both request and response data for probe and beacon operations.
 old-location: netvista\_dot11_wfd_additional_ie.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_ADDITIONAL_IE
+- DOT11_WFD_ADDITIONAL_IE
 product:
 - Windows
 targetos: Windows

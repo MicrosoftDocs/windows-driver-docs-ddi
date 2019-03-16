@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectWithTag
-title: ObReferenceObjectWithTag macro
+title: ObReferenceObjectWithTag macro (wdm.h)
 description: The ObReferenceObjectWithTag routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support object reference tracing.
 old-location: kernel\obreferenceobjectwithtag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReferenceObjectWithTag
+- ObReferenceObjectWithTag
 product:
 - Windows
 targetos: Windows

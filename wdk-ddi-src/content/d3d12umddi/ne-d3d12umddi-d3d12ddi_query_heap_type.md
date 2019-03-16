@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_QUERY_HEAP_TYPE
-title: D3D12DDI_QUERY_HEAP_TYPE
+title: D3D12DDI_QUERY_HEAP_TYPE (d3d12umddi.h)
 description: Type of a query heap, which is an array of query results.
 old-location: display\d3d12ddi_query_heap_type.htm
 ms.assetid: 8A1A42B5-D978-4019-825B-94DB81C44FEA
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_QUERY_HEAP_TYPE
+- D3D12DDI_QUERY_HEAP_TYPE
 product:
 - Windows
 targetos: Windows

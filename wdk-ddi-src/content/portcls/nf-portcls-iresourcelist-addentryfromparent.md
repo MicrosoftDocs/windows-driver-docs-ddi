@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.AddEntryFromParent
-title: IResourceList::AddEntryFromParent
+title: IResourceList::AddEntryFromParent (portcls.h)
 description: The AddEntryFromParent method adds to a resource list an entry found in the resource list's parent list.
 old-location: audio\iresourcelist_addentryfromparent.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.AddEntryFromParent
+- IResourceList.AddEntryFromParent
 product:
 - Windows
 targetos: Windows

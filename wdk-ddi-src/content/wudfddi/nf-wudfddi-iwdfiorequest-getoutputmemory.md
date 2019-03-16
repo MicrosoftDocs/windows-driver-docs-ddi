@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetOutputMemory
-title: IWDFIoRequest::GetOutputMemory
+title: IWDFIoRequest::GetOutputMemory (wudfddi.h)
 description: The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request.
 old-location: wdf\iwdfiorequest_getoutputmemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetOutputMemory
+- IWDFIoRequest.GetOutputMemory
 product:
 - Windows
 targetos: Windows

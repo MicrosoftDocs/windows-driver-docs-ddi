@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETDRIVERINFO2DATA
-title: "_DD_GETDRIVERINFO2DATA"
+title: _DD_GETDRIVERINFO2DATA (d3dhal.h)
 description: DirectX 8.0 and later versions only. DD_GETDRIVERINFO2DATA is passed in the lpvData member of the DD_GETDRIVERINFODATA structure when GUID_GetDriverInfo2 is specified in the guidInfo member of DD_GETDRIVERINFODATA in a DdGetDriverInfo call.
 old-location: display\dd_getdriverinfo2data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	DD_GETDRIVERINFO2DATA
+- DD_GETDRIVERINFO2DATA
 product:
 - Windows
 targetos: Windows

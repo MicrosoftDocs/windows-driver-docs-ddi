@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_CONTROLLER_INFO
-title: "_MPIO_CONTROLLER_INFO"
+title: _MPIO_CONTROLLER_INFO (mpiowmi.h)
 description: The MPIO_CONTROLLER_INFO structure represents a storage controller.
 old-location: storage\mpio_controller_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_CONTROLLER_INFO
+- MPIO_CONTROLLER_INFO
 product:
 - Windows
 targetos: Windows

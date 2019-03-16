@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_CAPS_EX
-title: "_WWAN_DEVICE_CAPS_EX"
+title: _WWAN_DEVICE_CAPS_EX (wwan.h)
 description: The WWAN_DEVICE_CAPS_EX structure represents the capabilities of the mobile broadband device.
 old-location: netvista\wwan_device_caps_ex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_CAPS_EX
+- WWAN_DEVICE_CAPS_EX
 product:
 - Windows
 targetos: Windows

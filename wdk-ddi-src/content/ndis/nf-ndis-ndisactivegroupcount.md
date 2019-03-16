@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisActiveGroupCount
-title: NdisActiveGroupCount function
+title: NdisActiveGroupCount function (ndis.h)
 description: The NdisActiveGroupCount function returns the number of processor groups that are currently active in the local computer system.
 old-location: netvista\ndisactivegroupcount.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisActiveGroupCount
+- NdisActiveGroupCount
 product:
 - Windows
 targetos: Windows

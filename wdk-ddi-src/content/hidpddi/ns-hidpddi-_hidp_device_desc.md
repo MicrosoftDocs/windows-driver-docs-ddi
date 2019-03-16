@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_DEVICE_DESC
-title: "_HIDP_DEVICE_DESC"
+title: _HIDP_DEVICE_DESC (hidpddi.h)
 description: Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription.
 old-location: hid\hidp_device_desc.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidpddi.h
+- Hidpddi.h
 api_name:
--	HIDP_DEVICE_DESC
+- HIDP_DEVICE_DESC
 product:
 - Windows
 targetos: Windows

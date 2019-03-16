@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_ENABLE_VDM
-title: IOCTL_VIDEO_ENABLE_VDM
+title: IOCTL_VIDEO_ENABLE_VDM (ntddvdeo.h)
 description: This IOCTL is not handled by video miniport drivers. It is handled entirely by the system-supplied video port driver.
 old-location: display\ioctl_video_enable_vdm.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_ENABLE_VDM
+- IOCTL_VIDEO_ENABLE_VDM
 product:
 - Windows
 targetos: Windows

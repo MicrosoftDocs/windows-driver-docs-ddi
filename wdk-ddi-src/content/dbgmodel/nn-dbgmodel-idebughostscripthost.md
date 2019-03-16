@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostScriptHost
-title: IDebugHostScriptHost
+title: IDebugHostScriptHost (dbgmodel.h)
 description: An interface which the underlying debugger host must implement in order to manage data model scripts.
 ms.assetid: d0376d3b-d770-44e6-8b8f-5d8cc361bf14
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostScriptHost
-product: Windows
+- IDebugHostScriptHost
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

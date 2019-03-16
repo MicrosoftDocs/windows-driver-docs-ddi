@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.QueryInterface
-title: IComparableConcept::QueryInterface
+title: IComparableConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 90f5872f-e5b4-4a61-ab92-be2a6bae2030
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IComparableConcept.QueryInterface
-product: Windows
+- IComparableConcept.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetQueuedLimit
-title: D3DKMTSetQueuedLimit function
+title: D3DKMTSetQueuedLimit function (d3dkmthk.h)
 description: The D3DKMTSetQueuedLimit function sets or retrieves the limit for the number of operations of the given type that can be queued for the given device.
 old-location: display\d3dkmtsetqueuedlimit.htm
 ms.assetid: 184473e4-603f-40a0-a4ea-c15d5b0b0b35
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetQueuedLimit
+- D3DKMTSetQueuedLimit
 product:
 - Windows
 targetos: Windows

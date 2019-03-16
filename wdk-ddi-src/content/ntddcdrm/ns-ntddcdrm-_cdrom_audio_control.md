@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_AUDIO_CONTROL
-title: "_CDROM_AUDIO_CONTROL"
+title: _CDROM_AUDIO_CONTROL (ntddcdrm.h)
 description: The CDROM_AUDIO_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_CONTROL request to report the audio playback mode.
 old-location: storage\cdrom_audio_control.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_AUDIO_CONTROL
+- CDROM_AUDIO_CONTROL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PSCREATETHREADNOTIFYTYPE
-title: "_PSCREATETHREADNOTIFYTYPE"
+title: _PSCREATETHREADNOTIFYTYPE (ntddk.h)
 description: Indicates the type of thread notification. This enumeration is used in PsSetCreateThreadNotifyRoutineEx to register callback notifications associated with thread creation or deletion.
 old-location: kernel\pscreatethreadnotifytype.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PSCREATETHREADNOTIFYTYPE
+- PSCREATETHREADNOTIFYTYPE
 product:
 - Windows
 targetos: Windows

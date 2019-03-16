@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_FEATURE_STATUS_TYPE
-title: "_NDIS_SWITCH_FEATURE_STATUS_TYPE"
+title: _NDIS_SWITCH_FEATURE_STATUS_TYPE (ntddndis.h)
 description: The NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration specifies the type of status information for a custom policy property, or feature, of a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SWITCH_FEATURE_STATUS_TYPE
+- NDIS_SWITCH_FEATURE_STATUS_TYPE
 product:
 - Windows
 targetos: Windows

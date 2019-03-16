@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._T1_DATA
-title: "_T1_DATA"
+title: _T1_DATA (smclib.h)
 description: The T1_DATA structure is used by the smart card driver library to process T1 I/O.
 old-location: smartcrd\t1_data.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	T1_DATA, *PT1_DATA
+- T1_DATA, *PT1_DATA
 product:
 - Windows
 targetos: Windows

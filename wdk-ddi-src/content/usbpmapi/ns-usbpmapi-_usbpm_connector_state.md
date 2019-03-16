@@ -1,6 +1,6 @@
 ---
 UID: NS:usbpmapi._USBPM_CONNECTOR_STATE
-title: _USBPM_CONNECTOR_STATE
+title: _USBPM_CONNECTOR_STATE (usbpmapi.h)
 description: Describes the state of a connector.
 ms.assetid: 5430de09-aae7-49da-ae7f-50fd996e4386
 ms.date: 09/30/2018
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_CONNECTOR_STATE
-product: Windows
+- _USBPM_CONNECTOR_STATE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

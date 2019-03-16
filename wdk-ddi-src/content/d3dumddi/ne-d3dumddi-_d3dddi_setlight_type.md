@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_SETLIGHT_TYPE
-title: _D3DDDI_SETLIGHT_TYPE
+title: _D3DDDI_SETLIGHT_TYPE (d3dumddi.h)
 description: The set light type.
 ms.assetid: 45ad2d59-7246-49d0-b76a-b4ad792d1bd0
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_SETLIGHT_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDI_SETLIGHT_TYPE
+- _D3DDDI_SETLIGHT_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

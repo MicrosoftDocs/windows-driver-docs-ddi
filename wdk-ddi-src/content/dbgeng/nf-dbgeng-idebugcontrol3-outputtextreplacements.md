@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputTextReplacements
-title: IDebugControl3::OutputTextReplacements
+title: IDebugControl3::OutputTextReplacements (dbgeng.h)
 description: The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream.
 old-location: debugger\outputtextreplacements.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl2.OutputTextReplacements
--	IDebugControl3.OutputTextReplacements
+- IDebugControl2.OutputTextReplacements
+- IDebugControl3.OutputTextReplacements
 product:
 - Windows
 targetos: Windows

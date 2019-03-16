@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_FULL_INFORMATION
-title: "_FILTER_FULL_INFORMATION"
+title: _FILTER_FULL_INFORMATION (fltuserstructures.h)
 description: The FILTER_FULL_INFORMATION structure contains full information for a minifilter driver.
 old-location: ifsk\filter_full_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	FILTER_FULL_INFORMATION
+- FILTER_FULL_INFORMATION
 product:
 - Windows
 targetos: Windows

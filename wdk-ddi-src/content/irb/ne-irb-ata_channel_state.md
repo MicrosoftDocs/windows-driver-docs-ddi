@@ -1,6 +1,6 @@
 ---
 UID: NE:irb.__unnamed_enum_4
-title: ATA_CHANNEL_STATE
+title: ATA_CHANNEL_STATE (irb.h)
 description: The ATA_CHANNEL_STATE enumeration type indicates the state of the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_channel_state.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	ATA_CHANNEL_STATE
+- ATA_CHANNEL_STATE
 product:
 - Windows
 targetos: Windows

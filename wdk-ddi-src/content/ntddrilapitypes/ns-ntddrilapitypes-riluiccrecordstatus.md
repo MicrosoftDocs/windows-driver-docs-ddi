@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCRECORDSTATUS
-title: RILUICCRECORDSTATUS
+title: RILUICCRECORDSTATUS (ntddrilapitypes.h)
 description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILUICCRECORDSTATUS
+- RILUICCRECORDSTATUS
 product:
 - Windows
 targetos: Windows

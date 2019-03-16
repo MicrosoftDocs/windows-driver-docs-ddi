@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.GetMyDevicePortName
-title: IStiDeviceControl::GetMyDevicePortName
+title: IStiDeviceControl::GetMyDevicePortName (stiusd.h)
 description: The IStiDeviceControl::GetMyDevicePortName method allows a user-mode still image minidriver to obtain a device's port name.
 old-location: image\istidevicecontrol_getmydeviceportname.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	stiusd.h
+- stiusd.h
 api_name:
--	IStiDeviceControl.GetMyDevicePortName
+- IStiDeviceControl.GetMyDevicePortName
 product:
 - Windows
 targetos: Windows

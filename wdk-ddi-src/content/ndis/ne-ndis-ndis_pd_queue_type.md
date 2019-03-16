@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis.__unnamed_enum_0
-title: NDIS_PD_QUEUE_TYPE
+title: NDIS_PD_QUEUE_TYPE (ndis.h)
 description: The NDIS_PD_QUEUE_TYPE enumeration defines types of PacketDirect Provider Interface (PDPI) queues. Its enumeration values are used in the QueueType member of the NDIS_PD_QUEUE_PARAMETERS structure.
 old-location: netvista\ndis_pd_queue_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_QUEUE_TYPE
+- NDIS_PD_QUEUE_TYPE
 product:
 - Windows
 targetos: Windows

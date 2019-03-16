@@ -1,6 +1,6 @@
 ---
 UID: NF:vmbuskernelmodeclientlibapi.VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
-title: VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function
+title: VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function (vmbuskernelmodeclientlibapi.h)
 description: The VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function saves callback functions to be used for state changes for a channel.
 old-location: netvista\vmb_channel_state_change_callbacks_init.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	VmbusKernelModeClientLibApi.h
+- VmbusKernelModeClientLibApi.h
 api_name:
--	VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
+- VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

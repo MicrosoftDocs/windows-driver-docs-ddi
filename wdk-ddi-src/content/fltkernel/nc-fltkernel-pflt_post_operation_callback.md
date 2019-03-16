@@ -1,6 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_POST_OPERATION_CALLBACK
-title: PFLT_POST_OPERATION_CALLBACK
+title: PFLT_POST_OPERATION_CALLBACK (fltkernel.h)
 description: A minifilter driver can register one or more routines of type PFLT_POST_OPERATION_CALLBACK to perform completion processing for I/O operations.
 old-location: ifsk\pflt_post_operation_callback.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	PFLT_POST_OPERATION_CALLBACK
+- PFLT_POST_OPERATION_CALLBACK
 product:
 - Windows
 targetos: Windows

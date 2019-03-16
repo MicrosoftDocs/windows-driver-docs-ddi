@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PFREE_DMA_BUFFER_WITH_NOTIFICATION
-title: PFREE_DMA_BUFFER_WITH_NOTIFICATION
+title: PFREE_DMA_BUFFER_WITH_NOTIFICATION (hdaudio.h)
 description: The FreeDmaBufferWithNotification routine frees a DMA buffer that was previously allocated by a call to AllocateDmaBufferWithNotification.The function pointer type for a FreeDmaBufferWithNotification routine is defined as follows.
 old-location: audio\freedmabufferwithnotification.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Hdaudio.h
+- Hdaudio.h
 api_name:
--	FreeDmaBufferWithNotification
+- FreeDmaBufferWithNotification
 product:
 - Windows
 targetos: Windows

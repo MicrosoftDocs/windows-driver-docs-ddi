@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTER_DISPATCH
-title: "_KSFILTER_DISPATCH"
+title: _KSFILTER_DISPATCH (ks.h)
 description: The KSFILTER_DISPATCH structure describes the client callbacks that are made to notify the client of certain events on a given filter type.
 old-location: stream\ksfilter_dispatch.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSFILTER_DISPATCH
+- KSFILTER_DISPATCH
 product:
 - Windows
 targetos: Windows

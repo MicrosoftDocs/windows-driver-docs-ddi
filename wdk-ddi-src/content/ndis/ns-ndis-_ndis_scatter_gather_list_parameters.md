@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SCATTER_GATHER_LIST_PARAMETERS
-title: "_NDIS_SCATTER_GATHER_LIST_PARAMETERS"
+title: _NDIS_SCATTER_GATHER_LIST_PARAMETERS (ndis.h)
 description: The NDIS_SCATTER_GATHER_LIST_PARAMETERS structure specifies parameters that NDIS uses to build a scatter/gather list for a buffer.
 old-location: netvista\ndis_scatter_gather_list_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_SCATTER_GATHER_LIST_PARAMETERS
+- NDIS_SCATTER_GATHER_LIST_PARAMETERS
 product:
 - Windows
 targetos: Windows

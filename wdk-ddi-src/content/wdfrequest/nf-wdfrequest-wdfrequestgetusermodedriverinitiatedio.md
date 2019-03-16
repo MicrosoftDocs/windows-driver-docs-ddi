@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetUserModeDriverInitiatedIo
-title: WdfRequestGetUserModeDriverInitiatedIo function
+title: WdfRequestGetUserModeDriverInitiatedIo function (wdfrequest.h)
 description: The WdfRequestGetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.
 old-location: wdf\wdfrequestgetusermodeinitiatedio.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfRequestGetUserModeDriverInitiatedIo
+- WdfRequestGetUserModeDriverInitiatedIo
 product:
 - Windows
 targetos: Windows

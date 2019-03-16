@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_POWER_RUNTIME_COMPONENT
-title: "_DXGK_POWER_RUNTIME_COMPONENT"
+title: _DXGK_POWER_RUNTIME_COMPONENT (d3dkmddi.h)
 description: Describes information about a power component&#8212;for example, a graphics processing engine, a display device, or a block of memory.
 old-location: display\dxgk_power_runtime_component.htm
 ms.assetid: ed7e6fc4-651d-4dc3-9c90-cca3c5f0eb67
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_POWER_RUNTIME_COMPONENT
+- DXGK_POWER_RUNTIME_COMPONENT
 product:
 - Windows
 targetos: Windows

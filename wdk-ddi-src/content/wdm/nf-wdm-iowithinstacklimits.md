@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWithinStackLimits
-title: IoWithinStackLimits function
+title: IoWithinStackLimits function (wdm.h)
 description: The IoWithinStackLimits routine determines whether a region of memory is within the stack limit of the current thread.
 old-location: kernel\iowithinstacklimits.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoWithinStackLimits
+- IoWithinStackLimits
 product:
 - Windows
 targetos: Windows

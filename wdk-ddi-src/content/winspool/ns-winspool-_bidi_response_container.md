@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_CONTAINER
-title: "_BIDI_RESPONSE_CONTAINER"
+title: _BIDI_RESPONSE_CONTAINER (winspool.h)
 description: The BIDI_RESPONSE_CONTAINER structure is a container for a list of bidi responses.
 old-location: print\bidi_response_container.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BIDI_RESPONSE_CONTAINER
+- BIDI_RESPONSE_CONTAINER
 product:
 - Windows
 targetos: Windows

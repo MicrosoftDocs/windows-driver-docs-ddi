@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_INVALIDATE_OFFLOAD_HANDLER
-title: W_INVALIDATE_OFFLOAD_HANDLER
+title: W_INVALIDATE_OFFLOAD_HANDLER (ndischimney.h)
 description: The MiniportInvalidateOffload function invalidates previously offloaded TCP chimney state objects.
 old-location: netvista\miniportinvalidateoffload.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	MiniportInvalidateOffload
+- MiniportInvalidateOffload
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
-title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
+title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 (d3d12umddi.h)
 description: Video decode input stream arguments.
 old-location: display\d3d12ddi-video-decode-input-stream-arguments-0032.htm
 ms.assetid: ca647cd3-357b-4cd6-aa1c-6a03d5a77f10
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
+- D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032
 product:
 - Windows
 targetos: Windows

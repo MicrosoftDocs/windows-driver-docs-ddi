@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
-title: *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
+title: PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
+- *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

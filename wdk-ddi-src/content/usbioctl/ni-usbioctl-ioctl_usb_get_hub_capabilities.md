@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_HUB_CAPABILITIES
-title: IOCTL_USB_GET_HUB_CAPABILITIES
+title: IOCTL_USB_GET_HUB_CAPABILITIES (usbioctl.h)
 description: The IOCTL_USB_GET_HUB_CAPABILITIES I/O control request retrieves the capabilities of a USB hub.
 old-location: buses\ioctl_usb_get_hub_capabilities.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_HUB_CAPABILITIES
+- IOCTL_USB_GET_HUB_CAPABILITIES
 product:
 - Windows
 targetos: Windows

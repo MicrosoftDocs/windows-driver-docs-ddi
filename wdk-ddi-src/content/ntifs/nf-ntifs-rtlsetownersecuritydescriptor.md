@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSetOwnerSecurityDescriptor
-title: RtlSetOwnerSecurityDescriptor function
+title: RtlSetOwnerSecurityDescriptor function (ntifs.h)
 description: The RtlSetOwnerSecurityDescriptor routine sets the owner information of an absolute-format security descriptor. It replaces any owner information that is already present in the security descriptor.
 old-location: ifsk\rtlsetownersecuritydescriptor.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlSetOwnerSecurityDescriptor
+- RtlSetOwnerSecurityDescriptor
 product:
 - Windows
 targetos: Windows

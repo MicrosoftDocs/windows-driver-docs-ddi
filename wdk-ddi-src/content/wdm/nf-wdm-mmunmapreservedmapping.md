@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapReservedMapping
-title: MmUnmapReservedMapping function
+title: MmUnmapReservedMapping function (wdm.h)
 description: The MmUnmapReservedMapping routine unmaps a memory buffer that was mapped by the MmMapLockedPagesWithReservedMapping routine.
 old-location: kernel\mmunmapreservedmapping.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmUnmapReservedMapping
+- MmUnmapReservedMapping
 product:
 - Windows
 targetos: Windows

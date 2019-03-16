@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmPrefetchPages
-title: MmPrefetchPages function
+title: MmPrefetchPages function (ntifs.h)
 description: The MmPrefetchPages routine reads groups of pages from secondary storage in the optimal fashion.
 old-location: ifsk\mmprefetchpages.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmPrefetchPages
+- MmPrefetchPages
 product:
 - Windows
 targetos: Windows

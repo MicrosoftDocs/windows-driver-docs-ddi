@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltInitExtraCreateParameterLookasideList
-title: FltInitExtraCreateParameterLookasideList function
+title: FltInitExtraCreateParameterLookasideList function (fltkernel.h)
 description: The FltInitExtraCreateParameterLookasideList routine initializes a paged or non-paged pool lookaside list used for the allocation of one or more extra create parameter context structures (ECPs) of fixed size.
 old-location: ifsk\fltinitextracreateparameterlookasidelist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltInitExtraCreateParameterLookasideList
+- FltInitExtraCreateParameterLookasideList
 product:
 - Windows
 targetos: Windows

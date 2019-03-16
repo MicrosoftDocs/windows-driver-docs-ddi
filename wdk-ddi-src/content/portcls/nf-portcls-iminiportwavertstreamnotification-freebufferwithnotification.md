@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.FreeBufferWithNotification
-title: IMiniportWaveRTStreamNotification::FreeBufferWithNotification
+title: IMiniportWaveRTStreamNotification::FreeBufferWithNotification (portcls.h)
 description: The FreeBufferWithNotification method is used to free an audio buffer previously allocated with a call to IMiniportWaveRTStreamNotification::AllocateBufferWithNotification.
 old-location: audio\iminiportwavertstreamnotification_freebufferwithnotification.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTStreamNotification.FreeBufferWithNotification
+- IMiniportWaveRTStreamNotification.FreeBufferWithNotification
 product:
 - Windows
 targetos: Windows

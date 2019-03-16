@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetPnpCapability
-title: IWDFDeviceInitialize::SetPnpCapability
+title: IWDFDeviceInitialize::SetPnpCapability (wudfddi.h)
 description: The SetPnpCapability method sets the specified Plug and Play (PnP) capability of a device to the specified state.
 old-location: wdf\iwdfdeviceinitialize_setpnpcapability.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize.SetPnpCapability
+- IWDFDeviceInitialize.SetPnpCapability
 product:
 - Windows
 targetos: Windows

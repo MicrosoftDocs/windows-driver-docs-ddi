@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_ALIGNMENT
-title: PGET_DMA_ALIGNMENT
+title: PGET_DMA_ALIGNMENT (wdm.h)
 description: The GetDmaAlignment routine returns the alignment requirements of the DMA system.
 old-location: kernel\getdmaalignment.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetDmaAlignment
+- GetDmaAlignment
 product:
 - Windows
 targetos: Windows

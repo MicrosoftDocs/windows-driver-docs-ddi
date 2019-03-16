@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPLPRESENTFLAGS
-title: "_D3DKMT_OUTPUTDUPLPRESENTFLAGS"
+title: _D3DKMT_OUTPUTDUPLPRESENTFLAGS (d3dkmthk.h)
 description: Describes options for a Desktop Duplication API swapchain present operation.
 old-location: display\d3dkmt_outputduplpresentflags.htm
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_OUTPUTDUPLPRESENTFLAGS
+- D3DKMT_OUTPUTDUPLPRESENTFLAGS
 product:
 - Windows
 targetos: Windows

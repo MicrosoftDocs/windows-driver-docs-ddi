@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmGetContentRights
-title: DrmGetContentRights function
+title: DrmGetContentRights function (drmk.h)
 description: The DrmGetContentRights function retrieves the DRM content rights assigned to a DRM content ID.
 old-location: audio\drmgetcontentrights.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Drmk.lib
--	Drmk.dll
+- Drmk.lib
+- Drmk.dll
 api_name:
--	DrmGetContentRights
+- DrmGetContentRights
 product:
 - Windows
 targetos: Windows

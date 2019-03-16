@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_CERTIFICATE
-title: "_AACS_CERTIFICATE"
+title: _AACS_CERTIFICATE (ntddcdvd.h)
 description: The AACS_CERTIFICATE structure contains a cryptographically random 160-bit value, followed by a 92-byte certificate.
 old-location: storage\aacs_certificate.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_CERTIFICATE
+- AACS_CERTIFICATE
 product:
 - Windows
 targetos: Windows

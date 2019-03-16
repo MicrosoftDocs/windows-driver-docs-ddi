@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_FIRST_NB
-title: NET_BUFFER_LIST_FIRST_NB macro
+title: NET_BUFFER_LIST_FIRST_NB macro (ndis.h)
 description: NET_BUFFER_LIST_FIRST_NB is a macro that NDIS drivers use to get the first NET_BUFFER structure in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 907baec2-ceec-40e7-b372-9771ffd160bc
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_FIRST_NB
+- NET_BUFFER_LIST_FIRST_NB
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

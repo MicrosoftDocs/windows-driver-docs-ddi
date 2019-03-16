@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlDeregisterUncProvider
-title: FsRtlDeregisterUncProvider function
+title: FsRtlDeregisterUncProvider function (ntifs.h)
 description: The FsRtlDeregisterUncProvider routine deregisters a redirector that was registered as a Universal Naming Convention (UNC) provider with the multiple UNC provider (MUP).
 old-location: ifsk\fsrtlderegisteruncprovider.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlDeregisterUncProvider
+- FsRtlDeregisterUncProvider
 product:
 - Windows
 targetos: Windows

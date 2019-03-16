@@ -1,6 +1,6 @@
 ---
 UID: NI:avcstrm.IOCTL_AVCSTRM_CLASS
-title: IOCTL_AVCSTRM_CLASS
+title: IOCTL_AVCSTRM_CLASS (avcstrm.h)
 description: An AV/C subunit driver uses the IRP_MJ_INTERNAL_DEVICE_CONTROL IRP, with the IoControlCode member set to IOCTL_AVCSTRM_CLASS, to communicate with avcstrm.sys.
 old-location: stream\ioctl_avcstrm_class.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	IOCTL_AVCSTRM_CLASS
+- IOCTL_AVCSTRM_CLASS
 product:
 - Windows
 targetos: Windows

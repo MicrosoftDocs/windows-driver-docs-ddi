@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_MODE
-title: IOCTL_LAMP_SET_MODE
+title: IOCTL_LAMP_SET_MODE (lamp.h)
 description: The IOCTL_LAMP_SET_MODE control code sets the mode in which the lamp operates.
 old-location: stream\ioctl_lamp_set_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	IOCTL_LAMP_SET_MODE
+- IOCTL_LAMP_SET_MODE
 product:
 - Windows
 targetos: Windows

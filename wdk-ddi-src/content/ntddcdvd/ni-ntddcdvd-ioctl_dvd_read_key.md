@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_READ_KEY
-title: IOCTL_DVD_READ_KEY
+title: IOCTL_DVD_READ_KEY (ntddcdvd.h)
 description: Returns a copy-protection key of the specified type:\_challenge key, bus key, title key, read RPC key, set RPC key, or disk key.
 old-location: storage\ioctl_dvd_read_key.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_DVD_READ_KEY
+- IOCTL_DVD_READ_KEY
 product:
 - Windows
 targetos: Windows

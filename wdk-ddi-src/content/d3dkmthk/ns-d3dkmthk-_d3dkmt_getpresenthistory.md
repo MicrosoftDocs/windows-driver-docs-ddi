@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETPRESENTHISTORY
-title: "_D3DKMT_GETPRESENTHISTORY"
+title: _D3DKMT_GETPRESENTHISTORY (d3dkmthk.h)
 description: The D3DKMT_GETPRESENTHISTORY structure describes the state of copying history.
 old-location: display\d3dkmt_getpresenthistory.htm
 ms.assetid: 6d9b0473-544f-43aa-9358-ec51d84d45d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_GETPRESENTHISTORY
+- D3DKMT_GETPRESENTHISTORY
 product:
 - Windows
 targetos: Windows

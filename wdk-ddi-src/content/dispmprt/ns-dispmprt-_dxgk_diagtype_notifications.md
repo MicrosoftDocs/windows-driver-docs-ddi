@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGTYPE_NOTIFICATIONS
-title: _DXGK_DIAGTYPE_NOTIFICATIONS
+title: _DXGK_DIAGTYPE_NOTIFICATIONS (dispmprt.h)
 description: A structure used to identify one or more diagnostic types in the Notifications category.
 ms.assetid: cfebcf14-30cd-4577-a25d-98eea944834e
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGTYPE_NOTIFICATIONS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGTYPE_NOTIFICATIONS
+- _DXGK_DIAGTYPE_NOTIFICATIONS
 product: 
 - Windows
 targetos: Windows

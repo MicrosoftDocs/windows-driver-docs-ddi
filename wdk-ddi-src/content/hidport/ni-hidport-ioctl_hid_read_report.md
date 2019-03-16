@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_READ_REPORT
-title: IOCTL_HID_READ_REPORT
+title: IOCTL_HID_READ_REPORT (hidport.h)
 description: The IOCTL_HID_READ_REPORT request transfers an input report from a HIDClass device into the HID class driver's buffer.
 old-location: hid\ioctl_hid_read_report.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_READ_REPORT
+- IOCTL_HID_READ_REPORT
 product:
 - Windows
 targetos: Windows

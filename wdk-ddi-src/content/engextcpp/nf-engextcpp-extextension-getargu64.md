@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetArgU64
-title: ExtExtension::GetArgU64
+title: ExtExtension::GetArgU64 (engextcpp.h)
 description: The GetArgU64 method returns the value of a named expression argument from the command line used to invoke the current extension command.
 old-location: debugger\getargu64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.GetArgU64
+- ExtExtension.GetArgU64
 product:
 - Windows
 targetos: Windows

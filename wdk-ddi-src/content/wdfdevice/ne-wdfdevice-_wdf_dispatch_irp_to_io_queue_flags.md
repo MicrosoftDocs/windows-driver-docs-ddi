@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
-title: "_WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS"
+title: _WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS (wdfdevice.h)
 description: The WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS enumeration type defines flags that the driver can specify when it calls WdfDeviceWdmDispatchIrpToIoQueue.
 old-location: wdf\wdf_dispatch_irp_to_io_queue_flags.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
+- WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
 product:
 - Windows
 targetos: Windows

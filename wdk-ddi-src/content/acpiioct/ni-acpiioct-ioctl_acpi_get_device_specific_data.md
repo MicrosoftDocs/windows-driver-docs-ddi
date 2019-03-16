@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-title: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
+title: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA (acpiioct.h)
 description: The IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code is used to get device specific data.
 old-location: acpi\ioctl_acpi_get_device_specific_data.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
+- IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
 product:
 - Windows
 targetos: Windows

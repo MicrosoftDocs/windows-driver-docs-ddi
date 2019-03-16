@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._HUB_INFO_FROM_PARENT
-title: "_HUB_INFO_FROM_PARENT"
+title: _HUB_INFO_FROM_PARENT (ucxroothub.h)
 description: Describes information about a hub from its parent device.
 old-location: buses\_hub_info_from_parent.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	HUB_INFO_FROM_PARENT
+- HUB_INFO_FROM_PARENT
 product:
 - Windows
 targetos: Windows

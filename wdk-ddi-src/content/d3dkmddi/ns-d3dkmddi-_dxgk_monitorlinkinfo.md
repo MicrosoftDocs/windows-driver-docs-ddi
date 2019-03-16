@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITORLINKINFO
-title: "_DXGK_MONITORLINKINFO"
+title: _DXGK_MONITORLINKINFO (d3dkmddi.h)
 description: This structure was defined in WDDM 2.1, however the usage hints and capabilities structure definitions were nested within DXGK_MONITORLINKINFO.
 old-location: display\dxgk_monitorlinkinfo.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MONITORLINKINFO
+- DXGK_MONITORLINKINFO
 product:
 - Windows
 targetos: Windows

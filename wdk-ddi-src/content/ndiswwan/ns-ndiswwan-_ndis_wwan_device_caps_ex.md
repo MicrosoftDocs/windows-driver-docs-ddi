@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_CAPS_EX
-title: "_NDIS_WWAN_DEVICE_CAPS_EX"
+title: _NDIS_WWAN_DEVICE_CAPS_EX (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_CAPS_EX structure represents the capabilities of the MB device.
 old-location: netvista\ndis_wwan_device_caps_ex.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_CAPS_EX
+- NDIS_WWAN_DEVICE_CAPS_EX
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListGetTagForContext0
-title: FwpsNetBufferListGetTagForContext0 function
+title: FwpsNetBufferListGetTagForContext0 function (fwpsk.h)
 description: The FwpsNetBufferListGetTagForContext0 function gets a locally unique context tag that can be used to associate packets with the callout driver.Note  FwpsNetBufferListGetTagForContext0 is a specific version of FwpsNetBufferListGetTagForContext.
 old-location: netvista\fwpsnetbufferlistgettagforcontext0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsNetBufferListGetTagForContext0
+- FwpsNetBufferListGetTagForContext0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:bthsdpddi.PVALIDATESTREAM
-title: PVALIDATESTREAM
+title: PVALIDATESTREAM (bthsdpddi.h)
 description: The Bluetooth SdpValidateStream function is used to parse a raw SDP record and determine if it contains errors.
 old-location: bltooth\sdpvalidatestream.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	BthSdpddi.h
+- BthSdpddi.h
 api_name:
--	SdpValidateStream
+- SdpValidateStream
 product:
 - Windows
 targetos: Windows

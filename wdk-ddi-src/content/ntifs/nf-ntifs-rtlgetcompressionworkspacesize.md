@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetCompressionWorkSpaceSize
-title: RtlGetCompressionWorkSpaceSize function
+title: RtlGetCompressionWorkSpaceSize function (ntifs.h)
 description: The RtlGetCompressionWorkSpaceSize function is used to determine the correct size of the WorkSpace buffer for the RtlCompressBuffer and RtlDecompressFragment functions.
 old-location: ifsk\rtlgetcompressionworkspacesize.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetCompressionWorkSpaceSize
+- RtlGetCompressionWorkSpaceSize
 product:
 - Windows
 targetos: Windows

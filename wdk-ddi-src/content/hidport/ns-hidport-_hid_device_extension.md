@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DEVICE_EXTENSION
-title: "_HID_DEVICE_EXTENSION"
+title: _HID_DEVICE_EXTENSION (hidport.h)
 description: The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
 old-location: hid\hid_device_extension.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	HID_DEVICE_EXTENSION
+- HID_DEVICE_EXTENSION
 product:
 - Windows
 targetos: Windows

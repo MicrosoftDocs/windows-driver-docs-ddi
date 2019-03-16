@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_FILE_CREATE
-title: EVT_WDF_DEVICE_FILE_CREATE
+title: EVT_WDF_DEVICE_FILE_CREATE (wdfdevice.h)
 description: A driver's EvtDeviceFileCreate callback function handles operations that must be performed when an application requests access to a device.
 old-location: wdf\evtdevicefilecreate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDeviceFileCreate
+- EvtDeviceFileCreate
 product:
 - Windows
 targetos: Windows

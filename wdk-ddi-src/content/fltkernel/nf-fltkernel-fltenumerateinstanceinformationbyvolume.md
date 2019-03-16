@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateInstanceInformationByVolume
-title: FltEnumerateInstanceInformationByVolume function
+title: FltEnumerateInstanceInformationByVolume function (fltkernel.h)
 description: The FltEnumerateInstanceInformationByVolume routine provides information about minifilter driver instances and legacy filter drivers (Windows Vista only) that are attached to a given volume.
 old-location: ifsk\fltenumerateinstanceinformationbyvolume.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltEnumerateInstanceInformationByVolume
+- FltEnumerateInstanceInformationByVolume
 product:
 - Windows
 targetos: Windows

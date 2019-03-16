@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAppendStringToString
-title: RtlAppendStringToString function
+title: RtlAppendStringToString function (ntifs.h)
 description: The RtlAppendStringToString routine concatenates two counted strings. It copies bytes from the source up to the length of the destination buffer.
 old-location: ifsk\rtlappendstringtostring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAppendStringToString
+- RtlAppendStringToString
 product:
 - Windows
 targetos: Windows

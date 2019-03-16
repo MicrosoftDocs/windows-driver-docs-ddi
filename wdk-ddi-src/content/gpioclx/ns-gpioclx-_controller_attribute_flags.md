@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._CONTROLLER_ATTRIBUTE_FLAGS
-title: "_CONTROLLER_ATTRIBUTE_FLAGS"
+title: _CONTROLLER_ATTRIBUTE_FLAGS (gpioclx.h)
 description: The CONTROLLER_ATTRIBUTE_FLAGS structure describes the hardware attributes of the general-purpose I/O (GPIO) controller device.
 old-location: gpio\controller_attribute_flags.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CONTROLLER_ATTRIBUTE_FLAGS
+- CONTROLLER_ATTRIBUTE_FLAGS
 product:
 - Windows
 targetos: Windows

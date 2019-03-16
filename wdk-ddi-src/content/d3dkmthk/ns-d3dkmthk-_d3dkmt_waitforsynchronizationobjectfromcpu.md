@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
+title: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU (d3dkmthk.h)
 description: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with D3DKMTWaitForSynchronizationObjectFromCpu to wait for a monitored fence to reach a certain value.
 old-location: display\d3dkmt_waitforsynchronizationobjectfromcpu.htm
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
+- D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 product:
 - Windows
 targetos: Windows

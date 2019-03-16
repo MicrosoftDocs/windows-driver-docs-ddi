@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_EVICT
-title: PFND3DKMT_EVICT
+title: PFND3DKMT_EVICT (d3dkmthk.h)
 description: The Pfnd3dkmtEvict instructs the OS to decrement the residency reference count.
 ms.assetid: ef46edbc-aebc-465a-90fc-7087b7fc857b
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_EVICT
+- PFND3DKMT_EVICT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

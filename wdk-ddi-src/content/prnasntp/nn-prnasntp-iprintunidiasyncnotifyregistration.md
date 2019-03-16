@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintUnidiAsyncNotifyRegistration
-title: IPrintUnidiAsyncNotifyRegistration
+title: IPrintUnidiAsyncNotifyRegistration (prnasntp.h)
 description: Provides information on IPrintUnidiAsyncNotifyRegistration constructs.
 old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintUnidiAsyncNotifyRegistration
+- IPrintUnidiAsyncNotifyRegistration
 product:
 - Windows
 targetos: Windows

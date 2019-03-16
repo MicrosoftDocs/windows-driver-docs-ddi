@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS (d3d10umddi.h)
 description: Specifies the inverse telecine (IVTC) capabilities of a video processor.
 old-location: display\d3d11_1ddi_video_processor_itelecine_caps.htm
 ms.assetid: 866203d9-9621-4458-b146-be90e67c1c7c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
+- D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetPersistentBinding_IN
-title: "_SM_SetPersistentBinding_IN"
+title: _SM_SetPersistentBinding_IN (hbapiwmi.h)
 description: The SM_SetPersistentBinding_IN structure is used to provide input parameters to the SM_SetPersistentBinding method.
 old-location: storage\sm_setpersistentbinding_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SetPersistentBinding_IN
+- SM_SetPersistentBinding_IN
 product:
 - Windows
 targetos: Windows

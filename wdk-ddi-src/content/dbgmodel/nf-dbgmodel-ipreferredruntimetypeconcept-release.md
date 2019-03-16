@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.Release
-title: IPreferredRuntimeTypeConcept::Release
+title: IPreferredRuntimeTypeConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 0b78ff0e-e679-47e2-8e24-455437f54334
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IPreferredRuntimeTypeConcept.Release
-product: Windows
+- IPreferredRuntimeTypeConcept.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacksWide.Output
-title: IDebugOutputCallbacksWide::Output
+title: IDebugOutputCallbacksWide::Output (dbgeng.h)
 description: The Output callback method is called by the engine to send output from the client to the IDebugOutputCallbacksWide object that is registered with the client.
 old-location: debugger\idebugoutputcallbackswide_output.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugOutputCallbacksWide.Output
+- IDebugOutputCallbacksWide.Output
 product:
 - Windows
 targetos: Windows

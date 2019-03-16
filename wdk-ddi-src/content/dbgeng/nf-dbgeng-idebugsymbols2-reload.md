@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.Reload
-title: IDebugSymbols2::Reload
+title: IDebugSymbols2::Reload (dbgeng.h)
 description: The Reload method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reload.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.Reload
--	IDebugSymbols2.Reload
--	IDebugSymbols3.Reload
+- IDebugSymbols.Reload
+- IDebugSymbols2.Reload
+- IDebugSymbols3.Reload
 product:
 - Windows
 targetos: Windows

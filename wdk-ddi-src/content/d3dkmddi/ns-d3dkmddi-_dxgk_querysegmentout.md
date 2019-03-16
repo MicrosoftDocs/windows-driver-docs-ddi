@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTOUT
-title: "_DXGK_QUERYSEGMENTOUT"
+title: _DXGK_QUERYSEGMENTOUT (d3dkmddi.h)
 description: The DXGK_QUERYSEGMENTOUT structure describes memory-segment information that the display miniport driver should return from a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_querysegmentout.htm
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QUERYSEGMENTOUT
+- DXGK_QUERYSEGMENTOUT
 product:
 - Windows
 targetos: Windows

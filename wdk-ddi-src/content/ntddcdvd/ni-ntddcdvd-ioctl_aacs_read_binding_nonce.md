@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_BINDING_NONCE
-title: IOCTL_AACS_READ_BINDING_NONCE
+title: IOCTL_AACS_READ_BINDING_NONCE (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS) binding nonce starting at the specified byte offset on the disc, as part of the protocol for reading a protected data area.
 old-location: storage\ioctl_aacs_read_binding_nonce.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_READ_BINDING_NONCE
+- IOCTL_AACS_READ_BINDING_NONCE
 product:
 - Windows
 targetos: Windows

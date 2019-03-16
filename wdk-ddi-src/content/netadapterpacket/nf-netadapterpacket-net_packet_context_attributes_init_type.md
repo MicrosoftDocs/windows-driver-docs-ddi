@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE
-title: NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE macro
+title: NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE macro (netadapterpacket.h)
 description: The NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE macro initializes a NetAdapterCx client driver's NET_PACKET_CONTEXT_ATTRIBUTES structure for a NET_PACKET and inserts driver-defined context information into the structure.
 tech.root: netvista
 ms.assetid: b0c8ae6f-e12d-473b-9278-3dc768af9a22
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

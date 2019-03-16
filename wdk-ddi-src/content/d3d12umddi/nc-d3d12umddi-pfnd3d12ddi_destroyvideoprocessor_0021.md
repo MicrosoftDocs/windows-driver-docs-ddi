@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
-title: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021
+title: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 (d3d12umddi.h)
 description: The pfnDestroyVideoProcessor callback function destroys a video processor.
 old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnDestroyVideoProcessor
+- pfnDestroyVideoProcessor
 product:
 - Windows
 targetos: Windows

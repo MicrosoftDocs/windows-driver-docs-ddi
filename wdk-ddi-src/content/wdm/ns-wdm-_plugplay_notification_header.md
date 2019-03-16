@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PLUGPLAY_NOTIFICATION_HEADER
-title: "_PLUGPLAY_NOTIFICATION_HEADER"
+title: _PLUGPLAY_NOTIFICATION_HEADER (wdm.h)
 description: A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure.
 old-location: kernel\plugplay_notification_header.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PLUGPLAY_NOTIFICATION_HEADER
+- PLUGPLAY_NOTIFICATION_HEADER
 product:
 - Windows
 targetos: Windows

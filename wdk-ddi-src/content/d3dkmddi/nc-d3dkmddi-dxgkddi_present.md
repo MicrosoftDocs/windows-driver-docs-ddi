@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PRESENT
-title: DXGKDDI_PRESENT
+title: DXGKDDI_PRESENT (d3dkmddi.h)
 description: The DxgkDdiPresent function copies content from source allocations to a primary surface (and sometimes to off-screen system memory allocations).
 old-location: display\dxgkddipresent.htm
 ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiPresent
+- DxgkDdiPresent
 product:
 - Windows
 targetos: Windows

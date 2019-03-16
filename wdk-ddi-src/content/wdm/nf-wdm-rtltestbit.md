@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlTestBit
-title: RtlTestBit function
+title: RtlTestBit function (wdm.h)
 description: The RtlTestBit routine returns the value of a bit in a bitmap.
 old-location: kernel\rtltestbit.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlTestBit
+- RtlTestBit
 product:
 - Windows
 targetos: Windows

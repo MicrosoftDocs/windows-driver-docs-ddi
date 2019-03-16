@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_USHORT
-title: WRITE_REGISTER_USHORT function
+title: WRITE_REGISTER_USHORT function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: wdf\write_register_ushort.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_REGISTER_USHORT
+- WRITE_REGISTER_USHORT
 product:
 - Windows
 targetos: Windows

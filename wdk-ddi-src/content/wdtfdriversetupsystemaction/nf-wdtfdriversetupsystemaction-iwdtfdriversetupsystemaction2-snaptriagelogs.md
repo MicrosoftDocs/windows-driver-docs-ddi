@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.SnapTriageLogs
-title: IWDTFDriverSetupSystemAction2::SnapTriageLogs
+title: IWDTFDriverSetupSystemAction2::SnapTriageLogs (wdtfdriversetupsystemaction.h)
 description: Copies the driver setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverSetupSystemAction.Interop.dll
+- WDTFDriverSetupSystemAction.Interop.dll
 api_name:
--	IWDTFDriverSetupSystemAction2.SnapTriageLogs
+- IWDTFDriverSetupSystemAction2.SnapTriageLogs
 product:
 - Windows
 targetos: Windows

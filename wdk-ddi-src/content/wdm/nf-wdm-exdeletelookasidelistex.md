@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteLookasideListEx
-title: ExDeleteLookasideListEx function
+title: ExDeleteLookasideListEx function (wdm.h)
 description: The ExDeleteLookasideListEx routine deletes a lookaside list.
 old-location: kernel\exdeletelookasidelistex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExDeleteLookasideListEx
+- ExDeleteLookasideListEx
 product:
 - Windows
 targetos: Windows

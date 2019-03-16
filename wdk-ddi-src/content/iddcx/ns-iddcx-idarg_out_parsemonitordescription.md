@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_PARSEMONITORDESCRIPTION
-title: IDARG_OUT_PARSEMONITORDESCRIPTION
+title: IDARG_OUT_PARSEMONITORDESCRIPTION (iddcx.h)
 description: Gives information about the number of monitor modes and preferred monitor mode of a monitor.
 old-location: display\idarg_out_parsemonitordescription.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_OUT_PARSEMONITORDESCRIPTION
+- IDARG_OUT_PARSEMONITORDESCRIPTION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._HMAT_ENTRY
-title: _HMAT_ENTRY
+title: _HMAT_ENTRY (acpitabl.h)
 description: The HMAT_ENTRY structure contains the Heterogeneous Memory Attribute Table (HMAT) information for the table.
 ms.assetid: e37fa3c2-99c2-478f-9d00-3bba73cbc7d5
 ms.date: 09/28/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HMAT_ENTRY, *PHMAT_ENTRY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_HMAT_ENTRY
+- _HMAT_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

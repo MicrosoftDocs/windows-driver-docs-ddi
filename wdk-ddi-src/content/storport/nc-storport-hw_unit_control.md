@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_UNIT_CONTROL
-title: HW_UNIT_CONTROL
+title: HW_UNIT_CONTROL (storport.h)
 description: A miniport driver's HwStorUnitControl routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to start a unit or handle a power state transition for a unit device.
 old-location: storage\hwstorunitcontrol.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorUnitControl
+- HwStorUnitControl
 product:
 - Windows
 targetos: Windows

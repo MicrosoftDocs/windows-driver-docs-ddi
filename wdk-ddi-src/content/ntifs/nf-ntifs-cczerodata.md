@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcZeroData
-title: CcZeroData function
+title: CcZeroData function (ntifs.h)
 description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
 old-location: ifsk\cczerodata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcZeroData
+- CcZeroData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMGradientFill
-title: OEMGradientFill function
+title: OEMGradientFill function (printoem.h)
 description: The OEMGradientFill function shades the specified primitives.
 old-location: print\oemgradientfill.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMGradientFill
+- OEMGradientFill
 product:
 - Windows
 targetos: Windows

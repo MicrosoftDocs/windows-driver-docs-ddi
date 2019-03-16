@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsIsBusEnumChildDevice
-title: KsIsBusEnumChildDevice function
+title: KsIsBusEnumChildDevice function (swenum.h)
 description: The KsIsBusEnumChildDevice function determines if the given device object is a child device of the demand-load bus enumerator object.
 old-location: stream\ksisbusenumchilddevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsIsBusEnumChildDevice
+- KsIsBusEnumChildDevice
 product:
 - Windows
 targetos: Windows

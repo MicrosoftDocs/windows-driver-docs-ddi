@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetString
-title: IDebugFailureAnalysis2::GetString method
+title: IDebugFailureAnalysis2::GetString method (extsfns.h)
 description: The GetString method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFailureAnalysis2.GetUlong
+- IDebugFailureAnalysis2.GetUlong
 product:
 - Windows
 targetos: Windows

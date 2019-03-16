@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_EX
-title: "_PARTITION_INFORMATION_EX"
+title: _PARTITION_INFORMATION_EX (ntdddisk.h)
 description: PARTITION_INFORMATION_EX is the extended version of the PARTITION_INFORMATION structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
 old-location: storage\partition_information_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	PARTITION_INFORMATION_EX
+- PARTITION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows
@@ -44,7 +44,7 @@ req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
 
 ## -description
 
-PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](ns-ntdddisk-_partition_information) structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
+PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](ns-ntdddisk-_partition_information.md) structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
 
 ## -struct-fields
 

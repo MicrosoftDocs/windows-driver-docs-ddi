@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ExtRemoteData(PCSTR,ULONG64,ULONG)
-title: ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG)
+title: ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG) (engextcpp.h)
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata_name_offset_bytes.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.ExtRemoteData
+- ExtRemoteData.ExtRemoteData
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

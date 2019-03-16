@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeWdmGetPipeHandle
-title: WdfUsbTargetPipeWdmGetPipeHandle function
+title: WdfUsbTargetPipeWdmGetPipeHandle function (wdfusb.h)
 description: The WdfUsbTargetPipeWdmGetPipeHandle method returns the USBD_PIPE_HANDLE-typed handle that is associated with a specified framework pipe object.
 old-location: wdf\wdfusbtargetpipewdmgetpipehandle.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfUsbTargetPipeWdmGetPipeHandle
+- WdfUsbTargetPipeWdmGetPipeHandle
 product:
 - Windows
 targetos: Windows

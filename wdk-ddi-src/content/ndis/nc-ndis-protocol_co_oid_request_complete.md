@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_OID_REQUEST_COMPLETE
-title: PROTOCOL_CO_OID_REQUEST_COMPLETE
+title: PROTOCOL_CO_OID_REQUEST_COMPLETE (ndis.h)
 description: The ProtocolCoOidRequestComplete function completes the processing of an asynchronous CoNDIS OID request.Note  You must declare the function by using the PROTOCOL_CO_OID_REQUEST_COMPLETE type.
 old-location: netvista\protocolcooidrequestcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoOidRequestComplete
+- ProtocolCoOidRequestComplete
 product:
 - Windows
 targetos: Windows

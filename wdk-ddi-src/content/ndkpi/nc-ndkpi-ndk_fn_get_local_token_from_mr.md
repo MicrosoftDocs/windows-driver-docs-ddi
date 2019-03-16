@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_LOCAL_TOKEN_FROM_MR
-title: NDK_FN_GET_LOCAL_TOKEN_FROM_MR
+title: NDK_FN_GET_LOCAL_TOKEN_FROM_MR (ndkpi.h)
 description: The NdkGetLocalTokenFromMr (NDK_FN_GET_LOCAL_TOKEN_FROM_MR) function gets a memory token from a local NDK memory region (MR).
 old-location: netvista\ndk_fn_get_local_token_from_mr.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkGetLocalTokenFromMr
+- NdkGetLocalTokenFromMr
 product:
 - Windows
 targetos: Windows

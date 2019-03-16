@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ADDPATH
-title: DXGKDDI_VIDPNTOPOLOGY_ADDPATH
+title: DXGKDDI_VIDPNTOPOLOGY_ADDPATH (d3dkmddi.h)
 description: The pfnAddPath function adds a video present path to a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnaddpath.htm
 ms.assetid: 893e0be1-aa29-429a-a3ca-a9f19053fd92
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnAddPath
+- pfnAddPath
 product:
 - Windows
 targetos: Windows

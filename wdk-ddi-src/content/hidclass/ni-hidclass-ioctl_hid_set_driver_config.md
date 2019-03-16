@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_DRIVER_CONFIG
-title: IOCTL_HID_SET_DRIVER_CONFIG
+title: IOCTL_HID_SET_DRIVER_CONFIG (hidclass.h)
 description: The IOCTL_HID_SET_DRIVER_CONFIG request sets the driver configuration.
 old-location: hid\ioctl_hid_set_driver_config.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_SET_DRIVER_CONFIG
+- IOCTL_HID_SET_DRIVER_CONFIG
 product:
 - Windows
 targetos: Windows

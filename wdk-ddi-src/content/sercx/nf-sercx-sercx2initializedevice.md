@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2InitializeDevice
-title: SerCx2InitializeDevice function
+title: SerCx2InitializeDevice function (sercx.h)
 description: The SerCx2InitializeDevice method finishes initializing the framework device object for the serial controller.
 old-location: serports\sercx2initializedevice.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2InitializeDevice
+- SerCx2InitializeDevice
 product:
 - Windows
 targetos: Windows

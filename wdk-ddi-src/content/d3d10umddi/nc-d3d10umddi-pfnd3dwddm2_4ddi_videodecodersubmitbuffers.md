@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
-title: PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
+title: PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS (d3d10umddi.h)
 description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: c5e55baf-a822-42ce-ac97-830873b75da0
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
+- PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS
 product: 
 - Windows
 targetos: Windows

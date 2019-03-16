@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetStackLimits
-title: IoGetStackLimits function
+title: IoGetStackLimits function (wdm.h)
 description: The IoGetStackLimits routine returns the boundaries of the current thread's stack frame.
 old-location: kernel\iogetstacklimits.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetStackLimits
+- IoGetStackLimits
 product:
 - Windows
 targetos: Windows

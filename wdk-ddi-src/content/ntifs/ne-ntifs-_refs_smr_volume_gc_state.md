@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_STATE
-title: "_REFS_SMR_VOLUME_GC_STATE"
+title: _REFS_SMR_VOLUME_GC_STATE (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_STATE enum specifies the garbage collection's current state.
 old-location: ifsk\refs_smr_volume_gc_state.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	REFS_SMR_VOLUME_GC_STATE
+- REFS_SMR_VOLUME_GC_STATE
 product:
 - Windows
 targetos: Windows

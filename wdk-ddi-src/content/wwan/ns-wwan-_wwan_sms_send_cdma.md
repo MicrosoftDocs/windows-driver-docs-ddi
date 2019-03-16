@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND_CDMA
-title: "_WWAN_SMS_SEND_CDMA"
+title: _WWAN_SMS_SEND_CDMA (wwan.h)
 description: The WWAN_SMS_SEND_CDMA structure represents a CDMA-based SMS text message to send.
 old-location: netvista\wwan_sms_send_cdma.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_SEND_CDMA
+- WWAN_SMS_SEND_CDMA
 product:
 - Windows
 targetos: Windows

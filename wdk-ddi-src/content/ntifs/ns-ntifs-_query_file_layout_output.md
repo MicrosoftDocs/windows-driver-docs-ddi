@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._QUERY_FILE_LAYOUT_OUTPUT
-title: "_QUERY_FILE_LAYOUT_OUTPUT"
+title: _QUERY_FILE_LAYOUT_OUTPUT (ntifs.h)
 description: The QUERY_FILE_LAYOUT_OUTPUT structure serves as a header for the file layout entries that are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_output.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	QUERY_FILE_LAYOUT_OUTPUT
+- QUERY_FILE_LAYOUT_OUTPUT
 product:
 - Windows
 targetos: Windows

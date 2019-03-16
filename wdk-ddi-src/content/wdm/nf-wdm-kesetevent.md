@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetEvent
-title: KeSetEvent function
+title: KeSetEvent function (wdm.h)
 description: The KeSetEvent routine sets an event object to a signaled state if the event was not already signaled, and returns the previous state of the event object.
 old-location: kernel\kesetevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSetEvent
+- KeSetEvent
 product:
 - Windows
 targetos: Windows

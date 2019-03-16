@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SHADERCACHE_HASH
-title: D3D12DDI_SHADERCACHE_HASH
+title: D3D12DDI_SHADERCACHE_HASH (d3d12umddi.h)
 description: Includes a hash value.
 old-location: display\d3d12ddi_shadercache_hash.htm
 ms.assetid: 30ACE58C-E10C-46D7-8ED5-5C693D6246CB
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_SHADERCACHE_HASH
+- D3D12DDI_SHADERCACHE_HASH
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetLogicalProcessorRelationship
-title: StorPortGetLogicalProcessorRelationship function
+title: StorPortGetLogicalProcessorRelationship function (storport.h)
 description: The StorPortGetLogicalProcessorRelationship routine returns relationship information for one or more specified types.
 old-location: storage\storportgetlogicalprocessorrelationship.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetLogicalProcessorRelationship
+- StorPortGetLogicalProcessorRelationship
 product:
 - Windows
 targetos: Windows

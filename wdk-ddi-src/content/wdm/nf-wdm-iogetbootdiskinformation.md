@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetBootDiskInformation
-title: IoGetBootDiskInformation function
+title: IoGetBootDiskInformation function (wdm.h)
 description: The IoGetBootDiskInformation routine returns information describing the boot and system disks.
 old-location: kernel\iogetbootdiskinformation.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetBootDiskInformation
+- IoGetBootDiskInformation
 product:
 - Windows
 targetos: Windows

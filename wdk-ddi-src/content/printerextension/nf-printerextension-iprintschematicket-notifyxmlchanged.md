@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.NotifyXmlChanged
-title: IPrintSchemaTicket::NotifyXmlChanged
+title: IPrintSchemaTicket::NotifyXmlChanged (printerextension.h)
 description: Notifies the print system that the XML DOM object has changed.
 old-location: print\iprintschematicket_notifyxmlchanged.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaTicket.NotifyXmlChanged
+- IPrintSchemaTicket.NotifyXmlChanged
 product:
 - Windows
 targetos: Windows

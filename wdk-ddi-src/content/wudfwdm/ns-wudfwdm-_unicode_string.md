@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._UNICODE_STRING
-title: "_UNICODE_STRING"
+title: _UNICODE_STRING (wudfwdm.h)
 description: The UNICODE_STRING structure is used to define Unicode strings.
 old-location: kernel\unicode_string.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfwdm.h
+- wudfwdm.h
 api_name:
--	UNICODE_STRING
+- UNICODE_STRING
 product:
 - Windows
 targetos: Windows

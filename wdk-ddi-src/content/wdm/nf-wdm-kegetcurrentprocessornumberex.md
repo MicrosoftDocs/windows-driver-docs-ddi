@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeGetCurrentProcessorNumberEx
-title: KeGetCurrentProcessorNumberEx function
+title: KeGetCurrentProcessorNumberEx function (wdm.h)
 description: The KeGetCurrentProcessorNumberEx routine gets the processor number of the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentprocessornumberex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeGetCurrentProcessorNumberEx
+- KeGetCurrentProcessorNumberEx
 product:
 - Windows
 targetos: Windows

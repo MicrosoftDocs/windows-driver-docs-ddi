@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_INVITATION_FLAGS
-title: "_DOT11_WFD_INVITATION_FLAGS"
+title: _DOT11_WFD_INVITATION_FLAGS (windot11.h)
 description: The DOT11_WFD_INVITATION_FLAGS structure represents the Invitation Attributes used during the Invitation procedure.
 old-location: netvista\dot11_wfd_invitation_flags.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_INVITATION_FLAGS
+- DOT11_WFD_INVITATION_FLAGS
 product:
 - Windows
 targetos: Windows

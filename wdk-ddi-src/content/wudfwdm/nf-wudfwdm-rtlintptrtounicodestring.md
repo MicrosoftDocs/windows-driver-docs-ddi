@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlIntPtrToUnicodeString
-title: RtlIntPtrToUnicodeString macro
+title: RtlIntPtrToUnicodeString macro (wudfwdm.h)
 description: The RtlIntPtrToUnicodeString routine converts a specified ULONG_PTR value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlintptrtounicodestring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIntPtrToUnicodeString
+- RtlIntPtrToUnicodeString
 product:
 - Windows
 targetos: Windows

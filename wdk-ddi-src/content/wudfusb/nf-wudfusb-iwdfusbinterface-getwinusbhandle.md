@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetWinUsbHandle
-title: IWDFUsbInterface::GetWinUsbHandle
+title: IWDFUsbInterface::GetWinUsbHandle (wudfusb.h)
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a USB interface.
 old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbInterface.GetWinUsbHandle
+- IWDFUsbInterface.GetWinUsbHandle
 product:
 - Windows
 targetos: Windows

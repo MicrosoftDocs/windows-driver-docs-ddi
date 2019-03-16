@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_ADAPTER_PAUSE_FUNCTIONS
-title: _NET_ADAPTER_PAUSE_FUNCTIONS
+title: _NET_ADAPTER_PAUSE_FUNCTIONS (netadapter.h)
 description: Specifies a client driver's support for the IEEE 802.3 pause frames.
 tech.root: netvista
 ms.assetid: 758bf862-40d5-4035-8bd4-eaa4b4246d26
@@ -19,16 +19,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_PAUSE_FUNCTIONS, *PNET_ADAPTER_PAUSE_FUNCTIONS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_PAUSE_FUNCTIONS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_PAUSE_FUNCTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

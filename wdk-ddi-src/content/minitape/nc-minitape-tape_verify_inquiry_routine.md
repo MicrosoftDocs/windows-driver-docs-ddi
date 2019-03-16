@@ -1,6 +1,6 @@
 ---
 UID: NC:minitape.TAPE_VERIFY_INQUIRY_ROUTINE
-title: TAPE_VERIFY_INQUIRY_ROUTINE
+title: TAPE_VERIFY_INQUIRY_ROUTINE (minitape.h)
 description: TAPE_VERIFY_INQUIRY_ROUTINE determines whether the tape miniclass driver recognizes and supports a given device. This routine is required.
 old-location: storage\tapeminiverifyinquiry.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	minitape.h
+- minitape.h
 api_name:
--	(*TAPE_VERIFY_INQUIRY_ROUTINE)
+- (*TAPE_VERIFY_INQUIRY_ROUTINE)
 product:
 - Windows
 targetos: Windows

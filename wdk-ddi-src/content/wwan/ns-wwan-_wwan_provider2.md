@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PROVIDER2
-title: "_WWAN_PROVIDER2"
+title: _WWAN_PROVIDER2 (wwan.h)
 description: The WWAN_PROVIDER2 structure describes the details of a network provider.
 old-location: netvista\wwan_provider2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_PROVIDER2
+- WWAN_PROVIDER2
 product:
 - Windows
 targetos: Windows

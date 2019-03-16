@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRemoveIrpFromCancelableQueue
-title: KsRemoveIrpFromCancelableQueue function
+title: KsRemoveIrpFromCancelableQueue function (ks.h)
 description: The KsRemoveIrpFromCancelableQueue function pops the next noncanceled IRP from the specified queue that can be canceled and removes its cancel status.
 old-location: stream\ksremoveirpfromcancelablequeue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRemoveIrpFromCancelableQueue
+- KsRemoveIrpFromCancelableQueue
 product:
 - Windows
 targetos: Windows

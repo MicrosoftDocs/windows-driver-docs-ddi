@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_CHECK_DIRECT_FLIP_FLAGS
-title: D3DDDI_CHECK_DIRECT_FLIP_FLAGS
+title: D3DDDI_CHECK_DIRECT_FLIP_FLAGS (d3dumddi.h)
 description: Used by the CheckDirectFlipFlags parameter of the CheckDirectFlipSupport function to specify seamless flipping of video memory.
 old-location: display\d3dddi_check_direct_flip_flags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDI_CHECK_DIRECT_FLIP_FLAGS
+- D3DDDI_CHECK_DIRECT_FLIP_FLAGS
 product:
 - Windows
 targetos: Windows

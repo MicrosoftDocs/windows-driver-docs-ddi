@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetOutputLinePrefixWide
-title: IDebugClient5::GetOutputLinePrefixWide
+title: IDebugClient5::GetOutputLinePrefixWide (dbgeng.h)
 description: Gets a Unicode character string prefix for output lines.
 old-location: debugger\idebugclient5_getoutputlineprefixwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetOutputLinePrefixWide
+- IDebugClient5.GetOutputLinePrefixWide
 product:
 - Windows
 targetos: Windows

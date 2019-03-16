@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_ENABLE_SECURE_READ
-title: IOCTL_HID_ENABLE_SECURE_READ
+title: IOCTL_HID_ENABLE_SECURE_READ (hidclass.h)
 description: The IOCTL_HID_ENABLE_SECURE_READ request enables a secure read for open files of a HID collection.
 old-location: hid\ioctl_hid_enable_secure_read.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_ENABLE_SECURE_READ
+- IOCTL_HID_ENABLE_SECURE_READ
 product:
 - Windows
 targetos: Windows

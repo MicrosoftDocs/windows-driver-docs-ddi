@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferGetAlignedVirtualAddress
-title: WdfCommonBufferGetAlignedVirtualAddress function
+title: WdfCommonBufferGetAlignedVirtualAddress function (wdfcommonbuffer.h)
 description: The WdfCommonBufferGetAlignedVirtualAddress method returns the virtual address that is associated with a specified common buffer.
 old-location: wdf\wdfcommonbuffergetalignedvirtualaddress.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfCommonBufferGetAlignedVirtualAddress
+- WdfCommonBufferGetAlignedVirtualAddress
 product:
 - Windows
 targetos: Windows

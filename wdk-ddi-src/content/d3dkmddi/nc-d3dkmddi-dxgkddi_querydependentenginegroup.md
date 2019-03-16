@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYDEPENDENTENGINEGROUP
-title: DXGKDDI_QUERYDEPENDENTENGINEGROUP
+title: DXGKDDI_QUERYDEPENDENTENGINEGROUP (d3dkmddi.h)
 description: Called by the display port driver's GPU scheduler to query dependencies of nodes in a physical display adapter.
 old-location: display\dxgkddiquerydependentenginegroup.htm
 ms.assetid: 42040ffc-40a3-4794-805c-7a165c47c8c9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiQueryDependentEngineGroup
+- DxgkDdiQueryDependentEngineGroup
 product:
 - Windows
 targetos: Windows

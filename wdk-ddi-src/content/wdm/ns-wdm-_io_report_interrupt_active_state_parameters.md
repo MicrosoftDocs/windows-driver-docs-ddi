@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
-title: "_IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
+title: _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS (wdm.h)
 description: The IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure contains the connection context for a registered interrupt service routine (ISR) that was connected to an interrupt or interrupts by a previous call to the IoConnectInterruptEx routine.
 old-location: kernel\io_report_interrupt_active_state_parameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
+- IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 product:
 - Windows
 targetos: Windows

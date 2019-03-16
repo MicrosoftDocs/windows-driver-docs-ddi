@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE
-title: "_HDAUDIO_BUS_INTERFACE"
+title: _HDAUDIO_BUS_INTERFACE (hdaudio.h)
 description: The HDAUDIO_BUS_INTERFACE structure specifies the information that a client requires to call the routines in the HDAUDIO_BUS_INTERFACE version of the HD Audio DDI. Another variant of this DDI is specified by the HDAUDIO_BUS_INTERFACE_BDL structure.
 old-location: audio\hdaudio_bus_interface.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_BUS_INTERFACE
+- HDAUDIO_BUS_INTERFACE
 product:
 - Windows
 targetos: Windows

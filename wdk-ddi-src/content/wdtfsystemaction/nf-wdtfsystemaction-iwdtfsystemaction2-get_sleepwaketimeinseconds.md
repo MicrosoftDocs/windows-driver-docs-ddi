@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_SleepWakeTimeInSeconds
-title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds
+title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds (wdtfsystemaction.h)
 description: Gets or sets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 tech.root: dtf
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.SleepWakeTimeInSeconds
--	IWDTFSystemAction2.get_SleepWakeTimeInSeconds
--	IWDTFSystemAction2.put_SleepWakeTimeInSeconds
+- IWDTFSystemAction2.SleepWakeTimeInSeconds
+- IWDTFSystemAction2.get_SleepWakeTimeInSeconds
+- IWDTFSystemAction2.put_SleepWakeTimeInSeconds
 product:
 - Windows
 targetos: Windows

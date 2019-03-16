@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_TIMEOUT
-title: "_USBSCAN_TIMEOUT"
+title: _USBSCAN_TIMEOUT (usbscan.h)
 description: The USBSCAN_TIMEOUT structure stores time-out values for USB bulk IN and bulk OUT operations, and interrupts.
 old-location: image\usbscan_timeout.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbscan.h
+- usbscan.h
 api_name:
--	USBSCAN_TIMEOUT
+- USBSCAN_TIMEOUT
 product:
 - Windows
 targetos: Windows

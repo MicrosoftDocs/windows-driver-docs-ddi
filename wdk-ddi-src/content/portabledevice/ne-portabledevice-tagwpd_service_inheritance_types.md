@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_SERVICE_INHERITANCE_TYPES
-title: tagWPD_SERVICE_INHERITANCE_TYPES
+title: WPD_SERVICE_INHERITANCE_TYPES (portabledevice.h)
 description: Specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_service_inheritance_types.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_SERVICE_INHERITANCE_TYPES
+- WPD_SERVICE_INHERITANCE_TYPES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_SERVICE_INHERITANCE_TYPES
 ms.custom: RS5

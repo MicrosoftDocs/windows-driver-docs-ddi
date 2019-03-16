@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CLOSE_SOCKET
-title: PFN_WSK_CLOSE_SOCKET
+title: PFN_WSK_CLOSE_SOCKET (wsk.h)
 description: The WskCloseSocket function closes a socket and frees any associated resources.
 old-location: netvista\wskclosesocket.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskCloseSocket
+- WskCloseSocket
 product:
 - Windows
 targetos: Windows

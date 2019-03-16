@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_155
-title: KSVPSURFACEPARAMS
+title: KSVPSURFACEPARAMS (ksmedia.h)
 description: The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.
 old-location: stream\ksvpsurfaceparams.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSVPSURFACEPARAMS
+- KSVPSURFACEPARAMS
 product:
 - Windows
 targetos: Windows

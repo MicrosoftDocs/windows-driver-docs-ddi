@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_QUERYPROCAMPINPUT
-title: "_DXVADDI_QUERYPROCAMPINPUT"
+title: _DXVADDI_QUERYPROCAMPINPUT (d3dumddi.h)
 description: The DXVADDI_QUERYPROCAMPINPUT structure describes a ProcAmp control property on a video stream that range information is requested for.
 old-location: display\dxvaddi_queryprocampinput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_QUERYPROCAMPINPUT
+- DXVADDI_QUERYPROCAMPINPUT
 product:
 - Windows
 targetos: Windows

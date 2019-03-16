@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_Deinitialize
-title: RIL_Deinitialize function
+title: RIL_Deinitialize function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_deinitialize.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_Deinitialize
+- RIL_Deinitialize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._ADDRESS_RANGE
-title: "_ADDRESS_RANGE"
+title: _ADDRESS_RANGE (1394.h)
 description: The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 old-location: ieee\address_range.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	ADDRESS_RANGE
+- ADDRESS_RANGE
 product:
 - Windows
 targetos: Windows

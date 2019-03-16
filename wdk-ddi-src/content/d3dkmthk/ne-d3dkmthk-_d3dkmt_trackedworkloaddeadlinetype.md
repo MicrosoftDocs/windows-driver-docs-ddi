@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_TRACKEDWORKLOADDEADLINETYPE
-title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
+title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE (d3dkmthk.h)
 description: Specifies the tracked workload deadline type.
 ms.assetid: 7bf49b7e-0658-46c2-bc35-e5dcddb4f507
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_TRACKEDWORKLOADDEADLINETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRACKEDWORKLOADDEADLINETYPE
+- _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

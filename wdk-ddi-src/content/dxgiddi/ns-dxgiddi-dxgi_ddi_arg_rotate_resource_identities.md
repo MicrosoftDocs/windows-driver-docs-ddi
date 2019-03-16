@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
-title: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
+title: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES (dxgiddi.h)
 description: Describes a list of resources to rotate.
 old-location: display\dxgi_ddi_arg_rotate_resource_identities.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
+- DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 product:
 - Windows
 targetos: Windows

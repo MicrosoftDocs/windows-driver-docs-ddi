@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_FLIPOVERLAYFLAGS
-title: "_D3DDDI_FLIPOVERLAYFLAGS"
+title: _D3DDDI_FLIPOVERLAYFLAGS (d3dumddi.h)
 description: The D3DDDI_FLIPOVERLAYFLAGS structure identifies how to flip a resource on an overlay.
 old-location: display\d3dddi_flipoverlayflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_FLIPOVERLAYFLAGS
+- D3DDDI_FLIPOVERLAYFLAGS
 product:
 - Windows
 targetos: Windows

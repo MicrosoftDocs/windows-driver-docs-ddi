@@ -1,6 +1,6 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FORMAT
-title: "_AVCSTRM_FORMAT"
+title: _AVCSTRM_FORMAT (avcstrm.h)
 description: The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by avcstrm.sys.
 old-location: stream\avcstrm_format.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVCSTRM_FORMAT
+- AVCSTRM_FORMAT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxIssueComponentPerfStateChangeMultiple
-title: PoFxIssueComponentPerfStateChangeMultiple function
+title: PoFxIssueComponentPerfStateChangeMultiple function (wdm.h)
 description: The PoFxIssueComponentPerfStateChangeMultiple routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component.
 old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= APC_LEVEL or <= DISPATCH_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxIssueComponentPerfStateChangeMultiple
+- PoFxIssueComponentPerfStateChangeMultiple
 product:
 - Windows
 targetos: Windows

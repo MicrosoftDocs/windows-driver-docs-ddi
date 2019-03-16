@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NetRequestQueueGetAdapter
-title: NetRequestQueueGetAdapter function
+title: NetRequestQueueGetAdapter function (netrequestqueue.h)
 description: Retrieves the NETADAPTER object corresponding to a NETREQUESTQUEUE.
 tech.root: netvista
 ms.assetid: 638f5dea-d79b-41bb-967b-27339bfae3ab
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NetRequestQueueGetAdapter
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NetRequestQueueGetAdapter
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

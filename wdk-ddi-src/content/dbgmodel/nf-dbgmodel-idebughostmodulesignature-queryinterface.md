@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModuleSignature.QueryInterface
-title: IDebugHostModuleSignature::QueryInterface
+title: IDebugHostModuleSignature::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown AddRef on the pointer it returns. 
 ms.assetid: 7af09ba2-347c-408f-b9bc-df93c097021b
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostModuleSignature.QueryInterface
-product: Windows
+- IDebugHostModuleSignature.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryHardwareCounterConfiguration
-title: KeQueryHardwareCounterConfiguration function
+title: KeQueryHardwareCounterConfiguration function (ntddk.h)
 description: The KeQueryHardwareCounterConfiguration routine queries the operating system for the list of hardware counters to use for thread profiling.
 old-location: kernel\kequeryhardwarecounterconfiguration.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryHardwareCounterConfiguration
+- KeQueryHardwareCounterConfiguration
 product:
 - Windows
 targetos: Windows

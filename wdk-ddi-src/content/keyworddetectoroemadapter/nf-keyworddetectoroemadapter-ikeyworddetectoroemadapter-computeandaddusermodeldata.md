@@ -1,6 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData (keyworddetectoroemadapter.h)
 description: The ComputeAndAddUserModelData method is used by the training user experience to compute the user-specific information relative to the user-independent keyword.
 old-location: audio\ikeyworddetectoroemadapter_computeandaddusermodeldata.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
+- IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
 product:
 - Windows
 targetos: Windows

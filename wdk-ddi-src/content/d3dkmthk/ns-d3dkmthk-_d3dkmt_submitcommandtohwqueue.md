@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITCOMMANDTOHWQUEUE
-title: "_D3DKMT_SUBMITCOMMANDTOHWQUEUE"
+title: _D3DKMT_SUBMITCOMMANDTOHWQUEUE (d3dkmthk.h)
 description: A structure that holds information to submit a command to the hardware queue.
 old-location: display\d3dkmt_submitcommandtohwqueue.htm
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SUBMITCOMMANDTOHWQUEUE
+- D3DKMT_SUBMITCOMMANDTOHWQUEUE
 product:
 - Windows
 targetos: Windows

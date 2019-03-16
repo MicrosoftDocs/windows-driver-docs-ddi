@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyGetPinControl
-title: BdaPropertyGetPinControl function
+title: BdaPropertyGetPinControl function (bdasup.h)
 description: The BdaPropertyGetPinControl function retrieves either the identifier or type of a pin.
 old-location: stream\bdapropertygetpincontrol.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyGetPinControl
+- BdaPropertyGetPinControl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETCAPS
-title: "_D3DDDIARG_GETCAPS"
+title: _D3DDDIARG_GETCAPS (d3dumddi.h)
 description: The D3DDDIARG_GETCAPS structure contains display device capabilities of a particular type.
 old-location: display\d3dddiarg_getcaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_GETCAPS
+- D3DDDIARG_GETCAPS
 product:
 - Windows
 targetos: Windows

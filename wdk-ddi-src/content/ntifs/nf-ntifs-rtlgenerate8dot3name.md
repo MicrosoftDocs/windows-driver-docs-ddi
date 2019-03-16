@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGenerate8dot3Name
-title: RtlGenerate8dot3Name function
+title: RtlGenerate8dot3Name function (ntifs.h)
 description: The RtlGenerate8dot3Name routine generates a short (8.3) name for the specified long file name.
 old-location: ifsk\rtlgenerate8dot3name.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGenerate8dot3Name
+- RtlGenerate8dot3Name
 product:
 - Windows
 targetos: Windows

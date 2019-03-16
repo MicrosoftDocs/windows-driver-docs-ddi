@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortUchar
-title: NdisRawWritePortUchar macro
+title: NdisRawWritePortUchar macro (ndis.h)
 description: NdisRawWritePortUchar writes a byte to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportuchar.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawWritePortUchar
+- NdisRawWritePortUchar
 product:
 - Windows
 targetos: Windows

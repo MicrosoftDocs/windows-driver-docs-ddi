@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_QP_WITH_SRQ
-title: NDK_FN_CREATE_QP_WITH_SRQ
+title: NDK_FN_CREATE_QP_WITH_SRQ (ndkpi.h)
 description: The NdkCreateQpWithSrq (NDK_FN_CREATE_QP_WITH_SRQ) function create an NDK queue pair (QP) object with an NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_fn_create_qp_with_srq.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreateQpWithSrq
+- NdkCreateQpWithSrq
 product:
 - Windows
 targetos: Windows

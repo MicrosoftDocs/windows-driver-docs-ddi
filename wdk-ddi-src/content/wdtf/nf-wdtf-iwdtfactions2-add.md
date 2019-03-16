@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Add
-title: IWDTFActions2::Add
+title: IWDTFActions2::Add (wdtf.h)
 description: Add a single action to the collection.
 old-location: dtf\iwdtfactions2_add.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	IWDTFActions2.Add
+- IWDTFActions2.Add
 product:
 - Windows
 targetos: Windows

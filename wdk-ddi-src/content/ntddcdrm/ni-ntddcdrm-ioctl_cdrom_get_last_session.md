@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_LAST_SESSION
-title: IOCTL_CDROM_GET_LAST_SESSION
+title: IOCTL_CDROM_GET_LAST_SESSION (ntddcdrm.h)
 description: Queries the device for the first complete session number, the last complete session number, and the last complete session starting address.
 old-location: storage\ioctl_cdrom_get_last_session.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_GET_LAST_SESSION
+- IOCTL_CDROM_GET_LAST_SESSION
 product:
 - Windows
 targetos: Windows

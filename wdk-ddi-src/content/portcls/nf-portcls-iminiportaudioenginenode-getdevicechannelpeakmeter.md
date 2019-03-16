@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
-title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
+title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter (portcls.h)
 description: Gets the PeakMeter value for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelpeakmeter.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
+- IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
 product:
 - Windows
 targetos: Windows

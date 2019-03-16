@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsTopology
-title: IKsTopology
+title: IKsTopology (ksproxy.h)
 description: The IKsTopology interface provides a method that opens topology node objects contained within a filter.
 old-location: stream\ikstopology.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsTopology
+- IKsTopology
 product:
 - Windows
 targetos: Windows

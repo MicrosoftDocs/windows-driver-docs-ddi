@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxAdapterUpdateMaxDisplayPipelineRate
-title: IddCxAdapterUpdateMaxDisplayPipelineRate function
+title: IddCxAdapterUpdateMaxDisplayPipelineRate function (iddcx.h)
 description: An OS callback function the driver calls to report that the max display pipeline rate has changed.
 old-location: display\iddcxadapterupdatemaxdisplaypipelinerate.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxAdapterUpdateMaxDisplayPipelineRate
+- IddCxAdapterUpdateMaxDisplayPipelineRate
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYSHADER
-title: PFND3D10DDI_DESTROYSHADER
+title: PFND3D10DDI_DESTROYSHADER (d3d10umddi.h)
 description: The DestroyShader function destroys the specified shader object. The shader object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyshader.htm
 ms.assetid: 51a3e5aa-0f17-49a6-824d-7cfe8e0a1ded
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DestroyShader
+- DestroyShader
 product:
 - Windows
 targetos: Windows

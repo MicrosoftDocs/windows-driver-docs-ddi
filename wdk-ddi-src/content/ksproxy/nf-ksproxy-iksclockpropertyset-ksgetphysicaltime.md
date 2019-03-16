@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetPhysicalTime
-title: IKsClockPropertySet::KsGetPhysicalTime
+title: IKsClockPropertySet::KsGetPhysicalTime (ksproxy.h)
 description: The KsGetPhysicalTime method retrieves the physical time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsGetPhysicalTime
+- IKsClockPropertySet.KsGetPhysicalTime
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_COUNTERS
-title: "_DSM_COUNTERS"
+title: _DSM_COUNTERS (mpiowmi.h)
 description: The DSM_COUNTERS structure holds the various timer counters that are applicable to all LUNs that are controlled by the DSM.
 old-location: storage\dsm_counters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	DSM_COUNTERS
+- DSM_COUNTERS
 product:
 - Windows
 targetos: Windows

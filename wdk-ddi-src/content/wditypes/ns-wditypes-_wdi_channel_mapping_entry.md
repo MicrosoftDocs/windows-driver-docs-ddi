@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_CHANNEL_MAPPING_ENTRY
-title: "_WDI_CHANNEL_MAPPING_ENTRY"
+title: _WDI_CHANNEL_MAPPING_ENTRY (wditypes.h)
 description: The WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping entry.
 old-location: netvista\wdi_channel_mapping_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_CHANNEL_MAPPING_ENTRY
+- WDI_CHANNEL_MAPPING_ENTRY
 product:
 - Windows
 targetos: Windows

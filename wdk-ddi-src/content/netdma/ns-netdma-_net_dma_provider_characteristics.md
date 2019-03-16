@@ -1,6 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PROVIDER_CHARACTERISTICS
-title: "_NET_DMA_PROVIDER_CHARACTERISTICS"
+title: _NET_DMA_PROVIDER_CHARACTERISTICS (netdma.h)
 description: The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the characteristics for a NetDMA provider, including the entry points for the ProviderXxx functions.
 old-location: netvista\net_dma_provider_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_PROVIDER_CHARACTERISTICS
+- NET_DMA_PROVIDER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

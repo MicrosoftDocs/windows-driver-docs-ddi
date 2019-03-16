@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_VSWITCH_EVENT_TYPE_
-title: FWPS_VSWITCH_EVENT_TYPE_
+title: FWPS_VSWITCH_EVENT_TYPE_ (fwpsk.h)
 description: The FWPS_VSWITCH_EVENT_TYPE enumeration type specifies the type of a virtual switch event notification.
 old-location: netvista\fwps_vswitch_event_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_VSWITCH_EVENT_TYPE
+- FWPS_VSWITCH_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

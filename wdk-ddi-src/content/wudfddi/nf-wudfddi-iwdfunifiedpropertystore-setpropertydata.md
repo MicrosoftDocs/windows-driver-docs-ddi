@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.SetPropertyData
-title: IWDFUnifiedPropertyStore::SetPropertyData
+title: IWDFUnifiedPropertyStore::SetPropertyData (wudfddi.h)
 description: The SetPropertyData method modifies the current setting of a device property.
 old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUnifiedPropertyStore.SetPropertyData
+- IWDFUnifiedPropertyStore.SetPropertyData
 product:
 - Windows
 targetos: Windows

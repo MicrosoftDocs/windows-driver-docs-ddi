@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDowncaseUnicodeString
-title: RtlDowncaseUnicodeString function
+title: RtlDowncaseUnicodeString function (ntifs.h)
 description: The RtlDowncaseUnicodeString routine converts the specified Unicode source string to lowercase. The translation conforms to the current system locale information.
 old-location: ifsk\rtldowncaseunicodestring.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDowncaseUnicodeString
+- RtlDowncaseUnicodeString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC
-title: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC
+title: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC (ucxcontroller.h)
 description: UCX invokes this callback function to the start time tracking functionality in the controller.
 old-location: buses\evt_ucx_controller_start_tracking_for_time_sync.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	EvUcxControllerStartTrackingForTimeSync
+- EvUcxControllerStartTrackingForTimeSync
 product:
 - Windows
 targetos: Windows

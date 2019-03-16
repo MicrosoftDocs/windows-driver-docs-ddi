@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.OutputCharStr
-title: IPrintOemUni::OutputCharStr
+title: IPrintOemUni::OutputCharStr (prcomoem.h)
 description: The IPrintOemUni::OutputCharStr method enables a rendering plug-in to control the printing of font glyphs.
 old-location: print\iprintoemuni_outputcharstr.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.OutputCharStr
+- IPrintOemUni.OutputCharStr
 product:
 - Windows
 targetos: Windows

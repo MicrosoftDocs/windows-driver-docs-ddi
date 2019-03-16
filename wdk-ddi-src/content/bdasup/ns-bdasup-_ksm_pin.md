@@ -1,6 +1,6 @@
 ---
 UID: NS:bdasup._KSM_PIN
-title: "_KSM_PIN"
+title: _KSM_PIN (bdasup.h)
 description: The KSM_PIN structure describes a method request to create or delete a pin factory for a filter.
 old-location: stream\ksm_pin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdasup.h
+- bdasup.h
 api_name:
--	KSM_PIN
+- KSM_PIN
 product:
 - Windows
 targetos: Windows

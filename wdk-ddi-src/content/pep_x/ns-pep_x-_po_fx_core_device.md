@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PO_FX_CORE_DEVICE
-title: "_PO_FX_CORE_DEVICE"
+title: _PO_FX_CORE_DEVICE (pep_x.h)
 description: The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 old-location: kernel\po_fx_core_device.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PO_FX_CORE_DEVICE
+- PO_FX_CORE_DEVICE
 product:
 - Windows
 targetos: Windows

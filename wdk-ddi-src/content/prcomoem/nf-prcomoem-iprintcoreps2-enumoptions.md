@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.EnumOptions
-title: IPrintCorePS2::EnumOptions
+title: IPrintCorePS2::EnumOptions (prcomoem.h)
 description: The IPrintCorePS2::EnumOptions method enumerates the available options of a specific feature.
 old-location: print\iprintcoreps2_enumoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCorePS2.EnumOptions
+- IPrintCorePS2.EnumOptions
 product:
 - Windows
 targetos: Windows

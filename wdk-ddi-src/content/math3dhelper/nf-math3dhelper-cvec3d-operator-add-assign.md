@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.operator-add-assign
-title: CVEC3D::operator+=
+title: CVEC3D::operator+= (math3dhelper.h)
 description: Assignment operator +.
 ms.assetid: 7eec4410-2b78-4f78-a644-52d74805909d
 ms.date: 08/01/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	CVEC3D.operator+=
+- CVEC3D.operator+=
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_INTERFACE
-title: DXGKDDI_QUERY_INTERFACE
+title: DXGKDDI_QUERY_INTERFACE (dispmprt.h)
 description: The DxgkDdiQueryInterface function returns a functional interface that is implemented by the display miniport driver.
 old-location: display\dxgkddiqueryinterface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiQueryInterface
+- DxgkDdiQueryInterface
 product:
 - Windows
 targetos: Windows

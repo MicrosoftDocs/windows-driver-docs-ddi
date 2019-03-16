@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IPositionNotify.PositionNotify
-title: IPositionNotify::PositionNotify
+title: IPositionNotify::PositionNotify (dmusicks.h)
 description: Byte position notify for MXF graph.
 old-location: audio\ipositionnotify_positionnotify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dmusicks.h
+- Dmusicks.h
 api_name:
--	IPositionNotify.PositionNotify
+- IPositionNotify.PositionNotify
 product:
 - Windows
 targetos: Windows

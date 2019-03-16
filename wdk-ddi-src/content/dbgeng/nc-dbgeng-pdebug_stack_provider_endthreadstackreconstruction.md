@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
-title: PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
+title: PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION (dbgeng.h)
 description: The EndThreadStackReconstruction callback function may be called after stack reconstruction to clean up state.
 old-location: debugger\endthreadstackreconstruction.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	EndThreadStackReconstruction
+- EndThreadStackReconstruction
 product:
 - Windows
 targetos: Windows

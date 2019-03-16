@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFCmResourceList
-title: IWDFCmResourceList
+title: IWDFCmResourceList (wudfddi.h)
 description: This interface represents a list of hardware resources for a device.
 old-location: wdf\iwdfcmresourcelist.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFCmResourceList
+- IWDFCmResourceList
 product:
 - Windows
 targetos: Windows

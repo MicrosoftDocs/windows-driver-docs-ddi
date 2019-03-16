@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_160
-title: KS_AM_ExactRateChange
+title: KS_AM_ExactRateChange (ksmedia.h)
 description: The KS_AM_ExactRateChange structure is not yet implemented.
 old-location: stream\ks_am_exactratechange.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AM_ExactRateChange
+- KS_AM_ExactRateChange
 product:
 - Windows
 targetos: Windows

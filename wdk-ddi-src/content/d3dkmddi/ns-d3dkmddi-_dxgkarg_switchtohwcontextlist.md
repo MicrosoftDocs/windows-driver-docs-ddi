@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SWITCHTOHWCONTEXTLIST
-title: _DXGKARG_SWITCHTOHWCONTEXTLIST
+title: _DXGKARG_SWITCHTOHWCONTEXTLIST (d3dkmddi.h)
 description: Arguments used in the DXGKDDI_SWITCHTOHWCONTEXTLIST callback function.
 ms.assetid: e856b8d8-c00e-4823-a9d2-647856bb10c0
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SWITCHTOHWCONTEXTLIST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGKARG_SWITCHTOHWCONTEXTLIST
+- _DXGKARG_SWITCHTOHWCONTEXTLIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

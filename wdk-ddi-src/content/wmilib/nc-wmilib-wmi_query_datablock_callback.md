@@ -1,6 +1,6 @@
 ---
 UID: NC:wmilib.WMI_QUERY_DATABLOCK_CALLBACK
-title: WMI_QUERY_DATABLOCK_CALLBACK
+title: WMI_QUERY_DATABLOCK_CALLBACK (wmilib.h)
 description: The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required.
 old-location: kernel\dpwmiquerydatablock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wmilib.h
+- Wmilib.h
 api_name:
--	DpWmiQueryDataBlock
+- DpWmiQueryDataBlock
 product:
 - Windows
 targetos: Windows

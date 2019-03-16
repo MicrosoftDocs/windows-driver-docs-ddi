@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_APP_INSTANCE_ECP_CONTEXT
-title: "_NETWORK_APP_INSTANCE_ECP_CONTEXT"
+title: _NETWORK_APP_INSTANCE_ECP_CONTEXT (ntifs.h)
 description: The NETWORK_APP_INSTANCE_ECP_CONTEXT structure is an Extra Create Parameter (ECP) and contains an application instance identifier to associate with a file.
 old-location: ifsk\network_app_instance_ecp_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	NETWORK_APP_INSTANCE_ECP_CONTEXT
+- NETWORK_APP_INSTANCE_ECP_CONTEXT
 product:
 - Windows
 targetos: Windows

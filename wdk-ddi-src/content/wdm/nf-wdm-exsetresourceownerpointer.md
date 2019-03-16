@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSetResourceOwnerPointer
-title: ExSetResourceOwnerPointer function
+title: ExSetResourceOwnerPointer function (wdm.h)
 description: The ExSetResourceOwnerPointer routine sets the owner thread pointer for an executive resource.
 old-location: kernel\exsetresourceownerpointer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExSetResourceOwnerPointer
+- ExSetResourceOwnerPointer
 product:
 - Windows
 targetos: Windows

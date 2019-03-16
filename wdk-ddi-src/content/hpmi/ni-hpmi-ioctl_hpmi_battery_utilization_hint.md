@@ -1,6 +1,6 @@
 ---
 UID: NI:hpmi.IOCTL_HPMI_BATTERY_UTILIZATION_HINT
-title: IOCTL_HPMI_BATTERY_UTILIZATION_HINT
+title: IOCTL_HPMI_BATTERY_UTILIZATION_HINT (hpmi.h)
 description: Set command sent to HPMI to provide battery utilization hints.
 old-location: powermeter\ioctl_hpmi_battery_utilization_hint.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	IOCTL_HPMI_BATTERY_UTILIZATION_HINT
+- IOCTL_HPMI_BATTERY_UTILIZATION_HINT
 product:
 - Windows
 targetos: Windows

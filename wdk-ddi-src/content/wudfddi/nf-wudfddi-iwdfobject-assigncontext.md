@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.AssignContext
-title: IWDFObject::AssignContext
+title: IWDFObject::AssignContext (wudfddi.h)
 description: The AssignContext method registers a context and a driver-supplied cleanup callback function for the object.
 old-location: wdf\iwdfobject_assigncontext.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFObject.AssignContext
+- IWDFObject.AssignContext
 product:
 - Windows
 targetos: Windows

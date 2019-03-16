@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtQueryInformationResourceManager
-title: NtQueryInformationResourceManager function
+title: NtQueryInformationResourceManager function (wdm.h)
 description: The ZwQueryInformationResourceManager routine retrieves information about a specified resource manager object.
 old-location: kernel\zwqueryinformationresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryInformationResourceManager
--	NtQueryInformationResourceManager
+- ZwQueryInformationResourceManager
+- NtQueryInformationResourceManager
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.ITracer.GetBits
-title: ITracer::GetBits
+title: ITracer::GetBits (wdtf.h)
 description: The GetBits method returns the set of tracing flags for a coclass as a bit mask, given a specified TTraceLevel value and the CLSID of the coclass.
 old-location: dtf\itracer_getbits_method.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	ITracer.GetBits
+- ITracer.GetBits
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.OutputIdentity
-title: IDebugClient5::OutputIdentity
+title: IDebugClient5::OutputIdentity (dbgeng.h)
 description: The OutputIdentity method formats and outputs a string describing the computer and user this client represents.
 old-location: debugger\outputidentity.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.OutputIdentity
--	IDebugClient2.OutputIdentity
--	IDebugClient3.OutputIdentity
--	IDebugClient4.OutputIdentity
--	IDebugClient5.OutputIdentity
+- IDebugClient.OutputIdentity
+- IDebugClient2.OutputIdentity
+- IDebugClient3.OutputIdentity
+- IDebugClient4.OutputIdentity
+- IDebugClient5.OutputIdentity
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpaceEx64
-title: WriteIoSpaceEx64 function
+title: WriteIoSpaceEx64 function (wdbgexts.h)
 description: The WriteIoSpaceEx64 function is an extended version of WriteIoSpace64.
 old-location: debugger\writeiospaceex64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WriteIoSpaceEx64
+- WriteIoSpaceEx64
 product:
 - Windows
 targetos: Windows

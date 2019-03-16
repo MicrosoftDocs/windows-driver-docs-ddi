@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToShort
-title: RtlUIntToShort function
+title: RtlUIntToShort function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type SHORT.
 old-location: kernel\rtluinttoshort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntToShort
+- RtlUIntToShort
 product:
 - Windows
 targetos: Windows

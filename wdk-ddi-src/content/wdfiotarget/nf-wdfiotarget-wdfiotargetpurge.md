@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetPurge
-title: WdfIoTargetPurge function
+title: WdfIoTargetPurge function (wdfiotarget.h)
 description: The WdfIoTargetPurge method cancels all I/O requests queued to a local, remote, or specialized I/O target and prevents any new I/O requests from being queued.
 old-location: wdf\wdfiotargetpurge.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoTargetPurge
+- WdfIoTargetPurge
 product:
 - Windows
 targetos: Windows

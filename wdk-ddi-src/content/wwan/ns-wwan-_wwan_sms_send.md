@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND
-title: "_WWAN_SMS_SEND"
+title: _WWAN_SMS_SEND (wwan.h)
 description: The WWAN_SMS_SEND structure represents an SMS text message to send.
 old-location: netvista\wwan_sms_send.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_SEND
+- WWAN_SMS_SEND
 product:
 - Windows
 targetos: Windows

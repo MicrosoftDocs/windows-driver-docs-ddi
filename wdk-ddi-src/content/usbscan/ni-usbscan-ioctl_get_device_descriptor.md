@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_DEVICE_DESCRIPTOR
-title: IOCTL_GET_DEVICE_DESCRIPTOR
+title: IOCTL_GET_DEVICE_DESCRIPTOR (usbscan.h)
 description: Returns vendor and device identifiers.
 old-location: image\ioctl_get_device_descriptor.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_GET_DEVICE_DESCRIPTOR
+- IOCTL_GET_DEVICE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetSymbolKind
-title: IDebugHostType::GetSymbolKind
+title: IDebugHostType::GetSymbolKind (dbgmodel.h)
 description: Gets the kind of symbol that this is (e.g. a field, a base class, a type, etc...).
 ms.assetid: b2ba41f6-57ee-498f-965d-512ae0ed3946
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetSymbolKind
-product: Windows
+- IDebugHostType.GetSymbolKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

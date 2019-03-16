@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_RECEIVE_NET_BUFFER_LISTS
-title: PROTOCOL_RECEIVE_NET_BUFFER_LISTS
+title: PROTOCOL_RECEIVE_NET_BUFFER_LISTS (ndis.h)
 description: The ProtocolReceiveNetBufferLists function processes receive indications from underlying drivers.Note  You must declare the function by using the PROTOCOL_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\protocolreceivenetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolReceiveNetBufferLists
+- ProtocolReceiveNetBufferLists
 product:
 - Windows
 targetos: Windows

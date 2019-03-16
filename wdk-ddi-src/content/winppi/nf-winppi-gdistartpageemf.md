@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiStartPageEMF
-title: GdiStartPageEMF function
+title: GdiStartPageEMF function (winppi.h)
 description: The GdiStartPageEMF function performs initialization operations for a physical page of an EMF-formatted print job.
 old-location: print\gdistartpageemf.htm
 tech.root: print
@@ -26,16 +26,16 @@ req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
--	GdiStartPageEMF
+- GdiStartPageEMF
 product:
 - Windows
 targetos: Windows

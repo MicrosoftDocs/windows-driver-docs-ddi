@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointDestroyEnumHandle0
-title: FwpsAleEndpointDestroyEnumHandle0 function
+title: FwpsAleEndpointDestroyEnumHandle0 function (fwpsk.h)
 description: The FwpsAleEndpointDestroyEnumHandle0 function destroys an endpoint enumeration handle that was created by calling FwpsAleEndpointCreateEnumHandle0.Note  FwpsAleEndpointDestroyEnumHandle0 is a specific version of FwpsAleEndpointDestroyEnumHandle.
 old-location: netvista\fwpsaleendpointdestroyenumhandle0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAleEndpointDestroyEnumHandle0
+- FwpsAleEndpointDestroyEnumHandle0
 product:
 - Windows
 targetos: Windows

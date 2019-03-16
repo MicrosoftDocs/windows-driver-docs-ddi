@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_FINALIZE_ERROR_RECORD
-title: PSHED_PI_FINALIZE_ERROR_RECORD
+title: PSHED_PI_FINALIZE_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's FinalizeErrorRecord callback function adds supplementary error record sections to an error record that more fully describe the error condition.
 old-location: whea\finalizeerrorrecord.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FinalizeErrorRecord
+- FinalizeErrorRecord
 product:
 - Windows
 targetos: Windows

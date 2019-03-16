@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetGfxState
-title: IMiniportAudioEngineNode::SetGfxState
+title: IMiniportAudioEngineNode::SetGfxState (portcls.h)
 description: Sets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_setgfxstate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportAudioEngineNode.SetGfxState
+- IMiniportAudioEngineNode.SetGfxState
 product:
 - Windows
 targetos: Windows

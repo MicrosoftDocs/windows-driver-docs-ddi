@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_80
-title: BUS_INTERFACE_MEDIUMS
+title: BUS_INTERFACE_MEDIUMS (ks.h)
 description: 
 old-location: stream\bus_interface_mediums.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	BUS_INTERFACE_MEDIUMS
+- BUS_INTERFACE_MEDIUMS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFlushHeapTransitions
-title: D3DKMTFlushHeapTransitions function
+title: D3DKMTFlushHeapTransitions function (d3dkmthk.h)
 description: Flushes heap transitions.
 ms.assetid: ae10b2f4-9483-4a9f-9996-74daef38ddbd
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTFlushHeapTransitions
+- D3DKMTFlushHeapTransitions
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

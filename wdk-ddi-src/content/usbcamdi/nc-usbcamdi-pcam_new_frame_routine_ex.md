@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_NEW_FRAME_ROUTINE_EX
-title: PCAM_NEW_FRAME_ROUTINE_EX
+title: PCAM_NEW_FRAME_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamNewVideoFrameEx callback function initializes a new video frame context structure.
 old-location: stream\camnewvideoframeex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	CamNewVideoFrameEx
+- CamNewVideoFrameEx
 product:
 - Windows
 targetos: Windows

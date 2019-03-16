@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_DEVICE_PLUG_IN_OPTIONS
-title: "_UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
+title: _UDECX_USB_DEVICE_PLUG_IN_OPTIONS (udecxusbdevice.h)
 description: Contains the port numbers to which a virtual USB device is connected. Initialize this structure by calling the UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT method.
 old-location: buses\udecx_usb_device_plug_in_options.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_USB_DEVICE_PLUG_IN_OPTIONS
+- UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 product:
 - Windows
 targetos: Windows

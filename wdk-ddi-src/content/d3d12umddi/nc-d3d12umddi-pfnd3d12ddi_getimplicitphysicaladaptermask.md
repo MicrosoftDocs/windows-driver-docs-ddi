@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
-title: PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
+title: PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK (d3d12umddi.h)
 description: Get implicit physical adapter mask.
 ms.assetid: c9f5b9fc-5d92-4e27-bad2-67bba6d1f7c3
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
+- PFND3D12DDI_GETIMPLICITPHYSICALADAPTERMASK
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_26
-title: KSPROPERTY_CLOCK
+title: KSPROPERTY_CLOCK (ks.h)
 description: 
 old-location: stream\ksproperty_clock.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPROPERTY_CLOCK
+- KSPROPERTY_CLOCK
 product:
 - Windows
 targetos: Windows

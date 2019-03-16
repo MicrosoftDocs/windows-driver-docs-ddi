@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PORT_CHANGE
-title: EVT_UFX_DEVICE_PORT_CHANGE
+title: EVT_UFX_DEVICE_PORT_CHANGE (ufxclient.h)
 description: The client driver's implementation to update the type of the new port to which the USB device is connected.
 old-location: buses\evt_ufx_device_port_change.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_PORT_CHANGE
+- PFN_UFX_DEVICE_PORT_CHANGE
 product:
 - Windows
 targetos: Windows

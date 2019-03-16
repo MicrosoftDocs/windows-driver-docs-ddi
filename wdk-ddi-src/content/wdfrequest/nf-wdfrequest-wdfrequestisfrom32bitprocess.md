@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestIsFrom32BitProcess
-title: WdfRequestIsFrom32BitProcess function
+title: WdfRequestIsFrom32BitProcess function (wdfrequest.h)
 description: The WdfRequestIsFrom32BitProcess method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
 old-location: wdf\wdfrequestisfrom32bitprocess.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestIsFrom32BitProcess
+- WdfRequestIsFrom32BitProcess
 product:
 - Windows
 targetos: Windows

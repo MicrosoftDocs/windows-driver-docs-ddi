@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostTypeSignature
-title: IDebugHostTypeSignature
+title: IDebugHostTypeSignature (dbgmodel.h)
 description: Represents a type signature against which type instances can be matched.
 ms.assetid: d4a331e4-18cf-49f4-a7a3-4e3cde4adb05
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostTypeSignature
-product: Windows
+- IDebugHostTypeSignature
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

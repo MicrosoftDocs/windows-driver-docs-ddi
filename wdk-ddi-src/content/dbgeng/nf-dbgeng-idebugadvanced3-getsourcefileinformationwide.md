@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSourceFileInformationWide
-title: IDebugAdvanced3::GetSourceFileInformationWide
+title: IDebugAdvanced3::GetSourceFileInformationWide (dbgeng.h)
 description: The GetSourceFileInformationWide method returns specified information about a source file.
 old-location: debugger\getsourcefileinformationwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugAdvanced3.GetSourceFileInformationWide
+- IDebugAdvanced3.GetSourceFileInformationWide
 product:
 - Windows
 targetos: Windows

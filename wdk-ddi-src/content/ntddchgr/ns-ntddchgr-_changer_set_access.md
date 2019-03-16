@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_SET_ACCESS
-title: "_CHANGER_SET_ACCESS"
+title: _CHANGER_SET_ACCESS (ntddchgr.h)
 description: The CHANGER_SET_ACCESS structure is used in conjunction with theIOCTL_CHANGER_SET_ACCESS request to set the state of the device's import/export port (IEport), door, or keypad.
 old-location: storage\changer_set_access.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_SET_ACCESS
+- CHANGER_SET_ACCESS
 product:
 - Windows
 targetos: Windows

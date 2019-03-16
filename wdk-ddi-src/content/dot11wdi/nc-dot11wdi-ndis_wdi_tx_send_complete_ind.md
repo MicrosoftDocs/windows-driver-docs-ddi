@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_SEND_COMPLETE_IND
-title: NDIS_WDI_TX_SEND_COMPLETE_IND
+title: NDIS_WDI_TX_SEND_COMPLETE_IND (dot11wdi.h)
 description: The NdisWdiTxSendCompleteIndication callback function specifies an array of frame IDs associated with the target's sent frames.
 old-location: netvista\ndiswditxsendcompleteindication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiTxSendCompleteIndication
+- NdisWdiTxSendCompleteIndication
 product:
 - Windows
 targetos: Windows

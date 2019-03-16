@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlLengthRequiredSid
-title: RtlLengthRequiredSid function
+title: RtlLengthRequiredSid function (ntifs.h)
 description: The RtlLengthRequiredSid routine returns the length, in bytes, of the buffer required to store a security identifier (SID) with a specified number of subauthorities.
 old-location: ifsk\rtllengthrequiredsid.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlLengthRequiredSid
+- RtlLengthRequiredSid
 product:
 - Windows
 targetos: Windows

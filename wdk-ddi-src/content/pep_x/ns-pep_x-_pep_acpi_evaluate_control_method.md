@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_EVALUATE_CONTROL_METHOD
-title: "_PEP_ACPI_EVALUATE_CONTROL_METHOD"
+title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pep_x.h)
 description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_EVALUATE_CONTROL_METHOD
+- PEP_ACPI_EVALUATE_CONTROL_METHOD
 product:
 - Windows
 targetos: Windows
@@ -154,12 +154,12 @@ A union that contains either the four-character path-relative control method nam
 
 #### MethodNameString
 
-[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
+[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
 
 
 ##### - ( unnamed union ).MethodNameString
 
-[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
+[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified name of the ACPI control method. This name specifies the path and name of the method in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
 
 
 ##### - ( unnamed union ).MethodNameUlong

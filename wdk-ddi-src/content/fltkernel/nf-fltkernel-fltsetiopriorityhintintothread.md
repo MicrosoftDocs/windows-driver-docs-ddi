@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetIoPriorityHintIntoThread
-title: FltSetIoPriorityHintIntoThread function
+title: FltSetIoPriorityHintIntoThread function (fltkernel.h)
 description: The FltSetIoPriorityHintIntoThread routine is used by a minifilter driver to set the IO priority information in a thread.
 old-location: ifsk\fltsetiopriorityhintintothread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetIoPriorityHintIntoThread
+- FltSetIoPriorityHintIntoThread
 product:
 - Windows
 targetos: Windows

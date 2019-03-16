@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
-title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
+title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData (prnasntp.h)
 description: 
 old-location: print\iprintasyncnewchannelcookie_finishasynccallwithdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
+- IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 product:
 - Windows
 targetos: Windows

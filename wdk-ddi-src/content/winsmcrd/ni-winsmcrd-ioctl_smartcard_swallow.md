@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_SWALLOW
-title: IOCTL_SMARTCARD_SWALLOW
+title: IOCTL_SMARTCARD_SWALLOW (winsmcrd.h)
 description: The IOCTL_SMARTCARD_SWALLOW request causes the smart card reader to swallow the card.
 old-location: smartcrd\ioctl_smartcard_swallow.htm
 tech.root: smartcrd
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsmcrd.h
+- Winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_SWALLOW
+- IOCTL_SMARTCARD_SWALLOW
 product:
 - Windows
 targetos: Windows

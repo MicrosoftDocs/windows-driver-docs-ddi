@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioTransmitReady
-title: SerCx2PioTransmitReady function
+title: SerCx2PioTransmitReady function (sercx.h)
 description: The SerCx2PioTransmitReady method notifies version 2 of the serial framework extension (SerCx2) that the transmit FIFO in the serial controller hardware is ready to accept more data.
 old-location: serports\sercx2piotransmitready.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SerCx2PioTransmitReady
+- SerCx2PioTransmitReady
 product:
 - Windows
 targetos: Windows

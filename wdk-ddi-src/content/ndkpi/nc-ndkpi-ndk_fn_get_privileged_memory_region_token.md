@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN
-title: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN
+title: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN (ndkpi.h)
 description: The NdkGetPrivilegedMemoryRegionToken (NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN) function gets an NDK privileged memory region token.
 old-location: netvista\ndk_fn_get_privileged_memory_region_token.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkGetPrivilegedMemoryRegionToken
+- NdkGetPrivilegedMemoryRegionToken
 product:
 - Windows
 targetos: Windows

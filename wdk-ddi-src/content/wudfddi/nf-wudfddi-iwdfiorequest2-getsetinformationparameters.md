@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetSetInformationParameters
-title: IWDFIoRequest2::GetSetInformationParameters
+title: IWDFIoRequest2::GetSetInformationParameters (wudfddi.h)
 description: The GetSetInformationParameters method retrieves parameters that are associated with a WdfRequestSetInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getsetinformationparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.GetSetInformationParameters
+- IWDFIoRequest2.GetSetInformationParameters
 product:
 - Windows
 targetos: Windows

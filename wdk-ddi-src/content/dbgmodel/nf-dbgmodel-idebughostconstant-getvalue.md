@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetValue
-title: IDebugHostConstant::GetValue
+title: IDebugHostConstant::GetValue (dbgmodel.h)
 description: The GetValue method returns the value of the constant packed into a VARIANT. 
 ms.assetid: 8cf871cc-c21e-44ee-bd5a-bf3b4b1ad7b4
 ms.date: 10/03/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostConstant.GetValue
-product: Windows
+- IDebugHostConstant.GetValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

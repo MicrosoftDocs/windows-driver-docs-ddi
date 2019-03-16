@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMFillPath
-title: OEMFillPath function
+title: OEMFillPath function (printoem.h)
 description: The OEMFillPath function handles the filling of closed paths.
 old-location: print\oemfillpath.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMEscape
+- OEMEscape
 product:
 - Windows
 targetos: Windows

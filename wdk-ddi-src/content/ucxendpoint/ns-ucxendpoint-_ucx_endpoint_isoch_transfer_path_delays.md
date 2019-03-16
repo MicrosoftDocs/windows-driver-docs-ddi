@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
-title: "_UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
+title: _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS (ucxendpoint.h)
 description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_endpoint_isoch_transfer_path_delays.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
+- UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 product:
 - Windows
 targetos: Windows

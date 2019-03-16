@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxRetainDevice
-title: PosCxRetainDevice function
+title: PosCxRetainDevice function (poscx.h)
 description: PosCxRetainDevice is called to extend the ownership of the device.
 old-location: pos\poscxretaindevice.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxRetainDevice
+- PosCxRetainDevice
 product:
 - Windows
 targetos: Windows

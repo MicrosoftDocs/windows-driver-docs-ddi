@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_HD_SPLIT_ATTRIBUTES
-title: "_NDIS_HD_SPLIT_ATTRIBUTES"
+title: _NDIS_HD_SPLIT_ATTRIBUTES (ndis.h)
 description: The NDIS_HD_SPLIT_ATTRIBUTES structure defines header-data split attributes, if any, that are associated with a miniport adapter.
 old-location: netvista\ndis_hd_split_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_HD_SPLIT_ATTRIBUTES
+- NDIS_HD_SPLIT_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEALLOCATIONPROPERTY
-title: PFND3DKMT_UPDATEALLOCATIONPROPERTY
+title: PFND3DKMT_UPDATEALLOCATIONPROPERTY (d3dkmthk.h)
 description: The PFND3DKMT_UPDATEALLOCATIONPROPERTY callback function updates allocation property of a context.
 ms.assetid: 70da6f66-26d7-47c6-8236-2003cfa6edf3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_UPDATEALLOCATIONPROPERTY
+- PFND3DKMT_UPDATEALLOCATIONPROPERTY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

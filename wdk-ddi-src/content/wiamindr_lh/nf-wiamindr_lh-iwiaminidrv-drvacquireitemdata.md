@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvAcquireItemData
-title: IWiaMiniDrv::drvAcquireItemData
+title: IWiaMiniDrv::drvAcquireItemData (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvAcquireItemData method is called by the WIA service to transfer data from the device to an application.
 old-location: image\iwiaminidrv_drvacquireitemdata.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv.drvAcquireItemData
+- IWiaMiniDrv.drvAcquireItemData
 product:
 - Windows
 targetos: Windows

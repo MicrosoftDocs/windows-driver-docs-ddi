@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchLengthA
-title: RtlStringCchLengthA function
+title: RtlStringCchLengthA function (ntstrsafe.h)
 description: The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
 old-location: kernel\rtlstringcchlength.htm
 tech.root: kernel
@@ -26,17 +26,17 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlStringCchLengthW
--	RtlStringCchLengthA
--	RtlStringCchLengthW
+- RtlStringCchLengthW
+- RtlStringCchLengthA
+- RtlStringCchLengthW
 product:
 - Windows
 targetos: Windows

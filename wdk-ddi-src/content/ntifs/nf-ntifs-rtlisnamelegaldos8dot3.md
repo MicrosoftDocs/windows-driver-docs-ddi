@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsNameLegalDOS8Dot3
-title: RtlIsNameLegalDOS8Dot3 function
+title: RtlIsNameLegalDOS8Dot3 function (ntifs.h)
 description: The RtlIsNameLegalDOS8Dot3 routine determines whether a given name represents a valid short (8.3) file name.
 old-location: ifsk\rtlisnamelegaldos8dot3.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIsNameLegalDOS8Dot3
+- RtlIsNameLegalDOS8Dot3
 product:
 - Windows
 targetos: Windows

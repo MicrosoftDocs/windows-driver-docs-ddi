@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEOVERLAY
-title: DXGKDDI_CREATEOVERLAY
+title: DXGKDDI_CREATEOVERLAY (d3dkmddi.h)
 description: The DxgkDdiCreateOverlay function enables the overlay hardware if the hardware is capable.
 old-location: display\dxgkddicreateoverlay.htm
 ms.assetid: 1ccdd16d-fd76-4039-b538-86c77b4e8cbb
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCreateOverlay
+- DxgkDdiCreateOverlay
 product:
 - Windows
 targetos: Windows

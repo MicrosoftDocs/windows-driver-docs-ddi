@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeys
-title: IModelObject::EnumerateKeys
+title: IModelObject::EnumerateKeys (dbgmodel.h)
 description: Enumerates the keys within the dynamic key provider. 
 ms.assetid: 6eeb14e2-1bf1-4f6e-a12d-345480eb9d60
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.EnumerateKeys
-product: Windows
+- IModelObject.EnumerateKeys
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

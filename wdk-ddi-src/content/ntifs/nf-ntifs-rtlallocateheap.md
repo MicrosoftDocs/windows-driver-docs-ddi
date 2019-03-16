@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAllocateHeap
-title: RtlAllocateHeap function
+title: RtlAllocateHeap function (ntifs.h)
 description: The RtlAllocateHeap routine allocates a block of memory from a heap.
 old-location: ifsk\rtlallocateheap.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	ntdll.dll
+- NtosKrnl.exe
+- ntdll.dll
 api_name:
--	RtlAllocateHeap
+- RtlAllocateHeap
 product:
 - Windows
 targetos: Windows

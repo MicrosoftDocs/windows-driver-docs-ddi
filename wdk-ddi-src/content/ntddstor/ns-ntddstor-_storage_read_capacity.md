@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_READ_CAPACITY
-title: "_STORAGE_READ_CAPACITY"
+title: _STORAGE_READ_CAPACITY (ntddstor.h)
 description: The STORAGE_READ_CAPACITY contains the disk read capacity information returned from a IOCTL_STORAGE_READ_CAPACITIY request.
 old-location: storage\storage_read_capacity.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_READ_CAPACITY
+- STORAGE_READ_CAPACITY
 product:
 - Windows
 targetos: Windows

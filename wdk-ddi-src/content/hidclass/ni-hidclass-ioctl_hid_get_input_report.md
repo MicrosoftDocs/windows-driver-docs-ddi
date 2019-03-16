@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_INPUT_REPORT
-title: IOCTL_HID_GET_INPUT_REPORT
+title: IOCTL_HID_GET_INPUT_REPORT (hidclass.h)
 description: The IOCTL_HID_GET_INPUT_REPORT request obtains an input report from a top-level collection.
 old-location: hid\ioctl_hid_get_input_report2.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_GET_INPUT_REPORT
+- IOCTL_HID_GET_INPUT_REPORT
 product:
 - Windows
 targetos: Windows

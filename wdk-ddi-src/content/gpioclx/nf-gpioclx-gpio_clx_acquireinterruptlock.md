@@ -1,6 +1,6 @@
 ---
 UID: NF:gpioclx.GPIO_CLX_AcquireInterruptLock
-title: GPIO_CLX_AcquireInterruptLock function
+title: GPIO_CLX_AcquireInterruptLock function (gpioclx.h)
 description: The GPIO_CLX_AcquireInterruptLock method acquires an interrupt lock on a bank of pins in the general-purpose I/O (GPIO) controller.
 old-location: gpio\gpio_clx_acquireinterruptlock.htm
 tech.root: GPIO
@@ -26,15 +26,15 @@ req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: DIRQL or at PASSIVE_LEVEL. See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Msgpioclxstub.lib
--	Msgpioclxstub.dll
+- Msgpioclxstub.lib
+- Msgpioclxstub.dll
 api_name:
--	GPIO_CLX_AcquireInterruptLock
+- GPIO_CLX_AcquireInterruptLock
 product:
 - Windows
 targetos: Windows

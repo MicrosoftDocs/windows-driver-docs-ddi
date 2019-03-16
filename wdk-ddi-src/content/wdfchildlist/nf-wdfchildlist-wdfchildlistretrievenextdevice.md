@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListRetrieveNextDevice
-title: WdfChildListRetrieveNextDevice function
+title: WdfChildListRetrieveNextDevice function (wdfchildlist.h)
 description: The WdfChildListRetrieveNextDevice method traverses a specified child list and retrieves the next child device that matches specified criteria.
 old-location: wdf\wdfchildlistretrievenextdevice.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfChildListRetrieveNextDevice
+- WdfChildListRetrieveNextDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReleaseBuffer
-title: VideoPortReleaseBuffer function
+title: VideoPortReleaseBuffer function (video.h)
 description: The VideoPortReleaseBuffer function is obsolete in Windows 2000 and later. In its place, video miniport drivers should instead use VideoPortFreePool. VideoPortReleaseBuffer deallocates a block of paged pool memory.
 old-location: display\videoportreleasebuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReleaseBuffer
+- VideoPortReleaseBuffer
 product:
 - Windows
 targetos: Windows

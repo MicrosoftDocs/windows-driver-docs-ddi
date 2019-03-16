@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DZBUFFERTYPE
-title: _D3DZBUFFERTYPE
+title: _D3DZBUFFERTYPE (d3d9types.h)
 description: 
 ms.assetid: 1a8382b7-a271-4a4c-8d0f-71c0f1ff9f3c
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DZBUFFERTYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DZBUFFERTYPE
+- _D3DZBUFFERTYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

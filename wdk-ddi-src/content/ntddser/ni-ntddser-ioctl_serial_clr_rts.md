@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_CLR_RTS
-title: IOCTL_SERIAL_CLR_RTS
+title: IOCTL_SERIAL_CLR_RTS (ntddser.h)
 description: The IOCTL_SERIAL_CLR_RTS request clears the request to send (RTS) control signal.
 old-location: serports\ioctl_serial_clr_rts.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_CLR_RTS
+- IOCTL_SERIAL_CLR_RTS
 product:
 - Windows
 targetos: Windows

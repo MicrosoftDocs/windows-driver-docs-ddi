@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_RENDER_PIPELINE_STAGE
-title: "_DXGK_RENDER_PIPELINE_STAGE"
+title: _DXGK_RENDER_PIPELINE_STAGE (d3dkmdt.h)
 description: The DXGK_RENDER_PIPELINE_STAGE enumeration describes the render pipeline stage during which the GPU error has occurred.
 old-location: display\dxgk_render_pipeline_stage.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	DXGK_RENDER_PIPELINE_STAGE
+- DXGK_RENDER_PIPELINE_STAGE
 product:
 - Windows
 targetos: Windows

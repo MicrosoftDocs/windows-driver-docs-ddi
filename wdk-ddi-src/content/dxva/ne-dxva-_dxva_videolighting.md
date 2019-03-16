@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoLighting
-title: "_DXVA_VideoLighting"
+title: _DXVA_VideoLighting (dxva.h)
 description: The DXVA_VideoLighting enumeration type contains enumerators that identify lighting conditions for viewing video.
 old-location: display\dxva_videolighting.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_VideoLighting
+- DXVA_VideoLighting
 product:
 - Windows
 targetos: Windows

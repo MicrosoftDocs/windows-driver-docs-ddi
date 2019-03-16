@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._ERROR_HISTORY_DIRECTORY_ENTRY
-title: _ERROR_HISTORY_DIRECTORY_ENTRY
+title: _ERROR_HISTORY_DIRECTORY_ENTRY (scsi.h)
 description: 
 ms.assetid: 0c51fcbb-01d6-49c2-b5ca-dd6aafdffbe5
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_ERROR_HISTORY_DIRECTORY_ENTRY
+- _ERROR_HISTORY_DIRECTORY_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

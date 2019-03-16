@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
-title: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS
+title: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS (d3dkmddi.h)
 description: The pfnGetNumDescriptors function returns the number of descriptors in a monitor descriptor set.
 old-location: display\dxgk_monitordescriptorset_interface_pfngetnumdescriptors.htm
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetNumDescriptors
+- pfnGetNumDescriptors
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortRequestTimer
-title: StorPortRequestTimer function
+title: StorPortRequestTimer function (storport.h)
 description: Schedules a callback event for a Storport timer context object.
 old-location: storage\storportrequesttimer.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortRequestTimer
+- StorPortRequestTimer
 product:
 - Windows
 targetos: Windows

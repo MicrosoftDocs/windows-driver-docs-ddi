@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetPhysicalTime
-title: IKsReferenceClock::GetPhysicalTime
+title: IKsReferenceClock::GetPhysicalTime (ks.h)
 description: The IKsReferenceClock::GetPhysicalTime method queries the associated reference clock for the current physical time.
 old-location: stream\iksreferenceclock_getphysicaltime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetPhysicalTime
+- IKsReferenceClock.GetPhysicalTime
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
-title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
+title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 (d3dkmthk.h)
 description: Check multiplane overlay plane.
 ms.assetid: 5c2a90f1-cab7-4789-8423-96c36867727a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
+- _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

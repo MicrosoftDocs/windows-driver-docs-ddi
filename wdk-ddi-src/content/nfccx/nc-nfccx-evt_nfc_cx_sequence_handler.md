@@ -1,6 +1,6 @@
 ---
 UID: NC:nfccx.EVT_NFC_CX_SEQUENCE_HANDLER
-title: EVT_NFC_CX_SEQUENCE_HANDLER
+title: EVT_NFC_CX_SEQUENCE_HANDLER (nfccx.h)
 description: Called by the NFC CX to notify the client driver to handle the specific registered sequence.
 old-location: nfpdrivers\evtnfccxsequencehandler.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	EvtNfcCxSequenceHandler
+- EvtNfcCxSequenceHandler
 product:
 - Windows
 targetos: Windows

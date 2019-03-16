@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorSessionInfo
-title: "_MSiSCSI_InitiatorSessionInfo"
+title: _MSiSCSI_InitiatorSessionInfo (iscsimgt.h)
 description: The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 old-location: storage\msiscsi_initiatorsessioninfo.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_InitiatorSessionInfo
+- MSiSCSI_InitiatorSessionInfo
 product:
 - Windows
 targetos: Windows

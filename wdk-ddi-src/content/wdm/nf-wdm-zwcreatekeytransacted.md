@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateKeyTransacted
-title: ZwCreateKeyTransacted function
+title: ZwCreateKeyTransacted function (wdm.h)
 description: The ZwCreateKeyTransacted routine creates a new registry key or opens an existing one, and it associates the key with a transaction.
 old-location: kernel\zwcreatekeytransacted.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateKeyTransacted
+- ZwCreateKeyTransacted
 product:
 - Windows
 targetos: Windows

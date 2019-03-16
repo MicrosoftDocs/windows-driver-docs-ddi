@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoStartDeviceBusy
-title: PoStartDeviceBusy function
+title: PoStartDeviceBusy function (wdm.h)
 description: The PoStartDeviceBusy routine marks the start of a period of time in which the device is busy.
 old-location: kernel\postartdevicebusy.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoStartDeviceBusy
+- PoStartDeviceBusy
 product:
 - Windows
 targetos: Windows

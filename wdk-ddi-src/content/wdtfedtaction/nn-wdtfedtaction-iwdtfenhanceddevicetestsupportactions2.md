@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2
-title: IWDTFEnhancedDeviceTestSupportActions2
+title: IWDTFEnhancedDeviceTestSupportActions2 (wdtfedtaction.h)
 description: Defines operations and properties that support the collection of Enhanced Device Test (EDT) actions.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfedtaction.h
+- wdtfedtaction.h
 api_name:
--	IWDTFEnhancedDeviceTestSupportActions2
+- IWDTFEnhancedDeviceTestSupportActions2
 product:
 - Windows
 targetos: Windows

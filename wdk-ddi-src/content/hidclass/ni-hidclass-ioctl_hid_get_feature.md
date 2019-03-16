@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_FEATURE
-title: IOCTL_HID_GET_FEATURE
+title: IOCTL_HID_GET_FEATURE (hidclass.h)
 description: The IOCTL_HID_GET_FEATURE request returns a feature report associated with a top-level collection.
 old-location: hid\ioctl_hid_get_feature2.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_GET_FEATURE
+- IOCTL_HID_GET_FEATURE
 product:
 - Windows
 targetos: Windows

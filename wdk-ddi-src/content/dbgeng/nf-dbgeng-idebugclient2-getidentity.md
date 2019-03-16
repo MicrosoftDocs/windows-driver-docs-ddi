@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetIdentity
-title: IDebugClient2::GetIdentity
+title: IDebugClient2::GetIdentity (dbgeng.h)
 description: The GetIdentity method returns a string describing the computer and user this client represents.
 old-location: debugger\getidentity.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetIdentity
--	IDebugClient2.GetIdentity
--	IDebugClient3.GetIdentity
--	IDebugClient4.GetIdentity
--	IDebugClient5.GetIdentity
+- IDebugClient.GetIdentity
+- IDebugClient2.GetIdentity
+- IDebugClient3.GetIdentity
+- IDebugClient4.GetIdentity
+- IDebugClient5.GetIdentity
 product:
 - Windows
 targetos: Windows

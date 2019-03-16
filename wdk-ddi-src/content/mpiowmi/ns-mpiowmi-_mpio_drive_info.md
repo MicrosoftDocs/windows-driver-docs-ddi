@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DRIVE_INFO
-title: "_MPIO_DRIVE_INFO"
+title: _MPIO_DRIVE_INFO (mpiowmi.h)
 description: The MPIO_DRIVE_INFO structure represents a multi-path disk in the system.
 old-location: storage\mpio_drive_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_DRIVE_INFO
+- MPIO_DRIVE_INFO
 product:
 - Windows
 targetos: Windows

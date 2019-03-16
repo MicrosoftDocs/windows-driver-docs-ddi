@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwFsControlFile
-title: ZwFsControlFile function
+title: ZwFsControlFile function (ntifs.h)
 description: The ZwFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: kernel\zwfscontrolfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwFsControlFile
--	NtFsControlFile
+- ZwFsControlFile
+- NtFsControlFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_QUEUEDLIMIT_TYPE
-title: "_D3DKMT_QUEUEDLIMIT_TYPE"
+title: _D3DKMT_QUEUEDLIMIT_TYPE (d3dkmthk.h)
 description: The D3DKMT_QUEUEDLIMIT_TYPE enumeration type contains values that indicate the type of operations to set or retrieve the queued limit for in a call to the D3DKMTSetQueuedLimit function.
 old-location: display\d3dkmt_queuedlimit_type.htm
 ms.assetid: 5e57e2cc-91a2-4150-9805-8a963530080a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_QUEUEDLIMIT_TYPE
+- D3DKMT_QUEUEDLIMIT_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_PARTNER
-title: "_UCM_TYPEC_PARTNER"
+title: _UCM_TYPEC_PARTNER (ucmtypes.h)
 description: Defines the state of the Type-C connector.
 old-location: buses\ucm_type_c_port_state.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_TYPEC_PARTNER
+- UCM_TYPEC_PARTNER
 product:
 - Windows
 targetos: Windows

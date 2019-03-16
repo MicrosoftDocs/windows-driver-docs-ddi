@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.ResetPDEV
-title: IPrintOemEngine::ResetPDEV
+title: IPrintOemEngine::ResetPDEV (prcomoem.h)
 description: 
 old-location: print\iprintoemengine_resetpdev.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemEngine.ResetPDEV
+- IPrintOemEngine.ResetPDEV
 product:
 - Windows
 targetos: Windows

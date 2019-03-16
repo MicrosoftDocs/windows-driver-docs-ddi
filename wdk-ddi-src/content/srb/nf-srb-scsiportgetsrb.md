@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetSrb
-title: ScsiPortGetSrb function
+title: ScsiPortGetSrb function (srb.h)
 description: The ScsiPortGetSrb routine returns a pointer to an active SCSI request for a particular logical unit.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetsrb.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortGetSrb
+- ScsiPortGetSrb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS
-title: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS
+title: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS (d3d10umddi.h)
 description: Updates mappings of tile locations in tiled resources to memory locations in a tile pool.
 old-location: display\updatetilemappings.htm
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	UpdateTileMappings
+- UpdateTileMappings
 product:
 - Windows
 targetos: Windows

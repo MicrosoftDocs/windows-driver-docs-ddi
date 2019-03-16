@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt.__unnamed_enum_1
-title: DXGK_ENGINE_TYPE
+title: DXGK_ENGINE_TYPE (d3dkmdt.h)
 description: Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 old-location: display\dxgk_engine_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	DXGK_ENGINE_TYPE
+- DXGK_ENGINE_TYPE
 product:
 - Windows
 targetos: Windows

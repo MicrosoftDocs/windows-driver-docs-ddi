@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.CreateArrayOf
-title: IDebugHostType::CreateArrayOf
+title: IDebugHostType::CreateArrayOf (dbgmodel.h)
 description: For any given type, this returns a new IDebugHostType which is an array of this type.
 ms.assetid: bb8de044-1e9d-4357-8419-44016942f386
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.CreateArrayOf
-product: Windows
+- IDebugHostType.CreateArrayOf
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

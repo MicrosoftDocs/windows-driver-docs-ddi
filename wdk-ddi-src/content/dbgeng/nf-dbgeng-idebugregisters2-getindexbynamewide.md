@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetIndexByNameWide
-title: IDebugRegisters2::GetIndexByNameWide
+title: IDebugRegisters2::GetIndexByNameWide (dbgeng.h)
 description: The GetIndexByNameWide method returns the index of the named register.
 old-location: debugger\getindexbynamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetIndexByNameWide
+- IDebugRegisters2.GetIndexByNameWide
 product:
 - Windows
 targetos: Windows

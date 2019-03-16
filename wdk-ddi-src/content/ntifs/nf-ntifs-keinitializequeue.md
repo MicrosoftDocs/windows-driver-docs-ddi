@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeInitializeQueue
-title: KeInitializeQueue function
+title: KeInitializeQueue function (ntifs.h)
 description: The KeInitializeQueue routine initializes a queue object on which threads can wait for entries.
 old-location: ifsk\keinitializequeue.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeQueue
+- KeInitializeQueue
 product:
 - Windows
 targetos: Windows

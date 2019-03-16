@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_QUERYADAPTERINFO
-title: "_D3DDDICB_QUERYADAPTERINFO"
+title: _D3DDDICB_QUERYADAPTERINFO (d3dumddi.h)
 description: The D3DDDICB_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 old-location: display\d3dddicb_queryadapterinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_QUERYADAPTERINFO
+- D3DDDICB_QUERYADAPTERINFO
 product:
 - Windows
 targetos: Windows

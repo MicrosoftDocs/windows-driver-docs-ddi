@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
-title: "_DXVADDI_QUERYFILTERPROPERTYRANGEINPUT"
+title: _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT (d3dumddi.h)
 description: The DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure describes a filter setting on a video stream that range information is requested for.
 old-location: display\dxvaddi_queryfilterpropertyrangeinput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
+- DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
 product:
 - Windows
 targetos: Windows

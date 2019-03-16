@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSCLOCK_GETTIME
-title: PFNKSCLOCK_GETTIME
+title: PFNKSCLOCK_GETTIME (ks.h)
 description: The routine gets system time.KStrClockGetTime is a system-supplied routine that retrieves the current system time.KStrClockGetPhysicalTime is a system-supplied routine that retrieves the current system time minus any suspended delta.
 old-location: stream\kstrclockgettime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	SystemClockGetTime
+- SystemClockGetTime
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsStreamContinue0
-title: FwpsStreamContinue0 function
+title: FwpsStreamContinue0 function (fwpsk.h)
 description: The FwpsStreamContinue0 function resumes the processing of an inbound data stream that was previously deferred.Note  FwpsStreamContinue0 is a specific version of FwpsStreamContinue.
 old-location: netvista\fwpsstreamcontinue0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpsStreamContinue0
+- FwpsStreamContinue0
 product:
 - Windows
 targetos: Windows

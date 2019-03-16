@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEPIXELSHADER
-title: "_D3DHAL_DP2CREATEPIXELSHADER"
+title: _D3DHAL_DP2CREATEPIXELSHADER (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2CREATEPIXELSHADER structure is used to create a pixel shader when a D3DDP2OP_CREATEPIXELSHADER opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createpixelshader.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2CREATEPIXELSHADER
+- D3DHAL_DP2CREATEPIXELSHADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO4
-title: "_GET_LOCAL_HOST_INFO4"
+title: _GET_LOCAL_HOST_INFO4 (1394.h)
 description: The GET_LOCAL_HOST_INFO4 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_PHYS_ADDR_ROUTINE.
 old-location: ieee\get_local_host_info4.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	GET_LOCAL_HOST_INFO4
+- GET_LOCAL_HOST_INFO4
 product:
 - Windows
 targetos: Windows

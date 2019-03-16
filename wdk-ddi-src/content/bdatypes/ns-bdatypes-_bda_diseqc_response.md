@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DISEQC_RESPONSE
-title: "_BDA_DISEQC_RESPONSE"
+title: _BDA_DISEQC_RESPONSE (bdatypes.h)
 description: 
 old-location: stream\bda_diseqc_response.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_DISEQC_RESPONSE
+- BDA_DISEQC_RESPONSE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasFreePropContext
-title: wiasFreePropContext function
+title: wiasFreePropContext function (wiamdef.h)
 description: The wiasFreePropContext function releases the memory occupied by a WIA_PROPERTY_CONTEXT structure.
 old-location: image\wiasfreepropcontext.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasFreePropContext
+- wiasFreePropContext
 product:
 - Windows
 targetos: Windows

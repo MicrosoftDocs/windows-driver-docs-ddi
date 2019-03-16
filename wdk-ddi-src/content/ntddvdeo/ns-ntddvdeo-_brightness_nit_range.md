@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._BRIGHTNESS_NIT_RANGE
-title: _BRIGHTNESS_NIT_RANGE
+title: _BRIGHTNESS_NIT_RANGE (ntddvdeo.h)
 description: A linear range of supported millinit levels.
 tech.root: display
 ms.assetid: fb6130d9-161a-4a9d-af61-9474e5583299
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BRIGHTNESS_NIT_RANGE
+- _BRIGHTNESS_NIT_RANGE
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_USB_OPERATION_MODE
-title: _UCSI_USB_OPERATION_MODE
+title: _UCSI_USB_OPERATION_MODE (ucmucsispec.h)
 tech.root: usbref
 description: Used in the SET_UOR command. See Table 4-18, Offset 23.
 ms.assetid: a8cd9084-40bf-4b06-be2d-53f324e811e4
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_USB_OPERATION_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_USB_OPERATION_MODE
-product: Windows
+- _UCSI_USB_OPERATION_MODE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

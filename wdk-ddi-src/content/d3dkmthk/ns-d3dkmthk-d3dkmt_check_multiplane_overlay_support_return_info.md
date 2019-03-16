@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
-title: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
+title: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO (d3dkmthk.h)
 description: Structure to check multiplane overlay support return info.
 ms.assetid: 83093ae5-fa42-4cb8-8e34-f0545e0f8a2d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
+- D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

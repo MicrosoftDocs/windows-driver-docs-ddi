@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_COORDINATED_STATES
-title: "_PEP_PPM_QUERY_COORDINATED_STATES"
+title: _PEP_PPM_QUERY_COORDINATED_STATES (pepfx.h)
 description: The PEP_PPM_QUERY_COORDINATED_STATES structure contains information about each coordinated idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_ppm_query_coordinated_states.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_COORDINATED_STATES
+- PEP_PPM_QUERY_COORDINATED_STATES
 product:
 - Windows
 targetos: Windows

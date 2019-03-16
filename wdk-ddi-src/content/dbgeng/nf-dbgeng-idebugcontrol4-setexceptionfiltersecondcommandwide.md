@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetExceptionFilterSecondCommandWide
-title: IDebugControl4::SetExceptionFilterSecondCommandWide
+title: IDebugControl4::SetExceptionFilterSecondCommandWide (dbgeng.h)
 description: The SetExceptionFilterSecondCommandWide method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommandwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetExceptionFilterSecondCommandWide
+- IDebugControl4.SetExceptionFilterSecondCommandWide
 product:
 - Windows
 targetos: Windows

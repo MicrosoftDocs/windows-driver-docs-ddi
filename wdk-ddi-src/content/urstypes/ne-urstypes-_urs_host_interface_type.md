@@ -1,6 +1,6 @@
 ---
 UID: NE:urstypes._URS_HOST_INTERFACE_TYPE
-title: "_URS_HOST_INTERFACE_TYPE"
+title: _URS_HOST_INTERFACE_TYPE (urstypes.h)
 description: Defines values for the various types of USB host controllers.
 old-location: buses\urs_host_interface_type.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	urstypes.h
+- urstypes.h
 api_name:
--	URS_HOST_INTERFACE_TYPE
+- URS_HOST_INTERFACE_TYPE
 product:
 - Windows
 targetos: Windows

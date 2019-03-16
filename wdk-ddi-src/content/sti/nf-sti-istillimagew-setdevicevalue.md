@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.SetDeviceValue
-title: IStillImageW::SetDeviceValue
+title: IStillImageW::SetDeviceValue (sti.h)
 description: The IStillImage::SetDeviceValue method sets registry information for a specified still image device.
 old-location: image\istillimage_setdevicevalue.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.SetDeviceValue
+- IStillImageW.SetDeviceValue
 product:
 - Windows
 targetos: Windows

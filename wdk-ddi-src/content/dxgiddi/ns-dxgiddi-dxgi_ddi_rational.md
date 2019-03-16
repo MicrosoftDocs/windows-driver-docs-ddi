@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_RATIONAL
-title: DXGI_DDI_RATIONAL
+title: DXGI_DDI_RATIONAL (dxgiddi.h)
 description: The DXGI_DDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a display mode (that is, vertical sync and horizontal sync).
 old-location: display\dxgi_ddi_rational.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_RATIONAL
+- DXGI_DDI_RATIONAL
 product:
 - Windows
 targetos: Windows

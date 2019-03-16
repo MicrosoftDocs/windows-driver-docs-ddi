@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_SHARED_MEM_OFFSET
-title: NET_BUFFER_SHARED_MEM_OFFSET macro
+title: NET_BUFFER_SHARED_MEM_OFFSET macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_OFFSET macro gets the shared memory offset from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
 ms.assetid: a2656c0b-edea-4f07-be1f-3d80ab369193
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_SHARED_MEM_OFFSET
+- NET_BUFFER_SHARED_MEM_OFFSET
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

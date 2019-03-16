@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETPREDICATION
-title: PFND3D10DDI_SETPREDICATION
+title: PFND3D10DDI_SETPREDICATION (d3d10umddi.h)
 description: The SetPredication function specifies whether rendering and resource-manipulation commands that follow are actually performed.
 old-location: display\setpredication.htm
 ms.assetid: df671478-859f-4ccd-9ab4-1986f9af10cf
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetPredication
+- SetPredication
 product:
 - Windows
 targetos: Windows

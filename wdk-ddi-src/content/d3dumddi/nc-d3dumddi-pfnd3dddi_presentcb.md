@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENTCB
-title: PFND3DDDI_PRESENTCB
+title: PFND3DDDI_PRESENTCB (d3dumddi.h)
 description: The pfnPresentCb function copies content from a source allocation.
 old-location: display\pfnpresentcb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnPresentCb
+- pfnPresentCb
 product:
 - Windows
 targetos: Windows

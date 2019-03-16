@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PCREATE_THREAD_NOTIFY_ROUTINE
-title: PCREATE_THREAD_NOTIFY_ROUTINE
+title: PCREATE_THREAD_NOTIFY_ROUTINE (ntddk.h)
 description: A callback routine implemented by a driver to notify the caller when a thread is created or deleted.
 old-location: kernel\pcreate_thread_notify_routine.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	SetCreateThreadNotifyRoutine
+- SetCreateThreadNotifyRoutine
 product:
 - Windows
 targetos: Windows

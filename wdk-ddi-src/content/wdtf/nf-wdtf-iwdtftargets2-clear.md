@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Clear
-title: IWDTFTargets2::Clear
+title: IWDTFTargets2::Clear (wdtf.h)
 description: Removes all items from the collection.
 old-location: dtf\iwdtftargets2_clear.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Clear
+- IWDTFTargets2.Clear
 product:
 - Windows
 targetos: Windows

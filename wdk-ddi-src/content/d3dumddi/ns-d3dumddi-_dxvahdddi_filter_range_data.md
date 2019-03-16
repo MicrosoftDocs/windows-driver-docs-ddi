@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_FILTER_RANGE_DATA
-title: "_DXVAHDDDI_FILTER_RANGE_DATA"
+title: _DXVAHDDDI_FILTER_RANGE_DATA (d3dumddi.h)
 description: Describes a filter range.
 old-location: display\dxvahdddi_filter_range_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_FILTER_RANGE_DATA
+- DXVAHDDDI_FILTER_RANGE_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_THRESHOLD_CONFIGURATION
-title: "_PMI_THRESHOLD_CONFIGURATION"
+title: _PMI_THRESHOLD_CONFIGURATION (pmi.h)
 description: The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 old-location: powermeter\pmi_threshold_configuration.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_THRESHOLD_CONFIGURATION
+- PMI_THRESHOLD_CONFIGURATION
 product:
 - Windows
 targetos: Windows

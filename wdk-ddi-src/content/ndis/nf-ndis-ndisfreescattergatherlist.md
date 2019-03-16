@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeScatterGatherList
-title: NdisFreeScatterGatherList function
+title: NdisFreeScatterGatherList function (ndis.h)
 description: The NdisFreeScatterGatherList function frees a scatter/gather list.
 old-location: netvista\ndisfreescattergatherlist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeScatterGatherList
+- NdisFreeScatterGatherList
 product:
 - Windows
 targetos: Windows

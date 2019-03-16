@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
-title: "_D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS"
+title: _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS (d3dkmddi.h)
 description: Indicates how a kernel mode display-only driver (KMDOD) is to perform a present operation.
 old-location: display\d3dkmt_present_display_only_flags.htm
 ms.assetid: a45dfdeb-06d2-49c8-a6e1-f42a43857492
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
+- D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 product:
 - Windows
 targetos: Windows

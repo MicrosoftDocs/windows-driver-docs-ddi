@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_TRACE
-title: WIAS_TRACE macro
+title: WIAS_TRACE macro (wiautil.h)
 description: The WIAS_TRACE macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_trace.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_TRACE
+- WIAS_TRACE
 product:
 - Windows
 targetos: Windows

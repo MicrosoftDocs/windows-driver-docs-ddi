@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_ACTION
-title: "_REFS_SMR_VOLUME_GC_ACTION"
+title: _REFS_SMR_VOLUME_GC_ACTION (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_ACTION enum contains the available garbage collection commands for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_action.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	REFS_SMR_VOLUME_GC_ACTION
+- REFS_SMR_VOLUME_GC_ACTION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceKeyCollection
-title: IPortableDeviceKeyCollection
+title: IPortableDeviceKeyCollection (portabledevicetypes.h)
 description: Holds a collection of PROPERTYKEY values. This interface can be retrieved from a method or, if a new object is required, call CoCreate with CLSID_PortableDeviceKeyCollection.
 old-location: wpddk\iportabledevicekeycollection.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceKeyCollection
+- IPortableDeviceKeyCollection
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

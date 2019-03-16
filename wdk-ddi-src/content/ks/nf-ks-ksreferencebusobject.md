@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReferenceBusObject
-title: KsReferenceBusObject function
+title: KsReferenceBusObject function (ks.h)
 description: References the bus Physical device object.
 old-location: stream\ksreferencebusobject.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsReferenceBusObject
+- KsReferenceBusObject
 product:
 - Windows
 targetos: Windows

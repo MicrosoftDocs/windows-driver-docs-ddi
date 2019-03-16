@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CALIBRATION_INFO
-title: "_WINBIO_CALIBRATION_INFO"
+title: _WINBIO_CALIBRATION_INFO (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 old-location: biometric\winbio_calibration_info.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_CALIBRATION_INFO
+- WINBIO_CALIBRATION_INFO
 product:
 - Windows
 targetos: Windows

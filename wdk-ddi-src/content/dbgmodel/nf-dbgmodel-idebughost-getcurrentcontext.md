@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetCurrentContext
-title: IDebugHost::GetCurrentContext
+title: IDebugHost::GetCurrentContext (dbgmodel.h)
 description: The GetCurrentContext method returns an interface which represents the current state of the debugger host.
 ms.assetid: 44829ee3-ae2f-4fed-9b80-6de77044a731
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHost.GetCurrentContext
-product: Windows
+- IDebugHost.GetCurrentContext
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

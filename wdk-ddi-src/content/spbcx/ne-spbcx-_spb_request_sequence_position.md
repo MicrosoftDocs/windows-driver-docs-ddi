@@ -1,6 +1,6 @@
 ---
 UID: NE:spbcx._SPB_REQUEST_SEQUENCE_POSITION
-title: "_SPB_REQUEST_SEQUENCE_POSITION"
+title: _SPB_REQUEST_SEQUENCE_POSITION (spbcx.h)
 description: The SPB_REQUEST_SEQUENCE_POSITION enumeration indicates the position of an I/O request in the list of transfers for an I/O transfer sequence.
 old-location: spb\spb_request_sequence_position.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	spbcx.h
+- spbcx.h
 api_name:
--	SPB_REQUEST_SEQUENCE_POSITION
+- SPB_REQUEST_SEQUENCE_POSITION
 product:
 - Windows
 targetos: Windows

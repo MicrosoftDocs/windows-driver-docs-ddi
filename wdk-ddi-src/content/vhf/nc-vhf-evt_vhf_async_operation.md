@@ -1,6 +1,6 @@
 ---
 UID: NC:vhf.EVT_VHF_ASYNC_OPERATION
-title: EVT_VHF_ASYNC_OPERATION
+title: EVT_VHF_ASYNC_OPERATION (vhf.h)
 description: The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports.
 old-location: hid\evtvhfasyncoperation.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	vhf.h
+- vhf.h
 api_name:
--	EvtVhfAsyncOperation
+- EvtVhfAsyncOperation
 product:
 - Windows
 targetos: Windows

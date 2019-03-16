@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_CONFIGURATION_PARAMETER
-title: "_NDIS_CONFIGURATION_PARAMETER"
+title: _NDIS_CONFIGURATION_PARAMETER (ndis.h)
 description: The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named entry in the registry.
 old-location: netvista\ndis_configuration_parameter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_CONFIGURATION_PARAMETER
+- NDIS_CONFIGURATION_PARAMETER
 product:
 - Windows
 targetos: Windows

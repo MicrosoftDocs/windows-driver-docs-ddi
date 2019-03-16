@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializePoFxPower
-title: StorPortInitializePoFxPower function
+title: StorPortInitializePoFxPower function (storport.h)
 description: A miniport driver calls StorPortInitializePoFxPower to register a storage device with the power management framework (PoFx).
 old-location: storage\storportinitializepofxpower.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializePoFxPower
+- StorPortInitializePoFxPower
 product:
 - Windows
 targetos: Windows

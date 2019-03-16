@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_INTERFACE_PROPERTY_DATA
-title: "_WDF_DEVICE_INTERFACE_PROPERTY_DATA"
+title: _WDF_DEVICE_INTERFACE_PROPERTY_DATA (wdfdevice.h)
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA structure describes a device interface property.
 old-location: wdf\wdf_device_interface_property_data.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DEVICE_INTERFACE_PROPERTY_DATA
+- WDF_DEVICE_INTERFACE_PROPERTY_DATA
 product:
 - Windows
 targetos: Windows

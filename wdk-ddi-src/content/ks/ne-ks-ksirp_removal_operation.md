@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_35
-title: KSIRP_REMOVAL_OPERATION
+title: KSIRP_REMOVAL_OPERATION (ks.h)
 description: 
 old-location: stream\ksirp_removal_operation.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSIRP_REMOVAL_OPERATION
+- KSIRP_REMOVAL_OPERATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:ks.IKsControl
-title: IKsControl
+title: IKsControl (ks.h)
 description: The IKsControl interface is a COM-style interface implemented on AVStream filters and pins.
 old-location: stream\ikscontrol8.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	IKsControl
+- IKsControl
 product:
 - Windows
 targetos: Windows

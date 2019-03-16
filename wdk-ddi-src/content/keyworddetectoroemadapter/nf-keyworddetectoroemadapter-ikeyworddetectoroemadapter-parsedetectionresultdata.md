@@ -1,6 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.ParseDetectionResultData
-title: IKeywordDetectorOemAdapter::ParseDetectionResultData
+title: IKeywordDetectorOemAdapter::ParseDetectionResultData (keyworddetectoroemadapter.h)
 description: The ParseDetectionResultData method is called by the operating system after handling a keyword detection event and after retrieving the result data from KSPROPERTY_SOUNDDETECTOR_MATCHRESULT.
 old-location: audio\ikeyworddetectoroemadapter_parsedetectionresultdata.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	IKeywordDetectorOemAdapter.ParseDetectionResultData
+- IKeywordDetectorOemAdapter.ParseDetectionResultData
 product:
 - Windows
 targetos: Windows

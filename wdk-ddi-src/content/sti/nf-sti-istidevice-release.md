@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Release
-title: IStiDevice::Release
+title: IStiDevice::Release (sti.h)
 description: The IStiDevice::Release method closes the instance of the COM object that was created by a previous call to IStillImage::CreateDevice, and removes access to the object's interface.
 old-location: image\istidevice_release.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Sti.h
+- Sti.h
 api_name:
--	IStiDevice.Release
+- IStiDevice.Release
 product:
 - Windows
 targetos: Windows

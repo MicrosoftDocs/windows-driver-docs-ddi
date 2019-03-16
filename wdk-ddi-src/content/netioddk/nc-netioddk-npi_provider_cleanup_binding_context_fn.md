@@ -1,6 +1,6 @@
 ---
 UID: NC:netioddk.NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
-title: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
+title: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN (netioddk.h)
 description: A provider module's ProviderCleanupBindingContext callback function performs any necessary cleanup and deallocation of the provider module's binding context after the provider module and a client module have detached from one another.
 old-location: netvista\providercleanupbindingcontext.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
+- PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
 product:
 - Windows
 targetos: Windows

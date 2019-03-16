@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetAllocationPriority
-title: D3DKMTSetAllocationPriority function
+title: D3DKMTSetAllocationPriority function (d3dkmthk.h)
 description: The D3DKMTSetAllocationPriority function sets the priority level of a resource or list of allocations.
 old-location: display\d3dkmtsetallocationpriority.htm
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetAllocationPriority
+- D3DKMTSetAllocationPriority
 product:
 - Windows
 targetos: Windows

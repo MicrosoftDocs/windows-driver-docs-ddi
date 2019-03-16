@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceclassextension.IPortableDeviceClassExtension.Initialize
-title: IPortableDeviceClassExtension::Initialize
+title: IPortableDeviceClassExtension::Initialize (portabledeviceclassextension.h)
 description: The Initialize interface initializes a portable device by registering the device, device service, and private interfaces.
 old-location: wpddk\iportabledeviceclassextension_initialize.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceClassExtension.h
+- PortableDeviceClassExtension.h
 api_name:
--	IPortableDeviceClassExtension.Initialize
+- IPortableDeviceClassExtension.Initialize
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

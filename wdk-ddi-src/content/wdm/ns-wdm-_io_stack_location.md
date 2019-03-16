@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_STACK_LOCATION
-title: "_IO_STACK_LOCATION"
+title: _IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 old-location: kernel\io_stack_location.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_STACK_LOCATION
+- IO_STACK_LOCATION
 product:
 - Windows
 targetos: Windows

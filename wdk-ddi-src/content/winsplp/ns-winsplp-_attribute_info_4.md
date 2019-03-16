@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._ATTRIBUTE_INFO_4
-title: "_ATTRIBUTE_INFO_4"
+title: _ATTRIBUTE_INFO_4 (winsplp.h)
 description: The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function.
 old-location: print\attribute_info_4.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	ATTRIBUTE_INFO_4
+- ATTRIBUTE_INFO_4
 product:
 - Windows
 targetos: Windows

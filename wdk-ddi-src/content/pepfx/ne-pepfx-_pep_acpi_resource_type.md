@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_ACPI_RESOURCE_TYPE
-title: "_PEP_ACPI_RESOURCE_TYPE"
+title: _PEP_ACPI_RESOURCE_TYPE (pepfx.h)
 description: The PEP_ACPI_RESOURCE_TYPE enumeration is used to identify the type of ACPI resource that is contained in the PEP_ACPI_RESOURCE union.
 old-location: kernel\pep_acpi_resource_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_RESOURCE_TYPE
+- PEP_ACPI_RESOURCE_TYPE
 product:
 - Windows
 targetos: Windows

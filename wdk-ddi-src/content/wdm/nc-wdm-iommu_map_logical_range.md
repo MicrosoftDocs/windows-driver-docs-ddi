@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_MAP_LOGICAL_RANGE
-title: IOMMU_MAP_LOGICAL_RANGE
+title: IOMMU_MAP_LOGICAL_RANGE (wdm.h)
 description: Maps a range of pages into the address space of a domain.
 ms.assetid: 670390f9-15c9-4fa2-bba2-227a6bd7c803
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_MAP_LOGICAL_RANGE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_MAP_LOGICAL_RANGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

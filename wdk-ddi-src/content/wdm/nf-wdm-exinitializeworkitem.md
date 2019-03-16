@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeWorkItem
-title: ExInitializeWorkItem function
+title: ExInitializeWorkItem function (wdm.h)
 description: ExInitializeWorkItem initializes a work-queue item with a caller-supplied context and callback routine to be queued for execution when a system worker thread is given control.
 old-location: ifsk\exinitializeworkitem.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ExInitializeWorkItem
+- ExInitializeWorkItem
 product:
 - Windows
 targetos: Windows

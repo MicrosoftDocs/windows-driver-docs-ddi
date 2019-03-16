@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-title: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
+title: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM (d3d10umddi.h)
 description: Data structure for the associated D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM value in the video capability query D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration.
 ms.assetid: 612d483a-fc73-4781-a84c-dd9bbb8b0dd6
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
+- D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
 product: 
 - Windows
 targetos: Windows

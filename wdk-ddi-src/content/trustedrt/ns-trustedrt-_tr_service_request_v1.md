@@ -1,6 +1,6 @@
 ---
 UID: NS:trustedrt._TR_SERVICE_REQUEST_V1
-title: _TR_SERVICE_REQUEST_V1
+title: _TR_SERVICE_REQUEST_V1 (trustedrt.h)
 description: 
 ms.assetid: 7e0391f0-606a-4b65-a1d7-463ff05a719b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TR_SERVICE_REQUEST_V1, *PTR_SERVICE_REQUEST_V1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedrt.h
+- trustedrt.h
 api_name: 
--	_TR_SERVICE_REQUEST_V1
+- _TR_SERVICE_REQUEST_V1
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

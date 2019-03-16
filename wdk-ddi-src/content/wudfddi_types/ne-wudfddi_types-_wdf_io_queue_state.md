@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_QUEUE_STATE
-title: "_WDF_IO_QUEUE_STATE"
+title: _WDF_IO_QUEUE_STATE (wudfddi_types.h)
 description: The WDF_IO_QUEUE_STATE enumeration contains values that identify the state of an I/O queue.
 old-location: wdf\wdf_io_queue_state_umdf.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	WDF_IO_QUEUE_STATE
+- WDF_IO_QUEUE_STATE
 product:
 - Windows
 targetos: Windows

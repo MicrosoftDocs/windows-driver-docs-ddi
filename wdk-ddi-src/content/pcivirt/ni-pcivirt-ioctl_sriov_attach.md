@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_ATTACH
-title: IOCTL_SRIOV_ATTACH
+title: IOCTL_SRIOV_ATTACH (pcivirt.h)
 description: The request indicates that the virtualization stack wants to register for Plug and Play events received by the SR-IOV device.
 old-location: pci\ioctl-sriov-attach.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	IOCTL_SRIOV_ATTACH
+- IOCTL_SRIOV_ATTACH
 product:
 - Windows
 targetos: Windows

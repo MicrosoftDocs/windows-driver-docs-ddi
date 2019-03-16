@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_ADAPTER_POWER_FLAGS
-title: _NET_ADAPTER_POWER_FLAGS
+title: _NET_ADAPTER_POWER_FLAGS (netadapter.h)
 description: Specifies a client driver's power capabilities.
 tech.root: netvista
 ms.assetid: 880a2606-f7cb-4552-b89b-238abd062e3d
@@ -19,16 +19,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_POWER_FLAGS
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_POWER_FLAGS
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_POWER_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

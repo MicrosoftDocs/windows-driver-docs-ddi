@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateMdl
-title: NdisAllocateMdl function
+title: NdisAllocateMdl function (ndis.h)
 description: The NdisAllocateMdl function allocates an MDL that describes the memory buffer at the specified virtual address.
 old-location: netvista\ndisallocatemdl.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisAllocateMdl
+- NdisAllocateMdl
 product:
 - Windows
 targetos: Windows

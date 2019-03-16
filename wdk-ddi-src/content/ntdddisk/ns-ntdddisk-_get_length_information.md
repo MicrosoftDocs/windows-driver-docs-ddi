@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._GET_LENGTH_INFORMATION
-title: "_GET_LENGTH_INFORMATION"
+title: _GET_LENGTH_INFORMATION (ntdddisk.h)
 description: The GET_LENGTH_INFORMATION structure is used with the IOCTL_DISK_GET_LENGTH_INFO to obtain the length, in bytes, of a disk, partition, or volume.
 old-location: storage\get_length_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	GET_LENGTH_INFORMATION
+- GET_LENGTH_INFORMATION
 product:
 - Windows
 targetos: Windows

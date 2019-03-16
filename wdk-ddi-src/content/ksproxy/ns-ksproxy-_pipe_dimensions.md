@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._PIPE_DIMENSIONS
-title: "_PIPE_DIMENSIONS"
+title: _PIPE_DIMENSIONS (ksproxy.h)
 description: The PIPE_DIMENSIONS structure is for proxy use and not recommended for application use. PIPE_DIMENSIONS contains information that describes the compression/expansion ratio of frames on various pins related to a pipe.
 old-location: stream\pipe_dimensions.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	PIPE_DIMENSIONS
+- PIPE_DIMENSIONS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateNonCachedMemory
-title: MmAllocateNonCachedMemory function
+title: MmAllocateNonCachedMemory function (ntddk.h)
 description: The MmAllocateNonCachedMemory routine allocates a virtual address range of noncached and cache-aligned memory.
 old-location: kernel\mmallocatenoncachedmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmAllocateNonCachedMemory
+- MmAllocateNonCachedMemory
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
-title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
+title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery (wdtfsimulatedbatterysystemaction.h)
 description: Disables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablesimulatedbattery.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
+- IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
 product:
 - Windows
 targetos: Windows

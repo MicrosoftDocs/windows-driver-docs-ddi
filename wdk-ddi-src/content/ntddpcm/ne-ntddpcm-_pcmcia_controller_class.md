@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddpcm._PCMCIA_CONTROLLER_CLASS
-title: "_PCMCIA_CONTROLLER_CLASS"
+title: _PCMCIA_CONTROLLER_CLASS (ntddpcm.h)
 description: The PCMCIA_CONTROLLER_CLASS enumeration lists the different sorts of PC Card and CardBus controllers.
 old-location: pcmcia\pcmcia_controller_class.htm
 tech.root: PCMCIA
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	PCMCIA_CONTROLLER_CLASS
+- PCMCIA_CONTROLLER_CLASS
 product:
 - Windows
 targetos: Windows

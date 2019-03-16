@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackHardware
-title: IPnpCallbackHardware
+title: IPnpCallbackHardware (wudfddi.h)
 description: The IPnpCallbackHardware interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallbackhardware.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackHardware
+- IPnpCallbackHardware
 product:
 - Windows
 targetos: Windows

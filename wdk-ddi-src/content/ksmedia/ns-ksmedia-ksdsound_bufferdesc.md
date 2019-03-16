@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_5
-title: KSDSOUND_BUFFERDESC
+title: KSDSOUND_BUFFERDESC (ksmedia.h)
 description: The KSDSOUND_BUFFERDESC structure describes a DirectSound buffer.
 old-location: audio\ksdsound_bufferdesc.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDSOUND_BUFFERDESC
+- KSDSOUND_BUFFERDESC
 product:
 - Windows
 targetos: Windows

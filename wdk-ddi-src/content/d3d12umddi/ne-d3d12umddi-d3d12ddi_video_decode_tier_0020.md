@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_TIER_0020
-title: D3D12DDI_VIDEO_DECODE_TIER_0020
+title: D3D12DDI_VIDEO_DECODE_TIER_0020 (d3d12umddi.h)
 description: Specifies the video decode tier.
 old-location: display\d3d12ddi_video_decode_tier.htm
 ms.assetid: CC4B83A3-1F57-493F-840F-F0F799B631E6
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_TIER_0020
+- D3D12DDI_VIDEO_DECODE_TIER_0020
 product:
 - Windows
 targetos: Windows

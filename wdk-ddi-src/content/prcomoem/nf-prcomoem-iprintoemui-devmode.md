@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevMode
-title: IPrintOemUI::DevMode
+title: IPrintOemUI::DevMode (prcomoem.h)
 description: The IPrintOemUI::DevMode method, provided by user interface plug-ins, performs operations on the plug-in's private DEVMODEW members.
 old-location: print\iprintoemui_devmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemUI.DevMode
+- IPrintOemUI.DevMode
 product:
 - Windows
 targetos: Windows

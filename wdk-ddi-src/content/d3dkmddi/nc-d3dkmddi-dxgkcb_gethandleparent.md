@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETHANDLEPARENT
-title: DXGKCB_GETHANDLEPARENT
+title: DXGKCB_GETHANDLEPARENT (d3dkmddi.h)
 description: The DxgkCbGetHandleParent function retrieves the parent resource from the specified allocation.
 old-location: display\dxgkcbgethandleparent.htm
 ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbGetHandleParent
+- DxgkCbGetHandleParent
 product:
 - Windows
 targetos: Windows

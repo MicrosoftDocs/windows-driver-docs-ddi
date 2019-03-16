@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlUpperChar
-title: RtlUpperChar function
+title: RtlUpperChar function (ntddk.h)
 description: The RtlUpperChar routine converts the specified character to uppercase.
 old-location: kernel\rtlupperchar.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUpperChar
+- RtlUpperChar
 product:
 - Windows
 targetos: Windows

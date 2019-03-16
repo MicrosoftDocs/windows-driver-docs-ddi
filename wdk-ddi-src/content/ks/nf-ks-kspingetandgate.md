@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetAndGate
-title: KsPinGetAndGate function
+title: KsPinGetAndGate function (ks.h)
 description: The KsPinGetAndGate function returns the processing control gate for Pin.
 old-location: stream\kspingetandgate.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetAndGate
+- KsPinGetAndGate
 product:
 - Windows
 targetos: Windows

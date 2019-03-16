@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETPAGEABLESIZE_0020
-title: PFND3D12DDI_GETPAGEABLESIZE_0020
+title: PFND3D12DDI_GETPAGEABLESIZE_0020 (d3d12umddi.h)
 description: The pfnGetPageableSize callback function gets the pageable size.
 old-location: display\pfnd3d12ddi_getpageablesize.htm
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	pfnGetPageableSize
+- pfnGetPageableSize
 product:
 - Windows
 targetos: Windows

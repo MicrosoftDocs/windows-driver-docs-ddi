@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
-title: PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
+title: PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 (d3d12umddi.h)
 description: Used to set a protected resource session.
 old-location: display\pfnd3d12ddi_setprotectedresourcesession_0030_.htm
 ms.assetid: 1AF1FA8A-3A7E-4277-B6BE-C41A5C4416B6
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
+- PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
 product:
 - Windows
 targetos: Windows

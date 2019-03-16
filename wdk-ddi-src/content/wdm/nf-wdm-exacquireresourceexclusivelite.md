@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireResourceExclusiveLite
-title: ExAcquireResourceExclusiveLite function
+title: ExAcquireResourceExclusiveLite function (wdm.h)
 description: The ExAcquireResourceExclusiveLite routine acquires the given resource for exclusive access by the calling thread.
 old-location: kernel\exacquireresourceexclusivelite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAcquireResourceExclusiveLite
+- ExAcquireResourceExclusiveLite
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_OPERATION_REGISTRATION
-title: "_OB_OPERATION_REGISTRATION"
+title: _OB_OPERATION_REGISTRATION (wdm.h)
 description: The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for.
 old-location: kernel\ob_operation_registration.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	OB_OPERATION_REGISTRATION
--	PsProcessType
--	PsThreadType
+- OB_OPERATION_REGISTRATION
+- PsProcessType
+- PsThreadType
 product:
 - Windows
 targetos: Windows

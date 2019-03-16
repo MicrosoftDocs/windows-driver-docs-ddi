@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_GRAPHICS_STATES
-title: D3D12DDI_GRAPHICS_STATES
+title: D3D12DDI_GRAPHICS_STATES (d3d12umddi.h)
 description: Specifies the graphics state.
 ms.assetid: 6fce2772-69de-4545-ab56-1513da715dfa
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_GRAPHICS_STATES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_GRAPHICS_STATES
+- D3D12DDI_GRAPHICS_STATES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

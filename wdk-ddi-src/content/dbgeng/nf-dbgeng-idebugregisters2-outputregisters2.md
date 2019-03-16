@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.OutputRegisters2
-title: IDebugRegisters2::OutputRegisters2
+title: IDebugRegisters2::OutputRegisters2 (dbgeng.h)
 description: The OutputRegisters2 method formats and outputs the target's registers.
 old-location: debugger\outputregisters2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.OutputRegisters2
+- IDebugRegisters2.OutputRegisters2
 product:
 - Windows
 targetos: Windows

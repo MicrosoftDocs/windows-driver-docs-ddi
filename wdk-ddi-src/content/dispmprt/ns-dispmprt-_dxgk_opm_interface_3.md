@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_OPM_INTERFACE_3
-title: "_DXGK_OPM_INTERFACE_3"
+title: _DXGK_OPM_INTERFACE_3 (dispmprt.h)
 description: The DXGK_OPM_INTERFACE_3 structure contains pointers to functions in the Output Protection Manager (OPM) Interface, which is implemented by the display miniport driver.
 old-location: display\dxgk_opm_interface_3.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_OPM_INTERFACE_3
+- DXGK_OPM_INTERFACE_3
 product:
 - Windows
 targetos: Windows

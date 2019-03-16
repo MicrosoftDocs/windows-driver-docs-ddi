@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SHADER_MODEL
-title: D3D12DDI_SHADER_MODEL
+title: D3D12DDI_SHADER_MODEL (d3d12umddi.h)
 description: Specifies the Shader Model.
 ms.assetid: 2bfe0ac6-1de4-482d-9f15-8a5407fbb8a7
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_SHADER_MODEL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_SHADER_MODEL
+- D3D12DDI_SHADER_MODEL
 product: 
 - Windows
 targetos: Windows

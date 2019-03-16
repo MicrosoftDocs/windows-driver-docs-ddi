@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.get_Count
-title: IPrintJobCollection::get_Count
+title: IPrintJobCollection::get_Count (printerextension.h)
 description: Gets the number of jobs in the print queue.
 old-location: print\iprintjobcollection_count.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJobCollection.Count
--	IPrintJobCollection.get_Count
+- IPrintJobCollection.Count
+- IPrintJobCollection.get_Count
 product:
 - Windows
 targetos: Windows

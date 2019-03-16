@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDiscardEvent
-title: KsDiscardEvent function
+title: KsDiscardEvent function (ks.h)
 description: The KsDiscardEvent function discards the memory used by an event entry after the objects have been dereferenced.
 old-location: stream\ksdiscardevent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDiscardEvent
+- KsDiscardEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetValue
-title: IPortableDeviceValues::GetValue
+title: IPortableDeviceValues::GetValue (portabledevicetypes.h)
 description: The GetValue interface retrieves a PROPVARIANT value that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.GetValue
+- IPortableDeviceValues.GetValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

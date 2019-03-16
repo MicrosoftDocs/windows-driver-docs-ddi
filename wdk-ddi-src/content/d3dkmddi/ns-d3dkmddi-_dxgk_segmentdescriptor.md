@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR
-title: "_DXGK_SEGMENTDESCRIPTOR"
+title: _DXGK_SEGMENTDESCRIPTOR (d3dkmddi.h)
 description: The DXGK_SEGMENTDESCRIPTOR structure contains information about a segment that the driver supports.
 old-location: display\dxgk_segmentdescriptor.htm
 ms.assetid: d9d79c58-6ef6-4917-b499-fd5a70dc8829
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_SEGMENTDESCRIPTOR
+- DXGK_SEGMENTDESCRIPTOR
 product:
 - Windows
 targetos: Windows

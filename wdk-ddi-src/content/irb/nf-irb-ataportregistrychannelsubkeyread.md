@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryChannelSubkeyRead
-title: AtaPortRegistryChannelSubkeyRead function
+title: AtaPortRegistryChannelSubkeyRead function (irb.h)
 description: The AtaPortRegistryChannelSubKeyRead routine reads the data that is associated with the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel. Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrychannelsubkeyread.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortRegistryChannelSubkeyRead
+- AtaPortRegistryChannelSubkeyRead
 product:
 - Windows
 targetos: Windows

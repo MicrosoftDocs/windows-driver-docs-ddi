@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
-title: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
+title: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 (d3d12umddi.h)
 description: Specifies information used to retrieve the maximum number of input data streams that can be enabled for a video processor.
 old-location: display\d3d12ddi_video_process_max_input_streams_data.htm
 ms.assetid: 41518F04-4AD1-4057-8988-5934F3875B8E
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
+- D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020
 product:
 - Windows
 targetos: Windows

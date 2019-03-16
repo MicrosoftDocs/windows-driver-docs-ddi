@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Field
-title: ExtRemoteTyped::Field
+title: ExtRemoteTyped::Field (engextcpp.h)
 description: The Field method returns the typed data for a member in the typed data that is represented by this object.
 old-location: debugger\extremotetyped_field.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.Field
+- ExtRemoteTyped.Field
 product:
 - Windows
 targetos: Windows

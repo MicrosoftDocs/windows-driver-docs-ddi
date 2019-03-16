@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTBANKPREFERENCE
-title: "_DXGK_SEGMENTBANKPREFERENCE"
+title: _DXGK_SEGMENTBANKPREFERENCE (d3dkmddi.h)
 description: The DXGK_SEGMENTBANKPREFERENCE structure describes bank preferences for paging in an allocation.
 old-location: display\dxgk_segmentbankpreference.htm
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_SEGMENTBANKPREFERENCE
+- DXGK_SEGMENTBANKPREFERENCE
 product:
 - Windows
 targetos: Windows

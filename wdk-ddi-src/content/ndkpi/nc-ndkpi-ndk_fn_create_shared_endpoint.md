@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_SHARED_ENDPOINT
-title: NDK_FN_CREATE_SHARED_ENDPOINT
+title: NDK_FN_CREATE_SHARED_ENDPOINT (ndkpi.h)
 description: The NdkCreateSharedEndpoint (NDK_FN_CREATE_SHARED_ENDPOINT) function creates an NDK shared endpoint.
 old-location: netvista\ndk_fn_create_shared_endpoint.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreateSharedEndpoint
+- NdkCreateSharedEndpoint
 product:
 - Windows
 targetos: Windows

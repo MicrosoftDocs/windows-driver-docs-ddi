@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT (dispmprt.h)
 description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback function.
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+- _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---

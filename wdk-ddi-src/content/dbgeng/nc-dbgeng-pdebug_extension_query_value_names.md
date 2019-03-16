@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_QUERY_VALUE_NAMES
-title: PDEBUG_EXTENSION_QUERY_VALUE_NAMES
+title: PDEBUG_EXTENSION_QUERY_VALUE_NAMES (dbgeng.h)
 description: The DebugExtensionQueryValueNames callback function recovers pseudo-register values.C++ CALLBACK* PDEBUG_EXTENSION_QUERY_VALUE_NAMES DebugExtensionQueryValueNames;
 old-location: debugger\debugextensionqueryvaluenames.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	DebugExtensionQueryValueNames
+- DebugExtensionQueryValueNames
 product:
 - Windows
 targetos: Windows

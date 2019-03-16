@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IFixedDocument
-title: IFixedDocument
+title: IFixedDocument (filterpipeline.h)
 description: The IFixedDocument interface represents a fixed document for an XPS document sequence.
 old-location: print\ifixeddocument.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedDocument
+- IFixedDocument
 product:
 - Windows
 targetos: Windows

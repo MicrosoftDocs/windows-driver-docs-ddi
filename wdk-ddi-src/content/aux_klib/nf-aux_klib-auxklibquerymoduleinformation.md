@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibQueryModuleInformation
-title: AuxKlibQueryModuleInformation function
+title: AuxKlibQueryModuleInformation function (aux_klib.h)
 description: The AuxKlibQueryModuleInformation routine retrieves information about the image modules that the operating system has loaded.
 old-location: kernel\auxklibquerymoduleinformation.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Aux_Klib.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Aux_Klib.lib
--	Aux_Klib.dll
+- Aux_Klib.lib
+- Aux_Klib.dll
 api_name:
--	AuxKlibQueryModuleInformation
+- AuxKlibQueryModuleInformation
 product:
 - Windows
 targetos: Windows

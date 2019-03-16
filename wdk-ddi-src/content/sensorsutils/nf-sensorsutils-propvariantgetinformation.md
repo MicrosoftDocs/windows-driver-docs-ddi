@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropVariantGetInformation
-title: PropVariantGetInformation function
+title: PropVariantGetInformation function (sensorsutils.h)
 description: This routine gets offset, size, location pointer and DEVPROPTYPE, of a PROPVARIANT.
 ms.assetid: 37444fc1-54cf-4898-af68-6aa6019b85d5
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropVariantGetInformation
+- PropVariantGetInformation
 product:
  - Windows
 targetos: Windows

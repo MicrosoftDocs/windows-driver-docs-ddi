@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL
-title: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL
+title: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL (d3d10umddi.h)
 description: Queries an authenticated channel for capability and state information. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\queryauthenticatedchannel1.htm
 ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	QueryAuthenticatedChannel
+- QueryAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

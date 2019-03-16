@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.TTYGetInfo
-title: IPrintOemUni::TTYGetInfo
+title: IPrintOemUni::TTYGetInfo (prcomoem.h)
 description: The IPrintOemUni::TTYGetInfo method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.
 old-location: print\iprintoemuni_ttygetinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni.TTYGetInfo
+- IPrintOemUni.TTYGetInfo
 product:
 - Windows
 targetos: Windows

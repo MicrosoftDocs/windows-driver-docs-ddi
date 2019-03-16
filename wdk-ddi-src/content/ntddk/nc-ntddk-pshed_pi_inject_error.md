@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_INJECT_ERROR
-title: PSHED_PI_INJECT_ERROR
+title: PSHED_PI_INJECT_ERROR (ntddk.h)
 description: A PSHED plug-in's InjectError callback function injects an error into the hardware platform.
 old-location: whea\injecterror.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	InjectError
+- InjectError
 product:
 - Windows
 targetos: Windows

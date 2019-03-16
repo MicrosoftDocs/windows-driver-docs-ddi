@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIEXPRESS_ERROR_SECTION
-title: "_WHEA_PCIEXPRESS_ERROR_SECTION"
+title: _WHEA_PCIEXPRESS_ERROR_SECTION (ntddk.h)
 description: The WHEA_PCIEXPRESS_ERROR_SECTION structure describes PCI Express (PCIe) error data.
 old-location: whea\whea_pciexpress_error_section.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PCIEXPRESS_ERROR_SECTION
+- WHEA_PCIEXPRESS_ERROR_SECTION
 product:
 - Windows
 targetos: Windows

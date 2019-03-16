@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStreamFlush.FlushData
-title: IPrintWriteStreamFlush::FlushData
+title: IPrintWriteStreamFlush::FlushData (filterpipeline.h)
 description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
 old-location: print\iprintwritestreamflush_flushdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintWriteStreamFlush.FlushData
+- IPrintWriteStreamFlush.FlushData
 product:
 - Windows
 targetos: Windows

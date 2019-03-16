@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_POWER_MODE_REASON_CODE
-title: "_WDI_POWER_MODE_REASON_CODE"
+title: _WDI_POWER_MODE_REASON_CODE (wditypes.h)
 description: The WDI_POWER_MODE_REASON_CODE enumeration defines the reasons for entering the Power Save state.
 old-location: netvista\wdi_power_mode_reason_code.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_POWER_MODE_REASON_CODE
+- WDI_POWER_MODE_REASON_CODE
 product:
 - Windows
 targetos: Windows

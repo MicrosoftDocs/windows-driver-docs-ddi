@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_DEVICE_DESCRIPTOR
-title: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR
+title: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR (sidebandaudio.h)
 description: Describes the Container ID and number of endpoints on the device.
 ms.assetid: 6eb69211-4a34-4e63-ae42-80fd298957d8
 ms.date: 09/06/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_DEVICE_DESCRIPTOR, *PSIDEBANDAUDIO_DEVICE_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_DEVICE_DESCRIPTOR
-product: Windows
+- _SIDEBANDAUDIO_DEVICE_DESCRIPTOR
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

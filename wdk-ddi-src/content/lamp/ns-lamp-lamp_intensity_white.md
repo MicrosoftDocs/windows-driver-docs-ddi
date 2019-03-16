@@ -1,6 +1,6 @@
 ---
 UID: NS:lamp.LAMP_INTENSITY_WHITE
-title: LAMP_INTENSITY_WHITE
+title: LAMP_INTENSITY_WHITE (lamp.h)
 description: This structure is the I/O parameter type of IOCTL_LAMP_GET_INTENSITY_WHITE and IOCTL_LAMP_SET_INTENSITY_WHITE.
 old-location: stream\lamp_intensity_white.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	LAMP_INTENSITY_WHITE
+- LAMP_INTENSITY_WHITE
 product:
 - Windows
 targetos: Windows

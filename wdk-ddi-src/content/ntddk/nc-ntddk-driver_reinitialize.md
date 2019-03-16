@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.DRIVER_REINITIALIZE
-title: DRIVER_REINITIALIZE
+title: DRIVER_REINITIALIZE (ntddk.h)
 description: The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns.
 old-location: kernel\reinitialize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	Reinitialize
+- Reinitialize
 product:
 - Windows
 targetos: Windows

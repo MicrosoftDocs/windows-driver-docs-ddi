@@ -1,6 +1,6 @@
 ---
 UID: NS:ursdevice._URS_CONFIG
-title: "_URS_CONFIG"
+title: _URS_CONFIG (ursdevice.h)
 description: Contains pointers to event callback functions implemented by the URS client driver for a USB dual-role controller. Initialize this structure by calling URS_CONFIG_INIT.
 old-location: buses\urs_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ursdevice.h
+- Ursdevice.h
 api_name:
--	URS_CONFIG
+- URS_CONFIG
 product:
 - Windows
 targetos: Windows

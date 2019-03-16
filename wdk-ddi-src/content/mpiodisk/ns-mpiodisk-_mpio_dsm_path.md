@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DSM_Path
-title: "_MPIO_DSM_Path"
+title: _MPIO_DSM_Path (mpiodisk.h)
 description: The MPIO_DSM_Path structure is used to represent the DSM's definition of a path.
 old-location: storage\mpio_dsm_path.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	MPIO_DSM_Path
+- MPIO_DSM_Path
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDIRENDERSTATETYPE
-title: _D3DDDIRENDERSTATETYPE
+title: _D3DDDIRENDERSTATETYPE (d3dumddi.h)
 description: The render state type.
 ms.assetid: 6af2548f-7751-4b41-b15b-117d67df3db6
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDIRENDERSTATETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDIRENDERSTATETYPE
+- _D3DDDIRENDERSTATETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display
@@ -375,7 +375,7 @@ TRUE to enable Direct3D lighting, or FALSE to disable it. The default value is T
 
 ### -field D3DDDIRS_AMBIENT 
 
-A A [D3DCOLORVALUE](../d3d9types/ns-d3d9types-_d3dcolorvalue.md) that specifies the ambient light color. The default value is 0. 
+A [D3DCOLORVALUE](../d3d9types/ns-d3d9types-_d3dcolorvalue.md) that specifies the ambient light color. The default value is 0. 
 
 ### -field D3DDDIRS_FOGVERTEXMODE 
 

@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFNGETINFO
-title: PFNGETINFO
+title: PFNGETINFO (printoem.h)
 description: The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information.
 old-location: print\unifontobj_getinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	UNIFONTOBJ_GetInfo
+- UNIFONTOBJ_GetInfo
 product:
 - Windows
 targetos: Windows

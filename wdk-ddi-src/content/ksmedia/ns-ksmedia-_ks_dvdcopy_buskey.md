@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_BUSKEY
-title: "_KS_DVDCOPY_BUSKEY"
+title: _KS_DVDCOPY_BUSKEY (ksmedia.h)
 description: The KS_DVDCOPY_BUSKEY structure is used to describe the bus key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_buskey.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DVDCOPY_BUSKEY
+- KS_DVDCOPY_BUSKEY
 product:
 - Windows
 targetos: Windows

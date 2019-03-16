@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICHECKOVERLAYSUPPORTINPUT
-title: "_DDICHECKOVERLAYSUPPORTINPUT"
+title: _DDICHECKOVERLAYSUPPORTINPUT (d3dumddi.h)
 description: The DDICHECKOVERLAYSUPPORTINPUT structure describes an overlay display mode that the user-mode display driver uses to verify overlay support.
 old-location: display\ddicheckoverlaysupportinput.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DDICHECKOVERLAYSUPPORTINPUT
+- DDICHECKOVERLAYSUPPORTINPUT
 product:
 - Windows
 targetos: Windows

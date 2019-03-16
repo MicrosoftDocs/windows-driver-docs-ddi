@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetValue
-title: IDebugHostData::GetValue
+title: IDebugHostData::GetValue (dbgmodel.h)
 description: Returns the value of the constant in a VARIANT data structure.
 ms.assetid: f36dd267-59f8-41aa-99ae-455ae6e98c1e
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostData.GetValue
-product: Windows
+- IDebugHostData.GetValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

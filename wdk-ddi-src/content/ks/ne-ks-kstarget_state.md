@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_37
-title: KSTARGET_STATE
+title: KSTARGET_STATE (ks.h)
 description: 
 old-location: stream\kstarget_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSTARGET_STATE
+- KSTARGET_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteConfiguration
-title: NdisWriteConfiguration function
+title: NdisWriteConfiguration function (ndis.h)
 description: The NdisWriteConfiguration function writes a caller-supplied value for a specified entry into the registry. This function must be invoked serially with respect to itself and the NdisReadConfiguration function.
 old-location: netvista\ndiswriteconfiguration.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisWriteConfiguration
+- NdisWriteConfiguration
 product:
 - Windows
 targetos: Windows

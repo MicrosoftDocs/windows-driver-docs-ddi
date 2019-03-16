@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsEcpAcknowledged
-title: FsRtlIsEcpAcknowledged function
+title: FsRtlIsEcpAcknowledged function (ntifs.h)
 description: The FsRtlIsEcpAcknowledged routine is used to determine if a given extra create parameter (ECP) context structure has been marked as acknowledged.
 old-location: ifsk\fsrtlisecpacknowledged.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlIsEcpAcknowledged
+- FsRtlIsEcpAcknowledged
 product:
 - Windows
 targetos: Windows

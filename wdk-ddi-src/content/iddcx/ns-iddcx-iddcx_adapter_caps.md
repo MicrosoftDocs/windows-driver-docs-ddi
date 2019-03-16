@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ADAPTER_CAPS
-title: IDDCX_ADAPTER_CAPS
+title: IDDCX_ADAPTER_CAPS (iddcx.h)
 description: Gives information about the capabilities of the adapter.
 old-location: display\iddcx_adapter_caps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_ADAPTER_CAPS
+- IDDCX_ADAPTER_CAPS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._GET_BAND_METADATA_PARAMETERS
-title: "_GET_BAND_METADATA_PARAMETERS"
+title: _GET_BAND_METADATA_PARAMETERS (ehstorbandmgmt.h)
 description: The metadata for a configured band is retrieved according to the parameters in a GET_BAND_METADATA_PARAMETERS structure. This structure is input for an IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA request.
 old-location: storage\get_band_metadata_parameters.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	GET_BAND_METADATA_PARAMETERS
+- GET_BAND_METADATA_PARAMETERS
 product:
 - Windows
 targetos: Windows

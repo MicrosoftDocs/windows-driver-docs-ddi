@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_IP_Address
-title: "_ISCSI_IP_Address"
+title: _ISCSI_IP_Address (iscsidef.h)
 description: The ISCSI_IP_Address structure defines an IP address.
 old-location: storage\iscsi_ip_address.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_IP_Address
+- ISCSI_IP_Address
 product:
 - Windows
 targetos: Windows

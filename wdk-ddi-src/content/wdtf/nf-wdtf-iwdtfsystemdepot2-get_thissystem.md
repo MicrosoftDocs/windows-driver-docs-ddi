@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFSystemDepot2.get_ThisSystem
-title: IWDTFSystemDepot2::get_ThisSystem
+title: IWDTFSystemDepot2::get_ThisSystem (wdtf.h)
 description: Gets an IWDTFTarget2 value that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2_thissystem.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFSystemDepot2.ThisSystem
--	IWDTFSystemDepot2.get_ThisSystem
+- IWDTFSystemDepot2.ThisSystem
+- IWDTFSystemDepot2.get_ThisSystem
 product:
 - Windows
 targetos: Windows

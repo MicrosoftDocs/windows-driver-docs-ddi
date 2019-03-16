@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_14
-title: KSDS3D_BUFFER_CONE_ANGLES
+title: KSDS3D_BUFFER_CONE_ANGLES (ksmedia.h)
 description: A KSDS3D_BUFFER_CONE_ANGLES structure specifies the inside and outside cone angles.
 old-location: audio\ksds3d_buffer_cone_angles.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDS3D_BUFFER_CONE_ANGLES
+- KSDS3D_BUFFER_CONE_ANGLES
 product:
 - Windows
 targetos: Windows

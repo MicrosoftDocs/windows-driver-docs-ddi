@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._UNIFONTOBJ
-title: "_UNIFONTOBJ"
+title: _UNIFONTOBJ (printoem.h)
 description: The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
 old-location: print\unifontobj.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	UNIFONTOBJ
+- UNIFONTOBJ
 product:
 - Windows
 targetos: Windows

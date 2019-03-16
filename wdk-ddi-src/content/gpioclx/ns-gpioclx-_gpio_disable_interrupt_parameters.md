@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_DISABLE_INTERRUPT_PARAMETERS
-title: "_GPIO_DISABLE_INTERRUPT_PARAMETERS"
+title: _GPIO_DISABLE_INTERRUPT_PARAMETERS (gpioclx.h)
 description: The GPIO_DISABLE_INTERRUPT_PARAMETERS structure describes a general-purpose I/O (GPIO) interrupt pin to disable.
 old-location: gpio\gpio_disable_interrupt_parameters.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_DISABLE_INTERRUPT_PARAMETERS
+- GPIO_DISABLE_INTERRUPT_PARAMETERS
 product:
 - Windows
 targetos: Windows

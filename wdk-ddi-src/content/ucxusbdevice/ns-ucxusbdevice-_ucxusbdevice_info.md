@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._UCXUSBDEVICE_INFO
-title: "_UCXUSBDEVICE_INFO"
+title: _UCXUSBDEVICE_INFO (ucxusbdevice.h)
 description: Contains information about the USB device. This structure is passed by UCX in the EVT_UCX_CONTROLLER_USBDEVICE_ADD event callback function.
 old-location: buses\_ucxusbdevice_info.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UCXUSBDEVICE_INFO
+- UCXUSBDEVICE_INFO
 product:
 - Windows
 targetos: Windows

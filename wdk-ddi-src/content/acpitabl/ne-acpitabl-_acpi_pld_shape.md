@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_SHAPE
-title: _ACPI_PLD_SHAPE enumeration
+title: _ACPI_PLD_SHAPE enumeration (acpitabl.h)
 description: Describes shape bits 74:77.
 ms.assetid: d53643a3-b52d-4e8d-b238-d09e5f727148
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_SHAPE
+- _ACPI_PLD_SHAPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

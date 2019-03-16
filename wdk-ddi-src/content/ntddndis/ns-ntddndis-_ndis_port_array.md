@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_ARRAY
-title: "_NDIS_PORT_ARRAY"
+title: _NDIS_PORT_ARRAY (ntddndis.h)
 description: The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associated characteristics.
 old-location: netvista\ndis_port_array.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PORT_ARRAY
+- NDIS_PORT_ARRAY
 product:
 - Windows
 targetos: Windows

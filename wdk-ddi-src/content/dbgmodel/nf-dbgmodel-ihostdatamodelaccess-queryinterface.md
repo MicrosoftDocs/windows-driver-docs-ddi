@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.QueryInterface
-title: IHostDataModelAccess::QueryInterface
+title: IHostDataModelAccess::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: a0f894dc-1518-4994-af6d-746f75f1b6d9
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IHostDataModelAccess.QueryInterface
-product: Windows
+- IHostDataModelAccess.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

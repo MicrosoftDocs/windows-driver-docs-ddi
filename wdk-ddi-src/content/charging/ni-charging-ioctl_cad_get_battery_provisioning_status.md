@@ -1,6 +1,6 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
-title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
+title: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
+- IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 product:
 - Windows
 targetos: Windows

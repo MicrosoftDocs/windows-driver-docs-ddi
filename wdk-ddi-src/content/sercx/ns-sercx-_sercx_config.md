@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX_CONFIG
-title: "_SERCX_CONFIG"
+title: _SERCX_CONFIG (sercx.h)
 description: The SERCX_CONFIG structure contains configuration information for the serial framework extension (SerCx).
 old-location: serports\sercx_config.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SERCX_CONFIG
+- SERCX_CONFIG
 product:
 - Windows
 targetos: Windows

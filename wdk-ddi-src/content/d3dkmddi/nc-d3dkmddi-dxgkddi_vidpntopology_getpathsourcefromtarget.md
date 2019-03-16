@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
-title: DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
+title: DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET (d3dkmddi.h)
 description: The pfnGetPathSourceFromTarget function returns the identifier of the video present source that is associated with a specified video present target.
 old-location: display\dxgk_vidpntopology_interface_pfngetpathsourcefromtarget.htm
 ms.assetid: c3e7b025-2382-4a81-8d78-9333b62b556a
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetPathSourceFromTarget
+- pfnGetPathSourceFromTarget
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsippm._UCMUCSI_CONNECTOR_INFO
-title: _UCMUCSI_CONNECTOR_INFO
+title: _UCMUCSI_CONNECTOR_INFO (ucmucsippm.h)
 tech.root: usbref
 description: Stores information about connectors that cannot be obtained by sending UCSI commands such as “Get Connector Capability”. 
 ms.assetid: 074f3d8d-a2b6-4c80-b3f7-7610672bfd6f
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	_UCMUCSI_CONNECTOR_INFO
-product: Windows
+- _UCMUCSI_CONNECTOR_INFO
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

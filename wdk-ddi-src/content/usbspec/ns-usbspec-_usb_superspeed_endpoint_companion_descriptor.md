@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-title: "_USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR"
+title: _USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR (usbspec.h)
 description: The USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined SuperSpeed Endpoint Companion descriptor. For more information, see section 9.6.7 and Table 9-20 in the official USB 3.0 specification.
 old-location: buses\usb_superspeed_endpoint_companion_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
+- USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -48,7 +48,7 @@ req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_EN
 
 The <b>USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined SuperSpeed Endpoint Companion descriptor.
 
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.7.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.7.
 
 ## -struct-fields
 

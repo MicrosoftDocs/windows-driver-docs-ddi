@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UPDATEGPUVIRTUALADDRESS
-title: "_D3DDDICB_UPDATEGPUVIRTUALADDRESS"
+title: _D3DDDICB_UPDATEGPUVIRTUALADDRESS (d3dumddi.h)
 description: D3DDDICB_UPDATEGPUVIRTUALADDRESS is used with pfnUpdateGpuVirtualAddressCb to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 old-location: display\d3dddicb_updategpuvirtualaddress.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_UPDATEGPUVIRTUALADDRESS
+- D3DDDICB_UPDATEGPUVIRTUALADDRESS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoStartNextPacket
-title: IoStartNextPacket function
+title: IoStartNextPacket function (ntifs.h)
 description: The IoStartNextPacket routine dequeues the next IRP, if any, from the given device object's associated device queue and calls the driver's StartIo routine.
 old-location: kernel\iostartnextpacket.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoStartNextPacket
+- IoStartNextPacket
 product:
 - Windows
 targetos: Windows

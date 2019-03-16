@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.VslCreateSecureSection
-title: VslCreateSecureSection function
+title: VslCreateSecureSection function (wdm.h)
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\vslcreatesecuresection.htm
 tech.root: kernel
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
 - Wdm.h
 api_name:
--	VslCreateSecureSection
+- VslCreateSecureSection
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizerNotificationCallback.Continue
-title: IXpsRasterizerNotificationCallback::Continue
+title: IXpsRasterizerNotificationCallback::Continue (xpsrassvc.h)
 description: The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
 old-location: print\ixpsrasterizernotificationcallback_continue.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizerNotificationCallback.Continue
+- IXpsRasterizerNotificationCallback.Continue
 product:
 - Windows
 targetos: Windows

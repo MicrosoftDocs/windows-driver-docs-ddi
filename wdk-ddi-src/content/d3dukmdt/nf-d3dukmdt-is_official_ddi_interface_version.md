@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dukmdt.IS_OFFICIAL_DDI_INTERFACE_VERSION
-title: IS_OFFICIAL_DDI_INTERFACE_VERSION macro
+title: IS_OFFICIAL_DDI_INTERFACE_VERSION macro (d3dukmdt.h)
 description: Indicates whether the interface version is an official DDI.
 ms.assetid: f2f61c6f-9bb9-44f6-9880-f48d5573be8f
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	IS_OFFICIAL_DDI_INTERFACE_VERSION
+- IS_OFFICIAL_DDI_INTERFACE_VERSION
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

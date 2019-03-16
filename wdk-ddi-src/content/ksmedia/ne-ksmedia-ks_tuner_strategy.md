@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_67
-title: KS_TUNER_STRATEGY
+title: KS_TUNER_STRATEGY (ksmedia.h)
 description: The KS_TUNER_STRATEGY enumeration defines tuning method strategies.
 old-location: stream\ks_tuner_strategy.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_TUNER_STRATEGY
+- KS_TUNER_STRATEGY
 product:
 - Windows
 targetos: Windows

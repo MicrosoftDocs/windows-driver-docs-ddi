@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KSERVICE_ROUTINE
-title: KSERVICE_ROUTINE
+title: KSERVICE_ROUTINE (wdm.h)
 description: The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.
 old-location: kernel\interruptservice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DIRQL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InterruptService
+- InterruptService
 product:
 - Windows
 targetos: Windows

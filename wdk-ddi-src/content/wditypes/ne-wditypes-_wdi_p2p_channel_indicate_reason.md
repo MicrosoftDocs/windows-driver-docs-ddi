@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_CHANNEL_INDICATE_REASON
-title: "_WDI_P2P_CHANNEL_INDICATE_REASON"
+title: _WDI_P2P_CHANNEL_INDICATE_REASON (wditypes.h)
 description: The WDI_P2P_CHANNEL_INDICATE_REASON enumeration defines Wi-Fi Direct channel indication reason values.
 old-location: netvista\wdi_p2p_channel_indicate_reason.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_P2P_CHANNEL_INDICATE_REASON
+- WDI_P2P_CHANNEL_INDICATE_REASON
 product:
 - Windows
 targetos: Windows

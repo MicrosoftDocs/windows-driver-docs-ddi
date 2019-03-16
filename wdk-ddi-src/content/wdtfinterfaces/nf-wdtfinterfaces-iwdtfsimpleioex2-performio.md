@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.PerformIO
-title: IWDTFSimpleIOEx2::PerformIO
+title: IWDTFSimpleIOEx2::PerformIO (wdtfinterfaces.h)
 description: Performs a small amount of simple I/O to the device.
 old-location: dtf\iwdtfsimpleioex2_performio.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOEx2.PerformIO
+- IWDTFSimpleIOEx2.PerformIO
 product:
 - Windows
 targetos: Windows

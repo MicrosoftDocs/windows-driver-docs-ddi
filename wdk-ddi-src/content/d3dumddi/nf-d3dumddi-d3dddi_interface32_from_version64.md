@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dumddi.D3DDDI_INTERFACE32_FROM_VERSION64
-title: D3DDDI_INTERFACE32_FROM_VERSION64 macro
+title: D3DDDI_INTERFACE32_FROM_VERSION64 macro (d3dumddi.h)
 description: Converts a 32 bit interface from a 64 bit version.
 ms.assetid: b9bcb1e1-f640-4f75-929f-bd5249f4124d
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDI_INTERFACE32_FROM_VERSION64
+- D3DDDI_INTERFACE32_FROM_VERSION64
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

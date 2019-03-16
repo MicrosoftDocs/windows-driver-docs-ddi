@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEG1VIDEOINFO
-title: tagKS_MPEG1VIDEOINFO
+title: tagKS_MPEG1VIDEOINFO (ksmedia.h)
 description: The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: stream\ks_mpeg1videoinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_MPEG1VIDEOINFO
+- KS_MPEG1VIDEOINFO
 product:
 - Windows
 targetos: Windows

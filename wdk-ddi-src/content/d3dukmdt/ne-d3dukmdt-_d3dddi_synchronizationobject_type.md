@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
-title: "_D3DDDI_SYNCHRONIZATIONOBJECT_TYPE"
+title: _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE (d3dukmdt.h)
 description: The D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration indicates the type of synchronization object.
 old-location: display\d3dddi_synchronizationobject_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
+- D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 product:
 - Windows
 targetos: Windows

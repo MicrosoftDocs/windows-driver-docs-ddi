@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT (d3d10umddi.h)
 description: Contains output data for the ConfigureAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_configure_output.htm
 ms.assetid: 074e87c9-b57e-48ea-8613-2fe1a70cd9e4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
+- D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
 product:
 - Windows
 targetos: Windows

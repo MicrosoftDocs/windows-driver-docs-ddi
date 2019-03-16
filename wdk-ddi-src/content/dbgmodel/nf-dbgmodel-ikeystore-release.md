@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.Release
-title: IKeyStore::Release
+title: IKeyStore::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: aead1e27-6a4e-4e94-be63-73099198d4cf
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyStore.Release
-product: Windows
+- IKeyStore.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

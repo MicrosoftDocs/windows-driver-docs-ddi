@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfRegisterProvider
-title: NdisIfRegisterProvider function
+title: NdisIfRegisterProvider function (ndis.h)
 description: The NdisIfRegisterProvider function registers an NDIS network interface provider.
 old-location: netvista\ndisifregisterprovider.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfRegisterProvider
+- NdisIfRegisterProvider
 product:
 - Windows
 targetos: Windows

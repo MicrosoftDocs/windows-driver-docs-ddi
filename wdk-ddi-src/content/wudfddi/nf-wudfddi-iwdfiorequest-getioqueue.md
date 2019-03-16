@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetIoQueue
-title: IWDFIoRequest::GetIoQueue
+title: IWDFIoRequest::GetIoQueue (wudfddi.h)
 description: The GetIoQueue method retrieves the I/O queue object that is associated with an I/O request.
 old-location: wdf\iwdfiorequest_getioqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetIoQueue
+- IWDFIoRequest.GetIoQueue
 product:
 - Windows
 targetos: Windows

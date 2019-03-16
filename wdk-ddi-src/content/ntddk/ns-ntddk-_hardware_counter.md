@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._HARDWARE_COUNTER
-title: "_HARDWARE_COUNTER"
+title: _HARDWARE_COUNTER (ntddk.h)
 description: The HARDWARE_COUNTER structure contains information about a hardware counter.
 old-location: kernel\hardware_counter.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	HARDWARE_COUNTER
+- HARDWARE_COUNTER
 product:
 - Windows
 targetos: Windows

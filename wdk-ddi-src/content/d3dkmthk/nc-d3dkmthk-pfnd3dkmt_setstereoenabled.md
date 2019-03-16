@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETSTEREOENABLED
-title: PFND3DKMT_SETSTEREOENABLED
+title: PFND3DKMT_SETSTEREOENABLED (d3dkmthk.h)
 description: The PFND3DKMT_SETSTEREOENABLED callback function sets stereo enabled.
 ms.assetid: ee87c614-07b4-47a3-a6f5-afb2fdae9772
 ms.date: 10/19/2018
@@ -23,7 +23,7 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
 - DllExport
 api_location: 
@@ -35,7 +35,7 @@ api_name:
 - PFND3DKMT_SETSTEREOENABLED
 - D3DKMTSetStereoEnabled
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

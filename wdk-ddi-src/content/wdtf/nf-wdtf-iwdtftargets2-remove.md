@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Remove
-title: IWDTFTargets2::Remove
+title: IWDTFTargets2::Remove (wdtf.h)
 description: Removes an item from the collection.
 old-location: dtf\iwdtftargets2_remove.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.Remove
+- IWDTFTargets2.Remove
 product:
 - Windows
 targetos: Windows

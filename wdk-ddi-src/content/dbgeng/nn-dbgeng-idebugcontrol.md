@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl
-title: IDebugControl
+title: IDebugControl (dbgeng.h)
 description: IDebugControl interface
 old-location: debugger\idebugcontrol.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl
--	IDebugControl.GetWindbgExtensionApis32
+- IDebugControl
+- IDebugControl.GetWindbgExtensionApis32
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_STACKTRACE_ROUTINE
-title: PWINDBG_STACKTRACE_ROUTINE
+title: PWINDBG_STACKTRACE_ROUTINE (wdbgexts.h)
 description: The PWINDBG_STACKTRACE_ROUTINE (StackTrace) function retrieves a stack trace for the process being debugged. Returns the number of frames read into the buffer pointed to by StackFrames.
 old-location: debugger\stacktrace.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	StackTrace
+- StackTrace
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES"
+title: _NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES (ndis.h)
 description: The NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES structure specifies a driver-defined context area for an added device.
 old-location: netvista\ndis_miniport_add_device_registration_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
+- NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

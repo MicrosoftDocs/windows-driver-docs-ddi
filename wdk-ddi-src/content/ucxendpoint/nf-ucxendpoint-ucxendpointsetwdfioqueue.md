@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointSetWdfIoQueue
-title: UcxEndpointSetWdfIoQueue function
+title: UcxEndpointSetWdfIoQueue function (ucxendpoint.h)
 description: Sets a framework queue on the specified endpoint object.
 old-location: buses\_ucxendpointsetwdfioqueue.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxEndpointSetWdfIoQueue
+- UcxEndpointSetWdfIoQueue
 product:
 - Windows
 targetos: Windows

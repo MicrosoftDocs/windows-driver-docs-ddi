@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSecureZeroMemory
-title: RtlSecureZeroMemory function
+title: RtlSecureZeroMemory function (wdm.h)
 description: The RtlSecureZeroMemory routine fills a block of memory with zeros in a way that is guaranteed to be secure.
 old-location: kernel\rtlsecurezeromemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RtlSecureZeroMemory
+- RtlSecureZeroMemory
 product:
 - Windows
 targetos: Windows

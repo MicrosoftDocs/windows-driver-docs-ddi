@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_DIAG_IGNORE_HUBS_OFF
-title: IOCTL_USB_DIAG_IGNORE_HUBS_OFF
+title: IOCTL_USB_DIAG_IGNORE_HUBS_OFF (usbioctl.h)
 description: The IOCTL_USB_DIAG_IGNORE_HUBS_OFF I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diag_ignore_hubs_off.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_DIAG_IGNORE_HUBS_OFF
+- IOCTL_USB_DIAG_IGNORE_HUBS_OFF
 product:
 - Windows
 targetos: Windows

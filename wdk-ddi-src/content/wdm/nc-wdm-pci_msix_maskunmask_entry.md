@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCI_MSIX_MASKUNMASK_ENTRY
-title: PCI_MSIX_MASKUNMASK_ENTRY
+title: PCI_MSIX_MASKUNMASK_ENTRY (wdm.h)
 description: The MaskTableEntry routine masks an interrupt in the MSI-X hardware interrupt table.
 old-location: kernel\masktableentry.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MaskTableEntry
+- MaskTableEntry
 product:
 - Windows
 targetos: Windows

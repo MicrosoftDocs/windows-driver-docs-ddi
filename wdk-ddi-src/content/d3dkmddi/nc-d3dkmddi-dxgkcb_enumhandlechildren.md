@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_ENUMHANDLECHILDREN
-title: DXGKCB_ENUMHANDLECHILDREN
+title: DXGKCB_ENUMHANDLECHILDREN (d3dkmddi.h)
 description: The DxgkCbEnumHandleChildren function enumerates all of the allocations that are associated with a given resource, one allocation at a time.
 old-location: display\dxgkcbenumhandlechildren.htm
 ms.assetid: 36307e63-9e94-4441-92c6-fd4293ea8fa9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbEnumHandleChildren
+- DxgkCbEnumHandleChildren
 product:
 - Windows
 targetos: Windows

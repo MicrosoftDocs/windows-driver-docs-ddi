@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_VAD_ESCAPE_COMMAND
-title: _D3DKMT_VAD_ESCAPE_COMMAND
+title: _D3DKMT_VAD_ESCAPE_COMMAND (d3dkmthk.h)
 description: The VAD (video acceleration display) escape commands.
 ms.assetid: de9e71e2-2e6f-4219-9c03-99978f3ef972
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_VAD_ESCAPE_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_VAD_ESCAPE_COMMAND
+- _D3DKMT_VAD_ESCAPE_COMMAND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

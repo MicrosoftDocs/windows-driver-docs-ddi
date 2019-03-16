@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeDescriptors
-title: BdaPropertyNodeDescriptors function
+title: BdaPropertyNodeDescriptors function (bdasup.h)
 description: The BdaPropertyNodeDescriptors function retrieves a list of nodes in a template topology.
 old-location: stream\bdapropertynodedescriptors.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyNodeDescriptors
+- BdaPropertyNodeDescriptors
 product:
 - Windows
 targetos: Windows

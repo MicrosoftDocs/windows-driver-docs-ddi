@@ -1,6 +1,6 @@
 ---
 UID: NE:lamp.LAMP_MODE
-title: LAMP_MODE
+title: LAMP_MODE (lamp.h)
 description: This enumeration contains the operating modes of a lamp device.
 old-location: stream\lamp_mode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	LAMP_MODE
+- LAMP_MODE
 product:
 - Windows
 targetos: Windows

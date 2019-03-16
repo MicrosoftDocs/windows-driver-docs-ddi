@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRegisterUncProvider~r2
-title: FsRtlRegisterUncProvider function
+title: FsRtlRegisterUncProvider function (ntifs.h)
 description: The FsRtlRegisterUncProvider routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncprovider.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlRegisterUncProvider
+- FsRtlRegisterUncProvider
 product:
 - Windows
 targetos: Windows

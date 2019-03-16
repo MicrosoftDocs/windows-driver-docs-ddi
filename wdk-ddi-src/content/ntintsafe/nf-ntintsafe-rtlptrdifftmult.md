@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTMult
-title: RtlPtrdiffTMult function
+title: RtlPtrdiffTMult function (ntintsafe.h)
 description: Multiplies one value of type PTRDIFF_T by another.
 old-location: kernel\rtlptrdifftmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlPtrdiffTMult
+- RtlPtrdiffTMult
 product:
 - Windows
 targetos: Windows

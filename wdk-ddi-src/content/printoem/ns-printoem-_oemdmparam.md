@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMDMPARAM
-title: "_OEMDMPARAM"
+title: _OEMDMPARAM (printoem.h)
 description: The OEMDMPARAM structure is used as an input parameter to the IPrintOemUI::DevMode, IPrintOemUni::DevMode, and IPrintOemPS::DevMode methods.
 old-location: print\oemdmparam.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDMPARAM
+- OEMDMPARAM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueBool
-title: IWDTFTarget2::GetValueBool
+title: IWDTFTarget2::GetValueBool (wdtf.h)
 description: Returns a boolean value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluebool.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.GetValueBool
+- IWDTFTarget2.GetValueBool
 product:
 - Windows
 targetos: Windows

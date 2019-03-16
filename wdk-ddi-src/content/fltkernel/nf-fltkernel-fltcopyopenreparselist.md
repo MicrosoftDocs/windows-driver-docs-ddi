@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCopyOpenReparseList
-title: FltCopyOpenReparseList function
+title: FltCopyOpenReparseList function (fltkernel.h)
 description: This routine copies any open reparse information from a previous create into a new ECP list that can be used to issue a second create.
 old-location: ifsk\fltcopyopenreparselist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltKernel.h
+- fltKernel.h
 api_name:
--	FltAddOpenReparseEntry
+- FltAddOpenReparseEntry
 product:
 - Windows
 targetos: Windows

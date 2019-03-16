@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QAITARGETIN
-title: "_DXGK_QAITARGETIN"
+title: _DXGK_QAITARGETIN (d3dkmddi.h)
 description: Used to integrate a target.
 old-location: display\dxgk_qaitargetin.htm
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_QAITARGETIN
+- DXGK_QAITARGETIN
 product:
 - Windows
 targetos: Windows

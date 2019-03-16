@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.GetInterfaces
-title: IWDTFTargets2::GetInterfaces
+title: IWDTFTargets2::GetInterfaces (wdtf.h)
 description: Returns a collection of actions that support the interface - one IWDTFAction2 for each item that has one.
 old-location: dtf\iwdtftargets2_getinterfaces.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTargets2.GetInterfaces
+- IWDTFTargets2.GetInterfaces
 product:
 - Windows
 targetos: Windows

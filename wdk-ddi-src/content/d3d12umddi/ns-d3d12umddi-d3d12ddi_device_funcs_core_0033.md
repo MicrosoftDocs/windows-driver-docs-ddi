@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0033
-title: D3D12DDI_DEVICE_FUNCS_CORE_0033
+title: D3D12DDI_DEVICE_FUNCS_CORE_0033 (d3d12umddi.h)
 description: Core device functions.
 old-location: display\d3d12ddi-device-funcs-core-0033.htm
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_DEVICE_FUNCS_CORE_0033
+- D3D12DDI_DEVICE_FUNCS_CORE_0033
 product:
 - Windows
 targetos: Windows

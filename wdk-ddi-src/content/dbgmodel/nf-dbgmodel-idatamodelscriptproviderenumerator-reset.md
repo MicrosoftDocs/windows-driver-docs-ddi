@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.Reset
-title: IDataModelScriptProviderEnumerator::Reset
+title: IDataModelScriptProviderEnumerator::Reset (dbgmodel.h)
 description: Resets the enumerator to the first element.
 ms.assetid: c424d21a-987d-4250-ae01-5e802e33b1f8
 ms.date: 10/03/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptProviderEnumerator.Reset
-product: Windows
+- IDataModelScriptProviderEnumerator.Reset
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

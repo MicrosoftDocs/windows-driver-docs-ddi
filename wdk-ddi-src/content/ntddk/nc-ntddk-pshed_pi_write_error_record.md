@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_WRITE_ERROR_RECORD
-title: PSHED_PI_WRITE_ERROR_RECORD
+title: PSHED_PI_WRITE_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's WriteErrorRecord callback function writes an error record to the system's persistent data storage.
 old-location: whea\writeerrorrecord.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	WriteErrorRecord
+- WriteErrorRecord
 product:
 - Windows
 targetos: Windows

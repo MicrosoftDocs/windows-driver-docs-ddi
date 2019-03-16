@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION
-title: "_DRIVE_LAYOUT_INFORMATION"
+title: _DRIVE_LAYOUT_INFORMATION (ntdddisk.h)
 description: The DRIVE_LAYOUT_INFORMATION structure is obsolete and is provided only to support existing drivers.
 old-location: storage\drive_layout_information.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DRIVE_LAYOUT_INFORMATION
+- DRIVE_LAYOUT_INFORMATION
 product:
 - Windows
 targetos: Windows

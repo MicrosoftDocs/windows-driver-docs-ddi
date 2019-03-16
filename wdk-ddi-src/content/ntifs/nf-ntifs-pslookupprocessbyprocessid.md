@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsLookupProcessByProcessId
-title: PsLookupProcessByProcessId function
+title: PsLookupProcessByProcessId function (ntifs.h)
 description: The PsLookupProcessByProcessId routine accepts the process ID of a process and returns a referenced pointer to EPROCESS structure of the process.
 old-location: ifsk\pslookupprocessbyprocessid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsLookupProcessByProcessId
+- PsLookupProcessByProcessId
 product:
 - Windows
 targetos: Windows
@@ -133,7 +133,7 @@ The <b>PsLookupProcessByProcessId</b> routine contains pageable code.
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

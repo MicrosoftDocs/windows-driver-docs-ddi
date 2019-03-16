@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetFullItemName
-title: IWiaDrvItem::GetFullItemName
+title: IWiaDrvItem::GetFullItemName (wiamindr_lh.h)
 description: The IWiaDrvItem::GetFullItemName method gets the item's full name, including path information.
 old-location: image\iwiadrvitem_getfullitemname.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.GetFullItemName
+- IWiaDrvItem.GetFullItemName
 product:
 - Windows
 targetos: Windows

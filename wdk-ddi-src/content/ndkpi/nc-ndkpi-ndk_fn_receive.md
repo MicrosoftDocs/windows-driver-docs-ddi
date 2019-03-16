@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_RECEIVE
-title: NDK_FN_RECEIVE
+title: NDK_FN_RECEIVE (ndkpi.h)
 description: The NdkReceive (NDK_FN_RECEIVE) function posts a receive request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_receive.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkReceive
+- NdkReceive
 product:
 - Windows
 targetos: Windows

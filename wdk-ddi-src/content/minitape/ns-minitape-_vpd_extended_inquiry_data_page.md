@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._VPD_EXTENDED_INQUIRY_DATA_PAGE
-title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
+title: _VPD_EXTENDED_INQUIRY_DATA_PAGE (minitape.h)
 description: 
 ms.assetid: b31b52e6-cc4a-49ed-b961-287c672451fd
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	minitape.h
+- minitape.h
 api_name: 
--	_VPD_EXTENDED_INQUIRY_DATA_PAGE
+- _VPD_EXTENDED_INQUIRY_DATA_PAGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

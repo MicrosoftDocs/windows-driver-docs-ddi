@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateValueKey
-title: ZwEnumerateValueKey function
+title: ZwEnumerateValueKey function (wdm.h)
 description: The ZwEnumerateValueKey routine gets information about the value entries of an open key.
 old-location: kernel\zwenumeratevaluekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwEnumerateValueKey
--	NtEnumerateValueKey
+- ZwEnumerateValueKey
+- NtEnumerateValueKey
 product:
 - Windows
 targetos: Windows

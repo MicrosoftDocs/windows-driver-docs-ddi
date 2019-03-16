@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEPROCESS
-title: DXGKDDI_CREATEPROCESS
+title: DXGKDDI_CREATEPROCESS (d3dkmddi.h)
 description: DxgkDdiCreateProcess creates a graphics kernel process object.
 old-location: display\dxgkddicreateprocess.htm
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
@@ -25,15 +25,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
--	d3dkmddi.h
+- dispmprt.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCreateProcess
+- DxgkDdiCreateProcess
 product:
 - Windows
 targetos: Windows

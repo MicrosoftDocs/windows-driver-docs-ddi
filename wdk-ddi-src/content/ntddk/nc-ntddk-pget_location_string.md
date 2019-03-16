@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PGET_LOCATION_STRING
-title: PGET_LOCATION_STRING
+title: PGET_LOCATION_STRING (ntddk.h)
 description: The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property.
 old-location: kernel\pnpgetlocationstring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PnpGetLocationString
+- PnpGetLocationString
 product:
 - Windows
 targetos: Windows

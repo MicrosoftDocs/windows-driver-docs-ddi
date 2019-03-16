@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_PORT_GET_PROC_ADDRESS
-title: PVIDEO_PORT_GET_PROC_ADDRESS
+title: PVIDEO_PORT_GET_PROC_ADDRESS (video.h)
 description: The VideoPortGetProcAddress callback routine retrieves the address of a Windows 2000 or later video port driver function.
 old-location: display\videoportgetprocaddress.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	VideoPortGetProcAddress
+- VideoPortGetProcAddress
 product:
 - Windows
 targetos: Windows

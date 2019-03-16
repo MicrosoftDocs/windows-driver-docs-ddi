@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddLargeStatistic
-title: ExInterlockedAddLargeStatistic macro
+title: ExInterlockedAddLargeStatistic macro (wdm.h)
 description: The ExInterlockedAddLargeStatistic routine performs an interlocked addition of a ULONG increment value to a LARGE_INTEGER variable.
 old-location: kernel\exinterlockedaddlargestatistic.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedAddLargeStatistic
+- ExInterlockedAddLargeStatistic
 product:
 - Windows
 targetos: Windows

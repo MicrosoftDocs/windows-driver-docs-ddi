@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-title: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+title: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS (d3dkmthk.h)
 description: Multiplane overlay YCbCr flags.
 ms.assetid: a179cba2-5194-40a4-a504-9f4438bd506b
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+- D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

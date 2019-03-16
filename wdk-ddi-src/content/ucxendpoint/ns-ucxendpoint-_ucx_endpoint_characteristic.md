@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC
-title: "_UCX_ENDPOINT_CHARACTERISTIC"
+title: _UCX_ENDPOINT_CHARACTERISTIC (ucxendpoint.h)
 description: Stores the characteristics of an endpoint.
 old-location: buses\ucx_endpoint_characteristic.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	UCX_ENDPOINT_CHARACTERISTIC
+- UCX_ENDPOINT_CHARACTERISTIC
 product:
 - Windows
 targetos: Windows

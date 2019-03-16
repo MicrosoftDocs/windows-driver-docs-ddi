@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETCLIPPLANE
-title: "_D3DHAL_DP2SETCLIPPLANE"
+title: _D3DHAL_DP2SETCLIPPLANE (d3dhal.h)
 description: The D3DHAL_SETCLIPPLANE structure allows user defined clip planes to be used in world space.
 old-location: display\d3dhal_dp2setclipplane.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2SETCLIPPLANE
+- D3DHAL_DP2SETCLIPPLANE
 product:
 - Windows
 targetos: Windows

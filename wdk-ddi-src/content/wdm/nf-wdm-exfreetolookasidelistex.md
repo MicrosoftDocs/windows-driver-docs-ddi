@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFreeToLookasideListEx
-title: ExFreeToLookasideListEx function
+title: ExFreeToLookasideListEx function (wdm.h)
 description: The ExFreeToLookasideListEx routine inserts an entry into a lookaside list, or, if the list is full, frees the allocated storage for the entry.
 old-location: kernel\exfreetolookasidelistex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExFreeToLookasideListEx
+- ExFreeToLookasideListEx
 product:
 - Windows
 targetos: Windows

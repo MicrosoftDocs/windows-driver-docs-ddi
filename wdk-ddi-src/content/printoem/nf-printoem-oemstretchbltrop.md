@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMStretchBltROP
-title: OEMStretchBltROP function
+title: OEMStretchBltROP function (printoem.h)
 description: The OEMStretchBltROP function performs a stretching bit-block transfer using a raster operation (ROP).
 old-location: print\oemstretchbltrop.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMStretchBltROP
+- OEMStretchBltROP
 product:
 - Windows
 targetos: Windows

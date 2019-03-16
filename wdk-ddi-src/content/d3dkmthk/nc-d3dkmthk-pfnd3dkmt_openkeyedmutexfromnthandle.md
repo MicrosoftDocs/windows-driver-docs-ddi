@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
-title: PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
+title: PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE (d3dkmthk.h)
 description: Implemented by the client driver to open a keyed mutex from an NT handle to the process.
 ms.assetid: a09976ec-ba90-4f25-9ffa-c39fdfaa4ac2
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
+- PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 product: 
 - Windows
 targetos: Windows

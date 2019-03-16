@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.CreateWdfMemory
-title: IWDFDriver::CreateWdfMemory
+title: IWDFDriver::CreateWdfMemory (wudfddi.h)
 description: The CreateWdfMemory method creates a framework memory object and allocates, for the memory object, a data buffer of the specified nonzero size.
 old-location: wdf\iwdfdriver_createwdfmemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDriver.CreateWdfMemory
+- IWDFDriver.CreateWdfMemory
 product:
 - Windows
 targetos: Windows

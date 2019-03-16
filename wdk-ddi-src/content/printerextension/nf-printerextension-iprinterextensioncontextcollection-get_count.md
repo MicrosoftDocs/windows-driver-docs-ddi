@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.get_Count
-title: IPrinterExtensionContextCollection::get_Count
+title: IPrinterExtensionContextCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrinterExtensionContext objects in the collection.
 old-location: print\iprinterextensioncontextcollection_count.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionContextCollection.Count
--	IPrinterExtensionContextCollection.get_Count
+- IPrinterExtensionContextCollection.Count
+- IPrinterExtensionContextCollection.get_Count
 product:
 - Windows
 targetos: Windows

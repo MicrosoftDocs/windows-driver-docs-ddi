@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentProvider.GetXpsPart
-title: IXpsDocumentProvider::GetXpsPart
+title: IXpsDocumentProvider::GetXpsPart (filterpipeline.h)
 description: The GetXpsPart method retrieves several objects that make up an XPS document.
 old-location: print\ixpsdocumentprovider_getxpspart.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocumentProvider.GetXpsPart
+- IXpsDocumentProvider.GetXpsPart
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFreeToNPagedLookasideList
-title: ExFreeToNPagedLookasideList function
+title: ExFreeToNPagedLookasideList function (wdm.h)
 description: The ExFreeToNPagedLookasideList routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
 old-location: kernel\exfreetonpagedlookasidelist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExFreeToNPagedLookasideList
+- ExFreeToNPagedLookasideList
 product:
 - Windows
 targetos: Windows

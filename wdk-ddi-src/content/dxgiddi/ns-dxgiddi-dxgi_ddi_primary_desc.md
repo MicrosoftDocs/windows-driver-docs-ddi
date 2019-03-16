@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_PRIMARY_DESC
-title: DXGI_DDI_PRIMARY_DESC
+title: DXGI_DDI_PRIMARY_DESC (dxgiddi.h)
 description: Describes a resource that is used as a primary (that is, a resource that is scanned out to the display).
 old-location: display\dxgi_ddi_primary_desc.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_PRIMARY_DESC
+- DXGI_DDI_PRIMARY_DESC
 product:
 - Windows
 targetos: Windows

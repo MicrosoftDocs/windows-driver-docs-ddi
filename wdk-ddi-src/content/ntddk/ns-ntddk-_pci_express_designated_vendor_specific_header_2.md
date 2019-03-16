@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
-title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
+title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2 (ntddk.h)
 description: Represents the Designated Vendor-Specific Extended Capability Header 2 defined by PCI-SIG. 
 ms.assetid: 8510cb71-231c-4389-a9bd-753b773c426e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
-apiname: 
--	_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
+- ntddk.h
+api_name: 
+- _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

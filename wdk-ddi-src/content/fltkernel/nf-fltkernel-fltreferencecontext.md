@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReferenceContext
-title: FltReferenceContext function
+title: FltReferenceContext function (fltkernel.h)
 description: FltReferenceContext increments the reference count on a context structure.
 old-location: ifsk\fltreferencecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReferenceContext
+- FltReferenceContext
 product:
 - Windows
 targetos: Windows

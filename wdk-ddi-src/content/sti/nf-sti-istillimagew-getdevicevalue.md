@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceValue
-title: IStillImageW::GetDeviceValue
+title: IStillImageW::GetDeviceValue (sti.h)
 description: The IStillImage::GetDeviceValue method returns registry information associated with a specified still image device.
 old-location: image\istillimage_getdevicevalue.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStillImageW.GetDeviceValue
+- IStillImageW.GetDeviceValue
 product:
 - Windows
 targetos: Windows

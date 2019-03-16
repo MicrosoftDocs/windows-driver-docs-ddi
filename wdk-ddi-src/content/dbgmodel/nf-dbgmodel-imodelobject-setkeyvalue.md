@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetKeyValue
-title: IModelObject::SetKeyValue
+title: IModelObject::SetKeyValue (dbgmodel.h)
 description: The SetKeyValue method is the first method a client will turn to in order to set the value of a key. This method cannot be used to create a new key on an object.
 ms.assetid: ea5bb8e0-a226-4dd2-90e3-0fc7cebf9cd5
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.SetKeyValue
-product: Windows
+- IModelObject.SetKeyValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

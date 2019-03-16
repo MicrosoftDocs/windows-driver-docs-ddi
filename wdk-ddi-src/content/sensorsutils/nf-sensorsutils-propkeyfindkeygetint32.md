@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetInt32
-title: PropKeyFindKeyGetInt32 function
+title: PropKeyFindKeyGetInt32 function (sensorsutils.h)
 description: This routine gets a INT32 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 324dc740-750d-4e93-9c1c-af4e77254672
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetInt32
+- PropKeyFindKeyGetInt32
 product:
   - Windows
 targetos: Windows

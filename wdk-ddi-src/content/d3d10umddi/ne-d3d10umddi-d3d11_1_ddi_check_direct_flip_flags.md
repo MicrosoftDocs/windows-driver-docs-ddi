@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
-title: D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
+title: D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS (d3d10umddi.h)
 description: Used by the CheckDirectFlipFlags parameter of the CheckDirectFlipSupport(D3D11_1) function to specify seamless flipping of video memory.
 old-location: display\d3d11_1_ddi_check_direct_flip_flags.htm
 ms.assetid: beead760-8f93-48da-b2fc-2f8a0031019c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
+- D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
 product:
 - Windows
 targetos: Windows

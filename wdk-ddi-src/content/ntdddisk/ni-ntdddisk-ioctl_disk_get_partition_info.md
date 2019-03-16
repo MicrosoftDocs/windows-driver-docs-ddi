@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_PARTITION_INFO
-title: IOCTL_DISK_GET_PARTITION_INFO
+title: IOCTL_DISK_GET_PARTITION_INFO (ntdddisk.h)
 description: Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_partition_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_GET_PARTITION_INFO
+- IOCTL_DISK_GET_PARTITION_INFO
 product:
 - Windows
 targetos: Windows

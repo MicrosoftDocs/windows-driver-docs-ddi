@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtOpenFile
-title: NtOpenFile function
+title: NtOpenFile function (ntifs.h)
 description: The ZwOpenFile routine opens an existing file, directory, device, or volume.
 old-location: kernel\zwopenfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenFile
--	NtOpenFile
+- ZwOpenFile
+- NtOpenFile
 product:
 - Windows
 targetos: Windows

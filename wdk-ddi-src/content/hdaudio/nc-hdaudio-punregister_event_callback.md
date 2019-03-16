@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PUNREGISTER_EVENT_CALLBACK
-title: PUNREGISTER_EVENT_CALLBACK
+title: PUNREGISTER_EVENT_CALLBACK (hdaudio.h)
 description: The UnregisterEventCallback routine deletes the registration of an event callback that was previously registered by a call to RegisterEventCallback.The function pointer type for an UnregisterEventCallback routine is defined as follows.
 old-location: audio\unregistereventcallback.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	UnregisterEventCallback
+- UnregisterEventCallback
 product:
 - Windows
 targetos: Windows

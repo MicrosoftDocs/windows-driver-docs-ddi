@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ARM64_SYSREG_OP1
-title: ARM64_SYSREG_OP1 macro
+title: ARM64_SYSREG_OP1 macro (wdm.h)
 description: Returns the op1 field for a given ARM system register.
 ms.assetid: 4f93d159-0a61-4a2c-9eb1-339a760697fc
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	ARM64_SYSREG_OP1
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- ARM64_SYSREG_OP1
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

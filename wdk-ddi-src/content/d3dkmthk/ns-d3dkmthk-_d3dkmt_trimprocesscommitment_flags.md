@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
-title: _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
+title: _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS (d3dkmthk.h)
 description: Flags used during trim process commitment.
 ms.assetid: 2983bcf8-19c4-4dfa-a6f4-75b01aa0e12d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
+- _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

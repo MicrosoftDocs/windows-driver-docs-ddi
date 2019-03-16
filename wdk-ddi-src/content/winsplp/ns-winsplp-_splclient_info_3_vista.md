@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_3_VISTA
-title: "_SPLCLIENT_INFO_3_VISTA"
+title: _SPLCLIENT_INFO_3_VISTA (winsplp.h)
 description: Contains a super-set of the information in both a SPLCLIENT_INFO_1 and SPLCLIENT_INFO_2 structure. It also contains additional information needed by the provider.
 old-location: print\splclient_info_3_vista.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	SPLCLIENT_INFO_3_VISTA
+- SPLCLIENT_INFO_3_VISTA
 product:
 - Windows
 targetos: Windows

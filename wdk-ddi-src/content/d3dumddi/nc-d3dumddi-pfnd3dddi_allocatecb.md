@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ALLOCATECB
-title: PFND3DDDI_ALLOCATECB
+title: PFND3DDDI_ALLOCATECB (d3dumddi.h)
 description: The pfnAllocateCb function allocates system or video memory.
 old-location: display\pfnallocatecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnAllocateCb
+- pfnAllocateCb
 product:
 - Windows
 targetos: Windows

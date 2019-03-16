@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
-title: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
+title: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE (d3d12umddi.h)
 author: mimisasouvanh
 ms.author: misaso
 description: The available meta-command bind point parameter types.
@@ -19,13 +19,13 @@ req.ddi-compliance:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
+- D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE
 product: 
 - Windows
 targetos: Windows

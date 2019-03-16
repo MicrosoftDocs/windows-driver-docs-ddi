@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_CALLBACK_DATA
-title: "_FLT_CALLBACK_DATA"
+title: _FLT_CALLBACK_DATA (fltkernel.h)
 description: The FLT_CALLBACK_DATA structure represents an I/O operation. The Filter Manager and minifilters use this structure to initiate and process I/O operations.
 old-location: ifsk\flt_callback_data.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	FLT_CALLBACK_DATA
+- FLT_CALLBACK_DATA
 product:
 - Windows
 targetos: Windows

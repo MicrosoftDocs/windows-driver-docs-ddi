@@ -1,6 +1,6 @@
 ---
 UID: NC:ntifs.PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
-title: PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
+title: PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK (ntifs.h)
 description: A file system filter driver (legacy filter) or a minifilter driver can register a PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK-typed routine as the filter driver's CleanupCallback callback routine for an extra create parameter (ECP) context structure.
 old-location: ifsk\pfsrtl_extra_create_parameter_cleanup_callback.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
+- PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UsageAndPageListDifference
-title: HidP_UsageAndPageListDifference function
+title: HidP_UsageAndPageListDifference function (hidpi.h)
 description: The HidP_UsageAndPageListDifference routine is not implemented.
 old-location: hid\hidp_usageandpagelistdifference.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HidP_UsageAndPageListDifference
+- HidP_UsageAndPageListDifference
 product:
 - Windows
 targetos: Windows

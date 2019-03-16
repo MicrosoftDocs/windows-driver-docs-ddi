@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_DEPTH_STENCILOP_DESC
-title: D3D10_DDI_DEPTH_STENCILOP_DESC
+title: D3D10_DDI_DEPTH_STENCILOP_DESC (d3d10umddi.h)
 description: The D3D10_DDI_DEPTH_STENCILOP_DESC structure describes a depth stencil operation.
 old-location: display\d3d10_ddi_depth_stencilop_desc.htm
 ms.assetid: 3f0f3f1d-5b38-4815-9732-3b4079481c58
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_DEPTH_STENCILOP_DESC
+- D3D10_DDI_DEPTH_STENCILOP_DESC
 product:
 - Windows
 targetos: Windows

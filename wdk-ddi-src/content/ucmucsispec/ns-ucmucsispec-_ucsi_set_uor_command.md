@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_UOR_COMMAND
-title: _UCSI_SET_UOR_COMMAND
+title: _UCSI_SET_UOR_COMMAND (ucmucsispec.h)
 description: Used in the SET_UOR command. See Table 4-20.
 ms.assetid: 7c2d1d18-6d86-43b3-aed9-e2660ee0d210
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_UOR_COMMAND, *PUCSI_SET_UOR_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_UOR_COMMAND
-product: Windows
+- _UCSI_SET_UOR_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

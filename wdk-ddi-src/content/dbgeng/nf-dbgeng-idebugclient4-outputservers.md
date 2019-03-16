@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.OutputServers
-title: IDebugClient4::OutputServers
+title: IDebugClient4::OutputServers (dbgeng.h)
 description: The OutputServers method lists the servers running on a given computer.
 old-location: debugger\outputservers.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.OutputServers
--	IDebugClient2.OutputServers
--	IDebugClient3.OutputServers
--	IDebugClient4.OutputServers
--	IDebugClient5.OutputServers
+- IDebugClient.OutputServers
+- IDebugClient2.OutputServers
+- IDebugClient3.OutputServers
+- IDebugClient4.OutputServers
+- IDebugClient5.OutputServers
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtReadFile
-title: NtReadFile function
+title: NtReadFile function (ntifs.h)
 description: The ZwReadFile routine reads data from an open file.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwReadFile
--	NtReadFile
+- ZwReadFile
+- NtReadFile
 product:
 - Windows
 targetos: Windows

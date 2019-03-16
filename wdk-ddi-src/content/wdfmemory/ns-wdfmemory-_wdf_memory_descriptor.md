@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfmemory._WDF_MEMORY_DESCRIPTOR
-title: "_WDF_MEMORY_DESCRIPTOR"
+title: _WDF_MEMORY_DESCRIPTOR (wdfmemory.h)
 description: The WDF_MEMORY_DESCRIPTOR structure describes a memory buffer.
 old-location: wdf\wdf_memory_descriptor.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfmemory.h
+- wdfmemory.h
 api_name:
--	WDF_MEMORY_DESCRIPTOR
+- WDF_MEMORY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

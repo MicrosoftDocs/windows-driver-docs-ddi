@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlOemStringToCountedUnicodeSize
-title: RtlOemStringToCountedUnicodeSize macro
+title: RtlOemStringToCountedUnicodeSize macro (ntifs.h)
 description: The RtlOemStringToCountedUnicodeSize routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string.
 old-location: ifsk\rtloemstringtocountedunicodesize.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	RtlOemStringToCountedUnicodeSize
+- RtlOemStringToCountedUnicodeSize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:ufs.__unnamed_enum_0
-title: UFS_FLAGS_DESCRIPTOR
+title: UFS_FLAGS_DESCRIPTOR (ufs.h)
 description: UFS_FLAGS_DESCRIPTOR describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_flags_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_FLAGS_DESCRIPTOR
+- UFS_FLAGS_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

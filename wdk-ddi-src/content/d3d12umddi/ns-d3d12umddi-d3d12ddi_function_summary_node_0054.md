@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_FUNCTION_SUMMARY_NODE_0054
-title: D3D12DDI_FUNCTION_SUMMARY_NODE_0054
+title: D3D12DDI_FUNCTION_SUMMARY_NODE_0054 (d3d12umddi.h)
 description: A list of shader entry points for a subobject association.
 ms.assetid: 77e28a0a-44f7-44e7-8c98-5af6b97717f3
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_FUNCTION_SUMMARY_NODE_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_FUNCTION_SUMMARY_NODE_0054
+- D3D12DDI_FUNCTION_SUMMARY_NODE_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

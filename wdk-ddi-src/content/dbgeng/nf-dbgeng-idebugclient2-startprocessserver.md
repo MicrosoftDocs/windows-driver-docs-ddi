@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.StartProcessServer
-title: IDebugClient2::StartProcessServer
+title: IDebugClient2::StartProcessServer (dbgeng.h)
 description: The StartProcessServer method starts a process server.
 old-location: debugger\startprocessserver.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.StartProcessServer
--	IDebugClient2.StartProcessServer
--	IDebugClient3.StartProcessServer
--	IDebugClient4.StartProcessServer
--	IDebugClient5.StartProcessServer
+- IDebugClient.StartProcessServer
+- IDebugClient2.StartProcessServer
+- IDebugClient3.StartProcessServer
+- IDebugClient4.StartProcessServer
+- IDebugClient5.StartProcessServer
 product:
 - Windows
 targetos: Windows

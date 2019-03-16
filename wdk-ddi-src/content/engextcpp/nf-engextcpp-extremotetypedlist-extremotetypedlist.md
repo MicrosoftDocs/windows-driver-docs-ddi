@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList
-title: ExtRemoteTypedList::ExtRemoteTypedList method
+title: ExtRemoteTypedList::ExtRemoteTypedList method (engextcpp.h)
 description: The ExtRemoteTypedList class extends the ExtRemoteList class. The ExtRemoteTypedList class adds type information allowing each item in the list to be represented by an instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetypedlist.htm
 tech.root: debugger
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	COM
-apilocation:
--	engextcpp.hpp
-apiname:
--	ExtRemoteTypedList
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- engextcpp.hpp
+api_name:
+- ExtRemoteTypedList
 product:
 - Windows
 targetos: Windows

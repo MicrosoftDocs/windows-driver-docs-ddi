@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoDeletePowerRequest
-title: PoDeletePowerRequest function
+title: PoDeletePowerRequest function (ntifs.h)
 description: The PoDeletePowerRequest routine deletes a power request object.
 old-location: kernel\podeletepowerrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoDeletePowerRequest
+- PoDeletePowerRequest
 product:
 - Windows
 targetos: Windows

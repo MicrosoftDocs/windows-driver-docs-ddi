@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSMPEGVID_RECT
-title: "_KSMPEGVID_RECT"
+title: _KSMPEGVID_RECT (ksmedia.h)
 description: KSMPEGVID_RECT structure
 old-location: stream\ksmpegvid_rect.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSMPEGVID_RECT
+- KSMPEGVID_RECT
 product:
 - Windows
 targetos: Windows

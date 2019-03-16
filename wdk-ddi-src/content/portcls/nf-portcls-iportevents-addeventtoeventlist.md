@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortEvents.AddEventToEventList
-title: IPortEvents::AddEventToEventList
+title: IPortEvents::AddEventToEventList (portcls.h)
 description: The AddEventToEventList method adds an event to the port driver's event list.
 old-location: audio\iportevents_addeventtoeventlist.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortEvents.AddEventToEventList
+- IPortEvents.AddEventToEventList
 product:
 - Windows
 targetos: Windows

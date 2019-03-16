@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmFreeContiguousMemory
-title: MmFreeContiguousMemory function
+title: MmFreeContiguousMemory function (ntddk.h)
 description: The MmFreeContiguousMemory routine releases a range of physically contiguous memory that was allocated by an MmAllocateContiguousMemoryXxx routine.
 old-location: kernel\mmfreecontiguousmemory.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmFreeContiguousMemory
+- MmFreeContiguousMemory
 product:
 - Windows
 targetos: Windows

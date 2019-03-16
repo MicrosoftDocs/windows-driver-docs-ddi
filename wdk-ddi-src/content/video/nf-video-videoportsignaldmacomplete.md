@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortSignalDmaComplete
-title: VideoPortSignalDmaComplete function
+title: VideoPortSignalDmaComplete function (video.h)
 description: The VideoPortSignalDmaComplete function is obsolete in Windows 2000 and later.VideoPortSignalDmaComplete indicates to the video miniport driver whether the current DMA transfer is complete.
 old-location: display\videoportsignaldmacomplete.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortSignalDmaComplete
+- VideoPortSignalDmaComplete
 product:
 - Windows
 targetos: Windows

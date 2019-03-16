@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_INVALIDATECACHE
-title: _D3DKMT_INVALIDATECACHE
+title: _D3DKMT_INVALIDATECACHE (d3dkmthk.h)
 description: Contains information used to invalidate cache.
 ms.assetid: 30cb35da-baa8-4612-932d-b0b7bf59530e
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_INVALIDATECACHE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_INVALIDATECACHE
+- _D3DKMT_INVALIDATECACHE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

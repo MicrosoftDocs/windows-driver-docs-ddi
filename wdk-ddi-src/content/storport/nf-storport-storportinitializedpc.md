@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeDpc
-title: StorPortInitializeDpc function
+title: StorPortInitializeDpc function (storport.h)
 description: The StorPortInitializeDpc routine initializes a StorPort DPC.
 old-location: storage\storportinitializedpc.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeDpc
+- StorPortInitializeDpc
 product:
 - Windows
 targetos: Windows

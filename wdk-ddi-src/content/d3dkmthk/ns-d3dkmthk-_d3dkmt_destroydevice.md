@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYDEVICE
-title: "_D3DKMT_DESTROYDEVICE"
+title: _D3DKMT_DESTROYDEVICE (d3dkmthk.h)
 description: The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device context to release.
 old-location: display\d3dkmt_destroydevice.htm
 ms.assetid: f74ea9da-71ba-466a-b102-78d999d38096
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYDEVICE
+- D3DKMT_DESTROYDEVICE
 product:
 - Windows
 targetos: Windows

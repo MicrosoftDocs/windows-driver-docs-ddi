@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitSignalSyncObjectsToHwQueue
-title: D3DKMTSubmitSignalSyncObjectsToHwQueue function
+title: D3DKMTSubmitSignalSyncObjectsToHwQueue function (d3dkmthk.h)
 description: Used to submit a signal to the hardware queue.
 old-location: display\d3dkmtsubmitsignalsyncobjectstohwqueue.htm
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTSubmitSignalSyncObjectsToHwQueue
+- D3DKMTSubmitSignalSyncObjectsToHwQueue
 product:
 - Windows
 targetos: Windows

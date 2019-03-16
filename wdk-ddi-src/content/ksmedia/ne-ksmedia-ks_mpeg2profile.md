@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_53
-title: KS_MPEG2Profile
+title: KS_MPEG2Profile (ksmedia.h)
 description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 old-location: stream\ks_mpeg2profile.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_MPEG2Profile
+- KS_MPEG2Profile
 product:
 - Windows
 targetos: Windows

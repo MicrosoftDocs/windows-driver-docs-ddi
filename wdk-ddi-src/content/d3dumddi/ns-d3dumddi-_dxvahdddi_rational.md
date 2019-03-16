@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_RATIONAL
-title: "_DXVAHDDDI_RATIONAL"
+title: _DXVAHDDDI_RATIONAL (d3dumddi.h)
 description: The DXVAHDDDI_RATIONAL structure describes a fractional value that represents the vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 old-location: display\dxvahdddi_rational.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_RATIONAL
+- DXVAHDDDI_RATIONAL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_OFFSET_REGION
-title: "_DEBUG_OFFSET_REGION"
+title: _DEBUG_OFFSET_REGION (dbgeng.h)
 description: Defines a debug offset region.
 old-location: debugger\debug_offset_region.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_OFFSET_REGION
+- DEBUG_OFFSET_REGION
 product:
 - Windows
 targetos: Windows

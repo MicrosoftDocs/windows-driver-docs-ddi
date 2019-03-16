@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
-title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT"
+title: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT (ucmtcpciportcontrollerrequests.h)
 description:
 old-location: buses\ucmtcpci_port_controller_displayport_pin_assignment.htm
 tech.root: usbref
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtcpciportcontrollerrequests.h
+- Ucmtcpciportcontrollerrequests.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
+- UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT
 product:
 - Windows
 targetos: Windows

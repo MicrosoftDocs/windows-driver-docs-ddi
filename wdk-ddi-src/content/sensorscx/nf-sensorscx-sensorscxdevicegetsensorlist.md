@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxDeviceGetSensorList
-title: SensorsCxDeviceGetSensorList function
+title: SensorsCxDeviceGetSensorList function (sensorscx.h)
 description: This function returns a list of sensor instances associated with a WDFDEVICE.
 old-location: sensors\sensorscxdevicegetsensorlist.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	Syntax
+- Syntax
 product:
 - Windows
 targetos: Windows

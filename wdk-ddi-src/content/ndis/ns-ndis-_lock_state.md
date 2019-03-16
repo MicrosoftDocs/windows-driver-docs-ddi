@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._LOCK_STATE
-title: "_LOCK_STATE"
+title: _LOCK_STATE (ndis.h)
 description: The LOCK_STATE structure tracks the state of a read/write lock.
 old-location: netvista\lock_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	LOCK_STATE
+- LOCK_STATE
 product:
 - Windows
 targetos: Windows

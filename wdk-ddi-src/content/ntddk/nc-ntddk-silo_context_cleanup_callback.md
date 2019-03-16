@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.SILO_CONTEXT_CLEANUP_CALLBACK
-title: SILO_CONTEXT_CLEANUP_CALLBACK
+title: SILO_CONTEXT_CLEANUP_CALLBACK (ntddk.h)
 description: This callback is invoked when the context object reaches a reference count of zero.
 old-location: kernel\silo_context_cleanup_callback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	CleanupCallback
+- CleanupCallback
 product:
 - Windows
 targetos: Windows

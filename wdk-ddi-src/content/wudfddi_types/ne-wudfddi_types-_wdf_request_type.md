@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_TYPE
-title: "_WDF_REQUEST_TYPE"
+title: _WDF_REQUEST_TYPE (wudfddi_types.h)
 description: The WDF_REQUEST_TYPE enumeration identifies the types of I/O requests that a UMDF request object can represent.
 old-location: wdf\wdf_request_type__umdf_.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_REQUEST_TYPE
+- WDF_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

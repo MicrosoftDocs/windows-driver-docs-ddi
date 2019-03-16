@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreateLogInstance
-title: wiasCreateLogInstance function
+title: wiasCreateLogInstance function (wiamdef.h)
 description: The wiasCreateLogInstance function creates an instance of a logging object.
 old-location: image\wiascreateloginstance.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasCreateLogInstance
+- wiasCreateLogInstance
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxQueryCurrentComponentPerfState
-title: PoFxQueryCurrentComponentPerfState function
+title: PoFxQueryCurrentComponentPerfState function (wdm.h)
 description: The PoFxQueryCurrentComponentPerfState routine retrieves the active performance state in a component's performance state set.
 old-location: kernel\pofxquerycurrentcomponentperfstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxQueryCurrentComponentPerfState
+- PoFxQueryCurrentComponentPerfState
 product:
 - Windows
 targetos: Windows

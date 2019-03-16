@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_HIT_GROUP_TYPE
-title: D3D12DDI_HIT_GROUP_TYPE
+title: D3D12DDI_HIT_GROUP_TYPE (d3d12umddi.h)
 description: Specifies the type of hit group.
 ms.assetid: 034e47d9-920b-4f80-88c9-ec1b305e9e72
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_HIT_GROUP_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_HIT_GROUP_TYPE
+- D3D12DDI_HIT_GROUP_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_SECURITY_ASSOCIATION
-title: "_OFFLOAD_SECURITY_ASSOCIATION"
+title: _OFFLOAD_SECURITY_ASSOCIATION (ntddndis.h)
 description: The OFFLOAD_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 old-location: netvista\offload_security_association.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	OFFLOAD_SECURITY_ASSOCIATION
+- OFFLOAD_SECURITY_ASSOCIATION
 product:
 - Windows
 targetos: Windows

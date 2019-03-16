@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._EXT_SET_PARAMETERS_V0
-title: "_EXT_SET_PARAMETERS_V0"
+title: _EXT_SET_PARAMETERS_V0 (wdm.h)
 description: The EXT_SET_PARAMETERS structure contains an extended set of parameters for the ExSetTimer routine.
 old-location: kernel\ext_set_parameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	EXT_SET_PARAMETERS
+- EXT_SET_PARAMETERS
 product:
 - Windows
 targetos: Windows

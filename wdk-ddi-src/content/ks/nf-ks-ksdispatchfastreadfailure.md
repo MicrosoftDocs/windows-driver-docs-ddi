@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchFastReadFailure
-title: KsDispatchFastReadFailure function
+title: KsDispatchFastReadFailure function (ks.h)
 description: The KsDispatchFastReadFailure function is used in a KSDISPATCH_TABLE.FastRead entry when fast I/O read is not handled. The function should always return FALSE.
 old-location: stream\ksdispatchfastreadfailure.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDispatchFastReadFailure
+- KsDispatchFastReadFailure
 product:
 - Windows
 targetos: Windows

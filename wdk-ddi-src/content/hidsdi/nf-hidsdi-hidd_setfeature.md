@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_SetFeature
-title: HidD_SetFeature function
+title: HidD_SetFeature function (hidsdi.h)
 description: The HidD_SetFeature routine sends a feature report to a top-level collection.
 old-location: hid\hidd_setfeature.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_SetFeature
+- HidD_SetFeature
 product:
 - Windows
 targetos: Windows

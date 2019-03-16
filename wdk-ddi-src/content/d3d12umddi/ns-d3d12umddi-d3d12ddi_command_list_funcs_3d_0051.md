@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
-title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
+title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051 (d3d12umddi.h)
 description: The command list functions for 3D.
 ms.assetid: 9562b973-ad48-4726-8e72-94dcf1d3471c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
+- D3D12DDI_COMMAND_LIST_FUNCS_3D_0051
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

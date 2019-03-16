@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_PREPARE
-title: "_TAPE_PREPARE"
+title: _TAPE_PREPARE (ntddtape.h)
 description: The TAPE_PREPARE structure is used in conjunction with the IOCTL_TAPE_PREPARE request to load or unload tape, reset the tape's tension, lock or unlock the ejection mechanism, or format the tape.
 old-location: storage\tape_prepare.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddtape.h
+- ntddtape.h
 api_name:
--	TAPE_PREPARE
+- TAPE_PREPARE
 product:
 - Windows
 targetos: Windows

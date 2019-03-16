@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeWaitForSingleObject
-title: KeWaitForSingleObject function
+title: KeWaitForSingleObject function (wdm.h)
 description: The KeWaitForSingleObject routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
 old-location: kernel\kewaitforsingleobject.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeWaitForSingleObject
+- KeWaitForSingleObject
 product:
 - Windows
 targetos: Windows

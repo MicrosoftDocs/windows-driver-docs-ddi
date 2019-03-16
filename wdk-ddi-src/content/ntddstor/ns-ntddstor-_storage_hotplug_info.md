@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HOTPLUG_INFO
-title: "_STORAGE_HOTPLUG_INFO"
+title: _STORAGE_HOTPLUG_INFO (ntddstor.h)
 description: The STORAGE_HOTPLUG_INFO structure provides hotplug information for a device.
 old-location: storage\storage_hotplug_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_HOTPLUG_INFO
+- STORAGE_HOTPLUG_INFO
 product:
 - Windows
 targetos: Windows

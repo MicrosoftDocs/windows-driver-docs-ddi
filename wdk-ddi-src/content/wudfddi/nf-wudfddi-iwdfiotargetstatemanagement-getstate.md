@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.GetState
-title: IWDFIoTargetStateManagement::GetState
+title: IWDFIoTargetStateManagement::GetState (wudfddi.h)
 description: The GetState method returns the current state of a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_getstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTargetStateManagement.GetState
+- IWDFIoTargetStateManagement.GetState
 product:
 - Windows
 targetos: Windows

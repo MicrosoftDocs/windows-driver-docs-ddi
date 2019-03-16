@@ -1,6 +1,6 @@
 ---
 UID: NF:midatlax.RxAssociateContextWithMid
-title: RxAssociateContextWithMid function
+title: RxAssociateContextWithMid function (midatlax.h)
 description: RxAssociateContextWithMid associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS.
 old-location: ifsk\rxassociatecontextwithmid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	midatlax.h
+- midatlax.h
 api_name:
--	RxAssociateContextWithMid
+- RxAssociateContextWithMid
 product:
 - Windows
 targetos: Windows

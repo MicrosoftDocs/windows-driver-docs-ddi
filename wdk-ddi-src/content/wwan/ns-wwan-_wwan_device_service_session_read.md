@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION_READ
-title: "_WWAN_DEVICE_SERVICE_SESSION_READ"
+title: _WWAN_DEVICE_SERVICE_SESSION_READ (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION_READ structure represents data associated with a device service session read notification.
 old-location: netvista\wwan_device_service_session_read.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_SESSION_READ
+- WWAN_DEVICE_SERVICE_SESSION_READ
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetItemPropAttribs
-title: wiasSetItemPropAttribs function
+title: wiasSetItemPropAttribs function (wiamdef.h)
 description: The wiasSetItemPropAttribs function sets the access flags and valid values for an item's set of properties.
 old-location: image\wiassetitempropattribs.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetItemPropAttribs
+- wiasSetItemPropAttribs
 product:
 - Windows
 targetos: Windows

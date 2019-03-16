@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsDereferenceImpersonationToken
-title: PsDereferenceImpersonationToken function
+title: PsDereferenceImpersonationToken function (ntifs.h)
 description: The PsDereferenceImpersonationToken routine decrements the reference count of an impersonation token.
 old-location: ifsk\psdereferenceimpersonationtoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsDereferenceImpersonationToken
+- PsDereferenceImpersonationToken
 product:
 - Windows
 targetos: Windows

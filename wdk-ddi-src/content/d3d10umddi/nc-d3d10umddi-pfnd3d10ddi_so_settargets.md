@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SO_SETTARGETS
-title: PFND3D10DDI_SO_SETTARGETS
+title: PFND3D10DDI_SO_SETTARGETS (d3d10umddi.h)
 description: The SoSetTargets function sets stream output target resources.
 old-location: display\sosettargets.htm
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SoSetTargets
+- SoSetTargets
 product:
 - Windows
 targetos: Windows

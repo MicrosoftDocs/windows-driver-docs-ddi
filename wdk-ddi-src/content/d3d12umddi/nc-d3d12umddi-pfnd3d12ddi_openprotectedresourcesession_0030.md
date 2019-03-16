@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
-title: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
+title: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030 (d3d12umddi.h)
 description: Used to open a protected resource session.
 old-location: display\pfnd3d12ddi_openprotectedresourcesession_0030.htm
 ms.assetid: B71FD65C-5D10-4486-A6F7-C6EF1A4DEF03
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
+- PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
 product:
 - Windows
 targetos: Windows

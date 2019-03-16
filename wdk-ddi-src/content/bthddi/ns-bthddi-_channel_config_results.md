@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_RESULTS
-title: "_CHANNEL_CONFIG_RESULTS"
+title: _CHANNEL_CONFIG_RESULTS (bthddi.h)
 description: The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any extra options for the inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_results.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	CHANNEL_CONFIG_RESULTS
+- CHANNEL_CONFIG_RESULTS
 product:
 - Windows
 targetos: Windows

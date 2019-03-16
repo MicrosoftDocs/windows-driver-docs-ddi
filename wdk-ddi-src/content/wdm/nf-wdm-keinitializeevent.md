@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeEvent
-title: KeInitializeEvent function
+title: KeInitializeEvent function (wdm.h)
 description: The KeInitializeEvent routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.
 old-location: kernel\keinitializeevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeEvent
+- KeInitializeEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddpcm.PCMCIA_SET_VPP
-title: PCMCIA_SET_VPP
+title: PCMCIA_SET_VPP (ntddpcm.h)
 description: The PCMCIA_SET_VPP interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).
 old-location: pcmcia\pcmcia_set_vpp.htm
 tech.root: PCMCIA
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	SetVpp
+- SetVpp
 product:
 - Windows
 targetos: Windows

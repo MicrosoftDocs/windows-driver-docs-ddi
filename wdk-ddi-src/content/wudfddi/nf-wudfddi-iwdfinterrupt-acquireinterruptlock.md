@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.AcquireInterruptLock
-title: IWDFInterrupt::AcquireInterruptLock
+title: IWDFInterrupt::AcquireInterruptLock (wudfddi.h)
 description: The AcquireInterruptLock method begins a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_acquireinterruptlock.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFInterrupt.AcquireInterruptLock
+- IWDFInterrupt.AcquireInterruptLock
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeCloneOidRequest
-title: NdisFreeCloneOidRequest function
+title: NdisFreeCloneOidRequest function (ndis.h)
 description: The NdisFreeCloneOidRequest function frees a cloned NDIS_OID_REQUEST structure.
 old-location: netvista\ndisfreecloneoidrequest.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFreeCloneOidRequest
+- NdisFreeCloneOidRequest
 product:
 - Windows
 targetos: Windows

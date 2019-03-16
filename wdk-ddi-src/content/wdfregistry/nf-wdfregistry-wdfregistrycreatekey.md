@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryCreateKey
-title: WdfRegistryCreateKey function
+title: WdfRegistryCreateKey function (wdfregistry.h)
 description: The WdfRegistryCreateKey method creates and opens a specified registry key, or just opens the key if it already exists, and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfregistrycreatekey.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRegistryCreateKey
+- WdfRegistryCreateKey
 product:
 - Windows
 targetos: Windows

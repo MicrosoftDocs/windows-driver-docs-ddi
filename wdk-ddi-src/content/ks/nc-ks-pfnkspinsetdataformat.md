@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINSETDATAFORMAT
-title: PFNKSPINSETDATAFORMAT
+title: PFNKSPINSETDATAFORMAT (ks.h)
 description: An AVStream minidriver's AVStrMiniPinSetDataFormat routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this KSPIN structure and a match for this KSDATARANGE structure.
 old-location: stream\avstrminipinsetdataformat.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinSetDataFormat
+- AVStrMiniPinSetDataFormat
 product:
 - Windows
 targetos: Windows

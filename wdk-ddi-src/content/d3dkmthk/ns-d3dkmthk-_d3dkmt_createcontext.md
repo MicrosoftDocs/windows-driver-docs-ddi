@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXT
-title: "_D3DKMT_CREATECONTEXT"
+title: _D3DKMT_CREATECONTEXT (d3dkmthk.h)
 description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
 old-location: display\d3dkmt_createcontext.htm
 ms.assetid: 867705b9-a721-48a6-b1bc-6a75d5a03a21
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_CREATECONTEXT
+- D3DKMT_CREATECONTEXT
 product:
 - Windows
 targetos: Windows

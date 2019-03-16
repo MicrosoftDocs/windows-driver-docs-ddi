@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXSENSORINITIALIZE
-title: *PFN_SENSORSCXSENSORINITIALIZE
+title: PFN_SENSORSCXSENSORINITIALIZE (sensorscx.h)
 description: Sets the enumeration properties of a sensor.
 ms.assetid: 43a6c35f-14ef-422d-a5f4-3fd318571a0d
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	*PFN_SENSORSCXSENSORINITIALIZE
+- *PFN_SENSORSCXSENSORINITIALIZE
 product:
 - Windows
 targetos: Windows

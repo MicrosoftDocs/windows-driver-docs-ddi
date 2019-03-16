@@ -1,6 +1,6 @@
 ---
 UID: NF:netrxqueue.NetRxQueueInitAddPacketContextAttributes
-title: NetRxQueueInitAddPacketContextAttributes function
+title: NetRxQueueInitAddPacketContextAttributes function (netrxqueue.h)
 description: The NetRxQueueInitAddPacketContextAttributes method adds an initialized NET_PACKET_CONTEXT_ATTRIBUTES structure to a receive queue's packet context space.
 tech.root: netvista
 ms.assetid: 6bb92b58-bc85-402a-90d7-f1b4a0f4865b
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrxqueue.h
-apiname: 
--	NetRxQueueInitAddPacketContextAttributes
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrxqueue.h
+api_name: 
+- NetRxQueueInitAddPacketContextAttributes
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

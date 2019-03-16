@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcCreate
-title: WdfDpcCreate function
+title: WdfDpcCreate function (wdfdpc.h)
 description: The WdfDpcCreate method creates a framework DPC object and registers an EvtDpcFunc callback function.
 old-location: wdf\wdfdpccreate.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDpcCreate
+- WdfDpcCreate
 product:
 - Windows
 targetos: Windows

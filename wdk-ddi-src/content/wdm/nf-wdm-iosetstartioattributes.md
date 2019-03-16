@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetStartIoAttributes
-title: IoSetStartIoAttributes function
+title: IoSetStartIoAttributes function (wdm.h)
 description: The IoSetStartIoAttributes routine sets attributes for the driver's StartIo routine.
 old-location: kernel\iosetstartioattributes.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetStartIoAttributes
+- IoSetStartIoAttributes
 product:
 - Windows
 targetos: Windows

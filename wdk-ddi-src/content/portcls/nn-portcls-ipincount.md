@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPinCount
-title: IPinCount
+title: IPinCount (portcls.h)
 description: The IPinCount interface provides a means for the miniport driver to monitor and manipulate its pin counts dynamically as pins are instantiated and closed.
 old-location: audio\ipincount.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPinCount
+- IPinCount
 product:
 - Windows
 targetos: Windows

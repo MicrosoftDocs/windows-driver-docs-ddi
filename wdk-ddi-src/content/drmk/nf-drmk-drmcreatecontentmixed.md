@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmCreateContentMixed
-title: DrmCreateContentMixed function
+title: DrmCreateContentMixed function (drmk.h)
 description: The DrmCreateContentMixed function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams.
 old-location: audio\drmcreatecontentmixed.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Drmk.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Drmk.lib
--	Drmk.dll
+- Drmk.lib
+- Drmk.dll
 api_name:
--	DrmCreateContentMixed
+- DrmCreateContentMixed
 product:
 - Windows
 targetos: Windows

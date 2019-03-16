@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
-title: "_NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS"
+title: _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure specifies the receive filtering features that are enabled or disabled on a network adapter.NDIS receive filters are used in the following NDIS interfaces:NDIS Packet Coalescing.
 old-location: netvista\ndis_receive_filter_global_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
+- NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
 product:
 - Windows
 targetos: Windows

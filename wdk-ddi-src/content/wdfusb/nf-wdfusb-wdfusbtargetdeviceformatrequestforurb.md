@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForUrb
-title: WdfUsbTargetDeviceFormatRequestForUrb function
+title: WdfUsbTargetDeviceFormatRequestForUrb function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForUrb method builds an USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforurb.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfUsbTargetDeviceFormatRequestForUrb
+- WdfUsbTargetDeviceFormatRequestForUrb
 product:
 - Windows
 targetos: Windows

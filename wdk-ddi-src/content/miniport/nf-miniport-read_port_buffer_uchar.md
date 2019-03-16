@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.READ_PORT_BUFFER_UCHAR
-title: READ_PORT_BUFFER_UCHAR function
+title: READ_PORT_BUFFER_UCHAR function (miniport.h)
 description: The READ_PORT_BUFFER_UCHAR routine reads a number of bytes from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_uchar.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	READ_PORT_BUFFER_UCHAR
+- READ_PORT_BUFFER_UCHAR
 product:
 - Windows
 targetos: Windows

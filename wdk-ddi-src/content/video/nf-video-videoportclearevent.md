@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortClearEvent
-title: VideoPortClearEvent function
+title: VideoPortClearEvent function (video.h)
 description: The VideoPortClearEvent function sets a given event object to the nonsignaled state.
 old-location: display\videoportclearevent.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortClearEvent
+- VideoPortClearEvent
 product:
 - Windows
 targetos: Windows

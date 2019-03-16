@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_19
-title: KSCOMPONENTID
+title: KSCOMPONENTID (ks.h)
 description: The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
 old-location: stream\kscomponentid.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSCOMPONENTID
+- KSCOMPONENTID
 product:
 - Windows
 targetos: Windows

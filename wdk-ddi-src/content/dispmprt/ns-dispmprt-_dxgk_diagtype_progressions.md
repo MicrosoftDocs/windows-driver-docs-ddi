@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGTYPE_PROGRESSIONS
-title: _DXGK_DIAGTYPE_PROGRESSIONS
+title: _DXGK_DIAGTYPE_PROGRESSIONS (dispmprt.h)
 description: A structure used to identify one or more diagnostic types in the Progressions category.
 ms.assetid: 9c8fc25d-8d4f-4987-93b6-1347bb32507b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGTYPE_PROGRESSIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGK_DIAGTYPE_PROGRESSIONS
+- _DXGK_DIAGTYPE_PROGRESSIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

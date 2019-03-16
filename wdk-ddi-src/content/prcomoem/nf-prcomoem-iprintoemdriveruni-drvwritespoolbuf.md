@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvWriteSpoolBuf
-title: IPrintOemDriverUni::DrvWriteSpoolBuf
+title: IPrintOemDriverUni::DrvWriteSpoolBuf (prcomoem.h)
 description: The IPrintOemDriverUni::DrvWriteSpoolBuf method is provided by the Unidrv driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintoemdriveruni_drvwritespoolbuf.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemDriverUni.DrvWriteSpoolBuf
+- IPrintOemDriverUni.DrvWriteSpoolBuf
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwWriteEx
-title: EtwWriteEx function
+title: EtwWriteEx function (wdm.h)
 description: The EtwWriteEx function is a tracing function for publishing events that support filtering in your kernel-mode driver code.
 old-location: devtest\etwwriteex.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwWriteEx
+- EtwWriteEx
 product:
 - Windows
 targetos: Windows

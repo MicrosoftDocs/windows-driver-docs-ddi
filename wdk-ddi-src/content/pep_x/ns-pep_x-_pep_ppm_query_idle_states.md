@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_IDLE_STATES
-title: "_PEP_PPM_QUERY_IDLE_STATES"
+title: _PEP_PPM_QUERY_IDLE_STATES (pep_x.h)
 description: The PEP_PPM_QUERY_IDLE_STATES structure describes the idle states of a particular processor.
 old-location: kernel\pep_ppm_query_idle_states.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_PPM_QUERY_IDLE_STATES
+- PEP_PPM_QUERY_IDLE_STATES
 product:
 - Windows
 targetos: Windows

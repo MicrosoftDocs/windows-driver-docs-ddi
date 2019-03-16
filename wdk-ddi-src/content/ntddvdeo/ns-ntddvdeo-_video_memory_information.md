@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MEMORY_INFORMATION
-title: "_VIDEO_MEMORY_INFORMATION"
+title: _VIDEO_MEMORY_INFORMATION (ntddvdeo.h)
 description: The VIDEO_MEMORY_INFORMATION structure contains information about a mapping of video memory into system space or the private virtual address space of a user-mode process.
 old-location: display\video_memory_information.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_MEMORY_INFORMATION
+- VIDEO_MEMORY_INFORMATION
 product:
 - Windows
 targetos: Windows

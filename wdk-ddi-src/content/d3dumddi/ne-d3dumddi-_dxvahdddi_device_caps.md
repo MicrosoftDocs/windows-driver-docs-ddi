@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_DEVICE_CAPS
-title: _DXVAHDDDI_DEVICE_CAPS
+title: _DXVAHDDDI_DEVICE_CAPS (d3dumddi.h)
 description: DirectX video acceleration device capabilities.
 ms.assetid: f1277bfc-7240-4a85-bd3f-5062b9e773b9
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXVAHDDDI_DEVICE_CAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_DXVAHDDDI_DEVICE_CAPS
+- _DXVAHDDDI_DEVICE_CAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

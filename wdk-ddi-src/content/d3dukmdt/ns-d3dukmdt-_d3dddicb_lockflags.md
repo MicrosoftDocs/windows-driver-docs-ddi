@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_LOCKFLAGS
-title: "_D3DDDICB_LOCKFLAGS"
+title: _D3DDDICB_LOCKFLAGS (d3dukmdt.h)
 description: The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
 old-location: display\d3dddicb_lockflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDICB_LOCKFLAGS
+- D3DDDICB_LOCKFLAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FENCE_PRESENTHISTORYTOKEN
-title: "_D3DKMT_FENCE_PRESENTHISTORYTOKEN"
+title: _D3DKMT_FENCE_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
 old-location: display\d3dkmt_fence_presenthistorytoken.htm
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_FENCE_PRESENTHISTORYTOKEN
+- D3DKMT_FENCE_PRESENTHISTORYTOKEN
 product:
 - Windows
 targetos: Windows

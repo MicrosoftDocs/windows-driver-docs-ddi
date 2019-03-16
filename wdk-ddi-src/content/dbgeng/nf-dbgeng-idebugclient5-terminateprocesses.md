@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.TerminateProcesses
-title: IDebugClient5::TerminateProcesses
+title: IDebugClient5::TerminateProcesses (dbgeng.h)
 description: The TerminateProcesses method attempts to terminate all processes in all targets.
 old-location: debugger\terminateprocesses.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.TerminateProcesses
--	IDebugClient2.TerminateProcesses
--	IDebugClient3.TerminateProcesses
--	IDebugClient4.TerminateProcesses
--	IDebugClient5.TerminateProcesses
+- IDebugClient.TerminateProcesses
+- IDebugClient2.TerminateProcesses
+- IDebugClient3.TerminateProcesses
+- IDebugClient4.TerminateProcesses
+- IDebugClient5.TerminateProcesses
 product:
 - Windows
 targetos: Windows

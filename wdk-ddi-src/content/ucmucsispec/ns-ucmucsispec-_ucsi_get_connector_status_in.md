@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_STATUS_IN
-title: _UCSI_GET_CONNECTOR_STATUS_IN
+title: _UCSI_GET_CONNECTOR_STATUS_IN (ucmucsispec.h)
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42.
 ms.assetid: 09365116-affe-4b3e-9b31-e98bcf6c3518
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_CONNECTOR_STATUS_IN, *PUCSI_GET_CONNECTOR_STATUS_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_CONNECTOR_STATUS_IN
-product: Windows
+- _UCSI_GET_CONNECTOR_STATUS_IN
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddBaseMcbEntryEx
-title: FsRtlAddBaseMcbEntryEx function
+title: FsRtlAddBaseMcbEntryEx function (ntifs.h)
 description:
 ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlAddBaseMcbEntryEx
+- FsRtlAddBaseMcbEntryEx
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

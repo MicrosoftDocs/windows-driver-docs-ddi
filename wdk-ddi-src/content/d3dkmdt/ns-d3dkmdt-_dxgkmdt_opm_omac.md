@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_OMAC
-title: "_DXGKMDT_OPM_OMAC"
+title: _DXGKMDT_OPM_OMAC (d3dkmdt.h)
 description: The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity.
 old-location: display\dxgkmdt_opm_omac.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_OMAC
+- DXGKMDT_OPM_OMAC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_ENDORSER_VALUE
-title: "_WIAS_ENDORSER_VALUE"
+title: _WIAS_ENDORSER_VALUE (wiamindr_lh.h)
 description: The WIAS_ENDORSER_VALUE structure stores token/value pairs for endorser strings.
 old-location: image\wias_endorser_value.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIAS_ENDORSER_VALUE
+- WIAS_ENDORSER_VALUE
 product:
 - Windows
 targetos: Windows

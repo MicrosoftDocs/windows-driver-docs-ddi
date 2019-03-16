@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyTrace
-title: wiauDbgLegacyTrace function
+title: wiauDbgLegacyTrace function (wiautil.h)
 description: The wiauDbgLegacyTrace function logs a trace message.
 old-location: image\wiaudbglegacytrace.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgLegacyTrace
+- wiauDbgLegacyTrace
 product:
 - Windows
 targetos: Windows

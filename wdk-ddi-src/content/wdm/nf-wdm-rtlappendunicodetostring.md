@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAppendUnicodeToString
-title: RtlAppendUnicodeToString function
+title: RtlAppendUnicodeToString function (wdm.h)
 description: The RtlAppendUnicodeToString routine concatenates the supplied Unicode string to a buffered Unicode string.
 old-location: kernel\rtlappendunicodetostring.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlAppendUnicodeToString
+- RtlAppendUnicodeToString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdmaenabler._WDF_DMA_SYSTEM_PROFILE_CONFIG
-title: "_WDF_DMA_SYSTEM_PROFILE_CONFIG"
+title: _WDF_DMA_SYSTEM_PROFILE_CONFIG (wdfdmaenabler.h)
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG structure describes the hardware-specific settings related to a system-mode DMA enabler.
 old-location: wdf\wdf_dma_system_profile_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdmaenabler.h
+- wdfdmaenabler.h
 api_name:
--	WDF_DMA_SYSTEM_PROFILE_CONFIG
+- WDF_DMA_SYSTEM_PROFILE_CONFIG
 product:
 - Windows
 targetos: Windows

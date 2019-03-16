@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtypes.UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
-title: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function
+title: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function (ucmtypes.h)
 description: Initializes a to the UCM_PD_POWER_DATA_OBJECT for a Fixed Supply type Power Data Object.
 old-location: buses\ucm_pd_power_data_object_init_fixed.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
+- UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
 product:
 - Windows
 targetos: Windows

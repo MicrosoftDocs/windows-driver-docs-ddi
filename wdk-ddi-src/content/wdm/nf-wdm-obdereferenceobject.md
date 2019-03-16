@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObject
-title: ObDereferenceObject macro
+title: ObDereferenceObject macro (wdm.h)
 description: The ObDereferenceObject routine decrements the given object's reference count and performs retention checks.
 old-location: kernel\obdereferenceobject.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObDereferenceObject
+- ObDereferenceObject
 product:
 - Windows
 targetos: Windows

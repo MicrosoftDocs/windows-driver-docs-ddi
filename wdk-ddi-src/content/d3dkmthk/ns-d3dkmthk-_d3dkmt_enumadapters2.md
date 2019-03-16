@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS2
-title: _D3DKMT_ENUMADAPTERS2
+title: _D3DKMT_ENUMADAPTERS2 (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 ms.assetid: a8b97771-732a-4ce3-bf08-31dd1c3a4d91
 ms.date: 11/21/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ENUMADAPTERS2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_ENUMADAPTERS2
+- _D3DKMT_ENUMADAPTERS2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

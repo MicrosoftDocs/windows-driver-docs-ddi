@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_H264_VIDEO
-title: tagKS_DATARANGE_H264_VIDEO
+title: tagKS_DATARANGE_H264_VIDEO (ksmedia.h)
 description: The KS_DATARANGE_H264_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
 old-location: stream\ks_datarange_h264_video.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KS_DATARANGE_H264_VIDEO
+- KS_DATARANGE_H264_VIDEO
 product:
 - Windows
 targetos: Windows

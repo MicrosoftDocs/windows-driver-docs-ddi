@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._LINKED_DEVICE
-title: "_LINKED_DEVICE"
+title: _LINKED_DEVICE (dispmprt.h)
 description: The LINKED_DEVICE structure holds information that describes a linked display adapter configuration.
 old-location: display\linked_device.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	LINKED_DEVICE
+- LINKED_DEVICE
 product:
 - Windows
 targetos: Windows

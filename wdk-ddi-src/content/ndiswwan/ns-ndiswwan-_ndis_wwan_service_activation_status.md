@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SERVICE_ACTIVATION_STATUS
-title: "_NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
+title: _NDIS_WWAN_SERVICE_ACTIVATION_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the MB device.
 old-location: netvista\ndis_wwan_service_activation_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SERVICE_ACTIVATION_STATUS
+- NDIS_WWAN_SERVICE_ACTIVATION_STATUS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_CONTROL
-title: _UCSI_CONTROL
+title: _UCSI_CONTROL (ucmucsispec.h)
 tech.root: usbref
 description: Used in the SET_NOTIFICATION_ENABLE command. See Table 4-9.
 ms.assetid: e4ef0fb0-fe00-4d7b-9e89-a7c0d6c74a32
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_CONTROL, *PUCSI_CONTROL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_CONTROL
-product: Windows
+- _UCSI_CONTROL
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

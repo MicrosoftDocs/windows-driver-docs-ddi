@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_RESPONSEDATA
-title: "_BDA_ISDBCAS_RESPONSEDATA"
+title: _BDA_ISDBCAS_RESPONSEDATA (bdatypes.h)
 description: 
 old-location: stream\bda_isdbcas_responsedata.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_ISDBCAS_RESPONSEDATA
+- BDA_ISDBCAS_RESPONSEDATA
 product:
 - Windows
 targetos: Windows

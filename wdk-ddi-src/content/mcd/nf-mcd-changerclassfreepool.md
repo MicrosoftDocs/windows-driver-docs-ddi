@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassFreePool
-title: ChangerClassFreePool function
+title: ChangerClassFreePool function (mcd.h)
 description: The ChangerClassFreePool routine frees pool memory previously allocated using ChangerClassAllocatePool.
 old-location: storage\changerclassfreepool.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Mcd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mcd.lib
--	Mcd.dll
+- Mcd.lib
+- Mcd.dll
 api_name:
--	ChangerClassFreePool
+- ChangerClassFreePool
 product:
 - Windows
 targetos: Windows

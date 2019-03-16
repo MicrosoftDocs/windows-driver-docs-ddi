@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
-title: "_DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS"
+title: _DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS (d3dkmdt.h)
 description: The DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS enumeration identifies the semantics of a protected output that is created in a call to the DxgkDdiOPMCreateProtectedOutput function.
 old-location: display\dxgkmdt_opm_video_output_semantics.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
+- DXGKMDT_OPM_VIDEO_OUTPUT_SEMANTICS
 product:
 - Windows
 targetos: Windows

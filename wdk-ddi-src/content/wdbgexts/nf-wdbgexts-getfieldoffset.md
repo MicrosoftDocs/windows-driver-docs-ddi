@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetFieldOffset
-title: GetFieldOffset function
+title: GetFieldOffset function (wdbgexts.h)
 description: The GetFieldOffset function returns the offset of a member from the beginning of a structure.
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetFieldOffset
+- GetFieldOffset
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
-title: D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
+title: D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 (d3d12umddi.h)
 description: Arguments used in the CopyRayTracingAccelerationStructure callback function.
 ms.assetid: 32181b08-3b0c-4c3a-bcee-1ae890d52be0
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
+- D3D12DDIARG_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

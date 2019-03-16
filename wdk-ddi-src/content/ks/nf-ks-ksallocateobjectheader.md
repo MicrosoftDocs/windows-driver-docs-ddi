@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectHeader
-title: KsAllocateObjectHeader function
+title: KsAllocateObjectHeader function (ks.h)
 description: The KsAllocateObjectHeader function initializes the required file context header.
 old-location: stream\ksallocateobjectheader.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAllocateObjectHeader
+- KsAllocateObjectHeader
 product:
 - Windows
 targetos: Windows

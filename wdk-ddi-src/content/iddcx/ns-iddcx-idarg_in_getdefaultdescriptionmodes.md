@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_GETDEFAULTDESCRIPTIONMODES
-title: IDARG_IN_GETDEFAULTDESCRIPTIONMODES
+title: IDARG_IN_GETDEFAULTDESCRIPTIONMODES (iddcx.h)
 description: Gives information about the default monitor modes passed into the driver.
 old-location: display\idarg_in_getdefaultdescriptionmodes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_GETDEFAULTDESCRIPTIONMODES
+- IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 product:
 - Windows
 targetos: Windows

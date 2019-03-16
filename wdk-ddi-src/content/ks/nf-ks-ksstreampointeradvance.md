@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerAdvance
-title: KsStreamPointerAdvance function
+title: KsStreamPointerAdvance function (ks.h)
 description: The KsStreamPointerAdvance function advances a stream pointer to the next data frame.
 old-location: stream\ksstreampointeradvance.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerAdvance
+- KsStreamPointerAdvance
 product:
 - Windows
 targetos: Windows

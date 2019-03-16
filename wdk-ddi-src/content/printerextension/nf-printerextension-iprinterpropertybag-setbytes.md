@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.SetBytes
-title: IPrinterPropertyBag::SetBytes
+title: IPrinterPropertyBag::SetBytes (printerextension.h)
 description: Writes a byte array property.
 old-location: print\iprinterpropertybag_setbytes.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterPropertyBag.SetBytes
+- IPrinterPropertyBag.SetBytes
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_5
-title: GNSS_AGNSS_REQUEST_TYPE
+title: GNSS_AGNSS_REQUEST_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of AGNSS injection request represented by the GNSS_AGNSS_REQUEST_PARAM structure.
 old-location: gnss\gnss_agnss_request_type.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_AGNSS_REQUEST_TYPE
+- GNSS_AGNSS_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

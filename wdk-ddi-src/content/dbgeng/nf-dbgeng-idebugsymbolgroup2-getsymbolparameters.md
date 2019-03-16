@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolParameters
-title: IDebugSymbolGroup2::GetSymbolParameters
+title: IDebugSymbolGroup2::GetSymbolParameters (dbgeng.h)
 description: The GetSymbolParameters method returns the symbol parameters that describe the specified symbols in a symbol group.
 old-location: debugger\getsymbolparameters.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup.GetSymbolParameters
--	IDebugSymbolGroup2.GetSymbolParameters
+- IDebugSymbolGroup.GetSymbolParameters
+- IDebugSymbolGroup2.GetSymbolParameters
 product:
 - Windows
 targetos: Windows

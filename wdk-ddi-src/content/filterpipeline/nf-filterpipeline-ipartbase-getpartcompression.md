@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.GetPartCompression
-title: IPartBase::GetPartCompression
+title: IPartBase::GetPartCompression (filterpipeline.h)
 description: The GetPartCompression method gets the compression of the part.
 old-location: print\ipartbase_getpartcompression.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartBase.GetPartCompression
+- IPartBase.GetPartCompression
 product:
 - Windows
 targetos: Windows

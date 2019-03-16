@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.operator-assign(const float)
-title: CVEC3D::operator=(const float)
+title: CVEC3D::operator=(const float) (math3dhelper.h)
 description: Assignment operator =.
 ms.assetid: 35f51099-b6ae-49d5-b9ea-82f626ad1172
 ms.date: 08/01/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	CVEC3D.operator*=
+- CVEC3D.operator*=
 product: 
 - Windows
 targetos: Windows

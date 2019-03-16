@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_CAPABILITY
-title: "_WDF_PNP_CAPABILITY"
+title: _WDF_PNP_CAPABILITY (wudfddi_types.h)
 description: The WDF_PNP_CAPABILITY enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 old-location: wdf\wdf_pnp_capability.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_PNP_CAPABILITY
+- WDF_PNP_CAPABILITY
 product:
 - Windows
 targetos: Windows

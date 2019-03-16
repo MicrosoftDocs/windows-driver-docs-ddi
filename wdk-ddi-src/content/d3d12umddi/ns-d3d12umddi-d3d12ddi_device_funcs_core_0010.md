@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0010
-title: D3D12DDI_DEVICE_FUNCS_CORE_0010
+title: D3D12DDI_DEVICE_FUNCS_CORE_0010 (d3d12umddi.h)
 description: Contains core functions.
 old-location: display\d3d12ddi_device_funcs_core_0010.htm
 ms.assetid: 87B4873E-DD44-47E9-8E6A-5BA91218188F
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_DEVICE_FUNCS_CORE_0010
+- D3D12DDI_DEVICE_FUNCS_CORE_0010
 product:
 - Windows
 targetos: Windows

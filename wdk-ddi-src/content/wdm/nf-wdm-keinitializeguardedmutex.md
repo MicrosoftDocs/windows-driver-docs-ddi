@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeGuardedMutex
-title: KeInitializeGuardedMutex function
+title: KeInitializeGuardedMutex function (wdm.h)
 description: The KeInitializeGuardedMutex routine initializes a guarded mutex.
 old-location: kernel\keinitializeguardedmutex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInitializeGuardedMutex
+- KeInitializeGuardedMutex
 product:
 - Windows
 targetos: Windows

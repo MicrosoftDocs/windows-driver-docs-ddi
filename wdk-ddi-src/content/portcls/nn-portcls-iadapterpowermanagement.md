@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IAdapterPowerManagement
-title: IAdapterPowerManagement
+title: IAdapterPowerManagement (portcls.h)
 description: The IAdapterPowerManagement interface is used to manage the power state of an audio adapter.
 old-location: audio\iadapterpowermanagement.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IAdapterPowerManagement
+- IAdapterPowerManagement
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Write
-title: IPrinterScriptableSequentialStream::Write
+title: IPrinterScriptableSequentialStream::Write (printerextension.h)
 description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
 old-location: print\iprinterscriptablesequentialstream_write.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrinterScriptableSequentialStream.Write
+- IPrinterScriptableSequentialStream.Write
 product:
 - Windows
 targetos: Windows

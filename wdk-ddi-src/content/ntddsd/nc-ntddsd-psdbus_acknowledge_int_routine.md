@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddsd.PSDBUS_ACKNOWLEDGE_INT_ROUTINE
-title: PSDBUS_ACKNOWLEDGE_INT_ROUTINE
+title: PSDBUS_ACKNOWLEDGE_INT_ROUTINE (ntddsd.h)
 description: The PSDBUS_ACKNOWLEDGE_INT_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver must call to acknowledge to the bus driver that it has finished processing the interrupt.
 old-location: sd\psdbus_acknowledge_int_routine.htm
 tech.root: SD
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddsd.h
+- ntddsd.h
 api_name:
--	AcknowledgeInterrupt
+- AcknowledgeInterrupt
 product:
 - Windows
 targetos: Windows

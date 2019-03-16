@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVERSTATUS
-title: "_DRIVERSTATUS"
+title: _DRIVERSTATUS (ntdddisk.h)
 description: The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\driverstatus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DRIVERSTATUS
+- DRIVERSTATUS
 product:
 - Windows
 targetos: Windows

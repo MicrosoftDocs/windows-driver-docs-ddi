@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
-title: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
+title: D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS (d3d10umddi.h)
 description: Specifies the protection level for video content.
 old-location: display\d3d11_1ddi_authenticated_protection_flags.htm
 ms.assetid: 687eb573-ea7c-4e8a-80df-65339521ec18
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
+- D3D11_1DDI_AUTHENTICATED_PROTECTION_FLAGS
 product:
 - Windows
 targetos: Windows

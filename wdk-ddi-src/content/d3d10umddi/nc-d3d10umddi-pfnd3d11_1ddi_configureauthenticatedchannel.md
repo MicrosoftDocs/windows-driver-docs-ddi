@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL
-title: PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL
+title: PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL (d3d10umddi.h)
 description: Processes a request from an application to configure an authenticated channel for content protection. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\configureauthenticatedchannel1.htm
 ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	ConfigureAuthenticatedChannel
+- ConfigureAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

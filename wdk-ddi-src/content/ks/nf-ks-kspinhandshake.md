@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinHandshake
-title: KsPinHandshake function
+title: KsPinHandshake function (ks.h)
 description: The KsPinHandshake function attempts a protocol handshake with a connected pin.
 old-location: stream\kspinhandshake.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsPinHandshake
+- KsPinHandshake
 product:
 - Windows
 targetos: Windows

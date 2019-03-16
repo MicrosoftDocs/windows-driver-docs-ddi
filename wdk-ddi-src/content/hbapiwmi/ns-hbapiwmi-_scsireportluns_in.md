@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReportLuns_IN
-title: "_ScsiReportLuns_IN"
+title: _ScsiReportLuns_IN (hbapiwmi.h)
 description: The ScsiReportLuns_IN structure is used to deliver input parameter data to the ScsiReportLuns WMI method.
 old-location: storage\scsireportluns_in2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hbapiwmi.h
+- Hbapiwmi.h
 api_name:
--	ScsiReportLuns_IN
+- ScsiReportLuns_IN
 product:
 - Windows
 targetos: Windows

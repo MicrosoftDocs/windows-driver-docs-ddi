@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_SDEV_IDENTIFIER
-title: GET_SDEV_IDENTIFIER
+title: GET_SDEV_IDENTIFIER (wdm.h)
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\get_sdev_identifier.htm
 tech.root: kernel
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GET_SDEV_IDENTIFIER callback
+- GET_SDEV_IDENTIFIER callback
 product:
 - Windows
 targetos: Windows

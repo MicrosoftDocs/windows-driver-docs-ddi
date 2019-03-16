@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbolGroup2
-title: IDebugSymbolGroup2
+title: IDebugSymbolGroup2 (dbgeng.h)
 description: IDebugSymbolGroup2 interface
 old-location: debugger\idebugsymbolgroup2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup2
+- IDebugSymbolGroup2
 product:
 - Windows
 targetos: Windows

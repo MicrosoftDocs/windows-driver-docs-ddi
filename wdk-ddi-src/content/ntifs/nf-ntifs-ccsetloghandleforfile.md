@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcSetLogHandleForFile
-title: CcSetLogHandleForFile function
+title: CcSetLogHandleForFile function (ntifs.h)
 description: The CcSetLogHandleForFile routine sets a log handle for a file.
 old-location: ifsk\ccsetloghandleforfile.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcSetLogHandleForFile
+- CcSetLogHandleForFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_DEPTH_STENCIL_DESC
-title: D3D10_DDI_DEPTH_STENCIL_DESC
+title: D3D10_DDI_DEPTH_STENCIL_DESC (d3d10umddi.h)
 description: The D3D10_DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
 old-location: display\d3d10_ddi_depth_stencil_desc.htm
 ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_DEPTH_STENCIL_DESC
+- D3D10_DDI_DEPTH_STENCIL_DESC
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_CAPS
-title: DXGK_BRIGHTNESS_GET_CAPS
+title: DXGK_BRIGHTNESS_GET_CAPS (dispmprt.h)
 description: Retrieves brightness control capabilities of an integrated display panel.
 old-location: display\dxgkddigetbrightnesscaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiGetBrightnessCaps
+- DxgkDdiGetBrightnessCaps
 product:
 - Windows
 targetos: Windows

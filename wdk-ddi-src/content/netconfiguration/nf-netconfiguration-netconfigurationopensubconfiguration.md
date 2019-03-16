@@ -1,6 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationOpenSubConfiguration
-title: NetConfigurationOpenSubConfiguration function
+title: NetConfigurationOpenSubConfiguration function (netconfiguration.h)
 description: Opens a sub configuration of a specified adapter configuration object.
 tech.root: netvista
 ms.assetid: e825d2f8-b8ad-4488-a68e-73d1d6b849bb
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NetConfigurationOpenSubConfiguration
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NetConfigurationOpenSubConfiguration
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

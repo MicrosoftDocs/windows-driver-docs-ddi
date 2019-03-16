@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_ADDRESSED
-title: EVT_UFX_DEVICE_ADDRESSED
+title: EVT_UFX_DEVICE_ADDRESSED (ufxclient.h)
 description: The client driver's implementation to assign an address on the function controller.
 old-location: buses\evt_ufx_device_addressed.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_ADDRESSED
+- PFN_UFX_DEVICE_ADDRESSED
 product:
 - Windows
 targetos: Windows

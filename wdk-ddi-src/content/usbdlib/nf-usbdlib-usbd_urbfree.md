@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_UrbFree
-title: USBD_UrbFree function
+title: USBD_UrbFree function (usbdlib.h)
 description: The USBD_UrbFree routine releases the URB that is allocated by USBD_UrbAllocate, USBD_IsochUrbAllocate, USBD_SelectConfigUrbAllocateAndBuild, or USBD_SelectInterfaceUrbAllocateAndBuild.
 old-location: buses\usbd_urbfree.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_UrbFree
+- USBD_UrbFree
 product:
 - Windows
 targetos: Windows

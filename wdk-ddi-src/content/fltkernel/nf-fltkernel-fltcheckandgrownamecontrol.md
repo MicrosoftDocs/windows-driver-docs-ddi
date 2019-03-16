@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCheckAndGrowNameControl
-title: FltCheckAndGrowNameControl function
+title: FltCheckAndGrowNameControl function (fltkernel.h)
 description: The FltCheckAndGrowNameControl routine checks whether the buffer in a FLT_NAME_CONTROL structure is large enough to hold the specified number of bytes. If not, FltCheckAndGrowNameControl replaces it with a larger system-allocated buffer.
 old-location: ifsk\fltcheckandgrownamecontrol.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCheckAndGrowNameControl
+- FltCheckAndGrowNameControl
 product:
 - Windows
 targetos: Windows

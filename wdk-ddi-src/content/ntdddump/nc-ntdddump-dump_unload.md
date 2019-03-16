@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_UNLOAD
-title: DUMP_UNLOAD
+title: DUMP_UNLOAD (ntdddump.h)
 description: The Dump_Unload callback routine is called when the dump stack is unloaded.
 old-location: storage\dump_unload.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	Dump_Unload
+- Dump_Unload
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetContainingModule
-title: IDebugHostField::GetContainingModule
+title: IDebugHostField::GetContainingModule (dbgmodel.h)
 description: Returns the module which contains this symbol if the symbol has a containing module. 
 ms.assetid: c57c3e8d-1054-4928-aa35-01febde6218e
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostField.GetContainingModule
-product: Windows
+- IDebugHostField.GetContainingModule
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

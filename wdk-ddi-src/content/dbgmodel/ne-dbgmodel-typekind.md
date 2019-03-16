@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.TypeKind
-title: TypeKind
+title: TypeKind (dbgmodel.h)
 description: Defines the kind of a type.
 ms.assetid: 82d1212c-5997-4c81-aa2f-3b390c0b2aaa
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	TypeKind
-product: Windows
+- TypeKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

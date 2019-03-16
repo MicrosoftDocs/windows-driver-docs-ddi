@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAsyncNotificationDetected
-title: StorPortAsyncNotificationDetected function
+title: StorPortAsyncNotificationDetected function (storport.h)
 description: A storage miniport driver calls StorPortAsyncNotificationDetected to notify the Storport driver of a storage device status change event.
 old-location: storage\storportasyncnotificationdetected.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortAsyncNotificationDetected
+- StorPortAsyncNotificationDetected
 product:
 - Windows
 targetos: Windows

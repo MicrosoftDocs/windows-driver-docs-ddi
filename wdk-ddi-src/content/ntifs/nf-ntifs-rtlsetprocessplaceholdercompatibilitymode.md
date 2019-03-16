@@ -1,7 +1,8 @@
 ---
 UID: NF:ntifs.RtlSetProcessPlaceholderCompatibilityMode
-title: RtlSetProcessPlaceholderCompatibilityMode function
-description: The RtlSetProcessPlaceholderCompatibilityMode function returns the placeholder compatibility mode for the current process.
+title: RtlSetProcessPlaceholderCompatibilityMode function (ntifs.h)
+description: RtlSetProcessPlaceholderCompatibilityMode sets the placeholder compatibility mode for the current process.
+tech.root: ifsk
 ms.assetid: afde9bc1-5529-4ddf-8839-853599c832d0
 ms.date: 10/19/2018
 ms.topic: function
@@ -24,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	RtlSetProcessPlaceholderCompatibilityMode
+- RtlSetProcessPlaceholderCompatibilityMode
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---
@@ -41,7 +42,7 @@ targetos: Windows
 
 
 ## -description
-The **RtlSetProcessPlaceholderCompatibilityMode** function returns the placeholder compatibility mode for the current process.
+**RtlSetProcessPlaceholderCompatibilityMode** sets the placeholder compatibility mode for the current process.
 
 ## -parameters
 
@@ -85,5 +86,13 @@ It can be one of the following values:
 </table>
 
 ## -remarks
+When placeholders are exposed, characteristics such as the presence of a reparse point, the sparse bit, and the offline bit are plainly visible through directory enumeration and other types of file information queries. When placeholders are disguised, these details are completely hidden, making the file look like a normal file.
 
+Most Windows applications see exposed placeholders by default. For compatibility reasons, Windows may decide that certain applications see disguised placeholders by default.
 ## -see-also
+
+[RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode)
+
+[RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode)
+
+[RtlSetThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode)

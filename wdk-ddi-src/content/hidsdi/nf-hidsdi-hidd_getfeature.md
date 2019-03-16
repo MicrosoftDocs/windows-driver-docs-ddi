@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetFeature
-title: HidD_GetFeature function
+title: HidD_GetFeature function (hidsdi.h)
 description: The HidD_GetFeature routine returns a feature report from a specified top-level collection.
 old-location: hid\hidd_getfeature.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetFeature
+- HidD_GetFeature
 product:
 - Windows
 targetos: Windows

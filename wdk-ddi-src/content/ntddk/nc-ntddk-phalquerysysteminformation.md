@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.pHalQuerySystemInformation
-title: pHalQuerySystemInformation
+title: pHalQuerySystemInformation (ntddk.h)
 description: 
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	pHalQuerySystemInformation
+- pHalQuerySystemInformation
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

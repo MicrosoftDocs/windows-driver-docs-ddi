@@ -1,6 +1,6 @@
 ---
 UID: NL:dbgeng.DebugBaseEventCallbacksWide
-title: DebugBaseEventCallbacksWide
+title: DebugBaseEventCallbacksWide (dbgeng.h)
 description: The DebugBaseEventCallbacksWide class provides a base implementation of the IDebugEventCallbacksWide interface.
 old-location: debugger\debugbaseeventcallbackswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	DebugBaseEventCallbacksWide
+- DebugBaseEventCallbacksWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdriver.EVT_WDF_DRIVER_UNLOAD
-title: EVT_WDF_DRIVER_UNLOAD
+title: EVT_WDF_DRIVER_UNLOAD (wdfdriver.h)
 description: A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded.
 old-location: wdf\evtdriverunload.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdriver.h
+- Wdfdriver.h
 api_name:
--	EvtDriverUnload
+- EvtDriverUnload
 product:
 - Windows
 targetos: Windows

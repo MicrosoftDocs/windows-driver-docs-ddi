@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostSymbols
-title: IDebugHostSymbols
+title: IDebugHostSymbols (dbgmodel.h)
 description: The symbols interface to the underlying debugger.
 ms.assetid: 9a26c85b-fc46-4a01-864d-c9c2fe51f9b3
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbols
-product: Windows
+- IDebugHostSymbols
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

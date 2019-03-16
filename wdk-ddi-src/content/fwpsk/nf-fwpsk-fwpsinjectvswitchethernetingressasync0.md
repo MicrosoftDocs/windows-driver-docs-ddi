@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectvSwitchEthernetIngressAsync0
-title: FwpsInjectvSwitchEthernetIngressAsync0 function
+title: FwpsInjectvSwitchEthernetIngressAsync0 function (fwpsk.h)
 description: The FwpsInjectvSwitchEthernetIngressAsync0 (was FwpsInjectvSwitchIngressAsync0) function reinjects a previously absorbed virtual switch packet (unmodified) back to the virtual switch ingress data path where it was intercepted.
 old-location: netvista\fwpsinjectvswitchingressasync0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectvSwitchEthernetIngressAsync0
+- FwpsInjectvSwitchEthernetIngressAsync0
 product:
 - Windows
 targetos: Windows

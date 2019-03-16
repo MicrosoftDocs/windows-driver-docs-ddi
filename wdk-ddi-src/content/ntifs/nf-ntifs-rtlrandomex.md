@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlRandomEx
-title: RtlRandomEx function
+title: RtlRandomEx function (ntifs.h)
 description: The RtlRandomEx routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandomex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlRandomEx
+- RtlRandomEx
 product:
 - Windows
 targetos: Windows

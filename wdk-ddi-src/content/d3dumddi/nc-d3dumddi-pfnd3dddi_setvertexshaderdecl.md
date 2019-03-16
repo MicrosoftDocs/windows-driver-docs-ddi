@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVERTEXSHADERDECL
-title: PFND3DDDI_SETVERTEXSHADERDECL
+title: PFND3DDDI_SETVERTEXSHADERDECL (d3dumddi.h)
 description: The SetVertexShaderDecl function sets the vertex shader declaration so that all of the subsequent drawing operations use that declaration.
 old-location: display\setvertexshaderdecl.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetVertexShaderDecl
+- SetVertexShaderDecl
 product:
 - Windows
 targetos: Windows

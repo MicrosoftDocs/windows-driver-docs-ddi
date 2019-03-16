@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_9
-title: KSINTERFACE_STANDARD
+title: KSINTERFACE_STANDARD (ks.h)
 description: 
 old-location: stream\ksinterface_standard.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSINTERFACE_STANDARD
+- KSINTERFACE_STANDARD
 product:
 - Windows
 targetos: Windows

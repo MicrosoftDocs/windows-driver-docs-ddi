@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetW32Bool
-title: ExtRemoteData::GetW32Bool
+title: ExtRemoteData::GetW32Bool (engextcpp.h)
 description: The GetW32Bool method returns a BOOL version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getw32bool.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetW32Bool
+- ExtRemoteData.GetW32Bool
 product:
 - Windows
 targetos: Windows

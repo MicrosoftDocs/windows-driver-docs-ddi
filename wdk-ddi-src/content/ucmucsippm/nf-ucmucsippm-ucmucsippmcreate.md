@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmCreate
-title: UcmUcsiPpmCreate function
+title: UcmUcsiPpmCreate function (ucmucsippm.h)
 description: Creates a Platform Policy Manager (PPM) object.
 ms.assetid: 2b0d12ae-dc1d-45ff-bde5-a589f0272e3e
 ms.date: 09/30/2018
@@ -24,17 +24,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UcmUcsiCxStub.lib
+- UcmUcsiCxStub.lib
 api_name: 
--	UcmUcsiPpmCreate
-product: Windows
+- UcmUcsiPpmCreate
+product:
+- Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
@@ -63,7 +62,7 @@ A pointer to a location that receives a handle to the new PPM object.
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
 
 ## -remarks
-The client driver is expected to call **UcmUcsiPpmCreate** from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware) callback function. 
+The client driver is expected to call **UcmUcsiPpmCreate** from the [EVT_WDF_DEVICE_PREPARE_HARDWARE](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback function. 
 
 The structure passed in _Config_ contains Type-C connector information that is necessary for creating connectors with USB Type-C connector class extension (UcmCx) by using [**UcmConnectorCreate**](https://msdn.microsoft.com/library/windows/hardware/mt187909) and are not obtainable from PPM through UCSI commands such as GetCapability or GetConnectorCapability.
 

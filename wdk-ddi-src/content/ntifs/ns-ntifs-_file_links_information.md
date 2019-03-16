@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LINKS_INFORMATION
-title: "_FILE_LINKS_INFORMATION"
+title: _FILE_LINKS_INFORMATION (ntifs.h)
 description: The FILE_LINKS_INFORMATION structure is used to query NTFS hard links to an existing file.
 old-location: ifsk\file_links_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_LINKS_INFORMATION
+- FILE_LINKS_INFORMATION
 product:
 - Windows
 targetos: Windows

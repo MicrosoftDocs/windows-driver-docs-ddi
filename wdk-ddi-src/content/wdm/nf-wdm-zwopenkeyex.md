@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenKeyEx
-title: ZwOpenKeyEx function
+title: ZwOpenKeyEx function (wdm.h)
 description: The ZwOpenKeyEx routine opens an existing registry key.
 old-location: kernel\zwopenkeyex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwOpenKeyEx
+- ZwOpenKeyEx
 product:
 - Windows
 targetos: Windows

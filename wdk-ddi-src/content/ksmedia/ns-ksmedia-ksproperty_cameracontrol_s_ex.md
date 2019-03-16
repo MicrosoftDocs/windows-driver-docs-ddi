@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_113
-title: KSPROPERTY_CAMERACONTROL_S_EX
+title: KSPROPERTY_CAMERACONTROL_S_EX (ksmedia.h)
 description: Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.
 old-location: stream\ksproperty_cameracontrol_s_ex.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSPROPERTY_CAMERACONTROL_S_EX
+- KSPROPERTY_CAMERACONTROL_S_EX
 product:
 - Windows
 targetos: Windows

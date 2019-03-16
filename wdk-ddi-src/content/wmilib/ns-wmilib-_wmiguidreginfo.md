@@ -1,6 +1,6 @@
 ---
 UID: NS:wmilib._WMIGUIDREGINFO
-title: "_WMIGUIDREGINFO"
+title: _WMIGUIDREGINFO (wmilib.h)
 description: The WMIGUIDREGINFO structure contains registration information for a given data block or event block exposed by a driver that uses the WMI library support routines.
 old-location: kernel\wmiguidreginfo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wmilib.h
+- Wmilib.h
 api_name:
--	WMIGUIDREGINFO
+- WMIGUIDREGINFO
 product:
 - Windows
 targetos: Windows

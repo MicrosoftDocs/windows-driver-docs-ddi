@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.UnloadModule
-title: IDebugEventCallbacksWide::UnloadModule
+title: IDebugEventCallbacksWide::UnloadModule (dbgeng.h)
 description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_unloadmodule.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacksWide.UnloadModule
+- IDebugEventCallbacksWide.UnloadModule
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSOR
-title: PFND3D11_1DDI_CREATEVIDEOPROCESSOR
+title: PFND3D11_1DDI_CREATEVIDEOPROCESSOR (d3d10umddi.h)
 description: Creates a video processor object.
 old-location: display\createvideoprocessor1.htm
 ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CreateVideoProcessor
+- CreateVideoProcessor
 product:
 - Windows
 targetos: Windows

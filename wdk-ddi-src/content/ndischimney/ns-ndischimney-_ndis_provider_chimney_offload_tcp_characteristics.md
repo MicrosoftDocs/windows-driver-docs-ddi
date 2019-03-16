@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
-title: "_NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS"
+title: _NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS (ndischimney.h)
 description: The NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure specifies an offload target's TCP chimney offload-specific entry points.
 old-location: netvista\ndis_provider_chimney_offload_tcp_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
+- NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

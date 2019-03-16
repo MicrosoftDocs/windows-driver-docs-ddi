@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeFlushIoBuffers
-title: KeFlushIoBuffers function
+title: KeFlushIoBuffers function (wdm.h)
 description: The KeFlushIoBuffers routine flushes the memory region described by an MDL from caches of all processors.
 old-location: kernel\keflushiobuffers.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeFlushIoBuffers
+- KeFlushIoBuffers
 product:
 - Windows
 targetos: Windows

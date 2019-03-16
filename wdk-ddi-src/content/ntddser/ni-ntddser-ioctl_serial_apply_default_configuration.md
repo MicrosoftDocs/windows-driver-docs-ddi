@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
-title: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
+title: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION (ntddser.h)
 description: The IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code configures the serial port to use the default hardware settings for the serial controller device.
 old-location: serports\ioctl_serial_apply_default_configuration.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
+- IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
 product:
 - Windows
 targetos: Windows

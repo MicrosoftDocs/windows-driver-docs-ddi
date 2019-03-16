@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCopyUnicodeString
-title: RtlCopyUnicodeString function
+title: RtlCopyUnicodeString function (wdm.h)
 description: The RtlCopyUnicodeString routine copies a source string to a destination string.
 old-location: kernel\rtlcopyunicodestring.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCopyUnicodeString
+- RtlCopyUnicodeString
 product:
 - Windows
 targetos: Windows

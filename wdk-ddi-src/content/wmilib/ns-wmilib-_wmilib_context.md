@@ -1,6 +1,6 @@
 ---
 UID: NS:wmilib._WMILIB_CONTEXT
-title: "_WMILIB_CONTEXT"
+title: _WMILIB_CONTEXT (wmilib.h)
 description: The WMILIB_CONTEXT structure provides registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 old-location: kernel\wmilib_context.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmilib.h
+- wmilib.h
 api_name:
--	WMILIB_CONTEXT
+- WMILIB_CONTEXT
 product:
 - Windows
 targetos: Windows

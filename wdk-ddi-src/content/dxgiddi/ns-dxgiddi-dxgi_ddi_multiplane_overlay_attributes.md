@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
-title: DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
+title: DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES (dxgiddi.h)
 description: Used by the user-mode display driver to specify overlay plane attributes.
 old-location: display\dxgi_ddi_multiplane_overlay_attributes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
+- DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

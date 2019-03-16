@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeResetEvent
-title: KeResetEvent function
+title: KeResetEvent function (wdm.h)
 description: The KeResetEvent routine resets a specified event object to a not-signaled state and returns the previous state of that event object.
 old-location: kernel\keresetevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeResetEvent
+- KeResetEvent
 product:
 - Windows
 targetos: Windows

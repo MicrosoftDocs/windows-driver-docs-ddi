@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE (d3d10umddi.h)
 description: Sets the color space for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamcolorspace.htm
 ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamColorSpace
+- pfnVideoProcessorSetStreamColorSpace
 product:
 - Windows
 targetos: Windows

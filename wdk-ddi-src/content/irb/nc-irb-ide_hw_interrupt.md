@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_HW_INTERRUPT
-title: IDE_HW_INTERRUPT
+title: IDE_HW_INTERRUPT (irb.h)
 description: The IdeHwInterrupt miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected.
 old-location: storage\idehwinterrupt.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IdeHwInterrupt
+- IdeHwInterrupt
 product:
 - Windows
 targetos: Windows

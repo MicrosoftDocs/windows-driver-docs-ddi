@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESUMEHWENGINE
-title: _DXGKARG_RESUMEHWENGINE
+title: _DXGKARG_RESUMEHWENGINE (d3dkmddi.h)
 description: Arguments used to resume the hardware engine.
 ms.assetid: 745bf4ce-87ca-4471-b162-5687380ae09c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_RESUMEHWENGINE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARG_RESUMEHWENGINE
+- _DXGKARG_RESUMEHWENGINE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

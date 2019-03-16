@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_HCD_GET_STATS_1
-title: IOCTL_USB_HCD_GET_STATS_1
+title: IOCTL_USB_HCD_GET_STATS_1 (usbioctl.h)
 description: The IOCTL_USB_HCD_GET_STATS_1 IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_get_stats_1.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_HCD_GET_STATS_1
+- IOCTL_USB_HCD_GET_STATS_1
 product:
 - Windows
 targetos: Windows

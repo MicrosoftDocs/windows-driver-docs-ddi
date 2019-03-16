@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfverifier.WdfGetTriageInfo
-title: WdfGetTriageInfo function
+title: WdfGetTriageInfo function (wdfverifier.h)
 description: The WdfGetTriageInfo method is reserved for internal use only.
 old-location: wdf\wdfgettriageinfo.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfverifier.h
+- Wdfverifier.h
 api_name:
--	WdfGetTriageInfo
+- WdfGetTriageInfo
 product:
 - Windows
 targetos: Windows

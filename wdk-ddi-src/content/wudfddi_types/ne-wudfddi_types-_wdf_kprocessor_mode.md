@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_KPROCESSOR_MODE
-title: "_WDF_KPROCESSOR_MODE"
+title: _WDF_KPROCESSOR_MODE (wudfddi_types.h)
 description: The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute.
 old-location: wdf\wdf_kprocessor_mode.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_KPROCESSOR_MODE
+- WDF_KPROCESSOR_MODE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_CONNECTION_DATA
-title: NDK_FN_GET_CONNECTION_DATA
+title: NDK_FN_GET_CONNECTION_DATA (ndkpi.h)
 description: The NdkGetConnectionData (NDK_FN_GET_CONNECTION_DATA) function gets read limit values and the private data sent by the peer.
 old-location: netvista\ndk_fn_get_connection_data.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkGetConnectionData
+- NdkGetConnectionData
 product:
 - Windows
 targetos: Windows

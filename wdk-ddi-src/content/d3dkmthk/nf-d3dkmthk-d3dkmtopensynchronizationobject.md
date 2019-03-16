@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSynchronizationObject
-title: D3DKMTOpenSynchronizationObject function
+title: D3DKMTOpenSynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTOpenSynchronizationObject function opens a kernel-mode synchronization object.
 old-location: display\d3dkmtopensynchronizationobject.htm
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTOpenSynchronizationObject
+- D3DKMTOpenSynchronizationObject
 product:
 - Windows
 targetos: Windows

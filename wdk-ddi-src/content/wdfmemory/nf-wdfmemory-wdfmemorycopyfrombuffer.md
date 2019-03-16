@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCopyFromBuffer
-title: WdfMemoryCopyFromBuffer function
+title: WdfMemoryCopyFromBuffer function (wdfmemory.h)
 description: The WdfMemoryCopyFromBuffer method copies the contents of a specified source buffer into a specified memory object's buffer.
 old-location: wdf\wdfmemorycopyfrombuffer.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfMemoryCopyFromBuffer
+- WdfMemoryCopyFromBuffer
 product:
 - Windows
 targetos: Windows

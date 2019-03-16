@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._GETENCRYPTIONBLTKEY
-title: "_GETENCRYPTIONBLTKEY"
+title: _GETENCRYPTIONBLTKEY (d3dumddi.h)
 description: The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the GetEncryptionBltKey function retrieves the encryption key.
 old-location: display\d3dddiarg_getencryptionbltkey.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_GETENCRYPTIONBLTKEY
+- D3DDDIARG_GETENCRYPTIONBLTKEY
 product:
 - Windows
 targetos: Windows

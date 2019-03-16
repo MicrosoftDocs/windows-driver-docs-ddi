@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BRIGHTNESS_STATE
-title: IOCTL_PANEL_SET_BRIGHTNESS_STATE
+title: IOCTL_PANEL_SET_BRIGHTNESS_STATE (ntddvdeo.h)
 description: Sets the brightness state for the display panel.
 ms.assetid: fe3220fd-033f-4510-b615-a49607341280
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	IOCTL_PANEL_SET_BRIGHTNESS_STATE
+- IOCTL_PANEL_SET_BRIGHTNESS_STATE
 product: 
 - Windows
 targetos: Windows

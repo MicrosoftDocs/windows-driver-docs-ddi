@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreHelperPS
-title: IPrintCoreHelperPS
+title: IPrintCoreHelperPS (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintCoreHelperPS COM interface.
 old-location: print\iprintcorehelperps_interface.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelperPS
+- IPrintCoreHelperPS
 product:
 - Windows
 targetos: Windows

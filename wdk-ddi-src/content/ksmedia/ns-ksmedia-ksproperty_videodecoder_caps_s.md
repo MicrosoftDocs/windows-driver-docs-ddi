@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_109
-title: KSPROPERTY_VIDEODECODER_CAPS_S
+title: KSPROPERTY_VIDEODECODER_CAPS_S (ksmedia.h)
 description: The KSPROPERTY_VIDEODECODER_CAPS_S structure describes the hardware capabilities of the video decoder device.
 old-location: stream\ksproperty_videodecoder_caps_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEODECODER_CAPS_S
+- KSPROPERTY_VIDEODECODER_CAPS_S
 product:
 - Windows
 targetos: Windows

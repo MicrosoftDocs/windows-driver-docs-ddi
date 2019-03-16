@@ -1,6 +1,6 @@
 ---
 UID: NF:pep_x.PoFxRegisterPlugin
-title: PoFxRegisterPlugin function
+title: PoFxRegisterPlugin function (pep_x.h)
 description: The PoFxRegisterPlugin routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
 old-location: kernel\pofxregisterplugin.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	PoFxRegisterPlugin
+- PoFxRegisterPlugin
 product:
 - Windows
 targetos: Windows

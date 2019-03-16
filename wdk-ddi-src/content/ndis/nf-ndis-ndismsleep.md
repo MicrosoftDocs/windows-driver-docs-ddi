@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMSleep
-title: NdisMSleep function
+title: NdisMSleep function (ndis.h)
 description: The NdisMSleep function delays execution of the caller for a given interval in microseconds.
 old-location: netvista\ndismsleep.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMSleep
+- NdisMSleep
 product:
 - Windows
 targetos: Windows

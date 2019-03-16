@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveUsbInterface
-title: IWDFUsbTargetDevice::RetrieveUsbInterface
+title: IWDFUsbTargetDevice::RetrieveUsbInterface (wudfusb.h)
 description: The RetrieveUsbInterface method retrieves the specified USB interface for a USB device.
 old-location: wdf\iwdfusbtargetdevice_retrieveusbinterface.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.RetrieveUsbInterface
+- IWDFUsbTargetDevice.RetrieveUsbInterface
 product:
 - Windows
 targetos: Windows

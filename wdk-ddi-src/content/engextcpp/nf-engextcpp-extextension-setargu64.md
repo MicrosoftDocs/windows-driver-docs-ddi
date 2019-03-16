@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArgU64
-title: ExtExtension::SetArgU64
+title: ExtExtension::SetArgU64 (engextcpp.h)
 description: The SetArgU64 method sets a named expression argument for the current expression command.
 old-location: debugger\setargu64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.SetArgU64
+- ExtExtension.SetArgU64
 product:
 - Windows
 targetos: Windows

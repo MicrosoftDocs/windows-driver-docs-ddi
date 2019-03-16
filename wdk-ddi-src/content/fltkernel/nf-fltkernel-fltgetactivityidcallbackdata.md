@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetActivityIdCallbackData
-title: FltGetActivityIdCallbackData function
+title: FltGetActivityIdCallbackData function (fltkernel.h)
 description: The FltGetActivityIdCallbackData routine retrieves the current activity ID associated with a request in a minifilter's callback data.
 old-location: ifsk\fltgetactivityidcallbackdata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetActivityIdCallbackData
+- FltGetActivityIdCallbackData
 product:
 - Windows
 targetos: Windows

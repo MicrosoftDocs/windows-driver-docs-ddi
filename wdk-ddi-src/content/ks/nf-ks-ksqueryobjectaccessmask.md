@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsQueryObjectAccessMask
-title: KsQueryObjectAccessMask function
+title: KsQueryObjectAccessMask function (ks.h)
 description: The KsQueryObjectAccessMask function returns the access originally granted to the first client that created a handle on the associated object. Access cannot be changed by duplicating handles.
 old-location: stream\ksqueryobjectaccessmask.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsQueryObjectAccessMask
+- KsQueryObjectAccessMask
 product:
 - Windows
 targetos: Windows

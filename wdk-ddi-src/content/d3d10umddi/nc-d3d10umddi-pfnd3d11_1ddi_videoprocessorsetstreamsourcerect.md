@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT (d3d10umddi.h)
 description: Sets the source rectangle for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamsourcerect.htm
 ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamSourceRect
+- pfnVideoProcessorSetStreamSourceRect
 product:
 - Windows
 targetos: Windows

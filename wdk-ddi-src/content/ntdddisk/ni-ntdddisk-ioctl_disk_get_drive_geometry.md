@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_DRIVE_GEOMETRY
-title: IOCTL_DISK_GET_DRIVE_GEOMETRY
+title: IOCTL_DISK_GET_DRIVE_GEOMETRY (ntdddisk.h)
 description: Returns information about the physical disk's geometry (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).
 old-location: storage\ioctl_disk_get_drive_geometry.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_GET_DRIVE_GEOMETRY
+- IOCTL_DISK_GET_DRIVE_GEOMETRY
 product:
 - Windows
 targetos: Windows

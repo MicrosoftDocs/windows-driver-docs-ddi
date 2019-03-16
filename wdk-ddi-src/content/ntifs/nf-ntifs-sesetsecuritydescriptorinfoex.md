@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeSetSecurityDescriptorInfoEx
-title: SeSetSecurityDescriptorInfoEx function
+title: SeSetSecurityDescriptorInfoEx function (ntifs.h)
 description: The SeSetSecurityDescriptorInfoEx routine modifies an object's security descriptor and specifies whether the object supports automatic inheritance of access control entries (ACE).
 old-location: ifsk\sesetsecuritydescriptorinfoex.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeSetSecurityDescriptorInfoEx
+- SeSetSecurityDescriptorInfoEx
 product:
 - Windows
 targetos: Windows

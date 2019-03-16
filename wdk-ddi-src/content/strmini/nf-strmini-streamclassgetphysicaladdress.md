@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassGetPhysicalAddress
-title: StreamClassGetPhysicalAddress function
+title: StreamClassGetPhysicalAddress function (strmini.h)
 description: The StreamClassGetPhysicalAddress routine translates a virtual memory address to a physical memory address and locks the corresponding physical memory for a DMA operation.
 old-location: stream\streamclassgetphysicaladdress.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassGetPhysicalAddress
+- StreamClassGetPhysicalAddress
 product:
 - Windows
 targetos: Windows

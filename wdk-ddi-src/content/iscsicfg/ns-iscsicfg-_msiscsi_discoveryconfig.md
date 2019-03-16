@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_DiscoveryConfig
-title: "_MSiSCSI_DiscoveryConfig"
+title: _MSiSCSI_DiscoveryConfig (iscsicfg.h)
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsicfg.h
+- iscsicfg.h
 api_name:
--	MSiSCSI_DiscoveryConfig
+- MSiSCSI_DiscoveryConfig
 product:
 - Windows
 targetos: Windows

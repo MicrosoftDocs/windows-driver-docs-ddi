@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Eval
-title: ExtRemoteTyped::Eval
+title: ExtRemoteTyped::Eval (engextcpp.h)
 description: The Eval method returns typed data that is the result of evaluating an expression.
 old-location: debugger\extremotetyped_eval.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.Eval
+- ExtRemoteTyped.Eval
 product:
 - Windows
 targetos: Windows

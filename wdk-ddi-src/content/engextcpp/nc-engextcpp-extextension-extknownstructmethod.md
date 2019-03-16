@@ -1,6 +1,6 @@
 ---
 UID: NC:engextcpp.ExtExtension.ExtKnownStructMethod
-title: ExtExtension::* ExtKnownStructMethod
+title: ExtExtension::* ExtKnownStructMethod (engextcpp.h)
 description: The ExtKnownStructMethod callback method is called by the engine to format an instance of a structure for output on a single line.
 old-location: debugger\extknownstructmethod.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtKnownStructMethod
+- ExtKnownStructMethod
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

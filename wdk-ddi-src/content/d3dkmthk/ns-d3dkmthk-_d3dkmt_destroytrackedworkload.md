@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYTRACKEDWORKLOAD
-title: _D3DKMT_DESTROYTRACKEDWORKLOAD
+title: _D3DKMT_DESTROYTRACKEDWORKLOAD (d3dkmthk.h)
 description: Arguments used to destroy a tracked workload instance.
 ms.assetid: 5f8cab74-d045-4e40-94cc-4c4a308a5b68
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DESTROYTRACKEDWORKLOAD
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DESTROYTRACKEDWORKLOAD
+- _D3DKMT_DESTROYTRACKEDWORKLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

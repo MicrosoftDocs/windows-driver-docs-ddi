@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_IPSEC_OFFLOAD_V2
-title: "_NDIS_IPSEC_OFFLOAD_V2"
+title: _NDIS_IPSEC_OFFLOAD_V2 (ntddndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec) version 2 task offload capabilities in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_ipsec_offload_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_IPSEC_OFFLOAD_V2
+- NDIS_IPSEC_OFFLOAD_V2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForRead
-title: WdfIoTargetFormatRequestForRead function
+title: WdfIoTargetFormatRequestForRead function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForRead method builds a read request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforread.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoTargetFormatRequestForRead
+- WdfIoTargetFormatRequestForRead
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcInitializeAdapterDriver
-title: PcInitializeAdapterDriver function
+title: PcInitializeAdapterDriver function (portcls.h)
 description: The PcInitializeAdapterDriver function binds an adapter driver to the PortCls system driver.
 old-location: audio\pcinitializeadapterdriver.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcInitializeAdapterDriver
+- PcInitializeAdapterDriver
 product:
 - Windows
 targetos: Windows

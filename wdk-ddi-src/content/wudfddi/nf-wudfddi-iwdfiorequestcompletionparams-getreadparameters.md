@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetReadParameters
-title: IWDFIoRequestCompletionParams::GetReadParameters
+title: IWDFIoRequestCompletionParams::GetReadParameters (wudfddi.h)
 description: The GetReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfiorequestcompletionparams_getreadparameters.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequestCompletionParams.GetReadParameters
+- IWDFIoRequestCompletionParams.GetReadParameters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._SILO_DRIVER_CAPABILITIES
-title: "_SILO_DRIVER_CAPABILITIES"
+title: _SILO_DRIVER_CAPABILITIES (ehstorioctl.h)
 description: This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. SILO_DRIVER_CAPABILITIES is included in the system buffer of an IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES request.
 old-location: storage\silo_driver_capabilities.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	SILO_DRIVER_CAPABILITIES
+- SILO_DRIVER_CAPABILITIES
 product:
 - Windows
 targetos: Windows

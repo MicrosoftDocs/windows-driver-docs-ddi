@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateAllocator
-title: KsCreateAllocator function
+title: KsCreateAllocator function (ks.h)
 description: The KsCreateAllocator function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
 old-location: stream\kscreateallocator.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsCreateAllocator
+- KsCreateAllocator
 product:
 - Windows
 targetos: Windows

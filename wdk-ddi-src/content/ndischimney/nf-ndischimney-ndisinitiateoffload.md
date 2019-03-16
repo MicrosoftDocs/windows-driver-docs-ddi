@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisInitiateOffload
-title: NdisInitiateOffload function
+title: NdisInitiateOffload function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisInitiateOffload function to offload TCP chimney state objects.
 old-location: netvista\ndisinitiateoffload.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisInitiateOffload
+- NdisInitiateOffload
 product:
 - Windows
 targetos: Windows

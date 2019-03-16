@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortLockBuffer
-title: VideoPortLockBuffer function
+title: VideoPortLockBuffer function (video.h)
 description: The VideoPortLockBuffer function probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
 old-location: display\videoportlockbuffer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortLockBuffer
+- VideoPortLockBuffer
 product:
 - Windows
 targetos: Windows

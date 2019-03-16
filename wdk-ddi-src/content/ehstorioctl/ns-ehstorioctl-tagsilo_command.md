@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl.tagSILO_COMMAND
-title: tagSILO_COMMAND
+title: tagSILO_COMMAND (ehstorioctl.h)
 description: This structure describes a storage silo driver command.
 old-location: storage\silo_command.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	SILO_COMMAND
+- SILO_COMMAND
 product:
 - Windows
 targetos: Windows

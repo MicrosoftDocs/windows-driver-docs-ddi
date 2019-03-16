@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetPromptText
-title: IDebugControl2::GetPromptText
+title: IDebugControl2::GetPromptText (dbgeng.h)
 description: The GetPromptText method returns the standard prompt text that will be prepended to the formatted output specified in the OutputPrompt and OutputPromptVaList methods.
 old-location: debugger\getprompttext.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetPromptText
--	IDebugControl2.GetPromptText
--	IDebugControl3.GetPromptText
+- IDebugControl.GetPromptText
+- IDebugControl2.GetPromptText
+- IDebugControl3.GetPromptText
 product:
 - Windows
 targetos: Windows

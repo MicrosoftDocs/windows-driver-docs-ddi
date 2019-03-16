@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAttemptProcessing
-title: KsFilterAttemptProcessing function
+title: KsFilterAttemptProcessing function (ks.h)
 description: The KsFilterAttemptProcessing function attempts to initiate processing on Filter.
 old-location: stream\ksfilterattemptprocessing.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterAttemptProcessing
+- KsFilterAttemptProcessing
 product:
 - Windows
 targetos: Windows

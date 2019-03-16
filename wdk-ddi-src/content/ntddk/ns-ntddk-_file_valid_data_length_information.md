@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_VALID_DATA_LENGTH_INFORMATION
-title: "_FILE_VALID_DATA_LENGTH_INFORMATION"
+title: _FILE_VALID_DATA_LENGTH_INFORMATION (ntddk.h)
 description: The FILE_VALID_DATA_LENGTH_INFORMATION structure is used as an argument to ZwSetInformationFile.
 old-location: kernel\file_valid_data_length_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_VALID_DATA_LENGTH_INFORMATION
+- FILE_VALID_DATA_LENGTH_INFORMATION
 product:
 - Windows
 targetos: Windows

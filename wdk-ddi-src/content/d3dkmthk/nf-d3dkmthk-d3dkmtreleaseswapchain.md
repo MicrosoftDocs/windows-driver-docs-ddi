@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseSwapChain
-title: D3DKMTReleaseSwapChain function
+title: D3DKMTReleaseSwapChain function (d3dkmthk.h)
 description: Releases swap chain resources.
 ms.assetid: ef754b92-7dcb-42a6-9544-f01b709d0065
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTReleaseSwapChain
+- D3DKMTReleaseSwapChain
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

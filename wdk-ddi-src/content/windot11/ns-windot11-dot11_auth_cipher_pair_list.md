@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_AUTH_CIPHER_PAIR_LIST
-title: DOT11_AUTH_CIPHER_PAIR_LIST
+title: DOT11_AUTH_CIPHER_PAIR_LIST (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_auth_cipher_pair_list.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_AUTH_CIPHER_PAIR_LIST
+- DOT11_AUTH_CIPHER_PAIR_LIST
 product:
 - Windows
 targetos: Windows

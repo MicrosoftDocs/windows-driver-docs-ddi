@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCompleteClassify0
-title: FwpsCompleteClassify0 function
+title: FwpsCompleteClassify0 function (fwpsk.h)
 description: A callout driver calls FwpsCompleteClassify0 to asynchronously complete a pended classify request.
 old-location: netvista\fwpscompleteclassify0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsCompleteClassify0
+- FwpsCompleteClassify0
 product:
 - Windows
 targetos: Windows

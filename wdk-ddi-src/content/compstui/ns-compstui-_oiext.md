@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OIEXT
-title: "_OIEXT"
+title: _OIEXT (compstui.h)
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	OIEXT
+- OIEXT
 product:
 - Windows
 targetos: Windows

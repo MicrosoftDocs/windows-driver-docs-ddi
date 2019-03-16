@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
-title: IPrintAsyncCookie::FinishAsyncCall
+title: IPrintAsyncCookie::FinishAsyncCall (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintAsyncCookie.FinishAsyncCall
+- IPrintAsyncCookie.FinishAsyncCall
 product:
 - Windows
 targetos: Windows

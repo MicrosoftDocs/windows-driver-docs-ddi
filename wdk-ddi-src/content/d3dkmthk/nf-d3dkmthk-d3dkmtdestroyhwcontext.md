@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyHwContext
-title: D3DKMTDestroyHwContext function
+title: D3DKMTDestroyHwContext function (d3dkmthk.h)
 description: Used to destroy a hardware context.
 old-location: display\d3dkmtdestroyhwcontext.htm
 ms.assetid: 832CA7CA-40B3-4D6D-B640-9838B479EC76
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTDestroyHwContext
+- D3DKMTDestroyHwContext
 product:
 - Windows
 targetos: Windows

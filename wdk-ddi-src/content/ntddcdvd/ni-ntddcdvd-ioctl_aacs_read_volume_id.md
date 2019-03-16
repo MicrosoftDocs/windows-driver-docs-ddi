@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_VOLUME_ID
-title: IOCTL_AACS_READ_VOLUME_ID
+title: IOCTL_AACS_READ_VOLUME_ID (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS)-specific volume identifier.
 old-location: storage\ioctl_aacs_read_volume_id.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_READ_VOLUME_ID
+- IOCTL_AACS_READ_VOLUME_ID
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FUNCTION
-title: "_AVCSTRM_FUNCTION"
+title: _AVCSTRM_FUNCTION (avcstrm.h)
 description: The AVCSTRM_FUNCTION enumeration defines the functionality exposed by the avcstrm.sys driver.
 old-location: stream\avcstrm_function.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVCSTRM_FUNCTION
+- AVCSTRM_FUNCTION
 product:
 - Windows
 targetos: Windows

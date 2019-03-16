@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiPlayPageEMF
-title: GdiPlayPageEMF function
+title: GdiPlayPageEMF function (winppi.h)
 description: The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.
 old-location: print\gdiplaypageemf.htm
 tech.root: print
@@ -26,16 +26,16 @@ req.lib: Gdi32.Lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
--	GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
--	GdiPlayPageEMF
+- GdiPlayPageEMF
 product:
 - Windows
 targetos: Windows

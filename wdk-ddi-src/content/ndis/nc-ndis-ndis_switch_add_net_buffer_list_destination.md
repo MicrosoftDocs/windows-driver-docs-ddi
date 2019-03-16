@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION
-title: NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION
+title: NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION (ndis.h)
 description: The AddNetBufferListDestination function adds a single destination port for a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\AddNetBufferListDestination.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	AddNetBufferListDestination
+- AddNetBufferListDestination
 product:
 - Windows
 targetos: Windows

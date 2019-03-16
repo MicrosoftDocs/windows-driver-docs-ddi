@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
-title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
+title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT (d3d10umddi.h)
 description: Convenience indices for arrays of per component histogram information.
 ms.assetid: 2c109732-d1ee-4b19-884c-17f75e7e3823
 ms.date: 10/19/2018
@@ -17,14 +17,14 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 topic_type:
--	apiref
--	kbSyntax
+- apiref
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
+- D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 product: 
 - Windows
 targetos: Windows

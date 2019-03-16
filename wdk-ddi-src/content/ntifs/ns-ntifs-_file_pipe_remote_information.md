@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_REMOTE_INFORMATION
-title: "_FILE_PIPE_REMOTE_INFORMATION"
+title: _FILE_PIPE_REMOTE_INFORMATION (ntifs.h)
 description: The FILE_PIPE_REMOTE_INFORMATION structure contains information about the remote end of a named pipe.
 old-location: ifsk\file_pipe_remote_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_PIPE_REMOTE_INFORMATION
+- FILE_PIPE_REMOTE_INFORMATION
 product:
 - Windows
 targetos: Windows

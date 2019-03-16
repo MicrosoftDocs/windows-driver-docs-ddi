@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_PROCESS_SERVICE_REQUEST
-title: HW_PROCESS_SERVICE_REQUEST
+title: HW_PROCESS_SERVICE_REQUEST (storport.h)
 description: The HwStorProcessServiceRequest callback routine receives the device control IRP that contains the IOCTL_MINIPORT_PROCESS_SERVICE_IRP request when a caller, such as a user-mode application or kernel-mode driver, requires a &#0034;reverse callback&#0034; operation.
 old-location: storage\hwstorprocessservicerequest.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorProcessServiceRequest
+- HwStorProcessServiceRequest
 product:
 - Windows
 targetos: Windows

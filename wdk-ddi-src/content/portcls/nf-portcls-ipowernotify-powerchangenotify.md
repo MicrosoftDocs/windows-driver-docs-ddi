@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPowerNotify.PowerChangeNotify
-title: IPowerNotify::PowerChangeNotify
+title: IPowerNotify::PowerChangeNotify (portcls.h)
 description: The PowerChangeNotify method notifies the miniport driver of changes in the power state.
 old-location: audio\ipowernotify_powerchangenotify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPowerNotify.PowerChangeNotify
+- IPowerNotify.PowerChangeNotify
 product:
 - Windows
 targetos: Windows

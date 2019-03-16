@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReadCapacity_OUT
-title: "_ScsiReadCapacity_OUT"
+title: _ScsiReadCapacity_OUT (iscsiop.h)
 description: The ScsiReadCapacity_OUT structure holds the output data for the ScsiReadCapacity method.
 old-location: storage\scsireadcapacity_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ScsiReadCapacity_OUT
+- ScsiReadCapacity_OUT
 product:
 - Windows
 targetos: Windows

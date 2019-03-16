@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._PingIPAddress_IN
-title: "_PingIPAddress_IN"
+title: _PingIPAddress_IN (iscsimgt.h)
 description: The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
 old-location: storage\pingipaddress_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	PingIPAddress_IN
+- PingIPAddress_IN
 product:
 - Windows
 targetos: Windows

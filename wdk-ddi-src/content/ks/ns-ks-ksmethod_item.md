@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_69
-title: KSMETHOD_ITEM
+title: KSMETHOD_ITEM (ks.h)
 description: The KSMETHOD_ITEM structure describes a single method within a method set.
 old-location: stream\ksmethod_item.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSMETHOD_ITEM
+- KSMETHOD_ITEM
 product:
 - Windows
 targetos: Windows

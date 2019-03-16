@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyFromMemory
-title: IWDFMemory::CopyFromMemory
+title: IWDFMemory::CopyFromMemory (wudfddi.h)
 description: The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 old-location: wdf\iwdfmemory_copyfrommemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFMemory.CopyFromMemory
+- IWDFMemory.CopyFromMemory
 product:
 - Windows
 targetos: Windows

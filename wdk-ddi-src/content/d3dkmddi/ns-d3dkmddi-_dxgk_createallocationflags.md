@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEALLOCATIONFLAGS
-title: "_DXGK_CREATEALLOCATIONFLAGS"
+title: _DXGK_CREATEALLOCATIONFLAGS (d3dkmddi.h)
 description: The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 old-location: display\dxgk_createallocationflags.htm
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CREATEALLOCATIONFLAGS
+- DXGK_CREATEALLOCATIONFLAGS
 product:
 - Windows
 targetos: Windows

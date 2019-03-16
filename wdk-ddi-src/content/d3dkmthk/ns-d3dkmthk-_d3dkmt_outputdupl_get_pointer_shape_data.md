@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
-title: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+title: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA (d3dkmthk.h)
 description: Get pointer shape data.
 ms.assetid: 18d53057-6f91-407e-bd43-31711e645987
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
+- _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

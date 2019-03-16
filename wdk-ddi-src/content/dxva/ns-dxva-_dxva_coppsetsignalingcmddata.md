@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSetSignalingCmdData
-title: "_DXVA_COPPSetSignalingCmdData"
+title: _DXVA_COPPSetSignalingCmdData (dxva.h)
 description: The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 old-location: display\dxva_coppsetsignalingcmddata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_COPPSetSignalingCmdData
+- DXVA_COPPSetSignalingCmdData
 product:
 - Windows
 targetos: Windows

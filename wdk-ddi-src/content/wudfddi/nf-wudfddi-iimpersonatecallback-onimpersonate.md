@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IImpersonateCallback.OnImpersonate
-title: IImpersonateCallback::OnImpersonate
+title: IImpersonateCallback::OnImpersonate (wudfddi.h)
 description: The OnImpersonate method handles impersonation.
 old-location: wdf\iimpersonatecallback_onimpersonate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IImpersonateCallback.OnImpersonate
+- IImpersonateCallback.OnImpersonate
 product:
 - Windows
 targetos: Windows

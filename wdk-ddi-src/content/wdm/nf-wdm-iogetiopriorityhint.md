@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetIoPriorityHint
-title: IoGetIoPriorityHint function
+title: IoGetIoPriorityHint function (wdm.h)
 description: The IoGetIoPriorityHint routine gets the priority hint value from an IRP.
 old-location: kernel\iogetiopriorityhint.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetIoPriorityHint
+- IoGetIoPriorityHint
 product:
 - Windows
 targetos: Windows

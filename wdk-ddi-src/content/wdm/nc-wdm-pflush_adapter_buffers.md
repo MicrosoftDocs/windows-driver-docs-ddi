@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFLUSH_ADAPTER_BUFFERS
-title: PFLUSH_ADAPTER_BUFFERS
+title: PFLUSH_ADAPTER_BUFFERS (wdm.h)
 description: The FlushAdapterBuffers routine flushes any data remaining in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer operation.
 old-location: kernel\flushadapterbuffers.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	FlushAdapterBuffers
+- FlushAdapterBuffers
 product:
 - Windows
 targetos: Windows

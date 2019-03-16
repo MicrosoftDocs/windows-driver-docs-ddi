@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_RX_FLUSH_CONFIRM
-title: NDIS_WDI_RX_FLUSH_CONFIRM
+title: NDIS_WDI_RX_FLUSH_CONFIRM (dot11wdi.h)
 description: The NdisWdiRxFlushConfirm callback function indicates completion of a MiniportWdiRxFlush request. The RxEngine must complete the discard of all RX data frames that match the flush request prior to issuing NdisWdiRxFlushConfirm.
 old-location: netvista\ndiswdirxflushconfirm.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiRxFlushConfirm
+- NdisWdiRxFlushConfirm
 product:
 - Windows
 targetos: Windows

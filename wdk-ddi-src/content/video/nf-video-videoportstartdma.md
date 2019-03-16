@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortStartDma
-title: VideoPortStartDma function
+title: VideoPortStartDma function (video.h)
 description: The VideoPortStartDma function prepares the system for a DMA operation.
 old-location: display\videoportstartdma.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortStartDma
+- VideoPortStartDma
 product:
 - Windows
 targetos: Windows

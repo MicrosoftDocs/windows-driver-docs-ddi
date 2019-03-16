@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS
-title: PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS
+title: PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS (d3d10umddi.h)
 description: The pfnRelocateDeviceFuncs callback function specifies the device functions table.
 old-location: display\pfnd3dwddm2_2ddi_relocatedevicefuncs.htm
 ms.assetid: EAABE65C-3893-4B4C-BB7E-A02F91F869BE
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnRelocateDeviceFuncs
+- pfnRelocateDeviceFuncs
 product:
 - Windows
 targetos: Windows

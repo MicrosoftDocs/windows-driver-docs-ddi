@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoQueueWorkItemEx
-title: IoQueueWorkItemEx function
+title: IoQueueWorkItemEx function (wdm.h)
 description: The IoQueueWorkItemEx routine associates a WorkItemEx routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitemex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoQueueWorkItemEx
+- IoQueueWorkItemEx
 product:
 - Windows
 targetos: Windows

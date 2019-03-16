@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoAcquireVpbSpinLock
-title: IoAcquireVpbSpinLock function
+title: IoAcquireVpbSpinLock function (ntifs.h)
 description: The IoAcquireVpbSpinLock routine acquires the Volume Parameter Block (VPB) spin lock.
 old-location: ifsk\ioacquirevpbspinlock.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAcquireVpbSpinLock
+- IoAcquireVpbSpinLock
 product:
 - Windows
 targetos: Windows

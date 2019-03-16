@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_SQ_INFO
-title: _NVME_RESERVED_SQ_INFO
+title: _NVME_RESERVED_SQ_INFO (ntddstor.h)
 description: 
 ms.assetid: 2c3f58f1-7bb2-4a32-b4da-b23eeae3fb86
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_SQ_INFO, *PNVME_RESERVED_SQ_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_SQ_INFO
+- _NVME_RESERVED_SQ_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

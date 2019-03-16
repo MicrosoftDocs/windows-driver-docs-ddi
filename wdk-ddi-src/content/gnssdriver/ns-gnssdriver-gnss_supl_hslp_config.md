@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_39
-title: GNSS_SUPL_HSLP_CONFIG
+title: GNSS_SUPL_HSLP_CONFIG (gnssdriver.h)
 description: This structure contains SUPL H-SLP configuration information.
 old-location: gnss\gnss_supl_hslp_config.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_SUPL_HSLP_CONFIG
+- GNSS_SUPL_HSLP_CONFIG
 product:
 - Windows
 targetos: Windows

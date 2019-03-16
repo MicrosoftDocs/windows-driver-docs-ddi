@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETVIEWPORTS
-title: PFND3D10DDI_SETVIEWPORTS
+title: PFND3D10DDI_SETVIEWPORTS (d3d10umddi.h)
 description: The SetViewports function sets viewports.
 old-location: display\setviewports.htm
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	SetViewports
+- SetViewports
 product:
 - Windows
 targetos: Windows

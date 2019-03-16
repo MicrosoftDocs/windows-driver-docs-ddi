@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_TYPE
-title: "_WDF_REQUEST_TYPE"
+title: _WDF_REQUEST_TYPE (wdfrequest.h)
 description: The WDF_REQUEST_TYPE enumeration type identifies types of requests that a framework request object might contain.
 old-location: wdf\wdf_request_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_TYPE
+- WDF_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

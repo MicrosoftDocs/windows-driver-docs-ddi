@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._DEBUG_TRANSPORT_DATA
-title: _DEBUG_TRANSPORT_DATA
+title: _DEBUG_TRANSPORT_DATA (ntddk.h)
 description: Describes debug-transport specific data for use by the transport.
 ms.assetid: 6a091719-3ec5-41e4-be56-b93112daef19
 ms.date: 09/30/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_DEBUG_TRANSPORT_DATA
-product: Windows
+- _DEBUG_TRANSPORT_DATA
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_FIPS_MODE
-title: "_WDI_FIPS_MODE"
+title: _WDI_FIPS_MODE (wditypes.h)
 description: The WDI_FIPS_MODE enumeration defines values that specify if FIPS mode is enabled or not.
 old-location: netvista\wdi_fips_mode.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_FIPS_MODE
+- WDI_FIPS_MODE
 product:
 - Windows
 targetos: Windows

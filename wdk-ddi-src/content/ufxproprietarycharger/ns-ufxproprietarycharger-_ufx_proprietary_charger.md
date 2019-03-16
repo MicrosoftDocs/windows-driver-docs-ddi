@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxproprietarycharger._UFX_PROPRIETARY_CHARGER
-title: "_UFX_PROPRIETARY_CHARGER"
+title: _UFX_PROPRIETARY_CHARGER (ufxproprietarycharger.h)
 description: Describes the proprietary charger's device power requirements.
 old-location: buses\ufx_proprietary_charger.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxproprietarycharger.h
+- ufxproprietarycharger.h
 api_name:
--	UFX_PROPRIETARY_CHARGER
+- UFX_PROPRIETARY_CHARGER
 product:
 - Windows
 targetos: Windows

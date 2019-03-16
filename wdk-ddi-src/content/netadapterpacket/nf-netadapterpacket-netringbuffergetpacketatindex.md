@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetRingBufferGetPacketAtIndex
-title: NetRingBufferGetPacketAtIndex function
+title: NetRingBufferGetPacketAtIndex function (netadapterpacket.h)
 description: Returns a pointer to the net packet at the specified index value of the packet ring buffer.
 tech.root: netvista
 ms.assetid: 26c6887c-0805-4850-9e53-5cf22d377b3e
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NetRingBufferGetPacketAtIndex
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NetRingBufferGetPacketAtIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

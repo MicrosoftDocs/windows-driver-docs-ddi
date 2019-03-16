@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
-title: IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
+title: IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS (usbfnioctl.h)
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_deactivate_usb_bus.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
+- IOCTL_INTERNAL_USBFN_DEACTIVATE_USB_BUS
 product:
 - Windows
 targetos: Windows

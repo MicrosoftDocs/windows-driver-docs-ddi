@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxFsdDispatch
-title: RxFsdDispatch function
+title: RxFsdDispatch function (mrx.h)
 description: RxFsdDispatch implements the file system driver (FSD) dispatch for RDBSS to process an I/O request packet (IRP).
 old-location: ifsk\rxfsddispatch.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxFsdDispatch
+- RxFsdDispatch
 product:
 - Windows
 targetos: Windows

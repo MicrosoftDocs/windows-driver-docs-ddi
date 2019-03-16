@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue2.GetPrinterQueueView
-title: IPrinterQueue2::GetPrinterQueueView
+title: IPrinterQueue2::GetPrinterQueueView (printerextension.h)
 description: Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.
 old-location: print\iprinterqueue2_getprinterqueueview.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueue2.GetPrinterQueueView
+- IPrinterQueue2.GetPrinterQueueView
 product:
 - Windows
 targetos: Windows

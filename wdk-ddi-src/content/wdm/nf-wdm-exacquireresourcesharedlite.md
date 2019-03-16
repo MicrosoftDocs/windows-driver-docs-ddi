@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireResourceSharedLite
-title: ExAcquireResourceSharedLite function
+title: ExAcquireResourceSharedLite function (wdm.h)
 description: The ExAcquireResourceSharedLite routine acquires the given resource for shared access by the calling thread.
 old-location: kernel\exacquireresourcesharedlite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAcquireResourceSharedLite
+- ExAcquireResourceSharedLite
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_ATTACH_DEVICE
-title: IOMMU_DOMAIN_ATTACH_DEVICE
+title: IOMMU_DOMAIN_ATTACH_DEVICE (wdm.h)
 description: Attaches a device to an existing domain.
 ms.assetid: 9d1b51df-e599-49e4-8465-ad283e60027a
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_DOMAIN_ATTACH_DEVICE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_DOMAIN_ATTACH_DEVICE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

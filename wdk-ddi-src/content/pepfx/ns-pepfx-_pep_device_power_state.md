@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_DEVICE_POWER_STATE
-title: "_PEP_DEVICE_POWER_STATE"
+title: _PEP_DEVICE_POWER_STATE (pepfx.h)
 description: The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
 old-location: kernel\pep_device_power_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEVICE_POWER_STATE
+- PEP_DEVICE_POWER_STATE
 product:
 - Windows
 targetos: Windows

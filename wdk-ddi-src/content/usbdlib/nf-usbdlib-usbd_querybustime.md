@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_QueryBusTime
-title: USBD_QueryBusTime function
+title: USBD_QueryBusTime function (usbdlib.h)
 description: The USBD_QueryBusTime routine has been deprecated in Windows XP and later operating systems. Do not use.
 old-location: buses\usbd_querybustime.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_QueryBusTime
+- USBD_QueryBusTime
 product:
 - Windows
 targetos: Windows

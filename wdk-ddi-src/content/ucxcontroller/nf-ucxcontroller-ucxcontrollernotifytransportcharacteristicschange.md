@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerNotifyTransportCharacteristicsChange
-title: UcxControllerNotifyTransportCharacteristicsChange function
+title: UcxControllerNotifyTransportCharacteristicsChange function (ucxcontroller.h)
 description: Notifies UCX about a new port change event from host controller.
 old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ucxstubs.lib
--	Ucxstubs.dll
+- Ucxstubs.lib
+- Ucxstubs.dll
 api_name:
--	UcxControllerNotifyTransportCharacteristicsChange
+- UcxControllerNotifyTransportCharacteristicsChange
 product:
 - Windows
 targetos: Windows

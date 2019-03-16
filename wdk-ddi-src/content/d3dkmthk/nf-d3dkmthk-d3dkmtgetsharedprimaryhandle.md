@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetSharedPrimaryHandle
-title: D3DKMTGetSharedPrimaryHandle function
+title: D3DKMTGetSharedPrimaryHandle function (d3dkmthk.h)
 description: The D3DKMTGetSharedPrimaryHandle function retrieves the global shared handle for the primary surface.
 old-location: display\d3dkmtgetsharedprimaryhandle.htm
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetSharedPrimaryHandle
+- D3DKMTGetSharedPrimaryHandle
 product:
 - Windows
 targetos: Windows

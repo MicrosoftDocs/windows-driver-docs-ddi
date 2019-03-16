@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetInterruptTimeout
-title: IDebugControl3::SetInterruptTimeout
+title: IDebugControl3::SetInterruptTimeout (dbgeng.h)
 description: The SetInterruptTimeout method sets the number of seconds that the debugger engine should wait when requesting a break into the debugger.
 old-location: debugger\setinterrupttimeout.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetInterruptTimeout
--	IDebugControl2.SetInterruptTimeout
--	IDebugControl3.SetInterruptTimeout
+- IDebugControl.SetInterruptTimeout
+- IDebugControl2.SetInterruptTimeout
+- IDebugControl3.SetInterruptTimeout
 product:
 - Windows
 targetos: Windows

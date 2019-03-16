@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeGuidName
-title: FltGetVolumeGuidName function
+title: FltGetVolumeGuidName function (fltkernel.h)
 description: The FltGetVolumeGuidName routine returns the volume name for a given volume, in volume globally unique identifier (GUID) format.
 old-location: ifsk\fltgetvolumeguidname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetVolumeGuidName
+- FltGetVolumeGuidName
 product:
 - Windows
 targetos: Windows

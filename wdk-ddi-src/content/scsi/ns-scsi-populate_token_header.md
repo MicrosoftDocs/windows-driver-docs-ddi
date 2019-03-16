@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_16
-title: POPULATE_TOKEN_HEADER
+title: POPULATE_TOKEN_HEADER (scsi.h)
 description: A populate token parameter list starts with a POPULATE_TOKEN_HEADER structure. This is the header for the parameters in a command data block (CDB) of the POPULATE TOKEN command.
 old-location: storage\populate_token_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	POPULATE_TOKEN_HEADER
+- POPULATE_TOKEN_HEADER
 product:
 - Windows
 targetos: Windows

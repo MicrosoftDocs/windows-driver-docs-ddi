@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.ValidateAsync
-title: IPrintSchemaTicket::ValidateAsync
+title: IPrintSchemaTicket::ValidateAsync (printerextension.h)
 description: Gets an asynchronous PrintTicket validation operation context.
 old-location: print\iprintschematicket_validateasync.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	printerextension.h
+- printerextension.h
 api_name:
--	IPrintSchemaTicket.ValidateAsync
+- IPrintSchemaTicket.ValidateAsync
 product:
 - Windows
 targetos: Windows

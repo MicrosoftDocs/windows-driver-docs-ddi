@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCheckShareAccess
-title: IoCheckShareAccess function
+title: IoCheckShareAccess function (wdm.h)
 description: The IoCheckShareAccess routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.
 old-location: kernel\iocheckshareaccess.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCheckShareAccess
+- IoCheckShareAccess
 product:
 - Windows
 targetos: Windows

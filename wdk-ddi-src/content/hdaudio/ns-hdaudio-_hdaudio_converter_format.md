@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CONVERTER_FORMAT
-title: "_HDAUDIO_CONVERTER_FORMAT"
+title: _HDAUDIO_CONVERTER_FORMAT (hdaudio.h)
 description: The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream format for an input or output converter, as defined in the Intel High Definition Audio Specification (see the Intel HD Audio website).
 old-location: audio\hdaudio_converter_format.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_CONVERTER_FORMAT
+- HDAUDIO_CONVERTER_FORMAT
 product:
 - Windows
 targetos: Windows

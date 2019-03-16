@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._NDIS_PARAMETER_TYPE
-title: "_NDIS_PARAMETER_TYPE"
+title: _NDIS_PARAMETER_TYPE (ndis.h)
 description: The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.
 old-location: netvista\ndis_parameter_type.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_PARAMETER_TYPE
+- NDIS_PARAMETER_TYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ADDDIRTYBOX
-title: "_D3DHAL_DP2ADDDIRTYBOX"
+title: _D3DHAL_DP2ADDDIRTYBOX (d3dhal.h)
 description: DirectX 8.1 and later versions only. D3DHAL_DP2ADDDIRTYBOX is used to specify that a portion of a 3D resource--a volume texture--was dirtied in system memory. Therefore, this volume must be reloaded into video memory before being used.
 old-location: display\d3dhal_dp2adddirtybox.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2ADDDIRTYBOX
+- D3DHAL_DP2ADDDIRTYBOX
 product:
 - Windows
 targetos: Windows

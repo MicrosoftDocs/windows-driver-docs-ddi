@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetSystemIdsByIndex
-title: IDebugSystemObjects3::GetSystemIdsByIndex
+title: IDebugSystemObjects3::GetSystemIdsByIndex (dbgeng.h)
 description: The GetSystemIdsByIndex method returns the engine target IDs for the specified targets.
 old-location: debugger\getsystemidsbyindex.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetSystemIdsByIndex
--	IDebugSystemObjects4.GetSystemIdsByIndex
+- IDebugSystemObjects3.GetSystemIdsByIndex
+- IDebugSystemObjects4.GetSystemIdsByIndex
 product:
 - Windows
 targetos: Windows

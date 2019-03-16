@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsNetBufferListRemoveContext0
-title: FwpsNetBufferListRemoveContext0 function
+title: FwpsNetBufferListRemoveContext0 function (fwpsk.h)
 description: The FwpsNetBufferListRemoveContext0 function removes the context associated with a network buffer list.Note  FwpsNetBufferListRemoveContext0 is a specific version of FwpsNetBufferListRemoveContext.
 old-location: netvista\fwpsnetbufferlistremovecontext0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsNetBufferListRemoveContext0
+- FwpsNetBufferListRemoveContext0
 product:
 - Windows
 targetos: Windows

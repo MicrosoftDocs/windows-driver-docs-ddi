@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_STACK_FRAME_EX
-title: "_DEBUG_STACK_FRAME_EX"
+title: _DEBUG_STACK_FRAME_EX (dbgeng.h)
 description: The DEBUG_STACK_FRAME_EX structure describes a stack frame and the address of the current instruction for the stack frame.
 old-location: debugger\debug_stack_frame_ex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_STACK_FRAME_EX
+- DEBUG_STACK_FRAME_EX
 product:
 - Windows
 targetos: Windows

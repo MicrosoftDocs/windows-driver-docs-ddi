@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND_BACKLOG_EVENT
-title: PFN_WSK_SEND_BACKLOG_EVENT
+title: PFN_WSK_SEND_BACKLOG_EVENT (wsk.h)
 description: The WskSendBacklogEvent event callback function notifies a WSK application when the ideal send backlog size changes for a connection-oriented socket.
 old-location: netvista\wsksendbacklogevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskSendBacklogEvent
+- WskSendBacklogEvent
 product:
 - Windows
 targetos: Windows

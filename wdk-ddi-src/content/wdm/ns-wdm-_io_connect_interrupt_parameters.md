@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_CONNECT_INTERRUPT_PARAMETERS
-title: "_IO_CONNECT_INTERRUPT_PARAMETERS"
+title: _IO_CONNECT_INTERRUPT_PARAMETERS (wdm.h)
 description: The IO_CONNECT_INTERRUPT_PARAMETERS structure contains the parameters that a driver supplies to the IoConnectInterruptEx routine to register an interrupt service routine (ISR).
 old-location: kernel\io_connect_interrupt_parameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_CONNECT_INTERRUPT_PARAMETERS
+- IO_CONNECT_INTERRUPT_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MODE_ROTATION
-title: DXGI_DDI_MODE_ROTATION
+title: DXGI_DDI_MODE_ROTATION (dxgiddi.h)
 description: The DXGI_DDI_MODE_ROTATION enumeration type contains values that identify the orientation of the display.
 old-location: display\dxgi_ddi_mode_rotation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_MODE_ROTATION
+- DXGI_DDI_MODE_ROTATION
 product:
 - Windows
 targetos: Windows

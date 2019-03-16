@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_18
-title: RECEIVE_TOKEN_INFORMATION_HEADER
+title: RECEIVE_TOKEN_INFORMATION_HEADER (scsi.h)
 description: The RECEIVE_TOKEN_INFORMATION_HEADER structure contains information returned as status from an offload data transfer operation.
 old-location: storage\receive_token_information_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	RECEIVE_TOKEN_INFORMATION_HEADER
+- RECEIVE_TOKEN_INFORMATION_HEADER
 product:
 - Windows
 targetos: Windows

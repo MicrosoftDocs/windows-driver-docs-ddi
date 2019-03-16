@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeviceGetBusData
-title: KsDeviceGetBusData function
+title: KsDeviceGetBusData function (ks.h)
 description: The KsDeviceGetBusData function reads data from the bus where the given AVStream device resides.
 old-location: stream\ksdevicegetbusdata.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDeviceGetBusData
+- KsDeviceGetBusData
 product:
 - Windows
 targetos: Windows

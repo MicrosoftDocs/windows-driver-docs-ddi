@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KMESSAGE_SERVICE_ROUTINE
-title: KMESSAGE_SERVICE_ROUTINE
+title: KMESSAGE_SERVICE_ROUTINE (wdm.h)
 description: An InterruptMessageService routine services a message-signaled interrupt.
 old-location: kernel\interruptmessageservice.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	InterruptMessageService
+- InterruptMessageService
 product:
 - Windows
 targetos: Windows

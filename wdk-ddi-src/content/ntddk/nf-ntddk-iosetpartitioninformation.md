@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetPartitionInformation
-title: IoSetPartitionInformation function
+title: IoSetPartitionInformation function (ntddk.h)
 description: The IoSetPartitionInformation routine is obsolete and is provided only to support existing drivers.
 old-location: storage\iosetpartitioninformation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetPartitionInformation
+- IoSetPartitionInformation
 product:
 - Windows
 targetos: Windows

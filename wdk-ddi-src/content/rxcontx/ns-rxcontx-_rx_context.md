@@ -1,6 +1,6 @@
 ---
 UID: NS:rxcontx._RX_CONTEXT
-title: "_RX_CONTEXT"
+title: _RX_CONTEXT (rxcontx.h)
 description: The RX_CONTEXT structure encapsulates an IRP for use by RDBSS, network mini-redirectors, and the file system.
 old-location: ifsk\rx_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxcontx.h
+- rxcontx.h
 api_name:
--	RX_CONTEXT
+- RX_CONTEXT
 product:
 - Windows
 targetos: Windows

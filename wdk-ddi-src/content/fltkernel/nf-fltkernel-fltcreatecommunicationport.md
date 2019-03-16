@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateCommunicationPort
-title: FltCreateCommunicationPort function
+title: FltCreateCommunicationPort function (fltkernel.h)
 description: FltCreateCommunicationPort creates a communication server port on which a minifilter driver can receive connection requests from user-mode applications.
 old-location: ifsk\fltcreatecommunicationport.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltCreateCommunicationPort
+- FltCreateCommunicationPort
 product:
 - Windows
 targetos: Windows

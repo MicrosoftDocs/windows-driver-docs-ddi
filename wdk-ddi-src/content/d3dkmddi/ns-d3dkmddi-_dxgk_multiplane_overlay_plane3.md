@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE3
-title: "_DXGK_MULTIPLANE_OVERLAY_PLANE3"
+title: _DXGK_MULTIPLANE_OVERLAY_PLANE3 (d3dkmddi.h)
 description: Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
 old-location: display\dxgk_multiplane_overlay_plane3.htm
 
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_MULTIPLANE_OVERLAY_PLANE3
+- DXGK_MULTIPLANE_OVERLAY_PLANE3
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
-title: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
+title: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadReceiveComplete function to return posted receive requests (receive buffers) to the host stack.
 old-location: netvista\ndistcpoffloadreceivecomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisTcpOffloadReceiveComplete
+- NdisTcpOffloadReceiveComplete
 product:
 - Windows
 targetos: Windows

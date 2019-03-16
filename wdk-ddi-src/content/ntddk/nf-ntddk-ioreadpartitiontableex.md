@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReadPartitionTableEx
-title: IoReadPartitionTableEx function
+title: IoReadPartitionTableEx function (ntddk.h)
 description: The IoReadPartitionTableEx routine reads a list of partitions on a disk having a specified sector size and creates an entry in the partition list for each recognized partition.
 old-location: storage\ioreadpartitiontableex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReadPartitionTableEx
+- IoReadPartitionTableEx
 product:
 - Windows
 targetos: Windows

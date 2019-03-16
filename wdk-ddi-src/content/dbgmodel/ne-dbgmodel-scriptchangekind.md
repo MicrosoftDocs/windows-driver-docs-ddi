@@ -1,6 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptChangeKind
-title: ScriptChangeKind
+title: ScriptChangeKind (dbgmodel.h)
 description: Indicates the type of notification firing to the host.
 ms.assetid: 6aca4d1a-84d3-400e-8b00-131364737c9b
 ms.date: 07/16/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptChangeKind
-product: Windows
+- ScriptChangeKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

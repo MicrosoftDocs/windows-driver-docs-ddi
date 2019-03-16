@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_EVENT_COMPLETE
-title: IOCTL_SRIOV_EVENT_COMPLETE
+title: IOCTL_SRIOV_EVENT_COMPLETE (pcivirt.h)
 description: The request indicates that the virtualization stack or the SR-IOV device received one of the events listed in SRIOV_PF_EVENT.
 old-location: pci\ioctl-sriov-event-complete.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	IOCTL_SRIOV_EVENT_COMPLETE
+- IOCTL_SRIOV_EVENT_COMPLETE
 product:
 - Windows
 targetos: Windows

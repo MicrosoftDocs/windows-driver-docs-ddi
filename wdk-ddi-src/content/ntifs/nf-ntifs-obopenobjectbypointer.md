@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObOpenObjectByPointer
-title: ObOpenObjectByPointer function
+title: ObOpenObjectByPointer function (ntifs.h)
 description: The ObOpenObjectByPointer function opens an object referenced by a pointer and returns a handle to the object.
 old-location: ifsk\obopenobjectbypointer.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObOpenObjectByPointer
+- ObOpenObjectByPointer
 product:
 - Windows
 targetos: Windows

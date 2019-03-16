@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeGetCurrentNodeNumber
-title: KeGetCurrentNodeNumber function
+title: KeGetCurrentNodeNumber function (wdm.h)
 description: The KeGetCurrentNodeNumber routine gets the NUMA node number for the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentnodenumber.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeGetCurrentNodeNumber
+- KeGetCurrentNodeNumber
 product:
 - Windows
 targetos: Windows

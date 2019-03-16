@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_MCA_POS_DATA
-title: "_CM_MCA_POS_DATA"
+title: _CM_MCA_POS_DATA (wdm.h)
 description: The CM_MCA_POS_DATA structure is obsolete. It defines IBM-compatible MCA POS configuration information for a slot.
 old-location: kernel\cm_mca_pos_data.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CM_MCA_POS_DATA
+- CM_MCA_POS_DATA
 product:
 - Windows
 targetos: Windows

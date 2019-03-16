@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIRTUALMACHINEDATAFLAGS
-title: _DXGK_VIRTUALMACHINEDATAFLAGS
+title: _DXGK_VIRTUALMACHINEDATAFLAGS (d3dkmddi.h)
 description: The virtual machine data flags.
 ms.assetid: decc4a46-fe67-49bf-bf9e-067c184ec272
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_VIRTUALMACHINEDATAFLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_VIRTUALMACHINEDATAFLAGS
+- _DXGK_VIRTUALMACHINEDATAFLAGS
 product: 
 - Windows
 targetos: Windows

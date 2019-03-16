@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi._MIRACAST_CALLBACKS
-title: "_MIRACAST_CALLBACKS"
+title: _MIRACAST_CALLBACKS (netdispumdddi.h)
 description: Contains pointers to wireless display (Miracast) runtime callback functions that the Miracast user-mode driver can call.
 old-location: display\miracast_callbacks.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MIRACAST_CALLBACKS
+- MIRACAST_CALLBACKS
 product:
 - Windows
 targetos: Windows

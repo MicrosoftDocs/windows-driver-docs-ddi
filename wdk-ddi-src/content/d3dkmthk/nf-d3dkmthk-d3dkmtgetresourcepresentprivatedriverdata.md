@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetResourcePresentPrivateDriverData
-title: D3DKMTGetResourcePresentPrivateDriverData function
+title: D3DKMTGetResourcePresentPrivateDriverData function (d3dkmthk.h)
 description: Queries the resource private data, which is associated with the resource during Present.
 ms.assetid: 69f30faa-94f1-4d9a-a2ca-6aa2b5bacb74
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetResourcePresentPrivateDriverData
+- D3DKMTGetResourcePresentPrivateDriverData
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

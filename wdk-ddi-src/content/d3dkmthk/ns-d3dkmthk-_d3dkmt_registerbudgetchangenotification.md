@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
-title: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
+title: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: Used to register budget change notification.
 ms.assetid: b68c9dc0-56e6-478c-8624-b4904cedd311
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
+- _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

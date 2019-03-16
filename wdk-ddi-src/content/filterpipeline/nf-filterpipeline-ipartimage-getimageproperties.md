@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartImage.GetImageProperties
-title: IPartImage::GetImageProperties
+title: IPartImage::GetImageProperties (filterpipeline.h)
 description: The GetImageProperties method gets an image property that is based on the content type.
 old-location: print\ipartimage_getimageproperties.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartImage.GetImageProperties
+- IPartImage.GetImageProperties
 product:
 - Windows
 targetos: Windows

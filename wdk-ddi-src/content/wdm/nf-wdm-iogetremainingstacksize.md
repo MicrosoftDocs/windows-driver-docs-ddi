@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetRemainingStackSize
-title: IoGetRemainingStackSize function
+title: IoGetRemainingStackSize function (wdm.h)
 description: The IoGetRemainingStackSize routine returns the current amount of available kernel-mode stack space.
 old-location: kernel\iogetremainingstacksize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IoGetRemainingStackSize
+- IoGetRemainingStackSize
 product:
 - Windows
 targetos: Windows

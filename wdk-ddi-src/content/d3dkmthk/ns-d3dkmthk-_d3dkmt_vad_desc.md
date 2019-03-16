@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VAD_DESC
-title: _D3DKMT_VAD_DESC
+title: _D3DKMT_VAD_DESC (d3dkmthk.h)
 description: The video acceleration display (VAD) description.
 ms.assetid: 29f67949-0db6-4fbc-b350-a77194da1ca3
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_VAD_DESC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_VAD_DESC
+- _D3DKMT_VAD_DESC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

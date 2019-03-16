@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_DEVICE_DESC
-title: "_DXVAHDDDI_DEVICE_DESC"
+title: _DXVAHDDDI_DEVICE_DESC (d3dumddi.h)
 description: The DXVAHDDDI_DEVICE_DESC structure describes a decode device.
 old-location: display\dxvahdddi_device_desc.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_DEVICE_DESC
+- DXVAHDDDI_DEVICE_DESC
 product:
 - Windows
 targetos: Windows

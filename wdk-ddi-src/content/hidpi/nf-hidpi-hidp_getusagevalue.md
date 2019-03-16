@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetUsageValue
-title: HidP_GetUsageValue function
+title: HidP_GetUsageValue function (hidpi.h)
 description: The HidP_GetUsageValue routine extracts the data associated with a HID control value that matches the selection criteria in a HID report.
 old-location: hid\hidp_getusagevalue.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetUsageValue
+- HidP_GetUsageValue
 product:
 - Windows
 targetos: Windows

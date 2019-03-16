@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CONFIG
-title: "_UCMTCPCI_PORT_CONTROLLER_CONFIG"
+title: _UCMTCPCI_PORT_CONTROLLER_CONFIG (ucmtcpciportcontroller.h)
 description: Contains configuration options for the port controller object, passed by the client driver in the call to UcmTcpciPortControllerCreate. Call UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT to initialize this structure.
 old-location: buses\ucmtcpci_port_controller_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_CONFIG
+- UCMTCPCI_PORT_CONTROLLER_CONFIG
 product:
 - Windows
 targetos: Windows

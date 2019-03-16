@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_RELEASETARGETMODESET
-title: DXGKDDI_VIDPN_RELEASETARGETMODESET
+title: DXGKDDI_VIDPN_RELEASETARGETMODESET (d3dkmddi.h)
 description: The pfnReleaseTargetModeSet function releases a handle to a target mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasetargetmodeset.htm
 ms.assetid: bd369651-57d4-406f-ba51-9632362de15d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnReleaseTargetModeSet
+- pfnReleaseTargetModeSet
 product:
 - Windows
 targetos: Windows

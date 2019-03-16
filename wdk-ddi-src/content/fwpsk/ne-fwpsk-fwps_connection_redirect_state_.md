@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_CONNECTION_REDIRECT_STATE_
-title: FWPS_CONNECTION_REDIRECT_STATE_
+title: FWPS_CONNECTION_REDIRECT_STATE_ (fwpsk.h)
 description: The FWPS_CONNECTION_REDIRECT_STATE enumeration type specifies the current redirection state of a connection.
 old-location: netvista\fwps_connection_redirect_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_CONNECTION_REDIRECT_STATE
+- FWPS_CONNECTION_REDIRECT_STATE
 product:
 - Windows
 targetos: Windows

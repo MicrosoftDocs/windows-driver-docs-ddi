@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX_ACTIVITY
-title: "_SERCX_ACTIVITY"
+title: _SERCX_ACTIVITY (sercx.h)
 description: The SERCX_ACTIVITY structure contains a summary of work items that are ready for the serial controller driver to process.
 old-location: serports\sercx_activity.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SERCX_ACTIVITY
+- SERCX_ACTIVITY
 product:
 - Windows
 targetos: Windows

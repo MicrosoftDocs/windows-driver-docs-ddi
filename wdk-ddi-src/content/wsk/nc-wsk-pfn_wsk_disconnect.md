@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_DISCONNECT
-title: PFN_WSK_DISCONNECT
+title: PFN_WSK_DISCONNECT (wsk.h)
 description: The WskDisconnect function disconnects a connection-oriented or stream socket from a remote transport address.
 old-location: netvista\wskdisconnect.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskDisconnect
+- WskDisconnect
 product:
 - Windows
 targetos: Windows

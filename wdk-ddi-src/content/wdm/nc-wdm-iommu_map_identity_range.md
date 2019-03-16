@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_MAP_IDENTITY_RANGE
-title: IOMMU_MAP_IDENTITY_RANGE
+title: IOMMU_MAP_IDENTITY_RANGE (wdm.h)
 description: Creates an identity mapping for the provided MDL in the provided domain.
 ms.assetid: cdd44fd5-20c2-488a-bfcb-001f1b4490cb
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_MAP_IDENTITY_RANGE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_MAP_IDENTITY_RANGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

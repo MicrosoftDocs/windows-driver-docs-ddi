@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPOKERNELCAPS_SUPPORT
-title: _D3DKMT_MPOKERNELCAPS_SUPPORT
+title: _D3DKMT_MPOKERNELCAPS_SUPPORT (d3dkmthk.h)
 description: Structure used to indicate whether MPO kernel capabilities are supported.
 ms.assetid: 56715a9d-d89f-4764-af78-bdc54135139f
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MPOKERNELCAPS_SUPPORT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MPOKERNELCAPS_SUPPORT
+- _D3DKMT_MPOKERNELCAPS_SUPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

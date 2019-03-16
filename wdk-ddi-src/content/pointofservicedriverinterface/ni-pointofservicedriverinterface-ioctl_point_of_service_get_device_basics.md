@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
-title: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
+title: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS (pointofservicedriverinterface.h)
 description: This I/O control function gets the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\ioctl_point_of_service_get_device_basics.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
+- IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
 product:
 - Windows
 targetos: Windows

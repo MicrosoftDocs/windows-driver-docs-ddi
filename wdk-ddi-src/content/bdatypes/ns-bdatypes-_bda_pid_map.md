@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_PID_MAP
-title: "_BDA_PID_MAP"
+title: _BDA_PID_MAP (bdatypes.h)
 description: The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter.
 old-location: stream\bda_pid_map.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	BDA_PID_MAP
+- BDA_PID_MAP
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReuseIrp
-title: IoReuseIrp function
+title: IoReuseIrp function (wdm.h)
 description: The IoReuseIrp routine reinitializes an IRP so that it can be reused.
 old-location: kernel\ioreuseirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReuseIrp
+- IoReuseIrp
 product:
 - Windows
 targetos: Windows

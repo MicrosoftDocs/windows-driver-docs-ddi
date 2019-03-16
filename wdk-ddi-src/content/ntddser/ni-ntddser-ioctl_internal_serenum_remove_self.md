@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_INTERNAL_SERENUM_REMOVE_SELF
-title: IOCTL_INTERNAL_SERENUM_REMOVE_SELF
+title: IOCTL_INTERNAL_SERENUM_REMOVE_SELF (ntddser.h)
 description: The IOCTL_INTERNAL_SERENUM_REMOVE_SELF request invalidates the bus relations of the filter DO that are associated with a target PDO. (Physically, this request invalidates the bus relations of the RS-232 port to which the target device is attached.).
 old-location: serports\ioctl_internal_serenum_remove_self.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddser.h
+- ntddser.h
 api_name:
--	IOCTL_INTERNAL_SERENUM_REMOVE_SELF
+- IOCTL_INTERNAL_SERENUM_REMOVE_SELF
 product:
 - Windows
 targetos: Windows

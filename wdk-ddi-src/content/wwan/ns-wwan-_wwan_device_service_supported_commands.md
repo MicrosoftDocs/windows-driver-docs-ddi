@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-title: "_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
+title: _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 old-location: netvista\wwan_device_service_supported_commands.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
+- WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 product:
 - Windows
 targetos: Windows

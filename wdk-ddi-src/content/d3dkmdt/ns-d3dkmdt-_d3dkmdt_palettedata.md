@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_PALETTEDATA
-title: "_D3DKMDT_PALETTEDATA"
+title: _D3DKMDT_PALETTEDATA (d3dkmdt.h)
 description: The D3DKMDT_PALETTEDATA structure describes a palette entry for the display.
 old-location: display\d3dkmdt_palettedata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_PALETTEDATA
+- D3DKMDT_PALETTEDATA
 product:
 - Windows
 targetos: Windows

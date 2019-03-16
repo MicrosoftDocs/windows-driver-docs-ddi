@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_CLOSE_CALL_COMPLETE
-title: PROTOCOL_CL_CLOSE_CALL_COMPLETE
+title: PROTOCOL_CL_CLOSE_CALL_COMPLETE (ndis.h)
 description: The ProtocolClCloseCallComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclclosecallcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClCloseCallComplete
+- ProtocolClCloseCallComplete
 product:
 - Windows
 targetos: Windows

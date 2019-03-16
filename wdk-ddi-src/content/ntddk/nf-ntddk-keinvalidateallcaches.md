@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeInvalidateAllCaches
-title: KeInvalidateAllCaches function
+title: KeInvalidateAllCaches function (ntddk.h)
 description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInvalidateAllCaches
+- KeInvalidateAllCaches
 product:
 - Windows
 targetos: Windows

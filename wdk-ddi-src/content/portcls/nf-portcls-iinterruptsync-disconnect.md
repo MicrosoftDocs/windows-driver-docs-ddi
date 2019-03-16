@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.Disconnect
-title: IInterruptSync::Disconnect
+title: IInterruptSync::Disconnect (portcls.h)
 description: The Disconnect method disconnects the synchronization object from the interrupt.
 old-location: audio\iinterruptsync_disconnect.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync.Disconnect
+- IInterruptSync.Disconnect
 product:
 - Windows
 targetos: Windows

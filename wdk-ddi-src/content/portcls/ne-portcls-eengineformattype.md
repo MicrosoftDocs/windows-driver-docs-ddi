@@ -1,6 +1,6 @@
 ---
 UID: NE:portcls.__unnamed_enum_4
-title: eEngineFormatType
+title: eEngineFormatType (portcls.h)
 description: The eEngineFormatType enumeration defines constants that specify the audio data type supported by the audio engine.
 old-location: audio\eengineformattype.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	eEngineFormatType
+- eEngineFormatType
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlIntegerToUnicodeString
-title: RtlIntegerToUnicodeString function
+title: RtlIntegerToUnicodeString function (wdm.h)
 description: The RtlIntegerToUnicodeString routine converts an unsigned integer value to a null-terminated string of one or more Unicode characters in the specified base.
 old-location: kernel\rtlintegertounicodestring.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlIntegerToUnicodeString
+- RtlIntegerToUnicodeString
 product:
 - Windows
 targetos: Windows

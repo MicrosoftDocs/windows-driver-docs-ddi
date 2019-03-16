@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasUpdateValidFormat
-title: wiasUpdateValidFormat function
+title: wiasUpdateValidFormat function (wiamdef.h)
 description: The wiasUpdateValidFormat function updates the valid format of the property context for the current minidriver.
 old-location: image\wiasupdatevalidformat.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasUpdateValidFormat
+- wiasUpdateValidFormat
 product:
 - Windows
 targetos: Windows

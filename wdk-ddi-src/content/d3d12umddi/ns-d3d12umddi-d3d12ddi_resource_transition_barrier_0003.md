@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
-title: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
+title: D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003 (d3d12umddi.h)
 description: Describes a transition barrier between subresources.
 old-location: display\d3d12ddi_resource_transition_barrier_0003.htm
 ms.assetid: 86E2A0A4-F02C-43E7-8CC1-395B444299A6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
+- D3D12DDI_RESOURCE_TRANSITION_BARRIER_0003
 product:
 - Windows
 targetos: Windows

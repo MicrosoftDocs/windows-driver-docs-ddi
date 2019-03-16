@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.GetName
-title: IDebugHostSymbol::GetName
+title: IDebugHostSymbol::GetName (dbgmodel.h)
 description: Returns the name of the symbol if the symbol has a name. 
 ms.assetid: a7f1c557-1c01-491a-afc9-3046e8db4cc0
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbol.GetName
-product: Windows
+- IDebugHostSymbol.GetName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

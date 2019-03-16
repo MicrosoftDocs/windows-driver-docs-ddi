@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTER_DESCRIPTOR
-title: "_KSFILTER_DESCRIPTOR"
+title: _KSFILTER_DESCRIPTOR (ks.h)
 description: The KSFILTER_DESCRIPTOR structure describes the characteristics of a filter created by a given filter factory.
 old-location: stream\ksfilter_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSFILTER_DESCRIPTOR
+- KSFILTER_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

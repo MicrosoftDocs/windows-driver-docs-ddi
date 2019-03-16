@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetCreateParametersEx
-title: IWDFIoRequest2::GetCreateParametersEx
+title: IWDFIoRequest2::GetCreateParametersEx (wudfddi.h)
 description: The GetCreateParametersEx method retrieves file creation parameters that are associated with a file that is being created or opened.
 old-location: wdf\iwdfiorequest2_getcreateparametersex.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.GetCreateParametersEx
+- IWDFIoRequest2.GetCreateParametersEx
 product:
 - Windows
 targetos: Windows

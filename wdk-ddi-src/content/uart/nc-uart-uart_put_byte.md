@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_PUT_BYTE
-title: UART_PUT_BYTE
+title: UART_PUT_BYTE (uart.h)
 description:  Writes a data byte to the UART device.
 tech.root: serports
 ms.assetid: d4db9a6d-b9ef-4b88-9f12-b4fe437eaa4b
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_PUT_BYTE
+- UART_PUT_BYTE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -71,7 +71,7 @@ The byte to write to the UART hardware.
 
 
 ### -param BusyWait
-A a flag to control whether this routine will busy-wait (spin) for the UART hardware to be ready to transmit.
+A flag to control whether this routine will busy-wait (spin) for the UART hardware to be ready to transmit.
 
 ## -returns
 

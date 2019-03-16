@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_REMOVE_IRP
-title: IO_CSQ_REMOVE_IRP
+title: IO_CSQ_REMOVE_IRP (wdm.h)
 description: The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqremoveirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CsqRemoveIrp
+- CsqRemoveIrp
 product:
 - Windows
 targetos: Windows

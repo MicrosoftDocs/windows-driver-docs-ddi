@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_GET_SYMBOL
-title: PWINDBG_GET_SYMBOL
+title: PWINDBG_GET_SYMBOL (wdbgexts.h)
 description: The PWINDBG_GET_SYMBOL (GetSymbol) function locates the symbol nearest to address.
 old-location: debugger\getsymbol.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetSymbol
+- GetSymbol
 product:
 - Windows
 targetos: Windows

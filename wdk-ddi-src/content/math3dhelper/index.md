@@ -8,7 +8,7 @@ ms.technology: windows-devices
 tech.root: sensors
 ms.topic: portal
 product:
--	Windows
+- Windows
 ms.custom: RS5
 ---
 

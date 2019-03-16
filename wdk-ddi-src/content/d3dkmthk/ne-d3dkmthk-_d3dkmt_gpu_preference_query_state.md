@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_GPU_PREFERENCE_QUERY_STATE
-title: _D3DKMT_GPU_PREFERENCE_QUERY_STATE
+title: _D3DKMT_GPU_PREFERENCE_QUERY_STATE (d3dkmthk.h)
 description: Specifies the GPU preference query state.
 ms.assetid: ff9a92ba-1cc6-4814-941d-33c829de7ca2
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_GPU_PREFERENCE_QUERY_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GPU_PREFERENCE_QUERY_STATE
+- _D3DKMT_GPU_PREFERENCE_QUERY_STATE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

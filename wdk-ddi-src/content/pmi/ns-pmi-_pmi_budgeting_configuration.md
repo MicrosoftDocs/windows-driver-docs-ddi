@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_BUDGETING_CONFIGURATION
-title: "_PMI_BUDGETING_CONFIGURATION"
+title: _PMI_BUDGETING_CONFIGURATION (pmi.h)
 description: The PMI_BUDGETING_CONFIGURATION structure contains information about the current power budget of a power meter. A power budget defines how much power that the system can consume from the set of power supplies monitored by the power meter.
 old-location: powermeter\pmi_budgeting_configuration.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_BUDGETING_CONFIGURATION
+- PMI_BUDGETING_CONFIGURATION
 product:
 - Windows
 targetos: Windows

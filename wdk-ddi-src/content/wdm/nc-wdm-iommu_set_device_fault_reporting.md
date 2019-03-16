@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_SET_DEVICE_FAULT_REPORTING
-title: IOMMU_SET_DEVICE_FAULT_REPORTING
+title: IOMMU_SET_DEVICE_FAULT_REPORTING (wdm.h)
 description: This routine sets the device fault reporting state to a device already attached to a domain.
 ms.assetid: 111049ce-9f18-4807-a6c2-5641b115a4b5
 ms.date: 09/30/2018
@@ -23,14 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	IOMMU_SET_DEVICE_FAULT_REPORTING
-product: Windows
+- IOMMU_SET_DEVICE_FAULT_REPORTING
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

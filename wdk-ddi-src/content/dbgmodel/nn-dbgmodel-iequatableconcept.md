@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IEquatableConcept
-title: IEquatableConcept
+title: IEquatableConcept (dbgmodel.h)
 description: Supports the ability to compare this object to another (of arbitrary type) for equality.
 ms.assetid: 44daad07-fb11-4f91-859a-eae2230ac7f7
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IEquatableConcept
-product: Windows
+- IEquatableConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

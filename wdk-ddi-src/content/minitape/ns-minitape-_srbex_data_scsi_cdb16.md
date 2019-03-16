@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA_SCSI_CDB16
-title: "_SRBEX_DATA_SCSI_CDB16"
+title: _SRBEX_DATA_SCSI_CDB16 (minitape.h)
 description: The SRBEX_DATA_SCSI_CDB16 structure contains the extended SRB data for a 16-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb16.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA_SCSI_CDB16
+- SRBEX_DATA_SCSI_CDB16
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxSetDeviceIdleTimeout
-title: PoFxSetDeviceIdleTimeout function
+title: PoFxSetDeviceIdleTimeout function (wdm.h)
 description: The PoFxSetDeviceIdleTimeout routine specifies the minimum time interval from when the last component of the device enters the idle condition to when the power management framework (PoFx) calls the driver's DevicePowerNotRequiredCallback routine.
 old-location: kernel\pofxsetdeviceidletimeout.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Ntoskrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name:
--	PoFxSetDeviceIdleTimeout
+- PoFxSetDeviceIdleTimeout
 product:
 - Windows
 targetos: Windows

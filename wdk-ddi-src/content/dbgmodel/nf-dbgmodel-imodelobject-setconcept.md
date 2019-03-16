@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetConcept
-title: IModelObject::SetConcept
+title: IModelObject::SetConcept (dbgmodel.h)
 description: The SetConcept method will place a specified concept on the object instance specified by the this pointer. 
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.date: 08/13/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.SetConcept
-product: Windows
+- IModelObject.SetConcept
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

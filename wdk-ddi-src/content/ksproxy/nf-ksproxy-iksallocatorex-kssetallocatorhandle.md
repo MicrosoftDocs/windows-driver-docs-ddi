@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetAllocatorHandle
-title: IKsAllocatorEx::KsSetAllocatorHandle
+title: IKsAllocatorEx::KsSetAllocatorHandle (ksproxy.h)
 description: Sets the handle for an allocator.
 old-location: stream\iksallocatorex_kssetallocatorhandle.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsAllocatorEx.KsSetAllocatorHandle
+- IKsAllocatorEx.KsSetAllocatorHandle
 product:
 - Windows
 targetos: Windows

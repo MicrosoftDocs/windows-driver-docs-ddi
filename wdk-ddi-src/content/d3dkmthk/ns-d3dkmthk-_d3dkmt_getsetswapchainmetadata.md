@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSETSWAPCHAINMETADATA
-title: _D3DKMT_GETSETSWAPCHAINMETADATA
+title: _D3DKMT_GETSETSWAPCHAINMETADATA (d3dkmthk.h)
 description: Used to get swap chain metadata.
 ms.assetid: 172bdd24-db38-43e1-b703-0c8d01b06520
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GETSETSWAPCHAINMETADATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GETSETSWAPCHAINMETADATA
+- _D3DKMT_GETSETSWAPCHAINMETADATA
 product:
 - Windows
 targetos: Windows

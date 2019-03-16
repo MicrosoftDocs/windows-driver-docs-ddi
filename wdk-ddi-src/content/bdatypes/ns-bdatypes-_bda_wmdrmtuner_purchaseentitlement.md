@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PURCHASEENTITLEMENT
-title: "_BDA_WMDRMTUNER_PURCHASEENTITLEMENT"
+title: _BDA_WMDRMTUNER_PURCHASEENTITLEMENT (bdatypes.h)
 description: 
 old-location: stream\bda_wmdrmtuner_purchaseentitlement.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_WMDRMTUNER_PURCHASEENTITLEMENT
+- BDA_WMDRMTUNER_PURCHASEENTITLEMENT
 product:
 - Windows
 targetos: Windows

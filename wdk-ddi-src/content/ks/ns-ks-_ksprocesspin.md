@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPROCESSPIN
-title: "_KSPROCESSPIN"
+title: _KSPROCESSPIN (ks.h)
 description: The KSPROCESSPIN structure describes the process state of a specific pin.
 old-location: stream\ksprocesspin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROCESSPIN
+- KSPROCESSPIN
 product:
 - Windows
 targetos: Windows

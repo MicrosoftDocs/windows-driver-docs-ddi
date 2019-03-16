@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_KM_AUTHORIZATION_
-title: FWPS_FIELDS_KM_AUTHORIZATION_
+title: FWPS_FIELDS_KM_AUTHORIZATION_ (fwpsk.h)
 description: The FWPS_FIELDS_KM_AUTHORIZATION enumeration type specifies the data field identifiers for the FWPS_LAYER_KM_AUTHORIZATION run-time filtering layer.
 old-location: netvista\fwps_fields_km_authorization.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_KM_AUTHORIZATION
+- FWPS_FIELDS_KM_AUTHORIZATION
 product:
 - Windows
 targetos: Windows

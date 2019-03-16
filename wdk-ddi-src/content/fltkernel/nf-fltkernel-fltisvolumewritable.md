@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsVolumeWritable
-title: FltIsVolumeWritable function
+title: FltIsVolumeWritable function (fltkernel.h)
 description: The FltIsVolumeWritable routine determines whether the disk device that corresponds to a volume or minifilter driver instance is writable.
 old-location: ifsk\fltisvolumewritable.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltIsVolumeWritable
+- FltIsVolumeWritable
 product:
 - Windows
 targetos: Windows

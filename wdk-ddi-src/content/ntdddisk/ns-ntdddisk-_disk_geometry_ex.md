@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GEOMETRY_EX
-title: "_DISK_GEOMETRY_EX"
+title: _DISK_GEOMETRY_EX (ntdddisk.h)
 description: The DISK_GEOMETRY_EX structure is a variable-length structure composed of a DISK_GEOMETRY structure followed by a DISK_PARTITION_INFO structure followed, in turn, by a DISK_DETECTION_INFO structure.
 old-location: storage\disk_geometry_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DISK_GEOMETRY_EX
+- DISK_GEOMETRY_EX
 product:
 - Windows
 targetos: Windows

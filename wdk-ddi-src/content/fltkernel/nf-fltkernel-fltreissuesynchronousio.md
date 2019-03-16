@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReissueSynchronousIo
-title: FltReissueSynchronousIo function
+title: FltReissueSynchronousIo function (fltkernel.h)
 description: FltReissueSynchronousIo initiates a new synchronous I/O operation that uses the parameters from a previously synchronized I/O operation.
 old-location: ifsk\fltreissuesynchronousio.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltReissueSynchronousIo
+- FltReissueSynchronousIo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetGlobalAttribute
-title: IPrintCoreUI2::GetGlobalAttribute
+title: IPrintCoreUI2::GetGlobalAttribute (prcomoem.h)
 description: The IPrintCoreUI2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreui2_getglobalattribute.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.GetGlobalAttribute
+- IPrintCoreUI2.GetGlobalAttribute
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFDeviceDepot2
-title: IWDTFDeviceDepot2
+title: IWDTFDeviceDepot2 (wdtf.h)
 description: Defines properties and operations for the collection of devices on a computer.
 old-location: dtf\iwdtfdevicedepot2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2
+- IWDTFDeviceDepot2
 product:
 - Windows
 targetos: Windows

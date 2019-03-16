@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
-title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
+title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 (d3d12umddi.h)
 description: The output stream for video processing commands, which points to a target surface.
 old-location: display\d3d12ddi_video_process_output_stream.htm
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
+- D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020
 product:
 - Windows
 targetos: Windows

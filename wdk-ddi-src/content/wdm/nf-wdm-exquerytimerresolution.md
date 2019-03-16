@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExQueryTimerResolution
-title: ExQueryTimerResolution function
+title: ExQueryTimerResolution function (wdm.h)
 description: The ExQueryTimerResolution routine reports the range of timer resolutions that are supported by the system clock.
 old-location: kernel\exquerytimerresolution.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ExQueryTimerResolution
+- ExQueryTimerResolution
 product:
 - Windows
 targetos: Windows

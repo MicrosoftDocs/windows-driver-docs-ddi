@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.GetIPortableDeviceValuesFromBuffer
-title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer
+title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer (portabledevicetypes.h)
 description: Deserializes a byte array to an IPortableDeviceValues interface.
 old-location: wpddk\iwpdserializer_getiportabledevicevaluesfrombuffer.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IWpdSerializer.GetIPortableDeviceValuesFromBuffer
+- IWpdSerializer.GetIPortableDeviceValuesFromBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

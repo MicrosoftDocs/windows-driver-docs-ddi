@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetItemFlags
-title: IWiaDrvItem::GetItemFlags
+title: IWiaDrvItem::GetItemFlags (wiamindr_lh.h)
 description: The IWiaDrvItem::GetItemFlags method gets the item flags of the current IWiaDrvItem item.
 old-location: image\iwiadrvitem_getitemflags.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.GetItemFlags
+- IWiaDrvItem.GetItemFlags
 product:
 - Windows
 targetos: Windows

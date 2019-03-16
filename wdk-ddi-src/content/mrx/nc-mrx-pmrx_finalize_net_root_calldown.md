@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_NET_ROOT_CALLDOWN
-title: PMRX_FINALIZE_NET_ROOT_CALLDOWN
+title: PMRX_FINALIZE_NET_ROOT_CALLDOWN (mrx.h)
 description: The MRxFinalizeNetRoot routine is called by RDBSS to request that a network mini-redirector finalize a NET_ROOT structure.
 old-location: ifsk\mrxfinalizenetroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxFinalizeNetRoot
+- MRxFinalizeNetRoot
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_DATA_BLOCK
-title: _UCSI_DATA_BLOCK
+title: _UCSI_DATA_BLOCK (ucmucsispec.h)
 tech.root: usbref
 description: The data structures for memory locations. See Section 3.
 ms.assetid: fed35e88-4a81-4626-8d8d-a056bcfcc5ea
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_DATA_BLOCK, *PUCSI_DATA_BLOCK
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_DATA_BLOCK
-product: Windows
+- _UCSI_DATA_BLOCK
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

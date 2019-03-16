@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeDelayExecutionThread
-title: KeDelayExecutionThread function
+title: KeDelayExecutionThread function (wdm.h)
 description: The KeDelayExecutionThread routine puts the current thread into an alertable or nonalertable wait state for a specified interval.
 old-location: kernel\kedelayexecutionthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeDelayExecutionThread
+- KeDelayExecutionThread
 product:
 - Windows
 targetos: Windows

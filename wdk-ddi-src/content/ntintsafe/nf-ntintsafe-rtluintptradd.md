@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrAdd
-title: RtlUIntPtrAdd function
+title: RtlUIntPtrAdd function (ntintsafe.h)
 description: Adds two values of type UINT_PTR.
 old-location: kernel\rtluintptradd.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUIntPtrAdd
+- RtlUIntPtrAdd
 product:
 - Windows
 targetos: Windows

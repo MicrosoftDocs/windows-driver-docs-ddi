@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_PINMODE
-title: DXGKDDI_VIDPNTARGETMODESET_PINMODE
+title: DXGKDDI_VIDPNTARGETMODESET_PINMODE (d3dkmddi.h)
 description: The pfnPinMode function pins a specified mode in a VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnPinMode
+- pfnPinMode
 product:
 - Windows
 targetos: Windows

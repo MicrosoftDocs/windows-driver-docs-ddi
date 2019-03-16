@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UMDFILENAMEINFO
-title: "_D3DKMT_UMDFILENAMEINFO"
+title: _D3DKMT_UMDFILENAMEINFO (d3dkmthk.h)
 description: The D3DKMT_UMDFILENAMEINFO structure contains the name of an OpenGL ICD that is based on the specified version of the DirectX runtime.
 old-location: display\d3dkmt_umdfilenameinfo.htm
 ms.assetid: 456aef5a-f297-4670-8a83-b468569d23ad
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_UMDFILENAMEINFO
+- D3DKMT_UMDFILENAMEINFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.get_Target
-title: IWDTFAction2::get_Target
+title: IWDTFAction2::get_Target (wdtf.h)
 description: Gets the target to which this action refers.
 old-location: dtf\iwdtfaction2_target.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFAction2.Target
--	IWDTFAction2.get_Target
+- IWDTFAction2.Target
+- IWDTFAction2.get_Target
 product:
 - Windows
 targetos: Windows

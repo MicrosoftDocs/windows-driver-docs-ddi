@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_TEXBLT1
-title: PFND3DDDI_TEXBLT1
+title: PFND3DDDI_TEXBLT1 (d3dumddi.h)
 description: Performs a bit-block transfer (bitblt) operation from a source texture to a destination texture, including all of the sublevels of the source texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 old-location: display\texblt1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	TexBlt1
+- TexBlt1
 product:
 - Windows
 targetos: Windows

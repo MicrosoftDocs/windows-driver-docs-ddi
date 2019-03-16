@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetDefaultClockTime
-title: KsGetDefaultClockTime function
+title: KsGetDefaultClockTime function (ks.h)
 description: The KsGetDefaultClockTime function gets the current time of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclocktime.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetDefaultClockTime
+- KsGetDefaultClockTime
 product:
 - Windows
 targetos: Windows

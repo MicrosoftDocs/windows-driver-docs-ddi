@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.CallSynchronizedRoutine
-title: IInterruptSync::CallSynchronizedRoutine
+title: IInterruptSync::CallSynchronizedRoutine (portcls.h)
 description: The CallSynchronizedRoutine method calls a routine that is not an interrupt service routine (ISR) but whose execution needs to be synchronized with ISRs.
 old-location: audio\iinterruptsync_callsynchronizedroutine.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IInterruptSync.CallSynchronizedRoutine
+- IInterruptSync.CallSynchronizedRoutine
 product:
 - Windows
 targetos: Windows

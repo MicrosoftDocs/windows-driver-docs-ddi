@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForIoctl
-title: IWDFIoTarget::FormatRequestForIoctl
+title: IWDFIoTarget::FormatRequestForIoctl (wudfddi.h)
 description: The FormatRequestForIoctl method formats an I/O request object for an I/O control operation.
 old-location: wdf\iwdfiotarget_formatrequestforioctl.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget.FormatRequestForIoctl
+- IWDFIoTarget.FormatRequestForIoctl
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETDISPLAYMODE
-title: "_D3DDDIARG_SETDISPLAYMODE"
+title: _D3DDDIARG_SETDISPLAYMODE (d3dumddi.h)
 description: The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the display mode.
 old-location: display\d3dddiarg_setdisplaymode.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETDISPLAYMODE
+- D3DDDIARG_SETDISPLAYMODE
 product:
 - Windows
 targetos: Windows

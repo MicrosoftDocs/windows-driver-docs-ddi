@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorDataDirectionChanged
-title: UcmConnectorDataDirectionChanged function
+title: UcmConnectorDataDirectionChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the new data role of a change in data role.
 old-location: buses\ucmconnectordatadirectionchanged.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: UcmCxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	UcmCxstub.lib
--	UcmCxstub.dll
+- UcmCxstub.lib
+- UcmCxstub.dll
 api_name:
--	UcmConnectorDataDirectionChanged
+- UcmConnectorDataDirectionChanged
 product:
 - Windows
 targetos: Windows

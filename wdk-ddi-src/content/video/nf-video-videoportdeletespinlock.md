@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortDeleteSpinLock
-title: VideoPortDeleteSpinLock function
+title: VideoPortDeleteSpinLock function (video.h)
 description: The VideoPortDeleteSpinLock function deletes a given spin lock.
 old-location: display\videoportdeletespinlock.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortDeleteSpinLock
+- VideoPortDeleteSpinLock
 product:
 - Windows
 targetos: Windows

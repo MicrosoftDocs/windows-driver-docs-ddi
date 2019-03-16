@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._INTERRUPT_SYNCHRONIZATION_MODE
-title: "_INTERRUPT_SYNCHRONIZATION_MODE"
+title: _INTERRUPT_SYNCHRONIZATION_MODE (storport.h)
 description: The INTERRUPT_SYNCHRONIZATION_MODE enumerator specifies the interrupt synchronization mode.
 old-location: storage\interrupt_synchronization_mode.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	INTERRUPT_SYNCHRONIZATION_MODE
+- INTERRUPT_SYNCHRONIZATION_MODE
 product:
 - Windows
 targetos: Windows

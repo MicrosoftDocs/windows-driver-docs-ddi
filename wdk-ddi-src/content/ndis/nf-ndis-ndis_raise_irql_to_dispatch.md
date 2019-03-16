@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_RAISE_IRQL_TO_DISPATCH
-title: NDIS_RAISE_IRQL_TO_DISPATCH macro
+title: NDIS_RAISE_IRQL_TO_DISPATCH macro (ndis.h)
 description: The NDIS_RAISE_IRQL_TO_DISPATCH macro raises the current IRQL to DISPATCH_LEVEL on the current processor.
 tech.root: netvista
 ms.assetid: e8078346-7fc7-4dee-9d39-b52c3ecb5415
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_RAISE_IRQL_TO_DISPATCH
+- NDIS_RAISE_IRQL_TO_DISPATCH
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

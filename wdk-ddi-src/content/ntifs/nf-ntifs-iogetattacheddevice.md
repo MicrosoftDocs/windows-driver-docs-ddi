@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetAttachedDevice
-title: IoGetAttachedDevice function
+title: IoGetAttachedDevice function (ntifs.h)
 description: The IoGetAttachedDevice routine returns a pointer to the highest-level device object associated with the specified device.
 old-location: ifsk\iogetattacheddevice.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetAttachedDevice
+- IoGetAttachedDevice
 product:
 - Windows
 targetos: Windows

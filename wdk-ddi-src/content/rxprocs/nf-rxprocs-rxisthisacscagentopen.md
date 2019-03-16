@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxIsThisACscAgentOpen
-title: RxIsThisACscAgentOpen function
+title: RxIsThisACscAgentOpen function (rxprocs.h)
 description: RxIsThisACscAgentOpen determines if a file open was made by a user-mode client-side caching agent.
 old-location: ifsk\rxisthisacscagentopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxIsThisACscAgentOpen
+- RxIsThisACscAgentOpen
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WritePointer
-title: WritePointer function
+title: WritePointer function (wdbgexts.h)
 description: The WritePointer function writes a pointer to the target.
 old-location: debugger\writepointer.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WritePointer
+- WritePointer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_PD_CONFIG
-title: "_UCM_CONNECTOR_PD_CONFIG"
+title: _UCM_CONNECTOR_PD_CONFIG (ucmmanager.h)
 description: Describes the Power Delivery 2.0 capabilities of the connector.
 old-location: buses\ucm_connector_pd_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_PD_CONFIG
+- UCM_CONNECTOR_PD_CONFIG
 product:
 - Windows
 targetos: Windows

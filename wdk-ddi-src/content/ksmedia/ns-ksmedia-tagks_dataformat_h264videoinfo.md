@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_H264VIDEOINFO
-title: tagKS_DATAFORMAT_H264VIDEOINFO
+title: tagKS_DATAFORMAT_H264VIDEOINFO (ksmedia.h)
 description: The KS_DATAFORMAT_H264VIDEOINFO structure describes the data formats range available for a stream.
 old-location: stream\ks_dataformat_h264videoinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KS_DATAFORMAT_H264VIDEOINFO
+- KS_DATAFORMAT_H264VIDEOINFO
 product:
 - Windows
 targetos: Windows

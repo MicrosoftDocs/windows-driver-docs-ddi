@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDevMode
-title: OEMDevMode function
+title: OEMDevMode function (printoem.h)
 description: OEMDevMode function
 old-location: print\oemdevmode.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDevMode
+- OEMDevMode
 product:
 - Windows
 targetos: Windows

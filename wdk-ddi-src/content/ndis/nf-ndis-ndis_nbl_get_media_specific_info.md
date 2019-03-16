@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_NBL_GET_MEDIA_SPECIFIC_INFO
-title: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro
+title: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro (ndis.h)
 description: The NDIS_NBL_GET_MEDIA_SPECIFIC_INFO macro gets a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 25427e6e-8ab9-4008-9ee0-120e54401dab
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_NBL_GET_MEDIA_SPECIFIC_INFO
+- NDIS_NBL_GET_MEDIA_SPECIFIC_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

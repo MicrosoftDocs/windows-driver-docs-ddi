@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_IS_WRITABLE
-title: IOCTL_DISK_IS_WRITABLE
+title: IOCTL_DISK_IS_WRITABLE (ntdddisk.h)
 description: Determines whether a disk is writable.
 old-location: storage\ioctl_disk_is_writable.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_IS_WRITABLE
+- IOCTL_DISK_IS_WRITABLE
 product:
 - Windows
 targetos: Windows

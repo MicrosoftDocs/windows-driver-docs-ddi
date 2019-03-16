@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeUnlockSubjectContext
-title: SeUnlockSubjectContext function
+title: SeUnlockSubjectContext function (wdm.h)
 description: The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext.
 old-location: ifsk\seunlocksubjectcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeUnlockSubjectContext
+- SeUnlockSubjectContext
 product:
 - Windows
 targetos: Windows

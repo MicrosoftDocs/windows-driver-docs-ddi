@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePool
-title: ExAllocatePool function
+title: ExAllocatePool function (wdm.h)
 description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepool.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocatePool
+- ExAllocatePool
 product:
 - Windows
 targetos: Windows

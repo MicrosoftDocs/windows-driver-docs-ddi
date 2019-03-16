@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule.GetVersion
-title: IDebugHostModule::GetVersion
+title: IDebugHostModule::GetVersion (dbgmodel.h)
 description: The GetVersion method returns version information about the module (assuming that such information can successfully be read out of the headers). 
 ms.assetid: e7874502-d3ef-42a4-a7cc-6bba4a341403
 ms.date: 09/18/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostModule.GetVersion
-product: Windows
+- IDebugHostModule.GetVersion
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
-title: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+title: EVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to release controller resources for all streams for an endpoint.
 old-location: buses\evt_ucx_endpoint_static_streams_disable.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+- PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DSTENCILOP
-title: _D3DSTENCILOP
+title: _D3DSTENCILOP (d3d9types.h)
 description: 
 ms.assetid: 9c7e713d-edef-4725-b55c-600916dfb7aa
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DSTENCILOP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DSTENCILOP
+- _D3DSTENCILOP
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

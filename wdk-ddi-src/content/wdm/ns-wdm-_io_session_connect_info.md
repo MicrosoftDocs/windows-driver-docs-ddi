@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_CONNECT_INFO
-title: "_IO_SESSION_CONNECT_INFO"
+title: _IO_SESSION_CONNECT_INFO (wdm.h)
 description: The IO_SESSION_CONNECT_INFO structure provides information about a user session.
 old-location: kernel\io_session_connect_info.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_SESSION_CONNECT_INFO
+- IO_SESSION_CONNECT_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxDeviceInitConfig
-title: NfcCxDeviceInitConfig function
+title: NfcCxDeviceInitConfig function (nfccx.h)
 description: Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged.
 old-location: nfpdrivers\_nfccxdeviceinitconfig_.htm
 tech.root: nfpdrivers
@@ -26,16 +26,16 @@ req.lib: Nfccxstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxDeviceInitConfig
+- NfcCxDeviceInitConfig
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ---

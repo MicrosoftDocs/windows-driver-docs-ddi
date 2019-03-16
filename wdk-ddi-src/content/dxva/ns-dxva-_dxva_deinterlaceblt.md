@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBlt
-title: "_DXVA_DeinterlaceBlt"
+title: _DXVA_DeinterlaceBlt (dxva.h)
 description: The DXVA_DeinterlaceBlt structure is sent by the VMR to the accelerator to specify the deinterlace or frame-rate conversion parameters for bit-block transfers.
 old-location: display\dxva_deinterlaceblt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceBlt
+- DXVA_DeinterlaceBlt
 product:
 - Windows
 targetos: Windows

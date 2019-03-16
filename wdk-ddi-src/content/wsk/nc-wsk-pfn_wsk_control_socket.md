@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONTROL_SOCKET
-title: PFN_WSK_CONTROL_SOCKET
+title: PFN_WSK_CONTROL_SOCKET (wsk.h)
 description: The WskControlSocket function performs control operations on a socket.
 old-location: netvista\wskcontrolsocket.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskControlSocket
+- WskControlSocket
 product:
 - Windows
 targetos: Windows

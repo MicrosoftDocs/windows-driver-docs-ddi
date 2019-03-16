@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryKey
-title: ZwQueryKey function
+title: ZwQueryKey function (wdm.h)
 description: The ZwQueryKey routine provides information about the class of a registry key, and the number and sizes of its subkeys.
 old-location: kernel\zwquerykey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryKey
--	NtQueryKey
+- ZwQueryKey
+- NtQueryKey
 product:
 - Windows
 targetos: Windows

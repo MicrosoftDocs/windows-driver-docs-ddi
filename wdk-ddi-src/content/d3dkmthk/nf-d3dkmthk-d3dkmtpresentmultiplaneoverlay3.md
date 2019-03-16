@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPresentMultiPlaneOverlay3
-title: D3DKMTPresentMultiPlaneOverlay3 function
+title: D3DKMTPresentMultiPlaneOverlay3 function (d3dkmthk.h)
 description: Copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: 132f4b30-4379-452e-81a1-81622642a47e
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTPresentMultiPlaneOverlay3
+- D3DKMTPresentMultiPlaneOverlay3
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

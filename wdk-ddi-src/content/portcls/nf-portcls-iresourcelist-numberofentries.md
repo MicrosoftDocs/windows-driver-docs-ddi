@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.NumberOfEntries
-title: IResourceList::NumberOfEntries
+title: IResourceList::NumberOfEntries (portcls.h)
 description: The NumberOfEntries method returns the number of resource items in the resource list.
 old-location: audio\iresourcelist_numberofentries.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IResourceList.NumberOfEntries
+- IResourceList.NumberOfEntries
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILOPERATORNAMES
-title: RILOPERATORNAMES
+title: RILOPERATORNAMES (ntddrilapitypes.h)
 description: This structure represents the RILOPERATORNAMES.
 old-location: netvista\riloperatornames.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILOPERATORNAMES
+- RILOPERATORNAMES
 product:
 - Windows
 targetos: Windows

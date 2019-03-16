@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RELEASEKEYEDMUTEX2
-title: "_D3DKMT_RELEASEKEYEDMUTEX2"
+title: _D3DKMT_RELEASEKEYEDMUTEX2 (d3dkmthk.h)
 description: Describes a keyed mutex object that the D3DKMTReleaseKeyedMutex2 function releases that includes private data.
 old-location: display\d3dkmt_releasekeyedmutex2.htm
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_RELEASEKEYEDMUTEX2
+- D3DKMT_RELEASEKEYEDMUTEX2
 product:
 - Windows
 targetos: Windows

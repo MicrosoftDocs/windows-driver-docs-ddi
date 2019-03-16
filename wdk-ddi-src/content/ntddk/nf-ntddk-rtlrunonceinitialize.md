@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceInitialize
-title: RtlRunOnceInitialize function
+title: RtlRunOnceInitialize function (ntddk.h)
 description: The RtlRunOnceInitialize routine initializes a RTL_RUN_ONCE structure.
 old-location: kernel\rtlrunonceinitialize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlRunOnceInitialize
+- RtlRunOnceInitialize
 product:
 - Windows
 targetos: Windows

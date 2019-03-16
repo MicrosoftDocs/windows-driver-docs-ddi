@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateSystemThread
-title: IoCreateSystemThread function
+title: IoCreateSystemThread function (wdm.h)
 description: The IoCreateSystemThread routine creates a system thread that executes in kernel mode, and supplies a handle for the thread.
 old-location: kernel\iocreatesystemthread.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateSystemThread
+- IoCreateSystemThread
 product:
 - Windows
 targetos: Windows

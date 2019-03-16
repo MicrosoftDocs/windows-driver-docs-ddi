@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsNotifications.SendNotification
-title: IPortClsNotifications::SendNotification
+title: IPortClsNotifications::SendNotification (portcls.h)
 description: Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_sendnotification.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	IPortClsNotifications.SendNotification
+- IPortClsNotifications.SendNotification
 product:
 - Windows
 targetos: Windows

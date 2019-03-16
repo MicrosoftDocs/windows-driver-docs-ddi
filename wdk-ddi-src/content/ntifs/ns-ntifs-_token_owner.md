@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_OWNER
-title: "_TOKEN_OWNER"
+title: _TOKEN_OWNER (ntifs.h)
 description: TOKEN_OWNER contains the default owner security identifier (SID) that will be applied to newly created objects.
 old-location: ifsk\token_owner.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_OWNER
+- TOKEN_OWNER
 product:
 - Windows
 targetos: Windows

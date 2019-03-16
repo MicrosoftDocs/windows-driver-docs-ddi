@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryGroupAffinity
-title: KeQueryGroupAffinity function
+title: KeQueryGroupAffinity function (wdm.h)
 description: The KeQueryGroupAffinity routine returns an affinity mask that identifies the active logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryGroupAffinity
+- KeQueryGroupAffinity
 product:
 - Windows
 targetos: Windows

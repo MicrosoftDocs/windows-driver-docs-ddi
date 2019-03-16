@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.GetPrintOutputInfo
-title: GetPrintOutputInfo function
+title: GetPrintOutputInfo function (winspool.h)
 description: 
 old-location: print\getprintoutputinfo.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winspool.h
+- Winspool.h
 api_name:
--	GetPrintOutputInfo
+- GetPrintOutputInfo
 product:
 - Windows
 targetos: Windows

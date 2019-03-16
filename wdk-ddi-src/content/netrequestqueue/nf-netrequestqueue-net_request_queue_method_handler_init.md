@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
-title: NET_REQUEST_QUEUE_METHOD_HANDLER_INIT function
+title: NET_REQUEST_QUEUE_METHOD_HANDLER_INIT function (netrequestqueue.h)
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_METHOD_HANDLER structure.
 tech.root: netvista
 ms.assetid: fac0974d-1496-4b73-bd1f-40ce1dddfee9
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

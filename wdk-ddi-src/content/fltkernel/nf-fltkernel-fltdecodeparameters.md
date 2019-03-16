@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDecodeParameters
-title: FltDecodeParameters function
+title: FltDecodeParameters function (fltkernel.h)
 description: FltDecodeParameters returns pointers to the memory descriptor list (MDL) address, buffer pointer, buffer length, and desired access parameters for an I/O operation.
 old-location: ifsk\fltdecodeparameters.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltDecodeParameters
+- FltDecodeParameters
 product:
 - Windows
 targetos: Windows

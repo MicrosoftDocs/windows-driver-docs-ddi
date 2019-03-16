@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxInferFileType
-title: RxInferFileType function
+title: RxInferFileType function (fcb.h)
 description: RxInferFileType tries to infer the file type (directory or non-directory) from a member in the RX_CONTEXT structure.
 old-location: ifsk\rxinferfiletype.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxInferFileType
+- RxInferFileType
 product:
 - Windows
 targetos: Windows

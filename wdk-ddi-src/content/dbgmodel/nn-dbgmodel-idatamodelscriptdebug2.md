@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptDebug2
-title: IDataModelScriptDebug2
+title: IDataModelScriptDebug2 (dbgmodel.h)
 description: An optional interface on scripts (objects which implement IDataModelScript).
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2
-product: Windows
+- IDataModelScriptDebug2
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

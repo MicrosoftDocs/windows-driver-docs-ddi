@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RENDERGDI
-title: DXGKDDI_RENDERGDI
+title: DXGKDDI_RENDERGDI (d3dkmddi.h)
 description: DxgkDdiRenderGdi is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 old-location: display\dxgkddirendergdi.htm
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiRenderGdi
+- DxgkDdiRenderGdi
 product:
 - Windows
 targetos: Windows

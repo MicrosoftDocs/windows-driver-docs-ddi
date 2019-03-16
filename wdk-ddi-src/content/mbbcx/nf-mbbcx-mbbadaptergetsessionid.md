@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbAdapterGetSessionId
-title: MbbAdapterGetSessionId function
+title: MbbAdapterGetSessionId function (mbbcx.h)
 description: The MbbAdapterGetSessionId method retreives the data session ID represented by the given NETADAPTER object.
 tech.root: netvista
 ms.assetid: 75268612-d362-4f69-921a-8305b7bfe12d
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MbbAdapterGetSessionId
+- MbbAdapterGetSessionId
 product:
 - Windows
 targetos: Windows

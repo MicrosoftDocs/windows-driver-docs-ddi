@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO
-title: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO
+title: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO (d3d10umddi.h)
 description: Queries the description of a video decoder buffer for a specified video operation.
 old-location: display\getvideodecoderbufferinfo.htm
 ms.assetid: f129ae04-da7f-4681-a266-ac13317a895d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetVideoDecoderBufferInfo
+- pfnGetVideoDecoderBufferInfo
 product:
 - Windows
 targetos: Windows

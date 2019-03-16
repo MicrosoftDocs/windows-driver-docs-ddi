@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeInsertHeadQueue
-title: KeInsertHeadQueue function
+title: KeInsertHeadQueue function (ntifs.h)
 description: The KeInsertHeadQueue routine inserts an entry at the head of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertheadqueue.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeInsertHeadQueue
+- KeInsertHeadQueue
 product:
 - Windows
 targetos: Windows

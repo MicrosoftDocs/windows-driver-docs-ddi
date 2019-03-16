@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildTransport
-title: RxCeBuildTransport function
+title: RxCeBuildTransport function (rxce.h)
 description: RxCeBuildTransport binds an RDBSS transport object to a specified transport name.
 old-location: ifsk\rxcebuildtransport.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeBuildTransport
+- RxCeBuildTransport
 product:
 - Windows
 targetos: Windows

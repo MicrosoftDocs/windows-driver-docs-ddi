@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDICAPS_TYPE
-title: D3D12DDICAPS_TYPE
+title: D3D12DDICAPS_TYPE (d3d12umddi.h)
 description: Specifies a capability type.
 old-location: display\d3d12ddicaps_type.htm
 ms.assetid: C74697BF-A191-4371-9F23-7F655EBC53B3
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDICAPS_TYPE
+- D3D12DDICAPS_TYPE
 product:
 - Windows
 targetos: Windows

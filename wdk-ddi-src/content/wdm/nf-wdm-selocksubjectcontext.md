@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeLockSubjectContext
-title: SeLockSubjectContext function
+title: SeLockSubjectContext function (wdm.h)
 description: The SeLockSubjectContext routine locks the primary and impersonation tokens of a captured subject context.
 old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeLockSubjectContext
+- SeLockSubjectContext
 product:
 - Windows
 targetos: Windows

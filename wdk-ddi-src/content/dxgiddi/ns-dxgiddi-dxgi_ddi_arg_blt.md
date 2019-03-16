@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_BLT
-title: DXGI_DDI_ARG_BLT
+title: DXGI_DDI_ARG_BLT (dxgiddi.h)
 description: The DXGI_DDI_ARG_BLT structure describes the parameters of a bit-block transfer (bitblt).
 old-location: display\dxgi_ddi_arg_blt.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_BLT
+- DXGI_DDI_ARG_BLT
 product:
 - Windows
 targetos: Windows

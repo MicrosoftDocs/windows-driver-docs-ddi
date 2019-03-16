@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_COMPONENT_PERF_STATE_REQUEST
-title: "_PEP_COMPONENT_PERF_STATE_REQUEST"
+title: _PEP_COMPONENT_PERF_STATE_REQUEST (pep_x.h)
 description: The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set.
 old-location: kernel\pep_component_perf_state_request.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_COMPONENT_PERF_STATE_REQUEST
+- PEP_COMPONENT_PERF_STATE_REQUEST
 product:
 - Windows
 targetos: Windows

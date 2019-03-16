@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsStreamInjectAsync0
-title: FwpsStreamInjectAsync0 function
+title: FwpsStreamInjectAsync0 function (fwpsk.h)
 description: The FwpsStreamInjectAsync0 function injects TCP data segments into a TCP data stream.Note  FwpsStreamInjectAsync0 is a specific version of FwpsStreamInjectAsync.
 old-location: netvista\fwpsstreaminjectasync0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsStreamInjectAsync0
+- FwpsStreamInjectAsync0
 product:
 - Windows
 targetos: Windows

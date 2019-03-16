@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TRACK_INFORMATION2
-title: "_TRACK_INFORMATION2"
+title: _TRACK_INFORMATION2 (minitape.h)
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	TRACK_INFORMATION2
+- TRACK_INFORMATION2
 product:
 - Windows
 targetos: Windows

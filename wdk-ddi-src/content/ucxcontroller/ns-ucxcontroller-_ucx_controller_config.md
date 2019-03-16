@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_CONFIG
-title: "_UCX_CONTROLLER_CONFIG"
+title: _UCX_CONTROLLER_CONFIG (ucxcontroller.h)
 description: This structure configuration data for a USB controller.
 old-location: buses\_ucx_controller_config.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UCX_CONTROLLER_CONFIG
+- UCX_CONTROLLER_CONFIG
 product:
 - Windows
 targetos: Windows

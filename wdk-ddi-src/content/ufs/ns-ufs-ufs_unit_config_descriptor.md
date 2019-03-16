@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_1
-title: UFS_UNIT_CONFIG_DESCRIPTOR
+title: UFS_UNIT_CONFIG_DESCRIPTOR (ufs.h)
 description: The UFS_UNIT_CONFIG_DESCRIPTOR structure describes the user configurable parameters within the UFS_CONFIG_DESCRIPTOR.
 old-location: storage\ufs_unit_config_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_UNIT_CONFIG_DESCRIPTOR
+- UFS_UNIT_CONFIG_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

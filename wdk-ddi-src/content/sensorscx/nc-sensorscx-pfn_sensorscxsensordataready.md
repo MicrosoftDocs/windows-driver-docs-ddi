@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXSENSORDATAREADY
-title: *PFN_SENSORSCXSENSORDATAREADY
+title: PFN_SENSORSCXSENSORDATAREADY (sensorscx.h)
 description: Notifies the class extension that the driver has retrieved data.
 ms.assetid: 3f3740d2-5c45-483f-9ed4-5d4b65726705
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	*PFN_SENSORSCXSENSORDATAREADY
+- *PFN_SENSORSCXSENSORDATAREADY
 product:
 - Windows
 targetos: Windows

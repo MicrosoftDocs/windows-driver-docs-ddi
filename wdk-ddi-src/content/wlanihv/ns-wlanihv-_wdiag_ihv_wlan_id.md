@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._WDIAG_IHV_WLAN_ID
-title: "_WDIAG_IHV_WLAN_ID"
+title: _WDIAG_IHV_WLAN_ID (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\wdiag_ihv_wlan_id.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	WDIAG_IHV_WLAN_ID
+- WDIAG_IHV_WLAN_ID
 product:
 - Windows
 targetos: Windows

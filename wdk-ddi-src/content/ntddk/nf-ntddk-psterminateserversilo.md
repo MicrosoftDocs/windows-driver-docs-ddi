@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsTerminateServerSilo
-title: PsTerminateServerSilo function
+title: PsTerminateServerSilo function (ntddk.h)
 description: This routine terminates the specified silo.
 old-location: kernel\psterminateserversilo.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsTerminateServerSilo
+- PsTerminateServerSilo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetNthUshort
-title: PropKeyFindKeyGetNthUshort function
+title: PropKeyFindKeyGetNthUshort function (sensorsutils.h)
 description: This routine gets the nth USHORT value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 74a78f9f-10a9-4e19-98ac-ac118d3631b9
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetNthUshort
+- PropKeyFindKeyGetNthUshort
 product:
   - Windows
 targetos: Windows

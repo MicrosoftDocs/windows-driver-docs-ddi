@@ -1,6 +1,6 @@
 ---
 UID: NC:oprghdlr.ACPI_OP_REGION_HANDLER
-title: ACPI_OP_REGION_HANDLER
+title: ACPI_OP_REGION_HANDLER (oprghdlr.h)
 description: An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the ACPI driver to the device's operation region.
 old-location: acpi\pacpi_op_region_handler.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	oprghdlr.h
+- oprghdlr.h
 api_name:
--	AcpiOpRegionHandler
+- AcpiOpRegionHandler
 product:
 - Windows
 targetos: Windows

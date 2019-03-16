@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetSwitchId
-title: NetRequestGetSwitchId function
+title: NetRequestGetSwitchId function (netrequest.h)
 description: Retrieves the switch identifier for the net request.
 tech.root: netvista
 ms.assetid: 44e290cf-13ea-4da5-898a-4a882eb881bf
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestGetSwitchId
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestGetSwitchId
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

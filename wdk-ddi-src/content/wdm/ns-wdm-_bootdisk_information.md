@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._BOOTDISK_INFORMATION
-title: "_BOOTDISK_INFORMATION"
+title: _BOOTDISK_INFORMATION (wdm.h)
 description: The BOOTDISK_INFORMATION structure contains basic information describing the boot and system disks.
 old-location: kernel\bootdisk_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	BOOTDISK_INFORMATION
+- BOOTDISK_INFORMATION
 product:
 - Windows
 targetos: Windows

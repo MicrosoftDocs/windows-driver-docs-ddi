@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceQueryModeCaps
-title: "_DXVA_DeinterlaceQueryModeCaps"
+title: _DXVA_DeinterlaceQueryModeCaps (dxva.h)
 description: The DXVA_DeinterlaceQueryModeCaps structure describes a deinterlacing mode.
 old-location: display\dxva_deinterlacequerymodecaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_DeinterlaceQueryModeCaps
+- DXVA_DeinterlaceQueryModeCaps
 product:
 - Windows
 targetos: Windows

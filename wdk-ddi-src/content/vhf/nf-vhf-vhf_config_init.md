@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VHF_CONFIG_INIT
-title: VHF_CONFIG_INIT function
+title: VHF_CONFIG_INIT function (vhf.h)
 description: Use the VHF_CONFIG_INIT function to initialize the required members of the VHF_CONFIG structure allocated by the HID source driver.
 old-location: hid\vhf_config_init.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	vhfKm.lib
--	vhfKm.dll
+- vhfKm.lib
+- vhfKm.dll
 api_name:
--	VHF_CONFIG_INIT
+- VHF_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

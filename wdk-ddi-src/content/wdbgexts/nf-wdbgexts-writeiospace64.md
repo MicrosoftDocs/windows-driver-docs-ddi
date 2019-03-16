@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpace64
-title: WriteIoSpace64 function
+title: WriteIoSpace64 function (wdbgexts.h)
 description: The WriteIoSpace64 function writes to the system I/O locations.
 old-location: debugger\writeiospace64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WriteIoSpace64
+- WriteIoSpace64
 product:
 - Windows
 targetos: Windows

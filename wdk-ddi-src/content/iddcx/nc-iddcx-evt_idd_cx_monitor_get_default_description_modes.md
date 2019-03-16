@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
-title: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
+title: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES (iddcx.h)
 description: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES is called by the OS to request the default monitor mode list from the driver for the specified monitor when a monitor without a description is connected.
 old-location: display\evt_idd_cx_monitor_get_default_description_modes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
+- PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
 product:
 - Windows
 targetos: Windows

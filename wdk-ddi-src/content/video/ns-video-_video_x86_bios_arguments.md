@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_X86_BIOS_ARGUMENTS
-title: "_VIDEO_X86_BIOS_ARGUMENTS"
+title: _VIDEO_X86_BIOS_ARGUMENTS (video.h)
 description: The VIDEO_x86_BIOS_ARGUMENTS structure is used to support full-screen MS-DOS application INT10 calls. It contains seven of the high-end x86 microprocessor registers.
 old-location: display\video_x86_bios_arguments.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_X86_BIOS_ARGUMENTS
+- VIDEO_X86_BIOS_ARGUMENTS
 product:
 - Windows
 targetos: Windows

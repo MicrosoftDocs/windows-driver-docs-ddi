@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_UNMASKED_INTERRUPT_FLAGS
-title: "_PEP_UNMASKED_INTERRUPT_FLAGS"
+title: _PEP_UNMASKED_INTERRUPT_FLAGS (pep_x.h)
 description: The PEP_UNMASKED_INTERRUPT_FLAGS union indicates whether an unmasked interrupt source is a primary interrupt or a secondary interrupt.
 old-location: kernel\pep_unmasked_interrupt_flags.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_UNMASKED_INTERRUPT_FLAGS
+- PEP_UNMASKED_INTERRUPT_FLAGS
 product:
 - Windows
 targetos: Windows

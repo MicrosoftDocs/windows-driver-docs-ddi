@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxCompleteRequest
-title: RxCompleteRequest function
+title: RxCompleteRequest function (rxprocs.h)
 description: RxCompleteRequest completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxCompleteRequest
+- RxCompleteRequest
 product:
 - Windows
 targetos: Windows

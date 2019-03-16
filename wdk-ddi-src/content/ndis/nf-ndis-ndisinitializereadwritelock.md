@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeReadWriteLock
-title: NdisInitializeReadWriteLock function
+title: NdisInitializeReadWriteLock function (ndis.h)
 description: The NdisInitializeReadWriteLock function initializes a read or write lock variable of type NDIS_RW_LOCK.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisAllocateRWLock instead of NdisInitializeReadWriteLock.
 old-location: netvista\ndisinitializereadwritelock.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ndis.sys
+- ndis.sys
 api_name:
--	NdisInitializeReadWriteLock
+- NdisInitializeReadWriteLock
 product:
 - Windows
 targetos: Windows

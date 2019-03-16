@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES
-title: PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES
+title: PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES (dbgeng.h)
 description: The FreeStackSymFrames callback function frees memory from a stack provider.
 old-location: debugger\freestacksymframes.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	FreeStackSymFrames
+- FreeStackSymFrames
 product:
 - Windows
 targetos: Windows

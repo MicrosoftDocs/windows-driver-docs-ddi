@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_LINK_STATUS_REGISTER
-title: "_PCI_EXPRESS_LINK_STATUS_REGISTER"
+title: _PCI_EXPRESS_LINK_STATUS_REGISTER (ntddk.h)
 description: The PCI_EXPRESS_LINK_STATUS_REGISTER structure describes a PCI Express (PCIe) link status register of a PCIe capability structure.
 old-location: pci\pci_express_link_status_register.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PCI_EXPRESS_LINK_STATUS_REGISTER
+- PCI_EXPRESS_LINK_STATUS_REGISTER
 product:
 - Windows
 targetos: Windows

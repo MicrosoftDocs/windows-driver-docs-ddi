@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateMdl
-title: IoAllocateMdl function
+title: IoAllocateMdl function (wdm.h)
 description: The IoAllocateMdl routine allocates a memory descriptor list (MDL) large enough to map a buffer, given the buffer's starting address and length. Optionally, this routine associates the MDL with an IRP.
 old-location: kernel\ioallocatemdl.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAllocateMdl
+- IoAllocateMdl
 product:
 - Windows
 targetos: Windows

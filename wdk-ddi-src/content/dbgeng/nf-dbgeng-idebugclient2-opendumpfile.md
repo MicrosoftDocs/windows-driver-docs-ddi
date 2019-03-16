@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.OpenDumpFile
-title: IDebugClient2::OpenDumpFile
+title: IDebugClient2::OpenDumpFile (dbgeng.h)
 description: The OpenDumpFile method opens a dump file as a debugger target.
 old-location: debugger\opendumpfile.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.OpenDumpFile
--	IDebugClient2.OpenDumpFile
--	IDebugClient3.OpenDumpFile
--	IDebugClient4.OpenDumpFile
--	IDebugClient5.OpenDumpFile
+- IDebugClient.OpenDumpFile
+- IDebugClient2.OpenDumpFile
+- IDebugClient3.OpenDumpFile
+- IDebugClient4.OpenDumpFile
+- IDebugClient5.OpenDumpFile
 product:
 - Windows
 targetos: Windows

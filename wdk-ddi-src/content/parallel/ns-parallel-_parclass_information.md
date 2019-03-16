@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARCLASS_INFORMATION
-title: "_PARCLASS_INFORMATION"
+title: _PARCLASS_INFORMATION (parallel.h)
 description: The PARCLASS_INFORMATION structure specifies information about a parallel port, pointers to callback routines to operate a parallel port, and pointers to callback routines to read and write to a parallel device.
 old-location: parports\parclass_information.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PARCLASS_INFORMATION
+- PARCLASS_INFORMATION
 product:
 - Windows
 targetos: Windows

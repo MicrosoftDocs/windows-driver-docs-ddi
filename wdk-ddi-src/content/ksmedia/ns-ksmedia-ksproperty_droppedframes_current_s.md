@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_152
-title: KSPROPERTY_DROPPEDFRAMES_CURRENT_S
+title: KSPROPERTY_DROPPEDFRAMES_CURRENT_S (ksmedia.h)
 description: The KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure describes the dropped frame information from the minidriver.
 old-location: stream\ksproperty_droppedframes_current_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_DROPPEDFRAMES_CURRENT_S
+- KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SECURITY_DESCRIPTOR
-title: "_SECURITY_DESCRIPTOR"
+title: _SECURITY_DESCRIPTOR (ntifs.h)
 description: The SECURITY_DESCRIPTOR structure contains the security information associated with an object. Drivers use this structure to set and query an object's security status.
 old-location: ifsk\security_descriptor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SECURITY_DESCRIPTOR
+- SECURITY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

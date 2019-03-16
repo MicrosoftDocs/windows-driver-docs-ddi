@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_STREAM
-title: D3D11_1DDI_VIDEO_PROCESSOR_STREAM
+title: D3D11_1DDI_VIDEO_PROCESSOR_STREAM (d3d10umddi.h)
 description: Contains stream-level data for the VideoProcessorBlt function.
 old-location: display\d3d11_1ddi_video_processor_stream.htm
 ms.assetid: 7edbe37b-ea45-4d37-908c-25c840e4cd74
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_STREAM
+- D3D11_1DDI_VIDEO_PROCESSOR_STREAM
 product:
 - Windows
 targetos: Windows

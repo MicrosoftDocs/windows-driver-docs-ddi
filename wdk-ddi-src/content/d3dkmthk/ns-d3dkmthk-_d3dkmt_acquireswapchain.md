@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIRESWAPCHAIN
-title: _D3DKMT_ACQUIRESWAPCHAIN
+title: _D3DKMT_ACQUIRESWAPCHAIN (d3dkmthk.h)
 description: Used to get information about the swap chain.
 ms.assetid: 43e4b889-e55b-4921-8e41-e90698ac26f0
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_ACQUIRESWAPCHAIN
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_ACQUIRESWAPCHAIN
+- _D3DKMT_ACQUIRESWAPCHAIN
 product: 
 - Windows
 targetos: Windows

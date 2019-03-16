@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.StartTail
-title: ExtRemoteList::StartTail
+title: ExtRemoteList::StartTail (engextcpp.h)
 description: The StartTail method initializes the list for iterating backward, starting at the head.
 old-location: debugger\extremotelist_starttail.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteList.StartTail
+- ExtRemoteList.StartTail
 product:
 - Windows
 targetos: Windows

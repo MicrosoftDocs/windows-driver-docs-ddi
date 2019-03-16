@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_BUS_TYPE
-title: D3D11_1DDI_BUS_TYPE
+title: D3D11_1DDI_BUS_TYPE (d3d10umddi.h)
 description: Specifies the type of I/O bus that is used by the graphics adapter.
 old-location: display\d3d11_1ddi_bus_type.htm
 ms.assetid: 07cf1893-1ced-4bfa-a6f7-ec71345b9f18
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_BUS_TYPE
+- D3D11_1DDI_BUS_TYPE
 product:
 - Windows
 targetos: Windows

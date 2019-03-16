@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReleaseIrpOnCancelableQueue
-title: KsReleaseIrpOnCancelableQueue function
+title: KsReleaseIrpOnCancelableQueue function (ks.h)
 description: The KsReleaseIrpOnCancelableQueue function releases an acquired IRP that is already on a queue that can be canceled.
 old-location: stream\ksreleaseirponcancelablequeue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsReleaseIrpOnCancelableQueue
+- KsReleaseIrpOnCancelableQueue
 product:
 - Windows
 targetos: Windows

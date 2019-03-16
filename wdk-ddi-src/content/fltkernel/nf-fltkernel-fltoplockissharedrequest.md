@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockIsSharedRequest
-title: FltOplockIsSharedRequest function
+title: FltOplockIsSharedRequest function (fltkernel.h)
 description: The FltOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fltoplockissharedrequest.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltOplockIsSharedRequest
+- FltOplockIsSharedRequest
 product:
 - Windows
 targetos: Windows

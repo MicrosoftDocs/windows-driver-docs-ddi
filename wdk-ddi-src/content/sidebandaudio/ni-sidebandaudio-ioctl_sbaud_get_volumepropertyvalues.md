@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
-title: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
+title: IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES (sidebandaudio.h)
 description: 
 ms.assetid: 11e26b8c-2c82-46b5-907f-7e2b81f0e16a
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
-product: Windows
+- IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

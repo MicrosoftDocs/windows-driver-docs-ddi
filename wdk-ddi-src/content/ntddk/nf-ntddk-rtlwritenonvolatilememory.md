@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlWriteNonVolatileMemory
-title: RtlWriteNonVolatileMemory function
+title: RtlWriteNonVolatileMemory function (ntddk.h)
 description: The routine RtlWriteNonVolatileMemory copies the contents of a source buffer to a non-volatile destination memory buffer.
 old-location: ifsk\rtlwritenonvolatilememory.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	RtlWriteNonVolatileMemory
+- RtlWriteNonVolatileMemory
 product:
 - Windows
 targetos: Windows

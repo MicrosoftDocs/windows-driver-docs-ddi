@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE
-title: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE
+title: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE (ndis.h)
 description: The ProtocolClModifyCallQoSComplete function is used by connection-oriented NDIS clients that can modify the quality of service on a connection dynamically.
 old-location: netvista\protocolclmodifycallqoscomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolClModifyCallQoSComplete
+- ProtocolClModifyCallQoSComplete
 product:
 - Windows
 targetos: Windows

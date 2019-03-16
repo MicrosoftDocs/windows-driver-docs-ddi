@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltParseFileName
-title: FltParseFileName function
+title: FltParseFileName function (fltkernel.h)
 description: FltParseFileName parses the extension, stream, and final component from a file name string.
 old-location: ifsk\fltparsefilename.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltParseFileName
+- FltParseFileName
 product:
 - Windows
 targetos: Windows

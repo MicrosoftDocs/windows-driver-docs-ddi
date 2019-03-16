@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetPhysicalAddress
-title: ScsiPortGetPhysicalAddress function
+title: ScsiPortGetPhysicalAddress function (srb.h)
 description: The ScsiPortGetPhysicalAddress routine converts a given virtual address range to a physical address range for a DMA operation.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetphysicaladdress.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortGetPhysicalAddress
+- ScsiPortGetPhysicalAddress
 product:
 - Windows
 targetos: Windows

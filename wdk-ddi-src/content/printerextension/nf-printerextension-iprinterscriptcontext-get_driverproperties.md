@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_DriverProperties
-title: IPrinterScriptContext::get_DriverProperties
+title: IPrinterScriptContext::get_DriverProperties (printerextension.h)
 description: Provides access to the driver property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_driverproperties.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptContext.DriverProperties
--	IPrinterScriptContext.get_DriverProperties
+- IPrinterScriptContext.DriverProperties
+- IPrinterScriptContext.get_DriverProperties
 product:
 - Windows
 targetos: Windows

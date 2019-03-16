@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTMapGpuVirtualAddress
-title: D3DKMTMapGpuVirtualAddress function
+title: D3DKMTMapGpuVirtualAddress function (d3dkmthk.h)
 description: D3DKMTMapGpuVirtualAddress maps a graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 old-location: display\d3dkmtmapgpuvirtualaddress.htm
 ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTMapGpuVirtualAddress
+- D3DKMTMapGpuVirtualAddress
 product:
 - Windows
 targetos: Windows

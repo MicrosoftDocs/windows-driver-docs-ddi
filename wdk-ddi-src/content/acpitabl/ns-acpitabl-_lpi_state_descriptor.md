@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPI_STATE_DESCRIPTOR
-title: "_LPI_STATE_DESCRIPTOR"
+title: _LPI_STATE_DESCRIPTOR (acpitabl.h)
 description: Defines an LPI state descriptor.
 old-location: acpi\lpi_state_descriptor.htm
 tech.root: acpi
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	LPI_STATE_DESCRIPTOR
+- LPI_STATE_DESCRIPTOR
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
 ---

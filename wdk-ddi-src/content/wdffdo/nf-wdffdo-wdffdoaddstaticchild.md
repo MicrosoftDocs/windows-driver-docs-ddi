@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoAddStaticChild
-title: WdfFdoAddStaticChild function
+title: WdfFdoAddStaticChild function (wdffdo.h)
 description: The WdfFdoAddStaticChild method adds a specified device to a function driver's list of child devices that have been identified by static enumeration.
 old-location: wdf\wdffdoaddstaticchild.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfFdoAddStaticChild
+- WdfFdoAddStaticChild
 product:
 - Windows
 targetos: Windows

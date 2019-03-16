@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddRADIUSServer_IN
-title: "_AddRADIUSServer_IN"
+title: _AddRADIUSServer_IN (iscsiop.h)
 description: The AddRADIUSServer_IN structure holds the input data for the AddRADIUSServer method, which is used to add a new RADIUS server entry to existing list.
 old-location: storage\addradiusserver_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	AddRADIUSServer_IN
+- AddRADIUSServer_IN
 product:
 - Windows
 targetos: Windows

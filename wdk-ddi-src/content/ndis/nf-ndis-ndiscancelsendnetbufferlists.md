@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCancelSendNetBufferLists
-title: NdisCancelSendNetBufferLists function
+title: NdisCancelSendNetBufferLists function (ndis.h)
 description: Protocol drivers call the NdisCancelSendNetBufferLists function to cancel the transmission of network data.
 old-location: netvista\ndiscancelsendnetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCancelSendNetBufferLists
+- NdisCancelSendNetBufferLists
 product:
 - Windows
 targetos: Windows

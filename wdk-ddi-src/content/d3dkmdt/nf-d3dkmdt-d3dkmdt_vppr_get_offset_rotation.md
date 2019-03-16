@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmdt.D3DKMDT_VPPR_GET_OFFSET_ROTATION
-title: D3DKMDT_VPPR_GET_OFFSET_ROTATION function
+title: D3DKMDT_VPPR_GET_OFFSET_ROTATION function (d3dkmdt.h)
 description: A helper function that extracts the offset angle from a given value of the D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration.
 old-location: display\d3dkmdt_vppr_get_offset_rotation.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	D3DKMDT_VPPR_GET_OFFSET_ROTATION
+- D3DKMDT_VPPR_GET_OFFSET_ROTATION
 product:
 - Windows
 targetos: Windows

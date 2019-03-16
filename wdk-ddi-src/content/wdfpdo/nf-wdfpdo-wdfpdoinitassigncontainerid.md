@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignContainerID
-title: WdfPdoInitAssignContainerID function
+title: WdfPdoInitAssignContainerID function (wdfpdo.h)
 description: The WdfPdoInitAssignContainerID method updates the container ID for a child device.
 old-location: wdf\wdfpdoinitassigncontainerid.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfPdoInitAssignContainerID
+- WdfPdoInitAssignContainerID
 product:
 - Windows
 targetos: Windows

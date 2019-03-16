@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
-title: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
+title: D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 (d3d12umddi.h)
 description: Includes information about the video decode configuration.
 old-location: display\d3d12ddi_video_decode_configuration.htm
 ms.assetid: D689A7F3-87ED-4247-A28D-333C05C958F8
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
+- D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020
 product:
 - Windows
 targetos: Windows

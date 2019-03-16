@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._timecode
-title: "_timecode"
+title: _timecode (ksmedia.h)
 description: The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 old-location: stream\timecode.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TIMECODE
+- TIMECODE
 product:
 - Windows
 targetos: Windows

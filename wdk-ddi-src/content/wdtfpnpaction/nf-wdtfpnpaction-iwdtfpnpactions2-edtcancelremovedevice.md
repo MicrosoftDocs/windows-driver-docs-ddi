@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTCancelRemoveDevice
-title: IWDTFPNPActions2::EDTCancelRemoveDevice
+title: IWDTFPNPActions2::EDTCancelRemoveDevice (wdtfpnpaction.h)
 description: Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelremovedevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfpnpaction.h
+- wdtfpnpaction.h
 api_name:
--	IWDTFPNPActions2.EDTCancelRemoveDevice
+- IWDTFPNPActions2.EDTCancelRemoveDevice
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._IO_FOEXT_SILO_PARAMETERS
-title: "_IO_FOEXT_SILO_PARAMETERS"
+title: _IO_FOEXT_SILO_PARAMETERS (ntddk.h)
 description: This structure describes the Container context that's identified by the IoGetSiloParameters routine.
 old-location: ifsk\io_foext_silo_parameters.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	IO_FOEXT_SILO_PARAMETERS
+- IO_FOEXT_SILO_PARAMETERS
 product:
 - Windows
 targetos: Windows

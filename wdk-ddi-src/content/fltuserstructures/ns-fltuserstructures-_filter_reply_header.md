@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_REPLY_HEADER
-title: "_FILTER_REPLY_HEADER"
+title: _FILTER_REPLY_HEADER (fltuserstructures.h)
 description: The FILTER_REPLY_HEADER structure contains message reply header information.
 old-location: ifsk\filter_reply_header.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	FILTER_REPLY_HEADER
+- FILTER_REPLY_HEADER
 product:
 - Windows
 targetos: Windows

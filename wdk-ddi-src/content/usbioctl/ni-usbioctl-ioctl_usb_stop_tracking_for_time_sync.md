@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
-title: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
+title: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC (usbioctl.h)
 description: This request unegisters the caller with USB driver stack for time sync services.
 old-location: buses\_ioctl_usb_stop_tracking_for_time_sync.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
+- IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
 product:
 - Windows
 targetos: Windows

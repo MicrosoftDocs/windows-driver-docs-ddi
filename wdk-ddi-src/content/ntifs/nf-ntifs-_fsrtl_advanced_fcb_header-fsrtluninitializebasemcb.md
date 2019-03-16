@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUninitializeBaseMcb
-title: FsRtlUninitializeBaseMcb function
+title: FsRtlUninitializeBaseMcb function (ntifs.h)
 description: The FsRtlUninitializeBaseMcb function uninitializes a map control block (MCB) structure.  After calling this routine the input Mcb structure must be re-initialized before being used again.
 ms.assetid: 3c20cc02-add4-4ebb-92bf-1a50e6646439
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlUninitializeBaseMcb
+- FsRtlUninitializeBaseMcb
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5
@@ -56,4 +56,4 @@ None.
 
 ## -see-also
 
-[FsRtlInitializeLargeMcb function](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md)
+[**FsRtlInitializeLargeMcb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb)

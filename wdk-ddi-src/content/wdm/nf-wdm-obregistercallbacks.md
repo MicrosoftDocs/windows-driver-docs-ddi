@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObRegisterCallbacks
-title: ObRegisterCallbacks function
+title: ObRegisterCallbacks function (wdm.h)
 description: The ObRegisterCallbacks routine registers a list of callback routines for thread, process, and desktop handle operations.
 old-location: kernel\obregistercallbacks.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObRegisterCallbacks
+- ObRegisterCallbacks
 product:
 - Windows
 targetos: Windows

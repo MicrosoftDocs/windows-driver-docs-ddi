@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_DECODER_0021
-title: D3D12DDIARG_CREATE_VIDEO_DECODER_0021
+title: D3D12DDIARG_CREATE_VIDEO_DECODER_0021 (d3d12umddi.h)
 description: Used to create a decoder object for a decode session.
 old-location: display\d3d12ddiarg_create_video_decoder.htm
 ms.assetid: 8178A279-96FE-40DC-A292-4551FA153F45
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDIARG_CREATE_VIDEO_DECODER_0021
+- D3D12DDIARG_CREATE_VIDEO_DECODER_0021
 product:
 - Windows
 targetos: Windows

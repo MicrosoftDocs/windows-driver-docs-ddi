@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyPinTypes
-title: BdaPropertyPinTypes function
+title: BdaPropertyPinTypes function (bdasup.h)
 description: The BdaPropertyPinTypes function retrieves a list of pin types in a template topology.
 old-location: stream\bdapropertypintypes.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaPropertyPinTypes
+- BdaPropertyPinTypes
 product:
 - Windows
 targetos: Windows

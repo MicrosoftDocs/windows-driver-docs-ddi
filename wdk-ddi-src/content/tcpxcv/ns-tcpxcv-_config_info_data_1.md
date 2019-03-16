@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpxcv._CONFIG_INFO_DATA_1
-title: "_CONFIG_INFO_DATA_1"
+title: _CONFIG_INFO_DATA_1 (tcpxcv.h)
 description: The XcvData function uses a CONFIG_INFO_DATA_1 structure when it obtains configuration data for a particular port.
 old-location: print\config_info_data_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	tcpxcv.h
+- tcpxcv.h
 api_name:
--	CONFIG_INFO_DATA_1
+- CONFIG_INFO_DATA_1
 product:
 - Windows
 targetos: Windows

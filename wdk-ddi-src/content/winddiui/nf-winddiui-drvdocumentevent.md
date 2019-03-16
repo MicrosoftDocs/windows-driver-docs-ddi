@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvDocumentEvent
-title: DrvDocumentEvent function
+title: DrvDocumentEvent function (winddiui.h)
 description: A printer interface DLL's DrvDocumentEvent function can handle certain events associated with printing a document.
 old-location: print\drvdocumentevent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DrvDocumentEvent
+- DrvDocumentEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetPersistedStateLocation
-title: RtlGetPersistedStateLocation function
+title: RtlGetPersistedStateLocation function (ntddk.h)
 description: Retrieves the redirected location for the specified SourceID from the redirection map.
 ms.assetid: 028aab59-4047-484e-a06b-5ef03b5d0cdb
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	RtlGetPersistedStateLocation
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- RtlGetPersistedStateLocation
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

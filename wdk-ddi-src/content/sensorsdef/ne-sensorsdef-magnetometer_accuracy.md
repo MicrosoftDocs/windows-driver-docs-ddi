@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.MAGNETOMETER_ACCURACY
-title: MAGNETOMETER_ACCURACY
+title: MAGNETOMETER_ACCURACY (sensorsdef.h)
 description: This enumeration represents the accuracy states of the magnetometer.
 old-location: sensors\magnetometer_accuracy.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	MAGNETOMETER_ACCURACY
+- MAGNETOMETER_ACCURACY
 product:
 - Windows
 targetos: Windows

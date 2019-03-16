@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_LOCK2
-title: "_D3DKMT_LOCK2"
+title: _D3DKMT_LOCK2 (d3dkmthk.h)
 description: D3DKMT_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dkmt_lock2.htm
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_LOCK2
+- D3DKMT_LOCK2
 product:
 - Windows
 targetos: Windows

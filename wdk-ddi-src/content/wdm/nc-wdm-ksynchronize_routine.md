@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KSYNCHRONIZE_ROUTINE
-title: KSYNCHRONIZE_ROUTINE
+title: KSYNCHRONIZE_ROUTINE (wdm.h)
 description: The SynchCritSection routine is used to access hardware resources or driver data that are shared with a driver's InterruptService routine.
 old-location: kernel\synchcritsection.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DIRQL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SynchCritSection
+- SynchCritSection
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYPAGINGQUEUECB
-title: PFND3DDDI_DESTROYPAGINGQUEUECB
+title: PFND3DDDI_DESTROYPAGINGQUEUECB (d3dumddi.h)
 description: pfnDestroyPagingQueueCb waits for a paging queue to finish all operations queued to it and destroys it along with the associated sync object.
 old-location: display\pfndestroypagingqueuecb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnDestroyPagingQueueCb
+- pfnDestroyPagingQueueCb
 product:
 - Windows
 targetos: Windows

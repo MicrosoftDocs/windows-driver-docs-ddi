@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorUpdateModes
-title: IddCxMonitorUpdateModes function
+title: IddCxMonitorUpdateModes function (iddcx.h)
 description: An OS callback function the driver calls to update the mode list.
 old-location: display\iddcxmonitorupdatemodes.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxMonitorUpdateModes
+- IddCxMonitorUpdateModes
 product:
 - Windows
 targetos: Windows

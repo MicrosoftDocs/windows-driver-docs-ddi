@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointCreateEnumHandle0
-title: FwpsAleEndpointCreateEnumHandle0 function
+title: FwpsAleEndpointCreateEnumHandle0 function (fwpsk.h)
 description: The FwpsAleEndpointCreateEnumHandle0 function creates a handle that can be used with other application layer enforcement (ALE) endpoint functions to enumerate endpoint data.Note  FwpsAleEndpointCreateEnumHandle0 is a specific version of FwpsAleEndpointCreateEnumHandle. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsaleendpointcreateenumhandle0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAleEndpointCreateEnumHandle0
+- FwpsAleEndpointCreateEnumHandle0
 product:
 - Windows
 targetos: Windows

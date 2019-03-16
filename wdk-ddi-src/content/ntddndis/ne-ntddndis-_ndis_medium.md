@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_MEDIUM
-title: "_NDIS_MEDIUM"
+title: _NDIS_MEDIUM (ntddndis.h)
 description: The NDIS_MEDIUM enumeration type identifies the medium types that NDIS drivers support.
 old-location: netvista\ndis_medium.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_MEDIUM
+- NDIS_MEDIUM
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_BootConfiguration
-title: "_MSiSCSI_BootConfiguration"
+title: _MSiSCSI_BootConfiguration (iscsicfg.h)
 description: The MSiSCSI_BootConfiguration structure describes how the boot device is configured.
 old-location: storage\msiscsi_bootconfiguration.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsicfg.h
+- iscsicfg.h
 api_name:
--	MSiSCSI_BootConfiguration
+- MSiSCSI_BootConfiguration
 product:
 - Windows
 targetos: Windows

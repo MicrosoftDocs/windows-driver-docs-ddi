@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FONTDIRECTORY
-title: "_UFF_FONTDIRECTORY"
+title: _UFF_FONTDIRECTORY (prntfont.h)
 description: The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 old-location: print\uff_fontdirectory.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	UFF_FONTDIRECTORY
+- UFF_FONTDIRECTORY
 product:
 - Windows
 targetos: Windows

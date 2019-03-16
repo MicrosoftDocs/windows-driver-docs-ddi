@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_BREAK_RESERVATION
-title: IOCTL_STORAGE_BREAK_RESERVATION
+title: IOCTL_STORAGE_BREAK_RESERVATION (ntddstor.h)
 description: Breaks a disk reservation.
 old-location: storage\ioctl_storage_break_reservation.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_BREAK_RESERVATION
+- IOCTL_STORAGE_BREAK_RESERVATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortUlong
-title: NdisRawWritePortUlong macro
+title: NdisRawWritePortUlong macro (ndis.h)
 description: NdisRawWritePortUlong writes a ULONG value to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportulong.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawWritePortUlong
+- NdisRawWritePortUlong
 product:
 - Windows
 targetos: Windows

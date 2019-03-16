@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._DRIVER_INFO_8A
-title: "_DRIVER_INFO_8A"
+title: _DRIVER_INFO_8A (winspool.h)
 description: The DRIVER_INFO_8 structure contains printer driver information.
 old-location: print\driver_info_8.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	DRIVER_INFO_8
+- DRIVER_INFO_8
 product:
 - Windows
 targetos: Windows

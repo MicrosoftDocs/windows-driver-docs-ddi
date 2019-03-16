@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceUnmapIoSpace
-title: WdfDeviceUnmapIoSpace function
+title: WdfDeviceUnmapIoSpace function (wdfdevice.h)
 description: The WdfDeviceUnmapIoSpace function unmaps a specified range of physical addresses previously mapped by the WdfDeviceMapIoSpace function.
 old-location: wdf\wdfdeviceunmapiospace.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDeviceUnmapIoSpace
+- WdfDeviceUnmapIoSpace
 product:
 - Windows
 targetos: Windows

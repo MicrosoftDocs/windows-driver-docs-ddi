@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMAllocatePort
-title: NdisMAllocatePort function
+title: NdisMAllocatePort function (ndis.h)
 description: The NdisMAllocatePort function allocates an NDIS port that is associated with a miniport adapter.
 old-location: netvista\ndismallocateport.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMAllocatePort
+- NdisMAllocatePort
 product:
 - Windows
 targetos: Windows

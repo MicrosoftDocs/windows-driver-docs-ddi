@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeQueryAdapterStatus
-title: RxCeQueryAdapterStatus function
+title: RxCeQueryAdapterStatus function (rxce.h)
 description: RxCeQueryAdapterStatus returns the ADAPTER_STATUS structure for a given transport in a caller-allocated buffer.
 old-location: ifsk\rxcequeryadapterstatus.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeQueryAdapterStatus
+- RxCeQueryAdapterStatus
 product:
 - Windows
 targetos: Windows

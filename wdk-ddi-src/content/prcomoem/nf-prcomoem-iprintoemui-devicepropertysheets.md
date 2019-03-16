@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevicePropertySheets
-title: IPrintOemUI::DevicePropertySheets
+title: IPrintOemUI::DevicePropertySheets (prcomoem.h)
 description: The IPrintOemUI::DevicePropertySheets method allows a user interface plug-in to append a new page to a printer device's printer property sheet.
 old-location: print\iprintoemui_devicepropertysheets.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.DevicePropertySheets
+- IPrintOemUI.DevicePropertySheets
 product:
 - Windows
 targetos: Windows

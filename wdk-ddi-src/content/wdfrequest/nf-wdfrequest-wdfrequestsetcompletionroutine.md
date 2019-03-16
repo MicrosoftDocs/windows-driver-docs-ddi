@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestSetCompletionRoutine
-title: WdfRequestSetCompletionRoutine function
+title: WdfRequestSetCompletionRoutine function (wdfrequest.h)
 description: The WdfRequestSetCompletionRoutine method registers or deregisters a completion routine for the specified framework request object.
 old-location: wdf\wdfrequestsetcompletionroutine.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfRequestSetCompletionRoutine
+- WdfRequestSetCompletionRoutine
 product:
 - Windows
 targetos: Windows

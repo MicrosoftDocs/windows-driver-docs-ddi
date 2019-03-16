@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_DEVICE_LOCATION
-title: SRIOV_GET_DEVICE_LOCATION
+title: SRIOV_GET_DEVICE_LOCATION (pcivirt.h)
 description: Retrieves information about the current location of the PCI device on the bus, such as PCI Segment, Bus, Device and Function number.
 old-location: pci\sriov_get_device_location.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_GET_DEVICE_LOCATION
+- *PSRIOV_GET_DEVICE_LOCATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:mrx.PMRX_SRVCALL_WINNER_NOTIFY
-title: PMRX_SRVCALL_WINNER_NOTIFY
+title: PMRX_SRVCALL_WINNER_NOTIFY (mrx.h)
 description: The MRxSrvCallWinnerNotify routine is called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
 old-location: ifsk\mrxsrvcallwinnernotify.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	MRxSrvCallWinnerNotify
+- MRxSrvCallWinnerNotify
 product:
 - Windows
 targetos: Windows

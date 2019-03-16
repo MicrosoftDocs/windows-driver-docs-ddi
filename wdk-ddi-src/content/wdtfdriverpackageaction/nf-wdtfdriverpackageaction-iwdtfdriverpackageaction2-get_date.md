@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Date
-title: IWDTFDriverPackageAction2::get_Date
+title: IWDTFDriverPackageAction2::get_Date (wdtfdriverpackageaction.h)
 description: Gets the driver package date.
 old-location: dtf\iwdtfdriverpackageaction2_date.htm
 tech.root: dtf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.Date
--	IWDTFDriverPackageAction2.get_Date
+- IWDTFDriverPackageAction2.Date
+- IWDTFDriverPackageAction2.get_Date
 product:
 - Windows
 targetos: Windows

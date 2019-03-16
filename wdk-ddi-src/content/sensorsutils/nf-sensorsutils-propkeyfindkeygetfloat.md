@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetFloat
-title: PropKeyFindKeyGetFloat function
+title: PropKeyFindKeyGetFloat function (sensorsutils.h)
 description: This routine gets a single precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: ce0f82e3-6537-4423-b7d5-7c440657d245
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetFloat
+- PropKeyFindKeyGetFloat
 product:
   - Windows
 targetos: Windows

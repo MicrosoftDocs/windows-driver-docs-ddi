@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQuerySecurityObject
-title: FltQuerySecurityObject function
+title: FltQuerySecurityObject function (fltkernel.h)
 description: FltQuerySecurityObject retrieves a copy of an object's security descriptor.
 old-location: ifsk\fltquerysecurityobject.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltQuerySecurityObject
+- FltQuerySecurityObject
 product:
 - Windows
 targetos: Windows

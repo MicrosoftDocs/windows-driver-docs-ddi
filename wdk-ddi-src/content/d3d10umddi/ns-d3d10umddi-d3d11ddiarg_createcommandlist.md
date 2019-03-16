@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATECOMMANDLIST
-title: D3D11DDIARG_CREATECOMMANDLIST
+title: D3D11DDIARG_CREATECOMMANDLIST (d3d10umddi.h)
 description: The D3D11DDIARG_CREATECOMMANDLIST structure contains a handle to the deferred context that was created by the CreateDeferredContext function.
 old-location: display\d3d11ddiarg_createcommandlist.htm
 ms.assetid: 7d720346-4a68-40bd-816d-c406995b3232
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D11DDIARG_CREATECOMMANDLIST
+- D3D11DDIARG_CREATECOMMANDLIST
 product:
 - Windows
 targetos: Windows

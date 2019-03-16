@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetExclusiveWaiterCount
-title: ExGetExclusiveWaiterCount function
+title: ExGetExclusiveWaiterCount function (wdm.h)
 description: The ExGetExclusiveWaiterCount routine returns the number of waiters on exclusive access to a given resource.
 old-location: kernel\exgetexclusivewaitercount.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExGetExclusiveWaiterCount
+- ExGetExclusiveWaiterCount
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckVidPnExclusiveOwnership
-title: D3DKMTCheckVidPnExclusiveOwnership function
+title: D3DKMTCheckVidPnExclusiveOwnership function (d3dkmthk.h)
 description: The D3DKMTCheckVidPnExclusiveOwnership function determines the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 old-location: display\d3dkmtcheckvidpnexclusiveownership.htm
 ms.assetid: 06333989-177c-4c58-b95a-60313c04fe35
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCheckVidPnExclusiveOwnership
+- D3DKMTCheckVidPnExclusiveOwnership
 product:
 - Windows
 targetos: Windows

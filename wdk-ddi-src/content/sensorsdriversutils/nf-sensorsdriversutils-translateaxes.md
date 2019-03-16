@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdriversutils.TranslateAxes
-title: TranslateAxes function
+title: TranslateAxes function (sensorsdriversutils.h)
 description: The TranslateAxes function applies the rotation matrix to the given sample.
 ms.assetid: 5274642e-dbb3-4605-8c29-813d406ed6a3
 ms.date: 04/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	TranslateAxes
+- TranslateAxes
 product: 
 - Windows
 targetos: Windows

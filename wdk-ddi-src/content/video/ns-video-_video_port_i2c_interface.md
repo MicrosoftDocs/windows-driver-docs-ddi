@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_I2C_INTERFACE
-title: "_VIDEO_PORT_I2C_INTERFACE"
+title: _VIDEO_PORT_I2C_INTERFACE (video.h)
 description: The VIDEO_PORT_I2C_INTERFACE structure describes the I2C service routines provided by the video port driver.
 old-location: display\video_port_i2c_interface.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_PORT_I2C_INTERFACE
+- VIDEO_PORT_I2C_INTERFACE
 product:
 - Windows
 targetos: Windows

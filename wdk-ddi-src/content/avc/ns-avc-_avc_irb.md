@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_IRB
-title: "_AVC_IRB"
+title: _AVC_IRB (avc.h)
 description: The AVC_IRB structure is an I/O Request Block (IRB) header structure where a function number is stored.
 old-location: stream\avc_irb.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_IRB
+- AVC_IRB
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
-title: IOCTL_SBAUD_SET_DEVICE_CLAIMED
+title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.date: 10/05/2018
@@ -18,14 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_SET_DEVICE_CLAIMED
-product: Windows
+- IOCTL_SBAUD_SET_DEVICE_CLAIMED
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

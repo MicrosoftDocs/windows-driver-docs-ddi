@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEODECODER
-title: D3D11_1DDIARG_CREATEVIDEODECODER
+title: D3D11_1DDIARG_CREATEVIDEODECODER (d3d10umddi.h)
 description: Specifies the attributes of a video decoder object.
 old-location: display\d3d11_1ddiarg_createvideodecoder.htm
 ms.assetid: c309e9b1-b2bc-40bc-90b9-5c070ba48957
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDIARG_CREATEVIDEODECODER
+- D3D11_1DDIARG_CREATEVIDEODECODER
 product:
 - Windows
 targetos: Windows

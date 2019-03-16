@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_QUERY_PROBED_BARS_2
-title: SRIOV_QUERY_PROBED_BARS_2
+title: SRIOV_QUERY_PROBED_BARS_2 (pcivirt.h)
 description: Queries the data read from the specified PCI Express SR-IOV Virtual Function (VF) base address registers (BARs) if the value -1 were written to them first.
 old-location: pci\sriov_query_probed_bars_2.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_QUERY_PROBED_BARS_2
+- *PSRIOV_QUERY_PROBED_BARS_2
 product:
 - Windows
 targetos: Windows

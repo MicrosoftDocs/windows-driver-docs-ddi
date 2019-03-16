@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortCopyMemory
-title: AtaPortCopyMemory function
+title: AtaPortCopyMemory function (irb.h)
 description: The AtaPortCopyMemory routine copies data from one location to another.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcopymemory.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortCopyMemory
+- AtaPortCopyMemory
 product:
 - Windows
 targetos: Windows

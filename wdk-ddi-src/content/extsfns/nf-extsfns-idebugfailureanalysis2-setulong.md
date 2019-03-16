@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetUlong
-title: IDebugFailureAnalysis2::SetUlong
+title: IDebugFailureAnalysis2::SetUlong (extsfns.h)
 description: The SetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_setulong.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFailureAnalysis2.SetUlong
+- IDebugFailureAnalysis2.SetUlong
 product:
 - Windows
 targetos: Windows

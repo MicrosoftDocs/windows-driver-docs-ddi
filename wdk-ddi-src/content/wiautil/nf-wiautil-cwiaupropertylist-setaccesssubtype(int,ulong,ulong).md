@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetAccessSubType(INT,ULONG,ULONG)
-title: CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)
+title: CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG) (wiautil.h)
 description: The CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG) method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
 tech.root: image
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.SetAccessSubType
+- CWiauPropertyList.SetAccessSubType
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_BIDIRECTIONAL
-title: "_SRBEX_DATA_BIDIRECTIONAL"
+title: _SRBEX_DATA_BIDIRECTIONAL (srb.h)
 description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	SRBEX_DATA_BIDIRECTIONAL
+- SRBEX_DATA_BIDIRECTIONAL
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEODECODER
-title: PFND3D11_1DDI_DESTROYVIDEODECODER
+title: PFND3D11_1DDI_DESTROYVIDEODECODER (d3d10umddi.h)
 description: Releases resources for the video decoder object that were created through a call to the CreateVideoDecoder function.
 old-location: display\destroyvideodecoder.htm
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnDestroyVideoDecoder
+- pfnDestroyVideoDecoder
 product:
 - Windows
 targetos: Windows

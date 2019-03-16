@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverResourceManager
-title: TmRecoverResourceManager function
+title: TmRecoverResourceManager function (wdm.h)
 description: The TmRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\tmrecoverresourcemanager.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmRecoverResourceManager
+- TmRecoverResourceManager
 product:
 - Windows
 targetos: Windows

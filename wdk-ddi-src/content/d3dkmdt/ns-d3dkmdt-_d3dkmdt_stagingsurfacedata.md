@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_STAGINGSURFACEDATA
-title: "_D3DKMDT_STAGINGSURFACEDATA"
+title: _D3DKMDT_STAGINGSURFACEDATA (d3dkmdt.h)
 description: The D3DKMDT_STAGINGSURFACEDATA structure describes the lockable staging surface that data is transferred into from an application's back buffer.
 old-location: display\d3dkmdt_stagingsurfacedata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_STAGINGSURFACEDATA
+- D3DKMDT_STAGINGSURFACEDATA
 product:
 - Windows
 targetos: Windows

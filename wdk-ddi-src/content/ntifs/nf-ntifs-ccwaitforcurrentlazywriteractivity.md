@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcWaitForCurrentLazyWriterActivity
-title: CcWaitForCurrentLazyWriterActivity function
+title: CcWaitForCurrentLazyWriterActivity function (ntifs.h)
 description: The CcWaitForCurrentLazyWriterActivity routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 old-location: ifsk\ccwaitforcurrentlazywriteractivity.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcWaitForCurrentLazyWriterActivity
+- CcWaitForCurrentLazyWriterActivity
 product:
 - Windows
 targetos: Windows

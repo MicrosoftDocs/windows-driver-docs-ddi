@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExecutionStatus
-title: IDebugControl3::SetExecutionStatus
+title: IDebugControl3::SetExecutionStatus (dbgeng.h)
 description: The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution will not occur until the next time WaitForEvent is called.
 old-location: debugger\setexecutionstatus.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetExecutionStatus
--	IDebugControl2.SetExecutionStatus
--	IDebugControl3.SetExecutionStatus
+- IDebugControl.SetExecutionStatus
+- IDebugControl2.SetExecutionStatus
+- IDebugControl3.SetExecutionStatus
 product:
 - Windows
 targetos: Windows

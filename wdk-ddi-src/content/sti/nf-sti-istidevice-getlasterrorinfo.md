@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetLastErrorInfo
-title: IStiDevice::GetLastErrorInfo
+title: IStiDevice::GetLastErrorInfo (sti.h)
 description: The IStiDevice::GetLastErrorInfo method returns information about the last known error associated with a still image device.
 old-location: image\istidevice_getlasterrorinfo.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.GetLastErrorInfo
+- IStiDevice.GetLastErrorInfo
 product:
 - Windows
 targetos: Windows

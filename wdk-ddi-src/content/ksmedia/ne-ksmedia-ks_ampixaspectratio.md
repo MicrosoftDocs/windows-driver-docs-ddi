@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_108
-title: KS_AMPixAspectRatio
+title: KS_AMPixAspectRatio (ksmedia.h)
 description: The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720 480 NTSC video signal or a 720 × 576 PAL video signal.
 old-location: stream\ks_ampixaspectratio.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMPixAspectRatio
+- KS_AMPixAspectRatio
 product:
 - Windows
 targetos: Windows

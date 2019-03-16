@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RESOURCE_BARRIER_0022
-title: D3D12DDIARG_RESOURCE_BARRIER_0022
+title: D3D12DDIARG_RESOURCE_BARRIER_0022 (d3d12umddi.h)
 description: Describes a resource barrier.
 old-location: display\d3d12ddiarg_resource_barrier_0022.htm
 ms.assetid: ED597BB0-F9ED-4311-9E2F-06AEA2755B37
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDIARG_RESOURCE_BARRIER_0022
+- D3D12DDIARG_RESOURCE_BARRIER_0022
 product:
 - Windows
 targetos: Windows

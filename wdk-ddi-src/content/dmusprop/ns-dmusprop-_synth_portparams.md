@@ -1,6 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_PORTPARAMS
-title: "_SYNTH_PORTPARAMS"
+title: _SYNTH_PORTPARAMS (dmusprop.h)
 description: The SYNTH_PORTPARAMS structure contains the configuration parameters for a DirectMusic port, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\synth_portparams.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dmusprop.h
+- dmusprop.h
 api_name:
--	SYNTH_PORTPARAMS
+- SYNTH_PORTPARAMS
 product:
 - Windows
 targetos: Windows

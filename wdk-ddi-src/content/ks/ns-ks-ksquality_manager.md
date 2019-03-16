@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_54
-title: KSQUALITY_MANAGER
+title: KSQUALITY_MANAGER (ks.h)
 description: The KSQUALITY_MANAGER structure is used with the KSPROPERTY_STREAM_QUALITY property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 old-location: stream\ksquality_manager.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSQUALITY_MANAGER
+- KSQUALITY_MANAGER
 product:
 - Windows
 targetos: Windows

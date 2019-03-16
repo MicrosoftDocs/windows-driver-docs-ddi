@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENT1
-title: DXGI_DDI_ARG_PRESENT1
+title: DXGI_DDI_ARG_PRESENT1 (dxgiddi.h)
 description: Describes a resource to display. Used with the pfnPresent1(DXGI) function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\dxgi_ddi_arg_present1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_PRESENT1
+- DXGI_DDI_ARG_PRESENT1
 product:
 - Windows
 targetos: Windows

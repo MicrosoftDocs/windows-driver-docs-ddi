@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsCloseAndResetLogFile
-title: ClfsCloseAndResetLogFile function
+title: ClfsCloseAndResetLogFile function (wdm.h)
 description: The ClfsCloseAndResetLogFile routine releases all references to a specified log file object and marks its associated stream for reset.
 old-location: kernel\clfscloseandresetlogfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsCloseAndResetLogFile
+- ClfsCloseAndResetLogFile
 product:
 - Windows
 targetos: Windows

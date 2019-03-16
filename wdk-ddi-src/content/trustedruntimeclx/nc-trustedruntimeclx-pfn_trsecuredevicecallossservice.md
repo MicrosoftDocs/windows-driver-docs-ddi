@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECALLOSSSERVICE
-title: *PFN_TRSECUREDEVICECALLOSSSERVICE
+title: PFN_TRSECUREDEVICECALLOSSSERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	*PFN_TRSECUREDEVICECALLOSSSERVICE
+- *PFN_TRSECUREDEVICECALLOSSSERVICE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

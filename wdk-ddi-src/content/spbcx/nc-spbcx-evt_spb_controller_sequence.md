@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_SEQUENCE
-title: EVT_SPB_CONTROLLER_SEQUENCE
+title: EVT_SPB_CONTROLLER_SEQUENCE (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 old-location: spb\evtspbcontrolleriosequence.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	EvtSpbControllerIoSequence
+- EvtSpbControllerIoSequence
 product:
 - Windows
 targetos: Windows

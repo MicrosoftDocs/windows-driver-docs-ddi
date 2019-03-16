@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitCommandToHwQueue
-title: D3DKMTSubmitCommandToHwQueue function
+title: D3DKMTSubmitCommandToHwQueue function (d3dkmthk.h)
 description: Used to submit a command to the hardware queue.
 old-location: display\d3dkmtsubmitcommandtohwqueue.htm
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTSubmitCommandToHwQueue
+- D3DKMTSubmitCommandToHwQueue
 product:
 - Windows
 targetos: Windows

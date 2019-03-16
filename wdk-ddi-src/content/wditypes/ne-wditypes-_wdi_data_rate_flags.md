@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_DATA_RATE_FLAGS
-title: "_WDI_DATA_RATE_FLAGS"
+title: _WDI_DATA_RATE_FLAGS (wditypes.h)
 description: The WDI_DATA_RATE_FLAGS enumeration defines the data rate flags.
 old-location: netvista\wdi_data_rate_flags.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_DATA_RATE_FLAGS
+- WDI_DATA_RATE_FLAGS
 product:
 - Windows
 targetos: Windows

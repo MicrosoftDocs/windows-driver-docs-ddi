@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PNP_LOCATION_INTERFACE
-title: "_PNP_LOCATION_INTERFACE"
+title: _PNP_LOCATION_INTERFACE (ntddk.h)
 description: The PNP_LOCATION_INTERFACE structure describes the GUID_PNP_LOCATION_INTERFACE interface.
 old-location: kernel\pnp_location_interface.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PNP_LOCATION_INTERFACE
+- PNP_LOCATION_INTERFACE
 product:
 - Windows
 targetos: Windows

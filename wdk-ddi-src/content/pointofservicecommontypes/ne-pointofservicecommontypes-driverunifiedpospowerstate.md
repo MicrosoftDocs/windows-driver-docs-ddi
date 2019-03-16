@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosPowerState
-title: DriverUnifiedPosPowerState
+title: DriverUnifiedPosPowerState (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\driverunifiedpospowerstate.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverUnifiedPosPowerState
+- DriverUnifiedPosPowerState
 product:
 - Windows
 targetos: Windows

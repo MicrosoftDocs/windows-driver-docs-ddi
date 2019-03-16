@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_INJECTION_CAPABILITIES
-title: "_WHEA_ERROR_INJECTION_CAPABILITIES"
+title: _WHEA_ERROR_INJECTION_CAPABILITIES (ntddk.h)
 description: The WHEA_ERROR_INJECTION_CAPABILITIES union describes the types of hardware errors that can be injected into a hardware platform.
 old-location: whea\whea_error_injection_capabilities.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_ERROR_INJECTION_CAPABILITIES
+- WHEA_ERROR_INJECTION_CAPABILITIES
 product:
 - Windows
 targetos: Windows

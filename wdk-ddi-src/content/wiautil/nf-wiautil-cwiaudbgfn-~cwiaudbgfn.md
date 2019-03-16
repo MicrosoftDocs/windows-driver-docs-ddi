@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauDbgFn.~CWiauDbgFn
-title: CWiauDbgFn::~CWiauDbgFn
+title: CWiauDbgFn::~CWiauDbgFn (wiautil.h)
 description: The CWiauDbgFn::~CWiauDbgFn destructor is called when the function or method being traced by CWiauDbgFn::CWiauDbgFn is exited.
 old-location: image\cwiaudbgfn__cwiaudbgfn.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauDbgFn.~CWiauDbgFn
+- CWiauDbgFn.~CWiauDbgFn
 product:
 - Windows
 targetos: Windows

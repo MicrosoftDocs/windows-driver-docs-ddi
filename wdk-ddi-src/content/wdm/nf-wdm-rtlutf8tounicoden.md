@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUTF8ToUnicodeN
-title: RtlUTF8ToUnicodeN function
+title: RtlUTF8ToUnicodeN function (wdm.h)
 description: The RtlUTF8ToUnicodeN routine converts a UTF-8 string to a Unicode string.
 old-location: kernel\rtlutf8tounicoden.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUTF8ToUnicodeN
+- RtlUTF8ToUnicodeN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_28
-title: KSRTAUDIO_HWREGISTER_PROPERTY
+title: KSRTAUDIO_HWREGISTER_PROPERTY (ksmedia.h)
 description: The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a KSPROPERTY structure.
 old-location: audio\ksrtaudio_hwregister_property.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSRTAUDIO_HWREGISTER_PROPERTY
+- KSRTAUDIO_HWREGISTER_PROPERTY
 product:
 - Windows
 targetos: Windows

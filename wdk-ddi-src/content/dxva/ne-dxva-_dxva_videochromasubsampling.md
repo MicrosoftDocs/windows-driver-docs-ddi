@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoChromaSubsampling
-title: "_DXVA_VideoChromaSubsampling"
+title: _DXVA_VideoChromaSubsampling (dxva.h)
 description: The DXVA_VideoChromaSubsampling enumeration type contains enumerators that identify the chroma encoding scheme for Y'Cb'Cr' data.
 old-location: display\dxva_videochromasubsampling.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_VideoChromaSubsampling
+- DXVA_VideoChromaSubsampling
 product:
 - Windows
 targetos: Windows

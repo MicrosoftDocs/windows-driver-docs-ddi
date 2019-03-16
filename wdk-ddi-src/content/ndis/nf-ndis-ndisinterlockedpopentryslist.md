@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedPopEntrySList
-title: NdisInterlockedPopEntrySList macro
+title: NdisInterlockedPopEntrySList macro (ndis.h)
 description: The NdisInterlockedPopEntrySList function removes the first entry from a sequenced, singly linked list.
 old-location: netvista\ndisinterlockedpopentryslist.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisInterlockedPopEntrySList
+- NdisInterlockedPopEntrySList
 product:
 - Windows
 targetos: Windows

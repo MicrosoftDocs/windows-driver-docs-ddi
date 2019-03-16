@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MW
-title: "_NDK_MW"
+title: _NDK_MW (ndkpi.h)
 description: The NDK_MW structure specifies the attributes of an NDK memory window (MW) object.
 old-location: netvista\ndk_mw.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_MW
+- NDK_MW
 product:
 - Windows
 targetos: Windows

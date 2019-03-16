@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxCreateVNetRoot
-title: RxCreateVNetRoot function
+title: RxCreateVNetRoot function (fcb.h)
 description: RxCreateVNetRoot allocates and initializes a NET_ROOT structure and inserts the name into the net name table on the associated device object.
 old-location: ifsk\rxcreatevnetroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxCreateVNetRoot
+- RxCreateVNetRoot
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_SAMPLER_DESC
-title: D3D10_DDI_SAMPLER_DESC
+title: D3D10_DDI_SAMPLER_DESC (d3d10umddi.h)
 description: The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 old-location: display\d3d10_ddi_sampler_desc.htm
 ms.assetid: 2f65b381-bf81-45b5-9583-793e4ffb453c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_DDI_SAMPLER_DESC
+- D3D10_DDI_SAMPLER_DESC
 product:
 - Windows
 targetos: Windows

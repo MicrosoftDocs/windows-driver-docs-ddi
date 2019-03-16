@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortMidi.Notify
-title: IPortMidi::Notify
+title: IPortMidi::Notify (portcls.h)
 description: The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
 old-location: audio\iportmidi_notify.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortMidi.Notify
+- IPortMidi.Notify
 product:
 - Windows
 targetos: Windows

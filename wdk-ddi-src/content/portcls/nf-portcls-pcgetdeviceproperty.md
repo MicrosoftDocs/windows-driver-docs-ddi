@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcGetDeviceProperty
-title: PcGetDeviceProperty function
+title: PcGetDeviceProperty function (portcls.h)
 description: The PcGetDeviceProperty function returns the requested device property from the registry.
 old-location: audio\pcgetdeviceproperty.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcGetDeviceProperty
+- PcGetDeviceProperty
 product:
 - Windows
 targetos: Windows

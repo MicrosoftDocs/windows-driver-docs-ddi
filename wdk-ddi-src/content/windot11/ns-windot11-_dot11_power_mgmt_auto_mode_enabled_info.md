@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
-title: "_DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO"
+title: _DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO (windot11.h)
 description: The DOT11_POWER_MGMT_AUTO_MODE_ENABLED structure describes to a device whether to automatically manage its power saving mode.
 old-location: netvista\dot11_power_mgmt_auto_mode_enabled_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
+- DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
 product:
 - Windows
 targetos: Windows

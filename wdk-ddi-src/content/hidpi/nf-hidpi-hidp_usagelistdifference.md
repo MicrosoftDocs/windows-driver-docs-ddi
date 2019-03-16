@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UsageListDifference
-title: HidP_UsageListDifference function
+title: HidP_UsageListDifference function (hidpi.h)
 description: The HidP_UsageListDifference routine returns the differences between two arrays of HID usages.
 old-location: hid\hidp_usagelistdifference.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_UsageListDifference
+- HidP_UsageListDifference
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._KEY_VIRTUALIZATION_INFORMATION
-title: "_KEY_VIRTUALIZATION_INFORMATION"
+title: _KEY_VIRTUALIZATION_INFORMATION (ntddk.h)
 description: The KEY_VIRTUALIZATION_INFORMATION structure defines the basic information that is available for a registry key or subkey.
 old-location: kernel\key_virtualization_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	KEY_VIRTUALIZATION_INFORMATION
+- KEY_VIRTUALIZATION_INFORMATION
 product:
 - Windows
 targetos: Windows

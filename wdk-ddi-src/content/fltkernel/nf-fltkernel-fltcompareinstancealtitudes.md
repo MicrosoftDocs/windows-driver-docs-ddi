@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCompareInstanceAltitudes
-title: FltCompareInstanceAltitudes function
+title: FltCompareInstanceAltitudes function (fltkernel.h)
 description: FltCompareInstanceAltitudes compares the altitudes of two minifilter driver instances.
 old-location: ifsk\fltcompareinstancealtitudes.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCompareInstanceAltitudes
+- FltCompareInstanceAltitudes
 product:
 - Windows
 targetos: Windows

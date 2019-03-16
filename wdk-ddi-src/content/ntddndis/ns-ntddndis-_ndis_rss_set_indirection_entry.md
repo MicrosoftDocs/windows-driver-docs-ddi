@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_SET_INDIRECTION_ENTRY
-title: "_NDIS_RSS_SET_INDIRECTION_ENTRY"
+title: _NDIS_RSS_SET_INDIRECTION_ENTRY (ntddndis.h)
 description: The NDIS_RSS_SET_INDIRECTION_ENTRY structure represents a command to set a single indirection table entry.
 old-location: netvista\ndis_rss_set_indirection_entry.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RSS_SET_INDIRECTION_ENTRY
+- NDIS_RSS_SET_INDIRECTION_ENTRY
 product:
 - Windows
 targetos: Windows

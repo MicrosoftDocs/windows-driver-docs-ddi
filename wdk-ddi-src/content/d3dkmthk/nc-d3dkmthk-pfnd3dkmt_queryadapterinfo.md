@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYADAPTERINFO
-title: PFND3DKMT_QUERYADAPTERINFO
+title: PFND3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
 description: The PFND3DKMT_QUERYADAPTERINFO callback function retrieves graphics adapter information.
 ms.assetid: fc4f4324-cb20-49ae-8f1c-3aa8e75d3d9a
 ms.date: 11/21/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_QUERYADAPTERINFO
+- PFND3DKMT_QUERYADAPTERINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
-title: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
+title: _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS (usb.h)
 description: The _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure is used by USB client drivers to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time.
 old-location: buses\_urb_get_isoch_pipe_transfer_path_delays.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
+- _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
 product:
 - Windows
 targetos: Windows

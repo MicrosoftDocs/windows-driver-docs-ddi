@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_MAKERESIDENT
-title: D3DDDI_MAKERESIDENT
+title: D3DDDI_MAKERESIDENT (d3dukmdt.h)
 description: D3DDDI_MAKERESIDENT is used with MakeResident (pfnMakeResidentCb or D3DKMTMakeResident) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\d3dddi_makeresident.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_MAKERESIDENT
+- D3DDDI_MAKERESIDENT
 product:
 - Windows
 targetos: Windows

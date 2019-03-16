@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_DATA
-title: "_DXVAHDDDI_STREAM_DATA"
+title: _DXVAHDDDI_STREAM_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_DATA structure describes an input stream that is processed.
 old-location: display\dxvahdddi_stream_data.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DXVAHDDDI_STREAM_DATA
+- DXVAHDDDI_STREAM_DATA
 product:
 - Windows
 targetos: Windows

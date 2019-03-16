@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearBitsAndSet
-title: RtlFindClearBitsAndSet function
+title: RtlFindClearBitsAndSet function (wdm.h)
 description: The RtlFindClearBitsAndSet routine searches for a range of clear bits of a requested size within a bitmap and sets all bits in the range when it has been located.
 old-location: kernel\rtlfindclearbitsandset.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindClearBitsAndSet
+- RtlFindClearBitsAndSet
 product:
 - Windows
 targetos: Windows

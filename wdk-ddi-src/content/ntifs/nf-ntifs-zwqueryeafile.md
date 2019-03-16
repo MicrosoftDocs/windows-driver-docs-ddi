@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwQueryEaFile
-title: ZwQueryEaFile function
+title: ZwQueryEaFile function (ntifs.h)
 description: The ZwQueryEaFile routine returns information about extended-attribute (EA) values for a file.
 old-location: kernel\zwqueryeafile.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryEaFile
+- ZwQueryEaFile
 product:
 - Windows
 targetos: Windows

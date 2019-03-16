@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortBufferUlong
-title: NdisRawReadPortBufferUlong macro
+title: NdisRawReadPortBufferUlong macro (ndis.h)
 description: NdisRawReadPortBufferUlong reads a specified number of ULONGs into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferulong.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawReadPortBufferUlong
+- NdisRawReadPortBufferUlong
 product:
 - Windows
 targetos: Windows

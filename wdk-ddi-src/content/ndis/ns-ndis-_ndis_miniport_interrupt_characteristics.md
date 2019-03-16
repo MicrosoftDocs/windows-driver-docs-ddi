@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
-title: "_NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS"
+title: _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS (ndis.h)
 description: An NDIS miniport driver defines its interrupt characteristics in an NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure and passes the structure to the NdisMRegisterInterruptEx function.
 old-location: netvista\ndis_miniport_interrupt_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
+- NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

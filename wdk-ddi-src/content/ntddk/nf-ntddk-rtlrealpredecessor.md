@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRealPredecessor
-title: RtlRealPredecessor function
+title: RtlRealPredecessor function (ntddk.h)
 description: The RtlRealPredecessor routine returns a pointer to the predecessor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealpredecessor.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlRealPredecessor
+- RtlRealPredecessor
 product:
 - Windows
 targetos: Windows

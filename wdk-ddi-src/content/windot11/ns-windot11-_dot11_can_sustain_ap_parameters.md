@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_CAN_SUSTAIN_AP_PARAMETERS
-title: "_DOT11_CAN_SUSTAIN_AP_PARAMETERS"
+title: _DOT11_CAN_SUSTAIN_AP_PARAMETERS (windot11.h)
 description: The DOT11_CAN_SUSTAIN_AP_PARAMETERS structure specifies the reason why the NIC can sustain an access point (AP).
 old-location: netvista\dot11_can_sustain_ap_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_CAN_SUSTAIN_AP_PARAMETERS
+- DOT11_CAN_SUSTAIN_AP_PARAMETERS
 product:
 - Windows
 targetos: Windows

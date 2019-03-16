@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA
-title: "_IDENTIFY_DEVICE_DATA"
+title: _IDENTIFY_DEVICE_DATA (ata.h)
 description: The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\identify_device_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ata.h
+- ata.h
 api_name:
--	IDENTIFY_DEVICE_DATA
+- IDENTIFY_DEVICE_DATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.WriteIPortableDeviceValuesToBuffer
-title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer
+title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer (portabledevicetypes.h)
 description: Serializes an IPortableDeviceValues interface to a caller-allocated byte array.
 old-location: wpddk\iwpdserializer_writeiportabledevicevaluestobuffer.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IWpdSerializer.WriteIPortableDeviceValuesToBuffer
+- IWpdSerializer.WriteIPortableDeviceValuesToBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

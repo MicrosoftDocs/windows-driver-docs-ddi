@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_GET_HASH_VALUE
-title: NET_BUFFER_LIST_GET_HASH_VALUE macro
+title: NET_BUFFER_LIST_GET_HASH_VALUE macro (ndis.h)
 description: The NET_BUFFER_LIST_GET_HASH_VALUE macro gets the hash value information from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 22d65cb6-9a5a-4b75-bbca-49216988dba0
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_LIST_GET_HASH_VALUE
+- NET_BUFFER_LIST_GET_HASH_VALUE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:netrxqueue.NetRxQueueCreate
-title: NetRxQueueCreate function
+title: NetRxQueueCreate function (netrxqueue.h)
 description: Creates a net receive queue object.
 tech.root: netvista
 ms.assetid: 2f5e886c-10c8-42bf-83d3-1902ef628b5a
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrxqueue.h
-apiname: 
--	NetRxQueueCreate
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrxqueue.h
+api_name: 
+- NetRxQueueCreate
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

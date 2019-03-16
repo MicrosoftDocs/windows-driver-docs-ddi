@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetupAdvancedHeader
-title: FsRtlSetupAdvancedHeader function
+title: FsRtlSetupAdvancedHeader function (ntifs.h)
 description: The FsRtlSetupAdvancedHeader macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with filter contexts.
 old-location: ifsk\fsrtlsetupadvancedheader.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlSetupAdvancedHeader
+- FsRtlSetupAdvancedHeader
 product:
 - Windows
 targetos: Windows

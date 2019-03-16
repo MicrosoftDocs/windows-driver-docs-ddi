@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCopyMemory
-title: RtlCopyMemory macro
+title: RtlCopyMemory macro (wdm.h)
 description: The RtlCopyMemory routine copies the contents of a source memory block to a destination memory block.
 old-location: kernel\rtlcopymemory.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
--	API-MS-Win-Core-Rtlsupport-l1-1-0.dll
+- NtDll.dll
+- NtosKrnl.exe
+- API-MS-Win-Core-Rtlsupport-l1-1-0.dll
 api_name:
--	RtlCopyMemory
+- RtlCopyMemory
 product:
 - Windows
 targetos: Windows

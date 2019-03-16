@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDeviceCapabilities
-title: OEMDeviceCapabilities function
+title: OEMDeviceCapabilities function (printoem.h)
 description: OEMDeviceCapabilities function
 old-location: print\oemdevicecapabilities.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMDeviceCapabilities
+- OEMDeviceCapabilities
 product:
 - Windows
 targetos: Windows

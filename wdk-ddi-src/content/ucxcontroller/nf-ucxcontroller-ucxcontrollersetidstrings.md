@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerSetIdStrings
-title: UcxControllerSetIdStrings function
+title: UcxControllerSetIdStrings function (ucxcontroller.h)
 description: Updates the identifier strings of a controller after the controller has been initialized.
 old-location: buses\ucxcontrollersetidstrings.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ucxstubs.lib
--	Ucxstubs.dll
+- Ucxstubs.lib
+- Ucxstubs.dll
 api_name:
--	UcxControllerSetIdStrings
+- UcxControllerSetIdStrings
 product:
 - Windows
 targetos: Windows

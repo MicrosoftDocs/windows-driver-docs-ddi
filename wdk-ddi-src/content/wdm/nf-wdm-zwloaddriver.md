@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwLoadDriver
-title: ZwLoadDriver function
+title: ZwLoadDriver function (wdm.h)
 description: The ZwLoadDriver routine loads a driver into the system.
 old-location: kernel\zwloaddriver.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwLoadDriver
--	NtLoadDriver
+- ZwLoadDriver
+- NtLoadDriver
 product:
 - Windows
 targetos: Windows

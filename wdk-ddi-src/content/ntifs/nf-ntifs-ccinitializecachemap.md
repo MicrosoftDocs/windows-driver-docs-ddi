@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcInitializeCacheMap
-title: CcInitializeCacheMap function
+title: CcInitializeCacheMap function (ntifs.h)
 description: File systems call the CcInitializeCacheMap routine to cache a file.
 old-location: ifsk\ccinitializecachemap.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcInitializeCacheMap
+- CcInitializeCacheMap
 product:
 - Windows
 targetos: Windows

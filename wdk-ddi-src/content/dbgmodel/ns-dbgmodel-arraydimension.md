@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgmodel.ArrayDimension
-title: ArrayDimension
+title: ArrayDimension (dbgmodel.h)
 description: Defines the memory layout of one dimension of an array.
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.date: 07/16/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ArrayDimension
-product: Windows
+- ArrayDimension
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

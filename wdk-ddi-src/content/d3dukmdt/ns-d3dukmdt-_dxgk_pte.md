@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGK_PTE
-title: "_DXGK_PTE"
+title: _DXGK_PTE (d3dukmdt.h)
 description: A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation.
 old-location: display\dxgk_pte.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	DXGK_PTE
+- DXGK_PTE
 product:
 - Windows
 targetos: Windows

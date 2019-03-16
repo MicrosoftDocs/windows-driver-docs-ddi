@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBSCRIBERINFOSERVICE
-title: RILSUBSCRIBERINFOSERVICE
+title: RILSUBSCRIBERINFOSERVICE (ntddrilapitypes.h)
 description: This enumeration describes the RILSUBSCRIBERINFOSERVICE.
 old-location: netvista\rilsubscriberinfoservice.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILSUBSCRIBERINFOSERVICE
+- RILSUBSCRIBERINFOSERVICE
 product:
 - Windows
 targetos: Windows

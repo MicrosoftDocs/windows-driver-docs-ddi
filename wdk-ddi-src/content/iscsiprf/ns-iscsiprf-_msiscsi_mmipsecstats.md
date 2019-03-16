@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_MMIPSECStats
-title: "_MSiSCSI_MMIPSECStats"
+title: _MSiSCSI_MMIPSECStats (iscsiprf.h)
 description: The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics.
 old-location: storage\msiscsi_mmipsecstats.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_MMIPSECStats
+- MSiSCSI_MMIPSECStats
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetProperties
-title: IKsAllocatorEx::KsSetProperties
+title: IKsAllocatorEx::KsSetProperties (ksproxy.h)
 description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsAllocatorEx.KsSetProperties
+- IKsAllocatorEx.KsSetProperties
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAttachDeviceToDeviceStack
-title: IoAttachDeviceToDeviceStack function
+title: IoAttachDeviceToDeviceStack function (wdm.h)
 description: The IoAttachDeviceToDeviceStack routine attaches the caller's device object to the highest device object in the chain and returns a pointer to the previously highest device object.
 old-location: kernel\ioattachdevicetodevicestack.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoAttachDeviceToDeviceStack
+- IoAttachDeviceToDeviceStack
 product:
 - Windows
 targetos: Windows

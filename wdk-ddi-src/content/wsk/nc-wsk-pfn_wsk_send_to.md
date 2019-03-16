@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND_TO
-title: PFN_WSK_SEND_TO
+title: PFN_WSK_SEND_TO (wsk.h)
 description: The WskSendTo function sends datagram data to a remote transport address.
 old-location: netvista\wsksendto.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskSendTo
+- WskSendTo
 product:
 - Windows
 targetos: Windows

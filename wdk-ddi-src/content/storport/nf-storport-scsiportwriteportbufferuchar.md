@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWritePortBufferUchar
-title: ScsiPortWritePortBufferUchar macro
+title: ScsiPortWritePortBufferUchar macro (storport.h)
 description: The ScsiPortWritePortBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportbufferuchar.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortWritePortBufferUchar
+- ScsiPortWritePortBufferUchar
 product:
 - Windows
 targetos: Windows

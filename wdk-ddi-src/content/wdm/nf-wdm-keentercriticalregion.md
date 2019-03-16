@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeEnterCriticalRegion
-title: KeEnterCriticalRegion function
+title: KeEnterCriticalRegion function (wdm.h)
 description: The KeEnterCriticalRegion routine temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
 old-location: kernel\keentercriticalregion.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeEnterCriticalRegion
+- KeEnterCriticalRegion
 product:
 - Windows
 targetos: Windows

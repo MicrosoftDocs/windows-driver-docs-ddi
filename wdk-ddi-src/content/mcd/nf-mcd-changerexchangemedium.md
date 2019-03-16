@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerExchangeMedium
-title: ChangerExchangeMedium function
+title: ChangerExchangeMedium function (mcd.h)
 description: ChangerExchangeMedium handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_EXCHANGE_MEDIUM.
 old-location: storage\changerexchangemedium.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerExchangeMedium
+- ChangerExchangeMedium
 product:
 - Windows
 targetos: Windows

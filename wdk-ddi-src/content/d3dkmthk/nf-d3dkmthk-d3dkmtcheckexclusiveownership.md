@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckExclusiveOwnership
-title: D3DKMTCheckExclusiveOwnership function
+title: D3DKMTCheckExclusiveOwnership function (d3dkmthk.h)
 description: The D3DKMTCheckExclusiveOwnership function checks whether any kernel device object in the operating system has an exclusive level of ownership of any video present sources.
 old-location: display\d3dkmtcheckexclusiveownership.htm
 ms.assetid: 1695abc2-13ef-4168-b3f5-e9e8be55c5f0
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCheckExclusiveOwnership
+- D3DKMTCheckExclusiveOwnership
 product:
 - Windows
 targetos: Windows

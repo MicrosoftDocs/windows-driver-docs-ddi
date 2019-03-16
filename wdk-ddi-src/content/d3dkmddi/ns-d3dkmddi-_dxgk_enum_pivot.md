@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ENUM_PIVOT
-title: "_DXGK_ENUM_PIVOT"
+title: _DXGK_ENUM_PIVOT (d3dkmddi.h)
 description: The DXGK_ENUM_PIVOT structure identifies either a video present source or a video present target as the enumeration pivot in a call to DxgkDdiEnumVidPnCofuncModality.
 old-location: display\dxgk_enum_pivot.htm
 ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_ENUM_PIVOT
+- DXGK_ENUM_PIVOT
 product:
 - Windows
 targetos: Windows

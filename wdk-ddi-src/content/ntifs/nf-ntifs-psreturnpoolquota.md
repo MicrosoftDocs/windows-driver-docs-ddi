@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsReturnPoolQuota
-title: PsReturnPoolQuota function
+title: PsReturnPoolQuota function (ntifs.h)
 description: The PsReturnPoolQuota routine returns pool quota of the specified pool type to the specified process.
 old-location: ifsk\psreturnpoolquota.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsReturnPoolQuota
+- PsReturnPoolQuota
 product:
 - Windows
 targetos: Windows

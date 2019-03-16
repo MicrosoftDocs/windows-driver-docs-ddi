@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerErrorOccurredEventData
-title: "_PosBarcodeScannerErrorOccurredEventData"
+title: _PosBarcodeScannerErrorOccurredEventData (pointofservicedriverinterface.h)
 description: This structure contains the error data that is passed to the BarcodeScannerErrorOccurred event.
 old-location: pos\posbarcodescannererroroccurredeventdata.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosBarcodeScannerErrorOccurredEventData
+- PosBarcodeScannerErrorOccurredEventData
 product:
 - Windows
 targetos: Windows

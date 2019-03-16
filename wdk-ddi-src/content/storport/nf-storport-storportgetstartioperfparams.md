@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetStartIoPerfParams
-title: StorPortGetStartIoPerfParams function
+title: StorPortGetStartIoPerfParams function (storport.h)
 description: The StorPortGetStartIoPerfParams routine places the performance parameters for a given I/O request in a STARTIO_PERFORMANCE_PARAMETERS structure.
 old-location: storage\storportgetstartioperfparams.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortGetStartIoPerfParams
+- StorPortGetStartIoPerfParams
 product:
 - Windows
 targetos: Windows

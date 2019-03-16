@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoIndexByNameWide
-title: IDebugRegisters2::GetPseudoIndexByNameWide
+title: IDebugRegisters2::GetPseudoIndexByNameWide (dbgeng.h)
 description: The GetPseudoIndexByNameWide method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbynamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetPseudoIndexByNameWide
+- IDebugRegisters2.GetPseudoIndexByNameWide
 product:
 - Windows
 targetos: Windows

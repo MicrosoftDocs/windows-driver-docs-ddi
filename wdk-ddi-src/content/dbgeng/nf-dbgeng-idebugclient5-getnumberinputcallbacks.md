@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberInputCallbacks
-title: IDebugClient5::GetNumberInputCallbacks
+title: IDebugClient5::GetNumberInputCallbacks (dbgeng.h)
 description: The GetNumberInputCallbacks method returns the number of input callbacks registered over all clients.
 old-location: debugger\getnumberinputcallbacks.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.GetNumberInputCallbacks
+- IDebugClient5.GetNumberInputCallbacks
 product:
 - Windows
 targetos: Windows

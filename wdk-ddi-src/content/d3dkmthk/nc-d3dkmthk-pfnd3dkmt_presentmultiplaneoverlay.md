@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_PRESENTMULTIPLANEOVERLAY
-title: PFND3DKMT_PRESENTMULTIPLANEOVERLAY
+title: PFND3DKMT_PRESENTMULTIPLANEOVERLAY (d3dkmthk.h)
 description: The PFND3DKMT_PRESENTMULTIPLANEOVERLAY callback function copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: 2fb551f9-28f3-4bca-8ea4-0f91c2978f0c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_PRESENTMULTIPLANEOVERLAY
+- PFND3DKMT_PRESENTMULTIPLANEOVERLAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

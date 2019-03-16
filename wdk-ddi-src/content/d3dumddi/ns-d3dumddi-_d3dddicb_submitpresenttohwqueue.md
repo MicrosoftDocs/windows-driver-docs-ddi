@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITPRESENTTOHWQUEUE
-title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE
+title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE (d3dumddi.h)
 description: Arguments used by the PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 47ca9041-9e7a-4afa-9e82-0148f8985078
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_SUBMITPRESENTTOHWQUEUE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDICB_SUBMITPRESENTTOHWQUEUE
+- _D3DDDICB_SUBMITPRESENTTOHWQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

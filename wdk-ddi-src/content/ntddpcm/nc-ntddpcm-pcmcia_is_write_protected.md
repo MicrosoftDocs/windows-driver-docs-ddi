@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddpcm.PCMCIA_IS_WRITE_PROTECTED
-title: PCMCIA_IS_WRITE_PROTECTED
+title: PCMCIA_IS_WRITE_PROTECTED (ntddpcm.h)
 description: The PCMCIA_IS_WRITE_PROTECTED interface routine returns the write-protect condition of a PCMCIA memory card.
 old-location: pcmcia\pcmcia_is_write_protected.htm
 tech.root: PCMCIA
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	IsWriteProtected
+- IsWriteProtected
 product:
 - Windows
 targetos: Windows

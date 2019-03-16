@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_NETWORK_IDLE_HINT
-title: "_WWAN_NETWORK_IDLE_HINT"
+title: _WWAN_NETWORK_IDLE_HINT (wwan.h)
 description: The WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interface regarding whether data is expected to be active or idle on the interface.
 old-location: netvista\wwan_network_idle_hint.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_NETWORK_IDLE_HINT
+- WWAN_NETWORK_IDLE_HINT
 product:
 - Windows
 targetos: Windows

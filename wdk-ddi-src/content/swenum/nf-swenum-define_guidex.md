@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.DEFINE_GUIDEX
-title: DEFINE_GUIDEX function
+title: DEFINE_GUIDEX function (swenum.h)
 description: 
 ms.assetid: aa3c1f4a-1a4b-4cad-b54e-260022c29681
 ms.date: 10/19/2018
@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	swenum.h
+- swenum.h
 api_name: 
--	DEFINE_GUIDEX
+- DEFINE_GUIDEX
 product: 
 -   Windows
 targetos: Windows

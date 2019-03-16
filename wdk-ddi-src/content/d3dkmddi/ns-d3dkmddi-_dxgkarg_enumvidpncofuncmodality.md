@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ENUMVIDPNCOFUNCMODALITY
-title: "_DXGKARG_ENUMVIDPNCOFUNCMODALITY"
+title: _DXGKARG_ENUMVIDPNCOFUNCMODALITY (d3dkmddi.h)
 description: The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the DxgkDdiEnumVidPnCofuncModality function.
 old-location: display\dxgkarg_enumvidpncofuncmodality.htm
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_ENUMVIDPNCOFUNCMODALITY
+- DXGKARG_ENUMVIDPNCOFUNCMODALITY
 product:
 - Windows
 targetos: Windows

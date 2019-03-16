@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
-title: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
+title: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053 (d3d12umddi.h)
 description: 
 ms.assetid: 0c85fbc9-13eb-4bf3-a08b-914b49a2d71a
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
+- D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

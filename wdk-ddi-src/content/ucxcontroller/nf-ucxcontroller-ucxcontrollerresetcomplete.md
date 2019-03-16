@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerResetComplete
-title: UcxControllerResetComplete function
+title: UcxControllerResetComplete function (ucxcontroller.h)
 description: Informs USB Host Controller Extension (UCX) that the reset operation has competed.
 old-location: buses\_ucxcontrollerresetcomplete.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UcxControllerResetComplete
+- UcxControllerResetComplete
 product:
 - Windows
 targetos: Windows

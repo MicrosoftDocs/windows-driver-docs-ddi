@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltBuildDefaultSecurityDescriptor
-title: FltBuildDefaultSecurityDescriptor function
+title: FltBuildDefaultSecurityDescriptor function (fltkernel.h)
 description: FltBuildDefaultSecurityDescriptor builds a default security descriptor for use with FltCreateCommunicationPort.
 old-location: ifsk\fltbuilddefaultsecuritydescriptor.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltBuildDefaultSecurityDescriptor
+- FltBuildDefaultSecurityDescriptor
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.StartHead
-title: ExtRemoteList::StartHead
+title: ExtRemoteList::StartHead (engextcpp.h)
 description: The StartHead method initializes the list for iterating forward starting at the head.
 old-location: debugger\extremotelist_starthead.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteList.StartHead
+- ExtRemoteList.StartHead
 product:
 - Windows
 targetos: Windows

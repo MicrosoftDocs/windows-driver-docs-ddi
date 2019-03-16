@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcUnregisterAdapterPnpManagement
-title: PcUnregisterAdapterPnpManagement function
+title: PcUnregisterAdapterPnpManagement function (portcls.h)
 description: The PcUnregisterAdapterPnpManagement function unregisters the audio adapter's PnP management interface from the PortCls class driver. It is used to support PnP rebalance.
 old-location: audio\pcunregisteradapterpnpmanagement.htm
 tech.root: audio
@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcUnregisterAdapterPnpManagement
+- PcUnregisterAdapterPnpManagement
 product:
 - Windows
 targetos: Windows

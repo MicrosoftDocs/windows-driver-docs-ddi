@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETENCRYPTIONBLTKEY
-title: PFND3D11_1DDI_GETENCRYPTIONBLTKEY
+title: PFND3D11_1DDI_GETENCRYPTIONBLTKEY (d3d10umddi.h)
 description: Queries the key that is used to decrypt the data returned by the EncryptionBlt(D3D11_1) function.
 old-location: display\getencryptionbltkey1.htm
 ms.assetid: f1d3a443-7980-4894-b6a9-04c0886c6996
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnGetEncryptionBltKey
+- pfnGetEncryptionBltKey
 product:
 - Windows
 targetos: Windows

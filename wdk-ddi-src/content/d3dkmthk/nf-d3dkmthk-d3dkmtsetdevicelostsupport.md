@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetDeviceLostSupport
-title: D3DKMTSetDeviceLostSupport function
+title: D3DKMTSetDeviceLostSupport function (d3dkmthk.h)
 description: Used to indicate that the device has lost support.
 old-location: display\d3dkmtsetdevicelostsupport.htm
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTSetDeviceLostSupport
+- D3DKMTSetDeviceLostSupport
 product:
 - Windows
 targetos: Windows

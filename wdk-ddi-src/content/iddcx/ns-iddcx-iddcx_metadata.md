@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_METADATA
-title: IDDCX_METADATA
+title: IDDCX_METADATA (iddcx.h)
 description: Gives information about the current provided surface and what is displayed on it.
 old-location: display\iddcx_metadata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_METADATA
+- IDDCX_METADATA
 product:
 - Windows
 targetos: Windows

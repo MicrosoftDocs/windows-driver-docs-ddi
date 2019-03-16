@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_IOCTL_ROUTINE
-title: PWINDBG_IOCTL_ROUTINE
+title: PWINDBG_IOCTL_ROUTINE (wdbgexts.h)
 description: The PWINDBG_IOCTL_ROUTINE (Ioctl) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
 old-location: debugger\ioctl.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	Ioctl
+- Ioctl
 product:
 - Windows
 targetos: Windows

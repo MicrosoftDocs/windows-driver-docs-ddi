@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxSwapChainReportFrameStatistics
-title: IddCxSwapChainReportFrameStatistics function
+title: IddCxSwapChainReportFrameStatistics function (iddcx.h)
 description: An OS callback function the driver calls to report the frame statistics after it has processed a frame completely.
 old-location: display\iddcxswapchainreportframestatistics.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxSwapChainReportFrameStatistics
+- IddCxSwapChainReportFrameStatistics
 product:
 - Windows
 targetos: Windows

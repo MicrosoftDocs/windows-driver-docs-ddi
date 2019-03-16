@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
-title: PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
+title: PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY (d3dkmthk.h)
 description: The PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY callback function sets the hardware protection tear down recovery.
 ms.assetid: 7beb2a30-1171-4ad3-8ae3-8358e55921a0
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
+- PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

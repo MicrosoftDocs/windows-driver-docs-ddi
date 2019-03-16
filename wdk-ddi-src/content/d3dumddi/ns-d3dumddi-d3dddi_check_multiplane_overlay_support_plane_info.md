@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
-title: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+title: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO (d3dumddi.h)
 description: Used to check multiplane overlay support plane info.
 ms.assetid: 4dc51026-e8e3-4950-a4b5-194132c1749b
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+- D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

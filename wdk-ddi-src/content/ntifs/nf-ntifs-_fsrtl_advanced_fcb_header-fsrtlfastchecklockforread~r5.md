@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastCheckLockForRead~r5
-title: FsRtlFastCheckLockForRead function
+title: FsRtlFastCheckLockForRead function (ntifs.h)
 description: The FsRtlFastCheckLockForRead routine determines whether the specified process has read access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforread.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlFastCheckLockForRead
+- FsRtlFastCheckLockForRead
 product:
 - Windows
 targetos: Windows

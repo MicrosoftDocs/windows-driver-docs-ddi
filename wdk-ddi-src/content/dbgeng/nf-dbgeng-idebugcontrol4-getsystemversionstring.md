@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionString
-title: IDebugControl4::GetSystemVersionString
+title: IDebugControl4::GetSystemVersionString (dbgeng.h)
 description: The GetSystemVersionString method returns a string that describes the target's operating system version.
 old-location: debugger\getsystemversionstring.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetSystemVersionString
+- IDebugControl4.GetSystemVersionString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClGetProtocolVcContextFromTapiCallId
-title: NdisClGetProtocolVcContextFromTapiCallId function
+title: NdisClGetProtocolVcContextFromTapiCallId function (ndis.h)
 description: NdisClGetProtocolVcContextFromTapiCallId retrieves the client context for a virtual connection (VC) identified by a TAPI Call ID string.
 old-location: netvista\ndisclgetprotocolvccontextfromtapicallid.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisClGetProtocolVcContextFromTapiCallId
+- NdisClGetProtocolVcContextFromTapiCallId
 product:
 - Windows
 targetos: Windows

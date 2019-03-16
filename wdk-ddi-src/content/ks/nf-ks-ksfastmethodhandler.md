@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFastMethodHandler
-title: KsFastMethodHandler function
+title: KsFastMethodHandler function (ks.h)
 description: The KsFastMethodHandler function handles fast methods requested through IOCTL_KS_METHOD. It responds to all method identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfastmethodhandler.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFastMethodHandler
+- KsFastMethodHandler
 product:
 - Windows
 targetos: Windows

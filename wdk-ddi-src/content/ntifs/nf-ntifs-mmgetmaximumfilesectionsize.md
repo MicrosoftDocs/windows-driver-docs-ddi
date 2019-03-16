@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmGetMaximumFileSectionSize
-title: MmGetMaximumFileSectionSize function
+title: MmGetMaximumFileSectionSize function (ntifs.h)
 description: The MmGetMaximumFileSectionSize returns the maximum possible size of a file section for the current version of Windows.
 old-location: ifsk\mmgetmaximumfilesectionsize.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmGetMaximumFileSectionSize
+- MmGetMaximumFileSectionSize
 product:
 - Windows
 targetos: Windows

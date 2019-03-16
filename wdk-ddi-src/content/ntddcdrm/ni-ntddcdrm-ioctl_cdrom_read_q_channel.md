@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_READ_Q_CHANNEL
-title: IOCTL_CDROM_READ_Q_CHANNEL
+title: IOCTL_CDROM_READ_Q_CHANNEL (ntddcdrm.h)
 description: Returns the current position, media catalog, or ISRC track data. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_read_q_channel.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_READ_Q_CHANNEL
+- IOCTL_CDROM_READ_Q_CHANNEL
 product:
 - Windows
 targetos: Windows

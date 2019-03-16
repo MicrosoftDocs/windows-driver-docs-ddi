@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeSetSecurityDescriptorInfo
-title: SeSetSecurityDescriptorInfo function
+title: SeSetSecurityDescriptorInfo function (ntifs.h)
 description: The SeSetSecurityDescriptorInfo routine sets an object's security descriptor.
 old-location: ifsk\sesetsecuritydescriptorinfo.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeSetSecurityDescriptorInfo
+- SeSetSecurityDescriptorInfo
 product:
 - Windows
 targetos: Windows

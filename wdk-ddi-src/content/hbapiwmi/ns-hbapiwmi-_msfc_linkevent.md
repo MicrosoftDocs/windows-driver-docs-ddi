@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_LinkEvent
-title: "_MSFC_LinkEvent"
+title: _MSFC_LinkEvent (hbapiwmi.h)
 description: A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 old-location: storage\msfc_linkevent.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_LinkEvent
+- MSFC_LinkEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceTryHandleUserIoctl
-title: UdecxWdfDeviceTryHandleUserIoctl function
+title: UdecxWdfDeviceTryHandleUserIoctl function (udecxwdfdevice.h)
 description: Attempts to handle an IOCTL request sent by a user-mode software.
 old-location: buses\udecxwdfdevicetryhandleuserioctl.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxWdfDeviceTryHandleUserIoctl
+- UdecxWdfDeviceTryHandleUserIoctl
 product:
 - Windows
 targetos: Windows

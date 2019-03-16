@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
-title: "_WHEA_PSHED_PLUGIN_REGISTRATION_PACKET"
+title: _WHEA_PSHED_PLUGIN_REGISTRATION_PACKET (ntddk.h)
 description: The WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure describes the data required for registering a PSHED plug-in with the PSHED.
 old-location: whea\whea_pshed_plugin_registration_packet.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
+- WHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 product:
 - Windows
 targetos: Windows

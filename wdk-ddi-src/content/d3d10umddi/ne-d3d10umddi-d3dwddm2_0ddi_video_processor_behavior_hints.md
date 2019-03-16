@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
-title: D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+title: D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS (d3d10umddi.h)
 description: Describes operations that the video processor can perform more efficiently than VideoProcessorBlt.
 old-location: display\d3dwddm2_0ddi_video_processor_behavior_hints.htm
 ms.assetid: 1D995AE5-C856-4971-8D51-B06EB32F8C74
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
+- D3DWDDM2_0DDI_VIDEO_PROCESSOR_BEHAVIOR_HINTS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ResetManagedStatus
-title: IDebugControl4::ResetManagedStatus
+title: IDebugControl4::ResetManagedStatus (dbgeng.h)
 description: Clears and reinitializes the engine's managed code debugging support of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_resetmanagedstatus.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.ResetManagedStatus
+- IDebugControl4.ResetManagedStatus
 product:
 - Windows
 targetos: Windows

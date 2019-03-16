@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_WORKITEM_ROUTINE
-title: IO_WORKITEM_ROUTINE
+title: IO_WORKITEM_ROUTINE (wdm.h)
 description: A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine.
 old-location: kernel\workitem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	WorkItem
+- WorkItem
 product:
 - Windows
 targetos: Windows

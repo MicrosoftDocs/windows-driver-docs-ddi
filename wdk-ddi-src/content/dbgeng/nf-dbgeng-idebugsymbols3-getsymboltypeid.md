@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolTypeId
-title: IDebugSymbols3::GetSymbolTypeId
+title: IDebugSymbols3::GetSymbolTypeId (dbgeng.h)
 description: The GetSymbolTypeId method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeid.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetSymbolTypeId
--	IDebugSymbols2.GetSymbolTypeId
--	IDebugSymbols3.GetSymbolTypeId
+- IDebugSymbols.GetSymbolTypeId
+- IDebugSymbols2.GetSymbolTypeId
+- IDebugSymbols3.GetSymbolTypeId
 product:
 - Windows
 targetos: Windows

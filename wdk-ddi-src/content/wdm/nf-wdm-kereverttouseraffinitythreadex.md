@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRevertToUserAffinityThreadEx
-title: KeRevertToUserAffinityThreadEx function
+title: KeRevertToUserAffinityThreadEx function (wdm.h)
 description: The KeRevertToUserAffinityThreadEx routine restores the previous affinity of the current thread.
 old-location: kernel\kereverttouseraffinitythreadex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)."
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeRevertToUserAffinityThreadEx
+- KeRevertToUserAffinityThreadEx
 product:
 - Windows
 targetos: Windows

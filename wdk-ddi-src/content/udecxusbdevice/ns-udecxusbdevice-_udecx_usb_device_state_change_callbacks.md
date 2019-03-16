@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
-title: "_UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS"
+title: _UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS (udecxusbdevice.h)
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure with pointers to callback functions that are implemented by a UDE client for a virtual USB device.
 old-location: buses\udecx_usb_device_state_change_callbacks.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
+- UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS
 product:
 - Windows
 targetos: Windows

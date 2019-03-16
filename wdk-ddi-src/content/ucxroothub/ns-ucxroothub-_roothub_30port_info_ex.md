@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_30PORT_INFO_EX
-title: "_ROOTHUB_30PORT_INFO_EX"
+title: _ROOTHUB_30PORT_INFO_EX (ucxroothub.h)
 description: Provides extended USB 3.0 port information about speed.
 old-location: buses\_roothub_30port_info_ex.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	ROOTHUB_30PORT_INFO_EX
+- ROOTHUB_30PORT_INFO_EX
 product:
 - Windows
 targetos: Windows

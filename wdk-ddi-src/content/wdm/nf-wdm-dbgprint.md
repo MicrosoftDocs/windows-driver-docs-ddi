@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.DbgPrint
-title: DbgPrint function
+title: DbgPrint function (wdm.h)
 description: The DbgPrint routine sends a message to the kernel debugger.
 old-location: devtest\dbgprint.htm
 tech.root: devtest
@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL (see Comments section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	DbgPrint
+- DbgPrint
 product:
 - Windows
 targetos: Windows

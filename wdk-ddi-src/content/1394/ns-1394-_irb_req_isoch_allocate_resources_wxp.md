@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
-title: "_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP"
+title: _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 old-location: ieee\irb_req_isoch_allocate_resources_wxp.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
+- IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 product:
 - Windows
 targetos: Windows

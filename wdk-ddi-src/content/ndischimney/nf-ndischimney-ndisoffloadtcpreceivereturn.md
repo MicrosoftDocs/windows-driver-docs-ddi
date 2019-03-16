@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisOffloadTcpReceiveReturn
-title: NdisOffloadTcpReceiveReturn function
+title: NdisOffloadTcpReceiveReturn function (ndischimney.h)
 description: A protocol driver or intermediate driver calls the NdisOffloadTcpReceiveReturn function to return ownership of NET_BUFFER_LIST and associated structures to an underlying offload target.
 old-location: netvista\ndisoffloadtcpreceivereturn.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisOffloadTcpReceiveReturn
+- NdisOffloadTcpReceiveReturn
 product:
 - Windows
 targetos: Windows

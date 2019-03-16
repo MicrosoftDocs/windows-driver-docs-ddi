@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_RESTART_PARAMETERS
-title: "_NDIS_MINIPORT_RESTART_PARAMETERS"
+title: _NDIS_MINIPORT_RESTART_PARAMETERS (ndis.h)
 description: The NDIS_MINIPORT_RESTART_PARAMETERS structure defines the restart parameters for a miniport adapter.
 old-location: netvista\ndis_miniport_restart_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MINIPORT_RESTART_PARAMETERS
+- NDIS_MINIPORT_RESTART_PARAMETERS
 product:
 - Windows
 targetos: Windows

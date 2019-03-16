@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptableStream
-title: IPrinterScriptableStream
+title: IPrinterScriptableStream (printerextension.h)
 description: The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.
 old-location: print\iprinterscriptablestream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptableStream
+- IPrinterScriptableStream
 product:
 - Windows
 targetos: Windows

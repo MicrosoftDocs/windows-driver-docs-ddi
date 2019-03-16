@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlTestAnsiCharacter
-title: FsRtlTestAnsiCharacter macro
+title: FsRtlTestAnsiCharacter macro (ntifs.h)
 description: The FsRtlTestAnsiCharacter macro determines whether an ANSI or double-byte character set (DBCS) character meets the specified criteria.
 old-location: ifsk\fsrtltestansicharacter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlTestAnsiCharacter
+- FsRtlTestAnsiCharacter
 product:
 - Windows
 targetos: Windows

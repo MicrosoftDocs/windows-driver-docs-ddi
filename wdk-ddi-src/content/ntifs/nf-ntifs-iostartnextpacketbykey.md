@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoStartNextPacketByKey
-title: IoStartNextPacketByKey function
+title: IoStartNextPacketByKey function (ntifs.h)
 description: The IoStartNextPacketByKey routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's StartIo routine with that IRP.
 old-location: kernel\iostartnextpacketbykey.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoStartNextPacketByKey
+- IoStartNextPacketByKey
 product:
 - Windows
 targetos: Windows

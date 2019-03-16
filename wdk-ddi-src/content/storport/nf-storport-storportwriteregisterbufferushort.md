@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUshort
-title: StorPortWriteRegisterBufferUshort macro
+title: StorPortWriteRegisterBufferUshort macro (storport.h)
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferushort.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortWriteRegisterBufferUshort
+- StorPortWriteRegisterBufferUshort
 product:
 - Windows
 targetos: Windows

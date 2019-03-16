@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverErrorReportApiMissing
-title: WdfDriverErrorReportApiMissing function
+title: WdfDriverErrorReportApiMissing function (wdfdriver.h)
 description:
 ms.assetid: fdd7c033-0b0a-46d7-8488-ac7d49b37676
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	WdfDriverErrorReportApiMissing
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- WdfDriverErrorReportApiMissing
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

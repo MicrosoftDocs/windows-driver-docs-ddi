@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
-title: EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
+title: EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT (trustedruntimeclx.h)
 description: 
 ms.assetid: 9ac67112-a870-4aa9-a676-fabb0cf36cf3
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
+- EVT_TR_RELEASE_HARDWARE_SECURE_ENVIRONMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

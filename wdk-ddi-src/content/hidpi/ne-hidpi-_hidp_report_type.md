@@ -1,6 +1,6 @@
 ---
 UID: NE:hidpi._HIDP_REPORT_TYPE
-title: "_HIDP_REPORT_TYPE"
+title: _HIDP_REPORT_TYPE (hidpi.h)
 description: The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type.
 old-location: hid\hidp_report_type.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_REPORT_TYPE
+- HIDP_REPORT_TYPE
 product:
 - Windows
 targetos: Windows

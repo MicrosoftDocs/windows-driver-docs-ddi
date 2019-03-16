@@ -1,6 +1,6 @@
 ---
 UID: NF:mrxfcb.RxAcquireExclusiveFcbResourceInMRx
-title: RxAcquireExclusiveFcbResourceInMRx function
+title: RxAcquireExclusiveFcbResourceInMRx function (mrxfcb.h)
 description: RxAcquireExclusiveFcbResourceInMRx acquires the FCB resource for a network mini-redirector driver in exclusive mode.
 old-location: ifsk\rxacquireexclusivefcbresourceinmrx.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrxfcb.h
+- mrxfcb.h
 api_name:
--	RxAcquireExclusiveFcbResourceInMRx
+- RxAcquireExclusiveFcbResourceInMRx
 product:
 - Windows
 targetos: Windows

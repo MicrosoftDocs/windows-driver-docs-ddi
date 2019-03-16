@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetRingBufferGetNextPacket
-title: NetRingBufferGetNextPacket function
+title: NetRingBufferGetNextPacket function (netadapterpacket.h)
 description: Returns a pointer to the packet in a packet ring buffer at the ring buffer's NextIndex index value.
 tech.root: netvista
 ms.assetid: f77fdf7a-cd55-4828-9eeb-1853dae6a023
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NetRingBufferGetNextPacket
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NetRingBufferGetNextPacket
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_UCHAR
-title: READ_REGISTER_BUFFER_UCHAR function
+title: READ_REGISTER_BUFFER_UCHAR function (wdm.h)
 description: The READ_REGISTER_BUFFER_UCHAR routine reads a number of bytes from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_uchar.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	READ_REGISTER_BUFFER_UCHAR
+- READ_REGISTER_BUFFER_UCHAR
 product:
 - Windows
 targetos: Windows

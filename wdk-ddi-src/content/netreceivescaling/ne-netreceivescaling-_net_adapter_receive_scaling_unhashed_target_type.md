@@ -1,6 +1,6 @@
 ---
 UID: NE:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
-title: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
+title: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE (netreceivescaling.h)
 description: The NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE enumeration specifies how a net adapter handles unhashed receive side scaling (RSS) frames.
 tech.root: netvista
 ms.assetid: fed6bfa6-1388-490f-a586-33ee7590cb5f
@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netreceivescaling.h
+api_name: 
+- _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

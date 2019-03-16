@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFCancelOidRequest
-title: NdisFCancelOidRequest function
+title: NdisFCancelOidRequest function (ndis.h)
 description: Filter drivers call the NdisFCancelOidRequest function to cancel a previous request to the underlying drivers.
 old-location: netvista\ndisfcanceloidrequest.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFCancelOidRequest
+- NdisFCancelOidRequest
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._DRVPROCS
-title: "_DRVPROCS"
+title: _DRVPROCS (printoem.h)
 description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
 old-location: print\drvprocs.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DRVPROCS
+- DRVPROCS
 product:
 - Windows
 targetos: Windows

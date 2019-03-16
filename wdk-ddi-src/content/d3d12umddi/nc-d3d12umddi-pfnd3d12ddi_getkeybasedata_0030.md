@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETKEYBASEDATA_0030
-title: PFND3D12DDI_GETKEYBASEDATA_0030
+title: PFND3D12DDI_GETKEYBASEDATA_0030 (d3d12umddi.h)
 description: Used to get key base data.
 old-location: display\pfnd3d12ddi_getkeybasedata_0030.htm
 ms.assetid: D4F893E9-6B7B-4E35-A92F-B31FFD55A2C0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_GETKEYBASEDATA_0030
+- PFND3D12DDI_GETKEYBASEDATA_0030
 product:
 - Windows
 targetos: Windows

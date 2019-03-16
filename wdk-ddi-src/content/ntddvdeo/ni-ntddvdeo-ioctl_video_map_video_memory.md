@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_MAP_VIDEO_MEMORY
-title: IOCTL_VIDEO_MAP_VIDEO_MEMORY
+title: IOCTL_VIDEO_MAP_VIDEO_MEMORY (ntddvdeo.h)
 description: Maps the video hardware frame buffer and video RAM into the virtual address space of the requester.
 old-location: display\ioctl_video_map_video_memory.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_MAP_VIDEO_MEMORY
+- IOCTL_VIDEO_MAP_VIDEO_MEMORY
 product:
 - Windows
 targetos: Windows

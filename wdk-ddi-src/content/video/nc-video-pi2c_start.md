@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_START
-title: PI2C_START
+title: PI2C_START (video.h)
 description: The I2CStart function starts I2C communication.
 old-location: display\i2cstart.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	I2CStart
+- I2CStart
 product:
 - Windows
 targetos: Windows

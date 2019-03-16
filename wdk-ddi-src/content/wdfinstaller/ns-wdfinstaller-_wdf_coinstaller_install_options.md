@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinstaller._WDF_COINSTALLER_INSTALL_OPTIONS
-title: "_WDF_COINSTALLER_INSTALL_OPTIONS"
+title: _WDF_COINSTALLER_INSTALL_OPTIONS (wdfinstaller.h)
 description: The WDF_COINSTALLER_INSTALL_OPTIONS structure contains installation options that a framework-based driver's installer can specify to the framework's co-installer.
 old-location: wdf\wdf_coinstaller_install_options.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinstaller.h
+- wdfinstaller.h
 api_name:
--	WDF_COINSTALLER_INSTALL_OPTIONS
+- WDF_COINSTALLER_INSTALL_OPTIONS
 product:
 - Windows
 targetos: Windows

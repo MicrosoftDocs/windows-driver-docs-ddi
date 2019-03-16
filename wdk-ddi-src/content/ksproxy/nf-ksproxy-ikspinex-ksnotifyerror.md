@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinEx.KsNotifyError
-title: IKsPinEx::KsNotifyError
+title: IKsPinEx::KsNotifyError (ksproxy.h)
 description: The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex_ksnotifyerror.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPinEx.KsNotifyError
+- IKsPinEx.KsNotifyError
 product:
 - Windows
 targetos: Windows

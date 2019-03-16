@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_WRITE_PINS_MASK
-title: GPIO_CLIENT_WRITE_PINS_MASK
+title: GPIO_CLIENT_WRITE_PINS_MASK (gpioclx.h)
 description: The CLIENT_WriteGpioPinsUsingMask event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
 old-location: gpio\client_writegpiopinsusingmask.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_WriteGpioPinsUsingMask
+- CLIENT_WriteGpioPinsUsingMask
 product:
 - Windows
 targetos: Windows

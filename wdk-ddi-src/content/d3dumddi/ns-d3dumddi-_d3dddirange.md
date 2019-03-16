@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIRANGE
-title: "_D3DDDIRANGE"
+title: _D3DDDIRANGE (d3dumddi.h)
 description: Specifies a range of memory within a buffer.
 old-location: display\d3dddirange.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIRANGE
+- D3DDDIRANGE
 product:
 - Windows
 targetos: Windows

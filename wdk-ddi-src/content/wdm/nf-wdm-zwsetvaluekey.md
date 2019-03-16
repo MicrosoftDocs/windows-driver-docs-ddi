@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwSetValueKey
-title: ZwSetValueKey function
+title: ZwSetValueKey function (wdm.h)
 description: The ZwSetValueKey routine creates or replaces a registry key's value entry.
 old-location: kernel\zwsetvaluekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetValueKey
--	NtSetValueKey
+- ZwSetValueKey
+- NtSetValueKey
 product:
 - Windows
 targetos: Windows

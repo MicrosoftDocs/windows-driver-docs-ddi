@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IO_ADDRESS
-title: "_IO_ADDRESS"
+title: _IO_ADDRESS (1394.h)
 description: The IO_ADDRESS structure specifies the 1394 64-bit destination address for read, write and lock operations.
 old-location: ieee\io_address.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IO_ADDRESS
+- IO_ADDRESS
 product:
 - Windows
 targetos: Windows

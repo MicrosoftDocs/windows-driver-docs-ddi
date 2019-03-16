@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryUnbiasedInterruptTime
-title: KeQueryUnbiasedInterruptTime function
+title: KeQueryUnbiasedInterruptTime function (wdm.h)
 description: The KeQueryUnbiasedInterruptTime routine returns the current value of the system interrupt time count.
 old-location: kernel\kequeryunbiasedinterrupttime.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryUnbiasedInterruptTime
+- KeQueryUnbiasedInterruptTime
 product:
 - Windows
 targetos: Windows

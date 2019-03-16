@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_NOTIFY_COMPONENT_IDLE_STATE
-title: "_PEP_NOTIFY_COMPONENT_IDLE_STATE"
+title: _PEP_NOTIFY_COMPONENT_IDLE_STATE (pepfx.h)
 description: The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state.
 old-location: kernel\pep_notify_component_idle_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_NOTIFY_COMPONENT_IDLE_STATE
+- PEP_NOTIFY_COMPONENT_IDLE_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRPL_IN
-title: "_SM_SendRPL_IN"
+title: _SM_SendRPL_IN (hbapiwmi.h)
 description: The SM_SendRPL_IN structure is used to provide input parameters to the SM_SendRPL method.
 old-location: storage\sm_sendrpl_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendRPL_IN
+- SM_SendRPL_IN
 product:
 - Windows
 targetos: Windows

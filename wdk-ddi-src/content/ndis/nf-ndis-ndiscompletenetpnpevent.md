@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCompleteNetPnPEvent
-title: NdisCompleteNetPnPEvent function
+title: NdisCompleteNetPnPEvent function (ndis.h)
 description: Protocol drivers call the NdisCompleteNetPnPEvent function to complete a response to a Plug and Play or Power Management event for which the caller's ProtocolNetPnPEvent function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompletenetpnpevent.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCompleteNetPnPEvent
+- NdisCompleteNetPnPEvent
 product:
 - Windows
 targetos: Windows

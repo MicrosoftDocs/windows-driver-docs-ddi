@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_OBJECT_NAME
-title: "_PEP_ACPI_OBJECT_NAME"
+title: _PEP_ACPI_OBJECT_NAME (pepfx.h)
 description: The PEP_ACPI_OBJECT_NAME union contains the four-character name of an ACPI object.
 old-location: kernel\pep_acpi_object_name.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_OBJECT_NAME
+- PEP_ACPI_OBJECT_NAME
 product:
 - Windows
 targetos: Windows

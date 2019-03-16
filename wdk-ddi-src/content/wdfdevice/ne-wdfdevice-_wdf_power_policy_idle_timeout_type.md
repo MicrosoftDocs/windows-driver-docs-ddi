@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
-title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
+title: _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE (wdfdevice.h)
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration identifies how the idle timeout for a device is determined.
 old-location: wdf\wdf_power_policy_idle_timeout_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+- WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 product:
 - Windows
 targetos: Windows

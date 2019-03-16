@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnableDriver
-title: IPrintOemEngine::EnableDriver
+title: IPrintOemEngine::EnableDriver (prcomoem.h)
 description: 
 old-location: print\iprintoemengine_enabledriver.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemEngine.EnableDriver
+- IPrintOemEngine.EnableDriver
 product:
 - Windows
 targetos: Windows

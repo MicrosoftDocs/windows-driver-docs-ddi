@@ -1,6 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents
-title: NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents function
+title: NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents function (netpowersettings.h)
 description: Retrieves flags that specify currently enabled media-specific wake-up events that a network adapter supports.
 tech.root: netvista
 ms.assetid: a46c5a52-6393-421c-8495-8e8b20b60fba
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

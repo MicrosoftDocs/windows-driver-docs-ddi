@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.SetBreakpointAtFunction
-title: IDataModelScriptDebug2::SetBreakpointAtFunction
+title: IDataModelScriptDebug2::SetBreakpointAtFunction (dbgmodel.h)
 description: Sets a breakpoint on the function given by the supplied name.
 ms.assetid: d8f17c0d-caf6-41ee-8ed9-6ec4837908f2
 ms.date: 09/11/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.SetBreakpointAtFunction
-product: Windows
+- IDataModelScriptDebug2.SetBreakpointAtFunction
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

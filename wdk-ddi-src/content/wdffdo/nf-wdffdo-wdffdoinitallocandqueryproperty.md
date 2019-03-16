@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitAllocAndQueryProperty
-title: WdfFdoInitAllocAndQueryProperty function
+title: WdfFdoInitAllocAndQueryProperty function (wdffdo.h)
 description: The WdfFdoInitAllocAndQueryProperty method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdffdoinitallocandqueryproperty.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfFdoInitAllocAndQueryProperty
+- WdfFdoInitAllocAndQueryProperty
 product:
 - Windows
 targetos: Windows

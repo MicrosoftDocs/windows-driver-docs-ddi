@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmAddPartyComplete
-title: NdisMCmAddPartyComplete macro
+title: NdisMCmAddPartyComplete macro (ndis.h)
 description: NdisMCmAddPartyComplete returns the final status of a client's request, for which the MCM driver previously returned NDIS_STATUS_PENDING, to add a party on an established multipoint VC.
 old-location: netvista\ndismcmaddpartycomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmAddPartyComplete
+- NdisMCmAddPartyComplete
 product:
 - Windows
 targetos: Windows

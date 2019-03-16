@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptGetDevice
-title: WdfInterruptGetDevice function
+title: WdfInterruptGetDevice function (wdfinterrupt.h)
 description: The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object.
 old-location: wdf\wdfinterruptgetdevice.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfInterruptGetDevice
+- WdfInterruptGetDevice
 product:
 - Windows
 targetos: Windows

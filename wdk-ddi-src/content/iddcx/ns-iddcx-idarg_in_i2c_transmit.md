@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_I2C_TRANSMIT
-title: IDARG_IN_I2C_TRANSMIT
+title: IDARG_IN_I2C_TRANSMIT (iddcx.h)
 description: Gives information about the I2C data being transmitted by the OS.
 old-location: display\idarg_in_i2c_transmit.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_I2C_TRANSMIT
+- IDARG_IN_I2C_TRANSMIT
 product:
 - Windows
 targetos: Windows

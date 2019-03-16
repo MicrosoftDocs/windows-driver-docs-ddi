@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetFontSubstitution
-title: IPrintCoreHelperPS::GetFontSubstitution
+title: IPrintCoreHelperPS::GetFontSubstitution (prcomoem.h)
 description: The IPrintCoreHelperPS::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
 old-location: print\iprintcorehelperps_getfontsubstitution.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperPS.GetFontSubstitution
+- IPrintCoreHelperPS.GetFontSubstitution
 product:
 - Windows
 targetos: Windows

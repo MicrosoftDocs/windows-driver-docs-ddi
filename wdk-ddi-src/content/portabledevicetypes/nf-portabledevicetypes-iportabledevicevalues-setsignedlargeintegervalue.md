@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetSignedLargeIntegerValue
-title: IPortableDeviceValues::SetSignedLargeIntegerValue
+title: IPortableDeviceValues::SetSignedLargeIntegerValue (portabledevicetypes.h)
 description: Adds a new LONGLONG value (type VT_I8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedlargeintegervalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetSignedLargeIntegerValue
+- IPortableDeviceValues.SetSignedLargeIntegerValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

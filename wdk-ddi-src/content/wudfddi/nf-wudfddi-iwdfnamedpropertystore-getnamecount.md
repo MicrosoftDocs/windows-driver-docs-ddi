@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.GetNameCount
-title: IWDFNamedPropertyStore::GetNameCount
+title: IWDFNamedPropertyStore::GetNameCount (wudfddi.h)
 description: The GetNameCount method retrieves the number of properties in a property store.
 old-location: wdf\iwdfnamedpropertystore_getnamecount.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFNamedPropertyStore.GetNameCount
+- IWDFNamedPropertyStore.GetNameCount
 product:
 - Windows
 targetos: Windows

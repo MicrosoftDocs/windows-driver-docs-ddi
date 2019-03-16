@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeListHead
-title: NdisInitializeListHead macro
+title: NdisInitializeListHead macro (ndis.h)
 description: The NdisInitializeListHead function initializes a doubly linked, driver-maintained queue.
 old-location: netvista\ndisinitializelisthead.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisInitializeListHead
+- NdisInitializeListHead
 product:
 - Windows
 targetos: Windows

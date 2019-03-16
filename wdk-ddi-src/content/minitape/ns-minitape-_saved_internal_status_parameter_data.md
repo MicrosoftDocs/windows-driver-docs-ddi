@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SAVED_INTERNAL_STATUS_PARAMETER_DATA
-title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA
+title: _SAVED_INTERNAL_STATUS_PARAMETER_DATA (minitape.h)
 description: 
 ms.assetid: a3d9f2ab-79b5-46b2-ba6a-1dfe04bc9b49
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	minitape.h
+- minitape.h
 api_name: 
--	_SAVED_INTERNAL_STATUS_PARAMETER_DATA
+- _SAVED_INTERNAL_STATUS_PARAMETER_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

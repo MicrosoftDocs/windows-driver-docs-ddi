@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfDelete
-title: VhfDelete function
+title: VhfDelete function (vhf.h)
 description: The HID Source device driver calls this method to delete a VHF device.
 old-location: hid\vhfdelete.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: If Wait is TRUE, PASSIVE_LEVEL; if Wait is FALSE <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	vhfKm.lib
--	vhfKm.dll
+- vhfKm.lib
+- vhfKm.dll
 api_name:
--	VhfDelete
+- VhfDelete
 product:
 - Windows
 targetos: Windows

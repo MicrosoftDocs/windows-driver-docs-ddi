@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
-title: "_UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
+title: _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA (ucmtcpciportcontroller.h)
 description: Contains information about hardware alerts received on the port controller object. This structure is used in the UcmTcpciPortControllerAlert call. Call UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT to initialize this structure.
 old-location: buses\ucmtcpci_port_controller_alert_data.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
+- UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 product:
 - Windows
 targetos: Windows

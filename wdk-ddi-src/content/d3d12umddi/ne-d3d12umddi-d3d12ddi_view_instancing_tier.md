@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIEW_INSTANCING_TIER
-title: D3D12DDI_VIEW_INSTANCING_TIER
+title: D3D12DDI_VIEW_INSTANCING_TIER (d3d12umddi.h)
 description: Defines the view instancing tier.
 old-location: display\d3d12ddi-view-instancing-tier.htm
 ms.assetid: 4d52ddb2-818f-4b46-b19f-d6eea36a07da
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIEW_INSTANCING_TIER
+- D3D12DDI_VIEW_INSTANCING_TIER
 product:
 - Windows
 targetos: Windows

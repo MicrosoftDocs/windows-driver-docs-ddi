@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_OUTPUT
-title: "_FSCTL_OFFLOAD_READ_OUTPUT"
+title: _FSCTL_OFFLOAD_READ_OUTPUT (ntifs.h)
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSCTL_OFFLOAD_READ_OUTPUT
+- FSCTL_OFFLOAD_READ_OUTPUT
 product:
 - Windows
 targetos: Windows

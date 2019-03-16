@@ -1,6 +1,6 @@
 ---
 UID: NE:ufs.__unnamed_enum_1
-title: UFS_ATTRIBUTES_DESCRIPTOR
+title: UFS_ATTRIBUTES_DESCRIPTOR (ufs.h)
 description: UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_attributes_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_ATTRIBUTES_DESCRIPTOR
+- UFS_ATTRIBUTES_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

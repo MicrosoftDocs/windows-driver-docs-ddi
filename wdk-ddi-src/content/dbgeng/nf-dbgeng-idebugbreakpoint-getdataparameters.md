@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetDataParameters
-title: IDebugBreakpoint::GetDataParameters
+title: IDebugBreakpoint::GetDataParameters (dbgeng.h)
 description: The GetDataParameters method returns the parameters for a processor breakpoint.
 old-location: debugger\getdataparameters.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetDataParameters
--	IDebugBreakpoint2.GetDataParameters
+- IDebugBreakpoint.GetDataParameters
+- IDebugBreakpoint2.GetDataParameters
 product:
 - Windows
 targetos: Windows

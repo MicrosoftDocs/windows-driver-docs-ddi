@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUIMXDC.AdjustDPI
-title: IPrintOemUIMXDC::AdjustDPI
+title: IPrintOemUIMXDC::AdjustDPI (prcomoem.h)
 description: The IPrintOemUIMXDC::AdjustDPI method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of image resolution.
 old-location: print\iprintoemuimxdc_adjustdpi.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUIMXDC.AdjustDPI
+- IPrintOemUIMXDC.AdjustDPI
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYHWQUEUE
-title: PFND3DKMT_DESTROYHWQUEUE
+title: PFND3DKMT_DESTROYHWQUEUE (d3dkmthk.h)
 description: Implemented by the client driver to destroy a hardware queue.
 ms.assetid: 4ac646f8-e8c2-4682-bbab-0e91a782e59a
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_DESTROYHWQUEUE
+- PFND3DKMT_DESTROYHWQUEUE
 product: 
 - Windows
 targetos: Windows

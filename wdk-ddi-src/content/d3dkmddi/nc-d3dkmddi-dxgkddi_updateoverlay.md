@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEOVERLAY
-title: DXGKDDI_UPDATEOVERLAY
+title: DXGKDDI_UPDATEOVERLAY (d3dkmddi.h)
 description: The DxgkDdiUpdateOverlay function modifies the overlay hardware.
 old-location: display\dxgkddiupdateoverlay.htm
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiUpdateOverlay
+- DxgkDdiUpdateOverlay
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRemoveSpecificIrpFromCancelableQueue
-title: KsRemoveSpecificIrpFromCancelableQueue function
+title: KsRemoveSpecificIrpFromCancelableQueue function (ks.h)
 description: The KsRemoveSpecificIrpFromCancelableQueue function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using KsRemoveIrpFromCancelableQueue, but that was not actually removed from the queue.
 old-location: stream\ksremovespecificirpfromcancelablequeue.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRemoveSpecificIrpFromCancelableQueue
+- KsRemoveSpecificIrpFromCancelableQueue
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfpnpaction.IWDTFPNPAction2
-title: IWDTFPNPAction2
+title: IWDTFPNPAction2 (wdtfpnpaction.h)
 description: Defines operations and properties for the Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpaction2.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2
+- IWDTFPNPAction2
 product:
 - Windows
 targetos: Windows

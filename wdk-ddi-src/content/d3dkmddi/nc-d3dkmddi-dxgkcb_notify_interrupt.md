@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_NOTIFY_INTERRUPT
-title: DXGKCB_NOTIFY_INTERRUPT
+title: DXGKCB_NOTIFY_INTERRUPT (d3dkmddi.h)
 description: The DxgkCbNotifyInterrupt function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at interrupt-service-routine (ISR) time.
 old-location: display\dxgkcbnotifyinterrupt.htm
 ms.assetid: 7968d26d-0195-463d-8954-e7ebef4f9dea
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbNotifyInterrupt
+- DxgkCbNotifyInterrupt
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetInputMemory
-title: IWDFIoRequest::GetInputMemory
+title: IWDFIoRequest::GetInputMemory (wudfddi.h)
 description: The GetInputMemory method retrieves the memory object that represents the input buffer in an I/O request.
 old-location: wdf\iwdfiorequest_getinputmemory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetInputMemory
+- IWDFIoRequest.GetInputMemory
 product:
 - Windows
 targetos: Windows

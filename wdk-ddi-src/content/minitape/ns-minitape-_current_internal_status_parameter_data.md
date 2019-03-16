@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (minitape.h)
 description: 
 ms.assetid: 633807f0-5708-4583-ab51-5aa0467c4b30
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	minitape.h
+- minitape.h
 api_name: 
--	_CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+- _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

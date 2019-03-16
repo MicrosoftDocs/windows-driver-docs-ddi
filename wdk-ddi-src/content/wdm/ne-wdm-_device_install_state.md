@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_INSTALL_STATE
-title: "_DEVICE_INSTALL_STATE"
+title: _DEVICE_INSTALL_STATE (wdm.h)
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	DEVICE_INSTALL_STATE
+- DEVICE_INSTALL_STATE
 product:
 - Windows
 targetos: Windows

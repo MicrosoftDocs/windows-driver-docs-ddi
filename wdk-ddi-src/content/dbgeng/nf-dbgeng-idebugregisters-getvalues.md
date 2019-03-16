@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetValues
-title: IDebugRegisters::GetValues
+title: IDebugRegisters::GetValues (dbgeng.h)
 description: The GetValues method gets the value of several of the target's registers.
 old-location: debugger\getvalues.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters.GetValues
--	IDebugRegisters2.GetValues
+- IDebugRegisters.GetValues
+- IDebugRegisters2.GetValues
 product:
 - Windows
 targetos: Windows

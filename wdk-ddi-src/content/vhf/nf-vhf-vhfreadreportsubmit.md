@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfReadReportSubmit
-title: VhfReadReportSubmit function
+title: VhfReadReportSubmit function (vhf.h)
 description: The HID source driver calls this method to submit a HID Read (Input) Report to Virtual HID Framework (VHF).
 old-location: hid\vhfreadreportsubmit.htm
 tech.root: hid
@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	vhfKm.lib
--	vhfKm.dll
+- vhfKm.lib
+- vhfKm.dll
 api_name:
--	VhfReadReportSubmit
+- VhfReadReportSubmit
 product:
 - Windows
 targetos: Windows

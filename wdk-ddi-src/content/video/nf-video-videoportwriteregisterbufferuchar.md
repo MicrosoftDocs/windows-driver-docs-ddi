@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterBufferUchar
-title: VideoPortWriteRegisterBufferUchar function
+title: VideoPortWriteRegisterBufferUchar function (video.h)
 description: The VideoPortWriteRegisterBufferUchar function writes a number of unsigned bytes to a mapped register.
 old-location: display\videoportwriteregisterbufferuchar.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortWriteRegisterBufferUchar
+- VideoPortWriteRegisterBufferUchar
 product:
 - Windows
 targetos: Windows

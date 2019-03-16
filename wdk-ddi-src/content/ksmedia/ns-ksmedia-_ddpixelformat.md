@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._DDPIXELFORMAT
-title: "_DDPIXELFORMAT"
+title: _DDPIXELFORMAT (ksmedia.h)
 description: The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface object.
 old-location: display\ddpixelformat.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	DDPIXELFORMAT
+- DDPIXELFORMAT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableWithoutSplaying
-title: RtlEnumerateGenericTableWithoutSplaying function
+title: RtlEnumerateGenericTableWithoutSplaying function (ntddk.h)
 description: The RtlEnumerateGenericTableWithoutSplaying routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplaying.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlEnumerateGenericTableWithoutSplaying
+- RtlEnumerateGenericTableWithoutSplaying
 product:
 - Windows
 targetos: Windows

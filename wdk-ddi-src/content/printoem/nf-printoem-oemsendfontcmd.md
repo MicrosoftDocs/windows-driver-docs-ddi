@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMSendFontCmd
-title: OEMSendFontCmd function
+title: OEMSendFontCmd function (printoem.h)
 description: OEMSendFontCmd function
 old-location: print\oemsendfontcmd.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMSendFontCmd
+- OEMSendFontCmd
 product:
 - Windows
 targetos: Windows

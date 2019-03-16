@@ -1,6 +1,6 @@
 ---
 UID: NF:mrx.RxStartMinirdr
-title: RxStartMinirdr function
+title: RxStartMinirdr function (mrx.h)
 description: RxStartMinirdr is called to start up a network mini-redirector that has previously called to register with RDBSS.
 old-location: ifsk\rxstartminirdr.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxStartMinirdr
+- RxStartMinirdr
 product:
 - Windows
 targetos: Windows

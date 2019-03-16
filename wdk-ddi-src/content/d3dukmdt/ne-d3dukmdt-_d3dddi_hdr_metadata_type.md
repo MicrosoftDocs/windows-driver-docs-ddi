@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_HDR_METADATA_TYPE
-title: "_D3DDDI_HDR_METADATA_TYPE"
+title: _D3DDDI_HDR_METADATA_TYPE (d3dukmdt.h)
 description: Defines the format of HDR metadata.
 old-location: display\d3dddi_hdr_metadata_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_HDR_METADATA_TYPE
+- D3DDDI_HDR_METADATA_TYPE
 product:
 - Windows
 targetos: Windows

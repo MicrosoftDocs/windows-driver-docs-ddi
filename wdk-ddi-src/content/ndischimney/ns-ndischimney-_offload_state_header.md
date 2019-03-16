@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._OFFLOAD_STATE_HEADER
-title: "_OFFLOAD_STATE_HEADER"
+title: _OFFLOAD_STATE_HEADER (ndischimney.h)
 description: The OFFLOAD_STATE_HEADER structure serves as a header in an offload state structure.
 old-location: netvista\offload_state_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	OFFLOAD_STATE_HEADER
+- OFFLOAD_STATE_HEADER
 product:
 - Windows
 targetos: Windows

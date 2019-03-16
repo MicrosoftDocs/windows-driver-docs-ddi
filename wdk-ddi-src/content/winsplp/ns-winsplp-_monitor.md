@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOR
-title: "_MONITOR"
+title: _MONITOR (winsplp.h)
 description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
 old-location: print\monitor.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	MONITOR
+- MONITOR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRTOutputStream
-title: IMiniportWaveRTOutputStream
+title: IMiniportWaveRTOutputStream (portcls.h)
 description: The IMiniportWaveRTOutputStream interface represents the output wave stream. IMiniportWaveRTOutputStream inherits from the IUnknown interface.
 old-location: audio\iminiportwavertoutputstream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTOutputStream
+- IMiniportWaveRTOutputStream
 product:
 - Windows
 targetos: Windows

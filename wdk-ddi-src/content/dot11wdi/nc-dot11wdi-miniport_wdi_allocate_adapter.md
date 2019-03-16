@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_ALLOCATE_ADAPTER
-title: MINIPORT_WDI_ALLOCATE_ADAPTER
+title: MINIPORT_WDI_ALLOCATE_ADAPTER (dot11wdi.h)
 description: The MiniportWdiAllocateAdapter handler function allocates a WDI miniport adapter.
 old-location: netvista\miniportwdiallocateadapter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiAllocateAdapter
+- MiniportWdiAllocateAdapter
 product:
 - Windows
 targetos: Windows

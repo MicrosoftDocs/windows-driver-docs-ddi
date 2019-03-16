@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetSpecialFileSupport
-title: WdfDeviceSetSpecialFileSupport function
+title: WdfDeviceSetSpecialFileSupport function (wdfdevice.h)
 description: The WdfDeviceSetSpecialFileSupport method enables or disables a function driver's support for special files, for the specified device.
 old-location: wdf\wdfdevicesetspecialfilesupport.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceSetSpecialFileSupport
+- WdfDeviceSetSpecialFileSupport
 product:
 - Windows
 targetos: Windows

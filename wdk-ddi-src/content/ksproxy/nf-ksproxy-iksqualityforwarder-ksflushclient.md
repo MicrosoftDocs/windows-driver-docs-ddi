@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsQualityForwarder.KsFlushClient
-title: IKsQualityForwarder::KsFlushClient
+title: IKsQualityForwarder::KsFlushClient (ksproxy.h)
 description: The KsFlushClient method flushes information from a pin.
 old-location: stream\iksqualityforwarder_ksflushclient.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsQualityForwarder.KsFlushClient
+- IKsQualityForwarder.KsFlushClient
 product:
 - Windows
 targetos: Windows

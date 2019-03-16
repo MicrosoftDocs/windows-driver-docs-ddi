@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEPTHFILL
-title: PFND3DDDI_DEPTHFILL
+title: PFND3DDDI_DEPTHFILL (d3dumddi.h)
 description: The DepthFill function fills a depth buffer with a pixel value that is specified in native format.
 old-location: display\depthfill.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DepthFill
+- DepthFill
 product:
 - Windows
 targetos: Windows

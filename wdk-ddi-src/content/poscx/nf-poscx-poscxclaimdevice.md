@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxClaimDevice
-title: PosCxClaimDevice function
+title: PosCxClaimDevice function (poscx.h)
 description: PosCxClaimDevice is called to claim a device for exclusive use. The caller should call PosCxReleaseDevice when the device is no longer needed.
 old-location: pos\poscxclaimdevice.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxClaimDevice
+- PosCxClaimDevice
 product:
 - Windows
 targetos: Windows

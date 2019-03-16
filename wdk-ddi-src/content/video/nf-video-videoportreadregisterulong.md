@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterUlong
-title: VideoPortReadRegisterUlong function
+title: VideoPortReadRegisterUlong function (video.h)
 description: The VideoPortReadRegisterUlong function reads a ULONG value from a mapped register range.
 old-location: display\videoportreadregisterulong.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadRegisterUlong
+- VideoPortReadRegisterUlong
 product:
 - Windows
 targetos: Windows

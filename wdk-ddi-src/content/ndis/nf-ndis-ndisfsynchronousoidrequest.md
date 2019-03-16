@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFSynchronousOidRequest
-title: NdisFSynchronousOidRequest function
+title: NdisFSynchronousOidRequest function (ndis.h)
 description: Filter drivers call the NdisFSynchronousOidRequest function to originate a new Synchronous OID request and issue it to underlying drivers.
 old-location: netvista\ndisfsynchronousoidrequest.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFSynchronousOidRequest
+- NdisFSynchronousOidRequest
 product:
 - Windows
 targetos: Windows

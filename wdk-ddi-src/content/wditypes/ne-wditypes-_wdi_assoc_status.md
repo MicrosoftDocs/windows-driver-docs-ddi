@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ASSOC_STATUS
-title: "_WDI_ASSOC_STATUS"
+title: _WDI_ASSOC_STATUS (wditypes.h)
 description: The WDI_ASSOC_STATUS enumeration defines the association status values.
 old-location: netvista\wdi_assoc_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_ASSOC_STATUS
+- WDI_ASSOC_STATUS
 product:
 - Windows
 targetos: Windows

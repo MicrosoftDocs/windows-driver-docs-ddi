@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
-title: _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
+title: _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether multiplane overlay stretch is supported.
 ms.assetid: e9822c31-3307-4913-b2ab-3eac835d6f1c
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
+- _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

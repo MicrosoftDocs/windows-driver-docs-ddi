@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerSetStatusCode
-title: KsStreamPointerSetStatusCode function
+title: KsStreamPointerSetStatusCode function (ks.h)
 description: The KsStreamPointerSetStatusCode function allows specification of a successful or unsuccessful error code with which to complete the given IRP.
 old-location: stream\ksstreampointersetstatuscode.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerSetStatusCode
+- KsStreamPointerSetStatusCode
 product:
 - Windows
 targetos: Windows

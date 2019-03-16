@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSHAREDRESOURCEADAPTERLUID
-title: "_D3DKMT_GETSHAREDRESOURCEADAPTERLUID"
+title: _D3DKMT_GETSHAREDRESOURCEADAPTERLUID (d3dkmthk.h)
 description: Provides information that describes a shared resource and the graphics adapter that the resource was created on.
 old-location: display\d3dkmt_getsharedresourceadapterluid.htm
 ms.assetid: b7f9413b-3d57-47c4-a8a4-3288cb03af21
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_GETSHAREDRESOURCEADAPTERLUID
+- D3DKMT_GETSHAREDRESOURCEADAPTERLUID
 product:
 - Windows
 targetos: Windows

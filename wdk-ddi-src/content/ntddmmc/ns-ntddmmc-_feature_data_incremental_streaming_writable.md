@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
-title: "_FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE"
+title: _FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE (ntddmmc.h)
 description: The FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE structure contains information about the Incremental Streaming Writable feature.
 old-location: storage\feature_data_incremental_streaming_writable.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
+- FEATURE_DATA_INCREMENTAL_STREAMING_WRITABLE
 product:
 - Windows
 targetos: Windows

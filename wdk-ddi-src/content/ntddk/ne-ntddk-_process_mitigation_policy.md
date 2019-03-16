@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PROCESS_MITIGATION_POLICY
-title: _PROCESS_MITIGATION_POLICY
+title: _PROCESS_MITIGATION_POLICY (ntddk.h)
 description: Represents the different process mitigation policies.
 ms.assetid: a5d6d94a-b03e-45cc-bb3a-9c9a770fa6f4
 ms.date: 10/19/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PROCESS_MITIGATION_POLICY
-product: Windows
+- _PROCESS_MITIGATION_POLICY
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

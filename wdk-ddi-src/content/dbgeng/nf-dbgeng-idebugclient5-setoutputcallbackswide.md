@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetOutputCallbacksWide
-title: IDebugClient5::SetOutputCallbacksWide
+title: IDebugClient5::SetOutputCallbacksWide (dbgeng.h)
 description: The SetOutputCallbacksWide method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbackswide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5.SetOutputCallbacksWide
+- IDebugClient5.SetOutputCallbacksWide
 product:
 - Windows
 targetos: Windows

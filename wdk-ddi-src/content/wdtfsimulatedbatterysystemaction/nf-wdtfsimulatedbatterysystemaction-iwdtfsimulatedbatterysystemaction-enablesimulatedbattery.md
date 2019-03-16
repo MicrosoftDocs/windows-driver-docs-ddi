@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
-title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
+title: IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery (wdtfsimulatedbatterysystemaction.h)
 description: Enables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablesimulatedbattery.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
+- IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_FILE_ID
-title: "_WOF_EXTERNAL_FILE_ID"
+title: _WOF_EXTERNAL_FILE_ID (ntifs.h)
 description: The WOF_EXTERNAL_FILE_ID structure contains a file ID that is used to open a handle to a mini-filter or driver.
 old-location: ifsk\wof_external_file_id.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WOF_EXTERNAL_FILE_ID
+- WOF_EXTERNAL_FILE_ID
 product:
 - Windows
 targetos: Windows

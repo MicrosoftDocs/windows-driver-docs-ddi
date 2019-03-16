@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_106
-title: KSPROPERTY_TUNER_SCAN_STATUS_S
+title: KSPROPERTY_TUNER_SCAN_STATUS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.
 old-location: stream\ksproperty_tuner_scan_status_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TUNER_SCAN_STATUS_S
+- KSPROPERTY_TUNER_SCAN_STATUS_S
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
-title: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
+title: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO (d3dkmthk.h)
 description: Used to get device VidPn ownership info.
 ms.assetid: 3338e954-1d21-4a15-be0d-6fa09de29411
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
+- _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

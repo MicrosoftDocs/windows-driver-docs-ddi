@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFReturnNetBufferLists
-title: NdisFReturnNetBufferLists function
+title: NdisFReturnNetBufferLists function (ndis.h)
 description: Filter drivers call NdisFReturnNetBufferLists to release the ownership of one or more NET_BUFFER_LIST structures and their associated NET_BUFFER structures.
 old-location: netvista\ndisfreturnnetbufferlists.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisFReturnNetBufferLists
+- NdisFReturnNetBufferLists
 product:
 - Windows
 targetos: Windows

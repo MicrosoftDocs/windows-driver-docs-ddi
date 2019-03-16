@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetAttributes
-title: HidD_GetAttributes function
+title: HidD_GetAttributes function (hidsdi.h)
 description: The HidD_GetAttributes routine returns the attributes of a specified top-level collection.
 old-location: hid\hidd_getattributes.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetAttributes
+- HidD_GetAttributes
 product:
 - Windows
 targetos: Windows

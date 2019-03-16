@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwDeleteKey
-title: ZwDeleteKey function
+title: ZwDeleteKey function (wdm.h)
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwDeleteKey
--	NtDeleteKey
+- ZwDeleteKey
+- NtDeleteKey
 product:
 - Windows
 targetos: Windows

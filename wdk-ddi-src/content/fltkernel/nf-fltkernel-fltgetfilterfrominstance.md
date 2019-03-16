@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFilterFromInstance
-title: FltGetFilterFromInstance function
+title: FltGetFilterFromInstance function (fltkernel.h)
 description: The FltGetFilterFromInstance routine returns an opaque filter pointer for the minifilter driver that created the given instance.
 old-location: ifsk\fltgetfilterfrominstance.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltGetFilterFromInstance
+- FltGetFilterFromInstance
 product:
 - Windows
 targetos: Windows

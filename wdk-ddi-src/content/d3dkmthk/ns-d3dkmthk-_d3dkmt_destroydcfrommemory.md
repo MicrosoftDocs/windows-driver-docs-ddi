@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYDCFROMMEMORY
-title: "_D3DKMT_DESTROYDCFROMMEMORY"
+title: _D3DKMT_DESTROYDCFROMMEMORY (d3dkmthk.h)
 description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 old-location: display\d3dkmt_destroydcfrommemory.htm
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYDCFROMMEMORY
+- D3DKMT_DESTROYDCFROMMEMORY
 product:
 - Windows
 targetos: Windows

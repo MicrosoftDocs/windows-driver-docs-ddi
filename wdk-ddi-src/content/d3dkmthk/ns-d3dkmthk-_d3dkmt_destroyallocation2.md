@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYALLOCATION2
-title: "_D3DKMT_DESTROYALLOCATION2"
+title: _D3DKMT_DESTROYALLOCATION2 (d3dkmthk.h)
 description: The D3DKMT_DESTROYALLOCATION2 structure describes parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dkmt_destroyallocation2.htm
 ms.assetid: A51C5F98-5979-436A-9E7E-EA54A1469940
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DESTROYALLOCATION2
+- D3DKMT_DESTROYALLOCATION2
 product:
 - Windows
 targetos: Windows

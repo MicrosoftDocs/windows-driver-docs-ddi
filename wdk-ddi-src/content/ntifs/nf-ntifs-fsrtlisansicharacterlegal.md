@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterLegal
-title: FsRtlIsAnsiCharacterLegal macro
+title: FsRtlIsAnsiCharacterLegal macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterLegal macro determines whether a character is a legal ANSI character.
 old-location: ifsk\fsrtlisansicharacterlegal.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlIsAnsiCharacterLegal
+- FsRtlIsAnsiCharacterLegal
 product:
 - Windows
 targetos: Windows

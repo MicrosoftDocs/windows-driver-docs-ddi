@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryTimeIncrement
-title: KeQueryTimeIncrement function
+title: KeQueryTimeIncrement function (wdm.h)
 description: The KeQueryTimeIncrement routine returns the number of 100-nanosecond units that are added to the system time each time the interval clock interrupts.
 old-location: kernel\kequerytimeincrement.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryTimeIncrement
+- KeQueryTimeIncrement
 product:
 - Windows
 targetos: Windows

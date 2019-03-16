@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_EVENT_TYPE
-title: "_DXGK_EVENT_TYPE"
+title: _DXGK_EVENT_TYPE (dispmprt.h)
 description: The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's DxgkDdiNotifyAcpiEvent function.
 old-location: display\dxgk_event_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_EVENT_TYPE
+- DXGK_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

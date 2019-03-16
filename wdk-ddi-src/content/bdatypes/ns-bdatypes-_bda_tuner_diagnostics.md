@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TUNER_DIAGNOSTICS
-title: "_BDA_TUNER_DIAGNOSTICS"
+title: _BDA_TUNER_DIAGNOSTICS (bdatypes.h)
 description: 
 old-location: stream\bda_tuner_diagnostics.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_TUNER_DIAGNOSTICS
+- BDA_TUNER_DIAGNOSTICS
 product:
 - Windows
 targetos: Windows

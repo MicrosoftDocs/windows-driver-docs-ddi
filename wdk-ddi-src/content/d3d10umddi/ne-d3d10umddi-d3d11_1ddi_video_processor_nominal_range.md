@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
-title: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
+title: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE (d3d10umddi.h)
 description: Indicates the luminance range of YUV data.
 old-location: display\d3d11_1ddi_video_processor_nominal_range.htm
 ms.assetid: E8D77D49-9E7C-45B3-850C-1E814B44464B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	DXVAHDDDI_NOMINAL_RANGE
+- DXVAHDDDI_NOMINAL_RANGE
 product:
 - Windows
 targetos: Windows

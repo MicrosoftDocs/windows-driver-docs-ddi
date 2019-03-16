@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_PARTITION_INFO
-title: IOCTL_DISK_SET_PARTITION_INFO
+title: IOCTL_DISK_SET_PARTITION_INFO (ntdddisk.h)
 description: Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_partition_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_SET_PARTITION_INFO
+- IOCTL_DISK_SET_PARTITION_INFO
 product:
 - Windows
 targetos: Windows

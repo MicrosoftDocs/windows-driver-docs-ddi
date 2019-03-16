@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxCreateSrvOpen
-title: RxCreateSrvOpen function
+title: RxCreateSrvOpen function (fcb.h)
 description: RxCreateSrvOpen allocates, initializes, and inserts a new SRV_OPEN structure into the in-memory data structures used by RDBSS. If a new structure has to be allocated, it has space for an FOBX structure.
 old-location: ifsk\rxcreatesrvopen.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxCreateSrvOpen
+- RxCreateSrvOpen
 product:
 - Windows
 targetos: Windows

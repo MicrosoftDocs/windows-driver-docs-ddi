@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_SINGLE_INSTANCE
-title: tagWNODE_SINGLE_INSTANCE
+title: tagWNODE_SINGLE_INSTANCE (wmistr.h)
 description: The WNODE_SINGLE_INSTANCE structure contains values for all data items in one instance of a data block.
 old-location: kernel\wnode_single_instance.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmistr.h
+- wmistr.h
 api_name:
--	WNODE_SINGLE_INSTANCE
+- WNODE_SINGLE_INSTANCE
 product:
 - Windows
 targetos: Windows

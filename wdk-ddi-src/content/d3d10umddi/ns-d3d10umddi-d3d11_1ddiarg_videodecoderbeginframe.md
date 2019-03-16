@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_VIDEODECODERBEGINFRAME
-title: D3D11_1DDIARG_VIDEODECODERBEGINFRAME
+title: D3D11_1DDIARG_VIDEODECODERBEGINFRAME (d3d10umddi.h)
 description: Specifies a content key in a call to the VideoDecoderBeginFrame function.
 old-location: display\d3d11_1ddiarg_videodecoderbeginframe.htm
 ms.assetid: e2664aec-dc96-4cf6-921b-ccd4ee6cf04e
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDIARG_VIDEODECODERBEGINFRAME
+- D3D11_1DDIARG_VIDEODECODERBEGINFRAME
 product:
 - Windows
 targetos: Windows

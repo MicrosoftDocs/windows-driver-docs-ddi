@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
-title: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY
+title: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY (dispmprt.h)
 description: The DxgkDdiI2CTransmitDataToDisplay function transmits data to an I2C device in a monitor.
 old-location: display\dxgkddii2ctransmitdatatodisplay.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiI2CTransmitDataToDisplay
+- DxgkDdiI2CTransmitDataToDisplay
 product:
 - Windows
 targetos: Windows

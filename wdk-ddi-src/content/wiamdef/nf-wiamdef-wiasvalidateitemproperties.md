@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasValidateItemProperties
-title: wiasValidateItemProperties function
+title: wiasValidateItemProperties function (wiamdef.h)
 description: The wiasValidateItemProperties function validates a list of simple item properties against their current valid values.
 old-location: image\wiasvalidateitemproperties.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasValidateItemProperties
+- wiasValidateItemProperties
 product:
 - Windows
 targetos: Windows

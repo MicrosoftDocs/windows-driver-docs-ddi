@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlAppendUnicodeStringToString
-title: RtlAppendUnicodeStringToString function
+title: RtlAppendUnicodeStringToString function (wudfwdm.h)
 description: The RtlAppendUnicodeStringToString routine concatenates two Unicode strings.
 old-location: kernel\rtlappendunicodestringtostring.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlAppendUnicodeStringToString
+- RtlAppendUnicodeStringToString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceDirectoryString
-title: WdfDeviceRetrieveDeviceDirectoryString function
+title: WdfDeviceRetrieveDeviceDirectoryString function (wdfdevice.h)
 description:
 ms.assetid: 94f803e2-0972-4248-8b55-c02fd096a1e2
 ms.date: 10/19/2018
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	WdfDeviceRetrieveDeviceDirectoryString
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- WdfDeviceRetrieveDeviceDirectoryString
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_FRAME_STATISTICS_STEP
-title: IDDCX_FRAME_STATISTICS_STEP
+title: IDDCX_FRAME_STATISTICS_STEP (iddcx.h)
 description: Gives information about the frame processing step being used by the driver.
 old-location: display\iddcx_frame_statistics_step.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_FRAME_STATISTICS_STEP
+- IDDCX_FRAME_STATISTICS_STEP
 product:
 - Windows
 targetos: Windows

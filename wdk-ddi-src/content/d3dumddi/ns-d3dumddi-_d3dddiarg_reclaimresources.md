@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RECLAIMRESOURCES
-title: "_D3DDDIARG_RECLAIMRESOURCES"
+title: _D3DDDIARG_RECLAIMRESOURCES (d3dumddi.h)
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the ReclaimResources function.
 old-location: display\d3dddiarg_reclaimresources.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIARG_RECLAIMRESOURCES
+- D3DDDIARG_RECLAIMRESOURCES
 product:
 - Windows
 targetos: Windows

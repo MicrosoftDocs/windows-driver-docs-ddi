@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MEMORY_CACHING_TYPE
-title: _DXGK_MEMORY_CACHING_TYPE
+title: _DXGK_MEMORY_CACHING_TYPE (d3dkmddi.h)
 description: Describes the memory caching types during allocation.
 ms.assetid: a3bffea3-bd15-4acc-98ba-9c87352b9113
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGK_MEMORY_CACHING_TYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_MEMORY_CACHING_TYPE
+- _DXGK_MEMORY_CACHING_TYPE
 product: 
 - Windows
 targetos: Windows

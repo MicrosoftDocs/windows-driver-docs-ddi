@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
-title: "_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES"
+title: _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES (wudfddi_types.h)
 description: The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling.
 old-location: wdf\wdf_power_policy_s0_idle_capabilities.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
+- WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 product:
 - Windows
 targetos: Windows

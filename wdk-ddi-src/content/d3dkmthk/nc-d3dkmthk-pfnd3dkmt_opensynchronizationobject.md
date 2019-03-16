@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENSYNCHRONIZATIONOBJECT
-title: PFND3DKMT_OPENSYNCHRONIZATIONOBJECT
+title: PFND3DKMT_OPENSYNCHRONIZATIONOBJECT (d3dkmthk.h)
 description: The PFND3DKMT_OPENSYNCHRONIZATIONOBJECT callback function opens a kernel-mode synchronization object.
 ms.assetid: 8a699ba7-c32a-4670-84ca-a5c896455d82
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_OPENSYNCHRONIZATIONOBJECT
+- PFND3DKMT_OPENSYNCHRONIZATIONOBJECT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

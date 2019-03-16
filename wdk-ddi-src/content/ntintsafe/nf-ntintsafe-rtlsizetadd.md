@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTAdd
-title: RtlSizeTAdd function
+title: RtlSizeTAdd function (ntintsafe.h)
 description: Adds two values of type SIZE_T.
 old-location: kernel\rtlsizetadd.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlSizeTAdd
+- RtlSizeTAdd
 product:
 - Windows
 targetos: Windows

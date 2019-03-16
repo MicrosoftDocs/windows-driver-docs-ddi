@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_VETO_REASON
-title: "_PEP_PPM_QUERY_VETO_REASON"
+title: _PEP_PPM_QUERY_VETO_REASON (pepfx.h)
 description: The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason.
 old-location: kernel\pep_ppm_query_veto_reason.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_VETO_REASON
+- PEP_PPM_QUERY_VETO_REASON
 product:
 - Windows
 targetos: Windows

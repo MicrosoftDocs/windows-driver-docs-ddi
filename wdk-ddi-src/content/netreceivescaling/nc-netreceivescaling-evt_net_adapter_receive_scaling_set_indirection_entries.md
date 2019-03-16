@@ -1,6 +1,6 @@
 ---
 UID: NC:netreceivescaling.EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
-title: EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
+title: EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES (netreceivescaling.h)
 description: The EvtNetAdapterReceiveScalingSetIndirectionEntries callback function is implemented by the client driver to perform moves of individual receive side scaling (RSS) indirection table entries to new processors.
 tech.root: netvista
 ms.assetid: 7483bad1-4ec0-44aa-bd4c-16d32e44bb70
@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netreceivescaling.h
+api_name: 
+- EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

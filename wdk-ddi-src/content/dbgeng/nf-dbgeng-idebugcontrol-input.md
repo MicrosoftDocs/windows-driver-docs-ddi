@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.Input
-title: IDebugControl::Input
+title: IDebugControl::Input (dbgeng.h)
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.Input
+- IDebugControl.Input
 product:
 - Windows
 targetos: Windows

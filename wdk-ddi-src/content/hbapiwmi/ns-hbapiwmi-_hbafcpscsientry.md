@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPScsiEntry
-title: "_HBAFCPScsiEntry"
+title: _HBAFCPScsiEntry (hbapiwmi.h)
 description: The HBAFCPScsiEntry structure is used with GetFcpTargetMapping method of the MSFC_HBAFCPInfo WMI Class to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.
 old-location: storage\hbafcpscsientry.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	HBAFCPScsiEntry
+- HBAFCPScsiEntry
 product:
 - Windows
 targetos: Windows

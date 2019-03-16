@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_PROTECTED_CALLBACK
-title: DXGKDDI_PROTECTED_CALLBACK
+title: DXGKDDI_PROTECTED_CALLBACK (dispmprt.h)
 description: The DxgkProtectedCallback callback routine is implemented by the display miniport driver and is called by DxgkCbExcludeAdapterAccess during a protected state when all access to the display adapter is prevented.
 old-location: display\dxgkprotectedcallback.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkProtectedCallback
+- DxgkProtectedCallback
 product:
 - Windows
 targetos: Windows

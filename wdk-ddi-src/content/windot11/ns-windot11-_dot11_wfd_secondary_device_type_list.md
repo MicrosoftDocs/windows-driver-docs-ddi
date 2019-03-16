@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
-title: "_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST"
+title: _DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST (windot11.h)
 description: the DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST structure is included with a OID_DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST request. The structure contains the list of secondary device types advertised by a Wi-Fi Direct device.
 old-location: netvista\_dot11_wfd_secondary_device_type_list.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
+- DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
 product:
 - Windows
 targetos: Windows

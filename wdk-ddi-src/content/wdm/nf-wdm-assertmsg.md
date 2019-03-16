@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ASSERTMSG
-title: ASSERTMSG macro
+title: ASSERTMSG macro (wdm.h)
 description: ASSERTMSG tests an expression. If the expression is false, it breaks into the kernel debugger and sends it the specified message.
 old-location: devtest\assertmsg.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	ASSERTMSG
+- ASSERTMSG
 product:
 - Windows
 targetos: Windows

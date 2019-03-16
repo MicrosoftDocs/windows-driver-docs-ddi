@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEMAP
-title: PFND3D10DDI_RESOURCEMAP
+title: PFND3D10DDI_RESOURCEMAP (d3d10umddi.h)
 description: The ResourceMap function maps a subresource of a resource.
 old-location: display\resourcemap.htm
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	ResourceMap
+- ResourceMap
 product:
 - Windows
 targetos: Windows

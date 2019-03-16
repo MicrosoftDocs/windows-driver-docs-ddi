@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_PLAY_AUDIO_MSF
-title: "_CDROM_PLAY_AUDIO_MSF"
+title: _CDROM_PLAY_AUDIO_MSF (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this structure to play an audio CD.
 old-location: storage\cdrom_play_audio_msf.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	CDROM_PLAY_AUDIO_MSF
+- CDROM_PLAY_AUDIO_MSF
 product:
 - Windows
 targetos: Windows

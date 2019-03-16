@@ -1,6 +1,6 @@
 ---
 UID: NS:uart._UART_HARDWARE_ACCESS
-title: _UART_HARDWARE_ACCESS
+title: _UART_HARDWARE_ACCESS (uart.h)
 description: Contains I/O functions and the function pointers used by the serial drivers to access the device hardware.
 tech.root: serports
 ms.assetid: c666e70b-c456-4fb8-baa7-487936801181
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	_UART_HARDWARE_ACCESS
+- _UART_HARDWARE_ACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInvalidateDeviceState
-title: IoInvalidateDeviceState function
+title: IoInvalidateDeviceState function (wdm.h)
 description: The IoInvalidateDeviceState routine notifies the PnP manager that some aspect of the PnP state of a device has changed.
 old-location: kernel\ioinvalidatedevicestate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInvalidateDeviceState
+- IoInvalidateDeviceState
 product:
 - Windows
 targetos: Windows

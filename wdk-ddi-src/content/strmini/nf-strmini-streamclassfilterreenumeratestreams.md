@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassFilterReenumerateStreams
-title: StreamClassFilterReenumerateStreams function
+title: StreamClassFilterReenumerateStreams function (strmini.h)
 description: Obsolete. Do not use.
 old-location: stream\streamclassfilterreenumeratestreams.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	StreamClassFilterReenumerateStreams
+- StreamClassFilterReenumerateStreams
 product:
 - Windows
 targetos: Windows

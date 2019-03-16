@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VPOSVERSIONINFO
-title: "_VPOSVERSIONINFO"
+title: _VPOSVERSIONINFO (video.h)
 description: The VPOSVERSIONINFO structure contains version information about the currently running operating system.
 old-location: display\vposversioninfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VPOSVERSIONINFO
+- VPOSVERSIONINFO
 product:
 - Windows
 targetos: Windows

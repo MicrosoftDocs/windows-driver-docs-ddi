@@ -1,6 +1,6 @@
 ---
 UID: NS:d4iface._DOT4_ACTIVITY
-title: "_DOT4_ACTIVITY"
+title: _DOT4_ACTIVITY (d4iface.h)
 description: 
 old-location: print\dot4_activity.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4iface.h
+- D4iface.h
 api_name:
--	DOT4_ACTIVITY
+- DOT4_ACTIVITY
 product:
 - Windows
 targetos: Windows

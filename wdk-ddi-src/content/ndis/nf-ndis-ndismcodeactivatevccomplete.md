@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCoDeactivateVcComplete
-title: NdisMCoDeactivateVcComplete function
+title: NdisMCoDeactivateVcComplete function (ndis.h)
 description: NdisMCoDeactivateVcComplete notifies NDIS and the call manager that the miniport driver has finished processing a CM-initiated deactivate-VC request, for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismcodeactivatevccomplete.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMCoDeactivateVcComplete
+- NdisMCoDeactivateVcComplete
 product:
 - Windows
 targetos: Windows

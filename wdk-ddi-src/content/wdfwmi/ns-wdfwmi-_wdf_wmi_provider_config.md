@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfwmi._WDF_WMI_PROVIDER_CONFIG
-title: "_WDF_WMI_PROVIDER_CONFIG"
+title: _WDF_WMI_PROVIDER_CONFIG (wdfwmi.h)
 description: The WDF_WMI_PROVIDER_CONFIG structure contains configuration information for a driver's WMI data block.
 old-location: wdf\wdf_wmi_provider_config.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfwmi.h
+- wdfwmi.h
 api_name:
--	WDF_WMI_PROVIDER_CONFIG
+- WDF_WMI_PROVIDER_CONFIG
 product:
 - Windows
 targetos: Windows

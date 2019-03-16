@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCsqRemoveNextIrp
-title: IoCsqRemoveNextIrp function
+title: IoCsqRemoveNextIrp function (wdm.h)
 description: The IoCsqRemoveNextIrp routine removes the next matching IRP in the queue.
 old-location: kernel\iocsqremovenextirp.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCsqRemoveNextIrp
+- IoCsqRemoveNextIrp
 product:
 - Windows
 targetos: Windows

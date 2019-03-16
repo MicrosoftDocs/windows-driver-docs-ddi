@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_ACTIVATE
-title: IOCTL_EHSTOR_BANDMGMT_ACTIVATE
+title: IOCTL_EHSTOR_BANDMGMT_ACTIVATE (ehstorbandmgmt.h)
 description: This IOCTL_EHSTOR_BANDMGMT_ACTIVATE request is sent to activate the security features and band management on a storage device. The request includes activation options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_ACTIVATE
+- IOCTL_EHSTOR_BANDMGMT_ACTIVATE
 product:
 - Windows
 targetos: Windows

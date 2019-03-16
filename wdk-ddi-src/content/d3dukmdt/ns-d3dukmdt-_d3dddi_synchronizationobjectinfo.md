@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECTINFO
-title: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO"
+title: _D3DDDI_SYNCHRONIZATIONOBJECTINFO (d3dukmdt.h)
 description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information about a synchronization object.
 old-location: display\d3dddi_synchronizationobjectinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_SYNCHRONIZATIONOBJECTINFO
+- D3DDDI_SYNCHRONIZATIONOBJECTINFO
 product:
 - Windows
 targetos: Windows

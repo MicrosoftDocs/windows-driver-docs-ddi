@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
-title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
+title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition (portcls.h)
 description: Returns stream presentation information.
 old-location: audio\iminiportwavertoutputstream_getoutputstreampresentationposition.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
+- IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
 product:
 - Windows
 targetos: Windows

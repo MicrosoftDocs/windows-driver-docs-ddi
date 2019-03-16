@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_COMMAND
-title: _UCSI_COMMAND
+title: _UCSI_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: See Table 4-51, Command Code.
 ms.assetid: d2570837-3a83-4bc4-a222-bfa867826837
@@ -18,14 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_COMMAND
-product: Windows
+- _UCSI_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

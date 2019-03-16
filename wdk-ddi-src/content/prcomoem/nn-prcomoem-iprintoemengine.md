@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemEngine
-title: IPrintOemEngine
+title: IPrintOemEngine (prcomoem.h)
 description: 
 old-location: print\iprintoemengine.htm
 tech.root: print
@@ -26,19 +26,19 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintOemEngine
--	IPrintOemEngine.EnableDriver
--	IPrintOemEngine.DisableDriver
--	IPrintOemEngine.EnablePDEV
--	IPrintOemEngine.DisablePDEV
--	IPrintOemEngine.ResetPDEV
+- IPrintOemEngine
+- IPrintOemEngine.EnableDriver
+- IPrintOemEngine.DisableDriver
+- IPrintOemEngine.EnablePDEV
+- IPrintOemEngine.DisablePDEV
+- IPrintOemEngine.ResetPDEV
 product:
 - Windows
 targetos: Windows

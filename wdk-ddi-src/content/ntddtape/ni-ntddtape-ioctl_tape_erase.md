@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_ERASE
-title: IOCTL_TAPE_ERASE
+title: IOCTL_TAPE_ERASE (ntddtape.h)
 description: Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, a &#0034;secure&#0034;) operation that overwrites data with a pattern or as a TAPE_ERASE_SHORT (in other words, a &#0034;quick&#0034;) operation that writes an end-of-recorded-data mark at the current position.
 old-location: storage\ioctl_tape_erase.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddtape.h
+- Ntddtape.h
 api_name:
--	IOCTL_TAPE_ERASE
+- IOCTL_TAPE_ERASE
 product:
 - Windows
 targetos: Windows

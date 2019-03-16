@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeWorker
-title: StorPortInitializeWorker function
+title: StorPortInitializeWorker function (storport.h)
 description: Creates a new Storport work item that runs in a system worker thread.
 old-location: storage\storportinitializeworker.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortInitializeWorker
+- StorPortInitializeWorker
 product:
 - Windows
 targetos: Windows

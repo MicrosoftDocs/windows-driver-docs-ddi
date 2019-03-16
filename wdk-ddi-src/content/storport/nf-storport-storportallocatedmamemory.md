@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateDmaMemory
-title: StorPortAllocateDmaMemory function
+title: StorPortAllocateDmaMemory function (storport.h)
 description: This function is the extended version of the StorPortAllocateContiguousMemorySpecifyCacheNode function. It allocates a range of physically contiguous noncached, nonpaged memory, and returns the physical address of the allocated buffer.
 ms.assetid: f56640ac-4a31-4384-86bf-423fb7c5cd21
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	StorPortAllocateDmaMemory
+- StorPortAllocateDmaMemory
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

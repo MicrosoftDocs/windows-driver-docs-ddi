@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetDmaAdapter
-title: VideoPortGetDmaAdapter function
+title: VideoPortGetDmaAdapter function (video.h)
 description: The VideoPortGetDmaAdapter function returns a pointer to a VP_DMA_ADAPTER structure, which is used in subsequent calls to other DMA-related functions.
 old-location: display\videoportgetdmaadapter.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetDmaAdapter
+- VideoPortGetDmaAdapter
 product:
 - Windows
 targetos: Windows

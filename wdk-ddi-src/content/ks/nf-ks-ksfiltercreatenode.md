@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterCreateNode
-title: KsFilterCreateNode function
+title: KsFilterCreateNode function (ks.h)
 description: The KsFilterCreateNode function creates a new topology node on the specified filter.
 old-location: stream\ksfiltercreatenode.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterCreateNode
+- KsFilterCreateNode
 product:
 - Windows
 targetos: Windows

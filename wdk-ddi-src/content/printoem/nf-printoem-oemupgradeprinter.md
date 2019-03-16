@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMUpgradePrinter
-title: OEMUpgradePrinter function
+title: OEMUpgradePrinter function (printoem.h)
 description: OEMUpgradePrinter function
 old-location: print\oemupgradeprinter.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMUpgradePrinter
+- OEMUpgradePrinter
 product:
 - Windows
 targetos: Windows

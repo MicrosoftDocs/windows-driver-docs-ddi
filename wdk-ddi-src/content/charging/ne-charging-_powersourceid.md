@@ -1,6 +1,6 @@
 ---
 UID: NE:charging._POWERSOURCEID
-title: "_POWERSOURCEID"
+title: _POWERSOURCEID (charging.h)
 description: This enum is for internal use only.
 old-location: battery\powersourceid.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Charging.h
+- Charging.h
 api_name:
--	POWERSOURCEID
+- POWERSOURCEID
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETMMIORANGES
-title: _DXGKARG_GETMMIORANGES
+title: _DXGKARG_GETMMIORANGES (dispmprt.h)
 description: Arguments used to get the memory mapped input output (MMIO) range.
 ms.assetid: cb991a13-ccc5-4f20-a49f-e084ba38ca80
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_GETMMIORANGES, *PDXGKARG_GETMMIORANGES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGKARG_GETMMIORANGES
+- _DXGKARG_GETMMIORANGES
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

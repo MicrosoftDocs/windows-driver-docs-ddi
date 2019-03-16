@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.READ_REGISTER_ULONG
-title: READ_REGISTER_ULONG function
+title: READ_REGISTER_ULONG function (wudfwdm.h)
 description: The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address.
 old-location: kernel\read_register_ulong.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	READ_REGISTER_ULONG
+- READ_REGISTER_ULONG
 product:
 - Windows
 targetos: Windows

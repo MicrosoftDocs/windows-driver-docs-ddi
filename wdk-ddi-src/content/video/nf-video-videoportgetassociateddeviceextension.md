@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetAssociatedDeviceExtension
-title: VideoPortGetAssociatedDeviceExtension function
+title: VideoPortGetAssociatedDeviceExtension function (video.h)
 description: The VideoPortGetAssociatedDeviceExtension function returns the device extension for the parent of the specified device object.
 old-location: display\videoportgetassociateddeviceextension.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetAssociatedDeviceExtension
+- VideoPortGetAssociatedDeviceExtension
 product:
 - Windows
 targetos: Windows

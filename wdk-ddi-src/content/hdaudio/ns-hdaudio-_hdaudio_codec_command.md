@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_COMMAND
-title: "_HDAUDIO_CODEC_COMMAND"
+title: _HDAUDIO_CODEC_COMMAND (hdaudio.h)
 description: The HDAUDIO_CODEC_COMMAND structure specifies a codec command.
 old-location: audio\hdaudio_codec_command.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_CODEC_COMMAND
+- HDAUDIO_CODEC_COMMAND
 product:
 - Windows
 targetos: Windows

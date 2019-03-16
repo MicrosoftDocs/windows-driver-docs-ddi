@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCloseCommunicationPort
-title: FltCloseCommunicationPort function
+title: FltCloseCommunicationPort function (fltkernel.h)
 description: FltCloseCommunicationPort closes a minifilter driver's communication server port.
 old-location: ifsk\fltclosecommunicationport.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltCloseCommunicationPort
+- FltCloseCommunicationPort
 product:
 - Windows
 targetos: Windows

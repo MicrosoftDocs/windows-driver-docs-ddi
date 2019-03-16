@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.ALLOCATE_SHARED_MEMORY_HANDLER
-title: ALLOCATE_SHARED_MEMORY_HANDLER
+title: ALLOCATE_SHARED_MEMORY_HANDLER (ndis.h)
 description: The NetAllocateSharedMemory function (ALLOCATE_SHARED_MEMORY_HANDLER entry point) is called by NDIS when a driver allocates shared memory from a shared memory provider.
 old-location: netvista\netallocatesharedmemory.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NetAllocateSharedMemory
+- NetAllocateSharedMemory
 product:
 - Windows
 targetos: Windows

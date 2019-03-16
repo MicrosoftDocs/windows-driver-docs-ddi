@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_DTR
-title: IOCTL_SERIAL_SET_DTR
+title: IOCTL_SERIAL_SET_DTR (ntddser.h)
 description: The IOCTL_SERIAL_SET_DTR request sets DTR (data terminal ready).
 old-location: serports\ioctl_serial_set_dtr.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_SET_DTR
+- IOCTL_SERIAL_SET_DTR
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_QUERY_VOLUME_TAGS
-title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
+title: IOCTL_CHANGER_QUERY_VOLUME_TAGS (ntddchgr.h)
 description: Returns volume tag information for the specified elements.
 old-location: storage\ioctl_changer_query_volume_tags.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddchgr.h
+- Ntddchgr.h
 api_name:
--	IOCTL_CHANGER_QUERY_VOLUME_TAGS
+- IOCTL_CHANGER_QUERY_VOLUME_TAGS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_LINK_DEVICE
-title: DXGKDDI_LINK_DEVICE
+title: DXGKDDI_LINK_DEVICE (dispmprt.h)
 description: The optional DxgkDdiLinkDevice function queries the display miniport driver for information on the linked adapter configuration.
 old-location: display\dxgkddilinkdevice.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkDdiLinkDevice
+- DxgkDdiLinkDevice
 product:
 - Windows
 targetos: Windows

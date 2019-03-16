@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
-title: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+title: D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL (d3d10umddi.h)
 description: Specifies the attributes of the authenticated channel to be created by the user-mode driver's CreateAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddiarg_createauthenticatedchannel.htm
 ms.assetid: 0b3a20db-aa03-4017-a10a-ae84a6ed31c8
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
+- D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL
 product:
 - Windows
 targetos: Windows

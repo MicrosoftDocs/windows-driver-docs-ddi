@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IModelKeyReference
-title: IModelKeyReference
+title: IModelKeyReference (dbgmodel.h)
 description: A reference to a key on a data model object.
 ms.assetid: f92f8963-479b-4f90-abef-5ad227e8781c
 ms.date: 07/16/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference
-product: Windows
+- IModelKeyReference
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

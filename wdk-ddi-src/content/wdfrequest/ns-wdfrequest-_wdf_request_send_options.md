@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_SEND_OPTIONS
-title: "_WDF_REQUEST_SEND_OPTIONS"
+title: _WDF_REQUEST_SEND_OPTIONS (wdfrequest.h)
 description: The WDF_REQUEST_SEND_OPTIONS structure specifies options that are associated with sending an I/O request to an I/O target.
 old-location: wdf\wdf_request_send_options.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_SEND_OPTIONS
+- WDF_REQUEST_SEND_OPTIONS
 product:
 - Windows
 targetos: Windows

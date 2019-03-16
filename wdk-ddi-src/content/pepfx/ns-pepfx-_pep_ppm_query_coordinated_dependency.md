@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_COORDINATED_DEPENDENCY
-title: "_PEP_PPM_QUERY_COORDINATED_DEPENDENCY"
+title: _PEP_PPM_QUERY_COORDINATED_DEPENDENCY (pepfx.h)
 description: The PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure describes dependencies for coordinated idle states.
 old-location: kernel\pep_ppm_query_coordinated_dependency.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PPM_QUERY_COORDINATED_DEPENDENCY
+- PEP_PPM_QUERY_COORDINATED_DEPENDENCY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcAddStreamResource
-title: PcAddStreamResource function
+title: PcAddStreamResource function (portcls.h)
 description: PcAddStreamResource adds a stream resource.
 old-location: audio\pcaddstreamresource.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll: NA
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NA
+- NA
 api_name:
--	PcAddStreamResource
+- PcAddStreamResource
 product:
 - Windows
 targetos: Windows

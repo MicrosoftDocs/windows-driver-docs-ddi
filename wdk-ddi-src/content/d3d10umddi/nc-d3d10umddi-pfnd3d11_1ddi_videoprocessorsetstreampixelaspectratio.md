@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO (d3d10umddi.h)
 description: Sets the pixel aspect ratio for an input stream on the video processor.
 old-location: display\videoprocessorsetstreampixelaspectratio.htm
 ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorSetStreamPixelAspectRatio
+- pfnVideoProcessorSetStreamPixelAspectRatio
 product:
 - Windows
 targetos: Windows

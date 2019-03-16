@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.AppendPrinterNotifyInfoData
-title: AppendPrinterNotifyInfoData function
+title: AppendPrinterNotifyInfoData function (winsplp.h)
 description: The print spooler's AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
 old-location: print\appendprinternotifyinfodata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	AppendPrinterNotifyInfoData
+- AppendPrinterNotifyInfoData
 product:
 - Windows
 targetos: Windows

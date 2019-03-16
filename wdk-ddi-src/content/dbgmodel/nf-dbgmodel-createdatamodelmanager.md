@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.CreateDataModelManager
-title: CreateDataModelManager function
+title: CreateDataModelManager function (dbgmodel.h)
 description: The initial call a host performs to create and initialize the data model.
 ms.assetid: 5694acc5-d39e-408a-8678-88207ca4707a
 ms.date: 09/28/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	
+- HeaderDef
 api_location: 
--	
+- dbgmodel.h
 api_name: 
--	CreateDataModelManager
-product: Windows
+- CreateDataModelManager
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

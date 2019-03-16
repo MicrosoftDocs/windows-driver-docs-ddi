@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_EXPORT_FLAGS
-title: D3D12DDI_EXPORT_FLAGS
+title: D3D12DDI_EXPORT_FLAGS (d3d12umddi.h)
 description: The type of export flags.
 ms.assetid: 45950c2a-cfbe-4dd0-bcd2-16ce7ca0dbf0
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_EXPORT_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_EXPORT_FLAGS
+- D3D12DDI_EXPORT_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_FAST_REGISTER
-title: NDK_FN_FAST_REGISTER
+title: NDK_FN_FAST_REGISTER (ndkpi.h)
 description: The NdkFastRegister (NDK_FN_FAST_REGISTER) function fast-registers an array of adapter logical pages over an existing memory region.
 old-location: netvista\ndk_fn_fast_register.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkFastRegister
+- NdkFastRegister
 product:
 - Windows
 targetos: Windows

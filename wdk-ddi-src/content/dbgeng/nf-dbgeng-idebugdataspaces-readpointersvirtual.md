@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadPointersVirtual
-title: IDebugDataSpaces::ReadPointersVirtual
+title: IDebugDataSpaces::ReadPointersVirtual (dbgeng.h)
 description: The ReadPointersVirtual method is a convenience method for reading pointers from the target's virtual address space.
 old-location: debugger\readpointersvirtual.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadPointersVirtual
--	IDebugDataSpaces2.ReadPointersVirtual
--	IDebugDataSpaces3.ReadPointersVirtual
--	IDebugDataSpaces4.ReadPointersVirtual
+- IDebugDataSpaces.ReadPointersVirtual
+- IDebugDataSpaces2.ReadPointersVirtual
+- IDebugDataSpaces3.ReadPointersVirtual
+- IDebugDataSpaces4.ReadPointersVirtual
 product:
 - Windows
 targetos: Windows

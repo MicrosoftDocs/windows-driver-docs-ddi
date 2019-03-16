@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceCreate
-title: UfxDeviceCreate function
+title: UfxDeviceCreate function (ufxclient.h)
 description: Creates a UFX device object, registers event callback routines, and specifies capabilities specific to the controller.
 old-location: buses\ufxdevicecreate.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UfxDeviceCreate
+- UfxDeviceCreate
 product:
 - Windows
 targetos: Windows

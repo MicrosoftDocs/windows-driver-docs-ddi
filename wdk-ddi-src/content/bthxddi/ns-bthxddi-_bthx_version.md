@@ -1,6 +1,6 @@
 ---
 UID: NS:bthxddi._BTHX_VERSION
-title: "_BTHX_VERSION"
+title: _BTHX_VERSION (bthxddi.h)
 description: The BTHX_VERSION structure describes the version or versions that the transport driver supports.
 old-location: bltooth\bthx_version.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	BthXDDI.h
+- BthXDDI.h
 api_name:
--	_BTHX_VERSION
+- _BTHX_VERSION
 product:
 - Windows
 targetos: Windows

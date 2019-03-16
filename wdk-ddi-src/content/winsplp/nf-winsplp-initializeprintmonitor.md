@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintMonitor
-title: InitializePrintMonitor function
+title: InitializePrintMonitor function (winsplp.h)
 description: The InitializePrintMonitor function is obsolete and is supported only for compatibility purposes.
 old-location: print\initializeprintmonitor.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	InitializePrintMonitor
+- InitializePrintMonitor
 product:
 - Windows
 targetos: Windows

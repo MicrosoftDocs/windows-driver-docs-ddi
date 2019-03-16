@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._DXGKMT_POWER_SHARED_TYPE
-title: _DXGKMT_POWER_SHARED_TYPE
+title: _DXGKMT_POWER_SHARED_TYPE (d3dkmthk.h)
 description: Specifies the type of non-graphic driver that the display driver is sharing power with.
 ms.assetid: 284186b6-a096-4987-9bcb-cd7c1c2c6ee7
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGKMT_POWER_SHARED_TYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_DXGKMT_POWER_SHARED_TYPE
+- _DXGKMT_POWER_SHARED_TYPE
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._DEFAULT_ENDPOINT_UPDATE
-title: "_DEFAULT_ENDPOINT_UPDATE"
+title: _DEFAULT_ENDPOINT_UPDATE (ucxendpoint.h)
 description: Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function.
 old-location: buses\_default_endpoint_update.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	DEFAULT_ENDPOINT_UPDATE
+- DEFAULT_ENDPOINT_UPDATE
 product:
 - Windows
 targetos: Windows

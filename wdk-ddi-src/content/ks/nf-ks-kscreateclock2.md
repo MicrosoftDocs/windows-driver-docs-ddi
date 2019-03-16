@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateClock2
-title: KsCreateClock2 function
+title: KsCreateClock2 function (ks.h)
 description: Creates a handle to a clock instance. Call this function after the Component Object Model (COM) is initialized.
 old-location: stream\kscreateclock2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KsCreateClock2
+- KsCreateClock2
 product:
 - Windows
 targetos: Windows

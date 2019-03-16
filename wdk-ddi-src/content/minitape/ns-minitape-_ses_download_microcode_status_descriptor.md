@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
+title: _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR (minitape.h)
 description: The SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure specifies the status and additional status of a download microcode.
 old-location: storage\ses_download_microcode_status_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
+- SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

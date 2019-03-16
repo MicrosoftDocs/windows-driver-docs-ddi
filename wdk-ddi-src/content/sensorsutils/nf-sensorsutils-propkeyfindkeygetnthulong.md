@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetNthUlong
-title: PropKeyFindKeyGetNthUlong function
+title: PropKeyFindKeyGetNthUlong function (sensorsutils.h)
 description: This routine gets the nth ULONG value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: d5e82a5a-0b6f-4246-9f4e-de40b1a5ce6c
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetNthUlong
+- PropKeyFindKeyGetNthUlong
 product:
   - Windows
 targetos: Windows

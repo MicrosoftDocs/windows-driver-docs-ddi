@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateBundleObject
-title: D3DKMTCreateBundleObject function
+title: D3DKMTCreateBundleObject function (d3dkmthk.h)
 description: Used to create a bundle object.
 old-location: display\d3dkmtcreatebundleobject.htm
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCreateBundleObject
+- D3DKMTCreateBundleObject
 product:
 - Windows
 targetos: Windows

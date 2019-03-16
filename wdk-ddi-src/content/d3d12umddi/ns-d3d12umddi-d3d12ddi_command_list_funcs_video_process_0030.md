@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
-title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
+title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030 (d3d12umddi.h)
 description: Command list functions for video process.
 old-location: display\d3d12ddi-command-list-funcs-video-process-0030.htm
 ms.assetid: b45b79bd-90d6-4bc5-b56a-99d2b71e216a
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
+- D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0030
 product:
 - Windows
 targetos: Windows

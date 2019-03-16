@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUlong
-title: NdisRawReadPortUlong macro
+title: NdisRawReadPortUlong macro (ndis.h)
 description: NdisRawReadPortUlong reads a ULONG value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportulong.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawReadPortUlong
+- NdisRawReadPortUlong
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateTopologyNode2
-title: KsCreateTopologyNode2 function
+title: KsCreateTopologyNode2 function (ks.h)
 description: Creates a handle to a topology node instance.
 old-location: stream\kscreatetopologynode2.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KsCreateTopologyNode2
+- KsCreateTopologyNode2
 product:
 - Windows
 targetos: Windows

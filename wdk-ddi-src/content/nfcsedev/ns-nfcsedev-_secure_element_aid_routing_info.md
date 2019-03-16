@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_AID_ROUTING_INFO
-title: "_SECURE_ELEMENT_AID_ROUTING_INFO"
+title: _SECURE_ELEMENT_AID_ROUTING_INFO (nfcsedev.h)
 description: SECURE_ELEMENT_AID_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_aid_routing_info.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_AID_ROUTING_INFO
+- SECURE_ELEMENT_AID_ROUTING_INFO
 product:
 - Windows
 targetos: Windows

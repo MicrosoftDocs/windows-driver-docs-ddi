@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOLVE_MODE
-title: D3D12DDI_RESOLVE_MODE
+title: D3D12DDI_RESOLVE_MODE (d3d12umddi.h)
 description: Specifies a Render Pass resolve operation in display driver development.
 ms.assetid: 0af9440b-065d-4324-9888-f5d2119103d9
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RESOLVE_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RESOLVE_MODE
+- D3D12DDI_RESOLVE_MODE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

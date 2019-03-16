@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveTarget_OUT
-title: "_RemoveTarget_OUT"
+title: _RemoveTarget_OUT (hbapiwmi.h)
 description: The RemoveTarget_OUT structure is used by an HBA miniport driver to report the output parameter data of the RemoveTarget WMI method to the WMI client.
 old-location: storage\removetarget_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	RemoveTarget_OUT
+- RemoveTarget_OUT
 product:
 - Windows
 targetos: Windows

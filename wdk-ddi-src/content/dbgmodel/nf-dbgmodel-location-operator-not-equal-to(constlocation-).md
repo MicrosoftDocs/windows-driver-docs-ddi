@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-not-equal-to(const Location &)
-title: operator!= function
+title: operator!= function (dbgmodel.h)
 description: Not equal to comparison operator for the location function.
 ms.assetid: 474f5a04-76f9-4784-82ed-bb35527f320a
 ms.date: 10/02/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	operator!=
-product: Windows
+- operator!=
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

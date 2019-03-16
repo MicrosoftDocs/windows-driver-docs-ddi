@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_VIDPN_INTERFACE_VERSION
-title: "_DXGK_VIDPN_INTERFACE_VERSION"
+title: _DXGK_VIDPN_INTERFACE_VERSION (d3dkmddi.h)
 description: The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version of a video present network (VidPN) interface.
 old-location: display\dxgk_vidpn_interface_version.htm
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_VIDPN_INTERFACE_VERSION
+- DXGK_VIDPN_INTERFACE_VERSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RENDERKM
-title: DXGKDDI_RENDERKM
+title: DXGKDDI_RENDERKM (d3dkmddi.h)
 description: For display adapters that support GDI hardware acceleration, the DxgkDdiRenderKm function generates a direct memory access (DMA) buffer from the command buffer that the kernel-mode Canonical Display Driver (CDD) passed.
 old-location: display\dxgkddirenderkm.htm
 ms.assetid: 5841934d-7e0a-4bb8-a7f8-17d8c0af351f
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiRenderKm
+- DxgkDdiRenderKm
 product:
 - Windows
 targetos: Windows

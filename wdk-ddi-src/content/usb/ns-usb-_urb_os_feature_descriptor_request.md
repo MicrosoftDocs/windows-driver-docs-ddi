@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_OS_FEATURE_DESCRIPTOR_REQUEST
-title: "_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
+title: _URB_OS_FEATURE_DESCRIPTOR_REQUEST (usb.h)
 description: The _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure is used by the USB hub driver to retrieve Microsoft OS Feature Descriptors from a USB device or an interface on a USB device.
 old-location: buses\_urb_os_feature_descriptor_request.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_OS_FEATURE_DESCRIPTOR_REQUEST
+- _URB_OS_FEATURE_DESCRIPTOR_REQUEST
 product:
 - Windows
 targetos: Windows

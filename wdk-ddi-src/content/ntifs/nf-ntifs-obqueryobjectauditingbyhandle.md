@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObQueryObjectAuditingByHandle
-title: ObQueryObjectAuditingByHandle function
+title: ObQueryObjectAuditingByHandle function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\obqueryobjectauditingbyhandle.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	ObQueryObjectAuditingByHandle
+- ObQueryObjectAuditingByHandle
 product:
 - Windows
 targetos: Windows

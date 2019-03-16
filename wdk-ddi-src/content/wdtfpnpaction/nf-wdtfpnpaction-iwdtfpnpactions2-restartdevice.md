@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RestartDevice
-title: IWDTFPNPActions2::RestartDevice
+title: IWDTFPNPActions2::RestartDevice (wdtfpnpaction.h)
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfpnpaction.h
+- wdtfpnpaction.h
 api_name:
--	IWDTFPNPActions2.RestartDevice
+- IWDTFPNPActions2.RestartDevice
 product:
 - Windows
 targetos: Windows

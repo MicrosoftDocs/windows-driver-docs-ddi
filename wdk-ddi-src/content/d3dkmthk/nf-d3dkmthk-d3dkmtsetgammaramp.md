@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetGammaRamp
-title: D3DKMTSetGammaRamp function
+title: D3DKMTSetGammaRamp function (d3dkmthk.h)
 description: The D3DKMTSetGammaRamp function sets the gamma ramp.
 old-location: display\d3dkmtsetgammaramp.htm
 ms.assetid: 48f1d2ba-747a-4588-8238-db6ac2aa89d6
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTSetGammaRamp
+- D3DKMTSetGammaRamp
 product:
 - Windows
 targetos: Windows

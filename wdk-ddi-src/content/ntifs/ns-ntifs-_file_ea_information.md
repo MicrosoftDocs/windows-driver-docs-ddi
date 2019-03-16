@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_EA_INFORMATION
-title: "_FILE_EA_INFORMATION"
+title: _FILE_EA_INFORMATION (ntifs.h)
 description: The FILE_EA_INFORMATION structure is used to query for the size of the extended attributes (EA) for a file.
 old-location: kernel\file_ea_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	FILE_EA_INFORMATION
+- FILE_EA_INFORMATION
 product:
 - Windows
 targetos: Windows

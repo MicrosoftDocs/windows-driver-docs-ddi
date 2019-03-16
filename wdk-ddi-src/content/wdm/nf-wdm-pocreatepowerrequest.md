@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoCreatePowerRequest
-title: PoCreatePowerRequest function
+title: PoCreatePowerRequest function (wdm.h)
 description: The PoCreatePowerRequest routine creates a power request object.
 old-location: kernel\pocreatepowerrequest.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoCreatePowerRequest
+- PoCreatePowerRequest
 product:
 - Windows
 targetos: Windows

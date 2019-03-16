@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_ALLOCATE_POOL
-title: DXGKCB_AGP_ALLOCATE_POOL
+title: DXGKCB_AGP_ALLOCATE_POOL (dispmprt.h)
 description: The AgpAllocatePool function reserves, commits, and maps AGP memory.
 old-location: display\agpallocatepool.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	AgpAllocatePool
+- AgpAllocatePool
 product:
 - Windows
 targetos: Windows

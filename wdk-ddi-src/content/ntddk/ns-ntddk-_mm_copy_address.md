@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._MM_COPY_ADDRESS
-title: "_MM_COPY_ADDRESS"
+title: _MM_COPY_ADDRESS (ntddk.h)
 description: The MM_COPY_ADDRESS structure contains either a virtual memory address or a physical memory address.
 old-location: kernel\mm_copy_address.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	MM_COPY_ADDRESS
+- MM_COPY_ADDRESS
 product:
 - Windows
 targetos: Windows

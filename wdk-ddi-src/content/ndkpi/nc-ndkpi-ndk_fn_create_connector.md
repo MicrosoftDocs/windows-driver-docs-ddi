@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_CONNECTOR
-title: NDK_FN_CREATE_CONNECTOR
+title: NDK_FN_CREATE_CONNECTOR (ndkpi.h)
 description: The NdkCreateConnector (NDK_FN_CREATE_CONNECTOR) function creates an NDK connector object.
 old-location: netvista\ndk_fn_create_connector.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreateConnector
+- NdkCreateConnector
 product:
 - Windows
 targetos: Windows

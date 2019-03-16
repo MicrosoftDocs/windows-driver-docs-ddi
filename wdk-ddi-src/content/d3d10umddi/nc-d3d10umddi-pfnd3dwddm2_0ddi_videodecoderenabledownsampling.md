@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING
-title: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING
+title: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING (d3d10umddi.h)
 description: Indicates that decoder down-sampling will be used and that the driver should allocate the appropriate reference frames. Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\videodecoderenabledownsampling.htm
 ms.assetid: 0817C977-1113-4953-B60C-A69185443335
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoDecoderEnableDownsampling
+- pfnVideoDecoderEnableDownsampling
 product:
 - Windows
 targetos: Windows

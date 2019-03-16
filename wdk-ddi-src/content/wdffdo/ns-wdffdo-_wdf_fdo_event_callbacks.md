@@ -1,6 +1,6 @@
 ---
 UID: NS:wdffdo._WDF_FDO_EVENT_CALLBACKS
-title: "_WDF_FDO_EVENT_CALLBACKS"
+title: _WDF_FDO_EVENT_CALLBACKS (wdffdo.h)
 description: The WDF_FDO_EVENT_CALLBACKS structure contains pointers to a function driver's PnP event callback functions.
 old-location: wdf\wdf_fdo_event_callbacks.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdffdo.h
+- wdffdo.h
 api_name:
--	WDF_FDO_EVENT_CALLBACKS
+- WDF_FDO_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

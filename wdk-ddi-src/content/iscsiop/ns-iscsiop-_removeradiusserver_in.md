@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveRADIUSServer_IN
-title: "_RemoveRADIUSServer_IN"
+title: _RemoveRADIUSServer_IN (iscsiop.h)
 description: The RemoveRADIUSServer_IN structure holds the input data for the user-mode RemoveRADIUSServer method, which is used to remove a RADIUS server entry.
 old-location: storage\removeradiusserver_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	RemoveRADIUSServer_IN
+- RemoveRADIUSServer_IN
 product:
 - Windows
 targetos: Windows

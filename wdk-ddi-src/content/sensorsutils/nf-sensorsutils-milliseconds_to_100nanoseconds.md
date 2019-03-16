@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.MILLISECONDS_TO_100NANOSECONDS
-title: MILLISECONDS_TO_100NANOSECONDS macro
+title: MILLISECONDS_TO_100NANOSECONDS macro (sensorsutils.h)
 description: This macro converts time, in milliseconds, to 100 nanosecond units.
 ms.assetid: 118243ed-695b-402b-b132-8913b5bac918
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	MILLISECONDS_TO_100NANOSECONDS
+- MILLISECONDS_TO_100NANOSECONDS
 product:
   - Windows
 targetos: Windows

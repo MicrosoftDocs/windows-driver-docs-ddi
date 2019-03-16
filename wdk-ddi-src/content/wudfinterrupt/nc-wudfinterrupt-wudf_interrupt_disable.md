@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_DISABLE
-title: WUDF_INTERRUPT_DISABLE
+title: WUDF_INTERRUPT_DISABLE (wudfinterrupt.h)
 description: A driver's OnInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\oninterruptdisable.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	OnInterruptDisable
+- OnInterruptDisable
 product:
 - Windows
 targetos: Windows

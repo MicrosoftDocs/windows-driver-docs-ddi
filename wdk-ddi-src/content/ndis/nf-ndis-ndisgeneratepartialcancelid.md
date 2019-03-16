@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGeneratePartialCancelId
-title: NdisGeneratePartialCancelId function
+title: NdisGeneratePartialCancelId function (ndis.h)
 description: The NdisGeneratePartialCancelId function returns a value that the calling driver must use as the high-order byte of a cancellation ID.
 old-location: netvista\ndisgeneratepartialcancelid.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisGeneratePartialCancelId
+- NdisGeneratePartialCancelId
 product:
 - Windows
 targetos: Windows

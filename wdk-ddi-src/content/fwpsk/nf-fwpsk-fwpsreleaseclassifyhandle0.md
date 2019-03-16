@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReleaseClassifyHandle0
-title: FwpsReleaseClassifyHandle0 function
+title: FwpsReleaseClassifyHandle0 function (fwpsk.h)
 description: A callout driver calls FwpsReleaseClassifyHandle0 to release a classification handle that was previously acquired through a call to FwpsAcquireClassifyHandle0.Note  FwpsReleaseClassifyHandle0 is a specific version of FwpsReleaseClassifyHandle.
 old-location: netvista\fwpsreleaseclassifyhandle0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsReleaseClassifyHandle0
+- FwpsReleaseClassifyHandle0
 product:
 - Windows
 targetos: Windows

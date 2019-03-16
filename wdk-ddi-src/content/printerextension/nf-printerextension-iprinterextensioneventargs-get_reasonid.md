@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_ReasonId
-title: IPrinterExtensionEventArgs::get_ReasonId
+title: IPrinterExtensionEventArgs::get_ReasonId (printerextension.h)
 description: Gets the reason why the printer extension was activated.
 old-location: print\iprinterextensioneventargs_reasonid.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEventArgs.ReasonId
--	IPrinterExtensionEventArgs.get_ReasonId
+- IPrinterExtensionEventArgs.ReasonId
+- IPrinterExtensionEventArgs.get_ReasonId
 product:
 - Windows
 targetos: Windows

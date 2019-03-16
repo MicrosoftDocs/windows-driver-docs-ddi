@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcPinMappedData
-title: CcPinMappedData function
+title: CcPinMappedData function (ntifs.h)
 description: The CcPinMappedData routine pins the specified byte range of a cached file.
 old-location: ifsk\ccpinmappeddata.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcPinMappedData
+- CcPinMappedData
 product:
 - Windows
 targetos: Windows

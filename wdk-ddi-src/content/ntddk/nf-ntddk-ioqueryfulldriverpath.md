@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoQueryFullDriverPath
-title: IoQueryFullDriverPath function
+title: IoQueryFullDriverPath function (ntddk.h)
 description: The IoQueryFullDriverPath routine retrieves the full path name of the binary file that is loaded for the specified driver object.
 old-location: kernel\ioqueryfulldriverpath.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoQueryFullDriverPath
+- IoQueryFullDriverPath
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMEnableVirtualization
-title: NdisMEnableVirtualization function
+title: NdisMEnableVirtualization function (ndis.h)
 description: A miniport driver calls the NdisMEnableVirtualization function during the creation or deletion of a NIC switch on the network adapter.
 old-location: netvista\ndismenablevirtualization.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMEnableVirtualization
+- NdisMEnableVirtualization
 product:
 - Windows
 targetos: Windows

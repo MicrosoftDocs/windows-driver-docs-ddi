@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_CHANNEL_CONFIGURATION
-title: "_IDE_CHANNEL_CONFIGURATION"
+title: _IDE_CHANNEL_CONFIGURATION (irb.h)
 description: The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_configuration.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	IDE_CHANNEL_CONFIGURATION
+- IDE_CHANNEL_CONFIGURATION
 product:
 - Windows
 targetos: Windows

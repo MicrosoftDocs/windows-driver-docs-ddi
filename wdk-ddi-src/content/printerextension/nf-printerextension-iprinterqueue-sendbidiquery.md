@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.SendBidiQuery
-title: IPrinterQueue::SendBidiQuery
+title: IPrinterQueue::SendBidiQuery (printerextension.h)
 description: Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent::OnBidiResponseReceived method.
 old-location: print\iprinterqueue_sendbidiquery.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueue.SendBidiQuery
+- IPrinterQueue.SendBidiQuery
 product:
 - Windows
 targetos: Windows

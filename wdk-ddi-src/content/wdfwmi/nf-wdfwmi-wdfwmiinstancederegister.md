@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceDeregister
-title: WdfWmiInstanceDeregister function
+title: WdfWmiInstanceDeregister function (wdfwmi.h)
 description: The WdfWmiInstanceDeregister method deregisters a specified instance of a WMI data provider from the system's WMI service.
 old-location: wdf\wdfwmiinstancederegister.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfWmiInstanceDeregister
+- WdfWmiInstanceDeregister
 product:
 - Windows
 targetos: Windows

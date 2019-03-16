@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDefaultDeviceIoCompletion
-title: KsDefaultDeviceIoCompletion function
+title: KsDefaultDeviceIoCompletion function (ks.h)
 description: The KsDefaultDeviceIoCompletion function is used to return a default response and to complete any device I/O control.
 old-location: stream\ksdefaultdeviceiocompletion.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDefaultDeviceIoCompletion
+- KsDefaultDeviceIoCompletion
 product:
 - Windows
 targetos: Windows

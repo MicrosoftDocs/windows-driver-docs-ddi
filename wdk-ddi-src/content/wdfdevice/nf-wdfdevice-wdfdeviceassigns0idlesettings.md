@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignS0IdleSettings
-title: WdfDeviceAssignS0IdleSettings function
+title: WdfDeviceAssignS0IdleSettings function (wdfdevice.h)
 description: The WdfDeviceAssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\wdfdeviceassigns0idlesettings.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfDeviceAssignS0IdleSettings
+- WdfDeviceAssignS0IdleSettings
 product:
 - Windows
 targetos: Windows

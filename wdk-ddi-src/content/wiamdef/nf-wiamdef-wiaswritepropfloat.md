@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePropFloat
-title: wiasWritePropFloat function
+title: wiasWritePropFloat function (wiamdef.h)
 description: The wiasWritePropFloat function writes a single floating-point property value to a WIA item.
 old-location: image\wiaswritepropfloat.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePropFloat
+- wiasWritePropFloat
 product:
 - Windows
 targetos: Windows

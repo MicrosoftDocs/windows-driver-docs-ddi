@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.CreateSymbolGroup2
-title: IDebugSymbols3::CreateSymbolGroup2
+title: IDebugSymbols3::CreateSymbolGroup2 (dbgeng.h)
 description: The CreateSymbolGroup2 method creates a new symbol group.
 old-location: debugger\createsymbolgroup2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.CreateSymbolGroup2
+- IDebugSymbols3.CreateSymbolGroup2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Execute
-title: IDataModelScript::Execute
+title: IDataModelScript::Execute (dbgmodel.h)
 description: The Execute method executes the content of the script as dictated by the last successful Populate call and modifies the object model of the debugger according to that content.
 ms.assetid: 6682b609-fd29-4878-b820-f7a582b7295d
 ms.date: 08/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScript.Execute
-product: Windows
+- IDataModelScript.Execute
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

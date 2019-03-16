@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.UsbBuildOpenStaticStreamsRequest
-title: UsbBuildOpenStaticStreamsRequest function
+title: UsbBuildOpenStaticStreamsRequest function (usbdlib.h)
 description: The UsbBuildOpenStaticStreamsRequest inline function formats an URB structure for an open-streams request. The request opens streams associated with the specified bulk endpoint.
 old-location: buses\usbbuildopenbasicstreamsrequest.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbdlib.h
+- Usbdlib.h
 api_name:
--	UsbBuildOpenStaticStreamsRequest
+- UsbBuildOpenStaticStreamsRequest
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectBag
-title: KsAllocateObjectBag function
+title: KsAllocateObjectBag function (ks.h)
 description: The KsAllocateObjectBag function creates an object bag and associates it with a KSDEVICE.
 old-location: stream\ksallocateobjectbag.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAllocateObjectBag
+- KsAllocateObjectBag
 product:
 - Windows
 targetos: Windows

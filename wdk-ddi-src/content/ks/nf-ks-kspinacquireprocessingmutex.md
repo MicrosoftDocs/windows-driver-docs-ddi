@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAcquireProcessingMutex
-title: KsPinAcquireProcessingMutex function
+title: KsPinAcquireProcessingMutex function (ks.h)
 description: The KsPinAcquireProcessingMutex function acquires the processing mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinacquireprocessingmutex.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinAcquireProcessingMutex
+- KsPinAcquireProcessingMutex
 product:
 - Windows
 targetos: Windows

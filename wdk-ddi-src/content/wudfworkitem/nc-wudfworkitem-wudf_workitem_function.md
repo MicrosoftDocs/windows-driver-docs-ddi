@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfworkitem.WUDF_WORKITEM_FUNCTION
-title: WUDF_WORKITEM_FUNCTION
+title: WUDF_WORKITEM_FUNCTION (wudfworkitem.h)
 description: A driver's OnWorkItem event callback function performs the work that is associated with a specified work item.
 old-location: wdf\onworkitem.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfworkitem.h
+- Wudfworkitem.h
 api_name:
--	WUDF_WORKITEM_FUNCTION
+- WUDF_WORKITEM_FUNCTION
 product:
 - Windows
 targetos: Windows

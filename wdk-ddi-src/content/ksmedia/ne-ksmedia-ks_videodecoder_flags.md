@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_71
-title: KS_VIDEODECODER_FLAGS
+title: KS_VIDEODECODER_FLAGS (ksmedia.h)
 description: The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
 old-location: stream\ks_videodecoder_flags.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_VIDEODECODER_FLAGS
+- KS_VIDEODECODER_FLAGS
 product:
 - Windows
 targetos: Windows

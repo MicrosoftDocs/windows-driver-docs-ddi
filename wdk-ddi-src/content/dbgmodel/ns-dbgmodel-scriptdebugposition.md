@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgmodel.ScriptDebugPosition
-title: ScriptDebugPosition
+title: ScriptDebugPosition (dbgmodel.h)
 description: Defines a position within a script.
 ms.assetid: 2a20c74b-7670-40c8-b0bc-048532bdf7ac
 ms.date: 07/16/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	ScriptDebugPosition
-product: Windows
+- ScriptDebugPosition
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

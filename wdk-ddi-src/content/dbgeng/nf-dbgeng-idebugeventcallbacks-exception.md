@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.Exception
-title: IDebugEventCallbacks::Exception
+title: IDebugEventCallbacks::Exception (dbgeng.h)
 description: The Exception callback method is called by the engine when an exceptiondebugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_exception.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacks.Exception
+- IDebugEventCallbacks.Exception
 product:
 - Windows
 targetos: Windows

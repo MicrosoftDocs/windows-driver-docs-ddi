@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_QUERY_CAPS
-title: DXGKDDI_MIRACAST_QUERY_CAPS
+title: DXGKDDI_MIRACAST_QUERY_CAPS (dispmprt.h)
 description: Queries the Miracast capabilities of the current display adapter.
 old-location: display\dxgkddimiracastquerycaps.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiMiracastQueryCaps
+- DxgkDdiMiracastQueryCaps
 product:
 - Windows
 targetos: Windows

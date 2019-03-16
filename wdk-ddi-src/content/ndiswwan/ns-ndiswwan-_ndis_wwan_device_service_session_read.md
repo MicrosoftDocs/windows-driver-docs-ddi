@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SESSION_READ
-title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_READ"
+title: _NDIS_WWAN_DEVICE_SERVICE_SESSION_READ (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_READ structure represents device service session data that has been read by the miniport driver from the MB device.
 old-location: netvista\ndis_wwan_device_service_session_read.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_DEVICE_SERVICE_SESSION_READ
+- NDIS_WWAN_DEVICE_SERVICE_SESSION_READ
 product:
 - Windows
 targetos: Windows

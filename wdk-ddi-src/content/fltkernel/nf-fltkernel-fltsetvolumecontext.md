@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetVolumeContext
-title: FltSetVolumeContext function
+title: FltSetVolumeContext function (fltkernel.h)
 description: FltSetVolumeContext sets a context for a volume.
 old-location: ifsk\fltsetvolumecontext.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltSetVolumeContext
+- FltSetVolumeContext
 product:
 - Windows
 targetos: Windows

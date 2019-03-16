@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetMemberType
-title: IDebugHostType2::GetMemberType
+title: IDebugHostType2::GetMemberType (dbgmodel.h)
 description: For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of. 
 ms.assetid: 7813d8e7-962b-41e3-8635-9a9961952d05
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetMemberType
-product: Windows
+- IDebugHostType2.GetMemberType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

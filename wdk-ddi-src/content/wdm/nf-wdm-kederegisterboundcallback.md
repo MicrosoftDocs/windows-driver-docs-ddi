@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterBoundCallback
-title: KeDeregisterBoundCallback function
+title: KeDeregisterBoundCallback function (wdm.h)
 description: The KeDeregisterBoundCallback routine deregisters a user-mode bound exception callback registered by KeRegisterBoundCallback.
 old-location: kernel\kederegisterboundcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeDeregisterBoundCallback
+- KeDeregisterBoundCallback
 product:
 - Windows
 targetos: Windows

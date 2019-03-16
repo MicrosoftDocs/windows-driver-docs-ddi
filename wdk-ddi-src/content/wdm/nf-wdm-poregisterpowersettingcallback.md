@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoRegisterPowerSettingCallback
-title: PoRegisterPowerSettingCallback function
+title: PoRegisterPowerSettingCallback function (wdm.h)
 description: The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
 old-location: kernel\poregisterpowersettingcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoRegisterPowerSettingCallback
+- PoRegisterPowerSettingCallback
 product:
 - Windows
 targetos: Windows

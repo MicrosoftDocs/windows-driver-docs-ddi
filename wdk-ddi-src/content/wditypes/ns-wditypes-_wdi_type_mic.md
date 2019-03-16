@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_TYPE_MIC
-title: "_WDI_TYPE_MIC"
+title: _WDI_TYPE_MIC (wditypes.h)
 description: The WDI_TYPE_MIC structure defines the MIC (802.11r).
 old-location: netvista\wdi_type_mic.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_TYPE_MIC
+- WDI_TYPE_MIC
 product:
 - Windows
 targetos: Windows

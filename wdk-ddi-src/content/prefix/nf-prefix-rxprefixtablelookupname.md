@@ -1,6 +1,6 @@
 ---
 UID: NF:prefix.RxPrefixTableLookupName
-title: RxPrefixTableLookupName function
+title: RxPrefixTableLookupName function (prefix.h)
 description: RxPrefixTableLookupName looks up a name in a prefix table used to catalog SRV_CALL, NET_ROOT, and V_NET_ROOT names and converts the underlying pointer to a structure that contains the name.
 old-location: ifsk\rxprefixtablelookupname.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prefix.h
+- prefix.h
 api_name:
--	RxPrefixTableLookupName
+- RxPrefixTableLookupName
 product:
 - Windows
 targetos: Windows

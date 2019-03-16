@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
-title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
+title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030 (d3d12umddi.h)
 description: Used to calculate the size of an opened session.
 old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionsize_0030.htm
 ms.assetid: 2BA706AC-4B00-461F-8EED-0BC3BB6E2A2C
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
+- PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
 product:
 - Windows
 targetos: Windows

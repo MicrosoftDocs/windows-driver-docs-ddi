@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MSIX_CONFIG_PARAMETERS
-title: "_NDIS_MSIX_CONFIG_PARAMETERS"
+title: _NDIS_MSIX_CONFIG_PARAMETERS (ndis.h)
 description: The NDIS_MSIX_CONFIG_PARAMETERS structure defines a requested configuration operation and specifies the parameters that are required for that particular operation.
 old-location: netvista\ndis_msix_config_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_MSIX_CONFIG_PARAMETERS
+- NDIS_MSIX_CONFIG_PARAMETERS
 product:
 - Windows
 targetos: Windows

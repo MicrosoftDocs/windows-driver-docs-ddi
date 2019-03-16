@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPushEntrySList
-title: ExInterlockedPushEntrySList macro
+title: ExInterlockedPushEntrySList macro (wdm.h)
 description: The ExInterlockedPushEntrySList routine atomically inserts an entry at the beginning of a sequenced singly linked list.
 old-location: kernel\exinterlockedpushentryslist.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExInterlockedPushEntrySList
+- ExInterlockedPushEntrySList
 -   ExpInterlockedPushEntrySList
 product:
 - Windows

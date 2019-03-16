@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_1DDI_CREATEBLENDSTATE
-title: PFND3D10_1DDI_CREATEBLENDSTATE
+title: PFND3D10_1DDI_CREATEBLENDSTATE (d3d10umddi.h)
 description: The CreateBlendState(D3D10_1) function creates a blend state.
 old-location: display\createblendstate_d3d10_1_.htm
 ms.assetid: 1b258f28-c386-477c-92d1-cb5918080dcf
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateBlendState_d3d10_1_
+- CreateBlendState_d3d10_1_
 product:
 - Windows
 targetos: Windows

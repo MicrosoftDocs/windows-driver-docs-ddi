@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
-title: WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function
+title: WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function (wdfmemory.h)
 description: The WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified framework memory object.
 old-location: wdf\wdf_memory_descriptor_init_handle.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfmemory.h
+- wdfmemory.h
 api_name:
--	WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
+- WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
 product:
 - Windows
 targetos: Windows

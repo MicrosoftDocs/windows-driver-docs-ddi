@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._PDTT_PCC_SUBCHANNEL_INDENTIFIER
-title: _PDTT_PCC_SUBCHANNEL_INDENTIFIER
+title: _PDTT_PCC_SUBCHANNEL_INDENTIFIER (acpitabl.h)
 description: Defines the Processor Properties Topology Table (PPTT) Platform Communication Channel (PCC) subchannel identifier structure.
 ms.assetid: 33cf9dd6-b0f3-450a-8e69-393c8f7796b6
 ms.date: 10/01/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PDTT_PCC_SUBCHANNEL_INDENTIFIER, *PPDTT_PCC_SUBCHANNEL_INDENTIFIER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PDTT_PCC_SUBCHANNEL_INDENTIFIER
+- _PDTT_PCC_SUBCHANNEL_INDENTIFIER
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

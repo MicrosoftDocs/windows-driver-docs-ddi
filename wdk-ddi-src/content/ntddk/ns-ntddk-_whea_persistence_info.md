@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PERSISTENCE_INFO
-title: "_WHEA_PERSISTENCE_INFO"
+title: _WHEA_PERSISTENCE_INFO (ntddk.h)
 description: The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
 old-location: whea\whea_persistence_info.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PERSISTENCE_INFO
+- WHEA_PERSISTENCE_INFO
 product:
 - Windows
 targetos: Windows

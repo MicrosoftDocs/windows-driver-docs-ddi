@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.Release
-title: IIterableConcept::Release
+title: IIterableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 82e6678e-82e1-43fa-965a-73877c476f83
 ms.date: 09/19/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IIterableConcept.Release
-product: Windows
+- IIterableConcept.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

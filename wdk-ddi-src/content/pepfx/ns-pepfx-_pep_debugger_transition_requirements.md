@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_DEBUGGER_TRANSITION_REQUIREMENTS
-title: "_PEP_DEBUGGER_TRANSITION_REQUIREMENTS"
+title: _PEP_DEBUGGER_TRANSITION_REQUIREMENTS (pepfx.h)
 description: The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the platform idle states for which the debugger device must be turned on.
 old-location: kernel\pep_debugger_transition_requirements.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEBUGGER_TRANSITION_REQUIREMENTS
+- PEP_DEBUGGER_TRANSITION_REQUIREMENTS
 product:
 - Windows
 targetos: Windows

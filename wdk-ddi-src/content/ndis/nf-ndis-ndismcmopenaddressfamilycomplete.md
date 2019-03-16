@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmOpenAddressFamilyComplete
-title: NdisMCmOpenAddressFamilyComplete macro
+title: NdisMCmOpenAddressFamilyComplete macro (ndis.h)
 description: NdisMCmOpenAddressFamilyComplete returns the final status of a client's request, for which the MCM driver's ProtocolCmOpenAf function returned NDIS_STATUS_PENDING, to open the MCM driver's address family.
 old-location: netvista\ndismcmopenaddressfamilycomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisMCmOpenAddressFamilyComplete
+- NdisMCmOpenAddressFamilyComplete
 product:
 - Windows
 targetos: Windows

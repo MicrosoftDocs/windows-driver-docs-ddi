@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwEventEnabled
-title: EtwEventEnabled function
+title: EtwEventEnabled function (wdm.h)
 description: The EtwEventEnabled function verifies whether an event is enabled.
 old-location: devtest\etweventenabled.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwEventEnabled
+- EtwEventEnabled
 product:
 - Windows
 targetos: Windows

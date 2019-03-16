@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxCreateNetFcb
-title: RxCreateNetFcb function
+title: RxCreateNetFcb function (fcb.h)
 description: RxCreateNetFCB allocates, initializes, and inserts a new FCB structure into the in-memory data structures for a V_NET_ROOT that this FCB is being opened on. The structure allocated has space for a SRV_OPEN and an FOBX structure.
 old-location: ifsk\rxcreatenetfcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxCreateNetFcb
+- RxCreateNetFcb
 product:
 - Windows
 targetos: Windows

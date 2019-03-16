@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
-title: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro
+title: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro to access the next NDIS_SWITCH_PROPERTY_ENUM_INFO element that follows an NDIS_SWITCH_PROPERTY_ENUM_INFO structure in the array that is specified by an NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 8481d60d-04da-4a52-b37d-26cabab05c78
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
+- NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

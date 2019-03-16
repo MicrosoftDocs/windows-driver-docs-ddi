@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.CWiaLogProc.~CWiaLogProc
-title: CWiaLogProc::~CWiaLogProc
+title: CWiaLogProc::~CWiaLogProc (wiamdef.h)
 description: The ~CWiaLogProc destructor is called when the function or method being logged is exited.
 old-location: image\cwialogproc__cwialogproc.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiamdef.h
+- Wiamdef.h
 api_name:
--	CWiaLogProc.~CWiaLogProc
+- CWiaLogProc.~CWiaLogProc
 product:
 - Windows
 targetos: Windows

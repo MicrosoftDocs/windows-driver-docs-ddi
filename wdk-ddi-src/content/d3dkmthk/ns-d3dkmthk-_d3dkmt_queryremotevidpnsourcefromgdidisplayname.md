@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
-title: "_D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME"
+title: _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME (d3dkmthk.h)
 description: Describes information that is required to map a GDI display name to a remote video present network (VidPN) source ID.
 old-location: display\d3dkmt_queryremotevidpnsourcefromgdidisplayname.htm
 ms.assetid: ac0ec68a-1f2c-4a39-bf88-0e69d50b1279
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
+- D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 product:
 - Windows
 targetos: Windows

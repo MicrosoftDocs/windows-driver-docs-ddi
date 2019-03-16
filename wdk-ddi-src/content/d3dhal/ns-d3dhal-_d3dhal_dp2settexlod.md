@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETTEXLOD
-title: "_D3DHAL_DP2SETTEXLOD"
+title: _D3DHAL_DP2SETTEXLOD (d3dhal.h)
 description: The D3DHAL_DP2SETTEXLOD structure is used to set the level of detail (LOD) for MIP maps when the D3DDP2OP_SETTEXLOD command is sent to D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2settexlod.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_DP2SETTEXLOD
+- D3DHAL_DP2SETTEXLOD
 product:
 - Windows
 targetos: Windows

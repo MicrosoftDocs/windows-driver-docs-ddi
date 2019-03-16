@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.KsResolveRequiredAttributes
-title: KsResolveRequiredAttributes function
+title: KsResolveRequiredAttributes function (ksproxy.h)
 description: The KsResolveRequiredAttributes function searches the attributes list that is attached to a data range for specified attributes and ensures that all specified attributes were found.
 old-location: stream\ksresolverequiredattributes.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsResolveRequiredAttributes
+- KsResolveRequiredAttributes
 product:
 - Windows
 targetos: Windows

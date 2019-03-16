@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapIoSpace
-title: MmMapIoSpace function
+title: MmMapIoSpace function (wdm.h)
 description: The MmMapIoSpace routine maps the given physical address range to nonpaged system space.
 old-location: kernel\mmmapiospace.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmMapIoSpace
+- MmMapIoSpace
 product:
 - Windows
 targetos: Windows

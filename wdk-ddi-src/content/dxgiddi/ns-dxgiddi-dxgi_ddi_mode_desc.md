@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MODE_DESC
-title: DXGI_DDI_MODE_DESC
+title: DXGI_DDI_MODE_DESC (dxgiddi.h)
 description: The DXGI_DDI_MODE_DESC structure describes a display mode.
 old-location: display\dxgi_ddi_mode_desc.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_MODE_DESC
+- DXGI_DDI_MODE_DESC
 product:
 - Windows
 targetos: Windows

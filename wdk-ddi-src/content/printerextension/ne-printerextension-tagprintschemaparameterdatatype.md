@@ -1,6 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintSchemaParameterDataType
-title: tagPrintSchemaParameterDataType
+title: tagPrintSchemaParameterDataType (printerextension.h)
 description: The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
 old-location: print\tagprintschemaparameterdatatype.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	PrintSchemaParameterDataType
+- PrintSchemaParameterDataType
 product:
 - Windows
 targetos: Windows

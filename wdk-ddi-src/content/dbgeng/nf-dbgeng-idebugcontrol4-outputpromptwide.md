@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputPromptWide
-title: IDebugControl4::OutputPromptWide
+title: IDebugControl4::OutputPromptWide (dbgeng.h)
 description: The OutputPromptWide method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl4.OutputPromptWide
+- IDebugControl4.OutputPromptWide
 product:
 - Windows
 targetos: Windows

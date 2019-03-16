@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_PERFORMANCE_REQUEST
-title: "_CDROM_PERFORMANCE_REQUEST"
+title: _CDROM_PERFORMANCE_REQUEST (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_REQUEST structure is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request and describes the performance data requested.
 old-location: storage\cdrom_performance_request.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdrm.h
+- Ntddcdrm.h
 api_name:
--	CDROM_PERFORMANCE_REQUEST
+- CDROM_PERFORMANCE_REQUEST
 product:
 - Windows
 targetos: Windows

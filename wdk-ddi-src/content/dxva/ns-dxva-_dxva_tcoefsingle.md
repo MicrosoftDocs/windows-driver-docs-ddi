@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_TCoefSingle
-title: "_DXVA_TCoefSingle"
+title: _DXVA_TCoefSingle (dxva.h)
 description: The DXVA_TCoefSingle structure is sent by the host decoder to the accelerator to specify IDCT coefficient values.
 old-location: display\dxva_tcoefsingle.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_TCoefSingle
+- DXVA_TCoefSingle
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKREQUESTINTERRUPT
-title: POFXCALLBACKREQUESTINTERRUPT
+title: POFXCALLBACKREQUESTINTERRUPT (pep_x.h)
 description: The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state.
 old-location: kernel\requestinterrupt.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= HIGH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	RequestInterrupt
+- RequestInterrupt
 product:
 - Windows
 targetos: Windows

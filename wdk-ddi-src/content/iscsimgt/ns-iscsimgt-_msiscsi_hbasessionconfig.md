@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_HBASessionConfig
-title: "_MSiSCSI_HBASessionConfig"
+title: _MSiSCSI_HBASessionConfig (iscsimgt.h)
 description: The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device.
 old-location: storage\msiscsi_hbasessionconfig.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_HBASessionConfig
+- MSiSCSI_HBASessionConfig
 product:
 - Windows
 targetos: Windows
@@ -58,7 +58,7 @@ The MSiSCSI_HBASessionConfig structure contains the default logon characteristic
 
 A Boolean value that indicates if the HBA initiator requests permission from the target to transmit unsolicited SCSI data whenever it establishes a new session. If this member is <b>TRUE</b>, the HBA initiator requests permission from the target to transmit unsolicited SCSI data whenever it establishes a new session. By default, the initiator does not transmit SCSI data until the target solicits the data by sending a ready-to-transmit (R2T) request, with a buffer offset of 0 and a desired transfer length equal to the minimum of the first burst size and the expected data transfer. 
 
-If <b>InitialR2T</b> is <b>TRUE</b>, the initiator sends a protocol data unit (PDU) to the target with the  the string "No" in the InitialR2T key of the PDU. The target must respond by sending a PDU to the initiator with the string "No" in the InitialR2T key of the PDU. Both initiator and target must agree before unsolicited data transmission is allowed. Therefore, even if you set <b>InitialR2T</b> to <b>TRUE</b>, it does not guarantee that the initiator will be able to send unsolicited SCSI data to the target. 
+If <b>InitialR2T</b> is <b>TRUE</b>, the initiator sends a protocol data unit (PDU) to the target with the string "No" in the InitialR2T key of the PDU. The target must respond by sending a PDU to the initiator with the string "No" in the InitialR2T key of the PDU. Both initiator and target must agree before unsolicited data transmission is allowed. Therefore, even if you set <b>InitialR2T</b> to <b>TRUE</b>, it does not guarantee that the initiator will be able to send unsolicited SCSI data to the target. 
 
 If this member is <b>FALSE</b>, all sessions that the initiator creates follow the default behavior. For more information about the InitialR2T key, see the <i>IP Storage Working Group</i> specification. 
 

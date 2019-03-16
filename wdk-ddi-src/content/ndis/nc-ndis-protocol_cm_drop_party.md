@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DROP_PARTY
-title: PROTOCOL_CM_DROP_PARTY
+title: PROTOCOL_CM_DROP_PARTY (ndis.h)
 description: The ProtocolCmDropParty function is required.
 old-location: netvista\protocolcmdropparty.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmDropParty
+- ProtocolCmDropParty
 product:
 - Windows
 targetos: Windows

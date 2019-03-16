@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetDataFields
-title: ISensorDriver::OnGetDataFields
+title: ISensorDriver::OnGetDataFields (sensorsclassextension.h)
 description: The ISensorDriver::OnGetDataFields method retrieves current sensor data.
 old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetDataFields
+- OnGetDataFields
 product:
 - Windows
 targetos: Windows

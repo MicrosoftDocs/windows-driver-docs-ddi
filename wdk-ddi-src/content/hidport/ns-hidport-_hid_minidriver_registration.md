@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_MINIDRIVER_REGISTRATION
-title: "_HID_MINIDRIVER_REGISTRATION"
+title: _HID_MINIDRIVER_REGISTRATION (hidport.h)
 description: The HID_MINIDRIVER_REGISTRATION structure contains registration information that a HID minidriver passes to the HID Client Drivers when the minidriver registers with the class driver.
 old-location: hid\hid_minidriver_registration.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	HID_MINIDRIVER_REGISTRATION
+- HID_MINIDRIVER_REGISTRATION
 product:
 - Windows
 targetos: Windows

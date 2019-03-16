@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTime~r1
-title: KeQuerySystemTime function
+title: KeQuerySystemTime function (wdm.h)
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQuerySystemTime
+- KeQuerySystemTime
 product:
 - Windows
 targetos: Windows

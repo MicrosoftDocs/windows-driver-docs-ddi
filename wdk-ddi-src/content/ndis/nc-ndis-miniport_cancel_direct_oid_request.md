@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CANCEL_DIRECT_OID_REQUEST
-title: MINIPORT_CANCEL_DIRECT_OID_REQUEST
+title: MINIPORT_CANCEL_DIRECT_OID_REQUEST (ndis.h)
 description: NDIS calls a miniport driver's MiniportCancelDirectOidRequest function to cancel a direct OID request.
 old-location: netvista\miniportcanceldirectoidrequest.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCancelDirectOidRequest
+- MiniportCancelDirectOidRequest
 product:
 - Windows
 targetos: Windows

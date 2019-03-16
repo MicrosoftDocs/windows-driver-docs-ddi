@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortStallExecution
-title: ScsiPortStallExecution function
+title: ScsiPortStallExecution function (srb.h)
 description: The ScsiPortStallExecution routine stalls in the miniport driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportstallexecution.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Scsiport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Scsiport.lib
--	Scsiport.dll
+- Scsiport.lib
+- Scsiport.dll
 api_name:
--	ScsiPortStallExecution
+- ScsiPortStallExecution
 product:
 - Windows
 targetos: Windows

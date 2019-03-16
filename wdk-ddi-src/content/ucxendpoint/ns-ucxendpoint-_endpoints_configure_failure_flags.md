@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINTS_CONFIGURE_FAILURE_FLAGS
-title: "_ENDPOINTS_CONFIGURE_FAILURE_FLAGS"
+title: _ENDPOINTS_CONFIGURE_FAILURE_FLAGS (ucxendpoint.h)
 description: This structure provides failure flags to indicate errors, if any, that might have occurred during a request to an EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure_failure_flags.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	ENDPOINTS_CONFIGURE_FAILURE_FLAGS
+- ENDPOINTS_CONFIGURE_FAILURE_FLAGS
 product:
 - Windows
 targetos: Windows

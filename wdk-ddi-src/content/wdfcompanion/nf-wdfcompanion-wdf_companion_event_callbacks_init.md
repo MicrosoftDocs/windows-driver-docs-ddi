@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompanion.WDF_COMPANION_EVENT_CALLBACKS_INIT
-title: WDF_COMPANION_EVENT_CALLBACKS_INIT function
+title: WDF_COMPANION_EVENT_CALLBACKS_INIT function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WDF_COMPANION_EVENT_CALLBACKS_INIT
+- WDF_COMPANION_EVENT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_SET_OUTPUT_REPORT
-title: IOCTL_UMDF_HID_SET_OUTPUT_REPORT
+title: IOCTL_UMDF_HID_SET_OUTPUT_REPORT (hidport.h)
 description: The IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code sends an output report to a top-level collection.
 old-location: hid\ioctl_umdf_hid_set_output_report.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidport.h
+- Hidport.h
 api_name:
--	IOCTL_UMDF_HID_SET_OUTPUT_REPORT
+- IOCTL_UMDF_HID_SET_OUTPUT_REPORT
 product:
 - Windows
 targetos: Windows

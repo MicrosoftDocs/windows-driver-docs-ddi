@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_83
-title: KSHANDSHAKE
+title: KSHANDSHAKE (ks.h)
 description: The KSHANDSHAKE structure is used to pass information back and forth while pins are handshaking in an attempt to negotiate a private interface.
 old-location: stream\kshandshake.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSHANDSHAKE
+- KSHANDSHAKE
 product:
 - Windows
 targetos: Windows

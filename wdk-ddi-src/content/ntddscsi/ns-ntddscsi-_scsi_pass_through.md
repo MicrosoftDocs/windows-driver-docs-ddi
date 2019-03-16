@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH
-title: "_SCSI_PASS_THROUGH"
+title: _SCSI_PASS_THROUGH (ntddscsi.h)
 description: The SCSI_PASS_THROUGH structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH request to instruct the port driver to send an embedded SCSI command to the target device.
 old-location: storage\scsi_pass_through.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	SCSI_PASS_THROUGH
+- SCSI_PASS_THROUGH
 product:
 - Windows
 targetos: Windows

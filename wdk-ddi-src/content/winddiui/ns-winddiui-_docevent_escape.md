@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCEVENT_ESCAPE
-title: "_DOCEVENT_ESCAPE"
+title: _DOCEVENT_ESCAPE (winddiui.h)
 description: The DOCEVENT_ESCAPE structure is a container for values used as parameters for the ExtEscape function.
 old-location: print\docevent_escape.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	DOCEVENT_ESCAPE
+- DOCEVENT_ESCAPE
 product:
 - Windows
 targetos: Windows

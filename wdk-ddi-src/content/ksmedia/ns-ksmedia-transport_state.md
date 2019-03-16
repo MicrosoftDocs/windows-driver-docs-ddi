@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_133
-title: TRANSPORT_STATE
+title: TRANSPORT_STATE (ksmedia.h)
 description: The TRANSPORT_STATE structure
 old-location: stream\transport_state.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TRANSPORT_STATE
+- TRANSPORT_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_ALTERNATE_MODE
-title: _UCSI_ALTERNATE_MODE
+title: _UCSI_ALTERNATE_MODE (ucmucsispec.h)
 tech.root: usbref
 description: Used in GET_ALTERNATE_MODES command. See Table 4-26.
 ms.assetid: d083982e-c565-4242-a805-d2495c2c63bb
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_ALTERNATE_MODE, *PUCSI_ALTERNATE_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_ALTERNATE_MODE
-product: Windows
+- _UCSI_ALTERNATE_MODE
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

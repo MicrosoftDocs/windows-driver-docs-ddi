@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetVolumeInformationFile
-title: ZwSetVolumeInformationFile function
+title: ZwSetVolumeInformationFile function (ntifs.h)
 description: The ZwSetVolumeInformationFile routine modifies information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwsetvolumeinformationfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwSetVolumeInformationFile
--	NtSetInformationFile
+- ZwSetVolumeInformationFile
+- NtSetInformationFile
 product:
 - Windows
 targetos: Windows

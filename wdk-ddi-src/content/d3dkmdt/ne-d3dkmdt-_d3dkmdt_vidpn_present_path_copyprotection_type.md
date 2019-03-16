@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE"
+title: _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE enumeration is used to indicate the type of copy protection that is supported by a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+- D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
 product:
 - Windows
 targetos: Windows

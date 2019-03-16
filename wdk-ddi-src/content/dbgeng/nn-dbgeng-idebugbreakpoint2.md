@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugBreakpoint2
-title: IDebugBreakpoint2
+title: IDebugBreakpoint2 (dbgeng.h)
 description: IDebugBreakpoint2 interface
 old-location: debugger\idebugbreakpoint2.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint2
+- IDebugBreakpoint2
 product:
 - Windows
 targetos: Windows

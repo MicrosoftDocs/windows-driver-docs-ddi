@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAcquireFileExclusive(PFILE_OBJECT)
-title: FsRtlAcquireFileExclusive function
+title: FsRtlAcquireFileExclusive function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\fsrtlacquirefileexclusive.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FsRtlAcquireFileExclusive
+- FsRtlAcquireFileExclusive
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ms.custom: RS5

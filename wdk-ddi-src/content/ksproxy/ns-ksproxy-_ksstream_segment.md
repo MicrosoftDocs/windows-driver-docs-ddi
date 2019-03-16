@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._KSSTREAM_SEGMENT
-title: "_KSSTREAM_SEGMENT"
+title: _KSSTREAM_SEGMENT (ksproxy.h)
 description: The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
 old-location: stream\ksstream_segment.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	KSSTREAM_SEGMENT
+- KSSTREAM_SEGMENT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wiamindr_lh.IWiaMiniDrv
-title: IWiaMiniDrv
+title: IWiaMiniDrv (wiamindr_lh.h)
 description: The IWiaMiniDrv interface provides the methods that are the entry points for all communication between the minidriver and the WIA service. These methods allow the WIA service to control the device.
 old-location: image\iwiaminidrv_interface.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaMiniDrv
+- IWiaMiniDrv
 product:
 - Windows
 targetos: Windows

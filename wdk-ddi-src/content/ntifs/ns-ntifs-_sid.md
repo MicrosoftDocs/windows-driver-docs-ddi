@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID
-title: "_SID"
+title: _SID (ntifs.h)
 description: The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 old-location: ifsk\sid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SID
+- SID
 product:
 - Windows
 targetos: Windows

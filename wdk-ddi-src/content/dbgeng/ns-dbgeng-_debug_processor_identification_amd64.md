@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_AMD64
-title: "_DEBUG_PROCESSOR_IDENTIFICATION_AMD64"
+title: _DEBUG_PROCESSOR_IDENTIFICATION_AMD64 (dbgeng.h)
 description: Identifies an AMD64 processor.
 old-location: debugger\debug_processor_identification_amd64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_PROCESSOR_IDENTIFICATION_AMD64
+- DEBUG_PROCESSOR_IDENTIFICATION_AMD64
 product:
 - Windows
 targetos: Windows

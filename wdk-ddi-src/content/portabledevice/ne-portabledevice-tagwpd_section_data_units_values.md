@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_SECTION_DATA_UNITS_VALUES
-title: tagWPD_SECTION_DATA_UNITS_VALUES
+title: WPD_SECTION_DATA_UNITS_VALUES (portabledevice.h)
 description: The WPD_SECTION_DATA_UNITS_VALUES enumeration indicates the units for a referenced section of data.
 old-location: wpddk\wpd_section_data_units_values.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_SECTION_DATA_UNITS_VALUES
+- WPD_SECTION_DATA_UNITS_VALUES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_SECTION_DATA_UNITS_VALUES
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwWriteTransfer
-title: EtwWriteTransfer function
+title: EtwWriteTransfer function (wdm.h)
 description: The EtwWriteTransfer function marks an event that links two activities together; this type of event is referred to as a transfer event.
 old-location: devtest\etwwritetransfer.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Comments section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	EtwWriteTransfer
+- EtwWriteTransfer
 product:
 - Windows
 targetos: Windows

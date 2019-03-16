@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESETENGINE
-title: DXGKDDI_RESETENGINE
+title: DXGKDDI_RESETENGINE (d3dkmddi.h)
 description: The display port driver's GPU scheduler calls this function to reset an active node on a physical display adapter when the scheduler detects a timeout condition on the adapter.
 old-location: display\dxgkddiresetengine.htm
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiResetEngine
+- DxgkDdiResetEngine
 product:
 - Windows
 targetos: Windows

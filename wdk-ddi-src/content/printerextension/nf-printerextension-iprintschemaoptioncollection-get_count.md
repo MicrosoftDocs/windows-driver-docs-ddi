@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOptionCollection.get_Count
-title: IPrintSchemaOptionCollection::get_Count
+title: IPrintSchemaOptionCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
 old-location: print\iprintschemaoptioncollection_count.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaOptionCollection.Count
--	IPrintSchemaOptionCollection.get_Count
+- IPrintSchemaOptionCollection.Count
+- IPrintSchemaOptionCollection.get_Count
 product:
 - Windows
 targetos: Windows

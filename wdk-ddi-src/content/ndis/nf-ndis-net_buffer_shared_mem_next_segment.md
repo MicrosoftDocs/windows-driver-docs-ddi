@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
-title: NET_BUFFER_SHARED_MEM_NEXT_SEGMENT macro
+title: NET_BUFFER_SHARED_MEM_NEXT_SEGMENT macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_NEXT_SEGMENT macro gets the next shared memory segment from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
 ms.assetid: 8576525d-ec6f-4986-924e-8550b47a0ba3
@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
+- NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

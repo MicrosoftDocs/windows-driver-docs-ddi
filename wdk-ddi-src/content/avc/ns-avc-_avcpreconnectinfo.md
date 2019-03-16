@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVCPRECONNECTINFO
-title: "_AVCPRECONNECTINFO"
+title: _AVCPRECONNECTINFO (avc.h)
 description: The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcpreconnectinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVCPRECONNECTINFO
+- AVCPRECONNECTINFO
 product:
 - Windows
 targetos: Windows

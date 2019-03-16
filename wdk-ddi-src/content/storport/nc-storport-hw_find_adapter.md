@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_FIND_ADAPTER
-title: HW_FIND_ADAPTER
+title: HW_FIND_ADAPTER (storport.h)
 description: The HwStorFindAdapter routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter.
 old-location: storage\hwstorfindadapter.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorFindAdapter
+- HwStorFindAdapter
 product:
 - Windows
 targetos: Windows

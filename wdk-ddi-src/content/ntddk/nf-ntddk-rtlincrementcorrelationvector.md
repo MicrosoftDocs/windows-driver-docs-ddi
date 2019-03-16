@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIncrementCorrelationVector
-title: RtlIncrementCorrelationVector function
+title: RtlIncrementCorrelationVector function (ntddk.h)
 description: Increments the specified correlation vector. For a correlation vector of the form X.i, the incremented value is be X.(i+1).
 old-location: kernel\rtlincrementcorrelationvector.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIncrementCorrelationVector
+- RtlIncrementCorrelationVector
 product:
 - Windows
 targetos: Windows

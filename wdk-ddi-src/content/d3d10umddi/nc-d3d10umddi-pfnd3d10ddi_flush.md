@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_FLUSH
-title: PFND3D10DDI_FLUSH
+title: PFND3D10DDI_FLUSH (d3d10umddi.h)
 description: The Flush(D3D10) function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 old-location: display\flush_d3d10_.htm
 ms.assetid: 846f8539-4cb3-41d5-836d-563b7eb0d70b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	Flush
+- Flush
 product:
 - Windows
 targetos: Windows

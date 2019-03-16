@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_11
-title: GNSS_NI_USER_RESPONSE
+title: GNSS_NI_USER_RESPONSE (gnssdriver.h)
 description: This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the GNSS_NI_RESPONSE structure.
 old-location: gnss\gnss_ni_user_response.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_NI_USER_RESPONSE
+- GNSS_NI_USER_RESPONSE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_32
-title: KSATTRIBUTE_LIST
+title: KSATTRIBUTE_LIST (ks.h)
 description: The KSATTRIBUTE_LIST structure contains an attribute defined in a KSATTRIBUTE structure.
 old-location: stream\ksattribute_list.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSATTRIBUTE_LIST
+- KSATTRIBUTE_LIST
 product:
 - Windows
 targetos: Windows

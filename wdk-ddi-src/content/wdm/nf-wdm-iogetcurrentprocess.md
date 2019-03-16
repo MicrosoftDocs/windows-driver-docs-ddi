@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetCurrentProcess
-title: IoGetCurrentProcess function
+title: IoGetCurrentProcess function (wdm.h)
 description: The IoGetCurrentProcess routine returns a pointer to the current process.
 old-location: kernel\iogetcurrentprocess.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetCurrentProcess
--	PsGetCurrentProcess
+- IoGetCurrentProcess
+- PsGetCurrentProcess
 product:
 - Windows
 targetos: Windows

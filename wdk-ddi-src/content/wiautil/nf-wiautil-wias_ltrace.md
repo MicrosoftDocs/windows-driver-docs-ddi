@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_LTRACE
-title: WIAS_LTRACE macro
+title: WIAS_LTRACE macro (wiautil.h)
 description: The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the WIAS_TRACE macro be used instead.The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 old-location: image\wias_ltrace.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_LTRACE
+- WIAS_LTRACE
 product:
 - Windows
 targetos: Windows

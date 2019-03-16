@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterBidiSetRequestCallback
-title: IPrinterBidiSetRequestCallback
+title: IPrinterBidiSetRequestCallback (printerextension.h)
 description: Describes the signature of the callback object that receives the Bidi response.
 old-location: print\iprinterbidisetrequestcallback.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterBidiSetRequestCallback
+- IPrinterBidiSetRequestCallback
 product:
 - Windows
 targetos: Windows

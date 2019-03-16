@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OPEN_PARAMETERS
-title: "_NDIS_OPEN_PARAMETERS"
+title: _NDIS_OPEN_PARAMETERS (ndis.h)
 description: The NDIS_OPEN_PARAMETERS structure defines the open parameters when a protocol driver calls the NdisOpenAdapterEx function.
 old-location: netvista\ndis_open_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_OPEN_PARAMETERS
+- NDIS_OPEN_PARAMETERS
 product:
 - Windows
 targetos: Windows

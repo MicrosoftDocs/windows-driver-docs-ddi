@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_46
-title: KSTIME
+title: KSTIME (ks.h)
 description: The KSTIME structure specifies a time stamp that can be used to indicate stream position.
 old-location: stream\kstime.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSTIME
+- KSTIME
 product:
 - Windows
 targetos: Windows

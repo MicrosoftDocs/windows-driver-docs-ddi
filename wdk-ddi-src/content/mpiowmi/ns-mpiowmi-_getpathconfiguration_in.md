@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._GetPathConfiguration_IN
-title: "_GetPathConfiguration_IN"
+title: _GetPathConfiguration_IN (mpiowmi.h)
 description: The GetPathConfiguration_IN structure is used to retrieve the per path device information.
 old-location: storage\getpathconfiguration_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	GetPathConfiguration_IN
+- GetPathConfiguration_IN
 product:
 - Windows
 targetos: Windows

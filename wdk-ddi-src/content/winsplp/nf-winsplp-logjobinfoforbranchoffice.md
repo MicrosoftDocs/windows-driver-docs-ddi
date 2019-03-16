@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.LogJobInfoForBranchOffice
-title: LogJobInfoForBranchOffice function
+title: LogJobInfoForBranchOffice function (winsplp.h)
 description: Allows Branch Office clients to send job events to the host print server.
 old-location: print\logjobinfoforbranchoffice.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	LogJobInfoForBranchOffice
+- LogJobInfoForBranchOffice
 product:
 - Windows
 targetos: Windows

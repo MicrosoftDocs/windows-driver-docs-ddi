@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMIcmCreateColorTransform
-title: OEMIcmCreateColorTransform function
+title: OEMIcmCreateColorTransform function (printoem.h)
 description: The OEMIcmCreateColorTransform function creates an ICM color transform.
 old-location: print\oemicmcreatecolortransform.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMIcmCreateColorTransform
+- OEMIcmCreateColorTransform
 product:
 - Windows
 targetos: Windows

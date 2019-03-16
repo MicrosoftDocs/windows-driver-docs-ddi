@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_APPLY_CONFIG
-title: EVT_SERCX2_APPLY_CONFIG
+title: EVT_SERCX2_APPLY_CONFIG (sercx.h)
 description: The EvtSerCx2ApplyConfig event callback function is called by version 2 of the serial framework extension (SerCx2) to supply the serial controller driver with a list of device-specific configuration settings to apply to the serial controller hardware.
 old-location: serports\evtsercx2applyconfig.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2ApplyConfig
+- EvtSerCx2ApplyConfig
 product:
 - Windows
 targetos: Windows

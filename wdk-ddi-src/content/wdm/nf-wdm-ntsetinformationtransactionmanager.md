@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationTransactionManager
-title: NtSetInformationTransactionManager function
+title: NtSetInformationTransactionManager function (wdm.h)
 description: Do not call this routine from kernel-mode code.
 old-location: kernel\ntsetinformationtransactionmanager.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	NtSetInformationTransactionManager
+- NtSetInformationTransactionManager
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateSection
-title: ZwCreateSection function
+title: ZwCreateSection function (wdm.h)
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateSection
--	NtCreateSection
+- ZwCreateSection
+- NtCreateSection
 product:
 - Windows
 targetos: Windows

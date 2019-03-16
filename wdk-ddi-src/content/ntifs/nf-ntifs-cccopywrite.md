@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyWrite
-title: CcCopyWrite function
+title: CcCopyWrite function (ntifs.h)
 description: The CcCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\cccopywrite.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcCopyWrite
+- CcCopyWrite
 product:
 - Windows
 targetos: Windows

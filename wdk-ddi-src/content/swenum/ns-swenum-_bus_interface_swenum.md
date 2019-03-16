@@ -1,6 +1,6 @@
 ---
 UID: NS:swenum._BUS_INTERFACE_SWENUM
-title: "_BUS_INTERFACE_SWENUM"
+title: _BUS_INTERFACE_SWENUM (swenum.h)
 description: The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator object's interface.
 old-location: stream\bus_interface_swenum.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	swenum.h
+- swenum.h
 api_name:
--	BUS_INTERFACE_SWENUM
+- BUS_INTERFACE_SWENUM
 product:
 - Windows
 targetos: Windows

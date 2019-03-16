@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_SELECT
-title: "_PEP_PPM_IDLE_SELECT"
+title: _PEP_PPM_IDLE_SELECT (pep_x.h)
 description: The PEP_PPM_IDLE_SELECT structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system.
 old-location: kernel\pep_ppm_idle_select.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_PPM_IDLE_SELECT
+- PEP_PPM_IDLE_SELECT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl5
-title: IDebugControl5
+title: IDebugControl5 (dbgeng.h)
 description: "."
 old-location: debugger\idebugcontrol5.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl5
+- IDebugControl5
 product:
 - Windows
 targetos: Windows

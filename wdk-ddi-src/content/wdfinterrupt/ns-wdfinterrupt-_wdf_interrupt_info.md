@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_INFO
-title: "_WDF_INTERRUPT_INFO"
+title: _WDF_INTERRUPT_INFO (wdfinterrupt.h)
 description: The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.
 old-location: wdf\wdf_interrupt_info.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinterrupt.h
+- wdfinterrupt.h
 api_name:
--	WDF_INTERRUPT_INFO
+- WDF_INTERRUPT_INFO
 product:
 - Windows
 targetos: Windows

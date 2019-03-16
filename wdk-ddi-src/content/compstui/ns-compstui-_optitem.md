@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTITEM
-title: "_OPTITEM"
+title: _OPTITEM (compstui.h)
 description: The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one property sheet option on a property sheet page, if the page is described by a COMPROPSHEETUI structure.
 old-location: print\optitem.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	OPTITEM
+- OPTITEM
 product:
 - Windows
 targetos: Windows

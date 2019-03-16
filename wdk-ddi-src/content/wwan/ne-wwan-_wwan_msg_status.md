@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MSG_STATUS
-title: "_WWAN_MSG_STATUS"
+title: _WWAN_MSG_STATUS (wwan.h)
 description: The WWAN_MSG_STATUS enumeration lists different SMS message statuses.
 old-location: netvista\wwan_msg_status.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_MSG_STATUS
+- WWAN_MSG_STATUS
 product:
 - Windows
 targetos: Windows

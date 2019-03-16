@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU (d3dumddi.h)
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU is used with pfnWaitForSynchronizationObjectFromGpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromgpu.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+- D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 product:
 - Windows
 targetos: Windows

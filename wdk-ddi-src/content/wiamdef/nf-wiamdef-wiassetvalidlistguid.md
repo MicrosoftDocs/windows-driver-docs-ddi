@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListGuid
-title: wiasSetValidListGuid function
+title: wiasSetValidListGuid function (wiamdef.h)
 description: The wiasSetValidListGuid function sets valid values for a WIA_PROP_LIST property of type VT_CLSID.
 old-location: image\wiassetvalidlistguid.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasSetValidListGuid
+- wiasSetValidListGuid
 product:
 - Windows
 targetos: Windows

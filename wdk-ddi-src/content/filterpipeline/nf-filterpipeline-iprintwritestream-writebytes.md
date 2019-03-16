@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStream.WriteBytes
-title: IPrintWriteStream::WriteBytes
+title: IPrintWriteStream::WriteBytes (filterpipeline.h)
 description: The WriteBytes method writes a specified number of bytes to a stream.
 old-location: print\iprintwritestream_writebytes.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPrintWriteStream.WriteBytes
+- IPrintWriteStream.WriteBytes
 product:
 - Windows
 targetos: Windows

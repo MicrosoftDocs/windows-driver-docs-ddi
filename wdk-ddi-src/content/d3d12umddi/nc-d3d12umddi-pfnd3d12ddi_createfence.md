@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEFENCE
-title: PFND3D12DDI_CREATEFENCE
+title: PFND3D12DDI_CREATEFENCE (d3d12umddi.h)
 description: Creates a fence.
 ms.assetid: dcfe2112-bb20-4808-9cd3-59aa56875af7
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATEFENCE
+- PFND3D12DDI_CREATEFENCE
 product: 
 - Windows
 targetos: Windows

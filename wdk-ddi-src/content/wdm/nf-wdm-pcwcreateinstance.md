@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwCreateInstance
-title: PcwCreateInstance function
+title: PcwCreateInstance function (wdm.h)
 description: The PcwCreateInstance function creates a new instance for the specified registered counter set.
 old-location: devtest\pcwcreateinstance.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PcwCreateInstance
+- PcwCreateInstance
 product:
 - Windows
 targetos: Windows

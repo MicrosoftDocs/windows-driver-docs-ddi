@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
-title: "_NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS"
+title: _NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS (ndis.h)
 description: The NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure specifies shared memory provider characteristics.
 old-location: netvista\ndis_shared_memory_provider_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
+- NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

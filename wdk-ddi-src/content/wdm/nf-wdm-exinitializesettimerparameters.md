@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeSetTimerParameters
-title: ExInitializeSetTimerParameters function
+title: ExInitializeSetTimerParameters function (wdm.h)
 description: The ExInitializeSetTimerParameters routine initializes an EXT_SET_PARAMETERS structure.
 old-location: kernel\exinitializesettimerparameters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ExInitializeSetTimerParameters
+- ExInitializeSetTimerParameters
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RELEASESWIZZLINGRANGE
-title: "_DXGKARG_RELEASESWIZZLINGRANGE"
+title: _DXGKARG_RELEASESWIZZLINGRANGE (d3dkmddi.h)
 description: The DXGKARG_RELEASESWIZZLINGRANGE structure describes parameters for releasing a swizzling range.
 old-location: display\dxgkarg_releaseswizzlingrange.htm
 ms.assetid: f7d1af11-c360-4f7f-a47a-cf7a182b2b78
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_RELEASESWIZZLINGRANGE
+- DXGKARG_RELEASESWIZZLINGRANGE
 product:
 - Windows
 targetos: Windows

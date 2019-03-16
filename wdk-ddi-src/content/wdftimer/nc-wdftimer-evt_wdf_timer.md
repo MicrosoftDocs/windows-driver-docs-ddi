@@ -1,6 +1,6 @@
 ---
 UID: NC:wdftimer.EVT_WDF_TIMER
-title: EVT_WDF_TIMER
+title: EVT_WDF_TIMER (wdftimer.h)
 description: The EvtTimerFunc event callback function is called when a specified time period has elapsed.
 old-location: wdf\evttimerfunc.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdftimer.h
+- Wdftimer.h
 api_name:
--	EvtTimerFunc
+- EvtTimerFunc
 product:
 - Windows
 targetos: Windows

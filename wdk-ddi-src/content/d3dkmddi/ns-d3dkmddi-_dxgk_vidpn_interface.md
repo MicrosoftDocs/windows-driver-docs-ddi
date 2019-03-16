@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPN_INTERFACE
-title: "_DXGK_VIDPN_INTERFACE"
+title: _DXGK_VIDPN_INTERFACE (d3dkmddi.h)
 description: The DXGK_VIDPN_INTERFACE structure contains pointers to functions that belong to the VidPn interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpn_interface.htm
 ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_VIDPN_INTERFACE
+- DXGK_VIDPN_INTERFACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.OutputError
-title: IWDTFLOG2::OutputError
+title: IWDTFLOG2::OutputError (wdtf.h)
 description: Writes an error entry to the test case log.
 old-location: dtf\iwdtflog2_outputerror.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFLOG2.OutputError
+- IWDTFLOG2.OutputError
 product:
 - Windows
 targetos: Windows

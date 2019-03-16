@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSSIZETMult
-title: RtlSSIZETMult function
+title: RtlSSIZETMult function (ntintsafe.h)
 description: Multiplies one value of type SSIZE_T by another.
 old-location: kernel\rtlssizetmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlSSIZETMult
+- RtlSSIZETMult
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENTFLAGS
-title: "_D3DDDI_PRESENTFLAGS"
+title: _D3DDDI_PRESENTFLAGS (d3dumddi.h)
 description: The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dddi_presentflags.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDI_PRESENTFLAGS
+- D3DDDI_PRESENTFLAGS
 product:
 - Windows
 targetos: Windows

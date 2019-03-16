@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_COMPONENT_V2
-title: "_PEP_COMPONENT_V2"
+title: _PEP_COMPONENT_V2 (pep_x.h)
 description: The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device.
 old-location: kernel\pep_component_v2.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_COMPONENT_V2
+- PEP_COMPONENT_V2
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidclass._HID_COLLECTION_INFORMATION
-title: "_HID_COLLECTION_INFORMATION"
+title: _HID_COLLECTION_INFORMATION (hidclass.h)
 description: The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection.
 old-location: hid\hid_collection_information.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	HID_COLLECTION_INFORMATION
+- HID_COLLECTION_INFORMATION
 product:
 - Windows
 targetos: Windows

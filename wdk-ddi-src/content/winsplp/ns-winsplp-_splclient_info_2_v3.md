@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._SPLCLIENT_INFO_2_V3
-title: "_SPLCLIENT_INFO_2_V3"
+title: _SPLCLIENT_INFO_2_V3 (winsplp.h)
 description: 
 old-location: print\splclient_info_2_longhorn.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	SPLCLIENT_INFO_2_LONGHORN
+- SPLCLIENT_INFO_2_LONGHORN
 product:
 - Windows
 targetos: Windows

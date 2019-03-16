@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATEELEMENTLAYOUT
-title: D3D10DDIARG_CREATEELEMENTLAYOUT
+title: D3D10DDIARG_CREATEELEMENTLAYOUT (d3d10umddi.h)
 description: The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to create.
 old-location: display\d3d10ddiarg_createelementlayout.htm
 ms.assetid: 3eb1555b-3274-496d-b6af-9cb0a6083ee4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10DDIARG_CREATEELEMENTLAYOUT
+- D3D10DDIARG_CREATEELEMENTLAYOUT
 product:
 - Windows
 targetos: Windows

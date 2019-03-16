@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYPROTECTEDSESSION
-title: DXGKDDI_DESTROYPROTECTEDSESSION
+title: DXGKDDI_DESTROYPROTECTEDSESSION (d3dkmddi.h)
 description: Used to destroy a protected session.
 old-location: display\dxgkddi_destroyprotectedsession.htm
 ms.assetid: 42D4064A-1697-4772-8450-6D217C526347
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: requires_(PASSIVE_LEVEL)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_DESTROYPROTECTEDSESSION
+- DXGKDDI_DESTROYPROTECTEDSESSION
 product:
 - Windows
 targetos: Windows

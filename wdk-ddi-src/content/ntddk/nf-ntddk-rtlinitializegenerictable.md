@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeGenericTable
-title: RtlInitializeGenericTable function
+title: RtlInitializeGenericTable function (ntddk.h)
 description: The RtlInitializeGenericTable routine initializes a generic table.
 old-location: ifsk\rtlinitializegenerictable.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitializeGenericTable
+- RtlInitializeGenericTable
 product:
 - Windows
 targetos: Windows

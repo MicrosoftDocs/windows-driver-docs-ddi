@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_ATTRIBUTE_TAG_INFORMATION
-title: "_FILE_ATTRIBUTE_TAG_INFORMATION"
+title: _FILE_ATTRIBUTE_TAG_INFORMATION (ntddk.h)
 description: The FILE_ATTRIBUTE_TAG_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_attribute_tag_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_ATTRIBUTE_TAG_INFORMATION
+- FILE_ATTRIBUTE_TAG_INFORMATION
 product:
 - Windows
 targetos: Windows

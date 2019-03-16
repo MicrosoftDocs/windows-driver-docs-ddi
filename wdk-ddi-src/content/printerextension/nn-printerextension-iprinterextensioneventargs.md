@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionEventArgs
-title: IPrinterExtensionEventArgs
+title: IPrinterExtensionEventArgs (printerextension.h)
 description: Represents the context for the desktop printer extension activation.
 old-location: print\iprinterextensioneventargs.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterExtensionEventArgs
+- IPrinterExtensionEventArgs
 product:
 - Windows
 targetos: Windows

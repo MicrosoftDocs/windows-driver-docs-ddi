@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_ABORT_PIPE
-title: IOCTL_ABORT_PIPE
+title: IOCTL_ABORT_PIPE (usbscan.h)
 description: 
 ms.assetid: b532777a-0834-4d70-9cde-060f697e912d
 ms.date: 10/19/2018
@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbscan.h
+- usbscan.h
 api_name: 
--	IOCTL_ABORT_PIPE
+- IOCTL_ABORT_PIPE
 product: 
 -   Windows
 targetos: Windows

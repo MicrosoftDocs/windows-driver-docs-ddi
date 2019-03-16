@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_SET_WRITE_ADDRESS
-title: IOCTL_PAR_SET_WRITE_ADDRESS
+title: IOCTL_PAR_SET_WRITE_ADDRESS (ntddpar.h)
 description: The IOCTL_PAR_SET_WRITE_ADDRESS request sets an extended capabilities port (ECP) or enhanced parallel port (EPP) write address (channel) for a parallel device. The parallel port bus driver queues this request on a work queue for the parallel device.
 old-location: parports\ioctl_par_set_write_address.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_PAR_SET_WRITE_ADDRESS
+- IOCTL_PAR_SET_WRITE_ADDRESS
 product:
 - Windows
 targetos: Windows

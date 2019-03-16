@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_59
-title: KSCORRELATED_TIME
+title: KSCORRELATED_TIME (ks.h)
 description: The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.
 old-location: stream\kscorrelated_time.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSCORRELATED_TIME
+- KSCORRELATED_TIME
 product:
 - Windows
 targetos: Windows

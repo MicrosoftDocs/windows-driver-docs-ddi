@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_25
-title: TELEPHONY_CALLSTATE
+title: TELEPHONY_CALLSTATE (ksmedia.h)
 description: The TELEPHONY_CALLSTATE enumeration defines constants that specify the state of a phone call.
 old-location: audio\telephony_callstate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TELEPHONY_CALLSTATE
+- TELEPHONY_CALLSTATE
 product:
 - Windows
 targetos: Windows

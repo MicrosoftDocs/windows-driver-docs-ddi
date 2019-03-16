@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmIsThisAnNtAsSystem
-title: MmIsThisAnNtAsSystem function
+title: MmIsThisAnNtAsSystem function (ntddk.h)
 description: The MmIsThisAnNtAsSystem routine is obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.
 old-location: kernel\mmisthisanntassystem.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmIsThisAnNtAsSystem
+- MmIsThisAnNtAsSystem
 product:
 - Windows
 targetos: Windows

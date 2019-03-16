@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosEventDataHeader
-title: "_PosEventDataHeader"
+title: _PosEventDataHeader (pointofservicedriverinterface.h)
 description: This structure describes the scanned image data that is passed to the BarcodeScannerImagePreviewReceived event.
 old-location: pos\posbarcodescannerimageprevieweventdata.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosEventDataHeader
+- PosEventDataHeader
 product:
 - Windows
 targetos: Windows

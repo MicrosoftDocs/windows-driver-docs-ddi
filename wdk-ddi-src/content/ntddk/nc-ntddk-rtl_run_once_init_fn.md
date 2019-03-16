@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.RTL_RUN_ONCE_INIT_FN
-title: RTL_RUN_ONCE_INIT_FN
+title: RTL_RUN_ONCE_INIT_FN (ntddk.h)
 description: The RunOnceInitialization routine performs a one-time initialization operation.
 old-location: kernel\runonceinitialization.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	RunOnceInitialization
+- RunOnceInitialization
 product:
 - Windows
 targetos: Windows

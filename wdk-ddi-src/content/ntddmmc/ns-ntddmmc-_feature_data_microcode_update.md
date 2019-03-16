@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MICROCODE_UPDATE
-title: "_FEATURE_DATA_MICROCODE_UPDATE"
+title: _FEATURE_DATA_MICROCODE_UPDATE (ntddmmc.h)
 description: The FEATURE_DATA_MICROCODE_UPDATE structure holds information about the Microcode Upgrade feature.
 old-location: storage\feature_data_microcode_update.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_MICROCODE_UPDATE
+- FEATURE_DATA_MICROCODE_UPDATE
 product:
 - Windows
 targetos: Windows

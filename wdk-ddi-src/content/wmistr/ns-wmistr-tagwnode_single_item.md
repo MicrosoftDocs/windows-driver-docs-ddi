@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_SINGLE_ITEM
-title: tagWNODE_SINGLE_ITEM
+title: tagWNODE_SINGLE_ITEM (wmistr.h)
 description: The WNODE_SINGLE_ITEM structure contains the value of a single data item in an instance of a data block.
 old-location: kernel\wnode_single_item.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmistr.h
+- wmistr.h
 api_name:
--	WNODE_SINGLE_ITEM
+- WNODE_SINGLE_ITEM
 product:
 - Windows
 targetos: Windows

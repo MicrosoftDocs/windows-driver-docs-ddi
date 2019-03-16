@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
-title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU"
+title: _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU (d3dkmthk.h)
 description: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU is used with D3DKMTSignalSynchronizationObjectFromGpu to signal a monitored fence.
 old-location: display\d3dkmt_signalsynchronizationobjectfromgpu.htm
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+- D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 product:
 - Windows
 targetos: Windows

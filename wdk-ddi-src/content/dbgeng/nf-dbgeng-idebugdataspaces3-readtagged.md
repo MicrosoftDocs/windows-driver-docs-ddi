@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadTagged
-title: IDebugDataSpaces3::ReadTagged
+title: IDebugDataSpaces3::ReadTagged (dbgeng.h)
 description: The ReadTagged method reads the tagged data that might be associated with a debugger session.
 old-location: debugger\readtagged.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces3.ReadTagged
--	IDebugDataSpaces4.ReadTagged
+- IDebugDataSpaces3.ReadTagged
+- IDebugDataSpaces4.ReadTagged
 product:
 - Windows
 targetos: Windows

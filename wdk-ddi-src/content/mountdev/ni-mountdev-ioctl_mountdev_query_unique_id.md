@@ -1,6 +1,6 @@
 ---
 UID: NI:mountdev.IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
-title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
+title: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID (mountdev.h)
 description: Support for this IOCTL by mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_unique_id.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountdev.h
+- Mountdev.h
 api_name:
--	IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
+- IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 product:
 - Windows
 targetos: Windows

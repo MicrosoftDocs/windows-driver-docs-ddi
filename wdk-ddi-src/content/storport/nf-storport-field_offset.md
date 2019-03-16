@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.FIELD_OFFSET
-title: FIELD_OFFSET macro
+title: FIELD_OFFSET macro (storport.h)
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: storport.h
 req.dll:
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdef.h
+- ntdef.h
 api_name:
--	FIELD_OFFSET
+- FIELD_OFFSET
 product:
 - Windows
 targetos: Windows

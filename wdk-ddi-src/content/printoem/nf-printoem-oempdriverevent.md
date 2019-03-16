@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMPDriverEvent
-title: OEMPDriverEvent function
+title: OEMPDriverEvent function (printoem.h)
 description: OEMPDriverEvent function
 old-location: print\oempdriverevent.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMPDriverEvent
+- OEMPDriverEvent
 product:
 - Windows
 targetos: Windows

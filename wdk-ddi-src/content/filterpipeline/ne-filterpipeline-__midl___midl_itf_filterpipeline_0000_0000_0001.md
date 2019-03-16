@@ -1,6 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0001
-title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0001"
+title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0001 (filterpipeline.h)
 description: The ExpsCompressionOptions enumeration describes compression options for an XPS part.
 old-location: print\expscompressionoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	EXpsCompressionOptions
+- EXpsCompressionOptions
 product:
 - Windows
 targetos: Windows

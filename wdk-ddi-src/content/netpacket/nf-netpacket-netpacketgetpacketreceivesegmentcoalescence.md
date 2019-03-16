@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketGetPacketReceiveSegmentCoalescence
-title: NetPacketGetPacketReceiveSegmentCoalescence function
+title: NetPacketGetPacketReceiveSegmentCoalescence function (netpacket.h)
 description: The NetPacketGetPacketReceiveSegmentCoalescence method retrieves receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: fad9b214-3c5b-445a-af85-2c9464dfa5f2
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NetPacketGetPacketReceiveSegmentCoalescence
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NetPacketGetPacketReceiveSegmentCoalescence
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

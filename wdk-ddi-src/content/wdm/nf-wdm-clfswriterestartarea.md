@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsWriteRestartArea
-title: ClfsWriteRestartArea function
+title: ClfsWriteRestartArea function (wdm.h)
 description: The ClfsWriteRestartArea routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
 old-location: kernel\clfswriterestartarea.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Clfs.lib
 req.dll: Clfs.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Clfs.sys
--	Ext-MS-Win-fs-clfs-l1-1-0.dll
+- Clfs.sys
+- Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
--	ClfsWriteRestartArea
+- ClfsWriteRestartArea
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.OverrideContextObject
-title: IModelKeyReference2::OverrideContextObject
+title: IModelKeyReference2::OverrideContextObject (dbgmodel.h)
 description: The OverrideContextObject method is an method which is used to permanently alter the context object which this key reference will pass to any underlying property accessor's GetValue or SetValue methods.
 ms.assetid: bb28b47c-7311-4572-9d87-0331a5cc728a
 ms.date: 08/14/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelKeyReference2.OverrideContextObject
-product: Windows
+- IModelKeyReference2.OverrideContextObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

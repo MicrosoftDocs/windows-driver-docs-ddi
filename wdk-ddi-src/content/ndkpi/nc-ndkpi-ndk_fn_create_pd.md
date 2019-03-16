@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_PD
-title: NDK_FN_CREATE_PD
+title: NDK_FN_CREATE_PD (ndkpi.h)
 description: The NdkCreatePd (NDK_FN_CREATE_PD) function creates an NDK protection domain (PD) object.
 old-location: netvista\ndk_fn_create_pd.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCreatePd
+- NdkCreatePd
 product:
 - Windows
 targetos: Windows

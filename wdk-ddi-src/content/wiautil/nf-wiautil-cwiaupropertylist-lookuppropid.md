@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.LookupPropId
-title: CWiauPropertyList::LookupPropId
+title: CWiauPropertyList::LookupPropId (wiautil.h)
 description: The CWiauPropertyList::LookupPropId method finds a property's index, given its property ID.
 old-location: image\cwiaupropertylist_lookuppropid.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.LookupPropId
+- CWiauPropertyList.LookupPropId
 product:
 - Windows
 targetos: Windows

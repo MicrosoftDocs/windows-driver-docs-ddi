@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
-title: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB
+title: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB (d3dumddi.h)
 description: pfnReserveGPUVirtualAddressCb reserves an address range in the current process graphics processing unit (GPU) virtual address space. The address range is only reserved, there is no actual memory behind it.
 old-location: display\pfnreservegpuvirtualaddresscb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnReserveGpuVirtualAddressCb
+- pfnReserveGpuVirtualAddressCb
 product:
 - Windows
 targetos: Windows

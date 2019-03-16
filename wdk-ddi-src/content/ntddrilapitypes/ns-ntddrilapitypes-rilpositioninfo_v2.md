@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFO_V2
-title: RILPOSITIONINFO_V2
+title: RILPOSITIONINFO_V2 (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFO_V2.
 old-location: netvista\rilpositioninfo_v2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFO_V2
+- RILPOSITIONINFO_V2
 product:
 - Windows
 targetos: Windows

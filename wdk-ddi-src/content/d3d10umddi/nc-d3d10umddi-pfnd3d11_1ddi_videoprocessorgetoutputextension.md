@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION
-title: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION
+title: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION (d3d10umddi.h)
 description: Returns private state data from a video processor to an application.
 old-location: display\videoprocessorgetoutputextension.htm
 ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoProcessorGetOutputExtension
+- pfnVideoProcessorGetOutputExtension
 product:
 - Windows
 targetos: Windows

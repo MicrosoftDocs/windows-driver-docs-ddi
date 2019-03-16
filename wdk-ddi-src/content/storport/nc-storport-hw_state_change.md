@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_STATE_CHANGE
-title: HW_STATE_CHANGE
+title: HW_STATE_CHANGE (storport.h)
 description: A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed.
 old-location: storage\hwstorstatechange.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	storport.h
+- storport.h
 api_name:
--	HwStorStateChange
+- HwStorStateChange
 product:
 - Windows
 targetos: Windows

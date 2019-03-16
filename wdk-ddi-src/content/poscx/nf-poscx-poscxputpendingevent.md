@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxPutPendingEvent
-title: PosCxPutPendingEvent function
+title: PosCxPutPendingEvent function (poscx.h)
 description: PosCxPutPendingEvent creates a new event object, copies the event data to the new event object, and tries to delegate it to the waiting caller.
 old-location: pos\poscxputpendingevent.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxPutPendingEvent
+- PosCxPutPendingEvent
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_MOUSE_ISR
-title: PI8042_MOUSE_ISR
+title: PI8042_MOUSE_ISR (ntdd8042.h)
 description: A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
 old-location: hid\pi8042_mouse_isr.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	MouseIsr
+- MouseIsr
 product:
 - Windows
 targetos: Windows

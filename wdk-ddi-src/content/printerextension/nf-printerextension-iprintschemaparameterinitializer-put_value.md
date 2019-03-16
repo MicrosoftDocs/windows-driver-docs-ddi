@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterInitializer.put_Value
-title: IPrintSchemaParameterInitializer::put_Value
+title: IPrintSchemaParameterInitializer::put_Value (printerextension.h)
 description: The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_putvalue.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterInitializer.Value
--	IPrintSchemaParameterInitializer.put_Value
+- IPrintSchemaParameterInitializer.Value
+- IPrintSchemaParameterInitializer.put_Value
 product:
 - Windows
 targetos: Windows

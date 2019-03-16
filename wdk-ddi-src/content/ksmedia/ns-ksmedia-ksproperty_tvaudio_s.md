@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_143
-title: KSPROPERTY_TVAUDIO_S
+title: KSPROPERTY_TVAUDIO_S (ksmedia.h)
 description: The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.
 old-location: stream\ksproperty_tvaudio_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TVAUDIO_S
+- KSPROPERTY_TVAUDIO_S
 product:
 - Windows
 targetos: Windows

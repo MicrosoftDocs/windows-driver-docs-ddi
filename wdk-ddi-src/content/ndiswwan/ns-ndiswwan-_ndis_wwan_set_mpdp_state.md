@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_MPDP_STATE
-title: _NDIS_WWAN_SET_MPDP_STATE
+title: _NDIS_WWAN_SET_MPDP_STATE (ndiswwan.h)
 description: The NDIS_WWAN_SET_MPDP_STATE structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: 2bacc2a8-0117-4f3c-8865-af8d1c5529ba
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_SET_MPDP_STATE, *PNDIS_WWAN_SET_MPDP_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_SET_MPDP_STATE
+- _NDIS_WWAN_SET_MPDP_STATE
 product:
 - Windows
 targetos: Windows

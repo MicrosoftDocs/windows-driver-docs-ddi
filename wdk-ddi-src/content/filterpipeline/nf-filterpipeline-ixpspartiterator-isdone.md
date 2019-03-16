@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.IsDone
-title: IXpsPartIterator::IsDone
+title: IXpsPartIterator::IsDone (filterpipeline.h)
 description: The IsDone method determines whether the iterator has finished the iteration.
 old-location: print\ixpspartiterator_isdone.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IXpsPartIterator.IsDone
+- IXpsPartIterator.IsDone
 product:
 - Windows
 targetos: Windows

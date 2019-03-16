@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidi.Init
-title: IMiniportMidi::Init
+title: IMiniportMidi::Init (portcls.h)
 description: The Init method initializes the MIDI miniport object.
 old-location: audio\iminiportmidi_init.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidi.Init
+- IMiniportMidi.Init
 product:
 - Windows
 targetos: Windows

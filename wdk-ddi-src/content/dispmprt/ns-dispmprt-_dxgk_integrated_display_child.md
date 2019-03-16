@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_INTEGRATED_DISPLAY_CHILD
-title: "_DXGK_INTEGRATED_DISPLAY_CHILD"
+title: _DXGK_INTEGRATED_DISPLAY_CHILD (dispmprt.h)
 description: Gives information about the connected integrated display.
 old-location: display\dxgk_integrated_display_child.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_INTEGRATED_DISPLAY_CHILD
+- DXGK_INTEGRATED_DISPLAY_CHILD
 product:
 - Windows
 targetos: Windows

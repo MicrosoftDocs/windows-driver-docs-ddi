@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevQueryPrintEx
-title: IPrintOemUI::DevQueryPrintEx
+title: IPrintOemUI::DevQueryPrintEx (prcomoem.h)
 description: The IPrintOemUI::DevQueryPrintEx method allows a user interface plug-in to help determine if a print job is printable.
 old-location: print\iprintoemui_devqueryprintex.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI.DevQueryPrintEx
+- IPrintOemUI.DevQueryPrintEx
 product:
 - Windows
 targetos: Windows

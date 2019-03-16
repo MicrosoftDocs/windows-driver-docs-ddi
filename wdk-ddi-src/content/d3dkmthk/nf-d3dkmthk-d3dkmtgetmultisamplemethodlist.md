@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetMultisampleMethodList
-title: D3DKMTGetMultisampleMethodList function
+title: D3DKMTGetMultisampleMethodList function (d3dkmthk.h)
 description: The D3DKMTGetMultisampleMethodList function retrieves a list of multiple-sample methods that are used for an allocation.
 old-location: display\d3dkmtgetmultisamplemethodlist.htm
 ms.assetid: 10084238-dfeb-42a5-9bf0-06cb9b4f440c
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetMultisampleMethodList
+- D3DKMTGetMultisampleMethodList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_IEEE1284_GET_MODE
-title: IOCTL_IEEE1284_GET_MODE
+title: IOCTL_IEEE1284_GET_MODE (ntddpar.h)
 description: The IOCTL_IEEE1284_GET_MODE request returns the IEEE 1284 read and write protocols that are currently set for a parallel device.
 old-location: parports\ioctl_ieee1284_get_mode.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_IEEE1284_GET_MODE
+- IOCTL_IEEE1284_GET_MODE
 product:
 - Windows
 targetos: Windows

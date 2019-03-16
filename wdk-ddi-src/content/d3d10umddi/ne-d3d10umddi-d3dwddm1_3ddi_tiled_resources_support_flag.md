@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
-title: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
+title: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG (d3d10umddi.h)
 description: Indicates the level of support by the hardware and user-mode display driver for tiled resources.
 old-location: display\d3dwddm1_3ddi_tiled_resources_support_flag.htm
 ms.assetid: 5EEF8C68-0DE7-466B-946F-37157B21C9B7
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
+- D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 product:
 - Windows
 targetos: Windows

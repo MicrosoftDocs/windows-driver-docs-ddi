@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.PowerChangeState
-title: IAdapterPowerManagement::PowerChangeState
+title: IAdapterPowerManagement::PowerChangeState (portcls.h)
 description: The PowerChangeState method requests that the device change to a new power state.
 old-location: audio\iadapterpowermanagement_powerchangestate.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IAdapterPowerManagement.PowerChangeState
+- IAdapterPowerManagement.PowerChangeState
 product:
 - Windows
 targetos: Windows

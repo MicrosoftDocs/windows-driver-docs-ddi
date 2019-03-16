@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VOLUMEBLT1
-title: "_D3DDDIARG_VOLUMEBLT1"
+title: _D3DDDIARG_VOLUMEBLT1 (d3dumddi.h)
 description: Describes parameters for a volume bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_volumeblt1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIARG_VOLUMEBLT1
+- D3DDDIARG_VOLUMEBLT1
 product:
 - Windows
 targetos: Windows

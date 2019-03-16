@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_HISTORY_BUFFER_HEADER
-title: "_DXGK_HISTORY_BUFFER_HEADER"
+title: _DXGK_HISTORY_BUFFER_HEADER (d3dkmddi.h)
 description: Specifies how data is stored in a DXGK_HISTORY_BUFFER history buffer.
 old-location: display\dxgk_history_buffer_header.htm
 ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_HISTORY_BUFFER_HEADER
+- DXGK_HISTORY_BUFFER_HEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ExRaiseDatatypeMisalignment
-title: ExRaiseDatatypeMisalignment function
+title: ExRaiseDatatypeMisalignment function (ntddk.h)
 description: The ExRaiseDatatypeMisalignment routine can be used with structured exception handling to throw a driver-determined exception for a misaligned data type that occurs when a driver processes I/O requests.
 old-location: kernel\exraisedatatypemisalignment.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExRaiseDatatypeMisalignment
+- ExRaiseDatatypeMisalignment
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ENDTRACKEDWORKLOAD
-title: PFND3DKMT_ENDTRACKEDWORKLOAD
+title: PFND3DKMT_ENDTRACKEDWORKLOAD (d3dkmthk.h)
 description: Indicates that the tracked workload commands are done.
 ms.assetid: ebd36bfd-86a7-45f1-8b3f-2f9f639aa334
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_ENDTRACKEDWORKLOAD
+- PFND3DKMT_ENDTRACKEDWORKLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

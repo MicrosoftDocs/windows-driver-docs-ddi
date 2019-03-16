@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_98
-title: KSPROPERTY_TUNER_FREQUENCY_S
+title: KSPROPERTY_TUNER_FREQUENCY_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or radio tuner device.
 old-location: stream\ksproperty_tuner_frequency_s.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_TUNER_FREQUENCY_S
+- KSPROPERTY_TUNER_FREQUENCY_S
 product:
 - Windows
 targetos: Windows

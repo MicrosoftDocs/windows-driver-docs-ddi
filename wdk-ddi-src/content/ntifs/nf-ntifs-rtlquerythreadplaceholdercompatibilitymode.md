@@ -1,7 +1,7 @@
 ---
 UID: NF:ntifs.RtlQueryThreadPlaceholderCompatibilityMode
-title: RtlQueryThreadPlaceholderCompatibilityMode function
-description: RtlQueryThreadPlaceholderCompatibilityMode is a routine which returns the placeholder compatibility mode for the current thread.
+title: RtlQueryThreadPlaceholderCompatibilityMode function (ntifs.h)
+description: RtlQueryThreadPlaceholderCompatibilityMode returns the placeholder compatibility mode for the current thread.
 old-location: ifsk\rtlquerythreadplaceholdercompatibilitymode.htm
 tech.root: ifsk
 ms.assetid: A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	RtlQueryThreadPlaceholderCompatibilityMode
+- RtlQueryThreadPlaceholderCompatibilityMode
 product:
 - Windows
 targetos: Windows
@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-<b>RtlQueryThreadPlaceholderCompatibilityMode</b> is a routine which returns the placeholder compatibility mode for the current thread.
+**RtlQueryThreadPlaceholderCompatibilityMode** returns the placeholder compatibility mode for the current thread.
 
 
 ## -parameters
@@ -58,9 +58,7 @@ req.typenames:
 
 ## -returns
 
-
-
-Returns the thread's placeholder compatibility mode. If there was an error it returns  a negative value. It can be one of the following values:
+Returns the thread's placeholder compatibility mode. If there was an error it returns a negative value. It can be one of the following values:
 
 <table>
 <tr>
@@ -95,15 +93,18 @@ Returns the thread's placeholder compatibility mode. If there was an error it re
  
 
 
-
+## -remarks
+This function is similar to [RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode), but performs at a thread level instead of a process level. 
 
 ## -see-also
 
 
+[RtlQueryProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlqueryprocessplaceholdercompatibilitymode)
 
+[RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode)
 
-<a href="https://msdn.microsoft.com/0EA209B7-20B9-418F-AD29-83520ED27DAB">RtlSetThreadPlaceholderCompatibilityMode</a>
- 
+[RtlSetThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode)
+
 
  
 

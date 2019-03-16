@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
-title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
+title: _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS (d3dkmthk.h)
 description: Miracast display device status.
 ms.assetid: 24c0be41-dabd-4c28-9b09-c4fc54c8e294
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, *PD3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
+- _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

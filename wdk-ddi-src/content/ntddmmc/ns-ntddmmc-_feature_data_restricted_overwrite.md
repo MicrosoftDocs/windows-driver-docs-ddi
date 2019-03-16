@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RESTRICTED_OVERWRITE
-title: "_FEATURE_DATA_RESTRICTED_OVERWRITE"
+title: _FEATURE_DATA_RESTRICTED_OVERWRITE (ntddmmc.h)
 description: The FEATURE_DATA_RESTRICTED_OVERWRITE structure holds information about the Restricted Overwrite feature.
 old-location: storage\feature_data_restricted_overwrite.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_RESTRICTED_OVERWRITE
+- FEATURE_DATA_RESTRICTED_OVERWRITE
 product:
 - Windows
 targetos: Windows

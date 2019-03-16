@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_ATTRIBUTES
-title: IOCTL_BIOMETRIC_GET_ATTRIBUTES
+title: IOCTL_BIOMETRIC_GET_ATTRIBUTES (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL returns a structure that contains a set of attributes for the sensor. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_get_attributes.htm
 tech.root: biometric
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winbio_ioctl.h
+- Winbio_ioctl.h
 api_name:
--	IOCTL_BIOMETRIC_GET_ATTRIBUTES
+- IOCTL_BIOMETRIC_GET_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.AcquireNamedModel
-title: IDataModelManager::AcquireNamedModel
+title: IDataModelManager::AcquireNamedModel (dbgmodel.h)
 description: This looks up a well known model name and returns the data model registered by that name.
 ms.assetid: 30319030-d888-4bc3-b522-d51377058a2c
 ms.date: 07/16/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.AcquireNamedModel
-product: Windows
+- IDataModelManager.AcquireNamedModel
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

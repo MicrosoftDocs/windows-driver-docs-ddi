@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_SOCKET
-title: "_WSK_SOCKET"
+title: _WSK_SOCKET (wsk.h)
 description: The WSK_SOCKET structure defines a socket object for a socket.
 old-location: netvista\wsk_socket.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_SOCKET
+- WSK_SOCKET
 product:
 - Windows
 targetos: Windows

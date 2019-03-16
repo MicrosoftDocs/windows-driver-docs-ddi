@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForRead
-title: IWDFIoTarget::FormatRequestForRead
+title: IWDFIoTarget::FormatRequestForRead (wudfddi.h)
 description: The FormatRequestForRead method formats an I/O request object for a read operation.
 old-location: wdf\iwdfiotarget_formatrequestforread.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget.FormatRequestForRead
+- IWDFIoTarget.FormatRequestForRead
 product:
 - Windows
 targetos: Windows

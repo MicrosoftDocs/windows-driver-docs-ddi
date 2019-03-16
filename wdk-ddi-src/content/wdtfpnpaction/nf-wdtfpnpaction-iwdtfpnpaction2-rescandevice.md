@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RescanDevice
-title: IWDTFPNPAction2::RescanDevice
+title: IWDTFPNPAction2::RescanDevice (wdtfpnpaction.h)
 description: Rescans the target device.
 old-location: dtf\iwdtfpnpaction2_rescandevice.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPNPAction.Interop.dll
+- WDTFDriverPNPAction.Interop.dll
 api_name:
--	IWDTFPNPAction2.RescanDevice
+- IWDTFPNPAction2.RescanDevice
 product:
 - Windows
 targetos: Windows

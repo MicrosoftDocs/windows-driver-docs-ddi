@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_PrintedPages
-title: IPrintJob::get_PrintedPages
+title: IPrintJob::get_PrintedPages (printerextension.h)
 description: Gets the number of pages that have been printed.
 old-location: print\iprintjob_printedpages.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintJob.PrintedPages
--	IPrintJob.get_PrintedPages
+- IPrintJob.PrintedPages
+- IPrintJob.get_PrintedPages
 product:
 - Windows
 targetos: Windows

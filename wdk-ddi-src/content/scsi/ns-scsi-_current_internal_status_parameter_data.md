@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (scsi.h)
 description: 
 ms.assetid: 1db9c7d6-c72a-481b-9e14-8641d66e1200
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_CURRENT_INTERNAL_STATUS_PARAMETER_DATA
+- _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

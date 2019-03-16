@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni2.GetNamedCommand
-title: IPrintCoreHelperUni2::GetNamedCommand
+title: IPrintCoreHelperUni2::GetNamedCommand (prcomoem.h)
 description: The GetNamedCommand method returns the specified command.
 old-location: print\iprintcorehelperuni2_getnamedcommand.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreHelperUni2.GetNamedCommand
+- IPrintCoreHelperUni2.GetNamedCommand
 product:
 - Windows
 targetos: Windows

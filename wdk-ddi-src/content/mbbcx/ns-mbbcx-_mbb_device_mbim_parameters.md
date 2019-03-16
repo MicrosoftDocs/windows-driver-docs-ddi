@@ -1,6 +1,6 @@
 ---
 UID: NS:mbbcx._MBB_DEVICE_MBIM_PARAMETERS
-title: _MBB_DEVICE_MBIM_PARAMETERS
+title: _MBB_DEVICE_MBIM_PARAMETERS (mbbcx.h)
 description: The client driver uses the MBB_DEVICE_MBIM_PARAMETERS structure to describe its MBIM specification-related parameters to the MBBCx framework.
 tech.root: netvista
 ms.assetid: 814daf06-b7f3-4cee-8b74-8b0a13a6292a
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_DEVICE_MBIM_PARAMETERS
+- _MBB_DEVICE_MBIM_PARAMETERS
 product:
 - Windows
 targetos: Windows

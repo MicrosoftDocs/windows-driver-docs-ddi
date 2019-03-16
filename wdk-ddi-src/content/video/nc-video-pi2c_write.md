@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_WRITE
-title: PI2C_WRITE
+title: PI2C_WRITE (video.h)
 description: The I2CWrite function writes data over the I2C channel.
 old-location: display\i2cwrite.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	video.h
+- video.h
 api_name:
--	I2CWrite
+- I2CWrite
 product:
 - Windows
 targetos: Windows

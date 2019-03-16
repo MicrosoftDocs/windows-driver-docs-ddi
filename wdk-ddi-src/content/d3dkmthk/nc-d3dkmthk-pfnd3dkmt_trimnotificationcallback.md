@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_TRIMNOTIFICATIONCALLBACK
-title: PFND3DKMT_TRIMNOTIFICATIONCALLBACK
+title: PFND3DKMT_TRIMNOTIFICATIONCALLBACK (d3dkmthk.h)
 description: Trim notification.
 ms.assetid: cc23539a-b74d-40d5-b03a-6d1f0b70b71c
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_TRIMNOTIFICATIONCALLBACK
+- PFND3DKMT_TRIMNOTIFICATIONCALLBACK
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

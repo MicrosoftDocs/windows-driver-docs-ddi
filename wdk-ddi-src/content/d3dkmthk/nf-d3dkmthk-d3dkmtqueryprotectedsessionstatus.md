@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProtectedSessionStatus
-title: D3DKMTQueryProtectedSessionStatus function
+title: D3DKMTQueryProtectedSessionStatus function (d3dkmthk.h)
 description: Used to query the status of the protected session.
 old-location: display\d3dkmtqueryprotectedsessionstatus.htm
 ms.assetid: 787f20a4-51b6-44e3-aefb-2dc529359545
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTQueryProtectedSessionStatus
+- D3DKMTQueryProtectedSessionStatus
 product:
 - Windows
 targetos: Windows

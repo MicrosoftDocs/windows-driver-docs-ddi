@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_LISTEN_DISPATCH
-title: "_WSK_PROVIDER_LISTEN_DISPATCH"
+title: _WSK_PROVIDER_LISTEN_DISPATCH (wsk.h)
 description: The WSK_PROVIDER_LISTEN_DISPATCH structure specifies the WSK subsystem's table of functions for a listening socket.
 old-location: netvista\wsk_provider_listen_dispatch.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_PROVIDER_LISTEN_DISPATCH
+- WSK_PROVIDER_LISTEN_DISPATCH
 product:
 - Windows
 targetos: Windows

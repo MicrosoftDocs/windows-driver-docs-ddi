@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxScavengeAllFobxs
-title: RxScavengeAllFobxs function
+title: RxScavengeAllFobxs function (rxprocs.h)
 description: RxScavengeAllFobxs scavenges all of the FOBX structures associated with a network mini-redirector device object.
 old-location: ifsk\rxscavengeallfobxs.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxScavengeAllFobxs
+- RxScavengeAllFobxs
 product:
 - Windows
 targetos: Windows

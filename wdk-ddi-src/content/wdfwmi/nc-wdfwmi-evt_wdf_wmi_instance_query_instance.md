@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfwmi.EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
-title: EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE
+title: EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE (wdfwmi.h)
 description: A driver's EvtWmiInstanceQueryInstance callback function copies a WMI provider's instance data into a buffer for delivery to a WMI client.
 old-location: wdf\evtwmiinstancequeryinstance.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfWMI.h
+- WdfWMI.h
 api_name:
--	EvtWmiInstanceQueryInstance
+- EvtWmiInstanceQueryInstance
 product:
 - Windows
 targetos: Windows

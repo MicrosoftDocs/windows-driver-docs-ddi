@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._IO_RESOURCE_REQUIREMENTS_LIST
-title: "_IO_RESOURCE_REQUIREMENTS_LIST"
+title: _IO_RESOURCE_REQUIREMENTS_LIST (miniport.h)
 description: The IO_RESOURCE_REQUIREMENTS_LIST structure describes sets of resource configurations that can be used by a device. Each configuration represents a range of raw resources, of various types, that can be used by a device.
 old-location: kernel\io_resource_requirements_list.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_RESOURCE_REQUIREMENTS_LIST
+- IO_RESOURCE_REQUIREMENTS_LIST
 product:
 - Windows
 targetos: Windows

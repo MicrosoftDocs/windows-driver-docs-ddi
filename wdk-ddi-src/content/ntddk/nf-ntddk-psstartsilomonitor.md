@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsStartSiloMonitor
-title: PsStartSiloMonitor function
+title: PsStartSiloMonitor function (ntddk.h)
 description: This routine tries to start the server silo monitor.
 old-location: kernel\psstartsilomonitor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsStartSiloMonitor
+- PsStartSiloMonitor
 product:
 - Windows
 targetos: Windows

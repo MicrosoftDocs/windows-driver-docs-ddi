@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbDeviceSendDeviceServiceSessionDataComplete
-title: MbbDeviceSendDeviceServiceSessionDataComplete function
+title: MbbDeviceSendDeviceServiceSessionDataComplete function (mbbcx.h)
 description: The MbbDeviceSendServiceSessionDataComplete method frees memory previously allocated by MBBCx for device service session data sent to the device.
 tech.root: netvista
 ms.assetid: 31c3aa3b-87ac-47bc-95e3-918a569b1dff
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MbbDeviceSendDeviceServiceSessionDataComplete
+- MbbDeviceSendDeviceServiceSessionDataComplete
 product:
 - Windows
 targetos: Windows

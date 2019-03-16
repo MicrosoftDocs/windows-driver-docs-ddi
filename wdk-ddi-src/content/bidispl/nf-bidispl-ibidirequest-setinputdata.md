@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.SetInputData
-title: IBidiRequest::SetInputData
+title: IBidiRequest::SetInputData (bidispl.h)
 description: The SetInputData method sets the data to send to the printer.
 old-location: print\ibidirequest_ibidirequest__setinputdata.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiRequest.SetInputData
+- IBidiRequest.SetInputData
 product:
 - Windows
 targetos: Windows

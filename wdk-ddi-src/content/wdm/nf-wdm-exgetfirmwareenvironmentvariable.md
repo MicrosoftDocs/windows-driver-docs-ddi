@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetFirmwareEnvironmentVariable
-title: ExGetFirmwareEnvironmentVariable function
+title: ExGetFirmwareEnvironmentVariable function (wdm.h)
 description: The ExGetFirmwareEnvironmentVariable routine gets the value of the specified system firmware environment variable.
 old-location: kernel\exgetfirmwareenvironmentvariable.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExGetFirmwareEnvironmentVariable
+- ExGetFirmwareEnvironmentVariable
 product:
 - Windows
 targetos: Windows

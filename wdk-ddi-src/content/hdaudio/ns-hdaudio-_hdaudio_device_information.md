@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_DEVICE_INFORMATION
-title: "_HDAUDIO_DEVICE_INFORMATION"
+title: _HDAUDIO_DEVICE_INFORMATION (hdaudio.h)
 description: The HDAUDIO_DEVICE_INFORMATION structure specifies the hardware capabilities of the HD Audio bus controller.
 old-location: audio\hdaudio_device_information.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAUDIO_DEVICE_INFORMATION
+- HDAUDIO_DEVICE_INFORMATION
 product:
 - Windows
 targetos: Windows

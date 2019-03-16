@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.Release
-title: IDataModelScriptDebugBreakpointEnumerator::Release
+title: IDataModelScriptDebugBreakpointEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: b11ce58d-9614-4f05-875b-16e412d6c827
 ms.date: 09/10/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebugBreakpointEnumerator.Release
-product: Windows
+- IDataModelScriptDebugBreakpointEnumerator.Release
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

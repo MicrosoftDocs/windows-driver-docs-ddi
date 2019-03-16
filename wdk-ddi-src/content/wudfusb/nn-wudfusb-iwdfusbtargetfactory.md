@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetFactory
-title: IWDFUsbTargetFactory
+title: IWDFUsbTargetFactory (wudfusb.h)
 description: The IWDFUsbTargetFactory interface is a factory interface that is used to create a USB target device object.
 old-location: wdf\iwdfusbtargetfactory.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetFactory
+- IWDFUsbTargetFactory
 product:
 - Windows
 targetos: Windows

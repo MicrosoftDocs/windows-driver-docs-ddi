@@ -1,6 +1,6 @@
 ---
 UID: NS:prcomoem._PRINT_FEATURE_OPTION
-title: "_PRINT_FEATURE_OPTION"
+title: _PRINT_FEATURE_OPTION (prcomoem.h)
 description: The PRINT_FEATURE_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.
 old-location: print\print_feature_option.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	PRINT_FEATURE_OPTION
+- PRINT_FEATURE_OPTION
 product:
 - Windows
 targetos: Windows

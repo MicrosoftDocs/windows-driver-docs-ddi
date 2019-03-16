@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_LENGTH_INFO
-title: IOCTL_DISK_GET_LENGTH_INFO
+title: IOCTL_DISK_GET_LENGTH_INFO (ntdddisk.h)
 description: Returns the length, in bytes, of the disk, partition, or volume associated with the device object that is the target of the request.
 old-location: storage\ioctl_disk_get_length_info.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_GET_LENGTH_INFO
+- IOCTL_DISK_GET_LENGTH_INFO
 product:
 - Windows
 targetos: Windows

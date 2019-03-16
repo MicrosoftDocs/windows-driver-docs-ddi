@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_REVISION
-title: "_WHEA_REVISION"
+title: _WHEA_REVISION (ntddk.h)
 description: The WHEA_REVISION union describes the revision of the error record data structures.
 old-location: whea\whea_revision.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_REVISION
+- WHEA_REVISION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoConnectInterrupt
-title: IoConnectInterrupt function
+title: IoConnectInterrupt function (wdm.h)
 description: The IoConnectInterrupt routine registers a device driver's InterruptService routine (ISR), so that it will be called when a device interrupts on any of a specified set of processors.
 old-location: kernel\ioconnectinterrupt.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoConnectInterrupt
+- IoConnectInterrupt
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetPhysicalAddress
-title: StorPortGetPhysicalAddress function
+title: StorPortGetPhysicalAddress function (storport.h)
 description: The StorPortGetPhysicalAddress routine converts a given virtual address range to a physical address range for a DMA operation.
 old-location: storage\storportgetphysicaladdress.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetPhysicalAddress
+- StorPortGetPhysicalAddress
 product:
 - Windows
 targetos: Windows

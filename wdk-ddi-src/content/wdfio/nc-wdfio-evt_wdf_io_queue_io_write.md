@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_WRITE
-title: EVT_WDF_IO_QUEUE_IO_WRITE
+title: EVT_WDF_IO_QUEUE_IO_WRITE (wdfio.h)
 description: A driver's EvtIoWrite event callback function processes a specified write request.
 old-location: wdf\evtiowrite.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoWrite
+- EvtIoWrite
 product:
 - Windows
 targetos: Windows

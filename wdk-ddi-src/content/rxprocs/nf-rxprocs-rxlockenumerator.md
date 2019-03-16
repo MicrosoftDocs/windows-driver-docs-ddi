@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxLockEnumerator
-title: RxLockEnumerator function
+title: RxLockEnumerator function (rxprocs.h)
 description: RxLockEnumerator is called from a network mini-redirector to enumerate the file locks on an FCB.
 old-location: ifsk\rxlockenumerator.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxLockEnumerator
+- RxLockEnumerator
 product:
 - Windows
 targetos: Windows

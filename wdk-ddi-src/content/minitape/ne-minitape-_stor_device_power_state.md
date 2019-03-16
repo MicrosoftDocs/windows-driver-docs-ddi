@@ -1,6 +1,6 @@
 ---
 UID: NE:minitape._STOR_DEVICE_POWER_STATE
-title: "_STOR_DEVICE_POWER_STATE"
+title: _STOR_DEVICE_POWER_STATE (minitape.h)
 description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 old-location: storage\stor_device_power_state.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STOR_DEVICE_POWER_STATE
+- STOR_DEVICE_POWER_STATE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
-title: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
+title: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030 (d3d12umddi.h)
 description: The protected resource session support flags.
 old-location: display\d3d12ddi-protected-resource-session-support-flags-0030.htm
 ms.assetid: f313ee29-9ff4-415b-9a0e-900bf751bb88
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
+- D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_FLAGS_0030
 product:
 - Windows
 targetos: Windows

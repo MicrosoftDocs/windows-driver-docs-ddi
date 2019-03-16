@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.GetSymbolName
-title: IDebugSymbolGroup::GetSymbolName
+title: IDebugSymbolGroup::GetSymbolName (dbgeng.h)
 description: The GetSymbolName method returns the name of a symbol in a symbol group.
 old-location: debugger\getsymbolname.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup.GetSymbolName
--	IDebugSymbolGroup2.GetSymbolName
+- IDebugSymbolGroup.GetSymbolName
+- IDebugSymbolGroup2.GetSymbolName
 product:
 - Windows
 targetos: Windows

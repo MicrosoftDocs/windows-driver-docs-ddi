@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmInitializeInput
-title: DeviceDsmInitializeInput function
+title: DeviceDsmInitializeInput function (ntddstor.h)
 description: The DeviceDsmInitializeInput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 ms.date: 04/11/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	DeviceDsmInitializeInput
+- DeviceDsmInitializeInput
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRegisterAggregatedClientUnknown
-title: KsRegisterAggregatedClientUnknown function
+title: KsRegisterAggregatedClientUnknown function (ks.h)
 description: In a manner very similar to COM, the KsRegisterAggregatedClientUnknown function aggregates two objects:\_the specified AVStream object and a client unknown object.
 old-location: stream\ksregisteraggregatedclientunknown.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsRegisterAggregatedClientUnknown
+- KsRegisterAggregatedClientUnknown
 product:
 - Windows
 targetos: Windows

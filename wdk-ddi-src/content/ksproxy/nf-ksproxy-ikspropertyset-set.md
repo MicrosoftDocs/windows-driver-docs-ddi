@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Set
-title: IKsPropertySet::Set
+title: IKsPropertySet::Set (ksproxy.h)
 description: The Set method sets a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_set.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsPropertySet.Set
+- IKsPropertySet.Set
 product:
 - Windows
 targetos: Windows

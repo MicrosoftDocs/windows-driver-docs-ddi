@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortSetAdapterBusType
-title: StorPortSetAdapterBusType function
+title: StorPortSetAdapterBusType function (storport.h)
 description: Used to adjust the BusType of the adapter depending on its current configuration.
 old-location: storage\storportsetadapterbustype.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortSetAdapterBusType
+- StorPortSetAdapterBusType
 product:
 - Windows
 targetos: Windows

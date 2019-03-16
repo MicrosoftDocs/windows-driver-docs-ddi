@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
-title: "_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS"
+title: _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS (wdfusb.h)
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains selection information for a USB interface.
 old-location: wdf\wdf_usb_interface_select_setting_params.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
+- WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
 product:
 - Windows
 targetos: Windows

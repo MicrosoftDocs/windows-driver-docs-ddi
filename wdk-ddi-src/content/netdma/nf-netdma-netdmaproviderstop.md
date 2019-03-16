@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaProviderStop
-title: NetDmaProviderStop function
+title: NetDmaProviderStop function (netdma.h)
 description: The NetDmaProviderStop function notifies the NetDMA interface that all of the DMA channels that are associated with a DMA provider are no longer available for DMA transfers.
 old-location: netvista\netdmaproviderstop.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NetDmaProviderStop
+- NetDmaProviderStop
 product:
 - Windows
 targetos: Windows

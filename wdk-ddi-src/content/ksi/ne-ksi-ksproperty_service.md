@@ -1,6 +1,6 @@
 ---
 UID: NE:ksi.__unnamed_enum_0
-title: KSPROPERTY_SERVICE
+title: KSPROPERTY_SERVICE (ksi.h)
 description: 
 old-location: stream\ksproperty_service.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksi.h
+- Ksi.h
 api_name:
--	KSPROPERTY_SERVICE
+- KSPROPERTY_SERVICE
 product:
 - Windows
 targetos: Windows

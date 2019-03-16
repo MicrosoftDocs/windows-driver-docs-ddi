@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk.__unnamed_enum_0
-title: WELL_KNOWN_SID_TYPE
+title: WELL_KNOWN_SID_TYPE (ntddk.h)
 description: A list of commonly used security identifiers (SIDs). Programs can pass these values to the **CreateWellKnownSid** function to create a SID from this list. For information about these values, see [WELL_KNOWN_SID_TYPE](https://msdn.microsoft.com/library/windows/desktop/aa446585).
 ms.assetid: 31995895-7bae-4cb6-9ea9-139a99d06215
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: WELL_KNOWN_SID_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	WELL_KNOWN_SID_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- WELL_KNOWN_SID_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

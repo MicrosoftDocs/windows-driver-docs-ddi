@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_CAPS_3
-title: DXGK_BRIGHTNESS_GET_CAPS_3
+title: DXGK_BRIGHTNESS_GET_CAPS_3 (dispmprt.h)
 description: Implemented by the client driver to retrieve the brightness control capabilities of an integrated display panel.
 ms.assetid: 8611cbe1-4c56-4c39-b2a7-41c73262052b
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_GET_CAPS_3
+- DXGK_BRIGHTNESS_GET_CAPS_3
 product: 
 - Windows
 targetos: Windows

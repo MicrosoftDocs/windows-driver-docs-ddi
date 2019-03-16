@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ECP_OPEN_PARAMETERS
-title: "_ECP_OPEN_PARAMETERS"
+title: _ECP_OPEN_PARAMETERS (ntifs.h)
 description: The ECP_OPEN_PARAMETERS structure allows a caller to specify the purpose of opening of a file without interfering with existing handles and/or oplocks on the file.
 old-location: ifsk\ecp_open_parameters.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	ECP_OPEN_PARAMETERS
+- ECP_OPEN_PARAMETERS
 product:
 - Windows
 targetos: Windows

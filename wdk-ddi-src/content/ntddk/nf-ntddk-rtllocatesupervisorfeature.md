@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlLocateSupervisorFeature
-title: RtlLocateSupervisorFeature function
+title: RtlLocateSupervisorFeature function (ntddk.h)
 description: Reserved for future use.
 ms.assetid: 5f29abbb-c37d-4310-a931-04bcdd05304e
 ms.date: 10/19/2018
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	RtlLocateSupervisorFeature
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- RtlLocateSupervisorFeature
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

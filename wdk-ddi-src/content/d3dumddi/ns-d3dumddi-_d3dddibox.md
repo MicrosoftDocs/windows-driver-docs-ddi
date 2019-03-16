@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIBOX
-title: "_D3DDDIBOX"
+title: _D3DDDIBOX (d3dumddi.h)
 description: Describes the bounds of a volume texture.
 old-location: display\d3dddibox.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDIBOX
+- D3DDDIBOX
 product:
 - Windows
 targetos: Windows

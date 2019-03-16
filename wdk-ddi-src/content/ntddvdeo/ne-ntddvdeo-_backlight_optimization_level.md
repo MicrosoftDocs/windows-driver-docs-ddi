@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddvdeo._BACKLIGHT_OPTIMIZATION_LEVEL
-title: _BACKLIGHT_OPTIMIZATION_LEVEL
+title: _BACKLIGHT_OPTIMIZATION_LEVEL (ntddvdeo.h)
 description: Specifies the type of backlight optimization.
 ms.assetid: df927641-352a-472c-b4ca-dc02abdd5b0d
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: BACKLIGHT_OPTIMIZATION_LEVEL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BACKLIGHT_OPTIMIZATION_LEVEL
+- _BACKLIGHT_OPTIMIZATION_LEVEL
 product: 
 - Windows
 targetos: Windows

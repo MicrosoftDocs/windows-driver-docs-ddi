@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_COMMIT_PHYSICAL
-title: PAGP_COMMIT_PHYSICAL
+title: PAGP_COMMIT_PHYSICAL (videoagp.h)
 description: The AgpCommitPhysical function maps system (physical) memory to the specified range of AGP-decodable physical addresses.
 old-location: display\agpcommitphysical.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpCommitPhysical
+- AgpCommitPhysical
 product:
 - Windows
 targetos: Windows

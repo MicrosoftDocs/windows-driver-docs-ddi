@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_KNOWN_STRUCT_EX
-title: PDEBUG_EXTENSION_KNOWN_STRUCT_EX
+title: PDEBUG_EXTENSION_KNOWN_STRUCT_EX (dbgeng.h)
 description: The DebugExtensionKnownStructEx callback function is called by extensions in order to dump structures that are well known to them.
 old-location: debugger\debugextensionknownstructex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	DebugExtensionKnownStructEx
+- DebugExtensionKnownStructEx
 product:
 - Windows
 targetos: Windows

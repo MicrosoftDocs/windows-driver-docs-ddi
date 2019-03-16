@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFindInTunnelCache
-title: FsRtlFindInTunnelCache function
+title: FsRtlFindInTunnelCache function (ntifs.h)
 description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
 old-location: ifsk\fsrtlfindintunnelcache.htm
 tech.root: ifsk
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlFindInTunnelCache
+- FsRtlFindInTunnelCache
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

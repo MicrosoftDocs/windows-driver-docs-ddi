@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsTopology.CreateNodeInstance
-title: IKsTopology::CreateNodeInstance
+title: IKsTopology::CreateNodeInstance (ksproxy.h)
 description: The CreateNodeInstance method requests a KS filter object to open a topology node object.
 old-location: stream\ikstopology_createnodeinstance.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsTopology.CreateNodeInstance
+- IKsTopology.CreateNodeInstance
 product:
 - Windows
 targetos: Windows

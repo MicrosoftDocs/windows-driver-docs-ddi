@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerAlert
-title: UcmTcpciPortControllerAlert function
+title: UcmTcpciPortControllerAlert function (ucmtcpciportcontroller.h)
 description: Sends information about the hardware alerts that are received on the port controller to UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrolleralert.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UcmTcpciPortControllerAlert
+- UcmTcpciPortControllerAlert
 product:
 - Windows
 targetos: Windows

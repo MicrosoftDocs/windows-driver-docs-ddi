@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_INPUT
-title: D3DWDDM2_4DDI_VIDEO_INPUT
+title: D3DWDDM2_4DDI_VIDEO_INPUT (d3d10umddi.h)
 description: D3DWDDM2_4DDI_VIDEO_INPUT contains the JPEG image function table that is provided to the Microsoft DirectX graphics kernel by the user mode driver.
 ms.assetid: 5e4a2b72-95ef-4a69-811d-128645c7bf67
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_INPUT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_VIDEO_INPUT
+- D3DWDDM2_4DDI_VIDEO_INPUT
 product: 
 - Windows
 targetos: Windows

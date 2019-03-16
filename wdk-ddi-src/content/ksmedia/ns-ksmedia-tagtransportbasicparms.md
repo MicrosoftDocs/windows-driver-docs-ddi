@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTBASICPARMS
-title: tagTRANSPORTBASICPARMS
+title: tagTRANSPORTBASICPARMS (ksmedia.h)
 description: The TRANSPORTBASICPARMS structure is defined but not used.
 old-location: stream\transportbasicparms.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	TRANSPORTBASICPARMS
+- TRANSPORTBASICPARMS
 product:
 - Windows
 targetos: Windows

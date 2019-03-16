@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
-title: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+title: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE (d3d10umddi.h)
 description: Specifies the type of process that is identified in the D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
 old-location: display\d3d11_1ddi_authenticated_process_identifier_type.htm
 ms.assetid: 7a8e7641-c946-4feb-b6d7-54ef63de9e76
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+- D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 product:
 - Windows
 targetos: Windows

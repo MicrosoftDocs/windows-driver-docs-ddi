@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortLogTelemetry
-title: StorPortLogTelemetry function
+title: StorPortLogTelemetry function (storport.h)
 description: The StorPortLogTelemetry routine logs a miniport telemetry event to help diagnose or collect any useful information.
 old-location: storage\storportlogtelemetry.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortLogTelemetry
+- StorPortLogTelemetry
 product:
 - Windows
 targetos: Windows

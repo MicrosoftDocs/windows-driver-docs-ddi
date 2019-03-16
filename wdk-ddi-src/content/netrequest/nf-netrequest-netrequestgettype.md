@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetType
-title: NetRequestGetType function
+title: NetRequestGetType function (netrequest.h)
 description: Retrieves the request type in an OID request.
 tech.root: netvista
 ms.assetid: 3f9225b2-a6d3-41ca-abe3-97ed30620e14
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestGetType
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestGetType
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,10 +1,10 @@
 ---
 UID: NF:portcls.IDrmPort.ForwardContentToFileObject
-title: IDrmPort::ForwardContentToFileObject
+title: IDrmPort::ForwardContentToFileObject (portcls.h)
 description: The ForwardContentToFileObject method is obsolete and is maintained only to support existing drivers. 
 tech.root: audio
 ms.assetid: 74e03ac6-5a4a-431b-b395-6410c775bec5
-ms.date: 10/31/2018
+ms.date: 02/20/2019
 ms.topic: method
 ms.keywords: IDrmPort::ForwardContentToFileObject, ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject, IDrmPort::ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject
 req.header: portcls.h
@@ -50,14 +50,18 @@ The ForwardContentToFileObject method is obsolete and is maintained only to supp
 
 ### -param ContentId
 
-
+Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 ### -param FileObject
 
-
+Pointer to a file object that represents the KS audio pin to which the KS audio stream is sent.
 
 ## -returns
-This method returns NTSTATUS.
+
+This method returns NTSTATUS - STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code. STATUS_NOT_IMPLEMENTED indicates that the KS audio pin that is associated with FileObject does not support the DRM content rights that are assigned to ContentId.
+ 
+
+
 ## -remarks
 
 See comments in [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject).

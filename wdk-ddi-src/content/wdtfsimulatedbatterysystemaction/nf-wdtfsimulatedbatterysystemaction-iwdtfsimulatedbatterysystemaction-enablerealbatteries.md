@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.EnableRealBatteries
-title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries
+title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries (wdtfsimulatedbatterysystemaction.h)
 description: Enables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablerealbatteries.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.EnableRealBatteries
+- IWDTFSimulatedBatterySystemAction.EnableRealBatteries
 product:
 - Windows
 targetos: Windows

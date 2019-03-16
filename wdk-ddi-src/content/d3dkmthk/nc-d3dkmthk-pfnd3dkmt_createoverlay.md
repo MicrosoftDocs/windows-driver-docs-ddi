@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEOVERLAY
-title: PFND3DKMT_CREATEOVERLAY
+title: PFND3DKMT_CREATEOVERLAY (d3dkmthk.h)
 description: The PFND3DKMT_CREATEOVERLAY callback function enables the overlay hardware if the hardware is capable.
 ms.assetid: 2908f347-a341-4603-95db-3f92b77afc88
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_CREATEOVERLAY
+- PFND3DKMT_CREATEOVERLAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

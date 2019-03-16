@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.QueryVirtual
-title: IDebugDataSpaces2::QueryVirtual
+title: IDebugDataSpaces2::QueryVirtual (dbgeng.h)
 description: The QueryVirtual method provides information about the specified pages in the target's virtual address space.
 old-location: debugger\queryvirtual.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces2.QueryVirtual
+- IDebugDataSpaces2.QueryVirtual
 product:
 - Windows
 targetos: Windows

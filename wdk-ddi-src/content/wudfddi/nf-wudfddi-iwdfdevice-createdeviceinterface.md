@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateDeviceInterface
-title: IWDFDevice::CreateDeviceInterface
+title: IWDFDevice::CreateDeviceInterface (wudfddi.h)
 description: The CreateDeviceInterface method creates an instance of a device interface class.
 old-location: wdf\iwdfdevice_createdeviceinterface.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.CreateDeviceInterface
+- IWDFDevice.CreateDeviceInterface
 product:
 - Windows
 targetos: Windows

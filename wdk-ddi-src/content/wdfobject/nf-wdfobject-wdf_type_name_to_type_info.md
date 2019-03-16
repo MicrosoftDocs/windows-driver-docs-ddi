@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WDF_TYPE_NAME_TO_TYPE_INFO
-title: WDF_TYPE_NAME_TO_TYPE_INFO macro
+title: WDF_TYPE_NAME_TO_TYPE_INFO macro (wdfobject.h)
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_to_type_info.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WDF_GET_CONTEXT_TYPE_INFO
+- WDF_GET_CONTEXT_TYPE_INFO
 product:
 - Windows
 targetos: Windows

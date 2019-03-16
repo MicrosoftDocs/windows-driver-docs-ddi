@@ -1,6 +1,6 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
-title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
+title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB (dxgiddi.h)
 description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dxgiddi.h
+- dxgiddi.h
 api_name: 
--	PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
+- PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

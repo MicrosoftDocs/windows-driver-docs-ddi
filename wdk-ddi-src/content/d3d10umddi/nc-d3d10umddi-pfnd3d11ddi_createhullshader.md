@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEHULLSHADER
-title: PFND3D11DDI_CREATEHULLSHADER
+title: PFND3D11DDI_CREATEHULLSHADER (d3d10umddi.h)
 description: The CreateHullShader function creates a hull shader.
 old-location: display\createhullshader.htm
 ms.assetid: 7fe647cf-37b0-427e-9e16-664bdd365ea6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CreateHullShader
+- CreateHullShader
 product:
 - Windows
 targetos: Windows

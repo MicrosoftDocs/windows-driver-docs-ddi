@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDevicePostEvent
-title: WdfDevicePostEvent function
+title: WdfDevicePostEvent function (wdfdevice.h)
 description: The WdfDevicePostEvent method asynchronously notifies applications that are waiting for the specified event from a driver.
 old-location: wdf\wdfdevicepostevent.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib: WUDFx02000.lib
 req.dll: WUDFx02000.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WUDFx02000.dll
+- WUDFx02000.dll
 api_name:
--	WdfDevicePostEvent
+- WdfDevicePostEvent
 product:
 - Windows
 targetos: Windows

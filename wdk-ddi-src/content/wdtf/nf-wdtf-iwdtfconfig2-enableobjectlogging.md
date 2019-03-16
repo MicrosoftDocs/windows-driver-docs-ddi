@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.EnableObjectLogging
-title: IWDTFCONFIG2::EnableObjectLogging
+title: IWDTFCONFIG2::EnableObjectLogging (wdtf.h)
 description: Enables object logging for all objects.
 old-location: dtf\iwdtfconfig2_enableobjectlogging.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFCONFIG2.EnableObjectLogging
+- IWDTFCONFIG2.EnableObjectLogging
 product:
 - Windows
 targetos: Windows

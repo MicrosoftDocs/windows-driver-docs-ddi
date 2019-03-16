@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_CHARACTERISTICS
-title: "_NDIS_PORT_CHARACTERISTICS"
+title: _NDIS_PORT_CHARACTERISTICS (ntddndis.h)
 description: The NDIS_PORT_CHARACTERISTICS structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see NDIS Ports.
 old-location: netvista\ndis_port_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PORT_CHARACTERISTICS
+- NDIS_PORT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterWdmGetNdisHandle
-title: NetAdapterWdmGetNdisHandle function
+title: NetAdapterWdmGetNdisHandle function (netadapter.h)
 description: Retrieves the NDIS adapter handle for a specified net adapter.
 tech.root: netvista
 ms.assetid: abad090b-7370-4afc-b822-d9e0554c7f23
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterWdmGetNdisHandle
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterWdmGetNdisHandle
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterWdmGetNdisHandle
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

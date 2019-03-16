@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByPointer
-title: ObReferenceObjectByPointer function
+title: ObReferenceObjectByPointer function (wdm.h)
 description: The ObReferenceObjectByPointer routine increments the pointer reference count for a given object.
 old-location: kernel\obreferenceobjectbypointer.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ObReferenceObjectByPointer
+- ObReferenceObjectByPointer
 product:
 - Windows
 targetos: Windows

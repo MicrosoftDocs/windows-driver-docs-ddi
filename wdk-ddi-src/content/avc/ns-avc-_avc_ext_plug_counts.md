@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_EXT_PLUG_COUNTS
-title: "_AVC_EXT_PLUG_COUNTS"
+title: _AVC_EXT_PLUG_COUNTS (avc.h)
 description: The AVC_EXT_PLUG_COUNTS structure describes the number of external plugs on the subunit.
 old-location: stream\avc_ext_plug_counts.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AVC_EXT_PLUG_COUNTS
+- AVC_EXT_PLUG_COUNTS
 product:
 - Windows
 targetos: Windows

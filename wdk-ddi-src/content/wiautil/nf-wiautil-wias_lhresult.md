@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.WIAS_LHRESULT
-title: WIAS_LHRESULT macro
+title: WIAS_LHRESULT macro (wiautil.h)
 description: The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the WIAS_HRESULT macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 old-location: image\wias_lhresult.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_LHRESULT
+- WIAS_LHRESULT
 product:
 - Windows
 targetos: Windows

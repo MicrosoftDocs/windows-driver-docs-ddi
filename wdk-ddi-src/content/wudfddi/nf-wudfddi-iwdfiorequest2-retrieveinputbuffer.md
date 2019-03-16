@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputBuffer
-title: IWDFIoRequest2::RetrieveInputBuffer
+title: IWDFIoRequest2::RetrieveInputBuffer (wudfddi.h)
 description: The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest2.RetrieveInputBuffer
+- IWDFIoRequest2.RetrieveInputBuffer
 product:
 - Windows
 targetos: Windows

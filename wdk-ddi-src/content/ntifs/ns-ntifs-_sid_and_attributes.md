@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID_AND_ATTRIBUTES
-title: "_SID_AND_ATTRIBUTES"
+title: _SID_AND_ATTRIBUTES (ntifs.h)
 description: The SID_AND_ATTRIBUTES structure represents a security identifier (SID) and its attributes. SIDs are used to uniquely identify users or groups.
 old-location: ifsk\sid_and_attributes.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SID_AND_ATTRIBUTES
+- SID_AND_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

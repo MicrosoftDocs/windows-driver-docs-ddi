@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryAuxiliaryCounterFrequency
-title: KeQueryAuxiliaryCounterFrequency function
+title: KeQueryAuxiliaryCounterFrequency function (wdm.h)
 description: The KeQueryAuxiliaryCounterFrequency routine returns frequency of the auxiliary counter in units of Hz.
 old-location: kernel\kequeryauxiliarycounterfrequency.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: Ntoskrnl.lib
 req.dll: Hal.dll
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	KeQueryAuxiliaryCounterFrequency
+- KeQueryAuxiliaryCounterFrequency
 product:
 - Windows
 targetos: Windows

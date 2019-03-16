@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberPossibleExecutingProcessorTypes
-title: IDebugControl3::GetNumberPossibleExecutingProcessorTypes
+title: IDebugControl3::GetNumberPossibleExecutingProcessorTypes (dbgeng.h)
 description: The GetNumberPossibleExecutingProcessorTypes method returns the number of processor types that are supported by the computer running the current target.
 old-location: debugger\getnumberpossibleexecutingprocessortypes.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetNumberPossibleExecutingProcessorTypes
--	IDebugControl2.GetNumberPossibleExecutingProcessorTypes
--	IDebugControl3.GetNumberPossibleExecutingProcessorTypes
+- IDebugControl.GetNumberPossibleExecutingProcessorTypes
+- IDebugControl2.GetNumberPossibleExecutingProcessorTypes
+- IDebugControl3.GetNumberPossibleExecutingProcessorTypes
 product:
 - Windows
 targetos: Windows

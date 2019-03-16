@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetPnpState
-title: IWDFDevice::GetPnpState
+title: IWDFDevice::GetPnpState (wudfddi.h)
 description: The GetPnpState method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
 old-location: wdf\iwdfdevice_getpnpstate.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.GetPnpState
+- IWDFDevice.GetPnpState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ENCRYPTED_PARAMETERS
-title: "_DXGKMDT_OPM_ENCRYPTED_PARAMETERS"
+title: _DXGKMDT_OPM_ENCRYPTED_PARAMETERS (d3dkmdt.h)
 description: The DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure contains data that is encrypted with the public key from an appropriate certificate.
 old-location: display\dxgkmdt_opm_encrypted_parameters.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_ENCRYPTED_PARAMETERS
+- DXGKMDT_OPM_ENCRYPTED_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetFilter
-title: IWDFDeviceInitialize::SetFilter
+title: IWDFDeviceInitialize::SetFilter (wudfddi.h)
 description: The SetFilter method sets the property that enables a device as a filter device.
 old-location: wdf\iwdfdeviceinitialize_setfilter.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize.SetFilter
+- IWDFDeviceInitialize.SetFilter
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
-title: "_DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS"
+title: _DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS (d3dkmddi.h)
 description: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS provides additional information to the driver in a DxgkCbHardwareContentProtectionTeardown call.
 old-location: display\dxgk_hardware_content_protection_teardown_flags.htm
 ms.assetid: C9D2763D-D129-429C-AA30-85EF4D30F730
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
+- DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 product:
 - Windows
 targetos: Windows

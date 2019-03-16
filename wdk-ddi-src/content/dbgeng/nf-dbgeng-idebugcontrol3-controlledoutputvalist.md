@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.ControlledOutputVaList
-title: IDebugControl3::ControlledOutputVaList
+title: IDebugControl3::ControlledOutputVaList (dbgeng.h)
 description: The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputvalist.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.ControlledOutputVaList
--	IDebugControl2.ControlledOutputVaList
--	IDebugControl3.ControlledOutputVaList
+- IDebugControl.ControlledOutputVaList
+- IDebugControl2.ControlledOutputVaList
+- IDebugControl3.ControlledOutputVaList
 product:
 - Windows
 targetos: Windows

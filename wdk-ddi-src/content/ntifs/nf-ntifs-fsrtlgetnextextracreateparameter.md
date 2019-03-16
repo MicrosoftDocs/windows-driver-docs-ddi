@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetNextExtraCreateParameter
-title: FsRtlGetNextExtraCreateParameter function
+title: FsRtlGetNextExtraCreateParameter function (ntifs.h)
 description: The FsRtlGetNextExtraCreateParameter routine returns a pointer to the next (or first) extra create parameter (ECP) context structure in a given ECP list.
 old-location: ifsk\fsrtlgetnextextracreateparameter.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlGetNextExtraCreateParameter
+- FsRtlGetNextExtraCreateParameter
 product:
 - Windows
 targetos: Windows

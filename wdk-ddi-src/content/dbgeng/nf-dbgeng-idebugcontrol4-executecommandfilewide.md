@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteCommandFileWide
-title: IDebugControl4::ExecuteCommandFileWide
+title: IDebugControl4::ExecuteCommandFileWide (dbgeng.h)
 description: The ExecuteCommandFileWide method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfilewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.ExecuteCommandFileWide
+- IDebugControl4.ExecuteCommandFileWide
 product:
 - Windows
 targetos: Windows

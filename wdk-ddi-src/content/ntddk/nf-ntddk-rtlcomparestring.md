@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlCompareString
-title: RtlCompareString function
+title: RtlCompareString function (ntddk.h)
 description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlCompareString
+- RtlCompareString
 product:
 - Windows
 targetos: Windows

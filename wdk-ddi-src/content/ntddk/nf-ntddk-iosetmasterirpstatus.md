@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetMasterIrpStatus
-title: IoSetMasterIrpStatus function
+title: IoSetMasterIrpStatus function (ntddk.h)
 description: The IoSetMasterIrpStatus routine conditionally replaces the Status value in an IRP with the specified NTSTATUS value.
 old-location: kernel\iosetmasterirpstatus.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoSetMasterIrpStatus
+- IoSetMasterIrpStatus
 product:
 - Windows
 targetos: Windows

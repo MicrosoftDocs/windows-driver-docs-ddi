@@ -1,6 +1,6 @@
 ---
 UID: NF:nettxqueue.NetTxQueueCreate
-title: NetTxQueueCreate function
+title: NetTxQueueCreate function (nettxqueue.h)
 description: Creates a net transmit queue object.
 tech.root: netvista
 ms.assetid: 50a3a979-0699-40d9-9932-3836a3b0b3a0
@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	nettxqueue.h
-apiname: 
--	NetTxQueueCreate
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- nettxqueue.h
+api_name: 
+- NetTxQueueCreate
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

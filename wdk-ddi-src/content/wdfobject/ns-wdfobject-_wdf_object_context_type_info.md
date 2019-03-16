@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfobject._WDF_OBJECT_CONTEXT_TYPE_INFO
-title: "_WDF_OBJECT_CONTEXT_TYPE_INFO"
+title: _WDF_OBJECT_CONTEXT_TYPE_INFO (wdfobject.h)
 description: The WDF_OBJECT_CONTEXT_TYPE_INFO structure describes a framework object's driver-defined context memory.
 old-location: wdf\wdf_object_context_type_info.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfobject.h
+- wdfobject.h
 api_name:
--	WDF_OBJECT_CONTEXT_TYPE_INFO
+- WDF_OBJECT_CONTEXT_TYPE_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.WriteBusData
-title: IDebugDataSpaces3::WriteBusData
+title: IDebugDataSpaces3::WriteBusData (dbgeng.h)
 description: The WriteBusData method writes data to a system bus.
 old-location: debugger\writebusdata.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.WriteBusData
--	IDebugDataSpaces2.WriteBusData
--	IDebugDataSpaces3.WriteBusData
--	IDebugDataSpaces4.WriteBusData
+- IDebugDataSpaces.WriteBusData
+- IDebugDataSpaces2.WriteBusData
+- IDebugDataSpaces3.WriteBusData
+- IDebugDataSpaces4.WriteBusData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PROCESS_VERIFIER_OPTION_DATA
-title: _D3DKMT_PROCESS_VERIFIER_OPTION_DATA
+title: _D3DKMT_PROCESS_VERIFIER_OPTION_DATA (d3dkmthk.h)
 description: The process verifier's option data.
 ms.assetid: c29bbb50-df77-459d-bdb1-d9782c5980d1
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PROCESS_VERIFIER_OPTION_DATA
+- _D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

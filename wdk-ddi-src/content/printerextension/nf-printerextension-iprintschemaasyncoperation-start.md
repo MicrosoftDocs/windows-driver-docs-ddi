@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Start
-title: IPrintSchemaAsyncOperation::Start
+title: IPrintSchemaAsyncOperation::Start (printerextension.h)
 description: Starts the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_start.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaAsyncOperation.Start
+- IPrintSchemaAsyncOperation.Start
 product:
 - Windows
 targetos: Windows

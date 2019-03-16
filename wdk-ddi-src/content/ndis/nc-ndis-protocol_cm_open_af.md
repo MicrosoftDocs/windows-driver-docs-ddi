@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_OPEN_AF
-title: PROTOCOL_CM_OPEN_AF
+title: PROTOCOL_CM_OPEN_AF (ndis.h)
 description: The ProtocolCmOpenAf function is required.
 old-location: netvista\protocolcmopenaf.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmOpenAf
+- ProtocolCmOpenAf
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.SetPowerPolicy
-title: IWDFUsbTargetDevice::SetPowerPolicy
+title: IWDFUsbTargetDevice::SetPowerPolicy (wudfusb.h)
 description: The SetPowerPolicy method sets the WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFUsbTargetDevice.SetPowerPolicy
+- IWDFUsbTargetDevice.SetPowerPolicy
 product:
 - Windows
 targetos: Windows

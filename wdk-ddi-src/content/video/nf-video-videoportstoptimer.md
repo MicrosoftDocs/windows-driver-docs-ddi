@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortStopTimer
-title: VideoPortStopTimer function
+title: VideoPortStopTimer function (video.h)
 description: The VideoPortStopTimer function disables calls to a miniport driver's HwVidTimer function.
 old-location: display\videoportstoptimer.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortStopTimer
+- VideoPortStopTimer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETROOTPAGETABLE
-title: "_DXGKARG_SETROOTPAGETABLE"
+title: _DXGKARG_SETROOTPAGETABLE (d3dkmddi.h)
 description: DXGKARG_SETROOTPAGETABLE is used by the DxgkDdiSetRootPageTabledevice driver interface (DDI) to notify a context when its associated root page table is resized or moved in memory.
 old-location: display\dxgkarg_setrootpagetable.htm
 ms.assetid: D3863924-29EE-4886-B8DC-F9020A7C85A4
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETROOTPAGETABLE
+- DXGKARG_SETROOTPAGETABLE
 product:
 - Windows
 targetos: Windows

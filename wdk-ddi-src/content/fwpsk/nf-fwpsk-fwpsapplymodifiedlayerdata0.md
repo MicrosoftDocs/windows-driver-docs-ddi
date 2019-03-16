@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsApplyModifiedLayerData0
-title: FwpsApplyModifiedLayerData0 function
+title: FwpsApplyModifiedLayerData0 function (fwpsk.h)
 description: The FwpsApplyModifiedLayerData0 function applies changes to layer-specific data made after a call to FwpsAcquireWritableLayerDataPointer0.Note  FwpsApplyModifiedLayerData0 is a specific version of FwpsApplyModifiedLayerData.
 old-location: netvista\fwpsapplymodifiedlayerdata0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsApplyModifiedLayerData0
+- FwpsApplyModifiedLayerData0
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCaptureContext
-title: RtlCaptureContext function
+title: RtlCaptureContext function (ntifs.h)
 description: The RtlCaptureContext function retrieves a context record in the context of the caller.
 old-location: ifsk\rtlcapturecontext.htm
 tech.root: ifsk
@@ -26,17 +26,17 @@ req.lib: NtosKrnl.lib; OneCoreUAP.lib on Windows 10
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
--	API-MS-Win-Core-RTLSupport-l1-1-0.dll
--	API-MS-Win-Core-RTLSupport-l1-2-0.dll
+- NtDll.dll
+- NtosKrnl.exe
+- API-MS-Win-Core-RTLSupport-l1-1-0.dll
+- API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
--	RtlCaptureContext
+- RtlCaptureContext
 product:
 - Windows
 targetos: Windows

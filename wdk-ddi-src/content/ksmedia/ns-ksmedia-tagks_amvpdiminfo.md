@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPDIMINFO
-title: tagKS_AMVPDIMINFO
+title: tagKS_AMVPDIMINFO (ksmedia.h)
 description: The KS_AMVPDIMINFO structure is used to describe the dimensions of a video port.
 old-location: stream\ks_amvpdiminfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_AMVPDIMINFO
+- KS_AMVPDIMINFO
 product:
 - Windows
 targetos: Windows

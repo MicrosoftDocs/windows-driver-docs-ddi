@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETSCANLINE
-title: PFND3DKMT_GETSCANLINE
+title: PFND3DKMT_GETSCANLINE (d3dkmthk.h)
 description: Pfnd3dkmtGetscanline determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 ms.assetid: 05015761-1078-47c8-8e4b-deb02a999e6f
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETSCANLINE
+- PFND3DKMT_GETSCANLINE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

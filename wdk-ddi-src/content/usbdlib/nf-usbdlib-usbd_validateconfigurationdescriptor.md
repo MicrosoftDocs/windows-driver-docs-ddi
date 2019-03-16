@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_ValidateConfigurationDescriptor
-title: USBD_ValidateConfigurationDescriptor function
+title: USBD_ValidateConfigurationDescriptor function (usbdlib.h)
 description: The USBD_ValidateConfigurationDescriptor routine validates all descriptors returned by a device in its response to a configuration descriptor request.
 old-location: buses\usbd_validateconfigurationdescriptor.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_ValidateConfigurationDescriptor
+- USBD_ValidateConfigurationDescriptor
 product:
 - Windows
 targetos: Windows

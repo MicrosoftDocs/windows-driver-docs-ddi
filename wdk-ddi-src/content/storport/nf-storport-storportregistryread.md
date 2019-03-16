@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortRegistryRead
-title: StorPortRegistryRead function
+title: StorPortRegistryRead function (storport.h)
 description: The StorPortRegistryRead routine reads the registry data for the indicated device and value.
 old-location: storage\storportregistryread.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortRegistryRead
+- StorPortRegistryRead
 product:
 - Windows
 targetos: Windows

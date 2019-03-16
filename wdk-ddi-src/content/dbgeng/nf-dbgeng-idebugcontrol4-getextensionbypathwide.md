@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExtensionByPathWide
-title: IDebugControl4::GetExtensionByPathWide
+title: IDebugControl4::GetExtensionByPathWide (dbgeng.h)
 description: The GetExtensionByPathWide method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypathwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.GetExtensionByPathWide
+- IDebugControl4.GetExtensionByPathWide
 product:
 - Windows
 targetos: Windows

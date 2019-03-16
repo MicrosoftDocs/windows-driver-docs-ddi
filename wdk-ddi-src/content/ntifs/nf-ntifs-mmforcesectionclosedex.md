@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmForceSectionClosedEx
-title: MmForceSectionClosedEx function
+title: MmForceSectionClosedEx function (ntifs.h)
 description: The MmForceSectionClosedEx function examines the section object pointers.  If they are NULL, no further action is taken and the value TRUE is returned.
 ms.assetid: a33c8323-40ea-4606-bec1-68b955e01c8f
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	MmForceSectionClosedEx
+- MmForceSectionClosedEx
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

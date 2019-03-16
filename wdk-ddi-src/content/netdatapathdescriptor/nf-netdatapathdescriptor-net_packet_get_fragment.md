@@ -1,6 +1,6 @@
 ---
 UID: NF:netdatapathdescriptor.NET_PACKET_GET_FRAGMENT
-title: NET_PACKET_GET_FRAGMENT macro
+title: NET_PACKET_GET_FRAGMENT macro (netdatapathdescriptor.h)
 description: The NET_PACKET_GET_FRAGMENT macro retrieves a single fragment from a net packet.
 tech.root: netvista
 ms.assetid: ee42c2b6-078c-493e-8b47-67aecffc7be7
@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netdatapathdescriptor.h
-apiname: 
--	NET_PACKET_GET_FRAGMENT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netdatapathdescriptor.h
+api_name: 
+- NET_PACKET_GET_FRAGMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

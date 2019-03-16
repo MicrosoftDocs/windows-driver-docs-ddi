@@ -1,6 +1,6 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_INSTALL_INTERFACE
-title: IOCTL_SWENUM_INSTALL_INTERFACE
+title: IOCTL_SWENUM_INSTALL_INTERFACE (swenum.h)
 description: 
 old-location: stream\ioctl_swenum_install_interface.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	swenum.h
+- swenum.h
 api_name:
--	IOCTL_SWENUM_INSTALL_INTERFACE
+- IOCTL_SWENUM_INSTALL_INTERFACE
 product:
 - Windows
 targetos: Windows

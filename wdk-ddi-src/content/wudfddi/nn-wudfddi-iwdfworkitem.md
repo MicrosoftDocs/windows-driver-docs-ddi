@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFWorkItem
-title: IWDFWorkItem
+title: IWDFWorkItem (wudfddi.h)
 description: This interface exposes a work item object.
 old-location: wdf\iwdfworkitem.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFWorkItem
+- IWDFWorkItem
 product:
 - Windows
 targetos: Windows

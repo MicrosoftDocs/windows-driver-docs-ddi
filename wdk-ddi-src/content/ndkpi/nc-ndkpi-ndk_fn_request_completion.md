@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_REQUEST_COMPLETION
-title: NDK_FN_REQUEST_COMPLETION
+title: NDK_FN_REQUEST_COMPLETION (ndkpi.h)
 description: The NdkRequestCompletion (NDK_FN_REQUEST_COMPLETION) function completes a pending NDK request.
 old-location: netvista\ndk_fn_request_completion.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkRequestCompletion
+- NdkRequestCompletion
 product:
 - Windows
 targetos: Windows

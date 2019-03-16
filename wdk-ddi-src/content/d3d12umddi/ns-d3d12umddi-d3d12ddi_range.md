@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RANGE
-title: D3D12DDI_RANGE
+title: D3D12DDI_RANGE (d3d12umddi.h)
 description: Specifies a range.
 old-location: display\d3d12ddi_range.htm
 ms.assetid: B3A8F252-D56D-4F20-A0DE-2A29904BC907
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RANGE
+- D3D12DDI_RANGE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbcamdi._pipe_config_descriptor
-title: "_pipe_config_descriptor"
+title: _pipe_config_descriptor (usbcamdi.h)
 description: The USBCAMD_Pipe_Config_Descriptor structure describes the association between pipes and streams.
 old-location: stream\usbcamd_pipe_config_descriptor.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_Pipe_Config_Descriptor
+- USBCAMD_Pipe_Config_Descriptor
 product:
 - Windows
 targetos: Windows

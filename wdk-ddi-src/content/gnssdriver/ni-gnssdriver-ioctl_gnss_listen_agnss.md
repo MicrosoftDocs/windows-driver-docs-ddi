@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_AGNSS
-title: IOCTL_GNSS_LISTEN_AGNSS
+title: IOCTL_GNSS_LISTEN_AGNSS (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_AGNSS control code is used by the GNSS adapter to start listening for AGNSS requests issued by the GNSS driver.
 old-location: gnss\ioctl_gnss_listen_agnss.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	IOCTL_GNSS_LISTEN_AGNSS
+- IOCTL_GNSS_LISTEN_AGNSS
 product:
 - Windows
 targetos: Windows

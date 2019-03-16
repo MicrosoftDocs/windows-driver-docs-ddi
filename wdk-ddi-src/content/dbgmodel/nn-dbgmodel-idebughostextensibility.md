@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostExtensibility
-title: IDebugHostExtensibility
+title: IDebugHostExtensibility (dbgmodel.h)
 description: The extensibility interface to the underlying debugger.
 ms.assetid: ca0b53b7-9e3a-4dca-ab84-0e147006ac32
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostExtensibility
-product: Windows
+- IDebugHostExtensibility
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

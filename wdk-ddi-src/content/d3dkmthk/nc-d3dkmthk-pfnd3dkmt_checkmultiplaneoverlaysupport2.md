@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
-title: PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
+title: PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 (d3dkmthk.h)
 description: The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function checks the details of hardware support for multiplane overlays.
 ms.assetid: 2c7e8c79-ec9a-46f1-b217-8e6bd95b21d9
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
+- PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

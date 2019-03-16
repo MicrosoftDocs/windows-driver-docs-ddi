@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIMDeInitializeDeviceInstance
-title: NdisIMDeInitializeDeviceInstance function
+title: NdisIMDeInitializeDeviceInstance function (ndis.h)
 description: The NdisIMDeInitializeDeviceInstance function calls an NDIS intermediate driver's MiniportHaltEx function to tear down the driver's virtual miniport.
 old-location: netvista\ndisimdeinitializedeviceinstance.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIMDeInitializeDeviceInstance
+- NdisIMDeInitializeDeviceInstance
 product:
 - Windows
 targetos: Windows

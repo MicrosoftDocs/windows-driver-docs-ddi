@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.QueryInterface
-title: IStringDisplayableConcept::QueryInterface
+title: IStringDisplayableConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: edb82187-ddf5-4ebb-b8d5-ea191053533b
 ms.date: 10/05/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IStringDisplayableConcept.QueryInterface
-product: Windows
+- IStringDisplayableConcept.QueryInterface
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

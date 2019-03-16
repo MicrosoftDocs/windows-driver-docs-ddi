@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_PRIORITY
-title: "_WDF_INTERRUPT_PRIORITY"
+title: _WDF_INTERRUPT_PRIORITY (wdfinterrupt.h)
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinterrupt.h
+- wdfinterrupt.h
 api_name:
--	WDF_INTERRUPT_PRIORITY
+- WDF_INTERRUPT_PRIORITY
 product:
 - Windows
 targetos: Windows

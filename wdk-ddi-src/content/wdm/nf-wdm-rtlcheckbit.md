@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCheckBit
-title: RtlCheckBit macro
+title: RtlCheckBit macro (wdm.h)
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RtlCheckBit
+- RtlCheckBit
 product:
 - Windows
 targetos: Windows

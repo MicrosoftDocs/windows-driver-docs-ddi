@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_VENDOR_AND_DEVICE_IDS
-title: SRIOV_GET_VENDOR_AND_DEVICE_IDS
+title: SRIOV_GET_VENDOR_AND_DEVICE_IDS (pcivirt.h)
 description: Supplies the Vendor and Device ID for a PCI Express SR-IOV Virtual Function (VF) to be used for generating a more generic Plug and Play ID for the VF. These IDs cannot be read directly from the VF’s configuration space.
 old-location: pci\sriov_get_vendor_and_device_ids.htm
 tech.root: PCI
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	*PSRIOV_GET_VENDOR_AND_DEVICE_IDS
+- *PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
-title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
+title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 (d3d12umddi.h)
 description: Used to create a video decoder heap.
 old-location: display\pfnd3d12ddi_createvideodecoderheap_0033_.htm
 ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
+- PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
 product:
 - Windows
 targetos: Windows

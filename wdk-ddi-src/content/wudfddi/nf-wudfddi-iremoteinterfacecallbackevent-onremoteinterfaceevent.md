@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
-title: IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
+title: IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent (wudfddi.h)
 description: A UMDF-based driver's OnRemoteInterfaceEvent event callback function handles device events that are associated with a device interface.
 old-location: wdf\iremoteinterfacecallbackevent_onremoteinterfaceevent.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
+- IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
 product:
 - Windows
 targetos: Windows

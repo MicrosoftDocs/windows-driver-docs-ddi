@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dumddi.D3DDDI_BUILD16_FROM_VERSION32
-title: D3DDDI_BUILD16_FROM_VERSION32 macro
+title: D3DDDI_BUILD16_FROM_VERSION32 macro (d3dumddi.h)
 description: Converts a 16 bit build from a 32 bit version.
 ms.assetid: 1a96c613-a6d8-4294-8fa6-0b15f2c99120
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDI_BUILD16_FROM_VERSION32
+- D3DDDI_BUILD16_FROM_VERSION32
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

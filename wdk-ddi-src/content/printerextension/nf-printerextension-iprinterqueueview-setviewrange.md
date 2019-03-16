@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueView.SetViewRange
-title: IPrinterQueueView::SetViewRange
+title: IPrinterQueueView::SetViewRange (printerextension.h)
 description: Sets the range of print jobs being monitored.
 old-location: print\iprinterqueueview_setviewrange.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueueView.SetViewRange
+- IPrinterQueueView.SetViewRange
 product:
 - Windows
 targetos: Windows

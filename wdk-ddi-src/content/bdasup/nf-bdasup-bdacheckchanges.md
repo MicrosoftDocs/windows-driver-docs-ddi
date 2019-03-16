@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaCheckChanges
-title: BdaCheckChanges function
+title: BdaCheckChanges function (bdasup.h)
 description: The BdaCheckChanges function verifies a new set of BDA topology changes before they are committed.
 old-location: stream\bdacheckchanges.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaCheckChanges
+- BdaCheckChanges
 product:
 - Windows
 targetos: Windows

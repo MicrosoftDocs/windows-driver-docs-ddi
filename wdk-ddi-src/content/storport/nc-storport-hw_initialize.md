@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_INITIALIZE
-title: HW_INITIALIZE
+title: HW_INITIALIZE (storport.h)
 description: The HwStorInitialize routine initializes the miniport driver after a system reboot or power failure occurs.
 old-location: storage\hwstorinitialize.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DIRQL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	HwStorInitialize
+- HwStorInitialize
 product:
 - Windows
 targetos: Windows

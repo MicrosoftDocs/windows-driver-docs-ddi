@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetResult
-title: IBidiRequest::GetResult
+title: IBidiRequest::GetResult (bidispl.h)
 description: The GetResult method tells whether the bidi request was successful.
 old-location: print\ibidirequest_ibidirequest__getresult.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	bidispl.dll
+- bidispl.dll
 api_name:
--	IBidiRequest.GetResult
+- IBidiRequest.GetResult
 product:
 - Windows
 targetos: Windows

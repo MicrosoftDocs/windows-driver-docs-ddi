@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
-title: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
+title: _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE (d3dukmdt.h)
 description: Indicates that a power transition has completed.
 old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
+- DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 product:
 - Windows
 targetos: Windows

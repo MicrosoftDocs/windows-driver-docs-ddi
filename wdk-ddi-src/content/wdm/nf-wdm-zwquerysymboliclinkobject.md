@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQuerySymbolicLinkObject
-title: ZwQuerySymbolicLinkObject function
+title: ZwQuerySymbolicLinkObject function (wdm.h)
 description: The ZwQuerySymbolicLinkObject routine returns a Unicode string that contains the target of a symbolic link.
 old-location: kernel\zwquerysymboliclinkobject.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQuerySymbolicLinkObject
--	NtQuerySymbolicLinkObject
+- ZwQuerySymbolicLinkObject
+- NtQuerySymbolicLinkObject
 product:
 - Windows
 targetos: Windows

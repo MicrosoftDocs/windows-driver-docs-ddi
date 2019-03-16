@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryByToken
-title: IDebugSymbols3::GetSymbolEntryByToken
+title: IDebugSymbols3::GetSymbolEntryByToken (dbgeng.h)
 description: Looks up a symbol by using a managed metadata token.
 old-location: debugger\idebugsymbols3_getsymbolentrybytoken.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.GetSymbolEntryByToken
+- IDebugSymbols3.GetSymbolEntryByToken
 product:
 - Windows
 targetos: Windows

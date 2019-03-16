@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETMATERIAL
-title: PFND3DDDI_SETMATERIAL
+title: PFND3DDDI_SETMATERIAL (d3dumddi.h)
 description: The SetMaterial function sets the material properties that devices on the system use to create the required effect during rendering.
 old-location: display\setmaterial.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetMaterial
+- SetMaterial
 product:
 - Windows
 targetos: Windows

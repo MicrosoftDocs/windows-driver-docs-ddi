@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_GROUPS
-title: "_TOKEN_GROUPS"
+title: _TOKEN_GROUPS (ntifs.h)
 description: TOKEN_GROUPS contains information about the group security identifiers (SID) in an access token.
 old-location: ifsk\token_groups.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	TOKEN_GROUPS
+- TOKEN_GROUPS
 product:
 - Windows
 targetos: Windows

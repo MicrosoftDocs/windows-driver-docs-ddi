@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETHANDLEDATA
-title: DXGKCB_GETHANDLEDATA
+title: DXGKCB_GETHANDLEDATA (d3dkmddi.h)
 description: The DxgkCbGetHandleData function retrieves the private data that is associated with an allocation.
 old-location: display\dxgkcbgethandledata.htm
 ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbGetHandleData
+- DxgkCbGetHandleData
 product:
 - Windows
 targetos: Windows

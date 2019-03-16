@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES
-title: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES
+title: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES (d3dkmddi.h)
 description: The pfnGetNumModes function returns the number of target modes in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfngetnummodes.htm
 ms.assetid: 1197989a-c76e-4dee-a1c7-677b6558677c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnGetNumModes
+- pfnGetNumModes
 product:
 - Windows
 targetos: Windows

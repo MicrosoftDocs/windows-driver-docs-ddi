@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAvcCommandType
-title: "_tagAvcCommandType"
+title: _tagAvcCommandType (avc.h)
 description: The AvcCommandType enumeration type is used to indicate the type of command issued by a subunit driver to its AV/C subunit through AVC_FUNCTION_COMMAND or AVC_FUNCTION_GET_REQUEST function codes.
 old-location: stream\avccommandtype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	AvcCommandType
+- AvcCommandType
 product:
 - Windows
 targetos: Windows

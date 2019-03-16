@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes.tagKS_BDA_FRAME_INFO
-title: tagKS_BDA_FRAME_INFO
+title: tagKS_BDA_FRAME_INFO (bdatypes.h)
 description: The KS_BDA_FRAME_INFO structure describes BDA extensions to the KSSTREAM_HEADER structure, which describes a packet of data to be read from or written to a streaming driver pin.
 old-location: stream\ks_bda_frame_info.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	KS_BDA_FRAME_INFO
+- KS_BDA_FRAME_INFO
 product:
 - Windows
 targetos: Windows

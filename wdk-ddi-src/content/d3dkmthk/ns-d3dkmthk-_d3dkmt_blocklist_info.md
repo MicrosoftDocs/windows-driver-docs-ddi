@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BLOCKLIST_INFO
-title: _D3DKMT_BLOCKLIST_INFO
+title: _D3DKMT_BLOCKLIST_INFO (d3dkmthk.h)
 description: Contains information about the display block list.
 ms.assetid: 3b1bedab-5329-41ae-972e-85ff10c10c09
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_BLOCKLIST_INFO
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_BLOCKLIST_INFO
+- _D3DKMT_BLOCKLIST_INFO
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsGetProcessExitTime
-title: PsGetProcessExitTime function
+title: PsGetProcessExitTime function (ntifs.h)
 description: The PsGetProcessExitTime routine returns the exit time for the current process.
 old-location: ifsk\psgetprocessexittime.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsGetProcessExitTime
+- PsGetProcessExitTime
 product:
 - Windows
 targetos: Windows

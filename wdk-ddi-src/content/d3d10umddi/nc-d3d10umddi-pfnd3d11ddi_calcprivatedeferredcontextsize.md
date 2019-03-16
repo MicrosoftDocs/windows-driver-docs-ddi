@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE
-title: PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE
+title: PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE (d3d10umddi.h)
 description: The CalcPrivateDeferredContextSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a deferred context.
 old-location: display\calcprivatedeferredcontextsize.htm
 ms.assetid: 282898b1-45e1-4d85-9ab7-fd400623bdc5
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	CalcPrivateDeferredContextSize
+- CalcPrivateDeferredContextSize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_16
-title: GNSS_BREADCRUMBING_ALERT_DATA
+title: GNSS_BREADCRUMBING_ALERT_DATA (gnssdriver.h)
 description: This structure contains alert information for when the breadcrumb buffer has reached a level where OS read operations should be performed.
 old-location: gnss\gnss_breadcrumbing_alert_data.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_BREADCRUMBING_ALERT_DATA
+- GNSS_BREADCRUMBING_ALERT_DATA
 product:
 - Windows
 targetos: Windows

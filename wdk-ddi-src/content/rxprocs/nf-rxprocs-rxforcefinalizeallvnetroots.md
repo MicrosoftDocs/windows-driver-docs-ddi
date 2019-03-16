@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxForceFinalizeAllVNetRoots
-title: RxForceFinalizeAllVNetRoots function
+title: RxForceFinalizeAllVNetRoots function (rxprocs.h)
 description: RxForceFinalizeAllVNetRoots force finalizes all the V_NET_ROOT structures associated with a given NET_ROOT structure. The caller must have an exclusive lock on the netname table associated with the device object.
 old-location: ifsk\rxforcefinalizeallvnetroots.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxForceFinalizeAllVNetRoots
+- RxForceFinalizeAllVNetRoots
 product:
 - Windows
 targetos: Windows

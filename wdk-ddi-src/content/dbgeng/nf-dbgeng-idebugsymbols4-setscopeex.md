@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.SetScopeEx
-title: IDebugSymbols4::SetScopeEx
+title: IDebugSymbols4::SetScopeEx (dbgeng.h)
 description: Sets the scope as an extended frame structure.
 old-location: debugger\idebugsymbols4_setscopeex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols4.SetScopeEx
+- IDebugSymbols4.SetScopeEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt.__unnamed_enum_1
-title: DOCKING_STATE
+title: DOCKING_STATE (dispmprt.h)
 description: The DOCKING_STATE enumeration is used to describe the state of a portable computer that can be attached to a docking station.
 old-location: display\docking_state.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DOCKING_STATE
+- DOCKING_STATE
 product:
 - Windows
 targetos: Windows

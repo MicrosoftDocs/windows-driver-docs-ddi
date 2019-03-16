@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcMdlWriteAbort
-title: CcMdlWriteAbort function
+title: CcMdlWriteAbort function (ntifs.h)
 description: The CcMdlWriteAbort routine frees memory descriptor lists (MDL) created by an earlier call to CcPrepareMdlWrite.
 old-location: ifsk\ccmdlwriteabort.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcMdlWriteAbort
+- CcMdlWriteAbort
 product:
 - Windows
 targetos: Windows

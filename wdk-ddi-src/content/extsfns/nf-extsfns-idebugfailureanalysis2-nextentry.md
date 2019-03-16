@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.NextEntry
-title: IDebugFailureAnalysis2::NextEntry
+title: IDebugFailureAnalysis2::NextEntry (extsfns.h)
 description: The NextEntry method gets the next FA entry, after a given FA entry, in a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_nextentry.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	IDebugFailureAnalysis2.NextEntry
+- IDebugFailureAnalysis2.NextEntry
 product:
 - Windows
 targetos: Windows

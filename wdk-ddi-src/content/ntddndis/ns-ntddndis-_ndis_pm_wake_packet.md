@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_WAKE_PACKET
-title: "_NDIS_PM_WAKE_PACKET"
+title: _NDIS_PM_WAKE_PACKET (ntddndis.h)
 description: The NDIS_PM_WAKE_PACKET structure describes a network packet (known as a wake packet) that caused the network adapter to generate a wake-up event.
 old-location: netvista\ndis_pm_wake_packet.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_PM_WAKE_PACKET
+- NDIS_PM_WAKE_PACKET
 product:
 - Windows
 targetos: Windows

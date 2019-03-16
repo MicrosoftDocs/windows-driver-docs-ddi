@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYRASTERIZERSTATE
-title: PFND3D10DDI_DESTROYRASTERIZERSTATE
+title: PFND3D10DDI_DESTROYRASTERIZERSTATE (d3d10umddi.h)
 description: The DestroyRasterizerState function destroys the specified rasterizer state object. The rasterizer state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyrasterizerstate.htm
 ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	DestroyRasterizerState
+- DestroyRasterizerState
 product:
 - Windows
 targetos: Windows

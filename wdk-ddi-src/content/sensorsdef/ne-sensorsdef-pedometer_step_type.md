@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.PEDOMETER_STEP_TYPE
-title: PEDOMETER_STEP_TYPE
+title: PEDOMETER_STEP_TYPE (sensorsdef.h)
 description: This enumeration represents the step types reported by the pedometer.
 old-location: sensors\pedometer_step_type.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	PEDOMETER_STEP_TYPE
+- PEDOMETER_STEP_TYPE
 product:
 - Windows
 targetos: Windows

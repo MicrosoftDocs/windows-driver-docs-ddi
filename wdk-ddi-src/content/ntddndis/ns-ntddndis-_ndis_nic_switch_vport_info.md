@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VPORT_INFO
-title: "_NDIS_NIC_SWITCH_VPORT_INFO"
+title: _NDIS_NIC_SWITCH_VPORT_INFO (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VPORT_INFO structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter.
 old-location: netvista\ndis_nic_switch_vport_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_NIC_SWITCH_VPORT_INFO
+- NDIS_NIC_SWITCH_VPORT_INFO
 product:
 - Windows
 targetos: Windows

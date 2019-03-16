@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.INITIATE_OFFLOAD_COMPLETE_HANDLER
-title: INITIATE_OFFLOAD_COMPLETE_HANDLER
+title: INITIATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolInitiateOffloadComplete function to complete an offload operation that the driver previously initiated by calling the NdisInitiateOffload function.
 old-location: netvista\protocolinitiateoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolInitiateOffloadComplete
+- ProtocolInitiateOffloadComplete
 product:
 - Windows
 targetos: Windows

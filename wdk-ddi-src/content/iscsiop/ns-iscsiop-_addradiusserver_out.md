@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddRADIUSServer_OUT
-title: "_AddRADIUSServer_OUT"
+title: _AddRADIUSServer_OUT (iscsiop.h)
 description: The AddRADIUSServer_OUT structure holds the output data for the AddRADIUSServer method.
 old-location: storage\addradiusserver_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	AddRADIUSServer_OUT
+- AddRADIUSServer_OUT
 product:
 - Windows
 targetos: Windows

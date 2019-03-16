@@ -1,6 +1,6 @@
 ---
 UID: NC:usbpmapi.EVT_USBPM_EVENT_CALLBACK
-title: EVT_USBPM_EVENT_CALLBACK
+title: EVT_USBPM_EVENT_CALLBACK (usbpmapi.h)
 description: Sends notifications about hub arrival/removal and connector state changes.
 ms.assetid: 5b0fd114-b3ee-484e-9d4f-f8eb4b07d6ca
 ms.date: 09/30/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	EVT_USBPM_EVENT_CALLBACK
-product: Windows
+- EVT_USBPM_EVENT_CALLBACK
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

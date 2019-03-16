@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_AdapterReceivePacket
-title: USBCAMD_AdapterReceivePacket function
+title: USBCAMD_AdapterReceivePacket function (usbcamdi.h)
 description: The USBCAMD_AdapterReceivePacket function allows USBCAMD to process an adapter-based stream request block (SRB).
 old-location: stream\usbcamd_adapterreceivepacket.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Usbcamd2.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbcamd2.lib
--	usbcamd2.dll
+- usbcamd2.lib
+- usbcamd2.dll
 api_name:
--	USBCAMD_AdapterReceivePacket
+- USBCAMD_AdapterReceivePacket
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMIndicateStatusEx
-title: NdisMIndicateStatusEx function
+title: NdisMIndicateStatusEx function (ndis.h)
 description: The NdisMIndicateStatusEx function reports a change in the status of a miniport adapter.
 old-location: netvista\ndismindicatestatusex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMIndicateStatusEx
+- NdisMIndicateStatusEx
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_CS_SAMPLER_CB
-title: PFND3D11DDI_STATE_CS_SAMPLER_CB
+title: PFND3D11DDI_STATE_CS_SAMPLER_CB (d3d10umddi.h)
 description: The pfnStateCsSamplerCb function causes the Microsoft Direct3D 11 runtime to refresh the compute shader sample state.
 old-location: display\pfnstatecssamplercb.htm
 ms.assetid: f041a99b-73d7-4fc4-8530-c94d6bbd1f03
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	pfnStateCsSamplerCb
+- pfnStateCsSamplerCb
 product:
 - Windows
 targetos: Windows

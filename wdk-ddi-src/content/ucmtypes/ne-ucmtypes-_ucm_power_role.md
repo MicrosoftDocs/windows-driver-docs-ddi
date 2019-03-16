@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_POWER_ROLE
-title: "_UCM_POWER_ROLE"
+title: _UCM_POWER_ROLE (ucmtypes.h)
 description: Defines power roles of USB Type-C connected devices.
 old-location: buses\ucm_power_role.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_POWER_ROLE
+- UCM_POWER_ROLE
 product:
 - Windows
 targetos: Windows

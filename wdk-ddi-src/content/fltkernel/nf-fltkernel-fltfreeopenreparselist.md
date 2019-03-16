@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeOpenReparseList
-title: FltFreeOpenReparseList function
+title: FltFreeOpenReparseList function (fltkernel.h)
 description: This routine deallocates any information copied into a create operation by a previous call to FltCopyOpenReparseList.
 old-location: ifsk\fltfreeopenreparselist.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltKernel.h
+- fltKernel.h
 api_name:
--	FltAddOpenReparseEntry
+- FltAddOpenReparseEntry
 product:
 - Windows
 targetos: Windows

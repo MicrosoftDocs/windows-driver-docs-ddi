@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_PROBED_BARS_INFO
-title: "_NDIS_SRIOV_PROBED_BARS_INFO"
+title: _NDIS_SRIOV_PROBED_BARS_INFO (ntddndis.h)
 description: The NDIS_SRIOV_PROBED_BARS_INFO structure specifies the values of the PCI Express (PCIe) Base Address Registers (BARs) of a network adapter that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: netvista\ndis_sriov_probed_bars_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SRIOV_PROBED_BARS_INFO
+- NDIS_SRIOV_PROBED_BARS_INFO
 product:
 - Windows
 targetos: Windows

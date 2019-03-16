@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_PARK_STATE
-title: "_PEP_PROCESSOR_PARK_STATE"
+title: _PEP_PROCESSOR_PARK_STATE (pep_x.h)
 description: The PEP_PROCESSOR_PARK_STATE structure describes the parking state for a single processor.
 old-location: kernel\pep_processor_park_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PROCESSOR_PARK_STATE
+- PEP_PROCESSOR_PARK_STATE
 product:
 - Windows
 targetos: Windows

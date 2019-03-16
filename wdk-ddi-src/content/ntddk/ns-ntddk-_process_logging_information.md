@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_LOGGING_INFORMATION
-title: _PROCESS_LOGGING_INFORMATION
+title: _PROCESS_LOGGING_INFORMATION (ntddk.h)
 description: Do not use.
 tech.root: kernel 
 ms.assetid: 8ef47a1f-40ab-436b-9cef-c81124997c1a
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PROCESS_LOGGING_INFORMATION, *PPROCESS_LOGGING_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PROCESS_LOGGING_INFORMATION
-product: Windows
+- _PROCESS_LOGGING_INFORMATION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

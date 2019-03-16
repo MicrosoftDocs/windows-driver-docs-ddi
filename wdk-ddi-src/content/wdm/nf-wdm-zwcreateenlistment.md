@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateEnlistment
-title: ZwCreateEnlistment function
+title: ZwCreateEnlistment function (wdm.h)
 description: The ZwCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\zwcreateenlistment.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateEnlistment
--	NtCreateEnlistment
+- ZwCreateEnlistment
+- NtCreateEnlistment
 product:
 - Windows
 targetos: Windows

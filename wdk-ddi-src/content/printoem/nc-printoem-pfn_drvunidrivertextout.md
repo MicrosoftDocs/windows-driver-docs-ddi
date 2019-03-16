@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvUnidriverTextOut
-title: PFN_DrvUnidriverTextOut
+title: PFN_DrvUnidriverTextOut (printoem.h)
 description: The DrvUnidriverTextOut function is obsolete.
 old-location: print\drvunidrivertextout.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	PFN_DrvUnidriverTextOut
+- PFN_DrvUnidriverTextOut
 product:
 - Windows
 targetos: Windows

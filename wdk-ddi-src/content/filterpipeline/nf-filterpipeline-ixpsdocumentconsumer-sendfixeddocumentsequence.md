@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendFixedDocumentSequence
-title: IXpsDocumentConsumer::SendFixedDocumentSequence
+title: IXpsDocumentConsumer::SendFixedDocumentSequence (filterpipeline.h)
 description: The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendfixeddocumentsequence.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IXpsDocumentConsumer.SendFixedDocumentSequence
+- IXpsDocumentConsumer.SendFixedDocumentSequence
 product:
 - Windows
 targetos: Windows

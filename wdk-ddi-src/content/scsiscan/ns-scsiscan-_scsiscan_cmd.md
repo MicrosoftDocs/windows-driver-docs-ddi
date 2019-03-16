@@ -1,6 +1,6 @@
 ---
 UID: NS:scsiscan._SCSISCAN_CMD
-title: "_SCSISCAN_CMD"
+title: _SCSISCAN_CMD (scsiscan.h)
 description: The SCSISCAN_CMD structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SCSISCAN_CMD.
 old-location: image\scsiscan_cmd.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiscan.h
+- scsiscan.h
 api_name:
--	SCSISCAN_CMD
+- SCSISCAN_CMD
 product:
 - Windows
 targetos: Windows

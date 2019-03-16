@@ -1,6 +1,6 @@
 ---
 UID: NE:ntpoapi.__unnamed_enum_2
-title: POWER_INFORMATION_LEVEL
+title: POWER_INFORMATION_LEVEL (ntpoapi.h)
 description: Indicates power level information.
 old-location: kernel\power_information_level.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	POWER_INFORMATION_LEVEL
+- POWER_INFORMATION_LEVEL
 product:
 - Windows
 targetos: Windows

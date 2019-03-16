@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetCompletedRequestType
-title: IWDFRequestCompletionParams::GetCompletedRequestType
+title: IWDFRequestCompletionParams::GetCompletedRequestType (wudfddi.h)
 description: The GetCompletedRequestType method retrieves the type of operation that the request to be completed contains.
 old-location: wdf\iwdfrequestcompletionparams_getcompletedrequesttype.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRequestCompletionParams.GetCompletedRequestType
+- IWDFRequestCompletionParams.GetCompletedRequestType
 product:
 - Windows
 targetos: Windows

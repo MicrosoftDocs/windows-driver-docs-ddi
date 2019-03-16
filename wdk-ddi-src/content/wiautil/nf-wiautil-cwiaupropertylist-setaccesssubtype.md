@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetAccessSubType
-title: CWiauPropertyList::SetAccessSubType method
+title: CWiauPropertyList::SetAccessSubType method (wiautil.h)
 description: The CWiauPropertyList::SetAccessSubType method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.SetAccessSubType
+- CWiauPropertyList.SetAccessSubType
 product:
 - Windows
 targetos: Windows

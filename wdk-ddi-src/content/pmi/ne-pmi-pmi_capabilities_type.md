@@ -1,6 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_0
-title: PMI_CAPABILITIES_TYPE
+title: PMI_CAPABILITIES_TYPE (pmi.h)
 description: The PMI_CAPABILITIES_TYPE enumeration defines the type of capabilities data that is referenced by the Capability member of the PMI_CAPABILITIES structure.
 old-location: powermeter\pmi_capabilities_type.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_CAPABILITIES_TYPE
+- PMI_CAPABILITIES_TYPE
 product:
 - Windows
 targetos: Windows

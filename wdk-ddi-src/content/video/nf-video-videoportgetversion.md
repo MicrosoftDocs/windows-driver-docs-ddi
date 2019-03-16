@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetVersion
-title: VideoPortGetVersion function
+title: VideoPortGetVersion function (video.h)
 description: The VideoPortGetVersion function gets version information about the currently running operating system.
 old-location: display\videoportgetversion.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetVersion
+- VideoPortGetVersion
 product:
 - Windows
 targetos: Windows

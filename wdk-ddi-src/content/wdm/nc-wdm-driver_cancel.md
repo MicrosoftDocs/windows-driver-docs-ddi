@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_CANCEL
-title: DRIVER_CANCEL
+title: DRIVER_CANCEL (wdm.h)
 description: The Cancel routine cancels an I/O operation.
 old-location: kernel\cancel.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	Cancel
+- Cancel
 product:
 - Windows
 targetos: Windows

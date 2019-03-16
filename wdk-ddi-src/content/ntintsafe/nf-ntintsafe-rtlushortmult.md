@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortMult
-title: RtlUShortMult function
+title: RtlUShortMult function (ntintsafe.h)
 description: Multiplies one value of type USHORT by another.
 old-location: kernel\rtlushortmult.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlUShortMult
+- RtlUShortMult
 product:
 - Windows
 targetos: Windows

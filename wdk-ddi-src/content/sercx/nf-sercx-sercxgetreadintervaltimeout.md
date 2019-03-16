@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetReadIntervalTimeout
-title: SerCxGetReadIntervalTimeout function
+title: SerCxGetReadIntervalTimeout function (sercx.h)
 description: The SerCxGetReadIntervalTimeout method returns the interval time-out value for a read (receive) operation.
 old-location: serports\sercxgetreadintervaltimeout.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxGetReadIntervalTimeout
+- SerCxGetReadIntervalTimeout
 product:
 - Windows
 targetos: Windows

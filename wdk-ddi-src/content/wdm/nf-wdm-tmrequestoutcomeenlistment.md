@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRequestOutcomeEnlistment
-title: TmRequestOutcomeEnlistment function
+title: TmRequestOutcomeEnlistment function (wdm.h)
 description: The TmRequestOutcomeEnlistment routine asks KTM to try to provide an immediate outcome (commit or rollback) for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrequestoutcomeenlistment.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- NtosKrnl.exe
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmRequestOutcomeEnlistment
+- TmRequestOutcomeEnlistment
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbDeviceInitConfig
-title: MbbDeviceInitConfig function
+title: MbbDeviceInitConfig function (mbbcx.h)
 description: The MBBDeviceInitConfig method initializes MBBCx device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 tech.root: netvista
 ms.assetid: c4998ab1-28f7-44d3-83ef-e6f303ff6279
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MbbDeviceInitConfig
+- MbbDeviceInitConfig
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._REASSIGN_BLOCKS_EX
-title: "_REASSIGN_BLOCKS_EX"
+title: _REASSIGN_BLOCKS_EX (ntdddisk.h)
 description: The REASSIGN_BLOCKS_EX structure is used in conjunction with the IOCTL_DISK_REASSIGN_BLOCKS_EX request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 old-location: storage\reassign_blocks_ex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	REASSIGN_BLOCKS_EX
+- REASSIGN_BLOCKS_EX
 product:
 - Windows
 targetos: Windows

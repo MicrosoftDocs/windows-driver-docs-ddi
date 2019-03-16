@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CLEARVIEW
-title: PFND3D11_1DDI_CLEARVIEW
+title: PFND3D11_1DDI_CLEARVIEW (d3d10umddi.h)
 description: Sets all the elements in a resource view to one value. A resource view is a surface descriptor that indicates a format and possibly a subset of the resource.
 old-location: display\clearview.htm
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	ClearView
+- ClearView
 product:
 - Windows
 targetos: Windows

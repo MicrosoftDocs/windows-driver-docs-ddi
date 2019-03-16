@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LIST_HEADER
-title: "_WWAN_LIST_HEADER"
+title: _WWAN_LIST_HEADER (wwan.h)
 description: The WWAN_LIST_HEADER structure represents the header of a list of MB objects, including the number of objects in the list that follow the header in memory.
 old-location: netvista\wwan_list_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_LIST_HEADER
+- WWAN_LIST_HEADER
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReclaimAllocations
-title: D3DKMTReclaimAllocations function
+title: D3DKMTReclaimAllocations function (d3dkmthk.h)
 description: Reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations.htm
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTReclaimAllocations
+- D3DKMTReclaimAllocations
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostSymbolEnumerator
-title: IDebugHostSymbolEnumerator
+title: IDebugHostSymbolEnumerator (dbgmodel.h)
 description: An enumerator which runs through children of a symbol.
 ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbolEnumerator
-product: Windows
+- IDebugHostSymbolEnumerator
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

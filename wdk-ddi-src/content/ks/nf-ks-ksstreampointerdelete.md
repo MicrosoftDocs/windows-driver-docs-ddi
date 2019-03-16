@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerDelete
-title: KsStreamPointerDelete function
+title: KsStreamPointerDelete function (ks.h)
 description: The KsStreamPointerDelete function deletes a clone stream pointer, releasing a reference on the frame to which this stream pointer referred.
 old-location: stream\ksstreampointerdelete.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerDelete
+- KsStreamPointerDelete
 product:
 - Windows
 targetos: Windows

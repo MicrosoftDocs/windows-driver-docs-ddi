@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseResourceForThreadLite
-title: ExReleaseResourceForThreadLite function
+title: ExReleaseResourceForThreadLite function (wdm.h)
 description: The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread.
 old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExReleaseResourceForThreadLite
+- ExReleaseResourceForThreadLite
 product:
 - Windows
 targetos: Windows

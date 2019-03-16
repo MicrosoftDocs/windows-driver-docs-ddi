@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYHEAPANDRESOURCE
-title: PFND3D12DDI_DESTROYHEAPANDRESOURCE
+title: PFND3D12DDI_DESTROYHEAPANDRESOURCE (d3d12umddi.h)
 description: Destroy heap and resource.
 ms.assetid: 12c5cdc3-981a-4a34-af3c-b62ff7872877
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROYHEAPANDRESOURCE
+- PFND3D12DDI_DESTROYHEAPANDRESOURCE
 product: 
 - Windows
 targetos: Windows

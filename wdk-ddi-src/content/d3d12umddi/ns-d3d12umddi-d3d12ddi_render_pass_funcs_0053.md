@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_FUNCS_0053
-title: D3D12DDI_RENDER_PASS_FUNCS_0053
+title: D3D12DDI_RENDER_PASS_FUNCS_0053 (d3d12umddi.h)
 description: Callback functions used to begin and end a Render Pass.
 ms.assetid: ab8673e4-9631-43bb-ab56-79b2c65019ee
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_RENDER_PASS_FUNCS_0053
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RENDER_PASS_FUNCS_0053
+- D3D12DDI_RENDER_PASS_FUNCS_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

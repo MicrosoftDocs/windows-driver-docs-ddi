@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeQuerySubjectContextToken
-title: SeQuerySubjectContextToken macro
+title: SeQuerySubjectContextToken macro (ntifs.h)
 description: The SeQuerySubjectContextToken macro retrieves the access token for a security subject context.
 old-location: ifsk\sequerysubjectcontexttoken.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SeQuerySubjectContextToken
+- SeQuerySubjectContextToken
 product:
 - Windows
 targetos: Windows

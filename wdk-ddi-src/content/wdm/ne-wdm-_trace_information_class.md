@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRACE_INFORMATION_CLASS
-title: "_TRACE_INFORMATION_CLASS"
+title: _TRACE_INFORMATION_CLASS (wdm.h)
 description: The TRACE_INFORMATION_CLASS enumeration type is used to indicate types of information associated with a WMI event tracing session.
 old-location: kernel\trace_information_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	TRACE_INFORMATION_CLASS
+- TRACE_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetUnnamedArgU64
-title: ExtExtension::GetUnnamedArgU64
+title: ExtExtension::GetUnnamedArgU64 (engextcpp.h)
 description: The GetUnnamedArgU64 method returns the value of an unnamed expression argument from the command line used to invoke the current extension command.
 old-location: debugger\getunnamedargu64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtExtension.GetUnnamedArgU64
+- ExtExtension.GetUnnamedArgU64
 product:
 - Windows
 targetos: Windows

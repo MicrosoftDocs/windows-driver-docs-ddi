@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_6
-title: KS_SEEKING_CAPABILITIES
+title: KS_SEEKING_CAPABILITIES (ks.h)
 description: 
 old-location: stream\ks_seeking_capabilities.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KS_SEEKING_CAPABILITIES
+- KS_SEEKING_CAPABILITIES
 product:
 - Windows
 targetos: Windows

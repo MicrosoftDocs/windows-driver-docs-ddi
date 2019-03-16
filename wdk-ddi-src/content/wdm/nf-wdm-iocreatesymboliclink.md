@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateSymbolicLink
-title: IoCreateSymbolicLink function
+title: IoCreateSymbolicLink function (wdm.h)
 description: The IoCreateSymbolicLink routine sets up a symbolic link between a device object name and a user-visible name for the device.
 old-location: kernel\iocreatesymboliclink.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoCreateSymbolicLink
+- IoCreateSymbolicLink
 product:
 - Windows
 targetos: Windows

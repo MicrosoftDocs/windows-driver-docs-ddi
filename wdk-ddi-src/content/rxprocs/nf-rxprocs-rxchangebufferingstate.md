@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxChangeBufferingState
-title: RxChangeBufferingState function
+title: RxChangeBufferingState function (rxprocs.h)
 description: RxChangeBufferingState is called to process a buffering state change request.
 old-location: ifsk\rxchangebufferingstate.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxprocs.h
+- rxprocs.h
 api_name:
--	RxChangeBufferingState
+- RxChangeBufferingState
 product:
 - Windows
 targetos: Windows

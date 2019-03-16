@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeGetInformation
-title: WdfUsbTargetPipeGetInformation function
+title: WdfUsbTargetPipeGetInformation function (wdfusb.h)
 description: The WdfUsbTargetPipeGetInformation method retrieves information about a USB pipe and its endpoint.
 old-location: wdf\wdfusbtargetpipegetinformation.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfUsbTargetPipeGetInformation
+- WdfUsbTargetPipeGetInformation
 product:
 - Windows
 targetos: Windows

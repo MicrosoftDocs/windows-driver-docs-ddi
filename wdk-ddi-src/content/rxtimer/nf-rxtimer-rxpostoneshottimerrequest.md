@@ -1,6 +1,6 @@
 ---
 UID: NF:rxtimer.RxPostOneShotTimerRequest
-title: RxPostOneShotTimerRequest function
+title: RxPostOneShotTimerRequest function (rxtimer.h)
 description: RxPostOneShotTimerRequest initializes a one-shot timer entry. The passed-in pointer to a worker thread routine is called once when the timer expires.
 old-location: ifsk\rxpostoneshottimerrequest.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxtimer.h
+- rxtimer.h
 api_name:
--	RxPostOneShotTimerRequest
+- RxPostOneShotTimerRequest
 product:
 - Windows
 targetos: Windows

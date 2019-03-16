@@ -1,6 +1,6 @@
 ---
 UID: NF:usbpmapi.UsbPm_RetrieveHubConnectorHandles
-title: UsbPm_RetrieveHubConnectorHandles function
+title: UsbPm_RetrieveHubConnectorHandles function (usbpmapi.h)
 description: Retrieves connector handles for all connectors of a hub. 
 ms.assetid: 0c55cc80-ab9d-4302-b350-7c673f9d4abf
 ms.date: 09/30/2018
@@ -25,14 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UsbPmApi.lib
+- UsbPmApi.lib
 api_name: 
--	UsbPm_RetrieveHubConnectorHandles
-product: Windows
+- UsbPm_RetrieveHubConnectorHandles
+product:
+- Windows
 targetos: Windows
 
 

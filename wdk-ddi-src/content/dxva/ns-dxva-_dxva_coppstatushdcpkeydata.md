@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusHDCPKeyData
-title: "_DXVA_COPPStatusHDCPKeyData"
+title: _DXVA_COPPStatusHDCPKeyData (dxva.h)
 description: The DXVA_COPPStatusHDCPKeyData structure describes a High-bandwidth Digital Content Protection (HDCP) receiver or repeater key selection vector (KSV).
 old-location: display\dxva_coppstatushdcpkeydata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_COPPStatusHDCPKeyData
+- DXVA_COPPStatusHDCPKeyData
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_PORT_UCHAR
-title: WRITE_PORT_UCHAR function
+title: WRITE_PORT_UCHAR function (wudfddi_hwaccess.h)
 description: The WRITE_PORT_UCHAR function writes a byte to the specified port address.
 old-location: wdf\write_port_uchar.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_PORT_UCHAR
+- WRITE_PORT_UCHAR
 product:
 - Windows
 targetos: Windows

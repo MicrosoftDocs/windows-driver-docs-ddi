@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCK2CB
-title: PFND3DDDI_LOCK2CB
+title: PFND3DDDI_LOCK2CB (d3dumddi.h)
 description: The pfnLock2Cb function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager.
 old-location: display\pfnlock2cb.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	pfnLock2Cb
+- pfnLock2Cb
 product:
 - Windows
 targetos: Windows

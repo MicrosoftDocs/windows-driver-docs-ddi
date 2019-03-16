@@ -1,6 +1,6 @@
 ---
 UID: NN:drmk.IDrmAudioStream
-title: IDrmAudioStream
+title: IDrmAudioStream (drmk.h)
 description: The IDrmAudioStream interface assigns DRM protection to the digital content in an audio stream.
 old-location: audio\idrmaudiostream.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	IDrmAudioStream
+- IDrmAudioStream
 product:
 - Windows
 targetos: Windows

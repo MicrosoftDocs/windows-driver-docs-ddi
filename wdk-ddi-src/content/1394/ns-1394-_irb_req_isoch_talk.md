@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_TALK
-title: "_IRB_REQ_ISOCH_TALK"
+title: _IRB_REQ_ISOCH_TALK (1394.h)
 description: This structure contains the field necessary to carry out a IsochTalk request.
 old-location: ieee\irb_req_isoch_talk.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_ISOCH_TALK
+- IRB_REQ_ISOCH_TALK
 product:
 - Windows
 targetos: Windows

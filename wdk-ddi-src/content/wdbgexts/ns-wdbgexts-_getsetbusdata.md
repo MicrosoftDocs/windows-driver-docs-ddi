@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._GETSETBUSDATA
-title: "_GETSETBUSDATA"
+title: _GETSETBUSDATA (wdbgexts.h)
 description: The IG_GET_BUS_DATA Ioctl operation reads data from a system bus and the IG_SET_BUS_DATA Ioctl operation writes data to a system bus.
 old-location: debugger\ig_get_bus_data.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	BUSDATA
+- BUSDATA
 product:
 - Windows
 targetos: Windows

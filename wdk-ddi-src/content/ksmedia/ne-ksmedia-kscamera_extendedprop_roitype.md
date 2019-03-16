@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_88
-title: KSCAMERA_EXTENDEDPROP_ROITYPE
+title: KSCAMERA_EXTENDEDPROP_ROITYPE (ksmedia.h)
 description: This enumeration contains the ROI types.
 old-location: stream\kscamera_extendedprop_roitype.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROITYPE
+- KSCAMERA_EXTENDEDPROP_ROITYPE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorsdriversutils._I2C_REQUEST
-title: _I2C_REQUEST
+title: _I2C_REQUEST (sensorsdriversutils.h)
 description: An I2C request.
 ms.assetid: 6c58320f-2dee-43a2-acbf-f0233f3eb6fd
 ms.date: 04/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: I2C_REQUEST, *PI2C_REQUEST
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sensorsdriversutils.h
+- sensorsdriversutils.h
 api_name:
--	_I2C_REQUEST
+- _I2C_REQUEST
 product: 
 - Windows
 targetos: Windows

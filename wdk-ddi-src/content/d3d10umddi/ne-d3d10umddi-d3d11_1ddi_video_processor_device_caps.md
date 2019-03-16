@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS (d3d10umddi.h)
 description: Defines video processing capabilities for a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_device_caps.htm
 ms.assetid: ce2bdf90-45c1-4a4b-bc6e-276536460324
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
+- D3D11_1DDI_VIDEO_PROCESSOR_DEVICE_CAPS
 product:
 - Windows
 targetos: Windows

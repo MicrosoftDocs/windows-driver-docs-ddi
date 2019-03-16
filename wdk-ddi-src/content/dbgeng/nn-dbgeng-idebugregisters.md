@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugRegisters
-title: IDebugRegisters
+title: IDebugRegisters (dbgeng.h)
 description: IDebugRegisters interface
 old-location: debugger\idebugregisters.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters
+- IDebugRegisters
 product:
 - Windows
 targetos: Windows

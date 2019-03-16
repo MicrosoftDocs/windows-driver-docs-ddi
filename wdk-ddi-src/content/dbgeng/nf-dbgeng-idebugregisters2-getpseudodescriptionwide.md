@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoDescriptionWide
-title: IDebugRegisters2::GetPseudoDescriptionWide
+title: IDebugRegisters2::GetPseudoDescriptionWide (dbgeng.h)
 description: The GetPseudoDescriptionWide method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescriptionwide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugRegisters2.GetPseudoDescriptionWide
+- IDebugRegisters2.GetPseudoDescriptionWide
 product:
 - Windows
 targetos: Windows

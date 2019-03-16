@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_RECEIVE_NET_BUFFER_LISTS
-title: FILTER_RECEIVE_NET_BUFFER_LISTS
+title: FILTER_RECEIVE_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the FilterReceiveNetBufferLists function to request a filter driver to process a receive indication.Note  You must declare the function by using the FILTER_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\filterreceivenetbufferlists.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	FilterReceiveNetBufferLists
+- FilterReceiveNetBufferLists
 product:
 - Windows
 targetos: Windows

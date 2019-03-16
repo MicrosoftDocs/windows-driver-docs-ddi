@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAllocateNetBufferAndNetBufferList0
-title: FwpsAllocateNetBufferAndNetBufferList0 function
+title: FwpsAllocateNetBufferAndNetBufferList0 function (fwpsk.h)
 description: The FwpsAllocateNetBufferAndNetBufferList0 function allocates a new NET_BUFFER_LIST structure.Note  FwpsAllocateNetBufferAndNetBufferList0 is a specific version of FwpsAllocateNetBufferAndNetBufferList.
 old-location: netvista\fwpsallocatenetbufferandnetbufferlist0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsAllocateNetBufferAndNetBufferList0
+- FwpsAllocateNetBufferAndNetBufferList0
 product:
 - Windows
 targetos: Windows

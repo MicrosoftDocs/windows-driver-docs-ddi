@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETFORMATDATA
-title: "_DD_GETFORMATDATA"
+title: _DD_GETFORMATDATA (d3dhal.h)
 description: DD_GETFORMATDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMAT.
 old-location: display\dd_getformatdata.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	DD_GETFORMATDATA
+- DD_GETFORMATDATA
 product:
 - Windows
 targetos: Windows

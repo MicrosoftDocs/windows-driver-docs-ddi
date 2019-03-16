@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS
-title: "_BDA_ETHERNET_ADDRESS"
+title: _BDA_ETHERNET_ADDRESS (bdatypes.h)
 description: 
 old-location: stream\bda_ethernet_address.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_ETHERNET_ADDRESS
+- BDA_ETHERNET_ADDRESS
 product:
 - Windows
 targetos: Windows

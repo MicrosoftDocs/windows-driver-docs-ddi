@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_14
-title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
+title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS (ks.h)
 description: 
 old-location: stream\ksevent_pincaps_changenotifications.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSEVENT_PINCAPS_CHANGENOTIFICATIONS
+- KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 product:
 - Windows
 targetos: Windows

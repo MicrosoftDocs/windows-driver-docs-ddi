@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsInterfaceHandler.KsSetPin
-title: IKsInterfaceHandler::KsSetPin
+title: IKsInterfaceHandler::KsSetPin (ksproxy.h)
 description: The KsSetPin method informs the streaming interface handler about the pin with which to communicate when passing data.
 old-location: stream\iksinterfacehandler_kssetpin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsInterfaceHandler.KsSetPin
+- IKsInterfaceHandler.KsSetPin
 product:
 - Windows
 targetos: Windows

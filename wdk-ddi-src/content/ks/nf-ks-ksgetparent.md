@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetParent
-title: KsGetParent function
+title: KsGetParent function (ks.h)
 description: The KsGetParent function acquires the parent of the given object.
 old-location: stream\ksgetparent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsGetParent
+- KsGetParent
 product:
 - Windows
 targetos: Windows

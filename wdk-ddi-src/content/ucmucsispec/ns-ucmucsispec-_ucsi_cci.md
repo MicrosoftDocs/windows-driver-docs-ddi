@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_CCI
-title: _UCSI_CCI
+title: _UCSI_CCI (ucmucsispec.h)
 tech.root: usbref
 description: Used in GET_CONNECTOR_CAPABILITY command. See Table 4-16.
 ms.assetid: 85084e92-dcf2-4f51-a26f-3616d949e92b
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_CCI, *PUCSI_CCI
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_CCI
-product: Windows
+- _UCSI_CCI
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

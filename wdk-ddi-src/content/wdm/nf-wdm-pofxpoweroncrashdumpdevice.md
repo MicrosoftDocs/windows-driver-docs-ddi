@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxPowerOnCrashdumpDevice
-title: PoFxPowerOnCrashdumpDevice function
+title: PoFxPowerOnCrashdumpDevice function (wdm.h)
 description: The PoFxPowerOnCrashdumpDevice routine requests that a crash-dump device be turned on.
 old-location: kernel\pofxpoweroncrashdumpdevice.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= HIGH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	PoFxPowerOnCrashdumpDevice
+- PoFxPowerOnCrashdumpDevice
 product:
 - Windows
 targetos: Windows

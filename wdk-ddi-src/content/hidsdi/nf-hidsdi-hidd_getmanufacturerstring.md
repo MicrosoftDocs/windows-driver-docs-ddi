@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetManufacturerString
-title: HidD_GetManufacturerString function
+title: HidD_GetManufacturerString function (hidsdi.h)
 description: The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer.
 old-location: hid\hidd_getmanufacturerstring.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib: Hid.lib
 req.dll: Hid.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hid.dll
+- Hid.dll
 api_name:
--	HidD_GetManufacturerString
+- HidD_GetManufacturerString
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_28
-title: KSPIN_CINSTANCES
+title: KSPIN_CINSTANCES (ks.h)
 description: 
 old-location: stream\kspin_cinstances.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSPIN_CINSTANCES
+- KSPIN_CINSTANCES
 product:
 - Windows
 targetos: Windows

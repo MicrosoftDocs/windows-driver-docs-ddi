@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEndTrackedWorkload
-title: D3DKMTEndTrackedWorkload function
+title: D3DKMTEndTrackedWorkload function (d3dkmthk.h)
 description: Called when the tracked workload commands are done.
 ms.assetid: a95a7079-febc-4f40-abc8-65c0fc0e6363
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTEndTrackedWorkload
+- D3DKMTEndTrackedWorkload
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 

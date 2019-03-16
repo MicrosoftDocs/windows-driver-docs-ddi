@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_NIT_RANGE
-title: _DXGK_BRIGHTNESS_NIT_RANGE
+title: _DXGK_BRIGHTNESS_NIT_RANGE (d3dkmdt.h)
 description: This structure represents a linear range of supported millinit levels.
 ms.assetid: 39ca173d-97a6-4eb3-bb6c-436801c56d1b
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_NIT_RANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_NIT_RANGE
+- _DXGK_BRIGHTNESS_NIT_RANGE
 product: 
 - Windows
 targetos: Windows

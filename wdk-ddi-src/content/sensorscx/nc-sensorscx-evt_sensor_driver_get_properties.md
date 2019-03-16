@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_GET_PROPERTIES
-title: EVT_SENSOR_DRIVER_GET_PROPERTIES
+title: EVT_SENSOR_DRIVER_GET_PROPERTIES (sensorscx.h)
 description: This callback function returns the properties for a given sensor.
 old-location: sensors\evtsensorgetproperties.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorGetProperties
+- EvtSensorGetProperties
 product:
 - Windows
 targetos: Windows

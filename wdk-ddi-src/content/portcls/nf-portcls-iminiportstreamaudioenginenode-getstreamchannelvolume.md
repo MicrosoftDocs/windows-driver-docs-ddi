@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelVolume
-title: IMiniportStreamAudioEngineNode::GetStreamChannelVolume
+title: IMiniportStreamAudioEngineNode::GetStreamChannelVolume (portcls.h)
 description: Gets the current volume level that is applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelvolume.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.GetStreamChannelVolume
+- IMiniportStreamAudioEngineNode.GetStreamChannelVolume
 product:
 - Windows
 targetos: Windows

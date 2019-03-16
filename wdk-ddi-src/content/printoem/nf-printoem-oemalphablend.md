@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMAlphaBlend
-title: OEMAlphaBlend function
+title: OEMAlphaBlend function (printoem.h)
 description: OEMAlphaBlend function
 old-location: print\oemalphablend.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMAlphaBlend
+- OEMAlphaBlend
 product:
 - Windows
 targetos: Windows

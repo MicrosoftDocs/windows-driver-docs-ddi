@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_OPEN_STRUCT
-title: "_AVCSTRM_OPEN_STRUCT"
+title: _AVCSTRM_OPEN_STRUCT (avcstrm.h)
 description: The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
 old-location: stream\avcstrm_open_struct.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVCSTRM_OPEN_STRUCT
+- AVCSTRM_OPEN_STRUCT
 product:
 - Windows
 targetos: Windows

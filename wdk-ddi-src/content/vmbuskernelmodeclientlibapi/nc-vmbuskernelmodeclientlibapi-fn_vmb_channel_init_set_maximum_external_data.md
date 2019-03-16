@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
-title: FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
+title: FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelInitSetMaximumExternalData function sets the maximum size and chain length of data that is described by a packet, but not directly sent in the packet. That is, the maximum size of the buffer described by an ExternalDataMdl.
 tech.root: netvista
 ms.assetid: 09e113ef-d1a5-444a-99c9-06a2a46c9734
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
+- FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

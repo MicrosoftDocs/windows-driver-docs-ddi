@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrW2W
-title: wiauStrW2W function
+title: wiauStrW2W function (wiautil.h)
 description: The wiauStrW2W function copies a Unicode string to another Unicode string.
 old-location: image\wiaustrw2w.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiautil.h
+- wiautil.h
 api_name:
--	wiauStrW2W
+- wiauStrW2W
 product:
 - Windows
 targetos: Windows

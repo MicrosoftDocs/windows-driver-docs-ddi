@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_FLAGS_0003
-title: D3D12DDI_RESOURCE_FLAGS_0003
+title: D3D12DDI_RESOURCE_FLAGS_0003 (d3d12umddi.h)
 description: Specifies resource flag values.
 old-location: display\d3d12ddi_resource_flags_0003.htm
 ms.assetid: 595A4177-4A18-48D6-8B5C-D7D2FBD9FE9B
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_FLAGS_0003
+- D3D12DDI_RESOURCE_FLAGS_0003
 product:
 - Windows
 targetos: Windows

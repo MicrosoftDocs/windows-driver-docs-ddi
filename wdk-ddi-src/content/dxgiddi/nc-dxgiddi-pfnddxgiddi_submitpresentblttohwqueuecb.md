@@ -1,6 +1,6 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
-title: PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
+title: PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB (dxgiddi.h)
 description: Implemented by the client driver to submit a present Blt to hardware queue.
 ms.assetid: 3341a253-26f4-4897-a3c0-c66f37288b44
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
+- PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 product: 
 - Windows
 targetos: Windows

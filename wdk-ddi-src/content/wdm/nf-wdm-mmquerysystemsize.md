@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmQuerySystemSize
-title: MmQuerySystemSize function
+title: MmQuerySystemSize function (wdm.h)
 description: The MmQuerySystemSize routine returns an estimate of the amount of memory in the system.
 old-location: kernel\mmquerysystemsize.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmQuerySystemSize
+- MmQuerySystemSize
 product:
 - Windows
 targetos: Windows

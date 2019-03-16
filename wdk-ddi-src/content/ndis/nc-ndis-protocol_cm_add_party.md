@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_ADD_PARTY
-title: PROTOCOL_CM_ADD_PARTY
+title: PROTOCOL_CM_ADD_PARTY (ndis.h)
 description: The ProtocolCmAddParty function is a required function.
 old-location: netvista\protocolcmaddparty.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCmAddParty
+- ProtocolCmAddParty
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateSyntheticObject
-title: IDataModelManager::CreateSyntheticObject
+title: IDataModelManager::CreateSyntheticObject (dbgmodel.h)
 description: The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts.
 ms.assetid: 28363265-b92e-4dc2-92b8-47a2840c762f
 ms.date: 07/17/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager.CreateSyntheticObject
-product: Windows
+- IDataModelManager.CreateSyntheticObject
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

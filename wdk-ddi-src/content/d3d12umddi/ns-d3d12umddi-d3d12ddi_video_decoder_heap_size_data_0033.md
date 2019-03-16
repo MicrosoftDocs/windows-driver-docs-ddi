@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
-title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
+title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 (d3d12umddi.h)
 description: The video decoder heap size data.
 old-location: display\d3d12ddi-video-decoder-heap-size-data-0033.htm
 ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
+- D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 product:
 - Windows
 targetos: Windows

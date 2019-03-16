@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_11
-title: KSPROPERTY_STEPPING_LONG
+title: KSPROPERTY_STEPPING_LONG (ks.h)
 description: The KSPROPERTY_STEPPING_LONG structure defines the valid range of values for a 32-bit property.
 old-location: stream\ksproperty_stepping_long.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPROPERTY_STEPPING_LONG
+- KSPROPERTY_STEPPING_LONG
 product:
 - Windows
 targetos: Windows

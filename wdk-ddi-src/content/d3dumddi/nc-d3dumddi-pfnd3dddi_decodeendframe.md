@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEENDFRAME
-title: PFND3DDDI_DECODEENDFRAME
+title: PFND3DDDI_DECODEENDFRAME (d3dumddi.h)
 description: The DecodeEndFrame function notifies the user-mode display driver that all of the data that was required to decode the current frame was submitted.
 old-location: display\decodeendframe.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	DecodeEndFrame
+- DecodeEndFrame
 product:
 - Windows
 targetos: Windows

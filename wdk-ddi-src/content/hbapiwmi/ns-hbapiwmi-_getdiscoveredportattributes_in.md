@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_IN
-title: "_GetDiscoveredPortAttributes_IN"
+title: _GetDiscoveredPortAttributes_IN (hbapiwmi.h)
 description: The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the GetDiscoveredPortAttributes WMI method.
 old-location: storage\getdiscoveredportattributes_in.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetDiscoveredPortAttributes_IN
+- GetDiscoveredPortAttributes_IN
 product:
 - Windows
 targetos: Windows

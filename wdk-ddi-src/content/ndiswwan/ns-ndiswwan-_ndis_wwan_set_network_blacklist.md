@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_NETWORK_BLACKLIST
-title: _NDIS_WWAN_SET_NETWORK_BLACKLIST
+title: _NDIS_WWAN_SET_NETWORK_BLACKLIST (ndiswwan.h)
 description: The NDIS_WWAN_SET_NETWORK_BLACKLIST structure describes network blacklists that a mobile broadband (MBB) device should use to overwrite any existing blacklists in the modem.
 tech.root: netvista
 ms.assetid: 11ffe280-f068-4196-9dc9-85c20e0527b0
@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_SET_NETWORK_BLACKLIST, *PNDIS_WWAN_SET_NETWORK_BLACKLIST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_SET_NETWORK_BLACKLIST
+- _NDIS_WWAN_SET_NETWORK_BLACKLIST
 product: 
 - Windows
 targetos: Windows

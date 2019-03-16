@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DevQueryPrintEx
-title: DevQueryPrintEx function
+title: DevQueryPrintEx function (winddiui.h)
 description: A printer interface DLL's DevQueryPrintEx function determines if a specified print job is compatible with the printer's current configuration and can therefore be printed.
 old-location: print\devqueryprintex.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Winspool.lib
 req.dll: WinSpool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	WinSpool.drv
+- WinSpool.drv
 api_name:
--	DevQueryPrintEx
+- DevQueryPrintEx
 product:
 - Windows
 targetos: Windows

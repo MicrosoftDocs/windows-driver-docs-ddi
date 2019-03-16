@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_CALLBACK_TYPE
-title: "_BDCB_CALLBACK_TYPE"
+title: _BDCB_CALLBACK_TYPE (ntddk.h)
 description: The BDCB_CALLBACK_TYPE enumeration specifies whether the callback being passed to a BOOT_DRIVER_CALLBACK_FUNCTION routine is a status update or a boot-start driver initialization notification.
 old-location: kernel\bdcb_callback_type.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	BDCB_CALLBACK_TYPE
+- BDCB_CALLBACK_TYPE
 product:
 - Windows
 targetos: Windows

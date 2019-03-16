@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.CreateProcessWide
-title: IDebugClient3::CreateProcessWide
+title: IDebugClient3::CreateProcessWide (dbgeng.h)
 description: The CreateProcessWide method creates a process from the specified command line.
 old-location: debugger\createprocesswide.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient3.CreateProcessWide
--	IDebugClient4.CreateProcessWide
--	IDebugClient5.CreateProcessWide
+- IDebugClient3.CreateProcessWide
+- IDebugClient4.CreateProcessWide
+- IDebugClient5.CreateProcessWide
 product:
 - Windows
 targetos: Windows

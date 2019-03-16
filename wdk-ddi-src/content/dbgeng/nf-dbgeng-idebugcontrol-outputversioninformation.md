@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputVersionInformation
-title: IDebugControl::OutputVersionInformation
+title: IDebugControl::OutputVersionInformation (dbgeng.h)
 description: The OutputVersionInformation method prints version information about the debugger engine to the debugger console.
 old-location: debugger\outputversioninformation.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.OutputVersionInformation
--	IDebugControl2.OutputVersionInformation
--	IDebugControl3.OutputVersionInformation
+- IDebugControl.OutputVersionInformation
+- IDebugControl2.OutputVersionInformation
+- IDebugControl3.OutputVersionInformation
 product:
 - Windows
 targetos: Windows

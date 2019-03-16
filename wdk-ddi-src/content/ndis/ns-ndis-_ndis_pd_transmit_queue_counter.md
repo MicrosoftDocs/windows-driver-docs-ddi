@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_TRANSMIT_QUEUE_COUNTER
-title: "_NDIS_PD_TRANSMIT_QUEUE_COUNTER"
+title: _NDIS_PD_TRANSMIT_QUEUE_COUNTER (ndis.h)
 description: This structure is used to hold counter information for a transmit queue.
 old-location: netvista\ndis_pd_transmit_queue_counter.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_TRANSMIT_QUEUE_COUNTER
+- NDIS_PD_TRANSMIT_QUEUE_COUNTER
 product:
 - Windows
 targetos: Windows

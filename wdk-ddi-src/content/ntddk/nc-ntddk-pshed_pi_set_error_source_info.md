@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_SET_ERROR_SOURCE_INFO
-title: PSHED_PI_SET_ERROR_SOURCE_INFO
+title: PSHED_PI_SET_ERROR_SOURCE_INFO (ntddk.h)
 description: A PSHED plug-in's SetErrorSourceInfo callback function configures an error source.
 old-location: whea\seterrorsourceinfo.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	SetErrorSourceInfo
+- SetErrorSourceInfo
 product:
 - Windows
 targetos: Windows

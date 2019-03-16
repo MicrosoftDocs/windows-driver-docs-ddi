@@ -1,6 +1,6 @@
 ---
 UID: NN:sti.IStiDevice
-title: IStiDevice
+title: IStiDevice (sti.h)
 description: This section describes the methods defined for the IStiDevice COM Interface. Method prototypes are contained in Sti.h.
 old-location: image\istidevice_interface_methods.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice
+- IStiDevice
 product:
 - Windows
 targetos: Windows

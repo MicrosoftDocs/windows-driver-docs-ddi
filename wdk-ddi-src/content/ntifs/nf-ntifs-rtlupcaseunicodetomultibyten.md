@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeToMultiByteN
-title: RtlUpcaseUnicodeToMultiByteN function
+title: RtlUpcaseUnicodeToMultiByteN function (ntifs.h)
 description: The RtlUpcaseUnicodeToMultiByteN routine translates the specified Unicode string into a new uppercase character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set.
 old-location: ifsk\rtlupcaseunicodetomultibyten.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlUpcaseUnicodeToMultiByteN
+- RtlUpcaseUnicodeToMultiByteN
 product:
 - Windows
 targetos: Windows

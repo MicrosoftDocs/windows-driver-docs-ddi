@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerQueryVolumeTags
-title: ChangerQueryVolumeTags function
+title: ChangerQueryVolumeTags function (mcd.h)
 description: ChangerQueryVolumeTags handles the device-specific aspects of a device-control IRP with the IOCTL code of IOCTL_CHANGER_QUERY_VOLUME_TAGS.
 old-location: storage\changerqueryvolumetags.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerQueryVolumeTags
+- ChangerQueryVolumeTags
 product:
 - Windows
 targetos: Windows

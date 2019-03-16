@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SEND
-title: FN_VMB_PACKET_SEND
+title: FN_VMB_PACKET_SEND (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketSend function sends the data in a packet buffer or external data Memory Descriptor List (MDL). The function associates that data with the VMBus packet object, which represents the packet throughout the lifetime of the transaction.
 tech.root: netvista
 ms.assetid: e701d946-e2cb-4fc4-b098-0cc6f3734305
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_PACKET_SEND
+- FN_VMB_PACKET_SEND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

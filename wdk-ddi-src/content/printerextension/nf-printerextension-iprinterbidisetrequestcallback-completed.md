@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterBidiSetRequestCallback.Completed
-title: IPrinterBidiSetRequestCallback::Completed
+title: IPrinterBidiSetRequestCallback::Completed (printerextension.h)
 description: Invoked when the Bidi “Set”” operation is completed.
 old-location: print\iprinterbidisetrequestcallback_completed.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterBidiSetRequestCallback.Completed
+- IPrinterBidiSetRequestCallback.Completed
 product:
 - Windows
 targetos: Windows

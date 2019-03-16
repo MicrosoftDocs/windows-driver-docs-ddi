@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_27
-title: KSE_PIN
+title: KSE_PIN (ks.h)
 description: 
 old-location: stream\kse_pin.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSE_PIN
+- KSE_PIN
 product:
 - Windows
 targetos: Windows

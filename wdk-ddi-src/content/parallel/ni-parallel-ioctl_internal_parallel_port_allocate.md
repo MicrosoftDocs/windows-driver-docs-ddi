@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE
-title: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE
+title: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE request allocates a parallel port for exclusive access by a client.
 old-location: parports\ioctl_internal_parallel_port_allocate.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE
+- IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE
 product:
 - Windows
 targetos: Windows

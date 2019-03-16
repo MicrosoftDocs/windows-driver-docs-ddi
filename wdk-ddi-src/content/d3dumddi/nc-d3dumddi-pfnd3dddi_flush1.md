@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLUSH1
-title: PFND3DDDI_FLUSH1
+title: PFND3DDDI_FLUSH1 (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to submit outstanding hardware commands that are in the hardware command buffer to the display miniport driver. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfnflush1.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	pfnFlush1
+- pfnFlush1
 product:
 - Windows
 targetos: Windows

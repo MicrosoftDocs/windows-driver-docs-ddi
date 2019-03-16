@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReportTargetDeviceChangeAsynchronous
-title: IoReportTargetDeviceChangeAsynchronous function
+title: IoReportTargetDeviceChangeAsynchronous function (wdm.h)
 description: The IoReportTargetDeviceChangeAsynchronous routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoReportTargetDeviceChangeAsynchronous
+- IoReportTargetDeviceChangeAsynchronous
 product:
 - Windows
 targetos: Windows

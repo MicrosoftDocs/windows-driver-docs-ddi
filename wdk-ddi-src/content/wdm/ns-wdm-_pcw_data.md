@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_DATA
-title: "_PCW_DATA"
+title: _PCW_DATA (wdm.h)
 description: The PCW_DATA structure describes the array of data blocks that are associated with an instance.
 old-location: devtest\pcw_data.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCW_DATA
+- PCW_DATA
 product:
 - Windows
 targetos: Windows

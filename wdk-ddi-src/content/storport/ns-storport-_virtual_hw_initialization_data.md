@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._VIRTUAL_HW_INITIALIZATION_DATA
-title: "_VIRTUAL_HW_INITIALIZATION_DATA"
+title: _VIRTUAL_HW_INITIALIZATION_DATA (storport.h)
 description: The VIRTUAL_HW_INITIALIZATION_DATA structure contains information particular to each virtual miniport driver.
 old-location: storage\virtual_hw_initialization_data.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	VIRTUAL_HW_INITIALIZATION_DATA
+- VIRTUAL_HW_INITIALIZATION_DATA
 product:
 - Windows
 targetos: Windows

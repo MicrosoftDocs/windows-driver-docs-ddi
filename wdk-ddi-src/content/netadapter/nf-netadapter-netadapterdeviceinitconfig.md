@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterDeviceInitConfig
-title: NetAdapterDeviceInitConfig function
+title: NetAdapterDeviceInitConfig function (netadapter.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 tech.root: netvista
 ms.assetid: e8adef03-c1cf-46f6-8d22-21056ab1d539
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterDeviceInitConfig
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterDeviceInitConfig
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterDeviceInitConfig
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassDeviceNotification
-title: StreamClassDeviceNotification function
+title: StreamClassDeviceNotification function (strmini.h)
 description: Minidrivers use the StreamClassDeviceNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred.
 old-location: stream\streamclassdevicenotification.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassDeviceNotification
+- StreamClassDeviceNotification
 product:
 - Windows
 targetos: Windows

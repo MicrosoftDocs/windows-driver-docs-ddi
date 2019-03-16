@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COLLECTDBGINFO
-title: "_DXGKARG_COLLECTDBGINFO"
+title: _DXGKARG_COLLECTDBGINFO (d3dkmddi.h)
 description: The DXGKARG_COLLECTDBGINFO structure describes information for a debug report.
 old-location: display\dxgkarg_collectdbginfo.htm
 ms.assetid: f0dd72b5-9ab4-4511-b913-b0e456ea8950
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_COLLECTDBGINFO
+- DXGKARG_COLLECTDBGINFO
 product:
 - Windows
 targetos: Windows

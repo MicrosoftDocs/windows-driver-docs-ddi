@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DFILLMODE
-title: _D3DFILLMODE
+title: _D3DFILLMODE (d3d9types.h)
 description: 
 ms.assetid: d581af24-b229-428e-9dfd-45e1ff38fa79
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DFILLMODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DFILLMODE
+- _D3DFILLMODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

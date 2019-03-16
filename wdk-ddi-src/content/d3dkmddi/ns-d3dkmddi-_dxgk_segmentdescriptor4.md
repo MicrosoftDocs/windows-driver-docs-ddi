@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR4
-title: "_DXGK_SEGMENTDESCRIPTOR4"
+title: _DXGK_SEGMENTDESCRIPTOR4 (d3dkmddi.h)
 description: The DXGK_SEGMENTDESCRIPTOR4 structure describes a programmable CPU host aperture.
 old-location: display\dxgk_segmentdescriptor4.htm
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_SEGMENTDESCRIPTOR4
+- DXGK_SEGMENTDESCRIPTOR4
 product:
 - Windows
 targetos: Windows

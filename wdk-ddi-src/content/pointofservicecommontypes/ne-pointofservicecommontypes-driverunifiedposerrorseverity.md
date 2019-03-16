@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosErrorSeverity
-title: DriverUnifiedPosErrorSeverity
+title: DriverUnifiedPosErrorSeverity (pointofservicecommontypes.h)
 description: This enumeration indicates the severity of the error.
 old-location: pos\unifiedposerrorseverity.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	DriverUnifiedPosErrorSeverity
+- DriverUnifiedPosErrorSeverity
 product:
 - Windows
 targetos: Windows

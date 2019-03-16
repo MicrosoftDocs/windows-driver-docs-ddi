@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxProgressReceive
-title: SerCxProgressReceive function
+title: SerCxProgressReceive function (sercx.h)
 description: The SerCxProgressReceive method reports the progress of the current read (receive) operation.
 old-location: serports\sercxprogressreceive.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxProgressReceive
+- SerCxProgressReceive
 product:
 - Windows
 targetos: Windows

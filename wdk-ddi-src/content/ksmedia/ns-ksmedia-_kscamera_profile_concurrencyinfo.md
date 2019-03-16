@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_CONCURRENCYINFO
-title: "_KSCAMERA_PROFILE_CONCURRENCYINFO"
+title: _KSCAMERA_PROFILE_CONCURRENCYINFO (ksmedia.h)
 description: An array of KSCAMERA_PROFILE_CONCURRENCYINFO structures form the Camera.Concurrency parameter of the KSDEVICE_PROFILE_INFO structure (whose array size is specified by Camera.CountOfConcurrency parameter) indicating which profiles the profile identified in the KSCAMERA_PROFILE_INFO structure may run simultaneously on different cameras.
 old-location: stream\kscamera_profile_concurrencyinfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSCAMERA_PROFILE_CONCURRENCYINFO
+- KSCAMERA_PROFILE_CONCURRENCYINFO
 product:
 - Windows
 targetos: Windows

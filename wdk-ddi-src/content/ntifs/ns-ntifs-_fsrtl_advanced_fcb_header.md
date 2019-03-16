@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_ADVANCED_FCB_HEADER
-title: "_FSRTL_ADVANCED_FCB_HEADER"
+title: _FSRTL_ADVANCED_FCB_HEADER (ntifs.h)
 description: The FSRTL_ADVANCED_FCB_HEADER structure contains context information that a file system maintains about a file.
 old-location: ifsk\fsrtl_advanced_fcb_header.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSRTL_ADVANCED_FCB_HEADER
+- FSRTL_ADVANCED_FCB_HEADER
 product:
 - Windows
 targetos: Windows

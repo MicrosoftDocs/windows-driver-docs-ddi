@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortQuerySystemTime
-title: StorPortQuerySystemTime function
+title: StorPortQuerySystemTime function (storport.h)
 description: The StoriPortQuerySystemTime routine obtains the current system time.
 old-location: storage\storportquerysystemtime.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortQuerySystemTime
+- StorPortQuerySystemTime
 product:
 - Windows
 targetos: Windows

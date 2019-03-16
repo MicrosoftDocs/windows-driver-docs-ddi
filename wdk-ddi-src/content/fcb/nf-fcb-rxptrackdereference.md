@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxpTrackDereference
-title: RxpTrackDereference function
+title: RxpTrackDereference function (fcb.h)
 description: RxpTrackDereference is used in checked builds to track requests to dereference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these dereference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackdereference.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fcb.h
+- fcb.h
 api_name:
--	RxpTrackDereference
+- RxpTrackDereference
 product:
 - Windows
 targetos: Windows

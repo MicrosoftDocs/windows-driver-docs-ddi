@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_PLAY_AUDIO_MSF
-title: IOCTL_CDROM_PLAY_AUDIO_MSF
+title: IOCTL_CDROM_PLAY_AUDIO_MSF (ntddcdrm.h)
 description: Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_play_audio_msf.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_PLAY_AUDIO_MSF
+- IOCTL_CDROM_PLAY_AUDIO_MSF
 product:
 - Windows
 targetos: Windows

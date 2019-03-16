@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
-title: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
+title: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT (d3d10umddi.h)
 description: Specifies how a video format can be used for video processing.
 old-location: display\d3d11_1ddi_video_processor_format_support.htm
 ms.assetid: 3fef0cb0-6584-487d-9660-1c748509a6a9
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
+- D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
 product:
 - Windows
 targetos: Windows

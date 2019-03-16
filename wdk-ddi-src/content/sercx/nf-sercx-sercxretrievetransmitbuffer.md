@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxRetrieveTransmitBuffer
-title: SerCxRetrieveTransmitBuffer function
+title: SerCxRetrieveTransmitBuffer function (sercx.h)
 description: The SerCxRetrieveTransmitBuffer method obtains an output buffer that contains data that is ready to be transmitted to the serial port.
 old-location: serports\sercxretrievetransmitbuffer.htm
 tech.root: serports
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxRetrieveTransmitBuffer
+- SerCxRetrieveTransmitBuffer
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCreateSectionForDataScan
-title: FsRtlCreateSectionForDataScan function
+title: FsRtlCreateSectionForDataScan function (ntifs.h)
 description: The FsRtlCreateSectionForDataScan routine creates a section object.
 old-location: ifsk\fsrtlcreatesectionfordatascan.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlCreateSectionForDataScan
+- FsRtlCreateSectionForDataScan
 product:
 - Windows
 targetos: Windows

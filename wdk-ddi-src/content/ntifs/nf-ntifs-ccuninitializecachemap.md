@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcUninitializeCacheMap
-title: CcUninitializeCacheMap function
+title: CcUninitializeCacheMap function (ntifs.h)
 description: The CcUninitializeCacheMap routine stops the caching of a cached file.
 old-location: ifsk\ccuninitializecachemap.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcUninitializeCacheMap
+- CcUninitializeCacheMap
 product:
 - Windows
 targetos: Windows

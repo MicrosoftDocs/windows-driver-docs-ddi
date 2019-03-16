@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoInitializePriorityInfo
-title: IoInitializePriorityInfo function
+title: IoInitializePriorityInfo function (ntifs.h)
 description: The IoInitializePriorityInfo routine initializes a structure of type IO_PRIORITY_INFO.
 old-location: ifsk\ioinitializepriorityinfo.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IoInitializePriorityInfo
+- IoInitializePriorityInfo
 product:
 - Windows
 targetos: Windows

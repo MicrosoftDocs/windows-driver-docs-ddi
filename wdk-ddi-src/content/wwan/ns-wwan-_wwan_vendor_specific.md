@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_VENDOR_SPECIFIC
-title: "_WWAN_VENDOR_SPECIFIC"
+title: _WWAN_VENDOR_SPECIFIC (wwan.h)
 description: The WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 old-location: netvista\wwan_vendor_specific.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_VENDOR_SPECIFIC
+- WWAN_VENDOR_SPECIFIC
 product:
 - Windows
 targetos: Windows

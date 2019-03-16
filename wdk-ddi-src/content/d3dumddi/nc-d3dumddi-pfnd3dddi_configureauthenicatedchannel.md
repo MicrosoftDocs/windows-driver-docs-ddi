@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL
-title: PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL
+title: PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL (d3dumddi.h)
 description: The ConfigureAuthenticatedChannel function sets state within an authenticated channel.
 old-location: display\configureauthenticatedchannel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	ConfigureAuthenticatedChannel
+- ConfigureAuthenticatedChannel
 product:
 - Windows
 targetos: Windows

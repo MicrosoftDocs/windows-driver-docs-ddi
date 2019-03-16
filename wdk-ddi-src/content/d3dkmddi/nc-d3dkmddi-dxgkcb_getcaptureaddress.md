@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETCAPTUREADDRESS
-title: DXGKCB_GETCAPTUREADDRESS
+title: DXGKCB_GETCAPTUREADDRESS (d3dkmddi.h)
 description: The DxgkCbGetCaptureAddress function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.
 old-location: display\dxgkcbgetcaptureaddress.htm
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkCbGetCaptureAddress
+- DxgkCbGetCaptureAddress
 product:
 - Windows
 targetos: Windows

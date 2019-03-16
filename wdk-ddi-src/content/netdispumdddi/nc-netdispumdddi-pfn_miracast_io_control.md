@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_MIRACAST_IO_CONTROL
-title: PFN_MIRACAST_IO_CONTROL
+title: PFN_MIRACAST_IO_CONTROL (netdispumdddi.h)
 description: Called by the user-mode display driver to send the kernel-mode display miniport driver a synchronous I/O control request.The data type of this function is PFN_MIRACAST_IO_CONTROL.
 old-location: display\miracastiocontrol.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	MiracastIoControl
+- MiracastIoControl
 product:
 - Windows
 targetos: Windows

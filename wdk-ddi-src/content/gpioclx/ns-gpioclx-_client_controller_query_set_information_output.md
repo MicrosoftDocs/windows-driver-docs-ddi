@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
-title: "_CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
+title: _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT (gpioclx.h)
 description: The CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure contains a set of general-purpose I/O (GPIO) controller attributes that were requested by the GPIO framework extension (GpioClx).
 old-location: gpio\client_controller_query_set_information_output.htm
 tech.root: GPIO
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
+- CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_DS_INFO
-title: "_WDI_DS_INFO"
+title: _WDI_DS_INFO (wditypes.h)
 description: The WDI_DS_INFO enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 old-location: netvista\wdi_ds_info.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_DS_INFO
+- WDI_DS_INFO
 product:
 - Windows
 targetos: Windows

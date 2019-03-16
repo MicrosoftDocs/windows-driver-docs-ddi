@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NEIGHBOR_OFFLOAD_STATE_CACHED
-title: "_NEIGHBOR_OFFLOAD_STATE_CACHED"
+title: _NEIGHBOR_OFFLOAD_STATE_CACHED (ndischimney.h)
 description: The NEIGHBOR_OFFLOAD_STATE_CACHED structure contains the cached variables of a neighbor state object.
 old-location: netvista\neighbor_offload_state_cached.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NEIGHBOR_OFFLOAD_STATE_CACHED
+- NEIGHBOR_OFFLOAD_STATE_CACHED
 product:
 - Windows
 targetos: Windows

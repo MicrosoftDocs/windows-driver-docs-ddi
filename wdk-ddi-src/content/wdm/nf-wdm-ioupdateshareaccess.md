@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoUpdateShareAccess
-title: IoUpdateShareAccess function
+title: IoUpdateShareAccess function (wdm.h)
 description: The IoUpdateShareAccess routine updates the share access for the given file object, usually when the file is being opened.
 old-location: kernel\ioupdateshareaccess.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoUpdateShareAccess
+- IoUpdateShareAccess
 product:
 - Windows
 targetos: Windows

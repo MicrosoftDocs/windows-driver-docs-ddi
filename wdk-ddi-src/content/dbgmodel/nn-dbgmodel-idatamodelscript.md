@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScript
-title: IDataModelScript
+title: IDataModelScript (dbgmodel.h)
 description: An abstraction of a particular script which is being managed by the provider. Each script which is loaded or being edited has a separate IDataModelScript instance.
 ms.assetid: 90bb7c14-076e-45b0-9e69-24e88d74e23a
 ms.date: 07/13/2018
@@ -19,14 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScript
-product: Windows
+- IDataModelScript
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

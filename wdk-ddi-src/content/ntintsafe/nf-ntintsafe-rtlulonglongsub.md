@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongLongSub
-title: RtlULongLongSub function
+title: RtlULongLongSub function (ntintsafe.h)
 description: Subtracts one value of type ULONGLONG from another.
 old-location: kernel\rtlulonglongsub.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlULongLongSub
+- RtlULongLongSub
 product:
 - Windows
 targetos: Windows

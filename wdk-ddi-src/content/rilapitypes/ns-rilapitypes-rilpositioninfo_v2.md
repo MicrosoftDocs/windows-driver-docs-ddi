@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFO_V2
-title: RILPOSITIONINFO_V2
+title: RILPOSITIONINFO_V2 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfo_v2_2.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapitypes.h
+- rilapitypes.h
 api_name:
--	RILPOSITIONINFO_V2
+- RILPOSITIONINFO_V2
 product:
 - Windows
 targetos: Windows

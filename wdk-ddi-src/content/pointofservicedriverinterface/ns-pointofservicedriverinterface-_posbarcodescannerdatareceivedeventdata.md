@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScannerDataReceivedEventData
-title: "_PosBarcodeScannerDataReceivedEventData"
+title: _PosBarcodeScannerDataReceivedEventData (pointofservicedriverinterface.h)
 description: This structure contains the scanned data that is passed to the BarcodeScannerDataReceived event.
 old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	PosBarcodeScannerDataReceivedEventData
+- PosBarcodeScannerDataReceivedEventData
 product:
 - Windows
 targetos: Windows

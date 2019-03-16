@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CHARGINGSTATUSCOMPLETE
-title: "_CHARGINGSTATUSCOMPLETE"
+title: _CHARGINGSTATUSCOMPLETE (charging.h)
 description: This structure is for internal use only.
 old-location: battery\chargingstatuscomplete.htm
 tech.root: battery
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Charging.h
+- Charging.h
 api_name:
--	BATTERY_INFORMATION
+- BATTERY_INFORMATION
 product:
 - Windows
 targetos: Windows

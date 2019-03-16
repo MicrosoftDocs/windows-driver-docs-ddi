@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STI_DIAG
-title: "_STI_DIAG"
+title: _STI_DIAG (sti.h)
 description: The STI_DIAG structure is used as a parameter to the IStiDevice::Diagnostic and IStiUSD::Diagnostic methods.
 old-location: image\sti_diag.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STI_DIAG
+- STI_DIAG
 product:
 - Windows
 targetos: Windows

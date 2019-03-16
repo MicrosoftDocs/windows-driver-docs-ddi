@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderDumpLiveDriverData
-title: imp_WppRecorderDumpLiveDriverData function
+title: imp_WppRecorderDumpLiveDriverData function (wpprecorder.h)
 description: The WppRecorderDumpLiveDriverData method gets the buffer associated with the specified Inflight Trace Recorder log.
 old-location: devtest\wpprecorderdumplivedriverdata.htm
 tech.root: devtest
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	imp_WppRecorderDumpLiveDriverData
+- imp_WppRecorderDumpLiveDriverData
 product:
 - Windows
 targetos: Windows

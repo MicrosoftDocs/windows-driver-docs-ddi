@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.GetUri
-title: IPartBase::GetUri
+title: IPartBase::GetUri (filterpipeline.h)
 description: The GetUri method gets the URI of the part.
 old-location: print\ipartbase_geturi.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartBase.GetUri
+- IPartBase.GetUri
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfwmi.EVT_WDF_WMI_INSTANCE_SET_ITEM
-title: EVT_WDF_WMI_INSTANCE_SET_ITEM
+title: EVT_WDF_WMI_INSTANCE_SET_ITEM (wdfwmi.h)
 description: A driver's EvtWmiInstanceSetItem callback function sets a single item of a WMI data provider's instance data to a value that a WMI client supplies.
 old-location: wdf\evtwmiinstancesetitem.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfWMI.h
+- WdfWMI.h
 api_name:
--	EvtWmiInstanceSetItem
+- EvtWmiInstanceSetItem
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.Evaluate
-title: IDebugControl::Evaluate
+title: IDebugControl::Evaluate (dbgeng.h)
 description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.Evaluate
--	IDebugControl2.Evaluate
--	IDebugControl3.Evaluate
+- IDebugControl.Evaluate
+- IDebugControl2.Evaluate
+- IDebugControl3.Evaluate
 product:
 - Windows
 targetos: Windows

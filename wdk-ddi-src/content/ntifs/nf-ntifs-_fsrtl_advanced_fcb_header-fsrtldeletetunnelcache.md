@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDeleteTunnelCache
-title: FsRtlDeleteTunnelCache function
+title: FsRtlDeleteTunnelCache function (ntifs.h)
 description: The FsRtlDeleteTunnelCache routine deletes a tunnel cache.
 old-location: ifsk\fsrtldeletetunnelcache.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlDeleteTunnelCache
+- FsRtlDeleteTunnelCache
 product:
 - Windows
 targetos: Windows

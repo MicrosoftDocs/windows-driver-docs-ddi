@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO
-title: DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO
+title: DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO (d3dkmddi.h)
 description: The pfnAcquireNextFrequencyRangeInfo function returns the next frequency range descriptor in a monitor frequency range set, given the current frequency range descriptor.
 old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein.htm
 ms.assetid: b5490af8-ef25-4d5c-9154-08660e3d8780
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	(*pfnAcquireNextFrequencyRangeInfo)
+- (*pfnAcquireNextFrequencyRangeInfo)
 product:
 - Windows
 targetos: Windows

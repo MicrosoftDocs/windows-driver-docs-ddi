@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PFREE_MAP_REGISTERS
-title: PFREE_MAP_REGISTERS
+title: PFREE_MAP_REGISTERS (wdm.h)
 description: The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel.
 old-location: kernel\freemapregisters.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	FreeMapRegisters
+- FreeMapRegisters
 product:
 - Windows
 targetos: Windows

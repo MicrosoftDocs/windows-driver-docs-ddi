@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DSHADEMODE
-title: _D3DSHADEMODE
+title: _D3DSHADEMODE (d3d9types.h)
 description: 
 ms.assetid: bd32b4df-aac7-43ae-93bb-f11bd678c01e
 ms.date: 10/19/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DSHADEMODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DSHADEMODE
+- _D3DSHADEMODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

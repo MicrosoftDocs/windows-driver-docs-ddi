@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_HDR_METADATA
-title: "_DXGK_HDR_METADATA"
+title: _DXGK_HDR_METADATA (d3dkmddi.h)
 description: Contains information about the HDR metadata.
 old-location: display\dxgk_hdr_metadata.htm
 ms.assetid: 15AE3B05-1FD4-4ADB-B92F-9098225A920B
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_HDR_METADATA
+- DXGK_HDR_METADATA
 product:
 - Windows
 targetos: Windows

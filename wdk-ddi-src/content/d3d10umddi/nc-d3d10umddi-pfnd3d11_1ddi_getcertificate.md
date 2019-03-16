@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCERTIFICATE
-title: PFND3D11_1DDI_GETCERTIFICATE
+title: PFND3D11_1DDI_GETCERTIFICATE (d3d10umddi.h)
 description: Returns a certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificate.htm
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnGetCertificate
+- pfnGetCertificate
 product:
 - Windows
 targetos: Windows

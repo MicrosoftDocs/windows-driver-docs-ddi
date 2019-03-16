@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITPRESENTTOHWQUEUE
-title: PFND3DKMT_SUBMITPRESENTTOHWQUEUE
+title: PFND3DKMT_SUBMITPRESENTTOHWQUEUE (d3dkmthk.h)
 description: pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue.
 ms.assetid: 7973174e-6d3d-4fa2-8a91-ab1d03e348b4
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SUBMITPRESENTTOHWQUEUE
+- PFND3DKMT_SUBMITPRESENTTOHWQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

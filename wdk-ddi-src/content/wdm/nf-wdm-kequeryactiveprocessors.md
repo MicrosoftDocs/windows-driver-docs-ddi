@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryActiveProcessors
-title: KeQueryActiveProcessors function
+title: KeQueryActiveProcessors function (wdm.h)
 description: The KeQueryActiveProcessors routine returns a bitmask of the currently active processors.
 old-location: kernel\kequeryactiveprocessors.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryActiveProcessors
+- KeQueryActiveProcessors
 product:
 - Windows
 targetos: Windows

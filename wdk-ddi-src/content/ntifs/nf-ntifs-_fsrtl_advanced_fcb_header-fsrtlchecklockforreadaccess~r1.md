@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckLockForReadAccess~r1
-title: FsRtlCheckLockForReadAccess function
+title: FsRtlCheckLockForReadAccess function (ntifs.h)
 description: The FsRtlCheckLockForReadAccess routine determines whether the process associated with a given IRP has read access to a locked region of a file.
 old-location: ifsk\fsrtlchecklockforreadaccess.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	FsRtlCheckLockForReadAccess
+- FsRtlCheckLockForReadAccess
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION
-title: EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION
+title: EVT_WDF_DEVICE_POWER_POLICY_STATE_CHANGE_NOTIFICATION (wdfdevice.h)
 description: A driver's EvtDevicePowerPolicyStateChange event callback function informs the driver that a device's power policy state machine is moving from one state to another.
 old-location: wdf\evtdevicepowerpolicystatechange.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdevice.h
+- Wdfdevice.h
 api_name:
--	EvtDevicePowerPolicyStateChange
+- EvtDevicePowerPolicyStateChange
 product:
 - Windows
 targetos: Windows

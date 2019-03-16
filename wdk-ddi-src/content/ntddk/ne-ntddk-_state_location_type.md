@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._STATE_LOCATION_TYPE
-title: _STATE_LOCATION_TYPE
+title: _STATE_LOCATION_TYPE (ntddk.h)
 description: Defines values for persisted state locations for device and driver files. 
 ms.assetid: b1f859c2-ea58-4c37-9451-4521b83e3e8b
 ms.date: 10/19/2018
@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: STATE_LOCATION_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	_STATE_LOCATION_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- _STATE_LOCATION_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

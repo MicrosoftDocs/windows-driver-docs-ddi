@@ -1,6 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_PARTNER
-title: _USBC_PARTNER
+title: _USBC_PARTNER (usbctypes.h)
 description: Defines values for the type of connector partner detected on the USB Type-C connector.
 ms.assetid: c5dd981e-327f-45d2-8d0a-507cd118b1ae
 ms.date: 09/30/2018
@@ -17,14 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_PARTNER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PARTNER
-product: Windows
+- _USBC_PARTNER
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

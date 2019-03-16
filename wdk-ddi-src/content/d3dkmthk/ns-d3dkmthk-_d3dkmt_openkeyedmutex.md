@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENKEYEDMUTEX
-title: "_D3DKMT_OPENKEYEDMUTEX"
+title: _D3DKMT_OPENKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the D3DKMTOpenKeyedMutex function opens.
 old-location: display\d3dkmt_openkeyedmutex.htm
 ms.assetid: c5200822-b393-4ba1-8d2a-d4ab98ffcf1d
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_OPENKEYEDMUTEX
+- D3DKMT_OPENKEYEDMUTEX
 product:
 - Windows
 targetos: Windows

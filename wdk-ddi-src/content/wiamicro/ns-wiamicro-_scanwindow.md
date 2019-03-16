@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro._SCANWINDOW
-title: "_SCANWINDOW"
+title: _SCANWINDOW (wiamicro.h)
 description: The SCANWINDOW structure is used by the WIA Flatbed driver to tell the microdriver what image area to scan.
 old-location: image\scanwindow.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamicro.h
+- wiamicro.h
 api_name:
--	SCANWINDOW
+- SCANWINDOW
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMFreeNetBufferSGList
-title: NdisMFreeNetBufferSGList function
+title: NdisMFreeNetBufferSGList function (ndis.h)
 description: Bus-master miniport drivers call the NdisMFreeNetBufferSGList function to free scatter/gather list resources that were allocated by calling the NdisMAllocateNetBufferSGList function.
 old-location: netvista\ndismfreenetbuffersglist.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMFreeNetBufferSGList
+- NdisMFreeNetBufferSGList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithQuotaTag
-title: ExAllocatePoolWithQuotaTag function
+title: ExAllocatePoolWithQuotaTag function (wdm.h)
 description: The ExAllocatePoolWithQuotaTag routine allocates pool memory, charging the quota against the current process.
 old-location: kernel\exallocatepoolwithquotatag.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExAllocatePoolWithQuotaTag
+- ExAllocatePoolWithQuotaTag
 product:
 - Windows
 targetos: Windows

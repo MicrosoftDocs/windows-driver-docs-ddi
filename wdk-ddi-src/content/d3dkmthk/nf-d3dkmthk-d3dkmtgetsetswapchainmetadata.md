@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetSetSwapChainMetadata
-title: D3DKMTGetSetSwapChainMetadata function
+title: D3DKMTGetSetSwapChainMetadata function (d3dkmthk.h)
 description: Gets swap chain metadata.
 ms.assetid: 78b32c6e-3d01-4be2-90b7-8aa9f37aee61
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetSetSwapChainMetadata
+- D3DKMTGetSetSwapChainMetadata
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

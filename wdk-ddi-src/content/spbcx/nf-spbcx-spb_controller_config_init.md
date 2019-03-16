@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SPB_CONTROLLER_CONFIG_INIT
-title: SPB_CONTROLLER_CONFIG_INIT function
+title: SPB_CONTROLLER_CONFIG_INIT function (spbcx.h)
 description: The SPB_CONTROLLER_CONFIG_INIT function initializes an SPB_CONTROLLER_CONFIG structure.
 old-location: spb\spb_controller_config_init.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_CONTROLLER_CONFIG_INIT
+- SPB_CONTROLLER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

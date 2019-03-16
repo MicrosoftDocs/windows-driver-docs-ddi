@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.ProcessIoControl
-title: ISensorClassExtension::ProcessIoControl
+title: ISensorClassExtension::ProcessIoControl (sensorsclassextension.h)
 description: The ISensorClassExtension::ProcessControl method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.
 old-location: sensors\isensorclassextension_processiocontrol.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	ProcessIoControl
+- ProcessIoControl
 product:
 - Windows
 targetos: Windows

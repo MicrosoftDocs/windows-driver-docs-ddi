@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddParentModel
-title: IModelObject::AddParentModel
+title: IModelObject::AddParentModel (dbgmodel.h)
 description: The AddParentModel method adds a new parent model to the given object.
 ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
 ms.date: 08/08/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.AddParentModel
-product: Windows
+- IModelObject.AddParentModel
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

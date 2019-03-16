@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_STREAM_CALLOUT_IO_PACKET0_
-title: FWPS_STREAM_CALLOUT_IO_PACKET0_
+title: FWPS_STREAM_CALLOUT_IO_PACKET0_ (fwpsk.h)
 description: The FWPS_STREAM_CALLOUT_IO_PACKET0 structure describes the data passed by the filter engine to a callout's classifyFn callout function when filtering a data stream.Note  FWPS_STREAM_CALLOUT_IO_PACKET0 is a specific version of FWPS_STREAM_CALLOUT_IO_PACKET. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_stream_callout_io_packet0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_STREAM_CALLOUT_IO_PACKET0
+- FWPS_STREAM_CALLOUT_IO_PACKET0
 product:
 - Windows
 targetos: Windows

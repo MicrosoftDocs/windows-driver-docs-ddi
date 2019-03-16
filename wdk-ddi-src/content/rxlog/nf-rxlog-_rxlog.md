@@ -1,6 +1,6 @@
 ---
 UID: NF:rxlog._RxLog
-title: "_RxLog function"
+title: _RxLog function (rxlog.h)
 description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxlog.h
+- rxlog.h
 api_name:
--	_RxLog
+- _RxLog
 product:
 - Windows
 targetos: Windows

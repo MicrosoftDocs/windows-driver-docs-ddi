@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
-title: "_NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS"
+title: _NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS structure specifies the parameters for moving a previously created receive filter. A receive filter is moved from a receive queue on a virtual port (VPort) to a receive queue on another VPort.
 old-location: netvista\ndis_receive_filter_move_filter_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
+- NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEDEVICEFLAGS
-title: "_DXGK_CREATEDEVICEFLAGS"
+title: _DXGK_CREATEDEVICEFLAGS (d3dkmddi.h)
 description: The DXGK_CREATEDEVICEFLAGS structure identifies how to create devices.
 old-location: display\dxgk_createdeviceflags.htm
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_CREATEDEVICEFLAGS
+- DXGK_CREATEDEVICEFLAGS
 product:
 - Windows
 targetos: Windows

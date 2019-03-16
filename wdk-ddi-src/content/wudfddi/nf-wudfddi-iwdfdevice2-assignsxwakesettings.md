@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.AssignSxWakeSettings
-title: IWDFDevice2::AssignSxWakeSettings
+title: IWDFDevice2::AssignSxWakeSettings (wudfddi.h)
 description: The AssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
 old-location: wdf\iwdfdevice2_assignsxwakesettings.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice2.AssignSxWakeSettings
+- IWDFDevice2.AssignSxWakeSettings
 product:
 - Windows
 targetos: Windows

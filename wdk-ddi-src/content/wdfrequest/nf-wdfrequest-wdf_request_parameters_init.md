@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_PARAMETERS_INIT
-title: WDF_REQUEST_PARAMETERS_INIT function
+title: WDF_REQUEST_PARAMETERS_INIT function (wdfrequest.h)
 description: The WDF_REQUEST_PARAMETERS_INIT function initializes a WDF_REQUEST_PARAMETERS structure.
 old-location: wdf\wdf_request_parameters_init.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_PARAMETERS_INIT
+- WDF_REQUEST_PARAMETERS_INIT
 product:
 - Windows
 targetos: Windows

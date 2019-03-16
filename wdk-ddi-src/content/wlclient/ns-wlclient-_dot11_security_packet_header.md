@@ -1,6 +1,6 @@
 ---
 UID: NS:wlclient._DOT11_SECURITY_PACKET_HEADER
-title: "_DOT11_SECURITY_PACKET_HEADER"
+title: _DOT11_SECURITY_PACKET_HEADER (wlclient.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_security_packet_header.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlclient.h
+- wlclient.h
 api_name:
--	DOT11_SECURITY_PACKET_HEADER
+- DOT11_SECURITY_PACKET_HEADER
 product:
 - Windows
 targetos: Windows

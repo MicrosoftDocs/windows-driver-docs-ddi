@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
-title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
+title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD to set the temperature threshold of a storage device (when supported by the hardware).
 old-location: storage\ioctl_storage_set_temperature_threshold.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
+- IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 product:
 - Windows
 targetos: Windows

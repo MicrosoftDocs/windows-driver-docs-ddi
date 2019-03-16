@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_REPORT_CHUNK_INFO
-title: DXGKCB_MIRACAST_REPORT_CHUNK_INFO
+title: DXGKCB_MIRACAST_REPORT_CHUNK_INFO (dispmprt.h)
 description: Called by the display miniport driver to report info about an encode chunk.
 old-location: display\dxgkcbreportchunkinfo.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Can be called at any IRQL level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkCbReportChunkInfo
+- DxgkCbReportChunkInfo
 product:
 - Windows
 targetos: Windows

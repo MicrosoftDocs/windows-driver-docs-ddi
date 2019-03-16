@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCMETHOD_REQUEST
-title: "_PCMETHOD_REQUEST"
+title: _PCMETHOD_REQUEST (portcls.h)
 description: The PCMETHOD_REQUEST structure specifies a method request.
 old-location: audio\pcmethod_request.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PCMETHOD_REQUEST
+- PCMETHOD_REQUEST
 product:
 - Windows
 targetos: Windows

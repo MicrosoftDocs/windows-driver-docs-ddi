@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
-title: "_PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
+title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pepfx.h)
 description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
+- PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
-title: IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
+title: IMiniportWaveRTStreamNotification::UnregisterNotificationEvent (portcls.h)
 description: The UnregisterNotificationEvent method unregisters an event from DMA driven event notification.
 old-location: audio\iminiportwavertstreamnotification_unregisternotificationevent.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
+- IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
 product:
 - Windows
 targetos: Windows

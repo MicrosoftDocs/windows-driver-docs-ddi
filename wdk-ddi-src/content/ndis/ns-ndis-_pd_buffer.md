@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER
-title: "_PD_BUFFER"
+title: _PD_BUFFER (ndis.h)
 description: This structure represents a PacketDirect (PD) packet, or a portion of a PD packet in a queue.
 old-location: netvista\pd_buffer.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	PD_BUFFER
+- PD_BUFFER
 product:
 - Windows
 targetos: Windows

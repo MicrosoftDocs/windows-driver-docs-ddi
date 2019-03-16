@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_PARAMETERS
-title: "_NDIS_QOS_PARAMETERS"
+title: _NDIS_QOS_PARAMETERS (ntddndis.h)
 description: The NDIS_QOS_PARAMETERS structure specifies the NDIS Quality of Service (QoS) parameters that are enabled on a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 old-location: netvista\ndis_qos_parameters.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_QOS_PARAMETERS
+- NDIS_QOS_PARAMETERS
 product:
 - Windows
 targetos: Windows

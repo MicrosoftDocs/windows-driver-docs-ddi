@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeAreApcsDisabled
-title: KeAreApcsDisabled function
+title: KeAreApcsDisabled function (wdm.h)
 description: The KeAreApcsDisabled routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
 old-location: kernel\keareapcsdisabled.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeAreApcsDisabled
+- KeAreApcsDisabled
 product:
 - Windows
 targetos: Windows

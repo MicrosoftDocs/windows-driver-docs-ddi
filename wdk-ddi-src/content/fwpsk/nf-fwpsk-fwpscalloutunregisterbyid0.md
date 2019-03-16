@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutUnregisterById0
-title: FwpsCalloutUnregisterById0 function
+title: FwpsCalloutUnregisterById0 function (fwpsk.h)
 description: The FwpsCalloutUnregisterById0 function unregisters a callout from the filter engine.Note  FwpsCalloutUnregisterById0 is a specific version of FwpsCalloutUnregisterById.
 old-location: netvista\fwpscalloutunregisterbyid0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsCalloutUnregisterById0
+- FwpsCalloutUnregisterById0
 product:
 - Windows
 targetos: Windows

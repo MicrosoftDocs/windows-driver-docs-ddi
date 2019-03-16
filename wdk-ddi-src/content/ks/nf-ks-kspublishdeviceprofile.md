@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPublishDeviceProfile
-title: KsPublishDeviceProfile function
+title: KsPublishDeviceProfile function (ks.h)
 description: The KsPublishDeviceProfile API is called to publish device profile information.
 old-location: stream\kspublishdeviceprofile.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsPublishDeviceProfile
+- KsPublishDeviceProfile
 product:
 - Windows
 targetos: Windows

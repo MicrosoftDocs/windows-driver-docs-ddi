@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceFormat
-title: IMiniportAudioEngineNode::SetDeviceFormat
+title: IMiniportAudioEngineNode::SetDeviceFormat (portcls.h)
 description: Sets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_setdeviceformat.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportAudioEngineNode.SetDeviceFormat
+- IMiniportAudioEngineNode.SetDeviceFormat
 product:
 - Windows
 targetos: Windows

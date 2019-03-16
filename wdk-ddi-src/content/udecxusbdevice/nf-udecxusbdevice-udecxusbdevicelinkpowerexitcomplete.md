@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceLinkPowerExitComplete
-title: UdecxUsbDeviceLinkPowerExitComplete function
+title: UdecxUsbDeviceLinkPowerExitComplete function (udecxusbdevice.h)
 description: Completes an asynchronous request for sending the device to a low power state.
 old-location: buses\udecxusbdevicelinkpowerexitcomplete.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UdecxUsbDeviceLinkPowerExitComplete
+- UdecxUsbDeviceLinkPowerExitComplete
 product:
 - Windows
 targetos: Windows

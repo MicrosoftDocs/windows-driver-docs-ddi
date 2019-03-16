@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSJACK_SINK_INFORMATION
-title: "_tagKSJACK_SINK_INFORMATION"
+title: _tagKSJACK_SINK_INFORMATION (ksmedia.h)
 description: The KSJACK_SINK_INFORMATION structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.
 old-location: audio\ksjack_sink_information.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSJACK_SINK_INFORMATION
+- KSJACK_SINK_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_FULL_RESOURCE_DESCRIPTOR
-title: "_CM_FULL_RESOURCE_DESCRIPTOR"
+title: _CM_FULL_RESOURCE_DESCRIPTOR (wdm.h)
 description: The CM_FULL_RESOURCE_DESCRIPTOR structure specifies a set of system hardware resources of various types, assigned to a device that is connected to a specific bus. This structure is contained within a CM_RESOURCE_LIST structure.
 old-location: kernel\cm_full_resource_descriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CM_FULL_RESOURCE_DESCRIPTOR
+- CM_FULL_RESOURCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

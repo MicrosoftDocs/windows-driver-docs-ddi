@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTERFACTORY
-title: "_KSFILTERFACTORY"
+title: _KSFILTERFACTORY (ks.h)
 description: The KSFILTERFACTORY structure represents a filter factory.
 old-location: stream\ksfilterfactory.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSFILTERFACTORY
+- KSFILTERFACTORY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpxcv._DELETE_PORT_DATA_1
-title: "_DELETE_PORT_DATA_1"
+title: _DELETE_PORT_DATA_1 (tcpxcv.h)
 description: The XcvData function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
 old-location: print\delete_port_data_1.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	tcpxcv.h
+- tcpxcv.h
 api_name:
--	DELETE_PORT_DATA_1
+- DELETE_PORT_DATA_1
 product:
 - Windows
 targetos: Windows

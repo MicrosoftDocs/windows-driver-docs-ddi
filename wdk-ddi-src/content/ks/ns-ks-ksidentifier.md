@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_1
-title: KSIDENTIFIER
+title: KSIDENTIFIER (ks.h)
 description: The KSIDENTIFIER structure specifies a GUID that uniquely identifies a related set of GUIDs, and an index value to refer to a specific member within that set.
 old-location: stream\ksidentifier.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSIDENTIFIER
+- KSIDENTIFIER
 product:
 - Windows
 targetos: Windows

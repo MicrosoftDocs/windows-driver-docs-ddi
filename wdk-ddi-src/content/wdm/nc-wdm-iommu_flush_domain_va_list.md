@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_FLUSH_DOMAIN_VA_LIST
-title: IOMMU_FLUSH_DOMAIN_VA_LIST
+title: IOMMU_FLUSH_DOMAIN_VA_LIST (wdm.h)
 description: Flushes the TLB for all entries that match the specified domain's ASID and one of the addresses in the provided list. 
 ms.assetid: 3ae0eb66-ed0d-4232-9294-4037ae48ce3e
 ms.date: 10/19/2018
@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_FLUSH_DOMAIN_VA_LIST
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_FLUSH_DOMAIN_VA_LIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

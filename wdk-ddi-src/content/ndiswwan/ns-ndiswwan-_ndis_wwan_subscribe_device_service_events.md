@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
-title: "_NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS"
+title: _NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS (ndiswwan.h)
 description: The NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS structure encapsulates data for OID_WWAN_SUBSCRIBE_DEVICE_SERVICES_EVENTS.
 old-location: netvista\ndis_wwan_subscribe_device_service_events.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
+- NDIS_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS
 product:
 - Windows
 targetos: Windows

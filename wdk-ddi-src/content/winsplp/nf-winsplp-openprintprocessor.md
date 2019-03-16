@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.OpenPrintProcessor
-title: OpenPrintProcessor function
+title: OpenPrintProcessor function (winsplp.h)
 description: A print processor's OpenPrintProcessor function prepares the print processor for printing a job and returns a handle.
 old-location: print\openprintprocessor.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Nwprint.lib
--	Nwprint.dll
+- Nwprint.lib
+- Nwprint.dll
 api_name:
--	OpenPrintProcessor
+- OpenPrintProcessor
 product:
 - Windows
 targetos: Windows

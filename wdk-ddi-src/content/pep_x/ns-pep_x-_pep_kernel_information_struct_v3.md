@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_KERNEL_INFORMATION_STRUCT_V3
-title: "_PEP_KERNEL_INFORMATION_STRUCT_V3"
+title: _PEP_KERNEL_INFORMATION_STRUCT_V3 (pep_x.h)
 description: The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pep_x.h
+- pep_x.h
 api_name:
--	PEP_KERNEL_INFORMATION_STRUCT_V1
+- PEP_KERNEL_INFORMATION_STRUCT_V1
 product:
 - Windows
 targetos: Windows

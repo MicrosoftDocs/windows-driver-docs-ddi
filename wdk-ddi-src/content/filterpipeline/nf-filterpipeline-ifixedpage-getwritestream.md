@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetWriteStream
-title: IFixedPage::GetWriteStream
+title: IFixedPage::GetWriteStream (filterpipeline.h)
 description: The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup.
 old-location: print\ifixedpage_getwritestream.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IFixedPage.GetWriteStream
+- IFixedPage.GetWriteStream
 product:
 - Windows
 targetos: Windows

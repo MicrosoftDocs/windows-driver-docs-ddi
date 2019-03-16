@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeviceRegisterAggregatedClientUnknown
-title: KsDeviceRegisterAggregatedClientUnknown function
+title: KsDeviceRegisterAggregatedClientUnknown function (ks.h)
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\ksdeviceregisteraggregatedclientunknown.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsDeviceRegisterAggregatedClientUnknown
+- KsDeviceRegisterAggregatedClientUnknown
 product:
 - Windows
 targetos: Windows

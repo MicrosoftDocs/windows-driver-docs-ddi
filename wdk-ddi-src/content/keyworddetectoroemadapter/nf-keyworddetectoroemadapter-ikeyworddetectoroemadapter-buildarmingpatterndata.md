@@ -1,6 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.BuildArmingPatternData
-title: IKeywordDetectorOemAdapter::BuildArmingPatternData
+title: IKeywordDetectorOemAdapter::BuildArmingPatternData (keyworddetectoroemadapter.h)
 description: The BuildArmingPatternData method is called by the operating system to build OEM-specific pattern data that includes any keyword and user-specific model data for detection.
 old-location: audio\ikeyworddetectoroemadapter_buildarmingpatterndata.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	IKeywordDetectorOemAdapter.BuildArmingPatternData
+- IKeywordDetectorOemAdapter.BuildArmingPatternData
 product:
 - Windows
 targetos: Windows

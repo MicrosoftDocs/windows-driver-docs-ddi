@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
+title: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU (d3dkmthk.h)
 description: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU is used with D3DKMTWaitForSynchronizationObjectFromGpu to wait for a monitored fence to reach a certain value.
 old-location: display\d3dkmt_waitforsynchronizationobjectfromgpu.htm
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
+- D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueueView
-title: IPrinterQueueView
+title: IPrinterQueueView (printerextension.h)
 description: Provides a way to change the range of print jobs being monitored.
 old-location: print\iprinterqueueview.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterQueueView
+- IPrinterQueueView
 product:
 - Windows
 targetos: Windows

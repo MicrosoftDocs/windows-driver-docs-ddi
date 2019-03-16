@@ -1,6 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_DEFAULT_QUERY_DATA
-title: EVT_NET_REQUEST_DEFAULT_QUERY_DATA
+title: EVT_NET_REQUEST_DEFAULT_QUERY_DATA (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for query object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: c3d390aa-d643-45a0-ab18-912724f6d7b6
@@ -25,16 +25,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	EVT_NET_REQUEST_DEFAULT_QUERY_DATA
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netrequestqueue.h
+api_name: 
+- EVT_NET_REQUEST_DEFAULT_QUERY_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDisableEvent
-title: KsDisableEvent function
+title: KsDisableEvent function (ks.h)
 description: The KsDisableEvent function disables events requested through IOCTL_KS_DISABLE_EVENT.
 old-location: stream\ksdisableevent.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDisableEvent
+- KsDisableEvent
 product:
 - Windows
 targetos: Windows

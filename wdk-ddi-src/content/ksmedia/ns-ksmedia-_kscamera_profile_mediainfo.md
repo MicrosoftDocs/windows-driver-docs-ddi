@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_MEDIAINFO
-title: "_KSCAMERA_PROFILE_MEDIAINFO"
+title: _KSCAMERA_PROFILE_MEDIAINFO (ksmedia.h)
 description: This structure contains the relevant media type information presented for each camera profile.
 old-location: stream\kscamera_profile_mediainfo.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_PROFILE_MEDIAINFO
+- KSCAMERA_PROFILE_MEDIAINFO
 product:
 - Windows
 targetos: Windows

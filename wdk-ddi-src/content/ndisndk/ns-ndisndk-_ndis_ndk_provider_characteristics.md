@@ -1,6 +1,6 @@
 ---
 UID: NS:ndisndk._NDIS_NDK_PROVIDER_CHARACTERISTICS
-title: "_NDIS_NDK_PROVIDER_CHARACTERISTICS"
+title: _NDIS_NDK_PROVIDER_CHARACTERISTICS (ndisndk.h)
 description: The NDIS_NDK_PROVIDER_CHARACTERISTICS structure specifies NDK provider characteristics.
 old-location: netvista\ndis_ndk_provider_characteristics.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndisndk.h
+- ndisndk.h
 api_name:
--	NDIS_NDK_PROVIDER_CHARACTERISTICS
+- NDIS_NDK_PROVIDER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

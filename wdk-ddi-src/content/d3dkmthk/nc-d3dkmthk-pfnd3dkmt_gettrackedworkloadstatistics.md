@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
-title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
+title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS (d3dkmthk.h)
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: d0f745bc-f54b-4f16-8f43-eb435c51d7cc
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
+- PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

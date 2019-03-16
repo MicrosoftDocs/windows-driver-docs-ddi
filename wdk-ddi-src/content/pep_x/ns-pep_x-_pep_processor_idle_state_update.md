@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_STATE_UPDATE
-title: "_PEP_PROCESSOR_IDLE_STATE_UPDATE"
+title: _PEP_PROCESSOR_IDLE_STATE_UPDATE (pep_x.h)
 description: The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state.
 old-location: kernel\pep_processor_idle_state_update.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_PROCESSOR_IDLE_STATE_UPDATE
+- PEP_PROCESSOR_IDLE_STATE_UPDATE
 product:
 - Windows
 targetos: Windows

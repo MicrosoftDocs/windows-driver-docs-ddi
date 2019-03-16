@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_TECHNOLOGY
-title: "_DXGK_DISPLAY_TECHNOLOGY"
+title: _DXGK_DISPLAY_TECHNOLOGY (d3dkmdt.h)
 description: Enum used to specify the display technology being used.
 old-location: display\dxgk_display_technology.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGK_DISPLAY_TECHNOLOGY
+- DXGK_DISPLAY_TECHNOLOGY
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_VOLUME_ID
-title: "_AACS_VOLUME_ID"
+title: _AACS_VOLUME_ID (ntddcdvd.h)
 description: The AACS_VOLUME_ID structure contains an Advanced Access Content System (AACS) volume ID and the corresponding message authentication code (MAC).
 old-location: storage\aacs_volume_id.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_VOLUME_ID
+- AACS_VOLUME_ID
 product:
 - Windows
 targetos: Windows

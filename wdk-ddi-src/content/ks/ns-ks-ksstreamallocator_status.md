@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_44
-title: KSSTREAMALLOCATOR_STATUS
+title: KSSTREAMALLOCATOR_STATUS (ks.h)
 description: The KSSTREAMALLOCATOR_STATUS structure describes framing requirements and current number of allocated frames for a specific allocator.
 old-location: stream\ksstreamallocator_status.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAMALLOCATOR_STATUS
+- KSSTREAMALLOCATOR_STATUS
 product:
 - Windows
 targetos: Windows

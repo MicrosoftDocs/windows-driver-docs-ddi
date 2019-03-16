@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RemoveMember
-title: IServiceGroup::RemoveMember
+title: IServiceGroup::RemoveMember (portcls.h)
 description: The RemoveMember method removes the specified member from the service group.
 old-location: audio\iservicegroup_removemember.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup.RemoveMember
+- IServiceGroup.RemoveMember
 product:
 - Windows
 targetos: Windows

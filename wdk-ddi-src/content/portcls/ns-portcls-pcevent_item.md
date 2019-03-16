@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_2
-title: PCEVENT_ITEM
+title: PCEVENT_ITEM (portcls.h)
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.
 old-location: audio\pcevent_item.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	PCEVENT_ITEM
+- PCEVENT_ITEM
 product:
 - Windows
 targetos: Windows

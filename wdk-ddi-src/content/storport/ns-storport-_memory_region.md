@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._MEMORY_REGION
-title: "_MEMORY_REGION"
+title: _MEMORY_REGION (storport.h)
 description: The MEMORY_REGION structure describes a region of physically contiguous memory.
 old-location: storage\memory_region.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	MEMORY_REGION
+- MEMORY_REGION
 product:
 - Windows
 targetos: Windows

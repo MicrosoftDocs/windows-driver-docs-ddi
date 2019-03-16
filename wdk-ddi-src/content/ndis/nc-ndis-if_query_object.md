@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.IF_QUERY_OBJECT
-title: IF_QUERY_OBJECT
+title: IF_QUERY_OBJECT (ndis.h)
 description: The ProviderQueryObject function retrieves information about a network interface.
 old-location: netvista\providerqueryobject.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	*IFP_QUERY_OBJECT
+- *IFP_QUERY_OBJECT
 product:
 - Windows
 targetos: Windows

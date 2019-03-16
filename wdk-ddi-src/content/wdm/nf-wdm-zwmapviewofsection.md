@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwMapViewOfSection
-title: ZwMapViewOfSection function
+title: ZwMapViewOfSection function (wdm.h)
 description: The ZwMapViewOfSection routine maps a view of a section into the virtual address space of a subject process.
 old-location: kernel\zwmapviewofsection.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwMapViewOfSection
--	NtMapViewOfSection
+- ZwMapViewOfSection
+- NtMapViewOfSection
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PROPSHEETUI_GETICON_INFO
-title: "_PROPSHEETUI_GETICON_INFO"
+title: _PROPSHEETUI_GETICON_INFO (compstui.h)
 description: The PROPSHEETUI_GETICON_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_ICON.
 old-location: print\propsheetui_geticon_info.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	PROPSHEETUI_GETICON_INFO
+- PROPSHEETUI_GETICON_INFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedFilterInterface
-title: KsPinGetConnectedFilterInterface function
+title: KsPinGetConnectedFilterInterface function (ks.h)
 description: The KsPinGetConnectedFilterInterface function queries the filter to which Pin is connected in order to obtain a pointer to a COM interface.
 old-location: stream\kspingetconnectedfilterinterface.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinGetConnectedFilterInterface
+- KsPinGetConnectedFilterInterface
 product:
 - Windows
 targetos: Windows

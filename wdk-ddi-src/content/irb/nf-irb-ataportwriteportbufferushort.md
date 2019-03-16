@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortWritePortBufferUshort
-title: AtaPortWritePortBufferUshort function
+title: AtaPortWritePortBufferUshort function (irb.h)
 description: The AtaPortWritePortBufferUshort routine transfers the indicated number of USHORT values from a buffer to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteportbufferushort.htm
 tech.root: storage
@@ -26,17 +26,17 @@ req.lib: Ataport.lib; Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ataport.lib
--	ataport.dll
--	pciidex.lib
--	pciidex.dll
+- ataport.lib
+- ataport.dll
+- pciidex.lib
+- pciidex.dll
 api_name:
--	AtaPortWritePortBufferUshort
+- AtaPortWritePortBufferUshort
 product:
 - Windows
 targetos: Windows

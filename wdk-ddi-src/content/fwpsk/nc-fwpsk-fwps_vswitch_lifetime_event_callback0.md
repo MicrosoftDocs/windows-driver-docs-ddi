@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
-title: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
+title: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 (fwpsk.h)
 description: The filter engine calls the vSwitchLifetimeNotifyFn (FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0) callout function to notify the callout driver about create and delete events for a virtual switch.Note  FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 is a specific version of FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_lifetime_event_callback0.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	vSwitchLifetimeNotifyFn
+- vSwitchLifetimeNotifyFn
 product:
 - Windows
 targetos: Windows

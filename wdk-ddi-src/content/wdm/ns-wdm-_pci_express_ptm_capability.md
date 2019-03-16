@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_PTM_CAPABILITY
-title: _PCI_EXPRESS_PTM_CAPABILITY
+title: _PCI_EXPRESS_PTM_CAPABILITY (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: 55500c00-063e-4d11-aef1-ba3fcc45681d
 ms.date: 10/19/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_PTM_CAPABILITY, *PPCI_EXPRESS_PTM_CAPABILITY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_PCI_EXPRESS_PTM_CAPABILITY
-product: Windows
+- _PCI_EXPRESS_PTM_CAPABILITY
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

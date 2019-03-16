@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_SELECT_CONFIGURATION
-title: "_URB_SELECT_CONFIGURATION"
+title: _URB_SELECT_CONFIGURATION (usb.h)
 description: The _URB_SELECT_CONFIGURATION structure is used by client drivers to select a configuration for a USB device.
 old-location: buses\_urb_select_configuration.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_SELECT_CONFIGURATION
+- _URB_SELECT_CONFIGURATION
 product:
 - Windows
 targetos: Windows

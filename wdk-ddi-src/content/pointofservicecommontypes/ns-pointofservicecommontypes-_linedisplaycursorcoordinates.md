@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplayCursorCoordinates
-title: "_LineDisplayCursorCoordinates"
+title: _LineDisplayCursorCoordinates (pointofservicecommontypes.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicecommontypes.h
+- pointofservicecommontypes.h
 api_name:
--	LineDisplayCursorCoordinates
+- LineDisplayCursorCoordinates
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_SURPRISE_REMOVAL_TYPE
-title: "_DXGK_SURPRISE_REMOVAL_TYPE"
+title: _DXGK_SURPRISE_REMOVAL_TYPE (dispmprt.h)
 description: Indicates the type of surprise removal event when an external display device is disconnected from the system.
 old-location: display\dxgk_surprise_removal_type.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DXGK_SURPRISE_REMOVAL_TYPE
+- DXGK_SURPRISE_REMOVAL_TYPE
 product:
 - Windows
 targetos: Windows

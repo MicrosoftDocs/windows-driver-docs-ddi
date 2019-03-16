@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadControl
-title: IDebugDataSpaces4::ReadControl
+title: IDebugDataSpaces4::ReadControl (dbgeng.h)
 description: The ReadControl method reads implementation-specific system data.
 old-location: debugger\readcontrol.htm
 tech.root: debugger
@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadControl
--	IDebugDataSpaces2.ReadControl
--	IDebugDataSpaces3.ReadControl
--	IDebugDataSpaces4.ReadControl
+- IDebugDataSpaces.ReadControl
+- IDebugDataSpaces2.ReadControl
+- IDebugDataSpaces3.ReadControl
+- IDebugDataSpaces4.ReadControl
 product:
 - Windows
 targetos: Windows

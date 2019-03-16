@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYPROCESS
-title: DXGKDDI_DESTROYPROCESS
+title: DXGKDDI_DESTROYPROCESS (d3dkmddi.h)
 description: DxgkDdiDestroyProcess destroys a kernel mode driver process object.
 old-location: display\dxgkddidestroyprocess.htm
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
@@ -25,15 +25,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
--	d3dkmddi.h
+- dispmprt.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiDestroyProcess
+- DxgkDdiDestroyProcess
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateDefaultClockEx
-title: KsAllocateDefaultClockEx function
+title: KsAllocateDefaultClockEx function (ks.h)
 description: The KsAllocateDefaultClockEx function allocates and initializes the default clock structure.
 old-location: stream\ksallocatedefaultclockex.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsAllocateDefaultClockEx
+- KsAllocateDefaultClockEx
 product:
 - Windows
 targetos: Windows

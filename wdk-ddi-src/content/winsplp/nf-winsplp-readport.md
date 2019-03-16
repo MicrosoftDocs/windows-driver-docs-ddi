@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ReadPort
-title: ReadPort function
+title: ReadPort function (winsplp.h)
 description: A port monitor's ReadPort function reads data from a printer port.
 old-location: print\readport.htm
 tech.root: print
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	winsplp.h
-apiname:
--	ReadPort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- winsplp.h
+api_name:
+- ReadPort
 product:
 - Windows
 targetos: Windows

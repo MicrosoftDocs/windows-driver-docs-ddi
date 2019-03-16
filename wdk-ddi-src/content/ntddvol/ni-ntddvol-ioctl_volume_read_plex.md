@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_READ_PLEX
-title: IOCTL_VOLUME_READ_PLEX
+title: IOCTL_VOLUME_READ_PLEX (ntddvol.h)
 description: Performs a read on a specific plex of a volume.
 old-location: storage\ioctl_volume_read_plex.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvol.h
+- Ntddvol.h
 api_name:
--	IOCTL_VOLUME_READ_PLEX
+- IOCTL_VOLUME_READ_PLEX
 product:
 - Windows
 targetos: Windows

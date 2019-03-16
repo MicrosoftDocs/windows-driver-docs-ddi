@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.ExpandSymbol
-title: IDebugSymbolGroup::ExpandSymbol
+title: IDebugSymbolGroup::ExpandSymbol (dbgeng.h)
 description: The ExpandSymbol method adds or removes the children of a symbol from a symbol group.
 old-location: debugger\expandsymbol.htm
 tech.root: debugger
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup.ExpandSymbol
--	IDebugSymbolGroup2.ExpandSymbol
+- IDebugSymbolGroup.ExpandSymbol
+- IDebugSymbolGroup2.ExpandSymbol
 product:
 - Windows
 targetos: Windows

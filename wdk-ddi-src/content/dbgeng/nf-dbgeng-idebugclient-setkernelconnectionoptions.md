@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetKernelConnectionOptions
-title: IDebugClient::SetKernelConnectionOptions
+title: IDebugClient::SetKernelConnectionOptions (dbgeng.h)
 description: The SetKernelConnectionOptions method updates some of the connection options for a live kernel target.
 old-location: debugger\setkernelconnectionoptions.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.SetKernelConnectionOptions
--	IDebugClient2.SetKernelConnectionOptions
--	IDebugClient3.SetKernelConnectionOptions
--	IDebugClient4.SetKernelConnectionOptions
--	IDebugClient5.SetKernelConnectionOptions
+- IDebugClient.SetKernelConnectionOptions
+- IDebugClient2.SetKernelConnectionOptions
+- IDebugClient3.SetKernelConnectionOptions
+- IDebugClient4.SetKernelConnectionOptions
+- IDebugClient5.SetKernelConnectionOptions
 product:
 - Windows
 targetos: Windows

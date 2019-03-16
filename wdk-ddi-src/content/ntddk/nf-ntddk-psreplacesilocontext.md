@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsReplaceSiloContext
-title: PsReplaceSiloContext function
+title: PsReplaceSiloContext function (ntddk.h)
 description: This routine inserts an object in a Silo.
 old-location: kernel\psreplacesilocontext.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PsReplaceSiloContext
+- PsReplaceSiloContext
 product:
 - Windows
 targetos: Windows

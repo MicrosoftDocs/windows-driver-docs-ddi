@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_PRESENT
-title: DXGIDDICB_PRESENT
+title: DXGIDDICB_PRESENT (dxgiddi.h)
 description: The DXGIDDICB_PRESENT structure describes allocations that content is copied to and from.
 old-location: display\dxgiddicb_present.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGIDDICB_PRESENT
+- DXGIDDICB_PRESENT
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsSetCreateProcessNotifyRoutineEx
-title: PsSetCreateProcessNotifyRoutineEx function
+title: PsSetCreateProcessNotifyRoutineEx function (ntddk.h)
 description: The PsSetCreateProcessNotifyRoutineEx routine registers or removes a callback routine that notifies the caller when a process is created or exits.
 old-location: kernel\pssetcreateprocessnotifyroutineex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PsSetCreateProcessNotifyRoutineEx
+- PsSetCreateProcessNotifyRoutineEx
 product:
 - Windows
 targetos: Windows

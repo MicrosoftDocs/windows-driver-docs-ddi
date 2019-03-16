@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.OutputAsTypeWide
-title: IDebugSymbolGroup2::OutputAsTypeWide
+title: IDebugSymbolGroup2::OutputAsTypeWide (dbgeng.h)
 description: The OutputAsTypeWide method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastypewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbolGroup2.OutputAsTypeWide
+- IDebugSymbolGroup2.OutputAsTypeWide
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartResourceDictionary
-title: IPartResourceDictionary
+title: IPartResourceDictionary (filterpipeline.h)
 description: The IPartResourceDictionary interface is the abstraction for an XPS resource dictionary.
 old-location: print\ipartresourcedictionary.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	filterpipeline.h
+- filterpipeline.h
 api_name:
--	IPartResourceDictionary
+- IPartResourceDictionary
 product:
 - Windows
 targetos: Windows

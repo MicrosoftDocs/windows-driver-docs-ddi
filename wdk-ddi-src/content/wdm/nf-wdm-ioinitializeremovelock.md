@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeRemoveLock
-title: IoInitializeRemoveLock macro
+title: IoInitializeRemoveLock macro (wdm.h)
 description: The IoInitializeRemoveLock routine initializes a remove lock for a device object.
 old-location: kernel\ioinitializeremovelock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoInitializeRemoveLock
+- IoInitializeRemoveLock
 product:
 - Windows
 targetos: Windows

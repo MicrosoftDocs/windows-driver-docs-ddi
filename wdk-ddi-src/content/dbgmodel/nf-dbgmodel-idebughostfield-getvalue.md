@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetValue
-title: IDebugHostField::GetValue
+title: IDebugHostField::GetValue (dbgmodel.h)
 description: For fields which have a constant value defined within the symbolic information, the GetValue method will return the constant value of the field. 
 ms.assetid: 1ecd00e7-869f-4e87-8c2f-3d4abea74698
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostField.GetValue
-product: Windows
+- IDebugHostField.GetValue
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

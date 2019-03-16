@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueNumber
-title: IWDTFTarget2::GetValueNumber
+title: IWDTFTarget2::GetValueNumber (wdtf.h)
 description: Returns a number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumber.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFTarget2.GetValueNumber
+- IWDTFTarget2.GetValueNumber
 product:
 - Windows
 targetos: Windows

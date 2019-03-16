@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortLogError
-title: VideoPortLogError function
+title: VideoPortLogError function (video.h)
 description: The VideoPortLogError function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 old-location: display\videoportlogerror.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortLogError
+- VideoPortLogError
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CLOSE_COMPLETION
-title: NDK_FN_CLOSE_COMPLETION
+title: NDK_FN_CLOSE_COMPLETION (ndkpi.h)
 description: The NdkCloseCompletion (NDK_FN_CLOSE_COMPLETION) function is an asynchronous completion function for closing NDK objects.
 old-location: netvista\ndk_fn_close_completion.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCloseCompletion
+- NdkCloseCompletion
 product:
 - Windows
 targetos: Windows

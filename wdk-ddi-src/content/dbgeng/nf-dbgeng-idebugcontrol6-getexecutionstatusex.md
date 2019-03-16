@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl6.GetExecutionStatusEx
-title: IDebugControl6::GetExecutionStatusEx
+title: IDebugControl6::GetExecutionStatusEx (dbgeng.h)
 description: The GetExecutionStatusEx method returns information about the execution status of the debugger engine.
 old-location: debugger\idebugcontrol6_getexecutionstatusex.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl6.GetExecutionStatusEx
+- IDebugControl6.GetExecutionStatusEx
 product:
 - Windows
 targetos: Windows

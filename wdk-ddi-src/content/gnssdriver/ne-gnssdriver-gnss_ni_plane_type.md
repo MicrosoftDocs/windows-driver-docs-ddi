@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_6
-title: GNSS_NI_PLANE_TYPE
+title: GNSS_NI_PLANE_TYPE (gnssdriver.h)
 description: This enumeration indicates the plane type of a network initiated (NI) request represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_plane_type.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_NI_PLANE_TYPE
+- GNSS_NI_PLANE_TYPE
 product:
 - Windows
 targetos: Windows

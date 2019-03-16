@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_COMMIT_VIRTUAL
-title: PAGP_COMMIT_VIRTUAL
+title: PAGP_COMMIT_VIRTUAL (videoagp.h)
 description: The AgpCommitVirtual function maps reserved virtual memory to an associated range of AGP-decodable physical addresses.
 old-location: display\agpcommitvirtual.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpCommitVirtual
+- AgpCommitVirtual
 product:
 - Windows
 targetos: Windows

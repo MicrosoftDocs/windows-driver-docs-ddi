@@ -1,6 +1,6 @@
 ---
 UID: NC:srb.PHW_INTERRUPT
-title: PHW_INTERRUPT
+title: PHW_INTERRUPT (srb.h)
 description: The PHW_INTERRUPT routine prototype declares the miniport driver's interrupt handler routine.
 old-location: storage\phw_interrupt.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	srb.h
+- srb.h
 api_name:
--	(*PHW_INTERRUPT)
+- (*PHW_INTERRUPT)
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_QUERYAUTHENICATEDCHANNEL
-title: "_D3DDDIARG_QUERYAUTHENICATEDCHANNEL"
+title: _D3DDDIARG_QUERYAUTHENICATEDCHANNEL (d3dumddi.h)
 description: The D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure describes authenticated-channel information to query by using the QueryAuthenticatedChannel function.
 old-location: display\d3dddiarg_queryauthenticatedchannel.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
+- D3DDDIARG_QUERYAUTHENTICATEDCHANNEL
 product:
 - Windows
 targetos: Windows

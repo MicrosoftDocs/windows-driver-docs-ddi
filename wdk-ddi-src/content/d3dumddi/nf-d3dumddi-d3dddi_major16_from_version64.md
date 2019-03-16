@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dumddi.D3DDDI_MAJOR16_FROM_VERSION64
-title: D3DDDI_MAJOR16_FROM_VERSION64 macro
+title: D3DDDI_MAJOR16_FROM_VERSION64 macro (d3dumddi.h)
 description: Converts a 16 bit major from a 64 bit version.
 ms.assetid: 0a663636-0158-452b-bdff-dc4e7488c88e
 ms.date: 10/19/2018
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDI_MAJOR16_FROM_VERSION64
+- D3DDDI_MAJOR16_FROM_VERSION64
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

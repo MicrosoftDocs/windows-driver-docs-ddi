@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_SIGNAL_INDICATION
-title: "_NDIS_WWAN_SET_SIGNAL_INDICATION"
+title: _NDIS_WWAN_SET_SIGNAL_INDICATION (ndiswwan.h)
 description: The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication of the MB device.
 old-location: netvista\ndis_wwan_set_signal_indication.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SET_SIGNAL_INDICATION
+- NDIS_WWAN_SET_SIGNAL_INDICATION
 product:
 - Windows
 targetos: Windows

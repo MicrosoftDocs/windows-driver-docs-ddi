@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_DisplayUI
-title: IPrintSchemaFeature::get_DisplayUI
+title: IPrintSchemaFeature::get_DisplayUI (printerextension.h)
 description: Gets the setting that indicates whether or not to show the print UI.
 old-location: print\iprintschemafeature_displayui.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaFeature.DisplayUI
--	IPrintSchemaFeature.get_DisplayUI
+- IPrintSchemaFeature.DisplayUI
+- IPrintSchemaFeature.get_DisplayUI
 product:
 - Windows
 targetos: Windows

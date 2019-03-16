@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.AddRef
-title: IDebugHostStatus::AddRef
+title: IDebugHostStatus::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 6a246cf8-df04-4567-a18e-56b56ded5689
 ms.date: 09/21/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostStatus.AddRef
-product: Windows
+- IDebugHostStatus.AddRef
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

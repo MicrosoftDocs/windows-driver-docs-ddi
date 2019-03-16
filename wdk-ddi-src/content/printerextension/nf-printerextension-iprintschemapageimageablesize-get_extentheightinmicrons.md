@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
-title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
+title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons (printerextension.h)
 description: Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 old-location: print\iprintschemapageimageablesize_extentheightinmicrons.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaPageImageableSize.ExtentHeightInMicrons
--	IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
+- IPrintSchemaPageImageableSize.ExtentHeightInMicrons
+- IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
 product:
 - Windows
 targetos: Windows

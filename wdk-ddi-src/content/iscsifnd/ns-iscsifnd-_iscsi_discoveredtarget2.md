@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTarget2
-title: "_ISCSI_DiscoveredTarget2"
+title: _ISCSI_DiscoveredTarget2 (iscsifnd.h)
 description: The ISCSI_DiscoveredTarget2 structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget2.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsifnd.h
+- iscsifnd.h
 api_name:
--	ISCSI_DiscoveredTarget2
+- ISCSI_DiscoveredTarget2
 product:
 - Windows
 targetos: Windows

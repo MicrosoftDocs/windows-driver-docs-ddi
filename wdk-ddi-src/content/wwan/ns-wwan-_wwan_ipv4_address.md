@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IPV4_ADDRESS
-title: "_WWAN_IPV4_ADDRESS"
+title: _WWAN_IPV4_ADDRESS (wwan.h)
 description: The WWAN_IPV4_ADDRESS structure represents an IPV4 address of a PDP context.
 old-location: netvista\wwan_ipv4_address.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_IPV4_ADDRESS
+- WWAN_IPV4_ADDRESS
 product:
 - Windows
 targetos: Windows

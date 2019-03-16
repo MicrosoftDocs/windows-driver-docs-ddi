@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAllocatePool
-title: VideoPortAllocatePool function
+title: VideoPortAllocatePool function (video.h)
 description: The VideoPortAllocatePool function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 old-location: display\videoportallocatepool.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortAllocatePool
+- VideoPortAllocatePool
 product:
 - Windows
 targetos: Windows

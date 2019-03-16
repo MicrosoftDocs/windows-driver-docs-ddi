@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtBuffer.Copy
-title: ExtBuffer::Copy method
+title: ExtBuffer::Copy method (engextcpp.h)
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 tech.root: debugger
@@ -25,15 +25,15 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	COM
-apilocation:
--	engextcpp.hpp
-apiname:
--	ExtRemoteTyped.Copy
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- engextcpp.hpp
+api_name:
+- ExtRemoteTyped.Copy
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
-title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
+title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022 (d3d12umddi.h)
 description: Specifies information used to retrieve capabilities for a video processor.
 old-location: display\d3d12ddi_video_process_support_data.htm
 ms.assetid: B42D3637-BBFF-411B-AA1B-4B9578E2EDA9
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
+- D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0022
 product:
 - Windows
 targetos: Windows

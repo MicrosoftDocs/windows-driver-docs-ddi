@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetDisplayModeList
-title: D3DKMTGetDisplayModeList function
+title: D3DKMTGetDisplayModeList function (d3dkmthk.h)
 description: The D3DKMTGetDisplayModeList function retrieves a list of available display modes, including modes with extended format.
 old-location: display\d3dkmtgetdisplaymodelist.htm
 ms.assetid: f813171d-1c7d-4f75-850f-225ea166ff5c
@@ -25,17 +25,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
--	API-MS-Win-dx-d3dkmt-l1-1-0.dll
--	API-MS-Win-dx-d3dkmt-l1-1-1.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTGetDisplayModeList
+- D3DKMTGetDisplayModeList
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_STATUS_BLOCK
-title: "_IO_STATUS_BLOCK"
+title: _IO_STATUS_BLOCK (wdm.h)
 description: A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling IoCompleteRequest for the IRP.
 old-location: kernel\io_status_block.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_STATUS_BLOCK
+- IO_STATUS_BLOCK
 product:
 - Windows
 targetos: Windows

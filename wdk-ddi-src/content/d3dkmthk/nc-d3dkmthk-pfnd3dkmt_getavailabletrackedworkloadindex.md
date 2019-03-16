@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
-title: PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
+title: PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX (d3dkmthk.h)
 description: Gets the available tracked workload index.
 ms.assetid: aa4a954a-abac-4adb-859e-e7f7c46c58cf
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
+- PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

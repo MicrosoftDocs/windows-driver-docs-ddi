@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinReleaseProcessingMutex
-title: KsPinReleaseProcessingMutex function
+title: KsPinReleaseProcessingMutex function (ks.h)
 description: The KsPinReleaseProcessingMutex function releases the processing mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinreleaseprocessingmutex.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsPinReleaseProcessingMutex
+- KsPinReleaseProcessingMutex
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_ESCAPE
-title: "_DXGKARG_ESCAPE"
+title: _DXGKARG_ESCAPE (d3dkmddi.h)
 description: The DXGKARG_ESCAPE structure describes information that the user-mode display driver shares with the display miniport driver.
 old-location: display\dxgkarg_escape.htm
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_ESCAPE
+- DXGKARG_ESCAPE
 product:
 - Windows
 targetos: Windows

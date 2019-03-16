@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_VERSION
-title: IOCTL_GET_VERSION
+title: IOCTL_GET_VERSION (usbscan.h)
 description: Returns the version number of the driver.
 old-location: image\ioctl_get_version.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_GET_VERSION
+- IOCTL_GET_VERSION
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetIMSI
-title: RIL_GetIMSI function
+title: RIL_GetIMSI function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getimsi.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rilapi.h
+- rilapi.h
 api_name:
--	RIL_GetIMSI
+- RIL_GetIMSI
 product:
 - Windows
 targetos: Windows

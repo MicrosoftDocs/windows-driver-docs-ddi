@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.SetOtherOutputMask
-title: IDebugClient2::SetOtherOutputMask
+title: IDebugClient2::SetOtherOutputMask (dbgeng.h)
 description: The SetOtherOutputMask method sets the output mask for another client.
 old-location: debugger\setotheroutputmask.htm
 tech.root: debugger
@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.SetOtherOutputMask
--	IDebugClient2.SetOtherOutputMask
--	IDebugClient3.SetOtherOutputMask
--	IDebugClient4.SetOtherOutputMask
--	IDebugClient5.SetOtherOutputMask
+- IDebugClient.SetOtherOutputMask
+- IDebugClient2.SetOtherOutputMask
+- IDebugClient3.SetOtherOutputMask
+- IDebugClient4.SetOtherOutputMask
+- IDebugClient5.SetOtherOutputMask
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DEVICEINFO
-title: "_DXGK_DEVICEINFO"
+title: _DXGK_DEVICEINFO (d3dkmddi.h)
 description: The DXGK_DEVICEINFO structure describes parameters that the Microsoft DirectX graphics kernel subsystem requires from the display miniport driver.
 old-location: display\dxgk_deviceinfo.htm
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_DEVICEINFO
+- DXGK_DEVICEINFO
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortBufferUchar
-title: NdisRawReadPortBufferUchar macro
+title: NdisRawReadPortBufferUchar macro (ndis.h)
 description: NdisRawReadPortBufferUchar reads a specified number of bytes into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferuchar.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisRawReadPortBufferUchar
+- NdisRawReadPortBufferUchar
 product:
 - Windows
 targetos: Windows

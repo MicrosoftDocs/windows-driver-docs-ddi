@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDecrementCountedWorker
-title: KsDecrementCountedWorker function
+title: KsDecrementCountedWorker function (ks.h)
 description: Decrements the current worker count of a worker previous created by KsRegisterCountedWorker. This should be called after each task within a worker has been completed.
 old-location: stream\ksdecrementcountedworker.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDecrementCountedWorker
+- KsDecrementCountedWorker
 product:
 - Windows
 targetos: Windows

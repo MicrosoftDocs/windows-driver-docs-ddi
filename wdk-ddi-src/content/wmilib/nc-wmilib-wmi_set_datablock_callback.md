@@ -1,6 +1,6 @@
 ---
 UID: NC:wmilib.WMI_SET_DATABLOCK_CALLBACK
-title: WMI_SET_DATABLOCK_CALLBACK
+title: WMI_SET_DATABLOCK_CALLBACK (wmilib.h)
 description: The DpWmiSetDataBlock routine changes all data items in a single instance of a data block. This routine is optional.
 old-location: kernel\dpwmisetdatablock.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wmilib.h
+- Wmilib.h
 api_name:
--	DpWmiSetDataBlock
+- DpWmiSetDataBlock
 product:
 - Windows
 targetos: Windows

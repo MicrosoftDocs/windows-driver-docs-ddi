@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.POB_PRE_OPERATION_CALLBACK
-title: POB_PRE_OPERATION_CALLBACK
+title: POB_PRE_OPERATION_CALLBACK (wdm.h)
 description: The ObjectPreCallback routine is called by the operating system when a process or thread handle operation occurs.
 old-location: kernel\objectprecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ObjectPreCallback
+- ObjectPreCallback
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_REPARSE_POINT_INFORMATION
-title: "_FILE_REPARSE_POINT_INFORMATION"
+title: _FILE_REPARSE_POINT_INFORMATION (ntifs.h)
 description: The FILE_REPARSE_POINT_INFORMATION structure is used to query for information about a reparse point.
 old-location: ifsk\file_reparse_point_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_REPARSE_POINT_INFORMATION
+- FILE_REPARSE_POINT_INFORMATION
 product:
 - Windows
 targetos: Windows

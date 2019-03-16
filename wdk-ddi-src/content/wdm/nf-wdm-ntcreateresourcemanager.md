@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtCreateResourceManager
-title: NtCreateResourceManager function
+title: NtCreateResourceManager function (wdm.h)
 description: The ZwCreateResourceManager routine creates a resource manager object.
 old-location: kernel\zwcreateresourcemanager.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwCreateResourceManager
--	NtCreateResourceManager
+- ZwCreateResourceManager
+- NtCreateResourceManager
 product:
 - Windows
 targetos: Windows

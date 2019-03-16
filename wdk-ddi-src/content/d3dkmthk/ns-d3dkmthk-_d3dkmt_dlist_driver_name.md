@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DLIST_DRIVER_NAME
-title: _D3DKMT_DLIST_DRIVER_NAME
+title: _D3DKMT_DLIST_DRIVER_NAME (d3dkmthk.h)
 description: The device list file name.
 ms.assetid: 7911f08b-39a6-424b-ba4a-ac3b697b7040
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DLIST_DRIVER_NAME
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DLIST_DRIVER_NAME
+- _D3DKMT_DLIST_DRIVER_NAME
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

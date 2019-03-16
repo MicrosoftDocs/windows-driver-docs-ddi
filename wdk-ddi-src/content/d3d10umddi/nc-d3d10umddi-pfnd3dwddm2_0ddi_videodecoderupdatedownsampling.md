@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
-title: PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING
+title: PFND3DWDDM2_0DDI_VIDEODECODERUPDATEDOWNSAMPLING (d3d10umddi.h)
 description: Updates the decoder down sampling parameters. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 old-location: display\videodecoderupdatedownsampling.htm
 ms.assetid: DBF0F62D-E6E5-4711-9A7A-19C88F62575D
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	pfnVideoDecoderUpdateDownsampling
+- pfnVideoDecoderUpdateDownsampling
 product:
 - Windows
 targetos: Windows

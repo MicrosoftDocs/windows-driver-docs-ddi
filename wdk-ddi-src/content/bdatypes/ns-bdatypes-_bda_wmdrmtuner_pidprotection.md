@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PIDPROTECTION
-title: "_BDA_WMDRMTUNER_PIDPROTECTION"
+title: _BDA_WMDRMTUNER_PIDPROTECTION (bdatypes.h)
 description: 
 old-location: stream\bda_wmdrmtuner_pidprotection.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_WMDRMTUNER_PIDPROTECTION
+- BDA_WMDRMTUNER_PIDPROTECTION
 product:
 - Windows
 targetos: Windows

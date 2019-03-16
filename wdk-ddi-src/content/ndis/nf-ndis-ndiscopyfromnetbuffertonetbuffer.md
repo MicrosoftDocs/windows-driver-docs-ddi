@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCopyFromNetBufferToNetBuffer
-title: NdisCopyFromNetBufferToNetBuffer function
+title: NdisCopyFromNetBufferToNetBuffer function (ndis.h)
 description: Call the NdisCopyFromNetBufferToNetBuffer function to copy data from a source NET_BUFFER structure to a destination NET_BUFFER structure.
 old-location: netvista\ndiscopyfromnetbuffertonetbuffer.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisCopyFromNetBufferToNetBuffer
+- NdisCopyFromNetBufferToNetBuffer
 product:
 - Windows
 targetos: Windows

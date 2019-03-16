@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueGetState
-title: WdfIoQueueGetState function
+title: WdfIoQueueGetState function (wdfio.h)
 description: The WdfIoQueueGetState method returns the status of a specified I/O queue.
 old-location: wdf\wdfioqueuegetstate.htm
 tech.root: wdf
@@ -26,17 +26,17 @@ req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
--	WUDFx02000.dll
--	WUDFx02000.dll.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
+- WUDFx02000.dll
+- WUDFx02000.dll.dll
 api_name:
--	WdfIoQueueGetState
+- WdfIoQueueGetState
 product:
 - Windows
 targetos: Windows

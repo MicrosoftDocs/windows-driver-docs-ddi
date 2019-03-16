@@ -1,6 +1,6 @@
 ---
 UID: NF:wsk.WskReleaseProviderNPI
-title: WskReleaseProviderNPI function
+title: WskReleaseProviderNPI function (wsk.h)
 description: The WskReleaseProviderNPI function releases a Network Programming Interface (NPI) that was captured with WskCaptureProviderNPI.
 old-location: netvista\wskreleaseprovidernpi.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	WskReleaseProviderNPI
+- WskReleaseProviderNPI
 product:
 - Windows
 targetos: Windows

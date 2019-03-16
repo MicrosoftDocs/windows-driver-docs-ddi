@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeLengthSid
-title: SeLengthSid macro
+title: SeLengthSid macro (ntifs.h)
 description: Obsolete.
 old-location: ifsk\selengthsid.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	SeLengthSid
+- SeLengthSid
 product:
 - Windows
 targetos: Windows

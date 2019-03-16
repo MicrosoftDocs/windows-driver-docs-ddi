@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.FindSourceFile
-title: IDebugSymbols3::FindSourceFile
+title: IDebugSymbols3::FindSourceFile (dbgeng.h)
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.FindSourceFile
--	IDebugSymbols2.FindSourceFile
--	IDebugSymbols3.FindSourceFile
+- IDebugSymbols.FindSourceFile
+- IDebugSymbols2.FindSourceFile
+- IDebugSymbols3.FindSourceFile
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetLinkShareAccess
-title: IoSetLinkShareAccess function
+title: IoSetLinkShareAccess function (wdm.h)
 description: The IoSetLinkShareAccess routine sets the access rights for link sharing the specified file object.
 old-location: kernel\iosetlinkshareaccess.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	IoSetLinkShareAccess
+- IoSetLinkShareAccess
 product:
 - Windows
 targetos: Windows

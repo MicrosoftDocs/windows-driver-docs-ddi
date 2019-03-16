@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDataInBufferMdl
-title: StorPortGetDataInBufferMdl function
+title: StorPortGetDataInBufferMdl function (storport.h)
 description: Returns an MDL associated with the input data buffer of a SCSI request block (SRB).
 old-location: storage\storportgetdatainbuffermdl.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetDataInBufferMdl
+- StorPortGetDataInBufferMdl
 product:
 - Windows
 targetos: Windows

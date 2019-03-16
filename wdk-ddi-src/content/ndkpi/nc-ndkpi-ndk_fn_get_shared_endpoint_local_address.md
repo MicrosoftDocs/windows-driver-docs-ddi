@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS
-title: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS
+title: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS (ndkpi.h)
 description: The NdkGetSharedEndpointLocalAddress (NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS) function returns the local address for an NDK shared endpoint.
 old-location: netvista\ndk_fn_get_shared_endpoint_local_address.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkGetSharedEndpointLocalAddress
+- NdkGetSharedEndpointLocalAddress
 product:
 - Windows
 targetos: Windows

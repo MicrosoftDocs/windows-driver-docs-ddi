@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_FORMAT
-title: "_WWAN_SMS_FORMAT"
+title: _WWAN_SMS_FORMAT (wwan.h)
 description: The WWAN_SMS_FORMAT enumeration lists different Short Message Service (SMS) formats.
 old-location: netvista\wwan_sms_format.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_FORMAT
+- WWAN_SMS_FORMAT
 product:
 - Windows
 targetos: Windows

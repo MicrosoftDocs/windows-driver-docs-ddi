@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_CLOSE_ADAPTER_COMPLETE
-title: NDIS_WDI_CLOSE_ADAPTER_COMPLETE
+title: NDIS_WDI_CLOSE_ADAPTER_COMPLETE (dot11wdi.h)
 description: The NdisWdiCloseAdapterComplete callback function is called by the IHV when a Close Task operation from MiniportWdiCloseAdapter has been successfully started.
 old-location: netvista\ndiswdicloseadaptercomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiCloseAdapterComplete
+- NdisWdiCloseAdapterComplete
 product:
 - Windows
 targetos: Windows

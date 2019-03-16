@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_DOWN_SAMPLE_INFO
-title: "_WIAS_DOWN_SAMPLE_INFO"
+title: _WIAS_DOWN_SAMPLE_INFO (wiamindr_lh.h)
 description: The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, wiasDownSampleBuffer.
 old-location: image\wias_down_sample_info.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIAS_DOWN_SAMPLE_INFO
+- WIAS_DOWN_SAMPLE_INFO
 product:
 - Windows
 targetos: Windows

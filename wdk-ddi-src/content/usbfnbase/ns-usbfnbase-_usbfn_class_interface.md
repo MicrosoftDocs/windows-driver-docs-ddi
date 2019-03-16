@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INTERFACE
-title: "_USBFN_CLASS_INTERFACE"
+title: _USBFN_CLASS_INTERFACE (usbfnbase.h)
 description: Describes an interface and its endpoints.
 old-location: buses\usbfn_class_interface.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_CLASS_INTERFACE
+- USBFN_CLASS_INTERFACE
 product:
 - Windows
 targetos: Windows

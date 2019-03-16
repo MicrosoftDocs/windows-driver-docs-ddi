@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsSetPoHandle
-title: UrsSetPoHandle function
+title: UrsSetPoHandle function (ursdevice.h)
 description: Registers and deletes the client driver's registration with the power management framework (PoFx).
 old-location: buses\urssetpohandle.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Urscxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Urscxstub.lib
--	Urscxstub.dll
+- Urscxstub.lib
+- Urscxstub.dll
 api_name:
--	UrsSetPoHandle
+- UrsSetPoHandle
 product:
 - Windows
 targetos: Windows

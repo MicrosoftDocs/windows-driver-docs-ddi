@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgFlags
-title: wiauDbgFlags function
+title: wiauDbgFlags function (wiautil.h)
 description: The wiauDbgFlags function determines whether a particular debugging flag is set.
 old-location: image\wiaudbgflags.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgFlags
+- wiauDbgFlags
 product:
 - Windows
 targetos: Windows

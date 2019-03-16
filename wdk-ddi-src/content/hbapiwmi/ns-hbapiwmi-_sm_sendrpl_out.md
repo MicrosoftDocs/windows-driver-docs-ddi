@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRPL_OUT
-title: "_SM_SendRPL_OUT"
+title: _SM_SendRPL_OUT (hbapiwmi.h)
 description: The SM_SendRPL_OUT structure is used to receive output parameters from the SM_SendRPL method.
 old-location: storage\sm_sendrpl_out.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendRPL_OUT
+- SM_SendRPL_OUT
 product:
 - Windows
 targetos: Windows

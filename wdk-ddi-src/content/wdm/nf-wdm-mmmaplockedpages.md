@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapLockedPages
-title: MmMapLockedPages function
+title: MmMapLockedPages function (wdm.h)
 description: The MmMapLockedPages routine is obsolete for Windows 2000 and later versions of Windows, and for Windows Me.
 old-location: kernel\mmmaplockedpages.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	MmMapLockedPages
+- MmMapLockedPages
 product:
 - Windows
 targetos: Windows

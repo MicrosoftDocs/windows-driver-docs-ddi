@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackIoResume
-title: IQueueCallbackIoResume
+title: IQueueCallbackIoResume (wudfddi.h)
 description: The IQueueCallbackIoResume interface contains a method that resumes the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackioresume.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wudfddi.h
+- wudfddi.h
 api_name:
--	IQueueCallbackIoResume
+- IQueueCallbackIoResume
 product:
 - Windows
 targetos: Windows

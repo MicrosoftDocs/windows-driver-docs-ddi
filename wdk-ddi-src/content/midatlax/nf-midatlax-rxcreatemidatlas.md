@@ -1,6 +1,6 @@
 ---
 UID: NF:midatlax.RxCreateMidAtlas
-title: RxCreateMidAtlas function
+title: RxCreateMidAtlas function (midatlax.h)
 description: RxCreateMidAtlas allocates a new instance of MID_ATLAS data structure and initializes it.
 old-location: ifsk\rxcreatemidatlas.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	midatlax.h
+- midatlax.h
 api_name:
--	RxCreateMidAtlas
+- RxCreateMidAtlas
 product:
 - Windows
 targetos: Windows

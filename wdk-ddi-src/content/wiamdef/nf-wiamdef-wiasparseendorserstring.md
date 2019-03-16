@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasParseEndorserString
-title: wiasParseEndorserString function
+title: wiasParseEndorserString function (wiamdef.h)
 description: The wiasParseEndorserString function parses an endorser string, replacing WIA service-defined and vendor-defined tokens in the string with values associated with those tokens.
 old-location: image\wiasparseendorserstring.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasParseEndorserString
+- wiasParseEndorserString
 product:
 - Windows
 targetos: Windows

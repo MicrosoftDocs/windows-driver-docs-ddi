@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATESYNCHRONIZATIONOBJECT
-title: "_D3DDDICB_CREATESYNCHRONIZATIONOBJECT"
+title: _D3DDDICB_CREATESYNCHRONIZATIONOBJECT (d3dumddi.h)
 description: The D3DDDICB_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the pfnCreateSynchronizationObjectCb function creates.
 old-location: display\d3dddicb_createsynchronizationobject.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDICB_CREATESYNCHRONIZATIONOBJECT
+- D3DDDICB_CREATESYNCHRONIZATIONOBJECT
 product:
 - Windows
 targetos: Windows

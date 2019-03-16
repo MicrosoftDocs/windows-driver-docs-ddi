@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_INTERRUPT_TYPE
-title: "_DXGK_INTERRUPT_TYPE"
+title: _DXGK_INTERRUPT_TYPE (d3dkmddi.h)
 description: The DXGK_INTERRUPT_TYPE enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
 old-location: display\dxgk_interrupt_type.htm
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_INTERRUPT_TYPE
+- DXGK_INTERRUPT_TYPE
 product:
 - Windows
 targetos: Windows
@@ -149,7 +149,7 @@ Raised when the GPU engine has timed out. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_SUSPEND_CONTEXT_COMPLETED
 
-Raised when the the suspend context has completed. Supported starting with Windows 10.
+Raised when the suspend context has completed. Supported starting with Windows 10.
 
 ## -see-also
 

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_OUTPUT_ID
-title: "_DXGKMDT_OPM_OUTPUT_ID"
+title: _DXGKMDT_OPM_OUTPUT_ID (d3dkmdt.h)
 description: The DXGKMDT_OPM_OUTPUT_ID structure identifies the output connector.
 old-location: display\dxgkmdt_opm_output_id.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGKMDT_OPM_OUTPUT_ID
+- DXGKMDT_OPM_OUTPUT_ID
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionCallingConvention
-title: IDebugHostType2::GetFunctionCallingConvention
+title: IDebugHostType2::GetFunctionCallingConvention (dbgmodel.h)
 description: The GetFunctionCallingConvention method returns the calling convention of the function.
 ms.assetid: 0719f5b4-abea-4cf9-942f-6d9da5edf4fd
 ms.date: 09/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType2.GetFunctionCallingConvention
-product: Windows
+- IDebugHostType2.GetFunctionCallingConvention
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

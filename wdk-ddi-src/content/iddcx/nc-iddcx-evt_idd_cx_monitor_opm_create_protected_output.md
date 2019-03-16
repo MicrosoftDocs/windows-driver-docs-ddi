@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
-title: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
+title: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT (iddcx.h)
 description: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT is called by the OS to create an OPM protected output context.
 old-location: display\evt_idd_cx_monitor_opm_create_protected_output.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
+- PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT
 product:
 - Windows
 targetos: Windows

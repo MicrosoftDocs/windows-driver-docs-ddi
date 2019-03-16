@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_READ
-title: "_WWAN_SMS_READ"
+title: _WWAN_SMS_READ (wwan.h)
 description: The WWAN_SMS_READ structure represents the format and filter of SMS messages to read.
 old-location: netvista\wwan_sms_read.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_READ
+- WWAN_SMS_READ
 product:
 - Windows
 targetos: Windows

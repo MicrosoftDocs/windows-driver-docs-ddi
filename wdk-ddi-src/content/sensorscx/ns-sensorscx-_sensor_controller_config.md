@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorscx._SENSOR_CONTROLLER_CONFIG
-title: "_SENSOR_CONTROLLER_CONFIG"
+title: _SENSOR_CONTROLLER_CONFIG (sensorscx.h)
 description: This structure contains pointers to callback functions that must be implemented by the driver, and passed on to the class extension to call.
 old-location: sensors\sensor_controller_config.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	SENSOR_CONTROLLER_CONFIG
+- SENSOR_CONTROLLER_CONFIG
 product:
 - Windows
 targetos: Windows

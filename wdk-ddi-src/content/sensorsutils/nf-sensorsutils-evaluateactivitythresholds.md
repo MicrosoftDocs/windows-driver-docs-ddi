@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.EvaluateActivityThresholds
-title: EvaluateActivityThresholds function
+title: EvaluateActivityThresholds function (sensorsutils.h)
 description: This routine determines whether the new incoming activity data meets the threshold.
 ms.assetid: f2a211f5-90ab-4665-856a-cd9b007c8efa
 ms.date: 08/08/2018
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	EvaluateActivityThresholds
+- EvaluateActivityThresholds
 product:
 - Windows
 targetos: Windows

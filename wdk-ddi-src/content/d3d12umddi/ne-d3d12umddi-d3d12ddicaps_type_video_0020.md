@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDICAPS_TYPE_VIDEO_0020
-title: D3D12DDICAPS_TYPE_VIDEO_0020
+title: D3D12DDICAPS_TYPE_VIDEO_0020 (d3d12umddi.h)
 description: Contains capability types for video.
 old-location: display\d3d12ddicaps_type_video_0020.htm
 ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDICAPS_TYPE_VIDEO_0020
+- D3D12DDICAPS_TYPE_VIDEO_0020
 product:
 - Windows
 targetos: Windows

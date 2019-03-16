@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvUpgradeRegistrySetting
-title: PFN_DrvUpgradeRegistrySetting
+title: PFN_DrvUpgradeRegistrySetting (printoem.h)
 description: The DrvUpgradeRegistrySetting function is obsolete.
 old-location: print\drvupgraderegistrysetting.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	DrvUpgradeRegistrySetting
+- DrvUpgradeRegistrySetting
 product:
 - Windows
 targetos: Windows

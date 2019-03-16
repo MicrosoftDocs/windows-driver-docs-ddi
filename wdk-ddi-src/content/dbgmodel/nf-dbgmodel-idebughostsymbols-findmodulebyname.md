@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.FindModuleByName
-title: IDebugHostSymbols::FindModuleByName
+title: IDebugHostSymbols::FindModuleByName (dbgmodel.h)
 description: The FindModuleByName method will look through the given host context and locate a module which has the specified name and return an interface to it. 
 ms.assetid: 7ff45667-8b89-46a9-8167-d90976dae181
 ms.date: 10/05/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostSymbols.FindModuleByName
-product: Windows
+- IDebugHostSymbols.FindModuleByName
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

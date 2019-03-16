@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseResourceLite
-title: ExReleaseResourceLite function
+title: ExReleaseResourceLite function (wdm.h)
 description: The ExReleaseResourceLite routine releases a specified executive resource owned by the current thread.
 old-location: kernel\exreleaseresourcelite.htm
 tech.root: kernel
@@ -26,16 +26,16 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExReleaseResourceLite
+- ExReleaseResourceLite
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

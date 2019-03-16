@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_LISTENER
-title: "_NDK_LISTENER"
+title: _NDK_LISTENER (ndkpi.h)
 description: The NDK_LISTENER structure specifies the attributes of an NDK listener object.
 old-location: netvista\ndk_listener.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_LISTENER
+- NDK_LISTENER
 product:
 - Windows
 targetos: Windows

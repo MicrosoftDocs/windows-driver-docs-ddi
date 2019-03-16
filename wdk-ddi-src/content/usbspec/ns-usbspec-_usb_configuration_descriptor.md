@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_CONFIGURATION_DESCRIPTOR
-title: "_USB_CONFIGURATION_DESCRIPTOR"
+title: _USB_CONFIGURATION_DESCRIPTOR (usbspec.h)
 description: The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 old-location: buses\usb_configuration_descriptor.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_CONFIGURATION_DESCRIPTOR
+- USB_CONFIGURATION_DESCRIPTOR
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
 
 
 The  <b>USB_CONFIGURATION_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined configuration descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.3.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.3.
 
 ## -struct-fields
 

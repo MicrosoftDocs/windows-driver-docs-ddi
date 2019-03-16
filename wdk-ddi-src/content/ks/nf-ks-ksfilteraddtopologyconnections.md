@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAddTopologyConnections
-title: KsFilterAddTopologyConnections function
+title: KsFilterAddTopologyConnections function (ks.h)
 description: The KsFilterAddTopologyConnections function adds new topology connections to a filter.
 old-location: stream\ksfilteraddtopologyconnections.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsFilterAddTopologyConnections
+- KsFilterAddTopologyConnections
 product:
 - Windows
 targetos: Windows

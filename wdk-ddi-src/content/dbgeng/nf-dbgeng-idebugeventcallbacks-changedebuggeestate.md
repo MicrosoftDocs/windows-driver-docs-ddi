@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ChangeDebuggeeState
-title: IDebugEventCallbacks::ChangeDebuggeeState
+title: IDebugEventCallbacks::ChangeDebuggeeState (dbgeng.h)
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbacks_changedebuggeestate.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugEventCallbacks.ChangeDebuggeeState
+- IDebugEventCallbacks.ChangeDebuggeeState
 product:
 - Windows
 targetos: Windows

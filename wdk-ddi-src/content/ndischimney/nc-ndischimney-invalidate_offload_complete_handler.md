@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.INVALIDATE_OFFLOAD_COMPLETE_HANDLER
-title: INVALIDATE_OFFLOAD_COMPLETE_HANDLER
+title: INVALIDATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolInvalidateOffloadComplete function to complete an invalidate operation that the driver previously initiated by calling the NdisInvalidateOffload function.
 old-location: netvista\protocolinvalidateoffloadcomplete.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	ProtocolInvalidateOffloadComplete
+- ProtocolInvalidateOffloadComplete
 product:
 - Windows
 targetos: Windows

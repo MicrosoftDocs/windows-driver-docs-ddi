@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EXTENDED_ADDRESS
-title: "_PEP_ACPI_EXTENDED_ADDRESS"
+title: _PEP_ACPI_EXTENDED_ADDRESS (pepfx.h)
 description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_EXTENDED_ADDRESS
+- PEP_ACPI_EXTENDED_ADDRESS
 product:
 - Windows
 targetos: Windows

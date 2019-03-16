@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwFlushBuffersFile
-title: ZwFlushBuffersFile function
+title: ZwFlushBuffersFile function (ntifs.h)
 description: The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
 old-location: kernel\zwflushbuffersfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwFlushBuffersFile
--	NtFlushBuffersFile
+- ZwFlushBuffersFile
+- NtFlushBuffersFile
 product:
 - Windows
 targetos: Windows

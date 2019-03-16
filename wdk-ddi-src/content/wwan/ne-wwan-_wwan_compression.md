@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_COMPRESSION
-title: "_WWAN_COMPRESSION"
+title: _WWAN_COMPRESSION (wwan.h)
 description: The WWAN_COMPRESSION enumeration lists the different compression options that are supported by the MB device.
 old-location: netvista\wwan_compression.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_COMPRESSION
+- WWAN_COMPRESSION
 product:
 - Windows
 targetos: Windows

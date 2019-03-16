@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.SILO_MONITOR_CREATE_CALLBACK
-title: SILO_MONITOR_CREATE_CALLBACK
+title: SILO_MONITOR_CREATE_CALLBACK (ntddk.h)
 description: This is callback is invoked when a new silo is created.
 old-location: kernel\silo_monitor_create_callback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	CreateCallback
+- CreateCallback
 product:
 - Windows
 targetos: Windows

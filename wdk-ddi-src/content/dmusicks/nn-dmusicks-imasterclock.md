@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusicks.IMasterClock
-title: IMasterClock
+title: IMasterClock (dmusicks.h)
 description: The IMasterClock interface provides Microsoft DirectMusic streams with access to the current reference time from the master clock.
 old-location: audio\imasterclock.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IMasterClock
+- IMasterClock
 product:
 - Windows
 targetos: Windows

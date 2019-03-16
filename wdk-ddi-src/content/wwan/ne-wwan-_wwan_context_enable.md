@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_ENABLE
-title: _WWAN_CONTEXT_ENABLE
+title: _WWAN_CONTEXT_ENABLE (wwan.h)
 description: The WWAN_CONTEXT_ENABLE enumeration specifies whether a provisioned context is enabled in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 130c0816-c402-4e13-9589-abac38c43999
@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_ENABLE, *PWWAN_CONTEXT_ENABLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_ENABLE
+- _WWAN_CONTEXT_ENABLE
 product: 
 - Windows
 targetos: Windows

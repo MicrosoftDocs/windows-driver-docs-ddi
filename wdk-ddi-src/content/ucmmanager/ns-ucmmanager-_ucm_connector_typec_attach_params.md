@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
-title: "_UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
+title: _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS (ucmmanager.h)
 description: Describes the partner that is currently attached to the connector.
 old-location: buses\ucm_connector_typec_attach_params.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
+- UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 product:
 - Windows
 targetos: Windows

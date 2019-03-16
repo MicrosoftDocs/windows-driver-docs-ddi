@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfmemory._WDF_MEMORY_DESCRIPTOR_TYPE
-title: "_WDF_MEMORY_DESCRIPTOR_TYPE"
+title: _WDF_MEMORY_DESCRIPTOR_TYPE (wdfmemory.h)
 description: The WDF_MEMORY_DESCRIPTOR_TYPE enumeration identifies the types of memory descriptions that a WDF_MEMORY_DESCRIPTOR structure can specify.
 old-location: wdf\wdf_memory_descriptor_type.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfmemory.h
+- wdfmemory.h
 api_name:
--	WDF_MEMORY_DESCRIPTOR_TYPE
+- WDF_MEMORY_DESCRIPTOR_TYPE
 product:
 - Windows
 targetos: Windows

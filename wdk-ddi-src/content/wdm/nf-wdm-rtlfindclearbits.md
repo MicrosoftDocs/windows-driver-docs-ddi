@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearBits
-title: RtlFindClearBits function
+title: RtlFindClearBits function (wdm.h)
 description: The RtlFindClearBits routine searches for a range of clear bits of a requested size within a bitmap.
 old-location: kernel\rtlfindclearbits.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlFindClearBits
+- RtlFindClearBits
 product:
 - Windows
 targetos: Windows

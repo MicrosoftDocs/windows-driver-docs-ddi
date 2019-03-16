@@ -1,6 +1,6 @@
 ---
 UID: NC:netioddk.NPI_PROVIDER_ATTACH_CLIENT_FN
-title: NPI_PROVIDER_ATTACH_CLIENT_FN
+title: NPI_PROVIDER_ATTACH_CLIENT_FN (netioddk.h)
 description: A provider module's ProviderAttachClient callback function attaches the provider module to a client module.
 old-location: netvista\providerattachclient.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	PNPI_PROVIDER_ATTACH_CLIENT_FN
+- PNPI_PROVIDER_ATTACH_CLIENT_FN
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT_LIST
-title: "_CHANGER_ELEMENT_LIST"
+title: _CHANGER_ELEMENT_LIST (ntddchgr.h)
 description: The CHANGER_ELEMENT_LIST structure indicates a range of elements of a single type.
 old-location: storage\changer_element_list.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_ELEMENT_LIST
+- CHANGER_ELEMENT_LIST
 product:
 - Windows
 targetos: Windows

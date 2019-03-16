@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
-title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
+title: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT (d3dkmddi.h)
 description: Called by the Microsoft DirectX graphics kernel subsystem to check the details of hardware support for multiplane overlays.
 old-location: display\dxgkddicheckmultiplaneoverlaysupport.htm
 ms.assetid: 8332DD64-B75E-40A4-9D98-3406187150F2
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiCheckMultiPlaneOverlaySupport
+- DxgkDdiCheckMultiPlaneOverlaySupport
 product:
 - Windows
 targetos: Windows

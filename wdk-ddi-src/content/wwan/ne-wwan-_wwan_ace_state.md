@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ACE_STATE
-title: "_WWAN_ACE_STATE"
+title: _WWAN_ACE_STATE (wwan.h)
 description: The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
 old-location: netvista\wwan_ace_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_ACE_STATE
+- WWAN_ACE_STATE
 product:
 - Windows
 targetos: Windows

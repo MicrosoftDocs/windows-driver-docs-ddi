@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcDeferWrite
-title: CcDeferWrite function
+title: CcDeferWrite function (ntifs.h)
 description: The CcDeferWrite routine defers writing to a cached file.
 old-location: ifsk\ccdeferwrite.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcDeferWrite
+- CcDeferWrite
 product:
 - Windows
 targetos: Windows

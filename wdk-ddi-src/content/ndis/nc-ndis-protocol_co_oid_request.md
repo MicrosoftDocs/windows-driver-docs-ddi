@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_OID_REQUEST
-title: PROTOCOL_CO_OID_REQUEST
+title: PROTOCOL_CO_OID_REQUEST (ndis.h)
 description: The ProtocolCoOidRequest function handles OID requests that CoNDIS clients or stand-alone call managers initiate by calls to the NdisCoOidRequest function or that a miniport call manager (MCM) driver initiates by calls to the NdisMCmOidRequest function.Note  You must declare the function by using the PROTOCOL_CO_OID_REQUEST type. For more information, see the following Examples section.
 old-location: netvista\protocolcooidrequest.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	ProtocolCoOidRequest
+- ProtocolCoOidRequest
 product:
 - Windows
 targetos: Windows

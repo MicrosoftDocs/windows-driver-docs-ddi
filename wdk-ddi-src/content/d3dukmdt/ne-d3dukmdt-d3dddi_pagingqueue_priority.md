@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt.D3DDDI_PAGINGQUEUE_PRIORITY
-title: D3DDDI_PAGINGQUEUE_PRIORITY
+title: D3DDDI_PAGINGQUEUE_PRIORITY (d3dukmdt.h)
 description: The D3DDDI_PAGINGQUEUE_PRIORITY enumeration indicates the scheduling priority relative to other paging queues on a device.
 old-location: display\d3dddi_pagingqueue_priority.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_PAGINGQUEUE_PRIORITY
+- D3DDDI_PAGINGQUEUE_PRIORITY
 product:
 - Windows
 targetos: Windows

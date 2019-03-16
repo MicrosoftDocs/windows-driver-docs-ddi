@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestProbeAndLockUserBufferForWrite
-title: WdfRequestProbeAndLockUserBufferForWrite function
+title: WdfRequestProbeAndLockUserBufferForWrite function (wdfrequest.h)
 description: The WdfRequestProbeAndLockUserBufferForWrite method verifies that an I/O request's user-mode buffer is writeable, and then it locks the buffer's physical memory pages so drivers in the driver stack can write into the buffer.
 old-location: wdf\wdfrequestprobeandlockuserbufferforwrite.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfRequestProbeAndLockUserBufferForWrite
+- WdfRequestProbeAndLockUserBufferForWrite
 product:
 - Windows
 targetos: Windows

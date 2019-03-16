@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
-title: "_DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION"
+title: _DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION describes an operation used to update the content of a context or device allocation.
 old-location: display\dxgk_buildpagingbuffer_updatecontextallocation.htm
 ms.assetid: DA23251C-E901-48A0-9B58-458622DE8CF0
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
+- DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION
 product:
 - Windows
 targetos: Windows

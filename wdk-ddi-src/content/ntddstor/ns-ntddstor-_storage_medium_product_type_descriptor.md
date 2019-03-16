@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
-title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
+title: _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR (ntddstor.h)
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: storage\storage_medium_product_type_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
+- STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

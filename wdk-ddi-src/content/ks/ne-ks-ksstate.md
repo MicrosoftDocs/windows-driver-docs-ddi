@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_1
-title: KSSTATE
+title: KSSTATE (ks.h)
 description: The KSSTATE enumeration lists possible states of a kernel streaming object.
 old-location: stream\ksstate.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTATE
+- KSSTATE
 product:
 - Windows
 targetos: Windows

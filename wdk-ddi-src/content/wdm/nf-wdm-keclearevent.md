@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeClearEvent
-title: KeClearEvent function
+title: KeClearEvent function (wdm.h)
 description: The KeClearEvent routine sets an event to a not-signaled state.
 old-location: kernel\keclearevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeClearEvent
+- KeClearEvent
 product:
 - Windows
 targetos: Windows

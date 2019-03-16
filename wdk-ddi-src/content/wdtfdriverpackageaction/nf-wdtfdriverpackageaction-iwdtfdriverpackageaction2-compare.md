@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.Compare
-title: IWDTFDriverPackageAction2::Compare
+title: IWDTFDriverPackageAction2::Compare (wdtfdriverpackageaction.h)
 description: Compares two driver packages.
 old-location: dtf\iwdtfdriverpackageaction2_compare.htm
 tech.root: dtf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.Compare
+- IWDTFDriverPackageAction2.Compare
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_PROFILE
-title: "_WDF_DMA_PROFILE"
+title: _WDF_DMA_PROFILE (wdfdmaenabler.h)
 description: The WDF_DMA_PROFILE enumeration identifies the types of bus-master or system-mode DMA operations that devices can support.
 old-location: wdf\wdf_dma_profile.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdmaenabler.h
+- wdfdmaenabler.h
 api_name:
--	WDF_DMA_PROFILE
+- WDF_DMA_PROFILE
 product:
 - Windows
 targetos: Windows

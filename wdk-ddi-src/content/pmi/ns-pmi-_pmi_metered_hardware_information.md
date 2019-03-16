@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_METERED_HARDWARE_INFORMATION
-title: "_PMI_METERED_HARDWARE_INFORMATION"
+title: _PMI_METERED_HARDWARE_INFORMATION (pmi.h)
 description: The PMI_METERED_HARDWARE_INFORMATION structure contains information about one or more power supplies that are monitored by the power meter.
 old-location: powermeter\pmi_metered_hardware_information.htm
 tech.root: powermeter
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pmi.h
+- pmi.h
 api_name:
--	PMI_METERED_HARDWARE_INFORMATION
+- PMI_METERED_HARDWARE_INFORMATION
 product:
 - Windows
 targetos: Windows

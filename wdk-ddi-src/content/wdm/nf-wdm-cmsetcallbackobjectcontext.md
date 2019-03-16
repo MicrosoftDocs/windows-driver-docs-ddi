@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmSetCallbackObjectContext
-title: CmSetCallbackObjectContext function
+title: CmSetCallbackObjectContext function (wdm.h)
 description: The CmSetCallbackObjectContext routine associates specified context information with a specified registry object.
 old-location: kernel\cmsetcallbackobjectcontext.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CmSetCallbackObjectContext
+- CmSetCallbackObjectContext
 product:
 - Windows
 targetos: Windows

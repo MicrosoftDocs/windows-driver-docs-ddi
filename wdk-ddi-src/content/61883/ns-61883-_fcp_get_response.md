@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_GET_RESPONSE
-title: "_FCP_GET_RESPONSE"
+title: _FCP_GET_RESPONSE (61883.h)
 description: The structure is used in a request yjsy retrieves the next FCP response from the queue of requests maintained by the IEC-61883 protocol driver.
 old-location: ieee\fcp_get_response.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	FCP_GET_RESPONSE
+- FCP_GET_RESPONSE
 product:
 - Windows
 targetos: Windows

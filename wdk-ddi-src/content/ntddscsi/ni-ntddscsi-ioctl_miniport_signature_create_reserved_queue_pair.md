@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
-title: IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
+title: IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR (ntddscsi.h)
 description: 
 ms.assetid: 48859d1c-b9c2-4d44-944f-43b88d528964
 ms.date: 10/19/2018
@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddscsi.h
+- ntddscsi.h
 api_name: 
--	IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
+- IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

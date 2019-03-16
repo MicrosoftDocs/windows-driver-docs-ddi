@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_CAPABILITY
-title: _PCI_FPB_CAPABILITY
+title: _PCI_FPB_CAPABILITY (ntddk.h)
 description: Flattening Portal Bridge (FPB) Capabilities that is required for any bridge Function that implements FPB. See section 7.y.
 tech.root: pci
 ms.assetid: c7b33bbc-1c9d-4203-b28a-13c2dcf3b4da
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_CAPABILITY, *PPCI_FPB_CAPABILITY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_CAPABILITY
-product: Windows
+- _PCI_FPB_CAPABILITY
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

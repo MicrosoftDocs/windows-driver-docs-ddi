@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES"
+title: _NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES (ndis.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\ndis_miniport_adapter_native_802_11_attributes.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+- NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

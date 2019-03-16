@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_OPEN_CHANNEL
-title: "_BRB_SCO_OPEN_CHANNEL"
+title: _BRB_SCO_OPEN_CHANNEL (bthddi.h)
 description: The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote device, or a response from the profile driver accepting or rejecting an incoming SCO connection request that was initiated by a remote device.
 old-location: bltooth\_brb_sco_open_channel.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_SCO_OPEN_CHANNEL
+- _BRB_SCO_OPEN_CHANNEL
 product:
 - Windows
 targetos: Windows

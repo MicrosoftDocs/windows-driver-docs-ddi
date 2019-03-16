@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDefaultIoQueue
-title: IWDFDevice::GetDefaultIoQueue
+title: IWDFDevice::GetDefaultIoQueue (wudfddi.h)
 description: The GetDefaultIoQueue method retrieves the interface of the default I/O queue for a device.
 old-location: wdf\iwdfdevice_getdefaultioqueue.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDevice.GetDefaultIoQueue
+- IWDFDevice.GetDefaultIoQueue
 product:
 - Windows
 targetos: Windows

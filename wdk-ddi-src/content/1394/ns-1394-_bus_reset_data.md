@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._BUS_RESET_DATA
-title: "_BUS_RESET_DATA"
+title: _BUS_RESET_DATA (1394.h)
 description: The BUS_RESET_DATA structure specifies the context for the extended bus reset notification routine.
 old-location: ieee\bus_reset_data.htm
 tech.root: IEEE
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	BUS_RESET_DATA
+- BUS_RESET_DATA
 product:
 - Windows
 targetos: Windows

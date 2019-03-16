@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
-title: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
+title: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY (d3d12umddi.h)
 description: Describes the mutability of the meta-command parameter.
 ms.assetid: e059a4e1-7f65-452a-83b8-4f8565ecb267
 ms.date: 10/19/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
+- D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 product: 
 - Windows
 targetos: Windows

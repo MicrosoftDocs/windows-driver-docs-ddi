@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_FLUSH_QUEUE
-title: IOCTL_HID_FLUSH_QUEUE
+title: IOCTL_HID_FLUSH_QUEUE (hidclass.h)
 description: The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed input reports from a top-level collection's input report queue.
 old-location: hid\ioctl_hid_flush_queue.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_FLUSH_QUEUE
+- IOCTL_HID_FLUSH_QUEUE
 product:
 - Windows
 targetos: Windows

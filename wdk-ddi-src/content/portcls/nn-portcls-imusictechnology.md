@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMusicTechnology
-title: IMusicTechnology
+title: IMusicTechnology (portcls.h)
 description: The IMusicTechnology interface is used to change the music technology GUIDs that are specified in the data range descriptors for the pins belonging to a MIDI or DMus miniport driver.
 old-location: audio\imusictechnology.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMusicTechnology
+- IMusicTechnology
 product:
 - Windows
 targetos: Windows

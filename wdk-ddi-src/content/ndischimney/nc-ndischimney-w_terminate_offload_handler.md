@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_TERMINATE_OFFLOAD_HANDLER
-title: W_TERMINATE_OFFLOAD_HANDLER
+title: W_TERMINATE_OFFLOAD_HANDLER (ndischimney.h)
 description: The MiniportTerminateOffload function terminates the offload of one or more state objects.
 old-location: netvista\miniportterminateoffload.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndischimney.h
+- Ndischimney.h
 api_name:
--	MiniportTerminateOffload
+- MiniportTerminateOffload
 product:
 - Windows
 targetos: Windows

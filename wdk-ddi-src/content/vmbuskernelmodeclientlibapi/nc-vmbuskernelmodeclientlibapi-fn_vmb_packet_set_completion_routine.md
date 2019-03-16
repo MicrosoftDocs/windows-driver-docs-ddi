@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SET_COMPLETION_ROUTINE
-title: FN_VMB_PACKET_SET_COMPLETION_ROUTINE
+title: FN_VMB_PACKET_SET_COMPLETION_ROUTINE (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketSetCompletionRoutine function sets the completion routine for a packet object.
 tech.root: netvista
 ms.assetid: e59dd45b-4158-4f05-a513-e1e97e82228c
@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_PACKET_SET_COMPLETION_ROUTINE
+- FN_VMB_PACKET_SET_COMPLETION_ROUTINE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

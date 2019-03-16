@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_STATUS
-title: _D3DDDI_QUERYREGISTRY_STATUS
+title: _D3DDDI_QUERYREGISTRY_STATUS (d3dukmdt.h)
 description: Query registry status.
 ms.assetid: f7d2e2ff-ba33-4685-82dc-47c9d74b08d0
 ms.date: 11/21/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_STATUS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	_D3DDDI_QUERYREGISTRY_STATUS
+- _D3DDDI_QUERYREGISTRY_STATUS
 product: 
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetBusData
-title: AtaPortGetBusData function
+title: AtaPortGetBusData function (irb.h)
 description: The AtaPortGetBusData routine retrieves data from the location that is specified by ConfigDataOffset within the device's PCI configuration space.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetbusdata.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Pciidex.lib
--	Pciidex.dll
+- Pciidex.lib
+- Pciidex.dll
 api_name:
--	AtaPortGetBusData
+- AtaPortGetBusData
 product:
 - Windows
 targetos: Windows

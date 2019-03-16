@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCopyStreamDataToBuffer0
-title: FwpsCopyStreamDataToBuffer0 function
+title: FwpsCopyStreamDataToBuffer0 function (fwpsk.h)
 description: The FwpsCopyStreamDataToBuffer0 function copies stream data to a buffer.Note  FwpsCopyStreamDataToBuffer0 is a specific version of FwpsCopyStreamDataToBuffer.
 old-location: netvista\fwpscopystreamdatatobuffer0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsCopyStreamDataToBuffer0
+- FwpsCopyStreamDataToBuffer0
 product:
 - Windows
 targetos: Windows

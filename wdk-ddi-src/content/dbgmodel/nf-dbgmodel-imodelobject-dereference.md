@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.Dereference
-title: IModelObject::Dereference
+title: IModelObject::Dereference (dbgmodel.h)
 description: The Dereference method dereferences an object.
 ms.assetid: c6eb77c2-b901-40c5-b558-f48d33a174de
 ms.date: 07/20/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IModelObject.Dereference
-product: Windows
+- IModelObject.Dereference
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

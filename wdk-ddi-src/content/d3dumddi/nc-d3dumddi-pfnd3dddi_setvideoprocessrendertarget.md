@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVIDEOPROCESSRENDERTARGET
-title: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET
+title: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET (d3dumddi.h)
 description: The SetVideoProcessRenderTarget function sets the render target surface that is used for video processing.
 old-location: display\setvideoprocessrendertarget.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	SetVideoProcessRenderTarget
+- SetVideoProcessRenderTarget
 product:
 - Windows
 targetos: Windows

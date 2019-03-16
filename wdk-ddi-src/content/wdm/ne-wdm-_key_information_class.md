@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KEY_INFORMATION_CLASS
-title: "_KEY_INFORMATION_CLASS"
+title: _KEY_INFORMATION_CLASS (wdm.h)
 description: The KEY_INFORMATION_CLASS enumeration type represents the type of information to supply about a registry key.
 old-location: kernel\key_information_class.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	KEY_INFORMATION_CLASS
+- KEY_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

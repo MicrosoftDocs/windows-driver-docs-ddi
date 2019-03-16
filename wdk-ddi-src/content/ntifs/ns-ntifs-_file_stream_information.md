@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STREAM_INFORMATION
-title: "_FILE_STREAM_INFORMATION"
+title: _FILE_STREAM_INFORMATION (ntifs.h)
 description: The FILE_STREAM_INFORMATION structure is used to enumerate the streams for a file.
 old-location: ifsk\file_stream_information.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_STREAM_INFORMATION
+- FILE_STREAM_INFORMATION
 product:
 - Windows
 targetos: Windows

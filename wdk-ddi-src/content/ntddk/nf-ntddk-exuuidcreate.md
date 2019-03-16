@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ExUuidCreate
-title: ExUuidCreate function
+title: ExUuidCreate function (ntddk.h)
 description: The ExUuidCreate routine initializes a UUID (GUID) structure to a newly generated value.
 old-location: kernel\exuuidcreate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ExUuidCreate
+- ExUuidCreate
 product:
 - Windows
 targetos: Windows

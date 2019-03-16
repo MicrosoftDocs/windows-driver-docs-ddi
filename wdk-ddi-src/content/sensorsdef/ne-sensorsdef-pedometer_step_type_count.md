@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.PEDOMETER_STEP_TYPE_COUNT
-title: PEDOMETER_STEP_TYPE_COUNT
+title: PEDOMETER_STEP_TYPE_COUNT (sensorsdef.h)
 description: This enumeration represents the number of step types that can be detected by the pedometer.
 old-location: sensors\pedometer_step_type_count.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	PEDOMETER_STEP_TYPE_COUNT
+- PEDOMETER_STEP_TYPE_COUNT
 product:
 - Windows
 targetos: Windows

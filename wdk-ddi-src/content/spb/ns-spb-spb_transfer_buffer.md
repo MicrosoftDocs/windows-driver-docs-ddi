@@ -1,6 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_BUFFER
-title: SPB_TRANSFER_BUFFER
+title: SPB_TRANSFER_BUFFER (spb.h)
 description: The SPB_TRANSFER_BUFFER structure describes the data buffer for an individual transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_buffer.htm
 tech.root: SPB
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_BUFFER
+- SPB_TRANSFER_BUFFER
 product:
 - Windows
 targetos: Windows

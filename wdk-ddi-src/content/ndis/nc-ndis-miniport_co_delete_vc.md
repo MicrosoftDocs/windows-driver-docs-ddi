@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_DELETE_VC
-title: MINIPORT_CO_DELETE_VC
+title: MINIPORT_CO_DELETE_VC (ndis.h)
 description: The MiniportCoDeleteVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcodeletevc.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportCoDeleteVc
+- MiniportCoDeleteVc
 product:
 - Windows
 targetos: Windows

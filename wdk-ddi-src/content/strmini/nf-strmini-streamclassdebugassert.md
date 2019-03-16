@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassDebugAssert
-title: StreamClassDebugAssert function
+title: StreamClassDebugAssert function (strmini.h)
 description: A minidriver can use the StreamClassDebugAssert routine in a checked build environment to fail an assert, causing the stream class driver to output a debug message and break into the kernel debugger.
 old-location: stream\streamclassdebugassert.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassDebugAssert
+- StreamClassDebugAssert
 product:
 - Windows
 targetos: Windows

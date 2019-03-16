@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_HOST_DISCONNECT
-title: EVT_UFX_DEVICE_HOST_DISCONNECT
+title: EVT_UFX_DEVICE_HOST_DISCONNECT (ufxclient.h)
 description: The client driver's implementation to disable the function controller's communication with the host.
 old-location: buses\evt_ufx_device_host_disconnect.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_HOST_DISCONNECT
+- PFN_UFX_DEVICE_HOST_DISCONNECT
 product:
 - Windows
 targetos: Windows

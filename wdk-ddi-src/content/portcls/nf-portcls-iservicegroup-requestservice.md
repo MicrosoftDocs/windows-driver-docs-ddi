@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RequestService
-title: IServiceGroup::RequestService
+title: IServiceGroup::RequestService (portcls.h)
 description:
 old-location: audio\iservicegroup_requestservice.htm
 tech.root: audio
@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup::RequestService
+- IServiceGroup::RequestService
 product:
 - Windows
 targetos: Windows

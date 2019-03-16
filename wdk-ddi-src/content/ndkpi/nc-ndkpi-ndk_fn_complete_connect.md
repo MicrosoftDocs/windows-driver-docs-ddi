@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_COMPLETE_CONNECT
-title: NDK_FN_COMPLETE_CONNECT
+title: NDK_FN_COMPLETE_CONNECT (ndkpi.h)
 description: The NdkCompleteConnect (NDK_FN_COMPLETE_CONNECT) function completes an asynchronous connection request.
 old-location: netvista\ndk_fn_complete_connect.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkCompleteConnect
+- NdkCompleteConnect
 product:
 - Windows
 targetos: Windows

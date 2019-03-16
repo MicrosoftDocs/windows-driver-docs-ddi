@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_NEW_CAM_COMMAND
-title: _UCSI_SET_NEW_CAM_COMMAND
+title: _UCSI_SET_NEW_CAM_COMMAND (ucmucsispec.h)
 description: Used in the SET_NEW_CAM command. See Table 4-32.
 ms.assetid: 873b6724-0496-40f6-b93f-fdd90e00d3cb
 tech.root: usbref
@@ -21,14 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_NEW_CAM_COMMAND, *PUCSI_SET_NEW_CAM_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_NEW_CAM_COMMAND
-product: Windows
+- _UCSI_SET_NEW_CAM_COMMAND
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

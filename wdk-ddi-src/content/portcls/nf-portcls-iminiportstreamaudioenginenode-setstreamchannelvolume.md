@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelVolume
-title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume
+title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume (portcls.h)
 description: Sets the volume level to be applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelvolume.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode.SetStreamChannelVolume
+- IMiniportStreamAudioEngineNode.SetStreamChannelVolume
 product:
 - Windows
 targetos: Windows

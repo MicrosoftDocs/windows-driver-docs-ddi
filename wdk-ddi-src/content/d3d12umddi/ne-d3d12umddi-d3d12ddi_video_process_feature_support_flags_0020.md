@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
-title: D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
+title: D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020 (d3d12umddi.h)
 description: Defines the features that video processor supports.
 old-location: display\d3d12ddi_video_process_feature_support_flags.htm
 ms.assetid: 6DBF48B1-44C7-4C53-8488-F1217E6FAA1C
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
+- D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020
 product:
 - Windows
 targetos: Windows

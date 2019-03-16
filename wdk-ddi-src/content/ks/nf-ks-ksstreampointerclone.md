@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerClone
-title: KsStreamPointerClone function
+title: KsStreamPointerClone function (ks.h)
 description: The KsStreamPointerClone function creates a clone of a given stream pointer.
 old-location: stream\ksstreampointerclone.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerClone
+- KsStreamPointerClone
 product:
 - Windows
 targetos: Windows

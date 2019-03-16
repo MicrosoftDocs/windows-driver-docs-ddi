@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortSetDeviceQueueDepth
-title: StorPortSetDeviceQueueDepth function
+title: StorPortSetDeviceQueueDepth function (storport.h)
 description: The StorPortSetDeviceQueueDepth routine sets the maximum depth of the device queue for the indicated device.
 old-location: storage\storportsetdevicequeuedepth.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortSetDeviceQueueDepth
+- StorPortSetDeviceQueueDepth
 product:
 - Windows
 targetos: Windows

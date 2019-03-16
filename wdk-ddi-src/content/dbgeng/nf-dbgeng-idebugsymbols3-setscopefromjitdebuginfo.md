@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetScopeFromJitDebugInfo
-title: IDebugSymbols3::SetScopeFromJitDebugInfo
+title: IDebugSymbols3::SetScopeFromJitDebugInfo (dbgeng.h)
 description: Recovers just-in-time (JIT) debugging information and sets current debugger scope context based on that information.
 old-location: debugger\idebugsymbols3_setscopefromjitdebuginfo.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.SetScopeFromJitDebugInfo
+- IDebugSymbols3.SetScopeFromJitDebugInfo
 product:
 - Windows
 targetos: Windows

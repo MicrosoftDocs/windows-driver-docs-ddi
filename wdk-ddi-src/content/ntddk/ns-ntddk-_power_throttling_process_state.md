@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._POWER_THROTTLING_PROCESS_STATE
-title: "_POWER_THROTTLING_PROCESS_STATE"
+title: _POWER_THROTTLING_PROCESS_STATE (ntddk.h)
 description: Stores the throttling policies and how to apply them to a target process when that process is subject to power management.
 old-location: kernel\power_throttling_process_state.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	POWER_THROTTLING_PROCESS_STATE
+- POWER_THROTTLING_PROCESS_STATE
 product:
 - Windows
 targetos: Windows

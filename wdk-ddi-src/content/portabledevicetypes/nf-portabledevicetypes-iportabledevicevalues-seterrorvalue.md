@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetErrorValue
-title: IPortableDeviceValues::SetErrorValue
+title: IPortableDeviceValues::SetErrorValue (portabledevicetypes.h)
 description: Adds a new HRESULT value (type VT_ERROR) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_seterrorvalue.htm
 tech.root: wpd_dk
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceTypes.h
+- PortableDeviceTypes.h
 api_name:
--	IPortableDeviceValues.SetErrorValue
+- IPortableDeviceValues.SetErrorValue
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

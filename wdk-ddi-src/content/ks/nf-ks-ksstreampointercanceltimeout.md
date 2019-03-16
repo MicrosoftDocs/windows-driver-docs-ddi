@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerCancelTimeout
-title: KsStreamPointerCancelTimeout function
+title: KsStreamPointerCancelTimeout function (ks.h)
 description: The KsStreamPointerCancelTimeout function cancels a previously scheduled time-out callback on the specified stream pointer.
 old-location: stream\ksstreampointercanceltimeout.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsStreamPointerCancelTimeout
+- KsStreamPointerCancelTimeout
 product:
 - Windows
 targetos: Windows

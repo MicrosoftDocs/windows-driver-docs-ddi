@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateDevice
-title: KsCreateDevice function
+title: KsCreateDevice function (ks.h)
 description: The KsCreateDevice function creates an AVStream device.
 old-location: stream\kscreatedevice.htm
 tech.root: stream
@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsCreateDevice
+- KsCreateDevice
 product:
 - Windows
 targetos: Windows

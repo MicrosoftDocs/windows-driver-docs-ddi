@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateNamedPipeFile
-title: FltCreateNamedPipeFile function
+title: FltCreateNamedPipeFile function (fltkernel.h)
 description: Minifilter drivers call FltCreateNamedPipeFile to create a new pipe or open an existing pipe.
 old-location: ifsk\fltcreatenamedpipefile.htm
 tech.root: ifsk
@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltCreateNamedPipeFile
+- FltCreateNamedPipeFile
 product:
 - Windows
 targetos: Windows

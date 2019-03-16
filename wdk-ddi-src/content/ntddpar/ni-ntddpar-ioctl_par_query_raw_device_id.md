@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_QUERY_RAW_DEVICE_ID
-title: IOCTL_PAR_QUERY_RAW_DEVICE_ID
+title: IOCTL_PAR_QUERY_RAW_DEVICE_ID (ntddpar.h)
 description: The IOCTL_PAR_QUERY_RAW_DEVICE_ID request returns a raw device ID, which includes the following:\_a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the IEEE 1284 device ID; and a NULL terminator.
 old-location: parports\ioctl_par_query_raw_device_id.htm
 tech.root: parports
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	IOCTL_PAR_QUERY_RAW_DEVICE_ID
+- IOCTL_PAR_QUERY_RAW_DEVICE_ID
 product:
 - Windows
 targetos: Windows

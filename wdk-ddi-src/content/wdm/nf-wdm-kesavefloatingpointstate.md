@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSaveFloatingPointState
-title: KeSaveFloatingPointState function
+title: KeSaveFloatingPointState function (wdm.h)
 description: The KeSaveFloatingPointState routine saves the nonvolatile floating-point context so the caller can carry out floating-point operations.
 old-location: kernel\kesavefloatingpointstate.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeSaveFloatingPointState
+- KeSaveFloatingPointState
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFRemoteTarget
-title: IWDFRemoteTarget
+title: IWDFRemoteTarget (wudfddi.h)
 description: To obtain the IWDFRemoteTarget interface, drivers call IWDFDevice2::CreateRemoteTarget.
 old-location: wdf\iwdfremotetarget.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFRemoteTarget
+- IWDFRemoteTarget
 product:
 - Windows
 targetos: Windows

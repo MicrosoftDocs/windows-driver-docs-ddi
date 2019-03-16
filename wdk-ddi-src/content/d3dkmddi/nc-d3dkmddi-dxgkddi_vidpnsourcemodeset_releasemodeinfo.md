@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO
-title: DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO
+title: DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO (d3dkmddi.h)
 description: The pfnReleaseModeInfo function releases a D3DKMDT_VIDPN_SOURCE_MODE structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo.htm
 ms.assetid: 614283cc-90bf-44f2-bab2-1aeec5e7de01
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	pfnReleaseModeInfo
+- pfnReleaseModeInfo
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE_FROM_EVENT
-title: PFN_WSK_RECEIVE_FROM_EVENT
+title: PFN_WSK_RECEIVE_FROM_EVENT (wsk.h)
 description: The WskReceiveFromEvent event callback function notifies a WSK application that one or more datagrams have been received on a datagram socket.
 old-location: netvista\wskreceivefromevent.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskReceiveFromEvent
+- WskReceiveFromEvent
 product:
 - Windows
 targetos: Windows

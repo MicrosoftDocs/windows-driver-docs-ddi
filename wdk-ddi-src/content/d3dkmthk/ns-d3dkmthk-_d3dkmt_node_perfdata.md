@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_NODE_PERFDATA
-title: _D3DKMT_NODE_PERFDATA
+title: _D3DKMT_NODE_PERFDATA (d3dkmthk.h)
 description: Represents performance data collected per engine from an adapter on an interval basis.
 ms.assetid: 90d91283-4891-4459-b182-40bf600c8b92
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_NODE_PERFDATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_NODE_PERFDATA
+- _D3DKMT_NODE_PERFDATA
 product: 
 - Windows
 targetos: Windows

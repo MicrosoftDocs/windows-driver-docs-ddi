@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.Command
-title: IPrintOemPS::Command
+title: IPrintOemPS::Command (prcomoem.h)
 description: The IPrintOemPS::Command method is used by rendering plug-ins for the Microsoft PostScript printer driver, in order to insert PostScript commands into the print job's data stream.
 old-location: print\iprintoemps_command.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemPS.Command
+- IPrintOemPS.Command
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugDataSpaces4
-title: IDebugDataSpaces4
+title: IDebugDataSpaces4 (dbgeng.h)
 description: IDebugDataSpaces4 interface
 old-location: debugger\idebugdataspaces4.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces4
+- IDebugDataSpaces4
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetLockingConstraint
-title: IWDFDeviceInitialize::SetLockingConstraint
+title: IWDFDeviceInitialize::SetLockingConstraint (wudfddi.h)
 description: The SetLockingConstraint method sets the synchronization (or locking) model for callback functions into the driver.
 old-location: wdf\iwdfdeviceinitialize_setlockingconstraint.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFDeviceInitialize.SetLockingConstraint
+- IWDFDeviceInitialize.SetLockingConstraint
 product:
 - Windows
 targetos: Windows

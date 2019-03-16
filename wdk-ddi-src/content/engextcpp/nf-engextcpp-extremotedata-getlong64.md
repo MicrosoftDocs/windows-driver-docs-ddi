@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetLong64
-title: ExtRemoteData::GetLong64
+title: ExtRemoteData::GetLong64 (engextcpp.h)
 description: The GetLong64 method returns a LONG64 version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getlong64.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetLong64
+- ExtRemoteData.GetLong64
 product:
 - Windows
 targetos: Windows

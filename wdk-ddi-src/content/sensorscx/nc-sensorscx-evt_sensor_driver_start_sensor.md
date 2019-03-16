@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_SENSOR
-title: EVT_SENSOR_DRIVER_START_SENSOR
+title: EVT_SENSOR_DRIVER_START_SENSOR (sensorscx.h)
 description: This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.
 old-location: sensors\evtsensorstart.htm
 tech.root: sensors
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	SensorsCx.h
+- SensorsCx.h
 api_name:
--	EvtSensorStart
+- EvtSensorStart
 product:
 - Windows
 targetos: Windows

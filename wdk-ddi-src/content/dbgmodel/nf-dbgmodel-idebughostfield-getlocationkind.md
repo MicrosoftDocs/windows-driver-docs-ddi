@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetLocationKind
-title: IDebugHostField::GetLocationKind
+title: IDebugHostField::GetLocationKind (dbgmodel.h)
 description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. 
 ms.assetid: 34e162cb-39d8-4d70-88f6-99fa71da87d5
 ms.date: 09/12/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostField.GetLocationKind
-product: Windows
+- IDebugHostField.GetLocationKind
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcRemapBcb
-title: CcRemapBcb function
+title: CcRemapBcb function (ntifs.h)
 description: The CcRemapBcb routine maps a buffer control block (BCB) an additional time to preserve it through several calls that perform additional maps and unpins.
 old-location: ifsk\ccremapbcb.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcRemapBcb
+- CcRemapBcb
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxOpen
-title: PosCxOpen function
+title: PosCxOpen function (poscx.h)
 description: PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's EVT_WDF_DEVICE_FILE_CREATE callback.
 old-location: pos\poscxopen.htm
 tech.root: pos
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	PosCxOpen
+- PosCxOpen
 product:
 - Windows
 targetos: Windows

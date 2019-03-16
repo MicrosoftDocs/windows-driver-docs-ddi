@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SCATTERBLT
-title: _D3DKMT_SCATTERBLT
+title: _D3DKMT_SCATTERBLT (d3dkmthk.h)
 description: Reserved for system use.
 ms.assetid: 29027f99-a81c-4621-b2a1-6d60be4c52d9
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_SCATTERBLT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_SCATTERBLT
+- _D3DKMT_SCATTERBLT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_BUS_CHECK
-title: "_WHEA_XPF_BUS_CHECK"
+title: _WHEA_XPF_BUS_CHECK (ntddk.h)
 description: The WHEA_XPF_BUS_CHECK union describes bus error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_bus_check.htm
 tech.root: whea
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_BUS_CHECK
+- WHEA_XPF_BUS_CHECK
 product:
 - Windows
 targetos: Windows

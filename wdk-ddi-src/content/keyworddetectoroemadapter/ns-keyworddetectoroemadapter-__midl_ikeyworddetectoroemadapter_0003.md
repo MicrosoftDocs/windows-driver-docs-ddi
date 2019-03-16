@@ -1,6 +1,6 @@
 ---
 UID: NS:keyworddetectoroemadapter.__MIDL_IKeywordDetectorOemAdapter_0003
-title: "__MIDL_IKeywordDetectorOemAdapter_0003"
+title: __MIDL_IKeywordDetectorOemAdapter_0003 (keyworddetectoroemadapter.h)
 description: The KEYWORDSELECTOR struct is a triplet of IDs that uniquely select a particular keyword, language, and user combination.
 old-location: audio\keywordselector.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	KEYWORDSELECTOR
+- KEYWORDSELECTOR
 product:
 - Windows
 targetos: Windows

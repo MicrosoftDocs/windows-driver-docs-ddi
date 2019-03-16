@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerInitializeElementStatus
-title: ChangerInitializeElementStatus function
+title: ChangerInitializeElementStatus function (mcd.h)
 description: ChangerInitializeElementStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS.
 old-location: storage\changerinitializeelementstatus.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mcd.h
+- mcd.h
 api_name:
--	ChangerInitializeElementStatus
+- ChangerInitializeElementStatus
 product:
 - Windows
 targetos: Windows

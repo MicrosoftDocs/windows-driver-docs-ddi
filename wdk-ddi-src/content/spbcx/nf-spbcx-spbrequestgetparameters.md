@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetParameters
-title: SpbRequestGetParameters function
+title: SpbRequestGetParameters function (spbcx.h)
 description: The SpbRequestGetParameters method retrieves a set of SPB-specific parameter values from an I/O request.
 old-location: spb\spbrequestgetparameters.htm
 tech.root: SPB
@@ -26,15 +26,15 @@ req.lib: Spbcxstubs.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	spbcxstubs.lib
--	spbcxstubs.dll
+- spbcxstubs.lib
+- spbcxstubs.dll
 api_name:
--	SpbRequestGetParameters
+- SpbRequestGetParameters
 product:
 - Windows
 targetos: Windows

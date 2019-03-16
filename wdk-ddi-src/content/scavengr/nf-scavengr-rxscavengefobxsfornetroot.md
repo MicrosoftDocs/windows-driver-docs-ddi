@@ -1,6 +1,6 @@
 ---
 UID: NF:scavengr.RxScavengeFobxsForNetRoot
-title: RxScavengeFobxsForNetRoot function
+title: RxScavengeFobxsForNetRoot function (scavengr.h)
 description: RxScavengeFobxsForNetRoot scavenges all of the FOBX structures associated with a given NET_ROOT structure.
 old-location: ifsk\rxscavengefobxsfornetroot.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scavengr.h
+- scavengr.h
 api_name:
--	RxScavengeFobxsForNetRoot
+- RxScavengeFobxsForNetRoot
 product:
 - Windows
 targetos: Windows

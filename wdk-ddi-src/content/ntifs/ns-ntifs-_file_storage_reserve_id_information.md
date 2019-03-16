@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STORAGE_RESERVE_ID_INFORMATION
-title: _FILE_STORAGE_RESERVE_ID_INFORMATION
+title: _FILE_STORAGE_RESERVE_ID_INFORMATION (ntifs.h)
 description: Queries and sets the storage reserve ID on a file or directory.
 ms.assetid: 3114a6fb-3728-41a7-b4f4-d4463eec019b
 ms.date: 09/30/2018
@@ -20,14 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STORAGE_RESERVE_ID_INFORMATION
-product: Windows
+- _FILE_STORAGE_RESERVE_ID_INFORMATION
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

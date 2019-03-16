@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoUnregisterPowerSettingCallback
-title: PoUnregisterPowerSettingCallback function
+title: PoUnregisterPowerSettingCallback function (ntifs.h)
 description: The PoUnregisterPowerSettingCallback routine unregisters a power-setting callback routine that a driver previously registered by calling the PoRegisterPowerSettingCallback routine.
 old-location: kernel\pounregisterpowersettingcallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	PoUnregisterPowerSettingCallback
+- PoUnregisterPowerSettingCallback
 product:
 - Windows
 targetos: Windows

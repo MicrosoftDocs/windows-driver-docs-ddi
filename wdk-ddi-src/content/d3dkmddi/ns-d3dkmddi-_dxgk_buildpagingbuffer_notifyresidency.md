@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
-title: "_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
+title: _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY describes a residency allocation change operation.
 old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
+- DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 product:
 - Windows
 targetos: Windows

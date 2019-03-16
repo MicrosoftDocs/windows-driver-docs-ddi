@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClOpenAddressFamilyEx
-title: NdisClOpenAddressFamilyEx function
+title: NdisClOpenAddressFamilyEx function (ndis.h)
 description: The NdisClOpenAddressFamilyEx function registers an address family (AF) that is associated with a call manager for a connection-oriented client.
 old-location: netvista\ndisclopenaddressfamilyex.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisClOpenAddressFamilyEx
+- NdisClOpenAddressFamilyEx
 product:
 - Windows
 targetos: Windows

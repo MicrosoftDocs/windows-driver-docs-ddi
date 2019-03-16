@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintBidiAsyncNotifyRegistration
-title: IPrintBidiAsyncNotifyRegistration
+title: IPrintBidiAsyncNotifyRegistration (prnasntp.h)
 description: 
 old-location: print\iprintbidiasyncnotifyregistration.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IPrintBidiAsyncNotifyRegistration
+- IPrintBidiAsyncNotifyRegistration
 product:
 - Windows
 targetos: Windows

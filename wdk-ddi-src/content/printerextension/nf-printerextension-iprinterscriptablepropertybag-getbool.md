@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetBool
-title: IPrinterScriptablePropertyBag::GetBool
+title: IPrinterScriptablePropertyBag::GetBool (printerextension.h)
 description: Gets a specified boolean property.
 old-location: print\iprinterscriptablepropertybag_getbool.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptablePropertyBag.GetBool
+- IPrinterScriptablePropertyBag.GetBool
 product:
 - Windows
 targetos: Windows

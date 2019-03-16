@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_PER_FILEOBJECT_CONTEXT
-title: "_FSRTL_PER_FILEOBJECT_CONTEXT"
+title: _FSRTL_PER_FILEOBJECT_CONTEXT (ntifs.h)
 description: The opaque FSRTL_PER_FILEOBJECT_CONTEXT structure is used by the operating system to track file system filter-driver-defined context information structures for a file object.
 old-location: ifsk\fsrtl_per_fileobject_context.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FSRTL_PER_FILEOBJECT_CONTEXT
+- FSRTL_PER_FILEOBJECT_CONTEXT
 product:
 - Windows
 targetos: Windows

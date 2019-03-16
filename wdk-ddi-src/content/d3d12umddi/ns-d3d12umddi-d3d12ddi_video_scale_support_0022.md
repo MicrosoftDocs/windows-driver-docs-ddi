@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SCALE_SUPPORT_0022
-title: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
+title: D3D12DDI_VIDEO_SCALE_SUPPORT_0022 (d3d12umddi.h)
 description: Describes a supported range of output sizes for a scaler.
 old-location: display\d3d12ddi_video_scale_support.htm
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_SCALE_SUPPORT_0022
+- D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 product:
 - Windows
 targetos: Windows

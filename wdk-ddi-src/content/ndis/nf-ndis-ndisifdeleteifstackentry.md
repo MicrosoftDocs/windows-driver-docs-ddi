@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeleteIfStackEntry
-title: NdisIfDeleteIfStackEntry function
+title: NdisIfDeleteIfStackEntry function (ndis.h)
 description: The NdisIfDeleteIfStackEntry function deletes information about the ordering of two network interfaces in the NDIS interface stack.
 old-location: netvista\ndisifdeleteifstackentry.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisIfDeleteIfStackEntry
+- NdisIfDeleteIfStackEntry
 product:
 - Windows
 targetos: Windows

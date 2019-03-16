@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSFILTERPROCESS
-title: PFNKSFILTERPROCESS
+title: PFNKSFILTERPROCESS (ks.h)
 description: An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing.
 old-location: stream\avstrminifilterprocess.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniFilterProcess
+- AVStrMiniFilterProcess
 product:
 - Windows
 targetos: Windows

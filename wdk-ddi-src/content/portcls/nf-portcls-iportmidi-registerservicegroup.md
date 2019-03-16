@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortMidi.RegisterServiceGroup
-title: IPortMidi::RegisterServiceGroup
+title: IPortMidi::RegisterServiceGroup (portcls.h)
 description: The RegisterServiceGroup method registers the service group to be used for the IPortMidi::Notify method.
 old-location: audio\iportmidi_registerservicegroup.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortMidi.RegisterServiceGroup
+- IPortMidi.RegisterServiceGroup
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
-title: "_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"
+title: _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT (d3dkmdt.h)
 description: Contains the output parameters for the DxgkBrightnessGetNitRanges callback function.
 ms.assetid: a63d2e7b-ce96-4ac4-a918-2649280fc421
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
+- _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---

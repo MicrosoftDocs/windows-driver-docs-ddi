@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedEvents
-title: ISensorDriver::OnGetSupportedEvents
+title: ISensorDriver::OnGetSupportedEvents (sensorsclassextension.h)
 description: The ISensorDriver::OnGetSupportedEvents method retrieves the list of events that the specified sensor can raise.
 old-location: sensors\isensordriver_ongetsupportedevents.htm
 tech.root: sensors
@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	OnGetSupportedEvents
+- OnGetSupportedEvents
 product:
 - Windows
 targetos: Windows

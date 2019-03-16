@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_ABORT_CONFIRM
-title: NDIS_WDI_TX_ABORT_CONFIRM
+title: NDIS_WDI_TX_ABORT_CONFIRM (dot11wdi.h)
 description: The NdisWdiTxAbortConfirm callback function indicates an asynchronous confirmation of a MiniportWdiTxAbort from WDI.
 old-location: netvista\ndiswditxabortconfirm.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	NdisWdiTxAbortConfirm
+- NdisWdiTxAbortConfirm
 product:
 - Windows
 targetos: Windows

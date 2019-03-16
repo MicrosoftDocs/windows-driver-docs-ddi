@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetExpressionSyntaxByNameWide
-title: IDebugControl4::SetExpressionSyntaxByNameWide
+title: IDebugControl4::SetExpressionSyntaxByNameWide (dbgeng.h)
 description: The SetExpressionSyntaxByNameWide method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbynamewide.htm
 tech.root: debugger
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl4.SetExpressionSyntaxByNameWide
+- IDebugControl4.SetExpressionSyntaxByNameWide
 product:
 - Windows
 targetos: Windows

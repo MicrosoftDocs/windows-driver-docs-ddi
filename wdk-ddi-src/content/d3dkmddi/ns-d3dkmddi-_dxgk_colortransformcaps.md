@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_COLORTRANSFORMCAPS
-title: "_DXGK_COLORTRANSFORMCAPS"
+title: _DXGK_COLORTRANSFORMCAPS (d3dkmddi.h)
 description: This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXGK_DRIVERCAPS structure to describe both the gamma and color transform capabilities of the display pipelines.
 old-location: display\dxgk_colortransformcaps_.htm
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_COLORTRANSFORMCAPS
+- DXGK_COLORTRANSFORMCAPS
 product:
 - Windows
 targetos: Windows

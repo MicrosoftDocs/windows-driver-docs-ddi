@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_EDGE
-title: _ACPI_PLD_EDGE enumeration
+title: _ACPI_PLD_EDGE enumeration (acpitabl.h)
 description: Describes joint edge bits 10:12,24:26.
 ms.assetid: b9c6e9e2-d625-4567-85d1-7f4cbac30e83
 ms.date: 10/02/2018
@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_EDGE, *PACPI_PLD_EDGE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_EDGE
+- _ACPI_PLD_EDGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

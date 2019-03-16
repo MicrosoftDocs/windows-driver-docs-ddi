@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._CLFS_CONTEXT_MODE
-title: "_CLFS_CONTEXT_MODE"
+title: _CLFS_CONTEXT_MODE (wdm.h)
 description: The CLFS_CONTEXT_MODE enumeration indicates the type of sequence that the Common Log File System (CLFS) driver follows when it reads a set of records from a stream.
 old-location: kernel\clfs_context_mode.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CLFS_CONTEXT_MODE
+- CLFS_CONTEXT_MODE
 product:
 - Windows
 targetos: Windows

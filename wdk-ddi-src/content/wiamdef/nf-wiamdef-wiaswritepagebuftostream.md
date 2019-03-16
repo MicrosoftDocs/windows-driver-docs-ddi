@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePageBufToStream
-title: wiasWritePageBufToStream function
+title: wiasWritePageBufToStream function (wiamdef.h)
 description: The wiasWritePageBufToStream function writes the contents of a temporary page buffer to the IStream interface provided by the application.
 old-location: image\wiaswritepagebuftostream.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasWritePageBufToStream
+- wiasWritePageBufToStream
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlMultiByteToUnicodeSize
-title: RtlMultiByteToUnicodeSize function
+title: RtlMultiByteToUnicodeSize function (ntifs.h)
 description: The RtlMultiByteToUnicodeSize routine determines the number of bytes that are required to store the Unicode translation for the specified source string.
 old-location: ifsk\rtlmultibytetounicodesize.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlMultiByteToUnicodeSize
+- RtlMultiByteToUnicodeSize
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionInitializeUsingRequest
-title: WdfDmaTransactionInitializeUsingRequest function
+title: WdfDmaTransactionInitializeUsingRequest function (wdfdmatransaction.h)
 description: The WdfDmaTransactionInitializeUsingRequest method initializes a specified DMA transaction by using the parameters of a specified I/O request.
 old-location: wdf\wdfdmatransactioninitializeusingrequest.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDmaTransactionInitializeUsingRequest
+- WdfDmaTransactionInitializeUsingRequest
 product:
 - Windows
 targetos: Windows

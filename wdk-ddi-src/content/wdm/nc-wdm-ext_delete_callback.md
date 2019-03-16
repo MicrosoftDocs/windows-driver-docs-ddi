@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.EXT_DELETE_CALLBACK
-title: EXT_DELETE_CALLBACK
+title: EXT_DELETE_CALLBACK (wdm.h)
 description: An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object.
 old-location: kernel\extimerdeletecallback.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	ExTimerDeleteCallback
+- ExTimerDeleteCallback
 product:
 - Windows
 targetos: Windows

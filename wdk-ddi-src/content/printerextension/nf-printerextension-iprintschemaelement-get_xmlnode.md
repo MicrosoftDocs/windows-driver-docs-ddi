@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_XmlNode
-title: IPrintSchemaElement::get_XmlNode
+title: IPrintSchemaElement::get_XmlNode (printerextension.h)
 description: Gets the IXMLDOMNode object associated with this item.
 old-location: print\iprintschemaelement_xmlnode.htm
 tech.root: print
@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaElement.XmlNode
--	IPrintSchemaElement.get_XmlNode
+- IPrintSchemaElement.XmlNode
+- IPrintSchemaElement.get_XmlNode
 product:
 - Windows
 targetos: Windows

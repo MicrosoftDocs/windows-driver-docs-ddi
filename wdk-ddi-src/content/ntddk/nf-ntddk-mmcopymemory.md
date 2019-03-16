@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmCopyMemory
-title: MmCopyMemory function
+title: MmCopyMemory function (ntddk.h)
 description: The MmCopyMemory routine copies the specified range of virtual or physical memory into the caller-supplied buffer.
 old-location: kernel\mmcopymemory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	MmCopyMemory
+- MmCopyMemory
 product:
 - Windows
 targetos: Windows

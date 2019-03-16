@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTROL_SETUP_PACKET
-title: "_WDF_USB_CONTROL_SETUP_PACKET"
+title: _WDF_USB_CONTROL_SETUP_PACKET (wdfusb.h)
 description: The WDF_USB_CONTROL_SETUP_PACKET structure describes a setup packet for a USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfusb.h
+- wdfusb.h
 api_name:
--	WDF_USB_CONTROL_SETUP_PACKET
+- WDF_USB_CONTROL_SETUP_PACKET
 product:
 - Windows
 targetos: Windows

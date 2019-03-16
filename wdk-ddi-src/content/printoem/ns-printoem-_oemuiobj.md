@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMUIOBJ
-title: "_OEMUIOBJ"
+title: _OEMUIOBJ (printoem.h)
 description: The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
 old-location: print\oemuiobj.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	OEMUIOBJ
+- OEMUIOBJ
 product:
 - Windows
 targetos: Windows

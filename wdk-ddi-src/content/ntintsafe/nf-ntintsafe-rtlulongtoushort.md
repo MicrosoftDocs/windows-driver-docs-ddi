@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToUShort
-title: RtlULongToUShort function
+title: RtlULongToUShort function (ntintsafe.h)
 description: Converts a value of type ULONG to a value of type USHORT.
 old-location: kernel\rtlulongtoushort.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntintsafe.h
+- Ntintsafe.h
 api_name:
--	RtlULongToUShort
+- RtlULongToUShort
 product:
 - Windows
 targetos: Windows

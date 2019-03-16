@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsReassembleForwardFragmentGroup0
-title: FwpsReassembleForwardFragmentGroup0 function
+title: FwpsReassembleForwardFragmentGroup0 function (fwpsk.h)
 description: The FwpsReassembleForwardFragmentGroup0 function assembles a list of IP fragments in the forwarding data path into a single packet.Note  FwpsReassembleForwardFragmentGroup0 is a specific version of FwpsReassembleForwardFragmentGroup.
 old-location: netvista\fwpsreassembleforwardfragmentgroup0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsReassembleForwardFragmentGroup0
+- FwpsReassembleForwardFragmentGroup0
 product:
 - Windows
 targetos: Windows

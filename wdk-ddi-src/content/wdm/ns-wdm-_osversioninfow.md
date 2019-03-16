@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OSVERSIONINFOW
-title: "_OSVERSIONINFOW"
+title: _OSVERSIONINFOW (wdm.h)
 description: The RTL_OSVERSIONINFOW structure contains operating system version information.
 old-location: kernel\rtl_osversioninfow.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	RTL_OSVERSIONINFOW
+- RTL_OSVERSIONINFOW
 product:
 - Windows
 targetos: Windows

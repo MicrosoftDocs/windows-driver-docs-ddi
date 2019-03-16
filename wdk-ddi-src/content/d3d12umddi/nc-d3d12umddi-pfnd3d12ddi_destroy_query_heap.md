@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_QUERY_HEAP
-title: PFND3D12DDI_DESTROY_QUERY_HEAP
+title: PFND3D12DDI_DESTROY_QUERY_HEAP (d3d12umddi.h)
 description: Destroys the query heap.
 ms.assetid: a99e0330-70bd-450e-8783-15b67b644ee8
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_DESTROY_QUERY_HEAP
+- PFND3D12DDI_DESTROY_QUERY_HEAP
 product: 
 - Windows
 targetos: Windows

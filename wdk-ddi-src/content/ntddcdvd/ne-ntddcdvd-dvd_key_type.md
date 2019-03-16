@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdvd.__unnamed_enum_0
-title: DVD_KEY_TYPE
+title: DVD_KEY_TYPE (ntddcdvd.h)
 description: The DVD_KEY_TYPE enumeration type is used in conjunction with the DVD_COPY_PROTECT_KEY structure to indicate a key to be read, to invalidate an authentication grant ID (AGID), and to request state information or region settings.
 old-location: storage\dvd_key_type.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	DVD_KEY_TYPE
+- DVD_KEY_TYPE
 product:
 - Windows
 targetos: Windows

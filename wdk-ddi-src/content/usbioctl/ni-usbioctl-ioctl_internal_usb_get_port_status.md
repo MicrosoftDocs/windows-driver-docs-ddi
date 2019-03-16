@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_PORT_STATUS
-title: IOCTL_INTERNAL_USB_GET_PORT_STATUS
+title: IOCTL_INTERNAL_USB_GET_PORT_STATUS (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_PORT_STATUS I/O request queries the status of the PDO. IOCTL_INTERNAL_USB_GET_PORT_STATUS is a kernel-mode I/O control request. This request targets the USB hub PDO. This IOCTL must be sent at IRQL = PASSIVE_LEVEL.
 old-location: buses\ioctl_internal_usb_get_port_status.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_GET_PORT_STATUS
+- IOCTL_INTERNAL_USB_GET_PORT_STATUS
 product:
 - Windows
 targetos: Windows

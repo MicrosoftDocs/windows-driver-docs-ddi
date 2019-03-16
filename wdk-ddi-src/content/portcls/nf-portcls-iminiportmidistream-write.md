@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidiStream.Write
-title: IMiniportMidiStream::Write
+title: IMiniportMidiStream::Write (portcls.h)
 description: The Write method writes data to an outgoing MIDI stream.
 old-location: audio\iminiportmidistream_write.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportMidiStream.Write
+- IMiniportMidiStream.Write
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_KEY_ALGO_BIP
-title: DOT11_KEY_ALGO_BIP
+title: DOT11_KEY_ALGO_BIP (windot11.h)
 description: The DOT11_KEY_ALGO_BIP structure defines a cipher key that is used by the Broadcast Integrity Protocol (BIP) algorithm for management frame integrity protection.
 old-location: netvista\dot11_key_algo_bip.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_KEY_ALGO_BIP
+- DOT11_KEY_ALGO_BIP
 product:
 - Windows
 targetos: Windows

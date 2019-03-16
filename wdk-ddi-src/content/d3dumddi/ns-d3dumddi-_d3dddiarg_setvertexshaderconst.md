@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETVERTEXSHADERCONST
-title: "_D3DDDIARG_SETVERTEXSHADERCONST"
+title: _D3DDDIARG_SETVERTEXSHADERCONST (d3dumddi.h)
 description: The D3DDDIARG_SETVERTEXSHADERCONST structure describes how to set vertex shader constant registers.
 old-location: display\d3dddiarg_setvertexshaderconst.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIARG_SETVERTEXSHADERCONST
+- D3DDDIARG_SETVERTEXSHADERCONST
 product:
 - Windows
 targetos: Windows

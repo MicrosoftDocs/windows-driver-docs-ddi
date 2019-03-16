@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackHardware2
-title: IPnpCallbackHardware2
+title: IPnpCallbackHardware2 (wudfddi.h)
 description: The IPnpCallbackHardware2 interface exposes callback methods related to hardware.
 old-location: wdf\ipnpcallbackhardware2.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallbackHardware2
+- IPnpCallbackHardware2
 product:
 - Windows
 targetos: Windows

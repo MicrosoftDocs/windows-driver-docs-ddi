@@ -1,6 +1,6 @@
 ---
 UID: NC:bthsdpddi.PRETRIEVEUUID128
-title: PRETRIEVEUUID128
+title: PRETRIEVEUUID128 (bthsdpddi.h)
 description: The Bluetooth SdpRetrieveUuid128 function is used to copy an unaligned 128-bit universally unique identifier (UUID) from an SDP stream.
 old-location: bltooth\sdpretrieveuuid128.htm
 tech.root: bltooth
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpRetrieveUuid128
+- SdpRetrieveUuid128
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-title: DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+title: DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT (dxgiddi.h)
 description: Identifies the overlay plane's video frame format. Only the DXGI_DDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE value is supported.
 old-location: display\dxgi_ddi_multiplane_overlay_video_frame_format.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgiddi.h
+- Dxgiddi.h
 api_name:
--	DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
+- DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 product:
 - Windows
 targetos: Windows

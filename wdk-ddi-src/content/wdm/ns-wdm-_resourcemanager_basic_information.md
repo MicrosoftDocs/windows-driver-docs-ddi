@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._RESOURCEMANAGER_BASIC_INFORMATION
-title: "_RESOURCEMANAGER_BASIC_INFORMATION"
+title: _RESOURCEMANAGER_BASIC_INFORMATION (wdm.h)
 description: The RESOURCEMANAGER_BASIC INFORMATION structure contains information about a resource manager object.
 old-location: kernel\resourcemanager_basic_information.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RESOURCEMANAGER_BASIC_INFORMATION
+- RESOURCEMANAGER_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

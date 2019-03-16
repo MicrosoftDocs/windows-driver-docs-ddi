@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderCreate
-title: WdfWmiProviderCreate function
+title: WdfWmiProviderCreate function (wdfwmi.h)
 description: The WdfWmiProviderCreate method creates a WMI provider object that represents a WMI data block.
 old-location: wdf\wdfwmiprovidercreate.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfWmiProviderCreate
+- WdfWmiProviderCreate
 product:
 - Windows
 targetos: Windows

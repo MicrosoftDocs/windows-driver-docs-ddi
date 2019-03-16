@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini._STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
-title: "_STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE"
+title: _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE (strmini.h)
 description: 
 old-location: stream\stream_minidriver_stream_notification_type.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Strmini.h
+- Strmini.h
 api_name:
--	STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
+- STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
 product:
 - Windows
 targetos: Windows

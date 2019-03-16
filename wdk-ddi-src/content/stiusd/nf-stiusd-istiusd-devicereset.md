@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.DeviceReset
-title: IStiUSD::DeviceReset
+title: IStiUSD::DeviceReset (stiusd.h)
 description: A still image minidriver's IStiUSD::DeviceReset method resets a still image device to a known, initialized state.
 old-location: image\istiusd_devicereset.htm
 tech.root: image
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiUSD.DeviceReset
+- IStiUSD.DeviceReset
 product:
 - Windows
 targetos: Windows

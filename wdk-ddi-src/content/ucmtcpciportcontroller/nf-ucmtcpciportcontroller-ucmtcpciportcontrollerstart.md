@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerStart
-title: UcmTcpciPortControllerStart function
+title: UcmTcpciPortControllerStart function (ucmtcpciportcontroller.h)
 description: Indicates to the UcmTcpciCx class extension that the client driver is now ready to service hardware requests for the port controller.
 old-location: buses\ucmtcpciportcontrollerstart.htm
 tech.root: usbref
@@ -26,15 +26,15 @@ req.lib: Ucmtcpcicxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ucmtcpcicxstub.lib
--	ucmtcpcicxstub.dll
+- ucmtcpcicxstub.lib
+- ucmtcpcicxstub.dll
 api_name:
--	UcmTcpciPortControllerStart
+- UcmTcpciPortControllerStart
 product:
 - Windows
 targetos: Windows

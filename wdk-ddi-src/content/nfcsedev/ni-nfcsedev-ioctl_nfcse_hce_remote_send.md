@@ -1,6 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_HCE_REMOTE_SEND
-title: IOCTL_NFCSE_HCE_REMOTE_SEND
+title: IOCTL_NFCSE_HCE_REMOTE_SEND (nfcsedev.h)
 description: Transmits response APDU from DeviceHost NFCEE to remote device. The caller must be sure that response APDU is conformant to ISO-IEC 7816-4.
 old-location: nfpdrivers\ioctl_nfcse_hce_remote_send.htm
 tech.root: nfpdrivers
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	IOCTL_NFCSE_HCE_REMOTE_SEND
+- IOCTL_NFCSE_HCE_REMOTE_SEND
 product:
 - Windows
 targetos: Windows

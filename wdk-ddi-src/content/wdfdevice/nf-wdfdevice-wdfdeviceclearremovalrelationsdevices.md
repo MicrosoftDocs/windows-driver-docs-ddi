@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceClearRemovalRelationsDevices
-title: WdfDeviceClearRemovalRelationsDevices function
+title: WdfDeviceClearRemovalRelationsDevices function (wdfdevice.h)
 description: The WdfDeviceClearRemovalRelationsDevices method removes all devices from the list of devices that must be removed when a specified device is removed.
 old-location: wdf\wdfdeviceclearremovalrelationsdevices.htm
 tech.root: wdf
@@ -26,15 +26,15 @@ req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdf01000.sys
--	Wdf01000.sys.dll
+- Wdf01000.sys
+- Wdf01000.sys.dll
 api_name:
--	WdfDeviceClearRemovalRelationsDevices
+- WdfDeviceClearRemovalRelationsDevices
 product:
 - Windows
 targetos: Windows

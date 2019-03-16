@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtLockFile
-title: NtLockFile function
+title: NtLockFile function (ntifs.h)
 description: The NtLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwLockFile
--	NtLockFile
+- ZwLockFile
+- NtLockFile
 product:
 - Windows
 targetos: Windows

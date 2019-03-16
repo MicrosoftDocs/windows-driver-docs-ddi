@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxAdapterInitAsync
-title: IddCxAdapterInitAsync function
+title: IddCxAdapterInitAsync function (iddcx.h)
 description: An asynchronous initiation function called by the driver to create a WDDM graphics adapter.
 old-location: display\iddcxadapterinitasync.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll 
 req.irql: "_Must_inspect_result_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IddCxAdapterInitAsync
+- IddCxAdapterInitAsync
 product:
 - Windows
 targetos: Windows

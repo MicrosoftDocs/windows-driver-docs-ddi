@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IAllocatorMXF.PutBuffer
-title: IAllocatorMXF::PutBuffer
+title: IAllocatorMXF::PutBuffer (dmusicks.h)
 description: This method is not currently used by the miniport driver. The PutBuffer method passes a buffer to the allocator, but this occurs automatically when IMXF::PutMessage is called anyway.
 old-location: audio\iallocatormxf_putbuffer.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IAllocatorMXF.PutBuffer
+- IAllocatorMXF.PutBuffer
 product:
 - Windows
 targetos: Windows

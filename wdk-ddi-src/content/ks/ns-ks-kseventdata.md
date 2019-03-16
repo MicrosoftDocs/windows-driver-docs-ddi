@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_13
-title: KSEVENTDATA
+title: KSEVENTDATA (ks.h)
 description: Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
 old-location: stream\kseventdata.htm
 tech.root: stream
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSEVENTDATA
+- KSEVENTDATA
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectTransportSendAsync0
-title: FwpsInjectTransportSendAsync0 function
+title: FwpsInjectTransportSendAsync0 function (fwpsk.h)
 description: The FwpsInjectTransportSendAsync0 function injects packet data from the transport, datagram data, or ICMP error layers into the send data path.Note  FwpsInjectTransportSendAsync0 is the specific version of FwpsInjectTransportSendAsync used in Windows Vista and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FwpsInjectTransportSendAsync1 is available.
 old-location: netvista\fwpsinjecttransportsendasync0.htm
 tech.root: netvista
@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fwpkclnt.lib
--	fwpkclnt.dll
+- fwpkclnt.lib
+- fwpkclnt.dll
 api_name:
--	FwpsInjectTransportSendAsync0
+- FwpsInjectTransportSendAsync0
 product:
 - Windows
 targetos: Windows

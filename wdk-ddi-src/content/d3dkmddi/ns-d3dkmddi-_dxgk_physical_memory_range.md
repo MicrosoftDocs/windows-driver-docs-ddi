@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PHYSICAL_MEMORY_RANGE
-title: _DXGK_PHYSICAL_MEMORY_RANGE
+title: _DXGK_PHYSICAL_MEMORY_RANGE (d3dkmddi.h)
 description: The physical memory range.
 ms.assetid: 915fa8ff-3726-4166-9d7a-7e342c685bdd
 ms.date: 10/19/2018
@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_PHYSICAL_MEMORY_RANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_PHYSICAL_MEMORY_RANGE
+- _DXGK_PHYSICAL_MEMORY_RANGE
 product: 
 - Windows
 targetos: Windows

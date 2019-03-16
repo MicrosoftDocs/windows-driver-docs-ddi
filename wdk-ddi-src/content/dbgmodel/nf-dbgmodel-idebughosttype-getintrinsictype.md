@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetIntrinsicType
-title: IDebugHostType::GetIntrinsicType
+title: IDebugHostType::GetIntrinsicType (dbgmodel.h)
 description: The GetIntrinsicType method returns information about what kind of intrinsic the type is.
 ms.assetid: 8dc4ddeb-007b-4fe3-96b7-4f8278aec110
 ms.date: 08/22/2018
@@ -24,14 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostType.GetIntrinsicType
-product: Windows
+- IDebugHostType.GetIntrinsicType
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

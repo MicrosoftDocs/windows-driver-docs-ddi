@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcMdlReadComplete
-title: CcMdlReadComplete function
+title: CcMdlReadComplete function (ntifs.h)
 description: The CcMdlReadComplete routine frees the memory descriptor lists (MDL) created by CcMdlRead for a cached file.
 old-location: ifsk\ccmdlreadcomplete.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	CcMdlReadComplete
+- CcMdlReadComplete
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
-title: PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
+title: PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT (d3d10umddi.h)
 description: Creates a geometry shader with stream output.
 old-location: display\creategeometryshaderwithstreamoutput_d3d11_1_.htm
 ms.assetid: 1d06ef38-4eb9-4129-b409-74bbd1951f92
@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	CreateGeometryShaderWithStreamOutput(D3D11_1)
+- CreateGeometryShaderWithStreamOutput(D3D11_1)
 product:
 - Windows
 targetos: Windows

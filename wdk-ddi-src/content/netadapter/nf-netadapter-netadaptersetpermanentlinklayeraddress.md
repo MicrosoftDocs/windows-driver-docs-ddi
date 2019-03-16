@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetPermanentLinkLayerAddress
-title: NetAdapterSetPermanentLinkLayerAddress function
+title: NetAdapterSetPermanentLinkLayerAddress function (netadapter.h)
 description: The NetAdapterSetPermanentLinkLayerAddress method sets the permanent link layer address for the network adapter.
 tech.root: netvista
 ms.assetid: f39b7c23-7cb7-457f-a8a0-0706a91b8029
@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetPermanentLinkLayerAddress
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterSetPermanentLinkLayerAddress
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterSetPermanentLinkLayerAddress
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

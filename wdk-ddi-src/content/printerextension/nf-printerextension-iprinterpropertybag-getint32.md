@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetInt32
-title: IPrinterPropertyBag::GetInt32
+title: IPrinterPropertyBag::GetInt32 (printerextension.h)
 description: Reads an integer property.
 old-location: print\iprinterpropertybag_getint32.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterPropertyBag.GetInt32
+- IPrinterPropertyBag.GetInt32
 product:
 - Windows
 targetos: Windows

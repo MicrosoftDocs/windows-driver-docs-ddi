@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
-title: PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
+title: PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002 (d3d12umddi.h)
 description: Create unordered access view.
 ms.assetid: 38bc078d-cd76-4dd3-aed4-b703ddddd7b9
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
+- PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002
 product: 
 - Windows
 targetos: Windows

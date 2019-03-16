@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
-title: "_ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
+title: _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER (acpiioct.h)
 description: The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
 old-location: acpi\acpi_device_information_output_buffer.htm
 tech.root: acpi
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
+- ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 product:
 - Windows
 targetos: Windows

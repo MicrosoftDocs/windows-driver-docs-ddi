@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoDeassignArcName
-title: IoDeassignArcName macro
+title: IoDeassignArcName macro (ntddk.h)
 description: The IoDeassignArcName routine removes a symbolic link between the ARC name for a device and the named device object.
 old-location: kernel\iodeassignarcname.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDeassignArcName
+- IoDeassignArcName
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CELLULAR_CLASS
-title: "_WWAN_CELLULAR_CLASS"
+title: _WWAN_CELLULAR_CLASS (wwan.h)
 description: The WWAN_CELLULAR_CLASS enumeration lists the different classes of cellular technology that are supported by the MB device.
 old-location: netvista\wwan_cellular_class.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_CELLULAR_CLASS
+- WWAN_CELLULAR_CLASS
 product:
 - Windows
 targetos: Windows

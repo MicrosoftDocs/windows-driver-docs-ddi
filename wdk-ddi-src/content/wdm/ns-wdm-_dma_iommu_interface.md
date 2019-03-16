@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_IOMMU_INTERFACE
-title: _DMA_IOMMU_INTERFACE
+title: _DMA_IOMMU_INTERFACE (wdm.h)
 description: 
 ms.assetid: 9f82331e-29a6-4cb3-a4a9-12d079fdf7e6
 ms.date: 10/19/2018
@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DMA_IOMMU_INTERFACE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DMA_IOMMU_INTERFACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

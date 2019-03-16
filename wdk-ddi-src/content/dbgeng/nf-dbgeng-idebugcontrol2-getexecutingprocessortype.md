@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExecutingProcessorType
-title: IDebugControl2::GetExecutingProcessorType
+title: IDebugControl2::GetExecutingProcessorType (dbgeng.h)
 description: The GetExecutingProcessorType method returns the executing processor type for the processor for which the last event occurred.
 old-location: debugger\getexecutingprocessortype.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetExecutingProcessorType
--	IDebugControl2.GetExecutingProcessorType
--	IDebugControl3.GetExecutingProcessorType
+- IDebugControl.GetExecutingProcessorType
+- IDebugControl2.GetExecutingProcessorType
+- IDebugControl3.GetExecutingProcessorType
 product:
 - Windows
 targetos: Windows

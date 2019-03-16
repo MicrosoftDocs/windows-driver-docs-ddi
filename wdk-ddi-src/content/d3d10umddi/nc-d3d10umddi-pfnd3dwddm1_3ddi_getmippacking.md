@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_GETMIPPACKING
-title: PFND3DWDDM1_3DDI_GETMIPPACKING
+title: PFND3DWDDM1_3DDI_GETMIPPACKING (d3d10umddi.h)
 description: For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 old-location: display\getmippacking.htm
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	GetMipPacking
+- GetMipPacking
 product:
 - Windows
 targetos: Windows

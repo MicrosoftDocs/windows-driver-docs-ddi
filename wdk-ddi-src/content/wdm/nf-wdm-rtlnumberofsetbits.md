@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlNumberOfSetBits
-title: RtlNumberOfSetBits function
+title: RtlNumberOfSetBits function (wdm.h)
 description: The RtlNumberOfSetBits routine returns a count of the set bits in a given bitmap variable.
 old-location: kernel\rtlnumberofsetbits.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
 req.irql: "<= APC_LEVEL (See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	Ntdll.dll
+- NtosKrnl.exe
+- Ntdll.dll
 api_name:
--	RtlNumberOfSetBits
+- RtlNumberOfSetBits
 product:
 - Windows
 targetos: Windows

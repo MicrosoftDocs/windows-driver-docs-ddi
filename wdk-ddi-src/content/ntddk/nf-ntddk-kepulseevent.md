@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KePulseEvent
-title: KePulseEvent function
+title: KePulseEvent function (ntddk.h)
 description: The KePulseEvent routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state.
 old-location: kernel\kepulseevent.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KePulseEvent
+- KePulseEvent
 product:
 - Windows
 targetos: Windows

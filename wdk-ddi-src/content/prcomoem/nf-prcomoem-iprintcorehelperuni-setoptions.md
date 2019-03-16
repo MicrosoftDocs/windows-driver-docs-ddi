@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetOptions
-title: IPrintCoreHelperUni::SetOptions
+title: IPrintCoreHelperUni::SetOptions (prcomoem.h)
 description: The IPrintCoreHelperUni::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperuni_setoptions.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperUni.SetOptions
+- IPrintCoreHelperUni.SetOptions
 product:
 - Windows
 targetos: Windows

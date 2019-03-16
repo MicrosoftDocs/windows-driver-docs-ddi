@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG_FLAGS
-title: "_WDF_DMA_ENABLER_CONFIG_FLAGS"
+title: _WDF_DMA_ENABLER_CONFIG_FLAGS (wdfdmaenabler.h)
 description: The WDF_DMA_ENABLER_CONFIG_FLAGS enumeration type defines flags that are used in a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_flags.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdmaenabler.h
+- wdfdmaenabler.h
 api_name:
--	WDF_DMA_ENABLER_CONFIG_FLAGS
+- WDF_DMA_ENABLER_CONFIG_FLAGS
 product:
 - Windows
 targetos: Windows

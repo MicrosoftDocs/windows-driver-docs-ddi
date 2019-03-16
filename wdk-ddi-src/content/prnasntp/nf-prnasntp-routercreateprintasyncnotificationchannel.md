@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterCreatePrintAsyncNotificationChannel
-title: RouterCreatePrintAsyncNotificationChannel function
+title: RouterCreatePrintAsyncNotificationChannel function (prnasntp.h)
 description: The RouterCreatePrintAsyncNotificationChannel function creates an asynchronous notification channel that is associated with a printer or print server.
 old-location: print\routercreateprintasyncnotificationchannel.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib: Spoolss.lib
 req.dll: Spoolss.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Spoolss.dll
+- Spoolss.dll
 api_name:
--	RouterCreatePrintAsyncNotificationChannel
+- RouterCreatePrintAsyncNotificationChannel
 product:
 - Windows
 targetos: Windows

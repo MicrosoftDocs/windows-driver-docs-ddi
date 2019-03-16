@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetString(ExtBuffer<char>,ULONG)
-title: ExtRemoteData::GetString(ExtBuffer<char>,ULONG)
+title: ExtRemoteData::GetString(ExtBuffer<char>,ULONG) (engextcpp.h)
 description: The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getstring.htm
 tech.root: debugger
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.GetString
+- ExtRemoteData.GetString
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

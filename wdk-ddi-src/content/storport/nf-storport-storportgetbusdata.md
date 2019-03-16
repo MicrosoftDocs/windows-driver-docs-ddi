@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetBusData
-title: StorPortGetBusData function
+title: StorPortGetBusData function (storport.h)
 description: The StorPortGetBusData routine retrieves the bus-specific configuration information necessary to initialize the HBA.
 old-location: storage\storportgetbusdata.htm
 tech.root: storage
@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetBusData
+- StorPortGetBusData
 product:
 - Windows
 targetos: Windows

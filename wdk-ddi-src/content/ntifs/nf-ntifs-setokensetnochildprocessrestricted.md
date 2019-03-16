@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenSetNoChildProcessRestricted
-title: SeTokenSetNoChildProcessRestricted function
+title: SeTokenSetNoChildProcessRestricted function (ntifs.h)
 description: The SeTokenSetNoChildProcessRestricted routine sets the TOKEN_AUDIT_NO_CHILD_PROCESS or TOKEN_AUDIT_NO_CHILD_PROCESS flags in the token.
 old-location: ifsk\setokensetnochildprocessrestricted.htm
 tech.root: ifsk
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	SeTokenSetNoChildProcessRestricted
+- SeTokenSetNoChildProcessRestricted
 product:
 - Windows
 targetos: Windows

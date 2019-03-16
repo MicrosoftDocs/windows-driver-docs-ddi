@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYPROCESSOFFERINFO
-title: _D3DKMT_QUERYPROCESSOFFERINFO
+title: _D3DKMT_QUERYPROCESSOFFERINFO (d3dkmthk.h)
 description: Used to query the process offer info.
 ms.assetid: 321a6f3d-7375-42a3-b17f-9b7362df44af
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERYPROCESSOFFERINFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_QUERYPROCESSOFFERINFO
+- _D3DKMT_QUERYPROCESSOFFERINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

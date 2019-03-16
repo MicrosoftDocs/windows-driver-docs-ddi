@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
-title: _KMTQUERYADAPTERINFOTYPE
+title: _KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
 description: The available types of display adapters in the registry.
 ms.assetid: bb3888be-1948-4b72-b3f4-c04ff33f2573
 ms.date: 11/21/2018
@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: KMTQUERYADAPTERINFOTYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_KMTQUERYADAPTERINFOTYPE
+- _KMTQUERYADAPTERINFOTYPE
 product: 
 - Windows
 targetos: Windows

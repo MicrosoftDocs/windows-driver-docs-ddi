@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_DESCRIPTOR
-title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
+title: _CM_PARTIAL_RESOURCE_DESCRIPTOR (wdm.h)
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	CM_PARTIAL_RESOURCE_DESCRIPTOR
+- CM_PARTIAL_RESOURCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

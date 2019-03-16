@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
-title: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function
+title: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function (ucmtcpciportcontroller.h)
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION structure.
 old-location: buses\ucmtcpci_port_controller_identification_init.htm
 tech.root: usbref
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpciportcontroller.h
+- ucmtcpciportcontroller.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
+- UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 product:
 - Windows
 targetos: Windows

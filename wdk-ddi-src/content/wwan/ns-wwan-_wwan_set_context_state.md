@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT_STATE
-title: "_WWAN_SET_CONTEXT_STATE"
+title: _WWAN_SET_CONTEXT_STATE (wwan.h)
 description: The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\wwan_set_context_state.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SET_CONTEXT_STATE
+- WWAN_SET_CONTEXT_STATE
 product:
 - Windows
 targetos: Windows

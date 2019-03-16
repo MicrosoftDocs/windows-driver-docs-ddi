@@ -1,6 +1,6 @@
 ---
 UID: NE:printoem._STDVARIABLEINDEX
-title: "_STDVARIABLEINDEX"
+title: _STDVARIABLEINDEX (printoem.h)
 description: 
 old-location: print\stdvariableindex.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printoem.h
+- Printoem.h
 api_name:
--	STDVARIABLEINDEX
+- STDVARIABLEINDEX
 product:
 - Windows
 targetos: Windows

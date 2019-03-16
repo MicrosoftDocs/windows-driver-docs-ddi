@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlMapGenericMask
-title: RtlMapGenericMask function
+title: RtlMapGenericMask function (ntddk.h)
 description: The RtlMapGenericMask routine determines the nongeneric access rights specified by an ACCESS_MASK.
 old-location: kernel\rtlmapgenericmask.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlMapGenericMask
+- RtlMapGenericMask
 product:
 - Windows
 targetos: Windows

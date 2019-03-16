@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryMaximumProcessorCountEx
-title: KeQueryMaximumProcessorCountEx function
+title: KeQueryMaximumProcessorCountEx function (ntddk.h)
 description: The KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerymaximumprocessorcountex.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KeQueryMaximumProcessorCountEx
+- KeQueryMaximumProcessorCountEx
 product:
 - Windows
 targetos: Windows

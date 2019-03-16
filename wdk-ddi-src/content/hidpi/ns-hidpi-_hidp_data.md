@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_DATA
-title: "_HIDP_DATA"
+title: _HIDP_DATA (hidpi.h)
 description: The HIDP_DATA structure contains information about a HID control's data index and value in a HID report.
 old-location: hid\hidp_data.htm
 tech.root: hid
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HIDP_DATA
+- HIDP_DATA
 product:
 - Windows
 targetos: Windows

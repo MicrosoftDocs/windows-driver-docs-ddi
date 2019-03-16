@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMonitorPowerState
-title: D3DKMTCheckMonitorPowerState function
+title: D3DKMTCheckMonitorPowerState function (d3dkmthk.h)
 description: The D3DKMTCheckMonitorPowerState function verifies the power state of a monitor.
 old-location: display\d3dkmtcheckmonitorpowerstate.htm
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCheckMonitorPowerState
+- D3DKMTCheckMonitorPowerState
 product:
 - Windows
 targetos: Windows

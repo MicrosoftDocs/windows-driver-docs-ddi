@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_COPY_OFFLOAD_DESCRIPTOR
-title: "_DEVICE_COPY_OFFLOAD_DESCRIPTOR"
+title: _DEVICE_COPY_OFFLOAD_DESCRIPTOR (ntddstor.h)
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the copy offload capabilities of a storage device.
 old-location: storage\device_copy_offload_descriptor.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_COPY_OFFLOAD_DESCRIPTOR
+- DEVICE_COPY_OFFLOAD_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

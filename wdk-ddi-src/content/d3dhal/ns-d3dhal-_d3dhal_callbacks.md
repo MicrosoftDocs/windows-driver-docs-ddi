@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CALLBACKS
-title: "_D3DHAL_CALLBACKS"
+title: _D3DHAL_CALLBACKS (d3dhal.h)
 description: D3DHAL_CALLBACKS is one of several callback structures that describe the Direct3D support provided by the driver.
 old-location: display\d3dhal_callbacks.htm
 tech.root: display
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3DHAL_CALLBACKS
+- D3DHAL_CALLBACKS
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape.__unnamed_struct_19
-title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
+title: RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER (minitape.h)
 description: A token, created as a representation of data (ROD), for an offload read data operation is returned in a RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure.
 old-location: storage\receive_token_information_response_header.htm
 tech.root: storage
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
+- RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 product:
 - Windows
 targetos: Windows

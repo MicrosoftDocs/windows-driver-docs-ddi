@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryVirtualMemory
-title: NtQueryVirtualMemory function
+title: NtQueryVirtualMemory function (ntifs.h)
 description: The ZwQueryVirtualMemory routine determines the state, protection, and type of a region of pages within the virtual address space of the subject process.
 old-location: kernel\zwqueryvirtualmemory.htm
 tech.root: kernel
@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	ZwQueryVirtualMemory
--	NtQueryVirtualMemory
+- ZwQueryVirtualMemory
+- NtQueryVirtualMemory
 product:
 - Windows
 targetos: Windows

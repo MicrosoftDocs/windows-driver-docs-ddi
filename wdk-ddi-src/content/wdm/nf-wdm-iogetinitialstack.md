@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetInitialStack
-title: IoGetInitialStack function
+title: IoGetInitialStack function (wdm.h)
 description: The IoGetInitialStack routine returns the base address of the current thread's stack.
 old-location: kernel\iogetinitialstack.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<=APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoGetInitialStack
+- IoGetInitialStack
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptContext
-title: IPrinterScriptContext
+title: IPrinterScriptContext (printerextension.h)
 description: Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
 old-location: print\iprinterscriptcontext.htm
 tech.root: print
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptContext
+- IPrinterScriptContext
 product:
 - Windows
 targetos: Windows

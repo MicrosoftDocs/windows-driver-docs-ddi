@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RECLAIMRESOURCES_0001
-title: PFND3D12DDI_RECLAIMRESOURCES_0001
+title: PFND3D12DDI_RECLAIMRESOURCES_0001 (d3d12umddi.h)
 description: Implemented by the client driver to reclaim resources.
 ms.assetid: 3a8ee9d9-b122-4fe8-8243-70c3872ab95d
 ms.date: 10/19/2018
@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_RECLAIMRESOURCES_0001
+- PFND3D12DDI_RECLAIMRESOURCES_0001
 product: 
 - Windows
 targetos: Windows

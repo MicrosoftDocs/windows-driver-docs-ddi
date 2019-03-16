@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ACQUIRESWIZZLINGRANGE
-title: DXGKDDI_ACQUIRESWIZZLINGRANGE
+title: DXGKDDI_ACQUIRESWIZZLINGRANGE (d3dkmddi.h)
 description: The DxgkDdiAcquireSwizzlingRange function makes an allocation accessible through the central processing unit (CPU) aperture for the given segment.
 old-location: display\dxgkddiacquireswizzlingrange.htm
 ms.assetid: f861e055-70db-4e0a-9c62-87e2d41f92ae
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiAcquireSwizzlingRange
+- DxgkDdiAcquireSwizzlingRange
 product:
 - Windows
 targetos: Windows

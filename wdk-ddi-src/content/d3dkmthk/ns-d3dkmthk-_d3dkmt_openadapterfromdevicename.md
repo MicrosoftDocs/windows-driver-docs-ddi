@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMDEVICENAME
-title: "_D3DKMT_OPENADAPTERFROMDEVICENAME"
+title: _D3DKMT_OPENADAPTERFROMDEVICENAME (d3dkmthk.h)
 description: The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromdevicename.htm
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_OPENADAPTERFROMDEVICENAME
+- D3DKMT_OPENADAPTERFROMDEVICENAME
 product:
 - Windows
 targetos: Windows

@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_22
-title: GNSS_GEOFENCE_CREATE_RESPONSE
+title: GNSS_GEOFENCE_CREATE_RESPONSE (gnssdriver.h)
 description: This structure defines the response expected from the GNSS engine when a new geofence is created.
 old-location: gnss\gnss_geofence_create_response.htm
 tech.root: gnss
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_GEOFENCE_CREATE_RESPONSE
+- GNSS_GEOFENCE_CREATE_RESPONSE
 product:
 - Windows
 targetos: Windows

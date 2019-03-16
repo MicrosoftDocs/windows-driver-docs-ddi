@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportTopology.Init
-title: IMiniportTopology::Init
+title: IMiniportTopology::Init (portcls.h)
 description: The Init method initializes the topology miniport object.
 old-location: audio\iminiporttopology_init.htm
 tech.root: audio
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportTopology.Init
+- IMiniportTopology.Init
 product:
 - Windows
 targetos: Windows

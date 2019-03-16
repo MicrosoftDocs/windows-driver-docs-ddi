@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_LOCAL_ENDPOINTS
-title: "_NDIS_NDK_LOCAL_ENDPOINTS"
+title: _NDIS_NDK_LOCAL_ENDPOINTS (ntddndis.h)
 description: The NDIS_NDK_LOCAL_ENDPOINTS structure describes the NDK local endpoints that are on a miniport adapter.
 old-location: netvista\ndis_ndk_local_endpoints.htm
 tech.root: netvista
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_NDK_LOCAL_ENDPOINTS
+- NDIS_NDK_LOCAL_ENDPOINTS
 product:
 - Windows
 targetos: Windows

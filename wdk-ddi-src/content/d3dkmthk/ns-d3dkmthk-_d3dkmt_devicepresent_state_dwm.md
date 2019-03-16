@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_STATE_DWM
-title: _D3DKMT_DEVICEPRESENT_STATE_DWM
+title: _D3DKMT_DEVICEPRESENT_STATE_DWM (d3dkmthk.h)
 description: The device present state.
 ms.assetid: 26cf479b-e17e-4e67-8955-acb9e97ef17d
 ms.date: 10/19/2018
@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DEVICEPRESENT_STATE_DWM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEVICEPRESENT_STATE_DWM
+- _D3DKMT_DEVICEPRESENT_STATE_DWM
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetFileObject
-title: IWDFIoRequest::GetFileObject
+title: IWDFIoRequest::GetFileObject (wudfddi.h)
 description: The GetFileObject method retrieves a pointer to the IWDFFile interface that is associated with an I/O request.
 old-location: wdf\iwdfiorequest_getfileobject.htm
 tech.root: wdf
@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.GetFileObject
+- IWDFIoRequest.GetFileObject
 product:
 - Windows
 targetos: Windows

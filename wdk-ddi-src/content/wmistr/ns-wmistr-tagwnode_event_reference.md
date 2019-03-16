@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_EVENT_REFERENCE
-title: tagWNODE_EVENT_REFERENCE
+title: tagWNODE_EVENT_REFERENCE (wmistr.h)
 description: The WNODE_EVENT_REFERENCE structure contains information that WMI can use to query for an event that exceeds the event size limit set in the registry.
 old-location: kernel\wnode_event_reference.htm
 tech.root: kernel
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wmistr.h
+- Wmistr.h
 api_name:
--	WNODE_EVENT_REFERENCE
+- WNODE_EVENT_REFERENCE
 product:
 - Windows
 targetos: Windows

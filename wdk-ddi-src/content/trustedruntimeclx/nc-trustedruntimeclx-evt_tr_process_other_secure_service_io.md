@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
-title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
+title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO (trustedruntimeclx.h)
 description: 
 ms.assetid: 73774bab-6134-40b9-97f7-5ee28aa0929f
 ms.date: 10/19/2018
@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
+- EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
