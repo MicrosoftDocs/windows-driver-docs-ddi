@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VP_DEVICE_DESCRIPTION
+- VP_DEVICE_DESCRIPTION
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedSynchronizeExecution
+- PshedSynchronizeExecution
 product:
 - Windows
 targetos: Windows

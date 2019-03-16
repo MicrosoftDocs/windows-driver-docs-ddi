@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_RAYTRACING_INSTANCE_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RAYTRACING_INSTANCE_FLAGS
+- D3D12DDI_RAYTRACING_INSTANCE_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

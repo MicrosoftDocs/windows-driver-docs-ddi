@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_SAR_CONFIG_INFO, *PNDIS_WWAN_SAR_CONFIG_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_SAR_CONFIG_INFO
+- _NDIS_WWAN_SAR_CONFIG_INFO
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PD_REQUEST_DATA_OBJECT
+- _USBC_PD_REQUEST_DATA_OBJECT
 product:
 - Windows
 targetos: Windows

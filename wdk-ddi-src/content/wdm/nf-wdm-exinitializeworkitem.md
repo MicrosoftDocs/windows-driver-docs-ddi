@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	ExInitializeWorkItem
+- ExInitializeWorkItem
 product:
 - Windows
 targetos: Windows

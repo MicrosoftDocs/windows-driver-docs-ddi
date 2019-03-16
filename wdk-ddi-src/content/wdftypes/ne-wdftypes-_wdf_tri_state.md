@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdftypes.h
--	wudfddi_types.h
+- wdftypes.h
+- wudfddi_types.h
 api_name:
--	WDF_TRI_STATE
+- WDF_TRI_STATE
 product:
 - Windows
 targetos: Windows

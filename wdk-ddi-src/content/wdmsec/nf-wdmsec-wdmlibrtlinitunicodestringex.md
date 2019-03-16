@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WdmlibRtlInitUnicodeStringEx
--	RtlInitUnicodeString
+- WdmlibRtlInitUnicodeStringEx
+- RtlInitUnicodeString
 product:
 - Windows
 targetos: Windows

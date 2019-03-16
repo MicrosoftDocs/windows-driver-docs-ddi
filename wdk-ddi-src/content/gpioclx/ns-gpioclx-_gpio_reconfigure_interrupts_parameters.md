@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
+- GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
 product:
 - Windows
 targetos: Windows

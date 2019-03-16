@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_INITIALIZE_PORT
+- UART_INITIALIZE_PORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

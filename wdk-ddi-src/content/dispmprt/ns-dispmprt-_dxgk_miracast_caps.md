@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DXGK_MIRACAST_CAPS
+- DXGK_MIRACAST_CAPS
 product:
 - Windows
 targetos: Windows

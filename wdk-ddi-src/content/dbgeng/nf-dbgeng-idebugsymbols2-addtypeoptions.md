@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols2.AddTypeOptions
--	IDebugSymbols3.AddTypeOptions
+- IDebugSymbols2.AddTypeOptions
+- IDebugSymbols3.AddTypeOptions
 product:
 - Windows
 targetos: Windows

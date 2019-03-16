@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtReleaseVirtualStation
+- Dot11ExtReleaseVirtualStation
 product:
 - Windows
 targetos: Windows

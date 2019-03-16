@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	sensorscx.h
+- sensorscx.h
 api_name:
--	PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
+- PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

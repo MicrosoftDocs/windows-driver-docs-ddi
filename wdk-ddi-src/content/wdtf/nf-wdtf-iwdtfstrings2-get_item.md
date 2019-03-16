@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFStrings2.Item
--	IWDTFStrings2.get_Item
+- IWDTFStrings2.Item
+- IWDTFStrings2.get_Item
 product:
 - Windows
 targetos: Windows

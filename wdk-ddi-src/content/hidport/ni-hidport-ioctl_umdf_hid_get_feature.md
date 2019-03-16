@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidport.h
+- Hidport.h
 api_name:
--	IOCTL_UMDF_HID_GET_FEATURE
+- IOCTL_UMDF_HID_GET_FEATURE
 product:
 - Windows
 targetos: Windows

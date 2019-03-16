@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
+- PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0030
 product:
 - Windows
 targetos: Windows

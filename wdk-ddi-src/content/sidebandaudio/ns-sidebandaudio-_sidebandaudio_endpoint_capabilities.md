@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
+- _SIDEBANDAUDIO_ENDPOINT_CAPABILITIES
 product:
 - Windows
 targetos: Windows

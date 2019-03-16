@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
+- _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces3.EndEnumTagged
--	IDebugDataSpaces4.EndEnumTagged
+- IDebugDataSpaces3.EndEnumTagged
+- IDebugDataSpaces4.EndEnumTagged
 product:
 - Windows
 targetos: Windows

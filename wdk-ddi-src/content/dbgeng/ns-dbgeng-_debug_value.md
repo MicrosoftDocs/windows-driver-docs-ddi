@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dbgEng.h
+- dbgEng.h
 api_name:
--	DEBUG_VALUE
+- DEBUG_VALUE
 product:
 - Windows
 targetos: Windows

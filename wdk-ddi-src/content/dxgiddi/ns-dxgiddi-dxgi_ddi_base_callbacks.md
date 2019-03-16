@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_BASE_CALLBACKS
+- DXGI_DDI_BASE_CALLBACKS
 product: 
 - Windows
 targetos: Windows

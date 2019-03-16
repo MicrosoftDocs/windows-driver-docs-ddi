@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	AgpCommitPhysical
+- AgpCommitPhysical
 product:
 - Windows
 targetos: Windows

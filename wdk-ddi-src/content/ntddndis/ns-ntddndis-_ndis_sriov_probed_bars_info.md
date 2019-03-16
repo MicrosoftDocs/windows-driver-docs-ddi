@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_SRIOV_PROBED_BARS_INFO
+- NDIS_SRIOV_PROBED_BARS_INFO
 product:
 - Windows
 targetos: Windows

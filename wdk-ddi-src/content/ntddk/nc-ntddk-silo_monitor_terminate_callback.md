@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	TerminateCallback
+- TerminateCallback
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
+- _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 product: 
 - Windows
 targetos: Windows

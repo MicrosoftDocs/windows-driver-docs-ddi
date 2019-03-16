@@ -26,15 +26,15 @@ req.lib: Bdasup.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Bdasup.lib
--	Bdasup.dll
+- Bdasup.lib
+- Bdasup.dll
 api_name:
--	BdaDeletePin
+- BdaDeletePin
 product:
 - Windows
 targetos: Windows

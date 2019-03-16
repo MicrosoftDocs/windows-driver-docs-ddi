@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_COMMAND_LIST_FUNCS_3D_0052
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_COMMAND_LIST_FUNCS_3D_0052
+- D3D12DDI_COMMAND_LIST_FUNCS_3D_0052
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

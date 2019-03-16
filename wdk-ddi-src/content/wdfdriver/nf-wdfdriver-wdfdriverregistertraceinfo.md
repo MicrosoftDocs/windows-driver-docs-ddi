@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Not applicable
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfdriver.h
+- Wdfdriver.h
 api_name:
--	WdfDriverRegisterTraceInfo
+- WdfDriverRegisterTraceInfo
 product:
 - Windows
 targetos: Windows

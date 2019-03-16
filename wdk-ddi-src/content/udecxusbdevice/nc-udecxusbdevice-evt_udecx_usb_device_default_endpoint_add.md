@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	EvtUsbDeviceDefaultEndpointAdd
+- EvtUsbDeviceDefaultEndpointAdd
 product:
 - Windows
 targetos: Windows

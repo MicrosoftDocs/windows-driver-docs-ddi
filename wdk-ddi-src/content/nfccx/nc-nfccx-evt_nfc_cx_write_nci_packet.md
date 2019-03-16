@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Requires same
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	EvtNfcCxWriteNciPacket
+- EvtNfcCxWriteNciPacket
 product:
 - Windows
 targetos: Windows

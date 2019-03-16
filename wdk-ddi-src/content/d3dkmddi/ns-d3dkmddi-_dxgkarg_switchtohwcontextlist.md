@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SWITCHTOHWCONTEXTLIST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	_DXGKARG_SWITCHTOHWCONTEXTLIST
+- _DXGKARG_SWITCHTOHWCONTEXTLIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	Dump_Read
+- Dump_Read
 product:
 - Windows
 targetos: Windows

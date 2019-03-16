@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_CONTEXT_ATTRIBUTES, *PNET_PACKET_CONTEXT_ATTRIBUTES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NET_PACKET_CONTEXT_ATTRIBUTES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NET_PACKET_CONTEXT_ATTRIBUTES
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

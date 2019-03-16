@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiodisk.h
+- mpiodisk.h
 api_name:
--	DsmSetLoadBalancePolicyALUA_OUT
+- DsmSetLoadBalancePolicyALUA_OUT
 product:
 - Windows
 targetos: Windows

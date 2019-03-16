@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
+- D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS
 product:
 - Windows
 targetos: Windows

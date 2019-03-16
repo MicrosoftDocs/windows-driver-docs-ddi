@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetProcessIdByDataOffset
--	IDebugSystemObjects2.GetProcessIdByDataOffset
--	IDebugSystemObjects3.GetProcessIdByDataOffset
--	IDebugSystemObjects4.GetProcessIdByDataOffset
+- IDebugSystemObjects.GetProcessIdByDataOffset
+- IDebugSystemObjects2.GetProcessIdByDataOffset
+- IDebugSystemObjects3.GetProcessIdByDataOffset
+- IDebugSystemObjects4.GetProcessIdByDataOffset
 product:
 - Windows
 targetos: Windows

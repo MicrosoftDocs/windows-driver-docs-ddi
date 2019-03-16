@@ -26,15 +26,15 @@ req.lib: Dxapi.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Dxapi.lib
--	Dxapi.dll
+- Dxapi.lib
+- Dxapi.dll
 api_name:
--	DxApiGetVersion
+- DxApiGetVersion
 product:
 - Windows
 targetos: Windows

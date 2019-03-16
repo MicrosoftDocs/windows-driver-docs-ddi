@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	storport.h
+- storport.h
 api_name:
--	HwStorWorkItem
+- HwStorWorkItem
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	MiniportWdiTxDataSend
+- MiniportWdiTxDataSend
 product:
 - Windows
 targetos: Windows

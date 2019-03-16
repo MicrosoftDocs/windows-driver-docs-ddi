@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
+- DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 product:
 - Windows
 targetos: Windows

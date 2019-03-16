@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	KSP_DRMAUDIOSTREAM_CONTENTID
+- KSP_DRMAUDIOSTREAM_CONTENTID
 product:
 - Windows
 targetos: Windows

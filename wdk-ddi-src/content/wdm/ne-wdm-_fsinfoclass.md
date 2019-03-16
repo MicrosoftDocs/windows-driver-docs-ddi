@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	FS_INFORMATION_CLASS
+- FS_INFORMATION_CLASS
 product:
 - Windows
 targetos: Windows

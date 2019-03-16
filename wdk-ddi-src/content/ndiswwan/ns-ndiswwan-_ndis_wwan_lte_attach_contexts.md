@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_LTE_ATTACH_CONTEXTS, *PNDIS_WWAN_LTE_ATTACH_CONTEXTS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_LTE_ATTACH_CONTEXTS
+- _NDIS_WWAN_LTE_ATTACH_CONTEXTS
 product: 
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: KMCL_SERVER_ONLY_METHODS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	_KMCL_SERVER_ONLY_METHODS
+- _KMCL_SERVER_ONLY_METHODS
 product: 
 - Windows
 targetos: Windows

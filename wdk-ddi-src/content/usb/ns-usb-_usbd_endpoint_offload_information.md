@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	USBD_ENDPOINT_OFFLOAD_INFORMATION
+- USBD_ENDPOINT_OFFLOAD_INFORMATION
 product:
 - Windows
 targetos: Windows

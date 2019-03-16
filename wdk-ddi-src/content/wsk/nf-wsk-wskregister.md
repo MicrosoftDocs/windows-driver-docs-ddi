@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Netio.lib
--	Netio.dll
+- Netio.lib
+- Netio.dll
 api_name:
--	WskRegister
+- WskRegister
 product:
 - Windows
 targetos: Windows

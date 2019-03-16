@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	VIDEO_WIN32K_CALLBACKS_PARAMS
+- VIDEO_WIN32K_CALLBACKS_PARAMS
 product:
 - Windows
 targetos: Windows

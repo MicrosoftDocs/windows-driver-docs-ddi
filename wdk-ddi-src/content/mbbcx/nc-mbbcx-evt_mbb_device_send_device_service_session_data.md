@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA
+- EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA
 product:
 - Windows
 targetos: Windows

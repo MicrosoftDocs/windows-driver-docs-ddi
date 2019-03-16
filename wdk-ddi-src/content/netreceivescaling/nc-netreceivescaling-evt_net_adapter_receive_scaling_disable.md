@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netreceivescaling.h
+api_name: 
+- EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

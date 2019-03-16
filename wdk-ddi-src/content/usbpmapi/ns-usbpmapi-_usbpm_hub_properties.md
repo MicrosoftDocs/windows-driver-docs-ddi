@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_HUB_PROPERTIES, *PUSBPM_HUB_PROPERTIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_HUB_PROPERTIES
+- USBPM_HUB_PROPERTIES
 product:
 - Windows
 targetos: Windows

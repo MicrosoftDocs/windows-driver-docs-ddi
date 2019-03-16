@@ -26,15 +26,15 @@ req.lib: Mcd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mcd.lib
--	Mcd.dll
+- Mcd.lib
+- Mcd.dll
 api_name:
--	ChangerClassSendSrbSynchronous
+- ChangerClassSendSrbSynchronous
 product:
 - Windows
 targetos: Windows

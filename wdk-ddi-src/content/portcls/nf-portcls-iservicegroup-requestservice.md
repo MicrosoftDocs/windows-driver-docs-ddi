@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IServiceGroup::RequestService
+- IServiceGroup::RequestService
 product:
 - Windows
 targetos: Windows

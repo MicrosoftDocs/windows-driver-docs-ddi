@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDITEXTURESTAGESTATETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	_D3DDDITEXTURESTAGESTATETYPE
+- _D3DDDITEXTURESTAGESTATETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

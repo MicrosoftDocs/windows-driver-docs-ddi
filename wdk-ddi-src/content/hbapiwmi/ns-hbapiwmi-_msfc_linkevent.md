@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MSFC_LinkEvent
+- MSFC_LinkEvent
 product:
 - Windows
 targetos: Windows

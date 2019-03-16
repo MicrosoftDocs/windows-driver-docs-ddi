@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	WRITE_REGISTER_BUFFER_ULONG64
+- WRITE_REGISTER_BUFFER_ULONG64
 product:
 - Windows
 targetos: Windows

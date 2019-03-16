@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_DEVICEPAGEFAULT_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_DEVICEPAGEFAULT_STATE
+- _D3DKMT_DEVICEPAGEFAULT_STATE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

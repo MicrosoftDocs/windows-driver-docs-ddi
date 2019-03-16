@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	NFC_CX_SEQUENCE
+- NFC_CX_SEQUENCE
 product:
 - Windows
 targetos: Windows

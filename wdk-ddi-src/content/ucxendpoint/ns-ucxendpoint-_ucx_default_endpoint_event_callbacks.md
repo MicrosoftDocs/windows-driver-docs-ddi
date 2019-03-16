@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
+- UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

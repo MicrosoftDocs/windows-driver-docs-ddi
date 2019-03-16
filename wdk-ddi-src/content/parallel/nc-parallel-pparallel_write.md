@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	PPARALLEL_WRITE
+- PPARALLEL_WRITE
 product:
 - Windows
 targetos: Windows

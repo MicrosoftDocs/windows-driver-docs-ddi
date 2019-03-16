@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PDXGK_INITIAL_COMPONENT_STATE
+- PDXGK_INITIAL_COMPONENT_STATE
 product: 
 - Windows
 targetos: Windows

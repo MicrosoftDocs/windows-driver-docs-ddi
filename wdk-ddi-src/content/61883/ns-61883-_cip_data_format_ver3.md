@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CIP_DATA_FORMAT_VER3
+- CIP_DATA_FORMAT_VER3
 product:
 - Windows
 targetos: Windows

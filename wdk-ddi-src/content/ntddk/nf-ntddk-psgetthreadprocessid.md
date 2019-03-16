@@ -24,16 +24,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	PsGetThreadProcessId
+- PsGetThreadProcessId
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

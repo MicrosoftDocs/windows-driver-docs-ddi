@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

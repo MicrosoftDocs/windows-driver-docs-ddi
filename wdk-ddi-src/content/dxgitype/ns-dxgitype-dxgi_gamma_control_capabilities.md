@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dxgitype.h
+- Dxgitype.h
 api_name:
--	DXGI_GAMMA_CONTROL_CAPABILITIES
+- DXGI_GAMMA_CONTROL_CAPABILITIES
 product:
 - Windows
 targetos: Windows

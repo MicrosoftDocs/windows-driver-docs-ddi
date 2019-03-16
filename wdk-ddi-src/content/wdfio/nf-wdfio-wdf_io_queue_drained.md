@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any IRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_IO_QUEUE_DRAINED
+- WDF_IO_QUEUE_DRAINED
 product:
 - Windows
 targetos: Windows

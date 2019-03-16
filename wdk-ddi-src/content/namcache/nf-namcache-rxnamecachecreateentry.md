@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	namcache.h
+- namcache.h
 api_name:
--	RxNameCacheCreateEntry
+- RxNameCacheCreateEntry
 product:
 - Windows
 targetos: Windows

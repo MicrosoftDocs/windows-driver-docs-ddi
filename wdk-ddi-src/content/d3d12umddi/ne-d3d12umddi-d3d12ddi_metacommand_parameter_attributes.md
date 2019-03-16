@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES
+- D3D12DDI_METACOMMAND_PARAMETER_ATTRIBUTES
 product: 
 - Windows
 targetos: Windows

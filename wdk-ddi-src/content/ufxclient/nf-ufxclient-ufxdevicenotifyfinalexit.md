@@ -23,17 +23,17 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
 -   ufxstub.lib
-apiname: 
--	UfxDeviceNotifyFinalExit
+api_name: 
+- UfxDeviceNotifyFinalExit
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

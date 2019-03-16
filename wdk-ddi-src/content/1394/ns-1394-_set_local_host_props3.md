@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	SET_LOCAL_HOST_PROPS3
+- SET_LOCAL_HOST_PROPS3
 product:
 - Windows
 targetos: Windows

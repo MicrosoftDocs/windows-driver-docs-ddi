@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: See Remarks section.
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	UserDefined
-apilocation:
--	wdfinterrupt.h
-apiname:
--	WdfInterruptReleaseLock
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- wdfinterrupt.h
+api_name:
+- WdfInterruptReleaseLock
 product:
 - Windows
 targetos: Windows

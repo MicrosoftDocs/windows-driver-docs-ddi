@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_P2P_SERVICE_NAME_HASH
+- WDI_P2P_SERVICE_NAME_HASH
 product:
 - Windows
 targetos: Windows

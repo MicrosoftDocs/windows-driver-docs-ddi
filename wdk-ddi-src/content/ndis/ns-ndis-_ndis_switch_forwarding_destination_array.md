@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
+- NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
 product:
 - Windows
 targetos: Windows

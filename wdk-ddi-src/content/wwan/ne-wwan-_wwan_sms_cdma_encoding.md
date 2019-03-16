@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_SMS_CDMA_ENCODING
+- WWAN_SMS_CDMA_ENCODING
 product:
 - Windows
 targetos: Windows

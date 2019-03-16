@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: I2C_REQUEST, *PI2C_REQUEST
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sensorsdriversutils.h
+- sensorsdriversutils.h
 api_name:
--	_I2C_REQUEST
+- _I2C_REQUEST
 product: 
 - Windows
 targetos: Windows

@@ -26,15 +26,15 @@ req.lib: Fwpkclnt.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fwpkclnt.lib
--	Fwpkclnt.dll
+- Fwpkclnt.lib
+- Fwpkclnt.dll
 api_name:
--	FwpsPendOperation0
+- FwpsPendOperation0
 product:
 - Windows
 targetos: Windows

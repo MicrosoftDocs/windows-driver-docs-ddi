@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	READ_PORT_USHORT
+- READ_PORT_USHORT
 product:
 - Windows
 targetos: Windows

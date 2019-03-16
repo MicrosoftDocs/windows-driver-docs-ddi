@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_EVENT_CALLBACK_CONTROL
+- WSK_EVENT_CALLBACK_CONTROL
 product:
 - Windows
 targetos: Windows

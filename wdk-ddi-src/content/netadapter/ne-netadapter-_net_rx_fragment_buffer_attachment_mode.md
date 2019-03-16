@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	_NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

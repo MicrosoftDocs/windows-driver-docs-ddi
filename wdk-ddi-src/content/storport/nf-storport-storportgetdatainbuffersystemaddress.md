@@ -26,15 +26,15 @@ req.lib: Storport.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Storport.lib
--	Storport.dll
+- Storport.lib
+- Storport.dll
 api_name:
--	StorPortGetDataInBufferSystemAddress
+- StorPortGetDataInBufferSystemAddress
 product:
 - Windows
 targetos: Windows

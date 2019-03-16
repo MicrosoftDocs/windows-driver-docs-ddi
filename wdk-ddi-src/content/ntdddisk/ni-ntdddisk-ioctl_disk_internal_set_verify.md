@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_INTERNAL_SET_VERIFY
+- IOCTL_DISK_INTERNAL_SET_VERIFY
 product:
 - Windows
 targetos: Windows

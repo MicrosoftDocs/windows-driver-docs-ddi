@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MATRIX3X3, *PMATRIX3X3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	MATRIX3X3
+- MATRIX3X3
 product: 
 - Windows
 targetos: Windows

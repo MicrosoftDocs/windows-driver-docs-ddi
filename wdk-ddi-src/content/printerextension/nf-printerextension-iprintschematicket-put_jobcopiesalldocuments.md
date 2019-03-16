@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaTicket.JobCopiesAllDocuments
--	IPrintSchemaTicket.put_JobCopiesAllDocuments
+- IPrintSchemaTicket.JobCopiesAllDocuments
+- IPrintSchemaTicket.put_JobCopiesAllDocuments
 product:
 - Windows
 targetos: Windows

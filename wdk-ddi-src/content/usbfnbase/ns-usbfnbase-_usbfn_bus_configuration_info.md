@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnbase.h
+- usbfnbase.h
 api_name:
--	USBFN_BUS_CONFIGURATION_INFO
+- USBFN_BUS_CONFIGURATION_INFO
 product:
 - Windows
 targetos: Windows

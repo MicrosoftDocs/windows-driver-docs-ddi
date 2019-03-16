@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_READ_REGISTERS
+- IOCTL_READ_REGISTERS
 product:
 - Windows
 targetos: Windows

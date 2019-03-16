@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfsimulatedbatterysystemaction.h
+- wdtfsimulatedbatterysystemaction.h
 api_name:
--	IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
+- IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
 product:
 - Windows
 targetos: Windows

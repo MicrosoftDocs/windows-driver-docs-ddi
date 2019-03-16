@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	IOCTL_SBAUD_STREAM_OPEN
+- IOCTL_SBAUD_STREAM_OPEN
 product:
 - Windows
 targetos: Windows

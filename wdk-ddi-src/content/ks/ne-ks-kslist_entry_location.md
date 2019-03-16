@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	KSLIST_ENTRY_LOCATION
+- KSLIST_ENTRY_LOCATION
 product:
 - Windows
 targetos: Windows

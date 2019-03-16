@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ufs.h
+- Ufs.h
 api_name:
--	UFS_ATTRIBUTES_DESCRIPTOR
+- UFS_ATTRIBUTES_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

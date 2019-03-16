@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntintsafe.h
+- ntintsafe.h
 api_name:
--	RtlInt8ToUInt8
+- RtlInt8ToUInt8
 product:
 - Windows
 targetos: Windows

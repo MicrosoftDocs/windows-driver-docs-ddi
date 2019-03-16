@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_DATA_BLOCK, *PUCSI_DATA_BLOCK
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_DATA_BLOCK
+- _UCSI_DATA_BLOCK
 product:
 - Windows
 targetos: Windows

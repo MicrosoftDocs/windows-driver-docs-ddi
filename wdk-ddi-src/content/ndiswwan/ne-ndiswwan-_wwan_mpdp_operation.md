@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_WWAN_MPDP_OPERATION
+- _WWAN_MPDP_OPERATION
 product:
 - Windows
 targetos: Windows

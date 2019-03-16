@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_NFIT_STRUCTURE_TYPE
+- _NFIT_STRUCTURE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

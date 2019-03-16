@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	L2CAP_CONFIG_VALUE_RANGE
+- L2CAP_CONFIG_VALUE_RANGE
 product:
 - Windows
 targetos: Windows

@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION_ARM64, *PDOMAIN_CONFIGURATION_ARM64
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_DOMAIN_CONFIGURATION_ARM64
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _DOMAIN_CONFIGURATION_ARM64
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

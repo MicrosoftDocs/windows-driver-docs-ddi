@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	IOCTL_VPCI_WRITE_BLOCK
+- IOCTL_VPCI_WRITE_BLOCK
 product:
 - Windows
 targetos: Windows

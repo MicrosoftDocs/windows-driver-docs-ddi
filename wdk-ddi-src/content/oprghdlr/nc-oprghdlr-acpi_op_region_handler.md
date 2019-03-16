@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	oprghdlr.h
+- oprghdlr.h
 api_name:
--	AcpiOpRegionHandler
+- AcpiOpRegionHandler
 product:
 - Windows
 targetos: Windows

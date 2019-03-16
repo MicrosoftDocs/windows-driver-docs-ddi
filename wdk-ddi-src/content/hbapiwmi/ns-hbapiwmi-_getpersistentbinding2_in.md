@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	GetPersistentBinding2_IN
+- GetPersistentBinding2_IN
 product:
 - Windows
 targetos: Windows

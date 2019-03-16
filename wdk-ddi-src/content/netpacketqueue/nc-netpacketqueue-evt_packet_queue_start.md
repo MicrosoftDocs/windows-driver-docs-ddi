@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	netpacketqueue.h
+- netpacketqueue.h
 api_name: 
--	EVT_PACKET_QUEUE_START
+- EVT_PACKET_QUEUE_START
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	PDO_CAPS
+- PDO_CAPS
 product:
 - Windows
 targetos: Windows

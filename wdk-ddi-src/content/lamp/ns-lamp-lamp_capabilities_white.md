@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lamp.h
+- lamp.h
 api_name:
--	LAMP_CAPABILITIES_WHITE
+- LAMP_CAPABILITIES_WHITE
 product:
 - Windows
 targetos: Windows

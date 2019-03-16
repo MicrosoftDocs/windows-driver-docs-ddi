@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wudfinterrupt.h
+- Wudfinterrupt.h
 api_name:
--	OnInterruptWorkItem
+- OnInterruptWorkItem
 product:
 - Windows
 targetos: Windows

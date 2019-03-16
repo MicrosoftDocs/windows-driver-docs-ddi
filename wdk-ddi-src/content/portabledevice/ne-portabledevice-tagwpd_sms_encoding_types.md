@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_SMS_ENCODING_TYPES
+- WPD_SMS_ENCODING_TYPES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_SMS_ENCODING_TYPES
 ms.custom: RS5

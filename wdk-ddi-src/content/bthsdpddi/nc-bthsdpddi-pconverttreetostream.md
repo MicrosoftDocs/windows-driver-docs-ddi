@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	BthSdpddi.h
+- BthSdpddi.h
 api_name:
--	SdpConvertTreeToStream
+- SdpConvertTreeToStream
 product:
 - Windows
 targetos: Windows

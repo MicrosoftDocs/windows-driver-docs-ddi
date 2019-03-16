@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	ndis.lib
+- ndis.lib
 api_name: 
--	NdisCopyNblTimestampInfo
+- NdisCopyNblTimestampInfo
 product:
 - Windows
 targetos: Windows

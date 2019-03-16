@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfChildlist.h
+- WdfChildlist.h
 api_name:
--	EvtChildListScanForChildren
+- EvtChildListScanForChildren
 product:
 - Windows
 targetos: Windows

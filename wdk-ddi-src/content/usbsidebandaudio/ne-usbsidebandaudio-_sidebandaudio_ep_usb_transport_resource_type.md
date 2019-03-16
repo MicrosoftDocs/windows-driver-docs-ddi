@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbsidebandaudio.h
+- usbsidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
+- _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 product:
 - Windows
 targetos: Windows

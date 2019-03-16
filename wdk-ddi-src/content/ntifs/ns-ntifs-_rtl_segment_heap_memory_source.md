@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_RTL_SEGMENT_HEAP_MEMORY_SOURCE
+- _RTL_SEGMENT_HEAP_MEMORY_SOURCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

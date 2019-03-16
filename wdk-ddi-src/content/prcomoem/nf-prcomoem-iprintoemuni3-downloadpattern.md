@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUni3.DownloadPattern
+- IPrintOemUni3.DownloadPattern
 product:
 - Windows
 targetos: Windows

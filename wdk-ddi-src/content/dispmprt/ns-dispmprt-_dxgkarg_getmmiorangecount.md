@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_GETMMIORANGECOUNT, *PDXGKARG_GETMMIORANGECOUNT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGKARG_GETMMIORANGECOUNT
+- _DXGKARG_GETMMIORANGECOUNT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

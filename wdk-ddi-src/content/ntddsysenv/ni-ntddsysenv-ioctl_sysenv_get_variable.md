@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddsysenv.h
+- Ntddsysenv.h
 api_name:
--	IOCTL_SYSENV_GET_VARIABLE
+- IOCTL_SYSENV_GET_VARIABLE
 product:
 - Windows
 targetos: Windows

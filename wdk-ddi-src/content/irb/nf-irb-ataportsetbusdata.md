@@ -26,15 +26,15 @@ req.lib: Pciidex.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Pciidex.lib
--	Pciidex.dll
+- Pciidex.lib
+- Pciidex.dll
 api_name:
--	AtaPortSetBusData
+- AtaPortSetBusData
 product:
 - Windows
 targetos: Windows

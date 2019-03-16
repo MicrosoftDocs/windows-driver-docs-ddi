@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	D3COLD_REQUEST_AUX_POWER
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- D3COLD_REQUEST_AUX_POWER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

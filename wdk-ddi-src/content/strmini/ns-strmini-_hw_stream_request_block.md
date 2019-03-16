@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	HW_STREAM_REQUEST_BLOCK
+- HW_STREAM_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

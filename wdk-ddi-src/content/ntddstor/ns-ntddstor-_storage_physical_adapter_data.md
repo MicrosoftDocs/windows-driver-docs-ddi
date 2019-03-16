@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_PHYSICAL_ADAPTER_DATA
+- STORAGE_PHYSICAL_ADAPTER_DATA
 product:
 - Windows
 targetos: Windows

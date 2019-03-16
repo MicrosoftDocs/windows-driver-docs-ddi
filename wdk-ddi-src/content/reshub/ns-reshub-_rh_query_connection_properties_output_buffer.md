@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Reshub.h
+- Reshub.h
 api_name:
--	RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+- RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountmgr.h
+- mountmgr.h
 api_name:
--	MOUNTMGR_CREATE_POINT_INPUT
+- MOUNTMGR_CREATE_POINT_INPUT
 product:
 - Windows
 targetos: Windows

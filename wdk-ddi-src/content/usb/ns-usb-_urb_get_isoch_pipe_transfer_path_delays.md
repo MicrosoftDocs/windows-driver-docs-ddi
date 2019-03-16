@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usb.h
+- Usb.h
 api_name:
--	_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
+- _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
 product:
 - Windows
 targetos: Windows

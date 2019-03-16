@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDARG_IN_I2C_TRANSMIT
+- IDARG_IN_I2C_TRANSMIT
 product:
 - Windows
 targetos: Windows

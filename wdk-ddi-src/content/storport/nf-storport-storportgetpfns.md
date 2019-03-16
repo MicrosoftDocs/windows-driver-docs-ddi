@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Storport.h
+- Storport.h
 api_name:
--	StorPortGetPfns
+- StorPortGetPfns
 product:
 - Windows
 targetos: Windows

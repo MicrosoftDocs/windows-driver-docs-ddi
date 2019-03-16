@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	compstui.h
+- compstui.h
 api_name:
--	SETRESULT_INFO
+- SETRESULT_INFO
 product:
 - Windows
 targetos: Windows

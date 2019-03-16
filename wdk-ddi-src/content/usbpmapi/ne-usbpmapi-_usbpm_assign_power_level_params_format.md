@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
+- _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbdlib.h
+- Usbdlib.h
 api_name:
--	REQUEST_REMOTE_WAKE_NOTIFICATION
+- REQUEST_REMOTE_WAKE_NOTIFICATION
 product:
 - Windows
 targetos: Windows

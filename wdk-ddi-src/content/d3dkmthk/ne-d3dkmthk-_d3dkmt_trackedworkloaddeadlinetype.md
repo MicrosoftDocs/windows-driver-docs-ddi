@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_TRACKEDWORKLOADDEADLINETYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_TRACKEDWORKLOADDEADLINETYPE
+- _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

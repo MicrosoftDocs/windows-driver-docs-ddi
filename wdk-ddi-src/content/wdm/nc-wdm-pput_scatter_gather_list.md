@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PutScatterGatherList
+- PutScatterGatherList
 product:
 - Windows
 targetos: Windows

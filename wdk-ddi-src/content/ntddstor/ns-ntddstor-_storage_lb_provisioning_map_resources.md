@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	STORAGE_LB_PROVISIONING_MAP_RESOURCES
+- STORAGE_LB_PROVISIONING_MAP_RESOURCES
 product:
 - Windows
 targetos: Windows

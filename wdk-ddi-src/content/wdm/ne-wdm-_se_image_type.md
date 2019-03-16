@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: SE_IMAGE_TYPE, *PSE_IMAGE_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_SE_IMAGE_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _SE_IMAGE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

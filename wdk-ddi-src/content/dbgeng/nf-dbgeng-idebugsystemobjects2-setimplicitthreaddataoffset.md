@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects2.SetImplicitThreadDataOffset
--	IDebugSystemObjects3.SetImplicitThreadDataOffset
--	IDebugSystemObjects4.SetImplicitThreadDataOffset
+- IDebugSystemObjects2.SetImplicitThreadDataOffset
+- IDebugSystemObjects3.SetImplicitThreadDataOffset
+- IDebugSystemObjects4.SetImplicitThreadDataOffset
 product:
 - Windows
 targetos: Windows

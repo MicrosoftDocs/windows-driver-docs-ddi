@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	mbbcxstub.lib
+- mbbcxstub.lib
 api_name: 
--	MBB_DEVICE_CONFIG_INIT
+- MBB_DEVICE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
+- DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 product:
 - Windows
 targetos: Windows

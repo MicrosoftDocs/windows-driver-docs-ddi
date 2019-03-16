@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddtape.h
+- ntddtape.h
 api_name:
--	TAPE_DRIVE_PROBLEM_TYPE
+- TAPE_DRIVE_PROBLEM_TYPE
 product:
 - Windows
 targetos: Windows

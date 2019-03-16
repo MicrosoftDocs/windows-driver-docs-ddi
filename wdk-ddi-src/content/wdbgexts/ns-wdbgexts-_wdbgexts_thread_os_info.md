@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	WDBGEXTS_THREAD_OS_INFO
+- WDBGEXTS_THREAD_OS_INFO
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
+- PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
 product:
 - Windows
 targetos: Windows

@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PO_SPR_ACTIVE_SESSION_DATA, *PPO_SPR_ACTIVE_SESSION_DATA
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntpoapi.h
-apiname: 
--	_PO_SPR_ACTIVE_SESSION_DATA
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntpoapi.h
+api_name: 
+- _PO_SPR_ACTIVE_SESSION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

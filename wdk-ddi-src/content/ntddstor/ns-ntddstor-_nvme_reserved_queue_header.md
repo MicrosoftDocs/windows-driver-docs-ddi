@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_QUEUE_HEADER, *PNVME_RESERVED_QUEUE_HEADER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_QUEUE_HEADER
+- _NVME_RESERVED_QUEUE_HEADER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

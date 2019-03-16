@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, *PPCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
+- _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	NV_FEATURE_PARAMETER
+- NV_FEATURE_PARAMETER
 product:
 - Windows
 targetos: Windows

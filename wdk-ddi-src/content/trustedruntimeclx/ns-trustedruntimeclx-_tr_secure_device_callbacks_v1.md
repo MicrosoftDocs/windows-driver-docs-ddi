@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TR_SECURE_DEVICE_CALLBACKS_V1, *PTR_SECURE_DEVICE_CALLBACKS_V1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	_TR_SECURE_DEVICE_CALLBACKS_V1
+- _TR_SECURE_DEVICE_CALLBACKS_V1
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

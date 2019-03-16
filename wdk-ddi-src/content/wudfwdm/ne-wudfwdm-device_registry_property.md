@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	DEVICE_REGISTRY_PROPERTY
+- DEVICE_REGISTRY_PROPERTY
 product:
 - Windows
 targetos: Windows

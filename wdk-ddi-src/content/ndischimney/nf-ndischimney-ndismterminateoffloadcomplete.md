@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisMTerminateOffloadComplete
+- NdisMTerminateOffloadComplete
 product:
 - Windows
 targetos: Windows

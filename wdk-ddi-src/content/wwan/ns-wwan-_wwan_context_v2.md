@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_CONTEXT_V2, *PWWAN_CONTEXT_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_V2
+- _WWAN_CONTEXT_V2
 product: 
 - Windows
 targetos: Windows

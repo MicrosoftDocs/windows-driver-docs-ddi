@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	D3D12DDI_RESOURCE_FLAGS_0003
+- D3D12DDI_RESOURCE_FLAGS_0003
 product:
 - Windows
 targetos: Windows

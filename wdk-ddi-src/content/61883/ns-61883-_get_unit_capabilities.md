@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	GET_UNIT_CAPABILITIES
+- GET_UNIT_CAPABILITIES
 product:
 - Windows
 targetos: Windows

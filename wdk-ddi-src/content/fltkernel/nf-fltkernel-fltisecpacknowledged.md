@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltIsEcpAcknowledged
+- FltIsEcpAcknowledged
 product:
 - Windows
 targetos: Windows

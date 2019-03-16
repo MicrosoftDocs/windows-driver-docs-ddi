@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printoem.h
+- Printoem.h
 api_name:
--	OEMStartBanding
+- OEMStartBanding
 product:
 - Windows
 targetos: Windows
