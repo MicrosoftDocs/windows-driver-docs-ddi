@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_QUERY_BRIGHTNESS_RANGES
+- _PANEL_QUERY_BRIGHTNESS_RANGES
 product: 
 - Windows
 targetos: Windows

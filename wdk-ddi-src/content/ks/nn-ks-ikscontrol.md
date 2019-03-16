@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Ks.h
+- Ks.h
 api_name:
--	IKsControl
+- IKsControl
 product:
 - Windows
 targetos: Windows

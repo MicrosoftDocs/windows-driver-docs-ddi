@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	_BRB_GET_DEVICE_INTERFACE_STRING
+- _BRB_GET_DEVICE_INTERFACE_STRING
 product:
 - Windows
 targetos: Windows

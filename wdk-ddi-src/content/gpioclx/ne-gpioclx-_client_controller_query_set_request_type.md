@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
+- CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

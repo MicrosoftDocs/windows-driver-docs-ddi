@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	IO_DRIVER_CREATE_CONTEXT
+- IO_DRIVER_CREATE_CONTEXT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_CHECK_VERIFY2
+- IOCTL_STORAGE_CHECK_VERIFY2
 product:
 - Windows
 targetos: Windows

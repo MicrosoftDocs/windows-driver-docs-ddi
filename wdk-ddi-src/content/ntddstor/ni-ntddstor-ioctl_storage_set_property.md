@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	IOCTL_STORAGE_SET_PROPERTY
+- IOCTL_STORAGE_SET_PROPERTY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

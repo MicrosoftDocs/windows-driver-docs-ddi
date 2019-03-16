@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetExtensionGetPacketReceiveSegmentCoalescence
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

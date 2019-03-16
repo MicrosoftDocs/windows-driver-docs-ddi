@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_GET_ALTERNATE_MODES_IN, *PUCSI_GET_ALTERNATE_MODES_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_ALTERNATE_MODES_IN
+- _UCSI_GET_ALTERNATE_MODES_IN
 product:
 - Windows
 targetos: Windows

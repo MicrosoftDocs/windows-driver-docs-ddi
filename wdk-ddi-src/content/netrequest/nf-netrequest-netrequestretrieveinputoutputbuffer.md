@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequest.h
-apiname: 
--	NetRequestRetrieveInputOutputBuffer
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequest.h
+api_name: 
+- NetRequestRetrieveInputOutputBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

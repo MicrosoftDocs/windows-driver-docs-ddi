@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	RtlCheckBit
+- RtlCheckBit
 product:
 - Windows
 targetos: Windows

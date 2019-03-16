@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	SILO_DRIVER_CAPABILITIES
+- SILO_DRIVER_CAPABILITIES
 product:
 - Windows
 targetos: Windows

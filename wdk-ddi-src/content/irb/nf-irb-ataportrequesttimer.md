@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	irb.h
+- irb.h
 api_name:
--	AtaPortRequestTimer
+- AtaPortRequestTimer
 product:
 - Windows
 targetos: Windows

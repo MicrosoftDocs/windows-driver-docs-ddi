@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfpdev.h
+- nfpdev.h
 api_name:
--	IOCTL_NFP_GET_KILO_BYTES_PER_SECOND
+- IOCTL_NFP_GET_KILO_BYTES_PER_SECOND
 product:
 - Windows
 targetos: Windows

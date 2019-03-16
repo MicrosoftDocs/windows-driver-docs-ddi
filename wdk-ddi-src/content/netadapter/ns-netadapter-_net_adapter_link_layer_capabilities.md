@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NET_ADAPTER_LINK_LAYER_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NET_ADAPTER_LINK_LAYER_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

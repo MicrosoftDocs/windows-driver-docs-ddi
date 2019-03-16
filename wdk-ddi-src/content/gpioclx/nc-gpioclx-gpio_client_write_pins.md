@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_WriteGpioPins
+- CLIENT_WriteGpioPins
 product:
 - Windows
 targetos: Windows

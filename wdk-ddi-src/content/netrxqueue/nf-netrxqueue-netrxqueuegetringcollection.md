@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetRxQueueGetRingCollection
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

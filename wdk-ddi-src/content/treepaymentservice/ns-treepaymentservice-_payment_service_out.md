@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treepaymentservice.h
+- treepaymentservice.h
 api_name: 
--	_PAYMENT_SERVICE_OUT
+- _PAYMENT_SERVICE_OUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

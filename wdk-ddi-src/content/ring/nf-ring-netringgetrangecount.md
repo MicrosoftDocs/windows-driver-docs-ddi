@@ -35,7 +35,7 @@ apilocation:
 apiname: 
 -	NetRingGetRangeCount
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -26,7 +26,7 @@ apilocation:
 apiname: 
 -	_NET_RING_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

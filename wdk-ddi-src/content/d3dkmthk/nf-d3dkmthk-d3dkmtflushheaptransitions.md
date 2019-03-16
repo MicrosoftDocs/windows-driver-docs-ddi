@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTFlushHeapTransitions
+- D3DKMTFlushHeapTransitions
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

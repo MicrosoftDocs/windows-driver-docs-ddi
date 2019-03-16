@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddser.h
+- ntddser.h
 api_name:
--	IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
+- IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
 product:
 - Windows
 targetos: Windows

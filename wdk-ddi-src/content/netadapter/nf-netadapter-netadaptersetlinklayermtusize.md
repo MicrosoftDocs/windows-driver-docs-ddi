@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetLinkLayerMtuSize
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterSetLinkLayerMtuSize
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterSetLinkLayerMtuSize
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

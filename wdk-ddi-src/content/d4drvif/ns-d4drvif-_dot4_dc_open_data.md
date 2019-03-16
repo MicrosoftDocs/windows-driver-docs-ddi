@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	DOT4_DC_OPEN_DATA
+- DOT4_DC_OPEN_DATA
 product:
 - Windows
 targetos: Windows

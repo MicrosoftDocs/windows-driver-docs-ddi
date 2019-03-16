@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	SRIOV_PROXY_QUERY_LUID_OUTPUT
+- SRIOV_PROXY_QUERY_LUID_OUTPUT
 product:
 - Windows
 targetos: Windows

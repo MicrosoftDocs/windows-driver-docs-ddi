@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	ATTRIBUTE_INFO_3
+- ATTRIBUTE_INFO_3
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prcomoem.h
+- Prcomoem.h
 api_name:
--	IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
+- IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
 product:
 - Windows
 targetos: Windows

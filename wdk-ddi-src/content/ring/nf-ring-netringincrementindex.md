@@ -35,7 +35,7 @@ apilocation:
 apiname: 
 -	NetRingIncrementIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2SystemDmaReceiveEnableNewDataNotification
+- EvtSerCx2SystemDmaReceiveEnableNewDataNotification
 product:
 - Windows
 targetos: Windows

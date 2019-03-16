@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
+- PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 product: 
 - Windows
 targetos: Windows

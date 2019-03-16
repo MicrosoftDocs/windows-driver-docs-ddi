@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	DXGKDDI_GETMMIORANGECOUNT
+- DXGKDDI_GETMMIORANGECOUNT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

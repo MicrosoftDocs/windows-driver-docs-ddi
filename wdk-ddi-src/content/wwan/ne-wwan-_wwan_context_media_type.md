@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_MEDIA_TYPE
+- _WWAN_CONTEXT_MEDIA_TYPE
 product: 
 - Windows
 targetos: Windows

@@ -32,7 +32,7 @@ apilocation:
 apiname: 
 -	EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

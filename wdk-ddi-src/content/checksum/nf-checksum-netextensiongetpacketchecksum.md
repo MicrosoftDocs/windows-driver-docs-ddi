@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetExtensionGetPacketChecksum
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

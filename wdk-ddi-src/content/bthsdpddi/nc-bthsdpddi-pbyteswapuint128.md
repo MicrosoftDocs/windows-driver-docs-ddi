@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	sdplib.h
+- sdplib.h
 api_name:
--	SdpByteSwapUint128
+- SdpByteSwapUint128
 product:
 - Windows
 targetos: Windows

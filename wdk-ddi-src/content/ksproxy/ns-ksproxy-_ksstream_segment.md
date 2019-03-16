@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	KSSTREAM_SEGMENT
+- KSSTREAM_SEGMENT
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_FRAMEBUFFERSAVEAREA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_FRAMEBUFFERSAVEAREA
+- _DXGK_FRAMEBUFFERSAVEAREA
 product: 
 - Windows
 targetos: Windows

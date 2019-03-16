@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_SPATIAL_BUFFER
+- _ACPI_PLD_SPATIAL_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinIrpCompletion
+- AVStrMiniPinIrpCompletion
 product:
 - Windows
 targetos: Windows

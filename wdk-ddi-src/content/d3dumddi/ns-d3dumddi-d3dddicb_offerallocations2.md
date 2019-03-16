@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_OFFERALLOCATIONS2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDICB_OFFERALLOCATIONS2
+- D3DDDICB_OFFERALLOCATIONS2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

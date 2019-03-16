@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	CHANGER_MOVE_MEDIUM
+- CHANGER_MOVE_MEDIUM
 product:
 - Windows
 targetos: Windows

@@ -31,7 +31,7 @@ apilocation:
 apiname: 
 -	NET_EXTENSION
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

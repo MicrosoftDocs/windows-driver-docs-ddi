@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	DEVICE_DATA_SET_LB_PROVISIONING_STATE
+- DEVICE_DATA_SET_LB_PROVISIONING_STATE
 product:
 - Windows
 targetos: Windows

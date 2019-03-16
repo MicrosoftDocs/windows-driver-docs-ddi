@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
+- KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 product:
 - Windows
 targetos: Windows

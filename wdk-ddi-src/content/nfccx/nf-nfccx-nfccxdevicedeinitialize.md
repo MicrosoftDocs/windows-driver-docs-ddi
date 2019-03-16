@@ -26,14 +26,14 @@ req.lib: Nfccsstub.lib
 req.dll: NfcCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NfcCx.dll
+- NfcCx.dll
 api_name:
--	NfcCxDeviceDeinitialize
+- NfcCxDeviceDeinitialize
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILIMSSTATUS_V2
+- RILIMSSTATUS_V2
 product:
 - Windows
 targetos: Windows

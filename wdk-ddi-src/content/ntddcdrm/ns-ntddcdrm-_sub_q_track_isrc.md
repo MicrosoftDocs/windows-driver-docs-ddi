@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	SUB_Q_TRACK_ISRC
+- SUB_Q_TRACK_ISRC
 product:
 - Windows
 targetos: Windows

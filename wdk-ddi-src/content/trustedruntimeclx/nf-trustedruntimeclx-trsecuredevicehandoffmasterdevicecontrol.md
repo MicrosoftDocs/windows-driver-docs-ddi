@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   trustedruntimeclx.h
 api_name: 
--	TrSecureDeviceHandoffMasterDeviceControl
+- TrSecureDeviceHandoffMasterDeviceControl
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

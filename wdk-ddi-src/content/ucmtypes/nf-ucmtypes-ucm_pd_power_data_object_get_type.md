@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmtypes.h
+- Ucmtypes.h
 api_name:
--	UCM_PD_POWER_DATA_OBJECT_GET_TYPE
+- UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 product:
 - Windows
 targetos: Windows

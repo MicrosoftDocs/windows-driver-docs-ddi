@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_REPARSE_DATA_BUFFER_EX
+- _REPARSE_DATA_BUFFER_EX
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

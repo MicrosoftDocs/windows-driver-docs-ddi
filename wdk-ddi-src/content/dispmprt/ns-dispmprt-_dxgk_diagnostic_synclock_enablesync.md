@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
+- _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

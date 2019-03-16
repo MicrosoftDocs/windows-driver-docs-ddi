@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	WIA_DEV_CAP_DRV
+- WIA_DEV_CAP_DRV
 product:
 - Windows
 targetos: Windows

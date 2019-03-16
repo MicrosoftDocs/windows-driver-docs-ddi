@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wwan.h
-apiname: 
--	_WWAN_MODEM_CONFIG_ID
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wwan.h
+api_name: 
+- _WWAN_MODEM_CONFIG_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

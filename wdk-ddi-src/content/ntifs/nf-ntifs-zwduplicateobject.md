@@ -26,16 +26,16 @@ req.lib: Ntoskrnl.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ntoskrnl.lib
--	ntoskrnl.dll
+- ntoskrnl.lib
+- ntoskrnl.dll
 api_name:
--	ZwDuplicateObject
--	NtDuplicateObject
+- ZwDuplicateObject
+- NtDuplicateObject
 product:
 - Windows
 targetos: Windows

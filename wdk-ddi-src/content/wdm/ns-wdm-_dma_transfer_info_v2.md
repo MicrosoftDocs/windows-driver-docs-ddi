@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DMA_TRANSFER_INFO_V2, *PDMA_TRANSFER_INFO_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_DMA_TRANSFER_INFO_V2
+- _DMA_TRANSFER_INFO_V2
 product:
 - Windows
 targetos: Windows

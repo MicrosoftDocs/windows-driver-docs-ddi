@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Prdrvcom.h
+- Prdrvcom.h
 api_name:
--	SHIMOPTS
+- SHIMOPTS
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSDEVICE_THERMAL_STATE
+- KSDEVICE_THERMAL_STATE
 product:
 - Windows
 targetos: Windows

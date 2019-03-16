@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wiamindr_lh.h
+- wiamindr_lh.h
 api_name:
--	IWiaDrvItem.RemoveItemFromFolder
+- IWiaDrvItem.RemoveItemFromFolder
 product:
 - Windows
 targetos: Windows

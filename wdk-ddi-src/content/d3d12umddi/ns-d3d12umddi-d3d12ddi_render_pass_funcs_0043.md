@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_RENDER_PASS_FUNCS_0043
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_RENDER_PASS_FUNCS_0043
+- D3D12DDI_RENDER_PASS_FUNCS_0043
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

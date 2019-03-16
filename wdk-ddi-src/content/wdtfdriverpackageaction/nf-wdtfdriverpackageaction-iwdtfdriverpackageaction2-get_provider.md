@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFDriverPackageAction.Interop.dll
+- WDTFDriverPackageAction.Interop.dll
 api_name:
--	IWDTFDriverPackageAction2.Provider
--	IWDTFDriverPackageAction2.get_Provider
+- IWDTFDriverPackageAction2.Provider
+- IWDTFDriverPackageAction2.get_Provider
 product:
 - Windows
 targetos: Windows

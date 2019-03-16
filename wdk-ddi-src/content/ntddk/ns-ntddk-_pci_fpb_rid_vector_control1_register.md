@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_RID_VECTOR_CONTROL1_REGISTER, *PPCI_FPB_RID_VECTOR_CONTROL1_REGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
+- _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
 product:
 - Windows
 targetos: Windows

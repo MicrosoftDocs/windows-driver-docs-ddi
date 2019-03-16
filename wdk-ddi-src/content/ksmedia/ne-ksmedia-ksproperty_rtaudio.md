@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: KSPROPERTY_RTAUDIO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ksmedia.h
+- ksmedia.h
 api_name: 
--	KSPROPERTY_RTAUDIO
+- KSPROPERTY_RTAUDIO
 product:
 -   Windows
 targetos: Windows

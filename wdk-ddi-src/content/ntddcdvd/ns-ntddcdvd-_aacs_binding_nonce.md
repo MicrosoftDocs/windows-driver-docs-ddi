@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	AACS_BINDING_NONCE
+- AACS_BINDING_NONCE
 product:
 - Windows
 targetos: Windows

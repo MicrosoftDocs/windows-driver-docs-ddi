@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	DEBUG_LAST_EVENT_INFO_BREAKPOINT
+- DEBUG_LAST_EVENT_INFO_BREAKPOINT
 product:
 - Windows
 targetos: Windows

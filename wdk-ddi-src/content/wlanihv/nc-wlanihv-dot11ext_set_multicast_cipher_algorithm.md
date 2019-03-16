@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtSetMulticastCipherAlgorithm
+- Dot11ExtSetMulticastCipherAlgorithm
 product:
 - Windows
 targetos: Windows

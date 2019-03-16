@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidport.h
+- hidport.h
 api_name:
--	IOCTL_HID_WRITE_REPORT
+- IOCTL_HID_WRITE_REPORT
 product:
 - Windows
 targetos: Windows

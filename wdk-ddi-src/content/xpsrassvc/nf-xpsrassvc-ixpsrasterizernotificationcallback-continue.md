@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	xpsrassvc.h
+- xpsrassvc.h
 api_name:
--	IXpsRasterizerNotificationCallback.Continue
+- IXpsRasterizerNotificationCallback.Continue
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	tcpxcv.h
+- tcpxcv.h
 api_name:
--	PORT_DATA_1
+- PORT_DATA_1
 product:
 - Windows
 targetos: Windows

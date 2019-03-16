@@ -28,7 +28,7 @@ apilocation:
 apiname: 
 -	NET_ADAPTER_POWER_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

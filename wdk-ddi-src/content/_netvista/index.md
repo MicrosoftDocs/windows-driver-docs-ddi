@@ -7,7 +7,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # Networking drivers for Windows Vista and later

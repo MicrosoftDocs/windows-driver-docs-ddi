@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddvdeo.h
+- Ntddvdeo.h
 api_name:
--	IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
+- IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 product:
 - Windows
 targetos: Windows

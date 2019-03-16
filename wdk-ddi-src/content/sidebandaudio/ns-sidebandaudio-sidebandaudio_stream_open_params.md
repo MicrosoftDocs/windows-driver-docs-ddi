@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	SIDEBANDAUDIO_STREAM_OPEN_PARAMS
+- SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	drmk.h
+- drmk.h
 api_name:
--	IDrmAudioStream.SetContentId
+- IDrmAudioStream.SetContentId
 product:
 - Windows
 targetos: Windows

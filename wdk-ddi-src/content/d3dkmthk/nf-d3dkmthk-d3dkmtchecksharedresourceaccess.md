@@ -25,14 +25,14 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTCheckSharedResourceAccess
+- D3DKMTCheckSharedResourceAccess
 product:
 - Windows
 targetos: Windows

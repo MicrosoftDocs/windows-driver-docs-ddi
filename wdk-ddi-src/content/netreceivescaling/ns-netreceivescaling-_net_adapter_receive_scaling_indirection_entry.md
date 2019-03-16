@@ -29,7 +29,7 @@ apilocation:
 apiname: 
 -	_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

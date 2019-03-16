@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	dbgeng.dll
+- dbgeng.dll
 api_name:
--	DebugConnect
+- DebugConnect
 product:
 - Windows
 targetos: Windows

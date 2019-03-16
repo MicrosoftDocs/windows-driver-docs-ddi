@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihvtypes.h
+- wlanihvtypes.h
 api_name:
--	DOT11EXT_IHV_PROFILE_PARAMS
+- DOT11EXT_IHV_PROFILE_PARAMS
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiscan.h
+- scsiscan.h
 api_name:
--	IOCTL_SCSISCAN_UNLOCKDEVICE
+- IOCTL_SCSISCAN_UNLOCKDEVICE
 product:
 - Windows
 targetos: Windows

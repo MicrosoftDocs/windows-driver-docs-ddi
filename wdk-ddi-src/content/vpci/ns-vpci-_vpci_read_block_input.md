@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	VPCI_READ_BLOCK_INPUT
+- VPCI_READ_BLOCK_INPUT
 product:
 - Windows
 targetos: Windows

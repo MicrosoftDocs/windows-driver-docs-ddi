@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fltkernel.h
+- fltkernel.h
 api_name:
--	SectionNotificationCallback
+- SectionNotificationCallback
 product:
 - Windows
 targetos: Windows

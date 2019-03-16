@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: POSCXFUNCENUM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	poscxfuncenum.h
+- poscxfuncenum.h
 api_name: 
--	_POSCXFUNCENUM
+- _POSCXFUNCENUM
 product:
 -   Windows
 targetos: Windows

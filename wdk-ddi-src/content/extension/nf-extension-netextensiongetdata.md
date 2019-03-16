@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetExtensionGetData
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

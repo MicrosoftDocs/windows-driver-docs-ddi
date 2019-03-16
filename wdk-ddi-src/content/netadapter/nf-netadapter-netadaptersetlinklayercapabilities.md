@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetLinkLayerCapabilities
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterSetLinkLayerCapabilities
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterSetLinkLayerCapabilities
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

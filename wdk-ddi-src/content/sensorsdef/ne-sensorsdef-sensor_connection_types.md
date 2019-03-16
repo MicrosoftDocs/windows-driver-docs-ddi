@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SENSOR_CONNECTION_TYPES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sensorsdef.h
+- sensorsdef.h
 api_name:
--	SENSOR_CONNECTION_TYPES
+- SENSOR_CONNECTION_TYPES
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

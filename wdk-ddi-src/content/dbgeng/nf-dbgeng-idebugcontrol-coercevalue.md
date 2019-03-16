@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.CoerceValue
--	IDebugControl2.CoerceValue
--	IDebugControl3.CoerceValue
+- IDebugControl.CoerceValue
+- IDebugControl2.CoerceValue
+- IDebugControl3.CoerceValue
 product:
 - Windows
 targetos: Windows

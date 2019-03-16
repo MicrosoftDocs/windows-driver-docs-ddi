@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	netadapter.h
+- netadapter.h
 api_name: 
--	_NET_ADAPTER_DATAPATH_CALLBACKS
+- _NET_ADAPTER_DATAPATH_CALLBACKS
 product:
 - Windows
 targetos: Windows

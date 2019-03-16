@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	_EFN_Analyze
+- _EFN_Analyze
 product:
 - Windows
 targetos: Windows

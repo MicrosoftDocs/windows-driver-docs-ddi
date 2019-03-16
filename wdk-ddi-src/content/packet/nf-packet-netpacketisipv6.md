@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetPacketIsIpv6
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

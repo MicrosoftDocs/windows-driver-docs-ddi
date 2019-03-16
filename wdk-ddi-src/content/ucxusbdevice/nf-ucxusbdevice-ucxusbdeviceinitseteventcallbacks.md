@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UcxUsbDeviceInitSetEventCallbacks
+- UcxUsbDeviceInitSetEventCallbacks
 product:
 - Windows
 targetos: Windows

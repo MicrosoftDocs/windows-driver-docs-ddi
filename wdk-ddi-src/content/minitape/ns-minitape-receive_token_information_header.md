@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	RECEIVE_TOKEN_INFORMATION_HEADER
+- RECEIVE_TOKEN_INFORMATION_HEADER
 product:
 - Windows
 targetos: Windows

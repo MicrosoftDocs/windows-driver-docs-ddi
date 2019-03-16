@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetRxQueueGetExtension
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

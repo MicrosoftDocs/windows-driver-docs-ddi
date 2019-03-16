@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wia_lh.h
+- wia_lh.h
 api_name:
--	IWiaLog
+- IWiaLog
 product:
 - Windows
 targetos: Windows

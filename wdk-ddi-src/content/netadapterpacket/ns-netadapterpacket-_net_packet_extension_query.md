@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_EXTENSION_QUERY, *PNET_PACKET_EXTENSION_QUERY
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapterpacket.h
-apiname: 
--	_NET_PACKET_EXTENSION_QUERY
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapterpacket.h
+api_name: 
+- _NET_PACKET_EXTENSION_QUERY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

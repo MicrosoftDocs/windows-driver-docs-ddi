@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_SAVED_INTERNAL_STATUS_PARAMETER_DATA
+- _SAVED_INTERNAL_STATUS_PARAMETER_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

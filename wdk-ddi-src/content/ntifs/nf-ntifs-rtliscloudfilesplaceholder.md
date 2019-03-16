@@ -26,14 +26,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntdll.dll
+- Ntdll.dll
 api_name:
--	RtlIsCloudFilesPlaceholder
+- RtlIsCloudFilesPlaceholder
 product:
 - Windows
 targetos: Windows

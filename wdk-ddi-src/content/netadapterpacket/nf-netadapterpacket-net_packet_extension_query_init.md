@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NET_PACKET_EXTENSION_QUERY_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

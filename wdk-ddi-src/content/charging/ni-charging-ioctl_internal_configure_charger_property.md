@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
+- IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 product:
 - Windows
 targetos: Windows

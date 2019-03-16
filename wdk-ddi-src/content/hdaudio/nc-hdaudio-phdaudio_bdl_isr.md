@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DIRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hdaudio.h
+- hdaudio.h
 api_name:
--	HDAudioBdlIsr
+- HDAudioBdlIsr
 product:
 - Windows
 targetos: Windows

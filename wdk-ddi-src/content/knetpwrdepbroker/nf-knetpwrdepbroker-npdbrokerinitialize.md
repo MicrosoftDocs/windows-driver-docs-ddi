@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	KNetPwrDepBroker.h
+- KNetPwrDepBroker.h
 api_name:
--	NpdBrokerInitialize
+- NpdBrokerInitialize
 product:
 - Windows
 targetos: Windows

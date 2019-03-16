@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	netadapter.h
+- netadapter.h
 api_name: 
--	EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
+- EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 product:
 - Windows
 targetos: Windows

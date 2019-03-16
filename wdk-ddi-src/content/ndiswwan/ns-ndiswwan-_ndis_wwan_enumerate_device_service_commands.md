@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
+- NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
 product:
 - Windows
 targetos: Windows

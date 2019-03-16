@@ -34,7 +34,7 @@ apilocation:
 apiname: 
 -	EVT_NET_REQUEST_DEFAULT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

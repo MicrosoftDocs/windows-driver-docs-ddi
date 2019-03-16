@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountmgr.h
+- Mountmgr.h
 api_name:
--	IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
+- IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
 product:
 - Windows
 targetos: Windows

@@ -26,24 +26,24 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols3
--	IDebugSymbols3.IsManagedModule
--	IDebugSymbols3.SetScopeFromJitDebugInfo
--	IDebugSymbols3.GetSymbolEntryByToken
--	IDebugSymbols3.GetSymbolEntryOffsetRegions
--	IDebugSymbols3.GetSymbolEntryBySymbolEntry
--	IDebugSymbols3.GetSourceEntriesByOffset
--	IDebugSymbols3.GetSourceEntryString
--	IDebugSymbols3.GetSourceEntryStringWide
--	IDebugSymbols3.GetSourceEntryOffsetRegions
--	IDebugSymbols3.GetSourceEntryBySourceEntry
+- IDebugSymbols3
+- IDebugSymbols3.IsManagedModule
+- IDebugSymbols3.SetScopeFromJitDebugInfo
+- IDebugSymbols3.GetSymbolEntryByToken
+- IDebugSymbols3.GetSymbolEntryOffsetRegions
+- IDebugSymbols3.GetSymbolEntryBySymbolEntry
+- IDebugSymbols3.GetSourceEntriesByOffset
+- IDebugSymbols3.GetSourceEntryString
+- IDebugSymbols3.GetSourceEntryStringWide
+- IDebugSymbols3.GetSourceEntryOffsetRegions
+- IDebugSymbols3.GetSourceEntryBySourceEntry
 product:
 - Windows
 targetos: Windows

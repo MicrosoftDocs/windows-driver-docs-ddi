@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	minitape.h
+- minitape.h
 api_name: 
--	_ERROR_HISTORY_DIRECTORY
+- _ERROR_HISTORY_DIRECTORY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

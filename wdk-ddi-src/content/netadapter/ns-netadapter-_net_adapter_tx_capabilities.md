@@ -29,7 +29,7 @@ apilocation:
 apiname: 
 -	_NET_ADAPTER_TX_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

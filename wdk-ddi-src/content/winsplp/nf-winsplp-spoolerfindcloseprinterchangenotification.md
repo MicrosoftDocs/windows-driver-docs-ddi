@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	SpoolerFindClosePrinterChangeNotification
+- SpoolerFindClosePrinterChangeNotification
 product:
 - Windows
 targetos: Windows

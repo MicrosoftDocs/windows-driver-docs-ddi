@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
 -	netadapteroffload.h
 api_name: 
--	EVT_NET_ADAPTER_OFFLOAD_SET_LSO
+- EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 product:
 - Windows
 targetos: Windows

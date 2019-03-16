@@ -26,14 +26,14 @@ req.lib: Pshed.lib
 req.dll: Pshed.dll
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Pshed.dll
+- Pshed.dll
 api_name:
--	PshedIsSystemWheaEnabled
+- PshedIsSystemWheaEnabled
 product:
 - Windows
 targetos: Windows

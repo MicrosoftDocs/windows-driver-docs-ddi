@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

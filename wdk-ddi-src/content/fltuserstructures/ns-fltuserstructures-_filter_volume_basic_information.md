@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltuserstructures.h
+- fltuserstructures.h
 api_name:
--	FILTER_VOLUME_BASIC_INFORMATION
+- FILTER_VOLUME_BASIC_INFORMATION
 product:
 - Windows
 targetos: Windows

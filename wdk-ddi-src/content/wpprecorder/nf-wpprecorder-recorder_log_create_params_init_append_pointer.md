@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wpprecorder.h
+- wpprecorder.h
 api_name:
--	RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
+- RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
 product:
 - Windows
 targetos: Windows

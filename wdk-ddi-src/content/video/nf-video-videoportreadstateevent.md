@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortReadStateEvent
+- VideoPortReadStateEvent
 product:
 - Windows
 targetos: Windows

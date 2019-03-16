@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ks.lib
--	ks.dll
+- ks.lib
+- ks.dll
 api_name:
--	KsCreateAllocator
+- KsCreateAllocator
 product:
 - Windows
 targetos: Windows

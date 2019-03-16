@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	DbgBreakPoint
+- DbgBreakPoint
 product:
 - Windows
 targetos: Windows

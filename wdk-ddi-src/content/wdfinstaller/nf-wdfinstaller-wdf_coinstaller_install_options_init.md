@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfinstaller.h
+- wdfinstaller.h
 api_name:
--	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
+- WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 product:
 - Windows
 targetos: Windows

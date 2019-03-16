@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	miniport.h
+- miniport.h
 api_name:
--	GROUP_AFFINITY
+- GROUP_AFFINITY
 product:
 - Windows
 targetos: Windows

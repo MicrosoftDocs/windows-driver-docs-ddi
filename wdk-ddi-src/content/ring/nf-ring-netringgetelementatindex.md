@@ -35,7 +35,7 @@ apilocation:
 apiname: 
 -	NetRingGetElementAtIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

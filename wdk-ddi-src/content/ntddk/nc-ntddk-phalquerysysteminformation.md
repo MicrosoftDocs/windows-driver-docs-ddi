@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	pHalQuerySystemInformation
+- pHalQuerySystemInformation
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

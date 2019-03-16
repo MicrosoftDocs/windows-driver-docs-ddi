@@ -26,14 +26,14 @@ req.lib: Videoprt.lib
 req.dll: Videoprt.sys
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Videoprt.sys
+- Videoprt.sys
 api_name:
--	VideoPortGetCurrentIrql
+- VideoPortGetCurrentIrql
 product:
 - Windows
 targetos: Windows

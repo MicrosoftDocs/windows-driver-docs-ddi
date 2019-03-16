@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_DEVICE_CONFIG
+- _MBB_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

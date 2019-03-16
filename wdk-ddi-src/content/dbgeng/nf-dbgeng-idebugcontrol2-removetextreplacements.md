@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl2.RemoveTextReplacements
--	IDebugControl3.RemoveTextReplacements
+- IDebugControl2.RemoveTextReplacements
+- IDebugControl3.RemoveTextReplacements
 product:
 - Windows
 targetos: Windows

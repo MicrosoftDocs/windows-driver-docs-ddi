@@ -25,16 +25,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	API-MS-Win-DX-D3DKMT-L1-1-1.dll
--	GDI32.dll
--	API-MS-Win-DX-D3DKMT-L1-1-2.dll
+- API-MS-Win-DX-D3DKMT-L1-1-1.dll
+- GDI32.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
--	D3DKMTMapGpuVirtualAddress
+- D3DKMTMapGpuVirtualAddress
 product:
 - Windows
 targetos: Windows

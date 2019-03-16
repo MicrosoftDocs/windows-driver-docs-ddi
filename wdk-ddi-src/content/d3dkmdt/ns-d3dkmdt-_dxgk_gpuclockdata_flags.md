@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GPUCLOCKDATA_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_GPUCLOCKDATA_FLAGS
+- _DXGK_GPUCLOCKDATA_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

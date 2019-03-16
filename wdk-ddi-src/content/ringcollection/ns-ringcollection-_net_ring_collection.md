@@ -31,7 +31,7 @@ apilocation:
 apiname: 
 -	NET_RING_COLLECTION
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

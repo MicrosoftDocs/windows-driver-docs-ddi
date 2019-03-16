@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCoreUI2.QuerySimulationSupport
+- IPrintCoreUI2.QuerySimulationSupport
 product:
 - Windows
 targetos: Windows

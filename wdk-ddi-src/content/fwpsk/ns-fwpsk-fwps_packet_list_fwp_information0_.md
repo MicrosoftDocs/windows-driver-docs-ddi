@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_PACKET_LIST_FWP_INFORMATION0
+- FWPS_PACKET_LIST_FWP_INFORMATION0
 product:
 - Windows
 targetos: Windows

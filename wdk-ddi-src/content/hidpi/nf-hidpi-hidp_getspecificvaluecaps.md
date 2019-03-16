@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetSpecificValueCaps
+- HidP_GetSpecificValueCaps
 product:
 - Windows
 targetos: Windows

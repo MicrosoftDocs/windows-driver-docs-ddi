@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_SETTARGETGAMMA
+- DXGKDDI_SETTARGETGAMMA
 product:
 - Windows
 targetos: Windows

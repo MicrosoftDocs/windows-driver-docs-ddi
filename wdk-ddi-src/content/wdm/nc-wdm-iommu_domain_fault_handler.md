@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_DOMAIN_FAULT_HANDLER
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_DOMAIN_FAULT_HANDLER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

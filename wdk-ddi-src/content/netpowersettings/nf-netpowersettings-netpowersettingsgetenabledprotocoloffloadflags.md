@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpowersettings.h
-apiname: 
--	NetPowerSettingsGetEnabledProtocolOffloadFlags
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpowersettings.h
+api_name: 
+- NetPowerSettingsGetEnabledProtocolOffloadFlags
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

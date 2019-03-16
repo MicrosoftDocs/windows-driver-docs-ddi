@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	VRAM_SURFACE_INFO
+- VRAM_SURFACE_INFO
 product:
 - Windows
 targetos: Windows

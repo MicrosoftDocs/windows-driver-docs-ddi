@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UART_STATUS, *PUART_STATUS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_STATUS
+- UART_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

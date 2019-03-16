@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntifs.h
-apiname: 
--	_CSV_CONTROL_OP
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntifs.h
+api_name: 
+- _CSV_CONTROL_OP
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

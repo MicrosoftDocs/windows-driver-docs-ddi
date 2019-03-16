@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfchildlist.h
+- Wdfchildlist.h
 api_name:
--	WDF_CHILD_RETRIEVE_INFO_INIT
+- WDF_CHILD_RETRIEVE_INFO_INIT
 product:
 - Windows
 targetos: Windows

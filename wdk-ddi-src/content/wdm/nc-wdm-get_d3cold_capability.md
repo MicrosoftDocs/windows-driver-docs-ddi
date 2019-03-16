@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GetBusDriverD3ColdSupport
+- GetBusDriverD3ColdSupport
 product:
 - Windows
 targetos: Windows

@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netconfiguration.h
-apiname: 
--	NetConfigurationQueryBinary
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netconfiguration.h
+api_name: 
+- NetConfigurationQueryBinary
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

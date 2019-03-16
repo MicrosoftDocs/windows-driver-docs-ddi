@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VEC3D, *PVEC3D
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	VEC3D
+- VEC3D
 product: 
 - Windows
 targetos: Windows

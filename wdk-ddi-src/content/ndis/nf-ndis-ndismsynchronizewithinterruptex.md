@@ -26,15 +26,15 @@ req.lib: Ndis.lib
 req.dll: 
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ndis.lib
--	ndis.dll
+- ndis.lib
+- ndis.dll
 api_name:
--	NdisMSynchronizeWithInterruptEx
+- NdisMSynchronizeWithInterruptEx
 product:
 - Windows
 targetos: Windows

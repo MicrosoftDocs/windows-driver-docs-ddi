@@ -26,15 +26,15 @@ req.lib: Wmilib.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wmilib.lib
--	Wmilib.dll
+- Wmilib.lib
+- Wmilib.dll
 api_name:
--	WmiCompleteRequest
+- WmiCompleteRequest
 product:
 - Windows
 targetos: Windows

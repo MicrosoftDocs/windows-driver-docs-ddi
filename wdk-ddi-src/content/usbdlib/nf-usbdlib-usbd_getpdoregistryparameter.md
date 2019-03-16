@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	usbd.lib
--	usbd.dll
+- usbd.lib
+- usbd.dll
 api_name:
--	USBD_GetPdoRegistryParameter
+- USBD_GetPdoRegistryParameter
 product:
 - Windows
 targetos: Windows

@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	GetOffset
+- GetOffset
 product:
 - Windows
 targetos: Windows

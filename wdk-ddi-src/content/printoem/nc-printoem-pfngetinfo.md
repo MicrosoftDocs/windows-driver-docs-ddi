@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	UNIFONTOBJ_GetInfo
+- UNIFONTOBJ_GetInfo
 product:
 - Windows
 targetos: Windows

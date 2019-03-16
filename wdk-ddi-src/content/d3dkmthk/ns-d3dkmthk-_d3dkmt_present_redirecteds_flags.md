@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PRESENT_REDIRECTED_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PRESENT_REDIRECTEDS_FLAGS
+- _D3DKMT_PRESENT_REDIRECTEDS_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

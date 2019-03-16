@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	math3dhelper.h
+- math3dhelper.h
 api_name: 
--	FloatEq
+- FloatEq
 product: 
 - Windows
 targetos: Windows

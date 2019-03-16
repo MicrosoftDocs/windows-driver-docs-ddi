@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	nettxqueue.h
-apiname: 
--	NetTxQueueCreate
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- nettxqueue.h
+api_name: 
+- NetTxQueueCreate
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

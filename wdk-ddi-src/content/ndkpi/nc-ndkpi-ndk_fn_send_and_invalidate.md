@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_FN_SEND_AND_INVALIDATE
+- NDK_FN_SEND_AND_INVALIDATE
 product:
 - Windows
 targetos: Windows

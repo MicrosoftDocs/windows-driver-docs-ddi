@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	DEBUG_FAILURE_TYPE
+- DEBUG_FAILURE_TYPE
 product:
 - Windows
 targetos: Windows

@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetPacketGetExtension
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

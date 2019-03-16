@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	UCX_ROOTHUB_CONFIG
+- UCX_ROOTHUB_CONFIG
 product:
 - Windows
 targetos: Windows

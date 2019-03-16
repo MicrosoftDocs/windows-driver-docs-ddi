@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	DbgEng.h
+- DbgEng.h
 api_name:
--	SYMBOL_INFO_EX
+- SYMBOL_INFO_EX
 product:
 - Windows
 targetos: Windows

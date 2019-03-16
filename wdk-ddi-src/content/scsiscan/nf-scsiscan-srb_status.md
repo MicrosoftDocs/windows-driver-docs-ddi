@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsiscan.h
+- scsiscan.h
 api_name: 
--	SRB_STATUS
+- SRB_STATUS
 product: 
 -   Windows
 targetos: Windows

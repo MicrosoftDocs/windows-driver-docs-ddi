@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW
+- D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

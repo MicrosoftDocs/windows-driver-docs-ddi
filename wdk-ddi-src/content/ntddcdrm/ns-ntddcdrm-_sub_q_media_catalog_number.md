@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	SUB_Q_MEDIA_CATALOG_NUMBER
+- SUB_Q_MEDIA_CATALOG_NUMBER
 product:
 - Windows
 targetos: Windows

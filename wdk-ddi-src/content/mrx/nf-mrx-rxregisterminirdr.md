@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mrx.h
+- mrx.h
 api_name:
--	RxRegisterMinirdr
+- RxRegisterMinirdr
 product:
 - Windows
 targetos: Windows

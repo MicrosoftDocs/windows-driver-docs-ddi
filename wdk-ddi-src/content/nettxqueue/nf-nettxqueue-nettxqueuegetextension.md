@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetTxQueueGetExtension
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

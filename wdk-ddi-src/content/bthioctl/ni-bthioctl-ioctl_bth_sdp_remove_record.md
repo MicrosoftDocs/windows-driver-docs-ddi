@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthioctl.h
+- Bthioctl.h
 api_name:
--	IOCTL_BTH_SDP_REMOVE_RECORD
+- IOCTL_BTH_SDP_REMOVE_RECORD
 product:
 - Windows
 targetos: Windows

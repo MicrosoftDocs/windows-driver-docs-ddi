@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

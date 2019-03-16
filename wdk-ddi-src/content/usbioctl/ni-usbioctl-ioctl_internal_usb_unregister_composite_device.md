@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
+- IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
 product:
 - Windows
 targetos: Windows

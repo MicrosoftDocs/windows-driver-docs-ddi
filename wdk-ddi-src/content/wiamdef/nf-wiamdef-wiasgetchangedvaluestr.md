@@ -26,14 +26,14 @@ req.lib: Wiaservc.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wiaservc.dll
+- Wiaservc.dll
 api_name:
--	wiasGetChangedValueStr
+- wiasGetChangedValueStr
 product:
 - Windows
 targetos: Windows

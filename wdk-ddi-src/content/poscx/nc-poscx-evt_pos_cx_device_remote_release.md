@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	EvtPosCxDeviceRemoteRelease
+- EvtPosCxDeviceRemoteRelease
 product:
 - Windows
 targetos: Windows

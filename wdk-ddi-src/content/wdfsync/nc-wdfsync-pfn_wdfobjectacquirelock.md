@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: See Remarks section.
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	UserDefined
-apilocation:
--	wdfsync.h
-apiname:
--	WdfObjectAcquireLock
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- wdfsync.h
+api_name:
+- WdfObjectAcquireLock
 product:
 - Windows
 targetos: Windows

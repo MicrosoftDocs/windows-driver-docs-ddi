@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	REG_QUERY_KEY_SECURITY_INFORMATION
+- REG_QUERY_KEY_SECURITY_INFORMATION
 product:
 - Windows
 targetos: Windows

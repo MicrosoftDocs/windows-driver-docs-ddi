@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll: NA
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NA
+- NA
 api_name:
--	PcRemoveStreamResource
+- PcRemoveStreamResource
 product:
 - Windows
 targetos: Windows

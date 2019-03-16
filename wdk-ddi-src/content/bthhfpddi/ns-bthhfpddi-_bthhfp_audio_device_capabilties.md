@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthhfpddi.h
+- bthhfpddi.h
 api_name:
--	BTHHFP_AUDIO_DEVICE_CAPABILTIES
+- BTHHFP_AUDIO_DEVICE_CAPABILTIES
 product:
 - Windows
 targetos: Windows

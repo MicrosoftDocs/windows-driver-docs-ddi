@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	_NET_ADAPTER_DMA_CAPABILITIES
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- _NET_ADAPTER_DMA_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

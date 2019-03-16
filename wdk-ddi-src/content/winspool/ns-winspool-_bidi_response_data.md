@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winspool.h
+- winspool.h
 api_name:
--	BIDI_RESPONSE_DATA
+- BIDI_RESPONSE_DATA
 product:
 - Windows
 targetos: Windows

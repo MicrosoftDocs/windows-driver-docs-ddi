@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WIA_RAW_HEADER, *PWIA_RAW_HEADER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wiadef.h
+- wiadef.h
 api_name: 
--	_WIA_RAW_HEADER
+- _WIA_RAW_HEADER
 product:
 -   Windows
 targetos: Windows

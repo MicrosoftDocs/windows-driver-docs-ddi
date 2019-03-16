@@ -33,7 +33,7 @@ apilocation:
 apiname: 
 -	NetExtensionGetPacketLargeSendSegmentation
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

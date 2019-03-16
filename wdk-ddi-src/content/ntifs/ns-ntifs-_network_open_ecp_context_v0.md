@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	NETWORK_OPEN_ECP_CONTEXT_V0
+- NETWORK_OPEN_ECP_CONTEXT_V0
 product:
 - Windows
 targetos: Windows

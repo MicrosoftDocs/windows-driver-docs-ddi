@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmddi.h
+- d3dkmddi.h
 api_name: 
--	DXGKDDI_SWITCHTOHWCONTEXTLIST
+- DXGKDDI_SWITCHTOHWCONTEXTLIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -26,15 +26,15 @@ req.lib: Tape.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Tape.lib
--	Tape.dll
+- Tape.lib
+- Tape.dll
 api_name:
--	TapeClassZeroMemory
+- TapeClassZeroMemory
 product:
 - Windows
 targetos: Windows

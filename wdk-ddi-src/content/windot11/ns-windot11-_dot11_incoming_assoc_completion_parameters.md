@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
+- DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
+- IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KsGateTerminateOr
+- KsGateTerminateOr
 product:
 - Windows
 targetos: Windows

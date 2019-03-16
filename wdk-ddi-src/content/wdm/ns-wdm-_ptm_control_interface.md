@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PTM_CONTROL_INTERFACE, *PPTM_CONTROL_INTERFACE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_PTM_CONTROL_INTERFACE
+- _PTM_CONTROL_INTERFACE
 product:
 - Windows
 targetos: Windows

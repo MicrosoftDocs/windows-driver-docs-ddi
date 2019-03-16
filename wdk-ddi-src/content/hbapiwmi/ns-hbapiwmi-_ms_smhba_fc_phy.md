@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	MS_SMHBA_FC_PHY
+- MS_SMHBA_FC_PHY
 product:
 - Windows
 targetos: Windows
