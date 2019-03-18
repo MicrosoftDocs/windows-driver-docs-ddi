@@ -6,7 +6,7 @@ description: Creates a GPU synchronization object that a device context can sign
 tech.root: display
 ms.assetid: fa9dd71f-6178-4fe3-9519-dfca15f76c81
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

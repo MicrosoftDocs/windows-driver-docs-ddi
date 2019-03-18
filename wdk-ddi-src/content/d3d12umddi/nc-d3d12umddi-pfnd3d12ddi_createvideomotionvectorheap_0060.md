@@ -6,7 +6,7 @@ description: Creates a video motion vector heap.
 tech.root: display
 ms.assetid: f1992ba3-04b1-43dc-842e-274e3f55fdde
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 04/04/2019
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -6,7 +6,7 @@ description: Contains display options data.
 tech.root: display
 ms.assetid: 16b0ed82-7a84-45ab-8695-f2d2b9a044d4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 04/04/2019
 ms.topic: struct
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0062, D3D12DDI_D3D12_OPTIONS_DATA_0062, 
 req.header: d3d12umddi.h

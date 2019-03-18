@@ -6,7 +6,7 @@ description: Creates a video extension command.
 tech.root: display
 ms.assetid: f7ad7c05-c20c-4211-88bd-e55ae094d3c3
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

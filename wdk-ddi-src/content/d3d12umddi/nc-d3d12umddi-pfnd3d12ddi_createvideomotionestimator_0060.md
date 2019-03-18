@@ -6,7 +6,7 @@ description: Creates the video motion estimator.
 tech.root: display
 ms.assetid: e1606f4a-88ed-48e0-8562-9cd27f2498ff
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

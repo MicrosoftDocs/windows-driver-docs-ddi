@@ -6,7 +6,7 @@ description: Retrieves the array of video extension command info for a parameter
 tech.root: display
 ms.assetid: 47a5a544-0d0e-418b-9378-ffb4e9dac7f1
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: struct
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMANDS_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMANDS_DATA_0063, 
 req.header: d3d12umddi.h
