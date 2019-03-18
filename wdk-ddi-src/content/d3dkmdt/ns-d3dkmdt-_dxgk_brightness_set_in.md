@@ -37,7 +37,7 @@ tech.root: display
 
 ## -description
 
-Contains input parameters for the [DxgkBrightnessSet3](..\dispmprt\nc-dispmprt-dxgk_brightness_set_3.md) callback function.
+Contains input parameters for the [DxgkBrightnessSet3](../dispmprt/nc-dispmprt-dxgk_brightness_set_3.md) callback function.
 
 ## -struct-fields
 

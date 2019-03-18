@@ -37,7 +37,7 @@ tech.root: display
 
 ## -description
 
-Contains the output parameters for the [DxgkBrightnessGet3](..\dispmprt\nc-dispmprt-dxgk_brightness_get_3.md) callback function.
+Contains the output parameters for the [DxgkBrightnessGet3](../dispmprt/nc-dispmprt-dxgk_brightness_get_3.md) callback function.
 
 ## -struct-fields
 

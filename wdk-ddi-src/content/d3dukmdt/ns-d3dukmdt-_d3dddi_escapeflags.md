@@ -100,7 +100,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 ### -field VirtualMachineData
 
-Indicates that [DxgkDdiEscape](..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
+Indicates that [DxgkDdiEscape](../d3dkmddi/nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
 
 ### -field DriverKnownEscape
 

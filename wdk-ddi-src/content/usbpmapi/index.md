@@ -21,7 +21,7 @@ This header is the main include header for client drivers of the USB Policy Mana
 
 Usbpmapi.h includes:
 
-[UsbCTypes.h](..\usbctypes\index.md)
+[UsbCTypes.h](../usbctypes/index.md)
 
 > Do not include the preceding header directly. Instead, only include Usbpmapi.h.
 
