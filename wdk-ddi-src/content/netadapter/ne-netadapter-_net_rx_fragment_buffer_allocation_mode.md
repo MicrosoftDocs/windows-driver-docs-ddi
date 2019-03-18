@@ -17,13 +17,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapter.h
-apiname: 
+api_name: 
 - _NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE
 product:
 - Windows

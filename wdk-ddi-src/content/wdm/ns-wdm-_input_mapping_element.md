@@ -19,13 +19,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - _INPUT_MAPPING_ELEMENT
 product:
 - Windows

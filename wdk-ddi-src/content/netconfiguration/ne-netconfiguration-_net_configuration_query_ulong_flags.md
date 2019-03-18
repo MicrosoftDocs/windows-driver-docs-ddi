@@ -19,13 +19,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_CONFIGURATION_QUERY_ULONG_FLAGS
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netconfiguration.h
-apiname: 
+api_name: 
 - NET_CONFIGURATION_QUERY_ULONG_FLAGS
 product:
 - Windows

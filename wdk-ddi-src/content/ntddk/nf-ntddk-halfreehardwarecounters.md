@@ -25,14 +25,14 @@ req.type-library:
 req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 - APIRef
 - kbSyntax
-apitype:
+api_type:
 - DllExport
-apilocation:
+api_location
 - Hal.dll
-apiname:
+api_name:
 - HalFreeHardwareCounters
 product:
 - Windows

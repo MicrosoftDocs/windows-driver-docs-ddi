@@ -23,13 +23,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - UserDefined
-apilocation: 
+api_location:
 - netreceivescaling.h
-apiname: 
+api_name: 
 - EVT_NET_ADAPTER_RECEIVE_SCALING_SET_INDIRECTION_ENTRIES
 product:
 - Windows
