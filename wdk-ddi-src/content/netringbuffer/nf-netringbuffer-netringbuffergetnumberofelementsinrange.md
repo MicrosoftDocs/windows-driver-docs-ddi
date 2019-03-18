@@ -26,13 +26,13 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netringbuffer.h
-apiname: 
+api_name: 
 - NetRingBufferGetNumberOfElementsInRange
 product:
 - Windows

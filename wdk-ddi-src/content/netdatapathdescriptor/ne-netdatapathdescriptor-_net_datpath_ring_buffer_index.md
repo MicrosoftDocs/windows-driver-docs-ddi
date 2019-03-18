@@ -17,13 +17,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_DATPATH_RING_BUFFER_INDEX
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netdatapathdescriptor.h
-apiname: 
+api_name: 
 - _NET_DATPATH_RING_BUFFER_INDEX
 product:
 - Windows

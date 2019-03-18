@@ -25,7 +25,7 @@ api_type:
 - HeaderDef
 api_location: 
 - ntddk.h
-apiname: 
+api_name: 
 - _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2
 product:
 - Windows

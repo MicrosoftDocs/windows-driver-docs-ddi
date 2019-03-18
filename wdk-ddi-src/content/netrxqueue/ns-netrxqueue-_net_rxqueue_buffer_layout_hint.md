@@ -22,13 +22,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netrxqueue.h
-apiname: 
+api_name: 
 - NET_RXQUEUE_BUFFER_LAYOUT_HINT
 product:
 - Windows
