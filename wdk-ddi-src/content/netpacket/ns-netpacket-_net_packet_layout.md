@@ -22,13 +22,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_LAYOUT
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netpacket.h
-apiname: 
+api_name: 
 - NET_PACKET_LAYOUT
 product:
 - Windows

@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY, *PNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netreceivescaling.h
-apiname: 
+api_name: 
 - _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 product:
 - Windows

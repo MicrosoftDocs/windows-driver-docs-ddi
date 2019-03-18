@@ -16,13 +16,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: STATE_LOCATION_TYPE
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - ntddk.h
-apiname: 
+api_name: 
 - _STATE_LOCATION_TYPE
 product:
 - Windows

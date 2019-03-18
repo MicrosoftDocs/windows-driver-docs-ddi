@@ -23,14 +23,14 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - DllExport
-apilocation: 
+api_location:
 - NtosKrnl.exe
 -   ufxstub.lib
-apiname: 
+api_name: 
 - UfxDeviceNotifyFinalExit
 product:
 - Windows

@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netdatapathdescriptor.h
-apiname: 
+api_name: 
 - _NET_DATAPATH_DESCRIPTOR
 product:
 - Windows

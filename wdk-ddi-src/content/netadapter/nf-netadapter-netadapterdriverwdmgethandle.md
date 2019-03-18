@@ -27,13 +27,13 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterDriverWdmGetHandle
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapter.h
-apiname: 
+api_name: 
 - NetAdapterDriverWdmGetHandle
 product:
 - Windows

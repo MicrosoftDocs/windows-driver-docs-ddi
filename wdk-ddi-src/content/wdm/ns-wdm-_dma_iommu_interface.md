@@ -19,13 +19,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - _DMA_IOMMU_INTERFACE
 product:
 - Windows

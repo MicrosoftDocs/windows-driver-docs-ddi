@@ -19,13 +19,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - _D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 product:
 - Windows
