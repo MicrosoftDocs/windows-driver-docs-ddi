@@ -47,7 +47,7 @@ product:
 
 ## -description
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > The [Native 802.11 Wireless LAN](https://msdn.microsoft.com/library/windows/hardware/ff560689) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18).
 
 The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication.
@@ -283,7 +283,7 @@ The 802.11 station is connected to the same DS from the association operation.
 
 The miniport driver cannot determine whether the DS has changed after the association operation.
 
-> [!NOTE] 
+> [!NOTE]
 > The miniport driver must set **DSInfo** to **DOT11_DS_UNKNOWN** if the **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_independent**.
 
 ### -field uEncapTableOffset
