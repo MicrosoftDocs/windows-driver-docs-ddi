@@ -2,11 +2,11 @@
 UID: NI:usbprint.IOCTL_USBPRINT_GET_PROTOCOL
 title: IOCTL_USBPRINT_GET_PROTOCOL
 author: windows-driver-content
-description: TBD
+description: Retrieve the current printer protocol code of the USB printer interface.
 tech.root: print
 ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.author: windowsdriverdev
-ms.date: 03/04/2019
+ms.date: 03/18/2019
 ms.topic: ioctl
 req.header: usbprint.h
 req.include-header:
@@ -39,34 +39,31 @@ targetos: Windows
 
 ## -description
 
-TBD
+Retrieve the current printer protocol code of the USB printer interface.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-TBD
+Null
 
 ### -input-buffer-length
 
-TBD
+0
 
 ### -output-buffer
 
-TBD
+Pointer to a DWORD
 
 ### -output-buffer-length
 
-TBD
-
-### -in-out-buffer
-
-### -inout-buffer-length
+sizeof(DWORD)
 
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
+
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
