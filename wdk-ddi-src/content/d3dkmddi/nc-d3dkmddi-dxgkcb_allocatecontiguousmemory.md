@@ -40,7 +40,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to allocate contiguous memory regions in the IoMMu's logical address space. This callback function is a Windows graphics port driver function equivalent to the [MmAllocateContiguousMemory function](..\wdm\nf-wdm-mmallocatecontiguousmemory.md) of the kernel mode driver.
+Implemented by the client driver to allocate contiguous memory regions in the IoMMu's logical address space. This callback function is a Windows graphics port driver function equivalent to the [MmAllocateContiguousMemory function](../wdm/nf-wdm-mmallocatecontiguousmemory.md) of the kernel mode driver.
 
 ## -prototype
 

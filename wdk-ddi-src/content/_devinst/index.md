@@ -18,7 +18,7 @@ Overview of the Driver installation technology.
 
 To develop Driver installation, you need these headers:
 
- * [avc.h](..\avc\index.md)
- * [devpropdef.h](..\devpropdef\index.md)
+ * [avc.h](../avc/index.md)
+ * [devpropdef.h](../devpropdef/index.md)
 
 For the programming guide, see [Driver installation](https://docs.microsoft.com/windows-hardware/drivers/install).
