@@ -63,7 +63,7 @@ A handle to the display device.
 
 pData [in, out]
 
-A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
+A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](../d3dumddi/ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
 
 
 ## -returns

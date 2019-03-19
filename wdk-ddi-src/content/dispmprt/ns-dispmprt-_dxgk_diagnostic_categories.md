@@ -47,7 +47,7 @@ An OS defined category which has diagnostic types defined in the [DXGK_DIAGTYPE_
 
 ### -field Progressions
 
-A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
+A [DXGK_DIAGTYPE_PROGRESSIONS](../dispmprt/ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
 
 ### -field Reserved
 

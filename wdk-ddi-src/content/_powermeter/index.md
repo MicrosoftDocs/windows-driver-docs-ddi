@@ -18,6 +18,6 @@ The Power Meter Interface (PMI) is provided through a WDM driver that services I
 
 To develop Power metering, you need these headers:
 
- * [pmi.h](..\pmi\index.md)
+ * [pmi.h](../pmi/index.md)
 
 For the programming guide, see [Power metering](https://docs.microsoft.com/windows-hardware/drivers/powermeter).

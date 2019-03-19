@@ -66,7 +66,7 @@ PFND3DKMT_CREATEHWQUEUE
 
 ### -param *
 
-Pointer to a [D3DKMT_CREATEHWQUEUE](..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createhwqueue.md) structure that contains information needed to create a new hardware queue.
+Pointer to a [D3DKMT_CREATEHWQUEUE](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md) structure that contains information needed to create a new hardware queue.
 
 ## -returns
 
@@ -74,5 +74,5 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_CREATEHWQUEUE](..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createhwqueue.md) and then calling Pfnd3dkmtCreateHwQueue.
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_CREATEHWQUEUE](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md) and then calling Pfnd3dkmtCreateHwQueue.
 

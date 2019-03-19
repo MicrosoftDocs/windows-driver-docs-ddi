@@ -38,7 +38,7 @@ tech.root: display
 
 ## -description
 
-Arguments used in the [DXGKDDI_SWITCHTOHWCONTEXTLIST](\nc-d3dkmddi-dxgkddi_switchtohwcontextlist.md) callback function.
+Arguments used in the [DXGKDDI_SWITCHTOHWCONTEXTLIST](nc-d3dkmddi-dxgkddi_switchtohwcontextlist.md) callback function.
 
 ## -struct-fields
 
