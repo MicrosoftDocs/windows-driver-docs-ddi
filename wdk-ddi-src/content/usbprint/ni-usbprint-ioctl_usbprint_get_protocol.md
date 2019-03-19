@@ -46,7 +46,7 @@ Retrieve the current printer protocol code of the USB printer interface.
 
 ### -input-buffer
 
-Null
+NULL
 
 ### -input-buffer-length
 

@@ -46,7 +46,7 @@ Get the protocol capabilities of the USB printer interface.
 
 ### -input-buffer
 
-Null
+NULL
 
 ### -input-buffer-length
 
@@ -80,6 +80,5 @@ IOCTL_USBPRINT_GET_INTERFACE_TYPE returns one of the following values:
 7-1-2 refers to USB class printer(7), subclass(1), protocol(2==BIDI).
 
 7-1-4 refers to USB class printer(7), subclass(1), protocol(4==IPP over USB).
-
 
 ## -see-also
