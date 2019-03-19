@@ -66,7 +66,7 @@ PFND3DKMT_ADDSURFACETOSWAPCHAIN
 
 ### -param D3DKMT_ADDSURFACETOSWAPCHAIN *
 
-Pointer to a [D3DKMT_ADDSURFACETOSWAPCHAIN](..\d3dkmthk\ns-d3dkmthk-_d3dkmt_addsurfacetoswapchain.md) structure to add a surface to the swapchain.
+Pointer to a [D3DKMT_ADDSURFACETOSWAPCHAIN](../d3dkmthk/ns-d3dkmthk-_d3dkmt_addsurfacetoswapchain.md) structure to add a surface to the swapchain.
 
 ## -returns
 
@@ -74,5 +74,5 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of [D3DKMT_ADDSURFACETOSWAPCHAIN](..\d3dkmthk\ns-d3dkmthk-_d3dkmt_addsurfacetoswapchain.md) and then calling Pfnd3dkmtAddSurfaceToSwapchain.
+Register your implementation of this callback function by setting the appropriate member of [D3DKMT_ADDSURFACETOSWAPCHAIN](../d3dkmthk/ns-d3dkmthk-_d3dkmt_addsurfacetoswapchain.md) and then calling Pfnd3dkmtAddSurfaceToSwapchain.
 

@@ -72,11 +72,11 @@ DXGK_BRIGHTNESS_GET_CAPS_3
 
 ### -param ChildUid
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
 ### -param *pBrightnessCaps:
 
-[out] Pointer to a [DXGK_BRIGHTNESS_CAPS](..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_caps.md) structure that represents the brightness control capabilities of the display panel.
+[out] Pointer to a [DXGK_BRIGHTNESS_CAPS](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_caps.md) structure that represents the brightness control capabilities of the display panel.
 
 ## -returns
 

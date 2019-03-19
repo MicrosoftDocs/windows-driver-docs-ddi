@@ -47,7 +47,7 @@ product:
 
 ## -description
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > The [Native 802.11 Wireless LAN](https://msdn.microsoft.com/library/windows/hardware/ff560689) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18).
 
 The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication.
@@ -89,7 +89,7 @@ typedef struct DOT11_ASSOCIATION_COMPLETION_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md) structure.
+The type, revision, and size of the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. This member is formatted as an [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md) structure.
 
 The miniport driver must set the members of *Header* to the following values:
 
@@ -105,7 +105,7 @@ This member must be set to DOT11_ASSOCIATION_COMPLETION_PARAMETERS_REVISION_1.
 
 This member must be set to `sizeof(DOT11_ASSOCIATION_COMPLETION_PARAMETERS)`.
 
-For more information about these members, see [NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md).
+For more information about these members, see [NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md).
 
 ### -field MacAddr
 
@@ -194,20 +194,20 @@ The length of the block of data that is used by the IHV for the [NDIS_STATUS_DOT
 
 ### -field AuthAlgo
 
-The authentication algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **AuthAlgo** member, see [DOT11_AUTH_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md).
+The authentication algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **AuthAlgo** member, see [DOT11_AUTH_ALGORITHM](../wlantypes/ne-wlantypes-_dot11_auth_algorithm.md).
 
 The miniport driver must set this member to zero if **uStatus** is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 ### -field UnicastCipher
 
-The unicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **UnicastCipher** member, see [DOT11_CIPHER_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md).
+The unicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **UnicastCipher** member, see [DOT11_CIPHER_ALGORITHM](../wlantypes/ne-wlantypes-_dot11_cipher_algorithm.md).
 
 
 The miniport driver must set this member to zero if **uStatus** is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
 ### -field MulticastCipher
 
-The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **MulticastCipher** member, see [DOT11_CIPHER_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md)
+The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the **MulticastCipher** member, see [DOT11_CIPHER_ALGORITHM](../wlantypes/ne-wlantypes-_dot11_cipher_algorithm.md)
 
 The miniport driver must set this member to zero if **uStatus** is not set to DOT11_ASSOCIATION_STATUS_SUCCESS.
 
@@ -283,7 +283,7 @@ The 802.11 station is connected to the same DS from the association operation.
 
 The miniport driver cannot determine whether the DS has changed after the association operation.
 
-> [!NOTE] 
+> [!NOTE]
 > The miniport driver must set **DSInfo** to **DOT11_DS_UNKNOWN** if the **dot11DesiredBSSType** MIB object is set to **dot11_BSS_type_independent**.
 
 ### -field uEncapTableOffset
@@ -292,7 +292,7 @@ The offset of the list of IEEE EtherType encapsulations for the BSS association.
 
 This offset is relative to the start of the buffer, which contains the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure. The value of **uEncapTableOffset** must be aligned on a 4-byte boundary.
 
-The miniport driver formats each entry in this list as a [DOT11_ENCAP_ENTRY](..\windot11\ns-windot11-dot11_encap_entry.md) structure.
+The miniport driver formats each entry in this list as a [DOT11_ENCAP_ENTRY](../windot11/ns-windot11-dot11_encap_entry.md) structure.
 
 For more information about the EtherType encapsulation list, see [802.11 Payload Encapsulation](https://technet.microsoft.com/library/cc757419).
 
@@ -326,19 +326,19 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 ## -see-also
 
-[DOT11_ENCAP_ENTRY](..\windot11\ns-windot11-dot11_encap_entry.md)
+[DOT11_ENCAP_ENTRY](../windot11/ns-windot11-dot11_encap_entry.md)
 
 [DOT11_ASSOC_STATUS](https://msdn.microsoft.com/library/windows/hardware/ff547652)
 
-[NdisMIndicateStatusEx](..\ndis\nf-ndis-ndismindicatestatusex.md)
+[NdisMIndicateStatusEx](../ndis/nf-ndis-ndismindicatestatusex.md)
 
-[DOT11_AUTH_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md)
+[DOT11_AUTH_ALGORITHM](../wlantypes/ne-wlantypes-_dot11_auth_algorithm.md)
 
 [OID_DOT11_ACTIVE_PHY_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-active-phy-list)
 
-[DOT11_CIPHER_ALGORITHM](..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md)
+[DOT11_CIPHER_ALGORITHM](../wlantypes/ne-wlantypes-_dot11_cipher_algorithm.md)
 
-[DOT11_MAC_ADDRESS](..\windot11\ns-windot11-_dot11_mac_address.md)
+[DOT11_MAC_ADDRESS](../windot11/ns-windot11-_dot11_mac_address.md)
 
 [OID_DOT11_DESIRED_PHY_LIST](https://msdn.microsoft.com/library/windows/hardware/ff569144)
 
@@ -346,4 +346,4 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion)
 
-[NDIS_OBJECT_HEADER](..\ntddndis\ns-ntddndis-_ndis_object_header.md)
+[NDIS_OBJECT_HEADER](../ntddndis/ns-ntddndis-_ndis_object_header.md)
