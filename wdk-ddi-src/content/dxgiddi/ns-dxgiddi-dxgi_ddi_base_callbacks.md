@@ -70,11 +70,11 @@ A pointer to the PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAY1CB function. Supported s
 
 ### -field pfnSubmitPresentBltToHwQueueCb
 
-A pointer to the [PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB](..\dxgiddi\nc-dxgiddi-pfnddxgiddi_submitpresentblttohwqueuecb.md) function. Supported starting with WDDM 2.4.
+A pointer to the [PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB](../dxgiddi/nc-dxgiddi-pfnddxgiddi_submitpresentblttohwqueuecb.md) function. Supported starting with WDDM 2.4.
 
 ### -field pfnSubmitPresentToHwQueueCb
 
-A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](..\dxgiddi\nc-dxgiddi-pfnddxgiddi_submitpresenttohwqueuecb.md) function. Supported starting with WDDM 2.5.
+A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](../dxgiddi/nc-dxgiddi-pfnddxgiddi_submitpresenttohwqueuecb.md) function. Supported starting with WDDM 2.5.
 
 ## -see-also
 
