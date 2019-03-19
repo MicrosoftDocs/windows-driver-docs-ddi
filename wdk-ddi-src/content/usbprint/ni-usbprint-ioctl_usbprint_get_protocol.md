@@ -8,6 +8,7 @@ ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.author: windowsdriverdev
 ms.date: 03/18/2019
 ms.topic: ioctl
+ms.custom: 19H1 
 req.header: usbprint.h
 req.include-header:
 req.target-type:
@@ -67,5 +68,12 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+IOCTL_USBPRINT_GET_PROTOCOL returns one of the following values:
+
+| Defined constant | Value |
+| --- | --- |
+| USB_PRINTER_PROTOCOL_BIDI | 2 |
+| USB_PRINTER_PROTOCOL_IPPOVERUSB | 4 |
 
 ## -see-also

@@ -8,6 +8,7 @@ ms.assetid: a7498e8a-e4d4-40d8-be9c-f54a474bb8e6
 ms.author: windowsdriverdev
 ms.date: 03/18/2019
 ms.topic: ioctl
+ms.custom: 19H1
 req.header: usbprint.h
 req.include-header:
 req.target-type:
@@ -67,5 +68,13 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+IOCTL_USBPRINT_SET_PROTOCOL supports the following values:
+
+| Defined constant | Value |
+| --- | --- |
+| USB_PRINTER_PROTOCOL_BIDI | 2 |
+
+If an interface supports IPP over USB, then it is started in the IPP over USB protocol. If the Windows print system detects that IHV drivers have been installed for the printer, then it will switch the printer back to BIDI.
 
 ## -see-also
