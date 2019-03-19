@@ -63,7 +63,7 @@ See [SensorsCxDeviceGetSensorList](https://docs.microsoft.com/windows-hardware/d
 
 ### -field SensorsCxSensorHistoryRetrievalCompletedTableIndex
 
-See [SensorsCxSensorHistoryRetrievalCompleted](..\sensorscx\nf-sensorscx-sensorscxsensorhistoryretrievalcompleted.md).
+See [SensorsCxSensorHistoryRetrievalCompleted](../sensorscx/nf-sensorscx-sensorscxsensorhistoryretrievalcompleted.md).
 
 ### -field SensorsCxStateChangeTableIndex
 

@@ -18,8 +18,8 @@ Overview of the Windows Portable Devices Reference technology.
 
 To develop Windows Portable Device drivers, you need these headers:
 
-* [portabledevice.h](..\portabledevice\index.md)
+* [portabledevice.h](../portabledevice/index.md)
 
-* [portabledeviceclassextension.h](..\portabledeviceclassextension\index.md)
+* [portabledeviceclassextension.h](../portabledeviceclassextension/index.md)
 
-* [portabledevicetypes.h](..\portabledevicetypes\index.md)
+* [portabledevicetypes.h](../portabledevicetypes/index.md)
