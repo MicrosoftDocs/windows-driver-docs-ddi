@@ -6,7 +6,7 @@ description: Retrieves the number of parameters for a parameter stage.
 tech.root: display
 ms.assetid: 004ea36c-7ed0-48ca-8479-7ba113b267ba
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: struct
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063, 
 req.header: d3d12umddi.h

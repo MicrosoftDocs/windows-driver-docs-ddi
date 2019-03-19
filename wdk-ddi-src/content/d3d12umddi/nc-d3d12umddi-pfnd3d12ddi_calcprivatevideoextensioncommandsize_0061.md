@@ -6,7 +6,7 @@ description: Returns the driver for the video extension object size.
 tech.root: display
 ms.assetid: 0c6cdccd-9423-4640-bd8d-d7595589d598
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
