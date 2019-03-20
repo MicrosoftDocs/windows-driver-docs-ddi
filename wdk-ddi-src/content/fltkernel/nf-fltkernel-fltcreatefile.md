@@ -894,6 +894,8 @@ Any handle that is obtained from <b>FltCreateFile</b> must eventually be release
 
 Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>FltCreateFile</b>. Setting this attribute restricts the use of the handle that is returned by <b>FltCreateFile</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
+<div class="alert"><b>Note</b>  Before calling this routine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>.  If <b>IoGetTopLevelIrp</b> returns a non-<b>NULL</b> value, do not call the routine as this can cause a system deadlock.</div>
+
 Certain <i>DesiredAccess</i> flags and combinations of flags have the following effects: 
 
 <ul>
