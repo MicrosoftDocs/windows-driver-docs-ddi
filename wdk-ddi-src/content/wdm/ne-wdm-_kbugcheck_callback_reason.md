@@ -87,7 +87,7 @@ Specifies that the callback is executed to get the amount of data the driver wan
 
 ### -field KbCallbackTriageDumpData
 
-Specifies that the callback is executed to add virtual memory ranges the driver wants to preserve in the carved minidump file. For more information about this type of callback, see <a href="..\wdm\nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a>. This enumeration value is supported in Windows 10 October 2018 Update / Windows Server 2019 and later versions of Windows.
+Specifies that the callback is executed to add virtual memory ranges the driver wants to preserve in the carved minidump file. For more information about this type of callback, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a>. This enumeration value is supported in Windows 10 October 2018 Update / Windows Server 2019 and later versions of Windows.
 
 ## -see-also
 
