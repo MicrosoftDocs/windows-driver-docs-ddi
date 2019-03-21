@@ -105,7 +105,11 @@ When set to 1, the Operating System is able to set the <b>LargePage</b> flag whe
 ### -field SysMem64KBPageSupported
 
  
+### -field InvalidTlbEntriesNotCached
 
+When this bit is set, the driver will not receive calls to [DxgkDdiBuildPagingBuffer](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) for FlushTlb requests for VA ranges that are transitioning from an invalid to valid state. It is expected that the hardware’s TLB does not cache invalid translations
+
+Supported starting in WDDM 2.6.
 
 ### -field Reserved
 

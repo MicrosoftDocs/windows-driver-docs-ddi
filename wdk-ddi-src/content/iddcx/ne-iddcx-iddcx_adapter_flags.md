@@ -45,9 +45,7 @@ req.typenames:
 
 ## -description
 
-
-
-                    Specifies boolean flags for an indirect display adapter.
+Specifies boolean flags for an indirect display adapter.
                 
 
 
@@ -59,24 +57,26 @@ req.typenames:
 ### -field IDDCX_ADAPTER_FLAGS_NONE
 
 
-                        
-                    Indicates that there are no flags set for the adapter.
+Indicates that there are no flags set for the adapter.
 
 
 ### -field IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
 
-
-                        Indicates to the OS that the smallest possible desktop surface size should be used when the desktop mode is changed. Typically a solution that has a large processing overhead or limited transmission bandwidth uses this flag to reduce the desktop image size in order to process as much as possible. 
+Indicates to the OS that the smallest possible desktop surface size should be used when the desktop mode is changed. Typically a solution that has a large processing overhead or limited transmission bandwidth uses this flag to reduce the desktop image size in order to process as much as possible. 
 
 <div class="alert"><b>Note</b>  Setting this flag results in a mode change each time the desktop resolution is changed.</div>
 <div> </div>
 
 ### -field IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS
 
-
-                        Indicates if the driver can utilize move regions provided by the OS in addition to dirty rects when encoding the image.  The driver should only set this to TRUE if it uses the move regions because  this costs additional resource for the OS to generate them. If driver sets this to FALSE, the OS converts all move regions to dirty rects.
+Indicates if the driver can utilize move regions provided by the OS in addition to dirty rects when encoding the image.  The driver should only set this to TRUE if it uses the move regions because  this costs additional resource for the OS to generate them. If driver sets this to FALSE, the OS converts all move regions to dirty rects.
                     
 
+### -field IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER
+
+Indicates if the driver is a remote session driver supporting remote session monitors rather than console session monitors. A remote session driver cannot support console session monitors and console session driver cannot support remote session monitors.
+
+Supported starting in WDDM 2.6.
 
 ### -field UINT
 
