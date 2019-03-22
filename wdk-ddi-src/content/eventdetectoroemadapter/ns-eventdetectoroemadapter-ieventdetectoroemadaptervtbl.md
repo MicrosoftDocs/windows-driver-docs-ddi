@@ -6,7 +6,7 @@ description: TBD
 tech.root: audio
 ms.assetid: 15246179-b019-440a-8984-efae4370e341
 ms.author: windowsdriverdev
-ms.date: 02/25/2019
+ms.date: 03/22/2019
 ms.topic: struct
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl, 
 req.header: eventdetectoroemadapter.h
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+IEventDetectorOemAdapterVtbl structure that TBD.
 
 ## -struct-fields
 
@@ -49,43 +49,41 @@ TBD
 
 ### -field QueryInterface
 
-TBD
+Standard COM QueryInterface method.
  
 ### -field AddRef
 
-TBD
+Standard COM AddRef method.
  
 ### -field Release
 
-TBD
+Standard COM Release method.
  
 ### -field GetCapabilities
 
-TBD
+Returns langauges and detector features supported by the object. For more information, see [IEventDetectorOemAdapter::GetCapabilities method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-getcapabilities.md).
  
 ### -field GetCapabilitiesForLanguage
 
-TBD
+Returns the events supported by the specific language. For more information, see [IEventDetectorOemAdapter::GetCapabilitiesForLanguage method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-getcapabilitiesforlanguage.md).
  
 ### -field VerifyUserEventData
 
-TBD
+Verifies the user recording for the given EVENTID. For more information, see [IEventDetectorOemAdapter::VerifyUserEventData method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-verifyusereventdata.md).
  
 ### -field ComputeAndAddUserModelData
 
-TBD
+Adds the user specific model data to an existing model data blob. For more information, see [IEventDetectorOemAdapter::ComputeAndAddUserModelData method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-computeandaddusermodeldata.md).
  
 ### -field BuildArmingPatternData
-
-TBD
+Builds the pattern data to be used on a subsequent arm request - this is done once for each pin instance. For more information, see [IEventDetectorOemAdapter::BuildArmingPatternData method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-buildarmingpatterndata.md).
  
 ### -field ParseDetectionResultData
-
-TBD
+Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determine the DETECTIONEVENTID,LANGID and USER detected.
+For more information, see [IEventDetectorOemAdapter::ParseDetectionResultData method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-parsedetectionresultdata.md).
  
 ### -field ReportOSDetectionResult
-
-TBD
+Called to provide second stage result to OEM dll. For more information, see [IEventDetectorOemAdapter::ReportOSDetectionResult method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-reportosdetectionresult.md).
 
 
 ## -remarks
