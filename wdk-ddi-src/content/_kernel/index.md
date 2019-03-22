@@ -937,6 +937,7 @@ The following routines are reserved for system use. Do not use them in your driv
 - MmIsIoSpaceActive
 - MmMapUserAddressesToPage
 - MmMapVideoDisplay
+- MmMapVideoDisplayEx
 - MmMapViewInSessionSpace
 - MmMapViewInSystemSpace
 - MmMarkPhysicalMemoryAsBad

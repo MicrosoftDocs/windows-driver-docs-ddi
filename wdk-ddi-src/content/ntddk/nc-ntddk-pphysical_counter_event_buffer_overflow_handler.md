@@ -11,7 +11,7 @@ ms.topic: callback
 req.header: ntddk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -33,7 +33,8 @@ api_location:
  - ntddk.h
 api_name:
  - PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

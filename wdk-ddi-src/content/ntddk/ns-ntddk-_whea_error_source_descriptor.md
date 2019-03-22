@@ -181,9 +181,9 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GE
 
 ### -field Info.GenErrDescriptorV2
 
- 
+### -field Info.DeviceDriverDescriptor
 
-
+A [WHEA_DEVICE_DRIVER_DESCRIPTOR](ns-ntddk-whea_device_driver_descriptor.md) structure.
 
 
 ## -remarks

@@ -50,19 +50,7 @@ The **IoRegisterPlugPlayNotification** routine registers a Plug and Play (PnP) n
 
 ### -param EventCategory [in]
 
-The category of PnP event for which the callback routine is being registered. *EventCategory* must be one of the following:
-
-#### EventCategoryDeviceInterfaceChange
-
-PnP events in this category include the arrival (enabling) of a new instance of a [device interface class](https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-device-interface-classes) (GUID_DEVICE_INTERFACE_ARRIVAL), or the removal (disabling) of an existing device interface instance (GUID_DEVICE_INTERFACE_REMOVAL).
-
-#### EventCategoryHardwareProfileChange
-
-PnP events in this category include query-change (GUID_HWPROFILE_QUERY_CHANGE), change-complete (GUID_HWPROFILE_CHANGE_COMPLETE), and change-cancel (GUID_HWPROFILE_CHANGE_CANCELLED) of a hardware profile.
-
-#### EventCategoryTargetDeviceChange
-
-PnP events in this category include events related to removing a device: the device's drivers received a query-remove IRP (GUID_TARGET_DEVICE_QUERY_REMOVE), the drivers completed a remove IRP (GUID_TARGET_DEVICE_REMOVE_COMPLETE), or the drivers received a cancel-remove IRP (GUID_TARGET_DEVICE_REMOVE_CANCELLED). This category is also used for custom notification events.
+Specifies an enumeration value from [**IO_NOTIFICATION_EVENT_CATEGORY**](ne-wdm-io_notification_event_category.md) that indicates the category of PnP event for which the callback routine is being registered.
 
 ### -param EventCategoryFlags [in]
 

@@ -167,57 +167,7 @@ The identifier of the error record. This identifier is unique only on the system
 
 ### -field Flags
 
-A WHEA_ERROR_RECORD_HEADER_FLAGS union that describes the error condition. The WHEA_ERROR_RECORD_HEADER_FLAGS union is defined as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _WHEA_ERROR_RECORD_HEADER_FLAGS {
-  struct {
-    ULONG  Recovered:1;
-    ULONG  PreviousError:1;
-    ULONG  Simulated:1;
-    ULONG  Reserved:29;
-  };
-  ULONG  AsULONG;
-} WHEA_ERROR_RECORD_HEADER_FLAGS, *PWHEA_ERROR_RECORD_HEADER_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-
-
-#### Recovered
-
-A single bit that indicates that the operating system recovered from the error condition.
-
-
-
-#### PreviousError
-
-A single bit that indicates that the error condition occurred in a previous session of the operating system.
-
-
-
-#### Simulated
-
-A single bit that indicates that the error condition was simulated.
-
-
-
-#### Reserved
-
-Reserved for system use.
-
-
-
-#### AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS union.
+A [**WHEA_ERROR_RECORD_HEADER_FLAGS**](ns-ntddk-whea_error_record_header_flags.md) union that describes the error condition.
 
 
 ### -field PersistenceInfo

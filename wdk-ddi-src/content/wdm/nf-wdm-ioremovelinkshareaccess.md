@@ -61,12 +61,12 @@ Pointer to the file object, which usually is being closed by the current thread.
 
 ### -param ShareAccess [in, out]
 
-Pointer to the share-access structure that describes how the open file object is currently being accessed. 
+A pointer to the common share-access data structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
 ### -param LinkShareAccess [in, out, optional]
 
-Pointer to the share-access structure that describes how the open file object is currently being accessed. 
+A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
 ## -returns
