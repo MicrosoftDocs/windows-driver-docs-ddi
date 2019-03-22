@@ -6,7 +6,7 @@ description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the size and th
 tech.root: audio
 ms.assetid: 1aa2d821-a1f6-46ca-be4c-9c8f280f9fa0
 ms.author: windowsdriverdev
-ms.date: 02/26/2019
+ms.date: 03/22/2019
 ms.topic: struct
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER, 
 req.header: eventdetectoroemadapter.h
@@ -45,12 +45,12 @@ The SOUNDDETECTOR_PATTERNHEADER structure specifies the size and the format of t
 
 ### -field Size
 
-Size of the data including this header
+Size of the data including this header.
 
  
 ### -field PatternType
 
-Identifies the format of the pattern data
+Identifies the format of the pattern data.
  
 
 ## -remarks
