@@ -69,7 +69,6 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550
 
 Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. For example, if the <i>FileInformationClass</i> parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](https://docs.microsoft.comwindows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex) structure.
 
-Setting any member of the structure to zero tells <b>NtSetInformationFile</b> to leave the current information about the file for that member unchanged.
 
 
 ### -param Length [in]
@@ -119,10 +118,10 @@ Change the information that is supplied in a <a href="https://docs.microsoft.com
 <tr>
 <td>
 <b>FileDispositionInformation</b>
- 
+
 </td>
 <td>
-Request to delete the file when it is closed or cancel a previously requested deletion. The choice whether to delete or cancel is supplied in a [**FILE_DISPOSITION_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information) structure. The caller must have opened the file with the **DELETE** flag set in the <i>DesiredAccess</i> parameter.
+Request to delete the file when it is closed or cancel a previously requested deletion. The choice whether to delete or cancel is supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information">FILE_DISPOSITION_INFORMATION</a> structure. The caller must have opened the file with the DELETE flag set in the <i>DesiredAccess</i> parameter.
 
 </td>
 </tr>
@@ -132,7 +131,7 @@ Request to delete the file when it is closed or cancel a previously requested de
 
 </td>
 <td>
-Request to delete the file or cancel a previously requested deletion. The choice whether to delete or cancel, as well as settings for when and how the deletion should be performed, are supplied in a [**FILE_DISPOSITION_INFORMATION_EX**](https://docs.microsoft.comwindows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex) structure. The caller must have opened the file with the **DELETE** flag set in the *DesiredAccess* parameter.
+Request to delete the file or cancel a previously requested deletion. The choice whether to delete or cancel, as well as settings for when and how the deletion should be performed, are supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex">FILE_DISPOSITION_INFORMATION_EX</a> structure. The caller must have opened the file with the DELETE** flag set in the <i>DesiredAccess</i> parameter.
 
 </td>
 </tr>
