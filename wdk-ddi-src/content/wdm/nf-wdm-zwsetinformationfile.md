@@ -70,7 +70,6 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550
 
 Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. For example, if the <i>FileInformationClass</i> parameter is set to the **FileDispositionInformationEx** constant, this parameter should be a pointer to a [**FILE_DISPOSITION_INFORMATION_EX**](https://docs.microsoft.comwindows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex) structure.
 
-Setting any member of the structure to zero tells <b>ZwSetInformationFile</b> to leave the current information about the file for that member unchanged.
 
 ### -param Length [in]
 
