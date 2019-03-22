@@ -42,23 +42,17 @@ req.typenames: MONITOR, *LPMONITOR
 
 # _MONITOR structure
 
-
 ## -description
-
 
 The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> so that they can be used with print server clusters.
 
 The MONITOR structure contains pointers to the functions defined by print monitors.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pfnEnumPorts
 
-A port monitor server DLL's <b>EnumPorts</b> function enumerates the ports that the port monitor supports.
+A port monitor server DLL's **EnumPorts** function enumerates the ports that the port monitor supports.
 
 
 ### -field pfnOpenPort
@@ -731,6 +725,3 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a>
  
-
- 
-
