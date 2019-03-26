@@ -110,7 +110,7 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 
 You can also power cycle the port by using the <b>Device Manager</b>'s <b>Enable</b>/<b>Disable</b> feature. This feature causes the bus driver to reset the device. Alternatively, you can use DevCon to enable or disable the device. 
 
-The executable for DevCon can be found in the <i><install_path></i><b>\WinDDK\</b><i>build_number</i><b>\tools\devcon\</b><i><arch></i><b>\devcon.exe</b> folder.
+The executable for DevCon can be found in the <i><install_path></i><b>\WinDDK\\</b><i>build_number</i><b>\tools\devcon\\</b><i><arch></i><b>\devcon.exe</b> folder.
 
 
 
