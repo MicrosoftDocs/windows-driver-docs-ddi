@@ -128,7 +128,7 @@ Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows
 
 ### -field pfnShutdown
 
-Pointer to the print monitor's **Shutdown** function.
+Pointer to the print monitor's [Shutdown](https://docs.microsoft.com/previous-versions/ff562646(v%3Dvs.85)) function.
 
 ### -field pfnSendRecvBidiDataFromPort
 
@@ -167,7 +167,7 @@ BOOL  Is_Win2000()
 
   // Initialize the OSVERSIONINFOEX structure.
 
-  ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+  ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
   osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
   osvi.dwMajorVersion = 5;
   osvi.dwMinorVersion = 0;
@@ -178,7 +178,7 @@ BOOL  Is_Win2000()
 
   // Perform the test.
   return VerifyVersionInfo(
-      &amp;osvi,
+      &osvi,
       VER_MAJORVERSION | VER_MINORVERSION,
       dwlConditionMask);
 }
