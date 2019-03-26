@@ -54,41 +54,41 @@ Specifies the size, in bytes, of the MONITOR2 structure.
 
 ### -field pfnEnumPorts
 
-A port monitor server DLL's [EnumPorts]() function enumerates the ports that the port monitor supports.
+A port monitor server DLL's [EnumPorts](https://docs.microsoft.com/windows/desktop/printdocs/enumports) function enumerates the ports that the port monitor supports.
 
 ### -field pfnOpenPort
 
-Pointer to the print monitor's [OpenPort]() function.
+Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) function.
 
 ### -field pfnOpenPortEx
 
-A language monitor's [OpenPortEx]() function opens a printer port.
+A language monitor's [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v%3Dvs.85)) function opens a printer port.
 
 ### -field pfnStartDocPort
 
-A print monitor's [StartDocPort]() function performs the tasks required to start a print job on the specified port.
+A print monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v%3Dvs.85)) function performs the tasks required to start a print job on the specified port.
 
 ### -field pfnWritePort
 
-Pointer to the print monitor's [WritePort]() function.
+Pointer to the print monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-writeport) function.
 
 ### -field pfnReadPort
 
-Pointer to the print monitor's [ReadPort]() function.
+Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-readport) function.
 
 ### -field pfnEndDocPort
 
-A print monitor's [EndDocPort]() function performs the tasks required to end a print job on the specified port.
+A print monitor's [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v%3Dvs.85)) function performs the tasks required to end a print job on the specified port.
 
 ### -field pfnClosePort
 
-Pointer to the print monitor's [ClosePort]() function.
+Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-closeport) function.
 
 ### -field pfnAddPort
 
 The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions.
 
-[AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
+**AddPort** creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
 
 ### -field pfnAddPortEx
 
@@ -96,55 +96,100 @@ The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) fu
 
 ### -field pfnConfigurePort
 
-The [ConfigurePort]() function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use [ConfigurePortUI]().
+The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v%3Dvs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui).
 
-[ConfigurePort]() is a port management function that configures the specified port.
+**ConfigurePort** is a port management function that configures the specified port.
 
 ### -field pfnDeletePort
 
-The [DeletePort]() function is obsolete and is for use only with Windows NT 4.0 and previous versions.
+The [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport) function is obsolete and is for use only with Windows NT 4.0 and previous versions.
 
 **DeletePort** deletes a port from the monitor's environment.
 
 ### -field pfnGetPrinterDataFromPort
 
-Pointer to the print monitor's [GetPrinterDataFromPort]() function.
+Pointer to the print monitor's [GetPrinterDataFromPort](https://docs.microsoft.com/previous-versions/ff550506(v%3Dvs.85)) function.
 
 ### -field pfnSetPortTimeOuts
 
-A port monitor server DLL's <code>SetPortTimeOuts</code> function sets port time-out values for an open port.
+A port monitor server DLL's [SetPortTimeOuts](https://docs.microsoft.com/previous-versions/ff562630(v%3Dvs.85)) function sets port time-out values for an open port.
 
 ### -field pfnXcvOpenPort
 
-Pointer to the print monitor's [XcvOpenPort]() function. (Port monitors only.)
+Pointer to the print monitor's [XcvOpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport) function. (Port monitors only.)
 
 ### -field pfnXcvDataPort
 
-Pointer to the print monitor's [XcvDataPort]() function. (Port monitors only.)
+Pointer to the print monitor's [XcvDataPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport) function. (Port monitors only.)
 
 ### -field pfnXcvClosePort
 
-Pointer to the print monitor's [XcvClosePort]() function. (Port monitors only.)
+Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport) function. (Port monitors only.)
 
 ### -field pfnShutdown
 
-Pointer to the print monitor's [Shutdown]() function.
+Pointer to the print monitor's **Shutdown** function.
 
 ### -field pfnSendRecvBidiDataFromPort
 
-Pointer to the print monitor's [SendRecvBidiDataFromPort]() function.
+Pointer to the print monitor's [SendRecvBidiDataFromPort](https://docs.microsoft.com/previous-versions/ff562071(v%3Dvs.85)) function.
 
 ### -field pfnNotifyUsedPorts
 
+Pointer to the print monitor's **NotifyUsedPorts** function.
+
 ### -field pfnNotifyUnusedPorts
 
+Pointer to the print monitor's **NotifyUnusedPorts** function.
+
 ### -field pfnPowerEvent
+
+Pointer to the print monitor's **PowerEvent** function.
 
 ## -remarks
 
 Each language monitor and each port monitor server DLL must provide a MONITOR2 structure. The monitor must supply values for all structure members, and specify the structure's address as the return value for its [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2) function.
 
 If a function is not defined, its pointer must be NULL.
+
+The **MONITOR2** structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
+
+- Perform a run-time check to determine which operating system version the monitor is running on.
+- If the monitor is running on Windows 2000, it must set the **cbSize** member of the MONITOR2 structure to MONITOR2_SIZE_WIN2K (defined in Winsplp.h), the size appropriate for Windows 2000 version of this structure.
+
+The following function determines whether the current operating system version is Windows 2000.
+
+```cpp
+BOOL  Is_Win2000()
+{
+  OSVERSIONINFOEX osvi;
+  DWORDLONG dwlConditionMask = 0;
+
+  // Initialize the OSVERSIONINFOEX structure.
+
+  ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+  osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
+  osvi.dwMajorVersion = 5;
+  osvi.dwMinorVersion = 0;
+
+  // Initialize the condition mask.
+  VER_SET_CONDITION( dwlConditionMask, VER_MAJORVERSION, VER_EQUAL );
+  VER_SET_CONDITION( dwlConditionMask, VER_MINORVERSION, VER_EQUAL );
+
+  // Perform the test.
+  return VerifyVersionInfo(
+      &amp;osvi,
+      VER_MAJORVERSION | VER_MINORVERSION,
+      dwlConditionMask);
+}
+```
+
+For a monitor that is loading on Windows 2000, the following code sets the MONITOR2 structure's **cbSize** member appropriately.
+
+```cpp
+if ( Is_Win2000( ) )
+    Monitor2.cbSize = MONITOR2_SIZE_WIN2K;
+```
 
 ## -see-also
 
