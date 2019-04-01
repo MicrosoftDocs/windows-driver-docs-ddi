@@ -58,11 +58,17 @@ The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for
 
 The error source is stopped.
 
-
 ### -field WheaErrSrcStateStarted
 
 The error source is started.
 
+### -field WheaErrSrcStateRemoved
+
+The error source is removed.
+
+### -field WheaErrSrcStateRemovePending
+
+The error source is pending.
 
 ## -remarks
 

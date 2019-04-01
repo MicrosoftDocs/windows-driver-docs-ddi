@@ -2,15 +2,15 @@
 UID: NS:iddcx.IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 title: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 author: windows-driver-content
-description: 
+description: Arguments used in the IddCxAdapterDisplayConfigUpdate function.
 tech.root: display
 ms.assetid: 67a33cad-55df-4e65-9f8a-5e684fad8d6e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 04/04/2019
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE, , 
+ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 req.header: iddcx.h
 req.include-header:
 req.target-type:
@@ -35,19 +35,24 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: rs6
 ---
 
 # IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure
 
 ## -description
 
+Arguments used in the IddCxAdapterDisplayConfigUpdate function.
 
 ## -struct-fields
 
 ### -field PathCount
- 
+
+[in] The number of paths in the pPaths array, this cannot be zero.
+
 ### -field pPaths
  
+[in] Pointer to array of path display configuration.
 
 ## -remarks
 

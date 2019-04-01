@@ -66,7 +66,7 @@ The size, in bytes, of the virtual address range to secure.
 
 ### -param ProbeMode [in]
 
-The most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
+Specifies the most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
 
 <table>
 <tr><th>ProbeMode</th><th>Meaning</th></tr>

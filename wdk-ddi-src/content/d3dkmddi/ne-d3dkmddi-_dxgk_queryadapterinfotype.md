@@ -267,6 +267,8 @@ The device capabilities that are queried by the OS during device initialization.
 
 ### -field DXGKQAITYPE_GPUPCAPS
 
+The GPU capabilities for a kernel mode display driver.
+
 ## -remarks
 
 

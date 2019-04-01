@@ -120,6 +120,18 @@ An Itanium processor corrected platform error (CPE).
 ### -field WheaErrSrcTypeSCIGenericV2
 
 
+### -field WheaErrSrcTypeBMC
+
+A Baseboard Management Controller (BMC) error.
+
+### -field WheaErrSrcTypePMEM
+
+An ARS PMEM error.
+
+### -field WheaErrSrcTypeDeviceDriver
+
+A driver-specific error.
+
 ### -field WheaErrSrcTypeMax
 
 The maximum number of error source types that can report hardware errors.
@@ -139,7 +151,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 ## -see-also
 
 
-
+[Windows Hardware Error Architecture Definitions](https://docs.microsoft.com/windows-hardware/drivers/whea/windows-hardware-error-architecture-definitions)
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 

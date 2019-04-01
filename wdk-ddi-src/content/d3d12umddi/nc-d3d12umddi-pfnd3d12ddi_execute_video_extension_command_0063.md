@@ -77,7 +77,7 @@ Handle to the video extension command to initialize.
 
 ### -param *pExecutionParameters
 
-Pointer to the initialization parameters structure. Parameters for this structure must match the parameter enumeration for [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_EXECUTION]((ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md)).
+Pointer to the initialization parameters structure. Parameters for this structure must match the parameter enumeration for [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063_EXECUTION](ne-d3d12umddi-d3d12ddi_video_extension_command_parameter_stage_0063.md).
 
 ### -param ExecutionParametersSizeInBytes
 
