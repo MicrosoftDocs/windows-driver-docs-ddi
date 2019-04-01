@@ -15,7 +15,6 @@ ms.custom: RS5
 # sidebandaudio.h header
 
 
-
 This header is used by audio. For more information, see:
 
 - [Audio](../_audio/index.md)

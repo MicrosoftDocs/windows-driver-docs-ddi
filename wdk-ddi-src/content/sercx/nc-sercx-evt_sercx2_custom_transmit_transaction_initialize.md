@@ -100,7 +100,7 @@ To define an <i>EvtSerCx2CustomTransmitTransactionInitialize</i> callback functi
 
 For example, to define an <i>EvtSerCx2CustomTransmitTransactionInitialize</i> callback function that is named <code>MyCustomTransmitTransactionInitialize</code>, use the <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -112,7 +112,7 @@ For example, to define an <i>EvtSerCx2CustomTransmitTransactionInitialize</i> ca
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
