@@ -344,7 +344,7 @@ ULONG64
 
 This code snippet illustrates the use of the  %Y format specifier.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

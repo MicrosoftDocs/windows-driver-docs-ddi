@@ -49,7 +49,7 @@ req.typenames:
 
 The <b>DbgPrint</b> routine sends a message to the kernel debugger. 
 
- In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only when the conditions that you specify apply (see the <a href="https://docs.microsoft.com/">Remarks</a> section for information).
+ In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only when the conditions that you specify apply (see the <a href="#remarks">Remarks</a> section for information).
 
 
 ## -parameters

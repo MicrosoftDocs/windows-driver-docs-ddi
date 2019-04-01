@@ -342,7 +342,7 @@ ULONG64
 
 This code snippet illustrates the use of the  %Y format specifier.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -383,7 +383,7 @@ This code snippet illustrates the use of the  %Y format specifier.
 </table></span></div>
 This sample code would generate the following output.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

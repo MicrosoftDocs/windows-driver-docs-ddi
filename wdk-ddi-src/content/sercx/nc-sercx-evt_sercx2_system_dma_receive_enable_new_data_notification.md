@@ -95,7 +95,7 @@ To define an <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> callback 
 
 For example, to define an <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> callback function that is named <code>MySystemDmaReceiveEnableNewDataNotification</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -107,7 +107,7 @@ For example, to define an <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification<
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

@@ -114,7 +114,7 @@ To define an <i>EvtSerCx2CustomReceiveSelectNextTransactionType</i> callback fun
 
 For example, to define an <i>EvtSerCx2CustomReceiveSelectNextTransactionType</i> callback function that is named <code>MyCustomReceiveSelectNextTransactionType</code>, use the <b>EVT_SERCX2_CUSTOM_RECEIVE_SELECT_NEXT_TRANSACTION_TYPE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -126,7 +126,7 @@ For example, to define an <i>EvtSerCx2CustomReceiveSelectNextTransactionType</i>
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
