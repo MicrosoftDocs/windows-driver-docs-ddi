@@ -283,7 +283,7 @@ IG_GET_DEBUGGER_DATA
 <tr>
 <td>
 
-                IG_GET_KERNEL_VERSION
+IG_GET_KERNEL_VERSION
 
 </td>
 <td></td>
@@ -343,7 +343,7 @@ IG_IS_PTR64
 <tr>
 <td>
 
-                IG_GET_BUS_DATA
+IG_GET_BUS_DATA
 
 </td>
 <td></td>
@@ -357,7 +357,7 @@ IG_IS_PTR64
 <tr>
 <td>
 
-                IG_SET_BUS_DATA
+IG_SET_BUS_DATA
 
 </td>
 <td></td>
@@ -386,7 +386,7 @@ IG_IS_PTR64
 <tr>
 <td>
 
-                IG_LOWMEM_CHECK
+IG_LOWMEM_CHECK
 
 </td>
 <td></td>
@@ -519,7 +519,7 @@ IG_WRITE_PHYSICAL_WITH_FLAGS
 <tr>
 <td>
 
-                IG_POINTER_SEARCH_PHYSICAL
+IG_POINTER_SEARCH_PHYSICAL
 
 </td>
 <td></td>
@@ -533,7 +533,7 @@ IG_WRITE_PHYSICAL_WITH_FLAGS
 <tr>
 <td>
 
-                IG_GET_THREAD_OS_INFO
+IG_GET_THREAD_OS_INFO
 
 </td>
 <td>
