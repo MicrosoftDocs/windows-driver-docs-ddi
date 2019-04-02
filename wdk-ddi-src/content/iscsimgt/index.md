@@ -1,7 +1,7 @@
 ---
 UID: NA:iscsimgt
 ms.assetid: 0b754abf-ab99-3c3d-989c-a58cb88854c3
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

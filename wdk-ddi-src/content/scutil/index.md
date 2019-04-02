@@ -1,7 +1,7 @@
 ---
 UID: NA:scutil
 ms.assetid: 25d987e9-9307-3767-9897-f6a049aa17cf
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

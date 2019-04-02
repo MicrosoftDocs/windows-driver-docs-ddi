@@ -1,7 +1,7 @@
 ---
 UID: NA:spbcx
 ms.assetid: 6b009b60-06dc-3225-88b1-4c355dadc70e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

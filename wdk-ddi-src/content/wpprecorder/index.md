@@ -1,7 +1,7 @@
 ---
 UID: NA:wpprecorder
 ms.assetid: 74bb9220-3cf1-3af5-b8d6-e760a095df4a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

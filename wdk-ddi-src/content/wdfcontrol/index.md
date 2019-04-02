@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfcontrol
 ms.assetid: df09b3f6-ec88-3410-a704-7ca8e681720e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

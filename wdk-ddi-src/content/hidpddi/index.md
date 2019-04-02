@@ -1,7 +1,7 @@
 ---
 UID: NA:hidpddi
 ms.assetid: 4eebcc15-de7e-3d7d-b3d9-c8f7b86b35cb
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

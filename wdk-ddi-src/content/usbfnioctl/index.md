@@ -1,7 +1,7 @@
 ---
 UID: NA:usbfnioctl
 ms.assetid: 346c06db-ae00-3b42-a05a-d786904c5f0f
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

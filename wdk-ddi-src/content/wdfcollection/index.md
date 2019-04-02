@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfcollection
 ms.assetid: a30797da-902a-3e14-b05b-15072073ad05
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

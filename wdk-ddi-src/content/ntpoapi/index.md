@@ -1,7 +1,7 @@
 ---
 UID: NA:ntpoapi
 ms.assetid: 05cffe50-bcb4-3779-8086-d9ec44f199f9
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
