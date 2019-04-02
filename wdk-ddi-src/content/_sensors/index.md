@@ -1,7 +1,7 @@
 ---
 UID: TP:sensors
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.keywords: sensors driver development
 ms.prod: windows-hardware
 ms.technology: windows-devices
