@@ -95,7 +95,7 @@ To define an <i>EvtSerCx2PurgeFifos</i> callback function, you must first provid
 
 For example, to define an <i>EvtSerCx2PurgeFifos</i> callback function that is named <code>MyPurgeFifos</code>, use the <b>EVT_SERCX2_PURGE_FIFOS</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -107,7 +107,7 @@ For example, to define an <i>EvtSerCx2PurgeFifos</i> callback function that is n
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
