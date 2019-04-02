@@ -1,7 +1,7 @@
 ---
 UID: NA:avcstrm
 ms.assetid: 95ad8480-00a5-327d-bbf8-cb0d47180196
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfverifier
 ms.assetid: 55be84a6-d71f-3bf0-bac1-713c4f0cd148
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

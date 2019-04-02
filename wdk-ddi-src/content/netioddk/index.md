@@ -1,7 +1,7 @@
 ---
 UID: NA:netioddk
 ms.assetid: 5dc52805-9520-3ac9-bc97-e7ef6ccc33de
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

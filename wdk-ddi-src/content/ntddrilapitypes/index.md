@@ -1,7 +1,7 @@
 ---
 UID: NA:ntddrilapitypes
 ms.assetid: 005b5749-3839-3c4f-87c6-27625d720a56
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

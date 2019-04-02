@@ -1,7 +1,7 @@
 ---
 UID: NA:sensorsutils
 ms.assetid: 2f24ce41-8f5a-4071-883f-202c58f4c7dd
-ms.date: 07/30/18
+ms.date: 07/30/2018
 ms.keywords: sensorsutils.h
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:keyworddetectoroemadapter
 ms.assetid: bf22e8cc-5ff8-3f48-8afe-2cba51a6d8a9
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

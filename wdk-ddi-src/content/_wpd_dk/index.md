@@ -1,7 +1,7 @@
 ---
 UID: TP:wpd_dk
 ms.assetid: 8753468e-1676-47c6-ba70-36c57057f832
-ms.date: 11/08/18
+ms.date: 11/08/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

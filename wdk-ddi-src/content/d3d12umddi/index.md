@@ -1,7 +1,7 @@
 ---
 UID: NA:d3d12umddi
 ms.assetid: f0332247-492e-3990-bccc-5ec7fc2fd910
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
