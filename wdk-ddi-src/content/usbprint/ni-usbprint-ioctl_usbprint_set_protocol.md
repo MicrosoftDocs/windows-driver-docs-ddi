@@ -6,7 +6,7 @@ description: Set the current printer protocol code of the USB printer interface.
 tech.root: print
 ms.assetid: a7498e8a-e4d4-40d8-be9c-f54a474bb8e6
 ms.author: windowsdriverdev
-ms.date: 03/18/2019
+ms.date: 04/03/2019
 ms.topic: ioctl
 ms.custom: 19H1
 req.header: usbprint.h

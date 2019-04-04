@@ -6,7 +6,7 @@ description: Retrieve the current printer protocol code of the USB printer inter
 tech.root: print
 ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.author: windowsdriverdev
-ms.date: 03/18/2019
+ms.date: 04/03/2019
 ms.topic: ioctl
 ms.custom: 19H1 
 req.header: usbprint.h

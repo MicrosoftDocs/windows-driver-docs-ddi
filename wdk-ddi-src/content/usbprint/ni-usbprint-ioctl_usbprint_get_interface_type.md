@@ -6,7 +6,7 @@ description: Get the protocol capabilities of the USB printer interface.
 tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.author: windowsdriverdev
-ms.date: 03/18/2019
+ms.date: 04/03/2019
 ms.topic: ioctl
 ms.custom: 19H1
 req.header: usbprint.h
