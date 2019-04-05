@@ -62,9 +62,6 @@ Called to provide second stage result to OEM dll.
 
 This method returns HRESULT. It returns S_OK if the function exit successfully. 
 
-TBD??? What other values are returned that we should describe ?????
-
-
 ## -remarks
 
 This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).

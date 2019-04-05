@@ -6,7 +6,7 @@ description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
 ms.author: windowsdriverdev
-ms.date: 03/22/2019
+ms.date: 04/05/2019
 ms.topic: struct
 ms.keywords: EVENTACTION, EVENTACTION, 
 req.header: eventdetectoroemadapter.h
@@ -53,7 +53,7 @@ The types of context associated with an action. This is a value from the [EventA
 
 ### -field Confidence
 
-The confidence level of the __________________________. ??? TBD
+The confidence level is a number between 0.0 and 1.0 that represents how confident the algorithm is that the keyword was detected.
 
 ### -field Scale
 
@@ -61,7 +61,7 @@ The scale as defined in the [EVENTACTIONSCALE](ne-eventdetectoroemadapter-eventa
 
 ### -field ErrorCode
  
-An HRESULT error code from ParseDetectionResults.  ??? TBD
+An HRESULT error code from ParseDetectionResults.  
 
 ## -remarks
 

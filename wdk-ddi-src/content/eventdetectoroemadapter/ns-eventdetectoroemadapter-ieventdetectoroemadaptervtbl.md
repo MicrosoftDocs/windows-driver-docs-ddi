@@ -2,7 +2,7 @@
 UID: NS:eventdetectoroemadapter.IEventDetectorOemAdapterVtbl
 title: IEventDetectorOemAdapterVtbl
 author: windows-driver-content
-description: IEventDetectorOemAdapterVtbl structure created by the IDL.
+description: IEventDetectorOemAdapterVtbl structure is an artifact created by the IDL. It is reserved for Microsoft use.
 tech.root: audio
 ms.assetid: 15246179-b019-440a-8984-efae4370e341
 ms.author: windowsdriverdev
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-IEventDetectorOemAdapterVtbl structure created by the IDL.
+IEventDetectorOemAdapterVtbl structure is an artifact created by the IDL. It is reserved for Microsoft use.
 
 ## -struct-fields
 
@@ -88,7 +88,8 @@ Called to provide second stage result to OEM dll. For more information, see [IEv
 
 ## -remarks
 
-This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
+This structure is an artifact created by the IDL. It is reserved for Microsoft use.
+
 
 ## -see-also
 
