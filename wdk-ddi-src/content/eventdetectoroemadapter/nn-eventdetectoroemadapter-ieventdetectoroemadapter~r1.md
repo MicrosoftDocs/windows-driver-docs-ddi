@@ -16,7 +16,7 @@ req.target-min-winversvr:
 req.umdf-ver:
 req.ddi-compliance:
 req.unicode-ansi:
-req.idl:
+req.idl: eventdetectoroemadapter.idl
 req.max-support:
 req.namespace:
 req.assembly:

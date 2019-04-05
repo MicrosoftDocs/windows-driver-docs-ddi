@@ -21,7 +21,7 @@ req.dll:
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
-req.idl:
+req.idl: eventdetectoroemadapter.idl
 req.max-support:
 req.namespace:
 req.assembly:
