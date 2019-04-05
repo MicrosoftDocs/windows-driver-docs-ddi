@@ -42,7 +42,6 @@ targetos: Windows
 
 # IEventDetectorOemAdapter::ComputeAndAddUserModelData
 
-
 ## -description
 
 Adds the user specific model data to an existing model data blob.

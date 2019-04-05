@@ -60,7 +60,7 @@ Called to provide second stage result to OEM dll.
 
 ## -returns
 
-This method returns HRESULT. It returns S_OK if the function exit successfully. 
+This method returns HRESULT. It returns S_OK if the function exit successfully.
 
 ## -remarks
 

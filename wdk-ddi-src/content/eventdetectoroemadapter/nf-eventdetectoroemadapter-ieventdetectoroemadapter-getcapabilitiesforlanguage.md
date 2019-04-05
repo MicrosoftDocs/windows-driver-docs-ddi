@@ -42,11 +42,9 @@ targetos: Windows
 
 # IEventDetectorOemAdapter::GetCapabilitiesForLanguage
 
-
 ## -description
 
 Returns the events supported by the specific language.
-    
 
 ## -parameters
 
