@@ -46,7 +46,7 @@ req.typenames: STORAGE_PROTOCOL_DATA_DESCRIPTOR, *PSTORAGE_PROTOCOL_DATA_DESCRIP
 ## -description
 
 
-This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> to return protocol-specific data from a storage device or adapter. .
+This structure is used in conjunction with [IOCTL_STORAGE_SET_PROPERTY](ni-ntddstor-ioctl_storage_set_property.md) and [IOCTL_STORAGE_QUERY_PROPERTY](ni-ntddstor-ioctl_storage_query_property.md) to respectively set or query protocol-specific data from a storage device or adapter.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ This structure is used in conjunction with <a href="https://msdn.microsoft.com/l
 
 ### -field Version
 
-The version of this structure.
+Version of this structure. Set to **sizeof**(**STORAGE_PROTOCOL_DATA_DESCRIPTOR**).
 
 
 ### -field Size
 
-The total size of the descriptor, including the space for all protocol data.
+Total size in bytes of the descriptor, including the space for all protocol data. Must be => **sizeof**(**STORAGE_PROTOCOL_DATA_DESCRIPTOR**).
 
 
 ### -field ProtocolSpecificData
@@ -136,7 +136,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
-
+[IOCTL_STORAGE_SET_PROPERTY](ns-ntddstor-storage_set_property.md)
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566996">STORAGE_PROPERTY_ID</a>
 
@@ -147,6 +147,8 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931817">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+
+[STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_specific_protocol_data_ext)
  
 
  

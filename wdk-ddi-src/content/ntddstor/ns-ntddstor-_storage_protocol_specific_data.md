@@ -89,10 +89,13 @@ The length of the protocol data.
 The returned data.
 
 
-### -field Reserved
+### -field ProtocolDataRequestSubValue2
 
-Reserved for future use.
+First additional data sub request value
 
+### -field ProtocolDataRequestSubValue3
+
+Second additional data sub request value.
 
 ## -remarks
 
@@ -172,6 +175,8 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn931817">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+
+[STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_specific_protocol_data_ext)
  
 
  

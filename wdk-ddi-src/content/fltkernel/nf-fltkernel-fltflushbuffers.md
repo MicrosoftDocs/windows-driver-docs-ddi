@@ -1,7 +1,7 @@
 ---
 UID: NF:fltkernel.FltFlushBuffers
 title: FltFlushBuffers function (fltkernel.h)
-description: The FltFlushBuffers routine is used by the minifilter driver to send a flush request for a given file to the file system.
+description: The FltFlushBuffers routine is used by the minifilter driver to send a flush request for a given file to the file system. 
 old-location: ifsk\fltflushbuffers.htm
 tech.root: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a flush request for a given file to the file system. 
+The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a flush request for a given file to the file system. Use [FltFlushBuffers2](nf-fltkernel-fltflushbuffers2.md) to specify different flush type options.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Opaque instance pointer for the caller. This parameter is required and cannot be
 
 ### -param FileObject [in]
 
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
+File object pointer for the file to be flushed. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns
@@ -106,20 +106,19 @@ The file resides on a volume that is not currently mounted. This is an error cod
 
 ## -remarks
 
+A minifilter driver can call **FltFlushBuffers** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*. 
 
-
-A minifilter driver can call <b>FltFlushBuffers</b> to issue an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified instance. 
-
+If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. Use [FltFlushBuffers2](nf-fltkernel-fltflushbuffers2.md) to more granularly control the flush type that the file system should do.
 
 
 
 ## -see-also
 
 
+[FltFlushBuffers2](nf-fltkernel-fltflushbuffers2.md)
 
+[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
- 
 
  
 
