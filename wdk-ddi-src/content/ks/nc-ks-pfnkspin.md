@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	MyAVStrMiniPin
+- MyAVStrMiniPin
 product:
 - Windows
 targetos: Windows

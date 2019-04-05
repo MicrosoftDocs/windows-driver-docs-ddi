@@ -1,13 +1,13 @@
 ---
 UID: NA:te.common
 ms.assetid: ee34926c-6509-3ac0-8354-3a6a867a4315
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: dtf
 ---
 

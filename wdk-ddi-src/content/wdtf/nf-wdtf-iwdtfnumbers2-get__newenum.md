@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.Interop.metadata_dll.dll
+- WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFNumbers2._NewEnum
--	IWDTFNumbers2.get__NewEnum
+- IWDTFNumbers2._NewEnum
+- IWDTFNumbers2.get__NewEnum
 product:
 - Windows
 targetos: Windows

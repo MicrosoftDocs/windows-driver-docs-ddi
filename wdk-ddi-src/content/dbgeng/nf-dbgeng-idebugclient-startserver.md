@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.StartServer
--	IDebugClient2.StartServer
--	IDebugClient3.StartServer
--	IDebugClient4.StartServer
--	IDebugClient5.StartServer
+- IDebugClient.StartServer
+- IDebugClient2.StartServer
+- IDebugClient3.StartServer
+- IDebugClient4.StartServer
+- IDebugClient5.StartServer
 product:
 - Windows
 targetos: Windows

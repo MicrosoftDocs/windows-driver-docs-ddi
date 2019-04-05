@@ -1,13 +1,13 @@
 ---
 UID: NA:wdfdevice
 ms.assetid: 24b2e402-56ef-3f36-b4f0-426a9d758500
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: wdf
 ---
 

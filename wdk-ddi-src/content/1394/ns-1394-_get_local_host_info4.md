@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	GET_LOCAL_HOST_INFO4
+- GET_LOCAL_HOST_INFO4
 product:
 - Windows
 targetos: Windows
@@ -58,7 +58,7 @@ The GET_LOCAL_HOST_INFO4 structure contains the data returned by a <a href="http
 
 Pointer to the physical address mapping routine, which is of type: 
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

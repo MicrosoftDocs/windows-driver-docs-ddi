@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "(See Remarks section.)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfinterrupt.h
+- Wdfinterrupt.h
 api_name:
--	EvtInterruptIsr
+- EvtInterruptIsr
 product:
 - Windows
 targetos: Windows

@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_RING_BUFFER, *PNET_RING_BUFFER
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netringbuffer.h
-apiname: 
--	NET_RING_BUFFER
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netringbuffer.h
+api_name: 
+- NET_RING_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

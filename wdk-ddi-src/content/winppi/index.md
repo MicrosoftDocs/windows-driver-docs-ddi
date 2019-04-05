@@ -1,13 +1,13 @@
 ---
 UID: NA:winppi
 ms.assetid: e15cc1a6-d632-32d8-a54d-773f8b6cfccc
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: print
 ---
 

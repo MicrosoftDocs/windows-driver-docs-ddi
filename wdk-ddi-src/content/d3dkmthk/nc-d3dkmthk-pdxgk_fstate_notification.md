@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PDXGK_FSTATE_NOTIFICATION
+- PDXGK_FSTATE_NOTIFICATION
 product: 
 - Windows
 targetos: Windows

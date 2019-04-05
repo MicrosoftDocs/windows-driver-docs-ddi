@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthhfpddi.h
+- Bthhfpddi.h
 api_name:
--	IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE
+- IOCTL_BTHHFP_DEVICE_GET_NRECDISABLE_STATUS_UPDATE
 product:
 - Windows
 targetos: Windows

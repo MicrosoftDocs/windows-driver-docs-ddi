@@ -23,17 +23,17 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
 -   ufxstub.lib
-apiname: 
--	UfxDeviceNotifyFinalExit
+api_name: 
+- UfxDeviceNotifyFinalExit
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---
@@ -48,7 +48,7 @@ Notifies UFX that the device is detached.
 ## -parameters
 
 ### -param UfxDevice
-A handle to a UFX device object that the driver created by calling [**UfxDeviceCreate**](..\ufxclient\nf-ufxclient-ufxdevicecreate.md).
+A handle to a UFX device object that the driver created by calling [**UfxDeviceCreate**](../ufxclient/nf-ufxclient-ufxdevicecreate.md).
 
 ## -returns
 This function returns VOID.

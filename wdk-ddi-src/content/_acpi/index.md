@@ -7,7 +7,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # ACPI
@@ -18,8 +18,8 @@ Overview of ACPI technology.
 
 To develop for ACPI, you need these headers:
 
- * [acpiioct.h](..\acpiioct\index.md)
- * [acpitabl.h](..\acpitabl\index.md)
- * [oprghdlr.h](..\oprghdlr\index.md)
+ * [acpiioct.h](../acpiioct/index.md)
+ * [acpitabl.h](../acpitabl/index.md)
+ * [oprghdlr.h](../oprghdlr/index.md)
 
 For the programming guide, see [ACPI](https://docs.microsoft.com/windows-hardware/drivers/acpi).

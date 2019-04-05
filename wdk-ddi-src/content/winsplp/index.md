@@ -1,13 +1,13 @@
 ---
 UID: NA:winsplp
 ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: print
 ---
 

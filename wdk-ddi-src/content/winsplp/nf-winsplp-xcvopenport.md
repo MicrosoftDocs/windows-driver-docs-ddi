@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	Winsplp.h
-apiname:
--	XcvOpenPort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- Winsplp.h
+api_name:
+- XcvOpenPort
 product:
 - Windows
 targetos: Windows

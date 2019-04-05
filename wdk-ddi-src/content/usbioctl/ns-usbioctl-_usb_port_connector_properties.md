@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_PORT_CONNECTOR_PROPERTIES
+- USB_PORT_CONNECTOR_PROPERTIES
 product:
 - Windows
 targetos: Windows

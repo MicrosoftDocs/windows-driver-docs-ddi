@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, *PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbspec.h
+- usbspec.h
 api_name: 
--	_USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
+- _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

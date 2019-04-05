@@ -26,16 +26,16 @@ req.lib: Wdmsec.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Wdmsec.lib
--	Wdmsec.dll
+- Wdmsec.lib
+- Wdmsec.dll
 api_name:
--	WdmlibIoCreateDeviceSecure
--	IoCreateDeviceSecure
+- WdmlibIoCreateDeviceSecure
+- IoCreateDeviceSecure
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	WIM_PROVIDER_OVERLAY_ENTRY
+- WIM_PROVIDER_OVERLAY_ENTRY
 product:
 - Windows
 targetos: Windows

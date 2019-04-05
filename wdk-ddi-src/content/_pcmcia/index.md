@@ -1,13 +1,13 @@
 ---
 UID: TP:pcmcia
 ms.assetid: be0dbb4f-1fa6-3700-9bd4-462e8bb27384
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # PCMCIA bus drivers
@@ -18,6 +18,6 @@ Overview of the PCMCIA bus drivers technology.
 
 To develop PCMCIA bus drivers, you need these headers:
 
- * [ntddpcm.h](..\ntddpcm\index.md)
+ * [ntddpcm.h](../ntddpcm/index.md)
 
 For the programming guide, see [PCMCIA bus drivers](https://docs.microsoft.com/windows-hardware/drivers/pcmcia).

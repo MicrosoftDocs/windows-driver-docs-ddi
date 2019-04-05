@@ -1,13 +1,13 @@
 ---
 UID: NA:usbpmapi
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
-ms.date: 9/30/2018
+ms.date: 09/30/2018
 ms.keywords: USB Policy Manager, USB Type-C connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ms.custom: RS5
 ---
@@ -21,7 +21,7 @@ This header is the main include header for client drivers of the USB Policy Mana
 
 Usbpmapi.h includes:
 
-[UsbCTypes.h](..\usbctypes\index.md)
+[UsbCTypes.h](../usbctypes/index.md)
 
 > Do not include the preceding header directly. Instead, only include Usbpmapi.h.
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dcaps.h
+- d3dcaps.h
 api_name:
--	D3DLIGHTINGCAPS
+- D3DLIGHTINGCAPS
 product:
 - Windows
 targetos: Windows

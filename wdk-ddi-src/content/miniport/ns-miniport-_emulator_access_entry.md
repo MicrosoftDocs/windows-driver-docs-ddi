@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	miniport.h
-apiname:
--	EMULATOR_ACCESS_ENTRY
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- miniport.h
+api_name:
+- EMULATOR_ACCESS_ENTRY
 product:
 - Windows
 targetos: Windows

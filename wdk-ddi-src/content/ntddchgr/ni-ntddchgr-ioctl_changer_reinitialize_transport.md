@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddchgr.h
+- Ntddchgr.h
 api_name:
--	IOCTL_CHANGER_REINITIALIZE_TRANSPORT
+- IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 product:
 - Windows
 targetos: Windows

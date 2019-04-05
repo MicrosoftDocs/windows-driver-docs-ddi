@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Xpsrassvc.h
+- Xpsrassvc.h
 api_name:
--	XPSRAS_PIXEL_FORMAT
+- XPSRAS_PIXEL_FORMAT
 product:
 - Windows
 targetos: Windows

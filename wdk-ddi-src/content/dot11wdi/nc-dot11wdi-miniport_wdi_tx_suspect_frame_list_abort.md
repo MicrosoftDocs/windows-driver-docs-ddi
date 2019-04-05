@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dot11wdi.h
+- dot11wdi.h
 api_name: 
--	MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
+- MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

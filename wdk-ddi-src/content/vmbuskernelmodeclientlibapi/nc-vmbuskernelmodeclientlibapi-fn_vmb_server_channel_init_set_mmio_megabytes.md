@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
+- FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
 product: 
 - Windows
 targetos: Windows

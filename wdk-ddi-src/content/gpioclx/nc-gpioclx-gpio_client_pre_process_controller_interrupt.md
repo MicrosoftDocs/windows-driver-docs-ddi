@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DIRQL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	CLIENT_PreProcessControllerInterrupt
+- CLIENT_PreProcessControllerInterrupt
 product:
 - Windows
 targetos: Windows

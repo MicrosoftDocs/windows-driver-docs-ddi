@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DBLEND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DBLEND
+- _D3DBLEND
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

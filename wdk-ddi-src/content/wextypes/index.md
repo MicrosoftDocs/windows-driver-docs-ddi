@@ -1,13 +1,13 @@
 ---
 UID: NA:wextypes
 ms.assetid: 003f998b-4ca3-3e2c-b908-12e39272ab9e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: taef
 ---
 

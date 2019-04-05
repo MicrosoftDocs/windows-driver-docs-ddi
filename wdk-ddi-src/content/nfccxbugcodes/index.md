@@ -1,13 +1,13 @@
 ---
 UID: NA:nfccxbugcodes
 ms.assetid: 36d00c14-c653-3deb-af94-a36239ee48de
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: nfpdrivers
 ---
 

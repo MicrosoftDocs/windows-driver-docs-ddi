@@ -26,15 +26,15 @@ req.lib: Oprghdlr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Oprghdlr.lib
--	Oprghdlr.dll
+- Oprghdlr.lib
+- Oprghdlr.dll
 api_name:
--	DeRegisterOpRegionHandler
+- DeRegisterOpRegionHandler
 product:
 - Windows
 targetos: Windows

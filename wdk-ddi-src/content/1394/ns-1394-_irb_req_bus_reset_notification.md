@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_BUS_RESET_NOTIFICATION
+- IRB_REQ_BUS_RESET_NOTIFICATION
 product:
 - Windows
 targetos: Windows

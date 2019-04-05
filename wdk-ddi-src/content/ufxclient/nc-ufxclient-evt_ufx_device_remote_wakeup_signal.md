@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
+- PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	*NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
+- *NDIS_PD_POST_AND_DRAIN_BUFFER_LIST_HANDLER
 product:
 - Windows
 targetos: Windows

@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_WMI_BUFFER_APPEND_STRING
+- WDF_WMI_BUFFER_APPEND_STRING
 product:
 - Windows
 targetos: Windows

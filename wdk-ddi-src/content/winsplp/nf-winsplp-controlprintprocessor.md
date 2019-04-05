@@ -26,15 +26,15 @@ req.lib: Nwprint.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Nwprint.lib
--	Nwprint.dll
+- Nwprint.lib
+- Nwprint.dll
 api_name:
--	ControlPrintProcessor
+- ControlPrintProcessor
 product:
 - Windows
 targetos: Windows

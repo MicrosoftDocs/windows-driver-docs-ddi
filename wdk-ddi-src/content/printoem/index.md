@@ -1,13 +1,13 @@
 ---
 UID: NA:printoem
 ms.assetid: 379c3ecf-1026-3228-91da-b4a57a86b3ce
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: print
 ---
 

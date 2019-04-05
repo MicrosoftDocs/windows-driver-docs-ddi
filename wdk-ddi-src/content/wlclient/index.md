@@ -1,13 +1,13 @@
 ---
 UID: NA:wlclient
 ms.assetid: 22d24a0a-8c97-3c3a-b767-ec58932a8962
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: netvista
 ---
 

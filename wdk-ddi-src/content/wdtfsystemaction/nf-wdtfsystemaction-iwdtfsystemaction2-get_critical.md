@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.Critical
--	IWDTFSystemAction2.get_Critical
--	IWDTFSystemAction2.put_Critical
+- IWDTFSystemAction2.Critical
+- IWDTFSystemAction2.get_Critical
+- IWDTFSystemAction2.put_Critical
 product:
 - Windows
 targetos: Windows

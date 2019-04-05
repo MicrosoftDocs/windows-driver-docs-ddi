@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dmusicks.h
+- Dmusicks.h
 api_name:
--	DMUS_STREAM_TYPE
+- DMUS_STREAM_TYPE
 product:
 - Windows
 targetos: Windows

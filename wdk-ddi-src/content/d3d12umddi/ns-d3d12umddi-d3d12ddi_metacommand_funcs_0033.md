@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_FUNCS_0033
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_METACOMMAND_FUNCS_0033
+- D3D12DDI_METACOMMAND_FUNCS_0033
 product: 
 - Windows
 targetos: Windows

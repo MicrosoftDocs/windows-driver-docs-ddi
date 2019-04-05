@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: IVRS_IVINFO, *PIVRS_IVINFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_IVRS_IVINFO
+- _IVRS_IVINFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

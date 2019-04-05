@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	UCX_CONTROLLER_ACPI_INFORMATION
+- UCX_CONTROLLER_ACPI_INFORMATION
 product:
 - Windows
 targetos: Windows

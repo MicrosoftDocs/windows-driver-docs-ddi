@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	videoagp.h
+- videoagp.h
 api_name:
--	VIDEO_PORT_AGP_SERVICES
+- VIDEO_PORT_AGP_SERVICES
 product:
 - Windows
 targetos: Windows

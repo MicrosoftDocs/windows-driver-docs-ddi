@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfdriver.h
+- Wdfdriver.h
 api_name:
--	EvtDriverDeviceAdd
+- EvtDriverDeviceAdd
 product:
 - Windows
 targetos: Windows

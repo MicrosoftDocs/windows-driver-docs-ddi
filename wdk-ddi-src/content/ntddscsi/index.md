@@ -1,13 +1,13 @@
 ---
 UID: NA:ntddscsi
 ms.assetid: 77408c2c-0fca-30f4-a739-547207f848ef
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: storage
 ---
 

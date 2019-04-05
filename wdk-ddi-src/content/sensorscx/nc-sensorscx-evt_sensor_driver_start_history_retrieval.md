@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	sensorscx.h
+- sensorscx.h
 api_name: 
--	EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
+- EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
 product:
 - Windows
 targetos: Windows

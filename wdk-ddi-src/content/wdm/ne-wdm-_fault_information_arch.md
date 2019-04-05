@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_FAULT_INFORMATION_ARCH
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _FAULT_INFORMATION_ARCH
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

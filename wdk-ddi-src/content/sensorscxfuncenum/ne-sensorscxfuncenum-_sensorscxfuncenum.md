@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SENSORSCXFUNCENUM
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sensorscxfuncenum.h
+- sensorscxfuncenum.h
 api_name:
--	_SENSORSCXFUNCENUM
+- _SENSORSCXFUNCENUM
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -63,7 +63,7 @@ See [SensorsCxDeviceGetSensorList](https://docs.microsoft.com/windows-hardware/d
 
 ### -field SensorsCxSensorHistoryRetrievalCompletedTableIndex
 
-See [SensorsCxSensorHistoryRetrievalCompleted](..\sensorscx\nf-sensorscx-sensorscxsensorhistoryretrievalcompleted.md).
+See [SensorsCxSensorHistoryRetrievalCompleted](../sensorscx/nf-sensorscx-sensorscxsensorhistoryretrievalcompleted.md).
 
 ### -field SensorsCxStateChangeTableIndex
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	EnumerateInterruptSource
+- EnumerateInterruptSource
 product:
 - Windows
 targetos: Windows

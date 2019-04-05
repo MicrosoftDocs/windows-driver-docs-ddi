@@ -1,13 +1,13 @@
 ---
 UID: NA:wdfassert
 ms.assetid: c9b29e42-5b1b-3594-a9c0-7d2154230528
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: wdf
 ---
 

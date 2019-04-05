@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: XSAVE_CET_U_FORMAT, *PXSAVE_CET_U_FORMAT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_XSAVE_CET_U_FORMAT
+- _XSAVE_CET_U_FORMAT
 product:
 - Windows
 targetos: Windows

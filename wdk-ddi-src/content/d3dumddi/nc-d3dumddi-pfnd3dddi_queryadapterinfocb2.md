@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	PFND3DDDI_QUERYADAPTERINFOCB2
+- PFND3DDDI_QUERYADAPTERINFOCB2
 product: 
 - Windows
 targetos: Windows

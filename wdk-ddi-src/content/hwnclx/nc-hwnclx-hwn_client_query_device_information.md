@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Hwnclx.h
+- Hwnclx.h
 api_name:
--	PHWN_CLIENT_QUERY_DEVICE_INFORMATION
+- PHWN_CLIENT_QUERY_DEVICE_INFORMATION
 product:
 - Windows
 targetos: Windows

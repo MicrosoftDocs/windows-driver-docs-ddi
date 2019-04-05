@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	swenum.h
+- swenum.h
 api_name:
--	IOCTL_SWENUM_GET_BUS_ID
+- IOCTL_SWENUM_GET_BUS_ID
 product:
 - Windows
 targetos: Windows

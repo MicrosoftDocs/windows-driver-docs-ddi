@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.CloseLogFile
--	IDebugControl2.CloseLogFile
--	IDebugControl3.CloseLogFile
+- IDebugControl.CloseLogFile
+- IDebugControl2.CloseLogFile
+- IDebugControl3.CloseLogFile
 product:
 - Windows
 targetos: Windows

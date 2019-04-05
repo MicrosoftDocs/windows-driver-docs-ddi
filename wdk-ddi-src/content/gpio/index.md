@@ -1,13 +1,13 @@
 ---
 UID: NA:gpio
 ms.assetid: fb30f59c-1b98-32d6-96e1-18971c86caa0
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: gpio
 ---
 

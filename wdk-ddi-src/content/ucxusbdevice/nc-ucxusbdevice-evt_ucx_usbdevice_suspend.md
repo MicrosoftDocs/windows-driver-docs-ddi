@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	*PFN_UCX_USBDEVICE_SUSPEND
+- *PFN_UCX_USBDEVICE_SUSPEND
 product:
 - Windows
 targetos: Windows

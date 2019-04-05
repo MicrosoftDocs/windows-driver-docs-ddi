@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	SYSAUDIO_SELECT_GRAPH
+- SYSAUDIO_SELECT_GRAPH
 product:
 - Windows
 targetos: Windows

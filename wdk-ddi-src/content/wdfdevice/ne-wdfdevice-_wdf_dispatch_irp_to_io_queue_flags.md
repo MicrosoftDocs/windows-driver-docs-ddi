@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
+- WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS
 product:
 - Windows
 targetos: Windows

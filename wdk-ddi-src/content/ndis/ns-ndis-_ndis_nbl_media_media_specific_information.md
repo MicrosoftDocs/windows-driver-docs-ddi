@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
+- NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfworkitem.h
+- wudfworkitem.h
 api_name:
--	WUDF_WORKITEM_CONFIG
+- WUDF_WORKITEM_CONFIG
 product:
 - Windows
 targetos: Windows

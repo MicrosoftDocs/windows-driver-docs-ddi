@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VP_SCATTER_GATHER_ELEMENT
+- VP_SCATTER_GATHER_ELEMENT
 product:
 - Windows
 targetos: Windows

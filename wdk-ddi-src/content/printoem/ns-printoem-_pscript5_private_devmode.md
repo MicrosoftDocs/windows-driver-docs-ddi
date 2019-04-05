@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	printoem.h
+- printoem.h
 api_name:
--	PSCRIPT5_PRIVATE_DEVMODE
+- PSCRIPT5_PRIVATE_DEVMODE
 product:
 - Windows
 targetos: Windows

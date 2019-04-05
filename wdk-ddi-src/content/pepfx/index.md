@@ -1,13 +1,13 @@
 ---
 UID: NA:pepfx
 ms.assetid: 49d516fa-79a0-3209-8812-5b701f4a9c52
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: kernel
 ---
 

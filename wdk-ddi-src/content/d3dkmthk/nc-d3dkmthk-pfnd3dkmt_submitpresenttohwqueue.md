@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_SUBMITPRESENTTOHWQUEUE
+- PFND3DKMT_SUBMITPRESENTTOHWQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -41,7 +41,7 @@ ms.custom: RS5
 
 ## -description
 
-pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue. This callback replaces [pfnPresentCb](..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md) in WDDM 2.0-2.3.
+pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue. This callback replaces [pfnPresentCb](../d3dumddi/nc-d3dumddi-pfnd3dddi_presentcb.md) in WDDM 2.0-2.3.
 
 ## -prototype
 

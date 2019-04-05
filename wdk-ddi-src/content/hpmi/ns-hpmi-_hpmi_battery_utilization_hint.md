@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	HPMI_BATTERY_UTILIZATION_HINT
+- HPMI_BATTERY_UTILIZATION_HINT
 product:
 - Windows
 targetos: Windows
@@ -42,61 +42,33 @@ req.typenames: HPMI_BATTERY_UTILIZATION_HINT, *PHPMI_BATTERY_UTILIZATION_HINT
 
 # _HPMI_BATTERY_UTILIZATION_HINT structure
 
-
 ## -description
-
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-This hint indicates if the OEM Battery Manager should attempt to save as
-	much charge as possible in the non-hot swappable batteries (i.e. the
-	batteries are generally referred to as "internal batteries", these
-	batteries cannot be removed while system is operational).
+This hint indicates if the OEM Battery Manager should attempt to save as much charge as possible in the non-hot swappable batteries (i.e. the batteries are generally referred to as "internal batteries", these batteries cannot be removed while system is operational).
 
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
-
 ### -field PreserveNonHotSwappableBatteries
 
  Interpretation of values:
 
+- HpmiBoolUnavailable: Battery utilization hint is unavailable at the moment.
 
-    - HpmiBoolUnavailable:
-    Battery utilization hint is unavailable at the moment.
+- HpmiBoolFalse: It is not necessary to preserve charge in the internal batteries at the moment.
 
-  - HpmiBoolFalse:
-    It is not necessary to preserve charge in the internal batteries
-	at the moment.
-
-- HpmiBoolTrue:
-    Every attempt should be made to save as much charge as possible in
-    the internal batteries.
-
+- HpmiBoolTrue: Every attempt should be made to save as much charge as possible in the internal batteries.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/E056400C-A0FE-4740-945D-C529C8804DF3">HPMI_HINT_BOOL</a>
-
-
 
 <a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
-
-
 <a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
- 
-
- 
-
-

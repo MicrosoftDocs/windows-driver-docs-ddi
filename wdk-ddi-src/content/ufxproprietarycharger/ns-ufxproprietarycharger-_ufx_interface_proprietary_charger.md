@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxproprietarycharger.h
+- ufxproprietarycharger.h
 api_name:
--	UFX_INTERFACE_PROPRIETARY_CHARGER
+- UFX_INTERFACE_PROPRIETARY_CHARGER
 product:
 - Windows
 targetos: Windows

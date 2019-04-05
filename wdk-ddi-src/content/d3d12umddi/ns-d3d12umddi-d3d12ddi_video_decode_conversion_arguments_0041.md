@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
+- D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041
 product: 
 - Windows
 targetos: Windows

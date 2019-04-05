@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
+- PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
 product:
 - Windows
 targetos: Windows

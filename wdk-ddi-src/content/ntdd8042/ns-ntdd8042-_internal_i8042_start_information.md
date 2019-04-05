@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	INTERNAL_I8042_START_INFORMATION
+- INTERNAL_I8042_START_INFORMATION
 product:
 - Windows
 targetos: Windows

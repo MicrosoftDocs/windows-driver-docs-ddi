@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wwan.h
+- wwan.h
 api_name:
--	WWAN_LTE_SERVING_CELL_INFO
+- WWAN_LTE_SERVING_CELL_INFO
 product:
 - Windows
 targetos: Windows

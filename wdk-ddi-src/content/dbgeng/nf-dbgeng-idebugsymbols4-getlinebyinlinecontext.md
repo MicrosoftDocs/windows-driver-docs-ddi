@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols4.GetLineByInlineContext
+- IDebugSymbols4.GetLineByInlineContext
 product:
 - Windows
 targetos: Windows
@@ -42,9 +42,7 @@ req.typenames:
 
 # IDebugSymbols4::GetLineByInlineContext
 
-
 ## -description
-
 
 Gets a line by inline context.
 
@@ -52,59 +50,38 @@ Gets a line by inline context.
 ## -parameters
 
 
-
-
 ### -param Offset [in]
 
 An offset for the line.
-
 
 ### -param InlineContext [in]
 
 The inline context. 
 
-
 ### -param Line [out, optional]
 
 A pointer to the returned line.
-
 
 ### -param FileBuffer [out]
 
 A pointer to an output buffer.
 
-
 ### -param FileBufferSize [in]
 
 The size of the file buffer.
-
 
 ### -param FileSize [out, optional]
 
 A pointer to the length of the file.
 
-
 ### -param Displacement [out, optional]
 
 A pointer to the displacement value of the file.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B">IDebugSymbols4</a>
- 
-
- 
-

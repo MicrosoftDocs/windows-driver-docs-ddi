@@ -1,13 +1,13 @@
 ---
 UID: NA:netrequest
 ms.assetid: befedaaa-2440-3e1f-b9f9-6701e6c3672b
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: netvista
 ---
 

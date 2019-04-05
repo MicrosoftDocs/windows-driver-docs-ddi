@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_MESSAGE_OUT, *PUCSI_MESSAGE_OUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_MESSAGE_OUT
+- _UCSI_MESSAGE_OUT
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winddiui.h
+- winddiui.h
 api_name: 
--	_PRINTPROCESSOR_CAPS_1
+- _PRINTPROCESSOR_CAPS_1
 product:
 -   Windows
 targetos: Windows

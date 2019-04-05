@@ -1,13 +1,13 @@
 ---
 UID: NA:procgrp
 ms.assetid: 1840f05d-4603-3884-9dc3-445b8c063170
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: kernel
 ---
 

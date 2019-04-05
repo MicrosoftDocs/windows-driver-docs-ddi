@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_SET_BACKLIGHT_OPTIMIZATION, *PPANEL_SET_BACKLIGHT_OPTIMIZATION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_SET_BACKLIGHT_OPTIMIZATION
+- _PANEL_SET_BACKLIGHT_OPTIMIZATION
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

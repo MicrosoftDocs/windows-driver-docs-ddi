@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetCodeLevel
--	IDebugControl2.SetCodeLevel
--	IDebugControl3.SetCodeLevel
+- IDebugControl.SetCodeLevel
+- IDebugControl2.SetCodeLevel
+- IDebugControl3.SetCodeLevel
 product:
 - Windows
 targetos: Windows

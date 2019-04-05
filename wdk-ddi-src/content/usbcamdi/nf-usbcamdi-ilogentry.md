@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	ILOGENTRY
+- ILOGENTRY
 product:
 -   Windows
 targetos: Windows

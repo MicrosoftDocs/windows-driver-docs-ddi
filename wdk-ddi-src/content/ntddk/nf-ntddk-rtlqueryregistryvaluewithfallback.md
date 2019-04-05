@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	RtlQueryRegistryValueWithFallback
+- RtlQueryRegistryValueWithFallback
 product:
 - Windows
 targetos: Windows

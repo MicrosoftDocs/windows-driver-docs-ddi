@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_TYPES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGNOSTIC_TYPES
+- _DXGK_DIAGNOSTIC_TYPES
 product: 
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ A [DXGK_DIAGTYPE_NOTIFICATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) str
 
 ### -field Progressions
 
-A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
+A [DXGK_DIAGTYPE_PROGRESSIONS](../dispmprt/ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
 
 ### -field Value
 

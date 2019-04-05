@@ -20,16 +20,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netpacket.h
-apiname: 
--	_NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netpacket.h
+api_name: 
+- _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

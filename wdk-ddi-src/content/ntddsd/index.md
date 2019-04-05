@@ -1,13 +1,13 @@
 ---
 UID: NA:ntddsd
 ms.assetid: 580360eb-94b6-3837-bcf3-d877646901ac
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: sd
 ---
 

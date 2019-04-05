@@ -26,15 +26,15 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ks.lib
--	Ks.dll
+- Ks.lib
+- Ks.dll
 api_name:
--	KsDeviceSetBusData
+- KsDeviceSetBusData
 product:
 - Windows
 targetos: Windows

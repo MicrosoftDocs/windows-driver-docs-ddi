@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSAUDIO_MIC_ARRAY_GEOMETRY
+- KSAUDIO_MIC_ARRAY_GEOMETRY
 product:
 - Windows
 targetos: Windows

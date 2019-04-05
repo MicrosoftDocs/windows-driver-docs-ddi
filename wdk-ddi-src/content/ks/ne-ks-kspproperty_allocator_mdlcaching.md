@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSPPROPERTY_ALLOCATOR_MDLCACHING
+- KSPPROPERTY_ALLOCATOR_MDLCACHING
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_CATEGORIES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGNOSTIC_CATEGORIES
+- _DXGK_DIAGNOSTIC_CATEGORIES
 product: 
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ An OS defined category which has diagnostic types defined in the [DXGK_DIAGTYPE_
 
 ### -field Progressions
 
-A [DXGK_DIAGTYPE_PROGRESSIONS](..\dispmprt\ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
+A [DXGK_DIAGTYPE_PROGRESSIONS](../dispmprt/ns-dispmprt-_dxgk_diagtype_progressions.md) structure for indicating a Progressions diagnostic type.
 
 ### -field Reserved
 

@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_VALIDATEUPDATEALLOCPROPERTY
+- DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 product:
 - Windows
 targetos: Windows

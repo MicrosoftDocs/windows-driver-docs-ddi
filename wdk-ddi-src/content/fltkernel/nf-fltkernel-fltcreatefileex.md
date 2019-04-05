@@ -26,15 +26,15 @@ req.lib: Fltmgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Fltmgr.lib
--	Fltmgr.dll
+- Fltmgr.lib
+- Fltmgr.dll
 api_name:
--	FltCreateFileEx
+- FltCreateFileEx
 product:
 - Windows
 targetos: Windows
@@ -798,16 +798,6 @@ The I/O manager or the file system will return STATUS_STOPPED_ON_SYMLINK if a sy
 
 </td>
 </tr>
-<tr>
-<td>
-IO_NO_PARAMETER_CHECKING
-
-</td>
-<td>
-Indicates that the parameters for this call should not be validated before attempting to issue the create request. Minifilter writers should use this flag with caution as certain invalid parameters can cause a system failure. For more information, see Remarks.
-
-</td>
-</tr>
 </table>
  
 
@@ -998,8 +988,6 @@ The <i>CreateOptions</i> flag FILE_RESERVE_OPFILTER allows an application to req
 </li>
 </ol>
 Step three makes this practical only for filter oplocks. The handle opened in step 3 can have a DesiredAccess that contains a maximum of FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | FILE_READ_DATA | FILE_READ_EA | FILE_EXECUTE | SYNCHRONIZE | READ_CONTROL and still not break a filter oplock. However, any DesiredAccess greater than FILE_READ_ATTRIBUTES | FILE_WRITE_ATTRIBUTES | SYNCHRONIZE will break a level 1 or batch oplock and make the FILE_RESERVE_OPFILTER flag useless for those oplock types.
-
-The <i>Options</i> IO_NO_PARAMETER_CHECKING flag can be useful if a kernel-mode create request is issued in the context of an operation initiated by a user-mode application. Because the request occurs within a user-mode context, the I/O manager, by default, probes the supplied parameter values, which can cause an access violation if the parameters are kernel-mode addresses. This flag enables the caller to override this default behavior and avoid the access violation.
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER. 
 

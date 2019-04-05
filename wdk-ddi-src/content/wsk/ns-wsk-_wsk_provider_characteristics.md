@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WSK_PROVIDER_CHARACTERISTICS
+- WSK_PROVIDER_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

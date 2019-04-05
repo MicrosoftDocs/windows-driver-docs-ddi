@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	udecxwdfdevice.h
+- udecxwdfdevice.h
 api_name:
--	UDECX_WDF_DEVICE_CONFIG
+- UDECX_WDF_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

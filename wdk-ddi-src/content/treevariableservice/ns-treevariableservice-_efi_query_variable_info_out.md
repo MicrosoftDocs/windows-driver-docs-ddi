@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	_EFI_QUERY_VARIABLE_INFO_OUT
+- _EFI_QUERY_VARIABLE_INFO_OUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

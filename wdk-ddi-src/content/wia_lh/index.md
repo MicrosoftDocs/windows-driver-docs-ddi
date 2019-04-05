@@ -1,13 +1,13 @@
 ---
 UID: NA:wia_lh
 ms.assetid: 99eafa9d-3584-3ffa-9589-0fb46987965a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: image
 ---
 

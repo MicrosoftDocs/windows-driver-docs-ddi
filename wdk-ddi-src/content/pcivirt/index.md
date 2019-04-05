@@ -1,13 +1,13 @@
 ---
 UID: NA:pcivirt
 ms.assetid: bc773e64-8435-30c4-b21e-3a5a58d3b29e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: kernel
 ---
 

@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	storport.h
+- storport.h
 api_name: 
--	_STOR_CRYPTO_OPERATION
+- _STOR_CRYPTO_OPERATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

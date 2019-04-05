@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dot11wdi.h
+- dot11wdi.h
 api_name: 
--	NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
+- NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

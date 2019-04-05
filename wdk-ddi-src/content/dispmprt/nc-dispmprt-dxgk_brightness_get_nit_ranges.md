@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_GET_NIT_RANGES
+- DXGK_BRIGHTNESS_GET_NIT_RANGES
 product: 
 - Windows
 targetos: Windows
@@ -72,11 +72,11 @@ DXGK_BRIGHTNESS_GET_NIT_RANGES
 
 ### -param ChildUid
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
 ### -param pOut:
 
-[out] A pointer to a [DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT](..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_get_nit_ranges_out.md) structure that represents the supported brightness ranges of the display panel.
+[out] A pointer to a [DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_get_nit_ranges_out.md) structure that represents the supported brightness ranges of the display panel.
 
 ## -returns
 
