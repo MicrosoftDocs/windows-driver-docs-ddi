@@ -42,33 +42,26 @@ req.typenames: AUDIO_CURVE_TYPE
 
 # AUDIO_CURVE_TYPE enumeration
 
-
 ## -description
 
-
-The <b>AUDIO_CURVE_TYPE</b> enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
-
+The **AUDIO_CURVE_TYPE** enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
 
 ## -enum-fields
-
-
-
 
 ### -field AUDIO_CURVE_TYPE_NONE
 
 Specifies that no curve algorithm will be applied.  When this curve is specified, the duration of the curve specified must be equal to 0.
 
-
 ### -field AUDIO_CURVE_TYPE_WINDOWS_FADE
 
-Specifies that the algorithm that is applied to the volume setting must follow the curve shown in the diagram in the <b>Remarks</b> section.
-
+Specifies that the algorithm that is applied to the volume setting must follow the curve shown in the diagram in the [Remarks](#remarks) section.
 
 ## -remarks
 
+The following snippet of pseudocode shows the logic for the algorithm that is applied to the volume setting to reach the target volume level.
 
-
-The following snippet of pseudocode shows the logic for the algorithm that is applied to the volume setting to reach the target volume level.<pre class="syntax" xml:space="preserve"><code>// POWER IN AMPLITUDE: 1.75
+```cpp
+// POWER IN AMPLITUDE: 1.75
 
 // Fade In:
 // Curve begins at 0 when nFrame = 0
@@ -77,10 +70,10 @@ The following snippet of pseudocode shows the logic for the algorithm that is ap
 // curve = pow(nFrame / (nFrames - 1), exponent)
 
 float fFrameCount = nFrames - 1.0f;
-for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
+for (UINT32 nFrame = 0; nFrame < nFrames; nFrame++) {
     float curve = powf(nFrame / fFrameCount, 1.75f);
-    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {
-            pFloat[nFrame * pWfx-&gt;nChannels + nChannel] *= curve;
+    for (UINT32 nChannel = 0; nChannel < pWfx->nChannels; nChannel++) {
+            pFloat[nFrame * pWfx->nChannels + nChannel] *= curve;
     }
 }
 
@@ -91,31 +84,20 @@ for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
 // curve = pow(1 - (nFrame / (nFrames - 1)), exponent)
 
 float fFrameCount = nFrames - 1.0f;
-for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
+for (UINT32 nFrame = 0; nFrame < nFrames; nFrame++) {
     float curve = powf(1.0f - (nFrame / fFrameCount), 1.75f);
-    for (UINT32 nChannel = 0; nChannel &lt; pWfx-&gt;nChannels; nChannel++) {
-            pFloat[nFrame * pWfx-&gt;nChannels + nChannel] *= curve;
+    for (UINT32 nChannel = 0; nChannel < pWfx->nChannels; nChannel++) {
+            pFloat[nFrame * pWfx->nChannels + nChannel] *= curve;
     }
 }
-</code></pre>
-
+```
 
 And the following diagram shows a graphical representation of the preceding pseudocode for setting the volume level.
 
 ![Graphical representation of volume level curve](../images/audio-curve-type.png)
 
-
 ## -see-also
 
+[KSAUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagksaudioengine_volumelevel)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831854">KSAUDIOENGINE_VOLUMELEVEL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
- 
-
- 
-
+[KSPROPERTY_AUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel)
