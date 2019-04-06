@@ -5,7 +5,7 @@ description: The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet 
 old-location: netvista\ndis_wwan_packet_service_state.htm
 tech.root: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
-ms.date: 05/02/2018
+ms.date: 04/04/2019
 ms.keywords: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state"
 ms.topic: struct
 req.header: ndiswwan.h
@@ -85,7 +85,7 @@ Revision
 
 </td>
 <td>
-NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_1
+Windows 10, version 1903 miniport drivers that support 5G set this to NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_2. Miniport drivers that do not support 5G or that are for earlier versions of Windows set this to NDIS_WWAN_PACKET_SERVICE_STATE_REVISION_1.
 
 </td>
 </tr>
