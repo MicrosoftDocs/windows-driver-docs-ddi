@@ -126,4 +126,4 @@ Indicates the data class for which the parameters are valid. Only if either **WW
 
 ## -see-also
  
-[**WWAN_SIGNAL_STATE_EX**](../wwan/ns-wwan-_wwan_signal_state.md)
+[**WWAN_SIGNAL_STATE**](../wwan/ns-wwan-_wwan_signal_state.md)

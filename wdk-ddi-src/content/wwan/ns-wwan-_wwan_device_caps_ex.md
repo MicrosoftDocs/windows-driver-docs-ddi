@@ -1079,7 +1079,7 @@ The device and driver support network blacklist configuration from the OS and th
 <tr>
      <td>WWAN_OPTIONAL_SERVICE_CAPS_5G_NSA</td>
      <td>
-     <td>The device and driver support all new 5G-related extensions in Windows 10, version 1903. The following table shows NDIS message and their revisions that the miniport driver must support if this bit is set.
+     <td>The device and driver support all new 5G-related extensions in Windows 10, version 1903. The following table shows the NDIS messages and their revisions that the miniport driver must support if this bit is set.
           <table>
                <th>OID</th>
                <th>Message</th>

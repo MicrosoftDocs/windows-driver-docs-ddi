@@ -45,11 +45,11 @@ Indicates that the system type is not 5G.
 
 ### -field Wwan5GFrequencyRange1   
 
-Indicates Frequency range 1 (FR1) in [3GPP TS 38.101-1](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3283) (Sub-6G).
+Indicates Frequency range 1 (FR1) in <a href="https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3283">3GPP TS 38.101-1</a> (Sub-6G).
 
 ### -field Wwan5GFrequencyRange2  
 
-Indicates FR2 in [3GPP TS 38.101-2](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3284) (mmWave).
+Indicates FR2 in <a href="https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=3284">3GPP TS 38.101-2</a> (mmWave).
 
 ### -field Wwan5GFrequencyRange1AndRange2  
 
@@ -57,7 +57,7 @@ Indicates that both FR1 and FR2 carriers are connected.
 
 ## -remarks
 
-This enumeration is used in the [**WWAN_PACKET_SERVICE*](ns-wwan-_wwan_packet_service.md) structure.
+This enumeration is used in the [**WWAN_PACKET_SERVICE**](ns-wwan-_wwan_packet_service.md) structure.
 
 ## -see-also
 
