@@ -6,7 +6,7 @@ description: The PUNREGISTER_NOTIFICATION_CALLBACK callback function deletes the
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
-ms.date: 02/01/2019 
+ms.date: 04/08/2019 
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,17 @@ The function pointer type for an UnregisterNotificationCallback routine is defin
 ```
 //Declaration
 
-PUNREGISTER_NOTIFICATION_CALLBACK PunregisterNotificationCallback;
+PUNREGISTER_NOTIFICATION_CALLBACK PUnregisterNotificationCallback;
 
 // Definition
 
-NTSTATUS PunregisterNotificationCallback(
+NTSTATUS PUnregisterNotificationCallback(
   PVOID _context,
   HANDLE Handle,
   PHDAUDIO_DMA_NOTIFICATION_CALLBACK NotificationCallback,
   PVOID CallbackContext
 )
 {...}
-
 
 ```
 
@@ -87,7 +86,7 @@ Driver-specific context value for the callback routine.
 
 ## -returns
 
-PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified tag is not valid.
+PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified callback routine and context are not valid.
 
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
@@ -103,3 +102,5 @@ The HD Audio bus driver will release the reference it took on the driver FDO whe
 [PREGISTER_NOTIFICATION_CALLBACK](nc-hdaudio-pregister_notification_callback.md)
 
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
+
+[hdaudio.h header](hdaudio.md)

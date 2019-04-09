@@ -53,11 +53,11 @@ The function pointer type for a RegisterNotificationCallback routine is defined 
 ```
 //Declaration
 
-PREGISTER_NOTIFICATION_CALLBACK PregisterNotificationCallback; 
+PREGISTER_NOTIFICATION_CALLBACK PRegisterNotificationCallback; 
 
 // Definition
 
-NTSTATUS PregisterNotificationCallback 
+NTSTATUS PRegisterNotificationCallback 
 (
 	PVOID _context
 	HANDLE Handle
@@ -81,7 +81,7 @@ Handle that identifies the DMA engine. This handle value was obtained from a pre
 The FDO that owns the callback. The hdaudbus driver will take a reference on this FDO while the callback is registered to ensure the callback routine is valid.
 
 ### -param NotificationCallback: 
-The callback routine that will be called to notify the driver as DMA progressing. Depending on the notification count parameter that is used with AllocateDmaBufferWithNotification, the registered event is signaled one or two times for every time that the DMA passes through the audio buffer.
+The callback routine that will be called to notify the driver as DMA is progressing. Depending on the notification count parameter that is used with AllocateDmaBufferWithNotification, the registered event is signaled one or two times for every time that the DMA passes through the audio buffer.
 
 ### -param CallbackContext: 
 Driver-specific context value for the callback routine.
@@ -106,3 +106,5 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
 
 [PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
+
+[hdaudio.h header](hdaudio.md)

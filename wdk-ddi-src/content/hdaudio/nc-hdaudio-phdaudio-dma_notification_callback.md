@@ -6,7 +6,7 @@ description: HDAudio codec DMA Notification Callback function.
 tech.root: audio
 ms.assetid: 5f618d11-1d66-4bf8-8176-91101c5355f3
 ms.author: windowsdriverdev
-ms.date: 02/01/2019
+ms.date: 04/08/2019
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,11 +53,11 @@ HDAudio codec DMA Notification Callback function.
 ```
 //Declaration
 
-PHDAUDIO_DMA_NOTIFICATION_CALLBACK PhdaudioDmaNotificationCallback; 
+PHDAUDIO_DMA_NOTIFICATION_CALLBACK PHdAudioDmaNotificationCallback; 
 
 // Definition
 
-VOID PhdaudioDmaNotificationCallback 
+VOID PHdAudioDmaNotificationCallback 
 (
 	PVOID Context
 	LARGE_INTEGER QPCDMANotificationTimestamp 
@@ -88,3 +88,5 @@ Returns VOID.
 
 
 ## -see-also
+
+[hdaudio.h header](hdaudio.md)

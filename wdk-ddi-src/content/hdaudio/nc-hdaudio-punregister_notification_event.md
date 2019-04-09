@@ -5,7 +5,7 @@ description: The UnregisterNotificationEvent routine deletes the registration of
 old-location: audio\unregisternotificationevent.htm
 tech.root: audio
 ms.assetid: 525e2dd9-68e1-468d-895e-d9f57372d619
-ms.date: 05/08/2018
+ms.date: 04/08/2019
 ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, PUNREGISTER_NOTIFICATION_EVENT callback, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
 ms.topic: callback
 req.header: hdaudio.h
@@ -75,7 +75,7 @@ A pointer to a kernel event that was previously registered for DMA progress noti
 
 
 
-<i>UnregisterNotificationEvent</i> returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified tag is not valid. 
+<i>UnregisterNotificationEvent</i> returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified callback routine and context are not valid. 
 
 
 
@@ -100,5 +100,6 @@ A pointer to a kernel event that was previously registered for DMA progress noti
 <a href="https://msdn.microsoft.com/44702d79-80ac-411f-ae47-bf60b9cb541d">RegisterNotificationEvent</a>
  
 
+[hdaudio.h header](hdaudio.md)
  
 

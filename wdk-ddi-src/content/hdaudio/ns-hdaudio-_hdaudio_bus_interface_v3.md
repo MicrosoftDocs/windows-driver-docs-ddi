@@ -126,3 +126,5 @@ The names and definitions of the first five members of the HDAUDIO_BUS_INTERFACE
 ## -see-also
 
 [IRP_MN_QUERY_INTERFACE IOCTL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface)
+
+[hdaudio.h header](hdaudio.md)
