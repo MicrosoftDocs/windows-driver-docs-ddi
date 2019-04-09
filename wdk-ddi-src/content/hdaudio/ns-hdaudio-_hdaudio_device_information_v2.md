@@ -88,7 +88,7 @@ HDA controller device ID.
 
 ## -remarks
 
-With the release of Windows 19H1 the GetDeviceInformation method of all the HDAUDIO_BUS_INTERFACE* was expanded to also accept a larger input structure: _HDAUDIO_DEVICE_INFORMATION_V2. The original input structure of [HDAUDIO_DEVICE_INFORMATION](ns-hdaudio-_hdaudio_device_information.md) continues to be supported. 
+With the release of Windows 1903 the GetDeviceInformation method of all the HDAUDIO_BUS_INTERFACE* was expanded to also accept a larger input structure: _HDAUDIO_DEVICE_INFORMATION_V2. The original input structure of [HDAUDIO_DEVICE_INFORMATION](ns-hdaudio-_hdaudio_device_information.md) continues to be supported. 
 
 If the hdaudbus supports the new size, it inits all the fields and sets the Size field to sizeof(_HDAUDIO_DEVICE_INFORMATION_V2), else it returns the information only for _HDAUDIO_DEVICE_INFORMATION and sets the Size field to sizeof(_HDAUDIO_DEVICE_INFORMATION).
 
