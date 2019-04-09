@@ -42,193 +42,74 @@ req.typenames:
 
 # MxdcGetPDEVAdjustment function
 
-
 ## -description
 
-
-The <code>MxdcGetPDEVAdjustment</code> function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
-
+The **MxdcGetPDEVAdjustment** function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
 
 ## -parameters
-
-
-
 
 ### -param hPrinter [in]
 
 The handle of the currently instantiated printer.
 
-
 ### -param cbDevMode [in]
 
-The size of the <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure, in bytes, including the driver's private DEVMODE data.
-
+The size of the [DEVMODE](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew) structure, in bytes, including the driver's private DEVMODE data.
 
 ### -param pDevMode [in]
 
 A copy of the DEVMODE structure that the MXDC received. The printer interface DLL uses information from this structure to return the requested data.
 
-
 ### -param cbIn [in]
 
-An input parameter that designates the size of the <i>pvIn</i> parameter, in bytes. This parameter is currently not used and its value is zero.
-
+An input parameter that designates the size of the *pvIn* parameter, in bytes. This parameter is currently not used and its value is zero.
 
 ### -param pvIn [in, optional]
 
-A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is <b>NULL</b>.
-
+A parameter that consists of data that is sent to the printer interface DLL from the MXDC. This parameter is currently not used and its value is **NULL**.
 
 ### -param cbPrintPropertiesCollection [in]
 
-The size of the <a href="https://msdn.microsoft.com/240e14d1-d8ee-403c-b728-b14941775634">PrintPropertiesCollection</a> data structure, in bytes.
-
+The size of the [PrintPropertiesCollection](https://docs.microsoft.com/windows-hardware/drivers/print/xps-driver-document-events) data structure, in bytes.
 
 ### -param pPrintPropertiesCollection
 
-
-
-
-
-
 #### - pOut [in, out]
 
-The <b>PrintPropertiesCollection</b> data structure from which the printer interface's DLL gets the requested data. This structure is defined in WinSpool.h. The requested fields might be pre-filled with the MXDC's default data. The printer interface DLL must ignore the fields that it does not understand.
-
+The **PrintPropertiesCollection** data structure from which the printer interface's DLL gets the requested data. This structure is defined in WinSpool.h. The requested fields might be pre-filled with the MXDC's default data. The printer interface DLL must ignore the fields that it does not understand.
 
 ## -returns
 
+**MxdcGetPDEVAdjustment** should return one of the following values:
 
-
-<code>MxdcGetPDEVAdjustment</code> should return one of the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure to the respective fields.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_NOTIMPL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <code>MxdcGetPDEVAdjustment</code> function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-For this value or any other failure values, the MXDC returns -1 to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> function, catches the internal exception, and sets a flag to fail and end the print job.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| --- | --- |
+| S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo) structure to the respective fields. |
+| E_NOTIMPL | The **MxdcGetPDEVAdjustment** function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression. |
+| E_FAIL | For this value or any other failure values, the MXDC returns -1 to the [DrvEnablePDEV](https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev) function, catches the internal exception, and sets a flag to fail and end the print job. |
 
 ## -remarks
 
+The **MxdcGetPDEVAdjustment** function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a property bag that includes the following data:
 
+MXDC enables the printer interface DLL to adjust DPI through the **MxdcGetPDEVAdjustment** function only if the print job's **dmPrintQuality** field has a value that is less than or equal to 0. If the DPI value is not adjusted, MXDC maps negative **dmPrintQuality** values to the following resolutions.
 
-The <code>MxdcGetPDEVAdjustment</code> function is implemented by the hardware vendor. The MXDC calls this function to obtain printer configuration data in the form of a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">property bag</a> that includes the following data:
+| GDI name(Wingdi.h) | GDI value(Wingdi.h) | MXDC default interpretation(dots per inch) |
+| --- | --- |
+| DMRES_HIGH | -4 | 2400 |
+| DMRES_MEDIUM | -3 | 1200 |
+| DMRES_LOW | -2 | 600 |
+| DMRES_DRAFT | -1 | 400 |
 
+> [!NOTE]
+> The name of the MXDC property that stores the MXDC default DPI value is L"MxdcDotsPerInch".
 
-
-MXDC enables the printer interface DLL to adjust DPI through the <code>MxdcGetPDEVAdjustment</code> function only if the print job's <b>dmPrintQuality</b> field has a value that is less than or equal to 0. If the DPI value is not adjusted, MXDC maps negative <b>dmPrintQuality</b> values to the following resolutions.
-
-<table>
-<tr>
-<th>GDI name(Wingdi.h)</th>
-<th>GDI value(Wingdi.h)</th>
-<th>MXDC default interpretation(dots per inch)</th>
-</tr>
-<tr>
-<td>
-DMRES_HIGH
-
-</td>
-<td>
--4
-
-</td>
-<td>
-2400
-
-</td>
-</tr>
-<tr>
-<td>
-DMRES_MEDIUM
-
-</td>
-<td>
--3
-
-</td>
-<td>
-1200
-
-</td>
-</tr>
-<tr>
-<td>
-DMRES_LOW
-
-</td>
-<td>
--2
-
-</td>
-<td>
-600
-
-</td>
-</tr>
-<tr>
-<td>
-DMRES_DRAFT
-
-</td>
-<td>
--1
-
-</td>
-<td>
-400
-
-</td>
-</tr>
-</table>
- 
-
-<div class="alert"><b>Note</b>  The name of the MXDC property that stores the MXDC default DPI value is L"MxdcDotsPerInch". </div>
-<div> </div>
 The following table lists the MXDC's property types and property-bag fields for the properties.
 
 <table>
 <tr>
-<th>Property(propertyName)</th>
-<th>Property Type(ePropertyValue)</th>
+<th>Property (propertyName)</th>
+<th>Property Type (ePropertyValue)</th>
 <th>Property-bag fields</th>
 </tr>
 <tr>
@@ -242,12 +123,9 @@ kPropertyTypeBuffer
 </td>
 <td>
 
-        PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyBlob.cbBuf = sizeof(RECT)
-       
+PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyBlob.cbBuf = sizeof(RECT)
 
-
-        PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyBlob.pBuf
-       
+PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyBlob.pBuf
 
 </td>
 </tr>
@@ -262,8 +140,7 @@ kPropertyTypeInt32
 </td>
 <td>
 
-        PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32
-       
+PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32
 
 </td>
 </tr>
@@ -278,14 +155,13 @@ kPropertyTypeInt32
 </td>
 <td>
 
-        PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32
-       
+PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32
 
 </td>
 </tr>
 <tr>
 <td>
-L"MxdcLandscapeRotation" 
+L"MxdcLandscapeRotation"
 
 </td>
 <td>
@@ -294,19 +170,17 @@ kPropertyTypeInt32
 </td>
 <td>
 
-        PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32 
-       
+PrintPropertiesCollection::propertiesCollection[i].propertyValue.value.propertyInt32
 
 </td>
 </tr>
 </table>
- 
 
 The following table lists the MXDC's supported data types and data values for the properties.
 
 <table>
 <tr>
-<th>Property(propertyName)</th>
+<th>Property (propertyName)</th>
 <th>Data types and values</th>
 </tr>
 <tr>
@@ -316,10 +190,9 @@ L"MxdcImageableArea"
 </td>
 <td>
 
-        Data Type: RECT
+Data Type: RECT
 
-
-        Values:
+Values:
 
 RECT::left (Same as FORM_INFO_1)
 
@@ -338,10 +211,9 @@ L"MxdcImageCompressionType"
 </td>
 <td>
 
-        Data Type: LONG
+Data Type: LONG
 
-
-        Values:
+Values:
 
 1 = JPEG High Compression
 
@@ -360,10 +232,9 @@ L"MxdcDotsPerInch"
 </td>
 <td>
 
-        Data Type: LONG
+Data Type: LONG
 
-
-        Values: 
+Values:
 
 A positive value for Dots Per Inch
 
@@ -371,61 +242,39 @@ A positive value for Dots Per Inch
 </tr>
 <tr>
 <td>
-L"MxdcLandscapeRotation" 
+L"MxdcLandscapeRotation"
 
 </td>
 <td>
 
-        Data Type: LONG 
+Data Type: LONG
 
 Values:
 
-<dl>
-<dd>90 = MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_90_DEGREES</dd>
-<dd>0 = MXDC_LANDSCAPE_ROTATE_NONE</dd>
-<dd>-90 = MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_270_DEGREES</dd>
-</dl>
+90 = MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_90_DEGREES
+
+0 = MXDC_LANDSCAPE_ROTATE_NONE
+
+-90 = MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_270_DEGREES
+
 </td>
 </tr>
 </table>
- 
 
-<div class="alert"><b>Note</b>  <b>Notes</b><ul>
-<li>
-The <code>MxdcGetPDEVAdjustment</code> function is not a part of the MXDC. The MXDC calls back to this function in the driver's configuration DLL to obtain data for configuring the printer.
-
-</li>
-<li>
-The MXDC expects the imageable area to be expressed in unrotated coordinates (portrait orientation). The MXDC rotates both the page size and the imageable area according to the value of the <b>dmOrientation</b> member of the DEVMODE structure pointed to by <i>pDevMode</i>. Thus, the hardware vendor's implementation of <code>MxdcGetPDEVAdjustment</code> should avoid specifying the imageable area in rotated coordinates (landscape orientation) because this will cause landscape print jobs to print incorrectly.
-
-</li>
-<li>
-The default value in the MXDC will be MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_270_DEGREES, which is its current legacy behavior.
-
-All rotation will be done on the imageable area. If a configuration component (UniDrv/PostScript, XPSDrv Monolithic) does not understand the new property bag values, then it should ignore them as is in the current design.
-
-</li>
-</ul>
-</div>
-<div> </div>
-
-
+> [!NOTE]
+>
+> The **MxdcGetPDEVAdjustment** function is not a part of the MXDC. The MXDC calls back to this function in the driver's configuration DLL to obtain data for configuring the printer.
+>
+> The MXDC expects the imageable area to be expressed in unrotated coordinates (portrait orientation). The MXDC rotates both the page size and the imageable area according to the value of the **dmOrientation** member of the DEVMODE structure pointed to by *pDevMode*. Thus, the hardware vendor's implementation of **MxdcGetPDEVAdjustment** should avoid specifying the imageable area in rotated coordinates (landscape orientation) because this will cause landscape print jobs to print incorrectly.
+>
+> The default value in the MXDC will be MXDC_LANDSCAPE_ROTATE_COUNTERCLOCKWISE_270_DEGREES, which is its current legacy behavior.
+>
+> All rotation will be done on the imageable area. If a configuration component (UniDrv/PostScript, XPSDrv Monolithic) does not understand the new property bag values, then it should ignore them as is in the current design.
 
 ## -see-also
 
+[DrvEnablePDEV](https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev)
 
+[GDIINFO](https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554157">IPrintOemUIMXDC Interface</a>
- 
-
- 
-
+[IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuimxdc)

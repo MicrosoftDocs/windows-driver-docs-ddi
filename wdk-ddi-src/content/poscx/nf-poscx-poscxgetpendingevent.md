@@ -43,57 +43,29 @@ req.product: Windows 10 or later.
 
 # PosCxGetPendingEvent function
 
-
 ## -description
 
+PosCxGetPendingEvent is called either from the device read callback, or when a new event arrives. The function searches the pending events database for events that are waiting for the caller that issued the request.  
 
-      PosCxGetPendingEvent is called either from the device read callback, or when a new 
-
-      event arrives. The function searches the pending events database for events that are waiting for the caller that issued the request.  
-
-      It first searches the control pending events database, and then the data pending event database.
-
+It first searches the control pending events database, and then the data pending event database.
 
 ## -parameters
-
-
-
 
 ### -param device [in]
 
 A handle to a framework device object that represents the device.
 
-
 ### -param request [in]
 
-A handle to a framework request object that represents the read request if <b>PosCxGetPendingEvent</b> is called from the device read callback.
-
+A handle to a framework request object that represents the read request if **PosCxGetPendingEvent** is called from the device read callback.
 
 ## -returns
 
-
-
 Possible return values are:
 
-<table>
-<tr>
-<td><b>STATUS_SUCCESS</b></td>
-<td>The request was completed by PosCx. The caller  must not complete the request in this case.</td>
-</tr>
-<tr>
-<td><b>STATUS_PENDING</b></td>
-<td>No events are currently available for the caller. The request will be completed by PosCx in the future. The caller must not complete the request in this case.</td>
-</tr>
-<tr>
-<td><b>STATUS_DEVICE_NOT_READY</b></td>
-<td>The PosCx library was not successfully initialized. The caller should complete the request.</td>
-</tr>
-<tr>
-<td>Other errors</td>
-<td>Other appropriate failure error codes.  The caller should complete the request.</td>
-</tr>
-</table>
- 
-
-
-
+| Return value | Description |
+| --- | --- |
+| STATUS_SUCCESS | The request was completed by PosCx. The caller  must not complete the request in this case. |
+| STATUS_PENDING | No events are currently available for the caller. The request will be completed by PosCx in the future. The caller must not complete the request in this case. |
+| STATUS_DEVICE_NOT_READY | The PosCx library was not successfully initialized. The caller should complete the request. |
+| Other errors | Other appropriate failure error codes.  The caller should complete the request. |
