@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GPUCLOCKDATA_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_GPUCLOCKDATA_FLAGS
+- _DXGK_GPUCLOCKDATA_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -61,8 +61,8 @@ As long as the GPU is powered on:
 * The context management processor for a GPU node is expected to have access to a clock that is always counting.
 * The clock frequency on the context management processor is expected to remain constant.
 
-When a GPU node is initialized, the OS calibrates the GPU clock against the CPU clock using [DxgkDdiCalibrateGpuClock](..\d3dkmddi\nc-d3dkmddi-dxgkddi_calibrategpuclock.md) function with the ContextManagementProcessor flag. The flag differentiates between using DdiCalibrateGpuClock() to obtain the underlying GPU engine clock, or to obtain the context management processor clock, that may be different from the GPU engine clock.
+When a GPU node is initialized, the OS calibrates the GPU clock against the CPU clock using [DxgkDdiCalibrateGpuClock](../d3dkmddi/nc-d3dkmddi-dxgkddi_calibrategpuclock.md) function with the ContextManagementProcessor flag. The flag differentiates between using DdiCalibrateGpuClock() to obtain the underlying GPU engine clock, or to obtain the context management processor clock, that may be different from the GPU engine clock.
 
 ## -see-also
 
-[DxgkDdiCalibrateGpuClock](..\d3dkmddi\nc-d3dkmddi-dxgkddi_calibrategpuclock.md)
+[DxgkDdiCalibrateGpuClock](../d3dkmddi/nc-d3dkmddi-dxgkddi_calibrategpuclock.md)

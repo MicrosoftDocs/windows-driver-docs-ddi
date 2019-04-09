@@ -1,13 +1,13 @@
 ---
 UID: NA:rxce
 ms.assetid: 21be7cda-22a7-31c2-8fd4-74b9d08f24bf
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

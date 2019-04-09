@@ -1,13 +1,13 @@
 ---
 UID: NA:nfccx
 ms.assetid: e31e267f-9d28-39c5-9b01-ccb44c235455
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: nfpdrivers
 ---
 

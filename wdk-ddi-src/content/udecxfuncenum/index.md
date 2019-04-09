@@ -1,13 +1,13 @@
 ---
 UID: NA:udecxfuncenum
 ms.assetid: ecc4e479-bc66-374a-8758-2aec82dc4a7b
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ---
 

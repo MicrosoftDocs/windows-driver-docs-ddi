@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UcxUsbDeviceInitSetEventCallbacks
+- UcxUsbDeviceInitSetEventCallbacks
 product:
 - Windows
 targetos: Windows
@@ -61,7 +61,7 @@ A pointer to a <b>UCXUSBDEVICE_INIT</b> structure that UCX passes when it invoke
 
 ### -param EventCallbacks [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188067">UCX_USBDEVICE_EVENT_CALLBACKS</a> structure that contains function pointer to client driver's event callback functions. The  the client driver initializes the structure  by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt188068">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188067">UCX_USBDEVICE_EVENT_CALLBACKS</a> structure that contains function pointer to client driver's event callback functions. The client driver initializes the structure  by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt188068">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>.
 
 
 ## -returns

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	UcxDefaultEndpointInitSetEventCallbacks
+- UcxDefaultEndpointInitSetEventCallbacks
 product:
 - Windows
 targetos: Windows
@@ -61,7 +61,7 @@ A pointer to a <b>UCXENDPOINT_INIT</b> structure that UCX passes when it invokes
 
 ### -param EventCallbacks
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188063">UCX_ENDPOINT_EVENT_CALLBACKS</a> structure that contains function pointer to event callback functions related to the endpoint. The  the client driver initializes the structure  by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt188064">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188063">UCX_ENDPOINT_EVENT_CALLBACKS</a> structure that contains function pointer to event callback functions related to the endpoint. The client driver initializes the structure  by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt188064">UCX_ENDPOINT_EVENT_CALLBACKS_INIT</a>.
 
 
 ## -returns

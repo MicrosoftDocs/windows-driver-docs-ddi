@@ -1,13 +1,13 @@
 ---
 UID: NA:rxexcept
 ms.assetid: f2f7f00f-2e60-3e90-8648-d930b4e50088
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

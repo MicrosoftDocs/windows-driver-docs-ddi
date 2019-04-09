@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	EvtSerCxPurge
+- EvtSerCxPurge
 product:
 - Windows
 targetos: Windows
@@ -118,7 +118,7 @@ To register an <i>EvtSerCxPurge</i> callback function, the controller driver cal
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -134,7 +134,7 @@ The function type for this callback is declared in Sercx.h, as follows.
 </table></span></div>
 To define an <i>EvtSerCxPurge</i> callback function that is named <code>MyEvtSerCxPurge</code>, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -146,7 +146,7 @@ To define an <i>EvtSerCxPurge</i> callback function that is named <code>MyEvtSer
 </table></span></div>
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

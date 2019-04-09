@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient4.AddDumpInformationFileWide
--	IDebugClient5.AddDumpInformationFileWide
+- IDebugClient4.AddDumpInformationFileWide
+- IDebugClient5.AddDumpInformationFileWide
 product:
 - Windows
 targetos: Windows

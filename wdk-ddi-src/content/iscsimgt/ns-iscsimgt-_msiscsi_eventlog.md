@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Iscsimgt.h
+- Iscsimgt.h
 api_name:
--	MSiSCSI_EventLog
+- MSiSCSI_EventLog
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	arrayofelements.hpp
+- arrayofelements.hpp
 api_name:
--	ExtRemoteTyped.operator=
+- ExtRemoteTyped.operator=
 product:
 - Windows
 targetos: Windows
@@ -46,7 +46,7 @@ req.product: Windows 10 or later.
 
 ## -description
 
-The <b>operator=</b> overloaded assignment operator sets the typed data represented by the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object by copying the information from another object.
+The <b>operator=</b> overloaded assignment operator sets the typed data represented by the [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) object by copying the information from another object.
 
 ## -syntax
 
@@ -62,25 +62,25 @@ ExtRemoteTyped & operator=(
 
 #### - Typed [in]
 
-A pointer to a [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
+A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
 
 
 ## -returns
 
-<b>operator=</b>  returns the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object.
+<b>operator=</b>  returns the [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) object.
 
 
 ## -remarks
 
-The typed data can also be copied using the [ExtBuffer::Copy method](..\engextcpp\nf-engextcpp-extbuffer-copy.md) method.
+The typed data can also be copied using the [ExtBuffer::Copy method](../engextcpp/nf-engextcpp-extbuffer-copy.md) method.
 
 
 ## -see-also
 
-[ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md)
+[ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md)
 
 
-[DEBUG_TYPED_DATA](..\wdbgexts\ns-wdbgexts-_debug_typed_data.md)
+[DEBUG_TYPED_DATA](../wdbgexts/ns-wdbgexts-_debug_typed_data.md)
 
 
 

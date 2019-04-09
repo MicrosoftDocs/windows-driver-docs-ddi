@@ -1,13 +1,13 @@
 ---
 UID: NA:ntddpcm
 ms.assetid: 4c1a57f9-d840-38ed-bb42-d0f3a4965439
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: pcmcia
 ---
 

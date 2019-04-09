@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Wdm.h
--	Ext-MS-Win-ntos-tm-l1-1-0.dll
--	tm.sys
+- Wdm.h
+- Ext-MS-Win-ntos-tm-l1-1-0.dll
+- tm.sys
 api_name:
--	TmInitializeTransactionManager
+- TmInitializeTransactionManager
 product:
 - Windows
 targetos: Windows

@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
--	ntdll.dll
+- NtosKrnl.exe
+- ntdll.dll
 api_name:
--	RtlAllocateHeap
+- RtlAllocateHeap
 product:
 - Windows
 targetos: Windows

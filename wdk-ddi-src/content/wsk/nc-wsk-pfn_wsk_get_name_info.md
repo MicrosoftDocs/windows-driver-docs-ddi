@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wsk.h
+- wsk.h
 api_name:
--	WskGetNameInfo
+- WskGetNameInfo
 product:
 - Windows
 targetos: Windows

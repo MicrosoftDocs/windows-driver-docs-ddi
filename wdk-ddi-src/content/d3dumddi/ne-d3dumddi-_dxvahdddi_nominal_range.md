@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	DXVAHDDDI_NOMINAL_RANGE
+- DXVAHDDDI_NOMINAL_RANGE
 product:
 - Windows
 targetos: Windows

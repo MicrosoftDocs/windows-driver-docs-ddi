@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_BEGIN_RENDER_PASS
+- PFND3D12DDI_BEGIN_RENDER_PASS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -90,7 +90,7 @@ Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC](ns-d3d12umddi-d3d12ddiar
 ### -param UnorderedAccessViewAccessFlags
 
 
-An unordered access view (UAV), defined by a value in the the [D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS](ne-d3d12umddi-d3d12ddiarg_render_pass_uav_access_flags.md) enumeration.
+An unordered access view (UAV), defined by a value in the [D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS](ne-d3d12umddi-d3d12ddiarg_render_pass_uav_access_flags.md) enumeration.
 
 
 ## -returns

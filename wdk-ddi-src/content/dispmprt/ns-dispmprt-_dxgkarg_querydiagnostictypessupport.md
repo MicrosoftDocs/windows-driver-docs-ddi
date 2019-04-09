@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
+- _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---

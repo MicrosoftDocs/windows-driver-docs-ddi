@@ -1,7 +1,7 @@
 ---
 UID: NA:iddcxfuncenum
 ms.assetid: 79f9bdc8-59d6-33ee-96c9-a91bb7c935f3
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

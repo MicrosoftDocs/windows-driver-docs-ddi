@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfinterrupt.h
+- Wdfinterrupt.h
 api_name:
--	EvtInterruptWorkItem
+- EvtInterruptWorkItem
 product:
 - Windows
 targetos: Windows

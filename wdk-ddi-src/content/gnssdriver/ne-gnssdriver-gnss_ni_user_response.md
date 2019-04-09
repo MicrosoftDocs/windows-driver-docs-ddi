@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_NI_USER_RESPONSE
+- GNSS_NI_USER_RESPONSE
 product:
 - Windows
 targetos: Windows

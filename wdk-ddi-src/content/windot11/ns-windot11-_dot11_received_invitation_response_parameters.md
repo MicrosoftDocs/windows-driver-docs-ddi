@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
+- DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS
 product:
 - Windows
 targetos: Windows
@@ -113,7 +113,7 @@ The dialog token received in invitation response packet.
 
 ### -field uIEsOffset
 
-The offset, in bytes,  of the array of additional information elements (IEs) received in the the invitation response packet. This offset is from the start of the buffer that contains this structure.
+The offset, in bytes,  of the array of additional information elements (IEs) received in the invitation response packet. This offset is from the start of the buffer that contains this structure.
 
 
 ### -field uIEsLength

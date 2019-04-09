@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	MONITORINIT
+- MONITORINIT
 product:
 - Windows
 targetos: Windows

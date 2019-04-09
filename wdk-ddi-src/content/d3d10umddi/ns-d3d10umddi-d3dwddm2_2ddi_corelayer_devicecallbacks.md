@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
+- D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 product:
 - Windows
 targetos: Windows

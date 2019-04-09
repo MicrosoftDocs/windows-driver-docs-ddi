@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_NOTIFICATION_ENABLE_COMMAND, *PUCSI_SET_NOTIFICATION_ENABLE_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_NOTIFICATION_ENABLE_COMMAND
+- _UCSI_SET_NOTIFICATION_ENABLE_COMMAND
 product:
 - Windows
 targetos: Windows

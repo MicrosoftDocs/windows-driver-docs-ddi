@@ -7,7 +7,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # Global Navigation Satellite System (GNSS)
@@ -18,6 +18,6 @@ Overview of the GNSS device driver technology.
 
 To develop GNSS drivers, you need these headers:
 
- * [gnssdriver.h](..\gnssdriver\index.md)
+ * [gnssdriver.h](../gnssdriver/index.md)
 
 For the programming guide, see [](https://docs.microsoft.com/windows-hardware/drivers/gnss).

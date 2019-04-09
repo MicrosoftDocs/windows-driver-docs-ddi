@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	amtvuids.h
+- amtvuids.h
 api_name: 
--	OUR_GUID_ENTRY
+- OUR_GUID_ENTRY
 product:
 -   Windows
 targetos: Windows

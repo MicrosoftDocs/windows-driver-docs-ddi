@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
+- DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 product:
 - Windows
 targetos: Windows
@@ -101,8 +101,8 @@ The maximum amount of time that the PHY can use when transmitting on a single ch
 
 ## -remarks
 
-The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY](..\windot11\ns-windot11-dot11_bss_entry.md) structure.
+The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY](../windot11/ns-windot11-dot11_bss_entry.md) structure.
 
 ## -see-also
 
-[DOT11_BSS_ENTRY](..\windot11\ns-windot11-dot11_bss_entry.md)
+[DOT11_BSS_ENTRY](../windot11/ns-windot11-dot11_bss_entry.md)

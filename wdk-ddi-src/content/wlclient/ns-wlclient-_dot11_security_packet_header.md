@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlclient.h
+- wlclient.h
 api_name:
--	DOT11_SECURITY_PACKET_HEADER
+- DOT11_SECURITY_PACKET_HEADER
 product:
 - Windows
 targetos: Windows

@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	acpitabl.h
+- acpitabl.h
 api_name:
--	SDEV_SECURE_ACPI_INFO_ENTRY
+- SDEV_SECURE_ACPI_INFO_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---

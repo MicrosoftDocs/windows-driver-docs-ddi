@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pmi.h
+- Pmi.h
 api_name:
--	IOCTL_PMI_GET_CAPABILITIES
+- IOCTL_PMI_GET_CAPABILITIES
 product:
 - Windows
 targetos: Windows

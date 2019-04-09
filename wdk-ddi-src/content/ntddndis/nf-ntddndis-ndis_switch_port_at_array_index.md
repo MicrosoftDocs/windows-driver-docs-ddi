@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_SWITCH_PORT_AT_ARRAY_INDEX
+- NDIS_SWITCH_PORT_AT_ARRAY_INDEX
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_GAMMA_RAMP_DXGI_1
+- D3DDDI_GAMMA_RAMP_DXGI_1
 product:
 - Windows
 targetos: Windows

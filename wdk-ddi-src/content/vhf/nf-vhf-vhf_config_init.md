@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	vhfKm.lib
--	vhfKm.dll
+- vhfKm.lib
+- vhfKm.dll
 api_name:
--	VHF_CONFIG_INIT
+- VHF_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

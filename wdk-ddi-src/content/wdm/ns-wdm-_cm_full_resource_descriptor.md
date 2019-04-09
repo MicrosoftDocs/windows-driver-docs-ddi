@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	CM_FULL_RESOURCE_DESCRIPTOR
+- CM_FULL_RESOURCE_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSEVENT_TUNER_INITIATE_SCAN_S
+- KSEVENT_TUNER_INITIATE_SCAN_S
 product:
 - Windows
 targetos: Windows

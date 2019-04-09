@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.WriteTypedDataPhysical
--	IDebugSymbols2.WriteTypedDataPhysical
--	IDebugSymbols3.WriteTypedDataPhysical
+- IDebugSymbols.WriteTypedDataPhysical
+- IDebugSymbols2.WriteTypedDataPhysical
+- IDebugSymbols3.WriteTypedDataPhysical
 product:
 - Windows
 targetos: Windows

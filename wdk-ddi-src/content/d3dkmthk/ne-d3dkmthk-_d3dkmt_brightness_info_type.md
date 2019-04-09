@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmthk.h
+- D3dkmthk.h
 api_name:
--	D3DKMT_BRIGHTNESS_INFO_TYPE
+- D3DKMT_BRIGHTNESS_INFO_TYPE
 product:
 - Windows
 targetos: Windows

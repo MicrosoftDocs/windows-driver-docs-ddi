@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dot11wdi.h
+- dot11wdi.h
 api_name:
--	WDI_RX_THROTTLE_LEVEL
+- WDI_RX_THROTTLE_LEVEL
 product:
 - Windows
 targetos: Windows

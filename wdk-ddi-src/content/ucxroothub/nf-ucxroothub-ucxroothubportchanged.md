@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	UcxRootHubPortChanged
+- UcxRootHubPortChanged
 product:
 - Windows
 targetos: Windows

@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_SET_3
+- DXGK_BRIGHTNESS_SET_3
 product: 
 - Windows
 targetos: Windows
@@ -72,11 +72,11 @@ DXGK_BRIGHTNESS_SET_3
 
 ### -param ChildUid
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
 ### -param pIn:
 
-[in] A [DXGK_BRIGHTNESS_SET_IN](..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_set_in.md) structure that contains the input parameters for the set brightness call.
+[in] A [DXGK_BRIGHTNESS_SET_IN](../d3dkmdt/ns-d3dkmdt-_dxgk_brightness_set_in.md) structure that contains the input parameters for the set brightness call.
 
 ## -returns
 

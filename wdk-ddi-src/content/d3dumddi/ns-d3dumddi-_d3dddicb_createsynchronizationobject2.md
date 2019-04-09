@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dumddi.h
+- D3dumddi.h
 api_name:
--	D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
+- D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DxgkcbAcquirePostDisplayOwnership2
+- DxgkcbAcquirePostDisplayOwnership2
 product:
 - Windows
 targetos: Windows

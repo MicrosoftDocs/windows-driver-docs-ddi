@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGKMT_POWER_SHARED_TYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_DXGKMT_POWER_SHARED_TYPE
+- _DXGKMT_POWER_SHARED_TYPE
 product: 
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSystemObjects3.GetCurrentSystemServer
+- IDebugSystemObjects3.GetCurrentSystemServer
 product:
 - Windows
 targetos: Windows

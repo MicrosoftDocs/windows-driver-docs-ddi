@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FS_FILTER_SECTION_SYNC_OUTPUT
+- FS_FILTER_SECTION_SYNC_OUTPUT
 product:
 - Windows
 targetos: Windows

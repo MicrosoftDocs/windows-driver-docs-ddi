@@ -26,15 +26,15 @@ req.lib: SensorsClassExtension.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	SensorsClassExtension.lib
--	SensorsClassExtension.dll
+- SensorsClassExtension.lib
+- SensorsClassExtension.dll
 api_name:
--	ISensorDriver.OnClientDisconnect
+- ISensorDriver.OnClientDisconnect
 product:
 - Windows
 targetos: Windows

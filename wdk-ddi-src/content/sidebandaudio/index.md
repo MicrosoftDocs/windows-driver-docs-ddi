@@ -7,13 +7,12 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: audio
 ms.custom: RS5
 ---
 
 # sidebandaudio.h header
-
 
 
 This header is used by audio. For more information, see:

@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Gdi32.dll
+- Gdi32.dll
 api_name:
--	D3DKMTPresentRedirected
+- D3DKMTPresentRedirected
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 
@@ -47,7 +47,7 @@ Redirects the present command.
 
 ## -parameters
 
-### -param D3DKMT_PRESENT_REDIRECTED *
+### -param Arg1
 
 Pointer to a [D3DKMT_PRESENT_REDIRECTED](ns-d3dkmthk-_d3dkmt_present_redirected.md) structure.
 

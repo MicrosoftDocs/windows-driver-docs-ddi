@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksproxy.h
+- Ksproxy.h
 api_name:
--	PIPE_ALLOCATOR_PLACE
+- PIPE_ALLOCATOR_PLACE
 product:
 - Windows
 targetos: Windows

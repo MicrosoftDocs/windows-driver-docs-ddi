@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_COMMAND
+- _UCSI_COMMAND
 product:
 - Windows
 targetos: Windows

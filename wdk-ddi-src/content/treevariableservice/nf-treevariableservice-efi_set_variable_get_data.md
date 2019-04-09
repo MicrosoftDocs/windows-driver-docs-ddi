@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	EFI_SET_VARIABLE_GET_DATA
+- EFI_SET_VARIABLE_GET_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

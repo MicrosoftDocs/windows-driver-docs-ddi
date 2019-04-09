@@ -26,16 +26,16 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netringbuffer.h
-apiname: 
--	NetRingBufferGetElementAtIndex
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netringbuffer.h
+api_name: 
+- NetRingBufferGetElementAtIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

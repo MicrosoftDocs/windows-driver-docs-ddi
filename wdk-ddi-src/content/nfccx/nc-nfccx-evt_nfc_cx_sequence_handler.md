@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	nfccx.h
+- nfccx.h
 api_name:
--	EvtNfcCxSequenceHandler
+- EvtNfcCxSequenceHandler
 product:
 - Windows
 targetos: Windows

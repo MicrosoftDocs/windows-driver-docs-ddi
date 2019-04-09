@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
+- DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_1
 product:
 - Windows
 targetos: Windows

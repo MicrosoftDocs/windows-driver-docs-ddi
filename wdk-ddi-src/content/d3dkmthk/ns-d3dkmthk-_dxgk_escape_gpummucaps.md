@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_ESCAPE_GPUMMUCAPS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_DXGK_ESCAPE_GPUMMUCAPS
+- _DXGK_ESCAPE_GPUMMUCAPS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	IoAllocateAdapterChannel
+- IoAllocateAdapterChannel
 product:
 - Windows
 targetos: Windows
@@ -44,7 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](nc-wdm-pallocate_adapter_channel.md).
+Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](../wdm/nc-wdm-pallocate_adapter_channel.md).
 
 ## -parameters
 

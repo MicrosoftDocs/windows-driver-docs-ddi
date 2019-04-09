@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisEqualMemory
+- NdisEqualMemory
 product:
 - Windows
 targetos: Windows

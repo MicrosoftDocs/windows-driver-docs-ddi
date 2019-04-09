@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	SERIAL_QUEUE_SIZE
+- SERIAL_QUEUE_SIZE
 product:
 - Windows
 targetos: Windows

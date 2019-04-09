@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	UCX_USBDEVICE_CHARACTERISTIC_TYPE
+- UCX_USBDEVICE_CHARACTERISTIC_TYPE
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdvd.h
+- ntddcdvd.h
 api_name:
--	DVD_DISK_KEY_DESCRIPTOR
+- DVD_DISK_KEY_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

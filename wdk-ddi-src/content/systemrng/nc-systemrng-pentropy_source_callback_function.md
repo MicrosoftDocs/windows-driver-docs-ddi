@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	systemrng.h
+- systemrng.h
 api_name: 
--	PENTROPY_SOURCE_CALLBACK_FUNCTION
+- PENTROPY_SOURCE_CALLBACK_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

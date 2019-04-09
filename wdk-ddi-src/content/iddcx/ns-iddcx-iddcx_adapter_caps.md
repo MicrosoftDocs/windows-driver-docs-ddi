@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_ADAPTER_CAPS
+- IDDCX_ADAPTER_CAPS
 product:
 - Windows
 targetos: Windows

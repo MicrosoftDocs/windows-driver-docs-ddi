@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
+- DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
 product: 
 - Windows
 targetos: Windows
@@ -72,11 +72,11 @@ DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
 
 ### -param ChildUid
 
-[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
+[in] An integer that uniquely identifies the child device. The display miniport driver's [DxgkDdiQueryChildRelations](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function previously provided this identifier to the display port driver.
 
 ### -param OptimizationLevel
 
-[in] A value of type [DXGK_BACKLIGHT_OPTIMIZATION_LEVEL](..\d3dkmdt\ne-d3dkmdt-dxgk_backlight_optimization_level.md) that indicates the optimization level of brightness control.
+[in] A value of type [DXGK_BACKLIGHT_OPTIMIZATION_LEVEL](../d3dkmdt/ne-d3dkmdt-dxgk_backlight_optimization_level.md) that indicates the optimization level of brightness control.
 
 ## -returns
 

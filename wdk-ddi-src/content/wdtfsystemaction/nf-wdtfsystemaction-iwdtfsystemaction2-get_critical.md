@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_Critical
 title: IWDTFSystemAction2::get_Critical (wdtfsystemaction.h)
-description: Gets or sets a value that indicates whether the the system power state is critical.
+description: Gets or sets a value that indicates whether the system power state is critical.
 old-location: dtf\iwdtfsystemaction2_critical.htm
 tech.root: dtf
 ms.assetid: 173cf6f2-7c6c-41d5-bd30-e323b24a0db0
@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.Critical
--	IWDTFSystemAction2.get_Critical
--	IWDTFSystemAction2.put_Critical
+- IWDTFSystemAction2.Critical
+- IWDTFSystemAction2.get_Critical
+- IWDTFSystemAction2.put_Critical
 product:
 - Windows
 targetos: Windows
@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Gets or sets a value that indicates whether the the system power state is critical.
+Gets or sets a value that indicates whether the system power state is critical.
 
 This property is read/write.
 

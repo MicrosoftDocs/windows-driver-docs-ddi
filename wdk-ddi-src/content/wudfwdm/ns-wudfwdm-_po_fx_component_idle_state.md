@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	PO_FX_COMPONENT_IDLE_STATE
+- PO_FX_COMPONENT_IDLE_STATE
 product:
 - Windows
 targetos: Windows

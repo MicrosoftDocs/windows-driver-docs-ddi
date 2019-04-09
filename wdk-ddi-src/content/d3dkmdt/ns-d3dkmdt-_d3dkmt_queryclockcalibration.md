@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_QUERYCLOCKCALIBRATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmdt.h
+- d3dkmdt.h
 api_name: 
--	_D3DKMT_QUERYCLOCKCALIBRATION
+- _D3DKMT_QUERYCLOCKCALIBRATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

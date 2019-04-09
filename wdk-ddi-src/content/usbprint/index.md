@@ -1,13 +1,13 @@
 ---
 UID: NA:usbprint
 ms.assetid: d4ccb935-1ce5-3e92-bd28-a309ad34ad92
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: print
 ---
 

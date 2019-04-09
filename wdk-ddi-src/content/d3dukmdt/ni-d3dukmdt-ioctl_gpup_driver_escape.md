@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	IOCTL_GPUP_DRIVER_ESCAPE
+- IOCTL_GPUP_DRIVER_ESCAPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

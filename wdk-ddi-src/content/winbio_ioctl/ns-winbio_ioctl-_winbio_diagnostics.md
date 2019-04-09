@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winbio_ioctl.h
+- winbio_ioctl.h
 api_name:
--	WINBIO_DIAGNOSTICS
+- WINBIO_DIAGNOSTICS
 product:
 - Windows
 targetos: Windows

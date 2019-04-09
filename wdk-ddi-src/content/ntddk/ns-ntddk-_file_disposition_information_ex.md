@@ -1,7 +1,7 @@
 ---
 UID: NS:ntddk._FILE_DISPOSITION_INFORMATION_EX
 title: _FILE_DISPOSITION_INFORMATION_EX (ntddk.h)
-description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFileEx routine and indicates how the operating system should delete a file.
+description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFile routine and indicates how the operating system should delete a file.
 old-location: ifsk\file_disposition_information_ex.htm
 tech.root: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_DISPOSITION_INFORMATION_EX
+- FILE_DISPOSITION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows
@@ -46,7 +46,7 @@ req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_E
 ## -description
 
 
-The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFileEx</a> routine and indicates how the operating system should delete a file.
+The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a> routine and indicates how the operating system should delete a file.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Specifies what action(s) the system should take with a specific file while delet
 <tr>
 <td>FILE_DISPOSITION_POSIX_SEMANTICS</td>
 <td>0x00000002</td>
-<td>Specifies the system should perform a POSIX-style delete.</td>
+<td>Specifies the system should perform a POSIX-style delete. See more info in Remarks.</td>
 </tr>
 <tr>
 <td>FILE_DISPOSITION_FORCE_IMAGE_SECTION_CHECK</td>
@@ -102,21 +102,21 @@ Specifies what action(s) the system should take with a specific file while delet
 
 The caller must have DELETE access to a given file to call ZwSetInformationFile with <b>FILE_DISPOSITION_DELETE</b>. 
 
-Normally a file marked for deletion is not actually deleted until all open handles for the file have been closed and the link count for the file is zero.  When marking a file for deletion using <b>FILE_DISPOSITION_POSIX_SEMANTICS</b>, the link gets removed from the visible namespace as soon as the POSIX delete handle has been closed, but the file’s data streams remain accessible by other existing handles until the last handle has been closed.
 
+When <b>FILE_DISPOSITION_POSIX_SEMANTICS</b> is not set, a file marked for deletion is not actually deleted until all open handles for the file have been closed and the link count for the file is zero.  When <b>FILE_DISPOSITION_POSIX_SEMANTICS</b> is set, the link is removed from the visible namespace as soon as the POSIX delete handle has been closed, but the file’s data streams remain accessible by other existing handles until the last handle has been closed. That is, applications that already had the file open can still use their handle to read/write even though the name they used to open it is gone and the file's link count may have reached zero.
 
-
+If the file is being deleted at user request, using POSIX semantics allows the system to delete the file as requested, but also allows any process with an open handle to continue to access the file's data as long as the handle is open. 
 
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwclose">ZwClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetinformationfile">ZwSetInformationFile</a>
  
 
  

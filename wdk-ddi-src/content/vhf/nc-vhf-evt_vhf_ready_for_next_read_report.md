@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	vhf.h
+- vhf.h
 api_name:
--	EvtVhfReadyForNextReadReport
+- EvtVhfReadyForNextReadReport
 product:
 - Windows
 targetos: Windows

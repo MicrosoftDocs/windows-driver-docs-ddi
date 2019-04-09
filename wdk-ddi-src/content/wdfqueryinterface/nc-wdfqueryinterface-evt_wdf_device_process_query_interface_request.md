@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	WdfQueryInterface.h
+- WdfQueryInterface.h
 api_name:
--	EvtDeviceProcessQueryInterfaceRequest
+- EvtDeviceProcessQueryInterfaceRequest
 product:
 - Windows
 targetos: Windows

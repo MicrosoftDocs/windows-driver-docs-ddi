@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STORAGE_TIER_CLASS
+- _FILE_STORAGE_TIER_CLASS
 product:
 - Windows
 targetos: Windows

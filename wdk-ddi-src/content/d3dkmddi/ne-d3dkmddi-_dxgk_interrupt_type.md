@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_INTERRUPT_TYPE
+- DXGK_INTERRUPT_TYPE
 product:
 - Windows
 targetos: Windows
@@ -149,7 +149,7 @@ Raised when the GPU engine has timed out. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_SUSPEND_CONTEXT_COMPLETED
 
-Raised when the the suspend context has completed. Supported starting with Windows 10.
+Raised when the suspend context has completed. Supported starting with Windows 10.
 
 ## -see-also
 

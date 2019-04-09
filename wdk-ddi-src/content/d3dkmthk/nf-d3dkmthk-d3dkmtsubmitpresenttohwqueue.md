@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTSubmitPresentToHwQueue
+- D3DKMTSubmitPresentToHwQueue
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 
@@ -45,13 +45,16 @@ ms.custom: RS5
 
 ## -description
 
+> [NOTE!] 
+> This function has been deprecated, and replaced with the D3DKMTSubmitPresentBltToHwQueue function.
+
 SubmitPresentToHwQueue submits a Blt Present operation to a hardware queue.
 
 ## -parameters
 
 ### -param Arg1
 
-[in] Pointer to a [D3DKMT_SUBMITPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitpresenttohwqueue.md) structure.
+[in,out] Pointer to a [D3DKMT_SUBMITPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitpresenttohwqueue.md) structure.
 
 ## -returns
 

@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiGetNodeMetadata
+- DxgkDdiGetNodeMetadata
 product:
 - Windows
 targetos: Windows
@@ -67,7 +67,7 @@ An index of a node for which engine information will be obtained. This node is w
 
 A pointer to a DXGKARG_GETNODEMETADATA structure that contains the engine type and friendly name of the engine specified by the <i>NodeOrdinal</i> parameter.
 
-Note that the DXGKARG_GETNODEMETADATA structure is declared as a [DXGK_NODEMETADATA](..\d3dkmdt\ns-d3dkmdt-_dxgk_nodemetadata.md) structure.
+Note that the DXGKARG_GETNODEMETADATA structure is declared as a [DXGK_NODEMETADATA](../d3dkmdt/ns-d3dkmdt-_dxgk_nodemetadata.md) structure.
 
 ## -returns
 
@@ -96,7 +96,7 @@ For more information on how to implement this function, see <a href="https://msd
 
 ## -see-also
 
-[DXGK_NODEMETADATA](..\d3dkmdt\ns-d3dkmdt-_dxgk_nodemetadata.md)
+[DXGK_NODEMETADATA](../d3dkmdt/ns-d3dkmdt-_dxgk_nodemetadata.md)
 
 <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  

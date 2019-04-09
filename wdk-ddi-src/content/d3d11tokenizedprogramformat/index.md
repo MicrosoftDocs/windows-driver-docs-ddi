@@ -1,7 +1,7 @@
 ---
 UID: NA:d3d11tokenizedprogramformat
 ms.assetid: e2cf71a2-6ab7-39c5-a98d-46c210a9a028
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

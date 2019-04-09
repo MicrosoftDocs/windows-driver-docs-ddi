@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dukmdt.h
+- D3dukmdt.h
 api_name:
--	D3DDDIARG_CREATERESOURCE2
+- D3DDDIARG_CREATERESOURCE2
 product:
 - Windows
 targetos: Windows

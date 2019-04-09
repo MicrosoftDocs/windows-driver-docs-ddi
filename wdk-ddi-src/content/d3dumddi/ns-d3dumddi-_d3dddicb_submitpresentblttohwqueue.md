@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	_D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
+- _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product: 
 - Windows
 targetos: Windows

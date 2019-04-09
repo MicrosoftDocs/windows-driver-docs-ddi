@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_WHITE_BALANCE_SETTINGS
+- WPD_WHITE_BALANCE_SETTINGS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_WHITE_BALANCE_SETTINGS
 ms.custom: RS5

@@ -26,16 +26,16 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteTyped.operator[]
+- ExtRemoteTyped.operator[]
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames:
 ---
@@ -74,7 +74,8 @@ The <b>operator[]</b> operator returns a new <b>ExtRemoteTyped</b> object that r
 
 If the typed data represented by this object is a pointer and not an array, the pointer is treated like an array.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRemoteTyped::ArrayElement</a> performs a similar function.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-arrayelement">ExtRemoteTyped::ArrayElement</a> performs a similar function.
+
 
 
 
@@ -82,25 +83,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRe
 ## -see-also
 
 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-arrayelement">ExtRemoteTyped::ArrayElement</a> 
 
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRemoteTyped::ArrayElement</a>
-
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-operator-index(long64)">ExtRemoteTyped::Operator[] (LONG64)</a>
 
 
-<a href="https://msdn.microsoft.com/1c2a78ca-5820-40d5-936a-99d50661c982">ExtRemoteTyped::Operator[] (LONG64)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong)">ExtRemoteTyped::Operator[] (ULONG)</a>
 
 
-
-<a href="https://msdn.microsoft.com/d264f2a1-20fa-4bd3-9db5-f253cc5ad0e6">ExtRemoteTyped::Operator[] (ULONG)</a>
-
-
-
-<a href="https://msdn.microsoft.com/60bf48e2-8f44-4ed3-8c35-499e764fcca9">ExtRemoteTyped::Operator[] (ULONG64)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
  
 
  

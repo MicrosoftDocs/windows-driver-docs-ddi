@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_types.h
+- Wudfddi_types.h
 api_name:
--	WDF_PROPERTY_STORE_RETRIEVE_FLAGS
+- WDF_PROPERTY_STORE_RETRIEVE_FLAGS
 product:
 - Windows
 targetos: Windows

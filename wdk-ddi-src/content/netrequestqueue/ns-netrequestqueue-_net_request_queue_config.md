@@ -22,16 +22,16 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_REQUEST_QUEUE_CONFIG, *PNET_REQUEST_QUEUE_CONFIG
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netrequestqueue.h
-apiname: 
--	NET_REQUEST_QUEUE_CONFIG
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netrequestqueue.h
+api_name: 
+- NET_REQUEST_QUEUE_CONFIG
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoRegisterPlugPlayNotification
+- IoRegisterPlugPlayNotification
 product:
 - Windows
 targetos: Windows
@@ -97,7 +97,7 @@ typedef NTSTATUS
   DRIVER_NOTIFICATION_CALLBACK_ROUTINE(
     _In_ PVOID NotificationStructure,
     _Inout_opt_ PVOID Context
-    );</pre>
+    );
 ```
 
 The callback routine's *NotificationStructure* is specific to the *EventCategory* value, as shown in the following table.
@@ -150,7 +150,7 @@ To define a PnP notification callback routine, you must first provide a function
 For example, to define a PnP notification callback routine that is named `MyCallbackRoutine`, use the DRIVER_NOTIFICATION_CALLBACK_ROUTINE type as shown in this code example:
 
 ```c++
-DRIVER_NOTIFICATION_CALLBACK_ROUTINE MyCallbackRoutine;</pre>
+DRIVER_NOTIFICATION_CALLBACK_ROUTINE MyCallbackRoutine;
 ```
 
 Then, implement your callback routine as follows:

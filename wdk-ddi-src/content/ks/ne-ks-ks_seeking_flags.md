@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KS_SEEKING_FLAGS
+- KS_SEEKING_FLAGS
 product:
 - Windows
 targetos: Windows

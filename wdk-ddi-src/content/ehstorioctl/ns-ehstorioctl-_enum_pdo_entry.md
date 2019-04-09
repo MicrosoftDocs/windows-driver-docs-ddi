@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	ENUM_PDO_ENTRY
+- ENUM_PDO_ENTRY
 product:
 - Windows
 targetos: Windows

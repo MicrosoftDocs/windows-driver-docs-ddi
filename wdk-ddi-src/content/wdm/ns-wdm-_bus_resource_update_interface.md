@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_BUS_RESOURCE_UPDATE_INTERFACE
+- _BUS_RESOURCE_UPDATE_INTERFACE
 product:
 - Windows
 targetos: Windows

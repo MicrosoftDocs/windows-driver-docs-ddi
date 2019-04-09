@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_LEVEL_TRIM_RANGE
+- FILE_LEVEL_TRIM_RANGE
 product:
 - Windows
 targetos: Windows
@@ -68,7 +68,7 @@ Length in bytes to trim from the given offset.
 
 
 
-Due to alignment requirements, the file system may reduce the of the the trim range to a multiple of <b>PAGE_SIZE</b> &lt;= <b>Length</b>. Also, <b>Offset</b> will be adjusted to the next page boundary if its initial value is not on page boundary.
+Due to alignment requirements, the file system may reduce the of the trim range to a multiple of <b>PAGE_SIZE</b> &lt;= <b>Length</b>. Also, <b>Offset</b> will be adjusted to the next page boundary if its initial value is not on page boundary.
 
 
 

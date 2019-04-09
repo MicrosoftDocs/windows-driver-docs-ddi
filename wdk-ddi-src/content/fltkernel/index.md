@@ -1,13 +1,13 @@
 ---
 UID: NA:fltkernel
 ms.assetid: 4bae9dcd-2c48-3a14-9947-7e0831da3b42
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

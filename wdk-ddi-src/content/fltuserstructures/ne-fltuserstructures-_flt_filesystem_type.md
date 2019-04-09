@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltUserStructures.h
+- fltUserStructures.h
 api_name:
--	FLT_FILESYSTEM_TYPE
+- FLT_FILESYSTEM_TYPE
 product:
 - Windows
 targetos: Windows

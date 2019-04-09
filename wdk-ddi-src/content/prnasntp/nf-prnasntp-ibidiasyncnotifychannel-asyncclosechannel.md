@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Prnasntp.h
+- Prnasntp.h
 api_name:
--	IBidiAsyncNotifyChannel.AsyncCloseChannel
+- IBidiAsyncNotifyChannel.AsyncCloseChannel
 product:
 - Windows
 targetos: Windows

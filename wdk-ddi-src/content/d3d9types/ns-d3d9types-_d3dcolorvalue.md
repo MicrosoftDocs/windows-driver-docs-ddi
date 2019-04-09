@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DCOLORVALUE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DCOLORVALUE
+- _D3DCOLORVALUE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

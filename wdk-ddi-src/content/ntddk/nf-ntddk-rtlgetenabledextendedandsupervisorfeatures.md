@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	DllExport
-apilocation: 
--	NtosKrnl.exe
-apiname: 
--	RtlGetEnabledExtendedAndSupervisorFeatures
+topic_type: 
+- apiref
+api_type: 
+- DllExport
+api_location:
+- NtosKrnl.exe
+api_name: 
+- RtlGetEnabledExtendedAndSupervisorFeatures
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

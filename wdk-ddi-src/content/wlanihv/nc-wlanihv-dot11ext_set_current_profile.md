@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	Dot11ExtSetCurrentProfile
+- Dot11ExtSetCurrentProfile
 product:
 - Windows
 targetos: Windows

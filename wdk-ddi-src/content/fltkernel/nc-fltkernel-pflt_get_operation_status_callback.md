@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	FltKernel.h
+- FltKernel.h
 api_name:
--	OperationStatusCallback
+- OperationStatusCallback
 product:
 - Windows
 targetos: Windows

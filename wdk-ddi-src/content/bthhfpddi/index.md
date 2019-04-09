@@ -1,13 +1,13 @@
 ---
 UID: NA:bthhfpddi
 ms.assetid: 3204c1dc-a7d6-343c-8591-e2175352866a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: audio
 ---
 

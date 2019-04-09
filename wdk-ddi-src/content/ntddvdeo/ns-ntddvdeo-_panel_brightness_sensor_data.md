@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_BRIGHTNESS_SENSOR_DATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_BRIGHTNESS_SENSOR_DATA
+- _PANEL_BRIGHTNESS_SENSOR_DATA
 product: 
 - Windows
 targetos: Windows

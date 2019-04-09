@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	PropKeyFindKeyGetNthInt64
+- PropKeyFindKeyGetNthInt64
 product:
   - Windows
 targetos: Windows

@@ -1,13 +1,13 @@
 ---
 UID: NA:treevariableservice
 ms.assetid: bef41398-1512-3aee-a716-664a76c733e6
-ms.date: 08/09/18
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: treedrv
 ms.custom: RS5
 ---

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FwpsOpenToken0
+- FwpsOpenToken0
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_KM_AUTHORIZATION
+- FWPS_FIELDS_KM_AUTHORIZATION
 product:
 - Windows
 targetos: Windows

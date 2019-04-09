@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_PIO_RECEIVE_CONFIG_INIT
+- SERCX2_PIO_RECEIVE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

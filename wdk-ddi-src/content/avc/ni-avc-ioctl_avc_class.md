@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avc.h
+- avc.h
 api_name:
--	IOCTL_AVC_CLASS
+- IOCTL_AVC_CLASS
 product:
 - Windows
 targetos: Windows

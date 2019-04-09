@@ -1,13 +1,13 @@
 ---
 UID: NA:rxtimer
 ms.assetid: 2ab3b1c1-221c-37dd-9599-6b8c422b887b
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

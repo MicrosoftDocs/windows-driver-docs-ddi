@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	PrintSchemaSelectionType
+- PrintSchemaSelectionType
 product:
 - Windows
 targetos: Windows

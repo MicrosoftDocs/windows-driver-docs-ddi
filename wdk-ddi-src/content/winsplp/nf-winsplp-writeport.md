@@ -25,15 +25,15 @@ req.type-library:
 req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	winsplp.h
-apiname:
--	WritePort
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- winsplp.h
+api_name:
+- WritePort
 product:
 - Windows
 targetos: Windows

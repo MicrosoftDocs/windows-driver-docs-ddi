@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_DEVICE_FAULT_CONFIGURATION
+- _DEVICE_FAULT_CONFIGURATION
 product:
 - Windows
 targetos: Windows
@@ -41,8 +41,8 @@ This structure is used in seting the device fault reporting state through the [I
 ## -struct-fields
 
 ### -field FaultHandler
-A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_domain_fault_handler.md).
- 
+A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_device_fault_handler.md).
+
 ### -field FaultContext
 A pointer to the opaque driver-supplied fault context.
 

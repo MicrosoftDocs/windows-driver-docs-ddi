@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsi.h
+- scsi.h
 api_name:
--	SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
+- SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NET_BUFFER_DATA
+- NET_BUFFER_DATA
 product:
 - Windows
 targetos: Windows

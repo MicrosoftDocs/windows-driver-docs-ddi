@@ -1,13 +1,13 @@
 ---
 UID: NA:wdftimer
 ms.assetid: 2e3461b3-e5d1-3020-83c8-4e3a677d10f1
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: wdf
 ---
 

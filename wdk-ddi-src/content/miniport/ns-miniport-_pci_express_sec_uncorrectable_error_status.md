@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
+- PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
 product:
 - Windows
 targetos: Windows

@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_CONFIG_INDICES
+- _WWAN_SAR_CONFIG_INDICES
 product:
 - Windows
 targetos: Windows

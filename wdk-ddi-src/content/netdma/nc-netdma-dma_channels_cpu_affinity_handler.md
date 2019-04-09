@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	ProviderSetDmaChannelCpuAffinity
+- ProviderSetDmaChannelCpuAffinity
 product:
 - Windows
 targetos: Windows

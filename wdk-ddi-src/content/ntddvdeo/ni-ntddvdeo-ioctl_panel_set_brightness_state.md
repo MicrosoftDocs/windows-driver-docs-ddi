@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	IOCTL_PANEL_SET_BRIGHTNESS_STATE
+- IOCTL_PANEL_SET_BRIGHTNESS_STATE
 product: 
 - Windows
 targetos: Windows

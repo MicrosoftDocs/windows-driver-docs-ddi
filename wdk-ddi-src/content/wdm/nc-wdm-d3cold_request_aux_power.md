@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	D3COLD_REQUEST_AUX_POWER
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- D3COLD_REQUEST_AUX_POWER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -69,7 +69,7 @@ D3COLD_REQUEST_AUX_POWER *PD3COLD_REQUEST_AUX_POWER
 [_In_reads_opt_(_Inexpressible_("varies"))] The handle to the device.
  
 ### -param AuxPowerInMilliWatts
-[_In_] The the wattage in units of mW that the device needs for D3cold when the system is in S0. This value must be less than 0x80000000.
+[_In_] The wattage in units of mW that the device needs for D3cold when the system is in S0. This value must be less than 0x80000000.
 
 ### -param RetryInSeconds 
 [_Out_] A pointer to a ULONG variable that receives the number of seconds the driver can retry its request when the request fails with STATUS_RETRY.

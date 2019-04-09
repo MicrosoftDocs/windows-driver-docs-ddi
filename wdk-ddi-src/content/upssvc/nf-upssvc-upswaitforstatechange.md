@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	upssvc.h
+- upssvc.h
 api_name:
--	UPSWaitForStateChange
+- UPSWaitForStateChange
 product:
 - Windows
 targetos: Windows

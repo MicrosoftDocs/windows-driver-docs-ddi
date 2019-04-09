@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
+- NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

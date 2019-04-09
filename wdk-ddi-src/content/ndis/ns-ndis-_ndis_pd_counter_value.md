@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_PD_COUNTER_VALUE
+- NDIS_PD_COUNTER_VALUE
 product:
 - Windows
 targetos: Windows

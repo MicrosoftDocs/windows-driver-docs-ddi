@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
+- IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO
 product:
 - Windows
 targetos: Windows

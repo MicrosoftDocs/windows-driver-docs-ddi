@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfmemory.h
+- wdfmemory.h
 api_name:
--	WDFMEMORY_OFFSET
+- WDFMEMORY_OFFSET
 product:
 - Windows
 targetos: Windows

@@ -1,13 +1,13 @@
 ---
 UID: NA:rxdata
 ms.assetid: 3479e19c-0aaf-38d9-940a-fe884948a8b1
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

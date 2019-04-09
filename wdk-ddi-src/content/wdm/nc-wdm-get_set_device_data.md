@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	GetBusData
+- GetBusData
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	1.0\Sercx.h
+- 1.0\Sercx.h
 api_name:
--	SerCxCompleteWait
+- SerCxCompleteWait
 product:
 - Windows
 targetos: Windows

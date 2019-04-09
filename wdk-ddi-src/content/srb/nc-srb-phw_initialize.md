@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	srb.h
+- srb.h
 api_name:
--	(*PHW_INITIALIZE)
+- (*PHW_INITIALIZE)
 product:
 - Windows
 targetos: Windows

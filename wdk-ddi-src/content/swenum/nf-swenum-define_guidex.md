@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	swenum.h
+- swenum.h
 api_name: 
--	DEFINE_GUIDEX
+- DEFINE_GUIDEX
 product: 
 -   Windows
 targetos: Windows

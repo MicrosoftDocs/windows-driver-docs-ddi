@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050
+- PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -69,7 +69,7 @@ A D3D12DDI_HRTSCHEDULINGGROUP_0050 runtime handle type that represents the conte
 
 ### -param *
 
-A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
+A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](../d3dumddi/ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
 
 ## -returns
 

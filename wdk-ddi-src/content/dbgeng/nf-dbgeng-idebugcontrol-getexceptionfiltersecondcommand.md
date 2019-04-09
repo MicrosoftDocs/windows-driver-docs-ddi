@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetExceptionFilterSecondCommand
--	IDebugControl2.GetExceptionFilterSecondCommand
--	IDebugControl3.GetExceptionFilterSecondCommand
+- IDebugControl.GetExceptionFilterSecondCommand
+- IDebugControl2.GetExceptionFilterSecondCommand
+- IDebugControl3.GetExceptionFilterSecondCommand
 product:
 - Windows
 targetos: Windows

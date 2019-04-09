@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	hidpi.h
+- hidpi.h
 api_name:
--	HidP_GetCaps
+- HidP_GetCaps
 product:
 - Windows
 targetos: Windows

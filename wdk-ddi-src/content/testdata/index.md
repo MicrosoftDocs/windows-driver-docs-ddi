@@ -1,13 +1,13 @@
 ---
 UID: NA:testdata
 ms.assetid: 32fec65b-f9dc-3444-a4d9-0cde2a5fd333
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: dtf
 ---
 

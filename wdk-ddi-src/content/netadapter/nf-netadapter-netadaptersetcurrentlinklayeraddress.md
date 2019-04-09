@@ -27,16 +27,16 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetCurrentLinkLayerAddress
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netadapter.h
-apiname: 
--	NetAdapterSetCurrentLinkLayerAddress
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netadapter.h
+api_name: 
+- NetAdapterSetCurrentLinkLayerAddress
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

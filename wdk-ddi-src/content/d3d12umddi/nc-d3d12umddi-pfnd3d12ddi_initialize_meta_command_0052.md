@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_INITIALIZE_META_COMMAND_0052
+- PFND3D12DDI_INITIALIZE_META_COMMAND_0052
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -75,7 +75,7 @@ A handle to a meta-command.
 
 ### -param *
 
-A pointer to a [D3D12DDIARG_METACOMMAND_PARAMETER_DATA](ns-d3d12umddi-d3d12ddiarg_metacommand_parameter_data.md) structure to initialize.
+A pointer to a meta-command.
 
 ### -param Arg3
 

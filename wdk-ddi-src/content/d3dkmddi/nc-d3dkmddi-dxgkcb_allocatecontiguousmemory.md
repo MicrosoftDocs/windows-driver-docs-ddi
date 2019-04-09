@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKCB_ALLOCATECONTIGUOUSMEMORY
+- DXGKCB_ALLOCATECONTIGUOUSMEMORY
 product: 
 - Windows
 targetos: Windows
@@ -40,7 +40,7 @@ tech.root: display
 
 ## -description
 
-Implemented by the client driver to allocate contiguous memory regions in the IoMMu's logical address space. This callback function is a Windows graphics port driver function equivalent to the [MmAllocateContiguousMemory function](..\wdm\nf-wdm-mmallocatecontiguousmemory.md) of the kernel mode driver.
+Implemented by the client driver to allocate contiguous memory regions in the IoMMu's logical address space. This callback function is a Windows graphics port driver function equivalent to the [MmAllocateContiguousMemory function](../wdm/nf-wdm-mmallocatecontiguousmemory.md) of the kernel mode driver.
 
 ## -prototype
 

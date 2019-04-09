@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
+- IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
 product:
 - Windows
 targetos: Windows

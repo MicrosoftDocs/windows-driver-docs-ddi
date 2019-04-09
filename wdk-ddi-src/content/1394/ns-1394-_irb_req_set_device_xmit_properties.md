@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
+- IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 product:
 - Windows
 targetos: Windows

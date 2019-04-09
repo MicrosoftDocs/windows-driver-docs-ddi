@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	NtCreateSectionEx
+- NtCreateSectionEx
 product:
 - Windows
 targetos: Windows
@@ -89,7 +89,7 @@ Specifies a bitmask of SEC_<i>XXX</i> flags that determines the allocation attri
 Optionally specifies a handle for an open file object. If the value of <i>FileHandle</i> is <b>NULL</b>, the section is backed by the paging file. Otherwise, the section is backed by the specified file. 
 
 ### -param ExtendedParameters [in/out]
-A pointer to an array of [**MEM_EXTENDED_PARAMETER**](..\wdm\ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
+A pointer to an array of [**MEM_EXTENDED_PARAMETER**](../wdm/ns-wdm-mem_extended_parameter.md) structures the contains the extended paramters to create the section.
 
 ### -param ExtendedParameterCount
 The size of the _ExtendedParameters_ array.

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	scsiwmi.h
+- scsiwmi.h
 api_name:
--	SCSI_WMILIB_CONTEXT
+- SCSI_WMILIB_CONTEXT
 product:
 - Windows
 targetos: Windows

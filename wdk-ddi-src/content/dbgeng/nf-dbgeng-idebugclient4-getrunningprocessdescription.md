@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetRunningProcessDescription
--	IDebugClient2.GetRunningProcessDescription
--	IDebugClient3.GetRunningProcessDescription
--	IDebugClient4.GetRunningProcessDescription
--	IDebugClient5.GetRunningProcessDescription
+- IDebugClient.GetRunningProcessDescription
+- IDebugClient2.GetRunningProcessDescription
+- IDebugClient3.GetRunningProcessDescription
+- IDebugClient4.GetRunningProcessDescription
+- IDebugClient5.GetRunningProcessDescription
 product:
 - Windows
 targetos: Windows

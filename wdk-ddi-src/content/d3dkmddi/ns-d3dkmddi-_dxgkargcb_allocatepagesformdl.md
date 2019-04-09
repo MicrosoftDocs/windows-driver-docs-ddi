@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_ALLOCATEPAGESFORMDL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_ALLOCATEPAGESFORMDL
+- _DXGKARGCB_ALLOCATEPAGESFORMDL
 product: 
 - Windows
 targetos: Windows

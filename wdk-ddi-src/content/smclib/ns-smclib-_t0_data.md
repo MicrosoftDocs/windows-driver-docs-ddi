@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Smclib.h
+- Smclib.h
 api_name:
--	T0_DATA
+- T0_DATA
 product:
 - Windows
 targetos: Windows

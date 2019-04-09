@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.GetInputCallbacks
--	IDebugClient2.GetInputCallbacks
--	IDebugClient3.GetInputCallbacks
--	IDebugClient4.GetInputCallbacks
--	IDebugClient5.GetInputCallbacks
+- IDebugClient.GetInputCallbacks
+- IDebugClient2.GetInputCallbacks
+- IDebugClient3.GetInputCallbacks
+- IDebugClient4.GetInputCallbacks
+- IDebugClient5.GetInputCallbacks
 product:
 - Windows
 targetos: Windows

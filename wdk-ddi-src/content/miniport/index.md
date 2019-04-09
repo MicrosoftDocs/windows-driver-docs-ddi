@@ -1,13 +1,13 @@
 ---
 UID: NA:miniport
 ms.assetid: a0a0b4a0-7bc0-3610-8f94-30f1e1e1cc06
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: kernel
 ---
 

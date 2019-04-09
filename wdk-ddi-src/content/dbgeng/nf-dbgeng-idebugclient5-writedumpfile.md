@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.WriteDumpFile
--	IDebugClient2.WriteDumpFile
--	IDebugClient3.WriteDumpFile
--	IDebugClient4.WriteDumpFile
--	IDebugClient5.WriteDumpFile
+- IDebugClient.WriteDumpFile
+- IDebugClient2.WriteDumpFile
+- IDebugClient3.WriteDumpFile
+- IDebugClient4.WriteDumpFile
+- IDebugClient5.WriteDumpFile
 product:
 - Windows
 targetos: Windows
@@ -91,14 +91,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The DEBUG_DUMP_<i>XXX</i> constants are used by the methods <b>WriteDumpFile</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a> to specify the type of crash dump file to create.
 
@@ -116,17 +110,14 @@ The possible values include the following.
 </td>
 <td>
 Creates a Small Memory Dump (kernel-mode) or Minidump (user-mode).
-
 </td>
 </tr>
 <tr>
 <td>
 <b>DEBUG_DUMP_DEFAULT</b>
-
 </td>
 <td>
 Creates a Full User-Mode Dump (user-mode) or Kernel Summary Dump (kernel-mode).
-
 </td>
 </tr>
 <tr>
@@ -136,12 +127,12 @@ Creates a Full User-Mode Dump (user-mode) or Kernel Summary Dump (kernel-mode).
 </td>
 <td>
 
-         Creates a Complete Memory Dump (kernel-mode only).
+Creates a Complete Memory Dump (kernel-mode only).
 
 </td>
 </tr>
 </table>
- 
+
 
 To specify the formatting of the file and--for user-mode minidumps--the information to include in the file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>.
 
@@ -158,21 +149,18 @@ Moreover, the following aliases are available for kernel-mode debugging.
 <td>DEBUG_KERNEL_SMALL_DUMP</td>
 <td>
 DEBUG_DUMP_SMALL
-
 </td>
 </tr>
 <tr>
 <td>DEBUG_KERNEL_DUMP</td>
 <td>
 DEBUG_DUMP_DEFAULT
-
 </td>
 </tr>
 <tr>
 <td>DEBUG_KERNEL_FULL_DUMP</td>
 <td>
 DEBUG_DUMP_FULL
-
 </td>
 </tr>
 </table>
@@ -205,43 +193,21 @@ DEBUG_DUMP_DEFAULT
 For a description of kernel-mode dump files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560246">Varieties of Kernel-Mode Dump Files</a>.  For a description of user-mode dump files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/user-mode-dump-files">Varieties of User-Mode Dump Files</a>.
 
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
- 
-
- 
 

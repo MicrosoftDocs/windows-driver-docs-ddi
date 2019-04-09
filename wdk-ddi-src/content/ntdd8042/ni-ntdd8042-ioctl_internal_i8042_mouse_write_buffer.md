@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdd8042.h
+- ntdd8042.h
 api_name:
--	IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
+- IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 product:
 - Windows
 targetos: Windows

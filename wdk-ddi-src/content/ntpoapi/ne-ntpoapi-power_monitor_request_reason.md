@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: POWER_MONITOR_REQUEST_REASON
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntpoapi.h
-apiname: 
--	POWER_MONITOR_REQUEST_REASON
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntpoapi.h
+api_name: 
+- POWER_MONITOR_REQUEST_REASON
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

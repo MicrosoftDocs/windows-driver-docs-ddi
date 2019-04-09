@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PointOfServiceDriverInterface.h
+- PointOfServiceDriverInterface.h
 api_name:
--	MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
+- MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 product:
 - Windows
 targetos: Windows

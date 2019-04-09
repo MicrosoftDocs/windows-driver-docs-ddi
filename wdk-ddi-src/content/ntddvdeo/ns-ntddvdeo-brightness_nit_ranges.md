@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BRIGHTNESS_NIT_RANGES, *PBRIGHTNESS_NIT_RANGES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	BRIGHTNESS_NIT_RANGES
+- BRIGHTNESS_NIT_RANGES
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

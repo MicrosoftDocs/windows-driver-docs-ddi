@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbspec.h
+- Usbspec.h
 api_name:
--	USB_DEVICE_SPEED
+- USB_DEVICE_SPEED
 product:
 - Windows
 targetos: Windows
@@ -83,7 +83,7 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/#enumerations">USB Constants and Enumerations</a>
  
 
  

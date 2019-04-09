@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugOutputCallbacks2.GetInterestMask
+- IDebugOutputCallbacks2.GetInterestMask
 product:
 - Windows
 targetos: Windows

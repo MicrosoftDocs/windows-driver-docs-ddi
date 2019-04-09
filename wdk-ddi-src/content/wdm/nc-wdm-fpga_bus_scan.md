@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	FPGA_BUS_SCAN
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- FPGA_BUS_SCAN
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -73,7 +73,7 @@ FPGA_BUS_SCAN *PFPGA_BUS_SCAN
 
 ## -remarks
 
-A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the the driver sets the **BusScan** member to a pointer to its implementation of the _FPGA_BUS_SCAN_ callback function.
+A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the driver sets the **BusScan** member to a pointer to its implementation of the _FPGA_BUS_SCAN_ callback function.
 
 
 ## -see-also

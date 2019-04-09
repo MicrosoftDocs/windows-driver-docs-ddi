@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.SetOutputMask
--	IDebugClient2.SetOutputMask
--	IDebugClient3.SetOutputMask
--	IDebugClient4.SetOutputMask
--	IDebugClient5.SetOutputMask
+- IDebugClient.SetOutputMask
+- IDebugClient2.SetOutputMask
+- IDebugClient3.SetOutputMask
+- IDebugClient4.SetOutputMask
+- IDebugClient5.SetOutputMask
 product:
 - Windows
 targetos: Windows

@@ -1,13 +1,13 @@
 ---
 UID: NA:smclib
 ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: smartcard
 ---
 

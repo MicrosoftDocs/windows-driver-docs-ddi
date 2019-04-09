@@ -22,14 +22,14 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library:
-topictype:
--	apiref
-apitype:
--	UserDefined
-apilocation:
--	iddcx.h
-apiname:
--	PFN_IDDCXMONITORGETSRMLISTVERSION
+topic_type:
+- apiref
+api_type:
+- UserDefined
+api_location:
+- iddcx.h
+api_name:
+- PFN_IDDCXMONITORGETSRMLISTVERSION
 product: 
 - Windows
 targetos: Windows

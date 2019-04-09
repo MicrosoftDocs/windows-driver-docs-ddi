@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
+- DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 product:
 - Windows
 targetos: Windows

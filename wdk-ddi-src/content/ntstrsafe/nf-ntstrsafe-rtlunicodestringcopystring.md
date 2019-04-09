@@ -26,15 +26,15 @@ req.lib: Ntstrsafe.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ntstrsafe.lib
--	Ntstrsafe.dll
+- Ntstrsafe.lib
+- Ntstrsafe.dll
 api_name:
--	RtlUnicodeStringCopyString
+- RtlUnicodeStringCopyString
 product:
 - Windows
 targetos: Windows

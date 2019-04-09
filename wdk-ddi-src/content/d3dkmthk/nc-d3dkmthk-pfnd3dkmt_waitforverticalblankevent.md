@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	PFND3DKMT_WAITFORVERTICALBLANKEVENT
+- PFND3DKMT_WAITFORVERTICALBLANKEVENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

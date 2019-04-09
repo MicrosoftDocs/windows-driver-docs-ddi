@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
+- DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
 product:
 - Windows
 targetos: Windows
@@ -113,7 +113,7 @@ The status of the request send attempt. Set to <b>NDIS_STATUS_SUCCESS</b> if the
 
 ### -field uIEsOffset
 
-The offset, in bytes,  of the array of additional information elements (IEs) which were included in the the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
+The offset, in bytes,  of the array of additional information elements (IEs) which were included in the GO negotiation confirmation packet. This offset is from the start of the buffer that contains this structure.
 
 
 ### -field uIEsLength

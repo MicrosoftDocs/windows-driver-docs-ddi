@@ -1,13 +1,13 @@
 ---
 UID: NA:wdfcompaniontarget
 ms.assetid: 1b9244b9-b343-3a04-bd61-91ac23ea3ef8
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: wdf
 ---
 

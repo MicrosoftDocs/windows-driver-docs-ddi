@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTCreateTrackedWorkload
+- D3DKMTCreateTrackedWorkload
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

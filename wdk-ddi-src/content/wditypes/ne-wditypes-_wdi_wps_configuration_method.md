@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_WPS_CONFIGURATION_METHOD
+- WDI_WPS_CONFIGURATION_METHOD
 product:
 - Windows
 targetos: Windows

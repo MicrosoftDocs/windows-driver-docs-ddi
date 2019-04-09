@@ -1,13 +1,13 @@
 ---
 UID: NA:windot11
 ms.assetid: 8872c564-632e-37f2-91e3-18d831a91cd2
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: netvista
 ---
 

@@ -16,16 +16,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: WELL_KNOWN_SID_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	ntddk.h
-apiname: 
--	WELL_KNOWN_SID_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- ntddk.h
+api_name: 
+- WELL_KNOWN_SID_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetLastEventInformation
--	IDebugControl2.GetLastEventInformation
--	IDebugControl3.GetLastEventInformation
+- IDebugControl.GetLastEventInformation
+- IDebugControl2.GetLastEventInformation
+- IDebugControl3.GetLastEventInformation
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddump.h
+- ntdddump.h
 api_name:
--	FILTER_INITIALIZATION_DATA
+- FILTER_INITIALIZATION_DATA
 product:
 - Windows
 targetos: Windows

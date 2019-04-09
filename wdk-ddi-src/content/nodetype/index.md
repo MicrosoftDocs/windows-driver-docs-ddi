@@ -1,13 +1,13 @@
 ---
 UID: NA:nodetype
 ms.assetid: 705fa667-d2fd-30e5-8d41-81c11cb442fb
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

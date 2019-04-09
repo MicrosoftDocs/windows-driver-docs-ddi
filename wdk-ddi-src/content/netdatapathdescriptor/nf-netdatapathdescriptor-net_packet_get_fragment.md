@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netdatapathdescriptor.h
-apiname: 
--	NET_PACKET_GET_FRAGMENT
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netdatapathdescriptor.h
+api_name: 
+- NET_PACKET_GET_FRAGMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

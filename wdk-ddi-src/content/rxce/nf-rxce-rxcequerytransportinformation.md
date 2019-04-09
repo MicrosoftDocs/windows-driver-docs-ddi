@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxce.h
+- rxce.h
 api_name:
--	RxCeQueryTransportInformation
+- RxCeQueryTransportInformation
 product:
 - Windows
 targetos: Windows

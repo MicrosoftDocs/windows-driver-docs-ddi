@@ -2,7 +2,7 @@
 UID: NF:ucmucsippm.UCMUCSI_CONNECTOR_INFO_INIT
 title: UCMUCSI_CONNECTOR_INFO_INIT function (ucmucsippm.h)
 tech.root: usbref
-description: Initializes a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure.
+description: Initializes a UCMUCSI_CONNECTOR_INFO structure.
 ms.assetid: 59008f71-2e62-4cbe-9b47-0b2f081582b5
 ms.date: 09/30/2018
 ms.topic: function
@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	UCMUCSI_CONNECTOR_INFO_INIT
+- UCMUCSI_CONNECTOR_INFO_INIT
 product:
 - Windows
 targetos: Windows

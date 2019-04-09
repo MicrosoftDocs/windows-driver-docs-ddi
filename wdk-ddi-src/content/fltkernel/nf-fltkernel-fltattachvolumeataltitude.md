@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltAttachVolumeAtAltitude
+- FltAttachVolumeAtAltitude
 product:
 - Windows
 targetos: Windows

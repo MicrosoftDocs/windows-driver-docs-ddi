@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	FsRtlUninitializeBaseMcb
+- FsRtlUninitializeBaseMcb
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5
@@ -56,4 +56,4 @@ None.
 
 ## -see-also
 
-[FsRtlInitializeLargeMcb function](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb~r1.md)
+[**FsRtlInitializeLargeMcb**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb)

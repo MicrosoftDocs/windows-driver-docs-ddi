@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSAUDIOENGINE_BUFFER_SIZE_RANGE
+- KSAUDIOENGINE_BUFFER_SIZE_RANGE
 product:
 - Windows
 targetos: Windows

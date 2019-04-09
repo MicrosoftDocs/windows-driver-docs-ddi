@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	FltMgr.sys
+- FltMgr.sys
 api_name: 
--	FltReleasePushLockEx
+- FltReleasePushLockEx
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

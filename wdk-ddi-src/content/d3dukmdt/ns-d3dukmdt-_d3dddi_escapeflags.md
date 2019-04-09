@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_ESCAPEFLAGS
+- D3DDDI_ESCAPEFLAGS
 product:
 - Windows
 targetos: Windows
@@ -100,7 +100,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 ### -field VirtualMachineData
 
-Indicates that [DxgkDdiEscape](..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
+Indicates that [DxgkDdiEscape](../d3dkmddi/nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
 
 ### -field DriverKnownEscape
 

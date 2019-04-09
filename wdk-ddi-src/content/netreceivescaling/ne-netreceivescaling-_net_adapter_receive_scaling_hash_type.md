@@ -17,16 +17,16 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	netreceivescaling.h
-apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- netreceivescaling.h
+api_name: 
+- _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

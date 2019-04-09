@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wsk.h
+- Wsk.h
 api_name:
--	WskReleaseDatagramIndicationList
+- WskReleaseDatagramIndicationList
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

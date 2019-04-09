@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddcdrm.h
+- ntddcdrm.h
 api_name:
--	IOCTL_CDROM_LOAD_MEDIA
+- IOCTL_CDROM_LOAD_MEDIA
 product:
 - Windows
 targetos: Windows

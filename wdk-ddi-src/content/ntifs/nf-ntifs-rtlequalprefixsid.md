@@ -26,14 +26,14 @@ req.lib: Ntdll.lib
 req.dll: Ntdll.dll
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Ntdll.dll
+- Ntdll.dll
 api_name:
--	RtlEqualPrefixSid
+- RtlEqualPrefixSid
 product:
 - Windows
 targetos: Windows

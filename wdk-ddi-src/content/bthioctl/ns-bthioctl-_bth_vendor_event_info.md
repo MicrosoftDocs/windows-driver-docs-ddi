@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_VENDOR_EVENT_INFO
+- BTH_VENDOR_EVENT_INFO
 product:
 - Windows
 targetos: Windows

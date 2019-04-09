@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_KERNEL_INFORMATION_STRUCT_V3
+- PEP_KERNEL_INFORMATION_STRUCT_V3
 product:
 - Windows
 targetos: Windows

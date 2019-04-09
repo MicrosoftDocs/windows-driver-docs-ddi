@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_NIT_RANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_NIT_RANGE
+- _DXGK_BRIGHTNESS_NIT_RANGE
 product: 
 - Windows
 targetos: Windows

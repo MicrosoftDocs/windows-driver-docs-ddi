@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	PARCLASS_NEGOTIATION_MASK
+- PARCLASS_NEGOTIATION_MASK
 product:
 - Windows
 targetos: Windows

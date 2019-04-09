@@ -24,16 +24,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	LibDef
-apilocation: 
--	netadaptercxstub.lib
-apiname: 
--	NetAdapterStart
+topic_type: 
+- apiref
+api_type: 
+- LibDef
+api_location:
+- netadaptercxstub.lib
+api_name: 
+- NetAdapterStart
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

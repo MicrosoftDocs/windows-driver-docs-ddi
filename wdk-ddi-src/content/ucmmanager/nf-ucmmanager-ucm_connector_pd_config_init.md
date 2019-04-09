@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucmmanager.h
+- Ucmmanager.h
 api_name:
--	UCM_CONNECTOR_PD_CONFIG_INIT
+- UCM_CONNECTOR_PD_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

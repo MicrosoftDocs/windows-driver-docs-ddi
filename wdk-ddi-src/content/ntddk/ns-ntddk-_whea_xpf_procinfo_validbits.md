@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_XPF_PROCINFO_VALIDBITS
+- WHEA_XPF_PROCINFO_VALIDBITS
 product:
 - Windows
 targetos: Windows

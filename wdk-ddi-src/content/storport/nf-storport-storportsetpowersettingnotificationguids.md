@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	StorPortSetPowerSettingNotificationGuids
+- StorPortSetPowerSettingNotificationGuids
 product:
 - Windows
 targetos: Windows

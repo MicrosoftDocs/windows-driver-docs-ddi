@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	MSiSCSI_QueryLBPolicy
+- MSiSCSI_QueryLBPolicy
 product:
 - Windows
 targetos: Windows

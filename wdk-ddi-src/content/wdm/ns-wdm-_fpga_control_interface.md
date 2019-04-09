@@ -19,16 +19,16 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	_FPGA_CONTROL_INTERFACE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- _FPGA_CONTROL_INTERFACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

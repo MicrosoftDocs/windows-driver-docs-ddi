@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_COMPONENT_PLATFORM_CONSTRAINTS
+- PEP_COMPONENT_PLATFORM_CONSTRAINTS
 product:
 - Windows
 targetos: Windows
@@ -62,7 +62,7 @@ The **PEP_COMPONENT_PLATFORM_CONSTRAINTS** structure describes the lowest-powere
 
 ### -field PlatformStateCount
 
-[in] The number of elements in the **MinimumFStates** array. The array contains one element for each platform idle state. The Windows [power management framework (PoFx)](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) previously sent a [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states) notification to the PEP to determine the number of supported platform idle states.
+[in] The number of elements in the **MinimumFStates** array. The array contains one element for each platform idle state. The Windows [power management framework (PoFx)](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework) previously sent a [PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md) notification to the PEP to determine the number of supported platform idle states.
 
 ## -remarks
 
@@ -76,4 +76,4 @@ This structure is used by the [PEP_DPM_COMPONENT_IDLE_CONSTRAINTS](https://docs.
 
 [PEP_DPM_REGISTER_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/kernel/dpm-notifications#pep_dpm_register_device)
 
-[PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states)
+[PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES](ns-pepfx-_pep_ppm_query_platform_states.md)

@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_SET_IN, *PDXGK_BRIGHTNESS_SET_IN
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_SET_IN
+- _DXGK_BRIGHTNESS_SET_IN
 product: 
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---
@@ -37,7 +37,7 @@ tech.root: display
 
 ## -description
 
-Contains input parameters for the [DxgkBrightnessSet3](..\dispmprt\nc-dispmprt-dxgk_brightness_set_3.md) callback function.
+Contains input parameters for the [DxgkBrightnessSet3](../dispmprt/nc-dispmprt-dxgk_brightness_set_3.md) callback function.
 
 ## -struct-fields
 

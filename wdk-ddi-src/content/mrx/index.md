@@ -1,13 +1,13 @@
 ---
 UID: NA:mrx
 ms.assetid: 557bbb65-58fa-337b-b612-f931bb1252ff
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

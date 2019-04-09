@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_SET_BAUD
+- UART_SET_BAUD
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

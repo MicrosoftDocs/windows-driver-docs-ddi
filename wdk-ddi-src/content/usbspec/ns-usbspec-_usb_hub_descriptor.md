@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbspec.h
+- usbspec.h
 api_name:
--	USB_HUB_DESCRIPTOR
+- USB_HUB_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

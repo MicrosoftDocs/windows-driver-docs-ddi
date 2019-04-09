@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	IOMMU_FLUSH_DOMAIN_VA_LIST
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- IOMMU_FLUSH_DOMAIN_VA_LIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

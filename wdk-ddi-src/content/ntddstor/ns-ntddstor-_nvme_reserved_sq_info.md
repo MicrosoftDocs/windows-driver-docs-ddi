@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_SQ_INFO, *PNVME_RESERVED_SQ_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_SQ_INFO
+- _NVME_RESERVED_SQ_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

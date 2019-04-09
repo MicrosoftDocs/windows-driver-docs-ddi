@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winddiui.h
+- winddiui.h
 api_name: 
--	DOCUMENTEVENT_EVENT
+- DOCUMENTEVENT_EVENT
 product:
 -   Windows
 targetos: Windows

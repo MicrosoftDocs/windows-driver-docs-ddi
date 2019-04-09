@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition.UnitType
--	IPrintSchemaParameterDefinition.get_UnitType
+- IPrintSchemaParameterDefinition.UnitType
+- IPrintSchemaParameterDefinition.get_UnitType
 product:
 - Windows
 targetos: Windows

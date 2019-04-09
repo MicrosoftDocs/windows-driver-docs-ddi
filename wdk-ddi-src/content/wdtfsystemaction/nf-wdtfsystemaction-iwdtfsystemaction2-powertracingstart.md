@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFSystemAction.Interop.dll
+- WDTFSystemAction.Interop.dll
 api_name:
--	IWDTFSystemAction2.PowerTracingStart
+- IWDTFSystemAction2.PowerTracingStart
 product:
 - Windows
 targetos: Windows

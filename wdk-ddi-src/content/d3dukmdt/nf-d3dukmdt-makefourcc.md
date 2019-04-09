@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	MAKEFOURCC
+- MAKEFOURCC
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

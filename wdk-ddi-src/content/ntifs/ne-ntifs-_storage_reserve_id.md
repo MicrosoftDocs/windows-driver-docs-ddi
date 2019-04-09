@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: STORAGE_RESERVE_ID, *PSTORAGE_RESERVE_ID
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_STORAGE_RESERVE_ID
+- _STORAGE_RESERVE_ID
 product:
 - Windows
 targetos: Windows

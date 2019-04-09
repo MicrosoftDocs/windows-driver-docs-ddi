@@ -1,13 +1,13 @@
 ---
 UID: NA:wexdebug
 ms.assetid: 9ceaed67-9a74-39cf-b6d6-1c159739a1cd
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: taef
 ---
 

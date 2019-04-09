@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	gnssdriver.h
+- gnssdriver.h
 api_name:
--	GNSS_GEOFENCE_DELETE_PARAM
+- GNSS_GEOFENCE_DELETE_PARAM
 product:
 - Windows
 targetos: Windows

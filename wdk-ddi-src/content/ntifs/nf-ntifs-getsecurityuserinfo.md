@@ -26,15 +26,15 @@ req.lib: Ksecdd.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	ksecdd.lib
--	ksecdd.dll
+- ksecdd.lib
+- ksecdd.dll
 api_name:
--	GetSecurityUserInfo
+- GetSecurityUserInfo
 product:
 - Windows
 targetos: Windows

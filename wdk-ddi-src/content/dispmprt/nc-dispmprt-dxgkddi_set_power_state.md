@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkDdiSetPowerState
+- DxgkDdiSetPowerState
 product:
 - Windows
 targetos: Windows
@@ -95,7 +95,7 @@ The operating system might call <i>DxgkDdiSetPowerState</i> on a child device of
 
 If <i>DevicePowerState</i> is equal to <b>PowerDeviceD0</b>, do not rely on the value of <i>ActionType</i>.
 
-Starting with Windows Display Driver Model (WDDM) 1.2, if the <i>DevicePowerState</i> parameter is set to <b>PowerDeviceD0</b>, the display miniport driver should call <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> to query the information about the display mode. This display mode might have been been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver should determine whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
+Starting with Windows Display Driver Model (WDDM) 1.2, if the <i>DevicePowerState</i> parameter is set to <b>PowerDeviceD0</b>, the display miniport driver should call <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> to query the information about the display mode. This display mode might have been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver should determine whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
 
 The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 

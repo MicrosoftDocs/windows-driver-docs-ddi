@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2PioTransmitEnableReadyNotification
+- EvtSerCx2PioTransmitEnableReadyNotification
 product:
 - Windows
 targetos: Windows
@@ -97,7 +97,7 @@ To define an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> callback functio
 
 For example, to define an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> callback function that is named <code>MyPioTransmitEnableReadyNotification</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -109,7 +109,7 @@ For example, to define an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> cal
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

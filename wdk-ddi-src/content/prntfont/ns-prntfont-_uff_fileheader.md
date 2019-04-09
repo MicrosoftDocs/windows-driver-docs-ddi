@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	prntfont.h
+- prntfont.h
 api_name:
--	UFF_FILEHEADER
+- UFF_FILEHEADER
 product:
 - Windows
 targetos: Windows

@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	ExtRemoteData.ExtRemoteData
+- ExtRemoteData.ExtRemoteData
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5
@@ -72,7 +72,7 @@ The constructor is called by the ExtRemoteData::Set(Typed), ExtRemoteData::Set(O
 
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) 
 
-[ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)](nf-engextcpp-extremotedata-extremotedata(pcstr,ulong64,ulong).md)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
 
  
 

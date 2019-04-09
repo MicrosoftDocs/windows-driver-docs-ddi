@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	netpacketqueue.h
+- netpacketqueue.h
 api_name: 
--	EVT_PACKET_QUEUE_START
+- EVT_PACKET_QUEUE_START
 product:
 - Windows
 targetos: Windows
@@ -79,7 +79,7 @@ This callback does not return a value.
 
 This is an optional callback. Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(RX)QUEUE* callback. Set the appropriate member of a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure after you initialize the structure with [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md), then call **NetTx(Rx)QueueCreate**.
 
-In this callback, a client driver typically configures information that that its hardware needs for packet transmission or reception. Because this callback does not return a value and therefore should not fail, client drivers should perform actions such as resource allocation during queue creation. Therefore, this callback should be a light-weight function that executes quickly.
+In this callback, a client driver typically configures information that its hardware needs for packet transmission or reception. Because this callback does not return a value and therefore should not fail, client drivers should perform actions such as resource allocation during queue creation. Therefore, this callback should be a light-weight function that executes quickly.
 
 Client drivers will not receive calls to [*EVT_PACKET_QUEUE_ADVANCE*](nc-netpacketqueue-evt_packet_queue_advance.md), [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_cancel.md), or [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) until after *EvtPacketQueueStart* returns. In addition, *EvtPacketQueueStart* is called in the same execution context, or thread, as *EvtPacketQueueAdvance*, *EvtPacketQueueCancel*, and *EvtPacketQueueSetNotificationEnabled*, so client drivers do not need to synchronize between these callback functions for an individual queue instance.
 
