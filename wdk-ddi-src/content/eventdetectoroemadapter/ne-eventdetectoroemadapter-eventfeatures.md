@@ -6,7 +6,7 @@ description: Event features.
 tech.root: audio
 ms.assetid: 706fbd00-b95e-4b4d-9059-215a3f01648a
 ms.author: windowsdriverdev
-ms.date: 02/26/2019
+ms.date: 04/10/2019
 ms.topic: enum
 ms.keywords: EVENTFEATURES, EVENTFEATURES, 
 req.header: eventdetectoroemadapter.h
@@ -50,8 +50,10 @@ Enumeration that defines event features.
 0x2 - User defined keyword.
 
 ### -field EVENTFEATURES_ArmPatternRequiresArmState 
- 0x4 - Is active arm state required for BuildArmingPatternData (Global only feature).
+0x4 - Is active arm state required for BuildArmingPatternData (Global only feature).
 
+### -field EVENTFEATURES_
+0x8 - Does detector support a single language for all keywords.
 
 ## -remarks
 

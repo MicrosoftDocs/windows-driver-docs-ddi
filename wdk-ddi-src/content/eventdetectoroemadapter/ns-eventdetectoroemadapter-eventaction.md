@@ -6,7 +6,7 @@ description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
 ms.author: windowsdriverdev
-ms.date: 04/05/2019
+ms.date: 04/10/2019
 ms.topic: struct
 ms.keywords: EVENTACTION, EVENTACTION, 
 req.header: eventdetectoroemadapter.h
@@ -45,11 +45,11 @@ Structure used to provide detail from ParseDetectionResults.
 
 ### -field EventdActionType
 
-Actions to take on a detection. This is a value from the [EventActionType](ne-eventdetectoroemadapter-eventactiontype.md) enumeration.  ??? TBD
+Actions to take on a detection. This is a value from the [EventActionType](ne-eventdetectoroemadapter-eventactiontype.md) enumeration.  
   
 ### -field EventActionContextType
 
-The types of context associated with an action. This is a value from the [EventActionContextType](ne-eventdetectoroemadapter-eventactioncontexttype.md) enumeration. ??? TBD
+The types of context associated with an action. This is a value from the [EventActionContextType](ne-eventdetectoroemadapter-eventactioncontexttype.md) enumeration.
 
 ### -field Confidence
 
@@ -57,7 +57,7 @@ The confidence level is a number between 0.0 and 1.0 that represents how confide
 
 ### -field Scale
 
-The scale as defined in the [EVENTACTIONSCALE](ne-eventdetectoroemadapter-eventactionscale.md) enumeration. The scale defines the quality associated with a specific detection can be used for telemetry when no confidence is available or confidence is confusing to report. ??? TBD
+The scale as defined in the [EVENTACTIONSCALE](ne-eventdetectoroemadapter-eventactionscale.md) enumeration. The scale defines the quality associated with a specific detection can be used for telemetry when no confidence is available or confidence is confusing to report.
 
 ### -field ErrorCode
  
