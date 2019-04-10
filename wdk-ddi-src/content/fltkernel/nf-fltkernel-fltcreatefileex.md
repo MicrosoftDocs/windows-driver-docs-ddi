@@ -993,6 +993,8 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 Minifilter drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>, not <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>, to rename a file. 
 
+In versions of Windows 10 starting 1809 calling this function can consume over 13 Kilobytes of call stack.  Filter writers should bracket calls to this function of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keexpandkernelstackandcallout">KeExpandKernelStackAndCallout</a>
+
 <div class="alert"><b>Note</b>    If you try to open a volume but only specify a combination of the following flags for the <i>DesiredAccess</i> parameter, <b>FltCreateFileEx</b> will open a handle, independent of the file system, that has direct access to the storage device for the volume.<dl>
 <dd>
 FILE_READ_ATTRIBUTES

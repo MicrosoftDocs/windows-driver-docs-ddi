@@ -73,7 +73,7 @@ Drivers can also use the <b>ExFreePoolWithTag</b> routine to free buffers alloca
 
 Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>NonPaged</b><i>Xxx</i><i>PoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
-
+In versions of Windows 10 starting 1809 calling this function can consume over 4700 bytes of call stack.
 
 
 ## -see-also
