@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaAddErrorSourceDeviceDriver
 title: WheaAddErrorSourceDeviceDriver function
 author: windows-driver-content
-description: TBD
+description: A device driver calls WheaAddErrorSourceDeviceDriver to add an error source.
 tech.root:
 ms.assetid: 7a3a1b3d-dc79-4bcf-ba1f-ccce6c685cbe
 ms.author: windowsdriverdev
@@ -76,4 +76,4 @@ WHEA can preallocate memory for errors that will be reported at high IRQL (i.e. 
 
 [**WheaRemoveErrorSourceDeviceDriver**](nf-ntddk-whearemoveerrorsourcedevicedriver.md)
 
-[**WheaReportHwErrorDeviceDriver**](nf-ntddk-whearemoveerrorsourcedevicedriver.md)
+[**WheaReportHwErrorDeviceDriver**](nf-ntddk-wheareporthwerrordevicedriver.md)

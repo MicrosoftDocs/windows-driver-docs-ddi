@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaHighIrqlLogSelEventHandlerRegister
 title: WheaHighIrqlLogSelEventHandlerRegister function
 author: windows-driver-content
-description: TBD
+description: Reserved for system use.
 tech.root:
 ms.assetid: 492e73c4-2d9a-419c-aabf-b4f53324b8bb
 ms.author: windowsdriverdev

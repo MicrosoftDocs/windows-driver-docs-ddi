@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaRemoveErrorSource
 title: WheaRemoveErrorSource function
 author: windows-driver-content
-description: TBD
+description: Reserved for system use.
 tech.root:
 ms.assetid: 6efc418b-cb45-409d-9ad7-9dbdfeba59bb
 ms.author: windowsdriverdev

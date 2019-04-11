@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaUnconfigureErrorSource
 title: WheaUnconfigureErrorSource function
 author: windows-driver-content
-description: TBD
+description: Reserved for system use.
 tech.root:
 ms.assetid: e989f10f-a6db-41f3-ab44-d3c748e2103e
 ms.author: windowsdriverdev

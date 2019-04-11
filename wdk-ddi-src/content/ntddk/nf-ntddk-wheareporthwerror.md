@@ -2,7 +2,7 @@
 UID: NF:ntddk.WheaReportHwError
 title: WheaReportHwError function
 author: windows-driver-content
-description: TBD
+description: Drivers should not call this wrapper function.
 tech.root:
 ms.assetid: c550f3ec-d88d-4c31-8bb6-06b133630881
 ms.author: windowsdriverdev
