@@ -45,17 +45,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+Reserved for system use.
 
 ## -parameters
 
 ### -param ErrorSource
 
-TBD
 
 ### -param Context
 
-TBD
 
 
 ## -returns

@@ -42,7 +42,6 @@ targetos: Windows
 
 # PoFxCompleteDirectedPowerDown function
 
-
 ## -description
 
 A DFx (Directed [PoFx](https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework)) client driver calls this function to complete the Directed power down transition.
@@ -64,4 +63,4 @@ The driver typically calls this routine from its [*PO_FX_DIRECTED_POWER_DOWN_CAL
 
 ## -see-also
 
-https://review.docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework?branch=kernel_19h1
+https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework

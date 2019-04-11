@@ -77,7 +77,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 
 ### -field DirectedPowerUpCallback
 
-A pointer to the [*PO_FX_DIRECTED_POWER_UP_CALLBACK*](nc-wdm-po_fx_directed_power_up_callback.md) callback routine that is implemented by the device driver.
+A pointer to the [*PO_FX_DIRECTED_POWER_UP_CALLBACK*](nc-wdm-po_fx_directed_power_up_callback.md) callback routine that is implemented by the device driver.  A device can provide only the `DirectedPower*` callbacks when registering for PoFx. It does not need to implement the rest of the PoFx callbacks.
 
 ### -field DirectedPowerDownCallback
 
@@ -102,7 +102,7 @@ This member is the first element in an array of one or more PO_FX_COMPONENT_V2 e
 
 ## -remarks
 
-To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.
+To register a device with PoFx, a driver calls the [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice) routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.  To use PoFx but not DFx, register with PoFx using either [PO_FX_DEVICE_V2 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-po_fx_device_v2) or [PO_FX_DEVICE_V3 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-po_fx_device_v3).
 
 Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406650">PoFxActivateComponent</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406658">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
 

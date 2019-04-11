@@ -74,26 +74,25 @@ Reserved for future use.
 
 ## -returns
 
-Returns VOID that ...
-
 ## -remarks
 
 WDM drivers that register with PoFx for runtime idle power management support need to implement this callback to add DFx support.
 
 Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice).
 
-When Directed power up is requested, a driver will typically take following actions:
+When this callback is invoked, the driver typically performs the following high-level tasks:
 
-- Power itself up by requesting a D0 IRP.
-- Once the D0 IRP is completed, report the device as powered ON by calling PoFxReportDevicePoweredOn(). Note this also implicitly completes the Directed power up transition back to PoFx.
+- Request a D0 IRP to power up the device.
+- After the D0 IRP completes, call [**PoFxCompleteDirectedPowerDown**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompletedirectedpowerdown).  This implicitly completes the Directed power up transition back to PoFx.
 - Unblock I/O queues and start processing requests normally.
 
 Once the driver completes the Directed power up call, it can resume runtime-idle (RTD3) behavior.
 
-The contract is very similar to S0, although no actual S-IRPs are involved (see TBD).
+The contract is very similar to S0, although no S-IRPs are involved.
 
-Note that if a device hierarchy is involved, child devices will be powered up only after the directed power framework powers up the parent device. For a given parent device, both direct children, i.e. ones enumerated by the parent, as well as any indirect children due to power relations (https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
+Note that if a device hierarchy is involved, the directed power framework asks the child devices to power down before the parent device.  For a given parent device, direct children (ones enumerated by the parent) and indirect children due to [power relations](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
 
 ## -see-also
 
-https://review.docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework?branch=kernel_19h1
+- [Introduction to the Directed Power Management Framework](https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework)
+- [PO_FX_DIRECTED_POWER_DOWN_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_directed_power_down_callback_

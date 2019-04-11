@@ -45,17 +45,17 @@ targetos: Windows
 
 ## -description
 
-TBD
+Reserved for system use.
 
 ## -parameters
 
 ### -param SourceType
 
-TBD
+
 
 ### -param Configuration
 
-TBD
+
 
 
 ## -returns

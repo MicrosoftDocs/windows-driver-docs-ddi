@@ -39,6 +39,7 @@ targetos: Windows
 
 ## -description
 
+Reserved for system use.
 
 ## -struct-fields
 

@@ -73,40 +73,34 @@ Supplies a pointer to the context passed in to [**PoFxRegisterDevice**](https://
 
 Reserved for future use.
 
-## -returns
-
-Returns VOID that ...
-
 ## -remarks
 
 WDM drivers that register with PoFx for runtime idle power management support need to implement this callback to add DFx support.
 
 Register your implementation of this callback function by setting the appropriate member of the [**PO_FX_DEVICE_V3**](ns-wdm-po_fx_device_v3.md) structure and then calling [**PoFxRegisterDevice**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice).
 
-When Directed power down is requested, a driver needs to:
+When this callback is invoked, the driver typically performs the following high-level tasks:
 
 - Stop processing new work.
 - Transition into low-power state immediately.
-- Remain in that state until it receives a request to come back up.
+- Remain in low-power state until the system calls the driver's [PO_FX_DIRECTED_POWER_UP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_directed_power_up_callback).
 
-This will typically involve (order and steps may vary with stack):
+Implementation steps and order may vary, but might include some of the following:
 
 - Request a Dx IRP.
-- <Once the Dx IRP arrives…>
-- Block I/O queues.
+- After the Dx IRP arrives, block I/O queues.
 - Wait for in-progress operations to complete.
-- If those operations are taking too long, possibly cancel them.
-- Perform actions necessary to transition the device into Dx (e.g. save hardware state).
+- If those operations are taking too long, optionally cancel them.
+- Perform actions necessary to transition the device into Dx (for example save hardware state).
 - Arm for wake as necessary.
-- Complete the Directed power down transition by calling PoFxCompleteDirectedPowerDown().
-- Remain in Dx until you get the Directed power up call.
+- Call [**PoFxCompleteDirectedPowerDown**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompletedirectedpowerdown).
+- Remain in Dx until the system calls [PO_FX_DIRECTED_POWER_UP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_directed_power_up_callback).
 
-The contract is very similar to S3/S4, although no actual S-IRPs are involved (see TBD).
+The contract is very similar to S3/S4, although no S-IRPs are involved.
 
-Note that if a device hierarchy is involved, the directed power framework will ask the child devices to power down before the parent device. For a given parent device, both direct children, i.e. ones enumerated by the parent, as well as any indirect children due to power relations (https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
+Note that if a device hierarchy is involved, the directed power framework asks the child devices to power down before the parent device.  For a given parent device, direct children (ones enumerated by the parent) and indirect children due to [power relations](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations) are considered.
 
 ## -see-also
 
-https://review.docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework?branch=kernel_19h1
-
-https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_directed_power_up_callback?branch=kernel_19h1
+- [Introduction to the Directed Power Management Framework](https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework)
+- [PO_FX_DIRECTED_POWER_UP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_directed_power_up_callback)

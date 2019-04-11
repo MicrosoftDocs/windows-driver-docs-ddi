@@ -42,25 +42,11 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reserved for system use.
 
 ## -prototype
 
-```
-//Declaration
 
-PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER PfnWheaHighIrqlLogSelEventHandler; 
-
-// Definition
-
-NTSTATUS PfnWheaHighIrqlLogSelEventHandler 
-(
-	PVOID Context
-	PIPMI_OS_SEL_RECORD OsSelRecord
-)
-{...}
-
-```
 
 ## -parameters
 
@@ -71,12 +57,10 @@ NTSTATUS PfnWheaHighIrqlLogSelEventHandler
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 
 ## -see-also
