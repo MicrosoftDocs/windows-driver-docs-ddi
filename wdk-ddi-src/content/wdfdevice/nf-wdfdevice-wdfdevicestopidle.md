@@ -55,10 +55,12 @@ The <b>WdfDeviceStopIdle</b> method informs the framework that the specified dev
 
 ## -syntax
 
+```cpp
 NTSTATUS WdfDeviceStopIdle(
-   Device,
-   WaitForD0
+   _In_ WDFDEVICE Device,
+   _In_ BOOLEAN WaitForD0
 );
+```
 
 ## -parameters
 
