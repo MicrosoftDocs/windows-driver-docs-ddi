@@ -85,7 +85,7 @@ To define an <i>EvtSerCx2PioTransmitCleanupTransaction</i> callback function, yo
 
 For example, to define an <i>EvtSerCx2PioTransmitCleanupTransaction</i> callback function that is named <code>MyPioTransmitCleanupTransaction</code>, use the <b>EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -97,7 +97,7 @@ For example, to define an <i>EvtSerCx2PioTransmitCleanupTransaction</i> callback
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

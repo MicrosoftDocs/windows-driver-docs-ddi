@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfio
 ms.assetid: 4c6275da-4fdc-3a43-85f1-9db048bee025
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:wdtfdriversetupsystemaction
 ms.assetid: e463b19f-90ca-388e-8742-9094e47bef38
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

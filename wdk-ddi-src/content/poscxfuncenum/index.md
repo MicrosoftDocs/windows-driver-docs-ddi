@@ -1,7 +1,7 @@
 ---
 UID: NA:poscxfuncenum
 ms.assetid: af1f820e-5654-3014-a7ac-05d21e60adc0
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

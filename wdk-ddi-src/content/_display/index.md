@@ -1,7 +1,7 @@
 ---
 UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:wdm
 ms.assetid: 8462c1fe-6be6-3c3a-88f8-fb7aba330515
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

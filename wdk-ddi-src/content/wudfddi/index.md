@@ -1,7 +1,7 @@
 ---
 UID: NA:wudfddi
 ms.assetid: 745c454f-313d-357e-8fd6-1042c8d6f353
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

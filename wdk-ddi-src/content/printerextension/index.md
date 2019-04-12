@@ -1,7 +1,7 @@
 ---
 UID: NA:printerextension
 ms.assetid: 39fec125-0979-3b7b-9916-abfd53378c86
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:usbfnattach
 ms.assetid: f153fba1-6817-3150-8868-0ae60962b0ac
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

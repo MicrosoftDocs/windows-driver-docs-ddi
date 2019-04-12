@@ -1,7 +1,7 @@
 ---
 UID: NA:treerpmbservice
 ms.assetid: d533804f-f73d-32e6-aad0-ff62f2f926b7
-ms.date: 08/09/18
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

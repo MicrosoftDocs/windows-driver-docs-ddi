@@ -1,7 +1,7 @@
 ---
 UID: NA:ioaccess
 ms.assetid: 5d64cfe2-da47-3c7e-8bce-9959a6715531
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

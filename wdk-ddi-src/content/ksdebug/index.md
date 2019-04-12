@@ -1,7 +1,7 @@
 ---
 UID: NA:ksdebug
 ms.assetid: a681444f-2f78-34bc-b524-06627e87700a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -42,19 +42,11 @@ req.typenames:
 
 # BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
 
-
 ## -description
 
-
-The 
-			
-            <b>BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT</b> method returns a pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43d4-9202-c8925575e44d">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure. 
-
+The <b>BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT</b> method returns a pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43d4-9202-c8925575e44d">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure. 
 
 ## -parameters
-
-
-
 
 ### -param caps [out]
 
@@ -63,9 +55,4 @@ A pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-

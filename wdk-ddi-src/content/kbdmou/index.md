@@ -1,7 +1,7 @@
 ---
 UID: NA:kbdmou
 ms.assetid: 7916a78e-8897-372f-8e32-22081a9589d3
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

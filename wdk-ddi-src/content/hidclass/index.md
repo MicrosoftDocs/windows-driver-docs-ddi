@@ -1,7 +1,7 @@
 ---
 UID: NA:hidclass
 ms.assetid: de170db5-5638-39ba-ba11-68718e93aef6
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
