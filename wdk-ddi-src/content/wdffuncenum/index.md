@@ -1,7 +1,7 @@
 ---
 UID: NA:wdffuncenum
 ms.assetid: 2b4907b3-59e3-3f4d-b096-98712d4472b8
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

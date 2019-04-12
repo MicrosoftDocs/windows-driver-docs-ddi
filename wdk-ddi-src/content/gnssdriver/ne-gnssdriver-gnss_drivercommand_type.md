@@ -42,17 +42,11 @@ req.typenames: GNSS_DRIVERCOMMAND_TYPE
 
 # GNSS_DRIVERCOMMAND_TYPE enumeration
 
-
 ## -description
-
 
 This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925107">GNSS_DRIVERCOMMAND_PARAM</a> structure.
 
-
 ## -enum-fields
-
-
-
 
 ### -field GNSS_SetLocationServiceEnabled
 
@@ -98,7 +92,6 @@ If the HLOS needs to initiate any new location request, for example to enable th
 </ul>
 Unless this command is issued by the GNSS adapter, the driver must assume that the location service is disabled on the system. 
 
-
 ### -field GNSS_SetLocationNIRequestAllowed
 
 Informs the driver if it is allowed to entertain network initiated location requests coming from the mobile network. The command only needs to be supported if required by the mobile operator. As of Windows 10, Microsoft is not aware of any mobile operator requiring this any longer, but this remains to avoid  any blocking issues during commercialization. If the command is not implemented, the GNSS driver should simply keep its default behavior.
@@ -123,35 +116,37 @@ The GNSS adapter will evaluate the value of these two settings and will indicate
 
 The location requests for emergency services or for CALEA (for example, the case of privacy override being set) must be served regardless of the value of this setting.
 
-
 ### -field GNSS_ForceSatelliteSystem
 
-This command causes the GNSS driver to use the specified satellite system(s) for getting fixes. The parameter is a <b>DWORD</b> with the following values:
+This command causes the GNSS driver to use the specified satellite system(s) for getting fixes. The parameter is a **DWORD** with the following values:
 
-<pre class="syntax" xml:space="preserve"><code>#define GNSS_SATELLITE_ANY          0x00
+```cpp
+#define GNSS_SATELLITE_ANY          0x00
 #define GNSS_SATELLITE_GPS          0x01
 #define GNSS_SATELLITE_GLONASS      0x02
 #define GNSS_SATELLITE_BEIDOU       0x04
 #define GNSS_SATELLITE_GALILEO      0x08
-</code></pre>
-0x03-0xFF: Reserved 
+```
+
+0x03-0xFF are reserved.
 
 This is expected to be used only for test purposes. Some mobile operators do require validations using a single satellite system.
-
 
 ### -field GNSS_ForceOperationMode
 
 This command causes the GNSS driver to use the specified operation mode. The parameter is a <b>DWORD</b> with the following values:
 
-<pre class="syntax" xml:space="preserve"><code>#define GNSS_OPERMODE_ANY          0x00
+```cpp
+#define GNSS_OPERMODE_ANY          0x00
 #define GNSS_OPERMODE_MSA          0x01
 #define GNSS_OPERMODE_MSB          0x02
 #define GNSS_OPERMODE_MSS          0x04
 #define GNSS_OPERMODE_CELLID       0x08
 #define GNSS_OPERMODE_AFLT         0x10
 #define GNSS_OPERMODE_OTDOA        0x20
-</code></pre>
-0x40-0xFF: Reserved
+```
+
+0x40-0xFF are reserved.
 
 This command is used for two purposes:
 
@@ -188,7 +183,6 @@ The GNSS engine configuration parameters will persist.
 </ul>
 This command should only be called when there is no active fix session. This command is typically used for recursively testing the GNSS time to first fix on cold start.
 
-
 ### -field GNSS_ClearAgnssData
 
 This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="https://msdn.microsoft.com/library/windows/hardware/dn925097">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
@@ -208,7 +202,6 @@ If <b>GNSS_AGNSS_BlobInjection</b> is specified, both ephemeris acquired from th
 </li>
 </ul>
 It is highly recommended that this command is supported for test purposes even if the assistance data is not obtained from the OS location platform.
-
 
 ### -field GNSS_SetSuplVersion
 
@@ -231,13 +224,14 @@ This command sets the status for NMEA logging.
 
 This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925139">GNSS_FIXDATA</a> structure. The parameter is a <b>DWORD</b> with the following values:
 
-<pre class="syntax" xml:space="preserve"><code>#define GNSS_NMEALOGGING_NONE         0x00
+```cpp
+#define GNSS_NMEALOGGING_NONE         0x00
 #define GNSS_NMEALOGGING_ALL          0xFF
-</code></pre>
+```
+
 The default value for this command is no NMEA logging. This command should not persist across system restart.
 
 This command has been introduced to support OEM testing. This command is not used by the location framework or by Microsoft test tools.
-
 
 ### -field GNSS_SetUplServerAccessInterval
 
@@ -245,18 +239,14 @@ This command sets the minimum time in between requests to the server for assiste
 
 Mobile operators may use the configuration service provider to tune this setting, if they require it.  If this parameter is not supported, if can be ignored, but the SUPL configuration commands must not fail.
 
-
 ### -field GNSS_SetNiTimeoutInterval
 
 This command sets how much time the device must wait for input from a user before it responds to the NI request executing the default action. The time interval is specified in seconds and the default value is 35 seconds. This timeout is 5 seconds larger than the timeout used by the operating system to wait for response from the user, and it is simply a failsafe in case of the operating system not responding. This command is applicable only to network initiated requests in which the verification from the user is requested. Mobile operators may use the configuration service provider to override the default value from the operating system. In such case the default values specified above should be replaced by the values provided by the mobile operator.
-
 
 ### -field GNSS_ResetGeofencesTracking
 
 This command resets the geofence tracking operation. The GNSS driver must delete all geofences from the GNSS engine, stop geofence tracking and stop monitoring for signal conditions. The geofence tracking operation will begin as usual only when the HLOS creates one or more new geofences.
 
-
 ### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF
-

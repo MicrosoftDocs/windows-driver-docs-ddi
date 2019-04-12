@@ -1,7 +1,7 @@
 ---
 UID: NA:netconfiguration
 ms.assetid: 511aa490-3d63-3b72-a325-bdea5ca35ecb
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

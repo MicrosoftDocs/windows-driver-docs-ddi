@@ -1,7 +1,7 @@
 ---
 UID: NA:usbfnbase
 ms.assetid: f54db437-6d89-377b-8e79-ed49a7490c17
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

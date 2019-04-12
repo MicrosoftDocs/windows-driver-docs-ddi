@@ -1,7 +1,7 @@
 ---
 UID: NA:ntddchgr
 ms.assetid: f1bab14a-b109-3e0f-8bfb-f85c148fc4a9
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

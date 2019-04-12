@@ -1,7 +1,7 @@
 ---
 UID: NA:sensorscxfuncenum
 ms.assetid: 19d1c21c-e570-36c7-a800-a34b1f3fba03
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -196,7 +196,7 @@ Following the call to <i>SetupDmaEngineWithBdl</i>, the DMA engine is in the Res
 
 Parameter <i>isr</i> specifies the ISR that the HD Audio bus driver is to call each time an IOC interrupt occurs on the stream. This parameter is a function pointer of type HDAUDIO_BDL_ISR, which is defined as:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -222,8 +222,8 @@ The HD Audio bus driver calls the ISR with the same context value that the clien
 </td>
 <td>
 
-        Unused.
-       
+Unused.
+
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ The HD Audio bus driver calls the ISR with the same context value that the clien
 </td>
 <td>
 
-        Descriptor Error (DESE). If an error occurs during the fetch of a buffer descriptor, then the HD Audio controller sets the DESE bit to 1.
+Descriptor Error (DESE). If an error occurs during the fetch of a buffer descriptor, then the HD Audio controller sets the DESE bit to 1.
 
 </td>
 </tr>
@@ -245,7 +245,7 @@ The HD Audio bus driver calls the ISR with the same context value that the clien
 </td>
 <td>
 
-        FIFO Error (FIFOE). If a FIFO error occurs (an overrun on an output stream or an underrun on an input stream), then the HD Audio controller sets the FIFOE bit to 1.
+FIFO Error (FIFOE). If a FIFO error occurs (an overrun on an output stream or an underrun on an input stream), then the HD Audio controller sets the FIFOE bit to 1.
 
 </td>
 </tr>
@@ -256,7 +256,7 @@ The HD Audio bus driver calls the ISR with the same context value that the clien
 </td>
 <td>
 
-        Buffer Completion Interrupt Status (BCIS). If the IOC bit is set to 1 in the command byte of the buffer descriptor, then the HD Audio controller sets the BCIS bit to 1 after the last sample of a buffer is processed.
+Buffer Completion Interrupt Status (BCIS). If the IOC bit is set to 1 in the command byte of the buffer descriptor, then the HD Audio controller sets the BCIS bit to 1 after the last sample of a buffer is processed.
 
 </td>
 </tr>
@@ -267,7 +267,7 @@ The HD Audio bus driver calls the ISR with the same context value that the clien
 </td>
 <td>
 
-        Unused.
+Unused.
        
 
 </td>

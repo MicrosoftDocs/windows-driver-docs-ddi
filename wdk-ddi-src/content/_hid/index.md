@@ -1,7 +1,7 @@
 ---
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

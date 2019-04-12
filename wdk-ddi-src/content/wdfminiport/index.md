@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfminiport
 ms.assetid: a67115ef-8633-3ecf-ae14-4e1050cebfb8
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

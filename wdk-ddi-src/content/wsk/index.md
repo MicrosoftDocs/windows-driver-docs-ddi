@@ -1,7 +1,7 @@
 ---
 UID: NA:wsk
 ms.assetid: 299d7385-fc5c-3b4d-91f8-ca12894ed875
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

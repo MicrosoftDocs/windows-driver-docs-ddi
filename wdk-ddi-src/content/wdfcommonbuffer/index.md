@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfcommonbuffer
 ms.assetid: ebfd5e90-5f7e-327a-ba92-728bb7bc3661
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

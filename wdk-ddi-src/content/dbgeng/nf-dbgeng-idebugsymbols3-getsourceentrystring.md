@@ -85,7 +85,7 @@ Pointer to the size of the string.
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-    This method can return multiple results for a source lookup. This allows for all possible results to be returned.
+This method can return multiple results for a source lookup. This allows for all possible results to be returned.
 
 
 

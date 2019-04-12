@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfdmatransaction
 ms.assetid: 09e21580-15ec-3bb5-835c-b303aad3067a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

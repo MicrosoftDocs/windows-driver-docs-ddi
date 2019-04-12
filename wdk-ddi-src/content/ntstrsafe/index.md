@@ -1,7 +1,7 @@
 ---
 UID: NA:ntstrsafe
 ms.assetid: 65f21332-b24f-3667-9a7a-dd2844d95ae9
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

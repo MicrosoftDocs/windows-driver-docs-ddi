@@ -1,7 +1,7 @@
 ---
 UID: NA:lamp
 ms.assetid: 833c0c85-940a-38d0-b008-ca5d75808679
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

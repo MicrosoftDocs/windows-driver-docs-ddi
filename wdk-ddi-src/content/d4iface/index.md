@@ -1,7 +1,7 @@
 ---
 UID: NA:d4iface
 ms.assetid: 2f0a7093-3d26-3bc3-9fb3-f2806adf417f
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

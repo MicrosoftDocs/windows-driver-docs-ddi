@@ -1,7 +1,7 @@
 ---
 UID: NA:hidport
 ms.assetid: a158f664-a913-37af-9370-c18096783d37
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

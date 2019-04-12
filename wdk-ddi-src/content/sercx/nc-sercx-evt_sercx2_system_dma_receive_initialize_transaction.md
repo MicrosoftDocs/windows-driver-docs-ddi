@@ -90,7 +90,7 @@ To define an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> call
 
 For example, to define an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> callback function that is named <code>MySystemDmaReceiveInitializeTransaction</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -102,7 +102,7 @@ For example, to define an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransac
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

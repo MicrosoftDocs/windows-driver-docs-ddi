@@ -1,7 +1,7 @@
 ---
 UID: NA:spb
 ms.assetid: e794df0d-60f5-3c88-a345-ed17d683adf2
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

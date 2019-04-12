@@ -6,7 +6,6 @@
     "d4drvif.h",
     "d4iface.h",
     "filterpipeline.h",
-    "icm.h",
     "mxdc.h",
     "prcomoem.h",
     "prdrvcom.h",

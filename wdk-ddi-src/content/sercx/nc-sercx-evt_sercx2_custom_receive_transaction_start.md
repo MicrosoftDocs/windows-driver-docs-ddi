@@ -113,7 +113,7 @@ To define an <i>EvtSerCx2CustomReceiveTransactionStart</i> callback function, yo
 
 For example, to define an <i>EvtSerCx2CustomReceiveTransactionStart</i> callback function that is named <code>MyCustomReceiveTransactionStart</code>, use the <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -125,7 +125,7 @@ For example, to define an <i>EvtSerCx2CustomReceiveTransactionStart</i> callback
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

@@ -1,7 +1,7 @@
 ---
 UID: NA:runtimeparameters
 ms.assetid: 70be789a-c2d3-3911-930a-d9818f8684ab
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,7 +1,7 @@
 ---
 UID: NA:xfilter
 ms.assetid: cdeb68cd-070a-3aee-b0b8-93984518a096
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
