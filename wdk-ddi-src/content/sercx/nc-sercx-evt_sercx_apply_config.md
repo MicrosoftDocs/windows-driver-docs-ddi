@@ -42,17 +42,11 @@ req.typenames:
 
 # EVT_SERCX_APPLY_CONFIG callback function
 
-
 ## -description
-
 
 The <i>EvtSerCxApplyConfig</i> event callback function instructs the serial controller driver to apply a list of configuration settings to the serial controller hardware.
 
-
 ## -parameters
-
-
-
 
 ### -param Device [in]
 
@@ -63,19 +57,11 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 A pointer to the connection parameters structure.  This function must cast this parameter to the appropriate pointer type, parse the data structure to obtain the configuration settings, and apply these settings to the serial controller hardware. The connection parameters structure is defined by the hardware platform vendor and is opaque to both the serial framework extension (SerCx) and the operating system.
 
-
 ## -returns
-
-
 
 The <i>EvtSerCxApplyConfig</i> function returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appropriate error status code.
 
-
-
-
 ## -remarks
-
-
 
 SerCx calls this function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> I/O control request to the controller.
 
@@ -92,7 +78,7 @@ To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must cal
 
 The function type for this callback is declared in Sercx.h, as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -107,7 +93,7 @@ The function type for this callback is declared in Sercx.h, as follows.
 </table></span></div>
 To define an <i>EvtSerCxApplyConfig</i> callback function that is named <code>MyEvtSerCxApplyConfig</code>, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -119,7 +105,7 @@ To define an <i>EvtSerCxApplyConfig</i> callback function that is named <code>My
 </table></span></div>
 Then, implement your callback function as follows.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -138,7 +124,7 @@ For more information about SDV requirements for function declarations, see <a hr
 <div class="code"></div>
 The following code example shows a partial implementation of an <i>EvtSerCxApplyConfig</i> function for a UART.
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -150,6 +136,7 @@ The following code example shows a partial implementation of an <i>EvtSerCxApply
 //
 
 #define ANYSIZE_ARRAY 1
+
 
 //
 // Common resource name descriptor
@@ -231,24 +218,10 @@ NTSTATUS
 </table></span></div>
 The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR pointer types in the preceding code example are defined in the Reshub.h header file.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406698">SerCxGetConnectionParameters</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a>
- 
-
- 
-

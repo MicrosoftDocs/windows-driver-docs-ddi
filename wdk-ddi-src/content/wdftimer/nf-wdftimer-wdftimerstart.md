@@ -75,7 +75,7 @@ If the value is negative, the time period is relative to the current system time
 <li>If the value is positive, the time period specifies an absolute time (which is actually relative to January 1, 1601).</li>
 </ul>
 
-> [!WARNING]  
+> [!WARNING]
 > If you set the **UseHighResolutionTimer** member of  [WDF_TIMER_CONFIG](ns-wdftimer-_wdf_timer_config.md) to **WdfTrue**, you must call **WdfTimerStart** with the *DueTime* parameter set to a negative value.  Otherwise, the call causes the system to crash.
 
 Relative times are not affected by any changes to the system time that might occur within the specified time period. Absolute times do reflect system time changes.

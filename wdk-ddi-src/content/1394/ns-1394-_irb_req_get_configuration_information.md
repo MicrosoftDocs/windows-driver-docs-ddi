@@ -86,8 +86,7 @@ Points to a buffer that receives the unit dependent directory, as defined by the
 
 ### -field UnitDependentDirectoryLocation
 
- The Unit Dependent Directory location for this device.  Only the
-    lower 48 bits are valid in this <b>IO_ADDRESS</b>.
+ The Unit Dependent Directory location for this device.  Only the lower 48 bits are valid in this <b>IO_ADDRESS</b>.
 
 
 ### -field VendorLeafBufferSize

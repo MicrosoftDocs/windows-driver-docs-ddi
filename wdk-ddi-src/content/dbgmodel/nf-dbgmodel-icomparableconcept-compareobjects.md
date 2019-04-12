@@ -46,10 +46,14 @@ ms.custom: RS5
  Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
     
  The return value passed in comparison result has the following meaning:
-    
-     < 0 : contextObject < otherObject
-       0 : contextObject == otherObject
-     > 0 : contextObject > otherObject
+
+```text 
+< 0 : contextObject < otherObject
+
+0 : contextObject == otherObject
+
+> 0 : contextObject > otherObject
+```
 
 ## -parameters
 

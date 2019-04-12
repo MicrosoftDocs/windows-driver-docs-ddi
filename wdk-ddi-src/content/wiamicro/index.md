@@ -1,7 +1,7 @@
 ---
 UID: NA:wiamicro
 ms.assetid: 6e3ffcb6-f08e-3947-9774-2adf8c435369
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

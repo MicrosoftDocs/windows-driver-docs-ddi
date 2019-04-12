@@ -1,7 +1,7 @@
 ---
 UID: NA:ntdd8042
 ms.assetid: 20253ca3-2ef9-33f0-991d-bd37be11cc04
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

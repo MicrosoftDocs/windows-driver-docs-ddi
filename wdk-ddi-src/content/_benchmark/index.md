@@ -1,7 +1,7 @@
 ---
 UID: TP:benchmark
 ms.assetid: 0cd6b427-3270-30fa-9877-d4257fe4d986
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

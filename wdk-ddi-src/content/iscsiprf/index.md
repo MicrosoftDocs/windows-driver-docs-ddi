@@ -1,7 +1,7 @@
 ---
 UID: NA:iscsiprf
 ms.assetid: d1d036d4-5975-3fa7-8004-2b175d96d46a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

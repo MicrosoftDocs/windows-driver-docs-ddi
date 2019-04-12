@@ -1,7 +1,7 @@
 ---
 UID: NA:wextestclass
 ms.assetid: 9fc41607-d4ed-3730-94bb-e2172700583f
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

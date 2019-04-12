@@ -1,7 +1,7 @@
 ---
 UID: NA:wdfinterrupt
 ms.assetid: d693610e-50f5-3bb7-9cb0-aed7080ca4dd
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

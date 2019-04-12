@@ -1,7 +1,7 @@
 ---
 UID: NA:math3dhelper
 ms.assetid: 7becfbc9-ce8a-436a-95fa-b67bf84583d3
-ms.date: 07/30/18
+ms.date: 07/30/2018
 ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
