@@ -1,7 +1,7 @@
 ---
 UID: TP:gpio
 ms.assetid: 808f4f69-8260-3b04-a82f-08c14310daa7
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

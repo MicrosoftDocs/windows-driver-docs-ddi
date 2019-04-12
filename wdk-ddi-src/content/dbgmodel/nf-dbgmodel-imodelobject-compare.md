@@ -45,11 +45,13 @@ ms.custom: RS5
 
 The Compare method compares two model objects and returns an indication of how those objects relate. One of three states is returned:
 
+```text
 	< 0: (this < other)
 
 	== 0: (this == other)
 
 	> 0: (this > other)
+```
 
 Note that only intrinsic values can be compared using this method. Calling with any other object type will result in failure. 
 

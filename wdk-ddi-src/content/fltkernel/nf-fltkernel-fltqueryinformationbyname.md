@@ -41,7 +41,6 @@ ms.custom: RS5
 
 # FltQueryInformationByName function
 
-
 ## -description
 
 The **FltQueryInformationByName** routine returns the requested information about a named file.

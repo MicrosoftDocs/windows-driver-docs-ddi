@@ -1,7 +1,7 @@
 ---
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

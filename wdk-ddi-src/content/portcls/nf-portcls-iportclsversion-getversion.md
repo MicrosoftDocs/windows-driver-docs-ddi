@@ -139,7 +139,7 @@ Windows 2000
 
 </td>
 <td>
-Windows 98 SE + Hot-Fix Package 269601 (See <a href="https://msdn.microsoft.com/8fcdc565-9d8a-45d9-9dc2-0420cbffc4f5">Additional Requirements for Windows 98</a>.)
+Windows 98 SE + Hot-Fix Package 269601.)
 
 </td>
 <td>

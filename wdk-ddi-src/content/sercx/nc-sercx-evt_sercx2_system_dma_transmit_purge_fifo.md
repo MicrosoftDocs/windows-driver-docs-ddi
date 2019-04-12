@@ -94,7 +94,7 @@ To define an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> callback function, you m
 
 For example, to define an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> callback function that is named <code>MySystemDmaTransmitPurgeFifo</code>, use the <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -106,7 +106,7 @@ For example, to define an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> callback fu
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

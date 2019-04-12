@@ -1,7 +1,7 @@
 ---
 UID: NA:iscsiop
 ms.assetid: 16203758-f031-3557-a36d-abe33c7c4a6d
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

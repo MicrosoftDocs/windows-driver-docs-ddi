@@ -1,7 +1,7 @@
 ---
 UID: NA:smcnt
 ms.assetid: f0458d39-14d8-3d3d-9c48-866fa482bc98
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

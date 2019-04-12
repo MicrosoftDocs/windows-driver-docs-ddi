@@ -1,7 +1,7 @@
 ---
 UID: NA:ucmfuncenum
 ms.assetid: 62f8ad70-df9f-367b-9a56-bde4d4772d5a
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
