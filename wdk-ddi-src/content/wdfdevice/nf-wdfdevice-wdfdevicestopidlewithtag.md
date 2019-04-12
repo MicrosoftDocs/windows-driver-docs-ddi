@@ -52,6 +52,16 @@ req.typenames:
 
 The **WdfDeviceStopIdleWithTag** macro increments the power reference count for a specified framework device object and assigns the driver's current file name and line number to the reference. The macro also assigns a tag value to the reference.
 
+## -syntax
+
+```cpp
+NTSTATUS WdfDeviceStopIdleWithTag(
+    _In_ WDFDEVICE Device,
+    _In_ BOOLEAN WaitForD0,
+    _In_ PVOID Tag
+);
+```
+
 ## -parameters
 
 
