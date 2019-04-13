@@ -53,6 +53,14 @@ req.typenames:
 
 The <b>WdfDeviceStopIdle</b> method informs the framework that the specified device must be placed in its working (D0) power state.
 
+## -syntax
+
+```cpp
+NTSTATUS WdfDeviceStopIdle(
+   _In_ WDFDEVICE Device,
+   _In_ BOOLEAN WaitForD0
+);
+```
 
 ## -parameters
 
