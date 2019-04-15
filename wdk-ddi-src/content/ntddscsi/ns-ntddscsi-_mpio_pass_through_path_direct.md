@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	MPIO_PASS_THROUGH_PATH_DIRECT
+- MPIO_PASS_THROUGH_PATH_DIRECT
 product:
 - Windows
 targetos: Windows

@@ -1,7 +1,7 @@
 ---
 UID: NA:d3dukmdt
 ms.assetid: 6289317f-0eb5-3a62-9de4-ff14a76b6bb0
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

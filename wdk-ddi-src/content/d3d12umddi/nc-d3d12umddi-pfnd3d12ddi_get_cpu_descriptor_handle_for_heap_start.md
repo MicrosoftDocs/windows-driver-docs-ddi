@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
+- PFND3D12DDI_GET_CPU_DESCRIPTOR_HANDLE_FOR_HEAP_START
 product: 
 - Windows
 targetos: Windows

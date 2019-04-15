@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlclient.h
+- wlclient.h
 api_name:
--	DOT11_BSS_LIST
+- DOT11_BSS_LIST
 product:
 - Windows
 targetos: Windows

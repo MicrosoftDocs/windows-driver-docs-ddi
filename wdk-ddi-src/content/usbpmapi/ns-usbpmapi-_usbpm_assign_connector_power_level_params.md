@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, *PUSBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
+- _USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
 product:
 - Windows
 targetos: Windows

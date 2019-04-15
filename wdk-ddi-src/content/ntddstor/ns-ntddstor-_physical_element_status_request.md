@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PHYSICAL_ELEMENT_STATUS_REQUEST, *PPHYSICAL_ELEMENT_STATUS_REQUEST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_PHYSICAL_ELEMENT_STATUS_REQUEST
+- _PHYSICAL_ELEMENT_STATUS_REQUEST
 product:
 - Windows
 targetos: Windows

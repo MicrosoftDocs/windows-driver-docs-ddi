@@ -26,14 +26,14 @@ req.lib: Fltmgr.lib
 req.dll: FltMgr.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	FltMgr.sys
+- FltMgr.sys
 api_name:
--	FltRetrieveIoPriorityInfo
+- FltRetrieveIoPriorityInfo
 product:
 - Windows
 targetos: Windows

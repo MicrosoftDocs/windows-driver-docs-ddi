@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: IRQL < DISPATCH_LEVEL (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
+- IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

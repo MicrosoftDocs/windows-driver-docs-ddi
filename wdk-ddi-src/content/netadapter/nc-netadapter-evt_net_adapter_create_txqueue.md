@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	netadapter.h
-apiname: 
--	EVT_NET_ADAPTER_CREATE_TXQUEUE
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- netadapter.h
+api_name: 
+- EVT_NET_ADAPTER_CREATE_TXQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

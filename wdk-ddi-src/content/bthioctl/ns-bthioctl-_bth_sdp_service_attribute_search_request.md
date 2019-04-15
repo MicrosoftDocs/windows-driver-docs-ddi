@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthioctl.h
+- bthioctl.h
 api_name:
--	BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+- BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 product:
 - Windows
 targetos: Windows

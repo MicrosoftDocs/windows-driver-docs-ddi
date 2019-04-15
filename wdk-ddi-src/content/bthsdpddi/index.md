@@ -1,13 +1,13 @@
 ---
 UID: NA:bthsdpddi
 ms.assetid: 88ababa4-ac09-3370-b639-94a67fbff2d8
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: bltooth
 ---
 

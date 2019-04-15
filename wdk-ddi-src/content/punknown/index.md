@@ -1,13 +1,13 @@
 ---
 UID: NA:punknown
 ms.assetid: 066f1a97-df88-38c1-b75a-f25fc46a68ca
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: audio
 ---
 

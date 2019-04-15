@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.RemoveBreakpoint
--	IDebugControl2.RemoveBreakpoint
--	IDebugControl3.RemoveBreakpoint
+- IDebugControl.RemoveBreakpoint
+- IDebugControl2.RemoveBreakpoint
+- IDebugControl3.RemoveBreakpoint
 product:
 - Windows
 targetos: Windows

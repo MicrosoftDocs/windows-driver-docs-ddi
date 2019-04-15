@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	DRIVE_LAYOUT_INFORMATION_MBR
+- DRIVE_LAYOUT_INFORMATION_MBR
 product:
 - Windows
 targetos: Windows

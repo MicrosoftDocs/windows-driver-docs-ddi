@@ -1,13 +1,13 @@
 ---
 UID: NA:itestresource
 ms.assetid: b0234b9f-eb9f-3e71-9094-5db01b4443fa
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: dtf
 ---
 

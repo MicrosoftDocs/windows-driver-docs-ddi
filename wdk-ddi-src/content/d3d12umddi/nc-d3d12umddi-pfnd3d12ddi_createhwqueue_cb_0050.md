@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_CREATEHWQUEUE_CB_0050
+- PFND3D12DDI_CREATEHWQUEUE_CB_0050
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
@@ -69,7 +69,7 @@ The handle of the command queue for the driver to use when it calls back into th
 
 ### -param *
 
-Pointer to a [D3DDDICB_CREATEHWQUEUE](..\d3dumddi\ns-d3dumddi-_d3dddicb_createhwqueue.md) structure that contains information needed to create a hardware queue.
+Pointer to a [D3DDDICB_CREATEHWQUEUE](../d3dumddi/ns-d3dumddi-_d3dddicb_createhwqueue.md) structure that contains information needed to create a hardware queue.
 
 ## -returns
 

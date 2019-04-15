@@ -1,13 +1,13 @@
 ---
 UID: NA:trustedrt
 ms.assetid: 3724f951-9001-3920-960a-c5697b4fb9b8
-ms.date: 08/09/18
+ms.date: 08/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: treedrv
 ms.custom: RS5
 ---

@@ -1,13 +1,13 @@
 ---
 UID: NA:storport
 ms.assetid: 366530f2-be44-3f7d-92e4-e74a385c6480
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: storage
 ---
 

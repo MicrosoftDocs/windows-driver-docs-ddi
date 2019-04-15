@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfobject.h
+- Wdfobject.h
 api_name:
--	EvtDestroyCallback
+- EvtDestroyCallback
 product:
 - Windows
 targetos: Windows

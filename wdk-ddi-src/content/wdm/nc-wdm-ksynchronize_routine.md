@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at DIRQL (see Remarks section).
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	SynchCritSection
+- SynchCritSection
 product:
 - Windows
 targetos: Windows

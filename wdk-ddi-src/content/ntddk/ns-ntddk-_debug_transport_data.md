@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_DEBUG_TRANSPORT_DATA
+- _DEBUG_TRANSPORT_DATA
 product:
 - Windows
 targetos: Windows

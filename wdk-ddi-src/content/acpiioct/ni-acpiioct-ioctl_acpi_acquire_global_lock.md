@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+- IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 product:
 - Windows
 targetos: Windows

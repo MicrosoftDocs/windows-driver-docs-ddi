@@ -22,16 +22,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	UserDefined
-apilocation: 
--	wdm.h
-apiname: 
--	FPGA_CONTROL_ERROR_REPORTING
+topic_type: 
+- apiref
+api_type: 
+- UserDefined
+api_location:
+- wdm.h
+api_name: 
+- FPGA_CONTROL_ERROR_REPORTING
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

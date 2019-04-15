@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	EVT_UFX_DEVICE_TESTHOOK callback
+- EVT_UFX_DEVICE_TESTHOOK callback
 product:
 - Windows
 targetos: Windows

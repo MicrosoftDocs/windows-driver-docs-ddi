@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetProcessorTypeNames
--	IDebugControl2.GetProcessorTypeNames
--	IDebugControl3.GetProcessorTypeNames
+- IDebugControl.GetProcessorTypeNames
+- IDebugControl2.GetProcessorTypeNames
+- IDebugControl3.GetProcessorTypeNames
 product:
 - Windows
 targetos: Windows

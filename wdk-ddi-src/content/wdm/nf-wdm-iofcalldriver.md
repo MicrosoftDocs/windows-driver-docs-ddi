@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
--	kbSyntax
+- apiref
+- kbSyntax
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Ntoskrnl.exe
+- Ntoskrnl.exe
 api_name: 
--	IofCallDriver
--	IoCallDriver
+- IofCallDriver
+- IoCallDriver
 product:
 - Windows
 targetos: Windows

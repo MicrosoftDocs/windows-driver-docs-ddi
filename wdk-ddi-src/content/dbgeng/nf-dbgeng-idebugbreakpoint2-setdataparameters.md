@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.SetDataParameters
--	IDebugBreakpoint2.SetDataParameters
+- IDebugBreakpoint.SetDataParameters
+- IDebugBreakpoint2.SetDataParameters
 product:
 - Windows
 targetos: Windows

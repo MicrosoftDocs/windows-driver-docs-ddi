@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedrt.h
+- trustedrt.h
 api_name: 
--	IOCTL_TR_EXECUTE_FUNCTION
+- IOCTL_TR_EXECUTE_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

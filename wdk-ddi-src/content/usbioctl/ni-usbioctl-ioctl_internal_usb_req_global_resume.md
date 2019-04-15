@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
+- IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
 product:
 - Windows
 targetos: Windows

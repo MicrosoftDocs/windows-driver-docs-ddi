@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
+- NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
 product:
 - Windows
 targetos: Windows

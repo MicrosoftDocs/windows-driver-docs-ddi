@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TPM_INVOKE_GENERIC_OUT, *PTPM_INVOKE_GENERIC_OUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treetpmservice.h
+- treetpmservice.h
 api_name: 
--	_TPM_INVOKE_GENERIC_OUT
+- _TPM_INVOKE_GENERIC_OUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ucxcontroller.h
+- Ucxcontroller.h
 api_name:
--	PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
+- PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY
 product:
 - Windows
 targetos: Windows

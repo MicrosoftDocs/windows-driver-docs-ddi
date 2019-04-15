@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wiadef.h
+- wiadef.h
 api_name: 
--	WIA_PROP_LIST_COUNT
+- WIA_PROP_LIST_COUNT
 product:
 -   Windows
 targetos: Windows

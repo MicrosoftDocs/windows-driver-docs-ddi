@@ -23,16 +23,16 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
-apitype: 
--	HeaderDef
-apilocation: 
--	wdm.h
-apiname: 
--	IMAGE_POLICY_OVERRIDE
+topic_type: 
+- apiref
+api_type: 
+- HeaderDef
+api_location:
+- wdm.h
+api_name: 
+- IMAGE_POLICY_OVERRIDE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

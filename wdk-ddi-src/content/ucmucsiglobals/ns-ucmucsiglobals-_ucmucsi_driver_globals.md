@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_DRIVER_GLOBALS, *PUCMUCSI_DRIVER_GLOBALS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsiglobals.h
+- ucmucsiglobals.h
 api_name: 
--	_UCMUCSI_DRIVER_GLOBALS
+- _UCMUCSI_DRIVER_GLOBALS
 product:
 - Windows
 targetos: Windows
@@ -48,4 +48,4 @@ Reserved.
 
 ## -see-also
 
-[Ucmucsicx.h](..\ucmucsicx\index.md)
+[Ucmucsicx.h](../ucmucsicx/index.md)

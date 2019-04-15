@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpcm.h
+- ntddpcm.h
 api_name:
--	PCMCIA_CONTROLLER_CLASS
+- PCMCIA_CONTROLLER_CLASS
 product:
 - Windows
 targetos: Windows

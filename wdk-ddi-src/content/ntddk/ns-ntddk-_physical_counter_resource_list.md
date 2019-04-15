@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PHYSICAL_COUNTER_RESOURCE_LIST
+- PHYSICAL_COUNTER_RESOURCE_LIST
 product:
 - Windows
 targetos: Windows

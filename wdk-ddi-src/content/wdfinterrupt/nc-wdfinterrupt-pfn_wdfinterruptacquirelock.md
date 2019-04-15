@@ -25,15 +25,15 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: "<= DIRQL"
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	UserDefined
-apilocation:
--	wdfinterrupt.h
-apiname:
--	WdfInterruptAcquireLock
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- wdfinterrupt.h
+api_name:
+- WdfInterruptAcquireLock
 product:
 - Windows
 targetos: Windows

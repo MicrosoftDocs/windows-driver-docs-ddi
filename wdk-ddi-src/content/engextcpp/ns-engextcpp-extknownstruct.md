@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Engextcpp.hpp
+- Engextcpp.hpp
 api_name:
--	ExtKnownStruct
+- ExtKnownStruct
 product:
 - Windows
 targetos: Windows

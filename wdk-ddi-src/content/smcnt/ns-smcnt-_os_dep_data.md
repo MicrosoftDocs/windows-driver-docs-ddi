@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	smcnt.h
+- smcnt.h
 api_name:
--	OS_DEP_DATA
+- OS_DEP_DATA
 product:
 - Windows
 targetos: Windows

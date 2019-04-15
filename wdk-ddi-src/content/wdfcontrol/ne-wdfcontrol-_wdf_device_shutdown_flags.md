@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcontrol.h
+- wdfcontrol.h
 api_name:
--	WDF_DEVICE_SHUTDOWN_FLAGS
+- WDF_DEVICE_SHUTDOWN_FLAGS
 product:
 - Windows
 targetos: Windows

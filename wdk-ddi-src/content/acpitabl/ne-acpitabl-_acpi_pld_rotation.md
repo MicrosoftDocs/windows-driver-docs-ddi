@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_ROTATION
+- _ACPI_PLD_ROTATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

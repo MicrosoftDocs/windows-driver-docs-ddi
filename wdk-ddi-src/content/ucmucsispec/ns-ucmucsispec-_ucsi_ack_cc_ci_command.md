@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_ACK_CC_CI_COMMAND, *PUCSI_ACK_CC_CI_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_ACK_CC_CI_COMMAND
+- _UCSI_ACK_CC_CI_COMMAND
 product:
 - Windows
 targetos: Windows

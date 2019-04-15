@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddsysenv.h
+- Ntddsysenv.h
 api_name:
--	XVARIABLE_NAME_AND_VALUE
+- XVARIABLE_NAME_AND_VALUE
 product:
 - Windows
 targetos: Windows

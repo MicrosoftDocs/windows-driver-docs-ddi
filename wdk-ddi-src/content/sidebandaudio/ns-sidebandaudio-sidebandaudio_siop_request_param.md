@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	SIDEBANDAUDIO_SIOP_REQUEST_PARAM
+- SIDEBANDAUDIO_SIOP_REQUEST_PARAM
 product:
 - Windows
 targetos: Windows

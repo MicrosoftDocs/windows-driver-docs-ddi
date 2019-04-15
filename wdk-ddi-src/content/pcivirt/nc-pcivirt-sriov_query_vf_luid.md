@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	pcivirt.h
+- pcivirt.h
 api_name:
--	*PSRIOV_QUERY_VF_LUID
+- *PSRIOV_QUERY_VF_LUID
 product:
 - Windows
 targetos: Windows

@@ -1,13 +1,13 @@
 ---
 UID: TP:gpiobtn
 ms.assetid: 44f18b04-69c6-3937-b9a0-04797d713edc
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # Hardware notifications

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdpc.h
+- wdfdpc.h
 api_name:
--	WDF_DPC_CONFIG_INIT
+- WDF_DPC_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

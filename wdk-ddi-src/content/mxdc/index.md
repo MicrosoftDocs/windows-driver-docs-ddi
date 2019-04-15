@@ -1,13 +1,13 @@
 ---
 UID: NA:mxdc
 ms.assetid: c814db66-97e8-3874-b493-8fdcf95ba04b
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: print
 ---
 

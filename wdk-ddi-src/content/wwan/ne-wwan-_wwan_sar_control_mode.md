@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_CONTROL_MODE
+- _WWAN_SAR_CONTROL_MODE
 product:
 - Windows
 targetos: Windows

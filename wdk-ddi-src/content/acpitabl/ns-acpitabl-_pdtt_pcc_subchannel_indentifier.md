@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PDTT_PCC_SUBCHANNEL_INDENTIFIER, *PPDTT_PCC_SUBCHANNEL_INDENTIFIER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PDTT_PCC_SUBCHANNEL_INDENTIFIER
+- _PDTT_PCC_SUBCHANNEL_INDENTIFIER
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

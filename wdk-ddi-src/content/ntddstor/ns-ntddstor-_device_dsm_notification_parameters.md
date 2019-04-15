@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	DEVICE_DSM_NOTIFICATION_PARAMETERS
+- DEVICE_DSM_NOTIFICATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

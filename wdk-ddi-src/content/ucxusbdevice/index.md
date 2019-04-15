@@ -1,13 +1,13 @@
 ---
 UID: NA:ucxusbdevice
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: USB host controller driver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ---
 

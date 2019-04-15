@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treerpmbservice.h
+- treerpmbservice.h
 api_name: 
--	_TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
+- _TREE_RPMB_AUTHENTICATED_WRITE_EX_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

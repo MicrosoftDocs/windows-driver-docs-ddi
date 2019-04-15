@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.WriteDumpFile
--	IDebugClient2.WriteDumpFile
--	IDebugClient3.WriteDumpFile
--	IDebugClient4.WriteDumpFile
--	IDebugClient5.WriteDumpFile
+- IDebugClient.WriteDumpFile
+- IDebugClient2.WriteDumpFile
+- IDebugClient3.WriteDumpFile
+- IDebugClient4.WriteDumpFile
+- IDebugClient5.WriteDumpFile
 product:
 - Windows
 targetos: Windows
@@ -136,7 +136,7 @@ Creates a Full User-Mode Dump (user-mode) or Kernel Summary Dump (kernel-mode).
 </td>
 <td>
 
-         Creates a Complete Memory Dump (kernel-mode only).
+Creates a Complete Memory Dump (kernel-mode only).
 
 </td>
 </tr>

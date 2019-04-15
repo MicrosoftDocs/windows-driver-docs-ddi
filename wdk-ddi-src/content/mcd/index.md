@@ -1,13 +1,13 @@
 ---
 UID: NA:mcd
 ms.assetid: d0f47be9-5c97-3970-aeb3-d7c1f17ca997
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: storage
 ---
 

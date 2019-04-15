@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	oprghdlr.h
+- oprghdlr.h
 api_name: 
--	ACPI_OP_REGION_CALLBACK
+- ACPI_OP_REGION_CALLBACK
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

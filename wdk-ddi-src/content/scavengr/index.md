@@ -1,13 +1,13 @@
 ---
 UID: NA:scavengr
 ms.assetid: 773626f3-b745-3356-92cd-f15505c3683c
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

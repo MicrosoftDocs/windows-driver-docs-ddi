@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	engextcpp.hpp
+- engextcpp.hpp
 api_name:
--	EXT_COMMAND_METHOD
+- EXT_COMMAND_METHOD
 product:
 - Windows
 targetos: Windows

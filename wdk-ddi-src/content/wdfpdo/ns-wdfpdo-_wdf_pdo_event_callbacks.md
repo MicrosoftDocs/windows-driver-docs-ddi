@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfpdo.h
+- wdfpdo.h
 api_name:
--	WDF_PDO_EVENT_CALLBACKS
+- WDF_PDO_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

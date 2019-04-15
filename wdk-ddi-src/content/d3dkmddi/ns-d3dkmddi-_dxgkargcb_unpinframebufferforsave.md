@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
+- _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 product: 
 - Windows
 targetos: Windows

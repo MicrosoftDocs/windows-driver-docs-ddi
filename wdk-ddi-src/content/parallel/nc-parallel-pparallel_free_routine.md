@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	(*PPARALLEL_FREE_ROUTINE)
+- (*PPARALLEL_FREE_ROUTINE)
 product:
 - Windows
 targetos: Windows

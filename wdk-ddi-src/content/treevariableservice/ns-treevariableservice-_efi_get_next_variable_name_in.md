@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: EFI_GET_NEXT_VARIABLE_NAME_IN, *PEFI_GET_NEXT_VARIABLE_NAME_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	_EFI_GET_NEXT_VARIABLE_NAME_IN
+- _EFI_GET_NEXT_VARIABLE_NAME_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

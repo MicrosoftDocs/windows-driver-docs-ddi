@@ -25,15 +25,15 @@ req.type-library:
 req.lib: dbgeng.h
 req.dll:
 req.irql:
-topictype:
--	APIRef
--	kbSyntax
-apitype:
--	HeaderDef
-apilocation:
--	wdbgexts.h
-apiname:
--	GetFieldOffset
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- wdbgexts.h
+api_name:
+- GetFieldOffset
 product:
 - Windows
 targetos: Windows

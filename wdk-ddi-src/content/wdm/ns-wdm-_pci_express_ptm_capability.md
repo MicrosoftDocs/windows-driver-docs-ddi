@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_PTM_CAPABILITY, *PPCI_EXPRESS_PTM_CAPABILITY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_PCI_EXPRESS_PTM_CAPABILITY
+- _PCI_EXPRESS_PTM_CAPABILITY
 product:
 - Windows
 targetos: Windows

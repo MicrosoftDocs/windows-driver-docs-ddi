@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BACKLIGHT_REDUCTION_GAMMA_RAMP
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BACKLIGHT_REDUCTION_GAMMA_RAMP
+- _BACKLIGHT_REDUCTION_GAMMA_RAMP
 product: 
 - Windows
 targetos: Windows

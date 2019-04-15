@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_SET_PDM_COMMAND, *PUCSI_SET_PDM_COMMAND
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_SET_PDM_COMMAND
+- _UCSI_SET_PDM_COMMAND
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntpoapi.h
+- ntpoapi.h
 api_name:
--	BATTERY_REPORTING_SCALE
+- BATTERY_REPORTING_SCALE
 product:
 - Windows
 targetos: Windows

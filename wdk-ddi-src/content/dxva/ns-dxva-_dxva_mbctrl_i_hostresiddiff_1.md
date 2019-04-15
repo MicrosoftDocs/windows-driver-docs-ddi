@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxva.h
+- dxva.h
 api_name:
--	DXVA_MBctrl_I_HostResidDiff_1
+- DXVA_MBctrl_I_HostResidDiff_1
 product:
 - Windows
 targetos: Windows

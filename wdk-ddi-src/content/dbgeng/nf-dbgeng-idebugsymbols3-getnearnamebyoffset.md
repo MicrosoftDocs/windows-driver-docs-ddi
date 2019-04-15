@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSymbols.GetNearNameByOffset
--	IDebugSymbols2.GetNearNameByOffset
--	IDebugSymbols3.GetNearNameByOffset
+- IDebugSymbols.GetNearNameByOffset
+- IDebugSymbols2.GetNearNameByOffset
+- IDebugSymbols3.GetNearNameByOffset
 product:
 - Windows
 targetos: Windows

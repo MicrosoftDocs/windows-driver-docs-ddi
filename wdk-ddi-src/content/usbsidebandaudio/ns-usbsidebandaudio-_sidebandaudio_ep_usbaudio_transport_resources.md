@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, *PSIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbsidebandaudio.h
+- usbsidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
+- _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 product:
 - Windows
 targetos: Windows

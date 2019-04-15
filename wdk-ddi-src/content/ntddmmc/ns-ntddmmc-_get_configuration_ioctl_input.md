@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	GET_CONFIGURATION_IOCTL_INPUT
+- GET_CONFIGURATION_IOCTL_INPUT
 product:
 - Windows
 targetos: Windows

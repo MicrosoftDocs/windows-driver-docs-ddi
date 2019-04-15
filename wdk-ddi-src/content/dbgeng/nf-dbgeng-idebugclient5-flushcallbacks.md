@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.FlushCallbacks
--	IDebugClient2.FlushCallbacks
--	IDebugClient3.FlushCallbacks
--	IDebugClient4.FlushCallbacks
--	IDebugClient5.FlushCallbacks
+- IDebugClient.FlushCallbacks
+- IDebugClient2.FlushCallbacks
+- IDebugClient3.FlushCallbacks
+- IDebugClient4.FlushCallbacks
+- IDebugClient5.FlushCallbacks
 product:
 - Windows
 targetos: Windows

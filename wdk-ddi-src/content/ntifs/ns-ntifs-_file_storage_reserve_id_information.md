@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STORAGE_RESERVE_ID_INFORMATION
+- _FILE_STORAGE_RESERVE_ID_INFORMATION
 product:
 - Windows
 targetos: Windows

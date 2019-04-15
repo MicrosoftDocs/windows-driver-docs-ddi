@@ -1,13 +1,13 @@
 ---
 UID: NA:ucxroothub
 ms.assetid: f414bbf8-87c3-3f54-a115-be4e34efc66d
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ---
 

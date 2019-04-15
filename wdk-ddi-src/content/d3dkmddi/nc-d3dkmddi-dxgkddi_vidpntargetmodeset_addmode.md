@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	dxgk_vidpntargetmodeset_interface_pfnAddMode
+- dxgk_vidpntargetmodeset_interface_pfnAddMode
 product:
 - Windows
 targetos: Windows

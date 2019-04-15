@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadevd.h
+- wiadevd.h
 api_name:
--	DEVICEDIALOGDATA2
+- DEVICEDIALOGDATA2
 product:
 - Windows
 targetos: Windows

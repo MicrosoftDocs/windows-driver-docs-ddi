@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_TIMER_CONFIG_INIT_PERIODIC
+- WDF_TIMER_CONFIG_INIT_PERIODIC
 product:
 - Windows
 targetos: Windows

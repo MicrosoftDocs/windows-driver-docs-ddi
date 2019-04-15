@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: AXIS, *PAXIS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	AXIS
+- AXIS
 product: 
 - Windows
 targetos: Windows

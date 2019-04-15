@@ -26,15 +26,15 @@ req.lib: Displib.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Displib.lib
--	Displib.dll
+- Displib.lib
+- Displib.dll
 api_name:
--	DxgkInitializeDisplayOnlyDriver
+- DxgkInitializeDisplayOnlyDriver
 product:
 - Windows
 targetos: Windows

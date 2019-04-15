@@ -1,13 +1,13 @@
 ---
 UID: TP:kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 ---
 
 # Windows kernel
@@ -66,30 +66,30 @@ Here are the required and optional routines that you must implement in your driv
 ### Public Headers for Windows Kernel
 To develop Windows kernel, you need these headers:
 
- * [aux_klib.h](..\aux_klib\index.md)
- * [buffring.h](..\buffring\index.md)
- * [hwnclx.h](..\hwnclx\index.md)
- * [ioaccess.h](..\ioaccess\index.md)
- * [iointex.h](..\iointex\index.md)
- * [ntddk.h](..\ntddk\index.md)
- * [ntddsfio.h](..\ntddsfio\index.md)
- * [ntddsysenv.h](..\ntddsysenv\index.md)
- * [ntimage.h](..\ntimage\index.md)
- * [ntintsafe.h](..\ntintsafe\index.md)
- * [ntpoapi.h](..\ntpoapi\index.md)
- * [ntstrsafe.h](..\ntstrsafe\index.md)
- * [pcivirt.h](..\pcivirt\index.md)
- * [pep_x.h](..\pep_x\index.md)
- * [pepevents.h](..\pepevents\index.md)
- * [pepfx.h](..\pepfx\index.md)
- * [procgrp.h](..\procgrp\index.md)
- * [pwmutil.h](..\pwmutil\index.md)
- * [vpci.h](..\vpci\index.md)
- * [wdm.h](..\wdm\index.md)
- * [wdmsec.h](..\wdmsec\index.md)
- * [wmidata.h](..\wmidata\index.md)
- * [wmilib.h](..\wmilib\index.md)
- * [wmistr.h](..\wmistr\index.md)
+ * [aux_klib.h](../aux_klib/index.md)
+ * [buffring.h](../buffring/index.md)
+ * [hwnclx.h](../hwnclx/index.md)
+ * [ioaccess.h](../ioaccess/index.md)
+ * [iointex.h](../iointex/index.md)
+ * [ntddk.h](../ntddk/index.md)
+ * [ntddsfio.h](../ntddsfio/index.md)
+ * [ntddsysenv.h](../ntddsysenv/index.md)
+ * [ntimage.h](../ntimage/index.md)
+ * [ntintsafe.h](../ntintsafe/index.md)
+ * [ntpoapi.h](../ntpoapi/index.md)
+ * [ntstrsafe.h](../ntstrsafe/index.md)
+ * [pcivirt.h](../pcivirt/index.md)
+ * [pep_x.h](../pep_x/index.md)
+ * [pepevents.h](../pepevents/index.md)
+ * [pepfx.h](../pepfx/index.md)
+ * [procgrp.h](../procgrp/index.md)
+ * [pwmutil.h](../pwmutil/index.md)
+ * [vpci.h](../vpci/index.md)
+ * [wdm.h](../wdm/index.md)
+ * [wdmsec.h](../wdmsec/index.md)
+ * [wmidata.h](../wmidata/index.md)
+ * [wmilib.h](../wmilib/index.md)
+ * [wmistr.h](../wmistr/index.md)
 
 For the programming guide, see [Windows kernel](https://docs.microsoft.com/windows-hardware/drivers/kernel).
 

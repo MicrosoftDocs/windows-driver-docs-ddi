@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAM_HEADER
+- KSSTREAM_HEADER
 product:
 - Windows
 targetos: Windows
@@ -116,8 +116,7 @@ KSSTREAM_HEADER_OPTIONSF_DURATIONVALID
 </td>
 <td>
 
-          Specifies that the <b>Duration</b> member of this structure is valid.
-        
+Specifies that the <b>Duration</b> member of this structure is valid.
 
 </td>
 </tr>
@@ -219,8 +218,7 @@ KSSTREAM_HEADER_OPTIONSF_TIMEVALID
 </td>
 <td>
 
-          Specifies that the <b>PresentationTime</b> member of this structure is valid. Indicates that this buffer has a valid timestamp associated with it.
-        
+Specifies that the <b>PresentationTime</b> member of this structure is valid. Indicates that this buffer has a valid timestamp associated with it.
 
 </td>
 </tr>
@@ -231,8 +229,7 @@ KSSTREAM_HEADER_OPTIONSF_TYPECHANGED
 </td>
 <td>
 
-          Signifies that the data format for this stream has changed. If this flag is set, the <b>Data</b> member contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation.
-        
+Signifies that the data format for this stream has changed. If this flag is set, the <b>Data</b> member contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation.
 
 </td>
 </tr>
@@ -243,8 +240,7 @@ KSSTREAM_HEADER_OPTIONSF_VRAM_DATA_TRANSFER
 </td>
 <td>
 
-          Specifies that the stream header's <i>Data</i> member points to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568783">VRAM_SURFACE_INFO</a>. The system-supplied KS proxy module sets this flag to indicate that it is <a href="https://msdn.microsoft.com/e3ab3a10-42af-488f-9b13-d2c6d5aac615">capturing directly to VRAM</a>.
-        
+Specifies that the stream header's <i>Data</i> member points to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568783">VRAM_SURFACE_INFO</a>. The system-supplied KS proxy module sets this flag to indicate that it is <a href="https://msdn.microsoft.com/e3ab3a10-42af-488f-9b13-d2c6d5aac615">capturing directly to VRAM</a>.
 
 </td>
 </tr>
@@ -255,8 +251,7 @@ KSSTREAM_HEADER_OPTIONSF_BUFFEREDTRANSFER
 </td>
 <td>
 
-          Specifies that the <i>Data</i> member of KSSTREAM_HEADER contains a kernel-mode copy of the original buffer. Ksproxy sets this flag for small data transfers during WVDDM (Windows Vista Display Driver Model) capture. If this flag is not set, KS uses direct I/O into the <i>Data</i> buffer.
-        
+Specifies that the <i>Data</i> member of KSSTREAM_HEADER contains a kernel-mode copy of the original buffer. Ksproxy sets this flag for small data transfers during WVDDM (Windows Vista Display Driver Model) capture. If this flag is not set, KS uses direct I/O into the <i>Data</i> buffer.
 
 </td>
 </tr>

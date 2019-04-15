@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugSymbols3.SetScopeFromStoredEvent
+- IDebugSymbols3.SetScopeFromStoredEvent
 product:
 - Windows
 targetos: Windows
@@ -88,7 +88,7 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-Currently only user-mode<a href="https://msdn.microsoft.com/library/windows/hardware/ff552212">Minidumps</a> can contain a stored event.
+Currently only user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/user-mode-dump-files#minidumps">Minidumps</a> can contain a stored event.
 
 The new scope is printed to the debugger console.
 

@@ -1,13 +1,13 @@
 ---
 UID: NA:rxtrace
 ms.assetid: 895c4675-08db-34a3-bf36-3f35a57f82d5
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

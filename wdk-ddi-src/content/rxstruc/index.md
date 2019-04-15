@@ -1,13 +1,13 @@
 ---
 UID: NA:rxstruc
 ms.assetid: 65762d53-73cb-3de7-a883-98912cb2a1da
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: ifsk
 ---
 

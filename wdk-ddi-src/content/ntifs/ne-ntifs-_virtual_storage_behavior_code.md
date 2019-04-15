@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: VIRTUAL_STORAGE_BEHAVIOR_CODE, *PVIRTUAL_STORAGE_BEHAVIOR_CODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_VIRTUAL_STORAGE_BEHAVIOR_CODE
+- _VIRTUAL_STORAGE_BEHAVIOR_CODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

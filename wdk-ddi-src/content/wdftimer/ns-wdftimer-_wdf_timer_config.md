@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdftimer.h
+- wdftimer.h
 api_name:
--	WDF_TIMER_CONFIG
+- WDF_TIMER_CONFIG
 product:
 - Windows
 targetos: Windows

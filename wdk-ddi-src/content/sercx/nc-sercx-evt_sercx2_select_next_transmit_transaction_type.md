@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= DISPATCH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2SelectNextTransmitTransactionType
+- EvtSerCx2SelectNextTransmitTransactionType
 product:
 - Windows
 targetos: Windows
@@ -114,7 +114,7 @@ To define an <i>EvtSerCx2CustomTransmitSelectNextTransactionType</i> callback fu
 
 For example, to define an <i>EvtSerCx2CustomTransmitSelectNextTransactionType</i> callback function that is named <code>MyCustomTransmitSelectNextTransactionType</code>, use the <b>EVT_SERCX2_CUSTOM_TRANSMIT_SELECT_NEXT_TRANSACTION_TYPE</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -126,7 +126,7 @@ For example, to define an <i>EvtSerCx2CustomTransmitSelectNextTransactionType</i
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

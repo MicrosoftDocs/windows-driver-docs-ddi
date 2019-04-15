@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PROC_TOPOLOGY_NODE, *PPROC_TOPOLOGY_NODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PROC_TOPOLOGY_NODE
+- _PROC_TOPOLOGY_NODE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

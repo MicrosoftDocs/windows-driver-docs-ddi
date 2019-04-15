@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	*NDIS_PD_FLUSH_QUEUE_HANDLER
+- *NDIS_PD_FLUSH_QUEUE_HANDLER
 product:
 - Windows
 targetos: Windows

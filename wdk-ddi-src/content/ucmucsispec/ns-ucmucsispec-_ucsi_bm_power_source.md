@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_BM_POWER_SOURCE, *PUCSI_BM_POWER_SOURCE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_BM_POWER_SOURCE
+- _UCSI_BM_POWER_SOURCE
 product:
 - Windows
 targetos: Windows

@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	_UCMUCSI_CONNECTOR_INFO
+- _UCMUCSI_CONNECTOR_INFO
 product:
 - Windows
 targetos: Windows

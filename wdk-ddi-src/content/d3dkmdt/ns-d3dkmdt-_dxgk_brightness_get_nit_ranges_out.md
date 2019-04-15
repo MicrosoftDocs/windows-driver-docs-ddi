@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
+- _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ---
@@ -37,7 +37,7 @@ tech.root: display
 
 ## -description
 
-Contains the output parameters for the [DxgkBrightnessGetNitRanges](..\dispmprt\nc-dispmprt-dxgk_brightness_get_nit_ranges.md) callback function.
+Contains the output parameters for the [DxgkBrightnessGetNitRanges](../dispmprt/nc-dispmprt-dxgk_brightness_get_nit_ranges.md) callback function.
 
 ## -struct-fields
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	EvtSerCx2ApplyConfig
+- EvtSerCx2ApplyConfig
 product:
 - Windows
 targetos: Windows
@@ -92,7 +92,7 @@ To define an <i>EvtSerCx2ApplyConfig</i> callback function, you must first provi
 
 For example, to define an <i>EvtSerCx2ApplyConfig</i> callback function that is named <code>MyApplyConfig</code>, use the <b>EVT_SERCX2_APPLY_CONFIG</b> function type, as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -104,7 +104,7 @@ For example, to define an <i>EvtSerCx2ApplyConfig</i> callback function that is 
 </table></span></div>
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>
@@ -124,7 +124,7 @@ The <b>EVT_SERCX2_APPLY_CONFIG</b> function type is defined in the Sercx.h heade
 
 The following code example shows a partial implementation of an <i>EvtSerCx2ApplyConfig</i> function for a UART:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span codelanguage="cpp"><table>
 <tr>
 <th></th>
 </tr>

@@ -7,7 +7,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ms.custom: RS5
 ---
@@ -21,17 +21,17 @@ This header is the main include header for client drivers of the UcmUcsiCx class
 
 Ucmucsicx includes these headers:
 
-[UcmUcsiGlobals.h](..\ucmucsiglobals\index.md)
+[UcmUcsiGlobals.h](../ucmucsiglobals/index.md)
 
-[UcmUcsiFuncEnum.h](..\ucmucsifuncenum\index.md)
+[UcmUcsiFuncEnum.h](../ucmucsifuncenum/index.md)
 
-[UcmUcsiDevice.h](..\ucmucsidevice\index.md)
+[UcmUcsiDevice.h](../ucmucsidevice/index.md)
 
-[UcmUcsiSpec.h](..\ucmucsispec\index.md)
+[UcmUcsiSpec.h](../ucmucsispec/index.md)
 
-[UcmUcsiPpm.h](..\ucmucsispec\index.md)
+[UcmUcsiPpm.h](../ucmucsispec/index.md)
 
-[UcmUcsiPpmRequests.h](..\ucmucsispec\index.md)
+[UcmUcsiPpmRequests.h](../ucmucsispec/index.md)
 
 > Do not include the preceding headers directly. Instead, only include Ucmucsicx.h.
 

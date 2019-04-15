@@ -1,13 +1,13 @@
 ---
 UID: NA:swenum
 ms.assetid: 631903f3-c726-3652-b341-ccbe7cdd2a44
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: stream
 ---
 

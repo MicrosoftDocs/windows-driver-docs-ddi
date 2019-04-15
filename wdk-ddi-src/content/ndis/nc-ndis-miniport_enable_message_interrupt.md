@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DIRQL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	MiniportEnableMessageInterrupt
+- MiniportEnableMessageInterrupt
 product:
 - Windows
 targetos: Windows

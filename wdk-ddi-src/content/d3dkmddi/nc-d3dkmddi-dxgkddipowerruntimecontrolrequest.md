@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3dkmddi.h
+- D3dkmddi.h
 api_name:
--	DxgkDdiPowerRuntimeControlRequest
+- DxgkDdiPowerRuntimeControlRequest
 product:
 - Windows
 targetos: Windows

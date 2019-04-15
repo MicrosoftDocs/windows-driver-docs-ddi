@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Urstypes.h
+- Urstypes.h
 api_name:
--	URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
+- URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
 product:
 - Windows
 targetos: Windows

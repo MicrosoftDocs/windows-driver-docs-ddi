@@ -1,13 +1,13 @@
 ---
 UID: NA:netrequestqueue
 ms.assetid: 659e65a6-0c1c-34ef-aa27-96d03d945660
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: netvista
 ---
 

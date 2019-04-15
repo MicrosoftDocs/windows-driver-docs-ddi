@@ -26,15 +26,15 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: "<= DIRQL (see Comments section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name:
--	DbgPrint
+- DbgPrint
 product:
 - Windows
 targetos: Windows
@@ -49,7 +49,7 @@ req.typenames:
 
 The <b>DbgPrint</b> routine sends a message to the kernel debugger. 
 
- In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only when the conditions that you specify apply (see the <a href="https://docs.microsoft.com/">Remarks</a> section for information).
+ In Windows Vista and later versions of Windows, <b>DbgPrint</b> sends a message only when the conditions that you specify apply (see the <a href="#remarks">Remarks</a> section for information).
 
 
 ## -parameters

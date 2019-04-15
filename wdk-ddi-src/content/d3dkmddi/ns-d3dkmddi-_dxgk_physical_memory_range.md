@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_PHYSICAL_MEMORY_RANGE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_PHYSICAL_MEMORY_RANGE
+- _DXGK_PHYSICAL_MEMORY_RANGE
 product: 
 - Windows
 targetos: Windows

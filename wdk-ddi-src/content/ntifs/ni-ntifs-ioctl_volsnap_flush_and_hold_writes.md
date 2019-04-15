@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
+- IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 product:
 - Windows
 targetos: Windows

@@ -1,13 +1,13 @@
 ---
 UID: NA:sffdisk
 ms.assetid: 0ffe1314-78d0-3840-8dbe-bec79732f0dd
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: sd
 ---
 

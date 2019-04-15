@@ -1,13 +1,13 @@
 ---
 UID: NA:udecxwdfdevice
 ms.assetid: d0a5a6e1-0a40-3c57-8704-6ba20faac4d9
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: usbref
 ---
 

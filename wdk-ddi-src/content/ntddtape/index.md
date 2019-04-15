@@ -1,13 +1,13 @@
 ---
 UID: NA:ntddtape
 ms.assetid: d256bd60-5dd4-3212-aedd-dbf0a73383e6
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: storage
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_requires_same_"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
+- PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
 product:
 - Windows
 targetos: Windows

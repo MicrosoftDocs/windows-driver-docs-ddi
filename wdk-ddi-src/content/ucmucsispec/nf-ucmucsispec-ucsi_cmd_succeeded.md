@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	UCSI_CMD_SUCCEEDED
+- UCSI_CMD_SUCCEEDED
 product: 
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ptpusd.h
+- ptpusd.h
 api_name:
--	PTP_VENDOR_DATA_IN
+- PTP_VENDOR_DATA_IN
 product:
 - Windows
 targetos: Windows

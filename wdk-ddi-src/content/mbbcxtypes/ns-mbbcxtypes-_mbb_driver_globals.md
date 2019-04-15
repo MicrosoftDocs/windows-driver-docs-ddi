@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcxtypes.h
+- mbbcxtypes.h
 api_name: 
--	_MBB_DRIVER_GLOBALS
+- _MBB_DRIVER_GLOBALS
 product:
 - Windows
 targetos: Windows

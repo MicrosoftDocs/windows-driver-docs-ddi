@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.SetEffectiveProcessorType
--	IDebugControl2.SetEffectiveProcessorType
--	IDebugControl3.SetEffectiveProcessorType
+- IDebugControl.SetEffectiveProcessorType
+- IDebugControl2.SetEffectiveProcessorType
+- IDebugControl3.SetEffectiveProcessorType
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ursdevice.h
+- ursdevice.h
 api_name:
--	PFN_URS_SET_ROLE
+- PFN_URS_SET_ROLE
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "_IRQL_requires_max_(APC_LEVEL)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fltKernel.h
+- fltKernel.h
 api_name:
--	FltAddOpenReparseEntry
+- FltAddOpenReparseEntry
 product:
 - Windows
 targetos: Windows

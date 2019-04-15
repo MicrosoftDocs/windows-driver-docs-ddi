@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbioctl.h
+- usbioctl.h
 api_name:
--	USB_HUB_TYPE
+- USB_HUB_TYPE
 product:
 - Windows
 targetos: Windows
@@ -82,7 +82,7 @@ Indicates that the retrieved hub descriptor is defined in USB 3.0 specification.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/#enumerations">USB Constants and Enumerations</a>
 
 
 

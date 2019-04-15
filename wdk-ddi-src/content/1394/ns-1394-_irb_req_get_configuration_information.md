@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_GET_CONFIGURATION_INFORMATION
+- IRB_REQ_GET_CONFIGURATION_INFORMATION
 product:
 - Windows
 targetos: Windows
@@ -86,8 +86,7 @@ Points to a buffer that receives the unit dependent directory, as defined by the
 
 ### -field UnitDependentDirectoryLocation
 
- The Unit Dependent Directory location for this device.  Only the
-    lower 48 bits are valid in this <b>IO_ADDRESS</b>.
+ The Unit Dependent Directory location for this device.  Only the lower 48 bits are valid in this <b>IO_ADDRESS</b>.
 
 
 ### -field VendorLeafBufferSize

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
+- D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 product: 
 - Windows
 targetos: Windows

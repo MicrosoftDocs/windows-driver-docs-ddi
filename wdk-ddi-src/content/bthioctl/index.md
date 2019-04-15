@@ -1,13 +1,13 @@
 ---
 UID: NA:bthioctl
 ms.assetid: dbb85592-b165-3196-b65b-0910ea02316f
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: bltooth
 ---
 

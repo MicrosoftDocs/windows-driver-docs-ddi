@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugBreakpoint.GetCurrentPassCount
--	IDebugBreakpoint2.GetCurrentPassCount
+- IDebugBreakpoint.GetCurrentPassCount
+- IDebugBreakpoint2.GetCurrentPassCount
 product:
 - Windows
 targetos: Windows

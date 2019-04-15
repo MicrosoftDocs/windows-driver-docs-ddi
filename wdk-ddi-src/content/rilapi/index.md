@@ -1,13 +1,13 @@
 ---
 UID: NA:rilapi
 ms.assetid: 116743fe-9c7e-3dc4-bcad-a68b4eba9491
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: netvista
 ---
 

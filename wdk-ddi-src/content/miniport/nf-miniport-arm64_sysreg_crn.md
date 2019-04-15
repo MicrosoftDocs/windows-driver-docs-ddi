@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	miniport.h
+- miniport.h
 api_name: 
--	ARM64_SYSREG_CRN
+- ARM64_SYSREG_CRN
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

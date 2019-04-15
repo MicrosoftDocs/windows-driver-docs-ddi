@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	BOOT_DRIVER_CALLBACK_FUNCTION
+- BOOT_DRIVER_CALLBACK_FUNCTION
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

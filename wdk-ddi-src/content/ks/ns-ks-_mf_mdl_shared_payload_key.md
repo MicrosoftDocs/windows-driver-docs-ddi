@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	MF_MDL_SHARED_PAYLOAD_KEY
+- MF_MDL_SHARED_PAYLOAD_KEY
 product:
 - Windows
 targetos: Windows

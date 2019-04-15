@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PORT_DATA_LIST_1, *PPORT_DATA_LIST_1
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	tcpxcv.h
+- tcpxcv.h
 api_name: 
--	_PORT_DATA_LIST_1
+- _PORT_DATA_LIST_1
 product: 
 -   Windows
 targetos: Windows

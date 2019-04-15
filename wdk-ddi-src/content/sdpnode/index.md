@@ -1,13 +1,13 @@
 ---
 UID: NA:sdpnode
 ms.assetid: 03f84fc0-9c8e-37d3-bcac-e26636d44d47
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: bltooth
 ---
 

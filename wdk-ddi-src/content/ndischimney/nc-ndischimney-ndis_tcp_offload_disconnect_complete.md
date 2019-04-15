@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NdisTcpOffloadDisconnectComplete
+- NdisTcpOffloadDisconnectComplete
 product:
 - Windows
 targetos: Windows

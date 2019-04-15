@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D4drvif.h
+- D4drvif.h
 api_name:
--	IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
+- IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
 product:
 - Windows
 targetos: Windows

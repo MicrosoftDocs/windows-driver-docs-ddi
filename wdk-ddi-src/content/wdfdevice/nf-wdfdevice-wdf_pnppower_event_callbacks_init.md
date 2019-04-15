@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
+- wdfdevice.h
 api_name:
--	WDF_PNPPOWER_EVENT_CALLBACKS_INIT
+- WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

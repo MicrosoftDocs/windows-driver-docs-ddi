@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	GetKdContext
+- GetKdContext
 product:
 - Windows
 targetos: Windows
@@ -58,11 +58,12 @@ The <b>GetKdContext</b> function returns the total number of processors and the 
 
 Points to the following structure:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _tagPROCESSORINFO {
+```cpp
+typedef struct _tagPROCESSORINFO {
   USHORT  Processor;           // current processor
   USHORT  NumberProcessors;    // total number of processors
-} PROCESSORINFO, *PPROCESSORINFO;</code></pre>
-
+} PROCESSORINFO, *PPROCESSORINFO;
+```
 
 
 ## -returns

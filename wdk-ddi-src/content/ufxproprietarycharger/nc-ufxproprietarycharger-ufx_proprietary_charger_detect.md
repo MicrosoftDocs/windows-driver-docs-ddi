@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ufxproprietarycharger.h
+- ufxproprietarycharger.h
 api_name:
--	PFN_UFX_PROPRIETARY_CHARGER_DETECT
+- PFN_UFX_PROPRIETARY_CHARGER_DETECT
 product:
 - Windows
 targetos: Windows

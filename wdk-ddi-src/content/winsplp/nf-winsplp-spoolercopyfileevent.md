@@ -26,14 +26,14 @@ req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Mscms.dll
+- Mscms.dll
 api_name:
--	SpoolerCopyFileEvent
+- SpoolerCopyFileEvent
 product:
 - Windows
 targetos: Windows

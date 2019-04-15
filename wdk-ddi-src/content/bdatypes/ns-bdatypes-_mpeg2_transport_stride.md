@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdatypes.h
+- bdatypes.h
 api_name:
--	MPEG2_TRANSPORT_STRIDE
+- MPEG2_TRANSPORT_STRIDE
 product:
 - Windows
 targetos: Windows

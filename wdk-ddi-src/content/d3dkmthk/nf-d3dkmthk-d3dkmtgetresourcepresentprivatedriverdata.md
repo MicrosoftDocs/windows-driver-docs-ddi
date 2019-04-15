@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
 api_name: 
--	D3DKMTGetResourcePresentPrivateDriverData
+- D3DKMTGetResourcePresentPrivateDriverData
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

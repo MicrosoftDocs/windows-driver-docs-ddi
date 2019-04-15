@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelManager2.CreateIntrinsicObject
+- IDataModelManager2.CreateIntrinsicObject
 product:
 - Windows
 targetos: Windows

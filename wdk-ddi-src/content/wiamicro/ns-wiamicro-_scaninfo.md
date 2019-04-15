@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamicro.h
+- wiamicro.h
 api_name:
--	SCANINFO
+- SCANINFO
 product:
 - Windows
 targetos: Windows

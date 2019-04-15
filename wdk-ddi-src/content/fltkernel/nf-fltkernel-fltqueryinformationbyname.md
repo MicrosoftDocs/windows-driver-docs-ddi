@@ -25,22 +25,21 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	fltmgr.sys
+- fltmgr.sys
 api_name: 
--	FltQueryInformationByName
+- FltQueryInformationByName
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5
 ---
 
 # FltQueryInformationByName function
-
 
 ## -description
 

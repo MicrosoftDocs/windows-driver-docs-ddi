@@ -1,13 +1,13 @@
 ---
 UID: NA:screencapture
 ms.assetid: cf555117-86c5-3158-b7f9-ad31dd048904
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: dtf
 ---
 

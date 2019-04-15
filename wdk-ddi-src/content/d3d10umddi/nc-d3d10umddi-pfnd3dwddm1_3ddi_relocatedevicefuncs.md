@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	RelocateDeviceFuncs(D3D11_2)
+- RelocateDeviceFuncs(D3D11_2)
 product:
 - Windows
 targetos: Windows

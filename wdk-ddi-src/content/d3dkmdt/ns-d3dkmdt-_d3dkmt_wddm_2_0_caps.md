@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_WDDM_2_0_CAPS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_D3DKMT_WDDM_2_0_CAPS
+- _D3DKMT_WDDM_2_0_CAPS
 product: 
 - Windows
 targetos: Windows

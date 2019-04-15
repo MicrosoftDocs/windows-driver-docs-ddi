@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winsplp.h
+- winsplp.h
 api_name:
--	InitializePrintMonitor2
+- InitializePrintMonitor2
 product:
 - Windows
 targetos: Windows
@@ -42,64 +42,37 @@ req.typenames:
 
 # InitializePrintMonitor2 function
 
-
 ## -description
 
-
-A print monitor's <b>InitializePrintMonitor2</b> function initializes a print monitor for use with clustered print servers.
-
+A print monitor's **InitializePrintMonitor2** function initializes a print monitor for use with clustered print servers.
 
 ## -parameters
 
-
-
-
 ### -param pMonitorInit [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a> structure.
-
+Caller-supplied pointer to a [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit) structure.
 
 ### -param phMonitor [out]
 
 Caller-supplied location in which the function returns a monitor handle.
 
-
 ## -returns
 
-
-
-If the operation succeeds, the function should return a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
-
-
-
+If the operation succeeds, the function should return a pointer to a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return **NULL**.
 
 ## -remarks
 
+The **InitializePrintMonitor2** function must be exported by [language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure.
 
+The [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
 
-The <b>InitializePrintMonitor2</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
+- Perform a run-time check to determine which operating system version the monitor is running on.
+- If the monitor is running on Windows 2000, it must set the **cbSize** member of the MONITOR2 structure to MONITOR2_SIZE_WIN2K (defined in Winsplp.h), the size appropriate for Windows 2000 version of this structure.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
-
-<ul>
-<li>
-Perform a run-time check to determine which operating system version the monitor is running on.
-
-</li>
-<li>
-If the monitor is running on Windows 2000, it must set the <b>cbSize</b> member of the MONITOR2 structure to MONITOR2_SIZE_WIN2K (defined in Winsplp.h), the size appropriate for Windows 2000 version of this structure.
-
-</li>
-</ul>
 The following function determines whether the current operating system version is Windows 2000.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOL  Is_Win2000()
+```cpp
+BOOL  Is_Win2000()
 {
   OSVERSIONINFOEX osvi;
   DWORDLONG dwlConditionMask = 0;
@@ -120,33 +93,16 @@ The following function determines whether the current operating system version i
       &amp;osvi,
       VER_MAJORVERSION | VER_MINORVERSION,
       dwlConditionMask);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-For a monitor that is loading on Windows 2000, the following code sets the MONITOR2 structure's <b>cbSize</b> member appropriately.
+}
+```
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if ( Is_Win2000( ) )
-    Monitor2.cbSize = MONITOR2_SIZE_WIN2K;</pre>
-</td>
-</tr>
-</table></span></div>
+For a monitor that is loading on Windows 2000, the following code sets the MONITOR2 structure's **cbSize** member appropriately.
 
-
+```cpp
+if ( Is_Win2000( ) )
+    Monitor2.cbSize = MONITOR2_SIZE_WIN2K;
+```
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a>
- 
-
- 
-
+[MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit)

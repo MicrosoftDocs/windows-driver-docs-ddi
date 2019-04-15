@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_CLIENT_REGISTRATION_PACKET
+- GPIO_CLIENT_REGISTRATION_PACKET
 product:
 - Windows
 targetos: Windows
