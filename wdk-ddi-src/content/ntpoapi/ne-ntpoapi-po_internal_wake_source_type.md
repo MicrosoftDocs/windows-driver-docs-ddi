@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-
+Reserved for internal use.
 
 ## -enum-fields
 
