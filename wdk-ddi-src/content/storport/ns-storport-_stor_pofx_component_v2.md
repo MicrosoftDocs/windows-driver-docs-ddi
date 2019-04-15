@@ -111,4 +111,6 @@ For a unit device component, if an additional F-state is included in the **FStat
 
 [STOR_POFX_DEVICE](ns-storport-_stor_pofx_device.md)
 
+[StorPortInitializePoFxPower](nf-storport-storportinitializepofxpower.md)
+
 [StorPortPoFxActivateComponent](nf-storport-storportpofxactivatecomponent.md)
