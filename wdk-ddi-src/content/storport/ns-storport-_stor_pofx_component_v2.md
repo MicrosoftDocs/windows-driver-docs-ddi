@@ -78,7 +78,7 @@ The deepest F-State that the component can be in where the miniport can power up
 
 ### -field FStates
 
-An array of [STOR_POFX_COMPONENT_IDLE_STATE](ns-storport-_stor_pofx_component_idle_state.md) structures. The length of this array is specified by the **FStateCount** member. Each array element specifies the attributes of an F-state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on. When more than one idle state structure is required, the additional structures are allocated at the end of the **STOR_ POFX_COMPONENT_V2** structure and the **FStateCount** is set to 1, the value of ANYSIZE_ARRAY, plus the count of the additional structures.
+An array of [STOR_POFX_COMPONENT_IDLE_STATE](ns-storport-_stor_pofx_component_idle_state.md) structures. The length of this array is specified by the **FStateCount** member. Each array element specifies the attributes of an F-state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on. When more than one idle state structure is required, the additional structures are allocated at the end of the **STOR_ POFX_COMPONENT_V2** structure and the **FStateCount** is set to 1, which is the value of ANYSIZE_ARRAY, plus the count of the additional structures.
 
 #### - DeepestWakeableIdleState
 
@@ -96,8 +96,6 @@ The F-state requirements are as follows:
 
 * For an adapter device component, the miniport must specify a single component and up to eight F-states for the adapter. [StorPortInitializePoFxPower](nf-storport-storportinitializepofxpower.md) should be called by the miniport only within the context of the miniport's passive initialization routine.
 * For a unit device component, the miniport must specify a single component for the unit, and can specify up to two F-states. The unit device must have the F0 state specified and can optionally have one additional F-state. **StorPortInitializePoFxPower** should be called by the miniport only within the context of the miniport's [ScsiUnitPoFxPowerInfo Unit Control](nc-storport-hw_unit_control.md).
-
-For a unit device component, if an additional F-state is included in the **FStates** array, the size member remains set to **STOR_POFX_COMPONENT_SIZE** and does not include the size of the additional [STOR_POFX_COMPONENT_IDLE_STATE](ns-storport-_stor_pofx_component_idle_state.md) structure.
 
 For a unit device component, if an additional F-state is included in the **FStates** array, the size member remains set to **STOR_POFX_COMPONENT_SIZE** and does not include the size of the additional [STOR_POFX_COMPONENT_IDLE_STATE](ns-storport-_stor_pofx_component_idle_state.md) structure.
 
