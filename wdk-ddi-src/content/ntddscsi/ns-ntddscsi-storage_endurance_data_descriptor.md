@@ -32,6 +32,7 @@ api_name:
  - STORAGE_ENDURANCE_DATA_DESCRIPTOR
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # STORAGE_ENDURANCE_DATA_DESCRIPTOR structure

@@ -38,7 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: WDDM 2.6
+ms.custom: WDDM 2.6, 19H1
 ---
 
 # PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function

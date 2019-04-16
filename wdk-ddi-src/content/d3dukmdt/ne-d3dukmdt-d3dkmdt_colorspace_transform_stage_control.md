@@ -30,6 +30,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration

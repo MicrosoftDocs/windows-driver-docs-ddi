@@ -32,7 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: D3D_UMD_INTERFACE_VERSION_WDDM2_0
+ms.custom: D3D_UMD_INTERFACE_VERSION_WDDM2_0, 19H1
 ---
 
 # D3DDDI_HDR_METADATA_TYPE enumeration

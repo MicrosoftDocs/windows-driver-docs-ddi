@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+ms.custom: 19H1
 ---
 
 # D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure

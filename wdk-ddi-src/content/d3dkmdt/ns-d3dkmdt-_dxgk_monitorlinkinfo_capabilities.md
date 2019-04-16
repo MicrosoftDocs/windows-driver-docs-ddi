@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
+ms.custom: 19H1
 ---
 
 # _DXGK_MONITORLINKINFO_CAPABILITIES structure

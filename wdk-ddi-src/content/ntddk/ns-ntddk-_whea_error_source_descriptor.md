@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR"
+ms.custom: 19H1
 ---
 
 # _WHEA_ERROR_SOURCE_DESCRIPTOR structure

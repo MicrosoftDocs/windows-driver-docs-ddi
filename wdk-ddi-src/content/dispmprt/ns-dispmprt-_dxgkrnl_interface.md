@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
+ms.custom: 19H1
 ---
 
 # _DXGKRNL_INTERFACE structure

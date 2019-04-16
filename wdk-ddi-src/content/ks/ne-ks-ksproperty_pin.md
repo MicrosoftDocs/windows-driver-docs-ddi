@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: KSPROPERTY_PIN
+ms.custom: 19H1
 ---
 
 # KSPROPERTY_PIN enumeration

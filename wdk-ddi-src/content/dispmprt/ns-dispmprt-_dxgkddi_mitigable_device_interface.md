@@ -35,6 +35,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # _DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure

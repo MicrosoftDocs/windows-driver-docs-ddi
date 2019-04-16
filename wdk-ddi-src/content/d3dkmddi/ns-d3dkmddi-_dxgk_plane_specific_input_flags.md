@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+ms.custom: 19H1
 ---
 
 # _DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure

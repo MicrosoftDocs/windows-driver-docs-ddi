@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WHEA_XPF_PROCESSOR_ERROR_SECTION, *PWHEA_XPF_PROCESSOR_ERROR_SECTION
+ms.custom: 19H1
 ---
 
 # _WHEA_XPF_PROCESSOR_ERROR_SECTION structure

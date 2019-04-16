@@ -36,6 +36,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PBANKED_SECTION_ROUTINE callback function

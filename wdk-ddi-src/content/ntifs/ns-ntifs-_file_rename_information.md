@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
+ms.custom: 19H1
 ---
 
 # _FILE_RENAME_INFORMATION structure

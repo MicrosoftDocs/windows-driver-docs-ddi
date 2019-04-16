@@ -32,7 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: WDDM 2.6
+ms.custom: WDDM 2.6, 19H1
 ---
 
 # D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration

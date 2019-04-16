@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST
+ms.custom: 19H1
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_LIST structure

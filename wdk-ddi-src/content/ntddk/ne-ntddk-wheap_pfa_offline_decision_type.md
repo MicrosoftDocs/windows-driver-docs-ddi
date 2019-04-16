@@ -30,6 +30,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration

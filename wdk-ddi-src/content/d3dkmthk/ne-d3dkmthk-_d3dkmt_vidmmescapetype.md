@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_VIDMMESCAPETYPE
+ms.custom: 19H1
 ---
 
 # _D3DKMT_VIDMMESCAPETYPE enumeration

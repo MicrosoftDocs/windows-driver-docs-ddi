@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_SPECIFIC_DATA, *PSTORAGE_PROTOCOL_SPECIFIC_DATA
+ms.custom: 19H1
 ---
 
 # _STORAGE_PROTOCOL_SPECIFIC_DATA structure

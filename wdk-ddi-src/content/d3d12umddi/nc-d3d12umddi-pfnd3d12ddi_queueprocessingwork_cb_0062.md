@@ -36,7 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: D3D12 Release 6, Build rev 2.
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # PFND3D12DDI_QUEUEPROCESSINGWORK_CB_0062 callback function

@@ -30,6 +30,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PO_INTERNAL_WAKE_SOURCE_TYPE enumeration

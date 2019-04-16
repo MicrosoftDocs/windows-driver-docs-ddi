@@ -33,6 +33,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # MCI_STATUS_INTEL_BITS structure

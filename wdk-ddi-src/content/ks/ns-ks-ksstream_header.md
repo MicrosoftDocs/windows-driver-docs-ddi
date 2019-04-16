@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: KSSTREAM_HEADER, *PKSSTREAM_HEADER
+ms.custom: 19H1
 ---
 
 # KSSTREAM_HEADER structure

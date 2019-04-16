@@ -32,6 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # _EMULATOR_PORT_ACCESS_TYPE enumeration

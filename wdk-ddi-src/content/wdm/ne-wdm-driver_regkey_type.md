@@ -29,6 +29,7 @@ api_name:
  - DRIVER_REGKEY_TYPE
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # DRIVER_REGKEY_TYPE enumeration

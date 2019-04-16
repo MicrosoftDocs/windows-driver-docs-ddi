@@ -32,6 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # _D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration

@@ -8,6 +8,7 @@ ms.technology: windows-devices
 ms.topic: portal
 product:
 - Windows
+ms.custom: 19H1
 ---
 
 # Windows kernel

@@ -36,6 +36,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER callback function

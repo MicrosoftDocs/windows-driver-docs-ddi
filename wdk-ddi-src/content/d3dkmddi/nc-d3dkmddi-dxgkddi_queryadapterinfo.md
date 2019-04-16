@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # DXGKDDI_QUERYADAPTERINFO callback function

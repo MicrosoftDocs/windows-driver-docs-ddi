@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_RESOURCE_STATES
+ms.custom: 19H1
 ---
 
 # D3D12DDI_RESOURCE_STATES enumeration

@@ -30,6 +30,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # WHEA_PFA_REMOVE_TRIGGER enumeration

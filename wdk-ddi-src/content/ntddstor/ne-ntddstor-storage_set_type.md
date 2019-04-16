@@ -29,6 +29,7 @@ api_name:
  - STORAGE_SET_TYPE
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # STORAGE_SET_TYPE enumeration

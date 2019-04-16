@@ -32,6 +32,7 @@ api_name:
  - NTSCSI_UNICODE_STRING
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # NTSCSI_UNICODE_STRING structure

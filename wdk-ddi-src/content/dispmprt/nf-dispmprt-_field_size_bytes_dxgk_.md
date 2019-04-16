@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 
+ms.custom: 19H1
 ---
 
 # _Field_size_bytes_DXGK_ macro

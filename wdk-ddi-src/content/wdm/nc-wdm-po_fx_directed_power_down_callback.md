@@ -36,6 +36,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PO_FX_DIRECTED_POWER_DOWN_CALLBACK callback function

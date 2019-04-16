@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+ms.custom: 19H1
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure

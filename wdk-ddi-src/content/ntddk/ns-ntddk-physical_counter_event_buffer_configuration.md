@@ -32,6 +32,7 @@ api_name:
  - PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION structure

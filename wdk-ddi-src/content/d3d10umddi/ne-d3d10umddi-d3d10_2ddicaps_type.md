@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D10_2DDICAPS_TYPE
+ms.custom: 19H1
 ---
 
 # D3D10_2DDICAPS_TYPE enumeration

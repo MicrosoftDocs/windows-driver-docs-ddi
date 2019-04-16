@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
+ms.custom: 19H1
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure

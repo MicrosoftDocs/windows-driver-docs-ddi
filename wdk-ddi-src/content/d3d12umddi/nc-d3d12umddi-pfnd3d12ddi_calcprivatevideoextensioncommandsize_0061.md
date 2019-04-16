@@ -36,7 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061 callback function

@@ -34,7 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # DXGKDDI_UPDATEMONITORLINKINFO callback function

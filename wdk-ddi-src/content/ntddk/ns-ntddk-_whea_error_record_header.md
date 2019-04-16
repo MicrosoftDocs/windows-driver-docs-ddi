@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
+ms.custom: 19H1
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure

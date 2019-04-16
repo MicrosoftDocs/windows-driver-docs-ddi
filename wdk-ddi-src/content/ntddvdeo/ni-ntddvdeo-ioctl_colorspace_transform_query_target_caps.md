@@ -31,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL

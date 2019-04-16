@@ -31,6 +31,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL

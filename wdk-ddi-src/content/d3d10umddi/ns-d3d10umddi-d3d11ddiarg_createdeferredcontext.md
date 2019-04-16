@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CREATEDEFERREDCONTEXT
+ms.custom: 19H1
 ---
 
 # D3D11DDIARG_CREATEDEFERREDCONTEXT structure

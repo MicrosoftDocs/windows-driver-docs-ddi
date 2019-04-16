@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
+ms.custom: 19H1
 ---
 
 # DXGI_DDI_PRESENT_FLAGS structure

@@ -36,6 +36,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function

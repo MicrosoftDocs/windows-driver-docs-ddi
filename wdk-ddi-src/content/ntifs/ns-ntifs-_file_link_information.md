@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
+ms.custom: 19H1
 ---
 
 # _FILE_LINK_INFORMATION structure

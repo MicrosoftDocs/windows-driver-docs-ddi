@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
+ms.custom: 19H1
 ---
 
 # AUDIO_CURVE_TYPE enumeration

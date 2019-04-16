@@ -36,6 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER callback function

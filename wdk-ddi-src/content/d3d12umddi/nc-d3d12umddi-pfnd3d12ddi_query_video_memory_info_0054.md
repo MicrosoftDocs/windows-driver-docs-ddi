@@ -38,7 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 ---
 
 # PFND3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 callback function

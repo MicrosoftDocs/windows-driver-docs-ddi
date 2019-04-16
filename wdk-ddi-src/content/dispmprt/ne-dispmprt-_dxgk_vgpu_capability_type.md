@@ -32,7 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: 19h1
+ms.custom: 19h1, 19H1
 ---
 
 # _DXGK_VGPU_CAPABILITY_TYPE enumeration

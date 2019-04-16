@@ -38,7 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: rs6
+ms.custom: rs6, 19H1
 ---
 
 # EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE callback function

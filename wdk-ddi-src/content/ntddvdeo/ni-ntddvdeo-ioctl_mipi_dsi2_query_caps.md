@@ -31,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IOCTL_MIPI_DSI2_QUERY_CAPS IOCTL

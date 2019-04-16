@@ -32,6 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # D3D12DDI_3DPIPELINELEVEL enumeration

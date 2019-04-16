@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
+ms.custom: 19H1
 ---
 
 # D3D12DDICAPS_TYPE_VIDEO_0020 enumeration

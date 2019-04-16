@@ -36,7 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6
+ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 ---
 
 # DXGKCB_SAVEMEMORYFORHOTUPDATE callback function

@@ -35,7 +35,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0021, 19H1
 ---
 
 # D3D12DDICB_CREATESYNCHRONIZATIONOBJECT2 structure

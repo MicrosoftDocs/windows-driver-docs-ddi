@@ -33,6 +33,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # WHEA_ERROR_SOURCE_CONFIGURATION structure

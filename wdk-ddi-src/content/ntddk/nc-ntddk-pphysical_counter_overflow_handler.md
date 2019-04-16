@@ -35,6 +35,7 @@ api_name:
  - PPHYSICAL_COUNTER_OVERFLOW_HANDLER
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PPHYSICAL_COUNTER_OVERFLOW_HANDLER callback function

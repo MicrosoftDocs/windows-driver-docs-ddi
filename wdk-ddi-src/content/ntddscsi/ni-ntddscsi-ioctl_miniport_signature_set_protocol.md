@@ -30,6 +30,7 @@ api_name:
  - IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE

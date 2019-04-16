@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_GPUMMUCAPS
+ms.custom: 19H1
 ---
 
 # _DXGK_GPUMMUCAPS structure

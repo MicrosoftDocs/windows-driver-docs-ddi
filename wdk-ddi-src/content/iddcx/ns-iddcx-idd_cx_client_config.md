@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # IDD_CX_CLIENT_CONFIG structure

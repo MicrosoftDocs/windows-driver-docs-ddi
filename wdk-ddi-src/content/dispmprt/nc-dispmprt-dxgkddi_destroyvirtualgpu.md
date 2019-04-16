@@ -36,7 +36,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: rs6
+ms.custom: rs6, 19H1
 ---
 
 # DXGKDDI_DESTROYVIRTUALGPU callback function

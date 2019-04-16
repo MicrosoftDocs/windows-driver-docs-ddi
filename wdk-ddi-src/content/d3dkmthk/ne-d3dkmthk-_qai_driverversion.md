@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DRIVERVERSION
+ms.custom: 19H1
 ---
 
 # _QAI_DRIVERVERSION enumeration

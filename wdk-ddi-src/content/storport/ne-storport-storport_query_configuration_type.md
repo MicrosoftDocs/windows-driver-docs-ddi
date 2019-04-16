@@ -29,6 +29,7 @@ api_name:
  - STORPORT_QUERY_CONFIGURATION_TYPE
 product: Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # STORPORT_QUERY_CONFIGURATION_TYPE enumeration

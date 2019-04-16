@@ -36,7 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: D3D12 Release 6, Build rev 3.
+ms.custom: D3D12 Release 6, Build rev 3., 19H1
 ---
 
 # PFND3D12DDI_UMD_CALLBACK_METHOD callback function

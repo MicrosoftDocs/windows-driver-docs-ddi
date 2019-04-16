@@ -39,6 +39,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
+ms.custom: 19H1
 ---
 
 # _DXGK_QUERYADAPTERINFOTYPE enumeration

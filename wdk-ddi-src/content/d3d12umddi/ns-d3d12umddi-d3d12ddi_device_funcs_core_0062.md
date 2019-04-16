@@ -33,7 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: D3D12 Release 6, Build rev 2.
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0062 structure

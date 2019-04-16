@@ -33,6 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # DXGK_GAMMA_1DLUT_CAP structure

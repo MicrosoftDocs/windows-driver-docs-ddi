@@ -36,7 +36,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: D3D12 Release 6, Build rev 3.
+ms.custom: D3D12 Release 6, Build rev 3., 19H1
 ---
 
 # PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063 callback function

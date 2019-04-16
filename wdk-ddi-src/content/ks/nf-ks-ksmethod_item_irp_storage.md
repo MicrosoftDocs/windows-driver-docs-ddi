@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # KSMETHOD_ITEM_IRP_STORAGE macro

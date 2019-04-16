@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+ms.custom: 19H1
 ---
 
 # HalFreeHardwareCounters function

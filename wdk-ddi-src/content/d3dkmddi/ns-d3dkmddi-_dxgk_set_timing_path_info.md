@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_PATH_INFO
+ms.custom: 19H1
 ---
 
 # _DXGK_SET_TIMING_PATH_INFO structure

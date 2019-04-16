@@ -33,6 +33,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT structure

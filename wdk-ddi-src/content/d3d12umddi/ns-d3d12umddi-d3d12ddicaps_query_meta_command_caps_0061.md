@@ -33,7 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043
+ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 
 # D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure

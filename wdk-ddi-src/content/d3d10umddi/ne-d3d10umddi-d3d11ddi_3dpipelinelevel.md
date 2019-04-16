@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDI_3DPIPELINELEVEL
+ms.custom: 19H1
 ---
 
 # D3D11DDI_3DPIPELINELEVEL enumeration

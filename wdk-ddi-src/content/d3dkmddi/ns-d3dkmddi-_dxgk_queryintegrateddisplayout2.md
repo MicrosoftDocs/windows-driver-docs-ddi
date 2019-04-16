@@ -31,6 +31,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: 19H1
 ---
 
 # _DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure

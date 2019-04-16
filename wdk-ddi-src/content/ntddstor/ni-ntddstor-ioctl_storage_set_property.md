@@ -29,6 +29,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # IOCTL_STORAGE_SET_PROPERTY IOCTL

@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
+ms.custom: 19H1
 ---
 
 # _WHEA_ERROR_SOURCE_TYPE enumeration
