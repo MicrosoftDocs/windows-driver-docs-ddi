@@ -67,7 +67,7 @@ A pointer to a location to store the retrieved GUID.
 
 
 
-<b>RetrieveActivityId</b> returns returns S_OK if the call is successful. Otherwise, this method might return one of the following values.
+<b>RetrieveActivityId</b> returns S_OK if the call is successful. Otherwise, this method might return one of the following values.
 
 <table>
 <tr>
