@@ -199,7 +199,7 @@ If the IRP is an IRP_MJ_FILE_SYSTEM_CONTROL request, <b>FsRtlOplockFsctrlEx</b> 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545530">FSCTL_REQUEST_OPLOCK</a>
 
 
-For more information information about these FSCTLs and about opportunistic locks in general, see the Microsoft Windows SDK documentation. 
+For more information about these FSCTLs and about opportunistic locks in general, see the Microsoft Windows SDK documentation. 
 
 If the IRP is an IRP_MJ_CREATE request, <b>FsRtlOplockFsctrlEx</b> can be used to request a pending filter opportunistic lock (oplock) if all of the following conditions are true: 
 

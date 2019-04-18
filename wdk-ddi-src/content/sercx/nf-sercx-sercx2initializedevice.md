@@ -129,7 +129,7 @@ Insufficient resources are available to perform the requested operation.
 
 
 
-Before calling this method, the serial controller driver must must previously have called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265262">SerCx2InitializeDeviceInit</a> method.
+Before calling this method, the serial controller driver must previously have called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265262">SerCx2InitializeDeviceInit</a> method.
 
 The serial controller driver must call this method from its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function after it creates a framework device object for the serial controller. The driver typically calls a method such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> to create the framework device object and to obtain a WDFDEVICE handle to this object.
 
