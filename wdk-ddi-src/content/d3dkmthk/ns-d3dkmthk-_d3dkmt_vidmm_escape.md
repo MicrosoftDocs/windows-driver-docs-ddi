@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_VIDMM_ESCAPE
+ms.custom: 19H1
 ---
 
 # _D3DKMT_VIDMM_ESCAPE structure
@@ -319,7 +320,13 @@ A handle to the process.
 
  
 
-
+### -field DelayExecution
+ 
+### -field DelayExecution.hPagingQueue
+ 
+### -field DelayExecution.Milliseconds
+ 
+### -field DelayExecution.PagingFenceValue
 
 
 ## -see-also

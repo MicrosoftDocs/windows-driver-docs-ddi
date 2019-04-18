@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # DXGKDDI_QUERYADAPTERINFO callback function
@@ -91,8 +92,8 @@ If the DirectX graphics kernel subsystem supplies the DXGKQAITYPE_QUERYSEGMENT v
 
 <i>DxgkDdiQueryAdapterInfo</i> should be made pageable. 
 
-
-
+> [!NOTE]
+> All drivers that support WDDM 2.6 must implement the DxgkDdiQueryAdapterInfo callback.
 
 ## -see-also
 

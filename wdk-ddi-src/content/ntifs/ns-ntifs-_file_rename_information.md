@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
+ms.custom: 19H1
 ---
 
 # _FILE_RENAME_INFORMATION structure
@@ -94,10 +95,13 @@ Here are the possible values:
 | **FILE_RENAME_POSIX_SEMANTICS**<br>0x00000002 | If FILE_RENAME_REPLACE_IF_EXISTS is also specified, allow replacing a file even if there are existing handles to it.  Existing handles to the replaced file continue to be valid for operations such as read and write.  Any subsequent opens of the target name will open the renamed file, not the replaced file. |
 | **FILE_RENAME_SUPPRESS_PIN_STATE_INHERITANCE**<br>0x00000004 | When renaming a file to a new directory, suppress any inheritance rules related to the FILE_ATTRIBUTE_PINNED and FILE_ATTRIBUTE_UNPINNED attributes of the file. |
 | **FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE**<br>0x00000008 | When renaming a file to a new directory, suppress any inheritance rules related to the storage reserve ID property of the file. |
-| **FILE_RENAME_NO_INCREASE_AVAILABLE_SPACE**<br>0x00000010 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory, automatically resize affected storage reserve areas to prevent the user visible free space on the volume from increasing.  Requires manage volume access. |
-| **FILE_RENAME_NO_DECREASE_AVAILABLE_SPACE**<br>0x00000020 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory, automatically resize affected storage reserve areas to prevent the user visible free space on the volume from decreasing.  Requires manage volume access. |
+| **FILE_RENAME_NO_INCREASE_AVAILABLE_SPACE**<br>0x00000010 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory, automatically resize affected storage reserve areas as needed to prevent the user visible free space on the volume from increasing.  Requires manage volume access. |
+| **FILE_RENAME_NO_DECREASE_AVAILABLE_SPACE**<br>0x00000020 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory, automatically resize affected storage reserve areas as needed to prevent the user visible free space on the volume from decreasing.  Requires manage volume access. |
 | **FILE_RENAME_PRESERVE_AVAILABLE_SPACE**<br>0x00000030 | Equivalent to specifying both FILE_RENAME_NO_INCREASE_AVAILABLE_SPACE and FILE_RENAME_NO_DECREASE_AVAILABLE_SPACE. |
 | **FILE_RENAME_IGNORE_READONLY_ATTRIBUTE**<br>0x00000040 | If FILE_RENAME_REPLACE_IF_EXISTS is also specified, allow replacing a file even if it is read-only.  Requires WRITE_ATTRIBUTES access to the replaced file. |
+| **FILE_RENAME_FORCE_RESIZE_TARGET_SR**<br>0x00000080 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory that is part of a different storage reserve area, always grow the target directory's storage reserve area by the full size of the file being renamed.  Requires manage volume access. |
+| **FILE_RENAME_FORCE_RESIZE_SOURCE_SR**<br>0x00000100 | If FILE_RENAME_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when renaming a file to a new directory that is part of a different storage reserve area, always shrink the source directory's storage reserve area by the full size of the file being renamed.  Requires manage volume access. |
+| **FILE_RENAME_FORCE_RESIZE_SR**<br>0x00000180 | Equivalent to specifying both FILE_RENAME_FORCE_RESIZE_TARGET_SR and FILE_RENAME_FORCE_RESIZE_SOURCE_SR. |
  
 
 ### -field RootDirectory

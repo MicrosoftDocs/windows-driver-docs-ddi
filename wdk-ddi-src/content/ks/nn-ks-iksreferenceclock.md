@@ -38,157 +38,72 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # IKsReferenceClock interface
 
-
 ## -description
 
-
-The <b>IKsReferenceClock</b> interface is a COM-style interface that is provided by AVStream on all pins. The pin passes the request onto the master clock.
-
+The **IKsReferenceClock** interface is a COM-style interface that is provided by AVStream on all pins. The pin passes the request onto the master clock.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsReferenceClock</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsReferenceClock</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -members
 
-The <b>IKsReferenceClock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560726">IKsReferenceClock::GetCorrelatedPhysicalTime</a>
-</td>
-<td align="left" width="63%">
-Queries the associated reference clock for the current correlated physical time and system time.
+The **IKsReferenceClock** interface has these methods.
 
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560728">IKsReferenceClock::GetCorrelatedTime</a>
-</td>
-<td align="left" width="63%">
-Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the <b>PresentationTime</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560730">IKsReferenceClock::GetPhysicalTime</a>
-</td>
-<td align="left" width="63%">
-Queries the associated reference clock for the current physical time.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560732">IKsReferenceClock::GetResolution</a>
-</td>
-<td align="left" width="63%">
-Queries the associated reference clock for its resolution.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560734">IKsReferenceClock::GetState</a>
-</td>
-<td align="left" width="63%">
-Queries the associated reference clock for its current state.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560736">IKsReferenceClock::GetTime</a>
-</td>
-<td align="left" width="63%">
-Queries the associated reference clock for the current time.
-
-</td>
-</tr>
-</table> 
-
+| Method | Description |
+| --- | --- |
+| [IKsReferenceClock::GetCorrelatedPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getcorrelatedphysicaltime) | Queries the associated reference clock for the current correlated physical time and system time. |
+| [IKsReferenceClock::GetCorrelatedTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getcorrelatedtime) | Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the **PresentationTime** member of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header). |
+| [IKsReferenceClock::GetPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getphysicaltime) | Queries the associated reference clock for the current physical time. |
+| [IKsReferenceClock::GetResolution](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getresolution) | Queries the associated reference clock for its resolution. |
+| [IKsReferenceClock::GetState](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getstate) | Queries the associated reference clock for its current state. |
+| [IKsReferenceClock::GetTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-gettime) | Queries the associated reference clock for the current time. |
 
 ## -remarks
 
+The minidriver can acquire an **IKsReferenceClock** interface by calling [KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface). Because this is a COM-style interface, **KsPinGetReferenceClockInterface** calls **QueryInterface**, which in turn invokes **AddRef** to increment the interface pointer. This means that when the minidriver is finished with the **IKsReferenceClock** interface, the minidriver must release it by calling **Release**.
 
+Clients that are written in C will see the **IKsReferenceClock** interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
 
-The minidriver can acquire an <b>IKsReferenceClock</b> interface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>. Because this is a COM-style interface, <b>KsPinGetReferenceClockInterface</b> calls <b>QueryInterface</b>, which in turn invokes <b>AddRef</b> to increment the interface pointer. This means that when the minidriver is finished with the <b>IKsReferenceClock</b> interface, the minidriver must release it by calling <b>Release</b>.
+```cpp
+PIKSREFERENCECLOCK RefClock;
 
-Clients that are written in C will see the <b>IKsReferenceClock</b> interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    PIKSREFERENCECLOCK RefClock;
-
-    if (NT_SUCCESS (
-      KsPinGetReferenceClockInterface (
-        Pin,
-        &amp;RefClock)
+if (NT_SUCCESS (
+  KsPinGetReferenceClockInterface (
+    Pin,
+    &RefClock)
 ) {
-        ... RefClock -&gt; GetCorrelatedTime (...);
-        RefClock -&gt; Release ();
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    ... RefClock -> GetCorrelatedTime (...);
+    RefClock -> Release ();
+}
+```
+
 However, a client that is written in C would do the following instead :
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    PIKSREFERENCECLOCK RefClock;
+```cpp
+PIKSREFERENCECLOCK RefClock;
 
-    If (NT_SUCCESS (
-      KsPinGetReferenceClockInterface (
-        Pin,
-        &amp;RefClock)
-    ) {
-      ... RefClock -&gt; lpVtbl -&gt; GetCorrelatedTime (...);
-      RefClock -&gt; lpVtbl -&gt; Release ();
-    }</pre>
-</td>
-</tr>
-</table></span></div>
-For more information, see <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+If (NT_SUCCESS (
+  KsPinGetReferenceClockInterface (
+    Pin,
+    &RefClock)
+) {
+  ... RefClock -> lpVtbl -> GetCorrelatedTime (...);
+  RefClock -> lpVtbl -> Release ();
+}
+```
 
-
-
+For more information, see [AVStream Overview](https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview).
 
 ## -see-also
 
+[KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetconnectedfilterinterface)
 
+[KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetconnectedpininterface)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563506">KsPinGetConnectedFilterInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563509">KsPinGetConnectedPinInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
- 
-
- 
-
+[KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface)

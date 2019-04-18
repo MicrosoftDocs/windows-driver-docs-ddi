@@ -9,7 +9,7 @@ ms.keywords: _DXGKARG_UPDATEMONITORLINKINFO, DXGKARG_UPDATEMONITORLINKINFO, *INO
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -31,7 +31,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # _DXGKARG_UPDATEMONITORLINKINFO structure

@@ -92,7 +92,7 @@ This routine returns <b>TRUE</b> if it cancels a timer that was pending at the t
 
 Your driver can call this routine to set a timer to expire at a future time. The driver can then wait for the timer to expire. Or, the driver can implement a callback routine that is called when the timer expires.
 
-After a driver calls <b>ExSetTimer</b>, the driver can call a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a> or or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
+After a driver calls <b>ExSetTimer</b>, the driver can call a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
 
 As an option, the driver can implement an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a> callback routine, and supply a pointer to this routine as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine. When the timer expires, the operating system calls the <i>ExTimerCallback</i> routine.
 
