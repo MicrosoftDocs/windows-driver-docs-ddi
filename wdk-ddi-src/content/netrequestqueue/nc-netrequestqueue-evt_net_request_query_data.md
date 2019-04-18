@@ -25,14 +25,14 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netrequestqueue.h
-api_name: 
-- EVT_NET_REQUEST_QUERY_DATA
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	netrequestqueue.h
+apiname: 
+-	EVT_NET_REQUEST_QUERY_DATA
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Implemented by the client driver to handle a specific OID query request.
 
@@ -64,7 +64,7 @@ VOID EvtNetRequestQueryData
 (
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST 		Request,
-	_Out_	PVOID 			OutputBuffer,
+	_Out_	void * 			OutputBuffer,
 	_In_	UINT 			OutputBufferLength
 )
 {...}

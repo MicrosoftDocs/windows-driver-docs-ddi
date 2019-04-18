@@ -41,33 +41,36 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Specifies the auto-negotiation settings for the NIC driver.
 
 ## -enum-fields
 
 ### -field NET_ADAPTER_AUTO_NEGOTIATION_NO_FLAGS : 
+
 No flags are set.
 
 ### -field NET_ADAPTER_LINK_STATE_XMIT_LINK_SPEED_AUTO_NEGOTIATED : 
+
 The adapter has auto-negotiated the transmit link speed with the link partner.
 
 ### -field NET_ADAPTER_LINK_STATE_RCV_LINK_SPEED_AUTO_NEGOTIATED : 
+
 The adapter has auto-negotiated the receive link speed with the link partner.
 
 ### -field NET_ADAPTER_LINK_STATE_DUPLEX_AUTO_NEGOTIATED : 
+
 The adapter has auto-negotiated the duplex state with the link partner.
 
 ### -field NET_ADAPTER_LINK_STATE_PAUSE_FUNCTIONS_AUTO_NEGOTIATED : 
+
 The adapter has auto-negotiated the pause functions with the link partner.
 
 ## -remarks
 
-The **NET_ADAPTER_AUTO_NEGOTIATION_FLAGS** enumeration is used to specify auto-negotiation settings in the [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
+The **NET_ADAPTER_AUTO_NEGOTIATION_FLAGS** enumeration is used to specify auto-negotiation settings in the [**NET_ADAPTER_LINK_STATE**](ns-netadapter-_net_adapter_link_state.md) structure.
 
-An initialized [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure is an input to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
-
-
+An initialized [**NET_ADAPTER_LINK_STATE**](ns-netadapter-_net_adapter_link_state.md) structure is an input to [**NetAdapterSetLinkState**](nf-netadapter-netadaptersetlinkstate.md).
 
 ## -see-also

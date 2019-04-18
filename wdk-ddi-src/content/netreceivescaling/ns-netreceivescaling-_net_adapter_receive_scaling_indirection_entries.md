@@ -39,7 +39,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** structure represents a series of move operations for all entries in the receive side scaling (RSS) indirection table. 
 

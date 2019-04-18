@@ -20,14 +20,14 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netreceivescaling.h
-api_name: 
-- _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netreceivescaling.h
+apiname: 
+-	_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 product:
 - Windows
 targetos: Windows
@@ -39,13 +39,13 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure represents a move operation for a single entry in the receive side scaling (RSS) indirection table. 
 
 ## -struct-fields
 
-### -field Queue
+### -field PacketQueue
 The new receive queue for the entry.
 
 ### -field Status

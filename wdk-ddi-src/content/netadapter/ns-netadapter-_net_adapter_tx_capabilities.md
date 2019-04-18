@@ -20,14 +20,14 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_TX_CAPABILITIES, *PNET_ADAPTER_TX_CAPABILITIES
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netadapter.h
-api_name: 
-- _NET_ADAPTER_TX_CAPABILITIES
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netadapter.h
+apiname: 
+-	_NET_ADAPTER_TX_CAPABILITIES
 product:
 - Windows
 targetos: Windows
@@ -40,7 +40,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_ADAPTER_TX_CAPABILITIES** structure describes the transmit capabilities of a net adapter.
 
@@ -57,7 +57,7 @@ The maximum fragment buffer size, in bytes, that the adapter can transmit.
 
 ### -field PayloadBackfill
 
-The amount of space, in bytes, reserved for the client driver before the start of each [**NET_PACKET**](../netpacket/ns-netpacket-_net_packet.md)'s payload.
+The amount of space, in bytes, reserved for the client driver before the start of each [**NET_PACKET**](../packet/ns-packet-_net_packet.md)'s payload.
 
 ### -field MaximumNumberOfFragments
 
@@ -67,7 +67,7 @@ The maximum number of fragments per packet that the adapter can handle, or `((SI
 The minimum alignment for packet fragments. This member must be a power of 2.
  
 ### -field FragmentRingNumberOfElementsHint
-A hint indicating how many elements the adapter wants for each transmit queue's [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) ring buffer. This member must be a power of 2.
+A hint indicating how many elements the adapter wants for each transmit queue's [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) ring buffer. This member must be a power of 2.
  
 ### -field MaximumNumberOfQueues
 The maximum number of transmit queues that the adapter supports.

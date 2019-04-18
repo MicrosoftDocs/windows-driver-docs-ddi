@@ -84,7 +84,7 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/">USB device driver programming reference</a>
 
 
 

@@ -83,7 +83,7 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/">USB device driver programming reference</a>
 
 
 
