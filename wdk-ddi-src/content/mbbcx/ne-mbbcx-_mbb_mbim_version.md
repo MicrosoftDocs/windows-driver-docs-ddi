@@ -38,7 +38,7 @@ ms.custom: 19H1
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 > 
-> MBBCx is preview only in Windows 10, version 1809.
+> MBBCx is preview only in Windows 10, version 1903.
 
 The **MBB_MBIM_VERSION** enumeration defines the version of the MBIM specification that a client driver and its device support. 
 
