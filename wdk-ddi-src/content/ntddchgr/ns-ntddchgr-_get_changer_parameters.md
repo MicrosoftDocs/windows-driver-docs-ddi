@@ -302,7 +302,7 @@ The changer supports volume identification. For a SCSI changer, this flag indica
 
 #### CHANGER_VOLUME_SEARCH
 
-The changer can search for volume information. For a SCSI changer, this flag indicates whether the changer supports the supports the SEND VOLUME TAG SCSI SCSI command with a send action code of TRANSLATE. 
+The changer can search for volume information. For a SCSI changer, this flag indicates whether the changer supports the supports the SEND VOLUME TAG SCSI command with a send action code of TRANSLATE. 
 
 
 

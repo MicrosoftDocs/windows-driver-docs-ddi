@@ -39,6 +39,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
+ms.custom: 19H1
 ---
 
 # _DXGK_QUERYADAPTERINFOTYPE enumeration
@@ -236,15 +237,17 @@ Reserved ranges.
 
 ### -field DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR2
 
-Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure. This query replaces use of the DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR query for WDDM 2.4 drivers.
+Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a [DXGK_QUERYINTEGRATEDDISPLAYOUT2](ns-d3dkmddi-_dxgk_queryintegrateddisplayout2.md) structure. This query replaces use of the DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR query for WDDM 2.4 drivers.
+
+TypeIntegratedDisplay child devices are reported by calling [DXGKDDI_QUERYADAPTERINFO](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with the *Type* set to this value.
 
 ### -field DXGKQAITYPE_NODEPERFDATA
 
-Represent performance data collected per engine from an adapter on an interval basis.
+Represents performance data collected per engine from an adapter on an interval basis.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA
 
-Represent performance data collected per adapter on an interval basis.
+Represents performance data collected per adapter on an interval basis.
 
 ### -field DXGKQAITYPE_ADAPTERPERFDATA_CAPS
 
@@ -252,12 +255,20 @@ Represents data caps that are static and queried once per GPU during initializat
 
 ### -field DXGKQAITYPE_GPUVERSION
 
-Used to collect the bios version and gpu architecture name once during GPU initialization.
+Used to collect the bios version and GPU architecture name once during GPU initialization.
 
 
 ### -field DXGKQAITYPE_DEVICE_TYPE_CAPS
 
 The device type capabilities.
+
+### -field DXGKQAITYPE_WDDMDEVICECAPS
+
+The device capabilities that are queried by the OS during device initialization.
+
+### -field DXGKQAITYPE_GPUPCAPS
+
+The GPU capabilities for a kernel mode display driver.
 
 ## -remarks
 

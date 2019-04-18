@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_VIDMMESCAPETYPE
+ms.custom: 19H1
 ---
 
 # _D3DKMT_VIDMMESCAPETYPE enumeration
@@ -103,5 +104,5 @@ The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="https://msdn.mi
 
 ### -field D3DKMT_VIDMMESCAPETYPE_DEFRAG
 
-
+### -field D3DKMT_VIDMMESCAPETYPE_DELAYEXECUTION 
 

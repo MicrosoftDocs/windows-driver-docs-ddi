@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST
+ms.custom: 19H1
 ---
 
 # _PHYSICAL_COUNTER_RESOURCE_LIST structure
@@ -46,7 +47,7 @@ req.typenames: PHYSICAL_COUNTER_RESOURCE_LIST, *PPHYSICAL_COUNTER_RESOURCE_LIST
 ## -description
 
 
-The <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> structure describes an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a> structures.
+The <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> structure describes an array of [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structures.
 
 
 ## -struct-fields
@@ -86,7 +87,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546577">HalAl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
+[PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md)
  
 
  

@@ -31,13 +31,14 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # D3D12DDI_D3D12_OPTIONS_DATA_0054 structure
 
 ## -description
 
+Display options data.
 
 ## -struct-fields
 
