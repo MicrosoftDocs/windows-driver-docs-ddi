@@ -4,7 +4,7 @@ title: NetRequestQueueGetAdapter function (netrequestqueue.h)
 description: Retrieves the NETADAPTER object corresponding to a NETREQUESTQUEUE.
 tech.root: netvista
 ms.assetid: 638f5dea-d79b-41bb-967b-27339bfae3ab
-ms.date: 02/09/2018
+ms.date: 02/01/2019
 ms.topic: function
 ms.keywords: NetRequestQueueGetAdapter
 req.header: netrequestqueue.h
@@ -26,14 +26,14 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netrequestqueue.h
-api_name: 
-- NetRequestQueueGetAdapter
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netrequestqueue.h
+apiname: 
+-	NetRequestQueueGetAdapter
 product:
 - Windows
 targetos: Windows
@@ -49,13 +49,13 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Retrieves the NETADAPTER object corresponding to a NETREQUESTQUEUE.
 
 ## -parameters
 
-### -param NetRequestQueue
+### -param RequestQueue
 A handle to the NETREQUESTQUEUE object.
 
 ## -returns

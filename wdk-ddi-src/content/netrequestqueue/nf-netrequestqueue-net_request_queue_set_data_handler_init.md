@@ -49,7 +49,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Initializes a caller-allocated [NET_REQUEST_QUEUE_SET_DATA_HANDLER](ns-netrequestqueue-_net_request_queue_set_data_handler.md) structure.
 

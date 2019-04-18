@@ -20,14 +20,14 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_EXTENSION, *PNET_PACKET_EXTENSION
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netadapterpacket.h
-api_name: 
-- _NET_PACKET_EXTENSION
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netadapterpacket.h
+apiname: 
+-	_NET_PACKET_EXTENSION
 product:
 - Windows
 targetos: Windows
@@ -39,7 +39,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_PACKET_EXTENSION** structure describes a packet extension for either a net adapter or one of its datapath queues.
 
@@ -61,12 +61,10 @@ The alignment requirement for the extension.
 The size, in bytes, of the packet extension.
 
 ## -remarks
-Call [NET_PACKET_EXTENSION_INIT](nf-netadapterpacket-net_packet_extension_init.md) to initialize this structure.
+Call [**NET_PACKET_EXTENSION_INIT**](nf-netadapterpacket-net_packet_extension_init.md) to initialize this structure.
 
-This structure represents a packet extension itself, whereas the similar [NET_PACKET_EXTENSION_QUERY](ns-netadapterpacket-_net_packet_extension_query.md) structure represents a query for that extension.
+This structure contains information about a packet extension, whereas the similarly named [**NET_PACKET_EXTENSION_QUERY**](ns-netadapterpacket-_net_packet_extension_query.md) structure represents a query for that extension.
 
-For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions). For a code sample, see *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* or *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)*.
-
-
+For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 
 ## -see-also

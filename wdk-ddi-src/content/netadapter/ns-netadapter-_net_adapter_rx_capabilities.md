@@ -20,14 +20,14 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RX_CAPABILITIES, *PNET_ADAPTER_RX_CAPABILITIES
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netadapter.h
-api_name: 
-- _NET_ADAPTER_RX_CAPABILITIES
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netadapter.h
+apiname: 
+-	_NET_ADAPTER_RX_CAPABILITIES
 product:
 - Windows
 targetos: Windows
@@ -40,7 +40,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_ADAPTER_RX_CAPABILITIES** structure describes the receive capabilities of a net adapter.
 
@@ -56,7 +56,7 @@ A [**NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE**](ne-netadapter-_net_rx_fragment_bu
 A [**NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE**](ne-netadapter-_net_rx_fragment_buffer_attachment_mode.md) value that specifies how the operating system should pre-attach receive buffers.
 
 ### -field FragmentRingNumberOfElementsHint
-A hint indicating how many elements the adapter wants for each receive queue's ring buffer of [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md)s. This member must be a power of 2.
+A hint indicating how many elements the adapter wants for each receive queue's ring buffer of [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)s. This member must be a power of 2.
 
 ### -field MaximumFragmentBufferSize
 The maximum fragment buffer size, in bytes, that the adapter can receive. This value should include the maximum transmission unit (MTU) size that your hardware supports for an IP packet, plus additional space your driver might need for packet metadata. For more information, see the receive example in the Remarks section of [*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md).
@@ -90,7 +90,7 @@ Call one of the NET_ADAPTER_RX_CAPABILITIES_INIT_*XXX* methods to initialize thi
 
 Typically, a client driver either performs both allocation and attachmment itself or specifies that the operating system perform both. In most cases, we recommend that the operating system allocates and attaches receive buffers.
 
-If the client does specify driver-allocated and attached receive buffers, it must supply both a custom return context structure in the **RxBufferReturnContext** member of each [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) during buffer allocation, as well as an *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in this **NET_ADAPTER_RX_CAPABILITIES** structure for the operating system to invoke once it has finished with the buffer.
+If the client does specify driver-allocated and attached receive buffers, it must supply both a custom return context structure in the **RxBufferReturnContext** member of each [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) during buffer allocation, as well as an *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in this **NET_ADAPTER_RX_CAPABILITIES** structure for the operating system to invoke once it has finished with the buffer.
 
 ## -see-also
 
