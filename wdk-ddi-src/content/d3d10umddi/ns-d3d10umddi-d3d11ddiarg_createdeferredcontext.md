@@ -10,7 +10,7 @@ ms.topic: struct
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE is supported beginning with the Windows 7 operating system.
+req.target-min-winverclnt: Supported starting with Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDIARG_CREATEDEFERREDCONTEXT
+ms.custom: 19H1
 ---
 
 # D3D11DDIARG_CREATEDEFERREDCONTEXT structure
@@ -87,7 +88,7 @@ Supported starting with Windows 8.1.
 
 ### -field pWDDM2_2ContextFuncs
 
- 
+### -field pWDDM2_6ContextFuncs
 
 
 ### -field hDrvContext

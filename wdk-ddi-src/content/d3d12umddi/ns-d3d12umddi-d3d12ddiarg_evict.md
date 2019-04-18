@@ -30,7 +30,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: RS5, 19H1
 tech.root: display
 ---
 
@@ -53,6 +53,10 @@ Pointer to an array of objects.
 ### -field Flags
  
 Flags.
+
+### -field Flags.EvictOnlyIfNecessary
+ 
+### -field Flags.Value
 
 ## -remarks
 

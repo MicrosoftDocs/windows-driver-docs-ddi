@@ -145,12 +145,12 @@ There is no track descriptor block, and therefore the data block type of the tra
 
 ### -field FixedPacket
 
-The fixed packet bit indicates, under some circumstances, when set to 1, that write operations to the track must must use fixed packets. For a complete explanation of the meaning of this bit, see the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification.
+The fixed packet bit indicates, under some circumstances, when set to 1, that write operations to the track must use fixed packets. For a complete explanation of the meaning of this bit, see the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification.
 
 
 ### -field Packet
 
-The fixed packet bit indicates, under some circumstances, when set to 1, that write operations to the track must must use fixed packets. For a complete explanation of the meaning of this bit, see the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification.
+The fixed packet bit indicates, under some circumstances, when set to 1, that write operations to the track must use fixed packets. For a complete explanation of the meaning of this bit, see the <i>SCSI Multimedia Commands - 3 (MMC-3)</i> specification.
 
 
 ### -field Blank

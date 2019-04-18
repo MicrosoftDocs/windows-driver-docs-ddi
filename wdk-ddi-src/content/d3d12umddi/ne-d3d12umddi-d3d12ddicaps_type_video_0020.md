@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
+ms.custom: 19H1
 ---
 
 # D3D12DDICAPS_TYPE_VIDEO_0020 enumeration
@@ -145,3 +146,39 @@ The video motion estimator caps check.
 ### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR_SIZE 
 
 The video motion estimator size caps check.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMAND_COUNT
+
+Retrieves the number of supported video extension commands. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_COUNT_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_count_data_0063.md).
+
+Available starting in Windows 10, version 1903.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMANDS
+
+Retrieves the array of video extension command infos for a parameter stage. See [D3D12DDI_VIDEO_EXTENSION_COMMANDS_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_commands_data_0063.md).
+
+Available starting in Windows 10, version 1903.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMAND_PARAMETER_COUNT
+
+Retrieves the number of parameters for a parameter stage. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_COUNT_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_parameter_count_data_0063.md).
+
+Available starting in Windows 10, version 1903.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMAND_PARAMETERS
+
+Retrieves the array of parameter info for a parameter stage. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETERS_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_parameters_data_0063.md).
+
+Available starting in Windows 10, version 1903.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMAND_CAPS
+
+Allow applications to query for the capabilities of a particular video extension command. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_caps_data_0063.md).
+
+Available starting in Windows 10, version 1903.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0063_EXTENSION_COMMAND_SIZE
+
+Returns the driver for the video extension object size. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_SIZE_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_size_data_0063.md).
+
+Available starting in Windows 10, version 1903.

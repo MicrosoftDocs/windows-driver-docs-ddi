@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
+ms.custom: 19H1
 ---
 
 # _DXGKRNL_INTERFACE structure
@@ -453,6 +454,10 @@ Supported starting with WDDM 2.4.
 A pointer to the display port driver's [DXGKCB_SIGNALEVENT](../d3dkmddi/nc-d3dkmddi-dxgkcb_signalevent.md) function.
 
 Supported starting with WDDM 2.5.
+
+### -field DxgkCbIsFeatureEnabled
+
+Supported starting with WDDM 2.6.
 
 ## -see-also
 

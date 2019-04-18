@@ -30,7 +30,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: RS5, 19H1
 tech.root: display
 ---
 
@@ -55,6 +55,8 @@ For more info about DList, see *Setting up the dList DLL* in [Hybrid system DDI]
 ### -field bUserPreferenceQuery
  
 Indicates whether the structure is referring to user GPU preference, or per-adapter DList query.
+
+### -field QueryType
 
 ## -remarks
 

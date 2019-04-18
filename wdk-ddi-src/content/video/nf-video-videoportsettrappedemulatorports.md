@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # VideoPortSetTrappedEmulatorPorts function
@@ -46,7 +47,7 @@ req.typenames:
 ## -description
 
 
-VGA-compatible (SVGA) miniport drivers call the <b>VideoPortSetTrappedEmulatorPorts</b> function to dynamically change the list of I/O ports that are trapped when a <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VDM</a> runs in full-screen mode on an x86-based machine.
+VGA-compatible (SVGA) miniport drivers call the <b>VideoPortSetTrappedEmulatorPorts</b> function to dynamically change the list of I/O ports that are trapped when a VDM (video display monitor) runs in full-screen mode on an x86-based machine.
 
 
 ## -parameters
