@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D11DDI_3DPIPELINELEVEL
+ms.custom: 19H1
 ---
 
 # D3D11DDI_3DPIPELINELEVEL enumeration
@@ -99,10 +100,11 @@ The driver supports Direct3D version 9.3 pipeline.
 
 ### -field D3DWDDM2_0DDI_3DPIPELINELEVEL_12_0
 
+The driver supports Direct3D version 12.0 pipeline.
 
 ### -field D3DWDDM2_0DDI_3DPIPELINELEVEL_12_1
 
-
+The driver supports Direct3D version 12.1 pipeline.
 
 
 ## -remarks

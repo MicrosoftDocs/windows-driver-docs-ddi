@@ -31,7 +31,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
-ms.custom: RS5
+ms.custom: RS5, 19H1
 ---
 
 # _D3DDDICB_SUBMITPRESENTTOHWQUEUE structure
@@ -65,6 +65,12 @@ The total size in bytes of the private data buffer.
 ### -field pPrivateDriverData
  
 Pointer to the private data to pass to DdiPresent.
+
+### -field bOptimizeForComposition
+ 
+### -field SyncIntervalOverrideValid
+ 
+### -field SyncIntervalOverride
 
 ## -remarks
 

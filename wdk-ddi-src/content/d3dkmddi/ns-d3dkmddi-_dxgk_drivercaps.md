@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DRIVERCAPS
+ms.custom: 19H1
 ---
 
 # _DXGK_DRIVERCAPS structure
@@ -314,6 +315,10 @@ Detachable, i.e. hot-pluggable. Drivers will set this bit during adapter initial
 ### -field MiscCaps.VirtualGpuOnly
 
 The adapter should not be used by Direct3D applications on the host.
+
+### -field MiscCaps.ComputeOnly
+
+Supports Compute-Only devices by rendering WDDM's render-only device capabilities. This member is available starting in Windows 10, version 1901.
 
 ### -field MiscCaps.Reserved
 

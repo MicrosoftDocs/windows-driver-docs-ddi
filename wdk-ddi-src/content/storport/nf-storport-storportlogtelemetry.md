@@ -38,42 +38,32 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # StorPortLogTelemetry function
 
-
 ## -description
 
-
-The <b>StorPortLogTelemetry</b> routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>.
-
+The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/storport/ns-storport-_storport_telemetry_event).
 
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension [in]
 
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
-
 ### -param StorAddress [in, optional]
 
 The storage unit device address. This parameter is NULL for adapter devices.
 
-
 ### -param Event [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
-
+Pointer to the STORPORT_TELEMETRY_EVENT structure that contains the telemetry data payload.
 
 ## -returns
 
-
-
-<b>StorPortLogTelemetry </b>returns one of the following status codes:
+**StorPortLogTelemetry** returns one of the following status codes:
 
 <table>
 <tr>
@@ -125,30 +115,15 @@ The telemetry event data have been successfully logged.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If any parameter in Event structure is not named, Event->ParameterNameX == NULL, the routine will set the corresponding parameter value to 0.
 
-
-If any parameter in Event structure is not named, Event-&gt;ParameterNameX == NULL, the routine will set the corresponding parameter value to 0.
-
-If miniport has no payload to fill in Event-&gt;EventBuffer, it should set Event-&gt;EventBufferLength = 0, as well as Event-&gt;EventBuffer = NULL.
-
-
-
-
+If miniport has no payload to fill in Event->EventBuffer, it should set Event->EventBufferLength = 0, as well as Event->EventBuffer = NULL.
 
 ## -see-also
 
+[STORPORT_TELEMETRY_EVENT](ns-storport-_storport_telemetry_event.md)
 
-
-
-<a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>
- 
-
- 
-
+[StorPortLogTelemetryEx](nf-storport-storportlogtelemetryex.md)
