@@ -37,6 +37,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: HDAUDIO_DEVICE_INFORMATION_V2, *PHDAUDIO_DEVICE_INFORMATION_V2
+ms.custom: 19H1 
 ---
 
 # _HDAUDIO_DEVICE_INFORMATION_V2 structure

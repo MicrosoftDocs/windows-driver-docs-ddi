@@ -37,6 +37,7 @@ api_name:
 -	PUNREGISTER_NOTIFICATION_CALLBACK
 product: Windows
 targetos: Windows
+ms.custom: 19H1 
 ---
 
 # PUNREGISTER_NOTIFICATION_CALLBACK callback function

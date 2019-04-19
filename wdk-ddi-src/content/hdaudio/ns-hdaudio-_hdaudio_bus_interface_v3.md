@@ -34,6 +34,7 @@ api_name:
 -	_HDAUDIO_BUS_INTERFACE_V3
 product: Windows
 targetos: Windows
+ms.custom: 19H1 
 ---
 
 # _HDAUDIO_BUS_INTERFACE_V3 structure

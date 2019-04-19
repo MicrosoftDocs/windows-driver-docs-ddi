@@ -38,6 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function
