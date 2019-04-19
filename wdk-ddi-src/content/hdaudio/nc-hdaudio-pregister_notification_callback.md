@@ -28,15 +28,17 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	hdaudio.h
+- hdaudio.h
 api_name: 
--	PREGISTER_NOTIFICATION_CALLBACK
-product: Windows
+- PREGISTER_NOTIFICATION_CALLBACK
+product: 
+- Windows
 targetos: Windows
+ms.custom: 19H1 
 ---
 
 # PREGISTER_NOTIFICATION_CALLBACK callback function
@@ -107,4 +109,4 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 
 [PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

@@ -164,7 +164,7 @@ The caller must allocate the buffer memory and BDL from the nonpaged pool.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537894">PSETUP_DMA_ENGINE_WITH_BDL</a>
 
-[hdaudio.h header](hdaudio.md) 
+[hdaudio.h](../hdaudio/index.md)
 
  
 
