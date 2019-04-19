@@ -28,13 +28,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	hdaudio.h
+- hdaudio.h
 api_name: 
--	PREGISTER_NOTIFICATION_CALLBACK
+- PREGISTER_NOTIFICATION_CALLBACK
 product: 
 - Windows
 targetos: Windows

@@ -28,15 +28,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
- - apiref
+- apiref
 api_type: 
- - UserDefined
+- UserDefined
 api_location: 
- - hdaudio.h
+- hdaudio.h
 api_name: 
- - PHDAUDIO_DMA_NOTIFICATION_CALLBACK
+- PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 product: 
- - Windows
+- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

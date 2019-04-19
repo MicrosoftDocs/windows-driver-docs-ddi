@@ -25,13 +25,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HDAUDIO_BUS_INTERFACE_V3, *PHDAUDIO_BUS_INTERFACE_V3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	hdaudio.h
+- hdaudio.h
 api_name: 
--	_HDAUDIO_BUS_INTERFACE_V3
+- _HDAUDIO_BUS_INTERFACE_V3
 product: 
 - Windows
 targetos: Windows
