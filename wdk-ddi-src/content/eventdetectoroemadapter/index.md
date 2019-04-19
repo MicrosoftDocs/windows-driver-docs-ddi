@@ -1,0 +1,25 @@
+---
+UID: NA:eventdetectoroemadapter
+ms.assetid: 4849a6b1-8300-3826-8f7f-f7451944ffff
+ms.date: 02/25/2019
+ms.keywords: 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: portal
+product:
+-	Windows
+tech.root: audio
+---
+
+# eventdetectoroemadapter.h header
+
+
+## -description
+
+
+This header is used by audio driver technologies. For more information, see:
+
+- [Audio](../_audio/index.md)
+
+
+

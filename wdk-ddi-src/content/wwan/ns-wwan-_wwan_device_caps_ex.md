@@ -174,6 +174,26 @@ LTE data service is supported. This value applies only to GSM-based devices.
 </tr>
 <tr>
 <td>
+WWAN_DATA_CLASS_5G_NSA
+
+</td>
+<td>
+Non-standalone 5G data service is supported. For more info about 5G data class support, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
+
+</td>
+</tr>
+<tr>
+<td>
+WWAN_DATA_CLASS_SA
+
+</td>
+<td>
+Standalone 5G data service is supported. For more info about 5G data class support, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-5g-data-class-support">MB 5G data class support</a>.
+
+</td>
+</tr>
+<tr>
+<td>
 WWAN_DATA_CLASS_1XRTT
 
 </td>
@@ -1055,6 +1075,39 @@ The device and driver support network blacklist configuration from the OS and th
 </ul>
 </td>
 </tr>
+
+<tr>
+     <td>WWAN_OPTIONAL_SERVICE_CAPS_5G_NSA</td>
+     <td>
+     <td>The device and driver support all new 5G-related extensions in Windows 10, version 1903. The following table shows the NDIS messages and their revisions that the miniport driver must support if this bit is set.
+          <table>
+               <th>OID</th>
+               <th>Message</th>
+               <th>Revision</th>
+               <tr>
+                    <td>WWAN_DEVICE_CAPS_EX</td>
+                    <td>NDIS_WWAN_DEVICE_CAPS_EX</td>
+                    <td>1</td>
+               </tr>
+               <tr>
+                    <td>WWAN_REGISTER_STATE</td>
+                    <td>NDIS_WWAN_REGISTRATION_STATE</td>
+                    <td>3</td>
+               </tr>
+               <tr>
+                    <td>WWAN_PACKET_SERVICE</td>
+                    <td>NDIS_WWAN_PACKET_SERVICE_STATE</td>
+                    <td>2</td>
+               </tr>
+               <tr>
+                    <td>WWAN_SIGNAL_STATE</td>
+                    <td>NDIS_WWAN_SIGNAL_STATE</td>
+                    <td>2</td>
+               </tr>
+          </table>
+     </td>
+</tr>
+
 </table>
  
 

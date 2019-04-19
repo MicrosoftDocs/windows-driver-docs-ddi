@@ -4,7 +4,7 @@ title: NetRequestQueueCreate function (netrequestqueue.h)
 description: Creates a net request queue object.
 tech.root: netvista
 ms.assetid: 43552ec5-82e4-4ba8-af21-900c32c782b7
-ms.date: 02/09/2018
+ms.date: 02/01/2019
 ms.topic: function
 ms.keywords: NetRequestQueueCreate
 req.header: netrequestqueue.h
@@ -26,14 +26,14 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netrequestqueue.h
-api_name: 
-- NetRequestQueueCreate
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netrequestqueue.h
+apiname: 
+-	NetRequestQueueCreate
 product:
 - Windows
 targetos: Windows
@@ -49,7 +49,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Creates a net request queue object.
 
@@ -61,7 +61,7 @@ A pointer to a caller-allocated [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_n
 ### -param QueueAttributes
 An optional pointer to a caller-allocated [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that specifies attributes for the net request queue object.
 
-### -param Queue
+### -param RequestQueue
 An optional pointer to a location that receives a handle to the new net request queue object.
 
 ## -returns

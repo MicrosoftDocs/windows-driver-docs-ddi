@@ -107,7 +107,7 @@ For more information about these members, see
 
 ### -field PinAction
 
-A formatted WWAN_PIN_ACTION object that represents an action to perform with a Personal Identification Number (PIN).
+A formatted [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md) object that represents an action to perform with a Personal Identification Number (PIN).
 
 
 ## -see-also
