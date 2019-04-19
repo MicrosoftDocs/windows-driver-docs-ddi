@@ -41,7 +41,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Specifies a client driver's support for the IEEE 802.3 pause frames.
 
@@ -66,7 +66,7 @@ Indicates that pause frame negotiation is in progress. The pause frame support t
 
 The **NET_ADAPTER_PAUSE_FUNCTIONS** enumeration is used to specify pause frame support in the [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
 
-An initialized [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure is an input to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
+An initialized [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure is an input to [NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md).
 
 
 

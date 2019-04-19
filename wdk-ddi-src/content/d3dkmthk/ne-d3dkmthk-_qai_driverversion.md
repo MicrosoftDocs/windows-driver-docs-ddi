@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_DRIVERVERSION
+ms.custom: 19H1
 ---
 
 # _QAI_DRIVERVERSION enumeration
@@ -141,6 +142,10 @@ Supported starting with Windows 10, version 1803.
 The display miniport driver supports the Windows display driver model with released Windows 10 features.
 
 Supported starting with Windows 10, version 1809.
+
+### -field KMT_DRIVERVERSION_WDDM_2_6 
+
+Supported starting with Windows 10, version 1901.
 
 ## -remarks
 

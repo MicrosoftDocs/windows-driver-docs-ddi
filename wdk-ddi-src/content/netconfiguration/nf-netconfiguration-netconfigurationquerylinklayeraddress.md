@@ -1,7 +1,7 @@
 ---
 UID: NF:netconfiguration.NetConfigurationQueryLinkLayerAddress
 title: NetConfigurationQueryLinkLayerAddress function (netconfiguration.h)
-description: The NetConfigurationQueryLinkLayerAddress method retrieves the software-configurable link layer address address that was stored in the registry for a NIC.
+description: The NetConfigurationQueryLinkLayerAddress method retrieves the software-configurable link layer address that was stored in the registry for a NIC.
 tech.root: netvista
 ms.assetid: 6431d2ff-fdf8-4343-9860-08b3370aa271
 ms.date: 02/07/2018
@@ -49,9 +49,9 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
-The **NetConfigurationQueryLinkLayerAddress** method retrieves the software-configurable link layer address address that was stored in the registry for a NIC.
+The **NetConfigurationQueryLinkLayerAddress** method retrieves the software-configurable link layer address that was stored in the registry for a NIC.
 
 ## -parameters
 

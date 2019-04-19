@@ -44,7 +44,7 @@ ms.custom: RS5
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 > 
-> MBBCx is preview only in Windows 10, version 1809.
+> MBBCx is preview only in Windows 10, version 1903.
 
 A client driver's *EvtMbbDeviceSendMbimFragment* event callabck function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the *SendEncapsulatedCommand* request defined in the MBIM specification.
 

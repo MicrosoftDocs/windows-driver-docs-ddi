@@ -66,5 +66,5 @@ Decode length is two discrete values
 
 ### -field DecodeLengthType_Range
 
-Decode length is is a range of values.
+Decode length is a range of values.
 

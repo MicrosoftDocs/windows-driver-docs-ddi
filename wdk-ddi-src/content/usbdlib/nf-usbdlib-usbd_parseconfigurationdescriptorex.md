@@ -115,7 +115,7 @@ When this routine parses the configuration descriptor looking for the interface 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/">USB device driver programming reference</a>
 
 
 

@@ -38,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
+ms.custom: 19H1
 ---
 
 # DXGI_DDI_PRESENT_FLAGS structure
@@ -90,13 +91,17 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 ### -field AllowTearing
 
- 
+
 
 
 ### -field AllowFlexibleRefresh
 
  
+### -field NoScanoutTransform
 
+Supported in Windows 10, version 1901 and later.
+
+This flag will only be passed if the driver set the D3DWDDM2_6DDI_SCANOUT_FLAG_TRANSFORMATION_DESIRED flag, instead of the D3DWDDM2_6DDI_SCANOUT_FLAG_TRANSFORMATION_REQUIRED flag of the [D3DWDDM2_6DDI_SCANOUT_FLAGS](..\d3d10umddi\ne-d3d10umddi-d3dwddm2_6ddi_scanout_flags.md) enumeration.
 
 ### -field Reserved
 

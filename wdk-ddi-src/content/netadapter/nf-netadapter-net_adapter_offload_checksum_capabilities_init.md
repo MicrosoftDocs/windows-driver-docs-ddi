@@ -4,7 +4,7 @@ title: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function (netadapter.h)
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
-ms.date: 07/19/2018
+ms.date: 01/18/2019
 ms.topic: function
 ms.keywords: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 req.header: netadapter.h
@@ -12,7 +12,7 @@ req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib: netadaptercxstub.lib
 req.dll:
@@ -35,9 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-
-
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function
@@ -48,7 +46,7 @@ ms.custom: RS5
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure.
 
@@ -69,6 +67,10 @@ A flag specifying whether the hardware can calculate and validate TCP checksum.
 ### -param Udp
 
 A flag specifying whether the hardware can calculate and validate UDP checksum.
+
+### -param EvtAdapterOffloadSetChecksum
+
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md) callback function.
 
 ## -returns
 

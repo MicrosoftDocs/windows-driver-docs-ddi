@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_HANDLETYPE
+ms.custom: 19H1
 ---
 
 # D3D12DDI_HANDLETYPE enumeration
@@ -167,3 +168,11 @@ Video motion estimator.
 ### -field D3D12DDI_HT_0053_VIDEO_MOTION_VECTOR_HEAP 
 
 Video motion vector heap.
+
+### -field D3D12DDI_HT_0061_VIDEO_EXTENSION_COMMAND
+
+The handle type for Video Extension Commands. Used in DDI such as pfnMakeResident and pfnEvict that can accept multiple handle types. 
+
+The UMD handle type declaration is `D3D12DDI_HVIDEOEXTENSIONCOMMAND_0063`.
+
+This field is available starting in Windows 10, version 1903 and UMD DDI Min Version D3D12DDI_SUPPORTED_0043.
