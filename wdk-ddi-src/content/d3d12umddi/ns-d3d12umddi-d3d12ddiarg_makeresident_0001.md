@@ -30,7 +30,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: RS5, 19H1
 tech.root: display
 ---
 
@@ -61,6 +61,10 @@ An array of adapters to make resident.
 ### -field Flags
 
 Specifies memory residency behavior.
+
+### -field Flags.CantTrimFurther
+ 
+### -field Flags.Value
 
 ### -field pPagingFenceValue
 

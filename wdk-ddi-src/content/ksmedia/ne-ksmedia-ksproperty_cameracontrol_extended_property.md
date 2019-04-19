@@ -5,9 +5,10 @@ description: This enumeration contains extended camera controls.
 old-location: stream\ksproperty_cameracontrol_extended_property.htm
 tech.root: stream
 ms.assetid: DA89A917-75F3-4120-90A4-8DA9DB322B4F
-ms.date: 04/23/2018
+ms.date: 04/03/2019
 ms.keywords: KSPROPERTY_CAMERACONTROL_EXTENDED_ADVANCEDPHOTO, KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET, KSPROPERTY_CAMERACONTROL_EXTENDED_END2, KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION, KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_FACEDETECTION, KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW, KSPROPERTY_CAMERACONTROL_EXTENDED_FLASHMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSPRIORITY, KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSSTATE, KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM, KSPROPERTY_CAMERACONTROL_EXTENDED_ISO, KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED, KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES, KSPROPERTY_CAMERACONTROL_EXTENDED_METADATA, KSPROPERTY_CAMERACONTROL_EXTENDED_OIS, KSPROPERTY_CAMERACONTROL_EXTENDED_OPTIMIZATIONHINT, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOCONFIRMATION, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOFRAMERATE, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMAXFRAMERATE, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTHUMBNAIL, KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTRIGGERTIME, KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE, KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY, KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_CONFIGCAPS, KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_ISPCONTROL, KSPROPERTY_CAMERACONTROL_EXTENDED_SCENEMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_TORCHMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_VFR, KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR, KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION, KSPROPERTY_CAMERACONTROL_EXTENDED_WARMSTART, KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE, KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ADVANCEDPHOTO, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_END2, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FACEDETECTION, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FLASHMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSPRIORITY, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSSTATE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ISO, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_METADATA, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_OIS, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_OPTIMIZATIONHINT, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOCONFIRMATION, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOFRAMERATE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMAXFRAMERATE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTHUMBNAIL, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTRIGGERTIME, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_CONFIGCAPS, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_ISPCONTROL, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_SCENEMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_TORCHMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_VFR, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_WARMSTART, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE, ksmedia/KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM, stream.ksproperty_cameracontrol_extended_property, stream.ksproperty_cameracontrol_extended_property2
 ms.topic: enum
+ms.custom: rs5, 19H1
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -42,204 +43,172 @@ req.typenames: KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY
 
 # KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY enumeration
 
-
 ## -description
-
 
 This enumeration contains extended camera controls.
 
-
 ## -enum-fields
-
-
-
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE
 
-  This enumerates  the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917959">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomode2) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOFRAMERATE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567580">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOFRAMERATE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOFRAMERATE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photoframerate) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMAXFRAMERATE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567581">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMAXFRAMERATE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMAXFRAMERATE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photomaxframerate) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTRIGGERTIME
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567584">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTRIGGERTIME</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTRIGGERTIME](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-phototriggertime) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_WARMSTART
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567587">KSPROPERTY_CAMERACONTROL_EXTENDED_WARMSTART</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_WARMSTART](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-warmstart) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567578">KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-maxvidfps-photores) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTHUMBNAIL
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567583">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTHUMBNAIL</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOTHUMBNAIL](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photothumbnail) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_SCENEMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567585">KSPROPERTY_CAMERACONTROL_EXTENDED_SCENEMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_SCENEMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-scenemode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_TORCHMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567586">KSPROPERTY_CAMERACONTROL_EXTENDED_TORCHMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_TORCHMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-torchmode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FLASHMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917938">KSPROPERTY_CAMERACONTROL_EXTENDED_FLASHMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FLASHMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-flashmode2) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_OPTIMIZATIONHINT
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567579">KSPROPERTY_CAMERACONTROL_EXTENDED_OPTIMIZATIONHINT</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_OPTIMIZATIONHINT](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-optimizationhint) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567588">KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_WHITEBALANCEMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-whitebalancemode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567573">KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_EXPOSUREMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-exposuremode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567576">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusmode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ISO
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567577">KSPROPERTY_CAMERACONTROL_EXTENDED_ISO</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ISO](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-iso) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567574">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567572">KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_EVCOMPENSATION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-evcompensation) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn567571">KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_CAMERAANGLEOFFSET](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-cameraangleoffset) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_METADATA
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917952">KSPROPERTY_CAMERACONTROL_EXTENDED_METADATA</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_METADATA](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-metadata) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSPRIORITY
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917942">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSPRIORITY</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSPRIORITY](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focuspriority) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSSTATE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917944">KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSSTATE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FOCUSSTATE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-focusstate) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_CONFIGCAPS
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917964">KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_CONFIGCAPS</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_CONFIGCAPS](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-roi-configcaps) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_ISPCONTROL
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917966">KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_ISPCONTROL</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ROI_ISPCONTROL](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-roi-ispcontrol) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOCONFIRMATION
 
-This enumerates the <a href="https://msdn.microsoft.com/library/windows/hardware/dn917957">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOCONFIRMATION</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOCONFIRMATION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-photoconfirmation) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn936756">KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-zoom) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_MCC
 
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_MCC](https://docs.microsoft.com/previous-versions/dn917949(v%3Dvs.85)) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917947">KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-iso-advanced) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn936754">KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-videostabilization) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_VFR
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917971">KSPROPERTY_CAMERACONTROL_EXTENDED_VFR</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_VFR](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-vfr) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FACEDETECTION
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917937">KSPROPERTY_CAMERACONTROL_EXTENDED_FACEDETECTION</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FACEDETECTION](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-facedetection) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn936752">KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOHDR](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-videohdr) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917945">KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_HISTOGRAM](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-histogram) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_OIS
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917954">KSPROPERTY_CAMERACONTROL_EXTENDED_OIS</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_OIS](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-ois) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ADVANCEDPHOTO
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917934">KSPROPERTY_CAMERACONTROL_EXTENDED_ADVANCEDPHOTO</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ADVANCEDPHOTO](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-advancedphoto) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE
 
-This enumerates the        <a href="https://msdn.microsoft.com/library/windows/hardware/dn917960">KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE</a> control.
-
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-profile) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FACEAUTH_MODE
 
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FACEAUTH_MODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-faceauth-mode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_SECURE_MODE
 
+This enumerates the **KSPROPERTY_CAMERACONTROL_EXTENDED_SECURE_MODE** control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOTEMPORALDENOISING
 
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOTEMPORALDENOISING](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-videotemporaldenoising) control.
+
+### -field KSPROPERTY_CAMERACONTROL_EXTENDED_IRTORCHMODE
+
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_IRTORCHMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-irtorchmode) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_END
 
+This represents the end of the control enumerations.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_END2
 
 This represents the end of the control enumerations.
-

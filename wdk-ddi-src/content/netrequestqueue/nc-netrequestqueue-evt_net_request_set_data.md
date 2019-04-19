@@ -4,7 +4,7 @@ title: EVT_NET_REQUEST_SET_DATA (netrequestqueue.h)
 description: Implemented by the client driver to handle a specific OID set request.
 tech.root: netvista
 ms.assetid: 213e6c64-701e-42ce-9e0e-7c8849dcedd6
-ms.date: 02/08/2018
+ms.date: 02/01/2019
 ms.topic: callback
 req.header: netrequestqueue.h
 req.include-header:
@@ -25,14 +25,14 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netrequestqueue.h
-api_name: 
-- EVT_NET_REQUEST_SET_DATA
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	netrequestqueue.h
+apiname: 
+-	EVT_NET_REQUEST_SET_DATA
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Implemented by the client driver to handle a specific OID set request.
 
@@ -64,7 +64,7 @@ VOID EvtNetRequestSetData
 (
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST 		Request,
-	_In_	PVOID 			InputBuffer,
+	_In_	void * 			InputBuffer,
 	_In_	UINT 			InputBufferLength
 )
 {...}

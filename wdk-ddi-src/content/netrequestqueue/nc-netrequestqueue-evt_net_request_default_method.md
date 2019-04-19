@@ -4,7 +4,7 @@ title: EVT_NET_REQUEST_DEFAULT_METHOD (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for method object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: b9b871b2-b92a-47f1-9b68-ccfbca6eeeea
-ms.date: 02/08/2018
+ms.date: 02/01/2019
 ms.topic: callback
 req.header: netrequestqueue.h
 req.include-header:
@@ -25,14 +25,14 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location:
-- netrequestqueue.h
-api_name: 
-- EVT_NET_REQUEST_DEFAULT_METHOD
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	netrequestqueue.h
+apiname: 
+-	EVT_NET_REQUEST_DEFAULT_METHOD
 product:
 - Windows
 targetos: Windows
@@ -47,7 +47,7 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Implemented by the client driver as the default handler for method object identifier (OID) requests.
 
@@ -65,7 +65,7 @@ VOID EvtNetRequestDefaultMethod
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST 		Request,
 	_In_	NDIS_OID 		Oid,
-	_Out_	PVOID 			InputOutputBuffer,
+	_Out_	void * 			InputOutputBuffer,
 	_In_	UINT 			InputBufferLength,
 	_In_	UINT 			OutputBufferLength
 )

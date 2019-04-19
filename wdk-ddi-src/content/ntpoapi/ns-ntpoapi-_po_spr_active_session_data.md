@@ -49,7 +49,7 @@ The Active session GUID for the session.
 
 ## -remarks
 
-To register for System Power Report's Active Session notifications, you must call [**PowerSettingRegisterNotification**](https://msdn.microsoft.com/library/windows/desktop/hh769082) function with these these values:
+To register for System Power Report's Active Session notifications, you must call [**PowerSettingRegisterNotification**](https://msdn.microsoft.com/library/windows/desktop/hh769082) function with these values:
 
 - _SettingGuid_: Pass GUID_SPR_ACTIVE_SESSION_CHANGE.
 - _Flags_: Set to DEVICE_NOTIFY_CALLBACK. 

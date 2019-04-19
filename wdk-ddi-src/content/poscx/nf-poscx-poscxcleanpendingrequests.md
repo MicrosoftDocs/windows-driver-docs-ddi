@@ -43,42 +43,24 @@ req.product: Windows 10 or later.
 
 # PosCxCleanPendingRequests function
 
-
 ## -description
 
-
-      PosCxCleanPendingRequests is called to cancel all pending requests for a given  
-
-      caller, identified by the open instance.
-
+PosCxCleanPendingRequests is called to cancel all pending requests for a given caller, identified by the open instance.
 
 ## -parameters
-
-
-
 
 ### -param device [in]
 
 A handle to a framework device object that represents the device.
 
-
 ### -param callerFileObj [in, optional]
 
-      A handle to a framework file object for which all pending requests should be 
-
-          cancelled, or NULL to cancel all pending requests.
-
+A handle to a framework file object for which all pending requests should be cancelled, or NULL to cancel all pending requests.
 
 ### -param completionStatus [in]
 
 An appropriate NTSTATUS error code that indicates success or failure.
 
-
 ## -returns
 
-
-
 This function does not return a value.
-
-
-

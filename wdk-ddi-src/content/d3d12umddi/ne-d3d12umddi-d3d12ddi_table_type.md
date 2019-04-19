@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_TABLE_TYPE
+ms.custom: 19H1
 ---
 
 # D3D12DDI_TABLE_TYPE enumeration
@@ -152,3 +153,5 @@ Command queue video encode.
 ### -field D3D12DDI_TABLE_TYPE_0054_DOWNLEVEL_SUPPORT_CALLBACKS 
 
 Down level support callbacks.
+
+### -field D3D12DDI_TABLE_TYPE_0054_DEVICE_DOWNLEVEL_SUPPORT

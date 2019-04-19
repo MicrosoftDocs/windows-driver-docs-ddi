@@ -5,7 +5,7 @@ description: The WWAN_PACKET_SERVICE structure represents the packet service att
 old-location: netvista\wwan_packet_service.htm
 tech.root: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
-ms.date: 05/02/2018
+ms.date: 04/05/2019
 ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 ms.topic: struct
 req.header: wwan.h
@@ -100,6 +100,9 @@ Miniport drivers should set this member to WWAN_DATA_CLASS_CUSTOM if the data-cl
      <b>WwanDataClass</b> member of 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.
 
+### -field FrequencyRange
+
+A [**WWAN_5G_FREQUENCY_RANGE**](../wwan/ne-wwan-_wwan_5g_frequency_range.md) value that specifies the frequency ranges that the device is using. This member is only valid if **CurrentDataClass** is either **WWAN_DATA_CLASS_5G_NSA** or **WWAN_DATA_CLASS_SA**.
 
 ## -remarks
 

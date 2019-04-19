@@ -24,14 +24,14 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- DllExport
-api_location:
-- NtosKrnl.exe
-api_name: 
-- NET_PACKET_EXTENSION_QUERY_INIT
+topictype: 
+-	apiref
+apitype: 
+-	DllExport
+apilocation: 
+-	NtosKrnl.exe
+apiname: 
+-	NET_PACKET_EXTENSION_QUERY_INIT
 product:
 - Windows
 targetos: Windows
@@ -45,7 +45,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NET_PACKET_EXTENSION_QUERY_INIT** method initializes a [NET_PACKET_EXTENSION_QUERY](ns-netadapterpacket-_net_packet_extension_query.md) structure.
 
@@ -74,6 +74,6 @@ For more information about packet extensions and available packet extension cons
 
 ## -see-also
 
-[NetTxQueueGetPacketExtensionOffset](../nettxqueue/nf-nettxqueue-nettxqueuegetpacketextensionoffset.md)
+[NetTxQueueGetExtension](../nettxqueue/nf-nettxqueue-nettxqueuegetextension.md)
 
-[NetRxQueueGetPacketExtensionOffset](../netrxqueue/nf-netrxqueue-netrxqueuegetpacketextensionoffset.md)
+[NetRxQueueGetExtension](../netrxqueue/nf-netrxqueue-netrxqueuegetextension.md)

@@ -19,14 +19,14 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_POWER_FLAGS
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location:
-- netadapter.h
-api_name: 
-- NET_ADAPTER_POWER_FLAGS
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netadapter.h
+apiname: 
+-	NET_ADAPTER_POWER_FLAGS
 product:
 - Windows
 targetos: Windows
@@ -41,19 +41,15 @@ product:
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 Specifies a client driver's power capabilities.
 
-## -enum-fields
+## -enum-field
 
 ### -field NET_ADAPTER_POWER_WAKE_PACKET_INDICATION : 
-If this flag is set, the network adapter must be able to save the received packet that caused the adapter to generate a wake-up event.
 
-If this flag is set, the client driver must be able to do the following with this packet after the network adapter transitions to a full-power state:
-
-- The client driver must be able to indicate the packet by calling [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md). 
-- The client driver must be able to issue an NDIS_STATUS_PM_WAKE_REASON status indication and must pass the packet with the indication. To indicate the received packet, the client calls [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md), then calls [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md).
+Spcifies that a network adapter can save a received packet that caused the adapter to generate a wake-up event, then indicate that packet after the network adapter transitions to a full-power state.
 
 For more information about this power management capability, see [NDIS Wake Reason Status Indications](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-wake-reason-status-indications).
 

@@ -39,6 +39,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: 19H1
 ---
 
 # IoCheckLinkShareAccess function
@@ -71,12 +72,12 @@ FILE_SHARE_WRITE
 FILE_SHARE_DELETE
 
 
-### -param FileObject [in, out]
+### -param FileObject [in, out, optional]
 
 A pointer to the file object for which to check access for the current open request.
 
 
-### -param ShareAccess [in, out]
+### -param ShareAccess [in, out, optional]
 
 A pointer to the common share-access data structure that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
@@ -90,11 +91,23 @@ A pointer to the common link share-access data structure (<a href="https://msdn.
 
 A bitmask of these flags:
 
-IO_SHARE_ACCESS_NO_WRITE_PERMISSION        (0x80000000) specifies that the user has no write permission for the file. This flag is used to prevent opening a file for exclusive read access 
-when the user does not have appropriate permissions. 
+IO_SHARE_ACCESS_NO_WRITE_PERMISSION        (0x80000000) specifies that the user has no write permission for the file. This flag is used to prevent opening a file for exclusive read access when the user does not have appropriate permissions.
 
-IO_CHECK_SHARE_ACCESS_UPDATE_SHARE_ACCESS  (0x00000001) indicates whether the SHARE_ACCESS structure
-is updated.
+IO_SHARE_ACCESS_NON_PRIMARY_STREAM         (0x00000080) specifies that the stream is neither the primary data stream nor a directory stream.
+
+IO_CHECK_SHARE_ACCESS_UPDATE_SHARE_ACCESS  (0x00000001) indicates whether the **SHARE_ACCESS** structure is updated.
+
+IO_CHECK_SHARE_ACCESS_DONT_UPDATE_FILE_OBJECT (0x00000002) indicates to not update **FILE_OBJECT** structure.
+
+IO_CHECK_SHARE_ACCESS_DONT_CHECK_READ      (0x00000004) indicates to not check read share access.
+
+IO_CHECK_SHARE_ACCESS_DONT_CHECK_WRITE     (0x00000008) indicates to not check write share access.
+
+IO_CHECK_SHARE_ACCESS_DONT_CHECK_DELETE    (0x00000010) indicates to not check delete share access.
+
+IO_CHECK_SHARE_ACCESS_FORCE_CHECK          (0x00000020) indicate to force check share access even if the request is not read/write/delete access.
+
+IO_CHECK_SHARE_ACCESS_FORCE_USING_SCB      (0x00000040) indicates to force check delete share access using ShareAccess regardless of whether LinkShareAccess is present or not.
 
 
 ## -returns

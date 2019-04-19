@@ -4,7 +4,7 @@ title: NetAdapterOffloadSetChecksumCapabilities function (netadapter.h)
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware checksum offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
-ms.date: 07/19/2018
+ms.date: 01/18/2019
 ms.topic: function
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
@@ -12,7 +12,7 @@ req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib: netadaptercxstub.lib
 req.dll:
@@ -35,9 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-
-
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # NetAdapterOffloadSetChecksumCapabilities function
@@ -48,7 +46,7 @@ ms.custom: RS5
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 The **NetAdapterOffloadSetChecksumCapabilities** method sets the hardware checksum offload capabilities of a network adapter.
 
@@ -61,10 +59,6 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 ### -param HardwareCapabilities
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's checksum offload capabilities.
-
-### -param EvtAdapterOffloadSetChecksum
-
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md) callback function.
 
 ## -returns
 

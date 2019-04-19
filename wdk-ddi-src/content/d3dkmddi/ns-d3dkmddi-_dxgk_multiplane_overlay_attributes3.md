@@ -10,7 +10,7 @@ ms.topic: struct
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,6 +38,7 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+ms.custom: 19H1
 ---
 
 # _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure
@@ -116,7 +117,7 @@ Pointer of the dirty rectangles.
 
 ## -remarks
 
-WDDM 2.3 drivers need to check the SDRWhiteLevel value passed in the [CheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback, and return unsupported if the harware is unable to adjust the relative brightness of the SDR content.
+WDDM 2.3 drivers need to check the SDRWhiteLevel value passed in the [CheckMultiPlaneOverlaySupport3](nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback, and return unsupported if the hardware is unable to adjust the relative brightness of the SDR content.
 
 When boosting the SDR content to the SDRWhiteLevel, the scaling must occur in linear space.
 

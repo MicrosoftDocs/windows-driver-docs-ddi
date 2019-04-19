@@ -74,7 +74,7 @@ Specifies flags specifying how to probe the streaming IRP; the flags are listed 
 
 #### - HeaderSize [in, optional]
 
-Specifies the size to validate each header header against passed to this client, or zero if no validation is to be done. If used, it is assumed that the entire buffer passed is a multiple of this header size, unless the buffer instead contains a single format change header.
+Specifies the size to validate each header against passed to this client, or zero if no validation is to be done. If used, it is assumed that the entire buffer passed is a multiple of this header size, unless the buffer instead contains a single format change header.
 
 
 ## -returns

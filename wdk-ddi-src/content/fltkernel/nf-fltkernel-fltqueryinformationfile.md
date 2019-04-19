@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-<b>FltQueryInformationFile</b> retrieves information for a given file. 
+**FltQueryInformationFile** retrieves information for a given file. 
 
 
 ## -parameters
@@ -56,177 +56,37 @@ req.typenames:
 
 ### -param Instance [in]
 
-Opaque instance pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
+Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**. 
 
 
 ### -param FileObject [in]
 
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
+File object pointer for the file. This parameter is required and cannot be **NULL**. 
 
 
 ### -param FileInformation [out]
 
-Pointer to a caller-allocated buffer that receives information about the file. The <i>FileInformationClass</i> parameter specifies the type of information. This parameter is required and cannot be <b>NULL</b>. 
+Pointer to a caller-allocated buffer that receives information about the file. The *FileInformationClass* parameter specifies the type of information. This parameter is required and cannot be **NULL**. 
 
 
 ### -param Length [in]
 
-Size, in bytes, of the <i>FileInformation</i> buffer. 
+Size, in bytes, of the *FileInformation* buffer. 
 
 
 ### -param FileInformationClass [in]
 
-Type of file information to be returned. One of the following. 
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>FileAllInformation</b>
-
-</td>
-<td>
-Return a FILE_ALL_INFORMATION structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileAttributeTagInformation</b>
-
-</td>
-<td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileBasicInformation</b>
-
-</td>
-<td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileCompressionInformation</b>
-
-</td>
-<td>
-Return a FILE_COMPRESSION_INFORMATION structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileEaInformation</b>
-
-</td>
-<td>
-Return a FILE_EA_INFORMATION structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileInternalInformation</b>
-
-</td>
-<td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileMoveClusterInformation</b>
-
-</td>
-<td>
-Return a FILE_MOVE_CLUSTER_INFORMATION structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileNameInformation</b>
-
-</td>
-<td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileNetworkOpenInformation</b>
-
-</td>
-<td>
-Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FilePositionInformation</b>
-
-</td>
-<td>
-Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileStandardInformation</b>
-
-</td>
-<td>
-Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileStreamInformation</b>
-
-</td>
-<td>
-Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileHardLinkInformation</b>
-
-</td>
-<td>
-Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a> structure for the file. 
-
-</td>
-</tr>
-</table>
- 
+A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) value that specifies the type of file information to be returned in the *FileInformation* buffer.
 
 
 ### -param LengthReturned [out, optional]
 
-Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the <i>FileInformation</i> buffer. This parameter is optional and can be <b>NULL</b>. 
+Pointer to a caller-allocated variable that receives the size, in bytes, of the information returned in the *FileInformation* buffer. This parameter is optional and can be **NULL**. 
 
 
 ## -returns
 
-
-
-<b>FltQueryInformationFile</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
+**FltQueryInformationFile** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as the following: 
 
 <table>
 <tr>
@@ -236,7 +96,7 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_VOLUME_DISMOUNTED</b></dt>
+<dt>STATUS_VOLUME_DISMOUNTED</dt>
 </dl>
 </td>
 <td width="60%">
@@ -254,71 +114,32 @@ The file resides on a volume that is not currently mounted. This is an error cod
 
 
 
-A minifilter driver calls <b>FltQueryInformationFile</b> to retrieve information for a given file. The file must currently be open. 
+A minifilter driver calls **FltQueryInformationFile** to retrieve information for the file identified by *FileObject*. The file must currently be open. 
 
-<b>FltQueryInformationFile</b> returns zero in any member of a FILE_<i>XXX</i>_INFORMATION structure that is not supported by a particular file system. 
+**FltQueryInformationFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by a particular file system. 
 
-Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with APCs enabled</a>.
+Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
 
-<div class="alert"><b>Note</b>  Before calling this routine, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>.  If <b>IoGetTopLevelIrp</b> returns a non-<b>NULL</b> value, do not call the routine as this can cause a system deadlock.</div>
-<div> </div>
+**NOTE:**
+
+Before calling this routine, call [IoGetTopLevelIrp](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp).  If **IoGetTopLevelIrp** returns a non-**NULL** value, do not call the routine as this can cause a system deadlock.
 
 
 
 ## -see-also
 
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+
+
+[FltQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a>
+[FltSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff728841">FILE_LINKS_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543446">FltQueryVolumeInformationFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
+[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile)
  
 
  

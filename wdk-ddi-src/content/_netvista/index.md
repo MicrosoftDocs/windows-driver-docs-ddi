@@ -1,7 +1,7 @@
 ---
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
-ms.date: 08/20/2018
+ms.date: 02/07/19
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -20,54 +20,55 @@ For the programming guide, see [Networking drivers for Windows Vista and later](
 
 ## Network driver headers
 
-To develop Networking drivers for Windows Vista and later, you need these headers:
+To develop Networking drivers for Windows Vista and later, you need these headers. This is a complete list of all headers in the WDK for network drivers; headers that support particular networking technologies are listed in the following sections.
 
- * [dot11wdi.h](../dot11wdi/index.md)
- * [fwpmk.h](../fwpmk/index.md)
- * [fwpsk.h](../fwpsk/index.md)
- * [knetpwrdepbroker.h](../knetpwrdepbroker/index.md)
- * [mbbcx.h](../mbbcx/index.md)
- * [mbbcxtypes.h](../mbbcxtypes/index.md)
- * [mbbfuncenum.h](../mbbfuncenum/index.md)
- * [mf.h](../mf/index.md)
- * [ndis.h](../ndis/index.md)
- * [ndischimney.h](../ndischimney/index.md)
- * [ndisndk.h](../ndisndk/index.md)
- * [ndiswwan.h](../ndiswwan/index.md)
- * [ndkpi.h](../ndkpi/index.md)
- * [netadapter.h](../netadapter/index.md)
- * [netadaptercxtypes.h](../netadaptercxtypes/index.md)
- * [netadapterpacket.h](../netadapterpacket/index.md)
- * [netconfiguration.h](../netconfiguration/index.md)
- * [netdatapathdescriptor.h](../netdatapathdescriptor/index.md)
- * [netdevice.h](../netdevice/index.md)
- * [netdma.h](../netdma/index.md)
- * [netioddk.h](../netioddk/index.md)
- * [netpacket.h](../netpacket/index.md)
- * [netpacketqueue.h](../netpacketqueue/index.md)
- * [netpnp.h](../netpnp/index.md)
- * [netpowersettings.h](../netpowersettings/index.md)
- * [netreceivescaling.h](../netreceivescaling/index.md)
- * [netrequest.h](../netrequest/index.md)
- * [netrequestqueue.h](../netrequestqueue/index.md)
- * [netringbuffer.h](../netringbuffer/index.md)
- * [netrxqueue.h](../netrxqueue/index.md)
- * [nettxqueue.h](../nettxqueue/index.md)
- * [ntddndis.h](../ntddndis/index.md)
- * [ntddrilapitypes.h](../ntddrilapitypes/index.md)
- * [oemrilapitypes.h](../oemrilapitypes/index.md)
- * [rilapi.h](../rilapi/index.md)
- * [rilapitypes.h](../rilapitypes/index.md)
- * [vmbuskernelmodeclientlibapi.h](../vmbuskernelmodeclientlibapi/index.md)
- * [wditypes.hpp](../wditypes/index.md)
- * [windot11.h](../windot11/index.md)
- * [wlanihv.h](../wlanihv/index.md)
- * [wlanihvtypes.h](../wlanihvtypes/index.md)
- * [wlantypes.h](../wlantypes/index.md)
- * [wlclient.h](../wlclient/index.md)
- * [wsk.h](../wsk/index.md)
- * [wskndk.h](../wskndk/index.md)
- * [wwan.h](../wwan/index.md)
+- [Dot11wdi.h](..\dot11wdi\index.md)
+- [Checksum.h](../checksum/index.md)
+- [Checksumtypes.h](../checksumtypes/index.md)
+- [Extension.h](../extension/index.md)
+- [Fragment.h](../fragment/index.md)
+- [Lso.h](../lso/index.md)
+- [Lsotypes.h](../lsotypes/index.md)
+- [Fwpmk.h](..\fwpmk\index.md)
+- [Fwpsk.h](..\fwpsk\index.md)
+- [Knetpwrdepbroker.h](..\knetpwrdepbroker\index.md)
+- [Mbbcx.h](../mbbcx/index.md)
+- [Ndis.h](..\ndis\index.md)
+- [Ndischimney.h](..\ndischimney\index.md)
+- [Ndisndk.h](..\ndisndk\index.md)
+- [Ndiswwan.h](..\ndiswwan\index.md)
+- [Ndkpi.h](..\ndkpi\index.md)
+- [Netadapter.h](..\netadapter\index.md)
+- [Netadapteroffload.h](../netadapteroffload/index.md)
+- [Netadapterpacket.h](..\netadapterpacket\index.md)
+- [Netconfiguration.h](..\netconfiguration\index.md)
+- [Netdevice.h](../netdevice/index.md)
+- [Netdma.h](..\netdma\index.md)
+- [Netioddk.h](..\netioddk\index.md)
+- [Netpacketqueue.h](../netpacketqueue/index.md)
+- [Netpnp.h](..\netpnp\index.md)
+- [Netpowersettings.h](..\netpowersettings\index.md)
+- [Netreceivescaling.h](..\netreceivescaling\index.md)
+- [Netrequest.h](..\netrequest\index.md)
+- [Netrequestqueue.h](..\netrequestqueue\index.md)
+- [Netringiterator.h](../netringiterator/index.md)
+- [Netrxqueue.h](..\netrxqueue\index.md)
+- [Nettxqueue.h](..\nettxqueue\index.md)
+- [Ntddndis.h](..\ntddndis\index.md)
+- [Ntddrilapitypes.h](..\ntddrilapitypes\index.md)
+- [Oemrilapitypes.h](..\oemrilapitypes\index.md)
+- [Rilapi.h](..\rilapi\index.md)
+- [Rilapitypes.h](..\rilapitypes\index.md)
+- [Vmbuskernelmodeclientlibapi.h](..\vmbuskernelmodeclientlibapi\index.md)
+- [Wditypes.hpp](..\wditypes\index.md)
+- [Windot11.h](..\windot11\index.md)
+- [Wlanihv.h](..\wlanihv\index.md)
+- [Wlanihvtypes.h](..\wlanihvtypes\index.md)
+- [Wlantypes.h](..\wlantypes\index.md)
+- [Wlclient.h](..\wlclient\index.md)
+- [Wsk.h](..\wsk\index.md)
+- [Wskndk.h](..\wskndk\index.md)
+- [Wwan.h](..\wwan\index.md)
 
 The following sections contain information for each area of network driver technology:
 
@@ -79,21 +80,30 @@ For more info about NetAdapterCx, see [Network Adapter WDF Class Extension (Cx)]
 
 Header files that support NetAdapterCx include the following:
 
+- [Checksum.h](../checksum/index.md)
+- [Checksumtypes.h](../checksumtypes/index.md)
+- [Extension.h](../extension/index.md)
+- [Fragment.h](../fragment/index.md)
+- [Lso.h](../lso/index.md)
+- [Lsotypes.h](../lsotypes/index.md)
 - [Netadapter.h](../netadapter/index.md)
-- [Netadaptercxtypes.h](../netadaptercxtypes/index.md)
+- [Netadapteroffload.h](../netadapteroffload/index.md)
 - [Netadapterpacket.h](../netadapterpacket/index.md)
 - [Netconfiguration.h](../netconfiguration/index.md)
-- [Netdatapathdescriptor.h](../netdatapathdescriptor/index.md)
 - [Netdevice.h](../netdevice/index.md)
-- [Netpacket.h](../netpacket/index.md)
 - [Netpacketqueue.h](../netpacketqueue/index.md)
 - [Netpowersettings.h](../netpowersettings/index.md)
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrequest.h](../netrequest/index.md)
 - [Netrequestqueue.h](../netrequestqueue/index.md)
-- [Netringbuffer.h](../netringbuffer/index.md)
+- [Netringiterator.h](../netringiterator/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)
+- [Packet.h](../packet/index.md)
+- [Ring.h](../ring/index.md)
+- [Ringcollection.h](../ringcollection/index.md)
+- [Rsc.h](../rsc/index.md)
+- [Rsctypes.h](../rsctypes/index.md)
 
 ## NDIS Core Functionality
 
@@ -161,7 +171,6 @@ For more info about MBBCx, see [Mobile Broadband (MBB) WDF class extension](http
 Header files that support MBBCx include the following:
 
 - [Mbbcx.h](../mbbcx/index.md)
-- [Mbbcxtypes.h](../mbbcxtypes/index.md)
 
 ## Network Module Registrar
 
