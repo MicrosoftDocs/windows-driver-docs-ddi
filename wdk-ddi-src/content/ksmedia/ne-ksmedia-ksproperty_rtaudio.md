@@ -40,7 +40,7 @@ ms.custom: RS5
 
 ### -field KSPROPERTY_RTAUDIO_GETPOSITIONFUNCTION 
 
-This field enumerates the **KSPROPERTY_RTAUDIO_GETPOSITIONFUNCTION** property.
+This field enumerates the <b>KSPROPERTY_RTAUDIO_GETPOSITIONFUNCTION</b> property.
 
 ### -field KSPROPERTY_RTAUDIO_BUFFER
 
@@ -92,7 +92,7 @@ This field enumerates the **KSPROPERTY_RTAUDIO_GETPOSITIONFUNCTION** property.
 
 ### -field KSPROPERTY_RTAUDIO_PACKETVREGISTER
 
-The **KSPROPERTY_RTAUDIO_PACKETVREGISTER** returns information about the packet virtual register.
+The <b>KSPROPERTY_RTAUDIO_PACKETVREGISTER</b> returns information about the packet virtual register.
 
 ## -remarks
 
