@@ -134,7 +134,15 @@ Pointer to a buffer that contains user-defined data for the reparse point.
 
 ## -remarks
 
-A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag. There can be only one reparse point on a file at a time; this reparse point can be changed.
+A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag.
+
+You can use the **GenericGUIDReparseBuffer** structure to interpret the payload for any **IO_REPARSE_TAG_*XXX*** tag, or optionally use one of the other structures within the union as follows:
+
+* Use the **GenericReparseBuffer** structure for any Microsoft-defined **IO_REPARSE_TAG_*XXX*** tag.
+
+* Use the **SymbolicLinkReparseBuffer** structure when **FileTag** is IO_REPARSE_TAG_SYMLINK.
+
+* Use the **MountPointReparseBuffer** structure when **FileTag** is IO_REPARSE_TAG_MOUNT_POINT.
 
 A pointer to an FLT_TAG_DATA_BUFFER structure that contains reparse point tag data for an operation is stored in the **TagData** member of the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure for the operation.
 
