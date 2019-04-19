@@ -122,6 +122,6 @@ Before calling this routine, the function driver is responsible for programming 
 
 <a href="https://msdn.microsoft.com/0f94146b-aa60-4106-aba6-0f1cb3e53008">RegisterEventCallback</a>
  
-
+[hdaudio.h header](hdaudio.md)
  
 
