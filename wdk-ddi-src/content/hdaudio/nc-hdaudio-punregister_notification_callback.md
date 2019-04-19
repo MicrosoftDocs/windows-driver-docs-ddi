@@ -35,7 +35,8 @@ api_location:
 -	hdaudio.h
 api_name: 
 -	PUNREGISTER_NOTIFICATION_CALLBACK
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ms.custom: 19H1 
 ---
@@ -104,4 +105,4 @@ The HD Audio bus driver will release the reference it took on the driver FDO whe
 
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

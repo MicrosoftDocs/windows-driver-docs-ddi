@@ -95,4 +95,4 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

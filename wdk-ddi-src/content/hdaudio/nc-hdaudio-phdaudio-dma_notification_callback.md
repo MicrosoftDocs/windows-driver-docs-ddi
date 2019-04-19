@@ -90,4 +90,4 @@ Returns VOID.
 
 ## -see-also
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

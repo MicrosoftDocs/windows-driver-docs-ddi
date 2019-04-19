@@ -35,7 +35,8 @@ api_location:
 -	hdaudio.h
 api_name: 
 -	PREGISTER_NOTIFICATION_CALLBACK
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ms.custom: 19H1 
 ---
@@ -108,4 +109,4 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 
 [PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)
