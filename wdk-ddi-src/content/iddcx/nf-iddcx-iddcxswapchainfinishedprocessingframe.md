@@ -48,7 +48,7 @@ req.typenames:
 
 
 
-                An OS callback function the driver calls report all GPU command for processing this frame have been queue
+                An OS callback function the driver calls to report all GPU command for processing this frame have been queued
 
 
 ## -parameters
