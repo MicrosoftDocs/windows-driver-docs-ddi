@@ -5,7 +5,7 @@ description: The ZwQueryInformationFile routine returns various kinds of informa
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
-ms.date: 04/30/2018
+ms.date: 04/24/2019
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 ms.topic: function
 req.header: ntifs.h
@@ -43,41 +43,31 @@ req.typenames:
 
 # NtQueryInformationFile function
 
-
 ## -description
 
-
-The <b>NtQueryInformationFile</b> routine returns various kinds of information about a file object.
-
+The **NtQueryInformationFile** routine returns various kinds of information about a file object.
 
 ## -parameters
 
-
-
-
 ### -param FileHandle [in]
 
-Handle to a file object. The handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">NtOpenFile</a>.
-
+Handle to a file object. The handle is created by a successful call to [NtCreateFile](nf-ntifs-ntcreatefile.md) or [NtOpenFile](nf-ntifs-ntopenfile.md), or to an equivalent file create or open routine.
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. The <b>Information</b> member receives the number of bytes that this routine actually writes to the <i>FileInformation</i> buffer.
-
+Pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and information about the operation. The **Information** member receives the number of bytes that this routine actually writes to the *FileInformation* buffer.
 
 ### -param FileInformation [out]
 
-Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The <i>FileInformationClass</i> parameter specifies the type of information that the caller requests.
-
+Pointer to a caller-allocated buffer into which the routine writes the requested information about the file object. The *FileInformationClass* parameter specifies the type of information that the caller requests.
 
 ### -param Length [in]
 
-The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
-
+The size, in bytes, of the buffer pointed to by *FileInformation*.
 
 ### -param FileInformationClass [in]
 
-Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff728840">FILE_INFORMATION_CLASS</a> values.
+Specifies the type of information to be returned about the file, in the buffer that *FileInformation* points to. Device and intermediate drivers can specify any of the following [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) values.
 
 <table>
 <tr>
@@ -86,7 +76,7 @@ Specifies the type of information to be returned about the file, in the buffer t
 </tr>
 <tr>
 <td>
-<b>FileAccessInformation</b>
+**FileAccessInformation**
 
 </td>
 <td>
@@ -96,67 +86,67 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545733">FILE_AC
 </tr>
 <tr>
 <td>
-<b>FileAlignmentInformation</b>
+**FileAlignmentInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>. This information is useful if the file was opened with the FILE_NO_INTERMEDIATE_BUFFERING flag specified in the <i>CreateOptions</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileAllInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545743">FILE_ALL_INFORMATION</a> structure. By combining several file-information structures into a single structure, <b>FILE_ALL_INFORMATION</b> reduces the number of queries required to obtain information about a file.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for *DesiredAccess*. This information is useful if the file was opened with the FILE_NO_INTERMEDIATE_BUFFERING flag specified in the *CreateOptions* parameter.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileAttributeTagInformation</b>
+**FileAllInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileBasicInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545743">FILE_ALL_INFORMATION</a> structure. By combining several file-information structures into a single structure, **FILE_ALL_INFORMATION** reduces the number of queries required to obtain information about a file.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileCaseSensitiveInformation</b>
+**FileAttributeTagInformation**
 
 </td>
 <td>
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10, version 1803.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileCaseSensitiveInformationForceAccessCheck</b>
-
-</td>
-<td>
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileEaInformation</b>
+**FileBasicInformation**
+
+</td>
+<td>
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter.
+
+</td>
+</tr>
+<tr>
+<td>
+**FileCaseSensitiveInformation**
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This value is available starting with Windows 10, version 1803.
+
+</td>
+</tr>
+<tr>
+<td>
+**FileCaseSensitiveInformationForceAccessCheck**
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
+
+</td>
+</tr>
+<tr>
+<td>
+**FileEaInformation**
 
 </td>
 <td>
@@ -166,7 +156,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545773">FILE_EA
 </tr>
 <tr>
 <td>
-<b>FileInternalInformation</b>
+**FileInternalInformation**
 
 </td>
 <td>
@@ -176,31 +166,31 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_IN
 </tr>
 <tr>
 <td>
-<b>FileIoPriorityHintInformation</b>
+**FileIoPriorityHintInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545802">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_DATA flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FileModeInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545809">FILE_MODE_INFORMATION</a> structure. This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a> routine.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545802">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_DATA flag specified in the *DesiredAccess* parameter.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileNameInformation</b>
+**FileModeInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. The structure can contain the file's full path or only a portion of it. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545809">FILE_MODE_INFORMATION</a> structure. This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the *CreateOptions* parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a> routine.
+
+</td>
+</tr>
+<tr>
+<td>
+**FileNameInformation**
+
+</td>
+<td>
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. The structure can contain the file's full path or only a portion of it. The caller can query this information as long as the file is open, without any particular requirements for *DesiredAccess*.
 
 For more information about the file-name syntax, see the Remarks section later in this topic.
 
@@ -208,173 +198,108 @@ For more information about the file-name syntax, see the Remarks section later i
 </tr>
 <tr>
 <td>
-<b>FileNetworkOpenInformation</b>
+**FileNetworkOpenInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FilePositionInformation</b>
-
-</td>
-<td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure. The caller must have opened the file with the <i>DesiredAccess</i> FILE_READ_DATA or FILE_WRITE_DATA flag specified in the <i>DesiredAccess</i> parameter, and with the FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT flag specified in the <i>CreateOptions </i>parameter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the *DesiredAccess* parameter.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileStandardInformation</b>
+**FilePositionInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for <i>DesiredAccess</i>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure. The caller must have opened the file with the *DesiredAccess* FILE_READ_DATA or FILE_WRITE_DATA flag specified in the *DesiredAccess* parameter, and with the FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT flag specified in the *CreateOptions *parameter.
 
 </td>
 </tr>
 <tr>
 <td>
-<b>FileIsRemoteDeviceInformation</b>
+**FileStandardInformation**
 
 </td>
 <td>
-A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE_IS_REMOTE_DEVICE_INFORMATION</a> structure. The caller can query this information as  long as the file is open, without any particular requirements for <i>DesiredAccess</i>.                         
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a> structure. The caller can query this information as long as the file is open, without any particular requirements for *DesiredAccess*.
+
+</td>
+</tr>
+<tr>
+<td>
+**FileIsRemoteDeviceInformation**
+
+</td>
+<td>
+A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE_IS_REMOTE_DEVICE_INFORMATION</a> structure. The caller can query this information as  long as the file is open, without any particular requirements for *DesiredAccess*.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-<b>NtQueryInformationFile </b>returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
-
-
-
+**NtQueryInformationFile **returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
 
 ## -remarks
 
+**NtQueryInformationFile** returns information about the specified file object. Note that it returns zero in any member of a **FILE_*XXX*_INFORMATION** structure that is not supported by a particular device or file system.
 
+When *FileInformationClass* = **FileNameInformation**, the file name is returned in the [FILE_NAME_INFORMATION](https://docs.microsoft.com//windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_name_information) structure. The precise syntax of the file name depends on a number of factors:
 
-<b>NtQueryInformationFile</b> returns information about the specified file object. Note that it returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
+* If you opened the file by submitting a full path to [NtCreateFile](nf-ntifs-ntcreatefile.md), **NtQueryInformationFile** returns that full path.
 
-When <i>FileInformationClass</i> = <b>FileNameInformation</b>, the file name is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. The precise syntax of the file name depends on a number of factors:
+* If the **ObjectAttributes->RootDirectory** handle was opened by name in a call to **NtCreateFile**, and subsequently the file was opened by **NtCreateFile** relative to this root-directory handle, **NtQueryInformationFile** returns the full path.
 
-<ul>
-<li>
-If you opened the file by submitting a full path to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a>, <b>NtQueryInformationFile</b> returns that full path.
+* If the **ObjectAttributes->RootDirectory** handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to **NtCreateFile**, and subsequently the file was opened by **NtCreateFile** relative to this root-directory handle, **NtQueryInformationFile** returns the relative path.
 
-</li>
-<li>
-If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by name in a call to <b>NtCreateFile</b>, and subsequently the file was opened by <b>NtCreateFile</b> relative to this root-directory handle, <b>NtQueryInformationFile</b> returns the full path.
+* However, if the user has **SeChangeNotifyPrivilege** (described in the Microsoft Windows SDK documentation), **NtQueryInformationFile** returns the full path in all cases.
 
-</li>
-<li>
-If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to <b>NtCreateFile</b>, and subsequently the file was opened by <b>NtCreateFile</b> relative to this root-directory handle, <b>NtQueryInformationFile</b> returns the relative path. 
+* If only the relative path is returned, the file name string will not begin with a backslash.
 
-</li>
-<li>
-However, if the user has <b>SeChangeNotifyPrivilege</b> (described in the Microsoft Windows SDK documentation), <b>NtQueryInformationFile</b> returns the full path in all cases.
+* If the full path and file name are returned, the string will begin with a single backslash, regardless of its location. Thus the file C:\dir1\dir2\filename.ext will appear as \dir1\dir2\filename.ext, while the file \\server\share\dir1\dir2\filename.ext will appear as \server\share\dir1\dir2\filename.ext.
 
-</li>
-<li>
-If only the relative path is returned, the file name string will not begin with a backslash.
+If **NtQueryInformationFile** fails because of a buffer overflow, drivers that implement **FileNameInformation** should return as many WCHAR characters of the file name as will fit in the buffer and specify the full length that is required in the *FileNameLength* parameter of the [FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_name_information) structure. You should reissue the query by using the file name length so that you can retrieve the full file name. Drivers that do not follow this pattern might require a gradual increase in length until they retrieve the full file name. For more information about working with files, see [Using Files in a Driver](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-files-in-a-driver).
 
-</li>
-<li>
-If the full path and file name are returned, the string will begin with a single backslash, regardless of its location. Thus the file C:\dir1\dir2\filename.ext will appear as \dir1\dir2\filename.ext, while the file \\server\share\dir1\dir2\filename.ext will appear as \server\share\dir1\dir2\filename.ext.
+Callers of **NtQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
 
-</li>
-</ul>
-If <b>NtQueryInformationFile</b> fails because of a buffer overflow, drivers that implement <b>FileNameInformation</b> should return as many WCHAR characters of the file name as will fit in the buffer and specify the full length that is required in the <i>FileNameLength</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. You should reissue the query by using the file name length so that you can retrieve the full file name. Drivers that do not follow this pattern might require a gradual increase in length until they retrieve the full file name. For more information about working with files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
+<div class="alert">**Note**  If the call to this function occurs in user mode, you should use the name "**NtQueryInformationFile**" instead of "**ZwQueryInformationFile**".</div>
 
-Callers of <b>NtQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
-
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtQueryInformationFile</b>" instead of "<b>ZwQueryInformationFile</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
-
-
-
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
+[FILE_ACCESS_INFORMATION](ns-ntifs-_file_access_information.md)
 
+[FILE_ALIGNMENT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_alignment_information)
 
+[FILE_ALL_INFORMATION](ns-ntifs-_file_all_information.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545733">FILE_ACCESS_INFORMATION</a>
+[FILE_ATTRIBUTE_TAG_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_attribute_tag_information)
 
+[FILE_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_basic_information)
 
+[FILE_EA_INFORMATION](ns-ntifs-_file_ea_information.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545740">FILE_ALIGNMENT_INFORMATION</a>
+[FILE_INTERNAL_INFORMATION](ns-ntifs-_file_internal_information.md)
 
+[FILE_IO_PRIORITY_HINT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_io_priority_hint_information)
 
+[FILE_IS_REMOTE_DEVICE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_is_remote_device_information)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545743">FILE_ALL_INFORMATION</a>
+[FILE_MODE_INFORMATION](ns-ntifs-_file_mode_information.md)
 
+[FILE_NAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_name_information)
 
+[FILE_NETWORK_OPEN_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_network_open_information)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_ATTRIBUTE_TAG_INFORMATION</a>
+[FILE_POSITION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_position_information)
 
+[FILE_STANDARD_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_standard_information)
 
+[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a>
+[NtCreateFile](nf-ntifs-ntcreatefile.md)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545773">FILE_EA_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545802">FILE_IO_PRIORITY_HINT_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE_IS_REMOTE_DEVICE_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545809">FILE_MODE_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545822">FILE_NETWORK_OPEN_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545855">FILE_STANDARD_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">NtSetInformationFile</a>
- 
-
- 
-
+[NtSetInformationFile](nf-ntifs-ntsetinformationfile.md)
