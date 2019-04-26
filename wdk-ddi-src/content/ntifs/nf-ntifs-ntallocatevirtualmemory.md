@@ -5,7 +5,7 @@ description: The ZwAllocateVirtualMemory routine reserves, commits, or both, a r
 old-location: kernel\zwallocatevirtualmemory.htm
 tech.root: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
-ms.date: 04/30/2018
+ms.date: 04/26/2019
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
 ms.topic: function
 req.header: ntifs.h
@@ -62,17 +62,17 @@ A handle for the process for which the mapping should be done. Use the <b>NtCurr
 
 ### -param BaseAddress [in, out]
 
-A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of this parameter is non-<b>NULL</b>, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of this parameter is <b>NULL</b>, the operating system will determine where to allocate the region.
+A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of **BaseAddress* is non-<b>NULL</b>, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of **BaseAddress* is <b>NULL</b>, the operating system will determine where to allocate the region.
 
 
 ### -param ZeroBits [in]
 
-The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>. Note that when ZeroBits is larger than 32, it becomes a bitmask. 
+The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when <i>*BaseAddress</i> is <b>NULL</b>. Note that when ZeroBits is larger than 32, it becomes a bitmask. 
 
 
 ### -param RegionSize [in, out]
 
-A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of this parameter specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input. 
+A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of **RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. <i>*RegionSize</i> cannot be zero on input.
 
 
 ### -param AllocationType [in]
@@ -100,7 +100,7 @@ MEM_PHYSICAL
 
 </td>
 <td>
-Allocate physical memory. This flag is solely for use with Address Windowing Extensions (AWE) memory. 
+Allocate physical memory. This flag is solely for use with Address Windowing Extensions (AWE) memory.
 
 If MEM_PHYSICAL is set, MEM_RESERVE must also be set. No other flags may be set.
 
@@ -183,7 +183,7 @@ PAGE_READONLY
 
 </td>
 <td>
-Read-only and execute access to the committed region of pages is allowed. 
+Read-only and execute access to the committed region of pages is allowed.
 
 An attempt to write the committed region results in an access violation.
 
@@ -290,11 +290,7 @@ This flag is a page protection modifier, valid only when used with one of the pa
 
 **STATUS_PROCESS_IS_TERMINATING**
 
-
-
 ## -remarks
-
-
 
 <b>ZwAllocateVirtualMemory</b> can perform the following operations:
 
@@ -352,7 +348,6 @@ Physical storage is allocated for the page, and access is controlled by a protec
 </td>
 </tr>
 </table>
- 
 
 Memory allocated by calling <b>ZwAllocateVirtualMemory</b> must be freed by calling <b>ZwFreeVirtualMemory</b>.
 
@@ -362,20 +357,8 @@ For more information about memory management, see <a href="https://msdn.microsof
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566460">ZwFreeVirtualMemory</a>
- 
-
- 
-
