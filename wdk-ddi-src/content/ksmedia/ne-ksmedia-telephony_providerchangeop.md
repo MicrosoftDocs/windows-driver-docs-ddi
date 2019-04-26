@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_24
+UID: NE:ksmedia.__unnamed_enum_25
 title: TELEPHONY_PROVIDERCHANGEOP (ksmedia.h)
 description: The TELEPHONY_PROVIDERCHANGEOP enumeration defines constants that specify the requested provider change operation.
 old-location: audio\telephony_providerchangeop.htm
