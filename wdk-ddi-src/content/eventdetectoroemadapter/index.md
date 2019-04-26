@@ -13,9 +13,7 @@ tech.root: audio
 
 # eventdetectoroemadapter.h header
 
-
 ## -description
-
 
 This header is used by audio driver technologies. For more information, see:
 
