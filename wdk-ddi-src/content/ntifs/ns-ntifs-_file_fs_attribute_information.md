@@ -129,6 +129,16 @@ The file system preserves and enforces access control lists
 </tr>
 <tr>
 <td>
+<b>FILE_RETURNS_CLEANUP_RESULT_INFO</b>
+
+</td>
+<td>
+The file system returns information on a successful cleanup operation describing additional actions taken during cleanup, such as deleting the file.  File system filters can examine this information in their post-cleanup callback.
+
+</td>
+</tr>
+<tr>
+<td>
 <b>FILE_SUPPORTS_ENCRYPTION</b>
 
 </td>
