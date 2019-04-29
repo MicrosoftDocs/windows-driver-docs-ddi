@@ -73,7 +73,7 @@ An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 
 
 
-On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
+On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
 
 
 
