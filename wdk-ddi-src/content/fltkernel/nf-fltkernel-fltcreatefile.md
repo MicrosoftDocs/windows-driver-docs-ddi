@@ -5,7 +5,7 @@ description: Minifilter drivers call FltCreateFile to create a new file or open 
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk
 ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
-ms.date: 04/16/2018
+ms.date: 04/26/2019
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 ms.topic: function
 req.header: fltkernel.h
@@ -892,7 +892,9 @@ As a pathname relative to the directory file represented by the handle in the <b
 </ul>
 Any handle that is obtained from <b>FltCreateFile</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. 
 
-Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>FltCreateFile</b>. Setting this attribute restricts the use of the handle that is returned by <b>FltCreateFile</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
+Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>FltCreateFile</b>. Setting this attribute restricts the use of the handle that is returned by <b>FltCreateFile</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
+
+<div class="alert"><b>Note:</b> Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.</div>
 
 Certain <i>DesiredAccess</i> flags and combinations of flags have the following effects: 
 

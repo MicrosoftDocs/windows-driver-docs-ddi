@@ -96,7 +96,7 @@ UsbLowerFilter_GetAttachActionAbortOperation(
     PdcpContext = DeviceGetUsbLowerFilterContext((WDFDEVICE)Context);
 
     // Set our event
-    (void) KeSetEvent(&amp;PdcpContext-&gt;AbortAttachOperation, LOW_REALTIME_PRIORITY, FALSE);
+    (void) KeSetEvent(&PdcpContext->AbortAttachOperation, LOW_REALTIME_PRIORITY, FALSE);
 
     return STATUS_SUCCESS;
 }
