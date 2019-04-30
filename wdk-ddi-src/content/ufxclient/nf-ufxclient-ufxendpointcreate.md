@@ -189,55 +189,55 @@ Return Value:
 
     DeviceContext = UfxDeviceGetContext(Device);
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;Attributes, UFXENDPOINT_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&Attributes, UFXENDPOINT_CONTEXT);
     Attributes.ExecutionLevel = WdfExecutionLevelPassive;
     Attributes.EvtCleanupCallback = UfxEndpoint_Cleanup;
 
     //
     // Note: Execution level needs to be passive to avoid deadlocks with WdfRequestComplete.
     //
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;TransferQueueAttributes, ENDPOINT_QUEUE_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&TransferQueueAttributes, ENDPOINT_QUEUE_CONTEXT);
     TransferQueueAttributes.ExecutionLevel = WdfExecutionLevelPassive;
     
-    WDF_IO_QUEUE_CONFIG_INIT(&amp;TransferQueueConfig, WdfIoQueueDispatchManual);
+    WDF_IO_QUEUE_CONFIG_INIT(&TransferQueueConfig, WdfIoQueueDispatchManual);
     TransferQueueConfig.AllowZeroLengthRequests = TRUE;
     TransferQueueConfig.EvtIoStop = EndpointQueue_EvtIoStop;
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;CommandQueueAttributes, ENDPOINT_QUEUE_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&CommandQueueAttributes, ENDPOINT_QUEUE_CONTEXT);
     CommandQueueAttributes.ExecutionLevel = WdfExecutionLevelPassive;
 
-    WDF_IO_QUEUE_CONFIG_INIT(&amp;CommandQueueConfig, WdfIoQueueDispatchSequential);
+    WDF_IO_QUEUE_CONFIG_INIT(&CommandQueueConfig, WdfIoQueueDispatchSequential);
     CommandQueueConfig.EvtIoInternalDeviceControl = EvtEndpointCommandQueue;
 
-    UFX_ENDPOINT_CALLBACKS_INIT(&amp;Callbacks);
-    UfxEndpointInitSetEventCallbacks(EndpointInit, &amp;Callbacks);
+    UFX_ENDPOINT_CALLBACKS_INIT(&Callbacks);
+    UfxEndpointInitSetEventCallbacks(EndpointInit, &Callbacks);
 
     Status = UfxEndpointCreate(
                  Device,
                  EndpointInit,
-                 &amp;Attributes,
-                 &amp;TransferQueueConfig,
-                 &amp;TransferQueueAttributes,
-                 &amp;CommandQueueConfig,
-                 &amp;CommandQueueAttributes,
-                 &amp;Endpoint);
+                 &Attributes,
+                 &TransferQueueConfig,
+                 &TransferQueueAttributes,
+                 &CommandQueueConfig,
+                 &CommandQueueAttributes,
+                 &Endpoint);
     CHK_NT_MSG(Status, "Failed to create ufxendpoint!");
 
-    Status = WdfCollectionAdd(DeviceContext-&gt;Endpoints, Endpoint);
+    Status = WdfCollectionAdd(DeviceContext->Endpoints, Endpoint);
     CHK_NT_MSG(Status, "Failed to add endpoint to collection!");
 
     EpContext = UfxEndpointGetContext(Endpoint);
-    EpContext-&gt;UfxDevice = Device;
-    EpContext-&gt;WdfDevice = DeviceContext-&gt;FdoWdfDevice;
-    RtlCopyMemory(&amp;EpContext-&gt;Descriptor, Descriptor, sizeof(*Descriptor));
+    EpContext->UfxDevice = Device;
+    EpContext->WdfDevice = DeviceContext->FdoWdfDevice;
+    RtlCopyMemory(&EpContext->Descriptor, Descriptor, sizeof(*Descriptor));
 
     Queue = UfxEndpointGetTransferQueue(Endpoint);
     QueueContext = EndpointQueueGetContext(Queue);
-    QueueContext-&gt;Endpoint = Endpoint;
+    QueueContext->Endpoint = Endpoint;
 
     Queue = UfxEndpointGetCommandQueue(Endpoint);
     QueueContext = EndpointQueueGetContext(Queue);
-    QueueContext-&gt;Endpoint = Endpoint;
+    QueueContext->Endpoint = Endpoint;
 
     Status = TransferInitialize(Endpoint);
     CHK_NT_MSG(Status, "Failed to initialize endpoint transfers");
@@ -245,7 +245,7 @@ Return Value:
     //
     // This can happen if we're handling a SetInterface command.
     //
-    if (DeviceContext-&gt;UsbState == UsbfnDeviceStateConfigured) {
+    if (DeviceContext->UsbState == UsbfnDeviceStateConfigured) {
         UfxEndpointConfigure(Endpoint);
     }
 
