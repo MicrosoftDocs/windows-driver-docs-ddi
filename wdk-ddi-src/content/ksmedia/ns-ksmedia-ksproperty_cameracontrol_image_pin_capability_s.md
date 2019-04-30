@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_123
+UID: NS:ksmedia.__unnamed_struct_125
 title: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S (ksmedia.h)
 description: Describes image pin control properties in the PROPSETID_VIDCAP_CAMERACONTROL_IMAGE_PIN_CAPABILITY camera control property set.
 old-location: stream\ksproperty_cameracontrol_image_pin_capability_s.htm
 tech.root: stream
 ms.assetid: AFFCD1E0-A92F-446D-A30E-C41FA8706FC1
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_EXCLUSIVE_WITH_RECORD, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_SEQUENCE_EXCLUSIVE_WITH_RECORD, PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, ksmedia/PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, stream.ksproperty_cameracontrol_image_pin_capability_s"
 ms.topic: struct
 req.header: ksmedia.h

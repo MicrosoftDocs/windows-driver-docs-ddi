@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_41
+UID: NS:ksmedia.__unnamed_struct_43
 title: KSAUDIO_DYNAMIC_RANGE (ksmedia.h)
 description: The KSAUDIO_DYNAMIC_RANGE structure specifies the dynamic range of an audio stream. This structure is used to get or set the data value for the KSPROPERTY_AUDIO_DYNAMIC_RANGE property.
 old-location: audio\ksaudio_dynamic_range.htm
