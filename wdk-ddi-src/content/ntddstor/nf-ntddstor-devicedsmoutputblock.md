@@ -2,6 +2,7 @@
 UID: NF:ntddstor.DeviceDsmOutputBlock
 title: DeviceDsmOutputBlock function (ntddstor.h)
 description: The DeviceDsmOutputBlock function gets the output block of a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
+tech.root: storage
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
 ms.date: 04/11/2018
 ms.topic: function

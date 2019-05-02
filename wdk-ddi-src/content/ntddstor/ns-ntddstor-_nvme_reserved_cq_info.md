@@ -4,6 +4,7 @@ title: _NVME_RESERVED_CQ_INFO (ntddstor.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 
+tech.root: storage
 ms.assetid: b13e73e2-1d4f-42b9-b33a-5b51bbcee311
 ms.date: 10/19/2018
 ms.topic: struct
