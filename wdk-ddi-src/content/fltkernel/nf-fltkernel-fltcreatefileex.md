@@ -5,7 +5,7 @@ description: Minifilter drivers call FltCreateFileEx to create a new file or ope
 old-location: ifsk\fltcreatefileex.htm
 tech.root: ifsk
 ms.assetid: 83b672dd-26fc-4c22-815d-72143159983d
-ms.date: 04/16/2018
+ms.date: 04/26/2019
 ms.keywords: FltApiRef_a_to_d_3bc45f49-48cd-4c08-8906-09074f48e712.xml, FltCreateFileEx, FltCreateFileEx routine [Installable File System Drivers], fltkernel/FltCreateFileEx, ifsk.fltcreatefileex
 ms.topic: function
 req.header: fltkernel.h
@@ -891,6 +891,8 @@ As a pathname relative to the directory file represented by the handle in the <b
 Any <i>FileHandle</i> that is obtained from <b>FltCreateFileEx</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. In addition, any returned <i>FileObject</i> pointer must be dereferenced when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>. 
 
 Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>FltCreateFileEx</b>. Setting this attribute restricts the use of the handle that is returned by <b>FltCreateFileEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
+
+<div class="alert"><b>Note:</b> Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.</div>
 
 Certain <i>DesiredAccess</i> flags and combinations of flags have the following effects: 
 

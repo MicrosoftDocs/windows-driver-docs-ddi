@@ -121,10 +121,7 @@ A minifilter driver calls **FltQueryInformationFile** to retrieve information fo
 Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
 
 **NOTE:**
-
-Before calling this routine, call [IoGetTopLevelIrp](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp).  If **IoGetTopLevelIrp** returns a non-**NULL** value, do not call the routine as this can cause a system deadlock.
-
-
+Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.
 
 ## -see-also
 
