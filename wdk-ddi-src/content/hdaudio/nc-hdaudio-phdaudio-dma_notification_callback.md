@@ -28,16 +28,17 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
- - apiref
+- apiref
 api_type: 
- - UserDefined
+- UserDefined
 api_location: 
- - hdaudio.h
+- hdaudio.h
 api_name: 
- - PHDAUDIO_DMA_NOTIFICATION_CALLBACK
+- PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 product: 
- - Windows
+- Windows
 targetos: Windows
+ms.custom: 19H1
 ---
 
 # PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function
@@ -89,4 +90,4 @@ Returns VOID.
 
 ## -see-also
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

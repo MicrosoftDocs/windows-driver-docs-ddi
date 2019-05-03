@@ -85,9 +85,10 @@ The file handle that the <b>WdfIoTargetWdmGetTargetFileHandle</b> method returns
 
 If the driver attempts to access the WDM device object after it has been removed, the driver can cause the system to crash.  The <a href="https://go.microsoft.com/fwlink/p/?linkid=251907">toastmon</a> sample demonstrates how the driver can provide an <a href="https://msdn.microsoft.com/cb7c97e5-081e-44fc-a759-9a1ae81de41c">EvtIoTargetQueryRemove</a> callback function so that it is notified if the I/O target is removed.
 
-For UMDF, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a Win32 HANDLE valid only in the current process.
+For UMDF, <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a Win32 HANDLE valid only in the current process. A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then opens a handle to it with <b>CreateFile</b>. The driver can then send I/O directly to the lower device(s) using <b>DeviceIoControl</b>. Starting in UMDF 2.15, UMDF v2 drivers can open the local I/O target by file (WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE) and retrieve the file handle using [**WdfIoTargetWdmGetTargetFileHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle). The framework opens and closes the file handle when the remote target is closed or deleted. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b> described above.
 
-If the driver specifies NULL for <i>FileName</i> when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/dn265641">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>,  <b>WdfIoTargetWdmGetTargetFileHandle</b> returns a non-NULL handle.
+> [!WARNING]
+> If a UMDF v2 driver calls [**WdfIoTargetWdmGetTargetFileHandle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetwdmgettargetfilehandle) to obtain the Win32 handle from a remote target opened using WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, do not submit overlapped/asynchronous I/O with APIs like **DeviceIoControl**. Doing so can crash the process hosting the driver. If the driver must submit overlapped I/O, it must also set the low-order bit of the **hEvent** member of the **OVERLAPPED** structure. This is because the framework internally binds the handle to an I/O completion port. A valid event handle whose low-order bit is set keeps I/O completion from being queued to the completion port.
 
 For more information about <b>WdfIoTargetWdmGetTargetFileHandle</b>, see <a href="https://msdn.microsoft.com/70ae920e-de2d-4014-bae4-74058b26e7c0">Obtaining Information About a General I/O Target</a>. 
 
@@ -110,7 +111,7 @@ h = WdfIoTargetWdmGetTargetFileHandle(IoTarget);</pre>
 </td>
 </tr>
 </table></span></div>
-A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff558841">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then open a handle to it with <b>CreateFile</b>. The driver then sends I/O directly to the device using <b>DeviceIoControl</b>.
+A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then open a handle to it with <b>CreateFile</b>. The driver then sends I/O directly to the device using <b>DeviceIoControl</b>.
 
 Starting in UMDF 2.15, the driver opens the local I/O target by file and retrieves its handle. The framework opens and closes the file handle. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b>.
 
@@ -158,6 +159,7 @@ if (ioTarget != NULL) {
     WdfIoTargetClose(ioTarget);
 }
 // You can now call DeviceIoControl(handle, ...) etc.
+// NOTE: See Warning above on submitting overlapped or asynchronous I/O
 </pre>
 </td>
 </tr>

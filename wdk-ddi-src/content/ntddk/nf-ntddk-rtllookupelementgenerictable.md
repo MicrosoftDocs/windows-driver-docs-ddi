@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: "< DISPATCH_LEVEL (see Remarks section)"
+req.irql: "See Remarks section."
 topic_type:
 - APIRef
 - kbSyntax
@@ -42,81 +42,54 @@ req.typenames:
 
 # RtlLookupElementGenericTable function
 
-
 ## -description
 
-
-The <b>RtlLookupElementGenericTable</b> routine searches a generic table for an element that matches the specified data. 
-
+The **RtlLookupElementGenericTable** routine searches a generic table for an element that matches the specified data.
 
 ## -parameters
 
+### -param Table
 
+Pointer to the generic table ([RTL_GENERIC_TABLE](ns-ntddk-_rtl_generic_table.md)). The table must have been initialized by calling **RtlInitializeGenericTable**.
 
+### -param Buffer
 
-### -param Table [in]
-
-Pointer to the generic table (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlInitializeGenericTable</b>.
-
-
-### -param Buffer [in]
-
-A buffer of search data to pass to the <i>CompareRoutine</i> that was registered when <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a> initialized the generic table. For more information, see the description of <b>RtlInitializeGenericTable</b>.
-
+A buffer of search data to pass to the *CompareRoutine* that was registered when [RtlInitializeGenericTable](nf-ntddk-rtlinitializegenerictable.md) initialized the generic table. For more information, see the description of **RtlInitializeGenericTable**.
 
 ## -returns
 
-
-
-<b>RtlLookupElementGenericTable</b> returns a pointer to the caller-supplied data for the desired element in the generic table. It returns <b>NULL</b> if the generic table currently has no elements or if no matching element is found. 
-
-
-
+**RtlLookupElementGenericTable** returns a pointer to the caller-supplied data for the desired element in the generic table. It returns **NULL** if the generic table currently has no elements or if no matching element is found.
 
 ## -remarks
 
+If a matching element is found, **RtlLookupElementGenericTable** rebalances the generic table's splay tree.
 
+Callers of the Rtl..GenericTable routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose.
 
-If a matching element is found, <b>RtlLookupElementGenericTable</b> rebalances the generic table's splay tree.
+By default, the operating system uses splay trees to implement generic tables. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *ntddk.h*:
 
-Callers of the Rtl..GenericTable routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
-
-By default, the operating system uses splay trees to implement generic tables. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including <i>Ntddk.h</i>:
-
+```
 #define RTL_USE_AVL_TABLES 0
+```
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <b>RtlLookupElementGenericTableAvl</b> routine instead of <b>RtlLookupElementGenericTable</b>. In the call to <b>RtlLookupElementGenericTableAvl</b>, the caller must pass a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a> table structure rather than <a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>.
+If you do not define RTL_USE_AVL_TABLES as specified above, you must use the AVL form of the generic table routines. For example, use the [RtlLookupElementGenericTableAvl](nf-ntddk-rtllookupelementgenerictableavl.md) routine instead of **RtlLookupElementGenericTable**. In the call to **RtlLookupElementGenericTableAvl**, the caller must pass a [RTL_AVL_TABLE](ns-ntddk-_rtl_avl_table.md) table structure rather than [RTL_GENERIC_TABLE](ns-ntddk-_rtl_generic_table.md).
 
-Callers of <b>RtlLookupElementGenericTable</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
+Callers of **RtlLookupElementGenericTable** must be running at IRQL < DISPATCH_LEVEL if either of the following conditions holds:
 
-<ul>
-<li>
-The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.
+* The caller-allocated memory at *Table* or at *Buffer* is pageable.
 
-</li>
-<li>
-The caller-supplied <i>CompareRoutine</i> contains pageable code. 
+* The caller-supplied *CompareRoutine* contains pageable code.
 
-</li>
-</ul>
-
-
+Otherwise, callers of **RtlLookupElementGenericTable** can run at IRQL <= DISPATCH_LEVEL when using non-paged memory or code.
 
 ## -see-also
 
+[RTL_AVL_TABLE](ns-ntddk-_rtl_avl_table.md)
 
+[RTL_GENERIC_TABLE](ns-ntddk-_rtl_generic_table.md)
 
+[RtlInitializeGenericTable](nf-ntddk-rtlinitializegenerictable.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
+[RtlIsGenericTableEmpty](nf-ntddk-rtlisgenerictableempty.md)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553046">RtlIsGenericTableEmpty</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553134">RtlNumberGenericTableElements</a>
- 
-
- 
-
+[RtlNumberGenericTableElements](nf-ntddk-rtlnumbergenerictableelements.md)

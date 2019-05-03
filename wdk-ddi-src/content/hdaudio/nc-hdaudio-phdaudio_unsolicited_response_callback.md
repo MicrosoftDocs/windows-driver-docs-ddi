@@ -95,4 +95,4 @@ The HD Audio bus driver calls the callback routine at PASSIVE_LEVEL.
 
 ## -see-also
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)

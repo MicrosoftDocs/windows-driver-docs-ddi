@@ -7,15 +7,13 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: audio
 ---
 
 # eventdetectoroemadapter.h header
 
-
 ## -description
-
 
 This header is used by audio driver technologies. For more information, see:
 

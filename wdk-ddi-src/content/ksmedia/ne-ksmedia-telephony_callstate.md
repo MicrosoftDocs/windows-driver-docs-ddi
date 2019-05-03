@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_25
+UID: NE:ksmedia.__unnamed_enum_26
 title: TELEPHONY_CALLSTATE (ksmedia.h)
 description: The TELEPHONY_CALLSTATE enumeration defines constants that specify the state of a phone call.
 old-location: audio\telephony_callstate.htm

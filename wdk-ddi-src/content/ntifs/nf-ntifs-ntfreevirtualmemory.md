@@ -5,7 +5,7 @@ description: The ZwFreeVirtualMemory routine releases, decommits, or both, a reg
 old-location: kernel\zwfreevirtualmemory.htm
 tech.root: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
-ms.date: 04/30/2018
+ms.date: 04/26/2019
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 ms.topic: function
 req.header: ntifs.h
@@ -62,16 +62,15 @@ A handle for the process in whose context the pages to be freed reside. Use the 
 
 ### -param BaseAddress [in, out]
 
-A pointer to a variable that will receive the virtual address of the freed region of pages. 
+A pointer to a variable that will receive the virtual address of the freed region of pages.
 
-If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">NtAllocateVirtualMemory</a> when the region was reserved.
-
+If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>*BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">NtAllocateVirtualMemory</a> when the region was reserved.
 
 ### -param RegionSize [in, out]
 
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
-If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, the variable pointed to by <i>RegionSize</i> must be zero. <b>NtFreeVirtualMemory</b> frees the entire region that was reserved in the initial allocation call to <b>NtAllocateVirtualMemory</b>.
+If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>*RegionSize</i> must be zero. <b>NtFreeVirtualMemory</b> frees the entire region that was reserved in the initial allocation call to <b>NtAllocateVirtualMemory</b>.
 
 If the MEM_DECOMMIT flag is set in the <i>FreeType</i> parameter, <b>NtFreeVirtualMemory</b> decommits all memory pages that contain one or more bytes in the range from the <i>BaseAddress</i> parameter to (<i>BaseAddress</i> + *<i>RegionSize</i>). This means, for example, that if a two-byte region of memory straddles a page boundary, both pages are decommitted.
 

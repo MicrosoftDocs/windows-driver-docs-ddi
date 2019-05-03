@@ -104,17 +104,17 @@ UsbLowerFilter_GetAttachAction(
     PdcpContext = DeviceGetUsbLowerFilterContext((WDFDEVICE)Context);
 
     // Clear the event
-    KeClearEvent(&amp;PdcpContext-&gt;AbortAttachOperation);
+    KeClearEvent(&PdcpContext->AbortAttachOperation);
 
     // Wait for a while
-    Timeout.QuadPart = WDF_REL_TIMEOUT_IN_MS(PdcpContext-&gt;DetectionDelayInms);
+    Timeout.QuadPart = WDF_REL_TIMEOUT_IN_MS(PdcpContext->DetectionDelayInms);
 
     Status = KeWaitForSingleObject(
-        &amp;PdcpContext-&gt;AbortAttachOperation,
+        &PdcpContext->AbortAttachOperation,
         Executive,
         KernelMode,
         FALSE,
-        &amp;Timeout);
+        &Timeout);
 
     switch (Status)
     {
@@ -133,8 +133,8 @@ UsbLowerFilter_GetAttachAction(
 
     if (NT_SUCCESS(Status))
     {
-        OnAttach-&gt;AttachAction = PdcpContext-&gt;CurrentAttachAction;
-        OnAttach-&gt;PortType = PdcpContext-&gt;CurrentPortType;
+        OnAttach->AttachAction = PdcpContext->CurrentAttachAction;
+        OnAttach->PortType = PdcpContext->CurrentPortType;
     }
 
     return Status;

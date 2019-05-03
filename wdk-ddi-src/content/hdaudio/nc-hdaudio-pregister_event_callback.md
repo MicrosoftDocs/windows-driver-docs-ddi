@@ -159,6 +159,6 @@ The first call parameter is a structure of type <a href="https://msdn.microsoft.
 <a href="https://msdn.microsoft.com/698017a0-13d5-4ed5-a1ce-1a50a62135e0">UnregisterEventCallback</a>
  
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)
  
 

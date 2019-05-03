@@ -100,6 +100,6 @@ A pointer to a kernel event that was previously registered for DMA progress noti
 <a href="https://msdn.microsoft.com/44702d79-80ac-411f-ae47-bf60b9cb541d">RegisterNotificationEvent</a>
  
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)
  
 

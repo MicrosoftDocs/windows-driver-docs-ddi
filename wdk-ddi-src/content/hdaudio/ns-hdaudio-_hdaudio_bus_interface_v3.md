@@ -25,15 +25,17 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HDAUDIO_BUS_INTERFACE_V3, *PHDAUDIO_BUS_INTERFACE_V3
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	hdaudio.h
+- hdaudio.h
 api_name: 
--	_HDAUDIO_BUS_INTERFACE_V3
-product: Windows
+- _HDAUDIO_BUS_INTERFACE_V3
+product: 
+- Windows
 targetos: Windows
+ms.custom: 19H1 
 ---
 
 # _HDAUDIO_BUS_INTERFACE_V3 structure
@@ -127,4 +129,4 @@ The names and definitions of the first five members of the HDAUDIO_BUS_INTERFACE
 
 [IRP_MN_QUERY_INTERFACE IOCTL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface)
 
-[hdaudio.h header](hdaudio.md)
+[hdaudio.h](../hdaudio/index.md)
