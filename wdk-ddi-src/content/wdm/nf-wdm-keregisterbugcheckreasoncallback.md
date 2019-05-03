@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeRegisterBugCheckReasonCallback
 title: KeRegisterBugCheckReasonCallback function (wdm.h)
-description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check.
+description: The KeRegisterBugCheckReasonCallback routine registers a KbCallbackDumpIo, KbCallbackSecondaryDumpData, or KbCallbackAddPages routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
 ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
@@ -44,9 +44,7 @@ req.typenames:
 
 ## -description
 
-The <b>KeRegisterBugCheckReasonCallback</b> routine registers one of the 
-
-defined in routine, which executes when the operating system issues a bug check.
+The <b>KeRegisterBugCheckReasonCallback</b> function registers one of the callback routines defined in defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a> enumeration, which executes when the operating system issues a bug check.
 
 ## -parameters
 
@@ -66,11 +64,16 @@ Specifies the type of callback routine that <i>CallbackRoutine</i> points to. Se
 <table>
 <tr>
 <th>Value</th>
+<th>Data Structure</th>
 </tr>
 
 <tr>
 <td>
 <b>KbCallbackAddPages</b>
+</td>
+<td>
+<b><b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_add_pages">KBUGCHECK_ADD_PAGES structure</a></b>
+</b>
 </td>
 </tr>
 
@@ -78,11 +81,17 @@ Specifies the type of callback routine that <i>CallbackRoutine</i> points to. Se
 <td>
 <b>KbCallbackDumpIo</b>
 </td>
+<td>
+<b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_dump_io">KBUGCHECK_DUMP_IO structure</a></b>
+</td>
 </tr>
 
 <tr>
 <td>
 <b>KbCallbackSecondaryDumpData</b>
+<td>
+<b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_secondary_dump_data">KBUGCHECK_SECONDARY_DUMP_DATA structure</a></b>
+</td>
 </td>
 </tr>
 
@@ -90,17 +99,26 @@ Specifies the type of callback routine that <i>CallbackRoutine</i> points to. Se
 <td>
 <b>KbCallbackSecondaryMultiPartDumpData</b>
 </td>
+<td>
+<b>KBUGCHECK_SECONDARY_DUMP_DATA_EX</b>
+</td>
 </tr>
 
 <tr>
 <td>
 <b>KbCallbackRemovePages</b>
 </td>
+<td>
+<b>KBUGCHECK_REMOVE_PAGES</b>
+</td>
 </tr>
 
 <tr>
 <td>
 <b>KbCallbackTriageDumpData</b>
+</td>
+<td>
+<b>KBUGCHECK_TRIAGE_DUMP_DATA</b>
 </td>
 </tr>
 
@@ -126,7 +144,7 @@ Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines tha
 
 Drivers can use the KeDeregisterBugCheckReasonCallback routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
-For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For information about how to implement these callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 To display secondary dump data, you can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=165501">.enumtag</a> command or the <a href="https://go.microsoft.com/fwlink/p/?linkid=165500">IDebugDataSpaces3::ReadTagged</a> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>.
 

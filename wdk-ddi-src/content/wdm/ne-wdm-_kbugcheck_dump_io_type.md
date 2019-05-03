@@ -62,7 +62,7 @@ Specifies that the crash dump data is part of the main body of the crash dump, s
 
 ### -field KbDumpIoSecondaryData
 
-Specifies that the crash dump data is data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> routine.
+Specifies that the crash dump data is data returned by a KbCallbackSecondaryDumpData routine.
 
 ### -field KbDumpIoComplete
 
