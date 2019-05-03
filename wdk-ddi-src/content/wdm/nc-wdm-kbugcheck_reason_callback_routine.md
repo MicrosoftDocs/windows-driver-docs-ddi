@@ -42,23 +42,17 @@ req.typenames:
 
 # KBUGCHECK_REASON_CALLBACK_ROUTINE callback function
 
-
 ## -description
-
 
 Driver-implemented callback functions that the system executes when it issues a bug check.
 
-The <i>BugCheckAddPagesCallback</i> routine adds one or more pages of data to the crash dump file when the operating system issues a bug check.
+The <i>KbCallbackAddPages</i> routine adds one or more pages of data to the crash dump file when the operating system issues a bug check.
 
 The <i>KbCallbackDumpIo</i> routine is executed each time the system writes data to a crash dump file.
 
-The <i>BugCheckSecondaryDumpDataCallback</i> routine provides data to the system to append to the crash dump file when the system issues a bug check.
-
+The <i>KbCallbackSecondaryDumpData</i> routine provides data to the system to append to the crash dump file when the system issues a bug check.
 
 ## -parameters
-
-
-
 
 ### -param Reason [in]
 
@@ -75,11 +69,9 @@ Specifies the reason for the call to the callback routine. This value can be one
 
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a> structure that the driver supplied when it registered this callback. For more information, see the description of the <i>CallbackRecord</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553105">KeRegisterBugCheckCallback</a>.
 
-
 ### -param ReasonSpecificData [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551839">KBUGCHECK_ADD_PAGES</a> structure. This pointer is cast to type PVOID. Certain members of this structure are filled in by the operating system before it calls the callback routine, and other members must be filled in by the callback routine. For more information, see the following Remarks section.
-
 
 ### -param ReasonSpecificDataLength [in]
 
@@ -97,7 +89,8 @@ None.
 
 ## -remarks
 
-For information about how to implment this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551839">KBUGCHECK_ADD_PAGES</a>

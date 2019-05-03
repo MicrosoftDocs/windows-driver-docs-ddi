@@ -5,7 +5,7 @@ description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDu
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
 ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
-ms.date: 04/30/2018
+ms.date: 05/03/2018
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
 ms.topic: function
 req.header: wdm.h
@@ -42,17 +42,13 @@ req.typenames:
 
 # KeRegisterBugCheckReasonCallback function
 
-
 ## -description
 
+The <b>KeRegisterBugCheckReasonCallback</b> routine registers one of the 
 
-The <b>KeRegisterBugCheckReasonCallback</b> routine registers a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540669">BugCheckAddPagesCallback</a> routine, which executes when the operating system issues a bug check.
-
+defined in routine, which executes when the operating system issues a bug check.
 
 ## -parameters
-
-
-
 
 ### -param CallbackRecord [out]
 
@@ -61,20 +57,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param CallbackRoutine [in]
 
-A pointer to the callback routine to register. This parameter points to one of the following types of driver-implemented routine: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540669">BugCheckAddPagesCallback</a>
-
-
+A pointer to the callback routine to register. This parameter points to one of the types of driver-implemented routine defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551847">KBUGCHECK_CALLBACK_REASON</a> enumeration. For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ### -param Reason [in]
 
@@ -83,117 +66,80 @@ Specifies the type of callback routine that <i>CallbackRoutine</i> points to. Se
 <table>
 <tr>
 <th>Value</th>
-<th>Callback routine</th>
 </tr>
-<tr>
-<td>
-<b>KbCallbackDumpIo</b>
 
-</td>
-<td>
-<i>BugCheckDumpIoCallback</i>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>KbCallbackSecondaryDumpData</b>
-
-</td>
-<td>
-<i>BugCheckSecondaryDumpDataCallback</i>
-
-</td>
-</tr>
 <tr>
 <td>
 <b>KbCallbackAddPages</b>
-
-</td>
-<td>
-<i>BugCheckAddPagesCallback</i>
-
 </td>
 </tr>
-</table>
- 
 
+<tr>
+<td>
+<b>KbCallbackDumpIo</b>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>KbCallbackSecondaryDumpData</b>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>KbCallbackSecondaryMultiPartDumpData</b>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>KbCallbackRemovePages</b>
+</td>
+</tr>
+
+<tr>
+<td>
+<b>KbCallbackTriageDumpData</b>
+</td>
+</tr>
+
+</table>
 
 ### -param Component [in]
 
 A pointer to a null-terminated ANSI string that identifies the caller. For example, you can select a string that describes the device driver, or that contains the device name. You can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562171">!bugdump</a> debugger extension to display the crash dump data that is associated with this string.
 
-
 ## -returns
-
-
 
 <b>KeRegisterBugCheckReasonCallback</b> returns <b>TRUE</b> if the callback routine is successfully registered; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines that execute during a system bug check.
 
+**KbCallbackDumpIo** routines are called each time data is written to the crash dump file. Drivers for devices that monitor the system state can register a <i>KbCallbackDumpIo</i> routine to copy the crash dump data to the monitoring device.
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a> routines are called each time data is written to the crash dump file. Drivers for devices that monitor the system state can register a <i>BugCheckDumpIoCallback</i> routine to copy the crash dump data to the monitoring device.
+**KbCallbackSecondaryDumpData** routines are called to poll drivers for any device-specific information that should be added to the secondary data area of a crash dump file.
 
+**KbCallbackAddPages** routines are called to enable drivers to add pages of driver-specific data to the primary data area of a crash dump file. They are supported in Windows Server 2008 and later versions of Windows.
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> routines are called to poll drivers for any device-specific information that should be added to the secondary data area of a crash dump file.
+Drivers can use the KeDeregisterBugCheckReasonCallback routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540669">BugCheckAddPagesCallback</a> routines are called to enable drivers to add pages of driver-specific data to the primary data area of a crash dump file. <i>BugCheckAddPagesCallback</i> routines are supported in Windows Server 2008 and later versions of Windows.
-
-Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552003">KeDeregisterBugCheckReasonCallback</a> routine to remove the <i>BugCheckXxxCallback</i> registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
+For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 To display secondary dump data, you can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=165501">.enumtag</a> command or the <a href="https://go.microsoft.com/fwlink/p/?linkid=165500">IDebugDataSpaces3::ReadTagged</a> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540669">BugCheckAddPagesCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540674">BugCheckCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551847">KBUGCHECK_CALLBACK_REASON</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551873">KBUGCHECK_REASON_CALLBACK_RECORD</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552003">KeDeregisterBugCheckReasonCallback</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553105">KeRegisterBugCheckCallback</a>
- 
-
- 
-
