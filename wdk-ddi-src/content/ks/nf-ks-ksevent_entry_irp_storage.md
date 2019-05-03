@@ -50,8 +50,10 @@ This macro retrieves a pointer to the [KSEVENT_ENTRY](https://docs.microsoft.com
 
 ### -param Irp
 
-Contains a pointer to a KSEVENT_ENTRY structure. The macro is defined as follows:
+Contains a pointer to a KSEVENT_ENTRY structure.
+
+The macro is defined as follows:
 
 ```cpp
-(*(PKSEVENT_ENTRY*)&(Irp)->Tail.Overlay.DriverContext[0])
+#define KSEVENT_ENTRY_IRP_STORAGE(Irp)   (*(PKSEVENT_ENTRY*)&(Irp)->Tail.Overlay.DriverContext[0])
 ```
