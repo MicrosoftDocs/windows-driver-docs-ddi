@@ -5,7 +5,7 @@ description: The KBUGCHECK_DUMP_IO_TYPE enumeration type identifies the type of 
 old-location: kernel\kbugcheck_dump_io_type.htm
 tech.root: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
-ms.date: 04/30/2018
+ms.date: 05/02/2019
 ms.keywords: KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoBody, KbDumpIoComplete, KbDumpIoHeader, KbDumpIoInvalid, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, wdm/KbDumpIoComplete, wdm/KbDumpIoHeader, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData
 ms.topic: enum
 req.header: wdm.h
@@ -42,69 +42,40 @@ req.typenames: KBUGCHECK_DUMP_IO_TYPE
 
 # _KBUGCHECK_DUMP_IO_TYPE enumeration
 
-
 ## -description
-
 
 The <b>KBUGCHECK_DUMP_IO_TYPE</b> enumeration type identifies the type of a section of data within a crash dump file.
 
-
 ## -enum-fields
-
-
-
 
 ### -field KbDumpIoInvalid
 
 Reserved for system use. Do not use.
 
-
 ### -field KbDumpIoHeader
 
 Specifies that crash dump data is header information.
-
 
 ### -field KbDumpIoBody
 
 Specifies that the crash dump data is part of the main body of the crash dump, such as the memory state at the time of the bug check.
 
-
 ### -field KbDumpIoSecondaryData
 
 Specifies that the crash dump data is data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> routine.
-
 
 ### -field KbDumpIoComplete
 
 Specifies that the crash dump data has been completely written.
 
-
 ## -remarks
-
-
 
 <b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
 
-For more information about how this enumeration type is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>.
-
-
-
+ For more information about this type of callback, see "Implementing KbCallbackDumpIo Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a>
- 
-
- 
-
