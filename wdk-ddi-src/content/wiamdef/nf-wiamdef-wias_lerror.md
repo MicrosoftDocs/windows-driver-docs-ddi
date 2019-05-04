@@ -42,95 +42,42 @@ req.typenames:
 
 # WIAS_LERROR macro
 
-
 ## -description
 
-
-The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a> macro be used instead.
+The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
 
 The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
-
 ## -parameters
-
-
-
 
 ### -param pILog
 
-
-
-
 ### -param ResID
-
-
-
 
 ### -param Args
 
+- **format_string, ...** - Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
+- **lResId** - Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
-
-
-
-
-
-####### - format_string, ...
-
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
-
-
-#### - lResId
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
-#### - pIWiaLog
-
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543935">IWiaLog Interface</a>.
-
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwialog).
 
 ## -remarks
 
-
-
 The following is an example of how the macro can be used:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WIAS_LERROR(g_pIWiaLog, WIALOG_NO_RESOURCE_ID,
-("MyClass::MyMethod, This is my text and my lValue = %d", lValue));</pre>
-</td>
-</tr>
-</table></span></div>
-The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the <i>Wiatrace.log </i>diagnostic log file. It is recommended that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a> macro be used instead. 
+```cpp
+WIAS_LERROR(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
+```
 
-
-
+The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
 
 ## -see-also
 
+[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error)
 
+[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lhresult)
 
+[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_ltrace)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549589">WIAS_LHRESULT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549610">WIAS_LWARNING</a>
- 
-
- 
-
+[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lwarning)
