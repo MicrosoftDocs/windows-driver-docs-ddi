@@ -1,12 +1,12 @@
 ---
 UID: NF:wdm.ObfReferenceObject
 title: ObfReferenceObject function (wdm.h)
-description: The ObReferenceObject routine increments the reference count to the given object.
+description: The ObfReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
 tech.root: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.date: 04/30/2018
-ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
+ms.keywords: ObfReferenceObject, ObfReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>ObReferenceObject</b> routine increments the reference count to the given object. 
+The <b>ObfReferenceObject</b> routine increments the reference count to the given object. 
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Pointer to the object. The caller obtained this parameter either when it created
 
 
 
-<b>ObReferenceObject</b> returns a value that is reserved for system use. Drivers must treat this value as VOID. 
+<b>ObfReferenceObject</b> returns a value that is reserved for system use. Drivers must treat this value as VOID. 
 
 
 
@@ -73,9 +73,9 @@ Pointer to the object. The caller obtained this parameter either when it created
 
 
 
-<b>ObReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a> do. 
+<b>ObfReferenceObject</b> simply increments the pointer reference count for an object, without making any access checks on the given object, as <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a> do. 
 
-<b>ObReferenceObject</b> prevents deletion of the object at least until the driver subsequently calls its reciprocal, <b>ObDereferenceObject</b>, or closes the given object. The caller must decrement the reference count with <b>ObDereferenceObject</b> as soon as it is done with the object. 
+<b>ObfReferenceObject</b> prevents deletion of the object at least until the driver subsequently calls its reciprocal, <b>ObDereferenceObject</b>, or closes the given object. The caller must decrement the reference count with <b>ObDereferenceObject</b> as soon as it is done with the object. 
 
 When the reference count for an object reaches zero, a kernel-mode component can remove the object from the system. However, a driver can remove only those objects that it created, and a driver should never attempt to remove any object that it did not create. 
 
