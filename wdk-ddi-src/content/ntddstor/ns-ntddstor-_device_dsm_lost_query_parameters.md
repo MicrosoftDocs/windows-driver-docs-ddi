@@ -2,6 +2,7 @@
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_PARAMETERS
 title: _DEVICE_DSM_LOST_QUERY_PARAMETERS (ntddstor.h)
 description: 
+tech.root: storage
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
 ms.date: 10/19/2018
 ms.topic: struct

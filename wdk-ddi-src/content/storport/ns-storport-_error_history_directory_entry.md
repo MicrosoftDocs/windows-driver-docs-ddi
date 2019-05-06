@@ -2,6 +2,7 @@
 UID: NS:storport._ERROR_HISTORY_DIRECTORY_ENTRY
 title: _ERROR_HISTORY_DIRECTORY_ENTRY (storport.h)
 description: 
+tech.root: storage
 ms.assetid: e6add652-526e-47e3-afd2-6350a0440413
 ms.date: 10/19/2018
 ms.topic: struct
