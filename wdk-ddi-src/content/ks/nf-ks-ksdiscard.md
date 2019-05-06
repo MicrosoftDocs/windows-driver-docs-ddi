@@ -43,62 +43,36 @@ req.typenames:
 
 # KsDiscard macro
 
-
 ## -description
 
-
-The<b> KsDiscard </b>macro removes a given item from an object bag.
-
+The **KsDiscard**macro removes a given item from an object bag.
 
 ## -parameters
 
-
-
-
 ### -param Object [in]
 
-The item pointed to by <i>Pointer</i> is removed from the object bag associated with this object. Can be of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>.
-
+The item pointed to by *Pointer* is removed from the object bag associated with this object. Can be of type [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice), [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory), [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter), or [KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin).
 
 ### -param Pointer [in]
 
 A pointer to the item to be removed from the requested object's bag.
 
-
 ## -remarks
 
+This macro wraps and assumes the return value of [KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksremoveitemfromobjectbag), which is **ULONG**.
 
+This function is implemented as a C-style preprocessing macro in the *Ks.h* header.
 
-This function is implemented as a C-style preprocessing macro in the <i>Ks.h</i> header.
-
-<b>KsDiscard</b> calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>, passing the object bag associated with <i>Object</i> (<i>Object -&gt; Bag</i>), the item specified by <i>Pointer</i>, and <b>TRUE</b> for the <i>Free</i> parameter. 
-
-
-
+**KsDiscard** calls **KsRemoveItemFromObjectBag**, passing the object bag associated with *Object* (*Object->Bag*), the item specified by *Pointer*, and **TRUE** for the *Free* parameter.
 
 ## -see-also
 
+[KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice)
 
+[KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter)
 
+[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+[KSPIN](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
- 
-
- 
-
+[KsRemoveItemFromObjectBag](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksremoveitemfromobjectbag)

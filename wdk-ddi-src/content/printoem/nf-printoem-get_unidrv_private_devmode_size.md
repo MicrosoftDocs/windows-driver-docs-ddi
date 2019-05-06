@@ -34,23 +34,28 @@ api_name:
 product: 
 -   Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
 # GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro
 
-
 ## -description
 
-
+Returns PScript5's private DEVMODE structure to allow its plugins to determine its size.
 
 ## -parameters
 
 ### -param pdm
 
+Contains the size of the private DEVMODE structure.
 
+The macro is defined as follows:
+
+```cpp
+#define GET_UNIDRV_PRIVATE_DEVMODE_SIZE(pdm) \
+    ( ( (pdm)->dmDriverExtra > (FIELD_OFFSET(UNIDRV_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
+        ((PUNIDRV_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)->dmSize))->wSize : 0 )
+```
 
 ## -remarks
 

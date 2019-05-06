@@ -42,17 +42,18 @@ req.typenames:
 
 # KSEVENT_ITEM_IRP_STORAGE macro
 
-
 ## -description
 
-
-This macro retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
-
+This macro retrieves a pointer to the [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item) structure stored in *Irp*.
 
 ## -parameters
 
-
-
-
 ### -param Irp
 
+Contains a pointer to a KSEVENT_ITEM structure.
+
+The macro is defined as follows:
+
+```cpp
+#define KSMETHOD_ITEM_IRP_STORAGE(Irp)  (*(const KSMETHOD_ITEM**)&(Irp)->Tail.Overlay.DriverContext[3])
+```

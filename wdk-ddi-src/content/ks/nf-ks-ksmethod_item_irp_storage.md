@@ -60,7 +60,7 @@ The pointer to a KSMETHOD_ITEM structure is extracted from `Irp->Tail.Overlay.Dr
 The macro is defined as follows:
 
 ```cpp
-#define KSMETHOD_ITEM_IRP_STORAGE(Irp)      (*(const KSMETHOD_ITEM**)&(Irp)->;Tail.Overlay.DriverContext[3])
+#define KSMETHOD_ITEM_IRP_STORAGE(Irp)  (*(const KSMETHOD_ITEM**)&(Irp)->;Tail.Overlay.DriverContext[3])
 ```
 
 ## -see-also

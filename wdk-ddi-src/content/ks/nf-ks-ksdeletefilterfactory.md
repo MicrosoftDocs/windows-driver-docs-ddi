@@ -42,42 +42,26 @@ req.typenames:
 
 # KsDeleteFilterFactory macro
 
-
 ## -description
 
-
-<b>KsDeleteFilterFactory</b> deletes a given filter factory.
-
+**KsDeleteFilterFactory** deletes a given filter factory.
 
 ## -parameters
 
-
-
-
 ### -param FilterFactory [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure that represents the filter factory to be deleted.
+A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory) structure that represents the filter factory to be deleted.
 
+## -return-value
+
+This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectcreateitemsbycontext), which is NTSTATUS.
 
 ## -see-also
 
+[KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory)
 
+[KsCreateFilterFactory](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatefilterfactory)
 
+[KsFilterFactoryAddCreateItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterfactoryaddcreateitem)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561650">KsCreateFilterFactory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562531">KsFilterFactoryAddCreateItem</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562539">KsFilterFactorySetDeviceClassesState</a>
- 
-
- 
-
+[KsFilterFactorySetDeviceClassesState](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterfactorysetdeviceclassesstate)

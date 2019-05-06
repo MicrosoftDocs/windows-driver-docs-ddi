@@ -42,88 +42,51 @@ req.typenames:
 
 # INIT_AVCSTRM_HEADER macro
 
-
 ## -description
 
-
-The <b>INIT_AVCSTRM_HEADER</b> macro initializes the <b>SizeOfThisBlock</b>, <b>Version</b> and <b>Function</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure.
-
+The **INIT_AVCSTRM_HEADER** macro initializes the **SizeOfThisBlock**, **Version** and **Function** members of the [AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avc_stream_request_block) structure.
 
 ## -parameters
-
-
-
 
 ### -param AVCStrm [in]
 
 Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
-
 ### -param Request [in]
 
-Indicates the type of the request (function code) from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a> enumeration. Each function code is documented under the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560778">IOCTL_AVCSTRM_CLASS</a> topic.
-
+Indicates the type of the request (function code) from the [AVCSTRM_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function) enumeration. Each function code is documented under the [IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ni-avcstrm-ioctl_avcstrm_class) topic.
 
 ## -remarks
 
-
-
 The macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define INIT_AVCSTRM_HEADER( AVCStrm, Request )             \
-        (AVCStrm)-&gt;SizeOfThisBlock = sizeof(AVC_STREAM_REQUEST_BLOCK); \
-        (AVCStrm)-&gt;Function = Request;                    \
-        (AVCStrm)-&gt;Version  = CURRENT_AVCSTRM_DDI_VERSION;</code></pre>
-
-
+```cpp
+#define INIT_AVCSTRM_HEADER( AVCStrm, Request ) \
+    (AVCStrm)->;SizeOfThisBlock = sizeof(AVC_STREAM_REQUEST_BLOCK); \
+    (AVCStrm)->;Function = Request;                    \
+    (AVCStrm)->;Version  = CURRENT_AVCSTRM_DDI_VERSION;
+```
 
 ## -see-also
 
+[AVCSTRM_ABORT_STREAMING](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-abort-streaming)
 
+[AVCSTRM_CLOSE](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-close)
 
+[AVCSTRM_GET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-property)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+[AVCSTRM_GET_STATE](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-state)
 
+[AVCSTRM_OPEN](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-open)
 
+[AVCSTRM_READ](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-read)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+[AVCSTRM_SET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-property)
 
+[AVCSTRM_SET_STATE](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-state)
 
+[AVCSTRM_WRITE](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-write)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+[AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avc_stream_request_block)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560778">IOCTL_AVCSTRM_CLASS</a>
- 
-
- 
-
+[IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ni-avcstrm-ioctl_avcstrm_class)

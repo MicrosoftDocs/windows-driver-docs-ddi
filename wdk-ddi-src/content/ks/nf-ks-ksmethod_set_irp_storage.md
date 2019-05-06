@@ -60,7 +60,7 @@ The pointer to a KSMETHOD_SET structure is extracted from `Irp->Tail.Overlay.Dri
 The macro is defined as follows:
 
 ```cpp
-#define KSMETHOD_SET_IRP_STORAGE(Irp)       (*(const KSMETHOD_SET**)&(Irp)->Tail.Overlay.DriverContext[0])
+#define KSMETHOD_SET_IRP_STORAGE(Irp)   (*(const KSMETHOD_SET**)&(Irp)->Tail.Overlay.DriverContext[0])
 ```
 
 ## -see-also
