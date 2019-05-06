@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_48
+UID: NS:ksmedia.__unnamed_struct_50
 title: KSWAVE_COMPATCAPS (ksmedia.h)
 description: The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 old-location: stream\kswave_compatcaps.htm
 tech.root: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, stream.kswave_compatcaps"
 ms.topic: struct
 req.header: ksmedia.h

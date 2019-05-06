@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_149
+UID: NS:ksmedia.__unnamed_struct_151
 title: KSPROPERTY_VIDEOCONTROL_MODE_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_MODE_S structure describes video-control modes for a stream, such as image flipping or event triggering abilities.
 old-location: stream\ksproperty_videocontrol_mode_s.htm
 tech.root: stream
 ms.assetid: ba6ac5ef-4153-479f-a1a9-b71d1d80786c
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_MODE_S, KSPROPERTY_VIDEOCONTROL_MODE_S, KSPROPERTY_VIDEOCONTROL_MODE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_MODE_S, PKSPROPERTY_VIDEOCONTROL_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_MODE_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_MODE_S, stream.ksproperty_videocontrol_mode_s, vidcapstruct_35950052-3872-4155-842f-b8615aa68234.xml"
 ms.topic: struct
 req.header: ksmedia.h

@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_89
+UID: NE:ksmedia.__unnamed_enum_90
 title: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY (ksmedia.h)
 description: This enumeration contains the property IDs defined for the per-frame property set.
 old-location: stream\ksproperty_cameracontrol_perframesetting_property.htm

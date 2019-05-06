@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_90
+UID: NE:ksmedia.__unnamed_enum_91
 title: KSCAMERA_PERFRAMESETTING_ITEM_TYPE (ksmedia.h)
 description: This enumeration contains the different item types for the per-frame settings DDI.
 old-location: stream\kscamera_perframesetting_item_type.htm
