@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.IoGetOplockKeyContextEx
 title: IoGetOplockKeyContextEx function (ntddk.h)
-description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
+description: The IoGetOplockKeyContextEx routine returns a dual oplock key context for a file object.
 old-location: ifsk\iogetoplockkeycontext.htm
 tech.root: ifsk
 ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
@@ -11,7 +11,7 @@ ms.topic: function
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: The IoGetOplockKeyContext routine is available starting with Windows 7.
+req.target-min-winverclnt: The IoGetOplockKeyContextEx routine is available starting with Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoGetOplockKeyContext</b> routine returns a target oplock key context for a file object.
+The <b>IoGetOplockKeyContext</b> routine returns a dual oplock key context for a file object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The file object to query for an oplock key context.
 
 
 
-An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a> structure containing the target oplock key for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i>  has no target oplock key.
+An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439448">OPLOCK_KEY_CONTEXT</a> structure containing the parent and target oplock keys for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i> has no oplock keys.
 
 
 
@@ -73,7 +73,7 @@ An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439325">IoGetOplockKeyContextEx</a> returns a dual oplock key context, it should be used in Windows 8 and later versions of Windows.
+On Windows 8 and later versions of Windows, use <b>IoGetOplockKeyContextEx</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogetoplockkeycontext">IoGetOplockKeyContext</a>, as the latter only returns a target oplock key context.
 
 
 
