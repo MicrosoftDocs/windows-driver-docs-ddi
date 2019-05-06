@@ -7,3 +7,4 @@ _themes*/
 .openpublishing.buildcore.ps1
 /.vs
 .vscode
+*.orig

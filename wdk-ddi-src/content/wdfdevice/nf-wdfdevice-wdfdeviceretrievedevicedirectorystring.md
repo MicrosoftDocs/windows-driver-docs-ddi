@@ -41,6 +41,7 @@ targetos: Windows
 
 
 ## -description
+[Applies to UMDF only]
 
 **WdfDeviceRetrieveDeviceDirectoryString** provides a path to a location on disk that can be used to persist information across reboots. 
 
