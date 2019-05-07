@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_101
+UID: NE:ksmedia.__unnamed_enum_102
 title: KS_CompressionCaps (ksmedia.h)
 description: The KS_CompressionCaps enumeration defines compression capabilities of a device.
 old-location: stream\ks_compressioncaps.htm

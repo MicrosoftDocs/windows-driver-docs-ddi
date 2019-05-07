@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_150
+UID: NS:ksmedia.__unnamed_struct_152
 title: KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure describes actual frame rate information in response to KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE property requests.
 old-location: stream\ksproperty_videocontrol_actual_frame_rate_s.htm
 tech.root: stream
 ms.assetid: 98b6c085-d7d0-47e4-acea-a272487f20c2
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, stream.ksproperty_videocontrol_actual_frame_rate_s, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml"
 ms.topic: struct
 req.header: ksmedia.h

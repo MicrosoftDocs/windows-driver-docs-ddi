@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_124
+UID: NS:ksmedia.__unnamed_struct_126
 title: KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER (ksmedia.h)
 description: This structure contains the header information for a per-frame settings item.
 old-location: stream\kscamera_perframesetting_cap_item_header.htm
 tech.root: stream
 ms.assetid: 6E68CACB-4E0E-41E4-BAB6-0B7ECEFA92F6
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_ITEM_HEADER, stream.kscamera_perframesetting_cap_item_header"
 ms.topic: struct
 req.header: ksmedia.h

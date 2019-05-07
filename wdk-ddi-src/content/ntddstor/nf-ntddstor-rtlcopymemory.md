@@ -2,6 +2,7 @@
 UID: NF:ntddstor.RtlCopyMemory
 title: RtlCopyMemory macro (ntddstor.h)
 description: The RtlCopyMemory routine copies the contents of a source memory block to a destination memory block.
+tech.root: storage
 ms.assetid: 0f83330e-b176-484e-a071-36a8ea4e00f8
 ms.date: 09/20/2018
 ms.topic: macro

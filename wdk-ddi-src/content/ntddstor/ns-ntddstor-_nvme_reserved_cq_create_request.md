@@ -2,6 +2,7 @@
 UID: NS:ntddstor._NVME_RESERVED_CQ_CREATE_REQUEST
 title: _NVME_RESERVED_CQ_CREATE_REQUEST (ntddstor.h)
 description: 
+tech.root: storage
 ms.assetid: 4861a8c9-346e-44ac-af68-1a7e0f915b6f
 ms.date: 10/19/2018
 ms.topic: struct

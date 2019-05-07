@@ -1,9 +1,9 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_15
+UID: NE:ksmedia.__unnamed_enum_14
 title: KSPROPERTY_RTAUDIO (ksmedia.h)
 description: KSPROPERTY_RTAUDIO enumerates the properties of a WaveRT audio device.
 ms.assetid: b9e2c60e-2a5f-4785-ab68-6e87a2a1385f
-ms.date: 09/28/2018
+ms.date: 04/30/2019
 ms.topic: enum
 ms.keywords: KSPROPERTY_RTAUDIO, KSPROPERTY_RTAUDIO, 
 req.header: ksmedia.h

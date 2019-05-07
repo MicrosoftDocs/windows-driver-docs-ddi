@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_97
+UID: NS:ksmedia.__unnamed_struct_99
 title: KSPROPERTY_TUNER_MODE_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner device.
 old-location: stream\ksproperty_tuner_mode_s.htm
 tech.root: stream
 ms.assetid: a3e443e5-1766-4292-a25a-ad673734bac1
-ms.date: 04/23/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S, KSPROPERTY_TUNER_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_S, PKSPROPERTY_TUNER_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_MODE_S, ksmedia/PKSPROPERTY_TUNER_MODE_S, stream.ksproperty_tuner_mode_s, vidcapstruct_fe1fe8d4-8abd-4db3-8438-ef7dddadfa5c.xml"
 ms.topic: struct
 req.header: ksmedia.h

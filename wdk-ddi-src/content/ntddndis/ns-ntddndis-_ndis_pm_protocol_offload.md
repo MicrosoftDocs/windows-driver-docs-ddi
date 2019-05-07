@@ -49,11 +49,44 @@ req.typenames: NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD
 The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure specifies parameters for a low power protocol offload to a
   network adapter.
 
+## -syntax
+
+```C++
+typedef struct _NDIS_PM_PROTOCOL_OFFLOAD {
+  NDIS_OBJECT_HEADER            Header;
+  ULONG                         Flags;
+  ULONG                         Priority;
+  NDIS_PM_PROTOCOL_OFFLOAD_TYPE ProtocolOffloadType;
+  NDIS_PM_COUNTED_STRING        FriendlyName;
+  ULONG                         ProtocolOffloadId;
+  ULONG                         NextProtocolOffloadOffset;
+  union {
+    struct {
+      ULONG Flags;
+      UCHAR RemoteIPv4Address[4];
+      UCHAR HostIPv4Address[4];
+      UCHAR MacAddress[6];
+    } IPv4ARPParameters;
+    struct {
+      ULONG Flags;
+      UCHAR RemoteIPv6Address[16];
+      UCHAR SolicitedNodeIPv6Address[16];
+      UCHAR MacAddress[6];
+      UCHAR TargetIPv6Addresses[2][16];
+    } IPv6NSParameters;
+    struct {
+      ULONG     Flags;
+      UCHAR     KCK[DOT11_RSN_KCK_LENGTH];
+      UCHAR     KEK[DOT11_RSN_KEK_LENGTH];
+      ULONGLONG KeyReplayCounter;
+    } Dot11RSNRekeyParameters;
+  } ProtocolOffloadParameters;
+  _PROTOCOL_OFFLOAD_PARAMETERS  _PROTOCOL_OFFLOAD_PARAMETERS;
+} NDIS_PM_PROTOCOL_OFFLOAD, *PNDIS_PM_PROTOCOL_OFFLOAD;
+```
+
 
 ## -struct-fields
-
-
-
 
 ### -field Header
 

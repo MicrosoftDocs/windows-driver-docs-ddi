@@ -1,11 +1,11 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_60
+UID: NS:ksmedia.__unnamed_struct_62
 title: KSNODEPROPERTY (ksmedia.h)
 description: The KSNODEPROPERTY structure specifies a node and a property of that node.
 old-location: audio\ksnodeproperty.htm
 tech.root: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
-ms.date: 05/08/2018
+ms.date: 04/30/2019
 ms.keywords: "*PKSNODEPROPERTY, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], PKSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, audio.ksnodeproperty, ksmedia/KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY"
 ms.topic: struct
 req.header: ksmedia.h

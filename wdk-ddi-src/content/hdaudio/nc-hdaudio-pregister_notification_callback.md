@@ -6,7 +6,7 @@ description: The RegisterNotificationCallback routine registers a callback routi
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
-ms.date: 02/01/2019 
+ms.date: 04/29/2019 
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,19 +73,19 @@ NTSTATUS PRegisterNotificationCallback
 
 ## -parameters
 
-### -param _context: 
+### -param _context 
 Specifies the context value from the Context member of the [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md) structure.
 
-### -param Handle: 
+### -param Handle 
 Handle that identifies the DMA engine. This handle value was obtained from a previous call to AllocateCaptureDmaEngine or AllocateRenderDmaEngine.
 
-### -param Fdo: 
+### -param Fdo 
 The FDO that owns the callback. The hdaudbus driver will take a reference on this FDO while the callback is registered to ensure the callback routine is valid.
 
-### -param NotificationCallback: 
+### -param NotificationCallback 
 The callback routine that will be called to notify the driver as DMA is progressing. Depending on the notification count parameter that is used with AllocateDmaBufferWithNotification, the registered event is signaled one or two times for every time that the DMA passes through the audio buffer.
 
-### -param CallbackContext: 
+### -param CallbackContext 
 Driver-specific context value for the callback routine.
 
 ## -returns
