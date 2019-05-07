@@ -66,7 +66,7 @@ The following is an example of how the macro can be used:
 WIAS_ERROR((g_hInst, "Failed to read (%ws) entry under %ws section of device registry",REG_ENTRY_STORAGEPATH,REG_ENTRY_DEVICEDATA));
 ```
 
-This code snippet was taken from *Wiadriver.cpp*, which is included with the WDK.
+This code snippet was taken from [Wiadriver.cpp](https://github.com/Microsoft/Windows-driver-samples/blob/master/wia/wiadriverex/usd/wiadriver.cpp), which is included with the Windows Image Acquisition (WIA) driver samples on GitHub.
 
 ## -see-also
 

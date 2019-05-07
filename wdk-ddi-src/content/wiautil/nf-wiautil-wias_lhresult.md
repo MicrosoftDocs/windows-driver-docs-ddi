@@ -42,84 +42,38 @@ req.typenames:
 
 # WIAS_LHRESULT macro
 
-
 ## -description
 
-
-The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a> macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
-
+The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the [WIAS_HRESULT]9https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 ## -parameters
 
-
-
-
 ### -param x
-
-
-
 
 ### -param y
 
+- **hr** - Specifies the HRESULT value to be translated into a string.
 
-
-
-
-
-
-
-#### - hr
-
-Specifies the HRESULT value to be translated into a string.
-
-
-#### - pIWiaLog
-
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543935">IWiaLog Interface</a>.
-
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwialog).
 
 ## -remarks
 
-
-
 The following is an example of how the macro can be used:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>hr = wiasFreePropContext(*pContext);
+```cpp
+hr = wiasFreePropContext(*pContext);
 if (hr != S_OK)
-   WIAS_LHRESULT(g_pIWiaLog, hr);</pre>
-</td>
-</tr>
-</table></span></div>
-The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a> macro be used instead. 
+   WIAS_LHRESULT(g_pIWiaLog, hr);
+```
 
-
-
+The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead.
 
 ## -see-also
 
+[WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult)
 
+[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror)
 
+[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_ltrace)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549610">WIAS_LWARNING</a>
- 
-
- 
-
+[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lwarning)
