@@ -31,7 +31,8 @@ apilocation:
 - wdm.h
 apiname: 
 -_KBUGCHECK_TRIAGE_DUMP_DATA
-product: Windows
+product: 
+- Windows
 targetos: Windows
 ---
 
