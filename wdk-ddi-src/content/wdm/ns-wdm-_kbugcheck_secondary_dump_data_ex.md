@@ -43,34 +43,90 @@ targetos: Windows
 ## -struct-fields
 
 ### -field InBuffer
+
+Pointer to a buffer that is allocated by the system.
  
 ### -field InBufferLength
+
+Specifies the size of the buffer, in bytes, specified by the InBuffer member.
  
 ### -field MaximumAllowed
- 
+
+Specifies the maximum amount of data that the BugCheck Callback routine can write to the crash dump file.
+
 ### -field Guid
- 
+
+Specifies a GUID that identifies the driver's crash dump data. (Drivers must use unique GUIDs to mark their crash dump data. Use the GuidGen.exe tool to generate GUIDs for your driver.
+
 ### -field OutBuffer
- 
+Pointer to the buffer where the driver writes its crash dump data, or <b>NULL</b>.
+
 ### -field OutBufferLength
- 
+
+Specifies the size of the buffer, in bytes, that was specified by the <b>OutBuffer</b> member.
+
 ### -field Context
- 
+
+Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, Context is NULL.
+
 ### -field Flags
+
+Contains flags that describe the add-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits: 
+
+#### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a virtual address.
+
+#### KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS
+
+Indicates that the <b>Address</b> member contains a physical address.
+
+#### KB_ADD_PAGES_FLAG_ADDITIONAL_RANGES_EXIST
+
+Indicates that the callback routine requests that it be called again so that it can add more pages.
+
+The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag or the KB_ADD_PAGES_FLAG_PHYSICAL_ADDRESS flag, but not both. On entry to the callback routine, <b>Flags</b> is initialized to zero.
  
 ### -field DumpType
+
+One of the following dump types.
+
+```cpp
+    DUMP_TYPE_INVALID           = -1,
+    DUMP_TYPE_UNKNOWN           = 0,
+    DUMP_TYPE_FULL              = 1,
+    DUMP_TYPE_SUMMARY           = 2,
+    DUMP_TYPE_HEADER            = 3,
+    DUMP_TYPE_TRIAGE            = 4,
+    DUMP_TYPE_BITMAP_FULL       = 5,
+    DUMP_TYPE_BITMAP_KERNEL     = 6,
+    DUMP_TYPE_AUTOMATIC         = 7
+```
  
 ### -field BugCheckCode
+
+Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
  
 ### -field BugCheckParameter1
- 
-### -field BugCheckParameter2
- 
-### -field BugCheckParameter3
- 
-### -field BugCheckParameter4
- 
 
+Bug Check Parameter 1. This value is set by ___________???
+
+### -field BugCheckParameter2
+
+Bug Check Parameter 2. This value is set by ___________???
+
+### -field BugCheckParameter3
+
+Bug Check Parameter 3. This value is set by ___________???
+
+### -field BugCheckParameter4
+
+Bug Check Parameter 4. This value is set by ___________???
+ 
 ## -remarks
 
+For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+
 ## -see-also
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

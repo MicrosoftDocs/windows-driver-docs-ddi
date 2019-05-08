@@ -42,64 +42,40 @@ req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA
 
 # _KBUGCHECK_SECONDARY_DUMP_DATA structure
 
-
 ## -description
-
 
 The <b>KBUGCHECK_SECONDARY_DUMP_DATA</b> structure describes a section of driver-supplied data to be written by <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a> to the crash dump file.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InBuffer
 
 Pointer to a buffer that is allocated by the system.
 
-
 ### -field InBufferLength
 
 Specifies the size of the buffer, in bytes, specified by the <b>InBuffer</b> member.
-
 
 ### -field MaximumAllowed
 
 Specifies the maximum amount of data that the <i>BugCheckSecondaryDumpDataCallback</i> routine can write to the crash dump file.
 
-
 ### -field Guid
 
 Specifies a GUID that identifies the driver's crash dump data. (Drivers must use unique GUIDs to mark their crash dump data. Use the GuidGen.exe tool to generate GUIDs for your driver. This tool is included in the Microsoft Windows SDK.)
-
 
 ### -field OutBuffer
 
 Pointer to the buffer where the driver writes its crash dump data, or <b>NULL</b>.
 
-
 ### -field OutBufferLength
 
 Specifies the size of the buffer, in bytes, that was specified by the <b>OutBuffer</b> member.
 
-
 ## -remarks
-
-
 
 For more information about how this structure is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
- 
-
- 
-
