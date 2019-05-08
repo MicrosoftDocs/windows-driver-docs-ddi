@@ -50,9 +50,13 @@ The number of block used.
 
 The total number of blocks.
  
-### -field VirtMemSize
+### -field DataSize
 
-The virtual memory size.
+The data size in bytes???.
+
+### -field MaxDataSize
+
+The maximum data size in bytes???.
  
 ### -field ComponentNameBufferLength
 
@@ -60,11 +64,11 @@ The ComponentName buffer length.
 
 ### -field ComponentName
 
-The  ComponentName.
+The  ComponentName that ___________???.
 
 ### -field Blocks
 
-Information pending.
+Information pending. ???
 
 ## -remarks
 
