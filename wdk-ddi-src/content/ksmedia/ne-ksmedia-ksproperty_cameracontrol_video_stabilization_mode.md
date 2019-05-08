@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_77
+UID: NE:ksmedia.__unnamed_enum_78
 title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE (ksmedia.h)
 description: Used to specify camera video stabilization.
 old-location: stream\ksproperty_cameracontrol_video_stabilization_mode.htm

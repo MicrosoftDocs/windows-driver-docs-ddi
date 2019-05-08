@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_76
+UID: NE:ksmedia.__unnamed_enum_77
 title: KSPROPERTY_CAMERACONTROL_FLASH (ksmedia.h)
 description: Used to specify camera flash control.
 old-location: stream\ksproperty_cameracontrol_flash.htm

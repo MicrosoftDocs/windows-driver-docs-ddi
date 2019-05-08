@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgeng.IDebugControl5
 title: IDebugControl5 (dbgeng.h)
-description: "."
+description: IDebugControl5 interface
 old-location: debugger\idebugcontrol5.htm
 tech.root: debugger
 ms.assetid: 6C358D49-970D-4687-B16E-7D1B44CB0A8E
