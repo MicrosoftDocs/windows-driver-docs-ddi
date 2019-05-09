@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
 ms.author: windowsdriverdev
-ms.date: 05/08/2019
+ms.date: 05/09/2019
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,11 +44,11 @@ targetos: Windows
 
 ### -field DataArray
 
-A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure.
+*Out* - A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure. This is the method the callback uses to provide the triage block data array that it created. 
 
 ### -field Flags
 
-A triage dump data flag such as:
+*In* - A triage dump data flag. Should always be set to:
 
 ```cpp
 KB_TRIAGE_DUMP_DATA_FLAG_BUGCHECK_ACTIVE 0x00000001
@@ -56,27 +56,27 @@ KB_TRIAGE_DUMP_DATA_FLAG_BUGCHECK_ACTIVE 0x00000001
 
 ### -field MaxVirtMemSize
 
-The maximum virtual memory size (in bytes?).
+*In* - The maximum virtual memory size in bytes is the maximum amount of memory the callback is allowed to add to the dump.
 
 ### -field BugCheckCode
 
-Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
- 
+*In* - Contains a bug check code, which specifies the reason for the bug check. This value informs the callback what the bugcheck code that was passed to KeBugcheckEx was. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
+
 ### -field BugCheckParameter1
 
-Bug Check Parameter 1. This value is set (or read) by ___________???
+*In* - Bug Check Parameter 1. The bug check parameters inform the callback what the bugcheck parameters that were passed to KeBugcheckEx were.
 
 ### -field BugCheckParameter2
 
-Bug Check Parameter 2. This value is set (or read) by ___________???
+*In* - Bug Check Parameter 2. The bug check parameters inform the callback what the bugcheck parameters that were passed to KeBugcheckEx were.
 
 ### -field BugCheckParameter3
 
-Bug Check Parameter 3. This value is set (or read) by ___________???
+*In* - Bug Check Parameter 3. The bug check parameters inform the callback what the bugcheck parameters that were passed to KeBugcheckEx were.
 
 ### -field BugCheckParameter4
 
-Bug Check Parameter 4. This value is set (or read) by ___________???
+*In* - Bug Check Parameter 4. The bug check parameters inform the callback what the bugcheck parameters that were passed to KeBugcheckEx were.
 
 ## -remarks
 
