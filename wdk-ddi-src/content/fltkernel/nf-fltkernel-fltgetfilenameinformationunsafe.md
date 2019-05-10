@@ -58,9 +58,9 @@ Instance pointer for the caller. This parameter can be set to **NULL**.
 
 ### -param NameOptions [in]
 
-A [FLT_FILE_NAME_OPTIONS](flt-file-name-options.md) value containing flags that specify the format of the name information to be returned, as well as the query method to be used by the Filter Manager. This parameter is required and cannot be set to **NULL**.
+A [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method to be used by the Filter Manager. This parameter is required and cannot be set to **NULL**.
 
-The following table describes the name format flag values. Only one of the flags can be specified. For more information about these formats, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544633">FLT_FILE_NAME_INFORMATION</a>.
+The following table describes the name format flag values. Only one of the flags can be specified. For more information about these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
 
 <table>
 <tr>
@@ -197,7 +197,7 @@ Unlike the **FltGetFileNameInformation** routine, **FltGetFileNameInformationUns
 
 * In a postoperation callback routine for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION.
 
-For Windows Vista / Server 2008 and later, if a minifilter does not yet have a filter instance, such as in its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize)] routine, it can use `NULL` for the *Instance* parameter. (*Instance* cannot be NULL on earlier operating systems.) This allows *DriverEntry* routines to access file name information. Except for this case, a `NULL` value for the instance parameter is reserved for system use.
+For Windows Vista / Server 2008 and later, if a minifilter does not yet have a filter instance, such as in its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize) routine, it can use `NULL` for the *Instance* parameter. This allows *DriverEntry* routines to access file name information. Except for this case, a `NULL` value for the instance parameter is reserved for system use.
 
 In create, hard-link, and rename operations, file name tunneling can invalidate the final component in normalized file name information that a minifilter driver retrieves in a preoperation callback routine. If a minifilter driver retrieves normalized file name information in a preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)) routine by calling a routine such as **FltGetFileNameInformationUnsafe**, it must call [FltGetTunneledName](nf-fltkernel-fltgettunneledname.md) from its postoperation callback ([PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)) routine to retrieve the correct file name information for the file.
 
