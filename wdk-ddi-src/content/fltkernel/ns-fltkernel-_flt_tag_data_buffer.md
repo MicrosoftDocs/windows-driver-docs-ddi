@@ -136,7 +136,7 @@ Pointer to a buffer that contains user-defined data for the reparse point.
 
 A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag.
 
-You can use the **GenericGUIDReparseBuffer** structure to interpret the payload for any **IO_REPARSE_TAG_*XXX*** tag, or optionally use one of the other structures within the union as follows:
+From the union, you can use the **GenericGUIDReparseBuffer** structure to interpret the payload for any **IO_REPARSE_TAG_*XXX*** tag, or optionally use one of the other structures within the union as follows:
 
 * Use the **GenericReparseBuffer** structure for any Microsoft-defined **IO_REPARSE_TAG_*XXX*** tag.
 
