@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_86
+UID: NE:ksmedia.__unnamed_enum_87
 title: KSCAMERA_MetadataId (ksmedia.h)
 description: This enumeration contains identifiers for a metadata item.
 old-location: stream\kscamera_metadataid.htm

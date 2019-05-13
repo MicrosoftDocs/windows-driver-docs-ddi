@@ -42,17 +42,18 @@ req.typenames:
 
 # KSEVENT_SET_IRP_STORAGE macro
 
-
 ## -description
 
-
-This macro retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561867">KSEVENT_SET</a> structure stored in <i>Irp</i>. This information is initialized only for basic support requests; it is not initialized for enable requests.
-
+This macro retrieves a pointer to the [KSEVENT_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_set) structure stored in *Irp*. This information is initialized only for basic support requests; it is not initialized for enable requests.
 
 ## -parameters
 
-
-
-
 ### -param Irp
 
+Contains a pointer to a KSEVENT_SET structure.
+
+The macro is defined as follows:
+
+```cpp
+#define KSMETHOD_SET_IRP_STORAGE(Irp)   (*(const KSMETHOD_SET**)&(Irp)->Tail.Overlay.DriverContext[0])
+```

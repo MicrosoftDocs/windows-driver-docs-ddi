@@ -120,6 +120,8 @@ If the driver supplies a time-out value, it should call <a href="https://msdn.mi
 
 A driver cannot call <b>WdfRequestSend</b> to send an I/O request to a USB pipe, if the driver has configured a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-pipes">continuous reader</a> for the pipe.
 
+When sending a request to a UMDF driver, a kernel-mode driver must follow the IRQL restrictions outlined in <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-drivers">Supporting Kernel-Mode Clients in UMDF Drivers</a>.
+
 For more information about <b>WdfRequestSend</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/forwarding-i-o-requests">Forwarding I/O Requests</a>.
 
 

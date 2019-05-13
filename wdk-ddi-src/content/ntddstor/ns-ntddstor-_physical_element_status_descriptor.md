@@ -2,6 +2,7 @@
 UID: NS:ntddstor._PHYSICAL_ELEMENT_STATUS_DESCRIPTOR
 title: _PHYSICAL_ELEMENT_STATUS_DESCRIPTOR (ntddstor.h)
 description: The PHYSICAL_ELEMENT_STATUS_DESCRIPTOR structure contains status information for a physical element.
+tech.root: storage
 ms.assetid: 60abea0f-4729-413f-909f-295bbf513cd2
 ms.date: 09/10/2018
 ms.topic: struct

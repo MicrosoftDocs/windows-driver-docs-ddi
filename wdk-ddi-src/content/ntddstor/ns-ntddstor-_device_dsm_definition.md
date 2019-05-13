@@ -2,6 +2,7 @@
 UID: NS:ntddstor._DEVICE_DSM_DEFINITION
 title: _DEVICE_DSM_DEFINITION (ntddstor.h)
 description: 
+tech.root: storage
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
 ms.date: 10/19/2018
 ms.topic: struct

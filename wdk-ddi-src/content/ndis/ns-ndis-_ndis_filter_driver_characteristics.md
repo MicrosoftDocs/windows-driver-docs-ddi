@@ -5,7 +5,7 @@ description: To specify its driver characteristics, a filter driver initializes 
 old-location: netvista\ndis_filter_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: 1eb2bae0-70b9-4bc0-9d93-4fc9467f9532
-ms.date: 11/08/2018
+ms.date: 05/03/2019
 ms.keywords: "*PNDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_DRIVER_CHARACTERISTICS, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics"
 ms.topic: struct
 req.header: ndis.h
@@ -239,6 +239,19 @@ NDIS 6.82
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt>83</dt>
+</dl>
+</td>
+<td width="60%">
+NDIS 6.83
+
+</td>
+</tr>
+
 </table>
  
 

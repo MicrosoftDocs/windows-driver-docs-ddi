@@ -42,61 +42,26 @@ req.typenames:
 
 # WIAS_HRESULT macro
 
-
 ## -description
 
-
-The WIAS_HRESULT macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
+The WIAS_HRESULT macro writes a diagnostic message to the *Wiatrace.log* file.
 
 ## -parameters
 
-
-
-
 ### -param x
 
+- **hInstance** - Handle to the calling driver.
 
-
-
-
-
-
-
-#### - hInstance
-
-Handle to the calling driver. 
-
-
-#### - hr
-
-Specifies the HRESULT value to be printed.
-
+- **hr** - Specifies the HRESULT value to be printed.
 
 ## -remarks
 
-
-
 This macro is the recommended way to output HRESULTS on Windows Vista.
-
-
-
 
 ## -see-also
 
+[WIAS_ASSERT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_assert)
 
+[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549531">WIAS_ASSERT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
- 
-
- 
-
+[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace)

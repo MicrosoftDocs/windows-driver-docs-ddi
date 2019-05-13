@@ -34,45 +34,70 @@ api_name:
 product:
 -   Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
 # OUR_GUID_ENTRY macro
 
-
 ## -description
 
+This macro is a wrapper that returns the fields of a DEFINE_GUID structure.
 
+The DEFINE_GUID structure is defined as follows:
+
+```cpp
+DEFINE_GUID(name, l, w1, w2, b1, b2, b3, b4, b5, b6, b7, b8);
+```
 
 ## -parameters
 
 ### -param name
 
+Contains the GUID name.
+
 ### -param l
+
+Contains an **unsigned integer** value.
 
 ### -param w1
 
+Contains an **unsigned short** value.
+
 ### -param w2
+
+Contains an **unsigned short** value.
 
 ### -param b1
 
+Contains an **unsigned char** value.
+
 ### -param b2
+
+Contains an **unsigned char** value.
 
 ### -param b3
 
+Contains an **unsigned char** value.
+
 ### -param b4
+
+Contains an **unsigned char** value.
 
 ### -param b5
 
+Contains an **unsigned char** value.
+
 ### -param b6
+
+Contains an **unsigned char** value.
 
 ### -param b7
 
+Contains an **unsigned char** value.
+
 ### -param b8
 
-
+Contains an **unsigned char** value.
 
 ## -remarks
 

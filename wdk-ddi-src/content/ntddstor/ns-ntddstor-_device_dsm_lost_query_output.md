@@ -2,6 +2,7 @@
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_OUTPUT
 title: _DEVICE_DSM_LOST_QUERY_OUTPUT (ntddstor.h)
 description: 
+tech.root: storage
 ms.assetid: 566bbd9e-4f8e-49d9-915d-901c4495bbe8
 ms.date: 10/19/2018
 ms.topic: struct
