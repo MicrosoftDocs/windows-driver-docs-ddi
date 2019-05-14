@@ -107,7 +107,7 @@ Otherwise, if *ReplyBuffer* is not **NULL**, the minifilter driver is put into a
 
 * If *Timeout* is nonzero and the application calls [FilterReplyMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage) before the *Timeout* interval expires, the minifilter driver receives the reply, and **FltSendMessage** returns STATUS_SUCCESS.
 
-* If *Timeout* is nonzero and the minifilter driver does not receive a reply, **FltSendMessage** returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.)
+* If *Timeout* is nonzero and the minifilter driver does not receive a reply before the *Timeout* interval expires, **FltSendMessage** returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.)
 
 * If *Timeout* is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls **FilterReplyMessage**, the minifilter driver receives the reply, and **FltSendMessage** returns STATUS_SUCCESS.
 
