@@ -5,7 +5,7 @@ description: FltSendMessage sends a message to a waiting user-mode application o
 old-location: ifsk\fltsendmessage.htm
 tech.root: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
-ms.date: 04/16/2018
+ms.date: 05/13/2019
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 ms.topic: function
 req.header: fltkernel.h
@@ -42,140 +42,74 @@ req.typenames:
 
 # FltSendMessage function
 
-
 ## -description
 
-
-<b>FltSendMessage</b> sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance. 
-
+**FltSendMessage** sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance.
 
 ## -parameters
 
-
-
-
 ### -param Filter [in]
 
-Opaque filter pointer for the caller. This parameter is required and cannot be <b>NULL</b>. 
-
+Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**.
 
 ### -param ClientPort [in]
 
-A pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the <i>ConnectNotifyCallback</i> parameter in the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>. 
-
+Pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the *ConnectNotifyCallback* parameter in the reference entry for [FltCreateCommunicationPort](nf-fltkernel-fltcreatecommunicationport.md).
 
 ### -param SenderBuffer [in]
 
-A pointer to a caller-allocated buffer containing the message to be sent to the user-mode application. This parameter is required and cannot be <b>NULL</b>. 
-
+Pointer to a caller-allocated buffer containing the message to be sent to the user-mode application. This parameter is required and cannot be **NULL**.
 
 ### -param SenderBufferLength [in]
 
-Size, in bytes, of the buffer that <i>SenderBuffer </i>points to. See Remarks.
-
+Size, in bytes, of the buffer that *SenderBuffer* points to. See **Remarks** for more information.
 
 ### -param ReplyBuffer [out, optional]
 
-A pointer to a caller-allocated buffer that receives the reply (if any) from the application. This parameter is optional and can be <b>NULL</b>. 
-
+Pointer to a caller-allocated buffer that receives the reply, if any, from the application. This parameter is optional and can be **NULL**.
 
 ### -param ReplyLength [in, out]
 
-Size, in bytes, of the buffer that <i>ReplyBuffer </i>points to. 
-
+Size, in bytes, of the buffer that *ReplyBuffer* points to. This parameter is optional, but must be non-**NULL** when *ReplyBuffer* is not **NULL**.
 
 ### -param Timeout [in, optional]
 
-A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected). Set to <b>NULL</b> if the caller can be put into a wait state indefinitely. 
-
+A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected). Set to **NULL** if the caller can be put into a wait state indefinitely.
 
 ## -returns
 
+**FltSendMessage** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-
-<b>FltSendMessage</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following: 
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltSendMessage</b> encountered a pool allocation failure. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PORT_DISCONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The communication port has been disconnected. This is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Timeout</i> interval expired before the message could be delivered or before a reply was received. This is a success code. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INSUFFICIENT_RESOURCES | **FltSendMessage** encountered a pool allocation failure. This is an error code. |
+| STATUS_PORT_DISCONNECTED | The communication port has been disconnected. This is an error code. |
+| STATUS_THREAD_IS_TERMINATING | The wait was interrupted because the thread has been terminated by an application or user. |
+| STATUS_TIMEOUT | The *Timeout* interval expired before the message could be delivered or before a reply was received. This is a success code. |
 
 ## -remarks
 
+**FltSendMessage** sends a message to a user-mode application on behalf of a minifilter driver or a minifilter driver instance.
 
+If the application calls [FilterGetMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage) to get the message before the minifilter driver calls **FltSendMessage** to send it, the message is delivered immediately. This is typically the case when the application calls **FilterGetMessage** from inside a message loop.
 
-<b>FltSendMessage</b> sends a message to a user-mode application on behalf of a minifilter driver or a minifilter driver instance. 
+Otherwise, if an application has not called to get a message, the minifilter driver is put into a wait state as follows:
 
-If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a> to get the message before the minifilter driver calls <b>FltSendMessage</b> to send it, the message is delivered immediately. (This is typically the case when the application calls <b>FilterGetMessage</b> from inside a message loop.) 
+* If *Timeout* is nonzero and the application calls **FilterGetMessage** before the *Timeout* interval expires, the message is delivered.
 
-Otherwise, if <i>Timeout</i> is nonzero, the minifilter driver is put into a wait state as follows: 
+* If *Timeout* is nonzero and the application doesn't call **FilterGetMessage** before the *Timeout* interval expires, the message is not delivered, and **FltSendMessage** returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.)
 
-<ul>
-<li>
-If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a> before the <i>Timeout</i> interval expires, the message is delivered. 
+* If *Timeout* is zero, the minifilter driver is put into a wait state indefinitely. When the application calls **FilterGetMessage**, the message is delivered.
 
-</li>
-<li>
-Otherwise, the message is not delivered, and <b>FltSendMessage</b> returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.) 
+After the message is delivered, if *ReplyBuffer* is **NULL**, **FltSendMessage** returns STATUS_SUCCESS.
 
-</li>
-</ul>
-If <i>Timeout</i> is zero when the message is being sent, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>, the message is delivered. 
+Otherwise, if *ReplyBuffer* is not **NULL**, the minifilter driver is put into a wait state as follows:
 
-After the message is delivered, if <i>ReplyBuffer</i> is <b>NULL</b>, <b>FltSendMessage</b> returns STATUS_SUCCESS. 
+* If *Timeout* is nonzero and the application calls [FilterReplyMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage) before the *Timeout* interval expires, the minifilter driver receives the reply, and **FltSendMessage** returns STATUS_SUCCESS.
 
-Otherwise, if <i>Timeout</i> is nonzero, the minifilter driver is put into a wait state as follows: 
+* If *Timeout* is nonzero and the minifilter driver does not receive a reply, **FltSendMessage** returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.)
 
-<ul>
-<li>
-If the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> before the <i>Timeout</i> interval expires, the minifilter driver receives the reply, and <b>FltSendMessage</b> returns STATUS_SUCCESS. 
-
-</li>
-<li>
-Otherwise, the minifilter driver does not receive a reply, and <b>FltSendMessage</b> returns STATUS_TIMEOUT. (Note: STATUS_TIMEOUT is a success code.) 
-
-</li>
-</ul>
-If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>, the minifilter driver receives the reply, and <b>FltSendMessage</b> returns STATUS_SUCCESS.
+* If *Timeout* is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls **FilterReplyMessage**, the minifilter driver receives the reply, and **FltSendMessage** returns STATUS_SUCCESS.
 
 <div class="alert"><b>Important</b>    Due to (system-specific) structure <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <b>FltSendMessage</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:<div class="code"><span codelanguage=""><table>
 <tr>
@@ -191,34 +125,18 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 </td>
 </tr>
 </table></span></div>
-<p class="note">Given this structure, it might seem obvious that the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> would set the <i>dwReplyBufferSize</i> parameter to <b>sizeof(REPLY_STRUCT)</b> and the <i>ReplyLength</i> parameter of <b>FltSendMessage</b> to the same value.  However, because of structure padding idiosyncrasies, <b>sizeof(REPLY_STRUCT)</b> might be larger than <b>sizeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b>.  If this is the case, <b>FltSendMessage</b> returns STATUS_BUFFER_OVERFLOW.
+<p class="note">Given this structure, it might seem obvious that the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> would set the <i>dwReplyBufferSize</i> parameter to <b>sizeof(REPLY_STRUCT)</b> and the *ReplyLength</i> parameter of <b>FltSendMessage</b> to the same value. However, because of structure padding idiosyncrasies, <b>sizeof(REPLY_STRUCT)</b> might be larger than <b>sizeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b>.  If this is the case, <b>FltSendMessage</b> returns STATUS_BUFFER_OVERFLOW.
 
 <p class="note">Therefore, we recommend that you call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> and <b>FltSendMessage</b> (leveraging the above example) by setting <i>dwReplyBufferSize</i> and <i>ReplyLength</i> both to s<b>izeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b> instead of <b>sizeof(REPLY_STRUCT)</b>. This ensures that any extra padding at the end of the REPLY_STRUCT structure is ignored.
 
 </div>
-<div> </div>
-
-
 
 ## -see-also
 
+[FilterGetMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage)
 
+[FilterReplyMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage)
 
+[FilterSendMessage](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>
- 
-
- 
-
+[FltCreateCommunicationPort](nf-fltkernel-fltcreatecommunicationport.md)
