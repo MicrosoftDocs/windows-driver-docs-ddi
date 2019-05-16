@@ -5,7 +5,7 @@ description: The NDIS_NIC_SWITCH_CAPABILITIES structure specifies the capabiliti
 old-location: netvista\ndis_nic_switch_capabilities.htm
 tech.root: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
-ms.date: 05/02/2018
+ms.date: 05/16/2019
 ms.keywords: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml"
 ms.topic: struct
 req.header: ntddndis.h
@@ -137,8 +137,13 @@ Reserved for NDIS.
 A ULONG value that contains a bitwise OR of the following flags that specify the capabilities of the NIC switch: 
 
 
+#### NDIS_NIC_SWITCH_CAPS_NIC_SWITCH_WITHOUT_IOV_SUPPORTED
 
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later.</div>
 
+This flag, introduced with NDIS 6.60, specifies that that a NIC switch can be created without the use of SR-IOV. This flag allows for separating a NIC switch from the \*SRIOV keyword, meaning that a NIC switch can be created via [OID_NIC_SWITCH_CREATE_SWITCH](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch) even if \*SRIOV = 0.
+
+For more information about reporting NIC switch capabilities for NDIS 6.60 and later miniport drivers, see [Determining NIC Switch Capabilities](https://docs.microsoft.com/windows-hardware/drivers/network/determining-nic-switch-capabilities).
 
 #### NDIS_NIC_SWITCH_CAPS_VLAN_SUPPORTED
 
