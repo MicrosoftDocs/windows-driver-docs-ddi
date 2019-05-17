@@ -44,7 +44,7 @@ req.typenames: REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER
 
 ## -description
 
-The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point. (Third-party reparse point owners must use the [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md) structure instead.)
+The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point. You can use [REPARSE_DATA_BUFFER_EX](ns-ntifs-_reparse_data_buffer_ex.md) instead. (Third-party reparse point owners must use the [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md) structure instead.)
 
 ## -struct-fields
 
@@ -134,7 +134,7 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 
 ## -see-also
 
-[FILE_OBJECT<](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object)
+[FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object)
 
 [FILE_REPARSE_POINT_INFORMATION](ns-ntifs-_file_reparse_point_information.md)
 
@@ -150,6 +150,8 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 
 [FltTagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-flttagfile)
 
+[FltTagFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-flttagfileex)
+
 [FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltuntagfile)
 
 [IRP_MJ_FILE_SYSTEM_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control)
@@ -157,6 +159,8 @@ For more information about reparse point tags, see the Microsoft Windows SDK doc
 [IsReparseTagMicrosoft](nf-ntifs-isreparsetagmicrosoft.md)
 
 [IsReparseTagNameSurrogate](nf-ntifs-isreparsetagnamesurrogate.md)
+
+[REPARSE_DATA_BUFFER_EX](ns-ntifs-_reparse_data_buffer_ex.md)
 
 [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
 
