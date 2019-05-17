@@ -117,6 +117,15 @@ Indicates to Storport the amount of time that was required to process a specifie
 </td>
 </tr>
 </table></span></div>
+
+Duration [in]
+
+ The duration of the service time required for Srb in 100 nanosecond units.
+
+Srb [in]
+
+ The request block to set the service time for.
+
 </td>
 </tr>
 <tr>
@@ -169,7 +178,7 @@ RequestComplete
 
 </td>
 <td>
-Indicates that the given SRB has finished. After this notification is sent, the port driver owns the request. The Srb parameter represents a pointer to the completed SCSI request block.
+Indicates that the given SRB has finished. After this notification is sent, the port driver owns the request. The Srb parameter represents a pointer to the completed SCSI request block. The miniport driver must not attempt to access the request in Srb, and it must not pass Srb to another routine.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -210,6 +219,17 @@ Indicates that the miniport driver requires the port driver to call the miniport
 </td>
 </tr>
 </table></span></div>
+
+HwStorTimer [in]
+
+ A pointer to a timer routine that is called after the interval of time that is specified in MiniportTimerValue.
+
+MiniportTimerValue [in]
+
+ Indicates the interval after which the timer routine pointed to by HwStorTimer is called. This is a positive value specified in microseconds. A value of 0 will cancel the timer. The system timer resolution is approximately 10 milliseconds.
+
+
+
 </td>
 </tr>
 <tr>
@@ -247,6 +267,24 @@ Indicates that the miniport driver has detected an event for which one or more W
 </td>
 </tr>
 </table></span></div>
+
+WMIEvent [in]
+
+ A pointer to event structures that have information about a WMI event that is detected by the miniport driver.
+
+PathId [in]
+
+ Indicates the SCSI port or bus for the request. Set this parameter to 0xff for an adapter device. Otherwise, set to a valid path ID.
+
+TargetId [in, optional]
+
+ Indicates the target controller or device on the bus. This parameter is not used when the event is for an adapter.
+
+Lun [in, optional]
+
+ Indicates the logical unit number of the device. This parameter is not used when the event is for an adapter.
+
+
 </td>
 </tr>
 <tr>
@@ -273,6 +311,19 @@ Indicates that the miniport driver has changed the data items or the number of i
 </td>
 </tr>
 </table></span></div>
+
+PathId [in]
+
+ Indicates the SCSI port or bus for the request. Set this parameter to 0xff for an adapter device. Otherwise, set to a valid path ID.
+
+TargetId [in, optional]
+
+ Indicates the target controller or device on the bus. This parameter is not used when registration is for an adapter.
+
+Lun [in, optional]
+
+ Indicates the logical unit number of the device. This parameter is not used when registration is for an adapter.
+
 </td>
 </tr>
 </table>
