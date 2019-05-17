@@ -5,7 +5,7 @@ description: The REPARSE_DATA_BUFFER structure contains reparse point data for a
 old-location: ifsk\reparse_data_buffer.htm
 tech.root: ifsk
 ms.assetid: e906a874-51f1-4623-8f0b-afdfd8169ab2
-ms.date: 04/16/2018
+ms.date: 05/16/2019
 ms.keywords: "*PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER structure [Installable File System Drivers], _REPARSE_DATA_BUFFER, fileinformationstructures_4f1b658e-1833-421f-a726-448b20b1c595.xml, ifsk.reparse_data_buffer, ntifs/PREPARSE_DATA_BUFFER, ntifs/REPARSE_DATA_BUFFER"
 ms.topic: struct
 req.header: ntifs.h
@@ -42,276 +42,122 @@ req.typenames: REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER
 
 # _REPARSE_DATA_BUFFER structure
 
-
 ## -description
 
-
-The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point. (Third-party reparse point owners must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a> structure instead.) 
-
+The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point. (Third-party reparse point owners must use the [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md) structure instead.)
 
 ## -struct-fields
 
-
-
-
 ### -field ReparseTag
 
-Reparse point tag. Must be a Microsoft reparse point tag. (See the following <b>Remarks</b> section.) 
-
+Reparse point tag. Must be a Microsoft reparse point tag. (See the following **Remarks** section.)
 
 ### -field ReparseDataLength
 
-Size, in bytes, of the reparse data in the <b>DataBuffer</b> member. 
-
+Size, in bytes, of the reparse data in the buffer that **DataBuffer** points to.
 
 ### -field Reserved
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object. For more information about the <b>FileName</b> member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>. This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
-
+Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object. For more information about the **FileName** member, see [FILE_OBJECT<](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object). This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer
-
- 
-
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.SubstituteNameOffset
 
- 
-
+Offset, in bytes, of the substitute name string in the **PathBuffer** array. Note that this offset must be divided by **sizeof**(WCHAR) to get the array index.
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.SubstituteNameLength
 
- 
-
+Length, in bytes, of the substitute name string. If this string is NULL-terminated, **SubstituteNameLength** does not include space for the UNICODE_NULL terminator.
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.PrintNameOffset
 
- 
-
+Offset, in bytes, of the print name string in the **PathBuffer** array. Note that this offset must be divided by **sizeof**(WCHAR) to get the array index.
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.PrintNameLength
 
- 
-
+Length, in bytes, of the print name string. If this string is NULL-terminated, **PrintNameLength** does not include space for the UNICODE_NULL terminator.
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.Flags
 
- 
-
+Indicates whether the symbolic link is absolute or relative.  If **Flags** contains SYMLINK_FLAG_RELATIVE, the symbolic link contained in the **PathBuffer** array (at offset **SubstituteNameOffset**) is processed as a relative symbolic link; otherwise, it is processed as an absolute symbolic link.
 
 ### -field DUMMYUNIONNAME.SymbolicLinkReparseBuffer.PathBuffer
 
- 
-
+First character of the path string. This character is followed in memory by the remainder of the string. The path string contains the substitute name string and print name string. The substitute name and print name strings can appear in any order in the **PathBuffer**. To locate the substitute name and print name strings in the **PathBuffer**, use the **SubstituteNameOffset**, **SubstituteNameLength**, **PrintNameOffset**, and **PrintNameLength** members.
 
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer
 
- 
-
-
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer.SubstituteNameOffset
 
- 
-
+Offset, in bytes, of the substitute name string in the **PathBuffer** array. Note that this offset must be divided by **sizeof**(WCHAR) to get the array index.
 
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer.SubstituteNameLength
 
- 
-
+Length, in bytes, of the substitute name string. If this string is NULL-terminated, **SubstituteNameLength** does not include space for the UNICODE_NULL terminator.
 
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer.PrintNameOffset
 
- 
-
+Offset, in bytes, of the print name string in the **PathBuffer** array. Note that this offset must be divided by **sizeof**(WCHAR) to get the array index.
 
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer.PrintNameLength
 
- 
-
+Length, in bytes, of the print name string. If this string is NULL-terminated, **PrintNameLength** does not include space for the UNICODE_NULL terminator.
 
 ### -field DUMMYUNIONNAME.MountPointReparseBuffer.PathBuffer
 
- 
-
+First character of the path string. This character is followed in memory by the remainder of the string. The path string contains the substitute name string and print name string. The substitute name and print name strings can appear in any order in the **PathBuffer**. To locate the substitute name and print name strings in the **PathBuffer**, use the **SubstituteNameOffset**, **SubstituteNameLength**, **PrintNameOffset**, and **PrintNameLength** members.
 
 ### -field DUMMYUNIONNAME.GenericReparseBuffer
 
- 
-
-
 ### -field DUMMYUNIONNAME.GenericReparseBuffer.DataBuffer
 
- 
-
-
-
-
-#### - ( unnamed union )
-
- 
-
-
-
-#### SymbolicLinkReparseBuffer
-
-
-
-##### SubstituteNameOffset
-
-Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof</b>(WCHAR) to get the array index. 
-
-
-
-##### SubstituteNameLength
-
-Length, in bytes, of the substitute name string. If this string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL character. 
-
-
-
-##### PrintNameOffset
-
-Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof</b>(WCHAR) to get the array index. 
-
-
-
-##### PrintNameLength
-
-Length, in bytes, of the print name string. If this string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL character. 
-
-
-
-##### Flags
-
-Used to indicate if the given symbolic link is an absolute or relative symbolic link.  If <b>Flags</b> contains SYMLINK_FLAG_RELATIVE, the symbolic link contained in the <b>PathBuffer</b> array (at offset <b>SubstitueNameOffset</b>) is processed as a relative symbolic link; otherwise, it is processed as an absolute symbolic link.
-
-
-
-##### PathBuffer
-
-First character of the path string. This is followed in memory by the remainder of the string. The path string contains the substitute name string and print name string. The substitute name and print name strings can appear in any order in the <b>PathBuffer</b>. (To locate the substitute name and print name strings in the <b>PathBuffer</b>, use the <b>SubstituteNameOffset</b>, <b>SubstituteNameLength</b>, <b>PrintNameOffset</b>, and <b>PrintNameLength</b> members.) 
-
-
-
-#### MountPointReparseBuffer
-
-
-
-##### SubstituteNameOffset
-
-Offset, in bytes, of the substitute name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof</b>(WCHAR) to get the array index. 
-
-
-
-##### SubstituteNameLength
-
-Length, in bytes, of the substitute name string. If this string is NULL-terminated, <b>SubstituteNameLength</b> does not include space for the UNICODE_NULL character. 
-
-
-
-##### PrintNameOffset
-
-Offset, in bytes, of the print name string in the <b>PathBuffer</b> array. Note that this offset must be divided by <b>sizeof</b>(WCHAR) to get the array index. 
-
-
-
-##### PrintNameLength
-
-Length, in bytes, of the print name string. If this string is NULL-terminated, <b>PrintNameLength</b> does not include space for the UNICODE_NULL character. 
-
-
-
-##### PathBuffer
-
-First character of the path string. This is followed in memory by the remainder of the string. The path string contains the substitute name string and print name string. The substitute name and print name strings can appear in any order in the <b>PathBuffer</b>. (To locate the substitute name and print name strings in the <b>PathBuffer</b>, use the <b>SubstituteNameOffset</b>, <b>SubstituteNameLength</b>, <b>PrintNameOffset</b>, and <b>PrintNameLength</b> members.) 
-
-
-
-#### GenericReparseBuffer
-
-
-
-##### DataBuffer
-
-Microsoft-defined data for the reparse point. 
-
+Pointer to a buffer that contains Microsoft-defined data for the reparse point.
 
 ## -remarks
 
+The REPARSE_DATA_BUFFER structure is used by Microsoft file systems, filters, and minifilter drivers, as well as the I/O manager, to store data for a reparse point.
 
+This structure can only be used for Microsoft reparse points. Third-party reparse point owners must use the [REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md) structure instead.
 
-The REPARSE_DATA_BUFFER structure is used by Microsoft file systems, filters, and minifilter drivers, as well as the I/O manager, to store data for a reparse point. 
+Microsoft reparse points can use the REPARSE_DATA_BUFFER structure or the REPARSE_GUID_DATA_BUFFER structure.
 
-This structure can only be used for Microsoft reparse points. Third-party reparse point owners must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a> structure instead. 
+From the union, you can use the GenericReparseBuffer structure to interpret the payload for any IO_REPARSE_TAG_XXX tag, or optionally use one of the other structures within the union as follows:
 
-Microsoft reparse points can use the REPARSE_DATA_BUFFER structure or the REPARSE_GUID_DATA_BUFFER structure. 
+* Use the SymbolicLinkReparseBuffer structure when FileTag is IO_REPARSE_TAG_SYMLINK.
 
-For more information about reparse point tags, see the Microsoft Windows SDK documentation. 
+* Use the MountPointReparseBuffer structure when FileTag is IO_REPARSE_TAG_MOUNT_POINT.
 
-For more information about absolute and relative symbolic links, see Creating Symbolic Links in the Microsoft Windows SDK documentation.
-
-
-
+For more information about reparse point tags, see the Microsoft Windows SDK documentation.
 
 ## -see-also
 
+[FILE_OBJECT<](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object)
 
+[FILE_REPARSE_POINT_INFORMATION](ns-ntifs-_file_reparse_point_information.md)
 
+[FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540354">FILE_REPARSE_POINT_INFORMATION</a>
+[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
+[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
+[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
+[FltFsControlFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile)
 
+[FltTagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-flttagfile)
 
+[FltUntagFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltuntagfile)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+[IRP_MJ_FILE_SYSTEM_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-file-system-control)
 
+[IsReparseTagMicrosoft](nf-ntifs-isreparsetagmicrosoft.md)
 
+[IsReparseTagNameSurrogate](nf-ntifs-isreparsetagnamesurrogate.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+[REPARSE_GUID_DATA_BUFFER](ns-ntifs-_reparse_guid_data_buffer.md)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544589">FltTagFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544608">FltUntagFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549452">IsReparseTagMicrosoft</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549462">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>
- 
-
- 
-
+[ZwFsControlFile](https://msdn.microsoft.com/library/windows/hardware/ff566462)
