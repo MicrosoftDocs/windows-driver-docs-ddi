@@ -136,12 +136,47 @@ Reserved for NDIS.
 
 A ULONG value that contains a bitwise OR of the following flags that specify the capabilities of the NIC switch: 
 
+#### NDIS_NIC_SWITCH_CAPS_RSS_ON_PF_VPORTS_SUPPORTED                        
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+Specifies that the NIC supports VMMQ for PF VPorts.
+
+#### NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_INDIRECTION_TABLE_SUPPORTED      
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+If set to **1**, specifies that the NIC is able to maintain per-PF VPort indirection tables.
+
+#### NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_HASH_FUNCTION_SUPPORTED          
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+If set to **1**, specifies that the NIC supports setting a different hash function per PF VPort. If this flag is set, **NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_HASH_KEY_SUPPORTED** must be set as well.
+
+#### NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_HASH_TYPE_SUPPORTED              
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+If set to **1**, specifies that the NIC supports setting different hash types per PF VPort.
+
+#### NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_HASH_KEY_SUPPORTED               
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+If set to **1**, specifies that the NIC supports setting a different hash secret key per PF VPort. This flag must be set if **NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_HASH_FUNCTION_SUPPORTED** is set.
+
+#### NDIS_NIC_SWITCH_CAPS_RSS_PER_PF_VPORT_INDIRECTION_TABLE_SIZE_RESTRICTED
+
+<div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later. It was introduced in NDIS 6.60. </div>
+
+If set to **1**, specifies that the NIC has a limitation on indirection table size for PF VPorts. This flag forces the issuer of an RSS OID to use a per-PF VPort indirection table size equal to the number of VPort queues rounded up to the next power of two. This only applies to PF VPorts and does not apply to VF VPorts. This flag can be combined with the **NDIS_NIC_SWITCH_CAPS_ASYMMETRIC_QUEUE_PAIRS_FOR_NONDEFAULT_VPORT_SUPPORTED** flag (different PF VPorts can have different numbers of queues). This flag prevents VMMQ users from performing fine-grained queue steering.
 
 #### NDIS_NIC_SWITCH_CAPS_NIC_SWITCH_WITHOUT_IOV_SUPPORTED
 
 <div class="alert"><b>Note</b> This flag is supported in Windows Server 2016 and later.</div>
 
-This flag, introduced with NDIS 6.60, specifies that that a NIC switch can be created without the use of SR-IOV. This flag allows for separating a NIC switch from the \*SRIOV keyword, meaning that a NIC switch can be created via [OID_NIC_SWITCH_CREATE_SWITCH](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch) even if \*SRIOV = 0.
+This flag, introduced with NDIS 6.60, specifies that a NIC switch can be created without the use of SR-IOV. This flag allows for separating a NIC switch from the \*SRIOV keyword, meaning that a NIC switch can be created via [OID_NIC_SWITCH_CREATE_SWITCH](https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch) even if \*SRIOV = 0.
 
 For more information about reporting NIC switch capabilities for NDIS 6.60 and later miniport drivers, see [Determining NIC Switch Capabilities](https://docs.microsoft.com/windows-hardware/drivers/network/determining-nic-switch-capabilities).
 
@@ -156,8 +191,6 @@ This flag specifies that the NIC switch supports hardware packet filtering based
 #### NDIS_NIC_SWITCH_CAPS_PER_VPORT_INTERRUPT_MODERATION_SUPPORTED
 
 This flag specifies that the NIC switch can support interrupt moderation configuration on individual VPorts. 
-
-
 
 #### NDIS_NIC_SWITCH_CAPS_ASYMMETRIC_QUEUE_PAIRS_FOR_NONDEFAULT_VPORT_SUPPORTED
 
