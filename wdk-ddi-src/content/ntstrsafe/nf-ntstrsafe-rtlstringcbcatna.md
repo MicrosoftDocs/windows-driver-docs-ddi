@@ -59,7 +59,7 @@ The <b>RtlStringCbCatNW</b> and <b>RtlStringCbCatNA</b> functions concatenate tw
 
 ### -param pszDest [in, out]
 
-Pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbMaxAppend</i> bytes, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
+Pointer to a buffer which, on input, contains a null-terminated string to which <i>pszSrc</i> will be concatenated. On output, this is the destination buffer that contains the entire resultant string. The string at <i>pszSrc</i>, up to <i>cbToAppend</i> bytes, is added to the end of the string at <i>pszDest</i> and terminated with a null character.
 
 
 ### -param cbDest [in]

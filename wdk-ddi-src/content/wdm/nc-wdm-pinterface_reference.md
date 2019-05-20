@@ -76,7 +76,7 @@ You can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 The driver that exports the interface is responsible for calling <i>InterfaceReference</i> to increment the reference count before the driver exports the interface. For example, the driver that initially exported the interface in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> request calls <i>InterfaceReference</i>. Also, a driver that passes a pointer to the interface to another driver must call <i>InterfaceReference</i>.
 
-
+Note that the <i>InterfaceReference</i> routine is a per interface contract, so there are no general IRQL requirements for calling it.
 
 
 ## -see-also

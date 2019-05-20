@@ -58,6 +58,7 @@ The <i>InterfaceDereference</i> routine decrements the reference count on a driv
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure for the interface.
 
+Note that the <i>InterfaceDereference</i> routine is a per interface contract, so there are no general IRQL requirements for calling it.
 
 ## -returns
 
