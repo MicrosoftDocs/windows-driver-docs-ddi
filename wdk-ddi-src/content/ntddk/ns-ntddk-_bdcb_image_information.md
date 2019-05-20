@@ -87,7 +87,7 @@ Bit 1
 
 </td>
 <td>
-The boot start image failed code integrity but load was allowed because of boot policy (code integrity not required on the platform, or code integrity disabled because of boot setting,  debugging, or both).
+The boot start image failed code integrity but load was allowed because of boot policy (code integrity not required on the platform, or code integrity disabled because of boot setting,  debugging, or both).  The symbolic name for bit 1 is `BDCB_IMAGEFLAGS_FAILED_CODE_INTEGRITY.`
 
 </td>
 </tr>
