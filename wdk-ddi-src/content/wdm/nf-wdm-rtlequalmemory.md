@@ -53,7 +53,8 @@ The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whe
 
 
 ```
-BOOL WINAPI  RtlEqualMemory(
+BOOL WINAPI
+RtlEqualMemory(
    Destination,
    Source,
    Length
