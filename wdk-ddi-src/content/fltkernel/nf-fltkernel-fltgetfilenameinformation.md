@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: <= APC_LEVEL (See Remarks)
+req.irql: <= APC_LEVEL (See Return Value)
 topic_type:
 - APIRef
 - kbSyntax
@@ -118,7 +118,7 @@ After an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj
 </li>
 
 <li>
-In a preoperation (PFLT_PRE_OPERATION_CALLBACK) or postoperation callback routine (PFLT_POST_OPERATION_CALLBACK) for any of the following operations:
+In a preoperation (PFLT_PRE_OPERATION_CALLBACK) or postoperation (PFLT_POST_OPERATION_CALLBACK) callback routine for any of the following operations:
 <ul>
 <li>IRP_MJ_ACQUIRE_FOR_CC_FLUSH</li>
 <li>IRP_MJ_ACQUIRE_FOR_MOD_WRITE
