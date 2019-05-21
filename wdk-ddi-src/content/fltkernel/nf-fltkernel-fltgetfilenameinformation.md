@@ -5,7 +5,7 @@ description: The FltGetFileNameInformation routine returns name information for 
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
-ms.date: 05/17/2019
+ms.date: 05/20/2019
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 ms.topic: function
 req.header: fltkernel.h
@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: "<= APC_LEVEL (See Remarks)"
+req.irql: <= APC_LEVEL (See Remarks)
 topic_type:
 - APIRef
 - kbSyntax
@@ -104,7 +104,7 @@ If the name information is successfully returned, **FltGetFileNameInformation** 
 <td width="60%">
 
 <ul>
-<b>FltGetFileNameInformation</b> cannot get file name information in any of the following circumstances:
+<b>FltGetFileNameInformation</b> cannot get file name information in any of the following circumstances if the query cannot be satisfied from Filter Manager’s name cache:
 <li>
 In the paging I/O path.
 </li>
@@ -119,12 +119,13 @@ After an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj
 
 <li>
 In a preoperation (PFLT_PRE_OPERATION_CALLBACK) or postoperation callback routine (PFLT_POST_OPERATION_CALLBACK) for any of the following operations:
-
-IRP_MJ_ACQUIRE_FOR_CC_FLUSH
-IRP_MJ_ACQUIRE_FOR_MOD_WRITE
-IRP_MJ_RELEASE_FOR_CC_FLUSH
-IRP_MJ_RELEASE_FOR_MOD_WRITE
-IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION
+<ul>
+<li>IRP_MJ_ACQUIRE_FOR_CC_FLUSH</li>
+<li>IRP_MJ_ACQUIRE_FOR_MOD_WRITE
+<li>IRP_MJ_RELEASE_FOR_CC_FLUSH</li>
+<li>IRP_MJ_RELEASE_FOR_MOD_WRITE</li>
+<li>IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION</li>
+</ul>
 </li>
 
 <li>
@@ -201,7 +202,7 @@ An additional call to <b>FltGetFileNameInformation</b>  with FLT_FILE_NAME_QUERY
 </dl>
 </td>
 <td width="60%">
-If the user opened the file by file ID but does not have traverse privileges for the entire path, <b>FltGetFileNameInformation</b> fails with this return value. 
+If the user opened the file by file ID but does not have traverse privileges for the entire path, <b>FltGetFileNameInformation</b> fails with this return value.
 
 STATUS_ACCESS_DENIED is an error code.
 
