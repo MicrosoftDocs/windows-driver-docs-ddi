@@ -76,7 +76,7 @@ Specifies the last time the file was changed.
 
 ### -field FileAttributes
 
-Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags. For descriptions of these flags, see the documentation for the <b>GetFileAttributes</b> function in the Microsoft Windows SDK.
+Specifies one or more FILE_ATTRIBUTE_<i>XXX</i> flags. For descriptions of these flags, see the documentation for the [**GetFileAttributes**](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa) function in the Microsoft Windows SDK.
 
 
 ## -remarks
