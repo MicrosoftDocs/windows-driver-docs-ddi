@@ -1,11 +1,11 @@
 ---
 UID: NF:ntifs.RtlCaptureStackBackTrace
 title: RtlCaptureStackBackTrace function (ntifs.h)
-description: The RtlCaptureStackBackTrace routine captures a stack back trace by walking up the stack and recording the information for each frame.
+description: The RtlCaptureStackBackTrace routine captures a stack trace by walking the stack and recording the information for each frame.
 old-location: ifsk\rtlcapturestackbacktrace.htm
 tech.root: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
-ms.date: 04/16/2018
+ms.date: 05/21/2019
 ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
 ms.topic: function
 req.header: ntifs.h
@@ -45,45 +45,36 @@ req.typenames:
 
 # RtlCaptureStackBackTrace function
 
-
 ## -description
 
-
-The <b>RtlCaptureStackBackTrace</b> routine captures a stack back trace by walking up the stack and recording the information for each frame.
-
+The **RtlCaptureStackBackTrace** routine captures a stack trace by walking the stack and recording the information for each frame.
 
 ## -parameters
 
-
-
-
 ### -param FramesToSkip [in]
 
-The number of frames to skip from the start of the back trace.
-
+Number of frames to skip from the start (current call point) of the back trace.
 
 ### -param FramesToCapture [in]
 
-The number of frames to be captured. 
-
+Number of frames to be captured.
 
 ### -param BackTrace [out]
 
-An array of pointers captured from the current stack trace.
-
+Caller-allocated array in which pointers to the return addresses captured from the current stack trace are returned.
 
 ### -param BackTraceHash [out, optional]
 
-An optional value that can be used to organize hash tables. If this parameter is <b>NULL</b>, no hash value is computed.
+Optional value that can be used to organize hash tables. If this parameter is **NULL**, **RtlCaptureStackBackTrace** does not compute and return a hash value.
 
-This value is calculated based on the values of the pointers returned in the <i>BackTrace</i> array. Two identical stack traces will generate identical hash values.
-
+This hash value is calculated based on the values of the pointers returned in the *BackTrace* array. Two identical stack traces will generate identical hash values.
 
 ## -returns
 
-
-
 The number of captured frames.
 
+## -remarks
 
+**RtlCaptureStackBackTrace** captures a stack trace for the caller by walking the stack (walking back in call time), and recording information for each frame. Specifically, **RtlCaptureStackBackTrace** returns pointers to the return addresses of each call on the stack, where the first pointer in the *BackTrace* array points to the return address of the most recent call, and so on.
 
+Back trace hash values can be used to quickly determine whether two stack traces are identical or different. You can use the hash returned in *BackTraceHash* to compare stack traces. If you don't want to use hashes, or want to compute your own hash values, set *BackTraceHash* to **NULL**.
