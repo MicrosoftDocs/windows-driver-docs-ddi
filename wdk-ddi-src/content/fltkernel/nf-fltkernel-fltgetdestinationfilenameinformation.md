@@ -93,6 +93,7 @@ The following are the query method flag values. Only one query method flag can b
 | FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP | **FltGetDestinationFileNameInformation** queries the Filter Manager's name cache for the file name information. If the name is not found in the cache, and it is currently safe to do so, **FltGetDestinationFileNameInformation** queries the file system for the file name information and cache the result. |
 
 The following are the file name flag values. Any combination of these flags can be specified.
+
 | File Name Flag Value | Meaning |
 | ----------------------- | ------- |
 | FLT_FILE_NAME_REQUEST_FROM_CURRENT_PROVIDER | **FltGetDestinationFileNameInformation** directs the name request to the calling filter instance to complete. |
