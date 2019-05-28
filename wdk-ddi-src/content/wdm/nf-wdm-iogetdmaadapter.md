@@ -97,7 +97,7 @@ The caller uses the <b>MaximumLength</b> member in the <i>DeviceDescription</i> 
 
 To free the adapter object, the driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559965">PutDmaAdapter</a> through the pointer returned in the <b>DMA_ADAPTER</b> structure.
 
-<div class="alert"><b>Note</b>  As previously described, <b>IoGetDmaAdapter</b> returns <b>NULL</b> if it does not support the version of the <b>DMA_ADAPTER</b> structure that is specified by <i>DeviceDescription-</i>&gt;<b>Version</b>. Callers should rely on this behavior to determine whether the routine returns a pointer to the requested version of the <b>DMA_ADAPTER</b> structure. When <b>IoGetDmaAdapter</b> returns a pointer to version 1 or version 2 of the <b>DMA_ADAPTER</b> structure, the <b>Version</b> member of this structure is always set to 1. Thus, the caller cannot use the <b>Version</b> member of the returned <b>DMA_ADAPTER</b> structure to distinguish between versions 1 and 2 of this structure.</div>
+<div class="alert"><b>Note</b>  As previously described, <b>IoGetDmaAdapter</b> returns <b>NULL</b> if it does not support the version of the <b>DMA_ADAPTER</b> structure that is specified by <i>DeviceDescription-</i>&gt;<b>Version</b>. Callers should rely on this behavior to determine whether the routine returns a pointer to the requested version of the <b>DMA_ADAPTER</b> structure. When <b>IoGetDmaAdapter</b> returns a pointer to version 1 or version 2 or version 3 of the <b>DMA_ADAPTER</b> structure, the <b>Version</b> member of this structure is always set to 1. Thus, the caller cannot use the <b>Version</b> member of the returned <b>DMA_ADAPTER</b> structure to distinguish between versions 1, 2 and 3 of this structure.</div>
 <div> </div>
 
 
