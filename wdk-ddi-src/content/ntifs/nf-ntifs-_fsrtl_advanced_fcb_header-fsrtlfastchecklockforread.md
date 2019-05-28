@@ -82,7 +82,7 @@ A pointer to the file object for the file.
 
 ### -param ProcessId [in]
 
-A pointer to the process ID for the process.
+A pointer to the EPROCESS for the process.
 
 
 ## -returns
