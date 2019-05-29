@@ -56,7 +56,7 @@ A minifilter driver that has loaded a supporting minifilter driver by calling <a
 
 ### -param FilterName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543366">FltLoadFilter</a>. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver service name that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543366">FltLoadFilter</a>. 
 
 
 ## -returns
@@ -124,7 +124,7 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -61,7 +61,7 @@ Opaque instance pointer for the minifilter driver instance that this callback ro
 
 ### -param ParentDirectory [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the parent directory for this name component. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the parent directory for this name component. 
 
 
 ### -param VolumeNameLength [in]
@@ -147,7 +147,7 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

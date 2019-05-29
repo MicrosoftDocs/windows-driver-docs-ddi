@@ -64,7 +64,7 @@ A handle to a framework device object.
 
 ### -param MofResourceName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that specifies the name of a MOF resource. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that specifies the name of a MOF resource. 
 
 
 ## -returns

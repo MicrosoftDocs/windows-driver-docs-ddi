@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCopyEx</b> function copies a string from one <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to another.
+The <b>RtlUnicodeStringCopyEx</b> function copies a string from one <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to another.
 
 
 ## -parameters
@@ -181,7 +181,7 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 The <b>RtlUnicodeStringCopyEx</b> function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCopyEx</b> adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562942">RtlUnicodeStringCopy</a> function by returning a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCopyEx</b> for additional control.
+<b>RtlUnicodeStringCopyEx</b> adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562942">RtlUnicodeStringCopy</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCopyEx</b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
@@ -201,7 +201,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

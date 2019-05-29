@@ -57,7 +57,7 @@ The <b>RtlUnicodeStringToInteger</b> routine converts a Unicode string represent
 
 ### -param String [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the number representation to convert to the equivalent integer value.
 
 
 ### -param Base [in, optional]
@@ -179,7 +179,7 @@ A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

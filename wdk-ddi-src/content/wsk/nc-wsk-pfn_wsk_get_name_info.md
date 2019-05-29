@@ -84,7 +84,7 @@ The
 ### -param NodeName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name. On success, the Unicode host name is written as a
      Fully Qualified Domain Name (FQDN) by default. The caller must provide a UNICODE_STRING buffer large
      enough to hold the Unicode host name, which includes the terminating NULL character. If the 
@@ -96,7 +96,7 @@ The
 ### -param ServiceName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name associated with the port number. The caller must provide a
      UNICODE_STRING buffer large enough to hold the Unicode service name, which includes the terminating NULL
      character. If the 
@@ -287,7 +287,7 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

@@ -93,7 +93,7 @@ A pointer to an NDIS_STRING type containing a caller-supplied, counted string in
      system-default character set that specifies the name of the registry subkey to open. For Microsoft
      Windows 2000 and later drivers, this string contains Unicode characters. That is, for Windows 2000 and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 ### -param SubKeyHandle [out]
@@ -180,7 +180,7 @@ After a driver has consumed and, possibly, modified the registry configuration i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

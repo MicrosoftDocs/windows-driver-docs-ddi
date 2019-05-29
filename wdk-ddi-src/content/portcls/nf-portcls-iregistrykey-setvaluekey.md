@@ -56,7 +56,7 @@ The <code>SetValueKey</code> method replaces or creates a value entry under the 
 
 ### -param ValueName [in, optional]
 
-Pointer to a string containing the name of the value entry to set. The name string is specified by a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>. If the value entry has no name, set this parameter to <b>NULL</b>. If the caller specifies a name string but the given name is not unique relative to its containing key, the method replaces the data for an existing value entry.
+Pointer to a string containing the name of the value entry to set. The name string is specified by a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>. If the value entry has no name, set this parameter to <b>NULL</b>. If the caller specifies a name string but the given name is not unique relative to its containing key, the method replaces the data for an existing value entry.
 
 
 ### -param Type [in]
@@ -157,7 +157,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

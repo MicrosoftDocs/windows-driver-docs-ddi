@@ -69,7 +69,7 @@ The
 ### -param NodeName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name or a numeric host address string. For the Internet
      protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hexadecimal
      address.
@@ -78,7 +78,7 @@ The
 ### -param ServiceName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name or a port number.
 
 
@@ -257,7 +257,7 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 
