@@ -5,7 +5,7 @@ description: The FltSupportsFileContextsEx routine determines whether the file s
 old-location: ifsk\fltsupportsfilecontextsex.htm
 tech.root: ifsk
 ms.assetid: 42401474-ea2d-441f-ad70-bd95544933ac
-ms.date: 04/16/2018
+ms.date: 05/29/2019
 ms.keywords: FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex
 ms.topic: function
 req.header: fltkernel.h
@@ -42,95 +42,50 @@ req.typenames:
 
 # FltSupportsFileContextsEx function
 
-
 ## -description
 
-
-The <b>FltSupportsFileContextsEx</b> routine determines whether the file system or the filter manager support file contexts for a given file. 
-
+The **FltSupportsFileContextsEx** routine determines whether the file system or the filter manager support file contexts for a given file.
 
 ## -parameters
 
-
-
-
 ### -param FileObject [in]
 
-File object pointer for the file. This parameter is required and cannot be <b>NULL</b>. 
-
+Pointer to the file object that represents the file whose file context support is being queried. This parameter is required and cannot be **NULL**.
 
 ### -param Instance [in, optional]
 
-Opaque instance pointer for the caller. This parameter is optional and can be <b>NULL</b>. For more information about this parameter, see the following Remarks section. 
-
+Opaque instance pointer for the caller. This parameter is optional and can be **NULL**. For more information about this parameter, see the Remarks section of this page.
 
 ## -returns
 
-
-
-<b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> if the file system or filter manager supports file contexts for the file; <b>FALSE</b> otherwise. 
-
-
-
+**FltSupportsFileContextsEx** returns **TRUE** if the file system or filter manager supports file contexts for the file; **FALSE** otherwise.
 
 ## -remarks
 
+Minifilter drivers can call the **FltSupportsFileContextsEx** routine to determine whether the underlying file system or the filter manager supports file contexts for the file represented by *FileObject* without having to allocate a context and attempt to set it. If a context type isn't supported on a file, then the minifilter cannot attach a context to that file.
 
+For file systems (such as FAT) that support only a single data stream per file, file contexts are equivalent to stream contexts. Such file systems usually support stream contexts but do not support file contexts. Instead, the filter manager provides file context support, using the file system's existing support for stream contexts. For minifilter instances attached to these file systems, [FltSupportsFileContexts](nf-fltkernel-fltsupportsfilecontexts.md) returns **FALSE**, while **FltSupportsFileContextsEx** returns **TRUE** (when a valid non-**NULL** value is passed for the *Instance* parameter).
 
-Minifilter drivers call the <b>FltSupportsFileContextsEx</b> routine to determine whether the underlying file system or the filter manager supports file contexts for the file that is represented by a given file object. 
+If a non-**NULL** value is supplied for the *Instance* parameter, **FltSupportsFileContextsEx** returns **TRUE** if the file system or the filter manager supports file contexts for the file; **FALSE** otherwise.
 
-For file systems (such as FAT) that support only a single data stream per file, file contexts are equivalent to stream contexts. Such file systems usually support stream contexts but do not support file contexts. Instead, the filter manager provides file context support, using the file system's existing support for stream contexts. For minifilter instances attached to these file systems, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544574">FltSupportsFileContexts</a> returns <b>FALSE</b>, while <b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> (when a valid non-<b>NULL</b> value is passed for the <i>Instance</i> parameter). 
+If the *Instance* parameter is **NULL**, **FltSupportsFileContextsEx** returns **TRUE** only if the file system supports file contexts for the file. Otherwise, it returns **FALSE**, even if the filter manager supports file contexts for the file.
 
-If a non-<b>NULL</b> value is supplied for the <i>Instance</i> parameter, <b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> if the file system or the filter manager supports file contexts for the file; <b>FALSE</b> otherwise. 
+Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files.
 
-If the <i>Instance</i> parameter is <b>NULL</b>, <b>FltSupportsFileContextsEx</b> returns <b>TRUE</b> only if the file system supports file contexts for the file. Otherwise, it returns <b>FALSE</b>, even if the filter manager supports file contexts for the file. 
-
-Note that a file system might support file contexts for some types of files but not for others. For example, NTFS and FAT do not support file contexts for paging files. 
-
-To allocate a new context, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>. 
-
-To delete a file context, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541980">FltDeleteFileContext</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541960">FltDeleteContext</a>. 
-
-To get the file context for a file object, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543025">FltGetFileContext</a>. 
-
-To set a file context, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544511">FltSetFileContext</a>. 
-
-To decrement the reference count on a context, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>. 
-
-
-
+For more information about contexts, see [Managing Contexts in a Minifilter Driver](https://docs.microsoft.com/windows-hardware/drivers/ifs/managing-contexts-in-a-minifilter-driver).
 
 ## -see-also
 
+[FltAllocateContext](nf-fltkernel-fltallocatecontext.md)
 
+[FltDeleteContext](nf-fltkernel-fltdeletecontext.md)
 
+[FltDeleteFileContext](nf-fltkernel-fltdeletefilecontext.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>
+[FltGetFileContext](nf-fltkernel-fltgetfilecontext.md)
 
+[FltReleaseContext](nf-fltkernel-fltreleasecontext.md)
 
+[FltSetFileContext](nf-fltkernel-fltsetfilecontext.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541960">FltDeleteContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541980">FltDeleteFileContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543025">FltGetFileContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544511">FltSetFileContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544574">FltSupportsFileContexts</a>
- 
-
- 
-
+[FltSupportsFileContexts](nf-fltkernel-fltsupportsfilecontexts.md)
