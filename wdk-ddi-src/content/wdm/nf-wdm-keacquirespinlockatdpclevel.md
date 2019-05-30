@@ -57,7 +57,7 @@ The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the cal
 
 ### -param SpinLock [in, out]
 
-Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide the storage.
+Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide the storage.  The spin lock must be from non-paged pool.
 
 
 
