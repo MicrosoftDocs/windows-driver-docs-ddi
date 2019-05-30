@@ -37,7 +37,7 @@ ms.custom: RS5
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
 
 ## -description
-Describes the characteristics of the audio Endpoint driver. This information does not change while the interface is enabled but can change while disabled.
+Describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
 
 ## -struct-fields
 
