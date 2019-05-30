@@ -54,7 +54,7 @@ The <b>ObDereferenceObject</b> routine decrements the given object's reference c
 
 
 
-### -param a [in]
+### -param Object [in]
 
 Pointer to the object's body. 
 

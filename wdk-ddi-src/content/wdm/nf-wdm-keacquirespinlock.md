@@ -55,12 +55,12 @@ The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can sync
 
 
 
-### -param a
+### -param SpinLock
 Pointer to an initialized KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
 
-### -param b
+### -param OldIrql
 Pointer to a KIRQL variable that is set to the current IRQL when this call occurs.
 
 
