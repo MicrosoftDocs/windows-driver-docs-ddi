@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL
 topic_type:
 - APIRef
 - kbSyntax
@@ -50,7 +50,7 @@ The **FltAllocateContext** routine allocates a context structure for a specified
 
 ### -param Filter [in]
 
-An opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
+Opaque filter pointer for the caller. This parameter is required and cannot be **NULL**. (Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.)
 
 ### -param ContextType [in]
 
@@ -73,15 +73,13 @@ The size, in bytes, of the portion of the context defined by the minifilter driv
 The type of pool to allocate. This parameter is required and must be one of the following:
 
 * **NonPagedPool**
-* **PagedPool**
-
-Must be **NonPagedPool** if *ContextType* is FLT_VOLUME_CONTEXT.
+* **PagedPool** (must be **NonPagedPool** if *ContextType* is FLT_VOLUME_CONTEXT)
 
 Setting this parameter to an invalid value causes the system to execute an ASSERT on a checked build.
 
 ### -param ReturnedContext [out]
 
-A pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
+Pointer to a caller-allocated variable that receives the address of the newly allocated context. The caller is responsible for calling [FltReleaseContext](nf-fltkernel-fltreleasecontext.md) to release this context when it is no longer needed.
 
 ## -returns
 
@@ -217,7 +215,7 @@ Because contexts are reference-counted, it is not usually necessary to delete th
 
 [FLT_CONTEXT_REGISTRATION](ns-fltkernel-_flt_context_registration.md)
 
-[FltCloseSectionForDataScan<](nf-fltkernel-fltclosesectionfordatascan.md)
+[FltCloseSectionForDataScan](nf-fltkernel-fltclosesectionfordatascan.md)
 
 [FltCreateSectionForDataScan](nf-fltkernel-fltcreatesectionfordatascan.md)
 
@@ -235,7 +233,7 @@ Because contexts are reference-counted, it is not usually necessary to delete th
 
 [FltDeleteVolumeContext](nf-fltkernel-fltdeletevolumecontext.md)
 
-[FltGetContexts](nf-fltkernel-fltgetcontext.md)
+[FltGetContexts](nf-fltkernel-fltgetcontexts.md)
 
 [FltGetFileContext](nf-fltkernel-fltgetfilecontext.md)
 
