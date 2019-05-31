@@ -5,7 +5,7 @@ description: Reserved for system use.
 old-location: ifsk\iocheckdesiredaccess.htm
 tech.root: ifsk
 ms.assetid: ab90ab40-7b45-4658-b11b-cf46f91f8699
-ms.date: 04/16/2018
+ms.date: 05/30/2019
 ms.keywords: IoCheckDesiredAccess, IoCheckDesiredAccess function [Installable File System Drivers], ifsk.iocheckdesiredaccess, ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, ntifs/IoCheckDesiredAccess
 ms.topic: function
 req.header: ntifs.h
@@ -42,23 +42,24 @@ req.typenames:
 
 # IoCheckDesiredAccess function
 
-
 ## -description
 
-
-The <b>IoCheckDesiredAccess</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>.
-
+The **IoCheckDesiredAccess** routine determines whether the requested access rights to a file can be granted.
 
 ## -parameters
 
-
-
-
 ### -param DesiredAccess
 
-<p>Reserved.</p>
-
+Pointer to a variable containing a mask that identifies the requested access to the file.
 
 ### -param GrantedAccess
 
-Reserved.
+Mask value that specifies the access currently granted to the file.
+
+## -returns
+
+**IoCheckDesiredAccess** returns STATUS_SUCCESS if *DesiredAccess* is allowed given the current *GrantedAccess*; otherwise, it returns STATUS_ACCESS_DENIED.
+
+## -see-also
+
+[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck)

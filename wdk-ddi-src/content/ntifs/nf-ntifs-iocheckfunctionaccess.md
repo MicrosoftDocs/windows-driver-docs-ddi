@@ -5,7 +5,7 @@ description: Reserved for system use.
 old-location: ifsk\iocheckfunctionaccess.htm
 tech.root: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
-ms.date: 04/16/2018
+ms.date: 05/30/2019
 ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ifsk.iocheckfunctionaccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess
 ms.topic: function
 req.header: ntifs.h
@@ -42,48 +42,50 @@ req.typenames:
 
 # IoCheckFunctionAccess function
 
-
 ## -description
 
-
-The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>.
-
+The **IoCheckFunctionAccess** routine checks the parameters and access for a function against the current granted access to the file.
 
 ## -parameters
 
-
-
-
 ### -param GrantedAccess
 
-<p>Reserved.</p>
-
+Mask value that specifies the access currently granted to the file for the caller.
 
 ### -param MajorFunction
 
-Reserved.
-
+Major function code for the operation being performed.
 
 ### -param MinorFunction
 
-Reserved.
-
+Minor function code for the operation being performed.
 
 ### -param IoControlCode
 
-Reserved.
-
+I/O function control code for a device or file system I/O code.
 
 ### -param Arg1
 
-Reserved.
-
+Optional argument that depends on the major function. This parameter points to one of the [FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) enum values if *MajorFunction* indicates a query or set file information function is being performed.
 
 ### -param Arg2
 
-Reserved.
+Optional second argument that depends on the major function. This parameter points to one of the [FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass) enum values. This parameter must be supplied if *MajorFunction* indicates a query or set file information function is being performed.
 
+## -returns
 
+**IoCheckFunctionAccess** returns STATUS_SUCCESS if the caller has access to the file; otherwise, it returns STATUS_ACCESS_DENIED.
 
+## -remarks
 
+The *GrantedAccess* mask cannot contain any generic mappings. That is, [IoCheckDesiredAccess](nf-ntifs-iocheckdesiredaccess.md) must have been previously invoked to return a full mask.
 
+## -see-also
+
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+
+[FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass)
+
+[IoCheckDesiredAccess](nf-ntifs-iocheckdesiredaccess.md)
+
+[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck)
