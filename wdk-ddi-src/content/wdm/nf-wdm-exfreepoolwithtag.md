@@ -65,7 +65,7 @@ Specifies the tag value passed to <a href="https://msdn.microsoft.com/library/wi
 
 **NOTE**
 
-Tag must be a value from 0x20 (space) to 0x126 (tilde).
+Tag must be a value from 0x20 (space) to 0x7E (tilde).
 
 ## -returns
 
