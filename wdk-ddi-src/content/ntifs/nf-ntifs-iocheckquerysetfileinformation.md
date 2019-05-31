@@ -5,7 +5,7 @@ description: Reserved for system use.
 old-location: ifsk\iocheckquerysetfileinformation.htm
 tech.root: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
-ms.date: 04/16/2018
+ms.date: 05/30/2019
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 ms.topic: function
 req.header: ntifs.h
@@ -42,28 +42,41 @@ req.typenames:
 
 # IoCheckQuerySetFileInformation function
 
-
 ## -description
 
-
-The <b>IoCheckQuerySetFileInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
-
+The **IoCheckQuerySetFileInformation** routine checks the validity of the parameters for either a query or set file information operation.
 
 ## -parameters
 
-
-
-
 ### -param FileInformationClass
 
-<p>Reserved.</p>
-
+A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) enum value that specifies the file information class to be checked.
 
 ### -param Length
 
-Reserved.
-
+Size, in bytes, of the buffer required for the specified file information operation.
 
 ### -param SetOperation
 
-Reserved.
+Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, the operation is a set file operation; if **FALSE,** it is a query file operation.
+
+## -returns
+
+**IoCheckQuerySetFileInformation** returns STATUS_SUCCESS if the parameters are valid; otherwise, it returns one of the following error codes.
+
+| Return Code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_INFO_CLASS | The value specified in *FileInformationClass* is not a valid information class. |
+| STATUS_INFO_LENGTH_MISMATCH | The buffer size specified in *Length* is smaller than the buffer size required for the specified file operation. |
+
+## -remarks
+
+ **IoCheckQuerySetFileInformation** is used primarily by network servers running in kernel mode since no such parameter validity checking is done in the normal path.
+
+## -see-also
+
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+
+[ZwQueryInformationFile](nf-ntifs-ntqueryinformationfile.md)
+
+[ZwSetInformationFile](nf-ntifs-ntsetinformationfile.md)

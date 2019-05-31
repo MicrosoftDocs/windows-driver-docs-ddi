@@ -5,7 +5,7 @@ description: Reserved for system use.
 old-location: ifsk\iocheckquerysetvolumeinformation.htm
 tech.root: ifsk
 ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
-ms.date: 04/16/2018
+ms.date: 05/30/2019
 ms.keywords: IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ntifs/IoCheckQuerySetVolumeInformation
 ms.topic: function
 req.header: ntifs.h
@@ -42,28 +42,41 @@ req.typenames:
 
 # IoCheckQuerySetVolumeInformation function
 
-
 ## -description
 
-
-The <b>IoCheckQuerySetVolumeInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>.
-
+The **IoCheckQuerySetVolumeInformation** routine checks the validity of the parameters for either a query or set volume information operation.
 
 ## -parameters
 
-
-
-
 ### -param FsInformationClass
 
-<p>Reserved.</p>
-
+A [FS_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass) enum value that specifies the information class to be checked.
 
 ### -param Length
 
-Reserved.
-
+Size, in bytes, of the buffer required for the specified information operation.
 
 ### -param SetOperation
 
-Reserved.
+Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, the operation is a set volume operation; if **FALSE,** it is a query volume operation.
+
+## -returns
+
+**IoCheckQuerySetVolumeInformation** returns STATUS_SUCCESS if the parameters are valid; otherwise, it returns one of the following error codes.
+
+| Return Code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_INFO_CLASS | The value specified in *FsInformationClass* is not a valid information class. |
+| STATUS_INFO_LENGTH_MISMATCH | The buffer size specified in *Length* is smaller than the buffer size required for the specified volume operation. |
+
+## -remarks
+
+ **IoCheckQuerySetVolumeInformation** is used primarily by network servers running in kernel mode since no such parameter validity checking is done in the normal path.
+
+## -see-also
+
+[FS_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass)
+
+[ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
+
+[ZwSetVolumeInformationFile](https://msdn.microsoft.com/library/windows/hardware/ff567112(d=robot))
