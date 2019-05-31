@@ -70,7 +70,7 @@ None
 
 ## -remarks
 
-
+Note that this is a per interface contract, so there are no general IRQL requirements around InterfaceReference/Dereference.
 
 You can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a> routine to decrement the reference count for the interface.
 
