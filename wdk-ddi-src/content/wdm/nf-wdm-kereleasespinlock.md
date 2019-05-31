@@ -49,6 +49,15 @@ req.typenames:
 
 The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the original IRQL at which the caller was running.
 
+## -syntax
+
+```cpp
+NTKERNELAPI
+VOID
+KeReleaseSpinLockFromDpcLevel (
+    _Inout_ PKSPIN_LOCK SpinLock
+    );
+```
 
 ## -parameters
 

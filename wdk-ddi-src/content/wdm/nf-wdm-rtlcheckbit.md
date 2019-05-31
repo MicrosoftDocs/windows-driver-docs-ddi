@@ -52,7 +52,6 @@ The <b>RtlCheckBit</b> routine determines whether a particular bit in a given bi
 ## -syntax
 
 
-## -parameters
 
 ```
 BOOLEAN
@@ -62,6 +61,7 @@ RtlCheckBit (
     )
 ```
 
+## -parameters
 
 ### -param BitMapHeader
 
