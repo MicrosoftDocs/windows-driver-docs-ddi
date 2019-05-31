@@ -166,7 +166,7 @@ The driver can then create an object with a customized context size.
 </tr>
 </table></span></div>
 
-
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 
 ## -see-also
 

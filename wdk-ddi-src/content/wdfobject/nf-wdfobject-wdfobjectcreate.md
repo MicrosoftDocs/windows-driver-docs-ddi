@@ -88,6 +88,7 @@ By default, the new general framework object's parent is the framework driver ob
 
 For more information about the <b>WdfObjectCreate</b> method, see <a href="https://msdn.microsoft.com/d3356d3f-8110-44dd-b4a2-36265f5a1714">Using General Framework Objects</a>.
 
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 
 #### Examples
 
