@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 85ff55ca-e626-4214-9844-2eac78b9dcc5
 ms.author: windowsdriverdev
-ms.date: 05/08/2019
+ms.date: 06/03/2019
 ms.topic: struct
 ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA_EX, KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX, 
 req.header: wdm.h
@@ -59,6 +59,7 @@ Specifies the maximum amount of data that the BugCheck Callback routine can writ
 Specifies a GUID that identifies the driver's crash dump data. (Drivers must use unique GUIDs to mark their crash dump data. Use the GuidGen.exe tool to generate GUIDs for your driver.
 
 ### -field OutBuffer
+
 Pointer to the buffer where the driver writes its crash dump data, or <b>NULL</b>.
 
 ### -field OutBufferLength
@@ -109,19 +110,19 @@ Contains a bug check code, which specifies the reason for the bug check. The cal
  
 ### -field BugCheckParameter1
 
-Bug Check Parameter 1. This value is set by ___________???
+Bug Check Parameter 1. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter2
 
-Bug Check Parameter 2. This value is set by ___________???
+Bug Check Parameter 2. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter3
 
-Bug Check Parameter 3. This value is set by ___________???
+Bug Check Parameter 3. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter4
 
-Bug Check Parameter 4. This value is set by ___________???
+Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
  
 ## -remarks
 
