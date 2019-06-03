@@ -50,7 +50,7 @@ req.typenames:
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
 >[!NOTE]
->This function is for Microsoftinternal use only.
+>This function is for Microsoft-internal use only.
 
 The <b>WdfDeviceGetDevicePowerPolicyState</b> method returns the current state of the framework's power policy state machine, for a specified device.
 
