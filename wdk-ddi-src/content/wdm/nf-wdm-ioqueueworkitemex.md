@@ -85,7 +85,7 @@ None
 
 ## -remarks
 
-
+The **IoQueueWorkItemEx** routine differs from [**IoQueueWorkItem**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem) in that the **WorkerRoutine** parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566381">WorkItemEx</a> callback routine, which provides the driver with a pointer to the [**IO_WORKITEM**](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess) structure for the work item.
 
 For more information about work items, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.
 
