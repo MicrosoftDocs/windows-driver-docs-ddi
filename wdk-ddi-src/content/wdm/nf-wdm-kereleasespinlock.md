@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.KeReleaseSpinLock
+UID: NF:wdm.KeReleaseSpinLock~r1
 title: KeReleaseSpinLock macro (wdm.h)
 description: The KeReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 old-location: kernel\kereleasespinlock.htm
@@ -49,15 +49,7 @@ req.typenames:
 
 The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the original IRQL at which the caller was running.
 
-## -syntax
 
-```cpp
-NTKERNELAPI
-VOID
-KeReleaseSpinLockFromDpcLevel (
-    _Inout_ PKSPIN_LOCK SpinLock
-    );
-```
 
 ## -parameters
 
@@ -70,6 +62,7 @@ Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
 ### -param NewIrql [in, out]
+
 Specifies the KIRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
 
 
