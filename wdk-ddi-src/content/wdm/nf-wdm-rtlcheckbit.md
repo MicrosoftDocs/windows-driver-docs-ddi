@@ -49,17 +49,6 @@ req.typenames:
 The <b>RtlCheckBit</b> routine determines whether a particular bit in a given bitmap variable is clear or set. 
 
 
-## -syntax
-
-
-
-```
-BOOLEAN
-RtlCheckBit (
-    PRTL_BITMAP BitMapHeader,
-    ULONG BitPosition
-    )
-```
 
 ## -parameters
 
