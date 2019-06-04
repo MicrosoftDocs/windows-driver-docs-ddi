@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.KeAcquireSpinLock
+UID: NF:wdm.KeAcquireSpinLock~r1
 title: KeAcquireSpinLock macro (wdm.h)
 description: The KeAcquireSpinLock routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 old-location: kernel\keacquirespinlock.htm
