@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.RtlCheckBit
+UID: NF:wdm.RtlCheckBit~r1
 title: RtlCheckBit macro (wdm.h)
 description: The RtlCheckBit routine determines whether a particular bit in a given bitmap variable is clear or set.
 old-location: kernel\rtlcheckbit.htm
