@@ -211,177 +211,115 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk
 
 ### -field FileIoCompletionNotificationInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows Vista.
+This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileIoStatusBlockRangeInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows Vista.
+This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileIoPriorityHintInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_io_priority_hint_information">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure.
-
-This value is available starting with Windows Vista.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_io_priority_hint_information">FILE_IO_PRIORITY_HINT_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 ### -field FileSfioReserveInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows Vista.
+This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileSfioVolumeInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows Vista.
+This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileHardLinkInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a> structure.
-
-This value is available starting with Windows Vista.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_links_information">FILE_LINKS_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 ### -field FileProcessIdsUsingFileInformation
 
-A <b>FILE_PROCESS_IDS_USING_FILE_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows Vista.
+A <b>FILE_PROCESS_IDS_USING_FILE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows Vista.
 
 ### -field FileNormalizedNameInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure.
-
-This value is defined starting with Windows Vista. It is supported starting with Windows 8.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_name_information">FILE_NAME_INFORMATION</a> structure. This value is defined starting with Windows Vista. It is supported starting with Windows 8.
 
 ### -field FileNetworkPhysicalNameInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_network_physical_name_information">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> structure.
-
-This value is available starting with Windows Vista.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_network_physical_name_information">FILE_NETWORK_PHYSICAL_NAME_INFORMATION</a> structure. This value is available starting with Windows Vista.
 
 ### -field FileIdGlobalTxDirectoryInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_global_tx_dir_information">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure.
-
-This value is available starting with Windows 7.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_global_tx_dir_information">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure. This value is available starting with Windows 7.
 
 ### -field FileIsRemoteDeviceInformation
 
-A <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 7.
+A <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileUnusedInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows 7.
+This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileNumaNodeInformation
 
-A <b>FILE_NUMA_NODE_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 7.
+A <b>FILE_NUMA_NODE_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileStandardLinkInformation
 
-A <b>FILE_STANDARD_LINK_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 7.
+A <b>FILE_STANDARD_LINK_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 7.
 
 ### -field FileRemoteProtocolInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-file_remote_protocol_information">FILE_REMOTE_PROTOCOL_INFORMATION</a> structure.
-
-This value is available starting with Windows 7.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-file_remote_protocol_information">FILE_REMOTE_PROTOCOL_INFORMATION</a> structure. This value is available starting with Windows 7.
 
 ### -field FileRenameInformationBypassAccessCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure.
-
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
-
-This value is available starting with Windows 10.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure. This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10.
 
 ### -field FileLinkInformationBypassAccessCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure.
-
-This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
-
-This value is available starting with Windows 10.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure. This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10.
 
 ### -field FileVolumeNameInformation
 
-A <b>FILE_VOLUME_NAME_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 10.
+A <b>FILE_VOLUME_NAME_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdInformation
 
-A <b>FILE_ID_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 10.
+A <b>FILE_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdExtdDirectoryInformation
 
-A <b>FILE_ID_EXTD_DIR_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 10.
+A <b>FILE_ID_EXTD_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileReplaceCompletionInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_completion_information">FILE_COMPLETION_INFORMATION</a> structure to change or remove the completion port associated with a file handle.
-
-This value is available starting with Windows 8.1.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_completion_information">FILE_COMPLETION_INFORMATION</a> structure to change or remove the completion port associated with a file handle. This value is available starting with Windows 8.1.
 
 ### -field FileHardLinkFullIdInformation
 
-A <b>FILE_LINK_ENTRY_FULL_ID_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 10.
+A <b>FILE_LINK_ENTRY_FULL_ID_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileIdExtdBothDirectoryInformation
 
-A <b>FILE_ID_EXTD_BOTH_DIR_INFORMATION</b> structure. This value is reserved for system use.
-
-This value is available starting with Windows 10.
+A <b>FILE_ID_EXTD_BOTH_DIR_INFORMATION</b> structure. This value is reserved for system use. This value is available starting with Windows 10.
 
 ### -field FileDispositionInformationEx
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex">FILE_DISPOSITION_INFORMATION_EX</a> structure that indicates how the operating system should delete a file.
-
-This value is available starting with Windows 10, version 1709.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_disposition_information_ex">FILE_DISPOSITION_INFORMATION_EX</a> structure that indicates how the operating system should delete a file. This value is available starting with Windows 10, version 1709.
 
 ### -field FileRenameInformationEx
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags.
-
-This value is available starting with Windows 10, version 1709.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709.
 
 ### -field FileRenameInformationExBypassAccessCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags.
-
-This value is available starting with Windows 10, version 1709.
-
-This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks.  This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information">FILE_RENAME_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1709. This is a special version of the <b>FileRenameInformation</b> operation that is used by kernel-mode drivers only in order to bypass security access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
 
 ### -field FileDesiredStorageClassInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class">FILE_DESIRED_STORAGE_CLASS_INFORMATION</a> structure, declared in ntifs.h.
-
-This value is available starting with Windows 10, version 1709.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class">FILE_DESIRED_STORAGE_CLASS_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_stat_information">FILE_STAT_INFORMATION</a> structure, declared in ntifs.h.
-
-This value is available starting with Windows 10, version 1709.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_stat_information">FILE_STAT_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileMemoryPartitionInformation
 
@@ -389,46 +327,28 @@ Reserved. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatLxInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_stat_lx_information">FILE_STAT_LX_INFORMATION</a> structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux.
-
-This value is available starting with Windows 10 April 2018 Update.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_stat_lx_information">FILE_STAT_LX_INFORMATION</a> structure, declared in ntifs.h. This information class is used for fields refer to Linux metadata used/created by the Windows Subsystem for Linux. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileCaseSensitiveInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h.
-
-This value is available starting with Windows 10 April 2018 Update.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10 April 2018 Update.
 
 ### -field FileLinkInformationEx
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags.
-
-This value is available starting with Windows 10, version 1809.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags. This value is available starting with Windows 10, version 1809.
 
 ### -field FileLinkInformationExBypassAccessCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags.
-
-This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it.
-
-This value is available starting with Windows 10, version 1809.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information">FILE_LINK_INFORMATION</a> structure which contains additional flags. This is a special version of the <b>FileLinkInformation</b> operation that is used by kernel-mode drivers only in order to bypass security  access checks. This operation is only recognized by the <i>IOManager</i> and a file system should never receive it. This value is available starting with Windows 10, version 1809.
 
 ### -field FileStorageReserveIdInformation
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_storage_reserve_id_information">FILE_SET_STORAGE_RESERVE_ID_INFORMATION</a> structure, declared in ntifs.h.
-
-This value is available starting with Windows 10, version 1809.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_storage_reserve_id_information">FILE_SET_STORAGE_RESERVE_ID_INFORMATION</a> structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
 
 ### -field FileCaseSensitiveInformationForceAccessCheck
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h.
-
-This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it.
-
-This value is available starting with Windows 10, version 1809.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure, declared in ntifs.h. This is a special version of the **FileCaseSensitiveInformation** operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1809.
 
 ### -field FileMaximumInformation
 
-This value is reserved for system use.
-
-This value is available starting with Windows 7.
+This value is reserved for system use. This value is available starting with Windows 7.
