@@ -42,24 +42,6 @@ ms.custom: RS5
 
 A boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine can monitor boot-start driver initialization events and return data to the kernel to enable the kernel to decide whether to initialize each boot-start driver. The function prototype to register a boot-start driver callback routine is as follows.
 
-## -prototype
-
-```cpp
-//Declaration
-
-BOOT_DRIVER_CALLBACK_FUNCTION BootDriverCallbackFunction; 
-
-// Definition
-
-VOID BootDriverCallbackFunction 
-(
-	PVOID CallbackContext
-	BDCB_CALLBACK_TYPE Classification
-	PBDCB_IMAGE_INFORMATION ImageInformation
-)
-{...}
-
-```
 
 ## -parameters
 
