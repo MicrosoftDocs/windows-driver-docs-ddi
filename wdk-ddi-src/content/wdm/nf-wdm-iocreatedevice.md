@@ -50,7 +50,7 @@ The **IoCreateDevice** routine creates a device object for use by a driver.
 
 ### -param DriverObject [in]
 
-Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its [DriverEntry](https://msdn.microsoft.com/library/windows/hardware/ff552644) routine. WDM function and filter drivers also receive a driver object pointer in their [AddDevice](https://msdn.microsoft.com/library/windows/hardware/ff540521) routines.
+Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize) routine. WDM function and filter drivers also receive a driver object pointer in their [AddDevice](https://msdn.microsoft.com/library/windows/hardware/ff540521) routines.
 
 ### -param DeviceExtensionSize [in]
 
