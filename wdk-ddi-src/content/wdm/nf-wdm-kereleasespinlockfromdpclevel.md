@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.KeReleaseSpinLockFromDpcLevel
+UID: NF:wdm.KeReleaseSpinLockFromDpcLevel~r1
 title: KeReleaseSpinLockFromDpcLevel macro (wdm.h)
 description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 old-location: kernel\kereleasespinlockfromdpclevel.htm

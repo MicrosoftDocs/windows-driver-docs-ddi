@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.KeAcquireSpinLockAtDpcLevel
+UID: NF:wdm.KeAcquireSpinLockAtDpcLevel~r1
 title: KeAcquireSpinLockAtDpcLevel macro (wdm.h)
 description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL &gt;= DISPATCH_LEVEL.
 old-location: kernel\keacquirespinlockatdpclevel.htm

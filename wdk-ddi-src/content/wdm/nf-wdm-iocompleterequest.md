@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.IoCompleteRequest
+UID: NF:wdm.IofCompleteRequest
 title: IoCompleteRequest macro (wdm.h)
 description: The IoCompleteRequest routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 old-location: kernel\iocompleterequest.htm
