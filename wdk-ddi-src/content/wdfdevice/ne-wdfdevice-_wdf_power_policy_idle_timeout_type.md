@@ -73,9 +73,7 @@ On operating systems earlier than Windows 8, the behavior is same as <b>DriverM
 
 Starting in Windows 8, the PoFx uses the value specified in the <b>IdleTimeout</b> member as an input when determining at what point after all the components are idle to transition the device to a low-power (Dx) state. This option enables the driver to delay the transition to a low-power state.
 
-Typically, PoFx waits until the end of the time-out interval to initiate the power transition. However, if PoFx is preparing to enter a low-power system state, PoFx might end the time-out interval early.
-
-The  <b>IdleTimeout</b> value is only advisory. The actual duration after which the PoFx allows the device to enter a low-power state might be greater than or less than the <b>IdleTimeout</b> value.
+The actual duration after which the PoFx allows the device to enter a low-power state might be greater than the <b>IdleTimeout</b> value.
 
 On operating systems earlier than Windows 8, the behavior is the same as <b>DriverManagedIdleTimeout</b>.
 
