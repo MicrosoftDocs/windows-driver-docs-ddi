@@ -221,7 +221,7 @@ MyEvtIoDeviceControl(
                                                 NULL,
                                                 &amp;requiredSize
                                                 );
-        if (status != STATUS_BUFFER_TOO_SMALL) {
+        if (status == STATUS_BUFFER_TOO_SMALL) {
             break;
         }
 
