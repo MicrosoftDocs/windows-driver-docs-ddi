@@ -58,7 +58,7 @@ The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-s
 
 ### -field Classification
 
-The classification of the boot start image.
+An enumeration of type [**BDCB_CLASSIFICATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_bdcb_classification) that specifies the classification of the boot start image.
 
 
 ### -field ImageFlags
