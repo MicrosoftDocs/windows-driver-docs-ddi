@@ -51,7 +51,7 @@ The **NtQueryVirtualMemory** routine determines the state, protection, and type 
 
 ### -param ProcessHandle [in]
 
-A handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
+Handle for the process in whose context the pages to be queried reside. Use the [NtCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) macro to specify the current process.
 
 ### -param BaseAddress [in, optional]
 
@@ -63,7 +63,7 @@ The memory information class about which to retrieve information. Currently, the
 
 ### -param MemoryInformation [out]
 
-A pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_memory_basic_information) structure.
+Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_memory_basic_information) structure.
 
 ### -param MemoryInformationLength [in]
 
@@ -89,7 +89,7 @@ Returns STATUS_SUCCESS if the call is successful. If the call fails, possible er
 
 **ZwQueryVirtualMemory** determines the state of the first page within the region and then scans subsequent entries in the process address map from the base address upward until either the entire range of pages has been scanned or until a page with a non-matching set of attributes is encountered. The region attributes, the length of the region of pages with matching attributes, and an appropriate status value are returned.
 
-If the entire region of pages does not have a matching set of attributes, then the sub-regions within one address reservation will be returned individually. They will have the same *\*MemoryInformation.AllocationBase* value, their individual sizes will be in *\*MemoryInformation.RegionSize**, and the total size of the address reservation can be obtained by summing all of the *\*MemoryInformation.RegionSize* values associated with a particular *\*MemoryInformation.AllocationBase* value.
+If the entire region of pages does not have a matching set of attributes, then the sub-regions within one address reservation will be returned individually. They will have the same *\*MemoryInformation.AllocationBase* value, their individual sizes will be in *\*MemoryInformation.RegionSize*, and the total size of the address reservation can be obtained by summing all of the *\*MemoryInformation.RegionSize* values associated with a particular *\*MemoryInformation.AllocationBase* value.
 
 **NtQueryVirtualMemory** and [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot)) are two versions of the same Windows Native System Services routine.
 
