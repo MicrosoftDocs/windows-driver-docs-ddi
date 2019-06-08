@@ -106,7 +106,7 @@ This information can be queried in either of the following ways:
 
 No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
 
-The size of the buffer passed in the *FileInformation* parameter to **FltQueryVolumeInformation** or **ZwQueryVolumeInformationFile** must be at least ```sizeof(FILE_FS_ATTRIBUTE_INFORMATION)```.
+The size of the buffer passed in the *FileInformation* parameter to **FltQueryVolumeInformation** or **ZwQueryVolumeInformationFile** must be at least ```sizeof(FILE_FS_ATTRIBUTE_INFORMATION)```. Because a maximum file system name length cannot be assumed (practically, the limit is 2^31 character points), a second call to one of these routines will be required once *FileSystemNameLength* is known.
 
 This structure must be aligned on a **LONG** (4-byte) boundary.
 
