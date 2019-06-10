@@ -78,7 +78,7 @@ Storage for a spin lock object must be resident: in the device extension of a dr
 
 > [!NOTE]
 > This function is inlined for x64 systems from Windows XP till Windows 7.
-> Starting in Windows 8, this function is exported from `ntoskrnl.lib`. As a result, if you are using the Windows 10 WDK to build a binary that runs on Windows 7 (and therefore you need NX pool usage to pass Windows 10 HLK tests), you must define `WIN9X_COMPAT_SPINLOCK`.
+> Starting in Windows 8, this function is exported from `ntoskrnl.lib`. As a result, if you are using the Windows 10 WDK to build a binary that runs on Windows 7 (and therefore you need NX pool usage to pass Windows 10 HLK tests), you must define `WIN9X_COMPAT_SPINLOCK`.  Otherwise, you may see `Windows cannot load the device driver for this hardware. The driver may be corrupted or missing. (Code 39)`.
 
 For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
 
