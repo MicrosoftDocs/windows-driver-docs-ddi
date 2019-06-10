@@ -76,11 +76,13 @@ This routine must be called before an initial call to <a href="https://msdn.micr
 
 Storage for a spin lock object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller.
 
+> [!NOTE]
+> This function is inlined for x64 systems from Windows XP till Windows 7.
+> Starting in Windows 8, this function is exported from `ntoskrnl.lib`. As a result, if you are using the Windows 10 WDK to build a binary that runs on Windows 7 (and therefore you need NX pool usage to pass Windows 10 HLK tests), you must define `WIN9X_COMPAT_SPINLOCK`.
+
 For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
 
 Callers of this routine can be running at any IRQL. Usually, a caller is running at IRQL = PASSIVE_LEVEL in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
-
-
 
 
 ## -see-also
