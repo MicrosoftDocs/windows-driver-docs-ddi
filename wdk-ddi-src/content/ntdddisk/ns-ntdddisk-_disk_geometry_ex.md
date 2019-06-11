@@ -77,7 +77,7 @@ DISK_GEOMETRY_EX is used in conjunction with the <a href="https://msdn.microsoft
 
 Because the partition and detect information are not at fixed locations within the <b>DISK_GEOMETRY_EX</b> structure, <i>ntdddisk.h</i> provides two macros for accessing this information. Both macros take a pointer to a structure of type <b>DISK_GEOMETRY_EX</b> as an argument:
 
-<pre class="syntax" xml:space="preserve"><code>#if (NTDDI_VERSION &lt; NTDDI_WS03)
+<pre class="syntax" xml:space="preserve"><code>#if (NTDDI_VERSION < NTDDI_WS03)
 #define DiskGeometryGetPartition(Geometry)\
                         ((PDISK_PARTITION_INFO)((Geometry)+1))
 

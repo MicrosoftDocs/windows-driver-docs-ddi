@@ -89,7 +89,7 @@ After the USB driver stack completes the select-configuration request, you can i
 
 After you have completed all operations with the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>, you must free the <b>URB</b> by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>. 
 
-You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL &lt; DISPATCH_LEVEL.
+You can  allocate the configuration descriptor and the array from nonpaged or paged pool. Callers of this routine can run at IRQL <= DISPATCH_LEVEL if the memory pointed to by <i>ConfigurationDescriptor</i> and <i>InterfaceList</i> is allocated from nonpaged pool. Otherwise, callers must run at IRQL < DISPATCH_LEVEL.
 
 
 

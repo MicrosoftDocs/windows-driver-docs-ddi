@@ -133,11 +133,11 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
     list = reqlist->List;
 
-    for (int ix = 0; ix &lt; reqlist->AlternativeLists; ++ix)
+    for (int ix = 0; ix < reqlist->AlternativeLists; ++ix)
     {
         /* Process resources in IO_RESOURCE_LIST block number ix. */
 
-        for (int jx = 0; jx &lt; list->Count; ++jx)
+        for (int jx = 0; jx < list->Count; ++jx)
         {
             PIO_RESOURCE_DESCRIPTOR desc; 
 

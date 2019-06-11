@@ -221,7 +221,7 @@ Return Value:
     if (IrpSp->Parameters.QueryFile.FileInformationClass ==
         FileStandardInformation) {
 
-        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength &lt;
+        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength <
                 sizeof(FILE_STANDARD_INFORMATION))
         {
                 Status = STATUS_BUFFER_TOO_SMALL;
@@ -241,7 +241,7 @@ Return Value:
     } else if (IrpSp->Parameters.QueryFile.FileInformationClass ==
                FilePositionInformation) {
 
-        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength &lt;
+        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength <
                 sizeof(FILE_POSITION_INFORMATION))
         {
                 Status = STATUS_BUFFER_TOO_SMALL;

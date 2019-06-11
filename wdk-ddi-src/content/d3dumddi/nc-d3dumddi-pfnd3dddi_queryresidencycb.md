@@ -110,7 +110,7 @@ CD3DContext::QueryResourceResidency(CONST D3DDDIARG_QUERYRESOURCERESIDENCY* pQRR
     HRESULT hr;
     BOOL    bPartInSharedMem = FALSE;
 
-    for (UINT i = 0; i &lt; pQRR->NumResources; i++) {
+    for (UINT i = 0; i < pQRR->NumResources; i++) {
         memset(&queryRes, 0, sizeof(queryRes));
         queryRes.hResource = m_RTbl[(DWORD)(DWORD_PTR)pQRR->pHandleList[i]].m_hResRuntime;
         if (! queryRes.hResource) {

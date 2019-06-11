@@ -153,7 +153,7 @@ Interrupt
 
 </td>
 <td>
-StartIo (physical miniports only when requested concurrent channels &lt;= 1)
+StartIo (physical miniports only when requested concurrent channels <= 1)
 
 </td>
 </tr>

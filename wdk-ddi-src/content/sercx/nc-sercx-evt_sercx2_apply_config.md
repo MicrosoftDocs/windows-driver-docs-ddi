@@ -136,7 +136,7 @@ The following code example shows a partial implementation of an <i>EvtSerCx2Appl
 //
 
 #define ANYSIZE_ARRAY 1
-#include &lt;pshpack1.h>
+#include <pshpack1.h>
 
 //
 // Common resource name descriptor
@@ -161,7 +161,7 @@ typedef struct _PNP_UART_SERIAL_BUS_DESCRIPTOR {
     ....
 } PNP_UART_SERIAL_BUS_DESCRIPTOR, *PPNP_UART_SERIAL_BUS_DESCRIPTOR;
 
-#include &lt;poppack.h>
+#include <poppack.h>
 
 EVT_SERCX_APPLY_CONFIG MyApplyConfig;
 
@@ -189,7 +189,7 @@ VOID
     {
         connection = (PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER)ConnectionParameters;
 
-        if (connection->PropertiesLength &lt; sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
+        if (connection->PropertiesLength < sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
         {
             status = STATUS_INVALID_PARAMETER;
         }

@@ -1,7 +1,7 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
 title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
-description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef> element in the PrintCapabilites XML.
+description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the <psf:ParameterDef> element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
@@ -45,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef> element in the PrintCapabilites XML.
+The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the <psf:ParameterDef> element in the PrintCapabilites XML.
 
  The keyword name and keyword namespace URI specify the <b>IPrintSchemaParameterDefinition</b> object to be retrieved.
 
@@ -69,11 +69,11 @@ The <b>GetParameterDefinition</b> method returns an <b>HRESULT</b> value. If the
 
 ## -remarks
 
-To be consistent with <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>, the <b>GetParameterDefinition</b> method works for any &lt;psf:ParameterDef> element that is defined in the public keyword namespaces.  The <b>GetParameterDefinition</b> method also works for any IHV-defined  private keyword namespace that uses  either the StringParamType or the IntegerParamType data type.
+To be consistent with <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>, the <b>GetParameterDefinition</b> method works for any <psf:ParameterDef> element that is defined in the public keyword namespaces.  The <b>GetParameterDefinition</b> method also works for any IHV-defined  private keyword namespace that uses  either the StringParamType or the IntegerParamType data type.
 
-When you use the &lt;psf:ParameterDef> element with the QNameParamType or the DecimalParamType data type, <b>GetParameterDefinition</b> will return HRESULT_FROM_WIN32 (ERROR_NOT_SUPPORTED).
+When you use the <psf:ParameterDef> element with the QNameParamType or the DecimalParamType data type, <b>GetParameterDefinition</b> will return HRESULT_FROM_WIN32 (ERROR_NOT_SUPPORTED).
 
-For more information about the data types that you can use with the &lt;psf:ParameterDef> element, see section 2.1.3.1 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
+For more information about the data types that you can use with the <psf:ParameterDef> element, see section 2.1.3.1 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
 
 ## -see-also
 

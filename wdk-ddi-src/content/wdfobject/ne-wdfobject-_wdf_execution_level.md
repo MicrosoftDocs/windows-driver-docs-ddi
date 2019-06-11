@@ -73,7 +73,7 @@ The framework always calls the object's callback functions at IRQL = PASSIVE_LEV
 
 ### -field WdfExecutionLevelDispatch
 
-The framework calls the object's callback functions at IRQL &lt;= DISPATCH_LEVEL. Not available in UMDF.
+The framework calls the object's callback functions at IRQL <= DISPATCH_LEVEL. Not available in UMDF.
 
 
 ## -remarks

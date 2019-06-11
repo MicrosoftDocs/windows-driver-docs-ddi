@@ -135,7 +135,7 @@ HRESULT hr;
 // Create a new remote target object and provide a callback 
 // object to handle remote target events.
 //
-CComPtr&lt;IWDFRemoteTarget> fxTarget;
+CComPtr<IWDFRemoteTarget> fxTarget;
 hr = FxDevice->CreateRemoteTarget(MyRemoteTargetIUnknown,
                                   fxRemoteInterface,
                                   &fxTarget);

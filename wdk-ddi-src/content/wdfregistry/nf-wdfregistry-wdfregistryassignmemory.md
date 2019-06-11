@@ -188,7 +188,7 @@ status = WdfMemoryCreate(
 if (NT_SUCCESS(status)) {
 
     // Fill the buffer with fake data.
-    for (i = 1; i &lt;= MEMORY_LENGTH; i++) {
+    for (i = 1; i <= MEMORY_LENGTH; i++) {
         pBuffer[i-1] = i;
     }
 

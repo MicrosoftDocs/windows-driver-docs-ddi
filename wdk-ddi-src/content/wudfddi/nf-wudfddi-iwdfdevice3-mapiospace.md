@@ -130,7 +130,7 @@ CMyDevice::OnPrepareHardware(
     //
     // Scan the list to identify our resource.
     //
-    for (i=0; i &lt; pWdfResTranslated->GetCount(); i++) {
+    for (i=0; i < pWdfResTranslated->GetCount(); i++) {
         desc = (PCM_PARTIAL_RESOURCE_DESCRIPTOR) pTrans->GetDescriptor(i);
 
         switch (desc->Type) {

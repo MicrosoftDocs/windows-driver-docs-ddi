@@ -111,7 +111,7 @@ if (SUCCEEDED(hrSend))
     // If send succeeded, complete the request and specify 
     // the current status value.
     //
-    CComQIPtr&lt;IWDFIoRequest2> fxRequest2 = fxRequest;
+    CComQIPtr<IWDFIoRequest2> fxRequest2 = fxRequest;
     hrSend = fxRequest2->GetStatus();
     fxRequest->CompleteWithInformation(hrSend, 0);
 }

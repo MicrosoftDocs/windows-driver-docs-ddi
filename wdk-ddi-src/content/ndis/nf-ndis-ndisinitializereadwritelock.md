@@ -114,12 +114,12 @@ Each lock that a driver initializes does one of the following:
 <ul>
 <li>
 Protects a discrete set of shared resources from simultaneous write and read access by driver
-      threads that run at IRQL &lt;= DISPATCH_LEVEL.
+      threads that run at IRQL <= DISPATCH_LEVEL.
 
 </li>
 <li>
 Exposes a discrete set of shared resources to simultaneous read access by driver threads that run at
-      IRQL &lt;= DISPATCH_LEVEL.
+      IRQL <= DISPATCH_LEVEL.
 
 </li>
 </ul>

@@ -71,7 +71,7 @@ The value to be stored.
 
 Callers of 
     <b>NdisStoreUlong</b> can be running at any IRQL if 
-    <i>DestinationAddress</i> points to nonpaged pool. Otherwise, the caller must be running at IRQL &lt;
+    <i>DestinationAddress</i> points to nonpaged pool. Otherwise, the caller must be running at IRQL <
     DISPATCH_LEVEL.
 
 

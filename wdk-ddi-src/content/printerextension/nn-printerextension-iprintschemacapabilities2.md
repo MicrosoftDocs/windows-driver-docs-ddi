@@ -69,7 +69,7 @@ The <b>IPrintSchemaCapabilities2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn465889">GetParameterDefinition</a>
 </td>
 <td align="left" width="63%">
-The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef> element in the PrintCapabilites XML.
+The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the <psf:ParameterDef> element in the PrintCapabilites XML.
 
 </td>
 </tr>

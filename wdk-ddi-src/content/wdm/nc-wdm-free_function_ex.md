@@ -87,7 +87,7 @@ The <i>LookasideListFreeEx</i> routine can use the <i>Lookaside</i> parameter to
 
 For more information about lookaside lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
-The <i>LookasideListFreeEx</i> routine is called at the same IRQL as the call to <b>ExFreeToLookasideListEx</b> that frees the entry. For a call to free an entry that resides in paged memory, the caller must be running IRQL &lt;= APC_LEVEL. For a call to free an entry that resides in nonpaged memory, the caller must be running IRQL &lt;= DISPATCH_LEVEL.
+The <i>LookasideListFreeEx</i> routine is called at the same IRQL as the call to <b>ExFreeToLookasideListEx</b> that frees the entry. For a call to free an entry that resides in paged memory, the caller must be running IRQL <= APC_LEVEL. For a call to free an entry that resides in nonpaged memory, the caller must be running IRQL <= DISPATCH_LEVEL.
 
 
 #### Examples

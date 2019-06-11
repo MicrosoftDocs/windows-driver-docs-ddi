@@ -116,7 +116,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
     //
     // Search each logical configuration.
     //
-    for (i = 0; i &lt; reqCount; i++) {
+    for (i = 0; i < reqCount; i++) {
         WDFIORESLIST reslist;
 
         if (descriptorFound) {
@@ -130,7 +130,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
         //
         resCount = WdfIoResourceListGetCount(reslist);
 
-        for (j = 0; j &lt; resCount; j++) {
+        for (j = 0; j < resCount; j++) {
             PIO_RESOURCE_DESCRIPTOR descriptor;
 
             //

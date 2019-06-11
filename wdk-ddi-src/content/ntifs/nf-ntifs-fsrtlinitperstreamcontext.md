@@ -115,7 +115,7 @@ A file system filter driver uses the <b>FsRtlInitPerStreamContext</b> macro to i
 
 <b>FsRtlInitPerStreamContext</b> stores the address of the <i>FreeCallback</i> routine in the <b>FreeCallback</b> member of the FSRTL_PER_STREAM_CONTEXT structure. 
 
-The <i>FreeCallback</i> routine is called at IRQL &lt;= APC_LEVEL. Usually, it is called at IRQL PASSIVE_LEVEL. 
+The <i>FreeCallback</i> routine is called at IRQL <= APC_LEVEL. Usually, it is called at IRQL PASSIVE_LEVEL. 
 
 <div class="alert"><b>Note</b>    The <i>FreeCallback</i> routine cannot recursively call down into the file system or acquire any file system resources. Also, this routine must assume that the file object for the file stream has already been freed. </div>
 <div> </div>

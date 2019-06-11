@@ -167,7 +167,7 @@ The following code example gets processor relationship information for all the l
     NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH && BufferSize > 0);
 
     //
-    // Allocate buffer (assume IRQL &lt;= APC_LEVEL).
+    // Allocate buffer (assume IRQL <= APC_LEVEL).
     //
     Info = ExAllocatePoolWithTag(PagedPool, BufferSize, ' gaT');
     if (Info == NULL)

@@ -103,7 +103,7 @@ The following is an example of querying the network physical name  information o
     ULONG NameInfoLength;
     PFILE_NETWORK_PHYSICAL_NAME_INFORMATION NetFileNameInfo = NULL;
 
-    if ( MaxNetworkNameLength &lt; sizeof(WCHAR) )
+    if ( MaxNetworkNameLength < sizeof(WCHAR) )
     {
         return STATUS_NAME_TOO_LONG;
     }
@@ -133,7 +133,7 @@ The following is an example of querying the network physical name  information o
     }
     if (Status == STATUS_BUFFER_OVERFLOW)
     {
-        if (NetFileNameInfo->FileNameLength &lt;= (MaxNetworkNameLength - sizeof(WCHAR)))
+        if (NetFileNameInfo->FileNameLength <= (MaxNetworkNameLength - sizeof(WCHAR)))
         {
             NameInfoLength += sizeof(PFILE_NETWORK_PHYSICAL_NAME_INFORMATION) + NetFileNameInfo->FileNameLength;
             ExFreePool(NetFileNameInfo);

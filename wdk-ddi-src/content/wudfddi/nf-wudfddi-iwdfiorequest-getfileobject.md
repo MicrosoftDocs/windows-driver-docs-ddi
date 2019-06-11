@@ -87,7 +87,7 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
 </tr>
 <tr>
 <td>
-<pre>  CComPtr&lt;IWDFFile>   pFileObject;
+<pre>  CComPtr<IWDFFile>   pFileObject;
 
   ...
 

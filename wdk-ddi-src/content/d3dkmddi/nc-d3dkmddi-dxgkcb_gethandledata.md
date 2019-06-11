@@ -112,7 +112,7 @@ DxgkDdiOpenAllocation(
     pAdapter  = (PHW_DEVICE_EXTENSION)pR2D3DDev->pAdapter;
     pCallback = &(pAdapter->ddiCallback);
 
-    for (dwIdx=0; dwIdx &lt; pDDIDAData->NumAllocations; dwIdx++) {
+    for (dwIdx=0; dwIdx < pDDIDAData->NumAllocations; dwIdx++) {
         DXGKARGCB_GETHANDLEDATA  getHandleData = {0};
         R2AllocationInfo*  pAllocInfo;
 

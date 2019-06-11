@@ -95,7 +95,7 @@ If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller suppl
 
 ### -param WaitBlockArray [out, optional]
 
-A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> &lt;= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
+A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
 
 
 ## -returns
@@ -193,7 +193,7 @@ Where possible, <i>Alertable</i> should be set to <b>FALSE</b> and <i>WaitMode</
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH_LEVEL. However, if <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> != 0, the caller must be running at IRQL &lt;= APC_LEVEL and in a nonarbitrary thread context. (If <i>Timeout</i> != <b>NULL</b> and *<i>Timeout</i> = 0, the caller must be running at IRQL &lt;= DISPATCH_LEVEL.)
+Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LEVEL. However, if <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If <i>Timeout</i> != <b>NULL</b> and *<i>Timeout</i> = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 
 

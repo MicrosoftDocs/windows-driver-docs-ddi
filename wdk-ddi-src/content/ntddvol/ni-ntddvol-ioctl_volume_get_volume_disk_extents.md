@@ -101,7 +101,7 @@ The driver sets <b>Irp->IoStatus.Information</b> and the <b>Status</b> field as 
 
 <ul>
 <li>
-If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is &lt; <b>sizeof</b>(VOLUME_DISK_EXTENTS), the driver sets <b>Irp->IoStatus.Information</b> to zero and returns STATUS_INVALID_PARAMETER.
+If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is < <b>sizeof</b>(VOLUME_DISK_EXTENTS), the driver sets <b>Irp->IoStatus.Information</b> to zero and returns STATUS_INVALID_PARAMETER.
 
 </li>
 <li>

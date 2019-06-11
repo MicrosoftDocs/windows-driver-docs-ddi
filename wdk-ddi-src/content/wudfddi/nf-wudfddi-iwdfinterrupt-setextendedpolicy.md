@@ -97,7 +97,7 @@ The following code example calls <a href="https://msdn.microsoft.com/library/win
 <pre>
 IWDFInterrupt* pInterrupt;
 
-#define AFFINITY_MASK(n) ((ULONG_PTR)1 &lt;&lt; (n))
+#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
 
 WDF_INTERRUPT_EXTENDED_POLICY myExtendedPolicy;
 

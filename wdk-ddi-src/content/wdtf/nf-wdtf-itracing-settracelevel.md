@@ -93,14 +93,14 @@ The following code example demonstrates how to use the <b>SetTraceLevel</b> meth
 '
 Set Action = CDROM.GetInterface("DeviceManagement")
  
-If Err.number &lt;> 0 Then
+If Err.number <> 0 Then
     WScript.Echo Space(4) & "Failed to get interface DeviceManagement. Error Number:" & Err.number
 Else            
     '
     ' Set the tracing level to HIGH
     '
     Action.SetTraceLevel(Trace3_High)
-    If Err.number &lt;> 0 Then
+    If Err.number <> 0 Then
         WScript.Echo Space(4) & "Failed to set tracing level to 'High'. Error Number:" & Err.number
     End If
 
@@ -111,7 +111,7 @@ Else
  
     Action.Disable()
  
-    If Err.number &lt;> 0 Then
+    If Err.number <> 0 Then
         WScript.Echo Space(4) & "Failed to disable the specified CDROM. Error     Number:" & Err.number & vbcrlf
     Else
         WScript.Echo Space(4) & "Specified CDROM successfully disabled." & vbcrlf

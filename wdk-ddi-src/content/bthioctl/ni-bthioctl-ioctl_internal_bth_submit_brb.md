@@ -497,7 +497,7 @@ For more information about how profile drivers use BRBs to communicate with the 
     stack, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>.
 
-These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
+These BRBs must be called at IRQL <= PASSIVE_LEVEL.
 
 
 

@@ -113,7 +113,7 @@ The following code example calls <a href="https://msdn.microsoft.com/library/win
 </tr>
 <tr>
 <td>
-<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 &lt;&lt; (n))
+<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
 
 WDF_INTERRUPT_EXTENDED_POLICY myExtendedPolicy;
 

@@ -101,7 +101,7 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
 {
     if ((Rotation >= D3DKMDT_VPPR_IDENTITY) &&
-        (Rotation &lt;= D3DKMDT_VPPR_ROTATE270_OFFSET270))
+        (Rotation <= D3DKMDT_VPPR_ROTATE270_OFFSET270))
     {
         Rotation = (D3DKMDT_VIDPN_PRESENT_PATH_ROTATION)(
             ((Rotation - 1) / 4) + 1);

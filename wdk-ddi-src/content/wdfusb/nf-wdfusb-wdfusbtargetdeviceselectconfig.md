@@ -213,7 +213,7 @@ if (settingPairs == NULL){
     return STATUS_INSUFFICIENT_RESOURCES;
 }
 
-for (interfaceIndex = 0; interfaceIndex &lt; numInterfaces; interfaceIndex++) {
+for (interfaceIndex = 0; interfaceIndex < numInterfaces; interfaceIndex++) {
         
     settingPairs[interfaceIndex].UsbInterface = 
                                     WdfUsbTargetDeviceGetInterface(

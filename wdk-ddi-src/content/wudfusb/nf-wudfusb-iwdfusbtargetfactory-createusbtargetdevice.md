@@ -141,7 +141,7 @@ CUmdfHidDevice::OnPrepareHardware(
     __in IWDFDevice* WdfDevice
     )
 {
-    CComPtr&lt;IWDFUsbTargetFactory> factory;
+    CComPtr<IWDFUsbTargetFactory> factory;
     USB_INTERFACE_DESCRIPTOR interfaceDescriptor;
     bool hidInterfaceFound = false;
     PUSB_HID_DESCRIPTOR hidDescriptor;
@@ -168,10 +168,10 @@ CUmdfHidDevice::OnPrepareHardware(
     //
     if (SUCCEEDED(hr))
     {
-        CComPtr&lt;IWDFUsbInterface> usbInterface;
+        CComPtr<IWDFUsbInterface> usbInterface;
         UCHAR index;
         bool found = true;
-        for (index = 0; index &lt; m_ConfigDescriptor->bNumInterfaces; index += 1)
+        for (index = 0; index < m_ConfigDescriptor->bNumInterfaces; index += 1)
         {
             hr = m_UsbTargetDevice->RetrieveUsbInterface(index, &usbInterface);
             if (SUCCEEDED(hr))

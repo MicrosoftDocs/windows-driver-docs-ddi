@@ -82,7 +82,7 @@ If the new IRQL is less than the current IRQL, a bug check occurs. Otherwise, th
 
 Callers of this routine can be running at any IRQL. Any caller should restore the original IRQL with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a> as soon as possible.
 
-A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>CurrentIrql</i>. A call to <b>KeRaiseIrql</b> is valid if the caller specifies <i>NewIrql</i> >= <i>CurrentIrql</i>.
+A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> <= <i>CurrentIrql</i>. A call to <b>KeRaiseIrql</b> is valid if the caller specifies <i>NewIrql</i> >= <i>CurrentIrql</i>.
 
 
 

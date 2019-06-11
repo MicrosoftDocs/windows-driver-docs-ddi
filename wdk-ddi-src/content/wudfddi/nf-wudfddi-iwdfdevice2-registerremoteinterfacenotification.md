@@ -102,7 +102,7 @@ CMyDriver::OnDeviceAdd(
     __in IWDFDeviceInitialize  *FxDeviceInit
     )
 {
-    CComPtr&lt;IWDFDevice> fxDevice;
+    CComPtr<IWDFDevice> fxDevice;
     HRESULT hr;
 
     //
@@ -116,7 +116,7 @@ CMyDriver::OnDeviceAdd(
     //
     // Obtain the IWDFDevice2 interface from IWDFDevice.
     //
-    CComPtr&lt;IWDFDevice2> fxDevice2;
+    CComPtr<IWDFDevice2> fxDevice2;
     if (FAILED(hr)) goto Error;
     hr = fxDevice->QueryInterface(IID_PPV_ARGS(&fxDevice2));
     if (S_OK != hr) goto Error;

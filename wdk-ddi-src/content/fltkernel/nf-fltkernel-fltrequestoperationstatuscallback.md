@@ -157,7 +157,7 @@ if (iopb->MajorFunction == IRP_MJ_READ) {
 </table></span></div>
 In the example, the read buffer is changed after the call to <b>FltRequestOperationStatusCallback</b>, so when the Filter Manager calls <i>CallbackRoutine</i>, it will pass in a pointer to the old buffer instead of the new one. 
 
-The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL &lt;= APC_LEVEL. 
+The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL <= APC_LEVEL. 
 
 
 

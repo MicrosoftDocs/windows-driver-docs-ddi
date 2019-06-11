@@ -139,7 +139,7 @@ The following code example shows how to create a file-handle-based I/O target fo
 <tr>
 <td>
 <pre>HRESULT hr = S_OK;
-CComPtr&lt;IWDFFileHandleTargetFactory> pFileHandleTargetFactory;
+CComPtr<IWDFFileHandleTargetFactory> pFileHandleTargetFactory;
 //
 // Create a pipe and get the handle.
 //

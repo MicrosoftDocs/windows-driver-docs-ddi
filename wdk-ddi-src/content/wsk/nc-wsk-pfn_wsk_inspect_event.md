@@ -198,7 +198,7 @@ The
     <i>WskInspectEvent</i> event callback function.
 
 The WSK subsystem calls a WSK application's 
-    <i>WskInspectEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
+    <i>WskInspectEvent</i> event callback function at IRQL <= DISPATCH_LEVEL.
 
 A WSK application's <i>WskInspectEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 

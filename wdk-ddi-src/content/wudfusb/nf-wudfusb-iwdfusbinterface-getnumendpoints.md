@@ -92,7 +92,7 @@ The following code example retrieves the number of pipes on a USB interface and 
      hr = E_UNEXPECTED;
  }
  if (SUCCEEDED(hr))  {
-     for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++) {
+     for (UCHAR PipeIndex = 0; PipeIndex < NumEndPoints; PipeIndex++) {
      hr = pIUsbInterface->RetrieveUsbPipeObject(PipeIndex, 
                                                 &pIUsbPipe);
      if (FAILED(hr)) {

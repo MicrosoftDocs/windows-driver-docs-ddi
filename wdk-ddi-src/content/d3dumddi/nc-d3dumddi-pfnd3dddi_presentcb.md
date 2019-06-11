@@ -108,7 +108,7 @@ The following code example shows how to color-fill a destination surface.
 
     if (pPresent->hDstResource) {
         DWORD   dwDstSurf = ((DWORD)(DWORD_PTR)pPresent->hDstResource) + pPresent->DstSubResourceIndex;
-        _ASSERT(dwDstSurf &lt; m_RTbl.Size());
+        _ASSERT(dwDstSurf < m_RTbl.Size());
         m_RTbl[dwDstSurf].m_qwBatch = m_qwBatch;
         PresentCBData.hDstAllocation = R200GetSurfaceAllocHandle(m_pR200Ctx, dwDstSurf);
     }

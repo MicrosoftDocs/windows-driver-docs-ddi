@@ -133,7 +133,7 @@ CMyDevice::OnRemoteInterfaceArrival(
     // Create a new remote interface object and provide a callback 
     // object to handle remote interface events.
     //
-    CComPtr&lt;IWDFRemoteInterface> fxRemoteInterface;
+    CComPtr<IWDFRemoteInterface> fxRemoteInterface;
     hr = m_FxDevice->CreateRemoteInterface(FxRemoteInterfaceInit, 
                                            MyRemoteInterfaceIUnknown, 
                                            &fxRemoteInterface);
@@ -142,7 +142,7 @@ CMyDevice::OnRemoteInterfaceArrival(
     // Create a new remote target object and provide a callback 
     // object to handle remote target events.
     //
-    CComPtr&lt;IWDFRemoteTarget> fxTarget;
+    CComPtr<IWDFRemoteTarget> fxTarget;
     hr = m_FxDevice->CreateRemoteTarget(MyRemoteTargetIUnknown,
                                         fxRemoteInterface,
                                         &fxTarget);

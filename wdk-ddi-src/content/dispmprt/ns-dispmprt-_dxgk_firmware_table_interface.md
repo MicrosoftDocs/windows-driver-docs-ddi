@@ -182,7 +182,7 @@ NTSTATUS ReadSystemFirmwareTable(
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The buffer pointed to by the <i>Buffer</i> parameter receives the following data:
 
 ```cpp
-#include &lt;windows.h>
+#include <windows.h>
 
 struct RawSMBIOSData
 {

@@ -126,7 +126,7 @@ When a device is ejected, its child devices are physically removed from the syst
 
 A user-mode application can initiate a device eject. In that case, no driver calls this routine but the operating system calls the PnP manager to initiate the steps listed above.
 
-Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. The PnP manager performs most of its device-eject tasks listed above at IRQL = PASSIVE_LEVEL. 
+Callers of <b>IoRequestDeviceEject</b> must be running at IRQL <= DISPATCH_LEVEL. The PnP manager performs most of its device-eject tasks listed above at IRQL = PASSIVE_LEVEL. 
 
 
 

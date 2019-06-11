@@ -99,7 +99,7 @@ If the client module does not dynamically allocate the memory for its binding co
     itself with the NMR.
 
 The NMR calls a client module's 
-    <i>ClientCleanupBindingContext</i> callback function at any IRQL &lt;= DISPATCH_LEVEL.
+    <i>ClientCleanupBindingContext</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
 
 

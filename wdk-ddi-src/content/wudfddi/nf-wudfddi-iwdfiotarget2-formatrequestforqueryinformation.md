@@ -154,13 +154,13 @@ CMyQueue::OnDefaultIoHandler(
         // Declare an IWDFIoRequest2 interface pointer and obtain the
         // IWDFIoRequest2 interface from the IWDFIoRequest interface.
         //
-        CComQIPtr&lt;IWDFIoRequest2> r2 = pRequest;
+        CComQIPtr<IWDFIoRequest2> r2 = pRequest;
 
         // 
         // Declare an IWDFIoTarget2 interface pointer and obtain the
         // IWDFIoTarget2 interface from the IWDFIoTarget interface.
         //
-        CComQIPtr&lt;IWDFIoTarget2> target2(pTarget);
+        CComQIPtr<IWDFIoTarget2> target2(pTarget);
 
         // 
         // Get the I/O request's output buffer.

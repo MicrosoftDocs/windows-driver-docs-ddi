@@ -110,7 +110,7 @@ ULONG resCount, j;
 //
 resCount = WdfIoResourceListGetCount(reslist);
 
-for (j = 0; j &lt; resCount; j++) {
+for (j = 0; j < resCount; j++) {
     PIO_RESOURCE_DESCRIPTOR descriptor;
 
     //

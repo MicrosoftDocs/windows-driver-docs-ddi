@@ -154,7 +154,7 @@ Arguments:
 
     if (NewState == UsbfnDeviceStateConfigured && OldState != UsbfnDeviceStateSuspended) {
 
-        for (EpIndex = 1; EpIndex &lt; WdfCollectionGetCount(Context->Endpoints); EpIndex++) {
+        for (EpIndex = 1; EpIndex < WdfCollectionGetCount(Context->Endpoints); EpIndex++) {
             UfxEndpointConfigure(WdfCollectionGetItem(Context->Endpoints, EpIndex));
         }
 

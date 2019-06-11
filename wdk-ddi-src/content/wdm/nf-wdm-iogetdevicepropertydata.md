@@ -154,7 +154,7 @@ To see property types available for use by this routine, see [DEVPROP_TYPE_BYTE]
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549704">IoSetDevicePropertyData</a> routine to modify a device property.
 
-Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
+Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
 
 

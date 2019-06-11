@@ -115,9 +115,9 @@ CUmdfHidDevice::PrepareReader(
     VOID
     )
 {
-    CComPtr&lt;IWDFDevice> wdfDevice;
-    CComPtr&lt;IWDFDriver> wdfDriver;
-    CComPtr&lt;IWDFIoRequest> wdfRequest;
+    CComPtr<IWDFDevice> wdfDevice;
+    CComPtr<IWDFDriver> wdfDriver;
+    CComPtr<IWDFIoRequest> wdfRequest;
 
     HRESULT hr;
 

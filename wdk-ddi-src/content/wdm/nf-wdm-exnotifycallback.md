@@ -88,7 +88,7 @@ The system calls callback routines in order of their registration.
 
 For more information about callback objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540718">Callback Objects</a>.
 
-Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system calls all registered callback routines at the caller's IRQL.
+Callers of this routine must be running at IRQL <= DISPATCH_LEVEL. The system calls all registered callback routines at the caller's IRQL.
 
 
 

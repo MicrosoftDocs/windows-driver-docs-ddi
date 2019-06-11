@@ -128,7 +128,7 @@ OnCreateFile(
     USHORT shareAccess,
     ACCESS_MASK desiredAccess;
     ...
-    CComQIPtr&lt;IWDFIoRequest2> fxRequest2(FxRequest);
+    CComQIPtr<IWDFIoRequest2> fxRequest2(FxRequest);
     fxRequest2->GetCreateParametersEx(&fileOptions
                                       &fileAttributes,
                                       &shareAccess,

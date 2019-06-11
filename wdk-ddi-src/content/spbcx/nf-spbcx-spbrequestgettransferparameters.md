@@ -118,7 +118,7 @@ WDF_TRANSFER_DESCRIPTOR_INIT(&transfer);
 
 SpbRequestGetParameters(request, &parameters);
 
-for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
+for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
 {
     WDFMEMORY buffer;
 

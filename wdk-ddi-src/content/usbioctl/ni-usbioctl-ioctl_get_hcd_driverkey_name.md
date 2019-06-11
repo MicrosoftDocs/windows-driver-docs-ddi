@@ -166,7 +166,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     //2. Get the length of the driver key name.
     nBytes = driverKeyName.ActualLength;
 
-    if (nBytes &lt;= sizeof(driverKeyName)) 
+    if (nBytes <= sizeof(driverKeyName)) 
     {
         printf("Incorrect length received by IOCTL_GET_HCD_DRIVERKEY_NAME.\n");
         goto GetHCDDriverKeyNameDone;

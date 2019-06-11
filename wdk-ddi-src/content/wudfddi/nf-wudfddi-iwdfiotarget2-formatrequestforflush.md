@@ -139,7 +139,7 @@ CMyQueue::OnDefaultIoHandler(
         // Declare an IWDFIoTarget2 interface pointer and obtain the
         // IWDFIoTarget2 interface from the IWDFIoTarget interface.
         //
-        CComQIPtr&lt;IWDFIoTarget2> target2(pTarget);
+        CComQIPtr<IWDFIoTarget2> target2(pTarget);
 
         //
         // Format a flush request and send it to the I/O target.

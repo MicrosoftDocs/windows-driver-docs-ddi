@@ -191,8 +191,8 @@ list = WdfFdoGetDefaultChildList(Device);
 
 WdfChildListBeginScan(list);
  
-for (i = 0; i &lt; RTL_BITS_OF(UCHAR); i++) {
-    if (pDeviceContext->CurrentSwitchState & (1&lt;&lt;i)) {
+for (i = 0; i < RTL_BITS_OF(UCHAR); i++) {
+    if (pDeviceContext->CurrentSwitchState & (1<<i)) {
         PDO_IDENTIFICATION_DESCRIPTION description;
         WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
                                                  &description.Header,

@@ -93,7 +93,7 @@ if (SUCCEEDED(hr))
 
  hr = V_UNKNOWN(&var)->QueryInterface(
  IID_IPrintReadStreamFactory,
- reinterpret_cast&lt;void **>(&pPrintReadStreamFactory));
+ reinterpret_cast<void **>(&pPrintReadStreamFactory));
 
  if (SUCCEEDED(hr))
     {

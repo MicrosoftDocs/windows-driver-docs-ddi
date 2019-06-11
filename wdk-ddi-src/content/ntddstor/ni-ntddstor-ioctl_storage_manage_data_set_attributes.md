@@ -105,7 +105,7 @@ The <b>Status</b> field can be set to STATUS_SUCCESS, or possibly to STATUS_INVA
 
 
 
-Due to memory pool requirements by the storage driver stack, completion of the IRP containing this IOCTL must be at IRQL &lt; DISPATCH_LEVEL.
+Due to memory pool requirements by the storage driver stack, completion of the IRP containing this IOCTL must be at IRQL < DISPATCH_LEVEL.
 
 
 

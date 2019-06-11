@@ -56,7 +56,7 @@ The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bi
 
 ### -param ClassID [in]
 
-The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="https://msdn.microsoft.com/410fd5b5-cce0-47fe-92c1-5bbd9374a176">TraceLevel Path</a> to be defined as HKCR\CLSID\&lt;<i>ClassID</i>>.
+The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="https://msdn.microsoft.com/410fd5b5-cce0-47fe-92c1-5bbd9374a176">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
 
 
 ### -param Level [in]

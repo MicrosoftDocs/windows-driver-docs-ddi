@@ -138,8 +138,8 @@ CMyDevice::OnRemoteInterfaceArrival(
     )
 ...
     HRESULT hr;
-    CComPtr&lt;IWDFRemoteInterface> fxRemoteInterface;
-    CComPtr&lt;IWDFRemoteTarget> m_FxTarget;
+    CComPtr<IWDFRemoteInterface> fxRemoteInterface;
+    CComPtr<IWDFRemoteTarget> m_FxTarget;
 
     hr = m_FxDevice->CreateRemoteInterface(FxRemoteInterfaceInit, 
                                            NULL, 

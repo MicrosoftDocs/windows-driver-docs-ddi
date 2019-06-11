@@ -135,7 +135,7 @@ if (!NT_SUCCESS(status)) {
     goto Exit;
 }
 
-for (i = 0; i &lt; numSubRequests; i++) {
+for (i = 0; i < numSubRequests; i++) {
     WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE(
                                            &attributes,

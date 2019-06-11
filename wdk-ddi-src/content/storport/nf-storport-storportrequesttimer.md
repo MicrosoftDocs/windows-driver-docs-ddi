@@ -166,7 +166,7 @@ The timer request was successfully scheduled.
 
 
 
-The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL > DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL &lt;= DISPATCH_LEVEL.
+The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL > DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL <= DISPATCH_LEVEL.
 
 
 

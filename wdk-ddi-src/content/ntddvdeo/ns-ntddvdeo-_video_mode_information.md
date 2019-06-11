@@ -172,14 +172,14 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 <dl>
 <dt>Three members of VIDEO_MODE_INFORMATION, <b>VisScreenWidth</b>, <b>VideoMemoryBitmapWidth</b>, and <b>ScreenStride</b>, are associated with horizontal screen width. For displays that use one or more bytes per pixel, these members satisfy the inequality </dt>
-<dt><b>VisScreenWidth</b> &lt;= <b>VideoMemoryBitmapWidth</b> &lt;= <b>ScreenStride</b>.</dt>
+<dt><b>VisScreenWidth</b> <= <b>VideoMemoryBitmapWidth</b> <= <b>ScreenStride</b>.</dt>
 </dl>
 
 
 
 <dl>
 <dt>In a similar relationship for vertical screen height, <b>VisScreenHeight</b> and <b>VideoMemoryBitmapHeight</b> satisfy the inequality</dt>
-<dt><b>VisScreenHeight</b> &lt;= <b>VideoMemoryBitmapHeight</b>.</dt>
+<dt><b>VisScreenHeight</b> <= <b>VideoMemoryBitmapHeight</b>.</dt>
 </dl>
 
 

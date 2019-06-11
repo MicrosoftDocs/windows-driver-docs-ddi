@@ -443,9 +443,9 @@ If the RTL_QUERY_REGISTRY_TYPECHECK flag is set in a table entry, the caller mus
 <td>
 <pre>RTL_QUERY_REGISTRY_TABLE QueryRegTable[2];    
 ...
-QueryRegTable[0].DefaultType = (REG_SZ &lt;&lt; RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
+QueryRegTable[0].DefaultType = (REG_SZ << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
 ...
-QueryRegTable[1].DefaultType = (REG_DWORD &lt;&lt; RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
+QueryRegTable[1].DefaultType = (REG_DWORD << RTL_QUERY_REGISTRY_TYPECHECK_SHIFT) | REG_NONE;
 ...</pre>
 </td>
 </tr>
@@ -510,7 +510,7 @@ If the <b>Buffer</b> member of <b>UNICODE_STRING</b> is <b>NULL</b>, the routine
 </tr>
 <tr>
 <td>
-Nonstring data with size, in bytes, &lt;= <b>sizeof</b>(ULONG)
+Nonstring data with size, in bytes, <= <b>sizeof</b>(ULONG)
 
 </td>
 <td>

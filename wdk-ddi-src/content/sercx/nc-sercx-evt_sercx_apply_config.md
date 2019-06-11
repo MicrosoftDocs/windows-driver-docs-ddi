@@ -186,7 +186,7 @@ NTSTATUS
     {
         connection = (PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER)ConnectionParameters;
 
-        if (connection->PropertiesLength &lt; sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
+        if (connection->PropertiesLength < sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
         {
             status = STATUS_INVALID_PARAMETER;
         }

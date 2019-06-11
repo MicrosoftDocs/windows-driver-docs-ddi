@@ -171,7 +171,7 @@ A driver can also use an <a href="https://msdn.microsoft.com/library/windows/har
 
 For information about how to evaluate an ACPI control method asynchronously starting on Windows Server 2008 and Windows Vista, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536145">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536146">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>.
 
-IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL &lt; DISPATCH_LEVEL.
+IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL < DISPATCH_LEVEL.
 
 
 

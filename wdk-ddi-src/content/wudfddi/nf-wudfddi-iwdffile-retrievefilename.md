@@ -115,7 +115,7 @@ The following code example shows how to retrieve the name of a file.
     PWSTR fileName = NULL;
     ULONG index;
 
-    CComObject&lt;CUmdfHidFile> *file = NULL;
+    CComObject<CUmdfHidFile> *file = NULL;
 
     HRESULT hr;
 

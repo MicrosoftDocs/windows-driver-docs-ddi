@@ -85,7 +85,7 @@ The driver generates a unique handle and passes it back to the Direct3D runtime.
 
 [out] The version of the Direct3D user-mode display driver's interface, which was obtained from the <i>D3dumddi.h</i> header file, that the driver was compiled with. The user-mode display driver should return D3D_UMD_INTERFACE_VERSION. 
 
-<div class="alert"><b>Note</b>  If a user-mode driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
+<div class="alert"><b>Note</b>  If a user-mode driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
 with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UMD_INTERFACE_VERSION_VISTA.</div>
 <div> </div>
 

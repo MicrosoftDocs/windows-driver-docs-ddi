@@ -116,7 +116,7 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
     // Declare an IWDFDeviceInitialize2 interface pointer and obtain the
     // IWDFDeviceInitialize2 interface from the IWDFDeviceInitialize interface.
     //
-    CComQIPtr&lt;IWDFDeviceInitialize2> di2 = FxDeviceInit;
+    CComQIPtr<IWDFDeviceInitialize2> di2 = FxDeviceInit;
 
     //
     // For this device, set the retrieval mode to deferred, set

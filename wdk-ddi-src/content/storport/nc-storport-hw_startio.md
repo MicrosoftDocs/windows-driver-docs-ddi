@@ -91,7 +91,7 @@ If a non-virtual miniport supports the concurrent channels optimization (STOR_PE
 
 </li>
 <li>
-For <a href="https://msdn.microsoft.com/971558ae-96a3-43a5-94bd-4883bb9feb58">storage virtual miniport drivers</a>, Storport calls <b>HwStorStartIo</b> at any IRQL &lt;= DISPATCH_LEVEL and does not use an internal spin lock. The <b>HwStorStartIo</b> routine may acquire its own spin lock by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>. Also, calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567031">StorPortAllocatePool</a>  are allowed in the <b>HwStorStartIo</b> routine of a storage virtual miniport driver.
+For <a href="https://msdn.microsoft.com/971558ae-96a3-43a5-94bd-4883bb9feb58">storage virtual miniport drivers</a>, Storport calls <b>HwStorStartIo</b> at any IRQL <= DISPATCH_LEVEL and does not use an internal spin lock. The <b>HwStorStartIo</b> routine may acquire its own spin lock by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>. Also, calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567031">StorPortAllocatePool</a>  are allowed in the <b>HwStorStartIo</b> routine of a storage virtual miniport driver.
 
 </li>
 </ul>

@@ -120,7 +120,7 @@ ULONG ProcIndex;
 PROCESSOR_NUMBER ProcNumber;
 
 Count = KeQueryActiveProcessorCountEx(ALL_PROCESSOR_GROUPS);
-for (ProcIndex = 0; ProcIndex &lt; Count; ProcIndex += 1)
+for (ProcIndex = 0; ProcIndex < Count; ProcIndex += 1)
 {
     KeGetProcessorNumberFromIndex(ProcIndex, &ProcNumber);
 

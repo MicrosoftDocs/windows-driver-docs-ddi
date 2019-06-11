@@ -104,7 +104,7 @@ MyEvtDevicePrepareHardware (
     ULONG  i;
     PCM_PARTIAL_RESOURCE_DESCRIPTOR  desc;
 
-    for (i = 0; i &lt; WdfCmResourceListGetCount(ResourcesTranslated); i++) {
+    for (i = 0; i < WdfCmResourceListGetCount(ResourcesTranslated); i++) {
 
         desc = WdfCmResourceListGetDescriptor(
                                               ResourcesTranslated,

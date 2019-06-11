@@ -101,7 +101,7 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 For more information about semaphore objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563719">Semaphore Objects</a>.
 
-Callers of <b>KeReleaseSemaphore</b> must be running at IRQL &lt;= DISPATCH_LEVEL provided that <i>Wait</i> is set to <b>FALSE</b>. Otherwise, the caller must be running at IRQL = PASSIVE_LEVEL.
+Callers of <b>KeReleaseSemaphore</b> must be running at IRQL <= DISPATCH_LEVEL provided that <i>Wait</i> is set to <b>FALSE</b>. Otherwise, the caller must be running at IRQL = PASSIVE_LEVEL.
 
 
 

@@ -145,7 +145,7 @@ CMyQueue::OnStateChange(
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2> r2 = Request;
+    CComQIPtr<IWDFIoRequest2> r2 = Request;
 
     //
     // Add code here to determine whether to process or requeue the request.

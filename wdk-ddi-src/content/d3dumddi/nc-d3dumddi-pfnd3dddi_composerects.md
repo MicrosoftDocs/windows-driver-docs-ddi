@@ -126,7 +126,7 @@ Local display memory should be specified for the destination surface.
 The following example code shows an operation that <b>ComposeRects</b> performs:
 
 ```cpp
-for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
+for (UINT i=0; i < COMPOSERECTS.NumDstRects; i++) {
    if (i >= Size(VertexBuffer(hDstRectDescsVB)) / sizeof(D3DCOMPOSERECTDSTDESC))
       Ignore the rectangle;
    if (VertexBuffer(hDstRectDescsVB)[i].RectDescIndex >= Size(VertexBuffer(hSrcRectDescsVB)) / sizeof(D3DCOMPOSERECTSRCDESC))

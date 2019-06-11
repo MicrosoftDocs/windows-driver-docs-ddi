@@ -132,7 +132,7 @@ After the abort operation completes, the DMA channel must be ready for the NetDM
     the transfer is restarted.
 
 NetDMA calls 
-    <i>ProviderAbortDma</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderAbortDma</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

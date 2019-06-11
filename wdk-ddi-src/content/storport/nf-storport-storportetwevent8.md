@@ -71,7 +71,7 @@ A miniport defined identifier for the ETW event.
 
 ### -param EventDescription [in]
 
-The description text for the event. This text string must be &lt;= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
+The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
 
 ### -param EventKeywords [in]
@@ -320,7 +320,7 @@ A pointer to the SRB associated with the logged event. If this parameter contain
 
 ### -param Parameter1Name [in, optional]
 
-A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter1Value [in]
@@ -330,7 +330,7 @@ The value for parameter 1.
 
 ### -param Parameter2Name [in, optional]
 
-A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter2Value [in]
@@ -340,7 +340,7 @@ The value for parameter 2.
 
 ### -param Parameter3Name [in, optional]
 
-A description of the of the meaning of <i>Parameter3Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter3Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter3Value [in]
@@ -350,7 +350,7 @@ The value for parameter 3.
 
 ### -param Parameter4Name [in, optional]
 
-A description of the of the meaning of <i>Parameter4Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter4Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter4Value [in]
@@ -360,7 +360,7 @@ The value for parameter 4.
 
 ### -param Parameter5Name [in, optional]
 
-A description of the of the meaning of <i>Parameter5Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter5Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter5Value [in]
@@ -370,7 +370,7 @@ The value for parameter 5.
 
 ### -param Parameter6Name [in, optional]
 
-A description of the of the meaning of <i>Parameter6Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter6Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter6Value [in]
@@ -380,7 +380,7 @@ The value for parameter 6.
 
 ### -param Parameter7Name [in, optional]
 
-A description of the of the meaning of <i>Parameter7Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter7Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter7Value [in]
@@ -390,7 +390,7 @@ The value for parameter 7.
 
 ### -param Parameter8Name [in, optional]
 
-A description of the of the meaning of <i>Parameter8Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter8Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter8Value [in]

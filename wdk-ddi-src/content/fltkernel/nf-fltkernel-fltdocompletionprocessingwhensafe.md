@@ -98,9 +98,9 @@ Caller-allocated variable that receives the final status value for the I/O opera
 
 
 
-<b>FltDoCompletionProcessingWhenSafe</b> executes the <i>SafePostCallback</i> immediately if the caller is running at IRQL &lt;= APC_LEVEL. Otherwise, if it is safe to post the operation to a worker thread, the <i>SafePostCallback</i> processing is deferred until it can be called in a thread context where IRQL &lt;= APC_LEVEL.
+<b>FltDoCompletionProcessingWhenSafe</b> executes the <i>SafePostCallback</i> immediately if the caller is running at IRQL <= APC_LEVEL. Otherwise, if it is safe to post the operation to a worker thread, the <i>SafePostCallback</i> processing is deferred until it can be called in a thread context where IRQL <= APC_LEVEL.
 
-If IRQL &lt; DISPATCH_LEVEL:
+If IRQL < DISPATCH_LEVEL:
 
 <ul>
 <li>

@@ -92,7 +92,7 @@ PrintInquiryData(PCHAR  DataBuffer)
     ULONG i, j;
 
     adapterInfo = (PSCSI_ADAPTER_BUS_INFO) DataBuffer;
-    for (i = 0; i &lt; adapterInfo->NumberOfBuses; i++) {
+    for (i = 0; i < adapterInfo->NumberOfBuses; i++) {
        inquiryData = (PSCSI_INQUIRY_DATA) (DataBuffer +
           adapterInfo->BusData[i].InquiryDataOffset);
        while (adapterInfo->BusData[i].InquiryDataOffset) {
@@ -102,7 +102,7 @@ PrintInquiryData(PCHAR  DataBuffer)
              inquiryData->Lun,
              (inquiryData->DeviceClaimed) ? "Y" : "N",
              &inquiryData->InquiryData[8]);
-          for (j = 0; j &lt; 8; j++) {
+          for (j = 0; j < 8; j++) {
              printf("%02X ", inquiryData->InquiryData[j]);
           }
           printf("\n");

@@ -188,7 +188,7 @@ urb->UrbIsochronousTransfer.Hdr.Length = GET_ISO_URB_SIZE(numPackets);
 urb->UrbIsochronousTransfer.Hdr.Function = URB_FUNCTION_ISOCH_TRANSFER;  
 urb->UrbIsochronousTransfer.PipeHandle = usbdPipeHandle; 
 
-for (packetId = 0; packetId &lt; numberOfPackets; packetId++) {
+for (packetId = 0; packetId < numberOfPackets; packetId++) {
 
      Urb-> UrbIsochronousTransfer.IsoPacket[packetId].Offset = xxx;
      Urb-> UrbIsochronousTransfer.IsoPacket[packetId].YYY = yyy;

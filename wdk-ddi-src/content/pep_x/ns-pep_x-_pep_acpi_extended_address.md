@@ -362,7 +362,7 @@ secondary-side range can be found using the following function.
 <b>1</b> - Sparse translation: The primary-side memory address of any specific IO port within the
 secondary-side range can be found using the following function.
 
-<i>address = (((port & 0xFFFc) &lt;&lt; 10) || (port & 0xFFF)) + TranslationAddress</i>
+<i>address = (((port & 0xFFFc) << 10) || (port & 0xFFF)) + TranslationAddress</i>
 
 In the address used to access the IO port, bits 2 to 11 must be identical
 to bits 12 to 21, this gives four bytes of IO ports on each 4 KB page.

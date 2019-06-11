@@ -123,7 +123,7 @@ An argument list for the format string. The <b>vDbgPrintExWithPrefix</b> routine
 
 Only kernel-mode drivers can call the <b>vDbgPrintExWithPrefix</b> routine.
 
-<b>vDbgPrintExWithPrefix</b> can be called at IRQL &lt;= DIRQL. However, you can use Unicode format codes (<b>%wc</b> and <b>%ws</b>) only at IRQL = PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, a call to <b>vDbgPrintExWithPrefix</b> at IRQL > DIRQL can cause deadlocks.
+<b>vDbgPrintExWithPrefix</b> can be called at IRQL <= DIRQL. However, you can use Unicode format codes (<b>%wc</b> and <b>%ws</b>) only at IRQL = PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, a call to <b>vDbgPrintExWithPrefix</b> at IRQL > DIRQL can cause deadlocks.
 
 <b>vDbgPrintExWithPrefix</b> either passes the string that it creates to the kernel debugger or does nothing at all, depending on the values of <i>ComponentId</i>, <i>Level</i>, and the corresponding component filter masks. For more information about what <i>vDbgPrintEx</i> does, see <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">Reading and Filtering Debugging Messages</a>.
 

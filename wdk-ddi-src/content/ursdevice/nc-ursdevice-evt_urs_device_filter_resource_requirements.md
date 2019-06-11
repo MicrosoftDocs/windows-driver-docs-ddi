@@ -154,7 +154,7 @@ EvtUrsFilterRemoveResourceRequirements (
         resCount = WdfIoResourceListGetCount(resList);
 
 
-        for (currentResourceIndex = 0; currentResourceIndex &lt; resCount; ++currentResourceIndex) {
+        for (currentResourceIndex = 0; currentResourceIndex < resCount; ++currentResourceIndex) {
 
             descriptor = WdfIoResourceListGetDescriptor(resList, currentResourceIndex);
 

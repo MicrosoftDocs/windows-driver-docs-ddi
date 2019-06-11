@@ -153,7 +153,7 @@ A driver typically would use a sequence of two IOCTL_ACPI_ENUM_CHILDREN requests
 
 For more information about how to enumerate child devices of a device, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
-IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
+IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL< DISPATCH_LEVEL.
 
 
 

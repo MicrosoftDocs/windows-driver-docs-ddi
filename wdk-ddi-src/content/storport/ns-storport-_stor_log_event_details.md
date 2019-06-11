@@ -128,7 +128,7 @@ The list of null-terminated Unicode strings to be appended to the log entry for 
 
 
 
-Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
+Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the < 255 byte limit that the kernel enforces on the event log entries.
 
 
 

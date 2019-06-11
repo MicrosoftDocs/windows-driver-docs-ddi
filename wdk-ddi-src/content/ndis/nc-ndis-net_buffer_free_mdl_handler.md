@@ -89,7 +89,7 @@ When
     <i>NetAllocateMdl</i> to allocate the memory.
 
 NDIS calls 
-    <i>NetFreeMdl</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>NetFreeMdl</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

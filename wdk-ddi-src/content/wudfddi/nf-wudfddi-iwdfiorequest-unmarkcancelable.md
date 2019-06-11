@@ -221,7 +221,7 @@ The driver also defines a <b>CommandInformation</b> structure that holds a singl
 <pre>
 void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
 {
-    CComCritSecLock&lt;CComAutoCriticalSection> scopeLock(m_CriticalSection);
+    CComCritSecLock<CComAutoCriticalSection> scopeLock(m_CriticalSection);
 
     if (NULL != CommandInfo)
     {
@@ -264,7 +264,7 @@ void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
 void MyQueue::OnCancel(__in IWDFIoRequest* Request)
 {
     {
-        CComCritSecLock&lt;CComAutoCriticalSection> scopeLock(m_CriticalSection);
+        CComCritSecLock<CComAutoCriticalSection> scopeLock(m_CriticalSection);
 
         POSITION pos = GetFirstNodePosition();
 

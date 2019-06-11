@@ -75,7 +75,7 @@ Applications do not require administrative privileges to send a pass-through req
 
 <b>IOCTL_SCSI_PASS_THROUGH_EX</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="https://msdn.microsoft.com/library/windows/hardware/jj602800">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
-This request is typically used for transferring small amounts of data (&lt;16K).
+This request is typically used for transferring small amounts of data (<16K).
 
 Applications can send this request by means of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> request. 
 

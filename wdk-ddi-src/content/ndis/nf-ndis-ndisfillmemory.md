@@ -76,7 +76,7 @@ The value to fill the buffer.
 
 Callers of 
     <b>NdisFillMemory</b> can be running at any IRQL, provided that the 
-    <i>Destination</i> buffer is resident. If the buffer is pageable, a caller must be running at IRQL &lt;
+    <i>Destination</i> buffer is resident. If the buffer is pageable, a caller must be running at IRQL <
     DISPATCH_LEVEL.
 
 

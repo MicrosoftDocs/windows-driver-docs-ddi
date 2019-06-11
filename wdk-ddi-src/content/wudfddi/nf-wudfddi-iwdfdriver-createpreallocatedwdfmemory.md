@@ -136,7 +136,7 @@ The following code example shows how to create a memory object for a buffer.
 
     if (SUCCEEDED(hr))
     {
-       CComPtr&lt;IWDFDriver> driver;
+       CComPtr<IWDFDriver> driver;
        wdfDevice->GetDriver(&driver);
 
        hr = driver->CreatePreallocatedWdfMemory(

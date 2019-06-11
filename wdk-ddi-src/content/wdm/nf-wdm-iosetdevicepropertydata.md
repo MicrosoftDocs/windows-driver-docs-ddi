@@ -124,7 +124,7 @@ Beginning with Windows 8 and Windows Server 2012 passing <b>LOCALE_NEUTRAL</b>
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a> routine to obtain the current value for a device property.
 
-Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
+Callers of <b>IoSetDeviceProperty</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
 
 

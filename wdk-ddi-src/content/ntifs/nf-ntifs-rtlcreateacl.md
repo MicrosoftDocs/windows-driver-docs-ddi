@@ -180,7 +180,7 @@ To calculate the size of an ACL, use the following algorithm, substituting the a
 <tr>
 <td>
 <pre>cbAcl = sizeof (ACL);
-for (i = 0 ; i &lt; nAceCount ; i++) {
+for (i = 0 ; i < nAceCount ; i++) {
     // subtract ACE.SidStart from the size
     cbAce = sizeof (ACE) - sizeof (DWORD);
     // add this ACE's SID length

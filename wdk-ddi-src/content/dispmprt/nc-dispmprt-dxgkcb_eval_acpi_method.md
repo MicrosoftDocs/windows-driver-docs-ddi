@@ -132,7 +132,7 @@ if (HwDeviceExtension->AcpiChildren != NULL) {
 
  RtlZeroMemory(pDesiredStatus, sizeof(DESIRED_CHILD_STATUS) * ChildCount);
 
- for (ChildIndex = 0; ChildIndex &lt; ChildCount; ChildIndex++) {
+ for (ChildIndex = 0; ChildIndex < ChildCount; ChildIndex++) {
  // If not a video output child, go to the next child.
  if (AcpiChildrenArray[ChildIndex].Argument
    & ACPI_NON_VIDEO_OUTPUT_DEVICE) {

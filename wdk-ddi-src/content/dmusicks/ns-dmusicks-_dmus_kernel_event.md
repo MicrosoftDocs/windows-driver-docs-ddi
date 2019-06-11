@@ -157,7 +157,7 @@ Extended channel information (usChannelGroup)
 </ul>
 Mapping to the correct DLS instrument is implicit in the triplet of
 
-&lt;<i>pin</i>, <i>channel_group</i>, <i>channel</i>>
+<<i>pin</i>, <i>channel_group</i>, <i>channel</i>>
 
 Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_STOP, and is reset during KSSTATE_STOP. For more information, see <a href="https://msdn.microsoft.com/e3ffc7ca-f3cd-4989-af40-78b6a2438f95">KS Clocks</a>.
 

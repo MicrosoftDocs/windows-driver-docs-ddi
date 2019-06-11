@@ -94,7 +94,7 @@ To register a <i>CompletionRoutine</i> callback function for an I/O request, a d
 
 Note that the completion parameters structure contains valid information only if the driver has formatted the request by calling one of the <b>WdfIoTargetFormat</b><i>Xxx</i> methods. For an example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548612">WdfIoTargetFormatRequestForRead</a>.
 
-A KMDF driver's <i>CompletionRoutine</i> can run at IRQL &lt;= DISPATCH_LEVEL regardless of the  <b>ExecutionLevel</b> specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure for the I/O request object.  
+A KMDF driver's <i>CompletionRoutine</i> can run at IRQL <= DISPATCH_LEVEL regardless of the  <b>ExecutionLevel</b> specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure for the I/O request object.  
 
 
 #### Examples

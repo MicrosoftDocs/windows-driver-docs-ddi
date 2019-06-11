@@ -95,7 +95,7 @@ Additional standard status codes may be returned. For example, STATUS_INSUFFICIE
 
 
 
-Callers of <b>AllocNotificationBuffer</b> must be running at IRQL &lt;= DISPATCH_LEVEL. If a driver writer calls this routine at IRQL = DISPATCH_LEVEL, the NotificationStructure must be allocated from nonpaged memory.
+Callers of <b>AllocNotificationBuffer</b> must be running at IRQL <= DISPATCH_LEVEL. If a driver writer calls this routine at IRQL = DISPATCH_LEVEL, the NotificationStructure must be allocated from nonpaged memory.
 
 
 

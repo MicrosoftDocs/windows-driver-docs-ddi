@@ -110,11 +110,11 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
     list = reslist->List;
 
-    for (int ix = 0; ix &lt; reslist->Count; ++ix)
+    for (int ix = 0; ix < reslist->Count; ++ix)
     {
         /* Process resources in CM_FULL_RESOURCE_DESCRIPTOR block number ix. */
 
-        for (int jx = 0; jx &lt; list->PartialResourceList.Count; ++jx)
+        for (int jx = 0; jx < list->PartialResourceList.Count; ++jx)
         {
             PCM_PARTIAL_RESOURCE_DESCRIPTOR desc;
 

@@ -75,7 +75,7 @@ The given
 
 Callers of 
     <b>NdisRetrieveUlong</b> can be running at any IRQL if the given addresses are in nonpaged pool.
-    Otherwise, callers must be running at IRQL &lt; DISPATCH_LEVEL.
+    Otherwise, callers must be running at IRQL < DISPATCH_LEVEL.
 
 
 

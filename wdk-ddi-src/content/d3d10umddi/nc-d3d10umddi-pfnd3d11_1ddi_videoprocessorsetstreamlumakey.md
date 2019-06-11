@@ -121,7 +121,7 @@ This callback function does not return a value.
 
 The values of <i>Lower</i> and <i>Upper</i> give the lower and upper bounds of the luma key by using a nominal range from zero to one. Given a format with <i>n</i> bits per channel, these values are converted to luma values as follows:
 
-<code>val = f * ((1 &lt;&lt; n)-1)</code>
+<code>val = f * ((1 << n)-1)</code>
 
 Any pixel whose luma value falls within the upper and lower bounds (inclusive) is treated as transparent.
 

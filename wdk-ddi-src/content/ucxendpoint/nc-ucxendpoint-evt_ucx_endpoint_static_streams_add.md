@@ -128,7 +128,7 @@ Endpoint_EvtEndpointStaticStreamsAdd(
                                         &ucxStaticStreams);
         // … error handling …
 
-        for (i = 0, streamId = 1; i &lt; NumberOfStreams; i += 1, streamId += 1) {
+        for (i = 0, streamId = 1; i < NumberOfStreams; i += 1, streamId += 1) {
 
             // … create WDF queue …
 

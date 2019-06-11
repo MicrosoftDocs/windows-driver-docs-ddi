@@ -223,7 +223,7 @@ Reports the adapter power on or power off states. If the miniport supports this 
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 <td>
@@ -241,7 +241,7 @@ Notifies the miniport whether power is required or not for the adapter component
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 <td>
@@ -259,7 +259,7 @@ Notifies the miniport whether the adapter component is active or idle. This cont
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 <td>
@@ -277,7 +277,7 @@ Notifies the miniport to set the adapter component to the given F-state. This co
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 <td>
@@ -295,7 +295,7 @@ Requests a power engine plug-in (PEP) initiated private power control operation 
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 <td>

@@ -167,7 +167,7 @@ The output arguments from the control method are returned in the variable-length
 
 For information about how to evaluate ACPI control methods synchronously, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536148">IOCTL_ACPI_EVAL_METHOD</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a>, and <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
 
-IOCTL_ACPI_ASYNC_EVAL_METHOD can be used only at IRQL &lt;= DISPATCH_LEVEL.
+IOCTL_ACPI_ASYNC_EVAL_METHOD can be used only at IRQL <= DISPATCH_LEVEL.
 
 
 

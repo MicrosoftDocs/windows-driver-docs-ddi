@@ -131,7 +131,7 @@ After the reset operation is complete, the DMA channel must be in the initial st
     <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function.
 
 NetDMA calls 
-    <i>ProviderResetChannel</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderResetChannel</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

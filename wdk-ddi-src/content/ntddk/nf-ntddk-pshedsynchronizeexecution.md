@@ -121,7 +121,7 @@ The function specified in the <i>SynchronizeRoutine</i> parameter is called.
 
 </li>
 </ol>
-Callers of the <b>PshedSynchronizeExecution</b> function must be running at IRQL &lt;= DIRQL, that is, less than or equal to the IRQL at which the LLHEH for the error source executes.
+Callers of the <b>PshedSynchronizeExecution</b> function must be running at IRQL <= DIRQL, that is, less than or equal to the IRQL at which the LLHEH for the error source executes.
 
 
 

@@ -186,7 +186,7 @@ Any idle states that lose processor hardware context (and therefore use the <a h
 </ul>
 If the <i>Flags</i> parameter contains an illegal combination of flag bits, <b>ProcessorHalt</b> fails and returns STATUS_INVALID_PARAMETER.
 
-The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
+The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 

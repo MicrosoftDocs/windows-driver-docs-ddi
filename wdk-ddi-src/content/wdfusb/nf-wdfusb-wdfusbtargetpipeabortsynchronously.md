@@ -206,7 +206,7 @@ count = WdfUsbInterfaceGetNumConfiguredPipes(
                                              pDevContext->UsbInterface
                                              );
 
-for (i = 0; i &lt; count; i++) {
+for (i = 0; i < count; i++) {
     WDFUSBPIPE pipe;
 
     pipe = WdfUsbInterfaceGetConfiguredPipe(

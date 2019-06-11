@@ -133,7 +133,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 </tr>
 <tr>
 <td>
-<pre>#if (NTDDI_VERSION &lt; NTDDI_WIN7)
+<pre>#if (NTDDI_VERSION < NTDDI_WIN7)
 NTKERNELAPI
 NTSTATUS
   ObCloseHandle(

@@ -358,12 +358,12 @@ The size of the structure. Set to <b>sizeof</b>(HYBRID_DEMOTE_BY_SIZE).
 </dd>
 <dt><a id="SourcePriority"></a><a id="sourcepriority"></a><a id="SOURCEPRIORITY"></a>SourcePriority</dt>
 <dd>
-The original priority level of the data to demote. This value must be &lt;= the value in the <b>MaximumHybridPriorityLevel</b> member of the <b>HYBRID_INFORMATION</b> structure returned by from a <b>HYBRID_FUNCTION_GET_INFO</b> function request. This value must be > 0.
+The original priority level of the data to demote. This value must be <= the value in the <b>MaximumHybridPriorityLevel</b> member of the <b>HYBRID_INFORMATION</b> structure returned by from a <b>HYBRID_FUNCTION_GET_INFO</b> function request. This value must be > 0.
 
 </dd>
 <dt><a id="TargetPriority"></a><a id="targetpriority"></a><a id="TARGETPRIORITY"></a>TargetPriority</dt>
 <dd>
-The target priority level of the data to demote from the <i>SourcePriority</i> level. This value must be &lt; <i>SourcePriority</i>.
+The target priority level of the data to demote from the <i>SourcePriority</i> level. This value must be < <i>SourcePriority</i>.
 
 </dd>
 <dt><a id="Reserved0"></a><a id="reserved0"></a><a id="RESERVED0"></a>Reserved0</dt>

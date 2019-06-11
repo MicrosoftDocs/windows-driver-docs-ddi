@@ -120,7 +120,7 @@ RootHub_EvtRootHubGetInfo(
 
     rootHubInfo = (PROOTHUB_INFO)wdfRequestParams.Parameters.Others.Arg1;
 
-    if (rootHubInfo->Size &lt; sizeof(ROOTHUB_INFO)) {
+    if (rootHubInfo->Size < sizeof(ROOTHUB_INFO)) {
         DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_INFO Size %d", rootHubInfo->Size);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGetInfo;

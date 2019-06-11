@@ -143,7 +143,7 @@ Virtualization_GetResourceForBar(
         "VFIndex = %d, BarIndex = %d\n",
         VfIndex, BarIndex);
 
-    NT_ASSERT(BarIndex &lt; PCI_TYPE0_BAR_COUNT);
+    NT_ASSERT(BarIndex < PCI_TYPE0_BAR_COUNT);
 
     if(VfIndex >= deviceContext->NumVFs)
     {

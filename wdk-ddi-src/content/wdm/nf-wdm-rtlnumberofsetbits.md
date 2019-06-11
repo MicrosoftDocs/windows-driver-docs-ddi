@@ -73,7 +73,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlNumberOfSetBits</b> can be called at any IRQL.
+Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlNumberOfSetBits</b> can be called at any IRQL.
 
 
 

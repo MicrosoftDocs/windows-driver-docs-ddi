@@ -119,7 +119,7 @@ RootHub_EvtRootHubGet30PortInfo(
 
     rootHub30PortsInfo = (PROOTHUB_30PORTS_INFO)wdfRequestParams.Parameters.Others.Arg1;
 
-    if (rootHub30PortsInfo->Size &lt; sizeof(ROOTHUB_30PORTS_INFO)) {
+    if (rootHub30PortsInfo->Size < sizeof(ROOTHUB_30PORTS_INFO)) {
         DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORTS_INFO Size %d", rootHub30PortsInfo->Size);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet30PortInfoEnd;
@@ -131,7 +131,7 @@ RootHub_EvtRootHubGet30PortInfo(
         goto RootHub_EvtRootHubGet30PortInfoEnd;
     }
 
-    if (rootHub30PortsInfo->PortInfoSize &lt; sizeof(ROOTHUB_30PORT_INFO)) {
+    if (rootHub30PortsInfo->PortInfoSize < sizeof(ROOTHUB_30PORT_INFO)) {
         DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORT_INFO Size %d", rootHub30PortsInfo->PortInfoSize);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet30PortInfoEnd;

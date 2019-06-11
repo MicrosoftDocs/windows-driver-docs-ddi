@@ -77,11 +77,11 @@ A NULL-terminated string with a maximum length of 15 digits that represents a mo
 
 <ul>
 <li>
-"+ &lt;International Country Code> &lt;Mobile Number>\0"
+"+ <International Country Code> <Mobile Number>\0"
 
 </li>
 <li>
-"&lt;Mobile Number>\0"
+"<Mobile Number>\0"
 
 </li>
 </ul>

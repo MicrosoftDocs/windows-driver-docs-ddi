@@ -352,18 +352,18 @@ This code snippet illustrates the use of the  %Y format specifier.
 {
     HRESULT hr = S_OK;
 
-    ComPtr&lt;IDebugControl4> spControl;
+    ComPtr<IDebugControl4> spControl;
     IfFailedReturn(pClient->QueryInterface(IID_PPV_ARGS(&spControl)));
 
-    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{t}: %Y{t}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{T}: %Y{T}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{s}: %Y{s}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{S}: %Y{S}\n", L"Hello &lt;World>");
+    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{t}: %Y{t}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{T}: %Y{T}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{s}: %Y{s}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{S}: %Y{S}\n", L"Hello <World>");
 
-    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{t}: %Y{t}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{T}: %Y{T}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{s}: %Y{s}\n", L"Hello &lt;World>");
-    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{S}: %Y{S}\n", L"Hello &lt;World>");
+    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{t}: %Y{t}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{T}: %Y{T}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{s}: %Y{s}\n", L"Hello <World>");
+    spControl->ControlledOutputWide(0, DEBUG_OUTPUT_NORMAL, L"TEXT/NORMAL Y{S}: %Y{S}\n", L"Hello <World>");
 
     spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{a}: %Y{a}\n", (ULONG64)0x00007ffa7da163c0);
     spControl->ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{as} 64bit   : '%Y{as}'\n", (ULONG64)0x00007ffa7da163c0);
@@ -390,14 +390,14 @@ This sample code would generate the following output.
 <tr>
 <td>
 <pre>0:004> !testout
-DML/NORMAL Y{t}: "Hello &lt;World>"
-DML/NORMAL Y{T}: "Hello &lt;World>"
-DML/NORMAL Y{s}: Hello &lt;World>
-DML/NORMAL Y{S}: Hello &lt;World>
-TEXT/NORMAL Y{t}: "Hello &lt;World>"
-TEXT/NORMAL Y{T}: &quot;Hello &lt;World>&quot;
-TEXT/NORMAL Y{s}: Hello &lt;World>
-TEXT/NORMAL Y{S}: Hello &lt;World>
+DML/NORMAL Y{t}: "Hello <World>"
+DML/NORMAL Y{T}: "Hello <World>"
+DML/NORMAL Y{s}: Hello <World>
+DML/NORMAL Y{S}: Hello <World>
+TEXT/NORMAL Y{t}: "Hello <World>"
+TEXT/NORMAL Y{T}: &quot;Hello <World>&quot;
+TEXT/NORMAL Y{s}: Hello <World>
+TEXT/NORMAL Y{S}: Hello <World>
 DML/NORMAL Y{a}: 00007ffa`7da163c0
 DML/NORMAL Y{as} 64bit   : '         '
 DML/NORMAL Y{as} 32value : '         '

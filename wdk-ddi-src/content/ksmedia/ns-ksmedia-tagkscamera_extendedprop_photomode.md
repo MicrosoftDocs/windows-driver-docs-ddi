@@ -56,7 +56,7 @@ The <b>KSCAMERA_EXTENDEDPROP_PHOTOMODE</b> structure contains the property data 
 
 ### -field RequestedHistoryFrames
 
-The number of history frames to reserve by the driver. The value of <b>RequestedHistoryFrames</b> &lt;= <b>MaxHistoryFrames</b>.
+The number of history frames to reserve by the driver. The value of <b>RequestedHistoryFrames</b> <= <b>MaxHistoryFrames</b>.
 
 
 ### -field MaxHistoryFrames

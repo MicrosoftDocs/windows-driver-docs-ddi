@@ -112,7 +112,7 @@ The driver for a crash-dump device calls this routine to request that the platfo
 
 For more information about crash dumps, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551880">Kernel-Mode Dump Files</a>.
 
-This routine can be called at IRQL &lt;= HIGH_LEVEL.
+This routine can be called at IRQL <= HIGH_LEVEL.
 
 
 

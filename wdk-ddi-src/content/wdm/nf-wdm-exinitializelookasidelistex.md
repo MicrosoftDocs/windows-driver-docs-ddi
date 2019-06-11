@@ -189,7 +189,7 @@ In Windows 2000 and later versions of Windows, a lookaside list that contains pa
 
 For more information about lookaside lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 
-Callers of <b>ExInitializeLookasideListEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL, but are typically running at IRQL = PASSIVE_LEVEL.
+Callers of <b>ExInitializeLookasideListEx</b> can be running at IRQL <= DISPATCH_LEVEL, but are typically running at IRQL = PASSIVE_LEVEL.
 
 
 #### Examples

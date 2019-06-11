@@ -147,7 +147,7 @@ A driver for a device can use IOCTL_ACPI_GET_DEVICE_INFORMATION to obtain fine-g
 
 The output arguments from the request are returned in the variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/hh450789">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER includes an array of variable-length arrays, each of which returns an output argument representing the sub-system ID string, vendor ID string, and instance ID string, respectively.
 
-IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL &lt;= DISPATCH_LEVEL.
+IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL <= DISPATCH_LEVEL.
 
 
 

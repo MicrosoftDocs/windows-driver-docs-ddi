@@ -92,7 +92,7 @@ A pageable thread or pageable driver routine that runs at IRQL = PASSIVE_LEVEL s
 
 For more information about event objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
 
-If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL &lt;= DISPATCH_LEVEL. Otherwise, callers of <b>KeSetEvent</b> must be running at IRQL &lt;= APC_LEVEL and in a nonarbitrary thread context.
+If <i>Wait</i> is set to <b>FALSE</b>, the caller can be running at IRQL <= DISPATCH_LEVEL. Otherwise, callers of <b>KeSetEvent</b> must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context.
 
 
 

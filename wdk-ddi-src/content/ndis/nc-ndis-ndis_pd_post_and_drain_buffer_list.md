@@ -149,7 +149,7 @@ PD_BUFFER** PostTail = &PostHead;
 PD_BUFFER* DrainHead = NULL;
 PD_BUFFER** DrainTail = &DrainHead;
 
-PD_BUFFER* bufX = &lt;allocated PD_BUFFER>;
+PD_BUFFER* bufX = <allocated PD_BUFFER>;
 
 bufX->NextPDBuffer = NULL;
 *PostTail = bufX;

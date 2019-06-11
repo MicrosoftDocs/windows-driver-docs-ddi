@@ -161,7 +161,7 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2> r2 = FxRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = FxRequest;
 
     switch (ControlCode)
     {

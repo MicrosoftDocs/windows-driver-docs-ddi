@@ -131,7 +131,7 @@ The following code example first shows how a driver can obtain the <a href="http
     if (FAILED(hr))
     {...}
     NumEndPoints = pIUsbInterface->GetNumEndPoints();
-    for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++)
+    for (UCHAR PipeIndex = 0; PipeIndex < NumEndPoints; PipeIndex++)
     {
         hr = pIUsbInterface->RetrieveUsbPipeObject(PipeIndex, &pIUsbPipe);
         if (FAILED(hr))
