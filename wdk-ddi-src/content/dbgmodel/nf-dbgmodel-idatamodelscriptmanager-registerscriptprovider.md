@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IDataModelScriptManager.RegisterScriptProvider
 title: IDataModelScriptManager::RegisterScriptProvider (dbgmodel.h)
 description: The RegisterScriptProvider method informs the data model that a new script provider exists which is capable of bridging a new language to the data model.
 ms.assetid: b1e9628f-51b0-41a6-a3c0-8b264f0ca490
-ms.date: 08/20/2018
+ms.date: 06/10/2019
 ms.topic: method
 ms.keywords: IDataModelScriptManager::RegisterScriptProvider, RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider, IDataModelScriptManager::RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider
 req.header: dbgmodel.h
@@ -48,7 +48,7 @@ The RegisterScriptProvider method informs the data model that a new script provi
 ## -parameters
 
 ### -param provider
-The script provider being registered with the script manager.
+The script provider being registered with the script manager. For more information about script providers, see [IDataModelScriptProvider interface](nn-dbgmodel-idatamodelscriptprovider.md).
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

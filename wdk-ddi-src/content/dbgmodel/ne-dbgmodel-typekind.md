@@ -3,7 +3,7 @@ UID: NE:dbgmodel.TypeKind
 title: TypeKind (dbgmodel.h)
 description: Defines the kind of a type.
 ms.assetid: 82d1212c-5997-4c81-aa2f-3b390c0b2aaa
-ms.date: 07/16/2018
+ms.date: 06/10/2019
 ms.topic: enum
 ms.keywords: TypeKind, , 
 req.header: dbgmodel.h
@@ -69,6 +69,11 @@ An enum. A model object which has a native type whose kind is TypeEnum has a can
 
 ### -field TypeIntrinsic 
 An intrinsic (base type). A model object which has a native type whose kind is TypeIntrinsic has a canonical representation of ObjectIntrinsic. The type information may or may not be kept -- particularly if the underlying type is fully described by the variant data type (VT_*) of the intrinsic data stored in the IModelObject
+
+
+### -TypeExtendedArray
+The type is an array which cannot be expressed as TypeArray. This is due to things such as dynamic sizes, dynamic bounds, etc...  CLI arrays are represented as TypeExtendedArray.
+
 
 ## -remarks
 
