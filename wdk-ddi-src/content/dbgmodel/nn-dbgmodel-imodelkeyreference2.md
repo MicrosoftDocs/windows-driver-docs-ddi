@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IModelKeyReference2
 title: IModelKeyReference2 (dbgmodel.h)
 description: A reference to a key on a data model object.
 ms.assetid: 7edde32e-56bf-4a15-b0e3-114449026a97
-ms.date: 07/16/2018
+ms.date: 06/11/2019
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -38,6 +38,8 @@ ms.custom: RS5
 ## -description
 
 A reference to a key on a data model object.
+
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 
 ## -inheritance

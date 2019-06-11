@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostSymbol2
 title: IDebugHostSymbol2 (dbgmodel.h)
 description: An interface to a particular symbol.
 ms.assetid: 669f0a11-dfd4-4877-a054-bde97ead4387
-ms.date: 07/13/2018
+ms.date: 06/11/2019
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -39,6 +39,7 @@ ms.custom: RS5
 
 An interface to a particular symbol.
 
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
 IDebugHostSymbol2 interits from IDebugHostSymbol. 
