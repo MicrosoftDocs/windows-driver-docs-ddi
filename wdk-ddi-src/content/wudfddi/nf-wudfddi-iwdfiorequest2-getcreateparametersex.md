@@ -129,10 +129,10 @@ OnCreateFile(
     ACCESS_MASK desiredAccess;
     ...
     CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2(FxRequest);
-    fxRequest2-&gt;GetCreateParametersEx(&amp;fileOptions
-                                      &amp;fileAttributes,
-                                      &amp;shareAccess,
-                                      &amp;desiredAccess);
+    fxRequest2-&gt;GetCreateParametersEx(&fileOptions
+                                      &fileAttributes,
+                                      &shareAccess,
+                                      &desiredAccess);
     ...
 }</pre>
 </td>

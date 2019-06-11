@@ -241,15 +241,15 @@ WDFMEMORY memory;
 NTSTATUS status;
 IOCTL_DATA *pIoctlData;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;memoryObjAttr);
+WDF_OBJECT_ATTRIBUTES_INIT(&memoryObjAttr);
 memoryObjAttr.ParentObject = Request;
 
 status = WdfMemoryCreate(
-                         &amp;memoryObjAttr,
+                         &memoryObjAttr,
                          NonPagedPool,
                          0,
                          sizeof(IOCTL_DATA),
-                         &amp;memory,
+                         &memory,
                          NULL
                          );
 if (!NT_SUCCESS(status)) {

@@ -152,14 +152,14 @@ Return Value:
 
     queue = DeviceContext-&gt;NotificationQueue;
     if (DeviceContext-&gt;PnpEventNew
-        &amp;&amp; NT_SUCCESS(WdfIoQueueRetrieveNextRequest(queue, &amp;request)))
+        && NT_SUCCESS(WdfIoQueueRetrieveNextRequest(queue, &request)))
     {
         NT_ASSERT(DeviceContext-&gt;PnpEventPending != FALSE);
         DeviceContext-&gt;PnpEventNew = FALSE;
 
         status = WdfRequestRetrieveOutputBuffer(request,
                                                 sizeof(*notification),
-                                                &amp;notification,
+                                                &notification,
                                                 NULL);
         if (!NT_SUCCESS(status))
         {

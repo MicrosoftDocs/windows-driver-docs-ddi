@@ -168,7 +168,7 @@ context-&gt;Argument1 = Context1;
 context-&gt;Argument2 = Context2;
 
 if (InterlockedCompareExchange(
-                               (PLONG)&amp;context-&gt;WorkItemState,
+                               (PLONG)&context-&gt;WorkItemState,
                                WORKITEM_STATE_BUSY,
                                WORKITEM_STATE_FREE
                                ) == WORKITEM_STATE_FREE) {
@@ -202,7 +202,7 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
     // Reset object state.
     //
     result = InterlockedExchange(
-                                 (PLONG)&amp;context-&gt;WorkItemState,
+                                 (PLONG)&context-&gt;WorkItemState,
                                  WORKITEM_STATE_FREE
                                  );
     ASSERT(result == WORKITEM_STATE_BUSY);

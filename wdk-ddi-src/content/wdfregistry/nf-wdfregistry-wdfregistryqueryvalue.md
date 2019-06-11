@@ -208,18 +208,18 @@ status = WdfDeviceOpenRegistryKey(
                                   PLUGPLAY_REGKEY_DEVICE,
                                   KEY_QUERY_VALUE,
                                   NULL, 
-                                  &amp;hKey
+                                  &hKey
                                   );
 if (!NT_SUCCESS (status)) {
     goto Error;
 }
 status = WdfRegistryQueryValue(
                                hKey,
-                               &amp;valueName,
+                               &valueName,
                                sizeof(ULONG),
-                               &amp;value,
-                               &amp;length,
-                               &amp;valueType
+                               &value,
+                               &length,
+                               &valueType
                                );</pre>
 </td>
 </tr>

@@ -90,7 +90,7 @@ An example of how to use it is:
 if (!WriteFile((HANDLE)(LONG_PTR)pmdtc-&gt;hFile,
     pMyBuffer,
     dwNumBytesToWrite,
-   &amp;dwNumBytesWritten,
+   &dwNumBytesWritten,
     NULL)) {
      //
      // Some error happened
@@ -113,7 +113,7 @@ However, if you are considering using just the file handle in your TYMED_FILE an
 <pre>  bRet = WriteFile((HANDLE)ULongToPtr(pmdtc-&gt;hFile),
     pmdtc-&gt;pTransferBuffer,
     pmdtc-&gt;lItemSize,
-    &amp;ulWritten,
+    &ulWritten,
     NULL);</pre>
 </td>
 </tr>

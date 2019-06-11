@@ -114,14 +114,14 @@ The following code example creates an I/O target object and opens a target by sp
 <pre>UNICODE_STRING  fileName;
 
 RtlInitUnicodeString(
-                     &amp;fileName, 
+                     &fileName, 
                      (PCWSTR)PROTOCOL_INTERFACE_NAME
                      );
 
 status = WdfIoTargetCreate(
                            Adapter-&gt;WdfDevice,
                            WDF_NO_OBJECT_ATTRIBUTES,
-                           &amp;Adapter-&gt;IoTarget
+                           &Adapter-&gt;IoTarget
                            );
 if (!NT_SUCCESS(status)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetCreate failed 0x%x\n", status));
@@ -129,14 +129,14 @@ if (!NT_SUCCESS(status)) {
 }
 
 WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME(
-                                              &amp;openParams,
-                                              &amp;fileName,
+                                              &openParams,
+                                              &fileName,
                                               STANDARD_RIGHTS_ALL
                                               );
 
 status = WdfIoTargetOpen(
                          Adapter-&gt;IoTarget,
-                         &amp;openParams
+                         &openParams
                          );
 if (!NT_SUCCESS(status)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetOpen failed 0x%x\n", status));

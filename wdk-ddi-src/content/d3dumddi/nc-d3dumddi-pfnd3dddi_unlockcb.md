@@ -109,17 +109,17 @@ HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
     D3DDDICB_LOCK   lockCB;
     D3DDDICB_UNLOCK Unlock;
 
-    memset(&amp;lockCB, 0, sizeof(D3DDDICB_LOCK));
+    memset(&lockCB, 0, sizeof(D3DDDICB_LOCK));
     lockCB.hAllocation = m_HandleUsedInLastSubmit;
     lockCB.PrivateDriverData = 0;                       
-    hr = m_d3dCallbacks.pfnLockCb(m_hD3D, &amp;lockCB);
+    hr = m_d3dCallbacks.pfnLockCb(m_hD3D, &lockCB);
     if (FAILED(hr)) {
         DBG_BREAK;
         return hr;
     }
     Unlock.NumAllocations = 1;
-    Unlock.phAllocations = &amp;m_HandleUsedInLastSubmit;
-    m_d3dCallbacks.pfnUnlockCb(m_hD3D, &amp;Unlock);   
+    Unlock.phAllocations = &m_HandleUsedInLastSubmit;
+    m_d3dCallbacks.pfnUnlockCb(m_hD3D, &Unlock);   
     return hr;
 }
 ```

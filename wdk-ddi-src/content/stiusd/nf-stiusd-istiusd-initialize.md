@@ -128,8 +128,8 @@ The following example opens a device port only if a call to <a href="https://msd
         m_pDcb-&gt;AddRef();
         // If we opened in data mode - should open device right now,
         // otherwise postpone open till lock
-        m_pDcb-&gt;GetMyDeviceOpenMode(&amp;dwMode);
-        if (dwMode &amp; STI_DEVICE_CREATE_DATA)
+        m_pDcb-&gt;GetMyDeviceOpenMode(&dwMode);
+        if (dwMode & STI_DEVICE_CREATE_DATA)
             hres = OpenMyPort();
     }
     return hres;

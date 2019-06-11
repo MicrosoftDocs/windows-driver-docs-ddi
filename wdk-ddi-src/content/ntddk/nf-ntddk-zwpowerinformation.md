@@ -169,7 +169,7 @@ This example illustrates a valid function call.
 <tr>
 <td>
 <pre>POWER_PLATFORM_INFORMATION PlatformInfo = {0};
-NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &amp;PlatformInfo, sizeof(PlatformInfo));
+NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &PlatformInfo, sizeof(PlatformInfo));
 </pre>
 </td>
 </tr>

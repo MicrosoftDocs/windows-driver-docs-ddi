@@ -164,7 +164,7 @@ CDriver::OnDeviceAdd(
     //
     // Create the device callback object.
     //
-    HRESULT hr = CDevice::CreateInstance(&amp;pDeviceCallback);
+    HRESULT hr = CDevice::CreateInstance(&pDeviceCallback);
 
     //
     // Set device properties
@@ -187,7 +187,7 @@ CDriver::OnDeviceAdd(
     if (S_OK == hr) {
         hr = pDriver-&gt;CreateDevice(pDeviceInit, 
                                    pDeviceCallback,
-                                   &amp;pIWDFDevice);
+                                   &pIWDFDevice);
     }
 
     //
@@ -195,7 +195,7 @@ CDriver::OnDeviceAdd(
     //
 
     if (S_OK == hr) {
-        hr = CQueue::CreateInstance(&amp;pIUnkQueue);
+        hr = CQueue::CreateInstance(&pIUnkQueue);
     }
 
     //
@@ -211,7 +211,7 @@ CDriver::OnDeviceAdd(
                        WdfIoQueueDispatchParallel,
                        TRUE,                  // bPowerManaged
                        FALSE, //bAllowZeroLengthRequests
-                       &amp;pDefaultQueue);
+                       &pDefaultQueue);
         SAFE_RELEASE(pDefaultQueue);
     }
 

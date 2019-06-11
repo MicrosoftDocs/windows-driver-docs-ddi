@@ -102,7 +102,7 @@ WDFWMIINSTANCE  instanceHandle;
 NTSTATUS  status;
 
 WDF_WMI_PROVIDER_CONFIG_INIT(
-                             &amp;providerConfig,
+                             &providerConfig,
                              providerGuid
                              );
 providerConfig.Flags = WdfWmiProviderTracing;
@@ -110,23 +110,23 @@ providerConfig.EvtWmiProviderFunctionControl = MyProviderFunctionControl;
 
 status = WdfWmiProviderCreate(
                               Device,
-                              &amp;providerConfig,
+                              &providerConfig,
                               WDF_NO_OBJECT_ATTRIBUTES,
-                              &amp;provider
+                              &provider
                               );
 
 if (!NT_SUCCESS(status)) {
     return status;
 }
 WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER(
-                                      &amp;instanceConfig,
+                                      &instanceConfig,
                                       provider
                                       );
 status = WdfWmiInstanceCreate(
                               Device,
-                              &amp;instanceConfig,
+                              &instanceConfig,
                               WDF_NO_OBJECT_ATTRIBUTES,
-                              &amp;instanceHandle
+                              &instanceHandle
                               );
 if (!NT_SUCCESS(status)) {
     return status;

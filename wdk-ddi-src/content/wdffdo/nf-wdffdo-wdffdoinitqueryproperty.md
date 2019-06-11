@@ -174,23 +174,23 @@ status = WdfFdoInitQueryProperty(
                                  DevicePropertyEnumeratorName,
                                  sizeof(enumeratorName),
                                  enumeratorName,
-                                 &amp;returnSize
+                                 &returnSize
                                  );
 if(!NT_SUCCESS(status)){
     return status;
 }
 
 RtlInitUnicodeString(
-                     &amp;unicodeEnumName,
+                     &unicodeEnumName,
                      enumeratorName
                      );
 RtlInitUnicodeString(
-                     &amp;temp,
+                     &temp,
                      L"PCI"
                      );
 if(RtlCompareUnicodeString(
-                           &amp;unicodeEnumName,
-                           &amp;temp,
+                           &unicodeEnumName,
+                           &temp,
                            TRUE
                            ) == 0) {
     //

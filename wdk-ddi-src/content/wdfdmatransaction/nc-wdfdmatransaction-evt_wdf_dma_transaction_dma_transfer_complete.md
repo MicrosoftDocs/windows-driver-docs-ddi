@@ -162,7 +162,7 @@ MyDmaTransactionDmaTransferComplete(
         // Normal transfer completion.  Indicate this to the framework and see 
         // if there's more work to do.
         //
-        if (WdfDmaTransactionDmaCompleted(Transaction, &amp;requestStatus) == FALSE) {
+        if (WdfDmaTransactionDmaCompleted(Transaction, &requestStatus) == FALSE) {
             //
             // There are more DMA transfers to come.  The transaction 
             // may already have been completed on another processor.  
@@ -179,7 +179,7 @@ MyDmaTransactionDmaTransferComplete(
         // Complete the entire transaction.  But throw out the status and 
         // use one derived from the DmaStatus.
         //
-        WdfDmaTransactionDmaCompletedFinal(Transaction, 0, &amp;requestStatus);        
+        WdfDmaTransactionDmaCompletedFinal(Transaction, 0, &requestStatus);        
         
         //
         // Error or cancellation.  Indicate that this was the final transfer to 
@@ -269,7 +269,7 @@ AttemptRequestCompletion(
         // Unmark the request cancelable.  If that succeeds then drop the cancel reference
         //
         if (WdfRequestUnmarkCancelable(RequestContext-&gt;Request) == STATUS_SUCCESS) {
-            refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+            refCount = InterlockedDecrement(&(RequestContext-&gt;CompletionRefCount));
             NT_ASSERTMSGW(L"Reference count should not have gone to zero yet",
                           refCount != 0);
         }
@@ -283,7 +283,7 @@ AttemptRequestCompletion(
                 // The timer was queued but will never run.  Drop its 
                 // reference count.
                 //
-                refCount = InterlockedDecrement(&amp;RequestContext-&gt;CompletionRefCount);
+                refCount = InterlockedDecrement(&RequestContext-&gt;CompletionRefCount);
                 NT_ASSERTMSG("Completion reference count should not reach zero until "
                              L"this routine calls AttemptRequestCompletion",
                              refCount &gt; 0);
@@ -295,7 +295,7 @@ AttemptRequestCompletion(
     // Drop this caller's reference.  If that was the last one then 
     // complete the request.
     //
-    refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+    refCount = InterlockedDecrement(&(RequestContext-&gt;CompletionRefCount));
 
     if (refCount == 0) {
         NT_ASSERTMSGW(L"Execution reference was released, but execution "

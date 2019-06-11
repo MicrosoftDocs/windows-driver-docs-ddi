@@ -157,7 +157,7 @@ PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBu
         // return the original buffer to free later
         *pUnAlignedBuffer = AlignedBuffer;
         // adjust buffer pointer for the desired alignment
-        AlignedBuffer = (PVOID)(((ULONG_PTR)AlignedBuffer + FullWordMask) &amp; ~FullWordMask);
+        AlignedBuffer = (PVOID)(((ULONG_PTR)AlignedBuffer + FullWordMask) & ~FullWordMask);
     }
 
     return AlignedBuffer;

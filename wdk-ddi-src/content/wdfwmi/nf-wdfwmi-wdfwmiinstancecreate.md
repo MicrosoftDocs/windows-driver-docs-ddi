@@ -189,20 +189,20 @@ PciDrvWmiRegistration(
 
     status = WdfDeviceAssignMofResourceName(
                                             Device,
-                                            &amp;mofRsrcName
+                                            &mofRsrcName
                                             );
     if (!NT_SUCCESS(status)) {
         return status;
     }
     WDF_WMI_PROVIDER_CONFIG_INIT(
-                                 &amp;providerConfig,
-                                 &amp;PCIDRV_WMI_STD_DATA_GUID
+                                 &providerConfig,
+                                 &PCIDRV_WMI_STD_DATA_GUID
                                  );
     providerConfig.MinInstanceBufferSize = sizeof(PCIDRV_WMI_STD_DATA);
 
     WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG(
-                                                 &amp;instanceConfig,
-                                                 &amp;providerConfig
+                                                 &instanceConfig,
+                                                 &providerConfig
                                                  );
     instanceConfig.Register = TRUE;
     instanceConfig.EvtWmiInstanceQueryInstance = EvtWmiDeviceInfoQueryInstance;
@@ -210,7 +210,7 @@ PciDrvWmiRegistration(
 
     status = WdfWmiInstanceCreate(
                                   Device,
-                                  &amp;instanceConfig,
+                                  &instanceConfig,
                                   WDF_NO_OBJECT_ATTRIBUTES,
                                   WDF_NO_HANDLE
                                   );

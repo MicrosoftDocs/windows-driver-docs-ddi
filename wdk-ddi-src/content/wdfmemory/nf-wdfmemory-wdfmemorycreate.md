@@ -174,15 +174,15 @@ WDF_OBJECT_ATTRIBUTES  attributes;
 WDFMEMORY  writeBufferMemHandle;
 PVOID  writeBufferPointer;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = requestHandle;
 status = WdfMemoryCreate(
-                         &amp;attributes,
+                         &attributes,
                          NonPagedPool,
                          0,
                          WRITE_BUFFER_SIZE,
-                         &amp;writeBufferMemHandle,
-                         &amp;writeBufferPointer
+                         &writeBufferMemHandle,
+                         &writeBufferPointer
                          );</pre>
 </td>
 </tr>

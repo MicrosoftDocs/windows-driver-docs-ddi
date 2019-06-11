@@ -120,7 +120,7 @@ The following code example shows how to retrieve the name of a file.
     HRESULT hr;
 
     // Get the length of the file name to allocate a buffer.
-    hr = WdfFile-&gt;RetrieveFileName(NULL, &amp;fileNameCch);
+    hr = WdfFile-&gt;RetrieveFileName(NULL, &fileNameCch);
     //
     // Allocate the buffer.
     //
@@ -138,7 +138,7 @@ The following code example shows how to retrieve the name of a file.
     //
     if (SUCCEEDED(hr))
     {
-        hr = WdfFile-&gt;RetrieveFileName(fileName, &amp;fileNameCch);
+        hr = WdfFile-&gt;RetrieveFileName(fileName, &fileNameCch);
     }</pre>
 </td>
 </tr>

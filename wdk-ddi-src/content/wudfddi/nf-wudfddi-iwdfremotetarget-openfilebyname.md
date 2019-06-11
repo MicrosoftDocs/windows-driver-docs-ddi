@@ -138,7 +138,7 @@ HRESULT hr;
 CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
 hr = FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
                                   fxRemoteInterface,
-                                  &amp;fxTarget);
+                                  &fxTarget);
 if (FAILED(hr)) goto Error;
 
 //
@@ -150,7 +150,7 @@ openParams.dwFlagsAndAttributes = FILE_ATTRIBUTE_READONLY;
 
 hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
                               GENERIC_READ,
-                              &amp;openParams);
+                              &openParams);
  </pre>
 </td>
 </tr>

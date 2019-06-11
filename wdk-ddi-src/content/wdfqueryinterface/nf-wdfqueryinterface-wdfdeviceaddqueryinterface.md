@@ -175,7 +175,7 @@ WDF_QUERY_INTERFACE_CONFIG  qiConfig;
 // Initialize the ToasterInterface structure.
 //
 RtlZeroMemory(
-              &amp;ToasterInterface,
+              &ToasterInterface,
               sizeof(ToasterInterface)
               );
 
@@ -196,9 +196,9 @@ ToasterInterface.IsSafetyLockEnabled = Bus_IsSafetyLockEnabled;
 // Initialize the qiConfig structure.
 //
 WDF_QUERY_INTERFACE_CONFIG_INIT(
-                                &amp;qiConfig,
-                                (PINTERFACE)&amp;ToasterInterface,
-                                &amp;GUID_TOASTER_INTERFACE_STANDARD,
+                                &qiConfig,
+                                (PINTERFACE)&ToasterInterface,
+                                &GUID_TOASTER_INTERFACE_STANDARD,
                                 NULL
                                 );
 
@@ -207,7 +207,7 @@ WDF_QUERY_INTERFACE_CONFIG_INIT(
 //
 status = WdfDeviceAddQueryInterface(
                                     hChild,
-                                    &amp;qiConfig
+                                    &qiConfig
                                     );
 if (!NT_SUCCESS(status)) {
     return status;

@@ -94,27 +94,27 @@ The following code example demonstrates how to use the <b>SetTraceLevel</b> meth
 Set Action = CDROM.GetInterface("DeviceManagement")
  
 If Err.number &lt;&gt; 0 Then
-    WScript.Echo Space(4) &amp; "Failed to get interface DeviceManagement. Error Number:" &amp; Err.number
+    WScript.Echo Space(4) & "Failed to get interface DeviceManagement. Error Number:" & Err.number
 Else            
     '
     ' Set the tracing level to HIGH
     '
     Action.SetTraceLevel(Trace3_High)
     If Err.number &lt;&gt; 0 Then
-        WScript.Echo Space(4) &amp; "Failed to set tracing level to 'High'. Error Number:" &amp; Err.number
+        WScript.Echo Space(4) & "Failed to set tracing level to 'High'. Error Number:" & Err.number
     End If
 
     '
     ' Disable the CD-ROM
     '
-    WScript.Echo Space(4) &amp; "Trying to disable device..."
+    WScript.Echo Space(4) & "Trying to disable device..."
  
     Action.Disable()
  
     If Err.number &lt;&gt; 0 Then
-        WScript.Echo Space(4) &amp; "Failed to disable the specified CDROM. Error     Number:" &amp; Err.number &amp; vbcrlf
+        WScript.Echo Space(4) & "Failed to disable the specified CDROM. Error     Number:" & Err.number & vbcrlf
     Else
-        WScript.Echo Space(4) &amp; "Specified CDROM successfully disabled." &amp; vbcrlf
+        WScript.Echo Space(4) & "Specified CDROM successfully disabled." & vbcrlf
     End If
 End If</pre>
 </td>
@@ -131,12 +131,12 @@ End If</pre>
 <pre>IDevMan* pDevMan;        // DeviceManagement Action interface
 
 VARIANT vtEmpty;       // To be passed as a parameter to ITarget::GetInterface
-VariantInit(&amp;vtEmpty);
+VariantInit(&vtEmpty);
 
 //
 // Get DeviceManagement Action interface
 //
-hr = pCDROM-&gt;GetInterface(L"DeviceManagement", vtEmpty, vtEmpty, (IAction**)(&amp;pDevMan));
+hr = pCDROM-&gt;GetInterface(L"DeviceManagement", vtEmpty, vtEmpty, (IAction**)(&pDevMan));
 if(FAILED(hr))
 {
     _tprintf(_T("\n  Failed to get DeviceManagement Interface for specified CDROM Device. Error: 0x%x"), hr);

@@ -121,13 +121,13 @@ CUmdfHidDevice::PrepareReader(
 
     HRESULT hr;
 
-    GetWdfDevice(&amp;wdfDevice);
-    wdfDevice-&gt;GetDriver(&amp;wdfDriver);
+    GetWdfDevice(&wdfDevice);
+    wdfDevice-&gt;GetDriver(&wdfDriver);
 
     // Open the interrupt pipe.
     hr = m_HidInterface-&gt;RetrieveUsbPipeObject(
                          USB_HID_INTERRUPT_PIPE_INDEX,
-                         &amp;m_InterruptPipe
+                         &m_InterruptPipe
                          );
 
     // Allocate a memory object to hold information that 
@@ -138,7 +138,7 @@ CUmdfHidDevice::PrepareReader(
         hr = wdfDriver-&gt;CreateWdfMemory(m_ReadBufferSize,
                                         NULL,
                                         wdfDevice,
-                                        &amp;m_ReadMemory);
+                                        &m_ReadMemory);
     }
 
     return hr;

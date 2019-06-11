@@ -110,7 +110,7 @@ DxgkDdiOpenAllocation(
 
     pR2D3DDev = (PR2D3DDevice)InterfaceContext;
     pAdapter  = (PHW_DEVICE_EXTENSION)pR2D3DDev-&gt;pAdapter;
-    pCallback = &amp;(pAdapter-&gt;ddiCallback);
+    pCallback = &(pAdapter-&gt;ddiCallback);
 
     for (dwIdx=0; dwIdx &lt; pDDIDAData-&gt;NumAllocations; dwIdx++) {
         DXGKARGCB_GETHANDLEDATA  getHandleData = {0};
@@ -118,7 +118,7 @@ DxgkDdiOpenAllocation(
 
         getHandleData.hObject = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
         getHandleData.Type    = DXGK_HANDLE_ALLOCATION;
-        pAllocInfo = (PR2AllocationInfo)pCallback-&gt;DxgkCbGetHandleData(&amp;getHandleData);
+        pAllocInfo = (PR2AllocationInfo)pCallback-&gt;DxgkCbGetHandleData(&getHandleData);
         pDDIDAData-&gt;pOpenAllocation[dwIdx].hDeviceSpecificAllocation = (HANDLE)pAllocInfo;
         pAllocInfo-&gt;vidMemData.hAllocation = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
     }

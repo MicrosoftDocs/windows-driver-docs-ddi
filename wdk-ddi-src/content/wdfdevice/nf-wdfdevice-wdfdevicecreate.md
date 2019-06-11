@@ -203,13 +203,13 @@ MyEvtDeviceAdd(
     //
     // Initialize the WDF_PNPPOWER_EVENT_CALLBACKS structure.
     //
-    WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&amp;pnpPowerCallbacks);
+    WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&pnpPowerCallbacks);
     pnpPowerCallbacks.EvtDevicePrepareHardware = MyEvtDevicePrepareHardware;
     pnpPowerCallbacks.EvtDeviceD0Entry = MyEvtDeviceD0Entry;
     pnpPowerCallbacks.EvtDeviceD0Exit  = MyEvtDeviceD0Exit;
     WdfDeviceInitSetPnpPowerEventCallbacks(
                                            DeviceInit,
-                                           &amp;pnpPowerCallbacks
+                                           &pnpPowerCallbacks
                                            );
     //
     // This driver uses buffered I/O.
@@ -224,16 +224,16 @@ MyEvtDeviceAdd(
     // using a driver-defined DEVICE_CONTEXT structure.
  //
     WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                            &amp;attributes,
+                                            &attributes,
                                             DEVICE_CONTEXT
                                             );
  //
     // Create the device object.
     //
     status = WdfDeviceCreate(
-                             &amp;DeviceInit,
-                             &amp;attributes,
-                             &amp;device
+                             &DeviceInit,
+                             &attributes,
+                             &device
                              );
     if (!NT_SUCCESS(status)) {
         return status;

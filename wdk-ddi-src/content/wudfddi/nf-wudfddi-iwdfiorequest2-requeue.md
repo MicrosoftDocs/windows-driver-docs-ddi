@@ -139,7 +139,7 @@ CMyQueue::OnStateChange(
     //
     // Get the IWDFIoRequest interface of the next request.
     //
-    hr = pWdfQueue-&gt;RetrieveNextRequest(&amp;Request);
+    hr = pWdfQueue-&gt;RetrieveNextRequest(&Request);
 ...
     //
     // Declare an IWDFIoRequest2 interface pointer and obtain the

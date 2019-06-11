@@ -127,7 +127,7 @@ The following code example assigns a security setting for a device.
 
 status = WdfDeviceInitAssignSDDLString(
                                        pDeviceInit,
-                                       &amp;SDDL_DEVOBJ_SYS_ALL_ADM_ALL
+                                       &SDDL_DEVOBJ_SYS_ALL_ADM_ALL
                                        );</pre>
 </td>
 </tr>

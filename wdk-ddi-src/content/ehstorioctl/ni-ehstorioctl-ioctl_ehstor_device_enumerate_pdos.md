@@ -58,11 +58,11 @@ This IOCTL returns a result set containing the enumeration of all active storage
 <pre>DeviceIoControl(
     hDevice,
     IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS,
-    &amp;pdoType,
+    &pdoType,
     sizeof(PDO_TYPE),
     NULL,
     0,
-    &amp;dwBytesRequired,
+    &dwBytesRequired,
     NULL );</pre>
 </td>
 </tr>

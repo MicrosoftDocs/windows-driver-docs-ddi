@@ -175,7 +175,7 @@ MyEvtDevicePrepareHardware(
  status = WdfUsbTargetDeviceCreate(
                                       Device,
                                       WDF_NO_OBJECT_ATTRIBUTES,
-                                      &amp;pMyDeviceContext-&gt;UsbDevice
+                                      &pMyDeviceContext-&gt;UsbDevice
                                       );
     if (!NT_SUCCESS(status)) {
         return status;

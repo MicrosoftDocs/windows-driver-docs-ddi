@@ -118,14 +118,14 @@ In this example, the PF driver generates a unique identifier by calling <a href=
 
         status = WdfRequestRetrieveOutputBuffer(Request,
                                                 sizeof(LUID),
-                                                &amp;luid,
+                                                &luid,
                                                 NULL);
         if (!NT_SUCCESS(status))
         {
             break;
         }
 
-        RtlCopyMemory(luid, &amp;deviceContext-&gt;Luid, sizeof(LUID));
+        RtlCopyMemory(luid, &deviceContext-&gt;Luid, sizeof(LUID));
         WdfRequestSetInformation(Request, sizeof(LUID));
         status = STATUS_SUCCESS;
         break;

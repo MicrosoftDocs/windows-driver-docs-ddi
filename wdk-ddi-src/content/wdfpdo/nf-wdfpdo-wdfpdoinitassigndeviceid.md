@@ -132,7 +132,7 @@ DECLARE_CONST_UNICODE_STRING(deviceId,KBFILTR_DEVICE_ID);
 
 status = WdfPdoInitAssignDeviceID(
                                   pDeviceInit,
-                                  &amp;deviceId
+                                  &deviceId
                                   );</pre>
 </td>
 </tr>

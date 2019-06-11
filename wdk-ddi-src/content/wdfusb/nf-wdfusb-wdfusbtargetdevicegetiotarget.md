@@ -93,9 +93,9 @@ The following code example creates a request object and verifies that the framew
 <tr>
 <td>
 <pre>status = WdfRequestCreate(
-                          &amp;attributes,
+                          &attributes,
                           WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
-                          &amp;request
+                          &request
                           );</pre>
 </td>
 </tr>

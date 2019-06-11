@@ -103,7 +103,7 @@ myDeviceContext = GetDeviceContext(device);
 
 WdfUsbTargetDeviceGetDeviceDescriptor(
                                       myDeviceContext-&gt;UsbTargetDevice,
-                                      &amp;myDeviceContext-&gt;UsbDeviceDescr
+                                      &myDeviceContext-&gt;UsbDeviceDescr
                                       );</pre>
 </td>
 </tr>

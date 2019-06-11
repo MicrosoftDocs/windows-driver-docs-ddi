@@ -191,7 +191,7 @@ AmccPciEvtInterruptDpc(
     //
     transactionComplete = WdfDmaTransactionDmaCompleted(
                                                     transfer-&gt;DmaTransaction,
-                                                    &amp;status
+                                                    &status
                                                     );
     if (transactionComplete) {
         ASSERT(status != STATUS_MORE_PROCESSING_REQUIRED);

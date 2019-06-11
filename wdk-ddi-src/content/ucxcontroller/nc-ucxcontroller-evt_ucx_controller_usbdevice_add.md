@@ -116,12 +116,12 @@ UsbDevice_EvtControllerUsbDeviceAdd(
     UCXUSBDEVICE                    ucxUsbDevice;
     PUCX_USB_DEVICE_CONTEXT         ucxUsbDeviceContext;
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_USB_DEVICE_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&objectAttributes, UCX_USB_DEVICE_CONTEXT);
 
     //
     // Set the event callbacks for the USB device.
     //
-    UCX_USBDEVICE_EVENT_CALLBACKS_INIT(&amp;callbacks,
+    UCX_USBDEVICE_EVENT_CALLBACKS_INIT(&callbacks,
                                        UsbDevice_EvtUcxUsbDeviceEndpointsConfigure,
                                        UsbDevice_EvtUcxUsbDeviceEnable,
                                        UsbDevice_EvtUcxUsbDeviceDisable,
@@ -132,15 +132,15 @@ UsbDevice_EvtControllerUsbDeviceAdd(
                                        Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd,
                                        Endpoint_EvtUcxUsbDeviceEndpointAdd);
 
-    UcxUsbDeviceInitSetEventCallbacks(UsbDeviceInit, &amp;callbacks);
+    UcxUsbDeviceInitSetEventCallbacks(UsbDeviceInit, &callbacks);
 
     //
     // Create the device
     //
     status = UcxUsbDeviceCreate(UcxController,
-                                &amp;UsbDeviceInit,
-                                &amp;objectAttributes,
-                                &amp;ucxUsbDevice);
+                                &UsbDeviceInit,
+                                &objectAttributes,
+                                &ucxUsbDevice);
 
     if (!NT_SUCCESS(status)) {
         DbgTrace(TL_ERROR, UsbDevice, "UcxUsbDeviceCreate Failed %!STATUS!", status);
@@ -150,8 +150,8 @@ UsbDevice_EvtControllerUsbDeviceAdd(
     ucxUsbDeviceContext = GetUcxUsbDeviceContext(ucxUsbDevice);
     ucxUsbDeviceContext-&gt;DeviceSpeed = UsbDeviceInfo-&gt;DeviceSpeed;
     ucxUsbDeviceContext-&gt;TtHub = UsbDeviceInfo-&gt;TtHub;
-    RtlCopyMemory(&amp;ucxUsbDeviceContext-&gt;PortPath,
-                  &amp;UsbDeviceInfo-&gt;PortPath,
+    RtlCopyMemory(&ucxUsbDeviceContext-&gt;PortPath,
+                  &UsbDeviceInfo-&gt;PortPath,
                   sizeof(USB_DEVICE_PORT_PATH));
 
     DbgTrace(TL_INFO, UsbDevice, "UsbDevice_EvtControllerUsbDeviceAdd");

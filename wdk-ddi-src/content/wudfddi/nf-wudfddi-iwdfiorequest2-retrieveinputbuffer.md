@@ -171,8 +171,8 @@ STDMETHODCALLTYPE
             // Obtain the baud rate from the write request's input buffer.
             //
             hr = r2-&gt;RetrieveInputBuffer(sizeof(SERIAL_BAUD_RATE),
-                                         (PVOID*) &amp;buffer, 
-                                         &amp;bufferSize);
+                                         (PVOID*) &buffer, 
+                                         &bufferSize);
 ...
         }
     }

@@ -99,11 +99,11 @@ The following code example informs the PnP manager that a specified device is di
 <td>
 <pre>WDF_DEVICE_STATE    deviceState;
 
-WDF_DEVICE_STATE_INIT (&amp;deviceState);
+WDF_DEVICE_STATE_INIT (&deviceState);
 deviceState.Disabled = WdfTrue;
 WdfDeviceSetDeviceState (
                          Device,
-                         &amp;deviceState
+                         &deviceState
                          );</pre>
 </td>
 </tr>

@@ -303,7 +303,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
         // function suspend support.     
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "New USB stack loaded.\n" ));
         ntStatus = USBD_QueryUsbCapability ( deviceExtension-&gt;UsbdHandle,  
-            (GUID*)&amp;GUID_USB_CAPABILITY_FUNCTION_SUSPEND,  
+            (GUID*)&GUID_USB_CAPABILITY_FUNCTION_SUSPEND,  
             0,  
             NULL,
             NULL);
@@ -326,7 +326,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
 
     ntStatus = USBD_QueryUsbCapability(
         deviceExtension-&gt;UsbdHandle,
-        (GUID*)&amp;GUID_USB_CAPABILITY_CHAINED_MDLS,
+        (GUID*)&GUID_USB_CAPABILITY_CHAINED_MDLS,
         0,
         NULL,
         NULL);
@@ -347,9 +347,9 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // stream support. 
 
     ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_STATIC_STREAMS, 
+        (GUID*)&GUID_USB_CAPABILITY_STATIC_STREAMS, 
         sizeof(ULONG), 
-        (PUCHAR) &amp;deviceExtension-&gt;MaxSupportedStreams, 
+        (PUCHAR) &deviceExtension-&gt;MaxSupportedStreams, 
         NULL);  
 
 
@@ -364,7 +364,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // selective suspend support. 
 
     ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_SELECTIVE_SUSPEND, 
+        (GUID*)&GUID_USB_CAPABILITY_SELECTIVE_SUSPEND, 
         0, 
         NULL, 
         NULL);
@@ -382,7 +382,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // Call USBD_QueryUsbCapability to determine 
     // device speed. 
     ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE, 
+        (GUID*)&GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE, 
         0, 
         NULL, 
         NULL);
@@ -400,7 +400,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // Call USBD_QueryUsbCapability to determine 
     // device speed. 
     ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE, 
+        (GUID*)&GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE, 
         0, 
         NULL, 
         NULL);

@@ -117,7 +117,7 @@ CMyDevice::OnCleanup(
 {
     UNREFERENCED_PARAMETER(pWdfObject);
  
-    if ((m_CreatedLegacyHardwareKey == TRUE) &amp;&amp; 
+    if ((m_CreatedLegacyHardwareKey == TRUE) && 
         (m_LegacyHardwarePropertyStore != NULL))
     {
         m_LegacyHardwarePropertyStore-&gt;DeleteNamedValue(m_PdoName);

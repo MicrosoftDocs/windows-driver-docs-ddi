@@ -109,7 +109,7 @@ HRESULT PostStateEvent()
         SensorState st;
 
         // Retrieve the sensor state
-        hr = m_pDdi-&gt;GetSensorState(&amp;st);
+        hr = m_pDdi-&gt;GetSensorState(&st);
 
         if (SUCCEEDED(hr))
         {

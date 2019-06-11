@@ -97,8 +97,8 @@ This snippet shows how the callback extracts the root hub interrupt transfer req
 </tr>
 <tr>
 <td>
-<pre>        WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-        WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+<pre>        WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+        WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
         urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
         transferBuffer = urb-&gt;UrbBulkOrInterruptTransfer.TransferBuffer;

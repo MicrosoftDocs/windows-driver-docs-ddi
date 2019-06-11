@@ -297,7 +297,7 @@ status = WdfFdoInitOpenRegistryKey(
                                    PLUGPLAY_REGKEY_DEVICE,
                                    GENERIC_READ,
                                    WDF_NO_OBJECT_ATTRIBUTES,
-                                   &amp;key
+                                   &key
                                    );
 if (!NT_SUCCESS(status)) {
     return status;

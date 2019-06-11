@@ -95,13 +95,13 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 <pre>        UCM_CONNECTOR_TYPEC_ATTACH_PARAMS attachParams;
 
         UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT(
-            &amp;attachParams,
+            &attachParams,
             UcmTypeCPortStateDfp);
         attachParams.CurrentAdvertisement = UcmTypeCCurrent1500mA;
 
         status = UcmConnectorTypeCAttach(
                     Connector,
-                    &amp;attachParams);
+                    &attachParams);
         if (!NT_SUCCESS(status))
         {
             TRACE_ERROR(

@@ -146,7 +146,7 @@ CompletePendingRequest(
             // guarantee this, the last to run (either OnCancel or CompletePendingRequest) will
             // be the one to complete the request. 
             //
-            shouldComplete = InterlockedExchange(&amp;m_CompleteCancelledRequest, 1);
+            shouldComplete = InterlockedExchange(&m_CompleteCancelledRequest, 1);
         }
 
         // 
@@ -155,8 +155,8 @@ CompletePendingRequest(
         // 
 
         if (1 == shouldComplete) { 
-            IWDFIoRequest *FxRequest = (IWDFIoRequest*)InterlockedExchangePointer((PVOID *)&amp;m_PendingRequest, NULL);
-            InterlockedExchange(&amp;m_CompleteCancelledRequest, 0);
+            IWDFIoRequest *FxRequest = (IWDFIoRequest*)InterlockedExchangePointer((PVOID *)&m_PendingRequest, NULL);
+            InterlockedExchange(&m_CompleteCancelledRequest, 0);
             FxRequest-&gt;SetInformation(information);
             FxRequest-&gt;Complete(hr);
         }
@@ -189,14 +189,14 @@ OnCancel(
     // to complete this request.
     //
 
-    LONG shouldComplete = InterlockedExchange(&amp;m_CompleteCancelledRequest, 1);
+    LONG shouldComplete = InterlockedExchange(&m_CompleteCancelledRequest, 1);
     if (1 == shouldComplete) { 
         //
         // Enter this block only if we are the last to run.
         // Otherwise, rely on CompletePendingRequest to complete this request.
         //
-        (void*) InterlockedExchangePointer((PVOID *)&amp;m_PendingRequest, NULL);
-        InterlockedExchange(&amp;m_CompleteCancelledRequest, 0);
+        (void*) InterlockedExchangePointer((PVOID *)&m_PendingRequest, NULL);
+        InterlockedExchange(&m_CompleteCancelledRequest, 0);
         pWdfRequest-&gt;Complete(HRESULT_FROM_WIN32(ERROR_CANCELLED));
      } 
  

@@ -157,7 +157,7 @@ Return Value:
     fileNameInformation = NULL;
     status = STATUS_SUCCESS;
 
-    InitializeObjectAttributes( &amp;objAttr,
+    InitializeObjectAttributes( &objAttr,
                                 FileName,
                                 OBJ_KERNEL_HANDLE,
                                 NULL,
@@ -173,7 +173,7 @@ Return Value:
                                Handle,
                                FileObject,
                                FILE_READ_DATA|FILE_WRITE_DATA,
-                               &amp;objAttr,
+                               &objAttr,
                                IoStatus,
                                NULL,
                                0,
@@ -187,7 +187,7 @@ Return Value:
 
     if (!NT_SUCCESS(status)) {
 
-        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &amp;&amp;
+        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &&
             (status != STATUS_MOUNT_POINT_NOT_RESOLVED)) {
 
             goto CrossVolumeCreateExit;
@@ -211,18 +211,18 @@ Return Value:
 
     status = FltAllocateExtraCreateParameterList( Filter,
                                                   0,
-                                                  &amp;ecpList );
+                                                  &ecpList );
     if (!NT_SUCCESS( status )) {
         goto CrossVolumeCreateExit;
     }
 
     status = FltAllocateExtraCreateParameter( Filter,
-                                              &amp;GUID_ECP_FLT_CREATEFILE_TARGET,
+                                              &GUID_ECP_FLT_CREATEFILE_TARGET,
                                               sizeof(FLT_CREATEFILE_TARGET_ECP_CONTEXT),
                                               0,
                                               NULL,
                                               POOL_TAG,
-                                              &amp;ecpContext );
+                                              &ecpContext );
 
     if (!NT_SUCCESS( status )) {
         goto CrossVolumeCreateExit;
@@ -250,10 +250,10 @@ Return Value:
         goto CrossVolumeCreateExit;
     }
 
-    IoInitializeDriverCreateContext( &amp;myCreateContext );
+    IoInitializeDriverCreateContext( &myCreateContext );
     myCreateContext.ExtraCreateParameter = ecpList;
 
-    InitializeObjectAttributes( &amp;objAttr,
+    InitializeObjectAttributes( &objAttr,
                                 FileName,
                                 OBJ_KERNEL_HANDLE,
                                 NULL,
@@ -264,7 +264,7 @@ Return Value:
                                Handle,
                                FileObject,
                                FILE_READ_DATA|FILE_WRITE_DATA,
-                               &amp;objAttr,
+                               &objAttr,
                                IoStatus,
                                NULL,
                                0,
@@ -274,11 +274,11 @@ Return Value:
                                NULL,
                                0,
                                IO_IGNORE_SHARE_ACCESS_CHECK,
-                               &amp;myCreateContext );
+                               &myCreateContext );
 
     if (!NT_SUCCESS(status)) {
 
-        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &amp;&amp;
+        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &&
             (status != STATUS_MOUNT_POINT_NOT_RESOLVED)) {
 
             goto CrossVolumeCreateExit;
@@ -349,11 +349,11 @@ Return Value:
 
     FltPrepareToReuseEcp( Filter, ecpContext );
 
-    IoInitializeDriverCreateContext( &amp;myCreateContext );
+    IoInitializeDriverCreateContext( &myCreateContext );
     myCreateContext.ExtraCreateParameter = ecpList;
 
-    InitializeObjectAttributes( &amp;objAttr,
-                                &amp;fileNameInformation-&gt;Name,
+    InitializeObjectAttributes( &objAttr,
+                                &fileNameInformation-&gt;Name,
                                 OBJ_KERNEL_HANDLE,
                                 NULL,
                                 NULL );
@@ -363,7 +363,7 @@ Return Value:
                                Handle,
                                FileObject,
                                FILE_READ_DATA|FILE_WRITE_DATA,
-                               &amp;objAttr,
+                               &objAttr,
                                IoStatus,
                                NULL,
                                0,
@@ -373,11 +373,11 @@ Return Value:
                                NULL,
                                0,
                                IO_IGNORE_SHARE_ACCESS_CHECK,
-                               &amp;myCreateContext );
+                               &myCreateContext );
 
     if (!NT_SUCCESS(status)) {
 
-        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &amp;&amp;
+        if ((status != STATUS_INVALID_DEVICE_OBJECT_PARAMETER) &&
             (status != STATUS_MOUNT_POINT_NOT_RESOLVED)) {
 
             goto CrossVolumeCreateExit;
@@ -406,13 +406,13 @@ Return Value:
 
 CrossVolumeCreateExit:
 
-    if (ecpContext != NULL &amp;&amp; 
+    if (ecpContext != NULL && 
         FltIsEcpAcknowledged( Filter, ecpContext)) {
 
         FltRemoveExtraCreateParameter( Filter,
                                        ecpList,
-                                       &amp;GUID_ECP_FLT_CREATEFILE_TARGET,
-                                       &amp;ecpContext,
+                                       &GUID_ECP_FLT_CREATEFILE_TARGET,
+                                       &ecpContext,
                                        NULL );
 
         if (ecpContext-&gt;Instance != NULL) {

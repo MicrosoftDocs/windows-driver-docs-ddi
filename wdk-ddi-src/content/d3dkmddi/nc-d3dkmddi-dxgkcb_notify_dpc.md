@@ -87,7 +87,7 @@ D3DDDINotifyDPC(
     DXGKRNL_INTERFACE  *pCallback;
     DXGKCB_NOTIFY_DPC  DxgkCbNotifyDpc;
 
-    pCallback = &amp;(pAdapter-&gt;ddiCallback);
+    pCallback = &(pAdapter-&gt;ddiCallback);
 
     if (! pAdapter-&gt;pVidSchDPCCB) {
         return (STATUS_SUCCESS);

@@ -206,18 +206,18 @@ DECLARE_CONST_UNICODE_STRING(valueName, STRING_VALUE_NAME);
 status = WdfStringCreate(
                          NULL,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string
+                         &string
                          );
 if (NT_SUCCESS(status)) {
     status = WdfRegistryQueryString(
                                     Key, 
-                                    &amp;valueName,
+                                    &valueName,
                                     string
                                     );
     if (NT_SUCCESS(status)) {
         WdfStringGetUnicodeString(
                                   string,
-                                  &amp;str
+                                  &str
                                   );
     }
 }</pre>

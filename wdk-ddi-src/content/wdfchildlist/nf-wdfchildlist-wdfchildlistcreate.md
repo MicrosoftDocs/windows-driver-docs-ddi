@@ -149,7 +149,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_CHILD_LIST_CONFIG listConfig;
 
 WDF_CHILD_LIST_CONFIG_INIT(
-                           &amp;listConfig,
+                           &listConfig,
                            sizeof(PDO_IDENTIFICATION_DESCRIPTION),
                            My_EvtDeviceListCreatePdo
                            );
@@ -164,9 +164,9 @@ listConfig.EvtChildListIdentificationDescriptionCleanup = My_EvtChildListIdentif
 
 status = WdfChildListCreate(
                             device,
-                            &amp;listConfig,
+                            &listConfig,
                             WDF_NO_OBJECT_ATTRIBUTES,
-                            &amp;ParentDeviceContext-&gt;ChildList
+                            &ParentDeviceContext-&gt;ChildList
                             );
 if (!NT_SUCCESS(status)) {
     return status;

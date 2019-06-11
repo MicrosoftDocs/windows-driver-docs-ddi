@@ -107,10 +107,10 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_INTERRUPT_INFO  Info;
 
-WDF_INTERRUPT_INFO_INIT(&amp;Info);
+WDF_INTERRUPT_INFO_INIT(&Info);
 WdfInterruptGetInfo(
                     Interrupt,
-                    &amp;Info
+                    &Info
                     );</pre>
 </td>
 </tr>

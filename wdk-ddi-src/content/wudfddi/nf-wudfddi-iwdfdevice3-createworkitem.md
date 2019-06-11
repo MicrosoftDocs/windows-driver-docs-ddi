@@ -99,10 +99,10 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 <td>
 <pre>WUDF_WORKITEM_CONFIG config;
         
-WUDF_WORKITEM_CONFIG_INIT(&amp;config, OnWorkItem); 
-hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
+WUDF_WORKITEM_CONFIG_INIT(&config, OnWorkItem); 
+hr = m_IWdfDevice3-&gt;CreateWorkItem(&config,
                                    m_IWdfDevice3,   
-                                   &amp;m_WorkItem);
+                                   &m_WorkItem);
 </pre>
 </td>
 </tr>

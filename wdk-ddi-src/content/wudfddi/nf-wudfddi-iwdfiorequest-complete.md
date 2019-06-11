@@ -93,7 +93,7 @@ The following code example completes a request with the failure that occurred wh
     HRESULT hr = S_OK;
     IWDFMemory* FxInputMemory = NULL;
  
-    FxRequest-&gt;GetInputMemory(&amp;FxInputMemory);
+    FxRequest-&gt;GetInputMemory(&FxInputMemory);
     if (S_OK != hr) {
         FxRequest-&gt;Complete(hr);
     }</pre>

@@ -122,7 +122,7 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
     CreateCB.VidPnSourceId = 0;
     CreateCB.OverlayInfo.hAllocation = R200GetAllocationHandle(m_pR200Ctx,
                                      (DWORD)dwResource,
-                                      &amp;dwTempPitch);
+                                      &dwTempPitch);
 
     CreateCB.OverlayInfo.DstRect.left = pCreateOverlay-&gt;OverlayInfo.DstRect.left;
     CreateCB.OverlayInfo.DstRect.right = pCreateOverlay-&gt;OverlayInfo.DstRect.right;
@@ -137,7 +137,7 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
     CreateCB.OverlayInfo.pPrivateDriverData = "This is a test";
     CreateCB.OverlayInfo.PrivateDriverDataSize = 10;
 
-    HRESULT hr = m_d3dCallbacks.pfnCreateOverlayCb(m_hD3D, &amp;CreateCB);
+    HRESULT hr = m_d3dCallbacks.pfnCreateOverlayCb(m_hD3D, &CreateCB);
 
     if (SUCCEEDED(hr)) {
         g_hOverlay = CreateCB.hKernelOverlay;

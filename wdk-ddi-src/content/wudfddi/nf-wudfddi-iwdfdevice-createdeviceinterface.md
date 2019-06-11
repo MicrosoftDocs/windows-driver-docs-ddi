@@ -102,12 +102,12 @@ The following code example shows how to create a device interface instance. In t
     HRESULT hr;
     if (S_OK == hr) {
         hr = m_FxDevice-&gt;CreateDeviceInterface(
-                         &amp;GUID_DEVINTERFACE_OSRUSBFX2,
+                         &GUID_DEVINTERFACE_OSRUSBFX2,
                          NULL);
     }
     if (S_OK == hr) {
         hr = m_FxDevice-&gt;AssignDeviceInterfaceState(
-                        &amp;GUID_DEVINTERFACE_OSRUSBFX2,
+                        &GUID_DEVINTERFACE_OSRUSBFX2,
                         NULL,
                         TRUE);
     }</pre>

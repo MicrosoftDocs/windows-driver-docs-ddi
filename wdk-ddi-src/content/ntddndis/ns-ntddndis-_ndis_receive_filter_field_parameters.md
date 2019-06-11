@@ -329,7 +329,7 @@ The following table describes how the network adapter uses the <b>ReceiveFilterT
 </tr>
 <tr>
 <td>NdisReceiveFilterTestMaskEqual</td>
-<td>((&lt;<i>header field value</i>&gt; &amp; <b>FieldValue</b>) == <b>ResultValue</b>)</td>
+<td>((&lt;<i>header field value</i>&gt; & <b>FieldValue</b>) == <b>ResultValue</b>)</td>
 </tr>
 <tr>
 <td>NdisReceiveFilterTestNotEqual</td>

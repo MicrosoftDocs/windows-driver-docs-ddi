@@ -192,20 +192,20 @@ list = WdfFdoGetDefaultChildList(Device);
 WdfChildListBeginScan(list);
  
 for (i = 0; i &lt; RTL_BITS_OF(UCHAR); i++) {
-    if (pDeviceContext-&gt;CurrentSwitchState &amp; (1&lt;&lt;i)) {
+    if (pDeviceContext-&gt;CurrentSwitchState & (1&lt;&lt;i)) {
         PDO_IDENTIFICATION_DESCRIPTION description;
         WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
-                                                 &amp;description.Header,
+                                                 &description.Header,
                                                  sizeof(description)
                                                  );
         description.SwitchNumber = i; 
  
         status = WdfChildListAddOrUpdateChildDescriptionAsPresent(
                                                  list, 
-                                                 &amp;description.Header, 
+                                                 &description.Header, 
                                                  NULL
                                                  );
-        if (!NT_SUCCESS(status) &amp;&amp; (status != STATUS_OBJECT_NAME_EXISTS)) {
+        if (!NT_SUCCESS(status) && (status != STATUS_OBJECT_NAME_EXISTS)) {
             break;
         }
     }

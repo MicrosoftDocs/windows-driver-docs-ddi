@@ -152,9 +152,9 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         IOCTL_GET_HCD_DRIVERKEY_NAME,
         NULL,
         0,
-        &amp;driverKeyName,
+        &driverKeyName,
         sizeof(driverKeyName),
-        &amp;nBytes,
+        &nBytes,
         NULL);
 
     if (!success) 
@@ -190,7 +190,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         0,
         driverKeyNameW,
         nBytes,
-        &amp;nBytes,
+        &nBytes,
         NULL);
 
     if (!success) 

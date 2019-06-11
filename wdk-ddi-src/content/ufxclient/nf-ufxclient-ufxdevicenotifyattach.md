@@ -132,7 +132,7 @@ Arguments:
     // Handle attach/detach events
     //
     if (GotAttachOrDetach) {
-        if (Attached &amp;&amp; ControllerContext-&gt;WasAttached) {
+        if (Attached && ControllerContext-&gt;WasAttached) {
             //
             // We must have gotten at least one detach. Need to reset the state.
             //        

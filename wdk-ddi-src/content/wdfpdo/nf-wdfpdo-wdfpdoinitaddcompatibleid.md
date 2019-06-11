@@ -131,7 +131,7 @@ The following code example reports a compatible ID value that the <a href="https
 
 status = WdfPdoInitAddCompatibleID(
                                    DeviceInit,
-                                   &amp;compatId
+                                   &compatId
                                    );</pre>
 </td>
 </tr>

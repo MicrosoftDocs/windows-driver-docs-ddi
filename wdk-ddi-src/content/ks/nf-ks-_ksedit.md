@@ -103,7 +103,7 @@ For example, consider a pin that needs to modify its allocator framing on creati
 </tr>
 <tr>
 <td>
-<pre>        KsEdit(Pin, &amp;Pin-&gt;Descriptor, Tag);
+<pre>        KsEdit(Pin, &Pin-&gt;Descriptor, Tag);
         Pin-&gt;Descriptor-&gt;AllocatorFraming = NewAllocatorFraming;</pre>
 </td>
 </tr>

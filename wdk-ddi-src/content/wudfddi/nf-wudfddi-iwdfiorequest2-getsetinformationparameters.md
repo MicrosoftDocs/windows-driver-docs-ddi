@@ -115,8 +115,8 @@ CMyQueue::OnDefaultIoHandler(
         // 
         // Get the I/O request's parameters.
         // 
-        r2-&gt;GetSetInformationParameters(&amp;infoClass,
-                                        &amp;bufSize);
+        r2-&gt;GetSetInformationParameters(&infoClass,
+                                        &bufSize);
         // 
         // This driver supports only FileBasicInformation.
         // 
@@ -137,14 +137,14 @@ CMyQueue::OnDefaultIoHandler(
         // Get input buffer.
         // 
  hr = r2-&gt;RetrieveInputBuffer(sizeof(FILE_BASIC_INFORMATION), 
-                              (PVOID*) &amp;buffer,
-                              &amp;bufferCb);
+                              (PVOID*) &buffer,
+                              &bufferCb);
  if (SUCCEEDED(hr))
         {
             // 
             // Copy file information from input buffer.
             // 
-            CopyMemory(&amp;g_FileInfo,
+            CopyMemory(&g_FileInfo,
                        buffer,
                        sizeof(FILE_BASIC_INFORMATION));
         }

@@ -99,11 +99,11 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDF_PDO_EVENT_CALLBACKS  pdoCallbacks;
 
 pDeviceInit = WdfPdoInitAllocate(Device);
-WDF_PDO_EVENT_CALLBACKS_INIT(&amp;pdoCallbacks);
+WDF_PDO_EVENT_CALLBACKS_INIT(&pdoCallbacks);
 pdoCallbacks.EvtDeviceResourceRequirementsQuery = Bus_Pdo_EvtDeviceResourceRequirementsQuery;
 WdfPdoInitSetEventCallbacks(
                             pDeviceInit,
-                            &amp;pdoCallbacks
+                            &pdoCallbacks
                             );</pre>
 </td>
 </tr>

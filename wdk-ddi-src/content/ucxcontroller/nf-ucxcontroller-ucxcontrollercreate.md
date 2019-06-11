@@ -116,16 +116,16 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
     // Create the controller
     //
-    UCX_CONTROLLER_CONFIG_INIT(&amp;ucxControllerConfig, "");
+    UCX_CONTROLLER_CONFIG_INIT(&ucxControllerConfig, "");
     ucxControllerConfig.EvtControllerUsbDeviceAdd = UsbDevice_EvtControllerUsbDeviceAdd;
     ucxControllerConfig.EvtControllerQueryUsbCapability = Controller_EvtControllerQueryUsbCapability;
     ucxControllerConfig.EvtControllerReset = Controller_EvtControllerReset;
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_CONTROLLER_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&objectAttributes, UCX_CONTROLLER_CONTEXT);
     
     status = UcxControllerCreate(wdfDevice,
-        &amp;ucxControllerConfig,
-        &amp;objectAttributes,
-        &amp;ucxController);
+        &ucxControllerConfig,
+        &objectAttributes,
+        &ucxController);
 
     if (!NT_SUCCESS(status)) {
         DbgTrace(TL_ERROR, Controller, "UcxControllerCreate Failed %!STATUS!", status);

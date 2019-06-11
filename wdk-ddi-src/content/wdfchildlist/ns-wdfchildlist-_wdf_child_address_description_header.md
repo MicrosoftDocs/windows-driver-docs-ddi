@@ -96,7 +96,7 @@ To set the <b>AddressDescriptionSize</b> member for this address descriptor, the
 <tr>
 <td>
 <pre>IEEE_1394_CHILD_ADDRESS_DESCRIPTION Addr_Description;
-WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT (&amp;Addr_Description, 
+WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT (&Addr_Description, 
                                            sizeof(Addr_Description));</pre>
 </td>
 </tr>

@@ -71,7 +71,7 @@ Gives information about the monitor that is exposed to the OS.
 
 <div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  Although this value is related to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761950">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> &amp; <b>OsTargetId</b> instead.</div>
+<div class="alert"><b>Note</b>  Although this value is related to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761950">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> & <b>OsTargetId</b> instead.</div>
 <div> </div>
 
 ## -see-also

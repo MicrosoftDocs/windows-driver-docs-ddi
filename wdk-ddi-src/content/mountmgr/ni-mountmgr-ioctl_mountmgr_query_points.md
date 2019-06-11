@@ -116,7 +116,7 @@ If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_MOUNT_POINT), t
 
 If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_MOUNT_POINTS) plus the sum of the sizes of the mount point triples, the <b>Status</b> field is set to STATUS_BUFFER_OVERFLOW.
 
-If any of the three strings contained within any of the triples is aligned on an odd address (for example, address &amp; 01 != 0), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
+If any of the three strings contained within any of the triples is aligned on an odd address (for example, address & 01 != 0), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
 
 ## -see-also

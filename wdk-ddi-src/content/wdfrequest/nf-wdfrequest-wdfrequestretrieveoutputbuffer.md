@@ -219,7 +219,7 @@ MyEvtIoDeviceControl(
         status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
                                                 pDevContext-&gt;UsbDevice,
                                                 NULL,
-                                                &amp;requiredSize
+                                                &requiredSize
                                                 );
         if (status == STATUS_BUFFER_TOO_SMALL) {
             break;
@@ -232,7 +232,7 @@ MyEvtIoDeviceControl(
         status = WdfRequestRetrieveOutputBuffer(
                                                 Request, 
                                                 (size_t)requiredSize,
-                                                &amp;configurationDescriptor,
+                                                &configurationDescriptor,
                                                 NULL
                                                 );
         if(!NT_SUCCESS(status)){
@@ -244,7 +244,7 @@ MyEvtIoDeviceControl(
         status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
                                                 pDevContext-&gt;UsbDevice,
                                                 configurationDescriptor,
-                                                &amp;requiredSize
+                                                &requiredSize
                                                 );
         if (!NT_SUCCESS(status)) {
             break;

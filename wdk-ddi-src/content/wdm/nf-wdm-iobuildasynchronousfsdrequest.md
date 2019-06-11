@@ -131,7 +131,7 @@ Before freeing the buffer for this IRP, call the <a href="https://msdn.microsoft
 </tr>
 <tr>
 <td>
-<pre>if (((DeviceObject-&gt;Flags &amp; DO_DIRECT_IO) == DO_DIRECT_IO) &amp;&amp;
+<pre>if (((DeviceObject-&gt;Flags & DO_DIRECT_IO) == DO_DIRECT_IO) &&
     (Irp-&gt;MdlAddress != NULL))
 {
     MmUnlockPages(Irp-&gt;MdlAddress);

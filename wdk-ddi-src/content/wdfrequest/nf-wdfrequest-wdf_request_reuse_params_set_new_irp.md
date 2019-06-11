@@ -99,17 +99,17 @@ NTSTATUS  status;
 PIRP  myIrp;
 ...
 WDF_REQUEST_REUSE_PARAMS_INIT(
-                              &amp;params,
+                              &params,
                               WDF_REQUEST_REUSE_NO_FLAGS,
                               STATUS_SUCCESS
                               );
 WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP(
-                                     &amp;params,
+                                     &params,
                                      myIrp
                                      );
 status = WdfRequestReuse(
                          Request,
-                         &amp;params
+                         &params
                          );
 ...</pre>
 </td>

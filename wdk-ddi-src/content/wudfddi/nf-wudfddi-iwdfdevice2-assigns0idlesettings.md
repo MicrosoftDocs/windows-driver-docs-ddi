@@ -216,7 +216,7 @@ The following code example is based on the UMDF version of the toaster sample. T
     // Get a pointer to the IWDFDevice2 interface.
     //
     hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
-                                     (void**) &amp;pIWDFDevice2);
+                                     (void**) &pIWDFDevice2);
     if (SUCCEEDED(hr)) 
     {
     //

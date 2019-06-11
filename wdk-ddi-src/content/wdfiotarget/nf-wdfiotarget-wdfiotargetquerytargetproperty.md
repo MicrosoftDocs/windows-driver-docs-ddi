@@ -168,8 +168,8 @@ status = WdfIoTargetQueryTargetProperty(
                                         target,
                                         DevicePropertyUINumber,
                                         sizeof(targetNumber),
-                                        &amp;targetUINumber,
-                                        &amp;resultLength
+                                        &targetUINumber,
+                                        &resultLength
                                         );</pre>
 </td>
 </tr>

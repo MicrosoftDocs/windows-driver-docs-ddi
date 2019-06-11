@@ -121,7 +121,7 @@ The value of the buffer length variable pointed to by <i>DataLength</i> must be 
 
 The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlFindInTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
 
-For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

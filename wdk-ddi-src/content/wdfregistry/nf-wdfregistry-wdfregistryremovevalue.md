@@ -147,7 +147,7 @@ The following code example removes the <b>MyValue</b> value and its data from a 
 
 status = WdfRegistryRemoveValue(
                                 Key,
-                                &amp;valueName
+                                &valueName
                                 );</pre>
 </td>
 </tr>

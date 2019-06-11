@@ -119,16 +119,16 @@ EvtDriverDeviceAdd (
         return status;
     }
    
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;attributes, DRIVER_CONTEXT);
-    status = WdfDeviceCreate(&amp;DeviceInit, &amp;attributes, &amp;device);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes, DRIVER_CONTEXT);
+    status = WdfDeviceCreate(&DeviceInit, &attributes, &device);
     if (!NT_SUCCESS(status)) {
         // WdfDeviceCreate failed.
         return status;
     }
-    URS_CONFIG_INIT(&amp;ursConfig, UrsHostInterfaceTypeXhci, EvtUrsFilterResourceRequirements);
+    URS_CONFIG_INIT(&ursConfig, UrsHostInterfaceTypeXhci, EvtUrsFilterResourceRequirements);
     
     ursConfig.EvtUrsSetRole = EvtUrsSetRole;
-    status = UrsDeviceInitialize(device, &amp;ursConfig);
+    status = UrsDeviceInitialize(device, &ursConfig);
 
     if (!NT_SUCCESS(status)) {
         // UrsDeviceInitialize failed.

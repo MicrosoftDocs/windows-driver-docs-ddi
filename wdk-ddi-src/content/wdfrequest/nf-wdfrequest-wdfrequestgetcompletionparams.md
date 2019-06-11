@@ -111,10 +111,10 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_REQUEST_COMPLETION_PARAMS completionParams;
 
-WDF_REQUEST_COMPLETION_PARAMS_INIT(&amp;completionParams);
+WDF_REQUEST_COMPLETION_PARAMS_INIT(&completionParams);
 WdfRequestGetCompletionParams(
                               request,
-                              &amp;completionParams
+                              &completionParams
                               );</pre>
 </td>
 </tr>

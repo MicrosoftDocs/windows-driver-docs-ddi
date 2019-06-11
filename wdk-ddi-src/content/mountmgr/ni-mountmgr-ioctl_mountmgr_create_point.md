@@ -68,12 +68,12 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
 <pre>    // The persistent symbolic link is a drive letter in
     // this case:
     wsprintf(dosBuffer, L"\\DosDevices\\%C:", DriveLetter);
-    RtlInitUnicodeString(&amp;dosName, dosBuffer);
+    RtlInitUnicodeString(&dosName, dosBuffer);
     // The nonpersistent volume (device) object name is
     // formed using the volume number as a suffix
     wsprintf(ntBuffer, L"\\Device\\HarddiskVolume%D", 
                        Extension-&gt;VolumeNumber);
-    RtlInitUnicodeString(&amp;ntName, ntBuffer);
+    RtlInitUnicodeString(&ntName, ntBuffer);
     createPointSize = sizeof(MOUNTMGR_CREATE_POINT_INPUT) +
                       dosName.Length + ntName.Length;
     // Allocate a header with length and offset information
@@ -96,15 +96,15 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
     // Use the name of the mount manager device object
     // defined in mountmgr.h (MOUNTMGR_DEVICE_NAME) to
     // obtain a pointer to the mount manager.
-    RtlInitUnicodeString(&amp;name, MOUNTMGR_DEVICE_NAME);
-    status = IoGetDeviceObjectPointer(&amp;name,
+    RtlInitUnicodeString(&name, MOUNTMGR_DEVICE_NAME);
+    status = IoGetDeviceObjectPointer(&name,
                               FILE_READ_ATTRIBUTES, 
-                              &amp;fileObject, &amp;deviceObject);
-    KeInitializeEvent(&amp;event, NotificationEvent, FALSE);
+                              &fileObject, &deviceObject);
+    KeInitializeEvent(&event, NotificationEvent, FALSE);
     irp = IoBuildDeviceIoControlRequest(
             IOCTL_MOUNTMGR_CREATE_POINT,
             deviceObject, createPoint, createPointSize, 
-            NULL, 0, FALSE, &amp;event, &amp;ioStatus);
+            NULL, 0, FALSE, &event, &ioStatus);
     // Send the irp to the mount manager requesting
     // that a new mount point (persistent symbolic link)
     // be created for the indicated volume.

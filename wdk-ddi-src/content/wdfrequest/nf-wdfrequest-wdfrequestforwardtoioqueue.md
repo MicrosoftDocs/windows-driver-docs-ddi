@@ -198,10 +198,10 @@ PciDrvEvtIoDeviceControl(
     hDevice = WdfIoQueueGetDevice(Queue);
     fdoData = FdoGetData(hDevice);
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
 
     switch (IoControlCode)
@@ -210,7 +210,7 @@ PciDrvEvtIoDeviceControl(
             NICHandleQueryOidRequest(
                                      Queue,
                                      Request,
-                                     &amp;params
+                                     &params
                                      );
             break;
 
@@ -218,7 +218,7 @@ PciDrvEvtIoDeviceControl(
             NICHandleSetOidRequest(
                                    Queue,
                                    Request,
-                                   &amp;params
+                                   &params
                                    );
             break;
 

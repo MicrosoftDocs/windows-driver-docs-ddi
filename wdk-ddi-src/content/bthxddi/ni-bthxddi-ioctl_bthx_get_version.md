@@ -71,7 +71,7 @@ None.
 
 Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> method to retrieve output parameters.  For example, to get the output buffer:
 
-<code>Status = WdfRequestRetrieveOutputMemory(_Request, &amp;ReqOutMemory);</code>
+<code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 
 The buffer describes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450838">BTHX_VERSION</a> structure. 
 

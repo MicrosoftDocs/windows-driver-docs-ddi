@@ -130,7 +130,7 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
            pHwDeviceExtension-&gt;bReportDescriptor = FALSE;
 
             ChildStatus.HotPlug.Connected = FALSE;
-            Status = DxgkCbIndicateChildStatus(pHwDeviceExtension-&gt;DeviceHandle, &amp;ChildStatus);
+            Status = DxgkCbIndicateChildStatus(pHwDeviceExtension-&gt;DeviceHandle, &ChildStatus);
         }
         else {
             // No simulated monitor is present so the request to remove one is invalid

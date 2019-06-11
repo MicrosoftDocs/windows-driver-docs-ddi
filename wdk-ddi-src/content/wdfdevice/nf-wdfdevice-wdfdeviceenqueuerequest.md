@@ -172,12 +172,12 @@ MyEvtDeviceIoInCallerContext(
     NTSTATUS  status = STATUS_SUCCESS;
     WDF_REQUEST_PARAMETERS  params;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
-    if(!(params.Type == WdfRequestTypeDeviceControl &amp;&amp;
+    if(!(params.Type == WdfRequestTypeDeviceControl &&
          params.Parameters.DeviceIoControl.IoControlCode == IOCTL_NONPNP_METHOD_NEITHER)) {
         status = WdfDeviceEnqueueRequest(
                                          Device,

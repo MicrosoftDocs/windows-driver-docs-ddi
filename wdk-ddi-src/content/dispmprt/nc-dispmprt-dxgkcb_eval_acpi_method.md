@@ -114,7 +114,7 @@ The following code example shows how to evaluate an ACPI method.
 if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
     ULONG ChildIndex;
     PACPI_METHOD_ARGUMENT AcpiChildrenArray = 
- &amp;(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension-&gt;AcpiChildren) 
+ &(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension-&gt;AcpiChildren) 
    -&gt;Argument[0]);
    ULONG ChildCount = ((PACPI_EVAL_OUTPUT_BUFFER) 
    (HwDeviceExtension-&gt;AcpiChildren))-&gt;Count;
@@ -135,12 +135,12 @@ if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
  for (ChildIndex = 0; ChildIndex &lt; ChildCount; ChildIndex++) {
  // If not a video output child, go to the next child.
  if (AcpiChildrenArray[ChildIndex].Argument
-   &amp; ACPI_NON_VIDEO_OUTPUT_DEVICE) {
+   & ACPI_NON_VIDEO_OUTPUT_DEVICE) {
    continue;
       }
       // A video output child so the ChildUid is the VidPnTargetId.
        ChildUid = (AcpiChildrenArray[ChildIndex].Argument
-   &amp; ACPI_HARDWARE_ID) | HW_ID_DISPLAY_CHILD;
+   & ACPI_HARDWARE_ID) | HW_ID_DISPLAY_CHILD;
 
       // Query ACPI for the required state.
       //
@@ -159,9 +159,9 @@ if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
    ACPI_METHOD_OUTPUT_DGS;
      Status = DxgkCbEvalAcpiMethod(HwDeviceExtension-&gt;DeviceHandle,
          ChildUid,
-         &amp;AcpiInputBuffer,
+         &AcpiInputBuffer,
          sizeof(ACPI_EVAL_INPUT_BUFFER_COMPLEX),
-         &amp;AcpiOutputBuffer,
+         &AcpiOutputBuffer,
          sizeof(ACPI_EVAL_OUTPUT_BUFFER));
      if (!NT_SUCCESS(Status)) {
          // Something really wrong

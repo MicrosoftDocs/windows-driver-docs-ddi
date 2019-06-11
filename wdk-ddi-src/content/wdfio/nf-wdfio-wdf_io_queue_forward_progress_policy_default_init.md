@@ -99,12 +99,12 @@ WDFQUEUE readQueue;
 NTSTATUS status = STATUS_SUCCESS;
 
 WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT(
-                                                  &amp;queueForwardProgressPolicy,
+                                                  &queueForwardProgressPolicy,
                                                   MAX_RESERVED_REQUESTS
                                                   );
 status = WdfIoQueueAssignForwardProgressPolicy(
                                                readQueue,
-                                               &amp;queueForwardProgressPolicy
+                                               &queueForwardProgressPolicy
                                                );</pre>
 </td>
 </tr>

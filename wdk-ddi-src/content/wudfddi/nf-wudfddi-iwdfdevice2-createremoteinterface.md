@@ -136,7 +136,7 @@ CMyDevice::OnRemoteInterfaceArrival(
     CComPtr&lt;IWDFRemoteInterface&gt; fxRemoteInterface;
     hr = m_FxDevice-&gt;CreateRemoteInterface(FxRemoteInterfaceInit, 
                                            MyRemoteInterfaceIUnknown, 
-                                           &amp;fxRemoteInterface);
+                                           &fxRemoteInterface);
     if (FAILED(hr)) goto Error;
     //
     // Create a new remote target object and provide a callback 
@@ -145,7 +145,7 @@ CMyDevice::OnRemoteInterfaceArrival(
     CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
     hr = m_FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
                                         fxRemoteInterface,
-                                        &amp;fxTarget);
+                                        &fxTarget);
     if (FAILED(hr)) goto Error;
 
     //

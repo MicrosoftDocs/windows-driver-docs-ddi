@@ -107,7 +107,7 @@ The following code example obtains the Unicode string that is assigned to a spec
 
 WdfStringGetUnicodeString(
                           stringHandle,
-                          &amp;StringName
+                          &StringName
                           );</pre>
 </td>
 </tr>

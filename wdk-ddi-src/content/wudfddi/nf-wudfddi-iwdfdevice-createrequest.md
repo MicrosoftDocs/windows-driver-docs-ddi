@@ -133,16 +133,16 @@ CUmdfHidDevice::SendInterruptPipeRead(
     IWDFFile *pTargetFile = NULL;
 
     // Allocate a new WDF request to send on the interrupt pipe.
-    GetWdfDevice(&amp;wdfDevice);
+    GetWdfDevice(&wdfDevice);
     hr = wdfDevice-&gt;CreateRequest(
                                   static_cast&lt;IObjectCleanup*&gt;(this), 
                                   wdfDevice, 
-                                  &amp;m_InterruptReadRequest
+                                  &m_InterruptReadRequest
                                   );
 
     if (SUCCEEDED(hr))
     {
-        m_InterruptPipe-&gt;GetTargetFile(&amp;pTargetFile);
+        m_InterruptPipe-&gt;GetTargetFile(&pTargetFile);
         hr = m_InterruptPipe-&gt;FormatRequestForRead(
                                                    m_InterruptReadRequest,
                                                    pTargetFile,

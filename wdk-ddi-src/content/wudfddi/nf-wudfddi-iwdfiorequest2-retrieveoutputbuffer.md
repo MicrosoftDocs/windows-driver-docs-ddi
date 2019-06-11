@@ -167,7 +167,7 @@ STDMETHODCALLTYPE
         {
             SERIAL_BAUD_RATE *pBaudRateBuffer;
             hr = pWdfRequest2-&gt;RetrieveOutputBuffer(sizeof(SERIAL_BAUD_RATE),
-                                                    (PVOID*) &amp;pBaudRateBuffer,
+                                                    (PVOID*) &pBaudRateBuffer,
                                                     NULL);
             if (SUCCEEDED(hr))
                   {

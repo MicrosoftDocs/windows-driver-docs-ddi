@@ -213,14 +213,14 @@ ULONG  length;
 NTSTATUS  status;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;attributes,
+                                        &attributes,
                                         TRANSACTION_CONTEXT
                                         );
 
 status = WdfDmaTransactionCreate(
                                  devExt-&gt;DmaEnabler,
-                                 &amp;attributes,
-                                 &amp;dmaTransaction
+                                 &attributes,
+                                 &dmaTransaction
                                  );
 if(!NT_SUCCESS(status)) {
     goto CleanUp;
@@ -228,7 +228,7 @@ if(!NT_SUCCESS(status)) {
 
 status = WdfRequestRetrieveInputWdmMdl(
                                        Request,
-                                       &amp;mdl
+                                       &mdl
                                        );
 if (!NT_SUCCESS(status)) {
     goto CleanUp;

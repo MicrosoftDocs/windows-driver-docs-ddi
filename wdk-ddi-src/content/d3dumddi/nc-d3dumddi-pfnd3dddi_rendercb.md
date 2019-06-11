@@ -141,7 +141,7 @@ VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
     DWORD               dwAllocationListUsed;
     HRESULT             hr;
 
-    if (GenerateAllocationListFromCmdBuf(R200UpdateQSParamsForDXVASubmit(m_pR200Ctx, Size), m_sContexts[MULTI_ENGINE_NODE_VIDEO].pHwCmdBufAllocList, m_dwHwCmdBufAllocListSize, &amp;dwAllocationListUsed) == FALSE)
+    if (GenerateAllocationListFromCmdBuf(R200UpdateQSParamsForDXVASubmit(m_pR200Ctx, Size), m_sContexts[MULTI_ENGINE_NODE_VIDEO].pHwCmdBufAllocList, m_dwHwCmdBufAllocListSize, &dwAllocationListUsed) == FALSE)
     {
         DBG_BREAK;
         return;
@@ -158,7 +158,7 @@ VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
     // Copy command-buffer data from the internal buffer to the buffer that was created by dxgkrnl
     memcpy(m_sContexts[MULTI_ENGINE_NODE_VIDEO].pHwCmdBuf, m_pHwCmdBuf + GetCmdBufPreambleSize(m_pR200Ctx), renderCBData.CommandLength);
  
-    m_d3dCallbacks.pfnRenderCb(m_hD3D, &amp;renderCBData);
+    m_d3dCallbacks.pfnRenderCb(m_hD3D, &renderCBData);
 
         // Makes video the last engine that work was submitted to
         m_LastEngineSubmit = MULTI_ENGINE_NODE_VIDEO;

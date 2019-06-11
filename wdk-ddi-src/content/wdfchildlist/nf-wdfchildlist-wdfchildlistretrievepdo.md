@@ -105,20 +105,20 @@ WDF_CHILD_RETRIEVE_INFO  info;
 WDFDEVICE  hChild;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
-                                                 &amp;description.Header,
+                                                 &description.Header,
                                                  sizeof(description)
                                                  );
 
 description.SerialNo = DeviceSerialNumber;
 
 WDF_CHILD_RETRIEVE_INFO_INIT(
-                             &amp;info,
-                             &amp;description.Header
+                             &info,
+                             &description.Header
                              );
 
 hChild = WdfChildListRetrievePdo(
                                  list,
-                                 &amp;info
+                                 &info
                                  );</pre>
 </td>
 </tr>

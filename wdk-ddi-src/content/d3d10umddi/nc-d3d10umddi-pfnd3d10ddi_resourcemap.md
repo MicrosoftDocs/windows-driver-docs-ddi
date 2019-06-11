@@ -146,12 +146,12 @@ void APIENTRY UMDevice::DynamicIABufferMapNoOverwrite_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        (pResource-&gt;m_DDICreateResource.BindFlags &amp; (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
-        !(pResource-&gt;m_DDICreateResource.BindFlags &amp; ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
-        Subresource == 0 &amp;&amp;
-        MapType == D3D10_DDI_MAP_WRITE_NOOVERWRITE &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &&
+        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        (pResource-&gt;m_DDICreateResource.BindFlags & (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
+        !(pResource-&gt;m_DDICreateResource.BindFlags & ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
+        Subresource == 0 &&
+        MapType == D3D10_DDI_MAP_WRITE_NOOVERWRITE &&
         MapFlags == 0 );
  
     pResource-&gt;Map( Subresource, MapType, MapFlags, pMappedSubresource );
@@ -169,12 +169,12 @@ void APIENTRY UMDevice::DynamicIABufferMapDiscard_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        (pResource-&gt;m_DDICreateResource.BindFlags &amp; (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
-        !(pResource-&gt;m_DDICreateResource.BindFlags &amp; ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
-        Subresource == 0 &amp;&amp;
-        MapType == D3D10_DDI_MAP_WRITE_DISCARD &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &&
+        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        (pResource-&gt;m_DDICreateResource.BindFlags & (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
+        !(pResource-&gt;m_DDICreateResource.BindFlags & ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
+        Subresource == 0 &&
+        MapType == D3D10_DDI_MAP_WRITE_DISCARD &&
         MapFlags == 0 );
  
     pResource-&gt;Map( Subresource, MapType, MapFlags, pMappedSubresource );
@@ -189,10 +189,10 @@ void APIENTRY UMDevice::DynamicIABufferUnmap_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        (pResource-&gt;m_DDICreateResource.BindFlags &amp; (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
-        !(pResource-&gt;m_DDICreateResource.BindFlags &amp; ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &&
+        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        (pResource-&gt;m_DDICreateResource.BindFlags & (D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
+        !(pResource-&gt;m_DDICreateResource.BindFlags & ~(D3D10_DDI_BIND_VERTEX_BUFFER | D3D10_DDI_BIND_INDEX_BUFFER)) &&
         Subresource == 0 );
  
     pResource-&gt;Unmap( Subresource );
@@ -210,12 +210,12 @@ void APIENTRY UMDevice::DynamicConstantBufferMapDiscard_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        (pResource-&gt;m_DDICreateResource.BindFlags &amp; D3D10_DDI_BIND_CONSTANT_BUFFER) &amp;&amp;
-        !(pResource-&gt;m_DDICreateResource.BindFlags &amp; ~D3D10_DDI_BIND_CONSTANT_BUFFER) &amp;&amp;
-        Subresource == 0 &amp;&amp;
-        MapType == D3D10_DDI_MAP_WRITE_DISCARD &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &&
+        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        (pResource-&gt;m_DDICreateResource.BindFlags & D3D10_DDI_BIND_CONSTANT_BUFFER) &&
+        !(pResource-&gt;m_DDICreateResource.BindFlags & ~D3D10_DDI_BIND_CONSTANT_BUFFER) &&
+        Subresource == 0 &&
+        MapType == D3D10_DDI_MAP_WRITE_DISCARD &&
         MapFlags == 0 );
  
     pResource-&gt;Map( Subresource, MapType, MapFlags, pMappedSubresource );
@@ -230,10 +230,10 @@ void APIENTRY UMDevice::DynamicConstantBufferUnmap_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        (pResource-&gt;m_DDICreateResource.BindFlags &amp; D3D10_DDI_BIND_CONSTANT_BUFFER) &amp;&amp;
-        !(pResource-&gt;m_DDICreateResource.BindFlags &amp; ~D3D10_DDI_BIND_CONSTANT_BUFFER) &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.ResourceDimension == D3D10DDIRESOURCE_BUFFER &&
+        pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        (pResource-&gt;m_DDICreateResource.BindFlags & D3D10_DDI_BIND_CONSTANT_BUFFER) &&
+        !(pResource-&gt;m_DDICreateResource.BindFlags & ~D3D10_DDI_BIND_CONSTANT_BUFFER) &&
         Subresource == 0 );
  
     pResource-&gt;Unmap( Subresource );
@@ -251,10 +251,10 @@ void APIENTRY UMDevice::DynamicResourceMapDiscard_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Subresources == 1 &amp;&amp;
-        Subresource == 0 &amp;&amp;
-        MapType == D3D10_DDI_MAP_WRITE_DISCARD &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        pResource-&gt;m_DDICreateResource.Subresources == 1 &&
+        Subresource == 0 &&
+        MapType == D3D10_DDI_MAP_WRITE_DISCARD &&
         MapFlags == 0 );
  
     pResource-&gt;Map( Subresource, MapType, MapFlags, pMappedSubresource );
@@ -269,8 +269,8 @@ void APIENTRY UMDevice::DynamicResourceUnmap_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
-        pResource-&gt;m_DDICreateResource.Subresources == 1 &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_DYNAMIC &&
+        pResource-&gt;m_DDICreateResource.Subresources == 1 &&
         Subresource == 0 );
  
     pResource-&gt;Unmap( Subresource );
@@ -288,7 +288,7 @@ void APIENTRY UMDevice::StagingResourceMap_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_STAGING &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.Usage == D3D10_DDI_USAGE_STAGING &&
         (MapType == D3D10_DDI_MAP_READ || MapType == D3D10_DDI_MAP_WRITE || MapType == D3D10_DDI_MAP_READWRITE) );
  
     pResource-&gt;Map( Subresource, MapType, MapFlags, pMappedSubresource );
@@ -320,7 +320,7 @@ void APIENTRY UMDevice::ResourceMap_Default(
     UMDevice* pThis = UMDevice::CastFrom( hDevice );
     UMResource* pResource = UMResource::CastFrom( hResource );
  
-    assert( pResource-&gt;m_DDICreateResource.Usage != D3D10_DDI_USAGE_DYNAMIC &amp;&amp;
+    assert( pResource-&gt;m_DDICreateResource.Usage != D3D10_DDI_USAGE_DYNAMIC &&
         pResource-&gt;m_DDICreateResource.Usage != D3D10_DDI_USAGE_STAGING );
  
     // Generally true; but allow last second change:
@@ -339,7 +339,7 @@ void APIENTRY UMDevice::ResourceUnmap_Default(
     UMResource* pResource = UMResource::CastFrom( hResource );
  
     assert( pResource-&gt;m_DDICreateResource.Usage != D3D10_DDI
-_USAGE_DYNAMIC &amp;&amp;
+_USAGE_DYNAMIC &&
         pResource-&gt;m_DDICreateResource.Usage != D3D10_DDI_USAGE_STAGING );
  
     // Generally true; but allow last second change:

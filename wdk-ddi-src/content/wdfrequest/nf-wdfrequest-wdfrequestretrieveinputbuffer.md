@@ -207,8 +207,8 @@ SerialEvtIoDeviceControl(
             Status = WdfRequestRetrieveInputBuffer(
                                                    Request,
                                                    sizeof(SERIAL_TIMEOUTS),
-                                                   &amp;buffer,
-                                                   &amp;bufSize
+                                                   &buffer,
+                                                   &bufSize
                                                    );
             if (!NT_SUCCESS(Status)) {
                 break;

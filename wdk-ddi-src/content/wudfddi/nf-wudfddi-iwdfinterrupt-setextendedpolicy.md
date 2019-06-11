@@ -101,14 +101,14 @@ IWDFInterrupt* pInterrupt;
 
 WDF_INTERRUPT_EXTENDED_POLICY myExtendedPolicy;
 
-WDF_INTERRUPT_EXTENDED_POLICY_INIT(&amp;myExtendedPolicy);
+WDF_INTERRUPT_EXTENDED_POLICY_INIT(&myExtendedPolicy);
 myExtendedPolicy.Policy = WdfIrqPolicySpecifiedProcessors;
 myExtendedPolicy.Priority = WdfIrqPriorityNormal;
 myExtendedPolicy.TargetProcessorSetAndGroup.Mask = AFFINITY_MASK(0);
 myExtendedPolicy.TargetProcessorSetAndGroup.Group = 2;
 
 pInterrupt-&gt;SetExtendedPolicy(
-                              &amp;myExtendedPolicy
+                              &myExtendedPolicy
  );</pre>
 </td>
 </tr>

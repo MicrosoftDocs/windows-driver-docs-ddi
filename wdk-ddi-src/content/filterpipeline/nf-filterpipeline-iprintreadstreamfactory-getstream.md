@@ -81,25 +81,25 @@ The following code example shows how a filter can use <b>IPrintReadStreamFactory
 <tr>
 <td>
 <pre>VARIANT var;
-VariantInit(&amp;var);
+VariantInit(&var);
 
 HRESULT hr = pIPropertyBag-&gt;GetProperty(
   XPS_FP_USER_PRINT_TICKET,
-  &amp;var);
+  &var);
 
 if (SUCCEEDED(hr))
 {
  IPrintReadStreamFactory   *pPrintReadStreamFactory;
 
- hr = V_UNKNOWN(&amp;var)-&gt;QueryInterface(
+ hr = V_UNKNOWN(&var)-&gt;QueryInterface(
  IID_IPrintReadStreamFactory,
- reinterpret_cast&lt;void **&gt;(&amp;pPrintReadStreamFactory));
+ reinterpret_cast&lt;void **&gt;(&pPrintReadStreamFactory));
 
  if (SUCCEEDED(hr))
     {
  IPrintReadStream *pPrintTicketStream;
 
- hr = pPrintReadStreamFactory-&gt;GetStream(&amp;pPrintTicketStream);
+ hr = pPrintReadStreamFactory-&gt;GetStream(&pPrintTicketStream);
 
  if (SUCCEEDED(hr))
       {
@@ -114,7 +114,7 @@ if (SUCCEEDED(hr))
  pPrintReadStreamFactory-&gt;Release();
     }
 
- VariantClear(&amp;var);
+ VariantClear(&var);
 }</pre>
 </td>
 </tr>

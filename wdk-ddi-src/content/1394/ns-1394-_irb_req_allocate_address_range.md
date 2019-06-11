@@ -67,7 +67,7 @@ If non-<b>NULL</b>, points to the MDL that describes the application's buffer wh
 
 Specifies whether the array entries in p1394AddressRange use big-endian byte order. If the caller specifies BIG_ENDIAN_ADDRESS_RANGE, the array entries are in big-endian byte order (the native byte order of the IEEE 1394 protocol), even if the local host is a little-endian machine. In order to specify a little-endian address range, the caller must explicitly guarantee that the BIG_ENDIAN_ADDRESS_RANGE flag is not set using a statement similar to the following:
 
-fulFlags = fulFlags &amp; ~(0x0ffffffff &amp; BIG_ENDIAN_ADDRESS_RANGE)
+fulFlags = fulFlags & ~(0x0ffffffff & BIG_ENDIAN_ADDRESS_RANGE)
 
 
 ### -field nLength

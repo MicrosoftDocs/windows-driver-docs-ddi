@@ -121,7 +121,7 @@ BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
         notifyInt.DmaCompleted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
     }
 
-    DxgkCbNotifyInterrupt(pSchNotifyParams-&gt;pHwDeviceExtension-&gt;DeviceHandle, &amp;notifyInt);
+    DxgkCbNotifyInterrupt(pSchNotifyParams-&gt;pHwDeviceExtension-&gt;DeviceHandle, &notifyInt);
 
     pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevSubmitFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;FenceID;
 

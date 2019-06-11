@@ -104,12 +104,12 @@ CMyQueue::OnCreateFile(
     //
     // Obtain IWDFFile2 interface from IWDFFile.
     //
-    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject2));
+    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&pWdfFileObject2));
     if (!SUCCEEDED(hr))
     {
         goto Done;
     }
-    pWdfFileObject2-&gt;GetRelatedFileObject(&amp;pWdfRelatedFileObject);
+    pWdfFileObject2-&gt;GetRelatedFileObject(&pWdfRelatedFileObject);
     ...</pre>
 </td>
 </tr>

@@ -190,8 +190,8 @@ myDeviceContext = GetDeviceContext(device);
 status = WdfUsbTargetDeviceAllocAndQueryString(
                                         myDeviceContext-&gt;UsbTargetDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
-                                        &amp;memoryHandle,
-                                        &amp;numCharacters,
+                                        &memoryHandle,
+                                        &numCharacters,
                                         myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
                                         0x0409
                                         );</pre>

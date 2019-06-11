@@ -102,12 +102,12 @@ HRESULT Render(D3DKMT_HANDLE hDevice, UINT CommandOffset, UINT CommandLength)
 {
     D3DKMT_RENDER RenderData;
 
-    memset(&amp;RenderData, 0, sizeof(RenderData));
+    memset(&RenderData, 0, sizeof(RenderData));
     RenderData.hDevice = hDevice;
     RenderData.CommandOffset = CommandOffset;
     RenderData.CommandLength = CommandLength;
 
-    if (NT_SUCCESS((*pfnKTRender)(&amp;RenderData))) {
+    if (NT_SUCCESS((*pfnKTRender)(&RenderData))) {
         return S_OK;
     }
     return E_FAIL;

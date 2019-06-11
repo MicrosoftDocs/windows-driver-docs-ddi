@@ -111,9 +111,9 @@ OsrFxEvtIoStop(
 {
     UNREFERENCED_PARAMETER(Queue);
 
-    if (ActionFlags &amp; WdfRequestStopActionSuspend) {
+    if (ActionFlags & WdfRequestStopActionSuspend) {
         WdfRequestStopAcknowledge(Request, FALSE);
-    } else if (ActionFlags &amp; WdfRequestStopActionPurge) {
+    } else if (ActionFlags & WdfRequestStopActionPurge) {
         WdfRequestCancelSentRequest(Request);
     }
     return;

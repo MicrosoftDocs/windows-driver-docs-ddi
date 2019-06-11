@@ -109,7 +109,7 @@ EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortErrorCount;
     //
     // Create the root hub
     //
-    UCX_ROOTHUB_CONFIG_INIT(&amp;ucxRootHubConfig,
+    UCX_ROOTHUB_CONFIG_INIT(&ucxRootHubConfig,
                             RootHub_EvtRootHubClearHubFeature,
                             RootHub_EvtRootHubClearPortFeature,
                             RootHub_EvtRootHubGetHubStatus,
@@ -122,12 +122,12 @@ EVT_UCX_ROOTHUB_CONTROL_URB RootHub_EvtRootHubGetPortErrorCount;
                             RootHub_EvtRootHubGet20PortInfo,
                             RootHub_EvtRootHubGet30PortInfo);
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_ROOTHUB_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&objectAttributes, UCX_ROOTHUB_CONTEXT);
 
     status = UcxRootHubCreate(ucxController,
-                              &amp;ucxRootHubConfig,
-                              &amp;objectAttributes,
-                              &amp;ucxRootHub);
+                              &ucxRootHubConfig,
+                              &objectAttributes,
+                              &ucxRootHub);
 </pre>
 </td>
 </tr>
@@ -157,10 +157,10 @@ Routine Description:
 
     DbgTrace(TL_INFO, RootHub, "RootHub_EvtRootHubClearHubFeature");
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
     urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
-    setupPacket = (PWDF_USB_CONTROL_SETUP_PACKET)&amp;urb-&gt;UrbControlTransferEx.SetupPacket[0];
+    setupPacket = (PWDF_USB_CONTROL_SETUP_PACKET)&urb-&gt;UrbControlTransferEx.SetupPacket[0];
     ...
 
     WdfRequestComplete(ControlUrb, STATUS_SUCCESS);

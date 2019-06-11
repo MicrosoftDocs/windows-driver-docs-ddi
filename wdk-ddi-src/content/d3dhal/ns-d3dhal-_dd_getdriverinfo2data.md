@@ -138,7 +138,7 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
           // GetDriverInfo2 calls and should be ignored.
           size_t copySize = min(
             sizeof(myD3DCaps8), pgdi2-&gt;dwExpectedSize);
-          memcpy(lpData-&gt;lpvData, &amp;myD3DCaps8, copySize);
+          memcpy(lpData-&gt;lpvData, &myD3DCaps8, copySize);
           lpData-&gt;dwActualSize = copySize;
           lpData-&gt;ddRVal       = DD_OK;
           return DDHAL_DRIVER_HANDLED;

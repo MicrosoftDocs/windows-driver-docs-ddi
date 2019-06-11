@@ -187,13 +187,13 @@ PREQUEST_CONTEXT  reqContext = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;attributes,
+                                        &attributes,
                                         REQUEST_CONTEXT
                                         );
 status = WdfObjectAllocateContext(
                                   Request,
-                                  &amp;attributes,
-                                  &amp;reqContext
+                                  &attributes,
+                                  &reqContext
                                   );</pre>
 </td>
 </tr>

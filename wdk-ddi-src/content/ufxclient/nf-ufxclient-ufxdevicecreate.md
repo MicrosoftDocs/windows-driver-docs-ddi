@@ -138,7 +138,7 @@ Return Value:
 
     ControllerContext = DeviceGetControllerContext(WdfDevice);
 
-    UFX_DEVICE_CAPABILITIES_INIT(&amp;UfxDeviceCapabilities);
+    UFX_DEVICE_CAPABILITIES_INIT(&UfxDeviceCapabilities);
     UfxDeviceCapabilities.MaxSpeed = UsbSuperSpeed;
     UfxDeviceCapabilities.RemoteWakeSignalDelay = REMOTE_WAKEUP_TIMEOUT_INTERVAL_MS;
     
@@ -162,7 +162,7 @@ Return Value:
     //
     // Set the event callbacks for the ufxdevice
     //
-    UFX_DEVICE_CALLBACKS_INIT(&amp;UfxDeviceCallbacks);
+    UFX_DEVICE_CALLBACKS_INIT(&UfxDeviceCallbacks);
     UfxDeviceCallbacks.EvtDeviceHostConnect = UfxDevice_EvtDeviceHostConnect;
     UfxDeviceCallbacks.EvtDeviceHostDisconnect = UfxDevice_EvtDeviceHostDisconnect;
     UfxDeviceCallbacks.EvtDeviceAddressed = UfxDevice_EvtDeviceAddressed;
@@ -176,15 +176,15 @@ Return Value:
     UfxDeviceCallbacks.EvtDeviceSuperSpeedPowerFeature = UfxDevice_EvtDeviceSuperSpeedPowerFeature;
 
     // Context associated with UFXDEVICE object
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;Attributes, UFXDEVICE_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&Attributes, UFXDEVICE_CONTEXT);
     Attributes.EvtCleanupCallback = UfxDevice_EvtCleanupCallback;
 
     // Create the UFXDEVICE object
     Status = UfxDeviceCreate(WdfDevice,
-                             &amp;UfxDeviceCallbacks,
-                             &amp;UfxDeviceCapabilities,
-                             &amp;Attributes,
-                             &amp;UfxDevice);
+                             &UfxDeviceCallbacks,
+                             &UfxDeviceCapabilities,
+                             &Attributes,
+                             &UfxDevice);
 
     ...
 

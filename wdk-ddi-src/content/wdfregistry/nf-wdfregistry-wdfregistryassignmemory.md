@@ -182,8 +182,8 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          MEMORY_LENGTH,
-                         &amp;memory,
-                         (PVOID*)&amp;pBuffer
+                         &memory,
+                         (PVOID*)&pBuffer
                          );
 if (NT_SUCCESS(status)) {
 
@@ -194,7 +194,7 @@ if (NT_SUCCESS(status)) {
 
     status = WdfRegistryAssignMemory(
                                      Key,
-                                     &amp;valueName,
+                                     &valueName,
                                      REG_BINARY,
                                      memory,
                                      NULL

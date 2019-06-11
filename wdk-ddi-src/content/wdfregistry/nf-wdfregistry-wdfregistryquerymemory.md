@@ -211,15 +211,15 @@ DECLARE_CONST_UNICODE_STRING(valueName1, L"MyValueName");
 
 status = WdfRegistryQueryMemory(
                                 Key,
-                                &amp;valueName1,
+                                &valueName1,
                                 PagedPool,
                                 NULL,
-                                &amp;memory,
-                                &amp;type
+                                &memory,
+                                &type
                                 );
 pBuf = (PUCHAR)WdfMemoryGetBuffer(
                                    memory,
-                                   &amp;size
+                                   &size
                                    );</pre>
 </td>
 </tr>

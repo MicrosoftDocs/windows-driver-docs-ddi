@@ -231,7 +231,7 @@ if (MyContext)
     MyContext.NumberOfFrees = 0;
 
     status = ExInitializeLookasideListEx(
-                 &amp;MyContext.LookasideField,
+                 &MyContext.LookasideField,
                  MyLookasideListAllocateEx,
                  MyLookasideListFreeEx,
                  NonPagedPool,

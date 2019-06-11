@@ -91,7 +91,7 @@ The following snippet shows how a client driver calls <b>UfxDeviceProprietaryCha
 <td>
 <pre>    UfxDeviceProprietaryChargerDetectComplete(
         ChargerContext-&gt;UfxDevice,
-        &amp;pControllerData-&gt;DetectedCharger);
+        &pControllerData-&gt;DetectedCharger);
 </pre>
 </td>
 </tr>

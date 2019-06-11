@@ -158,7 +158,7 @@ The following code example  initializes a <a href="https://msdn.microsoft.com/li
 <pre>WDF_USB_CONTROL_SETUP_PACKET  packet;
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS(
-                                             &amp;packet,
+                                             &packet,
                                              BmRequestToDevice,
                                              0
                                              );</pre>

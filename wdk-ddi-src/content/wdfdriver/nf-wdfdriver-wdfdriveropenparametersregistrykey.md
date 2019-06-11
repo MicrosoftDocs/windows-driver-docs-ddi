@@ -153,7 +153,7 @@ status = WdfDriverOpenParametersRegistryKey(
                                             Driver,
                                             STANDARD_RIGHTS_ALL,
                                             WDF_NO_OBJECT_ATTRIBUTES,
-                                            &amp;hKey
+                                            &hKey
                                             );</pre>
 </td>
 </tr>

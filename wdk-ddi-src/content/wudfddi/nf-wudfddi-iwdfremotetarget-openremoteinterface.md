@@ -143,11 +143,11 @@ CMyDevice::OnRemoteInterfaceArrival(
 
     hr = m_FxDevice-&gt;CreateRemoteInterface(FxRemoteInterfaceInit, 
                                            NULL, 
-                                           &amp;fxRemoteInterface);
+                                           &fxRemoteInterface);
     if (FAILED(hr)) goto Error;
     hr = FxDevice-&gt;CreateRemoteTarget(unknown,
                                       fxRemoteInterface,
-                                      &amp;m_FxTarget);
+                                      &m_FxTarget);
     if (FAILED(hr)) goto Error;
     hr = m_FxTarget-&gt;OpenRemoteInterface(fxRemoteInterface, 
                                          NULL,

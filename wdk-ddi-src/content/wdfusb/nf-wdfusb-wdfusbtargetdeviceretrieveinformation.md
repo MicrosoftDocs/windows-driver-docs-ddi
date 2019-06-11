@@ -142,25 +142,25 @@ MyEvtDevicePrepareHardware(
     }
 
     WDF_USB_DEVICE_CREATE_CONFIG_INIT(
-                                      &amp;Config,
+                                      &Config,
                                       USBD_CLIENT_CONTRACT_VERSION_602
                                       );
 
     status = WdfUsbTargetDeviceCreateWithParameters(
                                       Device,
-                                      &amp;Config,
+                                      &Config,
                                       WDF_NO_OBJECT_ATTRIBUTES,
-                                      &amp;pMyDeviceContext-&gt;UsbDevice
+                                      &pMyDeviceContext-&gt;UsbDevice
                                       );
     if (!NT_SUCCESS(status)) {
         return status;
     }
 
-    WDF_USB_DEVICE_INFORMATION_INIT(&amp;deviceInfo);
+    WDF_USB_DEVICE_INFORMATION_INIT(&deviceInfo);
 
     status = WdfUsbTargetDeviceRetrieveInformation(
                                       pDeviceContext-&gt;UsbDevice, 
-                                      &amp;deviceInfo
+                                      &deviceInfo
                                       );
 ...
 }</pre>

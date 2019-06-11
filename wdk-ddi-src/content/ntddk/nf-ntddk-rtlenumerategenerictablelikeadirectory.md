@@ -93,8 +93,8 @@ for (ptr = NULL; ptr != NULL;  ) {
   // Value returned in RestartKey will be passed back in
   // on following call (iteration):
   ptr = RtlEnumerateGenericTableLikeADirectory(
-      &amp;MyTable, NULL, NULL, TRUE, &amp;RestartKey,
-      &amp;DeleteCount, &amp;Buffer, sizeof(LONG) );
+      &MyTable, NULL, NULL, TRUE, &RestartKey,
+      &DeleteCount, &Buffer, sizeof(LONG) );
       ...
   // The value output in RestartKey will still be in
   // RestartKey when the

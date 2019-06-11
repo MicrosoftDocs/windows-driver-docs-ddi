@@ -162,9 +162,9 @@ The following code example gets processor relationship information for all the l
     NTSTATUS Status;
     PSYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX Info = NULL;
     ULONG BufferSize = 0;
-    Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, NULL, &amp;BufferSize);
+    Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, NULL, &BufferSize);
 
-    NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH &amp;&amp; BufferSize &gt; 0);
+    NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH && BufferSize &gt; 0);
 
     //
     // Allocate buffer (assume IRQL &lt;= APC_LEVEL).
@@ -180,7 +180,7 @@ The following code example gets processor relationship information for all the l
     //
     if (NT_SUCCESS(Status))
     {
-        Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, Info, &amp;BufferSize);
+        Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, Info, &BufferSize);
     }</pre>
 </td>
 </tr>

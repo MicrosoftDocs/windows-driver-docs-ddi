@@ -110,7 +110,7 @@ CMyDriver::OnDeviceAdd(
     //
     hr = FxDriver-&gt;CreateDevice(FxDeviceInit,
                                 MyDeviceIUnknown,
-                                &amp;fxDevice);
+                                &fxDevice);
     if (FAILED(hr)) goto Error;
 
     //
@@ -118,13 +118,13 @@ CMyDriver::OnDeviceAdd(
     //
     CComPtr&lt;IWDFDevice2&gt; fxDevice2;
     if (FAILED(hr)) goto Error;
-    hr = fxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;fxDevice2));
+    hr = fxDevice-&gt;QueryInterface(IID_PPV_ARGS(&fxDevice2));
     if (S_OK != hr) goto Error;
     //
     // Register for notification when a device interface
     // arrives.
     //
-    hr = fxDevice2-&gt;RegisterRemoteInterfaceNotification(&amp;GUID_DEVINTERFACE_TOASTER,
+    hr = fxDevice2-&gt;RegisterRemoteInterfaceNotification(&GUID_DEVINTERFACE_TOASTER,
                                                         true);
 ...
 }</pre>

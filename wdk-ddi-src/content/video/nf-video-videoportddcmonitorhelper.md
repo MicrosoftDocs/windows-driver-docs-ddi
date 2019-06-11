@@ -107,7 +107,7 @@ Two 128-byte EDIDs
 
 </li>
 <li>
-One 256-byte EDID (from P&amp;D display)
+One 256-byte EDID (from P&D display)
 
 </li>
 <li>

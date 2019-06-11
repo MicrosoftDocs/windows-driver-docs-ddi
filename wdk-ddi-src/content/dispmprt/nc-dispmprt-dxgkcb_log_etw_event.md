@@ -110,7 +110,7 @@ DummyTrace(
     HW_DEVICE_EXTENSION* Adapter
     )
 {
-    Adapter-&gt;ddiCallback.DxgkCbLogEtwEvent(&amp;R200_DUMMY_LOGGING,
+    Adapter-&gt;ddiCallback.DxgkCbLogEtwEvent(&R200_DUMMY_LOGGING,
   EVENT_TRACE_TYPE_INFO,
   0,
   NULL);

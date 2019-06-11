@@ -241,7 +241,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          sizeof(IRB),
-                         &amp;memory,
+                         &memory,
                          NULL
                          );
 if (!NT_SUCCESS(status)) {

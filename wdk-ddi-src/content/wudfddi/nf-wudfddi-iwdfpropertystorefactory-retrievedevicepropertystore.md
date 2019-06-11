@@ -161,7 +161,7 @@ HRESULT hr;
 //
 // Get the property store factory interface.
 //
-hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;pPropertyStoreFactory));
+hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&pPropertyStoreFactory));
 if (FAILED(hr))
 {
     goto Exit;
@@ -170,7 +170,7 @@ if (FAILED(hr))
 //Initialize the WDF_PROPERTY_STORE_ROOT structure. We want to open the 
 // \Device Parameters subkey under the device's hardware key.
 //
-RtlZeroMemory(&amp;RootSpecifier,
+RtlZeroMemory(&RootSpecifier,
               sizeof(WDF_PROPERTY_STORE_ROOT));
 RootSpecifier.LengthCb = sizeof(WDF_PROPERTY_STORE_ROOT);
 RootSpecifier.RootClass = WdfPropertyStoreRootClassHardwareKey;
@@ -181,11 +181,11 @@ RootSpecifier.Qualifier.HardwareKey.ServiceName = WDF_PROPERTY_STORE_HARDWARE_KE
 // device that m_FxDevice represents.
 //
 hr = pPropertyStoreFactory-&gt;RetrieveDevicePropertyStore(
-                                           &amp;RootSpecifier,
+                                           &RootSpecifier,
                                            WdfPropertyStoreNormal,
                                            KEY_QUERY_VALUE,
                                            NULL,
-                                           &amp;pHardwarePropertyStore2,
+                                           &pHardwarePropertyStore2,
                                            NULL
                                            );
 if (FAILED(hr))
@@ -197,9 +197,9 @@ if (FAILED(hr))
 // Get the value of the "PortName" entry, which is stored under 
 // the device's \Device Parameters subkey.
 //
-PropVariantInit(&amp;comPortPV);
+PropVariantInit(&comPortPV);
 hr = pHardwarePropertyStore2-&gt;GetNamedValue(portName,
-                                            &amp;comPortPV);
+                                            &comPortPV);
 if (FAILED(hr))
 {
    goto Exit;

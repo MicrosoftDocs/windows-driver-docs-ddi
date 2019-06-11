@@ -116,18 +116,18 @@ The following code example shows a driver can retrieve an  activity identifier f
 </tr>
 <tr>
 <td>
-<pre>hrQI = pWdfRequest-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOriginalRequest3));
+<pre>hrQI = pWdfRequest-&gt;QueryInterface(IID_PPV_ARGS(&pOriginalRequest3));
 ASSERT(SUCCEEDED(hrQI));
 
-hrQI = pNewRequest-&gt;QueryInterface(IID_PPV_ARGS(&amp;pNewRequest3));
+hrQI = pNewRequest-&gt;QueryInterface(IID_PPV_ARGS(&pNewRequest3));
 ASSERT(SUCCEEDED(hrQI));
 
 //
 // Obtain activity id from original request and set in the new one
 //
 
-pOriginalRequest3-&gt;RetrieveActivityId(&amp;activityId);
-pNewRequest3-&gt;SetActivityId(&amp;activityId);
+pOriginalRequest3-&gt;RetrieveActivityId(&activityId);
+pNewRequest3-&gt;SetActivityId(&activityId);
 
 pOriginalRequest3-&gt;Release();
 pNewRequest3-&gt;Release();

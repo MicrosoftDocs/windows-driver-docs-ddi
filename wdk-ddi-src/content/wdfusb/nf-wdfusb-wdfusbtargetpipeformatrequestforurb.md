@@ -189,7 +189,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          sizeof(struct _URB_GET_CURRENT_FRAME_NUMBER),
-                         &amp;urbMemory,
+                         &urbMemory,
                          NULL
                          );
 if (!NT_SUCCESS(status)){

@@ -72,9 +72,9 @@ To enumerate all elements in the table, use <b>RtlEnumerateGenericTableWithoutSp
 <tr>
 <td>
 <pre>RestartKey = NULL;
-for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &amp;RestartKey);
+for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey);
      ptr != NULL;
-     ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &amp;RestartKey)) {
+     ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey)) {
         // Process the element pointed to by ptr
 }</pre>
 </td>

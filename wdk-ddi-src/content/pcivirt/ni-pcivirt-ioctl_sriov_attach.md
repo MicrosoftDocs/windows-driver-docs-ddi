@@ -179,7 +179,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
         {
             WdfWaitLockRelease(fdoContext-&gt;PnpStateLock);
 
-            KeWaitForSingleObject(&amp;fdoContext-&gt;PnpSafeEvent,
+            KeWaitForSingleObject(&fdoContext-&gt;PnpSafeEvent,
                                   Executive,
                                   KernelMode,
                                   FALSE,

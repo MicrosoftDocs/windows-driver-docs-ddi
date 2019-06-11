@@ -182,7 +182,7 @@ DriverEntry(
 
     return DxgkInitialize(DriverObject,
                           RegistryPath,
-                          &amp;DriverInitializationData);
+                          &DriverInitializationData);
 }
 ```
 

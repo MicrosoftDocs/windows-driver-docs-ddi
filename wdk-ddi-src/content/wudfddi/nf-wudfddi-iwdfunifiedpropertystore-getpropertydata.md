@@ -196,13 +196,13 @@ GetFriendlyName(
     ULONG friendlyNameBufferSize;
 
     hr = pUnifiedPropertyStore-&gt;GetPropertyData(
-            &amp;DEVPKEY_Device_FriendlyName,
+            &DEVPKEY_Device_FriendlyName,
             0, //Lcid
             0, //Flags
             0, //BufferSize
             NULL, //Buffer
-            &amp;requiredSize,
-            &amp;type
+            &requiredSize,
+            &type
             );
 
     if (HRESULT_CODE(hr) != ERROR_INSUFFICIENT_BUFFER)
@@ -232,13 +232,13 @@ GetFriendlyName(
     }
     
     hr = pUnifiedPropertyStore-&gt;GetPropertyData(
-            &amp;DEVPKEY_Device_FriendlyName,
+            &DEVPKEY_Device_FriendlyName,
             0, //Lcid
             0, //Flags
             friendlyNameBufferSize,
             friendlyNameBuffer,
-            &amp;requiredSize,
-            &amp;type
+            &requiredSize,
+            &type
             );
 
     if (FAILED(hr))

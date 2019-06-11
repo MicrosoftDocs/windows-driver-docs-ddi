@@ -114,8 +114,8 @@ RootHub_EvtRootHubGet20PortInfo(
 
     ucxRootHubContext = GetUcxRootHubContext(UcxRootHub);
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(Request, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(Request, &wdfRequestParams);
 
     rootHub20PortsInfo = (PROOTHUB_20PORTS_INFO)wdfRequestParams.Parameters.Others.Arg1;
 

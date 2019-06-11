@@ -112,7 +112,7 @@ The following code example shows how to allocate, submit, and release a URB. The
 
     NTSTATUS status;
 
-    status = USBD_UrbAllocate(USBDHandle, &amp;Urb);
+    status = USBD_UrbAllocate(USBDHandle, &Urb);
 
     if (!NT_SUCCESS(status))
     {

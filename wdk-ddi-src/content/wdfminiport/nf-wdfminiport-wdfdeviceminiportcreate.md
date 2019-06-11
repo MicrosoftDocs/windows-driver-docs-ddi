@@ -192,23 +192,23 @@ The following code example calls <a href="https://msdn.microsoft.com/library/win
 
 NdisMGetDeviceProperty(
                        MiniportAdapterHandle,
-                       &amp;Adapter-&gt;Pdo,
-                       &amp;Adapter-&gt;Fdo,
-                       &amp;Adapter-&gt;NextDeviceObject,
+                       &Adapter-&gt;Pdo,
+                       &Adapter-&gt;Fdo,
+                       &Adapter-&gt;NextDeviceObject,
                        NULL,
                        NULL
                        );
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;ObjectAttributes,
+                                        &ObjectAttributes,
                                         WDF_DEVICE_INFO
                                         );
 ntStatus = WdfDeviceMiniportCreate(
                                    WdfGetDriver(),
-                                   &amp;ObjectAttributes,
+                                   &ObjectAttributes,
                                    Adapter-&gt;Fdo,
                                    Adapter-&gt;NextDeviceObject,
                                    Adapter-&gt;Pdo,
-                                   &amp;Adapter-&gt;WdfDevice
+                                   &Adapter-&gt;WdfDevice
                                    );
 if (!NT_SUCCESS (ntStatus)) {
     Status = NDIS_STATUS_FAILURE;

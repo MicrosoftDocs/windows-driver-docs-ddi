@@ -133,7 +133,7 @@ CMyReadWriteQueue::OnIoStop(
     )
 { HRESULT status;
 
-    if (ActionFlags &amp; WdfRequestStopRequestCancelable) {
+    if (ActionFlags & WdfRequestStopRequestCancelable) {
         status = pWdfRequest-&gt;UnmarkCancelable();
         if (status == HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED)) {
         return;

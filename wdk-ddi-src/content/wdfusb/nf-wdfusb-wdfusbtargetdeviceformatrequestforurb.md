@@ -174,7 +174,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST),
-                         &amp;urbMemory,
+                         &urbMemory,
                          NULL
                          );
 

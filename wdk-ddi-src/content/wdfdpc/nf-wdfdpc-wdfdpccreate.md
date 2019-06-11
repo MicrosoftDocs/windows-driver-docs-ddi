@@ -178,16 +178,16 @@ WDF_OBJECT_ATTRIBUTES dpcAttributes;
 NTSTATUS status;
 
 WDF_DPC_CONFIG_INIT(
-                    &amp;dpcConfig,
+                    &dpcConfig,
                     MyEvtDpcFunc
                     );
 dpcConfig.AutomaticSerialization = TRUE;
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;dpcAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&dpcAttributes);
 dpcAttributes.ParentObject = pDevExt-&gt;WdfDevice;
 status = WdfDpcCreate(
-                      &amp;dpcConfig,
-                      &amp;dpcAttributes,
-                      &amp;pDevExt-&gt;CompleteWriteDpc
+                      &dpcConfig,
+                      &dpcAttributes,
+                      &pDevExt-&gt;CompleteWriteDpc
                       );
 if (!NT_SUCCESS(status)) {
     return status;

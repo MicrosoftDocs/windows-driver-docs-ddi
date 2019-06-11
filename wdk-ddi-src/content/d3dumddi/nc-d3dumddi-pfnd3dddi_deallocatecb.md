@@ -121,12 +121,12 @@ The following code example shows how to release a resource.
     HRESULT             hr;
     D3DKMT_HANDLE       hKMAllocHandle;
 
-    memset(&amp;deAllocCB, 0, sizeof(deAllocCB));
+    memset(&deAllocCB, 0, sizeof(deAllocCB));
 
     deAllocCB.hResource = m_hCurResRuntime;
 
-    hr = m_d3dCallbacks.pfnDeallocateCb(m_hD3D, &amp;deAllocCB);
-    if ((m_hCurResRuntime) &amp;&amp; (SUCCEEDED(hr))) {
+    hr = m_d3dCallbacks.pfnDeallocateCb(m_hD3D, &deAllocCB);
+    if ((m_hCurResRuntime) && (SUCCEEDED(hr))) {
         m_bCurResFreed = TRUE;
     }
 ```

@@ -162,7 +162,7 @@ WDFREQUEST  request;
 
 status = WdfIoQueueRetrieveNextRequest(
                                        pDeviceContext-&gt;ReadQueue,
-                                       &amp;request
+                                       &request
                                        );</pre>
 </td>
 </tr>

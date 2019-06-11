@@ -98,7 +98,7 @@ The following code example calls <b>WdfDeviceInitFree</b> if a call to <a href="
 
 status = WdfPdoInitAssignRawDevice(
                                    pDeviceInit,
-                                   &amp;GUID_DEVCLASS_KEYBOARD
+                                   &GUID_DEVCLASS_KEYBOARD
                                    );
 if (!NT_SUCCESS(status)) {
     WdfDeviceInitFree(pDeviceInit);

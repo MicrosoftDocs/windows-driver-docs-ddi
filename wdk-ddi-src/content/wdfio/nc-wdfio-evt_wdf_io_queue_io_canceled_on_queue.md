@@ -156,12 +156,12 @@ PscrEvtIoCanceledOnQueue(
     PSMARTCARD_EXTENSION smartcardExtension;
 
     DeviceExtension = GetDeviceExtension(WdfIoQueueGetDevice(Queue));
-    smartcardExtension = (PSMARTCARD_EXTENSION) &amp;DeviceExtension-&gt;SmartcardExtension;
+    smartcardExtension = (PSMARTCARD_EXTENSION) &DeviceExtension-&gt;SmartcardExtension;
 
     //KdPrint(("Cancelled on queue 0x%x\n", WdfRequestWdmGetIrp(Request)));
 
     InterlockedExchangePointer(
-                             &amp;(smartcardExtension-&gt;OsData-&gt;NotificationIrp),
+                             &(smartcardExtension-&gt;OsData-&gt;NotificationIrp),
                              NULL
                              );
 

@@ -103,13 +103,13 @@ Controller_EvtControllerReset(
     // TODO: Were devices and endpoints programmed in the controller before the reset
     // still programmed in the controller after the reset?
     //
-    UCX_CONTROLLER_RESET_COMPLETE_INFO_INIT(&amp;controllerResetCompleteInfo,
+    UCX_CONTROLLER_RESET_COMPLETE_INFO_INIT(&controllerResetCompleteInfo,
                                             UcxControllerStateLost,
                                             TRUE); // reset due to UCX, received EvtReset after WDF power-up
 
     DbgTrace(TL_INFO, Controller, "Controller_EvtControllerReset");
 
-    UcxControllerResetComplete(UcxController, &amp;controllerResetCompleteInfo);
+    UcxControllerResetComplete(UcxController, &controllerResetCompleteInfo);
 }</pre>
 </td>
 </tr>

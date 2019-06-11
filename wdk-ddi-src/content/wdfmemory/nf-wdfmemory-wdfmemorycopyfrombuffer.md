@@ -161,7 +161,7 @@ NTSTATUS  status;
 
 status = WdfRequestRetrieveOutputMemory(
                                         Request,
-                                        &amp;memoryBuffer
+                                        &memoryBuffer
                                         );
 if (!NT_SUCCESS(status)) {
     goto Error;

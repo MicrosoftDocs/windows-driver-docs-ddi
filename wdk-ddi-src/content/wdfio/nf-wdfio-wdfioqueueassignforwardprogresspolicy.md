@@ -181,12 +181,12 @@ if(!NT_SUCCESS(status)) {
     return status;
 }
 WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT(
-    &amp;queueForwardProgressPolicy,
+    &queueForwardProgressPolicy,
     MAX_RESERVED_REQUESTS
     );
 status = WdfIoQueueAssignForwardProgressPolicy(
              writeQueue,
-             &amp;queueForwardProgressPolicy
+             &queueForwardProgressPolicy
              );
 if(!NT_SUCCESS(status)) {
     return status;

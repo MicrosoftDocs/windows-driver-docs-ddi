@@ -250,8 +250,8 @@ Because <b>WdfUsbTargetPipeReadSynchronously</b> handles I/O requests synchronou
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
 MY_BUFFER_TYPE  myBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;memoryDescriptor,
-                                  (PVOID) &amp;myBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&memoryDescriptor,
+                                  (PVOID) &myBuffer,
                                   sizeof(myBuffer));</pre>
 </td>
 </tr>
@@ -274,9 +274,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;memoryHandle,
+                         &memoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;memoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&memoryDescriptor,
                                   memoryHandle,
                                   NULL);</pre>
 </td>
@@ -322,7 +322,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          readSize,
-                         &amp;wdfMemory,
+                         &wdfMemory,
                          NULL
                          );
 if (!NT_SUCCESS(status)){
@@ -335,7 +335,7 @@ buffer = WdfMemoryGetBuffer(
                             );
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
-                                  &amp;readBufDesc,
+                                  &readBufDesc,
                                   buffer,
                                   readSize
                                   );
@@ -344,8 +344,8 @@ status = WdfUsbTargetPipeReadSynchronously(
                                            Pipe,
                                            NULL,
                                            NULL,
-                                           &amp;readBufDesc,
-                                           &amp;BytesRead
+                                           &readBufDesc,
+                                           &BytesRead
                                            );</pre>
 </td>
 </tr>

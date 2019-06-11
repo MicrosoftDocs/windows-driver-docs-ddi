@@ -183,7 +183,7 @@ MyDrvEvtIoRead(
 ...
     status = WdfRequestRetrieveOutputWdmMdl(
                                             Request,
-                                            &amp;mdl
+                                            &mdl
                                             );
     if (!NT_SUCCESS(status))
     {

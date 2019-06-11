@@ -107,16 +107,16 @@ KcsRegisterGeometricWave(
 
     PAGED_CODE();
 
- RtlZeroMemory(&amp;RegInfo, sizeof RegInfo);
+ RtlZeroMemory(&RegInfo, sizeof RegInfo);
 
  RegInfo.Version = PCW_CURRENT_VERSION;
  RegInfo.Counters = Descriptors;
  RegInfo.CounterCount = RTL_NUMBER_OF(Descriptors);
  RegInfo.Callback = Callback;
  RegInfo.CallbackContext = CallbackContext;
- RegInfo.Name = &amp;Name;
+ RegInfo.Name = &Name;
 
- return PcwRegister(&amp;KcsGeometricWave, &amp;RegInfo);
+ return PcwRegister(&KcsGeometricWave, &RegInfo);
 }</pre>
 </td>
 </tr>
@@ -164,27 +164,27 @@ Return Value:
         // Instances are being enumerated, so we add them without values.
         //
 
- RtlInitUnicodeString(&amp;UnicodeName, L"Small Wave");
+ RtlInitUnicodeString(&UnicodeName, L"Small Wave");
         Status = KcsAddGeometricWave(Info-&gt;EnumerateInstances.Buffer,
-                                     &amp;UnicodeName,
+                                     &UnicodeName,
                                      0,
                                      NULL);
  if (!NT_SUCCESS(Status)) {
  return Status;
         }
 
- RtlInitUnicodeString(&amp;UnicodeName, L"Medium Wave");
+ RtlInitUnicodeString(&UnicodeName, L"Medium Wave");
         Status = KcsAddGeometricWave(Info-&gt;EnumerateInstances.Buffer,
-                                     &amp;UnicodeName,
+                                     &UnicodeName,
                                      0,
                                      NULL);
  if (!NT_SUCCESS(Status)) {
  return Status;
         }
 
- RtlInitUnicodeString(&amp;UnicodeName, L"Large Wave");
+ RtlInitUnicodeString(&UnicodeName, L"Large Wave");
         Status = KcsAddGeometricWave(Info-&gt;EnumerateInstances.Buffer,
-                                     &amp;UnicodeName,
+                                     &UnicodeName,
                                      0,
                                      NULL);
  if (!NT_SUCCESS(Status)) {

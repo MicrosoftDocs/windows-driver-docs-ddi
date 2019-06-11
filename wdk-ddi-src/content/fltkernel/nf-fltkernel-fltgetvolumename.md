@@ -134,7 +134,7 @@ For this routine to succeed, the <b>Buffer</b> member of the UNICODE_STRING stru
 </tr>
 <tr>
 <td>
-<pre>FltGetVolumeName(VolumePtr, NULL, &amp;VolumeNameSize);</pre>
+<pre>FltGetVolumeName(VolumePtr, NULL, &VolumeNameSize);</pre>
 </td>
 </tr>
 </table></span></div>
@@ -149,7 +149,7 @@ Allocate <code>VolumeNameSize</code> bytes of pool for <b>Buffer</b> and set <b>
 </tr>
 <tr>
 <td>
-<pre>FltGetVolumeName(VolumePtr, &amp;VolumeNameStruct, NULL);</pre>
+<pre>FltGetVolumeName(VolumePtr, &VolumeNameStruct, NULL);</pre>
 </td>
 </tr>
 </table></span></div>

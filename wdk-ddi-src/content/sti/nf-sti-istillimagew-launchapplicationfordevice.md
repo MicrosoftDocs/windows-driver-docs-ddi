@@ -96,7 +96,7 @@ Before calling <b>IStillImage::LaunchApplicationForDevice</b>, clients of the <b
 <tr>
 <td>
 <pre>HRESULT hRes;
-hRes = pStiDevice-&gt;GetLastNotificationData(&amp;pNotify);
+hRes = pStiDevice-&gt;GetLastNotificationData(&pNotify);
 if (!SUCCEEDED(hRes))
 {
     DisplayOutput("-&gt;GetLastNotificationData returned %xh %u",

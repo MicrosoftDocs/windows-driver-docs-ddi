@@ -150,18 +150,18 @@ CUmdfHidDevice::OnPrepareHardware(
     //
     // Get the USB I/O target factory interface.
     //
-    hr = WdfDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;factory));
+    hr = WdfDevice-&gt;QueryInterface(IID_PPV_ARGS(&factory));
     //
     // Create the USB I/O target.
     //
-    hr = factory-&gt;CreateUsbTargetDevice(&amp;m_UsbTargetDevice);
+    hr = factory-&gt;CreateUsbTargetDevice(&m_UsbTargetDevice);
     //
     // Get the configuration descriptor for the target device.
     //
     if (SUCCEEDED(hr))
     {
-        hr = RetrieveConfigDescriptor(&amp;m_ConfigDescriptor, 
-                                      &amp;m_ConfigDescriptorCb);
+        hr = RetrieveConfigDescriptor(&m_ConfigDescriptor, 
+                                      &m_ConfigDescriptorCb);
     }
     //
     // Iterate through the interfaces on the device and find the HID interface.
@@ -173,10 +173,10 @@ CUmdfHidDevice::OnPrepareHardware(
         bool found = true;
         for (index = 0; index &lt; m_ConfigDescriptor-&gt;bNumInterfaces; index += 1)
         {
-            hr = m_UsbTargetDevice-&gt;RetrieveUsbInterface(index, &amp;usbInterface);
+            hr = m_UsbTargetDevice-&gt;RetrieveUsbInterface(index, &usbInterface);
             if (SUCCEEDED(hr))
             {
-                usbInterface-&gt;GetInterfaceDescriptor(&amp;interfaceDescriptor);
+                usbInterface-&gt;GetInterfaceDescriptor(&interfaceDescriptor);
                 if (interfaceDescriptor.bInterfaceClass == 0x3)
                 {
                     hidInterfaceFound = true;
@@ -188,7 +188,7 @@ CUmdfHidDevice::OnPrepareHardware(
                 break;
             }
         }
-        if (SUCCEEDED(hr) &amp;&amp; (hidInterfaceFound == false))
+        if (SUCCEEDED(hr) && (hidInterfaceFound == false))
         {
             hr = E_FAIL;
         }

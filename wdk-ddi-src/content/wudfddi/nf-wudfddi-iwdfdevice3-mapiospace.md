@@ -159,7 +159,7 @@ CMyDevice::OnPrepareHardware(
             hr = pWdfDevice-&gt;MapIoSpace(regBasePA,
                                            regLengthlength, 
                                            MmNonCached,
-                                          (void **)&amp;m_RegBase);
+                                          (void **)&m_RegBase);
             if (SUCCEEDED(hr)) {
             //
             // Store the register range in partner object. This will 

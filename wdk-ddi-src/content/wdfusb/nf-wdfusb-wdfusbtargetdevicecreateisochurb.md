@@ -168,19 +168,19 @@ ULONG urbSize;
 PURB urb;  
 WDFMEMORY memory;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);  
+WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);  
 objectAttribs.ParentObject = UsbDevice;
 
 status = WdfUsbTargetDeviceCreateIsochUrb(
                                      pDevContext-&gt;WdfUsbTargetDevice,  
-                                     &amp;objectAttribs,  
+                                     &objectAttribs,  
                                      0, 
                                      numPackets, 
-                                     &amp;memory,  
+                                     &memory,  
                                      NULL  
                                      ); 
  
-urb = WdfMemoryGetBuffer(urbMemory, &amp;urbSize); 
+urb = WdfMemoryGetBuffer(urbMemory, &urbSize); 
 urbSize = GET_ISO_URB_SIZE(numPackets);  
 
 usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(pipe);

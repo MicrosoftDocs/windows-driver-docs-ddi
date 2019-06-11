@@ -205,19 +205,19 @@ NICGetIoctlRequest(
     WDFREQUEST  tagRequest;
     WDFREQUEST  prevTagRequest;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
  
     *Request = NULL;
     prevTagRequest = tagRequest = NULL;
 
     do {
-        WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+        WDF_REQUEST_PARAMETERS_INIT(&params);
         status = WdfIoQueueFindRequest(
                                        Queue,
                                        prevTagRequest,
                                        NULL,
-                                       &amp;params,
-                                       &amp;tagRequest
+                                       &params,
+                                       &tagRequest
                                        );
         if (prevTagRequest) {
             WdfObjectDereference(prevTagRequest);
@@ -323,7 +323,7 @@ FindRequestWithMatchingData(
                                        prevTagRequest,
                                        NULL,
                                        NULL,
-                                       &amp;tagRequest);
+                                       &tagRequest);
         if (prevTagRequest) {
             //
             // WdfIoQueueFindRequest incremented the
@@ -361,7 +361,7 @@ FindRequestWithMatchingData(
             // 
             status = WdfIoQueueRetrieveFoundRequest(Queue,
                                                     tagRequest,
-                                                    &amp;outRequest);
+                                                    &outRequest);
             //
             // WdfIoQueueRetrieveFoundRequest incremented the
             // reference count of the TagRequest object,

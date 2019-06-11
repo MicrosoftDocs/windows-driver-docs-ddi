@@ -103,10 +103,10 @@ The following code example reports an error if it detects an unexpected library 
 <td>
 <pre>WDF_DRIVER_VERSION_AVAILABLE_PARAMS ver;
 
-WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&amp;ver, 1, 0);
+WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
 if (!WdfDriverIsVersionAvailable(
                                  driver,
-                                 &amp;ver
+                                 &ver
                                  )) {
     DbgPrint("Unexpected library version.\n");
 }</pre>

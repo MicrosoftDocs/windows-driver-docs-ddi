@@ -113,7 +113,7 @@ The following code example shows how to color-fill a destination surface.
         PresentCBData.hDstAllocation = R200GetSurfaceAllocHandle(m_pR200Ctx, dwDstSurf);
     }
 
-    hr = m_d3dCallbacks.pfnPresentCb(m_hD3D, &amp;PresentCBData);
+    hr = m_d3dCallbacks.pfnPresentCb(m_hD3D, &PresentCBData);
 
     return hr;
 ```

@@ -129,9 +129,9 @@ CMyQueue::OnDefaultIoHandler(
     //
     // Obtain the device, default I/O target, and file object.
     //
-    pQueue-&gt;GetDevice(&amp;pDevice);
-    pDevice-&gt;GetDefaultIoTarget(&amp;pTarget);
-    pRequest-&gt;GetFileObject(&amp;pFile);
+    pQueue-&gt;GetDevice(&pDevice);
+    pDevice-&gt;GetDefaultIoTarget(&pTarget);
+    pRequest-&gt;GetFileObject(&pFile);
 
     if (WdfRequestFlushBuffers==pRequest-&gt;GetType())
     {

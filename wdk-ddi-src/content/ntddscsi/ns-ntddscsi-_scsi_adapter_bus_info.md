@@ -101,7 +101,7 @@ PrintInquiryData(PCHAR  DataBuffer)
              inquiryData-&gt;TargetId,
              inquiryData-&gt;Lun,
              (inquiryData-&gt;DeviceClaimed) ? "Y" : "N",
-             &amp;inquiryData-&gt;InquiryData[8]);
+             &inquiryData-&gt;InquiryData[8]);
           for (j = 0; j &lt; 8; j++) {
              printf("%02X ", inquiryData-&gt;InquiryData[j]);
           }

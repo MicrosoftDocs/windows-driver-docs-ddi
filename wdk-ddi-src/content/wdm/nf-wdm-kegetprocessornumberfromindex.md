@@ -122,7 +122,7 @@ PROCESSOR_NUMBER ProcNumber;
 Count = KeQueryActiveProcessorCountEx(ALL_PROCESSOR_GROUPS);
 for (ProcIndex = 0; ProcIndex &lt; Count; ProcIndex += 1)
 {
-    KeGetProcessorNumberFromIndex(ProcIndex, &amp;ProcNumber);
+    KeGetProcessorNumberFromIndex(ProcIndex, &ProcNumber);
 
     // Do something with the contents of ProcNumber.
     ...

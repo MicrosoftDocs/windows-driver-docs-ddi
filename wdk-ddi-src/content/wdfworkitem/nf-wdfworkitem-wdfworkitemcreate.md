@@ -181,22 +181,22 @@ WDF_OBJECT_ATTRIBUTES  attributes;
 WDF_WORKITEM_CONFIG  workitemConfig;
 WDFWORKITEM  hWorkItem;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE(
-                                       &amp;attributes,
+                                       &attributes,
                                        WORKER_ITEM_CONTEXT
                                        );
 attributes.ParentObject = FdoData-&gt;WdfDevice;
 
 WDF_WORKITEM_CONFIG_INIT(
-                         &amp;workitemConfig,
+                         &workitemConfig,
                          CallbackFunction
                          );
 
 status = WdfWorkItemCreate(
-                            &amp;workitemConfig,
-                            &amp;attributes,
-                            &amp;hWorkItem
+                            &workitemConfig,
+                            &attributes,
+                            &hWorkItem
                             );
 if (!NT_SUCCESS(status)) {
     return status;

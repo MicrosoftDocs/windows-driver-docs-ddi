@@ -99,7 +99,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_POWER_POLICY_EVENT_CALLBACKS powerPolicyCallbacks;
 
-WDF_POWER_POLICY_EVENT_CALLBACKS_INIT(&amp;powerPolicyCallbacks);
+WDF_POWER_POLICY_EVENT_CALLBACKS_INIT(&powerPolicyCallbacks);
 powerPolicyCallbacks.EvtDeviceArmWakeFromS0 = PciDrvEvtDeviceWakeArmS0;
 powerPolicyCallbacks.EvtDeviceDisarmWakeFromS0 = PciDrvEvtDeviceWakeDisarmS0;
 powerPolicyCallbacks.EvtDeviceWakeFromS0Triggered = PciDrvEvtDeviceWakeTriggeredS0;
@@ -108,7 +108,7 @@ powerPolicyCallbacks.EvtDeviceDisarmWakeFromSx = PciDrvEvtDeviceWakeDisarmSx;
 powerPolicyCallbacks.EvtDeviceWakeFromSxTriggered = PciDrvEvtDeviceWakeTriggeredSx;
 WdfDeviceInitSetPowerPolicyEventCallbacks(
                                           DeviceInit,
-                                          &amp;powerPolicyCallbacks
+                                          &powerPolicyCallbacks
                                           );</pre>
 </td>
 </tr>

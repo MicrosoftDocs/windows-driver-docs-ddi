@@ -154,7 +154,7 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
             //
 
     								deviceContext&gt;PnpSafeToAttach = FALSE;
-    								KeClearEvent(&amp;deviceContext&gt;PnpSafeEvent);
+    								KeClearEvent(&deviceContext&gt;PnpSafeEvent);
 
         }
 
@@ -163,7 +163,7 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
         // client as the client just detached.
         //
         deviceContext-&gt;PnpEventStatus = STATUS_SUCCESS;
-        KeSetEvent(&amp;deviceContext-&gt;PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
+        KeSetEvent(&deviceContext-&gt;PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
 
         WdfWaitLockRelease(deviceContext-&gt;PnpStateLock);
 

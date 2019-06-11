@@ -103,10 +103,10 @@ The following code example initializes an WDF_OBJECT_ATTRIBUTES structure and cr
 <pre>WDF_OBJECT_ATTRIBUTES  Attributes;
 WDFOBJECT  Object;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;Attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&Attributes);
 status = WdfObjectCreate(
-                         &amp;Attributes,
-                         &amp;Object
+                         &Attributes,
+                         &Object
                          );</pre>
 </td>
 </tr>

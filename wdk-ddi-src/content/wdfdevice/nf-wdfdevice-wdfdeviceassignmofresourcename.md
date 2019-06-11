@@ -136,7 +136,7 @@ DECLARE_CONST_UNICODE_STRING(mofRsrcName, MOFRESOURCENAME);
 
 status = WdfDeviceAssignMofResourceName(
                                         Device,
-                                        &amp;mofRsrcName
+                                        &mofRsrcName
                                         );
 if (!NT_SUCCESS(status)) {
     return status;

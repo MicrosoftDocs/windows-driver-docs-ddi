@@ -104,7 +104,7 @@ NTSTATUS  ntStatus;
 ntStatus = WdfIoTargetCreate(
                              Adapter-&gt;WdfDevice,
                              WDF_NO_OBJECT_ATTRIBUTES,
-                             &amp;Adapter-&gt;IoTarget
+                             &Adapter-&gt;IoTarget
                              );
 if (!NT_SUCCESS(ntStatus)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetCreate failed 0x%x\n", ntStatus));
@@ -112,12 +112,12 @@ if (!NT_SUCCESS(ntStatus)) {
 }
 
 WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE(
-                                               &amp;openParams,
+                                               &openParams,
                                                Adapter-&gt;NextDeviceObject
                                                );
 
 ntStatus = WdfIoTargetOpen(Adapter-&gt;IoTarget,
-                           &amp;openParams);
+                           &openParams);
 if (!NT_SUCCESS(ntStatus)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetOpen failed 0x%x\n", ntStatus));
     break;

@@ -788,7 +788,7 @@ For example, if the driver supports both two and four samples per pixel when fli
 <tr>
 <td>
 <pre>DDPIXELFORMAT ddpf;
-ZeroMemory(&amp;ddpf, sizeof(ddpf));
+ZeroMemory(&ddpf, sizeof(ddpf));
 ddpf.dwSize       = sizeof(DDPIXELFORMAT);
 ddpf.dwFlags      = DDPF_D3DFORMAT;
 ddpf.dwFourCC     = D3DFMT_X8R8G8B8;

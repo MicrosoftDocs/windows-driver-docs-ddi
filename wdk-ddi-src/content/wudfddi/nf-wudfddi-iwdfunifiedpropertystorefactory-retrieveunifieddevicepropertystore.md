@@ -142,7 +142,7 @@ GetDevicePropertyStore(
     IWDFUnifiedPropertyStoreFactory *   pUnifiedPropertyStoreFactory = NULL;
 
     HRESULT hrQI = FxDevice-&gt;QueryInterface(
-                        IID_PPV_ARGS(&amp;pUnifiedPropertyStoreFactory)
+                        IID_PPV_ARGS(&pUnifiedPropertyStoreFactory)
                         );
     WUDF_TEST_DRIVER_ASSERT(SUCCEEDED(hrQI));
 
@@ -151,8 +151,8 @@ GetDevicePropertyStore(
     RootSpecifier.Qualifier.HardwareKey.ServiceName = NULL;
     
     hr = pUnifiedPropertyStoreFactory-&gt;RetrieveUnifiedDevicePropertyStore(
-            &amp;RootSpecifier,
-            &amp;pUnifiedPropertyStore
+            &RootSpecifier,
+            &pUnifiedPropertyStore
             );
 
     if (FAILED(hr))

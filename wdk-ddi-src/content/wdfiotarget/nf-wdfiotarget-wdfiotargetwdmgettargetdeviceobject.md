@@ -101,7 +101,7 @@ The following code example checks an I/O target's WDM DEVICE_OBJECT structure to
 <tr>
 <td>
 <pre>if (!((WdfIoTargetWdmGetTargetDeviceObject(Adapter-&gt;IoTarget))-&gt;Flags
- &amp; DO_DIRECT_IO)) {
+ & DO_DIRECT_IO)) {
     ASSERTMSG("Target device doesn't support direct I/O\n", FALSE);
     return STATUS_INVALID_DEVICE_REQUEST;
 }</pre>

@@ -156,12 +156,12 @@ The following code example assigns the constant MY_VALUE to the <b>ValueName</b>
 NTSTATUS status;
 
 RtlInitUnicodeString(
-                     &amp;valueName,
+                     &valueName,
                      L"ValueName"
                      );
 status = WdfRegistryAssignULong(
                                 Key,
-                                &amp;valueName,
+                                &valueName,
                                 MY_VALUE
                                 );</pre>
 </td>

@@ -168,7 +168,7 @@ status = WdfCommonBufferCreate(
                                DevExt-&gt;DmaEnabler,
                                DevExt-&gt;CommonBufferSize,
                                WDF_NO_OBJECT_ATTRIBUTES,
-                               &amp;DevExt-&gt;CommonBuffer
+                               &DevExt-&gt;CommonBuffer
                                );
 if (status == STATUS_SUCCESS) {
     DevExt-&gt;CommonBufferBaseVA = 

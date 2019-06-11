@@ -104,12 +104,12 @@ CMyQueue::OnCreateFile(
     //
     // Obtain IWDFFile3 interface from IWDFFile.
     //
-    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject3));
+    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&pWdfFileObject3));
     if (!SUCCEEDED(hr))
     {
         goto Done;
     }
-    pWdfFileObject3-&gt;GetInitiatorProcessId(&amp;initiatorProcessId);
+    pWdfFileObject3-&gt;GetInitiatorProcessId(&initiatorProcessId);
     ...
 
 </pre>

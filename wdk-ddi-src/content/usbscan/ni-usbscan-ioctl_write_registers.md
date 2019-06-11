@@ -215,7 +215,7 @@ IoBlock.uOffset = (BYTE)byOffset;
 IoBlock.uLength = (BYTE)byNbOfReg;
 IoBlock.pbyData = pbyData;
 
-memset(&amp;overlapped, 0, sizeof(OVERLAPPED));
+memset(&overlapped, 0, sizeof(OVERLAPPED));
 overlapped.hEvent = 
     CreateEvent(NULL,    // pointer to security attributes
                          // WIN95 ignores this parameter
@@ -225,12 +225,12 @@ overlapped.hEvent =
 
 bRet = DeviceIoControl( DeviceHandle,
                         (DWORD) IOCTL_WRITE_REGISTERS,
-                        &amp;IoBlock,
+                        &IoBlock,
                         sizeof(IO_BLOCK),
                         NULL,
                         0,
-                        &amp;cbRet,
-                        &amp;overlapped);
+                        &cbRet,
+                        &overlapped);
 
 if( bRet == TRUE )
 {

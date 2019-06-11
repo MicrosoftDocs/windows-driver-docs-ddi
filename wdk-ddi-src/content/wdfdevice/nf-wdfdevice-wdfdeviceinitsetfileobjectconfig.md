@@ -109,18 +109,18 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_OBJECT_ATTRIBUTES  attributes;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.SynchronizationScope = WdfSynchronizationScopeNone;
 WDF_FILEOBJECT_CONFIG_INIT(
-                           &amp;deviceConfig,
+                           &deviceConfig,
                            MyEvtDeviceFileCreate,
                            MyEvtFileClose,
                            WDF_NO_EVENT_CALLBACK // No cleanup callback function
                            );
 WdfDeviceInitSetFileObjectConfig(
                                  DeviceInit,
-                                 &amp;deviceConfig,
-                                 &amp;attributes
+                                 &deviceConfig,
+                                 &attributes
                                  );</pre>
 </td>
 </tr>

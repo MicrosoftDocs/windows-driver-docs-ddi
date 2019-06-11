@@ -111,12 +111,12 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 IWDFInterrupt* pInterrupt;
 WUDF_INTERRUPT_CONFIG  interruptConfig;
 
-WUDF_INTERRUPT_CONFIG_INIT(&amp;interruptConfig,
+WUDF_INTERRUPT_CONFIG_INIT(&interruptConfig,
                            MyInterruptIsr,
                            MyInterruptWorkItem);
 
-hr = pDevice-&gt;Create(&amp;interruptConfig, 
-                     &amp;pInterrupt);
+hr = pDevice-&gt;Create(&interruptConfig, 
+                     &pInterrupt);
 </pre>
 </td>
 </tr>

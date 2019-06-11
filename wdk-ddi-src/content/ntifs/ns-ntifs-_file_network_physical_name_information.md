@@ -126,7 +126,7 @@ The following is an example of querying the network physical name  information o
     else
     {
         Status = ZwQueryInformationFile(Target,
-                                        &amp;IoStatus,
+                                        &IoStatus,
                                         NetFileNameInfo,
                                         NameInfoLength,
                                         FileNetworkPhysicalNameInformation);
@@ -145,7 +145,7 @@ The following is an example of querying the network physical name  information o
             else
             {
                 Status = ZwQueryInformationFile(Target,
-                                                &amp;IoStatus,
+                                                &IoStatus,
                                                 NetFileNameInfo,
                                                 NameInfoLength,
                                                 FileNetworkPhysicalNameInformation);

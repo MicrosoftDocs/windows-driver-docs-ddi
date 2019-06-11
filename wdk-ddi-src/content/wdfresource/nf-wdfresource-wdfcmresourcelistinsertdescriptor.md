@@ -176,7 +176,7 @@ PdoEvtDeviceResourcesQuery(
 
     status = WdfCmResourceListInsertDescriptor(
                                                Resources,
-                                               &amp;newDescriptor,
+                                               &newDescriptor,
                                                WDF_INSERT_AT_END
                                                );
 ...

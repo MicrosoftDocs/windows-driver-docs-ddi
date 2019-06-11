@@ -120,23 +120,23 @@ Endpoint_EvtEndpointStaticStreamsAdd(
 
     TRY {
 
-        WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;wdfAttributes, STATIC_STREAMS_CONTEXT);
+        WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&wdfAttributes, STATIC_STREAMS_CONTEXT);
 
         status = UcxStaticStreamsCreate(UcxEndpoint,
-                                        &amp;UcxStaticStreamsInit,
-                                        &amp;wdfAttributes,
-                                        &amp;ucxStaticStreams);
+                                        &UcxStaticStreamsInit,
+                                        &wdfAttributes,
+                                        &ucxStaticStreams);
         // … error handling …
 
         for (i = 0, streamId = 1; i &lt; NumberOfStreams; i += 1, streamId += 1) {
 
             // … create WDF queue …
 
-            STREAM_INFO_INIT(&amp;streamInfo,
+            STREAM_INFO_INIT(&streamInfo,
                              wdfQueue,
                              streamId);
 
-            UcxStaticStreamsSetStreamInfo(ucxStaticStreams, &amp;streamInfo);
+            UcxStaticStreamsSetStreamInfo(ucxStaticStreams, &streamInfo);
         }
 </pre>
 </td>

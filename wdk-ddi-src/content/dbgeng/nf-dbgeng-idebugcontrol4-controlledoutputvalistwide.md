@@ -353,7 +353,7 @@ This code snippet illustrates the use of the  %Y format specifier.
     HRESULT hr = S_OK;
 
     ComPtr&lt;IDebugControl4&gt; spControl;
-    IfFailedReturn(pClient-&gt;QueryInterface(IID_PPV_ARGS(&amp;spControl)));
+    IfFailedReturn(pClient-&gt;QueryInterface(IID_PPV_ARGS(&spControl)));
 
     spControl-&gt;ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{t}: %Y{t}\n", L"Hello &lt;World&gt;");
     spControl-&gt;ControlledOutputWide(DEBUG_OUTCTL_DML, DEBUG_OUTPUT_NORMAL, L"DML/NORMAL Y{T}: %Y{T}\n", L"Hello &lt;World&gt;");
@@ -395,9 +395,9 @@ DML/NORMAL Y{T}: "Hello &lt;World&gt;"
 DML/NORMAL Y{s}: Hello &lt;World&gt;
 DML/NORMAL Y{S}: Hello &lt;World&gt;
 TEXT/NORMAL Y{t}: "Hello &lt;World&gt;"
-TEXT/NORMAL Y{T}: &amp;quot;Hello &amp;lt;World&amp;gt;&amp;quot;
+TEXT/NORMAL Y{T}: &quot;Hello &lt;World&gt;&quot;
 TEXT/NORMAL Y{s}: Hello &lt;World&gt;
-TEXT/NORMAL Y{S}: Hello &amp;lt;World&amp;gt;
+TEXT/NORMAL Y{S}: Hello &lt;World&gt;
 DML/NORMAL Y{a}: 00007ffa`7da163c0
 DML/NORMAL Y{as} 64bit   : '         '
 DML/NORMAL Y{as} 32value : '         '

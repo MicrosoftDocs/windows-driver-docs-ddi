@@ -126,7 +126,7 @@ UNICODE_STRING us;
 status = WdfStringCreate(
                          NULL,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string
+                         &string
                          );
 if (NT_SUCCESS(status)) {
     status = WdfDriverRetrieveVersionString(
@@ -136,11 +136,11 @@ if (NT_SUCCESS(status)) {
     if (NT_SUCCESS(status)) {
         WdfStringGetUnicodeString(
                                   string,
-                                  &amp;us
+                                  &us
                                   );
         DbgPrint(
                  "WDF Version string:  %wZ\n",
-                 &amp;us
+                 &us
                  );
     }
     WdfObjectDelete(string);

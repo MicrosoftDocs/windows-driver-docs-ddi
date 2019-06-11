@@ -217,17 +217,17 @@ DECLARE_CONST_UNICODE_STRING(valueMultiSz, VALUE_MULTI_SZ);
 
 status = WdfCollectionCreate(
                              NULL,
-                             &amp;col
+                             &col
                              );
 ASSERT(NT_SUCCESS(status));
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;stringAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&stringAttributes);
 stringAttributes.ParentObject = col;
 
 status = WdfRegistryQueryMultiString(
                                      Key,
-                                     &amp;valueMultiSzEmpty,
-                                     &amp;stringAttributes,
+                                     &valueMultiSzEmpty,
+                                     &stringAttributes,
                                      col
                                      );
 

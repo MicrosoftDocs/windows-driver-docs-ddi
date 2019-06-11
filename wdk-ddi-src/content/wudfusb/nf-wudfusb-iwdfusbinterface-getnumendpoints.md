@@ -94,15 +94,15 @@ The following code example retrieves the number of pipes on a USB interface and 
  if (SUCCEEDED(hr))  {
      for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++) {
      hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, 
-                                                &amp;pIUsbPipe);
+                                                &pIUsbPipe);
      if (FAILED(hr)) {
         // Output an error.
      }
      else {
-         if ( pIUsbPipe-&gt;IsInEndPoint() &amp;&amp; (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) ) {
+         if ( pIUsbPipe-&gt;IsInEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) ) {
              pIUsbInputPipe = pIUsbPipe;
          }
-         else if ( pIUsbPipe-&gt;IsOutEndPoint() &amp;&amp; (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) )
+         else if ( pIUsbPipe-&gt;IsOutEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) )
          {
               pIUsbOutputPipe = pIUsbPipe;
          }

@@ -887,7 +887,7 @@ Fonts with no <b>fsType</b> bits set indicate that they can be embedded and perm
 
 Applications that implement support for font embedding, either through use of the Font Embedding DLL or through other means, must not embed fonts that are not licensed to permit embedding. Further, applications loading embedded fonts for temporary use <i>must</i> delete the fonts when the document containing the embedded font is closed.
 
-If multiple embedding bits are set, the <i>least</i> restrictive license granted takes precedence. For example, if bits 1 and 3 are set, bit 3 takes precedence over bit 1and the font can be embedded with Editable rights. For compatibility purposes, most vendors granting Editable embedding rights also set the Preview &amp; Print bit (0x000C). This permits an application that only supports Preview &amp; Print embedding to detect that font embedding is allowed.
+If multiple embedding bits are set, the <i>least</i> restrictive license granted takes precedence. For example, if bits 1 and 3 are set, bit 3 takes precedence over bit 1and the font can be embedded with Editable rights. For compatibility purposes, most vendors granting Editable embedding rights also set the Preview & Print bit (0x000C). This permits an application that only supports Preview & Print embedding to detect that font embedding is allowed.
 
 
 ### -field fwdUnitsPerEm

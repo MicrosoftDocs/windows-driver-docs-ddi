@@ -176,8 +176,8 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
                             USB_CONFIGURATION_DESCRIPTOR_TYPE,
                             0,
                             0,
-                            &amp;descriptorCb,
-                            &amp;descriptorHeader
+                            &descriptorCb,
+                            &descriptorHeader
                             );
     //
     // Store the buffer in the output parameter, or delete it.

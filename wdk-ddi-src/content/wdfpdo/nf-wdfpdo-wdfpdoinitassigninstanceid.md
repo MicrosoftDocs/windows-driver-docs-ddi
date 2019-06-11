@@ -132,11 +132,11 @@ The following code example converts a device's serial number to a Unicode string
 status =  RtlIntegerToUnicodeString(
                                     SerialNo,
                                     BASE_DEC,
-                                    &amp;instanceID
+                                    &instanceID
                                     );
 status = WdfPdoInitAssignInstanceID(
                                     pDeviceInit,
-                                    &amp;instanceID
+                                    &instanceID
                                     );</pre>
 </td>
 </tr>

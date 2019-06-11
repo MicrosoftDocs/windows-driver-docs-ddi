@@ -160,11 +160,11 @@ CMyDevice::ServiceSwitchChangeQueue(
         if (NULL != SpecificFile) {
         enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequestByFileObject(
                                         SpecificFile,
-                                        &amp;fxRequest
+                                        &fxRequest
                                         );
         }
         else {
-            enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequest(&amp;fxRequest);
+            enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequest(&fxRequest);
         }
         //
         // If a request was retrieved, complete it.
@@ -175,9 +175,9 @@ CMyDevice::ServiceSwitchChangeQueue(
                 //
                 // Copy the result to the request buffer.
                 //
-                fxRequest-&gt;GetOutputMemory(&amp;fxMemory);
+                fxRequest-&gt;GetOutputMemory(&fxMemory);
                 hr = fxMemory-&gt;CopyFromBuffer(0, 
-                                              &amp;NewState, 
+                                              &NewState, 
                                               sizeof(SWITCH_STATE));
                                               fxMemory-&gt;Release();
             }

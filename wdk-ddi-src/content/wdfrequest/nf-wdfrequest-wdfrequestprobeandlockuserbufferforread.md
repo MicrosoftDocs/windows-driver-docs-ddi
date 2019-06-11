@@ -206,17 +206,17 @@ NonPnpEvtIoInCallerContext(
     size_t  inBufLen, outBufLen;
     PVOID  inBuf, outBuf;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
 
     //
     // Check to see whether the driver received a METHOD_NEITHER I/O control code.
     // If not, just send the request back to the framework.
     //
-    if(!(params.Type == WdfRequestTypeDeviceControl &amp;&amp;
+    if(!(params.Type == WdfRequestTypeDeviceControl &&
             params.Parameters.DeviceIoControl.IoControlCode ==
                                     IOCTL_NONPNP_METHOD_NEITHER)) {
         status = WdfDeviceEnqueueRequest(
@@ -237,8 +237,8 @@ NonPnpEvtIoInCallerContext(
     status = WdfRequestRetrieveUnsafeUserInputBuffer(
                                                      Request,
                                                      0,
-                                                     &amp;inBuf,
-                                                     &amp;inBufLen
+                                                     &inBuf,
+                                                     &inBufLen
                                                      );
     if(!NT_SUCCESS(status)) {
         goto End;
@@ -246,8 +246,8 @@ NonPnpEvtIoInCallerContext(
     status = WdfRequestRetrieveUnsafeUserOutputBuffer(
                                                       Request,
                                                       0,
-                                                      &amp;outBuf,
-                                                      &amp;outBufLen
+                                                      &outBuf,
+                                                      &outBufLen
                                                       );
     if(!NT_SUCCESS(status)) {
        goto End;
@@ -258,12 +258,12 @@ NonPnpEvtIoInCallerContext(
     // driver can store handles to the memory objects that will
     // be created for input and output buffers.
     //
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;attributes,
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attributes,
                                         REQUEST_CONTEXT);
     status = WdfObjectAllocateContext(
                                       Request,
-                                      &amp;attributes,
-                                      &amp;reqContext
+                                      &attributes,
+                                      &reqContext
                                       );
     if(!NT_SUCCESS(status)) {
         goto End;
@@ -276,7 +276,7 @@ NonPnpEvtIoInCallerContext(
                                                      Request,
                                                      inBuf,
                                                      inBufLen,
-                                                     &amp;reqContext-&gt;InputMemoryBuffer
+                                                     &reqContext-&gt;InputMemoryBuffer
                                                      );
     if(!NT_SUCCESS(status)) {
         goto End;
@@ -286,7 +286,7 @@ NonPnpEvtIoInCallerContext(
                                                       Request,
                                                       outBuf,
                                                       outBufLen,
-                                                      &amp;reqContext-&gt;OutputMemoryBuffer
+                                                      &reqContext-&gt;OutputMemoryBuffer
                                                       );
     if(!NT_SUCCESS(status)) {
         goto End;

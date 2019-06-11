@@ -217,19 +217,19 @@ status = WdfDeviceOpenRegistryKey(
                                   PLUGPLAY_REGKEY_DRIVER,
                                   KEY_READ,
                                   WDF_NO_OBJECT_ATTRIBUTES,
-                                  &amp;hKey
+                                  &hKey
                                   );
 if (NT_SUCCESS(status)){
     RtlInitUnicodeString(
-                         &amp;myKeyStr,
+                         &myKeyStr,
                          L"MySubKey"
                          );
     status = WdfRegistryOpenKey(
                                 hKey,
-                                &amp;myKeyStr,
+                                &myKeyStr,
                                 KEY_READ,
                                 WDF_NO_OBJECT_ATTRIBUTES,
-                                &amp;subkey
+                                &subkey
                                 );
 }</pre>
 </td>

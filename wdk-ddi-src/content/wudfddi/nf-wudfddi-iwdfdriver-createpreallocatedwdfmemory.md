@@ -117,7 +117,7 @@ The following code example shows how to create a memory object for a buffer.
 <td>
 <pre>    //
     // Allocate a request.
-    hr = wdfDevice-&gt;CreateRequest(NULL, NULL, &amp;request);
+    hr = wdfDevice-&gt;CreateRequest(NULL, NULL, &request);
 
     // Allocate a buffer and wrap it in a memory object. 
     // Make the memory object a child of the request. 
@@ -137,14 +137,14 @@ The following code example shows how to create a memory object for a buffer.
     if (SUCCEEDED(hr))
     {
        CComPtr&lt;IWDFDriver&gt; driver;
-       wdfDevice-&gt;GetDriver(&amp;driver);
+       wdfDevice-&gt;GetDriver(&driver);
 
        hr = driver-&gt;CreatePreallocatedWdfMemory(
                        buffer,
                        m_HidDescriptor-&gt;wReportLength,
                        NULL,
                        request,
-                       &amp;memory
+                       &memory
                        );
     }</pre>
 </td>

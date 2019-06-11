@@ -190,15 +190,15 @@ WdfDeviceSetAlignmentRequirement(
 {
     WDF_DMA_ENABLER_CONFIG   dmaConfig;
     WDF_DMA_ENABLER_CONFIG_INIT(
-                                &amp;dmaConfig,
+                                &dmaConfig,
                                 WdfDmaProfileScatterGather64Duplex,
                                 DevExt-&gt;MaximumTransferLength
                                 );
     status = WdfDmaEnablerCreate(
                                  DevExt-&gt;WdfDevice,
-                                 &amp;dmaConfig,
+                                 &dmaConfig,
                                  WDF_NO_OBJECT_ATTRIBUTES,
-                                 &amp;DevExt-&gt;DmaEnabler
+                                 &DevExt-&gt;DmaEnabler
                                  );
     if (!NT_SUCCESS (status)) {
         // Cannot continue, so release device resources.

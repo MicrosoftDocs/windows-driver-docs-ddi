@@ -145,7 +145,7 @@ WDFIORESLIST  logConfig;
 status = WdfIoResourceListCreate(
                                  RequirementsList,
                                  WDF_NO_OBJECT_ATTRIBUTES,
-                                 &amp;logConfig
+                                 &logConfig
                                  );
 if (!NT_SUCCESS(status)) {
     return status;
@@ -160,7 +160,7 @@ if (!NT_SUCCESS(status)) {
 }
 
 RtlZeroMemory(
-              &amp;descriptor,
+              &descriptor,
               sizeof(descriptor)
               );
 
@@ -175,7 +175,7 @@ descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
 
 status = WdfIoResourceListAppendDescriptor(
                                            logConfig,
-                                           &amp;descriptor
+                                           &descriptor
                                            );</pre>
 </td>
 </tr>

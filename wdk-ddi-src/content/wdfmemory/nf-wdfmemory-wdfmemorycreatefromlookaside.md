@@ -148,12 +148,12 @@ status = WdfLookasideListCreate(
                                 NonPagedPool,
                                 WDF_NO_OBJECT_ATTRIBUTES,
                                 MY_POOL_TAG,
-                                &amp;driverContext-&gt;LookasideListHandle
+                                &driverContext-&gt;LookasideListHandle
                                 );
 ...
 status = WdfMemoryCreateFromLookaside(
                                       driverContext-&gt;LookasideListHandle,
-                                      &amp;memHandle
+                                      &memHandle
                                       );</pre>
 </td>
 </tr>

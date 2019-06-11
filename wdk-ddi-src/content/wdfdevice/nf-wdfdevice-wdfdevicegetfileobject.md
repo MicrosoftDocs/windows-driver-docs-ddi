@@ -102,10 +102,10 @@ NTSTATUS  status = STATUS_SUCCESS;
 BOOLEAN  success = TRUE;
 
 status = IoGetDeviceObjectPointer(
-                                  &amp;inputFileName,    // File name 
+                                  &inputFileName,    // File name 
                                   FILE_ALL_ACCESS,   // Access mask
-                                  &amp;pWdmFileObject,   // Output pointer of WDM file object
-                                  &amp;pWdmDeviceObject  // Output pointer of WDM device object
+                                  &pWdmFileObject,   // Output pointer of WDM file object
+                                  &pWdmDeviceObject  // Output pointer of WDM device object
                                   );
 
 if(!NT_SUCCESS(status)){

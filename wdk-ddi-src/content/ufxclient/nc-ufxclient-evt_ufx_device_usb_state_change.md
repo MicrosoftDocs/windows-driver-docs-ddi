@@ -152,7 +152,7 @@ Arguments:
     }
     WdfWaitLockRelease(ControllerContext-&gt;InitializeDefaultEndpointLock);
 
-    if (NewState == UsbfnDeviceStateConfigured &amp;&amp; OldState != UsbfnDeviceStateSuspended) {
+    if (NewState == UsbfnDeviceStateConfigured && OldState != UsbfnDeviceStateSuspended) {
 
         for (EpIndex = 1; EpIndex &lt; WdfCollectionGetCount(Context-&gt;Endpoints); EpIndex++) {
             UfxEndpointConfigure(WdfCollectionGetItem(Context-&gt;Endpoints, EpIndex));
@@ -166,7 +166,7 @@ Arguments:
 
 
     if (NewState == UsbfnDeviceStateDetached) {
-        KeSetEvent(&amp;ControllerContext-&gt;DetachEvent,
+        KeSetEvent(&ControllerContext-&gt;DetachEvent,
                    IO_NO_INCREMENT,
                    FALSE);
     }

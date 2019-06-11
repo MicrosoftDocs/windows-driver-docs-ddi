@@ -99,7 +99,7 @@ then the minidriver's <i>AVStrMiniRemoveEvent</i> must call <a href="https://msd
 </tr>
 <tr>
 <td>
-<pre>&amp;EventEntry -&gt; ListEntry</pre>
+<pre>&EventEntry -&gt; ListEntry</pre>
 </td>
 </tr>
 </table></span></div>

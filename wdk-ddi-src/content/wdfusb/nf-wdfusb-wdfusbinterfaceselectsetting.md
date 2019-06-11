@@ -152,21 +152,21 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDF_USB_INTERFACE_SELECT_SETTING_PARAMS  selectSettingParams;
 NTSTATUS  Status;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;pipesAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&pipesAttributes);
 WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE(
-                                       &amp;pipesAttributes,
+                                       &pipesAttributes,
                                        MY_PIPE_CONTEXT
                                        );
 
 WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING(
-                                      &amp;selectSettingParams,
+                                      &selectSettingParams,
                                       1
                                       );
 
 Status = WdfUsbInterfaceSelectSetting(
                                       UsbInterface,
-                                      &amp;pipesAttributes,
-                                      &amp;selectSettingParams
+                                      &pipesAttributes,
+                                      &selectSettingParams
                                       );</pre>
 </td>
 </tr>

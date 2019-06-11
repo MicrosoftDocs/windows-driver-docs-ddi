@@ -150,7 +150,7 @@ STDMETHODCALLTYPE
     //
     CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
 
-    r2-&gt;RetrieveOutputMemory(&amp;pOutputMemory);
+    r2-&gt;RetrieveOutputMemory(&pOutputMemory);
     if (FAILED(hr)) goto Exit;
 
     hr = m_Device-&gt;GetInputPipe()-&gt;FormatRequestForRead(pWdfRequest,

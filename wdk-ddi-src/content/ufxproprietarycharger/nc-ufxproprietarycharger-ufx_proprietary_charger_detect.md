@@ -107,18 +107,18 @@ UsbLowerFilter_ProprietaryChargerDetect(
 
 
     // Clear our event
-     KeClearEvent(&amp;PdcpContext&gt;AbortOperation);
+     KeClearEvent(&PdcpContext&gt;AbortOperation);
 
 
     // Wait for a while
      Timeout.QuadPart = WDF_REL_TIMEOUT_IN_MS(PdcpContext&gt;DetectionDelayInms);
 
     Status = KeWaitForSingleObject(
-        &amp;PdcpContext&gt;AbortOperation,
+        &PdcpContext&gt;AbortOperation,
         Executive,
         KernelMode,
         FALSE,
-        &amp;Timeout);
+        &Timeout);
 
     switch (Status)
     {

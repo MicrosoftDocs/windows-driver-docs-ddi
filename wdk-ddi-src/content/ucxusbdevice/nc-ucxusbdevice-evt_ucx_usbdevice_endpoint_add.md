@@ -143,7 +143,7 @@ Endpoint_EvtUcxUsbDeviceEndpointAdd(
     UNREFERENCED_PARAMETER(UsbEndpointDescriptorBufferLength);
     UNREFERENCED_PARAMETER(SuperSpeedEndpointCompanionDescriptor);
 
-    UCX_ENDPOINT_EVENT_CALLBACKS_INIT(&amp;ucxEndpointEventCallbacks,
+    UCX_ENDPOINT_EVENT_CALLBACKS_INIT(&ucxEndpointEventCallbacks,
                                       Endpoint_EvtUcxEndpointPurge,
                                       Endpoint_EvtUcxEndpointStart,
                                       Endpoint_EvtUcxEndpointAbort,
@@ -154,16 +154,16 @@ Endpoint_EvtUcxUsbDeviceEndpointAdd(
                                       Endpoint_EvtUcxEndpointStaticStreamsDisable,
                                       Endpoint_EvtUcxEndpointEnableForwardProgress);
 
-    UcxEndpointInitSetEventCallbacks(UcxEndpointInit, &amp;ucxEndpointEventCallbacks);
+    UcxEndpointInitSetEventCallbacks(UcxEndpointInit, &ucxEndpointEventCallbacks);
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;objectAttributes, UCX_ENDPOINT_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&objectAttributes, UCX_ENDPOINT_CONTEXT);
 
     ucxControllerContext = GetUcxControllerContext(UcxController);
 
     status = UcxEndpointCreate(UcxUsbDevice,
-        &amp;UcxEndpointInit,
-        &amp;objectAttributes,
-        &amp;ucxEndpoint);
+        &UcxEndpointInit,
+        &objectAttributes,
+        &ucxEndpoint);
 
     if (!NT_SUCCESS(status)) {
         DbgTrace(TL_ERROR, Endpoint, "UcxEndpoint Failed %!STATUS!", status);
@@ -177,12 +177,12 @@ Endpoint_EvtUcxUsbDeviceEndpointAdd(
     ucxEndpointContext-&gt;IsDefault = FALSE;
     ucxEndpointContext-&gt;MaxPacketSize = MAX_PACKET_SIZE;
 
-    WDF_IO_QUEUE_CONFIG_INIT(&amp;queueConfig, WdfIoQueueDispatchManual);
+    WDF_IO_QUEUE_CONFIG_INIT(&queueConfig, WdfIoQueueDispatchManual);
 
     status = WdfIoQueueCreate(ucxControllerContext-&gt;WdfDevice,
-        &amp;queueConfig,
+        &queueConfig,
         WDF_NO_OBJECT_ATTRIBUTES,
-        &amp;ucxEndpointContext-&gt;IoQueue);
+        &ucxEndpointContext-&gt;IoQueue);
 
     if (!NT_SUCCESS(status)) {
         DbgTrace(TL_ERROR, Endpoint, "WdfIoQueueCreate Failed %!STATUS!", status);

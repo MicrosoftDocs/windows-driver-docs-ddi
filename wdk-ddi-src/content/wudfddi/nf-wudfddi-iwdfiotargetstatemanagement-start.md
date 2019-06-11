@@ -121,19 +121,19 @@ The following code example first shows how a driver can obtain the <a href="http
     IWDFUsbInterface *      pIUsbInterface = NULL;
     IWDFUsbTargetPipe *     pIUsbPipe = NULL;
 
-    hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;pIUsbTargetFactory));
+    hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&pIUsbTargetFactory));
     if (FAILED(hr))
     {...}
-    hr = pIUsbTargetFactory-&gt;CreateUsbTargetDevice(&amp;pIUsbTargetDevice);
+    hr = pIUsbTargetFactory-&gt;CreateUsbTargetDevice(&pIUsbTargetDevice);
     if (FAILED(hr))
     {...}
-    hr = pIUsbTargetDevice-&gt;RetrieveUsbInterface(0, &amp;pIUsbInterface);
+    hr = pIUsbTargetDevice-&gt;RetrieveUsbInterface(0, &pIUsbInterface);
     if (FAILED(hr))
     {...}
     NumEndPoints = pIUsbInterface-&gt;GetNumEndPoints();
     for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++)
     {
-        hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, &amp;pIUsbPipe);
+        hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, &pIUsbPipe);
         if (FAILED(hr))
         {...}
         else
@@ -143,7 +143,7 @@ The following code example first shows how a driver can obtain the <a href="http
                 if (UsbdPipeTypeInterrupt == pIUsbPipe-&gt;GetType())
                 {
                     m_pIUsbInterruptPipe = pIUsbPipe;
-                    hr = m_pIUsbInterruptPipe-&gt;QueryInterface(IID_PPV_ARGS(&amp;m_pIoTargetInterruptPipeStateMgmt));
+                    hr = m_pIUsbInterruptPipe-&gt;QueryInterface(IID_PPV_ARGS(&m_pIoTargetInterruptPipeStateMgmt));
                     if (FAILED(hr))
                     {...}
                 }

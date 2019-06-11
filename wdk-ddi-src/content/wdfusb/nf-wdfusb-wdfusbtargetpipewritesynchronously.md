@@ -239,8 +239,8 @@ Because <b>WdfUsbTargetPipeWriteSynchronously</b> handles I/O requests synchrono
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
 MY_BUFFER_TYPE  myBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;memoryDescriptor,
-                                  (PVOID) &amp;myBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&memoryDescriptor,
+                                  (PVOID) &myBuffer,
                                   sizeof(myBuffer));</pre>
 </td>
 </tr>
@@ -263,9 +263,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;memoryHandle,
+                         &memoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;memoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&memoryDescriptor,
                                   memoryHandle,
                                   NULL);</pre>
 </td>
@@ -310,7 +310,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          writeSize,
-                         &amp;wdfMemory,
+                         &wdfMemory,
                          NULL
                          );
 if (!NT_SUCCESS(status)){
@@ -319,7 +319,7 @@ if (!NT_SUCCESS(status)){
 
 writeBuffer = WdfMemoryGetBuffer(
                                  wdfMemory,
-                                 &amp;bufferSize
+                                 &bufferSize
                                  );
 
 FillMyBuffer(
@@ -328,7 +328,7 @@ FillMyBuffer(
              );
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
-                                  &amp;writeBufDesc,
+                                  &writeBufDesc,
                                   writeBuffer,
                                   writeSize
                                   );
@@ -337,8 +337,8 @@ status = WdfUsbTargetPipeWriteSynchronously(
                                             pipeHandle,
                                             NULL,
                                             NULL,
-                                            &amp;writeBufDesc,
-                                            &amp;bytesWritten
+                                            &writeBufDesc,
+                                            &bytesWritten
                                             );</pre>
 </td>
 </tr>

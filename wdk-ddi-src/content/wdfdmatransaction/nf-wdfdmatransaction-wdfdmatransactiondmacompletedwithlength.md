@@ -127,7 +127,7 @@ hasTransitioned =
     WdfDmaTransactionDmaCompletedWithLength(
                                             dmaTransaction,
                                             length,
-                                            &amp;status
+                                            &status
                                             ); 
 if (hasTransitioned) {
     //

@@ -165,7 +165,7 @@ Driver routines that run in a process context other than that of the system proc
 <td>
 <pre>OBJECT_ATTRIBUTES ObjectAttributes;
 
-InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
+InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
 </td>
 </tr>
 </table></span></div>

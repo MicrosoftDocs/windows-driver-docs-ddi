@@ -214,7 +214,7 @@ status = WdfUsbTargetDeviceQueryString(
                                        NULL,
                                        NULL,
                                        NULL,
-                                       &amp;numCharacters,
+                                       &numCharacters,
                                        myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );
@@ -224,8 +224,8 @@ ntStatus = WdfMemoryCreate(
                            NonPagedPool,
                            POOL_TAG,
                            numCharacters * sizeof(WCHAR),
-                           &amp;memoryHandle,
-                           (PVOID)&amp;stringBuf
+                           &memoryHandle,
+                           (PVOID)&stringBuf
                            );
 if (!NT_SUCCESS(ntStatus)) {
     return ntStatus;
@@ -235,7 +235,7 @@ status = WdfUsbTargetDeviceQueryString(
                                        NULL,
                                        NULL,
                                        stringBuf,
-                                       &amp;numCharacters,
+                                       &numCharacters,
                                        myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );</pre>

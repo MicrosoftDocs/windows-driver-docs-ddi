@@ -144,9 +144,9 @@ CMyQueue::OnDefaultIoHandler(
     //
     // Obtain the device, default I/O target, and file object.
     //
-    pQueue-&gt;GetDevice(&amp;pDevice);
-    pDevice-&gt;GetDefaultIoTarget(&amp;pTarget);
-    pRequest-&gt;GetFileObject(&amp;pFile);
+    pQueue-&gt;GetDevice(&pDevice);
+    pDevice-&gt;GetDefaultIoTarget(&pTarget);
+    pRequest-&gt;GetFileObject(&pFile);
 
     if (WdfRequestQueryInformation==pRequest-&gt;GetType())
     {
@@ -165,13 +165,13 @@ CMyQueue::OnDefaultIoHandler(
         // 
         // Get the I/O request's input buffer.
         // 
-        hr = pWdfRequest2-&gt;RetrieveInputMemory(&amp;pInMemory);
+        hr = pWdfRequest2-&gt;RetrieveInputMemory(&pInMemory);
         if (!SUCCEEDED(hr)) goto Error;
 
         // 
         // Get the I/O request's parameters.
         // 
-        hr = pWdfRequest2-&gt;GetSetInformationParameters(&amp;infoClass,
+        hr = pWdfRequest2-&gt;GetSetInformationParameters(&infoClass,
                                                        NULL);
         if (!SUCCEEDED(hr)) goto Error;
 

@@ -257,11 +257,11 @@ NICSendOidRequestToTargetAsync(
     WDFMEMORY  inputMem, outputMem;
  
     WDF_REQUEST_REUSE_PARAMS_INIT(
-                                  &amp;params, 
+                                  &params, 
                                   WDF_REQUEST_REUSE_NO_FLAGS, 
                                   STATUS_SUCCESS
                                   );
-    status = WdfRequestReuse(Request, &amp;params);
+    status = WdfRequestReuse(Request, &params);
     if (!NT_SUCCESS(status)){
         return status;
     }

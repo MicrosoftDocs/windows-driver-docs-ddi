@@ -166,7 +166,7 @@ DriverCallbackFunction(
           CallbackContex-&gt;InputBuffer,
           sizeof(CallbackContex-&gt;OutputBuffer),
           CallbackContext-&gt;OutputBuffer,
-          &amp;DriverCallbackFunction,
+          &DriverCallbackFunction,
           CallbackContex);
 
 ```

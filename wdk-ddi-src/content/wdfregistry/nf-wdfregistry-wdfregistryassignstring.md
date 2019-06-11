@@ -157,23 +157,23 @@ UNICODE_STRING ustring1, valueName;
 NTSTATUS status;
 
 RtlInitUnicodeString(
-                     &amp;ustring1,
+                     &ustring1,
                      L"String1"
                      );
 RtlInitUnicodeString(
-                     &amp;valueName,
+                     &valueName,
                      L"ValueName"
                      );
 
 status = WdfStringCreate(
-                         &amp;ustring1,
+                         &ustring1,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string1
+                         &string1
                          );
 if (NT_SUCCESS(status)) {
     status = WdfRegistryAssignString(
                                      Key,
-                                     &amp;valueName,
+                                     &valueName,
                                      string1
                                      );
 }</pre>

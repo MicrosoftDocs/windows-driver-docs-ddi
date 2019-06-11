@@ -170,12 +170,12 @@ WDFREQUEST  request;
 WDFMEMORY  memHandle;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 
 status = WdfRequestCreate(
-                          &amp;attributes,
+                          &attributes,
                           WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
-                          &amp;request
+                          &request
                           );
 
 if (!NT_SUCCESS(status)){
@@ -186,7 +186,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          STR_DESC_STRING_SIZE,
-                         &amp;memHandle,
+                         &memHandle,
                          NULL
                          );
 if (!NT_SUCCESS(status)){

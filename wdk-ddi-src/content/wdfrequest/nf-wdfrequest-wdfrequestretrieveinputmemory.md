@@ -199,7 +199,7 @@ MyEvtIoWrite(
     //
     status = WdfRequestRetrieveInputMemory(
                                            Request,
-                                           &amp;reqMemory
+                                           &reqMemory
                                            );
     if(!NT_SUCCESS(status)){
         goto Exit;

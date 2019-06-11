@@ -118,9 +118,9 @@ For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26
 <pre>ULONG timeout = 240;
 fRet = DeviceIoControl( m_DeviceDataHandle,
         (DWORD)IOCTL_SCSISCAN_SET_TIMEOUT,
-        &amp;timeout,
+        &timeout,
         sizeof(ULONG),
-        NULL, NULL, &amp;dwBytesReturned, NULL);</pre>
+        NULL, NULL, &dwBytesReturned, NULL);</pre>
 </td>
 </tr>
 </table></span></div>

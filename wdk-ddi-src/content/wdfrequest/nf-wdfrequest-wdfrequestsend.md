@@ -167,7 +167,7 @@ OsrFxEvtIoWrite(
     // Get a handle to a memory object that represents
     // the input buffer.
     //
-    status = WdfRequestRetrieveInputMemory(Request, &amp;reqMemory);
+    status = WdfRequestRetrieveInputMemory(Request, &reqMemory);
     if (!NT_SUCCESS(status)){
         goto Exit;
     }

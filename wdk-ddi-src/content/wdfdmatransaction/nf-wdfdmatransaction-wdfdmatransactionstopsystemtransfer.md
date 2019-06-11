@@ -166,7 +166,7 @@ AttemptRequestCompletion(
         // Unmark the request cancelable.  If that succeeds then drop the cancel reference
         //
         if (WdfRequestUnmarkCancelable(RequestContext-&gt;Request) == STATUS_SUCCESS) {
-            refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+            refCount = InterlockedDecrement(&(RequestContext-&gt;CompletionRefCount));
             NT_ASSERTMSGW(L"Reference count should not have gone to zero yet",
                           refCount != 0);
         }
@@ -180,7 +180,7 @@ AttemptRequestCompletion(
                 // The timer was queued but won't ever run.  Drop its 
                 // reference count.
                 //
-                refCount = InterlockedDecrement(&amp;RequestContext-&gt;CompletionRefCount);
+                refCount = InterlockedDecrement(&RequestContext-&gt;CompletionRefCount);
                 NT_ASSERTMSG("Completion reference count should not reach zero until "
                              L"this routine calls AttemptRequestCompletion",
                              refCount &gt; 0);
@@ -192,7 +192,7 @@ AttemptRequestCompletion(
     // Drop this caller's reference.  If that was the last one then 
     // complete the request.
     //
-    refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+    refCount = InterlockedDecrement(&(RequestContext-&gt;CompletionRefCount));
 
     if (refCount == 0) {
         NT_ASSERTMSGW(L"Execution reference was released, but execution "
@@ -253,7 +253,7 @@ MyRequestCancel(
             // The transaction was stopped before EvtProgramDma could be 
             // called.  Drop the I/O reference.
             // 
-            oldValue = InterlockedDecrement(&amp;requestContext-&gt;CompletionRefCount);
+            oldValue = InterlockedDecrement(&requestContext-&gt;CompletionRefCount);
             NT_ASSERTMSG("Completion reference count should not reach zero until "
                          L"this routine calls AttemptRequestCompletion",
                          oldValue &gt; 0);

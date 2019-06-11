@@ -167,7 +167,7 @@ PHYSICAL_ADDRESS pa;
  
 pa.QuadPart = 0;  
   
-WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT(&amp;systemDmaConfig,   
+WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT(&systemDmaConfig,   
                                    pa,  
                                    Width8Bits,  
                                    partial);  
@@ -175,7 +175,7 @@ WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT(&amp;systemDmaConfig,
 systemDmaConfig.DemandMode = true;  
  
 ntStatus = WdfDmaEnablerConfigureSystemProfile(fdoExtension-&gt;DmaEnabler,   
-                                               &amp;systemDmaConfig,   
+                                               &systemDmaConfig,   
                                                WdfDmaDirectionReadFromDevice);  
 </pre>
 </td>

@@ -161,7 +161,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_USB_CONTROL_SETUP_PACKET  packet;
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT(
-                                  &amp;packet,
+                                  &packet,
                                   BMREQUEST_HOST_TO_DEVICE,
                                   BMREQUEST_TO_DEVICE,
                                   0,
