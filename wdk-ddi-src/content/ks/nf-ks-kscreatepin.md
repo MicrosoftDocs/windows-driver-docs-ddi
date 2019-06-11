@@ -91,7 +91,7 @@ The <b>KsCreatePin</b> function returns <b>STATUS_SUCCESS</b> if the connection 
 
 The routine sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request to the driver. The driver accepts the request only if the interface, medium, and data format are compatible.
 
-If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> creates a pin the caller can use to send requests to the streaming driver specified in <i>Connect</i>-&gt;<b>FilterHandle</b>. <i>Connect</i>-&gt;<b>PinId</b> determines the pin type of the pin to be created.
+If <i>Connect</i>-><b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> creates a pin the caller can use to send requests to the streaming driver specified in <i>Connect</i>-><b>FilterHandle</b>. <i>Connect</i>-><b>PinId</b> determines the pin type of the pin to be created.
 
 
 

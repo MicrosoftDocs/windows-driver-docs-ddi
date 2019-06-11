@@ -1,7 +1,7 @@
 ---
 UID: NF:minitape.TapeClassAllocateSrbBuffer
 title: TapeClassAllocateSrbBuffer function (minitape.h)
-description: The TapeClassAllocateSrbBuffer routine allocates an Srb-&gt;DataBuffer.
+description: The TapeClassAllocateSrbBuffer routine allocates an Srb->DataBuffer.
 old-location: storage\tapeclassallocatesrbbuffer.htm
 tech.root: storage
 ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>TapeClassAllocateSrbBuffer</b> routine allocates an <b>Srb-&gt;DataBuffer</b>.
+The <b>TapeClassAllocateSrbBuffer</b> routine allocates an <b>Srb->DataBuffer</b>.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Specifies the size, in bytes, of the <b>DataBuffer</b> to be allocated.
 
 
 
-<b>TapeClassAllocateSrbBuffer </b>allocates an <b>Srb-&gt;DataBuffer</b> from nonpaged memory and initializes the members to zero. If the buffer already exists from an earlier call, it is freed and a new buffer allocated. A tape miniclass driver calls this routine to allocate a <b>DataBuffer</b> in a portable way.
+<b>TapeClassAllocateSrbBuffer </b>allocates an <b>Srb->DataBuffer</b> from nonpaged memory and initializes the members to zero. If the buffer already exists from an earlier call, it is freed and a new buffer allocated. A tape miniclass driver calls this routine to allocate a <b>DataBuffer</b> in a portable way.
 
 
 

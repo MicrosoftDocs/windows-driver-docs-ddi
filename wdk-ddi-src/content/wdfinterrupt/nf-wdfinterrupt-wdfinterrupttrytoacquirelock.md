@@ -118,9 +118,9 @@ VOID EvtIoRead(
     //
     // Check if we can acquire the lock.
     //
-    if (WdfInterruptTryToAcquireLock(devCtx-&gt;InterruptObject) {
+    if (WdfInterruptTryToAcquireLock(devCtx->InterruptObject) {
         ReadFunctionLocked(Request);
-        WdfInterruptReleaseLock(devCtx-&gt;InterruptObject);
+        WdfInterruptReleaseLock(devCtx->InterruptObject);
         //
         // Do any post-releasing interrupt lock work here.
         // For example: complete the request, and so on.
@@ -131,7 +131,7 @@ VOID EvtIoRead(
         WORK_ITEM_CONTEXT ctx;
 
         ctx = GetWorkItemContext(ReadWorkItem);
-        ctx-&gt;Request = Request;
+        ctx->Request = Request;
 
         // If previous queue is non-sequential, call WdfRequestForwardToIoQueue 
         // to store request in an additional manual queue.
@@ -158,15 +158,15 @@ EvtReadWorkItemCallback(
     //
     // Acquire interrupt lock.
     //
-    WdfInterruptAcquireLock(devCtx-&gt;InterruptObject);
-    ReadFunctionLocked(wiCtx-&gt;Request);
-    WdfInterruptReleaseLock(devCtx-&gt;InterruptObject);
+    WdfInterruptAcquireLock(devCtx->InterruptObject);
+    ReadFunctionLocked(wiCtx->Request);
+    WdfInterruptReleaseLock(devCtx->InterruptObject);
 
     //
     // Do any post-releasing interrupt lock work here.
     // For example: complete the request, and so on.
     //
-    ReadFunctionFinish(wiCtx-&gt;Request); 
+    ReadFunctionFinish(wiCtx->Request); 
 }</pre>
 </td>
 </tr>

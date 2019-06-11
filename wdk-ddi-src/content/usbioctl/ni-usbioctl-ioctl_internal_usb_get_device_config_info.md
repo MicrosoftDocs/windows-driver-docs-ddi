@@ -98,7 +98,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537
 
 ### -status-block
 
-The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
+The hub or port driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
 
 
 ## -remarks

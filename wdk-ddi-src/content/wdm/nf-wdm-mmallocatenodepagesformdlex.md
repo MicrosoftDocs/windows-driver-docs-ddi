@@ -152,7 +152,7 @@ By default, <b>MmAllocateNodePagesForMdlEx</b> fills the pages that it allocates
 <div> </div>
 The maximum amount of memory that <b>MmAllocateNodePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
-<b>MmAllocateNodePagesForMdlEx</b> runs at IRQL &lt;= APC_LEVEL. If necessary, your driver can call <b>MmAllocateNodePagesForMdlEx</b> at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
+<b>MmAllocateNodePagesForMdlEx</b> runs at IRQL <= APC_LEVEL. If necessary, your driver can call <b>MmAllocateNodePagesForMdlEx</b> at DISPATCH_LEVEL. However, you can improve driver performance by calling at APC_LEVEL or below.
 
 
 

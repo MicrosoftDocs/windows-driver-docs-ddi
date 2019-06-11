@@ -99,7 +99,7 @@ The size of this buffer is specified in the <b>Parameters.DeviceIoControl.Output
 
 ### -status-block
 
-The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
+The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -remarks
@@ -152,9 +152,9 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         IOCTL_GET_HCD_DRIVERKEY_NAME,
         NULL,
         0,
-        &amp;driverKeyName,
+        &driverKeyName,
         sizeof(driverKeyName),
-        &amp;nBytes,
+        &nBytes,
         NULL);
 
     if (!success) 
@@ -166,7 +166,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     //2. Get the length of the driver key name.
     nBytes = driverKeyName.ActualLength;
 
-    if (nBytes &lt;= sizeof(driverKeyName)) 
+    if (nBytes <= sizeof(driverKeyName)) 
     {
         printf("Incorrect length received by IOCTL_GET_HCD_DRIVERKEY_NAME.\n");
         goto GetHCDDriverKeyNameDone;
@@ -190,7 +190,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
         0,
         driverKeyNameW,
         nBytes,
-        &amp;nBytes,
+        &nBytes,
         NULL);
 
     if (!success) 
@@ -200,7 +200,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     }
 
     // print the driver key name. 
-    printf("Driver Key Name: %s.\n", driverKeyNameW-&gt;DriverKeyName);
+    printf("Driver Key Name: %s.\n", driverKeyNameW->DriverKeyName);
 
 
 GetHCDDriverKeyNameDone:

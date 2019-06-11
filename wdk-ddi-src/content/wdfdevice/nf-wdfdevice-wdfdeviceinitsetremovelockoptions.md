@@ -118,12 +118,12 @@ This code example initializes a <a href="https://msdn.microsoft.com/library/wind
 WDF_REMOVE_LOCK_OPTIONS RemoveLockOptions;
 
 WDF_REMOVE_LOCK_OPTIONS_INIT(
-                             &amp;RemoveLockOptions,
+                             &RemoveLockOptions,
                              WDF_REMOVE_LOCK_OPTION_ACQUIRE_FOR_IO
                              );
 WdfDeviceInitSetRemoveLockOptions(
                                   DeviceInit,
-                                  &amp;RemoveLockOptions
+                                  &RemoveLockOptions
                                   );</pre>
 </td>
 </tr>

@@ -83,7 +83,7 @@ For the given time in the
 An NDIS driver should always call 
     <b>NdisMSleep</b> in preference to the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a> function unless the
-    driver is running at IRQL &gt;= DISPATCH_LEVEL. 
+    driver is running at IRQL >= DISPATCH_LEVEL. 
     <b>NdisMSleep</b> can accept a larger delay interval than 
     <b>NdisStallExecution</b>, which should 
     <u>never</u> be called with an interval greater than 50 microseconds. Do not call <b>NdisMSleep</b> with a timeout of more than 30,000,000 microseconds (that is, 30 seconds or half a minute).

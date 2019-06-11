@@ -85,7 +85,7 @@ DPM notifications inform the PEP about various system, device, or componentÂ–
 
 The <i>AcceptDeviceNotification</i> routine does not have to accept every request from the  device driver—for example, it can ignore idle residency hints. However, the PEP must understand and accept most device power management notifications even if the PEP chooses not to act on them. The PEP must refuse to handle (by returning FALSE) every notification that it does not recognize.
 
-The <i>AcceptDeviceNotification</i> routine can be called at IRQL &lt;= DISPATCH_LEVEL. The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information, see the individual reference pages under <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">Device power management (DPM) notifications</a>.
+The <i>AcceptDeviceNotification</i> routine can be called at IRQL <= DISPATCH_LEVEL. The IRQL at which the PEP's <i>AcceptAcpiNotification</i> routine is called varies according to the type of notification that is being sent. The notification type is specified by the <i>Notification</i> parameter. For more information, see the individual reference pages under <a href="https://msdn.microsoft.com/library/windows/hardware/mt186631">Device power management (DPM) notifications</a>.
 
 
 

@@ -179,19 +179,19 @@ WDFTIMER  timerHandle;
 NTSTATUS  status;
 
 WDF_TIMER_CONFIG_INIT(
-                      &amp;timerConfig,
+                      &timerConfig,
                       MyEvtTimerFunc
                       );
 
 timerConfig.AutomaticSerialization = TRUE;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;timerAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&timerAttributes);
 timerAttributes.ParentObject = DeviceHandle;
 
 status = WdfTimerCreate(
-                        &amp;timerConfig,
-                        &amp;timerAttributes,
-                        &amp;timerHandle
+                        &timerConfig,
+                        &timerAttributes,
+                        &timerHandle
                         );
 
 if (!NT_SUCCESS(status)) {

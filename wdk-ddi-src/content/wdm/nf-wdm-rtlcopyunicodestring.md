@@ -86,7 +86,7 @@ The number of bytes copied from the source string is either the source string le
 
 The caller must properly initialize all members of the structure pointed to by <i>DestinationString</i> before calling <b>RtlCopyUnicodeString</b>. Failure to initialize the <b>Length</b> or the <b>MaximumLength</b> member before calling this routine can cause a buffer overrun.
 
-The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
+The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
 
 

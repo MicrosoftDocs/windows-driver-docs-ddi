@@ -168,30 +168,30 @@ ULONG urbSize;
 PURB urb;  
 WDFMEMORY memory;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);  
+WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);  
 objectAttribs.ParentObject = UsbDevice;
 
 status = WdfUsbTargetDeviceCreateIsochUrb(
-                                     pDevContext-&gt;WdfUsbTargetDevice,  
-                                     &amp;objectAttribs,  
+                                     pDevContext->WdfUsbTargetDevice,  
+                                     &objectAttribs,  
                                      0, 
                                      numPackets, 
-                                     &amp;memory,  
+                                     &memory,  
                                      NULL  
                                      ); 
  
-urb = WdfMemoryGetBuffer(urbMemory, &amp;urbSize); 
+urb = WdfMemoryGetBuffer(urbMemory, &urbSize); 
 urbSize = GET_ISO_URB_SIZE(numPackets);  
 
 usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(pipe);
-urb-&gt;UrbIsochronousTransfer.Hdr.Length = GET_ISO_URB_SIZE(numPackets);  
-urb-&gt;UrbIsochronousTransfer.Hdr.Function = URB_FUNCTION_ISOCH_TRANSFER;  
-urb-&gt;UrbIsochronousTransfer.PipeHandle = usbdPipeHandle; 
+urb->UrbIsochronousTransfer.Hdr.Length = GET_ISO_URB_SIZE(numPackets);  
+urb->UrbIsochronousTransfer.Hdr.Function = URB_FUNCTION_ISOCH_TRANSFER;  
+urb->UrbIsochronousTransfer.PipeHandle = usbdPipeHandle; 
 
-for (packetId = 0; packetId &lt; numberOfPackets; packetId++) {
+for (packetId = 0; packetId < numberOfPackets; packetId++) {
 
-     Urb-&gt; UrbIsochronousTransfer.IsoPacket[packetId].Offset = xxx;
-     Urb-&gt; UrbIsochronousTransfer.IsoPacket[packetId].YYY = yyy;
+     Urb-> UrbIsochronousTransfer.IsoPacket[packetId].Offset = xxx;
+     Urb-> UrbIsochronousTransfer.IsoPacket[packetId].YYY = yyy;
 }
 
 </pre>

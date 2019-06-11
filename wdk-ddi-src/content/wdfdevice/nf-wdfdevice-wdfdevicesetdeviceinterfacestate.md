@@ -109,7 +109,7 @@ The following code example disables a driver's COM port interface.
 <td>
 <pre>WdfDeviceSetDeviceInterfaceState (
                                   Device,
-                                  (LPGUID) &amp;GUID_DEVINTERFACE_COMPORT,
+                                  (LPGUID) &GUID_DEVINTERFACE_COMPORT,
                                   NULL,
                                   FALSE
                                   );</pre>

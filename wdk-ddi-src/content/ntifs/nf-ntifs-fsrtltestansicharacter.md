@@ -61,7 +61,7 @@ The<b> FsRtlTestAnsiCharacter</b> macro determines whether an ANSI or double-byt
 
 ### -param DEFAULT_RET
 
-<p>Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.</p>
+<p>Default value to be returned if the value of <i>(SCHAR *)Character</i> is < 0.</p>
 
 
 ### -param WILD_OK

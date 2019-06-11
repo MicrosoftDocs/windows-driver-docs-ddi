@@ -112,11 +112,11 @@ This <i>error</i> status means that the function received an invalid input param
 If STRSAFE_IGNORE_NULLS is not set in dwFlags, <b>RtlUnicodeStringValidateEx</b> returns the STATUS_INVALID_PARAMETER value when one of the following occurs:
 
 <ul>
-<li><i>SourceString</i>-&gt;<b>Length</b> % sizeof(WCHAR) does not equal zero.</li>
-<li><i>SourceString</i>-&gt;<b>MaximumLength</b> % sizeof(WCHAR) does not equal zero.</li>
-<li><i>SourceString</i>-&gt;<b>Length</b> is greater than <i>SourceString</i>-&gt;<b>MaximumLength</b>.</li>
-<li><i>SourceString</i>-&gt;<b>MaximumLength</b> is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
-<li><i>SourceString</i>-&gt;<b>Buffer</b> equals <b>NULL</b> but <i>SourceString</i>-&gt;Length or <i>SourceString</i>-&gt;<b>MaximumLength</b> does not equal zero.</li>
+<li><i>SourceString</i>-><b>Length</b> % sizeof(WCHAR) does not equal zero.</li>
+<li><i>SourceString</i>-><b>MaximumLength</b> % sizeof(WCHAR) does not equal zero.</li>
+<li><i>SourceString</i>-><b>Length</b> is greater than <i>SourceString</i>-><b>MaximumLength</b>.</li>
+<li><i>SourceString</i>-><b>MaximumLength</b> is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
+<li><i>SourceString</i>-><b>Buffer</b> equals <b>NULL</b> but <i>SourceString</i>->Length or <i>SourceString</i>-><b>MaximumLength</b> does not equal zero.</li>
 <li>An invalid flag is specified for <i>dwFlags</i>.</li>
 </ul>
 For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.

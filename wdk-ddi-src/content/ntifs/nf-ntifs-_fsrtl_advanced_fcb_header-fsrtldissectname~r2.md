@@ -218,7 +218,7 @@ Do not allocate storage for the Buffer members of CurrentComponent
 and RemainingComponent in that they will point into the previoulsy
 allocated storage of FullPathName's Buffer member:
 */
-FsRtlDissectName (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
+FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 .
 .
 .</pre>

@@ -102,29 +102,29 @@ CMyDriver::OnDeviceAdd(
     __in IWDFDeviceInitialize  *FxDeviceInit
     )
 {
-    CComPtr&lt;IWDFDevice&gt; fxDevice;
+    CComPtr<IWDFDevice> fxDevice;
     HRESULT hr;
 
     //
     // Create a device object and obtain the IWDFDevice interface.
     //
-    hr = FxDriver-&gt;CreateDevice(FxDeviceInit,
+    hr = FxDriver->CreateDevice(FxDeviceInit,
                                 MyDeviceIUnknown,
-                                &amp;fxDevice);
+                                &fxDevice);
     if (FAILED(hr)) goto Error;
 
     //
     // Obtain the IWDFDevice2 interface from IWDFDevice.
     //
-    CComPtr&lt;IWDFDevice2&gt; fxDevice2;
+    CComPtr<IWDFDevice2> fxDevice2;
     if (FAILED(hr)) goto Error;
-    hr = fxDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;fxDevice2));
+    hr = fxDevice->QueryInterface(IID_PPV_ARGS(&fxDevice2));
     if (S_OK != hr) goto Error;
     //
     // Register for notification when a device interface
     // arrives.
     //
-    hr = fxDevice2-&gt;RegisterRemoteInterfaceNotification(&amp;GUID_DEVINTERFACE_TOASTER,
+    hr = fxDevice2->RegisterRemoteInterfaceNotification(&GUID_DEVINTERFACE_TOASTER,
                                                         true);
 ...
 }</pre>

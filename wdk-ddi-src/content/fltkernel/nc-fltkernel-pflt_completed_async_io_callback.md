@@ -79,7 +79,7 @@ None
 
 When a minifilter driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543420">FltPerformAsynchronousIo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a> to initiate an asynchronous I/O operation, the minifilter driver can optionally specify a callback routine to be called when the I/O operation is completed. This is done by specifying a routine of type PFLT_COMPLETED_ASYNC_IO_CALLBACK for the <i>CallbackRoutine</i> parameter.
 
-When the I/O operation is completed, this callback routine is called in an arbitrary thread context, at IRQL &lt;= DISPATCH_LEVEL.
+When the I/O operation is completed, this callback routine is called in an arbitrary thread context, at IRQL <= DISPATCH_LEVEL.
 
 Because the PFLT_COMPLETED_ASYNC_IO_CALLBACK routine can be called at IRQL DISPATCH_LEVEL, it is subject to the following constraints:
 

@@ -90,7 +90,7 @@ Specifies the bandwidth handle to release.
 
 
 
-If successful, the bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS, and the isochronous bandwidth is returned to the pool of available bandwidth.
+If successful, the bus driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS, and the isochronous bandwidth is returned to the pool of available bandwidth.
 
 A status of STATUS_INVALID_GENERATION also indicates success. 
 

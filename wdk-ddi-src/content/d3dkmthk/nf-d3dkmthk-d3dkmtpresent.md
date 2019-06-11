@@ -141,7 +141,7 @@ HRESULT Present(D3DKMT_HANDLE hDevice,
     PresentData.SubRectCnt = 1;  
     PresentData.pSrcSubRects = pSrcRect; 
 
-    if (NT_SUCCESS((*pfnKTPresent)(&amp;PresentData))) {
+    if (NT_SUCCESS((*pfnKTPresent)(&PresentData))) {
         return S_OK;
     }
     return E_FAIL;

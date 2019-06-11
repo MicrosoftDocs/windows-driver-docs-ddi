@@ -167,7 +167,7 @@ The following code example obtains, from a specified I/O queue, a handle to the 
 status = WdfIoQueueRetrieveRequestByFileObject(
                                                queue,
                                                fileObject,
-                                               &amp;request
+                                               &request
                                                );</pre>
 </td>
 </tr>

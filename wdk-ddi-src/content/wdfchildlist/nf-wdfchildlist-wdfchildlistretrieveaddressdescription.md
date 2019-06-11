@@ -150,19 +150,19 @@ The following code example searches a child list for a child device whose identi
 MY_ADDRESS_DESCRIPTION  addrDescrip;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
-                                                 &amp;id.Header,
+                                                 &id.Header,
                                                  sizeof(id)
                                                  );
 WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT(
-                                          &amp;addrDescrip.Header,
+                                          &addrDescrip.Header,
                                           sizeof(addrDescrip)
                                           );
 
 id.DeviceIdentifier = SomeValue;
 status = WdfChildListRetrieveAddressDescription(
                                                 list,
-                                                &amp;idDescrip.Header,
-                                                &amp;addrDescrip.Header
+                                                &idDescrip.Header,
+                                                &addrDescrip.Header
                                                 );
 if (!NT_SUCCESS(status) {
     return status;

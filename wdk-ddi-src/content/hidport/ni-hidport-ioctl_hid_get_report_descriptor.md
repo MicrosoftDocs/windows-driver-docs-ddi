@@ -58,7 +58,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the length, in bytes, of the locked-down buffer at <b>Irp-&gt;UserBuffer</b>.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the length, in bytes, of the locked-down buffer at <b>Irp->UserBuffer</b>.
 
 
 ### -input-buffer-length
@@ -68,7 +68,7 @@ The size of <b>OutputBufferLength</b>.
 
 ### -output-buffer
 
-The HID minidriver fills the buffer at <b>Irp-&gt;UserBuffer</b> with the report descriptor.
+The HID minidriver fills the buffer at <b>Irp->UserBuffer</b> with the report descriptor.
 
 
 ### -output-buffer-length
@@ -96,7 +96,7 @@ The size of the report descriptor.
 
 ### -status-block
 
-HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

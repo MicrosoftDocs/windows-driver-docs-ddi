@@ -85,7 +85,7 @@ The
     <b>DataOffset</b> member of the NET_BUFFER structure.
 
 Callers of 
-    <b>NdisAdjustNetBufferCurrentMdl</b> can run at any IRQL, but typically run at IRQL &lt;=
+    <b>NdisAdjustNetBufferCurrentMdl</b> can run at any IRQL, but typically run at IRQL <=
     DISPATCH_LEVEL.
 
 

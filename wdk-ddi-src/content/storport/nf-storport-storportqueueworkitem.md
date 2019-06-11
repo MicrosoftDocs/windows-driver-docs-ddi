@@ -92,7 +92,7 @@ The <b>StorPortQueueWorkItem</b> routine returns one of these status codes:
 </dl>
 </td>
 <td width="60%">
-Current IRQL &gt; DISPATCH_LEVEL.
+Current IRQL > DISPATCH_LEVEL.
 
 </td>
 </tr>

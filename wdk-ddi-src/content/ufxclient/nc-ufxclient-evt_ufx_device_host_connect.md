@@ -120,17 +120,17 @@ Arguments:
     TraceEntry();
 
     DeviceContext = UfxDeviceGetContext(UfxDevice);
-    ControllerContext = DeviceGetControllerContext(DeviceContext-&gt;FdoWdfDevice);
+    ControllerContext = DeviceGetControllerContext(DeviceContext->FdoWdfDevice);
 
     EventComplete = TRUE;
 
-    WdfSpinLockAcquire(ControllerContext-&gt;DpcLock);
+    WdfSpinLockAcquire(ControllerContext->DpcLock);
 
     //
     // #### TODO: Insert code to set the run state on the controller ####
     //
 
-    WdfSpinLockRelease(ControllerContext-&gt;DpcLock);
+    WdfSpinLockRelease(ControllerContext->DpcLock);
 
     if (EventComplete) {
         UfxDeviceEventComplete(UfxDevice, STATUS_SUCCESS);

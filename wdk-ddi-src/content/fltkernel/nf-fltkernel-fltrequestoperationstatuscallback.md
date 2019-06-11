@@ -147,9 +147,9 @@ The following example code from a preoperation callback routine illustrates how 
 PFLT_GET_OPERATION_STATUS_CALLBACK CallbackRoutine;
 PVOID RequesterContext;
 ...
-if (iopb-&gt;MajorFunction == IRP_MJ_READ) {
+if (iopb->MajorFunction == IRP_MJ_READ) {
     FltRequestOperationStatusCallback (Data, CallbackRoutine, RequesterContext);
- Data-&gt;Iopb-&gt;Parameters.Read.ReadBuffer = newBuffer;
+ Data->Iopb->Parameters.Read.ReadBuffer = newBuffer;
     ...
 }</pre>
 </td>
@@ -157,7 +157,7 @@ if (iopb-&gt;MajorFunction == IRP_MJ_READ) {
 </table></span></div>
 In the example, the read buffer is changed after the call to <b>FltRequestOperationStatusCallback</b>, so when the Filter Manager calls <i>CallbackRoutine</i>, it will pass in a pointer to the old buffer instead of the new one. 
 
-The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL &lt;= APC_LEVEL. 
+The Filter Manager calls the given <i>CallbackRoutine</i> in the context of the originating thread at IRQL <= APC_LEVEL. 
 
 
 

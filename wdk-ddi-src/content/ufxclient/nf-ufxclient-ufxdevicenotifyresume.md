@@ -83,9 +83,9 @@ The client driver typically calls <b>UfxDeviceNotifyResume</b> from its <a href=
 <tr>
 <td>
 <pre>    case DeviceEventWakeUp:
-        if (ControllerContext-&gt;Suspended) {
-            ControllerContext-&gt;Suspended = FALSE;
-            UfxDeviceNotifyResume(ControllerContext-&gt;UfxDevice);
+        if (ControllerContext->Suspended) {
+            ControllerContext->Suspended = FALSE;
+            UfxDeviceNotifyResume(ControllerContext->UfxDevice);
         }
         break;
 </pre>

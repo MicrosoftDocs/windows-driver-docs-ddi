@@ -76,7 +76,7 @@ The function writes data from a minidriver-allocated temporary page buffer to th
 
 This function is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549473">wiasWriteBufToFile</a>, which can be used to write a buffer of image data to any type of image file. If a WIA minidriver intends to write a page of image data to a multipage TIFF file, including all appropriate tags, image file directory (IFD) entries, and other nonimage data, it should call this function, rather than <b>wiasWriteBufToFile</b>.
 
-The expression <i>pmdtc</i>-&gt;<i>hFile</i> contains the handle to the file in TYMED_FILE (and TYMED_MULTIPAGE_FILE) transfers. This can be used to directly access the file that is being written to.
+The expression <i>pmdtc</i>-><i>hFile</i> contains the handle to the file in TYMED_FILE (and TYMED_MULTIPAGE_FILE) transfers. This can be used to directly access the file that is being written to.
 
 An example of how to use it is:
 
@@ -86,11 +86,11 @@ An example of how to use it is:
 </tr>
 <tr>
 <td>
-<pre>SetFilePointer((HANDLE)(LONG_PTR)pmdtc-&gt;hFile,0,NULL,FILE_BEGIN);
-if (!WriteFile((HANDLE)(LONG_PTR)pmdtc-&gt;hFile,
+<pre>SetFilePointer((HANDLE)(LONG_PTR)pmdtc->hFile,0,NULL,FILE_BEGIN);
+if (!WriteFile((HANDLE)(LONG_PTR)pmdtc->hFile,
     pMyBuffer,
     dwNumBytesToWrite,
-   &amp;dwNumBytesWritten,
+   &dwNumBytesWritten,
     NULL)) {
      //
      // Some error happened
@@ -110,10 +110,10 @@ However, if you are considering using just the file handle in your TYMED_FILE an
 </tr>
 <tr>
 <td>
-<pre>  bRet = WriteFile((HANDLE)ULongToPtr(pmdtc-&gt;hFile),
-    pmdtc-&gt;pTransferBuffer,
-    pmdtc-&gt;lItemSize,
-    &amp;ulWritten,
+<pre>  bRet = WriteFile((HANDLE)ULongToPtr(pmdtc->hFile),
+    pmdtc->pTransferBuffer,
+    pmdtc->lItemSize,
+    &ulWritten,
     NULL);</pre>
 </td>
 </tr>

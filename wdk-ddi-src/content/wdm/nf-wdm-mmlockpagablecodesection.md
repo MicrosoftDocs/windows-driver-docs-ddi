@@ -82,7 +82,7 @@ Make the same subset of driver routines available for paging out when they have 
 
 <ul>
 <li>
-The driver has code paths that might not be needed while the system is running, but, if they are needed, the driver's code must be resident because it runs in an arbitrary thread context or at IRQL &gt;= DISPATCH_LEVEL.
+The driver has code paths that might not be needed while the system is running, but, if they are needed, the driver's code must be resident because it runs in an arbitrary thread context or at IRQL >= DISPATCH_LEVEL.
 
 </li>
 <li>
@@ -122,7 +122,7 @@ Never make an ISR pageable. It is possible for a device driver to receive a spur
 
 </li>
 <li>
-Never make a DPC routine pageable if the driver cannot control when the DPC is queued, such as any <i>DpcForIsr</i> or <i>CustomDpc</i> routine that might be queued from an ISR. In general, driver routines that run at IRQL &gt;= DISPATCH_LEVEL and that can be called in an arbitrary thread context or in response to a random external event should not be made pageable.
+Never make a DPC routine pageable if the driver cannot control when the DPC is queued, such as any <i>DpcForIsr</i> or <i>CustomDpc</i> routine that might be queued from an ISR. In general, driver routines that run at IRQL >= DISPATCH_LEVEL and that can be called in an arbitrary thread context or in response to a random external event should not be made pageable.
 
 </li>
 <li>

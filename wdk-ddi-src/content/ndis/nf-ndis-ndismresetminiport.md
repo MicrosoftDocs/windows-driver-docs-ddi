@@ -77,7 +77,7 @@ A miniport driver calls <b>NdisMResetMiniport</b> when it determines that the de
 
 As a result, NDIS schedules a work item for calling the miniport driver's <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function asynchronously.
 
-<b>NdisMResetMiniport</b> must be called at IRQL &lt;= DISPATCH_LEVEL.
+<b>NdisMResetMiniport</b> must be called at IRQL <= DISPATCH_LEVEL.
 
 
 

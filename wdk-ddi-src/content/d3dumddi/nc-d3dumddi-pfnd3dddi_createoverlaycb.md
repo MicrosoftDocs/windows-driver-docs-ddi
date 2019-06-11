@@ -113,31 +113,31 @@ D3DKMT_HANDLE g_hOverlay = NULL;
 
 HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
     D3DDDICB_CREATEOVERLAY CreateCB;
-    DWORD_PTR dwResource = (DWORD_PTR) pCreateOverlay-&gt;OverlayInfo.hResource;
-    dwResource += pCreateOverlay-&gt;OverlayInfo.SubResourceIndex;
+    DWORD_PTR dwResource = (DWORD_PTR) pCreateOverlay->OverlayInfo.hResource;
+    dwResource += pCreateOverlay->OverlayInfo.SubResourceIndex;
     LONG dwTempPitch;
 
-    pCreateOverlay-&gt;hOverlay = (HANDLE) 0x27;
+    pCreateOverlay->hOverlay = (HANDLE) 0x27;
 
     CreateCB.VidPnSourceId = 0;
     CreateCB.OverlayInfo.hAllocation = R200GetAllocationHandle(m_pR200Ctx,
                                      (DWORD)dwResource,
-                                      &amp;dwTempPitch);
+                                      &dwTempPitch);
 
-    CreateCB.OverlayInfo.DstRect.left = pCreateOverlay-&gt;OverlayInfo.DstRect.left;
-    CreateCB.OverlayInfo.DstRect.right = pCreateOverlay-&gt;OverlayInfo.DstRect.right;
-    CreateCB.OverlayInfo.DstRect.top = pCreateOverlay-&gt;OverlayInfo.DstRect.top;
-    CreateCB.OverlayInfo.DstRect.bottom = pCreateOverlay-&gt;OverlayInfo.DstRect.bottom;
+    CreateCB.OverlayInfo.DstRect.left = pCreateOverlay->OverlayInfo.DstRect.left;
+    CreateCB.OverlayInfo.DstRect.right = pCreateOverlay->OverlayInfo.DstRect.right;
+    CreateCB.OverlayInfo.DstRect.top = pCreateOverlay->OverlayInfo.DstRect.top;
+    CreateCB.OverlayInfo.DstRect.bottom = pCreateOverlay->OverlayInfo.DstRect.bottom;
 
-    CreateCB.OverlayInfo.SrcRect.left = pCreateOverlay-&gt;OverlayInfo.SrcRect.left;
-    CreateCB.OverlayInfo.SrcRect.right = pCreateOverlay-&gt;OverlayInfo.SrcRect.right;
-    CreateCB.OverlayInfo.SrcRect.top = pCreateOverlay-&gt;OverlayInfo.SrcRect.top;
-    CreateCB.OverlayInfo.SrcRect.bottom = pCreateOverlay-&gt;OverlayInfo.SrcRect.bottom;
+    CreateCB.OverlayInfo.SrcRect.left = pCreateOverlay->OverlayInfo.SrcRect.left;
+    CreateCB.OverlayInfo.SrcRect.right = pCreateOverlay->OverlayInfo.SrcRect.right;
+    CreateCB.OverlayInfo.SrcRect.top = pCreateOverlay->OverlayInfo.SrcRect.top;
+    CreateCB.OverlayInfo.SrcRect.bottom = pCreateOverlay->OverlayInfo.SrcRect.bottom;
 
     CreateCB.OverlayInfo.pPrivateDriverData = "This is a test";
     CreateCB.OverlayInfo.PrivateDriverDataSize = 10;
 
-    HRESULT hr = m_d3dCallbacks.pfnCreateOverlayCb(m_hD3D, &amp;CreateCB);
+    HRESULT hr = m_d3dCallbacks.pfnCreateOverlayCb(m_hD3D, &CreateCB);
 
     if (SUCCEEDED(hr)) {
         g_hOverlay = CreateCB.hKernelOverlay;

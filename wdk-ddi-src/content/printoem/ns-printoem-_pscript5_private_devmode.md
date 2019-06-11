@@ -79,8 +79,8 @@ Printoem.h defines a macro that you can use to determine the size of the private
 <tr>
 <td>
 <pre>#define GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE(pdm)\
-( ( (pdm)-&gt;dmDriverExtra &gt; (FIELD_OFFSET(PSCRIPT5_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
-((PPSCRIPT5_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)-&gt; dmSize)) -&gt; wSize : 0 )</pre>
+( ( (pdm)->dmDriverExtra > (FIELD_OFFSET(PSCRIPT5_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
+((PPSCRIPT5_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)-> dmSize)) -> wSize : 0 )</pre>
 </td>
 </tr>
 </table></span></div>
@@ -94,7 +94,7 @@ Call the <b>GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE</b> macro, passing the address of 
 
 </li>
 <li>
-Verify that (pdm)-&gt;dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the <b>wSize</b> member of the PSCRIPT5_PRIVATE_DEVMODE structure.)
+Verify that (pdm)->dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the <b>wSize</b> member of the PSCRIPT5_PRIVATE_DEVMODE structure.)
 
 </li>
 <li>Determine the address of the private portion of your plug-in's DEVMODEW structure as follows.<div class="code"><span codelanguage=""><table>
@@ -103,11 +103,11 @@ Verify that (pdm)-&gt;dmDriverExtra is larger than the value returned by the mac
 </tr>
 <tr>
 <td>
-<pre>pdmPlugin = (PBYTE)(pdm) + (pdm)-&gt;dmSize + wSize;</pre>
+<pre>pdmPlugin = (PBYTE)(pdm) + (pdm)->dmSize + wSize;</pre>
 </td>
 </tr>
 </table></span></div>
-The preceding example starts with the address of the public DEVMODEW structure (<i>pdm</i>), adds the number of bytes of this structure (<i>pdm-</i>&gt;<b>dmSize</b>), and then adds the size in bytes of the Pscript5 private DEVMODEW structure (<b>wSize</b>). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the <i>n</i>-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first <i>n</i> - 1 plug-ins.
+The preceding example starts with the address of the public DEVMODEW structure (<i>pdm</i>), adds the number of bytes of this structure (<i>pdm-</i>><b>dmSize</b>), and then adds the size in bytes of the Pscript5 private DEVMODEW structure (<b>wSize</b>). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the <i>n</i>-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first <i>n</i> - 1 plug-ins.
 
 </li>
 <li>

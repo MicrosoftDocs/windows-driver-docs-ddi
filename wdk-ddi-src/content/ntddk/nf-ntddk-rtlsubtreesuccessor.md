@@ -76,7 +76,7 @@ If the node at <i>Links</i> has a right subtree, the leftmost node of that subtr
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the tree is nonpaged. If the tree is paged, callers must be running at IRQL &lt; DISPATCH_LEVEL. Usually callers are running at IRQL PASSIVE_LEVEL. 
+Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL <= DISPATCH_LEVEL if the tree is nonpaged. If the tree is paged, callers must be running at IRQL < DISPATCH_LEVEL. Usually callers are running at IRQL PASSIVE_LEVEL. 
 
 
 

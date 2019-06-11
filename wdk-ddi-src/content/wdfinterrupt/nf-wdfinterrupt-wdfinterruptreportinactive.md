@@ -107,7 +107,7 @@ MyComponentIdleStateCallback(
     PFDO_INTERRUPT_CONTEXT interruptContext;
 
     deviceData = FdoGetData((WDFDEVICE)Context);
-    interruptContext = InterruptGetData(deviceData-&gt;Interrupt);
+    interruptContext = InterruptGetData(deviceData->Interrupt);
 
     switch (State) {
         case 0:
@@ -123,16 +123,16 @@ MyComponentIdleStateCallback(
             //
             // Disable interrupt generation at hardware if needed.
             // 
-            WdfInterruptAcquireLock(deviceData-&gt;Interrupt);
+            WdfInterruptAcquireLock(deviceData->Interrupt);
             DisableInterruptInHardware();
-            WdfInterruptReleaseLock(deviceData-&gt;Interrupt);
+            WdfInterruptReleaseLock(deviceData->Interrupt);
 
             //
             // Report that interrupt is now inactive.
             //
-            WdfInterruptReportInactive(deviceData-&gt;Interrupt);
+            WdfInterruptReportInactive(deviceData->Interrupt);
 
-            interruptContext-&gt;ReportedInactive = TRUE;
+            interruptContext->ReportedInactive = TRUE;
 
         break;
 

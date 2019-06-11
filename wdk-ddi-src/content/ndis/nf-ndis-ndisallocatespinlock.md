@@ -96,7 +96,7 @@ As a general rule, to improve performance a driver should use different locks to
     <b>NdisAllocateSpinLock</b>.
 
 Each spin lock that a driver allocates protects a discrete set of shared resources from simultanous
-    access by driver functions that run at IRQL &lt;= DISPATCH_LEVEL. For example, a driver that maintains an
+    access by driver functions that run at IRQL <= DISPATCH_LEVEL. For example, a driver that maintains an
     internal queue of packets might initialize one spin lock to protect its queue and another to protect a
     set of state variables that several driver functions, not including the 
     <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> or 

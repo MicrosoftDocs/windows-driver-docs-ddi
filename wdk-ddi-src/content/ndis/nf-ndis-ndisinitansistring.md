@@ -77,7 +77,7 @@ The
     <i>SourceString</i> is <b>NULL</b>, the length is zero.
 
 Callers of 
-    <b>NdisInitAnsiString</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
+    <b>NdisInitAnsiString</b> must be running at IRQL <= DISPATCH_LEVEL if the 
     <i>DestinationString</i> buffer is allocated from nonpaged memory. Usually, callers are running at IRQL =
     PASSIVE_LEVEL during driver initialization.
 

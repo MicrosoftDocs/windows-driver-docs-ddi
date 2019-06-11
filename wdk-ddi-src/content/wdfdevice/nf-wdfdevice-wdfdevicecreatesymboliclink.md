@@ -126,7 +126,7 @@ NTSTATUS  status;
 
 status = WdfDeviceCreateSymbolicLink(
                                      controlDevice,
-                                     &amp;dosDeviceName
+                                     &dosDeviceName
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;
@@ -148,7 +148,7 @@ NTSTATUS  status;
 
 status = WdfDeviceCreateSymbolicLink(
                                      controlDevice,
-                                     &amp;dosDeviceName
+                                     &dosDeviceName
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;

@@ -132,7 +132,7 @@ The framework does not allow the driver to copy more bytes than the source buffe
 
 For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
-If the source or destination buffer was allocated from the pageable memory pool, the <b>WdfMemoryCopyToBuffer</b> method must be called at IRQL &lt;= APC_LEVEL. Otherwise, the method can be called at any IRQL.
+If the source or destination buffer was allocated from the pageable memory pool, the <b>WdfMemoryCopyToBuffer</b> method must be called at IRQL <= APC_LEVEL. Otherwise, the method can be called at any IRQL.
 
 
 #### Examples

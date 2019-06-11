@@ -79,7 +79,7 @@ None
 
 Highest-level drivers can call this routine, particularly file systems that have been passed a pointer to a location on the current thread's stack.
 
-In Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, callers of <b>IoGetStackLimits</b> can be running at any IRQL. For earlier operating systems, the caller must be running at IRQL &lt;= APC_LEVEL.
+In Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, callers of <b>IoGetStackLimits</b> can be running at any IRQL. For earlier operating systems, the caller must be running at IRQL <= APC_LEVEL.
 
 
 

@@ -94,7 +94,7 @@ Set to 0.
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -118,9 +118,9 @@ For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26
 <pre>ULONG timeout = 240;
 fRet = DeviceIoControl( m_DeviceDataHandle,
         (DWORD)IOCTL_SCSISCAN_SET_TIMEOUT,
-        &amp;timeout,
+        &timeout,
         sizeof(ULONG),
-        NULL, NULL, &amp;dwBytesReturned, NULL);</pre>
+        NULL, NULL, &dwBytesReturned, NULL);</pre>
 </td>
 </tr>
 </table></span></div>

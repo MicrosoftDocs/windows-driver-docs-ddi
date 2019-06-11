@@ -148,7 +148,7 @@ Example_EvtDeviceResourceRequirementsQuery(
     status = WdfIoResourceListCreate(
                                      RequirementsList,
                                      WDF_NO_OBJECT_ATTRIBUTES,
-                                     &amp;logConfig
+                                     &logConfig
                                      );
     if (!NT_SUCCESS(status)) {
         return status;

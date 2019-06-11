@@ -225,7 +225,7 @@ param.MultipassOffset = 0;
 do {
     // Call the driver's BuildPagingBuffer function to build a paging buffer.
     //
-    ntStatus = BuildPagingBuffer(hAdapter, &amp;param);
+    ntStatus = BuildPagingBuffer(hAdapter, &param);
     // BuildPagingBuffer updates the size that is left in the 
     //  paging buffer with the amount of bytes that were written.
     //
@@ -244,7 +244,7 @@ do {
  
         // Acquire a new paging buffer to complete the transfer.
         //
-        VidMmAcquirePagingBuffer(&amp;CurrentPagingBuffer, &amp;CurrentPagingBufferSizeLeft);
+        VidMmAcquirePagingBuffer(&CurrentPagingBuffer, &CurrentPagingBufferSizeLeft);
     }
     else {
         //

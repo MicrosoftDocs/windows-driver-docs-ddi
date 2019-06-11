@@ -132,7 +132,7 @@ DECLARE_CONST_UNICODE_STRING(hardwareId, KBFILTR_DEVICE_ID);
 
 status = WdfPdoInitAddHardwareID(
                                  pDeviceInit,
-                                 &amp;hardwareId
+                                 &hardwareId
                                  );</pre>
 </td>
 </tr>

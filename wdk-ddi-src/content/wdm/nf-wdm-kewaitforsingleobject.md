@@ -170,7 +170,7 @@ Time-out intervals are measured relative to the system clock, and the accuracy w
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-Callers of **KeWaitForSingleObject** must be running at IRQL &lt;= DISPATCH_LEVEL. However, if *Timeout* = **NULL** or **Timeout* != 0, the caller must be running at IRQL &lt;= APC_LEVEL and in a nonarbitrary thread context. (If *Timeout* != **NULL** and **Timeout* = 0, the caller must be running at IRQL &lt;= DISPATCH_LEVEL.)
+Callers of **KeWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = **NULL** or **Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If *Timeout* != **NULL** and **Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 **KeWaitForMutexObject** is a macro that converts to **KeWaitForSingleObject**, which can be used instead.
 

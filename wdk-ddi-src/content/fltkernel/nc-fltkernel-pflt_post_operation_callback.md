@@ -84,7 +84,7 @@ FLTFL_POST_OPERATION_DRAINING
 
 </td>
 <td>
-The filter manager sets this flag to indicate that the minifilter driver instance is being detached and that this post-operation callback routine is being called to clean up the minifilter driver's completion context. The post-operation callback should return FLT_POSTOP_FINISHED_PROCESSING. If this flag is set, the <i>Data</i> parameter points to a copy of the original callback data structure for the operation, not the original callback data structure. Additionally, when this flag is set, the post-operation callback routine is called at IRQL &lt;= APC_LEVEL.
+The filter manager sets this flag to indicate that the minifilter driver instance is being detached and that this post-operation callback routine is being called to clean up the minifilter driver's completion context. The post-operation callback should return FLT_POSTOP_FINISHED_PROCESSING. If this flag is set, the <i>Data</i> parameter points to a copy of the original callback data structure for the operation, not the original callback data structure. Additionally, when this flag is set, the post-operation callback routine is called at IRQL <= APC_LEVEL.
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ A minifilter driver's post-operation callback routine performs completion proces
 
 Post-operation callback routines are similar to the completion routines used by legacy file system filter drivers.
 
-Post-operation callback routines are called in an arbitrary thread context, at IRQL &lt;= DISPATCH_LEVEL.
+Post-operation callback routines are called in an arbitrary thread context, at IRQL <= DISPATCH_LEVEL.
 
 Because this callback routine can be called at IRQL DISPATCH_LEVEL, it is subject to the following constraints:
 
@@ -194,13 +194,13 @@ It cannot get, set, or delete contexts, but it can release contexts.
 
 </li>
 </ul>
-Any I/O completion processing that needs to be performed at IRQL &lt; DISPATCH_LEVEL cannot be performed directly in the postoperation callback routine. Instead, it must be posted to a work queue by calling a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff542047">FltDoCompletionProcessingWhenSafe</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543449">FltQueueDeferredIoWorkItem</a>.
+Any I/O completion processing that needs to be performed at IRQL < DISPATCH_LEVEL cannot be performed directly in the postoperation callback routine. Instead, it must be posted to a work queue by calling a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff542047">FltDoCompletionProcessingWhenSafe</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543449">FltQueueDeferredIoWorkItem</a>.
 
 Be aware that <b>FltDoCompletionProcessingWhenSafe</b> should never be called if the <i>Flags</i> parameter of the post-operation callback has the FLTFL_POST_OPERATION_DRAINING bit set.  The following are exceptions to this rule:
 
 <ul>
 <li>
-If a minifilter driver's pre-operation callback routine returns FLT_PREOP_SYNCHRONIZE for an IRP-based I/O operation, the corresponding post-operation callback routine is guaranteed to be called at IRQL &lt;= APC_LEVEL, in the same thread context as the pre-operation callback.
+If a minifilter driver's pre-operation callback routine returns FLT_PREOP_SYNCHRONIZE for an IRP-based I/O operation, the corresponding post-operation callback routine is guaranteed to be called at IRQL <= APC_LEVEL, in the same thread context as the pre-operation callback.
 
 </li>
 <li>

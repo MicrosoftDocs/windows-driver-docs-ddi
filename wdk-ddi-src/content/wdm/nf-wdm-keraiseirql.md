@@ -49,20 +49,28 @@ req.typenames:
 
 The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
+## -syntax
+
+```cpp
+VOID KeRaiseIrql(
+  _In_  KIRQL  NewIrql,
+  _Out_ PKIRQL OldIrql
+);
+```
 
 ## -parameters
 
 
 
 
-### -param NewIrql [in]
+### -param a [in]
 
-Specifies the new KIRQL value to which the hardware priority is to be raised.
+The **NewIrql** parameter specifies the new KIRQL value to which the hardware priority is to be raised.
 
 
-### -param OldIrql [out]
+### -param b [out]
 
-Pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
+The **OldIrql** parameter is a pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
 
 
 
@@ -74,7 +82,7 @@ If the new IRQL is less than the current IRQL, a bug check occurs. Otherwise, th
 
 Callers of this routine can be running at any IRQL. Any caller should restore the original IRQL with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a> as soon as possible.
 
-A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>CurrentIrql</i>. A call to <b>KeRaiseIrql</b> is valid if the caller specifies <i>NewIrql</i> &gt;= <i>CurrentIrql</i>.
+A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> <= <i>CurrentIrql</i>. A call to <b>KeRaiseIrql</b> is valid if the caller specifies <i>NewIrql</i> >= <i>CurrentIrql</i>.
 
 
 
@@ -88,7 +96,7 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>Cu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kelowerirql~r1">KeLowerIrql</a>
  
 
  

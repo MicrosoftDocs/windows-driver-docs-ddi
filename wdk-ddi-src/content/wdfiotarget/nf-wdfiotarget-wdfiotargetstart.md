@@ -134,7 +134,7 @@ MyEvtDeviceD0Entry(
 
     pDeviceContext = GetMyDeviceContext(Device);
 
-    status = WdfIoTargetStart(WdfUsbTargetPipeGetIoTarget(pDeviceContext-&gt;InterruptPipe));
+    status = WdfIoTargetStart(WdfUsbTargetPipeGetIoTarget(pDeviceContext->InterruptPipe));
 
     return status;
 }</pre>

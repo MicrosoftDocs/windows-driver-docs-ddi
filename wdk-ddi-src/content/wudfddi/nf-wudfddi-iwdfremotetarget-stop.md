@@ -89,7 +89,7 @@ The following code example stops a remote I/O target.
 </tr>
 <tr>
 <td>
-<pre>RemoteTarget-&gt;Stop();</pre>
+<pre>RemoteTarget->Stop();</pre>
 </td>
 </tr>
 </table></span></div>

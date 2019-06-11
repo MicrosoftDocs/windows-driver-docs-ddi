@@ -183,7 +183,7 @@ Controller_EvtControllerQueryUsbCapability(
     *ResultLength = 0;
 
     if (RtlCompareMemory(CapabilityType,
-                         &amp;GUID_USB_CAPABILITY_CHAINED_MDLS,
+                         &GUID_USB_CAPABILITY_CHAINED_MDLS,
                          sizeof(GUID)) == sizeof(GUID)) {
 
         //
@@ -193,7 +193,7 @@ Controller_EvtControllerQueryUsbCapability(
         status = STATUS_NOT_SUPPORTED;
     }
     else if (RtlCompareMemory(CapabilityType,
-                              &amp;GUID_USB_CAPABILITY_STATIC_STREAMS,
+                              &GUID_USB_CAPABILITY_STATIC_STREAMS,
                               sizeof(GUID)) == sizeof(GUID)) {
 
         //
@@ -203,7 +203,7 @@ Controller_EvtControllerQueryUsbCapability(
         status = STATUS_NOT_SUPPORTED;
     }
     else if (RtlCompareMemory(CapabilityType,
-                              &amp;GUID_USB_CAPABILITY_FUNCTION_SUSPEND,
+                              &GUID_USB_CAPABILITY_FUNCTION_SUSPEND,
                               sizeof(GUID)) == sizeof(GUID)) {
 
         //
@@ -213,14 +213,14 @@ Controller_EvtControllerQueryUsbCapability(
         status = STATUS_NOT_SUPPORTED;
     }
     else if (RtlCompareMemory(CapabilityType,
-                              &amp;GUID_USB_CAPABILITY_SELECTIVE_SUSPEND,
+                              &GUID_USB_CAPABILITY_SELECTIVE_SUSPEND,
                               sizeof(GUID)) == sizeof(GUID)) {
 
         DbgTrace(TL_INFO, Controller, "GUID_USB_CAPABILITY_SELECTIVE_SUSPEND supported");
         status = STATUS_SUCCESS;
     }
     else if (RtlCompareMemory(CapabilityType,
-                              &amp;GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL,
+                              &GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL,
                               sizeof(GUID)) == sizeof(GUID)) {
 
         //

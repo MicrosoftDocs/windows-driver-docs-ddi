@@ -108,8 +108,8 @@ UsbDevice_EvtUcxUsbDeviceHubInfo(
     // Retrieve the USBDEVICE_HUB_INFO pointer from the
     // IOCTL_INTERNAL_USB_USBDEVICE_HUB_INFO WdfRequest.
     //
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
     hubInfo = (PUSBDEVICE_HUB_INFO)wdfRequestParams.Parameters.Others.Arg1;
 

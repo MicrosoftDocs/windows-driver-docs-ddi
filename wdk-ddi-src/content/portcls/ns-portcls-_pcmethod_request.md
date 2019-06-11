@@ -89,7 +89,7 @@ PCMETHOD_ITEM_FLAG_BASICSUPPORT
 
 </td>
 <td>
-Returns basic support information about the method specified by <b>MethodItem</b>-&gt;<b>Id</b>.
+Returns basic support information about the method specified by <b>MethodItem</b>-><b>Id</b>.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ PCMETHOD_ITEM_FLAG_SEND
 
 </td>
 <td>
-Executes the method specified by <b>MethodItem</b>-&gt;<b>Id</b>. The client should conform to the basic-support information for the method.
+Executes the method specified by <b>MethodItem</b>-><b>Id</b>. The client should conform to the basic-support information for the method.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ PCMETHOD_ITEM_FLAG_SETSUPPORT
 
 </td>
 <td>
-Returns information about support for the method set specified by <b>MethodItem</b>-&gt;<b>Set</b>.
+Returns information about support for the method set specified by <b>MethodItem</b>-><b>Set</b>.
 
 </td>
 </tr>

@@ -62,11 +62,11 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to the siz
 
 The input buffer size, in bytes, must be large enough to hold the output report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
 
-The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> member points to the input buffer that contains an output report. If the collection includes report IDs, the requester must set the first byte of the buffer to a nonzero report ID. Otherwise, the requester must set the first byte to zero. The output report -- excluding its report ID, if report IDs are used -- is located at ((PUCHAR)<i>ReportBuffer</i> + 1).
+The <b>Irp->AssociatedIrp.SystemBuffer</b> member points to the input buffer that contains an output report. If the collection includes report IDs, the requester must set the first byte of the buffer to a nonzero report ID. Otherwise, the requester must set the first byte to zero. The output report -- excluding its report ID, if report IDs are used -- is located at ((PUCHAR)<i>ReportBuffer</i> + 1).
 
 <b>Minidriver handling</b>
 
-<b>Irp-&gt;UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
+<b>Irp->UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
 
 
 
@@ -125,7 +125,7 @@ None.
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>
@@ -140,7 +140,7 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 <b>Minidriver handling</b>
 
 
-       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

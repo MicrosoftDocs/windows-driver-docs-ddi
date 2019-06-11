@@ -360,7 +360,7 @@ The length of the structure.
 ### -output-buffer
 
 If the BRB returns output, 
-      <b>Parameters-&gt;Others.Argument1</b> points to the same BRB that was passed as input. Output is
+      <b>Parameters->Others.Argument1</b> points to the same BRB that was passed as input. Output is
       returned in the members of the associated BRB structure or in buffers that are specified in the BRB
       structure.
 
@@ -497,7 +497,7 @@ For more information about how profile drivers use BRBs to communicate with the 
     stack, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536657">Building and Sending a BRB</a>.
 
-These BRBs must be called at IRQL &lt;= PASSIVE_LEVEL.
+These BRBs must be called at IRQL <= PASSIVE_LEVEL.
 
 
 

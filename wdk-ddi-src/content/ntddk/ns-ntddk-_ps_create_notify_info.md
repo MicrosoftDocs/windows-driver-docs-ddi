@@ -86,12 +86,12 @@ Reserved for system use.
 
 ### -field ParentProcessId
 
-The process ID of the parent process for the new process. Note that the parent process is not necessarily the same process as the process that created the new process. The new process can inherit certain properties of the parent process, such as handles or shared memory. (The process ID of the process creator is given by <b>CreatingThreadId</b>-&gt;<b>UniqueProcess</b>.)
+The process ID of the parent process for the new process. Note that the parent process is not necessarily the same process as the process that created the new process. The new process can inherit certain properties of the parent process, such as handles or shared memory. (The process ID of the process creator is given by <b>CreatingThreadId</b>-><b>UniqueProcess</b>.)
 
 
 ### -field CreatingThreadId
 
-The process ID and thread ID of the process and thread that created the new process. <b>CreatingThreadId</b>-&gt;<b>UniqueProcess</b> contains the process ID, and <b>CreatingThreadId</b>-&gt;<b>UniqueThread</b> contains the thread ID.
+The process ID and thread ID of the process and thread that created the new process. <b>CreatingThreadId</b>-><b>UniqueProcess</b> contains the process ID, and <b>CreatingThreadId</b>-><b>UniqueThread</b> contains the thread ID.
 
 
 ### -field FileObject

@@ -61,7 +61,7 @@ For more information about IRPs and IOCTLs, see <a href="https://msdn.microsoft.
 
 ### -input-buffer
 
-On input, <b>Irp-&gt;Parameters-&gt;Others.Arguments1</b> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure. The <b>Function</b> member of the AVC_STREAM_REQUEST_BLOCK specifies the type of request. Do not set this member directly. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560750">INIT_AVCSTRM_HEADER</a> macro to initialize this member (as well as additional members of the AVC_STREAM_REQUEST_BLOCK structure). The <b>CommandData</b> member of the AVC_STREAM_REQUEST_BLOCK is a union that specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request (function code). The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a> enumeration provides a list of function codes supported by <i>avcstrm.sys</i>.
+On input, <b>Irp->Parameters->Others.Arguments1</b> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure. The <b>Function</b> member of the AVC_STREAM_REQUEST_BLOCK specifies the type of request. Do not set this member directly. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560750">INIT_AVCSTRM_HEADER</a> macro to initialize this member (as well as additional members of the AVC_STREAM_REQUEST_BLOCK structure). The <b>CommandData</b> member of the AVC_STREAM_REQUEST_BLOCK is a union that specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request (function code). The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a> enumeration provides a list of function codes supported by <i>avcstrm.sys</i>.
 
 
 ### -input-buffer-length
@@ -71,7 +71,7 @@ Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5541
 
 ### -output-buffer
 
-On output, <b>Irp-&gt;Parameters-&gt;Others.Arguments1</b> points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure passed as input. As part of completing the request, the bus driver fills in certain members of the <b>CommandData</b> union of the AVC_STREAM_REQUEST_BLOCK structure with information for the driver.
+On output, <b>Irp->Parameters->Others.Arguments1</b> points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure passed as input. As part of completing the request, the bus driver fills in certain members of the <b>CommandData</b> union of the AVC_STREAM_REQUEST_BLOCK structure with information for the driver.
 
 
 ### -output-buffer-length

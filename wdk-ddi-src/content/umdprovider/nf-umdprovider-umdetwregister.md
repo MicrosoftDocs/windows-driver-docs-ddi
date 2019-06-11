@@ -139,10 +139,10 @@ FORCEINLINE void UMDEtwRegister(PFNUMDETW_RUNDOWN RundownCb)
     Rundown = RundownCb;
 
     // Register the provider
-    EventRegister(&amp;UMDEtwProviderId,
+    EventRegister(&UMDEtwProviderId,
                   EnableCallback,
                   NULL,
-                  &amp;RegHandle);
+                  &RegHandle);
 }
 ```
 

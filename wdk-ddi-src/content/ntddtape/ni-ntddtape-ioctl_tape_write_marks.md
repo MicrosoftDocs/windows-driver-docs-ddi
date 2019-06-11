@@ -59,14 +59,14 @@ Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 
 ### -input-buffer
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567978">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567978">TAPE_WRITE_MARKS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the type and number of marks to write. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_WRITE_MARKS). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_WRITE_MARKS). 
 
 
 ### -output-buffer

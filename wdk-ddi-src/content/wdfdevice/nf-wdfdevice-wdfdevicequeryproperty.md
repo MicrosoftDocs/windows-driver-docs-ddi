@@ -167,8 +167,8 @@ status = WdfDeviceQueryProperty(
                                 device,
                                 DevicePropertyBusTypeGuid,
                                 sizeof(GUID),
-                                (PVOID)&amp;busTypeGuid,
-                                &amp;resultLength
+                                (PVOID)&busTypeGuid,
+                                &resultLength
                                 );</pre>
 </td>
 </tr>

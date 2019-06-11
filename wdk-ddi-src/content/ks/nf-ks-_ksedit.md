@@ -103,14 +103,14 @@ For example, consider a pin that needs to modify its allocator framing on creati
 </tr>
 <tr>
 <td>
-<pre>        KsEdit(Pin, &amp;Pin-&gt;Descriptor, Tag);
-        Pin-&gt;Descriptor-&gt;AllocatorFraming = NewAllocatorFraming;</pre>
+<pre>        KsEdit(Pin, &Pin->Descriptor, Tag);
+        Pin->Descriptor->AllocatorFraming = NewAllocatorFraming;</pre>
 </td>
 </tr>
 </table></span></div>
-The call to <b>KsEdit</b> guarantees that <i>Pin-&gt;Descriptor </i>is dynamic memory that is associated with <i>Pin</i>. Note that arbitrary modification of descriptors and other AVStream structures can cause undesirable results. Minidrivers should exercise caution when using <b>KsEdit</b> on AVStream structures.
+The call to <b>KsEdit</b> guarantees that <i>Pin->Descriptor </i>is dynamic memory that is associated with <i>Pin</i>. Note that arbitrary modification of descriptors and other AVStream structures can cause undesirable results. Minidrivers should exercise caution when using <b>KsEdit</b> on AVStream structures.
 
-<b>KsEditSized</b> calls <b>_KsEdit</b> with the same parameters it receives, except that <i>Object</i> is replaced by <i>Object-&gt;Bag</i> and the pointer is typecast to PVOID.
+<b>KsEditSized</b> calls <b>_KsEdit</b> with the same parameters it receives, except that <i>Object</i> is replaced by <i>Object->Bag</i> and the pointer is typecast to PVOID.
 
 Note that when calling <b>_KsEdit</b>, a caller must hold the mutex associated with the bag. For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
 

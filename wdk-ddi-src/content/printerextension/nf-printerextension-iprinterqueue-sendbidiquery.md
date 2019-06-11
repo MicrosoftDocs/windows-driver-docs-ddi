@@ -83,7 +83,7 @@ The cache is also updated in the following situations:
 
 <dl>
 <dd>For WSD devices the data is updated when the device reports changes via events.</dd>
-<dd>For TCP &amp; USB devices the refresh interval is based on where the Bidi value is defined.
+<dd>For TCP & USB devices the refresh interval is based on where the Bidi value is defined.
 All standard Bidi values (as defined by the port monitor’s embedded Bidi files) are refreshed at an interval that is preset by the port monitors. If the specific Bidi Query is part of the IHV Bidi Extension, then the refresh interval is specified in the XML extension file for each individual value.</dd>
 </dl>
 

@@ -230,19 +230,19 @@ SerialReadSymName(
                                       PLUGPLAY_REGKEY_DEVICE,
                                       STANDARD_RIGHTS_ALL,
                                       WDF_NO_OBJECT_ATTRIBUTES,
-                                      &amp;hKey
+                                      &hKey
                                       );
 
     if (NT_SUCCESS (status)) {
         RtlInitUnicodeString(
-                             &amp;valueName,
+                             &valueName,
                              L"PortName"
                              );
         status = WdfRegistryQueryUnicodeString (
                                       hKey,
-                                      &amp;valueName,
-                                      &amp;requiredLength,
-                                      &amp;value
+                                      &valueName,
+                                      &requiredLength,
+                                      &value
                                       );
         WdfRegistryClose(hKey);
     }

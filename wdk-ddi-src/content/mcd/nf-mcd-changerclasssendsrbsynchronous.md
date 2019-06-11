@@ -67,7 +67,7 @@ Pointer to a partially initialized SCSI request block (SRB) to be sent to the ta
 
 ### -param Buffer [in]
 
-Specifies address of the buffer that <i>Srb-&gt;</i><b>DataBuffer</b> should point to. <b>ChangerClassSendSrbSynchronous</b> creates an MDL for this buffer and passes it to the target device driver in the SRB IRP.
+Specifies address of the buffer that <i>Srb-></i><b>DataBuffer</b> should point to. <b>ChangerClassSendSrbSynchronous</b> creates an MDL for this buffer and passes it to the target device driver in the SRB IRP.
 
 
 ### -param BufferSize [in]

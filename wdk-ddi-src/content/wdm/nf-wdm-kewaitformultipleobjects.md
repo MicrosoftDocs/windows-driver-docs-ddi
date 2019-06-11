@@ -95,7 +95,7 @@ If *<i>Timeout</i> = 0, the routine returns without waiting. If the caller suppl
 
 ### -param WaitBlockArray [out, optional]
 
-A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> &lt;= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
+A pointer to a caller-allocated <b>KWAIT_BLOCK</b> array. If <i>Count</i> <= THREAD_WAIT_OBJECTS, then <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <b>sizeof</b>(<b>KWAIT_BLOCK</b>) * <i>Count</i> bytes. The routine uses this buffer for record-keeping while performing the wait operation. The <i>WaitBlockArray</i> buffer must reside in nonpaged system memory. For more information, see Remarks.
 
 
 ## -returns
@@ -165,7 +165,7 @@ Note that the NT_SUCCESS macro recognizes all of these status values as "success
 
 
 
-Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> &gt; MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> &gt; THREAD_WAIT_OBJECTS, the system issues <a href="https://msdn.microsoft.com/99d2eb8f-f331-45b8-a96b-68696802c269">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
+Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> > MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> > THREAD_WAIT_OBJECTS, the system issues <a href="https://msdn.microsoft.com/99d2eb8f-f331-45b8-a96b-68696802c269">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
 
 The current state for each of the specified objects is examined to determine whether the wait can be satisfied immediately. If the necessary side effects are performed on the objects, an appropriate value is returned.
 
@@ -193,7 +193,7 @@ Where possible, <i>Alertable</i> should be set to <b>FALSE</b> and <i>WaitMode</
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH_LEVEL. However, if <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> != 0, the caller must be running at IRQL &lt;= APC_LEVEL and in a nonarbitrary thread context. (If <i>Timeout</i> != <b>NULL</b> and *<i>Timeout</i> = 0, the caller must be running at IRQL &lt;= DISPATCH_LEVEL.)
+Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LEVEL. However, if <i>Timeout</i> = <b>NULL</b> or *<i>Timeout</i> != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If <i>Timeout</i> != <b>NULL</b> and *<i>Timeout</i> = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 
 

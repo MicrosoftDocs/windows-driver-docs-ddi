@@ -128,19 +128,19 @@ EvtWmiQueryPortName(
     status = SerialReadSymName(
                                device,
                                pRegName,
-                               &amp;nameSize
+                               &nameSize
                                );
     if (!NT_SUCCESS(status)) {
         return status;
     }
     RtlInitUnicodeString(
-                         &amp;string,
+                         &string,
                          pRegName
                          );
     return WDF_WMI_BUFFER_APPEND_STRING(
                                         OutBuffer,
                                         OutBufferSize,
-                                        &amp;string,
+                                        &string,
                                         BufferUsed
                                         );
 }</pre>

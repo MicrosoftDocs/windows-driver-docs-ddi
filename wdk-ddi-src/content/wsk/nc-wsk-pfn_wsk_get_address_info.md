@@ -158,7 +158,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
 
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
-     <i>Irp</i> -&gt;
+     <i>Irp</i> ->
      <b>Iostatus.Information</b> will hold the returned status code.
 
 

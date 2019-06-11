@@ -211,7 +211,7 @@ A NULL-terminated string that represents the network provider's name. This membe
      
 
 For GSM-based networks, if the Preferred Presentation of Country Initials and Mobile Network Name
-     (PPCI&amp;N) is longer than WWAN_PROVIDERNAME_LEN characters, the miniport driver should abbreviate the
+     (PPCI&N) is longer than WWAN_PROVIDERNAME_LEN characters, the miniport driver should abbreviate the
      network name.
 
 This member is ignored when the MB Service sets the preferred provider list.

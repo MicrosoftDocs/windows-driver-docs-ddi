@@ -130,12 +130,12 @@ The following code example initializes a <a href="https://docs.microsoft.com/win
 <pre>UNICODE_STRING containerId = {0}; 
 
 RtlInitUnicodeString(
-                     &amp;containerId,
+                     &containerId,
                      strContainerId //Unicode string for container ID
                      );
 status = WdfPdoInitAssignContainerID(
                                      pDeviceInit,
-                                     &amp;containerId
+                                     &containerId
                                      );</pre>
 </td>
 </tr>

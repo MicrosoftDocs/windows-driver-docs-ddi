@@ -150,11 +150,11 @@ A coded value that represents a percentage range of error rates. For GSM-based d
 </tr>
 <tr>
 <td>
-&lt; 0.2
+< 0.2
 
 </td>
 <td>
-&lt; 0.01
+< 0.01
 
 </td>
 <td>
@@ -248,11 +248,11 @@ A coded value that represents a percentage range of error rates. For GSM-based d
 </tr>
 <tr>
 <td>
-&gt; 12.8
+> 12.8
 
 </td>
 <td>
-&gt; 8.0
+> 8.0
 
 </td>
 <td>

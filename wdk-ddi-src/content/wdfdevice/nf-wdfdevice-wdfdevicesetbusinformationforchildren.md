@@ -103,7 +103,7 @@ busInfo.BusNumber = 0;
 
 WdfDeviceSetBusInformationForChildren(
                                       device,
-                                      &amp;busInfo
+                                      &busInfo
                                       );</pre>
 </td>
 </tr>

@@ -92,45 +92,45 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 // PIO Modes
 
-#define PIO_MODE0           (1 &lt;&lt; 0)
+#define PIO_MODE0           (1 << 0)
 
-#define PIO_MODE1           (1 &lt;&lt; 1)
+#define PIO_MODE1           (1 << 1)
 
-#define PIO_MODE2           (1 &lt;&lt; 2)
+#define PIO_MODE2           (1 << 2)
 
-#define PIO_MODE3           (1 &lt;&lt; 3)
+#define PIO_MODE3           (1 << 3)
 
-#define PIO_MODE4           (1 &lt;&lt; 4)
+#define PIO_MODE4           (1 << 4)
 
 // Single-word DMA Modes
 
-#define SWDMA_MODE0         (1 &lt;&lt; 5)
+#define SWDMA_MODE0         (1 << 5)
 
-#define SWDMA_MODE1         (1 &lt;&lt; 6)
+#define SWDMA_MODE1         (1 << 6)
 
-#define SWDMA_MODE2         (1 &lt;&lt; 7)
+#define SWDMA_MODE2         (1 << 7)
 
 // Multi-word DMA Modes
 
-#define MWDMA_MODE0         (1 &lt;&lt; 8)
+#define MWDMA_MODE0         (1 << 8)
 
-#define MWDMA_MODE1         (1 &lt;&lt; 9)
+#define MWDMA_MODE1         (1 << 9)
 
-#define MWDMA_MODE2         (1 &lt;&lt; 10)
+#define MWDMA_MODE2         (1 << 10)
 
 // Ultra DMA Modes
 
-#define UDMA_MODE0          (1 &lt;&lt; 11)
+#define UDMA_MODE0          (1 << 11)
 
-#define UDMA_MODE1          (1 &lt;&lt; 12)
+#define UDMA_MODE1          (1 << 12)
 
-#define UDMA_MODE2          (1 &lt;&lt; 13)
+#define UDMA_MODE2          (1 << 13)
 
-#define UDMA_MODE3          (1 &lt;&lt; 14)
+#define UDMA_MODE3          (1 << 14)
 
-#define UDMA_MODE4          (1 &lt;&lt; 15)
+#define UDMA_MODE4          (1 << 15)
 
-#define UDMA_MODE5          (1 &lt;&lt; 16)
+#define UDMA_MODE5          (1 << 16)
 
 
 

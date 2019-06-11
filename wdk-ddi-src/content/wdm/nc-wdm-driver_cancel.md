@@ -95,7 +95,7 @@ Only one <i>Cancel</i> routine can be registered for an IRP at one time.
 
 The I/O manager calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a> before calling a driver's <i>Cancel</i> routine, so the <i>Cancel</i> routine must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a> at some point. The routine should not hold the spin lock longer than necessary.
 
-The <i>Cancel</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL until it calls <b>IoReleaseCancelSpinLock</b>, which changes the IRQL to a caller-supplied value. The driver should specify <b>Irp-&gt;CancelIrql</b> for this value.
+The <i>Cancel</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL until it calls <b>IoReleaseCancelSpinLock</b>, which changes the IRQL to a caller-supplied value. The driver should specify <b>Irp->CancelIrql</b> for this value.
 
 The <i>Cancel</i> routine must set the I/O status block's <b>Status</b> member to STATUS_CANCELLED, and set its <b>Information</b> member to zero. The routine must then complete the specified IRP by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>.
 

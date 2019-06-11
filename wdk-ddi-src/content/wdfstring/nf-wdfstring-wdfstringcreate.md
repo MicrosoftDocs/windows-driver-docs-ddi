@@ -156,12 +156,12 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDFSTRING  stringHandle = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
-attributes.ParentObject = pDeviceContext-&gt;Device;
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+attributes.ParentObject = pDeviceContext->Device;
 status = WdfStringCreate(
                          NULL,
-                         &amp;attributes,
-                         &amp;stringHandle
+                         &attributes,
+                         &stringHandle
                          );
 if (!NT_SUCCESS(status)){
     return status;

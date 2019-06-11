@@ -90,7 +90,7 @@ The size of the <a href="https://msdn.microsoft.com/8db09aa8-240d-40b6-a28c-7715
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
@@ -118,14 +118,14 @@ In this example, the PF driver generates a unique identifier by calling <a href=
 
         status = WdfRequestRetrieveOutputBuffer(Request,
                                                 sizeof(LUID),
-                                                &amp;luid,
+                                                &luid,
                                                 NULL);
         if (!NT_SUCCESS(status))
         {
             break;
         }
 
-        RtlCopyMemory(luid, &amp;deviceContext-&gt;Luid, sizeof(LUID));
+        RtlCopyMemory(luid, &deviceContext->Luid, sizeof(LUID));
         WdfRequestSetInformation(Request, sizeof(LUID));
         status = STATUS_SUCCESS;
         break;

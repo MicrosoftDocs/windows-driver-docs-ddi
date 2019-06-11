@@ -70,7 +70,7 @@ A pointer to the variable, which is assigned the number of written bytes to the 
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
@@ -97,7 +97,7 @@ case IOCTL_SRIOV_NOTIFICATION:
             "IOCTL_SRIOV_NOTIFICATION:\n");
 
         status = WdfRequestForwardToIoQueue(Request,
-                                            fdoContext-&gt;NotificationQueue);
+                                            fdoContext->NotificationQueue);
         if (!NT_SUCCESS(status))
         {
             // not able to push it into manual queue, too bad.
@@ -148,18 +148,18 @@ Return Value:
 
     PAGED_CODE();
 
-    WdfWaitLockAcquire(DeviceContext-&gt;PnpStateLock, NULL);
+    WdfWaitLockAcquire(DeviceContext->PnpStateLock, NULL);
 
-    queue = DeviceContext-&gt;NotificationQueue;
-    if (DeviceContext-&gt;PnpEventNew
-        &amp;&amp; NT_SUCCESS(WdfIoQueueRetrieveNextRequest(queue, &amp;request)))
+    queue = DeviceContext->NotificationQueue;
+    if (DeviceContext->PnpEventNew
+        && NT_SUCCESS(WdfIoQueueRetrieveNextRequest(queue, &request)))
     {
-        NT_ASSERT(DeviceContext-&gt;PnpEventPending != FALSE);
-        DeviceContext-&gt;PnpEventNew = FALSE;
+        NT_ASSERT(DeviceContext->PnpEventPending != FALSE);
+        DeviceContext->PnpEventNew = FALSE;
 
         status = WdfRequestRetrieveOutputBuffer(request,
                                                 sizeof(*notification),
-                                                &amp;notification,
+                                                &notification,
                                                 NULL);
         if (!NT_SUCCESS(status))
         {
@@ -171,14 +171,14 @@ Return Value:
         {
             TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, "Retrieved IoQueue request buffer (notification)\n");
 
-            *notification = DeviceContext-&gt;PnpEventCode;
+            *notification = DeviceContext->PnpEventCode;
             WdfRequestCompleteWithInformation(request,
                                               STATUS_SUCCESS,
                                               sizeof(*notification));
         }
     }
 
-    WdfWaitLockRelease(DeviceContext-&gt;PnpStateLock);
+    WdfWaitLockRelease(DeviceContext->PnpStateLock);
 
     return;
 }

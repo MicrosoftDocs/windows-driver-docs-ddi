@@ -156,7 +156,7 @@ The miniport driver must validate the call parameters for this VC, as specified 
     parameters.
 
 If the ROUND_UP_FLOW or ROUND_DOWN_FLOW flags are set in the call parameters structure at 
-    <i>CallParameters-&gt;MediaParameters-&gt;Flags</i>, the miniport driver has been
+    <i>CallParameters->MediaParameters->Flags</i>, the miniport driver has been
     requested to return the actual flow rate of the VC after the flow rate has been rounded according to the
     appropriate flag that has been set. If the miniport driver does change any of the call parameters because
     these flags have been set, it must return the actual call parameters in use for the VC at 

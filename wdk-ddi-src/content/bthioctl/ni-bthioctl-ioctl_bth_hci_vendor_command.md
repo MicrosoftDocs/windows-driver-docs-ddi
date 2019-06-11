@@ -227,15 +227,15 @@ The BTH_VENDOR_PATTERN structure specifies such patterns that follow the vendor-
 LUID luid;
 TOKEN_PRIVILEGES tp;
 
-OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &amp;procToken);
+OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &procToken);
 
-LookupPrivilegeValue(NULL, SE_LOAD_DRIVER_NAME, &amp;luid);
+LookupPrivilegeValue(NULL, SE_LOAD_DRIVER_NAME, &luid);
 
 Tp.PrivilegeCount = 1;
 Tp.privileges[0].Luid = luid;
 Tp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;
 
-AdjustTokenPrivileges(procToken, FALSE, &amp;tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
+AdjustTokenPrivileges(procToken, FALSE, &tp, sizeof(TOKEN_PRIVILEGES), (PTOKEN_PRIVILEGES) NULL, (PDWORD)NULL);</pre>
 </td>
 </tr>
 </table></span></div>

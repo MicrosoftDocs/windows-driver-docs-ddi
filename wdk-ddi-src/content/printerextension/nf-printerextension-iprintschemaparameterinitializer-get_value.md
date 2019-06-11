@@ -49,7 +49,7 @@ req.typenames:
 
 The <b>Value</b> (get_Value) property gets the current value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object.
 
- In PrintTicket XML, that’s the value of the &lt;psf:Value&gt; child element for the &lt;psf:ParameterInit&gt; element.
+ In PrintTicket XML, that’s the value of the <psf:Value> child element for the <psf:ParameterInit> element.
 
 This property is read-only.
 

@@ -56,7 +56,7 @@ Reads the Advanced Access Content System (AACS)-specific media identifier data.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID).  
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID).  
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55374
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550110">AACS_MEDIA_ID</a> that specifies the media ID.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550110">AACS_MEDIA_ID</a> that specifies the media ID.
 
 
 ### -output-buffer-length

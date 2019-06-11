@@ -78,7 +78,7 @@ Data can be locked down if:
 
 <ul>
 <li>
-The data is typically accessed at &lt;= APC_LEVEL, but it might need to be accessed at higher IRQL levels for short periods. 
+The data is typically accessed at <= APC_LEVEL, but it might need to be accessed at higher IRQL levels for short periods. 
 
 </li>
 <li>

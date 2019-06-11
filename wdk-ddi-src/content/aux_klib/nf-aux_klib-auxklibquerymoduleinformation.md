@@ -126,7 +126,7 @@ ULONG  numberOfModules;
 // Get the required array size.
 //
 status = AuxKlibQueryModuleInformation(
-                                       &amp;modulesSize,
+                                       &modulesSize,
                                        sizeof(AUX_MODULE_EXTENDED_INFO),
                                        NULL
                                        );
@@ -163,7 +163,7 @@ RtlZeroMemory(
 // Obtain the module information.
 //
 status = AuxKlibQueryModuleInformation(
-                                       &amp;modulesSize,
+                                       &modulesSize,
                                        sizeof(AUX_MODULE_EXTENDED_INFO),
                                        modules
                                        );

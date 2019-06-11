@@ -147,7 +147,7 @@ The NMR calls the client module's
     module have completed detachment from each other.
 
 The NMR calls a client module's 
-    <i>ClientDetachProvider</i> callback function at any IRQL &lt;= DISPATCH_LEVEL.
+    <i>ClientDetachProvider</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
 
 

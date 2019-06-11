@@ -143,17 +143,17 @@ STDMETHODCALLTYPE
 {
     HRESULT hr = S_OK;
     IWDFMemory * pInputMemory = NULL;
-    IWDFUsbTargetPipe * pOutputPipe = m_Device-&gt;GetOutputPipe();
+    IWDFUsbTargetPipe * pOutputPipe = m_Device->GetOutputPipe();
     //
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = pWdfRequest;
 
-    hr = r2-&gt;RetrieveInputMemory(&amp;pInputMemory);
+    hr = r2->RetrieveInputMemory(&pInputMemory);
     if (FAILED(hr)) goto Exit;
 
-    hr = pOutputPipe-&gt;FormatRequestForWrite(
+    hr = pOutputPipe->FormatRequestForWrite(
                                            pWdfRequest,
                                            NULL, //pFile
                                            pInputMemory,
@@ -163,7 +163,7 @@ STDMETHODCALLTYPE
 Exit:
     if (FAILED(hr))
     {
-        pWdfRequest-&gt;Complete(hr);
+        pWdfRequest->Complete(hr);
     }
     else
     {

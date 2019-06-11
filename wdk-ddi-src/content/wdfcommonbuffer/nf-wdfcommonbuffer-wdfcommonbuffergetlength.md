@@ -95,7 +95,7 @@ The following code example obtains the length of a specified common buffer.
 <td>
 <pre>size_t bufferLength;
 
-bufferLength = WdfCommonBufferGetLength(DevExt-&gt;CommonBuffer); </pre>
+bufferLength = WdfCommonBufferGetLength(DevExt->CommonBuffer); </pre>
 </td>
 </tr>
 </table></span></div>

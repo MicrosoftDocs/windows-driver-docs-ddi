@@ -115,7 +115,7 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 
     device = WdfObjectContextGetObject(pDeviceContext);
     switchState = WdfMemoryGetBuffer(Buffer, NULL);
-    pDeviceContext-&gt;CurrentSwitchState = *switchState;
+    pDeviceContext->CurrentSwitchState = *switchState;
 }</pre>
 </td>
 </tr>

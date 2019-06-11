@@ -77,7 +77,7 @@ When the IRP_MJ_DEVICE_CONTROL IRP that contains this IOCTL is passed to the SCS
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the driver should disable media change detection.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the driver should disable media change detection.
 
 
 ### -input-buffer-length

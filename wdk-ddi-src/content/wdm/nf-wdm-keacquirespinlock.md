@@ -49,6 +49,15 @@ req.typenames:
 
 The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 
+## -syntax
+
+```cpp
+KIRQL
+KeAcquireSpinLock (
+    _Inout_ PKSPIN_LOCK SpinLock
+    _Out_ KIRQL OldIrql
+    );
+```
 
 ## -parameters
 

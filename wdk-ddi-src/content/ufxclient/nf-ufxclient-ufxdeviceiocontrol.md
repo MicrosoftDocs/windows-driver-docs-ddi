@@ -135,7 +135,7 @@ Arguments:
     ControllerContext = DeviceGetControllerContext(WdfDevice);
 
     HandledbyUfx = UfxDeviceIoControl(
-                        ControllerContext-&gt;UfxDevice,
+                        ControllerContext->UfxDevice,
                         Request,
                         OutputBufferLength,
                         InputBufferLength,

@@ -104,7 +104,7 @@ The identifier of the firmware table. The characters in the identifier are in li
 
 For example, FACP is the name of a table provided by ACPI. The FACP table is identified by the 4-byte value 'PCAF' (0x50434146) in the <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure at the start of the table. The following code example shows how to specify FACP in an <b>AuxKlibGetSystemFirmwareTable</b> call:
 
-<code>status = AuxKlibGetSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE, &amp;dataSize);</code>
+<code>status = AuxKlibGetSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE, &dataSize);</code>
 
 In this example, <code>pBuffer</code> points to the caller-allocated buffer, <code>BUFSIZE</code> is the size in bytes of this buffer, and <code>dataSize</code> is a variable to which the routine writes the number of bytes written to the buffer. For more information about the <b>DESCRIPTION_HEADER</b> structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 

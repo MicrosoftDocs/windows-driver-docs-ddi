@@ -74,7 +74,7 @@ typedef enum _DXGK_WDDMVERSION {
 Reserved for system use.
 
 
-<div class="alert"><b>Note</b>  If a driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
+<div class="alert"><b>Note</b>  If a driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
 with the Windows 7 WDK (Version 7600), set the <b>WDDMVersion</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure to DXGKDDI_WDDMv1.</div>
 <div> </div>
 

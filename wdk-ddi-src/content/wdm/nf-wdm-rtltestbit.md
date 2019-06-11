@@ -77,7 +77,7 @@ Specifies the zero-based index of the bit within the bitmap. The routine returns
 
 
 
-Callers of <b>RtlTestBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlTestBit</b> can be called at any IRQL. 
+Callers of <b>RtlTestBit</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlTestBit</b> can be called at any IRQL. 
 
 
 

@@ -99,7 +99,7 @@ The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storpor
 
 This callback enables miniports to do any additional processing that is needed after hardware addition or removal. If a hardware change occurs on the HBA port or bus, the miniport can call <a href="https://msdn.microsoft.com/3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF"> StorPortStateChangeDetected</a> to alert the system of the event.
 
-If the value for <i>Status</i> is  &lt; 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
+If the value for <i>Status</i> is  < 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
 
 The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="https://msdn.microsoft.com/3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 

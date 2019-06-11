@@ -64,7 +64,7 @@ If the collection includes report IDs, the requester must set the first byte of 
 
 <b>Minidriver handling</b>
 
-<b>Irp-&gt;UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
+<b>Irp->UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
 
 
 
@@ -95,11 +95,11 @@ The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -output-buffer
 
-The <b>Irp-&gt;MdlAddress</b> member points to the requester-allocated output buffer that the HID class driver uses to return the feature report. The first byte of the buffer, which the requester uses to input a report ID or zero, is unchanged. The feature report, excluding its report ID, if report IDs are used, is returned at ((PUCHAR)<b>Irp</b>-&gt;<b>MdlAddress</b> + 1).
+The <b>Irp->MdlAddress</b> member points to the requester-allocated output buffer that the HID class driver uses to return the feature report. The first byte of the buffer, which the requester uses to input a report ID or zero, is unchanged. The feature report, excluding its report ID, if report IDs are used, is returned at ((PUCHAR)<b>Irp</b>-><b>MdlAddress</b> + 1).
 
 <b>Minidriver handling</b>
 
-((PHID_XFER_PACKET)(<b>Irp-&gt;UserBuffer</b>))-&gt;<b>reportBuffer</b> points to the requester-allocated output buffer that the HID minidriver uses to return a feature report.
+((PHID_XFER_PACKET)(<b>Irp->UserBuffer</b>))-><b>reportBuffer</b> points to the requester-allocated output buffer that the HID minidriver uses to return a feature report.
 
 
 ### -output-buffer-length
@@ -133,7 +133,7 @@ The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>
@@ -147,7 +147,7 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 </ul>
 <b>Minidriver handling</b>
 
-HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

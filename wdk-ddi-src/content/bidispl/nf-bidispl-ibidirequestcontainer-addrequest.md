@@ -113,7 +113,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-This is similar to adding an item in a link list. In this case, <a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest-&gt;AddRef.
+This is similar to adding an item in a link list. In this case, <a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest->AddRef.
 
 
 

@@ -103,7 +103,7 @@ A custom-receive-transaction object already exists from a previous <b>SerCx2Cust
 </dl>
 </td>
 <td width="60%">
-The <i>CustomReceiveTransactionConfig</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b>).
+The <i>CustomReceiveTransactionConfig</i>-><b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b>).
 
 </td>
 </tr>

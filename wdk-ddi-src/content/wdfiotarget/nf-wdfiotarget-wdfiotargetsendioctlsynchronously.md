@@ -244,8 +244,8 @@ Because <b>WdfIoTargetSendIoctlSynchronously</b> handles I/O requests synchronou
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;MemoryDescriptor,
-                                  (PVOID) &amp;MyBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
+                                  (PVOID) &MyBuffer,
                                   sizeof(MyBuffer));</pre>
 </td>
 </tr>
@@ -268,9 +268,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;MemoryHandle,
+                         &MemoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;MemoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
                                   NULL);</pre>
 </td>
@@ -310,8 +310,8 @@ NTSTATUS  status;
 HID_COLLECTION_INFORMATION  collectionInformation;
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
-                                  &amp;outputDescriptor,
-                                  (PVOID) &amp;collectionInformation,
+                                  &outputDescriptor,
+                                  (PVOID) &collectionInformation,
                                   sizeof(HID_COLLECTION_INFORMATION)
                                   );
 
@@ -320,7 +320,7 @@ status = WdfIoTargetSendIoctlSynchronously(
                                            NULL,
                                            IOCTL_HID_GET_COLLECTION_INFORMATION,
                                            NULL,
-                                           &amp;outputDescriptor,
+                                           &outputDescriptor,
                                            NULL,
                                            NULL
                                            );</pre>

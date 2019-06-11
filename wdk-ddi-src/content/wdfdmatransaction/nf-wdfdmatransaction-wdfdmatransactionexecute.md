@@ -186,9 +186,9 @@ NICInitiateDmaTransfer(
  
     do {
         status = WdfDmaTransactionCreate(
-                                         FdoData-&gt;WdfDmaEnabler,
+                                         FdoData->WdfDmaEnabler,
                                          WDF_NO_OBJECT_ATTRIBUTES,
-                                         &amp;dmaTransaction
+                                         &dmaTransaction
                                          );
         if(!NT_SUCCESS(status)) {
             TraceEvents(TRACE_LEVEL_ERROR, DBG_WRITE, 

@@ -162,40 +162,40 @@ NTSTATUS status;
 
 status = WdfCollectionCreate(
                              WDF_NO_OBJECT_ATTRIBUTES,
-                             &amp;col
+                             &col
                              );
 if (!NT_SUCCESS(status) {
     return status;
 }
 
 RtlInitUnicodeString(
-                     &amp;ustring1,
+                     &ustring1,
                      L"String1"
                      );
 RtlInitUnicodeString(
-                     &amp;ustring2,
+                     &ustring2,
                      L"String2"
                      );
 RtlInitUnicodeString(
-                     &amp;valueName,
+                     &valueName,
                      L"ValueName"
                      );
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = col;
 
 status = WdfStringCreate(
-                         &amp;ustring1,
-                         &amp;attributes,
-                         &amp;string1
+                         &ustring1,
+                         &attributes,
+                         &string1
                          );
 if (!NT_SUCCESS(status)) {
     goto exit;
 }
 status = WdfStringCreate(
-                         &amp;ustring2,
-                         &amp;attributes,
-                         &amp;string2
+                         &ustring2,
+                         &attributes,
+                         &string2
                          );
 if (!NT_SUCCESS(status)) {
     goto exit;
@@ -220,7 +220,7 @@ string2 = NULL;
 
 status = WdfRegistryAssignMultiString(
                                       Key,
-                                      &amp;valueName,
+                                      &valueName,
                                       col
                                       );
 if (!NT_SUCCESS(status)) {

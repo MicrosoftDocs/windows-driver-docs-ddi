@@ -94,7 +94,7 @@ This routine is required.
 
 The CHANGER_POSITION_TO_ELEMENT flag in <b>Features0</b> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> indicates whether the changer supports this functionality.
 
-The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerSetPosition</b>. <i>Irp</i><b>-&gt;SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551482">CHANGER_SET_POSITION</a> structure as an input parameter that indicates the transport element and the destination to set. 
+The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerSetPosition</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551482">CHANGER_SET_POSITION</a> structure as an input parameter that indicates the transport element and the destination to set. 
 
 <b>ChangerSetPosition</b> first verifies that the transport and destination element addresses are valid and converts zero-based element addresses to device-specific addresses. It then builds an SRB with a CDB to position the element and sends it to the system port driver.
 

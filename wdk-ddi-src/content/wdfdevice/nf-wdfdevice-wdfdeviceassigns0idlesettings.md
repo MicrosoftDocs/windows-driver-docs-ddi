@@ -172,14 +172,14 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 NTSTATUS  status = STATUS_SUCCESS;
 
 WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(
-                                           &amp;idleSettings,
+                                           &idleSettings,
                                            IdleCanWakeFromS0
                                            );
 idleSettings.IdleTimeout = 10000;
 
 status = WdfDeviceAssignS0IdleSettings(
                                        device,
-                                       &amp;idleSettings
+                                       &idleSettings
                                        );
 if (!NT_SUCCESS(status)) {
     return status;

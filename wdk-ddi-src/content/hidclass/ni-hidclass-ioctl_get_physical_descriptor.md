@@ -72,9 +72,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -output-buffer
 
-<b>Irp-&gt;MdlAddress</b> must point to the buffer that will receive the physical descriptor. 
+<b>Irp->MdlAddress</b> must point to the buffer that will receive the physical descriptor. 
 
-The HID minidriver copies the physical descriptor into the user buffer at <b>Irp-&gt;UserBuffer</b>.
+The HID minidriver copies the physical descriptor into the user buffer at <b>Irp->UserBuffer</b>.
 
 
 ### -output-buffer-length
@@ -106,9 +106,9 @@ The HID minidriver copies the physical descriptor into the user buffer at <b>Irp
 
 ### -status-block
 
-The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
+The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
-HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

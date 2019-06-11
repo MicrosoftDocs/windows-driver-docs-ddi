@@ -61,7 +61,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5653
 
 ### -param MinorFunction [in]
 
-Indicates the WMI action to perform. The miniport driver sets <i>MinorFunction</i> to <b>Srb-&gt;WmiSubFunction</b> from the input SRB.
+Indicates the WMI action to perform. The miniport driver sets <i>MinorFunction</i> to <b>Srb->WmiSubFunction</b> from the input SRB.
 
 
 ### -param DeviceContext [in]
@@ -76,17 +76,17 @@ Pointer to a SCSIWMI_REQUEST_CONTEXT structure that contains context information
 
 ### -param DataPath [in]
 
-Pointer to a GUID that represents the data block associated with the request. The miniport driver sets <i>DataPath</i> to <b>Srb-&gt;DataPath</b> from the input SRB.
+Pointer to a GUID that represents the data block associated with the request. The miniport driver sets <i>DataPath</i> to <b>Srb->DataPath</b> from the input SRB.
 
 
 ### -param BufferSize [in]
 
-Specifies the size in bytes of the data buffer. The miniport driver sets <i>BufferSize</i> to <b>Srb-&gt;DataTransferLength</b> from the input SRB.
+Specifies the size in bytes of the data buffer. The miniport driver sets <i>BufferSize</i> to <b>Srb->DataTransferLength</b> from the input SRB.
 
 
 ### -param Buffer [in]
 
-Pointer to the data buffer. The miniport driver sets <i>Buffer</i> to <b>Srb-&gt;DataBuffer</b> from the input SRB.
+Pointer to the data buffer. The miniport driver sets <i>Buffer</i> to <b>Srb->DataBuffer</b> from the input SRB.
 
 
 ## -returns
@@ -110,11 +110,11 @@ In either case, after <b>ScsiPortWmiDispatchFunction</b> returns, the miniport d
 
 <ul>
 <li>
-Set <b>Srb-&gt;DataTransferLength</b> to the value returned by <b>ScsiPortWmiGetReturnSize</b>
+Set <b>Srb->DataTransferLength</b> to the value returned by <b>ScsiPortWmiGetReturnSize</b>
 
 </li>
 <li>
-Set <b>Srb-&gt;SrbStatus</b> to the value returned by <b>ScsiPortWmiGetReturnStatus</b>
+Set <b>Srb->SrbStatus</b> to the value returned by <b>ScsiPortWmiGetReturnStatus</b>
 
 </li>
 <li>

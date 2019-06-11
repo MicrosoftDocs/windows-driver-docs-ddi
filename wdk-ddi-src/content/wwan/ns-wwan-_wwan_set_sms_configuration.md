@@ -65,11 +65,11 @@ The number can be in any of the following formats:
 
 <ul>
 <li>
-"+ &lt;International Country Code&gt; &lt;SMS Service Center Number&gt;\0"
+"+ <International Country Code> <SMS Service Center Number>\0"
 
 </li>
 <li>
-"&lt;SMS Service Center Number&gt;\0"
+"<SMS Service Center Number>\0"
 
 </li>
 </ul>

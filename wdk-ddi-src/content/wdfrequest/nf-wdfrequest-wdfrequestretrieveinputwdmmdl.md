@@ -184,7 +184,7 @@ MyDrvEvtIoWrite(
 ...
     status = WdfRequestRetrieveInputWdmMdl(
                                            Request,
-                                           &amp;mdl
+                                           &mdl
                                            );
     if (!NT_SUCCESS(status))
     {

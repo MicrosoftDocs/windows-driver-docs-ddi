@@ -66,7 +66,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
 
 
 ### -output-buffer-length

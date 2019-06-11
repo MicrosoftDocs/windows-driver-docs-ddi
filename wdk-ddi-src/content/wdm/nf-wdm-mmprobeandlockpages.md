@@ -112,7 +112,7 @@ A routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 Calls to <b>MmProbeAndLockPages</b> must be enclosed in a <b>try/except</b> block. If the pages do not support the specified operation, the routine raises the STATUS_ACCESS_VIOLATION or other exceptions. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>.
 
-Callers of <b>MmProbeAndLockPages</b> must be running at IRQL &lt;= APC_LEVEL for pageable addresses, or at IRQL &lt;= DISPATCH_LEVEL for nonpageable addresses.
+Callers of <b>MmProbeAndLockPages</b> must be running at IRQL <= APC_LEVEL for pageable addresses, or at IRQL <= DISPATCH_LEVEL for nonpageable addresses.
 
 This routine does not provide any guarantees about the virtual address that describes these pages (that is, the virtual address might be unmapped, reused, and so on). However, the physical pages are guaranteed to be locked on successful return.
 

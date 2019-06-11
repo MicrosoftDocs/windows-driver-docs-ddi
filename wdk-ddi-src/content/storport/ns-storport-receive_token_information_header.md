@@ -209,7 +209,7 @@ SCSI status code for the copy command operation.
 
 ### -field SenseDataFieldLength
 
-The length, in bytes, of the entire data area available for sense data. This value is always &gt;=  <b>SenseDataLength</b>.
+The length, in bytes, of the entire data area available for sense data. This value is always >=  <b>SenseDataLength</b>.
 
 
 ### -field SenseDataLength

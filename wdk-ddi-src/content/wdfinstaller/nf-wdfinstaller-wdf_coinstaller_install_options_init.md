@@ -88,7 +88,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <tr>
 <td>
 <pre>WDF_COINSTALLER_INSTALL_OPTIONS clientOptions;
-WDF_COINSTALLER_INSTALL_OPTIONS_INIT(&amp;clientOptions);</pre>
+WDF_COINSTALLER_INSTALL_OPTIONS_INIT(&clientOptions);</pre>
 </td>
 </tr>
 </table></span></div>

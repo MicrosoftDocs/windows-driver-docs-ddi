@@ -179,7 +179,7 @@ The following code example is from the <a href="https://docs.microsoft.com/windo
 // PLx PCI9656 DMA_TRANSFER_ELEMENTS must be 16-byte aligned.
 //
 WdfDeviceSetAlignmentRequirement(
-                                 DevExt-&gt;WdfDevice,
+                                 DevExt->WdfDevice,
                                  PCI9656_DTE_ALIGNMENT_16
                                  );
 
@@ -190,15 +190,15 @@ WdfDeviceSetAlignmentRequirement(
 {
     WDF_DMA_ENABLER_CONFIG   dmaConfig;
     WDF_DMA_ENABLER_CONFIG_INIT(
-                                &amp;dmaConfig,
+                                &dmaConfig,
                                 WdfDmaProfileScatterGather64Duplex,
-                                DevExt-&gt;MaximumTransferLength
+                                DevExt->MaximumTransferLength
                                 );
     status = WdfDmaEnablerCreate(
-                                 DevExt-&gt;WdfDevice,
-                                 &amp;dmaConfig,
+                                 DevExt->WdfDevice,
+                                 &dmaConfig,
                                  WDF_NO_OBJECT_ATTRIBUTES,
-                                 &amp;DevExt-&gt;DmaEnabler
+                                 &DevExt->DmaEnabler
                                  );
     if (!NT_SUCCESS (status)) {
         // Cannot continue, so release device resources.

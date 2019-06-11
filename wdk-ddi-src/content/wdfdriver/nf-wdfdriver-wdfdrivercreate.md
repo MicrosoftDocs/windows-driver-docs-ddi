@@ -162,7 +162,7 @@ DriverEntry(
     NTSTATUS  status = STATUS_SUCCESS;
 
     WDF_DRIVER_CONFIG_INIT(
-                           &amp;config,
+                           &config,
                            MyEvtDeviceAdd
                            );
     config.EvtDriverUnload = MyEvtDriverUnload;
@@ -170,7 +170,7 @@ DriverEntry(
                              DriverObject,
                              RegistryPath,
                              WDF_NO_OBJECT_ATTRIBUTES,
-                              &amp;config,
+                              &config,
                              WDF_NO_HANDLE
                              );
     if (!NT_SUCCESS(status)) {

@@ -259,7 +259,7 @@ DBG_DUMP_ARRAY
 
 </td>
 <td>
-The symbol is an array.  The number of elements in the array is specified by the member <b>listLink-&gt;size</b> of the SYM_DUMP_PARAM structure.
+The symbol is an array.  The number of elements in the array is specified by the member <b>listLink->size</b> of the SYM_DUMP_PARAM structure.
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ DBG_DUMP_ADDRESS_OF_FIELD
 
 </td>
 <td>
-The value of <b>addr</b> is actually the address of the member <b>listLink-&gt;fName</b> of the SYM_DUMP_PARAM structure and not the beginning of the symbol.
+The value of <b>addr</b> is actually the address of the member <b>listLink->fName</b> of the SYM_DUMP_PARAM structure and not the beginning of the symbol.
 
 </td>
 </tr>

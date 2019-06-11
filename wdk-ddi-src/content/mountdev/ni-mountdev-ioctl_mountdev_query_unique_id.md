@@ -71,7 +71,7 @@ Support for this IOCTL by mount manager clients is mandatory. Upon receiving thi
 
 ### -output-buffer
 
-The device class or volume driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The device class or volume driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -102,7 +102,7 @@ The implementer of this function must not thread synchronize and must not make b
 
 ### -status-block
 
-The <b>Information</b> field is set to FIELD_OFFSET(<a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output-&gt;UniqueIdLength; or alternatively to sizeof(USHORT) + output-&gt;UniqueIdLength, where output points to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The <b>Information</b> field is set to FIELD_OFFSET(<a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a>, UniqueId) + output->UniqueIdLength; or alternatively to sizeof(USHORT) + output->UniqueIdLength, where output points to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ## -see-also

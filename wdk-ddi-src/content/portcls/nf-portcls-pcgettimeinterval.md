@@ -90,7 +90,7 @@ and then checking to see whether the required interval has passed
 </tr>
 <tr>
 <td>
-<pre>  if (PcGetTimeInterval(ullTime) &gt;= GTI_MILLISECONDS(5))</pre>
+<pre>  if (PcGetTimeInterval(ullTime) >= GTI_MILLISECONDS(5))</pre>
 </td>
 </tr>
 </table></span></div>

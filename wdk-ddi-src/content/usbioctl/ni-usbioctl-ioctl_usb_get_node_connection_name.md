@@ -99,7 +99,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member contains the siz
 
 ### -status-block
 
-The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. The request reports success, even if no hub is attached, the attached hub has no symbolic link, or the attached device is not a hub.
+The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. The request reports success, even if no hub is attached, the attached hub has no symbolic link, or the attached device is not a hub.
 
 Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 

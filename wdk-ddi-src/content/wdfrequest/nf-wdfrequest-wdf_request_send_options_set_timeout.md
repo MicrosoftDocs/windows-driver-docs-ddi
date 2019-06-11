@@ -97,18 +97,18 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_REQUEST_SEND_OPTIONS  syncReqOptions;
 
 WDF_REQUEST_SEND_OPTIONS_INIT(
-                              &amp;syncReqOptions,
+                              &syncReqOptions,
                               0
                               );
 WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT(
-                                     &amp;syncReqOptions,
+                                     &syncReqOptions,
                                      WDF_REL_TIMEOUT_IN_SEC(10)
                                      );
 status = WdfUsbTargetPipeWriteSynchronously(
                                             pipeHandle,
                                             NULL,
-                                            &amp;syncReqOptions,
-                                            &amp;writeBufDesc,
+                                            &syncReqOptions,
+                                            &writeBufDesc,
                                             NULL
                                             );</pre>
 </td>

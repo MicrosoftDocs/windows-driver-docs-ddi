@@ -107,7 +107,7 @@ DEFINE_GUID(GUID_DEVCLASS_MYUNIQUEID,
 
 status = WdfPdoInitAssignRawDevice(
                                    pDeviceInit,
-                                   &amp;GUID_DEVCLASS_MYUNIQUEID
+                                   &GUID_DEVCLASS_MYUNIQUEID
                                    );
 </pre>
 </td>

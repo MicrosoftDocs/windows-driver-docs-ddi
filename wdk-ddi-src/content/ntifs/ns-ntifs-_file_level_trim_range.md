@@ -68,7 +68,7 @@ Length in bytes to trim from the given offset.
 
 
 
-Due to alignment requirements, the file system may reduce the of the trim range to a multiple of <b>PAGE_SIZE</b> &lt;= <b>Length</b>. Also, <b>Offset</b> will be adjusted to the next page boundary if its initial value is not on page boundary.
+Due to alignment requirements, the file system may reduce the of the trim range to a multiple of <b>PAGE_SIZE</b> <= <b>Length</b>. Also, <b>Offset</b> will be adjusted to the next page boundary if its initial value is not on page boundary.
 
 
 

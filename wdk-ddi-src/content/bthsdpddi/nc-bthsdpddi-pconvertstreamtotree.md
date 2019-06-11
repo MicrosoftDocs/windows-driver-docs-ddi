@@ -139,7 +139,7 @@ By using the
     <b>sequence</b> or 
     <b>alternative</b> member, when used, contains an extra SDP_NODE_HEADER structure that is used to access
     the nodes in the sequence or alternative. For example, 
-    <code>node-&gt;u.sequence.Flink</code>points to the LIST_ENTRY structure of
+    <code>node->u.sequence.Flink</code>points to the LIST_ENTRY structure of
     the first member of the sequence represented by the node.
 
 The remaining members of the data union contain actual data extracted from the SDP stream. For most

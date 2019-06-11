@@ -108,12 +108,12 @@ The following code example shows how to retrieve graphics adapter information.
     // Query for GART segment support
     D3DDDICB_QUERYADAPTERINFO   ddiQueryAdapterInfo;
 
-    memset(&amp;R200AdapterInfo, 0, sizeof(R200AdapterInfo));
+    memset(&R200AdapterInfo, 0, sizeof(R200AdapterInfo));
 
-    ddiQueryAdapterInfo.pPrivateDriverData = &amp;R200AdapterInfo;
+    ddiQueryAdapterInfo.pPrivateDriverData = &R200AdapterInfo;
     ddiQueryAdapterInfo.PrivateDriverDataSize = sizeof(R200AdapterInfo);
 
-    hr = m_Callbacks.pfnQueryAdapterInfoCb(m_hAdapter, &amp;ddiQueryAdapterInfo);
+    hr = m_Callbacks.pfnQueryAdapterInfoCb(m_hAdapter, &ddiQueryAdapterInfo);
     if (FAILED(hr)) {
         return FALSE;
     }

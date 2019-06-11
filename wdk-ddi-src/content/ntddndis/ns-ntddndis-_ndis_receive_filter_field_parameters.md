@@ -325,15 +325,15 @@ The following table describes how the network adapter uses the <b>ReceiveFilterT
 </tr>
 <tr>
 <td>NdisReceiveFilterTestEqual</td>
-<td>(&lt;<i>header field value</i>&gt; == <b>FieldValue</b>)</td>
+<td>(<<i>header field value</i>> == <b>FieldValue</b>)</td>
 </tr>
 <tr>
 <td>NdisReceiveFilterTestMaskEqual</td>
-<td>((&lt;<i>header field value</i>&gt; &amp; <b>FieldValue</b>) == <b>ResultValue</b>)</td>
+<td>((<<i>header field value</i>> & <b>FieldValue</b>) == <b>ResultValue</b>)</td>
 </tr>
 <tr>
 <td>NdisReceiveFilterTestNotEqual</td>
-<td>(&lt;<i>header field value</i>&gt; != <b>FieldValue</b>)</td>
+<td>(<<i>header field value</i>> != <b>FieldValue</b>)</td>
 </tr>
 </table>
  

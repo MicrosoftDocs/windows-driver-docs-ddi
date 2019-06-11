@@ -89,7 +89,7 @@ The request must specify the real LUN that is comprised by the pseudo LUN in ter
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -99,7 +99,7 @@ The buffer must be at least <b>sizeof</b>(MPIO_PASS_THROUGH_PATH) or, if sent by
 
 ### -output-buffer
 
-The port driver returns any request-sense data and any data that is transferred from the device to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The port driver returns any request-sense data and any data that is transferred from the device to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -127,7 +127,7 @@ The <b>SenseInfoLength</b> and <b>DataTransferLength</b> members in the embedded
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> is improperly set.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> is improperly set.
 
 
 ## -see-also

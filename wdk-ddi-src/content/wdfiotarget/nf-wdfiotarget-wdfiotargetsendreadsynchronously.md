@@ -242,8 +242,8 @@ Because <b>WdfIoTargetSendReadSynchronously</b> handles I/O requests synchronous
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;MemoryDescriptor,
-                                  (PVOID) &amp;MyBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
+                                  (PVOID) &MyBuffer,
                                   sizeof(MyBuffer));</pre>
 </td>
 </tr>
@@ -266,9 +266,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;MemoryHandle,
+                         &MemoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;MemoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
                                   NULL);</pre>
 </td>
@@ -314,21 +314,21 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;MemoryHandle,
+                         &MemoryHandle,
                          NULL
                          );
 WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(
-                                  &amp;MemoryDescriptor,
+                                  &MemoryDescriptor,
                                   MemoryHandle,
                                   NULL
                                   );
 status = WdfIoTargetSendReadSynchronously(
                                           ioTarget,
                                           NULL,
-                                          &amp;MemoryDescriptor,
+                                          &MemoryDescriptor,
                                           NULL,
                                           NULL,
-                                          &amp;bytesRead
+                                          &bytesRead
                                           );
  </pre>
 </td>

@@ -169,18 +169,18 @@ The following code example assigns a Unicode string "String1" to the <b>ValueNam
 NTSTATUS status;
 
 RtlInitUnicodeString(
-                     &amp;ustring1,
+                     &ustring1,
                      L"String1"
                      );
 RtlInitUnicodeString(
-                     &amp;valueName,
+                     &valueName,
                      L"ValueName"
                      );
 
 status = WdfRegistryAssignUnicodeString(
                                         Key,
-                                        &amp;valueName,
-                                        &amp;string1
+                                        &valueName,
+                                        &string1
                                         );</pre>
 </td>
 </tr>

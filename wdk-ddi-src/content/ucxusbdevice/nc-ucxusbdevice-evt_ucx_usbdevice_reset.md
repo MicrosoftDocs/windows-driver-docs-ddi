@@ -105,8 +105,8 @@ UsbDevice_EvtUcxUsbDeviceReset(
 
     DbgTrace(TL_INFO, UsbDevice, "UsbDevice_EvtUcxUsbDeviceReset");
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
     usbDeviceReset = (PUSBDEVICE_RESET)wdfRequestParams.Parameters.Others.Arg1;
     ...
 

@@ -107,7 +107,7 @@ Points to the buffer to receive instance data. If the buffer is large enough to 
 
 
 
-When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiQueryDataBlock</b> routine if <i>MinorFunction</i> indicates a request to obtain a single instance or all instances of a data block.
+When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb->WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiQueryDataBlock</b> routine if <i>MinorFunction</i> indicates a request to obtain a single instance or all instances of a data block.
 
 The miniport driver writes instance data to the buffer. For requests that do not pend, the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a> with an appropriate <i>SrbStatus</i> value before returning from <b>HwScsiWmiQueryDataBlock</b>. If the request pends, the miniport driver calls <b>ScsiPortWmiPostProcess</b> when the request is complete.
 

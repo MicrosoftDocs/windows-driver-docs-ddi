@@ -162,7 +162,7 @@ The following code example initializes a resource descriptor and adds the descri
 <td>
 <pre>IO_RESOURCE_DESCRIPTOR descriptor;
 
-RtlZeroMemory(&amp;descriptor, sizeof(descriptor));
+RtlZeroMemory(&descriptor, sizeof(descriptor));
 
 descriptor.Option = 0;
 descriptor.Type = CmResourceTypePort;
@@ -175,7 +175,7 @@ descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
 
 status = WdfIoResourceListInsertDescriptor(
                                            logConfig,
-                                           &amp;descriptor,
+                                           &descriptor,
                                            WDF_INSERT_AT_END
                                            );
 if (!NT_SUCCESS(status)) {

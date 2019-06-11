@@ -113,11 +113,11 @@ The following code example calls <a href="https://msdn.microsoft.com/library/win
 </tr>
 <tr>
 <td>
-<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 &lt;&lt; (n))
+<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
 
 WDF_INTERRUPT_EXTENDED_POLICY myExtendedPolicy;
 
-WDF_INTERRUPT_EXTENDED_POLICY_INIT(&amp;myExtendedPolicy);
+WDF_INTERRUPT_EXTENDED_POLICY_INIT(&myExtendedPolicy);
 myExtendedPolicy.Policy = WdfIrqPolicySpecifiedProcessors;
 myExtendedPolicy.Priority = WdfIrqPriorityNormal;
 myExtendedPolicy.TargetProcessorSetAndGroup.Mask = AFFINITY_MASK(0);
@@ -125,7 +125,7 @@ myExtendedPolicy.TargetProcessorSetAndGroup.Group = 2;
 
 WdfInterruptSetExtendedPolicy(
                               Interrupt,
-                              &amp;myExtendedPolicy
+                              &myExtendedPolicy
  );</pre>
 </td>
 </tr>

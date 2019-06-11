@@ -144,47 +144,47 @@ CMyQueue::OnDefaultIoHandler(
     //
     // Obtain the device, default I/O target, and file object.
     //
-    pQueue-&gt;GetDevice(&amp;pDevice);
-    pDevice-&gt;GetDefaultIoTarget(&amp;pTarget);
-    pRequest-&gt;GetFileObject(&amp;pFile);
+    pQueue->GetDevice(&pDevice);
+    pDevice->GetDefaultIoTarget(&pTarget);
+    pRequest->GetFileObject(&pFile);
 
-    if (WdfRequestQueryInformation==pRequest-&gt;GetType())
+    if (WdfRequestQueryInformation==pRequest->GetType())
     {
         //
         // Declare an IWDFIoRequest2 interface pointer and obtain the
         // IWDFIoRequest2 interface from the IWDFIoRequest interface.
         //
-        CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pRequest;
+        CComQIPtr<IWDFIoRequest2> r2 = pRequest;
 
         // 
         // Declare an IWDFIoTarget2 interface pointer and obtain the
         // IWDFIoTarget2 interface from the IWDFIoTarget interface.
         //
-        CComQIPtr&lt;IWDFIoTarget2&gt; target2(pTarget);
+        CComQIPtr<IWDFIoTarget2> target2(pTarget);
 
         // 
         // Get the I/O request's output buffer.
         // 
-        hr = pWdfRequest2-&gt;RetrieveOutputMemory(&amp;pOutMemory);
+        hr = pWdfRequest2->RetrieveOutputMemory(&pOutMemory);
         if (!SUCCEEDED(hr)) goto Error;
 
         // 
         // Get the I/O request's parameters.
         // 
-        hr = pWdfRequest2-&gt;GetQueryInformationParameters(&amp;infoClass,
+        hr = pWdfRequest2->GetQueryInformationParameters(&infoClass,
                                                          NULL);
         if (!SUCCEEDED(hr)) goto Error;
 
         //
         // Format a query information request and send it to the I/O target.
         //
-        hr = target2-&gt;FormatRequestForQueryInformation(pRequest,
+        hr = target2->FormatRequestForQueryInformation(pRequest,
                                                        infoClass,
                                                        pFile,
                                                        pOutMemory,
                                                        NULL);
         if (!SUCCEEDED(hr)) goto Error;
-        hr = pRequest-&gt;Send(pTarget,
+        hr = pRequest->Send(pTarget,
                             WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
                             0);
     }

@@ -112,7 +112,7 @@ The following example registers the COM port interface class for a device.
 
 status = WdfDeviceCreateDeviceInterface(
                                         Device,
-                                        (LPGUID) &amp;GUID_DEVINTERFACE_COMPORT,
+                                        (LPGUID) &GUID_DEVINTERFACE_COMPORT,
                                         NULL
                                         );</pre>
 </td>

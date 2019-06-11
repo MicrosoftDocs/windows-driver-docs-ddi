@@ -151,7 +151,7 @@ Pointer to a routine that returns information about the bus. The information tha
 
 
 
-For information about how to query for these interfaces, see <a href="https://msdn.microsoft.com/1a916e21-3545-4a4e-8309-ba10b3690d63">Querying for USB Interfaces</a>. Callers of the routines in this structure can be running at IRQL &lt;= DISPATCH_LEVEL. 
+For information about how to query for these interfaces, see <a href="https://msdn.microsoft.com/1a916e21-3545-4a4e-8309-ba10b3690d63">Querying for USB Interfaces</a>. Callers of the routines in this structure can be running at IRQL <= DISPATCH_LEVEL. 
 
 
 

@@ -143,7 +143,7 @@ The following code example provides Unicode strings for a device's location and 
 DECLARE_UNICODE_STRING_SIZE(buffer, MAX_ID_LEN);
 
 status = RtlUnicodeStringPrintf(
-                                &amp;buffer,
+                                &buffer,
                                 L"Keyboard_Filter_%02d",
                                 InstanceNo
                                 );
@@ -152,8 +152,8 @@ if (!NT_SUCCESS(status)) {
 }
 status = WdfPdoInitAddDeviceText(
                                  pDeviceInit,
-                                 &amp;buffer,
-                                 &amp;deviceLocation,
+                                 &buffer,
+                                 &deviceLocation,
                                  0x409
                                  );
 if (!NT_SUCCESS(status)) {

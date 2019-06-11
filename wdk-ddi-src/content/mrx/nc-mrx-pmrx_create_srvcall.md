@@ -82,11 +82,11 @@ A pointer to the SRV_CALL structure to be created.
 
 RDBSS expects <i>MRxCreateSrvCall</i> to return STATUS_PENDING on success or failure. This behavior results because RDBSS expects this call to be completed asynchronously. A network mini-redirector should map STATUS_SUCCESS to STATUS_PENDING as a return value for <i>MRxCreateSrvCall</i>.
 
-The final completion status is returned in the <b>pCallbackContext-&gt;Status</b> member once the call completes and the routine in the <b>Callback</b> member in the MRX_SRVCALLDOWN_STRUCTURE structure is called by the network mini-redirector. This member initially contains STATUS_BAD_NETWORK_PATH until the network mini-redirector changes this value on completion. 
+The final completion status is returned in the <b>pCallbackContext->Status</b> member once the call completes and the routine in the <b>Callback</b> member in the MRX_SRVCALLDOWN_STRUCTURE structure is called by the network mini-redirector. This member initially contains STATUS_BAD_NETWORK_PATH until the network mini-redirector changes this value on completion. 
 
 
 
-The <b>pCallbackContext-&gt;Status</b> member contains STATUS_SUCCESS on success once the call is completed or one of the following common error codes on failure (although other error codes are possible): 
+The <b>pCallbackContext->Status</b> member contains STATUS_SUCCESS on success once the call is completed or one of the following common error codes on failure (although other error codes are possible): 
 
 <table>
 <tr>

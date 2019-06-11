@@ -96,7 +96,7 @@ To set the <b>IdentificationDescriptionSize</b> member for this address descript
 <tr>
 <td>
 <pre>IEEE_1394_CHILD_ID_DESCRIPTION ID_Description;
-WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(&amp;ID_Description,
+WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(&ID_Description,
                                                  sizeof(ID_Description));</pre>
 </td>
 </tr>

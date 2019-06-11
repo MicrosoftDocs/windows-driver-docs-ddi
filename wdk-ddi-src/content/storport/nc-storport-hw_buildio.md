@@ -114,15 +114,15 @@ Sends a CDB to the specified bus/target/lun.
 
 </td>
 <td>
-Srb-&gt;DataTransferLength is valid for all Cdbs. 
+Srb->DataTransferLength is valid for all Cdbs. 
 
-Srb-&gt;DataBuffer is <b>NULL</b> for read and write requests . To access the associated data, either use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567097">StorPortGetScatterGatherList</a> (for Dma transfers) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567100">StorPortGetSystemAddress</a> (for program controlled I/O ) to get the Scatter Gather list or the virtual address of the buffer.
+Srb->DataBuffer is <b>NULL</b> for read and write requests . To access the associated data, either use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567097">StorPortGetScatterGatherList</a> (for Dma transfers) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567100">StorPortGetSystemAddress</a> (for program controlled I/O ) to get the Scatter Gather list or the virtual address of the buffer.
 
-For other requests, Srb-&gt;Databuffer points to the data that is associated with the Srb.
+For other requests, Srb->Databuffer points to the data that is associated with the Srb.
 
-Srb-&gt;PathId is valid and represents the pathid given to Storport in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a> (BusChange). Writers of miniport drivers need to use pathid as an index into a table of busses within the miniport. 
+Srb->PathId is valid and represents the pathid given to Storport in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a> (BusChange). Writers of miniport drivers need to use pathid as an index into a table of busses within the miniport. 
 
- Srb-&gt;TargetId and Srb-&gt;Lun are valid.
+ Srb->TargetId and Srb->Lun are valid.
 
 </td>
 </tr>
@@ -136,9 +136,9 @@ Miniport defined.
 
 </td>
 <td>
-Srb-&gt;DataTransferLength and Srb-&gt;DataBuffer are valid if set by the requester.
+Srb->DataTransferLength and Srb->DataBuffer are valid if set by the requester.
 
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>
@@ -152,9 +152,9 @@ Reset the specified logical unit (if the device is capable).
 
 </td>
 <td>
-Srb-&gt;DataTransferLength and Srb-&gt;DataBuffer are invalid.
+Srb->DataTransferLength and Srb->DataBuffer are invalid.
 
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>
@@ -168,9 +168,9 @@ Reset the specified Scsi Target.
 
 </td>
 <td>
-Srb-&gt;DataTransferLength and Srb-&gt;DataBuffer, Srb-&gt;Lun are invalid.
+Srb->DataTransferLength and Srb->DataBuffer, Srb->Lun are invalid.
 
-Srb-&gt;PathId and Srb-&gt;TargetId are valid.
+Srb->PathId and Srb->TargetId are valid.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Reset all of the targets on the specified SCSI bus.
 
 </td>
 <td>
-Only Srb-&gt;PathId is valid.
+Only Srb->PathId is valid.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b
 
 </td>
 <td>
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Only performed by the miniport driver if it sets <b>CachesData</b> == <b>TRUE</b
 
 </td>
 <td>
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Starting with Windows 8, non-virtual miniport drivers can optionally receive th
 
 </td>
 <td>
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ Starting with Windows 8, this request is sent to the miniport to free and resou
 
 </td>
 <td>
-Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.
+Srb->PathId, Srb->TargetId, and Srb->Lun are all valid.
 
 </td>
 </tr>

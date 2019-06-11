@@ -179,12 +179,12 @@ WDFSTRING string;
 status = WdfStringCreate(
                          NULL,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string
+                         &string
                          );
 if (NT_SUCCESS(status)) {
     status = WdfDeviceRetrieveDeviceInterfaceString(
                          Device,
-                         &amp;GUID_DEVINTERFACE_DDI_TEST1,
+                         &GUID_DEVINTERFACE_DDI_TEST1,
                          NULL,
                          string
                          );

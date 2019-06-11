@@ -107,7 +107,7 @@ The following code example initializes a new resource descriptor and then calls 
 <pre>IO_RESOURCE_DESCRIPTOR newDescriptor;
 
 RtlZeroMemory(
-              &amp;newDescriptor,
+              &newDescriptor,
               sizeof(newDescriptor)
               );
 
@@ -122,7 +122,7 @@ newDescriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
 
 WdfIoResourceListUpdateDescriptor(
                                   Reslist,
-                                  &amp;newDescriptor,
+                                  &newDescriptor,
                                   1
                                   );</pre>
 </td>

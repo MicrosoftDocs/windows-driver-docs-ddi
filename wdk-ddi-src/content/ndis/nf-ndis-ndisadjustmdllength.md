@@ -95,7 +95,7 @@ The caller of
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562575">NdisFreeMdl</a>.
 
 Callers of 
-    <b>NdisAdjustMdlLength</b> can run at any IRQL, but typically run at IRQL &lt;= DISPATCH_LEVEL.
+    <b>NdisAdjustMdlLength</b> can run at any IRQL, but typically run at IRQL <= DISPATCH_LEVEL.
 
 
 

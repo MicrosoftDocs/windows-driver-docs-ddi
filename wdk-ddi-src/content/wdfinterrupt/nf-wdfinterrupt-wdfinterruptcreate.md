@@ -232,19 +232,19 @@ WDF_INTERRUPT_CONFIG  interruptConfig;
 WDF_OBJECT_ATTRIBUTES  interruptAttributes;
 
 WDF_INTERRUPT_CONFIG_INIT(
-                          &amp;interruptConfig,
+                          &interruptConfig,
                           MyEvtInterruptIsr,
                           MyEvtInterruptDpc
                           );
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;interruptAttributes,
+                                        &interruptAttributes,
                                         INTERRUPT_DATA
                                         );
 status = WdfInterruptCreate(
                             device,
-                            &amp;interruptConfig,
-                            &amp;interruptAttributes,
-                            &amp;devExt-&gt;WdfInterrupt
+                            &interruptConfig,
+                            &interruptAttributes,
+                            &devExt->WdfInterrupt
                             );</pre>
 </td>
 </tr>

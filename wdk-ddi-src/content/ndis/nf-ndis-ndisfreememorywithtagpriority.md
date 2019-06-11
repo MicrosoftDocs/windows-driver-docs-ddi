@@ -129,14 +129,14 @@ When a caller of
 </li>
 <li>
 When a caller of 
-      <b>NdisFreeMemoryWithTagPriority</b> releases noncached memory, it must be running at IRQL &lt;
+      <b>NdisFreeMemoryWithTagPriority</b> releases noncached memory, it must be running at IRQL <
       DISPATCH_LEVEL.
 
 </li>
 <li>
 When a caller of 
       <b>NdisFreeMemoryWithTagPriority</b> releases memory that is neither contiguous nor noncached, it must
-      be running at IRQL &lt;= DISPATCH_LEVEL.
+      be running at IRQL <= DISPATCH_LEVEL.
 
 </li>
 </ul>

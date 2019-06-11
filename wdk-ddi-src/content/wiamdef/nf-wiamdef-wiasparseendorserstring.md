@@ -104,7 +104,7 @@ BSTR  bstrResultingEndorser   = NULL;
 WIAS_ENDORSER_VALUE  aMyTokens[] = {L"$MY_TOKEN$", L"My value"};
 WIAS_ENDORSER_INFO  Info     = {0, 1, aMyTokens};
 hr = wiasParseEndorserString(pWiasContext, 0, 
-                             &amp;Info, &amp;bstrResultingEndorser);</pre>
+                             &Info, &bstrResultingEndorser);</pre>
 </td>
 </tr>
 </table></span></div>

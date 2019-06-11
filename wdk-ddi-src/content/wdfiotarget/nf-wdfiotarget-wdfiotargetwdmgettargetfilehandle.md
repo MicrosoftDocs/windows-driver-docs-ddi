@@ -129,7 +129,7 @@ WDFIOTARGET ioTarget = NULL;
 
 HANDLE handle = NULL;
 
-status = WdfIoTargetCreate(Device, &amp;attr, &amp;ioTarget);
+status = WdfIoTargetCreate(Device, &attr, &ioTarget);
 
 if (!NT_SUCCESS(status)) {
 
@@ -137,9 +137,9 @@ if (!NT_SUCCESS(status)) {
 
 }
 
-WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(&amp;params, NULL);
+WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(&params, NULL);
 
-status = WdfIoTargetOpen(ioTarget, &amp;params);
+status = WdfIoTargetOpen(ioTarget, &params);
 
 if (!NT_SUCCESS(status)) {
 

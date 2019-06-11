@@ -158,7 +158,7 @@ Pointer to a routine that determines whether the USB device is operating at high
 
 The <b>IsDeviceHighSpeed</b> member does not indicate whether a device is capable of high speed operation, but rather whether it is in fact operating at high speed. 
 
-The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL. 
+The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL. 
 
 
 

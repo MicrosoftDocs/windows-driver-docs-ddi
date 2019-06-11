@@ -72,7 +72,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> routine is not atomic. For more information about sequenced singly linked lists, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Sequenced Singly Linked Lists</a>. Callers of this routine can run at any level. If called at IRQL &gt;= DISPATCH_LEVEL, the storage for <b>ListHead</b> must be resident.
+Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> routine is not atomic. For more information about sequenced singly linked lists, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Sequenced Singly Linked Lists</a>. Callers of this routine can run at any level. If called at IRQL >= DISPATCH_LEVEL, the storage for <b>ListHead</b> must be resident.
 
 
 

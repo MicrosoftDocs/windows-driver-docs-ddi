@@ -92,7 +92,7 @@ The datagrams were received with a destination transport address that is a multi
 The WSK subsystem called the 
        <i>WskReceiveFromEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set,
        the WSK subsystem might have called the 
-       <i>WskReceiveFromEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+       <i>WskReceiveFromEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
 
 ### -param DataIndication [in, optional]
@@ -232,7 +232,7 @@ If a WSK application's
     <i>WskReceiveFromEvent</i> event callback function on the socket.
 
 The WSK subsystem calls a WSK application's 
-    <i>WskReceiveFromEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
+    <i>WskReceiveFromEvent</i> event callback function at IRQL <= DISPATCH_LEVEL.
 
 A WSK application's <i>WskReceiveFromEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 

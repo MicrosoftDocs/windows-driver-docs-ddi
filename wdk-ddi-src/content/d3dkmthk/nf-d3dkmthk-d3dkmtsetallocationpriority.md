@@ -82,9 +82,9 @@ VOID SetResourcePriority(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hResource, UINT ui
     SetAllocationPriorityData.hResource = hResource;
     SetAllocationPriorityData.phAllocationList = NULL;
     SetAllocationPriorityData.AllocationCount = 0;
-    SetAllocationPriorityData.Priorities = &amp;uiPriority;    
+    SetAllocationPriorityData.Priorities = &uiPriority;    
 
-    (*pfnKTSetAllocationPriority)(&amp;SetAllocationPriorityData);
+    (*pfnKTSetAllocationPriority)(&SetAllocationPriorityData);
 }
 ```
 

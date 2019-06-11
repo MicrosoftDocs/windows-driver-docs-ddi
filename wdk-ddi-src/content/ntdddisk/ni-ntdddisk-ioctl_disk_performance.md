@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552633">DISK_PERFORMANCE</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552633">DISK_PERFORMANCE</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

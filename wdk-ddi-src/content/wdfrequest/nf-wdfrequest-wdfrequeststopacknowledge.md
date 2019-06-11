@@ -150,7 +150,7 @@ MyEvtIoStop(
 
     // TODO: Take steps here to suspend and, if necessary, roll back any processing that has already occurred on this request
 
-    if (ActionFlags &amp; WdfRequestStopRequestCancelable) {
+    if (ActionFlags & WdfRequestStopRequestCancelable) {
         status = WdfRequestUnmarkCancelable(Request);
         if (status == STATUS_CANCELLED) {
             return;

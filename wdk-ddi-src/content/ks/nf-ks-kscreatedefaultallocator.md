@@ -1,7 +1,7 @@
 ---
 UID: NF:ks.KsCreateDefaultAllocator
 title: KsCreateDefaultAllocator function (ks.h)
-description: Given a validated IRP_MJ_CREATE request, the KsCreateDefaultAllocator function creates a default allocator that uses the specified memory pool and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the allocator using an internal dispatch table (KSDISPATCH_TABLE).
+description: Given a validated IRP_MJ_CREATE request, the KsCreateDefaultAllocator function creates a default allocator that uses the specified memory pool and associates the IoGetCurrentIrpStackLocation(Irp)->FileObject with the allocator using an internal dispatch table (KSDISPATCH_TABLE).
 old-location: stream\kscreatedefaultallocator.htm
 tech.root: stream
 ms.assetid: 79e7c92e-4c39-4c9f-a2d8-b83be08e3ec1
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-Given a validated IRP_MJ_CREATE request, the <b>KsCreateDefaultAllocator</b> function creates a default allocator that uses the specified memory pool and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the allocator using an internal dispatch table (KSDISPATCH_TABLE).
+Given a validated IRP_MJ_CREATE request, the <b>KsCreateDefaultAllocator</b> function creates a default allocator that uses the specified memory pool and associates the IoGetCurrentIrpStackLocation(Irp)->FileObject with the allocator using an internal dispatch table (KSDISPATCH_TABLE).
 
 
 ## -parameters

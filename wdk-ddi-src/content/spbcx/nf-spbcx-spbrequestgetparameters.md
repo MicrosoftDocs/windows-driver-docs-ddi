@@ -93,9 +93,9 @@ The following code example shows how to use <b>SpbRequestGetParameters</b> to re
 <td>
 <pre>SPB_REQUEST_PARAMETERS parameters;
 
-SPB_REQUEST_PARAMETERS_INIT(&amp;parameters);
+SPB_REQUEST_PARAMETERS_INIT(&parameters);
 
-SpbRequestGetParameters(spbRequest, &amp;parameters);
+SpbRequestGetParameters(spbRequest, &parameters);
 
 </pre>
 </td>

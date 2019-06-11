@@ -60,22 +60,22 @@ Returns volume tag information for the specified elements.
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the starting element for which to return information, the action to perform, and a template to use when searching for volume IDs.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the starting element for which to return information, the action to perform, and a template to use when searching for volume IDs.
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff551479">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff551479">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>). 
 
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, in bytes, of the parameter buffer for output, which must be &gt;= <b>sizeof</b>(READ_ELEMENT_ADDRESS_INFO).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the size, in bytes, of the parameter buffer for output, which must be >= <b>sizeof</b>(READ_ELEMENT_ADDRESS_INFO).
 
 
 ### -in-out-buffer

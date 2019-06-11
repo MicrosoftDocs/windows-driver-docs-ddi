@@ -66,7 +66,7 @@ None.
 
 ### -output-buffer
 
-The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
+The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure. <b>EHSTOR_DEVICE_PROPERTIES</b> is declared in <i>ehstorioctl.h</i> as the following.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

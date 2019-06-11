@@ -56,7 +56,7 @@ New bands are created on a band-managed storage device with the <b>IOCTL_EHSTOR_
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> structure followed by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>, and <b>AUTH_KEY</b> structures. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> structure followed by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>, and <b>AUTH_KEY</b> structures. 
 
 If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 
@@ -68,7 +68,7 @@ If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/librar
 
 ### -output-buffer
 
-The output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> optionally contains a ULONG value for the identifier of the newly created band.  
+The output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> optionally contains a ULONG value for the identifier of the newly created band.  
 
 
 ### -output-buffer-length

@@ -129,7 +129,7 @@ The FWPS_CALLOUT_FLOW_DELETE_NOTIFY_FN0 type is defined as a pointer to the
 </tr>
 </table></span></div>
 The filter engine calls a callout's 
-    <i>flowDeleteFn</i> callout function at IRQL &lt;= DISPATCH_LEVEL.
+    <i>flowDeleteFn</i> callout function at IRQL <= DISPATCH_LEVEL.
 
 
 

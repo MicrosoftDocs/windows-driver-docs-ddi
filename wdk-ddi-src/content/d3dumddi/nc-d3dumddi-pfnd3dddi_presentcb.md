@@ -106,14 +106,14 @@ The following code example shows how to color-fill a destination surface.
     PresentCBData.hContext = m_sContexts[MULTI_ENGINE_NODE_3D].hContext;
     PresentCBData.hSrcAllocation = NULL;
 
-    if (pPresent-&gt;hDstResource) {
-        DWORD   dwDstSurf = ((DWORD)(DWORD_PTR)pPresent-&gt;hDstResource) + pPresent-&gt;DstSubResourceIndex;
-        _ASSERT(dwDstSurf &lt; m_RTbl.Size());
+    if (pPresent->hDstResource) {
+        DWORD   dwDstSurf = ((DWORD)(DWORD_PTR)pPresent->hDstResource) + pPresent->DstSubResourceIndex;
+        _ASSERT(dwDstSurf < m_RTbl.Size());
         m_RTbl[dwDstSurf].m_qwBatch = m_qwBatch;
         PresentCBData.hDstAllocation = R200GetSurfaceAllocHandle(m_pR200Ctx, dwDstSurf);
     }
 
-    hr = m_d3dCallbacks.pfnPresentCb(m_hD3D, &amp;PresentCBData);
+    hr = m_d3dCallbacks.pfnPresentCb(m_hD3D, &PresentCBData);
 
     return hr;
 ```

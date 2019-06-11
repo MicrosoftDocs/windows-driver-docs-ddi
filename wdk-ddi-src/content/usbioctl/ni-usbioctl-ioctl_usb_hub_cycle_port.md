@@ -99,7 +99,7 @@ None.
 
 ### -status-block
 
-The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
+The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -remarks
@@ -108,7 +108,7 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 You can also power cycle the port by using the <b>Device Manager</b>'s <b>Enable</b>/<b>Disable</b> feature. This feature causes the bus driver to reset the device. Alternatively, you can use DevCon to enable or disable the device. 
 
-The executable for DevCon can be found in the <i>&lt;install_path&gt;</i><b>\WinDDK\</b><i>build_number</i><b>\tools\devcon\</b><i>&lt;arch&gt;</i><b>\devcon.exe</b> folder.
+The executable for DevCon can be found in the <i><install_path></i><b>\WinDDK\</b><i>build_number</i><b>\tools\devcon\</b><i><arch></i><b>\devcon.exe</b> folder.
 
 
 

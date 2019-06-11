@@ -68,7 +68,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the query data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a> structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the query data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a> structure at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length

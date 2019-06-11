@@ -162,7 +162,7 @@ The <b>FltQueueDeferredIoWorkItem</b> routine returns STATUS_SUCCESS or an appro
 </dl>
 </td>
 <td width="60%">
-The target instance for the I/O operation (<i>Data-&gt;Iopb-&gt;TargetInstance</i>) is being torn down. This is an error code. 
+The target instance for the I/O operation (<i>Data->Iopb->TargetInstance</i>) is being torn down. This is an error code. 
 
 </td>
 </tr>

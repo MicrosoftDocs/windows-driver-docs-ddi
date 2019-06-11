@@ -99,7 +99,7 @@ Specifies the pointer to the list of method set information.
 
 
 
-The <b>KsFastMethodHandler</b> function returns <b>TRUE</b> if the request is handled, or <b>FALSE</b> if the request is not handled. If the request is not handled, an IRP is generated. If the request was handled, the function sets the IoStatus-&gt;Information element to zero because of an internal error or the element is set by a method handler. The method handler also sets the IoStatus-&gt;Status field when the method is handled.
+The <b>KsFastMethodHandler</b> function returns <b>TRUE</b> if the request is handled, or <b>FALSE</b> if the request is not handled. If the request is not handled, an IRP is generated. If the request was handled, the function sets the IoStatus->Information element to zero because of an internal error or the element is set by a method handler. The method handler also sets the IoStatus->Status field when the method is handled.
 
 
 

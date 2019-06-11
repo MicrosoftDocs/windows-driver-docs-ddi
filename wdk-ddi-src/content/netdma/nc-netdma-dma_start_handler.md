@@ -184,7 +184,7 @@ After
     additional data to the transfer.
 
 NetDMA calls 
-    <i>ProviderStartDma</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderStartDma</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

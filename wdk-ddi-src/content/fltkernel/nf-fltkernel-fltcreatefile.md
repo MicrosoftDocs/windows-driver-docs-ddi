@@ -871,7 +871,7 @@ status = ObReferenceObjectByHandle(
            0,                      //DesiredAccess
            NULL,                   //ObjectType
            KernelMode,             //AccessMode
-           &amp;handleFileObject,      //Object
+           &handleFileObject,      //Object
            NULL);                  //HandleInformation</pre>
 </td>
 </tr>

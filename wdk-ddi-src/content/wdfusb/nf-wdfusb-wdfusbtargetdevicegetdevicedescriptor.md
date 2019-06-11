@@ -102,8 +102,8 @@ The following code example obtains the USB device descriptor for a device. The e
 myDeviceContext = GetDeviceContext(device);
 
 WdfUsbTargetDeviceGetDeviceDescriptor(
-                                      myDeviceContext-&gt;UsbTargetDevice,
-                                      &amp;myDeviceContext-&gt;UsbDeviceDescr
+                                      myDeviceContext->UsbTargetDevice,
+                                      &myDeviceContext->UsbDeviceDescr
                                       );</pre>
 </td>
 </tr>

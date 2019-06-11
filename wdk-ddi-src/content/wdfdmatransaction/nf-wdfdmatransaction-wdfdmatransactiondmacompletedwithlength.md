@@ -114,12 +114,12 @@ ULONG  length;
 // transferred byte count.
 //
 length = WdfDmaTransactionGetCurrentDmaTransferLength(dmaTransaction);
-dteVA = (PDMA_TRANSFER_ELEMENT) devExt-&gt;ReadCommonBufferBase;
-while(dteVA-&gt;DescPtr.LastElement == FALSE) {
-    length -= dteVA-&gt;TransferSize;
+dteVA = (PDMA_TRANSFER_ELEMENT) devExt->ReadCommonBufferBase;
+while(dteVA->DescPtr.LastElement == FALSE) {
+    length -= dteVA->TransferSize;
     dteVA++;
 }
-length -= dteVA-&gt;TransferSize;
+length -= dteVA->TransferSize;
 //
 // Indicate that this DMA operation has completed.
 //
@@ -127,13 +127,13 @@ hasTransitioned =
     WdfDmaTransactionDmaCompletedWithLength(
                                             dmaTransaction,
                                             length,
-                                            &amp;status
+                                            &status
                                             ); 
 if (hasTransitioned) {
     //
     // Complete this DMA transaction.
     //
-    devExt-&gt;CurrentReadDmaTransaction = NULL;
+    devExt->CurrentReadDmaTransaction = NULL;
     PLxReadRequestComplete(
                            dmaTransaction,
                            status

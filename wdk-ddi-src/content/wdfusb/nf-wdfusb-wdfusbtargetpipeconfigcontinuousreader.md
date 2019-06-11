@@ -195,14 +195,14 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 NTSTATUS  status;
 
 WDF_USB_CONTINUOUS_READER_CONFIG_INIT(
-                                      &amp;contReaderConfig,
+                                      &contReaderConfig,
                                       OsrFxEvtUsbInterruptPipeReadComplete,
                                       DeviceContext,
                                       sizeof(UCHAR)
                                       );
 status = WdfUsbTargetPipeConfigContinuousReader(
                                       Pipe,
-                                      &amp;contReaderConfig
+                                      &contReaderConfig
                                       );</pre>
 </td>
 </tr>

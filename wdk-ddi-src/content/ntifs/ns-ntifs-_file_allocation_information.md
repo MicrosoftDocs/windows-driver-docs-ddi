@@ -83,7 +83,7 @@ FILE_WRITE_DATA access is required to set this information.
 
 A file's allocation size and end-of-file position are independent of each other, with the following exception: The end-of-file position must always be less than or equal to the allocation size. If the allocation size is set to a value that is less than the end-of-file position, the end-of-file position is automatically adjusted to match the allocation size. 
 
-The size of the <i>FileInformation</i> buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> must be &gt;= <b>sizeof</b>(FILE_ALLOCATION_INFORMATION). 
+The size of the <i>FileInformation</i> buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> must be >= <b>sizeof</b>(FILE_ALLOCATION_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 

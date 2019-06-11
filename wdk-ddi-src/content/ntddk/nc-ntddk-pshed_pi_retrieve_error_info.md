@@ -151,7 +151,7 @@ An important task of a PSHED plug-in's <i>RetrieveErrorInfo</i> callback functio
 
 <div class="alert"><b>Important</b>    For corrected hardware errors, a PSHED plug-in must retrieve all of the error status information that it requires for processing the error condition from within its <i>RetrieveErrorInfo</i> callback function, as the remainder of the processing of the hardware error is not guaranteed to be synchronized with the LLHEH.</div>
 <div> </div>
-The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at IRQL &lt;= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
+The PSHED calls a PSHED plug-in's <i>RetrieveErrorInfo</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 
 

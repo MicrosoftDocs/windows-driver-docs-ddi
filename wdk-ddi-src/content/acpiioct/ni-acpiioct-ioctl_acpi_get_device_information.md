@@ -134,9 +134,9 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 ### -status-block
 
-If the request succeeds, <i>IoStatusBlock</i>-&gt;<b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the output buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain all the output arguments from the control method, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW, and <i>OutputBuffer</i>-&gt;<b>Length</b> is set to the required length of the output buffer.
+If the request succeeds, <i>IoStatusBlock</i>-><b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the output buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain all the output arguments from the control method, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW, and <i>OutputBuffer</i>-><b>Length</b> is set to the required length of the output buffer.
 
-If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
+If the request succeeds, the <i>IoStatusBlock</i>-><b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
 
 
 ## -remarks
@@ -147,7 +147,7 @@ A driver for a device can use IOCTL_ACPI_GET_DEVICE_INFORMATION to obtain fine-g
 
 The output arguments from the request are returned in the variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/hh450789">ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER includes an array of variable-length arrays, each of which returns an output argument representing the sub-system ID string, vendor ID string, and instance ID string, respectively.
 
-IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL &lt;= DISPATCH_LEVEL.
+IOCTL_ACPI_GET_DEVICE_INFORMATION can be used only at IRQL <= DISPATCH_LEVEL.
 
 
 

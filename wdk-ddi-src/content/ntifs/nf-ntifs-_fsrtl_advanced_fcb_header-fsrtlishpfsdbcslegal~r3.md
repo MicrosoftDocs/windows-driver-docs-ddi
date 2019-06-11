@@ -93,7 +93,7 @@ HPFS file names must obey the following rules:
 
 <ol>
 <li>
-The following characters are illegal in HPFS file names: 0x0000 - 0x001F, " (quotation marks), / (slash), : (colon), &lt; (less-than sign), &gt; (greater-than sign), ? (question mark), | (vertical bar or pipe), * (asterisk)
+The following characters are illegal in HPFS file names: 0x0000 - 0x001F, " (quotation marks), / (slash), : (colon), < (less-than sign), > (greater-than sign), ? (question mark), | (vertical bar or pipe), * (asterisk)
 
 </li>
 <li>

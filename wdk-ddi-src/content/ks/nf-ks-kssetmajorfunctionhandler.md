@@ -155,7 +155,7 @@ KSDISPATCH_FASTIO
 
 </td>
 <td>
-This flag may be added to the MajorFunction identifier in order to specify that the entry refers to the fast I/O dispatch table, rather than the typical major function entry. This is valid only with IRP_MJ_READ, IRP_MJ_WRITE or IRP_MJ_DEVICE_CONTROL. The driver is responsible for creating the DriverObject-&gt;FastIoDispatch table. As with normal dispatching, if a handler is set for the driver object, all file objects must handle that fast I/O, even if the entry just points to DispatchFastIoDeviceControlFailure or a similar function.
+This flag may be added to the MajorFunction identifier in order to specify that the entry refers to the fast I/O dispatch table, rather than the typical major function entry. This is valid only with IRP_MJ_READ, IRP_MJ_WRITE or IRP_MJ_DEVICE_CONTROL. The driver is responsible for creating the DriverObject->FastIoDispatch table. As with normal dispatching, if a handler is set for the driver object, all file objects must handle that fast I/O, even if the entry just points to DispatchFastIoDeviceControlFailure or a similar function.
 
 </td>
 </tr>

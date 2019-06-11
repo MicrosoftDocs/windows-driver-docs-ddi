@@ -125,7 +125,7 @@ A memory buffer could not be allocated.
 </dl>
 </td>
 <td width="60%">
-The framework returns this value if a UMDF driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a> with <i>Params</i>-&gt;<b>Type</b> set to any of the following:
+The framework returns this value if a UMDF driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a> with <i>Params</i>-><b>Type</b> set to any of the following:
 
 <ul>
 <li><b>WdfUsbTargetDeviceSelectConfigTypeDeconfig</b></li>
@@ -178,12 +178,12 @@ The following code example selects a configuration with a single, specified  int
 <pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
 NTSTATUS  status;
 
-WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&amp;configParams);
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&configParams);
 
 status = WdfUsbTargetDeviceSelectConfig(
                                         UsbDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
-                                        &amp;configParams
+                                        &configParams
                                         );</pre>
 </td>
 </tr>
@@ -213,7 +213,7 @@ if (settingPairs == NULL){
     return STATUS_INSUFFICIENT_RESOURCES;
 }
 
-for (interfaceIndex = 0; interfaceIndex &lt; numInterfaces; interfaceIndex++) {
+for (interfaceIndex = 0; interfaceIndex < numInterfaces; interfaceIndex++) {
         
     settingPairs[interfaceIndex].UsbInterface = 
                                     WdfUsbTargetDeviceGetInterface(
@@ -226,7 +226,7 @@ for (interfaceIndex = 0; interfaceIndex &lt; numInterfaces; interfaceIndex++) {
 }
 
 WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES(
-    &amp;configParams,
+    &configParams,
     numInterfaces,
     settingPairs
 );
@@ -234,7 +234,7 @@ WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES(
 status = WdfUsbTargetDeviceSelectConfig(
     UsbDevice,
     NULL,
-    &amp;configParams
+    &configParams
 );
 
 if (!NT_SUCCESS(status)) {

@@ -132,7 +132,7 @@ A PSHED plug-in that participates in error information retrieval sets the <b>Cal
 
 For corrected hardware error conditions, the Windows kernel calls into the PSHED to clear the error source's error status registers as the final step of processing the error. If a PSHED plug-in is registered to participate in error information retrieval, the PSHED calls the PSHED plug-in's <i>ClearErrorStatus</i> callback function so that the PSHED plug-in can clear any additional platform-specific error status registers.
 
-The PSHED calls a PSHED plug-in's <i>ClearErrorStatus</i> callback function at IRQL &lt;= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
+The PSHED calls a PSHED plug-in's <i>ClearErrorStatus</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 
 

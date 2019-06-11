@@ -76,7 +76,7 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL.</b>
 ### -field MaximumAddress
 
 
-(Optional) Specifies the maximum GPU virtual address to consider for the mapped range. the video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> &lt;= <b>MaximumAddress</b>. If this is set to <b>NULL</b> the video memory manager will not apply any limit.
+(Optional) Specifies the maximum GPU virtual address to consider for the mapped range. the video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> <= <b>MaximumAddress</b>. If this is set to <b>NULL</b> the video memory manager will not apply any limit.
 The <b>MaximumAddress</b> value is in bytes and must be aligned to the 4KB page.
 This parameter is ignored when <b>BaseAddress</b> != NULL.
 

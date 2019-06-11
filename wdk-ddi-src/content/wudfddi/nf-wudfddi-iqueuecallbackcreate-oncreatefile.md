@@ -118,17 +118,17 @@ HRESULT hr = S_OK;
 ClientContext* pClientContext = new ClientContext ();
 . . . //Code omitted.
 if(pClientContext != NULL) {
-hr = pFileObject-&gt;AssignContext (this, (void*)pClientContext);
+hr = pFileObject->AssignContext (this, (void*)pClientContext);
 // Release the client context if we cannot set it
 if(FAILED(hr)) {
-pClientContext-&gt;Release();
+pClientContext->Release();
 pClientContext = NULL;
 }
 }
 else {
 hr = E_OUTOFMEMORY;
 }
-pRequest-&gt;Complete(hr);
+pRequest->Complete(hr);
 return;
 }</pre>
 </td>

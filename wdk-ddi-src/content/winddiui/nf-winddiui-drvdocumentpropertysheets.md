@@ -98,7 +98,7 @@ See the description of the <i>lParam</i> parameter for the <a href="https://msdn
 
 
 
-If <i>pPSUIInfo</i> is <b>NULL</b>, and if either <i>lParam</i> -&gt; <b>fMode</b> is zero or <i>lParam -</i>&gt; <b>pdmOut</b> is <b>NULL</b>, this function should return the size, in bytes, of the printer's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> function type. For more information, see the Remarks section. 
+If <i>pPSUIInfo</i> is <b>NULL</b>, and if either <i>lParam</i> -> <b>fMode</b> is zero or <i>lParam -</i>> <b>pdmOut</b> is <b>NULL</b>, this function should return the size, in bytes, of the printer's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. Otherwise, the function's return value is the same as that described in the ReturnValue section of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> function type. For more information, see the Remarks section. 
 
 
 

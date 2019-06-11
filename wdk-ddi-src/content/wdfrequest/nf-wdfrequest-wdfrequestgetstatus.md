@@ -119,14 +119,14 @@ KbFilter_ForwardRequest(
     NTSTATUS status;
 
     WDF_REQUEST_SEND_OPTIONS_INIT(
-                                  &amp;options,
+                                  &options,
                                   WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
                                   );
 
     ret = WdfRequestSend(
                          Request,
                          Target,
-                         &amp;options
+                         &options
                          );
 
     if (ret == FALSE) {

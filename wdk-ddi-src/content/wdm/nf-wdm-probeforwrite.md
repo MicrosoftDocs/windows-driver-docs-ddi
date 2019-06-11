@@ -84,13 +84,13 @@ None
 
 If the specified range of memory is not a valid user-mode address range or is not writable (no access, read-only, and so on), <b>ProbeForWrite</b> raises the STATUS_ACCESS_VIOLATION exception. If the beginning of the address range is not aligned on the byte boundary that is specified by <i>Alignment</i>, <b>ProbeForWrite</b> raises the STATUS_DATATYPE_MISALIGNMENT exception. 
 
-Kernel-mode drivers must use <b>ProbeForWrite</b> to validate write access to buffers allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp-&gt;UserBuffer</b>.
+Kernel-mode drivers must use <b>ProbeForWrite</b> to validate write access to buffers allocated in user space. It is most commonly used during METHOD_NEITHER I/O to validate the user buffer pointed to by <b>Irp->UserBuffer</b>.
 
 Drivers must call <b>ProbeForWrite</b> inside a <b>try/except</b> block. If the routine raises an exception, the driver should complete the IRP with the appropriate error. Note that subsequent accesses by the driver to the user-mode buffer must also be encapsulated within a <b>try/except</b> block: a malicious application could have another thread deleting, substituting, or changing the protection of user address ranges at any time (even after or during a call to <b>ProbeForRead</b> or <b>ProbeForWrite</b>). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>.
 
 Do not use this routine on kernel-mode addresses; it will raise an exception.
 
-If <b>Irp-&gt;RequestorMode</b> = <b>KernelMode</b>, the <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> and <b>Irp-&gt;UserBuffer</b> fields do not contain user-mode addresses, and a call to <b>ProbeForWrite</b> to probe a buffer pointed to by either field will raise an exception.
+If <b>Irp->RequestorMode</b> = <b>KernelMode</b>, the <b>Irp->AssociatedIrp.SystemBuffer</b> and <b>Irp->UserBuffer</b> fields do not contain user-mode addresses, and a call to <b>ProbeForWrite</b> to probe a buffer pointed to by either field will raise an exception.
 
 If <i>Length</i> = 0, <b>ProbeForWrite</b> does no checking of the address. In this case, the routine does not raise an exception for an address that is misaligned or is outside the range of valid user addresses.
 

@@ -107,9 +107,9 @@ The size of function handles for functions in the device.
 
 ### -status-block
 
-The USB driver stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request completes successfully. STATUS_SUCCESS indicates that the function handles are valid.
+The USB driver stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request completes successfully. STATUS_SUCCESS indicates that the function handles are valid.
 
-In case of an error,  <b>Irp-&gt;IoStatus.Status</b> contains an appropriate error status. For example, if the composite driver sends the request more than once, the <b>Status</b> is set to STATUS_INVALID_DEVICE_REQUEST.
+In case of an error,  <b>Irp->IoStatus.Status</b> contains an appropriate error status. For example, if the composite driver sends the request more than once, the <b>Status</b> is set to STATUS_INVALID_DEVICE_REQUEST.
 
 
 ## -remarks

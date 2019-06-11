@@ -61,7 +61,7 @@ A handle to a context block associated with a display adapter. The display minip
 
 ### -param ChildStatus [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561010">DXGK_CHILD_STATUS</a> structure. The caller supplies ChildStatus-&gt;Type and ChildStatus-&gt;ChildUid. On return, the remaining structure member (a union) receives the requested status.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561010">DXGK_CHILD_STATUS</a> structure. The caller supplies ChildStatus->Type and ChildStatus->ChildUid. On return, the remaining structure member (a union) receives the requested status.
 
 
 ### -param NonDestructiveOnly [in]
@@ -88,11 +88,11 @@ During initialization, the display port driver calls <a href="https://msdn.micro
 
 <ul>
 <li>
-If ChildStatus-&gt;Type is equal to <b>StatusConnection</b>, return a Boolean value in ChildStatus-&gt;HotPlug.Connected. Return <b>TRUE</b> if the child device identified by ChildStatus-&gt;ChildUid has external hardware connected to it; otherwise return <b>FALSE</b>.
+If ChildStatus->Type is equal to <b>StatusConnection</b>, return a Boolean value in ChildStatus->HotPlug.Connected. Return <b>TRUE</b> if the child device identified by ChildStatus->ChildUid has external hardware connected to it; otherwise return <b>FALSE</b>.
 
 </li>
 <li>
-If ChildStatus-&gt;Type is equal to <b>StatusRotation</b>, return (in ChildStatus-&gt;Rotation.Angle) the angle of rotation for the display connected to the child device identified by ChildStatus-&gt;ChildUid.
+If ChildStatus->Type is equal to <b>StatusRotation</b>, return (in ChildStatus->Rotation.Angle) the angle of rotation for the display connected to the child device identified by ChildStatus->ChildUid.
 
 </li>
 </ul>

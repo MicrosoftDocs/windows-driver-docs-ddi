@@ -188,14 +188,14 @@ In the DMusUART sample driver in the Windows Driver Kit (WDK), the KSPROPERTY_SY
 </tr>
 <tr>
 <td>
-<pre>  SYNTHCAPS *caps = (SYNTHCAPS*)pRequest-&gt;Value;
+<pre>  SYNTHCAPS *caps = (SYNTHCAPS*)pRequest->Value;
   ...
-  caps-&gt;Flags              = SYNTH_PC_EXTERNAL;
-  caps-&gt;MemorySize         = 0;         
-  caps-&gt;MaxChannelGroups   = 1;
-  caps-&gt;MaxVoices          = 0xFFFFFFFF;  // (ULONG)-1
-  caps-&gt;MaxAudioChannels   = 0xFFFFFFFF;  // (ULONG)-1
-  caps-&gt;EffectFlags        = 0;</pre>
+  caps->Flags              = SYNTH_PC_EXTERNAL;
+  caps->MemorySize         = 0;         
+  caps->MaxChannelGroups   = 1;
+  caps->MaxVoices          = 0xFFFFFFFF;  // (ULONG)-1
+  caps->MaxAudioChannels   = 0xFFFFFFFF;  // (ULONG)-1
+  caps->EffectFlags        = 0;</pre>
 </td>
 </tr>
 </table></span></div>

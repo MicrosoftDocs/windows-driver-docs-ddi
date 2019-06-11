@@ -56,7 +56,7 @@ The <b>IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</b> request will cryptographically erase
 
 ### -input-buffer
 
-The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an   <a href="https://msdn.microsoft.com/library/windows/hardware/hh439726">ERASE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
+The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an   <a href="https://msdn.microsoft.com/library/windows/hardware/hh439726">ERASE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
 
 If the <b>NewAuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439726">ERASE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 

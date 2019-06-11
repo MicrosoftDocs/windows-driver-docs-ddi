@@ -132,12 +132,12 @@ The following code examples initializes a WDF_DEVICE_PNP_CAPABILITIES structure 
 <td>
 <pre>WDF_DEVICE_PNP_CAPABILITIES  pnpCaps;
 
-WDF_DEVICE_PNP_CAPABILITIES_INIT(&amp;pnpCaps);
+WDF_DEVICE_PNP_CAPABILITIES_INIT(&pnpCaps);
 pnpCaps.SurpriseRemovalOK = WdfTrue;
 
 WdfDeviceSetPnpCapabilities(
                             device,
-                            &amp;pnpCaps
+                            &pnpCaps
                             );</pre>
 </td>
 </tr>

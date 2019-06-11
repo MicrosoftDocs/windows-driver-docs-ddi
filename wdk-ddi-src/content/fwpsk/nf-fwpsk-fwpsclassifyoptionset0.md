@@ -127,7 +127,7 @@ The
 </td>
 <td width="60%">
 The option value specified by 
-       <i>newValue</i> -&gt;
+       <i>newValue</i> ->
        <b>uint32</b> does not include one of the defined FWP_OPTION_VALUE_XXX constant values.
 
 </td>
@@ -140,7 +140,7 @@ The option value specified by
 </td>
 <td width="60%">
 The data type specified by 
-       <i>newValue</i> -&gt;
+       <i>newValue</i> ->
        <b>Type</b> was not FWP_UINT32.
 
 </td>
@@ -189,9 +189,9 @@ The following are the allowed values of the
 <tr>
 <th><i>option</i> Parameter</th>
 <th>
-      newValue-&gt;type Value</th>
+      newValue->type Value</th>
 <th>
-      newValue-&gt;uint32 Value</th>
+      newValue->uint32 Value</th>
 </tr>
 <tr>
 <td>
@@ -254,7 +254,7 @@ FWP_CLASSIFY_OPTION_MCAST_BCAST_LIFETIME
 
 </td>
 <td>
-FWP_UINT32 &gt; 0
+FWP_UINT32 > 0
 
 </td>
 <td>
@@ -268,7 +268,7 @@ FWP_CLASSIFY_OPTION_UNICAST_LIFETIME
 
 </td>
 <td>
-FWP_UINT32 &gt; 0
+FWP_UINT32 > 0
 
 </td>
 <td>

@@ -113,16 +113,16 @@ If <i>TransferDescriptor</i> is non-NULL, the caller must call the <a href="http
 WDF_REQUEST_PARAMETERS parameters;
 WDF_TRANSFER_DESCRIPTOR transfer;
 
-WDF_REQUEST_PARAMETERS_INIT(&amp;parameters);
-WDF_TRANSFER_DESCRIPTOR_INIT(&amp;transfer);
+WDF_REQUEST_PARAMETERS_INIT(&parameters);
+WDF_TRANSFER_DESCRIPTOR_INIT(&transfer);
 
-SpbRequestGetParameters(request, &amp;parameters);
+SpbRequestGetParameters(request, &parameters);
 
-for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
+for (ULONG i = 0; i < parameters.SequenceCount; i += 1)
 {
     WDFMEMORY buffer;
 
-    SpbRequestGetTransferParameters(request, i, &amp;transfer, &amp;buffer);
+    SpbRequestGetTransferParameters(request, i, &transfer, &buffer);
 
     MyDriverPerformTransfer(deviceContext, 
                             request,

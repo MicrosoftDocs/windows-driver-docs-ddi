@@ -86,7 +86,7 @@ A unicast MAC address uniquely identifies a station on a WLAN. A MAC address is 
 </tr>
 <tr>
 <td>
-<pre>(DOT11_MAC_ADDRESS[0] &amp; 0x01 == 0)</pre>
+<pre>(DOT11_MAC_ADDRESS[0] & 0x01 == 0)</pre>
 </td>
 </tr>
 </table></span></div>
@@ -99,7 +99,7 @@ A multicast MAC address uniquely identifies a group of stations on a WLAN. A MAC
 </tr>
 <tr>
 <td>
-<pre>(DOT11_MAC_ADDRESS[0] &amp; 0x01 == 1)</pre>
+<pre>(DOT11_MAC_ADDRESS[0] & 0x01 == 1)</pre>
 </td>
 </tr>
 </table></span></div>

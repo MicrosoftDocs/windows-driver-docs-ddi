@@ -96,12 +96,12 @@ Each lock that a driver allocates can do one of the following:
 <ul>
 <li>
 Protect a discrete set of shared resources from concurrent write and read access by driver threads
-      that run at IRQL &lt;= DISPATCH_LEVEL.
+      that run at IRQL <= DISPATCH_LEVEL.
 
 </li>
 <li>
 Expose a discrete set of shared resources to concurrent read access by driver threads that run at
-      IRQL &lt;= DISPATCH_LEVEL.
+      IRQL <= DISPATCH_LEVEL.
 
 </li>
 </ul>

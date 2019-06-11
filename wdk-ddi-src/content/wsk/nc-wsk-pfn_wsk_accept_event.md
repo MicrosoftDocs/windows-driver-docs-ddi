@@ -78,7 +78,7 @@ A ULONG value that contains the following flag, or zero:
 The WSK subsystem called the 
        <i>WskAcceptEvent</i> event callback function at IRQL = DISPATCH_LEVEL. If this flag is not set, the
        WSK subsystem might have called the 
-       <i>WskAcceptEvent</i> event callback function at any IRQL &lt;= DISPATCH_LEVEL.
+       <i>WskAcceptEvent</i> event callback function at any IRQL <= DISPATCH_LEVEL.
 
 
 ### -param LocalAddress [in]
@@ -238,7 +238,7 @@ The WSK subsystem allocates the memory for the socket object structure (
     behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is closed.
 
 The WSK subsystem calls a WSK application's 
-    <i>WskAcceptEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
+    <i>WskAcceptEvent</i> event callback function at IRQL <= DISPATCH_LEVEL.
 
 A WSK application's <i>WskAcceptEvent</i> event callback function must not wait for completion of other WSK requests in the context of WSK completion or event callback functions. The callback can initiate other WSK requests (assuming that it doesn't spend too much time at DISPATCH_LEVEL), but it must not wait for their completion even when the callback is called at IRQL = PASSIVE_LEVEL.
 

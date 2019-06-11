@@ -124,7 +124,7 @@ When your driver has finished using a memory object that it obtained from a look
 
 For more information about framework memory objects and lookaside lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
-If lookaside-list buffers are being allocated from the pageable memory pool, the <b>WdfMemoryCreateFromLookaside</b> method must be called at IRQL &lt;= APC_LEVEL. Otherwise, the method can be called at IRQL &lt;= DISPATCH_LEVEL.
+If lookaside-list buffers are being allocated from the pageable memory pool, the <b>WdfMemoryCreateFromLookaside</b> method must be called at IRQL <= APC_LEVEL. Otherwise, the method can be called at IRQL <= DISPATCH_LEVEL.
 
 
 #### Examples
@@ -148,12 +148,12 @@ status = WdfLookasideListCreate(
                                 NonPagedPool,
                                 WDF_NO_OBJECT_ATTRIBUTES,
                                 MY_POOL_TAG,
-                                &amp;driverContext-&gt;LookasideListHandle
+                                &driverContext->LookasideListHandle
                                 );
 ...
 status = WdfMemoryCreateFromLookaside(
-                                      driverContext-&gt;LookasideListHandle,
-                                      &amp;memHandle
+                                      driverContext->LookasideListHandle,
+                                      &memHandle
                                       );</pre>
 </td>
 </tr>

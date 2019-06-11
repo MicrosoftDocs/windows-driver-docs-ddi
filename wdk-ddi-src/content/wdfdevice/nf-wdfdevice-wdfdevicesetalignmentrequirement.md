@@ -110,7 +110,7 @@ The following code example is from the <a href="https://docs.microsoft.com/windo
 <pre>ULONG alignReq;
 
 alignReq = WdfDeviceGetAlignmentRequirement(device);
-if (alignReq &lt; AMCC5933_ALIGNMENT__32BITS) {
+if (alignReq < AMCC5933_ALIGNMENT__32BITS) {
 //
 // Set the S5933 alignment requirement to a new value.
 //

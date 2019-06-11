@@ -166,10 +166,10 @@ NTSTATUS status;
 val = 0x123456;
 status = WdfRegistryAssignValue(
                                 Key,
-                                &amp;valueName,
+                                &valueName,
                                 REG_BINARY,
                                 sizeof(val),
-                                &amp;val
+                                &val
                                 );</pre>
 </td>
 </tr>

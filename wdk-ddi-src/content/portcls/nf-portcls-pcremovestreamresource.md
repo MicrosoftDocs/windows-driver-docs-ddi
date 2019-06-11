@@ -93,7 +93,7 @@ Audio drivers must remove a previously registered resource.  Drivers may unregis
 <li>Device re-balance when I/O resources change. 
 
 </li>
-<li>Device power transitions (D0&lt;- -&gt;Dx) when resources are destroyed or created. For example interrupts may be disconnected when going in Dx and reconnected with moving back to D0. 
+<li>Device power transitions (D0<- ->Dx) when resources are destroyed or created. For example interrupts may be disconnected when going in Dx and reconnected with moving back to D0. 
 
 </li>
 <li>When processing stop, surprise-remove, remove plug and play events. 

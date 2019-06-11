@@ -81,9 +81,9 @@ A pointer to a variable that receives the value for the property.
 
 The <b>GetNamedValue</b> method allocates memory for a string in the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure pointed to by the <i>pv</i> parameter.   The caller must then free this memory by calling the <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a> function, as shown in the following snippet:
 
-<pre class="syntax" xml:space="preserve"><code>hr = pPropStore-&gt;GetNamedValue(L"Host", &amp;val);
+<pre class="syntax" xml:space="preserve"><code>hr = pPropStore->GetNamedValue(L"Host", &val);
 ...
-PropVariantClear(&amp;val);</code></pre>
+PropVariantClear(&val);</code></pre>
 If the caller does not free the memory, a memory leak may result.
 
 The following variant types are supported for property values. The following table shows the variant type that is returned regardless of the original variant type.

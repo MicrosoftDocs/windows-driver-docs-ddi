@@ -73,7 +73,7 @@ Specifies an aligned copy of the method data parameter or the system address of 
 
 
 
-Return STATUS_SUCCESS if the method is handled and the data buffer has been filled per the flag that was specified in KSMETHOD_ITEM. If returning data, your driver should set the <b>Irp-&gt;IoStatus.Information</b> field, but should not set the <b>Irp-&gt;IoStatus.Status</b> field nor should it complete the IRP. Mark the IRP pending if it is to be completed asynchronously.
+Return STATUS_SUCCESS if the method is handled and the data buffer has been filled per the flag that was specified in KSMETHOD_ITEM. If returning data, your driver should set the <b>Irp->IoStatus.Information</b> field, but should not set the <b>Irp->IoStatus.Status</b> field nor should it complete the IRP. Mark the IRP pending if it is to be completed asynchronously.
 
 Alternatively, return STATUS_SOME_NOT_MAPPED if the method has been handled but the particular request has not been completed and must be completed by the calling helper function. Return any other error message to indicate that the method is not supported or a parameter error has occurred.
 
@@ -113,8 +113,8 @@ The following code snippet shows an example of an implementation of a method han
     pIrpStack = IoGetCurrentIrpStackLocation(pIrp);
     if(pIrpStack) {
         // Set the size of the returning Irp data.
-        pIrp-&gt;IoStatus.Information = 
-          pIrpStack-&gt;Parameters.DeviceIoControl.OutputBufferLength;
+        pIrp->IoStatus.Information = 
+          pIrpStack->Parameters.DeviceIoControl.OutputBufferLength;
         Status = STATUS_SUCCESS;
     }
     return(Status);

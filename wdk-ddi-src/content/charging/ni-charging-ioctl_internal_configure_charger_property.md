@@ -57,7 +57,7 @@ The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b>
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186644">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.
+<b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186644">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.
 
 
 ### -input-buffer-length
@@ -95,7 +95,7 @@ None.
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS or the appropriate error status.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS or the appropriate error status.
 
 
 ## -see-also

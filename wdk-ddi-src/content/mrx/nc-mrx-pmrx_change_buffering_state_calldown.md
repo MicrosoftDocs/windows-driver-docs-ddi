@@ -109,7 +109,7 @@ Acquires an exclusive lock on the FCB structure.
 
 </li>
 <li>
-Sets the <b>FcbState</b> member of <b>SrvOpen-&gt;Fcb</b> to FCB_STATE_BUFFERSTATE_CHANGING. 
+Sets the <b>FcbState</b> member of <b>SrvOpen->Fcb</b> to FCB_STATE_BUFFERSTATE_CHANGING. 
 
 </li>
 <li>

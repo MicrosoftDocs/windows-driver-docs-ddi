@@ -59,16 +59,16 @@ Moves the current position on the tape to the specified partition and offset, ac
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_SET_POSITION). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_SET_POSITION). 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567974">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567974">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_SET_POSITION). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_SET_POSITION). 
 
 
 ### -output-buffer

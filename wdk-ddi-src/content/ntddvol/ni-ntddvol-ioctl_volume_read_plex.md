@@ -61,7 +61,7 @@ If, however, an application or kernel-mode component must read data from a parti
 
 ### -input-buffer
 
-Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -output-buffer
 
-Like <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>, this IOCTL stores the read data in the memory buffer passed as a memory descriptor list (MDL) in the <b>Irp-&gt;MdlAddress</b> field. 
+Like <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>, this IOCTL stores the read data in the memory buffer passed as a memory descriptor list (MDL) in the <b>Irp->MdlAddress</b> field. 
 
 
 ### -output-buffer-length
@@ -102,7 +102,7 @@ The length of the buffer.
 
 If the operation is successful, the volume manager sets the <b>Status</b> field to STATUS_SUCCESS.
 
-The VOLUME_READ_PLEX_INPUT structure at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> has a <b>Length</b> member that must be aligned on a 512-byte boundary. If <b>Length</b> does not have the proper alignment, the operation fails and the volume manager sets the <b>Status</b> field to VKE_EINVAL. 
+The VOLUME_READ_PLEX_INPUT structure at <b>Irp->AssociatedIrp.SystemBuffer</b> has a <b>Length</b> member that must be aligned on a 512-byte boundary. If <b>Length</b> does not have the proper alignment, the operation fails and the volume manager sets the <b>Status</b> field to VKE_EINVAL. 
 
 
 ## -see-also

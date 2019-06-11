@@ -81,25 +81,25 @@ The following code example shows how a filter can use <b>IPrintReadStreamFactory
 <tr>
 <td>
 <pre>VARIANT var;
-VariantInit(&amp;var);
+VariantInit(&var);
 
-HRESULT hr = pIPropertyBag-&gt;GetProperty(
+HRESULT hr = pIPropertyBag->GetProperty(
   XPS_FP_USER_PRINT_TICKET,
-  &amp;var);
+  &var);
 
 if (SUCCEEDED(hr))
 {
  IPrintReadStreamFactory   *pPrintReadStreamFactory;
 
- hr = V_UNKNOWN(&amp;var)-&gt;QueryInterface(
+ hr = V_UNKNOWN(&var)->QueryInterface(
  IID_IPrintReadStreamFactory,
- reinterpret_cast&lt;void **&gt;(&amp;pPrintReadStreamFactory));
+ reinterpret_cast<void **>(&pPrintReadStreamFactory));
 
  if (SUCCEEDED(hr))
     {
  IPrintReadStream *pPrintTicketStream;
 
- hr = pPrintReadStreamFactory-&gt;GetStream(&amp;pPrintTicketStream);
+ hr = pPrintReadStreamFactory->GetStream(&pPrintTicketStream);
 
  if (SUCCEEDED(hr))
       {
@@ -108,13 +108,13 @@ if (SUCCEEDED(hr))
        // It's OK to cache the pointer 
        // to use now and release later.
 
- pPrintTicketStream-&gt;Release();
+ pPrintTicketStream->Release();
       }
 
- pPrintReadStreamFactory-&gt;Release();
+ pPrintReadStreamFactory->Release();
     }
 
- VariantClear(&amp;var);
+ VariantClear(&var);
 }</pre>
 </td>
 </tr>

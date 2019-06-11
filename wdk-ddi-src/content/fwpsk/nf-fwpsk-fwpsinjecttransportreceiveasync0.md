@@ -271,7 +271,7 @@ To allow IPsec to process inbound packets first, the callout that inspects the t
     combination of 
     <a href="https://msdn.microsoft.com/ac5994a7-411c-47f2-ba1d-2d49c727de8d">
     FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a> members (
-    <b>isTunnelMode</b> &amp;&amp; !
+    <b>isTunnelMode</b> && !
     <b>isDeTunneled</b> ) is returned by the 
     <a href="https://msdn.microsoft.com/c3391615-963b-4916-9280-ce782269692c">
     FwpsGetPacketListSecurityInformation0</a> function. The callout driver must wait for the packet to be

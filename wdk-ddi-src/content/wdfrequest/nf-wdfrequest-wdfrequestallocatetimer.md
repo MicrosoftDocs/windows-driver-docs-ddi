@@ -133,12 +133,12 @@ WDF_REQUEST_SEND_OPTIONS  options;
 BOOLEAN  requestSend;
 
 WDF_REQUEST_SEND_OPTIONS_INIT(
-                              &amp;options,
+                              &options,
                               WDF_REQUEST_SEND_OPTION_TIMEOUT
                               );
 
 WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT(
-                                     &amp;options,
+                                     &options,
                                      WDF_ABS_TIMEOUT_IN_SEC(TIME_OUT_VALUE)
                                      );
 status = WdfRequestAllocateTimer(
@@ -150,7 +150,7 @@ if (!NT_SUCCESS(status)){
     requestSend = WdfRequestSend(
                                  request,
                                  ioTarget,
-                                 &amp;options
+                                 &options
                                  );
 }</pre>
 </td>

@@ -110,7 +110,7 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
     // stored serial number.
     //
     pdoData = PdoGetData(hChild);
-    if (SerialNo == pdoData-&gt;SerialNo) {
+    if (SerialNo == pdoData->SerialNo) {
         status = STATUS_SUCCESS;
         WdfPdoRequestEject(hChild);
     }

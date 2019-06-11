@@ -99,7 +99,7 @@ NTSTATUS status;
 
 oldSwapEnable = KeSetKernelStackSwapEnable(FALSE);
 
-KeInitializeEvent(&amp;event, SynchronizationEvent, FALSE);
+KeInitializeEvent(&event, SynchronizationEvent, FALSE);
 
 //
 // TO DO: Insert code here to pass the event to another thread 
@@ -107,7 +107,7 @@ KeInitializeEvent(&amp;event, SynchronizationEvent, FALSE);
 //
 ...
 
-status = KeWaitForSingleObject(&amp;event, UserRequest, KernelMode, FALSE, NULL);
+status = KeWaitForSingleObject(&event, UserRequest, KernelMode, FALSE, NULL);
 
 if (oldSwapEnable)
 {

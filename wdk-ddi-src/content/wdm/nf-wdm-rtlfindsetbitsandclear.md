@@ -84,7 +84,7 @@ Specifies a zero-based bit position around which to start looking for a set bit 
 
 For a successful call, the returned bit position is not necessarily equivalent to the given <i>HintIndex</i>. If necessary, <b>RtlFindSetBitsAndClear</b> searches the whole bitmap to locate a set bit range of the requested size. However, it starts searching for the requested range near <i>HintIndex</i>, so callers can clear such a range more quickly when they can supply appropriate hints about where to start looking.
 
-Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindSetBitsAndClear</b> can be called at any IRQL.
+Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindSetBitsAndClear</b> can be called at any IRQL.
 
 
 

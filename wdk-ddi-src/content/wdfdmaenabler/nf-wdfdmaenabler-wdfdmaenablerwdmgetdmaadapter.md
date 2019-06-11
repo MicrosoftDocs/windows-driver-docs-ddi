@@ -107,15 +107,15 @@ WDFDMAENABLER  dmaEnabler;
 PDMA_ADAPTER  readAdapter, writeAdapter;
 
 WDF_DMA_ENABLER_CONFIG_INIT(
-                            &amp;dmaConfig,
+                            &dmaConfig,
                             WdfDmaProfileScatterGatherDuplex,
                             maxLength
                             );
 status = WdfDmaEnablerCreate(
                              Device,
-                             &amp;dmaConfig,
+                             &dmaConfig,
                              WDF_NO_OBJECT_ATTRIBUTES,
-                             &amp;dmaEnabler
+                             &dmaEnabler
                              );
 if (!NT_SUCCESS (status)) {
     return status;

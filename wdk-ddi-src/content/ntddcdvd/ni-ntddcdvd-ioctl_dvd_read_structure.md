@@ -59,7 +59,7 @@ Returns information about a DVD disc, such as a layer descriptor, copyright info
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a> structure that indicates the session ID and type of information to return. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a> structure that indicates the session ID and type of information to return. 
 
 
 ### -input-buffer-length
@@ -69,12 +69,12 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55373
 
 ### -output-buffer
 
-The driver returns the disc information in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the disc information in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof(</b><i>Descriptor</i><b>)</b> where <i>Descriptor</i> is <a href="https://msdn.microsoft.com/library/windows/hardware/ff553733">DVD_LAYER_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553715">DVD_COPYRIGHT_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553724">DVD_DISK_KEY_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553713">DVD_BCA_DESCRIPTOR</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553736">DVD_MANUFACTURER_DESCRIPTOR</a>.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof(</b><i>Descriptor</i><b>)</b> where <i>Descriptor</i> is <a href="https://msdn.microsoft.com/library/windows/hardware/ff553733">DVD_LAYER_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553715">DVD_COPYRIGHT_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553724">DVD_DISK_KEY_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553713">DVD_BCA_DESCRIPTOR</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553736">DVD_MANUFACTURER_DESCRIPTOR</a>.
 
 
 ### -in-out-buffer

@@ -82,17 +82,17 @@ D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAl
     D3DKMT_CREATEALLOCATION CreateAllocation;
     D3DDDI_ALLOCATIONINFO AllocationInfo;
 
-    memset(&amp;CreateAllocation, 0, sizeof(CreateAllocation));
+    memset(&CreateAllocation, 0, sizeof(CreateAllocation));
     CreateAllocation.hDevice = hDevice;
     CreateAllocation.NumAllocations = 1;
-    CreateAllocation.pAllocationInfo = &amp;AllocationInfo;
+    CreateAllocation.pAllocationInfo = &AllocationInfo;
 
     AllocationInfo.hAllocation = NULL;
     AllocationInfo.pSystemMem = NULL;  // Vidmem allocation
     AllocationInfo.pPrivateDriverData = pPrivateAllocationInfo;  // Contains format, size, and so on.
     AllocationInfo.PrivateDriverDataSize = Size;
 
-    if (NT_SUCCESS((*pfnKTCreateAllocation)(&amp;CreateAllocation))) {
+    if (NT_SUCCESS((*pfnKTCreateAllocation)(&CreateAllocation))) {
         return AllocationInfo.hAllocation;
     }
     return 0;
@@ -124,20 +124,20 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
         return E_OUTOFMEMORY;
     }
  
-    memset(&amp;CreateAllocation, 0, sizeof(CreateAllocation));
+    memset(&CreateAllocation, 0, sizeof(CreateAllocation));
     CreateAllocation.hDevice = hDevice;
     CreateAllocation.Flags.CreateResource = TRUE;
     CreateAllocation.pPrivateDriverData = pResourceData;
     CreateAllocation.PrivateDriverDataSize = ResourceDataSize;
     CreateAllocation.NumAllocations = 1;
-    CreateAllocation.pAllocationInfo = &amp;AllocationInfo;
+    CreateAllocation.pAllocationInfo = &AllocationInfo;
 
     AllocationInfo.hAllocation = NULL;
     AllocationInfo.pSystemMem = pSysMem;
     AllocationInfo.pPrivateDriverData = pAllocationData;
     AllocationInfo.PrivateDriverDataSize = AllocationDataSize;
 
-    if (NT_SUCCESS((*pfnKTCreateAllocation)(&amp;CreateAllocation))) {
+    if (NT_SUCCESS((*pfnKTCreateAllocation)(&CreateAllocation))) {
         *phResource = CreateAllocation.hResource;
         *phAllocation = AllocationInfo.hAllocation;
         return S_OK;

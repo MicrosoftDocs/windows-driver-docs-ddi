@@ -116,7 +116,7 @@ NTSTATUS  status;
 success = WdfDmaTransactionDmaCompletedFinal(
                                              DmaTransaction,
                                              transferLength,
-                                             &amp;status
+                                             &status
                                              );</pre>
 </td>
 </tr>

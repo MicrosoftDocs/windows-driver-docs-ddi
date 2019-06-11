@@ -96,23 +96,23 @@ Before calling <b>IStillImage::LaunchApplicationForDevice</b>, clients of the <b
 <tr>
 <td>
 <pre>HRESULT hRes;
-hRes = pStiDevice-&gt;GetLastNotificationData(&amp;pNotify);
+hRes = pStiDevice->GetLastNotificationData(&pNotify);
 if (!SUCCEEDED(hRes))
 {
-    DisplayOutput("-&gt;GetLastNotificationData returned %xh %u",
+    DisplayOutput("->GetLastNotificationData returned %xh %u",
         hReturn,hReturn);
 }
  
 // Process or filter events here
  
 // Send event on to app
-hRes = pSti-&gt;LaunchApplicationForDevice(pStiInfoPtr-&gt;szDeviceInternalName,
+hRes = pSti->LaunchApplicationForDevice(pStiInfoPtr->szDeviceInternalName,
      L"AppName",
      pNotify);
 if (!SUCCEEDED(hRes))
 {
-    DisplayOutput("-&gt;LaunchApplicationForDevice on %S returned %xh %u",
-        pStiInfoPtr-&gt;szDeviceInternalName,hReturn,hReturn);
+    DisplayOutput("->LaunchApplicationForDevice on %S returned %xh %u",
+        pStiInfoPtr->szDeviceInternalName,hReturn,hReturn);
 }</pre>
 </td>
 </tr>

@@ -61,7 +61,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt651019">STORAGE
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/mt651019">STORAGE_TEMPERATURE_THRESHOLD</a>). 
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/mt651019">STORAGE_TEMPERATURE_THRESHOLD</a>). 
 
 
 ### -output-buffer

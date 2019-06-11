@@ -83,7 +83,7 @@ Each call to this function must be paired with a call to the <a href="https://ms
 
 When this function is called, the active reference count of the component is decreased by 1. The <a href="https://msdn.microsoft.com/9F2D8ACD-44D5-46E0-9FC7-1B38B99450FF">Power Management Framework</a> maintains the reference count and places the component into a lower F-state only when the reference count becomes zero.
 
-This function must be called at IRQL &lt;= 		DISPATCH_LEVEL. It can be called at IRQL = 		DISPATCH_LEVEL only if the component type is <b>DXGK_POWER_COMPONENT_OTHER</b>.
+This function must be called at IRQL <= 		DISPATCH_LEVEL. It can be called at IRQL = 		DISPATCH_LEVEL only if the component type is <b>DXGK_POWER_COMPONENT_OTHER</b>.
 
 
 

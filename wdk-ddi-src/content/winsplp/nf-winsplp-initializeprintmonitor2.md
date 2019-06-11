@@ -79,7 +79,7 @@ BOOL  Is_Win2000()
 
   // Initialize the OSVERSIONINFOEX structure.
 
-  ZeroMemory(&amp;osvi, sizeof(OSVERSIONINFOEX));
+  ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
   osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
   osvi.dwMajorVersion = 5;
   osvi.dwMinorVersion = 0;
@@ -90,7 +90,7 @@ BOOL  Is_Win2000()
 
   // Perform the test.
   return VerifyVersionInfo(
-      &amp;osvi,
+      &osvi,
       VER_MAJORVERSION | VER_MINORVERSION,
       dwlConditionMask);
 }

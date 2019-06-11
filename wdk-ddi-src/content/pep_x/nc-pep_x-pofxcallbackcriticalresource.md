@@ -84,7 +84,7 @@ None
 
 This routine is implemented by the power management framework (PoFx) and is called by the platform extension plug-in (PEP). The <b>TransitionCriticalResource</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>TransitionCriticalResource</b> routine.
 
-A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
+A PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 

@@ -71,7 +71,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The size of the output buffer may not be the same size as the input buffer.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The size of the output buffer may not be the same size as the input buffer.
 
 
 ### -output-buffer-length

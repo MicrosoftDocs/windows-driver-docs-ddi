@@ -79,13 +79,13 @@ The calling application provides the ATA task file register contents for the int
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> should contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> structure, which includes a set of task file input registers that indicate the sort of command to be performed and its parameters. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBufferOffset</b> member of the structure must point to a cache-aligned buffer containing the data to be written. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> should contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> structure, which includes a set of task file input registers that indicate the sort of command to be performed and its parameters. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBufferOffset</b> member of the structure must point to a cache-aligned buffer containing the data to be written. 
 
 
 ### -input-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. If the embedded ATA command is a write operation, the size of the input buffer should be the sum of <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>) and the value in the <b>DataTransferLength</b> member of <b>ATA_PASS_THROUGH_EX</b>. The following pseudocode example shows how to calculate the buffer size:
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. If the embedded ATA command is a write operation, the size of the input buffer should be the sum of <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>) and the value in the <b>DataTransferLength</b> member of <b>ATA_PASS_THROUGH_EX</b>. The following pseudocode example shows how to calculate the buffer size:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -107,7 +107,7 @@ In either case, if <b>InputBufferLength</b> is less than <b>sizeof</b> (ATA_PASS
 
 ### -output-buffer
 
-The port driver formats the return data using an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> structure and stores the data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The port driver formats the return data using an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> structure and stores the data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 The port driver fills the <b>CurrentTaskFile</b> member with the values that are present in the device's output registers at the completion of the embedded ATA command. If the command was a data transfer, the port driver stores the transferred data in a cache-aligned buffer that is located at an offset of <b>DataBufferOffset</b> bytes from the beginning of the structure. The application is responsible for interpreting the contents of the output registers to determine what errors, if any, were returned by the device. 
 
@@ -137,7 +137,7 @@ The port driver updates the <b>DataTransferLength</b> member of <a href="https:/
 
 ### -status-block
 
-The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Status</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> is improperly set. 
+The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Status</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a> is improperly set. 
 
 
 ## -see-also

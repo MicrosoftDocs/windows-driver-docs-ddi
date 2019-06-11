@@ -60,14 +60,14 @@ Loads or unloads the tape, resets tape tension, locks or unlocks the ejection me
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567971">TAPE_PREPARE</a> structure that indicates the type of operation.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567971">TAPE_PREPARE</a> structure that indicates the type of operation.
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_PREPARE). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_PREPARE). 
 
 
 ### -output-buffer

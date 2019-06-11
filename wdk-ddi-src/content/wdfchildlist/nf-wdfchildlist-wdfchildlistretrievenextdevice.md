@@ -202,27 +202,27 @@ BOOLEAN  ret;
 list = WdfFdoGetDefaultChildList(Device);
 
 WDF_CHILD_LIST_ITERATOR_INIT(
-                             &amp;iterator,
+                             &iterator,
                              WdfRetrievePresentChildren
                              );
 WdfChildListBeginIteration(
                            list,
-                           &amp;iterator
+                           &iterator
                            );
 for (;;) {
     WDF_CHILD_RETRIEVE_INFO_INIT(
-                                 &amp;childInfo,
-                                 &amp;description.Header
+                                 &childInfo,
+                                 &description.Header
                                  );
     WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
-                                                     &amp;description.Header,
+                                                     &description.Header,
                                                      sizeof(description)
                                                      );
     status = WdfChildListRetrieveNextDevice(
                                             list, 
-                                            &amp;iterator, 
-                                            &amp;hChild, 
-                                            &amp;childInfo
+                                            &iterator, 
+                                            &hChild, 
+                                            &childInfo
                                             );
     if (!NT_SUCCESS(status) || status == STATUS_NO_MORE_ENTRIES) {
        break;
@@ -231,7 +231,7 @@ for (;;) {
 
     ret = WdfChildListRequestChildEject(
                                         list,
-                                        &amp;description.Header
+                                        &description.Header
                                         );
     if(!ret) {
        WDFVERIFY(ret);
@@ -239,7 +239,7 @@ for (;;) {
 }
 WdfChildListEndIteration(
                          list,
-                         &amp;iterator
+                         &iterator
                          );
 if (status == STATUS_NO_MORE_ENTRIES) {
    status = STATUS_SUCCESS;

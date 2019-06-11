@@ -59,7 +59,7 @@ This IOCTL is used by a user-mode application or kernel-mode driver that require
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user-defined structure. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a user-defined structure. 
 
 
 ### -input-buffer-length
@@ -69,7 +69,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a user-defined 
 
 ### -output-buffer
 
-Updated user-defined structures are returned in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+Updated user-defined structures are returned in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

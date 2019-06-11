@@ -170,12 +170,12 @@ WDFREQUEST  request;
 WDFMEMORY  memHandle;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 
 status = WdfRequestCreate(
-                          &amp;attributes,
-                          WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
-                          &amp;request
+                          &attributes,
+                          WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
+                          &request
                           );
 
 if (!NT_SUCCESS(status)){
@@ -186,7 +186,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          STR_DESC_STRING_SIZE,
-                         &amp;memHandle,
+                         &memHandle,
                          NULL
                          );
 if (!NT_SUCCESS(status)){
@@ -194,11 +194,11 @@ if (!NT_SUCCESS(status)){
     return status;
 }
 status = WdfUsbTargetDeviceFormatRequestForString(
-                         deviceContext-&gt;UsbTargetDevice,
+                         deviceContext->UsbTargetDevice,
                          request,
                          memHandle,
                          NULL,
-                         deviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                         deviceContext->UsbDeviceDescr.iManufacturer,
                          0x0409
                          );
 if (NT_SUCCESS(status)) {
@@ -210,7 +210,7 @@ if (NT_SUCCESS(status)) {
 
     if (WdfRequestSend(
                        request,
-                       WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                       WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
                        NULL
                        )) {
         status = STATUS_PENDING;

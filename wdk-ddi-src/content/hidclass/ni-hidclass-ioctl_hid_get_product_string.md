@@ -68,7 +68,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 ### -output-buffer
 
-<b>Irp-&gt;MdlAddress</b> points to a buffer to receive the product ID string (a NULL-terminated wide character string).
+<b>Irp->MdlAddress</b> points to a buffer to receive the product ID string (a NULL-terminated wide character string).
 
 
 ### -output-buffer-length
@@ -96,7 +96,7 @@ The length of a NULL-terminated wide character string.
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

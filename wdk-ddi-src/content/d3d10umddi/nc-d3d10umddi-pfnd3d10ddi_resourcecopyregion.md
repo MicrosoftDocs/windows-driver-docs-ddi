@@ -105,7 +105,7 @@ An index that indicates the source subresource to copy from.
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure that specifies a box that fits on either the source or destination subresource. If <i>pSrcBox</i> is <b>NULL</b>, the driver should copy the entire source subresouce to the destination.
 
-If the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure are such that <b>left</b>&gt;=<b>right</b>, <b>top</b>&gt;=<b>bottom</b>, or <b>front</b>&gt;=<b>back</b>, then <i>pSrcBox</i> is considered empty, and <i>ResourceCopyRegion</i> must not perform any copy operation.
+If the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541925">D3D10_DDI_BOX</a> structure are such that <b>left</b>>=<b>right</b>, <b>top</b>>=<b>bottom</b>, or <b>front</b>>=<b>back</b>, then <i>pSrcBox</i> is considered empty, and <i>ResourceCopyRegion</i> must not perform any copy operation.
 
 
 ## -returns

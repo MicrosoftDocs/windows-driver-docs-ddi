@@ -56,7 +56,7 @@ The <i>ObjectPreCallback</i> routine is called by the operating system when a pr
 
 ### -param RegistrationContext [in]
 
-The context that the driver specifies as the <i>CallBackRegistration</i>-&gt;<b>RegistrationContext</b> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558692">ObRegisterCallbacks</a> routine. The meaning of this value is driver-defined.
+The context that the driver specifies as the <i>CallBackRegistration</i>-><b>RegistrationContext</b> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558692">ObRegisterCallbacks</a> routine. The meaning of this value is driver-defined.
 
 
 ### -param OperationInformation [in]

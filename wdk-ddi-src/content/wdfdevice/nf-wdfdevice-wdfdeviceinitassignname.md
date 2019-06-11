@@ -121,7 +121,7 @@ The following code example assigns an <a href="https://msdn.microsoft.com/dfcc73
 <pre>DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
 status = WdfDeviceInitAssignName(
                                  DeviceInit,
-                                 &amp;MyDeviceName
+                                 &MyDeviceName
                                  );
 if (!NT_SUCCESS(status)) {
     return status;

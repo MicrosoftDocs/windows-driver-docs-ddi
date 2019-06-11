@@ -106,7 +106,7 @@ The following code example shows how to destroy the default context for a displa
     if (m_d3dCallbacks.pfnDestroyContextCb) {
         D3DDDICB_DESTROYCONTEXT DestroyContext;
         DestroyContext.hContext = m_sContexts[MULTI_ENGINE_NODE_3D].hContext;
-        m_d3dCallbacks.pfnDestroyContextCb(m_hD3D, &amp;DestroyContext);
+        m_d3dCallbacks.pfnDestroyContextCb(m_hD3D, &DestroyContext);
         m_sContexts[MULTI_ENGINE_NODE_3D].hContext = NULL;
     }
 ```

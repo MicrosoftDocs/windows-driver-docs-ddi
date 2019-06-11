@@ -132,7 +132,7 @@ Specifies the pool type to use when allocating a new security descriptor, which 
 <li><b>NonPagedPoolCacheAligned</b></li>
 <li><b>PagedPoolCacheAligned</b></li>
 </ul>
-Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL &gt;= DISPATCH_LEVEL or in an arbitrary thread context. 
+Usually, a caller specifies <b>PagedPool</b>, or else <b>NonPagedPool</b> if the buffer will be accessed at IRQL >= DISPATCH_LEVEL or in an arbitrary thread context. 
 
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
 <div> </div>

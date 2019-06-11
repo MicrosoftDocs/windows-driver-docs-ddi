@@ -139,13 +139,13 @@ CMyQueue::OnStateChange(
     //
     // Get the IWDFIoRequest interface of the next request.
     //
-    hr = pWdfQueue-&gt;RetrieveNextRequest(&amp;Request);
+    hr = pWdfQueue->RetrieveNextRequest(&Request);
 ...
     //
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = Request;
+    CComQIPtr<IWDFIoRequest2> r2 = Request;
 
     //
     // Add code here to determine whether to process or requeue the request.
@@ -154,7 +154,7 @@ CMyQueue::OnStateChange(
     //
     // Requeue the request.
     //
-    hr = r2-&gt;Requeue();
+    hr = r2->Requeue();
     if (FAILED(hr)) goto Error;
 ...
 }</pre>

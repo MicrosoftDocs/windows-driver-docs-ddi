@@ -187,8 +187,8 @@ DECLARE_CONST_UNICODE_STRING(valueName, L"NumberOfThings");
 
 status = WdfRegistryQueryULong(
                                hKey,
-                               &amp;valueName,
-                               &amp;value
+                               &valueName,
+                               &value
                                );</pre>
 </td>
 </tr>

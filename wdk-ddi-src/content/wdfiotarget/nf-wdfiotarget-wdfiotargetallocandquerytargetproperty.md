@@ -156,7 +156,7 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
                                                 DevicePropertyFriendlyName,
                                                 NonPagedPool,
                                                 WDF_NO_OBJECT_ATTRIBUTES,
-                                                &amp;targetName
+                                                &targetName
                                                 );</pre>
 </td>
 </tr>

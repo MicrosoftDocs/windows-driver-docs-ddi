@@ -104,19 +104,19 @@ NTSTATUS  status;
 
 status = WdfRequestRetrieveInputMemory(
                                        Request,
-                                       &amp;memory
+                                       &memory
                                        );
 if (!NT_SUCCESS(status)) {
     break;
 }
 WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(
-                                  &amp;memDesc,
+                                  &memDesc,
                                   memory,
                                   NULL
                                   );
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
-                                         &amp;controlSetupPacket,
+                                         &controlSetupPacket,
                                          BmRequestHostToDevice,
                                          BmRequestToDevice,
                                          USBFX2LK_SET_BARGRAPH_DISPLAY,
@@ -125,12 +125,12 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
                                          );
 
 status = WdfUsbTargetDeviceSendControlTransferSynchronously(
-                                  pDevContext-&gt;UsbDevice,
+                                  pDevContext->UsbDevice,
                                   NULL,
                                   NULL,
-                                  &amp;controlSetupPacket,
-                                  &amp;memDesc,
-                                  (PULONG)&amp;bytesTransferred
+                                  &controlSetupPacket,
+                                  &memDesc,
+                                  (PULONG)&bytesTransferred
                                   );</pre>
 </td>
 </tr>
