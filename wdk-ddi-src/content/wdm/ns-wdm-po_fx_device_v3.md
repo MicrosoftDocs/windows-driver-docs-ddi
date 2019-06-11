@@ -50,7 +50,15 @@ The version number of this structure. If the driver will register for directed p
 
 ### -field Flags
 
-Set to 0. Currently, no flags are defined for this member.
+Controls whether direct child devices and power child devices can opt out of Directed PoFx.
+
+Possible flag values include:
+
+|Flag|Description|
+|-|-|
+|**PO_FX_DEVICE_FLAG_DIRECT_CHILDREN_OPTIONAL**|Allows direct child devices of this device to optionally support Directed PoFx. If not set, all direct children must support Directed PoFx for this device to fully support Directed PoFx.|
+|**PO_FX_DEVICE_FLAG_POWER_CHILDREN_OPTIONAL**|Allows power child devices of this device to optionally support Directed PoFx. If not provided, all power children must support Directed PoFx for this device to fully support Directed PoFx.|
+|**PO_FX_DEVICE_FLAG_DFX_CHILDREN_OPTIONAL**|Sets both **PO_FX_DEVICE_FLAG_DIRECT_CHILDREN_OPTIONAL** and **PO_FX_DEVICE_FLAG_POWER_CHILDREN_OPTIONAL**|
 
 ### -field ComponentActiveConditionCallback
 
