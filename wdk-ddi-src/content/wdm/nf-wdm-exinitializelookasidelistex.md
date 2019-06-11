@@ -271,7 +271,7 @@ The following code example shows how the <i>LookasideListAllocateEx</i> routine 
 
     if (NewEntry)
     {
-        MyContext-&gt;NumberOfAllocations = InterlockedIncrement(MyContext-&gt;NumberOfAllocations);
+        MyContext->NumberOfAllocations = InterlockedIncrement(MyContext->NumberOfAllocations);
     }
 
     return NewEntry;
@@ -285,9 +285,9 @@ After the <code>MyLookasideListAllocateEx</code> routine in this example returns
 
 <b>ExAllocateFromLookasideListEx</b> and <b>ExFreeFromLookasideListEx</b> do not synchronize their calls to driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554324">LookasideListFreeEx</a> routines. Thus, if the <code>MyLookasideListAllocateEx</code> and <code>MyLookasideListFreeEx</code> routines in the preceding code examples must be thread-safe, the driver must provide the necessary synchronization.
 
-The example routine, <code>MyLookasideListAllocateEx</code>, synchronizes its access of the <code>MyContext-&gt;NumberOfAllocations</code> variable with other threads that might increment and decrement this variable. To provide this synchronization, <code>MyLookasideListAllocateEx</code> calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a> routine to atomically increment this variable. Similarly, the <code>MyLookasideListFreeEx</code> routine (not shown) can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a> routine to atomically decrement this variable.
+The example routine, <code>MyLookasideListAllocateEx</code>, synchronizes its access of the <code>MyContext->NumberOfAllocations</code> variable with other threads that might increment and decrement this variable. To provide this synchronization, <code>MyLookasideListAllocateEx</code> calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a> routine to atomically increment this variable. Similarly, the <code>MyLookasideListFreeEx</code> routine (not shown) can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a> routine to atomically decrement this variable.
 
-However, if the sole purpose of the <code>MyContext-&gt;NumberOfAllocations</code> variable in the preceding code example is simply to gather statistics on lookaside list allocations, atomic increments and decrements are hardly necessary. In this case, the remote possibility of a missed increment or decrement should not be a concern.
+However, if the sole purpose of the <code>MyContext->NumberOfAllocations</code> variable in the preceding code example is simply to gather statistics on lookaside list allocations, atomic increments and decrements are hardly necessary. In this case, the remote possibility of a missed increment or decrement should not be a concern.
 
 For more information about thread safety for lookaside lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565416">Using Lookaside Lists</a>.
 

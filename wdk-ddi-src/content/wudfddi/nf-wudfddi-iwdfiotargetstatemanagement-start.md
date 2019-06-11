@@ -121,29 +121,29 @@ The following code example first shows how a driver can obtain the <a href="http
     IWDFUsbInterface *      pIUsbInterface = NULL;
     IWDFUsbTargetPipe *     pIUsbPipe = NULL;
 
-    hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&pIUsbTargetFactory));
+    hr = m_FxDevice->QueryInterface(IID_PPV_ARGS(&pIUsbTargetFactory));
     if (FAILED(hr))
     {...}
-    hr = pIUsbTargetFactory-&gt;CreateUsbTargetDevice(&pIUsbTargetDevice);
+    hr = pIUsbTargetFactory->CreateUsbTargetDevice(&pIUsbTargetDevice);
     if (FAILED(hr))
     {...}
-    hr = pIUsbTargetDevice-&gt;RetrieveUsbInterface(0, &pIUsbInterface);
+    hr = pIUsbTargetDevice->RetrieveUsbInterface(0, &pIUsbInterface);
     if (FAILED(hr))
     {...}
-    NumEndPoints = pIUsbInterface-&gt;GetNumEndPoints();
+    NumEndPoints = pIUsbInterface->GetNumEndPoints();
     for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++)
     {
-        hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, &pIUsbPipe);
+        hr = pIUsbInterface->RetrieveUsbPipeObject(PipeIndex, &pIUsbPipe);
         if (FAILED(hr))
         {...}
         else
         {
-            if (pIUsbPipe-&gt;IsInEndPoint())
+            if (pIUsbPipe->IsInEndPoint())
             {
-                if (UsbdPipeTypeInterrupt == pIUsbPipe-&gt;GetType())
+                if (UsbdPipeTypeInterrupt == pIUsbPipe->GetType())
                 {
                     m_pIUsbInterruptPipe = pIUsbPipe;
-                    hr = m_pIUsbInterruptPipe-&gt;QueryInterface(IID_PPV_ARGS(&m_pIoTargetInterruptPipeStateMgmt));
+                    hr = m_pIUsbInterruptPipe->QueryInterface(IID_PPV_ARGS(&m_pIoTargetInterruptPipeStateMgmt));
                     if (FAILED(hr))
                     {...}
                 }
@@ -158,7 +158,7 @@ CMyDevice::OnD0Entry(
     )
 {
 ...
-    m_pIoTargetInterruptPipeStateMgmt-&gt;Start();
+    m_pIoTargetInterruptPipeStateMgmt->Start();
 ...
     return S_OK;
 }</pre>

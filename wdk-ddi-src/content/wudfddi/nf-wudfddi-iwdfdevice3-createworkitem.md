@@ -100,7 +100,7 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 <pre>WUDF_WORKITEM_CONFIG config;
         
 WUDF_WORKITEM_CONFIG_INIT(&config, OnWorkItem); 
-hr = m_IWdfDevice3-&gt;CreateWorkItem(&config,
+hr = m_IWdfDevice3->CreateWorkItem(&config,
                                    m_IWdfDevice3,   
                                    &m_WorkItem);
 </pre>

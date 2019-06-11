@@ -131,7 +131,7 @@ Not all of the four parameters are returned for every I/O operation. For example
 
 </td>
 <td>
-&(CallbackData-&gt;Iopb-&gt;Parameters.Read.MdlAddress)
+&(CallbackData->Iopb->Parameters.Read.MdlAddress)
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Not all of the four parameters are returned for every I/O operation. For example
 
 </td>
 <td>
-&(CallbackData-&gt;Iopb-&gt;Parameters.Read.ReadBuffer)
+&(CallbackData->Iopb->Parameters.Read.ReadBuffer)
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Not all of the four parameters are returned for every I/O operation. For example
 
 </td>
 <td>
-&(CallbackData-&gt;Iopb-&gt;Parameters.Read.Length)
+&(CallbackData->Iopb->Parameters.Read.Length)
 
 </td>
 </tr>

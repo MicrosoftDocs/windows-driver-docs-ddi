@@ -158,13 +158,13 @@ CMyDevice::ServiceSwitchChangeQueue(
         // Get the next request.
         //
         if (NULL != SpecificFile) {
-        enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequestByFileObject(
+        enumHr = m_SwitchChangeQueue->RetrieveNextRequestByFileObject(
                                         SpecificFile,
                                         &fxRequest
                                         );
         }
         else {
-            enumHr = m_SwitchChangeQueue-&gt;RetrieveNextRequest(&fxRequest);
+            enumHr = m_SwitchChangeQueue->RetrieveNextRequest(&fxRequest);
         }
         //
         // If a request was retrieved, complete it.
@@ -175,11 +175,11 @@ CMyDevice::ServiceSwitchChangeQueue(
                 //
                 // Copy the result to the request buffer.
                 //
-                fxRequest-&gt;GetOutputMemory(&fxMemory);
-                hr = fxMemory-&gt;CopyFromBuffer(0, 
+                fxRequest->GetOutputMemory(&fxMemory);
+                hr = fxMemory->CopyFromBuffer(0, 
                                               &NewState, 
                                               sizeof(SWITCH_STATE));
-                                              fxMemory-&gt;Release();
+                                              fxMemory->Release();
             }
             else {
                  hr = CompletionStatus;
@@ -189,13 +189,13 @@ CMyDevice::ServiceSwitchChangeQueue(
             // completion status.
             //
             if (S_OK == hr) {
-                fxRequest-&gt;CompleteWithInformation(hr, 
+                fxRequest->CompleteWithInformation(hr, 
                                                    sizeof(SWITCH_STATE));
             }
             else {
-                fxRequest-&gt;Complete(hr);
+                fxRequest->Complete(hr);
             }
-            fxRequest-&gt;Release();
+            fxRequest->Release();
         }
     }
     while (S_OK == enumHr);

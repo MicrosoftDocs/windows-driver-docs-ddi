@@ -158,7 +158,7 @@ EvtUrsFilterRemoveResourceRequirements (
 
             descriptor = WdfIoResourceListGetDescriptor(resList, currentResourceIndex);
 
-            if (descriptor-&gt;Type == CmResourceTypeConfigData) {
+            if (descriptor->Type == CmResourceTypeConfigData) {
 
                 //
                 // This indicates the priority of this logical configuration.
@@ -169,8 +169,8 @@ EvtUrsFilterRemoveResourceRequirements (
                 assignToFunction = FALSE;
                 assignToHost = FALSE;
 
-            } else if ((descriptor-&gt;Type == CmResourceTypeMemory) ||
-                       (descriptor-&gt;Type == CmResourceTypeMemoryLarge)) {
+            } else if ((descriptor->Type == CmResourceTypeMemory) ||
+                       (descriptor->Type == CmResourceTypeMemoryLarge)) {
 
                 //
                 // This example client driver keeps the memory resources here. 

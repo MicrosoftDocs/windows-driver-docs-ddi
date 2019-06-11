@@ -75,7 +75,7 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 
 <div class="alert"><b>Note</b>  If the source string is longer than MAX_USTRING - 1 bytes, <b>WdmlibRtlInitUnicodeStringEx</b> sets the <b>Length</b> member of the <b>UNICODE_STRING</b> structure pointed to by <i>DestinationString</i> to MAX_USTRING - 2, and sets the <b>MaximumLength</b> member of this structure to MAX_USTRING.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div>
 <div> </div>
-Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
+Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL > PASSIVE_LEVEL.
 
 
 

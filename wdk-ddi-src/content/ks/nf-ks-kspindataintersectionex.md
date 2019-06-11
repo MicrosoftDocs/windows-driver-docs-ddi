@@ -127,7 +127,7 @@ The data intersection callback function is passed a <i>Context</i> parameter (th
 
 </li>
 <li>
-The size of the resultant format is passed back in <i>DataSize</i> instead of <i>Irp</i>-&gt;IoStatus.Information.
+The size of the resultant format is passed back in <i>DataSize</i> instead of <i>Irp</i>->IoStatus.Information.
 
 </li>
 </ul>

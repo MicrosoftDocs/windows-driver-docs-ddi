@@ -125,7 +125,7 @@ A memory buffer could not be allocated.
 </dl>
 </td>
 <td width="60%">
-The framework returns this value if a UMDF driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a> with <i>Params</i>-&gt;<b>Type</b> set to any of the following:
+The framework returns this value if a UMDF driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a> with <i>Params</i>-><b>Type</b> set to any of the following:
 
 <ul>
 <li><b>WdfUsbTargetDeviceSelectConfigTypeDeconfig</b></li>

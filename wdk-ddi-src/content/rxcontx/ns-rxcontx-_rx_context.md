@@ -104,7 +104,7 @@ If set to <b>TRUE</b>, this indicates if the associated request is to be posted 
 
 ### -field RealDevice
 
-A pointer to the device object for the target network mini-redirector driver. RDBSS sets this member to the device object for the network mini-redirector driver when an RX_CONTEXT is allocated in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554502">RxInitializeContext</a> routine. This member is copied from the <b>FileObject-&gt;DeviceObject</b> member from the IRP stack. The device object for the network mini-redirector is also stored in the <b>RxDeviceObject</b> structure member.
+A pointer to the device object for the target network mini-redirector driver. RDBSS sets this member to the device object for the network mini-redirector driver when an RX_CONTEXT is allocated in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554502">RxInitializeContext</a> routine. This member is copied from the <b>FileObject->DeviceObject</b> member from the IRP stack. The device object for the network mini-redirector is also stored in the <b>RxDeviceObject</b> structure member.
 
 The <b>RealDevice</b>  member is not currently used by RDBSS, but can be used by network mini-redirectors.
 
@@ -438,7 +438,7 @@ This member is reserved for internal use.
 
 ### -field Create.ThisIsATreeConnectOpen
 
-A Boolean value that indicates if this call is a tree connect open request with the FILE_CREATE_TREE_CONNECTION option set in the <b>IrpSp-&gt;Parameters.Create.Options</b> member.
+A Boolean value that indicates if this call is a tree connect open request with the FILE_CREATE_TREE_CONNECTION option set in the <b>IrpSp->Parameters.Create.Options</b> member.
 
 
 ### -field Create.TreeConnectOpenDeferred
@@ -473,22 +473,22 @@ A structure member of an unnamed union used for handling <a href="https://msdn.m
 
 ### -field QueryDirectory.FileIndex
 
-The Index of the entry at which to begin scanning the directory if the <b>IndexSpecified</b> member is set to <b>TRUE</b>. This parameter is set to the <b>IrpSp-&gt;Parameters.QueryDirectory.FileIndex</b> member.
+The Index of the entry at which to begin scanning the directory if the <b>IndexSpecified</b> member is set to <b>TRUE</b>. This parameter is set to the <b>IrpSp->Parameters.QueryDirectory.FileIndex</b> member.
 
 
 ### -field QueryDirectory.RestartScan
 
-A Boolean value when set to <b>TRUE</b> indicates that the scan is to start at the first entry in the directory. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit on.
+A Boolean value when set to <b>TRUE</b> indicates that the scan is to start at the first entry in the directory. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit on.
 
 
 ### -field QueryDirectory.ReturnSingleEntry
 
-A Boolean value set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, <b>MrxQueryDirectory</b> should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
+A Boolean value set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, <b>MrxQueryDirectory</b> should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
 
 
 ### -field QueryDirectory.IndexSpecified
 
-A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the directory whose index is given by the <b>FileIndex</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_INDEX_SPECIFIED bit on.
+A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the directory whose index is given by the <b>FileIndex</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on.
 
 
 ### -field QueryDirectory.InitialQuery
@@ -498,12 +498,12 @@ A Boolean value that is set to <b>TRUE</b> when the query is not a wild card que
 
 ### -field NotifyChangeDirectory
 
-A structure member of an unnamed union used for handling IRP_MJ_DIRECTORY_CONTROL requests with a minor function of IRP_MN_NOTIFY_CHANGE_DIRECTORY. This member is used for handling directory change requests that result in calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine. RDBSS passes information in the <b>NotifyChangeDirectory</b> structure member and the <b>pLowIoContext-&gt;ParamsFor.NotifyChangeDirectory</b> structure to the network mini-redirector. 
+A structure member of an unnamed union used for handling IRP_MJ_DIRECTORY_CONTROL requests with a minor function of IRP_MN_NOTIFY_CHANGE_DIRECTORY. This member is used for handling directory change requests that result in calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine. RDBSS passes information in the <b>NotifyChangeDirectory</b> structure member and the <b>pLowIoContext->ParamsFor.NotifyChangeDirectory</b> structure to the network mini-redirector. 
 
 
 ### -field NotifyChangeDirectory.pVNetRoot
 
-A pointer to the V_NET_ROOT structure associated with the directory. This parameter is set to the <b>IrpSp-&gt;FileObject-&gt;FsContext</b> member or the <b>IrpSp-&gt;FileObject-&gt;FsContext2</b> member depending on the node type. 
+A pointer to the V_NET_ROOT structure associated with the directory. This parameter is set to the <b>IrpSp->FileObject->FsContext</b> member or the <b>IrpSp->FileObject->FsContext2</b> member depending on the node type. 
 
 
 ### -field QueryEa
@@ -513,32 +513,32 @@ A structure member of an unnamed union used for handling <a href="https://msdn.m
 
 ### -field QueryEa.UserEaList
 
-A pointer to a caller-supplied input buffer containing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a> structure specifying the extended attributes to be queried. This parameter is set to <b>IrpSp-&gt;Parameters.QueryEa.EaList</b>.
+A pointer to a caller-supplied input buffer containing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a> structure specifying the extended attributes to be queried. This parameter is set to <b>IrpSp->Parameters.QueryEa.EaList</b>.
 
 
 ### -field QueryEa.UserEaListLength
 
-The length, in bytes, of the buffer pointed to by <b>UserEaList</b> member. This parameter is set to <b>IrpSp-&gt;Parameters.QueryEa.EaListLength</b>.
+The length, in bytes, of the buffer pointed to by <b>UserEaList</b> member. This parameter is set to <b>IrpSp->Parameters.QueryEa.EaListLength</b>.
 
 
 ### -field QueryEa.UserEaIndex
 
-The Index of the entry at which to begin scanning the extended-attribute list. This parameter should be ignored if the <b>IndexSpecified</b> member is not set to <b>TRUE</b> or if <b>QueryEaList</b> member points to a nonempty list. This parameter is set to <b>IrpSp-&gt;Parameters.QueryEa.EaIndex</b>.
+The Index of the entry at which to begin scanning the extended-attribute list. This parameter should be ignored if the <b>IndexSpecified</b> member is not set to <b>TRUE</b> or if <b>QueryEaList</b> member points to a nonempty list. This parameter is set to <b>IrpSp->Parameters.QueryEa.EaIndex</b>.
 
 
 ### -field QueryEa.RestartScan
 
-A Boolean value when set to <b>TRUE</b> indicates that the query is to start at the first extended attribute entry. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE if IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit on. 
+A Boolean value when set to <b>TRUE</b> indicates that the query is to start at the first extended attribute entry. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE if IrpSp->Flags</b> has the SL_RESTART_SCAN bit on. 
 
 
 ### -field QueryEa.ReturnSingleEntry
 
-A Boolean value when set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, MrxQueryEaInfo should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on. 
+A Boolean value when set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, MrxQueryEaInfo should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on. 
 
 
 ### -field QueryEa.IndexSpecified
 
-A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the extended attributes whose index is given by the <b>UserEaIndex</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_INDEX_SPECIFIED bit on. 
+A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the extended attributes whose index is given by the <b>UserEaIndex</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on. 
 
 
 ### -field QuerySecurity
@@ -548,12 +548,12 @@ A structure member of an unnamed union used for handling <a href="https://msdn.m
 
 ### -field QuerySecurity.SecurityInformation
 
-A pointer to a caller-supplied input buffer containing a SECURITY_INFORMATION structure specifying the operation to be queried. This parameter is set to <b>IrpSp-&gt;Parameters.QuerySecurity.SecurityInformation</b>.
+A pointer to a caller-supplied input buffer containing a SECURITY_INFORMATION structure specifying the operation to be queried. This parameter is set to <b>IrpSp->Parameters.QuerySecurity.SecurityInformation</b>.
 
 
 ### -field QuerySecurity.Length
 
-The length, in bytes, of the buffer pointed to by <b>SecurityInformation</b> member. This parameter is set to <b>IrpSp-&gt;Parameters.QuerySecurity.Length</b>.  
+The length, in bytes, of the buffer pointed to by <b>SecurityInformation</b> member. This parameter is set to <b>IrpSp->Parameters.QuerySecurity.Length</b>.  
 
 
 ### -field SetSecurity
@@ -563,13 +563,13 @@ A structure member of an unnamed union used for handling <a href="https://msdn.m
 
 ### -field SetSecurity.SecurityInformation
 
-A pointer to a caller-supplied input buffer containing a SECURITY_INFORMATION structure that specifies which security information is to be set in the security descriptor. This parameter is set to <b>IrpSp-&gt;Parameters.SetSecurity.SecurityInformation</b>. 
+A pointer to a caller-supplied input buffer containing a SECURITY_INFORMATION structure that specifies which security information is to be set in the security descriptor. This parameter is set to <b>IrpSp->Parameters.SetSecurity.SecurityInformation</b>. 
 
 
 
 ### -field SetSecurity.SecurityDescriptor
 
-A pointer to a SECURITY_DESCRIPTOR structure that contains the values of the security information to be assigned to the object. This parameter is set to <b>IrpSp-&gt;Parameters.SetSecurity.SecurityDescriptor</b>.
+A pointer to a SECURITY_DESCRIPTOR structure that contains the values of the security information to be assigned to the object. This parameter is set to <b>IrpSp->Parameters.SetSecurity.SecurityDescriptor</b>.
 
 
 ### -field QueryQuota
@@ -579,37 +579,37 @@ A structure member of an unnamed union used for handling <a href="https://msdn.m
 
 ### -field QueryQuota.Length
 
-The length, in bytes, of the buffer pointed to by <b>StartSid</b> member. This parameter is set to <b>IrpSp-&gt;Parameters.QueryQuota.Length</b>. 
+The length, in bytes, of the buffer pointed to by <b>StartSid</b> member. This parameter is set to <b>IrpSp->Parameters.QueryQuota.Length</b>. 
 
 
 ### -field QueryQuota.StartSid
 
-An optional pointer to a SID that indicates that the returned information is to start with an entry other than the first entry. This parameter is ignored if the <b>SidList</b> member is specified. This parameter is set to <b>IrpSp-&gt;Parameters.QueryQuota.StartSid</b>.
+An optional pointer to a SID that indicates that the returned information is to start with an entry other than the first entry. This parameter is ignored if the <b>SidList</b> member is specified. This parameter is set to <b>IrpSp->Parameters.QueryQuota.StartSid</b>.
 
 
 ### -field QueryQuota.SidList
 
-An optional pointer to a list of SIDs whose quota information is to be returned. Each entry in the list is a FILE_GET_QUOTA_INFORMATION structure. This parameter is set to <b>IrpSp-&gt;Parameters.QueryQuota.SidList</b>.
+An optional pointer to a list of SIDs whose quota information is to be returned. Each entry in the list is a FILE_GET_QUOTA_INFORMATION structure. This parameter is set to <b>IrpSp->Parameters.QueryQuota.SidList</b>.
 
 
 ### -field QueryQuota.SidListLength
 
-The length, in bytes, of the list of SIDs in the <b>SidList</b> member, if one is specified. This parameter is set to <b>IrpSp-&gt;Parameters.QueryQuota.SidListLength</b>.
+The length, in bytes, of the list of SIDs in the <b>SidList</b> member, if one is specified. This parameter is set to <b>IrpSp->Parameters.QueryQuota.SidListLength</b>.
 
 
 ### -field QueryQuota.RestartScan
 
-A Boolean value when set to <b>TRUE</b> indicates that the query is to start at the first entry. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b>has the SL_RESTART_SCAN bit on. 
+A Boolean value when set to <b>TRUE</b> indicates that the query is to start at the first entry. When this value is set to <b>FALSE</b>, the scan is resuming from a previous call. This parameter must be set to <b>TRUE</b> when calling for the first time. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b>has the SL_RESTART_SCAN bit on. 
 
 
 ### -field QueryQuota.ReturnSingleEntry
 
-A Boolean value when set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, MrxQueryQuotaInfo should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on. 
+A Boolean value when set to <b>TRUE</b> indicates that only a single entry should be returned. If this parameter is <b>TRUE</b>, MrxQueryQuotaInfo should return only the first entry that is found. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on. 
 
 
 ### -field QueryQuota.IndexSpecified
 
-A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the list whose index is given by the <b>StartSid</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp-&gt;Flags </b>has the SL_INDEX_SPECIFIED bit on. 
+A Boolean value when set to <b>TRUE</b> indicates to begin the scan at the entry in the list whose index is given by the <b>StartSid</b> member. This parameter is set to <b>TRUE</b> if <b>IrpSp->Flags </b>has the SL_INDEX_SPECIFIED bit on. 
 
 
 ### -field SetQuota

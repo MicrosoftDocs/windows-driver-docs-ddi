@@ -100,8 +100,8 @@ The following code example shows how to forward a request to another queue if th
     hr = HRESULT_FROM_NT(ERROR_INSUFFICIENT_BUFFER);
  }
  else {
-     hr = FxRequest-&gt;ForwardToIoQueue(
-                          m_Device-&gt;GetSwitchChangeQueue()
+     hr = FxRequest->ForwardToIoQueue(
+                          m_Device->GetSwitchChangeQueue()
                           );
      if (SUCCEEDED(hr)) {
          completeRequest = false;

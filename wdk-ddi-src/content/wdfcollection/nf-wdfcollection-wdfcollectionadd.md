@@ -143,7 +143,7 @@ for (i = 0; i &lt; numSubRequests; i++) {
                                            );
     status = WdfRequestCreate(
                               &attributes,
-                              WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;WdfUsbTargetDevice),
+                              WdfUsbTargetDeviceGetIoTarget(deviceContext->WdfUsbTargetDevice),
                               &subRequest
                               );
     if (!NT_SUCCESS(status)) {

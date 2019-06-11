@@ -59,7 +59,7 @@ Ends a DVD session by invalidating its authentication grant ID (AGID).
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the session ID. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the session ID. 
 
 
 ### -input-buffer-length

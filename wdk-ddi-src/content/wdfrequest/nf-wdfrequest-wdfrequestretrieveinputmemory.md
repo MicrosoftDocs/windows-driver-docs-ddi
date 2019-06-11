@@ -192,7 +192,7 @@ MyEvtIoWrite(
     // the device object's context space.
     //
     pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
-    pipe = pDeviceContext-&gt;BulkWritePipe;
+    pipe = pDeviceContext->BulkWritePipe;
 
     //
     // Get input memory.

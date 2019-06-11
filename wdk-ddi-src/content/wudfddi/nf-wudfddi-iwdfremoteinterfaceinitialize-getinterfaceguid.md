@@ -94,7 +94,7 @@ CMyDevice::OnRemoteInterfaceArrival(
     )
 {
     GUID DeviceInterfaceGUID;
-    FxRemoteInterfaceInit-&gt;GetInterfaceGuid(&DeviceInterfaceGUID);
+    FxRemoteInterfaceInit->GetInterfaceGuid(&DeviceInterfaceGUID);
 ...
 }</pre>
 </td>

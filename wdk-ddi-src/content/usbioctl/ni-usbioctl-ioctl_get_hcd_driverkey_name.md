@@ -99,7 +99,7 @@ The size of this buffer is specified in the <b>Parameters.DeviceIoControl.Output
 
 ### -status-block
 
-The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
+The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -remarks
@@ -200,7 +200,7 @@ BOOL GetHCDDriverKeyName (HANDLE  HCD)
     }
 
     // print the driver key name. 
-    printf("Driver Key Name: %s.\n", driverKeyNameW-&gt;DriverKeyName);
+    printf("Driver Key Name: %s.\n", driverKeyNameW->DriverKeyName);
 
 
 GetHCDDriverKeyNameDone:

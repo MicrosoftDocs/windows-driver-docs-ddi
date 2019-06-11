@@ -50,7 +50,7 @@ The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in mil
 
 User-mode applications or kernel-mode drivers that perform irregular, opportunistic reads on a polled device must furnish a polling interval of zero. In such cases, IOCTL_HID_SET_POLL_FREQUENCY_MSEC does not actually change the polling frequency of the device; but if the report data is not stale when it is read, the read is completed immediately with the latest report data for the indicated collection. If the report data is stale, it is refreshed immediately, without waiting for the expiration of the polling interval, and the read is completed with the new data. 
 
-If the value for the polling interval that is provided in the IRP is not zero, it must be &gt;= MIN_POLL_INTERVAL_MSEC and &lt;= MAX_POLL_INTERVAL_MSEC.
+If the value for the polling interval that is provided in the IRP is not zero, it must be >= MIN_POLL_INTERVAL_MSEC and &lt;= MAX_POLL_INTERVAL_MSEC.
 
 Polling may be limited if there are multiple top-level collections.
 
@@ -64,9 +64,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be &gt;= <b>sizeof</b>(ULONG). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be >= <b>sizeof</b>(ULONG). 
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the new polling interval. 
+<b>Irp->AssociatedIrp.SystemBuffer</b> contains the new polling interval. 
 
 
 ### -input-buffer-length
@@ -104,7 +104,7 @@ None.
 
 ### -status-block
 
-The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
+The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
 
 
 ## -see-also

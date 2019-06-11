@@ -96,7 +96,7 @@ Texture coordinate output register file.
 
 ### -field D3DSPR_OUTPUT
 
-For &lt; VS 3_0, texture coordinate output register file. For &gt;/= VS 3_0, output register file. For PS, reserved.
+For &lt; VS 3_0, texture coordinate output register file. For >/= VS 3_0, output register file. For PS, reserved.
 
 
 ### -field D3DSPR_CONSTINT

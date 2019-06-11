@@ -71,13 +71,13 @@ If a block is being registered with static instance names, a driver sets one of 
 
 #### WMIREG_FLAG_INSTANCE_LIST
 
-Indicates that the driver provides static instance names for this block in a static list following the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565832">WMIREGINFO</a> structure in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
+Indicates that the driver provides static instance names for this block in a static list following the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565832">WMIREGINFO</a> structure in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
 
 
 
 #### WMIREG_FLAG_INSTANCE_BASENAME
 
-Requests WMI to generate static instance names from a base name provided by the driver following the <b>WMIREGINFO</b> structure in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. WMI generates instance names by appending a counter to the base name. If this flag is set, <b>BaseNameOffset</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a single counted Unicode string that serves as the base name.
+Requests WMI to generate static instance names from a base name provided by the driver following the <b>WMIREGINFO</b> structure in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. WMI generates instance names by appending a counter to the base name. If this flag is set, <b>BaseNameOffset</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a single counted Unicode string that serves as the base name.
 
 
 
@@ -156,7 +156,7 @@ Reserved for use by WMI.
 
 
 
-A driver builds one or more <b>WMIREGGUID</b> structures in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> request to register or update its blocks. The driver passes an array of such structures at the <b>WmiRegGuid </b>member of a <b>WMIREGINFO</b> structure, which the driver writes to the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>.
+A driver builds one or more <b>WMIREGGUID</b> structures in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a> request to register or update its blocks. The driver passes an array of such structures at the <b>WmiRegGuid </b>member of a <b>WMIREGINFO</b> structure, which the driver writes to the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>.
 
 A driver can register or update a block with either static or dynamic instance names. Static instance names provide best performance; however, dynamic instance names are preferred for data blocks if the number of instances or instance names change frequently. For more information about instance names, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543029">Defining WMI Instance Names</a>.
 

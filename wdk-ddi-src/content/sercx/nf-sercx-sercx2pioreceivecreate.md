@@ -103,7 +103,7 @@ A PIO-receive object already exists from a previous <b>SerCx2PioReceiveCreate</b
 </dl>
 </td>
 <td width="60%">
-The <i>Config</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_PIO_RECEIVE_CONFIG</b>).
+The <i>Config</i>-><b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_PIO_RECEIVE_CONFIG</b>).
 
 </td>
 </tr>

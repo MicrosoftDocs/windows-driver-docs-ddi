@@ -134,7 +134,7 @@ MyEvtDeviceD0Exit(
     pDeviceContext = GetMyDeviceContext(Device);
 
     WdfIoTargetPurge(
-                    WdfUsbTargetPipeGetIoTarget(pDeviceContext-&gt;InterruptPipe),
+                    WdfUsbTargetPipeGetIoTarget(pDeviceContext->InterruptPipe),
                     WdfIoTargetPurgeIoAndWait
                     );
 

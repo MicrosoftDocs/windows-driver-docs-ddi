@@ -156,16 +156,16 @@ DriverCallbackFunction(
 
     RtlZeroMemory(CallbackContex, sizeof(CALLBACK_CONTEXT));
 
-    CallbackContex-&gt;InputBuffer[0] = 0xaa;
-    CallbackContex-&gt;InputBuffer[1] = 0x55;
+    CallbackContex->InputBuffer[0] = 0xaa;
+    CallbackContex->InputBuffer[1] = 0x55;
 
     Status = 
-      pDeviceContext-&gt;MiracastCallbacks.DxgkCbMiracastSendMessage(
-          pDeviceContext-&gt;MiracastCallbacks.MiracastHandle,
-          sizeof(CallbackContex-&gt;InputBuffer),
-          CallbackContex-&gt;InputBuffer,
-          sizeof(CallbackContex-&gt;OutputBuffer),
-          CallbackContext-&gt;OutputBuffer,
+      pDeviceContext->MiracastCallbacks.DxgkCbMiracastSendMessage(
+          pDeviceContext->MiracastCallbacks.MiracastHandle,
+          sizeof(CallbackContex->InputBuffer),
+          CallbackContex->InputBuffer,
+          sizeof(CallbackContex->OutputBuffer),
+          CallbackContext->OutputBuffer,
           &DriverCallbackFunction,
           CallbackContex);
 

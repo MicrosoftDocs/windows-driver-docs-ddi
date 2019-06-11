@@ -111,7 +111,7 @@ MyEvtDevicePrepareHardware (
                                               i
                                               );
 
-        switch (desc-&gt;Type) {
+        switch (desc->Type) {
 
             case CmResourceTypeMemory:
                 //

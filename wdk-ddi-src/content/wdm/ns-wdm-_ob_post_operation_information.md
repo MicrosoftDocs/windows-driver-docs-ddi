@@ -64,13 +64,13 @@ The type of handle operation. This member might be one of the following values:
 
 #### OB_OPERATION_HANDLE_CREATE
 
-A new handle to a process or thread was created. Use <b>Parameters-&gt;CreateHandleInformation</b> for create-specific information.
+A new handle to a process or thread was created. Use <b>Parameters->CreateHandleInformation</b> for create-specific information.
 
 
 
 #### OB_OPERATION_HANDLE_DUPLICATE
 
-A process or thread handle was duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
+A process or thread handle was duplicated. Use <b>Parameters->DuplicateHandleInformation</b> for duplicate-specific information.
 
 
 ### -field Flags
@@ -100,7 +100,7 @@ A pointer to the object type of the object. This type can be <b>PsProcessType</b
 
 ### -field CallContext
 
-A pointer to driver-specific context information for the operation. This value is the value that the <i>OperationInformation</i>-&gt;<b>CallContext</b> member specifies to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine. 
+A pointer to driver-specific context information for the operation. This value is the value that the <i>OperationInformation</i>-><b>CallContext</b> member specifies to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine. 
 
 
 ### -field ReturnStatus

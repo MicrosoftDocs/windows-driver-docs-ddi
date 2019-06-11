@@ -486,7 +486,7 @@ In the context of a network mini-redirector, a file object refers to the associa
 
 If the<a href="https://msdn.microsoft.com/d1b664cf-37b6-4c65-8634-21695af2db21"> MRxCreate</a> request was for a file overwrite and <i>MRxCreate</i> returned STATUS_SUCCESS, then RDBSS will acquire the paging I/O resource and truncate the file. If the file is being cached by cache manager, RDBSS will update the sizes the cache manager has with the ones just received from the server. 
 
-Before returning,<a href="https://msdn.microsoft.com/d1b664cf-37b6-4c65-8634-21695af2db21"> MRxCreate</a> must set the <b>CurrentIrp-&gt;IoStatus.Information</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter.
+Before returning,<a href="https://msdn.microsoft.com/d1b664cf-37b6-4c65-8634-21695af2db21"> MRxCreate</a> must set the <b>CurrentIrp->IoStatus.Information</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter.
 
 The<a href="https://msdn.microsoft.com/d60449d0-17d0-4303-8d0d-cba091de2b07"> MRxDevFcbXXXControlFile</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to pass a device FCB control request (an IOCTL or FSCTL request) to the network mini-redirector.
 
@@ -516,7 +516,7 @@ The<a href="https://msdn.microsoft.com/b133a91f-3f8c-45af-a02c-58d894a2fa2e"> MR
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550703">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector open an exclusive lock on a file object.
 
-RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550703">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp-&gt;Flags</b> has the SL_EXCLUSIVE_LOCK bit set.
+RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550703">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp->Flags</b> has the SL_EXCLUSIVE_LOCK bit set.
 
 Before calling<a href="https://msdn.microsoft.com/7f6613d1-63fb-4505-966d-155dc2b80ffe"> MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
@@ -524,13 +524,13 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_EXCLUSIVELOCK.
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.ByteOffset.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Key</b>.
+The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp-&gt;Flags</b>.
+The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp->Flags</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Length.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and that routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
@@ -610,13 +610,13 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_NOTIFY_CHANGE_DIRECT
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.WatchTree</b> member is set to <b>TRUE</b> if the <b>IrpSp-&gt;Flags</b> has the SL_WATCH_TREE bit set. 
+The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.WatchTree</b> member is set to <b>TRUE</b> if the <b>IrpSp->Flags</b> has the SL_WATCH_TREE bit set. 
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.CompletionFilter</b> member is set to the value of <b>IrpSp-&gt;Parameters.NotifyDirectory.CompletionFilter</b>.
+The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.CompletionFilter</b> member is set to the value of <b>IrpSp->Parameters.NotifyDirectory.CompletionFilter</b>.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.NotificationBufferLength</b> member is set to the value of <b>IrpSp-&gt;Parameters.NotifyDirectory.Length</b>.
+The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.NotificationBufferLength</b> member is set to the value of <b>IrpSp->Parameters.NotifyDirectory.Length</b>.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.pNotificationBuffer</b> member is set to the value returned by calling <b>MmGetSystemAddressForMdlSafe</b> passing in the <b>Irp-&gt;MdlAddress</b> and NormalPagePriority. The user buffer also is probed and locked for write access. 
+The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.pNotificationBuffer</b> member is set to the value returned by calling <b>MmGetSystemAddressForMdlSafe</b> passing in the <b>Irp->MdlAddress</b> and NormalPagePriority. The user buffer also is probed and locked for write access. 
 
 A directory change notification operation is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server requesting change notification. The response is obtained when the desired change is affected on the server. This is an example of an operation for which the network mini-redirector may need to register a unique context value for handling cancellations initiated locally.
 
@@ -632,13 +632,13 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_READ.
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.Read.Key</b>.
+The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp->Parameters.Read.Key</b>.
 
-The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp-&gt;Flags</b> has the IRP_PAGING_IO bit on.
+The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp->Flags</b> has the IRP_PAGING_IO bit on.
 
 The <b>ParamsFor.ReadWrite.Buffer</b> member is set to the user buffer locked for IoReadAccess.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of IrpSp-&gt;Parameters.Read.Length.
+The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of IrpSp->Parameters.Read.Length.
 
 A read request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the read request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
@@ -646,7 +646,7 @@ While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550724"
 
 The<a href="https://msdn.microsoft.com/963ec2d1-5e24-4002-a8c9-44faf1515b9f"> MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network redirector open a shared lock on a file object. 
 
-RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550734">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp-&gt;Flags</b> does not have the SL_EXCLUSIVE_LOCK bit set.
+RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550734">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> in response to receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp->Flags</b> does not have the SL_EXCLUSIVE_LOCK bit set.
 
 Before calling<a href="https://msdn.microsoft.com/963ec2d1-5e24-4002-a8c9-44faf1515b9f"> MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
@@ -654,13 +654,13 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_SHAREDLOCK.
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.ByteOffset.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Key</b>.
+The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp-&gt;Flags</b>.
+The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp->Flags</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Length.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
@@ -678,11 +678,11 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_UNLOCK.
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.ByteOffset.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Key</b>.
+The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp-&gt;Parameters.LockControl.Length.QuadPart</b>.
+The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
@@ -728,13 +728,13 @@ The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_WRITE.
 
 The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp-&gt;Parameters.Read.Key</b>.
+The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp->Parameters.Read.Key</b>.
 
-The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp-&gt;Flags</b> has the IRP_PAGING_IO bit on.
+The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp->Flags</b> has the IRP_PAGING_IO bit on.
 
 The <b>ParamsFor.ReadWrite.Buffer</b> member is set to the user buffer locked for IoWriteAccess.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of <b>IrpSp-&gt;Parameters.Write.Length</b>.
+The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of <b>IrpSp->Parameters.Write.Length</b>.
 
 A write request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the write request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
@@ -744,19 +744,19 @@ The<a href="https://msdn.microsoft.com/26c7c7fa-7dfa-43fb-a1db-cfc2fc40b969"> MR
 
 Before calling<a href="https://msdn.microsoft.com/26c7c7fa-7dfa-43fb-a1db-cfc2fc40b969"> MRxQueryDirectory</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.QueryDirectory.FileInformationClass</b>.
+The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileInformationClass</b>.
 
 The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryDirectory.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryDirectory.Length</b>.
 
-The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp-&gt;Parameters.QueryDirectory.FileIndex</b>.
+The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileIndex</b>.
 
-The <b>QueryDirectory.RestartScan</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit on.
+The <b>QueryDirectory.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit on.
 
-The <b>QueryDirectory.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
+The <b>QueryDirectory.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
 
-The <b>QueryDirectory.IndexSpecified</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_INDEX_SPECIFIED bit on.
+The <b>QueryDirectory.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on.
 
 The <b>QueryDirectory.InitialQuery</b> member is set to nonzero if <b>UnicodeQueryTemplate.Buffer</b> member of the associated FOBX is <b>NULL</b> and the <b>Flags</b> member of the FOBX does not have the FOBX_FLAG_MATCH_ALL bit on.
 
@@ -772,21 +772,21 @@ Before calling<a href="https://msdn.microsoft.com/4471eb82-c176-4976-b722-5a6e06
 
 The <b>Info.Buffer</b> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryEa.Length</b>.
 
-The <b>QueryEa.UserEaList</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.EaList</b>.
+The <b>QueryEa.UserEaList</b> member is set to <b>IrpSp->Parameters.QueryEa.EaList</b>.
 
-The <b>QueryEa.UserEaListLength</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.EaListLength</b>.
+The <b>QueryEa.UserEaListLength</b> member is set to <b>IrpSp->Parameters.QueryEa.EaListLength</b>.
 
-The <b>QueryEa.UserEaIndex</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.EaIndex</b>.
+The <b>QueryEa.UserEaIndex</b> member is set to <b>IrpSp->Parameters.QueryEa.EaIndex</b>.
 
-The <b>QueryEa.RestartScan</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit on.
+The <b>QueryEa.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit on.
 
-The <b>QueryEa.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
+The <b>QueryEa.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
 
-The <b>QueryEa.IndexSpecified</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_INDEX_SPECIFIED bit on.
+The <b>QueryEa.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on.
 
-On success, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a> should set the <b>Info.LengthRemaininging</b> member of the RX_CONTEXT structure to the length of extended attribute information returned and also update the <b>Fobx-&gt;OffsetOfNextEaToReturn</b> member. If the call to <i>MRxQueryEaInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp-&gt;Parameters.QueryEa.Length</b> minus the <b>Info.LengthRemaining</b> member of RX_CONTEXT. 
+On success, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a> should set the <b>Info.LengthRemaininging</b> member of the RX_CONTEXT structure to the length of extended attribute information returned and also update the <b>Fobx->OffsetOfNextEaToReturn</b> member. If the call to <i>MRxQueryEaInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryEa.Length</b> minus the <b>Info.LengthRemaining</b> member of RX_CONTEXT. 
 
 The<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query file information on a file system object.
 
@@ -794,23 +794,23 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling<a href="https://msdn.microsoft.com/201b749c-527b-4c02-a860-d2f54777dc32"> MRxQueryFileInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.QueryFile.FileInformationClass</b>, the requested FILE_INFORMATION_CLASS value.
+The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.QueryFile.FileInformationClass</b>, the requested FILE_INFORMATION_CLASS value.
 
 The <b>Info.Buffer</b> member is set to the user buffer from the I/O request packet.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryFile.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryFile.Length</b>.
 
-The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp-&gt;Parameters.QueryDirectory.FileIndex</b>.
+The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileIndex</b>.
 
-The <b>QueryDirectory.RestartScan</b> member is set if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit set.
+The <b>QueryDirectory.RestartScan</b> member is set if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit set.
 
-The <b>QueryDirectory.ReturnSingleEntry</b> member is set if <b>IrpSp-&gt;Flags</b> has SL_RETURN_SINGLE_ENTRY bit set.
+The <b>QueryDirectory.ReturnSingleEntry</b> member is set if <b>IrpSp->Flags</b> has SL_RETURN_SINGLE_ENTRY bit set.
 
-The <b>QueryDirectory.InitialQuery</b> member is set if <b>Fobx-&gt;UnicodeQueryTemplate.Buffer</b> is <b>NULL</b> and <b>Fobx-&gt;Flags</b> does not have the FOBX_FLAG_MATCH_ALL bit set.
+The <b>QueryDirectory.InitialQuery</b> member is set if <b>Fobx->UnicodeQueryTemplate.Buffer</b> is <b>NULL</b> and <b>Fobx->Flags</b> does not have the FOBX_FLAG_MATCH_ALL bit set.
 
-On success, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to <b>Info.Length</b> member minus the length of the file information returned. If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp-&gt;Parameters.QueryFile.Length</b> minus the<b> Info.LengthRemaining</b> member of RX_CONTEXT. 
+On success, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to <b>Info.Length</b> member minus the length of the file information returned. If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryFile.Length</b> minus the<b> Info.LengthRemaining</b> member of RX_CONTEXT. 
 
-RDBSS does not support requests with the SL_INDEX_SPECIFIED bit of the <b>IrpSp-&gt;Flags</b> set. A network mini-redirector will not receive calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a> with the SL_INDEX_SPECIFIED bit of <b>IrpSp-&gt;Flags</b> set.
+RDBSS does not support requests with the SL_INDEX_SPECIFIED bit of the <b>IrpSp->Flags</b> set. A network mini-redirector will not receive calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a> with the SL_INDEX_SPECIFIED bit of <b>IrpSp->Flags</b> set.
 
 The<a href="https://msdn.microsoft.com/44bf976b-09bc-4270-8c2e-8e55784aaa38"> MRxQueryQuotaInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query quota information on a file system object. 
 
@@ -820,21 +820,21 @@ Before calling<a href="https://msdn.microsoft.com/44bf976b-09bc-4270-8c2e-8e5578
 
 The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.Length</b>. 
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryQuota.Length</b>. 
 
-The <b>QueryQuota.SidList</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.SidList</b>. 
+The <b>QueryQuota.SidList</b> member is set to <b>IrpSp->Parameters.QueryQuota.SidList</b>. 
 
-The <b>QueryQuota.SidListLength</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.SidListLength</b>.
+The <b>QueryQuota.SidListLength</b> member is set to <b>IrpSp->Parameters.QueryQuota.SidListLength</b>.
 
-The <b>QueryQuota.StartSid</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.StartSid</b>.
+The <b>QueryQuota.StartSid</b> member is set to <b>IrpSp->Parameters.QueryQuota.StartSid</b>.
 
-The <b>QueryQuota.Length</b> member is set to <b>IrpSp-&gt;Parameters.QueryQuota.Length</b>.
+The <b>QueryQuota.Length</b> member is set to <b>IrpSp->Parameters.QueryQuota.Length</b>.
 
-The <b>QueryQuota.RestartScan</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RESTART_SCAN bit set. 
+The <b>QueryQuota.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit set. 
 
-The <b>QueryQuota.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_RETURN_SINGLE_ENTRY bit set. 
+The <b>QueryQuota.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit set. 
 
-The <b>QueryQuota.IndexSpecified</b> member is set to nonzero if <b>IrpSp-&gt;Flags</b> has the SL_INDEX_SPECIFIED bit set. 
+The <b>QueryQuota.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit set. 
 
 On success, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the quota information to return. If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the <b>Info.LengthRemaining</b> member of RX_CONTEXT. 
 
@@ -846,11 +846,11 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>QuerySecurity.SecurityInformation</b> member is set to <b>IrpSp-&gt;Parameters.QuerySecurity.SecurityInformation</b>.
+The <b>QuerySecurity.SecurityInformation</b> member is set to <b>IrpSp->Parameters.QuerySecurity.SecurityInformation</b>.
 
 The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QuerySecurity.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QuerySecurity.Length</b>.
 
 On success, the network mini-redirector should set the <b>InformationToReturn</b> member of the RX_CONTEXT structure to the length of the security information returned. If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the <b>InformationToReturn</b> member of RX_CONTEXT. 
 
@@ -870,17 +870,17 @@ RDBSS receives an <a href="https://msdn.microsoft.com/library/windows/hardware/f
 </ul>
 Before calling<a href="https://msdn.microsoft.com/28e36992-2b6b-4484-9e7e-2cea7a2953e9"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>Info.FsInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.QueryVolume.FsInformationClass</b>. 
+The <b>Info.FsInformationClass</b> member is set to <b>IrpSp->Parameters.QueryVolume.FsInformationClass</b>. 
 
-The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryVolume.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryVolume.Length</b>.
 
 For an IRP_MJ_QUERY_VOLUME_INFORMATION request, if the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, RDBSS will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554472">RxFsdPostRequest</a> to post the request. For this case, the IRP_MJ_QUERY_VOLUME_INFORMATION request will pass the RX_CONTEXT structure to queue RX_CONTEXT to a worker queue for processing by the file system process (FSP). 
 
-If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>FALSE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, the network mini-redirector must set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the volume information returned. RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp-&gt;Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
+If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>FALSE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, the network mini-redirector must set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the volume information returned. RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
 
-If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> is successful, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the <b>Info.Length</b>  member minus the length of the volume information returned. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp-&gt;Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
+If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> is successful, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the <b>Info.Length</b>  member minus the length of the volume information returned. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
 
 For an IRP_MJ_QUERY_VOLUME_INFORMATION request with the <b>Info.FsInformationClass</b> member set to <b>FileFsDeviceInformation</b>, the network mini-redirector returns the following information in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
@@ -908,7 +908,7 @@ The <b>Info.LengthRemaining</b> member is set to <b>sizeof</b>(FILE_FS_OBJECTID_
 
 For this case of an IRP_MJ_FILE_SYSTEM_CONTROL request, the <b>AssociatedIrp.SystemBuffer</b> member of the IRP points to a LINK_TRACKING_INFORMATION structure. 
 
-If a request is initiated as an IRP_MJ_FILE_SYSTEM_CONTROL to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> with a return value of STATUS_SUCCESS or STATUS_BUFFER_OVERFLOW, RDBSS copies the <b>ObjectId</b> member of the FILE_FS_OBJECTID_INFORMATION structure passed in the <b>Info.Buffer</b> member of RX_CONTEXT structure to the <b>NetRoot-&gt;DiskParameters.VolumeId</b> member of the FCB structure and to the <b>AssociatedIrp.SystemBuffer.VolumeId</b> member of the IRP. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>Type</b> member of the LINK_TRACKING_INFORMATION structure. If the <b>NetRoot-&gt;Flags</b> member of the FCB structure has the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>DfsLinkTrackingInformation</b>. If the <b>NetRoot-&gt;Flags</b> member of the FCB structure does not have the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>NtfsLinkTrackingInformation</b>. On success, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the size of a LINK_TRACKING_INFORMATION structure. 
+If a request is initiated as an IRP_MJ_FILE_SYSTEM_CONTROL to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a> with a return value of STATUS_SUCCESS or STATUS_BUFFER_OVERFLOW, RDBSS copies the <b>ObjectId</b> member of the FILE_FS_OBJECTID_INFORMATION structure passed in the <b>Info.Buffer</b> member of RX_CONTEXT structure to the <b>NetRoot->DiskParameters.VolumeId</b> member of the FCB structure and to the <b>AssociatedIrp.SystemBuffer.VolumeId</b> member of the IRP. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>Type</b> member of the LINK_TRACKING_INFORMATION structure. If the <b>NetRoot->Flags</b> member of the FCB structure has the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>DfsLinkTrackingInformation</b>. If the <b>NetRoot->Flags</b> member of the FCB structure does not have the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>NtfsLinkTrackingInformation</b>. On success, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the size of a LINK_TRACKING_INFORMATION structure. 
 
 The<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set extended attribute information on a file system object. 
 
@@ -918,7 +918,7 @@ Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The <b>Info.Buffer</b> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryEa.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryEa.Length</b>.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set file information on a file system object. 
 
@@ -926,11 +926,11 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.SetFile.FileInformationClass</b>, the specified FILE_INFORMATION_CLASS value.
+The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.SetFile.FileInformationClass</b>, the specified FILE_INFORMATION_CLASS value.
 
-The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
-The <b>Info.Length</b> member is set to <b>IrpSp-&gt;Parameters.SetFile.Length</b>.
+The <b>Info.Length</b> member is set to <b>IrpSp->Parameters.SetFile.Length</b>.
 
 The<a href="https://msdn.microsoft.com/099244ee-cc66-4500-9fee-a10238aaa66c"> MRxSetFileInfoAtCleanup</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set file information on a file system object at cleanup.
 
@@ -967,7 +967,7 @@ Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The <i>Info.Buffer</i> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.SetQuota.Length</b>. 
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.SetQuota.Length</b>. 
 
 The<a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set security descriptor information on a file system object. 
 
@@ -975,9 +975,9 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>SetSecurity.SecurityInformation</b> member is set to <b>IrpSp-&gt;Parameters.SetSecurity.SecurityInformation</b>.
+The <b>SetSecurity.SecurityInformation</b> member is set to <b>IrpSp->Parameters.SetSecurity.SecurityInformation</b>.
 
-The <b>SetSecurity.SecurityDescriptor</b> member is set to <b>IrpSp-&gt;Parameters.SetSecurity.SecurityDescriptor</b>.
+The <b>SetSecurity.SecurityDescriptor</b> member is set to <b>IrpSp->Parameters.SetSecurity.SecurityDescriptor</b>.
 
 The<a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set volume information. 
 
@@ -985,11 +985,11 @@ RDBSS issues a call to <a href="https://msdn.microsoft.com/library/windows/hardw
 
 Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
 
-The <b>Info.FsInformationClass</b> member is set to <b>IrpSp-&gt;Parameters.SetVolume.FsInformationClass</b>. 
+The <b>Info.FsInformationClass</b> member is set to <b>IrpSp->Parameters.SetVolume.FsInformationClass</b>. 
 
-The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.SetVolume.Length</b>.
+The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.SetVolume.Length</b>.
 
 The<a href="https://msdn.microsoft.com/a68755c1-73f5-4134-b506-2a0163637a13"> MRxShouldTryToCollapseThisOpen</a> routine is called by <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector indicate if RDBSS should try and collapse an open request onto an existing file system object.
 

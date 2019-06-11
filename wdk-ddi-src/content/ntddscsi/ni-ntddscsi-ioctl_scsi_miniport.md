@@ -59,7 +59,7 @@ Sends a special control function to an HBA-specific miniport driver. Results var
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure. 
 
 
 ### -input-buffer-length
@@ -69,7 +69,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <a href=
 
 ### -output-buffer
 
-An updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+An updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

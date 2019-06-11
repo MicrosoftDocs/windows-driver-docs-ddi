@@ -105,7 +105,7 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>&gt; Zero </b></dt>
+<dt><b>> Zero </b></dt>
 </dl>
 </td>
 <td width="60%">

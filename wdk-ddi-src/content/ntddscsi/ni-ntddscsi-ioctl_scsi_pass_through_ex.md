@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_PASS_THROUGH_EX
 title: IOCTL_SCSI_PASS_THROUGH_EX (ntddscsi.h)
-description: The IOCTL_SCSI_PASS_THROUGH_EX control code request is the extended version of the IOCTL_SCSI_PASS_THROUGH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
+description: The IOCTL_SCSI_PASS_THROUGH_EX control code request is the extended version of the IOCTL_SCSI_PASS_THROUGH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) > 16 bytes.
 old-location: storage\ioctl_scsi_pass_through_ex.htm
 tech.root: storage
 ms.assetid: BDF4375D-660D-4AF0-A692-16EEA59954B3
@@ -47,7 +47,7 @@ req.typenames:
 
 
 The <b>IOCTL_SCSI_PASS_THROUGH_EX</b>
-     control code request is the extended version of the <b>IOCTL_SCSI_PASS_THROUGH</b> request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
+     control code request is the extended version of the <b>IOCTL_SCSI_PASS_THROUGH</b> request. This request provides support for bidirectional data transfers and allows a command data block (CDB) > 16 bytes.
 
 Allows an application to send almost any SCSI command to a target device, with the following restrictions:
 <ul>
@@ -89,18 +89,18 @@ Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate 
 
 ### -input-buffer
 
-This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and logical unit number (LUN), which are filled in by the port driver. For a data-out command, the data to be transferred is included in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> at <b>DataInBufferOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure. However, the caller must allocate additional storage, immediately following <b>SCSI_PASS_THROUGH_EX</b>, if the caller asks for request-sense data.
+This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and logical unit number (LUN), which are filled in by the port driver. For a data-out command, the data to be transferred is included in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> at <b>DataInBufferOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure. However, the caller must allocate additional storage, immediately following <b>SCSI_PASS_THROUGH_EX</b>, if the caller asks for request-sense data.
 
 
 ### -input-buffer-length
 
 <i>
-       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_EX)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure varies, depending on the value specified in <b>DataInTransferLength</b> .
+       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_EX)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure varies, depending on the value specified in <b>DataInTransferLength</b> .
 
 
 ### -output-buffer
 
-The port driver returns any request-sense data and any data transferred from the device to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
+The port driver returns any request-sense data and any data transferred from the device to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
 
 
 ### -output-buffer-length
@@ -128,7 +128,7 @@ The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="http
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> is improperly set. 
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> is improperly set. 
 
 
 ## -remarks

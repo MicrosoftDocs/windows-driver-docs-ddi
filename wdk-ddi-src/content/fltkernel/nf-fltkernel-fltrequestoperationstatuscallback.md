@@ -147,9 +147,9 @@ The following example code from a preoperation callback routine illustrates how 
 PFLT_GET_OPERATION_STATUS_CALLBACK CallbackRoutine;
 PVOID RequesterContext;
 ...
-if (iopb-&gt;MajorFunction == IRP_MJ_READ) {
+if (iopb->MajorFunction == IRP_MJ_READ) {
     FltRequestOperationStatusCallback (Data, CallbackRoutine, RequesterContext);
- Data-&gt;Iopb-&gt;Parameters.Read.ReadBuffer = newBuffer;
+ Data->Iopb->Parameters.Read.ReadBuffer = newBuffer;
     ...
 }</pre>
 </td>

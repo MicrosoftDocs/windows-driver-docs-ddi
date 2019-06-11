@@ -208,7 +208,7 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
         //     Attach the FDO to the top of the PDO in the client driver's 
         //  device stack.
 
-        deviceExtension-&gt;StackDeviceObject = IoAttachDeviceToDeviceStack (
+        deviceExtension->StackDeviceObject = IoAttachDeviceToDeviceStack (
         deviceObject,
         PhysicalDeviceObject);
 
@@ -216,7 +216,7 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
         // Initialize the DeviceExtension
 
-        deviceExtension = deviceObject-&gt;DeviceExtension;
+        deviceExtension = deviceObject->DeviceExtension;
 
     ...
 
@@ -224,10 +224,10 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
         //Obtain a USBD handle for registration.
 
         ntStatus = USBD_CreateHandle(deviceObject, 
-        deviceExtension-&gt;StackDeviceObject,
+        deviceExtension->StackDeviceObject,
         USBD_CLIENT_CONTRACT_VERSION_602,
         POOL_TAG,
-        &deviceExtension-&gt;USBDHandle);
+        &deviceExtension->USBDHandle);
 
     if (!NT_SUCCESS(ntStatus)) 
     {
@@ -239,7 +239,7 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
         // Call USBD_QueryUsbCapability to determine 
         // stream support. 
 
-        ntStatus = USBD_QueryUsbCapability ( deviceExtension-&gt;USBDHandle,  
+        ntStatus = USBD_QueryUsbCapability ( deviceExtension->USBDHandle,  
         (GUID*)&GUID_USB_CAPABILITY_STATIC_STREAMS,  
         sizeof(ULONG),  
         (PUCHAR) &deviceExtension.MaxSupportedStreams);  
@@ -247,7 +247,7 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
     if (!NT_SUCCESS(ntStatus)) 
     {
-        deviceExtension-&gt;MaxSupportedStreams = 0;
+        deviceExtension->MaxSupportedStreams = 0;
         ntStatus = STATUS_SUCCESS;
     } 
 

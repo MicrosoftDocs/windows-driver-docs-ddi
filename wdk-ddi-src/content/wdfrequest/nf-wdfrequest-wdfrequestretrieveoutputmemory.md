@@ -192,7 +192,7 @@ MyEvtIoRead(
     // the device object's context space.
     //
     pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
-    pipe = pDeviceContext-&gt;BulkReadPipe;
+    pipe = pDeviceContext->BulkReadPipe;
 
     //
     // Get output memory.

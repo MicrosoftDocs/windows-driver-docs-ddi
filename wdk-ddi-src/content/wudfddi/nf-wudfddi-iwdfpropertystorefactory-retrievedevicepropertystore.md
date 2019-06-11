@@ -161,7 +161,7 @@ HRESULT hr;
 //
 // Get the property store factory interface.
 //
-hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&pPropertyStoreFactory));
+hr = m_FxDevice->QueryInterface(IID_PPV_ARGS(&pPropertyStoreFactory));
 if (FAILED(hr))
 {
     goto Exit;
@@ -180,7 +180,7 @@ RootSpecifier.Qualifier.HardwareKey.ServiceName = WDF_PROPERTY_STORE_HARDWARE_KE
 // Get the property store interface for the hardware key of the
 // device that m_FxDevice represents.
 //
-hr = pPropertyStoreFactory-&gt;RetrieveDevicePropertyStore(
+hr = pPropertyStoreFactory->RetrieveDevicePropertyStore(
                                            &RootSpecifier,
                                            WdfPropertyStoreNormal,
                                            KEY_QUERY_VALUE,
@@ -198,7 +198,7 @@ if (FAILED(hr))
 // the device's \Device Parameters subkey.
 //
 PropVariantInit(&comPortPV);
-hr = pHardwarePropertyStore2-&gt;GetNamedValue(portName,
+hr = pHardwarePropertyStore2->GetNamedValue(portName,
                                             &comPortPV);
 if (FAILED(hr))
 {

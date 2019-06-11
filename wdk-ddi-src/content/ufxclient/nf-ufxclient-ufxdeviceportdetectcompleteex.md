@@ -103,7 +103,7 @@ The following snippet shows how a client driver calls <b>UfxDevicePortDetectComp
     case UsbfnPortDetected:
         TraceInformation("Port Detected");
         UfxDevicePortDetectComplete(
-            ControllerData-&gt;UfxDevice,
+            ControllerData->UfxDevice,
             OnAttach.PortType);
 
         break;
@@ -111,7 +111,7 @@ The following snippet shows how a client driver calls <b>UfxDevicePortDetectComp
     case UsbfnPortDetectedNoCad:
         TraceInformation("Port Detected No CAD");
         UfxDevicePortDetectCompleteEx(
-            ControllerData-&gt;UfxDevice,
+            ControllerData->UfxDevice,
             OnAttach.PortType,
             UsbfnActionNoCad);
 

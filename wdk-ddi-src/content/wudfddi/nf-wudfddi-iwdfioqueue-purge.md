@@ -118,13 +118,13 @@ CUmdfHidFile::OnCleanupFile(
     Because the file is disabled, no new reports should be added to the ring buffer.
 --*/
 {
-    this-&gt;Disable();
+    this->Disable();
 
     //
     // Stop all current requests to read reports.
     //
 
-    m_GetReportQueue-&gt;Purge(NULL);
+    m_GetReportQueue->Purge(NULL);
 }</pre>
 </td>
 </tr>

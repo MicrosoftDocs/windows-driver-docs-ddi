@@ -102,7 +102,7 @@ The following code example sends an I/O request to an I/O target. If the call to
 <td>
 <pre>HRESULT hrSend = S_OK;
 ...
-hrSend = fxRequest-&gt;Send(m_pIoTarget,
+hrSend = fxRequest->Send(m_pIoTarget,
                          WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
                          0);
 if (SUCCEEDED(hrSend))
@@ -111,9 +111,9 @@ if (SUCCEEDED(hrSend))
     // If send succeeded, complete the request and specify 
     // the current status value.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2 = fxRequest;
-    hrSend = fxRequest2-&gt;GetStatus();
-    fxRequest-&gt;CompleteWithInformation(hrSend, 0);
+    CComQIPtr&lt;IWDFIoRequest2> fxRequest2 = fxRequest;
+    hrSend = fxRequest2->GetStatus();
+    fxRequest->CompleteWithInformation(hrSend, 0);
 }
 ...</pre>
 </td>

@@ -109,18 +109,18 @@ DxgkDdiOpenAllocation(
     PHW_DEVICE_EXTENSION            pAdapter;
 
     pR2D3DDev = (PR2D3DDevice)InterfaceContext;
-    pAdapter  = (PHW_DEVICE_EXTENSION)pR2D3DDev-&gt;pAdapter;
-    pCallback = &(pAdapter-&gt;ddiCallback);
+    pAdapter  = (PHW_DEVICE_EXTENSION)pR2D3DDev->pAdapter;
+    pCallback = &(pAdapter->ddiCallback);
 
-    for (dwIdx=0; dwIdx &lt; pDDIDAData-&gt;NumAllocations; dwIdx++) {
+    for (dwIdx=0; dwIdx &lt; pDDIDAData->NumAllocations; dwIdx++) {
         DXGKARGCB_GETHANDLEDATA  getHandleData = {0};
         R2AllocationInfo*  pAllocInfo;
 
-        getHandleData.hObject = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
+        getHandleData.hObject = pDDIDAData->pOpenAllocation[dwIdx].hAllocation;
         getHandleData.Type    = DXGK_HANDLE_ALLOCATION;
-        pAllocInfo = (PR2AllocationInfo)pCallback-&gt;DxgkCbGetHandleData(&getHandleData);
-        pDDIDAData-&gt;pOpenAllocation[dwIdx].hDeviceSpecificAllocation = (HANDLE)pAllocInfo;
-        pAllocInfo-&gt;vidMemData.hAllocation = pDDIDAData-&gt;pOpenAllocation[dwIdx].hAllocation;
+        pAllocInfo = (PR2AllocationInfo)pCallback->DxgkCbGetHandleData(&getHandleData);
+        pDDIDAData->pOpenAllocation[dwIdx].hDeviceSpecificAllocation = (HANDLE)pAllocInfo;
+        pAllocInfo->vidMemData.hAllocation = pDDIDAData->pOpenAllocation[dwIdx].hAllocation;
     }
     return STATUS_SUCCESS;
 }

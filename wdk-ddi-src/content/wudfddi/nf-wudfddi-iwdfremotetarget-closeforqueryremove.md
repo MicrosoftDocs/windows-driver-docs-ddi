@@ -104,7 +104,7 @@ CMyRemoteTarget::OnRemoteTargetQueryRemove(
     //
     // Close the target.
     //
-    FxTarget-&gt;CloseForQueryRemove();
+    FxTarget->CloseForQueryRemove();
 
     //
     // Return TRUE if you want to allow removal of the device.

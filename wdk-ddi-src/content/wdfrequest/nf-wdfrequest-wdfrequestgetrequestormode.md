@@ -100,7 +100,7 @@ The following code example is from the <a href="https://docs.microsoft.com/windo
 // in the packet is the same as the current MAC address of the NIC.
 //
 if ((WdfRequestGetRequestorMode(Request) == UserMode) && 
-    !NPROT_MEM_CMP(pEthHeader-&gt;SrcAddr, pOpenContext-&gt;CurrentAddress, NPROT_MAC_ADDR_LEN))
+    !NPROT_MEM_CMP(pEthHeader->SrcAddr, pOpenContext->CurrentAddress, NPROT_MAC_ADDR_LEN))
 {
     DEBUGP(DL_WARN, ("Write: Failing with invalid Source address"));
     NtStatus = STATUS_INVALID_PARAMETER;

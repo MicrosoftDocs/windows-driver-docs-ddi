@@ -72,7 +72,7 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
     // The nonpersistent volume (device) object name is
     // formed using the volume number as a suffix
     wsprintf(ntBuffer, L"\\Device\\HarddiskVolume%D", 
-                       Extension-&gt;VolumeNumber);
+                       Extension->VolumeNumber);
     RtlInitUnicodeString(&ntName, ntBuffer);
     createPointSize = sizeof(MOUNTMGR_CREATE_POINT_INPUT) +
                       dosName.Length + ntName.Length;
@@ -80,18 +80,18 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
     createPoint = (PMOUNTMGR_CREATE_POINT_INPUT)
                   ExAllocatePool(PagedPool, 
                   createPointSize);
-    createPoint-&gt;SymbolicLinkNameOffset = 
+    createPoint->SymbolicLinkNameOffset = 
                   sizeof(MOUNTMGR_CREATE_POINT_INPUT);
-    createPoint-&gt;SymbolicLinkNameLength = dosName.Length;
-    createPoint-&gt;DeviceNameOffset = 
-        createPoint -&gt; SymbolicLinkNameOffset +
-        createPoint -&gt; SymbolicLinkNameLength;
-    createPoint-&gt;DeviceNameLength = ntName.Length;
+    createPoint->SymbolicLinkNameLength = dosName.Length;
+    createPoint->DeviceNameOffset = 
+        createPoint -> SymbolicLinkNameOffset +
+        createPoint -> SymbolicLinkNameLength;
+    createPoint->DeviceNameLength = ntName.Length;
     RtlCopyMemory((PCHAR) createPoint + 
-                  createPoint -&gt; SymbolicLinkNameOffset,
+                  createPoint -> SymbolicLinkNameOffset,
                   dosName.Buffer, dosName.Length);
     RtlCopyMemory((PCHAR) createPoint + 
-                  createPoint-&gt;DeviceNameOffset,
+                  createPoint->DeviceNameOffset,
                   ntName.Buffer, ntName.Length);
     // Use the name of the mount manager device object
     // defined in mountmgr.h (MOUNTMGR_DEVICE_NAME) to
@@ -120,7 +120,7 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
 
 ### -input-buffer
 
-The mount point manager places a header, defined as the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff562275">MOUNTMGR_CREATE_POINT_INPUT</a> in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the newly-assigned persistent symbolic link name at the address pointed to by the <i>SymbolicLinkNameOffset</i> member of this structure, and it inserts the nonpersistent device name at the address pointed to by the <i>DeviceNameOffset</i> member of this structure. 
+The mount point manager places a header, defined as the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff562275">MOUNTMGR_CREATE_POINT_INPUT</a> in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The mount manager inserts the newly-assigned persistent symbolic link name at the address pointed to by the <i>SymbolicLinkNameOffset</i> member of this structure, and it inserts the nonpersistent device name at the address pointed to by the <i>DeviceNameOffset</i> member of this structure. 
 
 
 ### -input-buffer-length

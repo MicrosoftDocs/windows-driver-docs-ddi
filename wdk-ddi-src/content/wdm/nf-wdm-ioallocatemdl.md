@@ -96,7 +96,7 @@ Pointer to an IRP to be associated with the MDL. If the <i>Irp</i> pointer is no
 
 The <i>Length</i> parameter specifies the size of the buffer that is to be described by the MDL. In Windows Server 2003, Windows XP, and Windows 2000, the maximum buffer size, in bytes, that this routine can allocate is PAGE_SIZE * (65535 - <b>sizeof</b>(MDL)) / <b>sizeof</b>(ULONG_PTR). In Windows Vista and Windows Server 2008, the maximum buffer size is (2 gigabytes - PAGE_SIZE). In Windows 7 and Windows Server 2008 R2, the maximum buffer size is (4 gigabytes - PAGE_SIZE).
 
-If the <i>SecondaryBuffer</i> parameter is <b>FALSE</b>, the routine updates <i>Irp</i>-&gt;<b>MdlAddress</b> to point to the new MDL. If <i>SecondaryBuffer</i> is <b>TRUE</b>, the routine adds the MDL to the end of the MDL chain that <i>Irp</i>-&gt;<b>MdlAddress</b> points to.
+If the <i>SecondaryBuffer</i> parameter is <b>FALSE</b>, the routine updates <i>Irp</i>-><b>MdlAddress</b> to point to the new MDL. If <i>SecondaryBuffer</i> is <b>TRUE</b>, the routine adds the MDL to the end of the MDL chain that <i>Irp</i>-><b>MdlAddress</b> points to.
 
 For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>. 
 

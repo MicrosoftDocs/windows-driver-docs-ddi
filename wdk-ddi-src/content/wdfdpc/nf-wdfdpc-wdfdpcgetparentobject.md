@@ -94,7 +94,7 @@ The following code example returns a handle to the parent object of a specified 
 <td>
 <pre>WDFDEVICE Device;
 
-Device = WdfDpcGetParentObject(PDevExt-&gt;CompleteWriteDpc);</pre>
+Device = WdfDpcGetParentObject(PDevExt->CompleteWriteDpc);</pre>
 </td>
 </tr>
 </table></span></div>

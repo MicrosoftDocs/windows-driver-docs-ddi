@@ -88,7 +88,7 @@ The following code example enables the device interrupt that is associated with 
 </tr>
 <tr>
 <td>
-<pre>pIWdfInterrupt-&gt;Enable();</pre>
+<pre>pIWdfInterrupt->Enable();</pre>
 </td>
 </tr>
 </table></span></div>

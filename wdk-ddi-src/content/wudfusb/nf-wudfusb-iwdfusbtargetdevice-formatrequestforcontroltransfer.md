@@ -191,15 +191,15 @@ CMyDevice::SendControlTransferSynchronously(
 
     *LengthTransferred = 0;
     
-    hr = m_FxDevice-&gt;CreateRequest( NULL, //pCallbackInterface
+    hr = m_FxDevice->CreateRequest( NULL, //pCallbackInterface
                                     NULL, //pParentObject
                                     &pWdfRequest);
 
     if (SUCCEEDED(hr))
     {
-        m_FxDevice-&gt;GetDriver(&FxDriver);
+        m_FxDevice->GetDriver(&FxDriver);
 
-        hr = FxDriver-&gt;CreatePreallocatedWdfMemory( Buffer,
+        hr = FxDriver->CreatePreallocatedWdfMemory( Buffer,
                                                     BufferLength,
                                                     NULL, //pCallbackInterface
                                                     pWdfRequest, //pParetObject
@@ -208,7 +208,7 @@ CMyDevice::SendControlTransferSynchronously(
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pIUsbTargetDevice-&gt;FormatRequestForControlTransfer( pWdfRequest,
+        hr = m_pIUsbTargetDevice->FormatRequestForControlTransfer( pWdfRequest,
                                                                    SetupPacket,
                                                                    FxMemory,
                                                                    NULL); //TransferOffset

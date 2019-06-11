@@ -56,7 +56,7 @@ req.typenames:
 
 ### -input-buffer
 
-The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <b>AUTHZ_STATE</b> structure that indicates the type of authentication operation to perform. <b>AUTHZ_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
+The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <b>AUTHZ_STATE</b> structure that indicates the type of authentication operation to perform. <b>AUTHZ_STATE</b> is declared in <i>ehstorioctl.h</i> as the following.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

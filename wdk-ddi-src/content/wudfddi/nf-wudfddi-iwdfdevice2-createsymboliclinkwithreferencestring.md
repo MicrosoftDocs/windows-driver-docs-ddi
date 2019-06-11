@@ -166,11 +166,11 @@ The following code example creates a symbolic name string, obtains the <a href="
     //
     // Get a pointer to the IWDFDevice2 interface.
     //
-    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
+    hr = pIWDFDevice->QueryInterface(__uuidof(IWDFDevice2),
                                      (void**) &pDevice2);
     if (SUCCEEDED(hr)) 
     {
-    hr = pDevice2-&gt;CreateSymbolicLinkWithReferenceString(portFullName,
+    hr = pDevice2->CreateSymbolicLinkWithReferenceString(portFullName,
                                                          portCountString);
     if (FAILED(hr))
         {

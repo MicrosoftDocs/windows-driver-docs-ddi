@@ -72,11 +72,11 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5542
 
 
 
-<b>IsListEmpty</b> returns <b>TRUE</b> if <i>ListHead</i>-&gt;<b>Flink</b> refers back to <i>ListHead</i>.
+<b>IsListEmpty</b> returns <b>TRUE</b> if <i>ListHead</i>-><b>Flink</b> refers back to <i>ListHead</i>.
 
 For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
-Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for <i>ListHead</i> must be resident. 
+Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> is called at IRQL >= DISPATCH_LEVEL, the storage for <i>ListHead</i> must be resident. 
 
 
 

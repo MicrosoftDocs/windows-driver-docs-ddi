@@ -66,7 +66,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a> structure.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a> structure.
 
 
 ### -output-buffer-length

@@ -215,7 +215,7 @@ The following code example is based on the UMDF version of the toaster sample. T
     //
     // Get a pointer to the IWDFDevice2 interface.
     //
-    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
+    hr = pIWDFDevice->QueryInterface(__uuidof(IWDFDevice2),
                                      (void**) &pIWDFDevice2);
     if (SUCCEEDED(hr)) 
     {
@@ -224,7 +224,7 @@ The following code example is based on the UMDF version of the toaster sample. T
     // device cannot wake if it sleeps while the system is in S0. The device 
     // can return to D0 only when the driver stack receives an I/O request.
     //
-    hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleCannotWakeFromS0,
+    hr = pIWDFDevice2->AssignS0IdleSettings(IdleCannotWakeFromS0,
                                             PowerDeviceD3,
                                             IDLEWAKE_TIMEOUT_MSEC,
                                             IdleAllowUserControl,

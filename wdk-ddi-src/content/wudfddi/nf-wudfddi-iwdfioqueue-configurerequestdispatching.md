@@ -95,7 +95,7 @@ The following code example shows how to configure forwarding for IOCTL requests.
 <pre>    //
     // Configure forwarding for IOCTL requests
     //
-    HRESULT hr = m_FxQueue-&gt;ConfigureRequestDispatching(
+    HRESULT hr = m_FxQueue->ConfigureRequestDispatching(
                                                         WdfRequestDeviceIoControl,
                                                         true
                                                         );

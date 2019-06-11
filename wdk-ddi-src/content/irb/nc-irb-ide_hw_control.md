@@ -128,9 +128,9 @@ Add a power policy setting scheme into the miniport driver's INF file. A GUID is
 </li>
 <li>When the miniport driver routine <i>IdeHwControl</i> is called with control action <b>IdeStart</b>:<dl>
 <dd>Check the SupportedAdvances.AdvancedChannelConfigurationSupported field in the ChannelConfiguration structure.</dd>
-<dd>Check the AdvancedChannelConfiguration-&gt;Present.VendorDefinedPower field in the ChannelConfiguration structure.</dd>
+<dd>Check the AdvancedChannelConfiguration->Present.VendorDefinedPower field in the ChannelConfiguration structure.</dd>
 <dd>If the values of the two fields listed previously are both <b>TRUE</b>, this version of the ATA port driver supports vendor-defined power management.</dd>
-<dd>If vendor-defined power management is supported by the ATA port driver, the miniport driver can register for special power management handling by setting the AdvancedChannelConfiguration-&gt;VendorDefinedPower.ValidGuids and AdvancedChannelConfiguration-&gt;VendorDefinedPower.Guid[] fields (the latter should be the GUID of the power policy in the miniport driver's INF file).</dd>
+<dd>If vendor-defined power management is supported by the ATA port driver, the miniport driver can register for special power management handling by setting the AdvancedChannelConfiguration->VendorDefinedPower.ValidGuids and AdvancedChannelConfiguration->VendorDefinedPower.Guid[] fields (the latter should be the GUID of the power policy in the miniport driver's INF file).</dd>
 </dl>
 </li>
 <li>

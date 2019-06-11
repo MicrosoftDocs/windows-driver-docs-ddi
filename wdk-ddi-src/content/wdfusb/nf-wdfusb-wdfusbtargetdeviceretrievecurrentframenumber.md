@@ -135,7 +135,7 @@ PMY_DEVICE_CONTEXT  pMyDeviceContext;
 pMyDeviceContext = GetDeviceContext(Device);
 
 status = WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
-                                              pMyDeviceContext-&gt;UsbTargetDevice,
+                                              pMyDeviceContext->UsbTargetDevice,
                                               &frameNumber
                                               );</pre>
 </td>

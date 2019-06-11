@@ -81,15 +81,15 @@ The display miniport driver's DPC for ISR calls <b>DxgkCbIndicateChildStatus</b>
 
 <ul>
 <li>
-An external device (typically a monitor) has been connected to one of the display adapter's child devices that has an HPD awareness value of <b>HpdAwarenessInterruptible</b>. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
+An external device (typically a monitor) has been connected to one of the display adapter's child devices that has an HPD awareness value of <b>HpdAwarenessInterruptible</b>. In this case, the display miniport driver sets<i> ChildStatus</i>-><b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
 
 </li>
 <li>
-An external device (typically a monitor) has been disconnected from one of the display adapter's child devices that has an HPD awareness value of <b>HpdAwarenessInterruptible</b>. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>FALSE</b>.
+An external device (typically a monitor) has been disconnected from one of the display adapter's child devices that has an HPD awareness value of <b>HpdAwarenessInterruptible</b>. In this case, the display miniport driver sets<i> ChildStatus</i>-><b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>FALSE</b>.
 
 </li>
 <li>
-The display device connected to one of its on-board child devices (that has a monitor orientation awareness value of <b>D3DKMDT_MOA_INTERRUPTIBLE</b>) has been rotated. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusRotation</b> and sets<i> ChildStatus</i>.<b>Rotation</b>.<b>Angle</b> to the angle of rotation.
+The display device connected to one of its on-board child devices (that has a monitor orientation awareness value of <b>D3DKMDT_MOA_INTERRUPTIBLE</b>) has been rotated. In this case, the display miniport driver sets<i> ChildStatus</i>-><b>Type</b> to <b>StatusRotation</b> and sets<i> ChildStatus</i>.<b>Rotation</b>.<b>Angle</b> to the angle of rotation.
 
 </li>
 </ul>
@@ -97,11 +97,11 @@ The display miniport driver's <a href="https://msdn.microsoft.com/fdefde51-0e90-
 
 <ul>
 <li>
-The lid on a portable computer gets opened. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
+The lid on a portable computer gets opened. In this case, the display miniport driver sets<i> ChildStatus</i>-><b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>TRUE</b>.
 
 </li>
 <li>
-The lid on a portable computer gets closed. In this case, the display miniport driver sets<i> ChildStatus</i>-&gt;<b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>FALSE</b>.
+The lid on a portable computer gets closed. In this case, the display miniport driver sets<i> ChildStatus</i>-><b>Type</b> to <b>StatusConnection</b> and sets<i> ChildStatus</i>.<b>HotPlug</b>.<b>Connected</b> to <b>FALSE</b>.
 
 </li>
 </ul>
@@ -117,20 +117,20 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
     NTSTATUS Status;
     PVOID MonitorDescriptor = NULL;
     DXGK_CHILD_STATUS     ChildStatus;
-    ChildStatus.ChildUid    =  pHwDeviceExtension-&gt;ulNumberDisplays | HW_ID_DISPLAY_CHILD;
+    ChildStatus.ChildUid    =  pHwDeviceExtension->ulNumberDisplays | HW_ID_DISPLAY_CHILD;
     ChildStatus.Type    = StatusConnection;
 
-    if(i_pEscape-&gt;Data == NULL) {
+    if(i_pEscape->Data == NULL) {
         // Remove a simulated monitor
-        if(pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor != NULL) {
-            ExFreePoolWithTag(pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor, ATI_TAG);
-            pHwDeviceExtension-&gt;pvSimulatedMonitorDescriptor = NULL;
-            pHwDeviceExtension-&gt;ulSimulatedMonitorDescriptorLength = 0;
-           pHwDeviceExtension-&gt;ulRetryCount = 0;
-           pHwDeviceExtension-&gt;bReportDescriptor = FALSE;
+        if(pHwDeviceExtension->pvSimulatedMonitorDescriptor != NULL) {
+            ExFreePoolWithTag(pHwDeviceExtension->pvSimulatedMonitorDescriptor, ATI_TAG);
+            pHwDeviceExtension->pvSimulatedMonitorDescriptor = NULL;
+            pHwDeviceExtension->ulSimulatedMonitorDescriptorLength = 0;
+           pHwDeviceExtension->ulRetryCount = 0;
+           pHwDeviceExtension->bReportDescriptor = FALSE;
 
             ChildStatus.HotPlug.Connected = FALSE;
-            Status = DxgkCbIndicateChildStatus(pHwDeviceExtension-&gt;DeviceHandle, &ChildStatus);
+            Status = DxgkCbIndicateChildStatus(pHwDeviceExtension->DeviceHandle, &ChildStatus);
         }
         else {
             // No simulated monitor is present so the request to remove one is invalid

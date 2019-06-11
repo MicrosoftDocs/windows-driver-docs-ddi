@@ -87,7 +87,7 @@ A driver can access the <b>Flink</b> and <b>Blink</b> members of a <b>LIST_ENTRY
 
 For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
-Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the list entries must be memory-resident.
+Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the list entries must be memory-resident.
 
 
 #### Examples
@@ -105,7 +105,7 @@ The following code example shows how to write a function named <code>MyAppendTai
     _Inout_  PLIST_ENTRY ListToAppend
     )
 {
-    PLIST_ENTRY entry = ListToAppend-&gt;Flink;
+    PLIST_ENTRY entry = ListToAppend->Flink;
 
     if (!IsListEmpty(ListToAppend))
     {

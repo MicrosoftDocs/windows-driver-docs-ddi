@@ -101,7 +101,7 @@ The <b>KsFastPropertyHandler</b> function handles fast property requests through
 
 
 
-The <b>KsFastPropertyHandler</b> function returns <b>TRUE</b> if the request was handled, or <b>FALSE</b> if the request was not handled. If <b>FALSE</b> is returned, an IRP is generated. If the request was handled, the function sets the IoStatus-&gt;Information element, either through setting it to zero because of an internal error, or through a property handler setting it. The property handler also sets the IoStatus-&gt;Status field when the property is actually handled.
+The <b>KsFastPropertyHandler</b> function returns <b>TRUE</b> if the request was handled, or <b>FALSE</b> if the request was not handled. If <b>FALSE</b> is returned, an IRP is generated. If the request was handled, the function sets the IoStatus->Information element, either through setting it to zero because of an internal error, or through a property handler setting it. The property handler also sets the IoStatus->Status field when the property is actually handled.
 
 
 

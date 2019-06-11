@@ -145,7 +145,7 @@ MyEvtDeviceD0Exit(
     pDeviceContext = GetMyDeviceContext(Device);
 
     WdfIoTargetStop(
-                    WdfUsbTargetPipeGetIoTarget(pDeviceContext-&gt;InterruptPipe),
+                    WdfUsbTargetPipeGetIoTarget(pDeviceContext->InterruptPipe),
                     WdfIoTargetCancelSentIo
                     );
 

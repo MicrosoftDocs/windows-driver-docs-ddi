@@ -160,7 +160,7 @@ Routine Description:
     WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
     WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
     urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
-    setupPacket = (PWDF_USB_CONTROL_SETUP_PACKET)&urb-&gt;UrbControlTransferEx.SetupPacket[0];
+    setupPacket = (PWDF_USB_CONTROL_SETUP_PACKET)&urb->UrbControlTransferEx.SetupPacket[0];
     ...
 
     WdfRequestComplete(ControlUrb, STATUS_SUCCESS);

@@ -179,7 +179,7 @@ WDFMEMORY  memoryHandle;
 myDeviceContext = GetDeviceContext(Device);
 
 ntStatus = WdfUsbTargetDeviceRetrieveConfigDescriptor(
-                                            myDeviceContext-&gt;WdfUsbTargetDevice,
+                                            myDeviceContext->WdfUsbTargetDevice,
                                             NULL,
                                             &size
                                             );
@@ -189,7 +189,7 @@ if (ntStatus != STATUS_BUFFER_TOO_SMALL) {
 }
 
 WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);
-objectAttribs.ParentObject = myDeviceContext-&gt;WdfUsbTargetDevice;
+objectAttribs.ParentObject = myDeviceContext->WdfUsbTargetDevice;
 
 ntStatus = WdfMemoryCreate(
                            &objectAttribs,
@@ -204,7 +204,7 @@ if (!NT_SUCCESS(ntStatus)) {
 }
 
 ntStatus = WdfUsbTargetDeviceRetrieveConfigDescriptor(
-                                            myDeviceContext-&gt;WdfUsbTargetDevice,
+                                            myDeviceContext->WdfUsbTargetDevice,
                                             configurationDescriptor,
                                             &size
                                             );

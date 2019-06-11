@@ -83,14 +83,14 @@ Because the partition and detect information are not at fixed locations within t
 
 #define DiskGeometryGetDetect(Geometry)\
                         ((PDISK_DETECTION_INFO)(((PBYTE)DiskGeometryGetPartition(Geometry)+\
-                                        DiskGeometryGetPartition(Geometry)-&gt;SizeOfPartitionInfo)))
+                                        DiskGeometryGetPartition(Geometry)->SizeOfPartitionInfo)))
 #else
 #define DiskGeometryGetPartition(Geometry)\
-                        ((PDISK_PARTITION_INFO)((Geometry)-&gt;Data))
+                        ((PDISK_PARTITION_INFO)((Geometry)->Data))
 
 #define DiskGeometryGetDetect(Geometry)\
                         ((PDISK_DETECTION_INFO)(((ULONG_PTR)DiskGeometryGetPartition(Geometry)+\
-                                        DiskGeometryGetPartition(Geometry)-&gt;SizeOfPartitionInfo)))
+                                        DiskGeometryGetPartition(Geometry)->SizeOfPartitionInfo)))
 #endif</code></pre>
 
 

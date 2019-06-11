@@ -67,7 +67,7 @@ The <b>IOCTL_LAMP_GET_INTENSITY_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 ### -input-buffer-length
@@ -77,12 +77,12 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn93700
 
 ### -output-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> is filled with the light intensity information.
+<code>Irp->AssociatedIrp.SystemBuffer</code> is filled with the light intensity information.
 
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp-&gt;AssociatedIrp.SystemBuffer</code> field.
+<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
 
 
 ### -in-out-buffer
@@ -105,9 +105,9 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn93700
 
 ### -status-block
 
-The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
+The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
 
-If the device has been acquired by a camera driver, the lamp driver should return a error <b>STATUS_RESOURCE_IN_USE</b> via <code>Irp-&gt;IoStatus.Status</code>.
+If the device has been acquired by a camera driver, the lamp driver should return a error <b>STATUS_RESOURCE_IN_USE</b> via <code>Irp->IoStatus.Status</code>.
 
 
 ## -remarks

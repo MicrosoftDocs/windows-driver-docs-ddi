@@ -67,7 +67,7 @@ The <b>IOCTL_LAMP_GET_MODE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
 
 
 ### -input-buffer-length
@@ -77,12 +77,12 @@ Length of <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009"
 
 ### -output-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> is filled with a <b>LAMP_MODE</b> value.
+<code>Irp->AssociatedIrp.SystemBuffer</code> is filled with a <b>LAMP_MODE</b> value.
 
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp-&gt;AssociatedIrp.SystemBuffer</code> field.
+<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
 
 
 ### -in-out-buffer
@@ -105,7 +105,7 @@ Length of <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009"
 
 ### -status-block
 
-The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp-&gt;IoStatus.Information</code> to the number of bytes required to hold a <b>DWORD</b> value.
+The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp->IoStatus.Information</code> to the number of bytes required to hold a <b>DWORD</b> value.
 
-If the device has been acquired by a camera driver, the lamp driver should return a   <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp-&gt;IoStatus.Status</code>.
+If the device has been acquired by a camera driver, the lamp driver should return a   <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
 

@@ -140,7 +140,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
             //
             // Stop if this descriptor is an interrupt descriptor.
             //
-            if (descriptor-&gt;Type == CmResourceTypeInterrupt) {
+            if (descriptor->Type == CmResourceTypeInterrupt) {
                 descriptorFound = TRUE;
                 break;
             }

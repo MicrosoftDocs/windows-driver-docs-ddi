@@ -131,7 +131,7 @@ If <b>pPrimaryDesc</b> is set to <b>NULL</b>, the runtime will use the created r
 
 [in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> that indicates the  buffer type used by the video decoder.
 
-If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before accessing this  structure member, it should access this member only when the D3D11_DDI_BIND_DECODER flag is set in the <b>BindFlags</b> member.
+If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION >= 3 before accessing this  structure member, it should access this member only when the D3D11_DDI_BIND_DECODER flag is set in the <b>BindFlags</b> member.
 
 
 ### -field TextureLayout

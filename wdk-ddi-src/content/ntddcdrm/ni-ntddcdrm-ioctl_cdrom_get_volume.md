@@ -70,7 +70,7 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> data in the buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length

@@ -83,7 +83,7 @@ The provider and the prefix that it claimed are entered in a prefix cache mainta
 
 ### -input-buffer
 
-<b>IrpSp-&gt;Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST_EX</b> data structure that contains the request. 
+<b>IrpSp->Parameters.DeviceIoControl.Type3InputBuffer</b> is set to a <b>QUERY_PATH_REQUEST_EX</b> data structure that contains the request. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -141,7 +141,7 @@ A pointer to the extended attributes buffer.
 
 </td>
 <td>
-A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&lt;path&gt;. 
+A non-NULL terminated Unicode string of the form \&lt;server>\&lt;share>\&lt;path>. 
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&
 
 ### -output-buffer
 
-<b>IRP-&gt;UserBuffer</b> is set to a <b>QUERY_PATH_RESPONSE</b> data structure that contains the response.
+<b>IRP->UserBuffer</b> is set to a <b>QUERY_PATH_RESPONSE</b> data structure that contains the response.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -258,13 +258,13 @@ If the prefix resolution operation failed due to invalid or incorrect credential
 
 
 
-Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that <b>Irp-&gt;RequestorMode</b> is <b>KernelMode</b>. 
+Network redirectors should only honor kernel-mode senders of this IOCTL, by verifying that <b>Irp->RequestorMode</b> is <b>KernelMode</b>. 
 
 Note that IOCTL_REDIR_QUERY_PATH_EX is a METHOD_NEITHER IOCTL. This means that the input and output buffers might not be at the same address. A common mistake by UNC providers is to assume that the input buffer and the output buffer are the same and use the input buffer pointer to provide the response.
 
 When a UNC provider receives an IOCTL_REDIR_QUERY_PATH_EX request, it has to determine whether it can handle the UNC path that is specified in the <b>PathName</b> member of the <b>QUERY_PATH_REQUEST_EX</b> structure. If so, the UNC provider has to update the <b>LengthAccepted</b> member of the <b>QUERY_PATH_RESPONSE</b> structure with the length, in bytes, of the prefix it has claimed and complete the IRP with STATUS_SUCCESS. If the provider cannot handle the UNC path specified, it must fail the IOCTL_REDIR_QUERY_PATH_EX request with an appropriate NTSTATUS error code and must not update the <b>LengthAccepted</b> member of the <b>QUERY_PATH_RESPONSE</b> structure. Providers must not modify any other members or the <b>PathName</b> member under any condition. 
 
-The length of the prefix claimed by the provider depends on an individual UNC provider. Most providers usually claim the \\&lt;servername&gt;\&lt;sharename &gt; part of a path of the form \\&lt;servername&gt;\&lt;sharename&gt;\&lt;path&gt;. For example, if a provider claimed \\server\public given a path \\server\public\dir1\dir2, all name-based operations for the prefix \\server\public (\server\public\file1, for example) will be routed to that provider automatically without any prefix resolution because the prefix is already in the prefix cache. However, a path with the prefix \server\marketing\presentation will go through prefix resolution.
+The length of the prefix claimed by the provider depends on an individual UNC provider. Most providers usually claim the \\&lt;servername>\&lt;sharename > part of a path of the form \\&lt;servername>\&lt;sharename>\&lt;path>. For example, if a provider claimed \\server\public given a path \\server\public\dir1\dir2, all name-based operations for the prefix \\server\public (\server\public\file1, for example) will be routed to that provider automatically without any prefix resolution because the prefix is already in the prefix cache. However, a path with the prefix \server\marketing\presentation will go through prefix resolution.
 
 If a network redirector claims a server name (\\server, for example), all requests for shares on this server will go to this network redirector. This behavior is only acceptable if there is no possibility of another share on the same server being accessed by a different network redirector. For example, a network redirector that claims \\server of a UNC path will prevent access by other network redirectors to other shares on this server (WebDAV access to \\server\web, for example). 
 

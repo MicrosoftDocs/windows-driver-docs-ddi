@@ -133,9 +133,9 @@ The following is an example of querying the network physical name  information o
     }
     if (Status == STATUS_BUFFER_OVERFLOW)
     {
-        if (NetFileNameInfo-&gt;FileNameLength &lt;= (MaxNetworkNameLength - sizeof(WCHAR)))
+        if (NetFileNameInfo->FileNameLength &lt;= (MaxNetworkNameLength - sizeof(WCHAR)))
         {
-            NameInfoLength += sizeof(PFILE_NETWORK_PHYSICAL_NAME_INFORMATION) + NetFileNameInfo-&gt;FileNameLength;
+            NameInfoLength += sizeof(PFILE_NETWORK_PHYSICAL_NAME_INFORMATION) + NetFileNameInfo->FileNameLength;
             ExFreePool(NetFileNameInfo);
             NetFileNameInfo = (PFILE_NETWORK_PHYSICAL_NAME_INFORMATION)ExAllocatePool(PagedPool, NameInfoLength);
             if (NetFileNameInfo == NULL)
@@ -156,8 +156,8 @@ The following is an example of querying the network physical name  information o
     {
         if (NT_SUCCESS(Status))
         {
-            NameInfoLength = min(NameInfoLength, NetFileNameInfo-&gt;FileNameLength);
-            RtlCopyMemory(NetworkName, NetFileNameInfo-&gt;FileName, NameInfoLength);
+            NameInfoLength = min(NameInfoLength, NetFileNameInfo->FileNameLength);
+            RtlCopyMemory(NetworkName, NetFileNameInfo->FileName, NameInfoLength);
             NetworkName[NameInfoLength / sizeof(WCHAR)] = (WCHAR)0;
         }
         ExFreePool(NetFileNameInfo);

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-A helper function that extracts the combined rotation that the user sees from the default display orientation from a given value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546700">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration. This value is effectively the sum of the offset angle and the angle that the Desktop Window Manager (DWM) has already rotated the primary clone path content. Only drivers that support path-independent rotation (DXGKDDI_INTERFACE_VERSION &gt;= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION) should call this function.
+A helper function that extracts the combined rotation that the user sees from the default display orientation from a given value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546700">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a> enumeration. This value is effectively the sum of the offset angle and the angle that the Desktop Window Manager (DWM) has already rotated the primary clone path content. Only drivers that support path-independent rotation (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION) should call this function.
 
 
 ## -parameters
@@ -99,7 +99,7 @@ D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
     D3DKMDT_VPPR_GET_CONTENT_ROTATION(
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION Rotation)
 {
-    if ((Rotation &gt;= D3DKMDT_VPPR_IDENTITY_OFFSET90) &&
+    if ((Rotation >= D3DKMDT_VPPR_IDENTITY_OFFSET90) &&
         (Rotation &lt;= D3DKMDT_VPPR_ROTATE270_OFFSET270))
     {
         D3DKMDT_VIDPN_PRESENT_PATH_ROTATION ContentPart = 

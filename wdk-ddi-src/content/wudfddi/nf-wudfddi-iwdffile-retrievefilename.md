@@ -115,12 +115,12 @@ The following code example shows how to retrieve the name of a file.
     PWSTR fileName = NULL;
     ULONG index;
 
-    CComObject&lt;CUmdfHidFile&gt; *file = NULL;
+    CComObject&lt;CUmdfHidFile> *file = NULL;
 
     HRESULT hr;
 
     // Get the length of the file name to allocate a buffer.
-    hr = WdfFile-&gt;RetrieveFileName(NULL, &fileNameCch);
+    hr = WdfFile->RetrieveFileName(NULL, &fileNameCch);
     //
     // Allocate the buffer.
     //
@@ -138,7 +138,7 @@ The following code example shows how to retrieve the name of a file.
     //
     if (SUCCEEDED(hr))
     {
-        hr = WdfFile-&gt;RetrieveFileName(fileName, &fileNameCch);
+        hr = WdfFile->RetrieveFileName(fileName, &fileNameCch);
     }</pre>
 </td>
 </tr>

@@ -97,7 +97,7 @@ If the <b>Flags</b> member of the RX_CONTEXT structure pointed to by the <i>RxCo
 
 <ul>
 <li>
-IRP_MJ_DIRECTORY CONTROL when <b>RxContext-&gt;MinorFunction</b><i> is </i>IRP_MN_QUERY_DIRECTORY.
+IRP_MJ_DIRECTORY CONTROL when <b>RxContext->MinorFunction</b><i> is </i>IRP_MN_QUERY_DIRECTORY.
 
 </li>
 <li>

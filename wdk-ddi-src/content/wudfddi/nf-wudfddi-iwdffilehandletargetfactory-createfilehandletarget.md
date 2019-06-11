@@ -139,7 +139,7 @@ The following code example shows how to create a file-handle-based I/O target fo
 <tr>
 <td>
 <pre>HRESULT hr = S_OK;
-CComPtr&lt;IWDFFileHandleTargetFactory&gt; pFileHandleTargetFactory;
+CComPtr&lt;IWDFFileHandleTargetFactory> pFileHandleTargetFactory;
 //
 // Create a pipe and get the handle.
 //
@@ -160,13 +160,13 @@ if (m_WriteHandle == INVALID_HANDLE_VALUE) {
 // by calling IWDFDevice::QueryInterface. 
 //
 if (SUCCEEDED(hr)) {
-    hr = m_FxDevice-&gt;QueryInterface(IID_PPV_ARGS(&pFileHandleTargetFactory));
+    hr = m_FxDevice->QueryInterface(IID_PPV_ARGS(&pFileHandleTargetFactory));
 }
 //
 // Create a file handle target.
 //
 if (SUCCEEDED(hr)) {
-    hr = pFileHandleTargetFactory-&gt;CreateFileHandleTarget(m_WriteHandle,
+    hr = pFileHandleTargetFactory->CreateFileHandleTarget(m_WriteHandle,
                                                           &m_WriteTarget);
 }</pre>
 </td>

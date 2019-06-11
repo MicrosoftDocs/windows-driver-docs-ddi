@@ -127,9 +127,9 @@ The following example code shows an operation that <b>ComposeRects</b> performs:
 
 ```cpp
 for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
-   if (i &gt;= Size(VertexBuffer(hDstRectDescsVB)) / sizeof(D3DCOMPOSERECTDSTDESC))
+   if (i >= Size(VertexBuffer(hDstRectDescsVB)) / sizeof(D3DCOMPOSERECTDSTDESC))
       Ignore the rectangle;
-   if (VertexBuffer(hDstRectDescsVB)[i].RectDescIndex &gt;= Size(VertexBuffer(hSrcRectDescsVB)) / sizeof(D3DCOMPOSERECTSRCDESC))
+   if (VertexBuffer(hDstRectDescsVB)[i].RectDescIndex >= Size(VertexBuffer(hSrcRectDescsVB)) / sizeof(D3DCOMPOSERECTSRCDESC))
       Ignore the rectangle;
    SourceRectangle = VertexBuffer(hSrcResource)[VertexBuffer(hDstRectDescsVB)[i].RectDescIndex];
    DestinationRectangle.X = {VertexBuffer(hDstRectDescsVB)[i].X + COMPOSERECTS.Xoffset;

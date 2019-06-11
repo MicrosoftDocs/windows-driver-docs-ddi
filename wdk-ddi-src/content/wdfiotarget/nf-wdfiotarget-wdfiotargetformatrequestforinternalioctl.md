@@ -263,7 +263,7 @@ RtlZeroMemory(
               pIoctlData,
               sizeof(IOCTL_DATA)
               );
-pIoctlData-&gt;Member1 = MY_DATA;
+pIoctlData->Member1 = MY_DATA;
 
 status = WdfIoTargetFormatRequestForInternalIoctl(
                                                   IoTarget,

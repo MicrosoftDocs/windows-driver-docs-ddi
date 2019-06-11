@@ -92,7 +92,7 @@ To manage a pool of fixed-size entries from nonpaged memory, consider using a lo
 Drivers that retry I/O operations should use a doubly linked interlocked queue and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562754">NdisInterlockedInsertHeadList</a>,  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562755">NdisInterlockedInsertTailList</a>, and   <a href="https://msdn.microsoft.com/library/windows/hardware/ff562771">NdisInterlockedRemoveHeadList</a> functions, rather than an S-List.
 
 If 
-    <b>NdisInitializeSListHead</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the 
+    <b>NdisInitializeSListHead</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>SListHead</i> parameter must be resident.
 
 

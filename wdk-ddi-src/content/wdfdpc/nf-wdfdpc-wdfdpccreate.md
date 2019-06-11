@@ -183,11 +183,11 @@ WDF_DPC_CONFIG_INIT(
                     );
 dpcConfig.AutomaticSerialization = TRUE;
 WDF_OBJECT_ATTRIBUTES_INIT(&dpcAttributes);
-dpcAttributes.ParentObject = pDevExt-&gt;WdfDevice;
+dpcAttributes.ParentObject = pDevExt->WdfDevice;
 status = WdfDpcCreate(
                       &dpcConfig,
                       &dpcAttributes,
-                      &pDevExt-&gt;CompleteWriteDpc
+                      &pDevExt->CompleteWriteDpc
                       );
 if (!NT_SUCCESS(status)) {
     return status;

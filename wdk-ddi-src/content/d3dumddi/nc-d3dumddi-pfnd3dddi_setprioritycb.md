@@ -115,12 +115,12 @@ The following code example shows how to set priority level.
 
 ```cpp
 HRESULT CD3DContext::SetPriority(CONST D3DDDIARG_SETPRIORITY* pSetPriority) {
-    DWORD  dwSurfaceHandle = (DWORD)(DWORD_PTR)pSetPriority-&gt;hResource;
+    DWORD  dwSurfaceHandle = (DWORD)(DWORD_PTR)pSetPriority->hResource;
     CResource   &res = m_RTbl[dwSurfaceHandle];
     D3DDDICB_SETPRIORITY    setPri;
     UINT                    priority;
 
-    priority = pSetPriority-&gt;Priority;
+    priority = pSetPriority->Priority;
 
     memset(&setPri, 0, sizeof(setPri));
 

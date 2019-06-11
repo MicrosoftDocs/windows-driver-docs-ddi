@@ -59,9 +59,9 @@ This property is read-only.
 
 
 
-For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by <b>RangeMax</b> maps to the &lt;psf:MaxValue&gt; property value of the Print Schema parameter definition. This maximum value shows the maximum integer value that the driver supports.
+For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by <b>RangeMax</b> maps to the &lt;psf:MaxValue> property value of the Print Schema parameter definition. This maximum value shows the maximum integer value that the driver supports.
 
-For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the &lt;psf:MaxLength&gt; property value of the Print Schema parameter definition. This maximum value  shows the maximum length of string that the driver supports.
+For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the &lt;psf:MaxLength> property value of the Print Schema parameter definition. This maximum value  shows the maximum length of string that the driver supports.
 
 
 

@@ -65,7 +65,7 @@ If the driver does not support context creation, the Microsoft DirectX graphics 
 
 [in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557648">DXGKARG_RENDER</a> structure that contains information about the DMA buffer and a formatted command buffer.
 
-If the display miniport driver supports GDI hardware acceleration, <i>pRenderKmArgs</i>-&gt;<b>pCommand</b> points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> command buffer.
+If the display miniport driver supports GDI hardware acceleration, <i>pRenderKmArgs</i>-><b>pCommand</b> points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> command buffer.
 
 The driver must translate the input command buffer into DMA buffer commands and build the patch location list.
 
@@ -99,7 +99,7 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 <div class="alert"><b>Note</b>    Access to the kernel buffers does not require protection from <code>try/except</code> code. </div>
 <div> </div>
-The display miniport driver is not required to use information that the CDD provides if it can re-create the information more optimally. For example, if the <i>pRender</i>-&gt;<b>pPatchLocationListIn</b> member is empty because the user-mode display driver did not provide an input patch-location list, the display miniport driver can generate the content of the <i>pRender</i>-&gt;<b>pPatchLocationListOut</b> member based on the content of the command buffer instead.
+The display miniport driver is not required to use information that the CDD provides if it can re-create the information more optimally. For example, if the <i>pRender</i>-><b>pPatchLocationListIn</b> member is empty because the user-mode display driver did not provide an input patch-location list, the display miniport driver can generate the content of the <i>pRender</i>-><b>pPatchLocationListOut</b> member based on the content of the command buffer instead.
 
 In addition to the device-specific handle, the DirectX graphics kernel subsystem provides the display miniport driver with the last known GPU segment address for each allocation. If allocation index <i>N</i> is currently paged out, the DirectX graphics kernel subsystem sets the <b>SegmentId</b> member of the <i>N</i>th element of the <b>pAllocationList</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557648">DXGKARG_RENDER</a> to zero. If the <b>SegmentId</b> member of the <i>N</i>th element of the allocation list is not set to zero, the display miniport driver must patch the generated DMA buffer with the provided segment address information before the DirectX graphics kernel subsystem calls the <a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a> function to repatch the DMA buffer. The driver must perform this initial patching when requested because the DirectX graphics kernel subsystem might not call the <i>DxgkDdiPatch</i> function on a DMA buffer that the driver should have properly patched.
 

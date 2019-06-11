@@ -110,7 +110,7 @@ The following code example assigns a device interrupt to processor 0, with norma
 <td>
 <pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 &lt;&lt; (n))
 
-pIWdfInterrupt-&gt;SetPolicy(
+pIWdfInterrupt->SetPolicy(
                           WdfIrqPolicySpecifiedProcessors,
                           WdfIrqPriorityNormal,
                           AFFINITY_MASK(0)

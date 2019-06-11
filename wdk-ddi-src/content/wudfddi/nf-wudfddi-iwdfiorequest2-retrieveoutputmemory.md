@@ -148,12 +148,12 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr&lt;IWDFIoRequest2> r2 = pWdfRequest;
 
-    r2-&gt;RetrieveOutputMemory(&pOutputMemory);
+    r2->RetrieveOutputMemory(&pOutputMemory);
     if (FAILED(hr)) goto Exit;
 
-    hr = m_Device-&gt;GetInputPipe()-&gt;FormatRequestForRead(pWdfRequest,
+    hr = m_Device->GetInputPipe()->FormatRequestForRead(pWdfRequest,
                                                         NULL,
                                                         pOutputMemory,
                                                         NULL,
@@ -161,11 +161,11 @@ STDMETHODCALLTYPE
 Exit:
     if (FAILED(hr))
     {
-        pWdfRequest-&gt;Complete(hr);
+        pWdfRequest->Complete(hr);
     }
     else
     {
-        ForwardFormattedRequest(pWdfRequest, m_Device-&gt;GetInputPipe());
+        ForwardFormattedRequest(pWdfRequest, m_Device->GetInputPipe());
     }
     SAFE_RELEASE(pOutputMemory);
     return;

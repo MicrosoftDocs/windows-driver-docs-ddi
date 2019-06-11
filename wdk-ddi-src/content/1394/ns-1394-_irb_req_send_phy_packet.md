@@ -73,7 +73,7 @@ Specifies the 64-bit PHY packet that is sent to the 1394 bus.
 
 
 
-If successful, the new 1394 bus driver (1394ohci.sys) sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS. If <b>u.SendPhyPacket.GenerationCount</b> does not match the current bus generation count, the new 1394 bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_INVALID_GENERATION
+If successful, the new 1394 bus driver (1394ohci.sys) sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS. If <b>u.SendPhyPacket.GenerationCount</b> does not match the current bus generation count, the new 1394 bus driver sets <b>Irp->IoStatus.Status</b> to STATUS_INVALID_GENERATION
 
 
 

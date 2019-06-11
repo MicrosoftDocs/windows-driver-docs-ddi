@@ -74,7 +74,7 @@ None
 
 This routine changes the group number and group-relative affinity mask of the calling thread. The group number and affinity mask identify a set of processors on which the thread can run. If successful, the routine schedules the thread to run on a processor in this set.
 
-The <i>PreviousAffinity</i> parameter points to a <b>GROUP_AFFINITY</b> structure that specifies the new group number (<b>Group</b> member) and affinity mask (<b>Mask</b> member) for the thread. If <i>PreviousAffinity</i>-&gt;<b>Mask</b> is nonzero, <b>KeRevertToUserGroupAffinityThread</b> sets the group number and affinity mask of the calling thread to the values in the structure. If <i>PreviousAffinity</i>-&gt;<b>Mask</b> is zero, the routine restores the group number and affinity mask to their original values at the time that the thread was initialized.
+The <i>PreviousAffinity</i> parameter points to a <b>GROUP_AFFINITY</b> structure that specifies the new group number (<b>Group</b> member) and affinity mask (<b>Mask</b> member) for the thread. If <i>PreviousAffinity</i>-><b>Mask</b> is nonzero, <b>KeRevertToUserGroupAffinityThread</b> sets the group number and affinity mask of the calling thread to the values in the structure. If <i>PreviousAffinity</i>-><b>Mask</b> is zero, the routine restores the group number and affinity mask to their original values at the time that the thread was initialized.
 
 A process can have affinity for more than one group at a time. However, a thread can be assigned to only one group at any time, and that group is always in the affinity of the thread's process.
 

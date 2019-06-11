@@ -164,7 +164,7 @@ The following code example gets processor relationship information for all the l
     ULONG BufferSize = 0;
     Status = KeQueryLogicalProcessorRelationship(NULL, RelationAll, NULL, &BufferSize);
 
-    NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH && BufferSize &gt; 0);
+    NT_ASSERT(Status == STATUS_INFO_LENGTH_MISMATCH && BufferSize > 0);
 
     //
     // Allocate buffer (assume IRQL &lt;= APC_LEVEL).

@@ -174,7 +174,7 @@ WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 
 status = WdfRequestCreate(
                           &attributes,
-                          WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                          WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
                           &request
                           );
 
@@ -194,11 +194,11 @@ if (!NT_SUCCESS(status)){
     return status;
 }
 status = WdfUsbTargetDeviceFormatRequestForString(
-                         deviceContext-&gt;UsbTargetDevice,
+                         deviceContext->UsbTargetDevice,
                          request,
                          memHandle,
                          NULL,
-                         deviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                         deviceContext->UsbDeviceDescr.iManufacturer,
                          0x0409
                          );
 if (NT_SUCCESS(status)) {
@@ -210,7 +210,7 @@ if (NT_SUCCESS(status)) {
 
     if (WdfRequestSend(
                        request,
-                       WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;UsbTargetDevice),
+                       WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
                        NULL
                        )) {
         status = STATUS_PENDING;

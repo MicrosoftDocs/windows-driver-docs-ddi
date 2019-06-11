@@ -109,29 +109,29 @@ On success, the method should return S_OK and clear the device error value point
 
 
 
-There are two main types of transfer: memory-based, and file-based. The WIA service indicates which type is to be performed by the setting of <i>pmdtc</i>--&gt;<b>tymed</b>, which will be TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK for memory-based transfers, and TYMED_FILE or TYMED_MULTIPAGE_FILE for file transfers. For more information about these constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551656">WIA_IPA_TYMED</a>.
+There are two main types of transfer: memory-based, and file-based. The WIA service indicates which type is to be performed by the setting of <i>pmdtc</i>--><b>tymed</b>, which will be TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK for memory-based transfers, and TYMED_FILE or TYMED_MULTIPAGE_FILE for file transfers. For more information about these constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551656">WIA_IPA_TYMED</a>.
 
 <ul>
 <li>
-For memory-based transfers, a buffer may or may not have already been allocated, as indicated by the value in <i>pmdtc</i>--&gt;<b>bClassDrvAllocBuf</b>. The WIA service can pass up to two buffers to the minidriver, but typically passes only one. The number of buffers is specified by the value in <i>pmdtc</i>--&gt;<b>lNumBuffers</b>. If memory for the buffer is not already allocated, the minidriver should allocate it using any of the usual means, such as <b>CoTaskMemAlloc</b>, (described in the Windows SDK documentation), or <b>new</b>. If the minidriver allocates a buffer, it also has the responsibility of freeing the buffer.
+For memory-based transfers, a buffer may or may not have already been allocated, as indicated by the value in <i>pmdtc</i>--><b>bClassDrvAllocBuf</b>. The WIA service can pass up to two buffers to the minidriver, but typically passes only one. The number of buffers is specified by the value in <i>pmdtc</i>--><b>lNumBuffers</b>. If memory for the buffer is not already allocated, the minidriver should allocate it using any of the usual means, such as <b>CoTaskMemAlloc</b>, (described in the Windows SDK documentation), or <b>new</b>. If the minidriver allocates a buffer, it also has the responsibility of freeing the buffer.
 
 </li>
 <li>
-For file transfers, the minidriver should first write the data to the buffer passed in the WIA service's call to this method, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549484">wiasWritePageBufToFile</a> to write the buffer data to the file involved. The minidriver should not attempt to use the file handle specified in <b>pmdtc</b>--&gt;<b>hFile</b> to write the data to the file.
+For file transfers, the minidriver should first write the data to the buffer passed in the WIA service's call to this method, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549484">wiasWritePageBufToFile</a> to write the buffer data to the file involved. The minidriver should not attempt to use the file handle specified in <b>pmdtc</b>--><b>hFile</b> to write the data to the file.
 
 </li>
 </ul>
-Periodically, the minidriver should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a> method in the COM interface point to by <i>pdmtc</i>--&gt;<b>pIWiaMiniDrvCallBack</b> to update the status of the transfer. For memory-based transfers, this function is used to pass the data back to the application. How often this function should be called is left to the minidriver, but it should be called about ten times, or roughly once per second during the transfer, whichever is more often.
+Periodically, the minidriver should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543946">IWiaMiniDrvCallBack::MiniDrvCallback</a> method in the COM interface point to by <i>pdmtc</i>--><b>pIWiaMiniDrvCallBack</b> to update the status of the transfer. For memory-based transfers, this function is used to pass the data back to the application. How often this function should be called is left to the minidriver, but it should be called about ten times, or roughly once per second during the transfer, whichever is more often.
 
 Other transfer parameters that the WIA service provides include the following:
 
 <ul>
 <li>
-<b>pmdtc</b>--&gt;<b>guidFormatID</b> - the data format
+<b>pmdtc</b>--><b>guidFormatID</b> - the data format
 
 </li>
 <li>
-<b>pmdtc</b>--&gt;<b>lCompression</b> - the type of compression used
+<b>pmdtc</b>--><b>lCompression</b> - the type of compression used
 
 </li>
 </ul>
@@ -146,7 +146,7 @@ A potential problem for ADF-equipped scanners is running out of paper during a s
 <td>
 The WIA_DPS_PAGES property was set to 0, and the scanner emptied its ADF with no errors.
 
-The WIA_DPS_PAGES property was set to N (where N &gt; 0), and the scanner processed N pages with no errors.
+The WIA_DPS_PAGES property was set to N (where N > 0), and the scanner processed N pages with no errors.
 
 </td>
 <td>

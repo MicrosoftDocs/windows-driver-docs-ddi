@@ -56,7 +56,7 @@ This IOCTL checks to see if the given volume has a drive letter. If it already h
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562285">MOUNTMGR_DRIVE_LETTER_TARGET</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The client must insert the name of the target volume at the address pointed to by the <i>DeviceName[]</i> member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1"). 
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562285">MOUNTMGR_DRIVE_LETTER_TARGET</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The client must insert the name of the target volume at the address pointed to by the <i>DeviceName[]</i> member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1"). 
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ The mount manager client initializes the <a href="https://msdn.microsoft.com/lib
 
 ### -output-buffer
 
-The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562281">MOUNTMGR_DRIVE_LETTER_INFORMATION</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562281">MOUNTMGR_DRIVE_LETTER_INFORMATION</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

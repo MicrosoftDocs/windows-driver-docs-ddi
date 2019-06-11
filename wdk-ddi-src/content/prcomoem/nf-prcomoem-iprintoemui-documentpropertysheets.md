@@ -61,7 +61,7 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 
 ### -param lParam
 
-Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--&gt;<b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> function type.
+Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--><b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> function type.
 
 PROPSHEETUI_REASON_DESTROY
 

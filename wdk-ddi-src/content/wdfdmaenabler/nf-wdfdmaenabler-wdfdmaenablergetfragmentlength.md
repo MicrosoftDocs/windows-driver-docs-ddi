@@ -121,7 +121,7 @@ miniMapRegisters = BYTES_TO_PAGES(NIC_MAX_PACKET_SIZE) + 1;
 
 maxLengthSupported = 
     (ULONG) WdfDmaEnablerGetFragmentLength(
-                                           FdoData-&gt;WdfDmaEnabler,
+                                           FdoData->WdfDmaEnabler,
                                            WdfDmaDirectionReadFromDevice
                                            );
 

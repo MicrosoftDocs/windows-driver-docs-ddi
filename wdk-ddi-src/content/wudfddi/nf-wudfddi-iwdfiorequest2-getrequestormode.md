@@ -100,12 +100,12 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr&lt;IWDFIoRequest2> r2 = pWdfRequest;
 
-    processorMode = r2-&gt;GetRequestorMode();
+    processorMode = r2->GetRequestorMode();
     if (processorMode == WdfUserMode)
     {
-        fromApp = r2-&gt;IsFromUserModeDriver();
+        fromApp = r2->IsFromUserModeDriver();
     }
 ...
 }</pre>

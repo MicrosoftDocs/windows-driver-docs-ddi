@@ -84,7 +84,7 @@ The following code example retrieves the number of USB interfaces for the USB de
 </tr>
 <tr>
 <td>
-<pre>    UCHAR NumInterfaces = pIUsbTargetDevice-&gt;GetNumInterfaces();</pre>
+<pre>    UCHAR NumInterfaces = pIUsbTargetDevice->GetNumInterfaces();</pre>
 </td>
 </tr>
 </table></span></div>

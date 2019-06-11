@@ -69,7 +69,7 @@ The <b>IPrintSchemaTicket2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn454561">GetParameterInitializer</a>
 </td>
 <td align="left" width="63%">
-The <b>GetParameterInitializer</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object, and it  represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.
+The <b>GetParameterInitializer</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object, and it  represents the &lt;psf:ParameterInit> element in the PrintTicket XML.
 
 </td>
 </tr>

@@ -90,8 +90,8 @@ The following snippet shows how a client driver calls <b>UfxDeviceProprietaryCha
 <tr>
 <td>
 <pre>    UfxDeviceProprietaryChargerDetectComplete(
-        ChargerContext-&gt;UfxDevice,
-        &pControllerData-&gt;DetectedCharger);
+        ChargerContext->UfxDevice,
+        &pControllerData->DetectedCharger);
 </pre>
 </td>
 </tr>

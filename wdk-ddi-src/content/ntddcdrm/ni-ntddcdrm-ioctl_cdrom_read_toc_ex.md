@@ -59,24 +59,24 @@ Queries the target device for the table of contents (TOC), the program memory ar
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
 
 <b>Parameters.Read.Length</b> in the I/O stack location indicates the size, in bytes, of the information to be retrieved from the target device. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the input buffer, which must be &gt;= <b>sizeof</b>(CDROM_READ_TOC_EX).
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the input buffer, which must be >= <b>sizeof</b>(CDROM_READ_TOC_EX).
 
 
 ### -output-buffer
 
-The driver returns the query data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the query data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the output buffer, which must be &gt;= MINIMUM_CDROM_READ_TOC_EX_SIZE.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the output buffer, which must be >= MINIMUM_CDROM_READ_TOC_EX_SIZE.
 
 
 ### -in-out-buffer

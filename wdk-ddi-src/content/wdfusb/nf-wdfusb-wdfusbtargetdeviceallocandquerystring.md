@@ -188,11 +188,11 @@ USHORT  numCharacters;
 myDeviceContext = GetDeviceContext(device);
 
 status = WdfUsbTargetDeviceAllocAndQueryString(
-                                        myDeviceContext-&gt;UsbTargetDevice,
+                                        myDeviceContext->UsbTargetDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
                                         &memoryHandle,
                                         &numCharacters,
-                                        myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                        myDeviceContext->UsbDeviceDescr.iManufacturer,
                                         0x0409
                                         );</pre>
 </td>

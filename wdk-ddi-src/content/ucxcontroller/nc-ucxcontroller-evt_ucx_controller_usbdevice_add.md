@@ -148,10 +148,10 @@ UsbDevice_EvtControllerUsbDeviceAdd(
     }
 
     ucxUsbDeviceContext = GetUcxUsbDeviceContext(ucxUsbDevice);
-    ucxUsbDeviceContext-&gt;DeviceSpeed = UsbDeviceInfo-&gt;DeviceSpeed;
-    ucxUsbDeviceContext-&gt;TtHub = UsbDeviceInfo-&gt;TtHub;
-    RtlCopyMemory(&ucxUsbDeviceContext-&gt;PortPath,
-                  &UsbDeviceInfo-&gt;PortPath,
+    ucxUsbDeviceContext->DeviceSpeed = UsbDeviceInfo->DeviceSpeed;
+    ucxUsbDeviceContext->TtHub = UsbDeviceInfo->TtHub;
+    RtlCopyMemory(&ucxUsbDeviceContext->PortPath,
+                  &UsbDeviceInfo->PortPath,
                   sizeof(USB_DEVICE_PORT_PATH));
 
     DbgTrace(TL_INFO, UsbDevice, "UsbDevice_EvtControllerUsbDeviceAdd");

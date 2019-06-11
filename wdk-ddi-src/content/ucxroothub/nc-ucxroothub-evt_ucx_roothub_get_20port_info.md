@@ -119,20 +119,20 @@ RootHub_EvtRootHubGet20PortInfo(
 
     rootHub20PortsInfo = (PROOTHUB_20PORTS_INFO)wdfRequestParams.Parameters.Others.Arg1;
 
-    if (rootHub20PortsInfo-&gt;Size &lt; sizeof(ROOTHUB_20PORTS_INFO)) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORTS_INFO Size %d", rootHub20PortsInfo-&gt;Size);
+    if (rootHub20PortsInfo->Size &lt; sizeof(ROOTHUB_20PORTS_INFO)) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORTS_INFO Size %d", rootHub20PortsInfo->Size);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet20PortInfoEnd;
     }
 
-    if (rootHub20PortsInfo-&gt;NumberOfPorts != ucxRootHubContext-&gt;NumberOf20Ports) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORTS_INFO NumberOfPorts %d", rootHub20PortsInfo-&gt;NumberOfPorts);
+    if (rootHub20PortsInfo->NumberOfPorts != ucxRootHubContext->NumberOf20Ports) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORTS_INFO NumberOfPorts %d", rootHub20PortsInfo->NumberOfPorts);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet20PortInfoEnd;
     }
 
-    if (rootHub20PortsInfo-&gt;PortInfoSize &lt; sizeof(ROOTHUB_20PORT_INFO)) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORT_INFO Size %d", rootHub20PortsInfo-&gt;PortInfoSize);
+    if (rootHub20PortsInfo->PortInfoSize &lt; sizeof(ROOTHUB_20PORT_INFO)) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_20PORT_INFO Size %d", rootHub20PortsInfo->PortInfoSize);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet20PortInfoEnd;
     }
@@ -140,8 +140,8 @@ RootHub_EvtRootHubGet20PortInfo(
     //
     // Return static root hub 2.0 port information.
     //
-    rootHub20PortsInfo-&gt;PortInfoArray[0]-&gt;PortNumber = ROOTHUB_20_PORT_PORT_NUMBER;
-    rootHub20PortsInfo-&gt;PortInfoArray[0]-&gt;Removable = TriStateTrue;
+    rootHub20PortsInfo->PortInfoArray[0]->PortNumber = ROOTHUB_20_PORT_PORT_NUMBER;
+    rootHub20PortsInfo->PortInfoArray[0]->Removable = TriStateTrue;
 
     status = STATUS_SUCCESS;
 

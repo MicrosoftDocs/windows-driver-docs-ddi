@@ -88,9 +88,9 @@ In order to change the mappings between system power states and device power sta
 <td>
 <pre>  for (i=ULONG(PowerSystemWorking); i&lt;=ULONG(PowerSystemShutdown); i++)
       {
-          if (PowerDeviceCaps-&gt;DeviceState[i] == PowerDeviceD1)
+          if (PowerDeviceCaps->DeviceState[i] == PowerDeviceD1)
           {
-              PowerDeviceCaps-&gt;DeviceState[i] = PowerDeviceD3;
+              PowerDeviceCaps->DeviceState[i] = PowerDeviceD3;
           }
       }</pre>
 </td>

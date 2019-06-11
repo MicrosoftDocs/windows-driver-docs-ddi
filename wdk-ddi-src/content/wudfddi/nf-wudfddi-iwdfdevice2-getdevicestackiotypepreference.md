@@ -97,7 +97,7 @@ The following code example retrieves the buffer access methods that the framewor
 <pre>WDF_DEVICE_IO_TYPE ReadWriteAccessMethod;
 WDF_DEVICE_IO_TYPE IoControlAccessMethod;
 
-Device2-&gt;GetDeviceStackIoTypePreference(&ReadWriteAccessMethod,
+Device2->GetDeviceStackIoTypePreference(&ReadWriteAccessMethod,
                                         &IoControlAccessMethod); </pre>
 </td>
 </tr>

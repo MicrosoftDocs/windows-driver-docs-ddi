@@ -59,9 +59,9 @@ This property is read-only.
 
 
 
-For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by  <b>RangeMin</b> maps to the &lt;psf:MinValue&gt; property value of the Print Schema parameter definition. This minimum value shows the minimum integer value that the driver supports.
+For the <b>PrintSchemaParameterDataType_Integer</b> data type, the value returned by  <b>RangeMin</b> maps to the &lt;psf:MinValue> property value of the Print Schema parameter definition. This minimum value shows the minimum integer value that the driver supports.
 
-For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the &lt;psf:MinLength&gt; property value of the Print Schema parameter definition. This minimum value shows the minimum length of string that the driver supports.
+For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaParameterDataType_String</b>  data types, this maps to the &lt;psf:MinLength> property value of the Print Schema parameter definition. This minimum value shows the minimum length of string that the driver supports.
 
 
 

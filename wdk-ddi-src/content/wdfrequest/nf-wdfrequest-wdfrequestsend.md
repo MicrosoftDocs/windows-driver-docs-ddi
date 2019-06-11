@@ -151,7 +151,7 @@ OsrFxEvtIoWrite(
     //
     // Check if the transfer size is valid.
     //
-    if (Length &gt; MAX_TRANSFER_BUFFER_SIZE) {
+    if (Length > MAX_TRANSFER_BUFFER_SIZE) {
         status = STATUS_INVALID_PARAMETER;
         goto Exit;
     }
@@ -161,7 +161,7 @@ OsrFxEvtIoWrite(
     // pipe handle there.
     //
     pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
-    pipe = pDeviceContext-&gt;BulkWritePipe;
+    pipe = pDeviceContext->BulkWritePipe;
  
     //
     // Get a handle to a memory object that represents

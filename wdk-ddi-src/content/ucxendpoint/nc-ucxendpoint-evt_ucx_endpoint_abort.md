@@ -106,7 +106,7 @@ Endpoint_UcxEvtEndpointAbort(
 	   UCXENDPOINT     UcxEndpoint
 	  )
 	{
-	            WdfIoQueueStopAndPurge(endpointContext-&gt;WdfQueue,
+	            WdfIoQueueStopAndPurge(endpointContext->WdfQueue,
 	                                   Endpoint_WdfEvtAbortComplete,
 	                                   UcxEndpoint);
 	}

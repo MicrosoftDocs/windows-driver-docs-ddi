@@ -82,7 +82,7 @@ A value of zero for <b>bSampleAlpha8</b> indicates that the pixel is transparent
 
 For nonzero values of <b>bSampleAlpha8</b>, the blend to use is calculated by the following expression:
 
-( ( ( (<b>bSampleAlpha8</b>+1) x (graphic value) ) + ( (255 - <b>bSampleAlpha8</b>) x (picture value) ) )  + 128 ) &gt;&gt; 8
+( ( ( (<b>bSampleAlpha8</b>+1) x (graphic value) ) + ( (255 - <b>bSampleAlpha8</b>) x (picture value) ) )  + 128 ) >> 8
 
 For a zero value of <b>bSampleAlpha8</b>, the specified blend to use is the picture value without alteration. 
 

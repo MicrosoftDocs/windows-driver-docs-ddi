@@ -244,7 +244,7 @@ status = WdfInterruptCreate(
                             device,
                             &interruptConfig,
                             &interruptAttributes,
-                            &devExt-&gt;WdfInterrupt
+                            &devExt->WdfInterrupt
                             );</pre>
 </td>
 </tr>

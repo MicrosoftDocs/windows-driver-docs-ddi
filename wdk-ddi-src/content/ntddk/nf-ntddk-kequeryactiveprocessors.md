@@ -93,10 +93,10 @@ You can use the <a href="https://msdn.microsoft.com/397283e6-0691-4e55-9507-483b
 </tr>
 <tr>
 <td>
-<pre>#if (NTDDI_VERSION &gt;= NTDDI_VISTA)
+<pre>#if (NTDDI_VERSION >= NTDDI_VISTA)
 extern NTSYSAPI volatile CCHAR KeNumberProcessors;
 #else
-#if (NTDDI_VERSION &gt;= NTDDI_WINXP)
+#if (NTDDI_VERSION >= NTDDI_WINXP)
 extern NTSYSAPI CCHAR KeNumberProcessors;
 #else
 extern PCCHAR KeNumberProcessors;

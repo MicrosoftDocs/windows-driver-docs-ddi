@@ -135,7 +135,7 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
                                                WdfRetrieveAddedChildren
                                                )) != NULL) {
     pdoData = PdoGetData(hChild);  // Device object context space
-    if (SerialNo == pdoData-&gt;SerialNo) {
+    if (SerialNo == pdoData->SerialNo) {
         status = WdfPdoMarkMissing(hChild);
         if(!NT_SUCCESS(status)) {
             KdPrint(("WdfPdoMarkMissing failed 0x%x\n", status));

@@ -109,8 +109,8 @@ If either the host controller or the device operates at low speed, the period of
 <td>Supported.</td>
 </tr>
 <tr>
-<td>&gt; 255</td>
-<td>Polling intervals &gt; 255 are forbidden by the USB specification.</td>
+<td>> 255</td>
+<td>Polling intervals > 255 are forbidden by the USB specification.</td>
 <td></td>
 </tr>
 </table>
@@ -162,8 +162,8 @@ For devices and host controllers that can operate at full speed, the period is m
 <td>Not supported.</td>
 </tr>
 <tr>
-<td>&gt; 255</td>
-<td>Polling intervals &gt; 255 are forbidden by the USB specification.</td>
+<td>> 255</td>
+<td>Polling intervals > 255 are forbidden by the USB specification.</td>
 <td></td>
 <td></td>
 </tr>
@@ -222,8 +222,8 @@ For devices and host controllers that can operate at high speed, the period is m
 <td>Not supported.</td>
 </tr>
 <tr>
-<td>&gt; 255</td>
-<td>Polling intervals &gt; 255 are forbidden by the USB specification.</td>
+<td>> 255</td>
+<td>Polling intervals > 255 are forbidden by the USB specification.</td>
 <td></td>
 <td></td>
 </tr>

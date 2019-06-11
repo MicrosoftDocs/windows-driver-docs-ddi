@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns a VOLUME_DISK_EXTENTS structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least <b>sizeof</b>(VOLUME_DISK_EXTENTS). 
+The driver returns a VOLUME_DISK_EXTENTS structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least <b>sizeof</b>(VOLUME_DISK_EXTENTS). 
 
 
 ### -output-buffer-length
@@ -97,19 +97,19 @@ The length of a VOLUME_DISK_EXTENTS structure.
 
 ### -status-block
 
-The driver sets <b>Irp-&gt;IoStatus.Information</b> and the <b>Status</b> field as follows:
+The driver sets <b>Irp->IoStatus.Information</b> and the <b>Status</b> field as follows:
 
 <ul>
 <li>
-If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is &lt; <b>sizeof</b>(VOLUME_DISK_EXTENTS), the driver sets <b>Irp-&gt;IoStatus.Information</b> to zero and returns STATUS_INVALID_PARAMETER.
+If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is &lt; <b>sizeof</b>(VOLUME_DISK_EXTENTS), the driver sets <b>Irp->IoStatus.Information</b> to zero and returns STATUS_INVALID_PARAMETER.
 
 </li>
 <li>
-If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is at least <b>sizeof</b>(VOLUME_DISK_EXTENTS) but too small for all data to be returned, the driver sets <b>Irp-&gt;IoStatus.Information</b> to <b>sizeof</b>(VOLUME_DISK_EXTENTS) and sets <b>Status</b> to STATUS_BUFFER_OVERFLOW.
+If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is at least <b>sizeof</b>(VOLUME_DISK_EXTENTS) but too small for all data to be returned, the driver sets <b>Irp->IoStatus.Information</b> to <b>sizeof</b>(VOLUME_DISK_EXTENTS) and sets <b>Status</b> to STATUS_BUFFER_OVERFLOW.
 
 </li>
 <li>
-If the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is large enough for all data to be returned, the driver sets <b>Irp-&gt;IoStatus.Information</b> to <b>sizeof</b>(VOLUME_DISK_EXTENTS) + ((NumberOfDiskExtents - 1) * <b>sizeof</b>(DISK_EXTENT)) and sets <b>Status</b> to STATUS_SUCCESS. 
+If the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> is large enough for all data to be returned, the driver sets <b>Irp->IoStatus.Information</b> to <b>sizeof</b>(VOLUME_DISK_EXTENTS) + ((NumberOfDiskExtents - 1) * <b>sizeof</b>(DISK_EXTENT)) and sets <b>Status</b> to STATUS_SUCCESS. 
 
 </li>
 </ul>

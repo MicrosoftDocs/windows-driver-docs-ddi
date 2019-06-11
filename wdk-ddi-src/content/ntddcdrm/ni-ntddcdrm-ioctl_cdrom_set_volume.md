@@ -59,7 +59,7 @@ Resets the volume for its device's audio ports.  Obsolete, beginning with Window
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> value or values to be set. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> value or values to be set. 
 
 
 ### -input-buffer-length

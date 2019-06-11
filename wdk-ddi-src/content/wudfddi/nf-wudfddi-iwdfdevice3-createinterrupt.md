@@ -115,7 +115,7 @@ WUDF_INTERRUPT_CONFIG_INIT(&interruptConfig,
                            MyInterruptIsr,
                            MyInterruptWorkItem);
 
-hr = pDevice-&gt;Create(&interruptConfig, 
+hr = pDevice->Create(&interruptConfig, 
                      &pInterrupt);
 </pre>
 </td>

@@ -179,7 +179,7 @@ Reserves space for a set of records, but does not append the records to the mars
 </tr>
 <tr>
 <td>
-<i>cWriteEntries</i> &gt; 0.
+<i>cWriteEntries</i> > 0.
 
 <i>rgWriteEntries</i> is not <b>NULL</b>.
 
@@ -199,7 +199,7 @@ Appends a record to the marshalling area by using space that has already been re
 </tr>
 <tr>
 <td>
-<i>cWriteEntries</i> &gt; 0.
+<i>cWriteEntries</i> > 0.
 
 <i>rgWriteEntries</i> is not <b>NULL</b>.
 
@@ -219,13 +219,13 @@ Appends a record to the marshalling area by reserving new space. Leaves the numb
 </tr>
 <tr>
 <td>
-<i>cWriteEntries</i> &gt; 0.
+<i>cWriteEntries</i> > 0.
 
 <i>rgWriteEntries</i> is not <b>NULL</b>.
 
 <i>plsn</i> is not <b>NULL</b>.
 
-<i>cReserveRecords</i> &gt; 0.
+<i>cReserveRecords</i> > 0.
 
 <i>rgcbReservation</i> is not <b>NULL</b>.
 

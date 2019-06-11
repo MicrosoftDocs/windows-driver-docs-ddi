@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeAcquireSpinLockAtDpcLevel~r1
 title: KeAcquireSpinLockAtDpcLevel macro (wdm.h)
-description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL &gt;= DISPATCH_LEVEL.
+description: The KeAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
 old-location: kernel\keacquirespinlockatdpclevel.htm
 tech.root: kernel
 ms.assetid: 010b5e42-26c7-433f-b67b-1afdc0ec564c
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the caller is already running at IRQL &gt;= DISPATCH_LEVEL. 
+The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL. 
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide
 
 Drivers call <b>KeAcquireSpinLockAtDpcLevel</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a> for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
 
-If a driver is running at IRQL &lt;= APC_LEVEL, it should call <b>KeAcquireSpinLock</b> to have IRQL raised by that routine. <b>KeAcquireSpinLockAtDpcLevel</b> assumes the caller is already running at IRQL &gt;= DISPATCH_LEVEL, so no raise is necessary.
+If a driver is running at IRQL &lt;= APC_LEVEL, it should call <b>KeAcquireSpinLock</b> to have IRQL raised by that routine. <b>KeAcquireSpinLockAtDpcLevel</b> assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
 
 The caller should release the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff553150">KeReleaseSpinLockFromDpcLevel</a> as quickly as possible.
 

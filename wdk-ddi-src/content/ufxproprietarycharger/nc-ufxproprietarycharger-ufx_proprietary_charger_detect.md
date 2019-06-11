@@ -107,14 +107,14 @@ UsbLowerFilter_ProprietaryChargerDetect(
 
 
     // Clear our event
-     KeClearEvent(&PdcpContext&gt;AbortOperation);
+     KeClearEvent(&PdcpContext>AbortOperation);
 
 
     // Wait for a while
-     Timeout.QuadPart = WDF_REL_TIMEOUT_IN_MS(PdcpContext&gt;DetectionDelayInms);
+     Timeout.QuadPart = WDF_REL_TIMEOUT_IN_MS(PdcpContext>DetectionDelayInms);
 
     Status = KeWaitForSingleObject(
-        &PdcpContext&gt;AbortOperation,
+        &PdcpContext>AbortOperation,
         Executive,
         KernelMode,
         FALSE,
@@ -134,12 +134,12 @@ UsbLowerFilter_ProprietaryChargerDetect(
         // Timed out, detection has completed successfully.
         // Check if we want to fail this.
 
-        if (PdcpContext&gt;RejectNextRequest)
+        if (PdcpContext>RejectNextRequest)
         {
-            PdcpContext-&gt;RejectNextRequest = FALSE;
+            PdcpContext->RejectNextRequest = FALSE;
             Status = STATUS_UNSUCCESSFUL;
         }
-        else if (!PdcpContext-&gt;PdcpChargerAttached)
+        else if (!PdcpContext->PdcpChargerAttached)
         {
             Status = STATUS_NOT_FOUND;
         }
@@ -155,9 +155,9 @@ UsbLowerFilter_ProprietaryChargerDetect(
 
     if (NT_SUCCESS(Status))
     {
-        PdcpContext-&gt;PdcpChargerDetected = TRUE;
-        DetectedCharger-&gt;ChargerId = GUID_USBFN_PROPRIETARY_CHARGER;
-        DetectedCharger-&gt;DxState = PowerDeviceD2;
+        PdcpContext->PdcpChargerDetected = TRUE;
+        DetectedCharger->ChargerId = GUID_USBFN_PROPRIETARY_CHARGER;
+        DetectedCharger->DxState = PowerDeviceD2;
     }
 
     return Status;

@@ -125,10 +125,10 @@ The following example opens a device port only if a call to <a href="https://msd
     {
         // Store IStiDeviceControl object pointer
         m_pDcb = pDcb;
-        m_pDcb-&gt;AddRef();
+        m_pDcb->AddRef();
         // If we opened in data mode - should open device right now,
         // otherwise postpone open till lock
-        m_pDcb-&gt;GetMyDeviceOpenMode(&dwMode);
+        m_pDcb->GetMyDeviceOpenMode(&dwMode);
         if (dwMode & STI_DEVICE_CREATE_DATA)
             hres = OpenMyPort();
     }

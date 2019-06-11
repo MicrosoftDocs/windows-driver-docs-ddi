@@ -272,26 +272,26 @@ NICSendOidRequestToTargetAsync(
  
     if (InputBuffer != NULL) {
         status = WdfMemoryAssignBuffer(
-                                       reqContext-&gt;InputMemory,
+                                       reqContext->InputMemory,
                                        InputBuffer, 
                                        InputBufferLength
                                        );
         if (!NT_SUCCESS(status)) {
              return status;
         }
-        inputMem = reqContext-&gt;InputMemory;
+        inputMem = reqContext->InputMemory;
     }
 
     if (OutputBuffer != NULL) {
         status = WdfMemoryAssignBuffer(
-                                       reqContext-&gt;OutputMemory,
+                                       reqContext->OutputMemory,
                                        OutputBuffer, 
                                        OutputBufferLength
                                        );
         if (!NT_SUCCESS(status)) {
             return status;
         }
-        outputMem = reqContext-&gt;OutputMemory;
+        outputMem = reqContext->OutputMemory;
     }
 
     status = WdfIoTargetFormatRequestForIoctl(

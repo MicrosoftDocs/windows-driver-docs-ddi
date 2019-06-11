@@ -185,26 +185,26 @@ Return Value:
                  &Endpoint);
 
 
-    Status = WdfCollectionAdd(DeviceContext-&gt;Endpoints, Endpoint);
+    Status = WdfCollectionAdd(DeviceContext->Endpoints, Endpoint);
 
 
     EpContext = UfxEndpointGetContext(Endpoint);
-    EpContext-&gt;UfxDevice = Device;
-    EpContext-&gt;WdfDevice = DeviceContext-&gt;FdoWdfDevice;
-    RtlCopyMemory(&EpContext-&gt;Descriptor, Descriptor, sizeof(*Descriptor));
+    EpContext->UfxDevice = Device;
+    EpContext->WdfDevice = DeviceContext->FdoWdfDevice;
+    RtlCopyMemory(&EpContext->Descriptor, Descriptor, sizeof(*Descriptor));
 
     Queue = UfxEndpointGetTransferQueue(Endpoint);
     QueueContext = EndpointQueueGetContext(Queue);
-    QueueContext-&gt;Endpoint = Endpoint;
+    QueueContext->Endpoint = Endpoint;
 
     Queue = UfxEndpointGetCommandQueue(Endpoint);
     QueueContext = EndpointQueueGetContext(Queue);
-    QueueContext-&gt;Endpoint = Endpoint;
+    QueueContext->Endpoint = Endpoint;
 
     //
     // This can happen if we're handling a SetInterface command.
     //
-    if (DeviceContext-&gt;UsbState == UsbfnDeviceStateConfigured) {
+    if (DeviceContext->UsbState == UsbfnDeviceStateConfigured) {
         UfxEndpointConfigure(Endpoint);
     }
 

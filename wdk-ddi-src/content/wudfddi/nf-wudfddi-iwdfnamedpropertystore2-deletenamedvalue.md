@@ -120,7 +120,7 @@ CMyDevice::OnCleanup(
     if ((m_CreatedLegacyHardwareKey == TRUE) && 
         (m_LegacyHardwarePropertyStore != NULL))
     {
-        m_LegacyHardwarePropertyStore-&gt;DeleteNamedValue(m_PdoName);
+        m_LegacyHardwarePropertyStore->DeleteNamedValue(m_PdoName);
         SAFE_RELEASE(m_LegacyHardwarePropertyStore);
         delete[] m_PdoName;
     }    

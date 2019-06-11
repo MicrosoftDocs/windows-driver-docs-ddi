@@ -186,7 +186,7 @@ NICInitiateDmaTransfer(
  
     do {
         status = WdfDmaTransactionCreate(
-                                         FdoData-&gt;WdfDmaEnabler,
+                                         FdoData->WdfDmaEnabler,
                                          WDF_NO_OBJECT_ATTRIBUTES,
                                          &dmaTransaction
                                          );

@@ -100,7 +100,7 @@ None.
 
 ### -status-block
 
-The USB driver stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
+The USB driver stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
 
 
 ## -remarks

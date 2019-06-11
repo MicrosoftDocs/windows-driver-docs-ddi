@@ -77,7 +77,7 @@ Contains the logical unit number of the target device.
 
 ### -param Depth [in]
 
-Supplies the depth to which the queue is to be set. This value is always &gt; 0.
+Supplies the depth to which the queue is to be set. This value is always > 0.
 
 
 ## -returns

@@ -112,7 +112,7 @@ The destination string buffer is too small to allow the source string to be appe
 
 If the destination buffer is not large enough to contain the string that would result from concatenating the source and destination strings (not including the null character that terminates the source string), the routine returns STATUS_BUFFER_TOO_SMALL and leaves the destination string unchanged.
 
-The <i>Destination</i> buffer must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
+The <i>Destination</i> buffer must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
 
 

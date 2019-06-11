@@ -108,7 +108,7 @@ Sets the <b>Packet.wValue.Value</b> member to zero.
 
 </li>
 <li>
-Sets the <b>Packet-&gt;Packet.wIndex.Value</b> member to the <i>Index</i> argument.
+Sets the <b>Packet->Packet.wIndex.Value</b> member to the <i>Index</i> argument.
 
 </li>
 </ol>

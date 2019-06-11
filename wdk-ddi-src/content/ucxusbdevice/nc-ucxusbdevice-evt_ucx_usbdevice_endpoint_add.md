@@ -174,22 +174,22 @@ Endpoint_EvtUcxUsbDeviceEndpointAdd(
 
     ucxEndpointContext = GetUcxEndpointContext(ucxEndpoint);
 
-    ucxEndpointContext-&gt;IsDefault = FALSE;
-    ucxEndpointContext-&gt;MaxPacketSize = MAX_PACKET_SIZE;
+    ucxEndpointContext->IsDefault = FALSE;
+    ucxEndpointContext->MaxPacketSize = MAX_PACKET_SIZE;
 
     WDF_IO_QUEUE_CONFIG_INIT(&queueConfig, WdfIoQueueDispatchManual);
 
-    status = WdfIoQueueCreate(ucxControllerContext-&gt;WdfDevice,
+    status = WdfIoQueueCreate(ucxControllerContext->WdfDevice,
         &queueConfig,
         WDF_NO_OBJECT_ATTRIBUTES,
-        &ucxEndpointContext-&gt;IoQueue);
+        &ucxEndpointContext->IoQueue);
 
     if (!NT_SUCCESS(status)) {
         DbgTrace(TL_ERROR, Endpoint, "WdfIoQueueCreate Failed %!STATUS!", status);
         goto EvtUsbDeviceEndpointAddEnd;
     }
 
-    UcxEndpointSetWdfIoQueue(ucxEndpoint, ucxEndpointContext-&gt;IoQueue);
+    UcxEndpointSetWdfIoQueue(ucxEndpoint, ucxEndpointContext->IoQueue);
 
 EvtUsbDeviceEndpointAddEnd:
 

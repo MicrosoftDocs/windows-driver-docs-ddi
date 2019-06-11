@@ -172,7 +172,7 @@ SetFriendlyName(
     HRESULT hr = S_OK;
     WCHAR friendlyName[] = L"UMDF OSR USB Fx2 Test Device";
 
-    hr = pUnifiedPropertyStore-&gt;SetPropertyData(
+    hr = pUnifiedPropertyStore->SetPropertyData(
             &DEVPKEY_Device_FriendlyName,
             0, //Lcid
             0, //Flags

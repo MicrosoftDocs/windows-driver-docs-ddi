@@ -106,11 +106,11 @@ Transitions always occur in one of the following two sequences:
 
 <ul>
 <li>
-STOP -&gt; ACQUIRE -&gt; PAUSE -&gt; RUN
+STOP -> ACQUIRE -> PAUSE -> RUN
 
 </li>
 <li>
-RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
+RUN -> PAUSE -> ACQUIRE -> STOP
 
 </li>
 </ul>

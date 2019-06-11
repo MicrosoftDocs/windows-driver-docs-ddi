@@ -107,7 +107,7 @@ myExtendedPolicy.Priority = WdfIrqPriorityNormal;
 myExtendedPolicy.TargetProcessorSetAndGroup.Mask = AFFINITY_MASK(0);
 myExtendedPolicy.TargetProcessorSetAndGroup.Group = 2;
 
-pInterrupt-&gt;SetExtendedPolicy(
+pInterrupt->SetExtendedPolicy(
                               &myExtendedPolicy
  );</pre>
 </td>

@@ -111,13 +111,13 @@ Before it returns, <b>DxgkCbEvalAcpiMethod</b> resets the <b>Signature</b> membe
 The following code example shows how to evaluate an ACPI method.
 
 ```cpp
-if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
+if (HwDeviceExtension->AcpiChildren != NULL) {
     ULONG ChildIndex;
     PACPI_METHOD_ARGUMENT AcpiChildrenArray = 
- &(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension-&gt;AcpiChildren) 
-   -&gt;Argument[0]);
+ &(((PACPI_EVAL_OUTPUT_BUFFER)HwDeviceExtension->AcpiChildren) 
+   ->Argument[0]);
    ULONG ChildCount = ((PACPI_EVAL_OUTPUT_BUFFER) 
-   (HwDeviceExtension-&gt;AcpiChildren))-&gt;Count;
+   (HwDeviceExtension->AcpiChildren))->Count;
   ULONG ChildUid;
   ACPI_EVAL_INPUT_BUFFER_COMPLEX AcpiInputBuffer = {'\0'};
    ACPI_EVAL_OUTPUT_BUFFER AcpiOutputBuffer;
@@ -147,7 +147,7 @@ if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
   // Beginning with Windows Vista SP1 and Windows Server 2008,
   // use DXGK_ACPI_PASS_ARGS_TO_CHILDREN.
 
-  #if (NTDDI_VERSION &gt;= NTDDI_WIN6SP1)
+  #if (NTDDI_VERSION >= NTDDI_WIN6SP1)
    AcpiInputBuffer.Signature = 
    DXGK_ACPI_PASS_ARGS_TO_CHILDREN;
      #else
@@ -157,7 +157,7 @@ if (HwDeviceExtension-&gt;AcpiChildren != NULL) {
 
      AcpiInputBuffer.MethodNameAsUlong = 
    ACPI_METHOD_OUTPUT_DGS;
-     Status = DxgkCbEvalAcpiMethod(HwDeviceExtension-&gt;DeviceHandle,
+     Status = DxgkCbEvalAcpiMethod(HwDeviceExtension->DeviceHandle,
          ChildUid,
          &AcpiInputBuffer,
          sizeof(ACPI_EVAL_INPUT_BUFFER_COMPLEX),

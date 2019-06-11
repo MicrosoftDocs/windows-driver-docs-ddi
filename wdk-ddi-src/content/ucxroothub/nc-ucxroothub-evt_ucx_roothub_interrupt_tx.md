@@ -101,8 +101,8 @@ This snippet shows how the callback extracts the root hub interrupt transfer req
         WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
         urb = (PURB)wdfRequestParams.Parameters.Others.Arg1;
-        transferBuffer = urb-&gt;UrbBulkOrInterruptTransfer.TransferBuffer;
-        transferBufferLength = urb-&gt;UrbBulkOrInterruptTransfer.TransferBufferLength;
+        transferBuffer = urb->UrbBulkOrInterruptTransfer.TransferBuffer;
+        transferBufferLength = urb->UrbBulkOrInterruptTransfer.TransferBufferLength;
 </pre>
 </td>
 </tr>

@@ -125,7 +125,7 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
                                          );
 
 status = WdfUsbTargetDeviceSendControlTransferSynchronously(
-                                  pDevContext-&gt;UsbDevice,
+                                  pDevContext->UsbDevice,
                                   NULL,
                                   NULL,
                                   &controlSetupPacket,

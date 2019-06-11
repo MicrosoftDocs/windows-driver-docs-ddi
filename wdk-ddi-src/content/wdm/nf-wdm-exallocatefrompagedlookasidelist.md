@@ -76,7 +76,7 @@ If the given lookaside list is not empty, <b>ExAllocateFromPagedLookasideList</b
 
 The caller can then set up the returned entry with any caller-determined data. The caller should release each entry with <a href="https://msdn.microsoft.com/library/windows/hardware/ff544605">ExFreeToPagedLookasideList</a> when it is no longer in use. 
 
-Because the entries in a paged lookaside list are allocated from pageable memory, they must not be accessed at an IRQL &gt;= DISPATCH_LEVEL. You can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544388">ExAllocateFromNPagedLookasideList</a> to create a lookaside list with non-pageable entries.
+Because the entries in a paged lookaside list are allocated from pageable memory, they must not be accessed at an IRQL >= DISPATCH_LEVEL. You can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544388">ExAllocateFromNPagedLookasideList</a> to create a lookaside list with non-pageable entries.
 
 On Windows 2000, drivers must use the <b>-D_WIN2K_COMPAT_SLIST_USAGE</b> switch to successfully link code that uses <b>ExAllocateFromPagedLookasideList</b>.
 

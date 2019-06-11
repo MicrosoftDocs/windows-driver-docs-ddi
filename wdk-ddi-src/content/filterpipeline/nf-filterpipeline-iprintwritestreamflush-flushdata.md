@@ -96,11 +96,11 @@ IPrintWriteStreamFlush *pIFlush;
 // by using the RequestWriter() method in InitializeFilter()
 IPrintWriteStream      *pIWrite;
 
-HRESULT hr = pIWrite-&gt;QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast&lt;void **&gt;(&pIFlush));
+HRESULT hr = pIWrite->QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast&lt;void **>(&pIFlush));
 
-hr = pIWrite-&gt;WriteBytes(buf, cb, &cbWritten);
+hr = pIWrite->WriteBytes(buf, cb, &cbWritten);
 
-hr = pIFlush-&gt;FlushData();
+hr = pIFlush->FlushData();
 </pre>
 </td>
 </tr>

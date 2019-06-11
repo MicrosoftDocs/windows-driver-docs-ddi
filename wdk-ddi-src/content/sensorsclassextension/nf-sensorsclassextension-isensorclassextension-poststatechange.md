@@ -109,12 +109,12 @@ HRESULT PostStateEvent()
         SensorState st;
 
         // Retrieve the sensor state
-        hr = m_pDdi-&gt;GetSensorState(&st);
+        hr = m_pDdi->GetSensorState(&st);
 
         if (SUCCEEDED(hr))
         {
             // Post the state change event.
-            hr = m_spSensorCXT-&gt;PostStateChange(g_wszSensorID, st);
+            hr = m_spSensorCXT->PostStateChange(g_wszSensorID, st);
         }
     }
 

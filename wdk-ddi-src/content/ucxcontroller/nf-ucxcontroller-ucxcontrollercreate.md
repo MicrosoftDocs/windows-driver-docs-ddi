@@ -134,10 +134,10 @@ The method registers a device interface GUID_DEVINTERFACE_USB_HOST_CONTROLLER an
 
     DbgTrace(TL_INFO, Controller, "UCX Controller created.");
 
-    controllerContext-&gt;UcxController = ucxController;
+    controllerContext->UcxController = ucxController;
 
     ucxControllerContext = GetUcxControllerContext(ucxController);
-    ucxControllerContext-&gt;WdfDevice = wdfDevice;
+    ucxControllerContext->WdfDevice = wdfDevice;
 </pre>
 </td>
 </tr>

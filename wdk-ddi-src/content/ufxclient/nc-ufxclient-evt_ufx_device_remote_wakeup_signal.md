@@ -127,7 +127,7 @@ Arguments:
     // Stop Idle to ensure the device is in working state
     //
 
-    Status = WdfDeviceStopIdle(DeviceContext-&gt;FdoWdfDevice, TRUE);
+    Status = WdfDeviceStopIdle(DeviceContext->FdoWdfDevice, TRUE);
     if (!NT_SUCCESS(Status)) {
         TraceError("Failed to stop idle %!STATUS!", Status);
         goto End;
@@ -141,7 +141,7 @@ Arguments:
     // #### TODO: Insert code to issue a link state change on the controller ####
     //
 
-    WdfDeviceResumeIdle(DeviceContext-&gt;FdoWdfDevice);
+    WdfDeviceResumeIdle(DeviceContext->FdoWdfDevice);
 
 End:
     UfxDeviceEventComplete(UfxDevice, Status);

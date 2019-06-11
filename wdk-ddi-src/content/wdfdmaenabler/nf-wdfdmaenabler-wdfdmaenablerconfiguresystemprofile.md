@@ -174,7 +174,7 @@ WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT(&systemDmaConfig,
   
 systemDmaConfig.DemandMode = true;  
  
-ntStatus = WdfDmaEnablerConfigureSystemProfile(fdoExtension-&gt;DmaEnabler,   
+ntStatus = WdfDmaEnablerConfigureSystemProfile(fdoExtension->DmaEnabler,   
                                                &systemDmaConfig,   
                                                WdfDmaDirectionReadFromDevice);  
 </pre>

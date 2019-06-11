@@ -143,7 +143,7 @@ The adapter driver can then access the device-specific extension data, as shown 
 </tr>
 <tr>
 <td>
-<pre>  PVOID  pMyExtensionData = (PVOID)((PCHAR)FunctionalDeviceObject-&gt;DeviceExtension +
+<pre>  PVOID  pMyExtensionData = (PVOID)((PCHAR)FunctionalDeviceObject->DeviceExtension +
                                               PORT_CLASS_DEVICE_EXTENSION_SIZE);</pre>
 </td>
 </tr>

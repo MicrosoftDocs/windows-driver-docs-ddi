@@ -136,7 +136,7 @@ The following code example shows a partial implementation of an <i>EvtSerCx2Appl
 //
 
 #define ANYSIZE_ARRAY 1
-#include &lt;pshpack1.h&gt;
+#include &lt;pshpack1.h>
 
 //
 // Common resource name descriptor
@@ -161,7 +161,7 @@ typedef struct _PNP_UART_SERIAL_BUS_DESCRIPTOR {
     ....
 } PNP_UART_SERIAL_BUS_DESCRIPTOR, *PPNP_UART_SERIAL_BUS_DESCRIPTOR;
 
-#include &lt;poppack.h&gt;
+#include &lt;poppack.h>
 
 EVT_SERCX_APPLY_CONFIG MyApplyConfig;
 
@@ -189,7 +189,7 @@ VOID
     {
         connection = (PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER)ConnectionParameters;
 
-        if (connection-&gt;PropertiesLength &lt; sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
+        if (connection->PropertiesLength &lt; sizeof(PNP_SERIAL_BUS_DESCRIPTOR))
         {
             status = STATUS_INVALID_PARAMETER;
         }
@@ -197,9 +197,9 @@ VOID
 
     if (NT_SUCCESS(status))
     {
-        descriptor = (PPNP_SERIAL_BUS_DESCRIPTOR)connection-&gt;ConnectionProperties;
+        descriptor = (PPNP_SERIAL_BUS_DESCRIPTOR)connection->ConnectionProperties;
 
-        if (descriptor-&gt;SerialBusType != UART_SERIAL_BUS_TYPE)
+        if (descriptor->SerialBusType != UART_SERIAL_BUS_TYPE)
         {
             status = STATUS_INVALID_PARAMETER;
         }
@@ -207,7 +207,7 @@ VOID
 
     if (NT_SUCCESS(status))
     {
-        uartDescriptor = (PPNP_UART_SERIAL_BUS_DESCRIPTOR)connection-&gt;ConnectionProperties; 
+        uartDescriptor = (PPNP_UART_SERIAL_BUS_DESCRIPTOR)connection->ConnectionProperties; 
 
         // Apply the platform-specific configuration settings
         // from the UART descriptor here:

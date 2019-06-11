@@ -116,7 +116,7 @@ The <i>RetPostOperationStatus</i> parameter receives a FLT_POSTOP_CALLBACK_STATU
 
 </li>
 </ul>
-If IRQL &gt;= DISPATCH_LEVEL, <b>FltDoCompletionProcessingWhenSafe</b> attempts to post the I/O operation to a worker thread. 
+If IRQL >= DISPATCH_LEVEL, <b>FltDoCompletionProcessingWhenSafe</b> attempts to post the I/O operation to a worker thread. 
 
 <ul>
 <li><b>FltDoCompletionProcessingWhenSafe </b>calls the <i>SafePostCallback</i> routine from the worker thread.</li>

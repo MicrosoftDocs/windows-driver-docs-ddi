@@ -77,7 +77,7 @@ A pointer to the SCSI request block to be started.
 
 
 
-<b>HwStorStartIo</b> initiates an I/O operation. StorPort is designed to use miniport private data that is prepared in <a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a> and stored in either the <i>DeviceExtension</i> or <i>Srb-&gt;SrbExtension</i>.  Because <b>HwStorBuildIo</b> is called without spin locks, the best driver performance is achieved by preparing as much data  as possible in <b>HwStorBuildIo</b>.
+<b>HwStorStartIo</b> initiates an I/O operation. StorPort is designed to use miniport private data that is prepared in <a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a> and stored in either the <i>DeviceExtension</i> or <i>Srb->SrbExtension</i>.  Because <b>HwStorBuildIo</b> is called without spin locks, the best driver performance is achieved by preparing as much data  as possible in <b>HwStorBuildIo</b>.
 
 Storport calls <b>HwStorStartIo</b> in the following ways:
 

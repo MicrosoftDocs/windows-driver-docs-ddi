@@ -112,7 +112,7 @@ At some point, the application queries the statistics and determines the streams
 
 </li>
 <li>
-The application enables the custom frame rate in order to output the frames at the original content frame rate (for example, 60i -&gt; 24p). 
+The application enables the custom frame rate in order to output the frames at the original content frame rate (for example, 60i -> 24p). 
 
 </li>
 </ul>

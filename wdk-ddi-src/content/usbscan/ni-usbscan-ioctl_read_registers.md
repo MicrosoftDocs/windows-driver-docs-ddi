@@ -94,7 +94,7 @@ Size of the output buffer. The value must match the contents of the <b>uLength</
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -131,7 +131,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-<i>pIoBlock</i>-&gt;<b>uLength</b>
+<i>pIoBlock</i>-><b>uLength</b>
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-(<i>pIoBlock</i>-&gt;<b>uLength</b> &gt; 1) ? 0x04 : 0x0C
+(<i>pIoBlock</i>-><b>uLength</b> > 1) ? 0x04 : 0x0C
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-(<b>SHORT</b>)<i>pIoBlock</i>-&gt;<b>uOffset</b>
+(<b>SHORT</b>)<i>pIoBlock</i>-><b>uOffset</b>
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-<i>pIoBlock</i>-&gt;<b>uIndex</b>
+<i>pIoBlock</i>-><b>uIndex</b>
 
 </td>
 </tr>

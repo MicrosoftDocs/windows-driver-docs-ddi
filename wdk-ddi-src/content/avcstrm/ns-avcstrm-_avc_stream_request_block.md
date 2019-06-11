@@ -182,7 +182,7 @@ The AVC_STREAM_REQUEST_BLOCK is the primary structure used by a subunit driver t
 
 Every AV/C stream request is described by this structure. This structure is passed as part of the IRP to <i>avcstrm.sys</i> for service..
 
-To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1</b> member to an allocated and initialized AVC_STREAM_REQUEST_BLOCK that describes the request (functionality) that the subunit driver wants <i>avcstrm.sys</i> to service.
+To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> member to an allocated and initialized AVC_STREAM_REQUEST_BLOCK that describes the request (functionality) that the subunit driver wants <i>avcstrm.sys</i> to service.
 
 
 

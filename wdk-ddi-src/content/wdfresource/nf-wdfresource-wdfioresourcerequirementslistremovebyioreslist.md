@@ -145,8 +145,8 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
             // Stop if this descriptor is the port descriptor
             // that we're looking for.
             //
-            if (descriptor-&gt;Type == CmResourceTypePort) {
-                if ((descriptor-&gt;u.Port.MinimumAddress) == PORT_RANGE_A) {
+            if (descriptor->Type == CmResourceTypePort) {
+                if ((descriptor->u.Port.MinimumAddress) == PORT_RANGE_A) {
                     WdfIoResourceRequirementsListRemoveByIoResList(
                                  RequirementsList,
                                  reslist

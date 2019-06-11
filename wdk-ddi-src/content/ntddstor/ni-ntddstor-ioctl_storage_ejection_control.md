@@ -71,7 +71,7 @@ Prevent removal of the media unless all lock counts are zero.
 
 </li>
 </ol>
-Under normal circumstances, the caller who locked the device using IOCTL_STORAGE_EJECTION_CONTROL, unlocks the device by sending IOCTL_STORAGE_EJECTION_CONTROL again with <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> set to a boolean value of <b>FALSE</b>. However, sometimes the caller fails to unlock the device properly. 
+Under normal circumstances, the caller who locked the device using IOCTL_STORAGE_EJECTION_CONTROL, unlocks the device by sending IOCTL_STORAGE_EJECTION_CONTROL again with <b>Irp->AssociatedIrp.SystemBuffer</b> set to a boolean value of <b>FALSE</b>. However, sometimes the caller fails to unlock the device properly. 
 
 To ensure that media removal locks are released properly, the class driver keeps track of callers who lock the media with IOCTL_STORAGE_EJECTION_CONTROL. If the caller terminates without unlocking the device, the class driver unlocks the device.
 
@@ -85,7 +85,7 @@ To ensure that media removal locks are released properly, the class driver keeps
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the driver should lock the media in the drive.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a Boolean value, with <b>TRUE</b> indicating that the driver should lock the media in the drive.
 
 
 ### -input-buffer-length

@@ -107,7 +107,7 @@ An invalid parameter was passed in.
 </dl>
 </td>
 <td width="60%">
-The call was made at IRQL &gt; DISPATCH_LEVEL.
+The call was made at IRQL > DISPATCH_LEVEL.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ There were insufficient system resources to complete the request.
 </dl>
 </td>
 <td width="60%">
-An unsupported (for example, more current) version of the STOR_LOG_EVENT_DETAILS structure was specified. When this is returned, LogDetails-&gt;InterfaceRevision is set to the latest supported version.
+An unsupported (for example, more current) version of the STOR_LOG_EVENT_DETAILS structure was specified. When this is returned, LogDetails->InterfaceRevision is set to the latest supported version.
 
 </td>
 </tr>

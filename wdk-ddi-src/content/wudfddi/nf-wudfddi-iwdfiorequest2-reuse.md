@@ -103,8 +103,8 @@ CMyRemoteDevice::OnCompletion(
     )
 {
 ...
-    CComQIPtr&lt;IWDFIoRequest2&gt; fxRequest2(FxRequest);
-    fxRequest2-&gt;Reuse(S_OK);
+    CComQIPtr&lt;IWDFIoRequest2> fxRequest2(FxRequest);
+    fxRequest2->Reuse(S_OK);
 ...
 }</pre>
 </td>

@@ -113,21 +113,21 @@ D3DCAPS8 myD3DCaps8 = { ... };
 DWORD CALLBACK
 DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
 {
-  if (MATCH_GUID((lpData-&gt;guidInfo), GUID_GetDriverInfo2))
+  if (MATCH_GUID((lpData->guidInfo), GUID_GetDriverInfo2))
   {
     ASSERT(NULL != lpData);
-    ASSERT(NULL != lpData-&gt;lpvData);
+    ASSERT(NULL != lpData->lpvData);
 
     // Is this a call to GetDriverInfo2 or DDStereoMode?
- if (((DD_GETDRIVERINFO2DATA*)(lpData-&gt;lpvData))-&gt;dwMagic
+ if (((DD_GETDRIVERINFO2DATA*)(lpData->lpvData))->dwMagic
       == D3DGDI2_MAGIC)
  {
       // Yes, it's a call to GetDriverInfo2, fetch the
  // DD_GETDRIVERINFO2DATA data structure.
-      DD_GETDRIVERINFO2DATA* pgdi2 = lpData-&gt;lpvData;
+      DD_GETDRIVERINFO2DATA* pgdi2 = lpData->lpvData;
  ASSERT(NULL != pgdi2);
       // What type of request is this?
-      switch (pgdi2-&gt;dwType)
+      switch (pgdi2->dwType)
       {
         case D3DGDI2_TYPE_GETD3DCAPS8:
         {
@@ -137,10 +137,10 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
           // DD_GETDRIVERINFODATA is not used for
           // GetDriverInfo2 calls and should be ignored.
           size_t copySize = min(
-            sizeof(myD3DCaps8), pgdi2-&gt;dwExpectedSize);
-          memcpy(lpData-&gt;lpvData, &myD3DCaps8, copySize);
-          lpData-&gt;dwActualSize = copySize;
-          lpData-&gt;ddRVal       = DD_OK;
+            sizeof(myD3DCaps8), pgdi2->dwExpectedSize);
+          memcpy(lpData->lpvData, &myD3DCaps8, copySize);
+          lpData->dwActualSize = copySize;
+          lpData->ddRVal       = DD_OK;
           return DDHAL_DRIVER_HANDLED;
         }
         default:
@@ -155,12 +155,12 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
     {
       // It must be a call to request for stereo mode support.
  // Fetch the stereo mode data
-      DD_STEREOMODE* pStereoMode = lpData-&gt;lpvData;
+      DD_STEREOMODE* pStereoMode = lpData->lpvData;
  ASSERT(NULL != pStereoMode);
 
       // Process the stereo mode request...
-      lpData-&gt;dwActualSize = sizeof(DD_STEREOMODE);
-      lpData-&gt;ddRVal       = DD_OK;
+      lpData->dwActualSize = sizeof(DD_STEREOMODE);
+      lpData->ddRVal       = DD_OK;
       return DDHAL_DRIVER_HANDLED;
     }
   }

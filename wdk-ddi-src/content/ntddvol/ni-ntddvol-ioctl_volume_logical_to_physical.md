@@ -63,7 +63,7 @@ The volume manager supports this IOCTL for all types of basic and dynamic volume
 
 ### -input-buffer
 
-Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -76,7 +76,7 @@ Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 The output buffer size must be large enough to hold the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff568024">VOLUME_PHYSICAL_OFFSETS</a>, which contains a variable-length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>. 
 
-The volume manager returns one or more physical offsets and disk numbers in the VOLUME_PHYSICAL_OFFSETS structure at the beginning of the buffer, at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The volume manager returns one or more physical offsets and disk numbers in the VOLUME_PHYSICAL_OFFSETS structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -113,7 +113,7 @@ If the operation is successful, the <b>Status</b> member is set to STATUS_SUCCES
 
 #### -STATUS_BUFFER_TOO_SMALL
 
-The output buffer is too small. The volume manager sets the <b>Irp-&gt;IoStatus.Information</b> member to the size of the output buffer the caller should have provided. 
+The output buffer is too small. The volume manager sets the <b>Irp->IoStatus.Information</b> member to the size of the output buffer the caller should have provided. 
 
 
 #### -STATUS_INVALID_PARAMETER

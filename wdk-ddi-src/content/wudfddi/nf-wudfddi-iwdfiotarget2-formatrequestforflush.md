@@ -129,27 +129,27 @@ CMyQueue::OnDefaultIoHandler(
     //
     // Obtain the device, default I/O target, and file object.
     //
-    pQueue-&gt;GetDevice(&pDevice);
-    pDevice-&gt;GetDefaultIoTarget(&pTarget);
-    pRequest-&gt;GetFileObject(&pFile);
+    pQueue->GetDevice(&pDevice);
+    pDevice->GetDefaultIoTarget(&pTarget);
+    pRequest->GetFileObject(&pFile);
 
-    if (WdfRequestFlushBuffers==pRequest-&gt;GetType())
+    if (WdfRequestFlushBuffers==pRequest->GetType())
     {
         // 
         // Declare an IWDFIoTarget2 interface pointer and obtain the
         // IWDFIoTarget2 interface from the IWDFIoTarget interface.
         //
-        CComQIPtr&lt;IWDFIoTarget2&gt; target2(pTarget);
+        CComQIPtr&lt;IWDFIoTarget2> target2(pTarget);
 
         //
         // Format a flush request and send it to the I/O target.
         //
-        hr = target2-&gt;FormatRequestForFlush(pRequest, 
+        hr = target2->FormatRequestForFlush(pRequest, 
                                             pFile);
 
         if (SUCCEEDED(hr))
         {
-            hr = pRequest-&gt;Send(pTarget,
+            hr = pRequest->Send(pTarget,
                                 WDF_REQUEST_SEND_OPTION_SYNCHRONOUS,
                                 0);
         }

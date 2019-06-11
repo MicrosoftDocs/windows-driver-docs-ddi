@@ -94,7 +94,7 @@ Size of the output buffer.
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -132,9 +132,9 @@ Cmd.pSrbStatus = &SrbStatus;
 Cmd.pSenseBuffer = SenseBuffer;
 
 Cmd.Cdb[0] = 0x0A;
-Cmd.Cdb[4] = ((PFOUR_BYTE)&len) -&gt; Byte0;
-Cmd.Cdb[3] = ((PFOUR_BYTE)&len) -&gt; Byte1;
-Cmd.Cdb[2] = ((PFOUR_BYTE)&len) -&gt; Byte2;
+Cmd.Cdb[4] = ((PFOUR_BYTE)&len) -> Byte0;
+Cmd.Cdb[3] = ((PFOUR_BYTE)&len) -> Byte1;
+Cmd.Cdb[2] = ((PFOUR_BYTE)&len) -> Byte2;
 Cmd.Cdb[5] = 0;
 
 DeviceIoControl(

@@ -110,7 +110,7 @@ Certain kernel-mode components can call this synchronous routine. For example, a
 
 The custom notification structure contains a driver-defined event with its own GUID. Driver writers can generate GUIDs with Uuidgen.exe or Guidgen.exe (which are included in the Microsoft Windows SDK).
 
-Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread. To report a target device change from IRQL &gt; PASSIVE_LEVEL, call <b>IoReportTargetDeviceChangeAsynchronous</b>.
+Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread. To report a target device change from IRQL > PASSIVE_LEVEL, call <b>IoReportTargetDeviceChangeAsynchronous</b>.
 
 <b>IoReportTargetDeviceChange</b> is not supported on Windows 98/Me; it returns STATUS_NOT_IMPLEMENTED.
 

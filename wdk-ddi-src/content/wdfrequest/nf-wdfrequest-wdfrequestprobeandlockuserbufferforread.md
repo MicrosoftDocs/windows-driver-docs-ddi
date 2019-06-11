@@ -276,7 +276,7 @@ NonPnpEvtIoInCallerContext(
                                                      Request,
                                                      inBuf,
                                                      inBufLen,
-                                                     &reqContext-&gt;InputMemoryBuffer
+                                                     &reqContext->InputMemoryBuffer
                                                      );
     if(!NT_SUCCESS(status)) {
         goto End;
@@ -286,7 +286,7 @@ NonPnpEvtIoInCallerContext(
                                                       Request,
                                                       outBuf,
                                                       outBufLen,
-                                                      &reqContext-&gt;OutputMemoryBuffer
+                                                      &reqContext->OutputMemoryBuffer
                                                       );
     if(!NT_SUCCESS(status)) {
         goto End;

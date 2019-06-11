@@ -421,7 +421,7 @@ CallbackCheckForInfo1(
     // in the request object's context space.
     //
     reqContext = GetRequestContext(Request);
-    if (reqContext-&gt;ContextInfo1 == DataToBeMatched) {
+    if (reqContext->ContextInfo1 == DataToBeMatched) {
         return TRUE;
     }
     else {

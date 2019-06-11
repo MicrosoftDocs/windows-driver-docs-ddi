@@ -63,7 +63,7 @@ Specifies which allocated channel to release.
 
 
 
-If successful, the bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS, and the isochronous channel is returned to the pool of available channels.
+If successful, the bus driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS, and the isochronous channel is returned to the pool of available channels.
 
 
 

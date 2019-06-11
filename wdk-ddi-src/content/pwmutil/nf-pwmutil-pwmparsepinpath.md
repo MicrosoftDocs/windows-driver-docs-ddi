@@ -119,7 +119,7 @@ The specified pin path pointer is invalid or its Unicode string is
 
 
 
-The pin path must be a Unicode character string that ends in the pin number as follows: <i>...\&lt;PinNumber&gt;</i>.
+The pin path must be a Unicode character string that ends in the pin number as follows: <i>...\&lt;PinNumber></i>.
 
 
 

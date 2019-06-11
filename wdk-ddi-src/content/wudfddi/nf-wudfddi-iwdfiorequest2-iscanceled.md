@@ -99,9 +99,9 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 </tr>
 <tr>
 <td>
-<pre>if (fxRequest2-&gt;IsCanceled())
+<pre>if (fxRequest2->IsCanceled())
 {
-    fxRequest2-&gt;Complete(HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED));
+    fxRequest2->Complete(HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED));
 }
 ...</pre>
 </td>

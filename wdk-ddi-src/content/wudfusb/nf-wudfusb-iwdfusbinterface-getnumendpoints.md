@@ -86,23 +86,23 @@ The following code example retrieves the number of pipes on a USB interface and 
 <td>
 <pre> HRESULT  hr;
  UCHAR  NumEndPoints;
- NumEndPoints = pIUsbInterface-&gt;GetNumEndPoints();
+ NumEndPoints = pIUsbInterface->GetNumEndPoints();
 
  if (NumEndPoints != NUM_OSRUSB_ENDPOINTS) {
      hr = E_UNEXPECTED;
  }
  if (SUCCEEDED(hr))  {
      for (UCHAR PipeIndex = 0; PipeIndex &lt; NumEndPoints; PipeIndex++) {
-     hr = pIUsbInterface-&gt;RetrieveUsbPipeObject(PipeIndex, 
+     hr = pIUsbInterface->RetrieveUsbPipeObject(PipeIndex, 
                                                 &pIUsbPipe);
      if (FAILED(hr)) {
         // Output an error.
      }
      else {
-         if ( pIUsbPipe-&gt;IsInEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) ) {
+         if ( pIUsbPipe->IsInEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe->GetType()) ) {
              pIUsbInputPipe = pIUsbPipe;
          }
-         else if ( pIUsbPipe-&gt;IsOutEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe-&gt;GetType()) )
+         else if ( pIUsbPipe->IsOutEndPoint() && (UsbdPipeTypeBulk == pIUsbPipe->GetType()) )
          {
               pIUsbOutputPipe = pIUsbPipe;
          }

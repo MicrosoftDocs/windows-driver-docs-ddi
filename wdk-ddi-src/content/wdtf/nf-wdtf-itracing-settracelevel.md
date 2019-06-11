@@ -93,14 +93,14 @@ The following code example demonstrates how to use the <b>SetTraceLevel</b> meth
 '
 Set Action = CDROM.GetInterface("DeviceManagement")
  
-If Err.number &lt;&gt; 0 Then
+If Err.number &lt;> 0 Then
     WScript.Echo Space(4) & "Failed to get interface DeviceManagement. Error Number:" & Err.number
 Else            
     '
     ' Set the tracing level to HIGH
     '
     Action.SetTraceLevel(Trace3_High)
-    If Err.number &lt;&gt; 0 Then
+    If Err.number &lt;> 0 Then
         WScript.Echo Space(4) & "Failed to set tracing level to 'High'. Error Number:" & Err.number
     End If
 
@@ -111,7 +111,7 @@ Else
  
     Action.Disable()
  
-    If Err.number &lt;&gt; 0 Then
+    If Err.number &lt;> 0 Then
         WScript.Echo Space(4) & "Failed to disable the specified CDROM. Error     Number:" & Err.number & vbcrlf
     Else
         WScript.Echo Space(4) & "Specified CDROM successfully disabled." & vbcrlf
@@ -136,7 +136,7 @@ VariantInit(&vtEmpty);
 //
 // Get DeviceManagement Action interface
 //
-hr = pCDROM-&gt;GetInterface(L"DeviceManagement", vtEmpty, vtEmpty, (IAction**)(&pDevMan));
+hr = pCDROM->GetInterface(L"DeviceManagement", vtEmpty, vtEmpty, (IAction**)(&pDevMan));
 if(FAILED(hr))
 {
     _tprintf(_T("\n  Failed to get DeviceManagement Interface for specified CDROM Device. Error: 0x%x"), hr);
@@ -146,7 +146,7 @@ if(FAILED(hr))
 //
 // Set the trace level to High
 //
-hr = pDevMan-&gt;SetTraceLevel(Trace3_High);
+hr = pDevMan->SetTraceLevel(Trace3_High);
 if(FAILED(hr))
 {
     _tprintf(_T("\n  Failed to set tracing level to 'High'. Error: 0x%x"), hr);
@@ -157,7 +157,7 @@ if(FAILED(hr))
 //
 _tprintf(_T("\n  Trying to disable device..."));
 
-hr = pDevMan-&gt;Disable();
+hr = pDevMan->Disable();
 if(FAILED(hr))
 {
     _tprintf(_T("\n  Failed to disable the specified CDROM. Error: 0x%x"), hr);

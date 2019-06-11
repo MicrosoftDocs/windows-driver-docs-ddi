@@ -96,7 +96,7 @@ This remote directory does not exist.
 
 
 
-<i>MRxIsValidDirectory</i> is called as part of create or open request processing for the remaining name string beyond the V_NET_ROOT structure, if the <b>IrpSp-&gt;Parameters.Create.Options</b> member has the FILE_CREATE_TREE_CONNECTION bit set on. 
+<i>MRxIsValidDirectory</i> is called as part of create or open request processing for the remaining name string beyond the V_NET_ROOT structure, if the <b>IrpSp->Parameters.Create.Options</b> member has the FILE_CREATE_TREE_CONNECTION bit set on. 
 
 
 

@@ -110,19 +110,19 @@ Return Value:
 
     ControllerContext = DeviceGetControllerContext(Device);
 
-    if (PreviousState &gt; WdfPowerDeviceD1) { 
+    if (PreviousState > WdfPowerDeviceD1) { 
         DevicePerformSoftReset(Device);
 
-        WdfWaitLockAcquire(ControllerContext-&gt;InitializeDefaultEndpointLock, NULL);
-        ControllerContext-&gt;InitializeDefaultEndpoint = TRUE;
-        WdfWaitLockRelease(ControllerContext-&gt;InitializeDefaultEndpointLock);
+        WdfWaitLockAcquire(ControllerContext->InitializeDefaultEndpointLock, NULL);
+        ControllerContext->InitializeDefaultEndpoint = TRUE;
+        WdfWaitLockRelease(ControllerContext->InitializeDefaultEndpointLock);
     }
 
     if (PreviousState == WdfPowerDeviceD3Final) {
         //
         // Notify UFX that HW is now ready
         //
-        UfxDeviceNotifyHardwareReady(ControllerContext-&gt;UfxDevice);
+        UfxDeviceNotifyHardwareReady(ControllerContext->UfxDevice);
     }
 
     TraceExit();

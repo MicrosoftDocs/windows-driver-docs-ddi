@@ -60,7 +60,7 @@ Clients that have registered a device interface of type MOUNTDEV_MOUNTED_DEVICE_
 
 ### -input-buffer
 
-The mount manager client loads the following structure with the nonpersistent target device name. The initialized structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562289">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager client loads the following structure with the nonpersistent target device name. The initialized structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562289">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length

@@ -119,9 +119,9 @@ RtlInitUnicodeString(
                      );
 
 status = WdfIoTargetCreate(
-                           Adapter-&gt;WdfDevice,
+                           Adapter->WdfDevice,
                            WDF_NO_OBJECT_ATTRIBUTES,
-                           &Adapter-&gt;IoTarget
+                           &Adapter->IoTarget
                            );
 if (!NT_SUCCESS(status)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetCreate failed 0x%x\n", status));
@@ -135,7 +135,7 @@ WDF_IO_TARGET_OPEN_PARAMS_INIT_CREATE_BY_NAME(
                                               );
 
 status = WdfIoTargetOpen(
-                         Adapter-&gt;IoTarget,
+                         Adapter->IoTarget,
                          &openParams
                          );
 if (!NT_SUCCESS(status)) {

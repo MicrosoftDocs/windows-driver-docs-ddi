@@ -225,7 +225,7 @@ PciDrvEvtIoDeviceControl(
         case IOCTL_NDISPROT_INDICATE_STATUS:
             status = WdfRequestForwardToIoQueue(
                                                 Request,
-                                                fdoData-&gt;PendingIoctlQueue
+                                                fdoData->PendingIoctlQueue
                                                 );
             if(!NT_SUCCESS(status)){
                 WdfRequestComplete(

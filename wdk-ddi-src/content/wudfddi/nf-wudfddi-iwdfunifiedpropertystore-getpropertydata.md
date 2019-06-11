@@ -195,7 +195,7 @@ GetFriendlyName(
     BYTE * friendlyNameBuffer = NULL;
     ULONG friendlyNameBufferSize;
 
-    hr = pUnifiedPropertyStore-&gt;GetPropertyData(
+    hr = pUnifiedPropertyStore->GetPropertyData(
             &DEVPKEY_Device_FriendlyName,
             0, //Lcid
             0, //Flags
@@ -231,7 +231,7 @@ GetFriendlyName(
         goto exit;
     }
     
-    hr = pUnifiedPropertyStore-&gt;GetPropertyData(
+    hr = pUnifiedPropertyStore->GetPropertyData(
             &DEVPKEY_Device_FriendlyName,
             0, //Lcid
             0, //Flags

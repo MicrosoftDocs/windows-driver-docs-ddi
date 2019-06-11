@@ -94,7 +94,7 @@ The user-mode display driver assigns an allocation to either a resource or a dev
 
 If the user-mode display driver places a resource handle in a command buffer, the display miniport driver can retrieve the private data by calling <a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a>. The display miniport driver can also enumerate all of the resource's child allocations by calling the <a href="https://msdn.microsoft.com/36307e63-9e94-4441-92c6-fd4293ea8fa9">DxgkCbEnumHandleChildren</a> function.
 
-Beginning with Windows 7, if a display miniport driver processes a call to the <i>DxgkDdiCreateAllocation</i> function to create allocations for GDI hardware acceleration, the driver should set the size of the allocation (including the pitch value for CPU visible allocations), <i>pCreateAllocation</i>-&gt;<b>pAllocationInfo</b>-&gt;<b>Size</b>.
+Beginning with Windows 7, if a display miniport driver processes a call to the <i>DxgkDdiCreateAllocation</i> function to create allocations for GDI hardware acceleration, the driver should set the size of the allocation (including the pitch value for CPU visible allocations), <i>pCreateAllocation</i>-><b>pAllocationInfo</b>-><b>Size</b>.
 
 The resources that are created in the <i>DxgkDdiCreateAllocation</i> call belong to the adapter and not to the device. The display miniport driver should not reference the device data anywhere within the private allocation and resource data structures. Because of surface sharing, a resource might be in use after the destruction of the device that the user-mode display driver created the resource from. 
 

@@ -79,7 +79,7 @@ Pointer to the minidriver-supplied context buffer attached to the frame when the
 
 ### -param Status [in]
 
-Contains a copy of <i>Irp-&gt;IoStatus.Status</i> for the IRP to which the requested frame was attached.
+Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requested frame was attached.
 
 
 #### - Size [in, optional]

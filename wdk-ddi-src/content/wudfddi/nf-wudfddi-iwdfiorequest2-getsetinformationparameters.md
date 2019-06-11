@@ -105,17 +105,17 @@ CMyQueue::OnDefaultIoHandler(
     SIZE_T bufSize;
     PFILE_BASIC_INFORMATION buffer;
 
- if (WdfRequestQueryInformation==pRequest-&gt;GetType())
+ if (WdfRequestQueryInformation==pRequest->GetType())
     {
         //
         // Declare an IWDFIoRequest2 interface pointer and obtain the
         // IWDFIoRequest2 interface from the IWDFIoRequest interface.
         //
-        CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pRequest;
+        CComQIPtr&lt;IWDFIoRequest2> r2 = pRequest;
         // 
         // Get the I/O request's parameters.
         // 
-        r2-&gt;GetSetInformationParameters(&infoClass,
+        r2->GetSetInformationParameters(&infoClass,
                                         &bufSize);
         // 
         // This driver supports only FileBasicInformation.
@@ -136,7 +136,7 @@ CMyQueue::OnDefaultIoHandler(
         // 
         // Get input buffer.
         // 
- hr = r2-&gt;RetrieveInputBuffer(sizeof(FILE_BASIC_INFORMATION), 
+ hr = r2->RetrieveInputBuffer(sizeof(FILE_BASIC_INFORMATION), 
                               (PVOID*) &buffer,
                               &bufferCb);
  if (SUCCEEDED(hr))

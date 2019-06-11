@@ -84,7 +84,7 @@ The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN
 
 For more information about the analysis that this function must perform, see <a href="https://msdn.microsoft.com/ebf001fb-e445-4534-8e89-60e1b06b2d6e">Determining Whether a VidPN is Supported on a Display Adapter</a><u>.</u>
 
-If pIsSupportedVidPnArg-&gt;hDesiredVidPn is zero, <i>DxgkDdiIsSupportedVidPn</i> must set pIsSupportedVidPnArg-&gt;IsVidPnSupported to <b>TRUE</b>, the idea being that the display adapter can always be configured to display nothing.
+If pIsSupportedVidPnArg->hDesiredVidPn is zero, <i>DxgkDdiIsSupportedVidPn</i> must set pIsSupportedVidPnArg->IsVidPnSupported to <b>TRUE</b>, the idea being that the display adapter can always be configured to display nothing.
 
 <i>DxgkDdiIsSupportedVidPn</i> should be made pageable.
 

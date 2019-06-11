@@ -597,8 +597,8 @@ Indicates that the <b>dpwszFamilyName</b> offset in PRINTIFI32 is actually the o
 
 
 <dl>
-<dt>&lt;base name&gt; &lt;0&gt; &lt;alias 1&gt; &lt;0&gt;...&lt;alias n&gt;</dt>
-<dt>&lt;0&gt; &lt;0&gt;</dt>
+<dt>&lt;base name> &lt;0> &lt;alias 1> &lt;0>...&lt;alias n></dt>
+<dt>&lt;0> &lt;0></dt>
 </dl>
 
 

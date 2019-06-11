@@ -137,7 +137,7 @@ MyEvtDevicePrepareHardware(
 
     // If object handle is not NULL, MyEvtDevicePrepareHardware
     // was called previously and the handle is still valid.
-    if (pMyDeviceContext-&gt;UsbDevice != NULL) {
+    if (pMyDeviceContext->UsbDevice != NULL) {
         return STATUS_SUCCESS;
     }
 
@@ -150,7 +150,7 @@ MyEvtDevicePrepareHardware(
                                       Device,
                                       &Config,
                                       WDF_NO_OBJECT_ATTRIBUTES,
-                                      &pMyDeviceContext-&gt;UsbDevice
+                                      &pMyDeviceContext->UsbDevice
                                       );
     if (!NT_SUCCESS(status)) {
         return status;
@@ -159,7 +159,7 @@ MyEvtDevicePrepareHardware(
     WDF_USB_DEVICE_INFORMATION_INIT(&deviceInfo);
 
     status = WdfUsbTargetDeviceRetrieveInformation(
-                                      pDeviceContext-&gt;UsbDevice, 
+                                      pDeviceContext->UsbDevice, 
                                       &deviceInfo
                                       );
 ...

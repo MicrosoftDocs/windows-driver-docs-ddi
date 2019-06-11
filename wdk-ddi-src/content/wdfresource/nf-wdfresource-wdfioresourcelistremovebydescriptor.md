@@ -125,8 +125,8 @@ for (j = 0; j &lt; resCount; j++) {
     // Stop if this descriptor is the port descriptor that
     // we're looking for, and remove the descriptor.
     //
-    if (descriptor-&gt;Type == CmResourceTypePort) {
-        if ((descriptor-&gt;u.port.MinimumAddress) == PORT_RANGE_A) {
+    if (descriptor->Type == CmResourceTypePort) {
+        if ((descriptor->u.port.MinimumAddress) == PORT_RANGE_A) {
                WdfIoResourceListRemoveByDescriptor(
                                                    Reslist,
                                                    descriptor

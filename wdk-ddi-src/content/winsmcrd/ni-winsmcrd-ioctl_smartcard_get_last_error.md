@@ -59,7 +59,7 @@ The IOCTL_SMARTCARD_GET_LAST_ERROR request retrieves the error code of the most 
 
 ### -input-buffer
 
-<i>DiocParams-&gt;cbOutBuffer</i>
+<i>DiocParams->cbOutBuffer</i>
 
 Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
 
@@ -75,11 +75,11 @@ Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
 
 ### -output-buffer
 
-<i>DiocParams-&gt;lpvOutBuffer</i>
+<i>DiocParams->lpvOutBuffer</i>
 
 Receives the error code.
 
-<i>DiocParams-&gt;lpcbBytesReturned</i>
+<i>DiocParams->lpcbBytesReturned</i>
 
 Must be set to <b>sizeof</b>(ULONG).
 
@@ -113,7 +113,7 @@ Must be set to <b>sizeof</b>(ULONG).
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful, and must be returned when using this IOCTL. 
+<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful, and must be returned when using this IOCTL. 
 
 Be aware that when your driver uses the smart card driver library, you should store the result of the most previously overlapped operation in the smart card extension. ion. The library will use your stored value to answer this call automatically.
 

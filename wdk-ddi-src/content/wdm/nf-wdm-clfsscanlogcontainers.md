@@ -75,7 +75,7 @@ CLFS_SCAN_FORWARD
 
 </td>
 <td>
-Scan in the forward direction. For example, if container 5 is the most recently scanned container and <i>pxcScan</i>-&gt;<b>cContainers</b> is equal to two, this routine will return descriptors for containers 6 and 7.
+Scan in the forward direction. For example, if container 5 is the most recently scanned container and <i>pxcScan</i>-><b>cContainers</b> is equal to two, this routine will return descriptors for containers 6 and 7.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ CLFS_SCAN_BACKWARD
 
 </td>
 <td>
-Scan in the backward direction. For example, if container 5 is the most recently scanned container and <i>pxcScan</i>-&gt;<b>cContainers</b> is equal to two, this routine will return descriptors for containers 4 and 3.
+Scan in the backward direction. For example, if container 5 is the most recently scanned container and <i>pxcScan</i>-><b>cContainers</b> is equal to two, this routine will return descriptors for containers 4 and 3.
 
 </td>
 </tr>

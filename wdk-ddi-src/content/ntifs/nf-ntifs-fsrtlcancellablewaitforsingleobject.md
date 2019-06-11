@@ -195,7 +195,7 @@ BOOLEAN  Cancelled;
 KeInitializeEvent( &Event,
             SynchronizationEvent,
     FALSE );
-pContext-&gt;pEvent = &Event; // Driver specific context structure.
+pContext->pEvent = &Event; // Driver specific context structure.
  IoSetCompletionRoutine( pAdditionalIrp,
  FunctionCompletionRoutine,
  pContext,
@@ -243,7 +243,7 @@ pContext-&gt;pEvent = &Event; // Driver specific context structure.
 }
  //
  // IRP is valid and needs to be handled here.
- // pAdditionalIrp-&gt;IoStatus.Status contains the status of the IRP.
+ // pAdditionalIrp->IoStatus.Status contains the status of the IRP.
  // Finally, pOriginal IRP needs to be completed appropriately as well.
  //
 }
@@ -257,8 +257,8 @@ FunctionCompletionRoutine(
   INOUT PIRP  pAdditionalIrp,
   IN PVOID  pContext)
 {
- if (pAdditionalIrp-&gt;PendingReturned) {
- KeSetEvent( pContext-&gt;pEvent, 0, FALSE );
+ if (pAdditionalIrp->PendingReturned) {
+ KeSetEvent( pContext->pEvent, 0, FALSE );
 }
 
  //

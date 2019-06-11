@@ -164,14 +164,14 @@ WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);
 objectAttribs.ParentObject = UsbDevice;
 
 status = WdfUsbTargetDeviceCreateUrb(
-                                     pDevContext-&gt;WdfUsbTargetDevice,  
+                                     pDevContext->WdfUsbTargetDevice,  
                                      &objectAttribs,  
                                      &memory,  
                                      &urb  
                                      ); 
  
 status = WdfUsbTargetDeviceFormatRequestForUrb(
-                                               deviceContext-&gt;WdfUsbTargetDevice,
+                                               deviceContext->WdfUsbTargetDevice,
                                                request,
                                                memory,
                                                NULL

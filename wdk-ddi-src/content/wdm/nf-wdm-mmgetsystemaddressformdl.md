@@ -68,7 +68,7 @@ Pointer to a buffer whose corresponding base virtual address is to be mapped.
 
 
 
-Drivers of PIO devices call this routine to translate a virtual address range, described by the MDL at <b>Irp-&gt;MdlAddress</b>, for a user buffer to a system-space address range.
+Drivers of PIO devices call this routine to translate a virtual address range, described by the MDL at <b>Irp->MdlAddress</b>, for a user buffer to a system-space address range.
 
 The MDL must describe nonpageable memory. In other words, the input MDL must describe an already locked-down user-space buffer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>, a locked-down buffer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554498">MmBuildMdlForNonPagedPool</a>, or system-space memory allocated from nonpaged pool, contiguous memory, or noncached memory.
 

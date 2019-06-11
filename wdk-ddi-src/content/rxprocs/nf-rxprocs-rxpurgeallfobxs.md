@@ -82,11 +82,11 @@ On checked builds, <b>RxPurgeAllFobxs</b> causes the system to ASSERT for a numb
 
 <ul>
 <li>
-The <b>Flink</b> member of <i>RxScavenger-&gt;ClosePendingFobxsList</i> structure on the <b>RxDeviceObject</b> is <b>NULL</b>.
+The <b>Flink</b> member of <i>RxScavenger->ClosePendingFobxsList</i> structure on the <b>RxDeviceObject</b> is <b>NULL</b>.
 
 </li>
 <li>
-<i>Fobx-&gt;NodeTypeCode</i> is not RDBSS_NTC_FOBX.
+<i>Fobx->NodeTypeCode</i> is not RDBSS_NTC_FOBX.
 
 </li>
 <li>

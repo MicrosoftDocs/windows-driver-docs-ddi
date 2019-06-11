@@ -140,27 +140,27 @@ CUmdfHidDevice::OnCompletion(
 {
     ULONG_PTR bytesRead;
 
- if (!SUCCEEDED(WdfCompletionParams-&gt;GetCompletionStatus()))
+ if (!SUCCEEDED(WdfCompletionParams->GetCompletionStatus()))
     {
-        m_WdfDevice-&gt;SetPnpState(WdfPnpStateFailed, WdfTrue);
-        m_WdfDevice-&gt;CommitPnpState();
+        m_WdfDevice->SetPnpState(WdfPnpStateFailed, WdfTrue);
+        m_WdfDevice->CommitPnpState();
         return;
     }
 
     // Lock the device to prevent files from closing.
-    m_WdfDevice-&gt;AcquireLock();
+    m_WdfDevice->AcquireLock();
 
     // Retrieve the number of bytes that were read.
-    bytesRead = WdfCompletionParams-&gt;GetInformation();
+    bytesRead = WdfCompletionParams->GetInformation();
 
     // Process the reports.
-    ProcessInputReports((PBYTE) m_ReadMemory-&gt;GetDataBuffer(NULL), bytesRead);
+    ProcessInputReports((PBYTE) m_ReadMemory->GetDataBuffer(NULL), bytesRead);
 
-    m_WdfDevice-&gt;ReleaseLock();
+    m_WdfDevice->ReleaseLock();
 
     // Release the request.
     m_InterruptReadRequest = NULL;
-    WdfRequest-&gt;DeleteWdfObject();
+    WdfRequest->DeleteWdfObject();
 
     // Send a new request.
     SendInterruptPipeRead();

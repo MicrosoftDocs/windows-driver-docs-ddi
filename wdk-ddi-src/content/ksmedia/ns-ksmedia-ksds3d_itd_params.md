@@ -95,9 +95,9 @@ The <b>Delay</b> member specifies the amount by which the current channel delays
 The attenuated signal is the sum of the attenuated dry signal and the attenuated wet signal:
 
 <b>TotalDryAttenuation</b>*
-    <i>&lt;dry sample&gt;</i>
+    <i>&lt;dry sample></i>
     +<b>TotalWetAttenuation</b>*
-    <i>&lt;wet sample&gt;</i>
+    <i>&lt;wet sample></i>
 
 Increasing the size of <b>TotalWetAttenuation</b> relative to <b>TotalDryAttenuation</b> produces an increasingly muffled sound. The two attenuation factors are calculated from the sound source's position, orientation, and sound cone.
 

@@ -169,7 +169,7 @@ if (!NT_SUCCESS(status)) {
 status = WdfMemoryCopyFromBuffer(
                                  memoryBuffer,
                                  0,
-                                 deviceContext-&gt;Buffer,
+                                 deviceContext->Buffer,
                                  Length
                                  );
 if (!NT_SUCCESS(status)) {

@@ -90,7 +90,7 @@ The
 While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564539">NdisSetEvent</a> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564526">NdisResetEvent</a> functions ,calling 
-    <b>NdisWaitEvent</b> from any IRQL &gt; PASSIVE_LEVEL is a fatal error.
+    <b>NdisWaitEvent</b> from any IRQL > PASSIVE_LEVEL is a fatal error.
 
 
 

@@ -163,7 +163,7 @@ Reserved. Do not use.
 
 The <b>IsDeviceHighSpeed</b> routine does not indicate whether a device is capable of high-speed operation, but whether it is in fact operating at high speed. 
 
-The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL. 
+The routines in this structure must be callable at IRQL >= DISPATCH_LEVEL. 
 
 
 

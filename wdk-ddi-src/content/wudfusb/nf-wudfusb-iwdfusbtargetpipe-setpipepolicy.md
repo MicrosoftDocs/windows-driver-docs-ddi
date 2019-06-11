@@ -161,7 +161,7 @@ CMyDevice::ConfigureUsbIoTargets(
     ULONG                   length;
 
     length = sizeof(UCHAR);
-    hr = m_pIUsbTargetDevice-&gt;RetrieveDeviceInformation(DEVICE_SPEED, 
+    hr = m_pIUsbTargetDevice->RetrieveDeviceInformation(DEVICE_SPEED, 
                                                         &length,
                                                         &m_Speed);
     if (FAILED(hr)) {
@@ -175,7 +175,7 @@ CMyDevice::ConfigureUsbIoTargets(
     //
     if (SUCCEEDED(hr))  {
        timeout = ENDPOINT_TIMEOUT;
-       hr = m_pIUsbInputPipe-&gt;SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
+       hr = m_pIUsbInputPipe->SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
                                             sizeof(timeout),
                                             &timeout);
        if (FAILED(hr)) {
@@ -184,7 +184,7 @@ CMyDevice::ConfigureUsbIoTargets(
     }
     if (SUCCEEDED(hr))  {
        timeout = ENDPOINT_TIMEOUT;
-       hr = m_pIUsbOutputPipe-&gt;SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
+       hr = m_pIUsbOutputPipe->SetPipePolicy(PIPE_TRANSFER_TIMEOUT,
                                              sizeof(timeout),
                                              &timeout);
        if (FAILED(hr))  {

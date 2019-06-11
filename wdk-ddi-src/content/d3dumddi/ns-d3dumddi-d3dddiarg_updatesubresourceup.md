@@ -66,7 +66,7 @@ The index of the destination subresource to which data is to be copied.
 
 ### -field DstBox
 
-A destination region, of type  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-&gt;<a href="https://msdn.microsoft.com/DA114D60-60EE-4D1D-B42C-A84CE54C8B95">BoxValid</a> is not set, the entire subresource must be updated.
+A destination region, of type  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-><a href="https://msdn.microsoft.com/DA114D60-60EE-4D1D-B42C-A84CE54C8B95">BoxValid</a> is not set, the entire subresource must be updated.
 
 
 ### -field pSysMemUP

@@ -73,7 +73,7 @@ If this member is set, <b>HardwareAccess</b> and <b>ChangeFrameLatency</b> must 
 
 Supported starting with Windows 8.1.
 
-The operating system ignores this member if it is prior to Windows 8.1, or if the user-mode driver was initialized with an <i>OpenAdapterXxx</i> call where the <i>pOpenData</i>-&gt;<b>Interface</b> member indicates Direct3D version 8 or earlier.
+The operating system ignores this member if it is prior to Windows 8.1, or if the user-mode driver was initialized with an <i>OpenAdapterXxx</i> call where the <i>pOpenData</i>-><b>Interface</b> member indicates Direct3D version 8 or earlier.
 
 Setting this member is equivalent to setting the second bit of the 32-bit <b>Value</b> member (0x00000002).
 
@@ -88,7 +88,7 @@ If this member is set, <b>HardwareAccess</b> and <b>DeviceStatusQuery</b> must b
 
 Supported starting with Windows 8.1.
 
-The operating system ignores this member if it is prior to Windows 8.1, or if the user-mode driver was initialized with an <i>OpenAdapterXxx</i> call where the <i>pOpenData</i>-&gt;<b>Interface</b> member indicates Direct3D version 8 or earlier.
+The operating system ignores this member if it is prior to Windows 8.1, or if the user-mode driver was initialized with an <i>OpenAdapterXxx</i> call where the <i>pOpenData</i>-><b>Interface</b> member indicates Direct3D version 8 or earlier.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 

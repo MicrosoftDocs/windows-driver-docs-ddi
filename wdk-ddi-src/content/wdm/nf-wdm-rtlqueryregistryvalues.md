@@ -520,7 +520,7 @@ The value is stored in the memory location specified by <b>EntryContext</b>.
 </tr>
 <tr>
 <td>
-Nonstring data with size, in bytes, &gt; <b>sizeof</b>(ULONG)
+Nonstring data with size, in bytes, > <b>sizeof</b>(ULONG)
 
 </td>
 <td>

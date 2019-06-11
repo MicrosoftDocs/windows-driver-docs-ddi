@@ -186,7 +186,7 @@ WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE(
                                        &attributes,
                                        WORKER_ITEM_CONTEXT
                                        );
-attributes.ParentObject = FdoData-&gt;WdfDevice;
+attributes.ParentObject = FdoData->WdfDevice;
 
 WDF_WORKITEM_CONFIG_INIT(
                          &workitemConfig,

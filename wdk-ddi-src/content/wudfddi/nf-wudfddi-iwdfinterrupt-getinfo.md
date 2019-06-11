@@ -102,7 +102,7 @@ WDF_INTERRUPT_INFO  Info;
 
 WDF_INTERRUPT_INFO_INIT(&Info);
 
-pInterrupt&gt;GetInfo(&Info);
+pInterrupt>GetInfo(&Info);
 </pre>
 </td>
 </tr>

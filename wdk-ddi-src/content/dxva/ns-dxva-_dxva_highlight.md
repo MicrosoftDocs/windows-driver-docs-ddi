@@ -84,7 +84,7 @@ For nonzero values, the specified blend is found using the following expression:
 
 </li>
 <li>
-( ( ( (<i>SampleAlpha4</i> + 1) x (graphic value) ) + ( ( (15 - <i>SampleAlpha4</i>) x (picture value) ) + 8 ) &gt;&gt; 4
+( ( ( (<i>SampleAlpha4</i> + 1) x (graphic value) ) + ( ( (15 - <i>SampleAlpha4</i>) x (picture value) ) + 8 ) >> 4
 
 </li>
 </ul>

@@ -110,7 +110,7 @@ The pointer value in <i>SystemAddress</i> is NULL.
 </dl>
 </td>
 <td width="60%">
-The current IRQL is &gt; DISPATCH_LEVEL.
+The current IRQL is > DISPATCH_LEVEL.
 
 </td>
 </tr>

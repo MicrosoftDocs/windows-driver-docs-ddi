@@ -218,7 +218,7 @@ WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
                                         );
 
 status = WdfDmaTransactionCreate(
-                                 devExt-&gt;DmaEnabler,
+                                 devExt->DmaEnabler,
                                  &attributes,
                                  &dmaTransaction
                                  );

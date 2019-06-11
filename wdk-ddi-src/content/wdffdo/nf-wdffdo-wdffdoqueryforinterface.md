@@ -155,7 +155,7 @@ The following code example is from the <a href="https://docs.microsoft.com/windo
 <pre>status = WdfFdoQueryForInterface(
                                  Device,
                                  &GUID_TOASTER_INTERFACE_STANDARD,
-                                 (PINTERFACE) &fdoData-&gt;BusInterface, // Object context space
+                                 (PINTERFACE) &fdoData->BusInterface, // Object context space
                                  sizeof(TOASTER_INTERFACE_STANDARD),
                                  1,
                                  NULL

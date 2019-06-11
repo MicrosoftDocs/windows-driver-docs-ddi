@@ -217,7 +217,7 @@ MyEvtIoDeviceControl(
         // First, get the size of the USB configuration descriptor.
         //
         status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
-                                                pDevContext-&gt;UsbDevice,
+                                                pDevContext->UsbDevice,
                                                 NULL,
                                                 &requiredSize
                                                 );
@@ -242,7 +242,7 @@ MyEvtIoDeviceControl(
         // Now get the config descriptor.
         //
         status = WdfUsbTargetDeviceRetrieveConfigDescriptor(
-                                                pDevContext-&gt;UsbDevice,
+                                                pDevContext->UsbDevice,
                                                 configurationDescriptor,
                                                 &requiredSize
                                                 );

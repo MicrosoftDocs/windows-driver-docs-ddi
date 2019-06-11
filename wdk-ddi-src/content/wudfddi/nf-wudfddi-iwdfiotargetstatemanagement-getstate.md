@@ -90,7 +90,7 @@ The following code example determines whether a local I/O target is stopped.
 </tr>
 <tr>
 <td>
-<pre>    if (m_pIoTargetInterruptPipeStateMgmt-&gt;GetState() == WdfIoTargetStopped)
+<pre>    if (m_pIoTargetInterruptPipeStateMgmt->GetState() == WdfIoTargetStopped)
     {
     ...
     }

@@ -149,15 +149,15 @@ PD_BUFFER** PostTail = &PostHead;
 PD_BUFFER* DrainHead = NULL;
 PD_BUFFER** DrainTail = &DrainHead;
 
-PD_BUFFER* bufX = &lt;allocated PD_BUFFER&gt;;
+PD_BUFFER* bufX = &lt;allocated PD_BUFFER>;
 
-bufX-&gt;NextPDBuffer = NULL;
+bufX->NextPDBuffer = NULL;
 *PostTail = bufX;
-PostTail = &bufX-&gt;NextPDBuffer;
+PostTail = &bufX->NextPDBuffer;
 
 // BEFORE:
 //PostHead == bufX
-//PostTail == &bufZ-&gt;NextPDBuffer
+//PostTail == &bufZ->NextPDBuffer
 //DrainHead == NULL
 //DrainTail == &DrainHead
 
@@ -169,9 +169,9 @@ NDIS_PD_POST_AND_DRAIN_BUFFER_LIST(
 
 // AFTER:
 //PostHead == bufY
-//PostTail == &bufZ-&gt;NextPDBuffer
+//PostTail == &bufZ->NextPDBuffer
 //DrainHead == buf1
-//DrainTail == &buf5-&gt;NextPDBuffer
+//DrainTail == &buf5->NextPDBuffer
 </pre>
 </td>
 </tr>

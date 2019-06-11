@@ -164,7 +164,7 @@ AmccPciEvtInterruptDpc(
     // Retrieve request and transfer.
     //
     devExt = AmccPciGetDevExt(WdfDevice);
-    request  = devExt-&gt;CurrentRequest;
+    request  = devExt->CurrentRequest;
     transfer = GetRequestContext(request);
 
     //
@@ -177,8 +177,8 @@ AmccPciEvtInterruptDpc(
                     "Aborted DMA transaction 0x%p",
                     request
                     );
-        WdfObjectDelete( transfer-&gt;DmaTransaction );
-        devExt-&gt;CurrentRequest = NULL;
+        WdfObjectDelete( transfer->DmaTransaction );
+        devExt->CurrentRequest = NULL;
         WdfRequestComplete(
                            request,
                            STATUS_CANCELLED
@@ -190,7 +190,7 @@ AmccPciEvtInterruptDpc(
     // Notify the framework that a DMA transfer has completed.
     //
     transactionComplete = WdfDmaTransactionDmaCompleted(
-                                                    transfer-&gt;DmaTransaction,
+                                                    transfer->DmaTransaction,
                                                     &status
                                                     );
     if (transactionComplete) {
@@ -211,7 +211,7 @@ AmccPciEvtInterruptDpc(
         // Get the byte count.
         //
         transferred =
-                WdfDmaTransactionGetBytesTransferred(transfer-&gt;DmaTransaction);
+                WdfDmaTransactionGetBytesTransferred(transfer->DmaTransaction);
 
         TraceEvents(
                     TRACE_LEVEL_INFORMATION,
@@ -223,12 +223,12 @@ AmccPciEvtInterruptDpc(
         //
         // Delete this DmaTransaction object.
         //
-        WdfObjectDelete(transfer-&gt;DmaTransaction);
+        WdfObjectDelete(transfer->DmaTransaction);
 
         //
         // Clean up the device context for this request.
         //
-        devExt-&gt;CurrentRequest = NULL;
+        devExt->CurrentRequest = NULL;
 
         //
         // Complete this I/O request.

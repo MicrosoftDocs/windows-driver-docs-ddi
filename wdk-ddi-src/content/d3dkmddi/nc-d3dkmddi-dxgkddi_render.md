@@ -103,7 +103,7 @@ __try
     for (Index = 0; Index &lt; AllocationListInSize; AllocationTable++, 
            AllocationListIn++, AllocationListOut++, Index++) 
     {
-      D3DKMT_HANDLE AllocationHandle = AllocationListIn-&gt;hAllocation;
+      D3DKMT_HANDLE AllocationHandle = AllocationListIn->hAllocation;
       . . .
     }
   }

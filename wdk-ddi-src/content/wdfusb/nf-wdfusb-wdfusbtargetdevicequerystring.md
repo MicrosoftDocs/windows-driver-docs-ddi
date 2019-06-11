@@ -210,12 +210,12 @@ WDFMEMORY  memoryHandle;
 myDeviceContext = GetDeviceContext(device);
 
 status = WdfUsbTargetDeviceQueryString(
-                                       myDeviceContext-&gt;UsbTargetDevice,
+                                       myDeviceContext->UsbTargetDevice,
                                        NULL,
                                        NULL,
                                        NULL,
                                        &numCharacters,
-                                       myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                       myDeviceContext->UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );
 
@@ -231,12 +231,12 @@ if (!NT_SUCCESS(ntStatus)) {
     return ntStatus;
 }
 status = WdfUsbTargetDeviceQueryString(
-                                       myDeviceContext-&gt;UsbTargetDevice,
+                                       myDeviceContext->UsbTargetDevice,
                                        NULL,
                                        NULL,
                                        stringBuf,
                                        &numCharacters,
-                                       myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                       myDeviceContext->UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );</pre>
 </td>

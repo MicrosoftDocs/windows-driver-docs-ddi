@@ -115,7 +115,7 @@ The  request indicates that the virtualization stack wants to unregister for Plu
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> indicates the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
@@ -131,7 +131,7 @@ The driver that must stop waiting for <a href="https://msdn.microsoft.com/5299ec
 If the driver is currently waiting it should stop waiting and continue
  processing Plug and Play IRPs.
 
-In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver maintains PnP states in its device context. The deviceContext-&gt;PnpRebalancing is set to TRUE, when the driver receives <a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a> and set to FALSE when it receives IRP_MN_START_DEVICE.
+In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives <a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a> and set to FALSE when it receives IRP_MN_START_DEVICE.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -141,11 +141,11 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
 <td>
 <pre>    case IOCTL_SRIOV_DETACH:
 
-        WdfWaitLockAcquire(deviceContext-&gt;PnpStateLock, NULL);
+        WdfWaitLockAcquire(deviceContext->PnpStateLock, NULL);
 
-        deviceContext-&gt;PnpVspAttached = FALSE;
+        deviceContext->PnpVspAttached = FALSE;
 
-        if (deviceContext-&gt;PnpRebalancing != FALSE)
+        if (deviceContext->PnpRebalancing != FALSE)
         {
             //
             // Any new client (VSP state machine) will not know about
@@ -153,8 +153,8 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
             // rebalance is over.
             //
 
-    								deviceContext&gt;PnpSafeToAttach = FALSE;
-    								KeClearEvent(&deviceContext&gt;PnpSafeEvent);
+    								deviceContext>PnpSafeToAttach = FALSE;
+    								KeClearEvent(&deviceContext>PnpSafeEvent);
 
         }
 
@@ -162,10 +162,10 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
         // Unblock the PnP thread if it waiting for an IO control from the
         // client as the client just detached.
         //
-        deviceContext-&gt;PnpEventStatus = STATUS_SUCCESS;
-        KeSetEvent(&deviceContext-&gt;PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
+        deviceContext->PnpEventStatus = STATUS_SUCCESS;
+        KeSetEvent(&deviceContext->PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
 
-        WdfWaitLockRelease(deviceContext-&gt;PnpStateLock);
+        WdfWaitLockRelease(deviceContext->PnpStateLock);
 
         status = STATUS_SUCCESS;
         break;

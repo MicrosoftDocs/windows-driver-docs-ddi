@@ -1,7 +1,7 @@
 ---
 UID: NF:storport.StorPortRegistryReadAdapterKey
 title: StorPortRegistryReadAdapterKey function (storport.h)
-description: The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/...
+description: The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path>/DeviceParameters/...
 old-location: storage\storportregistryreadadapterkey.htm
 tech.root: storage
 ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>StorPortRegistryReadAdapterKey</b> routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... these keys are read from in the <a href="https://msdn.microsoft.com/417a4ab0-9723-4b3b-aa8c-342598874d61">INF DDInstall.HW Section</a>.
+The <b>StorPortRegistryReadAdapterKey</b> routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path>/DeviceParameters/... these keys are read from in the <a href="https://msdn.microsoft.com/417a4ab0-9723-4b3b-aa8c-342598874d61">INF DDInstall.HW Section</a>.
 
 
 ## -parameters

@@ -216,9 +216,9 @@ PURB  pUrb = NULL;
 NTSTATUS status;
 
 pUrb = &urb;
-pUrb-&gt;UrbHeader.Length = (USHORT) sizeof(struct _URB_GET_CURRENT_FRAME_NUMBER);
-pUrb-&gt;UrbHeader.Function = URB_FUNCTION_GET_CURRENT_FRAME_NUMBER;
-pUrb-&gt;UrbGetCurrentFrameNumber.FrameNumber = 0; 
+pUrb->UrbHeader.Length = (USHORT) sizeof(struct _URB_GET_CURRENT_FRAME_NUMBER);
+pUrb->UrbHeader.Function = URB_FUNCTION_GET_CURRENT_FRAME_NUMBER;
+pUrb->UrbGetCurrentFrameNumber.FrameNumber = 0; 
 
 status = WdfUsbTargetPipeSendUrbSynchronously(
                                               Pipe,

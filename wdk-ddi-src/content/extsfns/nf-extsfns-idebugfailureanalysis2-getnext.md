@@ -84,11 +84,11 @@ If the <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14"
 
 This method searches for an <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure that satisfies this condition:
 
-entry-&gt;Tag & <i>TagMask</i> == <i>Tag</i>
+entry->Tag & <i>TagMask</i> == <i>Tag</i>
 
 Tags are defined in extsfns.h as values of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991806">DEBUG_FLR_PARAM_TYPE</a> enumeration, which is also called the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The tags are arranged in groups so that you can use <i>TagMask</i> to search within a particular group. For example there is a group of tags related to pool errors. The numerical values assigned to the tags in this group are in the range 0x400, 0x401 ... 0x406. Every <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> that has a tag in this group satisfies the following condition:
 
-<code>entry-&gt;Tag & 0xFFFFFF00 == 0x400</code>
+<code>entry->Tag & 0xFFFFFF00 == 0x400</code>
 
 The following code snippet shows a portion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
@@ -128,13 +128,13 @@ The following example shows how to find all failure analysis entries that have a
 </tr>
 <tr>
 <td>
-<pre>FA_ENTRY entry = pAnalysis-&gt;Get(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT);
+<pre>FA_ENTRY entry = pAnalysis->Get(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT);
 
 while(NULL != entry)
 {
    // Do something with the entry.
 
-   entry = pAnalysis-&gt;GetNext(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT, DEBUG_FLR_MASK_ALL);
+   entry = pAnalysis->GetNext(DEBUG_FLR_MANAGED_EXCEPTION_OBJECT, DEBUG_FLR_MASK_ALL);
 }</pre>
 </td>
 </tr>
@@ -149,13 +149,13 @@ The following example shows how to find all FA entries that have tags in the Poo
 </tr>
 <tr>
 <td>
-<pre>FA_ENTRY entry = pAnalysis-&gt;GetNext(NULL, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
+<pre>FA_ENTRY entry = pAnalysis->GetNext(NULL, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
 
 while(NULL != entry)
 {
    // Do something with the entry.
 
-   entry = pAnalysis-&gt;GetNext(entry, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
+   entry = pAnalysis->GetNext(entry, (FA_TAG)0x400, (FA_TAG)0xFFFFFF00);
 }</pre>
 </td>
 </tr>
@@ -166,7 +166,7 @@ You can create your own custom tags in the range 0xA0000001 through 0xAFFFFFFF.
 
 The following example shows how to find all failure analysis entries that have custom tags. In other words, the code finds all entries with tags that satisfy this condition:
 
-<code>entry-&gt;Tag & 0xF0000000 == 0xA0000000</code>
+<code>entry->Tag & 0xF0000000 == 0xA0000000</code>
 
 Entries that have tags 0xA0000001, 0xA0000002, ... 0xAFFFFFF satisfy the condition. 
 
@@ -177,13 +177,13 @@ Entries that have tags 0xA0000001, 0xA0000002, ... 0xAFFFFFF satisfy the conditi
 <tr>
 <td>
 <pre>
-FA_ENTRY entry = pAnalysis-&gt;GetNext(NULL, (FA_TAG)0xA0000000, (FA_TAG)0xF0000000);
+FA_ENTRY entry = pAnalysis->GetNext(NULL, (FA_TAG)0xA0000000, (FA_TAG)0xF0000000);
 
 while(NULL != entry)
 {
    // Do something with the Entry
 
-   entry = pAnalysis-&gt;GetNext(entry, (FA_TAG)0xA0000000, (FA_TAG)0xF0000000);
+   entry = pAnalysis->GetNext(entry, (FA_TAG)0xA0000000, (FA_TAG)0xF0000000);
 }</pre>
 </td>
 </tr>

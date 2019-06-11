@@ -157,7 +157,7 @@ WDFSTRING  stringHandle = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
-attributes.ParentObject = pDeviceContext-&gt;Device;
+attributes.ParentObject = pDeviceContext->Device;
 status = WdfStringCreate(
                          NULL,
                          &attributes,

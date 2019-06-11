@@ -166,7 +166,7 @@ status = WdfChildListCreate(
                             device,
                             &listConfig,
                             WDF_NO_OBJECT_ATTRIBUTES,
-                            &ParentDeviceContext-&gt;ChildList
+                            &ParentDeviceContext->ChildList
                             );
 if (!NT_SUCCESS(status)) {
     return status;

@@ -75,12 +75,12 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the feature and profile data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The data begins with a header of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554980">GET_CONFIGURATION_HEADER</a>. Feature data is reported in the space immediately following this header. Its size and formatting depend on which features are reported. 
+The driver returns the feature and profile data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The data begins with a header of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554980">GET_CONFIGURATION_HEADER</a>. Feature data is reported in the space immediately following this header. Its size and formatting depend on which features are reported. 
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(GET_CONFIGURATION_HEADER).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(GET_CONFIGURATION_HEADER).
 
 
 ### -in-out-buffer

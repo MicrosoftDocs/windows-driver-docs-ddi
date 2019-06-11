@@ -87,15 +87,15 @@ D3DDDINotifyDPC(
     DXGKRNL_INTERFACE  *pCallback;
     DXGKCB_NOTIFY_DPC  DxgkCbNotifyDpc;
 
-    pCallback = &(pAdapter-&gt;ddiCallback);
+    pCallback = &(pAdapter->ddiCallback);
 
-    if (! pAdapter-&gt;pVidSchDPCCB) {
+    if (! pAdapter->pVidSchDPCCB) {
         return (STATUS_SUCCESS);
     }
 
-    DxgkCbNotifyDpc = (DXGKCB_NOTIFY_DPC)pAdapter-&gt;pVidSchDPCCB;
+    DxgkCbNotifyDpc = (DXGKCB_NOTIFY_DPC)pAdapter->pVidSchDPCCB;
 
-    DxgkCbNotifyDpc(pAdapter-&gt;DeviceHandle);
+    DxgkCbNotifyDpc(pAdapter->DeviceHandle);
 
     return (STATUS_SUCCESS);
 }

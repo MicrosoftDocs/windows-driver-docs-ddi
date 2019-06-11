@@ -98,7 +98,7 @@ The following code example returns a pointer to the <a href="https://msdn.micros
 <td>
 <pre>PKDPC pWdmDpc;
 
-pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
+pWdmDpc = WdfDpcWdmGetDpc(PDevExt->CompleteWriteDpc);</pre>
 </td>
 </tr>
 </table></span></div>

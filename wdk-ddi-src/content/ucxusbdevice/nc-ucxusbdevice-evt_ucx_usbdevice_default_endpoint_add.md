@@ -167,12 +167,12 @@ Endpoint_EvtUcxUsbDeviceDefaultEndpointAdd(
 
     ucxEndpointContext = GetUcxEndpointContext(ucxEndpoint);
 
-    ucxEndpointContext-&gt;IsDefault = TRUE;
-    ucxEndpointContext-&gt;MaxPacketSize = MaxPacketSize;
+    ucxEndpointContext->IsDefault = TRUE;
+    ucxEndpointContext->MaxPacketSize = MaxPacketSize;
 
     WDF_IO_QUEUE_CONFIG_INIT(&queueConfig, WdfIoQueueDispatchManual);
 
-    status = WdfIoQueueCreate(ucxControllerContext-&gt;WdfDevice,
+    status = WdfIoQueueCreate(ucxControllerContext->WdfDevice,
         &queueConfig,
         WDF_NO_OBJECT_ATTRIBUTES,
         &wdfQueue);

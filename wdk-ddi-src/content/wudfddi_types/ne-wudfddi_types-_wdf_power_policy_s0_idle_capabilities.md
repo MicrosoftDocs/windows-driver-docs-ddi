@@ -124,7 +124,7 @@ else {...}</pre>
 </tr>
 <tr>
 <td>
-<pre>hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleUsbSelectSuspend,
+<pre>hr = pIWDFDevice2->AssignS0IdleSettings(IdleUsbSelectSuspend,
                                         PowerDeviceD3,
                                         IDLEWAKE_TIMEOUT_MSEC,
                                         IdleAllowUserControl,
@@ -134,7 +134,7 @@ if (hr == HRESULT_FROM_NT(STATUS_POWER_STATE_INVALID)){
     // The device probably does not support wake. 
     // It might support idle without wake.
     //
-    hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleCannotWakeFromS0,
+    hr = pIWDFDevice2->AssignS0IdleSettings(IdleCannotWakeFromS0,
                                          PowerDeviceD3,
                                          IDLEWAKE_TIMEOUT_MSEC,
                                          IdleAllowUserControl,

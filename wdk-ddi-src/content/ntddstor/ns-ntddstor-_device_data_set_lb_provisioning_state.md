@@ -99,7 +99,7 @@ On return, the system buffer contains a <a href="https://msdn.microsoft.com/FFC5
 
 Each bit in the allocation bitmap represents a slab mapping within the data set range requested. The bits correspond directly to the slabs in the data set range. This means that bit 0 in the bitmap marks the first slab in the range. A slab is mapped if the bit value = 1 and unmapped if the bit value = 0.
 
-Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of possible slabs  in the requested data set range. The <b>SlabAllocationBitMapLength</b> of the bitmap returned is (<i>number of slabs</i> / 32) + ((<i>number of slabs</i> MOD 32) &gt; 0 ? 1 : 0).
+Space for <b>SlabAllocationBitMap</b> should be allocated based on the number of possible slabs  in the requested data set range. The <b>SlabAllocationBitMapLength</b> of the bitmap returned is (<i>number of slabs</i> / 32) + ((<i>number of slabs</i> MOD 32) > 0 ? 1 : 0).
 
 Slab size is determined by the <b>OptimalUnmapGranularity</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439649">DEVICE_LB_PROVISIONING_DESCRIPTOR</a> returned from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request. The length of the data set range provided should be a multiple of <b>OptimalUnmapGranularity</b>. When the range length is not a multiple of <b>OptimalUnmapGranularity</b>, it is reduced to be a multiple.
 

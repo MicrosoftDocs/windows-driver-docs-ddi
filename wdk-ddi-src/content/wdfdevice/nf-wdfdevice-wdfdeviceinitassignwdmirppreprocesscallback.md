@@ -209,39 +209,39 @@ Return Value:
     NTSTATUS Status;
     PIO_STACK_LOCATION IrpSp;
 
-    SerialDbgPrintEx(TRACE_LEVEL_INFORMATION, DBG_PNP, "&gt;SerialQueryInformationFile(%p, %p)\n", Device, Irp);
+    SerialDbgPrintEx(TRACE_LEVEL_INFORMATION, DBG_PNP, ">SerialQueryInformationFile(%p, %p)\n", Device, Irp);
 
     PAGED_CODE();
 
 
     IrpSp = IoGetCurrentIrpStackLocation(Irp);
-    Irp-&gt;IoStatus.Information = 0L;
+    Irp->IoStatus.Information = 0L;
     Status = STATUS_SUCCESS;
 
-    if (IrpSp-&gt;Parameters.QueryFile.FileInformationClass ==
+    if (IrpSp->Parameters.QueryFile.FileInformationClass ==
         FileStandardInformation) {
 
-        if (IrpSp-&gt;Parameters.DeviceIoControl.OutputBufferLength &lt;
+        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength &lt;
                 sizeof(FILE_STANDARD_INFORMATION))
         {
                 Status = STATUS_BUFFER_TOO_SMALL;
         }
         else
         {
-            PFILE_STANDARD_INFORMATION Buf = Irp-&gt;AssociatedIrp.SystemBuffer;
+            PFILE_STANDARD_INFORMATION Buf = Irp->AssociatedIrp.SystemBuffer;
 
-            Buf-&gt;AllocationSize.QuadPart = 0;
-            Buf-&gt;EndOfFile = Buf-&gt;AllocationSize;
-            Buf-&gt;NumberOfLinks = 0;
-            Buf-&gt;DeletePending = FALSE;
-            Buf-&gt;Directory = FALSE;
-            Irp-&gt;IoStatus.Information = sizeof(FILE_STANDARD_INFORMATION);
+            Buf->AllocationSize.QuadPart = 0;
+            Buf->EndOfFile = Buf->AllocationSize;
+            Buf->NumberOfLinks = 0;
+            Buf->DeletePending = FALSE;
+            Buf->Directory = FALSE;
+            Irp->IoStatus.Information = sizeof(FILE_STANDARD_INFORMATION);
         }
 
-    } else if (IrpSp-&gt;Parameters.QueryFile.FileInformationClass ==
+    } else if (IrpSp->Parameters.QueryFile.FileInformationClass ==
                FilePositionInformation) {
 
-        if (IrpSp-&gt;Parameters.DeviceIoControl.OutputBufferLength &lt;
+        if (IrpSp->Parameters.DeviceIoControl.OutputBufferLength &lt;
                 sizeof(FILE_POSITION_INFORMATION))
         {
                 Status = STATUS_BUFFER_TOO_SMALL;
@@ -249,16 +249,16 @@ Return Value:
         else
         {
 
-            ((PFILE_POSITION_INFORMATION)Irp-&gt;AssociatedIrp.SystemBuffer)-&gt;
+            ((PFILE_POSITION_INFORMATION)Irp->AssociatedIrp.SystemBuffer)->
                 CurrentByteOffset.QuadPart = 0;
-            Irp-&gt;IoStatus.Information = sizeof(FILE_POSITION_INFORMATION);
+            Irp->IoStatus.Information = sizeof(FILE_POSITION_INFORMATION);
         }
 
     } else {
         Status = STATUS_INVALID_PARAMETER;
     }
 
-    Irp-&gt;IoStatus.Status = Status;
+    Irp->IoStatus.Status = Status;
 
     IoCompleteRequest(Irp, IO_NO_INCREMENT);
 

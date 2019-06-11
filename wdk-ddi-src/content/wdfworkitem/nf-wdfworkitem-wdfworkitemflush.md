@@ -112,7 +112,7 @@ ToastMon_EvtIoTargetQueryRemove(
     // Ensure that the I/O target's work item
     // has been processed before closing the target.
     //
-    WdfWorkItemFlush(targetDeviceInfo-&gt;WorkItem);
+    WdfWorkItemFlush(targetDeviceInfo->WorkItem);
     WdfIoTargetCloseForQueryRemove(IoTarget);
 
     return STATUS_SUCCESS;

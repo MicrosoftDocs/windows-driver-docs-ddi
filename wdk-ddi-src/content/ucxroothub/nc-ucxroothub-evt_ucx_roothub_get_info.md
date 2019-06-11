@@ -120,19 +120,19 @@ RootHub_EvtRootHubGetInfo(
 
     rootHubInfo = (PROOTHUB_INFO)wdfRequestParams.Parameters.Others.Arg1;
 
-    if (rootHubInfo-&gt;Size &lt; sizeof(ROOTHUB_INFO)) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_INFO Size %d", rootHubInfo-&gt;Size);
+    if (rootHubInfo->Size &lt; sizeof(ROOTHUB_INFO)) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_INFO Size %d", rootHubInfo->Size);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGetInfo;
     }
 
-    rootHubInfo-&gt;ControllerType = ControllerTypeSoftXhci;
-    rootHubInfo-&gt;NumberOf20Ports = ucxRootHubContext-&gt;NumberOf20Ports;
-    rootHubInfo-&gt;NumberOf30Ports = ucxRootHubContext-&gt;NumberOf30Ports;
-    rootHubInfo-&gt;MaxU1ExitLatency = ucxRootHubContext-&gt;U1DeviceExitLatency;
-    rootHubInfo-&gt;MaxU2ExitLatency = ucxRootHubContext-&gt;U2DeviceExitLatency;
+    rootHubInfo->ControllerType = ControllerTypeSoftXhci;
+    rootHubInfo->NumberOf20Ports = ucxRootHubContext->NumberOf20Ports;
+    rootHubInfo->NumberOf30Ports = ucxRootHubContext->NumberOf30Ports;
+    rootHubInfo->MaxU1ExitLatency = ucxRootHubContext->U1DeviceExitLatency;
+    rootHubInfo->MaxU2ExitLatency = ucxRootHubContext->U2DeviceExitLatency;
 
-    DbgTrace(TL_INFO, RootHub, "RootHub_UcxEvtGetInfo NumberOf20Ports %d NumberOf30Ports %d", rootHubInfo-&gt;NumberOf20Ports, rootHubInfo-&gt;NumberOf30Ports);
+    DbgTrace(TL_INFO, RootHub, "RootHub_UcxEvtGetInfo NumberOf20Ports %d NumberOf30Ports %d", rootHubInfo->NumberOf20Ports, rootHubInfo->NumberOf30Ports);
 
     status = STATUS_SUCCESS;
 

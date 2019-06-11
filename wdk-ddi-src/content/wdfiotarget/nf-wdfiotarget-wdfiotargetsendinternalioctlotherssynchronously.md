@@ -318,7 +318,7 @@ IRB Irb;
 
 Irb.FunctionNumber = REQUEST_ALLOCATE_ADDRESS_RANGE;
 Irb.Flags = 0;
-Irb.u.AllocateAddressRange.Mdl = pAsyncAddressData-&gt;pMdl;
+Irb.u.AllocateAddressRange.Mdl = pAsyncAddressData->pMdl;
 Irb.u.AllocateAddressRange.fulFlags = fulFlags;
 Irb.u.AllocateAddressRange.nLength = nLength;
 Irb.u.AllocateAddressRange.MaxSegmentSize = MaxSegmentSize;
@@ -330,7 +330,7 @@ Irb.u.AllocateAddressRange.Required1394Offset = *Required1394Offset;
 Irb.u.AllocateAddressRange.FifoSListHead = NULL;
 Irb.u.AllocateAddressRange.FifoSpinLock = NULL;
 Irb.u.AllocateAddressRange.AddressesReturned = 0;
-Irb.u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData-&gt;AddressRange;
+Irb.u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData->AddressRange;
 Irb.u.AllocateAddressRange.DeviceExtension = deviceExtension;
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(

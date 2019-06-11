@@ -812,12 +812,12 @@ If <b>DMPubID</b> is DMPUB_COPIES_COLLATE and the printer can collate copies, an
 </tr>
 <tr>
 <td>
-<pre>pExtCheckbox-&gt;cbSize = sizeof(EXTCHKBOX);
-pExtCheckbox-&gt;pTitle = (PWSTR) IDS_CPSUI_COLLATE;
-pExtCheckbox-&gt;pCheckedName = (PWSTR) IDS_CPSUI_COLLATED;
-pExtCheckbox-&gt;IconID = IDI_CPSUI_COLLATE;
-pExtCheckbox-&gt;Flags = ECBF_CHECKNAME_ONLY_ENABLED;
-pExtCheckbox-&gt;pSeparator = (PWSTR)IDS_CPSUI_SLASH_SEP;</pre>
+<pre>pExtCheckbox->cbSize = sizeof(EXTCHKBOX);
+pExtCheckbox->pTitle = (PWSTR) IDS_CPSUI_COLLATE;
+pExtCheckbox->pCheckedName = (PWSTR) IDS_CPSUI_COLLATED;
+pExtCheckbox->IconID = IDI_CPSUI_COLLATE;
+pExtCheckbox->Flags = ECBF_CHECKNAME_ONLY_ENABLED;
+pExtCheckbox->pSeparator = (PWSTR)IDS_CPSUI_SLASH_SEP;</pre>
 </td>
 </tr>
 </table></span></div>
