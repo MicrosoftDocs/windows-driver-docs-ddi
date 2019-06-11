@@ -3,7 +3,7 @@ UID: NF:dbgmodel.BindProperty
 title: BindProperty function (dbgmodel.h)
 description:  A binder which converts two instance methods on a class to a read/write property accessor. 
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
-ms.date: 09/28/2018
+ms.date: 06/11/2019
 ms.topic: function
 ms.keywords: BindProperty
 req.header: dbgmodel.h
@@ -65,7 +65,14 @@ This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
 
 ## -remarks
 
-This sample code shows usage.
+This sample code shows usage of the BindProperty function.
+
+> [!NOTE]
+>The code sample uses the recommended DbgModelClientEx.h library header available from GitHub. For more information, see [Using the DbgModelClientEx Library](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-overview#-using-the-dbgmodelclientex-library).
+>
+> To see how the DbgModelClientEx library are used, for example, specifying the Debugger::DataModel namespaces, review the Data Model HelloWorld C++ sample:
+> https://github.com/microsoft/WinDbg-Samples/tree/master/DataModelHelloWorld/Cpp
+
 
 ```cpp
 // Define a native type that we wish to project into the data model
