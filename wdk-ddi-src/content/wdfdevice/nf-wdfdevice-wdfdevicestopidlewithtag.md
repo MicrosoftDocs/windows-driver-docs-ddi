@@ -82,7 +82,7 @@ A driver-defined value that the framework stores as an identification tag for th
 
 ## -returns
 
-If the operation succeeds, **WdfDeviceStopIdleWithTag** returns STATUS_SUCCESS. If the driver calls **WdfDeviceStopIdleWithTag** when the device is in its working (D0) state, the method returns STATUS_SUCCESS, but does not increment the power reference count.
+If the operation succeeds, **WdfDeviceStopIdleWithTag** returns STATUS_SUCCESS.
 
 Additional return values include:
 
