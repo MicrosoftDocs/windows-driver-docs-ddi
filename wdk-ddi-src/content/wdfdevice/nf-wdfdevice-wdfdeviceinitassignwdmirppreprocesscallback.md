@@ -171,13 +171,8 @@ For more information about the <b>WdfDeviceInitAssignWdmIrpPreprocessCallback</b
 
 The following code example defines an <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> event callback function, and then registers the callback function to handle <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a> IRPs.
 
-<table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 SerialQueryInformationFile(
     IN WDFDEVICE Device,
     IN PIRP Irp
@@ -284,10 +279,8 @@ SerialEvtDeviceAdd(
         return status;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table>
+}
+```
 
 
 
