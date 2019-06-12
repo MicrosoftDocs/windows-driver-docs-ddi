@@ -41,7 +41,6 @@ A reference to a key on a data model object.
 
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
-
 ## -inheritance
 IModelKeyReference2 interits from IModelKeyReference. 
 ## -members
