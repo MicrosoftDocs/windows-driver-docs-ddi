@@ -44,7 +44,7 @@ req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 
 ## -description
 
-This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via [IOCTL_STORAGE_PROTOCOL_COMMAND](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_protocol_command)).
+This structure is used with the [IOCTL_STORAGE_PROTOCOL_COMMAND](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_protocol_command) pass-through mechanism that issues a vendor-specific protocol command to a storage device.
 
 ## -struct-fields
 
@@ -54,7 +54,7 @@ The version of this structure. Set this to be **STORAGE_PROTOCOL_STRUCTURE_VERSI
 
 ### -field Length
 
-The size of this structure. This should be set to sizeof(**STORAGE_PROTOCOL_COMMAND**).
+The size of this structure. Set this to sizeof(**STORAGE_PROTOCOL_COMMAND**).
 
 ### -field ProtocolType
 
@@ -137,8 +137,6 @@ The return data. This is optionally set. Some protocols such as NVMe, may return
 Reserved for future use.
 
 ### -field Command
-
-#### - Command[ANYSIZE_ARRAY]
 
 The vendor-specific command that is to be passed-through to the device.
 
