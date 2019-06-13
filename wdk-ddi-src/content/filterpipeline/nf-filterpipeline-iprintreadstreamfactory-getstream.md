@@ -42,45 +42,26 @@ req.typenames:
 
 # IPrintReadStreamFactory::GetStream
 
-
 ## -description
 
-
-The <code>GetStream</code> method gets the stream interface.
-
+The `GetStream` method gets the stream interface.
 
 ## -parameters
 
-
-
-
 ### -param ppStream [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554337">IPrintReadStream</a> interface. The filter can use this interface to read the contents of the print ticket.
-
+A pointer to an [IPrintReadStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintreadstream) interface. The filter can use this interface to read the contents of the print ticket.
 
 ## -returns
 
-
-
-<code>GetStream</code> returns an <b>HRESULT</b> value.
-
-
-
+`GetStream` returns an **HRESULT** value.
 
 ## -remarks
 
+The following code example shows how a filter can use **IPrintReadStreamFactory** to access the per-user print ticket.
 
-
-The following code example shows how a filter can use <b>IPrintReadStreamFactory</b> to access the per-user print ticket.
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT var;
+```cpp
+VARIANT var;
 VariantInit(&var);
 
 HRESULT hr = pIPropertyBag->GetProperty(
@@ -104,8 +85,8 @@ if (SUCCEEDED(hr))
  if (SUCCEEDED(hr))
       {
 
-       // Use the print ticket here. 
-       // It's OK to cache the pointer 
+       // Use the print ticket here.
+       // It's OK to cache the pointer
        // to use now and release later.
 
  pPrintTicketStream->Release();
@@ -115,9 +96,5 @@ if (SUCCEEDED(hr))
     }
 
  VariantClear(&var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
