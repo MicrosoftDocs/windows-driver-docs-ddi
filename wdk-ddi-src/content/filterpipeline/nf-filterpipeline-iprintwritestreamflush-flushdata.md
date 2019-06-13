@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.Writing to the stream is done using the [IPrintWriteStream::WriteBytes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintwritestream-writebytes) method.
+The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream. Writing to the stream is done using the [IPrintWriteStream::WriteBytes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintwritestream-writebytes) method.
 
 ## -parameters
 
