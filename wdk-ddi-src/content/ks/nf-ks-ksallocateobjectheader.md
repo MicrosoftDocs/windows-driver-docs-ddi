@@ -43,120 +43,59 @@ req.typenames:
 
 # KsAllocateObjectHeader function
 
-
 ## -description
 
-
-The <b>KsAllocateObjectHeader</b> function initializes the required file context 
-   header.
-
+The **KsAllocateObjectHeader** function initializes the required file context header.
 
 ## -parameters
 
-
-
-
 ### -param Header [out]
 
-Points to the caller-allocated location in which to return a pointer to the initialized 
-      <b>KSOBJECT_HEADER</b> if successful. 
-
+Points to the caller-allocated location in which to return a pointer to the initialized **KSOBJECT_HEADER** if successful.
 
 ### -param ItemsCount [in]
 
-Specifies the number of object create items in the <i>ItemsList</i> to be added to the 
-      object header once the header is allocated. This value should be zero if <i>ItemsList</i> is 
-      <b>NULL</b>.
-
+Specifies the number of object create items in the *ItemsList* to be added to the object header once the header is allocated. This value should be zero if *ItemsList* is **NULL**.
 
 ### -param ItemsList [in, optional]
 
-Optionally specifies a pointer to a caller-allocated buffer containing a series of 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structures to be added to 
-      the object header. Must be set to <b>NULL</b> if there are no object create items.
-
+Optionally specifies a pointer to a caller-allocated buffer containing a series of [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item) structures to be added to the object header. Must be set to **NULL** if there are no object create items.
 
 ### -param Irp [in]
 
-Points to the IRP, of major function <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>, 
-      that contains the necessary information to complete the creation of the object header.
-
+Points to the IRP, of major function [IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create), that contains the necessary information to complete the creation of the object header.
 
 ### -param Table [in]
 
 Points to an initialized dispatch table for this file object.
 
-
 ## -returns
 
-
-
-The <b>KsAllocateObjectHeader</b> function returns 
-      <b>STATUS_SUCCESS</b> if successful or 
-      <b>STATUS_INSUFFICIENT_RESOURCES</b> if not enough resources are available to fulfill the 
-      request.
-
-
-
+The **KsAllocateObjectHeader** function returns **STATUS_SUCCESS** if successful or **STATUS_INSUFFICIENT_RESOURCES** if not enough resources are available to fulfill the request.
 
 ## -remarks
 
+Before calling this routine the driver must allocate system-resident storage for a [KSDISPATCH_TABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdispatch_table) and initialize the dispatch table. The memory for this dispatch table cannot be released until **KsFreeObjectHeader** is called.
 
+**KsAllocateObjectHeader** allocates the memory for the **KSOBJECT_HEADER** structure and returns a pointer to the header at *Header*. Drivers must not attempt to free the memory themselves, but rather call **KsFreeObjectHeader** when all operations requiring this object header have been completed.
 
-Before calling this routine the driver must allocate system-resident storage for a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561723">KSDISPATCH_TABLE</a> and initialize the dispatch table. 
-     The memory for this dispatch table cannot be released until <b>KsFreeObjectHeader</b> 
-     is called.
+If subobjects exist for a given device, the driver must, before calling **KsAllocateObjectHeader**, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item) structure for each subobject. For example:
 
-<b>KsAllocateObjectHeader</b> allocates the memory for the 
-      <b>KSOBJECT_HEADER</b> structure and returns a pointer to the header at 
-       <i>Header</i>. Drivers must not attempt to free the memory themselves, but rather call 
-       <b>KsFreeObjectHeader</b> when all operations requiring this object header have been 
-       completed.
-
-If subobjects exist for a given device, the driver must, before calling 
-     <b>KsAllocateObjectHeader</b>, allocate a buffer of either paged or nonpaged memory of 
-     sufficient size to hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> 
-     structure for each subobject. For example:
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/* Allocate a buffer for 4 subobjects for a given streaming device */
+```cpp
+/* Allocate a buffer for 4 subobjects for a given streaming device */
 PKSOBJECT_CREATE_ITEM createBuffer ;
 ULONG bufferSize  = (sizeof (KSOBJECT_CREATE_ITEM)) * 4 ;
- 
+
 createBuffer = (PKSOBJECT_CREATE_ITEM)
                ExAllocatePoolWithTag (PagedPool, bufferSize) ;
- </pre>
-</td>
-</tr>
-</table></span></div>
-Drivers must not free the memory allocated for the subobject 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> list until after calling 
-     <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition.
+```
 
-
-
+Drivers must not free the memory allocated for the subobject [KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item) list until after calling **KsFreeDeviceHeader**. Failure to do so can result in a bug check condition.
 
 ## -see-also
 
+[KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item)
 
+[KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreedeviceheader)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562560">KsFreeDeviceHeader</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562565">KsFreeObjectHeader</a>
- 
-
- 
-
+[KsFreeObjectHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectheader)
