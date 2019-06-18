@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: Aux_Klib.lib
 req.dll: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 topic_type:
 - APIRef
 - kbSyntax
