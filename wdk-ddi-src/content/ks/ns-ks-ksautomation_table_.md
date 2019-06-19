@@ -42,137 +42,92 @@ req.typenames: KSAUTOMATION_TABLE, *PKSAUTOMATION_TABLE
 
 # KSAUTOMATION_TABLE_ structure
 
-
 ## -description
-
 
 The KSAUTOMATION_TABLE structure defines a structure that combines tables for properties, methods, and events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PropertySetsCount
 
 This member specifies the number of property sets in this automation table.
 
-
 ### -field PropertyItemSize
 
 This member specifies size in bytes of property items in this table.
 
-
 ### -field PropertySets
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a> objects (<b>PropertySetsCount</b> in length) defining the property sets in this automation table.  Each set contains a specific number of items of size <b>PropertyItemSize</b>.
-
+A pointer to an array of [KSPROPERTY_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_set) objects (**PropertySetsCount** in length) defining the property sets in this automation table.  Each set contains a specific number of items of size **PropertyItemSize**.
 
 ### -field MethodSetsCount
 
 This member specifies the number of method sets in this automation table.
 
-
 ### -field MethodItemSize
 
 This member specifies the size in bytes of method items in this table.
 
-
 ### -field MethodSets
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a> objects (<b>MethodSetsCount</b> in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size <b>MethodItemSize</b>.
-
+An array of [KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_set) objects (**MethodSetsCount** in length) defining the method sets in this automation table.  Each set has a specific number of items in it of size **MethodItemSize**.
 
 ### -field EventSetsCount
 
 This member specifies the number of event sets in this automation table.
 
-
 ### -field EventItemSize
 
 This member specifies the size in bytes of event items in this table.
 
-
 ### -field EventSets
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561867">KSEVENT_SET</a> objects (<b>EventSetsCount</b> in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size <b>EventItemSize</b>.
-
+An array of [KSEVENT_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_set) objects (**EventSetsCount** in length) defining the event sets in this automation table.  Each set has a specific number of items in it of size **EventItemSize**.
 
 ### -field Alignment
 
-Reserved for internal use by AVStream. Minidrivers should not manipulate this member. 
-
+Reserved for internal use by AVStream. Minidrivers should not manipulate this member.
 
 ## -remarks
 
+Note that each object (pin, filter, topology node) should define an automation table. Minidrivers can use macros defined in *Ks.h* to define automation tables and the arrays they contain:
 
+- DEFINE_KSAUTOMATION_TABLE
 
-Note that each object (pin, filter, topology node) should define an automation table. Minidrivers can use macros defined in <i>Ks.h</i> to define automation tables and the arrays they contain:
+- DEFINE_KSAUTOMATION_PROPERTIES
 
-DEFINE_KSAUTOMATION_TABLE
+- DEFINE_KSAUTOMATION_METHODS
 
-DEFINE_KSAUTOMATION_PROPERTIES
-
-DEFINE_KSAUTOMATION_METHODS
-
-DEFINE_KSAUTOMATION_EVENTS
+- DEFINE_KSAUTOMATION_EVENTS
 
 To specify an automation table containing an empty property array, event array, or method array:
 
-DEFINE_KSAUTOMATION_PROPERTIES_NULL
+- DEFINE_KSAUTOMATION_PROPERTIES_NULL
 
-DEFINE_KSAUTOMATION_METHODS_NULL
+- DEFINE_KSAUTOMATION_METHODS_NULL
 
-DEFINE_KSAUTOMATION_EVENTS_NULL
+- DEFINE_KSAUTOMATION_EVENTS_NULL
 
 For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_KSAUTOMATION_TABLE (MyAutomationTable) {
-DEFINE_KSAUTOMATION_PROPERTIES (MyPropertyTable),
-DEFINE_KSAUTOMATION_METHODS (MyMethodTable),
-DEFINE_KSAUTOMATION_EVENTS (MyEventTable)</pre>
-</td>
-</tr>
-</table></span></div>
-};
-
-
-
+```cpp
+DEFINE_KSAUTOMATION_TABLE (MyAutomationTable) {
+    DEFINE_KSAUTOMATION_PROPERTIES (MyPropertyTable),
+    DEFINE_KSAUTOMATION_METHODS (MyMethodTable),
+    DEFINE_KSAUTOMATION_EVENTS (MyEventTable)
+    };
+```
 
 ## -see-also
 
+[KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item)
 
+[KSEVENT_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_set)
 
+[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_item)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
+[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_set)
 
+[KSPROPERTY_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561867">KSEVENT_SET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a>
- 
-
- 
-
+[KSPROPERTY_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_set)
