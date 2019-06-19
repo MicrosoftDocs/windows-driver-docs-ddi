@@ -5,7 +5,7 @@ description: The HidD_GetNumInputBuffers routine returns the current size, in nu
 old-location: hid\hidd_getnuminputbuffers.htm
 tech.root: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hidsdi/HidD_GetNumInputBuffers
 ms.topic: function
 req.header: hidsdi.h
@@ -68,7 +68,7 @@ Pointer to a caller-allocated variable that the routine uses to return the maxim
 
 
 
-<b>HidD_GetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
+<b>HidD_GetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 

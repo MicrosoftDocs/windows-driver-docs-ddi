@@ -85,7 +85,7 @@ The registry path string pointed to by <i>RegistryPath</i> is of the form <b>\Re
 
 For more information about implementing a <b>DriverEntry</b> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566402">Writing a DriverEntry Routine</a>.
 
-While it is possible to name this routine something other than <b>DriverEntry</b>, doing so is not recommended. The DDK-supplied build tools automatically inform the linker that the driver's entry point is called <b>DriverEntry</b>, so giving the routine another name requires you to modify the build tools. For more information about build tools, see <a href="https://msdn.microsoft.com/windows-drivers/develop/building_a_driver">Building a Driver</a>.
+While it is possible to name this routine something other than <b>DriverEntry</b>, doing so is not recommended. The DDK-supplied build tools automatically inform the linker that the driver's entry point is called <b>DriverEntry</b>, so giving the routine another name requires you to modify the build tools. For more information about build tools, see <a href="https://docs.microsoft.com/windows-hardware/drivers/develop/building-a-driver">Building a Driver</a>.
 
 
 #### Examples

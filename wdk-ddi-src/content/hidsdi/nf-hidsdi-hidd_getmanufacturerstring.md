@@ -5,7 +5,7 @@ description: The HidD_GetManufacturerString routine returns a top-level collecti
 old-location: hid\hidd_getmanufacturerstring.htm
 tech.root: hid
 ms.assetid: 21253ed7-d98d-4b97-8d83-01dd18b3c4f9
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 ms.topic: function
 req.header: hidsdi.h
@@ -73,7 +73,7 @@ Specifies the length, in bytes, of a caller-allocated buffer provided at <i>Buff
 
 
 
-HidD_HidD_GetManufacturerString returns <b>TRUE</b> if it returns the entire NULL-terminated embedded string. Otherwise, the routine returns <b>FALSE</b>.
+HidD_HidD_GetManufacturerString returns <b>TRUE</b> if it returns the entire NULL-terminated embedded string. Otherwise, the routine returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 

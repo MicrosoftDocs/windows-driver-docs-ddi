@@ -5,7 +5,7 @@ description: The HidD_GetInputReport routine returns an input reports from a top
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 ms.topic: function
 req.header: hidsdi.h
@@ -75,7 +75,7 @@ Specifies the size, in bytes, of the report buffer. The report buffer must be la
 
 
 
-<b>HidD_GetInputReport</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
+<b>HidD_GetInputReport</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 
