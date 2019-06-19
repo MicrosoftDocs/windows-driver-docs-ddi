@@ -102,11 +102,11 @@ HRESULT GetPrimaryAdapterHandle(HANDLE* phAdapter, UINT* pOutput)
 
     *phAdapter = NULL;
     *pOutput = 0;
-    memset(&amp;dd, 0, sizeof (dd));
+    memset(&dd, 0, sizeof (dd));
     dd.cb = sizeof dd;
 
-    for (i = 0; EnumDisplayDevicesA(NULL, i, &amp;dd, 0); ++i) {
-        if (dd.StateFlags &amp; DISPLAY_DEVICE_PRIMARY_DEVICE) {
+    for (i = 0; EnumDisplayDevicesA(NULL, i, &dd, 0); ++i) {
+        if (dd.StateFlags & DISPLAY_DEVICE_PRIMARY_DEVICE) {
             break;
         }
     }
@@ -117,7 +117,7 @@ HRESULT GetPrimaryAdapterHandle(HANDLE* phAdapter, UINT* pOutput)
     }
 
     OpenAdapterData.hDc = hdc;
-    if (NT_SUCCESS((*pfnKTOpenAdapterFromHdc)(&amp;OpenAdapterData))) {
+    if (NT_SUCCESS((*pfnKTOpenAdapterFromHdc)(&OpenAdapterData))) {
         DeleteDC(hdc);
         *phAdapter = OpenAdapterData.hAdapter;
         *pOutput = OpenAdapterData.VidPnSourceId;

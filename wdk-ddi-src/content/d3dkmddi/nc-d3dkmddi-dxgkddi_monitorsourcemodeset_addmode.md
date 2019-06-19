@@ -91,7 +91,7 @@ The <b>pfnAddMode</b> function returns one of the following values.
 
 
 
-If <i>pMonitorSourceModeInfo</i>-&gt;<b>Preference</b> is equal to D3DKMDT_MP_PREFERRED, the newly added mode becomes the preferred mode of the mode set.
+If <i>pMonitorSourceModeInfo</i>-><b>Preference</b> is equal to D3DKMDT_MP_PREFERRED, the newly added mode becomes the preferred mode of the mode set.
 
 
 

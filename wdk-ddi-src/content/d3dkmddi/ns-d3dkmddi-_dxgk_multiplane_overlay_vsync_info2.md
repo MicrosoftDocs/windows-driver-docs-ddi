@@ -66,5 +66,5 @@ The 64 bit PresentId specified in the SetVidPnSourceAddressWithMultiPlaneOverlay
 
 ### -field Flags
 
-Flag to indicate whether the scheduler should call DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT for this plane
+Flag to indicate whether the scheduler should call [DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT](nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) for this plane
 

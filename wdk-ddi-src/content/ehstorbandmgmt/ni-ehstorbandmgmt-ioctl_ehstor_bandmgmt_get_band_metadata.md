@@ -56,7 +56,7 @@ Metadata associated with a band is retrieved with an  <b> IOCTL_EHSTOR_BANDMGMT_
 
 ### -input-buffer
 
-The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/CE8160C5-8C64-4BA5-864E-EC634754E062"> GET_BAND_METADATA_PARAMETERS</a> structure. 
+The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/CE8160C5-8C64-4BA5-864E-EC634754E062"> GET_BAND_METADATA_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a <a 
 
 ### -output-buffer
 
-The output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a byte array of band metadata specified by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451205">GET_BAND_METADATA_PARAMETERS</a>.
+The output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a byte array of band metadata specified by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451205">GET_BAND_METADATA_PARAMETERS</a>.
 
 
 ### -output-buffer-length

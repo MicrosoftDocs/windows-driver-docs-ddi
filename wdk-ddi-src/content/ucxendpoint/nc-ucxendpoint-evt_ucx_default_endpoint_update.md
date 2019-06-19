@@ -103,8 +103,8 @@ Endpoint_EvtUcxDefaultEndpointUpdate(
 
     DbgTrace(TL_INFO, Endpoint, "Endpoint_EvtUcxDefaultEndpointUpdate");
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
     defaultEndpointUpdate = (PDEFAULT_ENDPOINT_UPDATE)wdfRequestParams.Parameters.Others.Arg1;
     ...

@@ -69,12 +69,12 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552591">DISK_CONTROLLER_NUMBER</a> data.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552591">DISK_CONTROLLER_NUMBER</a> data.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the IO_STACK_LOCATION structure of the IRP indicates the size, in bytes, of the output buffer, which must be &gt;= <b>sizeof</b>(DISK_CONTROLLER_NUMBER).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the IO_STACK_LOCATION structure of the IRP indicates the size, in bytes, of the output buffer, which must be >= <b>sizeof</b>(DISK_CONTROLLER_NUMBER).
 
 
 ### -in-out-buffer

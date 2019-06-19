@@ -74,7 +74,7 @@ The number of bytes to fill with zeros.
     <i>Length</i> must be a proper subrange of a caller-accessible memory range.
 
 As long as the given range was allocated from nonpaged pool, the caller can be running at any IRQL.
-    Otherwise, a caller must be running at IRQL &lt; DISPATCH_LEVEL as, for example, when a caller clears a
+    Otherwise, a caller must be running at IRQL < DISPATCH_LEVEL as, for example, when a caller clears a
     structure it allocated on the stack.
 
 

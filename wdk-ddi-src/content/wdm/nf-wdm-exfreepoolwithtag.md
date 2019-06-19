@@ -65,7 +65,7 @@ Specifies the tag value passed to <a href="https://msdn.microsoft.com/library/wi
 
 **NOTE**
 
-Tag must be a value from 0x20 (space) to 0x126 (tilde).
+Tag must be a value from 0x20 (space) to 0x7E (tilde).
 
 ## -returns
 
@@ -80,7 +80,7 @@ None
 
 
 
-Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>NonPaged</b><i>Xxx</i><i>PoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
+Callers of <b>ExFreePoolWithTag</b> must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>NonPaged</b><i>Xxx</i><i>PoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 
 

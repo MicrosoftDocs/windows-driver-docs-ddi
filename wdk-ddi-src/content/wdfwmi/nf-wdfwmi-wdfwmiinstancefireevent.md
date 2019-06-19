@@ -155,7 +155,7 @@ NTSTATUS  status;
 status = WdfWmiInstanceFireEvent(
                                  WmiInstance,
                                  sizeof(eventData),
-                                 (PVOID)&amp;eventData
+                                 (PVOID)&eventData
                                  );</pre>
 </td>
 </tr>

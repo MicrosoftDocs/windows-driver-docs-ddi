@@ -90,7 +90,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557
 
 </td>
 <td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing a unique name (for example, L"\\MyFilterPort") for the port object. 
 
 </td>
 </tr>

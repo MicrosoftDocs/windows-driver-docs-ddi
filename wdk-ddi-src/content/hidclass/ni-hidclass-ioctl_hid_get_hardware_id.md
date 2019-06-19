@@ -68,7 +68,7 @@ The length of the buffer.
 
 ### -output-buffer
 
-<b>Irp-&gt;MdlAddress</b> points to a buffer to receive the number of device input buffers. 
+<b>Irp->MdlAddress</b> points to a buffer to receive the number of device input buffers. 
 
 
 ### -output-buffer-length
@@ -96,7 +96,7 @@ The length of the buffer.
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

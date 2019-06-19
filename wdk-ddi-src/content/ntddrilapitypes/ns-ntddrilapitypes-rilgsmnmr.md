@@ -110,11 +110,11 @@ Base station ID of serving cell (0..63)
 
 Received signal strength of serving cell (0...63) where:
 
-(x=0, RSS &lt; -110dBm
+(x=0, RSS < -110dBm
 
-x=63, RSS &gt; -49dBm
+x=63, RSS > -49dBm
 
-0 &lt;x &lt;63, -110+x &lt; RSS &lt; -109+x)
+0 <x <63, -110+x < RSS < -109+x)
 
 
 ## -see-also

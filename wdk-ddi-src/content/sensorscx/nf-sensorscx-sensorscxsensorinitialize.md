@@ -78,7 +78,7 @@ STATUS_SUCCESS is returned when the function completes successfully.
 
 </li>
 <li>
-STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL or the <b>pSensorConfig-&gt;pEnumerationList-&gt;Count</b> variable is 0 or too big.
+STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL or the <b>pSensorConfig->pEnumerationList->Count</b> variable is 0 or too big.
 
 </li>
 <li>

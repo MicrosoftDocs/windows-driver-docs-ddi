@@ -69,7 +69,7 @@ The
 ### -param NodeName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name or a numeric host address string. For the Internet
      protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hexadecimal
      address.
@@ -78,7 +78,7 @@ The
 ### -param ServiceName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name or a port number.
 
 
@@ -158,7 +158,7 @@ If this parameter is not <b>NULL</b> and an impersonation token is in effect for
 
 [in/out] A pointer to an I/O request packet (IRP) to use to complete the request asynchronously.
      Upon completion of the request, 
-     <i>Irp</i> -&gt;
+     <i>Irp</i> ->
      <b>Iostatus.Information</b> will hold the returned status code.
 
 
@@ -257,7 +257,7 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

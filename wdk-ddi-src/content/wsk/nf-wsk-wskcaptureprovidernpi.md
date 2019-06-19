@@ -186,7 +186,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 Callers of the 
     <b>WskCaptureProviderNPI</b> function must be running at IRQL = PASSIVE_LEVEL if 
-    <i>WaitTimeout</i> is not set to WSK_NO_WAIT; otherwise, callers must be running at IRQL &lt;=
+    <i>WaitTimeout</i> is not set to WSK_NO_WAIT; otherwise, callers must be running at IRQL <=
     DISPATCH_LEVEL.
 
 

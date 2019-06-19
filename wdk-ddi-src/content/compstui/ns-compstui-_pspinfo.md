@@ -42,67 +42,45 @@ req.typenames: PSPINFO, *PPSPINFO
 
 # _PSPINFO structure
 
-
 ## -description
 
-
-The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structure.
-
+The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a [DLGPAGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage) structure.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 CPSUI-supplied size, in bytes, of the PSPINFO structure.
 
-
 ### -field wReserved
 
 Reserved.
 
-
 ### -field hComPropSheet
 
-CPSUI-supplied handle to the parent of the page whose handle is contained in <b>hCPSUIPage</b>.
-
+CPSUI-supplied handle to the parent of the page whose handle is contained in **hCPSUIPage**.
 
 ### -field hCPSUIPage
 
 CPSUI-supplied handle to the property sheet page.
 
-
 ### -field pfnComPropSheet
 
-CPSUI-supplied pointer to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function.
-
+CPSUI-supplied pointer to its [ComPropSheet](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfncompropsheet) function.
 
 ## -remarks
 
+Before CPSUI calls **CreatePropertySheetPage** to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a [DLGPAGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage) structure) and specifies a WM_INITDIALOG message, the function's **lParam** member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
 
-
-Before CPSUI calls <b>CreatePropertySheetPage</b> to create a property sheet page, it expands the size of the standard PROPSHEETPAGE structure in order to append a PSPINFO structure. When the operating system calls a dialog box procedure (pointed to by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structure) and specifies a WM_INITDIALOG message, the function's <b>lParam</b> member points to the expanded PROPSHEETPAGE structure containing the PSPINFO structure.
-
-(The <b>CreatePropertySheetPage</b> function, PROPSHEETPAGE structure, WM_INITDIALOG message, and dialog box procedures are all described in the Microsoft Windows SDK documentation.)
+(The **CreatePropertySheetPage** function, PROPSHEETPAGE structure, WM_INITDIALOG message, and dialog box procedures are all described in the Microsoft Windows SDK documentation.)
 
 To obtain the PSPINFO structure's address, use the PPSPINFO_FROM_WM_INITDIALOG_LPARAM macro (defined in compstui.h) as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PPSPINFO pPspInfo;
+```cpp
+PPSPINFO pPspInfo;
 if (Msg == WM_INITDIALOG) {
     pPspInfo = PPSPINFO_FROM_WM_INITDIALOG_LPARAM(lParam);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The PSPINFO structure pointer can be saved for later use, but the structure's contents must not be modified.
-
-
-

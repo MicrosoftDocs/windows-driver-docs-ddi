@@ -97,7 +97,7 @@ The range specified by
 Callers of 
     <b>NdisMoveMemory</b> can run at any IRQL if the given 
     <i>Source</i> and 
-    <i>Destination</i> are resident. Otherwise, callers must be running at IRQL &lt; DISPATCH_LEVEL, as, for
+    <i>Destination</i> are resident. Otherwise, callers must be running at IRQL < DISPATCH_LEVEL, as, for
     example if either address is on the stack.
 
 

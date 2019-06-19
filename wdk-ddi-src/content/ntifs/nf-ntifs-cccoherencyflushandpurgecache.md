@@ -116,7 +116,7 @@ You can flush and/or purge any byte range within a file by using the <i>FileOffs
 
 A call to <b>CcCoherencyFlushAndPurgeCache</b> is a synchronous (blocking) operation, not an asynchronous (non-blocking) operation.
 
-An <i>IoStatus</i>-&gt;<i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates that page invalidation failed. Be aware that page invalidation can fail even if you pass CC_FLUSH_AND_PURGE_NO_PURGE in the <i>Flags</i> parameter.
+An <i>IoStatus</i>-><i>Status </i>value of STATUS_CACHE_PAGE_LOCKED indicates that page invalidation failed. Be aware that page invalidation can fail even if you pass CC_FLUSH_AND_PURGE_NO_PURGE in the <i>Flags</i> parameter.
 
 
 

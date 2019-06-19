@@ -85,7 +85,7 @@ If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic t
 
 Callers of the <i>Rtl..GenericTableAvl</i> routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlLookupElementGenericTableAvl</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
+Callers of <b>RtlLookupElementGenericTableAvl</b> must be running at IRQL < DISPATCH_LEVEL if either of the following conditions holds:
 
 <ul>
 <li>

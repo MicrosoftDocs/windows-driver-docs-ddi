@@ -61,7 +61,7 @@ The
 A pointer to a caller-allocated NDIS_STRING type in which 
      <b>NdisInitUnicodeString</b> should store the counted Unicode string. For Windows 2000 and later, NDIS
      defines the NDIS_STRING type as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 ### -param s
@@ -82,7 +82,7 @@ The
     <i>SourceString</i> is <b>NULL</b>, the length is zero.
 
 Callers of 
-    <b>NdisInitUnicodeString</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
+    <b>NdisInitUnicodeString</b> must be running at IRQL <= DISPATCH_LEVEL if the 
     <i>DestinationString</i> buffer is allocated from nonpaged memory. Usually, callers are running at IRQL =
     PASSIVE_LEVEL during driver initialization.
 
@@ -125,7 +125,7 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

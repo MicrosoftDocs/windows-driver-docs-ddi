@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IDataModelManager.CreateDataModelObject
 title: IDataModelManager::CreateDataModelObject (dbgmodel.h)
 description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects. 
 ms.assetid: f1c18662-fe30-45ad-b71d-6776f64d3dc9
-ms.date: 07/17/2018
+ms.date: 06/10/2019
 ms.topic: method
 ms.keywords: IDataModelManager::CreateDataModelObject, CreateDataModelObject, IDataModelManager.CreateDataModelObject, IDataModelManager::CreateDataModelObject, IDataModelManager.CreateDataModelObject
 req.header: dbgmodel.h
@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects. All such objects must support the data model concept via IDataModelConcept. This method creates a new blank synthetic object with no explicit context and adds the inpassed IDataModelConcept as the newly created object's implementation of the data model concept. This can similarly be accomplished with calls to CreateSyntheticObject and SetConcept. 
+The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects. All such objects must support the data model concept via [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md). This method creates a new blank synthetic object with no explicit context and adds the inpassed IDataModelConcept as the newly created object's implementation of the data model concept. This can similarly be accomplished with calls to CreateSyntheticObject and SetConcept. 
 
 ## -parameters
 

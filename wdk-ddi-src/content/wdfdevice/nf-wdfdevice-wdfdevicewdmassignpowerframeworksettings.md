@@ -152,19 +152,19 @@ In the following code example, the driver initializes a <a href="https://msdn.mi
 <pre>NTSTATUS status;
 WDF_POWER_FRAMEWORK_SETTINGS poFxSettings;
 
-WDF_POWER_FRAMEWORK_SETTINGS_INIT(&amp;poFxSettings);
+WDF_POWER_FRAMEWORK_SETTINGS_INIT(&poFxSettings);
 
 poFxSettings.EvtDeviceWdmPostPoFxRegisterDevice = 
                         SingleCompWdmEvtDeviceWdmPostPoFxRegisterDevice;
 poFxSettings.EvtDeviceWdmPrePoFxUnregisterDevice =
                         SingleCompWdmEvtDeviceWdmPrePoFxUnregisterDevice;
 
-poFxSettings.Component = &amp;component;
+poFxSettings.Component = &component;
 poFxSettings.ComponentIdleStateCallback = 
                         SingleCompWdmIdleStateCallback;
 poFxSettings.PoFxDeviceContext = (PVOID) Device;
     
-status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &amp;poFxSettings);</pre>
+status = WdfDeviceWdmAssignPowerFrameworkSettings(Device, &poFxSettings);</pre>
 </td>
 </tr>
 </table></span></div>

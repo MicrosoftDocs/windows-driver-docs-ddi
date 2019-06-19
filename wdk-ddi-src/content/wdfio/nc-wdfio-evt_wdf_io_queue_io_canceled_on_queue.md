@@ -115,7 +115,7 @@ A request in a queue for which the driver has set <a href="https://msdn.microsof
 </ul>
 For more information about the <i>EvtIoCanceledOnQueue</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/canceling-i-o-requests">Canceling I/O Requests</a>.
 
-The <i>EvtIoCanceledOnQueue</i> callback function can be called at IRQL &lt;= DISPATCH_LEVEL, unless the <b>ExecutionLevel</b> member of the device or driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure is set to <b>WdfExecutionLevelPassive</b>.
+The <i>EvtIoCanceledOnQueue</i> callback function can be called at IRQL <= DISPATCH_LEVEL, unless the <b>ExecutionLevel</b> member of the device or driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure is set to <b>WdfExecutionLevelPassive</b>.
 
 If the IRQL is PASSIVE_LEVEL, the framework calls the callback function within a <a href="https://msdn.microsoft.com/3781498a-45e9-4f24-8fd2-830eed61298c">critical region</a>.
 
@@ -156,12 +156,12 @@ PscrEvtIoCanceledOnQueue(
     PSMARTCARD_EXTENSION smartcardExtension;
 
     DeviceExtension = GetDeviceExtension(WdfIoQueueGetDevice(Queue));
-    smartcardExtension = (PSMARTCARD_EXTENSION) &amp;DeviceExtension-&gt;SmartcardExtension;
+    smartcardExtension = (PSMARTCARD_EXTENSION) &DeviceExtension->SmartcardExtension;
 
     //KdPrint(("Cancelled on queue 0x%x\n", WdfRequestWdmGetIrp(Request)));
 
     InterlockedExchangePointer(
-                             &amp;(smartcardExtension-&gt;OsData-&gt;NotificationIrp),
+                             &(smartcardExtension->OsData->NotificationIrp),
                              NULL
                              );
 

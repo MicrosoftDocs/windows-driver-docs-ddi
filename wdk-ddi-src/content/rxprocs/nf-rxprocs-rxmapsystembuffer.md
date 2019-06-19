@@ -77,9 +77,9 @@ A pointer to the IRP for this request.
 
 
 
-The <b>RxMapSystemBuffer</b> routine checks that <b>Irp-&gt;MdlAddress</b> is not <b>NULL</b> and returns the <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> when this is the case. 
+The <b>RxMapSystemBuffer</b> routine checks that <b>Irp->MdlAddress</b> is not <b>NULL</b> and returns the <b>Irp->AssociatedIrp.SystemBuffer</b> when this is the case. 
 
-On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdlSafe</b> to return the MDL from the IRP if <b>Irp-&gt;MdlAddress</b> is <b>NULL</b>. On checked builds, <b>RxMapSystemBuffer</b> causes the system to ASSERT if <b>Irp-&gt;MdlAddress</b> is <b>NULL</b>. 
+On retail builds, <b>RxMapSystemBuffer</b> will call <b>MmGetSystemAddressForMdlSafe</b> to return the MDL from the IRP if <b>Irp->MdlAddress</b> is <b>NULL</b>. On checked builds, <b>RxMapSystemBuffer</b> causes the system to ASSERT if <b>Irp->MdlAddress</b> is <b>NULL</b>. 
 
 
 

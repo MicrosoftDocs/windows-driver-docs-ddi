@@ -100,10 +100,10 @@ Here's an example of how display miniport drivers should access these buffers us
 ```cpp
 __try
   {
-    for (Index = 0; Index &lt; AllocationListInSize; AllocationTable++, 
+    for (Index = 0; Index < AllocationListInSize; AllocationTable++, 
            AllocationListIn++, AllocationListOut++, Index++) 
     {
-      D3DKMT_HANDLE AllocationHandle = AllocationListIn-&gt;hAllocation;
+      D3DKMT_HANDLE AllocationHandle = AllocationListIn->hAllocation;
       . . .
     }
   }

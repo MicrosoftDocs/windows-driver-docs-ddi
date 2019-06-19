@@ -103,7 +103,7 @@ A custom-transmit-transaction object already exists from a previous <b>SerCx2Cus
 </dl>
 </td>
 <td width="60%">
-The <i>CustomTransmitTransactionConfig</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b>).
+The <i>CustomTransmitTransactionConfig</i>-><b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b>).
 
 </td>
 </tr>

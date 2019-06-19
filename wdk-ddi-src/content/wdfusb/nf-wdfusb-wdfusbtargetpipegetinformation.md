@@ -101,10 +101,10 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_USB_PIPE_INFORMATION pipeInfo;
 
-WDF_USB_PIPE_INFORMATION_INIT(&amp;pipeInfo);
+WDF_USB_PIPE_INFORMATION_INIT(&pipeInfo);
 WdfUsbTargetPipeGetInformation(
                                Pipe,
-                               &amp;pipeInfo
+                               &pipeInfo
                                );</pre>
 </td>
 </tr>

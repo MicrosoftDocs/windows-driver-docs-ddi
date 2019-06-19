@@ -56,7 +56,7 @@ The <b>ExGetFirmwareEnvironmentVariable</b> routine gets the value of the specif
 
 ### -param VariableName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the specified environment variable.
 
 
 ### -param VendorGuid [in]
@@ -170,11 +170,9 @@ System firmware environment variables contain data values that are passed betwee
 
 The set of firmware environment variables that is available in a hardware platform depends on the boot firmware. The location of these environment variables is also specified by the firmware. For example, on a UEFI-based platform, NVRAM contains firmware environment variables that specify system boot settings. For information about specific variables used, see the Unified Extensible Firmware Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=183072">UEFI</a> website. For more information about UEFI and Windows, see <a href="https://go.microsoft.com/fwlink/p/?linkid=183071">UEFI and Windows</a>.
 
-Firmware environment variables are not supported on a legacy BIOS-based platform. Calls to <b>ExGetFirmwareEnvironmentVariable</b> always fail on a legacy BIOS-based platform; they also fail if Windows was installed using the legacy BIOS on a platform that supports both legacy BIOS and UEFI. To identify these conditions, call the function with a dummy <i>VariableName</i> string (for example, an empty string) and a dummy GUID such as
+Firmware environment variables are not supported on a legacy BIOS-based platform. Calls to <b>ExGetFirmwareEnvironmentVariable</b> always fail on a legacy BIOS-based platform; they also fail if Windows was installed using the legacy BIOS on a platform that supports both legacy BIOS and UEFI. To identify these conditions, first use uuidgen or a similar tool to generate a random unique GUID statically.  Then call this routine to look for a specific variable name, providing that GUID as the <i>VendorGuid</i> parameter.
 
-<code>"{00000000-0000-0000-0000-000000000000}"</code>
-
-for the <i>VendorGuid</i> parameter. On a legacy BIOS-based platform, or on a platform that supports both legacy BIOS and UEFI but in which Windows was installed using the legacy BIOS, the function will fail with STATUS_NOT_IMPLEMENTED. On a UEFI-based platform, the function will fail with an error specific to the firmware, such as STATUS_VARIABLE_NOT_FOUND, to indicate that the dummy GUID namespace does not exist.
+On a legacy BIOS-based platform, or on a platform that supports both legacy BIOS and UEFI but in which Windows was installed using the legacy BIOS, the function will fail with STATUS_NOT_IMPLEMENTED. On a UEFI-based platform, the function will fail with an error specific to the firmware, such as STATUS_VARIABLE_NOT_FOUND, to indicate that the dummy GUID namespace does not exist.
 
 If the caller specifies a non-NULL <i>Attributes</i> parameter, the routine writes the attributes of the specified system firmware environment variable to the location pointed to by <i>Attributes</i>. Version 2.3.1 of the UEFI specification defines the following attributes for firmware environment variables.
 
@@ -236,7 +234,7 @@ If you create a backup datastore, you can use this function to save all the boot
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

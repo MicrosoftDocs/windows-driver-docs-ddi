@@ -122,7 +122,7 @@ If the driver-dedicated application has an outstanding request for log file data
     into the log file.
 
 The miniport driver can supply a 
-    <i>LogBuffer</i> pointer to a location on the kernel stack if it is currently running at IRQL &lt;
+    <i>LogBuffer</i> pointer to a location on the kernel stack if it is currently running at IRQL <
     DISPATCH_LEVEL. Otherwise, 
     <i>LogBuffer</i> must access a buffer that the driver allocated from nonpaged pool.
 

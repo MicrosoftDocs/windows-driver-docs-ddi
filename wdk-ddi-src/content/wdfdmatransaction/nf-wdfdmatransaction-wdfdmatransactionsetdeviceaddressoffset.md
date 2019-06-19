@@ -106,7 +106,7 @@ The following code example initializes a DMA transaction.  It then sets the offs
 <tr>
 <td>
 <pre>status = WdfDmaTransactionInitialize(
-                                     RequestContext-&gt;DmaTransaction,
+                                     RequestContext->DmaTransaction,
                                      EvtProgramDma,
                                      direction,
                                      mdl,
@@ -119,18 +119,18 @@ if(!NT_SUCCESS(status)) {
 }
 
 WdfDmaTransactionSetDeviceAddressOffset(
-                                        RequestContext-&gt;DmaTransaction,
+                                        RequestContext->DmaTransaction,
                                         READ_DATA_REGISTER_OFFSET
                                         );
 
 WdfDmaTransactionSetTransferCompleteCallback(
-                                             RequestContext-&gt;DmaTransaction,
+                                             RequestContext->DmaTransaction,
                                              EvtDmaTransactionDmaTransferComplete,
                                              RequestContext
                                              );
 
 status = WdfDmaTransactionExecute(
-                                  RequestContext-&gt;DmaTransaction, 
+                                  RequestContext->DmaTransaction, 
                                   RequestContext );
 
 if(!NT_SUCCESS(status)) {
@@ -142,7 +142,7 @@ return status;
 Complete:
 
 WdfDmaTransactionRelease(
-                         RequestContext-&gt;DmaTransaction
+                         RequestContext->DmaTransaction
                          );</pre>
 </td>
 </tr>

@@ -92,7 +92,7 @@ NDIS specifies the size of the associated memory block at
     the memory.
 
 NDIS calls 
-    <i>NetAllocateMdl</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>NetAllocateMdl</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

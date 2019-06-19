@@ -101,7 +101,7 @@ A feature that is requested is not supported.
 
 
 
-Before calling <i>MRxComputeNewBufferingState</i>, RDBSS sets the <b>FcbState</b> member of <i>SrvOpen</i><i>-&gt;Fcb</i> to FCB_STATE_BUFFERSTATE_CHANGING. 
+Before calling <i>MRxComputeNewBufferingState</i>, RDBSS sets the <b>FcbState</b> member of <i>SrvOpen</i><i>->Fcb</i> to FCB_STATE_BUFFERSTATE_CHANGING. 
 
 The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i> to map the SMB-specific oplock levels into the appropriate RDBSS buffering state flags. The oplock level is passed in the <i>MrxContext</i> parameter.
 

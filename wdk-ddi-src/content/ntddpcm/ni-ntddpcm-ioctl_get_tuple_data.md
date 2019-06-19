@@ -56,7 +56,7 @@ This request retrieves tuple data that is stored in a PC Card's or CardBus card'
 
 ### -input-buffer
 
-The caller initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a> structure, which is defined in <i>ntddpcm.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The caller initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a> structure, which is defined in <i>ntddpcm.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ The caller initializes the <a href="https://msdn.microsoft.com/library/windows/h
 
 ### -output-buffer
 
-The PCMCIA bus driver stores the requested tuple data at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The PCMCIA bus driver stores the requested tuple data at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length

@@ -167,7 +167,7 @@ A callout can call this function only to pend a packet that originates from the
     <i>Xxx</i> <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-layer-2-filtering">filtering layers</a>. A callout can
     pend the current processing operation on a packet when the callout must perform processing on one of
     these layers that may take a long interval to complete or that should occur at IRQL = PASSIVE_LEVEL if
-    the current IRQL &gt; PASSIVE_LEVEL.
+    the current IRQL > PASSIVE_LEVEL.
 
 To complete a connection that was previously pended at the FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_
     <i>Xxx</i> layer, the callout driver must reinject the packet that was cloned at that layer as well as

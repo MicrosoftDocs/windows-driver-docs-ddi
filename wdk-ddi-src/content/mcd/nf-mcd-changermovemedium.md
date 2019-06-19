@@ -96,7 +96,7 @@ This routine is required.
 
 <b>ChangerMoveMedium</b> moves a piece of media from one element to another.
 
-The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerMoveMedium</b>. <i>Irp</i><b>-&gt;SystemBuffer </b>points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551474">CHANGER_MOVE_MEDIUM</a> structure that indicates the transport element, the source, the destination, and whether to flip the medium. 
+The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerMoveMedium</b>. <i>Irp</i><b>->SystemBuffer </b>points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551474">CHANGER_MOVE_MEDIUM</a> structure that indicates the transport element, the source, the destination, and whether to flip the medium. 
 
 <b>ChangerMoveMedium</b> first verifies that the transport, source, and destination element addresses are valid and then converts zero-based element addresses to device-specific addresses. It then builds an SRB with a CDB to move the piece of media and sends it to the system port driver.
 

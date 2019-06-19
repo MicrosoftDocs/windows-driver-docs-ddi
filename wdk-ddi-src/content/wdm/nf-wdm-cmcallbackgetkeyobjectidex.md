@@ -73,7 +73,7 @@ A pointer to a location that receives a pointer to the key identifier for the re
 
 ### -param ObjectName [out, optional]
 
-A pointer to a location that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller is responsible for freeing this structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/jj215790">CmCallbackReleaseKeyObjectIDEx</a> routine. This parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
+A pointer to a location that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller is responsible for freeing this structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/jj215790">CmCallbackReleaseKeyObjectIDEx</a> routine. This parameter is optional and can be <b>NULL</b>. For more information, see Remarks.
 
 
 ### -param Flags [in]
@@ -117,7 +117,7 @@ Drivers can use <b>CmCallbackGetKeyObjectIDEx</b> to obtain the registry key ide
 
 The caller can obtain the key identifier through the <i>ObjectID</i> parameter. If two registry key objects represent the same registry key, the key identifiers obtained from <b>CmCallbackGetKeyObjectIDEx</b> for the two objects are identical. If the name of the  registry key changes, the key identifier obtained from <b>CmCallbackGetKeyObjectIDEx</b> does not change. The caller can use the key identifier to reliably track accesses that are made to a particular registry key through multiple key objects, and even across changes to the registry key name.
 
-The caller can obtain the object name through the <i>ObjectName</i> parameter. The storage for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the object name remains valid until the caller calls <a href="https://msdn.microsoft.com/library/windows/hardware/jj215790">CmCallbackReleaseKeyObjectIDEx</a> to free the structure.
+The caller can obtain the object name through the <i>ObjectName</i> parameter. The storage for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object name remains valid until the caller calls <a href="https://msdn.microsoft.com/library/windows/hardware/jj215790">CmCallbackReleaseKeyObjectIDEx</a> to free the structure.
 
 <b>CmCallbackGetKeyObjectIDEx</b> is an improved version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541895">CmCallbackGetKeyObjectID</a> routine, which is available starting with Windows Vista. Drivers that run in versions of Windows earlier than Windows 8 should call <b>CmCallbackGetKeyObjectID</b> instead of <b>CmCallbackGetKeyObjectIDEx</b>. Drivers that run only in Windows 8 and later versions of Windows should call <b>CmCallbackGetKeyObjectIDEx</b> instead of <b>CmCallbackGetKeyObjectID</b>.
 
@@ -157,7 +157,7 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

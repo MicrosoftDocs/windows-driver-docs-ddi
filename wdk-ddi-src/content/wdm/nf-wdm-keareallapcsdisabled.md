@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.KeAreAllApcsDisabled
 title: KeAreAllApcsDisabled function (wdm.h)
-description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
+description: The KeAreAllApcsDisabled routine indicates whether the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, which disables all APC delivery.
 old-location: kernel\keareallapcsdisabled.htm
 tech.root: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
+The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, which disables all APC delivery.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is 
 
 
 
-<b>KeAreAllApcsDisabled</b> returns <b>TRUE</b> if the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, and <b>FALSE</b> otherwise.
+<b>KeAreAllApcsDisabled</b> returns <b>TRUE</b> if the calling thread is inside a guarded region or running at IRQL >= APC_LEVEL, and <b>FALSE</b> otherwise.
 
 
 
@@ -69,7 +69,7 @@ The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is 
 
 
 
-A thread inside a guarded region or running at IRQL &gt;= APC_LEVEL has all APCs disabled, including special kernel APCs.
+A thread inside a guarded region or running at IRQL >= APC_LEVEL has all APCs disabled, including special kernel APCs.
 
 
 

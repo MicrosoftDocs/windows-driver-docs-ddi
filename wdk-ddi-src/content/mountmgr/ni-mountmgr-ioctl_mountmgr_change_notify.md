@@ -68,7 +68,7 @@ If the number supplied by the client is equal to <i>EpicNumber</i>, the mount ma
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length
@@ -78,7 +78,7 @@ The mount manager client initializes the <a href="https://msdn.microsoft.com/lib
 
 ### -output-buffer
 
-The mount manager returns the current <i>EpicNumber</i> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager returns the current <i>EpicNumber</i> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562273">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

@@ -73,7 +73,7 @@ Variable-length array that specifies an <a href="https://msdn.microsoft.com/libr
 
 
 
-When a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> to register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine, <b>IoConnectInterruptEx</b> provides a pointer to <b>IO_INTERRUPT_MESSAGE_INFO</b> in <i>Parameters</i>-&gt;<b>MessageBased.ConnectionContext</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
+When a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> to register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine, <b>IoConnectInterruptEx</b> provides a pointer to <b>IO_INTERRUPT_MESSAGE_INFO</b> in <i>Parameters</i>-><b>MessageBased.ConnectionContext</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
 
 

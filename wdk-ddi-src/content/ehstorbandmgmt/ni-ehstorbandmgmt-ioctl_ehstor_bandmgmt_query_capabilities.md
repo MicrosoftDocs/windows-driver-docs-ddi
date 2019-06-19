@@ -66,7 +66,7 @@ None.
 
 ### -output-buffer
 
-The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
+The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
 
 
 ### -output-buffer-length

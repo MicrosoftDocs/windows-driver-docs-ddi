@@ -71,12 +71,12 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>-type information in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552618">DISK_GEOMETRY_EX</a>-type information in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the IO_STACK_LOCATION structure of the IRP indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(DISK_GEOMETRY_EX).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the IO_STACK_LOCATION structure of the IRP indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(DISK_GEOMETRY_EX).
 
 
 ### -in-out-buffer

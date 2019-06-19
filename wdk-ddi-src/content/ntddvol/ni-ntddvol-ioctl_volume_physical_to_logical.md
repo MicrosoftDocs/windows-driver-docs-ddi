@@ -61,7 +61,7 @@ The volume manager supports this IOCTL as described for all types of basic and d
 
 ### -input-buffer
 
-Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -output-buffer
 
-The volume manager returns the logical offset in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The volume manager returns the logical offset in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length

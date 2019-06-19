@@ -119,7 +119,7 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
     __in IWDFRemoteTarget* FxTarget
     )
 {
- if (S_OK == (FxTarget-&gt;Reopen()))
+ if (S_OK == (FxTarget->Reopen()))
     {
     //
     // Resume sending I/O requests to the remote target.
@@ -128,7 +128,7 @@ CMyRemoteTarget::OnRemoteTargetRemoveCanceled(
     }
  else
     {
-       FxTarget-&gt;Close();
+       FxTarget->Close();
     }
 }</pre>
 </td>

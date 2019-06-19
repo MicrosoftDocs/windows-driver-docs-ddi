@@ -108,7 +108,7 @@ Its pitch must be returned by the display miniport driver.
 
 </li>
 <li>
-Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
+Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>->PresentationCaps.AlignmentShift).
 
 </li>
 </ul>
@@ -150,7 +150,7 @@ The format is defined by the D3DDDIFMT_A8 value of the <a href="https://msdn.mic
 
 </li>
 <li>
-The gamma lookup allocation is created one time and never changes after it is initialized. The allocation is initialized in D3DDDIFMT_A8 format by issuing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>-&gt;Opcode.DXGK_GDIOP_BITBLT command from a D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE surface.
+The gamma lookup allocation is created one time and never changes after it is initialized. The allocation is initialized in D3DDDIFMT_A8 format by issuing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>->Opcode.DXGK_GDIOP_BITBLT command from a D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE surface.
 
 </li>
 </ul>
@@ -165,7 +165,7 @@ It is visible to the CPU. The allocation must be a linear format and in a cache-
 
 </li>
 <li>
-Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>-&gt;PresentationCaps.AlignmentShift).
+Its pitch value and surface address must be aligned to the value of the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>->PresentationCaps.AlignmentShift).
 
 </li>
 <li>

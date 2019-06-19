@@ -67,7 +67,7 @@ The <b>IOCTL_LAMP_SET_EMITTING_LIGHT</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <b>BOOLEAN</b>, with <b>TRUE</b> indicating a request to turn the lamp on; <b>FALSE</b> otherwise.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <b>BOOLEAN</b>, with <b>TRUE</b> indicating a request to turn the lamp on; <b>FALSE</b> otherwise.
 
 
 ### -input-buffer-length
@@ -105,7 +105,7 @@ None.
 
 ### -status-block
 
-The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
+The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
 
-If the device has been acquired by a camera driver, the lamp driver should return a <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp-&gt;IoStatus.Status</code>.
+If the device has been acquired by a camera driver, the lamp driver should return a <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
 

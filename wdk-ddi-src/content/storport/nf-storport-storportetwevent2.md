@@ -71,7 +71,7 @@ A miniport defined identifier for the ETW event.
 
 ### -param EventDescription [in]
 
-The description text for the event. This text string must be &lt;= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
+The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
 
 
 ### -param EventKeywords [in]
@@ -320,7 +320,7 @@ A pointer to the SRB associated with the logged event. If this parameter contain
 
 ### -param Parameter1Name [in, optional]
 
-A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter1Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter1Value [in]
@@ -330,7 +330,7 @@ The value for parameter 1.
 
 ### -param Parameter2Name [in, optional]
 
-A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be &lt;= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the of the meaning of <i>Parameter2Value</i>. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
 
 
 ### -param Parameter2Value [in]

@@ -134,9 +134,9 @@ Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
 
 ### -status-block
 
-If the request succeeds, <i>IoStatusBlock</i>-&gt;<b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the output buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain all the output arguments from the control method, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW, and  <i>OutputBuffer</i>-&gt;<b>Length</b> is set to the required length of the output buffer.
+If the request succeeds, <i>IoStatusBlock</i>-><b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the output buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain all the output arguments from the control method, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW, and  <i>OutputBuffer</i>-><b>Length</b> is set to the required length of the output buffer.
 
-If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
+If the request succeeds, the <i>IoStatusBlock</i>-><b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
 
 
 ## -remarks
@@ -171,7 +171,7 @@ A driver can also use an <a href="https://msdn.microsoft.com/library/windows/har
 
 For information about how to evaluate an ACPI control method asynchronously starting on Windows Server 2008 and Windows Vista, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536145">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536146">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>.
 
-IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL &lt; DISPATCH_LEVEL.
+IOCTL_ACPI_EVAL_METHOD_EX can be used only at IRQL < DISPATCH_LEVEL.
 
 
 

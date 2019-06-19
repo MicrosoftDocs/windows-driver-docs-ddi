@@ -163,18 +163,18 @@ The following code example shows how to obtain a common buffer. The example stor
 </tr>
 <tr>
 <td>
-<pre>DevExt-&gt;CommonBufferSize = sizeof(COMMON_BUFFER_STRUCT);  // Your structure size
+<pre>DevExt->CommonBufferSize = sizeof(COMMON_BUFFER_STRUCT);  // Your structure size
 status = WdfCommonBufferCreate(
-                               DevExt-&gt;DmaEnabler,
-                               DevExt-&gt;CommonBufferSize,
+                               DevExt->DmaEnabler,
+                               DevExt->CommonBufferSize,
                                WDF_NO_OBJECT_ATTRIBUTES,
-                               &amp;DevExt-&gt;CommonBuffer
+                               &DevExt->CommonBuffer
                                );
 if (status == STATUS_SUCCESS) {
-    DevExt-&gt;CommonBufferBaseVA = 
-        WdfCommonBufferGetAlignedVirtualAddress(DevExt-&gt;CommonBuffer);
-    DevExt-&gt;CommonBufferBaseLA =
-        WdfCommonBufferGetAlignedLogicalAddress(DevExt-&gt;CommonBuffer); 
+    DevExt->CommonBufferBaseVA = 
+        WdfCommonBufferGetAlignedVirtualAddress(DevExt->CommonBuffer);
+    DevExt->CommonBufferBaseLA =
+        WdfCommonBufferGetAlignedLogicalAddress(DevExt->CommonBuffer); 
 }</pre>
 </td>
 </tr>

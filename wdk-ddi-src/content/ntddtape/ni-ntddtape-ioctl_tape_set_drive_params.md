@@ -60,12 +60,12 @@ Adjusts a tape drive's configurable parameters. The miniclass driver can ignore 
 ### -input-buffer
 
 
-       The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the values to be set. 
+       The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the values to be set. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_SET_DRIVE_PARAMETERS). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_SET_DRIVE_PARAMETERS). 
 
 
 ### -output-buffer

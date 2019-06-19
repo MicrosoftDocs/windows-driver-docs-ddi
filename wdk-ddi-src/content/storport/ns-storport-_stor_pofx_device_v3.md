@@ -171,7 +171,7 @@ The adapter idle timeout value in milliseconds. This value is only valid when ST
 
 ### -field MinimumPowerCyclePeriodInMS
 
-Indicates that the device should not be power cycled (D0 -&gt; D3 -&gt; D0) more than once per the given period in Milliseconds. This member is only valid when the STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT flag has been set.
+Indicates that the device should not be power cycled (D0 -> D3 -> D0) more than once per the given period in Milliseconds. This member is only valid when the STOR_POFX_DEVICE_FLAG_ADAPTIVE_D3_IDLE_TIMEOUT flag has been set.
 
 
 ### -field Components

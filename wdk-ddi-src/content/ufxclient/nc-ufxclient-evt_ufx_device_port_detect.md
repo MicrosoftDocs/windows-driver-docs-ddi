@@ -116,7 +116,7 @@ Arguments:
     PCONTROLLER_CONTEXT ControllerContext;
 
     DeviceContext = UfxDeviceGetContext(UfxDevice);
-    ControllerContext = DeviceGetControllerContext(DeviceContext-&gt;FdoWdfDevice);
+    ControllerContext = DeviceGetControllerContext(DeviceContext->FdoWdfDevice);
 
     //
     // #### TODO: Insert code to determine port/charger type ####
@@ -127,7 +127,7 @@ Arguments:
     // an invalid charger type, which will allow the controller to exit D0.
     //
 
-    UfxDevicePortDetectComplete(ControllerContext-&gt;UfxDevice, UsbfnUnknownPort);
+    UfxDevicePortDetectComplete(ControllerContext->UfxDevice, UsbfnUnknownPort);
 }
 </pre>
 </td>

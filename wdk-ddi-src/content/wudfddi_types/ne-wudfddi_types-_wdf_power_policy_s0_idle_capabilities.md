@@ -98,10 +98,10 @@ The following code examples show how to enable idle support for a USB device. In
 </tr>
 <tr>
 <td>
-<pre>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&amp;idleSettings,
+<pre>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&idleSettings,
                                            IdleUsbSelectSuspend);
 status = WdfDeviceAssignS0IdleSettings(device,
-                                       &amp;idleSettings);
+                                       &idleSettings);
 if (status == STATUS_POWER_STATE_INVALID){
     //
     // The device probably does not support wake. 
@@ -109,7 +109,7 @@ if (status == STATUS_POWER_STATE_INVALID){
     //
     idleSettings.IdleCaps = IdleCannotWakeFromS0;
     status = WdfDeviceAssignS0IdleSettings(device,
-                                           &amp;IdleSettings);
+                                           &IdleSettings);
     if (!NT_SUCCESS(status) {...}
  }
 else {...}</pre>
@@ -124,7 +124,7 @@ else {...}</pre>
 </tr>
 <tr>
 <td>
-<pre>hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleUsbSelectSuspend,
+<pre>hr = pIWDFDevice2->AssignS0IdleSettings(IdleUsbSelectSuspend,
                                         PowerDeviceD3,
                                         IDLEWAKE_TIMEOUT_MSEC,
                                         IdleAllowUserControl,
@@ -134,7 +134,7 @@ if (hr == HRESULT_FROM_NT(STATUS_POWER_STATE_INVALID)){
     // The device probably does not support wake. 
     // It might support idle without wake.
     //
-    hr = pIWDFDevice2-&gt;AssignS0IdleSettings(IdleCannotWakeFromS0,
+    hr = pIWDFDevice2->AssignS0IdleSettings(IdleCannotWakeFromS0,
                                          PowerDeviceD3,
                                          IDLEWAKE_TIMEOUT_MSEC,
                                          IdleAllowUserControl,

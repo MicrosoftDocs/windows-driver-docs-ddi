@@ -67,7 +67,7 @@ Opaque volume pointer for the volume that the minifilter driver instance is to b
 
 ### -param InstanceName [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolume</b> attempts to read the minifilter driver's default instance name from the registry. (For more information about this parameter, see the following Remarks section.) 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolume</b> attempts to read the minifilter driver's default instance name from the registry. (For more information about this parameter, see the following Remarks section.) 
 
 
 ### -param RetInstance [out]
@@ -199,7 +199,7 @@ To detach a minifilter driver instance from a volume, call <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

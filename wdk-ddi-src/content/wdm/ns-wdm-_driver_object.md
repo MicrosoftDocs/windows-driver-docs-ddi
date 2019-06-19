@@ -93,7 +93,7 @@ Pointer to the device objects created by the driver. This member is automaticall
 
 ### -field DriverExtension
 
-Pointer to the driver extension. The only accessible member of the driver extension is <b>DriverExtension-&gt;AddDevice</b>, into which a driver's <b>DriverEntry</b> routine stores the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
+Pointer to the driver extension. The only accessible member of the driver extension is <b>DriverExtension->AddDevice</b>, into which a driver's <b>DriverEntry</b> routine stores the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 
 ### -field DriverName

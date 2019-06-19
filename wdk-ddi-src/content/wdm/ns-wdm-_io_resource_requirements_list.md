@@ -106,11 +106,11 @@ Each alternative list begins with an <b>IO_RESOURCE_LIST</b> structure, which se
 </tr>
 <tr>
 <td>
-<pre>    list = (PIO_RESOURCE_LIST)(list-&gt;Descriptors + list-&gt;Count);</pre>
+<pre>    list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);</pre>
 </td>
 </tr>
 </table></span></div>
-In this example, <code>list-&gt;Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list-&gt;Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550600">IO_RESOURCE_LIST</a>.
+In this example, <code>list->Descriptors</code> is a pointer to the start of the <b>IO_RESOURCE_DESCRIPTOR</b> array, and <code>list->Count</code> is the number of elements in the array. For more information about the <b>Descriptors</b> and <b>Count</b> members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550600">IO_RESOURCE_LIST</a>.
 
 
 #### Examples
@@ -131,19 +131,19 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 {
     PIO_RESOURCE_LIST list;
 
-    list = reqlist-&gt;List;
+    list = reqlist->List;
 
-    for (int ix = 0; ix &lt; reqlist-&gt;AlternativeLists; ++ix)
+    for (int ix = 0; ix < reqlist->AlternativeLists; ++ix)
     {
         /* Process resources in IO_RESOURCE_LIST block number ix. */
 
-        for (int jx = 0; jx &lt; list-&gt;Count; ++jx)
+        for (int jx = 0; jx < list->Count; ++jx)
         {
             PIO_RESOURCE_DESCRIPTOR desc; 
 
-            desc = list-&gt;Descriptors + jx;
+            desc = list->Descriptors + jx;
 
-            switch (desc-&gt;Type)
+            switch (desc->Type)
             {
                /* Process element jx in Descriptors array. */
 
@@ -154,7 +154,7 @@ BOOLEAN FilterResources(PIO_RESOURCE_REQUIREMENTS_LIST reqlist)
 
         /* Advance to next IO_RESOURCE_LIST block in memory. */
 
-        list = (PIO_RESOURCE_LIST)(list-&gt;Descriptors + list-&gt;Count);
+        list = (PIO_RESOURCE_LIST)(list->Descriptors + list->Count);
     }
 
     return FALSE;

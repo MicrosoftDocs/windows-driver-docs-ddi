@@ -115,7 +115,7 @@ The  request indicates that the virtualization stack wants to register for Plug 
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
@@ -154,7 +154,7 @@ These events (defined in <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a> generates <b>SriovEventPfSurpriseRemoveDevice</b>.
 </li>
 </ul>
-In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver maintains PnP states in its device context. The deviceContext-&gt;PnpRebalancing is set to TRUE, when the driver receives IRP_MN_QUERY_STOP_DEVICE and set to FALSE when it receives IRP_MN_START_DEVICE.
+In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver maintains PnP states in its device context. The deviceContext->PnpRebalancing is set to TRUE, when the driver receives IRP_MN_QUERY_STOP_DEVICE and set to FALSE when it receives IRP_MN_START_DEVICE.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -165,7 +165,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 <pre>    case IOCTL_SRIOV_ATTACH:
         TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, "IOCTL_SRIOV_ATTACH:\n");
 
-        WdfWaitLockAcquire(fdoContext-&gt;PnpStateLock, NULL);
+        WdfWaitLockAcquire(fdoContext->PnpStateLock, NULL);
 
         //
         // Block until it is safe for the VSP to attach.  Don't
@@ -175,32 +175,32 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
         // waiting for the safe-to-attach event must not be done while
         // holding the state lock.
         //
-        while (fdoContext-&gt;PnpSafeToAttach == FALSE)
+        while (fdoContext->PnpSafeToAttach == FALSE)
         {
-            WdfWaitLockRelease(fdoContext-&gt;PnpStateLock);
+            WdfWaitLockRelease(fdoContext->PnpStateLock);
 
-            KeWaitForSingleObject(&amp;fdoContext-&gt;PnpSafeEvent,
+            KeWaitForSingleObject(&fdoContext->PnpSafeEvent,
                                   Executive,
                                   KernelMode,
                                   FALSE,
                                   NULL);
 
-            WdfWaitLockAcquire(fdoContext-&gt;PnpStateLock, NULL);
+            WdfWaitLockAcquire(fdoContext->PnpStateLock, NULL);
         }
 
         //
         // Allow only a single attach at any time.
         //
-        if (fdoContext-&gt;PnpVspAttached == FALSE)
+        if (fdoContext->PnpVspAttached == FALSE)
         {
-            fdoContext-&gt;PnpVspAttached = TRUE;
+            fdoContext->PnpVspAttached = TRUE;
             status = STATUS_SUCCESS;
         }
         else
         {
             status = STATUS_SHARING_VIOLATION;
         }
-        WdfWaitLockRelease(fdoContext-&gt;PnpStateLock);
+        WdfWaitLockRelease(fdoContext->PnpStateLock);
 
         break;
 </pre>

@@ -87,7 +87,7 @@ None
 
 
 
-<b>CcScheduleReadAheadEx</b> should be called only when <i>Length</i> &gt;= 256. Measurements have shown that calling <b>CcScheduleReadAheadEx</b> for smaller reads actually decreases performance.
+<b>CcScheduleReadAheadEx</b> should be called only when <i>Length</i> >= 256. Measurements have shown that calling <b>CcScheduleReadAheadEx</b> for smaller reads actually decreases performance.
 
 <b>CcScheduleReadAheadEx</b> can only be called after a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh971560">CcCopyReadEx</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539067">CcFastCopyRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
 

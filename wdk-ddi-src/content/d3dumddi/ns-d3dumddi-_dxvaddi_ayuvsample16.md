@@ -83,7 +83,7 @@ A value of 0 in the <b>Alpha</b> member indicates that the pixel is transparent 
 For nonzero values of <b>Alpha</b>, the blend to use is calculated by the following expression:
 
 ```cpp
-( ( ( (Alpha + 1) x (graphic value) ) + ( (255 - Alpha) x (picture value) ) )  + 128 ) &gt;&gt; 8
+( ( ( (Alpha + 1) x (graphic value) ) + ( (255 - Alpha) x (picture value) ) )  + 128 ) >> 8
 ```
 
 If <b>Alpha</b> is 0, the specified blend to use is the picture value without alteration. 

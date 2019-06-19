@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDataModelManager2
 title: IDataModelManager2 (dbgmodel.h)
 description: The second version of the interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. 
 ms.assetid: 3cdf03e0-7682-4b98-906c-b4fcacc844a4
-ms.date: 07/13/2018
+ms.date: 06/11/2019
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -39,8 +39,9 @@ ms.custom: RS5
 
 The second version of the interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types. 
 
-This interface is never directly implemented by a client. 
+This interface is never directly implemented by a client.
 
+This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
 IDataModelManager2 interits from IDataModelManager. 

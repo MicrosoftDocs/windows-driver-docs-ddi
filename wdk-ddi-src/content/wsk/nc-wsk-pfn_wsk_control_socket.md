@@ -323,7 +323,7 @@ If the
     <b>WskControlSocket</b> function until after the IRP is completed.
 
 Callers of the 
-    <b>WskControlSocket</b> function must be running at IRQL &lt;= DISPATCH_LEVEL except when the 
+    <b>WskControlSocket</b> function must be running at IRQL <= DISPATCH_LEVEL except when the 
     <i>RequestType</i> parameter is set to 
     <b>WskIoctl</b> and the 
     <i>ControlCode</i> parameter is set to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570815">SIO_ADDRESS_LIST_QUERY</a>, 

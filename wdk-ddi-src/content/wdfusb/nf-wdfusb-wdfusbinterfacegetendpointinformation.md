@@ -118,13 +118,13 @@ numEndpoints = WdfUsbInterfaceGetNumEndpoints(
                                           settingIndex
                                           );
 
-for (i = 0; i &lt; numEndpoints; i++){
-    WDF_USB_PIPE_INFORMATION_INIT(&amp;endPointInfo);
+for (i = 0; i < numEndpoints; i++){
+    WDF_USB_PIPE_INFORMATION_INIT(&endPointInfo);
     WdfUsbInterfaceGetEndpointInformation(
                                           UsbInterface,
                                           settingIndex,
                                           i,
-                                          &amp;endPointInfo
+                                          &endPointInfo
                                           );
 
     //

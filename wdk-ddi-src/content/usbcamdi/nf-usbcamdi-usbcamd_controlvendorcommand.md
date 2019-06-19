@@ -143,7 +143,7 @@ There are insufficient resources to allocate the vendor command.
 
 
 
-This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
+This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
 
 
 

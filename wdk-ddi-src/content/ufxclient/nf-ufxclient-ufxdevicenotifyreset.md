@@ -127,16 +127,16 @@ Arguments:
     //
 
 
-    ControllerContext-&gt;Speed = DeviceSpeed;
+    ControllerContext->Speed = DeviceSpeed;
     TraceInformation("Connected Speed is %d!", DeviceSpeed);
 
     //
     // Notify UFX about reset, which will take care of updating 
     // Max Packet Size for EP0 by calling descriptor update.
     //
-    UfxDeviceNotifyReset(ControllerContext-&gt;UfxDevice, DeviceSpeed);
+    UfxDeviceNotifyReset(ControllerContext->UfxDevice, DeviceSpeed);
 
-    ControllerContext-&gt;Connect = TRUE;
+    ControllerContext->Connect = TRUE;
 
     TraceExit();
 }</pre>

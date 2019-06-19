@@ -82,11 +82,11 @@ If the HLOS needs to initiate any new location request, for example to enable th
 
 <ul>
 <li>
-<b>GNSS_SetLocationServiceEnabled</b> set to TRUE=1-&gt; Enabled
+<b>GNSS_SetLocationServiceEnabled</b> set to TRUE=1-> Enabled
 
 </li>
 <li>
-<b>GNSS_SetLocationServiceEnabled</b> set to FALSE=0-&gt; Disabled
+<b>GNSS_SetLocationServiceEnabled</b> set to FALSE=0-> Disabled
 
 </li>
 </ul>
@@ -100,11 +100,11 @@ The associated command data is a <b>BOOL</b>.
 
 <ul>
 <li>
-<b>GNSS_SetLocationNIRequestAllowed</b> set to TRUE=1-&gt; Allow
+<b>GNSS_SetLocationNIRequestAllowed</b> set to TRUE=1-> Allow
 
 </li>
 <li>
-<b>GNSS_SetLocationNIRequestAllowed</b> set to FALSE=0-&gt; NotAllow
+<b>GNSS_SetLocationNIRequestAllowed</b> set to FALSE=0-> NotAllow
 
 </li>
 </ul>

@@ -101,7 +101,7 @@ The following code example obtains a handle to the first USB interface object th
 BYTE  numEndpoints;
 
 UsbInterface = WdfUsbTargetDeviceGetInterface(
-                                              deviceContext-&gt;UsbTargetDevice,
+                                              deviceContext->UsbTargetDevice,
                                               0
                                               );
 numEndpoints = WdfUsbInterfaceGetNumEndpoints(

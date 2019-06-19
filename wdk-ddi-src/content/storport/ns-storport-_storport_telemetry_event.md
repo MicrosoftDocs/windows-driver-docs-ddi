@@ -91,7 +91,7 @@ A miniport defined telemetry payload, the length of which is <b>EventBufferLengt
 
 ### -field ParameterName0
 
-A description of the of the meaning of ParameterValue0. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue0. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue0
@@ -101,7 +101,7 @@ The value for parameter 0.
 
 ### -field ParameterName1
 
-A description of the of the meaning of ParameterValue1. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue1. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue1
@@ -111,7 +111,7 @@ The value for parameter 1.
 
 ### -field ParameterName2
 
-A description of the of the meaning of ParameterValue2. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue2. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue2
@@ -121,7 +121,7 @@ The value for parameter 2.
 
 ### -field ParameterName3
 
-A description of the of the meaning of ParameterValue3. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue3. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue3
@@ -131,7 +131,7 @@ The value for parameter 3.
 
 ### -field ParameterName4
 
-A description of the of the meaning of ParameterValue4. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue4. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue4
@@ -141,7 +141,7 @@ The value for parameter 4.
 
 ### -field ParameterName5
 
-A description of the of the meaning of ParameterValue5. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue5. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue5
@@ -151,7 +151,7 @@ The value for parameter 5.
 
 ### -field ParameterName6
 
-A description of the of the meaning of ParameterValue6. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue6. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue6
@@ -161,7 +161,7 @@ The value for parameter 6.
 
 ### -field ParameterName7
 
-A description of the of the meaning of ParameterValue7. This parameter name string must be &lt;= EVENT_MAX_PARAM_NAME_LEN.
+A description of the of the meaning of ParameterValue7. This parameter name string must be <= EVENT_MAX_PARAM_NAME_LEN.
 
 
 ### -field ParameterValue7

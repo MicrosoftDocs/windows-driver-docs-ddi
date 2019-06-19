@@ -108,7 +108,7 @@ For more information about memory management, see <a href="https://msdn.microsof
 
 When the buffer that <b>FltAllocatePoolAlignedWithTag</b> allocates is no longer needed, the caller is responsible for freeing it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff542979">FltFreePoolAlignedWithTag</a>. 
 
-Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_LEVEL only if a NonPaged<i>XxxPoolType</i> is specified. Otherwise, callers must be running at IRQL &lt;= APC_LEVEL. 
+Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_LEVEL only if a NonPaged<i>XxxPoolType</i> is specified. Otherwise, callers must be running at IRQL <= APC_LEVEL. 
 
 
 

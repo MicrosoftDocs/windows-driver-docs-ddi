@@ -218,7 +218,7 @@ Do not allocate storage for the Buffer members of CurrentComponent
 and RemainingComponent in that they will point into the previoulsy
 allocated storage of FullPathName's Buffer member:
 */
-FsRtlDissectName (FullPathName, &amp;CurrentComponent, &amp;RemainingComponent);
+FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 .
 .
 .</pre>
@@ -235,7 +235,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

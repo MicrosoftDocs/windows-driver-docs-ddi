@@ -56,7 +56,7 @@ A configured band on a storage device is deleted with the <b>IOCTL_EHSTOR_BANDMG
 
 ### -input-buffer
 
-The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
+The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
 
 If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 

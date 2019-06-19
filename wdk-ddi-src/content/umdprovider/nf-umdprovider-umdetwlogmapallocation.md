@@ -111,7 +111,7 @@ Examples of when to call this function are:
 </ul>
 <b>UMDEtwLogMapAllocation</b> is defined inline in Umdprovider.h as:
 
-```
+```cpp
 FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
                     ULONGLONG hD3DAllocation,
                     ULONGLONG hDxgAllocation,
@@ -125,17 +125,17 @@ FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
         EVENT_DATA_DESCRIPTOR Descriptors[6];
         
         // Create a description of the event
-        EventDataDescCreate(&amp;Descriptors[0], &amp;hD3DAllocation, 8);
-        EventDataDescCreate(&amp;Descriptors[1], &amp;hDxgAllocation, 8);
-        EventDataDescCreate(&amp;Descriptors[2], &amp;Offset, 8);
-        EventDataDescCreate(&amp;Descriptors[3], &amp;Size, 8);
-        EventDataDescCreate(&amp;Descriptors[4], &amp;Usage, 4);
-        EventDataDescCreate(&amp;Descriptors[5], &amp;Semantic, 4);
+        EventDataDescCreate(&Descriptors[0], &hD3DAllocation, 8);
+        EventDataDescCreate(&Descriptors[1], &hDxgAllocation, 8);
+        EventDataDescCreate(&Descriptors[2], &Offset, 8);
+        EventDataDescCreate(&Descriptors[3], &Size, 8);
+        EventDataDescCreate(&Descriptors[4], &Usage, 4);
+        EventDataDescCreate(&Descriptors[5], &Semantic, 4);
 
         // Log the event
         EventWrite(
             RegHandle,
-            Enter ? (InRundown ? &amp;RundownAllocationEvent : &amp;MapAllocationEvent) : &amp;UnmapAllocationEvent,
+            Enter ? (InRundown ? &RundownAllocationEvent : &MapAllocationEvent) : &UnmapAllocationEvent,
             sizeof(Descriptors) / sizeof(Descriptors[0]),
             Descriptors
         );

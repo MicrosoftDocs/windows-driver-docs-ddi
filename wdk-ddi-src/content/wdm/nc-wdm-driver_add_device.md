@@ -79,7 +79,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 All kernel-mode drivers that support PnP must provide an <i>AddDevice</i> routine.
 
-A driver's <i>AddDevice</i> routine should be named <i>Xxx</i><code>AddDevice</code>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>AddDevice</i> routine's address in <b>DriverObject-&gt;DriverExtension-&gt;AddDevice</b>.
+A driver's <i>AddDevice</i> routine should be named <i>Xxx</i><code>AddDevice</code>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>AddDevice</i> routine's address in <b>DriverObject->DriverExtension->AddDevice</b>.
 
 An <i>AddDevice</i> routine's primary responsibilities are calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> to create a device object, then calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a> to attach the device object to the device stack. For detailed information about implementing a driver's <i>AddDevice</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566398">Writing an AddDevice Routine</a>.
 

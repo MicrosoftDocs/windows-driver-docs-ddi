@@ -80,9 +80,9 @@ The Base Station ID - the base station color code and the network identity code.
 
 The received signal strength (RSS) of the serving cell (0-63), where
 
-`X = 0, if RSS &lt; -110 dBm`
+`X = 0, if RSS < -110 dBm`
 
-`X = 63, if RSS &gt; -47 dBm`
+`X = 63, if RSS > -47 dBm`
 
 `X = integer [RSS + 110], if -110 <= RSS <= -47`
 

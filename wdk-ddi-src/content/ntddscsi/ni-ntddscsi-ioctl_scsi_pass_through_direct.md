@@ -1,7 +1,7 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_PASS_THROUGH_DIRECT
 title: IOCTL_SCSI_PASS_THROUGH_DIRECT (ntddscsi.h)
-description: Allows an application to send almost any SCSI command to a target device, with the following restrictions:Multitarget commands, such as COPY, are not allowed.Bidirectional data transfer operations are not supported.If a class driver for the target type of device exists, the request must be sent to that class driver. Thus, an application can send this request directly to the system port driver for a target logical unit only if there is no class driver for the type of device connected to that LU.This request must be made if the input CDB might require the underlying miniport driver to access memory directly.The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. If the CDB requests a data transfer operation, the caller must set up an adapter device aligned buffer from which or into which the miniport driver can transfer data directly. This request is typically used for transferring larger amounts of data (&gt;16K).Applications can send this request by means of an IRP_MJ_DEVICE_CONTROL request. Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver.
+description: Allows an application to send almost any SCSI command to a target device, with the following restrictions:Multitarget commands, such as COPY, are not allowed.Bidirectional data transfer operations are not supported.If a class driver for the target type of device exists, the request must be sent to that class driver. Thus, an application can send this request directly to the system port driver for a target logical unit only if there is no class driver for the type of device connected to that LU.This request must be made if the input CDB might require the underlying miniport driver to access memory directly.The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. If the CDB requests a data transfer operation, the caller must set up an adapter device aligned buffer from which or into which the miniport driver can transfer data directly. This request is typically used for transferring larger amounts of data (>16K).Applications can send this request by means of an IRP_MJ_DEVICE_CONTROL request. Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver.
 old-location: storage\ioctl_scsi_pass_through_direct.htm
 tech.root: storage
 ms.assetid: 7706e861-b8d6-41c3-9b64-371de4f58d48
@@ -67,7 +67,7 @@ This request <i>must</i> be made if the input CDB might require the underlying m
 
 </li>
 </ul>
-The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. If the CDB requests a data transfer operation, the caller must set up an adapter device aligned buffer from which or into which the miniport driver can transfer data directly. This request is typically used for transferring larger amounts of data (&gt;16K).
+The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. If the CDB requests a data transfer operation, the caller must set up an adapter device aligned buffer from which or into which the miniport driver can transfer data directly. This request is typically used for transferring larger amounts of data (>16K).
 
 Applications can send this request by means of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> request. 
 
@@ -89,12 +89,12 @@ This structure includes a SCSI CDB, which must be initialized by the caller exce
 ### -input-buffer-length
 
 <i>
-       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a>)). The size of the <b>SCSI_PASS_THROUGH_DIRECT</b> structure is fixed.
+       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a>)). The size of the <b>SCSI_PASS_THROUGH_DIRECT</b> structure is fixed.
 
 
 ### -output-buffer
 
-The port driver returns any request-sense data and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> structure to the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. 
+The port driver returns any request-sense data and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> structure to the buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>. 
 
 
 ### -output-buffer-length
@@ -126,7 +126,7 @@ The port driver returns any request-sense data and the <a href="https://msdn.mic
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. The Status field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> is improperly set or the buffer specifed in  <b>DataBuffer</b> is not properly device aligned.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>. The Status field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> is improperly set or the buffer specifed in  <b>DataBuffer</b> is not properly device aligned.
 
 
 
@@ -138,13 +138,7 @@ For data transfer operations, a buffer with alignment  matching the adapter devi
 
 In the following  example function, a   buffer is prepared as a device  aligned data transfer buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
 PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBuffer)
 {
     PVOID AlignedBuffer;
@@ -164,15 +158,12 @@ PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBu
         // return the original buffer to free later
         *pUnAlignedBuffer = AlignedBuffer;
         // adjust buffer pointer for the desired alignment
-        AlignedBuffer = (PVOID)(((ULONG_PTR)AlignedBuffer + FullWordMask) &amp; ~FullWordMask);
+        AlignedBuffer = (PVOID)(((ULONG_PTR)AlignedBuffer + FullWordMask) & ~FullWordMask);
     }
 
     return AlignedBuffer;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

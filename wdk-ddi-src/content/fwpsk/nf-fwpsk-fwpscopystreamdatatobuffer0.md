@@ -96,7 +96,7 @@ None.
 
 
 To copy all indicated data to the receiving buffer, ensure that the buffer is at least 
-    <i>calloutStreamData</i> -&gt;
+    <i>calloutStreamData</i> ->
     <b>DataLength</b> in size.
 
 

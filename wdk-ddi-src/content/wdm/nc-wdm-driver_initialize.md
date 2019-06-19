@@ -79,7 +79,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 The <i>DriverObject</i> parameter supplies the <b>DriverEntry</b> routine with a pointer to the driver's driver object, which is allocated by the I/O manager. The <b>DriverEntry</b> routine must fill in the driver object with entry points for the driver's standard routines.
 
-The <i>DriverObject</i> pointer gives the driver access to <i>DriverObject-</i>&gt;<b>HardwareDatabase</b>, which points to a counted Unicode string that specifies a path to the registry's <b>\Registry\Machine\Hardware</b> tree.
+The <i>DriverObject</i> pointer gives the driver access to <i>DriverObject-</i>><b>HardwareDatabase</b>, which points to a counted Unicode string that specifies a path to the registry's <b>\Registry\Machine\Hardware</b> tree.
 
 The registry path string pointed to by <i>RegistryPath</i> is of the form <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b>. A driver can use this path to store driver-specific information; see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Keys for Drivers</a>. The <b>DriverEntry</b> routine should save a copy of the Unicode string, not the pointer, since the I/O manager frees the <i>RegistryPath</i> buffer after <b>DriverEntry</b> returns.
 

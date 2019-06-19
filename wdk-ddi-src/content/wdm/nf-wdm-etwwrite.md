@@ -127,21 +127,21 @@ Events can be lost for several reasons; for example, if the event rate is too hi
  //                      Status
  //
  
- EventDataDescCreate(&amp;EventDataDescriptor[0],
-                            (PVOID)&amp;DeviceName.Length,
+ EventDataDescCreate(&EventDataDescriptor[0],
+                            (PVOID)&DeviceName.Length,
  sizeof(USHORT));
  
 
- EventDataDescCreate(&amp;EventDataDescriptor[1],
+ EventDataDescCreate(&EventDataDescriptor[1],
                             (PVOID)DeviceName.Buffer,
  DeviceName.Length);
  
- EventDataDescCreate(&amp;EventDataDescriptor[2],
-                            (PVOID)&amp;Status,
+ EventDataDescCreate(&EventDataDescriptor[2],
+                            (PVOID)&Status,
  sizeof(ULONG));
  
  EtwWrite(RegHandle,            // Handle from EtwRegister
-                 &amp;StartEvent,          // EventDescriptor
+                 &StartEvent,          // EventDescriptor
                  NULL,                 // Activity ID
                  3,                    // Number of data items
  EventDataDescriptor); // Array of data descriptors

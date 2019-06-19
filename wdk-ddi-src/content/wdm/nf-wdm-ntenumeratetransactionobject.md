@@ -262,25 +262,25 @@ UNICODE_STRING GuidString;
 KTMOBJECT_CURSOR Cursor;
 ULONG ReturnedBytes;
 
-RtlZeroMemory(&amp;Cursor, sizeof(Cursor));
+RtlZeroMemory(&Cursor, sizeof(Cursor));
 
 do {
     Status = ZwEnumerateTransactionObject(
                                           NULL,
                                           KTMOBJECT_TRANSACTION,
-                                          &amp;Cursor,
+                                          &Cursor,
                                           sizeof(Cursor),
-                                          &amp;ReturnedBytes
+                                          &ReturnedBytes
                                           );
 
     if (Status != STATUS_NO_MORE_ENTRIES) {
         RtlStringFromGUID(
-                          &amp;Cursor.ObjectIds[0],
-                          &amp;GuidString
+                          &Cursor.ObjectIds[0],
+                          &GuidString
                           );
         OutputMessage(GuidString.Buffer);
         OutputMessage(L"\r\n");
-        RtlFreeUnicodeString(&amp;GuidString);
+        RtlFreeUnicodeString(&GuidString);
     }
 } while (Status == STATUS_SUCCESS);
 if (Status == STATUS_NO_MORE_ENTRIES) {

@@ -514,9 +514,9 @@ The driver uses a BOOL data type with a default value of <b>TRUE</b> to detect s
 
 The driver responds to D3DRENDERSTATE_SCENECAPTURE first with <b>TRUE</b> for begin scene information and next with <b>FALSE</b> for end scene information to capture geometric data within a frame.
 See the <i>permedia2</i> sample driver that ships with the Windows Driver Development Kit (DDK) for an example implementation.
-Using the D3DRENDERSTATE_SCENECAPTURE render state in a <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> call replaces the legacy <b>D3DHALCallbacks</b>-&gt;<i>D3dSceneCapture</i> callback routine.
+Using the D3DRENDERSTATE_SCENECAPTURE render state in a <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> call replaces the legacy <b>D3DHALCallbacks</b>-><i>D3dSceneCapture</i> callback routine.
 
-Care must be taken in updating a driver that implements the legacy <b>D3DHALCallbacks</b>-&gt;<i>D3dSceneCapture</i> callback routine to one using the D3DRENDERSTATE_SCENECAPTURE render state. The <i>D3dSceneCapture</i> callback routine uses the constants D3DHAL_SCENE_CAPTURE_START and D3DHAL_SCENE_CAPTURE_END to indicate, respectively, the beginning and end of a scene. The values of these constants are, respectively, 0 and 1. If you use these constants in place of <b>TRUE</b> and <b>FALSE</b> in this render state, the meaning will be the exact opposite of what you intend.
+Care must be taken in updating a driver that implements the legacy <b>D3DHALCallbacks</b>-><i>D3dSceneCapture</i> callback routine to one using the D3DRENDERSTATE_SCENECAPTURE render state. The <i>D3dSceneCapture</i> callback routine uses the constants D3DHAL_SCENE_CAPTURE_START and D3DHAL_SCENE_CAPTURE_END to indicate, respectively, the beginning and end of a scene. The values of these constants are, respectively, 0 and 1. If you use these constants in place of <b>TRUE</b> and <b>FALSE</b> in this render state, the meaning will be the exact opposite of what you intend.
 
 
 #### D3DRS_DELETERTPATCH
@@ -599,7 +599,7 @@ See the D3DTEXTURESTAGESTATETYPE, D3DTEXTUREOP, and D3DTEXTUREFILTER enumerated 
 
 Some changes have been made to the D3DRENDERSTATETYPE enumerated type for DirectX 5.0 and beyond. D3DRENDERSTATE_BLENDENABLE has been removed completely although it is defined as D3DRENDERSTATE_ALPHABLENDENABLE in the <i>d3dtypes.h</i> header file. See D3DRENDERSTATE_COLORKEYENABLE for an explanation. The 128 integer values in the interval [128, 255] are reserved for texture coordinate wrap flags. These are constructed with the D3DWRAP_U and D3DWRAP_V macros. Using a flags word preserves forward compatibility with texture coordinates of higher dimension than 2D.
 
-Multitexture macro ops and D3DRENDERSTATE_TEXTUREFACTOR override all of the per-texture stage blending controls (COLOR{OP,ARG1,ARG2} &amp; ALPHA{OP,ARG1,ARG2}).
+Multitexture macro ops and D3DRENDERSTATE_TEXTUREFACTOR override all of the per-texture stage blending controls (COLOR{OP,ARG1,ARG2} & ALPHA{OP,ARG1,ARG2}).
 
 
 

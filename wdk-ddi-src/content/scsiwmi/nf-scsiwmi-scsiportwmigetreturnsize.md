@@ -63,7 +63,7 @@ Pointer to the request context for this SRB.
 
 
 
-A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value to put into <b>Srb-&gt;DataTransferLength</b> before completing the SRB. <b>ScsiPortWmiGetReturnSize</b> should be called sometime after the miniport driver calls <b>ScsiWmiPostProcess</b>.
+A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value to put into <b>Srb->DataTransferLength</b> before completing the SRB. <b>ScsiPortWmiGetReturnSize</b> should be called sometime after the miniport driver calls <b>ScsiWmiPostProcess</b>.
 
 
 

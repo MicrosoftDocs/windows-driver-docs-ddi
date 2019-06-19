@@ -193,11 +193,11 @@ The following code example obtains the <a href="https://msdn.microsoft.com/libra
     //
     // Get a pointer to the IWDFDevice2 interface.
     //
-    hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice2),
-                                     (void**) &amp;pIWDFDevice2);
+    hr = pIWDFDevice->QueryInterface(__uuidof(IWDFDevice2),
+                                     (void**) &pIWDFDevice2);
     if (SUCCEEDED(hr)) 
     {
-        hr = pIWDFDevice2-&gt;AssignSxWakeSettings(PowerDeviceMaximum,
+        hr = pIWDFDevice2->AssignSxWakeSettings(PowerDeviceMaximum,
                                                 WakeAllowUserControl,
                                                 WdfUseDefault);
     }

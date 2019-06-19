@@ -59,12 +59,12 @@ Performs verification for a specified extent on a disk.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(VERIFY_INFORMATION).
+<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(VERIFY_INFORMATION).
 
 
 ### -output-buffer

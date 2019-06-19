@@ -133,8 +133,8 @@ CMyReadWriteQueue::OnIoStop(
     )
 { HRESULT status;
 
-    if (ActionFlags &amp; WdfRequestStopRequestCancelable) {
-        status = pWdfRequest-&gt;UnmarkCancelable();
+    if (ActionFlags & WdfRequestStopRequestCancelable) {
+        status = pWdfRequest->UnmarkCancelable();
         if (status == HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED)) {
         return;
         }
@@ -143,9 +143,9 @@ CMyReadWriteQueue::OnIoStop(
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = pWdfRequest;
 
-    r2-&gt;StopAcknowledge(FALSE);
+    r2->StopAcknowledge(FALSE);
 }</pre>
 </td>
 </tr>

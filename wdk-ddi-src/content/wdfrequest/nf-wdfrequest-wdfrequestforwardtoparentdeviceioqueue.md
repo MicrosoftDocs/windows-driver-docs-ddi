@@ -198,11 +198,11 @@ NTSTATUS status;
 device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));
 parentDevice = WdfPdoGetParent(device);
 
-WDF_REQUEST_FORWARD_OPTIONS_INIT(&amp;forwardOptions);
+WDF_REQUEST_FORWARD_OPTIONS_INIT(&forwardOptions);
 status = WdfRequestForwardToParentDeviceIoQueue(
              Request,
              WdfDeviceGetDefaultQueue(parentDevice),
-             &amp;forwardOptions
+             &forwardOptions
              );
 if (!NT_SUCCESS(status)) {
     WdfRequestComplete(

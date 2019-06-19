@@ -66,7 +66,7 @@ Pointer to the device object in the stack to which the <i>SourceDevice</i> objec
 
 ### -param AttachedToDeviceObject [out]
 
-On input, this parameter specifies the address of <i>SourceDevice-&gt;DeviceExtension-&gt;AttachedToDeviceObject</i>, which must contain a <b>NULL</b> pointer. On output, this parameter receives a pointer to the device object to which the <i>SourceDevice</i> was attached. 
+On input, this parameter specifies the address of <i>SourceDevice->DeviceExtension->AttachedToDeviceObject</i>, which must contain a <b>NULL</b> pointer. On output, this parameter receives a pointer to the device object to which the <i>SourceDevice</i> was attached. 
 
 
 ## -returns

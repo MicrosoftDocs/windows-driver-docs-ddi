@@ -66,7 +66,7 @@ Indicates, when set to 1, that the device supports set/release PWP status. If ad
 
 ### -field SupportsPersistentWriteProtect
 
-Indicates, when set to 1, that the device supports the persistent write protect bit of the time-out &amp; protect mode page. For more details on the write protect feature see the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
+Indicates, when set to 1, that the device supports the persistent write protect bit of the time-out & protect mode page. For more details on the write protect feature see the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
 
 
 ### -field WriteInhibitDCB

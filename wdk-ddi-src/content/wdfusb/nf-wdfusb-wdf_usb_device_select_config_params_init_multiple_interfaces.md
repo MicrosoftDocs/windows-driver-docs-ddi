@@ -145,7 +145,7 @@ UCHAR numInterfaces;
 numInterfaces = WdfUsbTargetDeviceGetNumInterfaces(UsbDevice);
 
 if (numInterfaces == 1){
-    WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&amp;params);
+    WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&params);
 }
 else {
     settingPairs = ExAllocatePoolWithTag(
@@ -169,7 +169,7 @@ else {
                      );
 
     WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES(
-                    &amp;params,
+                    &params,
                     numInterfaces,
                     settingPairs
                     );
@@ -177,7 +177,7 @@ else {
 status = WdfUsbTargetDeviceSelectConfig(
                                         UsbDevice,
                                         NULL,
-                                        &amp;params
+                                        &params
                                         );
 if (!NT_SUCCESS(status)) {
     return status;

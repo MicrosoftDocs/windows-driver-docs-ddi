@@ -158,7 +158,7 @@ A new opportunistic lock (oplock) could not be granted. The IRP is an IRP_MJ_CRE
 
 File systems and filter drivers call <b>FsRtlOplockFsctrl</b> to perform various opportunistic lock operations for a create or file system control I/O operation. The IRP pointed to by the <i>Irp</i> parameter must be a valid IRP for an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> operation.
 
-If the IRP is an IRP_MJ_FILE_SYSTEM_CONTROL request, <b>FsRtlOplockFsctrl</b> can be used with the following FSCTL codes. The FSCTL code is set in IrpSp-&gt;Parameters.FileSystemControl.FsControlCode. For more information about file system control parameters, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>.
+If the IRP is an IRP_MJ_FILE_SYSTEM_CONTROL request, <b>FsRtlOplockFsctrl</b> can be used with the following FSCTL codes. The FSCTL code is set in IrpSp->Parameters.FileSystemControl.FsControlCode. For more information about file system control parameters, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>

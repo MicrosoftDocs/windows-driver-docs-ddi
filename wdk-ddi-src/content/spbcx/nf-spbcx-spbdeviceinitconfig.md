@@ -127,7 +127,7 @@ if (!NT_SUCCESS(status))
 // Call WdfDeviceCreate
 //
 
-status = WdfDeviceCreate(&amp;FxDeviceInit,...);
+status = WdfDeviceCreate(&FxDeviceInit,...);
 
 </pre>
 </td>

@@ -99,7 +99,7 @@ The following code example shows how a driver might handle a failure to obtain a
 <td>
 <pre>Status = WdfRequestRetrieveOutputMemory(
                                         Request,
-                                        &amp;memory
+                                        &memory
                                         );
 if( !NT_SUCCESS(Status) ) {
     KdPrint(("EvtIoRead could not get request memory buffer. Status: 0x%x\n",Status));

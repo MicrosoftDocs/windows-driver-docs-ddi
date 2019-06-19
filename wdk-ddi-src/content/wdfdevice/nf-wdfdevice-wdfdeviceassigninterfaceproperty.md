@@ -134,16 +134,16 @@ ULONG crispLevel = 0;
 WDF_DEVICE_INTERFACE_PROPERTY_DATA propertyData;
 
 WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT(
-                          &amp;propertyData, 
-                          &amp;GUID_DEVINTERFACE_TOASTER_DRIVER
-                          &amp;DEVPKEY_ToasterCrispLevelDword
+                          &propertyData, 
+                          &GUID_DEVINTERFACE_TOASTER_DRIVER
+                          &DEVPKEY_ToasterCrispLevelDword
                           );
 
 status = WdfDeviceAssignInterfaceProperty(device, 
-                                          &amp;propertData,
+                                          &propertData,
                                           DEVPROP_TYPE_UINT32,
                                           sizeof(crispLevel),
-                                          &amp;crispLevel);
+                                          &crispLevel);
 if (!NT_SUCCESS(status)) {
     return status;
 }

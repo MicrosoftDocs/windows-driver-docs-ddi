@@ -211,17 +211,17 @@ IWDFUsbTargetPipe2 * pIUsbInterruptPipe2;
 //
 // Obtain interfaces.
 //
-hrQI = this-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOnCompletionCallback));
+hrQI = this->QueryInterface(IID_PPV_ARGS(&pOnCompletionCallback));
 if (!SUCCEEDED(hrQI)) goto Error;
-hrQI = this-&gt;QueryInterface(IID_PPV_ARGS(&amp;pOnFailureCallback));
+hrQI = this->QueryInterface(IID_PPV_ARGS(&pOnFailureCallback));
 if (!SUCCEEDED(hrQI)) goto Error;
-hrQI = m_pIUsbInterruptPipe-&gt;QueryInterface(IID_PPV_ARGS(&amp;pIUsbInterruptPipe2));
+hrQI = m_pIUsbInterruptPipe->QueryInterface(IID_PPV_ARGS(&pIUsbInterruptPipe2));
 if (!SUCCEEDED(hrQI)) goto Error;
 
 //
 // Configure the reader.
 //
-hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
+hr = pIUsbInterruptPipe2->ConfigureContinuousReader(
                                                     sizeof(m_MyBuffer), 
                                                     0,
                                                     0,

@@ -62,7 +62,7 @@ A pointer to a variable that receives a pointer to a <a href="https://msdn.micro
 
 ### -param puszLogFileName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the name of the stream or the underlying physical log. 
 
 If the stream already exists and is the only stream of a dedicated log, the name has the form log:<i>physical log name</i>, where <i>physical log name</i> is the path name, on the underlying file system, of the existing physical log that contains the stream's records.
 

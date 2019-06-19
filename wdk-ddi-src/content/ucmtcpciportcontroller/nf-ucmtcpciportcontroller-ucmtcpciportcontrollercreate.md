@@ -106,7 +106,7 @@ The handle to a framework device object is invalid.
 </dl>
 </td>
 <td width="60%">
-Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Capabilities</i>. Must be size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a>, respectively. 
+Invalid size for the structure pointed to by <i>Config</i> or <i> Config->Capabilities</i>. Must be size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a>, respectively. 
 
 </td>
 </tr>

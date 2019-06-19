@@ -100,7 +100,7 @@ The following code example cancels the execution of the callback function that i
 <tr>
 <td>
 <pre>WdfDpcCancel(
-             PDevExt-&gt;CompleteWriteDpc,
+             PDevExt->CompleteWriteDpc,
              TRUE
              );</pre>
 </td>

@@ -91,7 +91,7 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the e
 
 
 <h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
-The display miniport driver should report only a 32-bit color format. Therefore the <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include only one of the following two formats:
+The display miniport driver should report only a 32-bit color format. Therefore the <i>DisplayInfo</i>-><b>ColorFormat</b> member must include only one of the following two formats:
 
 <ul>
 <li><b>D3DDDIFMT_X8R8G8B8</b></li>
@@ -99,9 +99,9 @@ The display miniport driver should report only a 32-bit color format. Therefore 
 </ul>
 <h3><a id="Video_present_target_initialization_"></a><a id="video_present_target_initialization_"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION_"></a>Video present target initialization
 </h3>
-The display miniport driver must set the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member to the target identifier of the display that remains active. Typically, this identifier will be the value of the <i>TargetId</i> parameter that the operating system passed to the driver.
+The display miniport driver must set the <i>DisplayInfo</i>-><b>TargetId</b> member to the target identifier of the display that remains active. Typically, this identifier will be the value of the <i>TargetId</i> parameter that the operating system passed to the driver.
 
-Similarly, the display miniport driver must set the <i>DisplayInfo</i>-&gt;<b>AcpiId</b> member to the ACPI identifier of the display that remains active.
+Similarly, the display miniport driver must set the <i>DisplayInfo</i>-><b>AcpiId</b> member to the ACPI identifier of the display that remains active.
 
 <h3><a id="Required_steps_by_display_miniport_driver"></a><a id="required_steps_by_display_miniport_driver"></a><a id="REQUIRED_STEPS_BY_DISPLAY_MINIPORT_DRIVER"></a>Required steps by display miniport driver</h3>
 The display miniport driver must follow these steps when its <i>DxgkDdiStopDeviceAndReleasePostDisplayOwnership</i> function is called:

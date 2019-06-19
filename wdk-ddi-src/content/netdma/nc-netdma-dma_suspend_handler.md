@@ -140,7 +140,7 @@ The NetDMA interface calls the
     <i>ProviderSuspendDma</i>.
 
 NetDMA calls 
-    <i>ProviderSuspendDma</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderSuspendDma</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

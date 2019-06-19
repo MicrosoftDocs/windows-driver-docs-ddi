@@ -138,7 +138,7 @@ if (tblt.Flags.HonorAlpha)
 }
 else
 {
- if ((SourceColor &amp; 0x00FFFFFF) != tblt.Color)
+ if ((SourceColor & 0x00FFFFFF) != tblt.Color)
  {
   DestinationColor = SourceColor; 
  }

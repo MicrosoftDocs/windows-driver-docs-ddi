@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param String [in]
@@ -157,23 +157,23 @@ UNICODE_STRING ustring1, valueName;
 NTSTATUS status;
 
 RtlInitUnicodeString(
-                     &amp;ustring1,
+                     &ustring1,
                      L"String1"
                      );
 RtlInitUnicodeString(
-                     &amp;valueName,
+                     &valueName,
                      L"ValueName"
                      );
 
 status = WdfStringCreate(
-                         &amp;ustring1,
+                         &ustring1,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string1
+                         &string1
                          );
 if (NT_SUCCESS(status)) {
     status = WdfRegistryAssignString(
                                      Key,
-                                     &amp;valueName,
+                                     &valueName,
                                      string1
                                      );
 }</pre>
@@ -192,7 +192,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

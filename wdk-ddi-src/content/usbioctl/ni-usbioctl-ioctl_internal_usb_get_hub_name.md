@@ -63,17 +63,17 @@ Drivers can use the symbolic name to retrieve additional information about the h
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a> structure.
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a> structure.
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> is the length of the buffer (in bytes) passed in the <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> field.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> is the length of the buffer (in bytes) passed in the <b>Irp->AssociatedIrp.SystemBuffer</b> field.
 
 
 ### -output-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is filled with the root hub's symbolic name.
+<b>Irp->AssociatedIrp.SystemBuffer</b> is filled with the root hub's symbolic name.
 
 
 ### -output-buffer-length
@@ -101,7 +101,7 @@ The length of the root hub's symbolic name.
 
 ### -status-block
 
-A lower-level driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status. It will set <b>Irp-&gt;IoStatus.Information</b> to the number of bytes required to hold the USB_ROOT_HUB_NAME structure. If the request fails, the driver can use this information to resubmit the request with a big enough buffer.
+A lower-level driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status. It will set <b>Irp->IoStatus.Information</b> to the number of bytes required to hold the USB_ROOT_HUB_NAME structure. If the request fails, the driver can use this information to resubmit the request with a big enough buffer.
 
 
 ## -see-also

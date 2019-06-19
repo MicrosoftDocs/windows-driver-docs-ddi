@@ -56,7 +56,7 @@ This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the s
 
 ### -input-buffer
 
-The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="https://msdn.microsoft.com/32bb774f-b1eb-4198-8e4c-febcac83153d">SILO_DRIVER_CAPABILITES</a>. This structure is followed immediately by a list of which redirected IOCTLs the silo driver will handle.
+The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="https://msdn.microsoft.com/32bb774f-b1eb-4198-8e4c-febcac83153d">SILO_DRIVER_CAPABILITES</a>. This structure is followed immediately by a list of which redirected IOCTLs the silo driver will handle.
 
 
 ### -input-buffer-length

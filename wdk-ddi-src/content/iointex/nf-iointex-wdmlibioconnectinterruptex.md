@@ -78,7 +78,7 @@ The function returns STATUS_SUCCESS on success, or the appropriate NTSTATUS erro
 </dl>
 </td>
 <td width="60%">
-The operation is invalid for the specified device. For example, <i>Parameters</i>-&gt;<b>Version</b> = CONNECT_LINE_BASED, and the system has assigned multiple interrupt messages to the device.
+The operation is invalid for the specified device. For example, <i>Parameters</i>-><b>Version</b> = CONNECT_LINE_BASED, and the system has assigned multiple interrupt messages to the device.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The caller specified an invalid parameter. This error occurs, for example, when 
 </dl>
 </td>
 <td width="60%">
-The caller specified an invalid value for the <b>Version</b> member of the structure that <i>Parameters</i> points to. <i>Parameters</i>-&gt;<b>Version</b> must be one of CONNECT_LINE_BASED, CONNECT_MESSAGE_BASED, or CONNECT_FULLY_SPECIFIED.
+The caller specified an invalid value for the <b>Version</b> member of the structure that <i>Parameters</i> points to. <i>Parameters</i>-><b>Version</b> must be one of CONNECT_LINE_BASED, CONNECT_MESSAGE_BASED, or CONNECT_FULLY_SPECIFIED.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The caller specified an invalid value for the <b>Version</b> member of the struc
 </dl>
 </td>
 <td width="60%">
-The caller specified an invalid value for the tenth member of the structure that <i>Parameters</i> points to. This error occurs, for example, when <i>Parameters</i>-&gt;<b>FullySpecified.ProcessorEnableMask</b> does not have any bits set.
+The caller specified an invalid value for the tenth member of the structure that <i>Parameters</i> points to. This error occurs, for example, when <i>Parameters</i>-><b>FullySpecified.ProcessorEnableMask</b> does not have any bits set.
 
 </td>
 </tr>

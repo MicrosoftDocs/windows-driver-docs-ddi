@@ -87,7 +87,7 @@ The caller must provide resident storage for the
     <b>NdisInterlocked..SList</b> function.
 
 If 
-    <b>NdisInterlockedPopEntrySList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the 
+    <b>NdisInterlockedPopEntrySList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter must be resident.
 
 

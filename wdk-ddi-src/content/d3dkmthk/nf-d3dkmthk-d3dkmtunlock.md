@@ -93,7 +93,7 @@ HRESULT UnlockThree(D3DKMT_HANDLE hDevice,
     UnlockData.NumAllocations = 3;
     UnlockData.phAllocations = AllocationArray;
 
-    if (NT_SUCCESS((*pfnKTUnlock)(&amp;UnlockData))) {
+    if (NT_SUCCESS((*pfnKTUnlock)(&UnlockData))) {
         return S_OK;
     }
     return E_FAIL;

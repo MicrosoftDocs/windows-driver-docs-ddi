@@ -161,8 +161,8 @@ The following code example obtains a handle to the next request object that is c
 WDFREQUEST  request;
 
 status = WdfIoQueueRetrieveNextRequest(
-                                       pDeviceContext-&gt;ReadQueue,
-                                       &amp;request
+                                       pDeviceContext->ReadQueue,
+                                       &request
                                        );</pre>
 </td>
 </tr>

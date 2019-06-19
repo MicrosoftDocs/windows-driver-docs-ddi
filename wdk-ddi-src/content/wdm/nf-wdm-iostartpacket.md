@@ -93,7 +93,7 @@ If a non-NULL <i>CancelFunction</i> pointer is supplied, it is set in the IRP so
 
 Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartPacket</b>.
 
-Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, this routine is called from a device driver's Dispatch routine at IRQL = PASSIVE_LEVEL.
+Callers of <b>IoStartPacket</b> must be running at IRQL <= DISPATCH_LEVEL. Usually, this routine is called from a device driver's Dispatch routine at IRQL = PASSIVE_LEVEL.
 
 
 

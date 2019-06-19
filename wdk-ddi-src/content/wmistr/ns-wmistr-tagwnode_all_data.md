@@ -66,7 +66,7 @@ Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> st
 
 ### -field InstanceCount
 
-Indicates the number of instances whose data follows the fixed members of the <b>WNODE_ALL_DATA</b> in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. 
+Indicates the number of instances whose data follows the fixed members of the <b>WNODE_ALL_DATA</b> in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. 
 
 
 ### -field OffsetInstanceNameOffsets
@@ -122,7 +122,7 @@ Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to
 
 A driver fills in a <b>WNODE_ALL_DATA</b> structure in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request. A driver might also generate a <b>WNODE_ALL_DATA</b> as an event.
 
-After filling in the fixed members of the structure, a driver writes instance data and dynamic instance names (if any) at <b>DataBlockOffset</b> and <b>OffsetInstanceNameOffsets</b>, respectively, in the buffer at <b>IrpStack-&gt;Parameters.WMI.Buffer</b>. If WNODE_FLAG_FIXED_INSTANCE_SIZE is clear, the first offset follows the last element of the <b>OffsetInstanceDataAndLength</b> array, plus padding so the data begins on an 8-byte boundary.
+After filling in the fixed members of the structure, a driver writes instance data and dynamic instance names (if any) at <b>DataBlockOffset</b> and <b>OffsetInstanceNameOffsets</b>, respectively, in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. If WNODE_FLAG_FIXED_INSTANCE_SIZE is clear, the first offset follows the last element of the <b>OffsetInstanceDataAndLength</b> array, plus padding so the data begins on an 8-byte boundary.
 
 Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 

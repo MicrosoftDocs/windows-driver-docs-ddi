@@ -98,9 +98,9 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = pWdfRequest;
 
-    currentIoType = r2-&gt;GetEffectiveIoType();
+    currentIoType = r2->GetEffectiveIoType();
 ...
 }</pre>
 </td>

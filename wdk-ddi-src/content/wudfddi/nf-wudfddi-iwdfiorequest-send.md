@@ -132,24 +132,24 @@ The following code example forwards a request to a device's I/O target.
     IRequestCallbackRequestCompletion *completionCallback = 
         QueryIRequestCallbackRequestCompletion();
  
-    FxRequest-&gt;SetCompletionCallback(
+    FxRequest->SetCompletionCallback(
                                      completionCallback,
                                      NULL  //pContext
                                      );
 
-    completionCallback-&gt;Release();
+    completionCallback->Release();
  
     //
     // Format the I/O request.  
  
-    FxRequest-&gt;FormatUsingCurrentType( );
+    FxRequest->FormatUsingCurrentType( );
 
     //
     // Send down the request.
     //
     HRESULT hrSend = S_OK;
  
-    hrSend = FxRequest-&gt;Send(
+    hrSend = FxRequest->Send(
                              m_FxIoTarget,
                              0, // Asynchronous
                              0  // No time-out
@@ -159,7 +159,7 @@ The following code example forwards a request to a device's I/O target.
         //
         // If the send failed, the driver must complete the 
         // request with the failure.
-        FxRequest-&gt;CompleteWithInformation(hrSend, 0);
+        FxRequest->CompleteWithInformation(hrSend, 0);
     }</pre>
 </td>
 </tr>

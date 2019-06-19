@@ -164,19 +164,19 @@ CDriver::OnDeviceAdd(
     //
     // Create the device callback object.
     //
-    HRESULT hr = CDevice::CreateInstance(&amp;pDeviceCallback);
+    HRESULT hr = CDevice::CreateInstance(&pDeviceCallback);
 
     //
     // Set device properties
     //
     if (S_OK == hr) {
-        pDeviceInit-&gt;SetLockingConstraint(WdfDeviceLevel);
+        pDeviceInit->SetLockingConstraint(WdfDeviceLevel);
         // To register as the power-policy owner for 
         // the device stack, call the following:
-        // pDeviceInit-&gt;SetPowerPolicyOwnership(TRUE);
+        // pDeviceInit->SetPowerPolicyOwnership(TRUE);
 
         // For a filter driver, call the following:
-        // pDeviceInit-&gt;SetFilter();
+        // pDeviceInit->SetFilter();
     }
 
     //
@@ -185,9 +185,9 @@ CDriver::OnDeviceAdd(
     // framework about the PnP callback functions the driver supports.
     //
     if (S_OK == hr) {
-        hr = pDriver-&gt;CreateDevice(pDeviceInit, 
+        hr = pDriver->CreateDevice(pDeviceInit, 
                                    pDeviceCallback,
-                                   &amp;pIWDFDevice);
+                                   &pIWDFDevice);
     }
 
     //
@@ -195,7 +195,7 @@ CDriver::OnDeviceAdd(
     //
 
     if (S_OK == hr) {
-        hr = CQueue::CreateInstance(&amp;pIUnkQueue);
+        hr = CQueue::CreateInstance(&pIUnkQueue);
     }
 
     //
@@ -205,13 +205,13 @@ CDriver::OnDeviceAdd(
     //
     if (S_OK == hr) {
         IWDFIoQueue * pDefaultQueue = NULL;
-        hr = pIWDFDevice-&gt;CreateIoQueue(
+        hr = pIWDFDevice->CreateIoQueue(
                        pIUnkQueue,
                        TRUE,                  // bDefaultQueue
                        WdfIoQueueDispatchParallel,
                        TRUE,                  // bPowerManaged
                        FALSE, //bAllowZeroLengthRequests
-                       &amp;pDefaultQueue);
+                       &pDefaultQueue);
         SAFE_RELEASE(pDefaultQueue);
     }
 

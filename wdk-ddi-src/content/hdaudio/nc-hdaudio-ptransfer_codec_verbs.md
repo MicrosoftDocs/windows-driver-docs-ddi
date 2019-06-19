@@ -168,7 +168,7 @@ In the asynchronous case (<i>callback</i> is non-<b>NULL</b>), STATUS_SUCCESS me
 </ul>
 If a response is invalid due to a FIFO overrun, the likely cause is that the codec responded to the command but the response was lost due to an insufficiently sized response input ring buffer (RIRB). If a FIFO overrun is not the cause of the invalid response, the failure probably occurred because the codec did not respond in time (timed out). In this case, the caller can assume that the command did not reach the codec.
 
-If the <i>callback</i> parameter is <b>NULL</b>, the caller must be running at IRQL PASSIVE_LEVEL. If <i>callback</i> is non-<b>NULL</b>, the caller can call <i>TransferCodecVerbs</i> at IRQL &lt;= DISPATCH_LEVEL, in which case the call returns immediately without waiting for the codecs to process all the commands; after the commands complete, the HD Audio bus driver calls the callback routine at IRQL DISPATCH_LEVEL.
+If the <i>callback</i> parameter is <b>NULL</b>, the caller must be running at IRQL PASSIVE_LEVEL. If <i>callback</i> is non-<b>NULL</b>, the caller can call <i>TransferCodecVerbs</i> at IRQL <= DISPATCH_LEVEL, in which case the call returns immediately without waiting for the codecs to process all the commands; after the commands complete, the HD Audio bus driver calls the callback routine at IRQL DISPATCH_LEVEL.
 
 The caller must allocate the <i>codecTransfer</i> array from the nonpaged pool.
 

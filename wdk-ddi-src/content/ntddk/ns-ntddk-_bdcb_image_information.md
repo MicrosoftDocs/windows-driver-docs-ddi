@@ -48,7 +48,7 @@ req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 
 The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-start driver that is about to 
     be initialized, provided by Windows to a boot-start driver's 
-    <a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-boot_driver_callback_function">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-s
 
 ### -field Classification
 
-The classification of the boot start image.
+An enumeration of type [**BDCB_CLASSIFICATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_bdcb_classification) that the ELAM driver sets to specify the classification of the boot start image.
 
 
 ### -field ImageFlags
@@ -87,7 +87,7 @@ Bit 1
 
 </td>
 <td>
-The boot start image failed code integrity but load was allowed because of boot policy (code integrity not required on the platform, or code integrity disabled because of boot setting,  debugging, or both).
+The boot start image failed code integrity but load was allowed because of boot policy (code integrity not required on the platform, or code integrity disabled because of boot setting,  debugging, or both).  The symbolic name for bit 1 is `BDCB_IMAGEFLAGS_FAILED_CODE_INTEGRITY.`
 
 </td>
 </tr>
@@ -246,5 +246,5 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 [**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
- 
+[**ALG_ID**](https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id)
 

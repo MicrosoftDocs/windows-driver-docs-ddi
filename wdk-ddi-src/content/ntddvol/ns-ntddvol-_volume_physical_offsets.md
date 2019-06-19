@@ -61,7 +61,7 @@ Contains the number of physical offsets returned by the call to <a href="https:/
 
 ### -field PhysicalOffset
 
-Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>. Each element of the array contains a pair consisting of a physical disk number and an accompanying physical offset &lt;disk number, disk offset&gt;. 
+Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>. Each element of the array contains a pair consisting of a physical disk number and an accompanying physical offset <disk number, disk offset>. 
 
 
 ## -see-also

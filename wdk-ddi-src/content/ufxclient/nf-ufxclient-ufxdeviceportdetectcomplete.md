@@ -91,7 +91,7 @@ The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a
     // one is present.  UFX will timeout after 5 seconds if no host is present and transition to
     // an invalid charger type, which will allow the controller to exit D0.
     //
-    UfxDevicePortDetectComplete(ControllerContext-&gt;UfxDevice, UsbfnUnknownPort);
+    UfxDevicePortDetectComplete(ControllerContext->UfxDevice, UsbfnUnknownPort);
 </pre>
 </td>
 </tr>

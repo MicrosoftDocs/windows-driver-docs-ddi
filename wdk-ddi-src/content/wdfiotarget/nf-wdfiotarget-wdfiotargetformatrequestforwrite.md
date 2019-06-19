@@ -227,13 +227,13 @@ NTSTATUS  status;
 WDFMEMORY  memory;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 status = WdfMemoryCreate(
-                         &amp;attributes,
+                         &attributes,
                          NonPagedPool,
                          DRIVER_TAG,
                          WRITE_BUF_SIZE,
-                         &amp;memory,
+                         &memory,
                          NULL
                          );
 

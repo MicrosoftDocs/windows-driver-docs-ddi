@@ -108,7 +108,7 @@ The following code example sets a device's setup class to the system device clas
 
 WdfDeviceInitSetDeviceClass(
                             DeviceInit,
-                            &amp;GUID_DEVCLASS_MYUNIQUEID
+                            &GUID_DEVCLASS_MYUNIQUEID
                             );
 </pre>
 </td>

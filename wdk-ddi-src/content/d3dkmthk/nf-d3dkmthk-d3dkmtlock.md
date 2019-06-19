@@ -92,7 +92,7 @@ VOID* LockEntireAllocation(D3DKMT_HANDLE hDevice, D3DKMT_HANDLE hAllocation, UIN
     LockAllocation.NumPages = 0;
     LockAllocation.pPages = NULL;
  
-    if (NT_SUCCESS((*pfnKTLock)(&amp;LockAllocation))) {
+    if (NT_SUCCESS((*pfnKTLock)(&LockAllocation))) {
         return LockAllocation.pData;
     }
     return NULL;

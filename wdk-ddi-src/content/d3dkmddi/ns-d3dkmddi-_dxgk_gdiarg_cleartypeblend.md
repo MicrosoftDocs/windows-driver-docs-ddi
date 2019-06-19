@@ -175,9 +175,9 @@ When gamma is equal to 0xFFFFFFFF (the value of D3DKM_INVALID_GAMMA_INDEX), the 
 
 ```
 OutputColor.a = D.a
-OutputColor.r = D.r + (Color.r - D.r) * (Color.r &gt;= D.r ? A.r : A.g) / 255.0
-OutputColor.g = D.g + (Color.g - D.g) * (Color.g &gt;= D.g ? A.r : A.g) / 255.0
-OutputColor.b = D.b + (Color.b - D.b) * (Color.b &gt;= D.b ? A.r : A.g) / 255.0
+OutputColor.r = D.r + (Color.r - D.r) * (Color.r >= D.r ? A.r : A.g) / 255.0
+OutputColor.g = D.g + (Color.g - D.g) * (Color.g >= D.g ? A.r : A.g) / 255.0
+OutputColor.b = D.b + (Color.b - D.b) * (Color.b >= D.b ? A.r : A.g) / 255.0
 ```
 
 Where the following parameters are in the D3DDDIFMT_A8R8G8B8 format defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration:

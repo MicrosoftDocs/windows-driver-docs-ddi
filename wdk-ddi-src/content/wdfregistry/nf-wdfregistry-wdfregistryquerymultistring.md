@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param StringsAttributes [in, optional]
@@ -217,17 +217,17 @@ DECLARE_CONST_UNICODE_STRING(valueMultiSz, VALUE_MULTI_SZ);
 
 status = WdfCollectionCreate(
                              NULL,
-                             &amp;col
+                             &col
                              );
 ASSERT(NT_SUCCESS(status));
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;stringAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&stringAttributes);
 stringAttributes.ParentObject = col;
 
 status = WdfRegistryQueryMultiString(
                                      Key,
-                                     &amp;valueMultiSzEmpty,
-                                     &amp;stringAttributes,
+                                     &valueMultiSzEmpty,
+                                     &stringAttributes,
                                      col
                                      );
 
@@ -243,7 +243,7 @@ count = WdfCollectionGetCount(col);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

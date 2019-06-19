@@ -203,14 +203,14 @@ PDEVICE_CONTEXT  pDevContext;
 pDevContext = GetDeviceContext(Device);
 
 count = WdfUsbInterfaceGetNumConfiguredPipes(
-                                             pDevContext-&gt;UsbInterface
+                                             pDevContext->UsbInterface
                                              );
 
-for (i = 0; i &lt; count; i++) {
+for (i = 0; i < count; i++) {
     WDFUSBPIPE pipe;
 
     pipe = WdfUsbInterfaceGetConfiguredPipe(
-                                            pDevContext-&gt;UsbInterface,
+                                            pDevContext->UsbInterface,
                                             i,
                                             NULL
                                             );

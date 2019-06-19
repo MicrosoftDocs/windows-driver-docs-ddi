@@ -61,7 +61,7 @@ A pointer to the registry key object for the key whose value entry is about to b
 
 ### -field ValueName
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the value entry that is about to be deleted.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the value entry that is about to be deleted.
 
 
 ### -field CallContext
@@ -103,7 +103,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

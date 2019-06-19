@@ -84,7 +84,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorP
 </dl>
 </td>
 <td width="60%">
-Current IRQL &gt; DISPATCH_LEVEL.
+Current IRQL > DISPATCH_LEVEL.
 
 </td>
 </tr>

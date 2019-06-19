@@ -148,11 +148,13 @@ The specified device property was not found.
 
 
 
-Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
+Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve device properties that are defined as part of the unified device property model.
+
+To see property types available for use by this routine, see [DEVPROP_TYPE_BYTE](https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-byte) and adjacent pages for `DEVPROP_TYPE_*`.
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549704">IoSetDevicePropertyData</a> routine to modify a device property.
 
-Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
+Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
 
 

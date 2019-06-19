@@ -141,11 +141,11 @@ MyEvtIoDefault(
     WDF_DMA_DIRECTION  direction;
 
 ...
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
 
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
 
     //

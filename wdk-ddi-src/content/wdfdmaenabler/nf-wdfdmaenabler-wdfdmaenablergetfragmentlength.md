@@ -121,13 +121,13 @@ miniMapRegisters = BYTES_TO_PAGES(NIC_MAX_PACKET_SIZE) + 1;
 
 maxLengthSupported = 
     (ULONG) WdfDmaEnablerGetFragmentLength(
-                                           FdoData-&gt;WdfDmaEnabler,
+                                           FdoData->WdfDmaEnabler,
                                            WdfDmaDirectionReadFromDevice
                                            );
 
 mapRegistersAllocated = BYTES_TO_PAGES(maxLengthSupported) + 1;
 
-if (mapRegistersAllocated &lt; minimumMapRegisters) {
+if (mapRegistersAllocated < minimumMapRegisters) {
     status = STATUS_INSUFFICIENT_RESOURCES;
     return status;
 }</pre>

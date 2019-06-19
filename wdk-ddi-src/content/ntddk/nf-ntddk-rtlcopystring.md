@@ -81,7 +81,7 @@ The<i> DestinationString </i><b>Length</b> is set to zero if no source string is
 
 The number of bytes copied from the <i>SourceString</i> is either the length of <i>SourceString</i> or the maximum length of <i>DestinationString</i>, whichever is smaller. 
 
-The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
+The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
 
 

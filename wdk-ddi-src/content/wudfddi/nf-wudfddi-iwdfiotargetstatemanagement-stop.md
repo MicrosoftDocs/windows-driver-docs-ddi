@@ -120,7 +120,7 @@ CMyDevice::OnD0Exit(
     )
 {
     HRESULT hr;
-    hr = m_pIoTargetInterruptPipeStateMgmt-&gt;Stop(WdfIoTargetCancelSentIo);
+    hr = m_pIoTargetInterruptPipeStateMgmt->Stop(WdfIoTargetCancelSentIo);
     return hr;
 }</pre>
 </td>

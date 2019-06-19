@@ -84,7 +84,7 @@ For an interlocked queue, the driver also must provide nonpaged storage for a sp
     passing a pointer to that spin lock to any of the 
     <b>NdisInterlocked<i>Xxx</i>List</b> functions.
 
-Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisInitializeListHead</b> is called at IRQL &gt;= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
+Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisInitializeListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
 
 
 

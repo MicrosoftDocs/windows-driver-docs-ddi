@@ -59,7 +59,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, Status to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a> code.
 
 
 ### -input-buffer-length
@@ -98,5 +98,5 @@ None.
 
 ### -status-block
 
-The bus or port driver sets Irp-&gt;IoStatus.Status to STATUS_SUCCESS or the appropriate error status.
+The bus or port driver sets Irp->IoStatus.Status to STATUS_SUCCESS or the appropriate error status.
 

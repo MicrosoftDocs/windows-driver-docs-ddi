@@ -157,7 +157,7 @@ status = WdfFdoInitAllocAndQueryProperty(
                                          DevicePropertyClassName, 
                                          NonPagedPool,
                                          WDF_NO_OBJECT_ATTRIBUTES,
-                                         &amp;memory
+                                         &memory
                                          );
 if(NT_SUCCESS(status)){
  pMemoryBuffer = WdfMemoryGetBuffer(

@@ -315,7 +315,7 @@ The number of bytes of data that are contained in the structure pointed to by <i
 
 </td>
 <td>
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, "\Device\Floppy1\myfile.dat" or "\??\B:\myfile.dat" could both be valid file specifications, if the floppy driver and overlying file system are already loaded. (Note: "\??" replaces "\DosDevices" as the name of the Win32 object namespace. "\DosDevices" still works, but "\??" is translated faster by the object manager.)
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, "\Device\Floppy1\myfile.dat" or "\??\B:\myfile.dat" could both be valid file specifications, if the floppy driver and overlying file system are already loaded. (Note: "\??" replaces "\DosDevices" as the name of the Win32 object namespace. "\DosDevices" still works, but "\??" is translated faster by the object manager.)
 
 </td>
 </tr>
@@ -1167,7 +1167,7 @@ When a caller of <b>FltCreateFileEx2</b> wishes to  enable reparsing for a volum
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

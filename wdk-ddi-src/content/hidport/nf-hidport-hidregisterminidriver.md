@@ -100,7 +100,7 @@ Indicates that there was insufficient memory for the system to register the mini
 </dl>
 </td>
 <td width="60%">
-Indicates that the HID revision number provided in <i>MinidriverRegistration-&gt;</i>Revision is not supported by this version of the HID class driver.
+Indicates that the HID revision number provided in <i>MinidriverRegistration-></i>Revision is not supported by this version of the HID class driver.
 
 </td>
 </tr>

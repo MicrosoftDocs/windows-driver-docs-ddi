@@ -114,22 +114,22 @@ MyEvtIoTargetRemoveComplete(
     // context space.
     //
     targetDeviceInfo = GetTargetDeviceInfo(IoTarget);
-    deviceExtension = targetDeviceInfo-&gt;DeviceExtension;
+    deviceExtension = targetDeviceInfo->DeviceExtension;
 
     //
     // Remove the target device from the collection.
     //
     WdfWaitLockAcquire(
-                       deviceExtension-&gt;TargetDeviceCollectionLock,
+                       deviceExtension->TargetDeviceCollectionLock,
                        NULL
                        );
 
     WdfCollectionRemove(
-                        deviceExtension-&gt;TargetDeviceCollection,
+                        deviceExtension->TargetDeviceCollection,
                         IoTarget
                         );
 
-    WdfWaitLockRelease(deviceExtension-&gt;TargetDeviceCollectionLock);
+    WdfWaitLockRelease(deviceExtension->TargetDeviceCollectionLock);
 
     //
     // Close the target.

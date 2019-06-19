@@ -79,7 +79,7 @@ None
 
 A driver's <i>StartIo</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL.
 
-The <i>StartIo</i> routine is optional. A driver's <i>StartIo</i> routine, if supplied, should be named <i>Xxx</i><b>StartIo</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>StartIo</i> routine's address in <b>DriverObject-&gt;DriverStartIo</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
+The <i>StartIo</i> routine is optional. A driver's <i>StartIo</i> routine, if supplied, should be named <i>Xxx</i><b>StartIo</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>StartIo</i> routine's address in <b>DriverObject->DriverStartIo</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
 
 A driver can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550330">IoSetStartIoAttributes</a> to set attributes on when its <i>StartIo</i> routine is called.
 

@@ -109,7 +109,7 @@ The following code example restarts a remote I/O target.
 </tr>
 <tr>
 <td>
-<pre>if (S_OK == RemoteTarget-&gt;Start())
+<pre>if (S_OK == RemoteTarget->Start())
 {
     //
     // Resume sending I/O requests to the I/O target.

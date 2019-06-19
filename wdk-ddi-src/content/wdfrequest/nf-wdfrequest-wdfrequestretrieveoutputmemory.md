@@ -192,14 +192,14 @@ MyEvtIoRead(
     // the device object's context space.
     //
     pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
-    pipe = pDeviceContext-&gt;BulkReadPipe;
+    pipe = pDeviceContext->BulkReadPipe;
 
     //
     // Get output memory.
     //
     status = WdfRequestRetrieveOutputMemory(
                                             Request,
-                                            &amp;reqMemory
+                                            &reqMemory
                                             );
     if(!NT_SUCCESS(status)){
         goto Exit;

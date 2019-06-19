@@ -69,12 +69,12 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For a description of the TAPE_GET_MEDIA_PARAMETERS structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. For a description of the TAPE_GET_MEDIA_PARAMETERS structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_GET_MEDIA_PARAMETERS).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_GET_MEDIA_PARAMETERS).
 
 
 ### -in-out-buffer

@@ -166,6 +166,7 @@ When the framework allocates context space for an object, it also zero-initializ
 
 For more information about object context space, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 
 #### Examples
 
@@ -186,13 +187,13 @@ PREQUEST_CONTEXT  reqContext = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;attributes,
+                                        &attributes,
                                         REQUEST_CONTEXT
                                         );
 status = WdfObjectAllocateContext(
                                   Request,
-                                  &amp;attributes,
-                                  &amp;reqContext
+                                  &attributes,
+                                  &reqContext
                                   );</pre>
 </td>
 </tr>

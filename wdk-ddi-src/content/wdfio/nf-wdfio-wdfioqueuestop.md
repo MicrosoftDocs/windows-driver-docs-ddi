@@ -112,7 +112,7 @@ The following code example stops a specified I/O queue. When all requests that w
 <td>
 <pre>WDFCONTEXT stopContext;
 
-stopContext = &amp;myContext;
+stopContext = &myContext;
 
 WdfIoQueueStop(
                queue,

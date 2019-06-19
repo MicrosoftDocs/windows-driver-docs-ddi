@@ -210,12 +210,12 @@ WDFMEMORY  memoryHandle;
 myDeviceContext = GetDeviceContext(device);
 
 status = WdfUsbTargetDeviceQueryString(
-                                       myDeviceContext-&gt;UsbTargetDevice,
+                                       myDeviceContext->UsbTargetDevice,
                                        NULL,
                                        NULL,
                                        NULL,
-                                       &amp;numCharacters,
-                                       myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                       &numCharacters,
+                                       myDeviceContext->UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );
 
@@ -224,19 +224,19 @@ ntStatus = WdfMemoryCreate(
                            NonPagedPool,
                            POOL_TAG,
                            numCharacters * sizeof(WCHAR),
-                           &amp;memoryHandle,
-                           (PVOID)&amp;stringBuf
+                           &memoryHandle,
+                           (PVOID)&stringBuf
                            );
 if (!NT_SUCCESS(ntStatus)) {
     return ntStatus;
 }
 status = WdfUsbTargetDeviceQueryString(
-                                       myDeviceContext-&gt;UsbTargetDevice,
+                                       myDeviceContext->UsbTargetDevice,
                                        NULL,
                                        NULL,
                                        stringBuf,
-                                       &amp;numCharacters,
-                                       myDeviceContext-&gt;UsbDeviceDescr.iManufacturer,
+                                       &numCharacters,
+                                       myDeviceContext->UsbDeviceDescr.iManufacturer,
                                        0x0409
                                        );</pre>
 </td>

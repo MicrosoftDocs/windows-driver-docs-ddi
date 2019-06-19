@@ -142,7 +142,7 @@ The minifilter driver is returning the I/O operation to the filter manager for f
 </dl>
 </td>
 <td width="60%">
-The minifilter driver is returning the I/O operation to the filter manager for further processing, but it is not completing the operation. In this case, the filter manager calls the minifilter's post-operation callback in the context of the current thread at IRQL &lt;= APC_LEVEL.
+The minifilter driver is returning the I/O operation to the filter manager for further processing, but it is not completing the operation. In this case, the filter manager calls the minifilter's post-operation callback in the context of the current thread at IRQL <= APC_LEVEL.
 
 </td>
 </tr>

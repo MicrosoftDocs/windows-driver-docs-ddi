@@ -70,7 +70,7 @@ Size of *DataBuffer*, in bytes.
 
 ### -param DataBuffer
 
-A variable-size buffer that contains driver-specific binary data that is useful in identifying the cause of the error. This parameter is optional. Drivers must specify the size of this buffer in the *DataBufferLength* parameter.
+A variable-size buffer that contains driver-specific binary data that is useful in identifying the cause of the error. Drivers must specify the size of this buffer in the *DataBufferLength* parameter.
 
 ## -returns
 
@@ -95,7 +95,7 @@ This function returns one of the following status codes.
 
 ## -remarks
 
-Events generated from StorPort miniport drivers are published to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
+Events generated from this function are published to the "Microsoft-Windows-Storage-Storport/Operational" ETW channel.
 
 ## -see-also
 

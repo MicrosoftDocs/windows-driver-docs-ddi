@@ -105,7 +105,7 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 <td>
-&lt;= DIRQL
+<= DIRQL
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 <td>
-&lt;= APC_LEVEL
+<= APC_LEVEL
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 <td>
-&lt;= DISPATCH_LEVEL
+<= DISPATCH_LEVEL
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 <td>
-&lt;= DIRQL
+<= DIRQL
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ The following remarks apply to drivers for PCI Express (PCIe) virtual functions 
 
 <ul>
 <li>
-Drivers for PCIe VFs should call the <i>GetBusData</i> routine at IRQL &lt;= APC_LEVEL.
+Drivers for PCIe VFs should call the <i>GetBusData</i> routine at IRQL <= APC_LEVEL.
 
 </li>
 <li>

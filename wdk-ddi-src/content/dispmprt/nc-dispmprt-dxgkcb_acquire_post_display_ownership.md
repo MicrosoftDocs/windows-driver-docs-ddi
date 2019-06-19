@@ -80,7 +80,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh46
 
 
 <h3><a id="Allowed_color_formats"></a><a id="allowed_color_formats"></a><a id="ALLOWED_COLOR_FORMATS"></a>Allowed color formats</h3>
-The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
+The <i>DisplayInfo</i>-><b>ColorFormat</b> member must include a bitwise-OR combination of the following two formats:
 
 <ul>
 <li><b>D3DDDIFMT_X8R8G8B8</b></li>
@@ -89,9 +89,9 @@ The <i>DisplayInfo</i>-&gt;<b>ColorFormat</b> member must include a bitwise-OR c
 If the operating system reports back the <b>D3DDDIFMT_R8G8B8</b> format, the display miniport driver should ignore it.
 
 <h3><a id="Video_present_target_initialization"></a><a id="video_present_target_initialization"></a><a id="VIDEO_PRESENT_TARGET_INITIALIZATION"></a>Video present target initialization</h3>
-It is possible that the <i>DisplayInfo</i>-&gt;<b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
+It is possible that the <i>DisplayInfo</i>-><b>TargetId</b> member is not initialized. In this case, the identifier of the video present target is <b>D3DDDI_ID_UNINITIALIZED</b>. Typically, this occurs after a system boot.
 
-Similarly, it is possible that the <i>DisplayInfo</i>-&gt;<b>AcpiId</b> member is not initialized. In this case, the ACPI identifier <b>AcpiId</b> has a value of zero.
+Similarly, it is possible that the <i>DisplayInfo</i>-><b>AcpiId</b> member is not initialized. In this case, the ACPI identifier <b>AcpiId</b> has a value of zero.
 
 In the case of a driver-to-driver upgrade, the previous driver will have provided the target identifier and the ACPI identifier.
 

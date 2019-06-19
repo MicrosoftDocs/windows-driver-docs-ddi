@@ -81,7 +81,7 @@ A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/wind
 When a connection to a partner connector is detected, the client driver calls this method to notify UcmCx with information about the partner connector. That information includes the connector role, down stream or upstream facing port, the amount of current connector can draw or deliver, and charging state. UcmCx uses that information to perform certain operations. For example, it may determine the role of the partner connector attached, and configure the USB controller in host or peripheral mode.
 
 
-Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="https://msdn.microsoft.com/library/windows/hardware/mt187918">UcmConnectorTypeCDetach</a> call to notify UcmCx when the partner connector is detached. However, when a powered cable without an upstream port is attached (indicated by <b>Params-&gt;PortPartnerType</b> set to <b>UcmTypeCPortStatePoweredCableNoUfp</b>). The client driver can call <b>UcmConnectorTypeCAttach</b> again when a connection is detected to the  upstream port to the powered cable.
+Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="https://msdn.microsoft.com/library/windows/hardware/mt187918">UcmConnectorTypeCDetach</a> call to notify UcmCx when the partner connector is detached. However, when a powered cable without an upstream port is attached (indicated by <b>Params->PortPartnerType</b> set to <b>UcmTypeCPortStatePoweredCableNoUfp</b>). The client driver can call <b>UcmConnectorTypeCAttach</b> again when a connection is detected to the  upstream port to the powered cable.
 
 
 #### Examples
@@ -95,13 +95,13 @@ Typically, every  <b>UcmConnectorTypeCAttach</b> call has a subsequent <a href="
 <pre>        UCM_CONNECTOR_TYPEC_ATTACH_PARAMS attachParams;
 
         UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT(
-            &amp;attachParams,
+            &attachParams,
             UcmTypeCPortStateDfp);
         attachParams.CurrentAdvertisement = UcmTypeCCurrent1500mA;
 
         status = UcmConnectorTypeCAttach(
                     Connector,
-                    &amp;attachParams);
+                    &attachParams);
         if (!NT_SUCCESS(status))
         {
             TRACE_ERROR(

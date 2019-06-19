@@ -124,12 +124,12 @@ Return Value:
 
     PAGED_CODE();
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;DeviceAttributes, CONTROLLER_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&DeviceAttributes, CONTROLLER_CONTEXT);
 
     //
     // Do UFX-specific initialization
     //
-    Status = UfxFdoInit(Driver, DeviceInit, &amp;DeviceAttributes);
+    Status = UfxFdoInit(Driver, DeviceInit, &DeviceAttributes);
 
     //
     // Proceed to WdfDeviceCreate

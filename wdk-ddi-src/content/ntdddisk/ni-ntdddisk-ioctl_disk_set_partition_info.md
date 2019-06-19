@@ -59,12 +59,12 @@ Changes the partition type of the specified disk partition. (Floppy drivers need
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566192">SET_PARTITION_INFORMATION</a> to be set. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566192">SET_PARTITION_INFORMATION</a> to be set. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(SET_PARTITION_INFORMATION).
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(SET_PARTITION_INFORMATION).
 
 
 ### -output-buffer

@@ -143,9 +143,9 @@ Virtualization_GetResourceForBar(
         "VFIndex = %d, BarIndex = %d\n",
         VfIndex, BarIndex);
 
-    NT_ASSERT(BarIndex &lt; PCI_TYPE0_BAR_COUNT);
+    NT_ASSERT(BarIndex < PCI_TYPE0_BAR_COUNT);
 
-    if(VfIndex &gt;= deviceContext-&gt;NumVFs)
+    if(VfIndex >= deviceContext->NumVFs)
     {
         NT_ASSERT(FALSE);
         return STATUS_INVALID_DEVICE_REQUEST;
@@ -156,14 +156,14 @@ Virtualization_GetResourceForBar(
     // to the output descriptor.
     //
 
-    *Resource = deviceContext-&gt;AssignedVfBarResources[BarIndex];
+    *Resource = deviceContext->AssignedVfBarResources[BarIndex];
 
-    if(Resource-&gt;Type == CmResourceTypeMemory ||
-       Resource-&gt;Type == CmResourceTypeMemoryLarge)
+    if(Resource->Type == CmResourceTypeMemory ||
+       Resource->Type == CmResourceTypeMemoryLarge)
     {
-        NT_ASSERT((Resource-&gt;u.Memory.Length % deviceContext-&gt;NumVFs) == 0);
-        Resource-&gt;u.Memory.Length /= deviceContext-&gt;NumVFs;
-        Resource-&gt;u.Memory.Start.QuadPart += (Resource-&gt;u.Memory.Length * VfIndex);
+        NT_ASSERT((Resource->u.Memory.Length % deviceContext->NumVFs) == 0);
+        Resource->u.Memory.Length /= deviceContext->NumVFs;
+        Resource->u.Memory.Start.QuadPart += (Resource->u.Memory.Length * VfIndex);
     }
 
     return STATUS_SUCCESS;

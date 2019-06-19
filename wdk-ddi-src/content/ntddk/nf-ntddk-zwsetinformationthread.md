@@ -69,7 +69,7 @@ One of the system-defined values in the THREADINFOCLASS enumeration (see ntddk.h
 
 Pointer to a variable that specifies the information to set. 
 
-If <b>ThreadInformationClass</b> is <b>ThreadPriority</b>, this value must be &gt; LOW_PRIORITY and &lt;= HIGH_PRIORITY. 
+If <b>ThreadInformationClass</b> is <b>ThreadPriority</b>, this value must be > LOW_PRIORITY and <= HIGH_PRIORITY. 
 
 If <b>ThreadInformationClass</b> is <b>ThreadBasePriority</b>, this value must fall within the system's valid base-priority range and the original priority class for the given thread. That is, if a thread's priority class is variable, that thread's base priority cannot be reset to a real-time priority value, and vice versa.
 

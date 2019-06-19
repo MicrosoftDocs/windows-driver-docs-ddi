@@ -107,7 +107,7 @@ HRESULT CD3DContext::SyncEngines(DWORD dwEngineReleasingControl, DWORD dwEngineA
     sSignalObject.hContext = m_sContexts[dwEngineReleasingControl].hContext;
     sSignalObject.ObjectCount = 1;
     sSignalObject.ObjectHandleArray[0] = m_hEngineSyncObject;
-    hr = m_d3dCallbacks.pfnSignalSynchronizationObjectCb(m_hD3D, &amp;sSignalObject);
+    hr = m_d3dCallbacks.pfnSignalSynchronizationObjectCb(m_hD3D, &sSignalObject);
     if (FAILED(hr)) {
         DBG_BREAK;
         return hr;
@@ -115,7 +115,7 @@ HRESULT CD3DContext::SyncEngines(DWORD dwEngineReleasingControl, DWORD dwEngineA
     sWaitObject.hContext = m_sContexts[dwEngineAcquiringControl].hContext;
     sWaitObject.ObjectCount = 1;
     sWaitObject.ObjectHandleArray[0] = m_hEngineSyncObject;
-    hr = m_d3dCallbacks.pfnWaitForSynchronizationObjectCb(m_hD3D, &amp;sWaitObject);
+    hr = m_d3dCallbacks.pfnWaitForSynchronizationObjectCb(m_hD3D, &sWaitObject);
     if (FAILED(hr)) {
         DBG_BREAK;        
     }

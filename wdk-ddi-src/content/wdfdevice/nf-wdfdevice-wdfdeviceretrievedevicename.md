@@ -124,7 +124,7 @@ WDFSTRING string;
 status = WdfStringCreate(
                          NULL,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string
+                         &string
                          );
 if (NT_SUCCESS(status)) {
     status = WdfDeviceRetrieveDeviceName(

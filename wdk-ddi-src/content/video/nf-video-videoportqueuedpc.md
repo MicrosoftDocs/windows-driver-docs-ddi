@@ -82,7 +82,7 @@ Pointer to the miniport driver-supplied context that will be passed to <i>Callba
 
 
 
-The deferred procedure is run when the IRQL on the current processor drops below DISPATCH_LEVEL. Callers of <b>VideoPortQueueDpc</b> must be running at IRQL &gt;= DISPATCH_LEVEL.
+The deferred procedure is run when the IRQL on the current processor drops below DISPATCH_LEVEL. Callers of <b>VideoPortQueueDpc</b> must be running at IRQL >= DISPATCH_LEVEL.
 
 
 

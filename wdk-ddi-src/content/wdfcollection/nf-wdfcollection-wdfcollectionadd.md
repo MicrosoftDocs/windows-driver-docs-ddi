@@ -125,26 +125,26 @@ NTSTATUS  status;
 WDFCOLLECTION  hCollection = NULL;
 WDFREQUEST  subRequest = NULL;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = Request;
 status = WdfCollectionCreate(
-                             &amp;attributes,
-                             &amp;hCollection
+                             &attributes,
+                             &hCollection
                              );
 if (!NT_SUCCESS(status)) {
     goto Exit;
 }
 
-for (i = 0; i &lt; numSubRequests; i++) {
-    WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+for (i = 0; i < numSubRequests; i++) {
+    WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
     WDF_OBJECT_ATTRIBUTES_SET_CONTEXT_TYPE(
-                                           &amp;attributes,
+                                           &attributes,
                                            SUB_REQUEST_CONTEXT
                                            );
     status = WdfRequestCreate(
-                              &amp;attributes,
-                              WdfUsbTargetDeviceGetIoTarget(deviceContext-&gt;WdfUsbTargetDevice),
-                              &amp;subRequest
+                              &attributes,
+                              WdfUsbTargetDeviceGetIoTarget(deviceContext->WdfUsbTargetDevice),
+                              &subRequest
                               );
     if (!NT_SUCCESS(status)) {
         goto Exit;

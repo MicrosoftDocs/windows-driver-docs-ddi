@@ -91,7 +91,7 @@ By calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543439
 
 </li>
 <li>
-By sending an IRP_MJ_QUERY_INFORMATION request to the file system and specifying FileStreamInformation for the <i>FileInformationClass</i> parameter. On return, <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a FILE_STREAM_INFORMATION structure for each file stream. 
+By sending an IRP_MJ_QUERY_INFORMATION request to the file system and specifying FileStreamInformation for the <i>FileInformationClass</i> parameter. On return, <b>Irp->AssociatedIrp.SystemBuffer</b> contains a FILE_STREAM_INFORMATION structure for each file stream. 
 
 </li>
 </ul>
@@ -117,7 +117,7 @@ By calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443
 
 </li>
 <li>
-By sending an IRP_MJ_QUERY_VOLUME_INFORMATION request to the file system and specifying FileFsAttributeInformation for the <i>FsInformationClass</i> parameter. On return, <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a FILE_FS_ATTRIBUTE_INFORMATION structure. If the FILE_NAMED_STREAMS bit is set in the <b>FileSystemAttributes</b> member of this structure, the file system supports named streams. 
+By sending an IRP_MJ_QUERY_VOLUME_INFORMATION request to the file system and specifying FileFsAttributeInformation for the <i>FsInformationClass</i> parameter. On return, <b>Irp->AssociatedIrp.SystemBuffer</b> contains a FILE_FS_ATTRIBUTE_INFORMATION structure. If the FILE_NAMED_STREAMS bit is set in the <b>FileSystemAttributes</b> member of this structure, the file system supports named streams. 
 
 </li>
 </ul>

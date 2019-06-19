@@ -58,7 +58,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Irp-&gt;UserBuffer </b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure the contains the parameters and report to be transmitted to the device. The following members are used:
+<b>Irp->UserBuffer </b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure the contains the parameters and report to be transmitted to the device. The following members are used:
 
 
 
@@ -114,7 +114,7 @@ None.
 ### -status-block
 
 
-       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

@@ -69,8 +69,8 @@ Specifies the state of the query. This member can contain one or more of the fol
 
 |Value|Meaning|
 |---|---|
-|D3DISSUE_BEGIN (1 &lt;&lt; 1)|Starts building the query. The runtime does not request query data while in this state.|
-|D3DISSUE_END (1 &lt;&lt; 0)|Transitions the state to subsignaled. Results of the query are not available until the state transitions to signaled.|
+|D3DISSUE_BEGIN (1 << 1)|Starts building the query. The runtime does not request query data while in this state.|
+|D3DISSUE_END (1 << 0)|Transitions the state to subsignaled. Results of the query are not available until the state transitions to signaled.|
  
 
 The driver can ignore query requests with **dwFlags** set to 0. 

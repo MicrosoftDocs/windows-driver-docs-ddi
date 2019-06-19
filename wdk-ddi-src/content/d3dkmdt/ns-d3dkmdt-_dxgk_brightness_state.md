@@ -46,7 +46,7 @@ req.typenames: DXGK_BRIGHTNESS_STATE
 ## -description
 
 
-Used to enable smooth brightness control for an integrated display panel. The display miniport driver must enable smooth brightness control when its <a href="https://msdn.microsoft.com/804046ff-0cc7-4ff0-be07-b574cb40fd2b">DxgkDdiSetBrightnessState</a> function is called and <i>BrightnessState</i>-&gt;<b>SmoothBrightness</b> is set to 1.Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
+Used to enable smooth brightness control for an integrated display panel. The display miniport driver must enable smooth brightness control when its <a href="https://msdn.microsoft.com/804046ff-0cc7-4ff0-be07-b574cb40fd2b">DxgkDdiSetBrightnessState</a> function is called and <i>BrightnessState</i>-><b>SmoothBrightness</b> is set to 1.Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 
 
 

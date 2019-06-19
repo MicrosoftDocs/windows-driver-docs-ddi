@@ -47,7 +47,7 @@ The CreateSyntheticObject method creates an empty data model object -- a diction
 ## -parameters
 
 ### -param context
-The debug host context which be associated with the newly created synthetic object. Not every object requires a context. If the object refers to things such as processes, threads, or memory in the address space of the host, it may need one (unless it encapsulates other objects which contain such).
+The debug host context which will be associated with the newly created synthetic object. Not every object requires a context. If the object refers to things such as processes, threads, or memory in the address space of the host, it may need one (unless it encapsulates other objects which contain such).
 
 
 ### -param object

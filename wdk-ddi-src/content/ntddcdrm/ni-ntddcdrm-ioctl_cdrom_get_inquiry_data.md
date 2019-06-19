@@ -69,12 +69,12 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559177">INQUIRYDATA</a>.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559177">INQUIRYDATA</a>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff559177">INQUIRYDATA</a>).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff559177">INQUIRYDATA</a>).
 
 
 ### -in-out-buffer

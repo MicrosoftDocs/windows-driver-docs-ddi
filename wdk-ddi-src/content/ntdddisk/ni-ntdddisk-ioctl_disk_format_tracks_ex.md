@@ -59,7 +59,7 @@ Is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553875">FORMAT_EX_PARAMETERS</a> data. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553875">FORMAT_EX_PARAMETERS</a> data. 
 
 
 ### -input-buffer-length
@@ -69,7 +69,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="ht
 
 ### -output-buffer
 
-The device driver returns an array of BAD_TRACK_NUMBER values to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. BAD_TRACK_NUMBER is currently defined as a WORD on 32-bit systems. 
+The device driver returns an array of BAD_TRACK_NUMBER values to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. BAD_TRACK_NUMBER is currently defined as a WORD on 32-bit systems. 
 
 
 ### -output-buffer-length
@@ -97,7 +97,7 @@ Length of the buffer.
 
 ### -status-block
 
-The driver sets the <b>Status</b> field to STATUS_SUCCESS. Otherwise, the driver sets the <b>Status</b> field to STATUS_INVALID_PARAMETER if the input buffer length is &lt; <b>sizeof</b>(FORMAT_EX_PARAMETERS) or if the format parameters supplied by the caller will not work on the drive to be formatted.
+The driver sets the <b>Status</b> field to STATUS_SUCCESS. Otherwise, the driver sets the <b>Status</b> field to STATUS_INVALID_PARAMETER if the input buffer length is < <b>sizeof</b>(FORMAT_EX_PARAMETERS) or if the format parameters supplied by the caller will not work on the drive to be formatted.
 
 
 ## -see-also

@@ -67,7 +67,7 @@ The <b>IOCTL_LAMP_GET_CAPABILITIES_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a>.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a>.
 
 
 ### -input-buffer-length
@@ -77,13 +77,13 @@ Length of the buffer.
 
 ### -output-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> is filled with all capabilities supported by the lamp hardware.
+<code>Irp->AssociatedIrp.SystemBuffer</code> is filled with all capabilities supported by the lamp hardware.
 
 
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer (in bytes) passed in the <code>Irp-&gt;AssociatedIrp.SystemBuffer</code> field.
+<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer (in bytes) passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
 
 
 
@@ -107,7 +107,7 @@ Length of the buffer.
 
 ### -status-block
 
-The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp-&gt;IoStatus.Information</code> to the number of bytes required to hold the buffer.
+The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp->IoStatus.Information</code> to the number of bytes required to hold the buffer.
 
 
 ## -remarks

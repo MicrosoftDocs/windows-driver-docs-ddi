@@ -313,7 +313,7 @@ When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
 
 <ul>
 <li>
-The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>-&gt;SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
+The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>->SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
 
 </li>
 <li>

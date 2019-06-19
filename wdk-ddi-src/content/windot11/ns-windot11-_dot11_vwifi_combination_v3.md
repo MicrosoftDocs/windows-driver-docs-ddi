@@ -125,7 +125,7 @@ The number of simultaneous operational Wi-Fi Direct (WFD) groups supported.
 
 
 
-When <b>uNumWFDGroup</b> &gt; 0, the miniport driver is required to support one more 802.11 MAC entity in addition to the number in <b>uNumWFDGroup</b>. This additional entity is used for WFD device functionality and is the only entity configured as <b>DOT11_OPERATION_MODE_WFD_DEVICE</b>.
+When <b>uNumWFDGroup</b> > 0, the miniport driver is required to support one more 802.11 MAC entity in addition to the number in <b>uNumWFDGroup</b>. This additional entity is used for WFD device functionality and is the only entity configured as <b>DOT11_OPERATION_MODE_WFD_DEVICE</b>.
 
 
 

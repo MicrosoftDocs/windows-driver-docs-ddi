@@ -113,10 +113,10 @@ The following code example obtains the <a href="https://msdn.microsoft.com/libra
 <tr>
 <td>
 <pre>   IWDFDevice2 *pDevice2 = NULL;
-    HRESULT hrQI = pDevice-&gt;QueryInterface(IID_PPV_ARGS(&amp;pDevice2));
+    HRESULT hrQI = pDevice->QueryInterface(IID_PPV_ARGS(&pDevice2));
     if (SUCCEEDED(hrQI))
     {
-        POWER_ACTION powerAction = pDevice2-&gt;GetSystemPowerAction();
+        POWER_ACTION powerAction = pDevice2->GetSystemPowerAction();
     }
 ...
     SAFE_RELEASE(pDevice2);</pre>

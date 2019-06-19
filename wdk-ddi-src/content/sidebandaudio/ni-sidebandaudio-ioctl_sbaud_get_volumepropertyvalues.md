@@ -38,7 +38,7 @@ ms.custom: RS5
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
+Audio driver can call this IOCTL to query the volume stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_VOLUMELEVEL basic support.
 
 
 
@@ -46,27 +46,27 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -input-buffer
 
-<text></text>
+Endpoint index.
 
-### -input-buffer-length 
+### -input-buffer-length
 
-<text></text>
+Size of ULONG.
 
 ### -output-buffer
 
-<text></text>
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
 
 ### -output-buffer-length 
 
-<text></text>
+Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER and step ranges. This size was returned in SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePropertyValuesSize.
 
 ### -in-out-buffer
 
-<text></text>
+Input Endpoint Index and output KSPROPERTY_DESCRIPTION share the same buffer.
 
 ### -inout-buffer-length 
 
-<text></text>
+Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::VolumePropertyValuesSize.
 
 ### -status-block
 

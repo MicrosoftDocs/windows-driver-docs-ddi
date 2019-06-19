@@ -5,7 +5,7 @@ description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attrib
 old-location: ifsk\file_fs_attribute_information.htm
 tech.root: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
-ms.date: 04/16/2018
+ms.date: 06/06/2019
 ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, ifsk.file_fs_attribute_information, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION"
 ms.topic: struct
 req.header: ntifs.h
@@ -42,262 +42,80 @@ req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
 
 # _FILE_FS_ATTRIBUTE_INFORMATION structure
 
-
 ## -description
 
-
-The <b>FILE_FS_ATTRIBUTE_INFORMATION</b> 
-   structure is used to query attribute information for a file system.
-
+The **FILE_FS_ATTRIBUTE_INFORMATION** structure is used to query attribute information for a file system.
 
 ## -struct-fields
 
-
-
-
 ### -field FileSystemAttributes
 
-Bitmask of flags specifying attributes of the specified file system, as a compatible combination of the 
-       following flags.
+Bitmask of flags specifying attributes of the specified file system, as a compatible combination of the following flags.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>FILE_CASE_PRESERVED_NAMES</b>
-
-</td>
-<td>
-The file system preserves the case of file names when it places a name on disk.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_CASE_SENSITIVE_SEARCH</b>
-
-</td>
-<td>
-The file system supports case-sensitive file names.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_FILE_COMPRESSION</b>
-
-</td>
-<td>
-The file system supports file-based compression. This flag is incompatible with the 
-          <b>FILE_VOLUME_IS_COMPRESSED</b> flag.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_NAMED_STREAMS</b>
-
-</td>
-<td>
-The file system supports named streams.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_PERSISTENT_ACLS</b>
-
-</td>
-<td>
-The file system preserves and enforces access control lists 
-          (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>).
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_READ_ONLY_VOLUME</b>
-
-</td>
-<td>
-<b>Microsoft Windows XP and later:</b> The specified volume is read-only.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_RETURNS_CLEANUP_RESULT_INFO</b>
-
-</td>
-<td>
-The file system returns information on a successful cleanup operation describing additional actions taken during cleanup, such as deleting the file.  File system filters can examine this information in their post-cleanup callback.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_SUPPORTS_ENCRYPTION</b>
-
-</td>
-<td>
-The file system supports the Encrypted File System (EFS).
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_SUPPORTS_OBJECT_IDS</b>
-
-</td>
-<td>
-The file system supports object identifiers.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_SUPPORTS_REMOTE_STORAGE</b>
-
-</td>
-<td>
-The file system supports remote storage.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_SUPPORTS_REPARSE_POINTS</b>
-
-</td>
-<td>
-The file system supports reparse points.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_SUPPORTS_SPARSE_FILES</b>
-
-</td>
-<td>
-The file system supports sparse files.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_UNICODE_ON_DISK</b>
-
-</td>
-<td>
-The file system supports Unicode in file names.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_VOLUME_IS_COMPRESSED</b>
-
-</td>
-<td>
-The specified volume is a compressed volume. This flag is incompatible with the 
-          <b>FILE_FILE_COMPRESSION</b> flag.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>FILE_VOLUME_QUOTAS</b>
-
-</td>
-<td>
-The file system supports per-user quotas.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| ----- | ------- |
+| **FILE_CASE_SENSITIVE_SEARCH** (0x00000001) | The file system supports case-sensitive file names. |
+| **FILE_CASE_PRESERVED_NAMES** (0x00000002)| The file system preserves the case of file names when it places a name on disk. |
+| **FILE_UNICODE_ON_DISK** (0x00000004) | The file system supports [Unicode](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_c305d0ab-8b94-461a-bd76-13b40cb8c4d8) in file names. |
+| **FILE_PERSISTENT_ACLS** (0x00000008) | The file system preserves and enforces access control lists ([ACLs](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl)). |
+| **FILE_FILE_COMPRESSION** (0x00000010) | The file system supports file-based compression. This flag is incompatible with the **FILE_VOLUME_IS_COMPRESSED** flag. This flag does not affect how data is transferred over the network. |
+| **FILE_VOLUME_QUOTAS** (0x00000020) | The file system supports per-user quotas. |
+| **FILE_SUPPORTS_SPARSE_FILES** (0x00000040) | The file system supports sparse files. |
+| **FILE_SUPPORTS_REPARSE_POINTS** (0x00000080) | The file system supports [reparse points](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_4fed0b53-5fc8-4818-886f-93d87f3035e1). |
+| **FILE_SUPPORTS_REMOTE_STORAGE** (0x00000100) | The file system supports remote storage. |
+| **FILE_RETURNS_CLEANUP_RESULT_INFO** (0x00000200) | On a successful cleanup operation, the file system returns information that describes additional actions taken during cleanup, such as deleting the file. File system filters can examine this information in their post-cleanup callback. |
+| **FILE_SUPPORTS_POSIX_UNLINK_RENAME** (0x00000400) | The file system supports POSIX-style delete and rename operations. |
+| **FILE_VOLUME_IS_COMPRESSED** (0x00008000) | The specified volume is a compressed volume. This flag is incompatible with the **FILE_FILE_COMPRESSION** flag. This does not affect how data is transferred over the network. |
+| **FILE_SUPPORTS_OBJECT_IDS** (0x00010000) | The file system supports object identifiers. |
+| **FILE_SUPPORTS_ENCRYPTION** (0x00020000) | The file system supports encryption. |
+| **FILE_NAMED_STREAMS** (0x00040000) | The file system supports named [data streams](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_f3529cd8-50da-4f36-aa0b-66af455edbb6) for a file. |
+| **FILE_READ_ONLY_VOLUME** (0x00080000) | The specified volume is read-only. |
+| **FILE_SEQUENTIAL_WRITE_ONCE** (0x00100000) | The specified volume can be written to one time only. The write must be performed in sequential order. |
+| **FILE_SUPPORTS_TRANSACTIONS** (0x00200000) | The file system supports [transaction processing](https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal). |
+| **FILE_SUPPORTS_HARD_LINKS** (0x00400000) | The file system supports direct links to other devices and partitions. |
+| **FILE_SUPPORTS_EXTENDED_ATTRIBUTES** (0x00800000) | The file system supports extended attributes (EAs). |
+| **FILE_SUPPORTS_OPEN_BY_FILE_ID** (0x01000000) | The file system supports open by file ID. |
+| **FILE_SUPPORTS_USN_JOURNAL** (0x02000000) | The file system supports update sequence number (USN) journals. |
+| **FILE_SUPPORTS_INTEGRITY_STREAMS** (0x04000000) | The file system supports [integrity streams](https://docs.microsoft.com/windows-server/storage/refs/integrity-streams). |
+| **FILE_SUPPORTS_BLOCK_REFCOUNTING** (0x08000000) | The file system supports [block cloning](https://docs.microsoft.com/windows/desktop/FileIO/block-cloning), that is, sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. |
+| **FILE_SUPPORTS_SPARSE_VDL** (0x10000000) | The file system tracks whether each cluster of a file contains valid data (either from explicit file writes or automatic zeros) or invalid data (has not yet been written to or zeroed). File systems that use sparse valid data length (VDL) do not store a valid data length and do not require that valid data be contiguous within a file. |
+| **FILE_DAX_VOLUME** (0x20000000)| The specified volume is a direct access (DAX) volume. |
+| **FILE_SUPPORTS_GHOSTING** (0x40000000) | The file system supports ghosting. |
 
 ### -field MaximumComponentNameLength
 
-Maximum file name component length, in bytes, supported by the specified file system. A file name component 
-      is that portion of a file name between backslashes.
-
+Maximum file name component length, in bytes, supported by the specified file system. A file name component is that portion of a file name between path separator characters (such as backslashes).
 
 ### -field FileSystemNameLength
 
-Length, in bytes, of the file system name.
-
+Length, in bytes, of the file system name. The value of this field must be greater than zero.
 
 ### -field FileSystemName
 
-File system name.
-
+Variable-length Unicode field containing the name of the file system. This field is not null-terminated and must be handled as a sequence of **FileSystemNameLength** bytes.
 
 ## -remarks
 
-
-
 This information can be queried in either of the following ways:
 
-<ul>
-<li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, passing 
-       <b>FileFsAttributeInformation</b> as the value of 
-       <i>FileInformationClass</i> and passing a caller-allocated, 
-       <b>FILE_FS_ATTRIBUTE_INFORMATION</b>-structured 
-       buffer as the value of <i>FileInformation</i>.
+* Call [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile), passing **FileFsAttributeInformation** as the value of *FileInformationClass* and passing a caller-allocated, **FILE_FS_ATTRIBUTE_INFORMATION**-structured buffer as the value of *FileInformation*.
 
-On CSVFS <b>FileFsAttributeInformation</b> returns 
-       <b>FILE_FS_ATTRIBUTE_INFORMATION</b> for the 
-       CSVFS file system. If you want to query <b>FileFsAttributeInformation</b> for the file 
-       system CSVFS is layered on then you should use 
-       <a href="https://msdn.microsoft.com/1AC3FD47-70B8-4735-9B25-A8B2BAEE5A83">FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS</a>.
+  * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
 
-</li>
-<li>
-Create an IRP with major function code 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>.
+* Create an IRP with major function code [IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information).
 
-</li>
-</ul>
-No specific access rights are required to query this information. Thus this information is available as long as 
-     the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
+No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a> must be at 
-     least <code>sizeof(FILE_FS_ATTRIBUTE_INFORMATION)</code>.
+The size of the buffer passed in the *FileInformation* parameter to **FltQueryVolumeInformation** or **ZwQueryVolumeInformationFile** must be at least ```sizeof(FILE_FS_ATTRIBUTE_INFORMATION)```. Because a maximum file system name length cannot be assumed (practically, the limit is 2^31 character points), a second call to one of these routines will be required once *FileSystemNameLength* is known.
 
-This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
-
-
-
+This structure must be aligned on a **LONG** (4-byte) boundary.
 
 ## -see-also
 
+[ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl)
 
+[FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
 
+[IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
- 
-
- 
-
+[ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile)

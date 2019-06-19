@@ -254,7 +254,7 @@ The network mini-redirector does not actually start operation until it receives 
 
 <ul>
 <li>
-IRP requests for device create operations and device operations where the <i>FileObject-&gt;FileName.Length</i> parameter on the IRPSP is zero and the <i>FileObject-&gt;RelatedFileObject</i> parameter is <b>NULL</b>.
+IRP requests for device create operations and device operations where the <i>FileObject->FileName.Length</i> parameter on the IRPSP is zero and the <i>FileObject->RelatedFileObject</i> parameter is <b>NULL</b>.
 
 </li>
 </ul>

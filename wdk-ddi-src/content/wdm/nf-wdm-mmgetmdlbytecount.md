@@ -65,7 +65,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers are running at IRQL &lt;= DISPATCH_LEVEL.
+Callers of <b>MmGetMdlByteCount</b> can be running at any IRQL. Usually, callers are running at IRQL <= DISPATCH_LEVEL.
 
 
 

@@ -3,7 +3,7 @@ UID: NF:dbgmodel.IModelObject.SetConcept
 title: IModelObject::SetConcept (dbgmodel.h)
 description: The SetConcept method will place a specified concept on the object instance specified by the this pointer. 
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
-ms.date: 08/13/2018
+ms.date: 06/10/2019
 ms.topic: method
 ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
@@ -43,7 +43,11 @@ ms.custom: RS5
 
 ## -description
 
-The SetConcept method will place a specified concept on the object instance specified by the this pointer. If a parent model attached to the object instance specified by this also supports the concept, the implementation in the instance will override that in the parent model. 
+The SetConcept method will place a specified concept on the object instance specified by the this pointer. If a parent model attached to the object instance specified by this also supports the concept, the implementation in the instance will override that in the parent model.
+
+For the set of concepts (interfaces) that are supported by the data model, see [Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts).
+
+For information on the IKeyStore interface, see [IKeyStore interface](nn-dbgmodel-ikeystore.md).
 
 ## -parameters
 
@@ -99,5 +103,9 @@ if (spStringConverter != nullptr)
 
 
 ## -see-also
+
+[Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts)
+
+[IKeyStore interface](nn-dbgmodel-ikeystore.md)
 
 [IModelObject interface](nn-dbgmodel-imodelobject.md)

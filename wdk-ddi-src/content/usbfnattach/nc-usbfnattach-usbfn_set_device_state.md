@@ -109,8 +109,8 @@ UsbLowerFilter_SetDeviceState(
     // Get our context
     PdcpContext = DeviceGetUsbLowerFilterContext((WDFDEVICE)Context);
 
-    PdcpContext-&gt;CurrentDeviceState = DeviceState;
-    PdcpContext-&gt;BusSpeed = BusSpeed;
+    PdcpContext->CurrentDeviceState = DeviceState;
+    PdcpContext->BusSpeed = BusSpeed;
 
     return STATUS_SUCCESS;
 }

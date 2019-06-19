@@ -120,10 +120,10 @@ Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 <ul>
 <li>The buffer was allocated from system memory pool.</li>
-<li>In the device object for the target device, the DO_DIRECT_IO flag is set in the <b>DeviceObject-&gt;Flags</b> field.</li>
-<li>The <b>Irp-&gt;MdlAddress</b> field is non-NULL.</li>
+<li>In the device object for the target device, the DO_DIRECT_IO flag is set in the <b>DeviceObject->Flags</b> field.</li>
+<li>The <b>Irp->MdlAddress</b> field is non-NULL.</li>
 </ul>
-Before freeing the buffer for this IRP, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556381">MmUnlockPages</a> routine with <b>Irp-&gt;MdlAddress</b> as the parameter value. This call decrements the extra reference count that <b>IoBuildAsynchronousFsdRequest</b> added to the pool pages in the MDL. Otherwise, the subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a> will bug check because the reference count for these pool pages will be 2, not 1. The following code example shows the <b>MmUnlockPages</b>, <b>IoFreeMdl</b>, and <b>IoFreeIrp</b> calls for this case:
+Before freeing the buffer for this IRP, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556381">MmUnlockPages</a> routine with <b>Irp->MdlAddress</b> as the parameter value. This call decrements the extra reference count that <b>IoBuildAsynchronousFsdRequest</b> added to the pool pages in the MDL. Otherwise, the subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a> will bug check because the reference count for these pool pages will be 2, not 1. The following code example shows the <b>MmUnlockPages</b>, <b>IoFreeMdl</b>, and <b>IoFreeIrp</b> calls for this case:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -131,13 +131,13 @@ Before freeing the buffer for this IRP, call the <a href="https://msdn.microsoft
 </tr>
 <tr>
 <td>
-<pre>if (((DeviceObject-&gt;Flags &amp; DO_DIRECT_IO) == DO_DIRECT_IO) &amp;&amp;
-    (Irp-&gt;MdlAddress != NULL))
+<pre>if (((DeviceObject->Flags & DO_DIRECT_IO) == DO_DIRECT_IO) &&
+    (Irp->MdlAddress != NULL))
 {
-    MmUnlockPages(Irp-&gt;MdlAddress);
+    MmUnlockPages(Irp->MdlAddress);
 }
 
-IoFreeMdl(Irp-&gt;MdlAddress);
+IoFreeMdl(Irp->MdlAddress);
 IoFreeIrp(Irp);
 </pre>
 </td>

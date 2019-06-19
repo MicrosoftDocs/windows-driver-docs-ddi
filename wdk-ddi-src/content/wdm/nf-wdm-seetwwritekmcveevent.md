@@ -134,10 +134,10 @@ UNICODE_STRING EventDetails;
 
 …
 
-RtlInitUnicodeString(&amp;CVEID, L“CVE-2015-0000”);
-RtlInitUnicodeString(&amp;EventDetails, L”Vulnerable request with data is logged in %temp%\abc.log”);
+RtlInitUnicodeString(&CVEID, L“CVE-2015-0000”);
+RtlInitUnicodeString(&EventDetails, L”Vulnerable request with data is logged in %temp%\abc.log”);
 
-status = SeEtwWriteKMCveEvent( &amp;CVEID, &amp;EventDetails);
+status = SeEtwWriteKMCveEvent( &CVEID, &EventDetails);
 
 //
 </pre>

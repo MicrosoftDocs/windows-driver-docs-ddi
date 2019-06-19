@@ -97,7 +97,7 @@ The following code example receives a buffer size and returns the size (either t
 <td>
 <pre>bufferSizeAligned = WDF_ALIGN_SIZE_UP(bufferSize,
                                       sizeof(DWORD));
-if (bufferSizeAligned &lt; bufferSize)
+if (bufferSizeAligned < bufferSize)
 {
     // Buffer too large.
     ...

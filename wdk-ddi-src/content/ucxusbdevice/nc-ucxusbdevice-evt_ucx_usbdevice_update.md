@@ -105,8 +105,8 @@ UsbDevice_EvtUcxUsbDeviceUpdate(
 
     DbgTrace(TL_INFO, UsbDevice, "UsbDevice_EvtUcxUsbDeviceUpdate");
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
     usbDeviceUpdate = (PUSBDEVICE_UPDATE)wdfRequestParams.Parameters.Others.Arg1;
     ...
 

@@ -106,11 +106,11 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_OBJECT_ATTRIBUTES attributes;
 WDFSPINLOCK lockHandle;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = Device;
 status = WdfSpinLockCreate(
-                           &amp;attributes,
-                           &amp;lockHandle
+                           &attributes,
+                           &lockHandle
                            );</pre>
 </td>
 </tr>

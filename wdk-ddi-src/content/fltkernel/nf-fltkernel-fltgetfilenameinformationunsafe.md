@@ -24,7 +24,7 @@ req.assembly:
 req.type-library: 
 req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL (see Remarks)
 topic_type:
 - APIRef
 - kbSyntax
@@ -179,15 +179,15 @@ An invalid value was passed for the <i>FileNameInformation</i> parameter. This i
 
 The **FltGetFileNameInformationUnsafe** routine is provided so that you can query the name of a file object outside of the context of an I/O operation on that file object; otherwise, you must call [FltGetFileNameInformation](nf-fltkernel-fltgetfilenameinformation.md).
 
-Unlike the **FltGetFileNameInformation** routine, **FltGetFileNameInformationUnsafe** does not protect the caller against the following types of circumstances, where querying the file system for name information can cause deadlocks:
-
-* When the **TopLevelIrp** field of the current thread is not **NULL**. For more information, see [IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp).
+Unlike the **FltGetFileNameInformation** routine, **FltGetFileNameInformationUnsafe** does not protect the caller against the following types of circumstances, where querying the file system for name information can cause deadlocks for query methods other than FLT_FILE_NAME_QUERY_CACHE_ONLY:
 
 * In the paging I/O path.
 
-* After an [IRP_MJ_CLEANUP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-cleanup) operation is completed.
+* When the **TopLevelIrp** field of the current thread is not **NULL**. For more information, see [IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp).
 
-* In a preoperation callback routine ([PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)) or a postoperation callback routine ([PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)) for any of the following operations:
+* After an [IRP_MJ_CLEANUP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-cleanup) operation is completed; that is, in the post-clean up, pre-close, or post-close path (the target file object has the FO_CLEANUP_COMPLETE flag set).
+
+* In a preoperation ([PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)) or postoperation ([PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)) callback routine for any of the following operations:
 
   * IRP_MJ_ACQUIRE_FOR_CC_FLUSH
   * IRP_MJ_ACQUIRE_FOR_MOD_WRITE
@@ -196,6 +196,8 @@ Unlike the **FltGetFileNameInformation** routine, **FltGetFileNameInformationUns
   * IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION
 
 * In a postoperation callback routine for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION.
+
+* When all APCs are disabled; that is, when [KeAreAllApcsDisabled](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keareallapcsdisabled) returns TRUE.
 
 For Windows Vista / Server 2008 and later, if a minifilter does not yet have a filter instance, such as in its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize) routine, it can use `NULL` for the *Instance* parameter. This allows *DriverEntry* routines to access file name information. Except for this case, a `NULL` value for the instance parameter is reserved for system use.
 

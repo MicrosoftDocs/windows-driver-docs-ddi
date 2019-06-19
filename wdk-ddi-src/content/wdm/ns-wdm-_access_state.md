@@ -138,12 +138,12 @@ A Boolean value that specifies whether a privilege usage should be audited. This
 
 ### -field ObjectName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the object name string for the access. This member is used for auditing. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object name string for the access. This member is used for auditing. 
 
 
 ### -field ObjectTypeName
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the object type name string for the access. This member is used for auditing. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object type name string for the access. This member is used for auditing. 
 
 
 ## -see-also
@@ -199,7 +199,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -90,7 +90,7 @@ By default, the operating system uses splay trees to implement generic tables, b
 
 If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. 
 
-Callers of <b>RtlLookupFirstMatchingElementGenericTableAvl</b> must be running at &lt;= APC_LEVEL if either of the following conditions holds:
+Callers of <b>RtlLookupFirstMatchingElementGenericTableAvl</b> must be running at <= APC_LEVEL if either of the following conditions holds:
 
 <ul>
 <li>The caller-allocated memory at <i>Table</i> or at <i>Buffer</i> is pageable.</li>

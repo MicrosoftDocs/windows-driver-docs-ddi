@@ -292,7 +292,7 @@ A smart card is inserted and a protocol has been selected.
 </table>
  
 
-Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a>. 
+Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData->SpinLock</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a>. 
 
 
 ### -field Channel

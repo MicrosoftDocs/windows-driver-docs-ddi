@@ -92,7 +92,7 @@ Specifies <b>TRUE</b> to enable the event or data collection, or <b>FALSE</b> to
 
 
 
-When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls a miniport driver's <b>HwScsiWmiFunctionControl</b> routine if <i>MinorFunction</i> indicates a request to enable or disable an event, or to enable or disable collection for a data block that the miniport driver registered as expensive to collect.
+When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb->WmiSubFunction</b>. The SCSI port driver calls a miniport driver's <b>HwScsiWmiFunctionControl</b> routine if <i>MinorFunction</i> indicates a request to enable or disable an event, or to enable or disable collection for a data block that the miniport driver registered as expensive to collect.
 
 If a miniport driver does not implement a <b>HwScsiWmiFunctionControl</b> routine, it must set <b>WmiFunctionControl</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. The port driver returns SRB_STATUS_SUCCESS to the caller.
 

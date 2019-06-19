@@ -56,7 +56,7 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request is sent to retrieve th
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a> structure. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href=
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -output-buffer-length

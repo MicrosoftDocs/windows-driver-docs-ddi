@@ -138,7 +138,7 @@ The following code example shows the <i>EvtDriverDeviceAdd</i> callback function
 
     Status = GPIO_CLX_ProcessAddDevicePreDeviceCreate(Driver,
                                                       DeviceInit,
-                                                      &amp;FdoAttributes);
+                                                      &FdoAttributes);
     if (!NT_SUCCESS(Status)) {
         goto ExitDeviceAdd;
     }
@@ -147,7 +147,7 @@ The following code example shows the <i>EvtDriverDeviceAdd</i> callback function
     // Call the framework to create the device and attach it to the lower stack.
     //
 
-    Status = WdfDeviceCreate(&amp;DeviceInit, &amp;FdoAttributes, &amp;Device);
+    Status = WdfDeviceCreate(&DeviceInit, &FdoAttributes, &Device);
     if (!NT_SUCCESS(Status)) {
         goto ExitDeviceAdd;
     }

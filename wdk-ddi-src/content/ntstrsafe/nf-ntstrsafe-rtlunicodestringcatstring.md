@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlUnicodeStringCatString</b> function concatenates two strings when the destination string is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure.
+The <b>RtlUnicodeStringCatString</b> function concatenates two strings when the destination string is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure.
 
 
 ## -parameters
@@ -149,7 +149,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

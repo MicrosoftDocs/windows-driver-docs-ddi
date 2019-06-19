@@ -130,7 +130,7 @@ The <b>Header.Flags.Recovered</b> bit is set.
 </ul>
 If the PSHED plug-in successfully recovers from the hardware error, the PSHED will update the WHEA_ERROR_RECORD structure on behalf of the PSHED plug-in after the call to the PSHED plug-in's <i>AttemptRecovery</i> callback function returns. A PSHED plug-in's <i>AttemptRecovery</i> callback function should not modify the error record.
 
-The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IRQL &lt;= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
+The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 
 

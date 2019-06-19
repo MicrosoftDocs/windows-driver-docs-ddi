@@ -63,7 +63,7 @@ Specifies the resource handle to release.
 
 
 
-The bus driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS on success. All isochronous buffers that were attached to this resource must be detached prior to issuing this call. If a device driver attempts to free a resource handle with isochronous buffers still attached to it, the handle is not freed and the bus driver returns STATUS_ACCESS_DENIED instead.
+The bus driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS on success. All isochronous buffers that were attached to this resource must be detached prior to issuing this call. If a device driver attempts to free a resource handle with isochronous buffers still attached to it, the handle is not freed and the bus driver returns STATUS_ACCESS_DENIED instead.
 
 
 

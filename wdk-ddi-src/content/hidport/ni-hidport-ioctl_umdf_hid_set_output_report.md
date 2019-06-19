@@ -69,7 +69,7 @@ The driver retrieves the report ID associated with the top-level collection by c
 <pre>UCHAR reportId;
 SIZE_T outBufferSize;
 
-FxRequest-&gt;GetDeviceIoControlParameters(NULL, NULL, &amp;outBufferSize);
+FxRequest->GetDeviceIoControlParameters(NULL, NULL, &outBufferSize);
 reportId = (UCHAR)outBufferSize;
 </pre>
 </td>

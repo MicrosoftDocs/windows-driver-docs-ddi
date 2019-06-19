@@ -57,7 +57,7 @@ The <b>FIELD_INFO</b> structure is used by the <a href="https://msdn.microsoft.c
 
 ### -field fName
 
-Specifies the name of the symbol's member to which this structure applies.  Submembers can be specified using the delimiters "<b>.</b>" and "<b>-&gt;</b>".  Unless DBG_DUMP_FIELD_FULL_NAME is set in <b>fOptions</b>, <b>fName</b> is considered to be the beginning of the member name.
+Specifies the name of the symbol's member to which this structure applies.  Submembers can be specified using the delimiters "<b>.</b>" and "<b>-></b>".  Unless DBG_DUMP_FIELD_FULL_NAME is set in <b>fOptions</b>, <b>fName</b> is considered to be the beginning of the member name.
 
 
 ### -field printName

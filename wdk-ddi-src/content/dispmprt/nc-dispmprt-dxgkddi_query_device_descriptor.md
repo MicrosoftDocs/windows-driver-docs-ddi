@@ -85,9 +85,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-<i>DxgkDdiQueryDeviceDescriptor</i> must never write more than the number of bytes specified by <i>DeviceDescriptor</i>-&gt;<b>DescriptorLength</b>.
+<i>DxgkDdiQueryDeviceDescriptor</i> must never write more than the number of bytes specified by <i>DeviceDescriptor</i>-><b>DescriptorLength</b>.
 
-If the child device identified by <i>ChildUid</i> has a type of <b>TypeVideoOutput</b>, <i>DxgkDdiQueryDeviceDescriptor</i> returns a portion of the Extended Display Identification Data (EDID) for the monitor connected to the output. <i>DeviceDescriptor</i>-&gt;<b>DescriptorOffset</b> specifies the byte-offset into the EDID of the start of the data to be returned.
+If the child device identified by <i>ChildUid</i> has a type of <b>TypeVideoOutput</b>, <i>DxgkDdiQueryDeviceDescriptor</i> returns a portion of the Extended Display Identification Data (EDID) for the monitor connected to the output. <i>DeviceDescriptor</i>-><b>DescriptorOffset</b> specifies the byte-offset into the EDID of the start of the data to be returned.
 
 If the child device identified by <i>ChildUid</i> is not a video output, <i>DxgkDdiQueryDeviceDescriptor</i> returns a generic device descriptor; that is, it fills in the members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561108">DXGK_GENERIC_DESCRIPTOR</a> structure.
 

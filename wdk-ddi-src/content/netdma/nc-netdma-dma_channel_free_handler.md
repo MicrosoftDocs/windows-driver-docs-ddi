@@ -94,7 +94,7 @@ The NetDMA interface frees all of the allocated DMA channels before it returns f
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a> function.
 
 NetDMA calls 
-    <i>ProviderFreeDmaChannel</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderFreeDmaChannel</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

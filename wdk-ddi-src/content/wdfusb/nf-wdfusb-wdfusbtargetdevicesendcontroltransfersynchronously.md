@@ -216,8 +216,8 @@ Because <b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> handles I/O re
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
 MY_BUFFER_TYPE  myBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;memoryDescriptor,
-                                  (PVOID) &amp;myBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&memoryDescriptor,
+                                  (PVOID) &myBuffer,
                                   sizeof(myBuffer));</pre>
 </td>
 </tr>
@@ -240,9 +240,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;memoryHandle,
+                         &memoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;memoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&memoryDescriptor,
                                   memoryHandle,
                                   NULL);</pre>
 </td>
@@ -280,7 +280,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_USB_CONTROL_SETUP_PACKET  controlSetupPacket;
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
-                                         &amp;controlSetupPacket,
+                                         &controlSetupPacket,
                                          BmRequestHostToDevice,
                                          BmRequestToDevice,
                                          USBFX2LK_REENUMERATE,
@@ -292,7 +292,7 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
                                          UsbDevice,
                                          WDF_NO_HANDLE,
                                          NULL,
-                                         &amp;controlSetupPacket,
+                                         &controlSetupPacket,
                                          NULL,
                                          NULL
                                          );

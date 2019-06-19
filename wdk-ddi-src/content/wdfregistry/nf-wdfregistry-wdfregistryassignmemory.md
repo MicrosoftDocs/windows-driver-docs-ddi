@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param ValueType [in]
@@ -182,19 +182,19 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          MEMORY_LENGTH,
-                         &amp;memory,
-                         (PVOID*)&amp;pBuffer
+                         &memory,
+                         (PVOID*)&pBuffer
                          );
 if (NT_SUCCESS(status)) {
 
     // Fill the buffer with fake data.
-    for (i = 1; i &lt;= MEMORY_LENGTH; i++) {
+    for (i = 1; i <= MEMORY_LENGTH; i++) {
         pBuffer[i-1] = i;
     }
 
     status = WdfRegistryAssignMemory(
                                      Key,
-                                     &amp;valueName,
+                                     &valueName,
                                      REG_BINARY,
                                      memory,
                                      NULL
@@ -215,7 +215,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

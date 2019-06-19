@@ -174,7 +174,7 @@ CMyQueue::OnCreateFile(
     //
     // Obtain IWDFFile2 interface from IWDFFile.
     //
-    hr = pWdfFileObject-&gt;QueryInterface(IID_PPV_ARGS(&amp;pWdfFileObject2));
+    hr = pWdfFileObject->QueryInterface(IID_PPV_ARGS(&pWdfFileObject2));
     if (!SUCCEEDED(hr))
     {
         goto Done;
@@ -182,8 +182,8 @@ CMyQueue::OnCreateFile(
     //
     // Get length of counted filename.
     //
-    hr = pWdfFileObject2-&gt;RetrieveCountedFileName(NULL,
-                                                  &amp;countedFileNameCch);
+    hr = pWdfFileObject2->RetrieveCountedFileName(NULL,
+                                                  &countedFileNameCch);
     if (!SUCCEEDED(hr))
     {
         goto Done;
@@ -202,8 +202,8 @@ CMyQueue::OnCreateFile(
         //
         // Get counted file name.
         //
-        hr = pWdfFileObject2-&gt;RetrieveCountedFileName(countedFileName, 
-                                                      &amp;countedFileNameCch);
+        hr = pWdfFileObject2->RetrieveCountedFileName(countedFileName, 
+                                                      &countedFileNameCch);
         if (!SUCCEEDED(hr))
         {
             goto Done;

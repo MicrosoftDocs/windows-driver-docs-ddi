@@ -96,7 +96,7 @@ The following code example schedules the execution of the callback function that
 </tr>
 <tr>
 <td>
-<pre>return WdfDpcEnqueue(PDevExt-&gt;CompleteWriteDpc);</pre>
+<pre>return WdfDpcEnqueue(PDevExt->CompleteWriteDpc);</pre>
 </td>
 </tr>
 </table></span></div>

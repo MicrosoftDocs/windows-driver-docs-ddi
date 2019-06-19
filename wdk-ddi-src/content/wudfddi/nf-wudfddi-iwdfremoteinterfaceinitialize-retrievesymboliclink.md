@@ -139,16 +139,16 @@ CMyDevice::OnRemoteInterfaceArrival(
 {
     HRESULT hr;
     INT BufferSize;
-    hr= FxRemoteInterfaceInit-&gt;RetrieveSymbolicLink(NULL,
-                                                    &amp;BufferSize);
+    hr= FxRemoteInterfaceInit->RetrieveSymbolicLink(NULL,
+                                                    &BufferSize);
     if (FAILED(hr)) goto Error;
-    hr = FxDriver-&gt;CreateWdfMemory(BufferSize, 
+    hr = FxDriver->CreateWdfMemory(BufferSize, 
                                    NULL, 
                                    FxRemoteInterface, 
-                                   &amp;FxSymLinkBuffer);
+                                   &FxSymLinkBuffer);
     if (FAILED(hr)) goto Error;
-    hr= FxRemoteInterfaceInit-&gt;RetrieveSymbolicLink(FxSymLinkBuffer-&gt;GetDataBuffer(NULL),
-                                                    &amp;BufferSize);
+    hr= FxRemoteInterfaceInit->RetrieveSymbolicLink(FxSymLinkBuffer->GetDataBuffer(NULL),
+                                                    &BufferSize);
     if (FAILED(hr)) goto Error;
 ...
 Error:

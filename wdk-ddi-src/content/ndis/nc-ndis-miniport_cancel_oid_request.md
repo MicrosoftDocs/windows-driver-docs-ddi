@@ -112,7 +112,7 @@ If the request processing is still not complete in an intermediate driver and th
     <i>OidRequest</i> parameter set to the value that it sent to the underlying driver.
 
 NDIS calls
-    <i>MiniportCancelOidRequest</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>MiniportCancelOidRequest</i> at IRQL <= DISPATCH_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>MiniportCancelOidRequest</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.

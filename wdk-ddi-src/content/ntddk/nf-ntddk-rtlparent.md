@@ -70,7 +70,7 @@ Pointer to the node. The node must have been initialized by calling <b>RtlInitia
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
-Callers of <b>RtlParent</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
+Callers of <b>RtlParent</b> must be running at IRQL <= DISPATCH_LEVEL if the tree is nonpaged. Usually, callers are running at IRQL PASSIVE_LEVEL. 
 
 
 

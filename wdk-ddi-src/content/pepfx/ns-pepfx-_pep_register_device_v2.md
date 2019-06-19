@@ -56,7 +56,7 @@ The <b>PEP_REGISTER_DEVICE_V2</b> structure describes a device whose driver stac
 
 ### -field DeviceId
 
-[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
+[in] A string that uniquely identifies the device. This member is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">device identification string</a>.
 
 
 ### -field KernelHandle
@@ -111,7 +111,7 @@ The <b>Register</b> member contains a pointer to an input buffer allocated by Po
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

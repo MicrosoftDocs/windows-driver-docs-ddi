@@ -102,12 +102,12 @@ When releasing contiguous memory, a caller of
 </li>
 <li>
 When releasing noncached memory, a caller of 
-      <b>NdisFreeMemory</b> must be running at IRQL &lt; DISPATCH_LEVEL.
+      <b>NdisFreeMemory</b> must be running at IRQL < DISPATCH_LEVEL.
 
 </li>
 <li>
 When releasing memory that is neither contiguous nor noncached, a caller of 
-      <b>NdisFreeMemory</b> must be running at IRQL &lt;= DISPATCH_LEVEL.
+      <b>NdisFreeMemory</b> must be running at IRQL <= DISPATCH_LEVEL.
 
 </li>
 </ul>

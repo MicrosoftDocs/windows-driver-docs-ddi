@@ -101,8 +101,8 @@ UsbDevice_EvtUcxUsbDeviceAddress(
 
     DbgTrace(TL_INFO, UsbDevice, "UsbDevice_EvtUcxUsbDeviceAddress");
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(WdfRequest, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(WdfRequest, &wdfRequestParams);
 
     usbDeviceAddress = (PUSBDEVICE_ADDRESS)wdfRequestParams.Parameters.Others.Arg1;
     ...

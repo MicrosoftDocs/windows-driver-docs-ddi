@@ -78,7 +78,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href=
 
 ### -output-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the output buffer in <b>SystemBuffer</b>. The output buffer size must be <code>&gt;= sizeof(USB_HUB_CAPABILITIES)</code>.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the size, in bytes, of the output buffer in <b>SystemBuffer</b>. The output buffer size must be <code>>= sizeof(USB_HUB_CAPABILITIES)</code>.
 
 
 ### -in-out-buffer
@@ -101,7 +101,7 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member indicates the si
 
 ### -status-block
 
-The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
+The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -see-also

@@ -98,7 +98,7 @@ To convert a returned value back to the address of the inserted entry, a driver 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a> macro.
 
 If 
-    <b>NdisInterlockedRemoveHeadList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the 
+    <b>NdisInterlockedRemoveHeadList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter must be resident.
 
 

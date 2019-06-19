@@ -74,7 +74,7 @@ None
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
-Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at any IRQL. If <b>ExInitializeSListHead</b> is called at IRQL &gt;= DISPATCH_LEVEL the storage for <i>SListHead</i> must be resident.
+Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at any IRQL. If <b>ExInitializeSListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>SListHead</i> must be resident.
 
 
 

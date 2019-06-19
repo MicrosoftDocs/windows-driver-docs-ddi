@@ -77,7 +77,7 @@ None
 
 
 
-Callers of <b>RtlClearBit</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlClearBit</b> can be called at any IRQL.
+Callers of <b>RtlClearBit</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlClearBit</b> can be called at any IRQL.
 
 
 

@@ -145,33 +145,33 @@ The following is an example code snippet that illustrates the pointer indirectio
 <tr>
 <td>
 <pre>PD_BUFFER* PostHead = NULL;
-PD_BUFFER** PostTail = &amp;PostHead;
+PD_BUFFER** PostTail = &PostHead;
 PD_BUFFER* DrainHead = NULL;
-PD_BUFFER** DrainTail = &amp;DrainHead;
+PD_BUFFER** DrainTail = &DrainHead;
 
-PD_BUFFER* bufX = &lt;allocated PD_BUFFER&gt;;
+PD_BUFFER* bufX = <allocated PD_BUFFER>;
 
-bufX-&gt;NextPDBuffer = NULL;
+bufX->NextPDBuffer = NULL;
 *PostTail = bufX;
-PostTail = &amp;bufX-&gt;NextPDBuffer;
+PostTail = &bufX->NextPDBuffer;
 
 // BEFORE:
 //PostHead == bufX
-//PostTail == &amp;bufZ-&gt;NextPDBuffer
+//PostTail == &bufZ->NextPDBuffer
 //DrainHead == NULL
-//DrainTail == &amp;DrainHead
+//DrainTail == &DrainHead
 
 NDIS_PD_POST_AND_DRAIN_BUFFER_LIST(
           Queue,
-          &amp;PostHead,
-          &amp;DrainTail,
+          &PostHead,
+          &DrainTail,
           32);
 
 // AFTER:
 //PostHead == bufY
-//PostTail == &amp;bufZ-&gt;NextPDBuffer
+//PostTail == &bufZ->NextPDBuffer
 //DrainHead == buf1
-//DrainTail == &amp;buf5-&gt;NextPDBuffer
+//DrainTail == &buf5->NextPDBuffer
 </pre>
 </td>
 </tr>

@@ -168,7 +168,7 @@ If the current descriptor in an active transfer is the last descriptor, the DMA 
     tasks.
 
 NetDMA calls 
-    <i>ProviderAppendDma</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderAppendDma</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

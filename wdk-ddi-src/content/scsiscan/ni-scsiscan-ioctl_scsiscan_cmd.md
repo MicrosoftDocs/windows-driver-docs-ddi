@@ -94,7 +94,7 @@ Size of the output buffer.
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -120,7 +120,7 @@ UCHAR         SrbStatus;
 
 // Construct the SCSISCAN_CMD structure and
 // clear out the sense buffer.
-memset(&amp;Cmd, 0, sizeof(Cmd));
+memset(&Cmd, 0, sizeof(Cmd));
 memset(SenseBuffer,0, sizeof(SenseBuffer));
 
 Cmd.Size = sizeof(SCSISCAN_CMD);
@@ -128,19 +128,19 @@ Cmd.SrbFlags = SRB_FLAGS_DATA_OUT;
 Cmd.CdbLength = 6;
 Cmd.SenseLength = 18;
 Cmd.TransferLength = len;
-Cmd.pSrbStatus = &amp;SrbStatus;
+Cmd.pSrbStatus = &SrbStatus;
 Cmd.pSenseBuffer = SenseBuffer;
 
 Cmd.Cdb[0] = 0x0A;
-Cmd.Cdb[4] = ((PFOUR_BYTE)&amp;len) -&gt; Byte0;
-Cmd.Cdb[3] = ((PFOUR_BYTE)&amp;len) -&gt; Byte1;
-Cmd.Cdb[2] = ((PFOUR_BYTE)&amp;len) -&gt; Byte2;
+Cmd.Cdb[4] = ((PFOUR_BYTE)&len) -> Byte0;
+Cmd.Cdb[3] = ((PFOUR_BYTE)&len) -> Byte1;
+Cmd.Cdb[2] = ((PFOUR_BYTE)&len) -> Byte2;
 Cmd.Cdb[5] = 0;
 
 DeviceIoControl(
            gb_Scan_Handle,
            (DWORD) IOCTL_SCSISCAN_CMD,
-           &amp;Cmd,
+           &Cmd,
            sizeof(Cmd),
            buf,
            len,
@@ -155,7 +155,7 @@ if (SRB_STATUS_SUCCESS != SRB_STATUS(SrbStatus))
   {
     fprintf(stderr, "Data over/under run. This is ok.\n");
   }
-  else if ((SenseBuffer[2] &amp; 0xf) == SCSI_SENSE_UNIT_ATTENTION)
+  else if ((SenseBuffer[2] & 0xf) == SCSI_SENSE_UNIT_ATTENTION)
   {
     fprintf(stderr, "Unit attention.  Retrying request....\n");
     memset(SenseBuffer,0, sizeof(SenseBuffer));
@@ -163,7 +163,7 @@ if (SRB_STATUS_SUCCESS != SRB_STATUS(SrbStatus))
     DeviceIoControl(
       gb_Scan_Handle,
       (DWORD) IOCTL_SCSISCAN_CMD,
-      &amp;Cmd,
+      &Cmd,
       sizeof(Cmd),
       buf,
       len,

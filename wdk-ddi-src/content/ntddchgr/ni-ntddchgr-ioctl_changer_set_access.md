@@ -60,12 +60,12 @@ Sets the state of the device's import/export port (IEport), door, or keypad.
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(CHANGER_SET_ACCESS). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(CHANGER_SET_ACCESS). 
 
 
 ### -output-buffer

@@ -172,12 +172,12 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
     // Get the configuration descriptor at index 0
     //
 
-    hr = m_UsbTargetDevice-&gt;RetrieveDescriptor(
+    hr = m_UsbTargetDevice->RetrieveDescriptor(
                             USB_CONFIGURATION_DESCRIPTOR_TYPE,
                             0,
                             0,
-                            &amp;descriptorCb,
-                            &amp;descriptorHeader
+                            &descriptorCb,
+                            &descriptorHeader
                             );
     //
     // Store the buffer in the output parameter, or delete it.

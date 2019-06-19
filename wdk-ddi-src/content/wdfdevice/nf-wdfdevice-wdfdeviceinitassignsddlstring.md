@@ -64,7 +64,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param SDDLString [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a Unicode string. This string is an SDDL representation of a security descriptor.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is an SDDL representation of a security descriptor.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The following code example assigns a security setting for a device.
 
 status = WdfDeviceInitAssignSDDLString(
                                        pDeviceInit,
-                                       &amp;SDDL_DEVOBJ_SYS_ALL_ADM_ALL
+                                       &SDDL_DEVOBJ_SYS_ALL_ADM_ALL
                                        );</pre>
 </td>
 </tr>

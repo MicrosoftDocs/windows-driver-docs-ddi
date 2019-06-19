@@ -203,7 +203,7 @@ MyEvtDriverDeviceAdd(
     WDFQUEUE  hQueue;
 ...
     WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE(
-                                           &amp;ioQueueConfig,
+                                           &ioQueueConfig,
                                            WdfIoQueueDispatchSequential
                                            );
 
@@ -211,9 +211,9 @@ MyEvtDriverDeviceAdd(
 
     status = WdfIoQueueCreate(
                               device,
-                              &amp;ioQueueConfig,
+                              &ioQueueConfig,
                               WDF_NO_OBJECT_ATTRIBUTES,
-                              &amp;hQueue
+                              &hQueue
                               );
     if (!NT_SUCCESS (status)) {
         return status;

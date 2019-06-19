@@ -91,7 +91,7 @@ Device context allocations can only be made for non-system devices. The display 
 The display miniport driver  calls <a href="https://msdn.microsoft.com/f613e019-0b6d-43fc-a802-a6cd3803a00d">DxgkCbDestroyContextAllocation</a> to free the context resources that were allocated through <i>DxgkCbCreateContextAllocation</i>.
 
 <h3><a id="virtual_addresses"></a><a id="VIRTUAL_ADDRESSES"></a>Virtual addresses for destination context allocations</h3>
-To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual address for the destination context allocation (<b>InitContextResource</b>-&gt;<b>Destination</b>-&gt;<b>VirtualAddress</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a> structure), when the display miniport driver calls <i>DxgkCbCreateContextAllocation</i> it must:<ul>
+To ensure that the operating system sets a valid (non-<b>NULL</b>) virtual address for the destination context allocation (<b>InitContextResource</b>-><b>Destination</b>-><b>VirtualAddress</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a> structure), when the display miniport driver calls <i>DxgkCbCreateContextAllocation</i> it must:<ul>
 <li>Set the <b>CpuVisible</b> and <b>Protected</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a> structure.</li>
 <li>Page in the allocation only to aperture segments by setting  the <b>SupportedSegmentSet</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451242">DXGKARGCB_CREATECONTEXTALLOCATION</a> structure.</li>
 </ul>

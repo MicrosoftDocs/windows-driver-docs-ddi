@@ -61,7 +61,7 @@ Opaque pointer for the volume. Must be a local file system volume. This paramete
 
 ### -param VolumeGuidName [out]
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>. 
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives the volume's GUID name. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param BufferSizeNeeded [out, optional]
@@ -170,7 +170,7 @@ To get the volume object ID for a volume, call <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

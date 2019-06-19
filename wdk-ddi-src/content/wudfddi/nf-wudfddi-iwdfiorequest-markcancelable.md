@@ -116,10 +116,10 @@ The following code example sets up a request so that the framework can cancel it
 <pre>    //
     // The QueryInteraface should not fail.
     //
-    (VOID)this-&gt;QueryInterface(_uuidof(IRequestCallbackCancel),
-                               (PVOID *)&amp;cancelCallback);
+    (VOID)this->QueryInterface(_uuidof(IRequestCallbackCancel),
+                               (PVOID *)&cancelCallback);
 
-    pWdfRequest-&gt;MarkCancelable(cancelCallback);</pre>
+    pWdfRequest->MarkCancelable(cancelCallback);</pre>
 </td>
 </tr>
 </table></span></div>

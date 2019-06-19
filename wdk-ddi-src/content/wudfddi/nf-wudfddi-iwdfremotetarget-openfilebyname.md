@@ -135,10 +135,10 @@ HRESULT hr;
 // Create a new remote target object and provide a callback 
 // object to handle remote target events.
 //
-CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
-hr = FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
+CComPtr<IWDFRemoteTarget> fxTarget;
+hr = FxDevice->CreateRemoteTarget(MyRemoteTargetIUnknown,
                                   fxRemoteInterface,
-                                  &amp;fxTarget);
+                                  &fxTarget);
 if (FAILED(hr)) goto Error;
 
 //
@@ -148,9 +148,9 @@ openParams.dwShareMode = 0;
 openParams.dwCreationDisposition = OPEN_EXISTING;
 openParams.dwFlagsAndAttributes = FILE_ATTRIBUTE_READONLY;
 
-hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
+hr = fxTarget->OpenFileByName(FILE_PATH,
                               GENERIC_READ,
-                              &amp;openParams);
+                              &openParams);
  </pre>
 </td>
 </tr>

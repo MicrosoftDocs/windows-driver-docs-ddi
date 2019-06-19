@@ -54,7 +54,7 @@ Support for this IOCTL by the mount manager clients is mandatory. Upon receiving
 
 ### -output-buffer
 
-The mount manager client returns a variable-length structure of type [MOUNTDEV_NAME](ns-mountmgr-_mountdev_name.md), defined in *Mountmgr.h*, at the beginning of the buffer at **Irp-&gt;AssociatedIrp.SystemBuffer**. The device name must be inserted at the address pointed to by the *Name* member of this structure.
+The mount manager client returns a variable-length structure of type [MOUNTDEV_NAME](ns-mountmgr-_mountdev_name.md), defined in *Mountmgr.h*, at the beginning of the buffer at **Irp->AssociatedIrp.SystemBuffer**. The device name must be inserted at the address pointed to by the *Name* member of this structure.
 
 ### -output-buffer-length
 

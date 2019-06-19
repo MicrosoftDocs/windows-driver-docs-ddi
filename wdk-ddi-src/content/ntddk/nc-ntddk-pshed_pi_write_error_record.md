@@ -129,7 +129,7 @@ A PSHED plug-in that participates in error record persistence sets the <b>Callba
 
 The Windows kernel calls into the PSHED to write an error record to the system's persistent data storage whenever a fatal or otherwise unrecoverable error condition exists so that the error record is preserved while the system is restarted. If a PSHED plug-in is registered to participate in error record persistence, the PSHED calls the PSHED plug-in's <i>WriteErrorRecord</i> callback function to perform the write operation. The mechanism that is used to write the error record to the system's persistent data storage is platform-specific.
 
-The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at IRQL &lt;= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
+The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at IRQL <= HIGH_LEVEL. The exact IRQL at which this callback function is called depends on the specific type of hardware error that occurred.
 
 
 

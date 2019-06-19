@@ -138,7 +138,7 @@ The storage device is  not registered with the PoFx.
 </dl>
 </td>
 <td width="60%">
-The current IRQL &gt; DISPATCH_LEVEL.
+The current IRQL > DISPATCH_LEVEL.
 
 </td>
 </tr>

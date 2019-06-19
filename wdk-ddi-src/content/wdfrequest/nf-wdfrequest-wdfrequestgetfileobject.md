@@ -117,7 +117,7 @@ MyEvtIoWrite(
     PFILE_OPEN_CONTEXT  pOpenContext;
 
     fileObject = WdfRequestGetFileObject(Request);
-    pOpenContext = GetFileObjectContext(fileObject)-&gt;OpenContext;
+    pOpenContext = GetFileObjectContext(fileObject)->OpenContext;
 }</pre>
 </td>
 </tr>

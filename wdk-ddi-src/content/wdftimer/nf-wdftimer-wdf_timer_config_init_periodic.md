@@ -104,18 +104,18 @@ WDFTIMER  timerHandle;
 NTSTATUS  Status;
 
 WDF_TIMER_CONFIG_INIT_PERIODIC(
-                               &amp;timerConfig,
+                               &timerConfig,
                                EchoEvtTimerFunc,
                                PERIODIC_TIMER_INTERVAL
                                );
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;timerAttributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&timerAttributes);
 timerAttributes.ParentObject = Queue;
 
 Status = WdfTimerCreate(
-                        &amp;timerConfig,
-                        &amp;timerAttributes,
-                        &amp;timerHandle
+                        &timerConfig,
+                        &timerAttributes,
+                        &timerHandle
                         );</pre>
 </td>
 </tr>

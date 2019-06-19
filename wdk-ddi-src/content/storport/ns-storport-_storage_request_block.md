@@ -284,7 +284,7 @@ Specifies the operation to be performed, which can be one of these values:
 
 #### SRB_FUNCTION_EXECUTE_SCSI (0x00)
 
-A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
+A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> > 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920414">SRBEX_DATA_SCSI_CDB16</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920415">SRBEX_DATA_SCSI_CDB32</a>
@@ -733,7 +733,7 @@ A request with this function is sent to a Storport miniport driver that is used 
 
 ##### - SrbFunction.SRB_FUNCTION_EXECUTE_SCSI (0x00)
 
-A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
+A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> > 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920414">SRBEX_DATA_SCSI_CDB16</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920415">SRBEX_DATA_SCSI_CDB32</a>
@@ -990,7 +990,7 @@ Indicates the target disconnected unexpectedly.
 
 Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a> structure will continue.
 
-If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh920409">SRBEX_DATA</a> structure containing the extended data block.
+If <b>NumSrbExData</b> > 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh920409">SRBEX_DATA</a> structure containing the extended data block.
 
 The target device address for the SRB is in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 

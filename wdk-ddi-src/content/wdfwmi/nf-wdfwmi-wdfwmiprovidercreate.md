@@ -181,7 +181,7 @@ GUID providerGuid = MY_WMI_DATA_BLOCK_GUID;
 NTSTATUS status;
 
 WDF_WMI_PROVIDER_CONFIG_INIT(
-                             &amp;config,
+                             &config,
                              providerGuid
                              );
 config.Flags = WdfWmiProviderTracing;
@@ -189,9 +189,9 @@ config.EvtWmiProviderFunctionControl = MyProviderFunctionControl;
 
 status = WdfWmiProviderCreate(
                               Device,
-                              &amp;config,
+                              &config,
                               WDF_NO_OBJECT_ATTRIBUTES,
-                              &amp;provider
+                              &provider
                               );</pre>
 </td>
 </tr>

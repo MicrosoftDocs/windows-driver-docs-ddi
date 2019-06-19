@@ -63,7 +63,7 @@ A pointer that is <b>NULL</b> when
      <b>NdisInitializeString</b> is called; on return from this function, this parameter points to an
      NDIS_STRING type that describes an initialized counted string. For Windows 2000 and later, NDIS defines
      the NDIS_STRING type as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 ### -param Source
 
@@ -145,7 +145,7 @@ The buffer allocated by
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

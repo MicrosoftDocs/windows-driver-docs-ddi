@@ -100,9 +100,9 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 IWDFInterrupt* pInterrupt;
 WDF_INTERRUPT_INFO  Info;
 
-WDF_INTERRUPT_INFO_INIT(&amp;Info);
+WDF_INTERRUPT_INFO_INIT(&Info);
 
-pInterrupt&gt;GetInfo(&amp;Info);
+pInterrupt>GetInfo(&Info);
 </pre>
 </td>
 </tr>

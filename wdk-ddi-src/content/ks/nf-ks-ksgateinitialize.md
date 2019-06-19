@@ -61,7 +61,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param InitialCount [in]
 
-This parameter specifies the initial count to place on the gate. Fills in <i>Gate -&gt; Count</i>. For a new AND gate, this should be 1 (1 − 0 off inputs), and for a new OR gate, this should be 0 (0 on inputs). For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+This parameter specifies the initial count to place on the gate. Fills in <i>Gate -> Count</i>. For a new AND gate, this should be 1 (1 − 0 off inputs), and for a new OR gate, this should be 0 (0 on inputs). For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
 
 ### -param NextGate [in, optional]

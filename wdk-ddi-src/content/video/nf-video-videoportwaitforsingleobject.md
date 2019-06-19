@@ -77,4 +77,4 @@ Pointer to the event object.
 
 The miniport driver should not attempt to wait for a mapped user event.
 
-Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.
+Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL <= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.

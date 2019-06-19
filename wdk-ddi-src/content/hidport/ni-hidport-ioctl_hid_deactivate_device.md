@@ -97,7 +97,7 @@ None
 ### -status-block
 
 
-       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

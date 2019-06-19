@@ -115,7 +115,7 @@ The following code example shows how to retrieve the name of an underlying kerne
     //
     // Get the length of the device name to allocate a buffer
     //
-    hr = m_FxDevice-&gt;RetrieveDeviceName(NULL, &amp;deviceNameCch);
+    hr = m_FxDevice->RetrieveDeviceName(NULL, &deviceNameCch);
     //
     // Allocate the buffer
     //
@@ -128,8 +128,8 @@ The following code example shows how to retrieve the name of an underlying kerne
     //
     // Get the device name
     //
-    hr = m_FxDevice-&gt;RetrieveDeviceName(deviceName,
-                                        &amp;deviceNameCch);
+    hr = m_FxDevice->RetrieveDeviceName(deviceName,
+                                        &deviceNameCch);
 
     // Open the device and get the handle
 

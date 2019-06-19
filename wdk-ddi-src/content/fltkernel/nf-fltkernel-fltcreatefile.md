@@ -310,7 +310,7 @@ Specifies the number of bytes of <i>ObjectAttributes</i> data supplied. This val
 
 </td>
 <td>
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat or \??\B:\myfile.dat could be the fully qualified file specification, if the floppy driver and overlying file system are already loaded. (Note: \?? replaces \DosDevices as the name of the Win32 object namespace. \DosDevices still works, but \?? is translated faster by the object manager.)
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat or \??\B:\myfile.dat could be the fully qualified file specification, if the floppy driver and overlying file system are already loaded. (Note: \?? replaces \DosDevices as the name of the Win32 object namespace. \DosDevices still works, but \?? is translated faster by the object manager.)
 
 </td>
 </tr>
@@ -871,7 +871,7 @@ status = ObReferenceObjectByHandle(
            0,                      //DesiredAccess
            NULL,                   //ObjectType
            KernelMode,             //AccessMode
-           &amp;handleFileObject,      //Object
+           &handleFileObject,      //Object
            NULL);                  //HandleInformation</pre>
 </td>
 </tr>
@@ -1083,7 +1083,7 @@ SYNCHRONIZE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

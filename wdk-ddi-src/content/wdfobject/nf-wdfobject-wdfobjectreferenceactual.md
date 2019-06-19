@@ -102,6 +102,7 @@ You can view the tag, line number, and file name values by using the <b>!wdftagt
 
 For more information about object reference counts, see <a href="https://msdn.microsoft.com/33efc3a8-ac46-4626-ba0f-beb1eaa9ee47">Framework Object Life Cycle</a>.
 
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 
 #### Examples
 

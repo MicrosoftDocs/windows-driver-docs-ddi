@@ -42,111 +42,52 @@ req.typenames:
 
 # PFNKSREMOVEEVENT callback function
 
-
 ## -description
 
-
-An AVStream minidriver's <i>AVStrMiniRemoveEvent</i> routine is called when a client requests to be removed from the notification queue for an event. This routine is optional.
-
+An AVStream minidriver's *AVStrMiniRemoveEvent* routine is called when a client requests to be removed from the notification queue for an event. This routine is optional.
 
 ## -parameters
-
-
-
 
 ### -param FileObject [in]
 
 Pointer to the file object for which to remove the event.
 
-
 ### -param *EventEntry [in]
 
-Pointer to an AVStream-generated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure.
-
+Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure.
 
 ## -returns
 
-
-
-<i>AVStrMiniRemoveEvent</i> must return STATUS_SUCCESS.
-
-
-
+*AVStrMiniRemoveEvent* must return STATUS_SUCCESS.
 
 ## -remarks
 
+The minidriver specifies this routine's address in the **RemoveHandler** member of a [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item) structure. [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) describes how the minidriver provides this structure to the class driver.
 
+If the minidriver provides *AVStrMiniRemoveEvent* and either does not specify an **AddHandler** or specifies an **AddHandler** that calls **Ks***Xxx***AddEvent**, then the minidriver's *AVStrMiniRemoveEvent* must call [RemoveEntryList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist) with a pointer to the LIST_ENTRY structure in the [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure:
 
-The minidriver specifies this routine's address in the <b>RemoveHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure. <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> describes how the minidriver provides this structure to the class driver.
+```cpp
+&EventEntry -> ListEntry
+```
 
-If the minidriver provides <i>AVStrMiniRemoveEvent</i> and either:
-
-<ul>
-<li>
-Does not specify an <b>AddHandler </b><i>or</i>
-
-</li>
-<li>
-Specifies an <b>AddHandler</b> that calls <b>Ks</b><i>Xxx</i><b>AddEvent</b>
-
-</li>
-</ul>
-then the minidriver's <i>AVStrMiniRemoveEvent</i> must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a> with a pointer to the LIST_ENTRY structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>&amp;EventEntry -&gt; ListEntry</pre>
-</td>
-</tr>
-</table></span></div>
-Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in the <b>AddHandler</b>.
-
-
-
+Otherwise, your *AVStrMiniRemoveEvent* should reverse the steps taken in the **AddHandler**.
 
 ## -see-also
 
+[AVStrMiniAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksaddevent)
 
+[KSAUTOMATION_TABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksautomation_table_)
 
+[KSEVENTDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554260">AVStrMiniAddEvent</a>
+[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry)
 
+[KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item)
 
+[KsFilterAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteraddevent)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a>
+[KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltergenerateevents)
 
+[KsPinAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinaddevent)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
- 
-
- 
-
+[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingenerateevents)

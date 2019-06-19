@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param ValueType [in]
@@ -166,10 +166,10 @@ NTSTATUS status;
 val = 0x123456;
 status = WdfRegistryAssignValue(
                                 Key,
-                                &amp;valueName,
+                                &valueName,
                                 REG_BINARY,
                                 sizeof(val),
-                                &amp;val
+                                &val
                                 );</pre>
 </td>
 </tr>
@@ -186,7 +186,7 @@ status = WdfRegistryAssignValue(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

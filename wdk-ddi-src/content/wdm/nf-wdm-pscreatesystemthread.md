@@ -116,7 +116,7 @@ Starting with Windows XP, driver routines that run in a process context other th
 </tr>
 <tr>
 <td>
-<pre>InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
+<pre>InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
 </td>
 </tr>
 </table></span></div>

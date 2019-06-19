@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.IoCallDriver
+UID: NF:wdm.IofCallDriver
 title: IoCallDriver macro (wdm.h)
 description: The IoCallDriver routine sends an IRP to the driver associated with a specified device object.
 old-location: kernel\iocalldriver.htm
@@ -56,11 +56,11 @@ The <b>IoCallDriver</b> routine, wraps **IofCallDriver** that sends an IRP to th
 
 
 
-### -param a [in]
+### -param DeviceObject [in]
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-### -param b [in, out]
+### -param Irp [in, out]
 
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 

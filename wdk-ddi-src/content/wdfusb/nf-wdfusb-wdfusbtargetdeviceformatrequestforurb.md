@@ -174,7 +174,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST),
-                         &amp;urbMemory,
+                         &urbMemory,
                          NULL
                          );
 
@@ -185,15 +185,15 @@ urbBuffer = (PURB) WdfMemoryGetBuffer(
                                       urbMemory,
                                       NULL
                                       );
-urbBuffer-&gt;UrbHeader.Function =  URB_FUNCTION_GET_CONFIGURATION;
-urbBuffer-&gt;UrbHeader.Length = sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST);
-urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBufferLength = 1 ;
-urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBufferMDL = NULL;
-urbBuffer-&gt;UrbControlGetConfigurationRequest.TransferBuffer = outBuffer;
-urbBuffer-&gt;UrbControlGetConfigurationRequest.UrbLink = NULL;
+urbBuffer->UrbHeader.Function =  URB_FUNCTION_GET_CONFIGURATION;
+urbBuffer->UrbHeader.Length = sizeof(struct _URB_CONTROL_GET_CONFIGURATION_REQUEST);
+urbBuffer->UrbControlGetConfigurationRequest.TransferBufferLength = 1 ;
+urbBuffer->UrbControlGetConfigurationRequest.TransferBufferMDL = NULL;
+urbBuffer->UrbControlGetConfigurationRequest.TransferBuffer = outBuffer;
+urbBuffer->UrbControlGetConfigurationRequest.UrbLink = NULL;
 
 status = WdfUsbTargetDeviceFormatRequestForUrb(
-                                               deviceContext-&gt;WdfUsbTargetDevice,
+                                               deviceContext->WdfUsbTargetDevice,
                                                request,
                                                urbMemory,
                                                NULL

@@ -146,9 +146,9 @@ EvtRequestReadCompletionRoutine(
     UNREFERENCED_PARAMETER(Target);
     UNREFERENCED_PARAMETER(Context);
 
-    status = CompletionParams-&gt;IoStatus.Status;
-    usbCompletionParams = CompletionParams-&gt;Parameters.Usb.Completion;
-    bytesRead =  usbCompletionParams-&gt;Parameters.PipeRead.Length;
+    status = CompletionParams->IoStatus.Status;
+    usbCompletionParams = CompletionParams->Parameters.Usb.Completion;
+    bytesRead =  usbCompletionParams->Parameters.PipeRead.Length;
  
     if (NT_SUCCESS(status)){
         TraceEvents(
@@ -163,7 +163,7 @@ EvtRequestReadCompletionRoutine(
                     DBG_READ,
                     "Read failed - request status 0x%x UsbdStatus 0x%x\n",
                     status,
-                    usbCompletionParams-&gt;UsbdStatus
+                    usbCompletionParams->UsbdStatus
                     );
     }
     WdfRequestCompleteWithInformation(

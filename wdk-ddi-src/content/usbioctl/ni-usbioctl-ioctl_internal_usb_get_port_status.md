@@ -99,5 +99,5 @@ The size of a ULONG.
 
 ### -status-block
 
-The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
+The bus or port driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the appropriate error status.
 

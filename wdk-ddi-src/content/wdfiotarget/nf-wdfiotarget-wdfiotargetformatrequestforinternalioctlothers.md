@@ -241,7 +241,7 @@ status = WdfMemoryCreate(
                          NonPagedPool,
                          0,
                          sizeof(IRB),
-                         &amp;memory,
+                         &memory,
                          NULL
                          );
 if (!NT_SUCCESS(status)) {
@@ -252,22 +252,22 @@ pIrb = WdfMemoryGetBuffer(
                           NULL
                           );
 
-pIrb-&gt;FunctionNumber = REQUEST_ALLOCATE_ADDRESS_RANGE;
-pIrb-&gt;Flags = 0;
-pIrb-&gt;u.AllocateAddressRange.Mdl = pAsyncAddressData-&gt;pMdl;
-pIrb-&gt;u.AllocateAddressRange.fulFlags = fulFlags;
-pIrb-&gt;u.AllocateAddressRange.nLength = nLength;
-pIrb-&gt;u.AllocateAddressRange.MaxSegmentSize = MaxSegmentSize;
-pIrb-&gt;u.AllocateAddressRange.fulAccessType = fulAccessType;
-pIrb-&gt;u.AllocateAddressRange.fulNotificationOptions = fulNotificationOptions;
-pIrb-&gt;u.AllocateAddressRange.Callback = NULL;
-pIrb-&gt;u.AllocateAddressRange.Context = NULL;
-pIrb-&gt;u.AllocateAddressRange.Required1394Offset = *Required1394Offset;
-pIrb-&gt;u.AllocateAddressRange.FifoSListHead = NULL;
-pIrb-&gt;u.AllocateAddressRange.FifoSpinLock = NULL;
-pIrb-&gt;u.AllocateAddressRange.AddressesReturned = 0;
-pIrb-&gt;u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData-&gt;AddressRange;
-pIrb-&gt;u.AllocateAddressRange.DeviceExtension = deviceExtension;
+pIrb->FunctionNumber = REQUEST_ALLOCATE_ADDRESS_RANGE;
+pIrb->Flags = 0;
+pIrb->u.AllocateAddressRange.Mdl = pAsyncAddressData->pMdl;
+pIrb->u.AllocateAddressRange.fulFlags = fulFlags;
+pIrb->u.AllocateAddressRange.nLength = nLength;
+pIrb->u.AllocateAddressRange.MaxSegmentSize = MaxSegmentSize;
+pIrb->u.AllocateAddressRange.fulAccessType = fulAccessType;
+pIrb->u.AllocateAddressRange.fulNotificationOptions = fulNotificationOptions;
+pIrb->u.AllocateAddressRange.Callback = NULL;
+pIrb->u.AllocateAddressRange.Context = NULL;
+pIrb->u.AllocateAddressRange.Required1394Offset = *Required1394Offset;
+pIrb->u.AllocateAddressRange.FifoSListHead = NULL;
+pIrb->u.AllocateAddressRange.FifoSpinLock = NULL;
+pIrb->u.AllocateAddressRange.AddressesReturned = 0;
+pIrb->u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData->AddressRange;
+pIrb->u.AllocateAddressRange.DeviceExtension = deviceExtension;
 
 status = WdfIoTargetFormatRequestForInternalIoctlOthers(
                                                         IoTarget,

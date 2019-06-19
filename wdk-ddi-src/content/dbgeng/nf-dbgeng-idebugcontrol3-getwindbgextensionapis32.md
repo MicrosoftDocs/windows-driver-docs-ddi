@@ -90,7 +90,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-The value of <i>Api</i>-&gt;<b>nSize</b> does not equal the size of the structure WINDBG_EXTENSION_APIS32.
+The value of <i>Api</i>-><b>nSize</b> does not equal the size of the structure WINDBG_EXTENSION_APIS32.
 
 </td>
 </tr>

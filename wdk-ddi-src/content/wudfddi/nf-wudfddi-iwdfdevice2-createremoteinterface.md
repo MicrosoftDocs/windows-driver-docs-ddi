@@ -133,25 +133,25 @@ CMyDevice::OnRemoteInterfaceArrival(
     // Create a new remote interface object and provide a callback 
     // object to handle remote interface events.
     //
-    CComPtr&lt;IWDFRemoteInterface&gt; fxRemoteInterface;
-    hr = m_FxDevice-&gt;CreateRemoteInterface(FxRemoteInterfaceInit, 
+    CComPtr<IWDFRemoteInterface> fxRemoteInterface;
+    hr = m_FxDevice->CreateRemoteInterface(FxRemoteInterfaceInit, 
                                            MyRemoteInterfaceIUnknown, 
-                                           &amp;fxRemoteInterface);
+                                           &fxRemoteInterface);
     if (FAILED(hr)) goto Error;
     //
     // Create a new remote target object and provide a callback 
     // object to handle remote target events.
     //
-    CComPtr&lt;IWDFRemoteTarget&gt; fxTarget;
-    hr = m_FxDevice-&gt;CreateRemoteTarget(MyRemoteTargetIUnknown,
+    CComPtr<IWDFRemoteTarget> fxTarget;
+    hr = m_FxDevice->CreateRemoteTarget(MyRemoteTargetIUnknown,
                                         fxRemoteInterface,
-                                        &amp;fxTarget);
+                                        &fxTarget);
     if (FAILED(hr)) goto Error;
 
     //
     // Open the remote interface with read/write access.
     //
-    hr = FxTarget-&gt;OpenRemoteInterface(fxRemoteInterface, 
+    hr = FxTarget->OpenRemoteInterface(fxRemoteInterface, 
                                        NULL,
                                        GENERIC_READ | GENERIC_WRITE,
                                        NULL);

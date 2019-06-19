@@ -134,9 +134,9 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 ### -status-block
 
-If the request succeeds, <i>IoStatusBlock</i>-&gt;<b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain the paths and names of all the enumerated child objects, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW and <i>OutputBuffer</i>-&gt;<b>NumberOfChildren</b> is set to the required length of the output buffer.
+If the request succeeds, <i>IoStatusBlock</i>-><b>Status</b> is set to STATUS_SUCCESS; otherwise, the <b>Status</b> member is set to an error code. If the output buffer is not large enough to contain the buffer header, the <b>Status</b> member is set to STATUS_BUFFER_TOO_SMALL. If the output buffer is large enough to contain the output buffer header, but is not large enough to contain the paths and names of all the enumerated child objects, the <b>Status</b> member is set to STATUS_BUFFER_OVERFLOW and <i>OutputBuffer</i>-><b>NumberOfChildren</b> is set to the required length of the output buffer.
 
-If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
+If the request succeeds, the <i>IoStatusBlock</i>-><b>Information</b> member is set to the number of bytes that is returned in the output buffer; otherwise, the <b>Information</b> member is set to zero.
 
 
 ## -remarks
@@ -153,7 +153,7 @@ A driver typically would use a sequence of two IOCTL_ACPI_ENUM_CHILDREN requests
 
 For more information about how to enumerate child devices of a device, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/enumerating-child-devices-and-control-methods">Enumerating Child Devices and Control Methods</a>.
 
-IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
+IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL< DISPATCH_LEVEL.
 
 
 

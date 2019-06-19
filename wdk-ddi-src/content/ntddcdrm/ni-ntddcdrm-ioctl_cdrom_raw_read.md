@@ -59,9 +59,9 @@ Reads data from the CD-ROM in raw mode.
 
 ### -input-buffer
 
-If the IOCTL is from user mode, <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a> structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of the structure, which must be &gt;= <b>sizeof</b>(RAW_READ_INFO). <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer to be read, which must be &gt;= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
+If the IOCTL is from user mode, <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a> structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of the structure, which must be >= <b>sizeof</b>(RAW_READ_INFO). <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer to be read, which must be >= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
 
-If the IOCTL is from kernel mode, <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains a structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer, in bytes, to be read, which must be &gt;= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
+If the IOCTL is from kernel mode, <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains a structure that specifies the starting disk offset, the sector count, and the track mode (XA or CDDA) for the read. <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the size of the buffer, in bytes, to be read, which must be >= <b>sizeof</b>(<i>SectorCount</i> * RAW_SECTOR_SIZE).
 
 
 ### -input-buffer-length
@@ -71,7 +71,7 @@ See above.
 
 ### -output-buffer
 
-The driver writes the requested bytes directly (using DMA or PIO) to the buffer described by the MDL at <b>Irp-&gt;MdlAddress</b>.
+The driver writes the requested bytes directly (using DMA or PIO) to the buffer described by the MDL at <b>Irp->MdlAddress</b>.
 
 
 ### -output-buffer-length

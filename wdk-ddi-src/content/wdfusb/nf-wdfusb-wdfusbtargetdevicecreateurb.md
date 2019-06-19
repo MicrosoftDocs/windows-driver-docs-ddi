@@ -160,18 +160,18 @@ The following code example declares a framework memory object. The example calls
 <pre>WDFMEMORY memory;
 PURB urb = NULL;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);  
+WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);  
 objectAttribs.ParentObject = UsbDevice;
 
 status = WdfUsbTargetDeviceCreateUrb(
-                                     pDevContext-&gt;WdfUsbTargetDevice,  
-                                     &amp;objectAttribs,  
-                                     &amp;memory,  
-                                     &amp;urb  
+                                     pDevContext->WdfUsbTargetDevice,  
+                                     &objectAttribs,  
+                                     &memory,  
+                                     &urb  
                                      ); 
  
 status = WdfUsbTargetDeviceFormatRequestForUrb(
-                                               deviceContext-&gt;WdfUsbTargetDevice,
+                                               deviceContext->WdfUsbTargetDevice,
                                                request,
                                                memory,
                                                NULL

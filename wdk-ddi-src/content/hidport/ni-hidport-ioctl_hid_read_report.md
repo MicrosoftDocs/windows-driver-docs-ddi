@@ -58,7 +58,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> contains the size of the buffer provided at <b>Irp-&gt;UserBuffer</b>.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> contains the size of the buffer provided at <b>Irp->UserBuffer</b>.
 
 
 ### -input-buffer-length
@@ -69,7 +69,7 @@ The size of <b>OutputBufferLength</b>
 ### -output-buffer
 
 
-       HID minidriver fills the system-resident buffer pointed to by <b>Irp-&gt;UserBuffer</b> with the report data retrieved from the device.
+       HID minidriver fills the system-resident buffer pointed to by <b>Irp->UserBuffer</b> with the report data retrieved from the device.
 
 
 ### -output-buffer-length
@@ -97,7 +97,7 @@ The size of the <b>UserBuffer</b>.
 
 ### -status-block
 
-HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

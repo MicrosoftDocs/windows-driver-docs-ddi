@@ -43,124 +43,74 @@ req.typenames:
 
 # KsFilterGenerateEvents function
 
-
 ## -description
 
-
-The<b> KsFilterGenerateEvents</b> function generates events of an indicated type that are present in <i>Filter</i>'s event list.
-
+The **KsFilterGenerateEvents** function generates events of an indicated type that are present in *Filter*'s event list.
 
 ## -parameters
 
-
-
-
 ### -param Filter [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure on which to generate events. 
-
+A pointer to a [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter) structure on which to generate events.
 
 ### -param EventSet [in, optional]
 
-A pointer to the event set GUID to match for determination of which events to generate. If this parameter is <b>NULL</b>, the event set GUID is not taken into account for determining matching events.
-
+A pointer to the event set GUID to match for determination of which events to generate. If this parameter is **NULL**, the event set GUID is not taken into account for determining matching events.
 
 ### -param EventId [in]
 
 The event ID to match for determining which events to generate.
 
-
 ### -param DataSize [in]
 
-The size of <i>Data</i> in bytes.
-
+The size of *Data* in bytes.
 
 ### -param Data [in]
 
 A pointer to a data buffer. Specify if generating a data event.
 
-
 ### -param CallBack [in, optional]
 
-A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is <b>NULL</b>, no callback verification is performed to determine whether an event should be generated (only <i>EventSet </i>and <i>EventId</i> are used). For more information, see the Remarks section below.
-
+A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). For more information, see the Remarks section below.
 
 ### -param CallBackContext [in, optional]
 
-An optional pointer to a caller-specified context that is passed to the callback function <i>CallBack</i>. For more information, see the Remarks section below.
-
+An optional pointer to a caller-specified context that is passed to the callback function *CallBack*. For more information, see the Remarks section below.
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
+When calling this function, a minidriver must place *Data* and *CallBackContext* in a locked, nonpageable data segment. In addition, note that the *CallBack* is made at DISPATCH_LEVEL. The callback function must be in a locked segment and must be prepared to run at IRQL = DISPATCH_LEVEL. Note that there is an additional issue in DX8 *only*: *EventSet* must be in a locked data segment.
 
-
-When calling this function, a minidriver must place <i>Data</i> and <i>CallBackContext</i> in a locked, nonpageable data segment. In addition, note that the <i>CallBack</i> is made at DISPATCH_LEVEL. The callback function must be in a locked segment and must be prepared to run at IRQL = DISPATCH_LEVEL. Note that there is an additional issue in DX8 <i>only</i>: <i>EventSet</i> must be in a locked data segment.
-
-This is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a> that performs the necessary typecasting. Minidrivers should usually call this version instead of directly calling <b>KsGenerateEvents</b>.
+This is an inline function call to [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents) that performs the necessary typecasting. Minidrivers should usually call this version instead of directly calling **KsGenerateEvents**.
 
 An event is generated if the following conditions hold:
 
-<ul>
-<li>
-The event is present in <i>Filter</i>'s event list and <i>EventId</i> matches the event's ID
+* The event is present in *Filter*'s event list and *EventId* matches the event's ID
 
-</li>
-<li>
-<i>EventSet</i> either matches the event's set GUID or is <b>NULL</b>
+* *EventSet* either matches the event's set GUID or is **NULL**
 
-</li>
-<li>
-<i>CallBack</i> is either <b>NULL</b> or authorizes the match
+* *CallBack* is either **NULL** or authorizes the match
 
-</li>
-</ul>
-<i>CallBack</i> is a caller-specified callback used for additional match determination. It is prototyped as follows:
+*CallBack* is a caller-specified callback used for additional match determination. It is prototyped as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN CallBack (IN PVOID Context, IN PKSEVENT_ENTRY EventEntry);</pre>
-</td>
-</tr>
-</table></span></div>
-AVStream passes the contents of the <b>KsFilterGenerateEvents</b> routine's parameter <i>CallBackContext</i> in this callback's <i>Context</i> parameter. <i>EventEntry</i> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure that specifies the event that would be generated. The callback function should return <b>TRUE</b> if this event should be generated.
+```cpp
+BOOLEAN CallBack (IN PVOID Context, IN PKSEVENT_ENTRY EventEntry);
+```
 
-For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> and <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>. 
+AVStream passes the contents of the **KsFilterGenerateEvents** routine's parameter *CallBackContext* in this callback's *Context* parameter. *EventEntry* is a pointer to a [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure that specifies the event that would be generated. The callback function should return **TRUE** if this event should be generated.
 
-
-
+For more information, see [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) and [KS Events](https://docs.microsoft.com/windows-hardware/drivers/stream/ks-events).
 
 ## -see-also
 
+[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry)
 
+[KsAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddevent)
 
+[KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
- 
-
- 
-
+[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingenerateevents)

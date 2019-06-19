@@ -56,7 +56,7 @@ The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapp
 
 ### -field SlotMapListHeader
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> has a new structure, <b>WwanStructSlotIndex</b>, which represents the slot index the <i>i-th</i> executor is mapped to (where 0 &lt;= i &lt;= (Number of mappings -1)).
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> has a new structure, <b>WwanStructSlotIndex</b>, which represents the slot index the <i>i-th</i> executor is mapped to (where 0 <= i <= (Number of mappings -1)).
 
 
 ## -see-also

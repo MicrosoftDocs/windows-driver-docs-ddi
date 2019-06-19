@@ -84,7 +84,7 @@ A time-out value of zero (that is, <i>*Timeout</i> == 0) allows you to test a se
 
 ### -param WaitBlockArray [in, optional]
 
-If <i>Count</i> &lt;= THREAD_WAIT_OBJECTS, <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK * Count)</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation.
+If <i>Count</i> <= THREAD_WAIT_OBJECTS, <i>WaitBlockArray</i> can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK * Count)</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation.
 
 
 ### -param Irp [in, optional]
