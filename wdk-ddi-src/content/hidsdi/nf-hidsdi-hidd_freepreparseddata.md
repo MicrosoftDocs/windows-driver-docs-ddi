@@ -5,7 +5,7 @@ description: The HidD_FreePreparsedData routine releases the resources that the 
 old-location: hid\hidd_freepreparseddata.htm
 tech.root: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData
 ms.topic: function
 req.header: hidsdi.h
@@ -63,7 +63,7 @@ Pointer to the buffer, returned by <a href="https://msdn.microsoft.com/library/w
 
 
 
-<b>HidD_FreePreparsedData</b> returns <b>TRUE</b> if it succeeds. Otherwise, it returns <b>FALSE</b> if the buffer was not a preparsed data buffer.
+<b>HidD_FreePreparsedData</b> returns <b>TRUE</b> if it succeeds. Otherwise, it returns <b>FALSE</b> if the buffer was not a preparsed data buffer. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 
