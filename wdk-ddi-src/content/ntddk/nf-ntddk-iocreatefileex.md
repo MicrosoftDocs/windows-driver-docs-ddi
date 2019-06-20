@@ -279,7 +279,7 @@ The FILE_READ_DATA, FILE_WRITE_DATA, FILE_EXECUTE, and FILE_APPEND_DATA *Desired
 ### -param ObjectAttributes [in]
 
 
-      A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object include the following.
+      A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure already initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> routine. If the caller is running in the system process context, this parameter can be **NULL**. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to **InitializeObjectAttributes**. Members of this structure for a file object include the following.
       
 
 <table>
@@ -905,7 +905,7 @@ There are two alternate ways to specify the name of the file to be created or op
 
 * As a pathname relative to the handle in the **RootDirectory** member of the input *ObjectAttributes* parameter. (This handle can represent a directory file.)
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFileEx**. This restricts the use of the handle that is returned by **IoCreateFileEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.  Drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the *ObjectAttributes* parameter of **IoCreateFileEx**. This restricts the use of the handle that is returned by **IoCreateFileEx** to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.  Drivers can call <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute.
 
 Certain *DesiredAccess* flags and combinations of flags have the following effects:
 
@@ -1020,7 +1020,7 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

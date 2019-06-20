@@ -307,7 +307,7 @@ For additional information, see <a href="https://go.microsoft.com/fwlink/p/?link
 
 ### -param ObjectAttributes [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
 
 When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
 
@@ -460,9 +460,9 @@ The requested impersonation level for the new token is greater than the imperson
 
 If no impersonation level information was provided by the <i>ObjectAttributes</i> parameter, the existing token's impersonation level will be used for the new token.
 
-With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
+With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
 
-<div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
+<div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
 <div> </div>
 For information on the user-mode analog of <b>ZwDuplicateToken</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
 
@@ -484,11 +484,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 

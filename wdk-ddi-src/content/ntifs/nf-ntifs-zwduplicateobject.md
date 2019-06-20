@@ -83,7 +83,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS
 
 ### -param HandleAttributes [in]
 
-A ULONG that specifies the desired attributes for the new handle. For more information about attributes, see the description of the <b>Attributes</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>.
+A ULONG that specifies the desired attributes for the new handle. For more information about attributes, see the description of the <b>Attributes</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>.
 
 
 ### -param Options [in]
@@ -144,7 +144,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a>
 
 
 
