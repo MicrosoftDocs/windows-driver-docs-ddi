@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.RtlUlonglongByteSwap
+UID: NF:wdm.RtlUlonglongByteSwap~r1
 title: RtlUlonglongByteSwap macro (wdm.h)
 description: The RtlUlonglongByteSwap routine reverses the ordering of the eight bytes in a 64-bit unsigned integer value.
 old-location: kernel\rtlulonglongbyteswap.htm
@@ -51,7 +51,7 @@ The <b>RtlUlonglongByteSwap</b> routine reverses the ordering of the eight bytes
 
 ## -parameters
 
-### -param _x
+### -param Source
 
 A ULONGLONG value to convert to a byte-swapped version.
 
