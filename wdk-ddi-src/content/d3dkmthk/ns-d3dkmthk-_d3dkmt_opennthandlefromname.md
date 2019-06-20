@@ -61,7 +61,7 @@ Describes information that is required to open an NT handle to the process from 
 
 ### -field pObjAttrib
 
-[in] A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
+[in] A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
 
 
 ### -field hNtHandle

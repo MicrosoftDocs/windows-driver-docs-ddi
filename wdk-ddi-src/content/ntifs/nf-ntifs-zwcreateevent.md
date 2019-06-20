@@ -151,7 +151,7 @@ The specified <i>EventType</i> parameter was invalid. The allowable <i>EventType
 </dl>
 </td>
 <td width="60%">
-The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that was invalid.
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_object_attributes">OBJECT_ATTRIBUTES</a> structure that was invalid.
 
 </td>
 </tr>
