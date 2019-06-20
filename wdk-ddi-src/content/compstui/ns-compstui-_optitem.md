@@ -201,15 +201,15 @@ This member is meant for use by printer interface DLLs, when creating a **Docume
 | DMPUB_ICMINTENT | **dmICMIntent** | IDS_CPSUI_ICMINTENT |
 | DMPUB_ICMMETHOD | **dmICMMethod** | IDS_CPSUI_ICMMETHOD |
 | DMPUB_MEDIATYPE | **dmMediaType** | IDS_CPSUI_MEDIA |
-| DMPUB_NUP |  | IDS_CPSUI_NUP |
+| DMPUB_NUP | Not contained in public section of DEVMODE. | IDS_CPSUI_NUP |
 | DMPUB_ORIENTATION | **dmOrientation** | IDS_CPSUI_ORIENTATION |
-| DMPUB_OUTPUTBIN |  | IDS_CPSUI_OUTPUTBIN |
-| DMPUB_PAGEORDER |  | IDS_CPSUI_PAGEORDER |
+| DMPUB_OUTPUTBIN | Not contained in public section of DEVMODE. | IDS_CPSUI_OUTPUTBIN |
+| DMPUB_PAGEORDER | Not contained in public section of DEVMODE. | IDS_CPSUI_PAGEORDER |
 | DMPUB_PRINTQUALITY | **dmPrintQuality** | IDS_CPSUI_PRINTQUALITY or IDS_CPSUI_RESOLUTION. If not specified, the default name is IDS_CPSUI_RESOLUTION. |
-| DMPUB_QUALITY |  | IDS_CPSUI_QUALITY_SETTINGS |
+| DMPUB_QUALITY | Not contained in public section of DEVMODE. | IDS_CPSUI_QUALITY_SETTINGS |
 | DMPUB_SCALE | **dmScale** | IDS_CPSUI_SCALE |
 | DMPUB_TTOPTION | **dmTTOption** | IDS_CPSUI_TTOPTION |
-| DMPUB_NONE |  | &nbsp; |
+| DMPUB_NONE | Not contained in public section of DEVMODE. | &nbsp; |
 | Greater than or equal to DMPUB_USER | Ignored by CPSUI, can be a caller-defined value. | &nbsp; |
 
 CPSUI does not maintain a DEVMODE structure. The application is responsible for copying user-selected option parameters into a DEVMODE structure. CPSUI uses **DMPubID** contents to determine treeview placement of standard options, and to determine the contents of the **Layout** and **Paper/Quality** tabs (see the **pDlgPage** member of the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure).
