@@ -57,15 +57,15 @@ Reserved for system use. Do not use.
 
 ### -field KbCallbackSecondaryDumpData
 
-The callback function provides data to the system to append to the crash dump file when the system issues a bug check. For more information about this type of callback, see "Implementing KbCallbackSecondaryDumpData Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+The callback function provides device-specific information that should be appended to the secondary data area of crash dump file when the system issues a bug check. For more information about this type of callback, see "Implementing KbCallbackSecondaryDumpData Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ### -field KbCallbackDumpIo
 
-Specifies that the system should call the callback function each time it writes data to a crash dump file. For more information about this type of callback, see "Implementing KbCallbackDumpIo Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+Specifies that the system should call the callback function each time it writes data to a crash dump file. Drivers for devices that monitor the system state can use this type of callback. For more information about this type of callback, see "Implementing KbCallbackDumpIo Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ### -field KbCallbackAddPages
 
-The purpose of the callback function is to enable the driver to add pages of data to the primary section of the crash dump file. For more information about this type of callback, see "Implementing KbCallbackAddPages Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>. This enumeration value is supported in Windows Server 2008 and later versions of Windows.
+The purpose of the callback function is to enable the driver to add pages of driver-specific data to the primary section of the crash dump file. For more information about this type of callback, see "Implementing KbCallbackAddPages Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>. This enumeration value is supported in Windows Server 2008 and later versions of Windows.
 
 ### -field KbCallbackSecondaryMultiPartDumpData
 

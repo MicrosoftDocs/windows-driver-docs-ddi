@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The <b>KeRegisterBugCheckReasonCallback</b> function registers one of the callback routines defined in defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a> enumeration, which executes when the operating system issues a bug check.
+The <b>KeRegisterBugCheckReasonCallback</b> function registers one of the callback routines defined in the [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason) enumeration, which executes when the operating system issues a bug check.
 
 ## -parameters
 
@@ -73,13 +73,9 @@ A pointer to a null-terminated ANSI string that identifies the caller. For examp
 
 Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines that execute during a system bug check.
 
-**KbCallbackDumpIo** routines are called each time data is written to the crash dump file. Drivers for devices that monitor the system state can register a <i>KbCallbackDumpIo</i> routine to copy the crash dump data to the monitoring device.
+For descriptions of each type of callback, see [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason).
 
-**KbCallbackSecondaryDumpData** routines are called to poll drivers for any device-specific information that should be added to the secondary data area of a crash dump file.
-
-**KbCallbackAddPages** routines are called to enable drivers to add pages of driver-specific data to the primary data area of a crash dump file. They are supported in Windows Server 2008 and later versions of Windows.
-
-Drivers can use the KeDeregisterBugCheckReasonCallback routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
+Drivers can use the [**KeDeregisterBugCheckReasonCallback**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisterbugcheckcallback) routine to remove the bug check callback registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
 For information about how to implement these callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
