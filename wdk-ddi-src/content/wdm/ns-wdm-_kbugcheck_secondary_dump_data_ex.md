@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_SECONDARY_DUMP_DATA_EX
-title: KBUGCHECK_SECONDARY_DUMP_DATA_EX
+title: _KBUGCHECK_SECONDARY_DUMP_DATA_EX
 author: windows-driver-content
 description: 
 tech.root:
@@ -29,15 +29,17 @@ api_type:
 api_location: 
 - wdm.h
 api_name: 
-- KBUGCHECK_SECONDARY_DUMP_DATA_EX
+- _KBUGCHECK_SECONDARY_DUMP_DATA_EX
 product: 
 - Windows
 targetos: Windows
 ---
 
-# KBUGCHECK_SECONDARY_DUMP_DATA_EX structure
+# _KBUGCHECK_SECONDARY_DUMP_DATA_EX structure
 
 ## -description
+
+The <b>KBUGCHECK_SECONDARY_DUMP_DATA_EX</b> structure describes multipart data to be written by [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine to the crash dump file.
 
 
 ## -struct-fields
@@ -48,11 +50,11 @@ Pointer to a buffer that is allocated by the system.
  
 ### -field InBufferLength
 
-Specifies the size of the buffer, in bytes, specified by the InBuffer member.
+Specifies the size of the buffer, in bytes, specified by the <b>InBuffer</b> member.
  
 ### -field MaximumAllowed
 
-Specifies the maximum amount of data that the BugCheck Callback routine can write to the crash dump file.
+Specifies the maximum amount of data that the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) routine can write to the crash dump file.
 
 ### -field Guid
 
@@ -126,8 +128,9 @@ Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck
  
 ## -remarks
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about bug check callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine)

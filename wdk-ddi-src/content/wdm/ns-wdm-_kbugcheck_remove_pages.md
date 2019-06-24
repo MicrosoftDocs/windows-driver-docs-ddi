@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
-title: KBUGCHECK_REMOVE_PAGES
+title: _KBUGCHECK_REMOVE_PAGES
 author: windows-driver-content
 description: 
 tech.root:
@@ -29,7 +29,7 @@ api_type:
 api_location: 
 - wdm.h
 api_name: 
-- KBUGCHECK_REMOVE_PAGES
+- _KBUGCHECK_REMOVE_PAGES
 product: 
 - Windows
 targetos: Windows
@@ -39,10 +39,13 @@ targetos: Windows
 
 ## -description
 
+The <b>KBUGCHECK_REMOVE_PAGES</b> structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine from the crash dump file. 
+
 ## -struct-fields
 
 ### -field Context
-Private context for callback use.
+
+Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, <b>Context</b> is <b>NULL</b>.
 
 ### -field Flags
 
@@ -64,16 +67,18 @@ Contains a bug check code, which specifies the reason for the bug check. The cal
 
 ### -field Address
 
-Information pending.
+Specifies the physical or virtual address of the page or pages that the callback routine requests be removed from the crash dump file.
 
 ### -field Count
 
-Information pending.
+Specifies the number of contiguous pages to remove from the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> > 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> > 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to remove any pages from the crash dump file.
 
 ## -remarks
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackRemovePages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_REMOVE_PAGES</b> structure.
+
+For more information about bug check callback routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+

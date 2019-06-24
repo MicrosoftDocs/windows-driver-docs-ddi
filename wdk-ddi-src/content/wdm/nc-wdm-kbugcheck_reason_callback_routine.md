@@ -69,12 +69,12 @@ Pointer to a buffer that contains a structure of type determined by the table be
 
 |Value|Data Structure|
 |--- |--- |
-|**KbCallbackSecondaryDumpData**|**[KBUGCHECK_SECONDARY_DUMP_DATA structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_secondary_dump_data)**|
-|**KbCallbackDumpIo**|**[KBUGCHECK_DUMP_IO structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_dump_io)**|
-|**KbCallbackAddPages**|****[KBUGCHECK_ADD_PAGES structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_add_pages)****|
-|**KbCallbackSecondaryMultiPartDumpData**|**KBUGCHECK_SECONDARY_DUMP_DATA_EX**|
-|**KbCallbackRemovePages**|**KBUGCHECK_REMOVE_PAGES**|
-|**KbCallbackTriageDumpData**|**KBUGCHECK_TRIAGE_DUMP_DATA**|
+|**KbCallbackSecondaryDumpData**|[**KBUGCHECK_SECONDARY_DUMP_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_secondary_dump_data)|
+|**KbCallbackDumpIo**|[**KBUGCHECK_DUMP_IO**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_dump_io)|
+|**KbCallbackAddPages**|[**KBUGCHECK_ADD_PAGES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_add_pages)|
+|**KbCallbackSecondaryMultiPartDumpData**|[**KBUGCHECK_SECONDARY_DUMP_DATA_EX**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_secondary_dump_data_ex)|
+|**KbCallbackRemovePages**|[**KBUGCHECK_REMOVE_PAGES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_remove_pages)|
+|**KbCallbackTriageDumpData**|[**KBUGCHECK_TRIAGE_DUMP_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_triage_dump_data)|
 
 ### -param ReasonSpecificDataLength [in]
 

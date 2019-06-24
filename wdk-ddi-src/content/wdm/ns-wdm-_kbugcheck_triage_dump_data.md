@@ -40,6 +40,8 @@ targetos: Windows
 
 ## -description
 
+The <b>_KBUGCHECK_TRIAGE_DUMP_DATA</b> structure describes dump data used in conjunction with the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine.
+
 ## -struct-fields
 
 ### -field DataArray
@@ -82,7 +84,9 @@ Indicates the callback is invoked during a bugcheck.  Currently, this flag is ex
 
 ## -remarks
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+The driver receives a structure of this type as a parameter to its [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback routine.
+
+From the callback routine, the driver calls the [**KeAddTriageDumpDataBlock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keaddtriagedumpdatablock) function to modify a dump data array.
 
 ## -see-also
 
