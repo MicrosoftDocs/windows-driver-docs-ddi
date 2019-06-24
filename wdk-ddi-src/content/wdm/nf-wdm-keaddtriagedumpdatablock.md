@@ -51,7 +51,7 @@ Adds a triage dump data block to a triage dump data block array.
 [_Inout_] A pointer to a [**KTRIAGE_DUMP_DATA_ARRAY**](ns-wdm-_ktriage_dump_data_array.md) structure that is the data block array. It is assumed that the caller has already obtained exclusive write to _KtriageDumpDataArray_.
 
 ### -param Address
- [_In_] A ULONG_PTR that is the starting address if the data block.
+ [_In_] A ULONG_PTR that is the starting address of the data block.
 
 ### -param Size
 [_In_] The size of the data block, in bytes.
@@ -62,3 +62,7 @@ Returns STATUS_SUCCESS if the data block was successfully added. Otherwise retur
 ## -remarks
 
 ## -see-also
+
+[*KeInitializeTriageDumpDataArray***](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetriagedumpdataarray)
+
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine)
