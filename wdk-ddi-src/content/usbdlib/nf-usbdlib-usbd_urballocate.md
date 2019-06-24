@@ -5,7 +5,7 @@ description: The USBD_UrbAllocate routine allocates a USB Request Block (URB).
 old-location: buses\usbd_urballocate.htm
 tech.root: usbref
 ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
-ms.date: 05/07/2018
+ms.date: 06/24/2019
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate
 ms.topic: function
 req.header: usbdlib.h
@@ -90,7 +90,7 @@ The client driver must <i>not</i> use <b>USBD_UrbAllocate</b>,
 <li>To allocate an URB that has variable length, such as an URB for an isochronous transfer. Instead the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406231">USBD_IsochUrbAllocate</a>. </li>
 <li>If the target operating system is Windows XP with Service Pack 2 (SP2) or an earlier version of Windows.</li>
 </ul>
-For more information about replacement routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>.
+For more information about replacement routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>.
 
 You must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a> to release the URB allocated by <b>USBD_UrbAllocate</b>. 
 
@@ -157,7 +157,7 @@ CreateandSubmitURBExit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 

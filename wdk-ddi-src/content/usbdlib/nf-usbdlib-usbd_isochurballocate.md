@@ -5,7 +5,7 @@ description: The USBD_IsochUrbAllocate routine allocates and formats a URB struc
 old-location: buses\usbd_isochurballocate.htm
 tech.root: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
-ms.date: 05/07/2018
+ms.date: 06/24/2019
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
 ms.topic: function
 req.header: usbdlib.h
@@ -92,7 +92,7 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 
