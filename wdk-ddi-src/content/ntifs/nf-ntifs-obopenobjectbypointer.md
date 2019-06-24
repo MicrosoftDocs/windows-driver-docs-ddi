@@ -91,7 +91,7 @@ The handle can only be accessed in kernel mode. This flag must be specified if t
 
 ### -param PassedAccessState [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp-&gt;Parameters.Create.SecurityContext-&gt;AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.) 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.) 
 
 
 ### -param DesiredAccess [in]

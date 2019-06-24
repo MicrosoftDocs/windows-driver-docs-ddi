@@ -74,7 +74,7 @@ None
 
 A driver's <i>Unload</i> routine executes in a system thread context at IRQL = PASSIVE_LEVEL.
 
-The <i>Unload</i> routine is required for WDM drivers and optional for non-WDM drivers. A driver's <i>Unload</i> routine, if supplied, should be named <i>Xxx</i><b>Unload</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>Unload</i> routine's address in <b>DriverObject-&gt;DriverUnload</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
+The <i>Unload</i> routine is required for WDM drivers and optional for non-WDM drivers. A driver's <i>Unload</i> routine, if supplied, should be named <i>Xxx</i><b>Unload</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>Unload</i> routine's address in <b>DriverObject->DriverUnload</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
 
 For detailed information about implementing a driver's <i>Unload</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566400">Writing an Unload Routine</a>.
 

@@ -156,8 +156,8 @@ RAWPDO_INTERFACE_STANDARD busInterface;
 
 status = WdfIoTargetQueryForInterface(
                                       IoTarget,
-                                      &amp;GUID_RAWPDO_INTERFACE_STANDARD,
-                                      (PINTERFACE) &amp;busInterface,
+                                      &GUID_RAWPDO_INTERFACE_STANDARD,
+                                      (PINTERFACE) &busInterface,
                                       sizeof(RAWPDO_INTERFACE_STANDARD),
                                       1,
                                       NULL

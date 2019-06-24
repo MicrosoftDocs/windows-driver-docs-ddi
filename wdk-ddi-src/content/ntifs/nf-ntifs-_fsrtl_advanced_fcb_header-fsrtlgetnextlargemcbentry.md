@@ -109,7 +109,7 @@ The following code snippet shows how to print out all of the runs in a file:
 </tr>
 <tr>
 <td>
-<pre>for (i = 0; FsRtlGetNextLargeMcbEntry(Mcb,i,&amp;Vbn,&amp;Lbn,&amp;Count); i++) {
+<pre>for (i = 0; FsRtlGetNextLargeMcbEntry(Mcb,i,&Vbn,&Lbn,&Count); i++) {
 
     // print out vbn, lbn, and count
 

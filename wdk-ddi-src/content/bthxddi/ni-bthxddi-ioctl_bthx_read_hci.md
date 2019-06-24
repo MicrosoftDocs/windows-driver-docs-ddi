@@ -58,7 +58,7 @@ IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the trans
 
 Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550015">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
 
-<code>Status = WdfRequestRetrieveInputMemory(_Request, &amp;ReqInMemory);</code>
+<code>Status = WdfRequestRetrieveInputMemory(_Request, &ReqInMemory);</code>
 
 For more information, see the WDK Bluetooth samples.
 
@@ -72,7 +72,7 @@ The buffer describes a UCHAR that represents the type of read. The length of the
 
 Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
 
-<code>Status = WdfRequestRetrieveOutputMemory(_Request, &amp;ReqOutMemory);</code>
+<code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 
 For more information, see the WDK Bluetooth samples.
 

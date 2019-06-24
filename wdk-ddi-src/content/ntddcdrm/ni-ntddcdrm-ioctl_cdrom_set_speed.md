@@ -56,7 +56,7 @@ Sets the spindle speed of the CD-ROM drive.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551368">CDROM_SET_SPEED</a> structure or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551369">CDROM_SET_STREAMING</a> structure. These two structures have the same first member: an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a> enumeration value. Caller uses this enumeration value to specify which of these two structures is in the input buffer.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551368">CDROM_SET_SPEED</a> structure or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551369">CDROM_SET_STREAMING</a> structure. These two structures have the same first member: an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a> enumeration value. Caller uses this enumeration value to specify which of these two structures is in the input buffer.
 
 
 ### -input-buffer-length

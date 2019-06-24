@@ -141,8 +141,8 @@ Virtualization_GetVendorAndDevice (
 
     deviceContext = (PDEVICE_CONTEXT)Context;
 
-    *VendorId = deviceContext-&gt;VendorId;
-    *DeviceId = deviceContext-&gt;DeviceId;
+    *VendorId = deviceContext->VendorId;
+    *DeviceId = deviceContext->DeviceId;
 
     return;
 }

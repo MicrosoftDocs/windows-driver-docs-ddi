@@ -113,7 +113,7 @@ MyEvtDeviceRemoveAddedResources(
     pDevExt = DeviceGetExtension(Device);
     count = WdfCmResourceListGetCount(ResourcesRaw);
 
-    for (i = 0; i &lt; count; i++) {
+    for (i = 0; i < count; i++) {
         PCM_PARTIAL_RESOURCE_DESCRIPTOR descriptor;
 
         descriptor = WdfCmResourceListGetDescriptor(
@@ -121,12 +121,12 @@ MyEvtDeviceRemoveAddedResources(
                                                     i
                                                     );
 
-        if (descriptor-&gt;Type != CmResourceTypePort) {
+        if (descriptor->Type != CmResourceTypePort) {
             continue;
         }
 
-        if (descriptor-&gt;u.Port.Start.QuadPart &lt; pDevExt-&gt;Ranges[0].MinAddress ||
-             descriptor-&gt;u.Port.Start.QuadPart &gt; pDevExt-&gt;Ranges[0].MaxAddress)
+        if (descriptor->u.Port.Start.QuadPart < pDevExt->Ranges[0].MinAddress ||
+             descriptor->u.Port.Start.QuadPart > pDevExt->Ranges[0].MaxAddress)
         {
             WdfCmResourceListRemoveByDescriptor(
                                                 ResourcesRaw,

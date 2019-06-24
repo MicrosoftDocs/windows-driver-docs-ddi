@@ -159,20 +159,20 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = pWdfRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = pWdfRequest;
 
     switch (ControlCode)
     {
         case IOCTL_SERIAL_GET_BAUD_RATE:
         {
             SERIAL_BAUD_RATE *pBaudRateBuffer;
-            hr = pWdfRequest2-&gt;RetrieveOutputBuffer(sizeof(SERIAL_BAUD_RATE),
-                                                    (PVOID*) &amp;pBaudRateBuffer,
+            hr = pWdfRequest2->RetrieveOutputBuffer(sizeof(SERIAL_BAUD_RATE),
+                                                    (PVOID*) &pBaudRateBuffer,
                                                     NULL);
             if (SUCCEEDED(hr))
                   {
                       RtlZeroMemory(pBaudRateBuffer, sizeof(SERIAL_BAUD_RATE));
-                      pBaudRateBuffer-&gt;BaudRate = m_Device-&gt;GetBaudRate();
+                      pBaudRateBuffer->BaudRate = m_Device->GetBaudRate();
                       reqCompletionInfo = sizeof(SERIAL_BAUD_RATE);
                   }
             

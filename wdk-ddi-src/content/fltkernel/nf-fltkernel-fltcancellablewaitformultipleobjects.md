@@ -85,7 +85,7 @@ A time-out value of zero (that is, *Timeout == 0) allows you to test a set of wa
 
 ### -param WaitBlockArray [in, optional]
 
-If Count &lt;= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK) * Count</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation. 
+If Count <= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise, this parameter must point to a memory buffer of <code>sizeof(KWAIT_BLOCK) * Count</code> bytes. The routine uses this buffer for record-keeping while performing the wait operation. 
 
 
 ### -param CallbackData [in]

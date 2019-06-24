@@ -121,7 +121,7 @@ The following code example is from the <a href="https://docs.microsoft.com/windo
 SerialGetFdoRegistryKeyValue(
                              DeviceInit,
                              L"SerialRelinquishPowerPolicy",
-                             &amp;relinquishPowerPolicy
+                             &relinquishPowerPolicy
                              );
 //
 // If the registry value is TRUE, do not own power policy.

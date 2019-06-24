@@ -114,7 +114,7 @@ A parameter value is not valid.
 </dl>
 </td>
 <td width="60%">
-The <i>Config</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b>).
+The <i>Config</i>-><b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b>).
 
 </td>
 </tr>

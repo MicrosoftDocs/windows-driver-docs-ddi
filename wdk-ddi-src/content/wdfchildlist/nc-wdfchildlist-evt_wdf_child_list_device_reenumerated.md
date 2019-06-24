@@ -50,6 +50,23 @@ req.typenames:
 
 A driver's <i>EvtChildListDeviceReenumerated</i> event callback function enables the driver to approve or cancel a reenumeration of a specified device. 
 
+## -syntax
+
+```cpp
+BOOLEAN
+EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED(
+    _In_
+    WDFCHILDLIST ChildList,
+    _In_
+    WDFDEVICE OldDevice,
+    _In_
+    PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER OldAddressDescription,
+    _Out_
+    PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER NewAddressDescription
+    );
+
+typedef EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED *PFN_WDF_CHILD_LIST_DEVICE_REENUMERATED;
+```
 
 ## -parameters
 

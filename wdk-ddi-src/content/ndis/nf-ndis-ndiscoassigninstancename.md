@@ -71,7 +71,7 @@ Pointer to an NDIS_STRING type that describes a caller-supplied Unicode string t
      base name of the VC. The base name can be any localizable Unicode string that uniquely identifies the VC
      with respect to the other named VCs within the scope of the miniport driver. For Windows Vista and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
 ### -param VcInstanceName [out, optional]
@@ -197,7 +197,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

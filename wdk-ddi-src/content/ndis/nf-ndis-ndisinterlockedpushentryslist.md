@@ -100,7 +100,7 @@ Drivers that retry I/O operations should use a doubly linked interlocked queue a
     <b>NdisInterlockedInsert/Remove..List</b> functions, instead of an S-List.
 
 If 
-    <b>NdisInterlockedPushEntrySList</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the 
+    <b>NdisInterlockedPushEntrySList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
     <i>ListHead</i> parameter and the list entries must be resident
 
 

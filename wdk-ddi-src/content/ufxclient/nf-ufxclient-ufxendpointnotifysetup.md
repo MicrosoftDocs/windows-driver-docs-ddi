@@ -85,13 +85,13 @@ The following example shows how to handle setup packet completion.
 </tr>
 <tr>
 <td>
-<pre>    if (ControlContext-&gt;SetupRequested) {
+<pre>    if (ControlContext->SetupRequested) {
         TRACE_TRANSFER("COMPLETE (Setup)", Endpoint, NULL);
         
-        ControlContext-&gt;SetupRequested = FALSE;
-        TransferContext-&gt;TransferStarted = FALSE;
+        ControlContext->SetupRequested = FALSE;
+        TransferContext->TransferStarted = FALSE;
 
-        UfxEndpointNotifySetup(Endpoint, ControlContext-&gt;SetupPacket);
+        UfxEndpointNotifySetup(Endpoint, ControlContext->SetupPacket);
 
     } 
 </pre>

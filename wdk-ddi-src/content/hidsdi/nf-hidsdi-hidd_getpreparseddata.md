@@ -5,7 +5,7 @@ description: The HidD_GetPreparsedData routine returns a top-level collection's�
 old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
 ms.topic: function
 req.header: hidsdi.h
@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>HidD_GetPreparsedData</b> routine returns a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
+The **HidD_GetPreparsedData** routine returns a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Pointer to the address of a routine-allocated buffer that contains a collection'
 
 
 
-<b>HidD_GetPreparsedData</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
+**HidD_GetPreparsedData** returns **TRUE** if it succeeds; otherwise, it returns **FALSE**. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 
@@ -77,7 +77,7 @@ Pointer to the address of a routine-allocated buffer that contains a collection'
 
 
 
-Only user-mode applications can call <b>HidD_GetPreparsedData</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541089">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a> request.
+Only user-mode applications can call **HidD_GetPreparsedData**. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541089">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a> request.
 
 When an application no longer requires the preparsed data, it should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff538893">HidD_FreePreparsedData</a> to free the preparsed data buffer.
 

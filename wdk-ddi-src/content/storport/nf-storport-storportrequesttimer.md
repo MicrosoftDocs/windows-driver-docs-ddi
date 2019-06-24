@@ -141,7 +141,7 @@ The timer context object, <i>TimerHandle</i>, is invalid.
 </dl>
 </td>
 <td width="60%">
-A previous timer request is active. <i>TimerValue</i> &gt; 0 and <i>TimerCallback</i> has not been called.
+A previous timer request is active. <i>TimerValue</i> > 0 and <i>TimerCallback</i> has not been called.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ The timer request was successfully scheduled.
 
 
 
-The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL &gt; DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL &lt;= DISPATCH_LEVEL.
+The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the routine is called when IRQL > DISPATCH_LEVEL, the timer's scheduling is deferred until IRQL <= DISPATCH_LEVEL.
 
 
 

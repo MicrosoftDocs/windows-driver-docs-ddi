@@ -114,25 +114,25 @@ RootHub_EvtRootHubGet30PortInfo(
 
     ucxRootHubContext = GetUcxRootHubContext(UcxRootHub);
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;wdfRequestParams);
-    WdfRequestGetParameters(Request, &amp;wdfRequestParams);
+    WDF_REQUEST_PARAMETERS_INIT(&wdfRequestParams);
+    WdfRequestGetParameters(Request, &wdfRequestParams);
 
     rootHub30PortsInfo = (PROOTHUB_30PORTS_INFO)wdfRequestParams.Parameters.Others.Arg1;
 
-    if (rootHub30PortsInfo-&gt;Size &lt; sizeof(ROOTHUB_30PORTS_INFO)) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORTS_INFO Size %d", rootHub30PortsInfo-&gt;Size);
+    if (rootHub30PortsInfo->Size < sizeof(ROOTHUB_30PORTS_INFO)) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORTS_INFO Size %d", rootHub30PortsInfo->Size);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet30PortInfoEnd;
     }
 
-    if (rootHub30PortsInfo-&gt;NumberOfPorts != ucxRootHubContext-&gt;NumberOf30Ports) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORTS_INFO NumberOfPorts %d", rootHub30PortsInfo-&gt;NumberOfPorts);
+    if (rootHub30PortsInfo->NumberOfPorts != ucxRootHubContext->NumberOf30Ports) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORTS_INFO NumberOfPorts %d", rootHub30PortsInfo->NumberOfPorts);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet30PortInfoEnd;
     }
 
-    if (rootHub30PortsInfo-&gt;PortInfoSize &lt; sizeof(ROOTHUB_30PORT_INFO)) {
-        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORT_INFO Size %d", rootHub30PortsInfo-&gt;PortInfoSize);
+    if (rootHub30PortsInfo->PortInfoSize < sizeof(ROOTHUB_30PORT_INFO)) {
+        DbgTrace(TL_ERROR, RootHub, "Invalid ROOTHUB_30PORT_INFO Size %d", rootHub30PortsInfo->PortInfoSize);
         status = STATUS_INVALID_PARAMETER;
         goto RootHub_EvtRootHubGet30PortInfoEnd;
     }
@@ -140,8 +140,8 @@ RootHub_EvtRootHubGet30PortInfo(
     //
     // Return static root hub 3.0 port information.
     //
-    rootHub30PortsInfo-&gt;PortInfoArray[0]-&gt;PortNumber = ROOTHUB_30_PORT_PORT_NUMBER;
-    rootHub30PortsInfo-&gt;PortInfoArray[0]-&gt;Removable = TriStateTrue;
+    rootHub30PortsInfo->PortInfoArray[0]->PortNumber = ROOTHUB_30_PORT_PORT_NUMBER;
+    rootHub30PortsInfo->PortInfoArray[0]->Removable = TriStateTrue;
 
     status = STATUS_SUCCESS;
 

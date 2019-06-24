@@ -91,5 +91,5 @@ Callers of **IoGetDriverDirectory** must be running at IRQL = PASSIVE_LEVEL in t
 
 [OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md)
 
-[**InitializeObjectAttributes**](../wudfwdm/nf-wudfwdm-initializeobjectattributes.md) 
+[**InitializeObjectAttributes**](https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes) 
 

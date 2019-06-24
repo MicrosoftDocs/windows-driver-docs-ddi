@@ -72,7 +72,7 @@ A valid FileObject handle must exist in order for this IOCTL to succeed. The Fil
 
 ### -input-buffer
 
-Depending on the operation that the caller requests, the caller must provide one of the following structures as input at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>:
+Depending on the operation that the caller requests, the caller must provide one of the following structures as input at <b>Irp->AssociatedIrp.SystemBuffer</b>:
 
 <ul>
 <li>
@@ -99,7 +99,7 @@ The <b>Parameters.DeviceIoControl.InputBufferLength</b> member in the <a href="h
 
 ### -output-buffer
 
-If the caller requests the exclusive access state of the CD-ROM device (<b>RequestType</b> = <b>ExclusiveAccessQueryState</b>), the CD-ROM class driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551364">CDROM_EXCLUSIVE_LOCK_STATE</a>-type structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer </b>whose <b>LockState</b> member indicates the access state of the device.
+If the caller requests the exclusive access state of the CD-ROM device (<b>RequestType</b> = <b>ExclusiveAccessQueryState</b>), the CD-ROM class driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551364">CDROM_EXCLUSIVE_LOCK_STATE</a>-type structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer </b>whose <b>LockState</b> member indicates the access state of the device.
 
 
 ### -output-buffer-length

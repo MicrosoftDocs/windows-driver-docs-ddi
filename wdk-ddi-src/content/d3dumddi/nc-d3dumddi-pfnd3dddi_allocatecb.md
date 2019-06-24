@@ -122,8 +122,8 @@ The following code example shows how to allocate memory for a resource.
     D3DDDICB_ALLOCATE           allocCB;
     D3DDDI_ALLOCATIONINFO       allocInfo;
     HRESULT                     hr;
-    memset(&amp;allocInfo,   0, sizeof(allocInfo));
-    memset(&amp;allocCB,     0, sizeof(allocCB));
+    memset(&allocInfo,   0, sizeof(allocInfo));
+    memset(&allocCB,     0, sizeof(allocCB));
     // Set the VidPN source ID for the primary and fullscreen back buffer
     if (m_dwCurResCaps.Primary) {
         allocInfo.Flags.Primary = TRUE;
@@ -138,9 +138,9 @@ The following code example shows how to allocate memory for a resource.
     allocCB.hResource = m_hCurResRuntime;
 
     allocCB.NumAllocations = 1;
-    allocCB.pAllocationInfo = &amp;allocInfo;
+    allocCB.pAllocationInfo = &allocInfo;
 
-    hr = m_d3dCallbacks.pfnAllocateCb(m_hD3D, &amp;allocCB);
+    hr = m_d3dCallbacks.pfnAllocateCb(m_hD3D, &allocCB);
 
     if (FAILED(hr)) {
         allocInfo.hAllocation = NULL;

@@ -80,8 +80,8 @@ The number of bytes to be compared.
     irrelevant.
 
 Callers of 
-    <b>NdisEqualMemory</b> can be running at IRQL &lt;= DISPATCH_LEVEL if both memory blocks are resident. If
-    either block is pageable, callers must be running at IRQL &lt; DISPATCH_LEVEL.
+    <b>NdisEqualMemory</b> can be running at IRQL <= DISPATCH_LEVEL if both memory blocks are resident. If
+    either block is pageable, callers must be running at IRQL < DISPATCH_LEVEL.
 
 
 

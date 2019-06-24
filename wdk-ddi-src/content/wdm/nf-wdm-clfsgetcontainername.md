@@ -67,7 +67,7 @@ The logical identifier of a container in the CLFS log.
 
 ### -param puszContainerName [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure. The <b>Buffer</b> member of <i>puszContainerName</i> must point to a caller-allocated buffer that receives the path name of the container. The <b>MaximumLength</b> member must supply the size of the buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure. The <b>Buffer</b> member of <i>puszContainerName</i> must point to a caller-allocated buffer that receives the path name of the container. The <b>MaximumLength</b> member must supply the size of the buffer.
 
 
 ### -param pcActualLenContainerName [out, optional]
@@ -104,7 +104,7 @@ The <b>Buffer</b> member of <i>puszContainerName</i> receives the full path name
 </dl>
 </td>
 <td width="60%">
-The actual length, in Unicode characters, of the full path name is larger than <i>puszContainerName</i>-&gt;<b>MaximumLength</b>. The <b>Buffer</b> member of <i>puszContainerName</i> receives the full path name of the container truncated to the number of characters specified by <i>puszContainerName</i>-&gt;<b>MaximumLength</b>. If <i>pcActualLenContainerName</i> is not <b>NULL</b>, it receives the actual length, in Unicode characters, of the full path name. 
+The actual length, in Unicode characters, of the full path name is larger than <i>puszContainerName</i>-><b>MaximumLength</b>. The <b>Buffer</b> member of <i>puszContainerName</i> receives the full path name of the container truncated to the number of characters specified by <i>puszContainerName</i>-><b>MaximumLength</b>. If <i>pcActualLenContainerName</i> is not <b>NULL</b>, it receives the actual length, in Unicode characters, of the full path name. 
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The actual length, in Unicode characters, of the full path name is larger than <
 </dl>
 </td>
 <td width="60%">
-On return, the contents of <i>puszContainerName</i>-&gt;<b>Buffer</b> and <i>pcActualLenContainerName</i> are undefined.
+On return, the contents of <i>puszContainerName</i>-><b>Buffer</b> and <i>pcActualLenContainerName</i> are undefined.
 
 </td>
 </tr>

@@ -73,12 +73,12 @@ None.
 
 ### -output-buffer
 
-Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561471">IO_SCSI_CAPABILITIES</a> information is returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561471">IO_SCSI_CAPABILITIES</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(IO_SCSI_CAPABILITIES).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(IO_SCSI_CAPABILITIES).
 
 
 ### -in-out-buffer

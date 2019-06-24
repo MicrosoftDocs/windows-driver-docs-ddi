@@ -98,7 +98,7 @@ If the provider module does not dynamically allocate the memory for its binding 
     register itself with the NMR.
 
 The NMR calls a provider module's 
-    <i>ProviderCleanupBindingContext</i> callback function at any IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderCleanupBindingContext</i> callback function at any IRQL <= DISPATCH_LEVEL.
 
 
 

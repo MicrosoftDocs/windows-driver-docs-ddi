@@ -56,7 +56,7 @@ Reads the Advanced Access Content System (AACS)-specific volume identifier.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session that is associated with the volume.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session that is associated with the volume.
 
 
 ### -input-buffer-length
@@ -66,7 +66,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55374
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550116">AACS_VOLUME_ID</a> that specifies the volume ID. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550116">AACS_VOLUME_ID</a> that specifies the volume ID. 
 
 
 ### -output-buffer-length

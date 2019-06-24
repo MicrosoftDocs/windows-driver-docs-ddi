@@ -83,9 +83,9 @@ The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href
 <tr>
 <td>
 <pre>    case DeviceEventSuspend:
-        if (!ControllerContext-&gt;Suspended) {
-            ControllerContext-&gt;Suspended = TRUE;
-            UfxDeviceNotifySuspend(ControllerContext-&gt;UfxDevice);
+        if (!ControllerContext->Suspended) {
+            ControllerContext->Suspended = TRUE;
+            UfxDeviceNotifySuspend(ControllerContext->UfxDevice);
         }
         break;
 </pre>

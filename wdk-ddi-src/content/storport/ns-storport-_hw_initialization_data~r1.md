@@ -293,7 +293,7 @@ The miniport supports the dump pointer SRBs.
 </dl>
 </td>
 <td width="60%">
-The miniport driver does not want the suffix "SCSI &lt;type&gt; Device" as part of the device friendly name
+The miniport driver does not want the suffix "SCSI <type> Device" as part of the device friendly name
 
 </td>
 </tr>

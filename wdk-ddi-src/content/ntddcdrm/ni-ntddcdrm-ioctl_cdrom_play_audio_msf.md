@@ -59,7 +59,7 @@ Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 
 ### -input-buffer
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp-&gt;AssociatedIrp.System</i> contains the starting and ending MSF values. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp->AssociatedIrp.System</i> contains the starting and ending MSF values. 
 
 
 ### -input-buffer-length

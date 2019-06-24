@@ -84,7 +84,7 @@ The <b>WDF_REQUEST_REUSE_PARAMS</b> structure is used as input to <a href="https
 
 To initialize this structure, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552483">WDF_REQUEST_REUSE_PARAMS_INIT</a>. To set a <b>NewIrp</b> value in the structure, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552487">WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</a> after calling <b>WDF_REQUEST_REUSE_PARAMS_INIT</b>.
 
-If a lower driver needs to access the <b>Status</b> value, it can find it in the <b>Irp-&gt;IoStatus.Status</b> field.
+If a lower driver needs to access the <b>Status</b> value, it can find it in the <b>Irp->IoStatus.Status</b> field.
 
 You can set a <b>NewIrp</b> value only if the I/O request that you supply to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550026">WdfRequestReuse</a> was created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549953">WdfRequestCreateFromIrp</a>.
 

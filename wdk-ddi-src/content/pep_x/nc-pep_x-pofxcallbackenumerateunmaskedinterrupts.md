@@ -115,7 +115,7 @@ This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUn
 
 Before the platform enters a system power state in which the interrupt controllers are power-gated, the PEP can call <b>EnumerateUnmaskedInterrupts</b> to get the information it needs to properly configure wake-up controllers for interrupts that are to remain unmasked.
 
-The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
+The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 

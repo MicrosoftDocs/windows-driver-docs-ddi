@@ -450,7 +450,7 @@ Call <b>FltGetVolumeFromInstance</b> to get the volume pointer.
 
 </li>
 <li>
-Call <b>FltGetDeviceObject</b> to get a pointer to the volume device object. This pointer is returned in the <i>DeviceObject</i> parameter. The device object's stack size can be found in <b>DeviceObject-&gt;StackSize</b>. 
+Call <b>FltGetDeviceObject</b> to get a pointer to the volume device object. This pointer is returned in the <i>DeviceObject</i> parameter. The device object's stack size can be found in <b>DeviceObject->StackSize</b>. 
 
 </li>
 <li>

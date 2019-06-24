@@ -114,12 +114,12 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <tr>
 <td>
 <pre>WDF_IO_TYPE_CONFIG ioConfig;
-WDF_IO_TYPE_CONFIG_INIT(&amp;ioConfig);
+WDF_IO_TYPE_CONFIG_INIT(&ioConfig);
 ioConfig.ReadWriteIoType = WdfDeviceIoDirect;
 ioConfig.DeviceControlIoType = WdfDeviceIoDirect;
 ioConfig.DirectTransferThreshold = 32;
 
-WdfDeviceInitSetIoTypeEx(DeviceInit, &amp;ioConfig);
+WdfDeviceInitSetIoTypeEx(DeviceInit, &ioConfig);
 }
 </pre>
 </td>

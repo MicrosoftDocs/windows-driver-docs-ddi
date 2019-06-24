@@ -79,20 +79,13 @@ The thread then operates within the namespace of the attached silo until <a href
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PESILO PreviousSilo = PsAttachSiloToCurrentThread();
+```cpp
+PESILO PreviousSilo = PsAttachSiloToCurrentThread(SomeSilo);
 
 // Do work within the silo context
 
 PsDetachSiloFromCurrentThread(PreviousSilo);</pre>
-</td>
-</tr>
-</table></span></div>
+```
 
 
 

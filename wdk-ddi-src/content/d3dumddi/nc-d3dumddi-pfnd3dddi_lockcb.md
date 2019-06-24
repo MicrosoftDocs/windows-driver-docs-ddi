@@ -159,12 +159,12 @@ HRESULT hr;
 D3DDDICB_LOCK LockData;
 LockData.hAllocation = AllocationToLock;
 LockData.Flags.Discard = TRUE;
-hr = pfnLockCb(&amp;LockData)
+hr = pfnLockCb(&LockData)
 if (FAILED(hr)) {
     FlushAccumulatedCommandBufferToKernel();
     LockData.Flags.Discard = TRUE;
     LockData.Flags.NoExistingReference = TRUE;
-    hr = pfnLockCb(&amp;LockData);
+    hr = pfnLockCb(&LockData);
     if (FAILED(hr)) {
         // Fails the lock to the application
     }

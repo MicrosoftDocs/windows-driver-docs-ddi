@@ -68,7 +68,7 @@ Pointer to a stream request block (SRB).
 
 
 
-<b>USBCAMD_SetVideoFormat</b> returns <b>TRUE</b> if the call was successful, otherwise it returns <b>FALSE</b> and sets <i>pSrb-&gt;Status</i> to one of the following error codes:
+<b>USBCAMD_SetVideoFormat</b> returns <b>TRUE</b> if the call was successful, otherwise it returns <b>FALSE</b> and sets <i>pSrb->Status</i> to one of the following error codes:
 
 <table>
 <tr>

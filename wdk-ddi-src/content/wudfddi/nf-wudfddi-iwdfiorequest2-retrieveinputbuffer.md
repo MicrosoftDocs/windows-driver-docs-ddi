@@ -161,7 +161,7 @@ STDMETHODCALLTYPE
     // Declare an IWDFIoRequest2 interface pointer and obtain the
     // IWDFIoRequest2 interface from the IWDFIoRequest interface.
     //
-    CComQIPtr&lt;IWDFIoRequest2&gt; r2 = FxRequest;
+    CComQIPtr<IWDFIoRequest2> r2 = FxRequest;
 
     switch (ControlCode)
     {
@@ -170,9 +170,9 @@ STDMETHODCALLTYPE
             //
             // Obtain the baud rate from the write request's input buffer.
             //
-            hr = r2-&gt;RetrieveInputBuffer(sizeof(SERIAL_BAUD_RATE),
-                                         (PVOID*) &amp;buffer, 
-                                         &amp;bufferSize);
+            hr = r2->RetrieveInputBuffer(sizeof(SERIAL_BAUD_RATE),
+                                         (PVOID*) &buffer, 
+                                         &bufferSize);
 ...
         }
     }

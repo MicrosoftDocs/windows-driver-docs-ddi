@@ -133,28 +133,28 @@ PHYSICAL_ADDRESS  MappedBase;             // Base physical address (CPU-relative
 // manager (rather than the caller) should determine the base virtual address.
 PVOID pViewBase = NULL;
 
-RtlInitUnicodeString(&amp;UnicodeString, L"\\Device\\PhysicalMemory");
+RtlInitUnicodeString(&UnicodeString, L"\\Device\\PhysicalMemory");
 
 InitializeObjectAttributes(
-   &amp;ObjectAttributes,
-   &amp;UnicodeString,
+   &ObjectAttributes,
+   &UnicodeString,
    OBJ_CASE_INSENSITIVE | OBJ_KERNEL_HANDLE,
    (HANDLE) NULL,
    (PSECURITY_DESCRIPTOR) NULL);
 
 // Open a handle to the physical-memory section object.
-ntStatus = ZwOpenSection(&amp;hPhysicalMemoryHandle, SECTION_ALL_ACCESS, &amp;ObjectAttributes);
+ntStatus = ZwOpenSection(&hPhysicalMemoryHandle, SECTION_ALL_ACCESS, &ObjectAttributes);
 
 if(NT_SUCCESS(ntStatus))
 {
    ntStatus = ZwMapViewOfSection(
       hPhysicalMemoryHandle,
       NtCurrentProcess(),
-      &amp;pViewBase,
+      &pViewBase,
       0L,
       (ULONG_PTR)MappedLength.QuadPart,
-      &amp;MappedBase,
-      (PULONG_PTR)(&amp;(MappedLength.QuadPart)),
+      &MappedBase,
+      (PULONG_PTR)(&(MappedLength.QuadPart)),
       ViewUnmap,
       0,
       PAGE_READWRITE | PAGE_WRITECOMBINE);

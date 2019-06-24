@@ -96,14 +96,14 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 BOOLEAN ret;
 
 WDF_REQUEST_SEND_OPTIONS_INIT(
-                              &amp;options,
+                              &options,
                               WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
                               );
 
 ret = WdfRequestSend(
                      Request,
                      Target,
-                     &amp;options
+                     &options
                      );</pre>
 </td>
 </tr>

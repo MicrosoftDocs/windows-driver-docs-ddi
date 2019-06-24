@@ -66,7 +66,7 @@ A handle to a framework device object.
 
 ### -param SymbolicLinkName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a user-visible name for the device.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 
 
 ## -returns
@@ -126,7 +126,7 @@ NTSTATUS  status;
 
 status = WdfDeviceCreateSymbolicLink(
                                      controlDevice,
-                                     &amp;dosDeviceName
+                                     &dosDeviceName
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;
@@ -148,7 +148,7 @@ NTSTATUS  status;
 
 status = WdfDeviceCreateSymbolicLink(
                                      controlDevice,
-                                     &amp;dosDeviceName
+                                     &dosDeviceName
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;
@@ -166,7 +166,7 @@ For information about global and local <b>\DosDevices</b> namespaces, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -76,7 +76,7 @@ Because <b>KsGateGetStateUnsafe</b> does not handle synchronization, it is possi
 
 Consider a situation in which the output of gate A is connected as an input to gate B. A transitions to closed, causing B to transition from open to closed. If, at the same time, another thread calls <b>KsGateGetStateUnsafe</b> between the time A closes and the time B closes, the routine still returns that B was open.
 
-<b>KsGateGetStateUnsafe</b> returns whether <i>Gate-&gt;Count</i> is greater than zero. The function does not use any interlocked functions to do this. Thus, the call is performed without regard to synchronization.
+<b>KsGateGetStateUnsafe</b> returns whether <i>Gate->Count</i> is greater than zero. The function does not use any interlocked functions to do this. Thus, the call is performed without regard to synchronization.
 
 
 

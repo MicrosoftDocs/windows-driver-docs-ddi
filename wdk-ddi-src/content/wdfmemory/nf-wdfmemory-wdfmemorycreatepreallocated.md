@@ -165,14 +165,14 @@ pBuffer = ExAllocatePoolWithTag(
 if (pBuffer == NULL){
     goto Error;
 }
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = requestHandle;
 
 status = WdfMemoryCreatePreallocated(
                                      attributes,
                                      pBuffer,
                                      MY_BUFFER_SIZE,
-                                     &amp;memHandle
+                                     &memHandle
                                      );</pre>
 </td>
 </tr>

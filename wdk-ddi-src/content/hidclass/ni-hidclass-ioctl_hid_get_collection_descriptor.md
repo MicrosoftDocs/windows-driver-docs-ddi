@@ -58,7 +58,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer specified by <b>Irp-&gt;UserBuffer</b>.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer specified by <b>Irp->UserBuffer</b>.
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -output-buffer
 
-<b>Irp-&gt;UserBuffer</b> is a PVOID pointer to a requester-allocated buffer that the HID class driver uses to return a variable length <b>_HIDP_PREPARSED_DATA</b> structure. This buffer must be allocated from nonpaged pool. 
+<b>Irp->UserBuffer</b> is a PVOID pointer to a requester-allocated buffer that the HID class driver uses to return a variable length <b>_HIDP_PREPARSED_DATA</b> structure. This buffer must be allocated from nonpaged pool. 
 
 
 ### -output-buffer-length
@@ -100,7 +100,7 @@ The size, in bytes, of the preparsed data structure is obtained using <a href="h
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

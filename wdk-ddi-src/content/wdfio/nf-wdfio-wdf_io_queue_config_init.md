@@ -99,14 +99,14 @@ NTSTATUS  status = STATUS_SUCCESS;
 WDFQUEUE  readQueue;
 
 WDF_IO_QUEUE_CONFIG_INIT(
-                         &amp;queueConfig,
+                         &queueConfig,
                          WdfIoQueueDispatchManual
                          );
 status = WdfIoQueueCreate(
                           hDevice,
-                          &amp;queueConfig,
+                          &queueConfig,
                           WDF_NO_OBJECT_ATTRIBUTES,
-                          &amp;readQueue
+                          &readQueue
                           );</pre>
 </td>
 </tr>

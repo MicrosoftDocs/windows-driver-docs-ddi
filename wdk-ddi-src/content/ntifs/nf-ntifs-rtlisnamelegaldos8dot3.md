@@ -86,7 +86,7 @@ Pointer to an optional BOOLEAN value that receives <b>TRUE</b> if the string at 
 
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
-If the block of memory at <i>Name</i> is nonpaged, the caller can be running at IRQL &lt;= DISPATCH_LEVEL. Otherwise, callers of <b>RtlIsNameLegalDOS8Dot3</b> must be running at IRQL &lt; DISPATCH_LEVEL. 
+If the block of memory at <i>Name</i> is nonpaged, the caller can be running at IRQL <= DISPATCH_LEVEL. Otherwise, callers of <b>RtlIsNameLegalDOS8Dot3</b> must be running at IRQL < DISPATCH_LEVEL. 
 
 
 
@@ -104,7 +104,7 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

@@ -107,7 +107,7 @@ This queue type is valid starting with Windows 8.1.
 
 For drivers targeting Windows 8.1 or later versions of Windows, use of only <b>CustomPriorityWorkQueue</b> with a custom priority level is recommended.
 
- A work queue priority &lt; 17 is advised since queuing  
+ A work queue priority < 17 is advised since queuing  
     at a higher priority may interfere with work item processing by critical system components.
 
 For more information about system worker threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.

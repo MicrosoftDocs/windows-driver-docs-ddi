@@ -1,5 +1,5 @@
 ---
-UID: NF:wdm.KeAcquireSpinLock
+UID: NF:wdm.KeAcquireSpinLock~r1
 title: KeAcquireSpinLock macro (wdm.h)
 description: The KeAcquireSpinLock routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 old-location: kernel\keacquirespinlock.htm
@@ -49,18 +49,27 @@ req.typenames:
 
 The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 
+## -syntax
+
+```cpp
+KIRQL
+KeAcquireSpinLock (
+    _Inout_ PKSPIN_LOCK SpinLock
+    _Out_ KIRQL OldIrql
+    );
+```
 
 ## -parameters
 
 
 
 
-### -param a
+### -param SpinLock
 Pointer to an initialized KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
 
-### -param b
+### -param OldIrql
 Pointer to a KIRQL variable that is set to the current IRQL when this call occurs.
 
 

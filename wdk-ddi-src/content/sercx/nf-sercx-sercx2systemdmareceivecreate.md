@@ -103,7 +103,7 @@ A system-DMA-receive object already exists from a previous <b>SerCx2SystemDmaRec
 </dl>
 </td>
 <td width="60%">
-The <i>Config</i>-&gt;<b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b>).
+The <i>Config</i>-><b>Size</b> value does not equal <b>sizeof</b>(<b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b>).
 
 </td>
 </tr>

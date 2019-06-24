@@ -61,12 +61,12 @@ A pointer to the smart card reader device object. (Must be set by the driver.)
 
 ### -field CurrentIrp
 
-A pointer to the current IRP to process. Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a>. 
+A pointer to the current IRP to process. Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData->SpinLock</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a>. 
 
 
 ### -field NotificationIrp
 
-A pointer to an IRP that the smart card reader driver uses to notify applications when a smart card has been inserted or removedl. Access to this field must be sequentialized by using the spin lock that is pointed to by the <b>OsData-&gt;SpinLock</b> member of SMARTCARD_EXTENSION.  
+A pointer to an IRP that the smart card reader driver uses to notify applications when a smart card has been inserted or removedl. Access to this field must be sequentialized by using the spin lock that is pointed to by the <b>OsData->SpinLock</b> member of SMARTCARD_EXTENSION.  
 
 
 ### -field Mutex

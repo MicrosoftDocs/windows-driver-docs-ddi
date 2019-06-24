@@ -65,7 +65,7 @@ Datatype: size_t. The number of bytes to copy from the source to the destination
 
 New drivers should use the <b>RtlCopyMemory</b> routine instead of <b>RtlCopyBytes</b>.
 
-Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
+Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 ## -see-also
 

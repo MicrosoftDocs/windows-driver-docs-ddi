@@ -76,7 +76,7 @@ This routine is implemented by PoFx and is called by the PEP. The <b>RequestWork
 
 Each time the PEP calls this routine, PoFx responds by sending a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to the PEP. This notification might be delayed if a worker thread is not immediately available to process the work request.
 
-A PEP can call this routine at IRQL &lt;= DISPATCH_LEVEL.
+A PEP can call this routine at IRQL <= DISPATCH_LEVEL.
 
 
 

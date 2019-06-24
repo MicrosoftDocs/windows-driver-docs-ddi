@@ -66,7 +66,7 @@ A handle to a framework registry-key object. This object represents a parent reg
 
 ### -param KeyName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the key to be opened. The key name can include path information. If <i>ParentKey</i> is <b>NULL</b>, <i>KeyName</i> must specify a complete path to a registry key. For examples, see the Remarks section.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the key to be opened. The key name can include path information. If <i>ParentKey</i> is <b>NULL</b>, <i>KeyName</i> must specify a complete path to a registry key. For examples, see the Remarks section.
 
 
 ### -param DesiredAccess [in]
@@ -217,19 +217,19 @@ status = WdfDeviceOpenRegistryKey(
                                   PLUGPLAY_REGKEY_DRIVER,
                                   KEY_READ,
                                   WDF_NO_OBJECT_ATTRIBUTES,
-                                  &amp;hKey
+                                  &hKey
                                   );
 if (NT_SUCCESS(status)){
     RtlInitUnicodeString(
-                         &amp;myKeyStr,
+                         &myKeyStr,
                          L"MySubKey"
                          );
     status = WdfRegistryOpenKey(
                                 hKey,
-                                &amp;myKeyStr,
+                                &myKeyStr,
                                 KEY_READ,
                                 WDF_NO_OBJECT_ATTRIBUTES,
-                                &amp;subkey
+                                &subkey
                                 );
 }</pre>
 </td>
@@ -251,7 +251,7 @@ if (NT_SUCCESS(status)){
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

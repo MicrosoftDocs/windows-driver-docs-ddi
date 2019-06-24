@@ -238,18 +238,18 @@ OsrFxEvtIoWrite(
     WDFMEMORY  reqMemory;
     PDEVICE_CONTEXT  pDeviceContext;
  
-    if (Length &gt; TEST_BOARD_TRANSFER_BUFFER_SIZE) {
+    if (Length > TEST_BOARD_TRANSFER_BUFFER_SIZE) {
         status = STATUS_INVALID_PARAMETER;
         goto Exit;
     }
 
     pDeviceContext = GetDeviceContext(WdfIoQueueGetDevice(Queue));
  
-    pipe = pDeviceContext-&gt;BulkWritePipe;
+    pipe = pDeviceContext->BulkWritePipe;
 
     status = WdfRequestRetrieveInputMemory(
                                            Request,
-                                           &amp;reqMemory
+                                           &reqMemory
                                            );
     if (!NT_SUCCESS(status)){
         goto Exit;

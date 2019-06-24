@@ -166,7 +166,7 @@ BasePhysicalAddress += Stride;
 AddressList[2].PhysicalAddress.QuadPart = BasePhysicalAddress;
 AddressList[2].NumberOfBytes = ChunkSize;
  
-Status = MmAllocateMdlForIoSpace (AddressList, ARRAYSIZE(AddressList), &amp;Mdl);
+Status = MmAllocateMdlForIoSpace (AddressList, ARRAYSIZE(AddressList), &Mdl);
 </pre>
 </td>
 </tr>

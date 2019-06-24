@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. 
+The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. See the [TypeKind enumeration](ne-dbgmodel-typekind.md) for more information.
 
 ## -parameters
 

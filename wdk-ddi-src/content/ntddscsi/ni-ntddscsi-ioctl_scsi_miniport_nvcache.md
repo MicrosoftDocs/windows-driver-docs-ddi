@@ -63,7 +63,7 @@ The interface that is used for the NV Cache Management functionality consists of
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure with the Signature field set to "HYBRDISK", and the ControlCode field set to IOCTL_SCSI_MINIPORT_NVCACHE. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structure immediately follows the <b>SRB_IO_CONTROL</b> structure. Any optional function-specific data buffer immediately follows the <b>NVCACHE_REQUEST_BLOCK</b> structure. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure with the Signature field set to "HYBRDISK", and the ControlCode field set to IOCTL_SCSI_MINIPORT_NVCACHE. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structure immediately follows the <b>SRB_IO_CONTROL</b> structure. Any optional function-specific data buffer immediately follows the <b>NVCACHE_REQUEST_BLOCK</b> structure. 
 
 
 ### -input-buffer-length
@@ -73,7 +73,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <a href="htt
 
 ### -output-buffer
 
-Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structures, as well as the optional function-specific data buffer, are returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structures, as well as the optional function-specific data buffer, are returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length

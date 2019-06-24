@@ -84,7 +84,7 @@ None
 
 Callers of <b>IoRequestDpc</b> must be running at DIRQL.
 
-Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine. Because of this, <b>IoRequestDpc</b> runs at the DIRQL value that was specified by <i>SynchronizeIrql</i> when the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>. However, it is also possible to queue a DPC at any IRQL &gt;= DISPATCH_LEVEL by using the <b>Ke<i>Xxx</i>Dpc</b> routines. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565664">Which Type of DPC Should You Use?</a>
+Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine. Because of this, <b>IoRequestDpc</b> runs at the DIRQL value that was specified by <i>SynchronizeIrql</i> when the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>. However, it is also possible to queue a DPC at any IRQL >= DISPATCH_LEVEL by using the <b>Ke<i>Xxx</i>Dpc</b> routines. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565664">Which Type of DPC Should You Use?</a>
 
 
 

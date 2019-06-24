@@ -115,19 +115,19 @@ CUmdfHidDevice::PrepareReader(
     VOID
     )
 {
-    CComPtr&lt;IWDFDevice&gt; wdfDevice;
-    CComPtr&lt;IWDFDriver&gt; wdfDriver;
-    CComPtr&lt;IWDFIoRequest&gt; wdfRequest;
+    CComPtr<IWDFDevice> wdfDevice;
+    CComPtr<IWDFDriver> wdfDriver;
+    CComPtr<IWDFIoRequest> wdfRequest;
 
     HRESULT hr;
 
-    GetWdfDevice(&amp;wdfDevice);
-    wdfDevice-&gt;GetDriver(&amp;wdfDriver);
+    GetWdfDevice(&wdfDevice);
+    wdfDevice->GetDriver(&wdfDriver);
 
     // Open the interrupt pipe.
-    hr = m_HidInterface-&gt;RetrieveUsbPipeObject(
+    hr = m_HidInterface->RetrieveUsbPipeObject(
                          USB_HID_INTERRUPT_PIPE_INDEX,
-                         &amp;m_InterruptPipe
+                         &m_InterruptPipe
                          );
 
     // Allocate a memory object to hold information that 
@@ -135,10 +135,10 @@ CUmdfHidDevice::PrepareReader(
     // This memory object will be reused.
     if (SUCCEEDED(hr))
     {
-        hr = wdfDriver-&gt;CreateWdfMemory(m_ReadBufferSize,
+        hr = wdfDriver->CreateWdfMemory(m_ReadBufferSize,
                                         NULL,
                                         wdfDevice,
-                                        &amp;m_ReadMemory);
+                                        &m_ReadMemory);
     }
 
     return hr;

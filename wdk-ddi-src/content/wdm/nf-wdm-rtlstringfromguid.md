@@ -62,7 +62,7 @@ Specifies the binary-format GUID to convert.
 
 ### -param GuidString [out]
 
-Pointer to a caller-supplied variable in which a pointer to the converted GUID string is returned. <b>RtlStringFromGUID</b> allocates the buffer space for the string, which the caller must free by calling <b>RtlFreeUnicodeString</b>. 
+Pointer to a caller-supplied variable in which a pointer to the converted GUID string is returned. <b>RtlStringFromGUID</b> allocates the buffer space for the string, which the caller must free by calling <b>RtlFreeUnicodeString</b>.  The returned string is in the form `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}`, including the prepended and appended braces.
 
 
 ## -returns

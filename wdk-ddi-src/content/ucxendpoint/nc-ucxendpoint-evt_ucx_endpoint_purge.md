@@ -108,7 +108,7 @@ Endpoint_UcxEvtEndpointPurge(
     UCXENDPOINT     UcxEndpoint
     )
 {
-            WdfIoQueuePurge(endpointContext-&gt;WdfQueue,
+            WdfIoQueuePurge(endpointContext->WdfQueue,
                             Endpoint_WdfEvtPurgeComplete,
                             UcxEndpoint);
 }

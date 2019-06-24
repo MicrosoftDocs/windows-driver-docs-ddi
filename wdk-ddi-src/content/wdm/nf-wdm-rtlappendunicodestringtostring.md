@@ -109,7 +109,7 @@ The destination string length is too small to allow the source string to be conc
 
 <b>RtlAppendUnicodeStringToString</b> copies bytes from the source to the specified destination string, after the current contents of the destination string and the destination length is incremented by the number of bytes copied.
 
-The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller is running at IRQL &gt;= DISPATCH_LEVEL.
+The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller is running at IRQL >= DISPATCH_LEVEL.
 
 
 

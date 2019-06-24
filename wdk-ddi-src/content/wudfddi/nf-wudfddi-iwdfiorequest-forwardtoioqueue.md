@@ -96,12 +96,12 @@ The following code example shows how to forward a request to another queue if th
 <tr>
 <td>
 <pre>HRESULT hr;
- if (OutputBufferSizeInBytes &lt; sizeof(SWITCH_STATE)) {
+ if (OutputBufferSizeInBytes < sizeof(SWITCH_STATE)) {
     hr = HRESULT_FROM_NT(ERROR_INSUFFICIENT_BUFFER);
  }
  else {
-     hr = FxRequest-&gt;ForwardToIoQueue(
-                          m_Device-&gt;GetSwitchChangeQueue()
+     hr = FxRequest->ForwardToIoQueue(
+                          m_Device->GetSwitchChangeQueue()
                           );
      if (SUCCEEDED(hr)) {
          completeRequest = false;

@@ -43,82 +43,47 @@ req.typenames:
 
 # KsAllocateDeviceHeader function
 
-
 ## -description
 
-
-The <b>KsAllocateDeviceHeader</b> function allocates and initializes the required device extension header. 
-
+The **KsAllocateDeviceHeader** function allocates and initializes the required device extension header.
 
 ## -parameters
-
-
-
 
 ### -param Header [out]
 
 Points to the location in which to return a pointer to the initialized header.
 
-
 ### -param ItemsCount [in]
 
-Specifies the number of subitems in the <i>ItemsList</i>. This should be zero if an <i>ItemsList</i> is not passed.
-
+Specifies the number of subitems in the *ItemsList*. This should be zero if an *ItemsList* is not passed.
 
 ### -param ItemsList [in, optional]
 
-Optional. Points to a KSOBJECT_CREATE_ITEM structure for each subitem. If there are no subitems, this value should be <b>NULL</b> and <i>ItemsCount</i> should be zero.
-
+Optional. Points to a KSOBJECT_CREATE_ITEM structure for each subitem. If there are no subitems, this value should be **NULL** and *ItemsCount* should be zero.
 
 ## -returns
 
-
-
-The <b>KsAllocateDeviceHeader</b> function returns STATUS_SUCCESS if successful or STATUS_INSUFFICIENT_RESOURCES if unable to allocate the necessary resources.
-
-
-
+The **KsAllocateDeviceHeader** function returns STATUS_SUCCESS if successful or STATUS_INSUFFICIENT_RESOURCES if unable to allocate the necessary resources.
 
 ## -remarks
 
+The **KsAllocateDeviceHeader** function allocates memory for the KSDEVICE_HEADER structure for a device. When the header is no longer needed, the driver should call the **KsFreeDeviceHeader** function to free the memory allocated.
 
+If subobjects exist for a given device, the driver must, before calling **KsAllocateDeviceHeader**, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a KSOBJECT_CREATE_ITEM structure for each subobject. For example:
 
-The <b>KsAllocateDeviceHeader</b> function allocates memory for the KSDEVICE_HEADER structure for a device. When the header is no longer needed, the driver should call the <b>KsFreeDeviceHeader</b> function to free the memory allocated.
-
-If subobjects exist for a given device, the driver must, before calling <b>KsAllocateDeviceHeader</b>, allocate a buffer of either paged or nonpaged memory of sufficient size to hold a KSOBJECT_CREATE_ITEM structure for each subobject. For example:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>/* Allocate a buffer for 4 subobjects for a given streaming device */
+```cpp
+/* Allocate a buffer for 4 subobjects for a given streaming device */
 PKSOBJECT_CREATE_ITEM createBuffer ;
 ULONG bufferSize  = (sizeof (KSOBJECT_CREATE_ITEM)) * 4 ;
- 
+
 createBuffer = (PKSOBJECT_CREATE_ITEM)
                ExAllocatePoolWithTag (PagedPool, bufferSize) ;
- </pre>
-</td>
-</tr>
-</table></span></div>
-Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITEM list until after calling <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition. 
+```
 
-
-
+Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITEM list until after calling **KsFreeDeviceHeader**. Failure to do so can result in a bug check condition.
 
 ## -see-also
 
+[KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562560">KsFreeDeviceHeader</a>
- 
-
- 
-
+[KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreedeviceheader)

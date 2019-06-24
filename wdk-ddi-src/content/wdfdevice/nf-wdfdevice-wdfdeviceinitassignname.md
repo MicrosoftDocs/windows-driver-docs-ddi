@@ -64,7 +64,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param DeviceName [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that represents the device name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that represents the device name.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The following code example assigns an <a href="https://msdn.microsoft.com/dfcc73
 <pre>DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
 status = WdfDeviceInitAssignName(
                                  DeviceInit,
-                                 &amp;MyDeviceName
+                                 &MyDeviceName
                                  );
 if (!NT_SUCCESS(status)) {
     return status;

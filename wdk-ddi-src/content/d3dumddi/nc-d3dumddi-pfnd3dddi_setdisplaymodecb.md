@@ -112,7 +112,7 @@ The following code example shows how to set the allocation for scanning out to t
 
 ```cpp
 HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayMode) {
-    DWORD   dwSrcSurf = ((DWORD)(DWORD_PTR)pSetDisplayMode-&gt;hResource) + pSetDisplayMode-&gt;SubResourceIndex;
+    DWORD   dwSrcSurf = ((DWORD)(DWORD_PTR)pSetDisplayMode->hResource) + pSetDisplayMode->SubResourceIndex;
     HRESULT hr;
     // Timestamp the source surface
     m_RTbl[dwSrcSurf].m_qwBatch = m_qwBatch;
@@ -122,7 +122,7 @@ HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayM
     SetDisplayModeCBData.hPrimaryAllocation = R200GetSurfaceAllocHandle(m_pR200Ctx,
                                         dwSrcSurf);
 
-    hr = m_d3dCallbacks.pfnSetDisplayModeCb(m_hD3D, &amp;SetDisplayModeCBData);
+    hr = m_d3dCallbacks.pfnSetDisplayModeCb(m_hD3D, &SetDisplayModeCBData);
 
     return (hr);
 }

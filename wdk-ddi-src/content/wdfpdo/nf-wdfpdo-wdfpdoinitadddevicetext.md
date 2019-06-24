@@ -64,12 +64,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param DeviceDescription [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a device description, formatted for the given locale. The driver can allocate the string's buffer from paged pool.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a device description, formatted for the given locale. The driver can allocate the string's buffer from paged pool.
 
 
 ### -param DeviceLocation [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a description of the location on the bus where the parent device found the child. The driver can allocate the string's buffer from paged pool.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a description of the location on the bus where the parent device found the child. The driver can allocate the string's buffer from paged pool.
 
 
 ### -param LocaleId [in]
@@ -143,7 +143,7 @@ The following code example provides Unicode strings for a device's location and 
 DECLARE_UNICODE_STRING_SIZE(buffer, MAX_ID_LEN);
 
 status = RtlUnicodeStringPrintf(
-                                &amp;buffer,
+                                &buffer,
                                 L"Keyboard_Filter_%02d",
                                 InstanceNo
                                 );
@@ -152,8 +152,8 @@ if (!NT_SUCCESS(status)) {
 }
 status = WdfPdoInitAddDeviceText(
                                  pDeviceInit,
-                                 &amp;buffer,
-                                 &amp;deviceLocation,
+                                 &buffer,
+                                 &deviceLocation,
                                  0x409
                                  );
 if (!NT_SUCCESS(status)) {

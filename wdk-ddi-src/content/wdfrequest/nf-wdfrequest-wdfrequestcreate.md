@@ -165,16 +165,16 @@ WDFIOTARGET ioTarget;
 status = WdfIoTargetCreate(
                            Device,
                            WDF_NO_OBJECT_ATTRIBUTES,
-                           &amp;ioTarget
+                           &ioTarget
                            );
   ...
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = ioTarget;
 
 status = WdfRequestCreate(
-                          &amp;attributes,
+                          &attributes,
                           ioTarget,
-                          &amp;newRequest
+                          &newRequest
                           );
 
 if (!NT_SUCCESS(status)) {

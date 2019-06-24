@@ -111,9 +111,9 @@ The following code example calls a local routine that returns a pointer to a wor
 <pre>PMY_CONTEXT_TYPE context;
 
 context = GetWorkItemContext(hWorkItem);
-context-&gt;FdoData = FdoData;
-context-&gt;Argument1 = Context1;
-context-&gt;Argument2 = Context2;
+context->FdoData = FdoData;
+context->Argument1 = Context1;
+context->Argument2 = Context2;
 
 WdfWorkItemEnqueue(hWorkItem);</pre>
 </td>
@@ -163,12 +163,12 @@ The following code example calls a local routine that returns a pointer to a wor
 PMY_CONTEXT_TYPE context;
 
 context = GetWorkItemContext(hWorkItem);
-context-&gt;FdoData = FdoData;
-context-&gt;Argument1 = Context1;
-context-&gt;Argument2 = Context2;
+context->FdoData = FdoData;
+context->Argument1 = Context1;
+context->Argument2 = Context2;
 
 if (InterlockedCompareExchange(
-                               (PLONG)&amp;context-&gt;WorkItemState,
+                               (PLONG)&context->WorkItemState,
                                WORKITEM_STATE_BUSY,
                                WORKITEM_STATE_FREE
                                ) == WORKITEM_STATE_FREE) {
@@ -202,7 +202,7 @@ The driver's <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca41
     // Reset object state.
     //
     result = InterlockedExchange(
-                                 (PLONG)&amp;context-&gt;WorkItemState,
+                                 (PLONG)&context->WorkItemState,
                                  WORKITEM_STATE_FREE
                                  );
     ASSERT(result == WORKITEM_STATE_BUSY);

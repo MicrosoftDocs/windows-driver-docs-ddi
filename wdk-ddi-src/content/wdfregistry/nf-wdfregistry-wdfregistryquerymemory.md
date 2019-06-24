@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param PoolType [in]
@@ -211,15 +211,15 @@ DECLARE_CONST_UNICODE_STRING(valueName1, L"MyValueName");
 
 status = WdfRegistryQueryMemory(
                                 Key,
-                                &amp;valueName1,
+                                &valueName1,
                                 PagedPool,
                                 NULL,
-                                &amp;memory,
-                                &amp;type
+                                &memory,
+                                &type
                                 );
 pBuf = (PUCHAR)WdfMemoryGetBuffer(
                                    memory,
-                                   &amp;size
+                                   &size
                                    );</pre>
 </td>
 </tr>
@@ -240,7 +240,7 @@ pBuf = (PUCHAR)WdfMemoryGetBuffer(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

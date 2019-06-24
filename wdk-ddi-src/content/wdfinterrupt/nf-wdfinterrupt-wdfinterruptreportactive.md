@@ -111,24 +111,24 @@ MyComponentIdleStateCallback(
     PINTERRUPT_CONTEXT interruptContext;
 
     deviceData = FdoGetData((WDFDEVICE)Context);
-    interruptContext = InterruptGetData(deviceData-&gt;Interrupt);
+    interruptContext = InterruptGetData(deviceData->Interrupt);
 
     switch (State) {
         case 0:
-            if (interruptContext-&gt;ReportedInactive) {
+            if (interruptContext->ReportedInactive) {
 
                 //
                 // the interrupt was reported inactive earlier. We need to report active now.
                 //
-                WdfInterruptReportActive(deviceData-&gt;Interrupt);
-                interruptContext-&gt;ReportedInactive = FALSE;
+                WdfInterruptReportActive(deviceData->Interrupt);
+                interruptContext->ReportedInactive = FALSE;
 
                 //
                 // Enable interrupt generation at hardware.
                 // 
-                WdfInterruptAcquireLock(deviceData-&gt;Interrupt);
+                WdfInterruptAcquireLock(deviceData->Interrupt);
                 EnableInterruptInHardware();
-                WdfInterruptReleaseLock(deviceData-&gt;Interrupt);
+                WdfInterruptReleaseLock(deviceData->Interrupt);
 
             }
 

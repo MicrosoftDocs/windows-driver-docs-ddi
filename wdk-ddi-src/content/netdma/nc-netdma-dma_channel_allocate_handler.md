@@ -176,7 +176,7 @@ The NetDMA interface calls the
     free a previously allocated DMA channel.
 
 NetDMA calls 
-    <i>ProviderAllocateDmaChannel</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderAllocateDmaChannel</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

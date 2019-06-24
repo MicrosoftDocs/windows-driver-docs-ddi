@@ -42,94 +42,40 @@ req.typenames:
 
 # wiauDbgHelper macro
 
-
 ## -description
 
-
-The <b>wiauDbgHelper</b> function formats a message and writes it to a log file, or debugger, or both.
-
+The **wiauDbgHelper** function formats a message and writes it to a log file, or debugger, or both.
 
 ## -parameters
 
-
-
-
 ### -param a
-
-
-
 
 ### -param b
 
-
-
-
 ### -param c
-
-
-
 
 ### -param d
 
+- **fmt [in]** - Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
 
+- **fname [in]** - Pointer to a string containing the name of the function or method into which the call to **wiauDbgHelper** is inserted.
 
+- **marker** - Marks the beginning of a variable argument list.
 
-
-
-
-
-#### - fmt [in]
-
-Pointer to a string that controls how an item or items in a variable argument list is to be formatted.
-
-
-#### - fname [in]
-
-Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgHelper</b> is inserted.
-
-
-#### - marker
-
-Marks the beginning of a variable argument list.
-
-
-#### - prefix [in]
-
-Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message. 
-
+- **prefix [in]** - Pointer to a string containing a prefix (such as "ERROR " or "WARN ") associated with the message.
 
 ## -remarks
 
-
-
-The <b>wiauDbgHelper</b> function is a general-purpose function that is used internally by many of the other <b>wiauDbg</b><b><i>Xxx</i></b> functions. While it can be used in WIA minidrivers, there are other limited-purpose functions provided that are more convenient to use.
-
-
-
+The **wiauDbgHelper** function is a general-purpose function that is used internally by many of the other **wiauDbg*Xxx*** functions. While it can be used in WIA minidrivers, there are other limited-purpose functions provided that are more convenient to use.
 
 ## -see-also
 
+[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump)
 
+[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerror)
 
+[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
+[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
- 
-
- 
-
+[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning)

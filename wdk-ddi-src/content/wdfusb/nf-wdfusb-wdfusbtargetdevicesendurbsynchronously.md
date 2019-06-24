@@ -201,7 +201,7 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
                                                 UsbDevice,
                                                 NULL,
                                                 NULL,
-                                                &amp;Urb
+                                                &Urb
                                                 );</pre>
 </td>
 </tr>

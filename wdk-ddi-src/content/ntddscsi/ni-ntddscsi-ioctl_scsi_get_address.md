@@ -71,12 +71,12 @@ None.
 
 ### -output-buffer
 
-Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> information is returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a>).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a>).
 
 
 ### -in-out-buffer

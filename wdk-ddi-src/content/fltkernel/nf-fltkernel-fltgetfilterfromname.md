@@ -56,7 +56,7 @@ The <b>FltGetFilterFromName</b> routine returns an opaque filter pointer for a r
 
 ### -param FilterName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the minifilter driver name. (The name comparison is case-insensitive.) 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the minifilter driver name. (The name comparison is case-insensitive.) 
 
 
 ### -param RetFilter [out]
@@ -127,7 +127,7 @@ To register a minifilter driver with the Filter Manager, call <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

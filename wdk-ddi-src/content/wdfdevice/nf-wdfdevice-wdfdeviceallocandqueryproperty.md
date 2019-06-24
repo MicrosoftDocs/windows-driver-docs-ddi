@@ -152,14 +152,14 @@ NTSTATUS  status;
 WDFDEVICE  device;
 WDFMEMORY  memory;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = device;
 
 status = WdfDeviceAllocAndQueryProperty(device,
                                         DevicePropertyPhysicalDeviceObjectName,
                                         NonPagedPool,
-                                        &amp;attributes,
-                                        &amp;memory
+                                        &attributes,
+                                        &memory
                                         );
 if (!NT_SUCCESS(status)) {
     return STATUS_UNSUCCESSFUL;

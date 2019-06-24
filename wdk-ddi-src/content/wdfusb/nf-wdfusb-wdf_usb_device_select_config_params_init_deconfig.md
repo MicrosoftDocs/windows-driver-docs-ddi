@@ -122,11 +122,11 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS configParams;
 NTSTATUS status;
 
-WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG(&amp;configParams);
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG(&configParams);
 Status = WdfUsbTargetDeviceSelectConfig(
                                         UsbDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
-                                        &amp;configParams
+                                        &configParams
                                         );</pre>
 </td>
 </tr>

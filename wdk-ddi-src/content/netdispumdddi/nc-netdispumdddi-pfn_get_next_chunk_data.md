@@ -127,7 +127,7 @@ In a call to this function, as many available packets as can fit will be placed 
 ```cpp
 ChunkSize == FIELD_OFFSET
     (D3DKMT_MIRACAST_CHUNK_DATA, PrivateDriverData) \
-    + Chunk-&gt;ChunkData.PrivateDriverDataSize;
+    + Chunk->ChunkData.PrivateDriverDataSize;
 ```
 
 #### Thread Safety

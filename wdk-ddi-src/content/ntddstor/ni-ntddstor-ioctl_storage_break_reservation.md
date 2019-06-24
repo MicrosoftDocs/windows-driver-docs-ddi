@@ -69,7 +69,7 @@ The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566352">STORAGE_BREAK_RESERVATION_REQUEST</a> structure that identifies the bus to reset.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566352">STORAGE_BREAK_RESERVATION_REQUEST</a> structure that identifies the bus to reset.
 
 
 ### -input-buffer-length

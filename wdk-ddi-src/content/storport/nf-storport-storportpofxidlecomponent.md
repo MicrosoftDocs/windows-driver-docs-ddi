@@ -154,7 +154,7 @@ The adapter or unit does not support PoFx.
 </dl>
 </td>
 <td width="60%">
-The current IRQL &gt; DISPATCH_LEVEL.
+The current IRQL > DISPATCH_LEVEL.
 
 </td>
 </tr>

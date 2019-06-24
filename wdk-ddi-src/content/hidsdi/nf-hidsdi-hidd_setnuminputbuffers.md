@@ -5,7 +5,7 @@ description: The HidD_SetNumInputBuffers routine sets the maximum number of inpu
 old-location: hid\hidd_setnuminputbuffers.htm
 tech.root: hid
 ms.assetid: da2d2b10-c02a-4786-9658-957271e9ba58
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers
 ms.topic: function
 req.header: hidsdi.h
@@ -68,7 +68,7 @@ Specifies the maximum number of buffers that the HID class driver should maintai
 
 
 
-<b>HidD_SetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>.
+<b>HidD_SetNumInputBuffers</b> returns <b>TRUE</b> if it succeeds; otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 

@@ -158,7 +158,7 @@ It is more efficient for a driver to allow the
     <b>NdisInitializeNPagedLookasideList</b>.
 
 Callers of 
-    <b>NdisInitializeNPagedLookasideList</b> must be running at IRQL &lt;= DISPATCH_LEVEL, but are usually
+    <b>NdisInitializeNPagedLookasideList</b> must be running at IRQL <= DISPATCH_LEVEL, but are usually
     running at PASSIVE_LEVEL.
 
 

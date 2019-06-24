@@ -92,9 +92,9 @@ Returns STATUS_SUCCESS or STATUS_PENDING if the operation succeeds, or the appro
 
 
 
-Callers of <b>SdBusSubmitRequestAsync</b> must be running at IRQL &lt;= DISPATCH_LEVEL.
+Callers of <b>SdBusSubmitRequestAsync</b> must be running at IRQL <= DISPATCH_LEVEL.
 
-Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a> must be running at IRQL &lt; DISPATCH_LEVEL.
+Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a> must be running at IRQL < DISPATCH_LEVEL.
 
 This request is handled asynchronously and might return STATUS_PENDING. 
 

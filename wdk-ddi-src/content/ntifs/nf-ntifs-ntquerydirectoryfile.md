@@ -247,7 +247,7 @@ The number of entries contained in the directory.
 </ul>
 On the first call to <b>NtQueryDirectoryFile</b>, if the structure created for the first entry found is too large to fit into the output buffer, the routine writes the fixed portion of the structure to the output buffer. The routine then writes to the output buffer as much of the <i>FileName</i> string as will fit. (The fixed portion of the structure consists of all fields except the final <i>FileName</i> string. On the first call, but not on subsequent calls, the I/O system ensures that the buffer is large enough to hold the fixed portion of the appropriate <b>FILE_<i>XXX</i>_INFORMATION</b> structure.) When this happens, <b>NtQueryDirectoryFile</b> returns an appropriate status value such as STATUS_BUFFER_OVERFLOW.
 
-On each call, <b>NtQueryDirectoryFile</b> returns as many <b>FILE_<i>XXX</i>_INFORMATION</b> structures (one per directory entry) as can be contained entirely in the buffer pointed to by <i>FileInformation</i>. On the first call, <b>NtQueryDirectoryFile</b> returns STATUS_SUCCESS only if the output buffer contains at least one complete structure. On subsequent calls, if the output buffer contains no structures, <b>NtQueryDirectoryFile</b> returns STATUS_SUCCESS but sets <i>IoStatusBlock</i>-&gt;<b>Information</b> = 0 to notify the caller of this condition. In this case, the caller should allocate a larger buffer and call <b>NtQueryDirectoryFile</b> again. No information about any remaining entries is reported. Thus, except in the cases listed above where only one entry is returned, <b>NtQueryDirectoryFile</b> must be called at least twice to enumerate the contents of an entire directory.
+On each call, <b>NtQueryDirectoryFile</b> returns as many <b>FILE_<i>XXX</i>_INFORMATION</b> structures (one per directory entry) as can be contained entirely in the buffer pointed to by <i>FileInformation</i>. On the first call, <b>NtQueryDirectoryFile</b> returns STATUS_SUCCESS only if the output buffer contains at least one complete structure. On subsequent calls, if the output buffer contains no structures, <b>NtQueryDirectoryFile</b> returns STATUS_SUCCESS but sets <i>IoStatusBlock</i>-><b>Information</b> = 0 to notify the caller of this condition. In this case, the caller should allocate a larger buffer and call <b>NtQueryDirectoryFile</b> again. No information about any remaining entries is reported. Thus, except in the cases listed above where only one entry is returned, <b>NtQueryDirectoryFile</b> must be called at least twice to enumerate the contents of an entire directory.
 
 When calling <b>NtQueryDirectoryFile</b>, you may see changes made to the directory that occur in parallel with <b>NtQueryDirectoryFile</b> calls.  This behavior is dependent on the implementation of the underlying file system.
 
@@ -305,7 +305,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

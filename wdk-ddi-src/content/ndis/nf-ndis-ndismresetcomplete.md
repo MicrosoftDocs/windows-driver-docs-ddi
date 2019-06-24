@@ -106,7 +106,7 @@ A miniport driver must release any spin lock that it is holding before calling
     <b>NdisMResetComplete</b>.
 
 In NDIS 6.0 and later, callers of 
-    <b>NdisMResetComplete</b> must run at IRQL &lt;= DISPATCH_LEVEL. Otherwise, callers of 
+    <b>NdisMResetComplete</b> must run at IRQL <= DISPATCH_LEVEL. Otherwise, callers of 
     <b>NdisMResetComplete</b> must run at IRQL = DISPATCH_LEVEL.
 
 

@@ -42,83 +42,47 @@ req.typenames:
 
 # IPrintWriteStreamFlush::FlushData
 
-
 ## -description
 
-
-The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.Writing to the stream is done using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a> method.
-
+The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream. Writing to the stream is done using the [IPrintWriteStream::WriteBytes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintwritestream-writebytes) method.
 
 ## -parameters
-
-
-
-
-
 
 #### - None
 
 None
 
-
 ## -returns
-
-
 
 The FlushData method returns an HRESULT value.
 
-
-
-
 ## -remarks
-
-
 
 Only the last filter in the print filter pipeline benefits from the flush. The data is flushed to the port monitor. However, the port monitor has the option of using  buffers.
 
-
-#### Examples
+### Examples
 
 The following code snippet shows how to flush data to a data stream. Note that error checking has been omitted for clarity.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// Flushing data to a data stream
+```cpp
+// Flushing data to a data stream
 // ------------------------------
 // Declare a pointer to an IPrintWriteStreamFlush interface
 IPrintWriteStreamFlush *pIFlush;
 
-// Retireve a pointer to an IPrintWriteStream interface 
+// Retireve a pointer to an IPrintWriteStream interface
 // by using the RequestWriter() method in InitializeFilter()
 IPrintWriteStream      *pIWrite;
 
-HRESULT hr = pIWrite-&gt;QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast&lt;void **&gt;(&amp;pIFlush));
+HRESULT hr = pIWrite->QueryInterface(IID_IPrintWriteStreamFlush, reinterpret_cast<void **>(&pIFlush));
 
-hr = pIWrite-&gt;WriteBytes(buf, cb, &amp;cbWritten);
+hr = pIWrite->WriteBytes(buf, cb, &cbWritten);
 
-hr = pIFlush-&gt;FlushData();
-</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+hr = pIFlush->FlushData();
+```
 
 ## -see-also
 
+[IPrintWriteStream::WriteBytes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintwritestream-writebytes)
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh768282">IPrintWriteStreamFlush</a>
- 
-
- 
-
+[IPrintWriteStreamFlush](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintwritestreamflush)

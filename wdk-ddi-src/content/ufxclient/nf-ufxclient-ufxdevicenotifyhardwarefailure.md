@@ -86,7 +86,7 @@ The client driver calls <b>UfxDeviceNotifyHardwareFailure</b> when the controlle
 <tr>
 <td>
 <pre>    UfxDeviceNotifyHardwareFailure(
-        ControllerContext-&gt;UfxDevice,
+        ControllerContext->UfxDevice,
         (PUFX_HARDWARE_FAILURE_CONTEXT) HardwareFailureContext);
 
 </pre>

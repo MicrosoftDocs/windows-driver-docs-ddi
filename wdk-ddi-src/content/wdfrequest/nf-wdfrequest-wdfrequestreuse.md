@@ -145,14 +145,14 @@ MyRequestCompletionRoutine(
     NTSTATUS  status;
 ...
     WDF_REQUEST_REUSE_PARAMS_INIT(
-                                  &amp;params,
+                                  &params,
                                   WDF_REQUEST_REUSE_NO_FLAGS,
                                   STATUS_SUCCESS
                                   );
 
     status = WdfRequestReuse(
                              Request,
-                             &amp;params
+                             &params
                              );
     ASSERT(NT_SUCCESS(status));
 ...

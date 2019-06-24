@@ -42,102 +42,51 @@ req.typenames:
 
 # IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT IOCTL
 
-
 ## -description
 
-
-The <b>IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT </b> 
-   control code is used to request alert information  from <a href="https://msdn.microsoft.com/library/windows/hardware/mt767987">GNSS_BREADCRUMBING_ALERT_DATA</a> when the breadcrumbing buffer has reached a level at which OS read
-operations should be performed.
-
+The **IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT** control code is used to request alert information from [GNSS_BREADCRUMBING_ALERT_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_breadcrumbing_alert_data) when the breadcrumbing buffer has reached a level at which OS read operations should be performed.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Pointer to the input buffer.
 
-
 ### -input-buffer-length
 
 Size of the input buffer.
-
 
 ### -output-buffer
 
 Pointer to the output buffer.
 
-
 ### -output-buffer-length
 
 Size of the output buffer.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
-
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
 
+**IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT** is defined as follows in the gnssdriver.h header file:
 
-
-<b>IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT</b> is defined as follows in the gnssdriver.h header file:
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT \
-    CTL_CODE( FILE_DEVICE_UNKNOWN, 0x072, METHOD_BUFFERED, FILE_ANY_ACCESS )</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+#define IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT \
+    CTL_CODE( FILE_DEVICE_UNKNOWN, 0x072, METHOD_BUFFERED, FILE_ANY_ACCESS )
+```
 
 ## -see-also
 
+[Creating IOCTL Requests in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
+[WdfIoTargetSendInternalIoctlOthersSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
 
+[WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
-
+[WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)

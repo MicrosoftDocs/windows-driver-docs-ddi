@@ -97,7 +97,7 @@ HRESULT OpenSharedPrimarySurface(D3DKMT_HANDLE hAdapter,
     GetHandleData.hAdapter = hAdapter;
     GetHandleData.VidPnSourceId = VidPnSourceId;
 
-    if (!NT_SUCCESS((*pfnKTGetSharedPrimaryHandle)(&amp;GetHandleData))) {
+    if (!NT_SUCCESS((*pfnKTGetSharedPrimaryHandle)(&GetHandleData))) {
         return E_FAIL;
     }
 
@@ -116,14 +116,14 @@ HRESULT OpenSharedPrimarySurface(D3DKMT_HANDLE hAdapter,
     CreateAllocation.pPrivateDriverData = NULL;
     CreateAllocation.PrivateDriverDataSize = 0;
     CreateAllocation.NumAllocations = 1;
-    CreateAllocation.pAllocationInfo = &amp;AllocationInfo;
+    CreateAllocation.pAllocationInfo = &AllocationInfo;
 
     AllocationInfo.hAllocation = NULL;
     AllocationInfo.pSystemMem = NULL;
     AllocationInfo.pPrivateDriverData = pPrivateData;
     AllocationInfo.PrivateDriverDataSize = PrivateDataSize;
 
-    if (NT_SUCCESS((*pfnKTCreateAllocation)(&amp;CreateAllocation))) {
+    if (NT_SUCCESS((*pfnKTCreateAllocation)(&CreateAllocation))) {
         *phResource = CreateAllocation.hResource;
         *phAllocation = AllocationInfo.hAllocation;
         return S_OK;

@@ -115,20 +115,20 @@ EvtDriverDeviceAdd (
  
     TRY {
 
-        WDF_POWER_FRAMEWORK_SETTINGS_INIT(&amp;poFxSettings);
+        WDF_POWER_FRAMEWORK_SETTINGS_INIT(&poFxSettings);
         poFxSettings.EvtDeviceWdmPostPoFxRegisterDevice = EvtDevicePostPoFxRegister;
         poFxSettings.EvtDeviceWdmPrePoFxUnregisterDevice = EvtDevicePrePoFxUnregister;
 
-        status = WdfDeviceWdmAssignPowerFrameworkSettings(device, &amp;poFxSettings);
+        status = WdfDeviceWdmAssignPowerFrameworkSettings(device, &poFxSettings);
         if (!NT_SUCCESS(status)) {
             // WdfDeviceWdmAssignPowerFrameworkSettings failed.
 
         }
 
-        WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&amp;idleSettings, IdleCannotWakeFromS0);
+        WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(&idleSettings, IdleCannotWakeFromS0);
         idleSettings.IdleTimeoutType = SystemManagedIdleTimeout;
 
-        status = WdfDeviceAssignS0IdleSettings(device, &amp;idleSettings);
+        status = WdfDeviceAssignS0IdleSettings(device, &idleSettings);
         if (!NT_SUCCESS(status)) {
             // WdfDeviceAssignS0IdleSettings failed.
 

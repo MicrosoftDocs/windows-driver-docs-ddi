@@ -71,7 +71,7 @@ The page code for the VPD third party copy page. This page code is defined as 0x
 
 ### -field PageLength
 
-The length, in bytes, of the VPD page. For offload data transfer on Windows, <b>PageLength</b> must be &gt;= 0x24.
+The length, in bytes, of the VPD page. For offload data transfer on Windows, <b>PageLength</b> must be >= 0x24.
 
 
 ### -field ThirdPartyCopyDescriptors

@@ -49,6 +49,17 @@ req.typenames:
 
 The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical. 
 
+## -syntax
+
+
+```
+BOOL WINAPI
+RtlEqualMemory(
+   Destination,
+   Source,
+   Length
+);
+```
 
 ## -parameters
 

@@ -114,8 +114,8 @@ ToastMon_EvtIoTargetQueryRemove(
     // Stop the timer and wait for any outstanding work items
     // to finish before closing the target.
     //
-    WdfTimerStop(targetDeviceInfo-&gt;TimerForPostingRequests, TRUE);
-    WdfWorkItemFlush(targetDeviceInfo-&gt;WorkItemForPostingRequests);
+    WdfTimerStop(targetDeviceInfo->TimerForPostingRequests, TRUE);
+    WdfWorkItemFlush(targetDeviceInfo->WorkItemForPostingRequests);
 
     WdfIoTargetCloseForQueryRemove(IoTarget);
 

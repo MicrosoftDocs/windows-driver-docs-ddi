@@ -71,7 +71,7 @@ A pointer to a GUID that identifies the device interface class.
 
 ### -param ReferenceString [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545935">WdfDeviceCreateDeviceInterface</a>. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545935">WdfDeviceCreateDeviceInterface</a>. 
 
 
 ### -param String [in]
@@ -179,12 +179,12 @@ WDFSTRING string;
 status = WdfStringCreate(
                          NULL,
                          WDF_NO_OBJECT_ATTRIBUTES,
-                         &amp;string
+                         &string
                          );
 if (NT_SUCCESS(status)) {
     status = WdfDeviceRetrieveDeviceInterfaceString(
                          Device,
-                         &amp;GUID_DEVINTERFACE_DDI_TEST1,
+                         &GUID_DEVINTERFACE_DDI_TEST1,
                          NULL,
                          string
                          );
@@ -203,7 +203,7 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

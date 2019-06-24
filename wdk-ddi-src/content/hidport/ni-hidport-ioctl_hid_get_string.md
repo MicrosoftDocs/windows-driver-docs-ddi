@@ -60,7 +60,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 IOCTL_HID_GET_STRING makes use of two input buffers.
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the locked-down output buffer at <b>Irp-&gt;UserBuffer</b>. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character). 
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the locked-down output buffer at <b>Irp->UserBuffer</b>. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer. The maximum possible number of characters in an embedded string is device specific. For USB devices, the maximum string length is 126 wide characters (not including the terminating NULL character). 
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> in the I/O stack location of the IRP contains a composite value. The two most significant bytes contain the language ID of the string to be retrieved. The two least significant bytes contain one of the following three constant values: 
 
@@ -92,7 +92,7 @@ The size of the <b>OutputBufferLength</b> and the size of the <b>Type3InputBuffe
 
 ### -output-buffer
 
-The HID minidriver fills the buffer at <b>Irp-&gt;UserBuffer</b> with the requested string (a NULL-terminated wide character string).
+The HID minidriver fills the buffer at <b>Irp->UserBuffer</b> with the requested string (a NULL-terminated wide character string).
 
 
 ### -output-buffer-length
@@ -120,7 +120,7 @@ The size of the <b>UserBuffer</b>.
 
 ### -status-block
 
-HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

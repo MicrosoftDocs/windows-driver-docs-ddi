@@ -333,13 +333,13 @@ At run time, changing the value with <b>wiasWriteMultiple</b> might look like th
 <td>
 <pre>  PROPVARIANT propVar;
   PROPSPEC    propSpec;
-  PropVariantInit(&amp;propVar);
+  PropVariantInit(&propVar);
   propVar.vt          = VT_VECTOR | VT_UI2;
   propVar.caui.cElems = sizeof(SYSTEMTIME) / sizeof(WORD);
-  propVar.caui.pElems = (WORD *) &amp;CurrentTimeStruct;
+  propVar.caui.pElems = (WORD *) &CurrentTimeStruct;
   propSpec.ulKind     = PRSPEC_PROPID;
   propSpec.propid     = WIA_IPA_ITEM_TIME;
-  hr                  = wiasWriteMultiple(pWiasContext, 1, &amp;propSpec, &amp;propVar);</pre>
+  hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);</pre>
 </td>
 </tr>
 </table></span></div>

@@ -82,7 +82,7 @@ These two flag bits are mutually exclusive. For more information, see Remarks.
 </dl>
 </td>
 <td width="60%">
-Make the condition change synchronous. If this flag is set, the routine that requests the condition change does not return control to the calling driver until the component hardware completes the transition to the new condition. This flag can be used only if the caller is running at IRQL &lt; DISPATCH_LEVEL.
+Make the condition change synchronous. If this flag is set, the routine that requests the condition change does not return control to the calling driver until the component hardware completes the transition to the new condition. This flag can be used only if the caller is running at IRQL < DISPATCH_LEVEL.
 
 </td>
 </tr>

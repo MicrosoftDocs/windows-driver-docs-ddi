@@ -102,8 +102,8 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 <tr>
 <td>
 <pre>ConfigDataOffest[i] = 
-    (ConfigDataOffest[i] &amp; ~DataMask[i]) | 
-    (DataMask[i] &amp; Buffer[i])</pre>
+    (ConfigDataOffest[i] & ~DataMask[i]) | 
+    (DataMask[i] & Buffer[i])</pre>
 </td>
 </tr>
 </table></span></div>

@@ -132,7 +132,7 @@ The following code example initializes a WDF_DEVICE_POWER_CAPABILITIES structure
 <td>
 <pre>WDF_DEVICE_POWER_CAPABILITIES powerCaps;
 
-WDF_DEVICE_POWER_CAPABILITIES_INIT(&amp;powerCaps);
+WDF_DEVICE_POWER_CAPABILITIES_INIT(&powerCaps);
 powerCaps.DeviceD1 = WdfTrue;
 powerCaps.WakeFromD1 = WdfTrue;
 powerCaps.DeviceWake = PowerDeviceD1;
@@ -145,7 +145,7 @@ powerCaps.DeviceState[PowerSystemShutdown] = PowerDeviceD3;
 
 WdfDeviceSetPowerCapabilities(
                               device,
-                              &amp;powerCaps
+                              &powerCaps
                               );</pre>
 </td>
 </tr>

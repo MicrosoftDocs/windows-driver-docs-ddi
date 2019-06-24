@@ -143,7 +143,7 @@ The miniport driver can set the CPU affinity of MSI-X interrupt resources so tha
 
 For the 
     <b>NdisMSIXTableConfigSetTableEntry</b> operation, callers of 
-    <b>NdisMConfigMSIXTableEntry</b> must run at IRQL &lt;= DISPATCH_LEVEL.
+    <b>NdisMConfigMSIXTableEntry</b> must run at IRQL <= DISPATCH_LEVEL.
 
 For the 
     <b>NdisMSIXTableConfigMaskTableEntry</b> or 

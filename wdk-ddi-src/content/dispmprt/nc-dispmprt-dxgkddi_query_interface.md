@@ -79,15 +79,15 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 <i>DxgkDdiQueryInterface</i> exposes a communication mechanism between the display miniport driver and the driver of a child device (for example, a video capture device). A display miniport driver that exposes such a mechanism should implement this function.
 
-<i>DxgkDdiQueryInterface</i> should fill in the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that <i>QueryInterface</i>-&gt;<b>Interface</b> points to as follows:
+<i>DxgkDdiQueryInterface</i> should fill in the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that <i>QueryInterface</i>-><b>Interface</b> points to as follows:
 
 <ul>
 <li>
-Set <b>Size</b> to the number of bytes in the INTERFACE structure. This value must not exceed the number of bytes specified by <i>QueryInterface</i>-&gt;<b>Size</b>.
+Set <b>Size</b> to the number of bytes in the INTERFACE structure. This value must not exceed the number of bytes specified by <i>QueryInterface</i>-><b>Size</b>.
 
 </li>
 <li>
-Set <b>Version</b> to the version of the interface being returned by the display miniport driver. The display miniport driver should best match the version requested by the child driver in <i>QueryInterface</i>-&gt;<b>Version</b>.
+Set <b>Version</b> to the version of the interface being returned by the display miniport driver. The display miniport driver should best match the version requested by the child driver in <i>QueryInterface</i>-><b>Version</b>.
 
 </li>
 <li>

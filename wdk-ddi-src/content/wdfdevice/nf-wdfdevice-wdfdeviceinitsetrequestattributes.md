@@ -105,12 +105,12 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDF_OBJECT_ATTRIBUTES  attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;attributes,
+                                        &attributes,
                                         REQUEST_CONTEXT
                                         );
 WdfDeviceInitSetRequestAttributes(
                                   DeviceInit,
-                                  &amp;attributes
+                                  &attributes
                                   );</pre>
 </td>
 </tr>

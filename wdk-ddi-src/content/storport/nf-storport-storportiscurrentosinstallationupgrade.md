@@ -104,7 +104,7 @@ The pointer value  in <i>Upgraded</i> is NULL.
 </dl>
 </td>
 <td width="60%">
-The current IRQL &gt; PASSIVE_LEVEL.
+The current IRQL > PASSIVE_LEVEL.
 
 </td>
 </tr>

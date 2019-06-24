@@ -254,8 +254,8 @@ Because <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> handles I/O reque
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;MemoryDescriptor,
-                                  (PVOID) &amp;MyBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
+                                  (PVOID) &MyBuffer,
                                   sizeof(MyBuffer));</pre>
 </td>
 </tr>
@@ -278,9 +278,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;MemoryHandle,
+                         &MemoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;MemoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
                                   NULL);</pre>
 </td>
@@ -318,7 +318,7 @@ IRB Irb;
 
 Irb.FunctionNumber = REQUEST_ALLOCATE_ADDRESS_RANGE;
 Irb.Flags = 0;
-Irb.u.AllocateAddressRange.Mdl = pAsyncAddressData-&gt;pMdl;
+Irb.u.AllocateAddressRange.Mdl = pAsyncAddressData->pMdl;
 Irb.u.AllocateAddressRange.fulFlags = fulFlags;
 Irb.u.AllocateAddressRange.nLength = nLength;
 Irb.u.AllocateAddressRange.MaxSegmentSize = MaxSegmentSize;
@@ -330,12 +330,12 @@ Irb.u.AllocateAddressRange.Required1394Offset = *Required1394Offset;
 Irb.u.AllocateAddressRange.FifoSListHead = NULL;
 Irb.u.AllocateAddressRange.FifoSpinLock = NULL;
 Irb.u.AllocateAddressRange.AddressesReturned = 0;
-Irb.u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData-&gt;AddressRange;
+Irb.u.AllocateAddressRange.p1394AddressRange = pAsyncAddressData->AddressRange;
 Irb.u.AllocateAddressRange.DeviceExtension = deviceExtension;
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
-                                  &amp;descriptor,
-                                  &amp;Irb,
+                                  &descriptor,
+                                  &Irb,
                                   sizeof (IRB)
                                   );
 
@@ -343,7 +343,7 @@ ntStatus = WdfIoTargetSendInternalIoctlOthersSynchronously(
                                                            IoTarget, 
                                                            NULL,
                                                            IOCTL_1394_CLASS,
-                                                           &amp;descriptor,
+                                                           &descriptor,
                                                            NULL,
                                                            NULL,
                                                            NULL,

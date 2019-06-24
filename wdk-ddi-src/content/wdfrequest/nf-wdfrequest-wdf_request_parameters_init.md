@@ -97,11 +97,11 @@ MyEvtIoDefault(
 {
     WDF_REQUEST_PARAMETERS  params;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
 
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
 ...
 }</pre>

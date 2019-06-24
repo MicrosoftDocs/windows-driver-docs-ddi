@@ -136,7 +136,7 @@ Kernel-mode drivers use the <b>IoSetDeviceInterfacePropertyData</b> routine to m
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439313">IoGetDeviceInterfacePropertyData</a> routine to obtain the current value for a device interface property.
 
-Callers of <b>IoSetDeviceInterfacePropertyData</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
+Callers of <b>IoSetDeviceInterfacePropertyData</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
 
 

@@ -177,7 +177,7 @@ The client can complete these actions asynchronously by returning NDIS_STATUS_PE
 
 NDIS calls 
     <i>ProtocolClNotifyCloseAf</i> at IRQL
-    &lt;= DISPATCH_LEVEL.
+    <= DISPATCH_LEVEL.
 
 The client may use the 
     <i>NdisAfHandle</i> while the AF is open or while a 

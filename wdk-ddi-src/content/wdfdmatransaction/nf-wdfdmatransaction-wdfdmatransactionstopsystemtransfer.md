@@ -116,7 +116,7 @@ MyTimerFunc(
     // take care of running down cancellation.
     //
     if (BeginCompletion(requestContext, STATUS_IO_TIMEOUT, false)) {
-        WdfDmaTransactionStopSystemTransfer(requestContext-&gt;DmaTransaction);
+        WdfDmaTransactionStopSystemTransfer(requestContext->DmaTransaction);
     }
     
     AttemptRequestCompletion(requestContext, false);
@@ -135,17 +135,17 @@ BeginCompletion(
     // Grab the object lock and mark the beginning of 
     // completion.
     //
-    WdfSpinLockAcquire(RequestContext-&gt;Lock);
+    WdfSpinLockAcquire(RequestContext->Lock);
 
-    completionStarted = RequestContext-&gt;CompletionStarted;
-    RequestContext-&gt;CompletionStarted = true;
+    completionStarted = RequestContext->CompletionStarted;
+    RequestContext->CompletionStarted = true;
 
     if ((completionStarted == false) || 
         (ForceStatusUpdate == true)) {
-        RequestContext-&gt;CompletionStatus = CompletionStatus;
+        RequestContext->CompletionStatus = CompletionStatus;
     }
 
-    WdfSpinLockRelease(RequestContext-&gt;Lock);
+    WdfSpinLockRelease(RequestContext->Lock);
 
     return !completionStarted;
 }
@@ -159,14 +159,14 @@ AttemptRequestCompletion(
     LONG refCount;
 
     NT_ASSERTMSG("No thread has begun completion", 
-                 RequestContext-&gt;CompletionStarted == true);
+                 RequestContext->CompletionStarted == true);
 
     if (TransferComplete) {
         //
         // Unmark the request cancelable.  If that succeeds then drop the cancel reference
         //
-        if (WdfRequestUnmarkCancelable(RequestContext-&gt;Request) == STATUS_SUCCESS) {
-            refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+        if (WdfRequestUnmarkCancelable(RequestContext->Request) == STATUS_SUCCESS) {
+            refCount = InterlockedDecrement(&(RequestContext->CompletionRefCount));
             NT_ASSERTMSGW(L"Reference count should not have gone to zero yet",
                           refCount != 0);
         }
@@ -174,16 +174,16 @@ AttemptRequestCompletion(
         //
         // Stop the timer if it's been started.
         //
-        if (RequestContext-&gt;TimerStarted == true) {
-            if (WdfTimerStop(RequestContext-&gt;Timer, FALSE) == TRUE) {
+        if (RequestContext->TimerStarted == true) {
+            if (WdfTimerStop(RequestContext->Timer, FALSE) == TRUE) {
                 //
                 // The timer was queued but won't ever run.  Drop its 
                 // reference count.
                 //
-                refCount = InterlockedDecrement(&amp;RequestContext-&gt;CompletionRefCount);
+                refCount = InterlockedDecrement(&RequestContext->CompletionRefCount);
                 NT_ASSERTMSG("Completion reference count should not reach zero until "
                              L"this routine calls AttemptRequestCompletion",
-                             refCount &gt; 0);
+                             refCount > 0);
             }
         }
     }
@@ -192,13 +192,13 @@ AttemptRequestCompletion(
     // Drop this caller's reference.  If that was the last one then 
     // complete the request.
     //
-    refCount = InterlockedDecrement(&amp;(RequestContext-&gt;CompletionRefCount));
+    refCount = InterlockedDecrement(&(RequestContext->CompletionRefCount));
 
     if (refCount == 0) {
         NT_ASSERTMSGW(L"Execution reference was released, but execution "
                       L"path did not set a completion status for the "
                       L"request",
-                      RequestContext-&gt;CompletionStatus != STATUS_PENDING);
+                      RequestContext->CompletionStatus != STATUS_PENDING);
         
         
         //
@@ -210,13 +210,13 @@ AttemptRequestCompletion(
         // At this point the timer has either expired or been successfully 
         // cancelled so there's no race with the timer routine.
         //
-        if (RequestContext-&gt;Timer != NULL) {
-            WdfObjectDelete(RequestContext-&gt;Timer);
-            RequestContext-&gt;Timer = NULL;
+        if (RequestContext->Timer != NULL) {
+            WdfObjectDelete(RequestContext->Timer);
+            RequestContext->Timer = NULL;
         }
 
-        WdfRequestComplete(RequestContext-&gt;Request, 
-                           RequestContext-&gt;CompletionStatus);
+        WdfRequestComplete(RequestContext->Request, 
+                           RequestContext->CompletionStatus);
     }
 }
 </pre>
@@ -248,24 +248,24 @@ MyRequestCancel(
         //
         // Cancel the DMA transaction.
         //
-        if (WdfDmaTransactionCancel(requestContext-&gt;DmaTransaction) == TRUE) {
+        if (WdfDmaTransactionCancel(requestContext->DmaTransaction) == TRUE) {
             //
             // The transaction was stopped before EvtProgramDma could be 
             // called.  Drop the I/O reference.
             // 
-            oldValue = InterlockedDecrement(&amp;requestContext-&gt;CompletionRefCount);
+            oldValue = InterlockedDecrement(&requestContext->CompletionRefCount);
             NT_ASSERTMSG("Completion reference count should not reach zero until "
                          L"this routine calls AttemptRequestCompletion",
-                         oldValue &gt; 0);
+                         oldValue > 0);
             NT_ASSERTMSG("Completion status should be cancelled", 
-                         requestContext-&gt;CompletionStatus == STATUS_CANCELLED);
+                         requestContext->CompletionStatus == STATUS_CANCELLED);
         }
         else {
             //
             // The transaction couldn't be stopped before EvtProgramDma.
             // Stop any running system DMA transfer.
             //
-            WdfDmaTransactionStopSystemTransfer(requestContext-&gt;DmaTransaction);
+            WdfDmaTransactionStopSystemTransfer(requestContext->DmaTransaction);
         }
     }
 

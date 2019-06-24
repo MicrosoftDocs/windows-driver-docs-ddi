@@ -109,7 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member of the IRP to hold IRP context information. Drivers that use these routines to queue IRPs must leave that member unused.
 
-Callers of <b>IoCsqInsertIrpEx</b> must be running at an IRQL &lt;= DISPATCH_LEVEL. The driver's callback routines must work correctly at this IRQL. 
+Callers of <b>IoCsqInsertIrpEx</b> must be running at an IRQL <= DISPATCH_LEVEL. The driver's callback routines must work correctly at this IRQL. 
 
 
 

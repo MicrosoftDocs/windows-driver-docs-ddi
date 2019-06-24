@@ -61,3 +61,6 @@ The <b>WdfObjectGetTypedContextWorker</b> method is reserved for internal use on
 
 ### -param TypeInfo [in]
 
+## -remarks
+
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).

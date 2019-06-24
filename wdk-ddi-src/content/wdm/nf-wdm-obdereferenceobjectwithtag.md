@@ -54,12 +54,12 @@ The <b>ObDereferenceObjectWithTag</b> routine decrements the reference count of 
 
 
 
-### -param a [in]
+### -param Object [in]
 
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a> routine after it opens the object. 
 
 
-### -param t [in]
+### -param Tag [in]
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section. 
 
@@ -76,7 +76,7 @@ A kernel-mode driver calls this routine to decrement the reference count of an o
 
 When the reference count for an object reaches zero, a kernel-mode component can delete the object. However, a driver can delete only those objects that it created, and a driver should never attempt to delete any object that it did not create.
 
-An object is <i>permanent</i> if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>.) A permanent object is created with an initial reference count of one, so the object is not deleted when the driver removes its last reference to the object.
+An object is <i>permanent</i> if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with an initial reference count of one, so the object is not deleted when the driver removes its last reference to the object.
 
 To prepare a permanent object to be deleted, a driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> routine to make the object temporary. A driver should only delete a permanent object that it created. Use the following steps to delete a permanent object:
 
@@ -116,7 +116,7 @@ To view an object reference trace in the <a href="https://go.microsoft.com/fwlin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

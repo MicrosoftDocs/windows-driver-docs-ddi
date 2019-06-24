@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the hotplug configuration data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the hotplug configuration data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length

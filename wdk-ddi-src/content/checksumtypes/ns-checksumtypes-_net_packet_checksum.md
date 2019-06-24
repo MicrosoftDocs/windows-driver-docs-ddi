@@ -22,8 +22,8 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_CHECKSUM
-topictype: 
--	apiref
+topictype:
+-	APIRef
 apitype: 
 -	HeaderDef
 apilocation: 

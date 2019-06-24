@@ -87,17 +87,17 @@ The following code example is taken from the WpdMultiTransportDriver sample in t
 </tr>
 <tr>
 <td>
-<pre>  CComPtr&lt;IWDFFile&gt;   pFileObject;
+<pre>  CComPtr<IWDFFile>   pFileObject;
 
   ...
 
   // Get the Context map for this client
 
-  pRequest-&gt;GetFileObject(&amp;pFileObject);
+  pRequest->GetFileObject(&pFileObject);
 
   if (pFileObject != NULL)
   {
-      hr = pFileObject-&gt;RetrieveContext((void**)&amp;pClientContextMap);
+      hr = pFileObject->RetrieveContext((void**)&pClientContextMap);
       CHECK_HR(hr, "Failed to get Contextmap from WDF File Object");
   }
   </pre>

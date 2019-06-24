@@ -64,7 +64,7 @@ A handle to a framework driver object.
 
 ### -param SDDLString [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a Unicode string. This string is a Security Descriptor Definition Language (SDDL) representation of a security descriptor. For more information, see the following Remarks section.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that describes a Unicode string. This string is a Security Descriptor Definition Language (SDDL) representation of a security descriptor. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -105,7 +105,7 @@ WDF_OBJECT_ATTRIBUTES  objectAttribs;
 
 deviceInit = WdfControlDeviceInitAllocate(
                                           hDriver,
-                                          &amp;SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RW_RES_R
+                                          &SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RW_RES_R
                                           );
 if (deviceInit == NULL) {
     status = STATUS_INSUFFICIENT_RESOURCES;
@@ -113,7 +113,7 @@ if (deviceInit == NULL) {
 }
 status = WdfDeviceInitAssignName(
                                  deviceInit,
-                                 &amp;ntDeviceName
+                                 &ntDeviceName
                                  );
 if (!NT_SUCCESS(status)) {
     WdfDeviceInitFree(deviceInit);
@@ -125,12 +125,12 @@ WdfControlDeviceInitSetShutdownNotification(
                                             EvtShutdownNotification,
                                             WdfDeviceShutdown
                                             );
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;objectAttribs);
+WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);
 
 status = WdfDeviceCreate(
-                         &amp;deviceInit,
-                         &amp;objectAttribs,
-                         &amp;controlDevice
+                         &deviceInit,
+                         &objectAttribs,
+                         &controlDevice
                          );
 if (!NT_SUCCESS(status)) {
     WdfDeviceInitFree(deviceInit);

@@ -85,7 +85,7 @@ The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> me
 
 <div class="alert"><b>Note</b>  If the source string is longer than MAXUSHORT - 1 bytes, <b>RtlInitString</b> sets the <b>Length</b> member of the <b>STRING</b> structure pointed to by <i>DestinationString</i> to MAXUSHORT - 1, and sets the <b>MaximumLength</b> member of this structure to MAXUSHORT.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div>
 <div> </div>
-Callers of <b>RtlInitString</b> can be running at IRQL &lt;= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL &gt; PASSIVE_LEVEL.
+Callers of <b>RtlInitString</b> can be running at IRQL <= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL > PASSIVE_LEVEL.
 
 The <b>RTL_CONSTANT_STRING</b> macro creates a string or Unicode string structure to hold a counted string.
 

@@ -42,37 +42,16 @@ req.typenames:
 
 # wiauDbgInit macro
 
-
 ## -description
 
-
-The <b>wiauDbgInit</b> function initializes WIA debugging.
-
+The **wiauDbgInit** function initializes WIA debugging.
 
 ## -parameters
 
-
-
-
 ### -param a
 
-
-
-
-
-
-
-
-#### - hInstance [in, optional]
-
-Is the handle to the DLL instance.
-
+- **hInstance [in, optional]** - Is the handle to the DLL instance.
 
 ## -remarks
 
-
-
-If the <b>wiauDbgInit</b> function not called, all DLLs loaded by a process inherit the debug flags of that process. 
-
-
-
+If the **wiauDbgInit** function not called, all DLLs loaded by a process inherit the debug flags of that process.

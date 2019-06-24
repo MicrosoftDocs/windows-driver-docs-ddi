@@ -81,7 +81,7 @@ The entire range specified by <i>Address</i> and <i>Length</i> must reside withi
 
 For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
 
-Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL &lt; DISPATCH_LEVEL for pageable addresses, and IRQL &lt;= DISPATCH_LEVEL for nonpageable addresses.
+Callers of <b>MmSetAddressRangeModified</b> must be running at IRQL < DISPATCH_LEVEL for pageable addresses, and IRQL <= DISPATCH_LEVEL for nonpageable addresses.
 
 
 

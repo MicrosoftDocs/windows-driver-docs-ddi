@@ -188,7 +188,7 @@ The following example code fragment shows how to access the extended data for th
     PSTORAGE_REQUEST_BLOCK SrbEx = (PSTORAGE_REQUEST_BLOCK)Srb;
     PSRBEX_DATA SrbExData = NULL;
 
-    function = (SrbEx-&gt;Function == SRB_FUNCTION_STORAGE_REQUEST_BLOCK) ? SrbEx-&gt;SrbFunction : Srb-&gt;Function;
+    function = (SrbEx->Function == SRB_FUNCTION_STORAGE_REQUEST_BLOCK) ? SrbEx->SrbFunction : Srb->Function;
 
     switch (function)
     {
@@ -197,16 +197,16 @@ The following example code fragment shows how to access the extended data for th
             STOR_PNP_ACTION PnpAction;
             BOOLEAN ForAdapter;
 
-            if (SrbEx-&gt;Function == SRB_FUNCTION_STORAGE_REQUEST_BLOCK)
+            if (SrbEx->Function == SRB_FUNCTION_STORAGE_REQUEST_BLOCK)
             {
                 PSRBEX_DATA_PNP SrbExDataPnp = NULL;
 
-                SrbExData = (PSRBEX_DATA) ((PUCHAR)SrbEx + SrbEx-&gt;SrbExDataOffset[0]);
-                if (SrbExData-&gt;Type == SrbExDataTypePnp)
+                SrbExData = (PSRBEX_DATA) ((PUCHAR)SrbEx + SrbEx->SrbExDataOffset[0]);
+                if (SrbExData->Type == SrbExDataTypePnp)
                 {
                     SrbExDataPnp = (PSRBEX_DATA_PNP) SrbExData;
-                    ForAdapter = (SrbExDataPnp-&gt;SrbPnPFlags == SRB_PNP_FLAGS_ADAPTER_REQUEST);
-                    PnpAction = SrbExDataPnp-&gt;PnPAction;
+                    ForAdapter = (SrbExDataPnp->SrbPnPFlags == SRB_PNP_FLAGS_ADAPTER_REQUEST);
+                    PnpAction = SrbExDataPnp->PnPAction;
                 }
                 else
                 {
@@ -218,8 +218,8 @@ The following example code fragment shows how to access the extended data for th
             {
                 PSCSI_PNP_REQUEST_BLOCK PnpSrb = (PSCSI_PNP_REQUEST_BLOCK)Srb;
 
-                ForAdapter = (PnpSrb-&gt;SrbPnPFlags == SRB_PNP_FLAGS_ADAPTER_REQUEST);
-                PnpAction = PnpSrb-&gt;PnPAction;
+                ForAdapter = (PnpSrb->SrbPnPFlags == SRB_PNP_FLAGS_ADAPTER_REQUEST);
+                PnpAction = PnpSrb->PnPAction;
            }
 
            if (ForAdapter)
@@ -230,11 +230,11 @@ The following example code fragment shows how to access the extended data for th
                        //
                        // ...
                        //
-                       Srb-&gt;SrbStatus = SRB_STATUS_SUCCESS;
+                       Srb->SrbStatus = SRB_STATUS_SUCCESS;
                        break;
 
                    default:
-                       Srb-&gt;SrbStatus = SRB_STATUS_INVALID_REQUEST;
+                       Srb->SrbStatus = SRB_STATUS_INVALID_REQUEST;
                        result = FALSE;
                        break:
             }

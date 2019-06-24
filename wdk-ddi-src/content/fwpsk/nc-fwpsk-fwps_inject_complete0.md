@@ -80,7 +80,7 @@ A value that indicates the IRQL at which the
      <i>completionFn</i> callout function is being called. If this parameter is <b>TRUE</b>, the 
      <i>completionFn</i> callout function is being called at IRQL = DISPATCH_LEVEL. If this parameter is
      <b>FALSE</b>, the 
-     <i>completionFn</i> callout function is being called at an IRQL &lt; DISPATCH_LEVEL.
+     <i>completionFn</i> callout function is being called at an IRQL < DISPATCH_LEVEL.
 
 
 ## -returns
@@ -130,7 +130,7 @@ If the
     free the currently indicated <b>NET_BUFFER_LIST</b>.
 
 The filter engine calls a callout's 
-    <i>completionFn</i> callout function at IRQL &lt;= DISPATCH_LEVEL.
+    <i>completionFn</i> callout function at IRQL <= DISPATCH_LEVEL.
 
 
 

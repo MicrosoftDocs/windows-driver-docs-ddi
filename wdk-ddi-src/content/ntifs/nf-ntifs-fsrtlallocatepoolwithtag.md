@@ -90,7 +90,7 @@ The system associates the pool tag specified by the <i>Tag</i> parameter with th
 
 For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
 
-Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>XxxPoolType</i>. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
+Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must specify a <b>NonPaged</b><i>XxxPoolType</i>. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
 
 

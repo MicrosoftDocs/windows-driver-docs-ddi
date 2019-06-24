@@ -101,8 +101,8 @@ WDF_IO_TARGET_OPEN_PARAMS  openParams;
 //
 // Create target
 //
-WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;ioTargetAttrib, TARGET_DEVICE_INFO);
-status = WdfIoTargetCreate(device, &amp;ioTargetAttrib, &amp;ioTarget);
+WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&ioTargetAttrib, TARGET_DEVICE_INFO);
+status = WdfIoTargetCreate(device, &ioTargetAttrib, &ioTarget);
 if (!NT_SUCCESS(status)) {
     return status;
 }
@@ -110,8 +110,8 @@ if (!NT_SUCCESS(status)) {
 //
 // Open target
 //
-WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(&amp;openParams, NULL);
-status = WdfIoTargetOpen(ioTarget, &amp;openParams);
+WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE(&openParams, NULL);
+status = WdfIoTargetOpen(ioTarget, &openParams);
 if (!NT_SUCCESS(status)) {
     WdfObjectDelete(ioTarget);
     return status;

@@ -123,7 +123,7 @@ When the DMA engine resumes transfers, the hardware should reload the DMA descri
     last to get the new next descriptor.
 
 NetDMA calls 
-    <i>ProviderResumeDma</i> at IRQL &lt;= DISPATCH_LEVEL.
+    <i>ProviderResumeDma</i> at IRQL <= DISPATCH_LEVEL.
 
 
 

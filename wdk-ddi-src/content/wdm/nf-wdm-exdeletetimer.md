@@ -94,7 +94,7 @@ If <i>Cancel</i> is <b>TRUE</b>, a return value of <b>FALSE</b> indicates that t
 
 This routine can block if <i>Wait</i> is <b>TRUE</b>. If <b>ExDeleteTimer</b> is called from the driver's <i>ExTimerCallback</i> routine, which is called at DISPATCH_LEVEL, the <i>Wait</i> parameter in this call must be <b>FALSE</b>.
 
-If <i>Wait</i> is <b>TRUE</b>, the routine must be called at IRQL &lt;= APC_LEVEL. If <i>Wait</i> is <b>FALSE</b>, the routine can be called at IRQL &lt;= DISPATCH_LEVEL.
+If <i>Wait</i> is <b>TRUE</b>, the routine must be called at IRQL <= APC_LEVEL. If <i>Wait</i> is <b>FALSE</b>, the routine can be called at IRQL <= DISPATCH_LEVEL.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265175">Deleting a System-Allocated Timer Object</a>.
 

@@ -93,7 +93,7 @@ For more information about dispatch routines, see <a href="https://msdn.microsof
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 </td>
 <td>
-A driver's <i>DispatchCleanup</i> routine should be named <i>Xxx</i>DispatchCleanup, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCleanup</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CLEANUP].
+A driver's <i>DispatchCleanup</i> routine should be named <i>Xxx</i>DispatchCleanup, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCleanup</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLEANUP].
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ A driver's <i>DispatchCleanup</i> routine should be named <i>Xxx</i>DispatchClea
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 </td>
 <td>
-A driver's <i>DispatchClose</i> routine should be named <b><i>Xxx</i>DispatchClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchClose</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CLOSE].
+A driver's <i>DispatchClose</i> routine should be named <b><i>Xxx</i>DispatchClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchClose</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLOSE].
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ A driver's <i>DispatchClose</i> routine should be named <b><i>Xxx</i>DispatchClo
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 </td>
 <td>
-A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreate, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreate</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CREATE].
+A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreate, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreate</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CREATE].
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreat
 <td>
 A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
 
-A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CLOSE].
+A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLOSE].
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>Dispa
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 </td>
 <td>
-A driver's <i>DispatchDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchDeviceControl</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_DEVICE_CONTROL].
+A driver's <i>DispatchDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchDeviceControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_DEVICE_CONTROL].
 
 The system uses the FILE_<i>XXX</i> flags in the I/O control code to determine whether the IRP sender has the privileges to send the IRP to the device object. Drivers for Windows Server 2003 and later versions of Windows can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550418">IoValidateDeviceIoControlAccess</a> routine to perform stricter access checks within <i>DispatchDeviceControl</i>.
 
@@ -142,7 +142,7 @@ The system uses the FILE_<i>XXX</i> flags in the I/O control code to determine w
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
 </td>
 <td>
-A driver's <i>DispatchFlushBuffers</i> routine should be named <i>Xxx</i>DispatchFlushBuffers, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchFlushBuffers</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_FLUSH_BUFFERS].
+A driver's <i>DispatchFlushBuffers</i> routine should be named <i>Xxx</i>DispatchFlushBuffers, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchFlushBuffers</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_FLUSH_BUFFERS].
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ A driver's <i>DispatchFlushBuffers</i> routine should be named <i>Xxx</i>Dispatc
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 </td>
 <td>
-A driver's <i>DispatchInternalDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchInternalDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchInternalDeviceControl</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_INTERNAL_DEVICE_CONTROL</b>].
+A driver's <i>DispatchInternalDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchInternalDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchInternalDeviceControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_INTERNAL_DEVICE_CONTROL</b>].
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ A driver's <i>DispatchInternalDeviceControl</i> routine should be named <b><i>Xx
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549268">IRP_MJ_PNP</a>
 </td>
 <td>
-A driver's <i>DispatchPnP</i> routine should be named <i>Xxx</i>DispatchPnP, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchPnP</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_PNP].
+A driver's <i>DispatchPnP</i> routine should be named <i>Xxx</i>DispatchPnP, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchPnP</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_PNP].
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ A driver's <i>DispatchPnP</i> routine should be named <i>Xxx</i>DispatchPnP, whe
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>
 </td>
 <td>
-A driver's <i>DispatchPower</i> routine should be named <b><i>Xxx</i>DispatchPower</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchPower</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_POWER</b>].
+A driver's <i>DispatchPower</i> routine should be named <b><i>Xxx</i>DispatchPower</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchPower</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_POWER</b>].
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ A driver's <i>DispatchPower</i> routine should be named <b><i>Xxx</i>DispatchPow
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 </td>
 <td>
-A driver's <i>DispatchQueryInformation</i> routine should be named <b><i>Xxx</i>DispatchQueryInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchQueryInformation</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_QUERY_INFORMATION].
+A driver's <i>DispatchQueryInformation</i> routine should be named <b><i>Xxx</i>DispatchQueryInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchQueryInformation</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_QUERY_INFORMATION].
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ A driver's <i>DispatchQueryInformation</i> routine should be named <b><i>Xxx</i>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 </td>
 <td>
-A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchRead</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_READ].
+A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchRead</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_READ].
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead
 <td>
 A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
 
-A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
+A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>Dispatc
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
 </td>
 <td>
-A driver's <i>DispatchSetInformation</i> routine should be named <b><i>Xxx</i>DispatchSetInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchSetInformation</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_SET_INFORMATION].
+A driver's <i>DispatchSetInformation</i> routine should be named <b><i>Xxx</i>DispatchSetInformation</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchSetInformation</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SET_INFORMATION].
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ A driver's <i>DispatchSetInformation</i> routine should be named <b><i>Xxx</i>Di
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a>
 </td>
 <td>
-A driver's <i>DispatchShutdown</i> routine should be named <b><i>Xxx</i>DispatchShutdown</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchShutdown</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_SHUTDOWN].
+A driver's <i>DispatchShutdown</i> routine should be named <b><i>Xxx</i>DispatchShutdown</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchShutdown</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SHUTDOWN].
 
 Additionally, in order to receive <b>IRP_MJ_SHUTDOWN</b> requests, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549541">IoRegisterShutdownNotification</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549518">IoRegisterLastChanceShutdownNotification</a> to register its <i>DispatchShutdown</i> routine with the system.
 
@@ -227,7 +227,7 @@ Additionally, in order to receive <b>IRP_MJ_SHUTDOWN</b> requests, a driver must
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550813">IRP_MJ_SYSTEM_CONTROL</a>
 </td>
 <td>
-A driver's <i>DispatchSystemControl</i> routine should be named <b><i>Xxx</i>DispatchSystemControl</b>, where <b><i>Xxx</i></b> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchSystemControl</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_SYSTEM_CONTROL].
+A driver's <i>DispatchSystemControl</i> routine should be named <b><i>Xxx</i>DispatchSystemControl</b>, where <b><i>Xxx</i></b> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchSystemControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SYSTEM_CONTROL].
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ A driver's <i>DispatchSystemControl</i> routine should be named <b><i>Xxx</i>Dis
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 </td>
 <td>
-A driver's <i>DispatchWrite</i> routine should be named <b><i>Xxx</i>DispatchWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchWrite</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_WRITE].
+A driver's <i>DispatchWrite</i> routine should be named <b><i>Xxx</i>DispatchWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchWrite</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_WRITE].
 
 </td>
 </tr>

@@ -128,7 +128,7 @@ status = WdfRequestCreateFromIrp(
                                  WDF_NO_OBJECT_ATTRIBUTES,
                                  irp,
                                  TRUE,
-                                 &amp;request
+                                 &request
                                  );
 ...
 //Deletion
@@ -155,22 +155,22 @@ status = WdfRequestCreateFromIrp(
                                  WDF_NO_OBJECT_ATTRIBUTES,
                                  irp,
                                  FALSE,
-                                 &amp;request
+                                 &request
                                  );
 ...
 //Deletion
 WDF_REQUEST_REUSE_PARAMS_INIT(
-                              &amp;params,
+                              &params,
                               WDF_REQUEST_REUSE_NO_FLAGS,
                               STATUS_SUCCESS
                               );
 WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP(
-                                     &amp;params,
+                                     &params,
                                      NULL
                                      );
 status = WdfRequestReuse(
                          request,
-                         &amp;params
+                         &params
                          );
 ASSERT(NT_SUCCESS(status));
 IoFreeIrp(irp);

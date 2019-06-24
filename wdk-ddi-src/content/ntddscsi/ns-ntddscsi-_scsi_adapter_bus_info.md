@@ -92,25 +92,25 @@ PrintInquiryData(PCHAR  DataBuffer)
     ULONG i, j;
 
     adapterInfo = (PSCSI_ADAPTER_BUS_INFO) DataBuffer;
-    for (i = 0; i &lt; adapterInfo-&gt;NumberOfBuses; i++) {
+    for (i = 0; i < adapterInfo->NumberOfBuses; i++) {
        inquiryData = (PSCSI_INQUIRY_DATA) (DataBuffer +
-          adapterInfo-&gt;BusData[i].InquiryDataOffset);
-       while (adapterInfo-&gt;BusData[i].InquiryDataOffset) {
+          adapterInfo->BusData[i].InquiryDataOffset);
+       while (adapterInfo->BusData[i].InquiryDataOffset) {
           printf(" %d   %d  %3d    %s    %.28s ",
              i,
-             inquiryData-&gt;TargetId,
-             inquiryData-&gt;Lun,
-             (inquiryData-&gt;DeviceClaimed) ? "Y" : "N",
-             &amp;inquiryData-&gt;InquiryData[8]);
-          for (j = 0; j &lt; 8; j++) {
-             printf("%02X ", inquiryData-&gt;InquiryData[j]);
+             inquiryData->TargetId,
+             inquiryData->Lun,
+             (inquiryData->DeviceClaimed) ? "Y" : "N",
+             &inquiryData->InquiryData[8]);
+          for (j = 0; j < 8; j++) {
+             printf("%02X ", inquiryData->InquiryData[j]);
           }
           printf("\n");
-          if (inquiryData-&gt;NextInquiryDataOffset == 0) {
+          if (inquiryData->NextInquiryDataOffset == 0) {
              break;
           }
           inquiryData = (PSCSI_INQUIRY_DATA) (DataBuffer +
-             inquiryData-&gt;NextInquiryDataOffset);
+             inquiryData->NextInquiryDataOffset);
        }
     }
     printf("\n\n");

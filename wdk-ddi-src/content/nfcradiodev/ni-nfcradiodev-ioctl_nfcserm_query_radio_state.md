@@ -96,7 +96,7 @@ sizeof(NFCRM_RADIO_STATE)
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
 
 <table>
 <tr>

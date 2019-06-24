@@ -66,7 +66,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ### -param ValueLength [in]
@@ -208,18 +208,18 @@ status = WdfDeviceOpenRegistryKey(
                                   PLUGPLAY_REGKEY_DEVICE,
                                   KEY_QUERY_VALUE,
                                   NULL, 
-                                  &amp;hKey
+                                  &hKey
                                   );
 if (!NT_SUCCESS (status)) {
     goto Error;
 }
 status = WdfRegistryQueryValue(
                                hKey,
-                               &amp;valueName,
+                               &valueName,
                                sizeof(ULONG),
-                               &amp;value,
-                               &amp;length,
-                               &amp;valueType
+                               &value,
+                               &length,
+                               &valueType
                                );</pre>
 </td>
 </tr>
@@ -236,7 +236,7 @@ status = WdfRegistryQueryValue(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
 
 
 

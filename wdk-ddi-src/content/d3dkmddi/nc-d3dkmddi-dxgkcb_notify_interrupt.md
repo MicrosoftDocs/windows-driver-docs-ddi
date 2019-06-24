@@ -103,30 +103,30 @@ BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
     DXGKCB_NOTIFY_INTERRUPT  DxgkCbNotifyInterrupt;
     DXGKARGCB_NOTIFY_INTERRUPT_DATA  notifyInt = {0};
 
-    DxgkCbNotifyInterrupt = (DXGKCB_NOTIFY_INTERRUPT)pSchNotifyParams-&gt;pHwDeviceExtension-&gt;pVidSchINTCB;
+    DxgkCbNotifyInterrupt = (DXGKCB_NOTIFY_INTERRUPT)pSchNotifyParams->pHwDeviceExtension->pVidSchINTCB;
 
     if(!DxgkCbNotifyInterrupt) {
         return FALSE;
     }
 
-    if(pSchNotifyParams-&gt;PreemptionFenceID) {
+    if(pSchNotifyParams->PreemptionFenceID) {
         notifyInt.InterruptType = DXGK_INTERRUPT_DMA_PREEMPTED;
-        notifyInt.DmaPreempted.PreemptionFenceId = pSchNotifyParams-&gt;PreemptionFenceID;
-        notifyInt.DmaPreempted.LastCompletedFenceId = pSchNotifyParams-&gt;FenceID;
-        notifyInt.DmaPreempted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+        notifyInt.DmaPreempted.PreemptionFenceId = pSchNotifyParams->PreemptionFenceID;
+        notifyInt.DmaPreempted.LastCompletedFenceId = pSchNotifyParams->FenceID;
+        notifyInt.DmaPreempted.NodeOrdinal = pSchNotifyParams->NodeOrdinal;
     }
     else {
         notifyInt.InterruptType = DXGK_INTERRUPT_DMA_COMPLETED;
-        notifyInt.DmaCompleted.SubmissionFenceId = pSchNotifyParams-&gt;FenceID;
-        notifyInt.DmaCompleted.NodeOrdinal = pSchNotifyParams-&gt;NodeOrdinal;
+        notifyInt.DmaCompleted.SubmissionFenceId = pSchNotifyParams->FenceID;
+        notifyInt.DmaCompleted.NodeOrdinal = pSchNotifyParams->NodeOrdinal;
     }
 
-    DxgkCbNotifyInterrupt(pSchNotifyParams-&gt;pHwDeviceExtension-&gt;DeviceHandle, &amp;notifyInt);
+    DxgkCbNotifyInterrupt(pSchNotifyParams->pHwDeviceExtension->DeviceHandle, &notifyInt);
 
-    pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevSubmitFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;FenceID;
+    pSchNotifyParams->pHwDeviceExtension->PrevSubmitFenceIDArray[pSchNotifyParams->NodeOrdinal] = pSchNotifyParams->FenceID;
 
-    if(pSchNotifyParams-&gt;PreemptionFenceID) {
-        pSchNotifyParams-&gt;pHwDeviceExtension-&gt;PrevPreemptFenceIDArray[pSchNotifyParams-&gt;NodeOrdinal] = pSchNotifyParams-&gt;PreemptionFenceID;
+    if(pSchNotifyParams->PreemptionFenceID) {
+        pSchNotifyParams->pHwDeviceExtension->PrevPreemptFenceIDArray[pSchNotifyParams->NodeOrdinal] = pSchNotifyParams->PreemptionFenceID;
     }
 
     return TRUE;

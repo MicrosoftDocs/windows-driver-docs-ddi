@@ -54,7 +54,7 @@ The <b>ObDereferenceObject</b> routine decrements the given object's reference c
 
 
 
-### -param a [in]
+### -param Object [in]
 
 Pointer to the object's body. 
 
@@ -70,7 +70,7 @@ Pointer to the object's body.
 
 A driver can delete a temporary object it created by decreasing its reference count to zero. A driver must never attempt to delete an object it did not create.
 
-An object is permanent if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of one, so it is not deleted when the driver dereferences it. A driver can only delete a permanent object it created by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> routine to make it temporary. Use the following steps to delete a permanent object that you created:
+An object is permanent if it was created with the OBJ_PERMANENT object attribute flag specified. (For more information about object attributes, see <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>.) A permanent object is created with a reference count of one, so it is not deleted when the driver dereferences it. A driver can only delete a permanent object it created by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> routine to make it temporary. Use the following steps to delete a permanent object that you created:
 
 <ol>
 <li>
@@ -101,7 +101,7 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwCl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

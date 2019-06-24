@@ -77,7 +77,7 @@ A union that contains the value of the given named entry. If ParameterType is a 
       member is an NDIS_STRING type describing a counted string in the system-default character set. For
       Microsoft Windows 2000 and later drivers, such a string contains Unicode characters. That is, for
       Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
+      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 This union contains the following members:
 
@@ -146,7 +146,7 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

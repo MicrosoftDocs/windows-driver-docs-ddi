@@ -79,7 +79,7 @@ A pointer to a data structure that contains the input data and/or result data fo
 
 This routine is implemented by the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
 
-A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
+A PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 

@@ -99,14 +99,14 @@ The following code example initializes a WDF_FDO_EVENT_CALLBACKS structure and t
 <td>
 <pre>WDF_FDO_EVENT_CALLBACKS fdoCallbacks;
 
-WDF_FDO_EVENT_CALLBACKS_INIT(&amp;fdoCallbacks);
+WDF_FDO_EVENT_CALLBACKS_INIT(&fdoCallbacks);
 fdoCallbacks.EvtDeviceFilterAddResourceRequirements = MyEvtDeviceFilterAddResourceRequirements;
 fdoCallbacks.EvtDeviceFilterRemoveResourceRequirements = MyEvtDeviceFilterRemoveResourceRequirements;
 fdoCallbacks.EvtDeviceRemoveAddedResources = MyEvtDeviceRemoveAddedResources;
 
 WdfFdoInitSetEventCallbacks(
                             DeviceInit,
-                            &amp;fdoCallbacks
+                            &fdoCallbacks
                             );</pre>
 </td>
 </tr>

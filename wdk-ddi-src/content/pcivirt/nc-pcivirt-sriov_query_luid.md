@@ -121,7 +121,7 @@ Virtualization_QueryLuid (
     PAGED_CODE();
 
     deviceContext = (PDEVICE_CONTEXT)Context;
-    *Luid = deviceContext-&gt;Luid;
+    *Luid = deviceContext->Luid;
 
     return STATUS_SUCCESS;
 }

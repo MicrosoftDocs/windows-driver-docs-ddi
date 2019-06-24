@@ -42,91 +42,40 @@ req.typenames:
 
 # WIAS_LWARNING macro
 
-
 ## -description
-
 
 The WIAS_LWARNING macro is obsolete for Windows Vista and later.
 
 The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
-
 ## -parameters
-
-
-
 
 ### -param x
 
-
-
-
 ### -param y
-
-
-
 
 ### -param params
 
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwialog).
 
+- **lResId** - Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
-
-
-
-
-
-####### - format_string, ...
-
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
-
-
-#### - lResId
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
-#### - pIWiaLog
-
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543935">IWiaLog Interface</a>.
-
+- **format_string, ...** - Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 ## -remarks
 
-
-
 The following is an example of how the macro can be used:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WIAS_LWARNING(g_pIWiaLog, WIALOG_NO_RESOURCE_ID,
-  ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WIAS_LWARNING(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
+```
+  
 Please note that it does not write to the new log file used in Windows Vista and later.
-
-
-
 
 ## -see-also
 
+[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror)
 
+[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lhresult)
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549589">WIAS_LHRESULT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a>
- 
-
- 
-
+[WIAS_LTRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_ltrace)

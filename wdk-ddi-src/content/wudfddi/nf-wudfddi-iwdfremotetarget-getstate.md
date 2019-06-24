@@ -84,7 +84,7 @@ The following code example determines whether a remote I/O target is closed.
 </tr>
 <tr>
 <td>
-<pre>if (FxRemoteTarget-&gt;GetState() == WdfIoTargetClosed)
+<pre>if (FxRemoteTarget->GetState() == WdfIoTargetClosed)
 {
 ...
 }</pre>

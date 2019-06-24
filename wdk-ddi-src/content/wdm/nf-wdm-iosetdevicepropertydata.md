@@ -108,7 +108,7 @@ A pointer to the device property data. Set this parameter to <b>NULL</b> to dele
 
 ## -remarks
 
-
+To see property types available for use by this routine, see [DEVPROP_TYPE_BYTE](https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-byte) and adjacent pages for `DEVPROP_TYPE_*`.
 
 Kernel-mode drivers use the <b>IoSetDevicePropertyData</b> routine to modify device properties that are defined as part of the unified device property model. For more information about device properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
@@ -124,7 +124,7 @@ Beginning with Windows 8 and Windows Server 2012 passing <b>LOCALE_NEUTRAL</b>
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a> routine to obtain the current value for a device property.
 
-Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
+Callers of <b>IoSetDeviceProperty</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
 
 

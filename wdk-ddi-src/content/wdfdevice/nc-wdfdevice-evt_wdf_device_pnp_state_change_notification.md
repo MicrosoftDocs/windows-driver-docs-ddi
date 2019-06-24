@@ -48,6 +48,9 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
+>[!NOTE]
+>This callback function is for Microsoft-internal use only.
+
 A driver's <i>EvtDevicePnpStateChange</i> event callback function informs the driver that a device's Plug and Play (PnP) state machine is moving from one state to another.
 
 
@@ -81,7 +84,7 @@ None
 
 To register an <i>EvtDevicePnpStateChange</i> callback function, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546057">WdfDeviceInitRegisterPnpStateChangeCallback</a>.
 
-Most drivers do not need to be notified when the framework's PnP state machine changes state. For more information about the framework's PnP state machine, see <a href="https://msdn.microsoft.com/5ef307c6-0310-4a83-a63f-3a6d96782013">State Machines in the Framework</a>.
+For more information about the framework's PnP state machine, see <a href="https://msdn.microsoft.com/5ef307c6-0310-4a83-a63f-3a6d96782013">State Machines in the Framework</a>.
 
 
 #### Examples

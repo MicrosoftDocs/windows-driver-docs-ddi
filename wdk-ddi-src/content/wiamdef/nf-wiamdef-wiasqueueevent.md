@@ -91,7 +91,7 @@ This method should be used whenever the device must signal that an event of some
 <tr>
 <td>
 <pre>hr = wiasQueueEvent(bstrMyDeviceId,
-                    &amp;WIA_EVENT_ITEM_CREATED,
+                    &WIA_EVENT_ITEM_CREATED,
                     bstrDescriptionString);</pre>
 </td>
 </tr>

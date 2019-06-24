@@ -156,7 +156,7 @@ PdoEvtDeviceResourcesQuery(
 
     status = WdfCmResourceListAppendDescriptor(
                                                Resources,
-                                               &amp;newDescriptor
+                                               &newDescriptor
                                                );
 ...
 

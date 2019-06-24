@@ -131,7 +131,7 @@ The client creates a context for each VC that it manages. The client uses
     <b>NdisClGetProtocolVcContextFromTapiCallId</b> to get back the correct context for the VC.
 
 See the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure for more
+    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure for more
     information.
 
 
@@ -150,7 +150,7 @@ See the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

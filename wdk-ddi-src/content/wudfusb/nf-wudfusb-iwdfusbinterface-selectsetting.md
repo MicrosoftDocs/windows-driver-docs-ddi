@@ -126,7 +126,7 @@ For more info <a href="https://msdn.microsoft.com/library/windows/hardware/ff539
 #### Examples
 
 <pre class="syntax" xml:space="preserve"><code>
-hr = pIWDFUsbInterface-&gt;SelectSetting(SettingNumber);</code></pre>
+hr = pIWDFUsbInterface->SelectSetting(SettingNumber);</code></pre>
 
 
 

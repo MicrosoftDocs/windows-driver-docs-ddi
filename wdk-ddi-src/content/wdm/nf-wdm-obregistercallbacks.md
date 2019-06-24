@@ -94,7 +94,7 @@ The specified callback routines are registered with the system.
 </dl>
 </td>
 <td width="60%">
-The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-&gt;<b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a>.
+The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-><b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a>.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The calling driver or another driver has already registered callback routines fo
 </dl>
 </td>
 <td width="60%">
-One or more of the parameters that were specified in the registration was invalid. <b>ObRegisterCallbacks</b> might return this error, for example, if an invalid value for <i>CallBackRegistration</i>-&gt;<b>Version</b> is specified or if registration is attempted for object types that do not support callback routines.
+One or more of the parameters that were specified in the registration was invalid. <b>ObRegisterCallbacks</b> might return this error, for example, if an invalid value for <i>CallBackRegistration</i>-><b>Version</b> is specified or if registration is attempted for object types that do not support callback routines.
 
 </td>
 </tr>

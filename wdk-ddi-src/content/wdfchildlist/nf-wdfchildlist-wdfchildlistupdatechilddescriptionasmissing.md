@@ -149,14 +149,14 @@ The following code example informs the framework that a child device with a spec
 NTSTATUS  status;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
-                                                 &amp;description.Header,
+                                                 &description.Header,
                                                  sizeof(description)
                                                  );
 
 description.SerialNo = SerialNo;
 status = WdfChildListUpdateChildDescriptionAsMissing(
                                                      list,
-                                                     &amp;description.Header
+                                                     &description.Header
                                                      );</pre>
 </td>
 </tr>

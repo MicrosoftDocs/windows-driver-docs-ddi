@@ -104,7 +104,7 @@ CMyRemoteTarget::OnRemoteTargetRemoveComplete(
     //
     // Close the target.
     //
-    FxTarget-&gt;Close();
+    FxTarget->Close();
 }</pre>
 </td>
 </tr>

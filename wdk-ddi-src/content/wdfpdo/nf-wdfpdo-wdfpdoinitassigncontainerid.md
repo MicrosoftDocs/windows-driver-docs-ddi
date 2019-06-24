@@ -64,7 +64,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param ContainerID [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a container ID string. The driver can allocate the string's buffer from paged pool.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a container ID string. The driver can allocate the string's buffer from paged pool.
 
 
 ## -returns
@@ -119,7 +119,7 @@ The driver must call <b>WdfPdoInitAssignContainerID</b> before calling <a href="
 
 #### Examples
 
-The following code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure, stores a Unicode string in the structure, and then registers the Unicode string as the device's container ID.
+The following code example initializes a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, stores a Unicode string in the structure, and then registers the Unicode string as the device's container ID.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -130,12 +130,12 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>UNICODE_STRING containerId = {0}; 
 
 RtlInitUnicodeString(
-                     &amp;containerId,
+                     &containerId,
                      strContainerId //Unicode string for container ID
                      );
 status = WdfPdoInitAssignContainerID(
                                      pDeviceInit,
-                                     &amp;containerId
+                                     &containerId
                                      );</pre>
 </td>
 </tr>

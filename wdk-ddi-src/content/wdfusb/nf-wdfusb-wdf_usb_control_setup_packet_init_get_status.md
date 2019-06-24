@@ -108,7 +108,7 @@ Sets the <b>Packet.wValue.Value</b> member to zero.
 
 </li>
 <li>
-Sets the <b>Packet-&gt;Packet.wIndex.Value</b> member to the <i>Index</i> argument.
+Sets the <b>Packet->Packet.wIndex.Value</b> member to the <i>Index</i> argument.
 
 </li>
 </ol>
@@ -158,7 +158,7 @@ The following code example  initializes a <a href="https://msdn.microsoft.com/li
 <pre>WDF_USB_CONTROL_SETUP_PACKET  packet;
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS(
-                                             &amp;packet,
+                                             &packet,
                                              BmRequestToDevice,
                                              0
                                              );</pre>

@@ -623,11 +623,11 @@ If the escape code supplied in the <i>iEsc</i> parameter is DOCUMENTEVENT_CREATE
 
 <ul>
 <li>
-If the job is being sent directly to the printer without spooling, <i>pvIn</i> --&gt; pszDevice points to the printer name. (See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547612">DOCEVENT_CREATEDCPRE</a> structure for more information.)
+If the job is being sent directly to the printer without spooling, <i>pvIn</i> --> pszDevice points to the printer name. (See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547612">DOCEVENT_CREATEDCPRE</a> structure for more information.)
 
 </li>
 <li>
-If the job is being spooled, <i>pvIn</i> --&gt; pszDevice points to the printer port name.
+If the job is being spooled, <i>pvIn</i> --> pszDevice points to the printer port name.
 
 </li>
 </ul>

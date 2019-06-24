@@ -116,37 +116,37 @@ Arguments:
     WdfDevice = (WDFDEVICE) AssociatedObject;
     ControllerContext = DeviceGetControllerContext(WdfDevice);
 
-    WdfSpinLockAcquire(ControllerContext-&gt;DpcLock);
+    WdfSpinLockAcquire(ControllerContext->DpcLock);
 
-    WdfInterruptAcquireLock(ControllerContext-&gt;DeviceInterrupt);
-    Attached = ControllerContext-&gt;Attached;
-    GotAttachOrDetach = ControllerContext-&gt;GotAttachOrDetach;
-    ControllerContext-&gt;GotAttachOrDetach = FALSE;
-    WdfInterruptReleaseLock(ControllerContext-&gt;DeviceInterrupt);
+    WdfInterruptAcquireLock(ControllerContext->DeviceInterrupt);
+    Attached = ControllerContext->Attached;
+    GotAttachOrDetach = ControllerContext->GotAttachOrDetach;
+    ControllerContext->GotAttachOrDetach = FALSE;
+    WdfInterruptReleaseLock(ControllerContext->DeviceInterrupt);
 
     //
     // Handle attach/detach events
     //
     if (GotAttachOrDetach) {
-        if (Attached &amp;&amp; ControllerContext-&gt;WasAttached) {
+        if (Attached && ControllerContext->WasAttached) {
             //
             // We must have gotten at least one detach. Need to reset the state.
             //        
-            ControllerContext-&gt;RemoteWakeupRequested = FALSE;
-            ControllerContext-&gt;Suspended = FALSE;
-            UfxDeviceNotifyDetach(ControllerContext-&gt;UfxDevice);
+            ControllerContext->RemoteWakeupRequested = FALSE;
+            ControllerContext->Suspended = FALSE;
+            UfxDeviceNotifyDetach(ControllerContext->UfxDevice);
         }
 
         if (Attached) {
-            ControllerContext-&gt;RemoteWakeupRequested = FALSE;
-            ControllerContext-&gt;Suspended = FALSE;
-            UfxDeviceNotifyAttach(ControllerContext-&gt;UfxDevice);
+            ControllerContext->RemoteWakeupRequested = FALSE;
+            ControllerContext->Suspended = FALSE;
+            UfxDeviceNotifyAttach(ControllerContext->UfxDevice);
         }
     }
 
-    ControllerContext-&gt;WasAttached = Attached;
+    ControllerContext->WasAttached = Attached;
 
-    InterruptContext = DeviceInterruptGetContext(ControllerContext-&gt;DeviceInterrupt);
+    InterruptContext = DeviceInterruptGetContext(ControllerContext->DeviceInterrupt);
 
     //
     // #### TODO: Insert code to read and dispatch events from the controller ####
@@ -169,7 +169,7 @@ Arguments:
         break;
     }
 
-    WdfSpinLockRelease(ControllerContext-&gt;DpcLock);
+    WdfSpinLockRelease(ControllerContext->DpcLock);
 
     TraceExit();
 }</pre>

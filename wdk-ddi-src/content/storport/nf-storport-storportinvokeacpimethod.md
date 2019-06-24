@@ -160,7 +160,7 @@ A general error condition exists.
 </dl>
 </td>
 <td width="60%">
-Current IRQL &gt; PASSIVE_LEVEL.
+Current IRQL > PASSIVE_LEVEL.
 
 </td>
 </tr>

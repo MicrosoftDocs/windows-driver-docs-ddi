@@ -61,7 +61,7 @@ Pointer to an initialized queue object for which the caller provides resident st
 
 ### -param WaitMode [in]
 
-The processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. If anything on its stack might be accessed at IRQL &gt;= DISPATCH_LEVEL, the caller must specify <b>KernelMode</b>. 
+The processor mode in which the caller is waiting, which can be either <b>KernelMode</b> or <b>UserMode</b>. If anything on its stack might be accessed at IRQL >= DISPATCH_LEVEL, the caller must specify <b>KernelMode</b>. 
 
 
 ### -param Timeout [in, optional]

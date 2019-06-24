@@ -82,7 +82,7 @@ Specifies the entry point of the caller-supplied <a href="https://msdn.microsoft
 
 
 
-<b>IoSetCancelRoutine</b> returns the previous value of <i>Irp</i>-&gt;<b>CancelRoutine</b>. If no <i>Cancel</i> routine was previously set, or if IRP cancellation is already in progress, <b>IoSetCancelRoutine</b> returns <b>NULL</b>.
+<b>IoSetCancelRoutine</b> returns the previous value of <i>Irp</i>-><b>CancelRoutine</b>. If no <i>Cancel</i> routine was previously set, or if IRP cancellation is already in progress, <b>IoSetCancelRoutine</b> returns <b>NULL</b>.
 
 
 

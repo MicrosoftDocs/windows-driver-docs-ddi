@@ -56,7 +56,7 @@ The location properties of bands in a band-managed storage device are modified w
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a   <a href="https://msdn.microsoft.com/library/windows/hardware/hh464113">SET_BAND_LOCATION_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a> structures. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a   <a href="https://msdn.microsoft.com/library/windows/hardware/hh464113">SET_BAND_LOCATION_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a> structures. 
 
 If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh464113">SET_BAND_LOCATION_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 

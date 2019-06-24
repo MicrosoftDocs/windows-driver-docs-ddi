@@ -56,7 +56,7 @@ The <b>FltLoadFilter</b> routine dynamically loads a minifilter driver into the 
 
 ### -param FilterName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
 
 
 ## -returns
@@ -140,7 +140,7 @@ To unload the supporting minifilter driver, call <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

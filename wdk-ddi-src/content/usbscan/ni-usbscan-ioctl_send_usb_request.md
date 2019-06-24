@@ -97,7 +97,7 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -274,7 +274,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-<i>pIoBlockEx</i>-&gt;<b>uLength</b>
+<i>pIoBlockEx</i>-><b>uLength</b>
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 <td>
 <i>lpOutBuffer</i> (read) or
 
-<i>pIoBlockEx</i>-&gt;<b>pbyData</b> (write)
+<i>pIoBlockEx</i>-><b>pbyData</b> (write)
 
 </td>
 </tr>
@@ -318,7 +318,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-<i>pIoBlockEx</i>-&gt;<b>bRequest</b>
+<i>pIoBlockEx</i>-><b>bRequest</b>
 
 </td>
 </tr>
@@ -328,7 +328,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-(<b>SHORT</b>)<i>pIoBlockEx</i>-&gt;<b>uOffset</b>
+(<b>SHORT</b>)<i>pIoBlockEx</i>-><b>uOffset</b>
 
 </td>
 </tr>
@@ -338,7 +338,7 @@ The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLAS
 
 </td>
 <td>
-<i>pIoBlockEx</i>-&gt;<b>uIndex</b>
+<i>pIoBlockEx</i>-><b>uIndex</b>
 
 </td>
 </tr>

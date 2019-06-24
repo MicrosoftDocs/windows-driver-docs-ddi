@@ -71,7 +71,7 @@ Indicates, when set to 1, that the device supports the write speed data of the G
 
 ### -field WriteSpeedInMP2A
 
-Indicates, when set to 1, that the device supports CD/DVD capabilities &amp; mechanical status mode page.
+Indicates, when set to 1, that the device supports CD/DVD capabilities & mechanical status mode page.
 
 
 ### -field SetCDSpeed

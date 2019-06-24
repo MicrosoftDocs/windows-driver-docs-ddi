@@ -82,12 +82,12 @@ Driver code can use pointer arithmetic to step from one full resource descriptor
 </tr>
 <tr>
 <td>
-<pre>    list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list-&gt;PartialResourceList.PartialDescriptors +
-                                          list-&gt;PartialResourceList.Count);</pre>
+<pre>    list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list->PartialResourceList.PartialDescriptors +
+                                          list->PartialResourceList.Count);</pre>
 </td>
 </tr>
 </table></span></div>
-In this example, <code>list-&gt;PartialResourceList.PartialDescriptors</code> is a pointer to the start of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> array, and <code>list-&gt;PartialResourceList.Count</code> is the number of elements in the array. For more information about the <b>PartialDescriptors</b> and <b>Count</b> members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541981">CM_PARTIAL_RESOURCE_LIST</a>.
+In this example, <code>list->PartialResourceList.PartialDescriptors</code> is a pointer to the start of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> array, and <code>list->PartialResourceList.Count</code> is the number of elements in the array. For more information about the <b>PartialDescriptors</b> and <b>Count</b> members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541981">CM_PARTIAL_RESOURCE_LIST</a>.
 
 
 #### Examples
@@ -108,19 +108,19 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 {
     PCM_FULL_RESOURCE_DESCRIPTOR list;
 
-    list = reslist-&gt;List;
+    list = reslist->List;
 
-    for (int ix = 0; ix &lt; reslist-&gt;Count; ++ix)
+    for (int ix = 0; ix < reslist->Count; ++ix)
     {
         /* Process resources in CM_FULL_RESOURCE_DESCRIPTOR block number ix. */
 
-        for (int jx = 0; jx &lt; list-&gt;PartialResourceList.Count; ++jx)
+        for (int jx = 0; jx < list->PartialResourceList.Count; ++jx)
         {
             PCM_PARTIAL_RESOURCE_DESCRIPTOR desc;
 
-            desc = list-&gt;PartialResourceList.PartialDescriptors + jx;
+            desc = list->PartialResourceList.PartialDescriptors + jx;
 
-            switch (desc-&gt;Type)
+            switch (desc->Type)
             {
                 /* Process element jx in PartialDescriptors array. */
 
@@ -131,8 +131,8 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
         /* Advance to next CM_FULL_RESOURCE_DESCRIPTOR block in memory. */
 
-        list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list-&gt;PartialResourceList.PartialDescriptors + 
-                                              list-&gt;PartialResourceList.Count);
+        list = (PCM_FULL_RESOURCE_DESCRIPTOR)(list->PartialResourceList.PartialDescriptors + 
+                                              list->PartialResourceList.Count);
     }
 
     return TRUE;

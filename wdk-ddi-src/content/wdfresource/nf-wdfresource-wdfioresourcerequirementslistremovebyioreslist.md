@@ -116,7 +116,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
     //
     // Search each logical configuration.
     //
-    for (i = 0; i &lt; reqCount; i++) {
+    for (i = 0; i < reqCount; i++) {
         WDFIORESLIST reslist;
 
         if (descriptorFound) {
@@ -130,7 +130,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
         //
         resCount = WdfIoResourceListGetCount(reslist);
 
-        for (j = 0; j &lt; resCount; j++) {
+        for (j = 0; j < resCount; j++) {
             PIO_RESOURCE_DESCRIPTOR descriptor;
 
             //
@@ -145,8 +145,8 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
             // Stop if this descriptor is the port descriptor
             // that we're looking for.
             //
-            if (descriptor-&gt;Type == CmResourceTypePort) {
-                if ((descriptor-&gt;u.Port.MinimumAddress) == PORT_RANGE_A) {
+            if (descriptor->Type == CmResourceTypePort) {
+                if ((descriptor->u.Port.MinimumAddress) == PORT_RANGE_A) {
                     WdfIoResourceRequirementsListRemoveByIoResList(
                                  RequirementsList,
                                  reslist

@@ -73,7 +73,7 @@ This function should be called by drivers that must wait for an interval of more
 
 If a driver must wait for an interval longer than 50 microseconds, it should call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function. Note that callers of 
-    <b>NdisMSleep</b> run at IRQL &lt; DISPATCH_LEVEL.
+    <b>NdisMSleep</b> run at IRQL < DISPATCH_LEVEL.
 
 
 

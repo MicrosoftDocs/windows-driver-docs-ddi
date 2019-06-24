@@ -48,6 +48,13 @@ req.typenames:
 
 The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
 
+## -syntax
+
+```cpp
+BOOLEAN IoIsErrorUserInduced(
+   Status
+);
+```
 
 ## -parameters
 

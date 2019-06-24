@@ -66,7 +66,7 @@ Specifies the size of buffer needed. This size covers all parameters in the requ
 
 ### -param InputOperation [in]
 
-Set to <b>TRUE</b> if this is an input operation, meaning that on successful return, the Irp-&gt;IoStatus.Information field will contain the number of bytes to copy back to the original input buffer.
+Set to <b>TRUE</b> if this is an input operation, meaning that on successful return, the Irp->IoStatus.Information field will contain the number of bytes to copy back to the original input buffer.
 
 
 ## -returns

@@ -156,11 +156,11 @@ The following code example initializes a WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS s
 <pre>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS  wakeSettings;
 NTSTATUS  status = STATUS_SUCCESS;
 
-WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT(&amp;wakeSettings);
+WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT(&wakeSettings);
 
 status = WdfDeviceAssignSxWakeSettings(
                                        device,
-                                       &amp;wakeSettings
+                                       &wakeSettings
                                        );
 if (!NT_SUCCESS(status)) {
     return status;

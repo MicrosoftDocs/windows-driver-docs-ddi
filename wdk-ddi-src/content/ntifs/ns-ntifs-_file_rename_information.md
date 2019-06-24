@@ -233,7 +233,7 @@ If <b>ReplaceIfExists</b> is set to <b>TRUE</b>, the rename operation will succe
 
 </li>
 </ul>
-The size of the <i>FileInformation</i> buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> must be &gt;= <b>sizeof</b>(FILE_RENAME_INFORMATION) plus the size in bytes of the <b>FileName</b> string. 
+The size of the <i>FileInformation</i> buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> must be >= <b>sizeof</b>(FILE_RENAME_INFORMATION) plus the size in bytes of the <b>FileName</b> string. 
 
 
 

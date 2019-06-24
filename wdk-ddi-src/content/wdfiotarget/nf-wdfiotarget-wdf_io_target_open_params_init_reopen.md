@@ -100,10 +100,10 @@ MyEvtIoTargetRemoveCanceled(
     NTSTATUS status;
 
 ...
-    WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN(&amp;openParams);
+    WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN(&openParams);
     status = WdfIoTargetOpen(
                              IoTarget,
-                             &amp;openParams
+                             &openParams
                              );
 ...
 }</pre>

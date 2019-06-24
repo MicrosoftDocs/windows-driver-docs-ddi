@@ -141,7 +141,7 @@ The identifier that indicates the activity associated with the event. The <i>Act
 
 Activity identifiers provide a method of linking separate events in a common thread of computation. An <i>activity</i> is a work item performed by an application and or a driver. The concept of activity is a core component in end-to-end tracing.
 
-Callers of <b>EtwActivityIdControl</b> must be running at IRQL &lt; DISPATCH_LEVEL, unless the <i>ControlCode</i> is EVENT_ACTIVITY_CTRL_CREATE_ID, in which case the function can be called at any IRQL.
+Callers of <b>EtwActivityIdControl</b> must be running at IRQL < DISPATCH_LEVEL, unless the <i>ControlCode</i> is EVENT_ACTIVITY_CTRL_CREATE_ID, in which case the function can be called at any IRQL.
 
 Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">EtwActivityIdControlKernel</a> function to  query or set  activity identifiers  kernel threads. 
 

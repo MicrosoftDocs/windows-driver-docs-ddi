@@ -116,7 +116,7 @@ Starting with Windows XP, driver routines that run in a process context other th
 </tr>
 <tr>
 <td>
-<pre>InitializeObjectAttributes(&amp;ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
+<pre>InitializeObjectAttributes(&ObjectAttributes, NULL, OBJ_KERNEL_HANDLE, NULL, NULL);</pre>
 </td>
 </tr>
 </table></span></div>
@@ -134,7 +134,7 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/nf-ntdef-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 

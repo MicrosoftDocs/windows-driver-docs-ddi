@@ -96,7 +96,7 @@ If a nonzero value was specified in the
 <li>
 If  the caller of
     <b>NdisCancelTimerObject</b> is canceling a periodic timer, it must be running at IRQL = PASSIVE_LEVEL. Otherwise, the caller of 
-    <b>NdisCancelTimerObject</b> should be running at IRQL &lt;= DISPATCH_LEVEL.
+    <b>NdisCancelTimerObject</b> should be running at IRQL <= DISPATCH_LEVEL.
 
 </li>
 <li>

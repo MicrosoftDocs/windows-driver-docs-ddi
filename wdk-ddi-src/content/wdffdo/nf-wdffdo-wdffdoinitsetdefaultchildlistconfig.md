@@ -103,7 +103,7 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <pre>WDF_CHILD_LIST_CONFIG  config;
 
 WDF_CHILD_LIST_CONFIG_INIT(
-                           &amp;config,
+                           &config,
  sizeof(MY_IDENTIFICATION_DESCRIPTION),
                            My_EvtDeviceListCreatePdo
                            );
@@ -113,7 +113,7 @@ config.EvtChildListIdentificationDescriptionCleanup = My_EvtChildListIdentificat
 
 WdfFdoInitSetDefaultChildListConfig(
                                     DeviceInit,
-                                    &amp;config,
+                                    &config,
                                     WDF_NO_OBJECT_ATTRIBUTES
                                     );</pre>
 </td>

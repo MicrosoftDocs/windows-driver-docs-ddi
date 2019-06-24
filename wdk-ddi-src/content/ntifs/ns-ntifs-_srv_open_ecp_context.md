@@ -56,7 +56,7 @@ The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open fil
 
 ### -field ShareName
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
 
 
 ### -field SocketAddress
@@ -113,7 +113,7 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
  
 
  

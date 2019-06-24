@@ -126,14 +126,14 @@ NTSTATUS  Status;
 // structure and call WdfUsbInterfaceSelectSetting.
 //
 WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR(
-                                      &amp;selectSettingParams,
-                                      &amp;interfaceDescriptor
+                                      &selectSettingParams,
+                                      &interfaceDescriptor
                                       );
 
 Status = WdfUsbInterfaceSelectSetting(
                                       UsbInterface,
                                       WDF_NO_OBJECT_ATTRIBUTES,
-                                      &amp;selectSettingParams
+                                      &selectSettingParams
                                       );</pre>
 </td>
 </tr>

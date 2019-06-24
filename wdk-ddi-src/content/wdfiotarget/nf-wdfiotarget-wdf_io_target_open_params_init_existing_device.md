@@ -102,9 +102,9 @@ The following code example creates an I/O target object and opens the target by 
 NTSTATUS  ntStatus;
 
 ntStatus = WdfIoTargetCreate(
-                             Adapter-&gt;WdfDevice,
+                             Adapter->WdfDevice,
                              WDF_NO_OBJECT_ATTRIBUTES,
-                             &amp;Adapter-&gt;IoTarget
+                             &Adapter->IoTarget
                              );
 if (!NT_SUCCESS(ntStatus)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetCreate failed 0x%x\n", ntStatus));
@@ -112,12 +112,12 @@ if (!NT_SUCCESS(ntStatus)) {
 }
 
 WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE(
-                                               &amp;openParams,
-                                               Adapter-&gt;NextDeviceObject
+                                               &openParams,
+                                               Adapter->NextDeviceObject
                                                );
 
-ntStatus = WdfIoTargetOpen(Adapter-&gt;IoTarget,
-                           &amp;openParams);
+ntStatus = WdfIoTargetOpen(Adapter->IoTarget,
+                           &openParams);
 if (!NT_SUCCESS(ntStatus)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetOpen failed 0x%x\n", ntStatus));
     break;

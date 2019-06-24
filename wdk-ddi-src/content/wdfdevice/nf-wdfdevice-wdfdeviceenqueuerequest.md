@@ -150,7 +150,7 @@ To do so, the driver can call <a href="https://msdn.microsoft.com/library/window
 
 For more information about the <b>WdfDeviceEnqueueRequest</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>.
 
-For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called at PASSIVE_LEVEL. For versions 1.7 and later, <b>WdfDeviceEnqueueRequest</b> can be called at IRQL &lt;= DISPATCH_LEVEL.
+For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called at PASSIVE_LEVEL. For versions 1.7 and later, <b>WdfDeviceEnqueueRequest</b> can be called at IRQL <= DISPATCH_LEVEL.
 
 
 #### Examples
@@ -172,12 +172,12 @@ MyEvtDeviceIoInCallerContext(
     NTSTATUS  status = STATUS_SUCCESS;
     WDF_REQUEST_PARAMETERS  params;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
-    if(!(params.Type == WdfRequestTypeDeviceControl &amp;&amp;
+    if(!(params.Type == WdfRequestTypeDeviceControl &&
          params.Parameters.DeviceIoControl.IoControlCode == IOCTL_NONPNP_METHOD_NEITHER)) {
         status = WdfDeviceEnqueueRequest(
                                          Device,

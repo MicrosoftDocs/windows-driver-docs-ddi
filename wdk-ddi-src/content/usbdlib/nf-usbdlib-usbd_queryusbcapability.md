@@ -281,9 +281,9 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     NTSTATUS ntStatus = STATUS_SUCCESS;   
     PDEVICE_EXTENSION deviceExtension;
 
-    deviceExtension = (PDEVICE_EXTENSION)fdo-&gt;DeviceExtension;
+    deviceExtension = (PDEVICE_EXTENSION)fdo->DeviceExtension;
 
-    if (!deviceExtension-&gt;UsbdHandle)
+    if (!deviceExtension->UsbdHandle)
     {
         return;
     }
@@ -292,7 +292,7 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // supports USB 3.0 devices.
 
     if (!USBD_IsInterfaceVersionSupported(
-        deviceExtension-&gt;UsbdHandle,                                       
+        deviceExtension->UsbdHandle,                                       
         USBD_INTERFACE_VERSION_602))
     {
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Old USB stack loaded.\n" ));
@@ -302,20 +302,20 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
         // Call USBD_QueryUsbCapability to determine 
         // function suspend support.     
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "New USB stack loaded.\n" ));
-        ntStatus = USBD_QueryUsbCapability ( deviceExtension-&gt;UsbdHandle,  
-            (GUID*)&amp;GUID_USB_CAPABILITY_FUNCTION_SUSPEND,  
+        ntStatus = USBD_QueryUsbCapability ( deviceExtension->UsbdHandle,  
+            (GUID*)&GUID_USB_CAPABILITY_FUNCTION_SUSPEND,  
             0,  
             NULL,
             NULL);
 
         if (NT_SUCCESS(ntStatus)) 
         {
-            deviceExtension-&gt;FunctionSuspendSupported = TRUE;
+            deviceExtension->FunctionSuspendSupported = TRUE;
             KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Function suspend supported.\n" ));
         } 
         else 
         {
-            deviceExtension-&gt;FunctionSuspendSupported  = FALSE;
+            deviceExtension->FunctionSuspendSupported  = FALSE;
             ntStatus = STATUS_SUCCESS;
             KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Function suspend not supported.\n" ));
         }
@@ -325,20 +325,20 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // chained MDL support. 
 
     ntStatus = USBD_QueryUsbCapability(
-        deviceExtension-&gt;UsbdHandle,
-        (GUID*)&amp;GUID_USB_CAPABILITY_CHAINED_MDLS,
+        deviceExtension->UsbdHandle,
+        (GUID*)&GUID_USB_CAPABILITY_CHAINED_MDLS,
         0,
         NULL,
         NULL);
 
     if (NT_SUCCESS(ntStatus)) 
     {
-        deviceExtension-&gt;ChainedMDLSupport = TRUE;
+        deviceExtension->ChainedMDLSupport = TRUE;
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Chained MDLs supported.\n" ));
     } 
     else 
     {
-        deviceExtension-&gt;ChainedMDLSupport = FALSE;
+        deviceExtension->ChainedMDLSupport = FALSE;
         ntStatus = STATUS_SUCCESS;
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Chained MDLs not supported.\n" ));
     }
@@ -346,16 +346,16 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // Call USBD_QueryUsbCapability to determine 
     // stream support. 
 
-    ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_STATIC_STREAMS, 
+    ntStatus = USBD_QueryUsbCapability (deviceExtension->UsbdHandle, 
+        (GUID*)&GUID_USB_CAPABILITY_STATIC_STREAMS, 
         sizeof(ULONG), 
-        (PUCHAR) &amp;deviceExtension-&gt;MaxSupportedStreams, 
+        (PUCHAR) &deviceExtension->MaxSupportedStreams, 
         NULL);  
 
 
     if (!NT_SUCCESS(ntStatus)) 
     {
-        deviceExtension-&gt;MaxSupportedStreams = 0;
+        deviceExtension->MaxSupportedStreams = 0;
         ntStatus = STATUS_SUCCESS;
         KdPrintEx(( DPFLTR_IHVDRIVER_ID, DPFLTR_INFO_LEVEL, "Static streams not supported.\n" ));
     }
@@ -363,8 +363,8 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
     // Call USBD_QueryUsbCapability to determine 
     // selective suspend support. 
 
-    ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_SELECTIVE_SUSPEND, 
+    ntStatus = USBD_QueryUsbCapability (deviceExtension->UsbdHandle, 
+        (GUID*)&GUID_USB_CAPABILITY_SELECTIVE_SUSPEND, 
         0, 
         NULL, 
         NULL);
@@ -381,8 +381,8 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
 
     // Call USBD_QueryUsbCapability to determine 
     // device speed. 
-    ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE, 
+    ntStatus = USBD_QueryUsbCapability (deviceExtension->UsbdHandle, 
+        (GUID*)&GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE, 
         0, 
         NULL, 
         NULL);
@@ -399,8 +399,8 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
 
     // Call USBD_QueryUsbCapability to determine 
     // device speed. 
-    ntStatus = USBD_QueryUsbCapability (deviceExtension-&gt;UsbdHandle, 
-        (GUID*)&amp;GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE, 
+    ntStatus = USBD_QueryUsbCapability (deviceExtension->UsbdHandle, 
+        (GUID*)&GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE, 
         0, 
         NULL, 
         NULL);

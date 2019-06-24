@@ -73,7 +73,7 @@ This routine does not return a value.
 
 
 
-Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memory for <i>VersionInformation</i> is allocated from nonpaged pool. Otherwise, callers must be running at IRQL &lt; DISPATCH_LEVEL.
+Callers of this routine can be running at IRQL <= DISPATCH_LEVEL if the memory for <i>VersionInformation</i> is allocated from nonpaged pool. Otherwise, callers must be running at IRQL < DISPATCH_LEVEL.
 
 
 

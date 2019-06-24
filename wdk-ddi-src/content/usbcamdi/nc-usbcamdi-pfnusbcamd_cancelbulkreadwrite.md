@@ -88,7 +88,7 @@ The value passed in the <i>PipeIndex</i> argument is invalid.
 
 The type of the pipe specified by the <i>PipeIndex</i> argument represents an invalid type of pipe.
 
-The current IRQL &gt;= DISPATCH_LEVEL.
+The current IRQL >= DISPATCH_LEVEL.
 
 </td>
 </tr>

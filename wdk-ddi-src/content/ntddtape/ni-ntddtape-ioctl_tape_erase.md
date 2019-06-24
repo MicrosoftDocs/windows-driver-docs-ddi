@@ -59,14 +59,14 @@ Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, 
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567963">TAPE_ERASE</a>. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567963">TAPE_ERASE</a>. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_ERASE). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_ERASE). 
 
 
 ### -output-buffer

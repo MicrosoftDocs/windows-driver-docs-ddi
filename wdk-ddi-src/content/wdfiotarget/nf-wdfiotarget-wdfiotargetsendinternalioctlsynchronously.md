@@ -253,8 +253,8 @@ Because <b>WdfIoTargetSendInternalIoctlSynchronously</b> handles I/O requests sy
 <td>
 <pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
-WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&amp;MemoryDescriptor,
-                                  (PVOID) &amp;MyBuffer,
+WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
+                                  (PVOID) &MyBuffer,
                                   sizeof(MyBuffer));</pre>
 </td>
 </tr>
@@ -277,9 +277,9 @@ status = WdfMemoryCreate(NULL,
                          NonPagedPool,
                          POOL_TAG,
                          MY_BUFFER_SIZE,
-                         &amp;MemoryHandle,
+                         &MemoryHandle,
                          NULL);
-WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&amp;MemoryDescriptor,
+WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
                                   NULL);</pre>
 </td>
@@ -319,8 +319,8 @@ NTSTATUS  status;
 MY_DRIVER_INFORMATION  driverInformation;
 
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(
-                                  &amp;outputDescriptor,
-                                  (PVOID) &amp;driverInformation,
+                                  &outputDescriptor,
+                                  (PVOID) &driverInformation,
                                   sizeof(MY_DRIVER_INFORMATION)
                                   );
 
@@ -329,7 +329,7 @@ status = WdfIoTargetSendInternalIoctlSynchronously(
                                                    NULL,
                                                    IOCTL_INTERNAL_GET_MY_DRIVER_INFORMATION,
                                                    NULL,
-                                                   &amp;outputDescriptor,
+                                                   &outputDescriptor,
                                                    NULL,
                                                    NULL
                                                    );</pre>

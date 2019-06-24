@@ -130,17 +130,17 @@ CMyDevice::OnPrepareHardware(
     //
     // Scan the list to identify our resource.
     //
-    for (i=0; i &lt; pWdfResTranslated-&gt;GetCount(); i++) {
-        desc = (PCM_PARTIAL_RESOURCE_DESCRIPTOR) pTrans-&gt;GetDescriptor(i);
+    for (i=0; i < pWdfResTranslated->GetCount(); i++) {
+        desc = (PCM_PARTIAL_RESOURCE_DESCRIPTOR) pTrans->GetDescriptor(i);
 
-        switch (desc-&gt;Type) {
+        switch (desc->Type) {
             case CmResourceTypeMemory:
                 //
                 // See if this is the memory resource we’re looking for.
                 // 
-                if (desc-&gt;u.Memory.Length == 0x200) {
-                    regsBasePA = desc-&gt;u.Memory.Start;
-                    regsLength = desc-&gt;u.Memory.Length;
+                if (desc->u.Memory.Length == 0x200) {
+                    regsBasePA = desc->u.Memory.Start;
+                    regsLength = desc->u.Memory.Length;
                     found = TRUE;                    
                 }
                 break;
@@ -156,10 +156,10 @@ CMyDevice::OnPrepareHardware(
     // object for later access.
     //
     if (found) {
-            hr = pWdfDevice-&gt;MapIoSpace(regBasePA,
+            hr = pWdfDevice->MapIoSpace(regBasePA,
                                            regLengthlength, 
                                            MmNonCached,
-                                          (void **)&amp;m_RegBase);
+                                          (void **)&m_RegBase);
             if (SUCCEEDED(hr)) {
             //
             // Store the register range in partner object. This will 
@@ -186,7 +186,7 @@ CMyQueue::WriteToDevice(
     // Write the UCHAR value at offset 2 from register base.
     //
     WRITE_REGISTER_UCHAR(pWdfDevice, 
-                      (m_MyDevice-&gt;m_RegBase)+2, 
+                      (m_MyDevice->m_RegBase)+2, 
                        Value);
 }
 
@@ -199,7 +199,7 @@ CMyDevice::OnReleaseHardware(
     //
     // Unmap registers memory resource.
     //
-    pWdfDevice-&gt;UnmapIoSpace(m_RegBase, m_RegLength);
+    pWdfDevice->UnmapIoSpace(m_RegBase, m_RegLength);
 
     return S_OK;
 }

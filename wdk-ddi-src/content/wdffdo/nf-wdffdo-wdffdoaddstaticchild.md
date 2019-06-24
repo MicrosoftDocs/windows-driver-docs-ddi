@@ -130,9 +130,9 @@ if (pDeviceInit == NULL) {
 }
 ...
 status = WdfDeviceCreate(
-                         &amp;pDeviceInit,
-                         &amp;pdoAttributes,
-                         &amp;hChild
+                         &pDeviceInit,
+                         &pdoAttributes,
+                         &hChild
                          );
 if (!NT_SUCCESS(status)) {
     WdfDeviceInitFree(pDeviceInit);

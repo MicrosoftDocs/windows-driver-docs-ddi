@@ -277,7 +277,7 @@ InputSurface = T, T, T+7, T+7, T+15, T+15,...  (note that T+7 frame contains 15t
 The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
 
 ```cpp
--[60i -&gt; 60p]
+-[60i -> 60p]
 DRV: VPGuid[0] requests 1 past and 2 future reference frames.
 APP: Creates VPGuid[0] video processor and set output rate to normal.
 APP: Decodes frame 0(A0:A1), 1(A0:B1), 2(B0:C1), 3(C0:C1), 4(D0:D1), ...
@@ -303,7 +303,7 @@ DRV: Weave [4(D0)+4(D1)] = D
 -APP: VPBltHD(frame 3, 4, 5, 6), InputFrameOrField=9, OutputIndex=1
 DRV: Weave [4(D1)+4(D0)] = D
     :
--[60i -&gt; 24p]
+-[60i -> 24p]
 DRV: VPGuid[1] requests 4 future reference frames.
 DRV: Exports CustomRate=4/5, OutputFrames=4, InputInterlaced=TRUE, InputFramesOrFields=10.
 APP: Creates VPGuid[1] video processor and set output rate to 4/5 custom rate.

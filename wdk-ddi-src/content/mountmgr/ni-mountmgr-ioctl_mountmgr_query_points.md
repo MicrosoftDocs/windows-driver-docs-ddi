@@ -62,7 +62,7 @@ The mount manager returns triples that match as much info as is provided by the 
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562286">MOUNTMGR_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Immediately following this structure, the MM client loads the symbolic link name, the unique ID and the device name, in that order.
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562286">MOUNTMGR_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Immediately following this structure, the MM client loads the symbolic link name, the unique ID and the device name, in that order.
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ The mount manager client initializes the <a href="https://msdn.microsoft.com/lib
 
 ### -output-buffer
 
-The mount manager initializes a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562288">MOUNTMGR_MOUNT_POINTS</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the mount points, associated with the indicated volume, at the address pointed to by the <i>MountPoints[]</i> member of this structure. Each mount point is represented by a MOUNTMGR_MOUNT_POINT structure as defined in the <b>Input</b> section for this IOCTL.
+The mount manager initializes a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562288">MOUNTMGR_MOUNT_POINTS</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The mount manager inserts the mount points, associated with the indicated volume, at the address pointed to by the <i>MountPoints[]</i> member of this structure. Each mount point is represented by a MOUNTMGR_MOUNT_POINT structure as defined in the <b>Input</b> section for this IOCTL.
 
 
 ### -output-buffer-length
@@ -116,7 +116,7 @@ If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_MOUNT_POINT), t
 
 If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_MOUNT_POINTS) plus the sum of the sizes of the mount point triples, the <b>Status</b> field is set to STATUS_BUFFER_OVERFLOW.
 
-If any of the three strings contained within any of the triples is aligned on an odd address (for example, address &amp; 01 != 0), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
+If any of the three strings contained within any of the triples is aligned on an odd address (for example, address & 01 != 0), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
 
 ## -see-also

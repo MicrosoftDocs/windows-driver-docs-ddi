@@ -155,7 +155,7 @@ The following code example is taken from the <a href="https://go.microsoft.com/f
     // Setup the control packet.
     //
 
-    WINUSB_CONTROL_SETUP_PACKET_INIT( &amp;setupPacket,
+    WINUSB_CONTROL_SETUP_PACKET_INIT( &setupPacket,
                                       BmRequestHostToDevice,
                                       BmRequestToDevice,
                                       USBFX2LK_SET_BARGRAPH_DISPLAY,
@@ -167,10 +167,10 @@ The following code example is taken from the <a href="https://go.microsoft.com/f
     //
 
     hr = SendControlTransferSynchronously(
-                &amp;(setupPacket.WinUsb),
+                &(setupPacket.WinUsb),
                 (PUCHAR) BarGraphState,
                 sizeof(BAR_GRAPH_STATE),
-                &amp;bytesTransferred
+                &bytesTransferred
                 );
 ...
 
@@ -191,24 +191,24 @@ CMyDevice::SendControlTransferSynchronously(
 
     *LengthTransferred = 0;
     
-    hr = m_FxDevice-&gt;CreateRequest( NULL, //pCallbackInterface
+    hr = m_FxDevice->CreateRequest( NULL, //pCallbackInterface
                                     NULL, //pParentObject
-                                    &amp;pWdfRequest);
+                                    &pWdfRequest);
 
     if (SUCCEEDED(hr))
     {
-        m_FxDevice-&gt;GetDriver(&amp;FxDriver);
+        m_FxDevice->GetDriver(&FxDriver);
 
-        hr = FxDriver-&gt;CreatePreallocatedWdfMemory( Buffer,
+        hr = FxDriver->CreatePreallocatedWdfMemory( Buffer,
                                                     BufferLength,
                                                     NULL, //pCallbackInterface
                                                     pWdfRequest, //pParetObject
-                                                    &amp;FxMemory );
+                                                    &FxMemory );
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = m_pIUsbTargetDevice-&gt;FormatRequestForControlTransfer( pWdfRequest,
+        hr = m_pIUsbTargetDevice->FormatRequestForControlTransfer( pWdfRequest,
                                                                    SetupPacket,
                                                                    FxMemory,
                                                                    NULL); //TransferOffset

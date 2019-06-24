@@ -174,7 +174,7 @@ If your driver does not use the framework's automatic synchronization, see the t
 
     // Save the request handle. We'll clear it after
     // we call WdfRequestComplete.
-    queueContext-&gt;CurrentRequest = Request;
+    queueContext->CurrentRequest = Request;
     return
 }
 
@@ -193,7 +193,7 @@ VOID
      );
     // Clear the request handle so EchEvtTimerFunc will
     // know that we called WdfRequestComplete.
-    queueContext-&gt;CurrentRequest = NULL;
+    queueContext->CurrentRequest = NULL;
 
     return;
 }
@@ -212,7 +212,7 @@ VOID
     // Retrieve our saved copy of the request handle.
     queue = WdfTimerGetParentObject(Timer);
     queueContext = QueueGetContext(queue);
-    Request = queueContext-&gt;CurrentRequest;
+    Request = queueContext->CurrentRequest;
 
     // We cannot call WdfRequestUnmarkCancelable
     // after a request completes, so check here to see
@@ -221,8 +221,8 @@ VOID
     if( Request != NULL ) {
         Status = WdfRequestUnmarkCancelable(Request);
         if(Status != STATUS_CANCELLED) {
-            queueContext-&gt;CurrentRequest = NULL;
-            Status = queueContext-&gt;CurrentStatus;
+            queueContext->CurrentRequest = NULL;
+            Status = queueContext->CurrentStatus;
             WdfRequestComplete(
                                Request,
                                Status

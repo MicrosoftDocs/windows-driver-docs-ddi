@@ -52,16 +52,16 @@ The HIDP_CAPS structure contains information about a top-level <a href="https://
 ## -struct-fields
 
 
+### -field Usage
+
+Specifies a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a>.
+
 
 
 ### -field UsagePage
 
 Specifies the top-level collection's <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a>.
 
-
-### -field Usage
-
-Specifies a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a>.
 
 
 ### -field InputReportByteLength

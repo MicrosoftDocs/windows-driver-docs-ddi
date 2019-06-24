@@ -55,7 +55,7 @@ An IEEE 1394 driver uses the <a href="https://msdn.microsoft.com/library/windows
 
 ### -input-buffer
 
-<b>Parameters-&gt;Others.Arguments1</b> points to an <b>IRB</b> structure. The <b>FunctionNumber</b> member of the IRB specifies the type of request. The <b>u</b> member of the IRB is a union that specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request.
+<b>Parameters->Others.Arguments1</b> points to an <b>IRB</b> structure. The <b>FunctionNumber</b> member of the IRB specifies the type of request. The <b>u</b> member of the IRB is a union that specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request.
 
 Legal requests are as follows:
 
@@ -199,7 +199,7 @@ Legal requests are as follows:
 
 ### -output-buffer
 
-<b>Parameters-&gt;Others.Arguments1</b> points to the <b>IRB</b> structure passed as input. As part of completing the request, the bus driver fills in certain members of the <b>u</b> member with information for the driver. The returned information is documented below with each request.
+<b>Parameters->Others.Arguments1</b> points to the <b>IRB</b> structure passed as input. As part of completing the request, the bus driver fills in certain members of the <b>u</b> member with information for the driver. The returned information is documented below with each request.
 
 
 ### -output-buffer-length

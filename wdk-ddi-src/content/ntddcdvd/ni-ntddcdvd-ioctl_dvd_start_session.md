@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns an integer authentication grant ID of type DVD_SESSION_ID in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns an integer authentication grant ID of type DVD_SESSION_ID in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length

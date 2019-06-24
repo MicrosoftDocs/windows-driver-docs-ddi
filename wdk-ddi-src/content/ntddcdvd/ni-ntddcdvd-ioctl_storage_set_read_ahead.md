@@ -59,7 +59,7 @@ Causes the device to skip to the given target address when the device reaches a 
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567004">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567004">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses. 
 
 
 ### -input-buffer-length

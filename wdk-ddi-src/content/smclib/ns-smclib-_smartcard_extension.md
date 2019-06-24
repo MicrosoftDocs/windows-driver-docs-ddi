@@ -250,7 +250,7 @@ On output, the structure pointed to by <b>SmartcardExtension</b> should have the
 <dl>
 <dt><a id="IoRequest.ReplyBuffer"></a><a id="iorequest.replybuffer"></a><a id="IOREQUEST.REPLYBUFFER"></a><b>IoRequest.ReplyBuffer</b></dt>
 <dd>
-Receives the ATR that is returned by the smart card. In addition, you must transfer the ATR to <i>SmartcardExtension-&gt;CardCapabilities.ATR.Buffer </i>so that the library can parse the ATR.
+Receives the ATR that is returned by the smart card. In addition, you must transfer the ATR to <i>SmartcardExtension->CardCapabilities.ATR.Buffer </i>so that the library can parse the ATR.
 
 </dd>
 <dt><a id="IoRequest.Information"></a><a id="iorequest.information"></a><a id="IOREQUEST.INFORMATION"></a><b>IoRequest.Information</b></dt>
@@ -276,7 +276,7 @@ The driver library completes the request.
 
 <b>WDM Device Drivers</b>
 
-The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension-&gt;OsData-&gt;NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -&gt; OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
+The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension->OsData->NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -> OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
 
 Because this call can have an indefinite duration and the caller can terminate the request before it is complete, it is important to mark this IRP as cancelable.
 
@@ -288,7 +288,7 @@ OtherParameters)
 //    For example, the card has been inserted or the card has been removed
 //
 {
-    if (SmartcardExtension-&gt;OsData-&gt;NotificationOverlappedData != NULL){
+    if (SmartcardExtension->OsData->NotificationOverlappedData != NULL){
 
         SmartcardCompleteCardTracking(SmartcardExtension);
     }
@@ -307,32 +307,32 @@ On input, the caller must pass the following values to the function:
 
 
 <dl>
-<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MajorIoControlCode</b></dt>
+<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension->MajorIoControlCode</b></dt>
 <dd>
 Contains a vendor-specific IOCTL code. Refer to the macro SCARD_CTL_CODE in <i>Winsmcrd.h</i> for information about how to define a vendor-specific IOCTL code. Note that the code must be between 2048 and 4095.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.RequestBuffer</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension->IoRequest.RequestBuffer</b></dt>
 <dd>
 A pointer to the user's input buffer.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.RequestBufferLength"></a><a id="smartcardextension-_iorequest.requestbufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFERLENGTH"></a><b>SmartcardExtension-&gt;IoRequest.RequestBufferLength</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.RequestBufferLength"></a><a id="smartcardextension-_iorequest.requestbufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFERLENGTH"></a><b>SmartcardExtension->IoRequest.RequestBufferLength</b></dt>
 <dd>
 The size, in bytes, of the user's input buffer.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBuffer</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension->IoRequest.ReplyBuffer</b></dt>
 <dd>
 A pointer to the user's output buffer.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBufferLength</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension->IoRequest.ReplyBufferLength</b></dt>
 <dd>
 The size, in bytes, of the user's output buffer.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension-&gt;IoRequest.Information</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension->IoRequest.Information</b></dt>
 <dd>
 The value supplied by the request. Must be set to the number of bytes returned.
 
@@ -357,12 +357,12 @@ On input, the caller must pass the following values to the function:
 
 
 <dl>
-<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MajorIoControlCode</b></dt>
+<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension->MajorIoControlCode</b></dt>
 <dd>
 Contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff548909">IOCTL_SMARTCARD_SET_PROTOCOL</a>.
 
 </dd>
-<dt><a id="SmartcardExtension-_MinorIoControlCode"></a><a id="smartcardextension-_minoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MINORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MinorIoControlCode</b></dt>
+<dt><a id="SmartcardExtension-_MinorIoControlCode"></a><a id="smartcardextension-_minoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MINORIOCONTROLCODE"></a><b>SmartcardExtension->MinorIoControlCode</b></dt>
 <dd>
 Contains a bitwise OR of one or more protocols than the caller accepts. The driver must select a protocol that the inserted smart card supports. We recommend that the T = 1 protocol is given precedence over the T = 0 protocol. 
 
@@ -405,12 +405,12 @@ Selects the ISO T = 1 protocol.
  
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBufferLength</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension->IoRequest.ReplyBufferLength</b></dt>
 <dd>
 Contains the length of the reply buffer.
 
 </dd>
-<dt><a id="SmartcardExtension-_CardCapabilities.PtsData"></a><a id="smartcardextension-_cardcapabilities.ptsdata"></a><a id="SMARTCARDEXTENSION-_CARDCAPABILITIES.PTSDATA"></a><b>SmartcardExtension-&gt;CardCapabilities.PtsData</b></dt>
+<dt><a id="SmartcardExtension-_CardCapabilities.PtsData"></a><a id="smartcardextension-_cardcapabilities.ptsdata"></a><a id="SMARTCARDEXTENSION-_CARDCAPABILITIES.PTSDATA"></a><b>SmartcardExtension->CardCapabilities.PtsData</b></dt>
 <dd>
 Contains the required parameters to perform the PTS request. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548916">PTS_DATA</a>.
 
@@ -421,18 +421,18 @@ The request returns the following values:
 
 
 <dl>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBuffer</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension->IoRequest.ReplyBuffer</b></dt>
 <dd>
 Contains the selected protocol.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension-&gt;IoRequest.Information</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension->IoRequest.Information</b></dt>
 <dd>
 Set to <b>sizeof</b>(ULONG).
 
 </dd>
 </dl>
-The caller can supply a mask of acceptable protocols. The driver's set protocol callback routine selects one of the protocols in the mask and returns the selected protocol in <b>SmartcardExtension-&gt;IoRequest.ReplyBuffer</b>. 
+The caller can supply a mask of acceptable protocols. The driver's set protocol callback routine selects one of the protocols in the mask and returns the selected protocol in <b>SmartcardExtension->IoRequest.ReplyBuffer</b>. 
 
 </td>
 </tr>
@@ -445,22 +445,22 @@ On input, the caller must pass the following values to the function:
 
 
 <dl>
-<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MajorIoControlCode</b></dt>
+<dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension->MajorIoControlCode</b></dt>
 <dd>
 Contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff548911">IOCTL_SMARTCARD_TRANSMIT</a>.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.RequestBuffer</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension->IoRequest.RequestBuffer</b></dt>
 <dd>
 A pointer to an SCARD_IO_REQUEST structure followed by data to transmit to the card.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.RequestBufferLength"></a><a id="smartcardextension-_iorequest.requestbufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFERLENGTH"></a><b>SmartcardExtension-&gt;IoRequest.RequestBufferLength</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.RequestBufferLength"></a><a id="smartcardextension-_iorequest.requestbufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFERLENGTH"></a><b>SmartcardExtension->IoRequest.RequestBufferLength</b></dt>
 <dd>
 The number of bytes to transmit to the card.
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBufferLength</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBufferLength"></a><a id="smartcardextension-_iorequest.replybufferlength"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFERLENGTH"></a><b>SmartcardExtension->IoRequest.ReplyBufferLength</b></dt>
 <dd>
 The size, in bytes, of the reply buffer.
 
@@ -471,18 +471,18 @@ The request returns the following values:
 
 
 <dl>
-<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.ReplyBuffer</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.ReplyBuffer"></a><a id="smartcardextension-_iorequest.replybuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REPLYBUFFER"></a><b>SmartcardExtension->IoRequest.ReplyBuffer</b></dt>
 <dd>
 A pointer to the buffer that receives the SCARD_IO_REQUEST structure, plus the result of the card. 
 
 </dd>
-<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension-&gt;IoRequest.Information</b></dt>
+<dt><a id="SmartcardExtension-_IoRequest.Information"></a><a id="smartcardextension-_iorequest.information"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.INFORMATION"></a><b>SmartcardExtension->IoRequest.Information</b></dt>
 <dd>
 Receives the actual number of bytes returned by the smart card, plus the size of the SCARD_IO_REQUEST structure. For a definition of the SCARD_IO_REQUEST structure, see IOCTL_SMARTCARD_TRANSMIT. 
 
 </dd>
 </dl>
-When this function is called, <b>SmartcardExtension-&gt;IoRequest.RequestBuffer</b> points to an SCARD_IO_REQUEST structure followed by the data to transmit.
+When this function is called, <b>SmartcardExtension->IoRequest.RequestBuffer</b> points to an SCARD_IO_REQUEST structure followed by the data to transmit.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

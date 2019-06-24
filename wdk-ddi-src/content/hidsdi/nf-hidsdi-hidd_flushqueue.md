@@ -5,7 +5,7 @@ description: The HidD_FlushQueue routine deletes all pending input reports in a 
 old-location: hid\hidd_flushqueue.htm
 tech.root: hid
 ms.assetid: 4ddc2d50-4828-4764-a690-27d4d5bd7c74
-ms.date: 04/30/2018
+ms.date: 06/19/2019
 ms.keywords: HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], hid.hidd_flushqueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue
 ms.topic: function
 req.header: hidsdi.h
@@ -63,7 +63,7 @@ Specifies an open handle to the top-level collection whose input queue is flushe
 
 
 
-<b>HidD_FlushQueue</b> returns <b>TRUE</b> if it successfully flushes the queue. Otherwise, it returns <b>FALSE</b>.
+<b>HidD_FlushQueue</b> returns <b>TRUE</b> if it successfully flushes the queue. Otherwise, it returns <b>FALSE</b>. Use [**GetLastError**](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) to get extended error information.
 
 
 

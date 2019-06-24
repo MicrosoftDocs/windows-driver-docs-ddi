@@ -56,6 +56,8 @@ This method returns HRESULT that indicates success or failure.
 
 ## -remarks
 
+The [IDataModelNameBinder](nn-dbgmodel-idatamodelnamebinder.md) topic provides more information on how a name binder can associate names in a context with objects or symbols.
+
 
 ## -see-also
 

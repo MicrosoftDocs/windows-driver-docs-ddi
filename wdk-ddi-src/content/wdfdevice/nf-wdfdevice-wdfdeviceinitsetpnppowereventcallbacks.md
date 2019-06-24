@@ -99,14 +99,14 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 <td>
 <pre>WDF_PNPPOWER_EVENT_CALLBACKS  pnpPowerCallbacks;
 
-WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&amp;pnpPowerCallbacks);
+WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&pnpPowerCallbacks);
 pnpPowerCallbacks.EvtDevicePrepareHardware = SerialEvtPrepareHardware;
 pnpPowerCallbacks.EvtDeviceReleaseHardware = SerialEvtReleaseHardware;
 pnpPowerCallbacks.EvtDeviceD0Entry = SerialEvtDeviceD0Entry;
 pnpPowerCallbacks.EvtDeviceD0Exit = SerialEvtDeviceD0Exit;
 WdfDeviceInitSetPnpPowerEventCallbacks(
                                        DeviceInit,
-                                       &amp;pnpPowerCallbacks
+                                       &pnpPowerCallbacks
                                        );</pre>
 </td>
 </tr>

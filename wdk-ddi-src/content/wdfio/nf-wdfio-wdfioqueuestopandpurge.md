@@ -119,7 +119,7 @@ The following code example stops and purges a specified I/O queue. After all req
 <td>
 <pre>WDFCONTEXT stopandpurgeContext;
 
-stopandpurgeContext = &amp;myContext;
+stopandpurgeContext = &myContext;
 
 WdfIoQueueStopAndPurge(
                queue,

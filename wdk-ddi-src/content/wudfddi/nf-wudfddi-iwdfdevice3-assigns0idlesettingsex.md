@@ -98,7 +98,7 @@ HRESULT hr;
 WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS  idleSettings;
 
 WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(
-                                           &amp;idleSettings,
+                                           &idleSettings,
                                            IdleCanWakeFromS0
                                            );
 idleSettings.IdleTimeout = 10000;
@@ -107,12 +107,12 @@ idleSettings.IdleTimeout = 10000;
 // Get a pointer to the IWDFDevice3 interface.
 //
 
-hr = pIWDFDevice-&gt;QueryInterface(__uuidof(IWDFDevice3),
-                                 (void**) &amp;pIWDFDevice3);
+hr = pIWDFDevice->QueryInterface(__uuidof(IWDFDevice3),
+                                 (void**) &pIWDFDevice3);
 if (SUCCEEDED(hr)) 
    {
     
-   hr = pIWDFDevice3-&gt;AssignS0IdleSettingsEx(&amp;idleSettings
+   hr = pIWDFDevice3->AssignS0IdleSettingsEx(&idleSettings
                                             );
    }
 ...

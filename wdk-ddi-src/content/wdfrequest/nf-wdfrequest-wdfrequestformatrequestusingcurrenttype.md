@@ -117,24 +117,24 @@ MyEvtIoDefault(
     WDF_REQUEST_PARAMETERS params;
     BOOLEAN ret;
 
-    WDF_REQUEST_PARAMETERS_INIT(&amp;params);
+    WDF_REQUEST_PARAMETERS_INIT(&params);
 
     WdfRequestGetParameters(
                             Request,
-                            &amp;params
+                            &params
                             );
 
     WdfRequestFormatRequestUsingCurrentType(Request);
 
     WDF_REQUEST_SEND_OPTIONS_INIT(
-                                  &amp;options,
+                                  &options,
                                   WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET
                                   );
 
     ret = WdfRequestSend (
                           Request,
                           WdfDeviceGetIoTarget(WdfIoQueueGetDevice(Queue)),
-                          &amp;options
+                          &options
                           );
     if (!ret) {
         status = WdfRequestGetStatus(Request);

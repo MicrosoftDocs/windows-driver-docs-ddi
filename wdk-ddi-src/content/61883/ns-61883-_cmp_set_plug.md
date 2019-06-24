@@ -68,11 +68,11 @@ On input, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5370
 
 
 
-If successful, the IEC-61883 protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_SUCCESS. 
+If successful, the IEC-61883 protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_SUCCESS. 
 
-If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
+If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_INVALID_PARAMETER.
 
-If a driver attempts to set the contents of a plug register it did not create, the protocol driver sets <b>Irp-&gt;IoStatus.Status </b>to STATUS_ACCESS_DENIED.
+If a driver attempts to set the contents of a plug register it did not create, the protocol driver sets <b>Irp->IoStatus.Status </b>to STATUS_ACCESS_DENIED.
 
 
 

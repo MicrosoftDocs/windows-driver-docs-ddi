@@ -72,20 +72,20 @@ If the ATA command requests a data transfer operation, the caller must set up a 
 ### -input-buffer
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The value of <b>InputBufferLength</b> is fixed and does not depend on the amount of data transferred. It is equal to <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT). If the size of the buffer is less than <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT), the port driver fails the I/O request and returns an error. 
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The value of <b>InputBufferLength</b> is fixed and does not depend on the amount of data transferred. It is equal to <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT). If the size of the buffer is less than <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT), the port driver fails the I/O request and returns an error. 
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> structure that includes a set of task file input registers that indicate the sort of command to be performed. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBuffer</b> member of <b>ATA_PASS_THROUGH_DIRECT</b> must point to a cache-aligned buffer containing the data to be written. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> structure that includes a set of task file input registers that indicate the sort of command to be performed. The caller must initialize all the members of this structure except for <b>PathId</b>, <b>TargetId</b>, and <b>Lun</b>, which the port driver fills in. For a data-out command, the <b>DataBuffer</b> member of <b>ATA_PASS_THROUGH_DIRECT</b> must point to a cache-aligned buffer containing the data to be written. 
 
 
 ### -input-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The value of <b>InputBufferLength</b> is fixed and does not depend on the amount of data transferred. It is equal to <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT). If the size of the buffer is less than <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT), the port driver fails the I/O request and returns an error. 
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size in bytes of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The value of <b>InputBufferLength</b> is fixed and does not depend on the amount of data transferred. It is equal to <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT). If the size of the buffer is less than <b>sizeof</b>(ATA_PASS_THROUGH_DIRECT), the port driver fails the I/O request and returns an error. 
 
 
 ### -output-buffer
 
-The port driver formats the return data using an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> structure that it stores in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The port driver formats the return data using an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> structure that it stores in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 The port driver stores the transferred data in the cache-aligned buffer pointed to by the <b>DataBuffer</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a>.
 
@@ -117,7 +117,7 @@ The port driver updates the <b>DataTransferLength</b> member of the <a href="htt
 
 ### -status-block
 
-The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> is improperly set. 
+The <b>Information</b> member is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> member is set to STATUS_SUCCESS or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff551322">ATA_PASS_THROUGH_DIRECT</a> is improperly set. 
 
 
 ## -see-also

@@ -72,7 +72,7 @@ The <b>KeRaiseIrqlToDpcLevel</b> routine raises the hardware priority to IRQL = 
 
 Any caller of <b>KeRaiseIrqlToDpcLevel</b> should save the returned IRQL value. Every such caller must restore the original IRQL as quickly as possible by passing this returned IRQL in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
 
-Callers of <b>KeRaiseIrqlToDpcLevel</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Otherwise, a call to this routine causes a bug check.
+Callers of <b>KeRaiseIrqlToDpcLevel</b> must be running at IRQL <= DISPATCH_LEVEL. Otherwise, a call to this routine causes a bug check.
 
 
 

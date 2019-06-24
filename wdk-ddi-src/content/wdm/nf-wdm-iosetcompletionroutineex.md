@@ -71,7 +71,7 @@ Specifies the entry point for the driver-supplied <a href="https://msdn.microsof
 
 ### -param Context [in, optional]
 
-Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routine. Context information must be stored in nonpaged memory, because the <i>IoCompletion</i> routine is called at IRQL &lt;= DISPATCH_LEVEL.
+Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routine. Context information must be stored in nonpaged memory, because the <i>IoCompletion</i> routine is called at IRQL <= DISPATCH_LEVEL.
 
 
 ### -param InvokeOnSuccess [in]

@@ -64,7 +64,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param HardwareID [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a hardware ID string. The driver can allocate the string's buffer from paged pool.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a hardware ID string. The driver can allocate the string's buffer from paged pool.
 
 
 ## -returns
@@ -132,7 +132,7 @@ DECLARE_CONST_UNICODE_STRING(hardwareId, KBFILTR_DEVICE_ID);
 
 status = WdfPdoInitAddHardwareID(
                                  pDeviceInit,
-                                 &amp;hardwareId
+                                 &hardwareId
                                  );</pre>
 </td>
 </tr>

@@ -103,7 +103,7 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
+<b>Irp->IoStatus.Status</b> is set to <b>STATUS_SUCCESS</b> if the request is successful. Possible error codes are:
 
 <table>
 <tr>

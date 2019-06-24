@@ -116,14 +116,14 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
     // Declare an IWDFDeviceInitialize2 interface pointer and obtain the
     // IWDFDeviceInitialize2 interface from the IWDFDeviceInitialize interface.
     //
-    CComQIPtr&lt;IWDFDeviceInitialize2&gt; di2 = FxDeviceInit;
+    CComQIPtr<IWDFDeviceInitialize2> di2 = FxDeviceInit;
 
     //
     // For this device, set the retrieval mode to deferred, set
     // the access method to buffered for read and write requests,
     // and set the access mode to direct for device I/O control requests.
     // 
-    di2-&gt;SetIoTypePreference(WdfDeviceIoBufferRetrievalDeferred,
+    di2->SetIoTypePreference(WdfDeviceIoBufferRetrievalDeferred,
                              WdfDeviceIoBuffered,
                              WdfDeviceIoDirect);
 ...

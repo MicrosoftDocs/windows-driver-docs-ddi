@@ -139,11 +139,11 @@ Virtualization_SetPowerState (
 
     deviceContext = (PDEVICE_CONTEXT) Context;
 
-    if (VfIndex &gt;= deviceContext-&gt;NumVFs)
+    if (VfIndex >= deviceContext->NumVFs)
     {
         TraceEvents(TRACE_LEVEL_ERROR, DBG_INTERFACE,
                 "VfIndex specified: %d was out of bounds. NumVFs: %d\n",
-                VfIndex, deviceContext-&gt;NumVFs);
+                VfIndex, deviceContext->NumVFs);
         return STATUS_INVALID_PARAMETER;
     }
 
@@ -165,10 +165,10 @@ Virtualization_SetPowerState (
         return STATUS_INVALID_PARAMETER;
     }
 
-    WdfWaitLockAcquire(deviceContext-&gt;PowerStateLock, NULL);
-    deviceContext-&gt;VfContext[VfIndex].VfPowerDeviceState = wdfPowerState;
-    deviceContext-&gt;VfContext[VfIndex].VfWake = Wake;
-    WdfWaitLockRelease(deviceContext-&gt;PowerStateLock);
+    WdfWaitLockAcquire(deviceContext->PowerStateLock, NULL);
+    deviceContext->VfContext[VfIndex].VfPowerDeviceState = wdfPowerState;
+    deviceContext->VfContext[VfIndex].VfWake = Wake;
+    WdfWaitLockRelease(deviceContext->PowerStateLock);
 
     return status;
 }

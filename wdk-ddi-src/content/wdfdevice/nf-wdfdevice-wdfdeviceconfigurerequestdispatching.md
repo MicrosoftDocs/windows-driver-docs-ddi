@@ -162,15 +162,15 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDFQUEUE WriteQueue;
 
 WDF_IO_QUEUE_CONFIG_INIT(
-                         &amp;queueConfig,
+                         &queueConfig,
                          WdfIoQueueDispatchSequential
                          );
 queueConfig.EvtIoWrite = MyEvtIoWrite;
 status = WdfIoQueueCreate(
                           Device,
-                          &amp;queueConfig,
+                          &queueConfig,
                           WDF_NO_OBJECT_ATTRIBUTES,
-                          &amp;WriteQueue
+                          &WriteQueue
                           );
 if(!NT_SUCCESS(status)) {
     return status;

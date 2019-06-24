@@ -138,7 +138,7 @@ CompletePendingRequest(
     LONG shouldComplete = 1;
 
     if (m_PendingRequest) {
-        HRESULT hrUnmark = m_PendingRequest-&gt;UnmarkCancelable();
+        HRESULT hrUnmark = m_PendingRequest->UnmarkCancelable();
         if (HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED) == hrUnmark) { 
             //
             // We are racing with OnCancel.  We cannot complete m_PendingRequest until after
@@ -146,7 +146,7 @@ CompletePendingRequest(
             // guarantee this, the last to run (either OnCancel or CompletePendingRequest) will
             // be the one to complete the request. 
             //
-            shouldComplete = InterlockedExchange(&amp;m_CompleteCancelledRequest, 1);
+            shouldComplete = InterlockedExchange(&m_CompleteCancelledRequest, 1);
         }
 
         // 
@@ -155,10 +155,10 @@ CompletePendingRequest(
         // 
 
         if (1 == shouldComplete) { 
-            IWDFIoRequest *FxRequest = (IWDFIoRequest*)InterlockedExchangePointer((PVOID *)&amp;m_PendingRequest, NULL);
-            InterlockedExchange(&amp;m_CompleteCancelledRequest, 0);
-            FxRequest-&gt;SetInformation(information);
-            FxRequest-&gt;Complete(hr);
+            IWDFIoRequest *FxRequest = (IWDFIoRequest*)InterlockedExchangePointer((PVOID *)&m_PendingRequest, NULL);
+            InterlockedExchange(&m_CompleteCancelledRequest, 0);
+            FxRequest->SetInformation(information);
+            FxRequest->Complete(hr);
         }
    }
 }
@@ -189,15 +189,15 @@ OnCancel(
     // to complete this request.
     //
 
-    LONG shouldComplete = InterlockedExchange(&amp;m_CompleteCancelledRequest, 1);
+    LONG shouldComplete = InterlockedExchange(&m_CompleteCancelledRequest, 1);
     if (1 == shouldComplete) { 
         //
         // Enter this block only if we are the last to run.
         // Otherwise, rely on CompletePendingRequest to complete this request.
         //
-        (void*) InterlockedExchangePointer((PVOID *)&amp;m_PendingRequest, NULL);
-        InterlockedExchange(&amp;m_CompleteCancelledRequest, 0);
-        pWdfRequest-&gt;Complete(HRESULT_FROM_WIN32(ERROR_CANCELLED));
+        (void*) InterlockedExchangePointer((PVOID *)&m_PendingRequest, NULL);
+        InterlockedExchange(&m_CompleteCancelledRequest, 0);
+        pWdfRequest->Complete(HRESULT_FROM_WIN32(ERROR_CANCELLED));
      } 
  
 }
@@ -221,7 +221,7 @@ The driver also defines a <b>CommandInformation</b> structure that holds a singl
 <pre>
 void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
 {
-    CComCritSecLock&lt;CComAutoCriticalSection&gt; scopeLock(m_CriticalSection);
+    CComCritSecLock<CComAutoCriticalSection> scopeLock(m_CriticalSection);
 
     if (NULL != CommandInfo)
     {
@@ -236,7 +236,7 @@ void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
             // If queue is not empty, retrieve the first element from the list.
             //
             *CommandInfo = RemoveHead(); 
-            if (HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED) != (CommandInfo-&gt;Request)-&gt;UnmarkCancelable())
+            if (HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED) != (CommandInfo->Request)->UnmarkCancelable())
             {
                 //
                 // UnmarkCancelable was successful.
@@ -252,7 +252,7 @@ void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
                 // popped the request off our internal queue, let’s cleanup the generic command object
                 // and let OnCancel complete the request.               
                 //                
-                CommandInfo-&gt;Cleanup();
+                CommandInfo->Cleanup();
             }
         }    
     }
@@ -264,7 +264,7 @@ void MyQueue::DeQueue(__out CommandInformation* CommandInfo)
 void MyQueue::OnCancel(__in IWDFIoRequest* Request)
 {
     {
-        CComCritSecLock&lt;CComAutoCriticalSection&gt; scopeLock(m_CriticalSection);
+        CComCritSecLock<CComAutoCriticalSection> scopeLock(m_CriticalSection);
 
         POSITION pos = GetFirstNodePosition();
 
@@ -293,7 +293,7 @@ void MyQueue::OnCancel(__in IWDFIoRequest* Request)
     // when it calls UnmarkCancelable for the request. In this case, as soon as
     // DeQueue releases the scopeLock, the framework calls OnCancel to cancel the request.
     //
-    Request-&gt;Complete(HRESULT_FROM_WIN32(ERROR_CANCELLED));
+    Request->Complete(HRESULT_FROM_WIN32(ERROR_CANCELLED));
 }
 
 

@@ -99,7 +99,7 @@ If the partner connector is the power sink, the local connector port must query 
 <td>
 <pre>        UCM_PD_POWER_DATA_OBJECT Pdos[1];
 
-        UCM_PD_POWER_DATA_OBJECT_INIT_FIXED(&amp;Pdos[0]);
+        UCM_PD_POWER_DATA_OBJECT_INIT_FIXED(&Pdos[0]);
 
         Pdos[0].FixedSupplyPdo.VoltageIn50mV = 100;         // 5V
         Pdos[0].FixedSupplyPdo.MaximumCurrentIn10mA = 150;  // 1.5 A

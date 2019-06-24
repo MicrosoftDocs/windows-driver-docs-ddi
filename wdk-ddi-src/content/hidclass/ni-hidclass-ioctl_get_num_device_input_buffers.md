@@ -60,7 +60,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be &gt;= <b>sizeof</b>(ULONG). 
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be >= <b>sizeof</b>(ULONG). 
 
 
 ### -input-buffer-length
@@ -70,7 +70,7 @@ The size of the buffer is <b>sizeof</b>(ULONG).
 
 ### -output-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a buffer that will receive the size of the report input queue. 
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a buffer that will receive the size of the report input queue. 
 
 
 ### -output-buffer-length
@@ -98,7 +98,7 @@ The size of the buffer is <b>sizeof</b>(ULONG).
 
 ### -status-block
 
-The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
+The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 <ul>
 <li>

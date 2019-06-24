@@ -114,20 +114,20 @@ This example code shows how to create a Type-C connector that is PD-capable.
 <pre>    
     UCMCONNECTOR Connector;
   
-    UCM_CONNECTOR_CONFIG_INIT(&amp;connCfg, 0);
+    UCM_CONNECTOR_CONFIG_INIT(&connCfg, 0);
 
     UCM_CONNECTOR_TYPE_C_CONFIG_INIT(
-        &amp;connCfg.TypeCConfig,
+        &connCfg.TypeCConfig,
         UcmTypeCOperatingModeDrp,
         UcmTypeCCurrentDefaultUsb | UcmTypeCCurrent1500mA | UcmTypeCCurrent3000mA);
 
     connCfg.EvtSetDataRole = EvtSetDataRole;
 
-    UCM_CONNECTOR_PD_CONFIG_INIT(&amp;connCfg.PdConfig, UcmPowerRoleSink | UcmPowerRoleSource);
+    UCM_CONNECTOR_PD_CONFIG_INIT(&connCfg.PdConfig, UcmPowerRoleSink | UcmPowerRoleSource);
 
-    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&amp;attr, CONNECTOR_CONTEXT);
+    WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(&attr, CONNECTOR_CONTEXT);
 
-    status = UcmConnectorCreate(Device, &amp;connCfg, &amp;attr, &amp;Connector);
+    status = UcmConnectorCreate(Device, &connCfg, &attr, &Connector);
     if (!NT_SUCCESS(status))
     {
         TRACE_ERROR(

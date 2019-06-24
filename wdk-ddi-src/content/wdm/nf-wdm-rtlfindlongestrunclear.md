@@ -79,7 +79,7 @@ Pointer to a variable in which the starting index of the longest clear run in th
 
 A returned run can have a single clear bit.
 
-Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindLongestRunClear</b> can be called at any IRQL.
+Callers of <b>RtlFindLongestRunClear</b> must be running at IRQL <= APC_LEVEL if the memory that contains the bitmap variable is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlFindLongestRunClear</b> can be called at any IRQL.
 
 
 

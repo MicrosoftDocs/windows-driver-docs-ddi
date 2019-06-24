@@ -171,16 +171,16 @@ The following code example initializes a <a href="https://msdn.microsoft.com/lib
 WDFCOMMONBUFFER  commonBuffer;
 
 WDF_COMMON_BUFFER_CONFIG_INIT(
-                              &amp;commonBufConfig,
+                              &commonBufConfig,
                               FILE_32_BYTE_ALIGNMENT
                               );
 
 status = WdfCommonBufferCreateWithConfig(
                                          DmaEnabler,
                                          10,
-                                         &amp;commonBufConfig,
+                                         &commonBufConfig,
                                          WDF_NO_OBJECT_ATTRIBUTES,
-                                         &amp;commonBuffer
+                                         &commonBuffer
                                          );
 if (!NT_SUCCESS (status)) {
     return status;

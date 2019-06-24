@@ -64,13 +64,13 @@ The type of handle operation. This member might be one of the following values:
 
 #### OB_OPERATION_HANDLE_CREATE
 
-A new handle to a process or thread will be opened. Use <b>Parameters-&gt;CreateHandleInformation</b> for create-specific information.
+A new handle to a process or thread will be opened. Use <b>Parameters->CreateHandleInformation</b> for create-specific information.
 
 
 
 #### OB_OPERATION_HANDLE_DUPLICATE
 
-A process or thread handle will be duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
+A process or thread handle will be duplicated. Use <b>Parameters->DuplicateHandleInformation</b> for duplicate-specific information.
 
 
 ### -field Flags

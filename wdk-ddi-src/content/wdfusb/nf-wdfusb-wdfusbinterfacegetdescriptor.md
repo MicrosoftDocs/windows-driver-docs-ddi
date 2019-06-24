@@ -116,7 +116,7 @@ settingIndex = WdfUsbInterfaceGetConfiguredSettingIndex(
 WdfUsbInterfaceGetDescriptor(
                              UsbInterface,
                              settingIndex,
-                             &amp;interfaceDescriptor
+                             &interfaceDescriptor
                              );</pre>
 </td>
 </tr>

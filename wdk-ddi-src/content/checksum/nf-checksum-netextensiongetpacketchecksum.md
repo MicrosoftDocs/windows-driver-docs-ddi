@@ -24,8 +24,8 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
--	apiref
+topictype:
+-   APIRef
 apitype: 
 -	DllExport
 apilocation: 
@@ -61,7 +61,7 @@ The index in the packet ring for the target [**NET_PACKET**](../packet/ns-packet
 
 ## -returns
 
-Returns a pointer to a [**NET_PACKET_CHECKSUM**](ns-checksum-_net_packet_checksum.md) structure that holds the checksum information for this packet.
+Returns a pointer to a [**NET_PACKET_CHECKSUM**](../checksumtypes/ns-checksumtypes-_net_packet_checksum.md) structure that holds the checksum information for this packet.
 
 ## -remarks
 

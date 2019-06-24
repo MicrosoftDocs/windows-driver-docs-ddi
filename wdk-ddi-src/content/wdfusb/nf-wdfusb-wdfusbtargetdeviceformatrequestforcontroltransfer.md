@@ -210,27 +210,27 @@ NTSTATUS status;
 WDF_OBJECT_ATTRIBUTES attributes;
 WDFMEMORY memHandle;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 
 status = WdfRequestCreate(
-                          &amp;attributes,
+                          &attributes,
                           WdfUsbTargetDeviceGetIoTarget(
                               UsbTargetDevice,
-                              &amp;request
+                              &request
                               )
                           );
 if (!NT_SUCCESS(status)){
     return status;
 }
 
-WDF_OBJECT_ATTRIBUTES_INIT(&amp;attributes);
+WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.ParentObject = request;
 status = WdfMemoryCreate(
-                         &amp;attributes,
+                         &attributes,
                          NonPagedPool,
                          0,
                          sizeof(USHORT),
-                         &amp;memHandle,
+                         &memHandle,
                          NULL
                          );
 if (!NT_SUCCESS(status)){
@@ -238,14 +238,14 @@ if (!NT_SUCCESS(status)){
 }
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS(
-                                             &amp;packet,
+                                             &packet,
                                              BmRequestToDevice,
                                              0
                                              );
 status = WdfUsbTargetDeviceFormatRequestForControlTransfer(
                          UsbTargetDevice,
                          request,
-                         &amp;packet,
+                         &packet,
                          memHandle,
                          NULL
                          );

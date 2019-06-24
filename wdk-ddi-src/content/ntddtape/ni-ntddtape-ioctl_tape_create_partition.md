@@ -60,12 +60,12 @@ Creates the specified number of fixed, select, or initiator partition(s) of the 
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567960">TAPE_CREATE_PARTITION</a> that specifies the partition(s) to be created. 
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567960">TAPE_CREATE_PARTITION</a> that specifies the partition(s) to be created. 
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be &gt;= <b>sizeof</b>(TAPE_CREATE_PARTITION). 
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_CREATE_PARTITION). 
 
 
 ### -output-buffer

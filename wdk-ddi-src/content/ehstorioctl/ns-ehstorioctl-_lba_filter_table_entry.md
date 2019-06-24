@@ -78,7 +78,7 @@ Set to TRUE if the LBA range in this entry is  not writeable. Otherwise, this me
 
 
 
-An LBA range is valid only if LbaCount is &gt; 0 and it is not overlapping with another entry in <a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>.
+An LBA range is valid only if LbaCount is > 0 and it is not overlapping with another entry in <a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>.
 
 
 

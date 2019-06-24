@@ -60,9 +60,9 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a ULONG-sized input buffer that receives the new number of buffers for the input report queue.
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a ULONG-sized input buffer that receives the new number of buffers for the input report queue.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP contains the size, in bytes, of the input bufferat <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. This size must be <b>sizeof</b>(ULONG).
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP contains the size, in bytes, of the input bufferat <b>Irp->AssociatedIrp.SystemBuffer</b>. This size must be <b>sizeof</b>(ULONG).
 
 
 ### -input-buffer-length
@@ -102,7 +102,7 @@ The size of a ULONG.
 
 ### -status-block
 
-If the request succeeds, the HID class driver sets the <b>Status</b> field of <b>Irp-&gt;IoStatus</b> to STATUS_SUCCESS; otherwise, it sets the <b>Status</b> field to an appropriate NTSTATUS error code.
+If the request succeeds, the HID class driver sets the <b>Status</b> field of <b>Irp->IoStatus</b> to STATUS_SUCCESS; otherwise, it sets the <b>Status</b> field to an appropriate NTSTATUS error code.
 
 
 ## -see-also

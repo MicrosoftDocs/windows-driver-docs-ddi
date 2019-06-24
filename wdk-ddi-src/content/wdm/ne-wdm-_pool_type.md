@@ -70,7 +70,7 @@ Starting with Windows 8, <b>NonPagedPoolExecute</b> is an alternate name for th
 
 ### -field PagedPool
 
-<i>Paged pool</i>, which is pageable system memory. Paged pool can only be allocated and accessed at IRQL &lt; DISPATCH_LEVEL.
+<i>Paged pool</i>, which is pageable system memory. Paged pool can only be allocated and accessed at IRQL < DISPATCH_LEVEL.
 
 
 ### -field NonPagedPoolMustSucceed

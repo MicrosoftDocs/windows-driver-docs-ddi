@@ -192,10 +192,10 @@ BOOLEAN  Cancelled;
  //
  // Allocate the additional IRP here:
  //
-KeInitializeEvent( &amp;Event,
+KeInitializeEvent( &Event,
             SynchronizationEvent,
     FALSE );
-pContext-&gt;pEvent = &amp;Event; // Driver specific context structure.
+pContext->pEvent = &Event; // Driver specific context structure.
  IoSetCompletionRoutine( pAdditionalIrp,
  FunctionCompletionRoutine,
  pContext,
@@ -208,8 +208,8 @@ pContext-&gt;pEvent = &amp;Event; // Driver specific context structure.
    // Initialize Timeout variable here. If no timeout is needed, pass NULL for 
    // that parameter instead.
    //
-  WaitStatus = FsRtlCancellableWaitForSingleObject( &amp;Event, 
-          &amp;Timeout,
+  WaitStatus = FsRtlCancellableWaitForSingleObject( &Event, 
+          &Timeout,
                pOriginalIrp );
    if ((WaitStatus == STATUS_CANCELLED) || (WaitStatus == STATUS_THREAD_IS_TERMINATING)) {
     //
@@ -217,12 +217,12 @@ pContext-&gt;pEvent = &amp;Event; // Driver specific context structure.
     // Cancel the additional IRP passed to the lower level driver, cleanup, and return quickly.
     //
    Cancelled = IoCancelIrp( pAdditionalIrp );
-    if (!Cancelled || KeReadStateEvent( &amp;Event ) == 0) {
+    if (!Cancelled || KeReadStateEvent( &Event ) == 0) {
      //
      //  Wait for the IRP to complete. 
      // If cancel was posted successfully on the IRP, this shouldn't take a long time.
      //
-    (VOID) KeWaitForSingleObject( &amp;Event,
+    (VOID) KeWaitForSingleObject( &Event,
              Executive,
              KernelMode,        // WaitMode
              FALSE,             // Alertable
@@ -243,7 +243,7 @@ pContext-&gt;pEvent = &amp;Event; // Driver specific context structure.
 }
  //
  // IRP is valid and needs to be handled here.
- // pAdditionalIrp-&gt;IoStatus.Status contains the status of the IRP.
+ // pAdditionalIrp->IoStatus.Status contains the status of the IRP.
  // Finally, pOriginal IRP needs to be completed appropriately as well.
  //
 }
@@ -257,8 +257,8 @@ FunctionCompletionRoutine(
   INOUT PIRP  pAdditionalIrp,
   IN PVOID  pContext)
 {
- if (pAdditionalIrp-&gt;PendingReturned) {
- KeSetEvent( pContext-&gt;pEvent, 0, FALSE );
+ if (pAdditionalIrp->PendingReturned) {
+ KeSetEvent( pContext->pEvent, 0, FALSE );
 }
 
  //

@@ -141,7 +141,7 @@ When your driver creates an object that uses the context space structure, it can
 PMY_REQUEST_CONTEXT pMyContext;
 
 WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
-                                        &amp;MyRequestObjectAttributes,
+                                        &MyRequestObjectAttributes,
                                         MY_REQUEST_CONTEXT
                                         );
 MyRequestObjectAttributes.ContextSizeOverride =
@@ -158,15 +158,15 @@ The driver can then create an object with a customized context size.
 <tr>
 <td>
 <pre>status = WdfRequestCreate(
-                          &amp;MyRequestObjectAttributes,
+                          &MyRequestObjectAttributes,
                           ioTarget,
-                          &amp;newRequest
+                          &newRequest
                           );</pre>
 </td>
 </tr>
 </table></span></div>
 
-
+For more information about the cleanup rules for a framework object hierarchy, see [Framework Object Life Cycle](https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle).
 
 ## -see-also
 

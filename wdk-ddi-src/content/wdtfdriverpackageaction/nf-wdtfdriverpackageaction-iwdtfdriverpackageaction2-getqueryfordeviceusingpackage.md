@@ -57,7 +57,7 @@ Returns an SDEL statement that queries for all devices that use the driver packa
 
 ### -param pSDEL [out, retval]
 
-&gt;The SDEL statement.
+>The SDEL statement.
 
 
 ## -returns

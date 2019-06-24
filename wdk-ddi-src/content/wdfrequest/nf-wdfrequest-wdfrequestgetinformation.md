@@ -103,10 +103,10 @@ The following code example sends an I/O request to an I/O target and then obtain
 status = WdfIoTargetSendWriteSynchronously(
                                            ioTarget,
                                            request,
-                                           &amp;outputMemoryDescriptor,
+                                           &outputMemoryDescriptor,
                                            NULL,
                                            NULL,
-                                           &amp;bytesWritten
+                                           &bytesWritten
                                            );
 if (NT_SUCCESS(status)) {
     informationRetrieved = WdfRequestGetInformation(request);
