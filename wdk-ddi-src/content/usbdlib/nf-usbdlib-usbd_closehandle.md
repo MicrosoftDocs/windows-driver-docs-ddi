@@ -5,7 +5,7 @@ description: The USBD_CloseHandle routine is called by a USB client driver to cl
 old-location: buses\usbd_unregister.htm
 tech.root: usbref
 ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
-ms.date: 05/07/2018
+ms.date: 06/24/2019
 ms.keywords: USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle
 ms.topic: function
 req.header: usbdlib.h
@@ -83,7 +83,7 @@ A client driver should call <b>USBD_CloseHandle</b> in the driver's routine that
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/how-to-add-xrb-support-for-client-drivers">Allocating and Building URBs</a>
 
 
 

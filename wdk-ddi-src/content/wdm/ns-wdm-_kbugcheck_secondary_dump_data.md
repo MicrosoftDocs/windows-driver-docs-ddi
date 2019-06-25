@@ -5,7 +5,7 @@ description: The KBUGCHECK_SECONDARY_DUMP_DATA structure describes a section of 
 old-location: kernel\kbugcheck_secondary_dump_data.htm
 tech.root: kernel
 ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
-ms.date: 05/03/2019
+ms.date: 05/08/2019
 ms.keywords: "*PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA"
 ms.topic: struct
 req.header: wdm.h
@@ -42,9 +42,7 @@ req.typenames: KBUGCHECK_SECONDARY_DUMP_DATA, *PKBUGCHECK_SECONDARY_DUMP_DATA
 
 # _KBUGCHECK_SECONDARY_DUMP_DATA structure
 
-
 ## -description
-
 
 The <b>KBUGCHECK_SECONDARY_DUMP_DATA</b> structure describes a section of driver-supplied data to be written by KbCallbackSecondaryDumpData routine to the crash dump file.
 
@@ -76,7 +74,7 @@ Specifies the size of the buffer, in bytes, that was specified by the <b>OutBuff
 
 ## -remarks
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a> and [KBUGCHECK_REASON_CALLBACK_ROUTINE](nc-wdm-kbugcheck_reason_callback_routine.md) callback function.
 
 ## -see-also
 

@@ -5,7 +5,7 @@ description: The WdfUsbTargetDeviceCreateWithParameters method creates a framewo
 old-location: wdf\wdfusbtargetdevicecreatewithparameters.htm
 tech.root: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
-ms.date: 02/26/2018
+ms.date: 06/24/2019
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 ms.topic: function
 req.header: wdfusb.h
@@ -163,7 +163,7 @@ Before a framework-based client driver can use the new capabilities of the USB d
 
 Typically, drivers call <b>WdfUsbTargetDeviceCreateWithParameters</b> from within an <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function. Drivers can also call <b>WdfUsbTargetDeviceCreateWithParameters</b> from within an <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
-For information about how WDM USB client drivers interact with the USB 3.0 driver stack, see  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>.
+For information about how WDM USB client drivers interact with the USB 3.0 driver stack, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-client-driver-contract-in-windows-8">Best Practices: Using URBs</a>.
 
 If the driver calls <b>WdfUsbTargetDeviceCreateWithParameters</b> to create a framework USB device object, the driver must create URBs only by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh439423">WdfUsbTargetDeviceCreateUrb</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439420">WdfUsbTargetDeviceCreateIsochUrb</a>.
 
