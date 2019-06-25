@@ -63,9 +63,9 @@ If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must
 
 A pointer to a variable that will receive the actual size, in bytes, of the freed region of pages. The routine rounds the initial value of this variable up to the next host page size boundary and writes the rounded value back to this variable.
 
-If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*RegionSize* must be zero. **NtFreeVirtualMemory** frees the entire region that was reserved in the initial allocation call to **NtAllocateVirtualMemory**.
+If the MEM_RELEASE flag is set in *\*FreeType*, *\*RegionSize* must be zero. **NtFreeVirtualMemory** frees the entire region that was reserved in the initial allocation call to **NtAllocateVirtualMemory**.
 
-If the MEM_DECOMMIT flag is set in the *FreeType* parameter, **NtFreeVirtualMemory** decommits all memory pages that contain one or more bytes in the range from the *BaseAddress* parameter to (*\*BaseAddress* + **RegionSize*). This means, for example, that if a two-byte region of memory straddles a page boundary, both pages are decommitted.
+If the MEM_DECOMMIT flag is set in *\*FreeType*, **NtFreeVirtualMemory** decommits all memory pages that contain one or more bytes in the range from *\*BaseAddress* to (*\*BaseAddress* + *\*RegionSize*). This means, for example, that if a two-byte region of memory straddles a page boundary, both pages are decommitted.
 
 **NtFreeVirtualMemory** decommits the entire region that was reserved by **NtAllocateVirtualMemory**. If the following three conditions are met, the entire region enters the reserved state:
 
@@ -102,7 +102,7 @@ MEM_RELEASE
 <td>
 <b>NtFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
 
-If you specify this flag, *<i>RegionSize</i> must be zero, and <i>*BaseAddress</i> must point to the base address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
+If you specify this flag, *<i>RegionSize</i> must be zero, and *<i>BaseAddress</i> must point to the base address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
 
 If any pages in the region are currently committed, <b>NtFreeVirtualMemory</b> first decommits and then releases them.
 
